@@ -331,17 +331,17 @@
     },
 
     // =========================================================================
-    // 20. BAHASA MANDARIN (135 SOAL AUTENTIK)
+    // 20. BAHASA MANDARIN (110 SOAL AUTENTIK)
     // =========================================================================
     bahasa_mandarin: {
       id: "bahasa_mandarin",
       title: "Bahasa Mandarin",
-      badge: "Hanzi & Yufa (HSK 3–4)",
+      badge: "Bahasa Mandarin — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
-      description: "Aksara Hanzi Esensial HSK 3–4, Tata Bahasa Partikel Aspektual (Le, Zhe, Guo), Struktur Kalimat Ba/Bei, dan Pemahaman Teks Laporan Kontemporer.",
-      status: "Standar Resmi Pusmendik TKA Bahasa Asing (HSK 3-4)",
+      description: "Aksara Hanzi Esensial HSK 2–3+, Tata Bahasa Partikel Aspektual (Le, Zhe, Guo), Struktur Kalimat Ba/Bei, dan Pemahaman Teks Laporan Kontemporer.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Bahasa Mandarin) & BSKAP 033/H/KR/2024",
       accentColor: "#dc2626",
-      totalPool: bahasaMandarinPool.length || 135,
+      totalPool: bahasaMandarinPool.length || 110,
       questions: bahasaMandarinPool
     },
 
@@ -658,12 +658,12 @@
       clusterTag: "Bahasa Asing",
       clusterColor: "#ec4899",
       title: "Bahasa Mandarin",
-      badge: "Hanzi & Yufa (HSK 3–4)",
+      badge: "Bahasa Mandarin — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>`,
-      topics: "Aksara Hanzi Esensial HSK 3–4, Tata Bahasa Partikel Aspektual (Le, Zhe, Guo), Struktur Kalimat Ba/Bei, dan Pemahaman Teks Laporan Kontemporer.",
+      topics: "Aksara Hanzi Esensial HSK 2–3+, Tata Bahasa Partikel Aspektual (Le, Zhe, Guo), Struktur Kalimat Ba/Bei, dan Pemahaman Teks Laporan Kontemporer.",
       targetCompetency: "Pengenalan karakter Hanzi standar tanpa pinyin, sintesis struktur kalimat komparasi, dan penarikan kesimpulan wacana opini publik.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "bahasa-jerman",
