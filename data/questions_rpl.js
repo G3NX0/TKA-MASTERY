@@ -10,7 +10,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -54,7 +54,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -285,7 +285,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -559,7 +559,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -603,7 +603,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -834,7 +834,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -1108,7 +1108,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -1152,7 +1152,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -1383,7 +1383,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "easy",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -1609,7 +1609,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -1653,7 +1653,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -1884,7 +1884,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -2158,7 +2158,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -2202,7 +2202,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -2433,7 +2433,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -2707,7 +2707,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -2751,7 +2751,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -2982,7 +2982,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "medium",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -3208,7 +3208,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -3252,7 +3252,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -3483,7 +3483,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -3757,7 +3757,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -3801,7 +3801,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -4032,7 +4032,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -4306,7 +4306,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -4350,7 +4350,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -4581,7 +4581,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -4807,7 +4807,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -4841,7 +4841,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -5022,7 +5022,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -5236,7 +5236,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -5270,7 +5270,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",
@@ -5451,7 +5451,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "JavaScript Asynchronous & State Management",
     "type": "mcq",
-    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
+    "questionHtml": "Perhatikan cuplikan kode JavaScript modern berikut:\n```javascript\nconsole.log('1');\n\nsetTimeout(() => {\n    console.log('2');\n}, 0);\n\nPromise.resolve().then(() => {\n    console.log('3');\n});\n\nconsole.log('4');\n```\nUrutan pencetakan angka pada konsol browser yang benar adalah...",
     "options": [
       {
         "key": "A",
@@ -5665,7 +5665,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Enkapsulasi, Inheritance & Polimorfisme",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() { System.out.println(\"Pegawai bekerja\"); }\n}\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() { System.out.println(\"Programmer coding\"); }\n}\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
+    "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Pegawai {\n    public void kerja() {\n        System.out.println(\"Pegawai bekerja\");\n    }\n}\n\nclass Programmer extends Pegawai {\n    @Override\n    public void kerja() {\n        System.out.println(\"Programmer coding\");\n    }\n}\n\npublic class Main {\n    public static void main(String[] args) {\n        Pegawai p = new Programmer();\n        p.kerja();\n    }\n}\n```\nOutput yang dihasilkan pada konsol saat program di-compile dan dijalankan adalah...",
     "options": [
       {
         "key": "A",
@@ -5699,7 +5699,7 @@ window.TKA_RPL_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Normalisasi 1NF-3NF & Query Kompleks",
     "type": "matrix",
-    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) as total_siswa, AVG(nilai) as rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
+    "questionHtml": "Perhatikan query SQL analitik berikut:\n```sql\nSELECT jurusan, COUNT(*) AS total_siswa, AVG(nilai) AS rata_nilai\nFROM siswa\nWHERE status = 'aktif'\nGROUP BY jurusan\nHAVING AVG(nilai) >= 80.0;\n```\nEvaluasilah kebenaran pernyataan pemrosesan database berikut:",
     "statements": [
       {
         "id": "0",

@@ -1112,6 +1112,220 @@
   }
 
   // =========================================================================
+  // CODE SNIPPET BOX & SYNTAX HIGHLIGHTING (IDE TERMINAL ENGINE)
+  // =========================================================================
+  function escapeHtml(str) {
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  const CODE_JAVA_KEYWORDS = new Set([
+    'class', 'extends', 'implements', 'public', 'private', 'protected',
+    'static', 'final', 'void', 'return', 'new', 'this', 'super', 'if',
+    'else', 'for', 'while', 'do', 'try', 'catch', 'finally', 'throw', 'throws',
+    'import', 'package', 'interface', 'abstract', 'instanceof', 'switch', 'case',
+    'default', 'break', 'continue', 'const', 'let', 'var', 'function', 'async',
+    'await', 'export', 'from', 'typeof'
+  ]);
+
+  const CODE_JAVA_TYPES = new Set([
+    'String', 'int', 'double', 'float', 'boolean', 'char', 'byte', 'short',
+    'long', 'Object', 'Main', 'Pegawai', 'Programmer', 'System', 'Promise',
+    'Array', 'Map', 'Set', 'Integer', 'Boolean', 'Double', 'Float', 'Character',
+    'Exception', 'List', 'ArrayList', 'HashMap', 'HashSet', 'console', 'JSON'
+  ]);
+
+  const CODE_SQL_KEYWORDS = new Set([
+    'SELECT', 'FROM', 'WHERE', 'GROUP', 'BY', 'ORDER', 'HAVING', 'INSERT',
+    'INTO', 'UPDATE', 'DELETE', 'JOIN', 'INNER', 'LEFT', 'RIGHT', 'OUTER',
+    'ON', 'AS', 'AND', 'OR', 'NOT', 'IN', 'BETWEEN', 'LIKE', 'IS', 'NULL',
+    'COUNT', 'AVG', 'SUM', 'MAX', 'MIN', 'DISTINCT', 'LIMIT', 'OFFSET',
+    'UNION', 'ALL', 'CREATE', 'TABLE', 'ALTER', 'DROP', 'PRIMARY', 'KEY',
+    'FOREIGN', 'REFERENCES', 'VALUES', 'SET', 'DEFAULT', 'CHECK', 'INDEX',
+    'VIEW', 'TRIGGER', 'PROCEDURE', 'FUNCTION', 'TRANSACTION', 'COMMIT', 'ROLLBACK'
+  ]);
+
+  function highlightCodeSyntax(code, lang) {
+    const l = (lang || '').toLowerCase();
+    const tokenRegex = /(\/\/[^\n]*|\/\*[\s\S]*?\*\/|--[^\n]*|"[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|@\w+|\b\d+(?:\.\d+)?\b|\b[a-zA-Z_]\w*\b|[^\s\w])/g;
+
+    let result = '';
+    let lastIndex = 0;
+    let match;
+
+    while ((match = tokenRegex.exec(code)) !== null) {
+      if (match.index > lastIndex) {
+        result += escapeHtml(code.slice(lastIndex, match.index));
+      }
+      lastIndex = tokenRegex.lastIndex;
+
+      const val = match[1];
+      const esc = escapeHtml(val);
+
+      if (val.startsWith('//') || val.startsWith('/*') || val.startsWith('--')) {
+        result += `<span class="tok-comment">${esc}</span>`;
+      } else if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
+        result += `<span class="tok-str">${esc}</span>`;
+      } else if (val.startsWith('@')) {
+        result += `<span class="tok-annot">${esc}</span>`;
+      } else if (/^\d/.test(val)) {
+        result += `<span class="tok-num">${esc}</span>`;
+      } else if (l === 'java' || l === 'javascript' || l === 'js') {
+        if (CODE_JAVA_KEYWORDS.has(val)) {
+          result += `<span class="tok-kw">${esc}</span>`;
+        } else if (CODE_JAVA_TYPES.has(val)) {
+          result += `<span class="tok-type">${esc}</span>`;
+        } else if (['println', 'print', 'setTimeout', 'resolve', 'reject', 'then', 'log', 'kerja', 'toString'].includes(val)) {
+          result += `<span class="tok-fn">${esc}</span>`;
+        } else {
+          result += esc;
+        }
+      } else if (l === 'sql') {
+        if (CODE_SQL_KEYWORDS.has(val.toUpperCase())) {
+          result += `<span class="tok-kw">${esc.toUpperCase()}</span>`;
+        } else {
+          result += esc;
+        }
+      } else {
+        result += esc;
+      }
+    }
+
+    if (lastIndex < code.length) {
+      result += escapeHtml(code.slice(lastIndex));
+    }
+    return result;
+  }
+
+  function renderCodeBox(code, lang) {
+    const rawLang = (lang || '').trim();
+    const displayLang = rawLang ? rawLang.toUpperCase() : 'CODE';
+    const highlighted = highlightCodeSyntax(code, rawLang);
+    const lineCount = code.split('\n').length;
+    const lineNumbers = Array.from({ length: lineCount }, (_, i) => `<span>${i + 1}</span>`).join('');
+    const encoded = encodeURIComponent(code);
+
+    return `<div class="code-snippet-box" data-raw-code="${encoded}">
+      <div class="code-box-header">
+        <div class="code-box-header-left">
+          <div class="mac-dots" aria-hidden="true">
+            <span class="mac-dot red"></span>
+            <span class="mac-dot yellow"></span>
+            <span class="mac-dot green"></span>
+          </div>
+          <span class="code-lang-badge">${displayLang}</span>
+        </div>
+        <div class="code-box-header-right">
+          <button type="button" class="btn-copy-code" onclick="window.copyCodeSnippet(this)" title="Salin potongan kode">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+            </svg>
+            <span>Salin</span>
+          </button>
+        </div>
+      </div>
+      <div class="code-box-body">
+        <div class="code-line-numbers" aria-hidden="true">${lineNumbers}</div>
+        <pre class="code-pre"><code class="code-content language-${displayLang.toLowerCase()}">${highlighted}</code></pre>
+      </div>
+    </div>`;
+  }
+
+  window.copyCodeSnippet = function(button) {
+    if (!button) return;
+    const box = button.closest('.code-snippet-box');
+    if (!box) return;
+    const rawEncoded = box.getAttribute('data-raw-code');
+    const code = rawEncoded ? decodeURIComponent(rawEncoded) : (box.querySelector('.code-content')?.textContent || '');
+
+    const finishCopy = () => {
+      const originalHtml = button.innerHTML;
+      button.classList.add('copied');
+      button.innerHTML = `
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+        <span>Tersalin!</span>
+      `;
+      setTimeout(() => {
+        button.classList.remove('copied');
+        button.innerHTML = originalHtml;
+      }, 2000);
+    };
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(code).then(finishCopy).catch(() => {
+        fallbackCopy(code, finishCopy);
+      });
+    } else {
+      fallbackCopy(code, finishCopy);
+    }
+  };
+
+  function fallbackCopy(text, cb) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      if (cb) cb();
+    } catch (e) {
+      console.warn('Fallback copy failed', e);
+    }
+    document.body.removeChild(ta);
+  }
+
+  function formatContentWithCode(content, inlineOnly = false) {
+    if (!content || typeof content !== 'string') return content || '';
+
+    // If pure inline string without code block and without double-newlines
+    if (inlineOnly || (!content.includes('```') && !content.includes('\n\n'))) {
+      return content.replace(/`([^`\n]+)`/g, (m, inline) => `<code class="inline-code">${escapeHtml(inline)}</code>`);
+    }
+
+    const blocks = [];
+    const placeholderPrefix = '___CODE_BLOCK_TOKEN_';
+    let processed = content.replace(/```([a-zA-Z0-9_-]*)\s*([\s\S]*?)```/g, (match, lang, code) => {
+      const idx = blocks.length;
+      blocks.push(renderCodeBox(code.trim(), lang.trim()));
+      return `\n\n${placeholderPrefix}${idx}___\n\n`;
+    });
+
+    processed = processed.replace(/`([^`\n]+)`/g, (m, inline) => {
+      return `<code class="inline-code">${escapeHtml(inline)}</code>`;
+    });
+
+    const rawParts = processed.split(/\r?\n\r?\n/);
+    const htmlParts = rawParts.map(part => {
+      const trimmed = part.trim();
+      if (!trimmed) return '';
+      const tokenMatch = trimmed.match(new RegExp(`^${placeholderPrefix}(\\d+)___$`));
+      if (tokenMatch) {
+        const idx = parseInt(tokenMatch[1], 10);
+        return blocks[idx] || '';
+      }
+      if (/<\/?(p|div|section|table|tr|td|th|ul|ol|li|h[1-6])\b/i.test(trimmed)) {
+        return trimmed;
+      }
+      return `<p>${trimmed.replace(/\r?\n/g, '<br>')}</p>`;
+    });
+
+    let result = htmlParts.filter(Boolean).join('\n');
+    blocks.forEach((blockHtml, i) => {
+      result = result.replace(new RegExp(`${placeholderPrefix}${i}___`, 'g'), blockHtml);
+    });
+
+    return result;
+  }
+
+  // =========================================================================
   // QUESTION RENDERER & DOMAIN-AWARE SCAFFOLDING
   // =========================================================================
   function renderQuestion(index) {
@@ -1159,12 +1373,12 @@
       els.paperQText.innerHTML = `
         <section class="question-stimulus">
           <div class="question-stimulus-label">STIMULUS WACANA</div>
-          <p>${q.stimulus}</p>
+          ${formatContentWithCode(q.stimulus)}
         </section>
-        <div class="question-prompt">${q.questionHtml || (q.question ? `<p>${q.question}</p>` : '')}</div>
+        <div class="question-prompt">${formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''))}</div>
       `;
     } else {
-      els.paperQText.innerHTML = q.questionHtml || (q.question ? `<p>${q.question}</p>` : '');
+      els.paperQText.innerHTML = formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''));
     }
 
     // Domain-Aware Scaffolding Setup (Training Mode or Review Mode)
@@ -1252,15 +1466,16 @@
       if (hintsData && state.sessionMode === 'latihan') {
         if (els.scaffoldItemClue1) els.scaffoldItemClue1.classList.remove('hidden');
         if (els.scaffoldItemClue2) els.scaffoldItemClue2.classList.remove('hidden');
-        if (els.clue1Body) els.clue1Body.innerHTML = hintsData.concept || 'Tidak ada petunjuk konsep.';
-        if (els.clue2Body) els.clue2Body.innerHTML = hintsData.execution || 'Tidak ada petunjuk eksekusi.';
+        if (els.clue1Body) els.clue1Body.innerHTML = formatContentWithCode(hintsData.concept || 'Tidak ada petunjuk konsep.');
+        if (els.clue2Body) els.clue2Body.innerHTML = formatContentWithCode(hintsData.execution || 'Tidak ada petunjuk eksekusi.');
       } else {
         if (els.scaffoldItemClue1) els.scaffoldItemClue1.classList.add('hidden');
         if (els.scaffoldItemClue2) els.scaffoldItemClue2.classList.add('hidden');
       }
 
       // Solution (Anti-Spoiler: Official key only displayed during Review Mode!)
-      let solutionHtml = q.explanation || q.solution || 'Panduan pengerjaan bertahap tersedia.';
+      let rawSolution = q.explanation || q.solution || 'Panduan pengerjaan bertahap tersedia.';
+      let solutionHtml = formatContentWithCode(rawSolution);
       if (state.exam.isReviewMode) {
         let keyText = '';
         if (q.type === 'matrix' || q.type === 'complex_table') {
@@ -1452,7 +1667,7 @@
         }
 
         tr.innerHTML = `
-          <td class="col-stmt-text">${stmt.text}</td>
+          <td class="col-stmt-text">${formatContentWithCode(stmt.text, true)}</td>
           <td class="col-opt-cell">
             <button type="button" class="${benarClasses.join(' ')}" data-stmt="${stmt.id}" data-val="true" ${isReview ? 'disabled' : ''}>
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
@@ -1522,7 +1737,7 @@
             ${isSelected ? '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>' : ''}
           </span>
           <span class="p-opt-key">${opt.key}</span>
-          <span class="p-opt-text">${opt.text}</span>
+          <span class="p-opt-text">${formatContentWithCode(opt.text, true)}</span>
         `;
 
         if (!isReview) {
@@ -1567,7 +1782,7 @@
 
         btn.innerHTML = `
           <span class="p-opt-key">${opt.key}</span>
-          <span class="p-opt-text">${opt.text}</span>
+          <span class="p-opt-text">${formatContentWithCode(opt.text, true)}</span>
         `;
 
         if (!isReview) {
@@ -1603,6 +1818,8 @@
         { left: "$$", right: "$$", display: true },
         { left: "$", right: "$", display: false }
       ],
+      ignoredClasses: ["code-snippet-box", "code-pre", "code-content", "inline-code"],
+      ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"],
       throwOnError: false,
       errorColor: '#ef4444'
     };
