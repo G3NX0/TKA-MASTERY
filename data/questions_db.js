@@ -226,17 +226,17 @@
     },
 
     // =========================================================================
-    // 13. EKONOMI (135 SOAL AUTENTIK SOSHUM)
+    // 13. EKONOMI (AUTENTIK TKA 2026 SMA/MA SOSHUM)
     // =========================================================================
     ekonomi: {
       id: "ekonomi",
       title: "Ekonomi",
-      badge: "Pasar & Fiskal-Moneter",
+      badge: "Ekonomi Soshum — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>`,
-      description: "Mekanisme Pasar & Elastisitas Permintaan-Penawaran, Pendapatan Nasional (GDP/GNP), Kebijakan Moneter & Fiskal, Perdagangan Internasional, serta Siklus Akuntansi Jasa & Dagang.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (IPS)",
+      description: "Mekanisme Pasar & Elastisitas Silang/Titik, Perilaku Konsumen (Ordinal/Kardinal/Cobb-Douglas), Struktur Pasar & Monopoli Cournot/Lerner, Teori Makroekonomi IS-LM/Mundell-Fleming/Taylor Rule, Kebijakan Moneter/Fiskal, dan Siklus Akuntansi Keuangan SAK/IFRS.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Ekonomi) & BSKAP 033/H/KR/2024",
       accentColor: "#f59e0b",
-      totalPool: ekonomiPool.length || 135,
+      totalPool: ekonomiPool.length || 110,
       questions: ekonomiPool
     },
 
