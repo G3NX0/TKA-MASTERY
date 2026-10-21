@@ -1,10 +1,3 @@
-/**
- * Bank Soal TKA SMK - Teknik Jaringan Komputer dan Telekomunikasi (TJKT / TKJ)
- * Standar Resmi Pusmendik Kemendikdasmen TKA 2026
- * 100% Otentik, Anti-Repetisi Siklis, Zero Longest-Option Bias
- * Total Soal: 110 butir terverifikasi
- */
-
 window.TKA_TKJ_QUESTIONS = [
   {
     "id": "tkj-lat-e-01",
@@ -3311,7 +3304,7 @@ window.TKA_TKJ_QUESTIONS = [
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Troubleshooting OSPF Neighbor Stuck in EXSTART/EXCHANGE State",
     "type": "mcq",
     "questionHtml": "Dua router OSPF yang terhubung langsung melalui kabel Ethernet mengalami kegagalan pembentukan kebertetanggaan (adjacency) dan statusnya macet (stuck) pada status `EXSTART / EXCHANGE`. Hasil inspeksi perintah `show ip ospf neighbor` menunjukkan status konstan tersebut. Penyebab paling umum dari masalah OSPF stuck di EXSTART/EXCHANGE adalah...",
@@ -3338,14 +3331,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Dalam pembentukan adjacency OSPF, pada fase EXSTART kedua router menegosiasikan peran Master/Slave dan saling bertukar Database Description (DBD) packets. Jika nilai MTU pada antarmuka kedua router tidak cocok (misal router A diset MTU 1500 dan router B diset MTU 1492), paket DBD yang berukuran penuh akan didrop atau ditolak oleh router dengan MTU lebih kecil, menyebabkan proses OSPF terjebak selamanya di status EXSTART/EXCHANGE."
+    "explanation": "Dalam pembentukan adjacency OSPF, pada fase EXSTART kedua router menegosiasikan peran Master/Slave dan saling bertukar Database Description (DBD) packets. Jika nilai MTU pada antarmuka kedua router tidak cocok (misal router A diset MTU 1500 dan router B diset MTU 1492), paket DBD yang berukuran penuh akan didrop atau ditolak oleh router dengan MTU lebih kecil, menyebabkan proses OSPF terjebak selamanya di status EXSTART/EXCHANGE.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: TROUBLESHOOTING OSPF NEIGHBOR STUCK IN EXSTART/EXCHANGE STATE",
+      "latex": "\\text{TROUBLESHOOTING OSPF NEIGHBOR STUCK IN EXSTAR} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Troubleshooting OSPF Neighbor Stuck in EXSTART/EXCHANGE State mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Dalam pembentukan adjacency OSPF, pada fase EXSTART kedua router menegosiasikan peran Master/Slave dan saling bertukar Database Description (DBD) packets.",
+      "execution": "Langkah Analisis: Jika nilai MTU pada antarmuka kedua router tidak cocok (misal router A diset MTU 1500 dan router B diset MTU 1492), paket DBD yang berukuran penuh akan didrop atau ditolak oleh router dengan MTU lebih kecil, menyebabkan proses OSPF terjebak selamanya di status EXSTART/EXCHANGE."
+    }
   },
   {
     "id": "tkj-sim-02",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis OTDR Dead Zone pada Link Serat Optik",
     "type": "mcq",
     "questionHtml": "Dalam pengujian kabel drop optik pelanggan FTTH sepanjang 80 meter menggunakan OTDR, teknisi tidak dapat mendeteksi adanya tekukan tajam (bending) pada jarak 5 meter pertama dari konektor ODF. Keterbatasan fisik alat OTDR yang menyebabkan fenomena 'titik buta' pada awal kabel tersebut dinamakan...",
@@ -3372,14 +3374,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Event Dead Zone (EDZ) dan Attenuation Dead Zone (ADZ) adalah zona buta pada awal pengukuran OTDR yang terjadi karena pantulan Fresnel yang sangat kuat pada konektor peluncuran (launch connector) membuat fotodetektor receiver OTDR jenuh (saturated). Selama masa pemulihan saturasi ini, OTDR tidak mampu mengukur atau membedakan event gangguan lain. Solusi standarnya adalah menggunakan kabel pancingan (Launch Cable / Dummy Fiber sepanjang 500-1000 m)."
+    "explanation": "Event Dead Zone (EDZ) dan Attenuation Dead Zone (ADZ) adalah zona buta pada awal pengukuran OTDR yang terjadi karena pantulan Fresnel yang sangat kuat pada konektor peluncuran (launch connector) membuat fotodetektor receiver OTDR jenuh (saturated). Selama masa pemulihan saturasi ini, OTDR tidak mampu mengukur atau membedakan event gangguan lain. Solusi standarnya adalah menggunakan kabel pancingan (Launch Cable / Dummy Fiber sepanjang 500-1000 m).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS OTDR DEAD ZONE PADA LINK SERAT OPTIK",
+      "latex": "\\text{ANALISIS OTDR DEAD ZONE PADA LINK SERAT OPTIK} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis OTDR Dead Zone pada Link Serat Optik mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Event Dead Zone (EDZ) dan Attenuation Dead Zone (ADZ) adalah zona buta pada awal pengukuran OTDR yang terjadi karena pantulan Fresnel yang sangat kuat pada konektor peluncuran (launch connector) membuat fotodetektor receiver OTDR jenuh (saturated).",
+      "execution": "Langkah Analisis: Selama masa pemulihan saturasi ini, OTDR tidak mampu mengukur atau membedakan event gangguan lain."
+    }
   },
   {
     "id": "tkj-sim-03",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & SWITCHING",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "VLAN Hopping Attack: Mitigasi Double Tagging 802.1Q",
     "type": "mcq",
     "questionHtml": "Seorang penyerang di VLAN 10 (Access Port) mengirimkan frame Ethernet khusus yang disematkan dua buah tag 802.1Q sekaligus: tag luar bernilai VLAN 1 (Native VLAN) dan tag dalam bernilai VLAN 20 (Target). Switch pertama mencopot tag luar dan meneruskannya ke trunk, sehingga switch kedua menerima frame tersebut dan mengalirkannya ke VLAN 20 (serangan Double Tagging VLAN Hopping). Langkah pertahanan terbaik untuk mencegah serangan ini adalah...",
@@ -3406,14 +3417,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Double-tagging VLAN hopping attack mengeksploitasi fitur Native VLAN yang dikirimkan tanpa tag (untagged) pada port trunk 802.1Q. Jika port penyerang berada pada VLAN yang sama dengan Native VLAN trunk (biasanya default VLAN 1), switch pertama akan mencopot tag luar dan mengirimkan frame mentah yang masih memuat tag dalam (VLAN 20 target) ke link trunk. Switch kedua akan meneruskan frame tersebut ke VLAN 20. Mitigasi resminya adalah mengubah Native VLAN trunk ke VLAN yang tidak dipakai oleh port access mana pun, serta mengonfigurasi `vlan dot1q tag native` agar Native VLAN pun tetap di-tag."
+    "explanation": "Double-tagging VLAN hopping attack mengeksploitasi fitur Native VLAN yang dikirimkan tanpa tag (untagged) pada port trunk 802.1Q. Jika port penyerang berada pada VLAN yang sama dengan Native VLAN trunk (biasanya default VLAN 1), switch pertama akan mencopot tag luar dan mengirimkan frame mentah yang masih memuat tag dalam (VLAN 20 target) ke link trunk. Switch kedua akan meneruskan frame tersebut ke VLAN 20. Mitigasi resminya adalah mengubah Native VLAN trunk ke VLAN yang tidak dipakai oleh port access mana pun, serta mengonfigurasi `vlan dot1q tag native` agar Native VLAN pun tetap di-tag.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: VLAN HOPPING ATTACK: MITIGASI DOUBLE TAGGING 802.1Q",
+      "latex": "\\text{VLAN HOPPING ATTACK: MITIGASI DOUBLE TAGGING } \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: VLAN Hopping Attack: Mitigasi Double Tagging 802.1Q mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Double-tagging VLAN hopping attack mengeksploitasi fitur Native VLAN yang dikirimkan tanpa tag (untagged) pada port trunk 802.",
+      "execution": "Langkah Analisis: Jika port penyerang berada pada VLAN yang sama dengan Native VLAN trunk (biasanya default VLAN 1), switch pertama akan mencopot tag luar dan mengirimkan frame mentah yang masih memuat tag dalam (VLAN 20 target) ke link trunk."
+    }
   },
   {
     "id": "tkj-lat-sim-04",
     "subject": "tkj",
     "materi": "PENGALAMATAN IPV4 & SUBNETTING",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Kalkulasi Subnet Point-to-Point WAN /31 vs /30",
     "type": "mcq",
     "questionHtml": "Dalam menghubungkan dua router backbone core (link point-to-point serial atau Ethernet WAN), administrator ingin menghemat alamat IPv4 publik sebaik mungkin. Standar RFC 3021 memungkinkan penggunaan prefix subnet mask khusus yang hanya mengalokasikan tepat 2 alamat IP tanpa menyia-nyiakan Network ID dan Broadcast ID tradisional. Prefix yang dimaksud adalah...",
@@ -3440,14 +3460,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Secara tradisional, link point-to-point antar dua router menggunakan prefix /30 yang memakan 4 IP (1 Network ID, 2 Usable Host, 1 Broadcast ID) sehingga terjadi pemborosan 50% alamat. Standar RFC 3021 menetapkan penggunaan prefix /31 (mask 255.255.255.254) untuk link point-to-point, di mana kedua alamat yang tersedia diperlakukan langsung sebagai alamat host sah ujung-ke-ujung tanpa memerlukan Network ID maupun Broadcast ID, menghemat ruang alamat IPv4 secara signifikan."
+    "explanation": "Secara tradisional, link point-to-point antar dua router menggunakan prefix /30 yang memakan 4 IP (1 Network ID, 2 Usable Host, 1 Broadcast ID) sehingga terjadi pemborosan 50% alamat. Standar RFC 3021 menetapkan penggunaan prefix /31 (mask 255.255.255.254) untuk link point-to-point, di mana kedua alamat yang tersedia diperlakukan langsung sebagai alamat host sah ujung-ke-ujung tanpa memerlukan Network ID maupun Broadcast ID, menghemat ruang alamat IPv4 secara signifikan.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KALKULASI SUBNET POINT-TO-POINT WAN /31 VS /30",
+      "latex": "\\text{KALKULASI SUBNET POINT-TO-POINT WAN /31 VS /3} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Kalkulasi Subnet Point-to-Point WAN /31 vs /30 mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Secara tradisional, link point-to-point antar dua router menggunakan prefix /30 yang memakan 4 IP (1 Network ID, 2 Usable Host, 1 Broadcast ID) sehingga terjadi pemborosan 50% alamat.",
+      "execution": "Langkah Analisis: Standar RFC 3021 menetapkan penggunaan prefix /31 (mask 255."
+    }
   },
   {
     "id": "tkj-sim-05",
     "subject": "tkj",
     "materi": "JARINGAN NIRKABEL & WIRELESS",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Fast Roaming Nirkabel 802.11r/k/v",
     "type": "mcq",
     "questionHtml": "Di sebuah rumah sakit, perawat yang melakukan panggilan VoIP bergerak antar bangsal sering mengalami suara terputus selama 2 hingga 5 detik saat smartphone berpindah dari Access Point A ke Access Point B. Kombinasi standar protokol IEEE yang wajib diaktifkan pada sistem wireless controller terpusat untuk mewujudkan 'Seamless Fast BSS Transition' (roaming di bawah 50 ms) adalah...",
@@ -3474,14 +3503,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Pada jaringan Wi-Fi enterprise berkeamanan 802.1X/WPA2, proses roaming standar membutuhkan re-authentication penuh ke server RADIUS dan 4-way handshake ulang yang memakan waktu 2-5 detik (memutus panggilan VoIP). Solusinya adalah trio standar IEEE: 802.11k (membantu klien memindai daftar AP tetangga terbaik), 802.11v (mengarahkan klien ke AP yang tidak padat), dan 802.11r (Fast BSS Transition yang menyimpan cache kunci enkripsi di controller sehingga waktu handover terpangkas menjadi di bawah 50 ms tanpa lag percakapan)."
+    "explanation": "Pada jaringan Wi-Fi enterprise berkeamanan 802.1X/WPA2, proses roaming standar membutuhkan re-authentication penuh ke server RADIUS dan 4-way handshake ulang yang memakan waktu 2-5 detik (memutus panggilan VoIP). Solusinya adalah trio standar IEEE: 802.11k (membantu klien memindai daftar AP tetangga terbaik), 802.11v (mengarahkan klien ke AP yang tidak padat), dan 802.11r (Fast BSS Transition yang menyimpan cache kunci enkripsi di controller sehingga waktu handover terpangkas menjadi di bawah 50 ms tanpa lag percakapan).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS FAST ROAMING NIRKABEL 802.11R/K/V",
+      "latex": "\\text{ANALISIS FAST ROAMING NIRKABEL 802.11R/K/V} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Fast Roaming Nirkabel 802.11r/k/v mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pada jaringan Wi-Fi enterprise berkeamanan 802.",
+      "execution": "Langkah Analisis: 1X/WPA2, proses roaming standar membutuhkan re-authentication penuh ke server RADIUS dan 4-way handshake ulang yang memakan waktu 2-5 detik (memutus panggilan VoIP)."
+    }
   },
   {
     "id": "tkj-sim-06",
     "subject": "tkj",
     "materi": "MANAJEMEN BANDWIDTH & QOS",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Kalkulasi Burst Limit, Burst Threshold, dan Burst Time MikroTik",
     "type": "mcq",
     "questionHtml": "Sebuah aturan Simple Queue di MikroTik dikonfigurasikan dengan parameter berikut:\n• Max-Limit = `2 Mbps`\n• Burst-Limit = `8 Mbps`\n• Burst-Threshold = `1.5 Mbps`\n• Burst-Time = `16 detik`\nJika pengguna mengunduh file besar secara terus-menerus dengan memanfaatkan kapasitas pipa data maksimal, berapa detik pengguna tersebut akan menikmati kecepatan 8 Mbps sebelum kecepatannya diturunkan kembali ke 2 Mbps?",
@@ -3508,14 +3546,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Pada MikroTik RouterOS, 'Burst-Time' bukan durasi waktu burst diberikan, melainkan jendela waktu (moving average window) yang digunakan router untuk menghitung kecepatan rata-rata klien. Rumus durasi waktu burst maksimum (T_burst) saat download konstan pada rate Burst-Limit adalah: T_burst = (Burst-Threshold / Burst-Limit) * Burst-Time = (1.5 Mbps / 8 Mbps) * 16 detik = 0.1875 * 16 = tepat 3 detik. Setelah 3 detik, kecepatan rata-rata klien melampaui 1.5 Mbps sehingga router membatasi kecepatan ke Max-Limit (2 Mbps)."
+    "explanation": "Pada MikroTik RouterOS, 'Burst-Time' bukan durasi waktu burst diberikan, melainkan jendela waktu (moving average window) yang digunakan router untuk menghitung kecepatan rata-rata klien. Rumus durasi waktu burst maksimum (T_burst) saat download konstan pada rate Burst-Limit adalah: T_burst = (Burst-Threshold / Burst-Limit) * Burst-Time = (1.5 Mbps / 8 Mbps) * 16 detik = 0.1875 * 16 = tepat 3 detik. Setelah 3 detik, kecepatan rata-rata klien melampaui 1.5 Mbps sehingga router membatasi kecepatan ke Max-Limit (2 Mbps).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KALKULASI BURST LIMIT, BURST THRESHOLD, DAN BURST TIME MIKROTIK",
+      "latex": "\\text{KALKULASI BURST LIMIT, BURST THRESHOLD, DAN B} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Kalkulasi Burst Limit, Burst Threshold, dan Burst Time MikroTik mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pada MikroTik RouterOS, 'Burst-Time' bukan durasi waktu burst diberikan, melainkan jendela waktu (moving average window) yang digunakan router untuk menghitung kecepatan rata-rata klien.",
+      "execution": "Langkah Analisis: Rumus durasi waktu burst maksimum (T_burst) saat download konstan pada rate Burst-Limit adalah: T_burst = (Burst-Threshold / Burst-Limit) * Burst-Time = (1."
+    }
   },
   {
     "id": "tkj-sim-07",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Pendeteksian BGP Route Flapping & Dampak Route Flap Damping",
     "type": "mcq",
     "questionHtml": "Sebuah link antarmuka eBGP ke arah ISP eksternal mengalami gangguan fisik kabel yang menyebabkan sesi BGP berulang kali terhubung lalu putus (flapping) puluhan kali dalam satu jam. Dampak mekanisme BGP Route Flap Damping (RFC 2439) yang diaktifkan oleh ISP Tier-1 terhadap prefix jaringan tersebut adalah...",
@@ -3542,14 +3589,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Route Flapping adalah kondisi di mana suatu rute terus-menerus muncul dan hilang (up/down) dalam waktu singkat, memicu badai pembaruan BGP UPDATE ke jutaan router di seluruh dunia dan membebani CPU router global. Untuk mengatasinya, router ISP menerapkan BGP Route Flap Damping (RFC 2439). Setiap kali rute flap, rute diberi skor penalti (misal 1000). Jika akumulasi penalti melampaui batas 'suppress threshold', rute akan diblokir (suppressed) dan tidak lagi diumumkan ke internet global hingga penaltinya meluruh (decay) di bawah 'reuse threshold'."
+    "explanation": "Route Flapping adalah kondisi di mana suatu rute terus-menerus muncul dan hilang (up/down) dalam waktu singkat, memicu badai pembaruan BGP UPDATE ke jutaan router di seluruh dunia dan membebani CPU router global. Untuk mengatasinya, router ISP menerapkan BGP Route Flap Damping (RFC 2439). Setiap kali rute flap, rute diberi skor penalti (misal 1000). Jika akumulasi penalti melampaui batas 'suppress threshold', rute akan diblokir (suppressed) dan tidak lagi diumumkan ke internet global hingga penaltinya meluruh (decay) di bawah 'reuse threshold'.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: PENDETEKSIAN BGP ROUTE FLAPPING AND DAMPAK ROUTE FLAP DAMPING",
+      "latex": "\\text{PENDETEKSIAN BGP ROUTE FLAPPING AND DAMPAK RO} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Pendeteksian BGP Route Flapping & Dampak Route Flap Damping mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Route Flapping adalah kondisi di mana suatu rute terus-menerus muncul dan hilang (up/down) dalam waktu singkat, memicu badai pembaruan BGP UPDATE ke jutaan router di seluruh dunia dan membebani CPU router global.",
+      "execution": "Langkah Analisis: Untuk mengatasinya, router ISP menerapkan BGP Route Flap Damping (RFC 2439)."
+    }
   },
   {
     "id": "tkj-sim-08",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Serangan DNS Cache Poisoning (Kaminsky Bug)",
     "type": "mcq",
     "questionHtml": "Pada serangan legendaris DNS Cache Poisoning (seperti eksploitasi Dan Kaminsky), penyerang mengirimkan ribuan respons DNS palsu yang memalsukan Transaction ID dan UDP Source Port untuk mengarahkan pengunjung website bank ke server penipu. Teknologi ekstensi keamanan DNS yang dirancang untuk mencegah pemalsuan cache rekursif ini menggunakan tanda tangan digital kriptografi adalah...",
@@ -3576,14 +3632,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "DNS konvensional tidak memiliki mekanisme autentikasi pesan, sehingga resolver rentan menerima jawaban palsu dari peretas yang berhasil menebak Transaction ID 16-bit dan UDP source port (Kaminsky DNS Cache Poisoning). DNSSEC (RFC 4033) menyelesaikan kelemahan ini dengan memperkenalkan kriptografi kunci publik: setiap DNS record ditandatangani secara digital dengan Record RRSIG (Resource Record Signature) yang dapat diverifikasi keabsahannya menggunakan kunci publik DNSKEY melalui rantai kepercayaan hierarkis (Chain of Trust) hingga ke Root DNS Anchor."
+    "explanation": "DNS konvensional tidak memiliki mekanisme autentikasi pesan, sehingga resolver rentan menerima jawaban palsu dari peretas yang berhasil menebak Transaction ID 16-bit dan UDP source port (Kaminsky DNS Cache Poisoning). DNSSEC (RFC 4033) menyelesaikan kelemahan ini dengan memperkenalkan kriptografi kunci publik: setiap DNS record ditandatangani secara digital dengan Record RRSIG (Resource Record Signature) yang dapat diverifikasi keabsahannya menggunakan kunci publik DNSKEY melalui rantai kepercayaan hierarkis (Chain of Trust) hingga ke Root DNS Anchor.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS SERANGAN DNS CACHE POISONING (KAMINSKY BUG)",
+      "latex": "\\text{ANALISIS SERANGAN DNS CACHE POISONING (KAMINS} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Serangan DNS Cache Poisoning (Kaminsky Bug) mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: DNS konvensional tidak memiliki mekanisme autentikasi pesan, sehingga resolver rentan menerima jawaban palsu dari peretas yang berhasil menebak Transaction ID 16-bit dan UDP source port (Kaminsky DNS Cache Poisoning).",
+      "execution": "Langkah Analisis: DNSSEC (RFC 4033) menyelesaikan kelemahan ini dengan memperkenalkan kriptografi kunci publik: setiap DNS record ditandatangani secara digital dengan Record RRSIG (Resource Record Signature) yang dapat diverifikasi keabsahannya menggunakan kunci publik DNSKEY melalui rantai kepercayaan hierarkis (Chain of Trust) hingga ke Root DNS Anchor."
+    }
   },
   {
     "id": "tkj-sim-09",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Teknologi GPON: Perhitungan Splitter Rasio dan Redaman Pasif",
     "type": "mcq",
     "questionHtml": "Dalam perancangan jaringan akses fiber optik FTTH berbasis Gigabit Passive Optical Network (GPON), sebuah port Optical Line Terminal (OLT) dengan daya kirim $+3\\text{ dBm}$ dihubungkan ke Optical Splitter pasif bertingkat:\n• Splitter 1:4 (redaman nominal teoretis = $7.0\\text{ dB}$)\n• Splitter 1:8 (redaman nominal teoretis = $10.5\\text{ dB}$)\nJika total redaman kabel dan konektor sepanjang jalur adalah $4.5\\text{ dB}$, estimasi daya optik yang diterima oleh Optical Network Terminal (ONT) di rumah pelanggan adalah...",
@@ -3626,7 +3691,7 @@ window.TKA_TKJ_QUESTIONS = [
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Rapid Spanning Tree Protocol (RSTP 802.1w) Handshake",
     "type": "mcq",
     "questionHtml": "Berbeda dengan Spanning Tree klasik (802.1D) yang membutuhkan waktu tunggu pasif hingga 30-50 detik (fase Listening dan Learning) untuk konvergensi, Rapid STP (IEEE 802.1w) mampu mencapai status forwarding dalam waktu kurang dari 1 detik pada link point-to-point. Mekanisme negosiasi aktif antar-switch yang mendasari kecepatan konvergensi RSTP tersebut adalah...",
@@ -3653,14 +3718,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "RSTP (IEEE 802.1w) menggantikan timer kaku 802.1D (Forward Delay 15s + 15s) dengan mekanisme sinkronisasi aktif bernama 'Proposal-Agreement Handshake'. Ketika sebuah link point-to-point aktif antar dua switch, switch hulu mengirimkan frame Proposal untuk menjadi Designated Port. Switch hilir segera memblokir port-port non-edge miliknya (proses sinkronisasi) lalu seketika membalas dengan frame Agreement. Begitu frame Agreement diterima, port hulu langsung melompat ke status Forwarding dalam hitungan milidetik tanpa menunggu timer pasif."
+    "explanation": "RSTP (IEEE 802.1w) menggantikan timer kaku 802.1D (Forward Delay 15s + 15s) dengan mekanisme sinkronisasi aktif bernama 'Proposal-Agreement Handshake'. Ketika sebuah link point-to-point aktif antar dua switch, switch hulu mengirimkan frame Proposal untuk menjadi Designated Port. Switch hilir segera memblokir port-port non-edge miliknya (proses sinkronisasi) lalu seketika membalas dengan frame Agreement. Begitu frame Agreement diterima, port hulu langsung melompat ke status Forwarding dalam hitungan milidetik tanpa menunggu timer pasif.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS RAPID SPANNING TREE PROTOCOL (RSTP 802.1W) HANDSHAKE",
+      "latex": "\\text{ANALISIS RAPID SPANNING TREE PROTOCOL (RSTP 8} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Rapid Spanning Tree Protocol (RSTP 802.1w) Handshake mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: 1w) menggantikan timer kaku 802.",
+      "execution": "Langkah Analisis: 1D (Forward Delay 15s + 15s) dengan mekanisme sinkronisasi aktif bernama 'Proposal-Agreement Handshake'."
+    }
   },
   {
     "id": "tkj-sim-11",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Log Firewall: Serangan Port Scanning Nmap Stealth SYN",
     "type": "mcq",
     "questionHtml": "Administrator sistem memeriksa berkas log `/var/log/auth.log` dan log iptables, menemukan ribuan percobaan koneksi TCP dalam rentang waktu 3 detik dari IP `198.51.100.25` ke seluruh port (1 s/d 1024). Setiap koneksi hanya mengirimkan flag SYN, dan ketika server membalas dengan SYN-ACK, pengirim seketika membalas dengan flag RST (Reset). Teknik pemindaian jaringan yang sedang dilancarkan peretas tersebut adalah...",
@@ -3687,14 +3761,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Pola di mana klien mengirim SYN, menerima SYN-ACK dari target, lalu segera membalas dengan flag RST (Reset) sebelum mengirimkan ACK penutup adalah ciri khas dari 'TCP SYN Stealth Scan' (dieksekusi melalui `nmap -sS`). Teknik ini disebut pemindaian separuh terbuka (half-open scanning) karena penyerang sengaja memutuskan koneksi sebelum 3-Way Handshake selesai secara penuh, sehingga sistem operasi server tidak mencatat koneksi tersebut pada log aplikasi tingkat atas (seperti Apache/Nginx access log)."
+    "explanation": "Pola di mana klien mengirim SYN, menerima SYN-ACK dari target, lalu segera membalas dengan flag RST (Reset) sebelum mengirimkan ACK penutup adalah ciri khas dari 'TCP SYN Stealth Scan' (dieksekusi melalui `nmap -sS`). Teknik ini disebut pemindaian separuh terbuka (half-open scanning) karena penyerang sengaja memutuskan koneksi sebelum 3-Way Handshake selesai secara penuh, sehingga sistem operasi server tidak mencatat koneksi tersebut pada log aplikasi tingkat atas (seperti Apache/Nginx access log).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS LOG FIREWALL: SERANGAN PORT SCANNING NMAP STEALTH SYN",
+      "latex": "\\text{ANALISIS LOG FIREWALL: SERANGAN PORT SCANNING} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Log Firewall: Serangan Port Scanning Nmap Stealth SYN mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pola di mana klien mengirim SYN, menerima SYN-ACK dari target, lalu segera membalas dengan flag RST (Reset) sebelum mengirimkan ACK penutup adalah ciri khas dari 'TCP SYN Stealth Scan' (dieksekusi melalui `nmap -sS`).",
+      "execution": "Langkah Analisis: Teknik ini disebut pemindaian separuh terbuka (half-open scanning) karena penyerang sengaja memutuskan koneksi sebelum 3-Way Handshake selesai secara penuh, sehingga sistem operasi server tidak mencatat koneksi tersebut pada log aplikasi tingkat atas (seperti Apache/Nginx access log)."
+    }
   },
   {
     "id": "tkj-sim-12",
     "subject": "tkj",
     "materi": "LAYANAN JARINGAN & SERVER",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Troubleshooting Layanan Web: Analisis HTTP 502 Bad Gateway Nginx",
     "type": "mcq",
     "questionHtml": "Di sebuah web server sekolah yang menggunakan arsitektur Nginx sebagai Reverse Proxy dan PHP-FPM / Node.js sebagai backend, pengguna internet mengeluhkan munculnya pesan kesalahan di browser: `502 Bad Gateway`. Setelah diperiksa, server Nginx menyala normal. Akar permasalahan teknis yang paling akurat dari error 502 Bad Gateway tersebut adalah...",
@@ -3721,14 +3804,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kode status HTTP 502 (Bad Gateway) adalah respons tingkat server yang berarti server proxy (dalam kasus ini Nginx) berhasil menerima permintaan dari klien, tetapi ketika Nginx mencoba meneruskan permintaan tersebut ke server backend hulu (upstream application server seperti PHP-FPM, Gunicorn, atau Node.js), backend tersebut mati (service stop/crash), hang, atau menolak koneksi soket. Akibatnya Nginx mengembalikan kode 502 Bad Gateway ke pengunjung."
+    "explanation": "Kode status HTTP 502 (Bad Gateway) adalah respons tingkat server yang berarti server proxy (dalam kasus ini Nginx) berhasil menerima permintaan dari klien, tetapi ketika Nginx mencoba meneruskan permintaan tersebut ke server backend hulu (upstream application server seperti PHP-FPM, Gunicorn, atau Node.js), backend tersebut mati (service stop/crash), hang, atau menolak koneksi soket. Akibatnya Nginx mengembalikan kode 502 Bad Gateway ke pengunjung.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: TROUBLESHOOTING LAYANAN WEB: ANALISIS HTTP 502 BAD GATEWAY NGINX",
+      "latex": "\\text{TROUBLESHOOTING LAYANAN WEB: ANALISIS HTTP 50} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Troubleshooting Layanan Web: Analisis HTTP 502 Bad Gateway Nginx mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Kode status HTTP 502 (Bad Gateway) adalah respons tingkat server yang berarti server proxy (dalam kasus ini Nginx) berhasil menerima permintaan dari klien, tetapi ketika Nginx mencoba meneruskan permintaan tersebut ke server backend hulu (upstream application server seperti PHP-FPM, Gunicorn, atau Node.",
+      "execution": "Langkah Analisis: js), backend tersebut mati (service stop/crash), hang, atau menolak koneksi soket."
+    }
   },
   {
     "id": "tkj-sim-13",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Konsep BGP Loop Prevention: AS Path Matching",
     "type": "mcq",
     "questionHtml": "Protokol Border Gateway Protocol (BGP) yang mengendalikan lalu lintas routing antar Autonomous System di seluruh dunia tidak menggunakan algoritma Dijkstra melainkan Distance Vector tingkat lanjut (Path Vector). Mekanisme sederhana namun absolut yang digunakan BGP untuk mencegah terjadinya routing loop global adalah...",
@@ -3755,14 +3847,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Sebagai protokol Path Vector, BGP mencatat setiap Autonomous System yang dilewati oleh sebuah prefix rute pada atribut 'AS Path'. Aturan pencegahan loop BGP (BGP Loop Prevention) menyatakan: ketika sebuah router BGP menerima pembaruan rute (BGP UPDATE) dari tetangga eBGP, router akan memindai daftar nomor AS di dalam atribut AS Path. Jika router mendeteksi nomor AS-nya sendiri tercantum di dalam daftar tersebut, router menyimpulkan rute tersebut telah berputar kembali ke tempat asalnya (loop) dan seketika menolak rute tersebut masuk ke tabel routing."
+    "explanation": "Sebagai protokol Path Vector, BGP mencatat setiap Autonomous System yang dilewati oleh sebuah prefix rute pada atribut 'AS Path'. Aturan pencegahan loop BGP (BGP Loop Prevention) menyatakan: ketika sebuah router BGP menerima pembaruan rute (BGP UPDATE) dari tetangga eBGP, router akan memindai daftar nomor AS di dalam atribut AS Path. Jika router mendeteksi nomor AS-nya sendiri tercantum di dalam daftar tersebut, router menyimpulkan rute tersebut telah berputar kembali ke tempat asalnya (loop) dan seketika menolak rute tersebut masuk ke tabel routing.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KONSEP BGP LOOP PREVENTION: AS PATH MATCHING",
+      "latex": "\\text{KONSEP BGP LOOP PREVENTION: AS PATH MATCHING} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Konsep BGP Loop Prevention: AS Path Matching mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Sebagai protokol Path Vector, BGP mencatat setiap Autonomous System yang dilewati oleh sebuah prefix rute pada atribut 'AS Path'.",
+      "execution": "Langkah Analisis: Aturan pencegahan loop BGP (BGP Loop Prevention) menyatakan: ketika sebuah router BGP menerima pembaruan rute (BGP UPDATE) dari tetangga eBGP, router akan memindai daftar nomor AS di dalam atribut AS Path."
+    }
   },
   {
     "id": "tkj-sim-14",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Prinsip Zero Trust Network Access (ZTNA) vs VPN Tradisional",
     "type": "mcq",
     "questionHtml": "Dalam arsitektur keamanan jaringan modern, organisasi berpindah dari model perimeter VPN warisan menuju paradigma Zero Trust Network Access (ZTNA). Perbedaan filosofis dan teknis paling mendasar antara VPN konvensional dan ZTNA adalah...",
@@ -3789,14 +3890,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Model keamanan tradisional (Castle-and-Moat) menggunakan VPN di mana pengguna yang berhasil melewati perimeter gerbang (login VPN) akan mendapatkan akses tingkat jaringan (network-level access) ke seluruh segmen IP LAN di kantor, membuka celah lateral movement bagi peretas. Sebaliknya, Zero Trust Network Access (ZTNA) mengadopsi prinsip 'Never Trust, Always Verify': pengguna tidak pernah ditempatkan di jaringan perusahaan secara langsung, melainkan hanya diberikan akses mikrosegmentasi terisolasi ke aplikasi tertentu (application-level access) setelah memeriksa konteks perangkat, identitas, dan postur keamanan secara kontinu."
+    "explanation": "Model keamanan tradisional (Castle-and-Moat) menggunakan VPN di mana pengguna yang berhasil melewati perimeter gerbang (login VPN) akan mendapatkan akses tingkat jaringan (network-level access) ke seluruh segmen IP LAN di kantor, membuka celah lateral movement bagi peretas. Sebaliknya, Zero Trust Network Access (ZTNA) mengadopsi prinsip 'Never Trust, Always Verify': pengguna tidak pernah ditempatkan di jaringan perusahaan secara langsung, melainkan hanya diberikan akses mikrosegmentasi terisolasi ke aplikasi tertentu (application-level access) setelah memeriksa konteks perangkat, identitas, dan postur keamanan secara kontinu.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: PRINSIP ZERO TRUST NETWORK ACCESS (ZTNA) VS VPN TRADISIONAL",
+      "latex": "\\text{PRINSIP ZERO TRUST NETWORK ACCESS (ZTNA) VS V} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Prinsip Zero Trust Network Access (ZTNA) vs VPN Tradisional mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Model keamanan tradisional (Castle-and-Moat) menggunakan VPN di mana pengguna yang berhasil melewati perimeter gerbang (login VPN) akan mendapatkan akses tingkat jaringan (network-level access) ke seluruh segmen IP LAN di kantor, membuka celah lateral movement bagi peretas.",
+      "execution": "Langkah Analisis: Sebaliknya, Zero Trust Network Access (ZTNA) mengadopsi prinsip 'Never Trust, Always Verify': pengguna tidak pernah ditempatkan di jaringan perusahaan secara langsung, melainkan hanya diberikan akses mikrosegmentasi terisolasi ke aplikasi tertentu (application-level access) setelah memeriksa konteks perangkat, identitas, dan postur keamanan secara kontinu."
+    }
   },
   {
     "id": "tkj-sim-15",
     "subject": "tkj",
     "materi": "TRANSISI IPV6 & NEXT-GEN NETWORK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Neighbor Discovery Protocol (NDP): Pengganti ARP pada IPv6",
     "type": "mcq",
     "questionHtml": "Pada arsitektur IPv6, protokol Address Resolution Protocol (ARP) dan broadcast dihapuskan secara total dari spesifikasi jaringan. Dua pesan protokol Neighbor Discovery Protocol (NDP berbasis ICMPv6) yang menggantikan peran ARP Request dan ARP Reply untuk memetakan alamat IP ke MAC address pada link lokal adalah...",
@@ -3823,14 +3933,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Pada IPv6, ARP dieliminasi untuk menghindari badai broadcast jaringan. Fungsinya digantikan oleh Neighbor Discovery Protocol (NDP RFC 4861) yang beroperasi di atas ICMPv6. Untuk memetakan alamat IPv6 ke MAC address link lokal, host mengirimkan pesan 'Neighbor Solicitation' (ICMPv6 Type 135) secara efisien ke alamat Solicited-Node Multicast (`FF02::1:FFXX:XXXX`), dan host target akan membalas secara unicast dengan pesan 'Neighbor Advertisement' (ICMPv6 Type 136) yang memuat alamat MAC fisiknya."
+    "explanation": "Pada IPv6, ARP dieliminasi untuk menghindari badai broadcast jaringan. Fungsinya digantikan oleh Neighbor Discovery Protocol (NDP RFC 4861) yang beroperasi di atas ICMPv6. Untuk memetakan alamat IPv6 ke MAC address link lokal, host mengirimkan pesan 'Neighbor Solicitation' (ICMPv6 Type 135) secara efisien ke alamat Solicited-Node Multicast (`FF02::1:FFXX:XXXX`), dan host target akan membalas secara unicast dengan pesan 'Neighbor Advertisement' (ICMPv6 Type 136) yang memuat alamat MAC fisiknya.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: NEIGHBOR DISCOVERY PROTOCOL (NDP): PENGGANTI ARP PADA IPV6",
+      "latex": "\\text{NEIGHBOR DISCOVERY PROTOCOL (NDP): PENGGANTI } \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Neighbor Discovery Protocol (NDP): Pengganti ARP pada IPv6 mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pada IPv6, ARP dieliminasi untuk menghindari badai broadcast jaringan.",
+      "execution": "Langkah Analisis: Fungsinya digantikan oleh Neighbor Discovery Protocol (NDP RFC 4861) yang beroperasi di atas ICMPv6."
+    }
   },
   {
     "id": "tkj-sim-16",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Pengaruh Macrobending vs Microbending pada Kabel Fiber Optik",
     "type": "mcq",
     "questionHtml": "Saat proses instalasi kabel patch cord fiber optik di dalam rack server, teknisi mengikat kabel terlalu kencang dengan cable-tie hingga kabel tertekuk dengan radius lengkungan hanya 5 mm (jauh di bawah rekomendasi minimum bend radius 30 mm). Dampak fisik optik yang terjadi di dalam inti serat kaca tersebut adalah...",
@@ -3857,14 +3976,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Cahaya merambat di dalam serat optik berdasarkan prinsip Pemantulan Internal Total (Total Internal Reflection), yang mensyaratkan sudut datang cahaya harus selalu lebih besar dari sudut kritis antarmuka core-cladding. Ketika kabel ditekuk tajam melebihi batas kelengkungan aman (Macrobending), sudut datang berkas cahaya terhadap dinding cladding menjadi terlalu curam (di bawah sudut kritis), menyebabkan berkas cahaya tidak lagi dipantulkan kembali melainkan menembus keluar (refraksi) ke jaket kabel, menimbulkan lonjakan redaman (loss) yang drastis."
+    "explanation": "Cahaya merambat di dalam serat optik berdasarkan prinsip Pemantulan Internal Total (Total Internal Reflection), yang mensyaratkan sudut datang cahaya harus selalu lebih besar dari sudut kritis antarmuka core-cladding. Ketika kabel ditekuk tajam melebihi batas kelengkungan aman (Macrobending), sudut datang berkas cahaya terhadap dinding cladding menjadi terlalu curam (di bawah sudut kritis), menyebabkan berkas cahaya tidak lagi dipantulkan kembali melainkan menembus keluar (refraksi) ke jaket kabel, menimbulkan lonjakan redaman (loss) yang drastis.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: PENGARUH MACROBENDING VS MICROBENDING PADA KABEL FIBER OPTIK",
+      "latex": "\\text{PENGARUH MACROBENDING VS MICROBENDING PADA KA} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Pengaruh Macrobending vs Microbending pada Kabel Fiber Optik mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Cahaya merambat di dalam serat optik berdasarkan prinsip Pemantulan Internal Total (Total Internal Reflection), yang mensyaratkan sudut datang cahaya harus selalu lebih besar dari sudut kritis antarmuka core-cladding.",
+      "execution": "Langkah Analisis: Ketika kabel ditekuk tajam melebihi batas kelengkungan aman (Macrobending), sudut datang berkas cahaya terhadap dinding cladding menjadi terlalu curam (di bawah sudut kritis), menyebabkan berkas cahaya tidak lagi dipantulkan kembali melainkan menembus keluar (refraksi) ke jaket kabel, menimbulkan lonjakan redaman (loss) yang drastis."
+    }
   },
   {
     "id": "tkj-sim-17",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Arsitektur Spine-Leaf Data Center (Clos Network)",
     "type": "mcq",
     "questionHtml": "Dalam perancangan jaringan data center modern untuk beban kerja komputasi awan (cloud computing) dan virtualisasi, arsitektur hierarki tradisional 3-Tier (Core-Aggregation-Access) digantikan oleh topologi 2-Tier 'Spine-and-Leaf'. Keunggulan utama arsitektur Spine-and-Leaf dalam melayani lalu lintas data East-West (komunikasi antar server di dalam data center) adalah...",
@@ -3891,14 +4019,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Pada arsitektur Spine-and-Leaf (berbasis topologi Clos network), setiap switch Leaf (rak server) terhubung ke semua switch Spine di atasnya, dan tidak ada interkoneksi antar sesama Spine maupun antar sesama Leaf. Desain ini menghilangkan pemblokiran port oleh Spanning Tree dengan memanfaatkan perutean Layer 3 ECMP (Equal-Cost Multi-Path). Hasilnya, setiap server di rak mana pun dapat berkomunikasi dengan server di rak lain dengan jarak tepat 2 hop yang konsisten, menghasilkan throughput maksimal dan latensi ultra-rendah untuk trafik East-West."
+    "explanation": "Pada arsitektur Spine-and-Leaf (berbasis topologi Clos network), setiap switch Leaf (rak server) terhubung ke semua switch Spine di atasnya, dan tidak ada interkoneksi antar sesama Spine maupun antar sesama Leaf. Desain ini menghilangkan pemblokiran port oleh Spanning Tree dengan memanfaatkan perutean Layer 3 ECMP (Equal-Cost Multi-Path). Hasilnya, setiap server di rak mana pun dapat berkomunikasi dengan server di rak lain dengan jarak tepat 2 hop yang konsisten, menghasilkan throughput maksimal dan latensi ultra-rendah untuk trafik East-West.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ARSITEKTUR SPINE-LEAF DATA CENTER (CLOS NETWORK)",
+      "latex": "\\text{ARSITEKTUR SPINE-LEAF DATA CENTER (CLOS NETWO} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Arsitektur Spine-Leaf Data Center (Clos Network) mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pada arsitektur Spine-and-Leaf (berbasis topologi Clos network), setiap switch Leaf (rak server) terhubung ke semua switch Spine di atasnya, dan tidak ada interkoneksi antar sesama Spine maupun antar sesama Leaf.",
+      "execution": "Langkah Analisis: Desain ini menghilangkan pemblokiran port oleh Spanning Tree dengan memanfaatkan perutean Layer 3 ECMP (Equal-Cost Multi-Path)."
+    }
   },
   {
     "id": "tkj-sim-18",
     "subject": "tkj",
     "materi": "PENGALAMATAN IPV4 & SUBNETTING",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Troubleshooting Duplicate IP & Gratuitous ARP",
     "type": "mcq",
     "questionHtml": "Di sebuah lab komputer, seorang siswa secara sengaja menyetel IP manual statis `192.168.1.50` yang ternyata sudah digunakan oleh komputer server ujian lokal. Seketika muncul pesan peringatan 'IP Address Conflict' di layar Windows server dan server menolak koneksi. Mekanisme protokol layer 2 yang mendeteksi konflik duplikasi IP tersebut sesaat setelah kartu jaringan siswa dinyalakan adalah...",
@@ -3925,14 +4062,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Ketika antarmuka jaringan dikonfigurasikan dengan sebuah alamat IP baru, sistem operasi modern akan menjalankan mekanisme IPv4 Address Conflict Detection (RFC 5227) menggunakan 'Gratuitous ARP' (GARP). Host mengirimkan frame ARP Request broadcast ke jaringan lokal dengan IP pengirim dan IP target yang sama-sama diisi alamat IP barunya tersebut (misal: 'Siapa yang memakai 192.168.1.50?'). Jika ada perangkat lain yang membalas ARP Reply tersebut, sistem operasi mengetahui bahwa IP tersebut sudah dipakai (duplikat) dan seketika memunculkan peringatan konflik."
+    "explanation": "Ketika antarmuka jaringan dikonfigurasikan dengan sebuah alamat IP baru, sistem operasi modern akan menjalankan mekanisme IPv4 Address Conflict Detection (RFC 5227) menggunakan 'Gratuitous ARP' (GARP). Host mengirimkan frame ARP Request broadcast ke jaringan lokal dengan IP pengirim dan IP target yang sama-sama diisi alamat IP barunya tersebut (misal: 'Siapa yang memakai 192.168.1.50?'). Jika ada perangkat lain yang membalas ARP Reply tersebut, sistem operasi mengetahui bahwa IP tersebut sudah dipakai (duplikat) dan seketika memunculkan peringatan konflik.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: TROUBLESHOOTING DUPLICATE IP AND GRATUITOUS ARP",
+      "latex": "\\text{TROUBLESHOOTING DUPLICATE IP AND GRATUITOUS A} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Troubleshooting Duplicate IP & Gratuitous ARP mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Ketika antarmuka jaringan dikonfigurasikan dengan sebuah alamat IP baru, sistem operasi modern akan menjalankan mekanisme IPv4 Address Conflict Detection (RFC 5227) menggunakan 'Gratuitous ARP' (GARP).",
+      "execution": "Langkah Analisis: Host mengirimkan frame ARP Request broadcast ke jaringan lokal dengan IP pengirim dan IP target yang sama-sama diisi alamat IP barunya tersebut (misal: 'Siapa yang memakai 192."
+    }
   },
   {
     "id": "tkj-sim-19",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Serangan DNS Amplification DDoS",
     "type": "mcq",
     "questionHtml": "Jaringan sekolah mengalami kelumpuhan total (bandwidth pipa internet 1 Gbps penuh 100%) akibat serangan Distributed Denial of Service (DDoS). Analisis flow data menunjukkan jutaan paket DNS response berukuran besar (>3.000 bytes) membanjiri alamat IP publik router sekolah dari ratusan Open DNS Resolver di seluruh dunia, padahal router sekolah tidak pernah meminta data tersebut. Mekanisme eksploitasi yang dilancarkan peretas pada serangan DNS Amplification ini adalah...",
@@ -3959,14 +4105,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Serangan DNS Amplification adalah bentuk serangan Distributed Denial of Service (DDoS) berbasis refleksi. Penyerang memanfaatkan fakta bahwa protokol UDP tidak melakukan handshake (connectionless) sehingga IP pengirim sangat mudah dipalsukan (IP Spoofing). Botnet mengirimkan kueri DNS kecil (~60 bytes) dengan IP sumber yang dipalsukan menjadi IP korban menuju ribuan Open DNS Resolver publik di internet. Kueri tersebut meminta record besar (seperti `ANY` record atau zona bertanda tangan DNSSEC yang berukuran >3.000 bytes). Seluruh server DNS publik tersebut akan membalas dan mengarahkan gelombang data raksasa ke IP korban."
+    "explanation": "Serangan DNS Amplification adalah bentuk serangan Distributed Denial of Service (DDoS) berbasis refleksi. Penyerang memanfaatkan fakta bahwa protokol UDP tidak melakukan handshake (connectionless) sehingga IP pengirim sangat mudah dipalsukan (IP Spoofing). Botnet mengirimkan kueri DNS kecil (~60 bytes) dengan IP sumber yang dipalsukan menjadi IP korban menuju ribuan Open DNS Resolver publik di internet. Kueri tersebut meminta record besar (seperti `ANY` record atau zona bertanda tangan DNSSEC yang berukuran >3.000 bytes). Seluruh server DNS publik tersebut akan membalas dan mengarahkan gelombang data raksasa ke IP korban.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS SERANGAN DNS AMPLIFICATION DDOS",
+      "latex": "\\text{ANALISIS SERANGAN DNS AMPLIFICATION DDOS} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Serangan DNS Amplification DDoS mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Serangan DNS Amplification adalah bentuk serangan Distributed Denial of Service (DDoS) berbasis refleksi.",
+      "execution": "Langkah Analisis: Penyerang memanfaatkan fakta bahwa protokol UDP tidak melakukan handshake (connectionless) sehingga IP pengirim sangat mudah dipalsukan (IP Spoofing)."
+    }
   },
   {
     "id": "tkj-sim-20",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "OSPF Virtual Link untuk Menghubungkan Disconnected Area",
     "type": "mcq",
     "questionHtml": "Dalam merger dua jaringan sekolah, sebuah area OSPF baru (Area 2) secara fisik hanya terhubung ke Area 1 dan tidak memiliki koneksi fisik langsung ke Area 0 (Backbone). Sesuai aturan OSPF, seluruh area non-backbone wajib terhubung langsung ke Area 0 untuk pertukaran rute inter-area. Solusi logikal OSPF darurat yang dapat dikonfigurasi untuk menghubungkan Area 2 ke Area 0 melintasi Area 1 adalah...",
@@ -3993,14 +4148,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Aturan hierarki OSPF mewajibkan semua area non-backbone terhubung secara langsung ke Area 0 (Backbone) untuk mencegah routing loop inter-area. Jika karena kendala fisik ada area yang terisolasi (misal Area 2 hanya tersambung ke Area 1), solusi OSPF resmi adalah membangun 'OSPF Virtual Link'. Virtual Link adalah terowongan logis yang dibangun melintasi area transit non-backbone (Area 1) antara dua Area Border Router (ABR) untuk memperpanjang jangkauan konektivitas Area 0 hingga mencapai area yang terputus."
+    "explanation": "Aturan hierarki OSPF mewajibkan semua area non-backbone terhubung secara langsung ke Area 0 (Backbone) untuk mencegah routing loop inter-area. Jika karena kendala fisik ada area yang terisolasi (misal Area 2 hanya tersambung ke Area 1), solusi OSPF resmi adalah membangun 'OSPF Virtual Link'. Virtual Link adalah terowongan logis yang dibangun melintasi area transit non-backbone (Area 1) antara dua Area Border Router (ABR) untuk memperpanjang jangkauan konektivitas Area 0 hingga mencapai area yang terputus.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: OSPF VIRTUAL LINK UNTUK MENGHUBUNGKAN DISCONNECTED AREA",
+      "latex": "\\text{OSPF VIRTUAL LINK UNTUK MENGHUBUNGKAN DISCONN} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: OSPF Virtual Link untuk Menghubungkan Disconnected Area mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Aturan hierarki OSPF mewajibkan semua area non-backbone terhubung secara langsung ke Area 0 (Backbone) untuk mencegah routing loop inter-area.",
+      "execution": "Langkah Analisis: Jika karena kendala fisik ada area yang terisolasi (misal Area 2 hanya tersambung ke Area 1), solusi OSPF resmi adalah membangun 'OSPF Virtual Link'."
+    }
   },
   {
     "id": "tkj-sim-21",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Redaman Konektor UPC vs APC pada Jaringan FTTH GPON",
     "type": "mcq",
     "questionHtml": "Pada konektor kabel fiber optik, terdapat dua jenis pemolesan ujung ferrule kaca: Ultra Physical Contact (UPC berwarna biru dengan ujung datar cembung) dan Angled Physical Contact (APC berwarna hijau dengan sudut miring 8 derajat). Alasan mutlak mengapa jaringan FTTH GPON dan siaran video RF-overlay selalu mewajibkan penggunaan konektor APC hijau pada Optical Distribution Network (ODN) adalah...",
@@ -4027,14 +4191,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Pada konektor UPC (biru), ujung permukaan ferrule dipoles datar-cembung (flat/dome), sehingga cahaya yang terpantul pada celah udara akan langsung memantul lurus 180 derajat kembali ke arah laser pemancar (Optical Return Loss berkisar -50 dB), yang dapat merusak stabilitas laser dan memicu distorsi pada transmisi video analog/RF. Pada konektor APC (hijau), ujung ferrule dipoles dengan sudut kemiringan presisi 8 derajat. Kemiringan ini membelokkan cahaya pantulan keluar menembus cladding, menghasilkan return loss superior ( $\\le -60\\text{ dB}$ )."
+    "explanation": "Pada konektor UPC (biru), ujung permukaan ferrule dipoles datar-cembung (flat/dome), sehingga cahaya yang terpantul pada celah udara akan langsung memantul lurus 180 derajat kembali ke arah laser pemancar (Optical Return Loss berkisar -50 dB), yang dapat merusak stabilitas laser dan memicu distorsi pada transmisi video analog/RF. Pada konektor APC (hijau), ujung ferrule dipoles dengan sudut kemiringan presisi 8 derajat. Kemiringan ini membelokkan cahaya pantulan keluar menembus cladding, menghasilkan return loss superior ( $\\le -60\\text{ dB}$ ).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS REDAMAN KONEKTOR UPC VS APC PADA JARINGAN FTTH GPON",
+      "latex": "\\text{ANALISIS REDAMAN KONEKTOR UPC VS APC PADA JAR} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Redaman Konektor UPC vs APC pada Jaringan FTTH GPON mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pada konektor UPC (biru), ujung permukaan ferrule dipoles datar-cembung (flat/dome), sehingga cahaya yang terpantul pada celah udara akan langsung memantul lurus 180 derajat kembali ke arah laser pemancar (Optical Return Loss berkisar -50 dB), yang dapat merusak stabilitas laser dan memicu distorsi pada transmisi video analog/RF.",
+      "execution": "Langkah Analisis: Pada konektor APC (hijau), ujung ferrule dipoles dengan sudut kemiringan presisi 8 derajat."
+    }
   },
   {
     "id": "tkj-sim-22",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Troubleshooting MTU Mismatch & IP Fragmentation",
     "type": "mcq",
     "questionHtml": "Pengguna di kantor cabang yang terhubung melalui VPN IPsec melaporkan bahwa mereka dapat melakukan ping ke server kantor pusat dengan lancar, namun ketika mencoba membuka portal ERP web atau mengunduh dokumen lampiran email berukuran besar, halaman web macet total (stuck loading / hanging). Solusi perbaikan yang paling tepat pada router gateway VPN adalah...",
@@ -4061,14 +4234,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Paket ping ICMP kecil (biasanya 32-64 bytes) dapat melintasi terowongan VPN tanpa masalah. Namun ketika klien mengirimkan data web besar, paket TCP memiliki ukuran segmen maksimal (MSS 1460 bytes) yang menghasilkan paket IP berukuran 1500 bytes (batas standar MTU). Terowongan VPN IPsec menambahkan overhead header enkripsi (ESP, IV, padding, HMAC) sekitar 50-70 bytes, sehingga ukuran total paket membengkak menjadi >1550 bytes. Jika paket diset dengan flag DF (Don't Fragment), paket akan didrop oleh router di internet (Path MTU Black Hole). Solusi standar adalah mengaktifkan TCP MSS Clamping pada router VPN untuk memaksa kedua endpoint mereduksi ukuran segmen datanya sejak awal."
+    "explanation": "Paket ping ICMP kecil (biasanya 32-64 bytes) dapat melintasi terowongan VPN tanpa masalah. Namun ketika klien mengirimkan data web besar, paket TCP memiliki ukuran segmen maksimal (MSS 1460 bytes) yang menghasilkan paket IP berukuran 1500 bytes (batas standar MTU). Terowongan VPN IPsec menambahkan overhead header enkripsi (ESP, IV, padding, HMAC) sekitar 50-70 bytes, sehingga ukuran total paket membengkak menjadi >1550 bytes. Jika paket diset dengan flag DF (Don't Fragment), paket akan didrop oleh router di internet (Path MTU Black Hole). Solusi standar adalah mengaktifkan TCP MSS Clamping pada router VPN untuk memaksa kedua endpoint mereduksi ukuran segmen datanya sejak awal.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: TROUBLESHOOTING MTU MISMATCH AND IP FRAGMENTATION",
+      "latex": "\\text{TROUBLESHOOTING MTU MISMATCH AND IP FRAGMENTA} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Troubleshooting MTU Mismatch & IP Fragmentation mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Paket ping ICMP kecil (biasanya 32-64 bytes) dapat melintasi terowongan VPN tanpa masalah.",
+      "execution": "Langkah Analisis: Namun ketika klien mengirimkan data web besar, paket TCP memiliki ukuran segmen maksimal (MSS 1460 bytes) yang menghasilkan paket IP berukuran 1500 bytes (batas standar MTU)."
+    }
   },
   {
     "id": "tkj-sim-23",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Mitigasi Serangan Rogue DHCP Server menggunakan DHCP Snooping",
     "type": "mcq",
     "questionHtml": "Seorang pengguna di asrama sekolah memasang router wireless rumahan yang tidak sengaja dicolokkan ke port LAN dinding melalui port LAN (bukan port WAN), sehingga router tersebut membagikan IP address palsu dan gateway palsu ke puluhan siswa lain (Rogue DHCP Server) dan melumpuhkan internet asrama. Fitur keamanan switch layer 2 yang paling tepat untuk memblokir server DHCP liar tersebut adalah...",
@@ -4095,14 +4277,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "DHCP Snooping adalah fitur keamanan layer 2 pada switch yang bertindak seperti firewall antara klien DHCP dan server DHCP. Switch membagi port-portnya menjadi dua kategori: (1) Trusted Port: hanya port yang terhubung ke DHCP Server resmi atau uplink router utama yang diizinkan meneruskan paket respons DHCP (seperti DHCP Offer dan DHCP ACK); (2) Untrusted Port: seluruh port akses pengguna. Jika ada perangkat liar yang mengirimkan DHCP Offer atau DHCP ACK pada port untrusted, switch akan mendeteksi pelanggaran tersebut dan langsung mendrop paketnya."
+    "explanation": "DHCP Snooping adalah fitur keamanan layer 2 pada switch yang bertindak seperti firewall antara klien DHCP dan server DHCP. Switch membagi port-portnya menjadi dua kategori: (1) Trusted Port: hanya port yang terhubung ke DHCP Server resmi atau uplink router utama yang diizinkan meneruskan paket respons DHCP (seperti DHCP Offer dan DHCP ACK); (2) Untrusted Port: seluruh port akses pengguna. Jika ada perangkat liar yang mengirimkan DHCP Offer atau DHCP ACK pada port untrusted, switch akan mendeteksi pelanggaran tersebut dan langsung mendrop paketnya.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: MITIGASI SERANGAN ROGUE DHCP SERVER MENGGUNAKAN DHCP SNOOPING",
+      "latex": "\\text{MITIGASI SERANGAN ROGUE DHCP SERVER MENGGUNAK} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Mitigasi Serangan Rogue DHCP Server menggunakan DHCP Snooping mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: DHCP Snooping adalah fitur keamanan layer 2 pada switch yang bertindak seperti firewall antara klien DHCP dan server DHCP.",
+      "execution": "Langkah Analisis: Switch membagi port-portnya menjadi dua kategori: (1) Trusted Port: hanya port yang terhubung ke DHCP Server resmi atau uplink router utama yang diizinkan meneruskan paket respons DHCP (seperti DHCP Offer dan DHCP ACK); (2) Untrusted Port: seluruh port akses pengguna."
+    }
   },
   {
     "id": "tkj-sim-24",
     "subject": "tkj",
     "materi": "MONITORING & KINERJA SISTEM JARINGAN",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Analisis Metrik Kualitas Layanan (Jitter, Latency, Packet Loss) Standar ITU-T Y.1541",
     "type": "mcq",
     "questionHtml": "Dalam uji kelayakan jaringan untuk implementasi telemedisin operasi jarak jauh dan konferensi video real-time interaktif, standar rekomendasi internasional ITU-T Y.1541 (Kelas 0) menetapkan ambang batas batas toleransi performa transmisi data ujung-ke-ujung (end-to-end network performance) adalah...",
@@ -4129,14 +4320,23 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Standar internasional ITU-T Recommendation Y.1541 mendefinisikan parameter performa jaringan IP. Untuk Kelas 0 (aplikasi sangat sensitif terhadap penundaan seperti VoIP interaktif real-time, telemedisin, dan video conference berkualitas tinggi), ambang batas yang disyaratkan adalah: One-way Transfer Delay (Latensi) maksimal 100 ms, Delay Variation (Jitter) maksimal 50 ms, dan Packet Loss Ratio (PLR) tidak boleh melebihi 0.1% (1 paket hilang per 1000 paket)."
+    "explanation": "Standar internasional ITU-T Recommendation Y.1541 mendefinisikan parameter performa jaringan IP. Untuk Kelas 0 (aplikasi sangat sensitif terhadap penundaan seperti VoIP interaktif real-time, telemedisin, dan video conference berkualitas tinggi), ambang batas yang disyaratkan adalah: One-way Transfer Delay (Latensi) maksimal 100 ms, Delay Variation (Jitter) maksimal 50 ms, dan Packet Loss Ratio (PLR) tidak boleh melebihi 0.1% (1 paket hilang per 1000 paket).",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: ANALISIS METRIK KUALITAS LAYANAN (JITTER, LATENCY, PACKET LOSS) STANDAR ITU-T Y.1541",
+      "latex": "\\text{ANALISIS METRIK KUALITAS LAYANAN (JITTER, LAT} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Analisis Metrik Kualitas Layanan (Jitter, Latency, Packet Loss) Standar ITU-T Y.1541 mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Standar internasional ITU-T Recommendation Y.",
+      "execution": "Langkah Analisis: 1541 mendefinisikan parameter performa jaringan IP."
+    }
   },
   {
     "id": "tkj-sim-25",
     "subject": "tkj",
     "materi": "K3LH & KETENAGAKERJAAN TJKT",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "SOP Evakuasi dan Penanganan Kebocoran Gas Beracun Ruang Baterai UPS Data Center",
     "type": "mcq",
     "questionHtml": "Ruang baterai cadangan data center yang menampung ratusan sel aki Valve Regulated Lead-Acid (VRLA) mengalami panas berlebih (thermal runaway) saat pengisian daya cepat, memicu alarm detektor gas hidrogen (H2) dan asam sulfat berbunyi keras. Tindakan tanggap darurat K3LH pertama yang wajib dilakukan oleh petugas operator sebelum tim teknisi bersertifikasi masuk ke ruangan adalah...",
@@ -4163,16 +4363,25 @@ window.TKA_TKJ_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Baterai timbal-asam (VRLA) yang mengalami overcharging atau thermal runaway akan melepaskan gas hidrogen (H2) yang sangat mudah terbakar dan meledak jika konsentrasinya di udara melampaui Lower Explosive Limit (LEL 4%), serta uap asam sulfat yang beracun bagi pernapasan. Standar keselamatan kerja data center (OSHA / NFPA 855) mewajibkan: (1) Memutus sumber pengisian daya listrik; (2) Mengaktifkan sistem ventilasi pembuangan gas anti-ledakan (intrinsically safe exhaust); (3) Larangan keras adanya percikan api atau sakelar listrik biasa; dan (4) Evakuasi seluruh personil ke titik kumpul aman."
+    "explanation": "Baterai timbal-asam (VRLA) yang mengalami overcharging atau thermal runaway akan melepaskan gas hidrogen (H2) yang sangat mudah terbakar dan meledak jika konsentrasinya di udara melampaui Lower Explosive Limit (LEL 4%), serta uap asam sulfat yang beracun bagi pernapasan. Standar keselamatan kerja data center (OSHA / NFPA 855) mewajibkan: (1) Memutus sumber pengisian daya listrik; (2) Mengaktifkan sistem ventilasi pembuangan gas anti-ledakan (intrinsically safe exhaust); (3) Larangan keras adanya percikan api atau sakelar listrik biasa; dan (4) Evakuasi seluruh personil ke titik kumpul aman.",
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: SOP EVAKUASI DAN PENANGANAN KEBOCORAN GAS BERACUN RUANG BATERAI UPS DATA CENTER",
+      "latex": "\\text{SOP EVAKUASI DAN PENANGANAN KEBOCORAN GAS BER} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: SOP Evakuasi dan Penanganan Kebocoran Gas Beracun Ruang Baterai UPS Data Center mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Baterai timbal-asam (VRLA) yang mengalami overcharging atau thermal runaway akan melepaskan gas hidrogen (H2) yang sangat mudah terbakar dan meledak jika konsentrasinya di udara melampaui Lower Explosive Limit (LEL 4%), serta uap asam sulfat yang beracun bagi pernapasan.",
+      "execution": "Langkah Analisis: Standar keselamatan kerja data center (OSHA / NFPA 855) mewajibkan: (1) Memutus sumber pengisian daya listrik; (2) Mengaktifkan sistem ventilasi pembuangan gas anti-ledakan (intrinsically safe exhaust); (3) Larangan keras adanya percikan api atau sakelar listrik biasa; dan (4) Evakuasi seluruh personil ke titik kumpul aman."
+    }
   },
   {
     "id": "tkj-sim-26",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Karakteristik Protokol Link-State (OSPF/IS-IS)",
-    "type": "complex",
+    "type": "multi",
     "questionHtml": "Protokol routing dinamis berbasis algoritma Link-State (seperti OSPF dan IS-IS) memiliki karakteristik operasional yang sangat berbeda dengan protokol Distance-Vector klasik (seperti RIP). Manakah dari pernyataan-pernyataan berikut yang BENAR mengenai arsitektur protokol Link-State? (Pilihlah lebih dari satu pernyataan yang benar)",
     "options": [
       {
@@ -4201,16 +4410,30 @@ window.TKA_TKJ_QUESTIONS = [
       "B",
       "D"
     ],
-    "explanation": "Karakteristik utama protokol Link-State: (A) Setiap router mengumpulkan LSA dari semua router lain sehingga memiliki pandangan topologi lengkap (LSDB); (B) Menggunakan algoritma matematika Dijkstra SPF untuk menghitung rute terbaik; (D) Efisien bandwidth karena tidak mengirim tabel routing secara periodik, melainkan hanya triggered updates saat ada link up/down. Pernyataan C dan E adalah ciri protokol Distance-Vector (RIP)."
+    "explanation": "Karakteristik utama protokol Link-State: (A) Setiap router mengumpulkan LSA dari semua router lain sehingga memiliki pandangan topologi lengkap (LSDB); (B) Menggunakan algoritma matematika Dijkstra SPF untuk menghitung rute terbaik; (D) Efisien bandwidth karena tidak mengirim tabel routing secara periodik, melainkan hanya triggered updates saat ada link up/down. Pernyataan C dan E adalah ciri protokol Distance-Vector (RIP).",
+    "correctKeys": [
+      "A",
+      "B",
+      "D"
+    ],
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KARAKTERISTIK PROTOKOL LINK-STATE (OSPF/IS-IS)",
+      "latex": "\\text{KARAKTERISTIK PROTOKOL LINK-STATE (OSPF/IS-IS} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Karakteristik Protokol Link-State (OSPF/IS-IS) mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Karakteristik utama protokol Link-State: (A) Setiap router mengumpulkan LSA dari semua router lain sehingga memiliki pandangan topologi lengkap (LSDB); (B) Menggunakan algoritma matematika Dijkstra SPF untuk menghitung rute terbaik; (D) Efisien bandwidth karena tidak mengirim tabel routing secara periodik, melainkan hanya triggered updates saat ada link up/down.",
+      "execution": "Langkah Analisis: Pernyataan C dan E adalah ciri protokol Distance-Vector (RIP)."
+    }
   },
   {
     "id": "tkj-sim-27",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Komponen Keamanan Protokol HTTPS & TLS 1.3",
-    "type": "complex",
+    "type": "multi",
     "questionHtml": "Protokol Transport Layer Security (TLS 1.3) yang mendasari koneksi web HTTPS modern menyediakan tiga pilar jaminan keamanan fundamental bagi pertukaran data di internet publik. Manakah dari layanan keamanan berikut yang disediakan secara langsung oleh protokol TLS? (Pilihlah lebih dari satu pernyataan yang benar)",
     "options": [
       {
@@ -4239,16 +4462,30 @@ window.TKA_TKJ_QUESTIONS = [
       "B",
       "C"
     ],
-    "explanation": "Tiga pilar keamanan kriptografis yang dijamin oleh protokol TLS/HTTPS adalah CIA Triad untuk kanal transmisi: (A) Kerahasiaan (Confidentiality) dengan enkripsi simetris sehingga data tidak bisa disadap; (B) Integritas (Integrity) dengan hash HMAC untuk memastikan data tidak dimanipulasi di tengah jalan; (C) Autentikasi (Authentication) dengan sertifikat digital X.509 untuk memastikan pengguna benar-benar terhubung ke server resmi bukan server penipu."
+    "explanation": "Tiga pilar keamanan kriptografis yang dijamin oleh protokol TLS/HTTPS adalah CIA Triad untuk kanal transmisi: (A) Kerahasiaan (Confidentiality) dengan enkripsi simetris sehingga data tidak bisa disadap; (B) Integritas (Integrity) dengan hash HMAC untuk memastikan data tidak dimanipulasi di tengah jalan; (C) Autentikasi (Authentication) dengan sertifikat digital X.509 untuk memastikan pengguna benar-benar terhubung ke server resmi bukan server penipu.",
+    "correctKeys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KOMPONEN KEAMANAN PROTOKOL HTTPS AND TLS 1.3",
+      "latex": "\\text{KOMPONEN KEAMANAN PROTOKOL HTTPS AND TLS 1.3} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Komponen Keamanan Protokol HTTPS & TLS 1.3 mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Tiga pilar keamanan kriptografis yang dijamin oleh protokol TLS/HTTPS adalah CIA Triad untuk kanal transmisi: (A) Kerahasiaan (Confidentiality) dengan enkripsi simetris sehingga data tidak bisa disadap; (B) Integritas (Integrity) dengan hash HMAC untuk memastikan data tidak dimanipulasi di tengah jalan; (C) Autentikasi (Authentication) dengan sertifikat digital X.",
+      "execution": "Langkah Analisis: 509 untuk memastikan pengguna benar-benar terhubung ke server resmi bukan server penipu."
+    }
   },
   {
     "id": "tkj-sim-28",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Karakteristik Kabel Twisted Pair Kategori Kinerja Tinggi (Cat 6A & Cat 7)",
-    "type": "complex",
+    "type": "multi",
     "questionHtml": "Dalam pembangunan infrastruktur data center berbasis tembaga 10GBASE-T (kecepatan 10 Gbps), teknisi memilih kabel Cat 6A (Augmented) dan Cat 7 daripada kabel Cat 5e atau Cat 6 standar. Manakah pernyataan teknis berikut yang BENAR mengenai spesifikasi kabel tersebut? (Pilihlah lebih dari satu pernyataan yang benar)",
     "options": [
       {
@@ -4277,16 +4514,30 @@ window.TKA_TKJ_QUESTIONS = [
       "B",
       "C"
     ],
-    "explanation": "Kabel Cat 6A (Augmented Kategori 6) dirancang untuk mendukung 10 Gigabit Ethernet (10GBASE-T) sejauh 100 meter penuh pada frekuensi kerja 500 MHz (Cat 6 biasa hanya mampu 10G hingga jarak 37-55 meter pada 250 MHz). Kabel Cat 6A dan Cat 7 dilengkapi pelindung shielding (STP/FTP) yang sangat rapat untuk mengeliminasi Alien Crosstalk (gangguan sinyal dari kabel tetangga yang berdampingan di cable tray)."
+    "explanation": "Kabel Cat 6A (Augmented Kategori 6) dirancang untuk mendukung 10 Gigabit Ethernet (10GBASE-T) sejauh 100 meter penuh pada frekuensi kerja 500 MHz (Cat 6 biasa hanya mampu 10G hingga jarak 37-55 meter pada 250 MHz). Kabel Cat 6A dan Cat 7 dilengkapi pelindung shielding (STP/FTP) yang sangat rapat untuk mengeliminasi Alien Crosstalk (gangguan sinyal dari kabel tetangga yang berdampingan di cable tray).",
+    "correctKeys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KARAKTERISTIK KABEL TWISTED PAIR KATEGORI KINERJA TINGGI (CAT 6A AND CAT 7)",
+      "latex": "\\text{KARAKTERISTIK KABEL TWISTED PAIR KATEGORI KIN} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Karakteristik Kabel Twisted Pair Kategori Kinerja Tinggi (Cat 6A & Cat 7) mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Kabel Cat 6A (Augmented Kategori 6) dirancang untuk mendukung 10 Gigabit Ethernet (10GBASE-T) sejauh 100 meter penuh pada frekuensi kerja 500 MHz (Cat 6 biasa hanya mampu 10G hingga jarak 37-55 meter pada 250 MHz).",
+      "execution": "Langkah Analisis: Kabel Cat 6A dan Cat 7 dilengkapi pelindung shielding (STP/FTP) yang sangat rapat untuk mengeliminasi Alien Crosstalk (gangguan sinyal dari kabel tetangga yang berdampingan di cable tray)."
+    }
   },
   {
     "id": "tkj-sim-29",
     "subject": "tkj",
     "materi": "JARINGAN NIRKABEL & WIRELESS",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Faktor Penyebab Degradasi Throughput Sinyal Wi-Fi",
-    "type": "complex",
+    "type": "multi",
     "questionHtml": "Meskipun Access Point (AP) berada dalam jarak 10 meter dari perangkat laptop pengguna, hasil pengujian iPerf3 menunjukkan throughput aktual hanya mencapai 15 Mbps dari kapasitas teoretis 300 Mbps. Manakah dari faktor-faktor fisik dan radio frekuensi berikut yang DAPAT menjadi penyebab penurunan performa tersebut? (Pilihlah lebih dari satu pernyataan yang benar)",
     "options": [
       {
@@ -4315,16 +4566,30 @@ window.TKA_TKJ_QUESTIONS = [
       "B",
       "C"
     ],
-    "explanation": "Penurunan performa nirkabel ekstrem umumnya disebabkan oleh interferensi radio: (A) Co-Channel Interference (AP lain di kanal yang sama memaksa klien menunggu giliran bicara); (B) Gangguan gelombang non-Wi-Fi (microwave, Bluetooth, video sender analog yang menaikkan noise floor); dan (C) Hidden Node Problem di mana klien-klien terhalang dinding sehingga saling mentransmisikan data bersamaan dan merusak paket (dapat dimitigasi dengan mekanisme RTS/CTS threshold)."
+    "explanation": "Penurunan performa nirkabel ekstrem umumnya disebabkan oleh interferensi radio: (A) Co-Channel Interference (AP lain di kanal yang sama memaksa klien menunggu giliran bicara); (B) Gangguan gelombang non-Wi-Fi (microwave, Bluetooth, video sender analog yang menaikkan noise floor); dan (C) Hidden Node Problem di mana klien-klien terhalang dinding sehingga saling mentransmisikan data bersamaan dan merusak paket (dapat dimitigasi dengan mekanisme RTS/CTS threshold).",
+    "correctKeys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: FAKTOR PENYEBAB DEGRADASI THROUGHPUT SINYAL WI-FI",
+      "latex": "\\text{FAKTOR PENYEBAB DEGRADASI THROUGHPUT SINYAL W} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Faktor Penyebab Degradasi Throughput Sinyal Wi-Fi mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Penurunan performa nirkabel ekstrem umumnya disebabkan oleh interferensi radio: (A) Co-Channel Interference (AP lain di kanal yang sama memaksa klien menunggu giliran bicara); (B) Gangguan gelombang non-Wi-Fi (microwave, Bluetooth, video sender analog yang menaikkan noise floor); dan (C) Hidden Node Problem di mana klien-klien terhalang dinding sehingga saling mentransmisikan data bersamaan dan merusak paket (dapat dimitigasi dengan mekanisme RTS/CTS threshold).",
+      "execution": "Langkah Analisis: Analisis parameter teknis dan lakukan eliminasi opsi yang tidak sesuai dengan kaidah Faktor Penyebab Degradasi Throughput Sinyal Wi-Fi."
+    }
   },
   {
     "id": "tkj-sim-30",
     "subject": "tkj",
     "materi": "VIRTUALISASI & CLOUD COMPUTING TJKT",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Komparasi Virtualisasi Hypervisor Tipe-1 (Bare-Metal) vs Tipe-2 (Hosted)",
-    "type": "complex",
+    "type": "multi",
     "questionHtml": "Dalam penyediaan infrastruktur server komputasi awan di sekolah, teknisi membandingkan penggunaan Hypervisor Tipe-1 (seperti VMware ESXi atau Proxmox VE) dengan Hypervisor Tipe-2 (seperti Oracle VirtualBox atau VMware Workstation). Manakah pernyataan yang BENAR mengenai arsitektur Hypervisor Tipe-1? (Pilihlah lebih dari satu pernyataan yang benar)",
     "options": [
       {
@@ -4353,14 +4618,28 @@ window.TKA_TKJ_QUESTIONS = [
       "B",
       "C"
     ],
-    "explanation": "Hypervisor Tipe-1 (Bare-Metal) seperti VMware ESXi, Proxmox VE, atau Microsoft Hyper-V Server diinstal langsung di atas hardware fisik server tanpa sistem operasi induk. Desain ini menghilangkan latensi OS perantara sehingga sangat efisien, stabil untuk lingkungan produksi 24/7, dan mendukung fitur enterprise seperti clustering, failover otomatis, dan Live Migration mesin virtual."
+    "explanation": "Hypervisor Tipe-1 (Bare-Metal) seperti VMware ESXi, Proxmox VE, atau Microsoft Hyper-V Server diinstal langsung di atas hardware fisik server tanpa sistem operasi induk. Desain ini menghilangkan latensi OS perantara sehingga sangat efisien, stabil untuk lingkungan produksi 24/7, dan mendukung fitur enterprise seperti clustering, failover otomatis, dan Live Migration mesin virtual.",
+    "correctKeys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: KOMPARASI VIRTUALISASI HYPERVISOR TIPE-1 (BARE-METAL) VS TIPE-2 (HOSTED)",
+      "latex": "\\text{KOMPARASI VIRTUALISASI HYPERVISOR TIPE-1 (BAR} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Komparasi Virtualisasi Hypervisor Tipe-1 (Bare-Metal) vs Tipe-2 (Hosted) mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Hypervisor Tipe-1 (Bare-Metal) seperti VMware ESXi, Proxmox VE, atau Microsoft Hyper-V Server diinstal langsung di atas hardware fisik server tanpa sistem operasi induk.",
+      "execution": "Langkah Analisis: Desain ini menghilangkan latensi OS perantara sehingga sangat efisien, stabil untuk lingkungan produksi 24/7, dan mendukung fitur enterprise seperti clustering, failover otomatis, dan Live Migration mesin virtual."
+    }
   },
   {
     "id": "tkj-sim-31",
     "subject": "tkj",
     "materi": "ROUTING & SWITCHING ENTERPRISE",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Evaluasi Karakteristik Protokol Routing Dinamis",
     "type": "matrix",
     "questionHtml": "Terkait karakteristik teknis dan metrik dari berbagai protokol perutean dinamis (dynamic routing protocols), evaluasilah kebenaran dari masing-masing pernyataan berikut:",
@@ -4386,14 +4665,29 @@ window.TKA_TKJ_QUESTIONS = [
         "correct": "Benar"
       }
     ],
-    "explanation": "Pernyataan 0 Benar (RIPv2 hop max = 15). Pernyataan 1 Benar (Formula cost OSPF = Reference Bandwidth / Interface Bandwidth). Pernyataan 2 Salah (Directly Connected memiliki AD = 0 paling dipercaya, sedangkan OSPF memiliki AD = 110). Pernyataan 3 Benar (BGP adalah satu-satunya EGP standar internet global)."
+    "explanation": "Pernyataan 0 Benar (RIPv2 hop max = 15). Pernyataan 1 Benar (Formula cost OSPF = Reference Bandwidth / Interface Bandwidth). Pernyataan 2 Salah (Directly Connected memiliki AD = 0 paling dipercaya, sedangkan OSPF memiliki AD = 110). Pernyataan 3 Benar (BGP adalah satu-satunya EGP standar internet global).",
+    "correctAnswers": {
+      "0": true,
+      "1": true,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: EVALUASI KARAKTERISTIK PROTOKOL ROUTING DINAMIS",
+      "latex": "\\text{EVALUASI KARAKTERISTIK PROTOKOL ROUTING DINAM} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Evaluasi Karakteristik Protokol Routing Dinamis mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pernyataan 0 Benar (RIPv2 hop max = 15).",
+      "execution": "Langkah Analisis: Pernyataan 1 Benar (Formula cost OSPF = Reference Bandwidth / Interface Bandwidth)."
+    }
   },
   {
     "id": "tkj-sim-32",
     "subject": "tkj",
     "materi": "MEDIA TRANSMISI & JARINGAN FISIK",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Evaluasi Parameter dan Prosedur Kerja Serat Optik",
     "type": "matrix",
     "questionHtml": "Terkait prinsip kerja fisik, alat ukur, dan prosedur terminasi kabel fiber optik, tentukan apakah setiap pernyataan berikut Benar atau Salah:",
@@ -4419,14 +4713,29 @@ window.TKA_TKJ_QUESTIONS = [
         "correct": "Benar"
       }
     ],
-    "explanation": "Pernyataan 0 Benar (Jendela transmisi 1310 nm dan 1550 nm adalah window redaman terendah). Pernyataan 1 Benar (OPM membaca dBm dan dB). Pernyataan 2 Salah (Fiber Cleaver bertugas memotong sudut presisi 90 derajat pada core kaca; alat pengupas jaket adalah Fiber Stripper). Pernyataan 3 Benar (Fusion splicer menggunakan busur listrik tegangan tinggi)."
+    "explanation": "Pernyataan 0 Benar (Jendela transmisi 1310 nm dan 1550 nm adalah window redaman terendah). Pernyataan 1 Benar (OPM membaca dBm dan dB). Pernyataan 2 Salah (Fiber Cleaver bertugas memotong sudut presisi 90 derajat pada core kaca; alat pengupas jaket adalah Fiber Stripper). Pernyataan 3 Benar (Fusion splicer menggunakan busur listrik tegangan tinggi).",
+    "correctAnswers": {
+      "0": true,
+      "1": true,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: EVALUASI PARAMETER DAN PROSEDUR KERJA SERAT OPTIK",
+      "latex": "\\text{EVALUASI PARAMETER DAN PROSEDUR KERJA SERAT O} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Evaluasi Parameter dan Prosedur Kerja Serat Optik mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pernyataan 0 Benar (Jendela transmisi 1310 nm dan 1550 nm adalah window redaman terendah).",
+      "execution": "Langkah Analisis: Pernyataan 1 Benar (OPM membaca dBm dan dB)."
+    }
   },
   {
     "id": "tkj-sim-33",
     "subject": "tkj",
     "materi": "KEAMANAN JARINGAN & FIREWALL",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Evaluasi Mekanisme Keamanan Jaringan dan Kriptografi",
     "type": "matrix",
     "questionHtml": "Dalam implementasi pertahanan siber pada infrastruktur jaringan enterprise, evaluasilah kebenaran dari masing-masing pernyataan berikut:",
@@ -4452,14 +4761,29 @@ window.TKA_TKJ_QUESTIONS = [
         "correct": "Benar"
       }
     ],
-    "explanation": "Pernyataan 0 Salah (Fungsi Hash bersifat satu arah / one-way, secara matematis mustahil didekripsi kembali). Pernyataan 1 Benar (Stateful memeriksa state koneksi, stateless hanya memeriksa rule per paket). Pernyataan 2 Salah (Aksi yang mematikan port ke err-disable adalah 'shutdown', bukan 'protect'). Pernyataan 3 Benar (IPS bersifat in-line pencegahan aktif, IDS bersifat pasif pemantauan)."
+    "explanation": "Pernyataan 0 Salah (Fungsi Hash bersifat satu arah / one-way, secara matematis mustahil didekripsi kembali). Pernyataan 1 Benar (Stateful memeriksa state koneksi, stateless hanya memeriksa rule per paket). Pernyataan 2 Salah (Aksi yang mematikan port ke err-disable adalah 'shutdown', bukan 'protect'). Pernyataan 3 Benar (IPS bersifat in-line pencegahan aktif, IDS bersifat pasif pemantauan).",
+    "correctAnswers": {
+      "0": false,
+      "1": true,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: EVALUASI MEKANISME KEAMANAN JARINGAN DAN KRIPTOGRAFI",
+      "latex": "\\text{EVALUASI MEKANISME KEAMANAN JARINGAN DAN KRIP} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Evaluasi Mekanisme Keamanan Jaringan dan Kriptografi mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pernyataan 0 Salah (Fungsi Hash bersifat satu arah / one-way, secara matematis mustahil didekripsi kembali).",
+      "execution": "Langkah Analisis: Pernyataan 1 Benar (Stateful memeriksa state koneksi, stateless hanya memeriksa rule per paket)."
+    }
   },
   {
     "id": "tkj-sim-34",
     "subject": "tkj",
     "materi": "PENGALAMATAN JARINGAN IPV4 & IPV6",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Evaluasi Standar Pengalamatan Internet Protocol",
     "type": "matrix",
     "questionHtml": "Terkait standar pengalamatan IPv4 dan IPv6 serta aturan alokasi IANA, tentukan apakah setiap pernyataan berikut Benar atau Salah:",
@@ -4485,14 +4809,29 @@ window.TKA_TKJ_QUESTIONS = [
         "correct": "Benar"
       }
     ],
-    "explanation": "Pernyataan 0 Benar (127.0.0.1 adalah loopback interface). Pernyataan 1 Benar (fe80::/10 adalah link-local IPv6). Pernyataan 2 Salah (/29 memiliki total 8 alamat, tetapi dikurangi Network ID dan Broadcast ID sehingga usable host hanya 6, bukan 8). Pernyataan 3 Benar (Kelas D adalah blok alamat multicast)."
+    "explanation": "Pernyataan 0 Benar (127.0.0.1 adalah loopback interface). Pernyataan 1 Benar (fe80::/10 adalah link-local IPv6). Pernyataan 2 Salah (/29 memiliki total 8 alamat, tetapi dikurangi Network ID dan Broadcast ID sehingga usable host hanya 6, bukan 8). Pernyataan 3 Benar (Kelas D adalah blok alamat multicast).",
+    "correctAnswers": {
+      "0": true,
+      "1": true,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: EVALUASI STANDAR PENGALAMATAN INTERNET PROTOCOL",
+      "latex": "\\text{EVALUASI STANDAR PENGALAMATAN INTERNET PROTOC} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Evaluasi Standar Pengalamatan Internet Protocol mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pernyataan 0 Benar (127.",
+      "execution": "Langkah Analisis: 1 adalah loopback interface)."
+    }
   },
   {
     "id": "tkj-sim-35",
     "subject": "tkj",
     "materi": "K3LH & KETENAGAKERJAAN TJKT",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "topic": "Evaluasi Standar Keselamatan Kerja Listrik & Lingkungan Data Center",
     "type": "matrix",
     "questionHtml": "Terkait penerapan standar K3LH industri telekomunikasi dan pengelolaan data center, tentukan apakah setiap pernyataan berikut Benar atau Salah:",
@@ -4518,6 +4857,21 @@ window.TKA_TKJ_QUESTIONS = [
         "correct": "Benar"
       }
     ],
-    "explanation": "Pernyataan 0 Benar (Sistem Cold/Hot Aisle adalah standar efisiensi pendinginan data center). Pernyataan 1 Salah FATAL (Laser serat optik beroperasi pada spektrum inframerah tak kasat mata, jika dipandang langsung dapat membakar retina mata secara permanen tanpa rasa sakit). Pernyataan 2 Benar (Online UPS memiliki 0 ms transfer time). Pernyataan 3 Benar (Gas CO2 dan Clean Agent adalah pemadam non-konduktif standar kebakaran listrik Kelas C)."
+    "explanation": "Pernyataan 0 Benar (Sistem Cold/Hot Aisle adalah standar efisiensi pendinginan data center). Pernyataan 1 Salah FATAL (Laser serat optik beroperasi pada spektrum inframerah tak kasat mata, jika dipandang langsung dapat membakar retina mata secara permanen tanpa rasa sakit). Pernyataan 2 Benar (Online UPS memiliki 0 ms transfer time). Pernyataan 3 Benar (Gas CO2 dan Clean Agent adalah pemadam non-konduktif standar kebakaran listrik Kelas C).",
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "STANDAR & PROTOKOL: EVALUASI STANDAR KESELAMATAN KERJA LISTRIK AND LINGKUNGAN DATA CENTER",
+      "latex": "\\text{EVALUASI STANDAR KESELAMATAN KERJA LISTRIK AN} \\implies \\text{Kondisi Operasional Optimal}",
+      "legend": "Prinsip fundamental: Evaluasi Standar Keselamatan Kerja Listrik & Lingkungan Data Center mengacu pada arsitektur standar IEEE, IETF RFC, dan best practice telekomunikasi jaringan."
+    },
+    "hints": {
+      "concept": "Konsep Dasar: Pernyataan 0 Benar (Sistem Cold/Hot Aisle adalah standar efisiensi pendinginan data center).",
+      "execution": "Langkah Analisis: Pernyataan 1 Salah FATAL (Laser serat optik beroperasi pada spektrum inframerah tak kasat mata, jika dipandang langsung dapat membakar retina mata secara permanen tanpa rasa sakit)."
+    }
   }
 ];

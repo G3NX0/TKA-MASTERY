@@ -353,6 +353,9 @@
                 <span class="topic-bar-prefix">SUBMATERI:</span>
                 <span class="paper-q-topic" id="paperQTopic">Fungsi Komposisi & Invers</span>
               </div>
+
+              <!-- Subject-Specific Capability Tools (Furigana, Pinyin, Harakat, Periodic Table, Constants, Subnet, BEP) -->
+              <div class="subject-tool-dock hidden" id="subjectToolDock"></div>
             </div>
 
             <!-- Question Body Text -->
@@ -754,6 +757,270 @@
           <span>Ya, Kumpulkan Ujian</span>
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
         </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- 6. MODAL: TABEL PERIODIK UNSUR (KIMIA) -->
+  <div class="app-modal-overlay hidden" id="modalPeriodicTable" style="display: none;">
+    <div class="app-modal-card tool-modal-card periodic-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><path d="M10.4 13.6L6.5 17.5M13.6 10.4L17.5 6.5"/></svg>
+        </div>
+        <div class="app-modal-titles">
+          <h3 class="app-modal-title">Tabel Periodik Unsur (Standar IUPAC)</h3>
+          <span class="app-modal-subtitle">118 Unsur Kimia — Nomor Atom ($Z$), Massa Relatif ($A_r$), dan Konfigurasi Elektron</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnClosePeriodicTable" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="tool-modal-body periodic-modal-body">
+        <!-- Interactive Element Inspector Banner -->
+        <div class="periodic-inspector-card" id="periodicInspector">
+          <div class="inspector-sym-box cat-transition" id="inspectSymBox">
+            <span class="inspector-num" id="inspectNum">26</span>
+            <span class="inspector-sym" id="inspectSym">Fe</span>
+            <span class="inspector-mass" id="inspectMass">55.845</span>
+          </div>
+          <div class="inspector-details">
+            <div class="inspector-title-row">
+              <h4 class="inspector-name" id="inspectName">Besi (Ferrum)</h4>
+              <span class="inspector-badge cat-transition" id="inspectCat">Logam Transisi</span>
+              <span class="inspector-phase" id="inspectPhase">Padat (298 K)</span>
+            </div>
+            <div class="inspector-grid-props">
+              <div class="inspector-prop">
+                <span class="prop-lbl">Konfigurasi Elektron</span>
+                <span class="prop-val" id="inspectConfig">[Ar] 3d⁶ 4s²</span>
+              </div>
+              <div class="inspector-prop">
+                <span class="prop-lbl">Golongan &amp; Periode</span>
+                <span class="prop-val" id="inspectGroupPeriod">Golongan 8, Periode 4</span>
+              </div>
+              <div class="inspector-prop">
+                <span class="prop-lbl">Bilangan Oksidasi</span>
+                <span class="prop-val" id="inspectOx">+2, +3</span>
+              </div>
+              <div class="inspector-prop">
+                <span class="prop-lbl">Massa Atom ($A_r$)</span>
+                <span class="prop-val" id="inspectAr">55.845 g/mol</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls: Search & Category Filters -->
+        <div class="periodic-controls-row">
+          <div class="periodic-search-bar">
+            <input type="text" id="periodicSearchInput" class="tool-input-text" placeholder="Cari unsur (cth: H, Fe, Oksigen, 26, emas)..." autocomplete="off">
+            <span class="periodic-count-badge" id="periodicFilterCount">118 Unsur Lengkap</span>
+          </div>
+          <div class="periodic-category-pills" id="periodicCategoryFilters">
+            <button type="button" class="periodic-cat-pill active" data-cat="all">Semua (118)</button>
+            <button type="button" class="periodic-cat-pill" data-cat="alkali">Logam Alkali</button>
+            <button type="button" class="periodic-cat-pill" data-cat="alkaline">Alkali Tanah</button>
+            <button type="button" class="periodic-cat-pill" data-cat="transition">Transisi</button>
+            <button type="button" class="periodic-cat-pill" data-cat="post-trans">Pasca-Transisi</button>
+            <button type="button" class="periodic-cat-pill" data-cat="metalloid">Metaloid</button>
+            <button type="button" class="periodic-cat-pill" data-cat="nonmetal">Nonlogam</button>
+            <button type="button" class="periodic-cat-pill" data-cat="halogen">Halogen</button>
+            <button type="button" class="periodic-cat-pill" data-cat="noble">Gas Mulia</button>
+            <button type="button" class="periodic-cat-pill" data-cat="lanthanide">Lantanida</button>
+            <button type="button" class="periodic-cat-pill" data-cat="actinide">Aktinida</button>
+          </div>
+        </div>
+
+        <!-- Authentic 18-Column IUPAC Periodic Table -->
+        <div class="periodic-table-scroll-container">
+          <div class="iupac-periodic-board" id="periodicElementsGrid">
+            <!-- Populated dynamically by app.js with exact 18 columns x 7 periods + Lanthanides & Actinides -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 7. MODAL: KONSTANTA FISIKA (FISIKA) -->
+  <div class="app-modal-overlay hidden" id="modalPhysicsConstants" style="display: none;">
+    <div class="app-modal-card tool-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge amber">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <div class="app-modal-titles">
+          <h3 class="app-modal-title">Konstanta &amp; Satuan Baku Fisika</h3>
+          <span class="app-modal-subtitle">Standar SI &amp; Pusmendik untuk Ujian Fisika Saintek</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnClosePhysicsConstants" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="tool-modal-body">
+        <div class="constants-table-wrapper">
+          <table class="constants-table">
+            <thead>
+              <tr>
+                <th>Konstanta</th>
+                <th>Simbol</th>
+                <th>Nilai Baku</th>
+                <th>Satuan (SI)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Kecepatan Cahaya di Ruang Hampa</td><td><code>c</code></td><td>3,00 × 10⁸</td><td>m/s</td></tr>
+              <tr><td>Percepatan Gravitasi Standar</td><td><code>g</code></td><td>9,8 / 10</td><td>m/s²</td></tr>
+              <tr><td>Konstanta Planck</td><td><code>h</code></td><td>6,63 × 10⁻³⁴</td><td>J·s</td></tr>
+              <tr><td>Muatan Elementer Elektron</td><td><code>e</code></td><td>1,60 × 10⁻¹⁹</td><td>C</td></tr>
+              <tr><td>Massa Diam Elektron</td><td><code>m_e</code></td><td>9,11 × 10⁻³¹</td><td>kg</td></tr>
+              <tr><td>Massa Diam Proton</td><td><code>m_p</code></td><td>1,67 × 10⁻²⁷</td><td>kg</td></tr>
+              <tr><td>Konstanta Coulomb</td><td><code>k</code></td><td>9,00 × 10⁹</td><td>N·m²/C²</td></tr>
+              <tr><td>Permitivitas Ruang Hampa</td><td><code>ε₀</code></td><td>8,85 × 10⁻¹²</td><td>C²/(N·m²)</td></tr>
+              <tr><td>Permeabilitas Ruang Hampa</td><td><code>μ₀</code></td><td>4π × 10⁻⁷</td><td>T·m/A</td></tr>
+              <tr><td>Konstanta Gas Universal</td><td><code>R</code></td><td>8,314</td><td>J/(mol·K)</td></tr>
+              <tr><td>Bilangan Avogadro</td><td><code>N_A</code></td><td>6,02 × 10²³</td><td>partikel/mol</td></tr>
+              <tr><td>Konstanta Boltzmann</td><td><code>k_B</code></td><td>1,38 × 10⁻²³</td><td>J/K</td></tr>
+              <tr><td>Konstanta Gravitasi Universal</td><td><code>G</code></td><td>6,67 × 10⁻¹¹</td><td>N·m²/kg²</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 8. MODAL: KALKULATOR SUBNETTING CIDR (TKJ / INFORMATIKA) -->
+  <div class="app-modal-overlay hidden" id="modalSubnetCalc" style="display: none;">
+    <div class="app-modal-card tool-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge blue">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <div class="app-modal-titles">
+          <h3 class="app-modal-title">Kalkulator Subnetting &amp; CIDR (TJKT)</h3>
+          <span class="app-modal-subtitle">Alat Hitung Cepat VLSM, Netmask, Broadcast &amp; Host Valid</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnCloseSubnetCalc" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="tool-modal-body">
+        <div class="subnet-form-grid">
+          <div class="tool-field">
+            <label class="tool-label" for="subnetIpInput">IP Address (IPv4)</label>
+            <input type="text" id="subnetIpInput" class="tool-input-text" value="192.168.1.10" placeholder="192.168.1.1">
+          </div>
+          <div class="tool-field">
+            <label class="tool-label" for="subnetCidrSelect">Prefix CIDR</label>
+            <select id="subnetCidrSelect" class="tool-select">
+              <option value="24">/24 (255.255.255.0 — 254 Hosts)</option>
+              <option value="25">/25 (255.255.255.128 — 126 Hosts)</option>
+              <option value="26">/26 (255.255.255.192 — 62 Hosts)</option>
+              <option value="27">/27 (255.255.255.224 — 30 Hosts)</option>
+              <option value="28">/28 (255.255.255.240 — 14 Hosts)</option>
+              <option value="29">/29 (255.255.255.248 — 6 Hosts)</option>
+              <option value="30">/30 (255.255.255.252 — 2 Hosts Point-to-Point)</option>
+            </select>
+          </div>
+        </div>
+        <div class="subnet-results-card">
+          <div class="subnet-res-row"><span>Subnet Mask:</span><strong id="resSubnetMask">255.255.255.0</strong></div>
+          <div class="subnet-res-row"><span>Network ID:</span><strong id="resNetworkId">192.168.1.0</strong></div>
+          <div class="subnet-res-row"><span>Broadcast ID:</span><strong id="resBroadcastId">192.168.1.255</strong></div>
+          <div class="subnet-res-row"><span>Host Range:</span><strong id="resHostRange">192.168.1.1 — 192.168.1.254</strong></div>
+          <div class="subnet-res-row"><span>Total Host Valid:</span><strong id="resTotalHosts">254 Alamat</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 9. MODAL: KALKULATOR BEP & ANALISIS BIAYA (PKK / EKONOMI) -->
+  <div class="app-modal-overlay hidden" id="modalBepCalc" style="display: none;">
+    <div class="app-modal-card tool-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge purple">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <div class="app-modal-titles">
+          <h3 class="app-modal-title">Kalkulator BEP &amp; Margin Laba (PKK)</h3>
+          <span class="app-modal-subtitle">Break-Even Point (Titik Impas) &amp; Margin Kontribusi</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnCloseBepCalc" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="tool-modal-body">
+        <div class="bep-form-grid">
+          <div class="tool-field">
+            <label class="tool-label" for="bepFcInput">Biaya Tetap (Fixed Cost - Rp)</label>
+            <input type="number" id="bepFcInput" class="tool-input-text" value="5000000" step="100000">
+          </div>
+          <div class="tool-field">
+            <label class="tool-label" for="bepVcInput">Biaya Variabel / Unit (Variable Cost - Rp)</label>
+            <input type="number" id="bepVcInput" class="tool-input-text" value="15000" step="1000">
+          </div>
+          <div class="tool-field">
+            <label class="tool-label" for="bepPriceInput">Harga Jual / Unit (Price - Rp)</label>
+            <input type="number" id="bepPriceInput" class="tool-input-text" value="25000" step="1000">
+          </div>
+        </div>
+        <div class="bep-results-card">
+          <div class="bep-res-row"><span>Margin Kontribusi / Unit:</span><strong id="resMarginUnit">Rp 10.000</strong></div>
+          <div class="bep-res-row"><span>Rasio Margin Kontribusi:</span><strong id="resMarginRatio">40,0 %</strong></div>
+          <div class="bep-res-row highlight"><span>BEP (Volume Penjualan):</span><strong id="resBepUnit">500 Unit</strong></div>
+          <div class="bep-res-row highlight"><span>BEP (Nominal Rupiah):</span><strong id="resBepRupiah">Rp 12.500.000</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 10. MODAL: TRACE TABLE SCRATCHPAD (RPL / INFORMATIKA) -->
+  <div class="app-modal-overlay hidden" id="modalTraceTable" style="display: none;">
+    <div class="app-modal-card tool-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge cyan">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <div class="app-modal-titles">
+          <h3 class="app-modal-title">Trace Table Scratchpad (Algoritma)</h3>
+          <span class="app-modal-subtitle">Tabel Dry-Run Iterasi Loop &amp; Pelacakan Variabel Program</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnCloseTraceTable" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="tool-modal-body">
+        <div class="trace-table-actions">
+          <button type="button" class="btn-trace-action" id="btnAddTraceCol">+ Tambah Variabel</button>
+          <button type="button" class="btn-trace-action" id="btnAddTraceRow">+ Tambah Iterasi (Baris)</button>
+          <button type="button" class="btn-trace-action danger" id="btnClearTrace">Bersihkan Tabel</button>
+        </div>
+        <div class="trace-table-scroll">
+          <table class="trace-table" id="traceTableElement">
+            <thead>
+              <tr id="traceTableHeadRow">
+                <th>Langkah / Iterasi</th>
+                <th>Variabel <code>i</code></th>
+                <th>Variabel <code>sum</code></th>
+                <th>Kondisi Boolean</th>
+              </tr>
+            </thead>
+            <tbody id="traceTableBody">
+              <tr>
+                <td>Iterasi 0 (Inisialisasi)</td>
+                <td><input type="text" class="trace-input" value="0"></td>
+                <td><input type="text" class="trace-input" value="0"></td>
+                <td><input type="text" class="trace-input" value="true"></td>
+              </tr>
+              <tr>
+                <td>Iterasi 1</td>
+                <td><input type="text" class="trace-input" value="1"></td>
+                <td><input type="text" class="trace-input" value="1"></td>
+                <td><input type="text" class="trace-input" value="true"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   </div>

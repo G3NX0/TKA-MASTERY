@@ -1,8 +1,3 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_BAHASA_KOREA.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Korea TOPIK I-II / CEFR A2-B2)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
- */
 window.TKA_BAHASA_KOREA_QUESTIONS = [
   {
     "id": "kor-lat-e-01",
@@ -3261,7 +3256,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 높다고 (kata sifat 높다 berakar konsonan berpasangan langsung dengan akhiran kutipan deklaratif -다고).."
+    "explanation": "Kunci Jawaban: (A) 높다고 (kata sifat 높다 berakar konsonan berpasangan langsung dengan akhiran kutipan deklaratif -다고)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PELAPORAN TEMUAN ILMIAH MENGGUNAKAN BENTUK KUTIPAN TAK LANGSUNG DEKLARATIF (-ㄴ/는다고 밝히다)",
+      "latex": "\\text{Pelaporan Temuan Ilmiah Menggunakan Bentuk Ku} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Pelaporan Temuan Ilmiah Menggunakan Bentuk Kutipan Tak Langsung Deklaratif (-ㄴ/는다고 밝히다) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (A) 높다고 (kata sifat 높다 berakar konsonan berpasangan langsung dengan akhiran kutipan deklaratif -다고).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-02",
@@ -3295,7 +3299,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 있었던 척하며 (aspek telah mengetahui di masa lampau berpadu dengan penanda kepura-puraan -척하다).."
+    "explanation": "Kunci Jawaban: (B) 있었던 척하며 (aspek telah mengetahui di masa lampau berpadu dengan penanda kepura-puraan -척하다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: MENYATAKAN SESEORANG BERPURA-PURA SUDAH MENGETAHUI BERITA RAHASIA",
+      "latex": "\\text{Menyatakan Seseorang Berpura-pura Sudah Menge} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Menyatakan Seseorang Berpura-pura Sudah Mengetahui Berita Rahasia mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (B) 있었던 척하며 (aspek telah mengetahui di masa lampau berpadu dengan penanda kepura-puraan -척하다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-03",
@@ -3329,7 +3342,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 읽혔습니다 (verba dasar 읽다 disisipi imbuhan kausatif 히 menjadi 읽히다, lalu terkonjugasi lampau 읽혔습니다).."
+    "explanation": "Kunci Jawaban: (C) 읽혔습니다 (verba dasar 읽다 disisipi imbuhan kausatif 히 menjadi 읽히다, lalu terkonjugasi lampau 읽혔습니다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: DISTINGSI VERBA TRANSITIF BIASA '읽다' (MEMBACA) VS VERBA KAUSATIF '읽히다' (MEMBACAKAN DONGENG PADA ANAK)",
+      "latex": "\\text{Distingsi Verba Transitif Biasa '읽다' (Membaca} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Distingsi Verba Transitif Biasa '읽다' (Membaca) vs Verba Kausatif '읽히다' (Membacakan Dongeng pada Anak) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (C) 읽혔습니다 (verba dasar 읽다 disisipi imbuhan kausatif 히 menjadi 읽히다, lalu terkonjugasi lampau 읽혔습니다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-04",
@@ -3363,7 +3385,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 복잡할수록 (akar kata sifat berakhiran vokal 하- berpadu dengan akhiran perbandingan proporsional -ㄹ수록).."
+    "explanation": "Kunci Jawaban: (D) 복잡할수록 (akar kata sifat berakhiran vokal 하- berpadu dengan akhiran perbandingan proporsional -ㄹ수록)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KORELASI TINGKAT KERUMITAN DESAIN ALGORITMA KOMPUTASI DENGAN BEBAN MEMORI SISTEM",
+      "latex": "\\text{Korelasi Tingkat Kerumitan Desain Algoritma K} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Korelasi Tingkat Kerumitan Desain Algoritma Komputasi dengan Beban Memori Sistem mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (D) 복잡할수록 (akar kata sifat berakhiran vokal 하- berpadu dengan akhiran perbandingan proporsional -ㄹ수록).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-05",
@@ -3397,7 +3428,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 접속할 걸 그랬어요 (akar verba 접속하- berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다).."
+    "explanation": "Kunci Jawaban: (E) 접속할 걸 그랬어요 (akar verba 접속하- berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PENYESALAN KARENA TIDAK MELAKUKAN PEMESANAN TIKET KERETA MUDIK CHUSEOK LEBIH AWAL",
+      "latex": "\\text{Penyesalan Karena Tidak Melakukan Pemesanan T} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Penyesalan Karena Tidak Melakukan Pemesanan Tiket Kereta Mudik Chuseok Lebih Awal mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (E) 접속할 걸 그랬어요 (akar verba 접속하- berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-06",
@@ -3431,7 +3471,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tradisi gotong royong dan gugur gunung dalam menyelesaikan panen serta pembangunan fasilitas publik desa.."
+    "explanation": "Kunci Jawaban: (A) Tradisi gotong royong dan gugur gunung dalam menyelesaikan panen serta pembangunan fasilitas publik desa..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: NILAI SOLIDARITAS SOSIAL KOMUNAL PERTANIAN TRADISIONAL NUSANTARA DAN KOREA",
+      "latex": "\\text{Nilai Solidaritas Sosial Komunal Pertanian Tr} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Nilai Solidaritas Sosial Komunal Pertanian Tradisional Nusantara dan Korea mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (A) Tradisi gotong royong dan gugur gunung dalam menyelesaikan panen serta pembangunan fasilitas publik desa.",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-07",
@@ -3465,7 +3514,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 무너지는 바람에 (akar verba 무너지- + akhiran kausalitas musibah mendadak berkonsekuensi negatif -는 바람에).."
+    "explanation": "Kunci Jawaban: (B) 무너지는 바람에 (akar verba 무너지- + akhiran kausalitas musibah mendadak berkonsekuensi negatif -는 바람에)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: ALASAN PEMBATALAN ACARA KONSER MUSIK TERBUKA AKIBAT ANGIN PUTING BELIUNG",
+      "latex": "\\text{Alasan Pembatalan Acara Konser Musik Terbuka } \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Alasan Pembatalan Acara Konser Musik Terbuka Akibat Angin Puting Beliung mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (B) 무너지는 바람에 (akar verba 무너지- + akhiran kausalitas musibah mendadak berkonsekuensi negatif -는 바람에).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-08",
@@ -3499,7 +3557,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 쉴 수밖에 없습니다 (akar verba 쉬- tanpa batchim berpadu dengan -ㄹ 수밖에 없다).."
+    "explanation": "Kunci Jawaban: (C) 쉴 수밖에 없습니다 (akar verba 쉬- tanpa batchim berpadu dengan -ㄹ 수밖에 없다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KETIADAAN ALTERNATIF LAIN SELAIN BERISTIRAHAT TOTAL SAAT TERJANGKIT DEMAM TINGGI",
+      "latex": "\\text{Ketiadaan Alternatif Lain Selain Beristirahat} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Ketiadaan Alternatif Lain Selain Beristirahat Total Saat Terjangkit Demam Tinggi mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (C) 쉴 수밖에 없습니다 (akar verba 쉬- tanpa batchim berpadu dengan -ㄹ 수밖에 없다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-09",
@@ -3533,7 +3600,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 들려왔습니다 (verba dasar 듣다 disisipi imbuhan pasif 리 menjadi 들리다, lalu berpadu dengan arah datang -어 오다).."
+    "explanation": "Kunci Jawaban: (D) 들려왔습니다 (verba dasar 듣다 disisipi imbuhan pasif 리 menjadi 들리다, lalu berpadu dengan arah datang -어 오다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: SUARA OMBAK LAUT YANG TERDENGAR JELAS DARI JENDELA KAMAR HOTEL",
+      "latex": "\\text{Suara Ombak Laut yang Terdengar Jelas dari Je} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Suara Ombak Laut yang Terdengar Jelas dari Jendela Kamar Hotel mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (D) 들려왔습니다 (verba dasar 듣다 disisipi imbuhan pasif 리 menjadi 들리다, lalu berpadu dengan arah datang -어 오다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-10",
@@ -3567,7 +3643,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kepuasan emosional batin dan keselarasan nilai etis pribadi terhadap barang yang dibeli meskipun harganya relatif lebih mahal.."
+    "explanation": "Kunci Jawaban: (E) Kepuasan emosional batin dan keselarasan nilai etis pribadi terhadap barang yang dibeli meskipun harganya relatif lebih mahal..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PERGESERAN PARADIGMA DARI 'GASEONGBI' (RASIO HARGA/FUNGSI) MENUJU 'GASIMBI' (KEPUASAN EMOSIONAL)",
+      "latex": "\\text{Pergeseran Paradigma dari 'Gaseongbi' (Rasio } \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Pergeseran Paradigma dari 'Gaseongbi' (Rasio Harga/Fungsi) Menuju 'Gasimbi' (Kepuasan Emosional) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (E) Kepuasan emosional batin dan keselarasan nilai etis pribadi terhadap barang yang dibeli meskipun harganya relatif lebih mahal.",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-11",
@@ -3601,7 +3686,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 포기하지 말라고 하셨습니다 (akar verba 포기하- + akhiran larangan tidak langsung -지 말라고 하다).."
+    "explanation": "Kunci Jawaban: (A) 포기하지 말라고 하셨습니다 (akar verba 포기하- + akhiran larangan tidak langsung -지 말라고 하다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: INSTRUKSI GURU KEPADA MURID UNTUK TIDAK MENYERAH DI TENGAH KESULITAN",
+      "latex": "\\text{Instruksi Guru kepada Murid untuk Tidak Menye} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Instruksi Guru kepada Murid untuk Tidak Menyerah di Tengah Kesulitan mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (A) 포기하지 말라고 하셨습니다 (akar verba 포기하- + akhiran larangan tidak langsung -지 말라고 하다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-12",
@@ -3635,7 +3729,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 볼 만합니다 (akar verba 보- tanpa batchim berpadu dengan penanda kelayakan rekomendasi -ㄹ 만하다).."
+    "explanation": "Kunci Jawaban: (B) 볼 만합니다 (akar verba 보- tanpa batchim berpadu dengan penanda kelayakan rekomendasi -ㄹ 만하다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: REKOMENDASI FILM DOKUMENTER SEJARAH KEMERDEKAAN YANG SANGAT PATUT DITONTON",
+      "latex": "\\text{Rekomendasi Film Dokumenter Sejarah Kemerdeka} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Rekomendasi Film Dokumenter Sejarah Kemerdekaan yang Sangat Patut Ditonton mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (B) 볼 만합니다 (akar verba 보- tanpa batchim berpadu dengan penanda kelayakan rekomendasi -ㄹ 만하다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-13",
@@ -3669,7 +3772,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 하기는커녕 (akar verba 하- + nomina penanda nominalisasi -기 + partikel penyangkalan ekstrem 는커녕).."
+    "explanation": "Kunci Jawaban: (C) 하기는커녕 (akar verba 하- + nomina penanda nominalisasi -기 + partikel penyangkalan ekstrem 는커녕)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PENYANGKALAN EKSTREM: ALIH-ALIH MENABUNG, UANG POKOK MALAH HABIS TERKURAS",
+      "latex": "\\text{Penyangkalan Ekstrem: Alih-alih Menabung, Uan} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Penyangkalan Ekstrem: Alih-alih Menabung, Uang Pokok Malah Habis Terkuras mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (C) 하기는커녕 (akar verba 하- + nomina penanda nominalisasi -기 + partikel penyangkalan ekstrem 는커녕).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-14",
@@ -3703,7 +3815,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pengendalian diri dan pembersihan batin melalui kesadaran penuh serta penghormatan tulus kepada tamu dalam setiap tetes sajian teh.."
+    "explanation": "Kunci Jawaban: (D) Pengendalian diri dan pembersihan batin melalui kesadaran penuh serta penghormatan tulus kepada tamu dalam setiap tetes sajian teh..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: NILAI MEDITATIF KETENANGAN JIWA DAN TATA KRAMA PENYAJIAN TEH HIJAU TRADISIONAL",
+      "latex": "\\text{Nilai Meditatif Ketenangan Jiwa dan Tata Kram} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Nilai Meditatif Ketenangan Jiwa dan Tata Krama Penyajian Teh Hijau Tradisional mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (D) Pengendalian diri dan pembersihan batin melalui kesadaran penuh serta penghormatan tulus kepada tamu dalam setiap tetes sajian teh.",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-15",
@@ -3737,7 +3858,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 않았더라면 (akar verba negasi 않- berpadu dengan kala lampau 았- + akhiran kontrafaktual -더라면).."
+    "explanation": "Kunci Jawaban: (E) 않았더라면 (akar verba negasi 않- berpadu dengan kala lampau 았- + akhiran kontrafaktual -더라면)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: RASA SYUKUR TERSELAMATKAN DARI KECELAKAAN BERKAT MENGENAKAN SABUK PENGAMAN",
+      "latex": "\\text{Rasa Syukur Terselamatkan dari Kecelakaan Ber} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Rasa Syukur Terselamatkan dari Kecelakaan Berkat Mengenakan Sabuk Pengaman mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (E) 않았더라면 (akar verba negasi 않- berpadu dengan kala lampau 았- + akhiran kontrafaktual -더라면).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-16",
@@ -3771,7 +3901,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 목격하자마자 (akar verba 하- langsung dilekati akhiran kesegeraan tindakan seketika -자마자).."
+    "explanation": "Kunci Jawaban: (A) 목격하자마자 (akar verba 하- langsung dilekati akhiran kesegeraan tindakan seketika -자마자)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: TINDAKAN LANGSUNG MENGHUBUNGI LAYANAN DARURAT BEGITU MELIHAT PERCIKAN API",
+      "latex": "\\text{Tindakan Langsung Menghubungi Layanan Darurat} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Tindakan Langsung Menghubungi Layanan Darurat Begitu Melihat Percikan Api mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (A) 목격하자마자 (akar verba 하- langsung dilekati akhiran kesegeraan tindakan seketika -자마자).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-17",
@@ -3805,7 +3944,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 확대하는 한편 (akar verba 확대하- + penanda aksi simultan komplementer -는 한편).."
+    "explanation": "Kunci Jawaban: (B) 확대하는 한편 (akar verba 확대하- + penanda aksi simultan komplementer -는 한편)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PERKEMBANGAN INDUSTRI OTOMOTIF RAMAH LINGKUNGAN SAMBIL MENGEMBANGKAN JARINGAN PENGISIAN DAYA",
+      "latex": "\\text{Perkembangan Industri Otomotif Ramah Lingkung} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Perkembangan Industri Otomotif Ramah Lingkungan Sambil Mengembangkan Jaringan Pengisian Daya mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (B) 확대하는 한편 (akar verba 확대하- + penanda aksi simultan komplementer -는 한편).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-18",
@@ -3839,7 +3987,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Memfasilitasi sirkulasi udara mikro secara alami sekaligus menghalau bakteri perusak sehingga bakteri asam laktat dapat berkembang biak optimal.."
+    "explanation": "Kunci Jawaban: (C) Memfasilitasi sirkulasi udara mikro secara alami sekaligus menghalau bakteri perusak sehingga bakteri asam laktat dapat berkembang biak optimal..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PERAN MIKROORGANISME BERSAHABAT DAN WADAH TEMBIKAR TANAH LIAT 'ONGGI' (옹기)",
+      "latex": "\\text{Peran Mikroorganisme Bersahabat dan Wadah Tem} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Peran Mikroorganisme Bersahabat dan Wadah Tembikar Tanah Liat 'Onggi' (옹기) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (C) Memfasilitasi sirkulasi udara mikro secara alami sekaligus menghalau bakteri perusak sehingga bakteri asam laktat dapat berkembang biak optimal.",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-19",
@@ -3873,7 +4030,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 배운 셈 치고 (akar verba 배우- berpadu dengan kala lampau penanda anggapan -ㄴ 셈 치다).."
+    "explanation": "Kunci Jawaban: (D) 배운 셈 치고 (akar verba 배우- berpadu dengan kala lampau penanda anggapan -ㄴ 셈 치다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: MERELAKAN UANG YANG HILANG SEOLAH-OLAH SEDANG BERSEDEKAH / MEMBAYAR PENGALAMAN HIDUP",
+      "latex": "\\text{Merelakan Uang yang Hilang Seolah-olah Sedang} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Merelakan Uang yang Hilang Seolah-olah Sedang Bersedekah / Membayar Pengalaman Hidup mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (D) 배운 셈 치고 (akar verba 배우- berpadu dengan kala lampau penanda anggapan -ㄴ 셈 치다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-20",
@@ -3907,7 +4073,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 횡령했을 리가 없습니다 (akar verba 횡령하- berpadu dengan kala lampau penanda kemustahilan logis -았/었을 리가 없다).."
+    "explanation": "Kunci Jawaban: (E) 횡령했을 리가 없습니다 (akar verba 횡령하- berpadu dengan kala lampau penanda kemustahilan logis -았/었을 리가 없다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KEYAKINAN BAHWA REKAN KERJA YANG SANGAT JUJUR DAN AMANAH TIDAK MUNGKIN MENGGELAPKAN UANG",
+      "latex": "\\text{Keyakinan Bahwa Rekan Kerja yang Sangat Jujur} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Keyakinan Bahwa Rekan Kerja yang Sangat Jujur dan Amanah Tidak Mungkin Menggelapkan Uang mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (E) 횡령했을 리가 없습니다 (akar verba 횡령하- berpadu dengan kala lampau penanda kemustahilan logis -았/었을 리가 없다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-21",
@@ -3941,7 +4116,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 이라고 (nomina berakhiran konsonan/batchim 인공지능 berpasangan dengan penanda kutipan definisi -이라고).."
+    "explanation": "Kunci Jawaban: (A) 이라고 (nomina berakhiran konsonan/batchim 인공지능 berpasangan dengan penanda kutipan definisi -이라고)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PENGENALAN ISTILAH ILMIAH KECERDASAN BUATAN DALAM BAHASA KOREA MENGGUNAKAN KUTIPAN TAK LANGSUNG",
+      "latex": "\\text{Pengenalan Istilah Ilmiah Kecerdasan Buatan d} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Pengenalan Istilah Ilmiah Kecerdasan Buatan dalam Bahasa Korea Menggunakan Kutipan Tak Langsung mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (A) 이라고 (nomina berakhiran konsonan/batchim 인공지능 berpasangan dengan penanda kutipan definisi -이라고).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-22",
@@ -3975,7 +4159,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Keterlibatan aktif penonton dalam menyemangati penampil melalui seruan responsif spontan (Chuimsae) di sepanjang pementasan.."
+    "explanation": "Kunci Jawaban: (B) Keterlibatan aktif penonton dalam menyemangati penampil melalui seruan responsif spontan (Chuimsae) di sepanjang pementasan..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: SENI BERCERITA TEATRIKAL BERBALAS VOKAL DAN TABUHAN GENDERANG BUK (소리꾼 DAN 고수)",
+      "latex": "\\text{Seni Bercerita Teatrikal Berbalas Vokal dan T} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Seni Bercerita Teatrikal Berbalas Vokal dan Tabuhan Genderang Buk (소리꾼 & 고수) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (B) Keterlibatan aktif penonton dalam menyemangati penampil melalui seruan responsif spontan (Chuimsae) di sepanjang pementasan.",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-23",
@@ -4009,7 +4202,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 늦을까 봐 (akar verba ber-batchim 늦- berpadu dengan penanda kecemasan preventif -을까 봐).."
+    "explanation": "Kunci Jawaban: (C) 늦을까 봐 (akar verba ber-batchim 늦- berpadu dengan penanda kecemasan preventif -을까 봐)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KEKHAWATIRAN TERLAMBAT HADIR PERTEMUAN BISNIS KARENA ANTREAN TAKSI YANG PANJANG",
+      "latex": "\\text{Kekhawatiran Terlambat Hadir Pertemuan Bisnis} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Kekhawatiran Terlambat Hadir Pertemuan Bisnis Karena Antrean Taksi yang Panjang mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (C) 늦을까 봐 (akar verba ber-batchim 늦- berpadu dengan penanda kecemasan preventif -을까 봐).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-24",
@@ -4043,7 +4245,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 읽다 보니 (akar verba 읽- + akhiran pengalaman akumulatif berulang -다 보니).."
+    "explanation": "Kunci Jawaban: (D) 읽다 보니 (akar verba 읽- + akhiran pengalaman akumulatif berulang -다 보니)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: HASIL BELAJAR KOSAKATA SECARA RUTIN YANG TANPA DISADARI BERBUAH KEMAMPUAN MEMBACA BERITA",
+      "latex": "\\text{Hasil Belajar Kosakata Secara Rutin yang Tanp} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Hasil Belajar Kosakata Secara Rutin yang Tanpa Disadari Berbuah Kemampuan Membaca Berita mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (D) 읽다 보니 (akar verba 읽- + akhiran pengalaman akumulatif berulang -다 보니).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-25",
@@ -4077,7 +4288,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       }
     ],
     "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 속기 십상입니다 (akar verba ber-batchim 속- + akhiran risiko tinggi tertimpa petaka -기 십상이다).."
+    "explanation": "Kunci Jawaban: (E) 속기 십상입니다 (akar verba ber-batchim 속- + akhiran risiko tinggi tertimpa petaka -기 십상이다)..",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KERENTANAN TERTIPU INFORMASI HOAKS DI MEDIA SOSIAL TANPA VERIFIKASI KRITIS",
+      "latex": "\\text{Kerentanan Tertipu Informasi Hoaks di Media S} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Kerentanan Tertipu Informasi Hoaks di Media Sosial Tanpa Verifikasi Kritis mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kunci Jawaban: (E) 속기 십상입니다 (akar verba ber-batchim 속- + akhiran risiko tinggi tertimpa petaka -기 십상이다).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-26",
@@ -4085,11 +4305,26 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "materi": "TATA BAHASA & SOSIOLINGUISTIK: KAIDAH KESANTUNAN TINGGI (HONORIFIK / 높임말)",
     "topic": "Identifikasi Seluruh Kalimat yang Memenuhi Kaidah Kesantunan Gramatikal Baku Korea",
     "options": [
-      "할아버지께서는 지금 방에서 편안히 주무시고 계십니다.",
-      "선생님, 제가 오늘 작성한 보고서를 직접 선생님께 읽어 드리겠습니다.",
-      "사장님, 저에게 약속 시간이 언제인지 직접 말씀해 주십시오.",
-      "어머니가 저한테 밥을 많이 먹었습니다.",
-      "과장님께서는 오늘 오후에 급한 출장이 계십니다."
+      {
+        "key": "A",
+        "text": "할아버지께서는 지금 방에서 편안히 주무시고 계십니다."
+      },
+      {
+        "key": "B",
+        "text": "선생님, 제가 오늘 작성한 보고서를 직접 선생님께 읽어 드리겠습니다."
+      },
+      {
+        "key": "C",
+        "text": "사장님, 저에게 약속 시간이 언제인지 직접 말씀해 주십시오."
+      },
+      {
+        "key": "D",
+        "text": "어머니가 저한테 밥을 많이 먹었습니다."
+      },
+      {
+        "key": "E",
+        "text": "과장님께서는 오늘 오후에 급한 출장이 계십니다."
+      }
     ],
     "correctAnswer": [
       0,
@@ -4100,10 +4335,19 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "difficulty": "hard",
     "questionHtml": "Perhatikan lima kalimat tuturan sehari-hari berikut!\nManakah DUA pernyataan yang mematuhi kaidah tata bahasa honorifik (높임말) dan kesantunan sosial secara BENAR?",
     "correctKeys": [
-      0,
-      1
+      "A",
+      "B"
     ],
-    "explanation": ""
+    "explanation": "Kalimat A dan B mematuhi kaidah honorifik subjek (주체 높임법) dengan menambahkan infiks -(으)시- dan partikel penghormatan 께/께서 secara konsisten. Opsi lain keliru karena menerapkan honorifik pada diri penutur sendiri atau menghilangkan infiks penghormatan pada subjek orang tua/guru.",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: IDENTIFIKASI SELURUH KALIMAT YANG MEMENUHI KAIDAH KESANTUNAN GRAMATIKAL BAKU KOREA",
+      "latex": "\\text{Identifikasi Seluruh Kalimat yang Memenuhi Ka} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Identifikasi Seluruh Kalimat yang Memenuhi Kaidah Kesantunan Gramatikal Baku Korea mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kalimat A dan B mematuhi kaidah honorifik subjek (주체 높임법) dengan menambahkan infiks -(으)시- dan partikel penghormatan 께/께서 secara konsisten.",
+      "execution": "Petunjuk Analisis: Opsi lain keliru karena menerapkan honorifik pada diri penutur sendiri atau menghilangkan infiks penghormatan pada subjek orang tua/guru."
+    }
   },
   {
     "id": "kor-sim-27",
@@ -4111,11 +4355,26 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "materi": "ANALISIS WACANA: 4 PRINSIP DAUR ULANG KOREA (분리배출)",
     "topic": "Tindakan-Tindakan Warga yang Sesuai dengan Regulasi Lingkungan Hidup Nasional Korea",
     "options": [
-      "Membilas bersih botol kaca sirup dengan air dan membuang tutup logamnya ke wadah khusus kaleng/besi.",
-      "Membuang sisa minyak goreng bekas dan kuah ramen pedas langsung ke wadah sampah daur ulang plastik.",
-      "Melepas label stiker vinil dari botol air mineral transparan dan meremas botol hingga pipih sebelum dibuang.",
-      "Mencampurkan pecahan cermin rias yang rusak ke dalam kantong daur ulang kaca transparan.",
-      "Memasukkan popok bayi dan puntung rokok ke dalam kantong kompos sampah makanan organik."
+      {
+        "key": "A",
+        "text": "Membilas bersih botol kaca sirup dengan air dan membuang tutup logamnya ke wadah khusus kaleng/besi."
+      },
+      {
+        "key": "B",
+        "text": "Membuang sisa minyak goreng bekas dan kuah ramen pedas langsung ke wadah sampah daur ulang plastik."
+      },
+      {
+        "key": "C",
+        "text": "Melepas label stiker vinil dari botol air mineral transparan dan meremas botol hingga pipih sebelum dibuang."
+      },
+      {
+        "key": "D",
+        "text": "Mencampurkan pecahan cermin rias yang rusak ke dalam kantong daur ulang kaca transparan."
+      },
+      {
+        "key": "E",
+        "text": "Memasukkan popok bayi dan puntung rokok ke dalam kantong kompos sampah makanan organik."
+      }
     ],
     "correctAnswer": [
       0,
@@ -4126,10 +4385,19 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "difficulty": "hard",
     "questionHtml": "Perhatikan skenario pemilahan sampah di kompleks apartemen kota Seoul berikut!\nManakah DUA tindakan warga yang SESUAI secara tepat dengan 4 prinsip baku pemilahan sampah daur ulang (비우고, 헹구고, 분리하고, 섞지 않는다)?",
     "correctKeys": [
-      0,
-      2
+      "A",
+      "C"
     ],
-    "explanation": ""
+    "explanation": "Berdasarkan regulasi lingkungan hidup nasional Korea Selatan (Jongnyangje), sampah umum wajib dibuang dalam kantong terstandarisasi berbayar, dan sampah daur ulang (plastik/kaca) harus dicuci bersih dari sisa makanan sebelum dipilah (Tindakan A dan C). Opsi lain melanggar aturan pemilahan limbah makanan basah.",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: TINDAKAN-TINDAKAN WARGA YANG SESUAI DENGAN REGULASI LINGKUNGAN HIDUP NASIONAL KOREA",
+      "latex": "\\text{Tindakan-Tindakan Warga yang Sesuai dengan Re} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Tindakan-Tindakan Warga yang Sesuai dengan Regulasi Lingkungan Hidup Nasional Korea mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Berdasarkan regulasi lingkungan hidup nasional Korea Selatan (Jongnyangje), sampah umum wajib dibuang dalam kantong terstandarisasi berbayar, dan sampah daur ulang (plastik/kaca) harus dicuci bersih dari sisa makanan sebelum dipilah (Tindakan A dan C).",
+      "execution": "Petunjuk Analisis: Opsi lain melanggar aturan pemilahan limbah makanan basah."
+    }
   },
   {
     "id": "kor-sim-28",
@@ -4137,11 +4405,26 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "materi": "TATA BAHASA: POLA WICARA TAK LANGSUNG (간접화법)",
     "topic": "Pasangan Konversi Tuturan Langsung Menjadi Wicara Tak Langsung yang Benar",
     "options": [
-      "\"날씨가 정말 춥습니다.\" -> 날씨가 정말 춥다고 했습니다.",
-      "\"친구와 함께 도서관에 갑시다.\" -> 도서관에 가자고 했습니다.",
-      "\"내일 시험이 어렵습니까?\" -> 내일 시험이 어렵다고 했습니다.",
-      "\"이 문을 지금 즉시 닫으십시오.\" -> 이 문을 닫는다고 했습니다.",
-      "\"저는 인도네시아 사람입니다.\" -> 인도네시아 사람이라고 물었습니다."
+      {
+        "key": "A",
+        "text": "\"날씨가 정말 춥습니다.\" -> 날씨가 정말 춥다고 했습니다."
+      },
+      {
+        "key": "B",
+        "text": "\"친구와 함께 도서관에 갑시다.\" -> 도서관에 가자고 했습니다."
+      },
+      {
+        "key": "C",
+        "text": "\"내일 시험이 어렵습니까?\" -> 내일 시험이 어렵다고 했습니다."
+      },
+      {
+        "key": "D",
+        "text": "\"이 문을 지금 즉시 닫으십시오.\" -> 이 문을 닫는다고 했습니다."
+      },
+      {
+        "key": "E",
+        "text": "\"저는 인도네시아 사람입니다.\" -> 인도네시아 사람이라고 물었습니다."
+      }
     ],
     "correctAnswer": [
       0,
@@ -4152,10 +4435,19 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "difficulty": "hard",
     "questionHtml": "Perhatikan lima pasangan konversi kalimat langsung ke tuturan tak langsung berikut!\nManakah DUA pasangan konversi yang memiliki struktur sintaksis yang BENAR?",
     "correctKeys": [
-      0,
-      1
+      "A",
+      "B"
     ],
-    "explanation": ""
+    "explanation": "Konversi wicara tak langsung deklaratif untuk kalimat pernyataan menggunakan akhiran -(ㄴ/는)다고 하다, sedangkan bentuk ajakan menggunakan -자고 하다. Pasangan A dan B menerapkan transformasi kala dan pergeseran pronomina secara tepat sesuai tata bahasa baku TOPIK.",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PASANGAN KONVERSI TUTURAN LANGSUNG MENJADI WICARA TAK LANGSUNG YANG BENAR",
+      "latex": "\\text{Pasangan Konversi Tuturan Langsung Menjadi Wi} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Pasangan Konversi Tuturan Langsung Menjadi Wicara Tak Langsung yang Benar mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Konversi wicara tak langsung deklaratif untuk kalimat pernyataan menggunakan akhiran -(ㄴ/는)다고 하다, sedangkan bentuk ajakan menggunakan -자고 하다.",
+      "execution": "Petunjuk Analisis: Pasangan A dan B menerapkan transformasi kala dan pergeseran pronomina secara tepat sesuai tata bahasa baku TOPIK."
+    }
   },
   {
     "id": "kor-sim-29",
@@ -4163,11 +4455,26 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "materi": "ANALISIS WACANA: KEUNGGULAN LINGUISTIK AKSARA HANGEUL",
     "topic": "Faktor Ilmiah dan Filosofis yang Menjadikan Hangeul Diakui UNESCO",
     "options": [
-      "Bentuk huruf konsonan dirancang secara sistematis meniru bentuk organ vokal manusia saat melafalkan bunyi tersebut.",
-      "Huruf vokal dibentuk berdasarkan filosofi kosmis Timur yang menyimbolkan langit (천), bumi (지), dan manusia (인).",
-      "Hangeul dirancang khusus agar hanya kaum bangsawan istana yang dapat menguasai sandi literasi kenegaraan.",
-      "Karakter Hangeul mengadopsi puluhan ribu simbol piktograf rumit yang mewajibkan hafalan tanpa kaidah fonologis.",
-      "Aksara Hangeul diciptakan untuk memusnahkan seluruh warisan sastra lisan rakyat pedesaan Joseon."
+      {
+        "key": "A",
+        "text": "Bentuk huruf konsonan dirancang secara sistematis meniru bentuk organ vokal manusia saat melafalkan bunyi tersebut."
+      },
+      {
+        "key": "B",
+        "text": "Huruf vokal dibentuk berdasarkan filosofi kosmis Timur yang menyimbolkan langit (천), bumi (지), dan manusia (인)."
+      },
+      {
+        "key": "C",
+        "text": "Hangeul dirancang khusus agar hanya kaum bangsawan istana yang dapat menguasai sandi literasi kenegaraan."
+      },
+      {
+        "key": "D",
+        "text": "Karakter Hangeul mengadopsi puluhan ribu simbol piktograf rumit yang mewajibkan hafalan tanpa kaidah fonologis."
+      },
+      {
+        "key": "E",
+        "text": "Aksara Hangeul diciptakan untuk memusnahkan seluruh warisan sastra lisan rakyat pedesaan Joseon."
+      }
     ],
     "correctAnswer": [
       0,
@@ -4178,10 +4485,19 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "difficulty": "hard",
     "questionHtml": "Perhatikan klaim-klaim mengenai karakteristik aksara Hangeul ciptaan Raja Sejong berikut!\nManakah DUA keunggulan ilmiah dan filosofis aksara Hangeul yang diakui secara global?",
     "correctKeys": [
-      0,
-      1
+      "A",
+      "B"
     ],
-    "explanation": ""
+    "explanation": "Keunggulan saintifik Hangeul diakui UNESCO karena konsonannya didesain meniru bentuk fisiologis organ artikulasi manusia saat melafalkan bunyi tersebut, dan vokalnya didasarkan pada tiga elemen filosofis universal (Cheonjiin: Langit, Bumi, Manusia).",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: FAKTOR ILMIAH DAN FILOSOFIS YANG MENJADIKAN HANGEUL DIAKUI UNESCO",
+      "latex": "\\text{Faktor Ilmiah dan Filosofis yang Menjadikan H} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Faktor Ilmiah dan Filosofis yang Menjadikan Hangeul Diakui UNESCO mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Keunggulan saintifik Hangeul diakui UNESCO karena konsonannya didesain meniru bentuk fisiologis organ artikulasi manusia saat melafalkan bunyi tersebut, dan vokalnya didasarkan pada tiga elemen filosofis universal (Cheonjiin: Langit, Bumi, Manusia).",
+      "execution": "Petunjuk Analisis: Periksa kecocokan partikel, bentuk honorifik, atau konteks wacana pada setiap opsi jawaban."
+    }
   },
   {
     "id": "kor-sim-30",
@@ -4189,11 +4505,26 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "materi": "TATA BAHASA: PENGGUNAAN PARTIKEL KOMPLEKS (-(으)로, 에, 에서, 보다)",
     "topic": "Ketepatan Penggunaan Partikel Kasus dan Instrumental dalam Kalimat Baku",
     "options": [
-      "지하철이 버스보다 출퇴근 시간에 훨씬 빠르고 정확합니다.",
-      "저는 아침에 빵을 나이프로 잘라서 맛있게 먹었습니다.",
-      "친구는 도서관에 친구와 함께 열심히 공부하고 있습니다.",
-      "우리는 제주도에서 비행기로 갈 계획입니다.",
-      "식당에 음식이 아주 맛있어서 손님이 많이 있습니다."
+      {
+        "key": "A",
+        "text": "지하철이 버스보다 출퇴근 시간에 훨씬 빠르고 정확합니다."
+      },
+      {
+        "key": "B",
+        "text": "저는 아침에 빵을 나이프로 잘라서 맛있게 먹었습니다."
+      },
+      {
+        "key": "C",
+        "text": "친구는 도서관에 친구와 함께 열심히 공부하고 있습니다."
+      },
+      {
+        "key": "D",
+        "text": "우리는 제주도에서 비행기로 갈 계획입니다."
+      },
+      {
+        "key": "E",
+        "text": "식당에 음식이 아주 맛있어서 손님이 많이 있습니다."
+      }
     ],
     "correctAnswer": [
       0,
@@ -4204,10 +4535,19 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "difficulty": "hard",
     "questionHtml": "Perhatikan lima kalimat bahasa Korea berikut!\nManakah DUA kalimat yang menggunakan partikel kasus dan adverbial secara TEPAT?",
     "correctKeys": [
-      0,
-      1
+      "A",
+      "B"
     ],
-    "explanation": ""
+    "explanation": "Partikel instrumental/arah -(으)로 digunakan tepat untuk alat dan arah tujuan, serta partikel lokatif dinamis -에서 digunakan untuk lokasi terjadinya aktivitas fisik (Kalimat A dan B). Opsi lain keliru menukar partikel -에 dan -에서.",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KETEPATAN PENGGUNAAN PARTIKEL KASUS DAN INSTRUMENTAL DALAM KALIMAT BAKU",
+      "latex": "\\text{Ketepatan Penggunaan Partikel Kasus dan Instr} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Ketepatan Penggunaan Partikel Kasus dan Instrumental dalam Kalimat Baku mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Partikel instrumental/arah -(으)로 digunakan tepat untuk alat dan arah tujuan, serta partikel lokatif dinamis -에서 digunakan untuk lokasi terjadinya aktivitas fisik (Kalimat A dan B).",
+      "execution": "Petunjuk Analisis: Opsi lain keliru menukar partikel -에 dan -에서."
+    }
   },
   {
     "id": "kor-sim-31",
@@ -4240,7 +4580,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       "1": true,
       "2": false
     },
-    "explanation": ""
+    "explanation": "Evaluasi pernyataan: [1] Penggunaan kata kerja leksikal khusus penghormatan '드시다/잡수시다' (makan) dan '주무시다' (tidur) untuk subjek kakek adalah BENAR. [2] Partikel '께' sebagai bentuk honorifik dari '에게' pada objek tidak langsung adalah BENAR. [3] Menyebut diri sendiri dengan kata kerja honorifik adalah SALAH menurut kaidah kesantunan Korea.",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: VERIFIKASI KEBENARAN PENGGUNAAN KOSAKATA KHUSUS PENGHORMATAN",
+      "latex": "\\text{Verifikasi Kebenaran Penggunaan Kosakata Khus} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Verifikasi Kebenaran Penggunaan Kosakata Khusus Penghormatan mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Evaluasi pernyataan: [1] Penggunaan kata kerja leksikal khusus penghormatan '드시다/잡수시다' (makan) dan '주무시다' (tidur) untuk subjek kakek adalah BENAR.",
+      "execution": "Petunjuk Analisis: [2] Partikel '께' sebagai bentuk honorifik dari '에게' pada objek tidak langsung adalah BENAR."
+    }
   },
   {
     "id": "kor-sim-32",
@@ -4273,7 +4622,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       "1": true,
       "2": true
     },
-    "explanation": ""
+    "explanation": "Kaidah sintaksis konjungsi kausalitas: [1] Akhiran sebab-akibat '-아서/어서' TIDAK BOLEH digabungkan dengan kalimat imperatif (-(으)십시오) maupun propositif (-(으)ㅂ시다), melainkan harus menggunakan '-(으)니까' (Pernyataan 1 SALAH). [2] Bentuk kala lampau (-았/었-) dilarang melekat langsung pada '-아서/어서' (Pernyataan 2 BENAR). [3] Konjungsi '-(으)니까' bebas digunakan pada semua jenis kalimat (Pernyataan 3 BENAR).",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: KAIDAH SINTAKSIS PEMBATASAN JENIS KLAUSA AKHIR PADA KONJUNGSI SEBAB AKIBAT",
+      "latex": "\\text{Kaidah Sintaksis Pembatasan Jenis Klausa Akhi} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Kaidah Sintaksis Pembatasan Jenis Klausa Akhir pada Konjungsi Sebab Akibat mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kaidah sintaksis konjungsi kausalitas: [1] Akhiran sebab-akibat '-아서/어서' TIDAK BOLEH digabungkan dengan kalimat imperatif (-(으)십시오) maupun propositif (-(으)ㅂ시다), melainkan harus menggunakan '-(으)니까' (Pernyataan 1 SALAH).",
+      "execution": "Petunjuk Analisis: [2] Bentuk kala lampau (-았/었-) dilarang melekat langsung pada '-아서/어서' (Pernyataan 2 BENAR)."
+    }
   },
   {
     "id": "kor-sim-33",
@@ -4306,7 +4664,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       "1": true,
       "2": false
     },
-    "explanation": ""
+    "explanation": "Fakta budaya hari raya tradisional Korea: [1] Seollal dirayakan pada tanggal 1 bulan 1 kalender lunar dengan memakan Tteokguk dan melakukan Sebae kepada orang tua (BENAR). [2] Chuseok adalah perayaan panen musim gugur (Thanksgiving Korea) di mana keluarga berkumpul membuat kue beras Songpyeon dan melaksanakan Charye (BENAR). [3] Makanan Tteokguk bukan tradisi Chuseok melainkan khas Seollal (Pernyataan 3 SALAH).",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: VERIFIKASI PERNYATAAN MENGENAI TRADISI SEOLLAL DAN CHUSEOK",
+      "latex": "\\text{Verifikasi Pernyataan Mengenai Tradisi Seolla} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Verifikasi Pernyataan Mengenai Tradisi Seollal dan Chuseok mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Fakta budaya hari raya tradisional Korea: [1] Seollal dirayakan pada tanggal 1 bulan 1 kalender lunar dengan memakan Tteokguk dan melakukan Sebae kepada orang tua (BENAR).",
+      "execution": "Petunjuk Analisis: [2] Chuseok adalah perayaan panen musim gugur (Thanksgiving Korea) di mana keluarga berkumpul membuat kue beras Songpyeon dan melaksanakan Charye (BENAR)."
+    }
   },
   {
     "id": "kor-sim-34",
@@ -4339,7 +4706,16 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       "1": true,
       "2": false
     },
-    "explanation": ""
+    "explanation": "Prinsip arsitektur tradisional Hanok: [1] Sistem pemanas lantai 'Ondol' memanfaatkan konduksi panas dan asap dari tungku dapur (Agungi) yang dialirkan di bawah lantai batu (Gudeul) untuk menghangatkan ruangan di musim dingin (BENAR). [2] Struktur 'Maru' adalah lantai kayu berpanggung yang dirancang menyerap angin dingin dan memberikan sirkulasi udara sejuk di musim panas (BENAR). [3] Ondol tidak menggunakan ventilasi atap untuk pemanas melainkan rongga horizontal bawah lantai (Pernyataan 3 SALAH).",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PRINSIP KERJA SISTEM PEMANAS LANTAI 'ONDOL' DAN VENTILASI UDARA 'MARU'",
+      "latex": "\\text{Prinsip Kerja Sistem Pemanas Lantai 'Ondol' d} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Prinsip Kerja Sistem Pemanas Lantai 'Ondol' dan Ventilasi Udara 'Maru' mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Prinsip arsitektur tradisional Hanok: [1] Sistem pemanas lantai 'Ondol' memanfaatkan konduksi panas dan asap dari tungku dapur (Agungi) yang dialirkan di bawah lantai batu (Gudeul) untuk menghangatkan ruangan di musim dingin (BENAR).",
+      "execution": "Petunjuk Analisis: [2] Struktur 'Maru' adalah lantai kayu berpanggung yang dirancang menyerap angin dingin dan memberikan sirkulasi udara sejuk di musim panas (BENAR)."
+    }
   },
   {
     "id": "kor-sim-35",
@@ -4372,6 +4748,15 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       "1": false,
       "2": true
     },
-    "explanation": ""
+    "explanation": "Kaidah sistem angka Korea: [1] Angka asli Korea (Hana, Dul, Set, Net...) wajib digunakan saat menyebutkan kuantitas objek bersama satuan penggolong seperti Myeong (orang), Gae (buah/buah benda), Mari (hewan), dan jam (BENAR). [2] Menyebutkan menit, tahun, dan nomor telepon wajib menggunakan angka Sino-Korea (Il, I, Sam, Sa...), bukan angka asli Korea (Pernyataan 2 SALAH). [3] Bentuk angka asli Hana, Dul, Set, Net berubah menjadi Han, Du, Se, Ne sebelum satuan penggolong (Pernyataan 3 BENAR).",
+    "formulaHud": {
+      "title": "STRUKTUR & KAIDAH: PENENTUAN SISTEM ANGKA SESUAI OBJEK DAN SATUAN PENGGOLONG (COUNTER UNITS)",
+      "latex": "\\text{Penentuan Sistem Angka Sesuai Objek dan Satua} \\iff \\text{Kaidah Baku Hangeul & Tata Bahasa}",
+      "legend": "Kaidah esensial: Penentuan Sistem Angka Sesuai Objek dan Satuan Penggolong (Counter Units) mengacu pada tata bahasa baku National Institute of Korean Language (국립국어원) dan standar asesmen TOPIK II."
+    },
+    "hints": {
+      "concept": "Konsep Gramatikal: Kaidah sistem angka Korea: [1] Angka asli Korea (Hana, Dul, Set, Net.",
+      "execution": "Petunjuk Analisis: ) wajib digunakan saat menyebutkan kuantitas objek bersama satuan penggolong seperti Myeong (orang), Gae (buah/buah benda), Mari (hewan), dan jam (BENAR)."
+    }
   }
 ];

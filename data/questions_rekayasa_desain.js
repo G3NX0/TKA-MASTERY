@@ -1,10 +1,3 @@
-/**
- * Bank Soal TKA SMK - Desain Komunikasi Visual (DKV / Rekayasa Desain SMK/MAK)
- * Standar Resmi Pusmendik Kemendikdasmen TKA 2026
- * 100% Otentik, Anti-Repetisi Siklis, Zero Longest-Option Bias
- * Total Soal: 110 butir terverifikasi
- */
-
 window.TKA_REKAYASA_DESAIN_QUESTIONS = [
   {
     "id": "tekd-lat-e-01",
@@ -3241,7 +3234,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam proyek pencetakan cover buku eksklusif bertema monokrom, desainer merancang agar seluruh permukaan cover dilapisi laminasi Doff (Matte) yang lembut dan tidak memantulkan cahaya. Namun, khusus pada teks judul dan logo utama diberikan efek lapisan cairan mengkilap transparan yang menonjol licin saat terkena cahaya. Teknik finishing pre-press yang diterapkan adalah...",
     "formulaHud": {
@@ -3284,7 +3277,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Seorang fotografer komersial ditugaskan memotret interior mobil mewah baru dari luar kaca jendela mobil dan model di tepi danau jernih. Tanpa filter, permukaan kaca mobil dan air danau memantulkan kilauan silau matahari yang menutupi jok kulit mobil dan dasar bebatuan danau. Filter optis kamera yang wajib dipasang di depan lensa untuk menghilangkan pantulan polarisasi silau tersebut adalah...",
     "formulaHud": {
@@ -3327,7 +3320,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam teks buku sastra berbahasa Inggris, huruf kecil 'f' dan 'i' yang berdampingan sering kali saling bertabrakan secara janggal di mana titik pada huruf 'i' menabrak ujung melengkung huruf 'f'. Fitur tipografi digital profesional yang secara cerdas menggabungkan dua karakter huruf bertabrakan tersebut menjadi satu glif sambung terpadu yang estetis adalah...",
     "formulaHud": {
@@ -3370,7 +3363,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah kemasan snack biskuit ditolak oleh sistem pemindai barcode otomatis di kasir supermarket modern karena sensor kasir berulang kali gagal membaca kode batang EAN-13 yang tercetak pada kemasan. Setelah diaudit oleh desainer kemasan, kesalahan fatal yang dilakukan desainer pada area barcode tersebut adalah...",
     "formulaHud": {
@@ -3413,7 +3406,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Seorang desainer menggunakan model Generative AI untuk menghasilkan ilustrasi poster hanya dengan memasukkan prompt teks singkat: 'pemandangan kota cyberpunk gaya lukisan seniman X'. Desainer kemudian mendaftarkan hasil murni gambar keluaran AI tersebut ke Direktorat Jenderal Kekayaan Intelektual (DJKI) sebagai karya cipta pribadinya. Berdasarkan konsensus etika profesi desain dan perkembangan yurisprudensi hak cipta internasional, status pendaftaran tersebut adalah...",
     "formulaHud": {
@@ -3456,7 +3449,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam mendesain poster konser musik jazz kontemporer, seorang desainer menempatkan satu foto siluet pemain saksofon berukuran besar berwarna gelap di area kanan bawah kanvas. Di area kiri atas yang luas, ia hanya menempatkan beberapa baris tipografi judul berukuran sedang dengan warna kuning cerah dan ruang negatif yang lapang. Komposisi ini tetap terasa stabil dan memikat secara visual karena menerapkan...",
     "formulaHud": {
@@ -3499,7 +3492,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah agensi branding sering mengalami perselisihan dengan klien karena warna desain kemasan yang disetujui di monitor laptop desainer terlihat sangat berbeda jauh (kemilau biru pucat) ketika dibuka di layar klien dan dicetak di percetakan. Langkah standardisasi studio DKV yang paling tepat dan profesional untuk menjamin konsistensi penilaian warna visual adalah...",
     "formulaHud": {
@@ -3542,7 +3535,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Berdasarkan standar ergonomi K3LH perkantoran industri kreatif untuk operator komputer grafis yang bekerja selama 8 jam sehari, penataan kursi kerja dan postur tubuh yang benar untuk mencegah kelainan tulang belakang (Low Back Pain) adalah...",
     "formulaHud": {
@@ -3585,7 +3578,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Seorang fotografer arsitektur memotret ruang tamu vila mewah dengan dinding kaca besar yang menghadap langsung ke arah matahari sore yang sangat terik. Foto tunggal selalu menghasilkan ruangan tamu yang gelap gulita atau pemandangan luar jendela yang putih silau terbakar. Teknik pemotretan profesional yang paling tepat untuk mengatasi masalah kontras ekstrem tersebut adalah...",
     "formulaHud": {
@@ -3628,7 +3621,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah warung kopi lokal membuat logo lingkaran hijau dengan tipografi melingkar dan gambar siluet putri duyung berekor dua yang nyaris identik dengan waralaba kopi global ternama, kemudian memasang plang toko tersebut di tepi jalan raya utama untuk mengecoh konsumen agar mengira gerainya adalah cabang resmi waralaba tersebut. Praktik persaingan curang dalam hukum HAKI ini dikenal sebagai...",
     "formulaHud": {
@@ -3671,7 +3664,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam perancangan kemasan fleksibel untuk produk bubur bayi instan yang akan diseduh dengan air mendidih bersuhu $100^\\circ\\text{C}$, desainer kemasan wajib memastikan bahwa material kemasan memiliki sertifikasi Food Grade dan bebas dari zat berbahaya seperti Bisphenol A (BPA) serta ftalat. Bahaya utama yang dicegah dari regulasi kemasan pangan ini adalah...",
     "formulaHud": {
@@ -3714,7 +3707,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam perancangan katalog pameran seni rupa kontemporer setebal 200 halaman yang memuat ratusan karya lukisan berbagai ukuran dimensi, desainer menyusun tata letak menggunakan Grid Modular (modular grid) yang membagi halaman ke dalam matriks kolom vertikal dan modul baris horizontal (spatial zones). Keunggulan fungsional utama sistem grid modular dibanding grid kolom sederhana adalah...",
     "formulaHud": {
@@ -3757,7 +3750,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Industri percetakan modern telah sepenuhnya meninggalkan teknologi Computer-to-Film (CtF) dan beralih menggunakan sistem Computer-to-Plate (CtP) thermal laser. Keuntungan teknis paling mutlak dari penggunaan teknologi CtP dalam pembuatan plat cetak offset adalah...",
     "formulaHud": {
@@ -3800,7 +3793,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah perusahaan rintisan (startup) membeli lisensi font seharga $50 untuk 1 pengguna komputer (Desktop License) bagi desainer grafisnya. Tanpa membaca berkas perjanjian lisensi pengguna akhir (EULA), tim IT langsung mengunggah file font `.otf` tersebut ke server web publik agar digunakan pada situs web perusahaan dan disematkan (embedded) ke dalam aplikasi Android mereka. Konsekuensi pelanggaran lisensi tersebut adalah...",
     "formulaHud": {
@@ -3843,7 +3836,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam merancang sampul buku panduan festival tari kontemporer, desainer menata serangkaian bentuk garis kurva berulang yang semakin ke kanan semakin membesar ukurannya, semakin rapat jarak spasinya, dan semakin pekat kepekatan warnanya. Kesan visual yang berhasil dibangkitkan oleh prinsip penataan bentuk rupa tersebut adalah...",
     "formulaHud": {
@@ -3886,7 +3879,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Seorang fotografer mengabadikan mata serangga kecil menggunakan lensa makro 100mm dengan rasio perbesaran 1:1 dan bukaan f/2.8. Hasil foto memperlihatkan bahwa hanya ujung satu helai bulu mata serangga yang fokus, sedangkan sisa bagian mata lainnya kabur buram karena kedalaman bidang (DoF) makro yang sangat tipis (kurang dari 1 mm). Teknik digital fotografi mutakhir untuk membuat seluruh kepala serangga fokus tajam dari depan hingga belakang adalah...",
     "formulaHud": {
@@ -3929,7 +3922,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam mempersiapkan dokumen artwork kartu nama eksekutif yang memuat finishing Emboss (timbul fisik ke atas) dan Die-Cut (potongan sudut melengkung), cara penyiapan layer artwork yang benar pada file Adobe Illustrator sebelum dikirim ke percetakan adalah...",
     "formulaHud": {
@@ -3972,7 +3965,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah rumah sakit swasta dan penyedia asuransi kesehatan ingin merancang identitas korporat baru yang menanamkan rasa ketenangan, kebersihan, kepercayaan ilmiah, dan rasa aman bagi pasien. Berdasarkan psikologi warna komunikasi visual dan konteks medis modern, kombinasi palet warna primer yang paling efektif adalah...",
     "formulaHud": {
@@ -4015,7 +4008,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Di ruang penyimpanan bahan kimia dan kertas studio percetakan DKV, terdapat tumpukan pelarut organik thinner, tinta cair, dan ribuan rim kertas yang sangat mudah tersulut api. Berdasarkan klasifikasi kebakaran (NFPA) dan K3LH, jenis Alat Pemadam Api Ringan (APAR) yang paling tepat disediakan di ruangan tersebut untuk memadamkan kebakaran Kelas A (benda padat kertas) dan Kelas B (cairan pelarut mudah terbakar) adalah...",
     "formulaHud": {
@@ -4058,7 +4051,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebuah rumah sakit membutuhkan papan petunjuk arah gawat darurat (signage wayfinding) yang harus dapat dibaca dengan jelas oleh pengemudi ambulans dari jarak pandang 30 meter. Berdasarkan aturan praktis tipografi lingkungan (Environmental Graphic Design: 1 inci tinggi huruf per 30 kaki / sekitar 10 meter jarak pandang), berapakah tinggi huruf kapital minimal yang harus dirancang oleh desainer?",
     "formulaHud": {
@@ -4101,7 +4094,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam perancangan infografis linimasa sejarah kemerdekaan Indonesia pada poster lipat panjang, desainer menggambar pita merah putih bergelombang yang meliuk-liuk dari sudut kiri atas halaman, melewati kolom-kolom teks, hingga berakhir di sudut kanan bawah. Pandangan mata pembaca secara alami terdorong mengikuti alur liukan pita tersebut dari awal hingga akhir. Prinsip persepsi Gestalt yang mendasari desain tersebut adalah...",
     "formulaHud": {
@@ -4144,7 +4137,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Sebelum mengirimkan file PDF kemasan produk pangan ke industri percetakan rotogravure komersial, seorang staf prepress menjalankan proses otomatis 'Preflight Inspection'. Masalah kritis yang terdeteksi dan wajib segera diperbaiki oleh desainer pada tahapan preflight tersebut adalah...",
     "formulaHud": {
@@ -4187,7 +4180,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Saat memotret subjek berkulit gelap yang mengenakan jas tuksedo hitam pekat di depan latar belakang panggung hitam pekat, lightmeter internal kamera DSLR (reflective light meter) tertipu dan menghasilkan foto yang overexposed abu-abu pudar (jas hitam menjadi abu-abu kusam). Alat bantu standar fotografi yang wajib diletakkan di depan subjek untuk mengunci eksposur dan white balance yang akurat adalah...",
     "formulaHud": {
@@ -4230,7 +4223,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Seorang desainer grafis diminta membuat ulang buku kumpulan Undang-Undang Perlindungan Konsumen dan naskah pidato kenegaraan presiden republik Indonesia dengan layout tipografi editorial yang sangat indah. Apakah teks undang-undang dan pidato resmi pejabat lembaga negara tersebut dapat diklaim hak ciptanya oleh seseorang dan dilarang untuk diperbanyak secara hukum?",
     "formulaHud": {
@@ -4273,7 +4266,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "mcq",
     "questionHtml": "Dalam mendesain infografis peta jalur kereta commuter line perkotaan metropolitan, desainer menyadari bahwa sekitar 8% populasi pria menderita buta warna merah-hijau (Deuteranopia / Protanopia). Pendekatan desain komunikasi visual inklusif yang paling tepat diterapkan agar peta jalur kereta tetap dapat dipahami dengan mudah oleh penumpang dengan buta warna adalah...",
     "formulaHud": {
@@ -4344,7 +4337,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Seorang desainer grafis sedang mengaudit master file katalog majalah seni sebelum dikirim ke mesin cetak Computer-to-Plate (CtP) percetakan offset. Manakah dari pernyataan-pernyataan teknis berikut yang BENAR terkait persiapan file siap cetak (print-ready artwork)? (Pilihlah lebih dari satu jawaban yang benar!)",
     "formulaHud": {
       "title": "CHECKLIST EMAS ARTIKEL SIAP CETAK (PRE-PRESS ISO 12647)",
@@ -4391,7 +4384,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Dalam perancangan tipografi antarmuka digital dan media cetak, pemahaman mendalam tentang anatomi huruf sangat krusial. Manakah dari pernyataan-pernyataan berikut yang TEPAT mengenai fungsi dan anatomi tipografi? (Pilihlah lebih dari satu jawaban yang benar!)",
     "formulaHud": {
       "title": "ANATOMI TIPOGRAFI DIGITAL",
@@ -4438,7 +4431,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Seorang fotografer studio sedang melakukan pengaturan kamera untuk pemotretan produk kosmetik mewah. Manakah dari prinsip-prinsip segitiga eksposur dan optika fotografi berikut yang BENAR? (Pilihlah lebih dari satu jawaban yang benar!)",
     "formulaHud": {
       "title": "PRINSIP INTI SEGITIGA EKSPOSUR & OPTIKA",
@@ -4485,7 +4478,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Dalam dunia profesional Desain Komunikasi Visual di Indonesia, pemahaman regulasi Hak Atas Kekayaan Intelektual (HAKI) sangat penting untuk melindungi karya dan menghindari gugatan hukum. Manakah dari pernyataan hukum berikut yang BENAR? (Pilihlah lebih dari satu jawaban yang benar!)",
     "formulaHud": {
       "title": "REGULASI HAKI INDONESIA (UU 28/2014, UU 20/2016, UU 31/2000)",
@@ -4532,7 +4525,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Prinsip psikologi persepsi visual Gestalt merupakan fondasi fundamental dalam tata letak, branding, dan UI/UX modern. Manakah dari pernyataan-pernyataan berikut yang TEPAT mengenai implementasi prinsip Gestalt? (Pilihlah lebih dari satu jawaban yang benar!)",
     "formulaHud": {
       "title": "PRINSIP PSIKOLOGI VISUAL GESTALT",
@@ -4574,7 +4567,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan teknis mengenai model warna dan reproduksi grafis pre-press berikut ini:",
     "formulaHud": {
       "title": "MATRIKS MODEL WARNA FISIK & DIGITAL",
@@ -4622,7 +4615,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan mengenai klasifikasi dan penerapan tipografi berikut ini:",
     "formulaHud": {
       "title": "MATRIKS TAKSONOMI TIPOGRAFI",
@@ -4670,7 +4663,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan mengenai teknis fotografi dan pencahayaan studio berikut ini:",
     "formulaHud": {
       "title": "MATRIKS HUBUNGAN PARAMETER FOTOGRAFI",
@@ -4717,7 +4710,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "matrix",
     "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan terkait etika profesi desainer dan perlindungan hukum HAKI di Indonesia berikut ini:",
     "formulaHud": {
@@ -4765,7 +4758,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     },
     "subject": "rekayasa_desain",
     "mode": "simulasi",
-    "difficulty": "simulation_hots",
+    "difficulty": "hard",
     "type": "matrix",
     "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan mengenai standar K3LH dan ergonomi dalam aktivitas kerja studio DKV berikut ini:",
     "formulaHud": {

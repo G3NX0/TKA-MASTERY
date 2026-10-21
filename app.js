@@ -32,7 +32,10 @@
       isFinished: false,
       isReviewMode: false
     },
-    isModalOpen: false
+    isModalOpen: false,
+    furiganaEnabled: true,
+    pinyinEnabled: true,
+    harakatEnabled: true
   };
 
   // =========================================================================
@@ -93,6 +96,45 @@
     paperQDiff: document.getElementById('paperQDiff'),
     paperQText: document.getElementById('paperQText'),
     paperOptionsList: document.getElementById('paperOptionsList'),
+    subjectToolDock: document.getElementById('subjectToolDock'),
+
+    // Subject Bespoke Tools Modals
+    modalPeriodicTable: document.getElementById('modalPeriodicTable'),
+    btnClosePeriodicTable: document.getElementById('btnClosePeriodicTable'),
+    periodicSearchInput: document.getElementById('periodicSearchInput'),
+    periodicElementsGrid: document.getElementById('periodicElementsGrid'),
+    periodicFilterCount: document.getElementById('periodicFilterCount'),
+
+    modalPhysicsConstants: document.getElementById('modalPhysicsConstants'),
+    btnClosePhysicsConstants: document.getElementById('btnClosePhysicsConstants'),
+
+    modalSubnetCalc: document.getElementById('modalSubnetCalc'),
+    btnCloseSubnetCalc: document.getElementById('btnCloseSubnetCalc'),
+    subnetIpInput: document.getElementById('subnetIpInput'),
+    subnetCidrSelect: document.getElementById('subnetCidrSelect'),
+    resSubnetMask: document.getElementById('resSubnetMask'),
+    resNetworkId: document.getElementById('resNetworkId'),
+    resBroadcastId: document.getElementById('resBroadcastId'),
+    resHostRange: document.getElementById('resHostRange'),
+    resTotalHosts: document.getElementById('resTotalHosts'),
+
+    modalBepCalc: document.getElementById('modalBepCalc'),
+    btnCloseBepCalc: document.getElementById('btnCloseBepCalc'),
+    bepFcInput: document.getElementById('bepFcInput'),
+    bepVcInput: document.getElementById('bepVcInput'),
+    bepPriceInput: document.getElementById('bepPriceInput'),
+    resMarginUnit: document.getElementById('resMarginUnit'),
+    resMarginRatio: document.getElementById('resMarginRatio'),
+    resBepUnit: document.getElementById('resBepUnit'),
+    resBepRupiah: document.getElementById('resBepRupiah'),
+
+    modalTraceTable: document.getElementById('modalTraceTable'),
+    btnCloseTraceTable: document.getElementById('btnCloseTraceTable'),
+    btnAddTraceCol: document.getElementById('btnAddTraceCol'),
+    btnAddTraceRow: document.getElementById('btnAddTraceRow'),
+    btnClearTrace: document.getElementById('btnClearTrace'),
+    traceTableHeadRow: document.getElementById('traceTableHeadRow'),
+    traceTableBody: document.getElementById('traceTableBody'),
 
     // Bottom Scaffolding & Domain-Aware Elements (Apple HIG Inline Accordion)
     scaffoldingBottomPanel: document.getElementById('scaffoldingBottomPanel'),
@@ -182,6 +224,1801 @@
     btnReportReturn: document.getElementById('btnReportReturn'),
     priorityCardsList: document.getElementById('priorityCardsList')
   };
+
+  // =========================================================================
+  // BESPOKE SUBJECT CAPABILITY REGISTRY & SUITE
+  // =========================================================================
+  const SUBJECT_CAPABILITIES = {
+    bahasa_jepang:   { furigana: true },
+    bahasa_mandarin: { pinyin: true },
+    bahasa_arab:     { harakat: true, rtl: true },
+    kimia:           { periodicTable: true },
+    fisika:          { physicsConstants: true },
+    tkj:             { subnetCalc: true },
+    pkk:             { bepCalc: true },
+    rpl:             { traceTable: true },
+    informatika:     { traceTable: true, subnetCalc: true },
+    ekonomi:         { bepCalc: true }
+  };
+
+  const PERIODIC_ELEMENTS = [
+  {
+    "num": 1,
+    "sym": "H",
+    "name": "Hidrogen",
+    "mass": "1.008",
+    "cat": "nonmetal",
+    "period": 1,
+    "group": 1,
+    "config": "1s¹",
+    "ox": "+1, -1"
+  },
+  {
+    "num": 2,
+    "sym": "He",
+    "name": "Helium",
+    "mass": "4.0026",
+    "cat": "noble",
+    "period": 1,
+    "group": 18,
+    "config": "1s²",
+    "ox": "0"
+  },
+  {
+    "num": 3,
+    "sym": "Li",
+    "name": "Litium",
+    "mass": "6.94",
+    "cat": "alkali",
+    "period": 2,
+    "group": 1,
+    "config": "[He] 2s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 4,
+    "sym": "Be",
+    "name": "Berilium",
+    "mass": "9.0122",
+    "cat": "alkaline",
+    "period": 2,
+    "group": 2,
+    "config": "[He] 2s²",
+    "ox": "+2"
+  },
+  {
+    "num": 5,
+    "sym": "B",
+    "name": "Boron",
+    "mass": "10.81",
+    "cat": "metalloid",
+    "period": 2,
+    "group": 13,
+    "config": "[He] 2s² 2p¹",
+    "ox": "+3"
+  },
+  {
+    "num": 6,
+    "sym": "C",
+    "name": "Karbon",
+    "mass": "12.011",
+    "cat": "nonmetal",
+    "period": 2,
+    "group": 14,
+    "config": "[He] 2s² 2p²",
+    "ox": "-4, +2, +4"
+  },
+  {
+    "num": 7,
+    "sym": "N",
+    "name": "Nitrogen",
+    "mass": "14.007",
+    "cat": "nonmetal",
+    "period": 2,
+    "group": 15,
+    "config": "[He] 2s² 2p³",
+    "ox": "-3, +3, +5"
+  },
+  {
+    "num": 8,
+    "sym": "O",
+    "name": "Oksigen",
+    "mass": "15.999",
+    "cat": "nonmetal",
+    "period": 2,
+    "group": 16,
+    "config": "[He] 2s² 2p⁴",
+    "ox": "-2, -1"
+  },
+  {
+    "num": 9,
+    "sym": "F",
+    "name": "Fluorin",
+    "mass": "18.998",
+    "cat": "halogen",
+    "period": 2,
+    "group": 17,
+    "config": "[He] 2s² 2p⁵",
+    "ox": "-1"
+  },
+  {
+    "num": 10,
+    "sym": "Ne",
+    "name": "Neon",
+    "mass": "20.180",
+    "cat": "noble",
+    "period": 2,
+    "group": 18,
+    "config": "[He] 2s² 2p⁶",
+    "ox": "0"
+  },
+  {
+    "num": 11,
+    "sym": "Na",
+    "name": "Natrium",
+    "mass": "22.990",
+    "cat": "alkali",
+    "period": 3,
+    "group": 1,
+    "config": "[Ne] 3s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 12,
+    "sym": "Mg",
+    "name": "Magnesium",
+    "mass": "24.305",
+    "cat": "alkaline",
+    "period": 3,
+    "group": 2,
+    "config": "[Ne] 3s²",
+    "ox": "+2"
+  },
+  {
+    "num": 13,
+    "sym": "Al",
+    "name": "Aluminium",
+    "mass": "26.982",
+    "cat": "post-trans",
+    "period": 3,
+    "group": 13,
+    "config": "[Ne] 3s² 3p¹",
+    "ox": "+3"
+  },
+  {
+    "num": 14,
+    "sym": "Si",
+    "name": "Silikon",
+    "mass": "28.085",
+    "cat": "metalloid",
+    "period": 3,
+    "group": 14,
+    "config": "[Ne] 3s² 3p²",
+    "ox": "-4, +2, +4"
+  },
+  {
+    "num": 15,
+    "sym": "P",
+    "name": "Fosfor",
+    "mass": "30.974",
+    "cat": "nonmetal",
+    "period": 3,
+    "group": 15,
+    "config": "[Ne] 3s² 3p³",
+    "ox": "-3, +3, +5"
+  },
+  {
+    "num": 16,
+    "sym": "S",
+    "name": "Belerang",
+    "mass": "32.06",
+    "cat": "nonmetal",
+    "period": 3,
+    "group": 16,
+    "config": "[Ne] 3s² 3p⁴",
+    "ox": "-2, +4, +6"
+  },
+  {
+    "num": 17,
+    "sym": "Cl",
+    "name": "Klorin",
+    "mass": "35.45",
+    "cat": "halogen",
+    "period": 3,
+    "group": 17,
+    "config": "[Ne] 3s² 3p⁵",
+    "ox": "-1, +1, +3, +5, +7"
+  },
+  {
+    "num": 18,
+    "sym": "Ar",
+    "name": "Argon",
+    "mass": "39.948",
+    "cat": "noble",
+    "period": 3,
+    "group": 18,
+    "config": "[Ne] 3s² 3p⁶",
+    "ox": "0"
+  },
+  {
+    "num": 19,
+    "sym": "K",
+    "name": "Kalium",
+    "mass": "39.098",
+    "cat": "alkali",
+    "period": 4,
+    "group": 1,
+    "config": "[Ar] 4s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 20,
+    "sym": "Ca",
+    "name": "Kalsium",
+    "mass": "40.078",
+    "cat": "alkaline",
+    "period": 4,
+    "group": 2,
+    "config": "[Ar] 4s²",
+    "ox": "+2"
+  },
+  {
+    "num": 21,
+    "sym": "Sc",
+    "name": "Skandium",
+    "mass": "44.956",
+    "cat": "transition",
+    "period": 4,
+    "group": 3,
+    "config": "[Ar] 3d¹ 4s²",
+    "ox": "+3"
+  },
+  {
+    "num": 22,
+    "sym": "Ti",
+    "name": "Titanium",
+    "mass": "47.867",
+    "cat": "transition",
+    "period": 4,
+    "group": 4,
+    "config": "[Ar] 3d² 4s²",
+    "ox": "+2, +3, +4"
+  },
+  {
+    "num": 23,
+    "sym": "V",
+    "name": "Vanadium",
+    "mass": "50.942",
+    "cat": "transition",
+    "period": 4,
+    "group": 5,
+    "config": "[Ar] 3d³ 4s²",
+    "ox": "+2, +3, +4, +5"
+  },
+  {
+    "num": 24,
+    "sym": "Cr",
+    "name": "Kromium",
+    "mass": "51.996",
+    "cat": "transition",
+    "period": 4,
+    "group": 6,
+    "config": "[Ar] 3d⁵ 4s¹",
+    "ox": "+2, +3, +6"
+  },
+  {
+    "num": 25,
+    "sym": "Mn",
+    "name": "Mangan",
+    "mass": "54.938",
+    "cat": "transition",
+    "period": 4,
+    "group": 7,
+    "config": "[Ar] 3d⁵ 4s²",
+    "ox": "+2, +3, +4, +6, +7"
+  },
+  {
+    "num": 26,
+    "sym": "Fe",
+    "name": "Besi",
+    "mass": "55.845",
+    "cat": "transition",
+    "period": 4,
+    "group": 8,
+    "config": "[Ar] 3d⁶ 4s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 27,
+    "sym": "Co",
+    "name": "Kobalt",
+    "mass": "58.933",
+    "cat": "transition",
+    "period": 4,
+    "group": 9,
+    "config": "[Ar] 3d⁷ 4s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 28,
+    "sym": "Ni",
+    "name": "Nikel",
+    "mass": "58.693",
+    "cat": "transition",
+    "period": 4,
+    "group": 10,
+    "config": "[Ar] 3d⁸ 4s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 29,
+    "sym": "Cu",
+    "name": "Tembaga",
+    "mass": "63.546",
+    "cat": "transition",
+    "period": 4,
+    "group": 11,
+    "config": "[Ar] 3d¹⁰ 4s¹",
+    "ox": "+1, +2"
+  },
+  {
+    "num": 30,
+    "sym": "Zn",
+    "name": "Seng",
+    "mass": "65.38",
+    "cat": "transition",
+    "period": 4,
+    "group": 12,
+    "config": "[Ar] 3d¹⁰ 4s²",
+    "ox": "+2"
+  },
+  {
+    "num": 31,
+    "sym": "Ga",
+    "name": "Galium",
+    "mass": "69.723",
+    "cat": "post-trans",
+    "period": 4,
+    "group": 13,
+    "config": "[Ar] 3d¹⁰ 4s² 4p¹",
+    "ox": "+3"
+  },
+  {
+    "num": 32,
+    "sym": "Ge",
+    "name": "Germanium",
+    "mass": "72.630",
+    "cat": "metalloid",
+    "period": 4,
+    "group": 14,
+    "config": "[Ar] 3d¹⁰ 4s² 4p²",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 33,
+    "sym": "As",
+    "name": "Arsen",
+    "mass": "74.922",
+    "cat": "metalloid",
+    "period": 4,
+    "group": 15,
+    "config": "[Ar] 3d¹⁰ 4s² 4p³",
+    "ox": "-3, +3, +5"
+  },
+  {
+    "num": 34,
+    "sym": "Se",
+    "name": "Selenium",
+    "mass": "78.971",
+    "cat": "nonmetal",
+    "period": 4,
+    "group": 16,
+    "config": "[Ar] 3d¹⁰ 4s² 4p⁴",
+    "ox": "-2, +4, +6"
+  },
+  {
+    "num": 35,
+    "sym": "Br",
+    "name": "Bromin",
+    "mass": "79.904",
+    "cat": "halogen",
+    "period": 4,
+    "group": 17,
+    "config": "[Ar] 3d¹⁰ 4s² 4p⁵",
+    "ox": "-1, +1, +3, +5"
+  },
+  {
+    "num": 36,
+    "sym": "Kr",
+    "name": "Kripton",
+    "mass": "83.798",
+    "cat": "noble",
+    "period": 4,
+    "group": 18,
+    "config": "[Ar] 3d¹⁰ 4s² 4p⁶",
+    "ox": "0, +2"
+  },
+  {
+    "num": 37,
+    "sym": "Rb",
+    "name": "Rubidium",
+    "mass": "85.468",
+    "cat": "alkali",
+    "period": 5,
+    "group": 1,
+    "config": "[Kr] 5s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 38,
+    "sym": "Sr",
+    "name": "Stronsium",
+    "mass": "87.62",
+    "cat": "alkaline",
+    "period": 5,
+    "group": 2,
+    "config": "[Kr] 5s²",
+    "ox": "+2"
+  },
+  {
+    "num": 39,
+    "sym": "Y",
+    "name": "Itrium",
+    "mass": "88.906",
+    "cat": "transition",
+    "period": 5,
+    "group": 3,
+    "config": "[Kr] 4d¹ 5s²",
+    "ox": "+3"
+  },
+  {
+    "num": 40,
+    "sym": "Zr",
+    "name": "Zirkonium",
+    "mass": "91.224",
+    "cat": "transition",
+    "period": 5,
+    "group": 4,
+    "config": "[Kr] 4d² 5s²",
+    "ox": "+4"
+  },
+  {
+    "num": 41,
+    "sym": "Nb",
+    "name": "Niobium",
+    "mass": "92.906",
+    "cat": "transition",
+    "period": 5,
+    "group": 5,
+    "config": "[Kr] 4d⁴ 5s¹",
+    "ox": "+3, +5"
+  },
+  {
+    "num": 42,
+    "sym": "Mo",
+    "name": "Molibdenum",
+    "mass": "95.95",
+    "cat": "transition",
+    "period": 5,
+    "group": 6,
+    "config": "[Kr] 4d⁵ 5s¹",
+    "ox": "+2, +3, +4, +5, +6"
+  },
+  {
+    "num": 43,
+    "sym": "Tc",
+    "name": "Teknesium",
+    "mass": "(98)",
+    "cat": "transition",
+    "period": 5,
+    "group": 7,
+    "config": "[Kr] 4d⁵ 5s²",
+    "ox": "+4, +7"
+  },
+  {
+    "num": 44,
+    "sym": "Ru",
+    "name": "Rutenium",
+    "mass": "101.07",
+    "cat": "transition",
+    "period": 5,
+    "group": 8,
+    "config": "[Kr] 4d⁷ 5s¹",
+    "ox": "+2, +3, +4, +6, +8"
+  },
+  {
+    "num": 45,
+    "sym": "Rh",
+    "name": "Rodium",
+    "mass": "102.91",
+    "cat": "transition",
+    "period": 5,
+    "group": 9,
+    "config": "[Kr] 4d⁸ 5s¹",
+    "ox": "+2, +3, +4"
+  },
+  {
+    "num": 46,
+    "sym": "Pd",
+    "name": "Paladium",
+    "mass": "106.42",
+    "cat": "transition",
+    "period": 5,
+    "group": 10,
+    "config": "[Kr] 4d¹⁰",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 47,
+    "sym": "Ag",
+    "name": "Perak",
+    "mass": "107.87",
+    "cat": "transition",
+    "period": 5,
+    "group": 11,
+    "config": "[Kr] 4d¹⁰ 5s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 48,
+    "sym": "Cd",
+    "name": "Kadmium",
+    "mass": "112.41",
+    "cat": "transition",
+    "period": 5,
+    "group": 12,
+    "config": "[Kr] 4d¹⁰ 5s²",
+    "ox": "+2"
+  },
+  {
+    "num": 49,
+    "sym": "In",
+    "name": "Indium",
+    "mass": "114.82",
+    "cat": "post-trans",
+    "period": 5,
+    "group": 13,
+    "config": "[Kr] 4d¹⁰ 5s² 5p¹",
+    "ox": "+3"
+  },
+  {
+    "num": 50,
+    "sym": "Sn",
+    "name": "Timah",
+    "mass": "118.71",
+    "cat": "post-trans",
+    "period": 5,
+    "group": 14,
+    "config": "[Kr] 4d¹⁰ 5s² 5p²",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 51,
+    "sym": "Sb",
+    "name": "Antimon",
+    "mass": "121.76",
+    "cat": "metalloid",
+    "period": 5,
+    "group": 15,
+    "config": "[Kr] 4d¹⁰ 5s² 5p³",
+    "ox": "-3, +3, +5"
+  },
+  {
+    "num": 52,
+    "sym": "Te",
+    "name": "Telurium",
+    "mass": "127.60",
+    "cat": "metalloid",
+    "period": 5,
+    "group": 16,
+    "config": "[Kr] 4d¹⁰ 5s² 5p⁴",
+    "ox": "-2, +4, +6"
+  },
+  {
+    "num": 53,
+    "sym": "I",
+    "name": "Iodin",
+    "mass": "126.90",
+    "cat": "halogen",
+    "period": 5,
+    "group": 17,
+    "config": "[Kr] 4d¹⁰ 5s² 5p⁵",
+    "ox": "-1, +1, +5, +7"
+  },
+  {
+    "num": 54,
+    "sym": "Xe",
+    "name": "Xenon",
+    "mass": "131.29",
+    "cat": "noble",
+    "period": 5,
+    "group": 18,
+    "config": "[Kr] 4d¹⁰ 5s² 5p⁶",
+    "ox": "0, +2, +4, +6"
+  },
+  {
+    "num": 55,
+    "sym": "Cs",
+    "name": "Sesium",
+    "mass": "132.91",
+    "cat": "alkali",
+    "period": 6,
+    "group": 1,
+    "config": "[Xe] 6s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 56,
+    "sym": "Ba",
+    "name": "Barium",
+    "mass": "137.33",
+    "cat": "alkaline",
+    "period": 6,
+    "group": 2,
+    "config": "[Xe] 6s²",
+    "ox": "+2"
+  },
+  {
+    "num": 72,
+    "sym": "Hf",
+    "name": "Hafnium",
+    "mass": "178.49",
+    "cat": "transition",
+    "period": 6,
+    "group": 4,
+    "config": "[Xe] 4f¹⁴ 5d² 6s²",
+    "ox": "+4"
+  },
+  {
+    "num": 73,
+    "sym": "Ta",
+    "name": "Tantalum",
+    "mass": "180.95",
+    "cat": "transition",
+    "period": 6,
+    "group": 5,
+    "config": "[Xe] 4f¹⁴ 5d³ 6s²",
+    "ox": "+5"
+  },
+  {
+    "num": 74,
+    "sym": "W",
+    "name": "Wolfram",
+    "mass": "183.84",
+    "cat": "transition",
+    "period": 6,
+    "group": 6,
+    "config": "[Xe] 4f¹⁴ 5d⁴ 6s²",
+    "ox": "+4, +6"
+  },
+  {
+    "num": 75,
+    "sym": "Re",
+    "name": "Renium",
+    "mass": "186.21",
+    "cat": "transition",
+    "period": 6,
+    "group": 7,
+    "config": "[Xe] 4f¹⁴ 5d⁵ 6s²",
+    "ox": "+4, +7"
+  },
+  {
+    "num": 76,
+    "sym": "Os",
+    "name": "Osmium",
+    "mass": "190.23",
+    "cat": "transition",
+    "period": 6,
+    "group": 8,
+    "config": "[Xe] 4f¹⁴ 5d⁶ 6s²",
+    "ox": "+3, +4, +8"
+  },
+  {
+    "num": 77,
+    "sym": "Ir",
+    "name": "Iridium",
+    "mass": "192.22",
+    "cat": "transition",
+    "period": 6,
+    "group": 9,
+    "config": "[Xe] 4f¹⁴ 5d⁷ 6s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 78,
+    "sym": "Pt",
+    "name": "Platina",
+    "mass": "195.08",
+    "cat": "transition",
+    "period": 6,
+    "group": 10,
+    "config": "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 79,
+    "sym": "Au",
+    "name": "Emas",
+    "mass": "196.97",
+    "cat": "transition",
+    "period": 6,
+    "group": 11,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+    "ox": "+1, +3"
+  },
+  {
+    "num": 80,
+    "sym": "Hg",
+    "name": "Raksa",
+    "mass": "200.59",
+    "cat": "transition",
+    "period": 6,
+    "group": 12,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+    "ox": "+1, +2"
+  },
+  {
+    "num": 81,
+    "sym": "Tl",
+    "name": "Talium",
+    "mass": "204.38",
+    "cat": "post-trans",
+    "period": 6,
+    "group": 13,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+    "ox": "+1, +3"
+  },
+  {
+    "num": 82,
+    "sym": "Pb",
+    "name": "Timbal",
+    "mass": "207.2",
+    "cat": "post-trans",
+    "period": 6,
+    "group": 14,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 83,
+    "sym": "Bi",
+    "name": "Bismut",
+    "mass": "208.98",
+    "cat": "post-trans",
+    "period": 6,
+    "group": 15,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+    "ox": "+3, +5"
+  },
+  {
+    "num": 84,
+    "sym": "Po",
+    "name": "Polonium",
+    "mass": "(209)",
+    "cat": "post-trans",
+    "period": 6,
+    "group": 16,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 85,
+    "sym": "At",
+    "name": "Astatin",
+    "mass": "(210)",
+    "cat": "halogen",
+    "period": 6,
+    "group": 17,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+    "ox": "-1, +1, +5"
+  },
+  {
+    "num": 86,
+    "sym": "Rn",
+    "name": "Radon",
+    "mass": "(222)",
+    "cat": "noble",
+    "period": 6,
+    "group": 18,
+    "config": "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+    "ox": "0, +2"
+  },
+  {
+    "num": 87,
+    "sym": "Fr",
+    "name": "Fransium",
+    "mass": "(223)",
+    "cat": "alkali",
+    "period": 7,
+    "group": 1,
+    "config": "[Rn] 7s¹",
+    "ox": "+1"
+  },
+  {
+    "num": 88,
+    "sym": "Ra",
+    "name": "Radium",
+    "mass": "(226)",
+    "cat": "alkaline",
+    "period": 7,
+    "group": 2,
+    "config": "[Rn] 7s²",
+    "ox": "+2"
+  },
+  {
+    "num": 104,
+    "sym": "Rf",
+    "name": "Ruterfordium",
+    "mass": "(267)",
+    "cat": "transition",
+    "period": 7,
+    "group": 4,
+    "config": "[Rn] 5f¹⁴ 6d² 7s²",
+    "ox": "+4"
+  },
+  {
+    "num": 105,
+    "sym": "Db",
+    "name": "Dubnium",
+    "mass": "(268)",
+    "cat": "transition",
+    "period": 7,
+    "group": 5,
+    "config": "[Rn] 5f¹⁴ 6d³ 7s²",
+    "ox": "+5"
+  },
+  {
+    "num": 106,
+    "sym": "Sg",
+    "name": "Seaborgium",
+    "mass": "(269)",
+    "cat": "transition",
+    "period": 7,
+    "group": 6,
+    "config": "[Rn] 5f¹⁴ 6d⁴ 7s²",
+    "ox": "+6"
+  },
+  {
+    "num": 107,
+    "sym": "Bh",
+    "name": "Bohrium",
+    "mass": "(270)",
+    "cat": "transition",
+    "period": 7,
+    "group": 7,
+    "config": "[Rn] 5f¹⁴ 6d⁵ 7s²",
+    "ox": "+7"
+  },
+  {
+    "num": 108,
+    "sym": "Hs",
+    "name": "Hassium",
+    "mass": "(269)",
+    "cat": "transition",
+    "period": 7,
+    "group": 8,
+    "config": "[Rn] 5f¹⁴ 6d⁶ 7s²",
+    "ox": "+4, +8"
+  },
+  {
+    "num": 109,
+    "sym": "Mt",
+    "name": "Meitnerium",
+    "mass": "(278)",
+    "cat": "transition",
+    "period": 7,
+    "group": 9,
+    "config": "[Rn] 5f¹⁴ 6d⁷ 7s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 110,
+    "sym": "Ds",
+    "name": "Darmstadtium",
+    "mass": "(281)",
+    "cat": "transition",
+    "period": 7,
+    "group": 10,
+    "config": "[Rn] 5f¹⁴ 6d⁸ 7s²",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 111,
+    "sym": "Rg",
+    "name": "Roentgenium",
+    "mass": "(282)",
+    "cat": "transition",
+    "period": 7,
+    "group": 11,
+    "config": "[Rn] 5f¹⁴ 6d⁹ 7s²",
+    "ox": "+3"
+  },
+  {
+    "num": 112,
+    "sym": "Cn",
+    "name": "Kopernisium",
+    "mass": "(285)",
+    "cat": "transition",
+    "period": 7,
+    "group": 12,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+    "ox": "+2"
+  },
+  {
+    "num": 113,
+    "sym": "Nh",
+    "name": "Nihonium",
+    "mass": "(286)",
+    "cat": "post-trans",
+    "period": 7,
+    "group": 13,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+    "ox": "+1, +3"
+  },
+  {
+    "num": 114,
+    "sym": "Fl",
+    "name": "Flerovium",
+    "mass": "(289)",
+    "cat": "post-trans",
+    "period": 7,
+    "group": 14,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 115,
+    "sym": "Mc",
+    "name": "Moskovium",
+    "mass": "(290)",
+    "cat": "post-trans",
+    "period": 7,
+    "group": 15,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+    "ox": "+1, +3"
+  },
+  {
+    "num": 116,
+    "sym": "Lv",
+    "name": "Livermorium",
+    "mass": "(293)",
+    "cat": "post-trans",
+    "period": 7,
+    "group": 16,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+    "ox": "+2, +4"
+  },
+  {
+    "num": 117,
+    "sym": "Ts",
+    "name": "Tenesis",
+    "mass": "(294)",
+    "cat": "halogen",
+    "period": 7,
+    "group": 17,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+    "ox": "-1, +1, +3"
+  },
+  {
+    "num": 118,
+    "sym": "Og",
+    "name": "Oganeson",
+    "mass": "(294)",
+    "cat": "noble",
+    "period": 7,
+    "group": 18,
+    "config": "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+    "ox": "0, +2, +4"
+  },
+  {
+    "num": 57,
+    "sym": "La",
+    "name": "Lantanum",
+    "mass": "138.91",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 4,
+    "config": "[Xe] 5d¹ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 58,
+    "sym": "Ce",
+    "name": "Serium",
+    "mass": "140.12",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 5,
+    "config": "[Xe] 4f¹ 5d¹ 6s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 59,
+    "sym": "Pr",
+    "name": "Praseodimium",
+    "mass": "140.91",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 6,
+    "config": "[Xe] 4f³ 6s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 60,
+    "sym": "Nd",
+    "name": "Neodimium",
+    "mass": "144.24",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 7,
+    "config": "[Xe] 4f⁴ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 61,
+    "sym": "Pm",
+    "name": "Prometium",
+    "mass": "(145)",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 8,
+    "config": "[Xe] 4f⁵ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 62,
+    "sym": "Sm",
+    "name": "Samarium",
+    "mass": "150.36",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 9,
+    "config": "[Xe] 4f⁶ 6s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 63,
+    "sym": "Eu",
+    "name": "Europium",
+    "mass": "151.96",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 10,
+    "config": "[Xe] 4f⁷ 6s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 64,
+    "sym": "Gd",
+    "name": "Gadolinium",
+    "mass": "157.25",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 11,
+    "config": "[Xe] 4f⁷ 5d¹ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 65,
+    "sym": "Tb",
+    "name": "Terbium",
+    "mass": "158.93",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 12,
+    "config": "[Xe] 4f⁹ 6s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 66,
+    "sym": "Dy",
+    "name": "Disprosium",
+    "mass": "162.50",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 13,
+    "config": "[Xe] 4f¹⁰ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 67,
+    "sym": "Ho",
+    "name": "Holmium",
+    "mass": "164.93",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 14,
+    "config": "[Xe] 4f¹¹ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 68,
+    "sym": "Er",
+    "name": "Erbium",
+    "mass": "167.26",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 15,
+    "config": "[Xe] 4f¹² 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 69,
+    "sym": "Tm",
+    "name": "Tulium",
+    "mass": "168.93",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 16,
+    "config": "[Xe] 4f¹³ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 70,
+    "sym": "Yb",
+    "name": "Iterbium",
+    "mass": "173.05",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 17,
+    "config": "[Xe] 4f¹⁴ 6s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 71,
+    "sym": "Lu",
+    "name": "Lutetium",
+    "mass": "174.97",
+    "cat": "lanthanide",
+    "period": 8,
+    "group": 18,
+    "config": "[Xe] 4f¹⁴ 5d¹ 6s²",
+    "ox": "+3"
+  },
+  {
+    "num": 89,
+    "sym": "Ac",
+    "name": "Aktinium",
+    "mass": "(227)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 4,
+    "config": "[Rn] 6d¹ 7s²",
+    "ox": "+3"
+  },
+  {
+    "num": 90,
+    "sym": "Th",
+    "name": "Torium",
+    "mass": "232.04",
+    "cat": "actinide",
+    "period": 9,
+    "group": 5,
+    "config": "[Rn] 6d² 7s²",
+    "ox": "+4"
+  },
+  {
+    "num": 91,
+    "sym": "Pa",
+    "name": "Protaktinium",
+    "mass": "231.04",
+    "cat": "actinide",
+    "period": 9,
+    "group": 6,
+    "config": "[Rn] 5f² 6d¹ 7s²",
+    "ox": "+4, +5"
+  },
+  {
+    "num": 92,
+    "sym": "U",
+    "name": "Uranium",
+    "mass": "238.03",
+    "cat": "actinide",
+    "period": 9,
+    "group": 7,
+    "config": "[Rn] 5f³ 6d¹ 7s²",
+    "ox": "+3, +4, +5, +6"
+  },
+  {
+    "num": 93,
+    "sym": "Np",
+    "name": "Neptunium",
+    "mass": "(237)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 8,
+    "config": "[Rn] 5f⁴ 6d¹ 7s²",
+    "ox": "+3, +4, +5, +6"
+  },
+  {
+    "num": 94,
+    "sym": "Pu",
+    "name": "Plutonium",
+    "mass": "(244)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 9,
+    "config": "[Rn] 5f⁶ 7s²",
+    "ox": "+3, +4, +5, +6"
+  },
+  {
+    "num": 95,
+    "sym": "Am",
+    "name": "Amerisium",
+    "mass": "(243)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 10,
+    "config": "[Rn] 5f⁷ 7s²",
+    "ox": "+3, +4, +5, +6"
+  },
+  {
+    "num": 96,
+    "sym": "Cm",
+    "name": "Kurium",
+    "mass": "(247)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 11,
+    "config": "[Rn] 5f⁷ 6d¹ 7s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 97,
+    "sym": "Bk",
+    "name": "Berkelium",
+    "mass": "(247)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 12,
+    "config": "[Rn] 5f⁹ 7s²",
+    "ox": "+3, +4"
+  },
+  {
+    "num": 98,
+    "sym": "Cf",
+    "name": "Kalifornium",
+    "mass": "(251)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 13,
+    "config": "[Rn] 5f¹⁰ 7s²",
+    "ox": "+3"
+  },
+  {
+    "num": 99,
+    "sym": "Es",
+    "name": "Einsteinium",
+    "mass": "(252)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 14,
+    "config": "[Rn] 5f¹¹ 7s²",
+    "ox": "+3"
+  },
+  {
+    "num": 100,
+    "sym": "Fm",
+    "name": "Fermium",
+    "mass": "(257)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 15,
+    "config": "[Rn] 5f¹² 7s²",
+    "ox": "+3"
+  },
+  {
+    "num": 101,
+    "sym": "Md",
+    "name": "Mendelevium",
+    "mass": "(258)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 16,
+    "config": "[Rn] 5f¹³ 7s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 102,
+    "sym": "No",
+    "name": "Nobelium",
+    "mass": "(259)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 17,
+    "config": "[Rn] 5f¹⁴ 7s²",
+    "ox": "+2, +3"
+  },
+  {
+    "num": 103,
+    "sym": "Lr",
+    "name": "Lawrensium",
+    "mass": "(266)",
+    "cat": "actinide",
+    "period": 9,
+    "group": 18,
+    "config": "[Rn] 5f¹⁴ 7s² 7p¹",
+    "ox": "+3"
+  }
+];
+
+  function openSubjectModal(modalEl) {
+    if (!modalEl) return;
+    modalEl.classList.remove('hidden');
+    modalEl.style.display = 'flex';
+    state.isModalOpen = true;
+    document.body.classList.add('modal-scroll-lock');
+  }
+
+  function closeSubjectModal(modalEl) {
+    if (!modalEl) return;
+    modalEl.classList.add('hidden');
+    modalEl.style.display = 'none';
+    
+    // Check if any other modal is still active
+    const activeModals = document.querySelectorAll('.app-modal-overlay:not(.hidden)');
+    const anyVisible = Array.from(activeModals).some(m => m.style.display === 'flex');
+    if (!anyVisible) {
+      state.isModalOpen = false;
+      document.body.classList.remove('modal-scroll-lock');
+    }
+  }
+
+  function renderSubjectTools(subj) {
+    if (!els.subjectToolDock) return;
+    const caps = SUBJECT_CAPABILITIES[subj];
+    if (!caps) {
+      els.subjectToolDock.classList.add('hidden');
+      els.subjectToolDock.innerHTML = '';
+      if (els.paperQText) els.paperQText.classList.remove('arabic-content');
+      return;
+    }
+
+    els.subjectToolDock.classList.remove('hidden');
+    els.subjectToolDock.innerHTML = '';
+
+    if (caps.rtl && els.paperQText) {
+      els.paperQText.classList.add('arabic-content');
+    } else if (els.paperQText) {
+      els.paperQText.classList.remove('arabic-content');
+    }
+
+    if (caps.furigana) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `btn-subject-tool ${state.furiganaEnabled ? 'active' : ''}`;
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg><span>Furigana: <strong>${state.furiganaEnabled ? 'ON' : 'OFF'}</strong></span>`;
+      btn.addEventListener('click', () => {
+        state.furiganaEnabled = !state.furiganaEnabled;
+        if (els.viewWorkspace) els.viewWorkspace.classList.toggle('furigana-hidden', !state.furiganaEnabled);
+        renderSubjectTools(subj);
+      });
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.pinyin) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `btn-subject-tool ${state.pinyinEnabled ? 'active' : ''}`;
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 7V4h16v3M9 20h6M12 4v16"/></svg><span>Pinyin: <strong>${state.pinyinEnabled ? 'ON' : 'OFF'}</strong></span>`;
+      btn.addEventListener('click', () => {
+        state.pinyinEnabled = !state.pinyinEnabled;
+        if (els.viewWorkspace) els.viewWorkspace.classList.toggle('pinyin-hidden', !state.pinyinEnabled);
+        renderSubjectTools(subj);
+      });
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.harakat) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `btn-subject-tool ${state.harakatEnabled ? 'active' : ''}`;
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/></svg><span>Harakat: <strong>${state.harakatEnabled ? 'ON' : 'OFF'}</strong></span>`;
+      btn.addEventListener('click', () => {
+        state.harakatEnabled = !state.harakatEnabled;
+        if (els.viewWorkspace) els.viewWorkspace.classList.toggle('harakat-hidden', !state.harakatEnabled);
+        renderSubjectTools(subj);
+      });
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.periodicTable) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-subject-tool';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="3"/><circle cx="19" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><path d="M10.4 13.6L6.5 17.5M13.6 10.4L17.5 6.5"/></svg><span>Tabel Periodik</span>`;
+      btn.addEventListener('click', () => openSubjectModal(els.modalPeriodicTable));
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.physicsConstants) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-subject-tool';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg><span>Konstanta Fisika</span>`;
+      btn.addEventListener('click', () => openSubjectModal(els.modalPhysicsConstants));
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.subnetCalc) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-subject-tool';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg><span>Kalkulator Subnet</span>`;
+      btn.addEventListener('click', () => openSubjectModal(els.modalSubnetCalc));
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.bepCalc) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-subject-tool';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg><span>Kalkulator BEP</span>`;
+      btn.addEventListener('click', () => openSubjectModal(els.modalBepCalc));
+      els.subjectToolDock.appendChild(btn);
+    }
+
+    if (caps.traceTable) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'btn-subject-tool';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg><span>Trace Table</span>`;
+      btn.addEventListener('click', () => openSubjectModal(els.modalTraceTable));
+      els.subjectToolDock.appendChild(btn);
+    }
+  }
+
+  function initSubjectCapabilityTools() {
+    // 1. Periodic Table (Authentic 18-Column IUPAC Grid & Interactive Inspector)
+    if (els.periodicElementsGrid) {
+      let activeCatFilter = 'all';
+      let activeSearchQuery = '';
+
+      const inspectSymBox = document.getElementById('inspectSymBox');
+      const inspectNum = document.getElementById('inspectNum');
+      const inspectSym = document.getElementById('inspectSym');
+      const inspectMass = document.getElementById('inspectMass');
+      const inspectName = document.getElementById('inspectName');
+      const inspectCat = document.getElementById('inspectCat');
+      const inspectPhase = document.getElementById('inspectPhase');
+      const inspectConfig = document.getElementById('inspectConfig');
+      const inspectGroupPeriod = document.getElementById('inspectGroupPeriod');
+      const inspectOx = document.getElementById('inspectOx');
+      const inspectAr = document.getElementById('inspectAr');
+
+      const CAT_NAMES = {
+        alkali: 'Logam Alkali',
+        alkaline: 'Logam Alkali Tanah',
+        transition: 'Logam Transisi',
+        'post-trans': 'Logam Pasca-Transisi',
+        metalloid: 'Metaloid',
+        nonmetal: 'Nonlogam Reaktif',
+        halogen: 'Halogen',
+        noble: 'Gas Mulia',
+        lanthanide: 'Lantanida',
+        actinide: 'Aktinida'
+      };
+
+      const selectElement = (el) => {
+        if (!el) return;
+        if (inspectSymBox) {
+          inspectSymBox.className = `inspector-sym-box cat-${el.cat || 'transition'}`;
+        }
+        if (inspectNum) inspectNum.textContent = el.num;
+        if (inspectSym) inspectSym.textContent = el.sym;
+        if (inspectMass) inspectMass.textContent = el.mass;
+        if (inspectName) inspectName.textContent = `${el.name}`;
+        if (inspectCat) {
+          inspectCat.textContent = CAT_NAMES[el.cat] || el.cat;
+          inspectCat.className = `inspector-badge cat-${el.cat || 'transition'}`;
+        }
+        if (inspectPhase) {
+          const gasList = [1, 2, 7, 8, 9, 10, 17, 18, 36, 54, 86, 118];
+          const liquidList = [35, 80];
+          let phase = 'Padat (298 K)';
+          if (gasList.includes(el.num)) phase = 'Gas (298 K)';
+          else if (liquidList.includes(el.num)) phase = 'Cair (298 K)';
+          inspectPhase.textContent = phase;
+        }
+        if (inspectConfig) inspectConfig.textContent = el.config || '-';
+        if (inspectGroupPeriod) {
+          const grp = (el.period >= 8) ? (el.period === 8 ? 'Lantanida (f-block)' : 'Aktinida (f-block)') : `Golongan ${el.group}, Periode ${el.period}`;
+          inspectGroupPeriod.textContent = grp;
+        }
+        if (inspectOx) inspectOx.textContent = el.ox || '-';
+        if (inspectAr) inspectAr.textContent = `${el.mass} g/mol`;
+
+        // Highlight selected tile
+        document.querySelectorAll('.iupac-tile').forEach(t => {
+          t.classList.toggle('selected', t.dataset.num === String(el.num));
+        });
+      };
+
+      const renderIupacBoard = () => {
+        els.periodicElementsGrid.innerHTML = '';
+        const q = activeSearchQuery.toLowerCase().trim();
+        let matchCount = 0;
+
+        // Group Headers (Cols 1-18)
+        for (let g = 1; g <= 18; g++) {
+          const grpHeader = document.createElement('div');
+          grpHeader.className = 'iupac-group-header';
+          grpHeader.style.gridColumn = String(g);
+          grpHeader.style.gridRow = '1';
+          grpHeader.textContent = String(g);
+          els.periodicElementsGrid.appendChild(grpHeader);
+        }
+
+        // Place elements in grid
+        PERIODIC_ELEMENTS.forEach(el => {
+          const tile = document.createElement('div');
+          const catClass = `cat-${el.cat || ''}`;
+          tile.className = `iupac-tile ${catClass}`;
+          tile.dataset.num = String(el.num);
+          tile.dataset.cat = el.cat;
+
+          // Grid coordinates: period 1-7 sits on row (period + 1) because row 1 is group header
+          let row = el.period + 1;
+          let col = el.group;
+          if (el.period === 8) { row = 9; col = el.group; } // Lanthanides row
+          if (el.period === 9) { row = 10; col = el.group; } // Actinides row
+
+          tile.style.gridRow = String(row);
+          tile.style.gridColumn = String(col);
+
+          tile.innerHTML = `
+            <div class="tile-top">
+              <span>${el.num}</span>
+            </div>
+            <div class="tile-sym">${el.sym}</div>
+            <div class="tile-name">${el.name}</div>
+            <div class="tile-mass">${el.mass}</div>
+          `;
+
+          // Matching logic
+          const matchesCat = (activeCatFilter === 'all' || el.cat === activeCatFilter);
+          const matchesQuery = (!q || el.sym.toLowerCase().includes(q) || el.name.toLowerCase().includes(q) || String(el.num) === q);
+          
+          if (matchesCat && matchesQuery) {
+            matchCount++;
+            if (q) tile.classList.add('highlight');
+          } else {
+            tile.classList.add('dimmed');
+          }
+
+          tile.addEventListener('click', () => selectElement(el));
+          tile.addEventListener('mouseenter', () => selectElement(el));
+
+          els.periodicElementsGrid.appendChild(tile);
+        });
+
+        // Placeholders in main table for Lanthanides & Actinides
+        // Period 6, Col 3 (Row 7)
+        const lanthPlaceholder = document.createElement('div');
+        lanthPlaceholder.className = 'iupac-placeholder cat-lanthanide';
+        lanthPlaceholder.style.gridRow = '7';
+        lanthPlaceholder.style.gridColumn = '3';
+        lanthPlaceholder.innerHTML = '<span>57–71</span><small>La–Lu</small>';
+        els.periodicElementsGrid.appendChild(lanthPlaceholder);
+
+        // Period 7, Col 3 (Row 8)
+        const actPlaceholder = document.createElement('div');
+        actPlaceholder.className = 'iupac-placeholder cat-actinide';
+        actPlaceholder.style.gridRow = '8';
+        actPlaceholder.style.gridColumn = '3';
+        actPlaceholder.innerHTML = '<span>89–103</span><small>Ac–Lr</small>';
+        els.periodicElementsGrid.appendChild(actPlaceholder);
+
+        // Labels for bottom f-block rows
+        const lanthLabel = document.createElement('div');
+        lanthLabel.className = 'f-block-label lanth';
+        lanthLabel.style.gridRow = '9';
+        lanthLabel.style.gridColumn = '1 / span 3';
+        lanthLabel.textContent = '★ Lantanida';
+        els.periodicElementsGrid.appendChild(lanthLabel);
+
+        const actLabel = document.createElement('div');
+        actLabel.className = 'f-block-label act';
+        actLabel.style.gridRow = '10';
+        actLabel.style.gridColumn = '1 / span 3';
+        actLabel.textContent = '★★ Aktinida';
+        els.periodicElementsGrid.appendChild(actLabel);
+
+        if (els.periodicFilterCount) {
+          els.periodicFilterCount.textContent = `${matchCount} Unsur Tampil`;
+        }
+      };
+
+      // Initial render & select Fe (Besi - 26) as featured element
+      renderIupacBoard();
+      const defaultFe = PERIODIC_ELEMENTS.find(e => e.num === 26) || PERIODIC_ELEMENTS[0];
+      selectElement(defaultFe);
+
+      // Search Handler
+      if (els.periodicSearchInput) {
+        els.periodicSearchInput.addEventListener('input', (e) => {
+          activeSearchQuery = e.target.value;
+          renderIupacBoard();
+        });
+      }
+
+      // Category Pill Buttons Handler
+      const catFiltersContainer = document.getElementById('periodicCategoryFilters');
+      if (catFiltersContainer) {
+        catFiltersContainer.addEventListener('click', (e) => {
+          const btn = e.target.closest('.periodic-cat-pill');
+          if (!btn) return;
+          catFiltersContainer.querySelectorAll('.periodic-cat-pill').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeCatFilter = btn.dataset.cat || 'all';
+          renderIupacBoard();
+        });
+      }
+    }
+
+    if (els.btnClosePeriodicTable) {
+      els.btnClosePeriodicTable.addEventListener('click', () => closeSubjectModal(els.modalPeriodicTable));
+    }
+    if (els.btnClosePhysicsConstants) {
+      els.btnClosePhysicsConstants.addEventListener('click', () => closeSubjectModal(els.modalPhysicsConstants));
+    }
+
+    // 2. Subnet Calculator
+    const calcSubnet = () => {
+      const ipStr = (els.subnetIpInput ? els.subnetIpInput.value : '').trim() || '192.168.1.1';
+      const cidr = parseInt(els.subnetCidrSelect ? els.subnetCidrSelect.value : '24', 10);
+      const parts = ipStr.split('.').map(n => parseInt(n, 10));
+      if (parts.length !== 4 || parts.some(n => isNaN(n) || n < 0 || n > 255)) {
+        if (els.resSubnetMask) els.resSubnetMask.textContent = 'Format IP tidak valid';
+        return;
+      }
+      const ipInt = ((parts[0] << 24) >>> 0) + ((parts[1] << 16) >>> 0) + ((parts[2] << 8) >>> 0) + (parts[3] >>> 0);
+      const maskInt = cidr === 0 ? 0 : ((0xFFFFFFFF << (32 - cidr)) >>> 0);
+      const netInt = (ipInt & maskInt) >>> 0;
+      const bcastInt = (netInt | (~maskInt >>> 0)) >>> 0;
+      const intToIp = (val) => [(val >>> 24) & 255, (val >>> 16) & 255, (val >>> 8) & 255, val & 255].join('.');
+
+      const maskStr = intToIp(maskInt);
+      const netStr = intToIp(netInt);
+      const bcastStr = intToIp(bcastInt);
+      const totalHosts = Math.pow(2, 32 - cidr);
+      const usableHosts = cidr >= 31 ? (cidr === 31 ? 2 : 1) : Math.max(0, totalHosts - 2);
+
+      let hostRangeStr = '-';
+      if (cidr <= 30) {
+        hostRangeStr = `${intToIp(netInt + 1)} — ${intToIp(bcastInt - 1)}`;
+      } else if (cidr === 31) {
+        hostRangeStr = `${intToIp(netInt)} — ${intToIp(bcastInt)} (RFC 3021)`;
+      } else {
+        hostRangeStr = intToIp(ipInt);
+      }
+
+      if (els.resSubnetMask) els.resSubnetMask.textContent = maskStr;
+      if (els.resNetworkId) els.resNetworkId.textContent = netStr;
+      if (els.resBroadcastId) els.resBroadcastId.textContent = bcastStr;
+      if (els.resHostRange) els.resHostRange.textContent = hostRangeStr;
+      if (els.resTotalHosts) els.resTotalHosts.textContent = `${usableHosts.toLocaleString('id-ID')} Alamat Host`;
+    };
+
+    if (els.subnetIpInput) els.subnetIpInput.addEventListener('input', calcSubnet);
+    if (els.subnetCidrSelect) els.subnetCidrSelect.addEventListener('change', calcSubnet);
+    calcSubnet();
+    if (els.btnCloseSubnetCalc) {
+      els.btnCloseSubnetCalc.addEventListener('click', () => closeSubjectModal(els.modalSubnetCalc));
+    }
+
+    // 3. BEP Calculator
+    const calcBep = () => {
+      const fc = parseFloat(els.bepFcInput ? els.bepFcInput.value : '0') || 0;
+      const vc = parseFloat(els.bepVcInput ? els.bepVcInput.value : '0') || 0;
+      const price = parseFloat(els.bepPriceInput ? els.bepPriceInput.value : '0') || 0;
+      const marginUnit = price - vc;
+      const marginRatio = price > 0 ? (marginUnit / price) * 100 : 0;
+      let bepUnit = 0;
+      let bepRupiah = 0;
+      if (marginUnit > 0) {
+        bepUnit = Math.ceil(fc / marginUnit);
+        bepRupiah = bepUnit * price;
+      }
+      const fmtRupiah = (val) => 'Rp ' + Math.round(val).toLocaleString('id-ID');
+      if (els.resMarginUnit) els.resMarginUnit.textContent = fmtRupiah(marginUnit);
+      if (els.resMarginRatio) els.resMarginRatio.textContent = `${marginRatio.toFixed(1)} %`;
+      if (els.resBepUnit) els.resBepUnit.textContent = marginUnit > 0 ? `${bepUnit.toLocaleString('id-ID')} Unit` : 'Harga ≤ Biaya Var';
+      if (els.resBepRupiah) els.resBepRupiah.textContent = marginUnit > 0 ? fmtRupiah(bepRupiah) : '-';
+    };
+
+    if (els.bepFcInput) els.bepFcInput.addEventListener('input', calcBep);
+    if (els.bepVcInput) els.bepVcInput.addEventListener('input', calcBep);
+    if (els.bepPriceInput) els.bepPriceInput.addEventListener('input', calcBep);
+    calcBep();
+    if (els.btnCloseBepCalc) {
+      els.btnCloseBepCalc.addEventListener('click', () => closeSubjectModal(els.modalBepCalc));
+    }
+
+    // 4. Trace Table
+    let traceCols = ['Langkah / Iterasi', 'Variabel i', 'Variabel sum', 'Output'];
+    let traceRowsCount = 3;
+
+    const renderTraceTable = () => {
+      if (!els.traceTableHeadRow || !els.traceTableBody) return;
+      els.traceTableHeadRow.innerHTML = '';
+      traceCols.forEach((col, idx) => {
+        const th = document.createElement('th');
+        th.contentEditable = idx > 0 ? 'true' : 'false';
+        th.textContent = col;
+        th.title = idx > 0 ? 'Klik untuk mengganti nama variabel' : '';
+        els.traceTableHeadRow.appendChild(th);
+      });
+
+      els.traceTableBody.innerHTML = '';
+      for (let r = 1; r <= traceRowsCount; r++) {
+        const tr = document.createElement('tr');
+        traceCols.forEach((_, cIdx) => {
+          const td = document.createElement('td');
+          if (cIdx === 0) {
+            td.textContent = `Iterasi #${r}`;
+            td.style.fontWeight = '700';
+            td.style.background = 'var(--surface-sunken)';
+          } else {
+            td.contentEditable = 'true';
+            td.textContent = '-';
+          }
+          tr.appendChild(td);
+        });
+        els.traceTableBody.appendChild(tr);
+      }
+    };
+
+    if (els.btnAddTraceCol) {
+      els.btnAddTraceCol.addEventListener('click', () => {
+        traceCols.push(`Var ${String.fromCharCode(65 + traceCols.length)}`);
+        renderTraceTable();
+      });
+    }
+    if (els.btnAddTraceRow) {
+      els.btnAddTraceRow.addEventListener('click', () => {
+        traceRowsCount++;
+        renderTraceTable();
+      });
+    }
+    if (els.btnClearTrace) {
+      els.btnClearTrace.addEventListener('click', () => {
+        traceCols = ['Langkah / Iterasi', 'Variabel i', 'Variabel sum', 'Output'];
+        traceRowsCount = 3;
+        renderTraceTable();
+      });
+    }
+    renderTraceTable();
+
+    if (els.btnCloseTraceTable) {
+      els.btnCloseTraceTable.addEventListener('click', () => closeSubjectModal(els.modalTraceTable));
+    }
+
+    // Modal overlay backdrop click to dismiss
+    const subjectModals = [
+      els.modalPeriodicTable,
+      els.modalPhysicsConstants,
+      els.modalSubnetCalc,
+      els.modalBepCalc,
+      els.modalTraceTable
+    ];
+    subjectModals.forEach(m => {
+      if (m) {
+        m.addEventListener('click', (e) => {
+          if (e.target === m) closeSubjectModal(m);
+        });
+      }
+    });
+
+    // Escape key listener for open modals
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && state.isModalOpen) {
+        subjectModals.forEach(m => {
+          if (m && m.style.display === 'flex') closeSubjectModal(m);
+        });
+      }
+    });
+  }
 
   // =========================================================================
   // LIQUID SPRING NAVBAR
@@ -1368,6 +3205,10 @@
 
     els.gridDrawerIndicator.textContent = `${index + 1} / ${state.exam.questions.length}`;
 
+    // Render Bespoke Subject Tools (Furigana, Pinyin, Harakat, Periodic Table, Constants, Subnet, BEP, Trace Table)
+    const currentSubj = q.subject || state.currentSubject || 'mtk';
+    renderSubjectTools(currentSubj);
+
     // Question body text: separate stimulus and prompt when available
     if (q.stimulus) {
       els.paperQText.innerHTML = `
@@ -1588,7 +3429,8 @@
         id: item.id !== undefined ? String(item.id) : String(idx),
         text: item.text || item.statement || '',
         answer: item.answer !== undefined ? item.answer : item.isCorrect,
-        isCorrect: item.isCorrect
+        isCorrect: item.isCorrect,
+        correct: item.correct
       };
     });
   }
@@ -1608,6 +3450,10 @@
     }
     if (stmt.isCorrect !== undefined) {
       return stmt.isCorrect === true || stmt.isCorrect === 'true';
+    }
+    if (stmt.correct !== undefined) {
+      const c = String(stmt.correct).toLowerCase().trim();
+      return c === 'benar' || c === 'true' || c === 'b';
     }
     return false;
   }
@@ -2475,6 +4321,7 @@
     initMobilePanorama();
     initSubjectHubListeners();
     initWorkspaceNavigation();
+    initSubjectCapabilityTools();
     initProctorListeners();
     initResultsListeners();
 

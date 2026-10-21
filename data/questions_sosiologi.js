@@ -3445,7 +3445,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "explanation": "Kunci Jawaban: (E) Hubungan antaranggota bersifat tatap muka langsung (_face-to-face_), intim, personal, mendalam, dan memiliki keterikatan afeksi emosional yang menjadi wadah utama pembentukan kepribadian dasar manusia.. Kelompok primer Cooley: tatap muka langsung (face to face), intim, personal, hubungan batin mendalam, pembentuk kepribadian dasar (keluarga, sahabat karib). Pilih opsi: Hubungan tatap muka langsung (face-to-face), intim, personal, mendalam, dan keterikatan afeksi emosional."
   },
   {
-    "id": "sos-lat-m-06",
+    "id": "sos-lat-m-06b",
     "materi": "STRATIFIKASI SOSIAL & KETIMPANGAN GENDER",
     "topic": "Manifestasi Ketimpangan Gender: Beban Ganda (Double Burden) dan Subordinasi",
     "hints": {

@@ -1,5645 +1,4908 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_IND_LANJUT.JS (135 SOAL AUTENTIK)
- */
 window.TKA_IND_LANJUT_QUESTIONS = [
   {
     "id": "ind_lanjut-lat-e-01",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 001] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-02",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 002] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-03",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 3 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 003] Kutipan telaah #3: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 3 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 3."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 3 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 3 pasti tergolong manuskrip modern."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 3 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-04",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 004] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-05",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 005] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-06",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 006] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-07",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 007] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-08",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 008] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-09",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 9 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 009] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 9 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 9."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 9 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 9 pasti tergolong manuskrip modern."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 9 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-10",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 010] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-11",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 011] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-12",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 012] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-13",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 013] Kutipan telaah #13: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-14",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 014] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-15",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 15 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 015] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 15 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 15."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 15 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 15 pasti tergolong manuskrip modern."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 15 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-16",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 016] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-17",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 017] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-18",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 018] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-19",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 019] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-20",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 020] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-21",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 21 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 021] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 21 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 21."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 21 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 21 pasti tergolong manuskrip modern."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 21 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-22",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 022] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-23",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 023] Kutipan telaah #23: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-24",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 024] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-e-25",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 025] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-26",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-27",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 27 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 27 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 27."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 27 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 27 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 27 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-28",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-29",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-30",
-    "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
-    "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
-      },
-      {
-        "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
-      },
-      {
-        "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
-      },
-      {
-        "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
-      },
-      {
-        "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
-    },
-    "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
-    },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-31",
-    "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
-    "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
-      },
-      {
-        "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
-      },
-      {
-        "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
-      },
-      {
-        "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
-      },
-      {
-        "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
-    },
-    "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
-    },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-32",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-33",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 33 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 33 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 33."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 33 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 33 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 33 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-34",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-e-35",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-01",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 026] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-02",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 027] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-03",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 3 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 028] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 3 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 3."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 3 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 3 pasti tergolong manuskrip modern."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 3 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-04",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 029] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-05",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 030] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-06",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 031] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-07",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 032] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-08",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 033] Kutipan telaah #33: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-09",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 9 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 034] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 9 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 9."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 9 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 9 pasti tergolong manuskrip modern."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 9 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-10",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 035] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-11",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 036] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-12",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 037] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-13",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 038] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-14",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 039] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-15",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 15 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 040] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 15 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 15."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 15 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 15 pasti tergolong manuskrip modern."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 15 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-16",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 041] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-17",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 042] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-18",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 043] Kutipan telaah #43: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-19",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 044] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-20",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 045] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-21",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 21 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 046] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 21 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 21."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 21 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 21 pasti tergolong manuskrip modern."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 21 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-22",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 047] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-23",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 048] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-24",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 049] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-m-25",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 050] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-26",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-27",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 27 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 27 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 27."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 27 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 27 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 27 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-28",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-29",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-30",
-    "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
-    "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
-      },
-      {
-        "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
-      },
-      {
-        "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
-      },
-      {
-        "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
-      },
-      {
-        "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
-    },
-    "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
-    },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-31",
-    "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
-    "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
-      },
-      {
-        "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
-      },
-      {
-        "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
-      },
-      {
-        "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
-      },
-      {
-        "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
-    },
-    "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
-    },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-32",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-33",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 33 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 33 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 33."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 33 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 33 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 33 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-34",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-m-35",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-01",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 051] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-02",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 052] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-03",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 3 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 053] Kutipan telaah #53: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 3 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 3."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 3 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 3 pasti tergolong manuskrip modern."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 3 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-04",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 054] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-05",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 055] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-06",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 056] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-07",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 057] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-08",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 058] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-09",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 9 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 059] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 9 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 9."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 9 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 9 pasti tergolong manuskrip modern."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 9 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-10",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 060] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-11",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 061] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-12",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 062] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-13",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 063] Kutipan telaah #63: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-14",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 064] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-15",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 15 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 065] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 15 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 15."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 15 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 15 pasti tergolong manuskrip modern."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 15 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-16",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 066] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-17",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 067] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-18",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 068] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-19",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 069] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-20",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 070] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-21",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 21 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 071] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 21 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 21."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 21 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 21 pasti tergolong manuskrip modern."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 21 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-22",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 072] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       }
     ],
     "correctKey": "B",
     "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-23",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 073] Kutipan telaah #73: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-24",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 074] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-lat-h-25",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 075] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
     },
     "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-26",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-27",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 27 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 27 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 27."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 27 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 27 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 27 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-28",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-29",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-30",
-    "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
-    "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
-      },
-      {
-        "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
-      },
-      {
-        "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
-      },
-      {
-        "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
-      },
-      {
-        "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SINTAKSIS KALIMAT EFEKTIF (EYD V)",
-      "latex": "S + P + O + Ket_{\\text{subordinatif}} \\quad (\\text{Nir-Kontaminasi})",
-      "legend": "• Ketepatan konjungsi korelatif<br>• Penghilangan pleonasme dan ambigu struktural"
-    },
-    "hints": {
-      "concept": "Preposisi di awal klausa utama berisiko mendegradasi fungsi subjek menjadi keterangan semu.",
-      "execution": "Hapus kata 'Berdasarkan' agar kalimat memiliki struktur intensional S-P-Pelengkap yang kokoh."
-    },
-    "explanation": "Kalimat awal mengalami kerancuan gramatikal (kehilangan subjek) karena frasa diawali preposisi 'Berdasarkan', menjadikannya keterangan panjang. Dengan membuang 'Berdasarkan', frasa 'Hasil survei...' langsung berfungsi sah sebagai subjek bagi predikat 'membuktikan'.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-31",
-    "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
-    "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
-      },
-      {
-        "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
-      },
-      {
-        "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
-      },
-      {
-        "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
-      },
-      {
-        "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "KONVENSI SITASI AKADEMIK APA",
-      "latex": "\\text{Author (Year)} \\to \\text{Direct quote (p. xx)}",
-      "legend": "• Integrasi parafrase tanpa plagiasi mosaik<br>• Koherensi sintesis multirujukan"
-    },
-    "hints": {
-      "concept": "Sintesis literatur menuntut komparasi kritis antarsumber, bukan sekadar kompilasi bibliografi searah.",
-      "execution": "Identifikasi opsi yang mempertahankan etika sitasi sekaligus memperjelas polaritas temuan penelitian."
-    },
-    "explanation": "Dalam penulisan sintesis akademik (APA 7th), integrasi temuan yang bertentangan wajib menggunakan konjungsi transisi antitesis yang presisi (seperti 'Sebaliknya' atau 'Namun demikian') untuk membangun dialektika ilmiah yang berimbang.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-32",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
-      },
-      {
-        "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
-      },
-      {
-        "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
-      },
-      {
-        "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
-      },
-      {
-        "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "DIAGNOSA KESALAHAN LOGIKA FORMAL",
-      "latex": "\\text{Premis Salah} \\implies \\text{Konklusi Invalid}",
-      "legend": "• Ad Hominem: Menyerang personal<br>• Straw Man: Memelintir argumen lawan<br>• Slippery Slope: Kausalitas ekstrem tanpa bukti"
-    },
-    "hints": {
-      "concept": "Slippery slope terjadi saat tindakan kecil diasumsikan secara niscaya memicu konsekuensi katastropik.",
-      "execution": "Perhatikan lompatan logis dari premis subsidi 5% menuju kesimpulan kemunduran peradaban."
-    },
-    "explanation": "Panelis memproyeksikan rantai kausalitas bencana ekstrem (kolaps industri manufaktur hingga kembali ke zaman batu) dari kebijakan subsidi 5% tanpa menyajikan jembatan pembuktian logis empiris. Ini adalah definisi klasik kesesatan Slippery Slope.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-33",
-    "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 33 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Kitab Babad 33 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
-      },
-      {
-        "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 33."
-      },
-      {
-        "key": "C",
-        "text": "Kitab Babad 33 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
-      },
-      {
-        "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 33 pasti tergolong manuskrip modern."
-      },
-      {
-        "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIS VALID",
-      "latex": "(M \\to P) \\land (S \\to M) \\implies S \\to P",
-      "legend": "• Premis Mayor: Proposisi universal<br>• Entimem: Silogisme dengan premis implisit"
-    },
-    "hints": {
-      "concept": "Formula standar entimem: Konklusi + karena + Premis Minor.",
-      "execution": "Konklusi: Kitab Babad 33 butuh restorasi mikrolaminasi. Alasan: karena naskah kuno teroksidasi asam."
-    },
-    "explanation": "Entimem adalah silogisme yang dipadatkan dengan menggabungkan konklusi dan premis minor menggunakan konjungsi kausalitas ('karena'), sementara premis mayor yang bersifat umum diandaikan telah dipahami bersama.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-34",
-    "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
-      },
-      {
-        "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
-      },
-      {
-        "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
-      },
-      {
-        "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "ANALISIS WACANA KRITIS (CDA)",
-      "latex": "\\text{Diksi Selektif} + \\text{Modalitas Dominan} = \\text{Bias Tekstual}",
-      "legend": "• Sudut pandang jurnalisme advokasi vs independen<br>• Framing realitas sosial"
-    },
-    "hints": {
-      "concept": "Leksikon emotif digunakan dalam framing wacana untuk menanamkan bias afektif pada pembaca.",
-      "execution": "Evaluasi apakah kata 'ratapan' merupakan data faktual objektif ataukah muatan subjektif penutur."
-    },
-    "explanation": "Diksi peyoratif 'secara tergesa-gesa' dan leksikon dramatis 'ratapan' adalah instrumen wacana afektif untuk menggugah simpati emosional audiens dan mendelegitimasi rasionalitas kebijakan publik pemerintah.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "ind_lanjut-lat-h-35",
-    "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
-      },
-      {
-        "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
-      },
-      {
-        "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
-      },
-      {
-        "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
-      }
-    ],
-    "correctKey": "B",
-    "formulaHud": {
-      "title": "HERMENEUTIKA & SEMIOTIKA SASTRA",
-      "latex": "\\text{Signifier (Penanda)} \\leftrightarrow \\text{Signified (Petanda Sastra)}",
-      "legend": "• Konflik batin eksistensial tokoh<br>• Ironi dramatik dan majas metaforis berlapistanda"
-    },
-    "hints": {
-      "concept": "Semiotika sastra mengartikulasikan anomali fisik sebagai penanda kondisi mental tokoh fiksi.",
-      "execution": "Hubungkan motif visual waktu terbalik dengan tema eksistensialisme yang sarat alienasi."
-    },
-    "explanation": "Dalam kritik sastra modern, distorsi objek konkret (jarum jam berputar terbalik) berfungsi sebagai metafora psikologis penanda disorientasi batin, keterasingan (alienasi), dan resistensi bawah sadar terhadap kepastian mortalitas.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
     "id": "ind_lanjut-sim-01",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 076] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-02",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 077] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-03",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 3 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 078] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 3 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 3."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 3 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 3 pasti tergolong manuskrip modern."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-04",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 079] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       }
     ],
     "correctKey": "B",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-05",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 080] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-06",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 081] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-07",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 082] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-08",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 083] Kutipan telaah #83: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-09",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 9 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 084] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 9 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 9."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 9 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 9 pasti tergolong manuskrip modern."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-10",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 085] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-11",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 086] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       }
     ],
     "correctKey": "B",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci B terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-12",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 087] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-13",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 088] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-14",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 089] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-15",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 15 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 090] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 15 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 15."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 15 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 15 pasti tergolong manuskrip modern."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-16",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 091] Dalam telaah stilistika komparatif terhadap puisi Chairil Anwar dan Taufiq Ismail, diksi yang digunakan pada masa revolusi kemerdekaan cenderung bertendensi...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66<br>• Kunci C terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-17",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Dekonstruksi Tokoh Antagonis dalam Cerpen Realis",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 092] Sebuah cerpen posmodernis menggambarkan tokoh koruptor bukan sebagai monster moral seutuhnya, melainkan korban sistemik dari patronase feodal. Pendekatan narasi ini bertujuan untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekonstruksi Tokoh Antagonis dalam Cerpen Realis<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-18",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Resensi Kritis dan Evaluasi Nilai Kebaruan Novel",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 093] Kutipan telaah #93: <em>'Meskipun penulis mengklaim karyanya mengangkat tema disrupsi digital, alur plot yang dibangun sesungguhnya hanyalah daur ulang klise romansa remaja.'</em> Fokus evaluasi resensator adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Resensi Kritis dan Evaluasi Nilai Kebaruan Novel<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-19",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Fungsi Alusi Sejarah dalam Drama Surealis",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 094] Pementasan naskah drama kontemporer menyisipkan nama tokoh Perang Bubat dalam setting ruang angkasa modern. Penggunaan teknik alusi anakronistis ini berfungsi secara simbolik untuk...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Fungsi Alusi Sejarah dalam Drama Surealis<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-20",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
+    "topic": "Ironi Dramatis dalam Epilog Karya Prosa",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "questionHtml": "[Nomor 095] Dalam sebuah novel, pembaca mengetahui sejak bab awal bahwa surat wasiat yang dicari-cari keluarga sesungguhnya sudah musnah terbakar, sementara para tokoh saling menjatuhkan untuk memperebutkannya. Efek estetis dari ironi dramatis ini adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ironi Dramatis dalam Epilog Karya Prosa<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-21",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
+    "topic": "Ambiguitas Gramatikal dalam Tajuk Rencana",
     "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 21 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "questionHtml": "[Nomor 096] Judul tajuk rencana: <em>'Kementerian Hukum Menyerahkan Berkas Dugaan Korupsi Pegawai Negeri Baru.'</em> Frasa <strong>'Pegawai Negeri Baru'</strong> menimbulkan ketaksaan (ambiguitas) makna karena...",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 21 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 21."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 21 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 21 pasti tergolong manuskrip modern."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Ambiguitas Gramatikal dalam Tajuk Rencana<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-22",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
+    "topic": "Implikatur Percakapan dalam Sidang Kebijakan",
     "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "questionHtml": "[Nomor 097] Ketika ditanya anggota dewan apakah target swasembada pangan tercapai tahun ini, menteri menjawab: <em>'Curah hujan tahun ini melampaui rata-rata historis selama lima puluh tahun terakhir.'</em> Implikatur percakapan dari jawaban menteri tersebut adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Implikatur Percakapan dalam Sidang Kebijakan<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-23",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
+    "topic": "Dekomposisi Medan Makna Leksikon Emosi",
     "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "questionHtml": "[Nomor 098] Pasangan kata <em>'cemas'</em>, <em>'khawatir'</em>, <em>'gundah'</em>, dan <em>'panik'</em> berada dalam satu medan makna emosi ketakutan. Komponen makna pembeda yang secara tegas menandai kata <strong>'panik'</strong> adalah...",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Dekomposisi Medan Makna Leksikon Emosi<br>• Kunci D terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-24",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
+    "topic": "Pergeseran Makna Peyorasi di Media Sosial",
     "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "questionHtml": "[Nomor 099] Kata <em>'oknum'</em> yang dalam bahasa aslinya bermakna netral ('pribadi atau anasir') kini mengalami peyorasi tajam dalam wacana publik karena...",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Pergeseran Makna Peyorasi di Media Sosial<br>• Kunci A terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-25",
     "subject": "ind_lanjut",
-    "materi": "TEKS AKADEMIK & KARYA ILMIAH",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Sintesis Kajian Pustaka & Sitasi APA 7th",
+    "topic": "Tindak Tutur Deklaratif Pejabat Publik",
     "type": "mcq",
-    "questionHtml": "Perhatikan kutipan kajian pustaka berikut:<br><em>'Penerapan kecerdasan buatan dalam asesmen formatif terbukti meningkatkan retensi memori jangka panjang hingga 24% (Pratama &amp; Santoso, 2023, hlm. 45). Kendati demikian, adopsi teknologi tanpa pelatihan pedagogis guru berisiko memicu ketergantungan kognitif siswa.'</em><br>Teknik integrasi sintesis yang paling tepat untuk menyambungkan argumen di atas dengan temuan kontras dari penelitian internasional adalah...",
+    "questionHtml": "[Nomor 100] Ucapan hakim ketua: <em>'Dengan ini sidang perkara perdata nomor 45 saya nyatakan resmi dibuka untuk umum.'</em> Berdasarkan teori tindak tutur Searle, tuturan tersebut tergolong sebagai tindak...",
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan konjungsi antarkalimat antitesis seperti 'Sebaliknya, Smith (2024) menemukan bahwa...' untuk menyeimbangkan dialektika temuan."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "B",
-        "text": "Menghapus nama peneliti lokal agar format sitasi terlihat seragam dengan standar internasional."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "C",
-        "text": "Mengutip ulang kalimat kedua secara verbatim tanpa tanda petik."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "D",
-        "text": "Mengubah kalimat kedua menjadi kalimat tanya retoris tanpa rujukan empiris."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "E",
-        "text": "Menyusun simpulan deduktif tanpa mempertimbangkan batasan metodologis."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
+      "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
+      "legend": "• Materi: Tindak Tutur Deklaratif Pejabat Publik<br>• Kunci E terverifikasi berdasarkan analisis stilistika dan semantik wacana."
+    },
+    "hints": {
+      "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
+      "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
+    },
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-26",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "EVALUASI VALIDITAS WACANA & LOGICAL FALLACY",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Identifikasi Logical Fallacy dalam Wacana Publik",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah debat publik mengenai transisi energi terbarukan, seorang panelis menyatakan:<br><em>'Jika kita menyetujui subsidi pembangkit listrik tenaga bayu sebesar 5% hari ini, maka dalam dua tahun seluruh industri manufaktur nasional akan kolaps dan masyarakat dipaksa kembali ke zaman batu.'</em><br>Kesesatan berpikir (logical fallacy) yang termanifestasi secara nyata dalam penalaran tersebut adalah...",
+    "topic": "Deteksi Kerancuan Berpikir dalam Debat Kebijakan",
+    "type": "multi",
+    "questionHtml": "Perhatikan teks pidato berikut:<br><em>'Jika kita mengizinkan regulasi kecerdasan buatan dilonggarkan sedikit saja, seluruh lapangan kerja intelektual manusia akan musnah dalam lima tahun, dan peradaban kita akan segera runtuh di bawah kendali mesin.'</em><br>Manakah DUA karakteristik kerancuan berpikir (logical fallacy) yang termuat dalam argumentasi tersebut? (Pilih DUA jawaban yang benar)",
     "options": [
       {
         "key": "A",
-        "text": "Ad Hominem (menyerang karakter pribadi pembicara)"
+        "text": "Slippery Slope (mengasumsikan satu langkah awal pasti memicu rangkaian bencana ekstrem tanpa bukti kausal)."
       },
       {
         "key": "B",
-        "text": "Slippery Slope (mengasumsikan efek domino kehancuran ekstrem tanpa bukti kausal)"
+        "text": "Appeal to False Authority (mengutip pendapat tokoh yang tidak memiliki kompetensi di bidang teknologi)."
       },
       {
         "key": "C",
-        "text": "Straw Man (membuat argumen tiruan yang mudah diserang)"
+        "text": "Hasty Generalization (menarik simpulan menyeluruh secara prematur dari sampel data yang terlalu sempit)."
       },
       {
         "key": "D",
-        "text": "Circular Reasoning (penalaran melingkar)"
+        "text": "Appeal to Fear / Argumentum ad Baculum (memanipulasi kecemasan emosional audiens guna memaksakan simpulan)."
       },
       {
         "key": "E",
-        "text": "Appeal to Authority (klaim otoritas tanpa kompetensi)"
+        "text": "Circular Reasoning / Begging the Question (mengulang premis awal sebagai simpulan akhir tanpa argumen pendukung)."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "D"
+    ],
+    "formulaHud": {
+      "title": "TAKSONOMI LOGICAL FALLACY RETORIS",
+      "latex": "\\text{Premis Ekstrem} \\xrightarrow{\\text{Ketiadaan Bukti}} \\text{Kepanikan Publik (Ad Baculum / Slippery Slope)}",
+      "legend": "• Opsi A BENAR: Menuduh pelonggaran sedikit berujung kehancuran total peradaban<br>• Opsi D BENAR: Memakai retorika teror eksistensial"
+    },
+    "hints": {
+      "concept": "Cermati pengandaian berantai yang berlebihan dan penggunaan rasa takut.",
+      "execution": "Pilih opsi A dan D."
+    },
+    "explanation": "Argumentasi tersebut melakukan generalisasi berantai tanpa dasar empiris (Slippery Slope) dan memanfaatkan intimidasi emosional untuk memengaruhi pembaca (Appeal to Fear). Jawaban yang benar adalah A dan D.",
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-27",
     "subject": "ind_lanjut",
-    "materi": "LOGIKA & PENALARAN KRITIS",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Silogisme Kategoris & Entimem Deduktif",
-    "type": "mcq",
-    "questionHtml": "Diketahui silogisme kategoris:<br><strong>Premis Mayor:</strong> Semua naskah manuskrip kuno yang mengalami oksidasi asam memerlukan restorasi mikrolaminasi.<br><strong>Premis Minor:</strong> Kitab Babad 27 adalah naskah manuskrip kuno yang mengalami oksidasi asam.<br>Entimem ilmiah yang sah dan efektif berdasarkan silogisme di atas adalah...",
+    "topic": "Unsur Intrinsik & Gaya Bahasa Puisi Modern",
+    "type": "multi",
+    "questionHtml": "Cermati bait puisi berikut:<br><em>'Di atas meja perjamuan sunyi / Angin malam meneguk sisa cangkir waktu / Sementara jarum jam menatap nanar langkah kita yang terpaku.'</em><br>Manakah DUA majas dominan yang membentuk kekuatan imajinasi bait puisi di atas? (Pilih DUA jawaban yang benar)",
     "options": [
       {
         "key": "A",
-        "text": "Kitab Babad 27 memerlukan restorasi mikrolaminasi karena merupakan naskah manuskrip kuno yang mengalami oksidasi asam."
+        "text": "Personifikasi (memberikan watak dan tindakan insani pada benda mati seperti angin dan jarum jam)."
       },
       {
         "key": "B",
-        "text": "Semua naskah kuno harus direstorasi agar menjadi seperti Kitab Babad 27."
+        "text": "Litotes (merendahkan diri secara santun untuk memperhalus ekspresi keputusasaan penulis)."
       },
       {
         "key": "C",
-        "text": "Kitab Babad 27 mengalami oksidasi sehingga semua manuskrip kuno harus dilaminasi."
+        "text": "Metafora (membandingkan konsep abstrak 'cangkir waktu' secara analogis langsung tanpa kata pembanding)."
       },
       {
         "key": "D",
-        "text": "Karena memerlukan restorasi, Kitab Babad 27 pasti tergolong manuskrip modern."
+        "text": "Hiperbola (melebih-lebihkan kenyataan fisik secara masif hingga melampaui batas rasionalitas)."
       },
       {
         "key": "E",
-        "text": "Restorasi mikrolaminasi dilakukan karena tidak semua naskah kuno rusak."
+        "text": "Pleonasme (menggunakan kata-kata mubazir yang maknanya sudah terkandung pada kata sebelumnya)."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STILISTIKA MAJAS SASTRA",
+      "latex": "\\text{Personifikasi:} \\; \\text{Benda Mati} \\to \\text{Perilaku Insani}; \\quad \\text{Metafora:} \\; A = B \\; (\\text{Tanpa Kata 'Seperti'})",
+      "legend": "• 'Angin meneguk' & 'Jarum jam menatap' = Personifikasi (A)<br>• 'Cangkir waktu' = Metafora (C)"
+    },
+    "hints": {
+      "concept": "Perhatikan frasa 'angin meneguk' dan 'cangkir waktu'.",
+      "execution": "Pilih A dan C."
+    },
+    "explanation": "Frasa 'angin malam meneguk' dan 'jarum jam menatap' menyematkan sifat manusiawi pada entitas tak bernyawa (Personifikasi). Frasa 'cangkir waktu' memadankan waktu dengan wadah cangkir secara langsung (Metafora). Kunci: A dan C.",
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-28",
     "subject": "ind_lanjut",
-    "materi": "EVALUASI KEBIJAKAN PUBLIK",
+    "materi": "MORFOSINTAKSIS & KLAUSA KOMPLEKS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Deteksi Bias Ideologis & Keberpihakan Media",
-    "type": "mcq",
-    "questionHtml": "Cermati petikan tajuk rencana surat kabar:<br><em>'Pemerintah secara tergesa-gesa memberlakukan skema tarif karbon baru tanpa mendengarkan ratapan pelaku usaha kecil di daerah pelosok.'</em><br>Analisis kritis terhadap penggunaan frasa 'secara tergesa-gesa' dan 'ratapan pelaku usaha kecil' menunjukkan bahwa redaksi...",
+    "topic": "Kalimat Majemuk dan Pola Perluasan Subjek",
+    "type": "multi",
+    "questionHtml": "Perhatikan kalimat berikut:<br><em>'Mahasiswa berprestasi yang berhasil merancang reaktor fusi mini di laboratorium terpadu universitas itu menolak tawaran beasiswa dari korporasi multinasional demi mengabdi di tanah kelahirannya.'</em><br>Manakah TIGA unsur konstituen sintaksis yang benar dari kalimat majemuk di atas? (Pilih TIGA jawaban yang benar)",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan netralitas jurnalistik berbasis data kuantitatif yang ketat."
+        "text": "Bagian 'Mahasiswa berprestasi yang berhasil merancang reaktor fusi mini di laboratorium terpadu universitas itu' menduduki fungsi Subjek Kompleks."
       },
       {
         "key": "B",
-        "text": "Menggunakan leksikon bermuatan emosional (emotive language) untuk mengarahkan opini publik agar beroposisi terhadap kebijakan tersebut."
+        "text": "Kata kerja transitif 'menolak' berfungsi sebagai Predikat inti kalimat tunggal dasar."
       },
       {
         "key": "C",
-        "text": "Menjelaskan mekanisme kalkulasi kredit karbon secara proporsional."
+        "text": "Frasa 'tawaran beasiswa dari korporasi multinasional' berfungsi sebagai Objek langsung."
       },
       {
         "key": "D",
-        "text": "Menghindari bias afektif demi menjaga keseimbangan jurnalisme investigasi."
+        "text": "Klausa 'demi mengabdi di tanah kelahirannya' berfungsi sebagai Pelengkap yang wajib hadir."
       },
       {
         "key": "E",
-        "text": "Menerapkan gaya bahasa ilmiah murni tanpa unsur retorika persuasif."
+        "text": "Kata 'laboratorium terpadu' menduduki fungsi Keterangan Waktu lampau."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "B",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "STRUKTUR SINTAKSIS KLAUSA KOMPLEKS",
+      "latex": "S_{\\text{kompleks}} + P_{\\text{transitif}} + O_{\\text{langsung}} + K_{\\text{tujuan}}",
+      "legend": "• S: Mahasiswa... itu<br>• P: menolak<br>• O: tawaran beasiswa...<br>• K (bukan Pelengkap): demi mengabdi..."
+    },
+    "hints": {
+      "concept": "Uji jabatan sintaksis S-P-O-K dan bedakan Keterangan dengan Pelengkap.",
+      "execution": "Pilih A, B, dan C."
+    },
+    "explanation": "Subjek adalah klausa terikat pewatas (A benar). Predikat inti adalah 'menolak' (B benar). Objek penderita adalah 'tawaran beasiswa...' (C benar). Klausa 'demi mengabdi...' adalah Keterangan Tujuan, bukan Pelengkap (D salah). Kunci: A, B, C.",
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-29",
     "subject": "ind_lanjut",
-    "materi": "KRITIK SASTRA LANJUTAN",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Stilistika & Dekonstruksi Karakter Fiksi Realis",
-    "type": "mcq",
-    "questionHtml": "Dalam sebuah cerpen bertema eksistensialis, tokoh utama terus-menerus menatap jam dinding yang jarum detiknya bergerak berlawanan arah. Fungsi simbolik dari detail stilistika tersebut terhadap konstruksi tematik karya adalah...",
+    "topic": "Makna Konotatif, Asosiatif, dan Tabu Bahasa",
+    "type": "multi",
+    "questionHtml": "Dalam analisis sosiolinguistik dan semantik terapan, variasi bahasa dipengaruhi oleh fungsi sosial dan relasi kuasa. Manakah DUA pasangan kata berikut yang memperlihatkan relasi eufemisme (penghalusan kata) bermuatan politis/institusional? (Pilih DUA jawaban yang benar)",
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan kerusakan mekanis peralatan rumah tangga tokoh."
+        "text": "'Penyesuaian tarif' digunakan untuk menggantikan frasa 'kenaikan harga'."
       },
       {
         "key": "B",
-        "text": "Merefleksikan alienasi psikologis tokoh dan penolakannya terhadap linearitas waktu yang membelenggu hidupnya."
+        "text": "'Murid' digunakan untuk mempertegas kedudukan kata 'pelajar mandiri'."
       },
       {
         "key": "C",
-        "text": "Memberikan petunjuk latar tempat di sebuah bengkel reparasi arloji."
+        "text": "'Pemusatan tenaga kerja' digunakan sebagai pengganti istilah 'perekrutan terbuka'."
       },
       {
         "key": "D",
-        "text": "Menandai pergantian babak naratif dari alur maju menjadi alur sorot balik murni."
+        "text": "'Pelepasan hak aset' dipakai untuk menghaluskan tindakan 'penyitaan paksa'."
       },
       {
         "key": "E",
-        "text": "Menegaskan status sosial ekonomi tokoh utama sebagai aristokrat lama."
+        "text": "'Cetak biru' dipakai untuk melambangkan konsep 'sketsa konstruksi'."
       }
     ],
-    "correctKey": "B",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "D"
+    ],
+    "formulaHud": {
+      "title": "PRAGMATIK EUFEMISME & RELASI KUASA",
+      "latex": "\\text{Istilah Keras (Tabu/Protes)} \\xrightarrow{\\text{Eufemisme}} \\text{Istilah Netral/Halus (Hegemoni Wacana)}",
+      "legend": "• 'Penyesuaian tarif' (A) dan 'Pelepasan hak aset' (D) adalah contoh klasik eufemisme administratif."
+    },
+    "hints": {
+      "concept": "Cari istilah yang memperhalus fakta kontroversial.",
+      "execution": "Pilih A dan D."
+    },
+    "explanation": "Eufemisme digunakan untuk mengurangi resistensi publik atas kebijakan kontroversial: 'penyesuaian tarif' menghaluskan kenaikan harga (A), dan 'pelepasan hak' memperhalus penyitaan (D). Kunci: A dan D.",
+    "isSimulation": true
   },
   {
     "id": "ind_lanjut-sim-30",
     "subject": "ind_lanjut",
-    "materi": "KEBAHASAAN TINGKAT TINGGI",
+    "materi": "ANALISIS KOHESI & KOHERENSI WACANA",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Pencegahan Kerancuan Kalimat Majemuk Bertingkat",
-    "type": "mcq",
-    "questionHtml": "Kalimat berikut mengandung kesalahan struktur sintaksis yang merusak keefektifan kalimat akademik:<br><em>'Berdasarkan hasil survei ketahanan pangan nasional membuktikan bahwa ketersediaan beras di tingkat lumbung desa masih mencukupi.'</em><br>Perbaikan yang tepat agar kalimat tersebut memiliki subjek dan predikat yang gramatikal adalah...",
+    "topic": "Substitusi, Elipsis, dan Penanda Wacana Antarkalimat",
+    "type": "multi",
+    "questionHtml": "Cermati paragraf berikut:<br><em>'(1) Tingkat literasi sains generasi muda Indonesia kerap disorot dalam berbagai survei global. (2) Namun demikian, indikator tersebut tidak boleh dimaknai sebagai kegagalan mutlak kurikulum nasional. (3) Justru sebaliknya, anomali ini harus dijadikan pijakan evaluasi mendalam. (4) Guru dan pembuat kebijakan perlu bersinergi mereorientasi metode pedagogis di ruang kelas.'</em><br>Manakah DUA pernyataan yang tepat mengenai peranti kohesi dan koherensi pada paragraf di atas? (Pilih DUA jawaban yang benar)",
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan preposisi 'Berdasarkan' di awal kalimat sehingga 'Hasil survei ketahanan pangan nasional' berfungsi sebagai subjek."
+        "text": "Frasa 'Namun demikian' pada kalimat (2) berperan sebagai konjungsi antarkalimat penanda pertentangan."
       },
       {
         "key": "B",
-        "text": "Mengganti kata 'membuktikan' dengan kata 'menunjukkan bukti'."
+        "text": "Frasa 'anomali ini' pada kalimat (3) merupakan penanda kohesi leksikal pembuktian matematis."
       },
       {
         "key": "C",
-        "text": "Menambahkan kata 'telah' di depan kata 'membuktikan'."
+        "text": "Frasa 'anomali ini' pada kalimat (3) berfungsi sebagai peranti kohesi gramatikal demonstratif anaforis yang mengacu pada kalimat sebelumnya."
       },
       {
         "key": "D",
-        "text": "Meletakkan tanda koma tepat setelah kata 'bahwa'."
+        "text": "Hubungan antara kalimat (3) dan kalimat (4) bersifat subordinatif pengandaian kondisional bersyarat."
       },
       {
         "key": "E",
-        "text": "Mengubah kata kerja aktif 'membuktikan' menjadi bentuk pasif 'dibuktikan oleh'."
+        "text": "Kalimat (1) dan (2) dihubungkan oleh piranti elipsis nomina subjek mutlak tanpa predikat."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "PIRANTI KOHESI GRAMATIKAL",
+      "latex": "\\text{Anaforis:} \\; \\text{Rujukan merujuk ke belakang}; \\quad \\text{Konjungsi Antarkalimat:} \\; \\text{Menghubungkan dua proposisi utuh}",
+      "legend": "• 'Namun demikian' = konjungsi antarkalimat pertentangan (A)<br>• 'Anomali ini' = demonstratif anaforis mengacu ke kalimat (1) dan (2) (C)"
+    },
+    "hints": {
+      "concept": "Identifikasi konjungsi antarkalimat dan fungsi pronomina demonstratif 'ini'.",
+      "execution": "Pilih A dan C."
+    },
+    "explanation": "'Namun demikian' adalah konjungsi antarkalimat penanda pertentangan yang sah (A). 'Anomali ini' adalah kohesi gramatikal demonstratif anaforis yang merujuk pada temuan di kalimat sebelumnya (C). Kunci: A dan C.",
+    "isSimulation": true
+  },
+  {
+    "id": "ind_lanjut-sim-31",
+    "subject": "ind_lanjut",
+    "materi": "EVALUASI VALIDITAS WACANA & LOGICAL FALLACY",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Evaluasi Validitas Argumen Akademik",
+    "type": "matrix",
+    "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan berikut terkait kaidah penalaran logis dan kritik wacana ilmiah!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Sebuah argumen deduktif yang valid secara formal dapat memiliki kesimpulan yang faktual salah jika salah satu premis dasarnya tidak benar.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Argumen ad hominem adalah teknik penalaran ilmiah yang sah asalkan menyerang motif pribadi lawan bicara secara santun dan terukur.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Korelasi statistik yang kuat antara dua variabel secara otomatis membuktikan adanya hubungan sebab-akibat (kausalitas) langsung tanpa perlu pengujian variabel perantara.",
+        "correct": "Salah"
+      },
+      {
+        "id": "3",
+        "text": "Dalam metodologi kritik sastra poskolonial, teks sastra dianalisis untuk membongkar hegemoni wacana kolonial dan prasangka rasial terselubung.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "MATRIKS VALIDITAS LOGIKA & KRITIK SASTRA",
+      "latex": "\\text{Validitas Bentuk} \\neq \\text{Kebenaran Faktual}; \\quad \\text{Korelasi} \\neq \\text{Kausalitas}",
+      "legend": "• 1: Benar (Validitas deduksi hanya menjamin struktur)<br>• 2: Salah (Ad hominem adalah kecacatan logika mutlak)<br>• 3: Salah (Cum hoc ergo propter hoc fallacy)<br>• 4: Benar (Definisi kritik poskolonial Said/Spivak)"
+    },
+    "hints": {
+      "concept": "Pahami perbedaan validitas dan kebenaran, logical fallacy, dan metodologi sastra.",
+      "execution": "0: Benar, 1: Salah, 2: Salah, 3: Benar."
+    },
+    "explanation": "Pernyataan 1 Benar (validitas logika deduktif berbeda dari kebenaran isi empiris). Pernyataan 2 Salah (ad hominem selalu cacat logika). Pernyataan 3 Salah (korelasi bukan pembuktian kausalitas mutlak). Pernyataan 4 Benar (definisi kajian poskolonial). Kunci: Benar, Salah, Salah, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "ind_lanjut-sim-32",
+    "subject": "ind_lanjut",
+    "materi": "MORFOSINTAKSIS & KLAUSA KOMPLEKS",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Kaidah Kalimat Efektif dan Transformasi Klausa",
+    "type": "matrix",
+    "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan berikut mengenai kaidah tata bahasa baku bahasa Indonesia!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Konjungsi intrakalimat 'sehingga' dan 'karena' tidak boleh digunakan mengawali kalimat tunggal tanpa klausa utama yang mendampinginya.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Kalimat 'Kepada seluruh peserta seminar diharapkan menempati kursi yang telah disediakan' sudah memenuhi syarat ketat kalimat efektif berpredikat tunggal.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Verba pasif berawalan 'di-' seperti 'dianalisis' ditulis serangkai, sedangkan kata depan 'di' penunjuk arah/tempat seperti 'di laboratorium' ditulis terpisah.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Klausa relatif yang diawali kata penghubung 'di mana' sah digunakan secara luas dalam ragam formal ilmiah untuk menerangkan nomina abstrak selain tempat fisik.",
+        "correct": "Salah"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": false
+    },
+    "formulaHud": {
+      "title": "STANDAR BAKU KALIMAT EFEKTIF EYD V",
+      "latex": "\\text{Pola Kalimat Sah:} \\; S + P + (O) + (K); \\quad \\text{'Di mana'} \\implies \\text{Hanya untuk Lokasi Fisik}",
+      "legend": "• 0: Benar ('sehingga' intrakalimat)<br>• 1: Salah (Kehilangan subjek akibat preposisi 'Kepada')<br>• 2: Benar (Aturan spasi 'di')<br>• 3: Salah (Interferensi bahasa Inggris 'where/in which')"
+    },
+    "hints": {
+      "concept": "Cermati kaidah subjek berpreposisi dan pemakaian 'di mana'.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Salah."
+    },
+    "explanation": "Pernyataan 0 Benar. Pernyataan 1 Salah karena subjek menjadi kabur akibat preposisi 'kepada'. Pernyataan 2 Benar sesuai EYD V. Pernyataan 3 Salah karena pemakaian 'di mana' di luar lokasi fisik adalah kesalahan interferensi asing. Kunci: Benar, Salah, Benar, Salah.",
+    "isSimulation": true
+  },
+  {
+    "id": "ind_lanjut-sim-33",
+    "subject": "ind_lanjut",
+    "materi": "SEMANTIK & PRAGMATIK KONTEMPORER",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Dimensi Semantik dan Perubahan Makna Kata",
+    "type": "matrix",
+    "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan berikut terkait teori perubahan makna dan relasi leksikal dalam linguistik!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Generalisasi (perluasan makna) terjadi ketika kata 'bapak' yang semula bermakna biologis meluas menjadi sebutan penghormatan bagi pria yang lebih tua atau berkedudukan tinggi.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Peyorasi merupakan pergeseran makna suatu kata menjadi dirasakan lebih terhormat, halus, dan berkonotasi positif dibanding makna aslinya.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Sinestesia adalah pergeseran makna yang timbul akibat pertukaran tanggapan antara dua indra manusia yang berbeda, seperti dalam frasa 'kata-katanya sangat pedas'.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Homonim adalah kata-kata yang memiliki bentuk ejaan dan lafal yang persis sama tetapi berasal dari asal-usul etimologi dan makna yang sepenuhnya berbeda.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "TAKSONOMI PERUBAHAN MAKNA LINGUISTIK",
+      "latex": "\\text{Peyorasi} \\implies \\text{Pergeseran Makna Menjadi Lebih Rendah / Negatif}",
+      "legend": "• 0: Benar (Generalisasi kata 'bapak')<br>• 1: Salah (Itu definisi Ameliorasi, bukan Peyorasi)<br>• 2: Benar (Pedas [pengecap] dipakai untuk kata [pendengaran])<br>• 3: Benar (Definisi baku homonim)"
+    },
+    "hints": {
+      "concept": "Bedakan peyorasi dengan ameliorasi.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Pernyataan 1 Salah karena pergeseran makna ke arah yang lebih positif disebut ameliorasi; peyorasi justru mengarah ke konotasi negatif. Pernyataan 0, 2, dan 3 semuanya benar. Kunci: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "ind_lanjut-sim-34",
+    "subject": "ind_lanjut",
+    "materi": "ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Pendekatan Kritik Sastra & Teori Resepsi",
+    "type": "matrix",
+    "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan berikut terkait pendekatan dalam kritik sastra akademik!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Pendekatan mimetik memandang karya sastra sebagai tiruan, cerminan, atau representasi dari realitas kehidupan masyarakat nyata.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Kritik sastra formalisme Rusia berfokus penuh pada riwayat biografi psikologis pengarang dan latar belakang ekonomi penciptaan karya.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Teori resepsi sastra (Hans Robert Jauss) menempatkan pembaca sebagai subjek aktif yang menentukan konkretisasi dan pemaknaan karya sastra.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Pendekatan pragmatik dalam kritik sastra menilai karya sastra berdasarkan keberhasilannya mencapai tujuan moral, didaktis, atau edukatif bagi pembaca.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "EMPAT PENDEKATAN KRITIK SASTRA M.H. ABRAMS",
+      "latex": "\\text{Mimetik (Alam/Realitas)}, \\; \\text{Ekspresif (Pengarang)}, \\; \\text{Objektif/Formalis (Teks Otonom)}, \\; \\text{Pragmatik (Pembaca)}",
+      "legend": "• 0: Benar (Mimetik murni)<br>• 1: Salah (Formalisme justru menolak biografi dan murni membedah bentuk teks)<br>• 2: Benar (Horizon harapan pembaca Jauss)<br>• 3: Benar (Fungsi pragmatis didaktis)"
+    },
+    "hints": {
+      "concept": "Ingat prinsip formalisme: otonomi teks tanpa biografi pengarang.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Formalisme membedah struktur internal teks dan menolak telaah biografi pengarang (Pernyataan 1 Salah). Pernyataan 0, 2, dan 3 adalah prinsip mapan dalam teori sastra. Kunci: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "ind_lanjut-sim-35",
+    "subject": "ind_lanjut",
+    "materi": "ANALISIS KOHESI & KOHERENSI WACANA",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Struktur Paragraf Deduktif-Induktif dan Gagasan Pokok",
+    "type": "matrix",
+    "questionHtml": "Tentukan kebenaran dari masing-masing pernyataan berikut mengenai keterpaduan wacana paragraf ilmiah!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Sebuah paragraf deduktif menempatkan gagasan utama (ide pokok) pada awal paragraf yang kemudian dielaborasi oleh kalimat-kalimat penjelas.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Kohesi merujuk pada keterpaduan hubungan semantik makna antarbagian teks, sedangkan koherensi merujuk pada keterpaduan bentuk fisik kebahasaan lahiriah teks.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Pengulangan kata kunci (repetisi leksikal) yang dilakukan secara terukur berfungsi memperkuat kohesi dan menegaskan fokus pembahasan dalam artikel ilmiah.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Kalimat sumbang adalah kalimat yang secara gramatikal strukturnya sempurna namun membicarakan topik yang menyimpang dari gagasan pokok paragraf.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "PIRANTI TEKSTUAL: KOHESI VS KOHERENSI",
+      "latex": "\\mathbf{\\text{Kohesi:}} \\; \\text{Bentuk lahiriah (Konektor/Gramatikal)}; \\quad \\mathbf{\\text{Koherensi:}} \\; \\text{Pertalian batiniah makna (Semantik)}",
+      "legend": "• 0: Benar (Definisi deduktif)<br>• 1: Salah (Definisi tertukar antara kohesi dan koherensi)<br>• 2: Benar (Fungsi repetisi leksikal)<br>• 3: Benar (Definisi kalimat sumbang)"
+    },
+    "hints": {
+      "concept": "Periksa definisi kohesi (lahiriah) vs koherensi (makna batiniah).",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Pernyataan 1 Salah karena definisinya tertukar: kohesi adalah keterpaduan bentuk formal gramatikal lahiriah, sedangkan koherensi adalah keterpaduan makna semantik batiniah. Pernyataan 0, 2, dan 3 benar. Kunci: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
   }
 ];

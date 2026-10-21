@@ -1,5645 +1,4908 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_ENG_LANJUT.JS (135 SOAL AUTENTIK)
- */
 window.TKA_ENG_LANJUT_QUESTIONS = [
   {
     "id": "eng_lanjut-lat-e-01",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In academic debate Case #001 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-02",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In multidisciplinary forum Case #002, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-03",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #3:",
+    "questionHtml": "Reviewing an essay collection Case #003, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-04",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In security memorandum Case #004, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-05",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "During legislative inquiry Case #005 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-06",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Analyze rhetorical excerpt Case #006: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-07",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Examine academic statement Case #007: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-08",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Compare standard prose with sentence Case #008: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-09",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #9:",
+    "questionHtml": "In academic monograph Case #009, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-10",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In treaty analysis Case #010, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-11",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In academic debate Case #011 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-12",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In multidisciplinary forum Case #012, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-13",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Reviewing an essay collection Case #013, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-14",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In security memorandum Case #014, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-15",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #15:",
+    "questionHtml": "During legislative inquiry Case #015 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-16",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "Analyze rhetorical excerpt Case #016: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-17",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Examine academic statement Case #017: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-18",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Compare standard prose with sentence Case #018: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-19",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In academic monograph Case #019, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-20",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In treaty analysis Case #020, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-21",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #21:",
+    "questionHtml": "In academic debate Case #021 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-22",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In multidisciplinary forum Case #022, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-23",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Reviewing an essay collection Case #023, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-24",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In security memorandum Case #024, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-e-25",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "During legislative inquiry Case #025 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-26",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-27",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #27:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-28",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-29",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-30",
-    "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
-    "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
-      },
-      {
-        "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
-      },
-      {
-        "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
-      },
-      {
-        "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
-      },
-      {
-        "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
-    },
-    "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
-    },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-31",
-    "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
-    "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
-      },
-      {
-        "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
-      },
-      {
-        "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
-      },
-      {
-        "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
-      },
-      {
-        "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
-    },
-    "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
-    },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-32",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-33",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #33:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-34",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-e-35",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "easy",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-01",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Analyze rhetorical excerpt Case #026: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-02",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Examine academic statement Case #027: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-03",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #3:",
+    "questionHtml": "Compare standard prose with sentence Case #028: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-04",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In academic monograph Case #029, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-05",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In treaty analysis Case #030, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-06",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In academic debate Case #031 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-07",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In multidisciplinary forum Case #032, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-08",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Reviewing an essay collection Case #033, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-09",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #9:",
+    "questionHtml": "In security memorandum Case #034, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-10",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "During legislative inquiry Case #035 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-11",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Analyze rhetorical excerpt Case #036: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-12",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Examine academic statement Case #037: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-13",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Compare standard prose with sentence Case #038: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-14",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In academic monograph Case #039, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-15",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #15:",
+    "questionHtml": "In treaty analysis Case #040, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-16",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In academic debate Case #041 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-17",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In multidisciplinary forum Case #042, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-18",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Reviewing an essay collection Case #043, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-19",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In security memorandum Case #044, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-20",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "During legislative inquiry Case #045 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-21",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #21:",
+    "questionHtml": "Analyze rhetorical excerpt Case #046: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-22",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "Examine academic statement Case #047: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-23",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Compare standard prose with sentence Case #048: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-24",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In academic monograph Case #049, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-m-25",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In treaty analysis Case #050, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-26",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-27",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #27:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-28",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-29",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-30",
-    "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
-    "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
-      },
-      {
-        "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
-      },
-      {
-        "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
-      },
-      {
-        "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
-      },
-      {
-        "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
-    },
-    "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
-    },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-31",
-    "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
-    "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
-      },
-      {
-        "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
-      },
-      {
-        "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
-      },
-      {
-        "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
-      },
-      {
-        "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
-    },
-    "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
-    },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-32",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-33",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #33:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-34",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-m-35",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-01",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In academic debate Case #051 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-02",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In multidisciplinary forum Case #052, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-03",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #3:",
+    "questionHtml": "Reviewing an essay collection Case #053, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-04",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In security memorandum Case #054, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-05",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "During legislative inquiry Case #055 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-06",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Analyze rhetorical excerpt Case #056: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-07",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Examine academic statement Case #057: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-08",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Compare standard prose with sentence Case #058: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-09",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #9:",
+    "questionHtml": "In academic monograph Case #059, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-10",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In treaty analysis Case #060, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-11",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In academic debate Case #061 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-12",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In multidisciplinary forum Case #062, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-13",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Reviewing an essay collection Case #063, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-14",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In security memorandum Case #064, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-15",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #15:",
+    "questionHtml": "During legislative inquiry Case #065 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-16",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "Analyze rhetorical excerpt Case #066: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-17",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Examine academic statement Case #067: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-18",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Compare standard prose with sentence Case #068: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-19",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In academic monograph Case #069, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-20",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In treaty analysis Case #070, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-21",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #21:",
+    "questionHtml": "In academic debate Case #071 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-22",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In multidisciplinary forum Case #072, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
     "correctKey": "A",
     "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-23",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Reviewing an essay collection Case #073, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-24",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In security memorandum Case #074, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-lat-h-25",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "latihan",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "During legislative inquiry Case #075 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
     },
     "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-26",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-27",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #27:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-28",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-29",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-30",
-    "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
-    "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
-      },
-      {
-        "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
-      },
-      {
-        "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
-      },
-      {
-        "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
-      },
-      {
-        "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "RHETORICAL SKEPTICISM",
-      "latex": "\\text{Premise Credibility} \\times \\text{Inferential Validity} = \\text{Soundness}",
-      "legend": "• Unwarranted generalization vs grounded evidence<br>• Causal fallacies in longitudinal findings"
-    },
-    "hints": {
-      "concept": "Rigorous scientific inference demands distinguishing subjective perception from clinical causation.",
-      "execution": "Select the option that articulates the conflation of subjective symptoms with clinical cure."
-    },
-    "explanation": "The whitepaper makes an unwarranted causal leap from subjective self-reported vitality to an absolute curative claim ('definitive cure'), ignoring placebo effects, control groups, and confounding physiological variables.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-31",
-    "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
-    "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
-      },
-      {
-        "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
-      },
-      {
-        "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
-      },
-      {
-        "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
-      },
-      {
-        "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC DIALECTIC SYNTHESIS",
-      "latex": "\\text{Thesis } A \\iff \\text{Antithesis } B \\implies \\text{Integrated Synthesis}",
-      "legend": "• Cross-evaluating empirical discrepancies<br>• Synthesizing polarized academic standpoints"
-    },
-    "hints": {
-      "concept": "Synthesis integrates thesis and antithesis into a higher-order conditional consensus.",
-      "execution": "Option A captures both the densification imperative and the green infrastructure requirement."
-    },
-    "explanation": "A valid academic synthesis does not cancel out either premise; it synthesizes the necessity of densification (Text A) conditioned upon the mitigation of thermal and health vulnerabilities via biophilic design (Text B).",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-32",
-    "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
-    "options": [
-      {
-        "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
-      },
-      {
-        "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
-      },
-      {
-        "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
-      },
-      {
-        "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
-      },
-      {
-        "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "EPISTEMIC MODALITY & ATTITUDE",
-      "latex": "\\text{Authorial Stance} \\in \\{\\text{Skeptical}, \\text{Ambivalent}, \\text{Laudatory}, \\text{Derisive}\\}",
-      "legend": "• Detecting subtle semantic irony<br>• Evaluative adjectives and hedging modifiers"
-    },
-    "hints": {
-      "concept": "Look for evaluative qualifiers that modulate claim strength from certainty to cautious doubt.",
-      "execution": "Contrast the proponents' belief ('panacea') with the author's counter-claim ('fragile at best')."
-    },
-    "explanation": "The contrastive markers ('however', 'sober inspection') coupled with reductive hedging ('fragile at best', 'easily outflanked') demonstrate that the author views the tech with calculated skepticism, debunking the proponents' hyperbolic optimism.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-33",
-    "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #33:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
-      },
-      {
-        "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
-      },
-      {
-        "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "FORMAL INVERSION PATTERNS",
-      "latex": "\\text{Negative Adverbial} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
-      "legend": "• Seldom / Rarely / Under no circumstances<br>• Inverted conditionals: Had he known... / Were it not for..."
-    },
-    "hints": {
-      "concept": "Negative adverbial at sentence inception requires fronting the auxiliary verb before the subject noun phrase.",
-      "execution": "Identify option A where auxiliary 'have' precedes the plural subject 'longitudinal studies'."
-    },
-    "explanation": "When restrictive or negative adverbials such as 'Rarely', 'Seldom', or 'Under no circumstances' front a clause for rhetorical emphasis, subject-auxiliary inversion is mandatory ('Rarely have [aux] longitudinal studies [subj] demonstrated [verb]').",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-34",
-    "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
-      },
-      {
-        "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
-      },
-      {
-        "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
-      },
-      {
-        "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
-      },
-      {
-        "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "DISCOURSE TRANSITION MECHANICS",
-      "latex": "\\text{Clause } 1 + \\{\\text{Notwithstanding}, \\text{Albeit}, \\text{Conversely}\\} + \\text{Clause } 2",
-      "legend": "• Notwithstanding: Despite / Regardless of<br>• Albeit: Even though / Adverbial concession"
-    },
-    "hints": {
-      "concept": "'Notwithstanding' operates primarily with noun phrase complements to introduce a concession.",
-      "execution": "Verify that option A introduces a barrier that did not prevent the positive outcome."
-    },
-    "explanation": "'Notwithstanding' functions as a preposition meaning 'in spite of' / 'despite' and must be followed by a noun phrase ('the formidable computational bottlenecks...'). Option A executes this concessive syntactic relationship flawlessly.",
-    "isDiagnostic": false
-  },
-  {
-    "id": "eng_lanjut-lat-h-35",
-    "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
-    "options": [
-      {
-        "key": "A",
-        "text": "sought to attenuate the divergence between"
-      },
-      {
-        "key": "B",
-        "text": "looked into making little the distance across"
-      },
-      {
-        "key": "C",
-        "text": "aimed at downplaying the big splits of"
-      },
-      {
-        "key": "D",
-        "text": "wanted to shrink the spaces of"
-      },
-      {
-        "key": "E",
-        "text": "struggled to cut down the gaps in"
-      }
-    ],
-    "correctKey": "A",
-    "formulaHud": {
-      "title": "ACADEMIC LEXICAL REPERTOIRE",
-      "latex": "\\text{Register Specificity} \\implies \\text{Precise Denotation} + \\text{Stylistic Fit}",
-      "legend": "• Mitigating ambiguities in peer-reviewed prose<br>• Nominalization and domain collocations"
-    },
-    "hints": {
-      "concept": "Nominalization and formal lexical selection elevate academic register (CEFR C1 standard).",
-      "execution": "Identify the option with 'attenuate' and 'divergence' representing precise analytical verbs/nouns."
-    },
-    "explanation": "'Sought to attenuate the divergence between' utilizes high-tier Academic Word List vocabulary: 'sought' (formal intent), 'attenuate' (systematically diminish intensity/contrast), and 'divergence' (rigorous term for conceptual discrepancy).",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
     "id": "eng_lanjut-sim-01",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Analyze rhetorical excerpt Case #076: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-02",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Examine academic statement Case #077: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-03",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #3:",
+    "questionHtml": "Compare standard prose with sentence Case #078: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-04",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In academic monograph Case #079, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-05",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In treaty analysis Case #080, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-06",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In academic debate Case #081 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-07",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In multidisciplinary forum Case #082, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-08",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "Reviewing an essay collection Case #083, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-09",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #9:",
+    "questionHtml": "In security memorandum Case #084, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-10",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "During legislative inquiry Case #085 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-11",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Analyze rhetorical excerpt Case #086: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-12",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Examine academic statement Case #087: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-13",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "Compare standard prose with sentence Case #088: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-14",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "In academic monograph Case #089, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-15",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #15:",
+    "questionHtml": "In treaty analysis Case #090, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-16",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Evaluating Opposing Empirical Claims in Cognitive Science",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "In academic debate Case #091 on neuroplasticity, Researcher Alpha asserts that structural synaptic remodeling ceases past adolescence, while Researcher Beta presents longitudinal fMRI evidence of cortical remapping in octogenarians. What critical methodological consideration must be resolved before reconciling these findings?",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Evaluating Opposing Empirical Claims in Cognitive Science<br>• Key (C) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-17",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Synthesizing Multidisciplinary Perspectives on Ecological Economics",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "In multidisciplinary forum Case #092, a neoclassical economist models carbon emissions via dynamic carbon tax equilibrium, whereas an ecological anthropologist demonstrates that indigenous land stewardship traditions achieve net-zero outcomes without monetary incentives. The primary conceptual incompatibility between these frameworks stems from...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Synthesizing Multidisciplinary Perspectives on Ecological Economics<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-18",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Discerning Sarcasm and Subversive Satire in Cultural Criticism",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "Reviewing an essay collection Case #093, the critic remarks: <em>'The chief executive magnanimously offers his employees five minutes of complimentary mindfulness meditation apps as a holistic remedy for seventy-hour uncompensated workweeks.'</em> The author's rhetorical stance is characterized by...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Discerning Sarcasm and Subversive Satire in Cultural Criticism<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-19",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Detecting Implicit Presuppositions in Foreign Policy Analysis",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In security memorandum Case #094, an editorial opens: <em>'The international coalition must decide when, rather than if, military deterrence should be escalated to safeguard global shipping corridors.'</em> The author's underlying rhetorical presupposition is that...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Detecting Implicit Presuppositions in Foreign Policy Analysis<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-20",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
+    "topic": "Analyzing Complex Fallacies in Parliamentary Debate",
     "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "questionHtml": "During legislative inquiry Case #095 on fiscal policy, a member contends: <em>'My colleague warns that sweeping tax cuts will deplete the national pension fund, but let us not forget that he was fined for a traffic violation twenty years ago.'</em> This rhetorical pivot constitutes...",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Analyzing Complex Fallacies in Parliamentary Debate<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-21",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
+    "topic": "Chiasmus and Antithesis in Landmark Inaugural Speeches",
     "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #21:",
+    "questionHtml": "Analyze rhetorical excerpt Case #096: <em>'Let us never negotiate out of fear, but let us never fear to negotiate.'</em> The syntactic structure and communicative power of this chiasmus derive from...",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Chiasmus and Antithesis in Landmark Inaugural Speeches<br>• Key (D) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-22",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
+    "topic": "Negative Inversion and Pragmatic Register",
     "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "questionHtml": "Examine academic statement Case #097: <em>'Seldom in the annals of pharmaceutical jurisprudence has a regulatory agency capitulated so precipitously to corporate lobbying pressure.'</em> What is the primary linguistic function of placing the negative adverb 'Seldom' in sentence-initial position?",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Negative Inversion and Pragmatic Register<br>• Key (E) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-23",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
+    "topic": "Cleft Sentences for Informational Salience",
     "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "questionHtml": "Compare standard prose with sentence Case #098: <em>'It was in 2021 that Dr. Aris discovered the enzyme mutation.'</em> The 'it-cleft' construction is rhetorically preferred in academic discourse when...",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       }
     ],
     "correctKey": "A",
-    "isDiagnostic": false
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Cleft Sentences for Informational Salience<br>• Key (A) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-24",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
+    "topic": "Semantic Prosody of High-Register Academic Verbs",
     "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "questionHtml": "In academic monograph Case #099, substituting the verb <em>'exacerbate'</em> for <em>'alter'</em> is essential when the author specifically intends to denote that...",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Semantic Prosody of High-Register Academic Verbs<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-25",
     "subject": "eng_lanjut",
-    "materi": "ADVANCED ACADEMIC SYNTHESIS",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Cross-Text Synthesis & Implicit Counter-Arguments",
+    "topic": "Pragmatic Polysemy of 'Sanction' in Diplomatic Charters",
     "type": "mcq",
-    "questionHtml": "Text A argues that urban densification is an indispensable prerequisite for achieving carbon neutrality. Text B cautions that without substantial green infrastructure, high density exacerbates urban heat islands and elevates respiratory morbidity.<br>Which synthesized statement reconciles both positions without cognitive distortion?",
+    "questionHtml": "In treaty analysis Case #100, determining whether the contranym <em>'to sanction'</em> denotes 'statutory authorization' or 'punitive economic embargo' depends strictly on...",
     "options": [
       {
         "key": "A",
-        "text": "Urban densification facilitates ecological sustainability only when coupled systematically with climate-adaptive biophilic infrastructure."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "B",
-        "text": "High urban density should be discontinued immediately to prevent respiratory ailments."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "C",
-        "text": "Carbon neutrality is mutually incompatible with metropolitan human habitation."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "D",
-        "text": "Green infrastructure renders urban density completely redundant for emissions targets."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "E",
-        "text": "Technological improvements in respiratory medicine will resolve urban emissions issues."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
+      "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
+      "legend": "• Focus: Pragmatic Polysemy of 'Sanction' in Diplomatic Charters<br>• Key (B) is substantiated through textual evidence and discourse cohesion."
+    },
+    "hints": {
+      "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
+      "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
+    },
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "isDiagnostic": false,
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-26",
     "subject": "eng_lanjut",
-    "materi": "AUTHORIAL STANCE & NUANCE",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Nuanced Stance, Tone & Irony in Expository Prose",
-    "type": "mcq",
-    "questionHtml": "Read the excerpt from an editorial on algorithmic copyright governance:<br><em>'Proponents enthusiastically hail automated watermarking as the panacea for intellectual theft; however, a sober inspection reveals a technology whose efficacy remains fragile at best, easily outflanked by trivial adversarial noise.'</em><br>The author's stance toward automated watermarking can best be characterized as...",
+    "topic": "Identification of Argumentative Flaws & Logical Fallacies",
+    "type": "multi",
+    "questionHtml": "Read the following policy statement:<br><em>'Any critic who expresses reservations regarding our nationwide biometric surveillance rollout clearly prioritizes the privacy of syndicated criminals over the fundamental physical safety of law-abiding children and families.'</em><br>Which TWO logical fallacies are prominently manifested in this argument? (Choose TWO correct answers)",
     "options": [
       {
         "key": "A",
-        "text": "Decidedly skeptical and tempered by realistic technical constraints."
+        "text": "False Dilemma / Either-Or Fallacy (reducing a complex public debate to two mutually exclusive extremes)."
       },
       {
         "key": "B",
-        "text": "Enthusiastically supportive of rapid cross-industry adoption."
+        "text": "Straw Man Fallacy (mischaracterizing legitimate privacy concerns as active collusion with violent criminals)."
       },
       {
         "key": "C",
-        "text": "Completely indifferent regarding the socio-legal outcomes."
+        "text": "Hasty Generalization (extrapolating global conclusions from a non-representative statistical sample)."
       },
       {
         "key": "D",
-        "text": "Hostile toward any copyright protection mechanisms whatsoever."
+        "text": "Post Hoc Ergo Propter Hoc (falsely attributing chronological sequence as direct physical causality)."
       },
       {
         "key": "E",
-        "text": "Solely concerned with industrial manufacturing costs."
+        "text": "Equivocation (exploiting ambiguous multiple definitions of a single technical term)."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "B"
+    ],
+    "formulaHud": {
+      "title": "TAXONOMY OF RHETORICAL FALLACIES",
+      "latex": "\\text{False Binary} \\; (P \\lor Q) \\; \\land \\; \\text{Straw Man Distortion} \\implies \\text{Invalid Deduction}",
+      "legend": "• A is CORRECT: Compelling a binary choice between safety and criminality<br>• B is CORRECT: Grossly distorting the critic's actual thesis"
+    },
+    "hints": {
+      "concept": "Look for extreme either/or polarization and misrepresentation of opposing views.",
+      "execution": "Select options A and B."
+    },
+    "explanation": "The speaker creates an artificial dichotomy (False Dilemma) and caricatures the opponent's legitimate regulatory concerns as pro-criminal complicity (Straw Man). Correct keys: A and B.",
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-27",
     "subject": "eng_lanjut",
-    "materi": "SYNTACTIC STRUCTURES (CEFR C1)",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Negative Inversion & Subjunctive Conditionals",
-    "type": "mcq",
-    "questionHtml": "Choose the grammatically impeccable sentence utilizing formal negative inversion suitable for peer-reviewed academic publication #27:",
+    "topic": "Inversion and Fronting for Emphatic Contrast",
+    "type": "multi",
+    "questionHtml": "Consider the following sentence written in formal academic register:<br><em>'Not until the third quarter of the seventeenth century did experimental chemistry fully emancipate itself from medieval alchemical mysticism.'</em><br>Which TWO grammatical and stylistic features are accurately exemplified by this sentence? (Choose TWO correct answers)",
     "options": [
       {
         "key": "A",
-        "text": "Rarely have longitudinal studies demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Negative adverbial fronting ('Not until...') triggering subject-auxiliary inversion ('did experimental chemistry...')."
       },
       {
         "key": "B",
-        "text": "Rarely longitudinal studies have demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Passive voice construction shifting programmatic agency away from scientific practitioners."
       },
       {
         "key": "C",
-        "text": "Rarely did longitudinal studies has demonstrated such pronounced correlation between early bilingualism and neuroplastic longevity."
+        "text": "Temporal framing providing distinct historical demarcations to heighten argumentative emphasis."
       },
       {
         "key": "D",
-        "text": "Under no circumstances the researchers should publish raw genomic sequences without anonymization."
+        "text": "A run-on comma splice joining two independent clauses without coordinating conjunctions."
       },
       {
         "key": "E",
-        "text": "Seldom the committee grants retroactive dispensation for unvetted laboratory protocols."
+        "text": "A dangling participle modifier obscuring the identity of the grammatical subject."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "GRAMMATICAL INVERSION PATTERN",
+      "latex": "\\text{Negative Adverbial Fronting} + \\text{Auxiliary} + \\text{Subject} + \\text{Main Verb}",
+      "legend": "• A: 'Not until... did [chemistry] emancipate' (Inversion)<br>• C: Deliberate temporal emphasis"
+    },
+    "hints": {
+      "concept": "Examine the word order following 'Not until' and its rhetorical effect.",
+      "execution": "Select options A and C."
+    },
+    "explanation": "Starting a sentence with a restrictive negative time expression like 'Not until' requires inversion of the auxiliary verb 'did' and subject (A), which serves to emphasize the historical turning point (C). Correct keys: A and C.",
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-28",
     "subject": "eng_lanjut",
-    "materi": "DISCOURSE MARKERS & COHESION",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Complex Concessive & Adversative Markers",
-    "type": "mcq",
-    "questionHtml": "Select the sentence that deploys the advanced discourse marker <strong>'notwithstanding'</strong> with semantic precision and syntactic accuracy:",
+    "topic": "Synthesis of Conflicting Theoretical Paradigms",
+    "type": "multi",
+    "questionHtml": "Passage 1 argues that cognitive development is almost exclusively driven by innate biological neural architecture. Passage 2 contends that language acquisition and cognitive milestones are primarily mediated by sociocultural scaffolding and reciprocal linguistic immersion. Which THREE assertions accurately synthesize the epistemic tension between both passages? (Choose THREE correct answers)",
     "options": [
       {
         "key": "A",
-        "text": "Notwithstanding the formidable computational bottlenecks encountered during training, the neural architecture achieved state-of-the-art inference efficiency."
+        "text": "Passage 1 aligns predominantly with nativist/generativist paradigms, whereas Passage 2 adopts a Vygotskian social constructivist framework."
       },
       {
         "key": "B",
-        "text": "The neural architecture achieved high efficiency notwithstanding it was trained on insufficient sample sizes."
+        "text": "Both passages completely agree that environmental linguistic stimuli play zero determining role in developmental trajectories."
       },
       {
         "key": "C",
-        "text": "Notwithstanding because the algorithm crashed, no subsequent trials could proceed."
+        "text": "A reconciled interactionist framework would argue that innate neurobiological capacities are unlocked and sculpted through environmental immersion."
       },
       {
         "key": "D",
-        "text": "Researchers published the findings notwithstanding that they lacked conclusive proof nonetheless."
+        "text": "The divergent conclusions stem from fundamentally distinct experimental methodologies (neurological imaging vs. observational ethnography)."
       },
       {
         "key": "E",
-        "text": "Notwithstanding between multiple variables, the statistical significance remained undetected."
+        "text": "Passage 2 categorically disproves the existence of the human central nervous system."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "C",
+      "D"
+    ],
+    "formulaHud": {
+      "title": "EPISTEMIC DISCOURSE SYNTHESIS",
+      "latex": "\\text{Nativist Biology (P1)} \\; \\times \\; \\text{Sociocultural Scaffolding (P2)} \\implies \\text{Interactionist Dialectic}",
+      "legend": "• A is accurate (Theoretical alignment)<br>• C is accurate (Comprehensive synthesis)<br>• D is accurate (Methodological divergence)"
+    },
+    "hints": {
+      "concept": "Identify the psychological schools represented and how they can be dialectically synthesized.",
+      "execution": "Select A, C, and D."
+    },
+    "explanation": "P1 represents nativism, P2 social constructivism (A). Modern science reconciles them via gene-environment interaction (C). Their divergence reflects different empirical investigative methods (D). Correct keys: A, C, and D.",
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-29",
     "subject": "eng_lanjut",
-    "materi": "LEXICAL PRECISION & AWL",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Academic Word List (AWL) Collocations in Context",
-    "type": "mcq",
-    "questionHtml": "In formal academic discourse, replacing colloquial verbs with nominalized or rigorous academic equivalents enhances communicative gravity. In the sentence <em>'The researchers tried to make the differences between the two cultural paradigms seem smaller'</em>, the italicized phrase is best replaced by...",
+    "topic": "Discerning Stance and Epistemic Modality",
+    "type": "multi",
+    "questionHtml": "Analyze the following critique of econometric forecasting:<br><em>'While econometricians proudly parade their sophisticated dynamic stochastic equilibrium models, these labyrinthine mathematical constructs prove remarkably adept at predicting every historical crisis—except the next one.'</em><br>Which TWO pragmatic techniques are leveraged by the author to communicate skepticism? (Choose TWO correct answers)",
     "options": [
       {
         "key": "A",
-        "text": "sought to attenuate the divergence between"
+        "text": "Verbal irony (juxtaposing outward praise of mathematical sophistication with total predictive failure)."
       },
       {
         "key": "B",
-        "text": "looked into making little the distance across"
+        "text": "Concessive framing ('While...') that temporarily acknowledges technical complexity before delivering a trenchant critique."
       },
       {
         "key": "C",
-        "text": "aimed at downplaying the big splits of"
+        "text": "Unconditional mathematical proof proving all differential calculus formulas erroneous."
       },
       {
         "key": "D",
-        "text": "wanted to shrink the spaces of"
+        "text": "Pedantic jargon intended to confuse uninitiated non-academic lay audiences."
       },
       {
         "key": "E",
-        "text": "struggled to cut down the gaps in"
+        "text": "Objective statistical regression establishing zero variance in historical market models."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "B"
+    ],
+    "formulaHud": {
+      "title": "PRAGMATIC IRONY & STANCE DECODING",
+      "latex": "\\text{Superficial Praise ('proudly parade')} \\; + \\; \\text{Subversive Twist ('except the next one')} \\implies \\text{Ironic Satire}",
+      "legend": "• A: Verbal irony highlighting forecasting vanity<br>• B: Concessive syntactic structure"
+    },
+    "hints": {
+      "concept": "Notice the sharp contrast between 'sophisticated models' and 'failing to predict the next crisis'.",
+      "execution": "Select A and B."
+    },
+    "explanation": "The author uses biting irony ('predicting every crisis except the next one') (A) and sets this up using a concessive 'While...' clause that dismantles the economists' pride (B). Correct keys: A and B.",
+    "isSimulation": true
   },
   {
     "id": "eng_lanjut-sim-30",
     "subject": "eng_lanjut",
-    "materi": "RHETORICAL CRITIQUE",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
     "mode": "simulasi",
     "difficulty": "hard",
-    "topic": "Evaluating Empirical Validity & Logical Fallacies in English Texts",
-    "type": "mcq",
-    "questionHtml": "A pharmaceutical whitepaper concludes: <em>'Since patients who took Supplement Alpha reported elevated energy levels, Supplement Alpha is the definitive cure for chronic fatigue syndrome.'</em><br>What fatal epistemological flaw undermines this assertion?",
+    "topic": "Contextual Nuances of Academic Verbs",
+    "type": "multi",
+    "questionHtml": "In academic writing, reporting verbs convey specific degrees of epistemic commitment and critical stance. Which TWO pairs correctly match the reporting verb with its authorial commitment level? (Choose TWO correct answers)",
     "options": [
       {
         "key": "A",
-        "text": "It commits a post hoc ergo propter hoc fallacy and conflates subjective symptomatic relief with verified clinical etiology."
+        "text": "'Corroborate' — indicates strong empirical validation and evidentiary alignment with prior research."
       },
       {
         "key": "B",
-        "text": "It relies strictly on double-blind randomized clinical trial protocols."
+        "text": "'Postulate' — presents an empirical fact that has already been conclusively proven beyond all doubt."
       },
       {
         "key": "C",
-        "text": "It provides excessive pharmacological documentation of cellular metabolic pathways."
+        "text": "'Concede' — acknowledges the validity of a counter-argument while preserving one's primary thesis."
       },
       {
         "key": "D",
-        "text": "It restricts its patient sample strictly to pediatric demographics."
+        "text": "'Refute' — tentative hypothesis suggesting that a claim might possibly be open to reconsideration."
       },
       {
         "key": "E",
-        "text": "It defines energy levels using objective kilojoule metabolic measurements."
+        "text": "'Substantiate' — purely subjective speculation devoid of physical documentation."
       }
     ],
-    "correctKey": "A",
-    "isDiagnostic": false
+    "correctKeys": [
+      "A",
+      "C"
+    ],
+    "formulaHud": {
+      "title": "EPISTEMIC TAXONOMY OF REPORTING VERBS",
+      "latex": "\\text{Corroborate} \\implies \\text{Confirm with evidence}; \\quad \\text{Concede} \\implies \\text{Grant a point to an opponent}",
+      "legend": "• A: Accurate definition of corroborate<br>• C: Accurate definition of concede"
+    },
+    "hints": {
+      "concept": "Review the precise definitions of 'corroborate' and 'concede'.",
+      "execution": "Select A and C."
+    },
+    "explanation": "'Corroborate' means to confirm or support with evidence (A). 'Concede' means to yield or admit the truth of an opposing point (C). Postulate is hypothetical (not proven), and refute means to disprove decisively (not tentative). Correct keys: A and C.",
+    "isSimulation": true
+  },
+  {
+    "id": "eng_lanjut-sim-31",
+    "subject": "eng_lanjut",
+    "materi": "ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Evaluating Epistemic Validity in Academic Research",
+    "type": "matrix",
+    "questionHtml": "Determine whether each of the following statements regarding academic discourse analysis and empirical methodology is TRUE (Benar) or FALSE (Salah)!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "A valid deductive syllogism guarantees empirical factual truth even when its premise propositions are demonstrably false in the physical world.",
+        "correct": "Salah"
+      },
+      {
+        "id": "1",
+        "text": "Hedge markers such as 'it appears that' and 'data suggest' function to modulate authorial certainty and invite scholarly dialogue without premature dogmatism.",
+        "correct": "Benar"
+      },
+      {
+        "id": "2",
+        "text": "A literature review in a scholarly dissertation should function as an exhaustive annotated bibliography of unrelated summaries rather than a thematic synthesis.",
+        "correct": "Salah"
+      },
+      {
+        "id": "3",
+        "text": "Peer-reviewed scientific consensus represents provisional epistemic convergence subject to revision in light of novel anomalous empirical data.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": false,
+      "1": true,
+      "2": false,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "DISCOURSE VALIDITY & EPISTEMIC HEDGING",
+      "latex": "\\text{Logical Validity} \\neq \\text{Soundness (True Premises + Valid Logic)}; \\quad \\text{Hedging} \\implies \\text{Scientific Humility}",
+      "legend": "• 0: Salah (Deductive validity does not guarantee truth if premises are false)<br>• 1: Benar (Hedges manage epistemic commitment)<br>• 2: Salah (Lit reviews must be synthetic)<br>• 3: Benar (Science is provisional/falsifiable)"
+    },
+    "hints": {
+      "concept": "Differentiate deductive validity from soundness, understand hedging, and synthesis.",
+      "execution": "0: Salah, 1: Benar, 2: Salah, 3: Benar."
+    },
+    "explanation": "Statement 0 is False (validity is structural; soundness requires true premises). Statement 1 is True (hedging prevents overstatement). Statement 2 is False (a literature review must synthesize thematic tensions). Statement 3 is True (scientific findings are falsifiable). Correct keys: Salah, Benar, Salah, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "eng_lanjut-sim-32",
+    "subject": "eng_lanjut",
+    "materi": "TEXTUAL COHESION & DISCOURSE GRAMMAR",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Syntactic Cohesion and Structural Parallelism",
+    "type": "matrix",
+    "questionHtml": "Determine whether each of the following statements regarding English syntactical conventions and stylistic register is TRUE (Benar) or FALSE (Salah)!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Parallel structure requires that coordinating conjunctions join grammatically equivalent elements (e.g., matching gerund with gerund, infinitive with infinitive).",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "The subjunctive mood in constructions like 'It is imperative that he submit the report' mandates using third-person singular inflection with an '-s' suffix.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Non-restrictive relative clauses set off by commas provide supplementary non-essential information and do not restrict the identity of the antecedent noun.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Nominalization (converting verbs/adjectives into abstract nouns like 'evaluate' -> 'evaluation') is strictly banned in formal academic journals.",
+        "correct": "Salah"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": false
+    },
+    "formulaHud": {
+      "title": "ADVANCED SYNTACTIC CONVENTIONS",
+      "latex": "\\text{Subjunctive Mood:} \\; \\text{Demand} + \\text{that} + S + V_{\\text{base}} \\; (\\text{submit, NOT submits})",
+      "legend": "• 0: Benar (Parallelism rule)<br>• 1: Salah (Subjunctive takes base bare infinitive without -s)<br>• 2: Benar (Non-restrictive relative clauses)<br>• 3: Salah (Nominalization is central to academic English)"
+    },
+    "hints": {
+      "concept": "Check subjunctive verb rules and the prevalence of nominalization in academic writing.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Salah."
+    },
+    "explanation": "Statement 0 is True. Statement 1 is False (subjunctive requires base verb: 'that he submit', not 'submits'). Statement 2 is True. Statement 3 is False (nominalization is ubiquitous in academic discourse). Correct keys: Benar, Salah, Benar, Salah.",
+    "isSimulation": true
+  },
+  {
+    "id": "eng_lanjut-sim-33",
+    "subject": "eng_lanjut",
+    "materi": "RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Classical Rhetorical Appeals and Figurative Devices",
+    "type": "matrix",
+    "questionHtml": "Determine whether each of the following statements regarding classical rhetorical devices is TRUE (Benar) or FALSE (Salah)!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "Ethos refers to establishing the speaker's moral character, academic authority, and credibility in the eyes of the audience.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Anaphora involves the deliberate repetition of a specific word or phrase at the end of consecutive clauses or sentences.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Oxymoron brings together two apparently contradictory terms in conjunction to produce a paradoxical dramatic effect (e.g., 'deafening silence').",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "Chiasmus is a rhetorical figure in which grammatical structures or concepts are repeated in reverse order (A-B-B-A pattern).",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "RHETORICAL FIGURES: ANAPHORA VS EPISTROPHE",
+      "latex": "\\text{Anaphora} \\implies \\text{Repetition at BEGINNING}; \\quad \\text{Epistrophe} \\implies \\text{Repetition at END}",
+      "legend": "• 0: Benar (Ethos definition)<br>• 1: Salah (Repetition at the end is Epistrophe, not Anaphora)<br>• 2: Benar (Oxymoron)<br>• 3: Benar (Chiasmus A-B-B-A)"
+    },
+    "hints": {
+      "concept": "Distinguish anaphora (beginning) from epistrophe (end).",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Statement 1 is False because repetition at the end of clauses is called epistrophe, whereas anaphora is repetition at the beginning. Statements 0, 2, and 3 are historically and linguistically correct. Correct keys: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "eng_lanjut-sim-34",
+    "subject": "eng_lanjut",
+    "materi": "PRAGMATIC INFERENCE & AUTHORIAL STANCE",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Pragmatic Presuppositions and Implicatures",
+    "type": "matrix",
+    "questionHtml": "Determine whether each of the following statements regarding pragmatic implicature and presupposition is TRUE (Benar) or FALSE (Salah)!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "A pragmatic presupposition is an implicit assumption taken for granted in a sentence that remains true even when the sentence is negated.",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "According to Paul Grice's Cooperative Principle, conversational implicature arises exclusively when speakers strictly adhere to literal semantic dictionary definitions.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Irony occurs pragmatically when an utterance's intended communicative meaning diverges radically from its surface literal locutionary meaning.",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "The sentence 'The CEO stopped embezzling funds' presupposes that the CEO had previously been embezzling funds, regardless of whether the statement is asserted or denied.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "GRICEAN MAXIMS & PRESUPPOSITION SURVIVAL",
+      "latex": "\\text{Presupposition Under Negation:} \\; S(P) \\implies P \\; \\land \\; \\neg S(P) \\implies P",
+      "legend": "• 0: Benar (Core property of presuppositions)<br>• 1: Salah (Implicatures arise when maxims are flouted, not followed literally)<br>• 2: Benar (Irony definition)<br>• 3: Benar (Change-of-state verb 'stop' triggers presupposition)"
+    },
+    "hints": {
+      "concept": "Understand presupposition constancy under negation and Gricean maxim flouting.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Statement 1 is False (Gricean implicatures frequently occur when maxims are deliberately flouted to convey subtext). Statements 0, 2, and 3 are standard semantic/pragmatic tenets. Correct keys: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
+  },
+  {
+    "id": "eng_lanjut-sim-35",
+    "subject": "eng_lanjut",
+    "materi": "LEXICAL PRECISION & IDIOMATIC NUANCE",
+    "mode": "simulasi",
+    "difficulty": "hard",
+    "topic": "Semantic Prosody and Collocational Restrictions",
+    "type": "matrix",
+    "questionHtml": "Determine whether each of the following statements regarding corpus linguistics, semantic prosody, and collocation is TRUE (Benar) or FALSE (Salah)!",
+    "statements": [
+      {
+        "id": "0",
+        "text": "The phrasal verb 'set in' carries a predominantly negative semantic prosody in English corpora (collocating with words like 'rot', 'decay', 'winter', 'panic').",
+        "correct": "Benar"
+      },
+      {
+        "id": "1",
+        "text": "Synonyms in a language are always 100% interchangeable across every syntactic context without altering stylistic register or pragmatic nuance.",
+        "correct": "Salah"
+      },
+      {
+        "id": "2",
+        "text": "Collocational restriction refers to the habitual co-occurrence of words that cannot be predicted solely on the basis of pure semantic logic (e.g., 'commit suicide', not 'perform suicide').",
+        "correct": "Benar"
+      },
+      {
+        "id": "3",
+        "text": "The adverb 'utterly' typically collocates with unfavorable adjectives (e.g., 'utterly ridiculous', 'utterly disastrous') rather than unambiguously positive descriptors.",
+        "correct": "Benar"
+      }
+    ],
+    "correctAnswers": {
+      "0": true,
+      "1": false,
+      "2": true,
+      "3": true
+    },
+    "formulaHud": {
+      "title": "CORPUS LINGUISTICS & SEMANTIC PROSODY",
+      "latex": "\\text{Semantic Prosody:} \\; \\text{Neutral Word} \\xrightarrow{\\text{Habitual Collocation}} \\text{Positive/Negative Affective Aura}",
+      "legend": "• 0: Benar ('set in' has negative prosody)<br>• 1: Salah (Absolute synonymy is virtually non-existent)<br>• 2: Benar (Collocational bonds)<br>• 3: Benar ('utterly' attaches to negative adjectives)"
+    },
+    "hints": {
+      "concept": "Consider semantic prosody (Louw/Sinclair) and near-synonym nuance.",
+      "execution": "0: Benar, 1: Salah, 2: Benar, 3: Benar."
+    },
+    "explanation": "Statement 1 is False (absolute synonymy does not exist; words differ in register and collocation). Statements 0, 2, and 3 accurately reflect empirical corpus linguistics findings. Correct keys: Benar, Salah, Benar, Benar.",
+    "isSimulation": true
   }
 ];

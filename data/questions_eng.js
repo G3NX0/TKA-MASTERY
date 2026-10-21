@@ -1,6 +1,3 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_ENG.JS (135 SOAL AUTENTIK)
- */
 window.TKA_ENG_QUESTIONS = [
   {
     "id": "eng-lat-e-01",
@@ -1528,138 +1525,6 @@ window.TKA_ENG_QUESTIONS = [
     ]
   },
   {
-    "id": "eng-lat-m-01",
-    "subject": "eng",
-    "materi": "TEKS FAKTUAL / REPORT",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Main Idea and Synthesis in Environmental Expositions",
-    "type": "mcq",
-    "questionHtml": "<strong>Read the following passage carefully!</strong><br><br>Microplastics—tiny synthetic polymer particles smaller than 5 millimeters—have permeated marine and terrestrial food chains globally. Derived from the fragmentation of commercial consumer plastics and synthetic textiles, these persistent contaminants are ingested by plankton, fish, and filter-feeding shellfish. Toxicological research indicates that microplastics can leach endocrine-disrupting phthalates and heavy metals into biological tissues, presenting emerging hazards to human metabolic and immune health.<br><br>What is the central focus of the passage?",
-    "formulaHud": {
-      "title": "ENVIRONMENTAL REPORT ANALYSIS",
-      "latex": "\\text{Scope: Microplastic Ingestion} + \\text{Toxicological Risks}",
-      "legend": "• The passage describes how microplastics infiltrate food chains and release hazardous chemicals affecting biological health."
-    },
-    "hints": {
-      "concept": "Option B synthesizes both the ecological spread and the toxicological health risks.",
-      "execution": "Other options are overly narrow or off-topic."
-    },
-    "explanation": "<strong>Explanation:</strong><br>The text outlines the pervasive spread of microplastics through marine and terrestrial food webs and details the subsequent toxicological hazards (endocrine disruption and chemical leaching) to wildlife and humans. Option B is the comprehensive main idea.<br><strong>Correct Answer:</strong> B",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "The recycling methods for commercial polyethylene bottles, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
-        "text": "The widespread contamination of food chains by microplastics and their associated biological risks."
-      },
-      {
-        "key": "C",
-        "text": "The nutritional value of filter-feeding shellfish in coastal fisheries."
-      },
-      {
-        "key": "D",
-        "text": "The chemical formula of phthalate additives in textiles."
-      },
-      {
-        "key": "E",
-        "text": "Techniques used by marine biologists to measure plankton populations."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
-    "id": "eng-lat-m-02",
-    "subject": "eng",
-    "materi": "TEKS FAKTUAL / REPORT",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Inference of Cause and Effect",
-    "type": "mcq",
-    "questionHtml": "Based on the microplastics passage, why are filter-feeding marine organisms especially vulnerable to contamination?",
-    "formulaHud": {
-      "title": "INFERENTIAL CAUSALITY",
-      "latex": "\\text{Filter Feeding Mechanism} \\implies \\text{Inadvertent Particle Ingestion}",
-      "legend": "• Filter-feeders strain water for food particles (plankton)."
-    },
-    "hints": {
-      "concept": "Because microplastics are suspended in water, these organisms inevitably ingest them.",
-      "execution": "Option B explains this biological vulnerability accurately."
-    },
-    "explanation": "<strong>Explanation:</strong><br>Filter-feeding organisms strain organic matter directly from surrounding seawater. Because microplastics exist as microscopic suspended particles, these organisms inadvertently ingest them during normal feeding.<br><strong>Correct Answer:</strong> B",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "They actively seek out microplastics as their primary energy food source, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "B",
-        "text": "Their natural feeding mechanism strains water containing suspended microplastic particles."
-      },
-      {
-        "key": "C",
-        "text": "They possess acidic digestive enzymes that dissolve synthetic polymers instantly."
-      },
-      {
-        "key": "D",
-        "text": "They migrate exclusively to industrial plastic manufacturing harbors."
-      },
-      {
-        "key": "E",
-        "text": "Their shells are made of synthetic phthalate compounds."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
-    "id": "eng-lat-m-03",
-    "subject": "eng",
-    "materi": "TEKS FAKTUAL / REPORT",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Tone of the Author in Science Expositions",
-    "type": "mcq",
-    "questionHtml": "<strong>Read the excerpt!</strong><br><br><em>'While generative AI promises unprecedented productivity in automated coding, excessive reliance on unverified code fragments introduces latent cybersecurity vulnerabilities that developers can easily overlook.'</em><br><br>The author's tone toward the deployment of generative AI can best be described as...",
-    "formulaHud": {
-      "title": "AUTHOR'S TONE EVALUATION",
-      "latex": "\\text{Concession ('While promises productivity')} + \\text{Caution ('introduces latent vulnerabilities')}",
-      "legend": "• Notice the structure: 'While it promises productivity' (acknowledges benefits) + 'introduces latent vulnerabilities' (warns of risks)."
-    },
-    "hints": {
-      "concept": "This represents a balanced, cautious perspective.",
-      "execution": "Option B matches this nuanced stance."
-    },
-    "explanation": "<strong>Explanation:</strong><br>The author acknowledges AI's productivity benefits while explicitly warning against cybersecurity blind spots. This dual perspective is characteristic of a balanced yet cautionary analytical tone.<br><strong>Correct Answer:</strong> B",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Completely dismissive and hostile"
-      },
-      {
-        "key": "B",
-        "text": "Balanced yet cautionary"
-      },
-      {
-        "key": "C",
-        "text": "Unconditionally enthusiastic"
-      },
-      {
-        "key": "D",
-        "text": "Indifferent and sarcastic"
-      },
-      {
-        "key": "E",
-        "text": "Humorous and playful"
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
     "id": "eng-lat-m-04",
     "subject": "eng",
     "materi": "TEKS FAKTUAL / REPORT",
@@ -3053,50 +2918,6 @@ window.TKA_ENG_QUESTIONS = [
     ]
   },
   {
-    "id": "eng-lat-h-01",
-    "subject": "eng",
-    "materi": "TEKS FAKTUAL / REPORT",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Advanced Cryptography & Quantum Computing Threats",
-    "type": "mcq",
-    "questionHtml": "<strong>Read the technological assessment below!</strong><br><br>The imminent arrival of fault-tolerant quantum computers threatens the mathematical foundations of contemporary public-key cryptography, such as RSA and Elliptic Curve Cryptography (ECC). Because Shor's algorithm can factorize massive prime integers in polynomial time, adversaries are already executing 'harvest now, decrypt later' operations—intercepting and storing encrypted state secrets today in anticipation of future quantum decryption capabilities. Consequently, standards institutes are racing to standardize post-quantum lattice-based cryptographic algorithms before the 'Q-Day' threshold arrives.<br><br>The primary danger highlighted by the 'harvest now, decrypt later' strategy is that...",
-    "formulaHud": {
-      "title": "QUANTUM CRYPTOGRAPHIC THREATS",
-      "latex": "\\text{Strategy: Harvest Encrypted Data Today } \\to \\text{ Decrypt with Shor's Algorithm Tomorrow}",
-      "legend": "• Look at the description of 'harvest now, decrypt later': intercepting and storing encrypted data today to decrypt them when quantum computers become operational."
-    },
-    "hints": {
-      "concept": "This means currently secure data has a ticking expiration date.",
-      "execution": "Option B explains this retroactive vulnerability precisely."
-    },
-    "explanation": "<strong>Explanation:</strong><br>The passage explains that adversaries are archiving encrypted data packets currently circulating on public networks so that they can retroactively decode sensitive diplomatic and financial records once sufficiently powerful quantum processors running Shor's algorithm become available.<br><strong>Correct Answer:</strong> B",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Quantum computers will permanently destroy the global electrical grid, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
-        "text": "Confidential data transmitted today with current encryption standards will be retroactively deciphered once quantum machines mature."
-      },
-      {
-        "key": "C",
-        "text": "Post-quantum lattice algorithms are computationally impossible to implement."
-      },
-      {
-        "key": "D",
-        "text": "Adversaries are erasing historical banking records across the financial sector."
-      },
-      {
-        "key": "E",
-        "text": "Shor's algorithm cannot be executed on digital computers."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
     "id": "eng-lat-h-02",
     "subject": "eng",
     "materi": "TEKS FAKTUAL / REPORT",
@@ -3532,50 +3353,6 @@ window.TKA_ENG_QUESTIONS = [
       }
     ],
     "correctKey": "B"
-  },
-  {
-    "id": "eng-lat-h-12",
-    "subject": "eng",
-    "materi": "IDE POKOK & LOGIKA TEKS",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Subtle Transitions: 'Notwithstanding' vs 'Conversely'",
-    "type": "mcq",
-    "questionHtml": "Choose the connector that precisely indicates <strong>concession in spite of a serious obstacle</strong>:<br><br><em>'[...], the expedition team persevered through subzero blizzard conditions and successfully established the high-altitude weather observatory.'</em>",
-    "formulaHud": {
-      "title": "CONCESSIVE PREPOSITION 'NOTWITHSTANDING'",
-      "latex": "\\text{'Notwithstanding'} + \\text{Noun Phrase} \\iff \\text{'Despite / In Spite Of'}",
-      "legend": "• 'Notwithstanding' is a formal preposition meaning 'in spite of' or 'despite'."
-    },
-    "hints": {
-      "concept": "It introduces the obstacle that did not stop the outcome.",
-      "execution": "Option A fits the syntax and concessive meaning perfectly."
-    },
-    "explanation": "<strong>Explanation:</strong><br>'Notwithstanding' is a formal preposition meaning 'despite'. Followed by the noun phrase 'the severe frostbite warnings', it conveys that the team succeeded in spite of grave physical peril.<br><strong>Correct Answer:</strong> A",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Notwithstanding the severe frostbite warnings"
-      },
-      {
-        "key": "B",
-        "text": "Conversely, the severe frostbite warnings"
-      },
-      {
-        "key": "C",
-        "text": "As a consequence of the severe frostbite warnings"
-      },
-      {
-        "key": "D",
-        "text": "In contrast with the severe frostbite warnings"
-      },
-      {
-        "key": "E",
-        "text": "Similarly to the severe frostbite warnings"
-      }
-    ],
-    "correctKey": "A"
   },
   {
     "id": "eng-lat-h-13",
@@ -4612,7 +4389,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "The passages reach a consensus that unilateral national governance is the optimal framework for deploying global solar radiation interventions."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: SOLAR RADIATION MANAGEMENT SYNTHESIS",
+      "latex": "\\text{Synthesis} \\implies (\\text{Text A: Albedo Cooling}) \\iff (\\text{Text B: Moral Hazard \\& Mitigation Deterrence})",
+      "legend": "• Comparative synthesis requires evaluating the interplay between physical cooling efficacy and socioeconomic disincentives.<br>• Key (A) reflects the nuanced tension between both analytical viewpoints."
+    },
+    "hints": {
+      "concept": "Synthesize the central arguments: Text A outlines the climate cooling mechanics of stratospheric aerosols, while Text B highlights the policy risk of reduced decarbonization commitment.",
+      "execution": "Select option (A), which encapsulates both the physical therapeutic potential and the systemic governance risks without dismissing either text."
+    },
+    "explanation": "Text A focuses on the engineering feasibility of stratospheric aerosol injection to mimic volcanic albedo cooling, whereas Text B warns against moral hazard where geoengineering serves as an excuse to delay aggressive greenhouse gas emission cuts. Option (A) synthesizes both core arguments seamlessly. Options (B), (C), (D), and (E) are either factually distorted or overly narrow.",
+    "answer": "A"
   },
   {
     "id": "eng-sim-02",
@@ -4640,7 +4428,17 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Remineralization of sinking organic matter by heterotrophic bacteria in the mesopelagic zone releases carbon back into solution as dissolved inorganic carbon.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: BIOLOGICAL CARBON PUMP MATRIX",
+      "latex": "\\text{Marine Carbon Export} \\implies \\text{Photic Production} - \\text{Stratified Depletion} - \\text{Bacterial Remineralization}",
+      "legend": "• Evaluate biogeochemical feedback loops: stratification suppresses nutrient upwelling, acidification impairs shell calcification, and bacterial respiration converts particulate carbon to DIC.<br>• Matrix format: True / False / True."
+    },
+    "hints": {
+      "concept": "Analyze oceanographic dynamics: thermal stratification restricts vertical nutrient flux, while mesopelagic heterotrophic bacteria decompose sinking organic matter.",
+      "execution": "Statement 1: TRUE (thermal stratification traps nutrients below the pycnocline). Statement 2: FALSE (ocean acidification inhibits calcification). Statement 3: TRUE (bacterial remineralization dissolves carbon back into seawater)."
+    },
+    "explanation": "Statement 1 is TRUE because enhanced stratification impedes vertical mixing, starving photic phytoplankton of deep nutrient upwelling. Statement 2 is FALSE because elevated seawater acidity lowers carbonate ion saturation, impairing rather than accelerating coccolithophore calcification. Statement 3 is TRUE because bacterial remineralization in the mesopelagic 'twilight zone' oxidizes sinking marine snow back into dissolved inorganic carbon (DIC)."
   },
   {
     "id": "eng-sim-03",
@@ -4659,11 +4457,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Incisively critical and warning of systemic epistemic distortion"
+        "text": "Ambivalent regarding computational efficiency and public discourse"
       },
       {
         "key": "C",
-        "text": "Ambivalent regarding computational efficiency and public discourse"
+        "text": "Incisively critical and warning of systemic epistemic distortion"
       },
       {
         "key": "D",
@@ -4674,7 +4472,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Patronizing toward consumer behavior while defending software developers"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ALGORITHMIC EPISTEMIC ISOLATION",
+      "latex": "\\text{Epistemic Echo Chamber} \\implies \\text{Confirmation Feedback} \\times \\text{Algorithmic Optimization}",
+      "legend": "• The author investigates algorithmic epistemology: automated feeds amplify cognitive confirmation bias by filtering out dissonant empirical data.<br>• Key (C) identifies this core critique of algorithmic distortion."
+    },
+    "hints": {
+      "concept": "Distinguish between passive information omission (epistemic bubbles) and active discrediting of external consensus (echo chambers).",
+      "execution": "Identify the author's primary epistemological critique: recommender systems prioritize user retention by reinforcing pre-existing biases, leading to option (C)."
+    },
+    "explanation": "The text examines how algorithmic optimization on digital platforms curates information diets that confirm user preconceptions while systematically filtering out challenging viewpoints. This generates epistemic insularity that undermines reasoned public discourse. Option (C) captures this critical assessment precisely.",
+    "answer": "C"
   },
   {
     "id": "eng-sim-04",
@@ -4693,7 +4502,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Limestone tiers functioning as high-pass spatial acoustic filters that attenuate low-frequency murmurs"
+        "text": "Dynamic wind vectors generated by surrounding pine groves blowing speech uphill"
       },
       {
         "key": "C",
@@ -4701,14 +4510,25 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Dynamic wind vectors generated by surrounding pine groves blowing speech uphill"
+        "text": "Limestone tiers functioning as high-pass spatial acoustic filters that attenuate low-frequency murmurs"
       },
       {
         "key": "E",
         "text": "Total absorption of high-frequency consonantal sounds by porous sedimentary mortar"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ACOUSTIC ATTENUATION & ARCHITECTURAL RESONANCE",
+      "latex": "\\text{Speech Intelligibility} \\implies \\text{Fluted Limestone Scattering} + \\text{Low-Frequency Wind Attenuation}",
+      "legend": "• The geometric tiering of Epidaurus acts as a passive bandpass acoustic filter, attenuating environmental low-frequency noise.<br>• Key (D) reflects this acoustical finding."
+    },
+    "hints": {
+      "concept": "Focus on the architectural acoustics of ancient Greek theatres: how fluted stone seating surfaces interact with different sound frequencies.",
+      "execution": "Look for the mechanism that filters ambient low-frequency rumbles (< 500 Hz) while preserving high-frequency consonant sounds, pointing to option (D)."
+    },
+    "explanation": "Rigorous acoustical analysis confirms that the fluted limestone benches of the Epidaurus amphitheatre function as natural acoustic filters. They attenuate low-frequency background environmental noise (such as wind and crowd murmur) while reflecting and scattering higher-frequency acoustic components essential for speech intelligibility. Option (D) articulates this phenomenon.",
+    "answer": "D"
   },
   {
     "id": "eng-sim-05",
@@ -4745,7 +4565,17 @@ window.TKA_ENG_QUESTIONS = [
     "correctKeys": [
       "A",
       "C"
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: CLINICAL TRIAL PROTOCOL RIGOR",
+      "latex": "\\text{Methodological Validity} \\implies \\text{Pre-registration} \\land \\text{Double-Blinding} \\land \\text{Pre-specified Stopping Rules}",
+      "legend": "• Clinical trial integrity requires pre-registering primary endpoints and establishing explicit interim statistical boundaries.<br>• Multi-choice format: Select both scientifically rigorous protocols."
+    },
+    "hints": {
+      "concept": "Identify trial safeguards designed to prevent p-hacking, outcome switching, and premature unblinding.",
+      "execution": "Select options (A) and (C). Pre-registering endpoints eliminates post-hoc outcome manipulation, and pre-specified stopping boundaries protect against premature efficacy claims."
+    },
+    "explanation": "Scientific rigor in Phase III clinical trials necessitates pre-registering primary clinical endpoints prior to participant enrollment (A) to prevent retrospective outcome switching. Furthermore, interim analyses must be governed by pre-specified alpha-spending stopping boundaries overseen by an independent monitoring committee (C). Mid-trial outcome alterations and confidential protocol archiving undermine scientific validity."
   },
   {
     "id": "eng-sim-06",
@@ -4764,7 +4594,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Daedalus’s mastery of spatial containment rendered him psychologically incapable of inhabiting unconfined reality"
+        "text": "The tyrant rewarded Daedalus with boundless lands that he refused to cultivate"
       },
       {
         "key": "C",
@@ -4776,10 +4606,21 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "The tyrant rewarded Daedalus with boundless lands that he refused to cultivate"
+        "text": "Daedalus’s mastery of spatial containment rendered him psychologically incapable of inhabiting unconfined reality"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: EXISTENTIAL IRONY & NARRATIVE THEME",
+      "latex": "\\text{Existential Irony} \\implies \\text{Architect of the Maze} \\equiv \\text{Its Perpetual Prisoner}",
+      "legend": "• Literary analysis: The protagonist's obsessive quest for structural perfection culminates in the irony of becoming entrapped by his own creation.<br>• Key (E) encapsulates this tragic thematic realization."
+    },
+    "hints": {
+      "concept": "Trace the narrative trajectory from supreme architectural arrogance to the existential realization of inescapable self-entrapment.",
+      "execution": "Identify the ironic climax: the master builder's labyrinth is so mathematically flawless that even its creator cannot navigate out, leading to option (E)."
+    },
+    "explanation": "The passage explores existential irony: the architect designed a labyrinth so intricate and mathematically impenetrable that his own intellect cannot find an exit. His creative mastery and pride in engineering an absolute puzzle become his own eternal prison. Option (E) encapsulates this central philosophical and literary theme.",
+    "answer": "E"
   },
   {
     "id": "eng-sim-07",
@@ -4813,7 +4654,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Superintelligent algorithms will universally abandon mathematical logic in favor of philosophical nihilism."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: INSTRUMENTAL CONVERGENCE IN ADVANCED AI",
+      "latex": "\\forall \\text{Goal } G, \\quad \\text{Subgoals} \\supset \\{\\text{Self-Preservation}, \\text{Resource Acquisition}, \\text{Cognitive Enhancement}\\}",
+      "legend": "• Bostrom's instrumental convergence hypothesis: Regardless of terminal objective, rational agents converge on shared instrumental subgoals.<br>• Key (B) states this foundational alignment principle."
+    },
+    "hints": {
+      "concept": "Recall the orthogonality and instrumental convergence theses in AI safety theory: distinct terminal goals lead to identical self-protective and resource-maximizing drives.",
+      "execution": "Select option (B), which states that an autonomous intelligence will naturally prioritize acquiring resources and preventing shutdown to optimize goal fulfillment."
+    },
+    "explanation": "Nick Bostrom's instrumental convergence thesis establishes that an autonomous optimizing agent will logically pursue intermediate subgoals—such as acquiring computational power, enhancing its capabilities, and preventing deactivation—because these subgoals mathematically increase the probability of achieving almost any terminal objective. Option (B) accurately explains this core AI safety concept.",
+    "answer": "B"
   },
   {
     "id": "eng-sim-08",
@@ -4828,11 +4680,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "Trophic cascade disruptions caused by the sudden elimination of a foundational food web taxon"
       },
       {
         "key": "B",
-        "text": "Trophic cascade disruptions caused by the sudden elimination of a foundational food web taxon"
+        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "C",
@@ -4847,7 +4699,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "The evolution of pesticide resistance in terrestrial avian species feeding on adult dipterans"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ECOLOGICAL MODELING & CRISPR GENE DRIVES",
+      "latex": "\\text{Ecological Vulnerability} \\implies \\text{Super-Mendelian Inheritance} \\to \\text{Depletion of Key Trophic Nodes}",
+      "legend": "• Engineered gene drives propagate traits across entire wild populations via super-Mendelian inheritance, risking unforeseen trophic disruption.<br>• Key (A) reflects this ecological hazard."
+    },
+    "hints": {
+      "concept": "Understand how CRISPR-Cas9 homing gene drives override traditional 50% Mendelian inheritance, ensuring nearly 100% transmission of engineered mutations.",
+      "execution": "Connect rapid population suppression of target insects with potential disruption of predator food webs and pollination networks (option A)."
+    },
+    "explanation": "Synthetic gene drives utilize endonuclease systems to convert heterozygous alleles into homozygotes, achieving transmission rates close to 100%. If deployed to eradicate a target pest species, this unconstrained propagation could trigger devastating trophic cascades, depriving specialized predators of food sources and collapsing fragile ecological niches. Option (A) identifies this major biosafety risk.",
+    "answer": "A"
   },
   {
     "id": "eng-sim-09",
@@ -4866,11 +4729,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "These gaseous reservoirs, however, only reveal what was in the air, necessitating an independent geochemical proxy to infer local ambient temperatures."
+        "text": "Similarly, dendrochronological analysis of ancient bristlecone pines shows substantial ring compression during severe solar minima."
       },
       {
         "key": "C",
-        "text": "Similarly, dendrochronological analysis of ancient bristlecone pines shows substantial ring compression during severe solar minima."
+        "text": "These gaseous reservoirs, however, only reveal what was in the air, necessitating an independent geochemical proxy to infer local ambient temperatures."
       },
       {
         "key": "D",
@@ -4881,7 +4744,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Furthermore, commercial tourism in Antarctica has severely contaminated the pristine upper layers of summer firn."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ISOTOPIC PALEOCLIMATOLOGY & FRACTIONATION",
+      "latex": "\\delta^{18}\\text{O} = \\left(\\frac{(^{18}\\text{O}/^{16}\\text{O})_{\\text{sample}}}{(^{18}\\text{O}/^{16}\\text{O})_{\\text{standard}}} - 1\\right) \\times 1000\\text{ ‰}",
+      "legend": "• Rayleigh distillation depletes heavy oxygen isotopes during poleward moisture transport, correlating polar ice core delta-18-O with global paleotemperatures.<br>• Key (C) correctly interprets this proxy."
+    },
+    "hints": {
+      "concept": "Remember isotopic fractionation: water molecules containing the lighter isotope ($^{16}\text{O}$) evaporate more readily, while heavier ($^{18}\text{O}$) molecules condense preferentially during transport.",
+      "execution": "Recognize that colder historical climates yield greater isotopic depletion, meaning lower $\\delta^{18}\text{O}$ values in polar ice cores correspond to colder global temperatures (option C)."
+    },
+    "explanation": "In paleoclimatology, the ratio of $^{18}\text{O}$ to $^{16}\text{O}$ in polar ice core layers serves as a direct proxy for historical atmospheric temperature. Because heavier $^{18}\text{O}$ isotopes condense out earlier as air masses travel toward freezing polar regions, ice formed during colder glacial periods exhibits significantly lower (more negative) $\\delta^{18}\text{O}$ values. Option (C) accurately interprets this geochemical mechanism.",
+    "answer": "C"
   },
   {
     "id": "eng-sim-10",
@@ -4909,7 +4783,17 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Entangled measurements exhibit statistical correlations that exceed the maximum upper bound mathematically permissible under classical probability.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: BELL'S THEOREM & NON-LOCALITY MATRIX",
+      "latex": "|E(a,b) - E(a,b')| + |E(a',b) + E(a',b')| \\le 2 \\quad (\\text{Classical}) \\le 2\\sqrt{2} \\quad (\\text{Quantum Tsirelson Bound})",
+      "legend": "• Bell's theorem disproves local hidden-variable realism while respecting the no-signaling theorem of relativistic causality.<br>• Matrix format: True / False / True."
+    },
+    "hints": {
+      "concept": "Evaluate the philosophical and physical consequences of Bell inequality violations: local realism is untenable, but faster-than-light signaling remains impossible.",
+      "execution": "Statement 1: TRUE (nature cannot be both local and realistically predetermined). Statement 2: FALSE (entanglement cannot transmit classical messages). Statement 3: TRUE (quantum correlations exceed the classical bound of 2 up to $2\\sqrt{2}$)."
+    },
+    "explanation": "Statement 1 is TRUE because experimental violations of Bell inequalities refute the Einstein-Podolsky-Rosen premise that physical quantities have definite, pre-existing values independent of measurement within a local framework. Statement 2 is FALSE because the no-communication theorem proves that entanglement cannot transmit classical signals faster than light. Statement 3 is TRUE because entangled photons yield correlations that violate classical probability, reaching Tsirelson's bound ($2\\sqrt{2}$)."
   },
   {
     "id": "eng-sim-11",
@@ -4928,7 +4812,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Generate peptides within an optimal mass-to-charge ($m/z$) window that facilitates efficient electrospray ionization, predictable fragmentation, and database searching"
+        "text": "Synthesize artificial fluorescent fluorophores directly onto cysteine residues for ultraviolet visual inspection"
       },
       {
         "key": "C",
@@ -4936,14 +4820,25 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Synthesize artificial fluorescent fluorophores directly onto cysteine residues for ultraviolet visual inspection"
+        "text": "Generate peptides within an optimal mass-to-charge ($m/z$) window that facilitates efficient electrospray ionization, predictable fragmentation, and database searching"
       },
       {
         "key": "E",
         "text": "Transform peptide backbone amide bonds into inert metallic isotopes that do not decay"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: TANDEM MASS SPECTROMETRY PROTEOMICS",
+      "latex": "\\text{Protein Identification} \\implies \\text{Trypsin Cleavage (C-term K/R)} \\to \\text{LC-MS/MS CID Fragmentation}",
+      "legend": "• Shotgun proteomics relies on sequence-specific enzymatic digestion followed by collision-induced dissociation into b- and y-ion series.<br>• Key (D) specifies this analytical workflow."
+    },
+    "hints": {
+      "concept": "Trace bottom-up proteomics: enzymatic cleavage of proteins into peptides, chromatographic separation, precursor m/z measurement, collision-induced dissociation, and fragment spectrum matching.",
+      "execution": "Select option (D), which explains that peptides are fragmented along their amide backbone bonds to yield sequence-informative b- and y-type fragment ions."
+    },
+    "explanation": "In bottom-up tandem mass spectrometry, intact proteins are digested by enzymes like trypsin into smaller peptides. After liquid chromatography separation and electrospray ionization, specific peptide ions are fragmented via collision-induced dissociation (CID), cleaving peptide backbone bonds to generate characteristic b- and y-ion spectra that reveal the underlying amino acid sequence. Option (D) precisely describes this analytical protocol.",
+    "answer": "D"
   },
   {
     "id": "eng-sim-12",
@@ -4962,7 +4857,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Unsealed concrete foundations absorbed carbon dioxide through chemical carbonation reactions forming calcium carbonate."
+        "text": "Deep subterranean aquifers completely froze, trapping all atmospheric gases inside clathrate hydrates."
       },
       {
         "key": "C",
@@ -4974,10 +4869,21 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Deep subterranean aquifers completely froze, trapping all atmospheric gases inside clathrate hydrates."
+        "text": "Unsealed concrete foundations absorbed carbon dioxide through chemical carbonation reactions forming calcium carbonate."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: BIOSPHERE 2 GAS CONSUMPTION & CARBONATION",
+      "latex": "\\text{Ca(OH)}_2 + \\text{CO}_2 \\to \\text{CaCO}_3 + \\text{H}_2\\text{O} \\quad (\\text{Atmospheric Sequestration Trap})",
+      "legend": "• The unexpected oxygen depletion in Biosphere 2 resulted from soil microbial respiration coupled with concrete carbonation absorbing carbon dioxide.<br>• Key (E) identifies this geochemical sink."
+    },
+    "hints": {
+      "concept": "Investigate why the sealed atmosphere experienced severe oxygen depletion without a corresponding buildup of gaseous carbon dioxide.",
+      "execution": "Connect microbial consumption of oxygen with the chemical sequestration of respired $CO_2$ inside curing concrete structures, directing to option (E)."
+    },
+    "explanation": "The mysterious loss of oxygen in Biosphere 2 was resolved when researchers discovered that rich organic soil spurred intense microbial respiration, consuming oxygen and producing $CO_2$. Instead of remaining in the air to be converted back into $O_2$ by plants, the respired $CO_2$ chemically reacted with exposed calcium hydroxide in the curing concrete walls to precipitate solid calcium carbonate ($\text{CaCO}_3$). Option (E) correctly explains this geochemical sequestration process.",
+    "answer": "E"
   },
   {
     "id": "eng-sim-13",
@@ -5011,7 +4917,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "The religious obligation to ring cathedral bells during liturgical hours"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ALLEGORY OF TIME & HUMAN OBSOLESCENCE",
+      "latex": "\\text{Narrative Irony} \\implies \\text{Mechanization of Eternity} \\to \\text{Alienation from Lived Experience}",
+      "legend": "• Literary theme: The clockmaker devotes his life to calibrating mechanical seconds, only to confront the tragic realization of having unlived his mortal years.<br>• Key (B) captures this philosophical reflection."
+    },
+    "hints": {
+      "concept": "Contrast the perfection of the ticking horological mechanism with the dying artisan's poignant sense of squandered mortal time.",
+      "execution": "Identify the author's primary philosophical message: measuring time mathematically is not synonymous with experiencing life authentically (option B)."
+    },
+    "explanation": "The narrative functions as an allegory for human existence in the mechanical age: the master horologist achieves unmatched precision in building an astronomical clock that tracks planetary celestial motions, yet in his final hours realizes he traded authentic emotional experience for mechanical exactitude. Option (B) reflects this central literary theme.",
+    "answer": "B"
   },
   {
     "id": "eng-sim-14",
@@ -5026,11 +4943,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Remote employees reported spending significantly less money on fuel and business attire, verified through textual evidence synthesis and objective macro-linguistic comprehension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Individual coding speed increases were accompanied by a 40% collapse in cross-departmental patent filings that historically originated from serendipitous informal hallway encounters."
       },
       {
         "key": "B",
-        "text": "Individual coding speed increases were accompanied by a 40% collapse in cross-departmental patent filings that historically originated from serendipitous informal hallway encounters."
+        "text": "Remote employees reported spending significantly less money on fuel and business attire, verified through textual evidence synthesis and objective macro-linguistic comprehension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -5045,7 +4962,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Employees who utilized larger dual-monitor desk setups closed tickets faster than those with single laptops."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: ORGANIZATIONAL SYNTHESIS: REMOTE PRODUCTIVITY",
+      "latex": "\\text{Organizational Output} \\implies \\text{Focused Individual Execution} \\iff \\text{Spontaneous Serendipitous Ideation}",
+      "legend": "• Synthesize contrasting workplace dynamics: Remote arrangements optimize individual deep work but reduce informal cross-disciplinary encounters.<br>• Key (A) unifies both empirical findings."
+    },
+    "hints": {
+      "concept": "Weigh the empirical dichotomy: asynchronous remote work minimizes workplace distractions and commuting stress, but attenuates spontaneous interpersonal brainstorming.",
+      "execution": "Select option (A), which synthesizes the gain in individual execution with the accompanying challenge in fostering unplanned creative breakthroughs."
+    },
+    "explanation": "The passage synthesizes conflicting evidence in organizational sociology: distributed work environments enhance focused individual productivity and reduce burnout from commuting, but simultaneously diminish serendipitous interactions ('hallway encounters') that typically spark radical cross-functional innovation. Option (A) synthesizes both dimensions without bias.",
+    "answer": "A"
   },
   {
     "id": "eng-sim-15",
@@ -5082,7 +5010,17 @@ window.TKA_ENG_QUESTIONS = [
     "correctKeys": [
       "A",
       "C"
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: CHEMOLITHOAUTOTROPHY AT HYDROTHERMAL VENTS",
+      "latex": "\\text{H}_2\\text{S} + 2\\text{O}_2 \\to \\text{SO}_4^{2-} + 2\\text{H}^+ + \\text{Energy} \\quad (\\Delta G^\\circ < 0)",
+      "legend": "• Hydrothermal ecosystems rely on chemolithoautotrophic sulfur oxidation, decoupled from sunlight, sustaining symbiotic invertebrates.<br>• Multi-choice format: Select both scientifically accurate statements."
+    },
+    "hints": {
+      "concept": "Examine how abyssal ecosystems operate in complete darkness using chemical energy from geothermal effluents.",
+      "execution": "Select options (A) and (C). Primary production is independent of solar photons (A), and gutless tube worms rely on bacterial endosymbionts in their trophosome (C)."
+    },
+    "explanation": "Abyssal hydrothermal vents represent unique ecosystems where primary production is chemolithoautotrophic, driven by sulfur-oxidizing bacteria rather than solar photosynthesis (A). Invertebrates such as the giant tube worm (*Riftia pachyptila*) lack a digestive tract and depend entirely on billions of endosymbiotic bacteria inhabiting their vascularized trophosome tissue to synthesize organic nutrients (C)."
   },
   {
     "id": "eng-sim-16",
@@ -5101,11 +5039,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Overcome density-driven gravitational segregation and solid-solution microsegregation caused by disparate elemental melting points"
+        "text": "Induce radioactive transmutation of lighter elements into platinum group metals"
       },
       {
         "key": "C",
-        "text": "Induce radioactive transmutation of lighter elements into platinum group metals"
+        "text": "Overcome density-driven gravitational segregation and solid-solution microsegregation caused by disparate elemental melting points"
       },
       {
         "key": "D",
@@ -5116,7 +5054,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Completely vaporize all transition metals from the crystal matrix"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: METALLURGICAL PROTOCOLS & HIGH-ENTROPY ALLOYS",
+      "latex": "\\Delta G_{\\text{mix}} = \\Delta H_{\\text{mix}} - T\\Delta S_{\\text{mix}}, \\quad \\Delta S_{\\text{mix}} = -R\\sum_{i=1}^n x_i \\ln x_i",
+      "legend": "• High-entropy alloy synthesis requires vacuum arc melting with repeated inversion and remelting to eliminate macroscopic elemental segregation.<br>• Key (C) provides the operational justification."
+    },
+    "hints": {
+      "concept": "Consider the metallurgical challenge of alloying five elements with vastly different densities, melting points, and vapor pressures.",
+      "execution": "Identify the procedural rationale for multiple remelting cycles: ensuring homogeneous elemental distribution throughout the alloy ingot (option C)."
+    },
+    "explanation": "High-entropy alloys consist of multiple principal elements in near-equiatomic proportions. Because constituent elements have disparate melting points and densities, a single melt produces severe gravitational segregation and incomplete dissolution. Turning the ingot over and remelting it multiple times under high vacuum with electromagnetic stirring ensures complete chemical and phase homogeneity. Option (C) explains this protocol requirement.",
+    "answer": "C"
   },
   {
     "id": "eng-sim-17",
@@ -5135,7 +5084,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Assuming that because state $X$ causes neural response $Y$, observing neural response $Y$ proves state $X$ occurred (affirming the consequent)"
+        "text": "A slippery slope fallacy asserting that watching advertisements inevitably causes permanent brain damage"
       },
       {
         "key": "C",
@@ -5143,14 +5092,25 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A slippery slope fallacy asserting that watching advertisements inevitably causes permanent brain damage"
+        "text": "Assuming that because state $X$ causes neural response $Y$, observing neural response $Y$ proves state $X$ occurred (affirming the consequent)"
       },
       {
         "key": "E",
         "text": "A circular argument defining commercial advertising as the biological creator of the insula cortex"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: EPISTEMIC SKEPTICISM & REVERSE INFERENCE",
+      "latex": "P(\\text{Cognitive State } C \\mid \\text{Brain Activation } A) \\ne P(\\text{Brain Activation } A \\mid \\text{Cognitive State } C)",
+      "legend": "• Methodological critique: Inferring a specific mental state from localized brain activation commits the fallacy of reverse inference.<br>• Key (D) articulates this critique of neuromarketing claims."
+    },
+    "hints": {
+      "concept": "Focus on the logical fallacy of reverse inference in functional neuroimaging: brain regions like the insula or amygdala activate during many unrelated cognitive tasks.",
+      "execution": "Look for the option that critiques commercial neuromarketers for presenting loose neuroimaging correlations as definitive proof of subconscious consumer desires (option D)."
+    },
+    "explanation": "Cognitive neuroscientists caution against the flawed logical leap of reverse inference often deployed in commercial neuromarketing. Demonstrating blood-oxygen-level-dependent (BOLD) activation in emotional brain regions does not prove a specific emotional reaction (such as brand affinity), because those same neural circuits are recruited by numerous sensory, cognitive, and attentional demands. Option (D) exposes this methodological vulnerability.",
+    "answer": "D"
   },
   {
     "id": "eng-sim-18",
@@ -5169,7 +5129,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Immense hydrostatic pressure supersaturating the deep water with toxic concentrations of dissolved oxygen"
+        "text": "The absolute absence of any dissolved gases within the subglacial water column"
       },
       {
         "key": "C",
@@ -5181,10 +5141,21 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "The absolute absence of any dissolved gases within the subglacial water column"
+        "text": "Immense hydrostatic pressure supersaturating the deep water with toxic concentrations of dissolved oxygen"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: EXTREMOPHILE ECOLOGY: SUBGLACIAL LAKE VOSTOK",
+      "latex": "P_{\\text{ice}} = \\rho g h \\approx 36\\text{ MPa}, \\quad [O_2]_{\\text{dissolved}} \\gg [O_2]_{\\text{surface}}",
+      "legend": "• Subglacial Lake Vostok presents an oligotrophic, hyper-oxygenated, high-pressure environment sealed beneath Antarctic ice.<br>• Key (E) identifies these unique physical constraints."
+    },
+    "hints": {
+      "concept": "Evaluate the unique chemical and physical conditions under 4 kilometers of Antarctic glacial ice: extreme hydrostatic pressure, perpetual darkness, and high dissolved oxygen.",
+      "execution": "Select option (E), which notes that microbial extremophiles in Lake Vostok must withstand high hydrostatic pressures and oligotrophic, oxygen-saturated conditions."
+    },
+    "explanation": "Subglacial Lake Vostok is an isolated aquatic ecosystem sealed under 4,000 meters of glacial ice for millions of years. Organisms inhabiting this environment must endure hydrostatic pressures of roughly 36 MPa, complete darkness, near-freezing temperatures, and high concentrations of dissolved atmospheric gases delivered by continuous glacial melting. Option (E) describes these distinct environmental adaptations.",
+    "answer": "E"
   },
   {
     "id": "eng-sim-19",
@@ -5212,7 +5183,17 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Narrow urban canyons with high building height-to-width ($H/W$) ratios exhibit greater nocturnal heat retention due to reduced sky view factors.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: URBAN CANOPY MICROCLIMATOLOGY MATRIX",
+      "latex": "Q^* = Q_H + Q_E + \\Delta Q_S + Q_F \\quad (\\text{Surface Energy Balance})",
+      "legend": "• High albedo reduces surface sensible heat flux, but reflected radiation can increase pedestrian radiant stress in narrow canyons.<br>• Matrix format: True / False / True."
+    },
+    "hints": {
+      "concept": "Examine microclimate dynamics in urban canyons: surface solar reflectance, mean radiant temperature ($T_{mrt}$), and nocturnal longwave radiative trapping.",
+      "execution": "Statement 1: TRUE (higher albedo reduces sensible heat flux). Statement 2: FALSE (reflective pavements increase radiation on pedestrians, raising midday thermal stress). Statement 3: TRUE (high $H/W$ aspect ratios trap heat at night)."
+    },
+    "explanation": "Statement 1 is TRUE because increasing surface albedo reflects incoming solar radiation, reducing the absorption of solar energy and sensible heat emission to the air. Statement 2 is FALSE because highly reflective pavements reflect solar radiation directly onto pedestrians, increasing the mean radiant temperature and worsening daytime heat stress. Statement 3 is TRUE because deep urban street canyons restrict the sky view factor, impeding nighttime radiative cooling."
   },
   {
     "id": "eng-sim-20",
@@ -5227,7 +5208,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Whether climate change is driven by greenhouse gas emissions, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "Whether climate change is driven by greenhouse gas emissions"
       },
       {
         "key": "B",
@@ -5246,7 +5227,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Whether battery storage requires minerals extracted from the earth"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: COMPARATIVE RHETORIC: ENERGY TRANSITION",
+      "latex": "\\text{Policy Debate} \\implies \\text{High Energy Density / Baseload} \\iff \\text{Capital Intensity / Deployment Velocity}",
+      "legend": "• Dissect the core point of disagreement: technological necessity of continuous nuclear baseload vs economic unfeasibility and construction delays.<br>• Key (B) captures this central conflict."
+    },
+    "hints": {
+      "concept": "Identify the fundamental axis of debate between Author A (defending nuclear baseload reliability) and Author B (highlighting prohibitive costs and lengthy lead times).",
+      "execution": "Select option (B), which pinpoints that the dispute centers on the financial cost-effectiveness and deployment speed of nuclear reactors compared to modular alternatives."
+    },
+    "explanation": "Author A argues that reaching net-zero industrial energy goals requires the continuous high-density baseload of modern nuclear reactors, whereas Author B argues that escalating capital costs, regulatory overhead, and multi-decade lead times render nuclear expansion too slow and expensive compared to renewables and battery storage. Option (B) accurately isolates this central disagreement.",
+    "answer": "B"
   },
   {
     "id": "eng-sim-21",
@@ -5261,11 +5253,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Achieve rapid cooling rates ($> 10^5\\\\ K/s}$) that surpass the Leidenfrost barrier and form amorphous vitreous ice without crystalline lattice structures that destroy protein architecture"
       },
       {
         "key": "B",
-        "text": "Achieve rapid cooling rates ($> 10^5\\\\ K/s}$) that surpass the Leidenfrost barrier and form amorphous vitreous ice without crystalline lattice structures that destroy protein architecture"
+        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -5280,7 +5272,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Sterilize the sample grid against bacterial contamination using ethane combustion"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: CRYO-EM SAMPLE VITRIFICATION PROTOCOL",
+      "latex": "\\frac{dT}{dt} > 10^5\\text{ K/s} \\implies \\text{Amorphous Vitreous Ice} \\quad (\\neg \\text{Crystalline Hexagonal Ice})",
+      "legend": "• Plunge-freezing into liquid ethane achieves ultrafast cooling that bypasses ice crystallization, preserving macromolecules in glass-like vitreous water.<br>• Key (A) identifies this physical objective."
+    },
+    "hints": {
+      "concept": "Understand why biological specimens for cryo-electron microscopy must be frozen rapidly in liquid ethane rather than liquid nitrogen.",
+      "execution": "Look for the option explaining that ultra-rapid freezing bypasses the formation of destructive crystalline hexagonal ice, forming amorphous vitreous ice (option A)."
+    },
+    "explanation": "In single-particle cryo-EM, biological samples in aqueous solutions must be frozen at rates exceeding $10^5\text{ K/s}$ using liquid ethane (which offers superior thermal transfer without forming an insulating gas layer). This rapid quenching freezes water into amorphous, glass-like vitreous ice, preventing ice crystal lattice expansion from distorting or shearing delicate protein complexes. Option (A) defines this essential biophysical goal.",
+    "answer": "A"
   },
   {
     "id": "eng-sim-22",
@@ -5299,11 +5302,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The treaty is a tactical deception designed to buy time for imminent military preparations."
+        "text": "General Morzan is illiterate and unable to understand the clauses of the document."
       },
       {
         "key": "C",
-        "text": "General Morzan is illiterate and unable to understand the clauses of the document."
+        "text": "The treaty is a tactical deception designed to buy time for imminent military preparations."
       },
       {
         "key": "D",
@@ -5314,7 +5317,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "The mules outside are carrying stolen temple relics back to the capital."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: SUBTEXTUAL NARRATIVE INTERPRETATION",
+      "latex": "\\text{Subtext} \\implies \\text{Surface Diplomatic Politeness} \\iff \\text{Underlying Military Mobilization}",
+      "legend": "• Narrative subtext: Subtle physical gestures, concealed armaments, and formal bravado indicate the treaty is a tactical deception for war.<br>• Key (C) decodes this dramatic subtext."
+    },
+    "hints": {
+      "concept": "Analyze the incongruity between the surface peace treaty signing and the characters' tense physical posture and tactical maneuvering.",
+      "execution": "Select option (C), which recognizes that the signed treaty is a calculated pretense designed to stall for time while military forces prepare for imminent conflict."
+    },
+    "explanation": "The scene is saturated with dramatic subtext: Lord Vane's deliberate flourish, General Morzan's steady grip on his sword belt, and the armed cavalcade outside signal that the parchment is a strategic sham. Neither party intends to honor the peace clauses; both are using the formal ceremony to delay hostilities and assemble reinforcements. Option (C) captures this subtextual reality.",
+    "answer": "C"
   },
   {
     "id": "eng-sim-23",
@@ -5333,7 +5347,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Survivorship bias: planes hit in vital areas (engines/cockpit) crashed and were missing from the sample, while wings could sustain hits without fatal loss."
+        "text": "Confirmation bias: ground mechanics intentionally fabricated bullet hole counts to demand higher salaries."
       },
       {
         "key": "C",
@@ -5341,14 +5355,25 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Confirmation bias: ground mechanics intentionally fabricated bullet hole counts to demand higher salaries."
+        "text": "Survivorship bias: planes hit in vital areas (engines/cockpit) crashed and were missing from the sample, while wings could sustain hits without fatal loss."
       },
       {
         "key": "E",
         "text": "The military command had mistakenly inspected enemy fighter planes rather than their own bombers."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: COGNITIVE HEURISTICS & SURVIVORSHIP BIAS",
+      "latex": "P(\\text{Hit } H \\mid \\text{Returned}) \\ne P(\\text{Hit } H \\mid \\text{Total Planes}) \\implies \\text{Reinforce Undamaged Areas}",
+      "legend": "• Statistical insight: Aircraft that returned survived damage to perforated areas; aircraft struck in untouched regions (engines/cockpit) crashed.<br>• Key (D) explains this survivorship bias."
+    },
+    "hints": {
+      "concept": "Recall Abraham Wald's World War II statistical breakthrough regarding bullet holes on returning aircraft.",
+      "execution": "Identify the logical fallacy of inspecting only surviving planes: armor should be reinforced where returning planes have NO bullet holes (engines/cockpit), pointing to option (D)."
+    },
+    "explanation": "Military leadership initially proposed reinforcing the fuselage and wings because returning bombers exhibited the highest concentration of bullet holes in those sections. Statistician Abraham Wald realized this was a classic example of survivorship bias: planes hit in the wings and fuselage survived to be inspected, whereas planes hit in the engine or cockpit were lost in combat. Therefore, armor reinforcement was urgently needed where bullet holes were absent (option D).",
+    "answer": "D"
   },
   {
     "id": "eng-sim-24",
@@ -5385,7 +5410,17 @@ window.TKA_ENG_QUESTIONS = [
     "correctKeys": [
       "B",
       "C"
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: STEM CELL EPIGENETICS & YAMANAKA REPROGRAMMING",
+      "latex": "\\{\\text{Oct4}, \\text{Sox2}, \\text{Klf4}, \\text{c-Myc}\\} \\to \\text{Chromatin Remodeling} \\to \\text{Pluripotent Gene Expression}",
+      "legend": "• Yamanaka factor reprogramming demonstrates that cellular differentiation preserves an intact genome and that epigenetic restrictions are reversible.<br>• Multi-choice format: Select both biological insights."
+    },
+    "hints": {
+      "concept": "Reflect on what the creation of induced pluripotent stem cells (iPSCs) proved about cellular specialization and epigenetic memory.",
+      "execution": "Select options (B) and (C). Differentiated adult genomes retain the complete developmental genetic code (B), and epigenetic chromatin barriers can be enzymatically reset (C)."
+    },
+    "explanation": "Yamanaka's Nobel Prize-winning reprogramming demonstrated that cellular differentiation is not governed by irreversible DNA deletions; mature somatic cells retain an intact, totipotent genetic sequence (B). Furthermore, transient ectopic expression of the OSKM factors remodels repressive heterochromatin and DNA methylation, reactivating the dormant pluripotency transcriptional network (C)."
   },
   {
     "id": "eng-sim-25",
@@ -5400,11 +5435,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The transiting planet rapidly changes its physical radius during orbital transit, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "The transiting planet rapidly changes its physical radius during orbital transit"
       },
       {
         "key": "B",
-        "text": "Stellar limb darkening causes the center of the stellar disk to radiate higher luminous intensity than its peripheral limb."
+        "text": "The host star's gravitational field completely blocks all photons as the planet touches the stellar horizon."
       },
       {
         "key": "C",
@@ -5416,10 +5451,21 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "The host star's gravitational field completely blocks all photons as the planet touches the stellar horizon."
+        "text": "Stellar limb darkening causes the center of the stellar disk to radiate higher luminous intensity than its peripheral limb."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: EXOPLANETARY PHOTOMETRY & LIMB DARKENING",
+      "latex": "\\Delta F / F = \\left(\\frac{R_p}{R_*}\\right)^2, \\quad I(\\mu) = I(1)[1 - u(1 - \\mu)] \\quad (\\mu = \\cos\\theta)",
+      "legend": "• Stellar limb darkening causes a curved, U-shaped light curve during planetary transit rather than a flat, square well.<br>• Key (E) identifies this astrophysical phenomenon."
+    },
+    "hints": {
+      "concept": "Consider why an exoplanet transit light curve dips into a smooth, rounded curve instead of a flat-bottomed rectangular trough.",
+      "execution": "Identify the stellar physics factor: stellar atmospheres appear brighter at the center than at the edges (limb darkening), producing option (E)."
+    },
+    "explanation": "In astronomical transit photometry, the fractional drop in stellar brightness reflects the ratio of planetary to stellar area. If stars were uniform disks, transit light curves would feature flat bottoms. Because stellar atmospheres exhibit limb darkening (optical paths traverse cooler, less luminous upper layers near the disk limb), the planet blocks more flux when passing across the hotter center, generating a characteristic U-shaped light curve. Option (E) explains this effect.",
+    "answer": "E"
   },
   {
     "id": "eng-sim-26",
@@ -5453,7 +5499,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Proving that human judges never experience psychological fatigue during sentencing hearings"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: SOCIOTECHNICAL AUDIT: ALGORITHMIC BIAS",
+      "latex": "\\text{Systemic Bias} \\implies \\text{Historical Arrest Disparities} \\xrightarrow{\\text{ML Training}} \\text{Automated Risk Scores}",
+      "legend": "• Algorithmic recidivism software encodes and legitimizes historical policing inequities under the guise of mathematical objectivity.<br>• Key (B) captures the author's primary rhetorical critique."
+    },
+    "hints": {
+      "concept": "Analyze the author's argument regarding automated criminal risk assessment algorithms and training data.",
+      "execution": "Identify the tension highlighted by the author: contrasting the marketing promise of computational fairness with the reality of baked-in historical discrimination (option B)."
+    },
+    "explanation": "The author builds a persuasive critique of algorithmic justice tools by contrasting their marketed promise of impartiality with their real-world operation: machine learning models trained on historical arrest data inevitably encode and amplify systemic racial and socioeconomic disparities in policing. Option (B) captures this core rhetorical critique.",
+    "answer": "B"
   },
   {
     "id": "eng-sim-27",
@@ -5468,11 +5525,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Minimize background electrical current leakage, thereby dramatically increasing the signal-to-noise ratio and preventing current bypass around the pipette tip"
       },
       {
         "key": "B",
-        "text": "Minimize background electrical current leakage, thereby dramatically increasing the signal-to-noise ratio and preventing current bypass around the pipette tip"
+        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -5487,7 +5544,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Allow room-temperature air bubbles to enter the neuronal axon"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: PATCH-CLAMP ELECTROPHYSIOLOGY PROTOCOL",
+      "latex": "R_{\\text{seal}} > 10^9\\text{ }\\Omega \\implies I_{\\text{leak}} = \\frac{V_{\\text{clamp}}}{R_{\\text{seal}}} \\approx 0 \\implies \\text{Single-Channel Resolution}",
+      "legend": "• Gigaseal formation minimizes shunt current leakage and Johnson-Nyquist thermal noise, enabling single ion channel resolution.<br>• Key (A) identifies this electrical recording necessity."
+    },
+    "hints": {
+      "concept": "Recall the fundamental requirement in patch-clamp neurophysiology: why must the glass pipette form an electrical seal exceeding 1 Gigaohm with the cell membrane?",
+      "execution": "Select option (A), which explains that the gigaseal eliminates electrical shunt leakage, reducing noise to resolve tiny picoampere currents."
+    },
+    "explanation": "In patch-clamp electrophysiology, suction creates an extremely tight gigaseal ($R_{\text{seal}} > 1\text{ G}\\Omega$) between the glass micropipette and the cell membrane. This high-resistance barrier prevents current from leaking into the extracellular bath, attenuating thermal noise and allowing amplifiers to measure discrete conformational state transitions of individual ion channels at picoampere resolution. Option (A) describes this principle.",
+    "answer": "A"
   },
   {
     "id": "eng-sim-28",
@@ -5506,11 +5574,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "By synchronizing sensory countdown cues (footsteps, ticking hours) with an urgent act of evidence destruction under immediate peril"
+        "text": "By having Elena engage in an extensive verbal argument with the intruder"
       },
       {
         "key": "C",
-        "text": "By having Elena engage in an extensive verbal argument with the intruder"
+        "text": "By synchronizing sensory countdown cues (footsteps, ticking hours) with an urgent act of evidence destruction under immediate peril"
       },
       {
         "key": "D",
@@ -5521,7 +5589,18 @@ window.TKA_ENG_QUESTIONS = [
         "text": "By revealing that Elena had sent an encrypted email to her military commander"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: LITERARY TENSION & NARRATIVE SUSPENSE",
+      "latex": "\\text{Narrative Suspense} \\implies \\text{Sensory Pacing (Clock / Footsteps)} \\times \\text{High-Stakes Decryption Deadline}",
+      "legend": "• The author heightens narrative suspense by synchronizing external auditory threats with internal cognitive urgency.<br>• Key (C) explains this literary technique."
+    },
+    "hints": {
+      "concept": "Analyze how the author builds dramatic tension in the climactic decryption scene.",
+      "execution": "Look for the technique that pairs sensory countdown elements (the ticking clock, creaking floorboards) with Elena's urgent mathematical calculations (option C)."
+    },
+    "explanation": "The narrative achieves dramatic tension through the deliberate juxtaposition of auditory countdown cues (the approaching footsteps, the striking of the midnight hour) with Elena's high-stakes intellectual effort to complete the substitution cipher. This synchronization of impending physical peril with rapid cognitive problem-solving accelerates the narrative pacing toward its climax. Option (C) accurately analyzes this literary device.",
+    "answer": "C"
   },
   {
     "id": "eng-sim-29",
@@ -5549,7 +5628,17 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Long-term macroevolutionary adaptations over millions of years still require stabilization through enduring genomic DNA sequence variations.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: EXTENDED EVOLUTIONARY SYNTHESIS MATRIX",
+      "latex": "\\text{Phenotypic Adaptation} \\implies \\text{Epigenetic Plasticity (Transient)} + \\text{Genomic DNA Selection (Enduring)}",
+      "legend": "• Transgenerational epigenetics provides rapid, environmentally responsive phenotypic plasticity without replacing genomic selection.<br>• Matrix format: False / True / True."
+    },
+    "hints": {
+      "concept": "Evaluate how epigenetic inheritance integrates into evolutionary biology: it enhances short-term phenotypic flexibility while long-term evolution still relies on genetic variation.",
+      "execution": "Statement 1: FALSE (epigenetics does not disprove Mendelian inheritance). Statement 2: TRUE (epigenetic marks provide rapid adaptive plasticity). Statement 3: TRUE (macroevolutionary shifts require enduring DNA sequence changes)."
+    },
+    "explanation": "Statement 1 is FALSE because transgenerational epigenetic inheritance does not invalidate the chromosome theory of inheritance or Mendelian genetics, but rather adds a layer of regulatory nuance. Statement 2 is TRUE because chromatin modifications offer a mechanism for organisms to express rapid adaptive phenotypic adjustments to acute environmental stresses across generations. Statement 3 is TRUE because macroevolutionary adaptations across geological epochs require permanent, sequence-level genomic variations."
   },
   {
     "id": "eng-sim-30",
@@ -5564,7 +5653,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding"
       },
       {
         "key": "B",
@@ -5583,6 +5672,177 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Generate an artificial magnetic monopole that anchors the interferometer to the Earth's core"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "READING STRATEGY & DISCOURSE RIGOR: LASER INTERFEROMETRY & GRAVITATIONAL WAVES",
+      "latex": "L_{\\text{eff}} = \\frac{2N L}{\\pi} \\approx 300 \\times 4\\text{ km} \\approx 1200\\text{ km}, \\quad h = \\frac{\\Delta L}{L} \\sim 10^{-21}",
+      "legend": "• Fabry-Pérot cavities multiply the effective optical path length by bouncing laser photons hundreds of times, amplifying phase shift sensitivity.<br>• Key (B) explains this optical mechanism."
+    },
+    "hints": {
+      "concept": "Why does LIGO utilize Fabry-Pérot resonant cavities within its 4-kilometer orthogonal arms?",
+      "execution": "Identify the optical advantage: bouncing laser photons hundreds of times multiplies the effective arm length to over a thousand kilometers, increasing phase shift detection (option B)."
+    },
+    "explanation": "Gravitational waves distort spacetime by infinitesimal fractions ($h \\sim 10^{-21}$), altering the 4-km arm lengths by less than one-ten-thousandth the diameter of a proton. By trapping laser beams in Fabry-Pérot optical cavities where light bounces roughly 300 times before recombining, LIGO extends the effective optical path length to approximately 1,200 km, dramatically enhancing the differential phase shift sensitivity required for detection. Option (B) elucidates this physics principle.",
+    "answer": "B"
+  },
+  {
+    "id": "eng-diag-01",
+    "subject": "eng",
+    "materi": "ACADEMIC READING & SYNTHESIS",
+    "topic": "Main Idea & Synthesizing Multi-Perspective Scientific Expositions",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Read the following academic excerpt carefully:<br><br><em>'The transition to post-silicon microarchitectures presents a bifurcated dilemma for computational engineers. Quantum annealing platforms offer extraordinary speedups for combinatorial optimization, yet their susceptibility to thermal decoherence necessitates cryo-cooling apparatuses that render decentralized mobile integration unfeasible. Conversely, neuromorphic memristive arrays mimic biological synapses at near-ambient temperatures with orders-of-magnitude lower energy footprints, but currently lack the deterministic arithmetic precision demanded by mission-critical financial and cryptographic ledgers.'</em><br><br>Which of the following statements best synthesizes the primary thesis of the passage?",
+    "options": {
+      "A": "Quantum computing is fundamentally obsolete compared to low-power biological neuromorphic processors.",
+      "B": "Neuromorphic computing has already replaced silicon chips in high-frequency cryptographic trading servers.",
+      "C": "Decentralized mobile devices will exclusively adopt cryogenic cooling modules by the next decade.",
+      "D": "Both quantum and neuromorphic platforms will be abandoned in favor of legacy silicon microprocessors.",
+      "E": "Alternative post-silicon architectures involve mutually distinct engineering trade-offs between thermal viability and computational precision."
+    },
+    "correctKey": "E",
+    "explanation": "<strong>Academic Synthesis Analysis:</strong><br>The passage sets up a deliberate compare-and-contrast analysis between two emerging computational paradigms: quantum annealers (fast but thermal/cooling constrained) and neuromorphic chips (ambient and energy-efficient but lacking exact mathematical precision). The thesis is that each post-silicon paradigm incurs specific engineering trade-offs regarding thermal management versus precision (Option E). Options A, B, C, and D state unwarranted absolutes directly contradicted by the text.",
+    "clue1": "Look at the words 'bifurcated dilemma', 'yet', and 'Conversely' which establish reciprocal trade-offs.",
+    "clue2": "Identify the option that captures both paradigms without declaring one prematurely victorious.",
+    "formula": "Thesis Synthesis = Core Paradigm Comparison - Absolute Generalizations",
+    "concept_hint": "Look at the words 'bifurcated dilemma', 'yet', and 'Conversely' which establish reciprocal trade-offs.",
+    "execution_hint": "Identify the option that captures both paradigms without declaring one prematurely victorious.",
+    "hints": {
+      "concept": "Look at the words 'bifurcated dilemma', 'yet', and 'Conversely' which establish reciprocal trade-offs.",
+      "execution": "Identify the option that captures both paradigms without declaring one prematurely victorious."
+    }
+  },
+  {
+    "id": "eng-diag-02",
+    "subject": "eng",
+    "materi": "INFERENTIAL ANALYSIS",
+    "topic": "Deep Inferential Reasoning: Complex Cause-and-Effect Dynamics",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Read the excerpt below regarding marine ecology:<br><br><em>'Benthic calcifiers like deep-sea scleractinian corals exhibit diminished aragonite saturation states as anthropogenic carbon dissolves into oceanic waters, driving down ambient pH. Curiously, in hydrothermal vent ecotones where localized chemosynthetic sulfur-oxidizing bacteria continuously buffer surrounding waters with alkaline metabolic byproducts, scleractinian colonies thrive despite elevated ambient water temperatures.'</em><br><br>What can be logically inferred about coral calcification and survivability based on the text?",
+    "options": {
+      "A": "Chemical neutralization of localized water acidity can mitigate the deleterious impacts of ocean acidification on coral calcification.",
+      "B": "Scleractinian corals calcify more rapidly at higher water temperatures irrespective of carbonate saturation levels.",
+      "C": "Sulfur-oxidizing bacteria actively consume coral polyps to maintain ambient benthic alkaline balances.",
+      "D": "Global ocean acidification is universally harmless to all marine calcifying invertebrates near continental shelves.",
+      "E": "Hydrothermal vents are the exclusive natural habitats capable of sustaining modern scleractinian coral reefs."
+    },
+    "correctKey": "A",
+    "explanation": "<strong>Inferential Cause-Effect Analysis:</strong><br>The text explains that corals suffer when acidification reduces aragonite saturation. However, near vents, alkaline byproducts from bacteria buffer (neutralize) the acid, allowing the corals to thrive despite thermal stress. We can infer that counteracting localized acidity via chemical buffering effectively preserves coral calcification mechanisms against ocean acidification (Option A).",
+    "clue1": "Observe the protective role played by 'alkaline metabolic byproducts' buffering the water against reduced pH.",
+    "clue2": "The cause of coral survival near hydrothermal vents is the mitigation of acidity.",
+    "formula": "Deep Inferential Logic: Observed Buffering Action \\implies Acidity Mitigation",
+    "concept_hint": "Observe the protective role played by 'alkaline metabolic byproducts' buffering the water against reduced pH.",
+    "execution_hint": "The cause of coral survival near hydrothermal vents is the mitigation of acidity.",
+    "hints": {
+      "concept": "Observe the protective role played by 'alkaline metabolic byproducts' buffering the water against reduced pH.",
+      "execution": "The cause of coral survival near hydrothermal vents is the mitigation of acidity."
+    }
+  },
+  {
+    "id": "eng-diag-03",
+    "subject": "eng",
+    "materi": "DISCOURSE STRUCTURE",
+    "topic": "Cohesion & Discourse Markers: Logical Flow and Conjunctions",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Select the discourse marker and transition phrase that best completes the sentence with appropriate academic cohesion and register:<br><br><em>'The longitudinal clinical trial established that the novel synthetic antibody successfully neutralized viral capsid replication in vitro; ____________, rigorous Phase III human trials revealed unexpected hepatic metabolization pathways that dampened overall in vivo therapeutic bioavailability.'</em>",
+    "options": {
+      "A": "similarly",
+      "B": "consequently",
+      "C": "nevertheless",
+      "D": "furthermore",
+      "E": "likewise"
+    },
+    "correctKey": "C",
+    "explanation": "<strong>Discourse Cohesion Analysis:</strong><br>The first independent clause presents positive experimental success (neutralized replication in vitro). The second clause reveals a critical setback in living human trials (dampened bioavailability). A concession or contrast transition is grammatically and semantically required. 'Nevertheless' expresses this exact contrastive concession (Option C). 'Consequently' indicates direct causation, while 'similarly', 'likewise', and 'furthermore' imply reinforcement of positive evidence.",
+    "clue1": "The first clause shows lab success ('in vitro'), while the second clause presents unexpected clinical failure ('in vivo').",
+    "clue2": "You need an adversative transition meaning 'in spite of that'.",
+    "formula": "Cohesive Discourse Marker: [Success In Vitro] + Nevertheless + [Failure In Vivo]",
+    "concept_hint": "The first clause shows lab success ('in vitro'), while the second clause presents unexpected clinical failure ('in vivo').",
+    "execution_hint": "You need an adversative transition meaning 'in spite of that'.",
+    "hints": {
+      "concept": "The first clause shows lab success ('in vitro'), while the second clause presents unexpected clinical failure ('in vivo').",
+      "execution": "You need an adversative transition meaning 'in spite of that'."
+    }
+  },
+  {
+    "id": "eng-diag-04",
+    "subject": "eng",
+    "materi": "COMPLEX MULTI-SELECT READING",
+    "topic": "Information Protocol: Multi-Evidence Academic Verification",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "multi",
+    "question": "Read the research brief on bacteriophage therapeutics:<br><br><em>'Bacteriophages, precision viral predators of prokaryotes, have re-emerged as a potent response to multidrug-resistant ESKAPE pathogens. Unlike broad-spectrum synthetic antibiotics that decimate beneficial commensal microflora, phages target strain-specific surface polysaccharides. Furthermore, empirical trials demonstrated that combining lytic phage cocktails with sub-inhibitory doses of beta-lactams resensitized resistant biofilms. However, rigorous genomic profiling remains mandatory prior to clinical deployment to ensure therapeutic strains do not harbor virulent prophage toxins or transmissible antimicrobial-resistance genes.'</em><br><br>Which of the following assertions are explicitly substantiated by the text? (Select all that apply)",
+    "options": {
+      "A": "Bacteriophages target bacterial cells with high specificity without indiscriminately eliminating beneficial gut microflora.",
+      "B": "Bacteriophage treatments completely eliminate all risks of bacterial adaptive evolutionary resistance.",
+      "C": "Synergistic effects have been observed when lytic phages are administered alongside low doses of conventional beta-lactams.",
+      "D": "Broad-spectrum antibiotics are scientifically proven to be permanently ineffective against all prokaryotic organisms.",
+      "E": "Prior to therapeutic administration, comprehensive genome sequencing is required to prevent the transmission of unwanted toxin genes."
+    },
+    "correctKey": [
+      "A",
+      "C",
+      "E"
+    ],
+    "explanation": "<strong>Multi-Select Evidence Verification:</strong><br>$\\bullet$ <strong>Statement A is substantiated:</strong> 'Unlike broad-spectrum synthetic antibiotics that decimate beneficial commensal microflora, phages target strain-specific surface polysaccharides.'<br>$\\bullet$ <strong>Statement C is substantiated:</strong> '...combining lytic phage cocktails with sub-inhibitory doses of beta-lactams resensitized resistant biofilms.'<br>$\\bullet$ <strong>Statement E is substantiated:</strong> '...rigorous genomic profiling remains mandatory prior to clinical deployment to ensure therapeutic strains do not harbor virulent prophage toxins...'<br>$\\bullet$ <em>Statement B is false:</em> The text never claims phages permanently eliminate evolutionary adaptation.<br>$\\bullet$ <em>Statement D is an overstatement</em> not claimed anywhere in the passage.",
+    "clue1": "Find the sentences mentioning 'strain-specific surface polysaccharides', 'beta-lactams', and 'genomic profiling'.",
+    "clue2": "Reject options containing extreme claims like 'completely eliminate all risks' or 'permanently ineffective'.",
+    "formula": "Information Verification Protocol: Valid Claims = Direct Empirical Textual Evidence",
+    "concept_hint": "Find the sentences mentioning 'strain-specific surface polysaccharides', 'beta-lactams', and 'genomic profiling'.",
+    "execution_hint": "Reject options containing extreme claims like 'completely eliminate all risks' or 'permanently ineffective'.",
+    "hints": {
+      "concept": "Find the sentences mentioning 'strain-specific surface polysaccharides', 'beta-lactams', and 'genomic profiling'.",
+      "execution": "Reject options containing extreme claims like 'completely eliminate all risks' or 'permanently ineffective'."
+    }
+  },
+  {
+    "id": "eng-diag-05",
+    "subject": "eng",
+    "materi": "EVALUATIVE DISCOURSE",
+    "topic": "Rhetorical Strategy: Author's Stance & Fact vs Opinion",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "matrix",
+    "question": "Read the cultural critique below regarding digital generative models:<br><br><em>'To laud deep neural generative engines as autonomous creative pioneers is to mistake sophisticated statistical regurgitation for genuine aesthetic intentionality. The transformer architecture undoubtedly represents a triumph of linear algebra and multidimensional token prediction. Yet, by stripping creative expression of embodied existential friction, corporate purveyors have manufactured a sterile ecosystem of derivative pastiche masquerading as artistic renaissance.'</em><br><br>Evaluate whether each rhetorical analysis statement below is TRUE (Benar) or FALSE (Salah) based on the author's stance and discourse craft:",
+    "statements": [
+      {
+        "id": "stmt1",
+        "text": "The author completely denies the mathematical ingenuity and engineering achievements of generative transformer models."
+      },
+      {
+        "id": "stmt2",
+        "text": "The phrase 'derivative pastiche' is utilized by the author as an evaluative aesthetic critique rather than an objective technological description."
+      },
+      {
+        "id": "stmt3",
+        "text": "The overall rhetorical purpose of the text is to challenge the assertion that statistical predictive text generation equates to conscious human artistry."
+      }
+    ],
+    "correctKey": {
+      "stmt1": "salah",
+      "stmt2": "benar",
+      "stmt3": "benar"
+    },
+    "explanation": "<strong>Evaluasi Matriks Analisis Retoris:</strong><br>1. <strong>Pernyataan 1: SALAH.</strong><br>The author explicitly praises the mathematics: 'The transformer architecture undoubtedly represents a triumph of linear algebra and multidimensional token prediction.' Thus, the author does not deny the mathematical feat.<br>2. <strong>Pernyataan 2: BENAR.</strong><br>'Derivative pastiche' is clearly emotionally charged, evaluative critique attacking the lack of original soul, rather than neutral technical terminology.<br>3. <strong>Pernyataan 3: BENAR.</strong><br>The overarching thesis is explicitly stated in the first sentence: to expose the fallacy of conflating statistical regurgitation with genuine aesthetic intentionality.",
+    "clue1": "Look at the concession where the author calls the transformer architecture a 'triumph of linear algebra'.",
+    "clue2": "Consider whether 'derivative pastiche' is a neutral software term or a value judgment.",
+    "formula": "Rhetorical Analysis: Fact vs Value-Judgment & Authorial Stance Verification",
+    "concept_hint": "Look at the concession where the author calls the transformer architecture a 'triumph of linear algebra'.",
+    "execution_hint": "Consider whether 'derivative pastiche' is a neutral software term or a value judgment.",
+    "hints": {
+      "concept": "Look at the concession where the author calls the transformer architecture a 'triumph of linear algebra'.",
+      "execution": "Consider whether 'derivative pastiche' is a neutral software term or a value judgment."
+    }
   }
 ];

@@ -4,7 +4,7 @@
 generate_authentic_bahasa_mandarin_2026.py
 -----------------------------------------
 Master compiler and validator for TKA 2026 Bahasa Mandarin (SMA/MA Pilihan Bahasa Asing).
-Anchored on Pusmendik Kemendikdasmen standards & BSKAP 033/H/KR/2024 / HSK 2–3+.
+Anchored on Pusmendik Kemendikdasmen standards & BSKAP 033/H/KR/2024 / HSK 2–3.
 
 Features:
 1. Aggregates 110 authentic questions:
@@ -155,7 +155,7 @@ def balance_keys_and_lengths(items):
                     new_options.append({"key": k, "text": distractors[d_idx]["text"]})
                     d_idx += 1
                 else:
-                    new_options.append({"key": k, "text": "此选项不符合上下文语境，属于干扰项。"})
+                    new_options.append({"key": k, "text": "语境不符的错误干扰项。"})
         
         item["options"] = new_options
         item["correctKey"] = target_k
@@ -253,7 +253,7 @@ def compile_bahasa_mandarin():
     # Export to questions_bahasa_mandarin.js
     out_path = os.path.join(os.path.dirname(__file__), "..", "data", "questions_bahasa_mandarin.js")
     js_content = "/**\n * TKA MASTERY HUB — QUESTIONS_BAHASA_MANDARIN.JS (110 SOAL AUTENTIK PUSMENDIK 2026)\n"
-    js_content += " * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Mandarin HSK 2-3+)\n"
+    js_content += " * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Mandarin HSK 2-3)\n"
     js_content += " * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)\n"
     js_content += " */\n"
     js_content += "window.TKA_BAHASA_MANDARIN_QUESTIONS = " + json.dumps(all_raw, indent=2, ensure_ascii=False) + ";\n"

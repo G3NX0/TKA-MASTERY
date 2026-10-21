@@ -1,6 +1,6 @@
 /**
  * TKA MASTERY HUB — QUESTIONS_BAHASA_MANDARIN.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Mandarin HSK 2-3+)
+ * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Mandarin HSK 2-3)
  * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
  */
 window.TKA_BAHASA_MANDARIN_QUESTIONS = [
@@ -3617,7 +3617,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "explanation": "Kunci Jawaban: (D) 呢 (ne - partikel interogatif yang ketika menempel langsung pada nomina berfungsi menanyakan keberadaan 'di mana objek tersebut?').. Kata Benda + 呢 (ne) berfungsi menanyakan 'di mana benda itu berada?': 我的手机呢？(Di mana ponsel saya?). Pilih: '呢 (ne)'."
   },
   {
-    "id": "man-lat-m-10",
+    "id": "man-lat-m-10b",
     "materi": "TATA BAHASA YUFA: PENGULANGAN KATA KERJA DENGAN YÒU (又) VS ZÀI (再)",
     "topic": "Pengulangan Aksi Masa Lampau (又) vs Pengulangan Masa Depan (再)",
     "hints": {

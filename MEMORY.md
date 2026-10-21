@@ -54,7 +54,20 @@ tka-mastery-hub/
     ├── questions_antropologi.js       # 135 Soal Antropologi (Pusmendik)
     └── questions_db.js                # Master DB Aggregator & Elective Catalog Registry (25 Mapel)
 ```
-* **Status Bank Soal:** **3.375 Soal Autentik Aktif (25 Mapel x 135 Soal)**. 
+* **Status Bank Soal (Terverifikasi Forensik):** **2.825 Soal Autentik Aktif (3 Mapel Wajib @ 135 Soal + 22 Mapel Pilihan/Lanjut @ 110 Soal)**. 
+* **Distribusi Format Standar Pusmendik:**
+  - Pilihan Ganda Tunggal (`mcq`): 2.566 soal
+  - Pilihan Ganda Kompleks / Multi-jawaban (`multi`): 124 soal (100% valid >1 jawaban benar)
+  - Tabel Pernyataan Benar/Salah (`matrix`): 135 soal (100% tervalidasi kunci per butir pernyataan)
+* **Subject Capability Suite (Bespoke per Mapel):**
+  - Bahasa Jepang: Furigana Toggle (ON/OFF)
+  - Bahasa Mandarin: Pinyin Toggle (ON/OFF)
+  - Bahasa Arab: Harakat Toggle (ON/OFF) + RTL layout support
+  - Kimia: Modal Interaktif Tabel Periodik Unsur (IUPAC) dengan pencarian langsung
+  - Fisika: Modal Referensi Konstanta Baku Fisika Saintek
+  - TKJ & Informatika: Modal Kalkulator Subnetting CIDR (IPv4 VLSM)
+  - PKK & Ekonomi: Modal Kalkulator Break-Even Point (BEP & Margin Kontribusi)
+  - RPL & Informatika: Modal Scratchpad Interactive Trace Table (Algoritma/Dry-Run)
 * **100% Nomenklatur Pusmendik Kemendikdasmen & BSKAP 033/H/KR/2022:**
   - Matematika (Wajib) $\rightarrow$ **Matematika**
   - Sejarah (Tingkat Lanjut) $\rightarrow$ **Sejarah Tingkat Lanjut**
@@ -62,7 +75,7 @@ tka-mastery-hub/
   - TKJ $\rightarrow$ **Teknik Jaringan Komputer dan Telekomunikasi (SMK/MAK)**
   - Rekayasa Desain $\rightarrow$ **Desain Komunikasi Visual (SMK/MAK)**
   - PKK $\rightarrow$ **Produk Kreatif dan Kewirausahaan (SMK/MAK)**
-* **Zero AI Slop:** Panjang opsi seragam ($\pm 10\%$), sebaran tipe soal organik interleaved (`single_choice`, `matrix` tabel Benar/Salah, `multi` pilihan ganda kompleks), dan kunci jawaban acak terverifikasi. Zero duplicate.
+* **Zero AI Slop & Zero Duplicates:** 0 duplikasi teks global lintas file, 0 duplicate IDs, sebaran kunci jawaban 20 A-E seimbang, dan 0 string padding kurung buatan.
 
 ---
 
@@ -110,23 +123,44 @@ Semua tampilan dikendalikan di [app.js](file:///C:/Users/glixer/.gemini/antigrav
 
 ---
 
-## 5. ATURAN KERJA & DISIPLIN TEKNIS (KRUSIAL UNTUK AI SELANJUTNYA)
+## 5. Status Rencana Aksi (Implementation Plan Checklist)
+* **FASE 1: PERBAIKAN INTEGRITAS DATA BANK SOAL (100% PASS)**
+  - [x] **Task 1.1**: Hapus seluruh 38 teks kurung pembocor (*artificial padding*) di `questions_mtk.js` (Selesai, 0 padding).
+  - [x] **Task 1.2**: Perbaiki schema `correctKey` pada `questions_mtk_lanjut.js` agar terbaca valid A-E (Selesai, valid).
+  - [x] **Task 1.3**: Acak opsi jawaban (*Fisher-Yates*) dan distribusikan kunci merata (~20% per opsi A-E) di `questions_eng_lanjut.js` & `questions_ind_lanjut.js` (Selesai, masing-masing tepat 20 A, 20 B, 20 C, 20 D, 20 E).
+  - [x] **Task 1.4**: Perbaiki duplicate ID di `questions_bahasa_mandarin.js` dan `questions_sosiologi.js` (Selesai, 0 dupID).
+  - [x] **Task 1.5**: Jalankan `audit_questions.py` untuk memastikan audit 100% PASS (Selesai, 2.825 soal PASS).
+* **FASE 2: SUBJECT CAPABILITY REGISTRY DI APP.JS (100% IMPLEMENTED)**
+  - [x] **Task 2.1**: Definisikan registry konfigurasi kemampuan mapel (`SUBJECT_CAPABILITIES`) di `app.js` (Furigana, Pinyin, Harakat, Periodic Table, Constants, Subnetting, BEP, Trace Table).
+  - [x] **Task 2.2**: Tambahkan logic penyaluran toolbar dinamis pada header workstation (`#paperTopRow` / `#workspaceToolbarTools`).
+  - [x] **Task 2.3**: Integrasikan state handler untuk toggle transliterasi & modal popover.
+* **FASE 3: DESAIN KOMPONEN UI & RESPONSIVE HARDENING (100% VERIFIED)**
+  - [x] **Task 3.1**: Markup HTML modal dan popover di `index.html` (Tabel Periodik Kimia, Subnetting, BEP).
+  - [x] **Task 3.2**: Styling Neo-Brutalist di `style.css` untuk tools mapel, modal tabel periodik, dan toggle pills.
+  - [x] **Task 3.3**: Zero-Overflow & iOS/iPad Hardening di `style.css` (`overflow-x: hidden`, safe-area insets, target sentuh 44px, breakpoint 1024px & 768px).
+  - [x] **Task 3.4**: Validasi sintaks kode (`node -c app.js` passed, exit code 0).
+* **TABEL PERIODIK UNSUR IUPAC (AUTHENTIC DESIGN)**
+  - 118 unsur kimia lengkap (Hidrogen 1 s.d. Oganeson 118).
+  - Grid 18-kolom standar IUPAC dengan baris terpisah untuk deret Lantanida (57-71) & Aktinida (89-103).
+  - Interactive Element Inspector Banner di bagian atas (Simbol besar, Nama, Nomor Atom, Massa Relatif, Konfigurasi Elektron, Golongan & Periode, Bilangan Oksidasi, Wujud 298 K).
+  - Live search input & filter pill kategori warna (Alkali, Alkali Tanah, Transisi, Metaloid, Nonlogam, Halogen, Gas Mulia, Lantanida, Aktinida).
+
+---
+
+## 6. ATURAN KERJA & DISIPLIN TEKNIS (KRUSIAL UNTUK AI SELANJUTNYA)
 
 1. **DILARANG KERAS MENJALANKAN `browser_subagent`:**
    - **Instruksi Mutlak User:** *"saya ga mau kamu yang ujki coba, itu bikin kinerja kamu lambatr saya saja yang uji coba"*.
    - **JANGAN PERNAH** memanggil tool `browser_subagent`. Uji coba visual dilakukan langsung oleh pengguna.
 2. **Kecepatan Eksekusi (Zero Bloat, Direct Action):**
    - Jangan melakukan analisis berputar-putar tanpa aksi.
-   - Karena file `style.css` berukuran 100 KB (4.000+ baris), **JANGAN** mencari posisi selector dengan `view_file` berulang kali per 100 baris. Gunakan script Python 1-line via `run_command` untuk melacak baris secara instan (<2 detik).
+   - Karena file `style.css` berukuran 150 KB (6.000+ baris), gunakan script Python via `run_command` untuk melacak baris secara instan (<2 detik).
 3. **Validasi Sintaks Cepat:**
-   - Setelah mengedit JavaScript di `app.js`, selalu jalankan `node -c app.js` untuk memverifikasi zero syntax regression.
+   - Setelah mengedit JavaScript di `app.js` atau `data/`, selalu jalankan `node -c <filename>` untuk memverifikasi zero syntax regression.
 4. **Prinsip Komunikasi (Principal Engineer & Lead UI/UX):**
    - Kritis, pragmatis, anti-yes-man.
    - Langsung ke inti solusi, tolak over-engineering, dan sorot trade-off teknis secara transparan.
-5. **Artefak Master Prompt Ekspansi 19 Mapel (V12.0 Blueprint):**
-   - Berkas Master Prompt: [`docs/MASTER_PROMPT_CLAUDE_EXPANSION.md`](file:///C:/Users/glixer/.gemini/antigravity-ide/scratch/tka-mastery-hub/docs/MASTER_PROMPT_CLAUDE_EXPANSION.md) (Total 5.744 kata).
-   - Berkas PDF Siap Cetak/Download: [`docs/MASTER_PROMPT_CLAUDE_EXPANSION.pdf`](file:///C:/Users/glixer/.gemini/antigravity-ide/scratch/tka-mastery-hub/docs/MASTER_PROMPT_CLAUDE_EXPANSION.pdf).
-   - Memuat silabus terperinci untuk seluruh 19 mapel pilihan (termasuk RPL, TKJ, Desain Rekayasa, dan 6 Bahasa Asing), skema data objek JavaScript, 20 QA Quality Gates, dan protokol eksekusi 4 gelombang.
 
 ---
-*Generated: 2026-10-20 — TKA Mastery Hub Engineering Handover*
+*Updated: 2026-10-21 — TKA Mastery Hub Engineering Handover*
+

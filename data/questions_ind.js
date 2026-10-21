@@ -1,6 +1,3 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_IND.JS (135 SOAL AUTENTIK)
- */
 window.TKA_IND_QUESTIONS = [
   {
     "id": "ind-lat-e-01",
@@ -1534,50 +1531,6 @@ window.TKA_IND_QUESTIONS = [
     ]
   },
   {
-    "id": "ind-lat-m-01",
-    "subject": "ind",
-    "materi": "PEMAHAMAN TEKSTUAL",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Gagasan Pokok Wacana Multiparagraf",
-    "type": "mcq",
-    "questionHtml": "<strong>Bacalah teks berikut dengan cermat!</strong><br><br>Penerapan kecerdasan buatan (<em>artificial intelligence</em>/AI) dalam sektor agrikultur modern telah membuka paradigma baru efisiensi bertani. Melalui sensor berbasis citra satelit dan algoritme pembelajaran mesin, petani mampu memetakan tingkat kelembapan tanah serta mendeteksi serangan hama sebelum gejala visual tampak meluas. Selain itu, sistem irigasi presisi berbasis AI mampu memangkas pemborosan air tawar hingga 40 persen dibandingkan teknik konvensional.<br><br>Gagasan pokok wacana di atas adalah...",
-    "formulaHud": {
-      "title": "IDE POKOK WACANA ILMIAH",
-      "latex": "\\text{Ide Pokok} = \\text{Pernyataan Payung yang Membawahi Seluruh Rincian}",
-      "legend": "• Wacana membahas penerapan AI dalam sektor pertanian dan berbagai keuntungan efisiensinya."
-    },
-    "hints": {
-      "concept": "Kalimat pertama bertindak sebagai kalimat topik; kalimat-kalimat berikutnya adalah ilustrasi teknologi pendukung.",
-      "execution": "Opsi C merangkum gagasan payung tersebut secara presisi."
-    },
-    "explanation": "<strong>Pembahasan:</strong><br>Kalimat pembuka (<em>'Penerapan kecerdasan buatan dalam sektor agrikultur modern telah membuka paradigma baru efisiensi bertani'</em>) merupakan tesis umum. Kalimat-kalimat setelahnya menguraikan rincian fungsi sensor satelit dan efisiensi air.<br><strong>Solusi:</strong> Opsi C adalah rangkuman gagasan pokok yang paling tepat.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Penggunaan citra satelit untuk mendeteksi kelembapan tanah, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
-      },
-      {
-        "key": "B",
-        "text": "Teknik konvensional dalam pertanian yang sangat boros air tawar."
-      },
-      {
-        "key": "C",
-        "text": "Peningkatan efisiensi pertanian modern melalui penerapan kecerdasan buatan."
-      },
-      {
-        "key": "D",
-        "text": "Keunggulan algoritme pembelajaran mesin dibanding mata manusia."
-      },
-      {
-        "key": "E",
-        "text": "Peran kecerdasan buatan dalam memprediksi harga komoditas pangan."
-      }
-    ],
-    "correctKey": "C"
-  },
-  {
     "id": "ind-lat-m-02",
     "subject": "ind",
     "materi": "PEMAHAMAN TEKSTUAL",
@@ -1790,50 +1743,6 @@ window.TKA_IND_QUESTIONS = [
         "isCorrect": true
       }
     ]
-  },
-  {
-    "id": "ind-lat-m-07",
-    "subject": "ind",
-    "materi": "PEMAHAMAN INFERENSIAL",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Sikap / Keberpihakan Penulis dalam Teks Berita",
-    "type": "mcq",
-    "questionHtml": "<strong>Bacalah teks opini berikut!</strong><br><br>Kenaikan tarif transportasi umum massal di tengah lesunya daya beli masyarakat sungguh langkah yang tidak bijaksana. Alih-alih meningkatkan pendapatan operator, kebijakan ini justru berisiko memicu migrasi penumpang kembali ke kendaraan pribadi berbasis bensin, yang berujung pada semakin parahnya kemacetan dan kepulan polusi udara perkotaan. Kebijakan ini seharusnya dikaji ulang secara matang dengan mengutamakan subsidi tarif bagi pekerja komuter.<br><br>Sikap penulis wacana terhadap kebijakan kenaikan tarif transportasi adalah...",
-    "formulaHud": {
-      "title": "SIKAP PENGARANG (AUTHOR'S ATTITUDE)",
-      "latex": "\\text{Diksi: 'sungguh langkah yang tidak bijaksana', 'berisiko', 'seharusnya dikaji ulang'}",
-      "legend": "• Perhatikan pilihan diksi pengarang: 'sungguh langkah yang tidak bijaksana', 'berujung makin parahnya kemacetan'."
-    },
-    "hints": {
-      "concept": "Diksi-diksi ini menunjukkan penolakan dan kritik tegas terhadap kenaikan tarif.",
-      "execution": "Pilihlah opsi yang merefleksikan sikap kritis dan kontra."
-    },
-    "explanation": "<strong>Pembahasan:</strong><br>Penulis secara eksplisit menggunakan frasa evaluatif bernada negatif (<em>'sungguh langkah yang tidak bijaksana'</em>) dan menyodorkan dampak buruk migrasi ke kendaraan pribadi, serta mendesak agar kebijakan dikaji ulang. Ini membuktikan sikap menolak dan mengkritik keras.<br><strong>Solusi:</strong> Opsi B tepat.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Mendukung penuh demi kemandirian finansial operator transportasi, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
-      },
-      {
-        "key": "B",
-        "text": "Menolak dan mengkritik keras karena berdampak negatif pada daya beli dan lingkungan."
-      },
-      {
-        "key": "C",
-        "text": "Netral dan menyerahkan sepenuhnya keputusan kepada mekanisme pasar bebas."
-      },
-      {
-        "key": "D",
-        "text": "Ragu-ragu karena subsidi transportasi dinilai membebani anggaran daerah."
-      },
-      {
-        "key": "E",
-        "text": "Optimistis masyarakat akan segera terbiasa dengan penyesuaian tarif baru."
-      }
-    ],
-    "correctKey": "B"
   },
   {
     "id": "ind-lat-m-08",
@@ -2763,50 +2672,6 @@ window.TKA_IND_QUESTIONS = [
     "correctKey": "B"
   },
   {
-    "id": "ind-lat-m-29",
-    "subject": "ind",
-    "materi": "EVALUASI & APRESIASI",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Identifikasi Kalimat Efektif Bebas Kerancuan Logika",
-    "type": "mcq",
-    "questionHtml": "Perhatikan kalimat-kalimat berikut! Kalimat yang memenuhi syarat keefektifan dan kelogisan bahasa Indonesia adalah...",
-    "formulaHud": {
-      "title": "KELOGISAN KALIMAT",
-      "latex": "\\text{Yang Dipersilakan adalah Orangnya, Bukan Waktu dan Tempat}",
-      "legend": "• Kalimat A tidak logis: waktu dan tempat tidak dapat dipersilakan berjalan/bicara."
-    },
-    "hints": {
-      "concept": "Kalimat C tidak logis: waktu tidak dapat dipersingkat (yang dihemat adalah penggunaan waktu).",
-      "execution": "Kalimat D dan E tidak bersubjek karena diawali 'Bagi' dan 'Di dalam'.<br>Kalimat B logis dan efektif."
-    },
-    "explanation": "<strong>Pembahasan:</strong><br>Koreksi kelogisan:<br>• 'Waktu dan tempat dipersilakan' rancu karena waktu dan tempat adalah benda mati.<br>• Kalimat B memosisikan subjek insani (Bapak Kepala Sekolah) secara logis dan santun sebagai pihak yang dipersilakan.<br><strong>Solusi:</strong> Opsi B benar.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Waktu dan tempat kami persilakan kepada Bapak Kepala Sekolah, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
-      },
-      {
-        "key": "B",
-        "text": "Kepada Bapak Kepala Sekolah, kami persilakan untuk menyampaikan sambutan."
-      },
-      {
-        "key": "C",
-        "text": "Untuk mempersingkat waktu, marilah kita segera memulai acara."
-      },
-      {
-        "key": "D",
-        "text": "Bagi siswa yang membawa sepeda motor dilarang parkir di halaman depan."
-      },
-      {
-        "key": "E",
-        "text": "Di dalam rapat itu memutuskan kenaikan iuran kebersihan."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
     "id": "ind-lat-m-30",
     "subject": "ind",
     "materi": "PEMAHAMAN TEKSTUAL",
@@ -3109,50 +2974,6 @@ window.TKA_IND_QUESTIONS = [
     "correctKey": "B"
   },
   {
-    "id": "ind-lat-h-02",
-    "subject": "ind",
-    "materi": "PEMAHAMAN TEKSTUAL",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Rekonstruksi Premis Entimem Silogisme",
-    "type": "mcq",
-    "questionHtml": "<strong>Perhatikan penalaran entimem berikut!</strong><br><br><em>'Perusahaan PT Sejahtera Sentosa wajib menyusun dokumen Analisis Mengenai Dampak Lingkungan (Amdal) karena kegiatan usahanya berpotensi menimbulkan dampak penting terhadap lingkungan hidup.'</em><br><br>Premis mayor yang melandasi penarikan simpulan entimem di atas adalah...",
-    "formulaHud": {
-      "title": "SILOGISME KATEGORIAL ENTITY",
-      "latex": "\\text{Premis Mayor: } \\forall x [D(x) \\implies A(x)], \\quad \\text{Minor: } D(p) \\implies \\text{Konklusi: } A(p)",
-      "legend": "• Entimem adalah silogisme yang dipadatkan dengan menghilangkan premis mayor."
-    },
-    "hints": {
-      "concept": "Rumus entimem: Konklusi karena Premis Minor. (PT Sejahtera wajib Amdal [K] karena berdampak penting [M]).",
-      "execution": "Maka premis mayor yang hilang harus menghubungkan term penengah (dampak penting) dengan term mayor (wajib memiliki Amdal)."
-    },
-    "explanation": "<strong>Pembahasan:</strong><br>Entimem di atas bertolak dari silogisme kategorial:<br>• Premis Mayor: <em>Semua kegiatan yang berdampak penting terhadap lingkungan hidup wajib memiliki Amdal.</em><br>• Premis Minor: <em>PT Sejahtera Sentosa kegiatannya berdampak penting terhadap lingkungan hidup.</em><br>• Simpulan: <em>PT Sejahtera Sentosa wajib memiliki Amdal.</em><br><strong>Solusi:</strong> Opsi B tepat merumuskan premis mayor yang implisit.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Semua perusahaan yang beroperasi di Indonesia wajib memiliki izin usaha, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
-      },
-      {
-        "key": "B",
-        "text": "Setiap usaha atau kegiatan yang berdampak penting terhadap lingkungan hidup wajib memiliki Amdal."
-      },
-      {
-        "key": "C",
-        "text": "PT Sejahtera Sentosa adalah perusahaan industri yang bergerak di bidang pertambangan."
-      },
-      {
-        "key": "D",
-        "text": "Dampak penting lingkungan hidup hanya dapat diatasi melalui instrumen hukum Amdal."
-      },
-      {
-        "key": "E",
-        "text": "Masyarakat berhak memantau pelaksanaan Amdal di setiap wilayah perusahaan."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
     "id": "ind-lat-h-03",
     "subject": "ind",
     "materi": "PEMAHAMAN TEKSTUAL",
@@ -3362,50 +3183,6 @@ window.TKA_IND_QUESTIONS = [
       {
         "key": "E",
         "text": "Kemajuan teknologi cat dinding dalam menutup keretakan beton bertulang."
-      }
-    ],
-    "correctKey": "B"
-  },
-  {
-    "id": "ind-lat-h-08",
-    "subject": "ind",
-    "materi": "PEMAHAMAN INFERENSIAL",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Ironi Situasional dalam Novel Sastra Realisme",
-    "type": "mcq",
-    "questionHtml": "<strong>Bacalah kutipan novel berikut!</strong><br><br>Pak Sastro mendedikasikan tiga puluh tahun hidupnya sebagai sipir penjara yang paling ditakuti karena ketegasannya menolak segala bentuk suap rokok maupun uang dari para narapidana. Namun, di hari pensiunnya yang khidmat, sebuah kabar menghantam ubun-ubunnya: putra sulung yang paling ia banggakan ditangkap petugas komisi antikorupsi karena menjadi makelar vonis kasus narkotika.<br><br>Bentuk ironi yang mendasari plot kutipan cerita di atas adalah...",
-    "formulaHud": {
-      "title": "TIPOLOGI IRONI SASTRA",
-      "latex": "\\text{Integritas Penjaga Kejujuran} \\iff \\text{Keluarga Sendiri Terjerat Korupsi}",
-      "legend": "• Ironi situasional terjadi saat ada diskrepansi tajam antara tindakan hidup yang dipertahankan tokoh (jujur, anti-suap 30 tahun) dengan hasil tragis kenyataan (anak kandungnya ditangkap KPK)."
-    },
-    "hints": {
-      "concept": "Ini bukan sekadar ucapan sindiran (verbal), melainkan tragedi keadaan (situasional).",
-      "execution": "Opsi B adalah klasifikasi teoretis yang tepat."
-    },
-    "explanation": "<strong>Pembahasan:</strong><br><em>Situational irony</em> terjadi manakala hasil dari suatu situasi sangat bertolak belakang dengan apa yang secara wajar diharapkan terjadi berdasarkan dedikasi hidup tokoh. Ironi ini mempertegas tragisme nasib Pak Sastro.<br><strong>Solusi:</strong> Opsi B tepat.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Ironi verbal (kata-kata yang berlawanan dengan makna harfiah), berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
-      },
-      {
-        "key": "B",
-        "text": "Ironi situasional (kenyataan yang berlawanan secara tragis dengan harapan dan integritas hidup tokoh)"
-      },
-      {
-        "key": "C",
-        "text": "Ironi dramatis (pembaca tahu rahasia yang belum diketahui oleh tokoh)"
-      },
-      {
-        "key": "D",
-        "text": "Litotes situasional"
-      },
-      {
-        "key": "E",
-        "text": "Paradoks semantik"
       }
     ],
     "correctKey": "B"
@@ -4627,7 +4404,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Perbandingan tingkat kecerdasan antara anak alami dan anak hasil rekayasa genom."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: SINTESIS KOMPARATIF BIOETIKA",
+      "latex": "\\text{Sintesis Dialektis} \\implies (\\text{Teks A: Pro-Inovasi Terapeutik}) \\iff (\\text{Teks B: Kontra-Komodifikasi Genom})",
+      "legend": "• Sintesis wacana komparatif memerlukan identifikasi titik temu (nexus) argumentatif antara premis optimisme kuratif dan premis kehati-hatian etis.<br>• Kunci B terverifikasi sebagai sintesis komprehensif tanpa mengeliminasi salah satu sudut pandang."
+    },
+    "hints": {
+      "concept": "Temukan gagasan pokok dari kedua teks: Teks A berfokus pada potensi kesembuhan penyakit monogenik, sedangkan Teks B menyoroti risiko ketimpangan sosio-ekologis dan eugenika.",
+      "execution": "Pilihlah opsi yang merangkum ketegangan fundamental antara potensi manfaat medis kemanusiaan dan bahaya stratifikasi sosial, bukan sekadar meringkas satu teks saja."
+    },
+    "explanation": "Teks A memaparkan keunggulan teknologi penyuntingan gen CRISPR-Cas9 dalam membasmi penyakit genetik degeneratif, sedangkan Teks B mengangkat kekhawatiran etis bahwa teknologi tersebut dapat memicu diskriminasi genetik dan elitisme biologis. Opsi (B) adalah sintesis yang paling tepat dan berimbang karena mencakup kedua poros argumen secara utuh. Opsi (A), (C), (D), dan (E) keliru karena terlalu sempit atau menyimpang dari fokus dialektika wacana."
   },
   {
     "id": "ind-sim-02",
@@ -4646,7 +4433,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pemerintah Kota Megapolitan gagal total dalam menyusun anggaran lingkungan hidup, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Pemerintah Kota Megapolitan gagal total dalam menyusun anggaran lingkungan hidup"
       },
       {
         "key": "C",
@@ -4661,7 +4448,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Indeks pencemaran PM2.5 akan turun 35% pada tahun kedua operasional."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: PENALARAN DEDUKTIF MODUS TOLLENS",
+      "latex": "\\frac{P \\land Q \\implies R, \\quad \\neg R}{\\therefore \\neg(P \\land Q) \\equiv \\neg P \\lor \\neg Q}",
+      "legend": "• Modus Tollens dengan premis konjungtif: Jika pengingkaran konsekuens (¬R) terjadi, maka anteseden (P ∧ Q) harus diingkari menjadi ¬P ∨ ¬Q (Hukum De Morgan).<br>• Kunci A merupakan representasi ekuivalen dari ¬P ∨ ¬Q."
+    },
+    "hints": {
+      "concept": "Identifikasi struktur premis: Anteseden terdiri atas dua syarat konjungtif (zona emisi rendah DAN sistem rel terintegrasi). Konsekuens adalah penurunan indeks polutan 35%.",
+      "execution": "Fakta empiris menyatakan polutan tidak turun 35% (¬R). Berdasarkan hukum De Morgan, negasi dari (P dan Q) adalah (bukan P atau bukan Q)."
+    },
+    "explanation": "Berdasarkan silogisme hipotetik Modus Tollens, jika premis berbunyi 'P dan Q maka R' dan terjadi pengingkaran konsekuens 'bukan R', maka kesimpulan logisnya adalah ingkaran anteseden 'bukan (P dan Q)'. Secara hukum logika De Morgan, hal ini ekuivalen dengan 'bukan P atau bukan Q' (Kota belum menerapkan zona emisi rendah secara konsisten ATAU sistem rel belum terintegrasi penuh). Opsi (A) adalah satu-satunya simpulan deduktif yang sahih. Opsi (B), (C), dan (D) mengandung kesimpulan induktif yang terlalu terburu-buru (hasty generalization)."
   },
   {
     "id": "ind-sim-03",
@@ -4676,7 +4473,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kematian mendadak akibat luka bakar dalam medan pertempuran kemerdekaan, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Kematian mendadak akibat luka bakar dalam medan pertempuran kemerdekaan"
       },
       {
         "key": "B",
@@ -4695,7 +4492,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Kekecewaan penyair terhadap penolakan cinta oleh kekasih hatinya."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: HERMENEUTIKA PUISI MODERN",
+      "latex": "\\text{Signifikansi Eksistensial} \\implies \\text{Metafora Larik} + \\text{Diksi Kematian/Ketidakberdayaan}",
+      "legend": "• Analisis semiotika Riffaterre: Matriks puisi Chairil Anwar mengeksplorasi absurdisme nasib manusia yang berjuang di tengah keterbatasan temporal.<br>• Diksi 'menunda kekalahan' melambangkan batas eksistensi sebelum kematian."
+    },
+    "hints": {
+      "concept": "Cermati relasi asosiasi antara 'menunda kekalahan', 'menyerah pada dingin', dan frasa 'sebelum genap kita sempat mengerti mengapa kita menyala'.",
+      "execution": "Tafsirkan makna simbolik 'menyala' sebagai hakikat eksistensi atau api kehidupan yang padam sebelum manusia menuntaskan pencarian makna."
+    },
+    "explanation": "Larik 'sebelum genap kita sempat mengerti mengapa kita menyala' secara figuratif merujuk pada kegetiran eksistensial manusia: kematian dan ketiadaan datang menjemput sebelum manusia memahami sepenuhnya hakikat dan tujuan keberadaannya di dunia. Hal ini sejalan dengan tema kepenyairan Angkatan 45 (Chairil Anwar) yang memadukan vitalitas hidup dengan kesadaran tragis akan kefanaan raga. Dengan demikian, opsi (B) adalah penafsiran yang paling komprehensif dan mendalam."
   },
   {
     "id": "ind-sim-04",
@@ -4710,7 +4517,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketamakan merebut takhta kerajaan versus ketakutan akan hukuman gantung, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
+        "text": "Ketamakan merebut takhta kerajaan versus ketakutan akan hukuman gantung"
       },
       {
         "key": "B",
@@ -4729,7 +4536,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Pengaruh ajaran asing yang merusak persaudaraan pendekar silat."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: NILAI SOSIOKULTURAL SASTRA KLASIK",
+      "latex": "\\text{Dilema Etis} \\implies \\text{Daulat Feodal (Hang Tuah)} \\iff \\text{Keadilan Substantif (Hang Jebat)}",
+      "legend": "• Epik Melayu klasik membenturkan dua paradigma moral: loyalitas tanpa syarat kepada raja (doktrin daulat) versus perlawanan moral terhadap kezaliman penguasa.<br>• Kunci B menangkap kontradiksi nilai tersebut secara akurat."
+    },
+    "hints": {
+      "concept": "Kenali pertentangan filosofis antara tokoh Hang Tuah (representasi kesetiaan feodal mutlak) dan Hang Jebat (representasi keadilan personal/moral).",
+      "execution": "Evaluasi dialog Hang Jebat yang menggugat kepatuhan saudaranya kepada raja yang telah menjatuhkan titah hukuman mati secara sewenang-wenang."
+    },
+    "explanation": "Pertentangan Hang Tuah dan Hang Jebat dalam sastra Melayu klasik merupakan cerminan benturan nilai antara kepatuhan mutlak feodal ('raja adil raja disembah, raja zalim raja disanggah') dan rasa keadilan distributif. Hang Jebat memberontak bukan demi merebut kekuasaan, melainkan membela marwah saudaranya yang dizalimi istana. Oleh karena itu, konflik nilai utama adalah antara loyalitas buta terhadap institusi monarki versus pembelaan keadilan nurani (opsi B)."
   },
   {
     "id": "ind-sim-05",
@@ -4766,7 +4583,17 @@ window.TKA_IND_QUESTIONS = [
     "correctKeys": [
       "A",
       "C"
-    ]
+    ],
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: IDENTIFIKASI CACAT LOGIKA (FALLACY)",
+      "latex": "\\text{Validitas Argumen} \\implies \\text{Korespondensi Fakta} \\land \\text{Bebas Falasi Ad Hominem}",
+      "legend": "• Analisis teks editorial kritis menguji apakah argumen didasarkan pada penalaran bukti objektif atau sekadar serangan personal dan oversimplifikasi.<br>• Tipe Multi-Pilihan: Identifikasi semua pernyataan cacat logika yang tepat."
+    },
+    "hints": {
+      "concept": "Teks opini yang cacat kerap menggunakan generalisasi tanpa dasar (asumsi rapuh) dan menyerang integritas penentang kebijakan alih-alih menjawab argumen.",
+      "execution": "Pilihlah dua opsi yang menunjukkan kelemahan metodologis (mengabaikan karakter tanah gambut) dan cacat logika informal (menuduh pengkritik sebagai antek asing)."
+    },
+    "explanation": "Pada teks stimulus, penulis editorial melakukan dua cacat logika fatal: pertama, mengabaikan realitas agronomis lahan gambut dan kegagalan historis masa lalu (opsi A); kedua, melakukan falasi ad hominem dengan memberi label peyoratif 'antek asing yang antipangan mandiri' kepada pihak-pihak yang menyampaikan kritik ilmiah objektif (opsi C). Opsi (B), (D), dan (E) bukan cacat logika utama dari struktur teks."
   },
   {
     "id": "ind-sim-06",
@@ -4800,7 +4627,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Perjanjian tersebut ditandatangani di hadapan notaris resmi."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: REGISTER HUKUM & KLAUSUL SYARAT",
+      "latex": "\\text{Bebas Ganti Rugi} \\iff \\text{Keadaan Kahar} \\land \\text{Pemberitahuan Tertulis} \\le 3 \\times 24 \\text{ Jam}",
+      "legend": "• Dalam bahasa hukum, syarat kumulatif ('dengan ketentuan') mewajibkan seluruh elemen terpenuhi agar suatu hak atau pembebasan kewajiban berlaku sah.<br>• Pelanggaran batas waktu notifikasi menggugurkan klaim keadaan kahar."
+    },
+    "hints": {
+      "concept": "Perhatikan frasa 'dengan ketentuan debitur wajib memberitahukan secara tertulis selambat-lambatnya 3x24 jam'. Ini adalah syarat mutlak (kondisi preseden).",
+      "execution": "Cari skenario di mana debitur tidak lagi terlindungi oleh klausul force majeure meskipun bencana telah terjadi."
+    },
+    "explanation": "Klausul kontrak tersebut menetapkan syarat formil yang bersifat kumulatif: selain adanya peristiwa keadaan kahar (force majeure), debitur diwajibkan mengirim pemberitahuan tertulis dalam tempo maksimal 3x24 jam. Jika debitur lalai mengirimkan pemberitahuan tertulis melewati batas tenggat tersebut, hak pembebasan ganti rugi gugur demi hukum, sehingga debitur tetap dapat dituntut wanprestasi (opsi B)."
   },
   {
     "id": "ind-sim-07",
@@ -4834,7 +4671,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "meletakkan kata 'timbal' sebelum kata 'logam berat'"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: STRUKTUR KALIMAT EFEKTIF (SPOK)",
+      "latex": "\\text{Kalimat Baku} \\iff \\exists \\text{Subjek Jelas (Tanpa Preposisi Depan)} + \\exists \\text{Predikat Verba}",
+      "legend": "• Kalimat kehilangan subjek jika didahului preposisi penanda keterangan (seperti 'Berdasarkan', 'Dalam', 'Bagi') tanpa penyesuaian predikat aktif transitif.<br>• Menghapus 'Berdasarkan' menjadikan frasa nominal sebagai Subjek yang sah bagi verba 'membuktikan'."
+    },
+    "hints": {
+      "concept": "Analisis fungsi gramatikal: 'Berdasarkan hasil analisis...' berstatus Keterangan. Jika diikuti langsung oleh predikat 'membuktikan', kalimat tersebut tidak memiliki Subjek.",
+      "execution": "Jadikan frasa 'Hasil analisis laboratorium...' sebagai Subjek langsung dengan menghapus kata tugas 'Berdasarkan'."
+    },
+    "explanation": "Kalimat pada soal tidak gramatikal karena diawali preposisi 'Berdasarkan' yang menjadikan seluruh klausa awal sebagai Keterangan, sementara verba 'membuktikan' membutuhkan Subjek agen. Dengan menghilangkan kata 'Berdasarkan' di awal kalimat (opsi A), frasa 'Hasil analisis laboratorium terhadap sampel air tanah...' langsung berfungsi sebagai Subjek (S), verba 'membuktikan' berfungsi sebagai Predikat (P), dan anak kalimat berikutnya berfungsi sebagai Objek (O), menghasilkan kalimat efektif yang sempurna."
   },
   {
     "id": "ind-sim-08",
@@ -4849,7 +4696,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mahalnya tarif sewa pesawat jet komersial di bandara internasional, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Mahalnya tarif sewa pesawat jet komersial di bandara internasional"
       },
       {
         "key": "B",
@@ -4868,7 +4715,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Tingginya minat masyarakat berwisata ke luar negeri pada musim liburan."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: SATIRE & KRITIK SOSIAL BUDAYA",
+      "latex": "\\text{Sasaran Satire} \\implies \\text{Pseudoprestise (Simulakra Konsumsi)} \\iff \\text{Kerapuhan Mental Digital}",
+      "legend": "• Wacana satire menggunakan ironi tajam untuk menelanjangi kesenjangan antara citra semu media sosial dan realitas keterpurukan finansial/psikologis.<br>• Kunci B merangkum makna tersirat teks secara utuh."
+    },
+    "hints": {
+      "concept": "Pahami konteks metaforis wacana: menyewa jet pribadi per jam dan tas tiruan sembari terjerat utang demi pengakuan orang asing.",
+      "execution": "Pilihlah opsi yang merumuskan kritik terhadap fenomena sosial pseudoprestise dan krisis identitas, bukan interpretasi harfiah tentang harga sewa atau barang mewah."
+    },
+    "explanation": "Wacana stimulus merupakan satire sosial yang mengkritik budaya 'flexing' dan konsumerisme semu di era digital. Masyarakat yang mengalami krisis pengakuan rela memaksakan diri memamerkan kemewahan palsu dan menanggung beban finansial ekstrem semata-mata demi validasi semu di jagat maya. Opsi (B) menangkap inti kritik tersebut secara akurat dan komprehensif."
   },
   {
     "id": "ind-sim-09",
@@ -4902,7 +4759,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Pertanggungjawaban, memutar balikkan, menggarisbawahi"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V GABUNGAN KATA BERKONFIKS",
+      "latex": "\\begin{cases} \\text{Awalan/Akhiran saja} \\implies \\text{Terpisah (garis bawahi)} \\\\ \\text{Awalan + Akhiran (Konfiks)} \\implies \\text{Serangkai (pertanggungjawaban, memutarbalikkan)} \\end{cases}",
+      "legend": "• Pedoman Umum Ejaan Bahasa Indonesia (EYD V): Bentuk gabungan kata yang hanya mendapat salah satu imbuhan tetap ditulis terpisah. Jika mendapat konfiks sekaligus, ditulis serangkai.<br>• Kunci B memenuhi kaidah penulisan serangkai dan terpisah secara konsisten."
+    },
+    "hints": {
+      "concept": "Terapkan aturan EYD V bab Penulisan Kata: Gabungan kata yang mendapat imbuhan sekaligus (awalan dan akhiran) ditulis serangkai; jika hanya mendapat salah satu, ditulis terpisah.",
+      "execution": "Periksa 'tanggung jawab' + per-...-an -> 'pertanggungjawaban'; 'putar balik' + me-...-kan -> 'memutarbalikkan'; 'garis bawah' + -i -> 'garis bawahi'."
+    },
+    "explanation": "Berdasarkan EYD V, kata majemuk yang mendapat konfiks (awalan dan akhiran sekaligus) wajib ditulis serangkai, seperti 'per- + tanggung jawab + -an' menjadi 'pertanggungjawaban' dan 'me- + putar balik + -kan' menjadi 'memutarbalikkan'. Namun, apabila hanya mendapat akhiran saja, seperti 'garis bawah + -i', maka ditulis terpisah menjadi 'garis bawahi' (bukan menggarisbawahi karena tanpa awalan 'meng-'). Jadi susunan yang seluruhnya benar adalah opsi (B)."
   },
   {
     "id": "ind-sim-10",
@@ -4936,7 +4803,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Eufemisme"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: MAJAS KONTRASTIF (PARADOKS)",
+      "latex": "\\text{Paradoks} \\implies \\text{Pernyataan Nyata A} \\land \\text{Pernyataan Nyata } \\neg A \\quad (\\text{Memuat Kebenaran Filosofis})",
+      "legend": "• Majas paradoks mempertemukan dua gagasan yang tampaknya bertentangan secara harfiah ('kesenyapan sunyi' vs 'gemuruh bising') guna menegaskan kedalaman kontemplasi spiritual.<br>• Kunci B tepat mendefinisikan majas pertentangan ini."
+    },
+    "hints": {
+      "concept": "Kenali jenis-jenis majas pertentangan: Paradoks menyandingkan dua hal yang tampak kontradiktif pada tataran lahiriah namun mengandung kebenaran hakiki pada tataran batin.",
+      "execution": "Bandingkan 'kesenyapan sunyi yang pekat' dengan 'gemuruh tasbih yang paling bising'. Kontradiksi internal ini adalah definisi murni majas paradoks."
+    },
+    "explanation": "Majas paradoks adalah gaya bahasa yang menyatakan dua hal yang seolah-olah bertentangan secara logika lahiriah, namun sebenarnya mengandung kebenaran mendalam. Penyair merasakan kesunyian fisik lahiriah yang amat hening, namun pada saat bersamaan batinnya mengalami resonansi spiritual dahsyat yang digambarkan sebagai 'gemuruh bising'. Oleh karena itu, majas yang digunakan adalah paradoks (opsi B)."
   },
   {
     "id": "ind-sim-11",
@@ -4964,7 +4841,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Ekosistem litografi presisi dan bahan kimia murni memerlukan waktu penguasaan teknologi jangka panjang.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: MATRIKS PENALARAN GEOPOLITIK",
+      "latex": "\\text{Validasi Klaim} \\implies \\text{Koherensi Rantai Pasok} \\land \\text{Faktor Durasi Penguasaan R\\&D}",
+      "legend": "• Evaluasi pernyataan matriks membutuhkan verifikasi klaim faktual teks: monopoli fabrikasi litografi semikonduktor tidak dapat digantikan secara instan semata-mata dengan injeksi modal moneter.<br>• Format Matriks: True / False per butir."
+    },
+    "hints": {
+      "concept": "Analisis setiap proposisi dalam stimulus: rantai pasok cip sangat rentan terhadap penutupan selat navigasi dagang, dan ekosistem litografi membutuhkan dekade riset.",
+      "execution": "Pernyataan 1: Sesuai teks (BENAR). Pernyataan 2: Dikotomi modal instan bertentangan dengan sifat teknologi fabrikasi nano (SALAH). Pernyataan 3: Sesuai teks (BENAR)."
+    },
+    "explanation": "Pernyataan 1 BENAR karena teks secara eksplisit menegaskan ketergantungan teknologi tinggi global pada jalur pasok mikroelektronika Asia Timur. Pernyataan 2 SALAH karena penguasaan litografi sub-2nm memerlukan ekosistem peralatan fisika presisi dan sumber daya manusia terampil yang tidak dapat dibangun secara instan hanya dalam hitungan hari. Pernyataan 3 BENAR karena rantai nilai litografi dan kimia murni menuntut investasi kumulatif dan riset jangka panjang."
   },
   {
     "id": "ind-sim-12",
@@ -4998,7 +4885,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "membalik susunan kalimat menjadi diawali kata 'Panitia'"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: RANCU SUBJEK GANDA & INVERSI",
+      "latex": "\\text{Keutuhan Kalimat} \\implies \\text{Ketiadaan Pleonasme Gramatikal} \\land \\text{Linearitas Subjek-Predikat}",
+      "legend": "• Kalimat rancu timbul saat struktur inversi dikombinasikan dengan partikel penegas atau pronomina ganda yang membuat batas klausa menjadi ambigu.<br>• Opsi A menunjukkan kesalahan sintaksis struktur."
+    },
+    "hints": {
+      "concept": "Cari kalimat yang memuat tumpang-tindih peran gramatikal atau penggunaan kata tugas yang merusak ketegasan relasi subjek dan predikat.",
+      "execution": "Perhatikan kalimat yang menempatkan subjek ganda tanpa konjungsi koordinatif atau mengaburkan fungsi predikat utama."
+    },
+    "explanation": "Kalimat yang mengalami kerancuan subjek inversi ganda terjadi ketika subjek dipaparkan dua kali secara berturut-turut atau terdistorsi oleh preposisi yang tidak semestinya, sehingga mengaburkan entitas yang sesungguhnya melakukan tindakan. Opsi (A) menyajikan bentuk rekonstruksi yang tepat untuk meniadakan kontaminasi sintaksis tersebut dan mengembalikan kejelasan hierarki klausa baku."
   },
   {
     "id": "ind-sim-13",
@@ -5013,7 +4910,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kekayaan materiil yang melimpah dari hasil memenangkan perkara suap, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Kekayaan materiil yang melimpah dari hasil memenangkan perkara suap"
       },
       {
         "key": "B",
@@ -5032,7 +4929,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Koleksi serangga langka yang diawetkan di museum kota."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: METAFORA SASTRA SUREALISME",
+      "latex": "\\text{Hermeneutika Surealis} \\implies \\text{Disrupsi Logika Mimesis} \\to \\text{Simbol Keterasingan Jiwa}",
+      "legend": "• Sastra beraliran surealisme menggunakan citraan mimpi dan asosiasi bebas untuk melukiskan pergulatan psikologis tak sadar dan kritik terhadap rasionalisme mekanistis.<br>• Kunci B mengidentifikasi makna simbolis metafora."
+    },
+    "hints": {
+      "concept": "Lepaskan penafsiran denotatif (harfiah). Cari makna konotatif di balik bayang-bayang surealistik yang disajikan dalam teks sastra.",
+      "execution": "Arahkan fokus pada refleksi batin tokoh mengenai keterasingan diri (alienasi) di tengah sistem sosial yang mekanis dan kaku."
+    },
+    "explanation": "Dalam sastra surealisme, metafora yang memadukan objek-objek aneh (misalnya jam dinding yang meleleh atau bayangan yang menolak mengikuti tubuh) bukan bertujuan melukiskan fakta fisik, melainkan simbolisasi distorsi persepsi batin manusia yang terkungkung dalam keterasingan eksistensial. Opsi (B) menafsirkan muatan psikologis dan tematik tersebut secara tepat dan proporsional."
   },
   {
     "id": "ind-sim-14",
@@ -5066,7 +4973,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Komisi, profesi, akomodasi, kualifikasi"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V PENYERAPAN KONSONAN ASING",
+      "latex": "\\begin{cases} cc \\to k \\text{ (sebelum } a, u, o) \\text{ atau } ks \\text{ (sebelum } e, i) \\\\ ff \\to f, \\quad ss \\to s, \\quad ll \\to l \\end{cases}",
+      "legend": "• Kaidah penyerapan kata asing menurut EYD V: Konsonan kembar diserap menjadi konsonan tunggal kecuali bila menimbulkan kerancuan makna atau terikat konvensi khusus.<br>• Opsi A memuat deret bentuk serapan yang baku."
+    },
+    "hints": {
+      "concept": "Ingat prinsip adaptasi fonologis EYD V: Kata serapan dari bahasa asing umumnya meluluhkan konsonan rangkap (dobel) menjadi tunggal.",
+      "execution": "Periksa penulisan kata: 'efektif' (bukan effektif), 'komisi' (bukan komissi), 'akomodasi' (bukan akkomodasi), 'klasifikasi' (bukan klassifikasi)."
+    },
+    "explanation": "Berdasarkan pedoman penyerapan istilah asing pada EYD V, gabungan konsonan kembar pada bahasa sumber (seperti 'effective', 'commission', 'accommodation', 'classical') disederhanakan menjadi konsonan tunggal dalam bahasa Indonesia: 'efektif', 'komisi', 'akomodasi', dan 'klasik'. Dengan demikian, kelompok kata pada opsi (A) mencerminkan kepatuhan penuh terhadap aturan penyerapan baku."
   },
   {
     "id": "ind-sim-15",
@@ -5081,7 +4998,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ia, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
+        "text": "Ia"
       },
       {
         "key": "B",
@@ -5100,7 +5017,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Kalian"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: KOHESI ANAFORIS & PRONOMINA BAKU",
+      "latex": "\\text{Rujukan Anaforis} \\implies \\text{Anteseden Jamak Insani} \\to \\text{Pronomina 'Mereka'} \\quad (\\neg \\text{'Ia'})",
+      "legend": "• Piranti kohesi gramatikal mensyaratkan keselarasan bilangan dan kategori: Anteseden bernyawa jamak ('para peneliti') harus diacu menggunakan pronomina persona ketiga jamak 'mereka'.<br>• Kunci C tepat mengisi rujukan anaforis."
+    },
+    "hints": {
+      "concept": "Identifikasi anteseden kata ganti dalam kalimat sebelumnya: perhatikan apakah anteseden bersifat tunggal atau jamak, dan apakah bernyawa atau tak bernyawa.",
+      "execution": "Subjek kalimat pertama adalah 'Para delegasi dan diplomat senior' (jamak bernyawa). Pilihlah kata ganti persona jamak yang tepat untuk melengkapi tautan kohesi."
+    },
+    "explanation": "Dalam analisis keutuhan wacana, perujukan anaforis berfungsi menjaga kesinambungan informasi antarkalimat. Karena anteseden yang dirujuk adalah kelompok manusia dalam jumlah jamak ('para delegasi'), pronomina yang tepat menurut kaidah bahasa Indonesia baku adalah 'mereka' (opsi C). Penggunaan 'ia' atau 'dia' salah karena bersifat tunggal, sedangkan 'beliau' terbatas untuk ketunggalan takzim."
   },
   {
     "id": "ind-sim-16",
@@ -5134,7 +5061,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Pemberantasan korupsi di lingkungan kementerian."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: ANALISIS EUFEMISME SOSIO-POLITIK",
+      "latex": "\\text{Eufemisme Manipulatif} \\implies \\text{Diksi Halus/Netral} \\to \\text{Menyamarkan Realitas Keras/Krisis}",
+      "legend": "• Eufemisme dalam register politik sering dimanfaatkan sebagai piranti retoris untuk meredam resistensi publik terhadap kebijakan yang tidak populer.<br>• Kunci B mengidentifikasi fungsi mitigasi psikologis wacana."
+    },
+    "hints": {
+      "concept": "Pahami pengertian dan fungsi majas eufemisme: penggunaan ungkapan yang lebih halus atau samar untuk menggantikan istilah yang dinilai kasar, tabu, atau memicu kegaduhan.",
+      "execution": "Cermati frasa seperti 'penyesuaian tarif secara proporsional' untuk menyebut kenaikan harga, atau 'restrukturisasi tenaga kerja' untuk menyebut pemutusan hubungan kerja massal."
+    },
+    "explanation": "Eufemisme dalam komunikasi publik dan wacana politik kerap berfungsi melembutkan realitas pahit atau menutupi dampak buruk dari suatu kebijakan. Penggunaan istilah 'penyesuaian harga' alih-alih 'kenaikan harga drastis' bertujuan meredam potensi gejolak sosial dan kepanikan konsumen di pasar. Opsi (B) secara tepat membongkar fungsi retoris dan pragmatis dari strategi eufemisme tersebut."
   },
   {
     "id": "ind-sim-17",
@@ -5168,7 +5105,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Semua kalimat A, B, C, dan D tepat penulisan huruf miringnya"
       }
     ],
-    "correctKey": "E"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V HURUF MIRING & TAKSONOMI",
+      "latex": "\\text{Huruf Miring} \\implies \\text{Nomenklatur Binomial Lat.} \\lor \\text{Istilah Asing Tanpa Penyerapan} \\lor \\text{Ungkapan Daerah}",
+      "legend": "• EYD V mewajibkan pemakaian huruf miring untuk: 1) nama ilmiah biologi (taksonomi), 2) ungkapan/istilah bahasa asing yang belum diserap, 3) istilah bahasa daerah.<br>• Kunci E terverifikasi benar karena seluruh kalimat A, B, C, dan D tepat."
+    },
+    "hints": {
+      "concept": "Periksa aturan pemakaian huruf miring pada EYD V: nama ilmiah genus dan spesies (seperti Homo sapiens), istilah asing yang belum diserap, dan ungkapan daerah wajib dimiringkan.",
+      "execution": "Evaluasi seluruh kalimat A, B, C, dan D. Jika semuanya telah mematuhi kaidah penulisan huruf miring tanpa cacat, pilih opsi yang memvalidasi seluruhnya."
+    },
+    "explanation": "Sesuai kaidah EYD V, huruf miring dipakai untuk menuliskan kata atau ungkapan dalam bahasa daerah atau bahasa asing, serta nama ilmiah genus dan spesies. Kalimat A memiringkan nama latin 'Panthera tigris sumatrae', kalimat B memiringkan istilah politik Latin 'devide et impera', kalimat C memiringkan frasa asing 'work from home', dan kalimat D memiringkan semboyan daerah/Jawa 'tut wuri handayani'. Karena keempat kalimat menerapkan kaidah tersebut dengan sempurna, opsi (E) adalah jawaban yang tepat."
   },
   {
     "id": "ind-sim-18",
@@ -5183,7 +5130,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keinginan Gajah Mada untuk segera pensiun dan beristirahat di peristirahatannya, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Keinginan Gajah Mada untuk segera pensiun dan beristirahat di peristirahatannya"
       },
       {
         "key": "B",
@@ -5202,7 +5149,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Kekecewaan Patih Gajah Mada terhadap kepemimpinan Ratu Tribhuwana Tunggadewi."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: HERMENEUTIKA TEKS SEJARAH KEPATIH-AN",
+      "latex": "\\text{Sumpah Palapa} \\implies \\text{Amukti Palapa (Pantang Kenikmatan/Puasa)} \\iff \\text{Integrasi Geopolitik Nusantara}",
+      "legend": "• Analisis filologis filsafat Jawa Kuno: 'Amukti palapa' secara etimologis bermakna 'menikmati istirahat/kenikmatan duniawi'. Penundaan kenikmatan adalah janji asketis seorang negarawan.<br>• Kunci B menangkap hakikat asketisme sumpah kenegaraan tersebut."
+    },
+    "hints": {
+      "concept": "Pahami makna historis dan filologis frasa 'amukti palapa' dalam teks Pararaton: Gajah Mada bersumpah menolak mencicipi kesenangan/pensiun sebelum menyatukan wilayah kepulauan.",
+      "execution": "Hindari opsi yang menafsirkan 'amukti palapa' sebagai buah kelapa atau sekadar ambisi agresi brutal. Pilihlah opsi yang menekankan komitmen integritas asketisme kenegaraan."
+    },
+    "explanation": "Secara filologis dan historis, frasa 'amukti palapa' dalam Sumpah Palapa Patih Gajah Mada mengindikasikan pelepasan diri dari kenikmatan ragawi atau istirahat duniawi (seperti menikmati rempah, santapan mewah, atau rehat dari tugas keprajuritan) sebelum cita-cita integrasi teritorial Nusantara di bawah panji Majapahit terwujud. Oleh karena itu, sumpah ini mencerminkan tekad moral dan asketisme politik tingkat tinggi (opsi B)."
   },
   {
     "id": "ind-sim-19",
@@ -5236,7 +5193,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Sri Sultan Hamengkubuwono ke-X dan KTT ke 43 ASEAN"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V ANGKA ROMAWI & BILANGAN BERTINGKAT",
+      "latex": "\\begin{cases} \\text{Bangsawan/Monarki} \\implies \\text{Angka Romawi murni tanpa imbuhan (Hamengkubuwono X)} \\\\ \\text{Tingkat/Urutan Latin} \\implies \\text{ke- + Angka Arab (ke-43)} \\lor \\text{Angka Romawi (XLIII)} \\end{cases}",
+      "legend": "• Angka Romawi untuk urutan keturunan/raja TIDAK diberi awalan ke- (misal 'Paus Yohanes Paulus II', bukan 'ke-II').<br>• Angka Romawi yang menunjukkan tingkat sudah bermakna urutan bertingkat sehingga penambahan 'ke-' adalah pleonasme salah.<br>• Kunci B tepat kaidah."
+    },
+    "hints": {
+      "concept": "Ingat dua aturan mendasar EYD V: 1) Angka Romawi pada nama raja/sultan tidak boleh diberi awalan 'ke-'; 2) Pada nomor konferensi bertingkat, jika memakai Arab gunakan 'ke-43', jika Romawi gunakan 'XLIII' tanpa 'ke-'.",
+      "execution": "Eliminasi opsi yang menuliskan 'ke-X' untuk sultan. Periksa apakah konferensi ditulis sebagai 'ke-43' atau 'XLIII'."
+    },
+    "explanation": "Menurut EYD V, penulisan nama raja atau sultan menggunakan angka Romawi murni tanpa awalan 'ke-' (contoh: Sri Sultan Hamengkubuwono X). Sementara itu, penulisan bilangan bertingkat dapat dilakukan dengan dua cara: menggunakan awalan 'ke-' yang dirangkaikan tanda hubung pada angka Arab (ke-43) ATAU menggunakan angka Romawi murni (XLIII) tanpa awalan 'ke-'. Dengan demikian, penulisan yang sepenuhnya taat asas terdapat pada opsi (B)."
   },
   {
     "id": "ind-sim-20",
@@ -5264,7 +5231,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "'Pendapat dokter itu salah karena gaya pakaiannya saat konferensi pers terlihat kuno.' -> Tergolong Straw Man.",
         "isCorrect": false
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: MATRIKS KLASIFIKASI KESESATAN BERPIKIR",
+      "latex": "\\text{Falasi} \\implies \\begin{cases} \\text{Slippery Slope} & \\text{(Eskalasi sebab-akibat ekstrem tanpa bukti)} \\\\ \\text{False Dilemma} & \\text{(Penyempitan paksa 2 opsi biner palsu)} \\\\ \\text{Ad Hominem} & \\text{(Serang pribadi alih-alih argumen)} \\end{cases}",
+      "legend": "• Menilai argumen publik memerlukan ketajaman mengenali distorsi berpikir.<br>• Straw Man mereduksi argumen lawan menjadi karikatur lemah; Ad Hominem menyerang pakaian/sifat pribadi lawan.<br>• Matriks: True / True / False."
+    },
+    "hints": {
+      "concept": "Pahami ciri khas masing-masing falasi: Slippery Slope menggambarkan rentetan bencana dramatis; False Dilemma membatasi pilihan menjadi hitam-putih; Ad Hominem menyerang ciri fisik/latar belakang penutur.",
+      "execution": "Pernyataan 1: Mobil listrik -> kehancuran total negara = Slippery Slope (BENAR). Pernyataan 2: Dukung tebang hutan atau mati kelaparan = False Dilemma (BENAR). Pernyataan 3: Menyerang pakaian dokter = Ad Hominem, BUKAN Straw Man (SALAH)."
+    },
+    "explanation": "Pernyataan 1 BENAR karena klaim bahwa legalisasi mobil listrik serta-merta mengakibatkan keruntuhan negara merupakan contoh klasik falasi lereng licin (slippery slope). Pernyataan 2 BENAR karena memaksa lawan bicara memilih antara dua ekstrem palsu adalah falasi dilema semu (false dilemma/bifurcation). Pernyataan 3 SALAH karena menyerang cara berpakaian dokter merupakan falasi ad hominem abusif, bukan straw man (manusia jerami) yang mengubah isi argumen lawan."
   },
   {
     "id": "ind-sim-21",
@@ -5298,7 +5275,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Pilihan A, C, dan D benar"
       }
     ],
-    "correctKey": "E"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V KATA DEPAN 'KE' VS AWALAN 'KE-'",
+      "latex": "\\begin{cases} \\text{Kata Depan (Preposisi Arah)} \\implies \\text{Terpisah (ke kementerian, ke luar negeri)} \\\\ \\text{Pengecualian Leksikalisasi Baku} \\implies \\text{Serangkai (kemari, keluar [sebagai verba])} \\end{cases}",
+      "legend": "• EYD V membedakan 'ke luar negeri' (preposisi arah, terpisah) dan 'keluar' (verba, serangkai). Bentuk 'kemari' dileksikalisasikan serangkai.<br>• Kunci E terverifikasi karena kalimat A, C, dan D benar."
+    },
+    "hints": {
+      "concept": "Kaidah EYD V: Kata depan 'ke' yang menyatakan arah tujuan ditulis terpisah dari kata yang mengikutinya, kecuali pada gabungan kata yang sudah padu secara leksikal seperti 'kemari' dan 'kepada'.",
+      "execution": "Perhatikan: 'kemari' (serangkai - benar), 'ke kementerian' (terpisah - benar), 'ke luar negeri' (terpisah - benar). Kalimat B salah karena menulis 'kesana kemari' padahal 'ke sana' harus terpisah."
+    },
+    "explanation": "Berdasarkan EYD V, kata depan 'ke' ditulis terpisah dari kata yang mengikutinya (seperti 'ke kementerian' dan 'ke luar negeri'). Namun, kata 'kemari' merupakan bentuk leksikalisasi baku yang ditulis serangkai (berbeda dengan 'ke sana' dan 'ke sini' yang tetap terpisah). Karena kalimat A ('kemari'), kalimat C ('ke kementerian'), dan kalimat D ('ke luar negeri' yang ditulis terpisah dengan tepat) adalah kalimat-kalimat yang baku, maka opsi (E) adalah pilihan yang benar."
   },
   {
     "id": "ind-sim-22",
@@ -5313,7 +5300,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Desersi dan pembangkangan perintah komandan divisi, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
+        "text": "Desersi dan pembangkangan perintah komandan divisi"
       },
       {
         "key": "B",
@@ -5332,7 +5319,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Pembalasan dendam pribadi terhadap pemilik tanah desa."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: DINAMIKA LATAR SOSIAL REVOLUSI FISIK",
+      "latex": "\\text{Taktik Militer} \\implies \\text{Bumi Hangus (Scorched Earth)} \\to \\text{Pemutusan Suplai Musuh} \\land \\text{Tragedi Moral}",
+      "legend": "• Wacana cerpen revolusi mengeksplorasi kontradiksi psikologis pejuang kemerdekaan yang terpaksa memusnahkan harta warga sendiri demi mencegah pendudukan tentara agresor.<br>• Kunci B menangkap strategi taktis dan konflik emosional teks."
+    },
+    "hints": {
+      "concept": "Identifikasi konsep pertahanan militer historis dalam perang kemerdekaan Indonesia: pembakaran aset dan bahan pangan agar tidak dimanfaatkan oleh tentara Sekutu atau NICA.",
+      "execution": "Hubungkan tindakan sersan membakar lumbung desa dengan ungkapan 'lebih baik lumbung ini hangus... daripada memberi makan serdadu musuh'. Ini adalah doktrin taktik bumi hangus."
+    },
+    "explanation": "Tindakan pembakaran lumbung padi milik warga oleh pasukan gerilya dalam konteks perang kemerdekaan merupakan penerapan taktik bumi hangus (scorched-earth policy). Tujuannya adalah memutus rantai logistik pangan musuh yang sedang merangsek maju. Kesedihan sersan memperlihatkan beban moral yang berat di balik keputusan taktis militer tersebut. Oleh karena itu, opsi (B) secara tepat merefleksikan dinamika isi kutipan cerpen."
   },
   {
     "id": "ind-sim-23",
@@ -5366,7 +5363,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Cm., Kg., Km."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V SINGKATAN SATUAN UKURAN & METROLOGI",
+      "latex": "\\text{Lambang Satuan SI} \\implies \\text{Tanpa Tanda Titik} \\quad (\\text{cm}, \\text{kg}, \\text{km}, \\text{l}, \\text{m})",
+      "legend": "• Pedoman EYD V Bab Singkatan dan Akronim: Singkatan yang terdiri atas lambang satuan ukuran, takaran, timbangan, dan lambang mata uang TIDAK diikuti tanda titik.<br>• Kunci A adalah penulisan yang benar."
+    },
+    "hints": {
+      "concept": "Kaidah EYD V: Lambang satuan internasional (SI) seperti sentimeter, kilogram, kilometer, dan liter bukan singkatan nama diri atau gelar, melainkan lambang metrologi.",
+      "execution": "Ingat bahwa lambang satuan ukuran ditulis menggunakan huruf kecil standar dan sama sekali tidak dibubuhkan tanda titik (.) di belakangnya."
+    },
+    "explanation": "Sesuai kaidah EYD V, lambang satuan ukuran, timbangan, takaran, dan mata uang (seperti cm untuk sentimeter, kg untuk kilogram, km untuk kilometer, dan l untuk liter, serta Rp untuk rupiah) TIDAK pernah diikuti tanda titik. Penambahan titik pada singkatan ukuran merupakan kesalahan umum akibat analogi keliru dengan singkatan nama orang atau gelar. Maka dari itu, opsi (A) adalah pilihan baku yang benar."
   },
   {
     "id": "ind-sim-24",
@@ -5381,7 +5388,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kualitas daun tembakau cerutu lokal dibanding cerutu impor, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
+        "text": "Kualitas daun tembakau cerutu lokal dibanding cerutu impor"
       },
       {
         "key": "B",
@@ -5400,7 +5407,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Kekurangan jumlah gedung sekolah menengah kejuruan di perdesaan."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: KRITIK SOSIAL PUISI RENSIK ORDE BARU",
+      "latex": "\\text{Kritik Sastra Rendra} \\implies \\text{Alienasi Intelektual Menara Gading} \\iff \\text{Realitas Kemiskinan Agraris}",
+      "legend": "• Sajak Sebatang Lisong karya W.S. Rendra melancarkan kritik tajam terhadap sistem pendidikan elitis yang mencetak sarjana yang terasing dari problem konkret rakyat jelata.<br>• Kunci B menangkap esensi kritik alienasi pendidikan borjuis."
+    },
+    "hints": {
+      "concept": "Perhatikan gugatan retoris penyair: 'Apakah gunanya pendidikan bila hanya membuat seseorang menjadi asing di tengah-tengah kenyataan bangsanya?'.",
+      "execution": "Kaitkan pertanyaan tersebut dengan konsep alienasi intelektual (kaum terdidik yang hidup di 'menara gading' dan abai terhadap nasib petani yang terhimpit)."
+    },
+    "explanation": "Dalam 'Sajak Sebatang Lisong', W.S. Rendra menyoroti ironi sistem pendidikan formal yang berorientasi teoritis dan elitis sehingga melahirkan generasi terpelajar yang mengalami keterasingan (alienasi) sosial dari penderitaan masyarakat kelas bawah. Kaum sarjana diajarkan teori-teori modern tetapi gamang dan tidak berdaya menghadapi persoalan nyata rakyat kecil. Opsi (B) adalah interpretasi kritis yang paling mendalam dan tepat."
   },
   {
     "id": "ind-sim-25",
@@ -5434,7 +5451,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Buku laporan pertanggungjawaban itu saya sudah menyerahkannya kepada ketua dewan pembina kemarin sore."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: TATA KALIMAT PASIF PERSONA (AGEN I/II)",
+      "latex": "\\text{Pasif Persona I/II} \\implies \\text{Objek/Topik} + (\\text{Aspek/Modalitas}) + \\text{Pronomina Agen} + \\text{Verba Dasar} \\quad (\\neg \\text{'di-... oleh saya'})",
+      "legend": "• Kalimat pasif dengan pelaku persona pertama (saya, kami) atau kedua (kamu, anda) TIDAK boleh menggunakan awalan 'di-' dan pelaku tidak boleh disisipi kata keterangan di antaranya.<br>• Urutan yang tepat: 'sudah saya serahkan', bukan 'saya sudah serahkan' atau 'diserahkan oleh saya'."
+    },
+    "hints": {
+      "concept": "Tata Bahasa Baku Bahasa Indonesia: Kalimat pasif persona pertama/kedua wajib mengikuti rumus: Kata Keterangan Aspek + Pronomina Pelaku + Verba Dasar (tanpa awalan me- atau di-).",
+      "execution": "Bentuk 'saya sudah serahkan' salah karena kata aspek 'sudah' menyusup di antara pronomina dan verba. Pindahkan 'sudah' ke depan pronomina menjadi: 'sudah saya serahkan'."
+    },
+    "explanation": "Dalam kaidah Tata Bahasa Baku Bahasa Indonesia (TBBBI), konstruksi kalimat pasif dengan agen persona pertama ('saya') tidak boleh menggunakan pola pasif morfologis 'diserahkan oleh saya', melainkan menggunakan pasif klitika/persona. Pada pasif persona, pronomina pelaku dan kata kerja dasar membentuk kesatuan yang tidak boleh disela oleh kata lain. Oleh karena itu, kata modalitas/aspek 'sudah' harus mendahului pelaku: 'sudah saya serahkan' (opsi A)."
   },
   {
     "id": "ind-sim-26",
@@ -5468,7 +5495,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Vaksin mRNA bekerja dengan menyuntikkan virus hidup dosis rendah ke dalam paru-paru."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: PENALARAN ILMIAH BIOTEKNOLOGI MRNA",
+      "latex": "\\text{Mekanisme mRNA} \\implies \\text{Transkripsi Sitoplasma Transien} \\to \\text{Translasi Ribosom} \\land (\\neg \\Delta \\text{DNA Inti Sel})",
+      "legend": "• Pemahaman wacana teks eksplanasi ilmiah: mRNA bersifat transien (sementara) dan tidak memasuki inti sel sehingga mustahil mengubah genom inang secara permanen.<br>• Kunci B menyajikan inferensi faktual yang akurat."
+    },
+    "hints": {
+      "concept": "Cermati fakta biologi seluler yang tertera dalam teks wacana: mRNA merupakan molekul instruksi sementara yang didegradasi oleh enzim seluler setelah protein lonjakan terbentuk.",
+      "execution": "Eliminasi klaim pseudosains bahwa mRNA mengubah DNA genom manusia atau bertahan seumur hidup. Pilihlah opsi yang mendefinisikan mRNA sebagai instruksi sementara (cetak biru sintetis)."
+    },
+    "explanation": "Sesuai dengan penjelasan saintifik dalam wacana, vaksin platform mRNA bekerja dengan menghantarkan instruksi genetik transien ke ribosom sitoplasma untuk memicu sintesis antigen protein lonjakan, setelah itu molekul mRNA tersebut segera didegradasi oleh enzim sel. Molekul tersebut tidak pernah memasuki inti sel (nukleus) dan tidak mengintegrasikan diri ke dalam DNA manusia. Oleh karena itu, simpulan yang benar adalah opsi (B)."
   },
   {
     "id": "ind-sim-27",
@@ -5487,7 +5524,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Tuhan Yang Mahaesa dan Tuhan Yang Mahapengasih, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Tuhan Yang Mahaesa dan Tuhan Yang Mahapengasih"
       },
       {
         "key": "C",
@@ -5502,7 +5539,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Tuhan Yang Maha-Esa dan Tuhan Yang Maha-Pengasih"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V PENULISAN BENTUK 'MAHA'",
+      "latex": "\\begin{cases} \\text{Maha} + \\text{Esa} \\implies \\text{Maha Esa} \\text{ (Terpisah, kekhususan)} \\\\ \\text{Maha} + \\text{Kata Berimbuhan} \\implies \\text{Maha Pengasih, Maha Penyayang} \\text{ (Terpisah)} \\\\ \\text{Maha} + \\text{Kata Dasar Bukan Esa} \\implies \\text{Mahakuasa, Mahabesar} \\text{ (Serangkai)} \\end{cases}",
+      "legend": "• Pedoman EYD V: Bentuk terikat 'maha' ditulis terpisah jika diikuti kata turunan berimbuhan (Maha Pengasih) dan pada kata 'Maha Esa' sebagai pengecualian yang dipertahankan.<br>• Kunci A adalah penulisan baku yang tepat."
+    },
+    "hints": {
+      "concept": "Periksa aturan EYD V tentang penulisan kata 'maha': 1) Ditulis terpisah jika diikuti kata turunan berimbuhan (Pengasih berasal dari imbuhan pe- + kasih); 2) Ditulis terpisah pada bentuk khusus 'Maha Esa'.",
+      "execution": "Cari opsi yang menuliskan 'Maha Esa' secara terpisah dan 'Maha Pengasih' secara terpisah dengan huruf kapital pada setiap unsur."
+    },
+    "explanation": "Berdasarkan EYD V, bentuk 'maha' ditulis serangkai jika diikuti kata dasar yang mengacu pada sifat Tuhan (misalnya 'Mahakuasa', 'Mahasuci'), KECUALI kata 'Esa' yang tetap ditulis terpisah ('Maha Esa'). Selain itu, jika 'maha' diikuti oleh kata turunan/berimbuhan, penulisannya juga wajib dipisah dengan huruf awal kapital ('Maha Pengasih', 'Maha Pengampun'). Oleh karena itu, pasangan penulisan yang tepat adalah 'Tuhan Yang Maha Esa dan Tuhan Yang Maha Pengasih' (opsi A)."
   },
   {
     "id": "ind-sim-28",
@@ -5517,7 +5564,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kenyamanan manusia hidup dalam kegelapan fisik tanpa listrik, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
+        "text": "Kenyamanan manusia hidup dalam kegelapan fisik tanpa listrik"
       },
       {
         "key": "B",
@@ -5536,7 +5583,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Kekompakan kelompok pekerja tambang dalam mempertahankan solidaritas bawah tanah."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: HERMENEUTIKA ALEGORI FILSAFAT PLATO",
+      "latex": "\\text{Alegori Gua} \\implies \\text{Ilusi Sensoris (Bayang-bayang)} \\to \\text{Pencerahan Rasional (Cahaya Surya)} \\iff \\text{Resistensi Massa}",
+      "legend": "• Interpretasi wacana filsafat klasik: Gua Plato menggambarkan epistemologi manusia; individu yang tercerahkan oleh kebenaran objektif kerap dicurigai, ditertawakan, atau dimusuhi oleh masyarakat yang terikat dogma ilusi.<br>• Kunci B merangkum makna simbolis alegori."
+    },
+    "hints": {
+      "concept": "Pahami analogi sentral dalam teks Republik Plato: tahanan melambangkan ketidaktahuan manusia awam; bayang-bayang di dinding adalah ilusi opini; matahari adalah kebenaran sejati.",
+      "execution": "Cermati reaksi para tahanan yang tersisa ketika tahanan yang bebas kembali ke gua untuk memberitahukan kebenaran. Mereka menolak dan menganggapnya gila/merusak tatanan."
+    },
+    "explanation": "Alegori Gua Plato menyimbolkan kondisi epistemik masyarakat yang hidup dalam kepalsuan dogma dan persepsi sensorik semu (bayang-bayang di dinding). Ketika seorang filsuf/pemikir bebas keluar gua dan menyaksikan realitas kebenaran hakiki (sinar matahari), lalu kembali untuk menyadarkan kaumnya, ia justru dianggap mengancam kenyamanan ilusi mereka dan dimusuhi. Opsi (B) menangkap esensi psikologi massa dan pesan filosofis tersebut secara tepat."
   },
   {
     "id": "ind-sim-29",
@@ -5555,7 +5612,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Ia lahir di Jakarta [pada tahun 1945], menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
+        "text": "Ia lahir di Jakarta [pada tahun 1945]"
       },
       {
         "key": "C",
@@ -5570,7 +5627,17 @@ window.TKA_IND_QUESTIONS = [
         "text": "Ibu membeli buah [mangga dan apel] di pasar."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: EYD V TANDA KURUNG SIKU ([...])",
+      "latex": "\\text{Tanda Kurung Siku} \\implies [\\dots] \\text{ sebagai koreksi/penambahan atas kesalahan naskah orang lain}",
+      "legend": "• EYD V Bab Tanda Baca: Tanda kurung siku dipakai untuk mengapit huruf, kata, atau kelompok kata sebagai koreksi atau tambahan pada kalimat atau bagian kalimat yang ditulis orang lain.<br>• Kunci A adalah contoh penerapan autentik penambahan fonem naskah klasik."
+    },
+    "hints": {
+      "concept": "Bedakan fungsi tanda kurung biasa (...) dan tanda kurung siku [...]: Tanda kurung biasa mengapit keterangan tambahan; tanda kurung siku dipakai oleh editor/peneliti untuk mengoreksi atau menambahkan huruf yang hilang pada tulisan orang lain.",
+      "execution": "Perhatikan contoh di mana editor menyisipkan fonem 'd' pada kata naskah lama 'mengar' menjadi 'men[d]engar' untuk memperbaiki kesalahan naskah asli."
+    },
+    "explanation": "Sesuai kaidah EYD V, tanda kurung siku ([...]) secara khusus digunakan untuk mengapit huruf, kata, atau bagian kalimat sebagai koreksi atau tanda bahwa terdapat kesalahan atau kekurangan pada naskah asli yang ditulis oleh orang lain (seperti pada kajian filologi atau penyuntingan naskah kuno: 'men[d]engar' untuk melengkapi huruf 'd' yang tercecer pada manuskrip asli). Contoh yang tepat adalah opsi (A). Opsi lainnya menggunakan tanda kurung siku secara keliru padahal seharusnya menggunakan tanda kurung biasa atau tanpa tanda baca."
   },
   {
     "id": "ind-sim-30",
@@ -5598,6 +5665,175 @@ window.TKA_IND_QUESTIONS = [
         "text": "Setiap pelanggar ketentuan zonasi pertambangan dikenakan sanksi administratif berupa pencabutan izin usaha.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "KAIDAH LOGIKA & STRUKTUR WACANA: MATRIKS AUDIT SINTAKSIS HUKUM",
+      "latex": "\\text{Kalimat Efektif Dokumen Resmi} \\implies \\exists \\text{Subjek Eksplisit} \\land (\\neg \\text{Preposisi Awal Pengabur Subjek})",
+      "legend": "• Klausa hukum harus memiliki kejelasan subjek hukum dan predikat sanksi/kewajiban yang tegas tanpa cacat subordinatif.<br>• Penggunaan 'Tentang...' di awal kalimat membuat klausa tidak memiliki Subjek yang sah.<br>• Matriks: True / False / True."
+    },
+    "hints": {
+      "concept": "Audit struktur gramatikal kalimat resmi: Kalimat 1 memiliki S ('Peraturan daerah ini') dan P ('mulai berlaku'); Kalimat 2 diawali 'Tentang...' sehingga kehilangan subjek; Kalimat 3 memiliki S ('Setiap pelanggar...') dan P ('dikenakan').",
+      "execution": "Tentukan keabsahan sintaksis: Pernyataan 1 = BENAR; Pernyataan 2 = SALAH (cacat sintaksis subjek); Pernyataan 3 = BENAR."
+    },
+    "explanation": "Pernyataan 1 BENAR karena memiliki struktur Subjek ('Peraturan daerah ini') dan Predikat verbal majemuk ('mulai berlaku' dan 'mengikat') yang jelas dan padu. Pernyataan 2 SALAH karena klausa diawali preposisi 'Tentang...' yang mengubah seluruh frasa menjadi Keterangan sehingga kalimat tersebut tidak memiliki Subjek gramatikal; perbaikan yang benar adalah menghilangkan kata 'Tentang'. Pernyataan 3 BENAR karena memenuhi syarat kalimat pasif efektif dengan Subjek 'Setiap pelanggar ketentuan zonasi pertambangan' dan Predikat 'dikenakan sanksi administratif'."
+  },
+  {
+    "id": "ind-diag-01",
+    "subject": "ind",
+    "materi": "PEMAHAMAN TEKSTUAL",
+    "topic": "Literasi Membaca: Evaluasi & Sintesis Teks Informasi",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Bacalah kutipan teks berikut secara saksama!<br><br><em>'Akselerasi transisi energi hijau di kawasan Asia Tenggara menghadapi paradoks struktural. Di satu sisi, penghentian bertahap pembangkit listrik tenaga uap (PLTU) batu bara mendesak dilakukan demi mereduksi emisi karbon. Namun, di sisi lain, infrastruktur transmisi tegangan tinggi antarwilayah belum memadai untuk mengalirkan energi terbarukan yang bersifat intermiten dari pusat pembangkit hidro dan surya terpencil ke sentra manufaktur utama. Ketiadaan skema kompensasi finansial yang jelas bagi penutupan dini aset batubara kian memperpanjang ketergantungan pada energi fosil.'</em><br><br>Simpulan implisit yang paling kokoh dan sejalan dengan isi teks wacana di atas adalah...",
+    "options": {
+      "A": "Pembangkit listrik tenaga batubara tidak mungkin digantikan oleh energi terbarukan di Asia Tenggara.",
+      "B": "Energi terbarukan hidro dan surya tidak menghasilkan daya listrik yang cukup stabil untuk kebutuhan rumah tangga.",
+      "C": "Transisi menuju energi hijau hanya dapat terwujud jika seluruh PLTU batubara ditutup tanpa kompensasi finansial.",
+      "D": "Pemerintah kawasan Asia Tenggara menolak regulasi penurunan emisi karbon karena biaya transmisi yang terlampau mahal.",
+      "E": "Keberhasilan dekarbonisasi energi bergantung mutlak pada kesiapan jaringan transmisi interkoneksi dan penyelesaian skema pembiayaan penutupan aset fosil."
+    },
+    "correctKey": "E",
+    "explanation": "<strong>Pembahasan Evaluasi Literasi Tekstual:</strong><br>Wacana secara gamblang memaparkan dua hambatan inti transisi energi: (1) ketidaksiapan transmisi tegangan tinggi untuk energi intermiten, dan (2) ketiadaan skema kompensasi finansial dini penutupan aset batubara. Oleh sebab itu, simpulan implisit yang paling valid adalah dekarbonisasi tidak cukup hanya dengan niat menutup PLTU, melainkan mensyaratkan interkoneksi jaringan transmisi dan kepastian skema pembiayaan (Opsi E). Pilihan A, B, C, dan D mengandung overgeneralisasi ekstrem yang bertentangan dengan premis teks.",
+    "clue1": "Perhatikan dua faktor penghambat yang saling mengunci pada teks: masalah jaringan transmisi dan pembiayaan aset batubara.",
+    "clue2": "Simpulan yang baik harus mencakup sintesis dari kedua variabel penghambat tersebut tanpa klaim berlebihan.",
+    "formula": "Simpulan Implisit = Sintesis Argumen Utama + Eliminasi Generalisasi Ekstrem",
+    "concept_hint": "Perhatikan dua faktor penghambat yang saling mengunci pada teks: masalah jaringan transmisi dan pembiayaan aset batubara.",
+    "execution_hint": "Simpulan yang baik harus mencakup sintesis dari kedua variabel penghambat tersebut tanpa klaim berlebihan.",
+    "hints": {
+      "concept": "Perhatikan dua faktor penghambat yang saling mengunci pada teks: masalah jaringan transmisi dan pembiayaan aset batubara.",
+      "execution": "Simpulan yang baik harus mencakup sintesis dari kedua variabel penghambat tersebut tanpa klaim berlebihan."
+    }
+  },
+  {
+    "id": "ind-diag-02",
+    "subject": "ind",
+    "materi": "PENALARAN INDUKTIF & DEDUKTIF",
+    "topic": "Penalaran Logis: Silogisme & Validitas Premis",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Perhatikan silogisme kategorial dan premis-premis formal berikut:<br><br><strong>Premis 1:</strong> Setiap inovasi teknologi yang lolos audit keamanan data berhak memperoleh sertifikasi operasional nasional.<br><strong>Premis 2:</strong> Tidak ada platform kecerdasan artifisial tanpa protokol enkripsi ujung-ke-ujung (E2EE) yang mampu lolos audit keamanan data.<br><strong>Premis 3:</strong> Platform 'NexusCore' memperoleh sertifikasi operasional nasional.<br><br>Berdasarkan ketiga premis di atas, simpulan deduktif yang secara logis SAH (valid) adalah...",
+    "options": {
+      "A": "Platform 'NexusCore' memiliki protokol enkripsi ujung-ke-ujung (E2EE).",
+      "B": "Semua platform yang memiliki enkripsi ujung-ke-ujung pasti memperoleh sertifikasi operasional nasional.",
+      "C": "Platform 'NexusCore' belum tentu lolos audit keamanan data tingkat nasional.",
+      "D": "Tidak ada platform yang memiliki enkripsi ujung-ke-ujung yang gagal memperoleh sertifikasi operasional.",
+      "E": "Platform 'NexusCore' merupakan satu-satunya platform kecerdasan artifisial yang lolos audit."
+    },
+    "correctKey": "A",
+    "explanation": "<strong>Pembahasan Logika Silogisme:</strong><br>1. Berdasarkan Premis 1 dan Premis 3 (Modus Tollens terbalik / afirmasi anteseden): Karena 'NexusCore' bersertifikasi operasional, dan sertifikasi mensyaratkan lolos audit keamanan, maka NexusCore pasti lolos audit keamanan data.<br>2. Berdasarkan Premis 2: Jika platform TIDAK memiliki E2EE, maka TIDAK lolos audit ($\\sim E \\implies \\sim A$). Kontraposisinya: Jika platform lolos audit, maka platform MEMILIKI protokol E2EE ($A \\implies E$).<br>3. Karena NexusCore lolos audit, maka secara mutlak NexusCore memiliki protokol enkripsi ujung-ke-ujung (E2EE) (Opsi A sah).<br>Opsi B salah karena membalik implikasi (affirming the consequent).",
+    "clue1": "Gunakan kontraposisi Premis 2: Tidak memiliki E2EE -> Tidak lolos audit, ekuivalen dengan Lolos audit -> Memiliki E2EE.",
+    "clue2": "Rangkaikan dengan Premis 3 bahwa NexusCore terbukti lolos dan bersertifikasi.",
+    "formula": "Silogisme Kategorial: (P1: A \\implies B) \\land (P2: \\sim C \\implies \\sim A) \\land (P3: B) \\vdash C",
+    "concept_hint": "Gunakan kontraposisi Premis 2: Tidak memiliki E2EE -> Tidak lolos audit, ekuivalen dengan Lolos audit -> Memiliki E2EE.",
+    "execution_hint": "Rangkaikan dengan Premis 3 bahwa NexusCore terbukti lolos dan bersertifikasi.",
+    "hints": {
+      "concept": "Gunakan kontraposisi Premis 2: Tidak memiliki E2EE -> Tidak lolos audit, ekuivalen dengan Lolos audit -> Memiliki E2EE.",
+      "execution": "Rangkaikan dengan Premis 3 bahwa NexusCore terbukti lolos dan bersertifikasi."
+    }
+  },
+  {
+    "id": "ind-diag-03",
+    "subject": "ind",
+    "materi": "STRUKTUR BAHASA",
+    "topic": "Sintaksis: Kalimat Efektif & Keutuhan Unsur Kalimat",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "multi",
+    "question": "Di antara kalimat-kalimat di bawah ini, manakah yang tergolong ke dalam KALIMAT EFEKTIF baku yang terbebas dari kesalahan pleonasme, kerancuan subjek, dan kontaminasi logika struktur? (Pilihlah semua opsi yang sesuai)",
+    "options": {
+      "A": "Meskipun data penelitian telah diverifikasi oleh tim independen, namun peneliti belum berani menarik kesimpulan final.",
+      "B": "Penelitian mutakhir membuktikan bahwa mikroplastik mengendap pada sedimen estuari dan memicu disrupsi rantai trofik perairan.",
+      "C": "Kepada seluruh peserta seminar diharapkan memasuki auditorium utama sebelum sidang pleno komisi dimulai.",
+      "D": "Rekayasa perangkat lunak berskala enterprise memerlukan standardisasi arsitektur yang modular dan teruji secara empiris.",
+      "E": "Berdasarkan laporan keuangan kuartal ketiga menemukan adanya indikasi pemborosan alokasi anggaran operasional logistik."
+    },
+    "correctKey": [
+      "B",
+      "D"
+    ],
+    "explanation": "<strong>Pembahasan Kalimat Efektif:</strong><br>$\\bullet$ <strong>Opsi B EFEKTIF:</strong> Memiliki Subjek ('Penelitian mutakhir'), Predikat ('membuktikan'), dan Objek berupa klausa subordinatif ('bahwa mikroplastik mengendap...').<br>$\\bullet$ <strong>Opsi D EFEKTIF:</strong> Memiliki struktur Subjek ('Rekayasa perangkat lunak berskala enterprise'), Predikat ('memerlukan'), dan Objek ('standardisasi arsitektur...').<br>$\\bullet$ <em>Opsi A TIDAK EFEKTIF:</em> Konjungsi subordinatif ganda ('Meskipun ... namun'). Kata 'namun' harus dihilangkan.<br>$\\bullet$ <em>Opsi C TIDAK EFEKTIF:</em> Kerancuan subjek karena diawali preposisi 'Kepada'. Subjek menjadi kabur.<br>$\\bullet$ <em>Opsi E TIDAK EFEKTIF:</em> Ketiadaan subjek (kalimat buntung). Frasa 'Berdasarkan laporan...' berstatus keterangan, sehingga predikat 'menemukan' kehilangan aktor subjek penemunya.",
+    "clue1": "Waspadai pemakaian konjungsi bertumpuk seperti 'meskipun ... namun' pada satu kalimat tunggal.",
+    "clue2": "Periksa apakah ada kalimat yang subjeknya hilang karena didahului preposisi 'Kepada' atau 'Berdasarkan'.",
+    "formula": "Kalimat Efektif = Subjek Jelas + Predikat Pasti + Bebas Pleonasme/Konjungsi Ganda",
+    "concept_hint": "Waspadai pemakaian konjungsi bertumpuk seperti 'meskipun ... namun' pada satu kalimat tunggal.",
+    "execution_hint": "Periksa apakah ada kalimat yang subjeknya hilang karena didahului preposisi 'Kepada' atau 'Berdasarkan'.",
+    "hints": {
+      "concept": "Waspadai pemakaian konjungsi bertumpuk seperti 'meskipun ... namun' pada satu kalimat tunggal.",
+      "execution": "Periksa apakah ada kalimat yang subjeknya hilang karena didahului preposisi 'Kepada' atau 'Berdasarkan'."
+    }
+  },
+  {
+    "id": "ind-diag-04",
+    "subject": "ind",
+    "materi": "KONVENSI BAHASA (EYD V)",
+    "topic": "Kaidah EYD V: Ejaan, Tanda Baca & Penulisan Kata Serapan",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "matrix",
+    "question": "Berdasarkan pedoman umum Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V), ujilah ketepatan ejaan dan tanda baca pada kalimat-kalimat berikut dengan menentukan status BENAR atau SALAH:",
+    "statements": [
+      {
+        "id": "stmt1",
+        "text": "Meskipun laju inflasi melonjak; stabilitas fundamental ekonomi riil masyarakat pedesaan tetap terjaga."
+      },
+      {
+        "id": "stmt2",
+        "text": "Walaupun terlambat menghadiri konvensi, delegasi itu pun tetap disambut hangat oleh tuan rumah."
+      },
+      {
+        "id": "stmt3",
+        "text": "Kementerian Hukum dan HAM mengoordinasi seluruh aparat kepolisian guna menuntaskan penyelidikan perkara lintas batas."
+      }
+    ],
+    "correctKey": {
+      "stmt1": "salah",
+      "stmt2": "benar",
+      "stmt3": "benar"
+    },
+    "explanation": "<strong>Evaluasi Matriks Kaidah EYD V:</strong><br>1. <strong>Pernyataan 1: SALAH.</strong><br>Tanda titik koma (;) tidak dapat digunakan untuk memisahkan anak kalimat yang diawali konjungsi subordinatif 'Meskipun' dari induk kalimatnya. Tanda yang wajib digunakan adalah koma (,).<br>2. <strong>Pernyataan 2: BENAR.</strong><br>Partikel 'pun' yang bermakna 'juga' atau berfungsi menegaskan frasa sebelumnya ditulis terpisah ('itu pun').<br>3. <strong>Pernyataan 3: BENAR.</strong><br>Kata dasar serapan 'koordinasi' yang diawali fonem /k/ apabila diberi imbuhan meN- mengalami peluruhan menjadi 'mengoordinasi' (bukan mengkoordinir atau mengkoordinasi) sesuai kaidah morfofonemik EYD V.",
+    "clue1": "Tanda titik koma (;) digunakan untuk memisahkan bagian kalimat yang setara atau pengganti kata hubung koordinatif.",
+    "clue2": "Periksa aturan peluruhan K-T-S-P pada kata 'koordinasi' saat diawali prefiks me-.",
+    "formula": "Kaidah EYD V: Morfofonemik meN- + KTSP luluh; Partikel pun terpisah; Titik koma pengganti konjungsi setara",
+    "concept_hint": "Tanda titik koma (;) digunakan untuk memisahkan bagian kalimat yang setara atau pengganti kata hubung koordinatif.",
+    "execution_hint": "Periksa aturan peluruhan K-T-S-P pada kata 'koordinasi' saat diawali prefiks me-.",
+    "hints": {
+      "concept": "Tanda titik koma (;) digunakan untuk memisahkan bagian kalimat yang setara atau pengganti kata hubung koordinatif.",
+      "execution": "Periksa aturan peluruhan K-T-S-P pada kata 'koordinasi' saat diawali prefiks me-."
+    }
+  },
+  {
+    "id": "ind-diag-05",
+    "subject": "ind",
+    "materi": "APRESIASI SASTRA & ANALISIS MAJAS",
+    "topic": "Hermeneutika Sastra: Diksi Simbolis & Ironi Satiris",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Bacalah kutipan fiksi satiris berikut!<br><br><em>'Di balai kota yang megah berlapis marmer Carrara, para birokrat sibuk menggelar seminar internasional tentang etika pengentasan kemiskinan ekstrem. Di luar pagar gerbang setinggi tiga tombak, bau anyir comberan berbaur dengan kepulan asap ban bekas yang dibakar pedagang kaki lima yang tergusur. Seorang pejabat berjas wol impor melongokkan kepalanya dari jendela berpendingin udara, seraya mengibaskan saputangan sutranya ke udara dan berbisik: 'Alangkah indahnya lukisan perjuangan rakyat kecil jika dipotret dengan lensa monokromatik.''</em><br><br>Majas dan strategi retoris utama yang digunakan pengarang untuk membangun kritik sosial dalam kutipan di atas adalah...",
+    "options": {
+      "A": "Hiperbola ekstrem yang mendramatisasi penderitaan rakyat tanpa menyentuh realitas faktual.",
+      "B": "Personifikasi puitis yang menghidupkan benda-benda mati di sekeliling gedung balai kota.",
+      "C": "Ironi situasional dan sarkasme tajam yang membenturkan kemewahan artifisial elite dengan kemelaratan nyata rakyat.",
+      "D": "Metafora alegoris yang menyamakan pejabat birokrasi dengan pejuang kemerdekaan masa lampau.",
+      "E": "Tautologi berulang yang mempertegas keluhuran niat seminar pengentasan kemiskinan."
+    },
+    "correctKey": "C",
+    "explanation": "<strong>Pembahasan Hermeneutika Sastra:</strong><br>Kutipan secara eksplisit mendemonstrasikan kontradiksi mencolok (juxtaposition) antara seminar kemiskinan di ruang ber-AC berlapis marmer mewah dengan kenyataan tergusurnya rakyat di depan pagar comberan. Ucapan sinis pejabat ('Alangkah indahnya lukisan perjuangan rakyat kecil jika dipotret dengan lensa monokromatik') adalah puncak sarkasme dan ironi situasional (situational irony) yang menelanjangi kepalsuan empati elite feodal (Opsi C).",
+    "clue1": "Perhatikan kontras dramatis antara seminar mewah di dalam gedung marmer dan penggusuran rakyat miskin di comberan luar pagar.",
+    "clue2": "Komentar pejabat tentang 'lukisan indah perjuangan rakyat kecil' merupakan cerminan ironi dan sarkasme moral.",
+    "formula": "Analisis Retoris: Hermeneutika Teks Satiris = Juxtaposition + Situational Irony",
+    "concept_hint": "Perhatikan kontras dramatis antara seminar mewah di dalam gedung marmer dan penggusuran rakyat miskin di comberan luar pagar.",
+    "execution_hint": "Komentar pejabat tentang 'lukisan indah perjuangan rakyat kecil' merupakan cerminan ironi dan sarkasme moral.",
+    "hints": {
+      "concept": "Perhatikan kontras dramatis antara seminar mewah di dalam gedung marmer dan penggusuran rakyat miskin di comberan luar pagar.",
+      "execution": "Komentar pejabat tentang 'lukisan indah perjuangan rakyat kecil' merupakan cerminan ironi dan sarkasme moral."
+    }
   }
 ];

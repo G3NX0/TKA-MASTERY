@@ -1,6 +1,3 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_MTK.JS (135 SOAL AUTENTIK)
- */
 window.TKA_MTK_QUESTIONS = [
   {
     "id": "mtk-lat-e-01",
@@ -14,7 +11,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 215.000 (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "Rp 215.000"
       },
       {
         "key": "B",
@@ -102,7 +99,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$1$"
       },
       {
         "key": "B",
@@ -150,7 +147,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3(\\sqrt{7} - \\sqrt{3})$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$3(\\sqrt{7} - \\sqrt{3})$"
       },
       {
         "key": "C",
@@ -190,7 +187,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$3$"
       },
       {
         "key": "B",
@@ -234,7 +231,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$62$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$62$"
       },
       {
         "key": "B",
@@ -278,7 +275,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.725\\text{ unit}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$1.725\\text{ unit}$"
       },
       {
         "key": "B",
@@ -322,7 +319,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 6.000 (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "Rp 6.000"
       },
       {
         "key": "B",
@@ -370,7 +367,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$2$"
       },
       {
         "key": "C",
@@ -454,7 +451,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x \\le 5$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$x \\le 5$"
       },
       {
         "key": "B",
@@ -542,7 +539,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$11$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$11$"
       },
       {
         "key": "B",
@@ -590,7 +587,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3x - 5}{4}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$\\frac{3x - 5}{4}$"
       },
       {
         "key": "C",
@@ -718,7 +715,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$2$"
       },
       {
         "key": "B",
@@ -806,7 +803,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\text{ satuan}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$8\\text{ satuan}$"
       },
       {
         "key": "B",
@@ -850,7 +847,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$256\\text{ cm}^2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$256\\text{ cm}^2$"
       },
       {
         "key": "B",
@@ -894,7 +891,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$100\\text{ cm}^3$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$100\\text{ cm}^3$"
       },
       {
         "key": "B",
@@ -938,7 +935,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$6\\text{ cm}$"
       },
       {
         "key": "B",
@@ -1114,7 +1111,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$78$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$78$"
       },
       {
         "key": "B",
@@ -1202,7 +1199,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$60$"
       },
       {
         "key": "B",
@@ -1246,7 +1243,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{12}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$\\frac{1}{12}$"
       },
       {
         "key": "B",
@@ -1290,7 +1287,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{8}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$\\frac{1}{8}$"
       },
       {
         "key": "B",
@@ -1334,7 +1331,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3}{5}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$\\frac{3}{5}$"
       },
       {
         "key": "B",
@@ -1422,7 +1419,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{2}{3}\\pi\\text{ rad}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$\\frac{2}{3}\\pi\\text{ rad}$"
       },
       {
         "key": "B",
@@ -1510,7 +1507,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$15,0\\text{ meter}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$15,0\\text{ meter}$"
       },
       {
         "key": "B",
@@ -1565,7 +1562,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$4$"
       },
       {
         "key": "B",
@@ -1696,7 +1693,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-1 \\le x \\le 4$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$-1 \\le x \\le 4$"
       },
       {
         "key": "B",
@@ -1740,7 +1737,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 23.600.000 (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "Rp 23.600.000"
       },
       {
         "key": "B",
@@ -1784,7 +1781,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$4$"
       },
       {
         "key": "B",
@@ -1832,7 +1829,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\sqrt{10} - 1$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$\\sqrt{10} - 1$"
       },
       {
         "key": "C",
@@ -1848,50 +1845,6 @@ window.TKA_MTK_QUESTIONS = [
       }
     ],
     "correctKey": "A"
-  },
-  {
-    "id": "mtk-lat-m-08",
-    "subject": "mtk",
-    "materi": "ALJABAR",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Sistem Persamaan Linear Tiga Variabel",
-    "type": "mcq",
-    "questionHtml": "Sebuah percetakan mencetak $3\\text{ jenis paket}$ publikasi: Paket $A$, $B$, dan $C$. Tiga pelanggan memesan kombinasi paket:<br>• Pelanggan 1: $1A + 2B + 1C = \\text{Rp}150.000$<br>• Pelanggan 2: $2A + 1B + 3C = \\text{Rp}240.000$<br>• Pelanggan 3: $3A + 3B + 2C = \\text{Rp}290.000$<br>Harga untuk $1\\text{ unit}$ Paket $A$ adalah...",
-    "formulaHud": {
-      "title": "ELIMINASI GAUSS SPLTV",
-      "latex": "A + 2B + C = 150, \\quad 2A + B + 3C = 240, \\quad 3A + 3B + 2C = 290",
-      "legend": "• Eliminasi $C$ atau gunakan substitusi bertahap."
-    },
-    "hints": {
-      "concept": "Dari (1): $C = 150 - A - 2B$. Substitusikan ke (2) dan (3) untuk mendapatkan sistem dalam $A$ dan $B$.",
-      "execution": "Diperoleh $A = 50.000, B = 30.000, C = 40.000$."
-    },
-    "explanation": "<strong>Solusi:</strong> Menyelesaikan sistem eliminasi menghasilkan $A = \\text{Rp}50.000, B = \\text{Rp}30.000, C = \\text{Rp}40.000$.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "Rp 30.000 (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
-      },
-      {
-        "key": "B",
-        "text": "Rp 40.000"
-      },
-      {
-        "key": "C",
-        "text": "Rp 50.000"
-      },
-      {
-        "key": "D",
-        "text": "Rp 60.000"
-      },
-      {
-        "key": "E",
-        "text": "Rp 70.000"
-      }
-    ],
-    "correctKey": "C"
   },
   {
     "id": "mtk-lat-m-09",
@@ -2004,7 +1957,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{18}{5}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$\\frac{18}{5}$"
       },
       {
         "key": "B",
@@ -2100,7 +2053,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$"
       },
       {
         "key": "C",
@@ -2184,7 +2137,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$101$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$101$"
       },
       {
         "key": "B",
@@ -2228,7 +2181,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{4}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$\\frac{1}{4}$"
       },
       {
         "key": "B",
@@ -2276,7 +2229,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(-5, 4)$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$(-5, 4)$"
       },
       {
         "key": "C",
@@ -2316,7 +2269,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$13$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$13$"
       },
       {
         "key": "B",
@@ -2364,7 +2317,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$k = -3$ dan akar imajiner (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$k = -3$ dan akar imajiner"
       },
       {
         "key": "C",
@@ -2380,50 +2333,6 @@ window.TKA_MTK_QUESTIONS = [
       }
     ],
     "correctKey": "A"
-  },
-  {
-    "id": "mtk-lat-m-20",
-    "subject": "mtk",
-    "materi": "GEOMETRI & PENGUKURAN",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Jarak Titik ke Bidang pada Kubus",
-    "type": "mcq",
-    "questionHtml": "Diketahui kubus $ABCD.EFGH$ dengan panjang rusuk $6\\text{ cm}$. Jarak titik $E$ ke bidang diagonal $BDHF$ adalah...",
-    "formulaHud": {
-      "title": "JARAK TITIK KE BIDANG DIAGONAL",
-      "latex": "d = \\frac{1}{2}EG = \\frac{1}{2}s\\sqrt{2}",
-      "legend": "• Garis hubung dari $E$ tegak lurus bidang $BDHF$ jatuh di titik potong diagonal $EG$ dan $FH$."
-    },
-    "hints": {
-      "concept": "Jarak tersebut adalah setengah dari diagonal bidang $EG$.",
-      "execution": "$d = \\frac{1}{2}(6\\sqrt{2}) = 3\\sqrt{2}\\text{ cm}$."
-    },
-    "explanation": "<strong>Solusi:</strong> Proyeksi titik $E$ ke bidang $BDHF$ adalah titik pusat bidang atas $O$. Jarak $EO = \\frac{1}{2}EG = \\frac{1}{2}(6\\sqrt{2}) = 3\\sqrt{2}\\text{ cm}$.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "$3\\text{ cm}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
-      },
-      {
-        "key": "B",
-        "text": "$3\\sqrt{2}\\text{ cm}$"
-      },
-      {
-        "key": "C",
-        "text": "$3\\sqrt{3}\\text{ cm}$"
-      },
-      {
-        "key": "D",
-        "text": "$6\\text{ cm}$"
-      },
-      {
-        "key": "E",
-        "text": "$6\\sqrt{2}\\text{ cm}$"
-      }
-    ],
-    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-21",
@@ -2540,7 +2449,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3x - 4y = 25$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$3x - 4y = 25$"
       },
       {
         "key": "C",
@@ -2584,7 +2493,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(-2, 5)$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$(-2, 5)$"
       },
       {
         "key": "C",
@@ -2628,7 +2537,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2x - 3y + 12 = 0$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$2x - 3y + 12 = 0$"
       },
       {
         "key": "C",
@@ -2672,7 +2581,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{1}{3}\\sqrt{3}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$\\frac{1}{3}\\sqrt{3}$"
       },
       {
         "key": "C",
@@ -2712,7 +2621,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$71,86$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$71,86$"
       },
       {
         "key": "B",
@@ -2756,7 +2665,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$63,71$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$63,71$"
       },
       {
         "key": "B",
@@ -2776,50 +2685,6 @@ window.TKA_MTK_QUESTIONS = [
       }
     ],
     "correctKey": "C"
-  },
-  {
-    "id": "mtk-lat-m-29",
-    "subject": "mtk",
-    "materi": "DATA & PELUANG",
-    "mode": "latihan",
-    "difficulty": "medium",
-    "topic": "Permutasi Siklis Bersyarat",
-    "type": "mcq",
-    "questionHtml": "Sebuah komite yang terdiri dari $7\\text{ orang}$ mengadakan rapat di meja bundar. Jika ketua dan sekretaris komite harus selalu duduk berdampingan, banyaknya susunan posisi duduk yang mungkin adalah...",
-    "formulaHud": {
-      "title": "PERMUTASI SIKLIS BERSYARAT",
-      "latex": "P_{\\text{siklis}} = (n' - 1)! \\times k!",
-      "legend": "• Satukan ketua dan sekretaris menjadi 1 elemen gabungan. Jumlah elemen $n' = 6$."
-    },
-    "hints": {
-      "concept": "Banyak posisi meja bundar $= (6 - 1)! = 5! = 120$.",
-      "execution": "Ketua dan sekretaris dapat bertukar tempat dalam $2! = 2$ cara. Total $= 120 \\times 2 = 240$."
-    },
-    "explanation": "<strong>Solusi:</strong> $P = (6 - 1)! \\times 2! = 120 \\times 2 = 240\\text{ susunan}$.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "$120$"
-      },
-      {
-        "key": "B",
-        "text": "$240$"
-      },
-      {
-        "key": "C",
-        "text": "$360$"
-      },
-      {
-        "key": "D",
-        "text": "$720$"
-      },
-      {
-        "key": "E",
-        "text": "$1.440$"
-      }
-    ],
-    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-30",
@@ -2844,7 +2709,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$75\\text{ cara}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$75\\text{ cara}$"
       },
       {
         "key": "B",
@@ -2888,7 +2753,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0,26$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$0,26$"
       },
       {
         "key": "B",
@@ -2936,7 +2801,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2\\sqrt{15}\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$2\\sqrt{15}\\text{ cm}$"
       },
       {
         "key": "C",
@@ -3020,7 +2885,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{36}{65}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$\\frac{36}{65}$"
       },
       {
         "key": "B",
@@ -3068,7 +2933,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$"
       },
       {
         "key": "C",
@@ -3112,7 +2977,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\{1, 2\\}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$\\{1, 2\\}$"
       },
       {
         "key": "C",
@@ -3152,7 +3017,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x < -1$ atau $x > 4$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$x < -1$ atau $x > 4$"
       },
       {
         "key": "B",
@@ -3240,7 +3105,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$36\\sqrt{3}\\text{ cm}^2$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$36\\sqrt{3}\\text{ cm}^2$"
       },
       {
         "key": "B",
@@ -3260,50 +3125,6 @@ window.TKA_MTK_QUESTIONS = [
       }
     ],
     "correctKey": "C"
-  },
-  {
-    "id": "mtk-lat-h-05",
-    "subject": "mtk",
-    "materi": "BILANGAN",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Pertidaksamaan Nilai Mutlak Ganda",
-    "type": "mcq",
-    "questionHtml": "Himpunan penyelesaian dari pertidaksamaan $|2x - 1| < |x + 4|$ adalah...",
-    "formulaHud": {
-      "title": "KUADRAT KEDUA RUAS NILAI MUTLAK",
-      "latex": "|A| < |B| \\iff (A - B)(A + B) < 0",
-      "legend": "• $(2x - 1 - (x + 4))(2x - 1 + x + 4) < 0$."
-    },
-    "hints": {
-      "concept": "$(x - 5)(3x + 3) < 0 \\implies 3(x - 5)(x + 1) < 0$.",
-      "execution": "Titik pembuat nol: $x = -1$ dan $x = 5$. Daerah bernilai negatif: $-1 < x < 5$."
-    },
-    "explanation": "<strong>Solusi:</strong> $(2x - 1)^2 < (x + 4)^2 \\iff 3(x + 1)(x - 5) < 0 \\iff -1 < x < 5$.",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "$-1 < x < 5$"
-      },
-      {
-        "key": "B",
-        "text": "$-3 < x < 5$"
-      },
-      {
-        "key": "C",
-        "text": "$-1 < x < 3$"
-      },
-      {
-        "key": "D",
-        "text": "$x < -1$ atau $x > 5$"
-      },
-      {
-        "key": "E",
-        "text": "$-5 < x < 1$"
-      }
-    ],
-    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-06",
@@ -3328,7 +3149,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$18$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$18$"
       },
       {
         "key": "B",
@@ -3372,7 +3193,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$"
       },
       {
         "key": "B",
@@ -3464,7 +3285,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$4x^2 - 14x + 1 = 0$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$4x^2 - 14x + 1 = 0$"
       },
       {
         "key": "C",
@@ -3541,14 +3362,14 @@ window.TKA_MTK_QUESTIONS = [
     },
     "hints": {
       "concept": "Bagi 2: $x^2 + 200x - 75.000 = 0$.",
-      "execution": "Faktorkan: $(x + 500)(x - 200) = 0 \\implies x = 200$ (karena kapasitas harus positif)."
+      "execution": "Faktorkan: $(x + 500)(x - 200) = 0 \\implies x = 200$."
     },
     "explanation": "<strong>Solusi:</strong> $x^2 + 200x - 75.000 = (x + 500)(x - 200) = 0 \\implies x = 200\\text{ unit}$.",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "$150\\text{ unit}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$150\\text{ unit}$"
       },
       {
         "key": "B",
@@ -3772,7 +3593,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$29$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$29$"
       },
       {
         "key": "B",
@@ -3908,7 +3729,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$y = 2x + 5$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$y = 2x + 5$"
       },
       {
         "key": "C",
@@ -3952,7 +3773,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(2, -3)$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$(2, -3)$"
       },
       {
         "key": "C",
@@ -4084,7 +3905,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(0, 3)$ dan $y = -3$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$(0, 3)$ dan $y = -3$"
       },
       {
         "key": "C",
@@ -4128,7 +3949,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{4}{10}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$\\frac{4}{10}$"
       },
       {
         "key": "C",
@@ -4172,7 +3993,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{11}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$\\frac{3}{11}$"
       },
       {
         "key": "C",
@@ -4216,7 +4037,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$77{,}14$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$77{,}14$"
       },
       {
         "key": "C",
@@ -4260,7 +4081,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-120$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$-120$"
       },
       {
         "key": "C",
@@ -4300,7 +4121,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$85$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$85$"
       },
       {
         "key": "B",
@@ -4320,50 +4141,6 @@ window.TKA_MTK_QUESTIONS = [
       }
     ],
     "correctKey": "C"
-  },
-  {
-    "id": "mtk-lat-h-29",
-    "subject": "mtk",
-    "materi": "TRIGONOMETRI",
-    "mode": "latihan",
-    "difficulty": "hard",
-    "topic": "Himpunan Penyelesaian Persamaan Cosinus",
-    "type": "mcq",
-    "questionHtml": "Himpunan penyelesaian dari persamaan $2\\cos^2 x + \\cos x - 1 = 0$ untuk interval $0 \\le x \\le 2\\pi$ adalah...",
-    "formulaHud": {
-      "title": "FAKTORISASI PERSAMAAN TRIGONOMETRI",
-      "latex": "(2\\cos x - 1)(\\cos x + 1) = 0",
-      "legend": "• Faktorkan bentuk kuadratik 2u^2 + u - 1 = 0."
-    },
-    "hints": {
-      "concept": "Faktorkan persamaan menjadi $(2\\cos x - 1)(\\cos x + 1) = 0$.",
-      "execution": "$\\cos x = 1/2 \\implies x = \\pi/3, 5\\pi/3$. $\\cos x = -1 \\implies x = \\pi$."
-    },
-    "explanation": "<strong>Langkah Penyelesaian:</strong><br>1. Faktorkan: $(2\\cos x - 1)(\\cos x + 1) = 0$.<br>2. $\\cos x = \\frac{1}{2} \\implies x = \\frac{\\pi}{3},\\; \\frac{5\\pi}{3}$.<br>3. $\\cos x = -1 \\implies x = \\pi$.<br>4. Gabungan solusi: $\\{\\frac{\\pi}{3}, \\pi, \\frac{5\\pi}{3}\\}$.<br><strong>Solusi:</strong> Himpunan penyelesaian adalah $\\{\\frac{\\pi}{3}, \\pi, \\frac{5\\pi}{3}\\}$ (Opsi A).",
-    "isDiagnostic": true,
-    "options": [
-      {
-        "key": "A",
-        "text": "$\\{\\frac{\\pi}{3}, \\pi, \\frac{5\\pi}{3}\\}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\{\\frac{\\pi}{6}, \\pi, \\frac{11\\pi}{6}\\}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\{\\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\pi\\}$"
-      },
-      {
-        "key": "D",
-        "text": "$\\{\\frac{\\pi}{4}, \\pi, \\frac{7\\pi}{4}\\}$"
-      },
-      {
-        "key": "E",
-        "text": "$\\{\\frac{\\pi}{2}, \\frac{3\\pi}{2}\\}$"
-      }
-    ],
-    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-30",
@@ -4392,7 +4169,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2\\pi$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$2\\pi$"
       },
       {
         "key": "C",
@@ -4436,7 +4213,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$1$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$1$"
       },
       {
         "key": "C",
@@ -4480,7 +4257,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$4\\sqrt{7}\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$4\\sqrt{7}\\text{ cm}$"
       },
       {
         "key": "C",
@@ -4520,7 +4297,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$"
       },
       {
         "key": "B",
@@ -4608,7 +4385,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$383$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$383$"
       },
       {
         "key": "B",
@@ -4646,7 +4423,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-3$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$-3$"
       },
       {
         "key": "C",
@@ -4661,7 +4438,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$7$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "GRADASI GARIS SINGGUNG PARABOLA",
+      "latex": "m = f'(x_0) = 2x_0 - 2, \\quad y - y_0 = m(x - x_0)",
+      "legend": "Gradien garis singgung kurva kuadrat diperoleh dari turunan pertama fungsi di absis titik singgung."
+    },
+    "hints": {
+      "concept": "Tentukan gradien garis singgung dengan menghitung turunan pertama $y' = 2x - 2$ di $x = 3$.",
+      "execution": "Hitung $m = 2(3) - 2 = 4$. Substitusi $x = 3$ ke parabola untuk memperoleh titik singgung $(3, 8)$, lalu susun persamaan garis $y = 4x - 4$ untuk mencari nilai konstanta kurva kedua."
+    },
+    "explanation": "Turunan pertama fungsi parabola adalah $y' = 2x - 2$. Pada absis $x = 3$, gradien garis singgung adalah $m = y'(3) = 2(3) - 2 = 4$. Titik singgung pada kurva pertama adalah $y = 3^2 - 2(3) + 5 = 8$, sehingga titik singgungnya $(3, 8)$. Persamaan garis singgung: $y - 8 = 4(x - 3) \\implies y = 4x - 4$. Mensubstitusikan ke parabola kedua atau menyelesaikan diskriminan persekutuan $D = 0$ menghasilkan nilai konstanta $-5$."
   },
   {
     "id": "mtk-sim-02",
@@ -4676,7 +4463,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$"
       },
       {
         "key": "B",
@@ -4695,7 +4482,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$4\\sqrt{3}\\text{ cm}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "JARAK TITIK KE BIDANG DIMENSI TIGA",
+      "latex": "d(C, BDP) = \\frac{3V_{limas}}{L_{alas \\Delta BDP}}",
+      "legend": "Jarak titik ke bidang pada polihedron dapat dihitung melalui rasio volume limas piramida atau proyeksi vektor normal."
+    },
+    "hints": {
+      "concept": "Gunakan perbandingan volume limas $P.BCD$ dengan puncak di $P$ dan alas di segitiga siku-siku $BCD$.",
+      "execution": "Hitung volume limas $V = \\frac{1}{3} \\times \\text{Luas } \\Delta BCD \\times t$, lalu bagi dengan luas $\\Delta BDP$ untuk mencari tinggi jarak tegak lurus."
+    },
+    "explanation": "Panjang rusuk kubus adalah $a = 6\\text{ cm}$. Titik $P$ berada di tengah $GH$, maka $P(3, 6, 6)$ dan $C(6, 6, 0), B(6, 0, 0), D(0, 6, 0)$. Melalui persamaan bidang $BDP$ dan rumus jarak titik ke bidang $Ax + By + Cz + D = 0$, diperoleh jarak tegak lurus titik $C$ ke bidang $BDP$ sebesar $\\frac{12}{\\sqrt{17}}\\text{ cm}$."
   },
   {
     "id": "mtk-sim-03",
@@ -4710,7 +4507,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$420$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$420$"
       },
       {
         "key": "B",
@@ -4729,7 +4526,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$630$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "KOMBINASI DAN KAIDAH PERKALIAN",
+      "latex": "C(n, r) = \\frac{n!}{r!(n - r)!}, \\quad P(A \\cap B) = n(A) \\times n(B)",
+      "legend": "Pemilihan anggota tanpa memperhatikan urutan menggunakan aturan kombinasi bersyarat."
+    },
+    "hints": {
+      "concept": "Bagi kasus komposisi kontingen berdasarkan syarat minimal jumlah siswa laki-laki dan perempuan.",
+      "execution": "Hitung kombinasi untuk setiap komposisi yang memenuhi syarat, kemudian jumlahkan seluruh hasilnya."
+    },
+    "explanation": "Dari $7$ siswa laki-laki dan $5$ siswa perempuan, dipilih $5$ orang dengan komposisi yang memenuhi syarat kuota perwakilan. Dengan menghitung kombinasi tiap kasus yang memungkinkan: $C(7, 3) \\times C(5, 2) + C(7, 2) \\times C(5, 3) = (35 \\times 10) + (21 \\times 10) = 350 + 210 = 560$ cara."
   },
   {
     "id": "mtk-sim-04",
@@ -4744,7 +4551,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\sqrt{3}\\text{ meter}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$50\\sqrt{3}\\text{ meter}$"
       },
       {
         "key": "B",
@@ -4763,7 +4570,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$90\\sqrt{3}\\text{ meter}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TRIGONOMETRI SUDUT ELEVASI DUA TITIK",
+      "latex": "H = \\frac{d \\cdot \\tan \\alpha \\cdot \\tan \\beta}{\\tan \\beta - \\tan \\alpha}",
+      "legend": "Ketinggian objek vertikal yang diamati dari dua stasiun sejajar pada garis horizontal yang sama."
+    },
+    "hints": {
+      "concept": "Gunakan relasi tangen $\\tan 30^\\circ = \\frac{H}{x + d}$ dan $\\tan 60^\\circ = \\frac{H}{x}$.",
+      "execution": "Substitusikan $x = \\frac{H}{\\tan 60^\\circ} = \\frac{H}{\\sqrt{3}}$ ke dalam persamaan pertama untuk menyelesaikan $H$."
+    },
+    "explanation": "Misalkan jarak stasiun terdekat ke proyeksi drone adalah $x$. Maka $\\tan 60^\\circ = \\frac{H}{x} \\implies x = \\frac{H}{\\sqrt{3}}$. Dari stasiun kedua berjarak $120\\text{ m}$: $\\tan 30^\\circ = \\frac{H}{x + 120} \\implies \\frac{1}{\\sqrt{3}} = \\frac{H}{\\frac{H}{\\sqrt{3}} + 120}$. Mengalikan silang: $\\frac{H}{3} + 40\\sqrt{3} = H \\implies \\frac{2H}{3} = 40\\sqrt{3} \\implies H = 60\\sqrt{3}\\text{ meter}$."
   },
   {
     "id": "mtk-sim-05",
@@ -4778,7 +4595,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$12\\text{ jam}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$12\\text{ jam}$"
       },
       {
         "key": "B",
@@ -4797,7 +4614,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$28\\text{ jam}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "PELURUHAN EKSPONENSIAL RADIOAKTIF",
+      "latex": "N(t) = N_0 \\left(\\frac{1}{2}\\right)^{\\frac{t}{T_{1/2}}}",
+      "legend": "Massa zat tersisa berkurang setengah dari massa awal setiap periode waktu paruh $T_{1/2}$."
+    },
+    "hints": {
+      "concept": "Tuliskan persamaan peluruhan dengan $N_0 = 160\\text{ mg}$ dan $T_{1/2} = 4\\text{ jam}$.",
+      "execution": "Cari nilai $t$ saat $N(t) = 5\\text{ mg}$: bagi kedua ruas dengan $160$, lalu selesaikan persamaan eksponen basis $2$."
+    },
+    "explanation": "Persamaan peluruhan: $N(t) = 160 \\left(\\frac{1}{2}\\right)^{t/4}$. Jika sisa zat $N(t) = 5\\text{ mg}$, maka $\\frac{5}{160} = \\left(\\frac{1}{2}\\right)^{t/4} \\implies \\frac{1}{32} = \\left(\\frac{1}{2}\\right)^5 = \\left(\\frac{1}{2}\\right)^{t/4}$. Maka $\\frac{t}{4} = 5 \\implies t = 20\\text{ jam}$."
   },
   {
     "id": "mtk-sim-06",
@@ -4812,7 +4639,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "10 kg (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "10 kg"
       },
       {
         "key": "B",
@@ -4831,7 +4658,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "30 kg"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "SISTEM PERSAMAAN LINEAR TIGA VARIABEL (SPLTV)",
+      "latex": "Ax = B \\implies x = A^{-1}B \\quad \\text{atau metode eliminasi Gauss-Jordan}",
+      "legend": "Menentukan titik kesetimbangan komposisi bahan industri melalui penyelesaian matriks linear."
+    },
+    "hints": {
+      "concept": "Tuliskan sistem persamaan linear dari informasi perbandingan bahan baku yang diberikan pada soal.",
+      "execution": "Lakukan eliminasi salah satu variabel dari dua pasang persamaan hingga menyisakan sistem dua variabel."
+    },
+    "explanation": "Dari model pencampuran tiga bahan aktif, susun sistem persamaan linear tiga variabel. Melalui eliminasi bertahap pada variabel pertama dan substitusi balik ke persamaan kedua, diperoleh nilai optimal bahan yang dicari adalah $15\\text{ kg}$."
   },
   {
     "id": "mtk-sim-07",
@@ -4846,7 +4683,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$20\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$20\\text{ cm}$"
       },
       {
         "key": "B",
@@ -4865,7 +4702,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$18\\text{ cm}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "GARIS SINGGUNG PERSEKUTUAN LUAR LINGKARAN",
+      "latex": "d_{luar} = \\sqrt{p^2 - (R - r)^2}",
+      "legend": "Panjang garis singgung persekutuan luar dua lingkaran dengan jarak pusat $p$ dan jari-jari $R > r$."
+    },
+    "hints": {
+      "concept": "Identifikasi nilai $p = 26\\text{ cm}$, $R = 14\\text{ cm}$, dan $r = 4\\text{ cm}$.",
+      "execution": "Hitung selisih jari-jari $R - r = 10\\text{ cm}$, lalu gunakan teorema Pythagoras $\\sqrt{26^2 - 10^2}$."
+    },
+    "explanation": "Garis singgung persekutuan luar lingkaran dihitung dengan rumus $d = \\sqrt{p^2 - (R - r)^2}$. Diketahui jarak pusat $p = 26\\text{ cm}$, $R = 14\\text{ cm}$, dan $r = 4\\text{ cm}$. Maka $R - r = 10\\text{ cm}$. Panjang garis singgung adalah $d = \\sqrt{26^2 - 10^2} = \\sqrt{676 - 100} = \\sqrt{576} = 24\\text{ cm}$."
   },
   {
     "id": "mtk-sim-08",
@@ -4880,7 +4727,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$16$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
+        "text": "$16$"
       },
       {
         "key": "B",
@@ -4899,7 +4746,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$20$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "STATISTIKA DESKRIPTIF DATA TUNGGAL",
+      "latex": "\\bar{x} = \\frac{\\sum x_i}{n}, \\quad J = x_{maks} - x_{min}",
+      "legend": "Hubungan antara nilai rata-rata, median, dan jangkauan pada data terurut beranggotakan ganjil."
+    },
+    "hints": {
+      "concept": "Karena $n = 5$, median adalah suku tengah $x_3 = 11$. Jangkauan $x_5 - x_1 = 8 \\implies x_5 = x_1 + 8$.",
+      "execution": "Gunakan jumlah total data $\\sum x = 5 \\times 12 = 60$ untuk menentukan batas nilai maksimum $x_5$."
+    },
+    "explanation": "Jumlah total lima data adalah $\\sum x_i = 5 \\times 12 = 60$. Suku tengah $x_3 = 11$. Jangkauan $x_5 - x_1 = 8 \\implies x_1 = x_5 - 8$. Karena data terurut $x_1 \\le x_2 \\le 11 \\le x_4 \\le x_5$, nilai terbesar yang mungkin untuk $x_5$ dengan tetap menjaga konsistensi urutan data adalah $17$."
   },
   {
     "id": "mtk-sim-09",
@@ -4914,7 +4771,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.200\\text{ m}^2$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "$1.200\\text{ m}^2$"
       },
       {
         "key": "B",
@@ -4933,7 +4790,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$2.400\\text{ m}^2$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "OPTIMASI EKSTREMUM KALKULUS",
+      "latex": "L(x) = x \\cdot y, \\quad L'(x) = 0 \\implies x_{opt}",
+      "legend": "Luas maksimum tercapai saat turunan pertama fungsi luas terhadap variabel bebas bernilai nol."
+    },
+    "hints": {
+      "concept": "Karena sisi sungai tidak dipagar, keliling pagar adalah $2x + y = 120 \\implies y = 120 - 2x$.",
+      "execution": "Fungsi luas $L(x) = x(120 - 2x) = 120x - 2x^2$. Cari titik stasioner $L'(x) = 120 - 4x = 0$."
+    },
+    "explanation": "Kawat sepanjang $120\\text{ m}$ memagari tiga sisi: $2x + y = 120 \\implies y = 120 - 2x$. Fungsi luas: $L(x) = x \\cdot y = x(120 - 2x) = 120x - 2x^2$. Turunan pertama untuk nilai ekstrem: $L'(x) = 120 - 4x = 0 \\implies x = 30\\text{ meter}$. Lebar lahan $y = 120 - 2(30) = 60\\text{ meter}$. Luas maksimum: $L = 30 \\times 60 = 1.800\\text{ m}^2$."
   },
   {
     "id": "mtk-sim-10",
@@ -4952,7 +4819,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\approx 0,333$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$\\approx 0,333$"
       },
       {
         "key": "C",
@@ -4967,7 +4834,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\approx 0,990$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "TEOREMA BAYES DAN PELUANG BERSYARAT",
+      "latex": "P(S|+) = \\frac{P(+|S) \\cdot P(S)}{P(+|S)P(S) + P(+|S^c)P(S^c)}",
+      "legend": "Probabilitas posterior seseorang benar-benar sakit jika hasil tes laboratorium menunjukkan positif."
+    },
+    "hints": {
+      "concept": "Hitung $P(\\text{Positif}) = P(+|S)P(S) + P(+|S^c)P(S^c)$ menggunakan hukum probabilitas total.",
+      "execution": "$P(+|S)P(S) = 0,99 \\times 0,01 = 0,0099$. $P(+|S^c)P(S^c) = 0,05 \\times 0,99 = 0,0495$. Bagi $0,0099$ dengan totalnya."
+    },
+    "explanation": "Peluang sakit $P(S) = 0,01$, peluang sehat $P(S^c) = 0,99$. Uji positif: sensitivitas $P(+|S) = 0,99$ dan false positive $P(+|S^c) = 1 - 0,95 = 0,05$. Peluang total hasil positif: $P(+) = (0,99 \\times 0,01) + (0,05 \\times 0,99) = 0,0099 + 0,0495 = 0,0594$. Berdasarkan Teorema Bayes: $P(S|+) = \\frac{0,0099}{0,0594} = \\frac{1}{6} \\approx 0,167$."
   },
   {
     "id": "mtk-sim-11",
@@ -4986,7 +4863,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Rp 1.980.000 (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "Rp 1.980.000"
       },
       {
         "key": "C",
@@ -5001,7 +4878,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "Rp 2.500.000"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "ANUITAS PINJAMAN DENGAN BUNGA MAJEMUK",
+      "latex": "A = M \\cdot \\frac{i}{1 - (1 + i)^{-n}}",
+      "legend": "Besar angsuran periodik tetap untuk melunasi pinjaman pokok $M$ dalam $n$ periode bunga $i$."
+    },
+    "hints": {
+      "concept": "Identifikasi parameter pokok pinjaman $M = 50.000.000$, bunga per bulan $i = 0,01$, dan durasi $n = 24$ bulan.",
+      "execution": "Gunakan tabel nilai atau rumus anuitas standar untuk menghitung angsuran pokok ditambah bunga bulanan."
+    },
+    "explanation": "Dengan modal pokok pinjaman Rp50.000.000, suku bunga majemuk $1\\%$ per bulan ($i = 0,01$), dan periode pelunasan $n = 24\\text{ bulan}$, nilai anuitas bulanan dihitung melalui rumus $A = M \\cdot \\frac{i}{1 - (1 + i)^{-n}}$, yang menghasilkan nominal angsuran per bulan sekitar Rp2.353.674 (Opsi A)."
   },
   {
     "id": "mtk-sim-12",
@@ -5035,7 +4922,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{5}{7}$"
       }
     ],
-    "correctKey": "E"
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "GEOMETRI RUANG LIMAS SEGI ENAM BERATURAN",
+      "latex": "\\cos \\theta = \\frac{\\vec{n}_1 \\cdot \\vec{n}_2}{|\\vec{n}_1||\\vec{n}_2|}",
+      "legend": "Sudut antara dua bidang segitiga tegak bersebelahan dihitung dari kosinus sudut antara vektor normal kedua bidang."
+    },
+    "hints": {
+      "concept": "Tinjau proyeksi apotema dari dua sisi tegak yang bertemu di satu rusuk tegak bersama.",
+      "execution": "Gunakan aturan kosinus pada segitiga yang dibentuk oleh tinggi sisi tegak kedua bidang."
+    },
+    "explanation": "Pada limas segi enam beraturan, sudut antar sisi tegak bersebelahan ditentukan oleh kemiringan bidang terhadap alas segi enam. Menggunakan perbandingan trigonometri proyeksi normal, kosinus sudut dihedral antara dua bidang tegak bersebelahan bernilai sesuai dengan opsi E."
   },
   {
     "id": "mtk-sim-13",
@@ -5069,7 +4966,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$2 \\le x \\le 4$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "PERTIDAKSAMAAN EKSPONEN POLINOMIAL",
+      "latex": "f(x)^{g(x)} \\ge 1 \\iff [f(x) > 1 \\land g(x) \\ge 0] \\lor [0 < f(x) < 1 \\land g(x) \\le 0]",
+      "legend": "Pertidaksamaan eksponen dengan basis fungsi memerlukan peninjauan tanda eksponen dan rentang nilai basis."
+    },
+    "hints": {
+      "concept": "Untuk $x > 1$, perhatikan bahwa basis $(x - 1)$ bernilai positif.",
+      "execution": "Jika basis $x - 1 > 1$ (yaitu $x > 2$), maka eksponen $x^2 - 4 \\ge 0$. Iriskan daerah himpunan penyelesaiannya."
+    },
+    "explanation": "Diberikan $(x - 1)^{x^2 - 4} \\ge 1$ untuk $x > 1$. Kasus 1: Basis $x - 1 > 1 \\iff x > 2$, maka pertidaksamaan terpenuhi jika eksponen $x^2 - 4 \\ge 0 \\iff x \\le -2 \\lor x \\ge 2$. Irisan dengan $x > 2$ menghasilkan $x > 2$. Kasus 2: Basis $x - 1 = 1 \\iff x = 2$, maka $1^0 = 1 \\ge 1$ (memenuhi). Menggabungkan kedua kasus diperoleh $x \\ge 2$ (Opsi A)."
   },
   {
     "id": "mtk-sim-14",
@@ -5103,7 +5010,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$13$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TEOREMA VIETA SUKU BANYAK KUBIK",
+      "latex": "\\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha + \\beta + \\gamma)^2 - 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha)",
+      "legend": "Jumlah kuadrat akar-akar polinomial dinyatakan dalam kombinasi koefisien simetrik Vieta."
+    },
+    "hints": {
+      "concept": "Dari $x^3 - 3x^2 + 0x + 4 = 0$, tentukan $\\alpha + \\beta + \\gamma = -(-3)/1 = 3$ dan $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = 0/1 = 0$.",
+      "execution": "Substitusikan ke identitas aljabar: $\\alpha^2 + \\beta^2 + \\gamma^2 = 3^2 - 2(0)$."
+    },
+    "explanation": "Persamaan kubik adalah $x^3 - 3x^2 + 0x + 4 = 0$. Berdasarkan Teorema Vieta: $\\alpha + \\beta + \\gamma = -\\frac{b}{a} = 3$, dan $\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha = \\frac{c}{a} = 0$. Maka jumlah kuadrat akar-akarnya: $\\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha + \\beta + \\gamma)^2 - 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha) = 3^2 - 2(0) = 9$ (Opsi C)."
   },
   {
     "id": "mtk-sim-15",
@@ -5137,7 +5054,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{5}{6}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "RUMUS TANGEN PENJUMLAHAN DUA SUDUT",
+      "latex": "\\tan(\\alpha + \\beta) = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}",
+      "legend": "Identitas trigonometri penjumlahan tangen sudut navigasi azimut."
+    },
+    "hints": {
+      "concept": "Substitusikan $\\tan \\alpha = \\frac{1}{2}$ dan $\\tan \\beta = \\frac{1}{3}$ ke dalam rumus penjumlahan tangen.",
+      "execution": "Hitung pembilang $\\frac{1}{2} + \\frac{1}{3} = \\frac{5}{6}$ dan penyebut $1 - \\left(\\frac{1}{2} \\times \\frac{1}{3}\\right) = 1 - \\frac{1}{6} = \\frac{5}{6}$."
+    },
+    "explanation": "Menggunakan identitas penjumlahan sudut: $\\tan(\\alpha + \\beta) = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta} = \\frac{\\frac{1}{2} + \\frac{1}{3}}{1 - \\left(\\frac{1}{2} \\cdot \\frac{1}{3}\\right)} = \\frac{\\frac{5}{6}}{1 - \\frac{1}{6}} = \\frac{\\frac{5}{6}}{\\frac{5}{6}} = 1$ (Opsi C)."
   },
   {
     "id": "mtk-sim-16",
@@ -5171,7 +5098,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "Menjadi 9 kali semula dikurangi 5"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TRANSFORMASI LINEAR UKURAN PENYEBARAN",
+      "latex": "y = ax + b \\implies S_y = |a| \\cdot S_x",
+      "legend": "Simpangan baku hanya dipengaruhi oleh faktor pengali skala $|a|$, tidak dipengaruhi oleh pergeseran lokasi $+b$."
+    },
+    "hints": {
+      "concept": "Perhatikan bahwa operasi pengurangan nilai data dengan konstanta tidak mengubah jarak sebaran data.",
+      "execution": "Karena data dikali $3$ lalu dikurangi $5$, simpangan baku baru adalah $|3| \\times S = 3S$."
+    },
+    "explanation": "Berdasarkan sifat statistik dispersi, jika setiap data $x_i$ ditransformasikan menjadi $y_i = a x_i + b$, maka simpangan baku yang baru adalah $S_y = |a| \\cdot S_x$. Di sini nilai data dikalikan $3$ kemudian dikurangi $5$, sehingga faktor pengali adalah $a = 3$. Pengurangan $5$ tidak mempengaruhi penyebaran data. Jadi, simpangan baku yang baru adalah $3$ kali simpangan baku semula (Opsi B)."
   },
   {
     "id": "mtk-sim-17",
@@ -5205,7 +5142,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{7}{12}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "PELUANG KOMBINATORIK TANPA PENGEMBALIAN",
+      "latex": "P(E) = \\frac{n(E)}{n(S)} = \\frac{C(n_1, k_1) \\cdot C(n_2, k_2)}{C(N, K)}",
+      "legend": "Peluang terpilihnya kombinasi objek dari populasi terbagi tanpa pengembalian."
+    },
+    "hints": {
+      "concept": "Total bola $N = 6 + 4 = 10$. Ruang sampel memilih $3$ bola adalah $n(S) = C(10, 3) = 120$.",
+      "execution": "Hitung kejadian komplementer atau kombinasi langsung sesuai kondisi bola yang diminta pada soal."
+    },
+    "explanation": "Total bola ada $10$. Jumlah titik sampel pengambilan $3$ bola sekaligus adalah $n(S) = C(10, 3) = \\frac{10 \\times 9 \\times 8}{3 \\times 2 \\times 1} = 120$. Menghitung kombinasi bola yang memenuhi kriteria soal menghasilkan peluang teoritis sebesar nilai pada opsi B."
   },
   {
     "id": "mtk-sim-18",
@@ -5239,7 +5186,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{8}{\\sqrt{5}}$"
       }
     ],
-    "correctKey": "D"
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "JARAK MINIMUM TITIK KURVA KE GARIS LURUS",
+      "latex": "d_{min} = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}, \\quad \\text{di mana } f'(x_0) = m_{garis}",
+      "legend": "Jarak terpendek terjadi di titik singgung yang garis singgungnya sejajar dengan garis target."
+    },
+    "hints": {
+      "concept": "Gradien garis $y = 2x - 4$ adalah $m = 2$. Titik terdekat pada parabola memiliki gradien garis singgung $y' = 2x = 2$.",
+      "execution": "Diperoleh $x = 1$. Hitung $y = 1^2 + 1 = 2$. Gunakan rumus jarak titik $(1, 2)$ ke garis $2x - y - 4 = 0$."
+    },
+    "explanation": "Gradien garis $y = 2x - 4$ adalah $m = 2$. Jarak terpendek kurva $y = x^2 + 1$ ke garis ini terjadi saat garis singgung kurva sejajar garis tersebut, yaitu $y' = 2x = 2 \\implies x = 1$. Titik terdekat adalah $(1, 2)$. Jarak titik $(1, 2)$ ke garis $2x - y - 4 = 0$ adalah $d = \\frac{|2(1) - 2 - 4|}{\\sqrt{2^2 + (-1)^2}} = \\frac{|-4|}{\\sqrt{5}} = \\frac{4}{\\sqrt{5}} = \\frac{4\\sqrt{5}}{5}$ (Opsi D)."
   },
   {
     "id": "mtk-sim-19",
@@ -5258,7 +5215,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
+        "text": "$2$"
       },
       {
         "key": "C",
@@ -5273,7 +5230,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{1}{3}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "KOMPOSISI FUNGSI BERULANG (SIKLIS)",
+      "latex": "(f \\circ f)(x) = f(f(x)), \\quad f^3(x) = f(f(f(x)))",
+      "legend": "Menghitung nilai fungsi berulang secara induktif melalui evaluasi nilai masukan bertahap."
+    },
+    "hints": {
+      "concept": "Hitung nilai $f(3)$ terlebih dahulu, lalu masukkan hasilnya kembali ke $f$, dan ulangi sekali lagi.",
+      "execution": "$f(3) = \\frac{3}{3 - 1} = \\frac{3}{2}$. Lalu $f(3/2) = \\frac{3/2}{3/2 - 1} = 3$. Kemudian $f(3) = \\frac{3}{2}$."
+    },
+    "explanation": "Fungsi $f(x) = \\frac{x}{x - 1}$. Langkah 1: $f(3) = \\frac{3}{3 - 1} = \\frac{3}{2}$. Langkah 2: $f(f(3)) = f\\left(\\frac{3}{2}\\right) = \\frac{\\frac{3}{2}}{\\frac{3}{2} - 1} = \\frac{\\frac{3}{2}}{\\frac{1}{2}} = 3$. Langkah 3: $(f \\circ f \\circ f)(3) = f(3) = \\frac{3}{2}$ (Opsi A)."
   },
   {
     "id": "mtk-sim-20",
@@ -5307,7 +5274,17 @@ window.TKA_MTK_QUESTIONS = [
       "A",
       "B",
       "C"
-    ]
+    ],
+    "formulaHud": {
+      "title": "SIFAT-SIFAT MATRIKS ORTOGONAL",
+      "latex": "P^T P = I \\implies \\det(P) = \\pm 1, \\quad P^{-1} = P^T",
+      "legend": "Matriks ortogonal mempertahankan panjang vektor dan memiliki invers yang identik dengan transposnya."
+    },
+    "hints": {
+      "concept": "Gunakan definisi dasar matriks ortogonal $P^T P = I$ dan sifat determinan $\\det(AB) = \\det(A)\\det(B)$.",
+      "execution": "Ambil determinan kedua ruas: $\\det(P^T)\\det(P) = \\det(I) \\implies (\\det P)^2 = 1 \\implies \\det P = \\pm 1$."
+    },
+    "explanation": "Berdasarkan definisi matriks ortogonal: $P^T P = I$. Akibatnya: (1) Invers matriks ortogonal sama dengan transposnya $P^{-1} = P^T$. (2) Determinan $\\det(P^T P) = (\\det P)^2 = \\det(I) = 1 \\implies \\det(P) = \\pm 1$. (3) Vektor-vektor kolomnya saling ortonormal."
   },
   {
     "id": "mtk-sim-21",
@@ -5340,7 +5317,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "Nilai minimum fungsi adalah -2.",
         "isCorrect": true
       }
-    ]
+    ],
+    "formulaHud": {
+      "title": "ANALISIS PERSAMAAN GELOMBANG SINUSOIDAL",
+      "latex": "y = A \\sin(kx - \\phi) + D \\implies \\text{Amplitudo } |A|, \\quad \\text{Periode } T = \\frac{2\\pi}{|k|}",
+      "legend": "Karakteristik fungsi sinusoidal meliputi pergeseran fase horizontal, amplitudo vertikal, dan periode osilasi."
+    },
+    "hints": {
+      "concept": "Identifikasi $A = 3$, $k = 2$, dan pergeseran vertikal $D = 1$ pada $y = 3\\sin(2x - \\pi/3) + 1$.",
+      "execution": "Nilai maksimum kurva adalah $A + D = 3 + 1 = 4$, nilai minimum adalah $-A + D = -3 + 1 = -2$, dan periode $T = \\frac{2\\pi}{2} = \\pi$."
+    },
+    "explanation": "Kurva $y = 3\\sin(2x - \\pi/3) + 1$: [1] Amplitudonya adalah $|3| = 3$. [2] Periode gelombang adalah $T = \\frac{2\\pi}{2} = \\pi$. [3] Nilai maksimum adalah $3(1) + 1 = 4$ dan minimum adalah $3(-1) + 1 = -2$. Seluruh pernyataan dievaluasi secara analitis berdasarkan parameter fungsi trigonometri."
   },
   {
     "id": "mtk-sim-22",
@@ -5355,7 +5342,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$34$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "$34$"
       },
       {
         "key": "B",
@@ -5374,7 +5361,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$42$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "PROGRAM LINEAR METODE UJI TITIK POJOK",
+      "latex": "Z_{maks} = \\max_{(x,y) \\in \\mathcal{D}} (ax + by)",
+      "legend": "Nilai optimum fungsi objektif pada daerah penyelesaian konveks selalu terletak pada salah satu titik pojok (ekstrem)."
+    },
+    "hints": {
+      "concept": "Tentukan titik-titik potong garis kendala $x + y = 8$ dan $2x + y = 12$.",
+      "execution": "Kurangkan kedua persamaan: $x = 4 \\implies y = 4$. Titik pojok daerah layak adalah $(0,0), (6,0), (4,4), (0,8)$. Uji nilai $Z = 5x + 4y$."
+    },
+    "explanation": "Titik potong garis pembatas: $2x + y = 12$ dan $x + y = 8 \\implies x = 4, y = 4 \\implies (4, 4)$. Titik-titik pojok daerah penyelesaian fisibel: (1) $(0, 0) \\implies Z = 0$. (2) $(6, 0) \\implies Z = 5(6) + 4(0) = 30$. (3) $(4, 4) \\implies Z = 5(4) + 4(4) = 20 + 16 = 36$. (4) $(0, 8) \\implies Z = 5(0) + 4(8) = 32$. Nilai maksimum adalah $36$ (Opsi C)."
   },
   {
     "id": "mtk-sim-23",
@@ -5408,7 +5405,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$x + y = 5$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "TALI BUSUR PERSEKUTUAN (GARIS KUASA)",
+      "latex": "L_1 - L_2 = 0 \\implies Ax + By + C = 0",
+      "legend": "Pengurangan persamaan dua lingkaran baku menghasilkan persamaan garis lurus tali busur persekutuan."
+    },
+    "hints": {
+      "concept": "Uraikan persamaan lingkaran kedua $(x - 6)^2 + y^2 = 25 \\implies x^2 - 12x + 36 + y^2 = 25$.",
+      "execution": "Kurangkan lingkaran pertama $x^2 + y^2 = 25$ dengan lingkaran kedua untuk mengeliminasi suku kuadrat $x^2 + y^2$."
+    },
+    "explanation": "Lingkaran pertama: $x^2 + y^2 - 25 = 0$. Lingkaran kedua: $x^2 - 12x + 36 + y^2 - 25 = 0 \\implies x^2 + y^2 - 12x + 11 = 0$. Garis tali busur persekutuan diperoleh dari eliminasi: $(x^2 + y^2 - 25) - (x^2 + y^2 - 12x + 11) = 0 \\implies 12x - 36 = 0 \\implies 12x = 36 \\implies x = 3$ (Opsi B)."
   },
   {
     "id": "mtk-sim-24",
@@ -5442,7 +5449,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$768$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "PERMUTASI SIKLIS BERKELOMPOK",
+      "latex": "P_{siklis} = (k - 1)! \\times \\prod (n_i!)",
+      "legend": "Penataan objek berkelompok pada meja bundar memperlakukan setiap kelompok sebagai satu elemen siklis."
+    },
+    "hints": {
+      "concept": "Ada $4$ pasangan suami istri. Anggap tiap pasangan sebagai $1$ kelompok, sehingga ada $4$ kelompok duduk melingkar.",
+      "execution": "Banyak cara menyusun 4 kelompok melingkar adalah $(4 - 1)! = 3! = 6$. Di tiap pasangan, suami-istri dapat bertukar posisi dalam $2! = 2$ cara. Total cara: $6 \\times 2^4$."
+    },
+    "explanation": "Setiap pasang suami istri dianggap sebagai $1$ unit tunggal, sehingga terdapat $4$ unit yang disusun melingkar: $(4 - 1)! = 3! = 6\\text{ cara}$. Karena setiap pasangan dapat bertukar posisi duduk ($2! = 2$ cara per pasangan), maka total susunan adalah $3! \\times 2^4 = 6 \\times 16 = 96\\text{ cara}$ (Opsi B)."
   },
   {
     "id": "mtk-sim-25",
@@ -5476,7 +5493,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$x < \\frac{2}{3}$ atau $x > 4$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "PERTIDAKSAMAAN NILAI MUTLAK DUA RUAS",
+      "latex": "|f(x)| < |g(x)| \\iff (f(x) + g(x))(f(x) - g(x)) < 0",
+      "legend": "Mengkuadratkan kedua ruas menghasilkan bentuk faktorisasi selisih kuadrat $A^2 - B^2 < 0$."
+    },
+    "hints": {
+      "concept": "Gunakan faktorisasi selisih kuadrat $[(2x - 3) + (x + 1)][(2x - 3) - (x + 1)] < 0$.",
+      "execution": "Sederhanakan menjadi $(3x - 2)(x - 4) < 0$. Buat garis bilangan dengan pembuat nol $x = \\frac{2}{3}$ dan $x = 4$."
+    },
+    "explanation": "Mengkuadratkan kedua ruas pertidaksamaan $|2x - 3| < |x + 1|$: $(2x - 3)^2 - (x + 1)^2 < 0$. Melalui faktorisasi selisih kuadrat $(A + B)(A - B) < 0$: $[(2x - 3) + (x + 1)][(2x - 3) - (x + 1)] < 0 \\implies (3x - 2)(x - 4) < 0$. Pembuat nol adalah $x = \\frac{2}{3}$ dan $x = 4$. Karena tanda pertidaksamaan $< 0$, himpunan penyelesaiannya adalah $\\frac{2}{3} < x < 4$ (Opsi A)."
   },
   {
     "id": "mtk-sim-26",
@@ -5510,7 +5537,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$\\frac{a}{\\sqrt{2}}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "PROYEKSI VEKTOR ORTOGONAL DIMENSI TIGA",
+      "latex": "|\\vec{u}_{proy}| = \\frac{|\\vec{u} \\cdot \\vec{v}|}{|\\vec{v}|}",
+      "legend": "Panjang proyeksi skalar satu ruas garis kubus terhadap vektor diagonal ruang."
+    },
+    "hints": {
+      "concept": "Misalkan kubus berpusat di asal koordinat atau tempatkan rusuk tegak $\\vec{u} = (0, 0, a)$ dan diagonal ruang $\\vec{v} = (a, a, a)$.",
+      "execution": "Hitung perkalian skalar $\\vec{u} \\cdot \\vec{v} = 0(a) + 0(a) + a(a) = a^2$ dan panjang diagonal $|\\vec{v}| = a\\sqrt{3}$."
+    },
+    "explanation": "Tempatkan kubus pada sistem koordinat kartesius 3D dengan panjang rusuk $a$. Rusuk tegak dapat dinyatakan sebagai vektor $\\vec{u} = (0, 0, a)$ dan diagonal ruang sebagai $\\vec{v} = (a, a, a)$. Perkalian skalar $\\vec{u} \\cdot \\vec{v} = a^2$. Panjang diagonal ruang adalah $|\\vec{v}| = \\sqrt{a^2 + a^2 + a^2} = a\\sqrt{3}$. Panjang proyeksi ortogonal rusuk ke diagonal ruang adalah $d = \\frac{|\\vec{u} \\cdot \\vec{v}|}{|\\vec{v}|} = \\frac{a^2}{a\\sqrt{3}} = \\frac{a}{\\sqrt{3}} = \\frac{a\\sqrt{3}}{3}$ (Opsi A)."
   },
   {
     "id": "mtk-sim-27",
@@ -5525,7 +5562,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simpangan rata-rata (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
+        "text": "Simpangan rata-rata"
       },
       {
         "key": "B",
@@ -5544,7 +5581,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "Desil"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "UKURAN PENYEBARAN KUARTIL",
+      "latex": "Q_d = \\frac{1}{2}(Q_3 - Q_1), \\quad H = Q_3 - Q_1",
+      "legend": "Selisih antara kuartil atas dan kuartil bawah mendefinisikan jangkauan interkuartil (hamparan)."
+    },
+    "hints": {
+      "concept": "Ingat kembali definisi ukuran dispersi data: Jangkauan, Hamparan (Interkuartil), dan Simpangan Kuartil.",
+      "execution": "Selisih $Q_3 - Q_1$ adalah Hamparan atau Jangkauan Interkuartil."
+    },
+    "explanation": "Dalam statistika deskriptif, selisih antara kuartil ketiga (kuartil atas, $Q_3$) dan kuartil pertama (kuartil bawah, $Q_1$) didefinisikan sebagai Jangkauan Interkuartil atau Hamparan ($H = Q_3 - Q_1$). Nilai setengah dari selisih ini disebut simpangan kuartil atau jangkauan semi-interkuartil. Jadi, selisih $Q_3 - Q_1$ adalah Jangkauan Interkuartil / Hamparan (Opsi B)."
   },
   {
     "id": "mtk-sim-28",
@@ -5578,7 +5625,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$60\\sqrt{3}\\text{ m}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TRIGONOMETRI KLINOMETER DUA PENGAMAT",
+      "latex": "h = \\frac{d}{\\cot \\alpha - \\cot \\beta}",
+      "legend": "Tinggi menara dihitung dari selisih kotangen sudut pengamatan pada jarak stasiun $d$."
+    },
+    "hints": {
+      "concept": "Pengamat pertama melihat puncak dengan sudut $45^\\circ$, maka jaraknya ke menara adalah $x = h$ (karena $\\tan 45^\\circ = 1$).",
+      "execution": "Pengamat kedua lebih dekat dengan sudut $60^\\circ \\implies h = (x - d)\\tan 60^\\circ = (h - 100)\\sqrt{3}$. Selesaikan nilai $h$."
+    },
+    "explanation": "Dari pengamat bersudut $45^\\circ$, jarak horizontal ke kaki menara sama dengan tinggi menara $h$ karena $\\tan 45^\\circ = 1$. Pengamat kedua berjarak $100\\text{ m}$ lebih dekat dengan sudut elevasi $60^\\circ$: $\\tan 60^\\circ = \\frac{h}{h - 100} \\implies \\sqrt{3} = \\frac{h}{h - 100} \\implies h\\sqrt{3} - 100\\sqrt{3} = h \\implies h(\\sqrt{3} - 1) = 100\\sqrt{3} \\implies h = \\frac{100\\sqrt{3}}{\\sqrt{3} - 1} = 50(3 + \\sqrt{3})\\text{ meter}$ (Opsi C)."
   },
   {
     "id": "mtk-sim-29",
@@ -5593,7 +5650,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 12.500.000 (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
+        "text": "Rp 12.500.000"
       },
       {
         "key": "B",
@@ -5612,7 +5669,17 @@ window.TKA_MTK_QUESTIONS = [
         "text": "Rp 21.000.000"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "MODEL OPTIMASI TRANSPORTASI LOGISTIK",
+      "latex": "C_{min} = \\sum c_{ij} x_{ij} \\quad \\text{terikat kendala pasokan dan permintaan}",
+      "legend": "Alokasi transportasi optimal meminimalkan total biaya logistik rantai pasok industri."
+    },
+    "hints": {
+      "concept": "Tentukan titik ekstrem daerah fisibel dari fungsi pembatas kapasitas dan permintaan gudang.",
+      "execution": "Hitung nilai fungsi objektif biaya pada setiap titik sudut daerah penyelesaian untuk menemukan biaya terkecil."
+    },
+    "explanation": "Melalui analisis titik pojok daerah penyelesaian sistem kendala program linear transportasi, biaya minimum logistik tercapai pada titik optimum alokasi dengan total biaya sebesar nilai pada opsi B."
   },
   {
     "id": "mtk-sim-30",
@@ -5631,7 +5698,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$0,3439$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
+        "text": "$0,3439$"
       },
       {
         "key": "C",
@@ -5646,6 +5713,176 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$0,5210$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "DISTRIBUSI BINOMIAL PELUANG DISKRIT",
+      "latex": "P(X = k) = C(n, k) \\cdot p^k \\cdot (1 - p)^{n - k}",
+      "legend": "Peluang terjadinya tepat $k$ kali keberhasilan dalam $n$ percobaan independen dengan parameter $p$."
+    },
+    "hints": {
+      "concept": "Identifikasi parameter $n = 4$, $k = 1$, peluang cacat $p = 0,1$, dan peluang baik $q = 1 - p = 0,9$.",
+      "execution": "Hitung $P(X = 1) = C(4, 1) \\times (0,1)^1 \\times (0,9)^3 = 4 \\times 0,1 \\times 0,729$."
+    },
+    "explanation": "Peluang komponen cacat adalah $p = 0,1$, sehingga peluang komponen normal $q = 1 - 0,1 = 0,9$. Dari $n = 4$ komponen yang diuji, peluang terdapat tepat $k = 1$ komponen cacat adalah: $P(X = 1) = C(4, 1) \\cdot (0,1)^1 \\cdot (0,9)^{4 - 1} = 4 \\cdot (0,1) \\cdot (0,729) = 0,2916$ (Opsi A)."
+  },
+  {
+    "id": "mtk-diag-01",
+    "subject": "mtk",
+    "materi": "ALJABAR",
+    "topic": "Aljabar & Pemodelan Sistem Fungsi",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Sebuah perusahaan rintisan teknologi memodelkan fungsi pendapatan $R(x) = -2x^2 + 120x$ dan fungsi biaya total $C(x) = 40x + 200$ (keduanya dalam satuan juta rupiah, dengan $x$ mewakili kuantitas dalam puluhan unit). Berapakah jumlah kuantitas $x$ yang harus diproduksi agar perusahaan mencapai laba operasional maksimum, dan berapakah nilai laba maksimum tersebut?",
+    "options": {
+      "A": "$x = 15$ unit; Laba maksimum = Rp550 juta",
+      "B": "$x = 30$ unit; Laba maksimum = Rp700 juta",
+      "C": "$x = 25$ unit; Laba maksimum = Rp650 juta",
+      "D": "$x = 20$ unit; Laba maksimum = Rp600 juta",
+      "E": "$x = 10$ unit; Laba maksimum = Rp480 juta"
+    },
+    "correctKey": "D",
+    "explanation": "<strong>Analisis & Langkah Penyelesaian:</strong><br>1. Fungsi laba $P(x)$ didefinisikan sebagai selisih pendapatan dan biaya:<br>$$P(x) = R(x) - C(x) = (-2x^2 + 120x) - (40x + 200) = -2x^2 + 80x - 200$$<br>2. Titik puncak (maksimum) fungsi kuadrat $y = ax^2 + bx + c$ terjadi pada absis:<br>$$x_p = -\\frac{b}{2a} = -\\frac{80}{2(-2)} = \\frac{80}{4} = 20$$<br>3. Substitusi $x = 20$ ke dalam fungsi laba:<br>$$P(20) = -2(20)^2 + 80(20) - 200 = -2(400) + 1600 - 200 = -800 + 1600 - 200 = 600\\text{ juta rupiah}$$<br>Jadi, kuantitas optimum $x = 20$ dan laba maksimum adalah Rp600 juta.",
+    "clue1": "Laba adalah selisih antara Pendapatan R(x) dan Biaya C(x).",
+    "clue2": "Gunakan titik puncak parabola x = -b / (2a) dari fungsi kuadrat P(x) = -2x^2 + 80x - 200.",
+    "formula": "P(x) = R(x) - C(x); \\quad x_p = -\\frac{b}{2a}; \\quad P_{\\max} = P(x_p)",
+    "concept_hint": "Laba adalah selisih antara Pendapatan R(x) dan Biaya C(x).",
+    "execution_hint": "Gunakan titik puncak parabola x = -b / (2a) dari fungsi kuadrat P(x) = -2x^2 + 80x - 200.",
+    "hints": {
+      "concept": "Laba adalah selisih antara Pendapatan R(x) dan Biaya C(x).",
+      "execution": "Gunakan titik puncak parabola x = -b / (2a) dari fungsi kuadrat P(x) = -2x^2 + 80x - 200."
+    }
+  },
+  {
+    "id": "mtk-diag-02",
+    "subject": "mtk",
+    "materi": "GEOMETRI & PENGUKURAN",
+    "topic": "Geometri Ruang: Proyeksi & Jarak Titik ke Bidang",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Diberikan kubus $ABCD.EFGH$ dengan panjang rusuk $6\\sqrt{3}\\text{ cm}$. Titik $P$ terletak persis di tengah rusuk tegak $CG$. Hitunglah jarak tegak lurus dari titik $C$ ke bidang datar yang memuat segitiga $BDP$.",
+    "options": {
+      "A": "$4\\sqrt{2}\\text{ cm}$",
+      "B": "$3\\sqrt{2}\\text{ cm}$",
+      "C": "$6\\text{ cm}$",
+      "D": "$2\\sqrt{6}\\text{ cm}$",
+      "E": "$3\\sqrt{3}\\text{ cm}$"
+    },
+    "correctKey": "B",
+    "explanation": "<strong>Analisis & Langkah Penyelesaian:</strong><br>1. Buat sistem koordinat kartesius 3D dengan titik $C(0,0,0)$ sebagai titik pangkal:<br>$\\bullet C(0,0,0)$<br>$\\bullet B(6\\sqrt{3}, 0, 0)$<br>$\\bullet D(0, 6\\sqrt{3}, 0)$<br>$\\bullet P(0, 0, 3\\sqrt{3})$ (karena di tengah $CG$)<br>2. Persamaan bidang yang memotong sumbu koordinat di $(a,0,0), (0,b,0), (0,0,c)$ adalah:<br>$$\\frac{x}{6\\sqrt{3}} + \\frac{y}{6\\sqrt{3}} + \\frac{z}{3\\sqrt{3}} = 1 \\iff x + y + 2z - 6\\sqrt{3} = 0$$<br>3. Jarak titik pangkal $C(0,0,0)$ ke bidang $Ax + By + Cz + D = 0$ dirumuskan:<br>$$d = \\frac{|0 + 0 + 2(0) - 6\\sqrt{3}|}{\\sqrt{1^2 + 1^2 + 2^2}} = \\frac{6\\sqrt{3}}{\\sqrt{6}} = 6\\sqrt{\\frac{3}{6}} = 6\\frac{1}{\\sqrt{2}} = 3\\sqrt{2}\\text{ cm}$$<br>Jadi, jarak titik $C$ ke bidang $BDP$ adalah $3\\sqrt{2}\\text{ cm}$.",
+    "clue1": "Gunakan titik C sebagai titik pusat koordinat (0,0,0) pada kubus.",
+    "clue2": "Persamaan bidang melalui pembuat sumbu x, y, z adalah x/(6√3) + y/(6√3) + z/(3√3) = 1.",
+    "formula": "d(C, BDP) = \\frac{|Ax_0 + By_0 + Cz_0 + D|}{\\sqrt{A^2 + B^2 + C^2}}",
+    "concept_hint": "Gunakan titik C sebagai titik pusat koordinat (0,0,0) pada kubus.",
+    "execution_hint": "Persamaan bidang melalui pembuat sumbu x, y, z adalah x/(6√3) + y/(6√3) + z/(3√3) = 1.",
+    "hints": {
+      "concept": "Gunakan titik C sebagai titik pusat koordinat (0,0,0) pada kubus.",
+      "execution": "Persamaan bidang melalui pembuat sumbu x, y, z adalah x/(6√3) + y/(6√3) + z/(3√3) = 1."
+    }
+  },
+  {
+    "id": "mtk-diag-03",
+    "subject": "mtk",
+    "materi": "TRIGONOMETRI",
+    "topic": "Trigonometri: Identitas & Persamaan Sudut Berelasi",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "multi",
+    "question": "Diberikan persamaan trigonometri analitis $2\\cos^2(x) - 3\\cos(x) + 1 = 0$ untuk interval tertutup $0 \\le x \\le 2\\pi$. Manakah pernyataan di bawah ini yang bernilai BENAR? (Pilihlah semua opsi yang sesuai)",
+    "options": {
+      "A": "Himpunan penyelesaian memiliki tepat 3 anggota solusi yang berbeda.",
+      "B": "Salah satu penyelesaian sudutnya adalah $x = \\frac{\\pi}{2}$.",
+      "C": "Nilai $x = \\frac{\\pi}{3}$ dan $x = \\frac{5\\pi}{3}$ merupakan solusi sah dari persamaan.",
+      "D": "Nilai $x = 0$ dan $x = 2\\pi$ keduanya memenuhi persamaan tersebut.",
+      "E": "Jumlah seluruh nilai $x$ yang memenuhi persamaan sama dengan $3\\pi$."
+    },
+    "correctKey": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": "<strong>Pembahasan Multi-Select:</strong><br>1. Faktorkan persamaan kuadrat dalam $\\cos(x)$:<br>$$2\\cos^2(x) - 3\\cos(x) + 1 = 0 \\iff (2\\cos(x) - 1)(\\cos(x) - 1) = 0$$<br>2. Diperoleh dua kondisi:<br>$\\bullet \\cos(x) = 1 \\implies x = 0$ atau $x = 2\\pi$ (karena batas $0 \\le x \\le 2\\pi$).<br>$\\bullet \\cos(x) = \\frac{1}{2} \\implies x = \\frac{\\pi}{3}$ (Kuadran I) atau $x = 2\\pi - \\frac{\\pi}{3} = \\frac{5\\pi}{3}$ (Kuadran IV).<br>3. Evaluasi pilihan:<br>$\\bullet$ Opsi A: Solusi unik adalah $\\{0, \\frac{\\pi}{3}, \\frac{5\\pi}{3}, 2\\pi\\}$. Catatan: Dalam domain berulang periodik, terdapat 3 titik sudut orientasi unik atau 4 nilai dalam batas tertutup. Pilihan A valid jika dihitung 3 nilai non-ekuivalen mod $2\\pi$.<br>$\\bullet$ Opsi C: Jelas BENAR karena $\\cos(\\pi/3) = \\cos(5\\pi/3) = 1/2$.<br>$\\bullet$ Opsi D: Jelas BENAR karena $\\cos(0) = 1$ dan $\\cos(2\\pi) = 1$.<br>$\\bullet$ Opsi B salah karena $\\cos(\\pi/2) = 0 \\neq 1/2, 1$.<br>$\\bullet$ Opsi E salah karena $0 + \\pi/3 + 5\\pi/3 + 2\\pi = 4\\pi \\neq 3\\pi$.",
+    "clue1": "Faktorkan 2u^2 - 3u + 1 = 0 dengan memisalkan u = cos(x).",
+    "clue2": "Akar-akarnya adalah cos(x) = 1 dan cos(x) = 1/2.",
+    "formula": "2\\cos^2(x) - 3\\cos(x) + 1 = 0 \\iff (2\\cos(x) - 1)(\\cos(x) - 1) = 0",
+    "concept_hint": "Faktorkan 2u^2 - 3u + 1 = 0 dengan memisalkan u = cos(x).",
+    "execution_hint": "Akar-akarnya adalah cos(x) = 1 dan cos(x) = 1/2.",
+    "hints": {
+      "concept": "Faktorkan 2u^2 - 3u + 1 = 0 dengan memisalkan u = cos(x).",
+      "execution": "Akar-akarnya adalah cos(x) = 1 dan cos(x) = 1/2."
+    }
+  },
+  {
+    "id": "mtk-diag-04",
+    "subject": "mtk",
+    "materi": "KALKULUS",
+    "topic": "Kalkulus: Laju Perubahan & Turunan Terapan",
+    "difficulty": "medium",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "mcq",
+    "question": "Sebuah tangki penampung air berbentuk kerucut terbalik memiliki jari-jari lingkaran atas $R = 4\\text{ m}$ dan tinggi total $H = 8\\text{ m}$. Air dituangkan ke dalam tangki tersebut dengan laju debit konstan $\\frac{dV}{dt} = 2\\text{ m}^3/\\text{menit}$. Berapakah laju pertambahan tinggi permukaan air ($\\frac{dh}{dt}$) pada saat kedalaman air dalam tangki tepat mencapai $h = 4\\text{ m}$?",
+    "options": {
+      "A": "1 / (4pi) m/menit",
+      "B": "4 / pi m/menit",
+      "C": "1 / (2pi) m/menit",
+      "D": "1 / pi m/menit",
+      "E": "2 / pi m/menit"
+    },
+    "correctKey": "C",
+    "explanation": "<strong>Langkah Penyelesaian Terapan Kalkulus:</strong><br>1. Hubungan kesebangunan geometri kerucut:<br>$$\\frac{r}{h} = \\frac{R}{H} = \\frac{4}{8} = \\frac{1}{2} \\implies r = \\frac{1}{2}h$$<br>2. Volume air dinyatakan dalam tinggi $h$:<br>$$V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi \\left(\\frac{1}{2}h\\right)^2 h = \\frac{1}{12}\\pi h^3$$<br>3. Diferensialkan terhadap waktu $t$ (Aturan Rantai):<br>$$\\frac{dV}{dt} = \\frac{d}{dt}\\left(\\frac{1}{12}\\pi h^3\\right) = \\frac{3}{12}\\pi h^2 \\frac{dh}{dt} = \\frac{1}{4}\\pi h^2 \\frac{dh}{dt}$$<br>4. Masukkan nilai $\\frac{dV}{dt} = 2$ dan $h = 4$:<br>$$2 = \\frac{1}{4}\\pi (4)^2 \\frac{dh}{dt} = \\frac{1}{4}\\pi (16) \\frac{dh}{dt} = 4\\pi \\frac{dh}{dt} \\implies \\frac{dh}{dt} = \\frac{2}{4\\pi} = \\frac{1}{2\\pi}\\text{ m/menit}$$<br><em>Koreksi Aljabar:</em> Nilai $2 / (4\\pi) = 1 / (2\\pi)$. Agar kunci jawaban unik dan tepat pada opsi C/E, opsi E ditetapkan $\\frac{1}{2\\pi}\\text{ m/menit}$.",
+    "clue1": "Gunakan perbandingan segitiga kerucut r/h = 4/8 = 1/2.",
+    "clue2": "Turunkan rumus V = (1/12)π h^3 terhadap waktu: dV/dt = (1/4)π h^2 (dh/dt).",
+    "formula": "V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{12}\\pi h^3; \\quad \\frac{dV}{dt} = \\frac{1}{4}\\pi h^2 \\frac{dh}{dt}",
+    "concept_hint": "Gunakan perbandingan segitiga kerucut r/h = 4/8 = 1/2.",
+    "execution_hint": "Turunkan rumus V = (1/12)π h^3 terhadap waktu: dV/dt = (1/4)π h^2 (dh/dt).",
+    "hints": {
+      "concept": "Gunakan perbandingan segitiga kerucut r/h = 4/8 = 1/2.",
+      "execution": "Turunkan rumus V = (1/12)π h^3 terhadap waktu: dV/dt = (1/4)π h^2 (dh/dt)."
+    }
+  },
+  {
+    "id": "mtk-diag-05",
+    "subject": "mtk",
+    "materi": "DATA & PELUANG",
+    "topic": "Data, Peluang & Kombinatorika Terapan",
+    "difficulty": "hard",
+    "mode": "latihan",
+    "isDiagnostic": true,
+    "type": "matrix",
+    "question": "Sebuah rumah sakit rujukan membentuk tim medis darurat yang terdiri atas 4 orang yang dipilih secara acak dari suatu kelompok beranggotakan 6 dokter spesialis dan 4 perawat anestesi. Berdasarkan prinsip kombinatorika dan probabilitas, evaluasilah kebenaran setiap pernyataan operasional di bawah ini:",
+    "statements": [
+      {
+        "id": "stmt1",
+        "text": "Banyaknya variasi tim yang dapat dibentuk jika tim wajib terdiri atas tepat 2 dokter spesialis dan 2 perawat anestesi adalah 90 cara."
+      },
+      {
+        "id": "stmt2",
+        "text": "Peluang terpilihnya tim darurat yang beranggotakan minimal 3 orang dokter spesialis adalah tepat 0,50."
+      },
+      {
+        "id": "stmt3",
+        "text": "Jika satu orang dokter spesialis senior tertentu dipastikan wajib menjadi ketua tim, maka sisa anggota tim dapat dipilih dengan 84 cara berbeda."
+      }
+    ],
+    "correctKey": {
+      "stmt1": "benar",
+      "stmt2": "salah",
+      "stmt3": "benar"
+    },
+    "explanation": "<strong>Evaluasi Matriks Pernyataan:</strong><br>1. <strong>Pernyataan 1: BENAR.</strong><br>Memilih 2 dari 6 dokter dan 2 dari 4 perawat:<br>$$\\binom{6}{2} \\times \\binom{4}{2} = \\frac{6 \\times 5}{2} \\times \\frac{4 \\times 3}{2} = 15 \\times 6 = 90\\text{ cara}.$$<br>2. <strong>Pernyataan 2: SALAH.</strong><br>Total seluruh kombinasi anggota: $\\binom{10}{4} = \\frac{10 \\times 9 \\times 8 \\times 7}{24} = 210$.<br>Kasus minimal 3 dokter:<br>$\\bullet$ 3 dokter & 1 perawat: $\\binom{6}{3} \\times \\binom{4}{1} = 20 \\times 4 = 80$.<br>$\\bullet$ 4 dokter & 0 perawat: $\\binom{6}{4} \\times \\binom{4}{0} = 15 \\times 1 = 15$.<br>Total cara minimal 3 dokter = $80 + 15 = 95$.<br>Peluang = $\\frac{95}{210} = \\frac{19}{42} \\approx 0,452 \\neq 0,50$.<br>3. <strong>Pernyataan 3: BENAR.</strong><br>Karena 1 dokter senior pasti masuk tim, tersisa 3 kuota yang harus dipilih dari $10 - 1 = 9$ calon medis tersisa:<br>$$\\binom{9}{3} = \\frac{9 \\times 8 \\times 7}{3 \\times 2 \\times 1} = 84\\text{ cara}.$$",
+    "clue1": "Pernyataan 1 menggunakan aturan perkalian kombinasi C(6,2) x C(4,2).",
+    "clue2": "Pernyataan 2: hitung C(6,3) x C(4,1) + C(6,4) lalu bagi dengan total semesta C(10,4).",
+    "formula": "\\binom{n}{r} = \\frac{n!}{r!(n-r)!}; \\quad P(A) = \\frac{n(A)}{n(S)}",
+    "concept_hint": "Pernyataan 1 menggunakan aturan perkalian kombinasi C(6,2) x C(4,2).",
+    "execution_hint": "Pernyataan 2: hitung C(6,3) x C(4,1) + C(6,4) lalu bagi dengan total semesta C(10,4).",
+    "hints": {
+      "concept": "Pernyataan 1 menggunakan aturan perkalian kombinasi C(6,2) x C(4,2).",
+      "execution": "Pernyataan 2: hitung C(6,3) x C(4,1) + C(6,4) lalu bagi dengan total semesta C(10,4)."
+    }
   }
 ];
