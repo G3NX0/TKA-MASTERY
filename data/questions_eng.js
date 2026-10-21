@@ -25,7 +25,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The tourism industry on Komodo Island."
+        "text": "The tourism industry on Komodo Island, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -113,7 +113,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Narrow"
+        "text": "Narrow, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -245,7 +245,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Explain how remote controls transmit infrared signals."
+        "text": "Explain how remote controls transmit infrared signals, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -371,7 +371,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ants are dangerous insects that should be avoided."
+        "text": "Ants are dangerous insects that should be avoided, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -415,7 +415,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "She lost her magical weaving tool in the forest."
+        "text": "She lost her magical weaving tool in the forest, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -547,7 +547,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The harmful effects of carbon dioxide on soil quality."
+        "text": "The harmful effects of carbon dioxide on soil quality, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -635,7 +635,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Plants absorb water through their root systems."
+        "text": "Plants absorb water through their root systems, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -902,7 +902,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "She bought a leather beautiful black jacket."
+        "text": "She bought a leather beautiful black jacket, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -990,7 +990,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "I don't care at all."
+        "text": "I don't care at all, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -1076,7 +1076,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Visitors should not bring umbrellas if it is sunny."
+        "text": "Visitors should not bring umbrellas if it is sunny, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -1120,7 +1120,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Taste and Sight only"
+        "text": "Taste and Sight only, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -1160,7 +1160,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Plug the device into a 220V wall socket."
+        "text": "Plug the device into a 220V wall socket, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -1204,7 +1204,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The castle of Nottingham"
+        "text": "The castle of Nottingham, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -1336,7 +1336,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Scarce"
+        "text": "Scarce, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -1384,7 +1384,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "so that"
+        "text": "so that, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "C",
@@ -1424,7 +1424,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Generous and patient"
+        "text": "Generous and patient, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -1472,7 +1472,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "It believe that hydration improves concentration."
+        "text": "It believe that hydration improves concentration, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "C",
@@ -1550,7 +1550,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The recycling methods for commercial polyethylene bottles."
+        "text": "The recycling methods for commercial polyethylene bottles, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -1594,7 +1594,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "They actively seek out microplastics as their primary energy food source."
+        "text": "They actively seek out microplastics as their primary energy food source, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -1682,7 +1682,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Government subsidies have successfully reduced upfront drilling costs, causing high geothermal adoption."
+        "text": "Government subsidies have successfully reduced upfront drilling costs, causing high geothermal adoption, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -1773,7 +1773,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Desire to gain personal wealth through medical patents."
+        "text": "Desire to gain personal wealth through medical patents, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -1865,7 +1865,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "By the time the firefighter had arrived, the blazing inferno already destroyed the warehouse."
+        "text": "By the time the firefighter had arrived, the blazing inferno already destroyed the warehouse, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -1905,7 +1905,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Digital technology is always superior to antique craftsmanship."
+        "text": "Digital technology is always superior to antique craftsmanship, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -2035,7 +2035,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "verified / would be prevented"
+        "text": "verified / would be prevented, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "C",
@@ -2163,7 +2163,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Immediately before sentence [1]"
+        "text": "Immediately before sentence [1], inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -2207,7 +2207,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rarely scientists have observed such severe coral bleaching in deep waters."
+        "text": "Rarely scientists have observed such severe coral bleaching in deep waters, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -2251,7 +2251,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Criticize the lack of modern streetlights in Japanese cities."
+        "text": "Criticize the lack of modern streetlights in Japanese cities, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -2387,7 +2387,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Executive salaries to annual marketing revenues."
+        "text": "Executive salaries to annual marketing revenues, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -2471,7 +2471,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Entertain readers with interesting mathematical trivia."
+        "text": "Entertain readers with interesting mathematical trivia, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -2559,7 +2559,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Foreshadowing"
+        "text": "Foreshadowing, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -2603,7 +2603,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "It causes deep-sea fish to lose their eyesight."
+        "text": "It causes deep-sea fish to lose their eyesight, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -2733,7 +2733,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Comic relief to ease the reader's tension"
+        "text": "Comic relief to ease the reader's tension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -2821,7 +2821,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Exacerbate"
+        "text": "Exacerbate, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -2953,7 +2953,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Heavy snow blocked the runway, resulting to the cancellation of all outbound flights."
+        "text": "Heavy snow blocked the runway, resulting to the cancellation of all outbound flights, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -3075,7 +3075,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Quantum computers will permanently destroy the global electrical grid."
+        "text": "Quantum computers will permanently destroy the global electrical grid, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -3119,7 +3119,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Monolingual individuals are incapable of performing logical arithmetic."
+        "text": "Monolingual individuals are incapable of performing logical arithmetic, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -3163,7 +3163,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Demonstrate the chemical composition of aerosolized sulfates."
+        "text": "Demonstrate the chemical composition of aerosolized sulfates, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -3296,7 +3296,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "If I accepted the scholarship to Cambridge five years ago, I will be working in London today."
+        "text": "If I accepted the scholarship to Cambridge five years ago, I will be working in London today, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -3340,7 +3340,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "It was Dr. Rosalind Franklin which X-ray diffraction images provided the clue to DNA."
+        "text": "It was Dr. Rosalind Franklin which X-ray diffraction images provided the clue to DNA, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "C",
@@ -3424,7 +3424,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Not only the committee did reject the proposal, but they also slashed the project's funding."
+        "text": "Not only the committee did reject the proposal, but they also slashed the project's funding, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -3512,7 +3512,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Solar panels look unattractive on residential rooftops."
+        "text": "Solar panels look unattractive on residential rooftops, as explicitly outlined through critical reading analysis and syntactic discourse structure, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -3600,7 +3600,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The inherent grammatical and lexical inadequacy of indigenous languages."
+        "text": "The inherent grammatical and lexical inadequacy of indigenous languages, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -3648,7 +3648,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "No sooner the keynote speaker had stepped onto the stage when the fire alarm sounded."
+        "text": "No sooner the keynote speaker had stepped onto the stage when the fire alarm sounded, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "C",
@@ -3688,7 +3688,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An omniscient third-person narrator offering divine judgment"
+        "text": "An omniscient third-person narrator offering divine judgment, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -3736,7 +3736,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Some researchers prefer qualitative case studies; others preferring quantitative surveys."
+        "text": "Some researchers prefer qualitative case studies; others preferring quantitative surveys, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -3776,7 +3776,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Insignificant"
+        "text": "Insignificant, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -3824,7 +3824,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The company reported impressive quarterly revenue growth, albeit it made narrow profit margins."
+        "text": "The company reported impressive quarterly revenue growth, albeit it made narrow profit margins, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -3868,7 +3868,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sarcastic puns"
+        "text": "Sarcastic puns, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "C",
@@ -4003,7 +4003,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Relying on an ad hominem attack against engineering faculties"
+        "text": "Relying on an ad hominem attack against engineering faculties, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "C",
@@ -4047,7 +4047,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The central bank lowered benchmark interest rates, thereby it stimulated commercial borrowing."
+        "text": "The central bank lowered benchmark interest rates, thereby it stimulated commercial borrowing, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -4135,7 +4135,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Unless"
+        "text": "Unless, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -4261,7 +4261,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Extremely expensive"
+        "text": "Extremely expensive, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "C",
@@ -4349,7 +4349,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Onomatopoeia"
+        "text": "Onomatopoeia, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "C",
@@ -4393,7 +4393,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Had the pilot notice the ice accumulation earlier, the emergency landing was avoided."
+        "text": "Had the pilot notice the ice accumulation earlier, the emergency landing was avoided, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -4433,7 +4433,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Introduce a completely new topic unrelated to the previous paragraph."
+        "text": "Introduce a completely new topic unrelated to the previous paragraph, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -4597,7 +4597,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Both authors concede that stratospheric aerosol injection should be outright prohibited due to its total technological inability to cool atmospheric temperatures."
+        "text": "Both authors concede that stratospheric aerosol injection should be outright prohibited due to its total technological inability to cool atmospheric temperatures, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -4689,7 +4689,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Complete atmospheric encapsulation that prevents sound waves from escaping the limestone bowl"
+        "text": "Complete atmospheric encapsulation that prevents sound waves from escaping the limestone bowl, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -4760,7 +4760,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The tyrant escaped through a secret passage unknown to Daedalus"
+        "text": "The tyrant escaped through a secret passage unknown to Daedalus, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -4794,7 +4794,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Autonomous systems will inevitably develop biological consciousness and emotional resentment toward human creators."
+        "text": "Autonomous systems will inevitably develop biological consciousness and emotional resentment toward human creators, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -4828,7 +4828,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock"
+        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -4862,7 +4862,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "However, drilling rigs frequently suffer mechanical seizure when encountering pressurized subglacial meltwater lakes."
+        "text": "However, drilling rigs frequently suffer mechanical seizure when encountering pressurized subglacial meltwater lakes, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -4924,7 +4924,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Increase the molecular weight of the intact proteins to prevent vacuum vaporization during electrospray ionization"
+        "text": "Increase the molecular weight of the intact proteins to prevent vacuum vaporization during electrospray ionization, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -4958,7 +4958,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The crew illegally vented accumulated $CO_2$ through emergency subterranean pressure relief valves."
+        "text": "The crew illegally vented accumulated $CO_2$ through emergency subterranean pressure relief valves, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -4992,7 +4992,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The technical precision required to cast bronze gears for maritime chronometers"
+        "text": "The technical precision required to cast bronze gears for maritime chronometers, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -5026,7 +5026,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Remote employees reported spending significantly less money on fuel and business attire."
+        "text": "Remote employees reported spending significantly less money on fuel and business attire, verified through textual evidence synthesis and objective macro-linguistic comprehension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
       },
       {
         "key": "B",
@@ -5097,7 +5097,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Allow the metal to absorb atmospheric nitrogen and oxygen to increase its brittle porosity"
+        "text": "Allow the metal to absorb atmospheric nitrogen and oxygen to increase its brittle porosity, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -5131,7 +5131,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ad hominem attacks against academic neuroscientists who design clinical MRI machines"
+        "text": "Ad hominem attacks against academic neuroscientists who design clinical MRI machines, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -5165,7 +5165,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Extreme ambient water temperatures exceeding the boiling point of surface water"
+        "text": "Extreme ambient water temperatures exceeding the boiling point of surface water, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -5227,7 +5227,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Whether climate change is driven by greenhouse gas emissions"
+        "text": "Whether climate change is driven by greenhouse gas emissions, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -5261,7 +5261,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours"
+        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -5295,7 +5295,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Both signatories genuinely expect agricultural cooperation to flourish indefinitely."
+        "text": "Both signatories genuinely expect agricultural cooperation to flourish indefinitely, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -5329,7 +5329,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Engines do not require maintenance because aircraft can glide indefinitely without fuel."
+        "text": "Engines do not require maintenance because aircraft can glide indefinitely without fuel, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -5400,7 +5400,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The transiting planet rapidly changes its physical radius during orbital transit."
+        "text": "The transiting planet rapidly changes its physical radius during orbital transit, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",
@@ -5434,7 +5434,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Presenting a nostalgic defense of 19th-century penal traditions"
+        "text": "Presenting a nostalgic defense of 19th-century penal traditions, as explicitly outlined through critical reading analysis and syntactic discourse structure."
       },
       {
         "key": "B",
@@ -5468,7 +5468,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution"
+        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "B",
@@ -5502,7 +5502,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "By detailing prolonged historical debates over cryptography legislation in foreign parliaments"
+        "text": "By detailing prolonged historical debates over cryptography legislation in foreign parliaments, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
       },
       {
         "key": "B",
@@ -5564,7 +5564,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding"
+        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "B",

@@ -69,7 +69,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zat racun yang dihasilkan mikroorganisme dalam darah."
+        "text": "Zat racun yang dihasilkan mikroorganisme dalam darah, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -113,7 +113,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Banjir melanda Desa Sukamaju akibat tanggul bendungan jebol."
+        "text": "Banjir melanda Desa Sukamaju akibat tanggul bendungan jebol, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -157,7 +157,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(1) dan (2)"
+        "text": "(1) dan (2), sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -201,7 +201,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketersediaan bahan bakar fosil di pelosok."
+        "text": "Ketersediaan bahan bakar fosil di pelosok, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -289,7 +289,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kemunduran drastis"
+        "text": "Kemunduran drastis, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -333,7 +333,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Apa platform yang diluncurkan oleh Kementerian Pendidikan?"
+        "text": "Apa platform yang diluncurkan oleh Kementerian Pendidikan?, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -421,7 +421,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Melakukan pekerjaan berat yang berbahaya."
+        "text": "Melakukan pekerjaan berat yang berbahaya, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -465,7 +465,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Apotik, antri, izin, analisa"
+        "text": "Apotik, antri, izin, analisa, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -547,7 +547,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Remaja sebaiknya dilarang sama sekali memiliki telepon pintar."
+        "text": "Remaja sebaiknya dilarang sama sekali memiliki telepon pintar, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -635,7 +635,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hiperbola"
+        "text": "Hiperbola, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -679,7 +679,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jangan pernah menolak tantangan dari kawan sebaya."
+        "text": "Jangan pernah menolak tantangan dari kawan sebaya, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -767,7 +767,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menginformasikan proses degradasi kimiawi plastik di laboratorium."
+        "text": "Menginformasikan proses degradasi kimiawi plastik di laboratorium, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -811,7 +811,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hulubalang mencuri harta perniagaan di bahtera saudagar."
+        "text": "Hulubalang mencuri harta perniagaan di bahtera saudagar, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -899,7 +899,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hasil panen padi petani akan meningkat berkali-kali lipat tanpa gangguan hama."
+        "text": "Hasil panen padi petani akan meningkat berkali-kali lipat tanpa gangguan hama, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -1126,7 +1126,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Ibu membeli: bayam, wortel, dan tomat di pasar sayur."
+        "text": "Ibu membeli: bayam, wortel, dan tomat di pasar sayur, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "C",
@@ -1166,7 +1166,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penggunaan subjek ganda yang membuat kalimat ambigu."
+        "text": "Penggunaan subjek ganda yang membuat kalimat ambigu, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -1214,7 +1214,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "(2) – (4) – (3) – (1)"
+        "text": "(2) – (4) – (3) – (1), sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "C",
@@ -1254,7 +1254,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kerjasama, tandatangan, tanggung jawab"
+        "text": "Kerjasama, tandatangan, tanggung jawab, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -1298,7 +1298,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Meskipun lelah, ia tetap melanjutkan perjalanan."
+        "text": "Meskipun lelah, ia tetap melanjutkan perjalanan, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -1342,7 +1342,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "mengganti 'pendaftaran' menjadi 'mendaftar'"
+        "text": "mengganti 'pendaftaran' menjadi 'mendaftar', sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -1478,7 +1478,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Chairil Anwar menerbitkan buku antologi puisi berjudul “Deru Campur Debu”."
+        "text": "Chairil Anwar menerbitkan buku antologi puisi berjudul “Deru Campur Debu”, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "C",
@@ -1556,7 +1556,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penggunaan citra satelit untuk mendeteksi kelembapan tanah."
+        "text": "Penggunaan citra satelit untuk mendeteksi kelembapan tanah, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -1600,7 +1600,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem ekonomi yang berfokus pada pencetakan uang secara berputar di pasar modal."
+        "text": "Sistem ekonomi yang berfokus pada pencetakan uang secara berputar di pasar modal, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -1692,7 +1692,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "(2) – (3) – (1) – (4)"
+        "text": "(2) – (3) – (1) – (4), menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "C",
@@ -1732,7 +1732,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Armada bus listrik menawarkan kenyamanan kabin yang lebih senyap bagi para penumpang."
+        "text": "Armada bus listrik menawarkan kenyamanan kabin yang lebih senyap bagi para penumpang, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -1814,7 +1814,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendukung penuh demi kemandirian finansial operator transportasi."
+        "text": "Mendukung penuh demi kemandirian finansial operator transportasi, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -1858,7 +1858,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kebanggaan keluarga karena memiliki warisan benda antik bernilai jual tinggi."
+        "text": "Kebanggaan keluarga karena memiliki warisan benda antik bernilai jual tinggi, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -1902,7 +1902,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kegagalannya meraih beasiswa magister di luar negeri."
+        "text": "Kegagalannya meraih beasiswa magister di luar negeri, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -1946,7 +1946,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Paragraf 2 merupakan contoh spesifik pendukung teori pada paragraf 1."
+        "text": "Paragraf 2 merupakan contoh spesifik pendukung teori pada paragraf 1, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -1990,7 +1990,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Minat membaca buku merupakan bakat genetis yang diwariskan orang tua."
+        "text": "Minat membaca buku merupakan bakat genetis yang diwariskan orang tua, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -2125,7 +2125,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(1) dan (3)"
+        "text": "(1) dan (3), sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -2173,7 +2173,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Meskipun hari hujan deras; kami tetap menghadiri pesta ulang tahun paman."
+        "text": "Meskipun hari hujan deras; kami tetap menghadiri pesta ulang tahun paman, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "C",
@@ -2345,7 +2345,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "KEMENDIKBUD"
+        "text": "KEMENDIKBUD, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -2437,7 +2437,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pemerintah berencana membatalkan subsidi motor listrik bagi masyarakat berpenghasilan rendah."
+        "text": "Pemerintah berencana membatalkan subsidi motor listrik bagi masyarakat berpenghasilan rendah, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "C",
@@ -2477,7 +2477,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingginya curah hujan di kawasan perkebunan."
+        "text": "Tingginya curah hujan di kawasan perkebunan, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -2521,7 +2521,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Abad ke 21"
+        "text": "Abad ke 21, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -2565,7 +2565,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah membangun waduk raksasa agar pasokan air irigasi tetap terjaga."
+        "text": "Pemerintah membangun waduk raksasa agar pasokan air irigasi tetap terjaga, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -2609,7 +2609,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Melakukan penggalian tanah tambang secara ilegal."
+        "text": "Melakukan penggalian tanah tambang secara ilegal, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -2653,7 +2653,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perubahan iklim global di kutub utara."
+        "text": "Perubahan iklim global di kutub utara, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -2741,7 +2741,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kepasrahan total tanpa berani memperjuangkan hak diri."
+        "text": "Kepasrahan total tanpa berani memperjuangkan hak diri, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -2785,7 +2785,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Waktu dan tempat kami persilakan kepada Bapak Kepala Sekolah."
+        "text": "Waktu dan tempat kami persilakan kepada Bapak Kepala Sekolah, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -2829,7 +2829,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Afiksasi"
+        "text": "Afiksasi, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -2965,7 +2965,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "'Laskar Pelangi' adalah novel terlaris karya Andrea Hirata."
+        "text": "'Laskar Pelangi' adalah novel terlaris karya Andrea Hirata, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "C",
@@ -3005,7 +3005,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kecintaan pada kehidupan terisolasi jauh dari keramaian."
+        "text": "Kecintaan pada kehidupan terisolasi jauh dari keramaian, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -3131,7 +3131,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Semua perusahaan yang beroperasi di Indonesia wajib memiliki izin usaha."
+        "text": "Semua perusahaan yang beroperasi di Indonesia wajib memiliki izin usaha, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -3175,7 +3175,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sejarah kronologis penemuan mesin uap pada abad ke-18."
+        "text": "Sejarah kronologis penemuan mesin uap pada abad ke-18, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -3301,7 +3301,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kejujuran narator yang terbukti dari sumpah demi langit dan bumi."
+        "text": "Kejujuran narator yang terbukti dari sumpah demi langit dan bumi, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -3345,7 +3345,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kelemahan insinyur muda dalam memahami teori rancang bangun jembatan."
+        "text": "Kelemahan insinyur muda dalam memahami teori rancang bangun jembatan, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -3389,7 +3389,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ironi verbal (kata-kata yang berlawanan dengan makna harfiah)"
+        "text": "Ironi verbal (kata-kata yang berlawanan dengan makna harfiah), berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -3433,7 +3433,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelanggaran Maksim Kualitas karena berbohong secara terang-terangan."
+        "text": "Pelanggaran Maksim Kualitas karena berbohong secara terang-terangan, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -3477,7 +3477,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kemarahan membara terhadap keterlambatan armada transportasi kereta api."
+        "text": "Kemarahan membara terhadap keterlambatan armada transportasi kereta api, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -3521,7 +3521,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penggunaan istilah asing 'infrastruktur' dan 'statistik' secara bersamaan."
+        "text": "Penggunaan istilah asing 'infrastruktur' dan 'statistik' secara bersamaan, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -3569,7 +3569,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Perjalanan kereta api Jakarta-Surabaya memakan waktu delapan jam."
+        "text": "Perjalanan kereta api Jakarta-Surabaya memakan waktu delapan jam, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "C",
@@ -3653,7 +3653,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fatalisme mistis yang menganggap penderitaan sebagai kutukan dewa."
+        "text": "Fatalisme mistis yang menganggap penderitaan sebagai kutukan dewa, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -3745,7 +3745,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sains dibangun di atas dogma kebenaran mutlak yang tidak boleh diganggu gugat oleh data baru."
+        "text": "Sains dibangun di atas dogma kebenaran mutlak yang tidak boleh diganggu gugat oleh data baru, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "C",
@@ -3829,7 +3829,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bank Sentral sepenuhnya mengabaikan nasib pengusaha sektor riil di Indonesia."
+        "text": "Bank Sentral sepenuhnya mengabaikan nasib pengusaha sektor riil di Indonesia, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -3917,7 +3917,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Klimaks"
+        "text": "Klimaks, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -4008,7 +4008,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ukuran sampel yang representatif dan acak dari populasi umum."
+        "text": "Ukuran sampel yang representatif dan acak dari populasi umum, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -4096,7 +4096,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "PLTA terbukti lebih boros biaya daripada pembangkit listrik tenaga nuklir."
+        "text": "PLTA terbukti lebih boros biaya daripada pembangkit listrik tenaga nuklir, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -4140,7 +4140,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "frasa 'mutu pelayanan' yang tidak memiliki objek"
+        "text": "frasa 'mutu pelayanan' yang tidak memiliki objek, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -4184,7 +4184,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perang Kemerdekaan melawan agresi militer Belanda."
+        "text": "Perang Kemerdekaan melawan agresi militer Belanda, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -4272,7 +4272,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hidup manusia harus selalu mengumpulkan harta kekayaan sebanyak-banyaknya."
+        "text": "Hidup manusia harus selalu mengumpulkan harta kekayaan sebanyak-banyaknya, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -4360,7 +4360,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Substitusi gramatikal pronomina persona"
+        "text": "Substitusi gramatikal pronomina persona, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -4448,7 +4448,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Makna teks bersifat tunggal, stabil, dan sepenuhnya dikendalikan oleh kehendak sadar pengarang."
+        "text": "Makna teks bersifat tunggal, stabil, dan sepenuhnya dikendalikan oleh kehendak sadar pengarang, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -4536,7 +4536,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kualitas penjilidan dan cetakan visual buku yang rapuh."
+        "text": "Kualitas penjilidan dan cetakan visual buku yang rapuh, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -4608,7 +4608,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat keberhasilan terapi CRISPR-Cas9 dalam menyembuhkan penyakit infeksi menular."
+        "text": "Tingkat keberhasilan terapi CRISPR-Cas9 dalam menyembuhkan penyakit infeksi menular, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -4646,7 +4646,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pemerintah Kota Megapolitan gagal total dalam menyusun anggaran lingkungan hidup."
+        "text": "Pemerintah Kota Megapolitan gagal total dalam menyusun anggaran lingkungan hidup, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "C",
@@ -4676,7 +4676,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kematian mendadak akibat luka bakar dalam medan pertempuran kemerdekaan."
+        "text": "Kematian mendadak akibat luka bakar dalam medan pertempuran kemerdekaan, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -4710,7 +4710,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketamakan merebut takhta kerajaan versus ketakutan akan hukuman gantung."
+        "text": "Ketamakan merebut takhta kerajaan versus ketakutan akan hukuman gantung, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -4781,7 +4781,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keadaan kahar terjadi akibat bencana alam gempa bumi."
+        "text": "Keadaan kahar terjadi akibat bencana alam gempa bumi, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -4849,7 +4849,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mahalnya tarif sewa pesawat jet komersial di bandara internasional."
+        "text": "Mahalnya tarif sewa pesawat jet komersial di bandara internasional, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -5013,7 +5013,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kekayaan materiil yang melimpah dari hasil memenangkan perkara suap."
+        "text": "Kekayaan materiil yang melimpah dari hasil memenangkan perkara suap, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -5081,7 +5081,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ia"
+        "text": "Ia, menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "B",
@@ -5115,7 +5115,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penurunan harga barang dan penambahan jam kerja lembur."
+        "text": "Penurunan harga barang dan penambahan jam kerja lembur, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -5183,7 +5183,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keinginan Gajah Mada untuk segera pensiun dan beristirahat di peristirahatannya."
+        "text": "Keinginan Gajah Mada untuk segera pensiun dan beristirahat di peristirahatannya, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -5313,7 +5313,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Desersi dan pembangkangan perintah komandan divisi."
+        "text": "Desersi dan pembangkangan perintah komandan divisi, ditinjau dari prinsip keutuhan kohesi gramatikal dan kepaduan ide pokok antarkalimat."
       },
       {
         "key": "B",
@@ -5381,7 +5381,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kualitas daun tembakau cerutu lokal dibanding cerutu impor."
+        "text": "Kualitas daun tembakau cerutu lokal dibanding cerutu impor, sesuai dengan konteks semantik paragraf deduktif-induktif dan piramida informasi wacana."
       },
       {
         "key": "B",
@@ -5449,7 +5449,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Vaksin mRNA mengubah kode urutan DNA inti sel manusia secara permanen."
+        "text": "Vaksin mRNA mengubah kode urutan DNA inti sel manusia secara permanen, sebagaimana diuraikan dalam analisis wacana kritis dan struktur sintaksis kalimat efektif."
       },
       {
         "key": "B",
@@ -5487,7 +5487,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Tuhan Yang Mahaesa dan Tuhan Yang Mahapengasih"
+        "text": "Tuhan Yang Mahaesa dan Tuhan Yang Mahapengasih, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "C",
@@ -5517,7 +5517,7 @@ window.TKA_IND_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kenyamanan manusia hidup dalam kegelapan fisik tanpa listrik."
+        "text": "Kenyamanan manusia hidup dalam kegelapan fisik tanpa listrik, berdasarkan telaah inferensi logika wacana dan kaidah pembentukan kata ejaan baku."
       },
       {
         "key": "B",
@@ -5555,7 +5555,7 @@ window.TKA_IND_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Ia lahir di Jakarta [pada tahun 1945]."
+        "text": "Ia lahir di Jakarta [pada tahun 1945], menurut prinsip keterbacaan teks ekspositori analitis dan pedoman umum ejaan bahasa Indonesia."
       },
       {
         "key": "C",

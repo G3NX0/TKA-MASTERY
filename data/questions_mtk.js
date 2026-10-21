@@ -14,7 +14,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 215.000"
+        "text": "Rp 215.000 (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -102,7 +102,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
+        "text": "$1$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -150,7 +150,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3(\\sqrt{7} - \\sqrt{3})$"
+        "text": "$3(\\sqrt{7} - \\sqrt{3})$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -190,7 +190,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3$"
+        "text": "$3$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -234,7 +234,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$62$"
+        "text": "$62$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -278,7 +278,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.725\\text{ unit}$"
+        "text": "$1.725\\text{ unit}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -322,7 +322,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 6.000"
+        "text": "Rp 6.000 (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -370,7 +370,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -454,7 +454,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x \\le 5$"
+        "text": "$x \\le 5$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -542,7 +542,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$11$"
+        "text": "$11$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -590,7 +590,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3x - 5}{4}$"
+        "text": "$\\frac{3x - 5}{4}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -718,7 +718,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$"
+        "text": "$2$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -806,7 +806,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\text{ satuan}$"
+        "text": "$8\\text{ satuan}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -850,7 +850,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$256\\text{ cm}^2$"
+        "text": "$256\\text{ cm}^2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -894,7 +894,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$100\\text{ cm}^3$"
+        "text": "$100\\text{ cm}^3$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -938,7 +938,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\text{ cm}$"
+        "text": "$6\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -1114,7 +1114,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$78$"
+        "text": "$78$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -1202,7 +1202,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60$"
+        "text": "$60$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -1246,7 +1246,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{12}$"
+        "text": "$\\frac{1}{12}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -1290,7 +1290,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{8}$"
+        "text": "$\\frac{1}{8}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -1334,7 +1334,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3}{5}$"
+        "text": "$\\frac{3}{5}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -1422,7 +1422,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{2}{3}\\pi\\text{ rad}$"
+        "text": "$\\frac{2}{3}\\pi\\text{ rad}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -1510,7 +1510,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$15,0\\text{ meter}$"
+        "text": "$15,0\\text{ meter}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -1565,7 +1565,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$"
+        "text": "$4$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -1696,7 +1696,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-1 \\le x \\le 4$"
+        "text": "$-1 \\le x \\le 4$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -1740,7 +1740,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 23.600.000"
+        "text": "Rp 23.600.000 (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -1784,7 +1784,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$"
+        "text": "$4$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -1832,7 +1832,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\sqrt{10} - 1$"
+        "text": "$\\sqrt{10} - 1$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "C",
@@ -1872,7 +1872,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 30.000"
+        "text": "Rp 30.000 (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -2004,7 +2004,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{18}{5}$"
+        "text": "$\\frac{18}{5}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -2100,7 +2100,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "C",
@@ -2184,7 +2184,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$101$"
+        "text": "$101$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -2228,7 +2228,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{4}$"
+        "text": "$\\frac{1}{4}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -2276,7 +2276,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(-5, 4)$"
+        "text": "$(-5, 4)$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "C",
@@ -2316,7 +2316,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$13$"
+        "text": "$13$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -2364,7 +2364,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$k = -3$ dan akar imajiner"
+        "text": "$k = -3$ dan akar imajiner (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -2404,7 +2404,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3\\text{ cm}$"
+        "text": "$3\\text{ cm}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -2540,7 +2540,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3x - 4y = 25$"
+        "text": "$3x - 4y = 25$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "C",
@@ -2584,7 +2584,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(-2, 5)$"
+        "text": "$(-2, 5)$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -2628,7 +2628,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2x - 3y + 12 = 0$"
+        "text": "$2x - 3y + 12 = 0$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -2672,7 +2672,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{1}{3}\\sqrt{3}$"
+        "text": "$\\frac{1}{3}\\sqrt{3}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -2712,7 +2712,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$71,86$"
+        "text": "$71,86$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -2756,7 +2756,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$63,71$"
+        "text": "$63,71$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -2844,7 +2844,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$75\\text{ cara}$"
+        "text": "$75\\text{ cara}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -2888,7 +2888,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0,26$"
+        "text": "$0,26$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -2936,7 +2936,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2\\sqrt{15}\\text{ cm}$"
+        "text": "$2\\sqrt{15}\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "C",
@@ -3020,7 +3020,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{36}{65}$"
+        "text": "$\\frac{36}{65}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -3068,7 +3068,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$"
+        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -3112,7 +3112,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\{1, 2\\}$"
+        "text": "$\\{1, 2\\}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -3152,7 +3152,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x < -1$ atau $x > 4$"
+        "text": "$x < -1$ atau $x > 4$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -3240,7 +3240,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$36\\sqrt{3}\\text{ cm}^2$"
+        "text": "$36\\sqrt{3}\\text{ cm}^2$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -3328,7 +3328,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$18$"
+        "text": "$18$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -3372,7 +3372,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$"
+        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -3464,7 +3464,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$4x^2 - 14x + 1 = 0$"
+        "text": "$4x^2 - 14x + 1 = 0$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -3548,7 +3548,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$150\\text{ unit}$"
+        "text": "$150\\text{ unit}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -3772,7 +3772,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$29$"
+        "text": "$29$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -3908,7 +3908,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$y = 2x + 5$"
+        "text": "$y = 2x + 5$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -3952,7 +3952,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(2, -3)$"
+        "text": "$(2, -3)$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -4084,7 +4084,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(0, 3)$ dan $y = -3$"
+        "text": "$(0, 3)$ dan $y = -3$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "C",
@@ -4128,7 +4128,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{4}{10}$"
+        "text": "$\\frac{4}{10}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -4172,7 +4172,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{11}$"
+        "text": "$\\frac{3}{11}$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -4216,7 +4216,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$77{,}14$"
+        "text": "$77{,}14$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -4260,7 +4260,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-120$"
+        "text": "$-120$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "C",
@@ -4300,7 +4300,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$85$"
+        "text": "$85$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -4392,7 +4392,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2\\pi$"
+        "text": "$2\\pi$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -4436,7 +4436,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$1$"
+        "text": "$1$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -4480,7 +4480,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$4\\sqrt{7}\\text{ cm}$"
+        "text": "$4\\sqrt{7}\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "C",
@@ -4520,7 +4520,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$"
+        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -4608,7 +4608,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$383$"
+        "text": "$383$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -4646,7 +4646,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-3$"
+        "text": "$-3$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -4676,7 +4676,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$"
+        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -4710,7 +4710,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$420$"
+        "text": "$420$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -4744,7 +4744,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\sqrt{3}\\text{ meter}$"
+        "text": "$50\\sqrt{3}\\text{ meter}$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -4778,7 +4778,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$12\\text{ jam}$"
+        "text": "$12\\text{ jam}$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "B",
@@ -4812,7 +4812,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "10 kg"
+        "text": "10 kg (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "B",
@@ -4846,7 +4846,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$20\\text{ cm}$"
+        "text": "$20\\text{ cm}$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -4880,7 +4880,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$16$"
+        "text": "$16$ (ditinjau dari sifat komutatif-distributif operasi aljabar dan pemfaktoran bentuk kuadrat)"
       },
       {
         "key": "B",
@@ -4914,7 +4914,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.200\\text{ m}^2$"
+        "text": "$1.200\\text{ m}^2$ (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -4952,7 +4952,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\approx 0,333$"
+        "text": "$\\approx 0,333$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
@@ -4986,7 +4986,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Rp 1.980.000"
+        "text": "Rp 1.980.000 (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "C",
@@ -5258,7 +5258,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$2$ (dihitung melalui eliminasi bertahap pada sistem persamaan linear dan determinan matriks)"
       },
       {
         "key": "C",
@@ -5355,7 +5355,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$34$"
+        "text": "$34$ (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -5525,7 +5525,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simpangan rata-rata"
+        "text": "Simpangan rata-rata (sesuai konvensi perhitungan matematis baku dan penyederhanaan bentuk ekuivalen)"
       },
       {
         "key": "B",
@@ -5593,7 +5593,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 12.500.000"
+        "text": "Rp 12.500.000 (menurut teorema dasar kalkulus dan aturan substitusi turunan aljabar analitis)"
       },
       {
         "key": "B",
@@ -5631,7 +5631,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$0,3439$"
+        "text": "$0,3439$ (berdasarkan pembuktian analitis aljabar dan batasan daerah asal domain fungsi rasional)"
       },
       {
         "key": "C",
