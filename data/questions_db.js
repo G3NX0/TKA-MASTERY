@@ -256,17 +256,17 @@
     },
 
     // =========================================================================
-    // 15. SOSIOLOGI (135 SOAL AUTENTIK SOSHUM)
+    // 15. SOSIOLOGI (AUTENTIK TKA 2026 SMA/MA SOSHUM)
     // =========================================================================
     sosiologi: {
       id: "sosiologi",
       title: "Sosiologi",
-      badge: "Struktur & Dinamika Sosial",
+      badge: "Sosiologi Soshum — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
-      description: "Interaksi & Diferensiasi Sosial, Konflik Vertikal-Horizontal & Resolusi Integrasi, Perubahan Sosial di Era Kecerdasan Artifisial, dan Metodologi Penelitian Sosial Empiris.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (IPS)",
+      description: "Konsep Dasar & Paradigma Sosiologi (Durkheim/Weber/Marx), Sosialisasi & Nilai-Norma, Kelompok Sosial (Gemeinschaft/Gesellschaft), Stratifikasi & Mobilitas Sosial, Teori Penyimpangan & Pengendalian Sosial, Teori Konflik & Resolusi Damai, Perubahan Sosial & Modernitas, serta Metodologi Penelitian Sosial Kualitatif/Kuantitatif.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Sosiologi) & BSKAP 033/H/KR/2024",
       accentColor: "#8b5cf6",
-      totalPool: sosiologiPool.length || 135,
+      totalPool: sosiologiPool.length || 110,
       questions: sosiologiPool
     },
 
