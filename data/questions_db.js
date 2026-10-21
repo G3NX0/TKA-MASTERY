@@ -171,12 +171,12 @@
     biologi: {
       id: "biologi",
       title: "Biologi",
-      badge: "Biosel & Ekosistem",
+      badge: "Biologi Saintek — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>`,
-      description: "Biologi Sel & Enzim, Reaksi Terang Gelap Fotosintesis, Sintesis Protein & Hereditas Mendel, Fisiologi Nefron, dan Aliran Energi Ekologi.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (MIPA)",
+      description: "Biologi Sel & Jalur Endomembran, Bioenergetika & Mitchell Chemiosmosis, Dogma Sentral & CRISPR, Genetika Mendel & Silsilah Terpaut Kelamin, Fisiologi Nefron & Neuroendokrin.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Biologi) & BSKAP 033/H/KR/2024",
       accentColor: "#84cc16",
-      totalPool: biologiPool.length || 135,
+      totalPool: biologiPool.length || 110,
       questions: biologiPool
     },
 
