@@ -291,12 +291,12 @@
     informatika: {
       id: "informatika",
       title: "Informatika",
-      badge: "Algoritma & Komputasi",
+      badge: "Informatika — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
-      description: "Berpikir Komputasional, Algoritma Rekursi/Greedy/Dynamic Programming, Struktur Data Graph & Binary Search Tree, Analisis Kompleksitas Waktu O(n), dan Keamanan Siber.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA Pilihan",
+      description: "Berpikir Komputasional (DP & Greedy), Sistem Komputer (Pipelining, Cache MESI, Virtual Memory), JKI (Subnetting VLSM, TCP/UDP, BGP, DNSSEC), Analisis Data (SQL Relasional, Star Schema, Naive Bayes), Algoritma & Struktur Data (Trie, Segment Tree, KMP), Keamanan Informasi (Zero Trust, TOTP).",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Informatika) & BSKAP 033/H/KR/2024",
       accentColor: "#10b981",
-      totalPool: informatikaPool.length || 135,
+      totalPool: informatikaPool.length || 110,
       questions: informatikaPool
     },
 
