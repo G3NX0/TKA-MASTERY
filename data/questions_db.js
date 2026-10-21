@@ -361,17 +361,17 @@
     },
 
     // =========================================================================
-    // 22. BAHASA PRANCIS (135 SOAL AUTENTIK)
+    // 22. BAHASA PRANCIS (110 SOAL AUTENTIK PUSMENDIK 2026)
     // =========================================================================
     bahasa_prancis: {
       id: "bahasa_prancis",
       title: "Bahasa Prancis",
-      badge: "Syntaxe (DELF A2–B1)",
+      badge: "Bahasa Prancis — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>`,
-      description: "Distingsi Kala Lampau Passé Composé vs Imparfait, Pronoms Compléments (COD/COI, y, en), Struktur Kalimat Kondisional, dan Apresiasi Budaya Francophonie.",
-      status: "Standar Resmi Pusmendik TKA Bahasa Asing (DELF A2-B1)",
+      description: "Distingsi Kala Lampau Passé Composé vs Imparfait, Pronoms Compléments (COD/COI, y, en), Subjonctif Présent, Pengandaian 'Si', dan Apresiasi Warisan Budaya Francophonie.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Bahasa Prancis) & BSKAP 033/H/KR/2024",
       accentColor: "#2563eb",
-      totalPool: bahasaPrancisPool.length || 135,
+      totalPool: bahasaPrancisPool.length || 110,
       questions: bahasaPrancisPool
     },
 
@@ -688,12 +688,12 @@
       clusterTag: "Bahasa Asing",
       clusterColor: "#ec4899",
       title: "Bahasa Prancis",
-      badge: "Syntaxe (DELF A2–B1)",
+      badge: "Bahasa Prancis — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>`,
-      topics: "Distingsi Kala Lampau Passé Composé vs Imparfait, Pronoms Compléments (COD/COI, y, en), Struktur Kalimat Kondisional, dan Apresiasi Budaya Francophonie.",
+      topics: "Distingsi Kala Lampau Passé Composé vs Imparfait, Pronoms Compléments (COD/COI, y, en), Subjonctif Présent, Pengandaian 'Si', dan Apresiasi Warisan Budaya Francophonie.",
       targetCompetency: "Evaluasi perbedaan aspek ketuntasan waktu lampau, reduksi repetisi frasa melalui pronomina klitik, dan analisis teks ekspositori Prancis.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "bahasa-korea",
