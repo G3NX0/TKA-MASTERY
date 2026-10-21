@@ -391,17 +391,17 @@
     },
 
     // =========================================================================
-    // 24. ANTROPOLOGI (135 SOAL AUTENTIK)
+    // 24. ANTROPOLOGI (110 SOAL AUTENTIK PUSMENDIK 2026)
     // =========================================================================
     antropologi: {
       id: "antropologi",
       title: "Antropologi",
-      badge: "Etnografi & Multikultural",
+      badge: "Antropologi Soshum — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 11v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="18" x2="12" y2="22"/></svg>`,
       description: "Konsep Dasar Kebudayaan & Relativisme Budaya, Etnografi Komunitas Tradisional Nusantara, Antropologi Ragawi (Evolusi Fisik Manusia), dan Sistem Kekerabatan Unilateral/Bilateral.",
-      status: "Standar Resmi Pusmendik TKA IPS/Budaya",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Antropologi) & BSKAP 033/H/KR/2024",
       accentColor: "#0284c7",
-      totalPool: antropologiPool.length || 135,
+      totalPool: antropologiPool.length || 110,
       questions: antropologiPool
     },
 
@@ -718,12 +718,12 @@
       clusterTag: "IPS / Budaya",
       clusterColor: "#ec4899",
       title: "Antropologi",
-      badge: "Etnografi & Multikultural",
+      badge: "Antropologi Soshum — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2a5 5 0 0 0-5 5v3a5 5 0 0 0 10 0V7a5 5 0 0 0-5-5z"/><path d="M19 11v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="18" x2="12" y2="22"/></svg>`,
       topics: "Konsep Dasar Kebudayaan & Relativisme Budaya, Etnografi Komunitas Tradisional Nusantara, Antropologi Ragawi (Evolusi Fisik Manusia), dan Sistem Kekerabatan Unilateral/Bilateral.",
       targetCompetency: "Apresiasi keragaman multikulturalisme tanpa etnosentrisme, pemetaan diagram kekerabatan patrilineal/matrilineal, dan analisis folklor warisan budaya.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Siap Diuji"
     }
   ];
 
