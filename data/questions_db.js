@@ -196,17 +196,17 @@
     },
 
     // =========================================================================
-    // 11. TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI (135 SOAL AUTENTIK SMK/MAK)
+    // 11. TEKNIK JARINGAN KOMPUTER DAN TELEKOMUNIKASI (AUTENTIK TKA 2026 SMK/MAK)
     // =========================================================================
     tkj: {
       id: "tkj",
       title: "Teknik Jaringan Komputer dan Telekomunikasi (SMK/MAK)",
-      badge: "TJKT & Telekomunikasi",
+      badge: "TJKT & Telekomunikasi — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>`,
       description: "Wawasan Dunia Kerja TJKT, K3LH & Basic Job Skills, Media Transmisi Fiber Optik & Nirkabel Wi-Fi, Subnetting IPv4 VLSM & IPv6, Switching VLAN 802.1Q, OSPF Routing, & Firewall MikroTik.",
-      status: "Standar Resmi Pusmendik TKA SMK/MAK (TJKT) & BSKAP 033/H/KR/2022",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (TJKT) & BSKAP 033/H/KR/2024",
       accentColor: "#ea580c",
-      totalPool: tkjPool.length || 135,
+      totalPool: tkjPool.length || 110,
       questions: tkjPool
     },
 
@@ -594,12 +594,12 @@
       clusterTag: "SMK / Vokasi (TJKT)",
       clusterColor: "#10b981",
       title: "Teknik Jaringan Komputer dan Telekomunikasi (SMK/MAK)",
-      badge: "TJKT & Telekomunikasi",
+      badge: "TJKT & Telekomunikasi — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>`,
       topics: "Wawasan Dunia Kerja TJKT, K3LH & Basic Job Skills, Media Transmisi Fiber Optik & Nirkabel Wi-Fi, Subnetting IPv4 VLSM & IPv6, Switching VLAN 802.1Q, OSPF Routing, & Firewall MikroTik.",
       targetCompetency: "Perencanaan pengalamatan jaringan skala enterprise, konfigurasi perangkat switching dan routing, pengukuran redaman kabel optik, dan penegakan firewall jaringan.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "rekayasa-desain",
