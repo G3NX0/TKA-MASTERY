@@ -216,12 +216,12 @@
     rekayasa_desain: {
       id: "rekayasa_desain",
       title: "Desain Komunikasi Visual (SMK/MAK)",
-      badge: "DKV & Komputer Grafis",
+      badge: "DKV & Multimedia — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>`,
       description: "Wawasan Industri Kreatif DKV & K3LH, Prinsip Tipografi & Nirmana Gestalt, Dasar Fotografi & Pencahayaan, Desain Grafis Vektor Bézier vs Bitmap Raster, Model Warna CMYK 300 DPI, & HAKI.",
-      status: "Standar Resmi Pusmendik TKA SMK/MAK (DKV) & BSKAP 033/H/KR/2022",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (DKV) & BSKAP 033/H/KR/2024",
       accentColor: "#d946ef",
-      totalPool: rekayasaDesainPool.length || 135,
+      totalPool: rekayasaDesainPool.length || 110,
       questions: rekayasaDesainPool
     },
 
