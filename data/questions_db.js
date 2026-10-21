@@ -346,17 +346,17 @@
     },
 
     // =========================================================================
-    // 21. BAHASA JERMAN (135 SOAL AUTENTIK)
+    // 21. BAHASA JERMAN (110 SOAL AUTENTIK)
     // =========================================================================
     bahasa_jerman: {
       id: "bahasa_jerman",
       title: "Bahasa Jerman",
-      badge: "Grammatik (CEFR A2–B1)",
+      badge: "Bahasa Jerman — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>`,
-      description: "Deklinasi Kasus (Nominativ, Akkusativ, Dativ, Genitiv), Klausa Relatif & Nebensatz (weil, dass, obwohl), Konjunktiv II, serta Leseverstehen Isu Ekologi.",
-      status: "Standar Resmi Pusmendik TKA Bahasa Asing (CEFR A2-B1)",
+      description: "Deklinasi Kasus (Nominativ, Akkusativ, Dativ, Genitiv), Klausa Relatif & Nebensatz (weil, dass, obwohl), Konjunktiv II, serta Leseverstehen Isu Ekologi & Mobilität.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Bahasa Jerman) & BSKAP 033/H/KR/2024",
       accentColor: "#ca8a04",
-      totalPool: bahasaJermanPool.length || 135,
+      totalPool: bahasaJermanPool.length || 110,
       questions: bahasaJermanPool
     },
 
@@ -673,12 +673,12 @@
       clusterTag: "Bahasa Asing",
       clusterColor: "#ec4899",
       title: "Bahasa Jerman",
-      badge: "Grammatik (CEFR A2–B1)",
+      badge: "Bahasa Jerman — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/></svg>`,
-      topics: "Deklinasi Kasus (Nominativ, Akkusativ, Dativ, Genitiv), Klausa Relatif & Nebensatz (weil, dass, obwohl), Konjunktiv II, serta Leseverstehen Isu Ekologi.",
+      topics: "Deklinasi Kasus (Nominativ, Akkusativ, Dativ, Genitiv), Klausa Relatif & Nebensatz (weil, dass, obwohl), Konjunktiv II, serta Leseverstehen Isu Ekologi & Mobilität.",
       targetCompetency: "Analisis tata kalimat verba di akhir klausa subordinat, penguasaan preposisi ganda (Wechselpräpositionen), dan pemahaman teks sains Jerman.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "bahasa-prancis",
