@@ -376,17 +376,17 @@
     },
 
     // =========================================================================
-    // 23. BAHASA KOREA (135 SOAL AUTENTIK)
+    // 23. BAHASA KOREA (110 SOAL AUTENTIK PUSMENDIK 2026)
     // =========================================================================
     bahasa_korea: {
       id: "bahasa_korea",
       title: "Bahasa Korea",
-      badge: "Tatabahasa TOPIK I–II",
+      badge: "Bahasa Korea — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 0 0 20"/><path d="M12 12a5 5 0 0 0 0-10 5 5 0 0 1 0 10 5 5 0 0 0 0 10"/></svg>`,
-      description: "Struktur Kalimat Hangeul Kompleks, Partikel Penanda Subjek/Objek/Topik, Akhiran Kehormatan Jondaenmal, Hubungan Kausalitas (-neunde, -nikka), dan Wacana Populer.",
-      status: "Standar Resmi Pusmendik TKA Bahasa Asing (TOPIK I-II)",
+      description: "Struktur Kalimat Hangeul Kompleks, Partikel Kasus & Adverbial, Sistem Honorifik (Jondaenmal/Banmal), Aspek Pasif & Kausatif, Wicara Tak Langsung (Ganjeop Hwabeop), dan Apresiasi Budaya Korea Tradisional-Modern.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Bahasa Korea) & BSKAP 033/H/KR/2024",
       accentColor: "#9333ea",
-      totalPool: bahasaKoreaPool.length || 135,
+      totalPool: bahasaKoreaPool.length || 110,
       questions: bahasaKoreaPool
     },
 
@@ -703,12 +703,12 @@
       clusterTag: "Bahasa Asing",
       clusterColor: "#ec4899",
       title: "Bahasa Korea",
-      badge: "Tatabahasa TOPIK I–II",
+      badge: "Bahasa Korea — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M12 2a10 10 0 0 0 0 20"/><path d="M12 12a5 5 0 0 0 0-10 5 5 0 0 1 0 10 5 5 0 0 0 0 10"/></svg>`,
-      topics: "Struktur Kalimat Hangeul Kompleks, Partikel Penanda Subjek/Objek/Topik, Akhiran Kehormatan Jondaenmal, Hubungan Kausalitas (-neunde, -nikka), dan Wacana Populer.",
-      targetCompetency: "Membaca cepat paragraf bertuliskan Hangeul baku, inferensi makna konteks percakapan formal bisnis, dan pembedaan derajat keakraban sosial.",
+      topics: "Struktur Kalimat Hangeul Kompleks, Partikel Kasus & Adverbial, Sistem Honorifik (Jondaenmal/Banmal), Aspek Pasif & Kausatif, Wicara Tak Langsung (Ganjeop Hwabeop), dan Apresiasi Budaya Korea Tradisional-Modern.",
+      targetCompetency: "Membaca cepat paragraf bertuliskan Hangeul baku, inferensi makna konteks percakapan formal bisnis, dan analisis teks ekspositori kebudayaan Korea.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "antropologi",
