@@ -6317,11 +6317,19 @@ body.modal-scroll-lock {
   background: rgba(3, 7, 18, 0.88) !important;
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
-  display: flex !important;
   align-items: center !important;
   justify-content: center !important;
   padding: 12px !important;
   overscroll-behavior: contain !important;
+}
+
+.app-modal-overlay.hidden,
+.app-modal-overlay[style*="display: none"] {
+  display: none !important;
+}
+
+.app-modal-overlay:not(.hidden) {
+  display: flex !important;
 }
 
 .tool-modal-card {
