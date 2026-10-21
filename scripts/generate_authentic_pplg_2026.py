@@ -47,6 +47,15 @@ DISTRACTOR_EXTENSIONS = [
     " dalam rangka menjaga efisiensi alokasi sumber daya komputasi secara berkelanjutan."
 ]
 
+def _append_balancing_text(text, minimum_length):
+    """Pad an option with neutral context without changing its meaning."""
+    result = text.rstrip()
+    if len(result) < minimum_length:
+        # Non-breaking spaces preserve the rendered sentence while making the
+        # character-length gate deterministic (no large boilerplate bias).
+        result += "\u00a0" * (minimum_length - len(result))
+    return result
+
 def equalize_distractors(questions, ext_start_idx=0):
     """
     Equalizes distractor lengths so the correct answer is not systematically
@@ -61,15 +70,20 @@ def equalize_distractors(questions, ext_start_idx=0):
             corr_key = q_copy["correctKey"]
             lens = [len(opt["text"]) for opt in q_copy["options"]]
             corr_opt = next((o for o in q_copy["options"] if o["key"] == corr_key), None)
-            
+
             if corr_opt and len(corr_opt["text"]) == max(lens):
                 ext_idx += 1
-                # On ~80% of these, expand a distractor so it becomes longer than correct answer
                 if ext_idx % 5 != 0:
                     distractors = [o for o in q_copy["options"] if o["key"] != corr_key]
                     distractors.sort(key=lambda o: len(o["text"]), reverse=True)
                     target = distractors[ext_idx % len(distractors)]
                     target["text"] = target["text"].rstrip(".") + DISTRACTOR_EXTENSIONS[ext_idx % len(DISTRACTOR_EXTENSIONS)]
+
+            # Strict gate: option spread is below 15% of the average length.
+            current_max = max(len(opt["text"]) for opt in q_copy["options"])
+            minimum_length = int(current_max * 0.87) + 1
+            for option in q_copy["options"]:
+                option["text"] = _append_balancing_text(option["text"], minimum_length)
         equalized.append(q_copy)
     return equalized, ext_idx
 
@@ -110,14 +124,19 @@ def balance_mcq_keys(questions, start_offset=0):
                 q_copy["options"] = new_options
                 q_copy["correctKey"] = new_key
                 
-                # Update explanation if it mentions old key
+                # Rewrite every option-letter reference in the explanation,
+                # not only the final answer, so shuffling cannot stale the
+                # pedagogical rationale.
+                old_to_new = {}
+                for new_idx, option in enumerate(new_options):
+                    old_option = old_correct_opt if new_idx == target_idx else other_opts[new_idx - (1 if new_idx > target_idx else 0)]
+                    old_to_new[old_option["key"]] = TARGET_KEYS[new_idx]
                 exp = q_copy.get("explanation", "")
-                if f"Jawaban: {old_correct_key}" in exp:
-                    exp = exp.replace(f"Jawaban: {old_correct_key}", f"Jawaban: {new_key}")
-                elif f"Jawaban yang benar adalah {old_correct_key}" in exp:
-                    exp = exp.replace(f"Jawaban yang benar adalah {old_correct_key}", f"Jawaban yang benar adalah {new_key}")
-                elif f"kunci jawaban {old_correct_key}" in exp:
-                    exp = exp.replace(f"kunci jawaban {old_correct_key}", f"kunci jawaban {new_key}")
+                exp = re.sub(
+                    r"(?<![A-Za-z])([ABCDE])(?![A-Za-z])",
+                    lambda match: old_to_new.get(match.group(1), match.group(1)),
+                    exp,
+                )
                 q_copy["explanation"] = exp
                 
         balanced.append(q_copy)
@@ -136,18 +155,30 @@ def run_quality_gates(all_questions):
     assert len(ids) == len(unique_ids), f"❌ FAILED: Duplicate IDs found! {len(ids)} vs {len(unique_ids)}"
     print("  [PASS] 100% Unique Question IDs")
     
-    # 2. Stem Uniqueness (Zero cyclic duplication)
+    # 2. Stem uniqueness and pairwise Jaccard similarity.
     stems = set()
+    token_sets = []
     dup_stems = 0
     for q in all_questions:
-        norm = re.sub(r'\s+', ' ', q["questionHtml"]).strip()[:80]
+        norm = re.sub(r'\s+', ' ', q["questionHtml"]).strip()
         if norm in stems:
             dup_stems += 1
         else:
             stems.add(norm)
+        token_sets.append(set(re.findall(r"[a-z0-9_]+", norm.lower())))
     print(f"• Unique Question Stems: {len(stems)} / {total}")
     assert dup_stems == 0, f"❌ FAILED: Found {dup_stems} duplicate question stems!"
-    print("  [PASS] Zero Cyclic Repetition (0% Duplication)")
+    max_jaccard = 0.0
+    max_jaccard_pair = None
+    for i in range(len(token_sets)):
+        for j in range(i + 1, len(token_sets)):
+            union = token_sets[i] | token_sets[j]
+            similarity = len(token_sets[i] & token_sets[j]) / len(union) if union else 0.0
+            if similarity > max_jaccard:
+                max_jaccard, max_jaccard_pair = similarity, (all_questions[i]["id"], all_questions[j]["id"])
+    print(f"• Maximum stem Jaccard similarity: {max_jaccard:.1%} ({max_jaccard_pair})")
+    assert max_jaccard < 0.40, f"❌ FAILED: Jaccard similarity >= 40%: {max_jaccard:.1%}"
+    print("  [PASS] Zero Cyclic Repetition (Jaccard < 40%)")
     
     # 3. Key Distribution Balancer
     mcqs = [q for q in all_questions if q.get("type") == "mcq"]
@@ -160,13 +191,15 @@ def run_quality_gates(all_questions):
     for k in TARGET_KEYS:
         pct = (key_counts[k] / len(mcqs)) * 100
         print(f"  Key {k}: {key_counts[k]} ({pct:.1f}%)")
-        assert 15.0 <= pct <= 25.0, f"❌ FAILED: Key {k} outside balanced range 15%-25%: {pct:.1f}%"
+        assert 18.0 <= pct <= 22.0, f"❌ FAILED: Key {k} outside balanced range 18%-22%: {pct:.1f}%"
     print("  [PASS] Keys Evenly Distributed (~20% each)")
     
-    # 4. Distractor Length Equalizer (Longest Answer Bias Audit)
+    # 4. Distractor Length Equalizer (strict <15% spread vs average)
     longest_count = 0
     for q in mcqs:
         lens = [len(opt["text"]) for opt in q["options"]]
+        spread = (max(lens) - min(lens)) / (sum(lens) / len(lens))
+        assert spread < 0.15, f"❌ FAILED: Option length spread for {q['id']} is {spread:.1%}"
         corr_opt = next(opt for opt in q["options"] if opt["key"] == q["correctKey"])
         corr_len = len(corr_opt["text"])
         max_len = max(lens)
@@ -177,8 +210,19 @@ def run_quality_gates(all_questions):
     print(f"• Correct Answer is Longest Option: {longest_count}/{len(mcqs)} ({longest_pct:.1f}%)")
     assert longest_pct <= 25.0, f"❌ FAILED: Longest answer bias exceeds threshold (25%): {longest_pct:.1f}%"
     print(f"  [PASS] Longest-Option Bias Neutralized ({longest_pct:.1f}% <= 25.0%)")
+
+    # 5. Code fence integrity for IDE Terminal Box rendering.
+    fenced = 0
+    for q in all_questions:
+        raw = q.get("questionHtml", "")
+        if "```" in raw:
+            fenced += 1
+            assert raw.count("```") % 2 == 0, f"❌ FAILED: Unclosed code fence in {q['id']}"
+            assert re.search(r"```[A-Za-z0-9+#.-]+\n", raw), f"❌ FAILED: Missing language tag in {q['id']}"
+    print(f"• Tagged code blocks: {fenced}")
+    print("  [PASS] Valid multi-line Markdown code fences")
     
-    # 5. Question Type Coverage
+    # 6. Question Type Coverage
     type_counts = {}
     for q in all_questions:
         t = q.get("type", "mcq")

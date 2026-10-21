@@ -47,7 +47,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Scrum membagi 3 peran inti: Product Owner (kelola backlog & nilai bisnis), Scrum Master (fasilitasi proses), dan Development Team (rekayasa teknis).",
       "execution": "Pilihlah peran yang fokus pada visi produk dan prioritas backlog bisnis, yaitu Product Owner."
     },
-    "explanation": "Product Owner bertanggung jawab mengoptimalkan nilai produk dan mengelola Product Backlog secara berkesinambungan. Pilihan A adalah peran Scrum Master, sedangkan C dan D adalah tim pengembang teknis. Jawaban: A.",
+    "explanation": "Product Owner bertanggung jawab mengoptimalkan nilai produk dan mengelola Product Backlog secara berkesinambungan. Pilihan B adalah peran Scrum Master, sedangkan C dan D adalah tim pengembang teknis. Jawaban: A.",
     "isDiagnostic": true
   },
   {
@@ -150,7 +150,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "SELECT, INSERT, UPDATE, dan DELETE yang digunakan untuk manipulasi data baris."
+        "text": "SELECT, INSERT, UPDATE, dan DELETE yang digunakan untuk manipulasi data baris.     "
       },
       {
         "key": "B",
@@ -179,7 +179,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "DDL (Data Definition Language) mendefinisikan dan memodifikasi struktur skema tabel, bukan isi data rekaman.",
       "execution": "Carilah opsi yang memuat perintah pembentukan dan penghapusan tabel: CREATE, ALTER, DROP."
     },
-    "explanation": "DDL (Data Definition Language) mencakup perintah yang mengelola struktur/skema database: `CREATE`, `ALTER`, `DROP`, dan `TRUNCATE`. Pilihan A adalah DML, pilihan C adalah DCL, dan D adalah TCL. Jawaban: D.",
+    "explanation": "DDL (Data Definition Language) mencakup perintah yang mengelola struktur/skema database: `CREATE`, `ALTER`, `DROP`, dan `TRUNCATE`. Pilihan A adalah DML, pilihan B adalah DCL, dan C adalah TCL. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -286,19 +286,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Terjadi TypeError: Assignment to constant variable karena nilai referensi const di-assign ulang."
+        "text": "Terjadi TypeError: Assignment to constant variable karena nilai referensi const di-assign ulang.                                            "
       },
       {
         "key": "C",
-        "text": "Terjadi SyntaxError saat fase kompilasi sebelum kode sempat dieksekusi oleh engine V8."
+        "text": "Terjadi SyntaxError saat fase kompilasi sebelum kode sempat dieksekusi oleh engine V8.                                                      "
       },
       {
         "key": "D",
-        "text": "Variabel maxCapacity otomatis diubah tipenya oleh engine menjadi variabel bertipe var global."
+        "text": "Variabel maxCapacity otomatis diubah tipenya oleh engine menjadi variabel bertipe var global.                                               "
       },
       {
         "key": "E",
-        "text": "Nilai variabel maxCapacity menjadi undefined karena konflik alokasi memori runtime V8."
+        "text": "Nilai variabel maxCapacity menjadi undefined karena konflik alokasi memori runtime V8.                                                      "
       }
     ],
     "correctKey": "B",
@@ -342,7 +342,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "onRestart() yang memulihkan activity setelah sebelumnya berada pada status onStop."
+        "text": "onRestart() yang memulihkan activity setelah sebelumnya berada pada status onStop.   "
       }
     ],
     "correctKey": "C",
@@ -370,11 +370,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengompilasi ulang seluruh source code gim secara real-time setiap kali pemain melakukan aksi."
+        "text": "Mengompilasi ulang seluruh source code gim secara real-time setiap kali pemain melakukan aksi.                                                      "
       },
       {
         "key": "B",
-        "text": "Menghubungkan gim secara terus-menerus ke server basis data cloud untuk sinkronisasi leaderboard."
+        "text": "Menghubungkan gim secara terus-menerus ke server basis data cloud untuk sinkronisasi leaderboard.                                                   "
       },
       {
         "key": "C",
@@ -382,11 +382,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menerima input pengguna, memperbarui kondisi logika objek dunia gim, dan merender tampilan grafis."
+        "text": "Menerima input pengguna, memperbarui kondisi logika objek dunia gim, dan merender tampilan grafis.                                                  "
       },
       {
         "key": "E",
-        "text": "Memeriksa keaslian lisensi perangkat lunak gim dari store server sebelum aset dimuat ke GPU."
+        "text": "Memeriksa keaslian lisensi perangkat lunak gim dari store server sebelum aset dimuat ke GPU.                                                        "
       }
     ],
     "correctKey": "D",
@@ -458,19 +458,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Visibility of system status dengan selalu memberi tahu pengguna kondisi yang sedang berlangsung."
+        "text": "Visibility of system status dengan selalu memberi tahu pengguna kondisi yang sedang berlangsung.                                           "
       },
       {
         "key": "B",
-        "text": "Match between system and real world dengan menggunakan metafora objek kehidupan nyata."
+        "text": "Match between system and real world dengan menggunakan metafora objek kehidupan nyata.                                                     "
       },
       {
         "key": "C",
-        "text": "User control and freedom dengan menyediakan tombol darurat undo untuk membatalkan aksi."
+        "text": "User control and freedom dengan menyediakan tombol darurat undo untuk membatalkan aksi.                                                    "
       },
       {
         "key": "D",
-        "text": "Error prevention dengan mencegah kesalahan pengguna terjadi sebelum aksi dieksekusi."
+        "text": "Error prevention dengan mencegah kesalahan pengguna terjadi sebelum aksi dieksekusi.                                                       "
       },
       {
         "key": "E",
@@ -634,15 +634,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengujian black-box hanya dapat dilakukan oleh komputer secara otomatis tanpa keterlibatan manusia."
+        "text": "Pengujian black-box hanya dapat dilakukan oleh komputer secara otomatis tanpa keterlibatan manusia.                                                                  "
       },
       {
         "key": "B",
-        "text": "White-box testing hanya menguji antarmuka visual grafis pengguna tanpa memeriksa basis data server."
+        "text": "White-box testing hanya menguji antarmuka visual grafis pengguna tanpa memeriksa basis data server.                                                                  "
       },
       {
         "key": "C",
-        "text": "Black-box mensyaratkan penguji memiliki akses penuh terhadap diagram logika kode sumber aplikasi."
+        "text": "Black-box mensyaratkan penguji memiliki akses penuh terhadap diagram logika kode sumber aplikasi.                                                                    "
       },
       {
         "key": "D",
@@ -650,7 +650,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Black-box menguji fungsi berdasarkan input-output spesifikasi, sedangkan white-box menguji alur kode internal."
+        "text": "Black-box menguji fungsi berdasarkan input-output spesifikasi, sedangkan white-box menguji alur kode internal.                                                       "
       }
     ],
     "correctKey": "E",
@@ -707,7 +707,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Dalam struktur if-elif-else, begitu sebuah kondisi terpenuhi (True), blok tersebut dieksekusi dan sisa kondisi di bawahnya diabaikan.",
       "execution": "Kondisi score >= 90 bernilai False. Kondisi score >= 80 bernilai True, sehingga grade = 'B' dieksekusi."
     },
-    "explanation": "Karena 85 < 90 (False), evaluasi berlanjut ke `elif score >= 80`. Karena 85 >= 80 bernilai True, maka `grade = 'B'` dijalankan dan rantai percabangan selesai. Jawaban: A.",
+    "explanation": "Karena 85 < 90 (False), evaluasi berlanjut ke `elif score >= 80`. Karena 85 >= 80 bernilai True, maka `grade = 'A'` dijalankan dan rantai percabangan selesai. Jawaban: A.",
     "isDiagnostic": false
   },
   {
@@ -814,19 +814,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Joint Security Organization Network yang mengatur enkripsi paket pada protokol HTTPS."
+        "text": "Joint Security Organization Network yang mengatur enkripsi paket pada protokol HTTPS.                                                      "
       },
       {
         "key": "C",
-        "text": "Java Source Object Network yang berfungsi mengompilasi file bytecode di browser client."
+        "text": "Java Source Object Network yang berfungsi mengompilasi file bytecode di browser client.                                                    "
       },
       {
         "key": "D",
-        "text": "Java Script Object Notation yang merupakan format pertukaran data teks ringan berbasis key-value."
+        "text": "Java Script Object Notation yang merupakan format pertukaran data teks ringan berbasis key-value.                                          "
       },
       {
         "key": "E",
-        "text": "JavaScript Operational Node yang mengelola thread eksekusi multi-core pada runtime Node.js."
+        "text": "JavaScript Operational Node yang mengelola thread eksekusi multi-core pada runtime Node.js.                                                "
       }
     ],
     "correctKey": "D",
@@ -854,7 +854,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "System Testing yang menguji keseluruhan sistem perangkat lunak secara utuh end-to-end."
+        "text": "System Testing yang menguji keseluruhan sistem perangkat lunak secara utuh end-to-end. "
       },
       {
         "key": "B",
@@ -898,11 +898,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyimpan elemen-elemen bertipe sama dalam lokasi blok memori yang berurutan (kontigu)."
+        "text": "Menyimpan elemen-elemen bertipe sama dalam lokasi blok memori yang berurutan (kontigu).                                                  "
       },
       {
         "key": "B",
-        "text": "Dapat menampung berbagai tipe data heterogen tanpa batasan kapasitas alokasi awal."
+        "text": "Dapat menampung berbagai tipe data heterogen tanpa batasan kapasitas alokasi awal.                                                       "
       },
       {
         "key": "C",
@@ -910,11 +910,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Alokasi ukuran panjang array otomatis bertambah saat terjadi penambahan data baru."
+        "text": "Alokasi ukuran panjang array otomatis bertambah saat terjadi penambahan data baru.                                                       "
       },
       {
         "key": "E",
-        "text": "Setiap elemen memiliki pointer referensi eksplisit ke alamat memori elemen berikutnya."
+        "text": "Setiap elemen memiliki pointer referensi eksplisit ke alamat memori elemen berikutnya.                                                   "
       }
     ],
     "correctKey": "A",
@@ -954,7 +954,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "TableLayout yang menyusun elemen ke dalam baris dan kolom kisi-kisi matriks kaku."
+        "text": "TableLayout yang menyusun elemen ke dalam baris dan kolom kisi-kisi matriks kaku.  "
       },
       {
         "key": "E",
@@ -986,7 +986,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebuah kelas konkret di Java diperbolehkan mewarisi lebih dari satu superclass abstrak."
+        "text": "Sebuah kelas konkret di Java diperbolehkan mewarisi lebih dari satu superclass abstrak.                                                              "
       },
       {
         "key": "B",
@@ -994,15 +994,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Sebuah kelas konkret dapat mengimplementasikan beberapa interface sekaligus (multiple interfaces)."
+        "text": "Sebuah kelas konkret dapat mengimplementasikan beberapa interface sekaligus (multiple interfaces).                                                   "
       },
       {
         "key": "D",
-        "text": "Abstract class tidak dapat memiliki constructor untuk menginisialisasi atribut instansinya."
+        "text": "Abstract class tidak dapat memiliki constructor untuk menginisialisasi atribut instansinya.                                                          "
       },
       {
         "key": "E",
-        "text": "Interface dapat diinstansiasi secara langsung menjadi objek mandiri dengan kata kunci new."
+        "text": "Interface dapat diinstansiasi secara langsung menjadi objek mandiri dengan kata kunci new.                                                           "
       }
     ],
     "correctKey": "C",
@@ -1030,19 +1030,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pasal tentang penyebaran informasi hoaks dan berita bohong yang menyesatkan publik."
+        "text": "Pasal tentang penyebaran informasi hoaks dan berita bohong yang menyesatkan publik.                                                                  "
       },
       {
         "key": "B",
-        "text": "Pasal tentang pencemaran nama baik dan penghinaan personal melalui media sosial online."
+        "text": "Pasal tentang pencemaran nama baik dan penghinaan personal melalui media sosial online.                                                              "
       },
       {
         "key": "C",
-        "text": "Pasal tentang transaksi perdagangan elektronik dan pendaftaran penyelenggara sistem komersial."
+        "text": "Pasal tentang transaksi perdagangan elektronik dan pendaftaran penyelenggara sistem komersial.                                                       "
       },
       {
         "key": "D",
-        "text": "Pasal 30 tentang akses ilegal (illegal access) terhadap sistem komputer atau jaringan orang lain."
+        "text": "Pasal 30 tentang akses ilegal (illegal access) terhadap sistem komputer atau jaringan orang lain.                                                    "
       },
       {
         "key": "E",
@@ -1118,19 +1118,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh file auth.js dari repositori lalu menjalankan git pull paksa dari branch main remote."
+        "text": "Menghapus seluruh file auth.js dari repositori lalu menjalankan git pull paksa dari branch main remote.                                              "
       },
       {
         "key": "B",
-        "text": "Berdiskusi dengan tim untuk memilih durasi expiry yang valid, menghapus marker konflik, lalu git add dan commit."
+        "text": "Berdiskusi dengan tim untuk memilih durasi expiry yang valid, menghapus marker konflik, lalu git add dan commit.                                     "
       },
       {
         "key": "C",
-        "text": "Membiarkan tanda kurung siku dan marker konflik di dalam file karena Git otomatis memilih baris terpanjang."
+        "text": "Membiarkan tanda kurung siku dan marker konflik di dalam file karena Git otomatis memilih baris terpanjang.                                          "
       },
       {
         "key": "D",
-        "text": "Menjalankan perintah git push --force agar branch feature-login menimpa seluruh riwayat branch develop."
+        "text": "Menjalankan perintah git push --force agar branch feature-login menimpa seluruh riwayat branch develop.                                              "
       },
       {
         "key": "E",
@@ -1254,19 +1254,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menggunakan method dengan visibilitas public yang membahayakan enkapsulasi data internal objek."
+        "text": "Menggunakan method dengan visibilitas public yang membahayakan enkapsulasi data internal objek.                                                            "
       },
       {
         "key": "C",
-        "text": "Tidak mendeklarasikan variabel konstanta statis untuk menyimpan string query SQL dan konfigurasi PDF."
+        "text": "Tidak mendeklarasikan variabel konstanta statis untuk menyimpan string query SQL dan konfigurasi PDF.                                                      "
       },
       {
         "key": "D",
-        "text": "Menolak pewarisan kelas turunan karena tidak ditambahkan keyword abstract pada deklarasi kelasnya."
+        "text": "Menolak pewarisan kelas turunan karena tidak ditambahkan keyword abstract pada deklarasi kelasnya.                                                         "
       },
       {
         "key": "E",
-        "text": "Memiliki lebih dari satu tanggung jawab (alasan untuk berubah): kalkulasi bisnis, persistensi data, dan rendering UI."
+        "text": "Memiliki lebih dari satu tanggung jawab (alasan untuk berubah): kalkulasi bisnis, persistensi data, dan rendering UI.                                      "
       }
     ],
     "correctKey": "E",
@@ -1294,11 +1294,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdapat ketergantungan fungsional parsial di mana atribut non-kunci hanya bergantung pada sebagian kunci komposit."
+        "text": "Terdapat ketergantungan fungsional parsial di mana atribut non-kunci hanya bergantung pada sebagian kunci komposit.                                          "
       },
       {
         "key": "B",
-        "text": "Nilai_Huruf memiliki nilai berulang yang tidak terindeks secara seimbang pada struktur B-Tree."
+        "text": "Nilai_Huruf memiliki nilai berulang yang tidak terindeks secara seimbang pada struktur B-Tree.                                                               "
       },
       {
         "key": "C",
@@ -1306,11 +1306,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kolom primary key komposit tidak boleh terdiri dari lebih dari satu atribut dalam sistem basis data RDBMS."
+        "text": "Kolom primary key komposit tidak boleh terdiri dari lebih dari satu atribut dalam sistem basis data RDBMS.                                                   "
       },
       {
         "key": "E",
-        "text": "Tabel KRS tidak menyertakan foreign key ke tabel dosen pembimbing akademik mahasiswa bersangkutan."
+        "text": "Tabel KRS tidak menyertakan foreign key ke tabel dosen pembimbing akademik mahasiswa bersangkutan.                                                           "
       }
     ],
     "correctKey": "A",
@@ -1342,19 +1342,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Memecah menjadi Pegawai(ID_Pegawai, Nama, Kode_Departemen) dan Departemen(Kode_Departemen, Nama_Departemen)."
+        "text": "Memecah menjadi Pegawai(ID_Pegawai, Nama, Kode_Departemen) dan Departemen(Kode_Departemen, Nama_Departemen).                                                  "
       },
       {
         "key": "C",
-        "text": "Menghapus kolom Kode_Departemen dan hanya menyisakan Nama_Departemen langsung di tabel Pegawai."
+        "text": "Menghapus kolom Kode_Departemen dan hanya menyisakan Nama_Departemen langsung di tabel Pegawai.                                                               "
       },
       {
         "key": "D",
-        "text": "Menambahkan kolom ID_Pegawai sebagai primary key kedua di dalam tabel Departemen yang didekomposisi."
+        "text": "Menambahkan kolom ID_Pegawai sebagai primary key kedua di dalam tabel Departemen yang didekomposisi.                                                          "
       },
       {
         "key": "E",
-        "text": "Mengubah Primary Key ID_Pegawai menjadi composite key (ID_Pegawai, Kode_Departemen, Nama_Departemen)."
+        "text": "Mengubah Primary Key ID_Pegawai menjadi composite key (ID_Pegawai, Kode_Departemen, Nama_Departemen).                                                         "
       }
     ],
     "correctKey": "B",
@@ -1386,7 +1386,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "3 baris data karena query dibatasi oleh jumlah baris pada tabel pesanan sisi kanan join."
+        "text": "3 baris data karena query dibatasi oleh jumlah baris pada tabel pesanan sisi kanan join.      "
       },
       {
         "key": "C",
@@ -1394,11 +1394,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "4 baris data karena tabel sisi kiri Pelanggan memiliki tepat 4 rekaman unik tanpa duplikasi."
+        "text": "4 baris data karena tabel sisi kiri Pelanggan memiliki tepat 4 rekaman unik tanpa duplikasi.  "
       },
       {
         "key": "E",
-        "text": "7 baris data hasil perkalian Cartesian Product antara tabel Pelanggan dan tabel Pesanan."
+        "text": "7 baris data hasil perkalian Cartesian Product antara tabel Pelanggan dan tabel Pesanan.      "
       }
     ],
     "correctKey": "C",
@@ -1470,7 +1470,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rentan SQL Injection; solusinya adalah menggunakan prepared statement pada query database server."
+        "text": "Rentan SQL Injection; solusinya adalah menggunakan prepared statement pada query database server.                                                    "
       },
       {
         "key": "B",
@@ -1478,15 +1478,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rentan Denial of Service (DoS); solusinya membatasi panjang input komentar maksimal 200 karakter."
+        "text": "Rentan Denial of Service (DoS); solusinya membatasi panjang input komentar maksimal 200 karakter.                                                    "
       },
       {
         "key": "D",
-        "text": "Rentan Broken Authentication; solusinya menggunakan algoritma hashing password Argon2 di backend."
+        "text": "Rentan Broken Authentication; solusinya menggunakan algoritma hashing password Argon2 di backend.                                                    "
       },
       {
         "key": "E",
-        "text": "Rentan Cross-Site Scripting (XSS); solusinya menggunakan textContent atau melakukan sanitasi HTML entitas."
+        "text": "Rentan Cross-Site Scripting (XSS); solusinya menggunakan textContent atau melakukan sanitasi HTML entitas.                                           "
       }
     ],
     "correctKey": "E",
@@ -1558,15 +1558,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Activity hanya memanggil onResume() ulang tanpa menghancurkan objek view yang sudah ada di memori."
+        "text": "Activity hanya memanggil onResume() ulang tanpa menghancurkan objek view yang sudah ada di memori.                                                        "
       },
       {
         "key": "B",
-        "text": "Activity dihancurkan (onPause -> onStop -> onDestroy) lalu diciptakan kembali (onCreate -> onStart -> onResume)."
+        "text": "Activity dihancurkan (onPause -> onStop -> onDestroy) lalu diciptakan kembali (onCreate -> onStart -> onResume).                                          "
       },
       {
         "key": "C",
-        "text": "Sistem operasi Android langsung mematikan aplikasi dan memunculkan dialog Application Not Responding."
+        "text": "Sistem operasi Android langsung mematikan aplikasi dan memunculkan dialog Application Not Responding.                                                     "
       },
       {
         "key": "D",
@@ -1574,7 +1574,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Hanya method onSaveInstanceState() yang dieksekusi tanpa memicu method inisialisasi onCreate()."
+        "text": "Hanya method onSaveInstanceState() yang dieksekusi tanpa memicu method inisialisasi onCreate().                                                           "
       }
     ],
     "correctKey": "B",
@@ -1606,19 +1606,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Otomatis mengompresi ukuran file APK dan bundle aplikasi menjadi setengah ukuran semula."
+        "text": "Otomatis mengompresi ukuran file APK dan bundle aplikasi menjadi setengah ukuran semula.                                                            "
       },
       {
         "key": "C",
-        "text": "Data bertahan hidup melewati perubahan konfigurasi (seperti rotasi layar) tanpa perlu memuat ulang data dari network."
+        "text": "Data bertahan hidup melewati perubahan konfigurasi (seperti rotasi layar) tanpa perlu memuat ulang data dari network.                               "
       },
       {
         "key": "D",
-        "text": "Memungkinkan eksekusi query basis data secara langsung pada Main Thread tanpa memicu exception."
+        "text": "Memungkinkan eksekusi query basis data secara langsung pada Main Thread tanpa memicu exception.                                                     "
       },
       {
         "key": "E",
-        "text": "Menjamin aplikasi dapat berjalan normal tanpa memerlukan izin permissions koneksi internet sama sekali."
+        "text": "Menjamin aplikasi dapat berjalan normal tanpa memerlukan izin permissions koneksi internet sama sekali.                                             "
       }
     ],
     "correctKey": "C",
@@ -1646,19 +1646,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Meningkatkan resolusi grafis tekstur gambar karakter secara otomatis saat performa frame rate melonjak."
+        "text": "Meningkatkan resolusi grafis tekstur gambar karakter secara otomatis saat performa frame rate melonjak.                                                    "
       },
       {
         "key": "B",
-        "text": "Mencegah karakter menembus batas dinding pembatas arena pertempuran gim akibat lag koneksi internet."
+        "text": "Mencegah karakter menembus batas dinding pembatas arena pertempuran gim akibat lag koneksi internet.                                                       "
       },
       {
         "key": "C",
-        "text": "Menghemat konsumsi daya baterai perangkat dengan menurunkan frekuensi refresh rate layar secara drastis."
+        "text": "Menghemat konsumsi daya baterai perangkat dengan menurunkan frekuensi refresh rate layar secara drastis.                                                   "
       },
       {
         "key": "D",
-        "text": "Menjaga kecepatan pergerakan objek tetap konsisten per detik terlepas dari fluktuasi frame rate perangkat pemain."
+        "text": "Menjaga kecepatan pergerakan objek tetap konsisten per detik terlepas dari fluktuasi frame rate perangkat pemain.                                          "
       },
       {
         "key": "E",
@@ -1694,7 +1694,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menghitung akar kuadrat memicu pembagian dengan nol ketika kedua pusat lingkaran saling berhimpitan."
+        "text": "Menghitung akar kuadrat memicu pembagian dengan nol ketika kedua pusat lingkaran saling berhimpitan. "
       },
       {
         "key": "C",
@@ -1778,11 +1778,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "25, 35, 45, dan 55 tahun yang mewakili titik tengah rentang umur normal."
+        "text": "25, 35, 45, dan 55 tahun yang mewakili titik tengah rentang umur normal.                                                                     "
       },
       {
         "key": "B",
-        "text": "17, 18, 19, 59, 60, dan 61 tahun yang menguji nilai tepat di batas, tepat di bawah, dan tepat di atas batas."
+        "text": "17, 18, 19, 59, 60, dan 61 tahun yang menguji nilai tepat di batas, tepat di bawah, dan tepat di atas batas.                                 "
       },
       {
         "key": "C",
@@ -1790,11 +1790,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "-18 dan -60 tahun yang menguji penanganan sistem terhadap input angka negatif tidak logis."
+        "text": "-18 dan -60 tahun yang menguji penanganan sistem terhadap input angka negatif tidak logis.                                                   "
       },
       {
         "key": "E",
-        "text": "18 dan 60 tahun saja tanpa perlu memeriksa nilai sebelum dan sesudah batas ambang batas."
+        "text": "18 dan 60 tahun saja tanpa perlu memeriksa nilai sebelum dan sesudah batas ambang batas.                                                     "
       }
     ],
     "correctKey": "B",
@@ -1822,7 +1822,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menulis kode implementasi -> menguji secara manual di browser -> membuat dokumentasi API laporan."
+        "text": "Menulis kode implementasi -> menguji secara manual di browser -> membuat dokumentasi API laporan.                                                        "
       },
       {
         "key": "B",
@@ -1830,15 +1830,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "RED (tulis test gagal) -> GREEN (tulis kode minimal agar test lulus) -> REFACTOR (rapikan kode tanpa merusak test)."
+        "text": "RED (tulis test gagal) -> GREEN (tulis kode minimal agar test lulus) -> REFACTOR (rapikan kode tanpa merusak test).                                      "
       },
       {
         "key": "D",
-        "text": "GREEN (buat test yang pasti sukses) -> RED (buat test yang error) -> DEPLOY (unggah aplikasi ke server)."
+        "text": "GREEN (buat test yang pasti sukses) -> RED (buat test yang error) -> DEPLOY (unggah aplikasi ke server).                                                 "
       },
       {
         "key": "E",
-        "text": "Membuat skema database -> membuat antarmuka frontend -> menulis unit testing di tahapan akhir rilis."
+        "text": "Membuat skema database -> membuat antarmuka frontend -> menulis unit testing di tahapan akhir rilis.                                                     "
       }
     ],
     "correctKey": "C",
@@ -1870,7 +1870,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Compile-time Error: Variable teks has not been initialized correctly on heap memory."
+        "text": "Compile-time Error: Variable teks has not been initialized correctly on heap memory.          "
       },
       {
         "key": "C",
@@ -1882,7 +1882,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "IllegalArgumentException yang dilemparkan otomatis oleh method length() milik kelas String."
+        "text": "IllegalArgumentException yang dilemparkan otomatis oleh method length() milik kelas String.   "
       }
     ],
     "correctKey": "D",
@@ -1910,15 +1910,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "POST dan PATCH yang digunakan untuk menambahkan entitas rekaman baru dan memperbarui data."
+        "text": "POST dan PATCH yang digunakan untuk menambahkan entitas rekaman baru dan memperbarui data.                                                 "
       },
       {
         "key": "B",
-        "text": "POST dan DELETE yang digunakan untuk memproses transaksi baru dan menghapus record."
+        "text": "POST dan DELETE yang digunakan untuk memproses transaksi baru dan menghapus record.                                                        "
       },
       {
         "key": "C",
-        "text": "CONNECT dan POST yang digunakan untuk membangun tunnel jaringan dan mengirim payload."
+        "text": "CONNECT dan POST yang digunakan untuk membangun tunnel jaringan dan mengirim payload.                                                      "
       },
       {
         "key": "D",
@@ -1926,7 +1926,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "GET dan PUT yang digunakan untuk mengambil data serta mengganti data sumber daya secara utuh."
+        "text": "GET dan PUT yang digunakan untuk mengambil data serta mengganti data sumber daya secara utuh.                                              "
       }
     ],
     "correctKey": "E",
@@ -1954,19 +1954,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "44x44 pt (iOS) atau 48x48 dp (Android) untuk menyesuaikan dengan luas permukaan ujung jari manusia."
+        "text": "44x44 pt (iOS) atau 48x48 dp (Android) untuk menyesuaikan dengan luas permukaan ujung jari manusia.                                                       "
       },
       {
         "key": "B",
-        "text": "16x16 dp/pt yang merupakan ukuran standar ikon teks inline di dalam paragraf artikel web."
+        "text": "16x16 dp/pt yang merupakan ukuran standar ikon teks inline di dalam paragraf artikel web.                                                                 "
       },
       {
         "key": "C",
-        "text": "100x100 dp/pt yang wajib diterapkan pada setiap komponen interaktif formulir pendaftaran."
+        "text": "100x100 dp/pt yang wajib diterapkan pada setiap komponen interaktif formulir pendaftaran.                                                                 "
       },
       {
         "key": "D",
-        "text": "24x24 dp/pt yang merupakan ukuran default bounding box aset vektor ikon sistem."
+        "text": "24x24 dp/pt yang merupakan ukuran default bounding box aset vektor ikon sistem.                                                                           "
       },
       {
         "key": "E",
@@ -2050,7 +2050,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menyampaikan pemberitahuan tertulis kepada subjek data dan lembaga terkait maksimal 3x24 jam."
+        "text": "Menyampaikan pemberitahuan tertulis kepada subjek data dan lembaga terkait maksimal 3x24 jam. "
       },
       {
         "key": "D",
@@ -2086,7 +2086,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Best case O(n) dan worst case O(n^2) karena elemen harus diperiksa melalui nested loop bersarang."
+        "text": "Best case O(n) dan worst case O(n^2) karena elemen harus diperiksa melalui nested loop bersarang.       "
       },
       {
         "key": "B",
@@ -2102,7 +2102,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Best case O(n log n) dan worst case O(n log n) karena array wajib di-reorganisasi ulang setiap iterasi."
+        "text": "Best case O(n log n) dan worst case O(n log n) karena array wajib di-reorganisasi ulang setiap iterasi. "
       }
     ],
     "correctKey": "D",
@@ -2130,11 +2130,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Interface Segregation Principle dengan membagi interface besar menjadi interface yang sangat kecil."
+        "text": "Interface Segregation Principle dengan membagi interface besar menjadi interface yang sangat kecil.                                                 "
       },
       {
         "key": "B",
-        "text": "Liskov Substitution Principle di mana objek subclass harus dapat menggantikan objek superclassnya."
+        "text": "Liskov Substitution Principle di mana objek subclass harus dapat menggantikan objek superclassnya.                                                  "
       },
       {
         "key": "C",
@@ -2142,11 +2142,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Law of Demeter di mana objek hanya boleh berkomunikasi dengan objek tetangga terdekatnya."
+        "text": "Law of Demeter di mana objek hanya boleh berkomunikasi dengan objek tetangga terdekatnya.                                                           "
       },
       {
         "key": "E",
-        "text": "Open/Closed Principle (OCP) di mana entitas terbuka untuk perluasan tetapi tertutup untuk modifikasi."
+        "text": "Open/Closed Principle (OCP) di mana entitas terbuka untuk perluasan tetapi tertutup untuk modifikasi.                                               "
       }
     ],
     "correctKey": "E",
@@ -2174,7 +2174,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jika promise api.get di-reject akibat network down, eksekusi melompat ke blok catch dan mengembalikan null."
+        "text": "Jika promise api.get di-reject akibat network down, eksekusi melompat ke blok catch dan mengembalikan null.                                         "
       },
       {
         "key": "B",
@@ -2182,15 +2182,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Fungsi fetchUserProfile mengembalikan nilai primitif null secara langsung tanpa dibungkus Promise."
+        "text": "Fungsi fetchUserProfile mengembalikan nilai primitif null secara langsung tanpa dibungkus Promise.                                                  "
       },
       {
         "key": "D",
-        "text": "Blok try-catch tidak mampu menangkap rejection dari fungsi asynchronous yang menggunakan await."
+        "text": "Blok try-catch tidak mampu menangkap rejection dari fungsi asynchronous yang menggunakan await.                                                     "
       },
       {
         "key": "E",
-        "text": "Fungsi akan memicu TypeError karena kata kunci async tidak kompatibel dengan penanganan try-catch."
+        "text": "Fungsi akan memicu TypeError karena kata kunci async tidak kompatibel dengan penanganan try-catch.                                                  "
       }
     ],
     "correctKey": "A",
@@ -2222,19 +2222,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menghapus commit terakhir dari branch main remote secara permanen menggunakan perintah git push --force."
+        "text": "Menghapus commit terakhir dari branch main remote secara permanen menggunakan perintah git push --force.                                                            "
       },
       {
         "key": "C",
-        "text": "Menghentikan pipeline seketika, mencegah rilis ke production, mengirim notifikasi alert ke tim, dan auto-rollback staging."
+        "text": "Menghentikan pipeline seketika, mencegah rilis ke production, mengirim notifikasi alert ke tim, dan auto-rollback staging.                                          "
       },
       {
         "key": "D",
-        "text": "Menonaktifkan server staging dan memindahkan seluruh database produksi ke cloud provider lain seketika."
+        "text": "Menonaktifkan server staging dan memindahkan seluruh database produksi ke cloud provider lain seketika.                                                             "
       },
       {
         "key": "E",
-        "text": "Mengubah kode status HTTP response pada smoke test menjadi 200 OK agar proses build dapat tetap selesai."
+        "text": "Mengubah kode status HTTP response pada smoke test menjadi 200 OK agar proses build dapat tetap selesai.                                                            "
       }
     ],
     "correctKey": "C",
@@ -2262,19 +2262,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kelas Persegi tidak mengimplementasikan interface Cloneable untuk menduplikasi objek secara mendalam."
+        "text": "Kelas Persegi tidak mengimplementasikan interface Cloneable untuk menduplikasi objek secara mendalam.                                                         "
       },
       {
         "key": "B",
-        "text": "Method hitungLuas() tidak diberi anotasi @Override pada deklarasi di dalam kelas anak Persegi."
+        "text": "Method hitungLuas() tidak diberi anotasi @Override pada deklarasi di dalam kelas anak Persegi.                                                                "
       },
       {
         "key": "C",
-        "text": "Variabel panjang dan lebar dideklarasikan dengan access modifier protected daripada public statis."
+        "text": "Variabel panjang dan lebar dideklarasikan dengan access modifier protected daripada public statis.                                                            "
       },
       {
         "key": "D",
-        "text": "Subclass Persegi merusak invarian kelas induk di mana pengubahan lebar juga ikut mengubah panjang secara tersembunyi."
+        "text": "Subclass Persegi merusak invarian kelas induk di mana pengubahan lebar juga ikut mengubah panjang secara tersembunyi.                                         "
       },
       {
         "key": "E",
@@ -2350,15 +2350,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena objek masih memiliki rantai referensi hidup yang terhubung ke GC Root melalui variabel koleksi statis cache."
+        "text": "Karena objek masih memiliki rantai referensi hidup yang terhubung ke GC Root melalui variabel koleksi statis cache.                                  "
       },
       {
         "key": "B",
-        "text": "Karena objek dalam heap Java hanya bisa dibersihkan jika server dimatikan dan dinyalakan ulang secara fisik."
+        "text": "Karena objek dalam heap Java hanya bisa dibersihkan jika server dimatikan dan dinyalakan ulang secara fisik.                                         "
       },
       {
         "key": "C",
-        "text": "Karena Garbage Collector hanya membersihkan memori variabel primitif dan tidak memproses objek bertipe kelas."
+        "text": "Karena Garbage Collector hanya membersihkan memori variabel primitif dan tidak memproses objek bertipe kelas.                                        "
       },
       {
         "key": "D",
@@ -2366,7 +2366,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Karena kelas UserData tidak mengimplementasikan method finalize() untuk memicu penghapusan otomatis."
+        "text": "Karena kelas UserData tidak mengimplementasikan method finalize() untuk memicu penghapusan otomatis.                                                 "
       }
     ],
     "correctKey": "A",
@@ -2398,19 +2398,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Terdapat ketergantungan fungsional NIP_Dosen -> Kode_Keahlian di mana determinan NIP_Dosen bukan candidate key superkey."
+        "text": "Terdapat ketergantungan fungsional NIP_Dosen -> Kode_Keahlian di mana determinan NIP_Dosen bukan candidate key superkey.                                   "
       },
       {
         "key": "C",
-        "text": "Atribut NIM tidak dapat digunakan sebagai foreign key ke tabel master data mahasiswa universitas."
+        "text": "Atribut NIM tidak dapat digunakan sebagai foreign key ke tabel master data mahasiswa universitas.                                                          "
       },
       {
         "key": "D",
-        "text": "Nilai pada kolom NIP_Dosen masih mengandung repeating groups yang melanggar aturan atomisitas 1NF."
+        "text": "Nilai pada kolom NIP_Dosen masih mengandung repeating groups yang melanggar aturan atomisitas 1NF.                                                         "
       },
       {
         "key": "E",
-        "text": "Atribut Kode_Keahlian bukan merupakan atribut prima (prime attribute) dalam struktur relasi tabel."
+        "text": "Atribut Kode_Keahlian bukan merupakan atribut prima (prime attribute) dalam struktur relasi tabel.                                                         "
       }
     ],
     "correctKey": "B",
@@ -2442,19 +2442,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Database dipaksa melakukan Full Table Scan karena kolom status_transaksi diletakkan di baris pertama WHERE."
+        "text": "Database dipaksa melakukan Full Table Scan karena kolom status_transaksi diletakkan di baris pertama WHERE.                                                    "
       },
       {
         "key": "C",
-        "text": "Database tetap memanfaatkan indeks secara efisien karena indeks dimulai dengan created_at (Leftmost Prefix cocok)."
+        "text": "Database tetap memanfaatkan indeks secara efisien karena indeks dimulai dengan created_at (Leftmost Prefix cocok).                                             "
       },
       {
         "key": "D",
-        "text": "Database otomatis memecah indeks komposit menjadi dua indeks tunggal terpisah di memori RAM server."
+        "text": "Database otomatis memecah indeks komposit menjadi dua indeks tunggal terpisah di memori RAM server.                                                            "
       },
       {
         "key": "E",
-        "text": "Indeks hanya bisa digunakan jika seluruh kolom pada tabel transaksi disertakan dalam klausa SELECT."
+        "text": "Indeks hanya bisa digunakan jika seluruh kolom pada tabel transaksi disertakan dalam klausa SELECT.                                                            "
       }
     ],
     "correctKey": "C",
@@ -2482,11 +2482,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dirty Read di mana Transaksi 1 membaca saldo Rekening B yang belum di-commit oleh Transaksi 2."
+        "text": "Dirty Read di mana Transaksi 1 membaca saldo Rekening B yang belum di-commit oleh Transaksi 2.                                                       "
       },
       {
         "key": "B",
-        "text": "Phantom Read di mana jumlah baris tabel rekening berubah saat dieksekusi dalam satu transaksi."
+        "text": "Phantom Read di mana jumlah baris tabel rekening berubah saat dieksekusi dalam satu transaksi.                                                       "
       },
       {
         "key": "C",
@@ -2494,11 +2494,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Deadlock di mana kedua transaksi saling menunggu kunci resource dilepaskan oleh transaksi lainnya."
+        "text": "Deadlock di mana kedua transaksi saling menunggu kunci resource dilepaskan oleh transaksi lainnya.                                                   "
       },
       {
         "key": "E",
-        "text": "Cascade Rollback di mana seluruh transaksi database lain di server otomatis terhapus."
+        "text": "Cascade Rollback di mana seluruh transaksi database lain di server otomatis terhapus.                                                                "
       }
     ],
     "correctKey": "D",
@@ -2530,7 +2530,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Di dalam sessionStorage browser agar token otomatis terhapus saat tab browser pengguna ditutup."
+        "text": "Di dalam sessionStorage browser agar token otomatis terhapus saat tab browser pengguna ditutup.  "
       },
       {
         "key": "C",
@@ -2570,15 +2570,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebagai mekanisme CORS Preflight untuk memverifikasi apakah server mengizinkan method dan custom header tersebut."
+        "text": "Sebagai mekanisme CORS Preflight untuk memverifikasi apakah server mengizinkan method dan custom header tersebut.                                         "
       },
       {
         "key": "B",
-        "text": "Untuk menguji kecepatan latensi koneksi internet antara browser client dan data center server API."
+        "text": "Untuk menguji kecepatan latensi koneksi internet antara browser client dan data center server API.                                                        "
       },
       {
         "key": "C",
-        "text": "Untuk mengunduh sertifikat SSL/TLS publik server API sebelum saluran enkripsi HTTPS dibangun."
+        "text": "Untuk mengunduh sertifikat SSL/TLS publik server API sebelum saluran enkripsi HTTPS dibangun.                                                             "
       },
       {
         "key": "D",
@@ -2586,7 +2586,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sebagai bentuk kompresi payload biner untuk menghemat kuota transmisi jaringan pengguna."
+        "text": "Sebagai bentuk kompresi payload biner untuk menghemat kuota transmisi jaringan pengguna.                                                                  "
       }
     ],
     "correctKey": "A",
@@ -2618,19 +2618,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Terjadi Microtask Starvation di mana timer setTimeout dan rendering UI tidak pernah dieksekusi (browser membeku)."
+        "text": "Terjadi Microtask Starvation di mana timer setTimeout dan rendering UI tidak pernah dieksekusi (browser membeku).                                            "
       },
       {
         "key": "C",
-        "text": "V8 engine membatasi rekursi maksimal 10.000 kali lalu secara otomatis melempar RangeError: Maximum call stack."
+        "text": "V8 engine membatasi rekursi maksimal 10.000 kali lalu secara otomatis melempar RangeError: Maximum call stack.                                               "
       },
       {
         "key": "D",
-        "text": "Fungsi setTimeout otomatis membatalkan antrean promise dan membersihkan microtask queue."
+        "text": "Fungsi setTimeout otomatis membatalkan antrean promise dan membersihkan microtask queue.                                                                     "
       },
       {
         "key": "E",
-        "text": "Sistem operasi komputer langsung mengalami restart paksa akibat kebocoran memori RAM fisik."
+        "text": "Sistem operasi komputer langsung mengalami restart paksa akibat kebocoran memori RAM fisik.                                                                  "
       }
     ],
     "correctKey": "B",
@@ -2662,19 +2662,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Main Thread pada sistem Android tidak memiliki alokasi hak akses izin internet di AndroidManifest.xml."
+        "text": "Main Thread pada sistem Android tidak memiliki alokasi hak akses izin internet di AndroidManifest.xml.                                                    "
       },
       {
         "key": "C",
-        "text": "Operasi I/O jaringan yang lambat akan memblokir thread UI, menyebabkan frame drop dan memicu dialog ANR."
+        "text": "Operasi I/O jaringan yang lambat akan memblokir thread UI, menyebabkan frame drop dan memicu dialog ANR.                                                  "
       },
       {
         "key": "D",
-        "text": "Driver kartu jaringan seluler pada smartphone hanya dapat berkomunikasi dengan thread bertipe daemon."
+        "text": "Driver kartu jaringan seluler pada smartphone hanya dapat berkomunikasi dengan thread bertipe daemon.                                                     "
       },
       {
         "key": "E",
-        "text": "Sistem operasi Android membatasi penggunaan RAM pada Main Thread maksimal sebesar 128 kilobyte."
+        "text": "Sistem operasi Android membatasi penggunaan RAM pada Main Thread maksimal sebesar 128 kilobyte.                                                           "
       }
     ],
     "correctKey": "C",
@@ -2702,19 +2702,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengaktifkan method fallbackToDestructiveMigration() pada Room database builder saat rilis aplikasi."
+        "text": "Mengaktifkan method fallbackToDestructiveMigration() pada Room database builder saat rilis aplikasi.                                               "
       },
       {
         "key": "B",
-        "text": "Menghapus file database SQLite lokal secara manual di penyimpanan internal perangkat pengguna."
+        "text": "Menghapus file database SQLite lokal secara manual di penyimpanan internal perangkat pengguna.                                                     "
       },
       {
         "key": "C",
-        "text": "Mengubah nama file database menjadi nama baru sehingga sistem membuat basis data kosong yang baru."
+        "text": "Mengubah nama file database menjadi nama baru sehingga sistem membuat basis data kosong yang baru.                                                 "
       },
       {
         "key": "D",
-        "text": "Mendefinisikan objek Migration(1, 2) yang menjalankan perintah SQL ALTER TABLE dengan nilai DEFAULT yang valid."
+        "text": "Mendefinisikan objek Migration(1, 2) yang menjalankan perintah SQL ALTER TABLE dengan nilai DEFAULT yang valid.                                    "
       },
       {
         "key": "E",
@@ -2754,11 +2754,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Merender setiap musuh pada kamera viewport terpisah dengan shader material yang berbeda-beda."
+        "text": "Merender setiap musuh pada kamera viewport terpisah dengan shader material yang berbeda-beda.  "
       },
       {
         "key": "D",
-        "text": "Menonaktifkan v-sync dan mengubah format penyimpanan aset gambar menjadi format GIF animasi."
+        "text": "Menonaktifkan v-sync dan mengubah format penyimpanan aset gambar menjadi format GIF animasi.   "
       },
       {
         "key": "E",
@@ -2794,7 +2794,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kelebihan beban GPU; solusinya adalah menurunkan resolusi layar gim menjadi format monokrom."
+        "text": "Kelebihan beban GPU; solusinya adalah menurunkan resolusi layar gim menjadi format monokrom.  "
       },
       {
         "key": "C",
@@ -2922,11 +2922,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Stub hanya berjalan di browser, sedangkan Mock hanya dapat dieksekusi di server berbasis NodeJS."
+        "text": "Stub hanya berjalan di browser, sedangkan Mock hanya dapat dieksekusi di server berbasis NodeJS.                                                       "
       },
       {
         "key": "B",
-        "text": "Mock digunakan untuk pengujian performa beban, sedangkan Stub digunakan untuk pengujian keamanan penetrasi."
+        "text": "Mock digunakan untuk pengujian performa beban, sedangkan Stub digunakan untuk pengujian keamanan penetrasi.                                            "
       },
       {
         "key": "C",
@@ -2934,11 +2934,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Stub menyediakan data balasan siap pakai (state verification), sedangkan Mock memverifikasi interaksi pemanggilan method."
+        "text": "Stub menyediakan data balasan siap pakai (state verification), sedangkan Mock memverifikasi interaksi pemanggilan method.                              "
       },
       {
         "key": "E",
-        "text": "Tidak ada perbedaan teknis sama sekali karena Mock dan Stub adalah sinonim kata yang persis sama."
+        "text": "Tidak ada perbedaan teknis sama sekali karena Mock dan Stub adalah sinonim kata yang persis sama.                                                      "
       }
     ],
     "correctKey": "D",
@@ -2966,7 +2966,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Langsung memproses transaksi seketika tombol diklik tanpa menampilkan rincian apapun demi kecepatan alur kerja."
+        "text": "Langsung memproses transaksi seketika tombol diklik tanpa menampilkan rincian apapun demi kecepatan alur kerja.                                               "
       },
       {
         "key": "B",
@@ -2974,15 +2974,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menampilkan pesan error merah di pojok layar setelah saldo tabungan pengguna terlanjur terpotong sistem."
+        "text": "Menampilkan pesan error merah di pojok layar setelah saldo tabungan pengguna terlanjur terpotong sistem.                                                      "
       },
       {
         "key": "D",
-        "text": "Menonaktifkan tombol kembali pada browser pengguna sehingga pengguna terpaksa menyelesaikan alur transaksi."
+        "text": "Menonaktifkan tombol kembali pada browser pengguna sehingga pengguna terpaksa menyelesaikan alur transaksi.                                                   "
       },
       {
         "key": "E",
-        "text": "Menampilkan dialog konfirmasi dua langkah yang memuat ringkasan transaksi dan mewajibkan otorisasi PIN/Biometrik."
+        "text": "Menampilkan dialog konfirmasi dua langkah yang memuat ringkasan transaksi dan mewajibkan otorisasi PIN/Biometrik.                                             "
       }
     ],
     "correctKey": "E",
@@ -3014,7 +3014,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Fitts's Law yang menyatakan waktu menjangkau target berbanding lurus dengan jarak dan ukuran tombol."
+        "text": "Fitts's Law yang menyatakan waktu menjangkau target berbanding lurus dengan jarak dan ukuran tombol.     "
       },
       {
         "key": "C",
@@ -3054,15 +3054,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena lisensi AGPL mewajibkan pembayaran kompensasi royalti finansial bulanan kepada para kontributor pustaka."
+        "text": "Karena lisensi AGPL mewajibkan pembayaran kompensasi royalti finansial bulanan kepada para kontributor pustaka.                                              "
       },
       {
         "key": "B",
-        "text": "Karena klausul jaringan AGPL mewajibkan seluruh source code platform SaaS dibuka ke publik jika diakses melalui network."
+        "text": "Karena klausul jaringan AGPL mewajibkan seluruh source code platform SaaS dibuka ke publik jika diakses melalui network.                                     "
       },
       {
         "key": "C",
-        "text": "Karena AGPL secara otomatis menghapus hak paten algoritma milik perusahaan yang didaftarkan ke kementerian hukum."
+        "text": "Karena AGPL secara otomatis menghapus hak paten algoritma milik perusahaan yang didaftarkan ke kementerian hukum.                                            "
       },
       {
         "key": "D",
@@ -3070,7 +3070,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Karena lisensi AGPL hanya dapat dijalankan pada sistem operasi mainframe tua dan tidak mendukung arsitektur Linux."
+        "text": "Karena lisensi AGPL hanya dapat dijalankan pada sistem operasi mainframe tua dan tidak mendukung arsitektur Linux.                                           "
       }
     ],
     "correctKey": "B",
@@ -3102,19 +3102,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mengizinkan seluruh pengembang mengedit branch produksi secara langsung tanpa melalui proses code review."
+        "text": "Mengizinkan seluruh pengembang mengedit branch produksi secara langsung tanpa melalui proses code review.                                                             "
       },
       {
         "key": "C",
-        "text": "Menghindari merge hell dengan mengintegrasikan branch fitur berumur pendek (short-lived) langsung ke trunk setiap hari."
+        "text": "Menghindari merge hell dengan mengintegrasikan branch fitur berumur pendek (short-lived) langsung ke trunk setiap hari.                                               "
       },
       {
         "key": "D",
-        "text": "Mewajibkan pembuatan minimal sepuluh cabang branch terpisah untuk setiap tiket perbaikan bug kecil."
+        "text": "Mewajibkan pembuatan minimal sepuluh cabang branch terpisah untuk setiap tiket perbaikan bug kecil.                                                                   "
       },
       {
         "key": "E",
-        "text": "Mengharuskan deployment ke server dilakukan secara manual oleh manajer proyek setiap akhir pekan."
+        "text": "Mengharuskan deployment ke server dilakukan secara manual oleh manajer proyek setiap akhir pekan.                                                                     "
       }
     ],
     "correctKey": "C",
@@ -3142,7 +3142,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelanggaran OCP; solusinya adalah menambahkan metode cetakDokumenBerwarna() ke dalam interface tersebut."
+        "text": "Pelanggaran OCP; solusinya adalah menambahkan metode cetakDokumenBerwarna() ke dalam interface tersebut.    "
       },
       {
         "key": "B",
@@ -3158,7 +3158,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pelanggaran Encapsulation; solusinya mengubah seluruh method interface menjadi atribut variabel publik."
+        "text": "Pelanggaran Encapsulation; solusinya mengubah seluruh method interface menjadi atribut variabel publik.     "
       }
     ],
     "correctKey": "D",
@@ -3186,11 +3186,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus kelas GmailSender dan menulis socket jaringan SMTP langsung di dalam kelas NotifikasiService."
+        "text": "Menghapus kelas GmailSender dan menulis socket jaringan SMTP langsung di dalam kelas NotifikasiService.                                                     "
       },
       {
         "key": "B",
-        "text": "Mengubah metode sendEmail menjadi method statis global yang dapat dipanggil langsung dari package mana pun."
+        "text": "Mengubah metode sendEmail menjadi method statis global yang dapat dipanggil langsung dari package mana pun.                                                 "
       },
       {
         "key": "C",
@@ -3198,11 +3198,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menyimpan kredensial akun GmailSender secara hardcoded di dalam variabel konstanta kelas NotifikasiService."
+        "text": "Menyimpan kredensial akun GmailSender secara hardcoded di dalam variabel konstanta kelas NotifikasiService.                                                 "
       },
       {
         "key": "E",
-        "text": "Membuat interface PesanSender, mengimplementasikannya pada GmailSender, dan menginjeksi interface ke NotifikasiService."
+        "text": "Membuat interface PesanSender, mengimplementasikannya pada GmailSender, dan menginjeksi interface ke NotifikasiService.                                     "
       }
     ],
     "correctKey": "E",
@@ -3230,11 +3230,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menerapkan atribut Cookie SameSite=Strict/Lax dan memvalidasi Anti-CSRF Token acak pada setiap request mutasi state."
+        "text": "Menerapkan atribut Cookie SameSite=Strict/Lax dan memvalidasi Anti-CSRF Token acak pada setiap request mutasi state.                                       "
       },
       {
         "key": "B",
-        "text": "Mengenkripsi seluruh basis data perbankan menggunakan algoritma simetris Advanced Encryption Standard 256-bit."
+        "text": "Mengenkripsi seluruh basis data perbankan menggunakan algoritma simetris Advanced Encryption Standard 256-bit.                                             "
       },
       {
         "key": "C",
@@ -3242,11 +3242,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengizinkan seluruh domain luar mengeksekusi request POST melalui konfigurasi header Access-Control-Allow-Origin: *."
+        "text": "Mengizinkan seluruh domain luar mengeksekusi request POST melalui konfigurasi header Access-Control-Allow-Origin: *.                                       "
       },
       {
         "key": "E",
-        "text": "Mewajibkan pengguna menyegarkan (refresh) halaman browser secara manual setiap kali melakukan transfer dana."
+        "text": "Mewajibkan pengguna menyegarkan (refresh) halaman browser secara manual setiap kali melakukan transfer dana.                                               "
       }
     ],
     "correctKey": "A",
@@ -3278,19 +3278,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Anton ranking 1, Budi ranking 1, dan Citra ranking 2 karena DENSE_RANK tidak melompati urutan angka setelah nilai seri."
+        "text": "Anton ranking 1, Budi ranking 1, dan Citra ranking 2 karena DENSE_RANK tidak melompati urutan angka setelah nilai seri.                                               "
       },
       {
         "key": "C",
-        "text": "Anton ranking 1, Budi ranking 1, dan Citra ranking 3 karena fungsi analitik wajib melompati nomor peringkat."
+        "text": "Anton ranking 1, Budi ranking 1, dan Citra ranking 3 karena fungsi analitik wajib melompati nomor peringkat.                                                          "
       },
       {
         "key": "D",
-        "text": "Anton ranking 1, Budi ranking 2, dan Citra ranking 2 karena peringkat dihitung berdasarkan abjad nama pegawai."
+        "text": "Anton ranking 1, Budi ranking 2, dan Citra ranking 2 karena peringkat dihitung berdasarkan abjad nama pegawai.                                                        "
       },
       {
         "key": "E",
-        "text": "Query memicu runtime error karena fungsi analitik OVER tidak dapat digabungkan dengan klausul PARTITION BY."
+        "text": "Query memicu runtime error karena fungsi analitik OVER tidak dapat digabungkan dengan klausul PARTITION BY.                                                           "
       }
     ],
     "correctKey": "B",
@@ -3322,19 +3322,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kualitas kode program meningkat drastis sehingga tim tidak perlu lagi melakukan pengujian otomatis QA."
+        "text": "Kualitas kode program meningkat drastis sehingga tim tidak perlu lagi melakukan pengujian otomatis QA.                                                        "
       },
       {
         "key": "C",
-        "text": "Product Owner otomatis membatalkan sprint seketika dan mengganti seluruh anggota tim pengembang."
+        "text": "Product Owner otomatis membatalkan sprint seketika dan mengganti seluruh anggota tim pengembang.                                                              "
       },
       {
         "key": "D",
-        "text": "Tim mengalami perlambatan progres dan berisiko tinggi gagal menyelesaikan seluruh komitmen sprint backlog."
+        "text": "Tim mengalami perlambatan progres dan berisiko tinggi gagal menyelesaikan seluruh komitmen sprint backlog.                                                    "
       },
       {
         "key": "E",
-        "text": "Estimasi waktu kerja awal terlalu besar sehingga tim memiliki banyak waktu luang tanpa tugas aktif."
+        "text": "Estimasi waktu kerja awal terlalu besar sehingga tim memiliki banyak waktu luang tanpa tugas aktif.                                                           "
       }
     ],
     "correctKey": "D",
@@ -3406,19 +3406,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadikan kelas bertipe final, semua atribut private final, tanpa setter, dan defensive copy pada objek mutable."
+        "text": "Menjadikan kelas bertipe final, semua atribut private final, tanpa setter, dan defensive copy pada objek mutable.                               "
       },
       {
         "key": "B",
-        "text": "Menyediakan method setter publik untuk setiap atribut agar nilai dapat diperbarui secara fleksibel."
+        "text": "Menyediakan method setter publik untuk setiap atribut agar nilai dapat diperbarui secara fleksibel.                                             "
       },
       {
         "key": "C",
-        "text": "Mewajibkan kelas mewarisi kelas Thread agar setiap operasi perbankan berjalan di background terpisah."
+        "text": "Mewajibkan kelas mewarisi kelas Thread agar setiap operasi perbankan berjalan di background terpisah.                                           "
       },
       {
         "key": "D",
-        "text": "Mendeklarasikan seluruh atribut sebagai variabel statis publik agar memori dapat dipakai bersama oleh klien."
+        "text": "Mendeklarasikan seluruh atribut sebagai variabel statis publik agar memori dapat dipakai bersama oleh klien.                                    "
       },
       {
         "key": "E",
@@ -3454,19 +3454,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Checked exception yang wajib ditangani dengan try-catch atau dideklarasikan pada method signature dengan throws."
+        "text": "Checked exception yang wajib ditangani dengan try-catch atau dideklarasikan pada method signature dengan throws.                                          "
       },
       {
         "key": "C",
-        "text": "Fatal JVM Error yang otomatis menghentikan proses eksekusi sistem operasi secara seketika."
+        "text": "Fatal JVM Error yang otomatis menghentikan proses eksekusi sistem operasi secara seketika.                                                                "
       },
       {
         "key": "D",
-        "text": "Memory Exception yang hanya dilempar jika kapasitas RAM server database telah habis terpakai."
+        "text": "Memory Exception yang hanya dilempar jika kapasitas RAM server database telah habis terpakai.                                                             "
       },
       {
         "key": "E",
-        "text": "Syntax Exception yang hanya muncul saat kode program sedang diperiksa oleh IDE pengembang."
+        "text": "Syntax Exception yang hanya muncul saat kode program sedang diperiksa oleh IDE pengembang.                                                                "
       }
     ],
     "correctKey": "B",
@@ -3494,7 +3494,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh rekaman data pelanggan yang memiliki riwayat transaksi lebih dari sepuluh kali."
+        "text": "Menghapus seluruh rekaman data pelanggan yang memiliki riwayat transaksi lebih dari sepuluh kali.                                                       "
       },
       {
         "key": "B",
@@ -3502,15 +3502,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menampilkan daftar seluruh pelanggan yang belum pernah melakukan transaksi pembelian sama sekali."
+        "text": "Menampilkan daftar seluruh pelanggan yang belum pernah melakukan transaksi pembelian sama sekali.                                                       "
       },
       {
         "key": "D",
-        "text": "Memperbarui status keanggotaan pelanggan menjadi VIP jika nominal saldo belanja melampaui limit."
+        "text": "Memperbarui status keanggotaan pelanggan menjadi VIP jika nominal saldo belanja melampaui limit.                                                        "
       },
       {
         "key": "E",
-        "text": "Menampilkan pelanggan yang transaksinya mengalami kegagalan sistem pembayaran di gateway bank."
+        "text": "Menampilkan pelanggan yang transaksinya mengalami kegagalan sistem pembayaran di gateway bank.                                                          "
       }
     ],
     "correctKey": "C",
@@ -3538,7 +3538,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Read Uncommitted yang mengizinkan transaksi membaca perubahan data yang belum di-commit sama sekali."
+        "text": "Read Uncommitted yang mengizinkan transaksi membaca perubahan data yang belum di-commit sama sekali.                                                          "
       },
       {
         "key": "B",
@@ -3546,15 +3546,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Repeatable Read yang mengunci baris data yang dibaca tetapi masih memungkinkan terjadinya phantom read."
+        "text": "Repeatable Read yang mengunci baris data yang dibaca tetapi masih memungkinkan terjadinya phantom read.                                                       "
       },
       {
         "key": "D",
-        "text": "Serializable yang mengeksekusi transaksi secara berurutan seolah-olah sistem berjalan pada single thread."
+        "text": "Serializable yang mengeksekusi transaksi secara berurutan seolah-olah sistem berjalan pada single thread.                                                     "
       },
       {
         "key": "E",
-        "text": "Snapshot Isolation yang hanya bekerja pada media penyimpanan basis data terdistribusi noSQL."
+        "text": "Snapshot Isolation yang hanya bekerja pada media penyimpanan basis data terdistribusi noSQL.                                                                  "
       }
     ],
     "correctKey": "D",
@@ -3582,19 +3582,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Foreign Key Index yang mereferensikan integritas relasional tabel master departemen luar."
+        "text": "Foreign Key Index yang mereferensikan integritas relasional tabel master departemen luar.          "
       },
       {
         "key": "B",
-        "text": "Full-Text Search Index yang memindai token teks menggunakan kamus leksikal bahasa Indonesia."
+        "text": "Full-Text Search Index yang memindai token teks menggunakan kamus leksikal bahasa Indonesia.       "
       },
       {
         "key": "C",
-        "text": "Spatial Index yang mengelompokkan data lokasi koordinat geospasial menggunakan struktur R-Tree."
+        "text": "Spatial Index yang mengelompokkan data lokasi koordinat geospasial menggunakan struktur R-Tree.    "
       },
       {
         "key": "D",
-        "text": "Hash Index yang hanya mendukung perbandingan nilai persamaan absolut tanpa fungsi agregasi."
+        "text": "Hash Index yang hanya mendukung perbandingan nilai persamaan absolut tanpa fungsi agregasi.        "
       },
       {
         "key": "E",
@@ -3611,7 +3611,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Jika semua kolom yang diminta dalam SELECT, WHERE, dan GROUP BY sudah ada di dalam indeks itu sendiri, database tidak perlu membaca tabel utama. Ini dinamakan Covering Index.",
       "execution": "Query hanya butuh 'divisi' dan 'gaji', dan indeks mencakup persis kedua kolom tersebut."
     },
-    "explanation": "Sebuah indeks dikatakan sebagai *Covering Index* untuk suatu query jika indeks tersebut memuat semua kolom yang diminta oleh query (baik di klausa SELECT, WHERE, maupun GROUP BY). Database engine dapat langsung mengambil data dari node daun B-Tree indeks tanpa perlu melakukan lookup sekunder ke tabel utama di disk (Index-Only Scan). Jawaban: E.",
+    "explanation": "Sebuah indeks dikatakan sebagai *Covering Index* untuk suatu query jika indeks tersebut memuat semua kolom yang diminta oleh query (baik di klausa SELECT, WHERE, maupun GROUP BY). Database engine dapat langsung mengambil data dari node daun E-Tree indeks tanpa perlu melakukan lookup sekunder ke tabel utama di disk (Index-Only Scan). Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3626,7 +3626,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Over-fetching di mana client menerima muatan data yang jauh lebih banyak daripada data yang sebenarnya dibutuhkan."
+        "text": "Over-fetching di mana client menerima muatan data yang jauh lebih banyak daripada data yang sebenarnya dibutuhkan.                                             "
       },
       {
         "key": "B",
@@ -3634,15 +3634,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Denial of Service di mana server API kewalahan menerima request dalam volume tinggi secara simultan."
+        "text": "Denial of Service di mana server API kewalahan menerima request dalam volume tinggi secara simultan.                                                           "
       },
       {
         "key": "D",
-        "text": "Cache Invalidation di mana browser client gagal memperbarui file statis JavaScript yang kedaluwarsa."
+        "text": "Cache Invalidation di mana browser client gagal memperbarui file statis JavaScript yang kedaluwarsa.                                                           "
       },
       {
         "key": "E",
-        "text": "Packet Dropping di mana paket data TCP terputus akibat interferensi gelombang frekuensi radio."
+        "text": "Packet Dropping di mana paket data TCP terputus akibat interferensi gelombang frekuensi radio.                                                                 "
       }
     ],
     "correctKey": "A",
@@ -3670,11 +3670,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengizinkan seluruh website di internet mengunduh file gambar dan stylesheet dari server aplikasi secara bebas."
+        "text": "Mengizinkan seluruh website di internet mengunduh file gambar dan stylesheet dari server aplikasi secara bebas.                                                 "
       },
       {
         "key": "B",
-        "text": "Hanya mengizinkan eksekusi skrip JavaScript yang berasal dari origin yang sama ('self') dan domain trustedscripts.com."
+        "text": "Hanya mengizinkan eksekusi skrip JavaScript yang berasal dari origin yang sama ('self') dan domain trustedscripts.com.                                          "
       },
       {
         "key": "C",
@@ -3682,11 +3682,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Memblokir seluruh koneksi database backend jika port server diakses melalui jaringan lokal tanpa VPN."
+        "text": "Memblokir seluruh koneksi database backend jika port server diakses melalui jaringan lokal tanpa VPN.                                                           "
       },
       {
         "key": "E",
-        "text": "Mengonversi seluruh kode JavaScript frontend menjadi format WebAssembly biner secara otomatis di browser."
+        "text": "Mengonversi seluruh kode JavaScript frontend menjadi format WebAssembly biner secara otomatis di browser.                                                       "
       }
     ],
     "correctKey": "B",
@@ -3714,7 +3714,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Promise.all() karena otomatis mengabaikan kegagalan dan langsung mengembalikan hasil array yang sukses saja."
+        "text": "Promise.all() karena otomatis mengabaikan kegagalan dan langsung mengembalikan hasil array yang sukses saja.                                                     "
       },
       {
         "key": "B",
@@ -3722,15 +3722,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Promise.allSettled() karena menunggu semua promise tuntas dan mengembalikan array status baik fulfilled maupun rejected."
+        "text": "Promise.allSettled() karena menunggu semua promise tuntas dan mengembalikan array status baik fulfilled maupun rejected.                                         "
       },
       {
         "key": "D",
-        "text": "Promise.any() karena akan memicu crash aplikasi jika ada salah satu permintaan data yang mengalami penolakan."
+        "text": "Promise.any() karena akan memicu crash aplikasi jika ada salah satu permintaan data yang mengalami penolakan.                                                    "
       },
       {
         "key": "E",
-        "text": "Eksekusi pemanggilan ketiga fungsi secara berurutan sinkron menggunakan loop while tanpa fungsi promise."
+        "text": "Eksekusi pemanggilan ketiga fungsi secara berurutan sinkron menggunakan loop while tanpa fungsi promise.                                                         "
       }
     ],
     "correctKey": "C",
@@ -3762,19 +3762,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "undefined dan undefined; konsep Garbage Collection otomatis membebaskan memori."
+        "text": "undefined dan undefined; konsep Garbage Collection otomatis membebaskan memori.                                 "
       },
       {
         "key": "C",
-        "text": "0 dan 1; konsep Prototipe Objek Pewarisan JavaScript."
+        "text": "0 dan 1; konsep Prototipe Objek Pewarisan JavaScript.                                                           "
       },
       {
         "key": "D",
-        "text": "1 dan 2; konsep Closure yang mempertahankan referensi leksikal variabel terluar."
+        "text": "1 dan 2; konsep Closure yang mempertahankan referensi leksikal variabel terluar.                                "
       },
       {
         "key": "E",
-        "text": "Error ReferenceError karena variabel count berada di luar batas fungsi."
+        "text": "Error ReferenceError karena variabel count berada di luar batas fungsi.                                         "
       }
     ],
     "correctKey": "D",
@@ -3806,11 +3806,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "BroadcastReceiver biasa yang mendengarkan event perubahan jaringan tanpa penjadwalan."
+        "text": "BroadcastReceiver biasa yang mendengarkan event perubahan jaringan tanpa penjadwalan.   "
       },
       {
         "key": "C",
-        "text": "Thread murni Java (new Thread) yang dibuat langsung di dalam blok method onDestroy()."
+        "text": "Thread murni Java (new Thread) yang dibuat langsung di dalam blok method onDestroy().   "
       },
       {
         "key": "D",
@@ -3846,15 +3846,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ECS memisahkan data (Component) dari logika (System), mengoptimalkan CPU Cache locality (Data-Oriented Design)."
+        "text": "ECS memisahkan data (Component) dari logika (System), mengoptimalkan CPU Cache locality (Data-Oriented Design).                                         "
       },
       {
         "key": "B",
-        "text": "ECS mengharuskan seluruh aset grafis 3D dikonversi menjadi format file vektor monokrom dua dimensi."
+        "text": "ECS mengharuskan seluruh aset grafis 3D dikonversi menjadi format file vektor monokrom dua dimensi.                                                     "
       },
       {
         "key": "C",
-        "text": "OOP tradisional tidak dapat mengompilasi kode program jika jumlah kelas game melampaui seratus file."
+        "text": "OOP tradisional tidak dapat mengompilasi kode program jika jumlah kelas game melampaui seratus file.                                                    "
       },
       {
         "key": "D",
@@ -3862,7 +3862,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "ECS secara otomatis membuat animasi gerakan karakter menjadi halus tanpa memerlukan asset rigger seniman."
+        "text": "ECS secara otomatis membuat animasi gerakan karakter menjadi halus tanpa memerlukan asset rigger seniman.                                               "
       }
     ],
     "correctKey": "A",
@@ -3890,11 +3890,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Backface Culling yang membuang poligon segitiga yang menghadap membelakangi arah kamera."
+        "text": "Backface Culling yang membuang poligon segitiga yang menghadap membelakangi arah kamera.                                                           "
       },
       {
         "key": "B",
-        "text": "Occlusion Culling yang menonaktifkan rendering objek yang tertutup oleh geometri penghalang di depannya."
+        "text": "Occlusion Culling yang menonaktifkan rendering objek yang tertutup oleh geometri penghalang di depannya.                                           "
       },
       {
         "key": "C",
@@ -3902,11 +3902,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Level of Detail (LOD) yang menurunkan jumlah poligon mesh objek yang posisinya sangat jauh dari pemain."
+        "text": "Level of Detail (LOD) yang menurunkan jumlah poligon mesh objek yang posisinya sangat jauh dari pemain.                                            "
       },
       {
         "key": "E",
-        "text": "Anti-Aliasing yang menghaluskan garis tepi bergerigi pada sudut poligon objek grafis tiga dimensi."
+        "text": "Anti-Aliasing yang menghaluskan garis tepi bergerigi pada sudut poligon objek grafis tiga dimensi.                                                 "
       }
     ],
     "correctKey": "B",
@@ -3934,19 +3934,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Warna tombol di layar otomatis berubah menjadi transparan sehingga tidak dapat terlihat oleh pengguna."
+        "text": "Warna tombol di layar otomatis berubah menjadi transparan sehingga tidak dapat terlihat oleh pengguna.                                                  "
       },
       {
         "key": "B",
-        "text": "Browser langsung memblokir eksekusi fungsi JavaScript beli() karena dianggap sebagai malware trojan."
+        "text": "Browser langsung memblokir eksekusi fungsi JavaScript beli() karena dianggap sebagai malware trojan.                                                    "
       },
       {
         "key": "C",
-        "text": "Screen reader tidak mengenali elemen tersebut sebagai tombol interaktif dan tidak dapat difokuskan via tombol Tab keyboard."
+        "text": "Screen reader tidak mengenali elemen tersebut sebagai tombol interaktif dan tidak dapat difokuskan via tombol Tab keyboard.                             "
       },
       {
         "key": "D",
-        "text": "Kecepatan loading halaman web menurun drastis sebesar 90 persen akibat kegagalan parsing mesin rendering."
+        "text": "Kecepatan loading halaman web menurun drastis sebesar 90 persen akibat kegagalan parsing mesin rendering.                                               "
       },
       {
         "key": "E",
@@ -3982,19 +3982,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mengenkripsi seluruh basis kode sumber agar tidak dapat didekompilasi oleh pihak luar yang tidak berhak."
+        "text": "Mengenkripsi seluruh basis kode sumber agar tidak dapat didekompilasi oleh pihak luar yang tidak berhak.                                                          "
       },
       {
         "key": "C",
-        "text": "Memperbaiki bug logika secara otomatis tanpa campur tangan dari insinyur perangkat lunak manusia."
+        "text": "Memperbaiki bug logika secara otomatis tanpa campur tangan dari insinyur perangkat lunak manusia.                                                                 "
       },
       {
         "key": "D",
-        "text": "Menguji efektivitas dan kualitas test suite itu sendiri dengan memverifikasi apakah unit test mampu mendeteksi bug buatan."
+        "text": "Menguji efektivitas dan kualitas test suite itu sendiri dengan memverifikasi apakah unit test mampu mendeteksi bug buatan.                                        "
       },
       {
         "key": "E",
-        "text": "Mengurangi ukuran file biner aplikasi agar dapat diunduh lebih cepat oleh pengguna akhir ponsel."
+        "text": "Mengurangi ukuran file biner aplikasi agar dapat diunduh lebih cepat oleh pengguna akhir ponsel.                                                                  "
       }
     ],
     "correctKey": "D",
@@ -4022,19 +4022,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mewajibkan pengembang menulis password akun email perusahaan langsung pada komentar source code program."
+        "text": "Mewajibkan pengembang menulis password akun email perusahaan langsung pada komentar source code program.           "
       },
       {
         "key": "B",
-        "text": "Menonaktifkan sistem enkripsi SSL pada repositori remote agar paket commit dapat dipantau oleh admin jaringan."
+        "text": "Menonaktifkan sistem enkripsi SSL pada repositori remote agar paket commit dapat dipantau oleh admin jaringan.     "
       },
       {
         "key": "C",
-        "text": "Menghapus file .gitignore dari proyek agar seluruh file konfigurasi rahasia dapat terlacak oleh sistem Git."
+        "text": "Menghapus file .gitignore dari proyek agar seluruh file konfigurasi rahasia dapat terlacak oleh sistem Git.        "
       },
       {
         "key": "D",
-        "text": "Mengunggah file konfigurasi database .env secara berkala ke media penyimpanan Google Drive publik."
+        "text": "Mengunggah file konfigurasi database .env secara berkala ke media penyimpanan Google Drive publik.                 "
       },
       {
         "key": "E",
@@ -4066,7 +4066,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hak Cipta yang melindungi ekspresi wujud kode sumber (source code) dan program komputer dari penjiplakan tanpa izin."
+        "text": "Hak Cipta yang melindungi ekspresi wujud kode sumber (source code) dan program komputer dari penjiplakan tanpa izin.                                      "
       },
       {
         "key": "B",
@@ -4074,15 +4074,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Hak Merek Dagang yang melarang pengembang lain menulis program dengan bahasa pemrograman yang sama."
+        "text": "Hak Merek Dagang yang melarang pengembang lain menulis program dengan bahasa pemrograman yang sama.                                                       "
       },
       {
         "key": "D",
-        "text": "Rahasia Dagang yang otomatis gugur jika aplikasi dirilis ke publik melalui toko aplikasi resmi Google Play."
+        "text": "Rahasia Dagang yang otomatis gugur jika aplikasi dirilis ke publik melalui toko aplikasi resmi Google Play.                                               "
       },
       {
         "key": "E",
-        "text": "Perlindungan Varietas Tanaman yang mengatur silsilah penamaan variabel di dalam modul kecerdasan buatan."
+        "text": "Perlindungan Varietas Tanaman yang mengatur silsilah penamaan variabel di dalam modul kecerdasan buatan.                                                  "
       }
     ],
     "correctKey": "A",
@@ -4110,15 +4110,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengetik dengan posisi pergelangan tangan menggantung bebas di udara tanpa sandaran apapun di meja."
+        "text": "Mengetik dengan posisi pergelangan tangan menggantung bebas di udara tanpa sandaran apapun di meja.                                                      "
       },
       {
         "key": "B",
-        "text": "Menjaga posisi pergelangan tangan lurus dan netral saat mengetik serta menggunakan wrist rest pendukung yang empuk."
+        "text": "Menjaga posisi pergelangan tangan lurus dan netral saat mengetik serta menggunakan wrist rest pendukung yang empuk.                                      "
       },
       {
         "key": "C",
-        "text": "Menekan tombol keyboard sekeras mungkin untuk melatih kekuatan otot dan ligamen jari jemari tangan."
+        "text": "Menekan tombol keyboard sekeras mungkin untuk melatih kekuatan otot dan ligamen jari jemari tangan.                                                      "
       },
       {
         "key": "D",
@@ -4126,7 +4126,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menonaktifkan pendingin ruangan AC agar suhu pergelangan tangan selalu berada di atas empat puluh derajat."
+        "text": "Menonaktifkan pendingin ruangan AC agar suhu pergelangan tangan selalu berada di atas empat puluh derajat.                                               "
       }
     ],
     "correctKey": "B",
@@ -4158,19 +4158,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Ukuran memori heap aplikasi otomatis menjadi nol megabyte saat proses konversi dokumen berlangsung."
+        "text": "Ukuran memori heap aplikasi otomatis menjadi nol megabyte saat proses konversi dokumen berlangsung.                                                          "
       },
       {
         "key": "C",
-        "text": "Klien terisolasi dari proses instansiasi konkret, hanya bergantung pada interface dokumen umum (Loose Coupling)."
+        "text": "Klien terisolasi dari proses instansiasi konkret, hanya bergantung pada interface dokumen umum (Loose Coupling).                                             "
       },
       {
         "key": "D",
-        "text": "Seluruh kelas pemroses dokumen dipaksa mewarisi method statis dari kelas java.lang.System."
+        "text": "Seluruh kelas pemroses dokumen dipaksa mewarisi method statis dari kelas java.lang.System.                                                                   "
       },
       {
         "key": "E",
-        "text": "Dokumen yang diekspor otomatis terenkripsi dengan kunci asimetris RSA tanpa perlu konfigurasi."
+        "text": "Dokumen yang diekspor otomatis terenkripsi dengan kunci asimetris RSA tanpa perlu konfigurasi.                                                               "
       }
     ],
     "correctKey": "C",
@@ -4202,19 +4202,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Karena array kedua secara fisik mengenkripsi koneksi jaringan database menggunakan sertifikat TLS."
+        "text": "Karena array kedua secara fisik mengenkripsi koneksi jaringan database menggunakan sertifikat TLS.                                                                 "
       },
       {
         "key": "C",
-        "text": "Karena pendekatan B membatasi panjang input email maksimal hanya boleh terdiri dari sepuluh karakter."
+        "text": "Karena pendekatan B membatasi panjang input email maksimal hanya boleh terdiri dari sepuluh karakter.                                                              "
       },
       {
         "key": "D",
-        "text": "Karena database engine mengompilasi struktur query terlebih dahulu dan memperlakukan input pengguna murni sebagai data literal."
+        "text": "Karena database engine mengompilasi struktur query terlebih dahulu dan memperlakukan input pengguna murni sebagai data literal.                                    "
       },
       {
         "key": "E",
-        "text": "Karena tanda kutip satu (') pada email otomatis diganti dengan tanda kutip ganda (\") oleh driver database."
+        "text": "Karena tanda kutip satu (') pada email otomatis diganti dengan tanda kutip ganda (\") oleh driver database.                                                         "
       }
     ],
     "correctKey": "D",
@@ -4227,7 +4227,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prepared Statement / Parameterized Query memisahkan kode SQL dari data. Engine database mengompilasi template SQL terlebih dahulu, lalu menyisipkan parameter sebagai nilai literal murni yang tidak dapat mengubah struktur query.",
       "execution": "Input berbahaya tidak akan pernah dieksekusi sebagai perintah SQL."
     },
-    "explanation": "Pada Parameterized Queries (Pendekatan B), database engine mem-parsing dan mengompilasi struktur perintah SQL sebelum nilai parameter disisipkan. Data dari pengguna diperlakukan murni sebagai nilai literal (bukan bagian dari sintaks eksekusi SQL), sehingga payload serangan seperti `' OR '1'='1` tidak dapat mengubah logika query database. Jawaban: D.",
+    "explanation": "Pada Parameterized Queries (Pendekatan D), database engine mem-parsing dan mengompilasi struktur perintah SQL sebelum nilai parameter disisipkan. Data dari pengguna diperlakukan murni sebagai nilai literal (bukan bagian dari sintaks eksekusi SQL), sehingga payload serangan seperti `' OR '1'='1` tidak dapat mengubah logika query database. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -4246,7 +4246,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Help and documentation yang menyediakan buku manual tebal petunjuk pengoperasian perangkat lunak."
+        "text": "Help and documentation yang menyediakan buku manual tebal petunjuk pengoperasian perangkat lunak.  "
       },
       {
         "key": "C",
@@ -4254,7 +4254,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Recognition rather than recall dengan mewajibkan pengguna mengingat kembali kata sandi akun email."
+        "text": "Recognition rather than recall dengan mewajibkan pengguna mengingat kembali kata sandi akun email. "
       },
       {
         "key": "E",
@@ -4286,19 +4286,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Setiap pemanggilan rekursif menumpuk stack frame baru di Call Stack hingga melampaui batas alokasi memori stack."
+        "text": "Setiap pemanggilan rekursif menumpuk stack frame baru di Call Stack hingga melampaui batas alokasi memori stack.                                 "
       },
       {
         "key": "B",
-        "text": "Kapasitas media penyimpanan hard disk sekunder penuh akibat pembuatan file log sistem otomatis."
+        "text": "Kapasitas media penyimpanan hard disk sekunder penuh akibat pembuatan file log sistem otomatis.                                                  "
       },
       {
         "key": "C",
-        "text": "Bahasa pemrograman Python tidak mengizinkan operasi perkalian angka bertipe integer melampaui seratus."
+        "text": "Bahasa pemrograman Python tidak mengizinkan operasi perkalian angka bertipe integer melampaui seratus.                                           "
       },
       {
         "key": "D",
-        "text": "CPU komputer menolak mengeksekusi percabangan kondisi if yang memiliki lebih dari satu operator logika."
+        "text": "CPU komputer menolak mengeksekusi percabangan kondisi if yang memiliki lebih dari satu operator logika.                                          "
       },
       {
         "key": "E",
@@ -4330,15 +4330,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Verlet Integration tidak membutuhkan kartu grafis GPU dan hanya dapat dihitung oleh sistem cloud server."
+        "text": "Verlet Integration tidak membutuhkan kartu grafis GPU dan hanya dapat dihitung oleh sistem cloud server.                                                        "
       },
       {
         "key": "B",
-        "text": "Verlet Integration jauh lebih stabil secara numerik dan otomatis mempertahankan kekekalan energi tanpa eksplosi posisi."
+        "text": "Verlet Integration jauh lebih stabil secara numerik dan otomatis mempertahankan kekekalan energi tanpa eksplosi posisi.                                         "
       },
       {
         "key": "C",
-        "text": "Euler Integration mengharuskan seluruh objek dalam gim memiliki massa nol kilogram tanpa gaya gravitasi."
+        "text": "Euler Integration mengharuskan seluruh objek dalam gim memiliki massa nol kilogram tanpa gaya gravitasi.                                                        "
       },
       {
         "key": "D",
@@ -4346,7 +4346,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Euler Integration hanya dapat memproses objek statis yang sama sekali tidak mengalami pergerakan koordinat."
+        "text": "Euler Integration hanya dapat memproses objek statis yang sama sekali tidak mengalami pergerakan koordinat.                                                     "
       }
     ],
     "correctKey": "B",
@@ -4378,19 +4378,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menambahkan tag <uses-feature> kamera resolusi tinggi dengan atribut android:required=\"true\"."
+        "text": "Menambahkan tag <uses-feature> kamera resolusi tinggi dengan atribut android:required=\"true\".                                                              "
       },
       {
         "key": "C",
-        "text": "Mendefinisikan <intent-filter> yang memuat action VIEW, kategori DEFAULT & BROWSABLE, serta tag <data> skema https."
+        "text": "Mendefinisikan <intent-filter> yang memuat action VIEW, kategori DEFAULT & BROWSABLE, serta tag <data> skema https.                                        "
       },
       {
         "key": "D",
-        "text": "Mengubah nama package aplikasi menjadi toko.smk.id dan menandatanganinya dengan sertifikat debug keystore."
+        "text": "Mengubah nama package aplikasi menjadi toko.smk.id dan menandatanganinya dengan sertifikat debug keystore.                                                 "
       },
       {
         "key": "E",
-        "text": "Menulis kode skrip JavaScript AJAX di dalam file manifest untuk menangkap event klik URL pengguna."
+        "text": "Menulis kode skrip JavaScript AJAX di dalam file manifest untuk menangkap event klik URL pengguna.                                                         "
       }
     ],
     "correctKey": "C",

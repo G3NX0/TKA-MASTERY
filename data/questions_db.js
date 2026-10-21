@@ -414,9 +414,9 @@
       badge: "PKK & Kewirausahaan",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>`,
       description: "Analisis Peluang Usaha & SWOT, Business Model Canvas (BMC) 9 Blok, Validasi Prototipe MVP, Hak Kekayaan Intelektual (HAKI UU Paten/Merek/Cipta), Biaya Produksi & Break Even Point (BEP Unit/Rupiah), dan Digital Marketing AIDA.",
-      status: "Standar Resmi Pusmendik TKA SMK/MAK (Pilihan Wajib)",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (PKK) & BSKAP 033/H/KR/2024",
       accentColor: "#f97316",
-      totalPool: pkkPool.length || 135,
+      totalPool: pkkPool.length || 110,
       questions: pkkPool
     }
   };
