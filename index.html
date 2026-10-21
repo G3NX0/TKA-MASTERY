@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+  <meta name="format-detection" content="telephone=no, date=no, address=no, email=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>TKA Mastery Hub : Platform Latihan & Simulasi Ujian TKA</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- KaTeX for Mathematical Typesetting -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+
+  <!-- Anime.js for fluid physical springs & origin-aware accordion animation -->
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+
+  <!-- Application Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=16.0" />
+</head>
+<body>
+
+  <!-- ========================================================
+       1. FLOATING PILL NAVBAR (PINTEREST VARIANT 3)
+       ======================================================== -->
+  <header class="pill-navbar-wrapper" id="mainNavbarWrapper">
+    <nav class="pill-navbar" id="pillNavbar" aria-label="Navigasi Utama">
+      <button class="pill-badge" id="btnNavLogo" title="Kembali ke Beranda">
+        <span class="badge-icon">P</span>
+        <span class="badge-text">TKA</span>
+      </button>
+
+      <div class="nav-tabs-rail" id="navTabsRail">
+        <!-- Liquid Spring Indicator -->
+        <div class="liquid-spring-indicator" id="liquidIndicator"></div>
+
+        <button class="nav-pill-btn active" data-nav="home" id="navBtnHome">
+          <svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+          <span class="nav-label"><span class="label-full">Home</span><span class="label-short">Home</span></span>
+        </button>
+
+        <button class="nav-pill-btn" data-nav="mtk" id="navBtnMtk">
+          <svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 13h3l3 8 4-16h8"/>
+          </svg>
+          <span class="nav-label"><span class="label-full">Matematika</span><span class="label-short">MTK</span></span>
+        </button>
+
+        <button class="nav-pill-btn" data-nav="ind" id="navBtnInd">
+          <svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+          </svg>
+          <span class="nav-label"><span class="label-full">B. Indonesia</span><span class="label-short">IND</span></span>
+        </button>
+
+        <button class="nav-pill-btn" data-nav="eng" id="navBtnEng">
+          <svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span class="nav-label"><span class="label-full">B. Inggris</span><span class="label-short">ENG</span></span>
+        </button>
+
+        <button class="nav-pill-btn diagnostic-pill" data-nav="diag" id="navBtnDiag">
+          <svg class="nav-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+          </svg>
+          <span class="nav-label"><span class="label-full">Tes Diagnostik</span><span class="label-short">Diag</span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================
+       2. WORKSTATION MAIN CONTAINER
+       ======================================================== -->
+  <main class="mastery-stage" id="masteryStage">
+
+    <!-- ==========================================
+         VIEW 1: HOME (STUDIO WORKSTATION DECK)
+         ========================================== -->
+    <section class="stage-view active" id="viewHome">
+      <div class="home-hero-section">
+        <h1 class="hero-headline">Pusat Latihan TKA</h1>
+        <p class="hero-subheadline">
+          Platform belajar mandiri untuk persiapan Tes Kemampuan Akademik. Dilengkapi panduan pengerjaan interaktif, simulasi ujian terstandar, dan pembahasan lengkap per sub-materi.
+        </p>
+
+        <!-- New Diagnostic Quick-Action Banner -->
+        <div class="diagnostic-hero-banner" id="btnLaunchDiagnosticBanner">
+          <div class="diag-banner-content">
+            <span class="diag-banner-badge">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="vertical-align: -1px; margin-right: 5px;">
+                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+              </svg>TES DIAGNOSTIK AWAL (15 SOAL GABUNGAN)
+            </span>
+            <h3 class="diag-banner-title">Bingung Harus Mulai dari Mana?</h3>
+            <p class="diag-banner-desc">Uji kemampuan kilat (5 MTK, 5 B. Indo, 5 B. Inggris) untuk menemukan materi yang perlu diprioritaskan.</p>
+          </div>
+          <button class="btn-diag-cta" id="btnStartDiagnosticCta">
+            <span>Mulai Tes Diagnostik</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3D Panorama Curved Stage for the 3 Primary Subject Cards -->
+      <!-- Subject Category Filter Switcher -->
+      <div class="deck-group-switcher" id="deckGroupSwitcher">
+        <button class="btn-group-tab active" data-deck="wajib">
+          <span class="tab-label-full">Mapel Wajib (3 Mapel)</span>
+          <span class="tab-label-short">Mapel Wajib (3)</span>
+        </button>
+        <button class="btn-group-tab" data-deck="lanjut">
+          <span class="tab-label-full">Mapel Tingkat Lanjut (3 Mapel)</span>
+          <span class="tab-label-short">Tingkat Lanjut (3)</span>
+        </button>
+      </div>
+
+      <!-- 3D Panorama Curved Stage for Subject Cards -->
+      <div class="panorama-stage-wrapper">
+        <div class="cards-deck-container" id="cardsDeckContainer">
+          <!-- Rendered dynamically with 3D panorama orientation by app.js -->
+        </div>
+
+        <!-- Bespoke Cyber-Cockpit Curved Orbit Controller -->
+        <div class="mobile-panorama-nav" id="mobilePanoramaNav">
+          <button class="btn-pano-pill" data-pano="ind" title="Pindah ke Bahasa Indonesia">
+            <span class="pano-pill-badge ind">IND</span>
+            <span class="pano-pill-label">Indo</span>
+          </button>
+          <button class="btn-pano-pill active" data-pano="mtk" title="Pindah ke Matematika">
+            <span class="pano-pill-badge mtk">MTK</span>
+            <span class="pano-pill-label">MTK</span>
+          </button>
+          <button class="btn-pano-pill" data-pano="eng" title="Pindah ke Bahasa Inggris">
+            <span class="pano-pill-badge eng">ENG</span>
+            <span class="pano-pill-label">Inggris</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Tactical Operational Strip -->
+      <div class="tactical-banner">
+        <div class="banner-stat">
+          <span class="stat-number highlight-indigo" id="homeTotalSoalStat">3.375</span>
+          <span class="stat-caption">Total Bank Soal (25 Mapel)</span>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-stat">
+          <span class="stat-number highlight-red">3 Peringatan</span>
+          <span class="stat-caption">Proteksi Fokus Ujian</span>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-stat">
+          <span class="stat-number highlight-sky">Offline</span>
+          <span class="stat-caption">Dapat Diakses Tanpa Internet</span>
+        </div>
+        <div class="banner-divider"></div>
+        <div class="banner-stat">
+          <span class="stat-number highlight-green">KaTeX</span>
+          <span class="stat-caption">Formula & Rumus Presisi</span>
+        </div>
+      </div>
+
+      <!-- 19 Mata Uji Pilihan Jenjang SMA & Vokasi (4 Kluster Pusmendik) -->
+      <div class="elective-catalog-wrap" id="electiveCatalogWrap">
+        <div class="elective-catalog-header">
+          <div class="elective-header-left">
+            <span class="elective-badge">STANDAR PUSMENDIK &amp; BSKAP 033/H/KR/2022</span>
+            <h3 class="elective-title">Katalog 19 Mata Uji Pilihan (4 Kluster Akademik &amp; Vokasi)</h3>
+            <p class="elective-desc">Spesifikasi komprehensif 2.565 soal autentik: Saintek Inti (405), Soshum Inti (540), Teknologi &amp; Vokasi (675), serta Bahasa Asing &amp; Budaya (945).</p>
+          </div>
+          <button class="btn-toggle-elective" id="btnToggleElectiveCatalog" aria-expanded="false">
+            <span id="toggleElectiveLabel">Buka Katalog 19 Mapel Pilihan</span>
+            <svg id="toggleElectiveIcon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+        </div>
+
+        <div class="elective-grid-wrapper hidden" id="electiveGridWrapper">
+          <!-- Cluster Filter Pill Switcher -->
+          <div class="elective-cluster-tabs" id="electiveClusterTabs">
+            <button class="btn-cluster-tab active" data-cluster="all">Semua (19 Mapel)</button>
+            <button class="btn-cluster-tab" data-cluster="kluster-1">Kluster 1: Saintek Inti (3)</button>
+            <button class="btn-cluster-tab" data-cluster="kluster-2">Kluster 2: Soshum Inti (4)</button>
+            <button class="btn-cluster-tab" data-cluster="kluster-3">Kluster 3: Teknologi &amp; Vokasi (5)</button>
+            <button class="btn-cluster-tab" data-cluster="kluster-4">Kluster 4: Bahasa &amp; Budaya (7)</button>
+          </div>
+
+          <div class="elective-grid-container" id="electiveGridContainer">
+            <!-- Rendered dynamically from window.TKA_ELECTIVE_CATALOG -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 2: DEDICATED SUBJECT PAGE (HALAMAN SUBJEK)
+         ========================================== -->
+    <section class="stage-view" id="viewSubject">
+      <div class="subject-hub-header">
+        <button class="btn-return-home" id="btnSubjectBackToHome">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span>Kembali ke Beranda</span>
+        </button>
+        <div class="subject-hub-titles">
+          <h2 class="subject-hub-title" id="subjectHubTitle">Matematika</h2>
+          <p class="subject-hub-desc" id="subjectHubDesc">Fokus pada pemodelan aljabar, kalkulus terapan, geometri ruang, dan statistika inferensial.</p>
+        </div>
+      </div>
+
+      <!-- Two Big Action Launchpads: Latihan vs Simulasi -->
+      <div class="mode-launchpads-grid">
+        <!-- Launchpad A: Training Lab -->
+        <div class="launchpad-card latihan" id="launchpadLatihan">
+          <div class="launchpad-badge green">MODE LATIHAN MANDIRI</div>
+          <h3 class="launchpad-title">Training Lab</h3>
+          <p class="launchpad-summary">
+            Sesi santai tanpa batas waktu. Buka konsep, formula kunci, dan langkah eksekusi kapan pun Anda butuhkan.
+          </p>
+
+          <div class="launchpad-level-picker">
+            <span class="picker-label">PILIH TINGKAT KESULITAN:</span>
+            <!-- Strictly 3 Levels: Mudah, Sedang, Sulit -->
+            <div class="level-pills-row">
+              <button class="level-pill active" data-diff="easy">Mudah</button>
+              <button class="level-pill" data-diff="medium">Sedang</button>
+              <button class="level-pill" data-diff="hard">Sulit</button>
+            </div>
+          </div>
+
+          <button class="btn-launch-mode green" id="btnStartLatihan">
+            <span>Buka Sesi Latihan</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+
+        <!-- Launchpad B: Exam Arena -->
+        <div class="launchpad-card simulasi" id="launchpadSimulasi">
+          <div class="launchpad-badge red">MODE SIMULASI REALISTIK</div>
+          <h3 class="launchpad-title">The Exam Arena</h3>
+          <p class="launchpad-summary">
+            Kondisi ujian sesungguhnya. Wajib layar penuh (F11), batas waktu 30 menit, dan sistem pengawasan 3-Strike Warning. Clue dan rumus dinonaktifkan.
+          </p>
+
+          <div class="sim-spec-list">
+            <div class="sim-spec-row">
+              <span class="spec-k">Format Ujian:</span>
+              <span class="spec-v">Campur HOTS Acak</span>
+            </div>
+            <div class="sim-spec-row">
+              <span class="spec-k">Waktu Pengerjaan:</span>
+              <span class="spec-v">30 Menit (Hitung Mundur)</span>
+            </div>
+            <div class="sim-spec-row">
+              <span class="spec-k">Integritas Layar:</span>
+              <span class="spec-v">3-Strike Auto Submit</span>
+            </div>
+          </div>
+
+          <button class="btn-launch-mode red" id="btnStartSimulasi">
+            <span>Masuk Arena Simulasi</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 3: WORKSPACE (PRACTICE / EXAM STAGE)
+         ========================================== -->
+    <section class="stage-view" id="viewWorkspace">
+      <!-- Operational Bar -->
+      <div class="workspace-bar">
+        <div class="bar-left">
+          <button class="btn-quit-session" id="btnQuitSession" title="Keluar ke Halaman Subjek">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+            <span>Kembali</span>
+          </button>
+          <div class="bar-subject-info">
+            <span class="info-subject" id="infoSubjectName">Matematika</span>
+            <span class="info-mode-badge" id="infoModeBadge">LATIHAN</span>
+          </div>
+        </div>
+
+        <div class="bar-right">
+          <!-- Strike Meter (Simulation Only) -->
+          <div class="strike-hud hidden" id="hudStrikeBox">
+            <span class="hud-title">STRIKE</span>
+            <div class="hud-strike-dots">
+              <span class="dot-strike" data-s="1"></span>
+              <span class="dot-strike" data-s="2"></span>
+              <span class="dot-strike" data-s="3"></span>
+            </div>
+          </div>
+
+          <!-- Countdown Timer (Simulation Only) -->
+          <div class="timer-hud hidden" id="hudTimerBox">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+            <span id="hudTimerDigits">30:00</span>
+          </div>
+
+          <!-- Fullscreen (F11) Toggle Button -->
+          <button class="btn-workspace-action" id="btnToggleFullscreen" title="Layar Penuh (F11)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+            </svg>
+            <span class="fs-text">Layar Penuh</span>
+          </button>
+
+          <!-- Navigator Chip Drawer Toggle -->
+          <button class="btn-open-grid" id="btnOpenGridDrawer">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+              <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+            </svg>
+            <span id="gridDrawerIndicator">1 / 20</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 2-Column Desktop Workstation Grid (PSAJ/UTBK Inspired) -->
+      <div class="workspace-grid-layout">
+        <!-- Main Column: Question Paper (~72%) -->
+        <div class="workspace-main-column">
+          <div class="question-paper-card">
+            <!-- Structured CBT Header: Top Row Badges + Dedicated Topic Banner -->
+            <div class="paper-header-container">
+              <div class="paper-top-row">
+                <div class="paper-meta-left">
+                  <span class="paper-q-num" id="paperQNum">SOAL 01</span>
+                  <span class="paper-q-type-badge" id="paperQTypeBadge">PILIHAN GANDA</span>
+                  <span class="paper-q-materi-badge" id="paperQMateriBadge">MATERI</span>
+                </div>
+                <div class="paper-meta-right">
+                  <span class="paper-q-diff" id="paperQDiff">SEDANG</span>
+                </div>
+              </div>
+              <div class="paper-topic-bar" id="paperTopicBar">
+                <span class="topic-bar-prefix">SUBMATERI:</span>
+                <span class="paper-q-topic" id="paperQTopic">Fungsi Komposisi & Invers</span>
+              </div>
+            </div>
+
+            <!-- Question Body Text -->
+            <div class="paper-question-text" id="paperQText">
+              <!-- Rendered with KaTeX -->
+            </div>
+
+            <!-- Options Container (Supports Single Choice, Multi-Select Checkboxes, and Benar/Salah Table) -->
+            <div class="paper-options-list" id="paperOptionsList">
+              <!-- Rendered dynamically -->
+            </div>
+
+            <!-- Scaffolding Tools (Inline Contextual Accordion Stack) -->
+            <div class="scaffold-accordion-stack" id="scaffoldingBottomPanel">
+              
+              <!-- Item 1: Rumus & Teorema -->
+              <div class="scaffold-item" id="scaffoldItemFormula">
+                <button type="button" class="scaffold-header-btn" id="btnToggleFormulaHud" aria-expanded="false">
+                  <div class="scaffold-header-left">
+                    <span class="scaffold-icon-box blue">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+                    </span>
+                    <span class="scaffold-header-title" id="formulaHudBtnLabel">Rumus &amp; Teorema</span>
+                  </div>
+                  <div class="scaffold-header-right">
+                    <span class="scaffold-status-pill" id="formulaStatusPill">Buka</span>
+                    <svg class="scaffold-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                  </div>
+                </button>
+                <div class="scaffold-content-collapse" id="drawerFormulaHud">
+                  <div class="scaffold-inner-body">
+                    <div class="scaffold-body-header" id="formulaHudHeader">TEOREMA &amp; FORMULA UMUM:</div>
+                    <div class="drawer-formula-body" id="formulaHudContent"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 2: Clue 1: Konsep Kunci -->
+              <div class="scaffold-item" id="scaffoldItemClue1">
+                <button type="button" class="scaffold-header-btn" id="btnToggleClue1" aria-expanded="false">
+                  <div class="scaffold-header-left">
+                    <span class="scaffold-icon-box amber">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+                    </span>
+                    <span class="scaffold-header-title">Petunjuk 1: Konsep Kunci</span>
+                  </div>
+                  <div class="scaffold-header-right">
+                    <span class="scaffold-status-pill" id="clue1StatusPill">Buka</span>
+                    <svg class="scaffold-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                  </div>
+                </button>
+                <div class="scaffold-content-collapse" id="drawerClue1">
+                  <div class="scaffold-inner-body">
+                    <div class="scaffold-body-header">PETUNJUK KONSEP DASAR:</div>
+                    <div id="clue1Body"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 3: Clue 2: Langkah Awal -->
+              <div class="scaffold-item" id="scaffoldItemClue2">
+                <button type="button" class="scaffold-header-btn" id="btnToggleClue2" aria-expanded="false">
+                  <div class="scaffold-header-left">
+                    <span class="scaffold-icon-box amber">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                    </span>
+                    <span class="scaffold-header-title">Petunjuk 2: Langkah Awal</span>
+                  </div>
+                  <div class="scaffold-header-right">
+                    <span class="scaffold-status-pill" id="clue2StatusPill">Buka</span>
+                    <svg class="scaffold-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                  </div>
+                </button>
+                <div class="scaffold-content-collapse" id="drawerClue2">
+                  <div class="scaffold-inner-body">
+                    <div class="scaffold-body-header">LANGKAH EKSEKUSI AWAL:</div>
+                    <div id="clue2Body"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Item 4: Panduan Pengerjaan Lengkap -->
+              <div class="scaffold-item" id="scaffoldItemSolution">
+                <button type="button" class="scaffold-header-btn" id="btnToggleSolution" aria-expanded="false">
+                  <div class="scaffold-header-left">
+                    <span class="scaffold-icon-box purple">
+                      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </span>
+                    <span class="scaffold-header-title">Panduan Pengerjaan Lengkap</span>
+                  </div>
+                  <div class="scaffold-header-right">
+                    <span class="scaffold-status-pill" id="solutionStatusPill">Buka</span>
+                    <svg class="scaffold-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+                  </div>
+                </button>
+                <div class="scaffold-content-collapse" id="drawerSolution">
+                  <div class="scaffold-inner-body">
+                    <div class="scaffold-body-header">PANDUAN PENGERJAAN DETAIL:</div>
+                    <div class="drawer-solution-body" id="solutionBodyContent"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Navigation Footer -->
+            <footer class="paper-footer">
+              <button class="btn-paper-nav" id="btnPaperPrev" aria-label="Soal Sebelumnya">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M15 18l-6-6 6-6"/></svg>
+                <span>Sebelumnya</span>
+              </button>
+
+              <!-- Flag / Ragu-Ragu Button (Standard Indonesian CBT Requirement) -->
+              <button class="btn-paper-flag" id="btnPaperFlag" title="Tandai soal ini jika ragu-ragu" aria-label="Tandai Ragu-Ragu">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+                  <line x1="4" y1="22" x2="4" y2="15"/>
+                </svg>
+                <span class="paper-flag-label">Ragu</span>
+              </button>
+
+              <div class="paper-footer-right">
+                <button class="btn-paper-nav primary" id="btnPaperNext" aria-label="Soal Selanjutnya">
+                  <span>Selanjutnya</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+                </button>
+
+                <!-- Normal Exam Submit Button -->
+                <button class="btn-paper-submit hidden" id="btnPaperSubmit">
+                  <span>Kumpulkan</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+                </button>
+
+                <!-- Review Mode Button: Back to Results (NO false re-submit!) -->
+                <button class="btn-review-back-results hidden" id="btnReviewBackResults">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                  <span>Hasil Ujian</span>
+                </button>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+        <!-- Sidebar Column: Dedicated CBT Question Navigator (~28%) -->
+        <aside class="workspace-sidebar-column">
+          <div class="cbt-navigator-card" id="cbtNavigatorCard">
+            <div class="cbt-nav-header">
+              <div class="cbt-nav-title-row">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+                  <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                  <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+                </svg>
+                <h4 class="cbt-nav-title">Navigasi Soal</h4>
+              </div>
+              <span class="cbt-progress-badge" id="cbtProgressBadge">0 / 15</span>
+            </div>
+
+            <!-- Chips Grid Always Visible on Desktop (With Fluid Gliding Pill) -->
+            <div class="cbt-chips-grid" id="cbtChipsGrid">
+              <!-- Rendered dynamically by app.js -->
+            </div>
+
+            <!-- Status Legend -->
+            <div class="cbt-legend-row">
+              <div class="legend-item"><span class="legend-dot active"></span><span>Aktif</span></div>
+              <div class="legend-item"><span class="legend-dot answered"></span><span>Dijawab</span></div>
+              <div class="legend-item"><span class="legend-dot flagged"></span><span>Ragu</span></div>
+              <div class="legend-item"><span class="legend-dot empty"></span><span>Kosong</span></div>
+            </div>
+
+            <!-- Permanent Sidebar Submit Button (Hidden in Review Mode) -->
+            <div class="cbt-sidebar-action" id="cbtSidebarSubmitBox">
+              <button class="btn-cbt-submit" id="btnCbtSidebarSubmit">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+                <span>Kumpulkan Ujian Sekarang</span>
+              </button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         VIEW 4: RESULTS VIEW (FULL-WIDTH 2-COLUMN DASHBOARD)
+         ========================================== -->
+    <section class="stage-view" id="viewResults">
+      <div class="results-dashboard-grid">
+        <!-- Left Column: Metrics & Competency Matrix (~45%) -->
+        <div class="results-summary-column">
+          <div class="results-card-inner">
+            <div class="score-badge-circle">
+              <span class="score-num" id="reportScore">85.0</span>
+              <span class="score-caption">Skor Akhir</span>
+            </div>
+
+            <h2 class="results-headline" id="reportTitle">Analisis Hasil Ujian</h2>
+            <p class="results-subheadline" id="reportSubtitle">Evaluasi perolehan nilai, akurasi, dan efisiensi waktu pengerjaan.</p>
+
+            <!-- Standard Summary Stats -->
+            <div class="results-metrics-grid">
+              <div class="metric-box">
+                <span class="metric-val green" id="reportCorrect">0</span>
+                <span class="metric-lbl">Jawaban Benar</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val red" id="reportWrong">0</span>
+                <span class="metric-lbl">Jawaban Salah</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val" id="reportTime">00:00</span>
+                <span class="metric-lbl">Durasi Sesi</span>
+              </div>
+              <div class="metric-box">
+                <span class="metric-val" id="reportPace">0.0 dtk</span>
+                <span class="metric-lbl">Pace per Soal</span>
+              </div>
+            </div>
+
+            <!-- Diagnostic Matrix Section -->
+            <div class="diagnostic-evaluation-box" id="diagnosticEvaluationBox">
+              <div class="diag-eval-header">
+                <span class="diag-eval-badge">PETA KOMPETENSI 3 MATA PELAJARAN</span>
+              </div>
+
+              <div class="diag-breakdown-row">
+                <div class="diag-sub-metric mtk">
+                  <div class="diag-sub-metric-header">
+                    <span class="d-sub-title">Matematika</span>
+                    <div class="d-sub-meta-group">
+                      <span class="d-sub-score" id="diagMtkScore">0%</span>
+                      <span class="d-sub-status" id="diagMtkStatus">Perlu Penguatan</span>
+                    </div>
+                  </div>
+                  <div class="diag-sub-topics" id="diagMtkTopicList"></div>
+                </div>
+                <div class="diag-sub-metric ind">
+                  <div class="diag-sub-metric-header">
+                    <span class="d-sub-title">Bahasa Indonesia</span>
+                    <div class="d-sub-meta-group">
+                      <span class="d-sub-score" id="diagIndScore">0%</span>
+                      <span class="d-sub-status" id="diagIndStatus">Cukup</span>
+                    </div>
+                  </div>
+                  <div class="diag-sub-topics" id="diagIndTopicList"></div>
+                </div>
+                <div class="diag-sub-metric eng">
+                  <div class="diag-sub-metric-header">
+                    <span class="d-sub-title">Bahasa Inggris</span>
+                    <div class="d-sub-meta-group">
+                      <span class="d-sub-score" id="diagEngScore">0%</span>
+                      <span class="d-sub-status" id="diagEngStatus">Baik</span>
+                    </div>
+                  </div>
+                  <div class="diag-sub-topics" id="diagEngTopicList"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="results-actions-row">
+              <button class="btn-result-action review" id="btnReportReview">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <span>Tinjau Pembahasan & Kunci</span>
+              </button>
+              <button class="btn-result-action home" id="btnReportReturn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+                <span>Kembali ke Beranda</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Actionable Priority Learning Cards (~55%) -->
+        <div class="results-actionable-column">
+          <div class="priority-paths-card">
+            <div class="priority-header">
+              <div class="priority-title-row">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2.2">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+                </svg>
+                <h3 class="priority-main-title">Prioritas Jalur Belajar Terkurasi</h3>
+              </div>
+              <p class="priority-main-sub">Rekomendasi modul latihan mandiri yang disusun otomatis berdasarkan kelemahan spesifik pengerjaan Anda.</p>
+            </div>
+
+            <div class="priority-cards-list" id="priorityCardsList">
+              <!-- Dynamically populated with one-click direct action cards -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================
+       3. MODAL: 3-STRIKE PROCTORING WARNING
+       ======================================================== -->
+  <div class="proctor-modal-overlay hidden" id="proctorModal">
+    <div class="proctor-card">
+      <div class="proctor-icon-box">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#f43f5e" stroke-width="2.5">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+      </div>
+      <h3 class="proctor-title">PERINGATAN INTEGRITAS LAYAR</h3>
+      <p class="proctor-desc" id="proctorMessageText">
+        Terdeteksi beralih aplikasi atau keluar dari layar penuh. Ujian simulasi TKA menuntut integritas dan fokus penuh.
+      </p>
+      <div class="strike-warning-banner">
+        <span class="strike-banner-count" id="proctorStrikeCount">STRIKE 1 DARI 3</span>
+        <p class="strike-banner-desc">Jika mencapai 3 kali pelanggaran, lembar jawaban otomatis dikumpulkan!</p>
+      </div>
+      <button class="btn-proctor-continue" id="btnProctorResume">
+        <span>Lanjutkan Ujian (Kembali ke Layar Penuh)</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       4. DRAWER: QUESTION NUMBER NAVIGATOR
+       ======================================================== -->
+  <div class="drawer-overlay hidden" id="gridDrawerOverlay">
+    <div class="grid-drawer-sheet" id="gridDrawerSheet">
+      <div class="drawer-top-bar">
+        <h4>Navigasi Nomor Soal</h4>
+        <button class="btn-close-sheet" id="btnCloseGridDrawer">&times;</button>
+      </div>
+      <div class="grid-numbers-container" id="gridNumbersContainer"></div>
+      <div class="drawer-footer-action">
+        <button class="btn-drawer-submit" id="btnGridDrawerSubmit">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 13l4 4L19 7"/></svg>
+          <span>Kumpulkan Ujian Sekarang</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================
+       5. MODAL: PRE-SUBMISSION AUDIT SHEET & KONFIRMASI LEMBAR JAWABAN
+       ======================================================== -->
+  <div class="app-modal-overlay hidden" id="appConfirmModal" style="display: none; position: fixed; inset: 0; z-index: 2900;">
+    <div class="app-modal-card audit-modal-card">
+      <div class="app-modal-header">
+        <div class="app-modal-icon-badge amber" id="appConfirmIconBadge">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M9 11l3 3L22 4"/>
+            <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+        </div>
+        <div class="audit-header-titles">
+          <h3 class="app-modal-title" id="appConfirmTitle">Rekapitulasi Lembar Jawaban</h3>
+          <span class="audit-subtitle">Pemeriksaan final kesiapan sebelum pengumpulan resmi</span>
+        </div>
+      </div>
+
+      <!-- Stat Counters Row: Terjawab, Ragu-Ragu, Kosong -->
+      <div class="audit-stats-row">
+        <div class="audit-stat-pill green">
+          <span class="stat-count" id="auditCountAnswered">0</span>
+          <span class="stat-label">Sudah Terjawab</span>
+        </div>
+        <div class="audit-stat-pill amber">
+          <span class="stat-count" id="auditCountFlagged">0</span>
+          <span class="stat-label">Ragu-Ragu</span>
+        </div>
+        <div class="audit-stat-pill red">
+          <span class="stat-count" id="auditCountEmpty">0</span>
+          <span class="stat-label">Belum Diisi</span>
+        </div>
+      </div>
+
+      <!-- Alert Guard Banner (Shown if there are unanswered or flagged questions) -->
+      <div class="audit-warning-box hidden" id="auditWarningBox">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+          <line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+        </svg>
+        <span id="auditWarningText">Peringatan: Masih terdapat butir soal yang belum Anda selesaikan.</span>
+      </div>
+
+      <!-- Interactive Question Chips Map (Click to Jump) -->
+      <div class="audit-chips-section">
+        <span class="audit-section-label">PETA STATUS SOAL (KLIK NOMOR UNTUK MENINJAU):</span>
+        <div class="audit-chips-grid" id="auditChipsGrid">
+          <!-- Populated dynamically by app.js -->
+        </div>
+      </div>
+
+      <p class="app-modal-message" id="appConfirmMessage">
+        Pastikan seluruh jawaban Anda telah diperiksa. Setelah lembar jawaban dikumpulkan, sesi ujian resmi akan ditutup dan nilai dihitung secara permanen.
+      </p>
+
+      <div class="app-modal-actions">
+        <button class="btn-modal-cancel" id="btnAppConfirmCancel">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+          <span>Periksa Kembali</span>
+        </button>
+        <button class="btn-modal-confirm" id="btnAppConfirmOk">
+          <span>Ya, Kumpulkan Ujian</span>
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><polyline points="20 6 9 17 4 12"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Database & Application Logic (Modular Architecture) -->
+  <script src="data/questions_mtk.js?v=13.0"></script>
+  <script src="data/questions_ind.js?v=13.0"></script>
+  <script src="data/questions_eng.js?v=13.0"></script>
+  <script src="data/questions_mtk_lanjut.js?v=13.0"></script>
+  <script src="data/questions_ind_lanjut.js?v=13.0"></script>
+  <script src="data/questions_eng_lanjut.js?v=13.0"></script>
+  <script src="data/questions_fisika.js?v=13.0"></script>
+  <script src="data/questions_kimia.js?v=13.0"></script>
+  <script src="data/questions_biologi.js?v=13.0"></script>
+  <script src="data/questions_rpl.js?v=13.0"></script>
+  <script src="data/questions_tkj.js?v=13.0"></script>
+  <script src="data/questions_rekayasa_desain.js?v=13.0"></script>
+  <script src="data/questions_ekonomi.js?v=13.0"></script>
+  <script src="data/questions_geografi.js?v=13.0"></script>
+  <script src="data/questions_sosiologi.js?v=13.0"></script>
+  <script src="data/questions_sejarah_lanjut.js?v=13.0"></script>
+  <script src="data/questions_informatika.js?v=13.0"></script>
+  <script src="data/questions_bahasa_arab.js?v=13.0"></script>
+  <script src="data/questions_bahasa_jepang.js?v=13.0"></script>
+  <script src="data/questions_bahasa_mandarin.js?v=13.0"></script>
+  <script src="data/questions_bahasa_jerman.js?v=13.0"></script>
+  <script src="data/questions_bahasa_prancis.js?v=13.0"></script>
+  <script src="data/questions_bahasa_korea.js?v=13.0"></script>
+  <script src="data/questions_antropologi.js?v=13.0"></script>
+  <script src="data/questions_pkk.js?v=13.0"></script>
+  <script src="data/questions_db.js?v=13.0"></script>
+  <script src="app.js?v=16.0"></script>
+</body>
+</html>
