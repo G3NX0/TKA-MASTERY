@@ -99,9 +99,9 @@
       badge: "Kalkulus & Vektor Analitik",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19L19 4"/><path d="M4 4h7v7"/><circle cx="17" cy="17" r="3"/></svg>`,
       description: "Polinomial & Teorema Sisa, Matriks Ordo Lanjut & Transformasi Geometri, Vektor Analitik R3, Limit Trigonometri & Tak Hingga, Turunan & Integral Lanjut.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA Pilihan",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Matematika Tingkat Lanjut) & BSKAP 033/H/KR/2024",
       accentColor: "#f59e0b",
-      totalPool: mtkLanjutPool.length || 135,
+      totalPool: mtkLanjutPool.length || 110,
       questions: mtkLanjutPool
     },
 
