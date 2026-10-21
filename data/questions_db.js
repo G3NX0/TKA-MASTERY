@@ -271,17 +271,17 @@
     },
 
     // =========================================================================
-    // 16. SEJARAH TINGKAT LANJUT (135 SOAL AUTENTIK SOSHUM)
+    // 16. SEJARAH TINGKAT LANJUT (110 SOAL AUTENTIK PUSMENDIK 2026)
     // =========================================================================
     sejarah_lanjut: {
       id: "sejarah_lanjut",
       title: "Sejarah Tingkat Lanjut",
-      badge: "Historiografi & Diplomasi",
+      badge: "Sejarah Lanjut Soshum — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>`,
       description: "Metode Penelitian Sejarah (Heuristik, Kritik Sumber, Interpretasi, Historiografi), Pergerakan Nasional & Diplomasi Kemerdekaan RI, Dinamika Perang Dingin & Gerakan Non-Blok, serta Sejarah Dunia.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA Pilihan",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Sejarah Lanjut) & BSKAP 033/H/KR/2024",
       accentColor: "#d97706",
-      totalPool: sejarahLanjutPool.length || 135,
+      totalPool: sejarahLanjutPool.length || 110,
       questions: sejarahLanjutPool
     },
 
