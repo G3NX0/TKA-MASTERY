@@ -612,7 +612,7 @@
           </div>
           <span class="elective-status-indicator ${item.isReady ? 'ready' : 'pending'}">
             <span class="status-dot"></span>
-            ${item.isReady ? '135 Soal Aktif' : 'Antrean Rilis'}
+            ${item.isReady ? ((window.TKA_DATABASE && window.TKA_DATABASE[item.targetSubjectKey]) ? window.TKA_DATABASE[item.targetSubjectKey].totalPool + ' Soal TKA 2026' : (item.statusText || 'Aktif')) : 'Antrean Rilis'}
           </span>
         </div>
 
