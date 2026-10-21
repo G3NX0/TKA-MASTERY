@@ -156,12 +156,12 @@
     kimia: {
       id: "kimia",
       title: "Kimia",
-      badge: "Stoikiometri & Reaktivitas",
+      badge: "Kimia Saintek — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M10 2v7.31L4.1 19.46A2 2 0 0 0 5.82 22h12.36a2 2 0 0 0 1.72-2.54L14 9.31V2"/></svg>`,
-      description: "Struktur Atom VSEPR, Termokimia Hukum Hess, Larutan Penyangga Henderson-Hasselbalch, Hidrolisis Garam, dan Sel Volta Elektrolisis Faraday.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (MIPA)",
+      description: "Struktur Atom VSEPR, Termokimia Hess & Born-Haber, Buffer Henderson-Hasselbalch, Kinetika Steady-State, Ksp & Sel Elektrokimia.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Kimia) & BSKAP 033/H/KR/2024",
       accentColor: "#14b8a6",
-      totalPool: kimiaPool.length || 135,
+      totalPool: kimiaPool.length || 110,
       questions: kimiaPool
     },
 
