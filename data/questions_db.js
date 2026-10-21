@@ -141,12 +141,12 @@
     fisika: {
       id: "fisika",
       title: "Fisika",
-      badge: "Mekanika & Gelombang",
+      badge: "Fisika Saintek — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M12 2a10 10 0 0 0-7.07 17.07"/><path d="M19.07 4.93A10 10 0 0 0 12 2"/></svg>`,
       description: "Kinematika Dinamika Newton, Fluida Statis/Dinamis Bernoulli, Termodinamika Mesin Carnot, Gelombang Bunyi Doppler, RLC Bolak-Balik, dan Efek Fotolistrik.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (MIPA)",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Fisika) & BSKAP 033/H/KR/2024",
       accentColor: "#38bdf8",
-      totalPool: fisikaPool.length || 135,
+      totalPool: fisikaPool.length || 110,
       questions: fisikaPool
     },
 
