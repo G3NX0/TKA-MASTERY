@@ -306,12 +306,12 @@
     bahasa_arab: {
       id: "bahasa_arab",
       title: "Bahasa Arab",
-      badge: "Nahwu & Balaghah",
+      badge: "Bahasa Arab — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`,
       description: "Tata Bahasa Nahwu-Shorof Terapan, Analisis I'rab Kalimat Majemuk, Pemahaman Wacana Faktual & Naratif Timur Tengah, serta Kosakata Institusional.",
-      status: "Standar Resmi Pusmendik TKA Bahasa Asing",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Bahasa Arab) & BSKAP 033/H/KR/2024",
       accentColor: "#059669",
-      totalPool: bahasaArabPool.length || 135,
+      totalPool: bahasaArabPool.length || 110,
       questions: bahasaArabPool
     },
 
@@ -628,12 +628,12 @@
       clusterTag: "Bahasa Asing",
       clusterColor: "#ec4899",
       title: "Bahasa Arab",
-      badge: "Nahwu & Balaghah",
+      badge: "Bahasa Arab — TKA 2026",
       iconSvg: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>`,
       topics: "Tata Bahasa Nahwu-Shorof Terapan, Analisis I'rab Kalimat Majemuk, Pemahaman Wacana Faktual & Naratif Timur Tengah, serta Kosakata Institusional.",
       targetCompetency: "Analisis struktur i'rab gramatikal, membaca teks kontekstual gundul (tanpa harakat lengkap), dan inferensi pesan implisit artikel resmi.",
       isReady: true,
-      statusText: "135 Soal Siap Diuji"
+      statusText: "110 Soal Autentik TKA 2026"
     },
     {
       id: "bahasa-jepang",
