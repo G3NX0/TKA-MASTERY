@@ -241,17 +241,17 @@
     },
 
     // =========================================================================
-    // 14. GEOGRAFI (135 SOAL AUTENTIK SOSHUM)
+    // 14. GEOGRAFI (AUTENTIK TKA 2026 SMA/MA SOSHUM)
     // =========================================================================
     geografi: {
       id: "geografi",
       title: "Geografi",
-      badge: "Geosfer & SIG Spasial",
+      badge: "Geografi Soshum — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>`,
-      description: "Prinsip Geografi & Interpretasi Citra Penginderaan Jauh/SIG, Dinamika Litosfer & Mitigasi Tektonisme/Vulkanisme, Atmosfer & Perubahan Iklim Global, serta Tata Ruang Wilayah.",
-      status: "Standar Resmi Pusmendik TKA SMA/MA (IPS)",
+      description: "Konsep Dasar & Pendekatan Spasial Geografi, Dinamika Litosfer & Mitigasi Gempa/Vulkanisme/Tsunami, Dinamika Atmosfer & Iklim Tropis Köppen/Junghuhn, Oseanografi & Upwelling Ekman, Analisis Spasial SIG & Penginderaan Jauh Multispektral, serta Teori Lokasi & Tata Ruang Wilayah.",
+      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (Geografi) & BSKAP 033/H/KR/2024",
       accentColor: "#0ea5e9",
-      totalPool: geografiPool.length || 135,
+      totalPool: geografiPool.length || 110,
       questions: geografiPool
     },
 
