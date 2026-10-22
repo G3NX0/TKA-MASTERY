@@ -166,7 +166,12 @@ Semua tampilan dikendalikan di [app.js](file:///C:/Users/glixer/.gemini/antigrav
 4. **Prinsip Komunikasi (Principal Engineer & Lead UI/UX):**
    - Kritis, pragmatis, anti-yes-man.
    - Langsung ke inti solusi, tolak over-engineering, dan sorot trade-off teknis secara transparan.
+5. **DILARANG AUTO-PUSH JIKA ADA PERUBAHAN UI (STRICT UI REVIEW GATE):**
+   - **Instruksi Mutlak User:** *"Kalau misalnya ada perubahan UI, jangan langsung dipush ya."*
+   - Setiap ada modifikasi tampilan, layout, atau styling (baik di `index.html`, `style.css`, maupun komponen visual di `app.js`), perubahan **HARUS disimpan di lokal terlebih dahulu**.
+   - Biarkan pengguna melakukan pengujian & verifikasi visual langsung di browser lokalnya.
+   - **HANYA** eksekusi `git push` apabila pengguna telah meninjau dan secara eksplisit memerintahkan: `"push"`, `"oke push"`, atau instruksi serupa.
 
 ---
-*Updated: 2026-10-21 — TKA Mastery Hub Engineering Handover*
+*Updated: 2026-10-22 — TKA Mastery Hub Engineering Handover*
 

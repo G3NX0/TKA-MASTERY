@@ -22,7 +22,20 @@
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
 
   <!-- Application Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=26.0" />
+  <link rel="stylesheet" href="style.css?v=27.0" />
+
+  <!-- Privacy-First Analytics: GoatCounter (glixers) -->
+  <script>
+    window.goatcounter = {
+      allow_local: true,
+      path: function(p) {
+        var route = location.pathname + (location.hash || '#home');
+        window._gc_last_route = route;
+        return route;
+      }
+    };
+  </script>
+  <script data-goatcounter="https://glixers.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </head>
 <body>
 
@@ -337,21 +350,21 @@
         <!-- Main Column: Question Paper (~72%) -->
         <div class="workspace-main-column">
           <div class="question-paper-card">
-            <!-- Structured CBT Header: Top Row Badges + Dedicated Topic Banner -->
+            <!-- Structured CBT Header: Top Row Badges + Dedicated Breadcrumb Topic Strip -->
             <div class="paper-header-container">
               <div class="paper-top-row">
                 <div class="paper-meta-left">
                   <span class="paper-q-num" id="paperQNum">SOAL 01</span>
                   <span class="paper-q-type-badge" id="paperQTypeBadge">PILIHAN GANDA</span>
-                  <span class="paper-q-materi-badge" id="paperQMateriBadge">MATERI</span>
                 </div>
                 <div class="paper-meta-right">
                   <span class="paper-q-diff" id="paperQDiff">SEDANG</span>
                 </div>
               </div>
               <div class="paper-topic-bar" id="paperTopicBar">
-                <span class="topic-bar-prefix">SUBMATERI:</span>
-                <span class="paper-q-topic" id="paperQTopic">Fungsi Komposisi & Invers</span>
+                <span class="paper-q-materi-badge" id="paperQMateriBadge">MATERI</span>
+                <span class="topic-bar-separator" aria-hidden="true">•</span>
+                <span class="paper-q-topic" id="paperQTopic">Fungsi Komposisi &amp; Invers</span>
               </div>
 
               <!-- Subject-Specific Capability Tools (Furigana, Pinyin, Harakat, Periodic Table, Constants, Subnet, BEP) -->
@@ -1177,6 +1190,6 @@
   <script src="data/questions_pkk.js?v=13.0"></script>
   <script src="data/questions_db.js?v=13.0"></script>
   <script src="data/translations_foreign.js?v=3.0"></script>
-  <script src="app.js?v=25.0"></script>
+  <script src="app.js?v=27.0"></script>
 </body>
 </html>

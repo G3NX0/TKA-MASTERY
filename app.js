@@ -2220,6 +2220,21 @@
         subject: state.currentSubject
       }));
     } catch (e) {}
+
+    // Telemetry: GoatCounter SPA navigation tracking
+    try {
+      if (window.goatcounter && typeof window.goatcounter.count === 'function') {
+        const fullRoute = (location.pathname || '') + (location.hash || '#home');
+        if (window._gc_last_route !== fullRoute) {
+          window._gc_last_route = fullRoute;
+          window.goatcounter.count({
+            path: fullRoute,
+            title: document.title,
+            event: false
+          });
+        }
+      }
+    } catch (e) {}
   }
 
   // =========================================================================
@@ -3700,12 +3715,20 @@
 
     state.exam.currentIndex = index;
 
-    // Header Badges
+    // Header Badges & Breadcrumb Context Strip
     if (els.paperQMateriBadge) {
-      const materiText = q.materi || (q.topic ? q.topic.split(' ')[0] : 'MATERI');
-      els.paperQMateriBadge.textContent = materiText.toUpperCase();
-      const subj = q.subject || state.currentSubject || 'mtk';
-      els.paperQMateriBadge.className = `paper-q-materi-badge ${subj}`;
+      const materiText = (q.materi || '').trim();
+      const sep = document.querySelector('.topic-bar-separator');
+      if (materiText) {
+        els.paperQMateriBadge.textContent = materiText.toUpperCase();
+        const subj = q.subject || state.currentSubject || 'mtk';
+        els.paperQMateriBadge.className = `paper-q-materi-badge ${subj}`;
+        els.paperQMateriBadge.style.display = 'inline-flex';
+        if (sep) sep.style.display = 'inline';
+      } else {
+        els.paperQMateriBadge.style.display = 'none';
+        if (sep) sep.style.display = 'none';
+      }
     }
 
     els.paperQNum.textContent = `SOAL ${String(index + 1).padStart(2, '0')}`;
@@ -3714,17 +3737,17 @@
       easy: 'MUDAH',
       medium: 'SEDANG',
       hard: 'SULIT',
-      simulation_hots: 'HOTS SIMULASI'
+      simulation_hots: 'HOTS'
     };
     els.paperQDiff.textContent = diffLabels[q.difficulty] || (q.difficulty || 'SEDANG').toUpperCase();
     els.paperQDiff.className = `paper-q-diff ${q.difficulty || 'medium'}`;
 
     if (els.paperQTypeBadge) {
       if (q.type === 'matrix' || q.type === 'complex_table') {
-        els.paperQTypeBadge.textContent = 'TABEL BENAR-SALAH';
+        els.paperQTypeBadge.textContent = 'BENAR / SALAH';
         els.paperQTypeBadge.className = 'paper-q-type-badge matrix';
       } else if (q.type === 'multi' || q.type === 'multiple_response') {
-        els.paperQTypeBadge.textContent = 'PILIHAN GANDA KOMPLEKS (MULTI)';
+        els.paperQTypeBadge.textContent = 'PG KOMPLEKS';
         els.paperQTypeBadge.className = 'paper-q-type-badge multi';
       } else {
         els.paperQTypeBadge.textContent = 'PILIHAN GANDA';
