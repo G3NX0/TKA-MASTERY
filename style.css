@@ -7270,3 +7270,100 @@ body.modal-scroll-lock {
   }
 }
 
+/* ==========================================================================
+   INTERLINEAR FOREIGN LANGUAGE TRANSLATION ENGINE (PSAJ REFERENCE SPEC)
+   ========================================================================== */
+
+/* 1 Single Clean Toggle Pill Button in Tool Dock */
+.btn-subject-tool.mode-translate-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 8px 16px;
+  border: 2px solid #000000;
+  border-radius: 9999px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+  box-shadow: 2px 2px 0px #000000;
+  transition: transform 120ms ease, background 140ms ease, box-shadow 120ms ease;
+  user-select: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-subject-tool.mode-translate-toggle.active {
+  background: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.btn-subject-tool.mode-translate-toggle.non-translate {
+  background: var(--bg-surface, #0f1420) !important;
+  color: #94a3b8 !important;
+}
+
+.btn-subject-tool.mode-translate-toggle:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0px #000000;
+}
+
+.btn-subject-tool.mode-translate-toggle:active {
+  transform: translate(1px, 1px);
+  box-shadow: 1px 1px 0px #000000;
+}
+
+/* Visibility Control: instant 0ms toggle via CSS */
+.translation-hidden .translate-only {
+  display: none !important;
+}
+
+/* Interlinear Translation Styles (No Nested Card Container) */
+.passage-translation {
+  font-size: 13.5px;
+  color: #94a3b8;
+  border-top: 1px dashed rgba(148, 163, 184, 0.3);
+  padding-top: 8px;
+  margin-top: 8px;
+  line-height: 1.6;
+  direction: ltr !important;
+  text-align: left !important;
+  font-weight: 500;
+}
+
+.question-translation-stem {
+  font-size: 14px;
+  font-weight: 550;
+  color: #93c5fd;
+  border-top: 1px dashed rgba(59, 130, 246, 0.25);
+  padding-top: 8px;
+  margin-top: 8px;
+  margin-bottom: 6px;
+  line-height: 1.6;
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.interlinear-grammar-note {
+  font-size: 12px;
+  color: #cbd5e1;
+  margin-top: 6px;
+  padding: 5px 10px;
+  background: rgba(59, 130, 246, 0.08);
+  border-left: 3px solid #3b82f6;
+  border-radius: 4px;
+  line-height: 1.5;
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.interlinear-grammar-note .grammar-note-tag {
+  font-family: var(--font-mono, monospace);
+  font-size: 11px;
+  font-weight: 800;
+  color: #60a5fa;
+  margin-right: 4px;
+}
+
+

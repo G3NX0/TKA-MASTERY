@@ -35,7 +35,8 @@
     isModalOpen: false,
     furiganaEnabled: true,
     pinyinEnabled: true,
-    harakatEnabled: true
+    harakatEnabled: true,
+    translationEnabled: false
   };
 
   // =========================================================================
@@ -229,9 +230,12 @@
   // BESPOKE SUBJECT CAPABILITY REGISTRY & SUITE
   // =========================================================================
   const SUBJECT_CAPABILITIES = {
-    bahasa_jepang:   { furigana: true },
-    bahasa_mandarin: { pinyin: true },
-    bahasa_arab:     { harakat: true, rtl: true },
+    bahasa_jepang:   { furigana: true, translation: true },
+    bahasa_mandarin: { pinyin: true, translation: true },
+    bahasa_arab:     { harakat: true, rtl: true, translation: true },
+    bahasa_jerman:   { translation: true },
+    bahasa_prancis:  { translation: true },
+    bahasa_korea:    { translation: true },
     kimia:           { periodicTable: true },
     fisika:          { physicsConstants: true },
     tkj:             { subnetCalc: true },
@@ -1622,6 +1626,22 @@
       els.subjectToolDock.appendChild(btn);
     }
 
+    if (caps.translation) {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = `btn-subject-tool mode-translate-toggle ${state.translationEnabled ? 'active' : 'non-translate'}`;
+      btn.id = 'btnTranslateToggle';
+      btn.innerHTML = `<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1 4-10z"/></svg><span id="labelTranslateMode">${state.translationEnabled ? 'Mode Terjemah: AKTIF' : 'Mode Terjemah: NON-AKTIF'}</span>`;
+      btn.addEventListener('click', () => {
+        state.translationEnabled = !state.translationEnabled;
+        if (els.viewWorkspace) {
+          els.viewWorkspace.classList.toggle('translation-hidden', !state.translationEnabled);
+        }
+        renderSubjectTools(subj);
+      });
+      els.subjectToolDock.appendChild(btn);
+    }
+
     if (caps.periodicTable) {
       const btn = document.createElement('button');
       btn.type = 'button';
@@ -2611,6 +2631,8 @@
     state.exam.isFinished = false;
     state.exam.isReviewMode = false;
     state.exam.startTime = Date.now();
+    state.translationEnabled = false;
+    if (els.viewWorkspace) els.viewWorkspace.classList.add('translation-hidden');
 
     // Setup Workspace Meta Header
     els.infoSubjectName.textContent = sData.title;
@@ -3209,17 +3231,57 @@
     const currentSubj = q.subject || state.currentSubject || 'mtk';
     renderSubjectTools(currentSubj);
 
+    // Bespoke Subject Capability & Translation Logic (Interlinear - No Nested Card Container)
+    const caps = SUBJECT_CAPABILITIES[currentSubj];
+    let passageTransHtml = '';
+    let questionTransHtml = '';
+
+    if (caps && caps.translation) {
+      if (els.viewWorkspace) {
+        els.viewWorkspace.classList.toggle('translation-hidden', !state.translationEnabled);
+      }
+      const fTransDb = (typeof window !== 'undefined' && (window.TKA_FOREIGN_TRANSLATIONS || window.FOREIGN_TRANSLATIONS))
+        ? (window.TKA_FOREIGN_TRANSLATIONS || window.FOREIGN_TRANSLATIONS)
+        : ((typeof TKA_FOREIGN_TRANSLATIONS !== 'undefined') ? TKA_FOREIGN_TRANSLATIONS : null);
+      const transEntry = fTransDb ? (fTransDb[q.id] || fTransDb[String(q.id)]) : null;
+
+      if (transEntry && transEntry.translation) {
+        if (q.stimulus) {
+          passageTransHtml = `<div class="passage-translation translate-only">${transEntry.translation}</div>`;
+        } else {
+          questionTransHtml = `<div class="question-translation-stem translate-only">${transEntry.translation}</div>`;
+        }
+      }
+
+      if (transEntry && transEntry.grammarNote) {
+        questionTransHtml += `
+          <div class="interlinear-grammar-note translate-only">
+            <span class="grammar-note-tag">Kaidah:</span> ${transEntry.grammarNote}
+          </div>
+        `;
+      }
+    }
+
     // Question body text: separate stimulus and prompt when available
     if (q.stimulus) {
       els.paperQText.innerHTML = `
         <section class="question-stimulus">
           <div class="question-stimulus-label">STIMULUS WACANA</div>
-          ${formatContentWithCode(q.stimulus)}
+          <div class="stimulus-text">${formatContentWithCode(q.stimulus)}</div>
+          ${passageTransHtml}
         </section>
-        <div class="question-prompt">${formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''))}</div>
+        <div class="question-prompt">
+          ${formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''))}
+          ${questionTransHtml}
+        </div>
       `;
     } else {
-      els.paperQText.innerHTML = formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''));
+      els.paperQText.innerHTML = `
+        <div class="question-prompt">
+          ${formatContentWithCode(q.questionHtml || (q.question ? `<p>${q.question}</p>` : ''))}
+          ${questionTransHtml}
+        </div>
+      `;
     }
 
     // Domain-Aware Scaffolding Setup (Training Mode or Review Mode)
