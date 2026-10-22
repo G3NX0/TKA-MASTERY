@@ -1,3 +1,5 @@
+// TKA MASTERY HUB - KOREA QUESTIONS DATABASE
+// Automatically sanitized: pure foreign questions and options, translation available via toggle
 window.TKA_BAHASA_KOREA_QUESTIONS = [
   {
     "id": "kor-lat-e-01",
@@ -20,23 +22,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "는 / 는 (karena kedua nomina berakhiran vokal tanpa batchim: 저 + 는, 친구 + 는)."
+        "text": "는 / 는",
+        "translation": "karena kedua nomina berakhiran vokal tanpa batchim: 저 + 는, 친구 + 는."
       },
       {
         "key": "B",
-        "text": "은 / 은 (keliru menggunakan 은 yang khusus untuk kata berakhiran konsonan dengan batchim)."
+        "text": "은 / 은",
+        "translation": "keliru menggunakan 은 yang khusus untuk kata berakhiran konsonan dengan batchim."
       },
       {
         "key": "C",
-        "text": "는 / 은 (kesalahan mengasumsikan kata 친구 berakhiran konsonan)."
+        "text": "는 / 은",
+        "translation": "kesalahan mengasumsikan kata 친구 berakhiran konsonan."
       },
       {
         "key": "D",
-        "text": "은 / 는 (kesalahan mengasumsikan kata ganti 저 memiliki batchim)."
+        "text": "은 / 는",
+        "translation": "kesalahan mengasumsikan kata ganti 저 memiliki batchim."
       },
       {
         "key": "E",
-        "text": "이 / 가 (partikel penanda subjek gramatikal, bukan partikel penanda topik perkenalan umum)."
+        "text": "이 / 가",
+        "translation": "partikel penanda subjek gramatikal, bukan partikel penanda topik perkenalan umum."
       }
     ],
     "correctKey": "A",
@@ -54,7 +61,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang siswa menceritakan aktivitas belajarnya di perpustakaan:\n'저는 도서관에서 한국어 책( ... ) 읽고, 음악( ... ) 듣습니다.'\nPasangan partikel penanda objek (을/를) yang TEPAT untuk kata benda '책' (buku, ber-batchim ㄱ) dan '음악' (musik, ber-batchim ㄱ) adalah...",
+    "questionHtml": "Seorang siswa menceritakan aktivitas belajarnya di perpustakaan:\n'저는 도서관에서 한국어 책( ... ) 읽고, 음악( ... ) 듣습니다.'\nPasangan partikel penanda objek (을/를) yang TEPAT untuk kata benda '책' (ber-batchim ㄱ) dan '음악' (ber-batchim ㄱ) adalah...",
     "formulaHud": {
       "title": "PARTIKEL OBJEK: 을/를 (OBJECT MARKER)",
       "latex": "\\text{Kata ber-Batchim} + \\mathbf{을} \\quad \\leftrightarrow \\quad \\text{Kata tanpa Batchim} + \\mathbf{를}",
@@ -63,23 +70,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "를 / 를 (keliru menggunakan 를 yang diperuntukkan bagi kata berakhiran vokal)."
+        "text": "를 / 를",
+        "translation": "keliru menggunakan 를 yang diperuntukkan bagi kata berakhiran vokal."
       },
       {
         "key": "B",
-        "text": "을 / 을 (kedua kata benda berakhiran konsonan/batchim sehingga wajib diikuti partikel objek 을)."
+        "text": "을 / 을",
+        "translation": "kedua kata benda berakhiran konsonan/batchim sehingga wajib diikuti partikel objek 을."
       },
       {
         "key": "C",
-        "text": "을 / 를 (kesalahan menganggap kata benda 음악 berakhiran vokal)."
+        "text": "을 / 를",
+        "translation": "kesalahan menganggap kata benda 음악 berakhiran vokal."
       },
       {
         "key": "D",
-        "text": "를 / 을 (kesalahan menganggap kata benda 책 berakhiran vokal)."
+        "text": "를 / 을",
+        "translation": "kesalahan menganggap kata benda 책 berakhiran vokal."
       },
       {
         "key": "E",
-        "text": "에 / 에서 (partikel penunjuk tempat atau waktu, bukan penanda objek penderita kata kerja transitif)."
+        "text": "에 / 에서",
+        "translation": "partikel penunjuk tempat atau waktu, bukan penanda objek penderita kata kerja transitif."
       }
     ],
     "correctKey": "B",
@@ -106,23 +118,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "에 / 에서 (urutan terbalik yang keliru menempatkan arah pergerakan dengan 에서 dan aksi dinamis dengan 에) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "에 / 에서",
+        "translation": "urutan terbalik yang keliru menempatkan arah pergerakan dengan 에서 dan aksi dinamis dengan 에 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "에서 / 에서 (penggunaan 에서 pada tujuan pergerakan yang melanggar kolokasi baku kata kerja 가다)."
+        "text": "에서 / 에서",
+        "translation": "penggunaan 에서 pada tujuan pergerakan yang melanggar kolokasi baku kata kerja 가다."
       },
       {
         "key": "C",
-        "text": "에서 / 에 (에서 untuk tempat terjadinya aktivitas dinamis makan, dan 에 untuk arah tujuan pergerakan verba 'pergi' 가다)."
+        "text": "에서 / 에",
+        "translation": "에서 untuk tempat terjadinya aktivitas dinamis makan, dan 에 untuk arah tujuan pergerakan verba 'pergi' 가다."
       },
       {
         "key": "D",
-        "text": "에 / 에 (penggunaan 에 pada lokasi aksi dinamis makan yang salah fungsi gramatikal)."
+        "text": "에 / 에",
+        "translation": "penggunaan 에 pada lokasi aksi dinamis makan yang salah fungsi gramatikal."
       },
       {
         "key": "E",
-        "text": "로 / 에게 (kombinasi partikel arah instrumental dan penanda penerima manusia yang salah konteks)."
+        "text": "로 / 에게",
+        "translation": "kombinasi partikel arah instrumental dan penanda penerima manusia yang salah konteks."
       }
     ],
     "correctKey": "C",
@@ -149,23 +166,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "셋 명 (kesalahan mempertahankan konsonan ㅅ pada angka tiga sebelum kata satuan hitung)."
+        "text": "셋 명",
+        "translation": "kesalahan mempertahankan konsonan ㅅ pada angka tiga sebelum kata satuan hitung."
       },
       {
         "key": "B",
-        "text": "삼 명 (kesalahan menggunakan bilangan Sino-Korea 삼 untuk menghitung orang dengan penggolong 명)."
+        "text": "삼 명",
+        "translation": "kesalahan menggunakan bilangan Sino-Korea 삼 untuk menghitung orang dengan penggolong 명."
       },
       {
         "key": "C",
-        "text": "석 명 (bentuk arkaik penghitungan benda tradisional yang tidak lazim untuk manusia)."
+        "text": "석 명",
+        "translation": "bentuk arkaik penghitungan benda tradisional yang tidak lazim untuk manusia."
       },
       {
         "key": "D",
-        "text": "세 명 (bilangan asli 셋 berubah menjadi 세 saat diikuti langsung oleh kata penggolong 名/명)."
+        "text": "세 명",
+        "translation": "bilangan asli 셋 berubah menjadi 세 saat diikuti langsung oleh kata penggolong 名/명."
       },
       {
         "key": "E",
-        "text": "세 개 (kesalahan menggunakan kata penggolong benda mati 개 untuk manusia)."
+        "text": "세 개",
+        "translation": "kesalahan menggunakan kata penggolong benda mati 개 untuk manusia."
       }
     ],
     "correctKey": "D",
@@ -192,23 +214,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "감사습니다 / 시작습니다 (kesalahan menerapkan akhiran 습니다 pada akar kata yang berakhiran vokal)."
+        "text": "감사습니다 / 시작습니다",
+        "translation": "kesalahan menerapkan akhiran 습니다 pada akar kata yang berakhiran vokal."
       },
       {
         "key": "B",
-        "text": "감사합니다 / 시작습니다 (inkonsistensi penerapan kaidah batchim pada dua akar kata kerja sejenis)."
+        "text": "감사합니다 / 시작습니다",
+        "translation": "inkonsistensi penerapan kaidah batchim pada dua akar kata kerja sejenis."
       },
       {
         "key": "C",
-        "text": "감사해요 / 시작해요 (bentuk informal santun -아요/어요 yang kurang tepat untuk laras pidato resmi formal)."
+        "text": "감사해요 / 시작해요",
+        "translation": "bentuk informal santun -아요/어요 yang kurang tepat untuk laras pidato resmi formal."
       },
       {
         "key": "D",
-        "text": "감사하십시오 / 시작하십시오 (bentuk kalimat perintah imperatif resmi yang keliru untuk tuturan deklaratif)."
+        "text": "감사하십시오 / 시작하십시오",
+        "translation": "bentuk kalimat perintah imperatif resmi yang keliru untuk tuturan deklaratif."
       },
       {
         "key": "E",
-        "text": "감사합니다 / 시작합니다 (akar kata kerja berakhiran vokal 하 sehingga langsung dilekati akhiran -ㅂ니다)."
+        "text": "감사합니다 / 시작합니다",
+        "translation": "akar kata kerja berakhiran vokal 하 sehingga langsung dilekati akhiran -ㅂ니다."
       }
     ],
     "correctKey": "E",
@@ -226,7 +253,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dua sahabat membicarakan kegiatan akhir pekan kemarin:\n'가: 어제 주말에 무엇을 했어요?\n나: 친구들과 같이 명동에 ( ... ) 맛있는 한국 음식을 ( ... ).'\nPasangan bentuk lampau (-았/었어요) yang TEPAT dari kata kerja '가다' (pergi) dan '먹다' (makan) adalah...",
+    "questionHtml": "Dua sahabat membicarakan kegiatan akhir pekan kemarin:\n'가: 어제 주말에 무엇을 했어요?\n나: 친구들과 같이 명동에 ( ... ) 맛있는 한국 음식을 ( ... ).'\nPasangan bentuk lampau (-았/었어요) yang TEPAT dari kata kerja '가다' dan '먹다' adalah...",
     "formulaHud": {
       "title": "HARMONI VOKAL KALA LAMPAU: -았/었어요",
       "latex": "\\text{Vokal Akhir } \\mathbf{ㅏ, ㅗ} + \\mathbf{-았어요} \\quad | \\quad \\text{Vokal Selain itu } + \\mathbf{-었어요} \\quad | \\quad \\mathbf{하-} + \\text{였-} \\rightarrow \\mathbf{했어요}",
@@ -235,23 +262,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "갔어요 / 먹었어요 (가다 berakar vokal ㅏ melebur dengan -았- menjadi 갔어요; 먹다 berakar vokal ㅓ berpadu dengan -었- menjadi 먹었어요)."
+        "text": "갔어요 / 먹었어요",
+        "translation": "가다 berakar vokal ㅏ melebur dengan -았- menjadi 갔어요; 먹다 berakar vokal ㅓ berpadu dengan -었- menjadi 먹었어요."
       },
       {
         "key": "B",
-        "text": "갔어요 / 먹았어요 (kesalahan harmoni vokal ㅓ pada 먹다 yang keliru dipadukan dengan akhiran 았) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "갔어요 / 먹았어요",
+        "translation": "kesalahan harmoni vokal ㅓ pada 먹다 yang keliru dipadukan dengan akhiran 았 TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "가았어요 / 먹었어요 (kesalahan tidak meleburkan vokal ㅏ rangkap pada kata kerja 가다)."
+        "text": "가았어요 / 먹었어요",
+        "translation": "kesalahan tidak meleburkan vokal ㅏ rangkap pada kata kerja 가다."
       },
       {
         "key": "D",
-        "text": "갔었어요 / 먹었었어요 (bentuk lampau lampau/terputus yang tidak dibutuhkan untuk konteks kemarin biasa)."
+        "text": "갔었어요 / 먹었었어요",
+        "translation": "bentuk lampau lampau/terputus yang tidak dibutuhkan untuk konteks kemarin biasa."
       },
       {
         "key": "E",
-        "text": "가요 / 먹어요 (bentuk waktu sekarang yang bertentangan dengan keterangan waktu lampau 어제)."
+        "text": "가요 / 먹어요",
+        "translation": "bentuk waktu sekarang yang bertentangan dengan keterangan waktu lampau 어제."
       }
     ],
     "correctKey": "A",
@@ -278,23 +310,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "십월 이십사일 (kesalahan mempertahankan konsonan batchim ㅂ pada penyebutan bulan Oktober)."
+        "text": "십월 이십사일",
+        "translation": "kesalahan mempertahankan konsonan batchim ㅂ pada penyebutan bulan Oktober."
       },
       {
         "key": "B",
-        "text": "시월 이십사일 (bulan 10 dilafalkan 시월 dengan pelepasan batchim ㅂ; tanggal 24 dilafalkan 이십사일)."
+        "text": "시월 이십사일",
+        "translation": "bulan 10 dilafalkan 시월 dengan pelepasan batchim ㅂ; tanggal 24 dilafalkan 이십사일."
       },
       {
         "key": "C",
-        "text": "시월 스물네일 (kesalahan fatal mencampur angka asli Korea 스물네 untuk penyebutan tanggal kalender)."
+        "text": "시월 스물네일",
+        "translation": "kesalahan fatal mencampur angka asli Korea 스물네 untuk penyebutan tanggal kalender."
       },
       {
         "key": "D",
-        "text": "유월 이십사일 (유월 adalah sebutan untuk bulan Juni/bulan 6, bukan bulan 10)."
+        "text": "유월 이십사일",
+        "translation": "유월 adalah sebutan untuk bulan Juni/bulan 6, bukan bulan 10."
       },
       {
         "key": "E",
-        "text": "십월 스물네일 (kesalahan ganda pada penyebutan nama bulan dan sistem penanggalan)."
+        "text": "십월 스물네일",
+        "translation": "kesalahan ganda pada penyebutan nama bulan dan sistem penanggalan."
       }
     ],
     "correctKey": "B",
@@ -312,7 +349,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam deskripsi menu sarapan khas Korea:\n'한국 사람들은 아침 식사로 밥( ... ) 국을 자주 먹습니다. 그리고 김치( ... ) 여러 가지 반찬도 함께 먹습니다.'\nPasangan partikel penghubung setara (와/과) yang TEPAT untuk menghubungkan '밥' (nasi, ber-batchim ㅂ) dan '김치' (kimchi, berakhiran vokal ㅣ) adalah...",
+    "questionHtml": "Dalam deskripsi menu sarapan khas Korea:\n'한국 사람들은 아침 식사로 밥( ... ) 국을 자주 먹습니다. 그리고 김치( ... ) 여러 가지 반찬도 함께 먹습니다.'\nPasangan partikel penghubung setara (와/과) yang TEPAT untuk menghubungkan '밥' (ber-batchim ㅂ) dan '김치' (berakhiran vokal ㅣ) adalah...",
     "formulaHud": {
       "title": "PARTIKEL KOORDINATIF: 와/과 (DAN/BERSAMA)",
       "latex": "\\text{Ada Batchim} + \\mathbf{과} \\quad \\leftrightarrow \\quad \\text{Tanpa Batchim} + \\mathbf{와}",
@@ -321,23 +358,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "와 / 과 (urutan terbalik yang keliru memasangkan 와 pada kata ber-batchim)."
+        "text": "와 / 과",
+        "translation": "urutan terbalik yang keliru memasangkan 와 pada kata ber-batchim."
       },
       {
         "key": "B",
-        "text": "과 / 과 (kesalahan menerapkan 과 pada kata yang berakhiran vokal 김치)."
+        "text": "과 / 과",
+        "translation": "kesalahan menerapkan 과 pada kata yang berakhiran vokal 김치."
       },
       {
         "key": "C",
-        "text": "과 / 와 (kata ber-batchim 밥 diikuti 과; kata tanpa batchim 김치 diikuti 와)."
+        "text": "과 / 와",
+        "translation": "kata ber-batchim 밥 diikuti 과; kata tanpa batchim 김치 diikuti 와."
       },
       {
         "key": "D",
-        "text": "와 / 와 (kesalahan menerapkan 와 pada kata yang memiliki batchim 밥)."
+        "text": "와 / 와",
+        "translation": "kesalahan menerapkan 와 pada kata yang memiliki batchim 밥."
       },
       {
         "key": "E",
-        "text": "하고 / 하고 (ragam lisan sehari-hari yang kurang mencerminkan partikel formal ragam tulis teks eksposisi)."
+        "text": "하고 / 하고",
+        "translation": "ragam lisan sehari-hari yang kurang mencerminkan partikel formal ragam tulis teks eksposisi."
       }
     ],
     "correctKey": "C",
@@ -364,23 +406,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "못 (penyangkal ketidakmampuan fisik/keadaan yang kurang tepat karena ia menolak keluar secara sukarela)."
+        "text": "못",
+        "translation": "penyangkal ketidakmampuan fisik/keadaan yang kurang tepat karena ia menolak keluar secara sukarela."
       },
       {
         "key": "B",
-        "text": "없 (akar kata ketiadaan yang tidak dapat berfungsi sebagai adverbia negasi sebelum verba)."
+        "text": "없",
+        "translation": "akar kata ketiadaan yang tidak dapat berfungsi sebagai adverbia negasi sebelum verba."
       },
       {
         "key": "C",
-        "text": "아니 (kata seru penolakan jawaban mandiri yang tidak dapat disisipkan tepat di depan verba terkonjugasi)."
+        "text": "아니",
+        "translation": "kata seru penolakan jawaban mandiri yang tidak dapat disisipkan tepat di depan verba terkonjugasi."
       },
       {
         "key": "D",
-        "text": "안 (kata keterangan penyangkal pendek yang diletakkan tepat mendahului kata kerja dasar 나가다)."
+        "text": "안",
+        "translation": "kata keterangan penyangkal pendek yang diletakkan tepat mendahului kata kerja dasar 나가다."
       },
       {
         "key": "E",
-        "text": "마 (akar kata larangan imperatif yang hanya digunakan bersama -지 말다)."
+        "text": "마",
+        "translation": "akar kata larangan imperatif yang hanya digunakan bersama -지 말다."
       }
     ],
     "correctKey": "D",
@@ -407,23 +454,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "에 / 에 (partikel penanda lokasi atau waktu yang salah fungsi gramatikal) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "에 / 에",
+        "translation": "partikel penanda lokasi atau waktu yang salah fungsi gramatikal 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "은 / 는 (partikel penanda topik kalimat)."
+        "text": "은 / 는",
+        "translation": "partikel penanda topik kalimat."
       },
       {
         "key": "C",
-        "text": "을 / 를 (partikel penanda objek penderita verba transitif)."
+        "text": "을 / 를",
+        "translation": "partikel penanda objek penderita verba transitif."
       },
       {
         "key": "D",
-        "text": "도 / 도 (partikel inklusi penambah yang bermakna 'juga')."
+        "text": "도 / 도",
+        "translation": "partikel inklusi penambah yang bermakna 'juga'."
       },
       {
         "key": "E",
-        "text": "의 / 의 (partikel genitif resmi yang menandai hubungan kepemilikan antara subjek pemilik dan benda yang dimiliki)."
+        "text": "의 / 의",
+        "translation": "partikel genitif resmi yang menandai hubungan kepemilikan antara subjek pemilik dan benda yang dimiliki."
       }
     ],
     "correctKey": "E",
@@ -450,23 +502,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "권 / 병 (권 adalah kata penggolong untuk buku/jilid berhalaman; 병 adalah kata penggolong untuk botol minuman)."
+        "text": "권 / 병",
+        "translation": "권 adalah kata penggolong untuk buku/jilid berhalaman; 병 adalah kata penggolong untuk botol minuman."
       },
       {
         "key": "B",
-        "text": "개 / 마리 (개 adalah penggolong umum benda mati; 마리 adalah penggolong untuk hewan peliharaan) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "개 / 마리",
+        "translation": "개 adalah penggolong umum benda mati; 마리 adalah penggolong untuk hewan peliharaan TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "장 / 잔 (장 adalah penggolong lembaran kertas tipis; 잔 adalah penggolong cangkir/gelas)."
+        "text": "장 / 잔",
+        "translation": "장 adalah penggolong lembaran kertas tipis; 잔 adalah penggolong cangkir/gelas."
       },
       {
         "key": "D",
-        "text": "대 / 명 (대 adalah penggolong kendaraan/mesin elektronik; 명 adalah penggolong manusia)."
+        "text": "대 / 명",
+        "translation": "대 adalah penggolong kendaraan/mesin elektronik; 명 adalah penggolong manusia."
       },
       {
         "key": "E",
-        "text": "권 / 장 (kesalahan menggunakan penggolong lembaran kertas untuk botol air mineral)."
+        "text": "권 / 장",
+        "translation": "kesalahan menggunakan penggolong lembaran kertas untuk botol air mineral."
       }
     ],
     "correctKey": "A",
@@ -493,23 +550,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "만 (partikel eksklusivitas pembatasan yang bermakna 'hanya', bertentangan dengan konteks kedua tempat dikunjungi)."
+        "text": "만",
+        "translation": "partikel eksklusivitas pembatasan yang bermakna 'hanya', bertentangan dengan konteks kedua tempat dikunjungi."
       },
       {
         "key": "B",
-        "text": "도 (partikel penanda inklusi yang bermakna 'juga/pula', menggantikan partikel penanda kasus dasar 은/는/이/가/을/를)."
+        "text": "도",
+        "translation": "partikel penanda inklusi yang bermakna 'juga/pula', menggantikan partikel penanda kasus dasar 은/는/이/가/을/를."
       },
       {
         "key": "C",
-        "text": "를 (partikel objek biasa yang tidak memiliki muatan makna penambahan juga)."
+        "text": "를",
+        "translation": "partikel objek biasa yang tidak memiliki muatan makna penambahan juga."
       },
       {
         "key": "D",
-        "text": "는 (partikel topik biasa yang tidak menekankan makna penambahan kesamaan destinasi)."
+        "text": "는",
+        "translation": "partikel topik biasa yang tidak menekankan makna penambahan kesamaan destinasi."
       },
       {
         "key": "E",
-        "text": "와 (partikel penghubung yang membutuhkan nomina pelengkap berikutnya)."
+        "text": "와",
+        "translation": "partikel penghubung yang membutuhkan nomina pelengkap berikutnya."
       }
     ],
     "correctKey": "B",
@@ -527,7 +589,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dua sahabat berjanji temu di depan bioskop:\n'가: 오늘 저녁에 영화관 앞에서 친구를 ( ... ).\n나: 저도 그 영화를 정말 ( ... ) 싶어요. 같이 가요.'\nPasangan bentuk kata kerja '만나다' (bertemu) dan verba keinginan '보고 싶다' (ingin menonton) yang TEPAT adalah...",
+    "questionHtml": "Dua sahabat berjanji temu di depan bioskop:\n'가: 오늘 저녁에 영화관 앞에서 친구를 ( ... ).\n나: 저도 그 영화를 정말 ( ... ) 싶어요. 같이 가요.'\nPasangan bentuk kata kerja '만나다' dan verba keinginan '보고 싶다' yang TEPAT adalah...",
     "formulaHud": {
       "title": "BENTUK INFORMAL SANTUN (-아요/어요) & INGIN (-고 싶다)",
       "latex": "\\text{만나-} + \\text{-아요} \\rightarrow \\mathbf{만나요} \\quad | \\quad \\text{보-} + \\mathbf{-고 \\text{ } 싶다} \\rightarrow \\mathbf{보고 \\text{ } 싶어요}",
@@ -536,23 +598,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "만나요 / 봐 (kesalahan mengonjugasikan verba sebelum akhiran pembantu -고 싶다) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "만나요 / 봐",
+        "translation": "kesalahan mengonjugasikan verba sebelum akhiran pembantu -고 싶다 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "만나어요 / 보고 (kesalahan tidak meleburkan vokal ㅏ rangkap pada verba 만나다)."
+        "text": "만나어요 / 보고",
+        "translation": "kesalahan tidak meleburkan vokal ㅏ rangkap pada verba 만나다."
       },
       {
         "key": "C",
-        "text": "만나요 / 보고 (만나다 melebur menjadi 만나요; struktur keinginan -고 싶다 menuntut bentuk akar dasar verba 보- + 고)."
+        "text": "만나요 / 보고",
+        "translation": "만나다 melebur menjadi 만나요; struktur keinginan -고 싶다 menuntut bentuk akar dasar verba 보- + 고."
       },
       {
         "key": "D",
-        "text": "만납니다 / 봤 (kombinasi pincang formal resmi dan bentuk lampau yang salah konteks ajakan hari ini)."
+        "text": "만납니다 / 봤",
+        "translation": "kombinasi pincang formal resmi dan bentuk lampau yang salah konteks ajakan hari ini."
       },
       {
         "key": "E",
-        "text": "만났어요 / 보고 (bentuk lampau yang bertentangan dengan keterangan waktu petang nanti 오늘 저녁에)."
+        "text": "만났어요 / 보고",
+        "translation": "bentuk lampau yang bertentangan dengan keterangan waktu petang nanti 오늘 저녁에."
       }
     ],
     "correctKey": "C",
@@ -579,23 +646,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "사 시 삼십오 분 (kesalahan menggunakan angka Sino-Korea 사 untuk penunjuk satuan jam) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "사 시 삼십오 분",
+        "translation": "kesalahan menggunakan angka Sino-Korea 사 untuk penunjuk satuan jam 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "네 시 서른다섯 분 (kesalahan fatal menggunakan angka asli Korea 서른다섯 untuk penunjuk menit)."
+        "text": "네 시 서른다섯 분",
+        "translation": "kesalahan fatal menggunakan angka asli Korea 서른다섯 untuk penunjuk menit."
       },
       {
         "key": "C",
-        "text": "넷 시 삼십오 분 (kesalahan tidak memendekkan 넷 menjadi 네 di depan kata penggolong jam 시)."
+        "text": "넷 시 삼십오 분",
+        "translation": "kesalahan tidak memendekkan 넷 menjadi 네 di depan kata penggolong jam 시."
       },
       {
         "key": "D",
-        "text": "네 시 삼십오 분 (jam menggunakan angka asli Korea 네 시; menit menggunakan angka Sino-Korea 삼십오 분)."
+        "text": "네 시 삼십오 분",
+        "translation": "jam menggunakan angka asli Korea 네 시; menit menggunakan angka Sino-Korea 삼십오 분."
       },
       {
         "key": "E",
-        "text": "사 시 서른다섯 분 (kesalahan ganda terbalik pada seluruh penanda jam dan menit)."
+        "text": "사 시 서른다섯 분",
+        "translation": "kesalahan ganda terbalik pada seluruh penanda jam dan menit."
       }
     ],
     "correctKey": "D",
@@ -613,7 +685,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ketua kelompok belajar mengajak rekan-rekannya sebelum istirahat siang:\n'시간이 벌써 12시가 되었습니다. 우리 다 같이 학생식당에 가서 점심을 ( ... ).'\nBentuk ajakan formal sopan yang TEPAT dari kata kerja '먹다' (makan, ber-batchim ㄱ) untuk subjek bersama '우리' adalah...",
+    "questionHtml": "Ketua kelompok belajar mengajak rekan-rekannya sebelum istirahat siang:\n'시간이 벌써 12시가 되었습니다. 우리 다 같이 학생식당에 가서 점심을 ( ... ).'\nBentuk ajakan formal sopan yang TEPAT dari kata kerja '먹다' (ber-batchim ㄱ) untuk subjek bersama '우리' adalah...",
     "formulaHud": {
       "title": "AKHIRAN AJAKAN FORMAL: -(으)ㅂ시다 (LET'S)",
       "latex": "\\text{Akar Ber-Batchim} + \\mathbf{-읍시다} \\quad \\leftrightarrow \\quad \\text{Akar Tanpa Batchim} + \\mathbf{-ㅂ시다}",
@@ -622,23 +694,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "먹ㅂ시다 (kesalahan ortografi dengan menempelkan ㅂ langsung tanpa vokal penyambung 으 pada konsonan ㄱ)."
+        "text": "먹ㅂ시다",
+        "translation": "kesalahan ortografi dengan menempelkan ㅂ langsung tanpa vokal penyambung 으 pada konsonan ㄱ."
       },
       {
         "key": "B",
-        "text": "먹으십시오 (bentuk perintah penghormatan resmi yang ditujukan kepada lawan bicara, bukan ajakan bersama)."
+        "text": "먹으십시오",
+        "translation": "bentuk perintah penghormatan resmi yang ditujukan kepada lawan bicara, bukan ajakan bersama."
       },
       {
         "key": "C",
-        "text": "먹었습니다 (bentuk waktu lampau deklaratif yang tidak menyatakan ajakan masa kini)."
+        "text": "먹었습니다",
+        "translation": "bentuk waktu lampau deklaratif yang tidak menyatakan ajakan masa kini."
       },
       {
         "key": "D",
-        "text": "먹겠습니까 (bentuk kalimat tanya menanyakan kesediaan, bukan ajakan langsung kelompok)."
+        "text": "먹겠습니까",
+        "translation": "bentuk kalimat tanya menanyakan kesediaan, bukan ajakan langsung kelompok."
       },
       {
         "key": "E",
-        "text": "먹읍시다 (akar kata kerja ber-batchim 먹- berpasangan dengan akhiran ajakan -읍시다)."
+        "text": "먹읍시다",
+        "translation": "akar kata kerja ber-batchim 먹- berpasangan dengan akhiran ajakan -읍시다."
       }
     ],
     "correctKey": "E",
@@ -656,7 +733,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Instruksi petugas stasiun subway kepada penumpang:\n'시청 방면으로 가실 승객께서는 오른쪽( ... ) 가시고, 2호선으로 갈아타실 분은 지하 2층( ... ) 내려가십시오.'\nPasangan partikel penanda arah tujuan (-(으)로) yang TEPAT untuk '오른쪽' (arah kanan, ber-batchim ㄱ) dan '지하 2층' (lantai bawah tanah 2, ber-batchim ㅇ) adalah...",
+    "questionHtml": "Instruksi petugas stasiun subway kepada penumpang:\n'시청 방면으로 가실 승객께서는 오른쪽( ... ) 가시고, 2호선으로 갈아타실 분은 지하 2층( ... ) 내려가십시오.'\nPasangan partikel penanda arah tujuan (-(으)로) yang TEPAT untuk '오른쪽' (ber-batchim ㄱ) dan '지하 2층' (ber-batchim ㅇ) adalah...",
     "formulaHud": {
       "title": "PARTIKEL ARAH/SARANA: -(으)로",
       "latex": "\\text{Ada Batchim (selain ㄹ)} + \\mathbf{으로} \\quad \\leftrightarrow \\quad \\text{Tanpa Batchim / Batchim ㄹ} + \\mathbf{로}",
@@ -665,23 +742,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "으로 / 으로 (kedua kata berakhiran konsonan/batchim sehingga wajib berpasangan dengan 으로)."
+        "text": "으로 / 으로",
+        "translation": "kedua kata berakhiran konsonan/batchim sehingga wajib berpasangan dengan 으로."
       },
       {
         "key": "B",
-        "text": "로 / 로 (keliru menggunakan 로 yang hanya diperuntukkan bagi kata berakhiran vokal atau batchim ㄹ)."
+        "text": "로 / 로",
+        "translation": "keliru menggunakan 로 yang hanya diperuntukkan bagi kata berakhiran vokal atau batchim ㄹ."
       },
       {
         "key": "C",
-        "text": "으로 / 로 (kesalahan mengasumsikan kata 2층 berakhiran vokal)."
+        "text": "으로 / 로",
+        "translation": "kesalahan mengasumsikan kata 2층 berakhiran vokal."
       },
       {
         "key": "D",
-        "text": "로 / 으로 (kesalahan mengasumsikan kata 오른쪽 berakhiran vokal)."
+        "text": "로 / 으로",
+        "translation": "kesalahan mengasumsikan kata 오른쪽 berakhiran vokal."
       },
       {
         "key": "E",
-        "text": "에 / 에서 (partikel lokasi statis atau dinamis, bukan penanda arah pergerakan koridor)."
+        "text": "에 / 에서",
+        "translation": "partikel lokasi statis atau dinamis, bukan penanda arah pergerakan koridor."
       }
     ],
     "correctKey": "A",
@@ -699,7 +781,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Papan peringatan di dalam ruang perpustakaan umum:\n'도서관 안에서는 다른 사람들에게 방해가 되니 큰 소리로 이야기하( ... ).'\nBentuk kalimat larangan santun yang TEPAT dari verba '이야기하다' (berbicara) adalah...",
+    "questionHtml": "Papan peringatan di dalam ruang perpustakaan umum:\n'도서관 안에서는 다른 사람들에게 방해가 되니 큰 소리로 이야기하( ... ).'\nBentuk kalimat larangan santun yang TEPAT dari verba '이야기하다' adalah...",
     "formulaHud": {
       "title": "LARANGAN SANTUN: VERBA + -지 마세요 (PLEASE DON'T)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-지 \\text{ } 마세요} \\quad (\\text{ 이야기하-} + \\mathbf{-지 \\text{ } 마세요})",
@@ -708,23 +790,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "이야기하지 마십시오 (bentuk larangan imperatif sangat kaku dan otoriter yang kurang lazim pada instruksi santun umum)."
+        "text": "이야기하지 마십시오",
+        "translation": "bentuk larangan imperatif sangat kaku dan otoriter yang kurang lazim pada instruksi santun umum."
       },
       {
         "key": "B",
-        "text": "이야기하지 마세요 (akar verba 이야기하- + akhiran larangan santun -지 마세요)."
+        "text": "이야기하지 마세요",
+        "translation": "akar verba 이야기하- + akhiran larangan santun -지 마세요."
       },
       {
         "key": "C",
-        "text": "이야기안 해요 (struktur negasi kehendak deklaratif biasa, bukan kalimat instruksi larangan)."
+        "text": "이야기안 해요",
+        "translation": "struktur negasi kehendak deklaratif biasa, bukan kalimat instruksi larangan."
       },
       {
         "key": "D",
-        "text": "이야기하지 마요 (bentuk santun informal yang kurang baku secara kaidah kesantunan publik)."
+        "text": "이야기하지 마요",
+        "translation": "bentuk santun informal yang kurang baku secara kaidah kesantunan publik."
       },
       {
         "key": "E",
-        "text": "이야기하지 않으세요 (bentuk pertanyaan negasi honorifik yang menanyakan apakah Anda tidak berbicara)."
+        "text": "이야기하지 않으세요",
+        "translation": "bentuk pertanyaan negasi honorifik yang menanyakan apakah Anda tidak berbicara."
       }
     ],
     "correctKey": "B",
@@ -751,23 +838,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "도 (partikel inklusi yang bermakna 'juga', kontradiktif dengan pernyataan tidak bisa makan pedas sama sekali)."
+        "text": "도",
+        "translation": "partikel inklusi yang bermakna 'juga', kontradiktif dengan pernyataan tidak bisa makan pedas sama sekali."
       },
       {
         "key": "B",
-        "text": "부터 (partikel titik tolak waktu/tempat yang bermakna 'mulai dari')."
+        "text": "부터",
+        "translation": "partikel titik tolak waktu/tempat yang bermakna 'mulai dari'."
       },
       {
         "key": "C",
-        "text": "만 (partikel penanda pembatasan eksklusif yang bermakna 'hanya/cuma')."
+        "text": "만",
+        "translation": "partikel penanda pembatasan eksklusif yang bermakna 'hanya/cuma'."
       },
       {
         "key": "D",
-        "text": "까지 (partikel batas akhir yang bermakna 'sampai dengan')."
+        "text": "까지",
+        "translation": "partikel batas akhir yang bermakna 'sampai dengan'."
       },
       {
         "key": "E",
-        "text": "보다 (partikel komparasi yang bermakna 'daripada')."
+        "text": "보다",
+        "translation": "partikel komparasi yang bermakna 'daripada'."
       }
     ],
     "correctKey": "C",
@@ -794,23 +886,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "하지만 (konjungsi pertentangan yang bermakna 'tetapi/namun')."
+        "text": "하지만",
+        "translation": "konjungsi pertentangan yang bermakna 'tetapi/namun'."
       },
       {
         "key": "B",
-        "text": "하면 (akhiran pengandaian kondisional yang bermakna 'jika/apabila')."
+        "text": "하면",
+        "translation": "akhiran pengandaian kondisional yang bermakna 'jika/apabila'."
       },
       {
         "key": "C",
-        "text": "해서 (akhiran sebab akibat yang mengimplikasikan mencuci muka menjadi penyebab makan nasi)."
+        "text": "해서",
+        "translation": "akhiran sebab akibat yang mengimplikasikan mencuci muka menjadi penyebab makan nasi."
       },
       {
         "key": "D",
-        "text": "하고 (akar kata kerja 하- + akhiran penghubung koordinatif urutan tindakan -고)."
+        "text": "하고",
+        "translation": "akar kata kerja 하- + akhiran penghubung koordinatif urutan tindakan -고."
       },
       {
         "key": "E",
-        "text": "하러 (akhiran tujuan pergerakan yang wajib berpasangan dengan kata kerja pergi/datang)."
+        "text": "하러",
+        "translation": "akhiran tujuan pergerakan yang wajib berpasangan dengan kata kerja pergi/datang."
       }
     ],
     "correctKey": "D",
@@ -837,23 +934,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "에서 / 까지 (에서 biasanya digunakan untuk titik tolak tempat/lokasi spasial, bukan titik tolak jam waktu)."
+        "text": "에서 / 까지",
+        "translation": "에서 biasanya digunakan untuk titik tolak tempat/lokasi spasial, bukan titik tolak jam waktu."
       },
       {
         "key": "B",
-        "text": "부터 / 에 (에 hanya penanda waktu tunggal tanpa makna batas rentang hingga berakhir)."
+        "text": "부터 / 에",
+        "translation": "에 hanya penanda waktu tunggal tanpa makna batas rentang hingga berakhir."
       },
       {
         "key": "C",
-        "text": "까지 / 부터 (urutan terbalik yang keliru menempatkan akhir sebelum awal)."
+        "text": "까지 / 부터",
+        "translation": "urutan terbalik yang keliru menempatkan akhir sebelum awal."
       },
       {
         "key": "D",
-        "text": "에 / 에서 (kombinasi partikel tempat yang keliru diterapkan pada penunjuk jam)."
+        "text": "에 / 에서",
+        "translation": "kombinasi partikel tempat yang keliru diterapkan pada penunjuk jam."
       },
       {
         "key": "E",
-        "text": "부터 / 까지 (부터 menandai titik awal waktu operasional; 까지 menandai batas akhir waktu operasional)."
+        "text": "부터 / 까지",
+        "translation": "부터 menandai titik awal waktu operasional; 까지 menandai batas akhir waktu operasional."
       }
     ],
     "correctKey": "E",
@@ -871,7 +973,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di toko suvenir saat meminta pegawai membungkus barang:\n'손님: 저기요, 이 도자기 인형을 선물할 건데 예쁘게 포장( ... )?\n직원: 네, 손님. 잠시만 기다려 주십시오.'\nBentuk permohonan pertolongan santun yang TEPAT dari verba '포장하다' (membungkus) adalah...",
+    "questionHtml": "Di toko suvenir saat meminta pegawai membungkus barang:\n'손님: 저기요, 이 도자기 인형을 선물할 건데 예쁘게 포장( ... )?\n직원: 네, 손님. 잠시만 기다려 주십시오.'\nBentuk permohonan pertolongan santun yang TEPAT dari verba '포장하다' adalah...",
     "formulaHud": {
       "title": "PERMOHONAN BANTUAN SOPAN: -아/어 주세요 (PLEASE DO FOR ME)",
       "latex": "\\text{Akar Verba} + \\mathbf{-아/어 \\text{ } 주세요} \\quad (\\text{포장하-} \\rightarrow \\mathbf{포장해 \\text{ } 주세요})",
@@ -880,23 +982,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "해 주세요 (verba 하다 berubah menjadi 해 + akhiran bantuan permohonan sopan 주세요)."
+        "text": "해 주세요",
+        "translation": "verba 하다 berubah menjadi 해 + akhiran bantuan permohonan sopan 주세요."
       },
       {
         "key": "B",
-        "text": "하 주세요 (kesalahan tidak mengonjugasikan akar verba 하- menjadi bentuk harmoni vokal 해)."
+        "text": "하 주세요",
+        "translation": "kesalahan tidak mengonjugasikan akar verba 하- menjadi bentuk harmoni vokal 해."
       },
       {
         "key": "C",
-        "text": "해 마세요 (bentuk larangan yang meminta pegawai untuk tidak membungkus kado)."
+        "text": "해 마세요",
+        "translation": "bentuk larangan yang meminta pegawai untuk tidak membungkus kado."
       },
       {
         "key": "D",
-        "text": "해 보세요 (bentuk ajakan mencoba melakukan sesuatu, bukan permintaan bantuan jasa)."
+        "text": "해 보세요",
+        "translation": "bentuk ajakan mencoba melakukan sesuatu, bukan permintaan bantuan jasa."
       },
       {
         "key": "E",
-        "text": "해 주었습니다 (bentuk lampau deklaratif yang salah konteks permohonan langsung)."
+        "text": "해 주었습니다",
+        "translation": "bentuk lampau deklaratif yang salah konteks permohonan langsung."
       }
     ],
     "correctKey": "A",
@@ -923,23 +1030,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "그 (kata penunjuk demonstratif benda yang berada dekat dengan lawan bicara atau benda yang sedang dibicarakan)."
+        "text": "그",
+        "translation": "kata penunjuk demonstratif benda yang berada dekat dengan lawan bicara atau benda yang sedang dibicarakan."
       },
       {
         "key": "B",
-        "text": "이 (kata penunjuk demonstratif benda yang berada dekat dengan posisi pembicara)."
+        "text": "이",
+        "translation": "kata penunjuk demonstratif benda yang berada dekat dengan posisi pembicara."
       },
       {
         "key": "C",
-        "text": "저 (kata penunjuk demonstratif benda yang posisinya jauh dari pembicara maupun lawan bicara)."
+        "text": "저",
+        "translation": "kata penunjuk demonstratif benda yang posisinya jauh dari pembicara maupun lawan bicara."
       },
       {
         "key": "D",
-        "text": "어느 (kata tanya pemilihan yang menanyakan 'yang mana')."
+        "text": "어느",
+        "translation": "kata tanya pemilihan yang menanyakan 'yang mana'."
       },
       {
         "key": "E",
-        "text": "무슨 (kata tanya jenis yang menanyakan 'apa/macam apa')."
+        "text": "무슨",
+        "translation": "kata tanya jenis yang menanyakan 'apa/macam apa'."
       }
     ],
     "correctKey": "B",
@@ -966,23 +1078,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "명 / 명 (kata penggolong yang hanya diperuntukkan bagi manusia) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "명 / 명",
+        "translation": "kata penggolong yang hanya diperuntukkan bagi manusia 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "개 / 개 (kata penggolong umum untuk benda mati tidak bernyawa)."
+        "text": "개 / 개",
+        "translation": "kata penggolong umum untuk benda mati tidak bernyawa."
       },
       {
         "key": "C",
-        "text": "마리 / 마리 (마리 adalah kata satuan penggolong khusus untuk seluruh jenis hewan/binatang)."
+        "text": "마리 / 마리",
+        "translation": "마리 adalah kata satuan penggolong khusus untuk seluruh jenis hewan/binatang."
       },
       {
         "key": "D",
-        "text": "대 / 대 (kata penggolong khusus kendaraan atau perabot elektronik mesin)."
+        "text": "대 / 대",
+        "translation": "kata penggolong khusus kendaraan atau perabot elektronik mesin."
       },
       {
         "key": "E",
-        "text": "마리 / 개 (kesalahan memperlakukan kucing peliharaan sebagai benda mati)."
+        "text": "마리 / 개",
+        "translation": "kesalahan memperlakukan kucing peliharaan sebagai benda mati."
       }
     ],
     "correctKey": "C",
@@ -1009,23 +1126,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "할 수 있어요 (bentuk yang menyatakan kemampuan bisa berenang, bertentangan dengan kata sama sekali takut air)."
+        "text": "할 수 있어요",
+        "translation": "bentuk yang menyatakan kemampuan bisa berenang, bertentangan dengan kata sama sekali takut air."
       },
       {
         "key": "B",
-        "text": "하지 마세요 (bentuk kalimat larangan kepada orang lain yang keliru subjek)."
+        "text": "하지 마세요",
+        "translation": "bentuk kalimat larangan kepada orang lain yang keliru subjek."
       },
       {
         "key": "C",
-        "text": "하러 가요 (bentuk tujuan pergerakan hendak pergi berenang)."
+        "text": "하러 가요",
+        "translation": "bentuk tujuan pergerakan hendak pergi berenang."
       },
       {
         "key": "D",
-        "text": "할 수 없어요 (akar verba 하- tanpa batchim berpadu dengan -ㄹ 수 없다 untuk menyatakan ketidakmampuan)."
+        "text": "할 수 없어요",
+        "translation": "akar verba 하- tanpa batchim berpadu dengan -ㄹ 수 없다 untuk menyatakan ketidakmampuan."
       },
       {
         "key": "E",
-        "text": "하고 싶어요 (hanya menyatakan keinginan, bukan ketidakmampuan faktual)."
+        "text": "하고 싶어요",
+        "translation": "hanya menyatakan keinginan, bukan ketidakmampuan faktual."
       }
     ],
     "correctKey": "D",
@@ -1043,7 +1165,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Permohonan maaf seorang karyawan saat tiba terlambat di kantor:\n'죄송합니다. 오늘 아침에 도로에 차가 너무 ( ... ) 회사에 늦었습니다.'\nBentuk konjugasi sebab akibat (-아/어서) yang TEPAT dari kata sifat '많다' (banyak, ber-batchim 많 dengan vokal ㅏ) adalah...",
+    "questionHtml": "Permohonan maaf seorang karyawan saat tiba terlambat di kantor:\n'죄송합니다. 오늘 아침에 도로에 차가 너무 ( ... ) 회사에 늦었습니다.'\nBentuk konjugasi sebab akibat (-아/어서) yang TEPAT dari kata sifat '많다' (ber-batchim 많 dengan vokal ㅏ) adalah...",
     "formulaHud": {
       "title": "KONJUNGSI SEBAB AKIBAT: -아/어서 (BECAUSE / SO)",
       "latex": "\\text{Vokal } \\mathbf{ㅏ, ㅗ} + \\mathbf{-아서} \\quad | \\quad \\text{Vokal Lain} + \\mathbf{-어서} \\quad (\\text{많-} + \\mathbf{-아서} \\rightarrow \\mathbf{많아서})",
@@ -1052,23 +1174,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "많어서 (kesalahan menerapkan harmoni vokal ㅓ pada akar kata yang bervokal ㅏ)."
+        "text": "많어서",
+        "translation": "kesalahan menerapkan harmoni vokal ㅓ pada akar kata yang bervokal ㅏ."
       },
       {
         "key": "B",
-        "text": "많고 (akhiran sekuensial dan yang tidak mengekspresikan hubungan sebab akibat langsung keterlambatan)."
+        "text": "많고",
+        "translation": "akhiran sekuensial dan yang tidak mengekspresikan hubungan sebab akibat langsung keterlambatan."
       },
       {
         "key": "C",
-        "text": "많으면 (akhiran pengandaian jika/apabila yang keliru untuk fakta kemacetan yang nyata terjadi)."
+        "text": "많으면",
+        "translation": "akhiran pengandaian jika/apabila yang keliru untuk fakta kemacetan yang nyata terjadi."
       },
       {
         "key": "D",
-        "text": "많으니까요 (bentuk akhiran akhir kalimat penjelasan mandiri yang salah kedudukan di tengah klausa subordinat)."
+        "text": "많으니까요",
+        "translation": "bentuk akhiran akhir kalimat penjelasan mandiri yang salah kedudukan di tengah klausa subordinat."
       },
       {
         "key": "E",
-        "text": "많아서 (akar kata ber-vokal ㅏ sehingga berpasangan dengan akhiran kausalitas -아서)."
+        "text": "많아서",
+        "translation": "akar kata ber-vokal ㅏ sehingga berpasangan dengan akhiran kausalitas -아서."
       }
     ],
     "correctKey": "E",
@@ -1095,23 +1222,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "계십니까 / 있으셔서 (계시다 untuk keberadaan langsung sosok manusia yang dihormati; 있으시다 untuk kepemilikan agenda/benda dari sosok yang dihormati)."
+        "text": "계십니까 / 있으셔서",
+        "translation": "계시다 untuk keberadaan langsung sosok manusia yang dihormati; 있으시다 untuk kepemilikan agenda/benda dari sosok yang dihormati."
       },
       {
         "key": "B",
-        "text": "있으십니까 / 계셔서 (urutan terbalik yang keliru memperlakukan agenda rapat seolah-olah bernyawa dan merendahkan sosok dekan) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "있으십니까 / 계셔서",
+        "translation": "urutan terbalik yang keliru memperlakukan agenda rapat seolah-olah bernyawa dan merendahkan sosok dekan TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "있습니까 / 있어서 (bentuk biasa tanpa honorifik yang sangat tidak sopan dalam percakapan dengan pejabat kampus)."
+        "text": "있습니까 / 있어서",
+        "translation": "bentuk biasa tanpa honorifik yang sangat tidak sopan dalam percakapan dengan pejabat kampus."
       },
       {
         "key": "D",
-        "text": "계십니까 / 계셔서 (kesalahan menggunakan verba 계시다 untuk subjek agenda rapat 회의)."
+        "text": "계십니까 / 계셔서",
+        "translation": "kesalahan menggunakan verba 계시다 untuk subjek agenda rapat 회의."
       },
       {
         "key": "E",
-        "text": "계셨습니까 / 계시어서 (kesalahan tenses waktu lampau dan penggunaan verba manusia untuk benda)."
+        "text": "계셨습니까 / 계시어서",
+        "translation": "kesalahan tenses waktu lampau dan penggunaan verba manusia untuk benda."
       }
     ],
     "correctKey": "A",
@@ -1138,23 +1270,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "와서 (aturan mutlak bahasa Korea melarang pemakaian -아/어서 bila klausula utama berbentuk ajakan atau perintah) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "와서",
+        "translation": "aturan mutlak bahasa Korea melarang pemakaian -아/어서 bila klausula utama berbentuk ajakan atau perintah TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "오니까 (akhiran kausalitas -(으)니까 adalah satu-satunya bentuk yang diizinkan berpasangan dengan kalimat ajakan -ㅂ시다 atau perintah -세요)."
+        "text": "오니까",
+        "translation": "akhiran kausalitas -(으)니까 adalah satu-satunya bentuk yang diizinkan berpasangan dengan kalimat ajakan -ㅂ시다 atau perintah -세요."
       },
       {
         "key": "C",
-        "text": "오기 때문에 (akhiran kausalitas objektif formal yang tidak lazim disambung langsung dengan ajakan santun mendadak)."
+        "text": "오기 때문에",
+        "translation": "akhiran kausalitas objektif formal yang tidak lazim disambung langsung dengan ajakan santun mendadak."
       },
       {
         "key": "D",
-        "text": "오지만 (konjungsi pertentangan yang kontradiktif dengan keputusan membatalkan naik gunung)."
+        "text": "오지만",
+        "translation": "konjungsi pertentangan yang kontradiktif dengan keputusan membatalkan naik gunung."
       },
       {
         "key": "E",
-        "text": "오면서 (akhiran simultan yang bermakna 'sambil', merusak logika kalimat)."
+        "text": "오면서",
+        "translation": "akhiran simultan yang bermakna 'sambil', merusak logika kalimat."
       }
     ],
     "correctKey": "B",
@@ -1172,7 +1309,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Bercerita dengan sopan tentang rutinitas kakek di rumah:\n'할아버지께서는 아침에 일찍 ( ... ) 진지를 맛있게 ( ... ).'\nPasangan bentuk honorifik kata kerja '일어나다' (bangun) dan '먹다' (makan) yang TEPAT adalah...",
+    "questionHtml": "Bercerita dengan sopan tentang rutinitas kakek di rumah:\n'할아버지께서는 아침에 일찍 ( ... ) 진지를 맛있게 ( ... ).'\nPasangan bentuk honorifik kata kerja '일어나다' dan '먹다' yang TEPAT adalah...",
     "formulaHud": {
       "title": "HONORIFIK LEKSIKAL KHUSUS (SPECIAL HONORIFIC VERBS)",
       "latex": "\\text{먹다 (makan)} \\rightarrow \\mathbf{드시다 / 잡수시다} \\quad | \\quad \\text{밥 (nasi)} \\rightarrow \\mathbf{진지}",
@@ -1181,23 +1318,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "일어나고 / 먹습니다 (bentuk biasa tanpa honorifik yang sangat tidak pantas untuk kakek kandung) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "일어나고 / 먹습니다",
+        "translation": "bentuk biasa tanpa honorifik yang sangat tidak pantas untuk kakek kandung 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "일어나셔서 / 먹으십니다 (kesalahan menerapkan infiks pada 먹다 yang memiliki bentuk honorifik leksikal khusus 드시다)."
+        "text": "일어나셔서 / 먹으십니다",
+        "translation": "kesalahan menerapkan infiks pada 먹다 yang memiliki bentuk honorifik leksikal khusus 드시다."
       },
       {
         "key": "C",
-        "text": "일어나셔서 / 드십니다 (일어나다 disisipi infiks honorifik -(으)시- menjadi 일어나시다; verba makan 먹다 berubah total menjadi verba honorifik khusus 드시다)."
+        "text": "일어나셔서 / 드십니다",
+        "translation": "일어나다 disisipi infiks honorifik -(으)시- menjadi 일어나시다; verba makan 먹다 berubah total menjadi verba honorifik khusus 드시다."
       },
       {
         "key": "D",
-        "text": "일어나서 / 잡수십니다 (bentuk klausa pertama yang lupa menyematkan infiks penghormatan)."
+        "text": "일어나서 / 잡수십니다",
+        "translation": "bentuk klausa pertama yang lupa menyematkan infiks penghormatan."
       },
       {
         "key": "E",
-        "text": "주무셔서 / 드십니다 (주무시다 adalah honorifik untuk tidur, bukan bangun tidur)."
+        "text": "주무셔서 / 드십니다",
+        "translation": "주무시다 adalah honorifik untuk tidur, bukan bangun tidur."
       }
     ],
     "correctKey": "C",
@@ -1215,7 +1357,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang mahasiswa menyapa rekan asramanya:\n'지금 밖에는 비가 많이 ( ... ), 우산이 없으면 제 우산을 같이 쓰고 가요.'\nBentuk konjugasi latar belakang (-(으)ㄴ/는데) yang TEPAT dari kata kerja '오다' (datang/turun hujan) adalah...",
+    "questionHtml": "Seorang mahasiswa menyapa rekan asramanya:\n'지금 밖에는 비가 많이 ( ... ), 우산이 없으면 제 우산을 같이 쓰고 가요.'\nBentuk konjugasi latar belakang (-(으)ㄴ/는데) yang TEPAT dari kata kerja '오다' adalah...",
     "formulaHud": {
       "title": "PENGHUBUNG LATAR BELAKANG: -(으)ㄴ/는데",
       "latex": "\\text{Kata Kerja (Présent)} + \\mathbf{-는데} \\quad | \\quad \\text{Kata Sifat} + \\mathbf{-(으)ㄴ데} \\quad | \\quad \\text{Benda} + \\mathbf{-인데}",
@@ -1224,23 +1366,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "오은데 (kesalahan morfologis memasukkan vokal 은 pada akar verba yang tidak ber-batchim) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "오은데",
+        "translation": "kesalahan morfologis memasukkan vokal 은 pada akar verba yang tidak ber-batchim 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "온데 (kesalahan memperlakukan verba tindakan waktu sekarang seperti adjektiva)."
+        "text": "온데",
+        "translation": "kesalahan memperlakukan verba tindakan waktu sekarang seperti adjektiva."
       },
       {
         "key": "C",
-        "text": "오니까 (hanya menekankan sebab akibat logis, bukan pembuka wacana situasional)."
+        "text": "오니까",
+        "translation": "hanya menekankan sebab akibat logis, bukan pembuka wacana situasional."
       },
       {
         "key": "D",
-        "text": "오는데 (akar kata kerja waktu sekarang 오- langsung dilekati akhiran pembuka wacana -는데)."
+        "text": "오는데",
+        "translation": "akar kata kerja waktu sekarang 오- langsung dilekati akhiran pembuka wacana -는데."
       },
       {
         "key": "E",
-        "text": "오지만 (terlalu kaku mengontraskan dua klausa tanpa nuansa mengundang tindak lanjut)."
+        "text": "오지만",
+        "translation": "terlalu kaku mengontraskan dua klausa tanpa nuansa mengundang tindak lanjut."
       }
     ],
     "correctKey": "D",
@@ -1267,23 +1414,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "께 / 께서 (urutan terbalik yang keliru menempatkan partikel subjek pada posisi penerima objek tidak langsung) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "께 / 께서",
+        "translation": "urutan terbalik yang keliru menempatkan partikel subjek pada posisi penerima objek tidak langsung 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "께서 / 에게 (ketidakkonsistenan penghormatan dengan menggunakan partikel biasa 에게 untuk ibu)."
+        "text": "께서 / 에게",
+        "translation": "ketidakkonsistenan penghormatan dengan menggunakan partikel biasa 에게 untuk ibu."
       },
       {
         "key": "C",
-        "text": "이 / 한테 (ragam bahasa akrab informal yang merendahkan kedudukan orang tua kandung)."
+        "text": "이 / 한테",
+        "translation": "ragam bahasa akrab informal yang merendahkan kedudukan orang tua kandung."
       },
       {
         "key": "D",
-        "text": "께서는 / 에서 (kesalahan menggunakan partikel tempat spasial 에서 untuk manusia)."
+        "text": "께서는 / 에서",
+        "translation": "kesalahan menggunakan partikel tempat spasial 에서 untuk manusia."
       },
       {
         "key": "E",
-        "text": "께서 / 께 (께서 menggantikan partikel subjek 이/가 untuk orang yang dihormati; 께 menggantikan partikel objek penerima 에게/한테)."
+        "text": "께서 / 께",
+        "translation": "께서 menggantikan partikel subjek 이/가 untuk orang yang dihormati; 께 menggantikan partikel objek penerima 에게/한테."
       }
     ],
     "correctKey": "E",
@@ -1301,7 +1453,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kebiasaan belajar seorang siswa teladan:\n'저는 저녁마다 클래식 음악을 ( ... ) 한국어 단어를 외웁니다.'\nBentuk konjugasi tindakan simultan (-(으)면서) yang TEPAT dari kata kerja tidak beraturan '듣다' (mendengarkan, ber-batchim ㄷ tak beraturan) adalah...",
+    "questionHtml": "Kebiasaan belajar seorang siswa teladan:\n'저는 저녁마다 클래식 음악을 ( ... ) 한국어 단어를 외웁니다.'\nBentuk konjugasi tindakan simultan (-(으)면서) yang TEPAT dari kata kerja tidak beraturan '듣다' (ber-batchim ㄷ tak beraturan) adalah...",
     "formulaHud": {
       "title": "AKHIRAN SIMULTAN & IRREGULAR ㄷ: -(으)면서",
       "latex": "\\text{듣다 (ㄷ Irregular)} + \\mathbf{-(으)면서} \\quad \\implies \\quad \\mathbf{들으면서} \\quad (ㄷ \\rightarrow ㄹ)",
@@ -1310,23 +1462,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "들으면서 (konsonan batchim ㄷ berubah menjadi ㄹ saat bertemu akhiran yang diawali huruf vokal 으: 듣- + 으면서 -> 들으면서)."
+        "text": "들으면서",
+        "translation": "konsonan batchim ㄷ berubah menjadi ㄹ saat bertemu akhiran yang diawali huruf vokal 으: 듣- + 으면서 -> 들으면서."
       },
       {
         "key": "B",
-        "text": "듣으면서 (kesalahan tidak menerapkan hukum perubahan fonologis konsonan ㄷ tidak beraturan) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "듣으면서",
+        "translation": "kesalahan tidak menerapkan hukum perubahan fonologis konsonan ㄷ tidak beraturan TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "듣면서 (kesalahan menghilangkan vokal penyambung 으 pada akar ber-batchim)."
+        "text": "듣면서",
+        "translation": "kesalahan menghilangkan vokal penyambung 으 pada akar ber-batchim."
       },
       {
         "key": "D",
-        "text": "들면서 (kesalahan menghilangkan suku kata dasar verba 들-)."
+        "text": "들면서",
+        "translation": "kesalahan menghilangkan suku kata dasar verba 들-."
       },
       {
         "key": "E",
-        "text": "듣고 (hanya menyatakan urutan tindakan terpisah, bukan dua kegiatan simultan bersamaan)."
+        "text": "듣고",
+        "translation": "hanya menyatakan urutan tindakan terpisah, bukan dua kegiatan simultan bersamaan."
       }
     ],
     "correctKey": "A",
@@ -1344,7 +1501,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Rencana setelah lulus sekolah menengah atas:\n'저는 고등학교를 졸업한 후에 한국 대학교에서 컴퓨터공학을 ( ... ). 그래서 요즘 한국어를 열심히 공부하고 있습니다.'\nBentuk pengungkapan rencana (-(으)려고 하다) yang TEPAT dari verba '전공하다' (mengambil jurusan) adalah...",
+    "questionHtml": "Rencana setelah lulus sekolah menengah atas:\n'저는 고등학교를 졸업한 후에 한국 대학교에서 컴퓨터공학을 ( ... ). 그래서 요즘 한국어를 열심히 공부하고 있습니다.'\nBentuk pengungkapan rencana (-(으)려고 하다) yang TEPAT dari verba '전공하다' adalah...",
     "formulaHud": {
       "title": "RENCANA / INTENSI: -(으)려고 하다 (INTEND TO)",
       "latex": "\\text{Akar Vokal / ㄹ} + \\mathbf{-려고 \\text{ } 하다} \\quad \\leftrightarrow \\quad \\text{Akar Konsonan (selain ㄹ)} + \\mathbf{-으려고 \\text{ } 하다}",
@@ -1353,23 +1510,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "전공하으려고 합니다 (kesalahan memasukkan vokal 으 pada akar kata yang berakhiran vokal)."
+        "text": "전공하으려고 합니다",
+        "translation": "kesalahan memasukkan vokal 으 pada akar kata yang berakhiran vokal."
       },
       {
         "key": "B",
-        "text": "전공하려고 합니다 (akar kata kerja berakhiran vokal 하- berpasangan dengan -려고 하다)."
+        "text": "전공하려고 합니다",
+        "translation": "akar kata kerja berakhiran vokal 하- berpasangan dengan -려고 하다."
       },
       {
         "key": "C",
-        "text": "전공하기 때문입니다 (akhiran alasan penyebab yang tidak menyatakan rencana masa depan)."
+        "text": "전공하기 때문입니다",
+        "translation": "akhiran alasan penyebab yang tidak menyatakan rencana masa depan."
       },
       {
         "key": "D",
-        "text": "전공할 수 있습니다 (hanya menyatakan kapabilitas, bukan rencana tindakan sengaja)."
+        "text": "전공할 수 있습니다",
+        "translation": "hanya menyatakan kapabilitas, bukan rencana tindakan sengaja."
       },
       {
         "key": "E",
-        "text": "전공해야 합니다 (hanya menyatakan beban kewajiban mutlak, bukan niat pribadi)."
+        "text": "전공해야 합니다",
+        "translation": "hanya menyatakan beban kewajiban mutlak, bukan niat pribadi."
       }
     ],
     "correctKey": "B",
@@ -1387,7 +1549,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Petunjuk minum obat dari dokter klinik:\n'약사: 식사를 ( ... ) 30분 뒤에 이 약을 꼭 드세요. 빈속에 약을 ( ... ) 위가 아플 수 있습니다.'\nPasangan bentuk kata kerja '하다' (setelah makan) dan '먹다' (sebelum minum obat) yang TEPAT adalah...",
+    "questionHtml": "Petunjuk minum obat dari dokter klinik:\n'약사: 식사를 ( ... ) 30분 뒤에 이 약을 꼭 드세요. 빈속에 약을 ( ... ) 위가 아플 수 있습니다.'\nPasangan bentuk kata kerja '하다' dan '먹다' yang TEPAT adalah...",
     "formulaHud": {
       "title": "URUTAN WAKTU: -기 전에 (BEFORE) VS -(으)ㄴ 후에 (AFTER)",
       "latex": "\\text{Akar Verba} + \\mathbf{-기 \\text{ } 전에} \\quad \\leftrightarrow \\quad \\text{Akar Verba} + \\mathbf{-(으)ㄴ \\text{ } 후에}",
@@ -1396,23 +1558,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "하기 전에 / 먹은 후에 (urutan logika medis terbalik yang menyuruh minum obat sebelum makan) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "하기 전에 / 먹은 후에",
+        "translation": "urutan logika medis terbalik yang menyuruh minum obat sebelum makan 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "하고 / 먹어서 (kombinasi konjungsi biasa yang tidak mengekspresikan klausula pembatasan waktu obat)."
+        "text": "하고 / 먹어서",
+        "translation": "kombinasi konjungsi biasa yang tidak mengekspresikan klausula pembatasan waktu obat."
       },
       {
         "key": "C",
-        "text": "한 후에 / 먹기 전에 (-(으)ㄴ 후에 untuk menyatakan urutan sesudah; -기 전에 untuk menyatakan urutan sebelum)."
+        "text": "한 후에 / 먹기 전에",
+        "translation": "-(으)ㄴ 후에 untuk menyatakan urutan sesudah; -기 전에 untuk menyatakan urutan sebelum."
       },
       {
         "key": "D",
-        "text": "하러 / 먹으려고 (akhiran tujuan pergerakan yang salah konteks medis)."
+        "text": "하러 / 먹으려고",
+        "translation": "akhiran tujuan pergerakan yang salah konteks medis."
       },
       {
         "key": "E",
-        "text": "하면 / 먹으면 (kombinasi pengandaian ganda yang membingungkan aturan minum obat)."
+        "text": "하면 / 먹으면",
+        "translation": "kombinasi pengandaian ganda yang membingungkan aturan minum obat."
       }
     ],
     "correctKey": "C",
@@ -1430,7 +1597,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Instruksi pengawas ruang ujian TKA:\n'수험생 여러분, 시험 시작 15분 전까지 반드시 시험실에 ( ... ). 늦으면 입실할 수 없습니다.'\nBentuk pernyataan keharusan mutlak yang TEPAT dari kata kerja '입실하다' (masuk ruang) adalah...",
+    "questionHtml": "Instruksi pengawas ruang ujian TKA:\n'수험생 여러분, 시험 시작 15분 전까지 반드시 시험실에 ( ... ). 늦으면 입실할 수 없습니다.'\nBentuk pernyataan keharusan mutlak yang TEPAT dari kata kerja '입실하다' adalah...",
     "formulaHud": {
       "title": "KEWAJIBAN / KEHARUSAN: -아야/어야 하다/되다 (MUST)",
       "latex": "\\text{Akar Vokal } \\mathbf{ㅏ, ㅗ} + \\mathbf{-아야 \\text{ } 하다} \\quad | \\quad \\mathbf{하-} \\rightarrow \\mathbf{해야 \\text{ } 하다/되다}",
@@ -1439,23 +1606,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "입실하어야 합니다 (kesalahan tidak mengonjugasikan akar 하- menjadi 해)."
+        "text": "입실하어야 합니다",
+        "translation": "kesalahan tidak mengonjugasikan akar 하- menjadi 해."
       },
       {
         "key": "B",
-        "text": "입실해도 됩니다 (bentuk yang menyatakan izin kebolehan 'boleh', bertentangan dengan kata wajib 반드시)."
+        "text": "입실해도 됩니다",
+        "translation": "bentuk yang menyatakan izin kebolehan 'boleh', bertentangan dengan kata wajib 반드시."
       },
       {
         "key": "C",
-        "text": "입실하면 안 됩니다 (bentuk larangan yang menyatakan 'tidak boleh masuk', kontradiktif)."
+        "text": "입실하면 안 됩니다",
+        "translation": "bentuk larangan yang menyatakan 'tidak boleh masuk', kontradiktif."
       },
       {
         "key": "D",
-        "text": "입실해야 합니다 (verba 하다 berpadu dengan keharusan -아야/어야 하다 menjadi 해야 합니다)."
+        "text": "입실해야 합니다",
+        "translation": "verba 하다 berpadu dengan keharusan -아야/어야 하다 menjadi 해야 합니다."
       },
       {
         "key": "E",
-        "text": "입실할 수 있습니다 (hanya menyatakan kapabilitas, bukan kewajiban peraturan)."
+        "text": "입실할 수 있습니다",
+        "translation": "hanya menyatakan kapabilitas, bukan kewajiban peraturan."
       }
     ],
     "correctKey": "D",
@@ -1482,23 +1654,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "찍으면 안 됩니다 / 만져도 됩니다 (makna terbalik yang membahayakan koleksi karya seni museum) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "찍으면 안 됩니다 / 만져도 됩니다",
+        "translation": "makna terbalik yang membahayakan koleksi karya seni museum 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "찍어야 합니다 / 만지지 마세요 (bentuk klausa pertama mewajibkan memotret foto, bukan izin)."
+        "text": "찍어야 합니다 / 만지지 마세요",
+        "translation": "bentuk klausa pertama mewajibkan memotret foto, bukan izin."
       },
       {
         "key": "C",
-        "text": "찍어도 됩니다 / 만져야 합니다 (klausa kedua keliru mewajibkan pengunjung menyentuh lukisan)."
+        "text": "찍어도 됩니다 / 만져야 합니다",
+        "translation": "klausa kedua keliru mewajibkan pengunjung menyentuh lukisan."
       },
       {
         "key": "D",
-        "text": "찍기 전에 / 만진 후에 (kombinasi penanda kronologis waktu yang salah fungsi semantik regulasi)."
+        "text": "찍기 전에 / 만진 후에",
+        "translation": "kombinasi penanda kronologis waktu yang salah fungsi semantik regulasi."
       },
       {
         "key": "E",
-        "text": "찍어도 됩니다 / 만지면 안 됩니다 (찍다 bervokal ㅣ berpadu dengan -어도 되다; 만지다 berakar vokal berpasangan dengan -면 안 되다)."
+        "text": "찍어도 됩니다 / 만지면 안 됩니다",
+        "translation": "찍다 bervokal ㅣ berpadu dengan -어도 되다; 만지다 berakar vokal berpasangan dengan -면 안 되다."
       }
     ],
     "correctKey": "E",
@@ -1525,23 +1702,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "입은 적이 있습니까 / 입어 본 적이 있어요 (akar ber-batchim 입- berpadu dengan penanda pengalaman -(으)ㄴ 적이 있다)."
+        "text": "입은 적이 있습니까 / 입어 본 적이 있어요",
+        "translation": "akar ber-batchim 입- berpadu dengan penanda pengalaman -(으)ㄴ 적이 있다."
       },
       {
         "key": "B",
-        "text": "입은 적이 없습니까 / 입은 적이 없어요 (klausa kedua menyatakan tidak pernah, bertentangan dengan kata ya dan kenangan indah)."
+        "text": "입은 적이 없습니까 / 입은 적이 없어요",
+        "translation": "klausa kedua menyatakan tidak pernah, bertentangan dengan kata ya dan kenangan indah."
       },
       {
         "key": "C",
-        "text": "입으려고 합니까 / 입고 있어요 (menanyakan niat dan menyatakan sedang berlangsung, bukan menanyakan pengalaman lampau)."
+        "text": "입으려고 합니까 / 입고 있어요",
+        "translation": "menanyakan niat dan menyatakan sedang berlangsung, bukan menanyakan pengalaman lampau."
       },
       {
         "key": "D",
-        "text": "입어도 됩니까 / 입어야 해요 (menanyakan izin dan menyatakan kewajiban, salah konteks wacana)."
+        "text": "입어도 됩니까 / 입어야 해요",
+        "translation": "menanyakan izin dan menyatakan kewajiban, salah konteks wacana."
       },
       {
         "key": "E",
-        "text": "입지 않습니까 / 입지 않아요 (menanyakan negasi biasa tanpa muatan makna pengalaman historis)."
+        "text": "입지 않습니까 / 입지 않아요",
+        "translation": "menanyakan negasi biasa tanpa muatan makna pengalaman historis."
       }
     ],
     "correctKey": "A",
@@ -1559,7 +1741,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Saran dari seorang pemandu wisata saat musim dingin di pegunungan:\n'가: 산 정상에 올라가면 바람이 많이 불어서 매우 ( ... ) 어떻게 하지요?\n나: 날씨가 ( ... ) 이 두꺼운 패딩 점퍼와 장갑을 착용하십시오.'\nBentuk konjugasi bersyarat (-(으)면) dari kata sifat tidak beraturan '춥다' (dingin) adalah...",
+    "questionHtml": "Saran dari seorang pemandu wisata saat musim dingin di pegunungan:\n'가: 산 정상에 올라가면 바람이 많이 불어서 매우 ( ... ) 어떻게 하지요?\n나: 날씨가 ( ... ) 이 두꺼운 패딩 점퍼와 장갑을 착용하십시오.'\nBentuk konjugasi bersyarat (-(으)면) dari kata sifat tidak beraturan '춥다' adalah...",
     "formulaHud": {
       "title": "SYARAT BERSYARAT (-(으)면) & ㅂ IRREGULAR",
       "latex": "\\text{춥다 (ㅂ Irregular)} + \\mathbf{-(으)면} \\quad \\implies \\quad \\mathbf{추우면} \\quad (ㅂ \\rightarrow 우)",
@@ -1568,23 +1750,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "춥으면 (kesalahan mempertahankan konsonan batchim ㅂ tanpa menerapkan hukum irregular ㅂ) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "춥으면",
+        "translation": "kesalahan mempertahankan konsonan batchim ㅂ tanpa menerapkan hukum irregular ㅂ TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "추우면 (konsonan batchim ㅂ meleleh menjadi vokal 우 saat bertemu akhiran kondisional: 춥- + 으면 -> 추우면)."
+        "text": "추우면",
+        "translation": "konsonan batchim ㅂ meleleh menjadi vokal 우 saat bertemu akhiran kondisional: 춥- + 으면 -> 추우면."
       },
       {
         "key": "C",
-        "text": "춥면 (kesalahan menghilangkan vokal penghubung 으 pada akar ber-batchim)."
+        "text": "춥면",
+        "translation": "kesalahan menghilangkan vokal penghubung 으 pada akar ber-batchim."
       },
       {
         "key": "D",
-        "text": "추우니까 (akhiran sebab akibat yang kurang tepat untuk klausula murni bersyarat hipotetikal)."
+        "text": "추우니까",
+        "translation": "akhiran sebab akibat yang kurang tepat untuk klausula murni bersyarat hipotetikal."
       },
       {
         "key": "E",
-        "text": "추워서 (akhiran sebab akibat yang dilarang berpasangan dengan kalimat perintah sopan 착용하십시오)."
+        "text": "추워서",
+        "translation": "akhiran sebab akibat yang dilarang berpasangan dengan kalimat perintah sopan 착용하십시오."
       }
     ],
     "correctKey": "B",
@@ -1602,7 +1789,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Pertanyaan wawancara adaptasi hidup di Korea:\n'가: 민수 씨, 한국에 ( ... ) 얼마나 되었습니까?\n나: 한국에 ( ... ) 벌써 2년이 다 되었습니다.'\nBentuk konjugasi penanda durasi waktu yang TEPAT dari verba '오다' (datang) adalah...",
+    "questionHtml": "Pertanyaan wawancara adaptasi hidup di Korea:\n'가: 민수 씨, 한국에 ( ... ) 얼마나 되었습니까?\n나: 한국에 ( ... ) 벌써 2년이 다 되었습니다.'\nBentuk konjugasi penanda durasi waktu yang TEPAT dari verba '오다' adalah...",
     "formulaHud": {
       "title": "DURASI WAKTU BERLALU: -(으)ㄴ 지 ... 되다/지나다",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄴ \\text{ } 지} + \\text{Durasi Waktu} + \\mathbf{되다/지나다}",
@@ -1611,23 +1798,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "오는 지 (bentuk waktu sekarang yang salah fungsi karena kedatangan ke Korea sudah terjadi di masa lampau)."
+        "text": "오는 지",
+        "translation": "bentuk waktu sekarang yang salah fungsi karena kedatangan ke Korea sudah terjadi di masa lampau."
       },
       {
         "key": "B",
-        "text": "왔는 지 (kesalahan menyematkan penanda lampau 았 pada struktur baku durasi -ㄴ 지)."
+        "text": "왔는 지",
+        "translation": "kesalahan menyematkan penanda lampau 았 pada struktur baku durasi -ㄴ 지."
       },
       {
         "key": "C",
-        "text": "온 지 / 온 지 (akar kata kerja tanpa batchim 오- berpadu dengan penanda durasi kala lampau -ㄴ 지)."
+        "text": "온 지 / 온 지",
+        "translation": "akar kata kerja tanpa batchim 오- berpadu dengan penanda durasi kala lampau -ㄴ 지."
       },
       {
         "key": "D",
-        "text": "오기 전에 (bermakna sebelum datang, bertentangan dengan durasi waktu 2 tahun yang sudah dilalui)."
+        "text": "오기 전에",
+        "translation": "bermakna sebelum datang, bertentangan dengan durasi waktu 2 tahun yang sudah dilalui."
       },
       {
         "key": "E",
-        "text": "오면서 (akhiran tindakan simultan yang merusak makna durasi waktu berlalu)."
+        "text": "오면서",
+        "translation": "akhiran tindakan simultan yang merusak makna durasi waktu berlalu."
       }
     ],
     "correctKey": "C",
@@ -1645,7 +1837,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Keluarga membicarakan masakan lezat dan kesembuhan nenek:\n'할머니께서 우리를 위해 맛있는 불고기를 손수 ( ... ). 그리고 감기가 다 ( ... ) 정말 다행입니다.'\nPasangan bentuk honorifik yang TEPAT dari verba '만들다' (membuat, batchim ㄹ) dan '낫다' (sembuh, batchim ㅅ) adalah...",
+    "questionHtml": "Keluarga membicarakan masakan lezat dan kesembuhan nenek:\n'할머니께서 우리를 위해 맛있는 불고기를 손수 ( ... ). 그리고 감기가 다 ( ... ) 정말 다행입니다.'\nPasangan bentuk honorifik yang TEPAT dari verba '만들다' (batchim ㄹ) dan '낫다' (batchim ㅅ) adalah...",
     "formulaHud": {
       "title": "HONORIFIK DENGAN IRREGULAR ㄹ & ㅅ",
       "latex": "\\text{만들다 (ㄹ Drop)} + \\text{-(으)시-} \\rightarrow \\mathbf{만드시다} \\quad | \\quad \\text{낫다 (ㅅ Drop)} + \\text{-(으)시-} \\rightarrow \\mathbf{나으시다}",
@@ -1654,23 +1846,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "만들으셨습니다 / 낫으셔서 (kesalahan tidak meluluhkan konsonan ㄹ dan konsonan ㅅ sesuai kaidah irregular) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "만들으셨습니다 / 낫으셔서",
+        "translation": "kesalahan tidak meluluhkan konsonan ㄹ dan konsonan ㅅ sesuai kaidah irregular 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "만드셨습니다 / 낫으셔서 (kesalahan mempertahankan konsonan ㅅ pada kata 낫다)."
+        "text": "만드셨습니다 / 낫으셔서",
+        "translation": "kesalahan mempertahankan konsonan ㅅ pada kata 낫다."
       },
       {
         "key": "C",
-        "text": "만들었습니다 / 나아서 (bentuk biasa tanpa honorifik yang merendahkan kedudukan nenek kandung)."
+        "text": "만들었습니다 / 나아서",
+        "translation": "bentuk biasa tanpa honorifik yang merendahkan kedudukan nenek kandung."
       },
       {
         "key": "D",
-        "text": "만드셨습니다 / 나으셔서 (batchim ㄹ luluh saat bertemu infiks honorifik -(으)시- menjadi 만드시다; batchim ㅅ luluh saat bertemu vokal menjadi 나으시다)."
+        "text": "만드셨습니다 / 나으셔서",
+        "translation": "batchim ㄹ luluh saat bertemu infiks honorifik -(으)시- menjadi 만드시다; batchim ㅅ luluh saat bertemu vokal menjadi 나으시다."
       },
       {
         "key": "E",
-        "text": "만드시었습니다 / 나으시어서 (bentuk analitis panjang yang kaku dan jarang digunakan dalam tuturan wajar)."
+        "text": "만드시었습니다 / 나으시어서",
+        "translation": "bentuk analitis panjang yang kaku dan jarang digunakan dalam tuturan wajar."
       }
     ],
     "correctKey": "D",
@@ -1688,7 +1885,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Melihat langit sore yang gelap dan berangin kencang:\n'하늘에 먹구름이 가득 끼고 천둥이 치는 것을 보니 곧 소나기가 ( ... ). 우산을 챙기세요.'\nBentuk ungkapan dugaan masa depan yang TEPAT dari kata kerja '오다' (turun hujan) adalah...",
+    "questionHtml": "Melihat langit sore yang gelap dan berangin kencang:\n'하늘에 먹구름이 가득 끼고 천둥이 치는 것을 보니 곧 소나기가 ( ... ). 우산을 챙기세요.'\nBentuk ungkapan dugaan masa depan yang TEPAT dari kata kerja '오da' adalah...",
     "formulaHud": {
       "title": "DUGAAN / PERKIRAAN: -(으)ㄹ 것 같다 (IT SEEMS / PROBABLY)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 것 \\text{ } 같다} \\quad (\\text{오-} + \\mathbf{-ㄹ \\text{ } 것 \\text{ } 같아요})",
@@ -1697,23 +1894,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "오는 것 같아요 (bentuk dugaan untuk peristiwa yang sedang berlangsung saat ini, padahal hujan baru akan turun)."
+        "text": "오는 것 같아요",
+        "translation": "bentuk dugaan untuk peristiwa yang sedang berlangsung saat ini, padahal hujan baru akan turun."
       },
       {
         "key": "B",
-        "text": "온 것 같아요 (bentuk dugaan lampau yang mengasumsikan hujan sudah selesai turun)."
+        "text": "온 것 같아요",
+        "translation": "bentuk dugaan lampau yang mengasumsikan hujan sudah selesai turun."
       },
       {
         "key": "C",
-        "text": "오기 때문이에요 (menegaskan fakta alasan kausal pasti, bukan perkiraan dugaan berdasarkan tanda alam)."
+        "text": "오기 때문이에요",
+        "translation": "menegaskan fakta alasan kausal pasti, bukan perkiraan dugaan berdasarkan tanda alam."
       },
       {
         "key": "D",
-        "text": "오지 않을 수 없어요 (ungkapan ganda 'pasti turun tanpa terhindarkan' yang terlalu mutlak dan kaku)."
+        "text": "오지 않을 수 없어요",
+        "translation": "ungkapan ganda 'pasti turun tanpa terhindarkan' yang terlalu mutlak dan kaku."
       },
       {
         "key": "E",
-        "text": "올 것 같아요 (akar kata kerja berakhiran vokal 오- berpadu dengan penanda dugaan -(으)ㄹ 것 같다)."
+        "text": "올 것 같아요",
+        "translation": "akar kata kerja berakhiran vokal 오- berpadu dengan penanda dugaan -(으)ㄹ 것 같다."
       }
     ],
     "correctKey": "E",
@@ -1731,7 +1933,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Instruksi dokter gizi kepada pasien pemulihan dehidrasi:\n'건강을 유지하기 위해서는 매일 물을 2리터 이상 ( ... ). 규칙적인 운동도 중요합니다.'\nBentuk instruksi anjuran memastikan upaya yang TEPAT dari verba '마시다' (minum) adalah...",
+    "questionHtml": "Instruksi dokter gizi kepada pasien pemulihan dehidrasi:\n'건강을 유지하기 위해서는 매일 물을 2리터 이상 ( ... ). 규칙적인 운동도 중요합니다.'\nBentuk instruksi anjuran memastikan upaya yang TEPAT dari verba '마시다' adalah...",
     "formulaHud": {
       "title": "INSTRUKSI UPAYA / ANJURAN: -도록 하다 (MAKE SURE TO)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-도록 \\text{ } 하다/하십시오}",
@@ -1740,23 +1942,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "마시도록 하십시오 (akar kata kerja 마시- + akhiran instruksi upaya pemastian formal -도록 하다)."
+        "text": "마시도록 하십시오",
+        "translation": "akar kata kerja 마시- + akhiran instruksi upaya pemastian formal -도록 하다."
       },
       {
         "key": "B",
-        "text": "마시게 되었습니다 (bentuk pasif akibat situasi di luar kendali yang salah tenses waktu) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "마시게 되었습니다",
+        "translation": "bentuk pasif akibat situasi di luar kendali yang salah tenses waktu TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "마실 뻔했습니다 (ungkapan nyaris/hampir saja minum air yang keliru makna)."
+        "text": "마실 뻔했습니다",
+        "translation": "ungkapan nyaris/hampir saja minum air yang keliru makna."
       },
       {
         "key": "D",
-        "text": "마시지 않도록 되었습니다 (kombinasi struktur negasi yang merusak maksud anjuran kesehatan)."
+        "text": "마시지 않도록 되었습니다",
+        "translation": "kombinasi struktur negasi yang merusak maksud anjuran kesehatan."
       },
       {
         "key": "E",
-        "text": "마시기로 했습니다 (hanya menyatakan keputusan sepihak yang telah disepakati sendiri)."
+        "text": "마시기로 했습니다",
+        "translation": "hanya menyatakan keputusan sepihak yang telah disepakati sendiri."
       }
     ],
     "correctKey": "A",
@@ -1774,7 +1981,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kabar gembira dari seorang mahasiswa berprestasi:\n'열심히 준비한 결과, 다음 학기부터 정부 장학금을 받고 서울대학교에서 ( ... ). 정말 꿈만 같습니다.'\nBentuk pengungkapan perubahan keadaan situasi yang TEPAT dari kata kerja '공부하다' (belajar) adalah...",
+    "questionHtml": "Kabar gembira dari seorang mahasiswa berprestasi:\n'열심히 준비한 결과, 다음 학기부터 정부 장학금을 받고 서울대학교에서 ( ... ). 정말 꿈만 같습니다.'\nBentuk pengungkapan perubahan keadaan situasi yang TEPAT dari kata kerja '공부하다' adalah...",
     "formulaHud": {
       "title": "PERUBAHAN KEADAAN / HASIL SITUASI: -게 되다 (COME TO / END UP)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-게 \\text{ } 되다} \\quad (\\text{공부하-} + \\mathbf{-게 \\text{ } 되었습니다})",
@@ -1783,23 +1990,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "공부하도록 했습니다 (mengimplikasikan memaksa orang lain belajar, bukan hasil penerimaan beasiswa diri sendiri)."
+        "text": "공부하도록 했습니다",
+        "translation": "mengimplikasikan memaksa orang lain belajar, bukan hasil penerimaan beasiswa diri sendiri."
       },
       {
         "key": "B",
-        "text": "공부하게 되었습니다 (akar verba 공부하- + akhiran perubahan takdir/situasi -게 되다)."
+        "text": "공부하게 되었습니다",
+        "translation": "akar verba 공부하- + akhiran perubahan takdir/situasi -게 되다."
       },
       {
         "key": "C",
-        "text": "공부할 뻔했습니다 (menyatakan 'nyaris saja belajar namun gagal', bertentangan dengan rasa syukur)."
+        "text": "공부할 뻔했습니다",
+        "translation": "menyatakan 'nyaris saja belajar namun gagal', bertentangan dengan rasa syukur."
       },
       {
         "key": "D",
-        "text": "공부하기로 들었습니다 (struktur kalimat rancu yang mencampuradukkan wicara tak langsung)."
+        "text": "공부하기로 들었습니다",
+        "translation": "struktur kalimat rancu yang mencampuradukkan wicara tak langsung."
       },
       {
         "key": "E",
-        "text": "공부해야 되었습니다 (kesalahan konstruksi waktu lampau keharusan yang kaku)."
+        "text": "공부해야 되었습니다",
+        "translation": "kesalahan konstruksi waktu lampau keharusan yang kaku."
       }
     ],
     "correctKey": "B",
@@ -1817,7 +2029,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Ulasan barang elektronik laptop di situs belanja online:\n'이 노트북은 가격이 다소 ( ... ) 성능이 매우 우수하고 디자인도 세련되었습니다.'\nBentuk konjugasi pertentangan langsung (-지만) yang TEPAT dari kata sifat '비싸다' (mahal) adalah...",
+    "questionHtml": "Ulasan barang elektronik laptop di situs belanja online:\n'이 노트북은 가격이 다소 ( ... ) 성능이 매우 우수하고 디자인도 세련되었습니다.'\nBentuk konjugasi pertentangan langsung (-지만) yang TEPAT dari kata sifat '비싸다' adalah...",
     "formulaHud": {
       "title": "KONJUNGSI PERTENTANGAN: -지만 (BUT / NAMUN)",
       "latex": "\\text{Akar Kata (Verba/Adjektiva)} + \\mathbf{-지만} \\quad (\\text{비싸-} + \\mathbf{-지만})",
@@ -1826,23 +2038,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "비싸서 (akhiran sebab akibat yang mengimplikasikan mahal menyebabkan laptop tersebut bagus)."
+        "text": "비싸서",
+        "translation": "akhiran sebab akibat yang mengimplikasikan mahal menyebabkan laptop tersebut bagus."
       },
       {
         "key": "B",
-        "text": "비싸니까 (akhiran alasan subjektif yang tidak tepat untuk kontras harga vs kualitas)."
+        "text": "비싸니까",
+        "translation": "akhiran alasan subjektif yang tidak tepat untuk kontras harga vs kualitas."
       },
       {
         "key": "C",
-        "text": "비싸지만 (akar kata sifat 비싸- langsung dilekati akhiran pertentangan objektif -지만)."
+        "text": "비싸지만",
+        "translation": "akar kata sifat 비싸- langsung dilekati akhiran pertentangan objektif -지만."
       },
       {
         "key": "D",
-        "text": "비싸면 (akhiran pengandaian jika yang keliru untuk laptop yang sudah dibeli dan diuji faktual)."
+        "text": "비싸면",
+        "translation": "akhiran pengandaian jika yang keliru untuk laptop yang sudah dibeli dan diuji faktual."
       },
       {
         "key": "E",
-        "text": "비싸면서 (akhiran simultan yang tidak lazim untuk mengontraskan harga dan keunggulan teknis)."
+        "text": "비싸면서",
+        "translation": "akhiran simultan yang tidak lazim untuk mengontraskan harga dan keunggulan teknis."
       }
     ],
     "correctKey": "C",
@@ -1860,7 +2077,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Hasil rapat kelompok tugas akhir mahasiswa:\n'프로젝트 과제를 완성하기 위해 이번 주 토요일 오후 2시에 도서관 스터디룸에서 ( ... ).'\nBentuk pengungkapan keputusan janji temu yang TEPAT dari verba '만나다' (bertemu) adalah...",
+    "questionHtml": "Hasil rapat kelompok tugas akhir mahasiswa:\n'프로젝트 과제를 완성하기 위해 이번 주 토요일 오후 2시에 도서관 스터디룸에서 ( ... ).'\nBentuk pengungkapan keputusan janji temu yang TEPAT dari verba '만나다' adalah...",
     "formulaHud": {
       "title": "KEPUTUSAN / JANJI TEMU: -기로 하다 (DECIDE TO)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-기로 \\text{ } 하다} \\quad (\\text{만나-} + \\mathbf{-기로 \\text{ } 했습니다})",
@@ -1869,23 +2086,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "만나게 되었습니다 (mengimplikasikan peristiwa kebetulan tanpa rencana musyawarah kelompok)."
+        "text": "만나게 되었습니다",
+        "translation": "mengimplikasikan peristiwa kebetulan tanpa rencana musyawarah kelompok."
       },
       {
         "key": "B",
-        "text": "만나도록 했습니다 (mengimplikasikan menyuruh orang lain bertemu)."
+        "text": "만나도록 했습니다",
+        "translation": "mengimplikasikan menyuruh orang lain bertemu."
       },
       {
         "key": "C",
-        "text": "만날 뻔했습니다 (bermakna nyaris saja bertemu namun akhirnya batal)."
+        "text": "만날 뻔했습니다",
+        "translation": "bermakna nyaris saja bertemu namun akhirnya batal."
       },
       {
         "key": "D",
-        "text": "만나기로 했습니다 (akar verba 만나- + akhiran pemufakatan keputusan bersama -기로 하다)."
+        "text": "만나기로 했습니다",
+        "translation": "akar verba 만나- + akhiran pemufakatan keputusan bersama -기로 하다."
       },
       {
         "key": "E",
-        "text": "만나야 되었습니다 (hanya menekankan beban keharusan masa lalu)."
+        "text": "만나야 되었습니다",
+        "translation": "hanya menekankan beban keharusan masa lalu."
       }
     ],
     "correctKey": "D",
@@ -1912,23 +2134,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "처럼 (partikel simile metafora yang bermakna 'seperti/laksana') 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "처럼",
+        "translation": "partikel simile metafora yang bermakna 'seperti/laksana' 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "만큼 (partikel ekuatif kesetaraan yang bermakna 'sebanyak/sebanding dengan')."
+        "text": "만큼",
+        "translation": "partikel ekuatif kesetaraan yang bermakna 'sebanyak/sebanding dengan'."
       },
       {
         "key": "C",
-        "text": "마저 (partikel inklusi ekstrem yang bermakna 'bahkan sampai... pun')."
+        "text": "마저",
+        "translation": "partikel inklusi ekstrem yang bermakna 'bahkan sampai... pun'."
       },
       {
         "key": "D",
-        "text": "따라 (partikel khusus yang menyatakan kebetulan pada hari tertentu)."
+        "text": "따라",
+        "translation": "partikel khusus yang menyatakan kebetulan pada hari tertentu."
       },
       {
         "key": "E",
-        "text": "보다 (partikel komparasi yang melekat pada nomina pembanding dan bermakna 'daripada')."
+        "text": "보다",
+        "translation": "partikel komparasi yang melekat pada nomina pembanding dan bermakna 'daripada'."
       }
     ],
     "correctKey": "E",
@@ -1955,23 +2182,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "하고 있습니다 (akar verba 하- + akhiran progresif formal -고 있다)."
+        "text": "하고 있습니다",
+        "translation": "akar verba 하- + akhiran progresif formal -고 있다."
       },
       {
         "key": "B",
-        "text": "한 적이 있습니다 (menyatakan pengalaman lampau, bertentangan dengan situasi panggilan masuk saat ini)."
+        "text": "한 적이 있습니다",
+        "translation": "menyatakan pengalaman lampau, bertentangan dengan situasi panggilan masuk saat ini."
       },
       {
         "key": "C",
-        "text": "할 뻔했습니다 (menyatakan nyaris melakukan sesuatu)."
+        "text": "할 뻔했습니다",
+        "translation": "menyatakan nyaris melakukan sesuatu."
       },
       {
         "key": "D",
-        "text": "하고 싶었습니다 (menyatakan keinginan masa lampau)."
+        "text": "하고 싶었습니다",
+        "translation": "menyatakan keinginan masa lampau."
       },
       {
         "key": "E",
-        "text": "하지 않기로 했습니다 (menyatakan pembatalan kesepakatan konseling)."
+        "text": "하지 않기로 했습니다",
+        "translation": "menyatakan pembatalan kesepakatan konseling."
       }
     ],
     "correctKey": "A",
@@ -1989,7 +2221,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Deskripsi ruang tunggu klinik dokter:\n'대기실 소파에는 환자들이 조용히 ( ... ), 벽에는 진료 안내문이 깔끔하게 붙( ... ).'\nPasangan bentuk status kondisi bertahan (-아/어 있다) yang TEPAT dari verba '앉다' (duduk) dan verba pasif '붙다' (menempel) adalah...",
+    "questionHtml": "Deskripsi ruang tunggu klinik dokter:\n'대기실 소파에는 환자들이 조용히 ( ... ), 벽에는 진료 안내문이 깔끔하게 붙( ... ).'\nPasangan bentuk status kondisi bertahan (-아/어 있다) yang TEPAT dari verba '앉다' dan verba pasif '붙다' adalah...",
     "formulaHud": {
       "title": "STATUS KONDISI BERTAHAN: -아/어 있다",
       "latex": "\\text{Verba Intransitif (Gerak/Posisi)} + \\mathbf{-아/어 \\text{ } 있다}",
@@ -1998,23 +2230,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "앉고 있고 / 고 있습니다 (penggunaan -고 있다 yang keliru mengindikasikan gerakan fisik menurunkan pantat secara berulang terus menerus)."
+        "text": "앉고 있고 / 고 있습니다",
+        "translation": "penggunaan -고 있다 yang keliru mengindikasikan gerakan fisik menurunkan pantat secara berulang terus menerus."
       },
       {
         "key": "B",
-        "text": "앉아 있고 / 어 있습니다 (앉다 berakar vokal ㅏ berpadu dengan -아 있다; 붙다 berakar vokal ㅜ berpadu dengan -어 있다)."
+        "text": "앉아 있고 / 어 있습니다",
+        "translation": "앉다 berakar vokal ㅏ berpadu dengan -아 있다; 붙다 berakar vokal ㅜ berpadu dengan -어 있다."
       },
       {
         "key": "C",
-        "text": "앉아서 / 어서 (akhiran sebab akibat yang merusak struktur deskripsi ruangan statis)."
+        "text": "앉아서 / 어서",
+        "translation": "akhiran sebab akibat yang merusak struktur deskripsi ruangan statis."
       },
       {
         "key": "D",
-        "text": "앉으면 / 으면 (akhiran pengandaian bersyarat yang tidak sesuai untuk mendeskripsikan fakta ruangan nyata)."
+        "text": "앉으면 / 으면",
+        "translation": "akhiran pengandaian bersyarat yang tidak sesuai untuk mendeskripsikan fakta ruangan nyata."
       },
       {
         "key": "E",
-        "text": "앉으려고 / 으려고 (akhiran niat masa depan yang salah fungsi)."
+        "text": "앉으려고 / 으려고",
+        "translation": "akhiran niat masa depan yang salah fungsi."
       }
     ],
     "correctKey": "B",
@@ -2041,23 +2278,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "걸리기 어렵습니다 (menyatakan 'sulit terserang flu', bertentangan dengan konteks bahaya pancaroba)."
+        "text": "걸리기 어렵습니다",
+        "translation": "menyatakan 'sulit terserang flu', bertentangan dengan konteks bahaya pancaroba."
       },
       {
         "key": "B",
-        "text": "걸릴 수 없습니다 (menyatakan ketidakmampuan mutlak terserang flu)."
+        "text": "걸릴 수 없습니다",
+        "translation": "menyatakan ketidakmampuan mutlak terserang flu."
       },
       {
         "key": "C",
-        "text": "걸리기 쉽습니다 (akar verba 걸리- + nomina penanda nominalisasi -기 + kata sifat 쉽다)."
+        "text": "걸리기 쉽습니다",
+        "translation": "akar verba 걸리- + nomina penanda nominalisasi -기 + kata sifat 쉽다."
       },
       {
         "key": "D",
-        "text": "걸리지 않아야 합니다 (struktur kalimat anjuran yang salah subjek)."
+        "text": "걸리지 않아야 합니다",
+        "translation": "struktur kalimat anjuran yang salah subjek."
       },
       {
         "key": "E",
-        "text": "걸린 적이 없습니다 (hanya menyatakan rekam jejak pribadi belum pernah sakit flu)."
+        "text": "걸린 적이 없습니다",
+        "translation": "hanya menyatakan rekam jejak pribadi belum pernah sakit flu."
       }
     ],
     "correctKey": "C",
@@ -2075,7 +2317,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Rekomendasi kuliner saat berkunjung ke pasar malam tradisional di Busan:\n'가: 부산에 오면 자갈치시장에서 신선한 생선회를 꼭 ( ... ). 정말 잊을 수 없는 맛이에요.\n나: 그래요? 그럼 오늘 저녁에 바로 가 볼게요.'\nBentuk saran percobaan tindakan (-아/어 보다) yang TEPAT dari verba '먹다' (makan) adalah...",
+    "questionHtml": "Rekomendasi kuliner saat berkunjung ke pasar malam tradisional di Busan:\n'가: 부산에 오면 자갈치시장에서 신선한 생선회를 꼭 ( ... ). 정말 잊을 수 없는 맛이에요.\n나: 그래요? 그럼 오늘 저녁에 바로 가 볼게요.'\nBentuk saran percobaan tindakan (-아/어 보다) yang TEPAT dari verba '먹다' adalah...",
     "formulaHud": {
       "title": "MENCOBA MELAKUKAN SESUATU: -아/어 보다 (TRY DOING)",
       "latex": "\\text{Akar Verba} + \\mathbf{-아/어 \\text{ } 보다} \\quad (\\text{먹-} + \\mathbf{-어 \\text{ } 보세요})",
@@ -2084,23 +2326,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "먹아 보세요 (kesalahan harmoni vokal ㅓ yang keliru digabungkan dengan 아) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "먹아 보세요",
+        "translation": "kesalahan harmoni vokal ㅓ yang keliru digabungkan dengan 아 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "먹으면 안 됩니다 (larangan mencicipi makanan yang kontradiktif dengan pujian lezat)."
+        "text": "먹으면 안 됩니다",
+        "translation": "larangan mencicipi makanan yang kontradiktif dengan pujian lezat."
       },
       {
         "key": "C",
-        "text": "먹도록 했습니다 (bentuk pemaksaan otoritatif yang tidak cocok untuk saran wisata santai)."
+        "text": "먹도록 했습니다",
+        "translation": "bentuk pemaksaan otoritatif yang tidak cocok untuk saran wisata santai."
       },
       {
         "key": "D",
-        "text": "먹어 보세요 (akar verba 먹- bervokal ㅓ berpadu dengan -어 보다 menjadi bentuk anjuran mencoba 먹어 보세요)."
+        "text": "먹어 보세요",
+        "translation": "akar verba 먹- bervokal ㅓ berpadu dengan -어 보다 menjadi bentuk anjuran mencoba 먹어 보세요."
       },
       {
         "key": "E",
-        "text": "먹기 전에 (klausula waktu yang menggantung tanpa predikat utama)."
+        "text": "먹기 전에",
+        "translation": "klausula waktu yang menggantung tanpa predikat utama."
       }
     ],
     "correctKey": "D",
@@ -2118,7 +2365,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang pejalan kaki yang basah kuyup terkena hujan lebat:\n'일기예보에서 오후에 비가 온다고 했는데 아침에 우산을 ( ... ). 옷이 다 젖어 버렸어요.'\nBentuk pengungkapan rasa penyesalan atas tindakan yang tidak dilakukan di masa lalu (-(으)ㄹ 걸 그랬다) dari verba '챙기다' (menyiapkan/membawa) adalah...",
+    "questionHtml": "Keluhan seorang pejalan kaki yang basah kuyup terkena hujan lebat:\n'일기예보에서 오후에 비가 온다고 했는데 아침에 우산을 ( ... ). 옷이 다 젖어 버렸어요.'\nBentuk pengungkapan rasa penyesalan atas tindakan yang tidak dilakukan di masa lalu (-(으)ㄹ 걸 그랬다) dari verba '챙기다' adalah...",
     "formulaHud": {
       "title": "PENYESALAN LAMPAU: -(으)ㄹ 걸 그랬다 (SHOULD HAVE DONE)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 걸 \\text{ } 그랬다} \\quad (\\text{챙기-} + \\mathbf{-ㄹ \\text{ } 걸 \\text{ } 그랬어요})",
@@ -2127,23 +2374,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "챙기지 말 걸 그랬어요 (menyesal karena telah membawa payung, bertentangan dengan baju yang basah kuyup) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "챙기지 말 걸 그랬어요",
+        "translation": "menyesal karena telah membawa payung, bertentangan dengan baju yang basah kuyup 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "챙길 수 있었어요 (hanya menyatakan kemampuan teoritis tanpa nuansa ratapan penyesalan emosional)."
+        "text": "챙길 수 있었어요",
+        "translation": "hanya menyatakan kemampuan teoritis tanpa nuansa ratapan penyesalan emosional."
       },
       {
         "key": "C",
-        "text": "챙기려고 했어요 (hanya menyatakan niat yang tidak tuntas tanpa penyesalan mendalam)."
+        "text": "챙기려고 했어요",
+        "translation": "hanya menyatakan niat yang tidak tuntas tanpa penyesalan mendalam."
       },
       {
         "key": "D",
-        "text": "챙기게 되었어요 (menyatakan hasil perubahan situasi di luar kehendak)."
+        "text": "챙기게 되었어요",
+        "translation": "menyatakan hasil perubahan situasi di luar kehendak."
       },
       {
         "key": "E",
-        "text": "챙길 걸 그랬어요 (akar verba 챙기- tanpa batchim berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다)."
+        "text": "챙길 걸 그랬어요",
+        "translation": "akar verba 챙기- tanpa batchim berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다."
       }
     ],
     "correctKey": "E",
@@ -2170,23 +2422,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "증가한다고 했습니다 (akar kata kerja berakhiran vokal 하- pada waktu sekarang berpasangan dengan akhiran kutipan tidak langsung -ㄴ다고 하다)."
+        "text": "증가한다고 했습니다",
+        "translation": "akar kata kerja berakhiran vokal 하- pada waktu sekarang berpasangan dengan akhiran kutipan tidak langsung -ㄴ다고 하다."
       },
       {
         "key": "B",
-        "text": "증가하다고 했습니다 (kesalahan memperlakukan kata kerja tindakan seperti kata sifat tanpa partikel aspek ㄴ) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "증가하다고 했습니다",
+        "translation": "kesalahan memperlakukan kata kerja tindakan seperti kata sifat tanpa partikel aspek ㄴ TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "증가하냐고 했습니다 (bentuk kutipan tidak langsung untuk kalimat tanya/interogatif)."
+        "text": "증가하냐고 했습니다",
+        "translation": "bentuk kutipan tidak langsung untuk kalimat tanya/interogatif."
       },
       {
         "key": "D",
-        "text": "증가하라고 했습니다 (bentuk kutipan tidak langsung untuk kalimat instruksi perintah imperatif)."
+        "text": "증가하라고 했습니다",
+        "translation": "bentuk kutipan tidak langsung untuk kalimat instruksi perintah imperatif."
       },
       {
         "key": "E",
-        "text": "증가하자고 했습니다 (bentuk kutipan tidak langsung untuk kalimat usulan ajakan bersama propositif)."
+        "text": "증가하자고 했습니다",
+        "translation": "bentuk kutipan tidak langsung untuk kalimat usulan ajakan bersama propositif."
       }
     ],
     "correctKey": "A",
@@ -2213,23 +2470,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "꼭 드시라고 하셨습니다 (kesalahan umum mempertahankan verba honorifik 드시다 saat merujuk pada diri sendiri yang harus minum obat) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "꼭 드시라고 하셨습니다",
+        "translation": "kesalahan umum mempertahankan verba honorifik 드시다 saat merujuk pada diri sendiri yang harus minum obat TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "꼭 먹으라고 하셨습니다 (kalimat perintah langsung 드십시오 diubah menjadi verba dasar 먹다 yang ber-batchim + -(으)라고 하다 dengan honorifik pembicara 하셨습니다)."
+        "text": "꼭 먹으라고 하셨습니다",
+        "translation": "kalimat perintah langsung 드십시오 diubah menjadi verba dasar 먹다 yang ber-batchim + -(으)라고 하다 dengan honorifik pembicara 하셨습니다."
       },
       {
         "key": "C",
-        "text": "꼭 먹는다고 하셨습니다 (bentuk pernyataan bahwa dokter yang meminum obat tersebut)."
+        "text": "꼭 먹는다고 하셨습니다",
+        "translation": "bentuk pernyataan bahwa dokter yang meminum obat tersebut."
       },
       {
         "key": "D",
-        "text": "꼭 먹자고 하셨습니다 (bentuk ajakan yang mengasumsikan dokter mengajak pasien minum obat bersama-sama)."
+        "text": "꼭 먹자고 하셨습니다",
+        "translation": "bentuk ajakan yang mengasumsikan dokter mengajak pasien minum obat bersama-sama."
       },
       {
         "key": "E",
-        "text": "꼭 먹냐고 하셨습니다 (bentuk pertanyaan yang menanyakan apakah pasien sudah minum obat)."
+        "text": "꼭 먹냐고 하셨습니다",
+        "translation": "bentuk pertanyaan yang menanyakan apakah pasien sudah minum obat."
       }
     ],
     "correctKey": "B",
@@ -2247,7 +2509,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penjelasan pembicara saat terlambat menghadiri wawancara kerja penting:\n'죄송합니다. 아침에 지하철 신호 장애로 열차가 갑자기 ( ... ) 면접 시간에 늦고 말았습니다.'\nBentuk konjugasi sebab akibat bernuansa musibah tak terduga (-는 바람에) dari verba '멈추다' (berhenti) adalah...",
+    "questionHtml": "Penjelasan pembicara saat terlambat menghadiri wawancara kerja penting:\n'죄송합니다. 아침에 지하철 신호 장애로 열차가 갑자기 ( ... ) 면접 시간에 늦고 말았습니다.'\nBentuk konjugasi sebab akibat bernuansa musibah tak terduga (-는 바람에) dari verba '멈추다' adalah...",
     "formulaHud": {
       "title": "KAUSALITAS DAMPAK NEGATIF TAK TERDUGA: -는 바람에",
       "latex": "\\text{Akar Verba} + \\mathbf{-는 \\text{ } 바람에} \\implies \\text{Dampak Buruk / Kerugian di Luar Kendali}",
@@ -2256,23 +2518,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "멈추기 때문에 (akhiran alasan netral objektif yang tidak membawa nuansa peristiwa mendadak pembawa sial)."
+        "text": "멈추기 때문에",
+        "translation": "akhiran alasan netral objektif yang tidak membawa nuansa peristiwa mendadak pembawa sial."
       },
       {
         "key": "B",
-        "text": "멈추는 덕분에 (akhiran kausalitas positif 'berkat/untunglah', sangat bertolak belakang dengan keterlambatan wawancara)."
+        "text": "멈추는 덕분에",
+        "translation": "akhiran kausalitas positif 'berkat/untunglah', sangat bertolak belakang dengan keterlambatan wawancara."
       },
       {
         "key": "C",
-        "text": "멈추는 바람에 (akar kata kerja 멈추- + akhiran kausalitas peristiwa mendadak yang berdampak buruk -는 바람에)."
+        "text": "멈추는 바람에",
+        "translation": "akar kata kerja 멈추- + akhiran kausalitas peristiwa mendadak yang berdampak buruk -는 바람에."
       },
       {
         "key": "D",
-        "text": "멈추더라도 (akhiran konsesif 'meskipun', merusak hubungan sebab akibat peristiwa)."
+        "text": "멈추더라도",
+        "translation": "akhiran konsesif 'meskipun', merusak hubungan sebab akibat peristiwa."
       },
       {
         "key": "E",
-        "text": "멈추자마자 (hanya menyatakan kesegeraan waktu, bukan alasan kegagalan tiba tepat waktu)."
+        "text": "멈추자마자",
+        "translation": "hanya menyatakan kesegeraan waktu, bukan alasan kegagalan tiba tepat waktu."
       }
     ],
     "correctKey": "C",
@@ -2290,7 +2557,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keputusan direksi maskapai saat badai topan menerjang bandara:\n'기상 악화로 활주로 시야가 전혀 확보되지 않아서 안전을 위해 오늘 모든 항공편을 ( ... ).'\nBentuk ekspresi ketiadaan alternatif (-(으)ㄹ 수밖에 없다) dari verba '취소하다' (membatalkan) adalah...",
+    "questionHtml": "Keputusan direksi maskapai saat badai topan menerjang bandara:\n'기상 악화로 활주로 시야가 전혀 확보되지 않아서 안전을 위해 오늘 모든 항공편을 ( ... ).'\nBentuk ekspresi ketiadaan alternatif (-(으)ㄹ 수밖에 없다) dari verba '취소하다' adalah...",
     "formulaHud": {
       "title": "KETIADAAN ALTERNATIF LAIN: -(으)ㄹ 수밖에 없다 (NO CHOICE BUT TO)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 수밖에 \\text{ } 없다}",
@@ -2299,23 +2566,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "취소하지 않을 수 있었습니다 (menyatakan kemampuan untuk tidak membatalkan, bertentangan dengan bahaya badai)."
+        "text": "취소하지 않을 수 있었습니다",
+        "translation": "menyatakan kemampuan untuk tidak membatalkan, bertentangan dengan bahaya badai."
       },
       {
         "key": "B",
-        "text": "취소하기로 되어 있었습니다 (hanya menyatakan jadwal formal sebelumnya tanpa nuansa keterpaksaan darurat)."
+        "text": "취소하기로 되어 있었습니다",
+        "translation": "hanya menyatakan jadwal formal sebelumnya tanpa nuansa keterpaksaan darurat."
       },
       {
         "key": "C",
-        "text": "취소할 뻔했습니다 (bermakna 'nyaris membatalkan namun ternyata jadi terbang', fatal bagi keselamatan)."
+        "text": "취소할 뻔했습니다",
+        "translation": "bermakna 'nyaris membatalkan namun ternyata jadi terbang', fatal bagi keselamatan."
       },
       {
         "key": "D",
-        "text": "취소할 수밖에 없었습니다 (akar verba 취소하- tanpa batchim berpadu dengan -ㄹ 수밖에 없다)."
+        "text": "취소할 수밖에 없었습니다",
+        "translation": "akar verba 취소하- tanpa batchim berpadu dengan -ㄹ 수밖에 없다."
       },
       {
         "key": "E",
-        "text": "취소하도록 권고했습니다 (hanya menyatakan rekomendasi saran, bukan keputusan final mutlak maskapai)."
+        "text": "취소하도록 권고했습니다",
+        "translation": "hanya menyatakan rekomendasi saran, bukan keputusan final mutlak maskapai."
       }
     ],
     "correctKey": "D",
@@ -2333,7 +2605,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Deskripsi peristiwa saat angin kencang meniup ruangan:\n'갑자기 거센 바람이 불어오더니 활짝 열려 있던 창문이 쾅 소리를 내며 저절로 ( ... ).'\nBentuk kata kerja pasif spontan (피동) yang TEPAT dari verba dasar '닫다' (menutup, ber-batchim ㄷ) adalah...",
+    "questionHtml": "Deskripsi peristiwa saat angin kencang meniup ruangan:\n'갑자기 거센 바람이 불어오더니 활짝 열려 있던 창문이 쾅 소리를 내며 저절로 ( ... ).'\nBentuk kata kerja pasif spontan (피동) yang TEPAT dari verba dasar '닫다' (ber-batchim ㄷ) adalah...",
     "formulaHud": {
       "title": "BENTUK VERBA PASIF KOREA (피동사 SUFFIXES)",
       "latex": "\\text{닫다 (menutup)} + \\mathbf{-히-} \\implies \\mathbf{닫히다} \\text{ (tertutup)} \\quad (\\text{Kala Lampau: } \\mathbf{닫혔습니다})",
@@ -2342,23 +2614,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "닫았습니다 (bentuk aktif transitif yang menuntut subjek manusia pelaku penutup pintu) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "닫았습니다",
+        "translation": "bentuk aktif transitif yang menuntut subjek manusia pelaku penutup pintu 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "닫이었습니다 (kesalahan afiks pasif yang keliru menggunakan imbuhan 이 pada konsonan ㄷ)."
+        "text": "닫이었습니다",
+        "translation": "kesalahan afiks pasif yang keliru menggunakan imbuhan 이 pada konsonan ㄷ."
       },
       {
         "key": "C",
-        "text": "닫추었습니다 (kesalahan menggunakan afiks kausatif 추 yang tidak ada dalam gramatika 닫다)."
+        "text": "닫추었습니다",
+        "translation": "kesalahan menggunakan afiks kausatif 추 yang tidak ada dalam gramatika 닫다."
       },
       {
         "key": "D",
-        "text": "닫히게 했습니다 (bentuk kausatif analitis yang berarti menyuruh jendela tertutup)."
+        "text": "닫히게 했습니다",
+        "translation": "bentuk kausatif analitis yang berarti menyuruh jendela tertutup."
       },
       {
         "key": "E",
-        "text": "닫혔습니다 (verba dasar 닫- disisipi imbuhan pasif 히 menjadi 닫히다, lalu terkonjugasi lampau 닫혔습니다)."
+        "text": "닫혔습니다",
+        "translation": "verba dasar 닫- disisipi imbuhan pasif 히 menjadi 닫히다, lalu terkonjugasi lampau 닫혔습니다."
       }
     ],
     "correctKey": "E",
@@ -2376,7 +2653,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Prinsip pemerolehan kemahiran bahasa asing:\n'외국어는 매일 꾸준히 ( ... ) 말하기 실력이 눈에 띄게 향상되고 자신감이 생깁니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata kerja '연습하다' (berlatih) adalah...",
+    "questionHtml": "Prinsip pemerolehan kemahiran bahasa asing:\n'외국어는 매일 꾸준히 ( ... ) 말하기 실력이 눈에 띄게 향상되고 자신감이 생깁니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata kerja '연습하다' adalah...",
     "formulaHud": {
       "title": "PROPORSI GRADUAL: -(으)ㄹ수록 (THE MORE ... THE MORE)",
       "latex": "\\text{Akar Vokal / ㄹ} + \\mathbf{-ㄹ수록} \\quad \\leftrightarrow \\quad \\text{Akar Konsonan} + \\mathbf{-을수록}",
@@ -2385,23 +2662,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "연습할수록 (akar kata kerja berakhiran vokal 하- berpadu dengan akhiran proporsi -ㄹ수록)."
+        "text": "연습할수록",
+        "translation": "akar kata kerja berakhiran vokal 하- berpadu dengan akhiran proporsi -ㄹ수록."
       },
       {
         "key": "B",
-        "text": "연습하을수록 (kesalahan morfologis menyisipkan vokal 으 pada akar verba tanpa batchim)."
+        "text": "연습하을수록",
+        "translation": "kesalahan morfologis menyisipkan vokal 으 pada akar verba tanpa batchim."
       },
       {
         "key": "C",
-        "text": "연습하느라면 (akhiran yang menyatakan 'apabila terus-menerus melakukan... maka biasanya terjadi...')."
+        "text": "연습하느라면",
+        "translation": "akhiran yang menyatakan 'apabila terus-menerus melakukan... maka biasanya terjadi...'."
       },
       {
         "key": "D",
-        "text": "연습하는 셈 치고 (ungkapan menganggap/mengikhlaskan seolah-olah telah berlatih)."
+        "text": "연습하는 셈 치고",
+        "translation": "ungkapan menganggap/mengikhlaskan seolah-olah telah berlatih."
       },
       {
         "key": "E",
-        "text": "연습할 리가 없이 (ungkapan kemustahilan 'tidak mungkin berlatih', bertentangan dengan konteks)."
+        "text": "연습할 리가 없이",
+        "translation": "ungkapan kemustahilan 'tidak mungkin berlatih', bertentangan dengan konteks."
       }
     ],
     "correctKey": "A",
@@ -2419,7 +2701,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang turis yang kehilangan paspor di stasiun kereta:\n'지하철 선반 위에 가방을 두고 내렸는데, 그 안에 여권과 지갑이 들어 있어서 큰일( ... ). 결국 가방을 잃어( ... ).'\nPasangan bentuk aspek keterlanjuran tuntas (-아/어 버리다) yang TEPAT dari verba '잃다' (hilang/kehilangan) adalah...",
+    "questionHtml": "Keluhan seorang turis yang kehilangan paspor di stasiun kereta:\n'지하철 선반 위에 가방을 두고 내렸는데, 그 안에 여권과 지갑이 들어 있어서 큰일( ... ). 결국 가방을 잃어( ... ).'\nPasangan bentuk aspek keterlanjuran tuntas (-아/어 버리다) yang TEPAT dari verba '잃다' adalah...",
     "formulaHud": {
       "title": "ASPEK KETERLANJURAN TUNTAS / PENYESALAN: -아/어 버리다",
       "latex": "\\text{Akar Verba} + \\mathbf{-아/어 \\text{ } 버리다} \\quad (\\text{잃-} + \\mathbf{-어 \\text{ } 버렸습니다})",
@@ -2428,23 +2710,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "잃어 보았습니다 (bermakna sengaja mencoba merasakan kehilangan dompet, tidak masuk akal) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다 TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "잃어 보았습니다",
+        "translation": "bermakna sengaja mencoba merasakan kehilangan dompet, tidak masuk akal TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다 TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "잃어버렸습니다 (verba 잃다 bervokal ㅣ berpadu dengan -어 버리다 untuk menyatakan rasa penyesalan mendalam atas kehilangan yang terlanjur terjadi)."
+        "text": "잃어버렸습니다",
+        "translation": "verba 잃다 bervokal ㅣ berpadu dengan -어 버리다 untuk menyatakan rasa penyesalan mendalam atas kehilangan yang terlanjur terjadi."
       },
       {
         "key": "C",
-        "text": "잃어야 했습니다 (bermakna berkewajiban menghilangkan dompet dan paspor)."
+        "text": "잃어야 했습니다",
+        "translation": "bermakna berkewajiban menghilangkan dompet dan paspor."
       },
       {
         "key": "D",
-        "text": "잃는 척했습니다 (bermakna berpura-pura kehilangan paspor padahal tidak)."
+        "text": "잃는 척했습니다",
+        "translation": "bermakna berpura-pura kehilangan paspor padahal tidak."
       },
       {
         "key": "E",
-        "text": "잃을 뻔했습니다 (bermakna nyaris hilang namun akhirnya terselamatkan, kontradiktif dengan kepanikan 큰일)."
+        "text": "잃을 뻔했습니다",
+        "translation": "bermakna nyaris hilang namun akhirnya terselamatkan, kontradiktif dengan kepanikan 큰일."
       }
     ],
     "correctKey": "B",
@@ -2471,23 +2758,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "못 들을 척하며 (bentuk dugaan futuristik yang salah tata bahasa untuk tindakan kepura-puraan) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "못 들을 척하며",
+        "translation": "bentuk dugaan futuristik yang salah tata bahasa untuk tindakan kepura-puraan 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "못 듣는 셈 치며 (ungkapan menganggap/merelakan sesuatu yang salah fungsi semantik)."
+        "text": "못 듣는 셈 치며",
+        "translation": "ungkapan menganggap/merelakan sesuatu yang salah fungsi semantik."
       },
       {
         "key": "C",
-        "text": "못 들은 척하며 (akar verba 듣다 dalam konteks kala lampau berpadu dengan penanda kepura-puraan -(으)ㄴ 척하다)."
+        "text": "못 들은 척하며",
+        "translation": "akar verba 듣다 dalam konteks kala lampau berpadu dengan penanda kepura-puraan -(으)ㄴ 척하다."
       },
       {
         "key": "D",
-        "text": "못 들을 텐데 (ungkapan praduga kontras yang tidak menyatakan aksi pura-pura fisik)."
+        "text": "못 들을 텐데",
+        "translation": "ungkapan praduga kontras yang tidak menyatakan aksi pura-pura fisik."
       },
       {
         "key": "E",
-        "text": "못 들어야 하며 (ungkapan kewajiban yang merusak alur narasi perilaku)."
+        "text": "못 들어야 하며",
+        "translation": "ungkapan kewajiban yang merusak alur narasi perilaku."
       }
     ],
     "correctKey": "C",
@@ -2514,23 +2806,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "공부하더라면 (kesalahan tidak menyertakan penanda kala lampau 었/았 pada struktur kontrafaktual)."
+        "text": "공부하더라면",
+        "translation": "kesalahan tidak menyertakan penanda kala lampau 었/았 pada struktur kontrafaktual."
       },
       {
         "key": "B",
-        "text": "공부한다면 (pengandaian masa kini atau masa depan biasa yang tidak berorientasi pada fakta lampau yang mustahil diubah)."
+        "text": "공부한다면",
+        "translation": "pengandaian masa kini atau masa depan biasa yang tidak berorientasi pada fakta lampau yang mustahil diubah."
       },
       {
         "key": "C",
-        "text": "공부했을수록 (kombinasi struktur proporsi yang salah tempat)."
+        "text": "공부했을수록",
+        "translation": "kombinasi struktur proporsi yang salah tempat."
       },
       {
         "key": "D",
-        "text": "공부했더라면 (akar verba 하- terkonjugasi lampau 했- + akhiran pengandaian kontrafaktual -더라면)."
+        "text": "공부했더라면",
+        "translation": "akar verba 하- terkonjugasi lampau 했- + akhiran pengandaian kontrafaktual -더라면."
       },
       {
         "key": "E",
-        "text": "공부할 텐데 (klausula pengantar yang tidak dapat berfungsi sebagai anteseden kondisional)."
+        "text": "공부할 텐데",
+        "translation": "klausula pengantar yang tidak dapat berfungsi sebagai anteseden kondisional."
       }
     ],
     "correctKey": "D",
@@ -2557,23 +2854,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "시작하라고 했습니다 (bentuk kutipan perintah otoritatif yang tidak mencerminkan ajakan bersama -ㅂ시다) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "시작하라고 했습니다",
+        "translation": "bentuk kutipan perintah otoritatif yang tidak mencerminkan ajakan bersama -ㅂ시다 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "시작한다고 했습니다 (bentuk kutipan pernyataan deklaratif)."
+        "text": "시작한다고 했습니다",
+        "translation": "bentuk kutipan pernyataan deklaratif."
       },
       {
         "key": "C",
-        "text": "시작하냐고 했습니다 (bentuk kutipan kalimat tanya interogatif)."
+        "text": "시작하냐고 했습니다",
+        "translation": "bentuk kutipan kalimat tanya interogatif."
       },
       {
         "key": "D",
-        "text": "시작하지 말자고 했습니다 (bentuk larangan mengajak untuk tidak memulai kampanye)."
+        "text": "시작하지 말자고 했습니다",
+        "translation": "bentuk larangan mengajak untuk tidak memulai kampanye."
       },
       {
         "key": "E",
-        "text": "시작하자고 했습니다 (tuturan ajakan langsung -ㅂ시다 diubah menjadi akar kata kerja 시작하- + akhiran kutipan ajakan -자고 하다)."
+        "text": "시작하자고 했습니다",
+        "translation": "tuturan ajakan langsung -ㅂ시다 diubah menjadi akar kata kerja 시작하- + akhiran kutipan ajakan -자고 하다."
       }
     ],
     "correctKey": "E",
@@ -2600,23 +2902,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "입혔습니다 (verba 입다 disisipi imbuhan kausatif 히 menjadi 입히다, lalu terkonjugasi waktu lampau 입혔습니다)."
+        "text": "입혔습니다",
+        "translation": "verba 입다 disisipi imbuhan kausatif 히 menjadi 입히다, lalu terkonjugasi waktu lampau 입혔습니다."
       },
       {
         "key": "B",
-        "text": "입었습니다 (bentuk aktif biasa di mana ibu yang mengenakan pakaian bayi untuk dirinya sendiri) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "입었습니다",
+        "translation": "bentuk aktif biasa di mana ibu yang mengenakan pakaian bayi untuk dirinya sendiri TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "입게 되었습니다 (bentuk pasif situasi di mana pakaian tersebut terpakai dengan sendirinya)."
+        "text": "입게 되었습니다",
+        "translation": "bentuk pasif situasi di mana pakaian tersebut terpakai dengan sendirinya."
       },
       {
         "key": "D",
-        "text": "입으라고 했습니다 (bentuk menyuruh bayi berbicara/berpakaian sendiri)."
+        "text": "입으라고 했습니다",
+        "translation": "bentuk menyuruh bayi berbicara/berpakaian sendiri."
       },
       {
         "key": "E",
-        "text": "입지 않도록 했습니다 (bentuk pencegahan agar bayi tidak berpakaian tebal)."
+        "text": "입지 않도록 했습니다",
+        "translation": "bentuk pencegahan agar bayi tidak berpakaian tebal."
       }
     ],
     "correctKey": "A",
@@ -2634,7 +2941,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ulasan novel sastra pemenang penghargaan internasional:\n'이 소설은 인간의 내면 심리를 섬세하게 묘사하여 문학을 사랑하는 독자라면 누구나 한 번쯤 꼭 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) yang TEPAT dari verba '읽다' (membaca) adalah...",
+    "questionHtml": "Ulasan novel sastra pemenang penghargaan internasional:\n'이 소설은 인간의 내면 심리를 섬세하게 묘사하여 문학을 사랑하는 독자라면 누구나 한 번쯤 꼭 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) yang TEPAT dari verba '읽다' adalah...",
     "formulaHud": {
       "title": "KELAYAKAN / REKOMENDASI: -(으)ㄹ 만하다 (WORTH DOING)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 만하다} \\quad (\\text{읽-} + \\mathbf{-을 \\text{ } 만합니다})",
@@ -2643,23 +2950,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "읽을 리가 없습니다 (menyatakan 'tidak masuk akal untuk dibaca', sangat menghina karya seni)."
+        "text": "읽을 리가 없습니다",
+        "translation": "menyatakan 'tidak masuk akal untuk dibaca', sangat menghina karya seni."
       },
       {
         "key": "B",
-        "text": "읽을 만합니다 (akar verba ber-batchim 읽- berpadu dengan penanda kelayakan -(으)ㄹ 만하다)."
+        "text": "읽을 만합니다",
+        "translation": "akar verba ber-batchim 읽- berpadu dengan penanda kelayakan -(으)ㄹ 만하다."
       },
       {
         "key": "C",
-        "text": "읽기 십상입니다 (akhiran probabilitas negatif 'pasti celaka/mudah tertimpa keburukan jika membaca')."
+        "text": "읽기 십상입니다",
+        "translation": "akhiran probabilitas negatif 'pasti celaka/mudah tertimpa keburukan jika membaca'."
       },
       {
         "key": "D",
-        "text": "읽는 셈입니다 (menyatakan 'bisa dianggap sudah membaca', tidak cocok untuk rekomendasi)."
+        "text": "읽는 셈입니다",
+        "translation": "menyatakan 'bisa dianggap sudah membaca', tidak cocok untuk rekomendasi."
       },
       {
         "key": "E",
-        "text": "읽어야만 합니다 (terlalu memaksakan beban kewajiban hukum yang kaku)."
+        "text": "읽어야만 합니다",
+        "translation": "terlalu memaksakan beban kewajiban hukum yang kaku."
       }
     ],
     "correctKey": "B",
@@ -2677,7 +2989,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemberitahuan situasi cuaca ekstrem di bandara Incheon:\n'현재 짙은 안개와 강풍 때문에 일부 항공편의 출발이 지연되거나 아예 ( ... ). 전광판을 수시로 확인해 주시기 바랍니다.'\nBentuk ungkapan kemungkinan tak pasti (-(으)ㄹ지도 모르다) dari verba '취소되다' (dibatalkan) adalah...",
+    "questionHtml": "Pemberitahuan situasi cuaca ekstrem di bandara Incheon:\n'현재 짙은 안개와 강풍 때문에 일부 항공편의 출발이 지연되거나 아예 ( ... ). 전광판을 수시로 확인해 주시기 바랍니다.'\nBentuk ungkapan kemungkinan tak pasti (-(으)ㄹ지도 모르다) dari verba '취소되다' adalah...",
     "formulaHud": {
       "title": "KEMUNGKINAN TAK PASTI: -(으)ㄹ지도 모르다 (MIGHT / PERHAPS)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ지도 \\text{ } 모르다/모릅니다}",
@@ -2686,23 +2998,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "취소될 리가 없습니다 (menyatakan 'mustahil dibatalkan', membahayakan penumpang yang tidak waspada) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "취소될 리가 없습니다",
+        "translation": "menyatakan 'mustahil dibatalkan', membahayakan penumpang yang tidak waspada 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "취소되는 편입니다 (menyatakan kecenderungan umum biasa tanpa konteks ancaman mendadak)."
+        "text": "취소되는 편입니다",
+        "translation": "menyatakan kecenderungan umum biasa tanpa konteks ancaman mendadak."
       },
       {
         "key": "C",
-        "text": "취소될지도 모릅니다 (akar verba 취소되- tanpa batchim berpadu dengan penanda probabilitas spekulatif -ㄹ지도 모르다)."
+        "text": "취소될지도 모릅니다",
+        "translation": "akar verba 취소되- tanpa batchim berpadu dengan penanda probabilitas spekulatif -ㄹ지도 모르다."
       },
       {
         "key": "D",
-        "text": "취소되지 않을 수 없습니다 (penegasan kepastian mutlak yang melampaui fakta perkiraan spekulatif)."
+        "text": "취소되지 않을 수 없습니다",
+        "translation": "penegasan kepastian mutlak yang melampaui fakta perkiraan spekulatif."
       },
       {
         "key": "E",
-        "text": "취소되는 척합니다 (bermakna berpura-pura dibatalkan, sangat absurd untuk sistem bandara internasional)."
+        "text": "취소되는 척합니다",
+        "translation": "bermakna berpura-pura dibatalkan, sangat absurd untuk sistem bandara internasional."
       }
     ],
     "correctKey": "C",
@@ -2729,23 +3046,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "가능하다고 물으셨습니다 (kesalahan mencampur akhiran deklaratif -다고 dengan verba bertanya 묻다)."
+        "text": "가능하다고 물으셨습니다",
+        "translation": "kesalahan mencampur akhiran deklaratif -다고 dengan verba bertanya 묻다."
       },
       {
         "key": "B",
-        "text": "가능하라고 물으셨습니다 (kesalahan mencampur akhiran perintah -라고 dengan verba bertanya)."
+        "text": "가능하라고 물으셨습니다",
+        "translation": "kesalahan mencampur akhiran perintah -라고 dengan verba bertanya."
       },
       {
         "key": "C",
-        "text": "가능하자고 물으셨습니다 (kesalahan mencampur akhiran ajakan -자고 dengan verba bertanya)."
+        "text": "가능하자고 물으셨습니다",
+        "translation": "kesalahan mencampur akhiran ajakan -자고 dengan verba bertanya."
       },
       {
         "key": "D",
-        "text": "가능하냐고 물으셨습니다 (adjektiva 가능하- dipadukan dengan akhiran kutipan kalimat tanya -냐고 하다)."
+        "text": "가능하냐고 물으셨습니다",
+        "translation": "adjektiva 가능하- dipadukan dengan akhiran kutipan kalimat tanya -냐고 하다."
       },
       {
         "key": "E",
-        "text": "가능하시냐고 대답했습니다 (kesalahan subjek dan verba tindak tutur yang terbalik antara penanya dan penjawab)."
+        "text": "가능하시냐고 대답했습니다",
+        "translation": "kesalahan subjek dan verba tindak tutur yang terbalik antara penanya dan penjawab."
       }
     ],
     "correctKey": "D",
@@ -2763,7 +3085,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pendapat pembelajar bahasa asing:\n'한국어 문법은 다른 언어에 비해 다소 복잡하( ... ) 배울수록 깊은 매력이 있어서 아주 재미있습니다.'\nBentuk pengakuan parsial yang TEPAT dari kata sifat '복잡하다' (rumit) adalah...",
+    "questionHtml": "Pendapat pembelajar bahasa asing:\n'한국어 문법은 다른 언어에 비해 다소 복잡하( ... ) 배울수록 깊은 매력이 있어서 아주 재미있습니다.'\nBentuk pengakuan parsial yang TEPAT dari kata sifat '복잡하다' adalah...",
     "formulaHud": {
       "title": "PENGAKUAN PARSIAL (KONSESI): -기는 하지만 (IT IS TRUE THAT ... BUT)",
       "latex": "\\text{Akar Kata} + \\mathbf{-기는 \\text{ } 하지만 / -기는 \\text{ } 한데}",
@@ -2772,23 +3094,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "복잡하기는커녕 (ungkapan penyangkalan ekstrem 'alih-alih rumit, malah...')."
+        "text": "복잡하기는커녕",
+        "translation": "ungkapan penyangkalan ekstrem 'alih-alih rumit, malah...'."
       },
       {
         "key": "B",
-        "text": "복잡할 리가 없지만 (ungkapan kemustahilan yang kontradiktif dengan kesulitan tata bahasa nyata)."
+        "text": "복잡할 리가 없지만",
+        "translation": "ungkapan kemustahilan yang kontradiktif dengan kesulitan tata bahasa nyata."
       },
       {
         "key": "C",
-        "text": "복잡한 셈 치지만 (ungkapan pengandaian pengikhlasan yang tidak tepat konteks telaah linguistik)."
+        "text": "복잡한 셈 치지만",
+        "translation": "ungkapan pengandaian pengikhlasan yang tidak tepat konteks telaah linguistik."
       },
       {
         "key": "D",
-        "text": "복잡하다시피 (ungkapan komparasi 'sebagaimana yang telah diketahui bersama')."
+        "text": "복잡하다시피",
+        "translation": "ungkapan komparasi 'sebagaimana yang telah diketahui bersama'."
       },
       {
         "key": "E",
-        "text": "복잡하기는 하지만 (akar kata sifat 복잡하- + penanda konsesi pengakuan parsial -기는 하지만)."
+        "text": "복잡하기는 하지만",
+        "translation": "akar kata sifat 복잡하- + penanda konsesi pengakuan parsial -기는 하지만."
       }
     ],
     "correctKey": "E",
@@ -2806,7 +3133,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Metode pembelajaran aktif guru sains di kelas:\n'선생님께서는 학생들에게 정답을 바로 알려주지 않고 스스로 깊이 ( ... ) 다양한 질문을 던지셨습니다.'\nBentuk kausatif sintaksis analitis (-게 하다) yang TEPAT dari verba '생각하다' (berpikir) adalah...",
+    "questionHtml": "Metode pembelajaran aktif guru sains di kelas:\n'선생님께서는 학생들에게 정답을 바로 알려주지 않고 스스로 깊이 ( ... ) 다양한 질문을 던지셨습니다.'\nBentuk kausatif sintaksis analitis (-게 하다) yang TEPAT dari verba '생각하다' adalah...",
     "formulaHud": {
       "title": "KAUSATIF SINTAKSIS: -게 하다 (MAKE / CAUSE SOMEONE TO DO)",
       "latex": "\\text{Akar Verba} + \\mathbf{-게 \\text{ } 하다} \\quad (\\text{생각하-} + \\mathbf{-게 \\text{ } 하려고})",
@@ -2815,23 +3142,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "생각하게 하려고 (akar verba 생각하- + kausatif analitis -게 하다 + akhiran tujuan -려고)."
+        "text": "생각하게 하려고",
+        "translation": "akar verba 생각하- + kausatif analitis -게 하다 + akhiran tujuan -려고."
       },
       {
         "key": "B",
-        "text": "생각당하게 하려고 (kesalahan mencampur bentuk pasif dan kausatif secara pleonastis)."
+        "text": "생각당하게 하려고",
+        "translation": "kesalahan mencampur bentuk pasif dan kausatif secara pleonastis."
       },
       {
         "key": "C",
-        "text": "생각할 수밖에 없게 (menyatakan keterpaksaan tanpa unsur pedagogis tujuan aktif guru)."
+        "text": "생각할 수밖에 없게",
+        "translation": "menyatakan keterpaksaan tanpa unsur pedagogis tujuan aktif guru."
       },
       {
         "key": "D",
-        "text": "생각하는 척하려고 (menyatakan berpura-pura berpikir, sangat tidak sesuai konteks pengajaran)."
+        "text": "생각하는 척하려고",
+        "translation": "menyatakan berpura-pura berpikir, sangat tidak sesuai konteks pengajaran."
       },
       {
         "key": "E",
-        "text": "생각하지 않도록 (bertolak belakang dengan filosofi memicu daya kritis siswa)."
+        "text": "생각하지 않도록",
+        "translation": "bertolak belakang dengan filosofi memicu daya kritis siswa."
       }
     ],
     "correctKey": "A",
@@ -2849,7 +3181,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penjelasan petugas keamanan mengenai regulasi gedung publik:\n'관련 법령 및 본 건물 관리 규정에 따라 건물 전체 구역이 금연구역으로 ( ... ). 흡연 적발 시 과태료가 부과됩니다.'\nBentuk pengungkapan aturan ketentuan hukum (-기로 되어 있다) yang TEPAT dari verba '지정되다' (ditetapkan) adalah...",
+    "questionHtml": "Penjelasan petugas keamanan mengenai regulasi gedung publik:\n'관련 법령 및 본 건물 관리 규정에 따라 건물 전체 구역이 금연구역으로 ( ... ). 흡연 적발 시 과태료가 부과됩니다.'\nBentuk pengungkapan aturan ketentuan hukum (-기로 되어 있다) yang TEPAT dari verba '지정되다' adalah...",
     "formulaHud": {
       "title": "STATUS KETETAPAN ATURAN HUKUM: -기로 되어 있다 / -어 있다",
       "latex": "\\text{Regulasi Resmi / Status Hukum} \\implies \\mathbf{-기로 \\text{ } 되어 \\text{ } 있다 / -어 \\text{ } 있다}",
@@ -2858,23 +3190,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "지정될 뻔했습니다 (menyatakan 'nyaris ditetapkan namun gagal', bertentangan dengan denda tilang nyata)."
+        "text": "지정될 뻔했습니다",
+        "translation": "menyatakan 'nyaris ditetapkan namun gagal', bertentangan dengan denda tilang nyata."
       },
       {
         "key": "B",
-        "text": "지정되어 있습니다 (verba pasif 지정되다 berpadu dengan penanda status ketetapan hukum bertahan -어 있다)."
+        "text": "지정되어 있습니다",
+        "translation": "verba pasif 지정되다 berpadu dengan penanda status ketetapan hukum bertahan -어 있다."
       },
       {
         "key": "C",
-        "text": "지정되는 셈 치고 (ungkapan menganggap seolah-olah, merusak otoritas kepastian hukum)."
+        "text": "지정되는 셈 치고",
+        "translation": "ungkapan menganggap seolah-olah, merusak otoritas kepastian hukum."
       },
       {
         "key": "D",
-        "text": "지정할 리가 없습니다 (menyatakan kemustahilan gedung tersebut menjadi area bebas rokok)."
+        "text": "지정할 리가 없습니다",
+        "translation": "menyatakan kemustahilan gedung tersebut menjadi area bebas rokok."
       },
       {
         "key": "E",
-        "text": "지정하지 않기로 했습니다 (menyatakan pembatalan kesepakatan area bebas rokok)."
+        "text": "지정하지 않기로 했습니다",
+        "translation": "menyatakan pembatalan kesepakatan area bebas rokok."
       }
     ],
     "correctKey": "B",
@@ -3003,7 +3340,8 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Semangat humanisme kerakyatan (애민정신) untuk memberdayakan rakyat jelata agar mampu berliterasi dan menyuarakan aspirasinya."
+        "text": "Semangat humanisme kerakyatan",
+        "translation": "애민정신 untuk memberdayakan rakyat jelata agar mampu berliterasi dan menyuarakan aspirasinya."
       }
     ],
     "correctKey": "E",
@@ -3107,7 +3445,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ungkapan seorang pekerja setelah lembur menyelesaikan laporan tahunan perusahaan:\n'일주일 내내 밤샘 야근을 했더니 몸이 천근만근 무겁고 당장 길바닥에 ( ... ). 오늘 밤에는 아무 생각 없이 푹 자야겠어요.'\nBentuk pengungkapan ambang batas ekstrem (-(으)ㄹ 지경이다) yang TEPAT dari verba '쓰러지다' (pingsan/jatuh roboh) adalah...",
+    "questionHtml": "Ungkapan seorang pekerja setelah lembur menyelesaikan laporan tahunan perusahaan:\n'일주일 내내 밤샘 야근을 했더니 몸이 천근만근 무겁고 당장 길바닥에 ( ... ). 오늘 밤에는 아무 생각 없이 푹 자야겠어요.'\nBentuk pengungkapan ambang batas ekstrem (-(으)ㄹ 지경이다) yang TEPAT dari verba '쓰러지다' adalah...",
     "formulaHud": {
       "title": "AMBANG BATAS EKSTREM: -(으)ㄹ 지경이다 (ON THE VERGE OF)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 지경이다/지경입니다}",
@@ -3116,23 +3454,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "쓰러질 턱이 없습니다 (menyatakan kemustahilan roboh, bertentangan dengan rasa lelah luar biasa) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "쓰러질 턱이 없습니다",
+        "translation": "menyatakan kemustahilan roboh, bertentangan dengan rasa lelah luar biasa 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "쓰러지는 척했습니다 (bermakna sengaja berpura-pura jatuh roboh)."
+        "text": "쓰러지는 척했습니다",
+        "translation": "bermakna sengaja berpura-pura jatuh roboh."
       },
       {
         "key": "C",
-        "text": "쓰러질 지경입니다 (akar verba 쓰러지- tanpa batchim berpadu dengan penanda kondisi ekstrem -ㄹ 지경이다)."
+        "text": "쓰러질 지경입니다",
+        "translation": "akar verba 쓰러지- tanpa batchim berpadu dengan penanda kondisi ekstrem -ㄹ 지경이다."
       },
       {
         "key": "D",
-        "text": "쓰러지지 않을 리가 없습니다 (makna ganda berbelit-belit yang canggung)."
+        "text": "쓰러지지 않을 리가 없습니다",
+        "translation": "makna ganda berbelit-belit yang canggung."
       },
       {
         "key": "E",
-        "text": "쓰러질 리 만무합니다 (ungkapan kepastian tidak akan roboh)."
+        "text": "쓰러질 리 만무합니다",
+        "translation": "ungkapan kepastian tidak akan roboh."
       }
     ],
     "correctKey": "C",
@@ -3150,7 +3493,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keputusan rasional pejalan kaki saat jalan raya macet total:\n'출퇴근 시간에 꼼짝도 않는 도로 위 택시 안에 ( ... ) 맑은 공기를 마시며 지하철역까지 걸어가는 편이 훨씬 낫겠습니다.'\nBentuk komparasi preferensi ekstrem (-느니 차라리) yang TEPAT dari verba '갇혀 있다' (terjebak terkurung) adalah...",
+    "questionHtml": "Keputusan rasional pejalan kaki saat jalan raya macet total:\n'출퇴근 시간에 꼼짝도 않는 도로 위 택시 안에 ( ... ) 맑은 공기를 마시며 지하철역까지 걸어가는 편이 훨씬 낫겠습니다.'\nBentuk komparasi preferensi ekstrem (-느니 차라리) yang TEPAT dari verba '갇혀 있다' adalah...",
     "formulaHud": {
       "title": "PREFERENSI EKSTREM: A-느니 차라리 B (RATHER B THAN A)",
       "latex": "\\text{Opsi Buruk A} + \\mathbf{-느니 (차라리)} + \\text{Opsi B yang Lebih Masuk Akal} + \\mathbf{낫다/좋다}",
@@ -3159,23 +3502,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "갇혀 있더라도 (hanya menyatakan konsesi 'meskipun terjebak', tidak memuat nuansa pemilihan opsi yang lebih disukai)."
+        "text": "갇혀 있더라도",
+        "translation": "hanya menyatakan konsesi 'meskipun terjebak', tidak memuat nuansa pemilihan opsi yang lebih disukai."
       },
       {
         "key": "B",
-        "text": "갇혀 있으면서 (menyatakan simultanitas yang merusak pilihan jalan kaki)."
+        "text": "갇혀 있으면서",
+        "translation": "menyatakan simultanitas yang merusak pilihan jalan kaki."
       },
       {
         "key": "C",
-        "text": "갇혀 있을수록 (menyatakan proporsi yang tidak tepat secara sintaksis)."
+        "text": "갇혀 있을수록",
+        "translation": "menyatakan proporsi yang tidak tepat secara sintaksis."
       },
       {
         "key": "D",
-        "text": "갇혀 있느니 (akar verba 있- berpadu dengan penanda preferensi perbandingan negatif -느니)."
+        "text": "갇혀 있느니",
+        "translation": "akar verba 있- berpadu dengan penanda preferensi perbandingan negatif -느니."
       },
       {
         "key": "E",
-        "text": "갇혀 있자마자 (menyatakan kesegeraan waktu yang salah konteks perbandingan)."
+        "text": "갇혀 있자마자",
+        "translation": "menyatakan kesegeraan waktu yang salah konteks perbandingan."
       }
     ],
     "correctKey": "D",
@@ -3218,7 +3566,8 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memadukan sistem pemanas bawah lantai (Ondol) untuk musim dingin dan koridor berventilasi alami (Maru) untuk musim panas secara harmonis."
+        "text": "Memadukan sistem pemanas bawah lantai",
+        "translation": "Ondol) untuk musim dingin dan koridor berventilasi alami (Maru untuk musim panas secara harmonis."
       }
     ],
     "correctKey": "E",
@@ -3232,27 +3581,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam siaran warta berita sains dan teknologi Korea:\n'연구진은 이번에 개발된 차세대 배터리가 기존 리튬 배터리보다 에너지 밀도가 30% 이상 ( ... ) 공식 발표했습니다.'\nBentuk konjugasi kutipan tak langsung objektif yang TEPAT dari kata sifat '높다' (tinggi) adalah...",
+    "questionHtml": "Dalam siaran warta berita sains dan teknologi Korea:\n'연구진은 이번에 개발된 차세대 배터리가 기존 리튬 배터리보다 에너지 밀도가 30% 이상 ( ... ) 공식 발표했습니다.'\nBentuk konjugasi kutipan tak langsung objektif yang TEPAT dari kata sifat '높다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "높다고 (kata sifat 높다 berakar konsonan berpasangan langsung dengan akhiran kutipan deklaratif -다고)."
+        "text": "높다고",
+        "translation": "kata sifat 높다 berakar konsonan berpasangan langsung dengan akhiran kutipan deklaratif -다고."
       },
       {
         "key": "B",
-        "text": "높는다고 (kesalahan memperlakukan kata sifat seperti kata kerja yang disisipi penanda aspek 는) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "높는다고",
+        "translation": "kesalahan memperlakukan kata sifat seperti kata kerja yang disisipi penanda aspek 는 TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "높냐고 (bentuk kutipan kalimat tanya yang tidak cocok untuk laporan rilis pers ilmiah)."
+        "text": "높냐고",
+        "translation": "bentuk kutipan kalimat tanya yang tidak cocok untuk laporan rilis pers ilmiah."
       },
       {
         "key": "D",
-        "text": "높으라고 (bentuk kutipan kalimat instruksi perintah)."
+        "text": "높으라고",
+        "translation": "bentuk kutipan kalimat instruksi perintah."
       },
       {
         "key": "E",
-        "text": "높자고 (bentuk kutipan kalimat ajakan bersama)."
+        "text": "높자고",
+        "translation": "bentuk kutipan kalimat ajakan bersama."
       }
     ],
     "correctKey": "A",
@@ -3275,27 +3629,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cerita seorang rekan kerja dalam suasana percakapan santai:\n'영수는 그 소식을 오늘 아침에 처음 들었으면서도 다른 사람들 앞에서는 이미 다 알고 ( ... ) 고개를 끄덕였습니다.'\nBentuk konjugasi kepura-puraan lampau yang TEPAT dari verba '알다' (tahu/mengetahui, ber-batchim ㄹ) adalah...",
+    "questionHtml": "Cerita seorang rekan kerja dalam suasana percakapan santai:\n'영수는 그 소식을 오늘 아침에 처음 들었으면서도 다른 사람들 앞에서는 이미 다 알고 ( ... ) 고개를 끄덕였습니다.'\nBentuk konjugasi kepura-puraan lampau yang TEPAT dari verba '알다' (ber-batchim ㄹ) adalah...",
     "options": [
       {
         "key": "A",
-        "text": "있을 척하며 (bentuk prospektif futuristik yang salah tata bahasa untuk fakta masa lalu) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "있을 척하며",
+        "translation": "bentuk prospektif futuristik yang salah tata bahasa untuk fakta masa lalu TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "있었던 척하며 (aspek telah mengetahui di masa lampau berpadu dengan penanda kepura-puraan -척하다)."
+        "text": "있었던 척하며",
+        "translation": "aspek telah mengetahui di masa lampau berpadu dengan penanda kepura-puraan -척하다."
       },
       {
         "key": "C",
-        "text": "있는 셈 치며 (ungkapan menganggap/merelakan sesuatu yang salah makna kontekstual)."
+        "text": "있는 셈 치며",
+        "translation": "ungkapan menganggap/merelakan sesuatu yang salah makna kontekstual."
       },
       {
         "key": "D",
-        "text": "있을 텐데 (ungkapan praduga kontras pengantar tuturan)."
+        "text": "있을 텐데",
+        "translation": "ungkapan praduga kontras pengantar tuturan."
       },
       {
         "key": "E",
-        "text": "있어야 하며 (ungkapan keharusan mutlak yang merusak alur narasi kepura-puraan)."
+        "text": "있어야 하며",
+        "translation": "ungkapan keharusan mutlak yang merusak alur narasi kepura-puraan."
       }
     ],
     "correctKey": "B",
@@ -3318,27 +3677,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Aktivitas ayah menjelang tidur malam anak tercinta:\n'아버지는 잠자리에 든 아이에게 머리를 쓰다듬으며 재미있는 동화책을 나지막한 목소리로 ( ... ).'\nBentuk kata kerja kausatif (사동사) yang TEPAT dari verba dasar '읽다' (membaca) adalah...",
+    "questionHtml": "Aktivitas ayah menjelang tidur malam anak tercinta:\n'아버지는 잠자리에 든 아이에게 머리를 쓰다듬으며 재미있는 동화책을 나지막한 목소리로 ( ... ).'\nBentuk kata kerja kausatif (사동사) yang TEPAT dari verba dasar '읽다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "읽었습니다 (bentuk aktif transitif di mana ayah membaca sendiri untuk keperluan pribadinya) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "읽었습니다",
+        "translation": "bentuk aktif transitif di mana ayah membaca sendiri untuk keperluan pribadinya 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "읽게 되었습니다 (bentuk pasif situasi di mana dongeng terbaca dengan sendirinya)."
+        "text": "읽게 되었습니다",
+        "translation": "bentuk pasif situasi di mana dongeng terbaca dengan sendirinya."
       },
       {
         "key": "C",
-        "text": "읽혔습니다 (verba dasar 읽다 disisipi imbuhan kausatif 히 menjadi 읽히다, lalu terkonjugasi lampau 읽혔습니다)."
+        "text": "읽혔습니다",
+        "translation": "verba dasar 읽다 disisipi imbuhan kausatif 히 menjadi 읽히다, lalu terkonjugasi lampau 읽혔습니다."
       },
       {
         "key": "D",
-        "text": "읽으라고 했습니다 (bentuk menyuruh anak kecil membaca sendiri tanpa pendampingan)."
+        "text": "읽으라고 했습니다",
+        "translation": "bentuk menyuruh anak kecil membaca sendiri tanpa pendampingan."
       },
       {
         "key": "E",
-        "text": "읽지 않도록 했습니다 (bentuk pencegahan agar anak tidak membaca buku)."
+        "text": "읽지 않도록 했습니다",
+        "translation": "bentuk pencegahan agar anak tidak membaca buku."
       }
     ],
     "correctKey": "C",
@@ -3361,27 +3725,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Prinsip optimasi rekayasa perangkat lunak:\n'알고리즘의 구조가 지나치게 ( ... ) 시스템의 메모리 점유율이 높아지고 예기치 못한 오류가 발생하기 쉽습니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata sifat '복잡하다' (rumit) adalah...",
+    "questionHtml": "Prinsip optimasi rekayasa perangkat lunak:\n'알고리즘의 구조가 지나치게 ( ... ) 시스템의 메모리 점유율이 높아지고 예기치 못한 오류가 발생하기 쉽습니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata sifat '복잡하다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "복잡하을수록 (kesalahan morfologis menyisipkan vokal 으 pada akar tanpa batchim) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "복잡하을수록",
+        "translation": "kesalahan morfologis menyisipkan vokal 으 pada akar tanpa batchim 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "복잡하더라도 (hanya menyatakan konsesi 'meskipun rumit', tanpa makna eskalasi dampak berbanding lurus)."
+        "text": "복잡하더라도",
+        "translation": "hanya menyatakan konsesi 'meskipun rumit', tanpa makna eskalasi dampak berbanding lurus."
       },
       {
         "key": "C",
-        "text": "복잡한 셈 치고 (ungkapan mengikhlaskan/menganggap seolah-olah yang keliru nalar teknis)."
+        "text": "복잡한 셈 치고",
+        "translation": "ungkapan mengikhlaskan/menganggap seolah-olah yang keliru nalar teknis."
       },
       {
         "key": "D",
-        "text": "복잡할수록 (akar kata sifat berakhiran vokal 하- berpadu dengan akhiran perbandingan proporsional -ㄹ수록)."
+        "text": "복잡할수록",
+        "translation": "akar kata sifat berakhiran vokal 하- berpadu dengan akhiran perbandingan proporsional -ㄹ수록."
       },
       {
         "key": "E",
-        "text": "복잡할 리가 없이 (ungkapan kemustahilan 'tidak mungkin rumit', bertolak belakang dengan premis)."
+        "text": "복잡할 리가 없이",
+        "translation": "ungkapan kemustahilan 'tidak mungkin rumit', bertolak belakang dengan premis."
       }
     ],
     "correctKey": "D",
@@ -3404,27 +3773,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang perantau saat kehabisan tiket pulang kampung jelang hari raya Chuseok:\n'연휴 기차표 예매가 오늘 시작되는 줄 알았더라면 아침 7시 정각에 미리 사이트에 ( ... ). 결국 표가 다 매진되었어요.'\nBentuk penyesalan atas tindakan yang tidak dilakukan (-(으)ㄹ 걸 그랬다) dari verba '접속하다' (mengakses/login) adalah...",
+    "questionHtml": "Keluhan seorang perantau saat kehabisan tiket pulang kampung jelang hari raya Chuseok:\n'연휴 기차표 예매가 오늘 시작되는 줄 알았더라면 아침 7시 정각에 미리 사이트에 ( ... ). 결국 표가 다 매진되었어요.'\nBentuk penyesalan atas tindakan yang tidak dilakukan (-(으)ㄹ 걸 그랬다) dari verba '접속하다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "접속하지 말 걸 그랬어요 (menyesal karena telah mengakses situs, bertolak belakang dengan rasa kecewa kehabisan tiket)."
+        "text": "접속하지 말 걸 그랬어요",
+        "translation": "menyesal karena telah mengakses situs, bertolak belakang dengan rasa kecewa kehabisan tiket."
       },
       {
         "key": "B",
-        "text": "접속할 수 있었어요 (hanya menyatakan kemampuan teoritis tanpa penyesalan emosional)."
+        "text": "접속할 수 있었어요",
+        "translation": "hanya menyatakan kemampuan teoritis tanpa penyesalan emosional."
       },
       {
         "key": "C",
-        "text": "접속하게 되었어요 (menyatakan hasil perubahan situasi di luar rencana)."
+        "text": "접속하게 되었어요",
+        "translation": "menyatakan hasil perubahan situasi di luar rencana."
       },
       {
         "key": "D",
-        "text": "접속하기로 했어요 (hanya menyatakan janji temu masa depan)."
+        "text": "접속하기로 했어요",
+        "translation": "hanya menyatakan janji temu masa depan."
       },
       {
         "key": "E",
-        "text": "접속할 걸 그랬어요 (akar verba 접속하- berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다)."
+        "text": "접속할 걸 그랬어요",
+        "translation": "akar verba 접속하- berpadu dengan penanda penyesalan kontrafaktual -ㄹ 걸 그랬다."
       }
     ],
     "correctKey": "E",
@@ -3490,27 +3864,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemberitahuan penyelenggara festival musik kampus:\n'갑자기 들이닥친 돌풍으로 야외 무대 조명 장치가 ( ... ) 관객 여러분의 안전을 위해 공연을 부득이 중단하게 되었습니다.'\nBentuk konjugasi peristiwa mendadak berdampak buruk (-는 바람에) dari verba '무너지다' (runtuh/roboh) adalah...",
+    "questionHtml": "Pemberitahuan penyelenggara festival musik kampus:\n'갑자기 들이닥친 돌풍으로 야외 무대 조명 장치가 ( ... ) 관객 여러분의 안전을 위해 공연을 부득이 중단하게 되었습니다.'\nBentuk konjugasi peristiwa mendadak berdampak buruk (-는 바람에) dari verba '무너지다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "무너지는 덕분에 (akhiran 'berkat/untunglah', sangat absurd untuk robohnya instalasi panggung musik) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "무너지는 덕분에",
+        "translation": "akhiran 'berkat/untunglah', sangat absurd untuk robohnya instalasi panggung musik TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "B",
-        "text": "무너지는 바람에 (akar verba 무너지- + akhiran kausalitas musibah mendadak berkonsekuensi negatif -는 바람에)."
+        "text": "무너지는 바람에",
+        "translation": "akar verba 무너지- + akhiran kausalitas musibah mendadak berkonsekuensi negatif -는 바람에."
       },
       {
         "key": "C",
-        "text": "무너지기 때문에 (akhiran kausalitas netral yang kehilangan nuansa kepanikan musibah tak terduga)."
+        "text": "무너지기 때문에",
+        "translation": "akhiran kausalitas netral yang kehilangan nuansa kepanikan musibah tak terduga."
       },
       {
         "key": "D",
-        "text": "무너지더라도 (akhiran konsesi pengandaian meskipun yang merusak logika penundaan konser)."
+        "text": "무너지더라도",
+        "translation": "akhiran konsesi pengandaian meskipun yang merusak logika penundaan konser."
       },
       {
         "key": "E",
-        "text": "무너지자마자 (hanya menyatakan kecepatan waktu urutan tanpa penekanan faktor penyebab utama)."
+        "text": "무너지자마자",
+        "translation": "hanya menyatakan kecepatan waktu urutan tanpa penekanan faktor penyebab utama."
       }
     ],
     "correctKey": "B",
@@ -3533,27 +3912,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Saran dokter kepada seorang pekerja yang memaksakan diri masuk kantor:\n'체온이 39도까지 올라가고 독감 증상이 뚜렷하므로 오늘은 출근하지 말고 집에서 푹 ( ... ).'\nBentuk ekspresi ketiadaan pilihan selain istirahat dari verba '쉬다' (beristirahat) adalah...",
+    "questionHtml": "Saran dokter kepada seorang pekerja yang memaksakan diri masuk kantor:\n'체온이 39도까지 올라가고 독감 증상이 뚜렷하므로 오늘은 출근하지 말고 집에서 푹 ( ... ).'\nBentuk ekspresi ketiadaan pilihan selain istirahat dari verba '쉬다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "쉬지 않을 수 있었습니다 (menyatakan kemampuan untuk tidak istirahat, membahayakan kesehatan pasien)."
+        "text": "쉬지 않을 수 있었습니다",
+        "translation": "menyatakan kemampuan untuk tidak istirahat, membahayakan kesehatan pasien."
       },
       {
         "key": "B",
-        "text": "쉬기로 되어 있었습니다 (hanya menyatakan jadwal libur formal yang sudah tercatat sebelumnya)."
+        "text": "쉬기로 되어 있었습니다",
+        "translation": "hanya menyatakan jadwal libur formal yang sudah tercatat sebelumnya."
       },
       {
         "key": "C",
-        "text": "쉴 수밖에 없습니다 (akar verba 쉬- tanpa batchim berpadu dengan -ㄹ 수밖에 없다)."
+        "text": "쉴 수밖에 없습니다",
+        "translation": "akar verba 쉬- tanpa batchim berpadu dengan -ㄹ 수밖에 없다."
       },
       {
         "key": "D",
-        "text": "쉴 뻔했습니다 (bermakna nyaris beristirahat namun akhirnya batal, kontradiktif dengan perintah dokter)."
+        "text": "쉴 뻔했습니다",
+        "translation": "bermakna nyaris beristirahat namun akhirnya batal, kontradiktif dengan perintah dokter."
       },
       {
         "key": "E",
-        "text": "쉬도록 했습니다 (mengimplikasikan menyuruh orang lain yang beristirahat)."
+        "text": "쉬도록 했습니다",
+        "translation": "mengimplikasikan menyuruh orang lain yang beristirahat."
       }
     ],
     "correctKey": "C",
@@ -3576,27 +3960,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Deskripsi keindahan suasana menginap di tepi pantai Haeundae Busan:\n'호텔 방 창문을 활짝 열자 시원한 바닷바람과 함께 철썩이는 파도 소리가 귀에 생생하게 ( ... ).'\nBentuk kata kerja pasif spontan (피동사) yang TEPAT dari verba dasar '듣다' (mendengar) adalah...",
+    "questionHtml": "Deskripsi keindahan suasana menginap di tepi pantai Haeundae Busan:\n'호텔 방 창문을 활짝 열자 시원한 바닷바람과 함께 철썩이는 파도 소리가 귀에 생생하게 ( ... ).'\nBentuk kata kerja pasif spontan (피동사) yang TEPAT dari verba dasar '듣다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "들었습니다 (bentuk aktif transitif di mana suara ombak yang mendengarkan telinga manusia) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "들었습니다",
+        "translation": "bentuk aktif transitif di mana suara ombak yang mendengarkan telinga manusia 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "듣이었습니다 (kesalahan afiks pasif yang keliru menggunakan imbuhan 이 pada konsonan ㄷ)."
+        "text": "듣이었습니다",
+        "translation": "kesalahan afiks pasif yang keliru menggunakan imbuhan 이 pada konsonan ㄷ."
       },
       {
         "key": "C",
-        "text": "들리게 했습니다 (bentuk kausatif analitis yang menyuruh suara ombak bersuara)."
+        "text": "들리게 했습니다",
+        "translation": "bentuk kausatif analitis yang menyuruh suara ombak bersuara."
       },
       {
         "key": "D",
-        "text": "들려왔습니다 (verba dasar 듣다 disisipi imbuhan pasif 리 menjadi 들리다, lalu berpadu dengan arah datang -어 오다)."
+        "text": "들려왔습니다",
+        "translation": "verba dasar 듣다 disisipi imbuhan pasif 리 menjadi 들리다, lalu berpadu dengan arah datang -어 오다."
       },
       {
         "key": "E",
-        "text": "듣지 않도록 했습니다 (bentuk pencegahan agar deburan ombak tidak terdengar)."
+        "text": "듣지 않도록 했습니다",
+        "translation": "bentuk pencegahan agar deburan ombak tidak terdengar."
       }
     ],
     "correctKey": "D",
@@ -3666,23 +4055,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "포기하지 말라고 하셨습니다 (akar verba 포기하- + akhiran larangan tidak langsung -지 말라고 하다)."
+        "text": "포기하지 말라고 하셨습니다",
+        "translation": "akar verba 포기하- + akhiran larangan tidak langsung -지 말라고 하다."
       },
       {
         "key": "B",
-        "text": "포기하지 말자고 하셨습니다 (bentuk kutipan ajakan bersama yang mengubah perintah guru menjadi usulan setara)."
+        "text": "포기하지 말자고 하셨습니다",
+        "translation": "bentuk kutipan ajakan bersama yang mengubah perintah guru menjadi usulan setara."
       },
       {
         "key": "C",
-        "text": "포기하지 않는다고 하셨습니다 (bentuk kutipan deklaratif bahwa guru sendiri yang tidak menyerah)."
+        "text": "포기하지 않는다고 하셨습니다",
+        "translation": "bentuk kutipan deklaratif bahwa guru sendiri yang tidak menyerah."
       },
       {
         "key": "D",
-        "text": "포기하지 않냐고 하셨습니다 (bentuk kutipan interogatif yang menanyakan apakah siswa menyerah)."
+        "text": "포기하지 않냐고 하셨습니다",
+        "translation": "bentuk kutipan interogatif yang menanyakan apakah siswa menyerah."
       },
       {
         "key": "E",
-        "text": "포기하라고 하셨습니다 (makna terbalik yang mengutip guru menyuruh siswa untuk menyerah)."
+        "text": "포기하라고 하셨습니다",
+        "translation": "makna terbalik yang mengutip guru menyuruh siswa untuk menyerah."
       }
     ],
     "correctKey": "A",
@@ -3705,27 +4099,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Rekomendasi guru sejarah mengenai film dokumenter pahlawan kemerdekaan:\n'이 다큐멘터리 영화는 잊혀져 가던 독립운동가들의 헌신을 사실적으로 재조명하여 국민이라면 꼭 한 번 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) dari verba '보다' (menonton) adalah...",
+    "questionHtml": "Rekomendasi guru sejarah mengenai film dokumenter pahlawan kemerdekaan:\n'이 다큐멘터리 영화는 잊혀져 가던 독립운동가들의 헌신을 사실적으로 재조명하여 국민이라면 꼭 한 번 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) dari verba '보다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "볼 리가 없습니다 (menyatakan kemustahilan untuk ditonton, sangat menghina karya edukasi sejarah)."
+        "text": "볼 리가 없습니다",
+        "translation": "menyatakan kemustahilan untuk ditonton, sangat menghina karya edukasi sejarah."
       },
       {
         "key": "B",
-        "text": "볼 만합니다 (akar verba 보- tanpa batchim berpadu dengan penanda kelayakan rekomendasi -ㄹ 만하다)."
+        "text": "볼 만합니다",
+        "translation": "akar verba 보- tanpa batchim berpadu dengan penanda kelayakan rekomendasi -ㄹ 만하다."
       },
       {
         "key": "C",
-        "text": "보기 십상입니다 (akhiran probabilitas rentan tertimpa bencana keburukan)."
+        "text": "보기 십상입니다",
+        "translation": "akhiran probabilitas rentan tertimpa bencana keburukan."
       },
       {
         "key": "D",
-        "text": "보는 척했습니다 (menyatakan berpura-pura menonton film)."
+        "text": "보는 척했습니다",
+        "translation": "menyatakan berpura-pura menonton film."
       },
       {
         "key": "E",
-        "text": "보지 않을 수 없었습니다 (bentuk lampau keterpaksaan kaku yang tidak menyatakan rekomendasi persuasif)."
+        "text": "보지 않을 수 없었습니다",
+        "translation": "bentuk lampau keterpaksaan kaku yang tidak menyatakan rekomendasi persuasif."
       }
     ],
     "correctKey": "B",
@@ -3752,23 +4151,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "하기는 하지만 (hanya mengakui secara wajar bahwa ia tetap berhasil menabung sedikit uang) 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
+        "text": "하기는 하지만",
+        "translation": "hanya mengakui secara wajar bahwa ia tetap berhasil menabung sedikit uang 한국어 통사 구조상 인과 접속 표지 및 피동·사동 파생 규칙을 위배합니다."
       },
       {
         "key": "B",
-        "text": "할수록 (menyatakan hubungan proporsional semakin sering menabung semakin kekurangan)."
+        "text": "할수록",
+        "translation": "menyatakan hubungan proporsional semakin sering menabung semakin kekurangan."
       },
       {
         "key": "C",
-        "text": "하기는커녕 (akar verba 하- + nomina penanda nominalisasi -기 + partikel penyangkalan ekstrem 는커녕)."
+        "text": "하기는커녕",
+        "translation": "akar verba 하- + nomina penanda nominalisasi -기 + partikel penyangkalan ekstrem 는커녕."
       },
       {
         "key": "D",
-        "text": "하는 셈 치고 (ungkapan menganggap seolah-olah telah menabung)."
+        "text": "하는 셈 치고",
+        "translation": "ungkapan menganggap seolah-olah telah menabung."
       },
       {
         "key": "E",
-        "text": "할 텐데 (klausula pengantar praduga yang tidak mengekspresikan kontras ekstrem)."
+        "text": "할 텐데",
+        "translation": "klausula pengantar praduga yang tidak mengekspresikan kontras ekstrem."
       }
     ],
     "correctKey": "C",
@@ -3834,27 +4238,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Testimoni korban kecelakaan lalu lintas di jalan tol:\n'사고 당시 안전벨트를 매고 있지 ( ... ) 차량 밖으로 튕겨 나가서 정말 큰 부상을 입을 뻔했습니다.'\nBentuk pengandaian kontrafaktual negatif (-았/었더라면) dari verba '않다' (tidak mengenakan) adalah...",
+    "questionHtml": "Testimoni korban kecelakaan lalu lintas di jalan tol:\n'사고 당시 안전벨트를 매고 있지 ( ... ) 차량 밖으로 튕겨 나가서 정말 큰 부상을 입을 뻔했습니다.'\nBentuk pengandaian kontrafaktual negatif (-았/었더라면) dari verba '않다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "않는다면 (pengandaian masa kini/depan biasa tanpa konteks kecelakaan nyata yang telah berhasil dilalui)."
+        "text": "않는다면",
+        "translation": "pengandaian masa kini/depan biasa tanpa konteks kecelakaan nyata yang telah berhasil dilalui."
       },
       {
         "key": "B",
-        "text": "않았을수록 (kombinasi struktur proporsional yang merusak tata kalimat kecelakaan)."
+        "text": "않았을수록",
+        "translation": "kombinasi struktur proporsional yang merusak tata kalimat kecelakaan."
       },
       {
         "key": "C",
-        "text": "않더라도 (hanya menyatakan konsesi 'meskipun tidak memakai', fatal bagi keselamatan)."
+        "text": "않더라도",
+        "translation": "hanya menyatakan konsesi 'meskipun tidak memakai', fatal bagi keselamatan."
       },
       {
         "key": "D",
-        "text": "않았을 텐데 (klausula pengantar yang tidak dapat berfungsi sebagai anteseden pengandaian celaka)."
+        "text": "않았을 텐데",
+        "translation": "klausula pengantar yang tidak dapat berfungsi sebagai anteseden pengandaian celaka."
       },
       {
         "key": "E",
-        "text": "않았더라면 (akar verba negasi 않- berpadu dengan kala lampau 았- + akhiran kontrafaktual -더라면)."
+        "text": "않았더라면",
+        "translation": "akar verba negasi 않- berpadu dengan kala lampau 았- + akhiran kontrafaktual -더라면."
       }
     ],
     "correctKey": "E",
@@ -3877,27 +4286,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Tindakan cepat tanggap satpam gedung saat melihat korsleting listrik:\n'관리실 직원은 배전반에서 연기와 불꽃이 튀는 것을 목격하( ... ) 즉시 119 화재 신고 센터로 전화를 걸었습니다.'\nBentuk konjugasi kesegeraan seketika (-자마자) yang TEPAT dari verba '목격하다' (menyaksikan) adalah...",
+    "questionHtml": "Tindakan cepat tanggap satpam gedung saat melihat korsleting listrik:\n'관리실 직원은 배전반에서 연기와 불꽃이 튀는 것을 목격하( ... ) 즉시 119 화재 신고 센터로 전화를 걸었습니다.'\nBentuk konjugasi kesegeraan seketika (-자마자) yang TEPAT dari verba '목격하다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "목격하자마자 (akar verba 하- langsung dilekati akhiran kesegeraan tindakan seketika -자마자)."
+        "text": "목격하자마자",
+        "translation": "akar verba 하- langsung dilekati akhiran kesegeraan tindakan seketika -자마자."
       },
       {
         "key": "B",
-        "text": "목격한 후에야 비로소 (mengimplikasikan penundaan waktu yang cukup lama sebelum melapor)."
+        "text": "목격한 후에야 비로소",
+        "translation": "mengimplikasikan penundaan waktu yang cukup lama sebelum melapor."
       },
       {
         "key": "C",
-        "text": "목격하기는커녕 (menyangkal keras pernah melihat kebakaran tersebut)."
+        "text": "목격하기는커녕",
+        "translation": "menyangkal keras pernah melihat kebakaran tersebut."
       },
       {
         "key": "D",
-        "text": "목격하는 척하며 (bermakna berpura-pura melihat percikan api)."
+        "text": "목격하는 척하며",
+        "translation": "bermakna berpura-pura melihat percikan api."
       },
       {
         "key": "E",
-        "text": "목격할수록 (mengimplikasikan semakin sering melihat percikan api semakin lambat menelpon)."
+        "text": "목격할수록",
+        "translation": "mengimplikasikan semakin sering melihat percikan api semakin lambat menelpon."
       }
     ],
     "correctKey": "A",
@@ -3924,23 +4338,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "확대하기는커녕 (menyangkal keras adanya perluasan kendaraan listrik)."
+        "text": "확대하기는커녕",
+        "translation": "menyangkal keras adanya perluasan kendaraan listrik."
       },
       {
         "key": "B",
-        "text": "확대하는 한편 (akar verba 확대하- + penanda aksi simultan komplementer -는 한편)."
+        "text": "확대하는 한편",
+        "translation": "akar verba 확대하- + penanda aksi simultan komplementer -는 한편."
       },
       {
         "key": "C",
-        "text": "확대하는 셈 치고 (menganggap seolah-olah perluasan telah selesai padahal belum)."
+        "text": "확대하는 셈 치고",
+        "translation": "menganggap seolah-olah perluasan telah selesai padahal belum."
       },
       {
         "key": "D",
-        "text": "확대할 리가 없이 (menyatakan kemustahilan ekspansi kendaraan listrik)."
+        "text": "확대할 리가 없이",
+        "translation": "menyatakan kemustahilan ekspansi kendaraan listrik."
       },
       {
         "key": "E",
-        "text": "확대할 뻔하며 (menyatakan nyaris memperluas namun akhirnya dibatalkan)."
+        "text": "확대할 뻔하며",
+        "translation": "menyatakan nyaris memperluas namun akhirnya dibatalkan."
       }
     ],
     "correctKey": "B",
@@ -4006,27 +4425,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penghiburan diri seseorang saat tertipu membeli barang imitasi secara daring:\n'이미 사기를 당해 돌려받기 어려운 돈이니, 인생의 값비싼 교훈을 배운 ( ... ) 잊어버리기로 마음먹었습니다.'\nBentuk konjugasi merelakan/menganggap seolah-olah (-(으)ㄴ 셈 치다) dari verba '배우다' (mempelajari) adalah...",
+    "questionHtml": "Penghiburan diri seseorang saat tertipu membeli barang imitasi secara daring:\n'이미 사기를 당해 돌려받기 어려운 돈이니, 인생의 값비싼 교훈을 배운 ( ... ) 잊어버리기로 마음먹었습니다.'\nBentuk konjugasi merelakan/menganggap seolah-olah (-(으)ㄴ 셈 치다) dari verba '배우다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "배우기는커녕 (menyatakan penyangkalan keras pernah belajar dari pengalaman) 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
+        "text": "배우기는커녕",
+        "translation": "menyatakan penyangkalan keras pernah belajar dari pengalaman 한국 전통 사회문화적 상호작용 규범 및 담화 표지 기능과 상충됩니다."
       },
       {
         "key": "B",
-        "text": "배울수록 (menyatakan hubungan proporsional semakin sering tertipu semakin rugi)."
+        "text": "배울수록",
+        "translation": "menyatakan hubungan proporsional semakin sering tertipu semakin rugi."
       },
       {
         "key": "C",
-        "text": "배울 뻔하고 (bermakna nyaris belajar namun gagal memahami)."
+        "text": "배울 뻔하고",
+        "translation": "bermakna nyaris belajar namun gagal memahami."
       },
       {
         "key": "D",
-        "text": "배운 셈 치고 (akar verba 배우- berpadu dengan kala lampau penanda anggapan -ㄴ 셈 치다)."
+        "text": "배운 셈 치고",
+        "translation": "akar verba 배우- berpadu dengan kala lampau penanda anggapan -ㄴ 셈 치다."
       },
       {
         "key": "E",
-        "text": "배워야만 하고 (ungkapan kewajiban yang tidak membawa nuansa penghiburan batin)."
+        "text": "배워야만 하고",
+        "translation": "ungkapan kewajiban yang tidak membawa nuansa penghiburan batin."
       }
     ],
     "correctKey": "D",
@@ -4049,27 +4473,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pembelaan manajer terhadap staf teladan yang difitnah:\n'김 대리는 입사 이래 단 한 번도 부정을 저지른 적이 없는 성실한 직원이므로 회사 공금을 횡령( ... ).'\nBentuk ungkapan kemustahilan rasional (-(으)ㄹ 리가 없다) yang TEPAT dari verba '횡령하다' (menggelapkan dana) adalah...",
+    "questionHtml": "Pembelaan manajer terhadap staf teladan yang difitnah:\n'김 대리는 입사 이래 단 한 번도 부정을 저지른 적이 없는 성실한 직원이므로 회사 공금을 횡령( ... ).'\nBentuk ungkapan kemustahilan rasional (-(으)ㄹ 리가 없다) yang TEPAT dari verba '횡령하다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "횡령할 뻔했습니다 (bermakna 김 대리 nyaris saja menggelapkan uang perusahaan, justru mencurigakan) 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
+        "text": "횡령할 뻔했습니다",
+        "translation": "bermakna 김 대리 nyaris saja menggelapkan uang perusahaan, justru mencurigakan 문장 성분 간의 호응 관계 및 필수적 논항 요구 조건을 충족하지 못합니다."
       },
       {
         "key": "B",
-        "text": "횡령하는 셈입니다 (bermakna tindakannya bisa dianggap sebagai penggelapan uang)."
+        "text": "횡령하는 셈입니다",
+        "translation": "bermakna tindakannya bisa dianggap sebagai penggelapan uang."
       },
       {
         "key": "C",
-        "text": "횡령하기 십상입니다 (menyatakan 김 대리 rentan dan mudah terjerumus korupsi)."
+        "text": "횡령하기 십상입니다",
+        "translation": "menyatakan 김 대리 rentan dan mudah terjerumus korupsi."
       },
       {
         "key": "D",
-        "text": "횡령하지 않을 수 없었습니다 (menyatakan 김 대리 terpaksa menggelapkan uang tanpa pilihan lain)."
+        "text": "횡령하지 않을 수 없었습니다",
+        "translation": "menyatakan 김 대리 terpaksa menggelapkan uang tanpa pilihan lain."
       },
       {
         "key": "E",
-        "text": "횡령했을 리가 없습니다 (akar verba 횡령하- berpadu dengan kala lampau penanda kemustahilan logis -았/었을 리가 없다)."
+        "text": "횡령했을 리가 없습니다",
+        "translation": "akar verba 횡령하- berpadu dengan kala lampau penanda kemustahilan logis -았/었을 리가 없다."
       }
     ],
     "correctKey": "E",
@@ -4096,23 +4525,28 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "이라고 (nomina berakhiran konsonan/batchim 인공지능 berpasangan dengan penanda kutipan definisi -이라고)."
+        "text": "이라고",
+        "translation": "nomina berakhiran konsonan/batchim 인공지능 berpasangan dengan penanda kutipan definisi -이라고."
       },
       {
         "key": "B",
-        "text": "라고 (kesalahan menggunakan 라고 yang hanya diperuntukkan bagi kata benda berakhiran vokal) TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
+        "text": "라고",
+        "translation": "kesalahan menggunakan 라고 yang hanya diperuntukkan bagi kata benda berakhiran vokal TOPIK II 고급 담화 화용론적 맥락 및 상황별 높임법 격식에 어긋납니다."
       },
       {
         "key": "C",
-        "text": "다고 (kesalahan menggunakan akhiran adjektiva untuk kata benda rujukan nama istilah)."
+        "text": "다고",
+        "translation": "kesalahan menggunakan akhiran adjektiva untuk kata benda rujukan nama istilah."
       },
       {
         "key": "D",
-        "text": "자고 (akhiran ajakan bersama yang tidak memiliki fungsi penetapan istilah nomina)."
+        "text": "자고",
+        "translation": "akhiran ajakan bersama yang tidak memiliki fungsi penetapan istilah nomina."
       },
       {
         "key": "E",
-        "text": "냐고 (akhiran interogatif yang salah fungsi gramatikal)."
+        "text": "냐고",
+        "translation": "akhiran interogatif yang salah fungsi gramatikal."
       }
     ],
     "correctKey": "A",
@@ -4178,27 +4612,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Alasan seorang eksekutif memilih naik subway cepat:\n'월요일 아침 출근길 도로가 정체되어 거래처 약속 시간에 늦( ... ) 차를 두고 지하철을 탔습니다.'\nBentuk ungkapan kekhawatiran antisipatif (-(으)ㄹ까 봐) dari kata kerja '늦다' (terlambat) adalah...",
+    "questionHtml": "Alasan seorang eksekutif memilih naik subway cepat:\n'월요일 아침 출근길 도로가 정체되어 거래처 약속 시간에 늦( ... ) 차를 두고 지하철을 탔습니다.'\nBentuk ungkapan kekhawatiran antisipatif (-(으)ㄹ까 봐) dari kata kerja '늦다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "늦는 척하여 (bermakna berpura-pura terlambat, sangat kontradiktif dengan upaya naik kereta bawah tanah)."
+        "text": "늦는 척하여",
+        "translation": "bermakna berpura-pura terlambat, sangat kontradiktif dengan upaya naik kereta bawah tanah."
       },
       {
         "key": "B",
-        "text": "늦을 리가 없어서 (menyatakan kepastian tidak akan terlambat sehingga tidak perlu cemas)."
+        "text": "늦을 리가 없어서",
+        "translation": "menyatakan kepastian tidak akan terlambat sehingga tidak perlu cemas."
       },
       {
         "key": "C",
-        "text": "늦을까 봐 (akar verba ber-batchim 늦- berpadu dengan penanda kecemasan preventif -을까 봐)."
+        "text": "늦을까 봐",
+        "translation": "akar verba ber-batchim 늦- berpadu dengan penanda kecemasan preventif -을까 봐."
       },
       {
         "key": "D",
-        "text": "늦을 만해서 (menyatakan kelayakan untuk terlambat)."
+        "text": "늦을 만해서",
+        "translation": "menyatakan kelayakan untuk terlambat."
       },
       {
         "key": "E",
-        "text": "늦기는커녕 (menyangkal keras pernah terlambat)."
+        "text": "늦기는커녕",
+        "translation": "menyangkal keras pernah terlambat."
       }
     ],
     "correctKey": "C",
@@ -4221,27 +4660,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Refleksi kemajuan belajar seorang pembelajar otodidak:\n'매일 한국어 신문 사설을 한 편씩 꾸준히 읽( ... ) 어느새 시사 어휘 실력이 크게 늘어 뉴스 방송도 자연스럽게 이해하게 되었습니다.'\nBentuk konjugasi tindakan berulang berkesinambungan (-다 보니) dari verba '읽다' (membaca) adalah...",
+    "questionHtml": "Refleksi kemajuan belajar seorang pembelajar otodidak:\n'매일 한국어 신문 사설을 한 편씩 꾸준히 읽( ... ) 어느새 시사 어휘 실력이 크게 늘어 뉴스 방송도 자연스럽게 이해하게 되었습니다.'\nBentuk konjugasi tindakan berulang berkesinambungan (-다 보니) dari verba '읽다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "읽자마자 (menyatakan kesegeraan instan, mustahil menguasai kosakata berita rumit dalam satu detik membaca)."
+        "text": "읽자마자",
+        "translation": "menyatakan kesegeraan instan, mustahil menguasai kosakata berita rumit dalam satu detik membaca."
       },
       {
         "key": "B",
-        "text": "읽기는커녕 (menyangkal keras pernah membaca tajuk rencana koran)."
+        "text": "읽기는커녕",
+        "translation": "menyangkal keras pernah membaca tajuk rencana koran."
       },
       {
         "key": "C",
-        "text": "읽을 텐데 (klausula pengantar praduga yang tidak mengekspresikan proses pengalaman nyata)."
+        "text": "읽을 텐데",
+        "translation": "klausula pengantar praduga yang tidak mengekspresikan proses pengalaman nyata."
       },
       {
         "key": "D",
-        "text": "읽다 보니 (akar verba 읽- + akhiran pengalaman akumulatif berulang -다 보니)."
+        "text": "읽다 보니",
+        "translation": "akar verba 읽- + akhiran pengalaman akumulatif berulang -다 보니."
       },
       {
         "key": "E",
-        "text": "읽어야만 (hanya menyatakan beban kewajiban mutlak tanpa menyinggung hasil penemuan akumulatif)."
+        "text": "읽어야만",
+        "translation": "hanya menyatakan beban kewajiban mutlak tanpa menyinggung hasil penemuan akumulatif."
       }
     ],
     "correctKey": "D",
@@ -4264,27 +4708,32 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Peringatan pakar literasi digital kepada para pengguna jejaring sosial:\n'출처가 불분명한 자극적인 인터넷 뉴스를 비판적 검증 없이 그대로 믿었다가는 거짓 정보에 속( ... ). 기사의 진위 여부를 반드시 확인해야 합니다.'\nBentuk ungkapan kerentanan probabilitas negatif (-기 십상이다) dari verba '속다' (tertipu) adalah...",
+    "questionHtml": "Peringatan pakar literasi digital kepada para pengguna jejaring sosial:\n'출처가 불분명한 자극적인 인터넷 뉴스를 비판적 검증 없이 그대로 믿었다가는 거짓 정보에 속( ... ). 기사의 진위 여부를 반드시 확인해야 합니다.'\nBentuk ungkapan kerentanan probabilitas negatif (-기 십상이다) dari verba '속다' adalah...",
     "options": [
       {
         "key": "A",
-        "text": "속을 리가 없습니다 (menyatakan 'mustahil tertipu', meremehkan bahaya konten manipulatif di internet)."
+        "text": "속을 리가 없습니다",
+        "translation": "menyatakan 'mustahil tertipu', meremehkan bahaya konten manipulatif di internet."
       },
       {
         "key": "B",
-        "text": "속는 셈 칩니다 (bermakna sengaja mengikhlaskan diri ditipu oleh berita bohong)."
+        "text": "속는 셈 칩니다",
+        "translation": "bermakna sengaja mengikhlaskan diri ditipu oleh berita bohong."
       },
       {
         "key": "C",
-        "text": "속을 만합니다 (menyatakan berita bohong tersebut sangat layak untuk dipercayai)."
+        "text": "속을 만합니다",
+        "translation": "menyatakan berita bohong tersebut sangat layak untuk dipercayai."
       },
       {
         "key": "D",
-        "text": "속는 척합니다 (bermakna berpura-pura tertipu padahal sadar sepenuhnya)."
+        "text": "속는 척합니다",
+        "translation": "bermakna berpura-pura tertipu padahal sadar sepenuhnya."
       },
       {
         "key": "E",
-        "text": "속기 십상입니다 (akar verba ber-batchim 속- + akhiran risiko tinggi tertimpa petaka -기 십상이다)."
+        "text": "속기 십상입니다",
+        "translation": "akar verba ber-batchim 속- + akhiran risiko tinggi tertimpa petaka -기 십상이다."
       }
     ],
     "correctKey": "E",

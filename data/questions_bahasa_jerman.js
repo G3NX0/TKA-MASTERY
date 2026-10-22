@@ -1,8 +1,5 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_BAHASA_JERMAN.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Jerman CEFR A2-B1)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
- */
+// TKA MASTERY HUB - JERMAN QUESTIONS DATABASE
+// Automatically sanitized: pure foreign questions and options, translation available via toggle
 window.TKA_BAHASA_JERMAN_QUESTIONS = [
   {
     "id": "ger-lat-e-01",
@@ -25,23 +22,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "liest (bentuk konjugasi orang ketiga tunggal 'er/mein Bruder' dengan perubahan vokal e menjadi ie)."
+        "text": "liest",
+        "translation": "bentuk konjugasi orang ketiga tunggal 'er/mein Bruder' dengan perubahan vokal e menjadi ie."
       },
       {
         "key": "B",
-        "text": "lest (bentuk konjugasi orang kedua jamak 'ihr' yang tidak mengalami perubahan vokal ie)."
+        "text": "lest",
+        "translation": "bentuk konjugasi orang kedua jamak 'ihr' yang tidak mengalami perubahan vokal ie."
       },
       {
         "key": "C",
-        "text": "lese (bentuk konjugasi orang pertama tunggal 'ich' yang tidak sesuai dengan subjek tunggal orang ketiga)."
+        "text": "lese",
+        "translation": "bentuk konjugasi orang pertama tunggal 'ich' yang tidak sesuai dengan subjek tunggal orang ketiga."
       },
       {
         "key": "D",
-        "text": "lestet (bentuk lampau Präteritum jamak yang keliru secara kala waktu dan nomor persona)."
+        "text": "lestet",
+        "translation": "bentuk lampau Präteritum jamak yang keliru secara kala waktu dan nomor persona."
       },
       {
         "key": "E",
-        "text": "lesen (bentuk infinitif dasar atau konjugasi persona jamak wir/sie/Sie)."
+        "text": "lesen",
+        "translation": "bentuk infinitif dasar atau konjugasi persona jamak wir/sie/Sie."
       }
     ],
     "correctKey": "A",
@@ -68,23 +70,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "der (artikel Nominativ maskulin tunggal yang hanya boleh digunakan sebagai subjek)."
+        "text": "der",
+        "translation": "artikel Nominativ maskulin tunggal yang hanya boleh digunakan sebagai subjek."
       },
       {
         "key": "B",
-        "text": "den (artikel Akkusativ maskulin tunggal yang menandai objek langsung penderita)."
+        "text": "den",
+        "translation": "artikel Akkusativ maskulin tunggal yang menandai objek langsung penderita."
       },
       {
         "key": "C",
-        "text": "dem (artikel Dativ maskulin tunggal yang digunakan untuk objek penyerta/tak langsung)."
+        "text": "dem",
+        "translation": "artikel Dativ maskulin tunggal yang digunakan untuk objek penyerta/tak langsung."
       },
       {
         "key": "D",
-        "text": "des (artikel Genitiv maskulin tunggal yang menandai kepemilikan formal)."
+        "text": "des",
+        "translation": "artikel Genitiv maskulin tunggal yang menandai kepemilikan formal."
       },
       {
         "key": "E",
-        "text": "das (artikel netral tunggal yang keliru gender gramatikalnya untuk kata benda Füller)."
+        "text": "das",
+        "translation": "artikel netral tunggal yang keliru gender gramatikalnya untuk kata benda Füller."
       }
     ],
     "correctKey": "B",
@@ -102,7 +109,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam rutinitas pagi hari, seorang siswa menjelaskan jadwalnya:\n'Der Wecker klingelt um sechs Uhr, und ich stehe sofort ( ... ).'\nPrefiks yang TEPAT untuk melengkapi kata kerja terpisah 'aufstehen' (bangun tidur) adalah...",
+    "questionHtml": "Dalam rutinitas pagi hari, seorang siswa menjelaskan jadwalnya:\n'Der Wecker klingelt um sechs Uhr, und ich stehe sofort ( ... ).'\nPrefiks yang TEPAT untuk melengkapi kata kerja terpisah 'aufstehen' adalah...",
     "formulaHud": {
       "title": "TRENNBARE VERBEN IM HAUPTSATZ",
       "latex": "\\text{Hauptsatz: } \\text{Subjekt} + \\text{Verbstamm (Pos. 2)} + \\dots + \\text{Präfix (Satzende)}",
@@ -111,23 +118,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "aus (prefiks yang membentuk verba 'ausstehen' dengan makna menanggung/mentoleransi)."
+        "text": "aus",
+        "translation": "prefiks yang membentuk verba 'ausstehen' dengan makna menanggung/mentoleransi."
       },
       {
         "key": "B",
-        "text": "ein (prefiks yang membentuk verba 'einstehen' dengan makna menjamin atau bertanggung jawab)."
+        "text": "ein",
+        "translation": "prefiks yang membentuk verba 'einstehen' dengan makna menjamin atau bertanggung jawab."
       },
       {
         "key": "C",
-        "text": "auf (prefiks terpisah yang diletakkan di akhir klausula utama pada kalimat Präsens)."
+        "text": "auf",
+        "translation": "prefiks terpisah yang diletakkan di akhir klausula utama pada kalimat Präsens."
       },
       {
         "key": "D",
-        "text": "an (prefiks yang membentuk verba 'anstehen' dengan makna mengantre dalam barisan)."
+        "text": "an",
+        "translation": "prefiks yang membentuk verba 'anstehen' dengan makna mengantre dalam barisan."
       },
       {
         "key": "E",
-        "text": "mit (prefiks yang membentuk verba 'mitstehen' yang tidak lazim dalam idiom bangun tidur)."
+        "text": "mit",
+        "translation": "prefiks yang membentuk verba 'mitstehen' yang tidak lazim dalam idiom bangun tidur."
       }
     ],
     "correctKey": "C",
@@ -154,23 +166,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "kann (modalverb yang menyatakan kemampuan fisik atau kapabilitas teknis individu) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "kann",
+        "translation": "modalverb yang menyatakan kemampuan fisik atau kapabilitas teknis individu menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "will (modalverb yang menyatakan kehendak atau tekad pribadi subjek)."
+        "text": "will",
+        "translation": "modalverb yang menyatakan kehendak atau tekad pribadi subjek."
       },
       {
         "key": "C",
-        "text": "soll (modalverb yang menyatakan mandat tugas atau anjuran pihak ketiga)."
+        "text": "soll",
+        "translation": "modalverb yang menyatakan mandat tugas atau anjuran pihak ketiga."
       },
       {
         "key": "D",
-        "text": "darf (bentuk tunggal persona impersonal 'man' dari modalverb 'dürfen' yang menyatakan larangan/aturan izin)."
+        "text": "darf",
+        "translation": "bentuk tunggal persona impersonal 'man' dari modalverb 'dürfen' yang menyatakan larangan/aturan izin."
       },
       {
         "key": "E",
-        "text": "mag (modalverb yang menyatakan rasa suka atau kecenderungan emosional pribadi)."
+        "text": "mag",
+        "translation": "modalverb yang menyatakan rasa suka atau kecenderungan emosional pribadi."
       }
     ],
     "correctKey": "D",
@@ -197,23 +214,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "nicht (partikel negasi yang digunakan untuk menyangkal verba, ajektiva, atau frasa berartikel tentu)."
+        "text": "nicht",
+        "translation": "partikel negasi yang digunakan untuk menyangkal verba, ajektiva, atau frasa berartikel tentu."
       },
       {
         "key": "B",
-        "text": "kein (kata sangkal maskulin/netral dalam kasus Nominativ atau netral Akkusativ)."
+        "text": "kein",
+        "translation": "kata sangkal maskulin/netral dalam kasus Nominativ atau netral Akkusativ."
       },
       {
         "key": "C",
-        "text": "keinen (kata sangkal maskulin tunggal dalam kasus Akkusativ)."
+        "text": "keinen",
+        "translation": "kata sangkal maskulin tunggal dalam kasus Akkusativ."
       },
       {
         "key": "D",
-        "text": "keinem (kata sangkal maskulin/netral tunggal dalam kasus Dativ)."
+        "text": "keinem",
+        "translation": "kata sangkal maskulin/netral tunggal dalam kasus Dativ."
       },
       {
         "key": "E",
-        "text": "keine (kata sangkal benda bergender feminin tunggal dalam kasus Akkusativ)."
+        "text": "keine",
+        "translation": "kata sangkal benda bergender feminin tunggal dalam kasus Akkusativ."
       }
     ],
     "correctKey": "E",
@@ -240,23 +262,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Es ist halb drei. (pukul setengah tiga atau 30 menit sebelum jam 3 tepat)."
+        "text": "Es ist halb drei.",
+        "translation": "pukul setengah tiga atau 30 menit sebelum jam 3 tepat."
       },
       {
         "key": "B",
-        "text": "Es ist halb zwei. (keliru karena bermakna pukul 01:30 atau setengah dua)."
+        "text": "Es ist halb zwei.",
+        "translation": "keliru karena bermakna pukul 01:30 atau setengah dua."
       },
       {
         "key": "C",
-        "text": "Es ist zwei Uhr dreißig Minuten spät. (ungkapan kaku tidak lazim dalam komunikasi lisan Jerman)."
+        "text": "Es ist zwei Uhr dreißig Minuten spät.",
+        "translation": "ungkapan kaku tidak lazim dalam komunikasi lisan Jerman."
       },
       {
         "key": "D",
-        "text": "Es ist Viertel nach zwei. (bermakna pukul 14:15 atau lewat seperempat jam)."
+        "text": "Es ist Viertel nach zwei.",
+        "translation": "bermakna pukul 14:15 atau lewat seperempat jam."
       },
       {
         "key": "E",
-        "text": "Es ist Viertel vor drei. (bermakna pukul 14:45 atau kurang seperempat jam)."
+        "text": "Es ist Viertel vor drei.",
+        "translation": "bermakna pukul 14:45 atau kurang seperempat jam."
       }
     ],
     "correctKey": "A",
@@ -283,23 +310,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "er (kata ganti persona ketiga maskulin tunggal pada kasus Nominativ)."
+        "text": "er",
+        "translation": "kata ganti persona ketiga maskulin tunggal pada kasus Nominativ."
       },
       {
         "key": "B",
-        "text": "ihn (kata ganti persona ketiga maskulin tunggal pada kasus Akkusativ)."
+        "text": "ihn",
+        "translation": "kata ganti persona ketiga maskulin tunggal pada kasus Akkusativ."
       },
       {
         "key": "C",
-        "text": "es (kata ganti persona ketiga netral tunggal yang tidak sesuai gender Kugelschreiber)."
+        "text": "es",
+        "translation": "kata ganti persona ketiga netral tunggal yang tidak sesuai gender Kugelschreiber."
       },
       {
         "key": "D",
-        "text": "sie (kata ganti persona ketiga feminin atau persona jamak)."
+        "text": "sie",
+        "translation": "kata ganti persona ketiga feminin atau persona jamak."
       },
       {
         "key": "E",
-        "text": "ihm (kata ganti persona ketiga maskulin/netral tunggal pada kasus Dativ)."
+        "text": "ihm",
+        "translation": "kata ganti persona ketiga maskulin/netral tunggal pada kasus Dativ."
       }
     ],
     "correctKey": "B",
@@ -326,23 +358,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "von / nach (kombinasi keliru yang bermakna titik awal relatif dan pergerakan ke kota) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "von / nach",
+        "translation": "kombinasi keliru yang bermakna titik awal relatif dan pergerakan ke kota sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "in / aus (urutan terbalik antara tempat tinggal dan negara asal)."
+        "text": "in / aus",
+        "translation": "urutan terbalik antara tempat tinggal dan negara asal."
       },
       {
         "key": "C",
-        "text": "aus / in (preposisi 'aus' untuk asal negara dan 'in' untuk lokasi keberadaan di kota)."
+        "text": "aus / in",
+        "translation": "preposisi 'aus' untuk asal negara dan 'in' untuk lokasi keberadaan di kota."
       },
       {
         "key": "D",
-        "text": "nach / bei (preposisi pergerakan arah ke negara dan kebersamaan)."
+        "text": "nach / bei",
+        "translation": "preposisi pergerakan arah ke negara dan kebersamaan."
       },
       {
         "key": "E",
-        "text": "ab / an (preposisi titik keberangkatan waktu dan kontak tepi permukaan)."
+        "text": "ab / an",
+        "translation": "preposisi titik keberangkatan waktu dan kontak tepi permukaan."
       }
     ],
     "correctKey": "C",
@@ -369,23 +406,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "fahrst (keliru karena tidak memunculkan perubahan vokal umlaut ä pada persona kedua)."
+        "text": "fahrst",
+        "translation": "keliru karena tidak memunculkan perubahan vokal umlaut ä pada persona kedua."
       },
       {
         "key": "B",
-        "text": "fährt (bentuk konjugasi untuk persona ketiga tunggal er/sie/es)."
+        "text": "fährt",
+        "translation": "bentuk konjugasi untuk persona ketiga tunggal er/sie/es."
       },
       {
         "key": "C",
-        "text": "fahre (bentuk konjugasi persona pertama tunggal ich)."
+        "text": "fahre",
+        "translation": "bentuk konjugasi persona pertama tunggal ich."
       },
       {
         "key": "D",
-        "text": "fährst (mengalami perubahan vokal a menjadi ä ditambah akhiran persona -st)."
+        "text": "fährst",
+        "translation": "mengalami perubahan vokal a menjadi ä ditambah akhiran persona -st."
       },
       {
         "key": "E",
-        "text": "fahren (bentuk infinitif atau persona jamak wir/sie/Sie)."
+        "text": "fahren",
+        "translation": "bentuk infinitif atau persona jamak wir/sie/Sie."
       }
     ],
     "correctKey": "D",
@@ -412,23 +454,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wo (kata tanya yang menanyakan posisi diam statis di suatu lokasi) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "Wo",
+        "translation": "kata tanya yang menanyakan posisi diam statis di suatu lokasi diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "Woher (kata tanya yang menanyakan asal kedatangan dari suatu tempat)."
+        "text": "Woher",
+        "translation": "kata tanya yang menanyakan asal kedatangan dari suatu tempat."
       },
       {
         "key": "C",
-        "text": "Wann (kata tanya yang menanyakan waktu kejadian temporal)."
+        "text": "Wann",
+        "translation": "kata tanya yang menanyakan waktu kejadian temporal."
       },
       {
         "key": "D",
-        "text": "Warum (kata tanya yang menanyakan alasan kausalitas penyebab)."
+        "text": "Warum",
+        "translation": "kata tanya yang menanyakan alasan kausalitas penyebab."
       },
       {
         "key": "E",
-        "text": "Wohin (kata tanya yang menanyakan arah tujuan pergerakan suatu perjalanan)."
+        "text": "Wohin",
+        "translation": "kata tanya yang menanyakan arah tujuan pergerakan suatu perjalanan."
       }
     ],
     "correctKey": "E",
@@ -455,23 +502,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Brötchen (roti bulat kecil khas Jerman bergender netral yang disantap dengan mentega dan selai)."
+        "text": "Brötchen",
+        "translation": "roti bulat kecil khas Jerman bergender netral yang disantap dengan mentega dan selai."
       },
       {
         "key": "B",
-        "text": "Suppe (makanan berkuah sup yang tidak lazim diolesi mentega dan selai saat sarapan)."
+        "text": "Suppe",
+        "translation": "makanan berkuah sup yang tidak lazim diolesi mentega dan selai saat sarapan."
       },
       {
         "key": "C",
-        "text": "Fleisch (daging bergender netral yang tidak biasa disantap bersama selai manis saat sarapan)."
+        "text": "Fleisch",
+        "translation": "daging bergender netral yang tidak biasa disantap bersama selai manis saat sarapan."
       },
       {
         "key": "D",
-        "text": "Kuchen (kue tart manis bergender maskulin yang tidak cocok dengan artikel ein pada sarapan pagi)."
+        "text": "Kuchen",
+        "translation": "kue tart manis bergender maskulin yang tidak cocok dengan artikel ein pada sarapan pagi."
       },
       {
         "key": "E",
-        "text": "Salat (sayuran selada bergender maskulin yang tidak lazim disajikan dengan selai buah)."
+        "text": "Salat",
+        "translation": "sayuran selada bergender maskulin yang tidak lazim disajikan dengan selai buah."
       }
     ],
     "correctKey": "A",
@@ -498,23 +550,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "mein (bentuk kepemilikan tanpa akhiran untuk kata benda maskulin atau netral) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "mein",
+        "translation": "bentuk kepemilikan tanpa akhiran untuk kata benda maskulin atau netral ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "meine (bentuk kepemilikan orang pertama tunggal untuk kata benda bergender feminin pada kasus Nominativ)."
+        "text": "meine",
+        "translation": "bentuk kepemilikan orang pertama tunggal untuk kata benda bergender feminin pada kasus Nominativ."
       },
       {
         "key": "C",
-        "text": "meinen (bentuk kepemilikan maskulin tunggal pada kasus Akkusativ)."
+        "text": "meinen",
+        "translation": "bentuk kepemilikan maskulin tunggal pada kasus Akkusativ."
       },
       {
         "key": "D",
-        "text": "meinem (bentuk kepemilikan maskulin atau netral tunggal pada kasus Dativ)."
+        "text": "meinem",
+        "translation": "bentuk kepemilikan maskulin atau netral tunggal pada kasus Dativ."
       },
       {
         "key": "E",
-        "text": "meiner (bentuk kepemilikan feminin pada kasus Dativ atau Genitiv)."
+        "text": "meiner",
+        "translation": "bentuk kepemilikan feminin pada kasus Dativ atau Genitiv."
       }
     ],
     "correctKey": "B",
@@ -541,23 +598,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "möchtest (bentuk persona kedua tunggal untuk subjek du)."
+        "text": "möchtest",
+        "translation": "bentuk persona kedua tunggal untuk subjek du."
       },
       {
         "key": "B",
-        "text": "möchtet (bentuk persona kedua jamak untuk subjek ihr)."
+        "text": "möchtet",
+        "translation": "bentuk persona kedua jamak untuk subjek ihr."
       },
       {
         "key": "C",
-        "text": "möchte (bentuk tunggal persona pertama dari verba modalitas kesantunan möchten)."
+        "text": "möchte",
+        "translation": "bentuk tunggal persona pertama dari verba modalitas kesantunan möchten."
       },
       {
         "key": "D",
-        "text": "möchten (bentuk persona jamak wir/sie/Sie atau bentuk infinitif)."
+        "text": "möchten",
+        "translation": "bentuk persona jamak wir/sie/Sie atau bentuk infinitif."
       },
       {
         "key": "E",
-        "text": "mochte (bentuk lampau Präteritum dari mögen yang bermakna menyukai di masa lalu)."
+        "text": "mochte",
+        "translation": "bentuk lampau Präteritum dari mögen yang bermakna menyukai di masa lalu."
       }
     ],
     "correctKey": "C",
@@ -584,23 +646,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Buchs (keliru karena menyerupai bentuk jamak bahasa Inggris dengan akhiran -s)."
+        "text": "Buchs",
+        "translation": "keliru karena menyerupai bentuk jamak bahasa Inggris dengan akhiran -s."
       },
       {
         "key": "B",
-        "text": "Buchen (keliru karena akhiran -en adalah nama pohon fagus/beech dalam bahasa Jerman)."
+        "text": "Buchen",
+        "translation": "keliru karena akhiran -en adalah nama pohon fagus/beech dalam bahasa Jerman."
       },
       {
         "key": "C",
-        "text": "Buche (keliru karena akhiran -e tanpa umlaut bukan bentuk jamak baku dari kata das Buch)."
+        "text": "Buche",
+        "translation": "keliru karena akhiran -e tanpa umlaut bukan bentuk jamak baku dari kata das Buch."
       },
       {
         "key": "D",
-        "text": "Bücher (bentuk jamak dengan penambahan Umlaut u -> ü dan akhiran -er)."
+        "text": "Bücher",
+        "translation": "bentuk jamak dengan penambahan Umlaut u -> ü dan akhiran -er."
       },
       {
         "key": "E",
-        "text": "Büchern (keliru karena bentuk ini memiliki akhiran Dativ jamak, sedangkan di sini posisinya adalah Akkusativ)."
+        "text": "Büchern",
+        "translation": "keliru karena bentuk ini memiliki akhiran Dativ jamak, sedangkan di sini posisinya adalah Akkusativ."
       }
     ],
     "correctKey": "D",
@@ -627,23 +694,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "für ihr (keliru karena 'ihr' adalah bentuk Dativ tunggal feminin) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "für ihr",
+        "translation": "keliru karena 'ihr' adalah bentuk Dativ tunggal feminin diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "für ihnen (keliru karena 'ihnen' adalah bentuk Dativ jamak)."
+        "text": "für ihnen",
+        "translation": "keliru karena 'ihnen' adalah bentuk Dativ jamak."
       },
       {
         "key": "C",
-        "text": "zu sie (preposisi 'zu' menuntut Dativ dan tidak lazim untuk penyerahan kado)."
+        "text": "zu sie",
+        "translation": "preposisi 'zu' menuntut Dativ dan tidak lazim untuk penyerahan kado."
       },
       {
         "key": "D",
-        "text": "von sie (preposisi 'von' menuntut Dativ der/ihr)."
+        "text": "von sie",
+        "translation": "preposisi 'von' menuntut Dativ der/ihr."
       },
       {
         "key": "E",
-        "text": "für sie (preposisi 'für' selalu menuntut kasus Akkusativ; pronomina feminin Akkusativ adalah 'sie')."
+        "text": "für sie",
+        "translation": "preposisi 'für' selalu menuntut kasus Akkusativ; pronomina feminin Akkusativ adalah 'sie'."
       }
     ],
     "correctKey": "E",
@@ -670,23 +742,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hals (leher/tenggorokan bergender maskulin tunggal yang cocok dengan verba tunggal tut weh)."
+        "text": "Hals",
+        "translation": "leher/tenggorokan bergender maskulin tunggal yang cocok dengan verba tunggal tut weh."
       },
       {
         "key": "B",
-        "text": "Ohren (telinga bentuk jamak yang seharusnya membutuhkan verba jamak tun weh) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "Ohren",
+        "translation": "telinga bentuk jamak yang seharusnya membutuhkan verba jamak tun weh ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "Augen (mata bentuk jamak yang tidak berkaitan langsung dengan keluhan sakit menelan)."
+        "text": "Augen",
+        "translation": "mata bentuk jamak yang tidak berkaitan langsung dengan keluhan sakit menelan."
       },
       {
         "key": "D",
-        "text": "Bauch (perut bergender maskulin yang tidak berhubungan langsung dengan kesulitan menelan)."
+        "text": "Bauch",
+        "translation": "perut bergender maskulin yang tidak berhubungan langsung dengan kesulitan menelan."
       },
       {
         "key": "E",
-        "text": "Füße (kaki bentuk jamak yang keliru secara gejala klinis kesulitan menelan)."
+        "text": "Füße",
+        "translation": "kaki bentuk jamak yang keliru secara gejala klinis kesulitan menelan."
       }
     ],
     "correctKey": "A",
@@ -713,23 +790,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "müsse (bentuk Konjunktiv I yang digunakan dalam kutipan tidak langsung formal)."
+        "text": "müsse",
+        "translation": "bentuk Konjunktiv I yang digunakan dalam kutipan tidak langsung formal."
       },
       {
         "key": "B",
-        "text": "muss (bentuk konjugasi persona pertama tunggal tanpa akhiran -e dan tanpa umlaut)."
+        "text": "muss",
+        "translation": "bentuk konjugasi persona pertama tunggal tanpa akhiran -e dan tanpa umlaut."
       },
       {
         "key": "C",
-        "text": "müsst (bentuk konjugasi persona kedua jamak untuk subjek ihr)."
+        "text": "müsst",
+        "translation": "bentuk konjugasi persona kedua jamak untuk subjek ihr."
       },
       {
         "key": "D",
-        "text": "müssen (bentuk infinitif atau konjugasi persona jamak wir/sie/Sie)."
+        "text": "müssen",
+        "translation": "bentuk infinitif atau konjugasi persona jamak wir/sie/Sie."
       },
       {
         "key": "E",
-        "text": "musste (bentuk lampau Präteritum yang tidak sesuai dengan konteks waktu sekarang jetzt)."
+        "text": "musste",
+        "translation": "bentuk lampau Präteritum yang tidak sesuai dengan konteks waktu sekarang jetzt."
       }
     ],
     "correctKey": "B",
@@ -756,23 +838,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lehrer (bentuk maskulin tunggal profesi guru yang keliru diterapkan pada subjek wanita)."
+        "text": "Lehrer",
+        "translation": "bentuk maskulin tunggal profesi guru yang keliru diterapkan pada subjek wanita."
       },
       {
         "key": "B",
-        "text": "Lehrerinnen (bentuk jamak feminin yang tidak cocok dengan subjek tunggal seine Frau)."
+        "text": "Lehrerinnen",
+        "translation": "bentuk jamak feminin yang tidak cocok dengan subjek tunggal seine Frau."
       },
       {
         "key": "C",
-        "text": "Lehrerin (bentuk feminin dari profesi guru dengan penambahan sufiks gender -in)."
+        "text": "Lehrerin",
+        "translation": "bentuk feminin dari profesi guru dengan penambahan sufiks gender -in."
       },
       {
         "key": "D",
-        "text": "Lehrerfrau (istilah kolokial usang yang bermakna istri guru, bukan profesi mandiri sang wanita)."
+        "text": "Lehrerfrau",
+        "translation": "istilah kolokial usang yang bermakna istri guru, bukan profesi mandiri sang wanita."
       },
       {
         "key": "E",
-        "text": "Lehrerschaft (kata benda kolektif yang merujuk pada dewan korps keguruan secara keseluruhan)."
+        "text": "Lehrerschaft",
+        "translation": "kata benda kolektif yang merujuk pada dewan korps keguruan secara keseluruhan."
       }
     ],
     "correctKey": "C",
@@ -799,23 +886,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Haben (bentuk infinitif atau konjugasi jamak yang tidak cocok dengan subjek du)."
+        "text": "Haben",
+        "translation": "bentuk infinitif atau konjugasi jamak yang tidak cocok dengan subjek du."
       },
       {
         "key": "B",
-        "text": "Hat (bentuk persona ketiga tunggal er/sie/es)."
+        "text": "Hat",
+        "translation": "bentuk persona ketiga tunggal er/sie/es."
       },
       {
         "key": "C",
-        "text": "Hattest (bentuk lampau Präteritum yang kontradiktif dengan keterangan waktu heute Abend)."
+        "text": "Hattest",
+        "translation": "bentuk lampau Präteritum yang kontradiktif dengan keterangan waktu heute Abend."
       },
       {
         "key": "D",
-        "text": "Hast (verba 'haben' yang dikonjugasikan untuk persona 'du' pada posisi pertama kalimat tanya)."
+        "text": "Hast",
+        "translation": "verba 'haben' yang dikonjugasikan untuk persona 'du' pada posisi pertama kalimat tanya."
       },
       {
         "key": "E",
-        "text": "Bist (verba sein yang keliru secara idiomatis karena memiliki waktu diungkapkan dengan verba haben)."
+        "text": "Bist",
+        "translation": "verba sein yang keliru secara idiomatis karena memiliki waktu diungkapkan dengan verba haben."
       }
     ],
     "correctKey": "D",
@@ -842,23 +934,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zieht (bentuk Imperativ untuk persona jamak ihr) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "Zieht",
+        "translation": "bentuk Imperativ untuk persona jamak ihr diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "Ziehen Sie (bentuk Imperativ ragam formal/sopan)."
+        "text": "Ziehen Sie",
+        "translation": "bentuk Imperativ ragam formal/sopan."
       },
       {
         "key": "C",
-        "text": "Ziehst (bentuk indikatif kalimat pernyataan biasa yang keliru dalam kalimat perintah)."
+        "text": "Ziehst",
+        "translation": "bentuk indikatif kalimat pernyataan biasa yang keliru dalam kalimat perintah."
       },
       {
         "key": "D",
-        "text": "Ziehste (bentuk dialek percakapan daerah yang tidak baku secara gramatika nasional)."
+        "text": "Ziehste",
+        "translation": "bentuk dialek percakapan daerah yang tidak baku secara gramatika nasional."
       },
       {
         "key": "E",
-        "text": "Zieh (bentuk Imperativ untuk persona 'du' yang dibentuk dengan mencopot sufiks -en dan pronomina subjek)."
+        "text": "Zieh",
+        "translation": "bentuk Imperativ untuk persona 'du' yang dibentuk dengan mencopot sufiks -en dan pronomina subjek."
       }
     ],
     "correctKey": "E",
@@ -885,23 +982,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "am (kontraksi dari an + dem yang digunakan secara wajib untuk nama hari dan bagian hari)."
+        "text": "am",
+        "translation": "kontraksi dari an + dem yang digunakan secara wajib untuk nama hari dan bagian hari."
       },
       {
         "key": "B",
-        "text": "im (kontraksi in + dem yang digunakan khusus untuk nama bulan, musim, dan tahun) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "im",
+        "translation": "kontraksi in + dem yang digunakan khusus untuk nama bulan, musim, dan tahun ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "um (preposisi waktu jam tepat atau menit spesifik)."
+        "text": "um",
+        "translation": "preposisi waktu jam tepat atau menit spesifik."
       },
       {
         "key": "D",
-        "text": "nach (preposisi yang menyatakan urutan sesudah peristiwa)."
+        "text": "nach",
+        "translation": "preposisi yang menyatakan urutan sesudah peristiwa."
       },
       {
         "key": "E",
-        "text": "von (preposisi titik awal rentang waktu yang menuntut pasangan bis)."
+        "text": "von",
+        "translation": "preposisi titik awal rentang waktu yang menuntut pasangan bis."
       }
     ],
     "correctKey": "A",
@@ -928,23 +1030,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "dieser (kata penunjuk maskulin tunggal pada kasus Nominativ) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "dieser",
+        "translation": "kata penunjuk maskulin tunggal pada kasus Nominativ ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "dieses (kata penunjuk netral tunggal dalam kasus Akkusativ yang sesuai dengan gender das T-Shirt)."
+        "text": "dieses",
+        "translation": "kata penunjuk netral tunggal dalam kasus Akkusativ yang sesuai dengan gender das T-Shirt."
       },
       {
         "key": "C",
-        "text": "diesen (kata penunjuk maskulin tunggal pada kasus Akkusativ)."
+        "text": "diesen",
+        "translation": "kata penunjuk maskulin tunggal pada kasus Akkusativ."
       },
       {
         "key": "D",
-        "text": "diese (kata penunjuk feminin tunggal atau plural pada kasus Nominativ/Akkusativ)."
+        "text": "diese",
+        "translation": "kata penunjuk feminin tunggal atau plural pada kasus Nominativ/Akkusativ."
       },
       {
         "key": "E",
-        "text": "diesem (kata penunjuk maskulin atau netral tunggal pada kasus Dativ)."
+        "text": "diesem",
+        "translation": "kata penunjuk maskulin atau netral tunggal pada kasus Dativ."
       }
     ],
     "correctKey": "B",
@@ -971,23 +1078,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "scheint (verba yang bermakna bersinar untuk matahari: die Sonne scheint)."
+        "text": "scheint",
+        "translation": "verba yang bermakna bersinar untuk matahari: die Sonne scheint."
       },
       {
         "key": "B",
-        "text": "friert (verba yang bermakna membeku atau kedinginan tanpa adanya turun hujan)."
+        "text": "friert",
+        "translation": "verba yang bermakna membeku atau kedinginan tanpa adanya turun hujan."
       },
       {
         "key": "C",
-        "text": "regnet (verba cuaca impersonal 'regnen' yang bermakna turun hujan)."
+        "text": "regnet",
+        "translation": "verba cuaca impersonal 'regnen' yang bermakna turun hujan."
       },
       {
         "key": "D",
-        "text": "weht (verba yang bermakna berembus khusus untuk angin: der Wind weht)."
+        "text": "weht",
+        "translation": "verba yang bermakna berembus khusus untuk angin: der Wind weht."
       },
       {
         "key": "E",
-        "text": "blitzt (verba yang bermakna kilatan petir tanpa menandai hujan secara menyeluruh)."
+        "text": "blitzt",
+        "translation": "verba yang bermakna kilatan petir tanpa menandai hujan secara menyeluruh."
       }
     ],
     "correctKey": "C",
@@ -1014,23 +1126,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "denn (konjungsi kausalitas yang menyatakan alasan sebab-akibat) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "denn",
+        "translation": "konjungsi kausalitas yang menyatakan alasan sebab-akibat menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "und (konjungsi penambahan kumulatif yang menyatakan kesinambungan setara)."
+        "text": "und",
+        "translation": "konjungsi penambahan kumulatif yang menyatakan kesinambungan setara."
       },
       {
         "key": "C",
-        "text": "oder (konjungsi alternatif pilihan yang menyatakan opsi pengganti)."
+        "text": "oder",
+        "translation": "konjungsi alternatif pilihan yang menyatakan opsi pengganti."
       },
       {
         "key": "D",
-        "text": "aber (konjungsi pertentangan yang tidak mengubah susunan kata/menempati posisi nol)."
+        "text": "aber",
+        "translation": "konjungsi pertentangan yang tidak mengubah susunan kata/menempati posisi nol."
       },
       {
         "key": "E",
-        "text": "weil (konjungsi subordinatif yang menuntut pemindahan verba ke akhir kalimat)."
+        "text": "weil",
+        "translation": "konjungsi subordinatif yang menuntut pemindahan verba ke akhir kalimat."
       }
     ],
     "correctKey": "D",
@@ -1057,23 +1174,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wie viele (kata tanya yang menanyakan jumlah kuantitas benda yang dapat dihitung) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "wie viele",
+        "translation": "kata tanya yang menanyakan jumlah kuantitas benda yang dapat dihitung diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "wie alt (kata tanya yang menanyakan usia seseorang atau umur benda)."
+        "text": "wie alt",
+        "translation": "kata tanya yang menanyakan usia seseorang atau umur benda."
       },
       {
         "key": "C",
-        "text": "wie weit (kata tanya yang menanyakan jarak geografis suatu lokasi)."
+        "text": "wie weit",
+        "translation": "kata tanya yang menanyakan jarak geografis suatu lokasi."
       },
       {
         "key": "D",
-        "text": "wie lange (kata tanya yang menanyakan durasi rentang waktu kejadian)."
+        "text": "wie lange",
+        "translation": "kata tanya yang menanyakan durasi rentang waktu kejadian."
       },
       {
         "key": "E",
-        "text": "wie viel (frasa interogatif yang baku untuk menanyakan nominal harga barang: Wie viel kostet/kosten...)."
+        "text": "wie viel",
+        "translation": "frasa interogatif yang baku untuk menanyakan nominal harga barang: Wie viel kostet/kosten...."
       }
     ],
     "correctKey": "E",
@@ -1100,23 +1222,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "mir (pronomina persona pertama tunggal dalam kasus Dativ yang dituntut oleh verba 'helfen')."
+        "text": "mir",
+        "translation": "pronomina persona pertama tunggal dalam kasus Dativ yang dituntut oleh verba 'helfen'."
       },
       {
         "key": "B",
-        "text": "mich (pronomina persona pertama tunggal dalam kasus Akkusativ yang keliru untuk verba helfen)."
+        "text": "mich",
+        "translation": "pronomina persona pertama tunggal dalam kasus Akkusativ yang keliru untuk verba helfen."
       },
       {
         "key": "C",
-        "text": "mein (bentuk dasar kepemilikan yang tidak dapat berdiri sendiri sebagai objek pronominal)."
+        "text": "mein",
+        "translation": "bentuk dasar kepemilikan yang tidak dapat berdiri sendiri sebagai objek pronominal."
       },
       {
         "key": "D",
-        "text": "meiner (bentuk genitiv atau feminin dativ yang tidak sesuai secara kategori persona)."
+        "text": "meiner",
+        "translation": "bentuk genitiv atau feminin dativ yang tidak sesuai secara kategori persona."
       },
       {
         "key": "E",
-        "text": "ich (pronomina persona pertama tunggal dalam kasus Nominativ yang hanya berfungsi sebagai subjek)."
+        "text": "ich",
+        "translation": "pronomina persona pertama tunggal dalam kasus Nominativ yang hanya berfungsi sebagai subjek."
       }
     ],
     "correctKey": "A",
@@ -1143,23 +1270,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "in der / stellt (penggunaan kasus Dativ yang keliru pada verba dinamis serta verba aktif untuk posisi diam)."
+        "text": "in der / stellt",
+        "translation": "penggunaan kasus Dativ yang keliru pada verba dinamis serta verba aktif untuk posisi diam."
       },
       {
         "key": "B",
-        "text": "in die / steht (tindakan dinamis 'in die Ecke' memakai Akkusativ, dan posisi diam memakai verba 'stehen')."
+        "text": "in die / steht",
+        "translation": "tindakan dinamis 'in die Ecke' memakai Akkusativ, dan posisi diam memakai verba 'stehen'."
       },
       {
         "key": "C",
-        "text": "an die / liegt (penggunaan verba berbaring 'liegen' yang keliru untuk benda yang berdiri tegak seperti lampu)."
+        "text": "an die / liegt",
+        "translation": "penggunaan verba berbaring 'liegen' yang keliru untuk benda yang berdiri tegak seperti lampu."
       },
       {
         "key": "D",
-        "text": "auf der / sitzt (kombinasi preposisi di atas permukaan dan verba duduk yang tidak masuk akal untuk lampu sudut)."
+        "text": "auf der / sitzt",
+        "translation": "kombinasi preposisi di atas permukaan dan verba duduk yang tidak masuk akal untuk lampu sudut."
       },
       {
         "key": "E",
-        "text": "hinter den / steht (kasus maskulin Akkusativ yang keliru untuk kata benda bergender feminin die Ecke)."
+        "text": "hinter den / steht",
+        "translation": "kasus maskulin Akkusativ yang keliru untuk kata benda bergender feminin die Ecke."
       }
     ],
     "correctKey": "B",
@@ -1186,23 +1318,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "mit die (keliru karena mempertahankan artikel Nominativ/Akkusativ feminin)."
+        "text": "mit die",
+        "translation": "keliru karena mempertahankan artikel Nominativ/Akkusativ feminin."
       },
       {
         "key": "B",
-        "text": "mit den (keliru karena merupakan artikel Akkusativ maskulin atau Dativ jamak)."
+        "text": "mit den",
+        "translation": "keliru karena merupakan artikel Akkusativ maskulin atau Dativ jamak."
       },
       {
         "key": "C",
-        "text": "mit der (preposisi 'mit' mewajibkan Dativ; artikel feminin Dativ adalah 'der')."
+        "text": "mit der",
+        "translation": "preposisi 'mit' mewajibkan Dativ; artikel feminin Dativ adalah 'der'."
       },
       {
         "key": "D",
-        "text": "mit dem (keliru karena merupakan artikel maskulin atau netral dalam kasus Dativ)."
+        "text": "mit dem",
+        "translation": "keliru karena merupakan artikel maskulin atau netral dalam kasus Dativ."
       },
       {
         "key": "E",
-        "text": "mit einer (kurang tepat dalam frasa idiomatis sarana transportasi umum harian komuter)."
+        "text": "mit einer",
+        "translation": "kurang tepat dalam frasa idiomatis sarana transportasi umum harian komuter."
       }
     ],
     "correctKey": "C",
@@ -1229,23 +1366,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "haben / gefahren (keliru karena verba gerak perpindahan tempat tidak membentuk Perfekt dengan haben) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "haben / gefahren",
+        "translation": "keliru karena verba gerak perpindahan tempat tidak membentuk Perfekt dengan haben menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "haben / gefahrt (keliru kata kerja bantu dan bentuk Partizip II yang diregulerkan secara salah)."
+        "text": "haben / gefahrt",
+        "translation": "keliru kata kerja bantu dan bentuk Partizip II yang diregulerkan secara salah."
       },
       {
         "key": "C",
-        "text": "sind / geffahrt (kesalahan ejaan bentuk Partizip II dari verba kuat fahren)."
+        "text": "sind / geffahrt",
+        "translation": "kesalahan ejaan bentuk Partizip II dari verba kuat fahren."
       },
       {
         "key": "D",
-        "text": "sind / gefahren (verba perpindahan lokasi 'fahren' membentuk Perfekt dengan 'sein'; subjek jamak memakai 'sind')."
+        "text": "sind / gefahren",
+        "translation": "verba perpindahan lokasi 'fahren' membentuk Perfekt dengan 'sein'; subjek jamak memakai 'sind'."
       },
       {
         "key": "E",
-        "text": "waren / gefahren (membentuk Plusquamperfekt yang tidak lazim untuk narasi lisan sederhana)."
+        "text": "waren / gefahren",
+        "translation": "membentuk Plusquamperfekt yang tidak lazim untuk narasi lisan sederhana."
       }
     ],
     "correctKey": "D",
@@ -1272,23 +1414,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "muss sich für die wichtige Prüfung vorbereiten (urutan Hauptsatz yang keliru diterapkan setelah konjungsi subordinatif weil)."
+        "text": "muss sich für die wichtige Prüfung vorbereiten",
+        "translation": "urutan Hauptsatz yang keliru diterapkan setelah konjungsi subordinatif weil."
       },
       {
         "key": "B",
-        "text": "sich vorbereiten muss für die wichtige Prüfung (keterangan preposisi diletakkan di luar kerangka kalimat anak / Ausklammerung keliru)."
+        "text": "sich vorbereiten muss für die wichtige Prüfung",
+        "translation": "keterangan preposisi diletakkan di luar kerangka kalimat anak / Ausklammerung keliru."
       },
       {
         "key": "C",
-        "text": "für die wichtige Prüfung muss sich vorbereiten (posisi verba bantu menyela di tengah klausa subordinat)."
+        "text": "für die wichtige Prüfung muss sich vorbereiten",
+        "translation": "posisi verba bantu menyela di tengah klausa subordinat."
       },
       {
         "key": "D",
-        "text": "vorbereiten sich muss für die Prüfung (susunan acak yang melanggar hukum urutan pronomina refleksif)."
+        "text": "vorbereiten sich muss für die Prüfung",
+        "translation": "susunan acak yang melanggar hukum urutan pronomina refleksif."
       },
       {
         "key": "E",
-        "text": "sich für die wichtige Prüfung vorbereiten muss (verba berkonjugasi 'muss' ditempatkan di posisi paling akhir klausa)."
+        "text": "sich für die wichtige Prüfung vorbereiten muss",
+        "translation": "verba berkonjugasi 'muss' ditempatkan di posisi paling akhir klausa."
       }
     ],
     "correctKey": "E",
@@ -1315,23 +1462,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ihnen (pronomina persona ketiga jamak dalam kasus Dativ yang dituntut oleh verba 'gefallen')."
+        "text": "ihnen",
+        "translation": "pronomina persona ketiga jamak dalam kasus Dativ yang dituntut oleh verba 'gefallen'."
       },
       {
         "key": "B",
-        "text": "sie (pronomina persona ketiga jamak dalam kasus Nominativ atau Akkusativ)."
+        "text": "sie",
+        "translation": "pronomina persona ketiga jamak dalam kasus Nominativ atau Akkusativ."
       },
       {
         "key": "C",
-        "text": "ihr (pronomina persona ketiga feminin tunggal dalam kasus Dativ atau persona kedua jamak Nominativ)."
+        "text": "ihr",
+        "translation": "pronomina persona ketiga feminin tunggal dalam kasus Dativ atau persona kedua jamak Nominativ."
       },
       {
         "key": "D",
-        "text": "ihrem (bentuk kepemilikan maskulin/netral Dativ tunggal yang tidak dapat berdiri sendiri)."
+        "text": "ihrem",
+        "translation": "bentuk kepemilikan maskulin/netral Dativ tunggal yang tidak dapat berdiri sendiri."
       },
       {
         "key": "E",
-        "text": "Ihnen (bentuk honorifik sopan persona kedua Anda yang keliru untuk merujuk turis pihak ketiga)."
+        "text": "Ihnen",
+        "translation": "bentuk honorifik sopan persona kedua Anda yang keliru untuk merujuk turis pihak ketiga."
       }
     ],
     "correctKey": "A",
@@ -1358,23 +1510,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "gerner (bentuk perbandingan teratur buatan yang keliru dan tidak ada dalam bahasa Jerman baku)."
+        "text": "gerner",
+        "translation": "bentuk perbandingan teratur buatan yang keliru dan tidak ada dalam bahasa Jerman baku."
       },
       {
         "key": "B",
-        "text": "lieber (bentuk komparatif tidak teratur dari gern yang bermakna 'lebih suka')."
+        "text": "lieber",
+        "translation": "bentuk komparatif tidak teratur dari gern yang bermakna 'lebih suka'."
       },
       {
         "key": "C",
-        "text": "am liebsten (bentuk superlatif tingkat paling tinggi yang membutuhkan partikel am)."
+        "text": "am liebsten",
+        "translation": "bentuk superlatif tingkat paling tinggi yang membutuhkan partikel am."
       },
       {
         "key": "D",
-        "text": "besser (bentuk komparatif dari kata sifat gut yang bermakna lebih baik kualitasnya)."
+        "text": "besser",
+        "translation": "bentuk komparatif dari kata sifat gut yang bermakna lebih baik kualitasnya."
       },
       {
         "key": "E",
-        "text": "mehr (bentuk komparatif dari kata sifat viel yang bermakna lebih banyak kuantitasnya)."
+        "text": "mehr",
+        "translation": "bentuk komparatif dari kata sifat viel yang bermakna lebih banyak kuantitasnya."
       }
     ],
     "correctKey": "B",
@@ -1401,23 +1558,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "vor (preposisi temporal Dativ yang menyatakan peristiwa lampau yang sudah selesai sepenuhnya) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "vor",
+        "translation": "preposisi temporal Dativ yang menyatakan peristiwa lampau yang sudah selesai sepenuhnya sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "ab (preposisi yang menyatakan titik awal masa kini atau masa depan)."
+        "text": "ab",
+        "translation": "preposisi yang menyatakan titik awal masa kini atau masa depan."
       },
       {
         "key": "C",
-        "text": "seit (preposisi temporal Dativ yang menyatakan aksi yang telah dimulai di masa lampau dan terus berlanjut)."
+        "text": "seit",
+        "translation": "preposisi temporal Dativ yang menyatakan aksi yang telah dimulai di masa lampau dan terus berlanjut."
       },
       {
         "key": "D",
-        "text": "bis (preposisi Akkusativ yang menyatakan batas akhir waktu kejadian)."
+        "text": "bis",
+        "translation": "preposisi Akkusativ yang menyatakan batas akhir waktu kejadian."
       },
       {
         "key": "E",
-        "text": "in (preposisi waktu yang menyatakan durasi di masa depan: in einem Jahr = setahun lagi)."
+        "text": "in",
+        "translation": "preposisi waktu yang menyatakan durasi di masa depan: in einem Jahr = setahun lagi."
       }
     ],
     "correctKey": "C",
@@ -1444,23 +1606,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "das (artikel tentu atau pronomina relatif netral yang keliru secara fungsi konjungsi) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "das",
+        "translation": "artikel tentu atau pronomina relatif netral yang keliru secara fungsi konjungsi menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "ob (kata sambung subordinatif 'apakah' yang digunakan untuk kalimat tanya tidak langsung)."
+        "text": "ob",
+        "translation": "kata sambung subordinatif 'apakah' yang digunakan untuk kalimat tanya tidak langsung."
       },
       {
         "key": "C",
-        "text": "weil (kata sambung kausalitas 'karena' yang menyatakan alasan logis, bukan isi penegasan)."
+        "text": "weil",
+        "translation": "kata sambung kausalitas 'karena' yang menyatakan alasan logis, bukan isi penegasan."
       },
       {
         "key": "D",
-        "text": "dass (kata sambung subordinatif 'bahwa' yang mengantarkan klausa isi dan memindahkan verba ke akhir)."
+        "text": "dass",
+        "translation": "kata sambung subordinatif 'bahwa' yang mengantarkan klausa isi dan memindahkan verba ke akhir."
       },
       {
         "key": "E",
-        "text": "damit (kata sambung finalitas 'supaya/agar' yang menyatakan tujuan perbuatan)."
+        "text": "damit",
+        "translation": "kata sambung finalitas 'supaya/agar' yang menyatakan tujuan perbuatan."
       }
     ],
     "correctKey": "D",
@@ -1487,23 +1654,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "könnte (bentuk Konjunktiv II yang menyatakan pengandaian hipotetis atau kesantunan bersyarat) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "könnte",
+        "translation": "bentuk Konjunktiv II yang menyatakan pengandaian hipotetis atau kesantunan bersyarat diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "konntest (bentuk Präteritum persona kedua tunggal untuk subjek du)."
+        "text": "konntest",
+        "translation": "bentuk Präteritum persona kedua tunggal untuk subjek du."
       },
       {
         "key": "C",
-        "text": "kann (bentuk Präsens sekarang yang bertentangan dengan keterangan waktu lampau gestern)."
+        "text": "kann",
+        "translation": "bentuk Präsens sekarang yang bertentangan dengan keterangan waktu lampau gestern."
       },
       {
         "key": "D",
-        "text": "gekonnt (bentuk Partizip II yang membutuhkan kata kerja bantu haben dalam konstruksi Perfekt)."
+        "text": "gekonnt",
+        "translation": "bentuk Partizip II yang membutuhkan kata kerja bantu haben dalam konstruksi Perfekt."
       },
       {
         "key": "E",
-        "text": "konnte (bentuk Präteritum persona pertama tunggal dari modalverb 'können' tanpa tanda umlaut)."
+        "text": "konnte",
+        "translation": "bentuk Präteritum persona pertama tunggal dari modalverb 'können' tanpa tanda umlaut."
       }
     ],
     "correctKey": "E",
@@ -1530,23 +1702,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "lege / liegt (verba aktif-dinamis 'legen' menuntut Akkusativ 'auf den Tisch', dan verba statis 'liegen' menyatakan letak)."
+        "text": "lege / liegt",
+        "translation": "verba aktif-dinamis 'legen' menuntut Akkusativ 'auf den Tisch', dan verba statis 'liegen' menyatakan letak."
       },
       {
         "key": "B",
-        "text": "liege / legt (kombinasi terbalik yang rancu secara logika semantik gerak dan status benda) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "liege / legt",
+        "translation": "kombinasi terbalik yang rancu secara logika semantik gerak dan status benda ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "stelle / steht (verba untuk posisi berdiri tegak vertikal yang tidak sesuai untuk majalah tipis yang diletakkan mendatar)."
+        "text": "stelle / steht",
+        "translation": "verba untuk posisi berdiri tegak vertikal yang tidak sesuai untuk majalah tipis yang diletakkan mendatar."
       },
       {
         "key": "D",
-        "text": "setze / sitzt (verba yang lazim digunakan untuk makhluk hidup atau benda berwujud boneka yang didudukkan)."
+        "text": "setze / sitzt",
+        "translation": "verba yang lazim digunakan untuk makhluk hidup atau benda berwujud boneka yang didudukkan."
       },
       {
         "key": "E",
-        "text": "hänge / hängt (verba yang digunakan untuk menggantung benda pada dinding atau gantungan baju)."
+        "text": "hänge / hängt",
+        "translation": "verba yang digunakan untuk menggantung benda pada dinding atau gantungan baju."
       }
     ],
     "correctKey": "A",
@@ -1573,23 +1750,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wann (kata tanya interogatif yang hanya menanyakan waktu temporal spesifik, bukan konjungsi syarat) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "Wann",
+        "translation": "kata tanya interogatif yang hanya menanyakan waktu temporal spesifik, bukan konjungsi syarat ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "Wenn (konjungsi subordinatif bersyarat/temporal yang bermakna 'jika / apabila' dan memindahkan verba ke akhir)."
+        "text": "Wenn",
+        "translation": "konjungsi subordinatif bersyarat/temporal yang bermakna 'jika / apabila' dan memindahkan verba ke akhir."
       },
       {
         "key": "C",
-        "text": "Als (konjungsi temporal masa lampau untuk peristiwa tunggal definit di masa lalu)."
+        "text": "Als",
+        "translation": "konjungsi temporal masa lampau untuk peristiwa tunggal definit di masa lalu."
       },
       {
         "key": "D",
-        "text": "Ob (konjungsi keraguan yang bermakna 'apakah' pada kalimat tidak langsung)."
+        "text": "Ob",
+        "translation": "konjungsi keraguan yang bermakna 'apakah' pada kalimat tidak langsung."
       },
       {
         "key": "E",
-        "text": "Weil (konjungsi kausalitas yang menyatakan alasan peristiwa yang sudah pasti terjadi)."
+        "text": "Weil",
+        "translation": "konjungsi kausalitas yang menyatakan alasan peristiwa yang sudah pasti terjadi."
       }
     ],
     "correctKey": "B",
@@ -1616,23 +1798,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "euch (pronomina refleksif untuk persona kedua jamak subjek ihr)."
+        "text": "euch",
+        "translation": "pronomina refleksif untuk persona kedua jamak subjek ihr."
       },
       {
         "key": "B",
-        "text": "uns (pronomina refleksif untuk persona pertama jamak subjek wir)."
+        "text": "uns",
+        "translation": "pronomina refleksif untuk persona pertama jamak subjek wir."
       },
       {
         "key": "C",
-        "text": "sich (pronomina refleksif baku untuk persona ketiga tunggal maupun jamak)."
+        "text": "sich",
+        "translation": "pronomina refleksif baku untuk persona ketiga tunggal maupun jamak."
       },
       {
         "key": "D",
-        "text": "sie (bukan pronomina refleksif, melainkan pronomina persona biasa yang salah secara sintaksis refleksif)."
+        "text": "sie",
+        "translation": "bukan pronomina refleksif, melainkan pronomina persona biasa yang salah secara sintaksis refleksif."
       },
       {
         "key": "E",
-        "text": "ihnen (pronomina persona Dativ biasa yang tidak berfungsi sebagai penanda refleksif verba sich freuen)."
+        "text": "ihnen",
+        "translation": "pronomina persona Dativ biasa yang tidak berfungsi sebagai penanda refleksif verba sich freuen."
       }
     ],
     "correctKey": "C",
@@ -1650,7 +1837,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Felix meminta maaf karena datang terlambat ke pertemuan:\n'Entschuldigung für die Verspätung! Ich habe meinen Zug nach Köln leider ( ... ).'\nBentuk Partizip II yang BENAR dari kata kerja tak terpisah 'verpassen' (ketinggalan kereta) adalah...",
+    "questionHtml": "Felix meminta maaf karena datang terlambat ke pertemuan:\n'Entschuldigung für die Verspätung! Ich habe meinen Zug nach Köln leider ( ... ).'\nBentuk Partizip II yang BENAR dari kata kerja tak terpisah 'verpassen' adalah...",
     "formulaHud": {
       "title": "PARTIZIP II UNTRENNBARER VERBEN",
       "latex": "\\text{Präfixe: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-} \\rightarrow \\text{OHNE ge-}",
@@ -1659,23 +1846,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "geverpasst (kesalahan penambahan awalan ge- di depan prefiks tak terpisah)."
+        "text": "geverpasst",
+        "translation": "kesalahan penambahan awalan ge- di depan prefiks tak terpisah."
       },
       {
         "key": "B",
-        "text": "verpassen (bentuk infinitif yang belum diubah ke dalam bentuk Partizip II)."
+        "text": "verpassen",
+        "translation": "bentuk infinitif yang belum diubah ke dalam bentuk Partizip II."
       },
       {
         "key": "C",
-        "text": "verpasset (bentuk arkais dengan sisipan vokal -e- yang keliru secara ortografi modern)."
+        "text": "verpasset",
+        "translation": "bentuk arkais dengan sisipan vokal -e- yang keliru secara ortografi modern."
       },
       {
         "key": "D",
-        "text": "verpasst (dibentuk tanpa awalan ge- karena memiliki prefiks tak terpisah 'ver-')."
+        "text": "verpasst",
+        "translation": "dibentuk tanpa awalan ge- karena memiliki prefiks tak terpisah 'ver-'."
       },
       {
         "key": "E",
-        "text": "gepasst (merupakan Partizip II dari verba dasar passen yang maknanya berubah total menjadi cocok/muat)."
+        "text": "gepasst",
+        "translation": "merupakan Partizip II dari verba dasar passen yang maknanya berubah total menjadi cocok/muat."
       }
     ],
     "correctKey": "D",
@@ -1702,23 +1894,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kilometer (jarak menuju pusat kota) dan Notkosten (dana darurat perbaikan gedung apartemen) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "Kilometer",
+        "translation": "jarak menuju pusat kota) dan Notkosten (dana darurat perbaikan gedung apartemen diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "Kautionsmiete (uang jaminan deposit awal) dan Netto-Kosten (biaya bersih setelah pemotongan pajak)."
+        "text": "Kautionsmiete",
+        "translation": "uang jaminan deposit awal) dan Netto-Kosten (biaya bersih setelah pemotongan pajak."
       },
       {
         "key": "C",
-        "text": "Küchenmiete (biaya khusus sewa perabot dapur) dan Nachzahlung (denda keterlambatan pembayaran bulanan)."
+        "text": "Küchenmiete",
+        "translation": "biaya khusus sewa perabot dapur) dan Nachzahlung (denda keterlambatan pembayaran bulanan."
       },
       {
         "key": "D",
-        "text": "Komfortmiete (biaya fasilitas kemewahan gedung) dan Nebenkonto (nomor rekening perbankan sekunder pengelola)."
+        "text": "Komfortmiete",
+        "translation": "biaya fasilitas kemewahan gedung) dan Nebenkonto (nomor rekening perbankan sekunder pengelola."
       },
       {
         "key": "E",
-        "text": "Kaltmiete (biaya sewa dasar tanpa pemanas/utilitas) dan Nebenkosten (biaya utilitas tambahan seperti air dan sampah)."
+        "text": "Kaltmiete",
+        "translation": "biaya sewa dasar tanpa pemanas/utilitas) dan Nebenkosten (biaya utilitas tambahan seperti air dan sampah."
       }
     ],
     "correctKey": "E",
@@ -1745,23 +1942,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "zum (kontraksi baku dari preposisi Dativ 'zu' + artikel maskulin 'dem')."
+        "text": "zum",
+        "translation": "kontraksi baku dari preposisi Dativ 'zu' + artikel maskulin 'dem'."
       },
       {
         "key": "B",
-        "text": "zur (kontraksi preposisi 'zu' + artikel feminin 'der' yang keliru untuk kata benda maskulin der Arzt)."
+        "text": "zur",
+        "translation": "kontraksi preposisi 'zu' + artikel feminin 'der' yang keliru untuk kata benda maskulin der Arzt."
       },
       {
         "key": "C",
-        "text": "in den (penggunaan preposisi Akkusativ 'in' yang bermakna masuk secara harfiah ke dalam tubuh fisik sang dokter)."
+        "text": "in den",
+        "translation": "penggunaan preposisi Akkusativ 'in' yang bermakna masuk secara harfiah ke dalam tubuh fisik sang dokter."
       },
       {
         "key": "D",
-        "text": "nach dem (preposisi nach digunakan untuk nama kota/negara tanpa artikel atau urutan waktu, bukan persona)."
+        "text": "nach dem",
+        "translation": "preposisi nach digunakan untuk nama kota/negara tanpa artikel atau urutan waktu, bukan persona."
       },
       {
         "key": "E",
-        "text": "beim (kontraksi bei + dem yang menyatakan posisi statis sedang berada di tempat dokter, bukan arah tujuan pergerakan)."
+        "text": "beim",
+        "translation": "kontraksi bei + dem yang menyatakan posisi statis sedang berada di tempat dokter, bukan arah tujuan pergerakan."
       }
     ],
     "correctKey": "A",
@@ -1788,23 +1990,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "dass (kata hubung yang bermakna 'bahwa' untuk pernyataan faktual positif yang sudah pasti) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "dass",
+        "translation": "kata hubung yang bermakna 'bahwa' untuk pernyataan faktual positif yang sudah pasti ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "ob (kata hubung yang bermakna 'apakah' untuk mengantarkan pertanyaan tidak langsung berbasis ya/tidak)."
+        "text": "ob",
+        "translation": "kata hubung yang bermakna 'apakah' untuk mengantarkan pertanyaan tidak langsung berbasis ya/tidak."
       },
       {
         "key": "C",
-        "text": "wenn (kata hubung syarat/kondisional yang bermakna 'jika/apabila')."
+        "text": "wenn",
+        "translation": "kata hubung syarat/kondisional yang bermakna 'jika/apabila'."
       },
       {
         "key": "D",
-        "text": "wann (kata tanya waktu spesifik yang mengabaikan kepastian keberangkatan terjadwal)."
+        "text": "wann",
+        "translation": "kata tanya waktu spesifik yang mengabaikan kepastian keberangkatan terjadwal."
       },
       {
         "key": "E",
-        "text": "wie (kata tanya cara/metode yang tidak cocok dengan konfirmasi ketepatan jadwal keberangkatan)."
+        "text": "wie",
+        "translation": "kata tanya cara/metode yang tidak cocok dengan konfirmasi ketepatan jadwal keberangkatan."
       }
     ],
     "correctKey": "B",
@@ -1831,23 +2038,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wie (partikel pembanding yang hanya digunakan pada derajat setara/Positiv: so schnell wie) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "wie",
+        "translation": "partikel pembanding yang hanya digunakan pada derajat setara/Positiv: so schnell wie sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "denn (partikel pembanding arkais yang sudah usang dan digantikan sepenuhnya oleh als dalam bahasa modern)."
+        "text": "denn",
+        "translation": "partikel pembanding arkais yang sudah usang dan digantikan sepenuhnya oleh als dalam bahasa modern."
       },
       {
         "key": "C",
-        "text": "als (partikel pembanding wajib yang menyertai bentuk komparatif untuk menyatakan perbedaan derajat 'daripada')."
+        "text": "als",
+        "translation": "partikel pembanding wajib yang menyertai bentuk komparatif untuk menyatakan perbedaan derajat 'daripada'."
       },
       {
         "key": "D",
-        "text": "von (preposisi asal atau kepemilikan yang keliru digunakan sebagai pembanding ajektiva)."
+        "text": "von",
+        "translation": "preposisi asal atau kepemilikan yang keliru digunakan sebagai pembanding ajektiva."
       },
       {
         "key": "E",
-        "text": "zu (partikel yang bermakna terlalu intensif atau arah tujuan, bukan pembanding kualitas)."
+        "text": "zu",
+        "translation": "partikel yang bermakna terlalu intensif atau arah tujuan, bukan pembanding kualitas."
       }
     ],
     "correctKey": "C",
@@ -1874,23 +2086,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "vor (preposisi yang bermakna 'sebelum' makan, bertolak belakang dengan instruksi sesudah makan)."
+        "text": "vor",
+        "translation": "preposisi yang bermakna 'sebelum' makan, bertolak belakang dengan instruksi sesudah makan."
       },
       {
         "key": "B",
-        "text": "während (preposisi Genitiv yang bermakna 'selama' proses makan berlangsung)."
+        "text": "während",
+        "translation": "preposisi Genitiv yang bermakna 'selama' proses makan berlangsung."
       },
       {
         "key": "C",
-        "text": "zu (preposisi arah atau momen perayaan yang tidak lazim untuk petunjuk minum obat)."
+        "text": "zu",
+        "translation": "preposisi arah atau momen perayaan yang tidak lazim untuk petunjuk minum obat."
       },
       {
         "key": "D",
-        "text": "nach (preposisi temporal Dativ yang bermakna 'sesudah / setelah' suatu peristiwa atau waktu)."
+        "text": "nach",
+        "translation": "preposisi temporal Dativ yang bermakna 'sesudah / setelah' suatu peristiwa atau waktu."
       },
       {
         "key": "E",
-        "text": "in (preposisi yang menyatakan jangka waktu di masa depan, bukan urutan konsumsi obat)."
+        "text": "in",
+        "translation": "preposisi yang menyatakan jangka waktu di masa depan, bukan urutan konsumsi obat."
       }
     ],
     "correctKey": "D",
@@ -1917,23 +2134,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "aber (konjungsi pertentangan umum yang tidak berfungsi mengoreksi elemen sanggahan mutlak sebelumnya) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "aber",
+        "translation": "konjungsi pertentangan umum yang tidak berfungsi mengoreksi elemen sanggahan mutlak sebelumnya diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "denn (konjungsi alasan kausalitas yang menyatakan sebab-akibat pembuktian)."
+        "text": "denn",
+        "translation": "konjungsi alasan kausalitas yang menyatakan sebab-akibat pembuktian."
       },
       {
         "key": "C",
-        "text": "oder (konjungsi pilihan alternatif antara dua opsi yang terbuka)."
+        "text": "oder",
+        "translation": "konjungsi pilihan alternatif antara dua opsi yang terbuka."
       },
       {
         "key": "D",
-        "text": "und (konjungsi penambahan yang tidak mengekspresikan koreksi kontradiksi faktual)."
+        "text": "und",
+        "translation": "konjungsi penambahan yang tidak mengekspresikan koreksi kontradiksi faktual."
       },
       {
         "key": "E",
-        "text": "sondern (konjungsi koreksi yang bermakna 'melainkan' dan wajib didahului oleh klausula bernilai negatif)."
+        "text": "sondern",
+        "translation": "konjungsi koreksi yang bermakna 'melainkan' dan wajib didahului oleh klausula bernilai negatif."
       }
     ],
     "correctKey": "E",
@@ -1960,23 +2182,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ihm (pronomina persona ketiga maskulin tunggal dalam kasus Dativ: der Bruder -> ihm)."
+        "text": "ihm",
+        "translation": "pronomina persona ketiga maskulin tunggal dalam kasus Dativ: der Bruder -> ihm."
       },
       {
         "key": "B",
-        "text": "ihn (pronomina persona ketiga maskulin tunggal dalam kasus Akkusativ yang keliru karena posisi objek langsung sudah diisi oleh es)."
+        "text": "ihn",
+        "translation": "pronomina persona ketiga maskulin tunggal dalam kasus Akkusativ yang keliru karena posisi objek langsung sudah diisi oleh es."
       },
       {
         "key": "C",
-        "text": "er (pronomina persona Nominativ yang tidak dapat mengisi peran objek penerima bantuan)."
+        "text": "er",
+        "translation": "pronomina persona Nominativ yang tidak dapat mengisi peran objek penerima bantuan."
       },
       {
         "key": "D",
-        "text": "sein (kata ganti kepemilikan yang salah fungsi gramatikal pada struktur verba geben)."
+        "text": "sein",
+        "translation": "kata ganti kepemilikan yang salah fungsi gramatikal pada struktur verba geben."
       },
       {
         "key": "E",
-        "text": "ihr (pronomina Dativ feminin tunggal yang keliru gender untuk kata maskulin der Bruder)."
+        "text": "ihr",
+        "translation": "pronomina Dativ feminin tunggal yang keliru gender untuk kata maskulin der Bruder."
       }
     ],
     "correctKey": "A",
@@ -2003,23 +2230,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "geschreibt (bentuk lemah teratur buatan yang keliru untuk verba kuat schreiben)."
+        "text": "geschreibt",
+        "translation": "bentuk lemah teratur buatan yang keliru untuk verba kuat schreiben."
       },
       {
         "key": "B",
-        "text": "geschrieben (bentuk Partizip II verba kuat dengan perubahan vokal akar ei -> ie dan akhiran -en)."
+        "text": "geschrieben",
+        "translation": "bentuk Partizip II verba kuat dengan perubahan vokal akar ei -> ie dan akhiran -en."
       },
       {
         "key": "C",
-        "text": "geschriben (kesalahan ejaan vokal pendek tanpa huruf -e pemanjang bunyi)."
+        "text": "geschriben",
+        "translation": "kesalahan ejaan vokal pendek tanpa huruf -e pemanjang bunyi."
       },
       {
         "key": "D",
-        "text": "schrieb (bentuk lampau Präteritum yang tidak boleh dipasangkan langsung dengan kata kerja bantu hat)."
+        "text": "schrieb",
+        "translation": "bentuk lampau Präteritum yang tidak boleh dipasangkan langsung dengan kata kerja bantu hat."
       },
       {
         "key": "E",
-        "text": "geschriebenet (penambahan akhiran ganda yang melanggar morfologi bahasa Jerman)."
+        "text": "geschriebenet",
+        "translation": "penambahan akhiran ganda yang melanggar morfologi bahasa Jerman."
       }
     ],
     "correctKey": "B",
@@ -2046,23 +2278,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Blaue Tonne (wadah penampung khusus untuk kertas, kardus, dan koran bekas) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "Blaue Tonne",
+        "translation": "wadah penampung khusus untuk kertas, kardus, dan koran bekas sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "Braune Tonne / Biotonne (wadah khusus untuk sampah organik basah seperti sisa makanan dan tanaman)."
+        "text": "Braune Tonne / Biotonne",
+        "translation": "wadah khusus untuk sampah organik basah seperti sisa makanan dan tanaman."
       },
       {
         "key": "C",
-        "text": "Gelbe Tonne / den Gelben Sack (wadah khusus untuk limbah kemasan berbahan plastik, logam, dan komposit berlogo Grüne Punkt)."
+        "text": "Gelbe Tonne / den Gelben Sack",
+        "translation": "wadah khusus untuk limbah kemasan berbahan plastik, logam, dan komposit berlogo Grüne Punkt."
       },
       {
         "key": "D",
-        "text": "Schwarze Tonne / Restmülltonne (wadah khusus untuk residu sampah sisa yang tidak dapat didaur ulang)."
+        "text": "Schwarze Tonne / Restmülltonne",
+        "translation": "wadah khusus untuk residu sampah sisa yang tidak dapat didaur ulang."
       },
       {
         "key": "E",
-        "text": "Altglascontainer (tempat pembuangan khusus pecahan botol kaca non-deposit)."
+        "text": "Altglascontainer",
+        "translation": "tempat pembuangan khusus pecahan botol kaca non-deposit."
       }
     ],
     "correctKey": "C",
@@ -2089,23 +2326,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "den (artikel kasus Akkusativ maskulin yang salah diterapkan setelah preposisi Dativ)."
+        "text": "den",
+        "translation": "artikel kasus Akkusativ maskulin yang salah diterapkan setelah preposisi Dativ."
       },
       {
         "key": "B",
-        "text": "der (artikel Nominativ maskulin atau Dativ feminin)."
+        "text": "der",
+        "translation": "artikel Nominativ maskulin atau Dativ feminin."
       },
       {
         "key": "C",
-        "text": "des (artikel Genitiv maskulin tunggal)."
+        "text": "des",
+        "translation": "artikel Genitiv maskulin tunggal."
       },
       {
         "key": "D",
-        "text": "dem (artikel kasus Dativ maskulin tunggal yang dituntut oleh preposisi gegenüber)."
+        "text": "dem",
+        "translation": "artikel kasus Dativ maskulin tunggal yang dituntut oleh preposisi gegenüber."
       },
       {
         "key": "E",
-        "text": "das (artikel netral Nominativ/Akkusativ)."
+        "text": "das",
+        "translation": "artikel netral Nominativ/Akkusativ."
       }
     ],
     "correctKey": "D",
@@ -2132,23 +2374,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "sollt (bentuk konjugasi untuk persona kedua jamak akrab ihr) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "sollt",
+        "translation": "bentuk konjugasi untuk persona kedua jamak akrab ihr diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "sollten (bentuk Konjunktiv II yang bermakna anjuran/saran hipotetis, bukan mandat instruktif langsung)."
+        "text": "sollten",
+        "translation": "bentuk Konjunktiv II yang bermakna anjuran/saran hipotetis, bukan mandat instruktif langsung."
       },
       {
         "key": "C",
-        "text": "soll (bentuk persona pertama atau ketiga tunggal ich/er/sie/es)."
+        "text": "soll",
+        "translation": "bentuk persona pertama atau ketiga tunggal ich/er/sie/es."
       },
       {
         "key": "D",
-        "text": "solle (bentuk Konjunktiv I orang ketiga tunggal yang tidak sesuai persona Sie)."
+        "text": "solle",
+        "translation": "bentuk Konjunktiv I orang ketiga tunggal yang tidak sesuai persona Sie."
       },
       {
         "key": "E",
-        "text": "sollen (bentuk persona kedua formal Sie yang digunakan untuk menyampaikan mandat/perintah pihak ketiga)."
+        "text": "sollen",
+        "translation": "bentuk persona kedua formal Sie yang digunakan untuk menyampaikan mandat/perintah pihak ketiga."
       }
     ],
     "correctKey": "E",
@@ -2175,23 +2422,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Obwohl (konjungsi konsesif yang bermakna 'meskipun/walaupun' dan memindahkan verba berkonjugasi ke akhir klausula)."
+        "text": "Obwohl",
+        "translation": "konjungsi konsesif yang bermakna 'meskipun/walaupun' dan memindahkan verba berkonjugasi ke akhir klausula."
       },
       {
         "key": "B",
-        "text": "Weil (konjungsi kausalitas yang keliru karena biaya awal yang tinggi bukan merupakan penyebab positif adopsi) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "Weil",
+        "translation": "konjungsi kausalitas yang keliru karena biaya awal yang tinggi bukan merupakan penyebab positif adopsi ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "Damit (konjungsi finalitas yang menyatakan tujuan masa depan, bukan pertentangan fakta realita)."
+        "text": "Damit",
+        "translation": "konjungsi finalitas yang menyatakan tujuan masa depan, bukan pertentangan fakta realita."
       },
       {
         "key": "D",
-        "text": "Trotzdem (adverbia penghubung koordinatif yang harus diikuti langsung oleh kata kerja di posisi kedua Hauptsatz)."
+        "text": "Trotzdem",
+        "translation": "adverbia penghubung koordinatif yang harus diikuti langsung oleh kata kerja di posisi kedua Hauptsatz."
       },
       {
         "key": "E",
-        "text": "Sodass (konjungsi konsekutif yang menyatakan konsekuensi logis lanjutan)."
+        "text": "Sodass",
+        "translation": "konjungsi konsekutif yang menyatakan konsekuensi logis lanjutan."
       }
     ],
     "correctKey": "A",
@@ -2218,23 +2470,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "um ... zu (konstruksi infinitif yang hanya boleh digunakan apabila subjek induk dan anak identik/sama) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "um ... zu",
+        "translation": "konstruksi infinitif yang hanya boleh digunakan apabila subjek induk dan anak identik/sama ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "damit (konjungsi subordinatif tujuan 'supaya/agar' yang wajib digunakan bila subjek klausa induk dan klausa anak berbeda)."
+        "text": "damit",
+        "translation": "konjungsi subordinatif tujuan 'supaya/agar' yang wajib digunakan bila subjek klausa induk dan klausa anak berbeda."
       },
       {
         "key": "C",
-        "text": "weil (konjungsi kausalitas yang menyatakan alasan peristiwa lampau/kini, bukan intensi tujuan ke depan)."
+        "text": "weil",
+        "translation": "konjungsi kausalitas yang menyatakan alasan peristiwa lampau/kini, bukan intensi tujuan ke depan."
       },
       {
         "key": "D",
-        "text": "dass (konjungsi penjelas fakta yang tidak mengekspresikan intensi finalitas pengorbanan)."
+        "text": "dass",
+        "translation": "konjungsi penjelas fakta yang tidak mengekspresikan intensi finalitas pengorbanan."
       },
       {
         "key": "E",
-        "text": "ob (konjungsi keraguan interogatif yang tidak masuk akal dalam konteks tujuan pembiayaan studi)."
+        "text": "ob",
+        "translation": "konjungsi keraguan interogatif yang tidak masuk akal dalam konteks tujuan pembiayaan studi."
       }
     ],
     "correctKey": "B",
@@ -2261,23 +2518,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "die (pronomina relatif feminin tunggal dalam kasus Nominativ atau Akkusativ)."
+        "text": "die",
+        "translation": "pronomina relatif feminin tunggal dalam kasus Nominativ atau Akkusativ."
       },
       {
         "key": "B",
-        "text": "denen (pronomina relatif jamak dalam kasus Dativ yang keliru nomor jumlahnya)."
+        "text": "denen",
+        "translation": "pronomina relatif jamak dalam kasus Dativ yang keliru nomor jumlahnya."
       },
       {
         "key": "C",
-        "text": "der (pronomina relatif feminin tunggal dalam kasus Dativ yang dituntut oleh verba 'danken')."
+        "text": "der",
+        "translation": "pronomina relatif feminin tunggal dalam kasus Dativ yang dituntut oleh verba 'danken'."
       },
       {
         "key": "D",
-        "text": "dessen (pronomina relatif Genitiv maskulin/netral yang menyatakan kepemilikan)."
+        "text": "dessen",
+        "translation": "pronomina relatif Genitiv maskulin/netral yang menyatakan kepemilikan."
       },
       {
         "key": "E",
-        "text": "deren (pronomina relatif Genitiv feminin tunggal yang tidak cocok dengan valensi verba danken)."
+        "text": "deren",
+        "translation": "pronomina relatif Genitiv feminin tunggal yang tidak cocok dengan valensi verba danken."
       }
     ],
     "correctKey": "C",
@@ -2304,23 +2566,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "war / werde (kombinasi indikatif masa lalu dan futur yang bukan ragam irrealis pengandaian)."
+        "text": "war / werde",
+        "translation": "kombinasi indikatif masa lalu dan futur yang bukan ragam irrealis pengandaian."
       },
       {
         "key": "B",
-        "text": "hätte / könnte (penggunaan verba kepemilikan hätte yang tidak cocok dengan kata sifat predikatif reich)."
+        "text": "hätte / könnte",
+        "translation": "penggunaan verba kepemilikan hätte yang tidak cocok dengan kata sifat predikatif reich."
       },
       {
         "key": "C",
-        "text": "sei / werde (bentuk Konjunktiv I kutipan wicara tidak langsung yang keliru konteks angan-angan)."
+        "text": "sei / werde",
+        "translation": "bentuk Konjunktiv I kutipan wicara tidak langsung yang keliru konteks angan-angan."
       },
       {
         "key": "D",
-        "text": "wäre / würde (bentuk Konjunktiv II dari verba sein 'wäre' dan konstruksi pengandaian verba penuh 'würde buchen')."
+        "text": "wäre / würde",
+        "translation": "bentuk Konjunktiv II dari verba sein 'wäre' dan konstruksi pengandaian verba penuh 'würde buchen'."
       },
       {
         "key": "E",
-        "text": "gewesen wäre / gebucht hätte (bentuk lampau lampau/Vergangenheit yang tidak cocok dengan penanda waktu sekarang jetzt)."
+        "text": "gewesen wäre / gebucht hätte",
+        "translation": "bentuk lampau lampau/Vergangenheit yang tidak cocok dengan penanda waktu sekarang jetzt."
       }
     ],
     "correctKey": "D",
@@ -2347,23 +2614,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wurden / montieren (kombinasi bentuk lampau dan bentuk infinitif dasar yang melanggar rumus pasif)."
+        "text": "wurden / montieren",
+        "translation": "kombinasi bentuk lampau dan bentuk infinitif dasar yang melanggar rumus pasif."
       },
       {
         "key": "B",
-        "text": "worden / montiert (worden hanya digunakan pada pasif Perfekt setelah kata kerja Partizip II)."
+        "text": "worden / montiert",
+        "translation": "worden hanya digunakan pada pasif Perfekt setelah kata kerja Partizip II."
       },
       {
         "key": "C",
-        "text": "wird / gemontiert (kesalahan bentuk nomor tunggal untuk subjek jamak serta penambahan ge- keliru pada verba berakhiran -ieren)."
+        "text": "wird / gemontiert",
+        "translation": "kesalahan bentuk nomor tunggal untuk subjek jamak serta penambahan ge- keliru pada verba berakhiran -ieren."
       },
       {
         "key": "D",
-        "text": "haben / montiert (bentuk aktif Perfekt yang membalik arah tindakan manufaktur mesin)."
+        "text": "haben / montiert",
+        "translation": "bentuk aktif Perfekt yang membalik arah tindakan manufaktur mesin."
       },
       {
         "key": "E",
-        "text": "werden / montiert (bentuk pasif Präsens: werden jamak + Partizip II dari verba teratur montieren)."
+        "text": "werden / montiert",
+        "translation": "bentuk pasif Präsens: werden jamak + Partizip II dari verba teratur montieren."
       }
     ],
     "correctKey": "E",
@@ -2390,23 +2662,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "des (artikel Genitiv maskulin tunggal yang dituntut oleh preposisi 'trotz')."
+        "text": "des",
+        "translation": "artikel Genitiv maskulin tunggal yang dituntut oleh preposisi 'trotz'."
       },
       {
         "key": "B",
-        "text": "dem (artikel Dativ maskulin tunggal yang merupakan bentuk kolokial lisan tidak baku dalam ragam formal)."
+        "text": "dem",
+        "translation": "artikel Dativ maskulin tunggal yang merupakan bentuk kolokial lisan tidak baku dalam ragam formal."
       },
       {
         "key": "C",
-        "text": "den (artikel Akkusativ maskulin tunggal yang salah total secara aturan kasus preposisi trotz)."
+        "text": "den",
+        "translation": "artikel Akkusativ maskulin tunggal yang salah total secara aturan kasus preposisi trotz."
       },
       {
         "key": "D",
-        "text": "der (artikel Genitiv feminin tunggal atau Nominativ maskulin yang keliru gender untuk Schneesturm)."
+        "text": "der",
+        "translation": "artikel Genitiv feminin tunggal atau Nominativ maskulin yang keliru gender untuk Schneesturm."
       },
       {
         "key": "E",
-        "text": "das (artikel netral Nominativ/Akkusativ yang tidak sesuai gender kata der Sturm)."
+        "text": "das",
+        "translation": "artikel netral Nominativ/Akkusativ yang tidak sesuai gender kata der Sturm."
       }
     ],
     "correctKey": "A",
@@ -2433,23 +2710,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "kreativer (akhiran kata sifat komparatif atau deklinasi tanpa artikel Nominativ maskulin)."
+        "text": "kreativer",
+        "translation": "akhiran kata sifat komparatif atau deklinasi tanpa artikel Nominativ maskulin."
       },
       {
         "key": "B",
-        "text": "kreativen (akhiran kata sifat -en setelah artikel tentu maskulin dalam kasus Akkusativ)."
+        "text": "kreativen",
+        "translation": "akhiran kata sifat -en setelah artikel tentu maskulin dalam kasus Akkusativ."
       },
       {
         "key": "C",
-        "text": "kreative (akhiran kata sifat Nominativ/Akkusativ feminin atau Nominativ maskulin)."
+        "text": "kreative",
+        "translation": "akhiran kata sifat Nominativ/Akkusativ feminin atau Nominativ maskulin."
       },
       {
         "key": "D",
-        "text": "kreatives (akhiran kata sifat netral Nominativ/Akkusativ)."
+        "text": "kreatives",
+        "translation": "akhiran kata sifat netral Nominativ/Akkusativ."
       },
       {
         "key": "E",
-        "text": "kreativem (akhiran kata sifat Dativ maskulin/netral tanpa artikel)."
+        "text": "kreativem",
+        "translation": "akhiran kata sifat Dativ maskulin/netral tanpa artikel."
       }
     ],
     "correctKey": "B",
@@ -2476,23 +2758,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "für (+ Akkusativ: kesalahan interferensi harfiah bahasa Inggris 'wait for')."
+        "text": "für",
+        "translation": "+ Akkusativ: kesalahan interferensi harfiah bahasa Inggris 'wait for'."
       },
       {
         "key": "B",
-        "text": "an (+ Dativ: preposisi yang keliru untuk objek penantian waktu/peristiwa)."
+        "text": "an",
+        "translation": "+ Dativ: preposisi yang keliru untuk objek penantian waktu/peristiwa."
       },
       {
         "key": "C",
-        "text": "auf (+ Akkusativ: warten auf etwas/jemanden)."
+        "text": "auf",
+        "translation": "+ Akkusativ: warten auf etwas/jemanden."
       },
       {
         "key": "D",
-        "text": "über (+ Akkusativ: preposisi yang lazim digunakan untuk verba sprechen atau sich ärgern)."
+        "text": "über",
+        "translation": "+ Akkusativ: preposisi yang lazim digunakan untuk verba sprechen atau sich ärgern."
       },
       {
         "key": "E",
-        "text": "zu (+ Dativ: preposisi arah pergerakan yang tidak membentuk idiom penantian)."
+        "text": "zu",
+        "translation": "+ Dativ: preposisi arah pergerakan yang tidak membentuk idiom penantian."
       }
     ],
     "correctKey": "C",
@@ -2519,23 +2806,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nachdem (konjungsi anterioritas waktu yang menyatakan peristiwa yang sudah selesai sebelum peristiwa lain dimulai) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "Nachdem",
+        "translation": "konjungsi anterioritas waktu yang menyatakan peristiwa yang sudah selesai sebelum peristiwa lain dimulai menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "Bevor (konjungsi posterioritas yang menyatakan peristiwa terjadi sebelum aksi lain berlangsung)."
+        "text": "Bevor",
+        "translation": "konjungsi posterioritas yang menyatakan peristiwa terjadi sebelum aksi lain berlangsung."
       },
       {
         "key": "C",
-        "text": "Seitdem (konjungsi durasi titik awal masa lalu yang berlanjut hingga kini)."
+        "text": "Seitdem",
+        "translation": "konjungsi durasi titik awal masa lalu yang berlanjut hingga kini."
       },
       {
         "key": "D",
-        "text": "Während (konjungsi subordinatif temporal yang bermakna 'sementara/selama' dan memindahkan verba ke akhir klausula)."
+        "text": "Während",
+        "translation": "konjungsi subordinatif temporal yang bermakna 'sementara/selama' dan memindahkan verba ke akhir klausula."
       },
       {
         "key": "E",
-        "text": "Sobald (konjungsi ketepatan momen yang bermakna 'segera setelah')."
+        "text": "Sobald",
+        "translation": "konjungsi ketepatan momen yang bermakna 'segera setelah'."
       }
     ],
     "correctKey": "D",
@@ -2562,23 +2854,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "den (artikel biasa Akkusativ maskulin atau Dativ jamak yang dilarang pada pronomina relatif Dativ plural)."
+        "text": "den",
+        "translation": "artikel biasa Akkusativ maskulin atau Dativ jamak yang dilarang pada pronomina relatif Dativ plural."
       },
       {
         "key": "B",
-        "text": "die (pronomina relatif jamak dalam kasus Nominativ atau Akkusativ)."
+        "text": "die",
+        "translation": "pronomina relatif jamak dalam kasus Nominativ atau Akkusativ."
       },
       {
         "key": "C",
-        "text": "deren (pronomina relatif kepemilikan Genitiv jamak/feminin)."
+        "text": "deren",
+        "translation": "pronomina relatif kepemilikan Genitiv jamak/feminin."
       },
       {
         "key": "D",
-        "text": "ihnen (pronomina persona biasa yang tidak dapat menghubungkan klausa relatif)."
+        "text": "ihnen",
+        "translation": "pronomina persona biasa yang tidak dapat menghubungkan klausa relatif."
       },
       {
         "key": "E",
-        "text": "denen (bentuk khusus pronomina relatif jamak dalam kasus Dativ)."
+        "text": "denen",
+        "translation": "bentuk khusus pronomina relatif jamak dalam kasus Dativ."
       }
     ],
     "correctKey": "E",
@@ -2605,23 +2902,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "an dem (preposisi 'an' menuntut Dativ dalam idiom 'teilnehmen an etwas'; maskulin: der Kongress -> dem Kongress)."
+        "text": "an dem",
+        "translation": "preposisi 'an' menuntut Dativ dalam idiom 'teilnehmen an etwas'; maskulin: der Kongress -> dem Kongress."
       },
       {
         "key": "B",
-        "text": "an den (kasus Akkusativ yang keliru karena teilnehmen an menuntut Dativ) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "an den",
+        "translation": "kasus Akkusativ yang keliru karena teilnehmen an menuntut Dativ ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "in dem (kesalahan pemilihan preposisi spasial untuk kegiatan partisipasi acara keilmuan)."
+        "text": "in dem",
+        "translation": "kesalahan pemilihan preposisi spasial untuk kegiatan partisipasi acara keilmuan."
       },
       {
         "key": "D",
-        "text": "bei dem (preposisi yang tidak membentuk kolokasi idiomatik resmi dengan verba teilnehmen)."
+        "text": "bei dem",
+        "translation": "preposisi yang tidak membentuk kolokasi idiomatik resmi dengan verba teilnehmen."
       },
       {
         "key": "E",
-        "text": "auf den (preposisi penantian arah yang tidak cocok dengan konsep berpartisipasi)."
+        "text": "auf den",
+        "translation": "preposisi penantian arah yang tidak cocok dengan konsep berpartisipasi."
       }
     ],
     "correctKey": "A",
@@ -2648,23 +2950,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wurden / geunterzeichnet (kesalahan penambahan awalan ge- pada kata kerja berprefiks tak terpisah unter-) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "wurden / geunterzeichnet",
+        "translation": "kesalahan penambahan awalan ge- pada kata kerja berprefiks tak terpisah unter- ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "wurden / unterzeichnet (bentuk pasif Präteritum jamak 'wurden' dan Partizip II tak terpisah 'unterzeichnet')."
+        "text": "wurden / unterzeichnet",
+        "translation": "bentuk pasif Präteritum jamak 'wurden' dan Partizip II tak terpisah 'unterzeichnet'."
       },
       {
         "key": "C",
-        "text": "wurdet / unterzeichnet (bentuk konjugasi persona kedua jamak ihr yang keliru nomor/persona)."
+        "text": "wurdet / unterzeichnet",
+        "translation": "bentuk konjugasi persona kedua jamak ihr yang keliru nomor/persona."
       },
       {
         "key": "D",
-        "text": "waren / unterzeichnet (membentuk Zustandspassiv yang tidak mengekspresikan aksi historis penandatanganan)."
+        "text": "waren / unterzeichnet",
+        "translation": "membentuk Zustandspassiv yang tidak mengekspresikan aksi historis penandatanganan."
       },
       {
         "key": "E",
-        "text": "worden / unterzeichnet (worden tidak dapat berdiri di posisi kedua kalimat utama tanpa kata kerja bantu)."
+        "text": "worden / unterzeichnet",
+        "translation": "worden tidak dapat berdiri di posisi kedua kalimat utama tanpa kata kerja bantu."
       }
     ],
     "correctKey": "B",
@@ -2699,7 +3006,8 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kombinasi terstruktur antara pembelajaran teori di sekolah kejuruan (Berufsschule) dan praktik kerja langsung di perusahaan (Betrieb)."
+        "text": "Kombinasi terstruktur antara pembelajaran teori di sekolah kejuruan",
+        "translation": "Berufsschule) dan praktik kerja langsung di perusahaan (Betrieb."
       },
       {
         "key": "D",
@@ -2734,23 +3042,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "analysieren / veröffentlichen (kombinasi bentuk waktu sekarang Präsens yang mengabaikan ketuntasan masa lampau)."
+        "text": "analysieren / veröffentlichen",
+        "translation": "kombinasi bentuk waktu sekarang Präsens yang mengabaikan ketuntasan masa lampau."
       },
       {
         "key": "B",
-        "text": "analysiert haben / veröffentlichten (penggunaan Perfekt yang melanggar keselarasan anterioritas Präteritum baku)."
+        "text": "analysiert haben / veröffentlichten",
+        "translation": "penggunaan Perfekt yang melanggar keselarasan anterioritas Präteritum baku."
       },
       {
         "key": "C",
-        "text": "analysiert hatten / haben veröffentlicht (penggabungan bentuk Plusquamperfekt dengan Perfekt lisan yang tidak baku dalam laporan ilmiah)."
+        "text": "analysiert hatten / haben veröffentlicht",
+        "translation": "penggabungan bentuk Plusquamperfekt dengan Perfekt lisan yang tidak baku dalam laporan ilmiah."
       },
       {
         "key": "D",
-        "text": "analysiert hatten / veröffentlichten (klausa 'nachdem' lampau anterior memakai Plusquamperfekt dan induk kalimat memakai Präteritum)."
+        "text": "analysiert hatten / veröffentlichten",
+        "translation": "klausa 'nachdem' lampau anterior memakai Plusquamperfekt dan induk kalimat memakai Präteritum."
       },
       {
         "key": "E",
-        "text": "analysierten / veröffentlicht hatten (urutan kronologi terbalik yang menempatkan publikasi mendahului analisis laboratorium)."
+        "text": "analysierten / veröffentlicht hatten",
+        "translation": "urutan kronologi terbalik yang menempatkan publikasi mendahului analisis laboratorium."
       }
     ],
     "correctKey": "D",
@@ -2777,23 +3090,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "treuer (akhiran deklinasi tanpa artikel pada kasus Nominativ maskulin)."
+        "text": "treuer",
+        "translation": "akhiran deklinasi tanpa artikel pada kasus Nominativ maskulin."
       },
       {
         "key": "B",
-        "text": "treue (akhiran kata sifat Nominativ/Akkusativ feminin)."
+        "text": "treue",
+        "translation": "akhiran kata sifat Nominativ/Akkusativ feminin."
       },
       {
         "key": "C",
-        "text": "treues (akhiran kata sifat Nominativ/Akkusativ netral)."
+        "text": "treues",
+        "translation": "akhiran kata sifat Nominativ/Akkusativ netral."
       },
       {
         "key": "D",
-        "text": "treuem (kesalahan penambahan akhiran Dativ ganda -em pada kata sifat setelah artikel mein-em)."
+        "text": "treuem",
+        "translation": "kesalahan penambahan akhiran Dativ ganda -em pada kata sifat setelah artikel mein-em."
       },
       {
         "key": "E",
-        "text": "treuen (akhiran kata sifat -en setelah artikel Dativ maskulin tunggal)."
+        "text": "treuen",
+        "translation": "akhiran kata sifat -en setelah artikel Dativ maskulin tunggal."
       }
     ],
     "correctKey": "E",
@@ -2820,23 +3138,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "gelernt hätte / hätte (konstruksi penyesalan masa lampau: hätte + Partizip II pada anak kalimat dan induk kalimat)."
+        "text": "gelernt hätte / hätte",
+        "translation": "konstruksi penyesalan masa lampau: hätte + Partizip II pada anak kalimat dan induk kalimat."
       },
       {
         "key": "B",
-        "text": "lernen würde / würde (bentuk Konjunktiv II masa kini yang tidak mengekspresikan penyesalan masa sekolah lampau)."
+        "text": "lernen würde / würde",
+        "translation": "bentuk Konjunktiv II masa kini yang tidak mengekspresikan penyesalan masa sekolah lampau."
       },
       {
         "key": "C",
-        "text": "gelernt habe / habe (bentuk indikatif Perfekt faktual yang bertentangan dengan fakta kegagalan)."
+        "text": "gelernt habe / habe",
+        "translation": "bentuk indikatif Perfekt faktual yang bertentangan dengan fakta kegagalan."
       },
       {
         "key": "D",
-        "text": "lernte / bekam (bentuk indikatif Präteritum yang menyatakan peristiwa nyata, bukan situasi hipotetis kontrafaktual)."
+        "text": "lernte / bekam",
+        "translation": "bentuk indikatif Präteritum yang menyatakan peristiwa nyata, bukan situasi hipotetis kontrafaktual."
       },
       {
         "key": "E",
-        "text": "gelernt wäre / wäre (verba lernen membentuk konjugasi dengan haben, bukan kata kerja bantu sein)."
+        "text": "gelernt wäre / wäre",
+        "translation": "verba lernen membentuk konjugasi dengan haben, bukan kata kerja bantu sein."
       }
     ],
     "correctKey": "A",
@@ -2863,23 +3186,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "an (+ Dativ: preposisi yang hanya berpasangan dengan kata benda 'Interesse haben an', bukan verba sich interessieren)."
+        "text": "an",
+        "translation": "+ Dativ: preposisi yang hanya berpasangan dengan kata benda 'Interesse haben an', bukan verba sich interessieren."
       },
       {
         "key": "B",
-        "text": "für (+ Akkusativ: sich interessieren für etwas/jemanden)."
+        "text": "für",
+        "translation": "+ Akkusativ: sich interessieren für etwas/jemanden."
       },
       {
         "key": "C",
-        "text": "über (+ Akkusativ: preposisi yang digunakan untuk verba sich informieren atau sich ärgern)."
+        "text": "über",
+        "translation": "+ Akkusativ: preposisi yang digunakan untuk verba sich informieren atau sich ärgern."
       },
       {
         "key": "D",
-        "text": "auf (+ Akkusativ: preposisi penantian atau harapan masa depan)."
+        "text": "auf",
+        "translation": "+ Akkusativ: preposisi penantian atau harapan masa depan."
       },
       {
         "key": "E",
-        "text": "mit (+ Dativ: preposisi keterlibatan instrumen atau kebersamaan sosial)."
+        "text": "mit",
+        "translation": "+ Dativ: preposisi keterlibatan instrumen atau kebersamaan sosial."
       }
     ],
     "correctKey": "B",
@@ -2906,23 +3234,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "muss / entsorgen (bentuk tunggal aktif yang mewajibkan subjek manusia sebagai pelaku pembuangan) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "muss / entsorgen",
+        "translation": "bentuk tunggal aktif yang mewajibkan subjek manusia sebagai pelaku pembuangan sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "müssen / entsorgt worden (worden hanya digunakan dalam pasif Perfekt/lampau, bukan infinitif setelah modalverb)."
+        "text": "müssen / entsorgt worden",
+        "translation": "worden hanya digunakan dalam pasif Perfekt/lampau, bukan infinitif setelah modalverb."
       },
       {
         "key": "C",
-        "text": "müssen / entsorgt werden (modalverb 'müssen' di posisi kedua + Partizip II 'entsorgt' + infinitif 'werden' di akhir kalimat)."
+        "text": "müssen / entsorgt werden",
+        "translation": "modalverb 'müssen' di posisi kedua + Partizip II 'entsorgt' + infinitif 'werden' di akhir kalimat."
       },
       {
         "key": "D",
-        "text": "sollen / entsorgen werden (kesalahan bentuk infinitif aktif 'entsorgen' yang seharusnya berwujud Partizip II entsorgt)."
+        "text": "sollen / entsorgen werden",
+        "translation": "kesalahan bentuk infinitif aktif 'entsorgen' yang seharusnya berwujud Partizip II entsorgt."
       },
       {
         "key": "E",
-        "text": "werden / entsorgen müssen (susunan aktif yang menempatkan zat kimia sebagai subjek yang memiliki kewajiban)."
+        "text": "werden / entsorgen müssen",
+        "translation": "susunan aktif yang menempatkan zat kimia sebagai subjek yang memiliki kewajiban."
       }
     ],
     "correctKey": "C",
@@ -2992,23 +3325,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "gestiegene (bentuk Partizip II yang bermakna pasif atau peristiwa yang sudah selesai tuntas terjadi)."
+        "text": "gestiegene",
+        "translation": "bentuk Partizip II yang bermakna pasif atau peristiwa yang sudah selesai tuntas terjadi."
       },
       {
         "key": "B",
-        "text": "steigenden (akhiran deklinasi yang keliru untuk kasus Nominativ tunggal setelah artikel tertentu die)."
+        "text": "steigenden",
+        "translation": "akhiran deklinasi yang keliru untuk kasus Nominativ tunggal setelah artikel tertentu die."
       },
       {
         "key": "C",
-        "text": "steigend (bentuk adverbial dasar tanpa akhiran deklinasi atributif)."
+        "text": "steigend",
+        "translation": "bentuk adverbial dasar tanpa akhiran deklinasi atributif."
       },
       {
         "key": "D",
-        "text": "steigendes (akhiran deklinasi netral yang keliru gender untuk kata benda feminin die Zahl)."
+        "text": "steigendes",
+        "translation": "akhiran deklinasi netral yang keliru gender untuk kata benda feminin die Zahl."
       },
       {
         "key": "E",
-        "text": "steigende (Partizip I dengan penambahan akhiran -d- dan deklinasi kata sifat feminin -e)."
+        "text": "steigende",
+        "translation": "Partizip I dengan penambahan akhiran -d- dan deklinasi kata sifat feminin -e."
       }
     ],
     "correctKey": "E",
@@ -3035,23 +3373,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seitdem (konjungsi subordinatif temporal yang bermakna 'sejak saat' suatu aksi dimulai di masa lalu)."
+        "text": "Seitdem",
+        "translation": "konjungsi subordinatif temporal yang bermakna 'sejak saat' suatu aksi dimulai di masa lalu."
       },
       {
         "key": "B",
-        "text": "Bis (konjungsi temporal batas akhir yang bermakna 'sampai/hingga') ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "Bis",
+        "translation": "konjungsi temporal batas akhir yang bermakna 'sampai/hingga' ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "C",
-        "text": "Bevor (konjungsi posterioritas yang bermakna 'sebelum')."
+        "text": "Bevor",
+        "translation": "konjungsi posterioritas yang bermakna 'sebelum'."
       },
       {
         "key": "D",
-        "text": "Solange (konjungsi durasi paralel yang bermakna 'selama')."
+        "text": "Solange",
+        "translation": "konjungsi durasi paralel yang bermakna 'selama'."
       },
       {
         "key": "E",
-        "text": "Sodass (konjungsi akibat logis yang bermakna 'sehingga')."
+        "text": "Sodass",
+        "translation": "konjungsi akibat logis yang bermakna 'sehingga'."
       }
     ],
     "correctKey": "A",
@@ -3069,7 +3412,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam sesi konsultasi hukum perdata di kantor notaris:\n'Der Anwalt bat den anwesenden ( ... ), das offizielle Protokoll sorgfältig durchzulesen und persönlich zu unterzeichnen.'\nBentuk kata benda maskulin lemah (n-Deklination) yang TEPAT dari 'der Zeuge' (saksi) pada posisi Akkusativ adalah...",
+    "questionHtml": "Dalam sesi konsultasi hukum perdata di kantor notaris:\n'Der Anwalt bat den anwesenden ( ... ), das offizielle Protokoll sorgfältig durchzulesen und persönlich zu unterzeichnen.'\nBentuk kata benda maskulin lemah (n-Deklination) yang TEPAT dari 'der Zeuge' pada posisi Akkusativ adalah...",
     "formulaHud": {
       "title": "N-DEKLINATION (SCHWACHE MASCHULINA)",
       "latex": "\\text{der Zeuge (Nom.)} \\quad \\rightarrow \\quad \\text{den Zeugen (Akk.)} \\quad \\rightarrow \\quad \\text{dem Zeugen (Dat.)}",
@@ -3078,23 +3421,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zeuge (bentuk dasar Nominativ yang keliru karena berada di posisi objek penderita Akkusativ) ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
+        "text": "Zeuge",
+        "translation": "bentuk dasar Nominativ yang keliru karena berada di posisi objek penderita Akkusativ ditinjau dari register kesantunan berbahasa serta kaidah deklinasi artikel."
       },
       {
         "key": "B",
-        "text": "Zeugen (kata benda maskulin n-Deklination yang wajib menerima akhiran -n di semua kasus selain Nominativ tunggal)."
+        "text": "Zeugen",
+        "translation": "kata benda maskulin n-Deklination yang wajib menerima akhiran -n di semua kasus selain Nominativ tunggal."
       },
       {
         "key": "C",
-        "text": "Zeuges (kesalahan penambahan akhiran Genitiv kuat -s pada kata benda tipe lemah)."
+        "text": "Zeuges",
+        "translation": "kesalahan penambahan akhiran Genitiv kuat -s pada kata benda tipe lemah."
       },
       {
         "key": "D",
-        "text": "Zeugens (penambahan akhiran ganda yang tidak dikenal dalam paradigma n-Deklination)."
+        "text": "Zeugens",
+        "translation": "penambahan akhiran ganda yang tidak dikenal dalam paradigma n-Deklination."
       },
       {
         "key": "E",
-        "text": "Zeuger (bentuk buatan yang keliru mengacaukan kata benda saksi dengan verba zeugen)."
+        "text": "Zeuger",
+        "translation": "bentuk buatan yang keliru mengacaukan kata benda saksi dengan verba zeugen."
       }
     ],
     "correctKey": "B",
@@ -3121,23 +3469,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "von die (kesalahan mempertahankan artikel Nominativ/Akkusativ setelah preposisi Dativ von) sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "von die",
+        "translation": "kesalahan mempertahankan artikel Nominativ/Akkusativ setelah preposisi Dativ von sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "an der (preposisi an keliru karena bukan pasangan idiomatik dari verba abhängen)."
+        "text": "an der",
+        "translation": "preposisi an keliru karena bukan pasangan idiomatik dari verba abhängen."
       },
       {
         "key": "C",
-        "text": "von der (preposisi 'von' menuntut kasus Dativ; kata benda feminin die Stabilität menjadi der Stabilität)."
+        "text": "von der",
+        "translation": "preposisi 'von' menuntut kasus Dativ; kata benda feminin die Stabilität menjadi der Stabilität."
       },
       {
         "key": "D",
-        "text": "aus der (preposisi asal material yang keliru membentuk kolokasi ketergantungan kausalitas)."
+        "text": "aus der",
+        "translation": "preposisi asal material yang keliru membentuk kolokasi ketergantungan kausalitas."
       },
       {
         "key": "E",
-        "text": "über die (preposisi yang tidak memiliki asosiasi gramatikal dengan abhängen)."
+        "text": "über die",
+        "translation": "preposisi yang tidak memiliki asosiasi gramatikal dengan abhängen."
       }
     ],
     "correctKey": "C",
@@ -3164,23 +3517,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dänemark (D), Australien (A), dan Chile (CH) yang secara geografis berada di benua berbeda."
+        "text": "Dänemark",
+        "translation": "D), Australien (A), dan Chile (CH yang secara geografis berada di benua berbeda."
       },
       {
         "key": "B",
-        "text": "Deutschland (D), Amsterdam (A), dan Chemnitz (CH) yang mengacaukan nama negara dengan nama kota."
+        "text": "Deutschland",
+        "translation": "D), Amsterdam (A), dan Chemnitz (CH yang mengacaukan nama negara dengan nama kota."
       },
       {
         "key": "C",
-        "text": "Dresden (D), Athen (A), dan Cham (CH) yang sama sekali tidak merepresentasikan aliansi negara penutur bahasa Jerman."
+        "text": "Dresden",
+        "translation": "D), Athen (A), dan Cham (CH yang sama sekali tidak merepresentasikan aliansi negara penutur bahasa Jerman."
       },
       {
         "key": "D",
-        "text": "Deutschland (D), Österreich (A - Austria), dan die Schweiz (CH - Confoederatio Helvetica)."
+        "text": "Deutschland",
+        "translation": "D), Österreich (A - Austria), dan die Schweiz (CH - Confoederatio Helvetica."
       },
       {
         "key": "E",
-        "text": "Deutschland (D), Andorra (A), dan China (CH) yang keliru secara rumpun linguistik bahasa Jermanik."
+        "text": "Deutschland",
+        "translation": "D), Andorra (A), dan China (CH yang keliru secara rumpun linguistik bahasa Jermanik."
       }
     ],
     "correctKey": "D",
@@ -3207,23 +3565,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wird (bentuk indikatif Präsens yang menyatakan fakta kepastian mutlak pembicara sendiri, bukan kutipan jurnalistik)."
+        "text": "wird",
+        "translation": "bentuk indikatif Präsens yang menyatakan fakta kepastian mutlak pembicara sendiri, bukan kutipan jurnalistik."
       },
       {
         "key": "B",
-        "text": "würde (bentuk Konjunktiv II yang lazim dipakai untuk kalimat pengandaian atau pengganti bila bentuk Konjunktiv I rancu)."
+        "text": "würde",
+        "translation": "bentuk Konjunktiv II yang lazim dipakai untuk kalimat pengandaian atau pengganti bila bentuk Konjunktiv I rancu."
       },
       {
         "key": "C",
-        "text": "worden (bentuk Partizip II pasif yang salah fungsi sintaksis)."
+        "text": "worden",
+        "translation": "bentuk Partizip II pasif yang salah fungsi sintaksis."
       },
       {
         "key": "D",
-        "text": "geworden sei (bentuk lampau Perfekt yang bertentangan dengan keterangan waktu masa depan im kommenden Quartal)."
+        "text": "geworden sei",
+        "translation": "bentuk lampau Perfekt yang bertentangan dengan keterangan waktu masa depan im kommenden Quartal."
       },
       {
         "key": "E",
-        "text": "werde (bentuk Konjunktiv I orang ketiga tunggal dari verba werden untuk mengutip pernyataan netral pihak ketiga)."
+        "text": "werde",
+        "translation": "bentuk Konjunktiv I orang ketiga tunggal dari verba werden untuk mengutip pernyataan netral pihak ketiga."
       }
     ],
     "correctKey": "E",
@@ -3250,11 +3613,13 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kereta cepat jarak jauh Intercity-Express (ICE) dari Frankfurt menuju Berlin."
+        "text": "Kereta cepat jarak jauh Intercity-Express",
+        "translation": "ICE dari Frankfurt menuju Berlin."
       },
       {
         "key": "B",
-        "text": "Kereta regional (Regionalbahn / RE) yang menghubungkan kota Köln dan Bonn."
+        "text": "Kereta regional",
+        "translation": "Regionalbahn / RE yang menghubungkan kota Köln dan Bonn."
       },
       {
         "key": "C",
@@ -3262,11 +3627,13 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kereta bawah tanah (U-Bahn) dan trem perkotaan di seluruh wilayah kota Hamburg."
+        "text": "Kereta bawah tanah",
+        "translation": "U-Bahn dan trem perkotaan di seluruh wilayah kota Hamburg."
       },
       {
         "key": "E",
-        "text": "Kereta komuter perkotaan (S-Bahn) di kawasan metropolitan Stuttgart."
+        "text": "Kereta komuter perkotaan",
+        "translation": "S-Bahn di kawasan metropolitan Stuttgart."
       }
     ],
     "correctKey": "A",
@@ -3293,23 +3660,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "worüber (bentuk interogatif yang hanya digunakan untuk mengajukan pertanyaan, bukan konfirmasi jawaban)."
+        "text": "worüber",
+        "translation": "bentuk interogatif yang hanya digunakan untuk mengajukan pertanyaan, bukan konfirmasi jawaban."
       },
       {
         "key": "B",
-        "text": "darüber (penggabungan da- + r + über untuk merujuk pada topik pembicaraan non-persona)."
+        "text": "darüber",
+        "translation": "penggabungan da- + r + über untuk merujuk pada topik pembicaraan non-persona."
       },
       {
         "key": "C",
-        "text": "darauf (penggabungan dengan preposisi auf yang tidak sesuai dengan valensi verba sprechen/diskutieren über)."
+        "text": "darauf",
+        "translation": "penggabungan dengan preposisi auf yang tidak sesuai dengan valensi verba sprechen/diskutieren über."
       },
       {
         "key": "D",
-        "text": "daran (penggabungan dengan preposisi an yang bermakna mengingat atau berpartisipasi)."
+        "text": "daran",
+        "translation": "penggabungan dengan preposisi an yang bermakna mengingat atau berpartisipasi."
       },
       {
         "key": "E",
-        "text": "über es (kesalahan konstruksi sintaksis karena bahasa Jerman melarang preposisi langsung diikuti pronomina es untuk benda mati)."
+        "text": "über es",
+        "translation": "kesalahan konstruksi sintaksis karena bahasa Jerman melarang preposisi langsung diikuti pronomina es untuk benda mati."
       }
     ],
     "correctKey": "B",
@@ -3336,23 +3708,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "um (frasa infinitif tujuan 'um ... zu + Infinitiv' yang bermakna 'supaya/untuk menyalakan sein') sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
+        "text": "um",
+        "translation": "frasa infinitif tujuan 'um ... zu + Infinitiv' yang bermakna 'supaya/untuk menyalakan sein' sesuai konteks semantik wacana Leseverstehen dan kaidah ortografi Duden baku."
       },
       {
         "key": "B",
-        "text": "anstatt (frasa infinitif substitusi 'anstatt ... zu' yang bermakna alih-alih atau sebagai gantinya)."
+        "text": "anstatt",
+        "translation": "frasa infinitif substitusi 'anstatt ... zu' yang bermakna alih-alih atau sebagai gantinya."
       },
       {
         "key": "C",
-        "text": "ohne (frasa infinitif modalitas negatif 'ohne ... zu + Infinitiv' yang bermakna tanpa melakukan suatu tindakan wajar)."
+        "text": "ohne",
+        "translation": "frasa infinitif modalitas negatif 'ohne ... zu + Infinitiv' yang bermakna tanpa melakukan suatu tindakan wajar."
       },
       {
         "key": "D",
-        "text": "damit (konjungsi subordinatif yang menuntut klausula lengkap dengan subjek dan verba terkonjugasi)."
+        "text": "damit",
+        "translation": "konjungsi subordinatif yang menuntut klausula lengkap dengan subjek dan verba terkonjugasi."
       },
       {
         "key": "E",
-        "text": "außer (preposisi pengecualian yang tidak membentuk klausula infinitif eliptis baku)."
+        "text": "außer",
+        "translation": "preposisi pengecualian yang tidak membentuk klausula infinitif eliptis baku."
       }
     ],
     "correctKey": "C",
@@ -3379,23 +3756,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "dem (artikel Dativ yang keliru karena hubungan kepemilikan atributif menuntut kasus Genitiv) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "dem",
+        "translation": "artikel Dativ yang keliru karena hubungan kepemilikan atributif menuntut kasus Genitiv menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "den (artikel Akkusativ maskulin yang tidak dapat berfungsi sebagai penanda kepemilikan)."
+        "text": "den",
+        "translation": "artikel Akkusativ maskulin yang tidak dapat berfungsi sebagai penanda kepemilikan."
       },
       {
         "key": "C",
-        "text": "der (artikel Genitiv feminin atau jamak yang keliru gender untuk kata netral das Auto)."
+        "text": "der",
+        "translation": "artikel Genitiv feminin atau jamak yang keliru gender untuk kata netral das Auto."
       },
       {
         "key": "D",
-        "text": "des (artikel Genitiv netral tunggal 'des' yang diikuti kata sifat berakhiran -en dan akhiran -s pada benda)."
+        "text": "des",
+        "translation": "artikel Genitiv netral tunggal 'des' yang diikuti kata sifat berakhiran -en dan akhiran -s pada benda."
       },
       {
         "key": "E",
-        "text": "das (artikel Nominativ netral yang tidak mengalami deklinasi kepemilikan atribut)."
+        "text": "das",
+        "translation": "artikel Nominativ netral yang tidak mengalami deklinasi kepemilikan atribut."
       }
     ],
     "correctKey": "D",
@@ -3422,23 +3804,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wir werden (urutan yang keliru karena mengabaikan hukum inversi posisi verba setelah adverbia penghubung) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "wir werden",
+        "translation": "urutan yang keliru karena mengabaikan hukum inversi posisi verba setelah adverbia penghubung diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "haben wir (penggunaan verba bantu lampau haben yang bertentangan dengan konteks masa depan im nächsten Monat)."
+        "text": "haben wir",
+        "translation": "penggunaan verba bantu lampau haben yang bertentangan dengan konteks masa depan im nächsten Monat."
       },
       {
         "key": "C",
-        "text": "wir (penempatan subjek langsung yang melanggar posisi kata kerja kedua)."
+        "text": "wir",
+        "translation": "penempatan subjek langsung yang melanggar posisi kata kerja kedua."
       },
       {
         "key": "D",
-        "text": "zu werden (penambahan partikel infinitif zu yang tidak sah pada klausa konjugasi). "
+        "text": "zu werden",
+        "translation": "penambahan partikel infinitif zu yang tidak sah pada klausa konjugasi."
       },
       {
         "key": "E",
-        "text": "werden (kata kerja bantu 'werden' menempati posisi kedua Hauptsatz tepat setelah deshalb, diikuti subjek wir)."
+        "text": "werden",
+        "translation": "kata kerja bantu 'werden' menempati posisi kedua Hauptsatz tepat setelah deshalb, diikuti subjek wir."
       }
     ],
     "correctKey": "E",
@@ -3508,23 +3895,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "in das (kasus Akkusativ yang keliru karena verba leben dan arbeiten menjawab pertanyaan lokasi statis Wo?)."
+        "text": "in das",
+        "translation": "kasus Akkusativ yang keliru karena verba leben dan arbeiten menjawab pertanyaan lokasi statis Wo?."
       },
       {
         "key": "B",
-        "text": "in dem (preposisi lokasi statis 'in' + pronomina relatif netral Dativ 'dem')."
+        "text": "in dem",
+        "translation": "preposisi lokasi statis 'in' + pronomina relatif netral Dativ 'dem'."
       },
       {
         "key": "C",
-        "text": "in der (pronomina relatif feminin yang keliru gender untuk kata netral das Museum)."
+        "text": "in der",
+        "translation": "pronomina relatif feminin yang keliru gender untuk kata netral das Museum."
       },
       {
         "key": "D",
-        "text": "worin das (konstruksi rancu yang menggabungkan adverbia relatif dengan artikel penunjuk benda)."
+        "text": "worin das",
+        "translation": "konstruksi rancu yang menggabungkan adverbia relatif dengan artikel penunjuk benda."
       },
       {
         "key": "E",
-        "text": "bei dem (preposisi bei yang kurang lazim digunakan untuk ruang lingkup fisik gedung tempat tinggal)."
+        "text": "bei dem",
+        "translation": "preposisi bei yang kurang lazim digunakan untuk ruang lingkup fisik gedung tempat tinggal."
       }
     ],
     "correctKey": "B",
@@ -3551,23 +3943,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Konnten (bentuk lampau Präteritum indikatif yang menanyakan kemampuan di masa lalu, bukan permohonan santun)."
+        "text": "Konnten",
+        "translation": "bentuk lampau Präteritum indikatif yang menanyakan kemampuan di masa lalu, bukan permohonan santun."
       },
       {
         "key": "B",
-        "text": "Kann (bentuk Präsens indikatif yang bernada terlalu langsung dan kurang halus dalam etika pelayanan)."
+        "text": "Kann",
+        "translation": "bentuk Präsens indikatif yang bernada terlalu langsung dan kurang halus dalam etika pelayanan."
       },
       {
         "key": "C",
-        "text": "Könnten (bentuk Konjunktiv II kesantunan formal dari verba können untuk persona formal Sie)."
+        "text": "Könnten",
+        "translation": "bentuk Konjunktiv II kesantunan formal dari verba können untuk persona formal Sie."
       },
       {
         "key": "D",
-        "text": "Würden können (konstruksi pleonasme ganda yang tidak baku dalam gramatika bahasa Jerman)."
+        "text": "Würden können",
+        "translation": "konstruksi pleonasme ganda yang tidak baku dalam gramatika bahasa Jerman."
       },
       {
         "key": "E",
-        "text": "Möchten (modalverb yang membutuhkan objek nomina atau pelengkap berbeda, tidak berpasangan langsung dengan lassen)."
+        "text": "Möchten",
+        "translation": "modalverb yang membutuhkan objek nomina atau pelengkap berbeda, tidak berpasangan langsung dengan lassen."
       }
     ],
     "correctKey": "C",
@@ -3637,23 +4034,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "kalter (akhiran -er yang merupakan penanda kasus Nominativ maskulin tanpa artikel) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "kalter",
+        "translation": "akhiran -er yang merupakan penanda kasus Nominativ maskulin tanpa artikel diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "kaltes (akhiran -es yang merupakan penanda kasus Nominativ/Akkusativ netral tanpa artikel)."
+        "text": "kaltes",
+        "translation": "akhiran -es yang merupakan penanda kasus Nominativ/Akkusativ netral tanpa artikel."
       },
       {
         "key": "C",
-        "text": "kaltem (akhiran -em yang merupakan penanda kasus Dativ maskulin/netral tanpa artikel)."
+        "text": "kaltem",
+        "translation": "akhiran -em yang merupakan penanda kasus Dativ maskulin/netral tanpa artikel."
       },
       {
         "key": "D",
-        "text": "kalte (akhiran yang keliru untuk kata benda maskulin tunggal pada kasus Akkusativ)."
+        "text": "kalte",
+        "translation": "akhiran yang keliru untuk kata benda maskulin tunggal pada kasus Akkusativ."
       },
       {
         "key": "E",
-        "text": "kalten (akhiran kata sifat -en yang mengambil alih penanda kasus Akkusativ maskulin saat tidak ada artikel)."
+        "text": "kalten",
+        "translation": "akhiran kata sifat -en yang mengambil alih penanda kasus Akkusativ maskulin saat tidak ada artikel."
       }
     ],
     "correctKey": "E",
@@ -3680,23 +4082,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Als (konjungsi temporal khusus untuk peristiwa atau kurun waktu tunggal di masa lampau yang tidak berulang)."
+        "text": "Als",
+        "translation": "konjungsi temporal khusus untuk peristiwa atau kurun waktu tunggal di masa lampau yang tidak berulang."
       },
       {
         "key": "B",
-        "text": "Wenn (konjungsi yang hanya digunakan untuk kejadian masa kini, masa depan, atau kebiasaan berulang di masa lampau)."
+        "text": "Wenn",
+        "translation": "konjungsi yang hanya digunakan untuk kejadian masa kini, masa depan, atau kebiasaan berulang di masa lampau."
       },
       {
         "key": "C",
-        "text": "Wann (kata tanya interogatif yang menanyakan waktu spesifik, bukan konjungsi penyambung klausula)."
+        "text": "Wann",
+        "translation": "kata tanya interogatif yang menanyakan waktu spesifik, bukan konjungsi penyambung klausula."
       },
       {
         "key": "D",
-        "text": "Seitdem (konjungsi yang menandai titik mula peristiwa yang terus berlanjut hingga sekarang)."
+        "text": "Seitdem",
+        "translation": "konjungsi yang menandai titik mula peristiwa yang terus berlanjut hingga sekarang."
       },
       {
         "key": "E",
-        "text": "Während (konjungsi yang menyatakan keserentakan proses berdurasi paralel)."
+        "text": "Während",
+        "translation": "konjungsi yang menyatakan keserentakan proses berdurasi paralel."
       }
     ],
     "correctKey": "A",
@@ -3723,23 +4130,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "über (+ Akkusativ: preposisi yang keliru digunakan untuk verba sich erinnern)."
+        "text": "über",
+        "translation": "+ Akkusativ: preposisi yang keliru digunakan untuk verba sich erinnern."
       },
       {
         "key": "B",
-        "text": "an (+ Akkusativ: sich erinnern an etwas/jemanden)."
+        "text": "an",
+        "translation": "+ Akkusativ: sich erinnern an etwas/jemanden."
       },
       {
         "key": "C",
-        "text": "auf (+ Akkusativ: preposisi yang menyatakan penantian masa depan, bukan kenangan masa lalu)."
+        "text": "auf",
+        "translation": "+ Akkusativ: preposisi yang menyatakan penantian masa depan, bukan kenangan masa lalu."
       },
       {
         "key": "D",
-        "text": "von (+ Dativ: interferensi harfiah bahasa Inggris 'remind of' yang tidak sah dalam gramatika Jerman)."
+        "text": "von",
+        "translation": "+ Dativ: interferensi harfiah bahasa Inggris 'remind of' yang tidak sah dalam gramatika Jerman."
       },
       {
         "key": "E",
-        "text": "mit (+ Dativ: preposisi instrumen kebersamaan yang tidak membentuk idiom mengingat)."
+        "text": "mit",
+        "translation": "+ Dativ: preposisi instrumen kebersamaan yang tidak membentuk idiom mengingat."
       }
     ],
     "correctKey": "B",
@@ -3809,23 +4221,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "wird / geschlossen (Vorgangspassiv yang keliru karena bermakna pintu kantor pos sedang dalam proses bergerak ditutup saat itu juga)."
+        "text": "wird / geschlossen",
+        "translation": "Vorgangspassiv yang keliru karena bermakna pintu kantor pos sedang dalam proses bergerak ditutup saat itu juga."
       },
       {
         "key": "B",
-        "text": "hat / geschlossen (bentuk aktif yang menuntut subjek persona yang menutup)."
+        "text": "hat / geschlossen",
+        "translation": "bentuk aktif yang menuntut subjek persona yang menutup."
       },
       {
         "key": "C",
-        "text": "wurde / schließend (penggunaan Partizip I yang merusak pola gramatikal pasif)."
+        "text": "wurde / schließend",
+        "translation": "penggunaan Partizip I yang merusak pola gramatikal pasif."
       },
       {
         "key": "D",
-        "text": "ist / geschlossen (Zustandspassiv dengan kata kerja bantu 'sein' untuk menggambarkan kondisi status tertutup)."
+        "text": "ist / geschlossen",
+        "translation": "Zustandspassiv dengan kata kerja bantu 'sein' untuk menggambarkan kondisi status tertutup."
       },
       {
         "key": "E",
-        "text": "ist / geschließt (kesalahan pembentukan Partizip II dari verba kuat schließen)."
+        "text": "ist / geschließt",
+        "translation": "kesalahan pembentukan Partizip II dari verba kuat schließen."
       }
     ],
     "correctKey": "D",
@@ -3852,23 +4269,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "weder / noch (pasangan negasi ganda yang bermakna 'baik ... maupun ... tidak kedua-duanya') diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "weder / noch",
+        "translation": "pasangan negasi ganda yang bermakna 'baik ... maupun ... tidak kedua-duanya' diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "entweder / oder (pasangan disjungtif alternatif yang bermakna 'entah ... atau salah satu saja')."
+        "text": "entweder / oder",
+        "translation": "pasangan disjungtif alternatif yang bermakna 'entah ... atau salah satu saja'."
       },
       {
         "key": "C",
-        "text": "sowohl / aber (pasangan kombinasi keliru yang merusak harmoni pasangan baku sowohl ... als auch)."
+        "text": "sowohl / aber",
+        "translation": "pasangan kombinasi keliru yang merusak harmoni pasangan baku sowohl ... als auch."
       },
       {
         "key": "D",
-        "text": "zwar / aber (pasangan konsesif pembatasan yang mengekspresikan kekurangan pada klausa kedua)."
+        "text": "zwar / aber",
+        "translation": "pasangan konsesif pembatasan yang mengekspresikan kekurangan pada klausa kedua."
       },
       {
         "key": "E",
-        "text": "nicht nur / sondern (pasangan konjungsi korelasi positif 'nicht nur ... sondern auch' yang bermakna 'bukan hanya ... tetapi juga')."
+        "text": "nicht nur / sondern",
+        "translation": "pasangan konjungsi korelasi positif 'nicht nur ... sondern auch' yang bermakna 'bukan hanya ... tetapi juga'."
       }
     ],
     "correctKey": "E",
@@ -4024,23 +4446,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "reparieren gekonnt (kesalahan memakai bentuk Partizip II biasa 'gekonnt' saat mendampingi verba penuh) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "reparieren gekonnt",
+        "translation": "kesalahan memakai bentuk Partizip II biasa 'gekonnt' saat mendampingi verba penuh menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "repariert gekonnt (kesalahan penggunaan dua bentuk Partizip II secara beruntun)."
+        "text": "repariert gekonnt",
+        "translation": "kesalahan penggunaan dua bentuk Partizip II secara beruntun."
       },
       {
         "key": "C",
-        "text": "repariert können (kesalahan mendampingkan Partizip II aktif dengan modalverb infinitif)."
+        "text": "repariert können",
+        "translation": "kesalahan mendampingkan Partizip II aktif dengan modalverb infinitif."
       },
       {
         "key": "D",
-        "text": "reparieren können (penggunaan Ersatzinfinitiv: modalverb mempertahankan bentuk infinitif saat didampingi verba penuh)."
+        "text": "reparieren können",
+        "translation": "penggunaan Ersatzinfinitiv: modalverb mempertahankan bentuk infinitif saat didampingi verba penuh."
       },
       {
         "key": "E",
-        "text": "reparieren konnte (kesalahan mencampur kata kerja bantu lampau Perfekt 'habe' dengan Präteritum 'konnte')."
+        "text": "reparieren konnte",
+        "translation": "kesalahan mencampur kata kerja bantu lampau Perfekt 'habe' dengan Präteritum 'konnte'."
       }
     ],
     "correctKey": "D",
@@ -4067,23 +4494,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "deren (pronomina relatif Genitiv feminin tunggal atau jamak) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "deren",
+        "translation": "pronomina relatif Genitiv feminin tunggal atau jamak diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "dem (pronomina relatif kasus Dativ yang tidak dapat menyatakan kepemilikan atas Masterarbeit)."
+        "text": "dem",
+        "translation": "pronomina relatif kasus Dativ yang tidak dapat menyatakan kepemilikan atas Masterarbeit."
       },
       {
         "key": "C",
-        "text": "des (artikel biasa yang dilarang berdiri sendiri sebagai pronomina relatif kepemilikan)."
+        "text": "des",
+        "translation": "artikel biasa yang dilarang berdiri sendiri sebagai pronomina relatif kepemilikan."
       },
       {
         "key": "D",
-        "text": "seinem (kata ganti kepemilikan biasa yang tidak memiliki kapabilitas menyambung klausa relatif)."
+        "text": "seinem",
+        "translation": "kata ganti kepemilikan biasa yang tidak memiliki kapabilitas menyambung klausa relatif."
       },
       {
         "key": "E",
-        "text": "dessen (pronomina relatif Genitiv maskulin/netral tunggal yang menyatakan hubungan kepemilikan 'yang ...-nya')."
+        "text": "dessen",
+        "translation": "pronomina relatif Genitiv maskulin/netral tunggal yang menyatakan hubungan kepemilikan 'yang ...-nya'."
       }
     ],
     "correctKey": "E",
@@ -4153,23 +4585,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Denkst (bentuk indikatif pernyataan yang keliru diterapkan pada kalimat instruksi imperatif)."
+        "text": "Denkst",
+        "translation": "bentuk indikatif pernyataan yang keliru diterapkan pada kalimat instruksi imperatif."
       },
       {
         "key": "B",
-        "text": "Denk (bentuk Imperativ du yang lugas tanpa akhiran -e atau akhiran personal -st)."
+        "text": "Denk",
+        "translation": "bentuk Imperativ du yang lugas tanpa akhiran -e atau akhiran personal -st."
       },
       {
         "key": "C",
-        "text": "Denken (bentuk infinitif atau imperatif jamak formal tanpa kata ganti penunjuk Sie)."
+        "text": "Denken",
+        "translation": "bentuk infinitif atau imperatif jamak formal tanpa kata ganti penunjuk Sie."
       },
       {
         "key": "D",
-        "text": "Gedenke (verba gedenken dengan makna mengenang arwah yang menuntut kasus Genitiv arkais)."
+        "text": "Gedenke",
+        "translation": "verba gedenken dengan makna mengenang arwah yang menuntut kasus Genitiv arkais."
       },
       {
         "key": "E",
-        "text": "Dachte (bentuk lampau Präteritum yang tidak logis untuk kalimat perintah masa sekarang)."
+        "text": "Dachte",
+        "translation": "bentuk lampau Präteritum yang tidak logis untuk kalimat perintah masa sekarang."
       }
     ],
     "correctKey": "B",
@@ -4239,23 +4676,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hätte (verba haben yang salah bantu karena kata kerja pergerakan eintreffen membentuk waktu lampau dengan sein) menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
+        "text": "Hätte",
+        "translation": "verba haben yang salah bantu karena kata kerja pergerakan eintreffen membentuk waktu lampau dengan sein menurut norma komunikasi situasional dan etika pragmatik sosiokultural Jerman."
       },
       {
         "key": "B",
-        "text": "War (bentuk indikatif fakta nyata yang keliru secara modalitas pengandaian kontrafaktual)."
+        "text": "War",
+        "translation": "bentuk indikatif fakta nyata yang keliru secara modalitas pengandaian kontrafaktual."
       },
       {
         "key": "C",
-        "text": "Sei (bentuk Konjunktiv I kutipan tidak langsung yang tidak sesuai fungsi pengandaian)."
+        "text": "Sei",
+        "translation": "bentuk Konjunktiv I kutipan tidak langsung yang tidak sesuai fungsi pengandaian."
       },
       {
         "key": "D",
-        "text": "Wäre (verba sein pada Konjunktiv II masa lampau yang menempati posisi pertama untuk menggantikan kata sambung 'wenn')."
+        "text": "Wäre",
+        "translation": "verba sein pada Konjunktiv II masa lampau yang menempati posisi pertama untuk menggantikan kata sambung 'wenn'."
       },
       {
         "key": "E",
-        "text": "Würde (bentuk Konjunktiv II sekarang yang tidak cocok dipasangkan dengan Partizip II verba pergerakan eintreffen)."
+        "text": "Würde",
+        "translation": "bentuk Konjunktiv II sekarang yang tidak cocok dipasangkan dengan Partizip II verba pergerakan eintreffen."
       }
     ],
     "correctKey": "D",
@@ -4282,23 +4724,28 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Liebe Leute im Büro, (salam informal yang terkesan sangat santai dan tidak sopan untuk lamaran pekerjaan) diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
+        "text": "Liebe Leute im Büro,",
+        "translation": "salam informal yang terkesan sangat santai dan tidak sopan untuk lamaran pekerjaan diturunkan dari analisis struktur kalimat bertingkat pola Nebensatz subordinatif."
       },
       {
         "key": "B",
-        "text": "Hallo Herr Chef, (sapaan kolokial lisan yang melanggar norma etika formalitas bisnis korporat)."
+        "text": "Hallo Herr Chef,",
+        "translation": "sapaan kolokial lisan yang melanggar norma etika formalitas bisnis korporat."
       },
       {
         "key": "C",
-        "text": "Guten Morgen zusammen, (salam lisan harian internal yang tidak lazim digunakan dalam dokumen lamaran resmi)."
+        "text": "Guten Morgen zusammen,",
+        "translation": "salam lisan harian internal yang tidak lazim digunakan dalam dokumen lamaran resmi."
       },
       {
         "key": "D",
-        "text": "Hiermit bewerbe ich mich sofort, (kalimat pembuka isi surat yang tidak memuat salam penghormatan kepada pembaca)."
+        "text": "Hiermit bewerbe ich mich sofort,",
+        "translation": "kalimat pembuka isi surat yang tidak memuat salam penghormatan kepada pembaca."
       },
       {
         "key": "E",
-        "text": "Sehr geehrte Damen und Herren, (salam pembuka formal standar untuk penerima surat institusional yang belum diketahui nama individunya)."
+        "text": "Sehr geehrte Damen und Herren,",
+        "translation": "salam pembuka formal standar untuk penerima surat institusional yang belum diketahui nama individunya."
       }
     ],
     "correctKey": "E",
@@ -4354,19 +4801,23 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "gratulieren (memberikan ucapan selamat kepada seseorang: jemandem gratulieren)."
+        "text": "gratulieren",
+        "translation": "memberikan ucapan selamat kepada seseorang: jemandem gratulieren."
       },
       {
         "key": "B",
-        "text": "kaufen (membeli suatu benda sebagai objek penderita langsung)."
+        "text": "kaufen",
+        "translation": "membeli suatu benda sebagai objek penderita langsung."
       },
       {
         "key": "C",
-        "text": "gehören (menjadi milik atau kepunyaan sah seseorang: jemandem gehören)."
+        "text": "gehören",
+        "translation": "menjadi milik atau kepunyaan sah seseorang: jemandem gehören."
       },
       {
         "key": "D",
-        "text": "sehen (melihat seseorang atau objek secara visual dalam kasus Akkusativ)."
+        "text": "sehen",
+        "translation": "melihat seseorang atau objek secara visual dalam kasus Akkusativ."
       }
     ],
     "correctKeys": [
@@ -4396,19 +4847,23 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "denn (karena - konjungsi koordinatif alasan kausalitas di posisi nol)."
+        "text": "denn",
+        "translation": "karena - konjungsi koordinatif alasan kausalitas di posisi nol."
       },
       {
         "key": "B",
-        "text": "weil (karena - konjungsi subordinatif yang memindahkan verba ke akhir kalimat)."
+        "text": "weil",
+        "translation": "karena - konjungsi subordinatif yang memindahkan verba ke akhir kalimat."
       },
       {
         "key": "C",
-        "text": "sondern (melainkan - konjungsi koordinatif korektif di posisi nol)."
+        "text": "sondern",
+        "translation": "melainkan - konjungsi koordinatif korektif di posisi nol."
       },
       {
         "key": "D",
-        "text": "obwohl (meskipun - konjungsi subordinatif yang memindahkan verba ke akhir kalimat)."
+        "text": "obwohl",
+        "translation": "meskipun - konjungsi subordinatif yang memindahkan verba ke akhir kalimat."
       }
     ],
     "correctKeys": [
@@ -4438,7 +4893,8 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peserta magang (*Auszubildende / Azubi*) menandatangani kontrak kerja resmi dengan perusahaan dan menerima uang saku bulanan (*Ausbildungsvergütung*)."
+        "text": "Peserta magang",
+        "translation": "*Auszubildende / Azubi*) menandatangani kontrak kerja resmi dengan perusahaan dan menerima uang saku bulanan (*Ausbildungsvergütung*."
       },
       {
         "key": "B",
@@ -4484,11 +4940,13 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Swiss menggunakan mata uang bersama Euro (€) sebagai alat pembayaran tunggal resmi di seluruh wilayah kantonnya."
+        "text": "Swiss menggunakan mata uang bersama Euro",
+        "translation": "€ sebagai alat pembayaran tunggal resmi di seluruh wilayah kantonnya."
       },
       {
         "key": "C",
-        "text": "Dalam ejaan bahasa Jerman standar Swiss (*Schweizer Hochdeutsch*), huruf ligatur 'ß' (*Eszett*) tidak digunakan sama sekali dan selalu digantikan dengan 'ss'."
+        "text": "Dalam ejaan bahasa Jerman standar Swiss",
+        "translation": "*Schweizer Hochdeutsch*), huruf ligatur 'ß' (*Eszett* tidak digunakan sama sekali dan selalu digantikan dengan 'ss'."
       },
       {
         "key": "D",

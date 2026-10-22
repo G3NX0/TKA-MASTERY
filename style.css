@@ -7366,4 +7366,36 @@ body.modal-scroll-lock {
   margin-right: 4px;
 }
 
+/* Interlinear Option Translation (Clean Muted Line, Zero Nested Card Box) */
+.opt-foreign-stem {
+  display: block;
+}
+
+.option-translation {
+  font-size: 12.5px;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-top: 4px;
+  line-height: 1.45;
+  direction: ltr !important;
+  text-align: left !important;
+  border-top: 1px dashed rgba(148, 163, 184, 0.25);
+  padding-top: 4px;
+}
+
+.paper-opt-btn.selected .option-translation {
+  color: #e2e8f0;
+  border-top-color: rgba(255, 255, 255, 0.25);
+}
+
+.paper-opt-btn.review-key-correct .option-translation {
+  color: #d1fae5;
+  border-top-color: rgba(16, 185, 129, 0.3);
+}
+
+.paper-opt-btn.review-key-wrong .option-translation {
+  color: #fecdd3;
+  border-top-color: rgba(244, 63, 94, 0.3);
+}
+
 

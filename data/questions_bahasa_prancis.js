@@ -1,8 +1,5 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_BAHASA_PRANCIS.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Prancis CEFR A2-B1 / DELF B1)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
- */
+// TKA MASTERY HUB - PRANCIS QUESTIONS DATABASE
+// Automatically sanitized: pure foreign questions and options, translation available via toggle
 window.TKA_BAHASA_PRANCIS_QUESTIONS = [
   {
     "id": "fra-lat-e-01",
@@ -25,23 +22,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Êtes (bentuk konjugasi persona kedua jamak/formal dari verba être pada kala Présent)."
+        "text": "Êtes",
+        "translation": "bentuk konjugasi persona kedua jamak/formal dari verba être pada kala Présent."
       },
       {
         "key": "B",
-        "text": "Sommes (bentuk konjugasi persona pertama jamak untuk subjek nous) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "Sommes",
+        "translation": "bentuk konjugasi persona pertama jamak untuk subjek nous d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "Sont (bentuk konjugasi persona ketiga jamak untuk subjek ils/elles)."
+        "text": "Sont",
+        "translation": "bentuk konjugasi persona ketiga jamak untuk subjek ils/elles."
       },
       {
         "key": "D",
-        "text": "Avez (konjugasi dari verba avoir yang keliru secara makna predikatif kesiapan diri)."
+        "text": "Avez",
+        "translation": "konjugasi dari verba avoir yang keliru secara makna predikatif kesiapan diri."
       },
       {
         "key": "E",
-        "text": "Faites (konjugasi dari verba faire yang bermakna melakukan atau membuat)."
+        "text": "Faites",
+        "translation": "konjugasi dari verba faire yang bermakna melakukan atau membuat."
       }
     ],
     "correctKey": "A",
@@ -59,7 +61,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang pembeli memesan sarapan di sebuah bistro di Paris:\n'Le matin, j'aime boire une tasse de thé et manger du pain avec ( ... ) beurre frais.'\nArtikel partitif yang TEPAT untuk melengkapi kata benda maskulin yang tidak dapat dihitung 'beurre' (mentega) adalah...",
+    "questionHtml": "Seorang pembeli memesan sarapan di sebuah bistro di Paris:\n'Le matin, j'aime boire une tasse de thé et manger du pain avec ( ... ) beurre frais.'\nArtikel partitif yang TEPAT untuk melengkapi kata benda maskulin yang tidak dapat dihitung 'beurre' adalah...",
     "formulaHud": {
       "title": "LES ARTICLES PARTITIFS",
       "latex": "\\text{de} + \\text{le} = \\mathbf{du} \\quad (\\text{masculin singulier: le beurre})",
@@ -68,23 +70,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "de la (artikel partitif untuk kata benda bergender feminin tunggal)."
+        "text": "de la",
+        "translation": "artikel partitif untuk kata benda bergender feminin tunggal."
       },
       {
         "key": "B",
-        "text": "du (artikel partitif maskulin tunggal yang terbentuk dari kontraksi de + le)."
+        "text": "du",
+        "translation": "artikel partitif maskulin tunggal yang terbentuk dari kontraksi de + le."
       },
       {
         "key": "C",
-        "text": "de l' (artikel partitif yang digunakan sebelum kata benda yang diawali vokal atau huruf h muet)."
+        "text": "de l'",
+        "translation": "artikel partitif yang digunakan sebelum kata benda yang diawali vokal atau huruf h muet."
       },
       {
         "key": "D",
-        "text": "des (artikel partitif jamak yang digunakan untuk kata benda kuantitas jamak)."
+        "text": "des",
+        "translation": "artikel partitif jamak yang digunakan untuk kata benda kuantitas jamak."
       },
       {
         "key": "E",
-        "text": "un (artikel tak tentu yang keliru untuk zat makanan yang dikonsumsi sebagian/tidak dihitung butiran)."
+        "text": "un",
+        "translation": "artikel tak tentu yang keliru untuk zat makanan yang dikonsumsi sebagian/tidak dihitung butiran."
       }
     ],
     "correctKey": "B",
@@ -111,23 +118,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ne (bentuk negasi utuh yang salah karena tidak boleh bersanding langsung dengan huruf vokal a)."
+        "text": "ne",
+        "translation": "bentuk negasi utuh yang salah karena tidak boleh bersanding langsung dengan huruf vokal a."
       },
       {
         "key": "B",
-        "text": "pas (unsur negasi kedua yang tidak boleh diletakkan mendahului kata kerja utama)."
+        "text": "pas",
+        "translation": "unsur negasi kedua yang tidak boleh diletakkan mendahului kata kerja utama."
       },
       {
         "key": "C",
-        "text": "n' (bentuk elisi dari partikel negasi 'ne' yang melebur di depan kata kerja berawalan vokal)."
+        "text": "n'",
+        "translation": "bentuk elisi dari partikel negasi 'ne' yang melebur di depan kata kerja berawalan vokal."
       },
       {
         "key": "D",
-        "text": "non (kata penyangkal mandiri yang bermakna 'tidak', bukan partikel negasi verba)."
+        "text": "non",
+        "translation": "kata penyangkal mandiri yang bermakna 'tidak', bukan partikel negasi verba."
       },
       {
         "key": "E",
-        "text": "ni (kata hubung negasi yang bermakna 'maupun' dalam konstruksi korelatif ni...ni)."
+        "text": "ni",
+        "translation": "kata hubung negasi yang bermakna 'maupun' dalam konstruksi korelatif ni...ni."
       }
     ],
     "correctKey": "C",
@@ -154,23 +166,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ma (bentuk feminin biasa yang dilarang digunakan di depan huruf vokal karena menyebabkan tabrakan bunyi hiat) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "ma",
+        "translation": "bentuk feminin biasa yang dilarang digunakan di depan huruf vokal karena menyebabkan tabrakan bunyi hiat d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "mes (bentuk kepemilikan jamak yang keliru untuk kata benda tunggal amie)."
+        "text": "mes",
+        "translation": "bentuk kepemilikan jamak yang keliru untuk kata benda tunggal amie."
       },
       {
         "key": "C",
-        "text": "m' (pronomina klitik objek yang tidak berfungsi sebagai penanda kepemilikan adjektiva)."
+        "text": "m'",
+        "translation": "pronomina klitik objek yang tidak berfungsi sebagai penanda kepemilikan adjektiva."
       },
       {
         "key": "D",
-        "text": "mon (bentuk kepemilikan maskulin yang wajib digunakan di depan kata benda feminin yang berawalan huruf vokal demi eufoni suara)."
+        "text": "mon",
+        "translation": "bentuk kepemilikan maskulin yang wajib digunakan di depan kata benda feminin yang berawalan huruf vokal demi eufoni suara."
       },
       {
         "key": "E",
-        "text": "mien (bentuk pronomina kepemilikan mandiri yang membutuhkan artikel penentu le/la)."
+        "text": "mien",
+        "translation": "bentuk pronomina kepemilikan mandiri yang membutuhkan artikel penentu le/la."
       }
     ],
     "correctKey": "D",
@@ -197,23 +214,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "étudiez (akhiran -ez untuk persona kedua jamak vous) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "étudiez",
+        "translation": "akhiran -ez untuk persona kedua jamak vous déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "étudient (akhiran -ent untuk persona ketiga jamak ils/elles)."
+        "text": "étudient",
+        "translation": "akhiran -ent untuk persona ketiga jamak ils/elles."
       },
       {
         "key": "C",
-        "text": "étudie (akhiran -e untuk persona pertama atau ketiga tunggal je/il/elle)."
+        "text": "étudie",
+        "translation": "akhiran -e untuk persona pertama atau ketiga tunggal je/il/elle."
       },
       {
         "key": "D",
-        "text": "étudier (bentuk dasar infinitif yang belum dikonjugasikan)."
+        "text": "étudier",
+        "translation": "bentuk dasar infinitif yang belum dikonjugasikan."
       },
       {
         "key": "E",
-        "text": "étudions (akhiran teratur -ons untuk persona pertama jamak nous pada kata kerja kelompok pertama)."
+        "text": "étudions",
+        "translation": "akhiran teratur -ons untuk persona pertama jamak nous pada kata kerja kelompok pertama."
       }
     ],
     "correctKey": "E",
@@ -240,23 +262,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Il est huit heures moins le quart. (pukul delapan kurang seperempat jam)."
+        "text": "Il est huit heures moins le quart.",
+        "translation": "pukul delapan kurang seperempat jam."
       },
       {
         "key": "B",
-        "text": "Il est sept heures moins le quart. (keliru karena bermakna pukul 06:45)."
+        "text": "Il est sept heures moins le quart.",
+        "translation": "keliru karena bermakna pukul 06:45."
       },
       {
         "key": "C",
-        "text": "Il est sept heures et quart. (bermakna pukul 07:15 atau lewat seperempat jam)."
+        "text": "Il est sept heures et quart.",
+        "translation": "bermakna pukul 07:15 atau lewat seperempat jam."
       },
       {
         "key": "D",
-        "text": "Il est huit heures et demie. (bermakna pukul 08:30 atau setengah sembilan)."
+        "text": "Il est huit heures et demie.",
+        "translation": "bermakna pukul 08:30 atau setengah sembilan."
       },
       {
         "key": "E",
-        "text": "Il est quarante-cinq minutes après sept heures. (ungkapan terjemahan harfiah yang kaku dan tidak lazim dalam bahasa Prancis)."
+        "text": "Il est quarante-cinq minutes après sept heures.",
+        "translation": "ungkapan terjemahan harfiah yang kaku dan tidak lazim dalam bahasa Prancis."
       }
     ],
     "correctKey": "A",
@@ -283,23 +310,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "au (preposisi kontraksi à + le yang digunakan khusus untuk nama negara maskulin berawalan konsonan)."
+        "text": "au",
+        "translation": "preposisi kontraksi à + le yang digunakan khusus untuk nama negara maskulin berawalan konsonan."
       },
       {
         "key": "B",
-        "text": "en (preposisi tempat untuk negara bergender feminin atau negara yang diawali huruf vokal)."
+        "text": "en",
+        "translation": "preposisi tempat untuk negara bergender feminin atau negara yang diawali huruf vokal."
       },
       {
         "key": "C",
-        "text": "à la (preposisi yang tidak digunakan untuk nama negara berdaulat)."
+        "text": "à la",
+        "translation": "preposisi yang tidak digunakan untuk nama negara berdaulat."
       },
       {
         "key": "D",
-        "text": "aux (preposisi kontraksi à + les yang digunakan khusus untuk nama negara kepulauan atau bentuk jamak)."
+        "text": "aux",
+        "translation": "preposisi kontraksi à + les yang digunakan khusus untuk nama negara kepulauan atau bentuk jamak."
       },
       {
         "key": "E",
-        "text": "dans le (konstruksi preposisi yang keliru untuk konteks pergi ke suatu negara)."
+        "text": "dans le",
+        "translation": "konstruksi preposisi yang keliru untuk konteks pergi ke suatu negara."
       }
     ],
     "correctKey": "B",
@@ -326,23 +358,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "vas (bentuk konjugasi persona kedua tunggal untuk subjek tu) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "vas",
+        "translation": "bentuk konjugasi persona kedua tunggal untuk subjek tu conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "va (bentuk konjugasi persona ketiga tunggal untuk subjek il/elle/on)."
+        "text": "va",
+        "translation": "bentuk konjugasi persona ketiga tunggal untuk subjek il/elle/on."
       },
       {
         "key": "C",
-        "text": "vont (bentuk konjugasi persona ketiga jamak dari verba aller pada kala Présent)."
+        "text": "vont",
+        "translation": "bentuk konjugasi persona ketiga jamak dari verba aller pada kala Présent."
       },
       {
         "key": "D",
-        "text": "allons (bentuk konjugasi persona pertama jamak untuk subjek nous)."
+        "text": "allons",
+        "translation": "bentuk konjugasi persona pertama jamak untuk subjek nous."
       },
       {
         "key": "E",
-        "text": "allez (bentuk konjugasi persona kedua jamak untuk subjek vous)."
+        "text": "allez",
+        "translation": "bentuk konjugasi persona kedua jamak untuk subjek vous."
       }
     ],
     "correctKey": "C",
@@ -369,23 +406,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "veux (bentuk Présent indikatif yang bernada terlalu kasar dan menuntut dalam etika pelayanan) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "veux",
+        "translation": "bentuk Présent indikatif yang bernada terlalu kasar dan menuntut dalam etika pelayanan d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "voulait (bentuk lampau Imparfait yang tidak sesuai konteks pemesanan langsung saat ini)."
+        "text": "voulait",
+        "translation": "bentuk lampau Imparfait yang tidak sesuai konteks pemesanan langsung saat ini."
       },
       {
         "key": "C",
-        "text": "voulez (bentuk konjugasi untuk persona vous)."
+        "text": "voulez",
+        "translation": "bentuk konjugasi untuk persona vous."
       },
       {
         "key": "D",
-        "text": "voudrais (bentuk Conditionnel Présent dari verba vouloir yang digunakan untuk menyatakan permintaan santun)."
+        "text": "voudrais",
+        "translation": "bentuk Conditionnel Présent dari verba vouloir yang digunakan untuk menyatakan permintaan santun."
       },
       {
         "key": "E",
-        "text": "voudra (bentuk Futur Simple orang ketiga tunggal yang bermakna dia akan mau di masa depan)."
+        "text": "voudra",
+        "translation": "bentuk Futur Simple orang ketiga tunggal yang bermakna dia akan mau di masa depan."
       }
     ],
     "correctKey": "D",
@@ -412,23 +454,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "généreux (bentuk maskulin yang tidak mengalami penyesuaian gender untuk subjek tante) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "généreux",
+        "translation": "bentuk maskulin yang tidak mengalami penyesuaian gender untuk subjek tante déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "généreuxe (kesalahan ejaan penambahan huruf e langsung setelah huruf konsonan x)."
+        "text": "généreuxe",
+        "translation": "kesalahan ejaan penambahan huruf e langsung setelah huruf konsonan x."
       },
       {
         "key": "C",
-        "text": "généreusement (bentuk kata keterangan adverbia yang bermakna 'dengan murah hati')."
+        "text": "généreusement",
+        "translation": "bentuk kata keterangan adverbia yang bermakna 'dengan murah hati'."
       },
       {
         "key": "D",
-        "text": "généreuses (bentuk feminin jamak yang tidak cocok dengan subjek tunggal ma tante)."
+        "text": "généreuses",
+        "translation": "bentuk feminin jamak yang tidak cocok dengan subjek tunggal ma tante."
       },
       {
         "key": "E",
-        "text": "généreuse (perubahan akhiran feminin teratur dari kata sifat maskulin -eux menjadi -euse)."
+        "text": "généreuse",
+        "translation": "perubahan akhiran feminin teratur dari kata sifat maskulin -eux menjadi -euse."
       }
     ],
     "correctKey": "E",
@@ -455,23 +502,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pourquoi (kata tanya interogatif yang menanyakan sebab/alasan dan berpasangan dengan parce que)."
+        "text": "Pourquoi",
+        "translation": "kata tanya interogatif yang menanyakan sebab/alasan dan berpasangan dengan parce que."
       },
       {
         "key": "B",
-        "text": "Comment (kata tanya yang menanyakan cara, sarana, atau kondisi keadaan) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "Comment",
+        "translation": "kata tanya yang menanyakan cara, sarana, atau kondisi keadaan d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "Où (kata tanya yang menanyakan lokasi atau arah tempat berada)."
+        "text": "Où",
+        "translation": "kata tanya yang menanyakan lokasi atau arah tempat berada."
       },
       {
         "key": "D",
-        "text": "Quand (kata tanya yang menanyakan keterangan waktu kejadian)."
+        "text": "Quand",
+        "translation": "kata tanya yang menanyakan keterangan waktu kejadian."
       },
       {
         "key": "E",
-        "text": "Combien (kata tanya yang menanyakan jumlah kuantitas atau harga)."
+        "text": "Combien",
+        "translation": "kata tanya yang menanyakan jumlah kuantitas atau harga."
       }
     ],
     "correctKey": "A",
@@ -498,23 +550,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "animals (kesalahan penambahan huruf s langsung seperti pola bahasa Inggris) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "animals",
+        "translation": "kesalahan penambahan huruf s langsung seperti pola bahasa Inggris d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "animaux (bentuk jamak tidak beraturan kata benda berakhiran -al yang berubah menjadi -aux)."
+        "text": "animaux",
+        "translation": "bentuk jamak tidak beraturan kata benda berakhiran -al yang berubah menjadi -aux."
       },
       {
         "key": "C",
-        "text": "animales (kesalahan pembentukan bentuk jamak feminin tiruan)."
+        "text": "animales",
+        "translation": "kesalahan pembentukan bentuk jamak feminin tiruan."
       },
       {
         "key": "D",
-        "text": "animalses (bentuk hiperkoreksi ganda yang tidak dikenal dalam morfologi bahasa Prancis)."
+        "text": "animalses",
+        "translation": "bentuk hiperkoreksi ganda yang tidak dikenal dalam morfologi bahasa Prancis."
       },
       {
         "key": "E",
-        "text": "animau (kesalahan ejaan tanpa huruf konsonan x penanda jamak)."
+        "text": "animau",
+        "translation": "kesalahan ejaan tanpa huruf konsonan x penanda jamak."
       }
     ],
     "correctKey": "B",
@@ -541,23 +598,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "faisez (kesalahan regularisasi analogis dengan menambahkan akhiran biasa -ez pada akar fais-)."
+        "text": "faisez",
+        "translation": "kesalahan regularisasi analogis dengan menambahkan akhiran biasa -ez pada akar fais-."
       },
       {
         "key": "B",
-        "text": "faisons (bentuk konjugasi persona pertama jamak untuk subjek nous)."
+        "text": "faisons",
+        "translation": "bentuk konjugasi persona pertama jamak untuk subjek nous."
       },
       {
         "key": "C",
-        "text": "faites (bentuk konjugasi persona kedua jamak yang khas berakhiran -tes dari verba faire)."
+        "text": "faites",
+        "translation": "bentuk konjugasi persona kedua jamak yang khas berakhiran -tes dari verba faire."
       },
       {
         "key": "D",
-        "text": "font (bentuk konjugasi persona ketiga jamak untuk subjek ils/elles)."
+        "text": "font",
+        "translation": "bentuk konjugasi persona ketiga jamak untuk subjek ils/elles."
       },
       {
         "key": "E",
-        "text": "fais (bentuk konjugasi persona tunggal je/tu)."
+        "text": "fais",
+        "translation": "bentuk konjugasi persona tunggal je/tu."
       }
     ],
     "correctKey": "C",
@@ -584,23 +646,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "à le (kesalahan fatal karena bahasa Prancis melarang keras pertemuan langsung à + le tanpa kontraksi)."
+        "text": "à le",
+        "translation": "kesalahan fatal karena bahasa Prancis melarang keras pertemuan langsung à + le tanpa kontraksi."
       },
       {
         "key": "B",
-        "text": "à la (preposisi untuk kata benda bergender feminin)."
+        "text": "à la",
+        "translation": "preposisi untuk kata benda bergender feminin."
       },
       {
         "key": "C",
-        "text": "aux (kontraksi preposisi untuk kata benda berstatus jamak)."
+        "text": "aux",
+        "translation": "kontraksi preposisi untuk kata benda berstatus jamak."
       },
       {
         "key": "D",
-        "text": "au (kontraksi wajib antara preposisi à dan artikel tentu maskulin le)."
+        "text": "au",
+        "translation": "kontraksi wajib antara preposisi à dan artikel tentu maskulin le."
       },
       {
         "key": "E",
-        "text": "dans (preposisi di dalam ruang tertutup yang tidak sesuai dengan idiom aller au parc)."
+        "text": "dans",
+        "translation": "preposisi di dalam ruang tertutup yang tidak sesuai dengan idiom aller au parc."
       }
     ],
     "correctKey": "D",
@@ -627,23 +694,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "au (kontraksi preposisi maskulin yang keliru gender untuk kata benda feminin la gorge) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "au",
+        "translation": "kontraksi preposisi maskulin yang keliru gender untuk kata benda feminin la gorge déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "aux (kontraksi preposisi jamak untuk bagian tubuh berpasangan seperti les yeux)."
+        "text": "aux",
+        "translation": "kontraksi preposisi jamak untuk bagian tubuh berpasangan seperti les yeux."
       },
       {
         "key": "C",
-        "text": "de la (artikel partitif yang salah struktur karena ungkapan rasa sakit menuntut preposisi à)."
+        "text": "de la",
+        "translation": "artikel partitif yang salah struktur karena ungkapan rasa sakit menuntut preposisi à."
       },
       {
         "key": "D",
-        "text": "dans la (preposisi spasial yang bermakna di dalam organ, bukan idiom klinis rasa sakit)."
+        "text": "dans la",
+        "translation": "preposisi spasial yang bermakna di dalam organ, bukan idiom klinis rasa sakit."
       },
       {
         "key": "E",
-        "text": "à la (preposisi à tanpa kontraksi di depan kata benda feminin tunggal: avoir mal à la gorge)."
+        "text": "à la",
+        "translation": "preposisi à tanpa kontraksi di depan kata benda feminin tunggal: avoir mal à la gorge."
       }
     ],
     "correctKey": "E",
@@ -670,23 +742,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "va (konjugasi kata kerja bantu aller untuk persona ketiga tunggal il pada konstruksi Futur Proche)."
+        "text": "va",
+        "translation": "konjugasi kata kerja bantu aller untuk persona ketiga tunggal il pada konstruksi Futur Proche."
       },
       {
         "key": "B",
-        "text": "vais (konjugasi persona pertama tunggal untuk subjek je) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "vais",
+        "translation": "konjugasi persona pertama tunggal untuk subjek je d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "vas (konjugasi persona kedua tunggal untuk subjek tu)."
+        "text": "vas",
+        "translation": "konjugasi persona kedua tunggal untuk subjek tu."
       },
       {
         "key": "D",
-        "text": "allait (bentuk lampau Imparfait yang tidak sesuai dengan prediksi masa depan langsung)."
+        "text": "allait",
+        "translation": "bentuk lampau Imparfait yang tidak sesuai dengan prediksi masa depan langsung."
       },
       {
         "key": "E",
-        "text": "ira (bentuk Futur Simple sintetis yang bukan merupakan struktur analitis Futur Proche)."
+        "text": "ira",
+        "translation": "bentuk Futur Simple sintetis yang bukan merupakan struktur analitis Futur Proche."
       }
     ],
     "correctKey": "A",
@@ -713,23 +790,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "je (pronomina persona subjek yang dilarang berdiri setelah preposisi)."
+        "text": "je",
+        "translation": "pronomina persona subjek yang dilarang berdiri setelah preposisi."
       },
       {
         "key": "B",
-        "text": "moi (pronomina tonik persona pertama tunggal yang wajib digunakan setelah preposisi)."
+        "text": "moi",
+        "translation": "pronomina tonik persona pertama tunggal yang wajib digunakan setelah preposisi."
       },
       {
         "key": "C",
-        "text": "me (pronomina klitik objek langsung/tak langsung yang hanya boleh menempel di depan kata kerja)."
+        "text": "me",
+        "translation": "pronomina klitik objek langsung/tak langsung yang hanya boleh menempel di depan kata kerja."
       },
       {
         "key": "D",
-        "text": "mon (kata sifat kepemilikan yang menuntut kata benda di belakangnya)."
+        "text": "mon",
+        "translation": "kata sifat kepemilikan yang menuntut kata benda di belakangnya."
       },
       {
         "key": "E",
-        "text": "m' (bentuk elisi objek sebelum huruf vokal yang tidak dapat berdiri sendiri)."
+        "text": "m'",
+        "translation": "bentuk elisi objek sebelum huruf vokal yang tidak dapat berdiri sendiri."
       }
     ],
     "correctKey": "B",
@@ -756,23 +838,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "petit-déjeuner (santap pagi atau sarapan yang dilakukan saat baru bangun tidur)."
+        "text": "petit-déjeuner",
+        "translation": "santap pagi atau sarapan yang dilakukan saat baru bangun tidur."
       },
       {
         "key": "B",
-        "text": "dîner (santap malam yang biasa dilakukan keluarga Prancis sekitar pukul 19.30 atau 20.00)."
+        "text": "dîner",
+        "translation": "santap malam yang biasa dilakukan keluarga Prancis sekitar pukul 19.30 atau 20.00."
       },
       {
         "key": "C",
-        "text": "déjeuner (santap siang hari yang biasa dilakukan antara pukul 12.00 hingga 14.00)."
+        "text": "déjeuner",
+        "translation": "santap siang hari yang biasa dilakukan antara pukul 12.00 hingga 14.00."
       },
       {
         "key": "D",
-        "text": "goûter (kudapan manis sore hari sekitar pukul 16.30 yang biasanya dinikmati anak sekolah)."
+        "text": "goûter",
+        "translation": "kudapan manis sore hari sekitar pukul 16.30 yang biasanya dinikmati anak sekolah."
       },
       {
         "key": "E",
-        "text": "dessert (hidangan penutup manis di akhir sesi makan)."
+        "text": "dessert",
+        "translation": "hidangan penutup manis di akhir sesi makan."
       }
     ],
     "correctKey": "C",
@@ -799,23 +886,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "prend (bentuk konjugasi persona ketiga tunggal il/elle) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "prend",
+        "translation": "bentuk konjugasi persona ketiga tunggal il/elle d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "prends (bentuk konjugasi persona pertama dan kedua tunggal je/tu)."
+        "text": "prends",
+        "translation": "bentuk konjugasi persona pertama dan kedua tunggal je/tu."
       },
       {
         "key": "C",
-        "text": "prenons (bentuk konjugasi persona pertama jamak nous)."
+        "text": "prenons",
+        "translation": "bentuk konjugasi persona pertama jamak nous."
       },
       {
         "key": "D",
-        "text": "prennent (konjugasi orang ketiga jamak dengan penggandaan huruf konsonan n: ils prennent)."
+        "text": "prennent",
+        "translation": "konjugasi orang ketiga jamak dengan penggandaan huruf konsonan n: ils prennent."
       },
       {
         "key": "E",
-        "text": "prenez (bentuk konjugasi persona kedua jamak vous)."
+        "text": "prenez",
+        "translation": "bentuk konjugasi persona kedua jamak vous."
       }
     ],
     "correctKey": "D",
@@ -842,23 +934,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "bleu (bentuk maskulin tunggal dasar tanpa penyesuaian gender maupun nomor) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "bleu",
+        "translation": "bentuk maskulin tunggal dasar tanpa penyesuaian gender maupun nomor déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "bleus (bentuk maskulin jamak yang melupakan penanda gender feminin)."
+        "text": "bleus",
+        "translation": "bentuk maskulin jamak yang melupakan penanda gender feminin."
       },
       {
         "key": "C",
-        "text": "bleue (bentuk feminin tunggal yang melupakan penanda jumlah jamak)."
+        "text": "bleue",
+        "translation": "bentuk feminin tunggal yang melupakan penanda jumlah jamak."
       },
       {
         "key": "D",
-        "text": "bleueux (akhiran buatan yang keliru secara morfologi kata sifat warna)."
+        "text": "bleueux",
+        "translation": "akhiran buatan yang keliru secara morfologi kata sifat warna."
       },
       {
         "key": "E",
-        "text": "bleues (penyesuaian bentuk feminin jamak dengan penambahan akhiran -e untuk feminin dan -s untuk jamak)."
+        "text": "bleues",
+        "translation": "penyesuaian bentuk feminin jamak dengan penambahan akhiran -e untuk feminin dan -s untuk jamak."
       }
     ],
     "correctKey": "E",
@@ -885,23 +982,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "comment faire (ungkapan praktis 'comment faire pour aller à...' yang bermakna bagaimana caranya menuju ke suatu tempat)."
+        "text": "comment faire",
+        "translation": "ungkapan praktis 'comment faire pour aller à...' yang bermakna bagaimana caranya menuju ke suatu tempat."
       },
       {
         "key": "B",
-        "text": "pourquoi aller (menanyakan alasan filosofis mengapa harus pergi ke stasiun) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "pourquoi aller",
+        "translation": "menanyakan alasan filosofis mengapa harus pergi ke stasiun d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "combien coûte (menanyakan nominal harga tiket, bukan arah jalan fisik)."
+        "text": "combien coûte",
+        "translation": "menanyakan nominal harga tiket, bukan arah jalan fisik."
       },
       {
         "key": "D",
-        "text": "quand partir (menanyakan jadwal waktu keberangkatan kereta)."
+        "text": "quand partir",
+        "translation": "menanyakan jadwal waktu keberangkatan kereta."
       },
       {
         "key": "E",
-        "text": "qui est (menanyakan identitas orang, bukan rute lokasi fasilitas kota)."
+        "text": "qui est",
+        "translation": "menanyakan identitas orang, bukan rute lokasi fasilitas kota."
       }
     ],
     "correctKey": "A",
@@ -928,23 +1030,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ce (bentuk maskulin tunggal yang hanya boleh digunakan di depan konsonan) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ce",
+        "translation": "bentuk maskulin tunggal yang hanya boleh digunakan di depan konsonan d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "cet (kata penunjuk maskulin tunggal yang wajib digunakan di depan kata berawalan vokal atau h muet)."
+        "text": "cet",
+        "translation": "kata penunjuk maskulin tunggal yang wajib digunakan di depan kata berawalan vokal atau h muet."
       },
       {
         "key": "C",
-        "text": "cette (bentuk penunjuk untuk kata benda bergender feminin tunggal)."
+        "text": "cette",
+        "translation": "bentuk penunjuk untuk kata benda bergender feminin tunggal."
       },
       {
         "key": "D",
-        "text": "ces (bentuk penunjuk jamak untuk semua gender)."
+        "text": "ces",
+        "translation": "bentuk penunjuk jamak untuk semua gender."
       },
       {
         "key": "E",
-        "text": "c' (pronomina demonstratif netral yang hanya menempel pada verba être)."
+        "text": "c'",
+        "translation": "pronomina demonstratif netral yang hanya menempel pada verba être."
       }
     ],
     "correctKey": "B",
@@ -971,23 +1078,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "vient (bentuk konjugasi persona ketiga tunggal untuk subjek il/elle) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "vient",
+        "translation": "bentuk konjugasi persona ketiga tunggal untuk subjek il/elle conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "venons (bentuk konjugasi persona pertama jamak untuk subjek nous)."
+        "text": "venons",
+        "translation": "bentuk konjugasi persona pertama jamak untuk subjek nous."
       },
       {
         "key": "C",
-        "text": "viens (bentuk konjugasi persona pertama tunggal dari verba kelompok ketiga venir)."
+        "text": "viens",
+        "translation": "bentuk konjugasi persona pertama tunggal dari verba kelompok ketiga venir."
       },
       {
         "key": "D",
-        "text": "venez (bentuk konjugasi persona kedua jamak untuk subjek vous)."
+        "text": "venez",
+        "translation": "bentuk konjugasi persona kedua jamak untuk subjek vous."
       },
       {
         "key": "E",
-        "text": "viennent (bentuk konjugasi persona ketiga jamak untuk subjek ils/elles)."
+        "text": "viennent",
+        "translation": "bentuk konjugasi persona ketiga jamak untuk subjek ils/elles."
       }
     ],
     "correctKey": "C",
@@ -1014,23 +1126,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "premier (bentuk maskulin tunggal yang keliru gender untuk kata benda feminin la porte)."
+        "text": "premier",
+        "translation": "bentuk maskulin tunggal yang keliru gender untuk kata benda feminin la porte."
       },
       {
         "key": "B",
-        "text": "un (kata bilangan kuantitas kardinal biasa yang tidak menyatakan urutan tingkat)."
+        "text": "un",
+        "translation": "kata bilangan kuantitas kardinal biasa yang tidak menyatakan urutan tingkat."
       },
       {
         "key": "C",
-        "text": "une (kata bilangan kardinal feminin yang bermakna 'sebuah', bukan urutan pertama)."
+        "text": "une",
+        "translation": "kata bilangan kardinal feminin yang bermakna 'sebuah', bukan urutan pertama."
       },
       {
         "key": "D",
-        "text": "première (bentuk feminin tunggal dari bilangan ordinal premier)."
+        "text": "première",
+        "translation": "bentuk feminin tunggal dari bilangan ordinal premier."
       },
       {
         "key": "E",
-        "text": "premièrement (kata keterangan urutan kronologis yang bermakna 'pertama-tama')."
+        "text": "premièrement",
+        "translation": "kata keterangan urutan kronologis yang bermakna 'pertama-tama'."
       }
     ],
     "correctKey": "D",
@@ -1057,23 +1174,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "il est (kesalahan interferensi harfiah bahasa Inggris 'it is fine' yang tidak sah untuk cuaca dalam bahasa Prancis)."
+        "text": "il est",
+        "translation": "kesalahan interferensi harfiah bahasa Inggris 'it is fine' yang tidak sah untuk cuaca dalam bahasa Prancis."
       },
       {
         "key": "B",
-        "text": "il a (penggunaan verba avoir yang keliru sintaksis deskripsi atmosfer alam)."
+        "text": "il a",
+        "translation": "penggunaan verba avoir yang keliru sintaksis deskripsi atmosfer alam."
       },
       {
         "key": "C",
-        "text": "il ya (kontraksi keliru dari il y a yang bermakna 'ada', bukan penanda cuaca indah)."
+        "text": "il ya",
+        "translation": "kontraksi keliru dari il y a yang bermakna 'ada', bukan penanda cuaca indah."
       },
       {
         "key": "D",
-        "text": "il donne (verba memberi yang tidak memiliki asosiasi gramatikal dengan suhu cuaca)."
+        "text": "il donne",
+        "translation": "verba memberi yang tidak memiliki asosiasi gramatikal dengan suhu cuaca."
       },
       {
         "key": "E",
-        "text": "il fait (konstruksi impersonal baku 'il fait + adjectif' untuk mendeskripsikan cuaca harian di Prancis)."
+        "text": "il fait",
+        "translation": "konstruksi impersonal baku 'il fait + adjectif' untuk mendeskripsikan cuaca harian di Prancis."
       }
     ],
     "correctKey": "E",
@@ -1100,23 +1222,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "sont parties (kata kerja gerak partir memakai auxiliaire être; subjek feminin jamak 'mes deux sœurs' mewajibkan accord -es)."
+        "text": "sont parties",
+        "translation": "kata kerja gerak partir memakai auxiliaire être; subjek feminin jamak 'mes deux sœurs' mewajibkan accord -es."
       },
       {
         "key": "B",
-        "text": "ont parti (keliru menggunakan kata kerja bantu avoir dan tanpa accord feminin jamak) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ont parti",
+        "translation": "keliru menggunakan kata kerja bantu avoir dan tanpa accord feminin jamak d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "sont partis (kesalahan accord maskulin jamak -s untuk subjek dua orang saudari perempuan)."
+        "text": "sont partis",
+        "translation": "kesalahan accord maskulin jamak -s untuk subjek dua orang saudari perempuan."
       },
       {
         "key": "D",
-        "text": "sont partie (kesalahan accord tunggal -e untuk subjek jamak dua orang)."
+        "text": "sont partie",
+        "translation": "kesalahan accord tunggal -e untuk subjek jamak dua orang."
       },
       {
         "key": "E",
-        "text": "ont parties (kombinasi keliru kata kerja bantu avoir yang tidak berpasangan dengan verba perpindahan tempat partir)."
+        "text": "ont parties",
+        "translation": "kombinasi keliru kata kerja bantu avoir yang tidak berpasangan dengan verba perpindahan tempat partir."
       }
     ],
     "correctKey": "A",
@@ -1143,23 +1270,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ont attendu / retentissait (urutan terbalik yang memperlakukan penantian sebagai aksi kilat dan alarme sebagai latar statis) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ont attendu / retentissait",
+        "translation": "urutan terbalik yang memperlakukan penantian sebagai aksi kilat dan alarme sebagai latar statis d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "attendaient / a retenti (Imparfait untuk aksi berdurasi sedang berlangsung, dan Passé Composé untuk kejadian interupsi tiba-tiba)."
+        "text": "attendaient / a retenti",
+        "translation": "Imparfait untuk aksi berdurasi sedang berlangsung, dan Passé Composé untuk kejadian interupsi tiba-tiba."
       },
       {
         "key": "C",
-        "text": "attendaient / retentissait (penggunaan Imparfait pada kedua klausula yang mengaburkan kejutan interupsi mendadak)."
+        "text": "attendaient / retentissait",
+        "translation": "penggunaan Imparfait pada kedua klausula yang mengaburkan kejutan interupsi mendadak."
       },
       {
         "key": "D",
-        "text": "ont attendu / a retenti (penggunaan Passé Composé ganda yang mengabaikan sifat latar belakang duratif dari pendant que)."
+        "text": "ont attendu / a retenti",
+        "translation": "penggunaan Passé Composé ganda yang mengabaikan sifat latar belakang duratif dari pendant que."
       },
       {
         "key": "E",
-        "text": "attendent / va retentir (kombinasi Présent dan Futur yang melanggar kerangka narasi masa lampau)."
+        "text": "attendent / va retentir",
+        "translation": "kombinasi Présent dan Futur yang melanggar kerangka narasi masa lampau."
       }
     ],
     "correctKey": "B",
@@ -1186,23 +1318,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "lui (pronomina objek tak langsung COI yang keliru karena verba signer menuntut objek langsung tanpa preposisi à)."
+        "text": "lui",
+        "translation": "pronomina objek tak langsung COI yang keliru karena verba signer menuntut objek langsung tanpa preposisi à."
       },
       {
         "key": "B",
-        "text": "le (bentuk tanpa elisi yang salah ortografi karena bertabrakan langsung dengan huruf vokal a)."
+        "text": "le",
+        "translation": "bentuk tanpa elisi yang salah ortografi karena bertabrakan langsung dengan huruf vokal a."
       },
       {
         "key": "C",
-        "text": "l' (pronomina COD 'le' yang mengalami elisi vokal sebelum kata kerja bantu a)."
+        "text": "l'",
+        "translation": "pronomina COD 'le' yang mengalami elisi vokal sebelum kata kerja bantu a."
       },
       {
         "key": "D",
-        "text": "en (pronomina kuantitas/partitif yang tidak cocok untuk objek definit le contrat)."
+        "text": "en",
+        "translation": "pronomina kuantitas/partitif yang tidak cocok untuk objek definit le contrat."
       },
       {
         "key": "E",
-        "text": "y (pronomina tempat atau objek berpreposisi à yang salah fungsi sintaksis)."
+        "text": "y",
+        "translation": "pronomina tempat atau objek berpreposisi à yang salah fungsi sintaksis."
       }
     ],
     "correctKey": "C",
@@ -1229,23 +1366,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "la (pronomina objek langsung COD yang salah karena verba téléphoner menuntut preposisi à) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "la",
+        "translation": "pronomina objek langsung COD yang salah karena verba téléphoner menuntut preposisi à d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "leur (pronomina COI jamak yang keliru jumlah untuk subjek tunggal nenek)."
+        "text": "leur",
+        "translation": "pronomina COI jamak yang keliru jumlah untuk subjek tunggal nenek."
       },
       {
         "key": "C",
-        "text": "l' (bentuk elisi COD yang melanggar aturan valensi verba téléphoner à quelqu'un)."
+        "text": "l'",
+        "translation": "bentuk elisi COD yang melanggar aturan valensi verba téléphoner à quelqu'un."
       },
       {
         "key": "D",
-        "text": "lui (pronomina COI persona ketiga tunggal yang menggantikan orang berpreposisi à tanpa terpengaruh gender maskulin/feminin)."
+        "text": "lui",
+        "translation": "pronomina COI persona ketiga tunggal yang menggantikan orang berpreposisi à tanpa terpengaruh gender maskulin/feminin."
       },
       {
         "key": "E",
-        "text": "elle (pronomina tonik yang tidak boleh diletakkan di depan verba terkonjugasi tanpa preposisi)."
+        "text": "elle",
+        "translation": "pronomina tonik yang tidak boleh diletakkan di depan verba terkonjugasi tanpa preposisi."
       }
     ],
     "correctKey": "D",
@@ -1272,23 +1414,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "en (pronomina adverbial yang menggantikan tempat berpreposisi asal de atau komplemen kuantitas partitif) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "en",
+        "translation": "pronomina adverbial yang menggantikan tempat berpreposisi asal de atau komplemen kuantitas partitif déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "le (pronomina COD yang salah fungsi sintaksis untuk keterangan lokasi tempat)."
+        "text": "le",
+        "translation": "pronomina COD yang salah fungsi sintaksis untuk keterangan lokasi tempat."
       },
       {
         "key": "C",
-        "text": "lui (pronomina orang tak langsung yang keliru untuk merujuk pada gedung museum)."
+        "text": "lui",
+        "translation": "pronomina orang tak langsung yang keliru untuk merujuk pada gedung museum."
       },
       {
         "key": "D",
-        "text": "là (kata keterangan penunjuk tempat mandiri yang tidak dapat disisipkan sebagai klitik di depan kata kerja)."
+        "text": "là",
+        "translation": "kata keterangan penunjuk tempat mandiri yang tidak dapat disisipkan sebagai klitik di depan kata kerja."
       },
       {
         "key": "E",
-        "text": "y (pronomina adverbial yang menggantikan komplemen tempat yang diperkenalkan oleh preposisi arah à/au/en/dans)."
+        "text": "y",
+        "translation": "pronomina adverbial yang menggantikan komplemen tempat yang diperkenalkan oleh preposisi arah à/au/en/dans."
       }
     ],
     "correctKey": "E",
@@ -1315,23 +1462,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "en (pronomina adverbial yang wajib digunakan untuk menggantikan kata benda yang didahului kuantitas, angka, atau partitif de/des)."
+        "text": "en",
+        "translation": "pronomina adverbial yang wajib digunakan untuk menggantikan kata benda yang didahului kuantitas, angka, atau partitif de/des."
       },
       {
         "key": "B",
-        "text": "les (pronomina COD definit yang salah digunakan untuk kuantitas partitif atau benda berangka terbilang) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "les",
+        "translation": "pronomina COD definit yang salah digunakan untuk kuantitas partitif atau benda berangka terbilang d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "y (pronomina tempat yang keliru fungsi sintaksis untuk bahan makanan terhitung kuantitas)."
+        "text": "y",
+        "translation": "pronomina tempat yang keliru fungsi sintaksis untuk bahan makanan terhitung kuantitas."
       },
       {
         "key": "D",
-        "text": "la (pronomina COD feminin tunggal yang tidak cocok untuk kuantitas des pommes)."
+        "text": "la",
+        "translation": "pronomina COD feminin tunggal yang tidak cocok untuk kuantitas des pommes."
       },
       {
         "key": "E",
-        "text": "leur (pronomina COI orang jamak yang tidak memiliki relasi semantik dengan apel)."
+        "text": "leur",
+        "translation": "pronomina COI orang jamak yang tidak memiliki relasi semantik dengan apel."
       }
     ],
     "correctKey": "A",
@@ -1358,23 +1510,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ai réveillé (keliru menggunakan kata kerja bantu avoir yang dilarang mutlak pada verba refleksif) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ai réveillé",
+        "translation": "keliru menggunakan kata kerja bantu avoir yang dilarang mutlak pada verba refleksif d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "suis réveillée (verba refleksif selalu membentuk Passé Composé dengan être; subjek wanita menuntut penambahan akhiran feminin -e)."
+        "text": "suis réveillée",
+        "translation": "verba refleksif selalu membentuk Passé Composé dengan être; subjek wanita menuntut penambahan akhiran feminin -e."
       },
       {
         "key": "C",
-        "text": "suis réveillé (kesalahan mengabaikan accord feminin -e untuk subjek wanita Hélène)."
+        "text": "suis réveillé",
+        "translation": "kesalahan mengabaikan accord feminin -e untuk subjek wanita Hélène."
       },
       {
         "key": "D",
-        "text": "suis réveillés (kesalahan penambahan akhiran jamak -s untuk subjek tunggal je)."
+        "text": "suis réveillés",
+        "translation": "kesalahan penambahan akhiran jamak -s untuk subjek tunggal je."
       },
       {
         "key": "E",
-        "text": "ai réveillée (kombinasi keliru kata kerja bantu avoir dengan accord refleksif)."
+        "text": "ai réveillée",
+        "translation": "kombinasi keliru kata kerja bantu avoir dengan accord refleksif."
       }
     ],
     "correctKey": "B",
@@ -1401,23 +1558,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "meilleur (bentuk komparatif dari kata sifat bon yang hanya boleh memodifikasi kata benda maskulin) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "meilleur",
+        "translation": "bentuk komparatif dari kata sifat bon yang hanya boleh memodifikasi kata benda maskulin conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "meilleure (bentuk komparatif dari kata sifat bon untuk kata benda bergender feminin)."
+        "text": "meilleure",
+        "translation": "bentuk komparatif dari kata sifat bon untuk kata benda bergender feminin."
       },
       {
         "key": "C",
-        "text": "mieux (bentuk komparatif dari kata keterangan bien yang digunakan untuk memodifikasi kata kerja tindakan)."
+        "text": "mieux",
+        "translation": "bentuk komparatif dari kata keterangan bien yang digunakan untuk memodifikasi kata kerja tindakan."
       },
       {
         "key": "D",
-        "text": "plus bon (bentuk terlarang dalam bahasa Prancis yang merupakan kesalahan analogi kasar)."
+        "text": "plus bon",
+        "translation": "bentuk terlarang dalam bahasa Prancis yang merupakan kesalahan analogi kasar."
       },
       {
         "key": "E",
-        "text": "plus bien (bentuk tidak baku yang dilarang mutlak dalam gramatika bahasa Prancis baku)."
+        "text": "plus bien",
+        "translation": "bentuk tidak baku yang dilarang mutlak dalam gramatika bahasa Prancis baku."
       }
     ],
     "correctKey": "C",
@@ -1444,23 +1606,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "faira (kesalahan analogi dengan mempertahankan bentuk dasar infinitif fair-)."
+        "text": "faira",
+        "translation": "kesalahan analogi dengan mempertahankan bentuk dasar infinitif fair-."
       },
       {
         "key": "B",
-        "text": "faisait (bentuk lampau Imparfait yang bertentangan dengan keterangan masa depan d'ici 2030)."
+        "text": "faisait",
+        "translation": "bentuk lampau Imparfait yang bertentangan dengan keterangan masa depan d'ici 2030."
       },
       {
         "key": "C",
-        "text": "feras (bentuk Futur Simple persona kedua tunggal untuk subjek tu)."
+        "text": "feras",
+        "translation": "bentuk Futur Simple persona kedua tunggal untuk subjek tu."
       },
       {
         "key": "D",
-        "text": "fera (akar tidak beraturan fer- + akhiran Futur Simple persona ketiga tunggal -a)."
+        "text": "fera",
+        "translation": "akar tidak beraturan fer- + akhiran Futur Simple persona ketiga tunggal -a."
       },
       {
         "key": "E",
-        "text": "feront (bentuk Futur Simple persona ketiga jamak yang keliru jumlah untuk subjek tunggal la municipalité)."
+        "text": "feront",
+        "translation": "bentuk Futur Simple persona ketiga jamak yang keliru jumlah untuk subjek tunggal la municipalité."
       }
     ],
     "correctKey": "D",
@@ -1487,23 +1654,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "que (pronomina relatif yang berfungsi sebagai objek langsung COD dan wajib diikuti oleh subjek baru)."
+        "text": "que",
+        "translation": "pronomina relatif yang berfungsi sebagai objek langsung COD dan wajib diikuti oleh subjek baru."
       },
       {
         "key": "B",
-        "text": "dont (pronomina relatif yang menggantikan komplemen berpreposisi de)."
+        "text": "dont",
+        "translation": "pronomina relatif yang menggantikan komplemen berpreposisi de."
       },
       {
         "key": "C",
-        "text": "où (pronomina relatif yang menggantikan keterangan tempat atau waktu kejadian)."
+        "text": "où",
+        "translation": "pronomina relatif yang menggantikan keterangan tempat atau waktu kejadian."
       },
       {
         "key": "D",
-        "text": "lequel (pronomina relatif majemuk yang tidak lazim digunakan untuk subjek manusia tunggal tanpa preposisi)."
+        "text": "lequel",
+        "translation": "pronomina relatif majemuk yang tidak lazim digunakan untuk subjek manusia tunggal tanpa preposisi."
       },
       {
         "key": "E",
-        "text": "qui (pronomina relatif yang berfungsi sebagai subjek gramatikal yang langsung diikuti kata kerja raconte)."
+        "text": "qui",
+        "translation": "pronomina relatif yang berfungsi sebagai subjek gramatikal yang langsung diikuti kata kerja raconte."
       }
     ],
     "correctKey": "E",
@@ -1530,23 +1702,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "achetées (Participe Passé dengan penambahan akhiran feminin jamak -es karena COD 'les' mendahului kata kerja bantu avoir)."
+        "text": "achetées",
+        "translation": "Participe Passé dengan penambahan akhiran feminin jamak -es karena COD 'les' mendahului kata kerja bantu avoir."
       },
       {
         "key": "B",
-        "text": "acheté (bentuk maskulin tunggal tanpa accord yang keliru karena posisi COD berada di depan verba) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "acheté",
+        "translation": "bentuk maskulin tunggal tanpa accord yang keliru karena posisi COD berada di depan verba d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "achetée (bentuk feminin tunggal yang melupakan penanda kuantitas jamak toiles)."
+        "text": "achetée",
+        "translation": "bentuk feminin tunggal yang melupakan penanda kuantitas jamak toiles."
       },
       {
         "key": "D",
-        "text": "achetés (bentuk maskulin jamak yang salah gender untuk kata benda feminin une toile)."
+        "text": "achetés",
+        "translation": "bentuk maskulin jamak yang salah gender untuk kata benda feminin une toile."
       },
       {
         "key": "E",
-        "text": "achetez (bentuk Présent persona kedua jamak yang merusak struktur Passé Composé)."
+        "text": "achetez",
+        "translation": "bentuk Présent persona kedua jamak yang merusak struktur Passé Composé."
       }
     ],
     "correctKey": "A",
@@ -1573,23 +1750,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "prenionss (kesalahan ejaan konsonan ganda pada akhiran Imparfait)."
+        "text": "prenionss",
+        "translation": "kesalahan ejaan konsonan ganda pada akhiran Imparfait."
       },
       {
         "key": "B",
-        "text": "prenions (akar kata kerja dari nous au présent 'pren-' + akhiran Imparfait persona pertama jamak -ions)."
+        "text": "prenions",
+        "translation": "akar kata kerja dari nous au présent 'pren-' + akhiran Imparfait persona pertama jamak -ions."
       },
       {
         "key": "C",
-        "text": "prenaient (bentuk konjugasi persona ketiga jamak untuk subjek ils/elles)."
+        "text": "prenaient",
+        "translation": "bentuk konjugasi persona ketiga jamak untuk subjek ils/elles."
       },
       {
         "key": "D",
-        "text": "prenais (bentuk konjugasi persona tunggal je/tu)."
+        "text": "prenais",
+        "translation": "bentuk konjugasi persona tunggal je/tu."
       },
       {
         "key": "E",
-        "text": "avons pris (bentuk Passé Composé yang keliru untuk konteks kebiasaan berulang masa lalu yang ditandai kata toujours)."
+        "text": "avons pris",
+        "translation": "bentuk Passé Composé yang keliru untuk konteks kebiasaan berulang masa lalu yang ditandai kata toujours."
       }
     ],
     "correctKey": "B",
@@ -1616,23 +1798,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "autant (partikel kesetaraan yang hanya digunakan untuk kata kerja atau kata benda dengan de, bukan kata sifat)."
+        "text": "autant",
+        "translation": "partikel kesetaraan yang hanya digunakan untuk kata kerja atau kata benda dengan de, bukan kata sifat."
       },
       {
         "key": "B",
-        "text": "plus (partikel perbandingan keunggulan yang bermakna lebih, bukan kesetaraan seimbang)."
+        "text": "plus",
+        "translation": "partikel perbandingan keunggulan yang bermakna lebih, bukan kesetaraan seimbang."
       },
       {
         "key": "C",
-        "text": "aussi (partikel perbandingan kesetaraan baku 'aussi + adjectif + que' yang bermakna 'sama ... seperti')."
+        "text": "aussi",
+        "translation": "partikel perbandingan kesetaraan baku 'aussi + adjectif + que' yang bermakna 'sama ... seperti'."
       },
       {
         "key": "D",
-        "text": "si (partikel penegas intensitas yang tidak membentuk perbandingan berpasangan resmi dengan que)."
+        "text": "si",
+        "translation": "partikel penegas intensitas yang tidak membentuk perbandingan berpasangan resmi dengan que."
       },
       {
         "key": "E",
-        "text": "comme (kata pembanding persamaan gaya yang keliru dipasangkan dengan kata sifat dan que)."
+        "text": "comme",
+        "translation": "kata pembanding persamaan gaya yang keliru dipasangkan dengan kata sifat dan que."
       }
     ],
     "correctKey": "C",
@@ -1659,23 +1846,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "doivent (bentuk konjugasi persona ketiga jamak untuk subjek ils/elles) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "doivent",
+        "translation": "bentuk konjugasi persona ketiga jamak untuk subjek ils/elles d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "devez (bentuk konjugasi persona kedua jamak untuk subjek vous)."
+        "text": "devez",
+        "translation": "bentuk konjugasi persona kedua jamak untuk subjek vous."
       },
       {
         "key": "C",
-        "text": "dois (bentuk konjugasi persona tunggal je/tu)."
+        "text": "dois",
+        "translation": "bentuk konjugasi persona tunggal je/tu."
       },
       {
         "key": "D",
-        "text": "devons (bentuk konjugasi teratur persona pertama jamak nous dari verba devoir)."
+        "text": "devons",
+        "translation": "bentuk konjugasi teratur persona pertama jamak nous dari verba devoir."
       },
       {
         "key": "E",
-        "text": "doit (bentuk konjugasi persona ketiga tunggal il/elle)."
+        "text": "doit",
+        "translation": "bentuk konjugasi persona ketiga tunggal il/elle."
       }
     ],
     "correctKey": "D",
@@ -1702,23 +1894,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "que (pronomina relatif COD yang salah karena tidak dapat mengekspresikan hubungan partitif/genitif de)."
+        "text": "que",
+        "translation": "pronomina relatif COD yang salah karena tidak dapat mengekspresikan hubungan partitif/genitif de."
       },
       {
         "key": "B",
-        "text": "qui (pronomina relatif subjek yang keliru karena klausula sudah memiliki subjek lengkap tout le monde)."
+        "text": "qui",
+        "translation": "pronomina relatif subjek yang keliru karena klausula sudah memiliki subjek lengkap tout le monde."
       },
       {
         "key": "C",
-        "text": "où (pronomina relatif spasial/temporal yang keliru untuk rujukan karya seni konseptual)."
+        "text": "où",
+        "translation": "pronomina relatif spasial/temporal yang keliru untuk rujukan karya seni konseptual."
       },
       {
         "key": "D",
-        "text": "d'où (adverbia relatif yang menyatakan titik tolak asal pergerakan fisik secara harfiah)."
+        "text": "d'où",
+        "translation": "adverbia relatif yang menyatakan titik tolak asal pergerakan fisik secara harfiah."
       },
       {
         "key": "E",
-        "text": "dont (pronomina relatif yang menggantikan komplemen benda yang terikat dengan preposisi 'de')."
+        "text": "dont",
+        "translation": "pronomina relatif yang menggantikan komplemen benda yang terikat dengan preposisi 'de'."
       }
     ],
     "correctKey": "E",
@@ -1745,23 +1942,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pourriez (akar verba pourr- + akhiran Conditionnel persona kedua jamak -iez)."
+        "text": "Pourriez",
+        "translation": "akar verba pourr- + akhiran Conditionnel persona kedua jamak -iez."
       },
       {
         "key": "B",
-        "text": "Pouvez (bentuk Présent indikatif biasa yang kurang bernada santun halus dalam permintaan bantuan)."
+        "text": "Pouvez",
+        "translation": "bentuk Présent indikatif biasa yang kurang bernada santun halus dalam permintaan bantuan."
       },
       {
         "key": "C",
-        "text": "Pouviez (bentuk Imparfait yang menyatakan kemampuan di masa lampau)."
+        "text": "Pouviez",
+        "translation": "bentuk Imparfait yang menyatakan kemampuan di masa lampau."
       },
       {
         "key": "D",
-        "text": "Pourrez (bentuk Futur Simple indikatif yang menanyakan kepastian masa depan, bukan permohonan santun)."
+        "text": "Pourrez",
+        "translation": "bentuk Futur Simple indikatif yang menanyakan kepastian masa depan, bukan permohonan santun."
       },
       {
         "key": "E",
-        "text": "Puissiez (bentuk Subjonctif yang tidak dapat digunakan sebagai verba mandiri dalam kalimat tanya langsung)."
+        "text": "Puissiez",
+        "translation": "bentuk Subjonctif yang tidak dapat digunakan sebagai verba mandiri dalam kalimat tanya langsung."
       }
     ],
     "correctKey": "A",
@@ -1788,23 +1990,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "lui le (urutan terbalik yang melanggar hukum sintaksis kombinasi pronomina bahasa Prancis)."
+        "text": "lui le",
+        "translation": "urutan terbalik yang melanggar hukum sintaksis kombinasi pronomina bahasa Prancis."
       },
       {
         "key": "B",
-        "text": "le lui (urutan baku pronomina orang ketiga: COD 'le' mendahului COI 'lui')."
+        "text": "le lui",
+        "translation": "urutan baku pronomina orang ketiga: COD 'le' mendahului COI 'lui'."
       },
       {
         "key": "C",
-        "text": "l'y (kesalahan mengganti orang au professeur dengan pronomina tempat y)."
+        "text": "l'y",
+        "translation": "kesalahan mengganti orang au professeur dengan pronomina tempat y."
       },
       {
         "key": "D",
-        "text": "en lui (penggunaan pronomina partitif en yang salah untuk objek definit le devoir)."
+        "text": "en lui",
+        "translation": "penggunaan pronomina partitif en yang salah untuk objek definit le devoir."
       },
       {
         "key": "E",
-        "text": "le leur (kesalahan jumlah pronomina jamak leur untuk satu orang guru au professeur)."
+        "text": "le leur",
+        "translation": "kesalahan jumlah pronomina jamak leur untuk satu orang guru au professeur."
       }
     ],
     "correctKey": "B",
@@ -1831,23 +2038,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "en prendant (kesalahan analogi bentuk akar dasar tanpa pembentukan teratur dari nous prenons)."
+        "text": "en prendant",
+        "translation": "kesalahan analogi bentuk akar dasar tanpa pembentukan teratur dari nous prenons."
       },
       {
         "key": "B",
-        "text": "prenant (bentuk Participe Présent biasa tanpa partikel en yang tidak mengekspresikan fungsi instrumental)."
+        "text": "prenant",
+        "translation": "bentuk Participe Présent biasa tanpa partikel en yang tidak mengekspresikan fungsi instrumental."
       },
       {
         "key": "C",
-        "text": "en prenant (pembentukan Gérondif dengan partikel en + akar nous au présent pren- + akhiran -ant)."
+        "text": "en prenant",
+        "translation": "pembentukan Gérondif dengan partikel en + akar nous au présent pren- + akhiran -ant."
       },
       {
         "key": "D",
-        "text": "en pris (kesalahan memadukan partikel en dengan bentuk Participe Passé pris)."
+        "text": "en pris",
+        "translation": "kesalahan memadukan partikel en dengan bentuk Participe Passé pris."
       },
       {
         "key": "E",
-        "text": "pour prendre (konstruksi infinitif tujuan yang mengubah makna instrumen sarana menjadi tujuan)."
+        "text": "pour prendre",
+        "translation": "konstruksi infinitif tujuan yang mengubah makna instrumen sarana menjadi tujuan."
       }
     ],
     "correctKey": "C",
@@ -1874,23 +2086,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ne / jamais (negasi yang bermakna 'tidak pernah sama sekali' yang bertentangan dengan fakta bahwa dahulu ia sering minum kopi)."
+        "text": "ne / jamais",
+        "translation": "negasi yang bermakna 'tidak pernah sama sekali' yang bertentangan dengan fakta bahwa dahulu ia sering minum kopi."
       },
       {
         "key": "B",
-        "text": "ne / rien (negasi yang bermakna 'tidak meminum apa-apa', bukan penghentian kebiasaan)."
+        "text": "ne / rien",
+        "translation": "negasi yang bermakna 'tidak meminum apa-apa', bukan penghentian kebiasaan."
       },
       {
         "key": "C",
-        "text": "n' / pas encore (negasi yang bermakna 'belum', mengindikasikan ia akan meminumnya lagi nanti)."
+        "text": "n' / pas encore",
+        "translation": "negasi yang bermakna 'belum', mengindikasikan ia akan meminumnya lagi nanti."
       },
       {
         "key": "D",
-        "text": "n' / plus (partikel negasi 'ne ... plus' yang bermakna 'tidak lagi' untuk aksi yang dahulu dilakukan namun kini dihentikan)."
+        "text": "n' / plus",
+        "translation": "partikel negasi 'ne ... plus' yang bermakna 'tidak lagi' untuk aksi yang dahulu dilakukan namun kini dihentikan."
       },
       {
         "key": "E",
-        "text": "ne / que (konstruksi pembatasan yang bermakna 'hanya', bukan penyangkalan penghentian kebiasaan)."
+        "text": "ne / que",
+        "translation": "konstruksi pembatasan yang bermakna 'hanya', bukan penyangkalan penghentian kebiasaan."
       }
     ],
     "correctKey": "D",
@@ -1917,23 +2134,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "en (preposisi yang hanya digunakan untuk nama negara feminin atau wilayah provinsi, bukan kota) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "en",
+        "translation": "preposisi yang hanya digunakan untuk nama negara feminin atau wilayah provinsi, bukan kota déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "au (preposisi kontraksi maskulin yang digunakan untuk negara maskulin)."
+        "text": "au",
+        "translation": "preposisi kontraksi maskulin yang digunakan untuk negara maskulin."
       },
       {
         "key": "C",
-        "text": "dans la (preposisi yang menuntut artikel dan tidak lazim untuk rujukan umum keberadaan di kota)."
+        "text": "dans la",
+        "translation": "preposisi yang menuntut artikel dan tidak lazim untuk rujukan umum keberadaan di kota."
       },
       {
         "key": "D",
-        "text": "chez (preposisi yang hanya digunakan untuk orang, kediaman pribadi, atau tempat usaha profesional)."
+        "text": "chez",
+        "translation": "preposisi yang hanya digunakan untuk orang, kediaman pribadi, atau tempat usaha profesional."
       },
       {
         "key": "E",
-        "text": "à (preposisi tempat standar yang digunakan di depan nama kota di seluruh dunia tanpa memandang gender)."
+        "text": "à",
+        "translation": "preposisi tempat standar yang digunakan di depan nama kota di seluruh dunia tanpa memandang gender."
       }
     ],
     "correctKey": "E",
@@ -1960,23 +2182,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "grâce au (kontraksi preposisi kausalitas positif grâce à + le soutien yang bermakna 'berkat dukungan')."
+        "text": "grâce au",
+        "translation": "kontraksi preposisi kausalitas positif grâce à + le soutien yang bermakna 'berkat dukungan'."
       },
       {
         "key": "B",
-        "text": "à cause du (preposisi kausalitas bernada negatif yang bermakna 'gara-gara/karena akibat buruk')."
+        "text": "à cause du",
+        "translation": "preposisi kausalitas bernada negatif yang bermakna 'gara-gara/karena akibat buruk'."
       },
       {
         "key": "C",
-        "text": "parce que (konjungsi subordinatif yang menuntut klausula lengkap dengan subjek dan kata kerja, bukan frasa nominal)."
+        "text": "parce que",
+        "translation": "konjungsi subordinatif yang menuntut klausula lengkap dengan subjek dan kata kerja, bukan frasa nominal."
       },
       {
         "key": "D",
-        "text": "faute de (preposisi yang bermakna 'akibat ketiadaan/kekurangan suatu hal')."
+        "text": "faute de",
+        "translation": "preposisi yang bermakna 'akibat ketiadaan/kekurangan suatu hal'."
       },
       {
         "key": "E",
-        "text": "en raison à (konstruksi rancu yang mencampuradukkan en raison de dengan preposisi à)."
+        "text": "en raison à",
+        "translation": "konstruksi rancu yang mencampuradukkan en raison de dengan preposisi à."
       }
     ],
     "correctKey": "A",
@@ -2003,23 +2230,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "plus / de (kombinasi keliru yang mencampur partikel komparatif keunggulan dengan preposisi de) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "plus / de",
+        "translation": "kombinasi keliru yang mencampur partikel komparatif keunggulan dengan preposisi de d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "moins / que (pola perbandingan derajat lebih rendah 'moins + adjectif + que' yang bermakna 'kurang/lebih sedikit ... daripada')."
+        "text": "moins / que",
+        "translation": "pola perbandingan derajat lebih rendah 'moins + adjectif + que' yang bermakna 'kurang/lebih sedikit ... daripada'."
       },
       {
         "key": "C",
-        "text": "aussi / comme (kesalahan memasangkan partikel aussi dengan kata sambung comme alih-alih que)."
+        "text": "aussi / comme",
+        "translation": "kesalahan memasangkan partikel aussi dengan kata sambung comme alih-alih que."
       },
       {
         "key": "D",
-        "text": "peu / que (peu adalah adverbia kuantitas, bukan partikel pembentuk komparatif adjektiva)."
+        "text": "peu / que",
+        "translation": "peu adalah adverbia kuantitas, bukan partikel pembentuk komparatif adjektiva."
       },
       {
         "key": "E",
-        "text": "moins / de (penggunaan de yang keliru karena pembanding kata sifat selalu menggunakan partikel que)."
+        "text": "moins / de",
+        "translation": "penggunaan de yang keliru karena pembanding kata sifat selalu menggunakan partikel que."
       }
     ],
     "correctKey": "B",
@@ -2046,23 +2278,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "tout (bentuk maskulin tunggal yang keliru jumlah untuk kata benda jamak) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "tout",
+        "translation": "bentuk maskulin tunggal yang keliru jumlah untuk kata benda jamak conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "toute (bentuk feminin tunggal yang keliru gender dan jumlah)."
+        "text": "toute",
+        "translation": "bentuk feminin tunggal yang keliru gender dan jumlah."
       },
       {
         "key": "C",
-        "text": "tous (bentuk maskulin jamak dari kata sifat tak tentu tout yang diselaraskan dengan les candidats)."
+        "text": "tous",
+        "translation": "bentuk maskulin jamak dari kata sifat tak tentu tout yang diselaraskan dengan les candidats."
       },
       {
         "key": "D",
-        "text": "toutes (bentuk feminin jamak yang keliru gender untuk kata benda maskulin candidats)."
+        "text": "toutes",
+        "translation": "bentuk feminin jamak yang keliru gender untuk kata benda maskulin candidats."
       },
       {
         "key": "E",
-        "text": "tout les (kesalahan ejaan bentuk tunggal sebelum artikel jamak les)."
+        "text": "tout les",
+        "translation": "kesalahan ejaan bentuk tunggal sebelum artikel jamak les."
       }
     ],
     "correctKey": "C",
@@ -2089,23 +2326,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "viens (konjugasi persona tunggal je/tu) d'après les normes de communication pragmatique socioculturelle française d'après les normes de communication pragmatique socioculturelle française."
+        "text": "viens",
+        "translation": "konjugasi persona tunggal je/tu d'après les normes de communication pragmatique socioculturelle française d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "venait (bentuk Imparfait yang menggeser konteks waktu lampau baru saja menjadi lampau lampau)."
+        "text": "venait",
+        "translation": "bentuk Imparfait yang menggeser konteks waktu lampau baru saja menjadi lampau lampau."
       },
       {
         "key": "C",
-        "text": "va (verba aller yang membentuk Futur Proche, bertolak belakang dengan makna il y a deux minutes)."
+        "text": "va",
+        "translation": "verba aller yang membentuk Futur Proche, bertolak belakang dengan makna il y a deux minutes."
       },
       {
         "key": "D",
-        "text": "vient (konjugasi kata kerja venir persona ketiga tunggal il untuk rumus Passé Récent 'venir de + infinitif')."
+        "text": "vient",
+        "translation": "konjugasi kata kerja venir persona ketiga tunggal il untuk rumus Passé Récent 'venir de + infinitif'."
       },
       {
         "key": "E",
-        "text": "viennent (bentuk jamak ils/elles yang keliru jumlah untuk subjek tunggal le directeur)."
+        "text": "viennent",
+        "translation": "bentuk jamak ils/elles yang keliru jumlah untuk subjek tunggal le directeur."
       }
     ],
     "correctKey": "D",
@@ -2132,23 +2374,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "celle (pronomina demonstratif feminin tunggal yang keliru gender untuk kata maskulin un ordinateur)."
+        "text": "celle",
+        "translation": "pronomina demonstratif feminin tunggal yang keliru gender untuk kata maskulin un ordinateur."
       },
       {
         "key": "B",
-        "text": "ceux (pronomina demonstratif maskulin jamak yang keliru jumlah)."
+        "text": "ceux",
+        "translation": "pronomina demonstratif maskulin jamak yang keliru jumlah."
       },
       {
         "key": "C",
-        "text": "celles (pronomina demonstratif feminin jamak)."
+        "text": "celles",
+        "translation": "pronomina demonstratif feminin jamak."
       },
       {
         "key": "D",
-        "text": "ce (kata penunjuk netral yang tidak dapat berdiri sendiri sebelum frasa kepemilikan de Thomas)."
+        "text": "ce",
+        "translation": "kata penunjuk netral yang tidak dapat berdiri sendiri sebelum frasa kepemilikan de Thomas."
       },
       {
         "key": "E",
-        "text": "celui (pronomina demonstratif maskulin tunggal yang merujuk pada benda l'ordinateur)."
+        "text": "celui",
+        "translation": "pronomina demonstratif maskulin tunggal yang merujuk pada benda l'ordinateur."
       }
     ],
     "correctKey": "E",
@@ -2175,23 +2422,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "avions / ferions (klausa pengandaian 'si' menggunakan Imparfait 'avions' dan klausa akibat menggunakan Conditionnel Présent 'ferions')."
+        "text": "avions / ferions",
+        "translation": "klausa pengandaian 'si' menggunakan Imparfait 'avions' dan klausa akibat menggunakan Conditionnel Présent 'ferions'."
       },
       {
         "key": "B",
-        "text": "avons / ferons (bentuk pengandaian kemungkinan masa depan nyata yang menggunakan Présent dan Futur Simple)."
+        "text": "avons / ferons",
+        "translation": "bentuk pengandaian kemungkinan masa depan nyata yang menggunakan Présent dan Futur Simple."
       },
       {
         "key": "C",
-        "text": "aurions / faisions (urutan terbalik yang salah besar karena bahasa Prancis melarang mutlak verba Conditionnel berada di dalam anak kalimat si)."
+        "text": "aurions / faisions",
+        "translation": "urutan terbalik yang salah besar karena bahasa Prancis melarang mutlak verba Conditionnel berada di dalam anak kalimat si."
       },
       {
         "key": "D",
-        "text": "avions eu / aurions fait (bentuk pengandaian penyesalan masa lampau Irréel du passé dengan Plus-que-parfait dan Conditionnel Passé)."
+        "text": "avions eu / aurions fait",
+        "translation": "bentuk pengandaian penyesalan masa lampau Irréel du passé dengan Plus-que-parfait dan Conditionnel Passé."
       },
       {
         "key": "E",
-        "text": "aurons / ferions (penggunaan Futur Simple pada klausa si yang dilarang keras dalam sintaksis baku bahasa Prancis)."
+        "text": "aurons / ferions",
+        "translation": "penggunaan Futur Simple pada klausa si yang dilarang keras dalam sintaksis baku bahasa Prancis."
       }
     ],
     "correctKey": "A",
@@ -2218,23 +2470,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "faites (bentuk Présent de l'indicatif yang keliru karena klausa il faut que mewajibkan modus Subjonctif)."
+        "text": "faites",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena klausa il faut que mewajibkan modus Subjonctif."
       },
       {
         "key": "B",
-        "text": "fassiez (akar tidak beraturan fass- + akhiran Subjonctif persona kedua jamak -iez)."
+        "text": "fassiez",
+        "translation": "akar tidak beraturan fass- + akhiran Subjonctif persona kedua jamak -iez."
       },
       {
         "key": "C",
-        "text": "faisiez (bentuk Imparfait dari indikatif yang keliru fungsi modalitas)."
+        "text": "faisiez",
+        "translation": "bentuk Imparfait dari indikatif yang keliru fungsi modalitas."
       },
       {
         "key": "D",
-        "text": "feriez (bentuk Conditionnel Présent yang tidak cocok dengan pemicu keniscayaan il faut que)."
+        "text": "feriez",
+        "translation": "bentuk Conditionnel Présent yang tidak cocok dengan pemicu keniscayaan il faut que."
       },
       {
         "key": "E",
-        "text": "faissiez (kesalahan ortografi dengan menggandakan huruf konsonan s ganda pada bentuk subjonctif)."
+        "text": "faissiez",
+        "translation": "kesalahan ortografi dengan menggandakan huruf konsonan s ganda pada bentuk subjonctif."
       }
     ],
     "correctKey": "B",
@@ -2261,23 +2518,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "es (bentuk indikatif waktu sekarang yang keliru karena ungkapan perasaan bahagia être heureux que mewajibkan subjonctif)."
+        "text": "es",
+        "translation": "bentuk indikatif waktu sekarang yang keliru karena ungkapan perasaan bahagia être heureux que mewajibkan subjonctif."
       },
       {
         "key": "B",
-        "text": "soit (bentuk Subjonctif untuk persona ketiga tunggal il/elle)."
+        "text": "soit",
+        "translation": "bentuk Subjonctif untuk persona ketiga tunggal il/elle."
       },
       {
         "key": "C",
-        "text": "sois (bentuk Subjonctif Présent persona kedua tunggal dari verba tidak beraturan être)."
+        "text": "sois",
+        "translation": "bentuk Subjonctif Présent persona kedua tunggal dari verba tidak beraturan être."
       },
       {
         "key": "D",
-        "text": "soyez (bentuk Subjonctif untuk persona kedua jamak/formal vous)."
+        "text": "soyez",
+        "translation": "bentuk Subjonctif untuk persona kedua jamak/formal vous."
       },
       {
         "key": "E",
-        "text": "seras (bentuk Futur Simple indikatif yang melanggar tuntutan modus perasaan emosional)."
+        "text": "seras",
+        "translation": "bentuk Futur Simple indikatif yang melanggar tuntutan modus perasaan emosional."
       }
     ],
     "correctKey": "C",
@@ -2304,23 +2566,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "a conçu (bentuk aktif yang salah makna karena membuat menara Eiffel merancang insinyur Gustave Eiffel) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "a conçu",
+        "translation": "bentuk aktif yang salah makna karena membuat menara Eiffel merancang insinyur Gustave Eiffel d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "est conçue (bentuk pasif Présent yang bertentangan dengan penanda sejarah masa lampau en 1889)."
+        "text": "est conçue",
+        "translation": "bentuk pasif Présent yang bertentangan dengan penanda sejarah masa lampau en 1889."
       },
       {
         "key": "C",
-        "text": "a été conçu (kesalahan mengabaikan penyesuaian gender feminin -e untuk kata benda la tour)."
+        "text": "a été conçu",
+        "translation": "kesalahan mengabaikan penyesuaian gender feminin -e untuk kata benda la tour."
       },
       {
         "key": "D",
-        "text": "a été conçue (bentuk pasif Passé Composé: a été + Participe Passé feminin tunggal conçue dengan tanda cédille dan accord -e)."
+        "text": "a été conçue",
+        "translation": "bentuk pasif Passé Composé: a été + Participe Passé feminin tunggal conçue dengan tanda cédille dan accord -e."
       },
       {
         "key": "E",
-        "text": "avait été concurrue (kesalahan pemilihan bentuk verba yang tidak bermakna merancang)."
+        "text": "avait été concurrue",
+        "translation": "kesalahan pemilihan bentuk verba yang tidak bermakna merancang."
       }
     ],
     "correctKey": "D",
@@ -2347,23 +2614,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ont augmenté (bentuk indikatif Passé Composé yang keliru karena konjungsi bien que mewajibkan subjonctif)."
+        "text": "ont augmenté",
+        "translation": "bentuk indikatif Passé Composé yang keliru karena konjungsi bien que mewajibkan subjonctif."
       },
       {
         "key": "B",
-        "text": "augmentent (bentuk Présent indikatif yang melanggar aturan modus anak kalimat konsesif)."
+        "text": "augmentent",
+        "translation": "bentuk Présent indikatif yang melanggar aturan modus anak kalimat konsesif."
       },
       {
         "key": "C",
-        "text": "augmentaient (bentuk Imparfait indikatif yang tidak berstatus subjonctif)."
+        "text": "augmentaient",
+        "translation": "bentuk Imparfait indikatif yang tidak berstatus subjonctif."
       },
       {
         "key": "D",
-        "text": "avaient augmenté (bentuk Plus-que-parfait indikatif yang salah modus)."
+        "text": "avaient augmenté",
+        "translation": "bentuk Plus-que-parfait indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "aient augmenté (bentuk Subjonctif Passé yang dituntut oleh konjungsi konsesif 'bien que')."
+        "text": "aient augmenté",
+        "translation": "bentuk Subjonctif Passé yang dituntut oleh konjungsi konsesif 'bien que'."
       }
     ],
     "correctKey": "E",
@@ -2390,23 +2662,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "auquel (kontraksi preposisi à + lequel yang dituntut oleh verba assister à sesuatu)."
+        "text": "auquel",
+        "translation": "kontraksi preposisi à + lequel yang dituntut oleh verba assister à sesuatu."
       },
       {
         "key": "B",
-        "text": "duquel (kontraksi preposisi de + lequel yang hanya digunakan untuk verba berpreposisi de)."
+        "text": "duquel",
+        "translation": "kontraksi preposisi de + lequel yang hanya digunakan untuk verba berpreposisi de."
       },
       {
         "key": "C",
-        "text": "lequel (pronomina relatif majemuk tanpa preposisi yang keliru untuk valensi verba assister à)."
+        "text": "lequel",
+        "translation": "pronomina relatif majemuk tanpa preposisi yang keliru untuk valensi verba assister à."
       },
       {
         "key": "D",
-        "text": "dans lequel (frasa preposisional spasial di dalam yang tidak membentuk kolokasi resmi assister à un événement)."
+        "text": "dans lequel",
+        "translation": "frasa preposisional spasial di dalam yang tidak membentuk kolokasi resmi assister à un événement."
       },
       {
         "key": "E",
-        "text": "à laquelle (bentuk feminin yang keliru gender untuk kata maskulin le colloque)."
+        "text": "à laquelle",
+        "translation": "bentuk feminin yang keliru gender untuk kata maskulin le colloque."
       }
     ],
     "correctKey": "A",
@@ -2433,23 +2710,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "avais eu (bentuk Plus-que-parfait indikatif yang hanya boleh berada di anak kalimat si, bukan klausa utama)."
+        "text": "avais eu",
+        "translation": "bentuk Plus-que-parfait indikatif yang hanya boleh berada di anak kalimat si, bukan klausa utama."
       },
       {
         "key": "B",
-        "text": "aurais eu (bentuk Conditionnel Passé persona pertama tunggal: aurais + Participe Passé eu)."
+        "text": "aurais eu",
+        "translation": "bentuk Conditionnel Passé persona pertama tunggal: aurais + Participe Passé eu."
       },
       {
         "key": "C",
-        "text": "aurais (bentuk Conditionnel Présent yang keliru waktu karena penyesalan merujuk pada peristiwa masa lalu)."
+        "text": "aurais",
+        "translation": "bentuk Conditionnel Présent yang keliru waktu karena penyesalan merujuk pada peristiwa masa lalu."
       },
       {
         "key": "D",
-        "text": "ai eu (bentuk Passé Composé indikatif yang menyatakan kepastian fakta, bukan pengandaian kontrafaktual)."
+        "text": "ai eu",
+        "translation": "bentuk Passé Composé indikatif yang menyatakan kepastian fakta, bukan pengandaian kontrafaktual."
       },
       {
         "key": "E",
-        "text": "serais eu (kesalahan fatal kata kerja bantu sein/être untuk verba avoir)."
+        "text": "serais eu",
+        "translation": "kesalahan fatal kata kerja bantu sein/être untuk verba avoir."
       }
     ],
     "correctKey": "B",
@@ -2519,23 +2801,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "pouvons (bentuk Présent de l'indicatif yang keliru karena verba douter que mengekspresikan keraguan mutlak)."
+        "text": "pouvons",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena verba douter que mengekspresikan keraguan mutlak."
       },
       {
         "key": "B",
-        "text": "pouvions (bentuk Imparfait indikatif yang salah fungsi gramatikal)."
+        "text": "pouvions",
+        "translation": "bentuk Imparfait indikatif yang salah fungsi gramatikal."
       },
       {
         "key": "C",
-        "text": "pourrions (bentuk Conditionnel Présent yang tidak dapat menjadi pelengkap klausa douter que)."
+        "text": "pourrions",
+        "translation": "bentuk Conditionnel Présent yang tidak dapat menjadi pelengkap klausa douter que."
       },
       {
         "key": "D",
-        "text": "puissions (akar tidak beraturan puiss- + akhiran Subjonctif persona pertama jamak -ions)."
+        "text": "puissions",
+        "translation": "akar tidak beraturan puiss- + akhiran Subjonctif persona pertama jamak -ions."
       },
       {
         "key": "E",
-        "text": "puissons (kesalahan penambahan akhiran -ons indikatif pada akar subjonctif puiss-)."
+        "text": "puissons",
+        "translation": "kesalahan penambahan akhiran -ons indikatif pada akar subjonctif puiss-."
       }
     ],
     "correctKey": "D",
@@ -2562,23 +2849,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "avec laquelle (bentuk feminin tunggal yang keliru gender dan jumlah untuk kata benda maskulin un outil)."
+        "text": "avec laquelle",
+        "translation": "bentuk feminin tunggal yang keliru gender dan jumlah untuk kata benda maskulin un outil."
       },
       {
         "key": "B",
-        "text": "avec lequel (bentuk maskulin tunggal yang keliru jumlah untuk kata benda jamak les outils)."
+        "text": "avec lequel",
+        "translation": "bentuk maskulin tunggal yang keliru jumlah untuk kata benda jamak les outils."
       },
       {
         "key": "C",
-        "text": "avec lesquelles (bentuk feminin jamak yang keliru gender)."
+        "text": "avec lesquelles",
+        "translation": "bentuk feminin jamak yang keliru gender."
       },
       {
         "key": "D",
-        "text": "avec qui (pronomina qui setelah preposisi yang hanya diperuntukkan secara khusus bagi manusia, bukan peralatan non-persona)."
+        "text": "avec qui",
+        "translation": "pronomina qui setelah preposisi yang hanya diperuntukkan secara khusus bagi manusia, bukan peralatan non-persona."
       },
       {
         "key": "E",
-        "text": "avec lesquels (preposisi avec + pronomina relatif majemuk maskulin jamak lesquels)."
+        "text": "avec lesquels",
+        "translation": "preposisi avec + pronomina relatif majemuk maskulin jamak lesquels."
       }
     ],
     "correctKey": "E",
@@ -2605,23 +2897,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ait (bentuk Subjonctif Présent persona ketiga tunggal dari verba tidak beraturan avoir)."
+        "text": "ait",
+        "translation": "bentuk Subjonctif Présent persona ketiga tunggal dari verba tidak beraturan avoir."
       },
       {
         "key": "B",
-        "text": "a (bentuk Présent de l'indicatif yang keliru karena verba tuntutan exiger que mewajibkan subjonctif)."
+        "text": "a",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena verba tuntutan exiger que mewajibkan subjonctif."
       },
       {
         "key": "C",
-        "text": "avait (bentuk Imparfait indikatif yang tidak berstatus subjonctif)."
+        "text": "avait",
+        "translation": "bentuk Imparfait indikatif yang tidak berstatus subjonctif."
       },
       {
         "key": "D",
-        "text": "aura (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "aura",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "aie (bentuk Subjonctif persona pertama tunggal untuk subjek je)."
+        "text": "aie",
+        "translation": "bentuk Subjonctif persona pertama tunggal untuk subjek je."
       }
     ],
     "correctKey": "A",
@@ -2691,23 +2988,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "a fait (bentuk Passé Composé indikatif yang menegaskan fakta kepastian mutlak tanpa jarak jurnalistik) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "a fait",
+        "translation": "bentuk Passé Composé indikatif yang menegaskan fakta kepastian mutlak tanpa jarak jurnalistik conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "faisait (bentuk Imparfait indikatif yang mengaburkan sifat kesegaran berita bencana)."
+        "text": "faisait",
+        "translation": "bentuk Imparfait indikatif yang mengaburkan sifat kesegaran berita bencana."
       },
       {
         "key": "C",
-        "text": "aurait fait (bentuk Conditionnel Passé yang digunakan untuk melaporkan informasi faktual yang belum terkonfirmasi oleh pihak berwenang)."
+        "text": "aurait fait",
+        "translation": "bentuk Conditionnel Passé yang digunakan untuk melaporkan informasi faktual yang belum terkonfirmasi oleh pihak berwenang."
       },
       {
         "key": "D",
-        "text": "fera (bentuk Futur Simple indikatif yang keliru menempatkan bencana yang sudah terjadi ke masa depan)."
+        "text": "fera",
+        "translation": "bentuk Futur Simple indikatif yang keliru menempatkan bencana yang sudah terjadi ke masa depan."
       },
       {
         "key": "E",
-        "text": "fasse (bentuk Subjonctif yang tidak memiliki fungsi sintaksis sebagai predikat utama kalimat berita)."
+        "text": "fasse",
+        "translation": "bentuk Subjonctif yang tidak memiliki fungsi sintaksis sebagai predikat utama kalimat berita."
       }
     ],
     "correctKey": "C",
@@ -2734,23 +3036,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "aillons (kesalahan mempertahankan akar tunggal aill- pada persona jamak nous)."
+        "text": "aillons",
+        "translation": "kesalahan mempertahankan akar tunggal aill- pada persona jamak nous."
       },
       {
         "key": "B",
-        "text": "allons (bentuk Présent de l'indicatif yang keliru karena il est primordial que menuntut modus subjonctif)."
+        "text": "allons",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena il est primordial que menuntut modus subjonctif."
       },
       {
         "key": "C",
-        "text": "allionss (kesalahan ejaan penambahan huruf s ganda di akhir kata)."
+        "text": "allionss",
+        "translation": "kesalahan ejaan penambahan huruf s ganda di akhir kata."
       },
       {
         "key": "D",
-        "text": "allions (akar kata kerja all- + akhiran Subjonctif persona pertama jamak -ions)."
+        "text": "allions",
+        "translation": "akar kata kerja all- + akhiran Subjonctif persona pertama jamak -ions."
       },
       {
         "key": "E",
-        "text": "irions (bentuk Conditionnel Présent yang tidak cocok dengan pemicu keniscayaan il est primordial que)."
+        "text": "irions",
+        "translation": "bentuk Conditionnel Présent yang tidak cocok dengan pemicu keniscayaan il est primordial que."
       }
     ],
     "correctKey": "D",
@@ -2768,7 +3075,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam pengumuman resmi pembatalan jadwal penerbangan:\n'( ... ) d'importantes turbulences atmosphériques sur la trajectoire de vol, le commandant de bord a pris la décision de faire demi-tour.'\nBentuk Participe Présent dari kata kerja 'craindre' (khawatir akan) yang TEPAT untuk mengawali kalimat sebab tersebut adalah...",
+    "questionHtml": "Dalam pengumuman resmi pembatalan jadwal penerbangan:\n'( ... ) d'importantes turbulences atmosphériques sur la trajectoire de vol, le commandant de bord a pris la décision de faire demi-tour.'\nBentuk Participe Présent dari kata kerja 'craindre' yang TEPAT untuk mengawali kalimat sebab tersebut adalah...",
     "formulaHud": {
       "title": "LE PARTICIPE PRÉSENT CAUSAL",
       "latex": "\\text{Craignant la tempête... } \\iff \\text{Comme il craignait la tempête, le commandant...}",
@@ -2777,23 +3084,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Craint (bentuk Participe Passé yang bermakna pasif ditakuti, bukan aktif mengkhawatirkan)."
+        "text": "Craint",
+        "translation": "bentuk Participe Passé yang bermakna pasif ditakuti, bukan aktif mengkhawatirkan."
       },
       {
         "key": "B",
-        "text": "En craignant (bentuk Gérondif yang keliru karena subjek aksi sebab tidak bertindak simultan dengan cara tindakan)."
+        "text": "En craignant",
+        "translation": "bentuk Gérondif yang keliru karena subjek aksi sebab tidak bertindak simultan dengan cara tindakan."
       },
       {
         "key": "C",
-        "text": "Craignait (bentuk Imparfait indikatif yang tidak dapat mengawali klausa partisipial tanpa kata sambung)."
+        "text": "Craignait",
+        "translation": "bentuk Imparfait indikatif yang tidak dapat mengawali klausa partisipial tanpa kata sambung."
       },
       {
         "key": "D",
-        "text": "Ayant craint (bentuk majemuk yang kurang ringkas dibandingkan Participe Présent langsung untuk situasi aktif)."
+        "text": "Ayant craint",
+        "translation": "bentuk majemuk yang kurang ringkas dibandingkan Participe Présent langsung untuk situasi aktif."
       },
       {
         "key": "E",
-        "text": "Craignant (akar nous au présent craign- + akhiran Participe Présent -ant)."
+        "text": "Craignant",
+        "translation": "akar nous au présent craign- + akhiran Participe Présent -ant."
       }
     ],
     "correctKey": "E",
@@ -2820,23 +3132,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "puissent (konjugasi Subjonctif Présent persona ketiga jamak yang dituntut oleh konjungsi tujuan afin que)."
+        "text": "puissent",
+        "translation": "konjugasi Subjonctif Présent persona ketiga jamak yang dituntut oleh konjungsi tujuan afin que."
       },
       {
         "key": "B",
-        "text": "peuvent (bentuk Présent indikatif yang melanggar hukum modus konjungsi tujuan afin que) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "peuvent",
+        "translation": "bentuk Présent indikatif yang melanggar hukum modus konjungsi tujuan afin que d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "pourront (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "pourront",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "D",
-        "text": "pouvaient (bentuk Imparfait indikatif yang salah modus)."
+        "text": "pouvaient",
+        "translation": "bentuk Imparfait indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "puissiez (bentuk Subjonctif untuk persona kedua jamak vous)."
+        "text": "puissiez",
+        "translation": "bentuk Subjonctif untuk persona kedua jamak vous."
       }
     ],
     "correctKey": "A",
@@ -2863,23 +3180,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "sait (bentuk Présent de l'indicatif yang keliru karena il est indispensable que menuntut subjonctif)."
+        "text": "sait",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena il est indispensable que menuntut subjonctif."
       },
       {
         "key": "B",
-        "text": "sache (akar tidak beraturan sach- + akhiran Subjonctif persona ketiga tunggal -e)."
+        "text": "sache",
+        "translation": "akar tidak beraturan sach- + akhiran Subjonctif persona ketiga tunggal -e."
       },
       {
         "key": "C",
-        "text": "sachent (bentuk konjugasi Subjonctif persona ketiga jamak ils/elles yang keliru jumlah untuk subjek tunggal chaque élève)."
+        "text": "sachent",
+        "translation": "bentuk konjugasi Subjonctif persona ketiga jamak ils/elles yang keliru jumlah untuk subjek tunggal chaque élève."
       },
       {
         "key": "D",
-        "text": "savait (bentuk Imparfait indikatif yang salah modus)."
+        "text": "savait",
+        "translation": "bentuk Imparfait indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "saura (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "saura",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       }
     ],
     "correctKey": "B",
@@ -2914,7 +3236,8 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Praktik sosial komunal yang merayakan kebersamaan (convivialité), tradisi berbagi, perpaduan hidangan dengan anggur, dan struktur susunan menu yang teratur."
+        "text": "Praktik sosial komunal yang merayakan kebersamaan",
+        "translation": "convivialité , tradisi berbagi, perpaduan hidangan dengan anggur, dan struktur susunan menu yang teratur."
       },
       {
         "key": "D",
@@ -2949,23 +3272,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "écrits (kesalahan penambahan accord jamak -s karena salah mengira pronomina resiprokal se sebagai COD) d'après les normes de communication pragmatique socioculturelle française d'après les normes de communication pragmatique socioculturelle française."
+        "text": "écrits",
+        "translation": "kesalahan penambahan accord jamak -s karena salah mengira pronomina resiprokal se sebagai COD d'après les normes de communication pragmatique socioculturelle française d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "écrite (kesalahan penambahan bentuk feminin tunggal)."
+        "text": "écrite",
+        "translation": "kesalahan penambahan bentuk feminin tunggal."
       },
       {
         "key": "C",
-        "text": "écrites (kesalahan menyelaraskan dengan objek des lettres yang posisinya berada di belakang kata kerja)."
+        "text": "écrites",
+        "translation": "kesalahan menyelaraskan dengan objek des lettres yang posisinya berada di belakang kata kerja."
       },
       {
         "key": "D",
-        "text": "écrit (tanpa accord -s karena pronomina resiprokal 'se' berfungsi sebagai objek tak langsung COI: écrire à quelqu'un; sedangkan COD-nya 'des lettres' berada di belakang kata kerja)."
+        "text": "écrit",
+        "translation": "tanpa accord -s karena pronomina resiprokal 'se' berfungsi sebagai objek tak langsung COI: écrire à quelqu'un; sedangkan COD-nya 'des lettres' berada di belakang kata kerja."
       },
       {
         "key": "E",
-        "text": "écrivaient (bentuk Imparfait yang merusak konstruksi Passé Composé se sont)."
+        "text": "écrivaient",
+        "translation": "bentuk Imparfait yang merusak konstruksi Passé Composé se sont."
       }
     ],
     "correctKey": "D",
@@ -2992,23 +3320,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ont bloqué (bentuk Passé Composé yang keliru karena tidak menunjukkan tingkatan anterioritas waktu lampau sebelum peristiwa lampau lain) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "ont bloqué",
+        "translation": "bentuk Passé Composé yang keliru karena tidak menunjukkan tingkatan anterioritas waktu lampau sebelum peristiwa lampau lain déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "bloquaient (bentuk Imparfait yang menyatakan proses berlangsung, bukan aksi tuntas sebelum kedatangan polisi)."
+        "text": "bloquaient",
+        "translation": "bentuk Imparfait yang menyatakan proses berlangsung, bukan aksi tuntas sebelum kedatangan polisi."
       },
       {
         "key": "C",
-        "text": "étaient bloqués (bentuk pasif yang keliru memutarbalikkan peran pencuri menjadi pihak yang terblokir)."
+        "text": "étaient bloqués",
+        "translation": "bentuk pasif yang keliru memutarbalikkan peran pencuri menjadi pihak yang terblokir."
       },
       {
         "key": "D",
-        "text": "bloqueront (bentuk Futur Simple yang bertentangan dengan kerangka narasi investigasi masa lalu)."
+        "text": "bloqueront",
+        "translation": "bentuk Futur Simple yang bertentangan dengan kerangka narasi investigasi masa lalu."
       },
       {
         "key": "E",
-        "text": "avaient bloqué (Plus-que-parfait dengan kata kerja bantu avaient + Participe Passé bloqué untuk menyatakan aksi yang selesai sebelum polisi tiba)."
+        "text": "avaient bloqué",
+        "translation": "Plus-que-parfait dengan kata kerja bantu avaient + Participe Passé bloqué untuk menyatakan aksi yang selesai sebelum polisi tiba."
       }
     ],
     "correctKey": "E",
@@ -3035,23 +3368,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "soit (bentuk Subjonctif Présent persona ketiga tunggal yang wajib dipicu oleh verba opini yang dinegasikan)."
+        "text": "soit",
+        "translation": "bentuk Subjonctif Présent persona ketiga tunggal yang wajib dipicu oleh verba opini yang dinegasikan."
       },
       {
         "key": "B",
-        "text": "est (bentuk Indikatif yang hanya digunakan bila verba opini berbentuk kalimat positif afirmatif) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "est",
+        "translation": "bentuk Indikatif yang hanya digunakan bila verba opini berbentuk kalimat positif afirmatif d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "sera (bentuk Futur Simple indikatif yang salah modus untuk opini negatif)."
+        "text": "sera",
+        "translation": "bentuk Futur Simple indikatif yang salah modus untuk opini negatif."
       },
       {
         "key": "D",
-        "text": "serait (bentuk Conditionnel yang tidak mencerminkan modus wajib subjonctif setelah ne pas penser que)."
+        "text": "serait",
+        "translation": "bentuk Conditionnel yang tidak mencerminkan modus wajib subjonctif setelah ne pas penser que."
       },
       {
         "key": "E",
-        "text": "soient (bentuk Subjonctif jamak yang keliru jumlah untuk subjek tunggal cette réforme fiscale)."
+        "text": "soient",
+        "translation": "bentuk Subjonctif jamak yang keliru jumlah untuk subjek tunggal cette réforme fiscale."
       }
     ],
     "correctKey": "A",
@@ -3164,23 +3502,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "veuillions (kesalahan mempertahankan akar persona tunggal veuill- pada persona jamak nous)."
+        "text": "veuillions",
+        "translation": "kesalahan mempertahankan akar persona tunggal veuill- pada persona jamak nous."
       },
       {
         "key": "B",
-        "text": "voulons (bentuk Présent de l'indicatif yang salah modus karena klausa il est primordial que menuntut subjonctif)."
+        "text": "voulons",
+        "translation": "bentuk Présent de l'indicatif yang salah modus karena klausa il est primordial que menuntut subjonctif."
       },
       {
         "key": "C",
-        "text": "voudrions (bentuk Conditionnel Présent yang tidak sesuai fungsi klausa subordinatif kehendak)."
+        "text": "voudrions",
+        "translation": "bentuk Conditionnel Présent yang tidak sesuai fungsi klausa subordinatif kehendak."
       },
       {
         "key": "D",
-        "text": "voulions (akar persona nous/vous voul- + akhiran Subjonctif persona pertama jamak -ions)."
+        "text": "voulions",
+        "translation": "akar persona nous/vous voul- + akhiran Subjonctif persona pertama jamak -ions."
       },
       {
         "key": "E",
-        "text": "voulaient (bentuk Imparfait indikatif orang ketiga jamak)."
+        "text": "voulaient",
+        "translation": "bentuk Imparfait indikatif orang ketiga jamak."
       }
     ],
     "correctKey": "D",
@@ -3207,23 +3550,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "En terminant (Gérondif yang keliru menyatakan aksi sedang berjalan simultan bersamaan dengan pengangkatan jangkar) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "En terminant",
+        "translation": "Gérondif yang keliru menyatakan aksi sedang berjalan simultan bersamaan dengan pengangkatan jangkar déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "Terminé (Participe Passé tunggal yang tidak memiliki subjek aktif untuk menjalankan aksi verifikasi)."
+        "text": "Terminé",
+        "translation": "Participe Passé tunggal yang tidak memiliki subjek aktif untuk menjalankan aksi verifikasi."
       },
       {
         "key": "C",
-        "text": "Terminant (Participe Présent tunggal yang mengabaikan aspek ketuntasan mendahului)."
+        "text": "Terminant",
+        "translation": "Participe Présent tunggal yang mengabaikan aspek ketuntasan mendahului."
       },
       {
         "key": "D",
-        "text": "Pour terminer (konstruksi infinitif tujuan yang mengubah makna urutan waktu menjadi tujuan masa depan)."
+        "text": "Pour terminer",
+        "translation": "konstruksi infinitif tujuan yang mengubah makna urutan waktu menjadi tujuan masa depan."
       },
       {
         "key": "E",
-        "text": "Ayant terminé (forme composée du participe: ayant + Participe Passé terminé untuk menyatakan aksi tuntas sebelum verba utama)."
+        "text": "Ayant terminé",
+        "translation": "forme composée du participe: ayant + Participe Passé terminé untuk menyatakan aksi tuntas sebelum verba utama."
       }
     ],
     "correctKey": "E",
@@ -3293,23 +3641,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "présenté (bentuk maskulin tunggal tanpa accord yang keliru karena mengabaikan posisi COD sebelum verba) d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "présenté",
+        "translation": "bentuk maskulin tunggal tanpa accord yang keliru karena mengabaikan posisi COD sebelum verba d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "présentées (Participe Passé yang wajib diberi akhiran feminin jamak -es karena pronomina relatif COD 'que' merujuk pada anteseden les créations yang mendahului kata kerja bantu avoir)."
+        "text": "présentées",
+        "translation": "Participe Passé yang wajib diberi akhiran feminin jamak -es karena pronomina relatif COD 'que' merujuk pada anteseden les créations yang mendahului kata kerja bantu avoir."
       },
       {
         "key": "C",
-        "text": "présentée (bentuk feminin tunggal yang melupakan penanda kuantitas jamak créations)."
+        "text": "présentée",
+        "translation": "bentuk feminin tunggal yang melupakan penanda kuantitas jamak créations."
       },
       {
         "key": "D",
-        "text": "présentés (bentuk maskulin jamak yang salah gender untuk kata benda feminin une création)."
+        "text": "présentés",
+        "translation": "bentuk maskulin jamak yang salah gender untuk kata benda feminin une création."
       },
       {
         "key": "E",
-        "text": "présentaient (bentuk Imparfait yang merusak konstruksi waktu majemuk Passé Composé a présenté)."
+        "text": "présentaient",
+        "translation": "bentuk Imparfait yang merusak konstruksi waktu majemuk Passé Composé a présenté."
       }
     ],
     "correctKey": "B",
@@ -3336,23 +3689,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "peut (bentuk Présent de l'indicatif yang salah modus karena verba kehendak/harapan souhaiter que menuntut subjonctif)."
+        "text": "peut",
+        "translation": "bentuk Présent de l'indicatif yang salah modus karena verba kehendak/harapan souhaiter que menuntut subjonctif."
       },
       {
         "key": "B",
-        "text": "pourra (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "pourra",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "C",
-        "text": "puisse (akar tidak beraturan puiss- + akhiran Subjonctif persona ketiga tunggal -e)."
+        "text": "puisse",
+        "translation": "akar tidak beraturan puiss- + akhiran Subjonctif persona ketiga tunggal -e."
       },
       {
         "key": "D",
-        "text": "pourrait (bentuk Conditionnel Présent yang tidak sesuai fungsi klausula subordinat keinginan)."
+        "text": "pourrait",
+        "translation": "bentuk Conditionnel Présent yang tidak sesuai fungsi klausula subordinat keinginan."
       },
       {
         "key": "E",
-        "text": "puissent (bentuk Subjonctif persona jamak yang keliru jumlah untuk subjek tunggal chaque famille)."
+        "text": "puissent",
+        "translation": "bentuk Subjonctif persona jamak yang keliru jumlah untuk subjek tunggal chaque famille."
       }
     ],
     "correctKey": "C",
@@ -3422,23 +3780,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "parle / offriront (pengandaian realitas masa depan nyata dengan Présent dan Futur Simple) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "parle / offriront",
+        "translation": "pengandaian realitas masa depan nyata dengan Présent dan Futur Simple déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "parlerait / offraient (urutan terbalik yang dilarang mutlak karena menempatkan Conditionnel di dalam anak kalimat si)."
+        "text": "parlerait / offraient",
+        "translation": "urutan terbalik yang dilarang mutlak karena menempatkan Conditionnel di dalam anak kalimat si."
       },
       {
         "key": "C",
-        "text": "avait parlé / auraient offert (pengandaian kontrafaktual masa lampau Irréel du passé)."
+        "text": "avait parlé / auraient offert",
+        "translation": "pengandaian kontrafaktual masa lampau Irréel du passé."
       },
       {
         "key": "D",
-        "text": "parlerait / offriraient (kesalahan penggunaan Conditionnel ganda pada kedua klausula)."
+        "text": "parlerait / offriraient",
+        "translation": "kesalahan penggunaan Conditionnel ganda pada kedua klausula."
       },
       {
         "key": "E",
-        "text": "parlait / offriraient (anak kalimat si dengan Imparfait 'parlait' dan induk kalimat akibat dengan Conditionnel Présent 'offriraient')."
+        "text": "parlait / offriraient",
+        "translation": "anak kalimat si dengan Imparfait 'parlait' dan induk kalimat akibat dengan Conditionnel Présent 'offriraient'."
       }
     ],
     "correctKey": "E",
@@ -3465,23 +3828,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "te les (urutan baku pronomina: pronomina orang pertama/kedua 'te' mendahului pronomina COD persona ketiga 'les')."
+        "text": "te les",
+        "translation": "urutan baku pronomina: pronomina orang pertama/kedua 'te' mendahului pronomina COD persona ketiga 'les'."
       },
       {
         "key": "B",
-        "text": "les te (urutan terbalik yang melanggar hukum urutan pronomina klitik bahasa Prancis) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "les te",
+        "translation": "urutan terbalik yang melanggar hukum urutan pronomina klitik bahasa Prancis d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "les lui (kesalahan merujuk pada orang ketiga padahal pembicara sedang berdialog langsung dengan lawan bicara te)."
+        "text": "les lui",
+        "translation": "kesalahan merujuk pada orang ketiga padahal pembicara sedang berdialog langsung dengan lawan bicara te."
       },
       {
         "key": "D",
-        "text": "t'en (penggunaan pronomina partitif en yang keliru untuk objek spesifik definit les photos argentiques)."
+        "text": "t'en",
+        "translation": "penggunaan pronomina partitif en yang keliru untuk objek spesifik definit les photos argentiques."
       },
       {
         "key": "E",
-        "text": "te leur (kesalahan mencampuradukkan dua pronomina COI orang sekaligus)."
+        "text": "te leur",
+        "translation": "kesalahan mencampuradukkan dua pronomina COI orang sekaligus."
       }
     ],
     "correctKey": "A",
@@ -3508,23 +3876,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ont (bentuk Présent de l'indicatif yang salah modus setelah konjungsi subordinatif bien que) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ont",
+        "translation": "bentuk Présent de l'indicatif yang salah modus setelah konjungsi subordinatif bien que d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "aient (bentuk Subjonctif Présent persona ketiga jamak yang dituntut oleh konjungsi konsesif bien que)."
+        "text": "aient",
+        "translation": "bentuk Subjonctif Présent persona ketiga jamak yang dituntut oleh konjungsi konsesif bien que."
       },
       {
         "key": "C",
-        "text": "avaient (bentuk Imparfait indikatif yang salah modus)."
+        "text": "avaient",
+        "translation": "bentuk Imparfait indikatif yang salah modus."
       },
       {
         "key": "D",
-        "text": "auront (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "auront",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "aies (bentuk Subjonctif untuk persona kedua tunggal tu)."
+        "text": "aies",
+        "translation": "bentuk Subjonctif untuk persona kedua tunggal tu."
       }
     ],
     "correctKey": "B",
@@ -3594,23 +3967,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "que (pronomina relatif COD yang salah karena tidak dapat mengekspresikan preposisi de)."
+        "text": "que",
+        "translation": "pronomina relatif COD yang salah karena tidak dapat mengekspresikan preposisi de."
       },
       {
         "key": "B",
-        "text": "qui (pronomina relatif subjek yang keliru karena klausula subordinat sudah memiliki subjek lengkap notre établissement)."
+        "text": "qui",
+        "translation": "pronomina relatif subjek yang keliru karena klausula subordinat sudah memiliki subjek lengkap notre établissement."
       },
       {
         "key": "C",
-        "text": "auxquels (pronomina relatif majemuk dengan preposisi à yang keliru valensi karena ekspresi bangga menggunakan preposisi de)."
+        "text": "auxquels",
+        "translation": "pronomina relatif majemuk dengan preposisi à yang keliru valensi karena ekspresi bangga menggunakan preposisi de."
       },
       {
         "key": "D",
-        "text": "dont (pronomina relatif yang menggantikan komplemen yang diperkenalkan oleh preposisi de dalam konstruksi être fier de)."
+        "text": "dont",
+        "translation": "pronomina relatif yang menggantikan komplemen yang diperkenalkan oleh preposisi de dalam konstruksi être fier de."
       },
       {
         "key": "E",
-        "text": "pour qui (frasa preposisional yang redundan dan tidak membentuk struktur sintaksis baku dengan être fier de)."
+        "text": "pour qui",
+        "translation": "frasa preposisional yang redundan dan tidak membentuk struktur sintaksis baku dengan être fier de."
       }
     ],
     "correctKey": "D",
@@ -3637,23 +4015,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "prenent (kesalahan ortografi dengan hanya menulis satu huruf konsonan n) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "prenent",
+        "translation": "kesalahan ortografi dengan hanya menulis satu huruf konsonan n déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "prennentent (kesalahan redundansi akhiran persona jamak)."
+        "text": "prennentent",
+        "translation": "kesalahan redundansi akhiran persona jamak."
       },
       {
         "key": "C",
-        "text": "prennentions (kesalahan mencampur akhiran jamak -ions dengan bentuk dasar)."
+        "text": "prennentions",
+        "translation": "kesalahan mencampur akhiran jamak -ions dengan bentuk dasar."
       },
       {
         "key": "D",
-        "text": "prissent (bentuk Subjonctif Imparfait kuno yang tidak lagi digunakan dalam bahasa Prancis modern)."
+        "text": "prissent",
+        "translation": "bentuk Subjonctif Imparfait kuno yang tidak lagi digunakan dalam bahasa Prancis modern."
       },
       {
         "key": "E",
-        "text": "prennent (konjugasi Subjonctif persona ketiga jamak dengan konsonan ganda -nnent yang dituntut oleh frasa il est impératif que)."
+        "text": "prennent",
+        "translation": "konjugasi Subjonctif persona ketiga jamak dengan konsonan ganda -nnent yang dituntut oleh frasa il est impératif que."
       }
     ],
     "correctKey": "E",
@@ -3680,23 +4063,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "de (preposisi pelaku pasif yang secara baku digunakan untuk verba keadaan, perasaan, sentimen batin, dan deskripsi moral)."
+        "text": "de",
+        "translation": "preposisi pelaku pasif yang secara baku digunakan untuk verba keadaan, perasaan, sentimen batin, dan deskripsi moral."
       },
       {
         "key": "B",
-        "text": "par (preposisi pelaku yang lazim untuk tindakan fisik nyata, namun kurang tepat untuk verba perasaan batin aimer/respecter)."
+        "text": "par",
+        "translation": "preposisi pelaku yang lazim untuk tindakan fisik nyata, namun kurang tepat untuk verba perasaan batin aimer/respecter."
       },
       {
         "key": "C",
-        "text": "avec (preposisi sarana kebersamaan yang salah fungsi sebagai penanda agen pasif)."
+        "text": "avec",
+        "translation": "preposisi sarana kebersamaan yang salah fungsi sebagai penanda agen pasif."
       },
       {
         "key": "D",
-        "text": "pour (preposisi tujuan atau alasan yang keliru makna sintaksis)."
+        "text": "pour",
+        "translation": "preposisi tujuan atau alasan yang keliru makna sintaksis."
       },
       {
         "key": "E",
-        "text": "envers (preposisi sikap perilaku yang tidak berfungsi sebagai pengantar agen dalam konstruksi pasif)."
+        "text": "envers",
+        "translation": "preposisi sikap perilaku yang tidak berfungsi sebagai pengantar agen dalam konstruksi pasif."
       }
     ],
     "correctKey": "A",
@@ -3723,23 +4111,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ont commis / s'est écrasée (kombinasi Passé Composé faktual yang salah karena mengklaim wahana tersebut benar-benar jatuh hancur) d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "ont commis / s'est écrasée",
+        "translation": "kombinasi Passé Composé faktual yang salah karena mengklaim wahana tersebut benar-benar jatuh hancur d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "B",
-        "text": "avaient commis / se serait écrasée (anak kalimat si dengan Plus-que-parfait 'avaient commis' dan klausula akibat dengan Conditionnel Passé 'se serait écrasée' dengan penyesuaian feminin -e untuk la sonde)."
+        "text": "avaient commis / se serait écrasée",
+        "translation": "anak kalimat si dengan Plus-que-parfait 'avaient commis' dan klausula akibat dengan Conditionnel Passé 'se serait écrasée' dengan penyesuaian feminin -e untuk la sonde."
       },
       {
         "key": "C",
-        "text": "auraient commis / s'écrasait (urutan terbalik yang dilarang karena menempatkan Conditionnel di anak kalimat si)."
+        "text": "auraient commis / s'écrasait",
+        "translation": "urutan terbalik yang dilarang karena menempatkan Conditionnel di anak kalimat si."
       },
       {
         "key": "D",
-        "text": "avaient commis / s'écraserait (kombinasi pincang antara Plus-que-parfait di anak kalimat dengan Conditionnel Présent di induk kalimat)."
+        "text": "avaient commis / s'écraserait",
+        "translation": "kombinasi pincang antara Plus-que-parfait di anak kalimat dengan Conditionnel Présent di induk kalimat."
       },
       {
         "key": "E",
-        "text": "commettraient / se serait écrasée (penggunaan Conditionnel Présent di anak kalimat si yang melanggar aturan sintaksis)."
+        "text": "commettraient / se serait écrasée",
+        "translation": "penggunaan Conditionnel Présent di anak kalimat si yang melanggar aturan sintaksis."
       }
     ],
     "correctKey": "B",
@@ -3809,23 +4202,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ait revenu (kesalahan fatal kata kerja bantu avoir untuk verba perpindahan tempat revenir)."
+        "text": "ait revenu",
+        "translation": "kesalahan fatal kata kerja bantu avoir untuk verba perpindahan tempat revenir."
       },
       {
         "key": "B",
-        "text": "soit revenue (kesalahan penambahan akhiran feminin -e untuk subjek maskulin mon fils)."
+        "text": "soit revenue",
+        "translation": "kesalahan penambahan akhiran feminin -e untuk subjek maskulin mon fils."
       },
       {
         "key": "C",
-        "text": "est revenu (bentuk Passé Composé indikatif yang keliru karena être soulagé que menuntut modus subjonctif)."
+        "text": "est revenu",
+        "translation": "bentuk Passé Composé indikatif yang keliru karena être soulagé que menuntut modus subjonctif."
       },
       {
         "key": "D",
-        "text": "soit revenu (Subjonctif Passé dengan kata kerja bantu être 'soit' + Participe Passé 'revenu')."
+        "text": "soit revenu",
+        "translation": "Subjonctif Passé dengan kata kerja bantu être 'soit' + Participe Passé 'revenu'."
       },
       {
         "key": "E",
-        "text": "serait revenu (bentuk Conditionnel Passé yang tidak cocok untuk klausula emosional perasaan lega)."
+        "text": "serait revenu",
+        "translation": "bentuk Conditionnel Passé yang tidak cocok untuk klausula emosional perasaan lega."
       }
     ],
     "correctKey": "D",
@@ -3868,7 +4266,8 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menempuh strategi gabungan (double trajectoire) antara peremajaan teknologi tenaga nuklir rendah karbon dan ekspansi besar-besaran energi terbarukan angin dan surya."
+        "text": "Menempuh strategi gabungan",
+        "translation": "double trajectoire antara peremajaan teknologi tenaga nuklir rendah karbon dan ekspansi besar-besaran energi terbarukan angin dan surya."
       }
     ],
     "correctKey": "E",
@@ -3895,23 +4294,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "aucun / ne (pronomina negasi subjek 'aucun' yang berpasangan secara eksklusif dengan partikel 'ne' tanpa menyertakan partikel pas)."
+        "text": "aucun / ne",
+        "translation": "pronomina negasi subjek 'aucun' yang berpasangan secara eksklusif dengan partikel 'ne' tanpa menyertakan partikel pas."
       },
       {
         "key": "B",
-        "text": "aucun / ne ... pas (kesalahan memasukkan partikel pas yang dilarang keras bila sudah ada pronomina negasi aucun) d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "aucun / ne ... pas",
+        "translation": "kesalahan memasukkan partikel pas yang dilarang keras bila sudah ada pronomina negasi aucun d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "personne / ne ... rien (penggunaan negasi ganda yang merusak struktur semantik kalimat kualifikasi kerja)."
+        "text": "personne / ne ... rien",
+        "translation": "penggunaan negasi ganda yang merusak struktur semantik kalimat kualifikasi kerja."
       },
       {
         "key": "D",
-        "text": "nul / n'a pas (kesalahan sintaksis penambahan partikel pas setelah subjek negasi nul)."
+        "text": "nul / n'a pas",
+        "translation": "kesalahan sintaksis penambahan partikel pas setelah subjek negasi nul."
       },
       {
         "key": "E",
-        "text": "certains / ne ... jamais (kontradiksi logika semantik antara kata beberapa dengan negasi tidak pernah)."
+        "text": "certains / ne ... jamais",
+        "translation": "kontradiksi logika semantik antara kata beberapa dengan negasi tidak pernah."
       }
     ],
     "correctKey": "A",
@@ -3938,23 +4342,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "pouvons (bentuk Présent de l'indicatif yang keliru karena ne pas croire que menuntut subjonctif)."
+        "text": "pouvons",
+        "translation": "bentuk Présent de l'indicatif yang keliru karena ne pas croire que menuntut subjonctif."
       },
       {
         "key": "B",
-        "text": "puissions (akar subjonctif puiss- + akhiran Subjonctif persona pertama jamak -ions)."
+        "text": "puissions",
+        "translation": "akar subjonctif puiss- + akhiran Subjonctif persona pertama jamak -ions."
       },
       {
         "key": "C",
-        "text": "pouvions (bentuk Imparfait indikatif yang salah modus)."
+        "text": "pouvions",
+        "translation": "bentuk Imparfait indikatif yang salah modus."
       },
       {
         "key": "D",
-        "text": "pourrions (bentuk Conditionnel Présent yang salah fungsi pada klausula subordinat)."
+        "text": "pourrions",
+        "translation": "bentuk Conditionnel Présent yang salah fungsi pada klausula subordinat."
       },
       {
         "key": "E",
-        "text": "puissons (kesalahan akhiran -ons pada akar subjonctif)."
+        "text": "puissons",
+        "translation": "kesalahan akhiran -ons pada akar subjonctif."
       }
     ],
     "correctKey": "B",
@@ -3981,23 +4390,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "en y (urutan terbalik yang melanggar hukum fonetik dan sintaksis bahasa Prancis) conformément au contexte sémantique de l'Académie française et du texte."
+        "text": "en y",
+        "translation": "urutan terbalik yang melanggar hukum fonetik dan sintaksis bahasa Prancis conformément au contexte sémantique de l'Académie française et du texte."
       },
       {
         "key": "B",
-        "text": "l'en (kombinasi keliru pronomina langsung dengan partitif)."
+        "text": "l'en",
+        "translation": "kombinasi keliru pronomina langsung dengan partitif."
       },
       {
         "key": "C",
-        "text": "y en (urutan baku pronomina adverbial di mana pronomina tempat 'y' mendahului pronomina kuantitas 'en')."
+        "text": "y en",
+        "translation": "urutan baku pronomina adverbial di mana pronomina tempat 'y' mendahului pronomina kuantitas 'en'."
       },
       {
         "key": "D",
-        "text": "les y (penggunaan pronomina definit les yang tidak sesuai dengan partisi kuantitas une dizaine)."
+        "text": "les y",
+        "translation": "penggunaan pronomina definit les yang tidak sesuai dengan partisi kuantitas une dizaine."
       },
       {
         "key": "E",
-        "text": "y les (kombinasi salah fungsi sintaksis)."
+        "text": "y les",
+        "translation": "kombinasi salah fungsi sintaksis."
       }
     ],
     "correctKey": "C",
@@ -4024,23 +4438,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "diminue (Subjonctif yang secara kebetulan berakhiran sama namun salah konsep landasan gramatikal) d'après les normes de communication pragmatique socioculturelle française."
+        "text": "diminue",
+        "translation": "Subjonctif yang secara kebetulan berakhiran sama namun salah konsep landasan gramatikal d'après les normes de communication pragmatique socioculturelle française."
       },
       {
         "key": "B",
-        "text": "diminuât (bentuk Subjonctif Imparfait yang tidak sesuai dengan penanda waktu waktu sekarang)."
+        "text": "diminuât",
+        "translation": "bentuk Subjonctif Imparfait yang tidak sesuai dengan penanda waktu waktu sekarang."
       },
       {
         "key": "C",
-        "text": "diminuerait (bentuk Conditionnel Présent yang tidak dapat menjadi pelengkap konjungsi perbandingan fakta nyata tandis que)."
+        "text": "diminuerait",
+        "translation": "bentuk Conditionnel Présent yang tidak dapat menjadi pelengkap konjungsi perbandingan fakta nyata tandis que."
       },
       {
         "key": "D",
-        "text": "diminue (bentuk Présent de l'indicatif persona ketiga tunggal yang dituntut oleh konjungsi oposisi fakta nyata tandis que)."
+        "text": "diminue",
+        "translation": "bentuk Présent de l'indicatif persona ketiga tunggal yang dituntut oleh konjungsi oposisi fakta nyata tandis que."
       },
       {
         "key": "E",
-        "text": "ayant diminué (bentuk Participe Passé Composé yang merusak integritas klausa berkonjungsi)."
+        "text": "ayant diminué",
+        "translation": "bentuk Participe Passé Composé yang merusak integritas klausa berkonjungsi."
       }
     ],
     "correctKey": "D",
@@ -4067,23 +4486,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "consultez (bentuk Présent de l'indicatif yang salah modus karena frasa il vaut mieux que mewajibkan subjonctif) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "consultez",
+        "translation": "bentuk Présent de l'indicatif yang salah modus karena frasa il vaut mieux que mewajibkan subjonctif déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "consulterez (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "consulterez",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "C",
-        "text": "consulteriez (bentuk Conditionnel Présent yang salah fungsi pada anak kalimat subordinat saran)."
+        "text": "consulteriez",
+        "translation": "bentuk Conditionnel Présent yang salah fungsi pada anak kalimat subordinat saran."
       },
       {
         "key": "D",
-        "text": "avez consulté (bentuk Passé Composé indikatif yang keliru aspek waktu)."
+        "text": "avez consulté",
+        "translation": "bentuk Passé Composé indikatif yang keliru aspek waktu."
       },
       {
         "key": "E",
-        "text": "consultiez (akar consult- + akhiran Subjonctif persona kedua jamak -iez yang dipicu oleh frasa penilaian il vaut mieux que)."
+        "text": "consultiez",
+        "translation": "akar consult- + akhiran Subjonctif persona kedua jamak -iez yang dipicu oleh frasa penilaian il vaut mieux que."
       }
     ],
     "correctKey": "E",
@@ -4110,23 +4534,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "fait (Participe Passé dari kata kerja 'faire' yang diikuti langsung oleh infinitif TIDAK PERNAH mengalami accord dalam kondisi apa pun)."
+        "text": "fait",
+        "translation": "Participe Passé dari kata kerja 'faire' yang diikuti langsung oleh infinitif TIDAK PERNAH mengalami accord dalam kondisi apa pun."
       },
       {
         "key": "B",
-        "text": "faite (kesalahan penambahan penanda feminin tunggal -e) d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
+        "text": "faite",
+        "translation": "kesalahan penambahan penanda feminin tunggal -e d'après les règles de politesse formelle et l'accord grammatical en genre d'après les règles de politesse formelle et l'accord grammatical en genre."
       },
       {
         "key": "C",
-        "text": "faites (kesalahan menyelaraskan Participe Passé dengan objek les pierres de taille yang mendahului)."
+        "text": "faites",
+        "translation": "kesalahan menyelaraskan Participe Passé dengan objek les pierres de taille yang mendahului."
       },
       {
         "key": "D",
-        "text": "faisait (bentuk Imparfait indikatif yang merusak tenses waktu Passé Composé)."
+        "text": "faisait",
+        "translation": "bentuk Imparfait indikatif yang merusak tenses waktu Passé Composé."
       },
       {
         "key": "E",
-        "text": "faits (kesalahan penambahan akhiran maskulin jamak)."
+        "text": "faits",
+        "translation": "kesalahan penambahan akhiran maskulin jamak."
       }
     ],
     "correctKey": "A",
@@ -4196,23 +4625,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "meurt (bentuk Présent de l'indicatif yang salah modus setelah konjungsi rasa takut de peur que)."
+        "text": "meurt",
+        "translation": "bentuk Présent de l'indicatif yang salah modus setelah konjungsi rasa takut de peur que."
       },
       {
         "key": "B",
-        "text": "mourait (bentuk Imparfait indikatif yang salah modus)."
+        "text": "mourait",
+        "translation": "bentuk Imparfait indikatif yang salah modus."
       },
       {
         "key": "C",
-        "text": "meure (akar tidak beraturan meur- + akhiran Subjonctif persona ketiga tunggal -e)."
+        "text": "meure",
+        "translation": "akar tidak beraturan meur- + akhiran Subjonctif persona ketiga tunggal -e."
       },
       {
         "key": "D",
-        "text": "mourra (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "mourra",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "E",
-        "text": "meurent (bentuk Subjonctif jamak yang keliru jumlah untuk subjek tunggal cette espèce)."
+        "text": "meurent",
+        "translation": "bentuk Subjonctif jamak yang keliru jumlah untuk subjek tunggal cette espèce."
       }
     ],
     "correctKey": "C",
@@ -4239,23 +4673,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "laissée (bentuk tradisional dengan accord yang rentan menimbulkan kerancuan gramatikal dan tidak lagi diwajibkan)."
+        "text": "laissée",
+        "translation": "bentuk tradisional dengan accord yang rentan menimbulkan kerancuan gramatikal dan tidak lagi diwajibkan."
       },
       {
         "key": "B",
-        "text": "laissées (bentuk jamak yang keliru jumlah untuk subjek tunggal la fillette)."
+        "text": "laissées",
+        "translation": "bentuk jamak yang keliru jumlah untuk subjek tunggal la fillette."
       },
       {
         "key": "C",
-        "text": "laisser (bentuk dasar infinitif yang salah kedudukan dalam struktur Passé Composé)."
+        "text": "laisser",
+        "translation": "bentuk dasar infinitif yang salah kedudukan dalam struktur Passé Composé."
       },
       {
         "key": "D",
-        "text": "laissé (invariabel tanpa accord ketika diikuti langsung oleh kata kerja infinitif endormir)."
+        "text": "laissé",
+        "translation": "invariabel tanpa accord ketika diikuti langsung oleh kata kerja infinitif endormir."
       },
       {
         "key": "E",
-        "text": "laisserait (bentuk Conditionnel Présent yang salah tenses waktu)."
+        "text": "laisserait",
+        "translation": "bentuk Conditionnel Présent yang salah tenses waktu."
       }
     ],
     "correctKey": "D",
@@ -4282,23 +4721,28 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "peut (bentuk Indikatif yang keliru karena mengimplikasikan orang tersebut sudah ada dan dikenal pasti di depan mata) déduit de la structure logique de la proposition subordonnée circonstancielle."
+        "text": "peut",
+        "translation": "bentuk Indikatif yang keliru karena mengimplikasikan orang tersebut sudah ada dan dikenal pasti di depan mata déduit de la structure logique de la proposition subordonnée circonstancielle."
       },
       {
         "key": "B",
-        "text": "pourra (bentuk Futur Simple indikatif yang salah modus)."
+        "text": "pourra",
+        "translation": "bentuk Futur Simple indikatif yang salah modus."
       },
       {
         "key": "C",
-        "text": "pourrait (bentuk Conditionnel yang tidak mencerminkan modus wajib pencarian eksistensial)."
+        "text": "pourrait",
+        "translation": "bentuk Conditionnel yang tidak mencerminkan modus wajib pencarian eksistensial."
       },
       {
         "key": "D",
-        "text": "pouvait (bentuk Imparfait indikatif yang salah aspek waktu)."
+        "text": "pouvait",
+        "translation": "bentuk Imparfait indikatif yang salah aspek waktu."
       },
       {
         "key": "E",
-        "text": "puisse (modus Subjonctif yang wajib digunakan dalam klausa relatif ketika anteseden mengekspresikan entitas yang diinginkan, dicari, atau belum pasti eksistensinya)."
+        "text": "puisse",
+        "translation": "modus Subjonctif yang wajib digunakan dalam klausa relatif ketika anteseden mengekspresikan entitas yang diinginkan, dicari, atau belum pasti eksistensinya."
       }
     ],
     "correctKey": "E",
@@ -4313,28 +4757,33 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "naître (lahir: il est né / elle est née, mengalami perubahan status kehidupan).",
-        "correct": true
+        "text": "naître",
+        "correct": true,
+        "translation": "lahir: il est né / elle est née, mengalami perubahan status kehidupan."
       },
       {
         "key": "B",
-        "text": "manger (makan: verba transitif aksi fisik yang menggunakan kata kerja bantu avoir).",
-        "correct": false
+        "text": "manger",
+        "correct": false,
+        "translation": "makan: verba transitif aksi fisik yang menggunakan kata kerja bantu avoir."
       },
       {
         "key": "C",
-        "text": "tomber (jatuh: verba gerak perpindahan posisi fisik yang membentuk lampau dengan être: il est tombé).",
-        "correct": true
+        "text": "tomber",
+        "correct": true,
+        "translation": "jatuh: verba gerak perpindahan posisi fisik yang membentuk lampau dengan être: il est tombé."
       },
       {
         "key": "D",
-        "text": "chanter (bernyanyi: verba aktivitas bersuara yang berkonjugasi dengan kata kerja bantu avoir).",
-        "correct": false
+        "text": "chanter",
+        "correct": false,
+        "translation": "bernyanyi: verba aktivitas bersuara yang berkonjugasi dengan kata kerja bantu avoir."
       },
       {
         "key": "E",
-        "text": "lire (membaca: verba transitif yang membutuhkan objek bacaan dan berpasangan dengan avoir).",
-        "correct": false
+        "text": "lire",
+        "correct": false,
+        "translation": "membaca: verba transitif yang membutuhkan objek bacaan dan berpasangan dengan avoir."
       }
     ],
     "correctAnswer": [
@@ -4367,28 +4816,33 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Il est certain que (ungkapan kepastian mutlak yang wajib diikuti oleh modus Indikatif).",
-        "correct": false
+        "text": "Il est certain que",
+        "correct": false,
+        "translation": "ungkapan kepastian mutlak yang wajib diikuti oleh modus Indikatif."
       },
       {
         "key": "B",
-        "text": "Bien que (konjungsi subordinatif konsesif yang selalu menuntut pemakaian modus Subjonctif).",
-        "correct": true
+        "text": "Bien que",
+        "correct": true,
+        "translation": "konjungsi subordinatif konsesif yang selalu menuntut pemakaian modus Subjonctif."
       },
       {
         "key": "C",
-        "text": "Il est évident que (ungkapan bukti nyata obyektif yang diikuti oleh modus Indikatif).",
-        "correct": false
+        "text": "Il est évident que",
+        "correct": false,
+        "translation": "ungkapan bukti nyata obyektif yang diikuti oleh modus Indikatif."
       },
       {
         "key": "D",
-        "text": "Il est indispensable que (ungkapan impersonal keharusan mutlak yang wajib diikuti oleh modus Subjonctif).",
-        "correct": true
+        "text": "Il est indispensable que",
+        "correct": true,
+        "translation": "ungkapan impersonal keharusan mutlak yang wajib diikuti oleh modus Subjonctif."
       },
       {
         "key": "E",
-        "text": "Je sais que (ungkapan pengetahuan kepastian fakta yang wajib diikuti oleh modus Indikatif).",
-        "correct": false
+        "text": "Je sais que",
+        "correct": false,
+        "translation": "ungkapan pengetahuan kepastian fakta yang wajib diikuti oleh modus Indikatif."
       }
     ],
     "correctAnswer": [
@@ -4427,8 +4881,9 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Penghayatan nilai kebersamaan (*convivialité*) dan seni berbagi kebahagiaan antarmanusia dalam suasana santap yang hangat.",
-        "correct": true
+        "text": "Penghayatan nilai kebersamaan",
+        "correct": true,
+        "translation": "*convivialité* dan seni berbagi kebahagiaan antarmanusia dalam suasana santap yang hangat."
       },
       {
         "key": "C",
@@ -4437,8 +4892,9 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Larangan menyajikan produk pertanian lokal (*terroir*) demi menggantikannya dengan produk makanan kemasan pabrik.",
-        "correct": false
+        "text": "Larangan menyajikan produk pertanian lokal",
+        "correct": false,
+        "translation": "*terroir* demi menggantikannya dengan produk makanan kemasan pabrik."
       },
       {
         "key": "E",

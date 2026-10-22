@@ -1,8 +1,5 @@
-/**
- * TKA MASTERY HUB — QUESTIONS_BAHASA_JEPANG.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Bahasa Jepang N5-N4)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
- */
+// TKA MASTERY HUB - JEPANG QUESTIONS DATABASE
+// Automatically sanitized: pure foreign questions and options, translation available via toggle
 window.TKA_BAHASA_JEPANG_QUESTIONS = [
   {
     "id": "jpn-lat-e-01",
@@ -25,23 +22,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ついたち (Tsuitachi - cara baca khusus penanggalan untuk tanggal 1 setiap bulan)."
+        "text": "ついたち",
+        "translation": "Tsuitachi - cara baca khusus penanggalan untuk tanggal 1 setiap bulan."
       },
       {
         "key": "B",
-        "text": "いちにち (Ichinichi - cara baca yang merujuk pada durasi waktu selama satu hari, bukan penanggalan)."
+        "text": "いちにち",
+        "translation": "Ichinichi - cara baca yang merujuk pada durasi waktu selama satu hari, bukan penanggalan."
       },
       {
         "key": "C",
-        "text": "ひとつひ (Hitotsuhi - penggabungan kunyomi angka hitotsu dan hi yang keliru dalam penanggalan)."
+        "text": "ひとつひ",
+        "translation": "Hitotsuhi - penggabungan kunyomi angka hitotsu dan hi yang keliru dalam penanggalan."
       },
       {
         "key": "D",
-        "text": "いちひ (Ichihi - pembacaan harfiah yang tidak dikenal dalam ortografi bahasa Jepang baku)."
+        "text": "いちひ",
+        "translation": "Ichihi - pembacaan harfiah yang tidak dikenal dalam ortografi bahasa Jepang baku."
       },
       {
         "key": "E",
-        "text": "つぎひ (Tsugihi - kesalahan asosiasi fonetis dengan kata tsugi yang berarti berikutnya)."
+        "text": "つぎひ",
+        "translation": "Tsugihi - kesalahan asosiasi fonetis dengan kata tsugi yang berarti berikutnya."
       }
     ],
     "correctKey": "A",
@@ -68,23 +70,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "した (Shita - antonim yang memiliki arti posisi di bawah) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "した",
+        "translation": "Shita - antonim yang memiliki arti posisi di bawah ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "うえ (Ue - di atas, menunjukkan posisi benda yang berada di permukaan meja)."
+        "text": "うえ",
+        "translation": "Ue - di atas, menunjukkan posisi benda yang berada di permukaan meja."
       },
       {
         "key": "C",
-        "text": "なか (Naka - posisi di dalam ruang tertutup atau laci meja)."
+        "text": "なか",
+        "translation": "Naka - posisi di dalam ruang tertutup atau laci meja."
       },
       {
         "key": "D",
-        "text": "まえ (Mae - posisi di depan atau di muka suatu objek)."
+        "text": "まえ",
+        "translation": "Mae - posisi di depan atau di muka suatu objek."
       },
       {
         "key": "E",
-        "text": "よこ (Yoko - posisi di samping atau sejajar secara horizontal)."
+        "text": "よこ",
+        "translation": "Yoko - posisi di samping atau sejajar secara horizontal."
       }
     ],
     "correctKey": "B",
@@ -111,23 +118,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ごごはちじはん (Gogo hachiji han - keliru pada kanji 前 yang disalahartikan sebagai gogo/sore)."
+        "text": "ごごはちじはん",
+        "translation": "Gogo hachiji han - keliru pada kanji 前 yang disalahartikan sebagai gogo/sore."
       },
       {
         "key": "B",
-        "text": "ごぜんようじはん (Gozen youji han - pembacaan angka delapan yang tertukar dengan angka empat)."
+        "text": "ごぜんようじはん",
+        "translation": "Gozen youji han - pembacaan angka delapan yang tertukar dengan angka empat."
       },
       {
         "key": "C",
-        "text": "ごぜんはちじはん (Gozen hachiji han - pukul 08.30 pagi)."
+        "text": "ごぜんはちじはん",
+        "translation": "Gozen hachiji han - pukul 08.30 pagi."
       },
       {
         "key": "D",
-        "text": "ごぜんはちときはん (Gozen hachitoki han - pembacaan kanji 時 dengan kunyomi toki yang tidak tepat untuk jam)."
+        "text": "ごぜんはちときはん",
+        "translation": "Gozen hachitoki han - pembacaan kanji 時 dengan kunyomi toki yang tidak tepat untuk jam."
       },
       {
         "key": "E",
-        "text": "ごぜんはちじぶん (Gozen hachijibun - pembacaan kanji 半 yang disalahartikan sebagai bun/menit)."
+        "text": "ごぜんはちじぶん",
+        "translation": "Gozen hachijibun - pembacaan kanji 半 yang disalahartikan sebagai bun/menit."
       }
     ],
     "correctKey": "C",
@@ -154,23 +166,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おかあさん (Okaasan - sebutan sopan/hormat untuk ibu orang lain atau panggilan langsung di rumah)."
+        "text": "おかあさん",
+        "translation": "Okaasan - sebutan sopan/hormat untuk ibu orang lain atau panggilan langsung di rumah."
       },
       {
         "key": "B",
-        "text": "ちち (Chichi - sebutan rendah hati yang khusus digunakan untuk ayah kandung sendiri)."
+        "text": "ちち",
+        "translation": "Chichi - sebutan rendah hati yang khusus digunakan untuk ayah kandung sendiri."
       },
       {
         "key": "C",
-        "text": "おばあさん (Obaasan - sebutan hormat untuk nenek atau wanita lanjut usia)."
+        "text": "おばあさん",
+        "translation": "Obaasan - sebutan hormat untuk nenek atau wanita lanjut usia."
       },
       {
         "key": "D",
-        "text": "はは (Haha - sebutan rendah hati untuk ibu kandung sendiri kepada pihak luar)."
+        "text": "はは",
+        "translation": "Haha - sebutan rendah hati untuk ibu kandung sendiri kepada pihak luar."
       },
       {
         "key": "E",
-        "text": "あね (Ane - sebutan rendah hati untuk kakak perempuan kandung sendiri)."
+        "text": "あね",
+        "translation": "Ane - sebutan rendah hati untuk kakak perempuan kandung sendiri."
       }
     ],
     "correctKey": "D",
@@ -197,23 +214,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "はさみ (Hasami - gunting yang digunakan untuk memotong kertas kerajinan) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "はさみ",
+        "translation": "Hasami - gunting yang digunakan untuk memotong kertas kerajinan diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "ホッチキス (Hotchikisu - staples penjilid lembaran dokumen tugas sekolah)."
+        "text": "ホッチキス",
+        "translation": "Hotchikisu - staples penjilid lembaran dokumen tugas sekolah."
       },
       {
         "key": "C",
-        "text": "けしゴム (Keshigomu - karet penghapus tulisan pensil pada buku catatan siswa)."
+        "text": "けしゴム",
+        "translation": "Keshigomu - karet penghapus tulisan pensil pada buku catatan siswa."
       },
       {
         "key": "D",
-        "text": "じょうぎ (Jougi - penggaris yang dipakai untuk mengukur dan menarik garis lurus)."
+        "text": "じょうぎ",
+        "translation": "Jougi - penggaris yang dipakai untuk mengukur dan menarik garis lurus."
       },
       {
         "key": "E",
-        "text": "チョーク (Chooku - kapur tulis yang digunakan untuk menulis pada papan tulis hitam / kokuban)."
+        "text": "チョーク",
+        "translation": "Chooku - kapur tulis yang digunakan untuk menulis pada papan tulis hitam / kokuban."
       }
     ],
     "correctKey": "E",
@@ -231,7 +253,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan dialog singkat berikut:\nTanaka: 'この シャツは とても [たかい] ですね。'\nKen: 'いいえ、そんなに たかくないですよ。あそこの 店のほうが もっと [ ... ] です。'\nKata sifat antonim dari 'たかい' (mahal) untuk melengkapi pernyataan Ken adalah...",
+    "questionHtml": "Perhatikan dialog singkat berikut:\nTanaka: 'この シャツは とても [たかい] ですね。'\nKen: 'いいえ、そんなに たかくないですよ。あそこの 店のほうが もっと [ ... ] です。'\nKata sifat antonim dari 'たかい' untuk melengkapi pernyataan Ken adalah...",
     "formulaHud": {
       "title": "ANTONIM KATA SIFAT-I (対義語)",
       "latex": "\\text{高い (たかい - Mahal)} \\quad \\longleftrightarrow \\quad \\mathbf{\\text{安い (やすい - Murah)}}",
@@ -240,23 +262,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "やすい (Yasui - murah dari segi harga barang di toko)."
+        "text": "やすい",
+        "translation": "Yasui - murah dari segi harga barang di toko."
       },
       {
         "key": "B",
-        "text": "ひくい (Hikui - rendah dari segi ukuran tinggi fisik permukaan atau postur)."
+        "text": "ひくい",
+        "translation": "Hikui - rendah dari segi ukuran tinggi fisik permukaan atau postur."
       },
       {
         "key": "C",
-        "text": "ちいさい (Chiisai - kecil dari segi volume atau dimensi ukuran benda pakaian)."
+        "text": "ちいさい",
+        "translation": "Chiisai - kecil dari segi volume atau dimensi ukuran benda pakaian."
       },
       {
         "key": "D",
-        "text": "ふるい (Furui - usang atau tua dari segi usia pemakaian barang)."
+        "text": "ふるい",
+        "translation": "Furui - usang atau tua dari segi usia pemakaian barang."
       },
       {
         "key": "E",
-        "text": "おもい (Omoi - berat dari segi timbangan massa benda pakaian)."
+        "text": "おもい",
+        "translation": "Omoi - berat dari segi timbangan massa benda pakaian."
       }
     ],
     "correctKey": "A",
@@ -283,23 +310,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "みます (Mimasu - menonton tayangan visual seperti film atau televisi)."
+        "text": "みます",
+        "translation": "Mimasu - menonton tayangan visual seperti film atau televisi."
       },
       {
         "key": "B",
-        "text": "ききます (Kikimasu - mendengarkan musik kegemaran dengan seksama)."
+        "text": "ききます",
+        "translation": "Kikimasu - mendengarkan musik kegemaran dengan seksama."
       },
       {
         "key": "C",
-        "text": "よみます (Yomimasu - membaca bahan literatur berupa buku, novel, atau koran)."
+        "text": "よみます",
+        "translation": "Yomimasu - membaca bahan literatur berupa buku, novel, atau koran."
       },
       {
         "key": "D",
-        "text": "かきます (Kakimasu - menulis teks catatan atau menggambar ilustrasi grafis)."
+        "text": "かきます",
+        "translation": "Kakimasu - menulis teks catatan atau menggambar ilustrasi grafis."
       },
       {
         "key": "E",
-        "text": "はなします (Hanashimasu - berbicara atau berkomunikasi lisan dengan mitra bicara)."
+        "text": "はなします",
+        "translation": "Hanashimasu - berbicara atau berkomunikasi lisan dengan mitra bicara."
       }
     ],
     "correctKey": "B",
@@ -326,23 +358,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ほん / ぽん (Hon/Pon - satuan hitung untuk benda berbentuk silindris panjang seperti pensil dan botol) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "ほん / ぽん",
+        "translation": "Hon/Pon - satuan hitung untuk benda berbentuk silindris panjang seperti pensil dan botol sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "さつ (Satsu - satuan hitung untuk buku berukuran tebal atau jilidan majalah)."
+        "text": "さつ",
+        "translation": "Satsu - satuan hitung untuk buku berukuran tebal atau jilidan majalah."
       },
       {
         "key": "C",
-        "text": "まい (Mai - satuan hitung khusus untuk benda lembaran tipis seperti kertas, baju, piring, dan tiket)."
+        "text": "まい",
+        "translation": "Mai - satuan hitung khusus untuk benda lembaran tipis seperti kertas, baju, piring, dan tiket."
       },
       {
         "key": "D",
-        "text": "だい (Dai - satuan hitung untuk mesin mekanik, kendaraan bermotor, atau alat elektronik)."
+        "text": "だい",
+        "translation": "Dai - satuan hitung untuk mesin mekanik, kendaraan bermotor, atau alat elektronik."
       },
       {
         "key": "E",
-        "text": "ひき / ぴき (Hiki/Piki - satuan hitung untuk hewan berkaki empat berukuran kecil atau ikan)."
+        "text": "ひき / ぴき",
+        "translation": "Hiki/Piki - satuan hitung untuk hewan berkaki empat berukuran kecil atau ikan."
       }
     ],
     "correctKey": "C",
@@ -369,23 +406,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "なつ (Natsu - musim panas yang ditandai dengan suhu terik dan liburan pantai) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "なつ",
+        "translation": "Natsu - musim panas yang ditandai dengan suhu terik dan liburan pantai menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "あき (Aki - musim gugur yang ditandai dengan perubahan daun memerah / koyo)."
+        "text": "あき",
+        "translation": "Aki - musim gugur yang ditandai dengan perubahan daun memerah / koyo."
       },
       {
         "key": "C",
-        "text": "ふゆ (Fuyu - musim dingin yang bersuhu beku dan diwarnai hujan salju lebat)."
+        "text": "ふゆ",
+        "translation": "Fuyu - musim dingin yang bersuhu beku dan diwarnai hujan salju lebat."
       },
       {
         "key": "D",
-        "text": "はる (Haru - musim semi yang identik dengan mekarnya bunga sakura dan dimulainya tahun ajaran baru)."
+        "text": "はる",
+        "translation": "Haru - musim semi yang identik dengan mekarnya bunga sakura dan dimulainya tahun ajaran baru."
       },
       {
         "key": "E",
-        "text": "つゆ (Tsuyu - musim hujan musiman yang berlangsung antara akhir musim semi dan awal musim panas)."
+        "text": "つゆ",
+        "translation": "Tsuyu - musim hujan musiman yang berlangsung antara akhir musim semi dan awal musim panas."
       }
     ],
     "correctKey": "D",
@@ -412,23 +454,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "それ (Sore - kata tunjuk benda yang berada di dekat lawan bicara) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "それ",
+        "translation": "Sore - kata tunjuk benda yang berada di dekat lawan bicara diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "あれ (Are - kata tunjuk benda yang letaknya jauh dari pembicara maupun lawan bicara)."
+        "text": "あれ",
+        "translation": "Are - kata tunjuk benda yang letaknya jauh dari pembicara maupun lawan bicara."
       },
       {
         "key": "C",
-        "text": "どれ (Dore - kata tanya penunjuk pilihan di antara beberapa alternatif benda)."
+        "text": "どれ",
+        "translation": "Dore - kata tanya penunjuk pilihan di antara beberapa alternatif benda."
       },
       {
         "key": "D",
-        "text": "どこ (Doko - kata tanya penunjuk lokasi tempat keberadaan suatu entitas)."
+        "text": "どこ",
+        "translation": "Doko - kata tanya penunjuk lokasi tempat keberadaan suatu entitas."
       },
       {
         "key": "E",
-        "text": "これ (Kore - kata tunjuk benda yang berada di area jangkauan tangan pembicara sendiri)."
+        "text": "これ",
+        "translation": "Kore - kata tunjuk benda yang berada di area jangkauan tangan pembicara sendiri."
       }
     ],
     "correctKey": "E",
@@ -455,23 +502,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "は (wa) sebagai penanda topik kalimat, dan を (wo/o) sebagai penanda objek penderita verba transitif."
+        "text": "は",
+        "translation": "wa) sebagai penanda topik kalimat, dan を (wo/o sebagai penanda objek penderita verba transitif."
       },
       {
         "key": "B",
-        "text": "が (ga) sebagai penanda subjek fokus, dan に (ni) sebagai penanda titik waktu atau target ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "が",
+        "translation": "ga) sebagai penanda subjek fokus, dan に (ni sebagai penanda titik waktu atau target ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "を (wo) sebagai penanda objek langsung, dan で (de) sebagai penanda sarana alat makan."
+        "text": "を",
+        "translation": "wo) sebagai penanda objek langsung, dan で (de sebagai penanda sarana alat makan."
       },
       {
         "key": "D",
-        "text": "に (ni) sebagai penanda arah tujuan gerak, dan は (wa) sebagai penanda pembanding latar."
+        "text": "に",
+        "translation": "ni) sebagai penanda arah tujuan gerak, dan は (wa sebagai penanda pembanding latar."
       },
       {
         "key": "E",
-        "text": "で (de) sebagai penanda tempat peristiwa, dan と (to) sebagai penanda kesertaan rekan."
+        "text": "で",
+        "translation": "de) sebagai penanda tempat peristiwa, dan と (to sebagai penanda kesertaan rekan."
       }
     ],
     "correctKey": "A",
@@ -498,23 +550,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "に (ni - partikel penanda waktu spesifik atau sasaran tujuan perpindahan) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "に",
+        "translation": "ni - partikel penanda waktu spesifik atau sasaran tujuan perpindahan ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "で (de - partikel yang berfungsi menandai alat, sarana instrumen, atau metode kerja)."
+        "text": "で",
+        "translation": "de - partikel yang berfungsi menandai alat, sarana instrumen, atau metode kerja."
       },
       {
         "key": "C",
-        "text": "へ (e - partikel penanda arah pergerakan menuju destinasi geografis)."
+        "text": "へ",
+        "translation": "e - partikel penanda arah pergerakan menuju destinasi geografis."
       },
       {
         "key": "D",
-        "text": "を (wo - partikel penanda objek penderita langsung verba transitif)."
+        "text": "を",
+        "translation": "wo - partikel penanda objek penderita langsung verba transitif."
       },
       {
         "key": "E",
-        "text": "から (kara - partikel penanda titik awal waktu atau tempat keberangkatan)."
+        "text": "から",
+        "translation": "kara - partikel penanda titik awal waktu atau tempat keberangkatan."
       }
     ],
     "correctKey": "B",
@@ -541,23 +598,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "「きょう」 (Kyou - kata penunjuk waktu relatif hari ini tidak boleh dilekatkan partikel に) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "「きょう」",
+        "translation": "Kyou - kata penunjuk waktu relatif hari ini tidak boleh dilekatkan partikel に sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "「あした」 (Ashita - kata penunjuk waktu relatif besok tidak boleh menggunakan partikel に)."
+        "text": "「あした」",
+        "translation": "Ashita - kata penunjuk waktu relatif besok tidak boleh menggunakan partikel に."
       },
       {
         "key": "C",
-        "text": "「日曜日」 (Nichiyoubi - nama hari dalam sepekan merupakan titik waktu terukur pasti yang memerlukan partikel に)."
+        "text": "「日曜日」",
+        "translation": "Nichiyoubi - nama hari dalam sepekan merupakan titik waktu terukur pasti yang memerlukan partikel に."
       },
       {
         "key": "D",
-        "text": "「きのう」 (Kinou - penunjuk waktu relatif kemarin yang berfungsi langsung sebagai kata keterangan nomina)."
+        "text": "「きのう」",
+        "translation": "Kinou - penunjuk waktu relatif kemarin yang berfungsi langsung sebagai kata keterangan nomina."
       },
       {
         "key": "E",
-        "text": "「まいあさ」 (Maiasa - penunjuk frekuensi rutin setiap pagi yang tidak memakai partikel に)."
+        "text": "「まいあさ」",
+        "translation": "Maiasa - penunjuk frekuensi rutin setiap pagi yang tidak memakai partikel に."
       }
     ],
     "correctKey": "C",
@@ -584,23 +646,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "で (de - keliru karena de menandai tempat terjadinya aksi aktif, bukan tujuan perpindahan) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "で",
+        "translation": "de - keliru karena de menandai tempat terjadinya aksi aktif, bukan tujuan perpindahan menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "を (wo - penanda objek langsung yang tidak berpasangan dengan verba intransitif ikimasu)."
+        "text": "を",
+        "translation": "wo - penanda objek langsung yang tidak berpasangan dengan verba intransitif ikimasu."
       },
       {
         "key": "C",
-        "text": "が (ga - penanda subjek gramatikal yang tidak tepat mengisi posisi destinasi kota)."
+        "text": "が",
+        "translation": "ga - penanda subjek gramatikal yang tidak tepat mengisi posisi destinasi kota."
       },
       {
         "key": "D",
-        "text": "へ (e - partikel yang ditulis dengan hiragana 'he' namun dilafalkan 'e' untuk menandai arah destinasi perjalanan)."
+        "text": "へ",
+        "translation": "e - partikel yang ditulis dengan hiragana 'he' namun dilafalkan 'e' untuk menandai arah destinasi perjalanan."
       },
       {
         "key": "E",
-        "text": "と (to - penanda hubungan kesertaan yang sudah terwakili pada frasa kazoku to)."
+        "text": "と",
+        "translation": "to - penanda hubungan kesertaan yang sudah terwakili pada frasa kazoku to."
       }
     ],
     "correctKey": "D",
@@ -618,7 +685,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bentuk negatif lampau yang TEPAT dari verba 'たべます' (makan) untuk menyatakan bahwa subjek tidak makan apa pun kemarin malam adalah...",
+    "questionHtml": "Bentuk negatif lampau yang TEPAT dari verba 'たべます' untuk menyatakan bahwa subjek tidak makan apa pun kemarin malam adalah...",
     "formulaHud": {
       "title": "KONJUGASI BENTUK MASU (ます形の時制・極性変化)",
       "latex": "\\begin{array}{|c|c|c|} \\hline & \\text{Non-Lampau} & \\text{Lampau} \\\\ \\hline \\text{Positif} & \\text{~ます} & \\text{~ました} \\\\ \\hline \\text{Negatif} & \\text{~ません} & \\mathbf{\\text{~ませんでした}} \\\\ \\hline \\end{array}",
@@ -627,23 +694,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "たべません (Tabemasen - bentuk sopan negatif untuk waktu sekarang/kebiasaan masa depan)."
+        "text": "たべません",
+        "translation": "Tabemasen - bentuk sopan negatif untuk waktu sekarang/kebiasaan masa depan."
       },
       {
         "key": "B",
-        "text": "たべました (Tabemashita - bentuk sopan positif untuk peristiwa masa lampau)."
+        "text": "たべました",
+        "translation": "Tabemashita - bentuk sopan positif untuk peristiwa masa lampau."
       },
       {
         "key": "C",
-        "text": "たべないでした (Tabenaideshita - konstruksi bahasa percakapan informal yang tidak baku dalam ragam sopan)."
+        "text": "たべないでした",
+        "translation": "Tabenaideshita - konstruksi bahasa percakapan informal yang tidak baku dalam ragam sopan."
       },
       {
         "key": "D",
-        "text": "たべなかったです (Tabenakattadesu - bentuk pergaulan kasual yang dilekati kopula desu)."
+        "text": "たべなかったです",
+        "translation": "Tabenakattadesu - bentuk pergaulan kasual yang dilekati kopula desu."
       },
       {
         "key": "E",
-        "text": "たべませんでした (Tabemasendeshita - bentuk sopan negatif untuk peristiwa lampau)."
+        "text": "たべませんでした",
+        "translation": "Tabemasendeshita - bentuk sopan negatif untuk peristiwa lampau."
       }
     ],
     "correctKey": "E",
@@ -661,7 +733,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Verba 'かきます' (menulis / Kakimasu) termasuk dalam kata kerja Golongan I (akhiran bunyi -ki). Bagaimanakah perubahan bentuk -te (te-kei) yang BENAR dari verba tersebut?",
+    "questionHtml": "Verba 'かきます' termasuk dalam kata kerja Golongan I (akhiran bunyi -ki). Bagaimanakah perubahan bentuk -te (te-kei) yang BENAR dari verba tersebut?",
     "formulaHud": {
       "title": "KAIDAH ONBIN VERBA GOLONGAN I (イ音便の規則)",
       "latex": "\\text{Verba akhiran } [\\text{〜きます}] \\xrightarrow{\\text{Te-form}} \\mathbf{\\text{〜いて (ite)}} \\quad (\\text{かきます } \\to \\mathbf{\\text{かいて}})",
@@ -670,23 +742,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "かいて (Kaite - bunyi ki meluruh menjadi i diikuti te: ki -> ite)."
+        "text": "かいて",
+        "translation": "Kaite - bunyi ki meluruh menjadi i diikuti te: ki -> ite."
       },
       {
         "key": "B",
-        "text": "かきて (Kakite - tidak mengalami peluruhan fonologis onbin yang diwajibkan kaidah)."
+        "text": "かきて",
+        "translation": "Kakite - tidak mengalami peluruhan fonologis onbin yang diwajibkan kaidah."
       },
       {
         "key": "C",
-        "text": "かって (Katte - perubahan sokuonbin untuk verba berakhiran -chi, -ri, atau -i)."
+        "text": "かって",
+        "translation": "Katte - perubahan sokuonbin untuk verba berakhiran -chi, -ri, atau -i."
       },
       {
         "key": "D",
-        "text": "かんで (Kande - perubahan hatsuonbin untuk verba berakhiran -mi, -bi, atau -ni)."
+        "text": "かんで",
+        "translation": "Kande - perubahan hatsuonbin untuk verba berakhiran -mi, -bi, atau -ni."
       },
       {
         "key": "E",
-        "text": "かいで (Kaide - perubahan dakuon untuk verba berakhiran -gi seperti oyogimasu -> oyoide)."
+        "text": "かいで",
+        "translation": "Kaide - perubahan dakuon untuk verba berakhiran -gi seperti oyogimasu -> oyoide."
       }
     ],
     "correctKey": "A",
@@ -713,23 +790,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "教科書の 20ページを あけないでください。 (Permohonan negatif yang berarti meminta agar jangan membuka buku) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "教科書の 20ページを あけないでください。",
+        "translation": "Permohonan negatif yang berarti meminta agar jangan membuka buku ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "教科書の 20ページを あけてください。 (Kyoukasho no nijuu peeji wo akete kudasai - silakan buka buku paket halaman 20)."
+        "text": "教科書の 20ページを あけてください。",
+        "translation": "Kyoukasho no nijuu peeji wo akete kudasai - silakan buka buku paket halaman 20."
       },
       {
         "key": "C",
-        "text": "教科書の 20ページを あけてはいけません。 (Ungkapan larangan tegas yang berarti tidak boleh membuka buku)."
+        "text": "教科書の 20ページを あけてはいけません。",
+        "translation": "Ungkapan larangan tegas yang berarti tidak boleh membuka buku."
       },
       {
         "key": "D",
-        "text": "教科書の 20ページを あけてもいいです。 (Pemberian izin yang berarti boleh membuka buku paket)."
+        "text": "教科書の 20ページを あけてもいいです。",
+        "translation": "Pemberian izin yang berarti boleh membuka buku paket."
       },
       {
         "key": "E",
-        "text": "教科書の 20ページを あけます。 (Pernyataan diri sendiri bahwa pembicara yang akan membuka buku)."
+        "text": "教科書の 20ページを あけます。",
+        "translation": "Pernyataan diri sendiri bahwa pembicara yang akan membuka buku."
       }
     ],
     "correctKey": "B",
@@ -756,23 +838,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: います (makhluk hidup), B: あります (benda mati)."
+        "text": "A: います",
+        "translation": "makhluk hidup), B: あります (benda mati."
       },
       {
         "key": "B",
-        "text": "A: あります, B: あります (kedua entitas disamakan sebagai benda mati tanpa pembedaan biologis)."
+        "text": "A: あります, B: あります",
+        "translation": "kedua entitas disamakan sebagai benda mati tanpa pembedaan biologis."
       },
       {
         "key": "C",
-        "text": "A: あります (benda mati/tidak bergerak), B: います (makhluk hidup/bernyawa)."
+        "text": "A: あります",
+        "translation": "benda mati/tidak bergerak), B: います (makhluk hidup/bernyawa."
       },
       {
         "key": "D",
-        "text": "A: います, B: います (kedua entitas disamakan sebagai makhluk hidup bernyawa)."
+        "text": "A: います, B: います",
+        "translation": "kedua entitas disamakan sebagai makhluk hidup bernyawa."
       },
       {
         "key": "E",
-        "text": "A: ありません, B: いません (bentuk peniadaan yang bertentangan dengan konteks afirmasi)."
+        "text": "A: ありません, B: いません",
+        "translation": "bentuk peniadaan yang bertentangan dengan konteks afirmasi."
       }
     ],
     "correctKey": "C",
@@ -799,23 +886,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "冷たい 水を 飲まないです。 (Pernyataan negatif biasa bahwa pembicara tidak minum air dingin)."
+        "text": "冷たい 水を 飲まないです。",
+        "translation": "Pernyataan negatif biasa bahwa pembicara tidak minum air dingin."
       },
       {
         "key": "B",
-        "text": "冷たい 水を 飲んでください。 (Permintaan kepada orang lain untuk meminum air dingin tersebut)."
+        "text": "冷たい 水を 飲んでください。",
+        "translation": "Permintaan kepada orang lain untuk meminum air dingin tersebut."
       },
       {
         "key": "C",
-        "text": "冷たい 水を 飲んでもいいです。 (Pemberian izin kepada pihak lain untuk meminum air dingin)."
+        "text": "冷たい 水を 飲んでもいいです。",
+        "translation": "Pemberian izin kepada pihak lain untuk meminum air dingin."
       },
       {
         "key": "D",
-        "text": "冷たい 水が 飲みたいです。 (Tsumetai mizu ga nomitaidesu - saya ingin minum air dingin)."
+        "text": "冷たい 水が 飲みたいです。",
+        "translation": "Tsumetai mizu ga nomitaidesu - saya ingin minum air dingin."
       },
       {
         "key": "E",
-        "text": "冷たい 水を 飲みましょう。 (Ajakan bersama untuk meminum air dingin secara kolektif)."
+        "text": "冷たい 水を 飲みましょう。",
+        "translation": "Ajakan bersama untuk meminum air dingin secara kolektif."
       }
     ],
     "correctKey": "D",
@@ -842,23 +934,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "あそこで 少し やすみます。 (Pernyataan deklaratif tunggal bahwa dirinya sendiri akan beristirahat)."
+        "text": "あそこで 少し やすみます。",
+        "translation": "Pernyataan deklaratif tunggal bahwa dirinya sendiri akan beristirahat."
       },
       {
         "key": "B",
-        "text": "あそこで 少し やすんでください。 (Perintah atau permohonan sepihak kepada lawan bicara untuk beristirahat)."
+        "text": "あそこで 少し やすんでください。",
+        "translation": "Perintah atau permohonan sepihak kepada lawan bicara untuk beristirahat."
       },
       {
         "key": "C",
-        "text": "あそこで 少し やすみません。 (Pernyataan negatif bahwa mereka tidak akan beristirahat di tempat itu)."
+        "text": "あそこで 少し やすみません。",
+        "translation": "Pernyataan negatif bahwa mereka tidak akan beristirahat di tempat itu."
       },
       {
         "key": "D",
-        "text": "あそこで 少し やすみたいです。 (Ungkapan keinginan pribadi tanpa ada unsur mengajak lawan bicara secara inklusif)."
+        "text": "あそこで 少し やすみたいです。",
+        "translation": "Ungkapan keinginan pribadi tanpa ada unsur mengajak lawan bicara secara inklusif."
       },
       {
         "key": "E",
-        "text": "あそこで 少し やすみましょう。 (Asoko de sukoshi yasumimashou - mari kita beristirahat sebentar di sana)."
+        "text": "あそこで 少し やすみましょう。",
+        "translation": "Asoko de sukoshi yasumimashou - mari kita beristirahat sebentar di sana."
       }
     ],
     "correctKey": "E",
@@ -885,23 +982,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おはようございます (Ohayou gozaimasu - salam selamat pagi formal yang wajib digunakan kepada pihak yang dihormati)."
+        "text": "おはようございます",
+        "translation": "Ohayou gozaimasu - salam selamat pagi formal yang wajib digunakan kepada pihak yang dihormati."
       },
       {
         "key": "B",
-        "text": "おはよう (Ohayou - salam pagi bentuk kasual yang hanya boleh ditujukan kepada teman sebaya atau bawahan) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "おはよう",
+        "translation": "Ohayou - salam pagi bentuk kasual yang hanya boleh ditujukan kepada teman sebaya atau bawahan ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "こんにちは (Konnichiwa - salam selamat siang yang lazim digunakan mulai pukul 10.30 pagi ke atas)."
+        "text": "こんにちは",
+        "translation": "Konnichiwa - salam selamat siang yang lazim digunakan mulai pukul 10.30 pagi ke atas."
       },
       {
         "key": "D",
-        "text": "こんばんは (Konbanwa - salam selamat petang/malam hari saat matahari telah tenggelam)."
+        "text": "こんばんは",
+        "translation": "Konbanwa - salam selamat petang/malam hari saat matahari telah tenggelam."
       },
       {
         "key": "E",
-        "text": "おやすみなさい (Oyasuminasai - ucapan selamat beristirahat yang diucapkan menjelang tidur)."
+        "text": "おやすみなさい",
+        "translation": "Oyasuminasai - ucapan selamat beristirahat yang diucapkan menjelang tidur."
       }
     ],
     "correctKey": "A",
@@ -928,23 +1030,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ごちそうさまでした (Gochisousama deshita - ucapan rasa terima kasih yang diucapkan sesudah menyelesaikan santapan)."
+        "text": "ごちそうさまでした",
+        "translation": "Gochisousama deshita - ucapan rasa terima kasih yang diucapkan sesudah menyelesaikan santapan."
       },
       {
         "key": "B",
-        "text": "いただきます (Itadakimasu - secara harfiah bermakna menerima berkah hidangan dengan kerendahan hati)."
+        "text": "いただきます",
+        "translation": "Itadakimasu - secara harfiah bermakna menerima berkah hidangan dengan kerendahan hati."
       },
       {
         "key": "C",
-        "text": "いってきます (Ittekimasu - ucapan pamit saat hendak melangkah keluar meninggalkan rumah)."
+        "text": "いってきます",
+        "translation": "Ittekimasu - ucapan pamit saat hendak melangkah keluar meninggalkan rumah."
       },
       {
         "key": "D",
-        "text": "ただいま (Tadaima - ungkapan pemberitahuan bahwa diri sendiri telah kembali tiba di rumah)."
+        "text": "ただいま",
+        "translation": "Tadaima - ungkapan pemberitahuan bahwa diri sendiri telah kembali tiba di rumah."
       },
       {
         "key": "E",
-        "text": "おじゃまします (Ojamashimasu - ungkapan permisi saat memasuki rumah atau kediaman orang lain)."
+        "text": "おじゃまします",
+        "translation": "Ojamashimasu - ungkapan permisi saat memasuki rumah atau kediaman orang lain."
       }
     ],
     "correctKey": "B",
@@ -971,23 +1078,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おかえりなさい (Okaerinasai - ucapan sambutan selamat datang kembali saat seseorang tiba di rumah)."
+        "text": "おかえりなさい",
+        "translation": "Okaerinasai - ucapan sambutan selamat datang kembali saat seseorang tiba di rumah."
       },
       {
         "key": "B",
-        "text": "おつかれさまでした (Otsukaresama deshita - ucapan apresiasi atas kerja keras rekan kerja sesudah beraktivitas)."
+        "text": "おつかれさまでした",
+        "translation": "Otsukaresama deshita - ucapan apresiasi atas kerja keras rekan kerja sesudah beraktivitas."
       },
       {
         "key": "C",
-        "text": "いってらっしゃい (Itterasshai - ucapan selamat jalan dan doa agar kembali dengan selamat)."
+        "text": "いってらっしゃい",
+        "translation": "Itterasshai - ucapan selamat jalan dan doa agar kembali dengan selamat."
       },
       {
         "key": "D",
-        "text": "おげんきですか (Ogenki desu ka - kalimat menanyakan kabar kesehatan seseorang saat lama tak berjumpa)."
+        "text": "おげんきですか",
+        "translation": "Ogenki desu ka - kalimat menanyakan kabar kesehatan seseorang saat lama tak berjumpa."
       },
       {
         "key": "E",
-        "text": "さようなら (Sayounara - salam perpisahan berjarak yang jarang diucapkan di dalam internal rumah keluarga)."
+        "text": "さようなら",
+        "translation": "Sayounara - salam perpisahan berjarak yang jarang diucapkan di dalam internal rumah keluarga."
       }
     ],
     "correctKey": "C",
@@ -1014,23 +1126,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ごめんなさい (Gomennasai - ungkapan minta maaf emosional yang lazimnya terbatas pada pergaulan keluarga atau teman akrab) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "ごめんなさい",
+        "translation": "Gomennasai - ungkapan minta maaf emosional yang lazimnya terbatas pada pergaulan keluarga atau teman akrab menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "どういたしまして (Douitashimashite - balasan berupa ucapan terima kasih kembali / sama-sama)."
+        "text": "どういたしまして",
+        "translation": "Douitashimashite - balasan berupa ucapan terima kasih kembali / sama-sama."
       },
       {
         "key": "C",
-        "text": "しつれいしました (Shitsurei shimashita - bentuk lampau kaku yang biasanya dipakai sesudah selesai rapat formal kantor)."
+        "text": "しつれいしました",
+        "translation": "Shitsurei shimashita - bentuk lampau kaku yang biasanya dipakai sesudah selesai rapat formal kantor."
       },
       {
         "key": "D",
-        "text": "すみません (Sumimasen - permohonan maaf sopan sekaligus serbaguna untuk menarik perhatian atau meminta permisi di ruang publik)."
+        "text": "すみません",
+        "translation": "Sumimasen - permohonan maaf sopan sekaligus serbaguna untuk menarik perhatian atau meminta permisi di ruang publik."
       },
       {
         "key": "E",
-        "text": "おめでとうございます (Omedetou gozaimasu - ucapan selamat atas pencapaian prestasi atau peristiwa membahagiakan)."
+        "text": "おめでとうございます",
+        "translation": "Omedetou gozaimasu - ucapan selamat atas pencapaian prestasi atau peristiwa membahagiakan."
       }
     ],
     "correctKey": "D",
@@ -1057,23 +1174,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "敬礼 (Keirei - salam bungkuk standar bersudut sekitar 30 derajat untuk menyapa atasan, guru, atau klien bisnis)."
+        "text": "敬礼",
+        "translation": "Keirei - salam bungkuk standar bersudut sekitar 30 derajat untuk menyapa atasan, guru, atau klien bisnis."
       },
       {
         "key": "B",
-        "text": "最敬礼 (Saikeirei - salam bungkuk rasa hormat tertinggi bersudut 45 derajat untuk memohon maaf mendalam atau upacara sakral)."
+        "text": "最敬礼",
+        "translation": "Saikeirei - salam bungkuk rasa hormat tertinggi bersudut 45 derajat untuk memohon maaf mendalam atau upacara sakral."
       },
       {
         "key": "C",
-        "text": "正座 (Seiza - posisi duduk bersimpuh formal dengan melipat kedua kaki di atas tatami)."
+        "text": "正座",
+        "translation": "Seiza - posisi duduk bersimpuh formal dengan melipat kedua kaki di atas tatami."
       },
       {
         "key": "D",
-        "text": "土下座 (Dogeza - posisi bersujud hingga kepala menyentuh lantai sebagai bentuk penyesalan luar biasa)."
+        "text": "土下座",
+        "translation": "Dogeza - posisi bersujud hingga kepala menyentuh lantai sebagai bentuk penyesalan luar biasa."
       },
       {
         "key": "E",
-        "text": "会釈 (Eshaku - salam bungkuk ringan bersudut sekitar 15 derajat untuk sapaan santai sehari-hari)."
+        "text": "会釈",
+        "translation": "Eshaku - salam bungkuk ringan bersudut sekitar 15 derajat untuk sapaan santai sehari-hari."
       }
     ],
     "correctKey": "E",
@@ -1100,23 +1222,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: あき (aki / terbuka sendiri), B: あけ (ake / sengaja dibuka oleh seseorang)."
+        "text": "A: あき",
+        "translation": "aki / terbuka sendiri), B: あけ (ake / sengaja dibuka oleh seseorang."
       },
       {
         "key": "B",
-        "text": "A: あけ (ake / sengaja dibuka), B: あき (aki / terbuka sendiri) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "A: あけ",
+        "translation": "ake / sengaja dibuka), B: あき (aki / terbuka sendiri ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "A: しまり (shimari / tertutup sendiri), B: しめ (shime / sengaja ditutup)."
+        "text": "A: しまり",
+        "translation": "shimari / tertutup sendiri), B: しめ (shime / sengaja ditutup."
       },
       {
         "key": "D",
-        "text": "A: きえ (kie / padam sendiri), B: けし (keshi / sengaja dipadamkan)."
+        "text": "A: きえ",
+        "translation": "kie / padam sendiri), B: けし (keshi / sengaja dipadamkan."
       },
       {
         "key": "E",
-        "text": "A: おち (ochi / jatuh sendiri), B: おとし (otoshi / sengaja dijatuhkan)."
+        "text": "A: おち",
+        "translation": "ochi / jatuh sendiri), B: おとし (otoshi / sengaja dijatuhkan."
       }
     ],
     "correctKey": "A",
@@ -1143,23 +1270,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "じゅんびょう (Junbyou - kesalahan penambahan vokal panjang pada morfem bi)."
+        "text": "じゅんびょう",
+        "translation": "Junbyou - kesalahan penambahan vokal panjang pada morfem bi."
       },
       {
         "key": "B",
-        "text": "じゅんび (Junbi - persiapan perbekalan dan rencana perjalanan)."
+        "text": "じゅんび",
+        "translation": "Junbi - persiapan perbekalan dan rencana perjalanan."
       },
       {
         "key": "C",
-        "text": "せつび (Setsubi - pembacaan yang berarti fasilitas atau perlengkapan gedung)."
+        "text": "せつび",
+        "translation": "Setsubi - pembacaan yang berarti fasilitas atau perlengkapan gedung."
       },
       {
         "key": "D",
-        "text": "あんない (Annai - pembacaan kanji 案内 yang bermakna pemanduan informasi)."
+        "text": "あんない",
+        "translation": "Annai - pembacaan kanji 案内 yang bermakna pemanduan informasi."
       },
       {
         "key": "E",
-        "text": "けいけん (Keiken - pembacaan kanji 経験 yang bermakna pengalaman hidup)."
+        "text": "けいけん",
+        "translation": "Keiken - pembacaan kanji 経験 yang bermakna pengalaman hidup."
       }
     ],
     "correctKey": "B",
@@ -1186,23 +1318,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "しょうだん (Shoudan - pembacaan yang tertukar dengan negosiasi perdagangan bisnis)."
+        "text": "しょうだん",
+        "translation": "Shoudan - pembacaan yang tertukar dengan negosiasi perdagangan bisnis."
       },
       {
         "key": "B",
-        "text": "やくそく (Yakusoku - pembacaan kanji 約束 yang bermakna janji temu)."
+        "text": "やくそく",
+        "translation": "Yakusoku - pembacaan kanji 約束 yang bermakna janji temu."
       },
       {
         "key": "C",
-        "text": "そうだん (Soudan - konsultasi atau musyawarah pemecahan masalah)."
+        "text": "そうだん",
+        "translation": "Soudan - konsultasi atau musyawarah pemecahan masalah."
       },
       {
         "key": "D",
-        "text": "れんらく (Renraku - pembacaan kanji 連絡 yang bermakna komunikasi atau kabar)."
+        "text": "れんらく",
+        "translation": "Renraku - pembacaan kanji 連絡 yang bermakna komunikasi atau kabar."
       },
       {
         "key": "E",
-        "text": "せつめい (Setsumei - pembacaan kanji 説明 yang bermakna penjelasan materi)."
+        "text": "せつめい",
+        "translation": "Setsumei - pembacaan kanji 説明 yang bermakna penjelasan materi."
       }
     ],
     "correctKey": "C",
@@ -1229,23 +1366,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ばん (Ban - satuan penanda nomor urut atau peringkat antrean) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "ばん",
+        "translation": "Ban - satuan penanda nomor urut atau peringkat antrean menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "こ (Ko - satuan penghitung kuantitas fisik benda-benda bulat kecil seperti buah)."
+        "text": "こ",
+        "translation": "Ko - satuan penghitung kuantitas fisik benda-benda bulat kecil seperti buah."
       },
       {
         "key": "C",
-        "text": "さつ (Satsu - satuan pembilang untuk jilidan buku dan dokumen tertulis)."
+        "text": "さつ",
+        "translation": "Satsu - satuan pembilang untuk jilidan buku dan dokumen tertulis."
       },
       {
         "key": "D",
-        "text": "かい (Kai - satuan penghitung frekuensi pengulangan aksi/tindakan dalam satu satuan waktu)."
+        "text": "かい",
+        "translation": "Kai - satuan penghitung frekuensi pengulangan aksi/tindakan dalam satu satuan waktu."
       },
       {
         "key": "E",
-        "text": "ほん (Hon - satuan pembilang untuk benda silindris panjang berwujud batangan)."
+        "text": "ほん",
+        "translation": "Hon - satuan pembilang untuk benda silindris panjang berwujud batangan."
       }
     ],
     "correctKey": "D",
@@ -1272,23 +1414,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "な (na - hanya digunakan jika kata sifat-na menerangkan langsung kata benda di belakangnya)."
+        "text": "な",
+        "translation": "na - hanya digunakan jika kata sifat-na menerangkan langsung kata benda di belakangnya."
       },
       {
         "key": "B",
-        "text": "で (de - partikel yang berfungsi sebagai kopula penyambung klausa kata sifat)."
+        "text": "で",
+        "translation": "de - partikel yang berfungsi sebagai kopula penyambung klausa kata sifat."
       },
       {
         "key": "C",
-        "text": "だ (da - kopula bentuk dasar penutup kalimat deklaratif informal)."
+        "text": "だ",
+        "translation": "da - kopula bentuk dasar penutup kalimat deklaratif informal."
       },
       {
         "key": "D",
-        "text": "の (no - partikel kepemilikan yang hanya menghubungkan dua kata benda)."
+        "text": "の",
+        "translation": "no - partikel kepemilikan yang hanya menghubungkan dua kata benda."
       },
       {
         "key": "E",
-        "text": "に (ni - mengubah kata sifat-na menjadi kata keterangan cara kerja / adverbial)."
+        "text": "に",
+        "translation": "ni - mengubah kata sifat-na menjadi kata keterangan cara kerja / adverbial."
       }
     ],
     "correctKey": "E",
@@ -1315,23 +1462,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: きえ (kie / padam sendiri secara tiba-tiba), B: つけ (tsuke / sengaja menyalakan lampu senter)."
+        "text": "A: きえ",
+        "translation": "kie / padam sendiri secara tiba-tiba), B: つけ (tsuke / sengaja menyalakan lampu senter."
       },
       {
         "key": "B",
-        "text": "A: けし (keshi / memadamkan dengan sengaja), B: つき (tsuki / menyala sendiri) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "A: けし",
+        "translation": "keshi / memadamkan dengan sengaja), B: つき (tsuki / menyala sendiri ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "A: つき (tsuki / menyala tiba-tiba), B: けし (keshi / mematikan senter)."
+        "text": "A: つき",
+        "translation": "tsuki / menyala tiba-tiba), B: けし (keshi / mematikan senter."
       },
       {
         "key": "D",
-        "text": "A: こわれ (koware / rusak sendiri), B: なおし (naoshi / memperbaiki senter)."
+        "text": "A: こわれ",
+        "translation": "koware / rusak sendiri), B: なおし (naoshi / memperbaiki senter."
       },
       {
         "key": "E",
-        "text": "A: おち (ochi / jatuh sendiri), B: ひろい (hiroi / memungut senter)."
+        "text": "A: おち",
+        "translation": "ochi / jatuh sendiri), B: ひろい (hiroi / memungut senter."
       }
     ],
     "correctKey": "A",
@@ -1358,23 +1510,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ドキドキ (Dokidoki - tiruan detak jantung berdebar-debar karena tegang atau gugup saat ujian)."
+        "text": "ドキドキ",
+        "translation": "Dokidoki - tiruan detak jantung berdebar-debar karena tegang atau gugup saat ujian."
       },
       {
         "key": "B",
-        "text": "ペコペコ (Pekopeko - tiruan kondisi perut yang sangat lapar dan mengempis)."
+        "text": "ペコペコ",
+        "translation": "Pekopeko - tiruan kondisi perut yang sangat lapar dan mengempis."
       },
       {
         "key": "C",
-        "text": "イライラ (Iraira - keadaan batin yang gelisah, kesal, atau tidak sabar menghadapi antrean)."
+        "text": "イライラ",
+        "translation": "Iraira - keadaan batin yang gelisah, kesal, atau tidak sabar menghadapi antrean."
       },
       {
         "key": "D",
-        "text": "ニコニコ (Nikoniko - ekspresi senyuman manis dan berseri-seri penuh keramahan)."
+        "text": "ニコニコ",
+        "translation": "Nikoniko - ekspresi senyuman manis dan berseri-seri penuh keramahan."
       },
       {
         "key": "E",
-        "text": "ワクワク (Wakuwaku - perasaan antusias dan penuh kegembiraan menantikan acara liburan)."
+        "text": "ワクワク",
+        "translation": "Wakuwaku - perasaan antusias dan penuh kegembiraan menantikan acara liburan."
       }
     ],
     "correctKey": "B",
@@ -1401,23 +1558,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "たいふう (Taifuu - pembacaan kanji 台風 yang bermakna badai taifun)."
+        "text": "たいふう",
+        "translation": "Taifuu - pembacaan kanji 台風 yang bermakna badai taifun."
       },
       {
         "key": "B",
-        "text": "じこ (Jiko - pembacaan kanji 事故 yang bermakna insiden kecelakaan lalu lintas)."
+        "text": "じこ",
+        "translation": "Jiko - pembacaan kanji 事故 yang bermakna insiden kecelakaan lalu lintas."
       },
       {
         "key": "C",
-        "text": "じしん (Jishin - gempa bumi tektonik atau seismik)."
+        "text": "じしん",
+        "translation": "Jishin - gempa bumi tektonik atau seismik."
       },
       {
         "key": "D",
-        "text": "かさい (Kasai - pembacaan kanji 火災 yang bermakna musibah kebakaran besar)."
+        "text": "かさい",
+        "translation": "Kasai - pembacaan kanji 火災 yang bermakna musibah kebakaran besar."
       },
       {
         "key": "E",
-        "text": "こうずい (Kouzui - pembacaan kanji 洪水 yang bermakna bencana luapan air banjir)."
+        "text": "こうずい",
+        "translation": "Kouzui - pembacaan kanji 洪水 yang bermakna bencana luapan air banjir."
       }
     ],
     "correctKey": "C",
@@ -1444,23 +1606,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: を, B: みられ (partikel tidak berganti ke ga dan konjugasi keliru memakai akhiran ichidan) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "A: を, B: みられ",
+        "translation": "partikel tidak berganti ke ga dan konjugasi keliru memakai akhiran ichidan menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "A: に, B: まれ (partikel ni keliru dan konjugasi tidak mengikuti vokal baris -e)."
+        "text": "A: に, B: まれ",
+        "translation": "partikel ni keliru dan konjugasi tidak mengikuti vokal baris -e."
       },
       {
         "key": "C",
-        "text": "A: で, B: め (partikel de salah fungsi sarana padahal objek potensial memerlukan ga)."
+        "text": "A: で, B: め",
+        "translation": "partikel de salah fungsi sarana padahal objek potensial memerlukan ga."
       },
       {
         "key": "D",
-        "text": "A: が, B: め (Kanji ga yomemasu - verba Golongan I akhiran -mu berubah ke baris -e menjadi yomemasu, dan partikel objek を berganti menjadi が)."
+        "text": "A: が, B: め",
+        "translation": "Kanji ga yomemasu - verba Golongan I akhiran -mu berubah ke baris -e menjadi yomemasu, dan partikel objek を berganti menjadi が."
       },
       {
         "key": "E",
-        "text": "A: は, B: まれ (struktur topik ganda yang merusak struktur predikatif potensial)."
+        "text": "A: は, B: まれ",
+        "translation": "struktur topik ganda yang merusak struktur predikatif potensial."
       }
     ],
     "correctKey": "D",
@@ -1487,23 +1654,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ふると (Furu to - syarat keniscayaan alami yang kurang lazim untuk keputusan rapat manusia) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "ふると",
+        "translation": "Furu to - syarat keniscayaan alami yang kurang lazim untuk keputusan rapat manusia diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "ふれば (Fureba - bentuk ba-kei yang bernada kaku untuk percakapan rencana harian)."
+        "text": "ふれば",
+        "translation": "Fureba - bentuk ba-kei yang bernada kaku untuk percakapan rencana harian."
       },
       {
         "key": "C",
-        "text": "ふったなら (Futtanara - penambahan dobel partikel yang tidak baku dalam kalimat sederhana)."
+        "text": "ふったなら",
+        "translation": "Futtanara - penambahan dobel partikel yang tidak baku dalam kalimat sederhana."
       },
       {
         "key": "D",
-        "text": "ふりながら (Furinagara - bermakna melakukan dua pekerjaan simultan sambil turun hujan)."
+        "text": "ふりながら",
+        "translation": "Furinagara - bermakna melakukan dua pekerjaan simultan sambil turun hujan."
       },
       {
         "key": "E",
-        "text": "ふったら (Futtara - bentuk lampau ta-kei furimashita -> futta + ra untuk syarat waktu/kondisional)."
+        "text": "ふったら",
+        "translation": "Futtara - bentuk lampau ta-kei furimashita -> futta + ra untuk syarat waktu/kondisional."
       }
     ],
     "correctKey": "E",
@@ -1530,23 +1702,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "のぼった (Nobotta - verba bentuk lampau ta-kei wajib mendahului koto ga arimasu)."
+        "text": "のぼった",
+        "translation": "Nobotta - verba bentuk lampau ta-kei wajib mendahului koto ga arimasu."
       },
       {
         "key": "B",
-        "text": "のぼる (Noboru - verba bentuk kamus jisho-kei yang tidak bisa menyatakan pengalaman lampau)."
+        "text": "のぼる",
+        "translation": "Noboru - verba bentuk kamus jisho-kei yang tidak bisa menyatakan pengalaman lampau."
       },
       {
         "key": "C",
-        "text": "のぼって (Nobotte - verba te-form yang memerlukan verba bantu lain dan salah gramatikal di sini)."
+        "text": "のぼって",
+        "translation": "Nobotte - verba te-form yang memerlukan verba bantu lain dan salah gramatikal di sini."
       },
       {
         "key": "D",
-        "text": "のぼり (Nobori - akar kata verba masu-stem yang tidak bisa langsung melekat pada koto ga aru)."
+        "text": "のぼり",
+        "translation": "Nobori - akar kata verba masu-stem yang tidak bisa langsung melekat pada koto ga aru."
       },
       {
         "key": "E",
-        "text": "のぼらない (Noboranai - bentuk negatif yang merusak struktur pertanyaan pengalaman positif)."
+        "text": "のぼらない",
+        "translation": "Noboranai - bentuk negatif yang merusak struktur pertanyaan pengalaman positif."
       }
     ],
     "correctKey": "A",
@@ -1573,23 +1750,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "しなくてもいいです (Shinakutemo ii desu - menyatakan tidak perlu atau boleh tidak diperbarui)."
+        "text": "しなくてもいいです",
+        "translation": "Shinakutemo ii desu - menyatakan tidak perlu atau boleh tidak diperbarui."
       },
       {
         "key": "B",
-        "text": "しなければなりません (Shinakereba narimasen - harus/wajib memperbarui visa sebelum tenggat)."
+        "text": "しなければなりません",
+        "translation": "Shinakereba narimasen - harus/wajib memperbarui visa sebelum tenggat."
       },
       {
         "key": "C",
-        "text": "してはいけません (Shite wa ikemasen - larangan mutlak bahwa tidak boleh memperbarui visa)."
+        "text": "してはいけません",
+        "translation": "Shite wa ikemasen - larangan mutlak bahwa tidak boleh memperbarui visa."
       },
       {
         "key": "D",
-        "text": "するはずです (Suru hazu desu - perkiraan logis bahwa subjek semestinya memperbarui)."
+        "text": "するはずです",
+        "translation": "Suru hazu desu - perkiraan logis bahwa subjek semestinya memperbarui."
       },
       {
         "key": "E",
-        "text": "したほうがいいです (Shita hou ga ii desu - anjuran/saran biasa yang tidak memiliki kekuatan hukum wajib)."
+        "text": "したほうがいいです",
+        "translation": "Shita hou ga ii desu - anjuran/saran biasa yang tidak memiliki kekuatan hukum wajib."
       }
     ],
     "correctKey": "B",
@@ -1616,23 +1798,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おいしい (Oishii - mempertahankan huruf い akan mengubah maknanya menjadi kabar burung 'katanya enak')."
+        "text": "おいしい",
+        "translation": "Oishii - mempertahankan huruf い akan mengubah maknanya menjadi kabar burung 'katanya enak'."
       },
       {
         "key": "B",
-        "text": "おいしく (Oishiku - bentuk adverbial yang keliru menempel pada imbuhan dugaan visual)."
+        "text": "おいしく",
+        "translation": "Oishiku - bentuk adverbial yang keliru menempel pada imbuhan dugaan visual."
       },
       {
         "key": "C",
-        "text": "おいし (Oishi - huruf い pada kata sifat-i wajib dihilangkan sebelum digabung dengan そうだ)."
+        "text": "おいし",
+        "translation": "Oishi - huruf い pada kata sifat-i wajib dihilangkan sebelum digabung dengan そうだ."
       },
       {
         "key": "D",
-        "text": "おいしかった (Oishikatta - bentuk lampau yang tidak kompatibel dengan kesan pandangan seketika)."
+        "text": "おいしかった",
+        "translation": "Oishikatta - bentuk lampau yang tidak kompatibel dengan kesan pandangan seketika."
       },
       {
         "key": "E",
-        "text": "おいしさ (Oishisa - nominalisasi kata sifat yang berarti tingkat kelezatan)."
+        "text": "おいしさ",
+        "translation": "Oishisa - nominalisasi kata sifat yang berarti tingkat kelezatan."
       }
     ],
     "correctKey": "C",
@@ -1659,23 +1846,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "わすれ (Wasure - akar verba yang tidak memenuhi syarat konjugasi te-kei) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "わすれ",
+        "translation": "Wasure - akar verba yang tidak memenuhi syarat konjugasi te-kei menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "わすれた (Wasureta - bentuk lampau ta-kei yang rancu bila disambung langsung dengan shimau)."
+        "text": "わすれた",
+        "translation": "Wasureta - bentuk lampau ta-kei yang rancu bila disambung langsung dengan shimau."
       },
       {
         "key": "C",
-        "text": "わすれないで (Wasurenaide - bentuk permohonan negatif yang bertolak belakang dengan fakta kejadian)."
+        "text": "わすれないで",
+        "translation": "Wasurenaide - bentuk permohonan negatif yang bertolak belakang dengan fakta kejadian."
       },
       {
         "key": "D",
-        "text": "わすれて (Wasurete - te-form dari wasuremasu yang berpasangan dengan shimaimashita menyatakan penyesalan mendalam)."
+        "text": "わすれて",
+        "translation": "Wasurete - te-form dari wasuremasu yang berpasangan dengan shimaimashita menyatakan penyesalan mendalam."
       },
       {
         "key": "E",
-        "text": "わすれる (Wasureru - bentuk kamus yang tidak bisa bersambung dengan shimau)."
+        "text": "わすれる",
+        "translation": "Wasureru - bentuk kamus yang tidak bisa bersambung dengan shimau."
       }
     ],
     "correctKey": "D",
@@ -1702,23 +1894,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "してしまいましょう (Shite shimaimashou - pola yang menyiratkan penyelesaian terburu-buru atau penyesalan) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "してしまいましょう",
+        "translation": "Shite shimaimashou - pola yang menyiratkan penyelesaian terburu-buru atau penyesalan diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "してみましょう (Shite mimashou - pola yang berarti mari kita mencoba-coba membersihkan)."
+        "text": "してみましょう",
+        "translation": "Shite mimashou - pola yang berarti mari kita mencoba-coba membersihkan."
       },
       {
         "key": "C",
-        "text": "してはいけません (Shite wa ikemasen - pola larangan tegas bahwa tidak boleh membersihkan)."
+        "text": "してはいけません",
+        "translation": "Shite wa ikemasen - pola larangan tegas bahwa tidak boleh membersihkan."
       },
       {
         "key": "D",
-        "text": "するつもりでした (Suru tsumori deshita - menyatakan niat masa lalu yang kemungkinan besar gagal terlaksana)."
+        "text": "するつもりでした",
+        "translation": "Suru tsumori deshita - menyatakan niat masa lalu yang kemungkinan besar gagal terlaksana."
       },
       {
         "key": "E",
-        "text": "しておきましょう (Shite okimashou - mari kita bersihkan ruangan terlebih dahulu sebagai persiapan menyambut tamu)."
+        "text": "しておきましょう",
+        "translation": "Shite okimashou - mari kita bersihkan ruangan terlebih dahulu sebagai persiapan menyambut tamu."
       }
     ],
     "correctKey": "E",
@@ -1745,23 +1942,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "よみやすい (Yomiyasui - akar verba yomi- dilekatkan akhiran -yasui untuk menunjukkan kemudahan tindakan)."
+        "text": "よみやすい",
+        "translation": "Yomiyasui - akar verba yomi- dilekatkan akhiran -yasui untuk menunjukkan kemudahan tindakan."
       },
       {
         "key": "B",
-        "text": "よみにくい (Yominikui - antonim yang berarti sulit atau sukar untuk dibaca) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "よみにくい",
+        "translation": "Yominikui - antonim yang berarti sulit atau sukar untuk dibaca ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "よむやすい (Yomuyasui - kesalahan gramatikal fatal karena menggunakan bentuk kamus sebelum yasui)."
+        "text": "よむやすい",
+        "translation": "Yomuyasui - kesalahan gramatikal fatal karena menggunakan bentuk kamus sebelum yasui."
       },
       {
         "key": "D",
-        "text": "よんでやすい (Yondeyasui - kesalahan gramatikal karena melekatkan te-form pada yasui)."
+        "text": "よんでやすい",
+        "translation": "Yondeyasui - kesalahan gramatikal karena melekatkan te-form pada yasui."
       },
       {
         "key": "E",
-        "text": "よまないやすい (Yomanaiyasui - kesalahan penggabungan bentuk negatif dengan yasui)."
+        "text": "よまないやすい",
+        "translation": "Yomanaiyasui - kesalahan penggabungan bentuk negatif dengan yasui."
       }
     ],
     "correctKey": "A",
@@ -1788,23 +1990,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ほど (hodo - penanda batas derajat yang lazimnya digunakan dalam konstruksi perbandingan negatif)."
+        "text": "ほど",
+        "translation": "hodo - penanda batas derajat yang lazimnya digunakan dalam konstruksi perbandingan negatif."
       },
       {
         "key": "B",
-        "text": "より (yori - partikel penanda objek pembanding / standar acuan perbandingan)."
+        "text": "より",
+        "translation": "yori - partikel penanda objek pembanding / standar acuan perbandingan."
       },
       {
         "key": "C",
-        "text": "から (kara - partikel titik awal mula tempat atau waktu)."
+        "text": "から",
+        "translation": "kara - partikel titik awal mula tempat atau waktu."
       },
       {
         "key": "D",
-        "text": "まで (made - partikel titik akhir destinasi batas jangkauan)."
+        "text": "まで",
+        "translation": "made - partikel titik akhir destinasi batas jangkauan."
       },
       {
         "key": "E",
-        "text": "だけ (dake - partikel pembatas yang memiliki makna eksklusif 'hanya')."
+        "text": "だけ",
+        "translation": "dake - partikel pembatas yang memiliki makna eksklusif 'hanya'."
       }
     ],
     "correctKey": "B",
@@ -1831,23 +2038,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "はたらきます (Hatarakimasu - bentuk masu formal yang dilarang melekat langsung sebelum tsumori)."
+        "text": "はたらきます",
+        "translation": "Hatarakimasu - bentuk masu formal yang dilarang melekat langsung sebelum tsumori."
       },
       {
         "key": "B",
-        "text": "はたらいた (Hataraita - bentuk lampau yang bertentangan secara logika waktu dengan rencana masa depan)."
+        "text": "はたらいた",
+        "translation": "Hataraita - bentuk lampau yang bertentangan secara logika waktu dengan rencana masa depan."
       },
       {
         "key": "C",
-        "text": "はたらく (Hataraku - bentuk kamus jisho-kei wajib mendahului kata benda penyimpul rencana tsumori)."
+        "text": "はたらく",
+        "translation": "Hataraku - bentuk kamus jisho-kei wajib mendahului kata benda penyimpul rencana tsumori."
       },
       {
         "key": "D",
-        "text": "はたらいて (Hataraite - bentuk te yang memerlukan kata kerja penyambung lain)."
+        "text": "はたらいて",
+        "translation": "Hataraite - bentuk te yang memerlukan kata kerja penyambung lain."
       },
       {
         "key": "E",
-        "text": "はたらき (Hataraki - bentuk akar verba yang tidak dapat memodifikasi tsumori secara gramatikal)."
+        "text": "はたらき",
+        "translation": "Hataraki - bentuk akar verba yang tidak dapat memodifikasi tsumori secara gramatikal."
       }
     ],
     "correctKey": "C",
@@ -2089,23 +2301,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "「嫌です。絶対に行きたくありません。」 (Penolakan kasar dan konfrontatif yang merusak keharmonisan pertemanan) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "「嫌です。絶対に行きたくありません。」",
+        "translation": "Penolakan kasar dan konfrontatif yang merusak keharmonisan pertemanan menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "「ダメです。今晩は暇がゼロです。」 (Bahasa kaku dan tidak sopan untuk merespons ajakan baik teman)."
+        "text": "「ダメです。今晩は暇がゼロです。」",
+        "translation": "Bahasa kaku dan tidak sopan untuk merespons ajakan baik teman."
       },
       {
         "key": "C",
-        "text": "「いいえ、行きません。」 (Jawaban datar negatif tanpa basa-basi empati yang dianggap sangat dingin)."
+        "text": "「いいえ、行きません。」",
+        "translation": "Jawaban datar negatif tanpa basa-basi empati yang dianggap sangat dingin."
       },
       {
         "key": "D",
-        "text": "「すみません、今晩は ちょっと 都合が 悪くて...。」 (Maaf, malam ini keadaan waktu saya agak kurang memungkinkan...)."
+        "text": "「すみません、今晩は ちょっと 都合が 悪くて...。」",
+        "translation": "Maaf, malam ini keadaan waktu saya agak kurang memungkinkan...."
       },
       {
         "key": "E",
-        "text": "「コンサートはつまらないのでやめましょう。」 (Meremehkan selera musik teman yang mengajak)."
+        "text": "「コンサートはつまらないのでやめましょう。」",
+        "translation": "Meremehkan selera musik teman yang mengajak."
       }
     ],
     "correctKey": "D",
@@ -2132,23 +2349,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ここで 写真を 撮らなければなりませんか。 (Menanyakan apakah dirinya diwajibkan mengambil foto di tempat tersebut) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "ここで 写真を 撮らなければなりませんか。",
+        "translation": "Menanyakan apakah dirinya diwajibkan mengambil foto di tempat tersebut diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "ここで 写真を 撮ってはいけませんか。 (Pertanyaan bernada memojokkan apakah dilarang mengambil foto)."
+        "text": "ここで 写真を 撮ってはいけませんか。",
+        "translation": "Pertanyaan bernada memojokkan apakah dilarang mengambil foto."
       },
       {
         "key": "C",
-        "text": "ここで 写真を 撮りたいですか。 (Menanyakan apakah petugas museum yang ingin mengambil foto)."
+        "text": "ここで 写真を 撮りたいですか。",
+        "translation": "Menanyakan apakah petugas museum yang ingin mengambil foto."
       },
       {
         "key": "D",
-        "text": "ここで 写真を 撮るつもりですか。 (Menanyakan rencana petugas apakah berniat mengambil foto)."
+        "text": "ここで 写真を 撮るつもりですか。",
+        "translation": "Menanyakan rencana petugas apakah berniat mengambil foto."
       },
       {
         "key": "E",
-        "text": "ここで 写真を 撮っても いいですか。 (Koko de shashin wo totte mo ii desu ka - apakah di sini boleh mengambil foto?)."
+        "text": "ここで 写真を 撮っても いいですか。",
+        "translation": "Koko de shashin wo totte mo ii desu ka - apakah di sini boleh mengambil foto?."
       }
     ],
     "correctKey": "E",
@@ -2175,23 +2397,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ふられて (Furarete - bentuk pasif ukemi dari furimasu yang menyatakan rasa terganggu/menderita akibat turunnya hujan)."
+        "text": "ふられて",
+        "translation": "Furarete - bentuk pasif ukemi dari furimasu yang menyatakan rasa terganggu/menderita akibat turunnya hujan."
       },
       {
         "key": "B",
-        "text": "ふって (Futte - bentuk te aktif biasa yang tidak mampu menyatakan nuansa kerugian atau penderitaan subjek) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "ふって",
+        "translation": "Futte - bentuk te aktif biasa yang tidak mampu menyatakan nuansa kerugian atau penderitaan subjek ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "ふらせて (Furasete - bentuk kausatif shieki yang keliru karena bermakna subjek yang menyebabkan hujan turun)."
+        "text": "ふらせて",
+        "translation": "Furasete - bentuk kausatif shieki yang keliru karena bermakna subjek yang menyebabkan hujan turun."
       },
       {
         "key": "D",
-        "text": "ふれられて (Furerarete - bentuk pasif potensial rancu yang menyalahi kaidah konjugasi verba godan)."
+        "text": "ふれられて",
+        "translation": "Furerarete - bentuk pasif potensial rancu yang menyalahi kaidah konjugasi verba godan."
       },
       {
         "key": "E",
-        "text": "ふらせられて (Furaserarete - bentuk kausatif-pasif berlebihan yang tidak logis diterapkan pada fenomena cuaca alam)."
+        "text": "ふらせられて",
+        "translation": "Furaserarete - bentuk kausatif-pasif berlebihan yang tidak logis diterapkan pada fenomena cuaca alam."
       }
     ],
     "correctKey": "A",
@@ -2218,23 +2445,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "たべられて (Taberarete - bentuk pasif yang bermakna ibu yang dimakan oleh anak)."
+        "text": "たべられて",
+        "translation": "Taberarete - bentuk pasif yang bermakna ibu yang dimakan oleh anak."
       },
       {
         "key": "B",
-        "text": "たべさせて (Tabesasete - bentuk kausatif dari verba ichidan taberu -> tabesaseru -> tabesasete imasu)."
+        "text": "たべさせて",
+        "translation": "Tabesasete - bentuk kausatif dari verba ichidan taberu -> tabesaseru -> tabesasete imasu."
       },
       {
         "key": "C",
-        "text": "たべさせられて (Tabesaserarete - bentuk kausatif-pasif yang bermakna ibu yang dipaksa memakan sayur)."
+        "text": "たべさせられて",
+        "translation": "Tabesaserarete - bentuk kausatif-pasif yang bermakna ibu yang dipaksa memakan sayur."
       },
       {
         "key": "D",
-        "text": "たべてもらって (Tabetemoratte - bentuk menerima jasa bantuan yang tidak selaras dengan relasi kuasa orang tua-anak)."
+        "text": "たべてもらって",
+        "translation": "Tabetemoratte - bentuk menerima jasa bantuan yang tidak selaras dengan relasi kuasa orang tua-anak."
       },
       {
         "key": "E",
-        "text": "たべないで (Tabenaide - bentuk permohonan negatif yang bertentangan dengan tujuan hidup sehat)."
+        "text": "たべないで",
+        "translation": "Tabenaide - bentuk permohonan negatif yang bertentangan dengan tujuan hidup sehat."
       }
     ],
     "correctKey": "B",
@@ -2261,23 +2493,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "のませて (Nomasete - bentuk kausatif murni yang keliru karena menyiratkan Ken yang mencekoki senior) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "のませて",
+        "translation": "Nomasete - bentuk kausatif murni yang keliru karena menyiratkan Ken yang mencekoki senior sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "のまれて (Nomarete - bentuk pasif biasa yang tidak menonjolkan aspek pemaksaan kehendak)."
+        "text": "のまれて",
+        "translation": "Nomarete - bentuk pasif biasa yang tidak menonjolkan aspek pemaksaan kehendak."
       },
       {
         "key": "C",
-        "text": "のまされて (Nomasarete - bentuk kausatif-pasif ringkas dari nomu -> nomaserareru / nomasareru yang bermakna dipaksa minum)."
+        "text": "のまされて",
+        "translation": "Nomasarete - bentuk kausatif-pasif ringkas dari nomu -> nomaserareru / nomasareru yang bermakna dipaksa minum."
       },
       {
         "key": "D",
-        "text": "のんで (Nonde - bentuk aktif biasa yang tidak mencerminkan situasi tertekan tanpa daya)."
+        "text": "のんで",
+        "translation": "Nonde - bentuk aktif biasa yang tidak mencerminkan situasi tertekan tanpa daya."
       },
       {
         "key": "E",
-        "text": "のまないで (Nomanaide - bentuk negatif yang bertolak belakang dengan fakta bahwa bir tersebut terlanjur diminum)."
+        "text": "のまないで",
+        "translation": "Nomanaide - bentuk negatif yang bertolak belakang dengan fakta bahwa bir tersebut terlanjur diminum."
       }
     ],
     "correctKey": "C",
@@ -2295,7 +2532,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Sekretaris perusahaan berbicara kepada klien tamu mengenai aktivitas Direktur Utama (Shachou):\n'社長は たった今、会議室へ ( ... ) ました。少々 お待ちください。'\nVerba Sonkeigo bentuk hormat khusus dari '行きました' (pergi) yang TEPAT untuk menghormati direktur utama adalah...",
+    "questionHtml": "Sekretaris perusahaan berbicara kepada klien tamu mengenai aktivitas Direktur Utama (Shachou):\n'社長は たった今、会議室へ ( ... ) ました。少々 お待ちください。'\nVerba Sonkeigo bentuk hormat khusus dari '行きました' yang TEPAT untuk menghormati direktur utama adalah...",
     "formulaHud": {
       "title": "DISTINGSI SONKEIGO VS KENJOUGO (尊敬語と謙譲語の厳格な対立)",
       "latex": "\\begin{aligned} \\mathbf{\\text{Sonkeigo (Hormat Subjek Atasan):}} & \\text{行く / 来る / いる} \\implies \\mathbf{\\text{いらっしゃる (Irassharu)}} \\\\ \\mathbf{\\text{Kenjougo (Merendahkan Pihak Sendiri):}} & \\text{行く / 来る} \\implies \\text{参る (まいる - Mairu)} \\end{aligned}",
@@ -2304,23 +2541,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "まいり (Mairi - bentuk Kenjougo rendah hati yang hanya boleh dipakai untuk diri sendiri atau orang dalam)."
+        "text": "まいり",
+        "translation": "Mairi - bentuk Kenjougo rendah hati yang hanya boleh dipakai untuk diri sendiri atau orang dalam."
       },
       {
         "key": "B",
-        "text": "もうし (Moushi - bentuk Kenjougo yang bermakna berbicara/bernama untuk merendahkan diri)."
+        "text": "もうし",
+        "translation": "Moushi - bentuk Kenjougo yang bermakna berbicara/bernama untuk merendahkan diri."
       },
       {
         "key": "C",
-        "text": "いただき (Itadaki - bentuk Kenjougo untuk menerima pemberian atau makan dan minum)."
+        "text": "いただき",
+        "translation": "Itadaki - bentuk Kenjougo untuk menerima pemberian atau makan dan minum."
       },
       {
         "key": "D",
-        "text": "いらっしゃい (Irasshai - bentuk Sonkeigo khusus dari ikimasu, kimasu, dan imasu)."
+        "text": "いらっしゃい",
+        "translation": "Irasshai - bentuk Sonkeigo khusus dari ikimasu, kimasu, dan imasu."
       },
       {
         "key": "E",
-        "text": "おめにかかり (Omenikakari - bentuk Kenjougo untuk bertemu dengan seseorang yang dihormati)."
+        "text": "おめにかかり",
+        "translation": "Omenikakari - bentuk Kenjougo untuk bertemu dengan seseorang yang dihormati."
       }
     ],
     "correctKey": "D",
@@ -2347,23 +2589,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おっしゃいます (Osshaimasu - bentuk Sonkeigo yang dilarang keras digunakan untuk diri sendiri karena meninggikan diri)."
+        "text": "おっしゃいます",
+        "translation": "Osshaimasu - bentuk Sonkeigo yang dilarang keras digunakan untuk diri sendiri karena meninggikan diri."
       },
       {
         "key": "B",
-        "text": "いらっしゃいます (Irasshaimasu - bentuk Sonkeigo yang hanya berlaku untuk subjek lawan bicara atau pihak ketiga yang dihormati)."
+        "text": "いらっしゃいます",
+        "translation": "Irasshaimasu - bentuk Sonkeigo yang hanya berlaku untuk subjek lawan bicara atau pihak ketiga yang dihormati."
       },
       {
         "key": "C",
-        "text": "なさいます (Nasaimasu - bentuk Sonkeigo dari shimasu yang meninggikan perbuatan orang lain)."
+        "text": "なさいます",
+        "translation": "Nasaimasu - bentuk Sonkeigo dari shimasu yang meninggikan perbuatan orang lain."
       },
       {
         "key": "D",
-        "text": "ぞんじます (Zonjimasu - bentuk Kenjougo dari shitte imasu / omoimasu yang bermakna mengetahui atau mengira)."
+        "text": "ぞんじます",
+        "translation": "Zonjimasu - bentuk Kenjougo dari shitte imasu / omoimasu yang bermakna mengetahui atau mengira."
       },
       {
         "key": "E",
-        "text": "もうします (Moushimasu - bentuk Kenjougo dari verba iimasu untuk menyebut identitas diri sendiri)."
+        "text": "もうします",
+        "translation": "Moushimasu - bentuk Kenjougo dari verba iimasu untuk menyebut identitas diri sendiri."
       }
     ],
     "correctKey": "E",
@@ -2390,23 +2637,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "のに (noni - partikel penghubung pertentangan yang sarat muatan emosi kecewa, heran, atau menyesal)."
+        "text": "のに",
+        "translation": "noni - partikel penghubung pertentangan yang sarat muatan emosi kecewa, heran, atau menyesal."
       },
       {
         "key": "B",
-        "text": "ので (node - partikel penanda alasan logis objektif yang menyatakan hubungan sebab-akibat lurus) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "ので",
+        "translation": "node - partikel penanda alasan logis objektif yang menyatakan hubungan sebab-akibat lurus ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "から (kara - partikel kausalitas subjektif yang tidak mengekspresikan kontradiksi hasil)."
+        "text": "から",
+        "translation": "kara - partikel kausalitas subjektif yang tidak mengekspresikan kontradiksi hasil."
       },
       {
         "key": "D",
-        "text": "なら (nara - partikel penanda topik kondisional kontekstual)."
+        "text": "なら",
+        "translation": "nara - partikel penanda topik kondisional kontekstual."
       },
       {
         "key": "E",
-        "text": "ても (temo - bentuk konsesif netral yang kurang tajam dalam memancarkan kekecewaan batin personal)."
+        "text": "ても",
+        "translation": "temo - bentuk konsesif netral yang kurang tajam dalam memancarkan kekecewaan batin personal."
       }
     ],
     "correctKey": "A",
@@ -2433,23 +2685,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: ように, B: ために (terbalik fungsi antara verba tindakan intensional dan verba potensial/keadaan) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "A: ように, B: ために",
+        "translation": "terbalik fungsi antara verba tindakan intensional dan verba potensial/keadaan ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "A: ために (Tame ni - tujuan aksi kehendak sadar), B: ように (You ni - harapan agar tercipta kondisi keadaan baru)."
+        "text": "A: ために",
+        "translation": "Tame ni - tujuan aksi kehendak sadar), B: ように (You ni - harapan agar tercipta kondisi keadaan baru."
       },
       {
         "key": "C",
-        "text": "A: ために, B: ために (kedua kalimat disamakan sebagai tindakan volisional tanpa mempertimbangkan kata mieru)."
+        "text": "A: ために, B: ために",
+        "translation": "kedua kalimat disamakan sebagai tindakan volisional tanpa mempertimbangkan kata mieru."
       },
       {
         "key": "D",
-        "text": "A: ように, B: ように (kedua kalimat disamakan sebagai perubahan kondisi keadaan)."
+        "text": "A: ように, B: ように",
+        "translation": "kedua kalimat disamakan sebagai perubahan kondisi keadaan."
       },
       {
         "key": "E",
-        "text": "A: のに, B: ので (mengganti klausa tujuan dengan klausa kontras dan kausalitas yang merusak makna)."
+        "text": "A: のに, B: ので",
+        "translation": "mengganti klausa tujuan dengan klausa kontras dan kausalitas yang merusak makna."
       }
     ],
     "correctKey": "B",
@@ -2476,23 +2733,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "着くかもしれない (Tsuku kamoshirenai - kemungkinan samar berbobot 50% atau kurang yang meragukan fakta) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "着くかもしれない",
+        "translation": "Tsuku kamoshirenai - kemungkinan samar berbobot 50% atau kurang yang meragukan fakta sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "着くつもり (Tsuku tsumori - niat pribadi yang tidak logis diucapkan oleh pihak ketiga mengenai tibanya orang lain)."
+        "text": "着くつもり",
+        "translation": "Tsuku tsumori - niat pribadi yang tidak logis diucapkan oleh pihak ketiga mengenai tibanya orang lain."
       },
       {
         "key": "C",
-        "text": "着いているはず (Tsuite iru hazu - keyakinan logis berdasar fakta pasti bahwa subjek telah naik Shinkansen jam 6 pagi)."
+        "text": "着いているはず",
+        "translation": "Tsuite iru hazu - keyakinan logis berdasar fakta pasti bahwa subjek telah naik Shinkansen jam 6 pagi."
       },
       {
         "key": "D",
-        "text": "着くようだ (Tsuku youda - dugaan sensorik yang kurang tepat dipakai untuk kesimpulan jadwal pasti)."
+        "text": "着くようだ",
+        "translation": "Tsuku youda - dugaan sensorik yang kurang tepat dipakai untuk kesimpulan jadwal pasti."
       },
       {
         "key": "E",
-        "text": "着かないはず (Tsukanai hazu - kesimpulan negatif yang bertentangan dengan perhitungan waktu perjalanan)."
+        "text": "着かないはず",
+        "translation": "Tsukanai hazu - kesimpulan negatif yang bertentangan dengan perhitungan waktu perjalanan."
       }
     ],
     "correctKey": "C",
@@ -2854,7 +3116,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam seni puisi klasik Jepang (*Haiku*), terdapat aturan struktur metrum 5-7-5 suku kata dan kewajiban memuat kata musim (*Kigo*). Perhatikan karya agung Matsuo Basho berikut:\n'古池や / 蛙飛びこむ / 水の音'\n(Furuike ya / Kawazu tobikomu / Mizu no oto)\nKata penanda musim (*kigo*) yang tersemat dalam bait puisi tersebut beserta musim yang diwakilinya adalah...",
+    "questionHtml": "Dalam seni puisi klasik Jepang (*Haiku*), terdapat aturan struktur metrum 5-7-5 suku kata dan kewajiban memuat kata musim (*Kigo*). Perhatikan karya agung Matsuo Basho berikut:\n'古池や / 蛙飛びこむ / 水の音'\nKata penanda musim (*kigo*) yang tersemat dalam bait puisi tersebut beserta musim yang diwakilinya adalah...",
     "formulaHud": {
       "title": "KONVENSI KIGO PUISI HAIKU (俳句の季語体系)",
       "latex": "\\text{Teks: } \\text{古池や (5)} + \\mathbf{\\text{蛙 (かわず) }} \\text{飛びこむ (7)} + \\text{水の音 (5)} \\implies \\mathbf{\\text{Kigo: 蛙 } \\to \\text{Musim Semi (春)}}",
@@ -2867,7 +3129,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "「蛙（かわず - Katak）」yang secara konvensional menjadi penanda datangnya musim semi (春)."
+        "text": "「蛙（かわず - Katak）」yang secara konvensional menjadi penanda datangnya musim semi",
+        "translation": "春."
       },
       {
         "key": "C",
@@ -2914,7 +3177,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rute B, karena ongkosnya lebih murah (280 yen) dan menghindari stasiun Kanda yang sedang mengalami renovasi lift."
+        "text": "Rute B, karena ongkosnya lebih murah",
+        "translation": "280 yen dan menghindari stasiun Kanda yang sedang mengalami renovasi lift."
       },
       {
         "key": "D",
@@ -2992,23 +3256,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "先生、論文の 原稿を 見てください。 (Bentuk instruksi kudasai standar yang dianggap kurang sopan kepada profesor pembimbing) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "先生、論文の 原稿を 見てください。",
+        "translation": "Bentuk instruksi kudasai standar yang dianggap kurang sopan kepada profesor pembimbing diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "先生、論文の 原稿を 見てあげます。 (Bentuk memberi bantuan yang sangat lancang dan memalukan jika ditujukan kepada atasan)."
+        "text": "先生、論文の 原稿を 見てあげます。",
+        "translation": "Bentuk memberi bantuan yang sangat lancang dan memalukan jika ditujukan kepada atasan."
       },
       {
         "key": "C",
-        "text": "先生、論文の 原稿を 見てもらいたいです。 (Menyatakan keinginan sepihak tanpa mempertimbangkan kesibukan profesor)."
+        "text": "先生、論文の 原稿を 見てもらいたいです。",
+        "translation": "Menyatakan keinginan sepihak tanpa mempertimbangkan kesibukan profesor."
       },
       {
         "key": "D",
-        "text": "先生、論文の 原稿を 見なさい。 (Bentuk perintah imperatif mutlak yang hanya digunakan atasan kepada bawahan)."
+        "text": "先生、論文の 原稿を 見なさい。",
+        "translation": "Bentuk perintah imperatif mutlak yang hanya digunakan atasan kepada bawahan."
       },
       {
         "key": "E",
-        "text": "先生、お忙しいところ 大変 恐縮ですが、論文の 原稿を 見て いただけないでしょうか。 (Melihat draf dengan bentuk permohonan bersyarat sangat santun)."
+        "text": "先生、お忙しいところ 大変 恐縮ですが、論文の 原稿を 見て いただけないでしょうか。",
+        "translation": "Melihat draf dengan bentuk permohonan bersyarat sangat santun."
       }
     ],
     "correctKey": "E",
@@ -3035,23 +3304,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "お先に 失礼します。 (Osaki ni shitsurei shimasu - saya mohon permisi karena pulang mendahului rekan-rekan)."
+        "text": "お先に 失礼します。",
+        "translation": "Osaki ni shitsurei shimasu - saya mohon permisi karena pulang mendahului rekan-rekan."
       },
       {
         "key": "B",
-        "text": "お疲れ様でした。さようなら。 (Mengucapkan sayounara kepada rekan kerja sekantor dianggap tidak lazim dan berjarak dingin)."
+        "text": "お疲れ様でした。さようなら。",
+        "translation": "Mengucapkan sayounara kepada rekan kerja sekantor dianggap tidak lazim dan berjarak dingin."
       },
       {
         "key": "C",
-        "text": "ご苦労様でした。 (Gokurousama deshita - ucapan terima kasih atas kerja keras yang HANYA boleh diucapkan atasan kepada bawahan)."
+        "text": "ご苦労様でした。",
+        "translation": "Gokurousama deshita - ucapan terima kasih atas kerja keras yang HANYA boleh diucapkan atasan kepada bawahan."
       },
       {
         "key": "D",
-        "text": "じゃあ、また あした ね。 (Ungkapan kasual pergaulan santai yang tidak pantas diucapkan staf junior kepada senior di kantor)."
+        "text": "じゃあ、また あした ね。",
+        "translation": "Ungkapan kasual pergaulan santai yang tidak pantas diucapkan staf junior kepada senior di kantor."
       },
       {
         "key": "E",
-        "text": "早く 帰ってください。 (Menyuruh senior agar bergegas pulang yang melanggar hierarki kewenangan)."
+        "text": "早く 帰ってください。",
+        "translation": "Menyuruh senior agar bergegas pulang yang melanggar hierarki kewenangan."
       }
     ],
     "correctKey": "A",
@@ -3121,23 +3395,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "「山田さんは ただ今、席を 外しております。」 (Menyebut rekan sendiri dengan akhiran 'san' di hadapan klien luar dianggap melanggar etika uchi-soto) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "「山田さんは ただ今、席を 外しております。」",
+        "translation": "Menyebut rekan sendiri dengan akhiran 'san' di hadapan klien luar dianggap melanggar etika uchi-soto sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "「山田部長様は 今 トイレに 行っています。」 (Menggunakan gelar kehormatan ganda dan menyebut alasan toilet secara vulgar kepada mitra bisnis)."
+        "text": "「山田部長様は 今 トイレに 行っています。」",
+        "translation": "Menggunakan gelar kehormatan ganda dan menyebut alasan toilet secara vulgar kepada mitra bisnis."
       },
       {
         "key": "C",
-        "text": "「山田は ただ今、席を 外しております。」 (Menyebut Yamada tanpa embel-embel gelar 'san' karena merupakan orang dalam / uchi di hadapan klien luar)."
+        "text": "「山田は ただ今、席を 外しております。」",
+        "translation": "Menyebut Yamada tanpa embel-embel gelar 'san' karena merupakan orang dalam / uchi di hadapan klien luar."
       },
       {
         "key": "D",
-        "text": "「山田は どこかに 遊びに 行きました。」 (Memberikan keterangan tidak profesional yang merusak citra kedisiplinan perusahaan)."
+        "text": "「山田は どこかに 遊びに 行きました。」",
+        "translation": "Memberikan keterangan tidak profesional yang merusak citra kedisiplinan perusahaan."
       },
       {
         "key": "E",
-        "text": "「山田先生は 忙しいので 電話に 出られません。」 (Menyebut rekan kerja sebagai 'sensei' dan menolak panggilan klien secara arogan)."
+        "text": "「山田先生は 忙しいので 電話に 出られません。」",
+        "translation": "Menyebut rekan kerja sebagai 'sensei' dan menolak panggilan klien secara arogan."
       }
     ],
     "correctKey": "C",
@@ -3164,23 +3443,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "「はい、私は天才ですから。」 (Menyombongkan diri sebagai orang jenius yang melanggar nilai kesopanan sosial)."
+        "text": "「はい、私は天才ですから。」",
+        "translation": "Menyombongkan diri sebagai orang jenius yang melanggar nilai kesopanan sosial."
       },
       {
         "key": "B",
-        "text": "「当然です。毎日十時間勉強していますから。」 (Menyatakan kepantasan diri secara jumawa tanpa tedeng aling-aling)."
+        "text": "「当然です。毎日十時間勉強していますから。」",
+        "translation": "Menyatakan kepantasan diri secara jumawa tanpa tedeng aling-aling."
       },
       {
         "key": "C",
-        "text": "「あなたのほうが下手ですね。」 (Menghina balik kemampuan bahasa lawan bicara secara kasar)."
+        "text": "「あなたのほうが下手ですね。」",
+        "translation": "Menghina balik kemampuan bahasa lawan bicara secara kasar."
       },
       {
         "key": "D",
-        "text": "「いいえ、まだまだです。」 (Tidak, kemampuan saya masih jauh dari sempurna / belum ada apa-apanya)."
+        "text": "「いいえ、まだまだです。」",
+        "translation": "Tidak, kemampuan saya masih jauh dari sempurna / belum ada apa-apanya."
       },
       {
         "key": "E",
-        "text": "「その通りです。もっと褒めてください。」 (Meminta tambahan pujian yang dinilai sangat memalukan)."
+        "text": "「その通りです。もっと褒めてください。」",
+        "translation": "Meminta tambahan pujian yang dinilai sangat memalukan."
       }
     ],
     "correctKey": "D",
@@ -3223,7 +3507,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Karena masyarakat memprioritaskan penjagaan harmoni kelompok ('Wa') dan berusaha sekuat tenaga agar tidak menimbulkan gangguan (*meiwaku*) bagi orang lain."
+        "text": "Karena masyarakat memprioritaskan penjagaan harmoni kelompok",
+        "translation": "'Wa') dan berusaha sekuat tenaga agar tidak menimbulkan gangguan (*meiwaku* bagi orang lain."
       }
     ],
     "correctKey": "E",
@@ -3250,23 +3535,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "どれ (Dore - kata tanya pilihan di antara tiga atau lebih objek konkret yang telah disebutkan secara eksplisit)."
+        "text": "どれ",
+        "translation": "Dore - kata tanya pilihan di antara tiga atau lebih objek konkret yang telah disebutkan secara eksplisit."
       },
       {
         "key": "B",
-        "text": "なに (Nani - kata tanya umum terbuka yang tidak mengacu pada himpunan opsi tertutup tertentu) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "なに",
+        "translation": "Nani - kata tanya umum terbuka yang tidak mengacu pada himpunan opsi tertutup tertentu ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "どちら (Dochira - kata tanya komparatif yang khusus hanya digunakan untuk memilih di antara DUA entitas)."
+        "text": "どちら",
+        "translation": "Dochira - kata tanya komparatif yang khusus hanya digunakan untuk memilih di antara DUA entitas."
       },
       {
         "key": "D",
-        "text": "だれ (Dare - kata tanya yang khusus menanyakan identitas subjek manusia)."
+        "text": "だれ",
+        "translation": "Dare - kata tanya yang khusus menanyakan identitas subjek manusia."
       },
       {
         "key": "E",
-        "text": "どこ (Doko - kata tanya lokatif yang khusus menanyakan posisi tempat geografis)."
+        "text": "どこ",
+        "translation": "Doko - kata tanya lokatif yang khusus menanyakan posisi tempat geografis."
       }
     ],
     "correctKey": "A",
@@ -3293,23 +3583,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "私が 先生の 作文を 直して あげました。 (Saya yang mengoreksikan karangan milik guru dengan nada terkesan merendahkan martabat guru)."
+        "text": "私が 先生の 作文を 直して あげました。",
+        "translation": "Saya yang mengoreksikan karangan milik guru dengan nada terkesan merendahkan martabat guru."
       },
       {
         "key": "B",
-        "text": "先生が 私の 作文を 直して くださいました。 (Guru berbuat kebaikan mengoreksi untuk saya dengan verba hormat kudasaimashita)."
+        "text": "先生が 私の 作文を 直して くださいました。",
+        "translation": "Guru berbuat kebaikan mengoreksi untuk saya dengan verba hormat kudasaimashita."
       },
       {
         "key": "C",
-        "text": "先生が 私の 作文を 直して やりました。 (Menggunakan yarimashita yang hanya ditujukan untuk hewan, tanaman, atau anak kecil)."
+        "text": "先生が 私の 作文を 直して やりました。",
+        "translation": "Menggunakan yarimashita yang hanya ditujukan untuk hewan, tanaman, atau anak kecil."
       },
       {
         "key": "D",
-        "text": "私は 先生に 作文を 直して あげたいです。 (Menyatakan keinginan diri sendiri untuk mengajari atau mengoreksi tulisan guru)."
+        "text": "私は 先生に 作文を 直して あげたいです。",
+        "translation": "Menyatakan keinginan diri sendiri untuk mengajari atau mengoreksi tulisan guru."
       },
       {
         "key": "E",
-        "text": "先生は 私に 作文を 直して もらいました。 (Terbalik subjek, menyiratkan bahwa guru yang berterima kasih menerima jasa dari saya)."
+        "text": "先生は 私に 作文を 直して もらいました。",
+        "translation": "Terbalik subjek, menyiratkan bahwa guru yang berterima kasih menerima jasa dari saya."
       }
     ],
     "correctKey": "B",
@@ -3336,23 +3631,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: に, B: く (terbalik antara kaidah pembentukan kata sifat-i dan kata sifat-na) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "A: に, B: く",
+        "translation": "terbalik antara kaidah pembentukan kata sifat-i dan kata sifat-na sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "A: い, B: な (mempertahankan bentuk dasar tanpa konjugasi perubahan keadaan)."
+        "text": "A: い, B: な",
+        "translation": "mempertahankan bentuk dasar tanpa konjugasi perubahan keadaan."
       },
       {
         "key": "C",
-        "text": "A: く (Akaku - sifat-i coret い berganti く), B: に (Nigiyaka ni - sifat-na dilekatkan partikel に)."
+        "text": "A: く",
+        "translation": "Akaku - sifat-i coret い berganti く), B: に (Nigiyaka ni - sifat-na dilekatkan partikel に."
       },
       {
         "key": "D",
-        "text": "A: く, B: な (kata sifat-na keliru dilekatkan partikel na di depan verba naru)."
+        "text": "A: く, B: な",
+        "translation": "kata sifat-na keliru dilekatkan partikel na di depan verba naru."
       },
       {
         "key": "E",
-        "text": "A: で, B: に (kata sifat-i keliru dilekatkan kopula partikel de)."
+        "text": "A: で, B: に",
+        "translation": "kata sifat-i keliru dilekatkan kopula partikel de."
       }
     ],
     "correctKey": "C",
@@ -3379,23 +3679,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "さとうさんは あした 出張で 大阪へ 行きます と 言っていました。 (Mempertahankan bentuk formal masu di dalam klausa kutipan subordinat)."
+        "text": "さとうさんは あした 出張で 大阪へ 行きます と 言っていました。",
+        "translation": "Mempertahankan bentuk formal masu di dalam klausa kutipan subordinat."
       },
       {
         "key": "B",
-        "text": "さとうさんは あした 出張で 大阪へ 行った と 言っていました。 (Mengubah kala waktu menjadi lampau padahal peristiwa baru akan berlangsung besok)."
+        "text": "さとうさんは あした 出張で 大阪へ 行った と 言っていました。",
+        "translation": "Mengubah kala waktu menjadi lampau padahal peristiwa baru akan berlangsung besok."
       },
       {
         "key": "C",
-        "text": "さとうさんは あした 出張で 大阪へ 行かない と 言っていました。 (Mengubah polaritas pernyataan menjadi negatif tanpa dasar teks)."
+        "text": "さとうさんは あした 出張で 大阪へ 行かない と 言っていました。",
+        "translation": "Mengubah polaritas pernyataan menjadi negatif tanpa dasar teks."
       },
       {
         "key": "D",
-        "text": "さとうさんは あした 出張で 大阪へ 行く と 言っていました。 (Bentuk sopan ikimasu diubah ke bentuk biasa/kamus iku sebelum partikel kutipan と)."
+        "text": "さとうさんは あした 出張で 大阪へ 行く と 言っていました。",
+        "translation": "Bentuk sopan ikimasu diubah ke bentuk biasa/kamus iku sebelum partikel kutipan と."
       },
       {
         "key": "E",
-        "text": "さとうさんは あした 出張で 大阪へ 行け と 言っていました。 (Mengubah pernyataan deklaratif menjadi kalimat perintah imperatif)."
+        "text": "さとうさんは あした 出張で 大阪へ 行け と 言っていました。",
+        "translation": "Mengubah pernyataan deklaratif menjadi kalimat perintah imperatif."
       }
     ],
     "correctKey": "D",
@@ -3422,23 +3727,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "買うに (Kau ni - kesalahan gramatikal fatal karena bentuk kamus tidak boleh langsung dilekatkan partikel ni) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "買うに",
+        "translation": "Kau ni - kesalahan gramatikal fatal karena bentuk kamus tidak boleh langsung dilekatkan partikel ni diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "買ってに (Katte ni - kesalahan gramatikal menggabungkan bentuk te dengan partikel ni)."
+        "text": "買ってに",
+        "translation": "Katte ni - kesalahan gramatikal menggabungkan bentuk te dengan partikel ni."
       },
       {
         "key": "C",
-        "text": "買いたいに (Kaitai ni - bentuk keinginan yang tidak kompatibel dengan verba pergerakan ikimashita)."
+        "text": "買いたいに",
+        "translation": "Kaitai ni - bentuk keinginan yang tidak kompatibel dengan verba pergerakan ikimashita."
       },
       {
         "key": "D",
-        "text": "買わないに (Kawanai ni - bentuk negatif yang merusak struktur kepergian berbelanja)."
+        "text": "買わないに",
+        "translation": "Kawanai ni - bentuk negatif yang merusak struktur kepergian berbelanja."
       },
       {
         "key": "E",
-        "text": "買いに (Kai ni - akar kata verba masu-stem 'kai' diikuti partikel tujuan gerak 'ni' untuk menyatakan pergi demi membeli)."
+        "text": "買いに",
+        "translation": "Kai ni - akar kata verba masu-stem 'kai' diikuti partikel tujuan gerak 'ni' untuk menyatakan pergi demi membeli."
       }
     ],
     "correctKey": "E",
@@ -3465,23 +3775,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: たべる (bentuk kamus wajib mendahului まえに), B: たべた (bentuk lampau ta-kei wajib mendahului あとで)."
+        "text": "A: たべる",
+        "translation": "bentuk kamus wajib mendahului まえに), B: たべた (bentuk lampau ta-kei wajib mendahului あとで."
       },
       {
         "key": "B",
-        "text": "A: たべた, B: たべる (terbalik mutlak antara kaidah sekuensial waktu sebelum dan sesudah) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "A: たべた, B: たべる",
+        "translation": "terbalik mutlak antara kaidah sekuensial waktu sebelum dan sesudah ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "A: たべる, B: たべる (menggunakan bentuk kamus untuk kedua konstruksi waktu)."
+        "text": "A: たべる, B: たべる",
+        "translation": "menggunakan bentuk kamus untuk kedua konstruksi waktu."
       },
       {
         "key": "D",
-        "text": "A: たべた, B: たべた (menggunakan bentuk lampau untuk kedua konstruksi waktu)."
+        "text": "A: たべた, B: たべた",
+        "translation": "menggunakan bentuk lampau untuk kedua konstruksi waktu."
       },
       {
         "key": "E",
-        "text": "A: たべて, B: たべて (menggunakan bentuk te yang menyalahi modifikasi nomina gramatikal)."
+        "text": "A: たべて, B: たべて",
+        "translation": "menggunakan bentuk te yang menyalahi modifikasi nomina gramatikal."
       }
     ],
     "correctKey": "A",
@@ -3508,23 +3823,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "見るながら (Mirunagara - bentuk kamus yang dilarang melekat pada akhiran nagara) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "見るながら",
+        "translation": "Mirunagara - bentuk kamus yang dilarang melekat pada akhiran nagara ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "見ながら (Minagara - akar verba masu-stem mi- dilekatkan partikel konjungsi simultan nagara)."
+        "text": "見ながら",
+        "translation": "Minagara - akar verba masu-stem mi- dilekatkan partikel konjungsi simultan nagara."
       },
       {
         "key": "C",
-        "text": "見てながら (Mitenagara - kesalahan menggabungkan bentuk te dengan nagara)."
+        "text": "見てながら",
+        "translation": "Mitenagara - kesalahan menggabungkan bentuk te dengan nagara."
       },
       {
         "key": "D",
-        "text": "見たながら (Mitanagara - kesalahan menggabungkan bentuk lampau dengan nagara)."
+        "text": "見たながら",
+        "translation": "Mitanagara - kesalahan menggabungkan bentuk lampau dengan nagara."
       },
       {
         "key": "E",
-        "text": "見ないながら (Minainagara - bentuk negatif yang menyalahi pembentukan baku nagara)."
+        "text": "見ないながら",
+        "translation": "Minainagara - bentuk negatif yang menyalahi pembentukan baku nagara."
       }
     ],
     "correctKey": "B",
@@ -3551,23 +3871,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: そうじして, B: よんで (bentuk te biasa yang membatasi tindakan sebagai urutan kaku) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "A: そうじして, B: よんで",
+        "translation": "bentuk te biasa yang membatasi tindakan sebagai urutan kaku sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "A: そうじする, B: よむ (bentuk kamus yang tidak memiliki morfem penanda variasi aktivitas)."
+        "text": "A: そうじする, B: よむ",
+        "translation": "bentuk kamus yang tidak memiliki morfem penanda variasi aktivitas."
       },
       {
         "key": "C",
-        "text": "A: そうじしたり, B: よんだり (akar ta-kei dilekatkan partikel ri untuk mendata contoh perbuatan non-kronologis)."
+        "text": "A: そうじしたり, B: よんだり",
+        "translation": "akar ta-kei dilekatkan partikel ri untuk mendata contoh perbuatan non-kronologis."
       },
       {
         "key": "D",
-        "text": "A: そうじした, B: よんだ (bentuk lampau terputus yang merusak konstruksi pembantu suru)."
+        "text": "A: そうじした, B: よんだ",
+        "translation": "bentuk lampau terputus yang merusak konstruksi pembantu suru."
       },
       {
         "key": "E",
-        "text": "A: そうじしろ, B: よめ (bentuk imperatif kasar yang menyimpang dari deskripsi hari libur)."
+        "text": "A: そうじしろ, B: よめ",
+        "translation": "bentuk imperatif kasar yang menyimpang dari deskripsi hari libur."
       }
     ],
     "correctKey": "C",
@@ -3594,23 +3919,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 入った, B: 寝ない (terbalik total yang justru membahayakan kondisi kesehatan pasien) menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
+        "text": "A: 入った, B: 寝ない",
+        "translation": "terbalik total yang justru membahayakan kondisi kesehatan pasien menurut norma komunikasi situasional dan etika pragmatik budaya Jepang."
       },
       {
         "key": "B",
-        "text": "A: 入らない, B: 寝る (saran positif anjuran baku wajib menggunakan verba bentuk ta, bukan jisho-kei)."
+        "text": "A: 入らない, B: 寝る",
+        "translation": "saran positif anjuran baku wajib menggunakan verba bentuk ta, bukan jisho-kei."
       },
       {
         "key": "C",
-        "text": "A: 入らなくて, B: 寝て (bentuk te tidak kompatibel dengan konstruksi pembanding hou ga ii)."
+        "text": "A: 入らなくて, B: 寝て",
+        "translation": "bentuk te tidak kompatibel dengan konstruksi pembanding hou ga ii."
       },
       {
         "key": "D",
-        "text": "A: 入らない (Hai-ranai - bentuk nai untuk saran pencegahan), B: 寝た (Neta - bentuk ta untuk anjuran perbuatan)."
+        "text": "A: 入らない",
+        "translation": "Hai-ranai - bentuk nai untuk saran pencegahan), B: 寝た (Neta - bentuk ta untuk anjuran perbuatan."
       },
       {
         "key": "E",
-        "text": "A: 入るな, B: 寝ろ (perintah larangan kasar yang tidak etis diucapkan dokter kepada pasien)."
+        "text": "A: 入るな, B: 寝ろ",
+        "translation": "perintah larangan kasar yang tidak etis diucapkan dokter kepada pasien."
       }
     ],
     "correctKey": "D",
@@ -3637,23 +3967,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ふらなければなりません (Menyatakan kewajiban hukum bahwa hujan wajib turun) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "ふらなければなりません",
+        "translation": "Menyatakan kewajiban hukum bahwa hujan wajib turun diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "ふってはいけません (Menyatakan larangan bahwa hujan tidak boleh turun)."
+        "text": "ふってはいけません",
+        "translation": "Menyatakan larangan bahwa hujan tidak boleh turun."
       },
       {
         "key": "C",
-        "text": "ふることが できます (Menyatakan kemampuan kompetensi bahwa hujan bisa turun)."
+        "text": "ふることが できます",
+        "translation": "Menyatakan kemampuan kompetensi bahwa hujan bisa turun."
       },
       {
         "key": "D",
-        "text": "ふりたいです (Menyatakan keinginan subjektif bahwa pembicara ingin turun hujan)."
+        "text": "ふりたいです",
+        "translation": "Menyatakan keinginan subjektif bahwa pembicara ingin turun hujan."
       },
       {
         "key": "E",
-        "text": "ふるかもしれません (Furu kamoshiremasen - ada kemungkinan hujan akan turun, berbobot dugaan sekitar 50%)."
+        "text": "ふるかもしれません",
+        "translation": "Furu kamoshiremasen - ada kemungkinan hujan akan turun, berbobot dugaan sekitar 50%."
       }
     ],
     "correctKey": "E",
@@ -3680,15 +4015,18 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "500 yen (tiket masuk pelajar SMA 200 yen + biaya sewa topi renang 300 yen, dan kolam renang buka karena libur nasional dialihkan ke hari Selasa)."
+        "text": "500 yen",
+        "translation": "tiket masuk pelajar SMA 200 yen + biaya sewa topi renang 300 yen, dan kolam renang buka karena libur nasional dialihkan ke hari Selasa."
       },
       {
         "key": "B",
-        "text": "800 yen (dihitung menggunakan tarif tiket masuk orang dewasa 500 yen ditambah biaya topi renang) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "800 yen",
+        "translation": "dihitung menggunakan tarif tiket masuk orang dewasa 500 yen ditambah biaya topi renang ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "200 yen (hanya membayar tiket masuk karena topi renang dipinjamkan secara gratis untuk pelajar)."
+        "text": "200 yen",
+        "translation": "hanya membayar tiket masuk karena topi renang dipinjamkan secara gratis untuk pelajar."
       },
       {
         "key": "D",
@@ -3696,7 +4034,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "700 yen (karena dikenakan denda tambahan hari libur sebesar 200 yen)."
+        "text": "700 yen",
+        "translation": "karena dikenakan denda tambahan hari libur sebesar 200 yen."
       }
     ],
     "correctKey": "A",
@@ -3739,7 +4078,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Waktu proses lapor masuk (check-in) baru dibuka pada malam hari mulai pukul 20.00."
+        "text": "Waktu proses lapor masuk",
+        "translation": "check-in baru dibuka pada malam hari mulai pukul 20.00."
       }
     ],
     "correctKey": "B",
@@ -3852,23 +4192,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kenさんは 今年 いつも 運動しませんでした。 (Penggabungan itsumo dengan negatif yang tidak berterima dalam tata bahasa Jepang) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "Kenさんは 今年 いつも 運動しませんでした。",
+        "translation": "Penggabungan itsumo dengan negatif yang tidak berterima dalam tata bahasa Jepang diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "Kenさんは 今年 あまり 運動しませんでした。 (Amari bermakna 'jarang / tidak begitu sering', bukan penolakan mutlak 0%)."
+        "text": "Kenさんは 今年 あまり 運動しませんでした。",
+        "translation": "Amari bermakna 'jarang / tidak begitu sering', bukan penolakan mutlak 0%."
       },
       {
         "key": "C",
-        "text": "Kenさんは 今年 ときどき 運動しました。 (Tokidoki bermakna kadang-kadang yang bertentangan dengan fakta 0%)."
+        "text": "Kenさんは 今年 ときどき 運動しました。",
+        "translation": "Tokidoki bermakna kadang-kadang yang bertentangan dengan fakta 0%."
       },
       {
         "key": "D",
-        "text": "Kenさんは 今年 よく 運動しました。 (Yoku bermakna sering/kerap kali berolahraga)."
+        "text": "Kenさんは 今年 よく 運動しました。",
+        "translation": "Yoku bermakna sering/kerap kali berolahraga."
       },
       {
         "key": "E",
-        "text": "Kenさんは 今年 全然 運動しませんでした。 (Zenzen berpasangan dengan bentuk predikat negatif masen untuk menyatakan sama sekali tidak)."
+        "text": "Kenさんは 今年 全然 運動しませんでした。",
+        "translation": "Zenzen berpasangan dengan bentuk predikat negatif masen untuk menyatakan sama sekali tidak."
       }
     ],
     "correctKey": "E",
@@ -3895,23 +4240,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "その (Sono - kata tunjuk yang wajib diikuti langsung oleh kata benda nomina 'tokei')."
+        "text": "その",
+        "translation": "Sono - kata tunjuk yang wajib diikuti langsung oleh kata benda nomina 'tokei'."
       },
       {
         "key": "B",
-        "text": "それ (Sore - kata ganti benda independen yang dilarang keras memodifikasi kata benda lain secara langsung tanpa partikel)."
+        "text": "それ",
+        "translation": "Sore - kata ganti benda independen yang dilarang keras memodifikasi kata benda lain secara langsung tanpa partikel."
       },
       {
         "key": "C",
-        "text": "これ (Kore - kata ganti mandiri untuk benda di tangan pembicara sendiri)."
+        "text": "これ",
+        "translation": "Kore - kata ganti mandiri untuk benda di tangan pembicara sendiri."
       },
       {
         "key": "D",
-        "text": "この (Kono - kata tunjuk yang keliru karena mengacu pada area pembicara, bukan lawan bicara)."
+        "text": "この",
+        "translation": "Kono - kata tunjuk yang keliru karena mengacu pada area pembicara, bukan lawan bicara."
       },
       {
         "key": "E",
-        "text": "あの (Ano - kata tunjuk yang mengacu pada benda yang posisinya jauh dari kedua pihak)."
+        "text": "あの",
+        "translation": "Ano - kata tunjuk yang mengacu pada benda yang posisinya jauh dari kedua pihak."
       }
     ],
     "correctKey": "A",
@@ -3929,7 +4279,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pernyataan hobi berikut:\n'私の 趣味は 休日に ギターを ( ... ) ことです。'\nBentuk verba 'ひきます' (memetik/memainkan alat musik dawai) yang BENAR untuk mengisi rumpang nominalisasi adalah...",
+    "questionHtml": "Perhatikan kalimat pernyataan hobi berikut:\n'私の 趣味は 休日に ギターを ( ... ) ことです。'\nBentuk verba 'ひきます' yang BENAR untuk mengisi rumpang nominalisasi adalah...",
     "formulaHud": {
       "title": "NOMINALISASI KLAUSA VERBAL (動詞の連体形名詞化)",
       "latex": "\\mathbf{V\\text{-辞書形 (Kamus)}} + \\mathbf{\\text{こと / の}} \\implies \\text{Hal / Tindakan melakukan } V",
@@ -3938,23 +4288,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ひきます (Hikimasu - bentuk masu formal yang tidak boleh memodifikasi kata benda koto)."
+        "text": "ひきます",
+        "translation": "Hikimasu - bentuk masu formal yang tidak boleh memodifikasi kata benda koto."
       },
       {
         "key": "B",
-        "text": "ひく (Hiku - bentuk kamus jisho-kei wajib mendahului kata pembenda 'koto')."
+        "text": "ひく",
+        "translation": "Hiku - bentuk kamus jisho-kei wajib mendahului kata pembenda 'koto'."
       },
       {
         "key": "C",
-        "text": "ひいて (Hiite - bentuk te yang memerlukan kata kerja sambungan lain)."
+        "text": "ひいて",
+        "translation": "Hiite - bentuk te yang memerlukan kata kerja sambungan lain."
       },
       {
         "key": "D",
-        "text": "ひいた (Hiita - bentuk lampau yang tidak logis untuk menyatakan deskripsi hobi permanen)."
+        "text": "ひいた",
+        "translation": "Hiita - bentuk lampau yang tidak logis untuk menyatakan deskripsi hobi permanen."
       },
       {
         "key": "E",
-        "text": "ひき (Hiki - bentuk akar kata yang tidak baku sebelum koto)."
+        "text": "ひき",
+        "translation": "Hiki - bentuk akar kata yang tidak baku sebelum koto."
       }
     ],
     "correctKey": "B",
@@ -3981,23 +4336,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ことに きめ (Koto ni kime - pola koto ni kimeru menandai keputusan kehendak pribadi karyawan sendiri) sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
+        "text": "ことに きめ",
+        "translation": "Koto ni kime - pola koto ni kimeru menandai keputusan kehendak pribadi karyawan sendiri sesuai konteks semantik wacana dokkai dan kaidah ortografi kanji baku."
       },
       {
         "key": "B",
-        "text": "ように し (You ni shi - pola you ni suru menandai usaha pembiasaan diri melakukan sesuatu secara rutin)."
+        "text": "ように し",
+        "translation": "You ni shi - pola you ni suru menandai usaha pembiasaan diri melakukan sesuatu secara rutin."
       },
       {
         "key": "C",
-        "text": "ことに なり (Koto ni nari - pola koto ni naru menandai keputusan atau ketetapan yang ditentukan oleh otoritas luar/organisasi)."
+        "text": "ことに なり",
+        "translation": "Koto ni nari - pola koto ni naru menandai keputusan atau ketetapan yang ditentukan oleh otoritas luar/organisasi."
       },
       {
         "key": "D",
-        "text": "はずが あり (Hazu ga ari - pola hazu ga arimasen yang menandai ketiadaan keniscayaan rasional)."
+        "text": "はずが あり",
+        "translation": "Hazu ga ari - pola hazu ga arimasen yang menandai ketiadaan keniscayaan rasional."
       },
       {
         "key": "E",
-        "text": "つもりで い (Tsumori de i - menyatakan prasangka subjektif diri sendiri)."
+        "text": "つもりで い",
+        "translation": "Tsumori de i - menyatakan prasangka subjektif diri sendiri."
       }
     ],
     "correctKey": "C",
@@ -4024,23 +4384,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ふりそう (Furisou - dugaan sekilas sebelum hujan turun yang bertentangan dengan fakta payung basah)."
+        "text": "ふりそう",
+        "translation": "Furisou - dugaan sekilas sebelum hujan turun yang bertentangan dengan fakta payung basah."
       },
       {
         "key": "B",
-        "text": "ふったらしい (Bentuk rashii kabar angin yang kurang tepat untuk pengamatan langsung mata kepala sendiri)."
+        "text": "ふったらしい",
+        "translation": "Bentuk rashii kabar angin yang kurang tepat untuk pengamatan langsung mata kepala sendiri."
       },
       {
         "key": "C",
-        "text": "ふらなさ (Bentuk peniadaan yang bertentangan dengan visual orang memakai payung)."
+        "text": "ふらなさ",
+        "translation": "Bentuk peniadaan yang bertentangan dengan visual orang memakai payung."
       },
       {
         "key": "D",
-        "text": "ふっている (Futte iru - bentuk sedang berlangsung te iru mendahului kopula dugaan you da)."
+        "text": "ふっている",
+        "translation": "Futte iru - bentuk sedang berlangsung te iru mendahului kopula dugaan you da."
       },
       {
         "key": "E",
-        "text": "ふれ (Bentuk imperatif perintah yang tidak dapat melekat sebelum you da)."
+        "text": "ふれ",
+        "translation": "Bentuk imperatif perintah yang tidak dapat melekat sebelum you da."
       }
     ],
     "correctKey": "D",
@@ -4067,23 +4432,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "おしたら (Oshitara - kondisional percakapan umum yang kurang tepat untuk relasi mekanis keniscayaan tombol) diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
+        "text": "おしたら",
+        "translation": "Oshitara - kondisional percakapan umum yang kurang tepat untuk relasi mekanis keniscayaan tombol diturunkan dari analisis struktur kalimat bertingkat pola klausula subordinatif."
       },
       {
         "key": "B",
-        "text": "おせば (Oseba - bentuk pengandaian hipotetis yang tidak menekankan otomatisasi seketika)."
+        "text": "おせば",
+        "translation": "Oseba - bentuk pengandaian hipotetis yang tidak menekankan otomatisasi seketika."
       },
       {
         "key": "C",
-        "text": "おすなら (Osunara - partikel nara yang digunakan untuk merespons topik yang diangkat lawan bicara)."
+        "text": "おすなら",
+        "translation": "Osunara - partikel nara yang digunakan untuk merespons topik yang diangkat lawan bicara."
       },
       {
         "key": "D",
-        "text": "おして (Oshite - bentuk te sekuensial yang tidak memiliki kekuatan klausa bersyarat mutlak)."
+        "text": "おして",
+        "translation": "Oshite - bentuk te sekuensial yang tidak memiliki kekuatan klausa bersyarat mutlak."
       },
       {
         "key": "E",
-        "text": "おすと (Osu to - partikel to melekat pada verba bentuk kamus untuk menyatakan hukum sebab-akibat mesin/alam yang pasti)."
+        "text": "おすと",
+        "translation": "Osu to - partikel to melekat pada verba bentuk kamus untuk menyatakan hukum sebab-akibat mesin/alam yang pasti."
       }
     ],
     "correctKey": "E",
@@ -4110,23 +4480,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "お邪魔します (Ojamashimasu - permisi karena kehadiran saya akan sedikit mengganggu ketenangan rumah tuan rumah)."
+        "text": "お邪魔します",
+        "translation": "Ojamashimasu - permisi karena kehadiran saya akan sedikit mengganggu ketenangan rumah tuan rumah."
       },
       {
         "key": "B",
-        "text": "いらっしゃいませ (Irasshaimase - salam selamat datang yang diucapkan tuan rumah atau pelayan toko) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "いらっしゃいませ",
+        "translation": "Irasshaimase - salam selamat datang yang diucapkan tuan rumah atau pelayan toko ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "C",
-        "text": "ごめんください (Gomen kudasai - ucapan memanggil dari luar pintu saat mengetuk rumah yang sepi)."
+        "text": "ごめんください",
+        "translation": "Gomen kudasai - ucapan memanggil dari luar pintu saat mengetuk rumah yang sepi."
       },
       {
         "key": "D",
-        "text": "おかえりなさい (Okaerinasai - salam menyambut anggota keluarga sendiri yang baru pulang ke rumah)."
+        "text": "おかえりなさい",
+        "translation": "Okaerinasai - salam menyambut anggota keluarga sendiri yang baru pulang ke rumah."
       },
       {
         "key": "E",
-        "text": "かしこまりました (Kashikomarimashita - ungkapan kepatuhan staf hotel/restoran saat menerima pesanan klien)."
+        "text": "かしこまりました",
+        "translation": "Kashikomarimashita - ungkapan kepatuhan staf hotel/restoran saat menerima pesanan klien."
       }
     ],
     "correctKey": "A",
@@ -4153,23 +4528,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ごちそうさまでした (Ucapan selesai makan yang tidak relevan dengan aktivitas kerja bakti kebersihan) ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
+        "text": "ごちそうさまでした",
+        "translation": "Ucapan selesai makan yang tidak relevan dengan aktivitas kerja bakti kebersihan ditinjau dari register kesantunan bahasa keigo serta kaidah konjugasi verba."
       },
       {
         "key": "B",
-        "text": "お疲れ様でした (Otsukaresama deshita - terima kasih atas kerja keras dan keletihan yang telah kita curahkan bersama)."
+        "text": "お疲れ様でした",
+        "translation": "Otsukaresama deshita - terima kasih atas kerja keras dan keletihan yang telah kita curahkan bersama."
       },
       {
         "key": "C",
-        "text": "失礼します (Ungkapan permisi saat memasuki ruang guru atau menyela pembicaraan)."
+        "text": "失礼します",
+        "translation": "Ungkapan permisi saat memasuki ruang guru atau menyela pembicaraan."
       },
       {
         "key": "D",
-        "text": "どういたしまして (Balasan sama-sama yang kurang mencerminkan apresiasi kolektif atas kerja fisik)."
+        "text": "どういたしまして",
+        "translation": "Balasan sama-sama yang kurang mencerminkan apresiasi kolektif atas kerja fisik."
       },
       {
         "key": "E",
-        "text": "お大事に (Odaiji ni - ucapan lekas sembuh yang khusus ditujukan kepada orang yang sedang sakit)."
+        "text": "お大事に",
+        "translation": "Odaiji ni - ucapan lekas sembuh yang khusus ditujukan kepada orang yang sedang sakit."
       }
     ],
     "correctKey": "B",
@@ -4196,23 +4576,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "お元気ですか (Menanyakan kabar seolah-olah orang tersebut dalam kondisi prima bugar)."
+        "text": "お元気ですか",
+        "translation": "Menanyakan kabar seolah-olah orang tersebut dalam kondisi prima bugar."
       },
       {
         "key": "B",
-        "text": "おめでとうございます (Ucapan selamat berbahagia yang sangat tidak pantas diucapkan kepada orang sakit)."
+        "text": "おめでとうございます",
+        "translation": "Ucapan selamat berbahagia yang sangat tidak pantas diucapkan kepada orang sakit."
       },
       {
         "key": "C",
-        "text": "お大事に (Odaiji ni - semoga lekas sembuh dan rawatlah tubuh Anda dengan sebaik-baiknya)."
+        "text": "お大事に",
+        "translation": "Odaiji ni - semoga lekas sembuh dan rawatlah tubuh Anda dengan sebaik-baiknya."
       },
       {
         "key": "D",
-        "text": "気をつけてください (Peringatan agar berhati-hati di jalan yang ditujukan kepada pelancong)."
+        "text": "気をつけてください",
+        "translation": "Peringatan agar berhati-hati di jalan yang ditujukan kepada pelancong."
       },
       {
         "key": "E",
-        "text": "頑張ってください (Dorongan semangat berkompetisi yang justru dapat membebani psikologis orang sakit parah)."
+        "text": "頑張ってください",
+        "translation": "Dorongan semangat berkompetisi yang justru dapat membebani psikologis orang sakit parah."
       }
     ],
     "correctKey": "C",
@@ -4311,23 +4696,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "海 (Umi - Laut / Samudra)."
+        "text": "海",
+        "translation": "Umi - Laut / Samudra."
       },
       {
         "key": "B",
-        "text": "池 (Ike - Kolam air)."
+        "text": "池",
+        "translation": "Ike - Kolam air."
       },
       {
         "key": "C",
-        "text": "泳 (Oyogu - Berenang di air)."
+        "text": "泳",
+        "translation": "Oyogu - Berenang di air."
       },
       {
         "key": "D",
-        "text": "校 (Kou - Sekolah tempat menuntut ilmu)."
+        "text": "校",
+        "translation": "Kou - Sekolah tempat menuntut ilmu."
       },
       {
         "key": "E",
-        "text": "休 (Yasumu - Beristirahat di bawah pohon)."
+        "text": "休",
+        "translation": "Yasumu - Beristirahat di bawah pohon."
       }
     ],
     "correctKeys": [
@@ -4358,23 +4748,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "飲む (Nomu - minum)."
+        "text": "飲む",
+        "translation": "Nomu - minum."
       },
       {
         "key": "B",
-        "text": "書く (Kaku - menulis)."
+        "text": "書く",
+        "translation": "Kaku - menulis."
       },
       {
         "key": "C",
-        "text": "話す (Hanasu - berbicara)."
+        "text": "話す",
+        "translation": "Hanasu - berbicara."
       },
       {
         "key": "D",
-        "text": "食べる (Taberu - makan, berakhiran -eru vokal e sebelum ru)."
+        "text": "食べる",
+        "translation": "Taberu - makan, berakhiran -eru vokal e sebelum ru."
       },
       {
         "key": "E",
-        "text": "する (Suru - melakukan, kata kerja tidak beraturan Golongan III)."
+        "text": "する",
+        "translation": "Suru - melakukan, kata kerja tidak beraturan Golongan III."
       }
     ],
     "correctKeys": [
@@ -4405,23 +4800,28 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "言う (Iu) \\to おっしゃる (Ossharu)."
+        "text": "言う",
+        "translation": "Iu) \\to おっしゃる (Ossharu."
       },
       {
         "key": "B",
-        "text": "食べる (Taberu) \\to 召し上がる (Meshiagaru)."
+        "text": "食べる",
+        "translation": "Taberu) \\to 召し上がる (Meshiagaru."
       },
       {
         "key": "C",
-        "text": "見る (Miru) \\to ご覧になる (Goran ni naru)."
+        "text": "見る",
+        "translation": "Miru) \\to ご覧になる (Goran ni naru."
       },
       {
         "key": "D",
-        "text": "行く (Iku) \\to 参る (Mairu - ini adalah bentuk Kenjougo rendah hati, bukan Sonkeigo)."
+        "text": "行く",
+        "translation": "Iku) \\to 参る (Mairu - ini adalah bentuk Kenjougo rendah hati, bukan Sonkeigo."
       },
       {
         "key": "E",
-        "text": "する (Suru) \\to いたす (Itasu - ini adalah bentuk Kenjougo rendah hati, bukan Sonkeigo)."
+        "text": "する",
+        "translation": "Suru) \\to いたす (Itasu - ini adalah bentuk Kenjougo rendah hati, bukan Sonkeigo."
       }
     ],
     "correctKeys": [
@@ -4452,7 +4852,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menundukkan kepala sedikit (*eshaku*) saat melewati pintu gerbang suci *Torii* di jalan masuk kuil."
+        "text": "Menundukkan kepala sedikit",
+        "translation": "*eshaku* saat melewati pintu gerbang suci *Torii* di jalan masuk kuil."
       },
       {
         "key": "B",
@@ -4464,7 +4865,8 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Berjalan tepat di tengah-tengah jalan utama (*Seichuu*) karena jalur tengah memang khusus disediakan untuk peziarah umum."
+        "text": "Berjalan tepat di tengah-tengah jalan utama",
+        "translation": "*Seichuu* karena jalur tengah memang khusus disediakan untuk peziarah umum."
       },
       {
         "key": "E",
