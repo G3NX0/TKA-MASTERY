@@ -5639,12 +5639,46 @@ html, body {
   display: none !important;
 }
 
-.arabic-content {
+.arabic-content,
+.arabic-passage-block {
   direction: rtl !important;
   text-align: right !important;
   font-family: 'Amiri', 'Traditional Arabic', serif !important;
   font-size: 1.35em !important;
   line-height: 2.2 !important;
+}
+
+.arabic-passage-block {
+  padding: 14px 18px;
+  background: rgba(15, 23, 42, 0.45);
+  border-radius: 10px;
+  border-right: 3px solid #38bdf8;
+  margin: 12px 0;
+}
+
+/* Isolated Arabic Typography for Inline Quotes & Mixed Sentences */
+.arabic-text,
+.arabic-quote,
+.arabic-inline,
+bdi.arabic-quote,
+bdi.arabic-inline {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.28em;
+  line-height: 1.85;
+  direction: rtl !important;
+  unicode-bidi: isolate !important;
+  display: inline;
+  letter-spacing: 0;
+}
+
+.paper-opt-btn .opt-foreign-stem.arabic-text {
+  font-family: 'Amiri', 'Traditional Arabic', serif !important;
+  font-size: 1.35em;
+  direction: rtl !important;
+  unicode-bidi: isolate;
+  text-align: right;
+  line-height: 1.8;
+  display: block;
 }
 
 /* Tool Modals General Card */
@@ -7315,7 +7349,12 @@ body.modal-scroll-lock {
 }
 
 /* Visibility Control: instant 0ms toggle via CSS */
-.translation-hidden .translate-only {
+.translation-hidden .translate-only,
+.translation-hidden .inline-trans-token,
+.translation-hidden .option-translation,
+.translation-hidden .passage-translation,
+.translation-hidden .question-translation-stem,
+.translation-hidden .interlinear-grammar-note {
   display: none !important;
 }
 

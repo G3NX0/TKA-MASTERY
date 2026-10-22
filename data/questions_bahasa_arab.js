@@ -397,7 +397,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah morfologi shorof bahasa Arab, isim fa'il (kata benda penunjuk pelaku tindakan) dari kata kerja dasar tsulatsi mujarrad 'كَتَبَ' (kataba - menulis) dibentuk mengikuti wazan 'فَاعِلٌ', yaitu...",
+    "questionHtml": "Dalam kaidah morfologi shorof bahasa Arab, isim fa'il (kata benda penunjuk pelaku tindakan) dari kata kerja dasar tsulatsi mujarrad 'كَتَبَ' dibentuk mengikuti wazan 'فَاعِلٌ', yaitu...",
     "formulaHud": {
       "title": "DERIVASI ISIM FA'IL TSULATSI MUJARRAD",
       "latex": "\\text{Fi'il (فَعَلَ: كَتَبَ)} \\xrightarrow{\\mathbf{\\text{Wazan فَاعِلٌ}}} \\mathbf{\\text{Isim Fa'il: كَاتِبٌ}} \\implies \\text{Makna: Pelaku Perbuatan (Penulis)}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah adad dan ma'dud bahasa Arab untuk bilangan 3 sampai 10, jenis kelamin kata bilangan (adad) berlawanan jenis (*mukhalafah*) dengan benda yang dihitung (ma'dud), dan ma'dud-nya wajib berbentuk jama' majrur. Jika kita ingin menyatakan 'lima pulpen' (di mana pulpen mufrad-nya adalah 'قَلَمٌ' - mudzakkar), maka susunan yang BENAR adalah...",
+    "questionHtml": "Dalam kaidah adad dan ma'dud bahasa Arab untuk bilangan 3 sampai 10, jenis kelamin kata bilangan (adad) berlawanan jenis (*mukhalafah*) dengan benda yang dihitung (ma'dud), dan ma'dud-nya wajib berbentuk jama' majrur. Jika kita ingin menyatakan 'lima pulpen' (mufrad: 'قَلَمٌ'), maka susunan yang BENAR adalah...",
     "formulaHud": {
       "title": "KAIDAH ADAD MA'DUD (3 - 10)",
       "latex": "\\text{Ma'dud Mudzakkar (قَلَمٌ)} \\implies \\mathbf{\\text{Adad Mu'annats (خَمْسَةُ)}} + \\mathbf{\\text{Ma'dud Jama' Majrur (أَقْلَامٍ)}}",
@@ -589,7 +589,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Apabila fi'il madhi dasar 'كَتَبَ' (dia laki-laki telah menulis) dikonjugasikan (tashrif lughawi) dengan subjek dhamir 'نَحْنُ' (kami / kita), maka bentuk kata kerja yang BENAR adalah...",
+    "questionHtml": "Apabila fi'il madhi dasar 'كَتَبَ' dikonjugasikan (tashrif lughawi) dengan subjek dhamir 'نَحْنُ', maka bentuk kata kerja yang BENAR adalah...",
     "formulaHud": {
       "title": "KONJUGASI FI'IL MADHI + NAHNU",
       "latex": "\\text{كَتَبَ} + \\text{نَحْنُ} \\implies \\mathbf{\\text{كَتَبْنَا (Katabnaa)}} \\iff \\text{Sukun pada Lam Fi'il + Dhomir نَا}",
@@ -829,7 +829,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat mubtada'-khabar berikut:\n'... عَلِيٍّ رَجُلٌ كَرِيمٌ يُحِبُّ مُسَاعَدَةَ الفُقَرَاءِ.'\n(... Ali adalah seorang laki-laki dermawan yang suka membantu fakir miskin).\nBentuk kata Asma'ul Khamsah yang TEPAT untuk menduduki posisi Mubtada' Marfu' bil-Wawu adalah...",
+    "questionHtml": "Perhatikan kalimat mubtada'-khabar berikut:\n'... عَلِيٍّ رَجُلٌ كَرِيمٌ يُحِبُّ مُسَاعَدَةَ الفُقَرَاءِ.'\nBentuk kata Asma'ul Khamsah yang TEPAT untuk menduduki posisi Mubtada' Marfu' bil-Wawu adalah...",
     "formulaHud": {
       "title": "I'RAB ASMA'UL KHAMSAH (أَبٌ، أَخٌ، حَمٌ، فُو، ذُو)",
       "latex": "\\text{Asma'ul Khamsah (Mubtada')} \\implies \\begin{cases} \\mathbf{\\text{Marfu' bil-Waaw: أَبُو}} \\\\ \\text{Manshub bil-Alif: أَبَا} \\\\ \\text{Majrur bil-Yaa': أَبِي} \\end{cases}",
@@ -877,7 +877,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati dua kalimat berikut:\n1) 'يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!' (Wahai Muhammad, janganlah kamu berbohong dalam ucapanmu!).\n2) 'مُحَمَّدٌ لَا يَكْذِبُ فِي كَلَامِهِ.' (Muhammad tidak berbohong dalam ucapannya).\nAnalisis gramatikal yang TEPAT mengenai jenis huruf 'لَا' dan harakat fi'il pada kedua kalimat tersebut adalah...",
+    "questionHtml": "Cermati dua kalimat berikut:\n1) 'يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!'\n2) 'مُحَمَّدٌ لَا يَكْذِبُ فِي كَلَامِهِ.'\nAnalisis gramatikal yang TEPAT mengenai jenis huruf 'لَا' dan harakat fi'il pada kedua kalimat tersebut adalah...",
     "formulaHud": {
       "title": "DISTINGSI LAA NAHIYAH VS LAA NAFIYAH",
       "latex": "\\begin{cases} \\mathbf{\\text{لَا النَّاهِيَةُ (Larangan):}} & \\text{Menjazmkan fi'il mudhari' } \\to \\mathbf{\\text{لَا تَكْذِبْ (Sukun)}} \\\\ \\mathbf{\\text{لَا النَّافِيَةُ (Peniadaan):}} & \\text{Tidak beramal (tetap marfu') } \\to \\mathbf{\\text{لَا يَكْذِبُ (Dhommah)}} \\end{cases}",
@@ -1016,7 +1016,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah tata bahasa Arab, setiap bentuk jamak yang tidak berakal (*jama' ghairu 'aqil*) diperlakukan secara gramatikal setara dengan isim mufrad mu'annats. Manakah penggunaan isim isyarah (kata tunjuk dekat) yang TEPAT untuk menunjuk 'هَذِهِ الكُتُبُ' (buku-buku ini)?",
+    "questionHtml": "Dalam kaidah tata bahasa Arab, setiap bentuk jamak yang tidak berakal (*jama' ghairu 'aqil*) diperlakukan secara gramatikal setara dengan isim mufrad mu'annats. Manakah penggunaan isim isyarah (kata tunjuk dekat) yang TEPAT untuk menunjuk 'هَذِهِ الكُتُبُ'?",
     "formulaHud": {
       "title": "KAIDAH JAMA' GHAIRU 'AQIL",
       "latex": "\\mathbf{\\text{كُلُّ جَمْعٍ غَيْرِ عَاقِلٍ يُعَامَلُ مُعَامَلَةَ المُفْرَدِ المُؤَنَّثِ}} \\implies [\\mathbf{\\text{هَذِهِ}} \\text{ الكُتُبُ } \\mathbf{\\text{نَافِعَةٌ}}]",
@@ -1635,7 +1635,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam wacana bahasa Arab, kalimat 'صَافَحَ عَلِيٌّ زَيْدًا' (Ali bersalaman dengan Zaid) menggunakan fi'il wazan 'فَاعَلَ' (faa'ala). Makna gramatikal yang terkandung dalam wazan faa'ala pada kalimat tersebut adalah...",
+    "questionHtml": "Dalam wacana bahasa Arab, kalimat 'صَافَحَ عَلِيٌّ زَيْدًا' menggunakan fi'il wazan 'فَاعَلَ' (faa'ala). Makna gramatikal yang terkandung dalam wazan faa'ala pada kalimat tersebut adalah...",
     "formulaHud": {
       "title": "FAEDAH WAZAN فَاعَلَ (MUSYARAKAH)",
       "latex": "\\text{Wazan فَاعَلَ (صَافَحَ)} \\implies \\mathbf{\\text{Al-Musyarakah (Saling/Timbal Balik Dua Pihak)}}",
@@ -1683,7 +1683,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Fi'il mu'tal ajwaf 'قَالَ' (dia telah berkata) memiliki huruf 'illat alif di tengahnya. Apabila kata kerja ini disambungkan dengan dhamir mutakallim 'أَنَا' (saya berkata), maka terjadi pembuangan huruf 'illat karena bertemunya dua sukun (*iltiqa'us-sakinain*), sehingga bentuk konjugasinya yang TEPAT adalah...",
+    "questionHtml": "Fi'il mu'tal ajwaf 'قَالَ' memiliki huruf 'illat alif di tengahnya. Apabila kata kerja ini disambungkan dengan dhamir mutakallim 'أَنَا', maka terjadi pembuangan huruf 'illat karena bertemunya dua sukun (*iltiqa'us-sakinain*), sehingga bentuk konjugasinya yang TEPAT adalah...",
     "formulaHud": {
       "title": "KAIDAH I'LAL FI'IL AJWAF (قَالَ $\\to$ قُلْتُ)",
       "latex": "\\text{قَالَ (أَصْلُهُ: قَوَلَ)} + \\text{تُ} \\to \\text{قَوْلْتُ} \\xrightarrow{\\mathbf{\\text{Iltiqa'us-Sakinain}}} \\mathbf{\\text{قُلْتُ (Qultu)}}",
@@ -1921,7 +1921,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah bilangan belasan (13 sampai 19), bagian pertama berlawanan jenis dengan ma'dud, bagian kedua menyamai jenis ma'dud, keduanya mabni di atas fathah (*mabni 'ala fathatai al-juz'aini*), dan ma'dud-nya berupa isim mufrad manshub. Jika kita ingin menyatakan 'lima belas siswa' (di mana siswa mufrad-nya adalah 'طَالِبًا' - mudzakkar), maka susunan yang BENAR adalah...",
+    "questionHtml": "Dalam kaidah bilangan belasan (13 sampai 19), bagian pertama berlawanan jenis dengan ma'dud, bagian kedua menyamai jenis ma'dud, keduanya mabni di atas fathah (*mabni 'ala fathatai al-juz'aini*), dan ma'dud-nya berupa isim mufrad manshub. Jika kita ingin menyatakan 'lima belas siswa' (mufrad: 'طَالِبًا'), maka susunan yang BENAR adalah...",
     "formulaHud": {
       "title": "KAIDAH ADAD BELASAN (13 - 19)",
       "latex": "\\text{Ma'dud Mudzakkar (طَالِبًا)} \\implies \\mathbf{\\text{Juz 1: خَمْسَةَ (Mu'annats)}} + \\mathbf{\\text{Juz 2: عَشَرَ (Mudzakkar)}} + \\mathbf{\\text{Tamyiz Mufrad Manshub}}",
@@ -2291,7 +2291,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Fi'il mu'tal naqish 'دَعَا - يَدْعُو' (berdoa / mengajak) memiliki huruf 'illat wawu di akhir katanya. Apabila kata kerja ini didahului oleh huruf jazm 'لَمْ' (lam yaf'al), maka tanda jazm-nya adalah pembuangan huruf 'illat (*hadzfu harfil 'illah*). Bentuk fi'il mudhari' majzum yang BENAR adalah...",
+    "questionHtml": "Fi'il mu'tal naqish 'دَعَا - يَدْعُو' memiliki huruf 'illat wawu di akhir katanya. Apabila kata kerja ini didahului oleh huruf jazm 'لَمْ' (lam yaf'al), maka tanda jazm-nya adalah pembuangan huruf 'illat (*hadzfu harfil 'illah*). Bentuk fi'il mudhari' majzum yang BENAR adalah...",
     "formulaHud": {
       "title": "I'RAB JAZM FI'IL NAQISH (حَذْفُ حَرْفِ العِلَّةِ)",
       "latex": "\\text{يَدْعُو (Fi'il Mu'tal Akhir Wawu)} + \\text{لَمْ (Amil Jazm)} \\implies \\mathbf{\\text{لَمْ يَدْعُ (Lam Yad'u)}}",
@@ -2435,7 +2435,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati firman Allah Swt. dalam QS. Ibrahim ayat 1 berikut:\n'كِتَابٌ أَنْزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ'\nDalam ayat di atas, kata 'الظُّلُمَاتِ' (kegelapan) dipinjam untuk memaksudkan 'kekafiran/kesesatan', dan 'النُّورِ' (cahaya) dipinjam untuk memaksudkan 'keimanan/petunjuk'. Karena musyabbah-nya dibuang dan musyabbah bih-nya (zhulumat dan an-nur) ditegaskan secara eksplisit (*tashrih*), maka gaya bahasa ini digolongkan sebagai...",
+    "questionHtml": "Cermati firman Allah Swt. dalam QS. Ibrahim ayat 1 berikut:\n'كِتَابٌ أَنْزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ'\nDalam ayat di atas, kata 'الظُّلُمَاتِ' dipinjam untuk memaksudkan 'kekafiran/kesesatan', dan 'النُّورِ' dipinjam untuk memaksudkan 'keimanan/petunjuk'. Karena musyabbah-nya dibuang dan musyabbah bih-nya (zhulumat dan an-nur) ditegaskan secara eksplisit (*tashrih*), maka gaya bahasa ini digolongkan sebagai...",
     "formulaHud": {
       "title": "DIKOTOMI ISTI'ARAH (TASHRIHIYYAH VS MAKNIYYAH)",
       "latex": "\\text{Isti'arah} \\implies \\begin{cases} \\mathbf{\\text{Musyabbah Bih Ditampakkan:}} & \\mathbf{\\text{Isti'arah Tashrihiyyah (الظُّلُمَاتِ = الكُفْر)}} \\\\ \\text{Musyabbah Bih Disembunyikan:} & \\text{Isti'arah Makniyyah (Hanya tinggal lawazim-nya)} \\end{cases}",
@@ -2662,7 +2662,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam susunan kata 'طَالِبُ العِلْمِ' (pencari ilmu), hubungan penyandarannya adalah Idhafah Ma'nawiyyah yang memberi faedah *ta'rif* (pendefinisian ma'rifah). Namun pada kalimat 'هَذَا رَجُلٌ حَسَنُ الخُلُقِ' (Ini adalah pria yang baik budi pekertinya), hubungan penyandarannya dinamakan Idhafah Lafzhiyyah karena...",
+    "questionHtml": "Dalam susunan kata 'طَالِبُ العِلْمِ', hubungan penyandarannya adalah Idhafah Ma'nawiyyah yang memberi faedah *ta'rif* (pendefinisian ma'rifah). Namun pada kalimat 'هَذَا رَجُلٌ حَسَنُ الخُلُقِ', hubungan penyandarannya dinamakan Idhafah Lafzhiyyah karena...",
     "formulaHud": {
       "title": "KARAKTERISTIK IDHAFAH LAFHZIYYAH",
       "latex": "\\text{Isim Sifat (حَسَنُ)} + \\text{Ma'mul-nya (الخُلُقِ)} \\implies \\mathbf{\\text{Idhafah Lafzhiyyah (Faedah: Takhfif Tanwin)}}",
@@ -2841,7 +2841,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Fi'il mudha'af tsulatsi 'مَدَّ' (madda - membentangkan/mengulurkan) memiliki dua huruf dal yang di-tasydid (*idgham*). Apabila kata kerja ini dikonjugasikan dengan dhamir mutakallim 'أَنَا' (saya telah membentangkan), maka kaidah shorof yang WAJIB diberlakukan adalah...",
+    "questionHtml": "Fi'il mudha'af tsulatsi 'مَدَّ' (madda) memiliki dua huruf dal yang di-tasydid (*idgham*). Apabila kata kerja ini dikonjugasikan dengan dhamir mutakallim 'أَنَا', maka kaidah shorof yang WAJIB diberlakukan adalah...",
     "formulaHud": {
       "title": "KAIDAH FAKKUL IDGHAM FI'IL MUDHA'AF",
       "latex": "\\text{مَدَّ} + \\text{Dhamir Rafa' Mutaharrik (تُ)} \\xrightarrow{\\mathbf{\\text{Wajib Urai Tasydid (Fakk)}}} \\mathbf{\\text{مَدَدْتُ (Madadtu)}}",
@@ -2937,7 +2937,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah peringatan bahaya (*uslubut tahdzir*), susunan kalimat 'إِيَّاكَ وَالكَذِبَ!' (Waspadalah engkau dari sifat dusta!) mengandung struktur I'rab yang sangat presisi. Analisis I'rab yang TEPAT mengenai kedudukan kata 'إِيَّاكَ' dan 'الكَذِبَ' pada kalimat tersebut adalah...",
+    "questionHtml": "Dalam kaidah peringatan bahaya (*uslubut tahdzir*), susunan kalimat 'إِيَّاكَ وَالكَذِبَ!' mengandung struktur I'rab yang sangat presisi. Analisis I'rab yang TEPAT mengenai kedudukan kata 'إِيَّاكَ' dan 'الكَذِبَ' pada kalimat tersebut adalah...",
     "formulaHud": {
       "title": "ANATOMI I'RAB USLUB TAHDZIR (إِيَّاكَ وَالكَذِبَ)",
       "latex": "\\underbrace{\\text{إِيَّاكَ}}_{\\text{Maf'ul Bih } (\\text{Fi'il: احْذَرْ})} + \\text{حرف العطف} + \\underbrace{\\text{الْكَذِبَ}}_{\\text{Maf'ul Bih } (\\text{Fi'il: احْذَرْ / بَاعِدْ})}",
@@ -3292,7 +3292,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati ayat Al-Qur'an dalam QS. Ar-Rum ayat 55 berikut:\n'وَيَوْمَ تَقُومُ السَّاعَةُ يُقْسِمُ المُجْرِمُونَ مَا لَبِثُوا غَيْرَ سَاعَةٍ'\nPada ayat di atas terdapat dua kata yang sama persis susunannya, yaitu 'السَّاعَةُ' (Hari Kiamat) dan 'سَاعَةٍ' (satuan waktu sesaat / satu jam). Keindahan stilistika lafadz (*muhassinaat lafzhiyyah*) ini dinamakan...",
+    "questionHtml": "Cermati ayat Al-Qur'an dalam QS. Ar-Rum ayat 55 berikut:\n'وَيَوْمَ تَقُومُ السَّاعَةُ يُقْسِمُ المُجْرِمُونَ مَا لَبِثُوا غَيْرَ سَاعَةٍ'\nPada ayat di atas terdapat dua kata yang sama persis susunannya, yaitu 'السَّاعَةُ' dan 'سَاعَةٍ'. Keindahan stilistika lafadz (*muhassinaat lafzhiyyah*) ini dinamakan...",
     "formulaHud": {
       "title": "SYARAT KESEMPURNAAN JINAS TAAM",
       "latex": "\\text{Lafadz 1 (السَّاعَةُ: Kiamat)} \\iff \\text{Lafadz 2 (سَاعَةٍ: Waktu Sesaat)} \\implies \\mathbf{\\text{Jinas Taam (Sama Huruf, Beda Makna)}}",
@@ -3431,7 +3431,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam wacana balaghah tinggi, kalimat 'وَاسْأَلِ القَرْيَةَ' (Dan tanyakanlah kepada desa itu - QS. Yusuf: 82) mengandung gaya bahasa *Ijaz bil-Hadzf* (meringkas ungkapan dengan membuang kata tertentu). Kata yang dibuang (*al-mahdzuf*) dalam kalimat tersebut secara logis semantik adalah...",
+    "questionHtml": "Dalam wacana balaghah tinggi, kalimat 'وَاسْأَلِ القَرْيَةَ' (QS. Yusuf: 82) mengandung gaya bahasa *Ijaz bil-Hadzf* (meringkas ungkapan dengan membuang kata tertentu). Kata yang dibuang (*al-mahdzuf*) dalam kalimat tersebut secara logis semantik adalah...",
     "formulaHud": {
       "title": "IJAZ BI HADZFIL MUDHAF (إِيجَازُ الحَذْفِ)",
       "latex": "\\text{وَاسْأَلِ القَرْيَةَ} \\xrightarrow{\\mathbf{\\text{Taqdirul Mahdzuf}}} \\mathbf{\\text{وَاسْأَلْ [أَهْلَ] القَرْيَةِ}} \\implies \\text{Gaya Bahasa: Ijaz bil-Hadzf}",
@@ -3619,7 +3619,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Kata 'عَلِمَ' (mengetahui) ketika ditashrif ke wazan tsulatsi mazid bi harfaini 'تَفَعَّلَ' (تَعَلَّمَ - ta'allama) memiliki makna 'belajar'. Ditinjau dari kaidah semantik shorof, penambahan huruf ta' dan tasydid pada wazan تَعَلَّمَ mengandung faedah makna...",
+    "questionHtml": "Kata 'عَلِمَ' ketika ditashrif ke wazan tsulatsi mazid bi harfaini 'تَفَعَّلَ' (تَعَلَّمَ - ta'allama) memiliki makna 'belajar'. Ditinjau dari kaidah semantik shorof, penambahan huruf ta' dan tasydid pada wazan تَعَلَّمَ mengandung faedah makna...",
     "formulaHud": {
       "title": "FAEDAH WAZAN تَفَعَّلَ (تَعَلَّمَ)",
       "latex": "\\text{عَلِمَ (Tahu)} \\xrightarrow{\\mathbf{\\text{Wazan تَفَعَّلَ}}} \\mathbf{\\text{تَعَلَّمَ (Belajar)}} \\implies \\text{Faedah: At-Tadrij (Bertahap) \\& At-Takalluf (Bersungguh-sungguh)}",

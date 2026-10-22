@@ -243,7 +243,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan dua kalimat bahasa Mandarin berikut:\n1) 老师，( A ) 身体好吗？(Menyapa guru dengan bentuk kata ganti 'Anda' yang sangat hormat).\n2) 朋友 ( B ) 一起去图书馆。(Menyatakan bentuk jamak 'teman-teman').\nKata yang TEPAT untuk mengisi posisi ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "Perhatikan dua kalimat bahasa Mandarin berikut:\n1) 老师，( A ) 身体好吗？.\n2) 朋友 ( B ) 一起去图书馆。.\nKata yang TEPAT untuk mengisi posisi ( A ) dan ( B ) berturut-turut adalah...",
     "formulaHud": {
       "title": "PRONOMINA DAN PENANDA JAMAK (人称代词与复数后缀)",
       "latex": "\\begin{cases} \\mathbf{\\text{Hormat (Atasan/Guru):}} & \\mathbf{\\text{您 (nín - Anda)}} \\\\ \\mathbf{\\text{Jamak Insani:}} & \\text{Nomina Insani} + \\mathbf{\\text{们 (men)}} \\implies \\text{朋友们 (Teman-teman)} \\end{cases}",
@@ -387,7 +387,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan dialog percakapan berikut:\n1) 你明天去学校 ( A )？(Menanyakan informasi faktual apakah pergi atau tidak).\n2) 今天天气真好，我们去公园散步 ( B )。(Mengajak atau meminta konfirmasi persetujuan dengan nada santai).\nPartikel tanya penutup kalimat yang TEPAT untuk ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "Perhatikan dialog percakapan berikut:\n1) 你明天去学校 ( A )？.\n2) 今天天气真好，我们去公园散步 ( B )。(Mengajak atau meminta konfirmasi persetujuan dengan nada santai).\nPartikel tanya penutup kalimat yang TEPAT untuk ( A ) dan ( B ) berturut-turut adalah...",
     "formulaHud": {
       "title": "PARTIKEL AKHIR KALIMAT TANYA (句尾语气助词)",
       "latex": "\\begin{aligned} \\mathbf{\\text{吗 (ma)}} & \\implies \\text{Pertanyaan Tertutup Interogatif Murni (50/50)} \\\\ \\mathbf{\\text{吧 (ba)}} & \\implies \\text{Ajakan / Saran / Dugaan Berkeyakinan Tinggi (Ayo / Bukan?)} \\end{aligned}",
@@ -670,7 +670,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang mengenai jarak geografis berikut:\n'我家 ( ... ) 学校不太远，每天走五分钟就到了。'\nPreposisi yang TEPAT untuk menyatakan titik acuan jarak ('rumah saya dari sekolah...') adalah...",
+    "questionHtml": "Perhatikan kalimat rumpang mengenai jarak geografis berikut:\n'我家 ( ... ) 学校不太远，每天走五分钟就到了。'\nPreposisi yang TEPAT untuk menyatakan titik acuan jarak  adalah...",
     "formulaHud": {
       "title": "STRUKTUR JARAK SPASIAL (距离句式「离」)",
       "latex": "\\mathbf{A + \\text{离 (lí)} + B + \\text{很远 / 很近}} \\implies \\text{Titik } A \\text{ jauh/dekat dari titik } B",
@@ -2586,7 +2586,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan dua kalimat bahasa Mandarin berikut:\n1) 除了小明以外，大家 ( A ) 准时参加了会议。(Hanya Xiao Ming yang tidak hadir / Pengecualian eksklusif).\n2) 除了英语以外，他 ( B ) 会说韩语。(Selain bahasa Inggris, ia juga bisa bahasa Korea / Penambahan inklusif).\nKata keterangan penjelas yang TEPAT untuk mengisi posisi ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "Perhatikan dua kalimat bahasa Mandarin berikut:\n1) 除了小明以外，大家 ( A ) 准时参加了会议。.\n2) 除了英语以外，他 ( B ) 会说韩语。(Selain bahasa Inggris, ia juga bisa bahasa Korea / Penambahan inklusif).\nKata keterangan penjelas yang TEPAT untuk mengisi posisi ( A ) dan ( B ) berturut-turut adalah...",
     "formulaHud": {
       "title": "DUALITAS FUNGSI STRUKTUR CHULE...YIWAI (「除了...以外」的互补逻辑)",
       "latex": "\\begin{cases} \\mathbf{\\text{Pengecualian (Minus):}} & \\text{除了 } A \\text{ 以外，} \\dots + \\mathbf{\\text{都 (dōu)}} \\implies \\text{Semua kecuali } A \\\\ \\mathbf{\\text{Penambahan (Plus):}} & \\text{除了 } A \\text{ 以外，} \\dots + \\mathbf{\\text{还 / 也 (hái/yě)}} \\implies \\text{Selain } A \\text{ juga } B \\end{cases}",
@@ -3900,7 +3900,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan dua kalimat pengulangan perbuatan berikut:\n1) 昨天的电影太精彩了，我明天想 ( A ) 看一遍。(Pengulangan yang direncanakan di masa depan).\n2) 他今天早上 ( B ) 迟到了，老师很生气。(Pengulangan kejadian buruk yang sudah terbukti terjadi tadi pagi).\nKata keterangan pengulangan yang TEPAT untuk ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "Perhatikan dua kalimat pengulangan perbuatan berikut:\n1) 昨天的电影太精彩了，我明天想 ( A ) 看一遍。.\n2) 他今天早上 ( B ) 迟到了，老师很生气。.\nKata keterangan pengulangan yang TEPAT untuk ( A ) dan ( B ) berturut-turut adalah...",
     "formulaHud": {
       "title": "DISTINGSI PENGULANGAN AKSI MANDARIN (重复副词「又」与「再」)",
       "latex": "\\begin{cases} \\mathbf{\\text{Masa Depan / Belum Terjadi:}} & \\mathbf{\\text{再 (zài)}} + V \\implies \\text{Melakukan lagi kelak (再见 / 再看一遍)} \\\\ \\mathbf{\\text{Masa Lampau / Sudah Terjadi:}} & \\mathbf{\\text{又 (yòu)}} + V + \\text{了} \\implies \\text{Terulang lagi terjadi (他又迟到了)} \\end{cases}",

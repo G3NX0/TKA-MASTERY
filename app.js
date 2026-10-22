@@ -1581,9 +1581,7 @@
     els.subjectToolDock.classList.remove('hidden');
     els.subjectToolDock.innerHTML = '';
 
-    if (caps.rtl && els.paperQText) {
-      els.paperQText.classList.add('arabic-content');
-    } else if (els.paperQText) {
+    if (els.paperQText) {
       els.paperQText.classList.remove('arabic-content');
     }
 
@@ -3484,12 +3482,21 @@
     document.body.removeChild(ta);
   }
 
+  function autoIsolateArabic(str) {
+    if (!str || typeof str !== 'string') return str || '';
+    // Auto-wrap quoted Arabic text in <bdi> to protect against BiDi reordering disasters
+    return str.replace(/'([\u0600-\u06FF\s\.\!\?،؛\:\-]+)'/g, (match, inner) => {
+      return `<bdi class="arabic-quote" dir="rtl" lang="ar">'${inner}'</bdi>`;
+    });
+  }
+
   function formatContentWithCode(content, inlineOnly = false) {
     if (!content || typeof content !== 'string') return content || '';
 
     // If pure inline string without code block and without double-newlines
-    if (inlineOnly || (!content.includes('```') && !content.includes('\n\n'))) {
-      return content.replace(/`([^`\n]+)`/g, (m, inline) => `<code class="inline-code">${escapeHtml(inline)}</code>`);
+    if (inlineOnly) {
+      const replaced = content.replace(/`([^`\n]+)`/g, (m, inline) => `<code class="inline-code">${escapeHtml(inline)}</code>`);
+      return autoIsolateArabic(replaced);
     }
 
     const blocks = [];
@@ -3503,6 +3510,8 @@
     processed = processed.replace(/`([^`\n]+)`/g, (m, inline) => {
       return `<code class="inline-code">${escapeHtml(inline)}</code>`;
     });
+
+    processed = autoIsolateArabic(processed);
 
     const rawParts = processed.split(/\r?\n\r?\n/);
     const htmlParts = rawParts.map(part => {
@@ -3610,7 +3619,7 @@
       els.paperQText.innerHTML = `
         <section class="question-stimulus">
           <div class="question-stimulus-label">STIMULUS WACANA</div>
-          <div class="stimulus-text">${formatContentWithCode(q.stimulus)}</div>
+          <div class="stimulus-text ${currentSubj === 'bahasa_arab' ? 'arabic-passage-block arabic-content' : ''}">${formatContentWithCode(q.stimulus)}</div>
           ${passageTransHtml}
         </section>
         <div class="question-prompt">
@@ -3994,7 +4003,7 @@
           </span>
           <span class="p-opt-key">${opt.key}</span>
           <span class="p-opt-text">
-            <span class="opt-foreign-stem">${formatContentWithCode(opt.text, true)}</span>
+            <span class="opt-foreign-stem ${/[\u0600-\u06FF]/.test(opt.text || '') ? 'arabic-text' : ''}">${formatContentWithCode(opt.text, true)}</span>
             ${opt.translation ? `<div class="option-translation translate-only">${formatContentWithCode(opt.translation, true)}</div>` : ''}
           </span>
         `;
@@ -4043,7 +4052,7 @@
         btn.innerHTML = `
           <span class="p-opt-key">${opt.key}</span>
           <span class="p-opt-text">
-            <span class="opt-foreign-stem">${formatContentWithCode(opt.text, true)}</span>
+            <span class="opt-foreign-stem ${/[\u0600-\u06FF]/.test(opt.text || '') ? 'arabic-text' : ''}">${formatContentWithCode(opt.text, true)}</span>
             ${opt.translation ? `<div class="option-translation translate-only">${formatContentWithCode(opt.translation, true)}</div>` : ''}
           </span>
         `;

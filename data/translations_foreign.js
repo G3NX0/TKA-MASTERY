@@ -3137,7 +3137,7 @@ window.TKA_FOREIGN_TRANSLATIONS = {
     "lang": "arab",
     "flag": "🇸🇦",
     "langName": "Bahasa Arab",
-    "original": "(... Ali adalah seorang laki-laki dermawan yang suka membantu fakir miskin).\nBentuk kata Asma",
+    "original": "رَجُلٌ كَرِيمٌ يُحِبُّ مُسَاعَدَةَ الفُقَرَاءِ",
     "translation": "... Ali adalah seorang laki-laki dermawan yang suka membantu fakir miskin",
     "vocab": "أَبَا = abaa - manshub dengan tanda huruf alif... • أَبِي = abii - majrur dengan tanda huruf ya' y... • أَبُو = abuu - marfu' dengan tanda huruf wawu ... • أَبٌ = abun - mufrad bertanwin tanpa idhafah ...",
     "grammarNote": "Asma'ul khamsah (abuu, akhuu, hamuu, fuu, dhuu) bila marfu' bertanda huruf Wawu (أَبُو)."
@@ -3146,10 +3146,10 @@ window.TKA_FOREIGN_TRANSLATIONS = {
     "lang": "arab",
     "flag": "🇸🇦",
     "langName": "Bahasa Arab",
-    "original": "يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!",
-    "translation": "Wahai Muhammad, janganlah kamu berbohong dalam ucapanmu!).\n2",
-    "vocab": "Kalimat 1 menggunakan Laa an-Nahiyah = larangan yang menjazmkan fi'il dengan ...",
-    "grammarNote": "Laa Nahiyah (larangan/jangan) menjazmkan fi'il (sukun). Laa Nafiyah (tidak/hanya berita)..."
+    "original": "1) يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!\n2) مُحَمَّدٌ لَا يَكْذِبُ فِي كَلَامِهِ.",
+    "translation": "1) Wahai Muhammad, janganlah kamu berbohong dalam ucapanmu!\n2) Muhammad tidak berbohong dalam ucapannya.",
+    "vocab": "لَا تَكْذِبْ = jangan berbohong (Laa Nahiyah, menjazmkan sukun) • لَا يَكْذِبُ = tidak berbohong (Laa Nafiyah, marfu' dhommah)",
+    "grammarNote": "Laa an-Nahiyah (larangan) menjazmkan fi'il mudhari' (tanda sukun). Laa an-Nafiyah (peniadaan/berita negatif) tidak mengubah i'rab fi'il (tetap marfu' dengan dhommah)."
   },
   "arb-lat-e-20": {
     "lang": "arab",
