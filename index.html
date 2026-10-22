@@ -22,7 +22,7 @@
   <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
 
   <!-- Application Stylesheet -->
-  <link rel="stylesheet" href="style.css?v=23.0" />
+  <link rel="stylesheet" href="style.css?v=26.0" />
 </head>
 <body>
 
@@ -164,8 +164,8 @@
         </div>
         <div class="banner-divider"></div>
         <div class="banner-stat">
-          <span class="stat-number highlight-sky">Offline</span>
-          <span class="stat-caption">Dapat Diakses Tanpa Internet</span>
+          <span class="stat-number highlight-sky">CBT Web</span>
+          <span class="stat-caption">Akses Cepat Semua Perangkat</span>
         </div>
         <div class="banner-divider"></div>
         <div class="banner-stat">
@@ -1031,6 +1031,124 @@
     </div>
   </div>
 
+  <!-- 11. MODAL / BOTTOM SHEET: QUICK-LAUNCH MAPEL PILIHAN -->
+  <div class="app-modal-overlay hidden" id="modalElectiveQuickLaunch" style="display: none;">
+    <div class="app-modal-card elective-modal-card" id="electiveModalCard">
+      <!-- Mobile Drag Handle -->
+      <div class="sheet-drag-handle-bar">
+        <span class="sheet-drag-handle"></span>
+      </div>
+
+      <!-- Modal Header -->
+      <div class="app-modal-header elective-modal-header">
+        <div class="app-modal-icon-badge" id="electiveModalIconBadge">
+          <!-- Dynamically filled with item.iconSvg -->
+        </div>
+        <div class="app-modal-titles">
+          <div class="elective-modal-title-row">
+            <h3 class="app-modal-title" id="electiveModalTitle">Mata Pelajaran</h3>
+            <span class="elective-modal-pool-badge" id="electiveModalPoolBadge">110 Soal</span>
+          </div>
+          <span class="app-modal-subtitle" id="electiveModalSubtitle">Kluster 1: Saintek Inti • MIPA / Saintek</span>
+        </div>
+        <button type="button" class="btn-modal-close" id="btnCloseElectiveModal" aria-label="Tutup">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="elective-modal-body">
+        <!-- Ready Subject Content -->
+        <div id="electiveModalReadyContent">
+          <!-- Collapsible Pusmendik Syllabus & Competency Accordion -->
+          <div class="elective-syllabus-accordion">
+            <button type="button" class="btn-syllabus-accordion" id="btnToggleElectiveSyllabus" aria-expanded="false">
+              <div class="syllabus-acc-left">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                <span>Lihat Cakupan Materi &amp; Standar BSKAP</span>
+              </div>
+              <svg class="acc-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="syllabus-accordion-drawer" id="electiveSyllabusDrawer">
+              <div class="syllabus-drawer-inner">
+                <div class="syllabus-drawer-block">
+                  <span class="syllabus-drawer-label">CAKUPAN MATERI PUSMENDIK / BSKAP:</span>
+                  <p class="syllabus-drawer-text" id="electiveModalTopics"></p>
+                </div>
+                <div class="syllabus-drawer-block">
+                  <span class="syllabus-drawer-label">TARGET STANDAR KOMPETENSI ANALITIS:</span>
+                  <p class="syllabus-drawer-text" id="electiveModalCompetency"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Action Launchpads -->
+          <div class="quick-launchpads-container">
+            <!-- Mode A: Latihan Mandiri -->
+            <div class="quick-launchpad-card latihan">
+              <div class="quick-launchpad-header">
+                <div class="launchpad-tag green">LATIHAN MANDIRI</div>
+                <h4 class="quick-launchpad-title">Training Lab</h4>
+                <p class="quick-launchpad-desc">Sesi santai tanpa batas waktu. Buka konsep &amp; formula kunci kapan pun dibutuhkan.</p>
+              </div>
+
+              <div class="quick-level-selector">
+                <span class="quick-picker-label">PILIH TINGKAT KESULITAN:</span>
+                <div class="quick-level-pills" id="quickLevelPills">
+                  <button type="button" class="btn-quick-diff active" data-diff="easy">Mudah</button>
+                  <button type="button" class="btn-quick-diff" data-diff="medium">Sedang</button>
+                  <button type="button" class="btn-quick-diff" data-diff="hard">Sulit</button>
+                </div>
+              </div>
+
+              <button type="button" class="btn-quick-launch green" id="btnQuickStartLatihan">
+                <span id="labelQuickStartLatihan">Mulai Latihan (Mudah)</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+
+            <!-- Mode B: Simulasi Realistik -->
+            <div class="quick-launchpad-card simulasi">
+              <div class="quick-launchpad-header">
+                <div class="launchpad-tag red">SIMULASI REALISTIK</div>
+                <h4 class="quick-launchpad-title">The Exam Arena</h4>
+                <p class="quick-launchpad-desc">Standar CBT Pusmendik: 30 Menit, 3-Strike Warning, Layar Penuh. Clue dinonaktifkan.</p>
+              </div>
+
+              <div class="quick-sim-specs">
+                <span class="spec-chip">30 Menit</span>
+                <span class="spec-chip">3-Strike Auto Submit</span>
+                <span class="spec-chip">HOTS Acak</span>
+              </div>
+
+              <button type="button" class="btn-quick-launch red" id="btnQuickStartSimulasi">
+                <span>Masuk Arena Simulasi</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pending / Coming Soon Subject Notice -->
+        <div class="elective-modal-pending hidden" id="electiveModalPendingContent">
+          <div class="pending-notice-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
+          </div>
+          <h4 class="pending-notice-title">Modul Dalam Antrean Produksi Kluster</h4>
+          <p class="pending-notice-desc" id="electiveModalPendingDesc">
+            Bank soal autentik untuk mata uji pilihan ini sedang dalam proses finalisasi kurasi tim reviewer berdasarkan Capaian Pembelajaran BSKAP Kemendikdasmen.
+          </p>
+          <div class="syllabus-drawer-block pending-topics-box">
+            <span class="syllabus-drawer-label">RANCANGAN CAKUPAN MATERI:</span>
+            <p class="syllabus-drawer-text" id="electiveModalPendingTopics"></p>
+          </div>
+          <button type="button" class="btn-modal-dismiss-pending" id="btnDismissPendingModal">Kembali ke Katalog</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Database & Application Logic (Modular Architecture) -->
   <script src="data/questions_mtk.js?v=13.0"></script>
   <script src="data/questions_ind.js?v=13.0"></script>
@@ -1059,6 +1177,6 @@
   <script src="data/questions_pkk.js?v=13.0"></script>
   <script src="data/questions_db.js?v=13.0"></script>
   <script src="data/translations_foreign.js?v=3.0"></script>
-  <script src="app.js?v=22.0"></script>
+  <script src="app.js?v=25.0"></script>
 </body>
 </html>

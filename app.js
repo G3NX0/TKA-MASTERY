@@ -137,6 +137,29 @@
     traceTableHeadRow: document.getElementById('traceTableHeadRow'),
     traceTableBody: document.getElementById('traceTableBody'),
 
+    // 11. Elective Subject Quick-Launch Modal / Mobile Bottom Sheet Elements
+    modalElectiveQuickLaunch: document.getElementById('modalElectiveQuickLaunch'),
+    electiveModalCard: document.getElementById('electiveModalCard'),
+    electiveModalIconBadge: document.getElementById('electiveModalIconBadge'),
+    electiveModalTitle: document.getElementById('electiveModalTitle'),
+    electiveModalPoolBadge: document.getElementById('electiveModalPoolBadge'),
+    electiveModalSubtitle: document.getElementById('electiveModalSubtitle'),
+    btnCloseElectiveModal: document.getElementById('btnCloseElectiveModal'),
+    btnToggleElectiveSyllabus: document.getElementById('btnToggleElectiveSyllabus'),
+    electiveSyllabusDrawer: document.getElementById('electiveSyllabusDrawer'),
+    electiveModalTopics: document.getElementById('electiveModalTopics'),
+    electiveModalCompetency: document.getElementById('electiveModalCompetency'),
+    electiveModalReadyContent: document.getElementById('electiveModalReadyContent'),
+    quickLevelPills: document.getElementById('quickLevelPills'),
+    btnQuickStartLatihan: document.getElementById('btnQuickStartLatihan'),
+    labelQuickStartLatihan: document.getElementById('labelQuickStartLatihan'),
+    btnQuickStartSimulasi: document.getElementById('btnQuickStartSimulasi'),
+    btnQuickOpenFullHub: document.getElementById('btnQuickOpenFullHub'),
+    electiveModalPendingContent: document.getElementById('electiveModalPendingContent'),
+    electiveModalPendingDesc: document.getElementById('electiveModalPendingDesc'),
+    electiveModalPendingTopics: document.getElementById('electiveModalPendingTopics'),
+    btnDismissPendingModal: document.getElementById('btnDismissPendingModal'),
+
     // Bottom Scaffolding & Domain-Aware Elements (Apple HIG Inline Accordion)
     scaffoldingBottomPanel: document.getElementById('scaffoldingBottomPanel'),
     scaffoldItemFormula: document.getElementById('scaffoldItemFormula'),
@@ -2019,7 +2042,8 @@
       els.modalPhysicsConstants,
       els.modalSubnetCalc,
       els.modalBepCalc,
-      els.modalTraceTable
+      els.modalTraceTable,
+      els.modalElectiveQuickLaunch
     ];
     subjectModals.forEach(m => {
       if (m) {
@@ -2783,6 +2807,174 @@
     }, 80);
   }
 
+  // =========================================================================
+  // ELECTIVE SUBJECT QUICK-LAUNCH MODAL (BOTTOM SHEET ON MOBILE)
+  // =========================================================================
+  let activeQuickModalSubject = null;
+  let quickModalSelectedDiff = 'easy';
+
+  function openElectiveQuickModal(item) {
+    if (!els.modalElectiveQuickLaunch || !item) return;
+
+    activeQuickModalSubject = item;
+    quickModalSelectedDiff = 'easy';
+
+    // Accent colors
+    const accent = item.clusterColor || '#38bdf8';
+    if (els.electiveModalCard) {
+      els.electiveModalCard.style.setProperty('--cluster-accent', accent);
+      els.electiveModalCard.style.borderTopColor = accent;
+    }
+
+    // Header info
+    if (els.electiveModalIconBadge) {
+      els.electiveModalIconBadge.innerHTML = item.iconSvg || '';
+      els.electiveModalIconBadge.style.color = accent;
+      els.electiveModalIconBadge.style.background = `${accent}18`;
+      els.electiveModalIconBadge.style.borderColor = `${accent}50`;
+    }
+
+    if (els.electiveModalTitle) {
+      els.electiveModalTitle.textContent = item.title;
+    }
+
+    const poolCount = (window.TKA_DATABASE && window.TKA_DATABASE[item.targetSubjectKey])
+      ? window.TKA_DATABASE[item.targetSubjectKey].totalPool
+      : null;
+
+    if (els.electiveModalPoolBadge) {
+      if (item.isReady && poolCount) {
+        els.electiveModalPoolBadge.textContent = `${poolCount} Soal TKA 2026`;
+        els.electiveModalPoolBadge.className = 'elective-modal-pool-badge ready';
+      } else {
+        els.electiveModalPoolBadge.textContent = item.statusText || 'Antrean Rilis';
+        els.electiveModalPoolBadge.className = 'elective-modal-pool-badge pending';
+      }
+    }
+
+    if (els.electiveModalSubtitle) {
+      els.electiveModalSubtitle.textContent = `${item.clusterName} • ${item.badge}`;
+    }
+
+    // Syllabus Accordion Reset
+    if (els.electiveSyllabusDrawer) {
+      els.electiveSyllabusDrawer.classList.remove('expanded');
+    }
+    if (els.btnToggleElectiveSyllabus) {
+      els.btnToggleElectiveSyllabus.setAttribute('aria-expanded', 'false');
+      els.btnToggleElectiveSyllabus.classList.remove('expanded');
+    }
+    if (els.electiveModalTopics) {
+      els.electiveModalTopics.textContent = item.topics || '-';
+    }
+    if (els.electiveModalCompetency) {
+      els.electiveModalCompetency.textContent = item.targetCompetency || '-';
+    }
+
+    // Toggle Ready vs Pending views
+    if (item.isReady && item.targetSubjectKey && window.TKA_DATABASE && window.TKA_DATABASE[item.targetSubjectKey]) {
+      if (els.electiveModalReadyContent) els.electiveModalReadyContent.classList.remove('hidden');
+      if (els.electiveModalPendingContent) els.electiveModalPendingContent.classList.add('hidden');
+
+      // Reset diff pills
+      if (els.quickLevelPills) {
+        els.quickLevelPills.querySelectorAll('.btn-quick-diff').forEach(p => {
+          p.classList.toggle('active', p.dataset.diff === 'easy');
+        });
+      }
+      if (els.labelQuickStartLatihan) {
+        els.labelQuickStartLatihan.textContent = 'Mulai Latihan (Mudah)';
+      }
+    } else {
+      if (els.electiveModalReadyContent) els.electiveModalReadyContent.classList.add('hidden');
+      if (els.electiveModalPendingContent) els.electiveModalPendingContent.classList.remove('hidden');
+      if (els.electiveModalPendingTopics) {
+        els.electiveModalPendingTopics.textContent = item.topics || '-';
+      }
+    }
+
+    openSubjectModal(els.modalElectiveQuickLaunch);
+  }
+
+  function initElectiveQuickModalListeners() {
+    if (!els.modalElectiveQuickLaunch) return;
+
+    if (els.btnCloseElectiveModal) {
+      els.btnCloseElectiveModal.addEventListener('click', () => {
+        closeSubjectModal(els.modalElectiveQuickLaunch);
+      });
+    }
+
+    if (els.btnDismissPendingModal) {
+      els.btnDismissPendingModal.addEventListener('click', () => {
+        closeSubjectModal(els.modalElectiveQuickLaunch);
+      });
+    }
+
+    // Syllabus accordion toggle (smooth CSS Grid transition)
+    if (els.btnToggleElectiveSyllabus && els.electiveSyllabusDrawer) {
+      els.btnToggleElectiveSyllabus.addEventListener('click', () => {
+        const isExpanded = els.electiveSyllabusDrawer.classList.contains('expanded');
+        if (!isExpanded) {
+          els.electiveSyllabusDrawer.classList.add('expanded');
+          els.btnToggleElectiveSyllabus.classList.add('expanded');
+          els.btnToggleElectiveSyllabus.setAttribute('aria-expanded', 'true');
+        } else {
+          els.electiveSyllabusDrawer.classList.remove('expanded');
+          els.btnToggleElectiveSyllabus.classList.remove('expanded');
+          els.btnToggleElectiveSyllabus.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Difficulty level pills in quick launchpad
+    if (els.quickLevelPills) {
+      els.quickLevelPills.querySelectorAll('.btn-quick-diff').forEach(pill => {
+        pill.addEventListener('click', () => {
+          els.quickLevelPills.querySelectorAll('.btn-quick-diff').forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+          quickModalSelectedDiff = pill.dataset.diff || 'easy';
+          const labels = { easy: 'Mudah', medium: 'Sedang', hard: 'Sulit' };
+          if (els.labelQuickStartLatihan) {
+            els.labelQuickStartLatihan.textContent = `Mulai Latihan (${labels[quickModalSelectedDiff] || 'Mudah'})`;
+          }
+        });
+      });
+    }
+
+    // Launch Latihan
+    if (els.btnQuickStartLatihan) {
+      els.btnQuickStartLatihan.addEventListener('click', () => {
+        if (!activeQuickModalSubject || !activeQuickModalSubject.targetSubjectKey) return;
+        const subjKey = activeQuickModalSubject.targetSubjectKey;
+        closeSubjectModal(els.modalElectiveQuickLaunch);
+        state.currentSubject = subjKey;
+        launchSession('latihan', quickModalSelectedDiff);
+      });
+    }
+
+    // Launch Simulasi
+    if (els.btnQuickStartSimulasi) {
+      els.btnQuickStartSimulasi.addEventListener('click', () => {
+        if (!activeQuickModalSubject || !activeQuickModalSubject.targetSubjectKey) return;
+        const subjKey = activeQuickModalSubject.targetSubjectKey;
+        closeSubjectModal(els.modalElectiveQuickLaunch);
+        state.currentSubject = subjKey;
+        launchSession('simulasi', 'hard');
+      });
+    }
+
+    // Full hub page navigation
+    if (els.btnQuickOpenFullHub) {
+      els.btnQuickOpenFullHub.addEventListener('click', () => {
+        if (!activeQuickModalSubject || !activeQuickModalSubject.targetSubjectKey) return;
+        const subjKey = activeQuickModalSubject.targetSubjectKey;
+        closeSubjectModal(els.modalElectiveQuickLaunch);
+        navigateTo('subject', subjKey);
+      });
+    }
+  }
+
   function renderElectiveCatalog(activeCluster = 'all') {
     if (!els.electiveGridContainer) return;
 
@@ -2795,84 +2987,47 @@
 
     filtered.forEach(item => {
       const card = document.createElement('div');
-      card.className = `elective-card ${item.clusterId || ''} ${item.isReady ? 'is-ready' : 'is-pending'}`;
+      card.className = `elective-card elective-mini-card ${item.clusterId || ''} ${item.isReady ? 'is-ready' : 'is-pending'}`;
       card.style.setProperty('--cluster-accent', item.clusterColor || '#38bdf8');
+      card.dataset.target = item.targetSubjectKey || '';
+
+      const totalPoolText = (item.isReady && window.TKA_DATABASE && window.TKA_DATABASE[item.targetSubjectKey])
+        ? `${window.TKA_DATABASE[item.targetSubjectKey].totalPool} Soal`
+        : (item.isReady ? 'Siap Uji' : 'Antrean');
 
       card.innerHTML = `
-        <div class="elective-card-header">
-          <div class="elective-card-tags">
-            <span class="elective-cluster-tag" style="background: ${item.clusterColor}15; color: ${item.clusterColor}; border-color: ${item.clusterColor}40;">
+        <div class="mini-card-icon" style="color: ${item.clusterColor}; background: ${item.clusterColor}15; border-color: ${item.clusterColor}35;">
+          ${item.iconSvg || `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/></svg>`}
+        </div>
+        <div class="mini-card-info">
+          <div class="mini-card-meta-row">
+            <span class="mini-cluster-tag" style="background: ${item.clusterColor}15; color: ${item.clusterColor}; border-color: ${item.clusterColor}35;">
               ${item.clusterTag || item.clusterName}
             </span>
-            <span class="elective-sub-badge">${item.badge}</span>
+            <span class="mini-pool-pill ${item.isReady ? 'ready' : 'pending'}">${totalPoolText}</span>
           </div>
-          <span class="elective-status-indicator ${item.isReady ? 'ready' : 'pending'}">
-            <span class="status-dot"></span>
-            ${item.isReady ? ((window.TKA_DATABASE && window.TKA_DATABASE[item.targetSubjectKey]) ? window.TKA_DATABASE[item.targetSubjectKey].totalPool + ' Soal TKA 2026' : (item.statusText || 'Aktif')) : 'Antrean Rilis'}
-          </span>
+          <h4 class="mini-card-title">${item.title}</h4>
+          <span class="mini-card-badge">${item.badge}</span>
         </div>
-
-        <div class="elective-card-title-row">
-          <div class="elective-icon-wrap" style="color: ${item.clusterColor}; background: ${item.clusterColor}12; border-color: ${item.clusterColor}30;">
-            ${item.iconSvg || `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/></svg>`}
-          </div>
-          <div class="elective-title-group">
-            <h4 class="elective-card-title">${item.title}</h4>
-            <span class="elective-cluster-subtitle">${item.clusterName}</span>
-          </div>
-        </div>
-
-        <div class="elective-card-body">
-          <div class="elective-content-block topics-block">
-            <div class="content-block-label">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-              <span>CAKUPAN MATERI PUSMENDIK / BSKAP</span>
-            </div>
-            <p class="content-block-desc">${item.topics}</p>
-          </div>
-
-          <div class="elective-content-block comp-block" style="border-left-color: ${item.clusterColor};">
-            <div class="content-block-label">
-              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>TARGET STANDAR KOMPETENSI ANALITIS</span>
-            </div>
-            <p class="content-block-desc">${item.targetCompetency}</p>
-          </div>
-        </div>
-
-        <div class="elective-card-footer">
-          ${item.isReady && item.targetSubjectKey ? `
-            <button class="btn-open-elective-hub" data-target="${item.targetSubjectKey}" style="--btn-accent: ${item.clusterColor};">
-              <span>Buka Modul Latihan &amp; Ujian</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </button>
-          ` : `
-            <div class="elective-queue-notice">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 14 14"/></svg>
-              <span>${item.statusText || 'Dalam Antrean Produksi Kluster'}</span>
-            </div>
-          `}
+        <div class="mini-card-arrow" style="color: ${item.clusterColor};">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
         </div>
       `;
+
+      card.setAttribute('role', 'button');
+      card.setAttribute('tabindex', '0');
+      card.setAttribute('aria-label', `Pilih mata pelajaran ${item.title}`);
+
+      const handleCardActivation = (e) => {
+        if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
+        if (e.type === 'keydown') e.preventDefault();
+        openElectiveQuickModal(item);
+      };
+
+      card.addEventListener('click', handleCardActivation);
+      card.addEventListener('keydown', handleCardActivation);
+
       els.electiveGridContainer.appendChild(card);
-    });
-
-    // Attach click listeners for ready cards (both card body and action button)
-    els.electiveGridContainer.querySelectorAll('.elective-card.is-ready').forEach(card => {
-      card.style.cursor = 'pointer';
-      card.addEventListener('click', () => {
-        const btn = card.querySelector('.btn-open-elective-hub');
-        const targetSubj = btn ? btn.dataset.target : null;
-        if (targetSubj) navigateTo('subject', targetSubj);
-      });
-    });
-
-    els.electiveGridContainer.querySelectorAll('.btn-open-elective-hub').forEach(btn => {
-      btn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        const targetSubj = btn.dataset.target;
-        if (targetSubj) navigateTo('subject', targetSubj);
-      });
     });
   }
 
@@ -4769,6 +4924,7 @@
     initSubjectHubListeners();
     initWorkspaceNavigation();
     initSubjectCapabilityTools();
+    initElectiveQuickModalListeners();
     initProctorListeners();
     initResultsListeners();
 
