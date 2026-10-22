@@ -61,7 +61,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ketika dua karakter yang sama-sama memiliki nada ketiga (*shàngshēng* - nada bergelombang ∨) bertemu secara berurutan, seperti pada kata sapaan '你好' (nǐ hǎo), bagaimanakah perubahan nada (*sandhi*) yang WAJIB dilafalkan?",
+    "questionHtml": "根据汉语拼音规则，选择正确的一项：\n'你好'",
     "formulaHud": {
       "title": "KAIDAH SANDHI NADA KETIGA (三声变调规则)",
       "latex": "\\mathbf{3 + 3 \\implies 2 + 3} \\quad (\\text{nǐ } [3] + \\text{hǎo } [3] \\longrightarrow \\mathbf{\\text{ní } [2] + \\text{hǎo } [3]})",
@@ -104,7 +104,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Kata negasi '不' pada dasarnya bernada keempat (*bù*). Namun, apabila '不' diikuti oleh karakter lain yang juga bernada keempat (*qùshēng*), seperti pada kata '不是' (shì), bagaimanakah pelafalan Pinyin yang BENAR?",
+    "questionHtml": "根据汉语拼音规则，选择正确的一项：\n'不'",
     "formulaHud": {
       "title": "KAIDAH SANDHI NADA KATA '不' (「不」字变调)",
       "latex": "\\begin{cases} \\mathbf{\\text{不 (bù)} + \\text{Nada 4}} & \\implies \\mathbf{\\text{bú } + \\text{Nada 4}} \\quad (\\text{不是 } \\to \\mathbf{\\text{bú shì}}) \\\\ \\text{不 (bù)} + \\text{Nada 1/2/3} & \\implies \\text{Tetap } \\mathbf{\\text{bù}} \\quad (\\text{不高 } \\to \\text{bù gāo}) \\end{cases}",
@@ -152,7 +152,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Karakter '一' memiliki nada dasar pertama (*yī*). Kapan karakter '一' tersebut WAJIB berubah pelafalannya menjadi nada kedua (*yí*)?",
+    "questionHtml": "根据汉语拼音规则，选择正确的一项：\n'一'",
     "formulaHud": {
       "title": "KAIDAH SANDHI NADA KATA '一' (「一」字变调)",
       "latex": "\\begin{aligned} \\text{Urutan Angka Mandiri: } & \\text{yī (Tetap Nada 1)} \\\\ \\mathbf{\\text{Di Depan Nada 4:}} & \\mathbf{\\text{yí }} + \\mathbf{\\text{Nada 4}} \\quad (\\text{一共 } \\to \\mathbf{\\text{yígòng}}) \\\\ \\text{Di Depan Nada 1, 2, 3: } & \\text{yì } + \\text{Nada 1/2/3} \\quad (\\text{一天 } \\to \\text{yìtiān}) \\end{aligned}",
@@ -195,7 +195,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam seni kaligrafi dan penulisan Hanzi, goresan garis lurus horizontal dari kiri ke kanan (seperti pada karakter '一') dinamakan...",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'一'",
     "formulaHud": {
       "title": "DELAPAN GORESAN POKOK YONGZI (永字八法・基本笔画)",
       "latex": "\\begin{array}{|c|c|c|} \\hline \\mathbf{\\text{Héng (横)}} & \\text{Garis Horizontal Mendatar} & \\mathbf{\\text{一}} \\\\ \\hline \\text{Shù (竖)} & \\text{Garis Vertikal Tegak} & \\text{丨} \\\\ \\hline \\text{Piě (撇)} & \\text{Garis Serong Kiri Bawah} & \\text{丿} \\\\ \\hline \\text{Nà (捺)} & \\text{Garis Luncur Kanan Bawah} & \\text{㇏} \\\\ \\hline \\end{array}",
@@ -291,7 +291,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat rumpang berikut dengan kata bantu bilangan (*liàngcí*) yang TEPAT:\n'我想买一 ( A ) 书和一 ( B ) 桌子。'",
+    "questionHtml": "选择最恰当的词语填空：\n'我想买一 ( A ) 书和一 ( B ) 桌子。'",
     "formulaHud": {
       "title": "SPESIFIKASI LIANGCI MANDARIN (量词的搭配体系)",
       "latex": "\\begin{aligned} \\text{一} + \\mathbf{\\text{本 (běn)}} + \\text{书 (Buku)} & \\implies \\text{Sebuah Buku Jilidan} \\\\ \\text{一} + \\mathbf{\\text{张 (zhāng)}} + \\text{桌子 (Meja)} & \\implies \\text{Sebuah Meja Rata} \\end{aligned}",
@@ -339,7 +339,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ibu pergi ke pusat perbelanjaan dan membeli sepotong kemeja serta sehelai celana panjang:\n'妈妈买了一 ( A ) 衬衫和一 ( B ) 裤子。'\nPasangan *liàngcí* yang TEPAT untuk mengisi posisi ( A ) pakaian atasan dan ( B ) celana panjang berturut-turut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'妈妈买了一 ( A ) 衬衫和一 ( B ) 裤子。'",
     "formulaHud": {
       "title": "LIANGCI BUSANA MANDARIN (服装量词搭配)",
       "latex": "\\begin{cases} \\text{Atasan / Kemeja / Mantel:} & \\mathbf{\\text{件 (jiàn)}} \\implies \\text{一件衬衫} \\\\ \\text{Bawahan / Celana / Rok:} & \\mathbf{\\text{条 (tiáo)}} \\implies \\text{一条裤子} \\end{cases}",
@@ -435,7 +435,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam tata bahasa Mandarin, kalimat manakah di bawah ini yang menunjukkan penggunaan partikel struktural '的' (de) untuk menyatakan hubungan kepemilikan (*possessive*) secara TEPAT?",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'的'",
     "formulaHud": {
       "title": "PARTIKEL KEPEMILIKAN DE (定语助词「的」)",
       "latex": "\\mathbf{\\text{Pemilik / Atribut}} + \\mathbf{\\text{的 (de)}} + \\mathbf{\\text{Benda yang Dimiliki}} \\implies \\text{我爸爸 } \\mathbf{\\text{的}} \\text{ 汽车}",
@@ -574,7 +574,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan di restoran, seorang pelanggan ingin menyatakan tekad pemesanan yang pasti:\n'服务员，我 ( ... ) 一碗牛肉面。'\nKata yang TEPAT untuk menyatakan pemesanan makanan dengan kehendak tegas dan berniat memesan adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'服务员，我 ( ... ) 一碗牛肉面。'",
     "formulaHud": {
       "title": "DISTINGSI MODALITAS KEINGINAN (助动词「想」与「要」)",
       "latex": "\\begin{aligned} \\mathbf{\\text{想 (xiǎng):}} & \\text{Hasrat batin / Berangan-angan (Wish/Desire)} \\\\ \\mathbf{\\text{要 (yào):}} & \\text{Tekad pasti / Memesan barang konkret (Will/Order)} \\end{aligned}",
@@ -670,7 +670,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang mengenai jarak geografis berikut:\n'我家 ( ... ) 学校不太远，每天走五分钟就到了。'\nPreposisi yang TEPAT untuk menyatakan titik acuan jarak  adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'我家 ( ... ) 学校不太远，每天走五分钟就到了。'",
     "formulaHud": {
       "title": "STRUKTUR JARAK SPASIAL (距离句式「离」)",
       "latex": "\\mathbf{A + \\text{离 (lí)} + B + \\text{很远 / 很近}} \\implies \\text{Titik } A \\text{ jauh/dekat dari titik } B",
@@ -718,7 +718,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat majemuk kausalitas berikut dengan pasangan konjungsi yang TEPAT:\n'( A ) 今天下大雨，( B ) 足球比赛推迟了。'",
+    "questionHtml": "选择最恰当的词语填空：\n'( A ) 今天下大雨，( B ) 足球比赛推迟了。'",
     "formulaHud": {
       "title": "KONJUNGSI KAUSALITAS SINTAKSIS (因果复句)",
       "latex": "\\mathbf{\\text{因为 (yīnwèi) } + \\text{Alasan}} \\dots \\mathbf{\\text{所以 (suǒyǐ) } + \\text{Akibat}} \\implies \\text{Karena } \\dots \\text{ oleh sebab itu } \\dots",
@@ -766,7 +766,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang berikut:\n'( A ) 汉语汉字很难写，( B ) 我觉得非常有意思。'\nPasangan kata hubung yang TEPAT untuk menyatakan 'Meskipun aksara Hanzi sangat sulit ditulis, tetapi saya merasa sangat menarik' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'( A ) 汉语汉字很难写，( B ) 我觉得非常有意思。'",
     "formulaHud": {
       "title": "KONJUNGSI KONTRASTIF MANDARIN (转折复句)",
       "latex": "\\mathbf{\\text{虽然 (suīrán) } + \\text{Klausa Konsesif}} \\dots \\mathbf{\\text{但是 (dànshì) } + \\text{Klausa Kontras}}",
@@ -862,7 +862,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat durasi dan perjalanan berikut:\n'我们学校每天 ( A ) 早上八点 ( B ) 下午四点上课。'\nPasangan preposisi rentang waktu yang TEPAT untuk mengisi ( A ) 'dari' dan ( B ) 'sampai' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'我们学校每天 ( A ) 早上八点 ( B ) 下午四点上课。'",
     "formulaHud": {
       "title": "RENTANG WAKTU DAN RUANG (时空起点与终点)",
       "latex": "\\mathbf{\\text{从 (cóng) } + \\text{Titik Awal}} \\dots \\mathbf{\\text{到 (dào) } + \\text{Titik Akhir}} \\implies \\text{Dari } \\dots \\text{ Sampai } \\dots",
@@ -1150,7 +1150,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ketika seorang tamu selesai berkunjung ke rumah dan berpamitan hendak pulang (*'我先走了'*), tuan rumah yang beretika sopan di Tiongkok biasanya mengantar hingga ke pintu dan mengucapkan...",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'我先走了'",
     "formulaHud": {
       "title": "ETIKA PELEPASAN TAMU TIONGHOA (送客礼仪用语)",
       "latex": "\\text{Tamu Pamit: } \\text{我先走了} \\xrightarrow{\\text{Respons Tuan Rumah}} \\mathbf{\\text{慢走 (màn zǒu / Jalan Hati-hati)}}",
@@ -1246,7 +1246,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan deskripsi suasana ruang kelas berikut:\n'门开 ( ... )，教室里坐 ( ... ) 很多学生。'\nPartikel aspek yang TEPAT untuk menyatakan bahwa pintu 'dalam keadaan terbuka' dan para siswa 'dalam kondisi duduk' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'门开 ( ... )，教室里坐 ( ... ) 很多学生。'",
     "formulaHud": {
       "title": "ASPEK KEBERLANJUTAN STATUS (持续态助词「着」)",
       "latex": "\\mathbf{V} + \\mathbf{\\text{着 (zhe)}} \\implies \\text{Keadaan fisik / postur hasil tindakan } V \\text{ sedang terus bertahan}",
@@ -1390,7 +1390,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang kegiatan membaca berikut:\n'这篇文章我听了两遍，终于听 ( A ) 了，作业也写 ( B ) 了。'\nKomplemen hasil yang TEPAT untuk menyatakan 'mendengar hingga paham' ( A ) dan 'menulis hingga selesai' ( B ) berturut-turut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'这篇文章我听了两遍，终于听 ( A ) 了，作业也写 ( B ) 了。'",
     "formulaHud": {
       "title": "SISTEM KOMPLEMEN HASIL MANDARIN (结果补语体系)",
       "latex": "\\begin{aligned} \\text{听 (Mendengar)} + \\mathbf{\\text{懂 (dǒng / Paham)}} & \\implies \\mathbf{\\text{听懂 (Mendengar dan mengerti)}} \\\\ \\text{写 (Menulis)} + \\mathbf{\\text{完 (wán / Tuntas)}} & \\implies \\mathbf{\\text{写完 (Menulis hingga tuntas)}} \\end{aligned}",
@@ -1438,7 +1438,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang penutur asli memuji kemahiran bermain tenis meja temannya:\n'他乒乓球打 ( ... ) 很好。'\nPartikel struktural yang WAJIB diletakkan di antara kata kerja transitif '打' dan frasa evaluasi derajat '很好' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'他乒乓球打 ( ... ) 很好。'",
     "formulaHud": {
       "title": "DISTINGSI TIGA PARTIKEL DE MANDARIN (结构助词「的、地、得」)",
       "latex": "\\begin{aligned} \\text{Nomina: } & \\text{Atribut} + \\mathbf{\\text{的 (de)}} + \\text{Nomina} \\quad (\\text{红色的花}) \\\\ \\text{Adverbia: } & \\text{Adverbia} + \\mathbf{\\text{地 (de)}} + \\text{Verba} \\quad (\\text{快快地跑}) \\\\ \\mathbf{\\text{Komplemen:}} & \\mathbf{V} + \\mathbf{\\text{得 (de)}} + \\mathbf{\\text{Evaluasi/Derajat}} \\quad (\\text{打 } \\mathbf{\\text{得}} \\text{ 很好}) \\end{aligned}",
@@ -1534,7 +1534,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat prestasi siswa berikut:\n'李华 ( A ) 会说流利的英语，( B ) 还会说法语。'\nPasangan konjungsi penambahan kumulatif yang TEPAT untuk ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'李华 ( A ) 会说流利的英语，( B ) 还会说法语。'",
     "formulaHud": {
       "title": "KONJUNGSI AKUMULATIF BERTINGKAT (递进复句)",
       "latex": "\\mathbf{\\text{不但 (búdàn) } + \\text{Unsur 1}} \\dots \\mathbf{\\text{而且 (érqiě) } + \\text{Unsur 2 Lebih Lanjut}} \\implies \\text{Bukan hanya } \\dots \\text{ bahkan juga } \\dots",
@@ -1582,7 +1582,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat rencana rekreasi akhir pekan berikut:\n'( A ) 明天不下雨，我们 ( B ) 去爬山。'\nPasangan kata penghubung pengandaian yang TEPAT mengisi ( A ) 'jika' dan ( B ) 'maka' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'( A ) 明天不下雨，我们 ( B ) 去爬山。'",
     "formulaHud": {
       "title": "KONJUNGSI BERSYARAT HIPOTETIS (假设复句)",
       "latex": "\\mathbf{\\text{如果 (rúguǒ) } + \\text{Kondisi Syarat}} \\dots \\mathbf{\\text{就 (jiù) } + \\text{Konsekuensi Hasil}} \\implies \\text{Jika } \\dots \\text{ maka } \\dots",
@@ -1721,7 +1721,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat saling percaya dan tolong-menolong berikut:\n'朋友之间应该互相 ( A )，遇到困难时要互相 ( B )。'\nKata yang TEPAT untuk mengisi posisi saling 'mempercayai' ( A ) dan saling 'membantu' ( B ) berturut-turut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'朋友之间应该互相 ( A )，遇到困难时要互相 ( B )。'",
     "formulaHud": {
       "title": "KOLOKASI KATA KERJA RESIPROKAL (互助词汇搭配)",
       "latex": "\\begin{cases} \\text{互相 (Hùxiāng / Saling)} + \\mathbf{\\text{相信 (xiāngxìn)}} & \\implies \\text{Saling Mempercayai} \\\\ \\text{互相 (Hùxiāng / Saling)} + \\mathbf{\\text{帮助 (bāngzhù)}} & \\implies \\text{Saling Menolong/Membantu} \\end{cases}",
@@ -1817,7 +1817,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat berikut dengan kata yang menandai pemahaman mendalam dan komprehensif mengenai suatu kebudayaan:\n'他在中国生活了十年，非常 ( ... ) 中国的茶文化和传统风俗。'",
+    "questionHtml": "选择最恰当的词语填空：\n'他在中国生活了十年，非常 ( ... ) 中国的茶文化和传统风俗。'",
     "formulaHud": {
       "title": "GRADASI KATA PENGETAHUAN KOGNITIF (认知动词的语义梯度)",
       "latex": "\\text{知道 (Tahu Fakta)} \\subset \\text{认识 (Kenal Rupa)} \\subset \\mathbf{\\text{了解 (Liǎojiě - Paham Mendalam \\& Menghayati)}}",
@@ -1865,7 +1865,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kalimat manakah di bawah ini yang menunjukkan penggunaan kata kerja '参加' (cānjiā) secara TEPAT dan berterima dalam bahasa Mandarin baku?",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'参加'",
     "formulaHud": {
       "title": "KOLOKASI KATA KERJA PARTISIPASI (「参加」的宾语搭配范围)",
       "latex": "\\mathbf{\\text{参加 (cānjiā)}} + \\begin{cases} \\mathbf{\\text{Ujian / Kompetisi:}} & \\text{考试 (kǎoshì), 比赛 (bǐsài)} \\\\ \\mathbf{\\text{Kegiatan / Rapat:}} & \\text{活动 (huódòng), 会议 (huìyì)} \\end{cases}",
@@ -2346,7 +2346,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ibu meminta anaknya merapikan kamar sebelum para tamu tiba. Kalimat struktur disposisi '把' (*Bǎ zì jù*) manakah yang BENAR dan memenuhi seluruh kaidah gramatika Mandarin baku?",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'把'",
     "formulaHud": {
       "title": "KAIDAH STRUKTUR KALIMAT BA (「把」字句的核心语法条件)",
       "latex": "\\mathbf{S + \\text{把 (bǎ)} + \\text{Objek Pasti (Definite)} + V + \\text{Komplemen / Unsur Lain}}",
@@ -2394,7 +2394,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Xiao Ming menceritakan insiden kuenya yang hilang diambil oleh adik laki-lakinya:\n'糟糕！我买的巧克力蛋糕 ( ... ) 了！'\nBentuk kalimat pasif '被' (*Bèi zì jù*) yang TEPAT dan alami mengekspresikan bahwa kue tersebut 'telah dimakan habis oleh adik laki-laki' adalah...",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'被'",
     "formulaHud": {
       "title": "STRUKTUR KALIMAT PASIF BEI (「被」字句受事主语句式)",
       "latex": "\\mathbf{\\text{Objek Penderita (蛋糕)}} + \\mathbf{\\text{被 (bèi)}} + \\mathbf{\\text{Pelaku/Agen (弟弟)}} + \\mathbf{V\\text{-Komplemen (吃完了)}}",
@@ -2442,7 +2442,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan percakapan mengenai fakta perjalanan lampau berikut:\nA: '你的这件红色旗袍真漂亮！是在哪儿买的？'\nB: '我 ( ... )。'\nJawaban B yang TEPAT menggunakan struktur penekanan '是...的' (*Shì...de*) untuk menegaskan lokasi pembelian di Shanghai adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'我 ( ... )。'",
     "formulaHud": {
       "title": "STRUKTUR FOKUS PENEKANAN (强调句型「是...的」)",
       "latex": "\\mathbf{S + \\text{是 (shì)} + [\\text{Waktu / Tempat / Cara / Pelaku}] + V + \\text{的 (de)}}",
@@ -2490,7 +2490,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Soal ujian matematika ini dinilai luar biasa rumit dan sulit. Kalimat yang TEPAT menggunakan struktur '连...都...' (*Lián...dōu...*) untuk menyatakan bahwa 'Bahkan anak paling jenius di kelas pun tidak bisa mengerjakannya' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'连...都...'",
     "formulaHud": {
       "title": "STRUKTUR PENEKANAN KASUS EKSTREM (递进强调句「连...都/也...」)",
       "latex": "\\mathbf{\\text{连 (lián) } + \\text{Kasus Ekstrem}} + \\mathbf{\\text{都 / 也 (dōu/yě)} + \\text{Predikat Negatif/Afirmatif}}",
@@ -2538,7 +2538,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah kalimat tentang keberhasilan proyek kerja sama berikut:\n'听到这个好消息，大家心里都感到非常激动。'\nBagaimanakah rekonstruksi kalimat di atas menggunakan verba kausatif '使' (*shǐ*) yang TEPAT untuk menyatakan 'Kabar baik ini membuat semua orang merasa sangat terharu dan bersemangat'?",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'听到这个好消息，大家心里都感到非常激动。'",
     "formulaHud": {
       "title": "STRUKTUR KAUSATIF PENYEBAB (兼语句・使役结构)",
       "latex": "\\mathbf{\\text{Stimulus / Peristiwa}} + \\mathbf{\\text{使 / 让 / 叫 (shǐ/ràng/jiào)}} + \\mathbf{\\text{Penerima Dampak}} + \\mathbf{\\text{Kondisi Psikologis/Hasil}}",
@@ -2682,7 +2682,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat peribahasa motivasi belajar bahasa berikut:\n'学外语的时候，你 ( A ) 敢开口说，你的口语表达就 ( B ) 流利。'\nPasangan pola 'semakin... semakin...' yang TEPAT untuk mengisi ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'学外语的时候，你 ( A ) 敢开口说，你的口语表达就 ( B ) 流利。'",
     "formulaHud": {
       "title": "STRUKTUR KORELASI PROGRESIF GANDA (关联结构「越...越...」)",
       "latex": "\\mathbf{\\text{越 (yuè) } + \\text{Derajat Kondisi } A} \\dots \\mathbf{\\text{越 (yuè) } + \\text{Derajat Konsekuensi } B} \\implies \\text{Semakin } A \\dots \\text{ Semakin } B",
@@ -3526,7 +3526,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Petugas stasiun memberi peringatan kepada para penumpang di peron:\n'各位旅客，列车 ( ... ) 开了，请不要在车门附近停留。'\nFrasa penanda waktu yang TEPAT untuk menyatakan bahwa kereta 'sebentar lagi akan segera berangkat' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'各位旅客，列车 ( ... ) 开了，请不要在车门附近停留。'",
     "formulaHud": {
       "title": "KALA MASA DEPAN SEGERA (即将发生体「快要...了」)",
       "latex": "\\mathbf{\\text{快要 / 就要 (kuài yào / jiù yào)}} + V + \\mathbf{\\text{了 (le)}} \\implies \\text{Akan segera terjadi } V \\text{ dalam waktu dekat}",
@@ -3622,7 +3622,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam kalimat yang menggunakan struktur '把' (*Bǎ*), di manakah letak yang BENAR untuk kata negasi '没' (*méi*) atau '不' (*bù*)?",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'把'",
     "formulaHud": {
       "title": "POSISI NEGASI PADA KALIMAT BA (「把」字句否定词位置法则)",
       "latex": "\\mathbf{S + [\\text{没 / 不 / 别}] + \\text{把 (bǎ)} + \\text{Objek} + V + \\text{Komplemen}} \\quad (\\cancel{\\text{把 + 不 + O}}, \\cancel{\\text{把 + O + 不 + V}})",
@@ -3665,7 +3665,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang siswa mengeluh karena ruang penyimpanan komputernya sudah penuh sesak:\n'这个硬盘太小了，( ... ) 这么多高清电影。'\nFrasa komplemen kemungkinan yang TEPAT untuk menyatakan 'tidak muat menampung' adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'这个硬盘太小了，( ... ) 这么多高清电影。'",
     "formulaHud": {
       "title": "KOMPLEMEN KEMUNGKINAN KAPASITAS RUANG (可能补语「装得下 / 装不下」)",
       "latex": "\\begin{cases} \\mathbf{\\text{Kapasitas Muat:}} & \\text{装} + \\mathbf{\\text{得}} + \\text{下 (zhuāng de xià)} \\\\ \\mathbf{\\text{Kapasitas Tidak Muat:}} & \\text{装} + \\mathbf{\\text{不}} + \\text{下 (zhuāng bu xià)} \\end{cases}",
@@ -3804,7 +3804,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat kemandirian anak asrama berikut:\n'离开父母以后，他学会了 ( ... ) 做饭和洗衣服。'\nKata penanda kemandirian reflektif yang TEPAT melengkapi kalimat tersebut adalah...",
+    "questionHtml": "选择最恰当的词语填空：\n'离开父母以后，他学会了 ( ... ) 做饭和洗衣服。'",
     "formulaHud": {
       "title": "PRONOMINA REFLEKSIF MANDIRIAN (反身代词「自己」)",
       "latex": "\\mathbf{\\text{Subjek}} + \\mathbf{\\text{自己 (zìjǐ)}} + V \\implies \\text{Melakukan aksi } V \\text{ secara mandiri oleh diri sendiri}",
@@ -4675,7 +4675,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "multi",
-    "questionHtml": "Radikal 'Kayu / Pohon' (*Mùzìpáng* - 木) dalam aksara Hanzi lazimnya menyusun karakter yang berkaitan dengan flora berkayu, perabot kayu, atau material hutan. Manakah di antara karakter berikut yang memuat radikal '木'? (Pilihlah TIGA jawaban yang benar!)",
+    "questionHtml": "阅读下列句子，选择正确答案：\n'木'",
     "formulaHud": {
       "title": "RADIKAL KAYU MUZIBANG (部首「木」词族)",
       "latex": "\\mathbf{[木 (Kayu/Pohon)]} \\implies \\begin{cases} \\mathbf{\\text{树 (Pohon)}} \\\\ \\mathbf{\\text{桥 (Jembatan)}} \\\\ \\mathbf{\\text{椅 (Kursi)}} \\end{cases}",
@@ -4921,7 +4921,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pernyataan mengenai aturan tata bahasa Mandarin (*Yǔfǎ*). Tentukan apakah masing-masing pernyataan BENAR atau SALAH!",
+    "questionHtml": "判断下列各句的正确与错误：",
     "formulaHud": {
       "title": "EVALUASI KAIDAH YUFA POKOK (语法核心规则判定)",
       "latex": "\\begin{aligned} \\text{Keterangan Waktu di Akhir: } & \\text{Salah (Wajib sebelum kata kerja, tidak boleh di akhir)} \\\\ \\text{Sifat Tanpa 是: } & \\text{Benar (Kata sifat bertindak langsung sebagai predikat)} \\\\ \\text{在 + Tempat + Verb: } & \\text{Benar (Keterangan tempat mendahului aksi)} \\\\ \\text{比 + 很: } & \\text{Salah (Tabu mutlak menambahkan 很 pada predikat 比)} \\end{aligned}",
@@ -4969,7 +4969,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan tata bahasa struktur khusus bahasa Mandarin berikut!",
+    "questionHtml": "判断下列各句的正确与错误：",
     "formulaHud": {
       "title": "EVALUASI STRUKTUR BA, BEI, DAN SHI...DE (特殊句式正误判定)",
       "latex": "\\begin{aligned} \\text{Objek 把 Definit: } & \\text{Benar (Wajib spesifik/pasti)} \\\\ \\text{Verba 把 Telanjang: } & \\text{Salah (Wajib ada komplemen/unsur penjelas hasil)} \\\\ \\text{Pelaku 被 Dilesapkan: } & \\text{Benar (Pelaku boleh implisit/anonim)} \\\\ \\text{是...的 Masa Depan: } & \\text{Salah (Hanya untuk peristiwa yang SUDAH PASTI terjadi di masa lalu)} \\end{aligned}",
@@ -5017,7 +5017,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan mengenai fonetika Pinyin dan nada berikut!",
+    "questionHtml": "判断下列各句的正确与错误：",
     "formulaHud": {
       "title": "EVALUASI FONOLOGI DAN SANDHI NADA (语音与变调规则判定)",
       "latex": "\\begin{aligned} \\text{Sandhi Nada 3: } & \\text{Benar (3+3 } \\to \\text{ 2+3)} \\\\ \\text{Karakter 不 Kaku: } & \\text{Salah (Berubah jadi nada 2 jika di depan nada 4)} \\\\ \\text{Angka 一 Urutan: } & \\text{Benar (Tetap nada 1 saat berhitung mandiri)} \\\\ \\text{Enam Nada Utama: } & \\text{Salah (Hanya ada 4 nada utama + 1 nada netral qingsheng)} \\end{aligned}",
@@ -5065,7 +5065,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan penggunaan ungkapan situasi harian bahasa Mandarin berikut!",
+    "questionHtml": "判断下列各句的正确与错误：",
     "formulaHud": {
       "title": "EVALUASI PRAGMATIK KOMUNIKASI (日常交际用语判定)",
       "latex": "\\begin{aligned} \\text{Balasan 谢谢: } & \\text{Benar (不客气)} \\\\ \\text{Balasan 对不起: } & \\text{Salah (Wajib 没关系, bukan 不客气)} \\\\ \\text{Tamu Pulang 慢走: } & \\text{Benar (Hati-hati di jalan)} \\\\ \\text{您好 ke Anak: } & \\text{Salah (您 adalah pronomina hormat vertikal kepada atasan/guru/orang tua)} \\end{aligned}",
@@ -5113,7 +5113,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan mengenai norma adat istiadat dan etika pergaulan masyarakat Tionghoa berikut!",
+    "questionHtml": "判断下列各句的正确与错误：",
     "formulaHud": {
       "title": "EVALUASI KEBUDAYAAN DAN PRAGMATIK TIONGHOA (中华民俗文化正误判定)",
       "latex": "\\begin{aligned} \\text{Beri Jam Tabu: } & \\text{Benar (Homofon kematian)} \\\\ \\text{Kursi 主位 Hadap Pintu: } & \\text{Benar (Etika meja bundar perjamuan)} \\\\ \\text{Warna Putih Berkah: } & \\text{Salah (Putih untuk duka cita; merah untuk berkah)} \\\\ \\text{Angka 8 Makmur: } & \\text{Benar (bā mirip fā)} \\end{aligned}",

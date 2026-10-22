@@ -3599,9 +3599,9 @@
 
       if (transEntry && transEntry.translation) {
         if (q.stimulus) {
-          passageTransHtml = `<div class="passage-translation translate-only">${transEntry.translation}</div>`;
+          passageTransHtml = `<div class="passage-translation translate-only"><span class="q-trans-badge">Terjemahan Wacana:</span> ${transEntry.translation}</div>`;
         } else {
-          questionTransHtml = `<div class="question-translation-stem translate-only">${transEntry.translation}</div>`;
+          questionTransHtml = `<div class="question-translation-stem translate-only"><span class="q-trans-badge">Terjemahan Soal:</span> ${transEntry.translation}</div>`;
         }
       }
 

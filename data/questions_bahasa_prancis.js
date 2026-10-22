@@ -13,7 +13,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan formal di kantor kedutaan besar:\n'Bonjour Monsieur et Madame Laurent! ( ... )-vous prêts pour votre entretien de visa ce matin?'\nBentuk konjugasi kata kerja 'être' yang TEPAT untuk subjek 'vous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Bonjour Monsieur et Madame Laurent! ( ... )-vous prêts pour votre entretien de visa ce matin?'",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE ÊTRE AU PRÉSENT",
       "latex": "\\text{je suis, tu es, il/elle est, nous sommes, } \\mathbf{vous \\text{ } êtes}, \\text{ ils/elles sont}",
@@ -61,7 +61,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang pembeli memesan sarapan di sebuah bistro di Paris:\n'Le matin, j'aime boire une tasse de thé et manger du pain avec ( ... ) beurre frais.'\nArtikel partitif yang TEPAT untuk melengkapi kata benda maskulin yang tidak dapat dihitung 'beurre' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Le matin, j'",
     "formulaHud": {
       "title": "LES ARTICLES PARTITIFS",
       "latex": "\\text{de} + \\text{le} = \\mathbf{du} \\quad (\\text{masculin singulier: le beurre})",
@@ -109,7 +109,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan mengenai preferensi musik:\n'Julien écoute souvent de la musique classique, mais il ( ... ) aime pas du tout le heavy metal.'\nBentuk partikel negasi pertama yang TEPAT di depan kata kerja 'aime' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Julien écoute souvent de la musique classique, mais il ( ... ) aime pas du tout le heavy metal.'",
     "formulaHud": {
       "title": "LA NÉGATION VERBALE: NE...PAS",
       "latex": "\\text{Sujet} + \\mathbf{n'} + \\text{Verbe (voyelle)} + \\mathbf{pas}",
@@ -157,7 +157,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Camille memperkenalkan sahabat dekatnya di sekolah:\n'Voici Sophie, c'est ( ... ) amie d'enfance depuis l'école primaire.'\nKata sifat kepemilikan orang pertama tunggal yang TEPAT di depan kata benda feminin berawalan vokal 'amie' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Voici Sophie, c'",
     "formulaHud": {
       "title": "EUPHONIE DES ADJECTIFS POSSESSIFS",
       "latex": "\\text{Nomen feminin berawalan vokal (amie)} \\quad \\implies \\quad \\mathbf{mon / ton / son} \\quad (\\text{BUKAN ma})",
@@ -205,7 +205,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kegiatan kelompok belajar di perpustakaan:\n'Chaque samedi après-midi, nous ( ... ) ensemble pour préparer nos examens de fin d'année.'\nBentuk konjugasi kata kerja 'étudier' yang TEPAT untuk subjek 'nous' pada kala Présent adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Chaque samedi après-midi, nous ( ... ) ensemble pour préparer nos examens de fin d'",
     "formulaHud": {
       "title": "CONJUGAISON DU 1ER GROUPE (-ER)",
       "latex": "\\text{Radical: étudi-} + \\mathbf{-ons} = \\mathbf{étudions} \\quad (\\text{Sujet: nous})",
@@ -301,7 +301,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam rencana perjalanan wisata liburan musim semi:\n'Pendant les prochaines vacances, Lucas va voyager ( ... ) Italie pour visiter les monuments historiques de Rome.'\nPreposisi tempat yang TEPAT di depan nama negara bergender feminin 'Italie' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pendant les prochaines vacances, Lucas va voyager ( ... ) Italie pour visiter les monuments historiques de Rome.'",
     "formulaHud": {
       "title": "PRÉPOSITIONS DEVANT LES NOMS DE PAYS",
       "latex": "\\mathbf{en} + \\text{Pays féminin (Italie, France)} \\quad | \\quad \\mathbf{au} + \\text{Pays masculin (Japon, Canada)}",
@@ -349,7 +349,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ibu guru menanyakan keberadaan murid-murid:\n'Où sont les élèves de la classe de français? — Ils ( ... ) au laboratoire de langues pour l'épreuve d'écoute.'\nBentuk konjugasi kata kerja 'aller' yang TEPAT untuk subjek 'ils' pada waktu sekarang adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n' yang TEPAT untuk subjek '",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE ALLER AU PRÉSENT",
       "latex": "\\text{je vais, tu vas, il va, nous allons, vous allez, } \\mathbf{ils/elles \\text{ } vont}",
@@ -397,7 +397,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di sebuah restoran tradisional di kota Lyon, pelanggan memanggil pelayan:\n'S'il vous plaît, Monsieur! Je ( ... ) un steak-frites bien cuit et une carafe d'eau, s'il vous plaît.'\nBentuk verba modalitas kesantunan yang PALING TEPAT untuk memesan hidangan adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'il vous plaît, Monsieur! Je ( ... ) un steak-frites bien cuit et une carafe d'",
     "formulaHud": {
       "title": "LA DEMANDE POLIE: JE VOUDRAIS",
       "latex": "\\text{Formule de politesse: } \\mathbf{Je \\text{ } voudrais} + \\text{Nom / Infinitif} + \\text{s'il vous plaît}",
@@ -445,7 +445,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam deskripsi kepribadian anggota keluarga:\n'Mon oncle est très généreux avec tout le monde, et ma tante est également très ( ... ).'\nBentuk feminin yang BENAR dari kata sifat 'généreux' untuk mendeskripsikan 'ma tante' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Mon oncle est très généreux avec tout le monde, et ma tante est également très ( ... ).'",
     "formulaHud": {
       "title": "FÉMININ DES ADJECTIFS EN -EUX",
       "latex": "\\text{Masculin: -eux} \\quad \\rightarrow \\quad \\text{Féminin: } \\mathbf{-euse}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang guru menanyakan alasan keterlambatan siswa:\n'— ( ... ) es-tu en retard ce matin, Thomas? — Parce que mon réveil n'a pas sonné, Madame.'\nKata tanya yang TEPAT untuk menanyakan alasan atau penyebab keterlambatan adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'a pas sonné, Madame.'",
     "formulaHud": {
       "title": "L'INTERROGATION CAUSALE",
       "latex": "\\mathbf{Pourquoi} \\dots ? \\quad \\leftrightarrow \\quad \\mathbf{Parce \\text{ } que} \\dots",
@@ -541,7 +541,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di kebun binatang kota Marseille:\n'Pendant notre visite guidée, nous avons pu observer plusieurs ( ... ) sauvages venus d'Afrique.'\nBentuk jamak (Pluriel) yang BENAR dari kata benda 'un animal' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pendant notre visite guidée, nous avons pu observer plusieurs ( ... ) sauvages venus d'",
     "formulaHud": {
       "title": "PLURIEL DES NOMS EN -AL",
       "latex": "\\text{Singulier: } \\mathbf{-al} \\quad \\rightarrow \\quad \\text{Pluriel: } \\mathbf{-aux}",
@@ -589,7 +589,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam survei kegiatan waktu luang:\n'Qu'est-ce que vous ( ... ) généralement pendant votre temps libre le week-end?'\nBentuk konjugasi kata kerja 'faire' yang TEPAT untuk subjek 'vous' pada waktu sekarang adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'est-ce que vous ( ... ) généralement pendant votre temps libre le week-end?'",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE FAIRE (VOUS)",
       "latex": "\\text{je fais, tu fais, il fait, nous faisons, } \\mathbf{vous \\text{ } faites}, \\text{ ils font}",
@@ -637,7 +637,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang ayah mengajak anaknya berolahraga di akhir pekan:\n'Dimanche matin, le père emmène son fils ( ... ) parc municipal pour jouer au ballon.'\nBentuk artikel kontraksi yang TEPAT untuk preposisi 'à' dan kata benda maskulin 'le parc' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Dimanche matin, le père emmène son fils ( ... ) parc municipal pour jouer au ballon.'",
     "formulaHud": {
       "title": "ARTICLES CONTRACTÉS AVEC LA PRÉPOSITION À",
       "latex": "\\mathbf{à} + \\mathbf{le} = \\mathbf{au} \\quad (\\text{masculin singulier: le parc})",
@@ -685,7 +685,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Pasien mengeluhkan gejala flu berat kepada dokter keluarga:\n'Docteur, j'ai une forte fièvre et j'ai très mal ( ... ) gorge depuis hier soir.'\nBentuk kontraksi preposisi yang TEPAT untuk melengkapi frasa sakit tenggorokan (la gorge, feminin) adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Docteur, j'",
     "formulaHud": {
       "title": "EXPRIMER LA DOULEUR: AVOIR MAL À",
       "latex": "\\mathbf{avoir \\text{ } mal \\text{ } à} + \\text{partie du corps} \\quad (\\text{la gorge } \\rightarrow \\mathbf{à \\text{ } la \\text{ } gorge})",
@@ -733,7 +733,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Melihat langit mendung pekat dan suara guntur:\n'Regarde ces gros nuages noirs dans le ciel! Il ( ... ) pleuvoir d'une minute à l'autre.'\nBentuk kata kerja bantu 'aller' pada waktu sekarang yang TEPAT untuk membentuk Futur Proche dengan subjek impersonal 'il' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Regarde ces gros nuages noirs dans le ciel! Il ( ... ) pleuvoir d'",
     "formulaHud": {
       "title": "LE FUTUR PROCHE",
       "latex": "\\text{Sujet} + \\mathbf{aller \\text{ (au présent)}} + \\text{Infinitif} \\quad (\\text{Il } \\mathbf{va} \\text{ pleuvoir})",
@@ -781,7 +781,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Antoine mengajak temannya belajar kelompok:\n'Est-ce que tu veux venir à la bibliothèque municipale pour réviser avec ( ... ) cet après-midi?'\nBentuk kata ganti penguat (Pronom tonique) yang TEPAT setelah preposisi 'avec' untuk persona pertama tunggal adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Est-ce que tu veux venir à la bibliothèque municipale pour réviser avec ( ... ) cet après-midi?'",
     "formulaHud": {
       "title": "LES PRONOMS TONIQUES APRÈS PRÉPOSITION",
       "latex": "\\text{Préposition (avec, pour, chez, sans)} + \\mathbf{Pronom \\text{ } tonique \\text{ (moi, toi, lui, elle...)} }",
@@ -829,7 +829,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam jadwal rutinitas kantor di Paris:\n'En France, la plupart des employés font une pause entre 12h30 et 13h30 pour prendre le ( ... ).'\nKata benda yang TEPAT untuk menyebut santap siang dalam budaya kuliner Prancis adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'En France, la plupart des employés font une pause entre 12h30 et 13h30 pour prendre le ( ... ).'",
     "formulaHud": {
       "title": "LES QUATRE REPAS EN FRANCE",
       "latex": "\\text{Matin: le petit-déjeuner} \\rightarrow \\mathbf{Midi: le \\text{ } déjeuner} \\rightarrow \\text{16h30: le goûter} \\rightarrow \\text{Soir: le dîner}",
@@ -877,7 +877,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam panduan mobilitas siswa komuter:\n'Pour aller au lycée tous les matins, les élèves ( ... ) la ligne 4 du métro à la station Châtelet.'\nBentuk konjugasi kata kerja 'prendre' yang TEPAT untuk subjek jamak 'les élèves' pada waktu sekarang adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pour aller au lycée tous les matins, les élèves ( ... ) la ligne 4 du métro à la station Châtelet.'",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE PRENDRE (PLURIEL)",
       "latex": "\\text{nous prenons, vous prenez, } \\mathbf{ils/elles \\text{ } prennent}",
@@ -925,7 +925,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di etalase butik busana wanita:\n'Sarah regarde les nouvelles robes ( ... ) exposées dans la vitrine du magasin.'\nBentuk kata sifat warna 'bleu' yang TEPAT untuk menyelaraskan dengan kata benda feminin jamak 'les robes' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Sarah regarde les nouvelles robes ( ... ) exposées dans la vitrine du magasin.'",
     "formulaHud": {
       "title": "ACCORD DE L'ADJECTIF QUALIFICATIF",
       "latex": "\\text{la robe (Fém. Sing.) } \\rightarrow \\text{les robes (Fém. Plur.) } \\implies \\text{bleu} + \\mathbf{e} + \\mathbf{s} = \\mathbf{bleues}",
@@ -973,7 +973,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang turis asing menyapa warga lokal di trotoar jalan:\n'Pardon Madame, ( ... ) pour aller à la gare centrale, s'il vous plaît?'\nUngkapan interogatif yang PALING LAZIM dan santun untuk menanyakan arah jalan adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pardon Madame, ( ... ) pour aller à la gare centrale, s'",
     "formulaHud": {
       "title": "DEMANDER SON CHEMIN",
       "latex": "\\text{Formule: } \\mathbf{Comment \\text{ } faire \\text{ } pour \\text{ } aller \\text{ } à} + \\text{Lieu}?",
@@ -1021,7 +1021,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di resepsionis hotel berbintang:\n'Nous avons réservé une chambre double dans ( ... ) hôtel moderne pour trois nuits.'\nKata sifat penunjuk (Adjectif démonstratif) yang TEPAT di depan kata benda maskulin tunggal berawalan huruf 'h muet' 'hôtel' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Nous avons réservé une chambre double dans ( ... ) hôtel moderne pour trois nuits.'",
     "formulaHud": {
       "title": "LES ADJECTIFS DÉMONSTRATIFS",
       "latex": "\\mathbf{cet} + \\text{Nomen maskulin berawalan vokal / h muet (hôtel, homme, arbre)}",
@@ -1069,7 +1069,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam perkenalan asal-usul kedaerahan:\n'Bonjour à tous! Je m'appelle Maxime et je ( ... ) de Bordeaux dans le sud-ouest de la France.'\nBentuk konjugasi kata kerja 'venir' yang TEPAT untuk subjek 'je' pada waktu sekarang adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Bonjour à tous! Je m'",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE VENIR AU PRÉSENT",
       "latex": "\\mathbf{je \\text{ } viens}, \\text{ tu viens, il vient, nous venons, vous venez, ils viennent}",
@@ -1117,7 +1117,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di koridor sekolah hari pertama semester baru:\n'La salle de cours de chimie se trouve à la ( ... ) porte à gauche au rez-de-chaussée.'\nBentuk kata bilangan tingkat (Nombre ordinal) yang TEPAT untuk kata benda feminin 'porte' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'La salle de cours de chimie se trouve à la ( ... ) porte à gauche au rez-de-chaussée.'",
     "formulaHud": {
       "title": "LES NOMBRES ORDINAUX (GENDER)",
       "latex": "\\text{Masculin: premier} \\quad \\rightarrow \\quad \\text{Féminin: } \\mathbf{première}",
@@ -1165,7 +1165,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Melihat matahari cerah bersinar di pantai Nice:\n'Aujourd'hui, il n'y a aucun vent et ( ... ) très beau, nous pouvons aller nous baigner dans la mer.'\nKonstruksi kata kerja cuaca impersonal yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'y a aucun vent et ( ... ) très beau, nous pouvons aller nous baigner dans la mer.'",
     "formulaHud": {
       "title": "EXPRIMER LA MÉTÉO AVEC 'FAIRE'",
       "latex": "\\mathbf{Il \\text{ } fait} + \\text{Adjectif de météo (beau, chaud, froid, mauvais)}",
@@ -1213,7 +1213,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam laporan perjalanan karyawisata siswi sekolah:\n'Hier soir, après la cérémonie de remise des diplômes, mes deux sœurs ( ... ) pour Paris en train de nuit.'\nBentuk kata kerja bantu dan Participe Passé yang TEPAT dari verba 'partir' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Hier soir, après la cérémonie de remise des diplômes, mes deux sœurs ( ... ) pour Paris en train de nuit.'",
     "formulaHud": {
       "title": "PASSÉ COMPOSÉ AVEC ÊTRE (ACCORD DU PARTICIPE)",
       "latex": "\\text{Sujet (Fém. Plur.)} + \\mathbf{sont} + \\text{Participe } (\\text{parti} + \\mathbf{e} + \\mathbf{s}) = \\mathbf{sont \\text{ } parties}",
@@ -1261,7 +1261,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang saksi menceritakan kejadian di peron stasiun:\n'Pendant que les passagers ( ... ) tranquillement leur train sur le quai, une alarme sonore ( ... ) soudainement.'\nPasangan bentuk kata kerja lampau yang TEPAT untuk menggambarkan situasi berlangsung dan interupsi mendadak tersebut adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pendant que les passagers ( ... ) tranquillement leur train sur le quai, une alarme sonore ( ... ) soudainement.'",
     "formulaHud": {
       "title": "IMPARFAIT (CADRE) VS PASSÉ COMPOSÉ (ACTION PONCTUELLE)",
       "latex": "\\mathbf{Pendant \\text{ } que} + \\text{Imparfait (attendaient)}, \\quad \\mathbf{soudainement} + \\text{Passé Composé (a retenti)}",
@@ -1357,7 +1357,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang ibu mengingatkan putrinya untuk menghubungi dokter:\n'As-tu pensé à téléphoner à ta grand-mère pour prendre de ses nouvelles? — Oui maman, je ( ... ) ai téléphoné hier soir.'\nBentuk pronomina objek tak langsung (COI) yang TEPAT untuk menggantikan 'à ta grand-mère' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'à ta grand-mère'",
     "formulaHud": {
       "title": "LE PRONOM COMPLÉMENT D'OBJET INDIRECT (COI)",
       "latex": "\\text{téléphoner } \\mathbf{à \\text{ } quelqu'un} \\quad \\rightarrow \\quad \\mathbf{lui} \\quad (\\text{masculin ou féminin singulier})",
@@ -1405,7 +1405,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dua sahabat membicarakan rencana akhir pekan di museum seni:\n'Tu vas souvent au musée du Louvre le dimanche? — Oui, j'( ... ) vais presque tous les mois avec mes camarades.'\nBentuk pronomina adverbial yang TEPAT untuk menggantikan frasa tempat 'au musée du Louvre' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'( ... ) vais presque tous les mois avec mes camarades.'",
     "formulaHud": {
       "title": "LE PRONOM ADVERBIAL Y (LIEU)",
       "latex": "\\text{aller } \\mathbf{au \\text{ } musée} \\quad (\\text{à} + \\text{lieu}) \\quad \\rightarrow \\quad \\mathbf{y} \\quad (\\text{j'} \\mathbf{y} \\text{ vais})",
@@ -1453,7 +1453,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Di pasar buah tradisional:\n'Voulez-vous encore des pommes bio, Madame? — Non merci, j'( ... ) ai déjà acheté deux kilos ce matin.'\nBentuk pronomina yang TEPAT untuk menggantikan kata benda kuantitas dengan artikel partitif 'des pommes' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'( ... ) ai déjà acheté deux kilos ce matin.'",
     "formulaHud": {
       "title": "LE PRONOM ADVERBIAL EN (QUANTITÉ)",
       "latex": "\\text{acheter } \\mathbf{des \\text{ } pommes} \\text{ (partitif / quantité)} \\quad \\rightarrow \\quad \\mathbf{en} \\quad (\\text{j'} \\mathbf{en} \\text{ ai acheté deux kilos})",
@@ -1501,7 +1501,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Hélène menceritakan rutinitas paginya kemarin:\n'Hier, comme j'avais un train très tôt, je me ( ... ) à cinq heures du matin.'\nBentuk kata kerja bantu dan Participe Passé yang TEPAT dari verba refleksif 'se réveiller' untuk subjek Hélène (wanita) adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Hier, comme j'",
     "formulaHud": {
       "title": "VERBES PRONOMINAUX AU PASSÉ COMPOSÉ",
       "latex": "\\text{Sujet (Fém. Sing.)} + \\mathbf{me \\text{ } suis} + \\mathbf{réveillée} \\quad (\\text{accord avec le sujet})",
@@ -1549,7 +1549,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dua mahasiswa mengevaluasi cara belajar bahasa asing:\n'La prononciation de Marc est excellente, mais Claire parle encore ( ... ) que lui.'\nBentuk perbandingan tingkat lebih yang TEPAT untuk memodifikasi kata kerja wicara 'parle' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'La prononciation de Marc est excellente, mais Claire parle encore ( ... ) que lui.'",
     "formulaHud": {
       "title": "DISTINCTION: MEILLEUR VS MIEUX",
       "latex": "\\mathbf{bon} \\rightarrow \\mathbf{meilleur} \\text{ (Adjectif, qualifie un nom)} \\quad | \\quad \\mathbf{bien} \\rightarrow \\mathbf{mieux} \\text{ (Adverbe, modifie un verbe)}",
@@ -1597,7 +1597,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam rencana pembangunan infrastruktur hijau lima tahun ke depan:\n'D'ici 2030, la municipalité de Paris ( ... ) de grands efforts pour réduire la pollution automobile dans le centre historique.'\nBentuk konjugasi Futur Simple yang TEPAT dari kata kerja 'faire' untuk persona ketiga tunggal 'la municipalité' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'ici 2030, la municipalité de Paris ( ... ) de grands efforts pour réduire la pollution automobile dans le centre historique.'",
     "formulaHud": {
       "title": "LE FUTUR SIMPLE: RADICAL DU VERBE FAIRE",
       "latex": "\\text{Radical irrégulier: } \\mathbf{fer-} + \\text{Terminaisons: } \\text{-ai, -as, } \\mathbf{-a}, \\text{ -ons, -ez, -ont}",
@@ -1645,7 +1645,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam ulasan novel sastra pemenang penghargaan:\n'C'est un auteur talentueux ( ... ) raconte avec une grande émotion l'histoire des immigrés arrivés en France dans les années soixante.'\nPronomina relatif yang TEPAT untuk menggantikan subjek pelaku 'un auteur talentueux' dalam anak kalimat adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'est un auteur talentueux ( ... ) raconte avec une grande émotion l'",
     "formulaHud": {
       "title": "PRONOMS RELATIFS: QUI (SUJET) VS QUE (COD)",
       "latex": "\\text{Antécédent} + \\mathbf{qui} + \\mathbf{Verbe} \\quad \\leftrightarrow \\quad \\text{Antécédent} + \\mathbf{que} + \\mathbf{Sujet} + \\text{Verbe}",
@@ -1693,7 +1693,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang kurator museum memamerkan koleksi lukisan antik:\n'Regardez ces magnifiques toiles de maître! Le musée les a ( ... ) lors d'une vente aux enchères internationale à Genève.'\nBentuk Participe Passé dari kata kerja 'acheter' yang TEPAT untuk menyelaraskan dengan pronomina COD 'les' (merujuk pada 'ces toiles', feminin jamak) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Regardez ces magnifiques toiles de maître! Le musée les a ( ... ) lors d'",
     "formulaHud": {
       "title": "ACCORD DU PARTICIPE PASSÉ AVEC AVOIR (RÈGLE DU COD PRÉCÉDENT)",
       "latex": "\\text{COD précédent (les = ces toiles, Fém. Plur.)} + \\text{avoir} + \\mathbf{Participe } (\\text{acheté} + \\mathbf{e} + \\mathbf{s}) = \\mathbf{achetées}",
@@ -1741,7 +1741,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kakek mengenang kebiasaan masa mudanya di pedesaan Provence:\n'Quand nous étions jeunes, mon frère et moi ( ... ) toujours le train à vapeur pour aller au marché le samedi.'\nBentuk konjugasi Imparfait yang TEPAT dari kata kerja 'prendre' untuk subjek 'mon frère et moi' (nous) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Quand nous étions jeunes, mon frère et moi ( ... ) toujours le train à vapeur pour aller au marché le samedi.'",
     "formulaHud": {
       "title": "FORMATION DE L'IMPARFAIT",
       "latex": "\\text{Radical: } \\text{nous prenons (Présent)} \\rightarrow \\mathbf{pren-} + \\text{Terminaisons: } \\text{-ais, -ais, -ait, } \\mathbf{-ions}, \\text{ -iez, -aient}",
@@ -1789,7 +1789,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dua saudara kembar memiliki prestasi akademis yang seimbang:\n'Dans cette classe bilingue, Marc est ( ... ) travailleur que sa sœur jumelle Juliette.'\nStruktur perbandingan kesetaraan yang TEPAT untuk menyertai kata sifat 'travailleur' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Dans cette classe bilingue, Marc est ( ... ) travailleur que sa sœur jumelle Juliette.'",
     "formulaHud": {
       "title": "LE COMPARATIF D'ÉGALITÉ: AUSSI VS AUTANT",
       "latex": "\\mathbf{aussi} + \\text{Adjectif / Adverbe} + \\mathbf{que} \\quad \\leftrightarrow \\quad \\mathbf{autant \\text{ } de} + \\text{Nom} + \\mathbf{que}",
@@ -1837,7 +1837,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Sebelum batas waktu pengumpulan tugas akhir semester:\n'Pour réussir notre projet de recherche, nous ( ... ) respecter scrupuleusement les consignes méthodologiques du professeur.'\nBentuk konjugasi kata kerja 'devoir' yang TEPAT untuk subjek 'nous' pada waktu sekarang adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pour réussir notre projet de recherche, nous ( ... ) respecter scrupuleusement les consignes méthodologiques du professeur.'",
     "formulaHud": {
       "title": "CONJUGAISON DU VERBE DEVOIR AU PRÉSENT",
       "latex": "\\text{je dois, tu dois, il doit, } \\mathbf{nous \\text{ } devons}, \\text{ vous devez, ils doivent}",
@@ -1885,7 +1885,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam rekomendasi buku literatur klasik:\n'Le Petit Prince est un chef-d'œuvre littéraire d'Antoine de Saint-Exupéry ( ... ) tout le monde connaît les célèbres citations sur l'amitié.'\nPronomina relatif yang TEPAT untuk menggantikan komplemen kepemilikan 'les citations de ce chef-d'œuvre' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Le Petit Prince est un chef-d'",
     "formulaHud": {
       "title": "LE PRONOM RELATIF DONT",
       "latex": "\\text{Antécédent} + \\mathbf{dont} + \\text{Proposition avec complément introduit par } \\mathbf{de}",
@@ -1933,7 +1933,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Di konter layanan pelanggan bandara Charles de Gaulle:\n'Pardon Monsieur, ( ... )-vous m'indiquer où se trouve la porte d'embarquement B24?'\nBentuk konjugasi kesantunan Conditionnel Présent dari kata kerja 'pouvoir' untuk subjek 'vous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pardon Monsieur, ( ... )-vous m'",
     "formulaHud": {
       "title": "CONDITIONNEL DE POLITESSE: POUVOIR",
       "latex": "\\text{Radical du futur: } \\mathbf{pourr-} + \\text{Terminaison de l'imparfait: } \\mathbf{-iez} = \\mathbf{Pourriez-vous}",
@@ -1981,7 +1981,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Ibu guru menanyakan tugas siswa kepada ketua kelas:\n'Est-ce que tu as déjà rendu le devoir de mathématiques au professeur? — Oui, je ( ... ) ai rendu ce matin avant le début des cours.'\nKombinasi dua pronomina objek (COD 'le devoir' dan COI 'au professeur') yang TEPAT di depan kata kerja adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'au professeur'",
     "formulaHud": {
       "title": "L'ORDRE DES DOUBLES PRONOMS COMPLÉMENTS",
       "latex": "\\text{Devant le verbe: } \\text{me/te/se/nous/vous} \\rightarrow \\mathbf{le/la/les} \\rightarrow \\mathbf{lui/leur} \\rightarrow \\text{y} \\rightarrow \\text{en}",
@@ -2029,7 +2029,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam tips kesehatan tentang gaya hidup aktif:\n'On peut facilement améliorer sa forme physique quotidienne ( ... ) les escaliers au lieu de prendre systématiquement l'ascenseur.'\nBentuk Gérondif yang TEPAT dari kata kerja 'prendre' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'On peut facilement améliorer sa forme physique quotidienne ( ... ) les escaliers au lieu de prendre systématiquement l'",
     "formulaHud": {
       "title": "FORMATION DU GÉRONDIF",
       "latex": "\\mathbf{en} + \\text{Radical de nous au présent (pren-)} + \\mathbf{-ant} = \\mathbf{en \\text{ } prenant}",
@@ -2077,7 +2077,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Setelah dokter mendiagnosis gangguan lambung akut pada pasiennya:\n'Le patient a décidé de changer ses habitudes: il était un grand buveur de café, mais maintenant il ( ... ) en boit ( ... ).'\nPasangan partikel negasi yang TEPAT untuk menyatakan bahwa ia 'tidak lagi meminum kopi' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Le patient a décidé de changer ses habitudes: il était un grand buveur de café, mais maintenant il ( ... ) en boit ( ... ).'",
     "formulaHud": {
       "title": "LA NÉGATION COMPLEXE: NE...PLUS",
       "latex": "\\mathbf{ne \\dots plus} = \\text{arrêt d'une action continue (ne fait plus = tidak lagi)}",
@@ -2125,7 +2125,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam profil seorang diplomat internasional:\n'Après avoir vécu dix ans à Tokyo et cinq ans à New York, elle travaille désormais ( ... ) Genève pour les Nations Unies.'\nPreposisi tempat yang TEPAT di depan nama kota 'Genève' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Après avoir vécu dix ans à Tokyo et cinq ans à New York, elle travaille désormais ( ... ) Genève pour les Nations Unies.'",
     "formulaHud": {
       "title": "PRÉPOSITION DEVANT LES VILLES",
       "latex": "\\mathbf{à} + \\text{Nom de ville (Paris, Genève, Tokyo, Jakarta)}",
@@ -2173,7 +2173,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam pidato kelulusan sarjana berprestasi:\n'J'ai réussi à obtenir cette bourse d'excellence internationale ( ... ) soutien indéfectible de mes professeurs et de ma famille.'\nPreposisi kausalitas bernada positif yang TEPAT di depan kata benda maskulin 'le soutien' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'ai réussi à obtenir cette bourse d'",
     "formulaHud": {
       "title": "EXPRESSION DE LA CAUSE: GRÂCE À VS À CAUSE DE",
       "latex": "\\mathbf{grâce \\text{ } à} + \\text{Nom (cause positive)} \\quad \\leftrightarrow \\quad \\mathbf{à \\text{ } cause \\text{ } de} + \\text{Nom (cause négative)}",
@@ -2221,7 +2221,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam perbandingan gaya hidup perkotaan dan pedesaan:\n'La vie dans un petit village de campagne est généralement beaucoup ( ... ) stressante ( ... ) dans une métropole comme Paris.'\nPasangan kata pembanding yang TEPAT untuk menyatakan derajat perbandingan lebih rendah (kurang menegangkan) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'La vie dans un petit village de campagne est généralement beaucoup ( ... ) stressante ( ... ) dans une métropole comme Paris.'",
     "formulaHud": {
       "title": "LE COMPARATIF D'INFÉRIORITÉ",
       "latex": "\\mathbf{moins} + \\text{Adjectif (stressante)} + \\mathbf{que} \\quad (\\text{kurang menegangkan daripada})",
@@ -2269,7 +2269,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Instruksi panitia ujian sekolah kepada para peserta:\n'Avant de commencer l'épreuve de rédaction, ( ... ) les candidats doivent déposer leurs téléphones portables sur la table du surveillant.'\nBentuk kata sifat tak tentu yang TEPAT di depan kata benda maskulin jamak 'les candidats' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Avant de commencer l'",
     "formulaHud": {
       "title": "LES FORMES DE 'TOUT' (ADJECTIF)",
       "latex": "\\text{Masculin Singulier: tout} \\quad | \\quad \\text{Féminin Singulier: toute} \\quad | \\quad \\mathbf{Masculin Pluriel: tous} \\quad | \\quad \\text{Féminin Pluriel: toutes}",
@@ -2317,7 +2317,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang resepsionis menyambut tamu yang baru tiba:\n'Vous arrivez au bon moment! Le directeur ( ... ) d'entrer dans la salle de conférence il y a deux minutes.'\nBentuk konjugasi kata kerja 'venir' pada kala Présent yang TEPAT untuk membentuk Passé Récent dengan subjek 'le directeur' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Vous arrivez au bon moment! Le directeur ( ... ) d'",
     "formulaHud": {
       "title": "LE PASSÉ RÉCENT: VENIR DE + INFINITIF",
       "latex": "\\text{Sujet (il)} + \\mathbf{venir \\text{ (au présent)}} + \\mathbf{de} + \\text{Infinitif} \\quad (\\text{Le directeur } \\mathbf{vient} \\text{ d'entrer})",
@@ -2365,7 +2365,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dua sahabat membandingkan kualitas laptop kerja:\n'Mon ordinateur portable est très lent, alors que ( ... ) de Thomas est extrêmement rapide et performant.'\nBentuk pronomina penunjuk (Pronom démonstratif) yang TEPAT untuk menggantikan 'l'ordinateur' (maskulin tunggal) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Mon ordinateur portable est très lent, alors que ( ... ) de Thomas est extrêmement rapide et performant.'",
     "formulaHud": {
       "title": "LES PRONOMS DÉMONSTRATIFS",
       "latex": "\\text{l'ordinateur (Masc. Sing.) de Thomas} \\quad \\rightarrow \\quad \\mathbf{celui} \\text{ de Thomas}",
@@ -2413,7 +2413,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dua mahasiswa memimpikan keliling dunia di sela-sela ujian:\n'Si nous ( ... ) assez d'économies sur notre compte bancaire, nous ( ... ) un grand voyage à travers toute l'Amérique du Sud pendant six mois.'\nPasangan bentuk kata kerja yang TEPAT untuk memenuhi kaidah pengandaian tak nyata masa kini (Irréel du présent) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Si nous ( ... ) assez d'",
     "formulaHud": {
       "title": "L'HYPOTHÈSE AVEC 'SI': IRRÉEL DU PRÉSENT",
       "latex": "\\mathbf{Si} + \\mathbf{Imparfait (avions)}, \\quad \\mathbf{Conditionnel \\text{ } Présent (ferions)}",
@@ -2461,7 +2461,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi tegas direktur operasional kepada seluruh tim teknis:\n'Pour respecter les délais de livraison imposés par le client, il faut absolument que vous ( ... ) tous les tests de sécurité avant ce soir.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'faire' untuk subjek 'vous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pour respecter les délais de livraison imposés par le client, il faut absolument que vous ( ... ) tous les tests de sécurité avant ce soir.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF PRÉSENT: VERBE FAIRE",
       "latex": "\\text{Déclencheur: } \\mathbf{Il \\text{ } faut \\text{ } que} \\quad \\implies \\quad \\text{vous } \\mathbf{fassiez} \\quad (\\text{radical: fass-})",
@@ -2509,7 +2509,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang ibu mengungkapkan kebahagiaan atas prestasi anaknya:\n'Je suis tellement fière et heureuse que tu ( ... ) parmi les lauréats du concours national de piano.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'être' untuk persona kedua tunggal 'tu' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Je suis tellement fière et heureuse que tu ( ... ) parmi les lauréats du concours national de piano.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE ÊTRE",
       "latex": "\\text{Expression de sentiment (être heureux que)} \\quad \\implies \\quad \\text{Subjonctif: } \\mathbf{que \\text{ } tu \\text{ } sois}",
@@ -2557,7 +2557,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam ulasan sejarah arsitektur Prancis abad kesembilan belas:\n'La célèbre tour métallique de Paris ( ... ) en 1889 par l'ingénieur Gustave Eiffel à l'occasion de l'Exposition universelle.'\nPasangan kata kerja bantu dan Participe Passé pasif yang TEPAT untuk subjek feminin tunggal 'La célèbre tour' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'La célèbre tour métallique de Paris ( ... ) en 1889 par l'",
     "formulaHud": {
       "title": "LA VOIX PASSIVE AU PASSÉ COMPOSÉ",
       "latex": "\\text{Sujet (Fém. Sing.)} + \\mathbf{a \\text{ } été} + \\mathbf{conçue} + \\mathbf{par} + \\text{Agent}",
@@ -2605,7 +2605,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam artikel opini ekonomi tentang tren konsumsi masyarakat:\n'Bien que les prix de l'énergie ( ... ) considérablement ces derniers mois, la consommation globale d'électricité ne diminue pas.'\nBentuk konjugasi kata kerja 'augmenter' yang TEPAT setelah konjungsi subordinatif 'bien que' untuk subjek jamak 'les prix' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Bien que les prix de l'",
     "formulaHud": {
       "title": "CONNECTEUR CONCESSIF: BIEN QUE + SUBJONCTIF",
       "latex": "\\mathbf{Bien \\text{ } que} + \\text{Subjonctif} \\quad (\\text{les prix } \\rightarrow \\mathbf{aient \\text{ } augmenté})",
@@ -2653,7 +2653,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam laporan evaluasi seminar ilmiah kedokteran:\n'Le colloque international sur les neurosciences ( ... ) nous avons assisté la semaine dernière a apporté des éclairages novateurs.'\nBentuk pronomina relatif majemuk yang TEPAT untuk menggantikan kata benda maskulin tunggal 'le colloque' yang terikat dengan verba 'assister à' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Le colloque international sur les neurosciences ( ... ) nous avons assisté la semaine dernière a apporté des éclairages novateurs.'",
     "formulaHud": {
       "title": "PRONOMS RELATIFS COMPOSÉS AVEC LA PRÉPOSITION À",
       "latex": "\\text{le colloque (Masc. Sing.)} + \\mathbf{assister \\text{ } à} \\quad \\implies \\quad \\mathbf{à} + \\mathbf{lequel} = \\mathbf{auquel}",
@@ -2701,7 +2701,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang pelamar kerja menyesali keterlambatan pengiriman berkasnya:\n'Si j'avais envoyé mon dossier de candidature plus tôt, j'( ... ) la chance de passer l'entretien d'embauche.'\nBentuk Conditionnel Passé yang TEPAT dari verba 'avoir' untuk melengkapi kalimat pengandaian masa lampau (Irréel du passé) tersebut adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'avais envoyé mon dossier de candidature plus tôt, j'",
     "formulaHud": {
       "title": "L'HYPOTHÈSE AVEC 'SI': IRRÉEL DU PASSÉ (LE REGRET)",
       "latex": "\\mathbf{Si} + \\mathbf{Plus-que-parfait (avais envoyé)}, \\quad \\mathbf{Conditionnel \\text{ } Passé (aurais eu)}",
@@ -2749,7 +2749,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana sejarah pemikiran Prancis berikut:\n'Au dix-huitième siècle, le mouvement intellectuel et philosophique des \"Lumières\", incarné par des penseurs illustres tels que Voltaire, Montesquieu, Rousseau et Diderot, a profondément transformé la société européenne. En prônant l'usage souverain de la raison critique, la tolérance religieuse, la séparation des pouvoirs politiques et la liberté individuelle contre l'absolutisme monarchique et l'obscurantisme clérical, ils ont posé les fondements idéologiques majeurs qui ont conduit à la Révolution française de 1789.'\nBerdasarkan wacana di atas, nilai fundamental yang diperjuangkan oleh para filsuf era 'Lumières' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'usage souverain de la raison critique, la tolérance religieuse, la séparation des pouvoirs politiques et la liberté individuelle contre l'",
     "formulaHud": {
       "title": "LES LUMIÈRES ET LA RÉVOLUTION FRANÇAISE",
       "latex": "\\text{Philosophes (Voltaire, Rousseau, Montesquieu)} \\implies \\text{Raison, Tolérance, Liberté, Séparation des pouvoirs}",
@@ -2792,7 +2792,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam perdebatan mengenai prakiraan cuaca di pegunungan:\n'Le ciel est encore très couvert ce matin; je doute fort que nous ( ... ) faire cette randonnée au sommet aujourd'hui.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'pouvoir' untuk subjek 'nous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Le ciel est encore très couvert ce matin; je doute fort que nous ( ... ) faire cette randonnée au sommet aujourd'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE POUVOIR (DOUTE)",
       "latex": "\\text{Expression de doute (douter que)} \\quad \\implies \\quad \\text{Subjonctif: } \\mathbf{que \\text{ } nous \\text{ } puissions}",
@@ -2840,7 +2840,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam panduan penggunaan perangkat lunak desain grafis:\n'Voici les nouveaux outils numériques ( ... ) nos graphistes ont conçu la maquette du site internet.'\nBentuk pronomina relatif majemuk yang TEPAT setelah preposisi sarana 'avec' untuk kata benda maskulin jamak 'les outils' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Voici les nouveaux outils numériques ( ... ) nos graphistes ont conçu la maquette du site internet.'",
     "formulaHud": {
       "title": "PRONOMS RELATIFS COMPOSÉS APRÈS PRÉPOSITION",
       "latex": "\\text{les outils (Masc. Plur.)} + \\mathbf{avec} \\quad \\implies \\quad \\mathbf{avec \\text{ } lesquels}",
@@ -2888,7 +2888,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Sebelum keberangkatan rombongan ekspedisi ke kutub utara:\n'Le guide exige que chaque participant ( ... ) un équipement thermique parfaitement adapté aux températures négatives.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'avoir' untuk persona ketiga tunggal 'chaque participant' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Le guide exige que chaque participant ( ... ) un équipement thermique parfaitement adapté aux températures négatives.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE AVOIR",
       "latex": "\\text{Subjonctif avoir: } \\text{que j'aie, que tu aies, } \\mathbf{qu'il \\text{ } ait}, \\text{ que nous ayons, que vous ayez, qu'ils aient}",
@@ -2936,7 +2936,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kebahasaan global berikut:\n'L'Organisation internationale de la Francophonie (OIF) regroupe des dizaines d'États à travers les cinq continents. Au-delà de l'Europe (France, Belgique, Suisse, Luxembourg), le français occupe une place prépondérante sur le continent africain, où il constitue la langue d'enseignement et d'administration dans de nombreux pays de l'Afrique subsaharienne et du Maghreb. En Amérique du Nord, la province canadienne du Québec préserve farouchement son identité linguistique francophone par des lois de protection rigoureuses.'\nBerdasarkan wacana di atas, salah satu bukti nyata vitalitas global bahasa Prancis di luar benua Eropa adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Organisation internationale de la Francophonie (OIF) regroupe des dizaines d'",
     "formulaHud": {
       "title": "LA FRANCOPHONIE DANS LE MONDE",
       "latex": "\\text{Francophonie globale} = \\text{Afrique (Enseignement/Admin)} + \\text{Québec (Nord-Amérique)} + \\text{Europe}",
@@ -2979,7 +2979,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam warta berita kilat harian tentang peristiwa bencana alam:\n'D'après les premières dépêches d'agences de presse, le séisme ( ... ) plusieurs blessés graves dans le sud de l'île.'\nBentuk kata kerja yang TEPAT dalam laras bahasa jurnalistik Prancis untuk menyatakan peristiwa yang belum diverifikasi secara resmi (information non confirmée) adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'après les premières dépêches d'",
     "formulaHud": {
       "title": "CONDITIONNEL JOURNALISTIQUE (INFORMATION INCERTAINE)",
       "latex": "\\text{D'après les sources... } + \\mathbf{Conditionnel \\text{ (aurait fait)}} = \\text{diduga telah memakan korban}",
@@ -3027,7 +3027,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dokter spesialis kesehatan kerja memberikan rekomendasi tegas:\n'Il est primordial que mon collègue et moi ( ... ) consulter un ergothérapeute pour nos douleurs dorsales récurrentes.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'aller' untuk subjek 'mon collègue et moi' (nous) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Il est primordial que mon collègue et moi ( ... ) consulter un ergothérapeute pour nos douleurs dorsales récurrentes.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE ALLER (ALTERNANCE DE RADICAL)",
       "latex": "\\text{que j'aille, que tu ailles, qu'il aille, } \\mathbf{que \\text{ } nous \\text{ } allions}, \\text{ que vous alliez, qu'ils aillent}",
@@ -3075,7 +3075,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam pengumuman resmi pembatalan jadwal penerbangan:\n'( ... ) d'importantes turbulences atmosphériques sur la trajectoire de vol, le commandant de bord a pris la décision de faire demi-tour.'\nBentuk Participe Présent dari kata kerja 'craindre' yang TEPAT untuk mengawali kalimat sebab tersebut adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'importantes turbulences atmosphériques sur la trajectoire de vol, le commandant de bord a pris la décision de faire demi-tour.'",
     "formulaHud": {
       "title": "LE PARTICIPE PRÉSENT CAUSAL",
       "latex": "\\text{Craignant la tempête... } \\iff \\text{Comme il craignait la tempête, le commandant...}",
@@ -3123,7 +3123,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang insinyur perangkat lunak mendokumentasikan kode program:\n'L'architecte système a rédigé un guide technique très détaillé afin que les nouveaux développeurs ( ... ) comprendre immédiatement l'architecture du projet.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'pouvoir' untuk subjek jamak 'les nouveaux développeurs' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'architecte système a rédigé un guide technique très détaillé afin que les nouveaux développeurs ( ... ) comprendre immédiatement l'",
     "formulaHud": {
       "title": "EXPRESSION DU BUT: AFIN QUE + SUBJONCTIF",
       "latex": "\\mathbf{afin \\text{ } que / pour \\text{ } que} + \\text{Subjonctif (sujets différents)}",
@@ -3171,7 +3171,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi kepala sekolah menjelang simulasi evakuasi kebakaran:\n'Il est indispensable que chaque élève ( ... ) exactement quelle issue de secours emprunter en cas d'urgence.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'savoir' untuk persona ketiga tunggal 'chaque élève' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Il est indispensable que chaque élève ( ... ) exactement quelle issue de secours emprunter en cas d'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE SAVOIR",
       "latex": "\\text{Radical irrégulier: } \\mathbf{sach-} \\quad \\rightarrow \\quad \\text{qu'il/elle } \\mathbf{sache}",
@@ -3219,7 +3219,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kebudayaan Prancis berikut:\n'En 2010, l'UNESCO a inscrit \"le repas gastronomique des Français\" sur la liste représentative du patrimoine culturel immatériel de l'humanité. Cette reconnaissance internationale ne célèbre pas seulement l'excellence de recettes raffinées, mais avant tout une pratique sociale coutumière destinée à célébrer les moments les plus importants de la vie. Ce rituel communautaire accorde une place primordiale à la convivialité, au partage, au choix minutieux d'ingrédients de terroir et au respect d'un schéma strict: apéritif, entrée, plat de résistance avec poisson ou viande, fromage, dessert et digestif, le tout harmonieusement accordé avec des vins spécifiques.'\nBerdasarkan teks di atas, esensi utama pengakuan UNESCO terhadap santap gastronomi Prancis adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'En 2010, l'",
     "formulaHud": {
       "title": "LE REPAS GASTRONOMIQUE (PATRIMOINE UNESCO 2010)",
       "latex": "\\text{Patrimoine immatériel} = \\text{Pratique sociale} + \\text{Convivialité} + \\text{Structure des plats} + \\text{Accord mets-vins}",
@@ -3263,7 +3263,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam kisah persahabatan dua penulis terkenal:\n'Pendant plus de vingt ans, ces deux écrivains se sont ( ... ) des lettres d'admiration mutuelle chaque semaine.'\nBentuk Participe Passé dari kata kerja 's'écrire' yang TEPAT untuk kalimat tersebut adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pendant plus de vingt ans, ces deux écrivains se sont ( ... ) des lettres d'",
     "formulaHud": {
       "title": "ACCORD DU PARTICIPE PASSÉ DES VERBES PRONOMINAUX",
       "latex": "\\text{écrire } \\mathbf{à \\text{ } quelqu'un} \\implies \\text{'se' est } \\mathbf{COI} \\quad \\implies \\quad \\mathbf{PAS \\text{ } D'ACCORD} \\quad (\\text{se sont } \\mathbf{écrit})",
@@ -3311,7 +3311,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam laporan penyelidikan kasus pencurian karya seni di museum:\n'Quand la police est arrivée sur les lieux du crime, les cambrioleurs ( ... ) déjà toutes les issues de secours du bâtiment.'\nBentuk kata kerja bantu dan Participe Passé pada kala Plus-que-parfait yang TEPAT dari kata kerja 'bloquer' untuk subjek jamak 'les cambrioleurs' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Quand la police est arrivée sur les lieux du crime, les cambrioleurs ( ... ) déjà toutes les issues de secours du bâtiment.'",
     "formulaHud": {
       "title": "LE PLUS-QUE-PARFAIT: L'ANTÉRIORITÉ DANS LE PASSÉ",
       "latex": "\\mathbf{Plus-que-parfait (avaient bloqué)} \\quad \\rightarrow \\quad \\mathbf{Passé \\text{ } Composé (est arrivée)}",
@@ -3359,7 +3359,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam perdebatan politik mengenai efektivitas undang-undang baru:\n'Le député de l'opposition affirme: \"Je ne pense absolument pas que cette réforme fiscale ( ... ) une solution équitable pour la classe moyenne.\"' \nBentuk konjugasi kata kerja 'être' yang TEPAT setelah verba opini bentuk negatif 'ne pas penser que' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Le député de l'",
     "formulaHud": {
       "title": "VERBES D'OPINION: AFFIRMATIF (INDICATIF) VS NÉGATIF (SUBJONCTIF)",
       "latex": "\\text{Je pense qu'elle } \\mathbf{est} \\text{ (Indicatif)} \\quad \\leftrightarrow \\quad \\text{Je ne pense pas qu'elle } \\mathbf{soit} \\text{ (Subjonctif)}",
@@ -3407,7 +3407,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks konstitusi kewarganegaraan Prancis berikut:\n'La laïcité est un principe constitutionnel fondamental de la République française, consacré notamment par la loi historique de 1905 sur la séparation des Églises et de l'État. Elle garantit à la fois la liberté absolue de conscience (liberté de croire ou de ne pas croire) et la stricte neutralité religieuse de l'État et de ses services publics. Dans l'espace scolaire public, ce principe protège les élèves de tout prosélytisme afin de préserver l'égalité et l'émancipation citoyenne.'\nBerdasarkan teks di atas, definisi paling komprehensif dari prinsip 'laïcité' di Prancis adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'La laïcité est un principe constitutionnel fondamental de la République française, consacré notamment par la loi historique de 1905 sur la séparation des Églises et de l'",
     "formulaHud": {
       "title": "LE PRINCIPE DE LAÏCITÉ (LOI DE 1905)",
       "latex": "\\text{Laïcité} = \\text{Neutralité de l'État} + \\text{Liberté de conscience} + \\text{Égalité de tous les citoyens}",
@@ -3493,7 +3493,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi tegas pelatih kepala sebelum laga final kejuaraan:\n'Pour remporter ce match décisif, il est primordial que nous ( ... ) la victoire avec plus de détermination que nos adversaires.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'vouloir' untuk subjek 'nous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Pour remporter ce match décisif, il est primordial que nous ( ... ) la victoire avec plus de détermination que nos adversaires.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE VOULOIR",
       "latex": "\\text{que je veuille, que tu veuilles, qu'il veuille, } \\mathbf{que \\text{ } nous \\text{ } voulions}, \\text{ que vous vouliez, qu'ils veuillent}",
@@ -3541,7 +3541,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam catatan perjalanan ekspedisi ilmiah di samudra:\n'( ... ) toutes les vérifications techniques sur les instruments de mesure, l'équipe océanographique a levé l'ancre au crépuscule.'\nBentuk klausa partisipial majemuk yang TEPAT untuk menyatakan tindakan yang telah diselesaikan secara tuntas sebelum keberangkatan kapal adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'( ... ) toutes les vérifications techniques sur les instruments de mesure, l'",
     "formulaHud": {
       "title": "LE PARTICIPE PASSÉ COMPOSÉ (FORME COMPOSÉE)",
       "latex": "\\mathbf{Ayant \\text{ } terminé} \\dots \\iff \\text{Après avoir terminé toutes les vérifications, l'équipe...}",
@@ -3589,7 +3589,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kebijakan transportasi perkotaan berikut:\n'Face à l'urgence climatique et à la dégradation de la qualité de l'air métropolitain, la ville de Paris a mis en œuvre le plan «Vélo 2021–2026». Ce projet ambitieux consacre plus de 250 millions d'euros à la création de pistes cyclables sécurisées et continues, connectant le centre-ville aux banlieues périphériques. En réduisant drastiquement l'espace alloué à l'automobile individuelle au profit des mobilités douces et des transports collectifs, la municipalité vise non seulement une diminution substantielle des émissions de gaz à effet de serre, mais aussi une amélioration directe de la santé publique des résidents par la pratique d'une activité physique quotidienne.'\nBerdasarkan wacana di atas, sasaran strategis ganda dari rencana 'Vélo 2021–2026' di Paris adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'urgence climatique et à la dégradation de la qualité de l'",
     "formulaHud": {
       "title": "LES MOBILITÉS DOUCES ET L'URBANISME DURABLE",
       "latex": "\\text{Plan Vélo} \\implies \\text{Pistes cyclables sécurisées} \\rightarrow \\mathbf{\\Delta \\text{Émissions } CO_2 \\downarrow} + \\mathbf{\\Delta \\text{Santé publique } \\uparrow}",
@@ -3632,7 +3632,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam ulasan kuratorial pameran busana haute couture di Paris:\n'Les magnifiques créations de haute couture que la modéliste talentueuse a ( ... ) lors du défilé ont émerveillé le public international.'\nBentuk Participe Passé dari kata kerja 'présenter' yang TEPAT untuk menyelaraskan dengan anteseden 'les créations' (feminin jamak) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Les magnifiques créations de haute couture que la modéliste talentueuse a ( ... ) lors du défilé ont émerveillé le public international.'",
     "formulaHud": {
       "title": "ACCORD AVEC LE PRONOM RELATIF 'QUE' (COD ANTÉCÉDENT)",
       "latex": "\\text{Antécédent: } \\mathbf{les \\text{ } créations} \\text{ (Fém. Plur.)} + \\mathbf{que} + \\text{a } \\mathbf{présentées}",
@@ -3680,7 +3680,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pesan resmi walikota kepada warga pada perayaan tahun baru:\n'La municipalité souhaite de tout cœur que chaque famille ( ... ) profiter des nouvelles installations sportives du quartier.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'pouvoir' untuk persona ketiga tunggal 'chaque famille' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'La municipalité souhaite de tout cœur que chaque famille ( ... ) profiter des nouvelles installations sportives du quartier.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DE SOUHAIT: POUVOIR",
       "latex": "\\text{souhaiter que (volonté/souhait)} \\quad \\implies \\quad \\text{qu'elle } \\mathbf{puisse} \\quad (\\text{radical: puiss-})",
@@ -3728,7 +3728,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana sosial kenegaraan Prancis berikut:\n'Créée en 1945 au lendemain de la Seconde Guerre mondiale, la Sécurité sociale française repose sur un principe fondateur de solidarité nationale: «chacun cotise selon ses moyens et reçoit selon ses besoins». Grâce à ce mécanisme universel, financé par les cotisations patronales et salariales ainsi que par l'impôt, tout résident sur le territoire national bénéficie d'une couverture médicale de base. Matérialisée par la «Carte Vitale», cette prise en charge garantit l'accès aux soins hospitaliers, aux consultations médicales et aux médicaments essentiels, prévenant ainsi l'exclusion sanitaire des populations les plus vulnérables.'\nBerdasarkan wacana di atas, pilar etika utama yang mendasari sistem 'Sécurité sociale' di Prancis adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'impôt, tout résident sur le territoire national bénéficie d'",
     "formulaHud": {
       "title": "LE MODÈLE SOCIAL FRANÇAIS: LA SÉCURITÉ SOCIALE",
       "latex": "\\text{Solidarité nationale: } \\mathbf{Cotiser \\text{ } selon \\text{ } ses \\text{ } moyens} \\quad \\iff \\quad \\mathbf{Recevoir \\text{ } selon \\text{ } ses \\text{ } besoins}",
@@ -3771,7 +3771,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam diskusi tentang perencanaan karier internasional:\n'Si Thomas ( ... ) couramment trois langues vivantes, les recruteurs lui ( ... ) immédiatement ce poste de responsable commercial pour l'Europe du Nord.'\nPasangan bentuk konjugasi kata kerja yang TEPAT untuk pengandaian kontrafaktual saat ini adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Si Thomas ( ... ) couramment trois langues vivantes, les recruteurs lui ( ... ) immédiatement ce poste de responsable commercial pour l'",
     "formulaHud": {
       "title": "L'IRRÉEL DU PRÉSENT: SI + IMPARFAIT",
       "latex": "\\mathbf{Si} + \\text{Thomas } \\mathbf{parlait} \\text{ (Imparfait)}, \\quad \\text{les recruteurs } \\mathbf{offriraient} \\text{ (Conditionnel)}",
@@ -3819,7 +3819,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang fotografer meminta kembali berkas foto aslinya:\n'As-tu retrouvé les photos argentiques de notre voyage à Lyon? — Oui, je ( ... ) envoie par courrier postal dès demain matin.'\nKombinasi dua pronomina komplemen (COI orang pertama tunggal 'à toi' dan COD benda jamak 'les photos') yang TEPAT di depan kata kerja adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n' dan COD benda jamak '",
     "formulaHud": {
       "title": "L'ORDRE DES PRONOMS: 1RE/2E PERSONNE DEVANT 3E PERSONNE",
       "latex": "\\mathbf{me / te / se / nous / vous} \\quad \\rightarrow \\quad \\mathbf{le / la / les} \\quad \\rightarrow \\quad \\text{lui / leur} \\quad \\rightarrow \\quad \\text{y} \\quad \\rightarrow \\quad \\text{en}",
@@ -3867,7 +3867,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam evaluasi kinerja atlet maraton:\n'Bien que les coureurs ( ... ) une fatigue musculaire intense après quarante kilomètres d'effort, ils ont réussi à franchir la ligne d'arrivée.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'avoir' untuk subjek jamak 'les coureurs' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Bien que les coureurs ( ... ) une fatigue musculaire intense après quarante kilomètres d'",
     "formulaHud": {
       "title": "BIEN QUE + SUBJONCTIF (VERBE AVOIR)",
       "latex": "\\mathbf{Bien \\text{ } que} + \\text{Subjonctif: } \\text{les coureurs (ils) } \\implies \\mathbf{aient}",
@@ -3915,7 +3915,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah ulasan sastra Prancis berikut:\n'Publié en 1862, le monument romanesque de Victor Hugo, «Les Misérables», dépasse largement le simple cadre de la fiction pour s'ériger en un vibrant plaidoyer social et humaniste. À travers l'itinéraire rédempteur de Jean Valjean et le calvaire de Fantine, Hugo dissèque avec une acuité poignante les ravages de la misère, l'injustice d'une législation aveugle et la cruauté des préjugés bourgeois. Selon l'auteur, l'élévation morale, l'éducation universelle et la compassion rédemptrice constituent les seuls véritables remèdes capables de dissiper les ténèbres de l'ignorance et de réhabiliter la dignité inaliénable de l'être humain.'\nBerdasarkan wacana di atas, pesan etis sentral yang disampaikan Victor Hugo melalui karyanya adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'ériger en un vibrant plaidoyer social et humaniste. À travers l'",
     "formulaHud": {
       "title": "L'ENGAGEMENT HUMANISTE DE VICTOR HUGO",
       "latex": "\\text{Les Misérables (1862)} \\implies \\text{Plaidoyer social: } \\mathbf{Éducation \\text{ } universelle} + \\mathbf{Compassion} + \\mathbf{Dignité \\text{ } humaine}",
@@ -3958,7 +3958,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang rektor universitas memberikan sambutan wisuda:\n'Voici les jeunes chercheurs prometteurs ( ... ) notre établissement académique est immensément fier pour leurs découvertes scientifiques majeures.'\nPronomina relatif yang TEPAT untuk menggantikan komplemen yang terikat dengan ekspresi 'être fier de quelqu'un' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Voici les jeunes chercheurs prometteurs ( ... ) notre établissement académique est immensément fier pour leurs découvertes scientifiques majeures.'",
     "formulaHud": {
       "title": "LE PRONOM RELATIF DONT AVEC 'ÊTRE FIER DE'",
       "latex": "\\text{être fier } \\mathbf{de} \\text{ ces chercheurs} \\quad \\implies \\quad \\text{les chercheurs } \\mathbf{dont} \\text{ notre établissement est fier}",
@@ -4006,7 +4006,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi dari otoritas kesehatan masyarakat saat gelombang panas musim panas:\n'En période de canicule extrême, il est impératif que les personnes âgées ( ... ) d'abondantes boissons fraîches tout au long de la journée.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'prendre' untuk subjek jamak 'les personnes âgées' (elles) adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'En période de canicule extrême, il est impératif que les personnes âgées ( ... ) d'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE PRENDRE (ILS/ELLES)",
       "latex": "\\text{il est impératif que} \\quad \\implies \\quad \\text{Subjonctif: } \\text{qu'elles } \\mathbf{prennent}",
@@ -4054,7 +4054,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam biografi seorang guru teladan di sekolah kejuruan:\n'Grâce à son dévouement exceptionnel et à sa patience inépuisable, ce professeur dévoué est aimé et respecté ( ... ) tous ses élèves.'\nPreposisi pelaku pasif yang PALING TEPAT dan elegan secara gramatika sastra setelah verba perasaan 'aimé et respecté' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Grâce à son dévouement exceptionnel et à sa patience inépuisable, ce professeur dévoué est aimé et respecté ( ... ) tous ses élèves.'",
     "formulaHud": {
       "title": "VOIX PASSIVE: 'DE' OU 'PAR' POUR L'AGENT?",
       "latex": "\\text{Verbes de sentiment (aimer, respecter, admirer)} + \\text{Passif} \\quad \\implies \\quad \\mathbf{de} + \\text{Agent}",
@@ -4102,7 +4102,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang ilmuwan mengomentari keberhasilan pendaratan wahana antariksa:\n'Si nos ingénieurs ( ... ) une infime erreur de calcul de trajectoire, la sonde spatiale ( ... ) sur la surface lunaire sans pouvoir freiner.'\nPasangan bentuk kata kerja yang TEPAT untuk memenuhi kaidah pengandaian kontrafaktual masa lalu adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Si nos ingénieurs ( ... ) une infime erreur de calcul de trajectoire, la sonde spatiale ( ... ) sur la surface lunaire sans pouvoir freiner.'",
     "formulaHud": {
       "title": "L'IRRÉEL DU PASSÉ: CONDITIONNEL PASSÉ",
       "latex": "\\mathbf{Si} + \\text{avaient commis (PQP)}, \\quad \\text{la sonde (Fém.) } \\mathbf{se \\text{ } serait \\text{ } écrasée} \\text{ (Cond. Passé)}",
@@ -4193,7 +4193,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang ibu merasa lega setelah menerima kabar kepulangan putranya dari luar negeri:\n'Je suis tellement soulagée que mon fils ( ... ) sain et sauf de son voyage en haute montagne.'\nBentuk konjugasi Subjonctif Passé dari kata kerja gerak 'revenir' untuk subjek tunggal 'mon fils' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Je suis tellement soulagée que mon fils ( ... ) sain et sauf de son voyage en haute montagne.'",
     "formulaHud": {
       "title": "LE SUBJONCTIF PASSÉ AVEC ÊTRE",
       "latex": "\\text{Expression de soulagement (être soulagé que)} \\implies \\text{Subjonctif Passé: } \\text{qu'il } \\mathbf{soit \\text{ } revenu}",
@@ -4241,7 +4241,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kebijakan energi nasional Prancis berikut:\n'La France présente une spécificité énergétique unique en Europe: près de 70 % de son électricité est d'origine nucléaire, ce qui lui confère un niveau d'émissions de carbone par habitant parmi les plus bas des pays industrialisés. Néanmoins, face au vieillissement prévisible du parc de réacteurs et aux impératifs d'indépendance stratégique, l'État français engage une double trajectoire ambitieuse: d'une part, la prolongation sous haute sécurité des centrales existantes et la construction de réacteurs de nouvelle génération (EPR), et d'autre part, l'accélération massive des investissements dans l'éolien maritime et le solaire photovoltaïque afin de diversifier durablement le mix énergétique national.'\nBerdasarkan wacana di atas, pendekatan strategis Prancis dalam mengamankan masa depan pasokan energinya adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'origine nucléaire, ce qui lui confère un niveau d'",
     "formulaHud": {
       "title": "LE MIX ÉNERGÉTIQUE FRANÇAIS",
       "latex": "\\text{Mix énergétique} = \\text{Nucléaire décarboné (EPR)} + \\text{Énergies renouvelables (Éolien / Solaire)}",
@@ -4285,7 +4285,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam rapat dewan direksi mengenai pemilihan kandidat kepala perwakilan baru:\n'Après un examen minutieux des vingt dossiers reçus, ( ... ) des candidats ( ... ) possède l'expérience internationale requise pour ce poste stratégique.'\nPasangan struktur negasi pronominal yang TEPAT adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Après un examen minutieux des vingt dossiers reçus, ( ... ) des candidats ( ... ) possède l'",
     "formulaHud": {
       "title": "LA NÉGATION AVEC AUCUN (SUJET)",
       "latex": "\\mathbf{Aucun} + \\text{de } \\dots + \\mathbf{ne} + \\text{Verbe} \\quad (\\text{SANS 'pas'!})",
@@ -4333,7 +4333,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang anggota parlemen menyatakan ketidakyakinannya atas klaim statistik kementerian:\n'Bien que les rapports officiels soient optimistes, nous ne croyons pas que nous ( ... ) éradiquer complètement la précarité urbaine d'ici deux ans.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'pouvoir' untuk subjek 'nous' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Bien que les rapports officiels soient optimistes, nous ne croyons pas que nous ( ... ) éradiquer complètement la précarité urbaine d'",
     "formulaHud": {
       "title": "NE PAS CROIRE QUE + SUBJONCTIF",
       "latex": "\\text{ne pas croire que (incertitude)} \\quad \\implies \\quad \\text{Subjonctif: } \\text{que nous } \\mathbf{puissions}",
@@ -4381,7 +4381,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan mengenai ketersediaan tiket konser musik klasik:\n'Reste-t-il encore des places disponibles pour la représentation d'opéra de ce soir à Garnier? — Oui, il ( ... ) reste encore une dizaine au balcon.'\nBentuk susunan pronomina tempat dan kuantitas yang TEPAT dalam konstruksi impersonal 'il reste' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Reste-t-il encore des places disponibles pour la représentation d'",
     "formulaHud": {
       "title": "L'ORDRE DES PRONOMS: Y DEVANT EN",
       "latex": "\\text{Structure: } \\mathbf{y} + \\mathbf{en} \\quad (\\text{ex: Il } \\mathbf{y \\text{ } en} \\text{ a / Il } \\mathbf{y \\text{ } en} \\text{ reste})",
@@ -4429,7 +4429,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam studi perbandingan demografi perkotaan:\n'Tandis que la population des zones rurales ( ... ) progressivement en raison du vieillissement, les grandes métropoles régionales continuent d'attirer de jeunes actifs.'\nBentuk konjugasi kata kerja 'diminuer' pada kala Présent de l'indicatif yang TEPAT setelah konjungsi oposisi kontras 'tandis que' untuk subjek tunggal 'la population' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Tandis que la population des zones rurales ( ... ) progressivement en raison du vieillissement, les grandes métropoles régionales continuent d'",
     "formulaHud": {
       "title": "EXPRESSION DE L'OPPOSITION: TANDIS QUE + INDICATIF",
       "latex": "\\mathbf{Tandis \\text{ } que / Alors \\text{ } que} + \\mathbf{Indicatif} \\quad (\\text{opposition / contraste de faits réels})",
@@ -4477,7 +4477,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Saran dari seorang penasihat hukum keluarga:\n'Avant de signer un engagement contractuel d'une telle importance, il vaut beaucoup mieux que vous ( ... ) un avocat spécialisé.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'consulter' untuk subjek 'vous' adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Avant de signer un engagement contractuel d'",
     "formulaHud": {
       "title": "IL VAUT MIEUX QUE + SUBJONCTIF",
       "latex": "\\text{Expression de conseil préférentiel: } \\mathbf{Il \\text{ } vaut \\text{ } mieux \\text{ } que} \\implies \\mathbf{Subjonctif (consultiez)}",
@@ -4525,7 +4525,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam laporan arsitektur restorasi monumen bersejarah:\n'Les pierres de taille calcaires que l'architecte en chef a ( ... ) tailler par les artisans compagnons proviennent des carrières de Bourgogne.'\nBentuk Participe Passé dari kata kerja 'faire' yang TEPAT dalam konstruksi faktitif (faire + infinitif) adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Les pierres de taille calcaires que l'",
     "formulaHud": {
       "title": "RÈGLE D'INVARIABILITÉ: FAIT + INFINITIF",
       "latex": "\\mathbf{faire} + \\text{Infinitif} \\quad \\implies \\quad \\mathbf{FAIT \\text{ est TOUJOURS INVARIABLE}} \\quad (\\text{a } \\mathbf{fait} \\text{ tailler})",
@@ -4573,7 +4573,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks analisis teknologi dan hukum Eropa berikut:\n'Adopté par les institutions européennes, l'«IA Act» constitue la première législation contraignante au monde destinée à encadrer le développement et le déploiement de l'intelligence artificielle. Fondé sur une approche graduée par les risques, ce texte interdit formellement les systèmes jugés inacceptables pour les droits fondamentaux, tels que la notation sociale généralisée ou la manipulation cognitive subliminale. Pour les applications à \"haut risque\" (santé, éducation, infrastructures critiques), les concepteurs doivent garantir une transparence rigoureuse des algorithmes, une supervision humaine effective et l'absence de biais discriminatoires dans les données d'entraînement.'\nBerdasarkan wacana di atas, filosofi utama pendekatan regulasi 'IA Act' Uni Eropa adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Adopté par les institutions européennes, l'",
     "formulaHud": {
       "title": "LA RÉGULATION DE L'IA EN EUROPE (IA ACT)",
       "latex": "\\text{Approche par les risques} \\implies \\text{Interdiction des risques inacceptables} + \\text{Supervision humaine obligatoire}",
@@ -4616,7 +4616,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam wacana pelestarian satwa langka yang terancam punah:\n'Les écologistes se mobilisent sans relâche de peur que cette espèce emblématique de tortue marine ne ( ... ) dans l'indifférence générale.'\nBentuk konjugasi Subjonctif Présent dari kata kerja 'mourir' untuk persona ketiga tunggal 'cette espèce' adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Les écologistes se mobilisent sans relâche de peur que cette espèce emblématique de tortue marine ne ( ... ) dans l'",
     "formulaHud": {
       "title": "LE SUBJONCTIF DU VERBE MOURIR",
       "latex": "\\text{de peur que + 'ne' explétif} \\implies \\text{Subjonctif: } \\text{qu'elle } \\mathbf{meure} \\quad (\\text{radical: meur-})",
@@ -4664,7 +4664,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam narasi sastra modern:\n'Fatiguée par son long voyage en train, la fillette s'est ( ... ) endormir sur les genoux de sa mère.'\nBentuk Participe Passé dari kata kerja 'se laisser' yang TEPAT sesuai rekomendasi ejaan modern Akademi Prancis (rectifications orthographiques) adalah...",
+    "questionHtml": "Lisez le texte suivant et choisissez la bonne réponse :\n'Fatiguée par son long voyage en train, la fillette s'",
     "formulaHud": {
       "title": "INVARIABILITÉ DE 'LAISSER + INFINITIF'",
       "latex": "\\mathbf{se \\text{ } laisser} + \\text{Infinitif} \\quad \\implies \\quad \\mathbf{laissé \\text{ est invariable}} \\quad (\\text{s'est } \\mathbf{laissé} \\text{ endormir})",
@@ -4712,7 +4712,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam iklan lowongan pekerjaan manajerial:\n'Notre entreprise internationale recherche urgemment un traducteur bilingue français-indonésien qui ( ... ) rédiger des contrats juridiques complexes sans aucune assistance.'\nBentuk konjugasi kata kerja 'pouvoir' yang TEPAT dalam klausa relatif yang mendeskripsikan profil sosok yang dicari dan belum dipastikan keberadaannya adalah...",
+    "questionHtml": "Choisissez la bonne réponse pour compléter la phrase :\n'Notre entreprise internationale recherche urgemment un traducteur bilingue français-indonésien qui ( ... ) rédiger des contrats juridiques complexes sans aucune assistance.'",
     "formulaHud": {
       "title": "SUBJONCTIF DANS LA RELATIVE (OBJET RECHERCHÉ)",
       "latex": "\\text{Verbe de recherche (chercher, vouloir)} + \\text{Nom indéfini} + \\mathbf{qui} \\implies \\mathbf{Subjonctif (puisse)}",
@@ -5069,7 +5069,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "subject": "bahasa_prancis",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Bacalah wacana kebijakan lingkungan hidup berikut:\n'Pour atteindre la neutralité carbone à l'horizon 2050, la France combine plusieurs leviers sectoriels: la décarbonation complète du secteur des transports par le développement des véhicules électriques et du réseau ferroviaire à grande vitesse (TGV), la rénovation thermique obligatoire des bâtiments résidentiels anciens pour éradiquer les passoires thermiques, et l'accélération du mix électrique équilibré entre énergies renouvelables et nucléaire de nouvelle génération.'\nTentukan kebenaran masing-masing pernyataan berikut berdasarkan wacana di atas (Benar atau Salah):",
+    "questionHtml": "Indiquez si chaque affirmation est VRAIE ou FAUSSE :",
     "formulaHud": {
       "title": "LA NEUTRALITÉ CARBONE EN FRANCE (HORIZON 2050)",
       "latex": "\\text{Neutralité 2050} = \\text{Transports décarbonés (TGV/Électrique)} + \\text{Rénovation thermique} + \\text{Mix Renouvelable/Nucléaire}",
@@ -5117,7 +5117,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "subject": "bahasa_prancis",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Modus Indikatif digunakan untuk menyatakan fakta nyata dan kepastian objektif, sedangkan Subjonctif menyatakan keharusan, keraguan, perasaan batin, atau ketidakpastian. Tentukan kebenaran analisis pemilihan modus gramatikal pada masing-masing pernyataan berikut (Benar atau Salah):",
+    "questionHtml": "Indiquez si chaque affirmation est VRAIE ou FAUSSE :",
     "formulaHud": {
       "title": "DISTINCTION RIGORISTE: INDICATIF VS SUBJONCTIF",
       "latex": "\\text{Certitude / Fait réel} \\implies \\mathbf{Indicatif} \\quad | \\quad \\text{Obligation / Crainte / Volonté} \\implies \\mathbf{Subjonctif}",
@@ -5165,7 +5165,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "subject": "bahasa_prancis",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Republik Prancis memiliki model perlindungan sosial yang khas di dunia (*le modèle social français*). Tentukan kebenaran masing-masing pernyataan sosiopolitik berikut (Benar atau Salah):",
+    "questionHtml": "Indiquez si chaque affirmation est VRAIE ou FAUSSE :",
     "formulaHud": {
       "title": "LES VALEURS RÉPUBLICAINES ET LE MODÈLE SOCIAL",
       "latex": "\\text{République française: } \\mathbf{Devise (Liberté, Égalité, Fraternité)} + \\mathbf{École \\text{ } gratuite \\text{ } et \\text{ } laïque} + \\mathbf{Sécurité \\text{ } sociale}",
@@ -5213,7 +5213,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "subject": "bahasa_prancis",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Penempatan kata ganti komplemen (COD, COI, y, en) diatur oleh hukum sintaksis yang sangat ketat. Tentukan kebenaran masing-masing kaidah penempatan pronomina berikut (Benar atau Salah):",
+    "questionHtml": "Indiquez si chaque affirmation est VRAIE ou FAUSSE :",
     "formulaHud": {
       "title": "SYNTAXE DES PRONOMS: INDICATIF VS IMPÉRATIF",
       "latex": "\\text{Indicatif: } \\mathbf{Pronom} + \\mathbf{Verbe} \\quad | \\quad \\text{Impératif positif: } \\mathbf{Verbe} + \\mathbf{trait \\text{ } d'union} + \\mathbf{Pronom}",
@@ -5261,7 +5261,7 @@ window.TKA_BAHASA_PRANCIS_QUESTIONS = [
     "subject": "bahasa_prancis",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Gerakan filsafat Pencerahan abad ke-18 (*Les Lumières*) di Prancis telah meletakkan pilar-pilar peradaban modern dunia. Tentukan kebenaran masing-masing pernyataan pemikiran filosofis berikut (Benar atau Salah):",
+    "questionHtml": "Indiquez si chaque affirmation est VRAIE ou FAUSSE :",
     "formulaHud": {
       "title": "LES GRANDS APPORTS DES LUMIÈRES",
       "latex": "\\text{Montesquieu: Séparation des pouvoirs} \\quad | \\quad \\text{Diderot: L'Encyclopédie} \\quad | \\quad \\text{Rousseau: Souveraineté du peuple}",

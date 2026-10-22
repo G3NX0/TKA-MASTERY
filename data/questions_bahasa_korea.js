@@ -13,7 +13,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam sesi perkenalan diri di depan kelas bahasa Korea:\n'안녕하세요? 저( ... ) 인도네시아에서 온 바유입니다. 제 친구( ... ) 한국 사람입니다.'\nPasangan partikel penanda topik (은/는) yang TEPAT untuk melengkapi subjek '저' (akhiran vokal) dan '제 친구' (akhiran vokal) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'안녕하세요? 저( ... ) 인도네시아에서 온 바유입니다. 제 친구( ... ) 한국 사람입니다.'",
     "formulaHud": {
       "title": "PARTIKEL TOPIK: 은/는 (TOPIC MARKER)",
       "latex": "\\text{Konsonan (Batchim)} + \\mathbf{은} \\quad \\leftrightarrow \\quad \\text{Vokal (Tanpa Batchim)} + \\mathbf{는}",
@@ -61,7 +61,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang siswa menceritakan aktivitas belajarnya di perpustakaan:\n'저는 도서관에서 한국어 책( ... ) 읽고, 음악( ... ) 듣습니다.'\nPasangan partikel penanda objek (을/를) yang TEPAT untuk kata benda '책' (ber-batchim ㄱ) dan '음악' (ber-batchim ㄱ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'저는 도서관에서 한국어 책( ... ) 읽고, 음악( ... ) 듣습니다.'",
     "formulaHud": {
       "title": "PARTIKEL OBJEK: 을/를 (OBJECT MARKER)",
       "latex": "\\text{Kata ber-Batchim} + \\mathbf{을} \\quad \\leftrightarrow \\quad \\text{Kata tanpa Batchim} + \\mathbf{를}",
@@ -109,7 +109,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dua mahasiswa membicarakan kegiatan harian di kampus:\n'수진 씨는 지금 학생식당( ... ) 점심을 먹고 있습니다. 그리고 오후에는 도서관( ... ) 갑니다.'\nPasangan partikel tempat yang TEPAT untuk melengkapi lokasi aktivitas makan dan tujuan perpindahan pergi adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'수진 씨는 지금 학생식당( ... ) 점심을 먹고 있습니다. 그리고 오후에는 도서관( ... ) 갑니다.'",
     "formulaHud": {
       "title": "DISTINCTION: 에 (LIEU DE DESTINATION/EXISTENCE) VS 에서 (LIEU D'ACTION)",
       "latex": "\\text{Aktivitas Dinamis} + \\mathbf{에서} \\quad | \\quad \\text{Tujuan Gerak (가다/오다) / Keberadaan (있다/없다)} + \\mathbf{에}",
@@ -205,7 +205,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam pidato pembukaan acara seminar mahasiswa internasional:\n'오늘 바쁘신 중에도 참석해 주신 여러분께 진심으로 감사( ... ). 지금부터 행사를 시작( ... ).'\nBentuk akhiran formal kesopanan (-ㅂ니다/-습니다) yang TEPAT dari verba '감사하다' (akhiran vokal 하) dan '시작하다' (akhiran vokal 하) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'오늘 바쁘신 중에도 참석해 주신 여러분께 진심으로 감사( ... ). 지금부터 행사를 시작( ... ).'",
     "formulaHud": {
       "title": "KONJUGASI FORMAL RESMI: -ㅂ니다 / -습니다",
       "latex": "\\text{Akar Vokal (Tanpa Batchim)} + \\mathbf{-ㅂ니다} \\quad \\leftrightarrow \\quad \\text{Akar Konsonan (Batchim)} + \\mathbf{-습니다}",
@@ -349,7 +349,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam deskripsi menu sarapan khas Korea:\n'한국 사람들은 아침 식사로 밥( ... ) 국을 자주 먹습니다. 그리고 김치( ... ) 여러 가지 반찬도 함께 먹습니다.'\nPasangan partikel penghubung setara (와/과) yang TEPAT untuk menghubungkan '밥' (ber-batchim ㅂ) dan '김치' (berakhiran vokal ㅣ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'한국 사람들은 아침 식사로 밥( ... ) 국을 자주 먹습니다. 그리고 김치( ... ) 여러 가지 반찬도 함께 먹습니다.'",
     "formulaHud": {
       "title": "PARTIKEL KOORDINATIF: 와/과 (DAN/BERSAMA)",
       "latex": "\\text{Ada Batchim} + \\mathbf{과} \\quad \\leftrightarrow \\quad \\text{Tanpa Batchim} + \\mathbf{와}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Daftar belanjaan perlengkapan belajar dan konsumsi:\n'서점에서 한국어 책 두 ( ... )을 샀습니다. 그리고 편의점에서 시원한 생수 세 ( ... )을 샀습니다.'\nPasangan kata penggolong (classifier units) yang TEPAT untuk buku dan botol air mineral adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'서점에서 한국어 책 두 ( ... )을 샀습니다. 그리고 편의점에서 시원한 생수 세 ( ... )을 샀습니다.'",
     "formulaHud": {
       "title": "KATA PENGGOLONG BENDA (CLASSIFIERS)",
       "latex": "\\text{Buku/Majalah} \\rightarrow \\mathbf{권} \\quad | \\quad \\text{Botol} \\rightarrow \\mathbf{병} \\quad | \\quad \\text{Cangkir} \\rightarrow \\mathbf{잔} \\quad | \\quad \\text{Lembar} \\rightarrow \\mathbf{장}",
@@ -541,7 +541,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang turis menceritakan destinasi wisatanya di Korea Selatan:\n'저는 서울을 여행했습니다. 그리고 제주도( ... ) 여행했습니다. 두 곳 모두 정말 아름다웠습니다.'\nPartikel penambah yang TEPAT untuk menyatakan 'juga' (menggantikan partikel objek 를) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'저는 서울을 여행했습니다. 그리고 제주도( ... ) 여행했습니다. 두 곳 모두 정말 아름다웠습니다.'",
     "formulaHud": {
       "title": "PARTIKEL INKLUSIF: 도 (JUGA/PULA)",
       "latex": "\\text{Nomina} + \\mathbf{도} \\quad (\\text{menggantikan 은/는, 이/가, 을/를})",
@@ -781,7 +781,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Papan peringatan di dalam ruang perpustakaan umum:\n'도서관 안에서는 다른 사람들에게 방해가 되니 큰 소리로 이야기하( ... ).'\nBentuk kalimat larangan santun yang TEPAT dari verba '이야기하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'도서관 안에서는 다른 사람들에게 방해가 되니 큰 소리로 이야기하( ... ).'",
     "formulaHud": {
       "title": "LARANGAN SANTUN: VERBA + -지 마세요 (PLEASE DON'T)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-지 \\text{ } 마세요} \\quad (\\text{ 이야기하-} + \\mathbf{-지 \\text{ } 마세요})",
@@ -877,7 +877,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Aktivitas pagi hari sebelum berangkat ke sekolah:\n'저는 아침에 일찍 일어나서 세수를 하( ... ) 아침 밥을 맛있게 먹었습니다.'\nAkhiran konjungsi koordinatif sekuensial yang TEPAT untuk menyambung kata kerja '하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'저는 아침에 일찍 일어나서 세수를 하( ... ) 아침 밥을 맛있게 먹었습니다.'",
     "formulaHud": {
       "title": "KONJUNGSI KRONOLOGIS SETARA: -고 (AND / KEMUDIAN)",
       "latex": "\\text{Akar Verba 1} + \\mathbf{-고} + \\text{Klausa Verba 2} \\quad (\\text{세수를 하-} + \\mathbf{-고})",
@@ -1069,7 +1069,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bercerita tentang hewan peliharaan di rumah:\n'우리 집에는 귀여운 강아지 두 ( ... )와 고양이 한 ( ... )가 살고 있습니다.'\nKata penggolong (classifier) yang TEPAT untuk menghitung anjing dan kucing adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'우리 집에는 귀여운 강아지 두 ( ... )와 고양이 한 ( ... )가 살고 있습니다.'",
     "formulaHud": {
       "title": "PENGGOLONG HEWAN: 마RI (ANIMALS COUNTER)",
       "latex": "\\text{Hewan (강아지, 고양이, 새, 물고기)} + \\text{Bilangan Asli} + \\mathbf{마리}",
@@ -1165,7 +1165,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Permohonan maaf seorang karyawan saat tiba terlambat di kantor:\n'죄송합니다. 오늘 아침에 도로에 차가 너무 ( ... ) 회사에 늦었습니다.'\nBentuk konjugasi sebab akibat (-아/어서) yang TEPAT dari kata sifat '많다' (ber-batchim 많 dengan vokal ㅏ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'죄송합니다. 오늘 아침에 도로에 차가 너무 ( ... ) 회사에 늦었습니다.'",
     "formulaHud": {
       "title": "KONJUNGSI SEBAB AKIBAT: -아/어서 (BECAUSE / SO)",
       "latex": "\\text{Vokal } \\mathbf{ㅏ, ㅗ} + \\mathbf{-아서} \\quad | \\quad \\text{Vokal Lain} + \\mathbf{-어서} \\quad (\\text{많-} + \\mathbf{-아서} \\rightarrow \\mathbf{많아서})",
@@ -1309,7 +1309,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Bercerita dengan sopan tentang rutinitas kakek di rumah:\n'할아버지께서는 아침에 일찍 ( ... ) 진지를 맛있게 ( ... ).'\nPasangan bentuk honorifik kata kerja '일어나다' dan '먹다' yang TEPAT adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'할아버지께서는 아침에 일찍 ( ... ) 진지를 맛있게 ( ... ).'",
     "formulaHud": {
       "title": "HONORIFIK LEKSIKAL KHUSUS (SPECIAL HONORIFIC VERBS)",
       "latex": "\\text{먹다 (makan)} \\rightarrow \\mathbf{드시다 / 잡수시다} \\quad | \\quad \\text{밥 (nasi)} \\rightarrow \\mathbf{진지}",
@@ -1357,7 +1357,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang mahasiswa menyapa rekan asramanya:\n'지금 밖에는 비가 많이 ( ... ), 우산이 없으면 제 우산을 같이 쓰고 가요.'\nBentuk konjugasi latar belakang (-(으)ㄴ/는데) yang TEPAT dari kata kerja '오다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'지금 밖에는 비가 많이 ( ... ), 우산이 없으면 제 우산을 같이 쓰고 가요.'",
     "formulaHud": {
       "title": "PENGHUBUNG LATAR BELAKANG: -(으)ㄴ/는데",
       "latex": "\\text{Kata Kerja (Présent)} + \\mathbf{-는데} \\quad | \\quad \\text{Kata Sifat} + \\mathbf{-(으)ㄴ데} \\quad | \\quad \\text{Benda} + \\mathbf{-인데}",
@@ -1405,7 +1405,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Menceritakan perayaan hari ulang tahun ibu:\n'어제는 어머니( ... ) 생신이어서 제가 어머니( ... ) 예쁜 카네이션 꽃과 선물을 드렸습니다.'\nPasangan partikel honorifik subjek dan penerima yang TEPAT adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'어제는 어머니( ... ) 생신이어서 제가 어머니( ... ) 예쁜 카네이션 꽃과 선물을 드렸습니다.'",
     "formulaHud": {
       "title": "PARTIKEL HONORIFIK SUBJEK & DATIVUS (HONORIFIC PARTICLES)",
       "latex": "\\text{Subjek Dihormati} + \\mathbf{께서} \\quad | \\quad \\text{Penerima Aksi Dihormati} + \\mathbf{께} \\quad (\\text{verba bantu: } \\mathbf{드리다})",
@@ -1453,7 +1453,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kebiasaan belajar seorang siswa teladan:\n'저는 저녁마다 클래식 음악을 ( ... ) 한국어 단어를 외웁니다.'\nBentuk konjugasi tindakan simultan (-(으)면서) yang TEPAT dari kata kerja tidak beraturan '듣다' (ber-batchim ㄷ tak beraturan) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'저는 저녁마다 클래식 음악을 ( ... ) 한국어 단어를 외웁니다.'",
     "formulaHud": {
       "title": "AKHIRAN SIMULTAN & IRREGULAR ㄷ: -(으)면서",
       "latex": "\\text{듣다 (ㄷ Irregular)} + \\mathbf{-(으)면서} \\quad \\implies \\quad \\mathbf{들으면서} \\quad (ㄷ \\rightarrow ㄹ)",
@@ -1501,7 +1501,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Rencana setelah lulus sekolah menengah atas:\n'저는 고등학교를 졸업한 후에 한국 대학교에서 컴퓨터공학을 ( ... ). 그래서 요즘 한국어를 열심히 공부하고 있습니다.'\nBentuk pengungkapan rencana (-(으)려고 하다) yang TEPAT dari verba '전공하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'저는 고등학교를 졸업한 후에 한국 대학교에서 컴퓨터공학을 ( ... ). 그래서 요즘 한국어를 열심히 공부하고 있습니다.'",
     "formulaHud": {
       "title": "RENCANA / INTENSI: -(으)려고 하다 (INTEND TO)",
       "latex": "\\text{Akar Vokal / ㄹ} + \\mathbf{-려고 \\text{ } 하다} \\quad \\leftrightarrow \\quad \\text{Akar Konsonan (selain ㄹ)} + \\mathbf{-으려고 \\text{ } 하다}",
@@ -1645,7 +1645,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Tata tertib pengunjung di museum seni nasional:\n'이곳에서는 사진을 ( ... ). 하지만 전시된 작품을 손으로 ( ... ).'\nPasangan bentuk izin kebolehan (-아/어도 되다) dan larangan (-(으)면 안 되다) yang TEPAT adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'이곳에서는 사진을 ( ... ). 하지만 전시된 작품을 손으로 ( ... ).'",
     "formulaHud": {
       "title": "IZIN (-아/어도 되다) VS LARANGAN (-(으)면 안 되다)",
       "latex": "\\mathbf{-아/어도 \\text{ } 되다} \\text{ (Boleh/Diizinkan)} \\quad \\leftrightarrow \\quad \\mathbf{-(으)면 \\text{ } 안 \\text{ } 되다} \\text{ (Tidak Boleh/Dilarang)}",
@@ -1837,7 +1837,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Keluarga membicarakan masakan lezat dan kesembuhan nenek:\n'할머니께서 우리를 위해 맛있는 불고기를 손수 ( ... ). 그리고 감기가 다 ( ... ) 정말 다행입니다.'\nPasangan bentuk honorifik yang TEPAT dari verba '만들다' (batchim ㄹ) dan '낫다' (batchim ㅅ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'할머니께서 우리를 위해 맛있는 불고기를 손수 ( ... ). 그리고 감기가 다 ( ... ) 정말 다행입니다.'",
     "formulaHud": {
       "title": "HONORIFIK DENGAN IRREGULAR ㄹ & ㅅ",
       "latex": "\\text{만들다 (ㄹ Drop)} + \\text{-(으)시-} \\rightarrow \\mathbf{만드시다} \\quad | \\quad \\text{낫다 (ㅅ Drop)} + \\text{-(으)시-} \\rightarrow \\mathbf{나으시다}",
@@ -1885,7 +1885,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Melihat langit sore yang gelap dan berangin kencang:\n'하늘에 먹구름이 가득 끼고 천둥이 치는 것을 보니 곧 소나기가 ( ... ). 우산을 챙기세요.'\nBentuk ungkapan dugaan masa depan yang TEPAT dari kata kerja '오da' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'하늘에 먹구름이 가득 끼고 천둥이 치는 것을 보니 곧 소나기가 ( ... ). 우산을 챙기세요.'",
     "formulaHud": {
       "title": "DUGAAN / PERKIRAAN: -(으)ㄹ 것 같다 (IT SEEMS / PROBABLY)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 것 \\text{ } 같다} \\quad (\\text{오-} + \\mathbf{-ㄹ \\text{ } 것 \\text{ } 같아요})",
@@ -1981,7 +1981,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kabar gembira dari seorang mahasiswa berprestasi:\n'열심히 준비한 결과, 다음 학기부터 정부 장학금을 받고 서울대학교에서 ( ... ). 정말 꿈만 같습니다.'\nBentuk pengungkapan perubahan keadaan situasi yang TEPAT dari kata kerja '공부하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'열심히 준비한 결과, 다음 학기부터 정부 장학금을 받고 서울대학교에서 ( ... ). 정말 꿈만 같습니다.'",
     "formulaHud": {
       "title": "PERUBAHAN KEADAAN / HASIL SITUASI: -게 되다 (COME TO / END UP)",
       "latex": "\\text{Akar Kata Kerja} + \\mathbf{-게 \\text{ } 되다} \\quad (\\text{공부하-} + \\mathbf{-게 \\text{ } 되었습니다})",
@@ -2029,7 +2029,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Ulasan barang elektronik laptop di situs belanja online:\n'이 노트북은 가격이 다소 ( ... ) 성능이 매우 우수하고 디자인도 세련되었습니다.'\nBentuk konjugasi pertentangan langsung (-지만) yang TEPAT dari kata sifat '비싸다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'이 노트북은 가격이 다소 ( ... ) 성능이 매우 우수하고 디자인도 세련되었습니다.'",
     "formulaHud": {
       "title": "KONJUNGSI PERTENTANGAN: -지만 (BUT / NAMUN)",
       "latex": "\\text{Akar Kata (Verba/Adjektiva)} + \\mathbf{-지만} \\quad (\\text{비싸-} + \\mathbf{-지만})",
@@ -2125,7 +2125,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Pendapat warga Seoul mengenai sistem transportasi umum:\n'출퇴근 시간대에는 교통 체증 때문에 버스( ... ) 지하철을 이용하는 것이 훨씬 빠르고 편리합니다.'\nPartikel komparatif yang TEPAT untuk menyatakan perbandingan 'daripada bus' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'출퇴근 시간대에는 교통 체증 때문에 버스( ... ) 지하철을 이용하는 것이 훨씬 빠르고 편리합니다.'",
     "formulaHud": {
       "title": "KOMPARATIF: NOMINA + 보다 (THAN / DARIPADA)",
       "latex": "\\text{Objek Pembanding} + \\mathbf{보다} + \\text{Subjek Unggul} + \\mathbf{훨씬 / 더} + \\text{Adjektiva}",
@@ -2221,7 +2221,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Deskripsi ruang tunggu klinik dokter:\n'대기실 소파에는 환자들이 조용히 ( ... ), 벽에는 진료 안내문이 깔끔하게 붙( ... ).'\nPasangan bentuk status kondisi bertahan (-아/어 있다) yang TEPAT dari verba '앉다' dan verba pasif '붙다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'대기실 소파에는 환자들이 조용히 ( ... ), 벽에는 진료 안내문이 깔끔하게 붙( ... ).'",
     "formulaHud": {
       "title": "STATUS KONDISI BERTAHAN: -아/어 있다",
       "latex": "\\text{Verba Intransitif (Gerak/Posisi)} + \\mathbf{-아/어 \\text{ } 있다}",
@@ -2365,7 +2365,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang pejalan kaki yang basah kuyup terkena hujan lebat:\n'일기예보에서 오후에 비가 온다고 했는데 아침에 우산을 ( ... ). 옷이 다 젖어 버렸어요.'\nBentuk pengungkapan rasa penyesalan atas tindakan yang tidak dilakukan di masa lalu (-(으)ㄹ 걸 그랬다) dari verba '챙기다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'일기예보에서 오후에 비가 온다고 했는데 아침에 우산을 ( ... ). 옷이 다 젖어 버렸어요.'",
     "formulaHud": {
       "title": "PENYESALAN LAMPAU: -(으)ㄹ 걸 그랬다 (SHOULD HAVE DONE)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 걸 \\text{ } 그랬다} \\quad (\\text{챙기-} + \\mathbf{-ㄹ \\text{ } 걸 \\text{ } 그랬어요})",
@@ -2509,7 +2509,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penjelasan pembicara saat terlambat menghadiri wawancara kerja penting:\n'죄송합니다. 아침에 지하철 신호 장애로 열차가 갑자기 ( ... ) 면접 시간에 늦고 말았습니다.'\nBentuk konjugasi sebab akibat bernuansa musibah tak terduga (-는 바람에) dari verba '멈추다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'죄송합니다. 아침에 지하철 신호 장애로 열차가 갑자기 ( ... ) 면접 시간에 늦고 말았습니다.'",
     "formulaHud": {
       "title": "KAUSALITAS DAMPAK NEGATIF TAK TERDUGA: -는 바람에",
       "latex": "\\text{Akar Verba} + \\mathbf{-는 \\text{ } 바람에} \\implies \\text{Dampak Buruk / Kerugian di Luar Kendali}",
@@ -2557,7 +2557,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keputusan direksi maskapai saat badai topan menerjang bandara:\n'기상 악화로 활주로 시야가 전혀 확보되지 않아서 안전을 위해 오늘 모든 항공편을 ( ... ).'\nBentuk ekspresi ketiadaan alternatif (-(으)ㄹ 수밖에 없다) dari verba '취소하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'기상 악화로 활주로 시야가 전혀 확보되지 않아서 안전을 위해 오늘 모든 항공편을 ( ... ).'",
     "formulaHud": {
       "title": "KETIADAAN ALTERNATIF LAIN: -(으)ㄹ 수밖에 없다 (NO CHOICE BUT TO)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 수밖에 \\text{ } 없다}",
@@ -2605,7 +2605,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Deskripsi peristiwa saat angin kencang meniup ruangan:\n'갑자기 거센 바람이 불어오더니 활짝 열려 있던 창문이 쾅 소리를 내며 저절로 ( ... ).'\nBentuk kata kerja pasif spontan (피동) yang TEPAT dari verba dasar '닫다' (ber-batchim ㄷ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'갑자기 거센 바람이 불어오더니 활짝 열려 있던 창문이 쾅 소리를 내며 저절로 ( ... ).'",
     "formulaHud": {
       "title": "BENTUK VERBA PASIF KOREA (피동사 SUFFIXES)",
       "latex": "\\text{닫다 (menutup)} + \\mathbf{-히-} \\implies \\mathbf{닫히다} \\text{ (tertutup)} \\quad (\\text{Kala Lampau: } \\mathbf{닫혔습니다})",
@@ -2653,7 +2653,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Prinsip pemerolehan kemahiran bahasa asing:\n'외국어는 매일 꾸준히 ( ... ) 말하기 실력이 눈에 띄게 향상되고 자신감이 생깁니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata kerja '연습하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'외국어는 매일 꾸준히 ( ... ) 말하기 실력이 눈에 띄게 향상되고 자신감이 생깁니다.'",
     "formulaHud": {
       "title": "PROPORSI GRADUAL: -(으)ㄹ수록 (THE MORE ... THE MORE)",
       "latex": "\\text{Akar Vokal / ㄹ} + \\mathbf{-ㄹ수록} \\quad \\leftrightarrow \\quad \\text{Akar Konsonan} + \\mathbf{-을수록}",
@@ -2701,7 +2701,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang turis yang kehilangan paspor di stasiun kereta:\n'지하철 선반 위에 가방을 두고 내렸는데, 그 안에 여권과 지갑이 들어 있어서 큰일( ... ). 결국 가방을 잃어( ... ).'\nPasangan bentuk aspek keterlanjuran tuntas (-아/어 버리다) yang TEPAT dari verba '잃다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'지하철 선반 위에 가방을 두고 내렸는데, 그 안에 여권과 지갑이 들어 있어서 큰일( ... ). 결국 가방을 잃어( ... ).'",
     "formulaHud": {
       "title": "ASPEK KETERLANJURAN TUNTAS / PENYESALAN: -아/어 버리다",
       "latex": "\\text{Akar Verba} + \\mathbf{-아/어 \\text{ } 버리다} \\quad (\\text{잃-} + \\mathbf{-어 \\text{ } 버렸습니다})",
@@ -2749,7 +2749,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cerita seorang teman yang berpura-pura sibuk membaca buku:\n'민수는 복도에서 친구가 부르는 소리를 분명히 들었지만, 바쁜 일이 있어서 듣지 못한 것처럼 ( ... ) 계속 걸어갔습니다.'\nBentuk konjugasi pura-pura (-(으)ㄴ/는 척하다) yang TEPAT dari kata kerja '못 들은 척하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'민수는 복도에서 친구가 부르는 소리를 분명히 들었지만, 바쁜 일이 있어서 듣지 못한 것처럼 ( ... ) 계속 걸어갔습니다.'",
     "formulaHud": {
       "title": "KEPURA-PURAAN: -(으)ㄴ/는 척하다 (PRETEND TO)",
       "latex": "\\text{Kala Lampau Verba} + \\mathbf{-(으)ㄴ \\text{ } 척하다} \\quad | \\quad \\text{Kala Sekarang Verba} + \\mathbf{-는 \\text{ } 척하다}",
@@ -2797,7 +2797,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Renungan seorang siswa setelah pengumuman kelulusan:\n'학기 초에 시간을 헛되이 보내지 않고 조금만 더 열심히 ( ... ) 지금보다 훨씬 좋은 성적을 받았을 텐데 정말 후회가 됩니다.'\nBentuk pengandaian kontrafaktual lampau (-았/었더라면) dari verba '공부하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'학기 초에 시간을 헛되이 보내지 않고 조금만 더 열심히 ( ... ) 지금보다 훨씬 좋은 성적을 받았을 텐데 정말 후회가 됩니다.'",
     "formulaHud": {
       "title": "KONTRAFAKTUAL LAMPAU: -았/었더라면 (IF HAD DONE...)",
       "latex": "\\text{Akar Verba} + \\mathbf{-았/었더라면} + \\dots + \\mathbf{-(으)ㄹ \\text{ } 텐데 / -(으)ㄹ \\text{ } 뻔했다}",
@@ -2893,7 +2893,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ibu merawat bayinya di pagi hari yang dingin:\n'어머니는 외출하기 전에 아기에게 따뜻한 털옷을 정성스럽게 ( ... ).'\nBentuk kata kerja kausatif (사동사) yang TEPAT untuk menyatakan 'memakaikan baju kepada orang lain' dari verba '입다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'어머니는 외출하기 전에 아기에게 따뜻한 털옷을 정성스럽게 ( ... ).'",
     "formulaHud": {
       "title": "VERBA KAUSATIF (사동사: MEMBUAT/MENYEBABKAN ORANG LAIN MELAKUKAN)",
       "latex": "\\text{입다 (mengenakan)} + \\mathbf{-히-} \\implies \\mathbf{입히다} \\text{ (memakaikan baju kepada orang lain)}",
@@ -2941,7 +2941,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ulasan novel sastra pemenang penghargaan internasional:\n'이 소설은 인간의 내면 심리를 섬세하게 묘사하여 문학을 사랑하는 독자라면 누구나 한 번쯤 꼭 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) yang TEPAT dari verba '읽다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'이 소설은 인간의 내면 심리를 섬세하게 묘사하여 문학을 사랑하는 독자라면 누구나 한 번쯤 꼭 ( ... ).'",
     "formulaHud": {
       "title": "KELAYAKAN / REKOMENDASI: -(으)ㄹ 만하다 (WORTH DOING)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 만하다} \\quad (\\text{읽-} + \\mathbf{-을 \\text{ } 만합니다})",
@@ -2989,7 +2989,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemberitahuan situasi cuaca ekstrem di bandara Incheon:\n'현재 짙은 안개와 강풍 때문에 일부 항공편의 출발이 지연되거나 아예 ( ... ). 전광판을 수시로 확인해 주시기 바랍니다.'\nBentuk ungkapan kemungkinan tak pasti (-(으)ㄹ지도 모르다) dari verba '취소되다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'현재 짙은 안개와 강풍 때문에 일부 항공편의 출발이 지연되거나 아예 ( ... ). 전광판을 수시로 확인해 주시기 바랍니다.'",
     "formulaHud": {
       "title": "KEMUNGKINAN TAK PASTI: -(으)ㄹ지도 모르다 (MIGHT / PERHAPS)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ지도 \\text{ } 모르다/모릅니다}",
@@ -3085,7 +3085,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pendapat pembelajar bahasa asing:\n'한국어 문법은 다른 언어에 비해 다소 복잡하( ... ) 배울수록 깊은 매력이 있어서 아주 재미있습니다.'\nBentuk pengakuan parsial yang TEPAT dari kata sifat '복잡하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'한국어 문법은 다른 언어에 비해 다소 복잡하( ... ) 배울수록 깊은 매력이 있어서 아주 재미있습니다.'",
     "formulaHud": {
       "title": "PENGAKUAN PARSIAL (KONSESI): -기는 하지만 (IT IS TRUE THAT ... BUT)",
       "latex": "\\text{Akar Kata} + \\mathbf{-기는 \\text{ } 하지만 / -기는 \\text{ } 한데}",
@@ -3133,7 +3133,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Metode pembelajaran aktif guru sains di kelas:\n'선생님께서는 학생들에게 정답을 바로 알려주지 않고 스스로 깊이 ( ... ) 다양한 질문을 던지셨습니다.'\nBentuk kausatif sintaksis analitis (-게 하다) yang TEPAT dari verba '생각하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'선생님께서는 학생들에게 정답을 바로 알려주지 않고 스스로 깊이 ( ... ) 다양한 질문을 던지셨습니다.'",
     "formulaHud": {
       "title": "KAUSATIF SINTAKSIS: -게 하다 (MAKE / CAUSE SOMEONE TO DO)",
       "latex": "\\text{Akar Verba} + \\mathbf{-게 \\text{ } 하다} \\quad (\\text{생각하-} + \\mathbf{-게 \\text{ } 하려고})",
@@ -3181,7 +3181,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penjelasan petugas keamanan mengenai regulasi gedung publik:\n'관련 법령 및 본 건물 관리 규정에 따라 건물 전체 구역이 금연구역으로 ( ... ). 흡연 적발 시 과태료가 부과됩니다.'\nBentuk pengungkapan aturan ketentuan hukum (-기로 되어 있다) yang TEPAT dari verba '지정되다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'관련 법령 및 본 건물 관리 규정에 따라 건물 전체 구역이 금연구역으로 ( ... ). 흡연 적발 시 과태료가 부과됩니다.'",
     "formulaHud": {
       "title": "STATUS KETETAPAN ATURAN HUKUM: -기로 되어 있다 / -어 있다",
       "latex": "\\text{Regulasi Resmi / Status Hukum} \\implies \\mathbf{-기로 \\text{ } 되어 \\text{ } 있다 / -어 \\text{ } 있다}",
@@ -3229,7 +3229,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah kutipan analisis demografi Korea kontemporer berikut:\n'통계청 발표에 따르면, 대한민국은 유례없이 급격한 저출산 현상과 기대수명 연장으로 인해 전체 인구 중 65세 이상 고령층의 비율이 20%를 넘어서는 '초고령 사회' 진입을 목전에 두고 있다. 이에 따라 생산연령인구의 감소로 인한 잠재성장률 둔화와 노년층 복지·의료 재정 부담 증가가 국가적 핵심 당면 과제로 대두되고 있다.'\nBerdasarkan wacana di atas, kesimpulan analitis yang PALING TEPAT mengenai implikasi sosio-ekonomi fenomena tersebut adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'초고령 사회'",
     "formulaHud": {
       "title": "ANALISIS WACANA SOSIO-DEMOGRAFI: 고령화 사회 (AGING SOCIETY)",
       "latex": "\\text{저출산 (Penurunan Kelahiran)} + \\text{고령화 (Penuaan)} \\implies \\text{생산가능인구 감소} + \\text{복지재정 압박}",
@@ -3272,7 +3272,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah panduan kampanye ekologi lingkungan kota Seoul:\n'올바른 재활용품 분리배출은 자원 순환 사회를 만드는 첫걸음입니다. 환경부가 제시하는 4대 기본 원칙은 다음과 같습니다. 첫째, 용기 안의 내용물을 깨끗이 '비운다'. 둘째, 이물질이 묻은 용기는 물로 '헹군다'. 셋째, 페트병의 비닐 라벨과 뚜껑 등 재질이 다른 부분은 완전히 '분리한다'. 넷째, 재활용이 가능한 품목과 일반 쓰레기를 절대로 '섞지 않는다'.' \nBerdasarkan petunjuk di atas, tindakan warga yang MENYALAHI aturan baku pemilahan sampah daur ulang adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'. 둘째, 이물질이 묻은 용기는 물로 '",
     "formulaHud": {
       "title": "4 PRINSIP BAKU PEMILAHAN SAMPAH KOREA (분리배출 4대 원칙)",
       "latex": "\\mathbf{비운다} \\text{ (Kosongkan)} \\rightarrow \\mathbf{헹군다} \\text{ (Bilas)} \\rightarrow \\mathbf{분리한다} \\text{ (Pisahkan Bahan Berbeda)} \\rightarrow \\mathbf{섞지 않는다} \\text{ (Jangan Campur)}",
@@ -3315,7 +3315,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks sejarah kebudayaan berikut:\n'1443년 세종대왕은 백성들이 한자의 어려움으로 인해 자신의 생각과 억울함을 글로 표현하지 못하는 현실을 안타깝게 여겨, 독창적이고 과학적인 문자 체계인 '훈민정음(백성을 가르치는 바른 소리)'을 창제하였다. 훈민정음의 자음은 인간의 발음 기관(혀, 입술, 이, 목구멍)의 모양을 본떠 상형의 원리로 만들어졌으며, 모음은 동양 철학의 삼재인 천(하늘 ·), 지(땅 ㅡ), 인(사람 ㅣ)을 바탕으로 구성되었다.'\nNilai filosofis utama yang melandasi penciptaan aksara Hangeul berdasarkan teks tersebut adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'훈민정음(백성을 가르치는 바른 소리)'",
     "formulaHud": {
       "title": "FILOSOFI PENCIPTAAN HANGEUL (훈민정음 창제 정신)",
       "latex": "\\text{세종대왕 (Raja Sejong)} \\implies \\mathbf{애민정신 (Cinta Rakyat)} + \\mathbf{자주정신 (Kemandirian)} + \\mathbf{실용정신 (Kepraktisan)}",
@@ -3359,7 +3359,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana komparasi tradisi budaya perayaan Korea:\n'한국의 2대 명절인 설날과 추석은 고유한 의미와 상징적 절식(명절 음식)을 지닌다. 음력 1월 1일인 설날에는 새해의 순결과 장수를 기원하며 하얗고 둥근 가래떡을 썬 '떡국'을 먹고 웃어른께 '세배'를 올린다. 반면 음력 8월 15일인 추석은 한 해의 농사를 무사히 마치고 풍성한 수확에 감사하는 한가위 명절로서, 햅쌀과 햇곡식으로 반달 모양의 '송편'을 빚어 조상께 감사의 차례를 올린다.'\nBerdasarkan wacana di atas, pernyataan komparasi yang BENAR adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'을 먹고 웃어른께 '",
     "formulaHud": {
       "title": "KOMPARASI 2 HARI RAYA BESAR KOREA (명절)",
       "latex": "\\text{설날 (Tahun Baru Imlek)} \\rightarrow \\mathbf{떡국 (Tteokguk) / 세배 (Sebae)} \\quad | \\quad \\text{추석 (Panen Raya)} \\rightarrow \\mathbf{송편 (Songpyeon) / 차례 (Charye)}",
@@ -3402,7 +3402,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah artikel kajian sosiologi budaya global:\n'초기 케이팝과 한국 드라마 중심의 한류가 일방적인 문화 상품 소비에 머물렀다면, 오늘날의 한류는 한국어 학습, K-푸드, 문학, 전통 예술 등으로 저변을 확장하며 다층적인 문화 교류의 양상을 띠고 있다. 전문가들은 한류가 일시적 유행에 그치지 않고 지속 가능한 문화적 영향력을 유지하기 위해서는 타문화에 대한 존중과 상호 소통을 바탕으로 하는 '쌍방향 문화 교류'로 발전해야 한다고 제언한다.'\nMenurut kutipan di atas, kunci utama bagi kelangsungan jangka panjang fenomena Hallyu adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'쌍방향 문화 교류'",
     "formulaHud": {
       "title": "KEBERLANJUTAN HALLYU: 쌍방향 문화 교류 (TWO-WAY CULTURAL EXCHANGE)",
       "latex": "\\text{Konsumsi Sepihak (일방적 소비)} \\implies \\mathbf{Pertukaran \\text{ } Dua \\text{ } Arah \\text{ (쌍방향 \\text{ } 교류)}} + \\mathbf{Saling \\text{ } Menghormati}",
@@ -3445,7 +3445,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ungkapan seorang pekerja setelah lembur menyelesaikan laporan tahunan perusahaan:\n'일주일 내내 밤샘 야근을 했더니 몸이 천근만근 무겁고 당장 길바닥에 ( ... ). 오늘 밤에는 아무 생각 없이 푹 자야겠어요.'\nBentuk pengungkapan ambang batas ekstrem (-(으)ㄹ 지경이다) yang TEPAT dari verba '쓰러지다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'일주일 내내 밤샘 야근을 했더니 몸이 천근만근 무겁고 당장 길바닥에 ( ... ). 오늘 밤에는 아무 생각 없이 푹 자야겠어요.'",
     "formulaHud": {
       "title": "AMBANG BATAS EKSTREM: -(으)ㄹ 지경이다 (ON THE VERGE OF)",
       "latex": "\\text{Akar Verba} + \\mathbf{-(으)ㄹ \\text{ } 지경이다/지경입니다}",
@@ -3493,7 +3493,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keputusan rasional pejalan kaki saat jalan raya macet total:\n'출퇴근 시간에 꼼짝도 않는 도로 위 택시 안에 ( ... ) 맑은 공기를 마시며 지하철역까지 걸어가는 편이 훨씬 낫겠습니다.'\nBentuk komparasi preferensi ekstrem (-느니 차라리) yang TEPAT dari verba '갇혀 있다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'출퇴근 시간에 꼼짝도 않는 도로 위 택시 안에 ( ... ) 맑은 공기를 마시며 지하철역까지 걸어가는 편이 훨씬 낫겠습니다.'",
     "formulaHud": {
       "title": "PREFERENSI EKSTREM: A-느니 차라리 B (RATHER B THAN A)",
       "latex": "\\text{Opsi Buruk A} + \\mathbf{-느니 (차라리)} + \\text{Opsi B yang Lebih Masuk Akal} + \\mathbf{낫다/좋다}",
@@ -3541,7 +3541,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks arsitektur tradisional Korea:\n'전통 가옥인 '한옥'은 자연과의 조화를 중시하는 조상들의 지혜가 담긴 건축물이다. 한옥의 가장 독창적인 특징은 혹독한 추위의 겨울과 고온다습한 여름이라는 상반된 기후 조건을 동시에 극복했다는 점이다. 방바닥 밑으로 구들장을 놓고 아궁이의 열기를 통과시켜 바닥을 따뜻하게 덥히는 '온돌'은 겨울을 나기 위한 난방 장치이며, 지면에서 띄워 바람이 사방으로 통하도록 만든 나무 복도인 '마루'는 여름의 무더위를 식히는 냉방 구조이다.'\nBerdasarkan teks di atas, keunggulan arsitektural utama rumah tradisional Hanok adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'전통 가옥인 '",
     "formulaHud": {
       "title": "ARSITEKTUR HANOK: INTEGRASI ONDOL & MARU (자연과의 조화)",
       "latex": "\\mathbf{온돌 (Ondol)} \\text{ [Musim Dingin: Pemanas Bawah Lantai]} \\quad + \\quad \\mathbf{마루 (Maru)} \\text{ [Musim Panas: Ventilasi Terbuka]}",
@@ -3629,7 +3629,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cerita seorang rekan kerja dalam suasana percakapan santai:\n'영수는 그 소식을 오늘 아침에 처음 들었으면서도 다른 사람들 앞에서는 이미 다 알고 ( ... ) 고개를 끄덕였습니다.'\nBentuk konjugasi kepura-puraan lampau yang TEPAT dari verba '알다' (ber-batchim ㄹ) adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'영수는 그 소식을 오늘 아침에 처음 들었으면서도 다른 사람들 앞에서는 이미 다 알고 ( ... ) 고개를 끄덕였습니다.'",
     "options": [
       {
         "key": "A",
@@ -3677,7 +3677,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Aktivitas ayah menjelang tidur malam anak tercinta:\n'아버지는 잠자리에 든 아이에게 머리를 쓰다듬으며 재미있는 동화책을 나지막한 목소리로 ( ... ).'\nBentuk kata kerja kausatif (사동사) yang TEPAT dari verba dasar '읽다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'아버지는 잠자리에 든 아이에게 머리를 쓰다듬으며 재미있는 동화책을 나지막한 목소리로 ( ... ).'",
     "options": [
       {
         "key": "A",
@@ -3725,7 +3725,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Prinsip optimasi rekayasa perangkat lunak:\n'알고리즘의 구조가 지나치게 ( ... ) 시스템의 메모리 점유율이 높아지고 예기치 못한 오류가 발생하기 쉽습니다.'\nBentuk konjugasi proporsional (-(으)ㄹ수록) yang TEPAT dari kata sifat '복잡하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'알고리즘의 구조가 지나치게 ( ... ) 시스템의 메모리 점유율이 높아지고 예기치 못한 오류가 발생하기 쉽습니다.'",
     "options": [
       {
         "key": "A",
@@ -3821,7 +3821,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana antropologi budaya berikut:\n'한국 전통 농경 사회에서는 모내기나 추수철처럼 일손이 크게 부족할 때 마을 주민들이 서로 노동력을 무상으로 교환하는 '품앗이'와 공동 노동 조직인 '두레'가 발달하였다. 이러한 공동체적 협동 관습은 단순한 경제적 노동력 절감을 넘어, 마을 구성원 간의 유대감을 강화하고 상부상조의 사회적 자본을 형성하는 데 결정적인 역할을 하였다.'\nBerdasarkan teks di atas, padanan nilai sosiologis kearifan lokal yang PALING SETARA dalam konteks masyarakat Indonesia adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'한국 전통 농경 사회에서는 모내기나 추수철처럼 일손이 크게 부족할 때 마을 주민들이 서로 노동력을 무상으로 교환하는 '",
     "options": [
       {
         "key": "A",
@@ -3864,7 +3864,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemberitahuan penyelenggara festival musik kampus:\n'갑자기 들이닥친 돌풍으로 야외 무대 조명 장치가 ( ... ) 관객 여러분의 안전을 위해 공연을 부득이 중단하게 되었습니다.'\nBentuk konjugasi peristiwa mendadak berdampak buruk (-는 바람에) dari verba '무너지다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'갑자기 들이닥친 돌풍으로 야외 무대 조명 장치가 ( ... ) 관객 여러분의 안전을 위해 공연을 부득이 중단하게 되었습니다.'",
     "options": [
       {
         "key": "A",
@@ -3960,7 +3960,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Deskripsi keindahan suasana menginap di tepi pantai Haeundae Busan:\n'호텔 방 창문을 활짝 열자 시원한 바닷바람과 함께 철썩이는 파도 소리가 귀에 생생하게 ( ... ).'\nBentuk kata kerja pasif spontan (피동사) yang TEPAT dari verba dasar '듣다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'호텔 방 창문을 활짝 열자 시원한 바닷바람과 함께 철썩이는 파도 소리가 귀에 생생하게 ( ... ).'",
     "options": [
       {
         "key": "A",
@@ -4008,7 +4008,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah kutipan analisis tren konsumsi generasi muda Korea:\n'과거 소비자들은 가격 대비 성능을 따지는 '가성비(價性比)'를 최우선으로 고려하였으나, 최근에는 가격 대비 심리적 만족감을 중시하는 '가심비(價心比)' 소비가 대세로 자리 잡고 있다. 젊은 세대는 다소 비싸더라도 자신의 가치관에 부합하는 친환경 제품이나 정서적 힐링을 주는 소품, 취향 맞춤형 서비스에 기꺼이 지갑을 열고 있다.'\nBerdasarkan teks di atas, faktor penentu utama dalam perilaku konsumsi 'Gasimbi' adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'과거 소비자들은 가격 대비 성능을 따지는 '",
     "options": [
       {
         "key": "A",
@@ -4099,7 +4099,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Rekomendasi guru sejarah mengenai film dokumenter pahlawan kemerdekaan:\n'이 다큐멘터리 영화는 잊혀져 가던 독립운동가들의 헌신을 사실적으로 재조명하여 국민이라면 꼭 한 번 ( ... ).'\nBentuk ungkapan kelayakan rekomendasi (-(으)ㄹ 만하다) dari verba '보다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'이 다큐멘터리 영화는 잊혀져 가던 독립운동가들의 헌신을 사실적으로 재조명하여 국민이라면 꼭 한 번 ( ... ).'",
     "options": [
       {
         "key": "A",
@@ -4147,7 +4147,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Keluhan seorang pekerja mengenai inflasi harga kebutuhan pokok:\n'월급이 물가 상승률을 따라가지 못해 매달 저축을 하( ... ) 기본 생활비를 대기에도 빠듯한 형편입니다.'\nBentuk konjugasi penyangkalan ekstrem 'alih-alih... malah...' (-기는커녕) dari verba '저축하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'월급이 물가 상승률을 따라가지 못해 매달 저축을 하( ... ) 기본 생활비를 대기에도 빠듯한 형편입니다.'",
     "options": [
       {
         "key": "A",
@@ -4238,7 +4238,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Testimoni korban kecelakaan lalu lintas di jalan tol:\n'사고 당시 안전벨트를 매고 있지 ( ... ) 차량 밖으로 튕겨 나가서 정말 큰 부상을 입을 뻔했습니다.'\nBentuk pengandaian kontrafaktual negatif (-았/었더라면) dari verba '않다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'사고 당시 안전벨트를 매고 있지 ( ... ) 차량 밖으로 튕겨 나가서 정말 큰 부상을 입을 뻔했습니다.'",
     "options": [
       {
         "key": "A",
@@ -4334,7 +4334,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Laporan kebijakan industri energi hijau:\n'정부는 전기차 보급을 대폭 확대하( ... ), 고속도로 휴게소와 도심 곳곳에 급속 충전 인프라를 신속히 확충하고 있습니다.'\nBentuk ungkapan pelaksanaan dua kebijakan komplementer simultan (-는 한편) dari verba '확대하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'정부는 전기차 보급을 대폭 확대하( ... ), 고속도로 휴게소와 도심 곳곳에 급속 충전 인프라를 신속히 확충하고 있습니다.'",
     "options": [
       {
         "key": "A",
@@ -4382,7 +4382,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana sains kuliner tradisional berikut:\n'한국 발효식품(된장, 고추장, 간장, 김치)의 우수성은 숨 쉬는 그릇이라 불리는 '옹기(甕器)'와 불가분의 관계를 맺고 있다. 미세한 기포가 분포하는 옹기는 외부의 신선한 공기는 통과시키면서 수분과 유해 미생물의 침입은 차단하여 유익한 젖산균의 증식을 최적화한다. 이러한 지혜는 인공 방부제 없이도 장기간 신선한 영양과 독특한 풍미를 보존하는 과학적 토대가 되었다.'\nBerdasarkan wacana di atas, fungsi esensial dari wadah tembikar 'Onggi' dalam proses fermentasi adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'한국 발효식품(된장, 고추장, 간장, 김치)의 우수성은 숨 쉬는 그릇이라 불리는 '",
     "options": [
       {
         "key": "A",
@@ -4425,7 +4425,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penghiburan diri seseorang saat tertipu membeli barang imitasi secara daring:\n'이미 사기를 당해 돌려받기 어려운 돈이니, 인생의 값비싼 교훈을 배운 ( ... ) 잊어버리기로 마음먹었습니다.'\nBentuk konjugasi merelakan/menganggap seolah-olah (-(으)ㄴ 셈 치다) dari verba '배우다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'이미 사기를 당해 돌려받기 어려운 돈이니, 인생의 값비싼 교훈을 배운 ( ... ) 잊어버리기로 마음먹었습니다.'",
     "options": [
       {
         "key": "A",
@@ -4473,7 +4473,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pembelaan manajer terhadap staf teladan yang difitnah:\n'김 대리는 입사 이래 단 한 번도 부정을 저지른 적이 없는 성실한 직원이므로 회사 공금을 횡령( ... ).'\nBentuk ungkapan kemustahilan rasional (-(으)ㄹ 리가 없다) yang TEPAT dari verba '횡령하다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'김 대리는 입사 이래 단 한 번도 부정을 저지른 적이 없는 성실한 직원이므로 회사 공금을 횡령( ... ).'",
     "options": [
       {
         "key": "A",
@@ -4521,7 +4521,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Penjelasan dosen informatika dalam kuliah pengantar sains data:\n'인간의 지적 능력을 컴퓨터 소프트웨어로 구현하여 스스로 학습하도록 만든 기술을 '인공지능( ... ) 부릅니다.'\nBentuk penanda kutipan istilah nama benda (-이라고 하다) yang TEPAT dari kata benda ber-batchim '인공지능' (AI) adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'인간의 지적 능력을 컴퓨터 소프트웨어로 구현하여 스스로 학습하도록 만든 기술을 '",
     "options": [
       {
         "key": "A",
@@ -4569,7 +4569,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks apresiasi warisan mahakarya lisan UNESCO berikut:\n'유네스코 인류무형문화유산으로 등재된 '판소리'는 한 명의 소리꾼이 고수(북 치는 사람)의 북장단에 맞추어 창(노래), 아니리(말), 너름새(몸짓)를 섞어가며 장편의 서사적 이야기를 구연하는 전통 종합 공연 예술이다. 관객들은 공연 중간중간에 \"얼씨구!\", \"좋다!\"와 같은 '추임새'를 넣어 공연자와 호흡을 맞추며 신명 나는 축제의 장을 완성한다.'\nUnsur interaktif khas yang membedakan pertunjukan Pansori dari teater opera Barat berdasarkan teks di atas adalah...",
+    "questionHtml": "다음을 읽고 물음에 가장 알맞은 것을 고르십시오:\n'유네스코 인류무형문화유산으로 등재된 '",
     "options": [
       {
         "key": "A",
@@ -4612,7 +4612,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Alasan seorang eksekutif memilih naik subway cepat:\n'월요일 아침 출근길 도로가 정체되어 거래처 약속 시간에 늦( ... ) 차를 두고 지하철을 탔습니다.'\nBentuk ungkapan kekhawatiran antisipatif (-(으)ㄹ까 봐) dari kata kerja '늦다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'월요일 아침 출근길 도로가 정체되어 거래처 약속 시간에 늦( ... ) 차를 두고 지하철을 탔습니다.'",
     "options": [
       {
         "key": "A",
@@ -4660,7 +4660,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Refleksi kemajuan belajar seorang pembelajar otodidak:\n'매일 한국어 신문 사설을 한 편씩 꾸준히 읽( ... ) 어느새 시사 어휘 실력이 크게 늘어 뉴스 방송도 자연스럽게 이해하게 되었습니다.'\nBentuk konjugasi tindakan berulang berkesinambungan (-다 보니) dari verba '읽다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'매일 한국어 신문 사설을 한 편씩 꾸준히 읽( ... ) 어느새 시사 어휘 실력이 크게 늘어 뉴스 방송도 자연스럽게 이해하게 되었습니다.'",
     "options": [
       {
         "key": "A",
@@ -4708,7 +4708,7 @@ window.TKA_BAHASA_KOREA_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Peringatan pakar literasi digital kepada para pengguna jejaring sosial:\n'출처가 불분명한 자극적인 인터넷 뉴스를 비판적 검증 없이 그대로 믿었다가는 거짓 정보에 속( ... ). 기사의 진위 여부를 반드시 확인해야 합니다.'\nBentuk ungkapan kerentanan probabilitas negatif (-기 십상이다) dari verba '속다' adalah...",
+    "questionHtml": "다음 문장의 빈칸에 들어갈 가장 알맞은 것을 고르십시오:\n'출처가 불분명한 자극적인 인터넷 뉴스를 비판적 검증 없이 그대로 믿었다가는 거짓 정보에 속( ... ). 기사의 진위 여부를 반드시 확인해야 합니다.'",
     "options": [
       {
         "key": "A",

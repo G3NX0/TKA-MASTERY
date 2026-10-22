@@ -13,7 +13,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang berikut ini:\n'الطَّالِبُ الجَدِيدُ فِي المَدْرَسَةِ ... فِي دِرَاسَتِهِ.'\nKata yang TEPAT dan memenuhi kaidah gramatikal nahwu (kesesuaian jenis mudzakkar dan bilangan mufrad dengan tanda I'rab rofa') untuk melengkapi khabar pada kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'الطَّالِبُ الجَدِيدُ فِي المَدْرَسَةِ ... فِي دِرَاسَتِهِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "KAIDAH MUBTADA' DAN KHABAR",
       "latex": "\\text{Mubtada' (Mufrad Mudzakkar Marfu')} \\iff \\mathbf{\\text{Khabar (Mufrad Mudzakkar Marfu')}} \\implies [\\text{الطَّالِبُ} \\dots \\mathbf{\\text{مُجْتَهِدٌ}}]",
@@ -61,7 +61,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'إِنَّ ... نَشِيطُونَ فِي أَدَاءِ وَاجِبَاتِهِمْ اليَوْمِيَّةِ.'\nBentuk kata yang TEPAT secara kaidah nahwu untuk mengisi posisi Isim Inna (berupa Jama' Mudzakkar Salim manshub) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'إِنَّ ... نَشِيطُونَ فِي أَدَاءِ وَاجِبَاتِهِمْ اليَوْمِيَّةِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "AMIL NAWASIKH: INNA WA AKHWATUHA",
       "latex": "\\text{إِنَّ} + \\mathbf{\\text{Isim Inna (Manshub bil-Yaa')}} + \\text{Khabar Inna (Marfu' bil-Waaw)} \\implies [\\text{إِنَّ } \\mathbf{\\text{المُعَلِّمِينَ}} \\text{ نَشِيطُونَ}]",
@@ -109,7 +109,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan struktur kalimat kana berikut ini:\n'كَانَ الجَوُّ فِي مَدِينَةِ بَانْدُونق أَمْسِ ...'\nKata yang TEPAT dan sahih secara kaidah nahwu untuk menduduki posisi Khabar Kaana (manshub bil-fathah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'كَانَ الجَوُّ فِي مَدِينَةِ بَانْدُونق أَمْسِ ...'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "AMIL NAWASIKH: KAANA WA AKHWATUHA",
       "latex": "\\text{كَانَ} + \\text{Isim Kaana (Marfu' bil-Dhommah)} + \\mathbf{\\text{Khabar Kaana (Manshub bil-Fathah)}} \\implies [\\text{كَانَ الجَوُّ } \\mathbf{\\text{بَارِدًا}}]",
@@ -157,7 +157,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'سَافَرَ الرَّئِيسُ إِلَى ... لِحُضُورِ المُؤْتَمَرِ الدَّوْلِيِّ.'\nIsim mutsanna (dua negara) yang TEPAT secara gramatikal majrur bil-ya' setelah huruf jar 'إِلَى' adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'سَافَرَ الرَّئِيسُ إِلَى ... لِحُضُورِ المُؤْتَمَرِ الدَّوْلِيِّ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB ISIM MUTSANNA SETELAH HURUF JAR",
       "latex": "\\text{إِلَى (Huruf Jar)} + \\mathbf{\\text{Isim Mutsanna Majrur (Tanda Yaa')}} \\implies [\\text{إِلَى } \\mathbf{\\text{الدَّوْلَتَيْنِ}}]",
@@ -205,7 +205,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan frasa dalam kalimat berikut:\n'اشْتَرَى عَلِيٌّ كِتَابًا ... مِنَ المَكْتَبَةِ الوَطَنِيَّةِ.'\nKata sifat (na'at) yang TEPAT untuk menyifati 'كِتَابًا' (nakirah, mudzakkar, mufrad, manshub) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'اشْتَرَى عَلِيٌّ كِتَابًا ... مِنَ المَكْتَبَةِ الوَطَنِيَّةِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "KONSISTENSI 4 ASPEK NA'AT MAN'UT",
       "latex": "\\text{Na'at} \\equiv \\text{Man'ut} \\text{ dalam: } \\begin{cases} \\text{1. I'rab (Rafa'/Nashab/Jar)} \\\\ \\text{2. Gender (Mudzakkar/Mu'annats)} \\\\ \\text{3. Bilangan (Mufrad/Mutsanna/Jama')} \\\\ \\text{4. Kejelasan (Ma'rifah/Nakirah)} \\end{cases}",
@@ -253,7 +253,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Fi'il tsulatsi mujarrad 'خَرَجَ' (kharaja) bermakna 'dia telah keluar' (lazim / intransitif). Ketika diubah ke dalam wazan tsulatsi mazid bi harfin 'أَخْرَجَ' (akhraja), makna gramatikal kata tersebut berubah menjadi...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'خَرَجَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "FAEDAH WAZAN AF'ALA (أَفْعَلَ)",
       "latex": "\\text{Fi'il Lazim (خَرَجَ: Keluar)} \\xrightarrow{\\mathbf{\\text{Wazan أَفْعَلَ}}} \\mathbf{\\text{Fi'il Muta'addi (أَخْرَجَ: Mengeluarkan)}} \\implies \\text{Faedah: Li at-Ta'diyah}",
@@ -301,7 +301,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan penggalan kalimat berikut:\n'يَجِبُ عَلَى الطَّالِبِ أَنْ ... دُرُوسَهُ بِانْتِظَامٍ.'\nBentuk fi'il mudhari' mufrad mudzakkar yang TEPAT dan berharakat manshub bil-fathah setelah amil nashab 'أَنْ' adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَجِبُ عَلَى الطَّالِبِ أَنْ ... دُرُوسَهُ بِانْتِظَامٍ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB FI'IL MUDHARI' MANSHUB",
       "latex": "\\text{أَنْ (Huruf Nashab)} + \\mathbf{\\text{Fi'il Mudhari' Shahih Akhir (Manshub bil-Fathah)}} \\implies [\\text{أَنْ } \\mathbf{\\text{يُرَاجِعَ}}]",
@@ -349,7 +349,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'أَحْمَدُ مَرِيضٌ، لِذَلِكَ لَمْ ... إِلَى المَدْرَسَةِ اليَوْمَ.'\nBentuk fi'il mudhari' yang TEPAT dan majzum bis-sukun setelah amil jazm 'لَمْ' adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'أَحْمَدُ مَرِيضٌ، لِذَلِكَ لَمْ ... إِلَى المَدْرَسَةِ اليَوْمَ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB FI'IL MUDHARI' MAJZUM",
       "latex": "\\text{لَمْ (Huruf Jazm \\& Nafyi)} + \\mathbf{\\text{Fi'il Mudhari' Shahih (Majzum bis-Sukuun)}} \\implies [\\text{لَمْ } \\mathbf{\\text{يَذْهَبْ}}]",
@@ -397,7 +397,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah morfologi shorof bahasa Arab, isim fa'il (kata benda penunjuk pelaku tindakan) dari kata kerja dasar tsulatsi mujarrad 'كَتَبَ' dibentuk mengikuti wazan 'فَاعِلٌ', yaitu...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'كَتَبَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DERIVASI ISIM FA'IL TSULATSI MUJARRAD",
       "latex": "\\text{Fi'il (فَعَلَ: كَتَبَ)} \\xrightarrow{\\mathbf{\\text{Wazan فَاعِلٌ}}} \\mathbf{\\text{Isim Fa'il: كَاتِبٌ}} \\implies \\text{Makna: Pelaku Perbuatan (Penulis)}",
@@ -445,7 +445,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang berikut:\n'فَاطِمَةُ طَبِيبَةٌ مَاهِرَةٌ، ... تَعْمَلُ فِي المُسْتَشْفَى الكَبِيرِ.'\nKata ganti orang ketiga tunggal perempuan (dhamir munfashil gha'ibah) yang TEPAT untuk merujuk pada Fathimah adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'فَاطِمَةُ طَبِيبَةٌ مَاهِرَةٌ، ... تَعْمَلُ فِي المُسْتَشْفَى الكَبِيرِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "MUTABAQAH DHAMIR GHA'IBAH",
       "latex": "\\text{فَاطِمَةُ (Mufrad Mu'annats)} \\implies \\mathbf{\\text{Dhamir Munfashil: هِيَ (Hiya)}} \\iff \\text{Fi'il Mudhari': تَعْمَلُ}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah adad dan ma'dud bahasa Arab untuk bilangan 3 sampai 10, jenis kelamin kata bilangan (adad) berlawanan jenis (*mukhalafah*) dengan benda yang dihitung (ma'dud), dan ma'dud-nya wajib berbentuk jama' majrur. Jika kita ingin menyatakan 'lima pulpen' (mufrad: 'قَلَمٌ'), maka susunan yang BENAR adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'قَلَمٌ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH ADAD MA'DUD (3 - 10)",
       "latex": "\\text{Ma'dud Mudzakkar (قَلَمٌ)} \\implies \\mathbf{\\text{Adad Mu'annats (خَمْسَةُ)}} + \\mathbf{\\text{Ma'dud Jama' Majrur (أَقْلَامٍ)}}",
@@ -541,7 +541,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat fi'liyyah berikut:\n'قَرَأَ التِّلْمِيذُ ... فِي صَفِّهِ هَذَا الصَّبَاحَ.'\nKata yang TEPAT dan berkedudukan sebagai maf'ul bih (objek penderita manshub dengan harakat fathah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'قَرَأَ التِّلْمِيذُ ... فِي صَفِّهِ هَذَا الصَّبَاحَ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB MAF'UL BIH (OBJEK PENDERITA)",
       "latex": "\\text{Fi'il (قَرَأَ)} + \\text{Fa'il (التِّلْمِيذُ)} + \\mathbf{\\text{Maf'ul Bih (الدَّرْسَ - Manshub bil-Fathah)}}",
@@ -589,7 +589,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Apabila fi'il madhi dasar 'كَتَبَ' dikonjugasikan (tashrif lughawi) dengan subjek dhamir 'نَحْنُ', maka bentuk kata kerja yang BENAR adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'كَتَبَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KONJUGASI FI'IL MADHI + NAHNU",
       "latex": "\\text{كَتَبَ} + \\text{نَحْنُ} \\implies \\mathbf{\\text{كَتَبْنَا (Katabnaa)}} \\iff \\text{Sukun pada Lam Fi'il + Dhomir نَا}",
@@ -637,7 +637,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'يَسْتَعِيرُ الطُّلَّابُ الكُتُبَ وَالمَرَاجِعَ العِلْمِيَّةَ مِنَ المَكْتَبَةِ أُسْبُوعِيًّا.'\nArti dari kata kerja 'يَسْتَعِيرُ' (yasta'iiru) dalam konteks kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'يَسْتَعِيرُ الطُّلَّابُ الكُتُبَ وَالمَرَاجِعَ العِلْمِيَّةَ مِنَ المَكْتَبَةِ أُسْبُوعِيًّا.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "MAKNA LEKSIKAL WAZAN ISTAF'ALA",
       "latex": "\\text{عَارَ (Pinjam)} \\xrightarrow{\\text{Wazan اسْتَفْعَلَ}} \\mathbf{\\text{اسْتَعَارَ - يَسْتَعِيرُ}} \\implies \\text{Memohon/Melakukan Peminjaman}",
@@ -685,7 +685,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam ilmu nahwu, partikel 'athaf 'فَـ' (fa) berfungsi untuk menghubungkan dua peristiwa secara berurutan tanpa jeda waktu lama (*at-tartib ma'at-ta'qib*). Manakah kalimat berikut yang TEPAT menggunakan huruf 'فَـ' sesuai fungsi tersebut?",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'فَـ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "MAKNA HURUF 'ATHAF FA'",
       "latex": "\\text{Peristiwa 1 (Masuk)} \\xrightarrow{\\mathbf{\\text{حرف الفاء (فَـ)}}} \\text{Peristiwa 2 (Berdiri)} \\implies \\mathbf{\\text{Tartib ma'a Ta'qib (Langsung Tanpa Jeda)}}",
@@ -733,7 +733,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat perintah berikut:\n'يَا بَنِيَّ، ... إِلَى نَصِيحَةِ وَالِدِكَ بِعِنَايَةٍ!'\nBentuk fi'il amar yang TEPAT dari fi'il tsulatsi 'اسْتَمَعَ - يَسْتَمِعُ' untuk seorang anak laki-laki tunggal (أَنْتَ) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَا بَنِيَّ، ... إِلَى نَصِيحَةِ وَالِدِكَ بِعِنَايَةٍ!'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "BINA' FI'IL AMAR MUFRAD MUDZAKKAR",
       "latex": "\\text{Fi'il Amar (أَنْتَ)} \\implies \\mathbf{\\text{Mabni 'alas-Sukuun: اسْتَمِعْ}} \\iff \\text{Ditujukan kepada satu orang laki-laki}",
@@ -781,7 +781,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Tempat dilaksanakannya ibadah sholat berjamaah dinamakan 'مَسْجِدٌ' (masjid). Berdasarkan kaidah morfologi shorof, kata 'مَسْجِدٌ' tergolong ke dalam kategori isim...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'مَسْجِدٌ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KLASIFIKASI ISIM DERIVASI (ISIM MAKAN)",
       "latex": "\\text{سَجَدَ (Sujud)} \\xrightarrow{\\text{Wazan مَفْعِلٌ}} \\mathbf{\\text{مَسْجِدٌ (Masjid)}} \\implies \\text{Kategori: Isim Makan (Tempat Sujud)}",
@@ -829,7 +829,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat mubtada'-khabar berikut:\n'... عَلِيٍّ رَجُلٌ كَرِيمٌ يُحِبُّ مُسَاعَدَةَ الفُقَرَاءِ.'\nBentuk kata Asma'ul Khamsah yang TEPAT untuk menduduki posisi Mubtada' Marfu' bil-Wawu adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'... عَلِيٍّ رَجُلٌ كَرِيمٌ يُحِبُّ مُسَاعَدَةَ الفُقَرَاءِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB ASMA'UL KHAMSAH (أَبٌ، أَخٌ، حَمٌ، فُو، ذُو)",
       "latex": "\\text{Asma'ul Khamsah (Mubtada')} \\implies \\begin{cases} \\mathbf{\\text{Marfu' bil-Waaw: أَبُو}} \\\\ \\text{Manshub bil-Alif: أَبَا} \\\\ \\text{Majrur bil-Yaa': أَبِي} \\end{cases}",
@@ -877,7 +877,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati dua kalimat berikut:\n1) 'يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!'\n2) 'مُحَمَّدٌ لَا يَكْذِبُ فِي كَلَامِهِ.'\nAnalisis gramatikal yang TEPAT mengenai jenis huruf 'لَا' dan harakat fi'il pada kedua kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَتَيْنِ التَّالِيَتَيْنِ:\n١) 'يَا مُحَمَّدُ، لَا تَكْذِبْ فِي كَلَامِكَ!'\n٢) 'مُحَمَّدٌ لَا يَكْذِبُ فِي كَلَامِهِ.'\nمَا التَّحْلِيلُ النَّحْوِيُّ الصَّحِيحُ لَهُمَا؟",
     "formulaHud": {
       "title": "DISTINGSI LAA NAHIYAH VS LAA NAFIYAH",
       "latex": "\\begin{cases} \\mathbf{\\text{لَا النَّاهِيَةُ (Larangan):}} & \\text{Menjazmkan fi'il mudhari' } \\to \\mathbf{\\text{لَا تَكْذِبْ (Sukun)}} \\\\ \\mathbf{\\text{لَا النَّافِيَةُ (Peniadaan):}} & \\text{Tidak beramal (tetap marfu') } \\to \\mathbf{\\text{لَا يَكْذِبُ (Dhommah)}} \\end{cases}",
@@ -920,7 +920,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam wacana bahasa Arab, kata 'النَّجَاحُ' (an-najaahu) memiliki arti 'kesuksesan / keberhasilan'. Lawan kata (*antonim / al-adh-dhad*) yang TEPAT dari kata tersebut adalah...",
+    "questionHtml": "مَا الكَلِمَةُ المُضَادَّةُ لِلْكَلِمَةِ التَّالِيَةِ فِي المَعْنَى؟\n'النَّجَاحُ'",
     "formulaHud": {
       "title": "ANTONIM KOSAKATA (المُتَضَادّ)",
       "latex": "\\mathbf{\\text{النَّجَاحُ (Sukses/Berhasil)}} \\iff \\mathbf{\\text{Lawan Kata: الفَشَلُ (Gagal)}}",
@@ -968,7 +968,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat tanya berikut:\n'كَمْ ... اشْتَرَيْتَ مِنَ المَعْرِضِ اليَوْمَ؟'\nKata yang TEPAT untuk mengisi posisi tamyiz setelah kata tanya bilangan 'كَمْ' al-istifhamiyyah (wajib berbentuk mufrad manshub) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'كَمْ ... اشْتَرَيْتَ مِنَ المَعْرِضِ اليَوْمَ؟'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "TAMYIZ KAM ISTIFHAMIYYAH",
       "latex": "\\text{كَمْ الاِسْتِفْهَامِيَّةُ} + \\mathbf{\\text{Tamyiz (Isim Mufrad Nakirah Manshub)}} \\implies [\\text{كَمْ } \\mathbf{\\text{كِتَابًا}} \\text{؟}]",
@@ -1016,7 +1016,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah tata bahasa Arab, setiap bentuk jamak yang tidak berakal (*jama' ghairu 'aqil*) diperlakukan secara gramatikal setara dengan isim mufrad mu'annats. Manakah penggunaan isim isyarah (kata tunjuk dekat) yang TEPAT untuk menunjuk 'هَذِهِ الكُتُبُ'?",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'هَذِهِ الكُتُبُ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH JAMA' GHAIRU 'AQIL",
       "latex": "\\mathbf{\\text{كُلُّ جَمْعٍ غَيْرِ عَاقِلٍ يُعَامَلُ مُعَامَلَةَ المُفْرَدِ المُؤَنَّثِ}} \\implies [\\mathbf{\\text{هَذِهِ}} \\text{ الكُتُبُ } \\mathbf{\\text{نَافِعَةٌ}}]",
@@ -1064,7 +1064,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Untuk menyatakan perbandingan komparatif 'lebih besar daripada' yang diturunkan dari kata sifat 'كَبِيرٌ' (kabiirun), susunan isim tafdhil yang BENAR menurut kaidah shorof adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'كَبِيرٌ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "RUMUS ISIM TAFDHIL (KOMPARATIF)",
       "latex": "\\text{Sifat (كَبِيرٌ: Besar)} \\xrightarrow{\\mathbf{\\text{Wazan أَفْعَلُ + مِنْ}}} \\mathbf{\\text{أَكْبَرُ مِنْ (Lebih besar daripada)}}",
@@ -1112,7 +1112,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bacalah teks ringkas berikut:\n'اللُّغَةُ العَرَبِيَّةُ لُغَةٌ عَالَمِيَّةٌ عَظِيمَةٌ. يَنْطِقُ بِهَا مِئَاتُ المَلَايِينِ حَوْلَ العَالَمِ، وَهِيَ لُغَةُ القُرْآنِ الكَرِيمِ وَمَصْدَرُ الحَضَارَةِ الإِسْلَامِيَّةِ.'\nGagasan utama (*al-fikrah ar-ra'iisiyyah*) dari teks wacana di atas adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'اللُّغَةُ العَرَبِيَّةُ لُغَةٌ عَالَمِيَّةٌ عَظِيمَةٌ. يَنْطِقُ بِهَا مِئَاتُ المَلَايِينِ حَوْلَ العَالَمِ، وَهِيَ لُغَةُ القُرْآنِ الكَرِيمِ وَمَصْدَرُ الحَضَارَةِ الإِسْلَامِيَّةِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "IDENTIFIKASI GAGASAN UTAMA (الفِكْرَةُ الرَّئِيسِيَّةُ)",
       "latex": "\\begin{pmatrix} \\text{اللغة العربية لغة عالمية} \\\\ \\text{لغة القرآن الكريم} \\\\ \\text{مصدر الحضارة} \\end{pmatrix} \\implies \\mathbf{\\text{Kedudukan Luhur \\& Fungsi Global Bahasa Arab}}",
@@ -1155,7 +1155,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat keterangan berikut:\n'يَسْتَرِيحُ الفَلَّاحُ ... الشَّجَرَةِ الكَبِيرَةِ بَعْدَ العَمَلِ الشَّاقِّ.'\nKata keterangan tempat (dharaf makan manshub) yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَسْتَرِيحُ الفَلَّاحُ ... الشَّجَرَةِ الكَبِيرَةِ بَعْدَ العَمَلِ الشَّاقِّ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB DHARAF MAKAN (MAF'UL FIH)",
       "latex": "\\text{Dharaf Makan Manshub (تَحْتَ)} + \\text{Mudhaf Ilaih Majrur (الشَّجَرَةِ)} \\implies [\\mathbf{\\text{تَحْتَ}} \\text{ الشَّجَرَةِ}]",
@@ -1203,7 +1203,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat yang mengandung Na'at Sababi berikut ini:\n'زَارَنِي صَدِيقٌ ... أَبُوهُ فِي المَدِينَةِ.'\nDalam kaidah nahwu, Na'at Sababi mengikuti isim sebelumnya (man'ut) dalam hal i'rab dan ke-ma'rifah-annya, namun mengikuti isim sesudahnya (fa'il sababi) dalam hal jenis (mudzakkar/mu'annats) dan selalu berbentuk mufrad. Bentuk na'at sababi yang BENAR untuk mengisi titik-titik tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'زَارَنِي صَدِيقٌ ... أَبُوهُ فِي المَدِينَةِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "KAIDAH NA'AT SABABI",
       "latex": "\\text{Man'ut (صَدِيقٌ: Nakirah, Marfu')} \\iff \\mathbf{\\text{Na'at Sababi (كَرِيمٌ: Mufrad, Mudzakkar)}} \\iff \\text{Fa'il Sababi (أَبُوهُ: Mudzakkar)}",
@@ -1251,7 +1251,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat rumpang berikut:\n'شَكَرَتْ مُدِيرَةُ المَدْرَسَةِ الطَّالِبَاتِ ... فَزْنَ فِي مُسَابَقَةِ الخَطِّ العَرَبِيِّ.'\nIsim maushul (kata sambung 'yang') yang TEPAT untuk merujuk pada 'الطَّالِبَاتِ' (jama' mu'annats salim) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'شَكَرَتْ مُدِيرَةُ المَدْرَسَةِ الطَّالِبَاتِ ... فَزْنَ فِي مُسَابَقَةِ الخَطِّ العَرَبِيِّ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "PEMETAAN ISIM MAUSHUL",
       "latex": "\\text{الطَّالِبَاتِ (Jama' Mu'annats)} \\implies \\mathbf{\\text{Isim Maushul: اللاَّتِي / اللَّوَائِي}} \\iff \\text{Shilah: فَزْنَ}",
@@ -1299,7 +1299,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat larangan berikut:\n'يَا طُلَّابُ، لَا ... فِي أَدَاءِ وَاجِبَاتِكُمُ المَدْرَسِيَّةِ!'\nBentuk fi'il mudhari' jamak mukhatab (Af'alul Khamsah) yang TEPAT dan majzum setelah Laa an-Nahiyah adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَا طُلَّابُ، لَا ... فِي أَدَاءِ وَاجِبَاتِكُمُ المَدْرَسِيَّةِ!'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB AF'ALUL KHAMSAH DALAM KEADAAN MAJZUM",
       "latex": "\\text{لَا النَّاهِيَةُ} + \\mathbf{\\text{Fi'il Af'alul Khamsah (تَفْعَلُونَ)}} \\xrightarrow{\\mathbf{\\text{Hadzfun Nun}}} [\\text{لَا } \\mathbf{\\text{تُقَصِّرُوا}}]",
@@ -1347,7 +1347,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Isim ghairu munsharif (kata benda yang tidak menerima tanwin) memiliki keunikan tanda I'rab, yaitu majrur dengan harakat fathah sebagai pengganti kasrah selama tidak ber-alif lam dan tidak menjadi mudhaf. Manakah kalimat berikut yang MENERAPKAN kaidah tersebut secara tepat pada wazan shighah muntahal jumuu' 'مَسَاجِدَ'?",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n' '\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "I'RAB ISIM GHAIRU MUNSHARIF MAJRUR",
       "latex": "\\text{حَرْفُ الجَرِّ (فِي)} + \\mathbf{\\text{مَسَاجِدَ (Shighah Muntahal Jumuu')}} \\xrightarrow{\\text{Tanpa AL \\& Tanpa Idhafah}} \\mathbf{\\text{Majrur bil-Fathah Niyabatan 'anil-Kasrah}}",
@@ -1395,7 +1395,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut ini:\n'رَجَعَ الفَائِزُ مِنَ المُسَابَقَةِ ... بِفَوْزِهِ العَظِيمِ.'\nKata yang TEPAT untuk berkedudukan sebagai Haal Mufradah (isim sifat nakirah manshubah yang menerangkan keadaan fa'il saat perbuatan berlangsung) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'رَجَعَ الفَائِزُ مِنَ المُسَابَقَةِ ... بِفَوْزِهِ العَظِيمِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "STRUKTUR KALIMAT BER-HAAL",
       "latex": "\\text{Fi'il (رَجَعَ)} + \\text{Shahibul Hal Ma'rifah (الفَائِزُ)} + \\mathbf{\\text{Haal Nakirah Manshubah (فَرِحًا)}}",
@@ -1443,7 +1443,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat komparatif berikut:\n'إِنْدُونِيسِيَا أَكْبَرُ مِنَ الفِلِبِّينِ ... فِي جَنُوبِ شَرْقِ آسِيَا.'\nKata penjelas kesamaran (Tamyiz Malhuzh manshub bil-fathah) yang TEPAT untuk memperjelas aspek keunggulan ukuran negara pada kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'إِنْدُونِيسِيَا أَكْبَرُ مِنَ الفِلِبِّينِ ... فِي جَنُوبِ شَرْقِ آسِيَا.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "TAMYIZ SETELAH ISIM TAFDHIL",
       "latex": "\\text{Isim Tafdhil (أَكْبَرُ مِنْ)} + \\mathbf{\\text{Tamyiz Malhuzh (مِسَاحَةً - Manshub bil-Fathah)}}",
@@ -1491,7 +1491,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat tujuan berikut:\n'يَجْتَهِدُ الطَّالِبُ فِي مُذَاكَرَةِ دُرُوسِهِ ... فِي النَّجَاحِ البَاهِرِ.'\nKata yang TEPAT untuk menduduki posisi Maf'ul Liajlih (masdar qolbi manshub yang menjelaskan alasan/motif mengapa perbuatan dilakukan) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَجْتَهِدُ الطَّالِبُ فِي مُذَاكَرَةِ دُرُوسِهِ ... فِي النَّجَاحِ البَاهِرِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "STRUKTUR MAF'UL LIAJLIH",
       "latex": "\\text{Perbuatan (يَجْتَهِدُ)} \\xrightarrow{\\text{Menjawab: 'Li-Maadha?'}} \\mathbf{\\text{Maf'ul Liajlih (رَغْبَةً - Masdar Qolbi Manshub)}}",
@@ -1539,7 +1539,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'شَكَرْتُ الأُسْتَاذَ شُكْرًا جَزِيلًا عَلَى حُسْنِ تَوْجِيهِهِ.'\nFungsi gramatikal dari Maf'ul Muthlaq 'شُكْرًا جَزِيلًا' pada kalimat di atas adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'شَكَرْتُ الأُسْتَاذَ شُكْرًا جَزِيلًا عَلَى حُسْنِ تَوْجِيهِهِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "FUNGSI MAF'UL MUTHLAQ",
       "latex": "\\text{Maf'ul Muthlaq} = \\begin{cases} \\text{1. Taukid:} & \\text{شَكَرْتُ شُكْرًا (Menegaskan)} \\\\ \\mathbf{\\text{2. Bayan Nau':}} & \\mathbf{\\text{شَكَرْتُ شُكْرًا جَزِيلًا (Disifati / Idhafah)}} \\\\ \\text{3. Bayan 'Adad:} & \\text{شَكَرْتُ شَكْرَتَيْنِ (Menghitung frekuensi)} \\end{cases}",
@@ -1587,7 +1587,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Kata 'قَطَعَ' (qatha'a) bermakna 'memotong'. Namun ketika diubah ke wazan tasydid 'قَطَّعَ' (qath-tha'a), seperti dalam kalimat 'قَطَّعَ اللَّحْمَ إِرَبًا إِرَبًا', penambahan tasydid (*tadh'if*) pada wazan فَعَّلَ tersebut memberikan faedah makna gramatikal...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'قَطَعَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "FAEDAH WAZAN فَعَّلَ (TADH'IF 'AIN FI'IL)",
       "latex": "\\text{قَطَعَ (Memotong sekali)} \\xrightarrow{\\mathbf{\\text{Wazan فَعَّلَ}}} \\mathbf{\\text{قَطَّعَ (Memotong berkeping-keping)}} \\implies \\text{Faedah: At-Taktsir (Intensitas/Banyak)}",
@@ -1635,7 +1635,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam wacana bahasa Arab, kalimat 'صَافَحَ عَلِيٌّ زَيْدًا' menggunakan fi'il wazan 'فَاعَلَ' (faa'ala). Makna gramatikal yang terkandung dalam wazan faa'ala pada kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'صَافَحَ عَلِيٌّ زَيْدًا'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "FAEDAH WAZAN فَاعَلَ (MUSYARAKAH)",
       "latex": "\\text{Wazan فَاعَلَ (صَافَحَ)} \\implies \\mathbf{\\text{Al-Musyarakah (Saling/Timbal Balik Dua Pihak)}}",
@@ -1683,7 +1683,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Fi'il mu'tal ajwaf 'قَالَ' memiliki huruf 'illat alif di tengahnya. Apabila kata kerja ini disambungkan dengan dhamir mutakallim 'أَنَا', maka terjadi pembuangan huruf 'illat karena bertemunya dua sukun (*iltiqa'us-sakinain*), sehingga bentuk konjugasinya yang TEPAT adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'قَالَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH I'LAL FI'IL AJWAF (قَالَ $\\to$ قُلْتُ)",
       "latex": "\\text{قَالَ (أَصْلُهُ: قَوَلَ)} + \\text{تُ} \\to \\text{قَوْلْتُ} \\xrightarrow{\\mathbf{\\text{Iltiqa'us-Sakinain}}} \\mathbf{\\text{قُلْتُ (Qultu)}}",
@@ -1731,7 +1731,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pengecualian (istitsna') berikut ini:\n'حَضَرَ المُهَنْدِسُونَ المَشْرُوعَ إِلَّا ... وَاحِدًا كَانَ مُسَافِرًا.'\nKarena kalimat di atas berbentuk *Kalam Tam Mujab* (kalimat sempurna tanpa partikel negasi/nafyi), maka Mustatsna setelah 'إِلَّا' wajib berstatus...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'حَضَرَ المُهَنْدِسُونَ المَشْرُوعَ إِلَّا ... وَاحِدًا كَانَ مُسَافِرًا.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "HUKUM I'RAB MUSTATSNA BI ILLAA",
       "latex": "\\text{Kalam Taam Muujab (حَضَرَ المُهَنْدِسُونَ)} + \\text{إِلَّا} \\implies \\mathbf{\\text{Wajib Manshub: مُهَنْدِسًا}}",
@@ -1777,7 +1777,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat panggilan (nida') berikut ini:\n'يَا ... العِلْمِ، لَا تَبْخَلْ بِمَعْلُومَاتِكَ عَلَى زُمَلَائِكَ!'\nBentuk kata yang TEPAT untuk mengisi posisi Munada Mudhaf (yang berkedudukan I'rab manshub bil-fathah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'يَا ... العِلْمِ، لَا تَبْخَلْ بِمَعْلُومَاتِكَ عَلَى زُمَلَائِكَ!'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB MUNADA MUDHAF",
       "latex": "\\text{حَرْفُ النِّدَاءِ (يَا)} + \\mathbf{\\text{Munada Mudhaf (طَالِبَ - Manshub bil-Fathah)}} + \\text{Mudhaf Ilaih (العِلْمِ)}",
@@ -1825,7 +1825,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'تَوَلَّى الخَلِيفَةُ ... الخِلَافَةَ بَعْدَ وَفَاةِ أَبِي بَكْرٍ الصِّدِّيقِ.'\nKata yang TEPAT untuk menduduki posisi Badal Muthabaq marfu' bil-dhommah (mengikuti mubdal minhu 'الخَلِيفَةُ' yang marfu' sebagai fa'il) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'تَوَلَّى الخَلِيفَةُ ... الخِلَافَةَ بَعْدَ وَفَاةِ أَبِي بَكْرٍ الصِّدِّيقِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB BADAL MUTHABAQ (KUL MIN KUL)",
       "latex": "\\text{Fa'il Marfu' (الخَلِيفَةُ)} \\implies \\mathbf{\\text{Badal Marfu' (عُمَرُ - Isim Ghairu Munsharif Tanpa Tanwin)}}",
@@ -1873,7 +1873,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat penegasan berikut:\n'قَابَلْتُ الرَّئِيسَ ... فِي قَصْرِ الرِّئَاسَةِ أَمْسِ.'\nBentuk kata taukid ma'nawi yang TEPAT untuk menegaskan objek 'الرَّئِيسَ' (manshub bil-fathah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'قَابَلْتُ الرَّئِيسَ ... فِي قَصْرِ الرِّئَاسَةِ أَمْسِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB TAUKID MA'NAWI (نَفْس / عَيْن)",
       "latex": "\\text{Mu'akkad Manshub (الرَّئِيسَ)} \\implies \\mathbf{\\text{Taukid Manshub (نَفْسَهُ)}} + \\text{Dhamir Mutabaqah (ـهُ)}",
@@ -1921,7 +1921,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah bilangan belasan (13 sampai 19), bagian pertama berlawanan jenis dengan ma'dud, bagian kedua menyamai jenis ma'dud, keduanya mabni di atas fathah (*mabni 'ala fathatai al-juz'aini*), dan ma'dud-nya berupa isim mufrad manshub. Jika kita ingin menyatakan 'lima belas siswa' (mufrad: 'طَالِبًا'), maka susunan yang BENAR adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'طَالِبًا'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH ADAD BELASAN (13 - 19)",
       "latex": "\\text{Ma'dud Mudzakkar (طَالِبًا)} \\implies \\mathbf{\\text{Juz 1: خَمْسَةَ (Mu'annats)}} + \\mathbf{\\text{Juz 2: عَشَرَ (Mudzakkar)}} + \\mathbf{\\text{Tamyiz Mufrad Manshub}}",
@@ -1969,7 +1969,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Bacalah teks biografi ringkas berikut:\n'يُعَدُّ ابْنُ سِينَا (أَفِيسِينَا) مِنْ أَعْظَمِ عُلَمَاءِ الطِّبِّ فِي التَّارِيخِ الإِسْلَامِيِّ وَالعَالَمِيِّ. أَلَّفَ كِتَابَهُ الشَّهِيرَ 'القَانُون فِي الطِّبِّ' الَّذِي ظَلَّ المَرْجِعَ الأَسَاسِيَّ لِتَدْرِيسِ الطِّبِّ فِي جَامِعَاتِ أُورُوبَّا لِعِدَّةِ قُرُونٍ، وَقَدْ وَصَفَ فِيهِ العَدِيدَ مِنَ الأَمْرَاضِ المُعْدِيَةِ وَطُرُقَ انْتِقَالِهَا.'\nBerdasarkan teks di atas, bukti keunggulan monumental karya Ibnu Sina 'Al-Qanun fit-Thibb' adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'القَانُون فِي الطِّبِّ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "ANALISIS EKSPLANASI FAHM AL-MAQRU'",
       "latex": "\\text{كتاب القانون في الطب} \\implies \\begin{cases} \\mathbf{\\text{Marja' Asasi di Universitas Eropa Berabad-abad}} \\\\ \\mathbf{\\text{Deskripsi Penyakit Menular \\& Cara Penularannya}} \\end{cases}",
@@ -2151,7 +2151,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perkakas yang digunakan oleh seorang penjahit untuk memotong kain dinamakan gunting ('مِقَصٌّ' - miqashshun), dan alat yang digunakan untuk menimbang berat beras dinamakan timbangan ('مِيزَانٌ' - miizaanun). Kedua kata benda perkakas tersebut dalam ilmu shorof digolongkan sebagai...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'مِقَصٌّ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DERIVASI ISIM ALAT (أَوْزَانُ اسْمِ الآلَةِ)",
       "latex": "\\text{Wazan Isim Alat} = \\begin{cases} \\mathbf{\\text{مِفْعَالٌ:}} & \\text{مِيزَانٌ (Timbangan), مِفْتَاحٌ (Kunci)} \\\\ \\mathbf{\\text{مِفْعَلٌ:}} & \\text{مِقَصٌّ (Gunting), مِبْرَدٌ (Kikir)} \\\\ \\mathbf{\\text{مِفْعَلَةٌ:}} & \\text{مِسْطَرَةٌ (Penggaris), مِكْنَسَةٌ (Sapu)} \\end{cases}",
@@ -2199,7 +2199,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat tauhid berikut ini:\n'لَا ... مَوْجُودٌ بِحَقٍّ فِي الكَوْنِ إِلَّا اللهُ.'\nKata yang TEPAT untuk menduduki posisi Isim Laa an-Nafiyah lil-Jinsi (mufrad nakirah yang mabni di atas harakat fathah tanpa tanwin) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'لَا ... مَوْجُودٌ بِحَقٍّ فِي الكَوْنِ إِلَّا اللهُ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "KAIDAH LAA NAFYI AL-JINSI",
       "latex": "\\text{لَا النَّافِيَةُ لِلْجِنْسِ} + \\mathbf{\\text{Isim Laa (إِلَهَ - Mabni 'alal-Fath Tanpa Tanwin)}} + \\text{Khabar Laa}",
@@ -2247,7 +2247,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Bacalah teks hubungan internasional berikut:\n'تَرْبِطُ إِنْدُونِيسِيَا بِالدُّوَلِ العَرَبِيَّةِ عَلَاقَاتٌ تَارِيخِيَّةٌ وَثِيقَةٌ مُنْذُ قُرُونٍ طَوِيلَةٍ. وَفِي العَصْرِ الحَاضِرِ، تَشْهَدُ هَذِهِ العَلَاقَاتُ تَطَوُّرًا مَلْحُوظًا فِي المَجَالَاتِ الدِّبْلُومَاسِيَّةِ وَالتِّجَارِيَّةِ، حَيْثُ تُصَدِّرُ إِنْدُونِيسِيَا المُنْتَجَاتِ الزِّرَاعِيَّةَ مِثْلَ زَيْتِ النَّخِيلِ وَالبُنِّ، بَيْنَمَا تَسْتَوْرِدُ النِّفْطَ وَالمَشْتَقَّاتِ البِتْرُولِيَّةَ.'\nBerdasarkan wacana di atas, komoditas utama yang diekspor Indonesia ke negara-negara Arab adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'تَرْبِطُ إِنْدُونِيسِيَا بِالدُّوَلِ العَرَبِيَّةِ عَلَاقَاتٌ تَارِيخِيَّةٌ وَثِيقَةٌ مُنْذُ قُرُونٍ طَوِيلَةٍ. وَفِي العَصْرِ الحَاضِرِ، تَشْهَدُ هَذِهِ العَلَاقَاتُ تَطَوُّرًا مَلْحُوظًا فِي المَجَالَاتِ الدِّبْلُومَاسِيَّةِ وَالتِّجَارِيَّةِ، حَيْثُ تُصَدِّرُ إِنْدُونِيسِيَا المُنْتَجَاتِ الزِّرَاعِيَّةَ مِثْلَ زَيْتِ النَّخِيلِ وَالبُنِّ، بَيْنَمَا تَسْتَوْرِدُ النِّفْطَ وَالمَشْتَقَّاتِ البِتْرُولِيَّةَ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "INFERENSI EKSPOR IMPOR RI - ARAB",
       "latex": "\\begin{cases} \\mathbf{\\text{Ekspor RI ke Arab (تُصَدِّرُ):}} & \\mathbf{\\text{زَيْت النَّخِيل (Sawit) + البُنّ (Kopi)}} \\\\ \\text{Impor RI dari Arab (تَسْتَوْرِدُ):} & \\text{النِّفْط (Minyak Bumi) + مشتقات بترولية} \\end{cases}",
@@ -2291,7 +2291,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Fi'il mu'tal naqish 'دَعَا - يَدْعُو' memiliki huruf 'illat wawu di akhir katanya. Apabila kata kerja ini didahului oleh huruf jazm 'لَمْ' (lam yaf'al), maka tanda jazm-nya adalah pembuangan huruf 'illat (*hadzfu harfil 'illah*). Bentuk fi'il mudhari' majzum yang BENAR adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'دَعَا - يَدْعُو'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "I'RAB JAZM FI'IL NAQISH (حَذْفُ حَرْفِ العِلَّةِ)",
       "latex": "\\text{يَدْعُو (Fi'il Mu'tal Akhir Wawu)} + \\text{لَمْ (Amil Jazm)} \\implies \\mathbf{\\text{لَمْ يَدْعُ (Lam Yad'u)}}",
@@ -2339,7 +2339,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati peribahasa bersyarat (*uslubusy syarth*) yang menjazmkan dua fi'il mudhari' berikut ini:\n'إِنْ ... فِي دِرَاسَتِكَ تَنْجَحْ فِي حَيَاتِكَ المُسْتَقْبَلِيَّةِ.'\nFi'il syarth yang TEPAT dan berstatus majzum bis-sukun setelah 'إِنْ' syarthiyyah adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'إِنْ ... فِي دِرَاسَتِكَ تَنْجَحْ فِي حَيَاتِكَ المُسْتَقْبَلِيَّةِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "USLUBUSY SYARTH (إِنْ جَازِمَةٌ)",
       "latex": "\\text{إِنْ (Adatusy Syarth)} + \\mathbf{\\text{Fi'lusy Syarth Majzum (تَجْتَهِدْ)}} + \\text{Jawaabusy Syarth Majzum (تَنْجَحْ)}",
@@ -2387,7 +2387,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan bait syair balaghah berikut ini:\n'أَنْتَ نَجْمٌ فِي رِفْعَةٍ وَضِيَاءٍ ... تَجْتَلِيكَ العُيُونُ شَرْقًا وَغَرْبًا'\nDalam bait di atas, penyair menyerupakan sang tokoh (أَنْتَ) dengan bintang (نَجْمٌ) dalam hal keluhuran (رِفْعَةٍ) tanpa menghadirkan huruf/alat tasybih (seperti كَـ atau مِثْلَ). Ditinjau dari kaidah ilmu bayan, kategori tasybih yang tidak menyebutkan adat tasybih dinamakan...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'أَنْتَ نَجْمٌ فِي رِفْعَةٍ وَضِيَاءٍ ... تَجْتَلِيكَ العُيُونُ شَرْقًا وَغَرْبًا'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "KLASIFIKASI TASYBIH BERDASARKAN ADAT TASYBIH",
       "latex": "\\text{Tasybih} = \\begin{cases} \\text{Sebut Adat Tasybih:} & \\mathbf{\\text{Tasybih Mursal (كَـ / مِثْلَ)}} \\\\ \\mathbf{\\text{Hapus Adat Tasybih:}} & \\mathbf{\\text{Tasybih Mu'akkad (أَنْتَ نَجْمٌ)}} \\\\ \\text{Hapus Wajhusy Syabah:} & \\text{Tasybih Mujmal} \\\\ \\text{Hapus Adat \\& Wajh:} & \\text{Tasybih Baligh} \\end{cases}",
@@ -2435,7 +2435,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati firman Allah Swt. dalam QS. Ibrahim ayat 1 berikut:\n'كِتَابٌ أَنْزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ'\nDalam ayat di atas, kata 'الظُّلُمَاتِ' dipinjam untuk memaksudkan 'kekafiran/kesesatan', dan 'النُّورِ' dipinjam untuk memaksudkan 'keimanan/petunjuk'. Karena musyabbah-nya dibuang dan musyabbah bih-nya (zhulumat dan an-nur) ditegaskan secara eksplisit (*tashrih*), maka gaya bahasa ini digolongkan sebagai...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'كِتَابٌ أَنْزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DIKOTOMI ISTI'ARAH (TASHRIHIYYAH VS MAKNIYYAH)",
       "latex": "\\text{Isti'arah} \\implies \\begin{cases} \\mathbf{\\text{Musyabbah Bih Ditampakkan:}} & \\mathbf{\\text{Isti'arah Tashrihiyyah (الظُّلُمَاتِ = الكُفْر)}} \\\\ \\text{Musyabbah Bih Disembunyikan:} & \\text{Isti'arah Makniyyah (Hanya tinggal lawazim-nya)} \\end{cases}",
@@ -2483,7 +2483,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati ayat Al-Qur'an dalam QS. Az-Zumar ayat 9 berikut:\n'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ'\nKeindahan gaya bahasa (*muhassinaat ma'nawiyyah*) yang mempertemukan dua kata yang berlawanan makna pada ayat tersebut dinamakan...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'قُلْ هَلْ يَسْتَوِي الَّذِينَ يَعْلَمُونَ وَالَّذِينَ لَا يَعْلَمُونَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DIKOTOMI THIBAQ (IJAB VS SALAB)",
       "latex": "\\text{Thibaq (Antitesis)} = \\begin{cases} \\text{Kata Positif } \\iff \\text{ Kata Positif:} & \\text{Thibaq Ijab (اللَّيْلُ } \\iff \\text{ النَّهَارُ)} \\\\ \\mathbf{\\text{Kata Positif } \\iff \\text{ Kata Negatif (Nafyi):}} & \\mathbf{\\text{Thibaq Salab (يَعْلَمُونَ } \\iff \\text{ لَا يَعْلَمُونَ)}} \\end{cases}",
@@ -2574,7 +2574,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan pertemuan dua kata berikut:\n'قَالَتِ اخْرُجْ عَلَيْهِنَّ' atau kalimat 'اسْتَمِعِ الكَلَامَ'.\nKata 'اسْتَمِعْ' aslinya berakhiran sukun sebagai fi'il amar, dan huruf pertama dari kata 'الكَلَامَ' juga sukun (lam ta'rif). Mengapa huruf 'ain pada 'اسْتَمِعْ' diubah harakatnya menjadi kasrah ('اسْتَمِعِ الكَلَامَ')?",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'قَالَتِ اخْرُجْ عَلَيْهِنَّ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH FONOLOGIS ILTIQA'US SAKINAIN",
       "latex": "\\text{اسْتَمِعْ (Sukun 1)} + \\text{الْكَلَامَ (Sukun 2)} \\xrightarrow{\\mathbf{\\text{Iltiqa'us Sakinain}}} \\mathbf{\\text{اسْتَمِعِ الْكَلَامَ (Kasrah 'Aridhah)}}",
@@ -2618,7 +2618,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'جَاءَ القَاضِي مَعَ الفَتَى إِلَى المَحْكَمَةِ.'\nAnalisis gramatikal yang TEPAT mengenai tanda I'rab pada kata 'القَاضِي' (Isim Manqush) dan 'الفَتَى' (Isim Maqshur) pada kalimat di atas adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'جَاءَ القَاضِي مَعَ الفَتَى إِلَى المَحْكَمَةِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DISTINGSI I'RAB TAQDIRI: MAQSHUR VS MANQUSH",
       "latex": "\\begin{cases} \\mathbf{\\text{Isim Maqshur (الفَتَى):}} & \\text{Muqaddarah 'alal-Alif } (\\mathbf{\\text{Ta'adz-dzur / Mustahil}} \\text{ berharakat)} \\\\ \\mathbf{\\text{Isim Manqush (القَاضِي):}} & \\text{Muqaddarah 'alal-Yaa' } (\\mathbf{\\text{Tsiqal / Berat}} \\text{ pada Rafa' \\& Jar)} \\end{cases}",
@@ -2662,7 +2662,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam susunan kata 'طَالِبُ العِلْمِ', hubungan penyandarannya adalah Idhafah Ma'nawiyyah yang memberi faedah *ta'rif* (pendefinisian ma'rifah). Namun pada kalimat 'هَذَا رَجُلٌ حَسَنُ الخُلُقِ', hubungan penyandarannya dinamakan Idhafah Lafzhiyyah karena...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'طَالِبُ العِلْمِ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KARAKTERISTIK IDHAFAH LAFHZIYYAH",
       "latex": "\\text{Isim Sifat (حَسَنُ)} + \\text{Ma'mul-nya (الخُلُقِ)} \\implies \\mathbf{\\text{Idhafah Lafzhiyyah (Faedah: Takhfif Tanwin)}}",
@@ -2705,7 +2705,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat klasik berikut:\n'أَكْرَمْتُ وَأَكْرَمَنِي الأُسْتَاذُ' atau 'أَكْرَمَنِي وَأَكْرَمْتُ الأُسْتَاذَ'.\nDalam gramatika nahwu tingkat tinggi, fenomena ketika dua amil (dua kata kerja) saling berebut pengaruh untuk mengamalkan satu objek/subjek isim zhahir di belakangnya dinamakan *At-Tanazu' fil 'Amal*. Menurut kaidah mayoritas ulama Mazhab Bashrah, amil yang lebih diutamakan untuk beramal secara langsung pada isim zhahir tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'أَكْرَمْتُ وَأَكْرَمَنِي الأُسْتَاذُ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "BAB TANAZU' FIL 'AMAL (تَنَازُعُ العَامِلَيْنِ)",
       "latex": "\\text{Amil 1} + \\text{Amil 2} + \\mathbf{\\text{Ma'mul Zhahir}} \\implies \\begin{cases} \\mathbf{\\text{Mazhab Bashrah:}} & \\mathbf{\\text{Amil Kedua (Li Qurbihi / Lebih Dekat)}} \\\\ \\text{Mazhab Kufah:} & \\text{Amil Pertama (Li Sabaqihi / Lebih Dahulu)} \\end{cases}",
@@ -2750,7 +2750,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Kata dasar 'صَبَرَ' (shabara - sabar) ketika dimasukkan ke wazan 'افْتَعَلَ' (ifta'ala) seharusnya berbunyi 'اصْتَبَرَ' (ishtabara). Namun dalam kaidah shorof fusha, huruf ta' ifti'al wajib diganti (*ibdal*) menjadi huruf tha' ('اصْطَبَرَ'). Alasan fonologis morfologis dilakukannya pergantian huruf tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'صَبَرَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH IBDAL WAZAN IFTA'ALA (ص، ض، ط، ظ)",
       "latex": "\\text{صَبَرَ} + \\text{افْتَعَلَ} \\to \\text{اصْتَبَرَ} \\xrightarrow{\\mathbf{\\text{Ibdal Ta' } \\to \\text{ Tha'}}} \\mathbf{\\text{اصْطَبَرَ (Ishtabara)}}",
@@ -2793,7 +2793,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam bahasa Arab, kalimat 'اسْتَحْسَنَ المُعَلِّمُ إِجَابَةَ الطَّالِبِ' menggunakan fi'il wazan 'اسْتَفْعَلَ' (istaf'ala). Makna gramatikal yang terkandung dalam kata 'اسْتَحْسَنَ' (istahsana) pada kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'اسْتَحْسَنَ المُعَلِّمُ إِجَابَةَ الطَّالِبِ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "RAGAM FAEDAH WAZAN اسْتَفْعَلَ",
       "latex": "\\text{Wazan اسْتَفْعَلَ} = \\begin{cases} \\text{1. At-Talab (Meminta):} & \\text{اسْتَغْفَرَ (Minta ampun)} \\\\ \\mathbf{\\text{2. Al-I'tiqad (Menganggap):}} & \\mathbf{\\text{اسْتَحْسَنَ (Menganggap baik)}} \\\\ \\text{3. Ash-Shairurah (Menjadi):} & \\text{اسْتَحْجَرَ الطِّينُ (Tanah mengeras jadi batu)} \\end{cases}",
@@ -2841,7 +2841,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Fi'il mudha'af tsulatsi 'مَدَّ' (madda) memiliki dua huruf dal yang di-tasydid (*idgham*). Apabila kata kerja ini dikonjugasikan dengan dhamir mutakallim 'أَنَا', maka kaidah shorof yang WAJIB diberlakukan adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'مَدَّ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH FAKKUL IDGHAM FI'IL MUDHA'AF",
       "latex": "\\text{مَدَّ} + \\text{Dhamir Rafa' Mutaharrik (تُ)} \\xrightarrow{\\mathbf{\\text{Wajib Urai Tasydid (Fakk)}}} \\mathbf{\\text{مَدَدْتُ (Madadtu)}}",
@@ -2889,7 +2889,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pengkhususan (*uslubul ikhtishash*) berikut ini:\n'نَحْنُ ... نَبْنِي مُسْتَقْبَلَ الوَطَنِ بِسَوَاعِدِنَا.'\nKata yang TEPAT untuk mengisi posisi Isim Mukhtash (yang berkedudukan manshub dengan fi'il mahdzuf takdirnya 'أَخُصُّ' atau 'أَعْنِي') adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'نَحْنُ ... نَبْنِي مُسْتَقْبَلَ الوَطَنِ بِسَوَاعِدِنَا.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "USLUBUL IKHTISHASH (أُسْلُوبُ الاِخْتِصَاصِ)",
       "latex": "\\text{Dhamir Mutakallim (نَحْنُ)} + \\mathbf{\\text{Isim Mukhtash Manshub (الشَّبَابَ)}} \\implies [\\text{Bi Fi'lin Mahdzuuf Taqdiiruhu: أَعْنِي / أَخُصُّ}]",
@@ -2937,7 +2937,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah peringatan bahaya (*uslubut tahdzir*), susunan kalimat 'إِيَّاكَ وَالكَذِبَ!' mengandung struktur I'rab yang sangat presisi. Analisis I'rab yang TEPAT mengenai kedudukan kata 'إِيَّاكَ' dan 'الكَذِبَ' pada kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'إِيَّاكَ وَالكَذِبَ!'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "ANATOMI I'RAB USLUB TAHDZIR (إِيَّاكَ وَالكَذِبَ)",
       "latex": "\\underbrace{\\text{إِيَّاكَ}}_{\\text{Maf'ul Bih } (\\text{Fi'il: احْذَرْ})} + \\text{حرف العطف} + \\underbrace{\\text{الْكَذِبَ}}_{\\text{Maf'ul Bih } (\\text{Fi'il: احْذَرْ / بَاعِدْ})}",
@@ -2981,7 +2981,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pujian (*af'alul madh*) berikut ini:\n'نِعْمَ الخُلُقُ الصِّدْقُ فِي التَّعَامُلِ مَعَ النَّاسِ.'\nDalam kaidah nahwu, kedudukan I'rab dari kata 'الصِّدْقُ' sebagai *Al-Makhshush bil-Madh* (subjek yang secara khusus dipuji) adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'نِعْمَ الخُلُقُ الصِّدْقُ فِي التَّعَامُلِ مَعَ النَّاسِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "I'RAB AF'ALUL MADH (نِعْمَ)",
       "latex": "\\underbrace{\\text{نِعْمَ (Fi'il Madh) } + \\text{ الخُلُقُ (Fa'il)}}_{\\mathbf{\\text{Khabar Muqaddam (Jumlah Fi'liyyah)}}} + \\underbrace{\\text{الصِّدْقُ}}_{\\mathbf{\\text{Mubtada' Mu'akhkhar (Makhshush bil-Madh)}}}",
@@ -3025,7 +3025,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati sabda Rasulullah saw. yang terkenal berikut:\n'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ'\nDalam ilmu ma'ani, kalimat di atas menggunakan salah satu metode pembatasan (*Thuruqul Qashr*), yaitu dengan peranti 'إِنَّمَا'. Unsur yang menjadi *Al-Maqshur* (perkara yang dibatasi) dan *Al-Maqshur 'Alaih* (tujuan pembatasan) secara berturut-turut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'إِنَّمَا الأَعْمَالُ بِالنِّيَّاتِ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "ANATOMI AL-QASHR BI INNAMA (إِنَّمَا)",
       "latex": "\\text{إِنَّمَا} + \\underbrace{\\text{الأَعْمَالُ}}_{\\mathbf{\\text{Al-Maqshur (Yang Dibatasi)}}} + \\underbrace{\\text{بِالنِّيَّاتِ}}_{\\mathbf{\\text{Al-Maqshur 'Alaih (Tujuan Akhir Pembatasan)}}}",
@@ -3112,7 +3112,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati teks pemikiran sosiologi politik Ibnu Khaldun berikut:\n'إِنَّ العَصَبِيَّةَ هِيَ الرَّابِطَةُ الِاجْتِمَاعِيَّةُ القَائِمَةُ عَلَى صِلَةِ الرَّحِمِ أَوِ الحِلْفِ، وَهِيَ الأَسَاسُ الَّذِي يَمْنَحُ الجَمَاعَةَ القُدْرَةَ عَلَى الدِّفَاعِ عَنْ نَفْسِهَا، وَالمُطَالَبَةِ بِحُقُوقِهَا، وَتَأْسِيسِ الدُّوَلِ وَالمَمَالِكِ. وَإِذَا ضَعُفَتْ هَذِهِ العَصَبِيَّةُ بِسَبَبِ الإِفْرَاطِ فِي التَّرَفِ وَالرَّخَاءِ، بَدَأَتِ الدَّوْلَةُ فِي الِانْحِدَارِ وَالسُّقُوطِ.'\nInti tesis sosiologis Ibnu Khaldun mengenai eksistensi dan keruntuhan suatu peradaban/negara menurut teks di atas adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'إِنَّ العَصَبِيَّةَ هِيَ الرَّابِطَةُ الِاجْتِمَاعِيَّةُ القَائِمَةُ عَلَى صِلَةِ الرَّحِمِ أَوِ الحِلْفِ، وَهِيَ الأَسَاسُ الَّذِي يَمْنَحُ الجَمَاعَةَ القُدْرَةَ عَلَى الدِّفَاعِ عَنْ نَفْسِهَا، وَالمُطَالَبَةِ بِحُقُوقِهَا، وَتَأْسِيسِ الدُّوَلِ وَالمَمَالِكِ. وَإِذَا ضَعُفَتْ هَذِهِ العَصَبِيَّةُ بِسَبَبِ الإِفْرَاطِ فِي التَّرَفِ وَالرَّخَاءِ، بَدَأَتِ الدَّوْلَةُ فِي الِانْحِدَارِ وَالسُّقُوطِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "SIKLUS PERADABAN IBNU KHALDUN (العَصَبِيَّةُ وَالتَّرَفُ)",
       "latex": "\\mathbf{\\text{العَصَبِيَّةُ (Solidaritas Sosial)}} \\xrightarrow{\\text{Membangun}} \\mathbf{\\text{Kekuatan Negara}} \\xrightarrow{\\text{Taraf (Mewah Berlebih)}} \\mathbf{\\text{Inhidar/Runtuh}}",
@@ -3204,7 +3204,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat bersyarat dalam wacana berikut:\n'لَا تَتَكَاسَلْ عَنْ طَلَبِ العِلْمِ فَتَنْدَمَ فِي كِبَرِكَ.'\nHarakat huruf mim pada fi'il mudhari' 'فَتَنْدَمَ' berstatus manshub bil-fathah karena...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'لَا تَتَكَاسَلْ عَنْ طَلَبِ العِلْمِ فَتَنْدَمَ فِي كِبَرِكَ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KAIDAH FA' AS-SABABAYYAH (فَاءُ السَّبَبِيَّةِ)",
       "latex": "\\text{Thalab / Nahyi (لَا تَتَكَاسَلْ)} \\xrightarrow{\\mathbf{\\text{فَـ (Fa' Sababiyyah)}}} \\mathbf{\\text{فَتَنْدَمَ (Manshub bi 'An' Mudhmarah Wujuuban)}}",
@@ -3248,7 +3248,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'سَعَى المُجْتَهِدُ فِي طَلَبِ الرِّزْقِ مَسْعًى حَمِيدًا.'\nKata 'مَسْعًى' (mas'an) pada kalimat di atas memiliki wazan yang serupa dengan isim makan. Namun secara semantik gramatikal, kata tersebut digolongkan sebagai Masdar Mimi karena...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'سَعَى المُجْتَهِدُ فِي طَلَبِ الرِّزْقِ مَسْعًى حَمِيدًا.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "KARAKTERISTIK MASDAR MIMI (المَصْدَرُ المِيمِيُّ)",
       "latex": "\\text{سَعَى} \\dots \\mathbf{\\text{مَسْعًى حَمِيدًا}} \\iff \\text{Bisa digantikan Masdar Asli: } [\\text{سَعَى } \\dots \\mathbf{\\text{سَعْيًا}} \\text{ حَمِيدًا}]",
@@ -3292,7 +3292,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati ayat Al-Qur'an dalam QS. Ar-Rum ayat 55 berikut:\n'وَيَوْمَ تَقُومُ السَّاعَةُ يُقْسِمُ المُجْرِمُونَ مَا لَبِثُوا غَيْرَ سَاعَةٍ'\nPada ayat di atas terdapat dua kata yang sama persis susunannya, yaitu 'السَّاعَةُ' dan 'سَاعَةٍ'. Keindahan stilistika lafadz (*muhassinaat lafzhiyyah*) ini dinamakan...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'وَيَوْمَ تَقُومُ السَّاعَةُ يُقْسِمُ المُجْرِمُونَ مَا لَبِثُوا غَيْرَ سَاعَةٍ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "SYARAT KESEMPURNAAN JINAS TAAM",
       "latex": "\\text{Lafadz 1 (السَّاعَةُ: Kiamat)} \\iff \\text{Lafadz 2 (سَاعَةٍ: Waktu Sesaat)} \\implies \\mathbf{\\text{Jinas Taam (Sama Huruf, Beda Makna)}}",
@@ -3340,7 +3340,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks wacana kontemporer berikut:\n'يُعَدُّ الذَّكَاءُ الِاصْطِنَاعِيُّ ثَوْرَةً تِكْنُولُوجِيَّةً كُبْرَى فِي العَصْرِ الحَدِيثِ، حَيْثُ يُسْهِمُ فِي تَطْوِيرِ مَجَالَاتِ الطِّبِّ وَالهَنْدَسَةِ وَالتَّعْلِيمِ. وَمَعَ ذَلِكَ، يُحَذِّرُ العُلَمَاءُ مِنَ المَخَاطِرِ الأَخْلَاقِيَّةِ المُرْتَبِطَةِ بِانْتِهَاكِ الخُصُوصِيَّةِ وَفِقْدَانِ الوَظَائِفِ التَّقْلِيدِيَّةِ، مِمَّا يَسْتَدْعِي وَضْعَ قَوَانِينَ صَارِمَةٍ لِضَبْطِ اسْتِخْدَامِهِ.'\nBerdasarkan teks di atas, urgensi perumusan regulasi hukum yang ketat (*qawaaniin shaarimah*) dalam penerapan kecerdasan buatan dipicu oleh...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'يُعَدُّ الذَّكَاءُ الِاصْطِنَاعِيُّ ثَوْرَةً تِكْنُولُوجِيَّةً كُبْرَى فِي العَصْرِ الحَدِيثِ، حَيْثُ يُسْهِمُ فِي تَطْوِيرِ مَجَالَاتِ الطِّبِّ وَالهَنْدَسَةِ وَالتَّعْلِيمِ. وَمَعَ ذَلِكَ، يُحَذِّرُ العُلَمَاءُ مِنَ المَخَاطِرِ الأَخْلَاقِيَّةِ المُرْتَبِطَةِ بِانْتِهَاكِ الخُصُوصِيَّةِ وَفِقْدَانِ الوَظَائِفِ التَّقْلِيدِيَّةِ، مِمَّا يَسْتَدْعِي وَضْعَ قَوَانِينَ صَارِمَةٍ لِضَبْطِ اسْتِخْدَامِهِ.'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "ANALISIS IMPLIKASI ETIS TEKNOLOGI (FAHM AL-MAQRU')",
       "latex": "\\text{Revolusi AI (الذكاء الاصطناعي)} \\implies \\begin{cases} \\text{Manfaat:} & \\text{Kedokteran, Rekayasa, Pendidikan} \\\\ \\mathbf{\\text{Risiko:}} & \\mathbf{\\text{Pelanggaran Privasi \\& Hilangnya Pekerjaan}} \\end{cases} \\implies \\mathbf{\\text{Urgensi Regulasi Ketat}}",
@@ -3383,7 +3383,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'سَارَ المُسَافِرُ ... الشَّاطِئِ عِنْدَ غُرُوبِ الشَّمْسِ.'\nKata yang TEPAT untuk menduduki posisi Maf'ul Ma'ah (isim manshub yang terletak setelah Wawu Ma'iyyah bermakna 'bersamaan dengan') adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'سَارَ المُسَافِرُ ... الشَّاطِئِ عِنْدَ غُرُوبِ الشَّمْسِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB MAF'UL MA'AH (المَفْعُولُ مَعَهُ)",
       "latex": "\\text{Fi'il (سَارَ)} + \\text{Fa'il (المُسَافِرُ)} + \\mathbf{\\text{Wawu Ma'iyyah (وَـ)}} + \\mathbf{\\text{Maf'ul Ma'ah Manshub (شَاطِئَ)}}",
@@ -3431,7 +3431,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam wacana balaghah tinggi, kalimat 'وَاسْأَلِ القَرْيَةَ' (QS. Yusuf: 82) mengandung gaya bahasa *Ijaz bil-Hadzf* (meringkas ungkapan dengan membuang kata tertentu). Kata yang dibuang (*al-mahdzuf*) dalam kalimat tersebut secara logis semantik adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'وَاسْأَلِ القَرْيَةَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "IJAZ BI HADZFIL MUDHAF (إِيجَازُ الحَذْفِ)",
       "latex": "\\text{وَاسْأَلِ القَرْيَةَ} \\xrightarrow{\\mathbf{\\text{Taqdirul Mahdzuf}}} \\mathbf{\\text{وَاسْأَلْ [أَهْلَ] القَرْيَةِ}} \\implies \\text{Gaya Bahasa: Ijaz bil-Hadzf}",
@@ -3479,7 +3479,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dua saudara amil Inna, yaitu 'لَيْتَ' (laita) dan 'لَعَلَّ' (la'alla), sama-sama memanshubkan isim dan merafa'kan khabar, namun memiliki perbedaan mendasar dalam nuansa makna semantiknya. Perbedaan makna yang TEPAT di antara keduanya adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'لَيْتَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DISTINGSI SEMANTIK: LAITA (تَمَنٍّ) VS LA'ALLA (تَرَجٍّ)",
       "latex": "\\begin{cases} \\mathbf{\\text{لَيْتَ (At-Tamanni):}} & \\text{Mengharap hal mustahil (لَيْتَ الشَّبَابَ يَعُودُ يَوْمًا)} \\\\ \\mathbf{\\text{لَعَلَّ (At-Tarajji):}} & \\text{Mengharap hal mungkin terjadi (لَعَلَّ اللهَ يَشْفِينِي)} \\end{cases}",
@@ -3523,7 +3523,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat dengan amil nawasikh Kaana berikut:\n'كَانَتِ الطَّالِبَاتُ فِي مَعْمَلِ اللُّغَةِ ... بِتَوْجِيهَاتِ المُعَلِّمِ.'\nKata yang TEPAT untuk berkedudukan sebagai Khabar Kaana (jama' mu'annats salim manshub dengan tanda harakat kasrah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'كَانَتِ الطَّالِبَاتُ فِي مَعْمَلِ اللُّغَةِ ... بِتَوْجِيهَاتِ المُعَلِّمِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB JAMA' MU'ANNATS SALIM PADA KHABAR KAANA",
       "latex": "\\text{كَانَتْ} + \\text{الطَّالِبَاتُ (Isim Kaana Marfu' bil-Dhommah)} + \\mathbf{\\text{مُنْصِتَاتٍ (Khabar Kaana Manshub bil-Kasrah)}}",
@@ -3571,7 +3571,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat inna berikut ini:\n'إِنَّ ... بَكْرٍ الصِّدِّيقَ كَانَ أَوَّلَ الخُلَفَاءِ الرَّاشِدِينَ مَكَانَةً.'\nBentuk kata Asma'ul Khamsah yang TEPAT untuk mengisi posisi Isim Inna (manshub dengan tanda huruf alif) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'إِنَّ ... بَكْرٍ الصِّدِّيقَ كَانَ أَوَّلَ الخُلَفَاءِ الرَّاشِدِينَ مَكَانَةً.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB ASMA'UL KHAMSAH SETELAH INNA",
       "latex": "\\text{إِنَّ (Amil Nashab)} + \\mathbf{\\text{Isim Inna (أَبَا - Manshub bil-Alif)}} + \\text{Mudhaf Ilaih (بَكْرٍ)}",
@@ -3619,7 +3619,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Kata 'عَلِمَ' ketika ditashrif ke wazan tsulatsi mazid bi harfaini 'تَفَعَّلَ' (تَعَلَّمَ - ta'allama) memiliki makna 'belajar'. Ditinjau dari kaidah semantik shorof, penambahan huruf ta' dan tasydid pada wazan تَعَلَّمَ mengandung faedah makna...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'عَلِمَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "FAEDAH WAZAN تَفَعَّلَ (تَعَلَّمَ)",
       "latex": "\\text{عَلِمَ (Tahu)} \\xrightarrow{\\mathbf{\\text{Wazan تَفَعَّلَ}}} \\mathbf{\\text{تَعَلَّمَ (Belajar)}} \\implies \\text{Faedah: At-Tadrij (Bertahap) \\& At-Takalluf (Bersungguh-sungguh)}",
@@ -3667,7 +3667,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam wacana geologi dan ekonomi pertambangan, kalimat 'اسْتَخْرَجَتِ الشَّرِكَةُ الوَطَنِيَّةُ النِّفْطَ مِنَ الآبَارِ البَحْرِيَّةِ' menggunakan fi'il 'اسْتَخْرَجَ' (istakhraja). Makna gramatikal yang tepat dari kata 'اسْتَخْرَجَ' dalam konteks tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'اسْتَخْرَجَتِ الشَّرِكَةُ الوَطَنِيَّةُ النِّفْطَ مِنَ الآبَارِ البَحْرِيَّةِ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "SEMANTIK WAZAN اسْتَفْعَلَ (اسْتَخْرَجَ)",
       "latex": "\\text{خَرَجَ (Keluar)} \\xrightarrow{\\mathbf{\\text{Wazan اسْتَفْعَلَ}}} \\mathbf{\\text{اسْتَخْرَجَ}} \\implies \\text{Mengerahkan upaya keras untuk mengekstrak/mengeluarkan}",
@@ -3758,7 +3758,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pengecualian berikut:\n'نَجَحَ الطُّلَّابُ فِي الِامْتِحَانِ خَلَا ...'\nApabila kata 'خَلَا' (khalaa) pada kalimat di atas dianggap sebagai HURUF JAR (karena tidak didahului 'مَا' mashdariyyah), maka kata setelahnya berstatus...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'نَجَحَ الطُّلَّابُ فِي الِامْتِحَانِ خَلَا ...'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "HUKUM I'RAB KHALLA / 'ADA / HASYA (خَلَا، عَدَا، حَاشَا)",
       "latex": "\\text{خَلَا / عَدَا (Tanpa مَا)} \\implies \\begin{cases} \\text{Dianggap Fi'il Madhi:} & \\text{Kata setelahnya Manshub (Maf'ul Bih: طَالِبًا)} \\\\ \\mathbf{\\text{Dianggap Huruf Jar:}} & \\mathbf{\\text{Kata setelahnya Majrur (Isim Majrur: طَالِبٍ)}} \\end{cases}",
@@ -3803,7 +3803,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat transaksi berikut:\n'دَفَعَ التَّاجِرُ ... أَلْفَ رُوبِيَّةٍ لِشِرَاءِ البَضَائِعِ.'\nJika pedagang membayar sebesar 'tiga puluh ribu' dan kata bilangan 'tiga puluh' tersebut menduduki posisi Maf'ul Bih (manshub), maka bentuk kata bilangan puluhan 'uqud yang BENAR adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'دَفَعَ التَّاجِرُ ... أَلْفَ رُوبِيَّةٍ لِشِرَاءِ البَضَائِعِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB ALFAZHUL 'UQUD (عُقُودُ الأَعْدَادِ)",
       "latex": "\\text{Maf'ul Bih Manshub} \\implies \\mathbf{\\text{ثَلَاثِينَ (Manshub bil-Yaa')}} \\iff \\text{Mulhaq bi Jama' Mudzakkar Salim}",
@@ -3851,7 +3851,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'خَرَجَ المُسَافِرُ مِنَ القَرْيَةِ ...'\nKaidah nahwu mewajibkan adanya *Wawul Hal* dan dhamir (atau salah satunya) sebagai pengikat (*raabith*) ketika Haal berbentuk Jumlah Ismiyyah. Susunan Haal Jumlah Ismiyyah yang SAHIH untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'خَرَجَ المُسَافِرُ مِنَ القَرْيَةِ ...'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "STRUKTUR HAAL JUMLAH ISMIYYAH",
       "latex": "\\text{Shahibul Hal (المُسَافِرُ)} + \\mathbf{\\text{Wawul Hal (وَـ)}} + \\mathbf{\\text{Jumlah Ismiyyah (الشَّمْسُ طَالِعَةٌ)}} \\implies \\text{Fi Mahalli Nashbin Haal}",
@@ -3899,7 +3899,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'اشْتَرَى أَبِي رِطْلًا ... مِنَ السُّوقِ المَرْكَزِيِّ.'\nKata yang TEPAT untuk berkedudukan sebagai Tamyiz Malfuzh (isim nakirah manshub penjelas kesamaran kata ukuran timbangan rithlan) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'اشْتَرَى أَبِي رِطْلًا ... مِنَ السُّوقِ المَرْكَزِيِّ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "TAMYIZ MALFUZH UKURAN TIMBANGAN",
       "latex": "\\text{Isim Timbangan (رِطْلًا)} + \\mathbf{\\text{Tamyiz Malfuzh (عَسَلًا - Manshub bil-Fathah)}}",
@@ -3947,7 +3947,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat majaz sastra Arab berikut:\n'رَعَتِ المَاشِيَةُ الغَيْثَ'\nSecara harfiah, hewan ternak memakan rumput/tumbuhan hijau, bukan memakan butiran air hujan (*al-ghaits*). Penggunaan kata 'hujan' untuk memaksudkan 'rumput' diklasifikasikan sebagai Majaz Mursal dengan 'Alaqah (hubungan korelasi)...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'رَعَتِ المَاشِيَةُ الغَيْثَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "MAJAZ MURSAL: 'ALAQAH SABABIYYAH",
       "latex": "\\text{Lafadz Disebut: الغَيْثَ (Hujan = Sebab)} \\implies \\mathbf{\\text{Makna Dimaksud: Rumput/Tumbuhan (Akibat)}} \\implies \\text{'Alaqah Sababiyyah}",
@@ -3995,7 +3995,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati firman Allah Swt. dalam QS. Al-A'raf ayat 157 berikut:\n'وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الخَبَائِثَ'\nPada penggalan ayat di atas disandingkan kata 'يُحِلُّ' lawan dari 'يُحَرِّمُ', 'لَهُمْ' lawan dari 'عَلَيْهِمْ', dan 'الطَّيِّبَاتِ' lawan dari 'الخَبَائِثَ' secara berurutan dan teratur. Gaya bahasa retorika badi' ini dinamakan...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'وَيُحِلُّ لَهُمُ الطَّيِّبَاتِ وَيُحَرِّمُ عَلَيْهِمُ الخَبَائِثَ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "STRUKTUR GAYA BAHASA MUQABALAH",
       "latex": "\\begin{pmatrix} \\text{يُحِلُّ} & \\text{لَهُمْ} & \\text{الطَّيِّبَاتِ} \\end{pmatrix} \\iff \\begin{pmatrix} \\mathbf{\\text{يُحَرِّمُ}} & \\mathbf{\\text{عَلَيْهِمْ}} & \\mathbf{\\text{الخَبَائِثَ}} \\end{pmatrix} \\implies \\mathbf{\\text{Muqabalah (3 Lawan 3 Sejajar)}}",
@@ -4091,7 +4091,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Fi'il yang memiliki dua huruf 'illat di dalam akar katanya dinamakan Fi'il Lafif. Kata kerja 'وَقَى' memiliki huruf 'illat pada huruf pertama (wawu) dan huruf ketiga (ya'), yang dipisahkan oleh huruf shahih qaf di tengahnya. Berdasarkan kaidah morfologi, 'وَقَى' diklasifikasikan sebagai...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'وَقَى'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DIKOTOMI FI'IL LAFIF (MAFRUQ VS MAQRUN)",
       "latex": "\\text{Fi'il Lafif (2 Huruf 'Illat)} = \\begin{cases} \\mathbf{\\text{Lafif Mafruq:}} & \\mathbf{\\text{Terpisah huruf shahih (وَقَى: Wawu } \\dots \\text{ Yaa')}} \\\\ \\text{Lafif Maqrun:} & \\text{Berdampingan gandeng (رَوَى: Wawu + Yaa')} \\end{cases}",
@@ -4187,7 +4187,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati firman Allah Swt. dalam QS. Al-Anfal ayat 33 berikut:\n'وَمَا كَانَ اللهُ لِيُعَذِّبَهُمْ وَأَنْتَ فِيهِمْ'\nHarakat akhir fi'il mudhari' 'لِيُعَذِّبَهُمْ' berstatus manshub bil-fathah karena didahului oleh huruf lam istimewa yang dinamakan...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'وَمَا كَانَ اللهُ لِيُعَذِّبَهُمْ وَأَنْتَ فِيهِمْ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "IDENTIFIKASI LAAMUL JUHUD (لَامُ الجُحُودِ)",
       "latex": "\\mathbf{\\text{Kaana Manfiyyah (مَا كَانَ / لَمْ يَكُنْ)}} + \\mathbf{\\text{لَامُ الجُحُودِ (لِـ)}} \\implies \\mathbf{\\text{Fi'il Mudhari' Manshub (لِيُعَذِّبَ)}}",
@@ -4235,7 +4235,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'وَاصِلْ جُهُودَكَ الدِّرَاسِيَّةَ حَتَّى ... هَدَفَكَ المَنْشُودَ.'\nBentuk fi'il mudhari' yang TEPAT dan manshub setelah partikel tujuan 'حَتَّى' al-gha'iyyah adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'وَاصِلْ جُهُودَكَ الدِّرَاسِيَّةَ حَتَّى ... هَدَفَكَ المَنْشُودَ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB FI'IL MUDHARI' SETELAH HATTA",
       "latex": "\\text{حَتَّى (Gha'iyyah: إِلى أَنْ)} + \\mathbf{\\text{Fi'il Mudhari' Manshub (تَبْلُغَ - Manshub bi 'An' Mudhmarah)}}",
@@ -4283,7 +4283,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks wacana sejarah astronomi peradaban Islam berikut:\n'ابْتَكَرَ عُلَمَاءُ الفَلَكِ المُسْلِمُونَ فِي العَصْرِ العَبَّاسِيِّ آلَةَ 'الأُسْطُرْلَابِ' وَطَوَّرُوهَا بِدِقَّةٍ بَالِغَةٍ. وَكَانَتْ هَذِهِ الآلَةُ تُسْتَخْدَمُ لِتَحْدِيدِ مَوَاقِعِ النُّجُومِ، وَحِسَابِ حَرَكَةِ الشَّمْسِ، وَتَحْدِيدِ أَوْقَاتِ الصَّلَوَاتِ الخَمْسِ، ف hisab فضلاً عَنْ تَعْيِينِ اتِّجَاهِ القِبْلَةِ لِلْمُسَافِرِينَ فِي الصَّحْرَاءِ وَالبِحَارِ.'\nBerdasarkan wacana di atas, fungsi praktis religius dan navigasi dari penemuan astrolabe oleh para ilmuwan muslim adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'ابْتَكَرَ عُلَمَاءُ الفَلَكِ المُسْلِمُونَ فِي العَصْرِ العَبَّاسِيِّ آلَةَ '\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "ANALISIS FUNGSI INSTRUMEN ASTRONOMI ISLAM",
       "latex": "\\text{الأُسْطُرْلَابُ (Astrolabe)} \\implies \\begin{cases} \\mathbf{\\text{Fungsi Fikih:}} & \\mathbf{\\text{Waktu Sholat \\& Arah Kiblat}} \\\\ \\mathbf{\\text{Fungsi Sains:}} & \\mathbf{\\text{Posisi Bintang, Gerak Matahari, Navigasi}} \\end{cases}",
@@ -4412,7 +4412,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat bertingkat berikut:\n'الِامْتِحَانُ كَانَ صَعْبًا جِدًّا، ... مُجْتَهِدٌ وَحَصَلَ عَلَى دَرَجَةٍ مُمْتَازَةٍ.'\nKonjungsi pertentangan (*istidrak*) beserta isim-nya yang TEPAT secara kaidah nawasikh inna (memanshubkan isim bertanwin fathah) adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'الِامْتِحَانُ كَانَ صَعْبًا جِدًّا، ... مُجْتَهِدٌ وَحَصَلَ عَلَى دَرَجَةٍ مُمْتَازَةٍ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "I'RAB AMIL LAKINNA (لَكِنَّ)",
       "latex": "\\text{Klausa 1 (Ujian Sulit)} + \\mathbf{\\text{لَكِنَّ (Istidrak)}} + \\mathbf{\\text{Isim Lakinna Manshub (زَيْدًا)}} + \\text{Khabar Marfu' (مُجْتَهِدٌ)}",
@@ -4460,7 +4460,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'أَنَا ... وَاجِبِي المَدْرَسِيَّ الآنَ فِي غُرْفَةِ المُذَاكَرَةِ.'\nBila isim fa'il 'كَاتِبٌ' ingin difungsikan beramal seperti kata kerjanya (yaitu menashabkan 'وَاجِبِي' sebagai maf'ul bih) dengan syarat bertanwin dan menunjukkan waktu sekarang (*hal/istiqbal*), maka bentuk yang TEPAT adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'أَنَا ... وَاجِبِي المَدْرَسِيَّ الآنَ فِي غُرْفَةِ المُذَاكَرَةِ.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "'AMAL ISIM FA'IL (عَمَلُ اسْمِ الفَاعِلِ)",
       "latex": "\\text{Mubtada' (أَنَا)} + \\mathbf{\\text{Isim Fa'il Bertanwin (كَاتِبٌ)}} + \\mathbf{\\text{Maf'ul Bih-nya (وَاجِبِي)}}",
@@ -4508,7 +4508,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat yang memuat Isim Maf'ul berikut:\n'المَسْجِدُ مَفْتُوحٌ ... لِاسْتِقْبَالِ المُصَلِّينَ لَيْلًا وَنَهَارًا.'\nKata yang TEPAT untuk berkedudukan sebagai Na'ibul Fa'il marfu' bil-dhommah dari isim maf'ul 'مَفْتُوحٌ' adalah...",
+    "questionHtml": "تَأَمَّلِ الجُمْلَةَ التَّالِيَةَ:\n'المَسْجِدُ مَفْتُوحٌ ... لِاسْتِقْبَالِ المُصَلِّينَ لَيْلًا وَنَهَارًا.'\nاخْتَرْ الكَلِمَةَ الصَّحِيحَةَ لِمَلْءِ الفَرَاغِ:",
     "formulaHud": {
       "title": "'AMAL ISIM MAF'UL (عَمَلُ اسْمِ المَفْعُولِ)",
       "latex": "\\text{Isim Maf'ul (مَفْتُوحٌ)} \\implies \\mathbf{\\text{Na'ibul Fa'il Marfu' (بَابُهُ - Marfu' bil-Dhommah)}}",
@@ -4556,7 +4556,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam wacana bahasa Arab, kata sifat 'كَرِيمٌ', 'شُجَاعٌ', dan 'طَاهِرٌ' diklasifikasikan sebagai *Shifat Musyabbahah bi Ismil Fa'il*. Perbedaan mendasar antara Shifat Musyabbahah dengan Isim Fa'il biasa adalah...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'كَرِيمٌ'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "DISTINGSI SHIFAT MUSYABBAHAH VS ISIM FA'IL",
       "latex": "\\begin{cases} \\mathbf{\\text{Shifat Musyabbahah (كَرِيمٌ، شُجَاعٌ):}} & \\mathbf{\\text{Sifat Tetap Melekat / Permanen (Tsubuut / Dawam)}} \\\\ \\text{Isim Fa'il (كَاتِبٌ، ضَارِبٌ):} & \\text{Perbuatan Temporer / Insidental (Huduts / Taghayyur)} \\end{cases}",
@@ -4599,7 +4599,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati ungkapan kekaguman mendalam (*shighatut ta'ajjub*) berikut ini:\n'مَا أَجْمَلَ هَذِهِ الحَدِيقَةَ الغَنَّاءَ!'\nDalam ilmu ma'ani, kalimat ta'ajjub di atas dikelompokkan ke dalam kategori...",
+    "questionHtml": "تَأَمَّلِ العِبَارَةَ التَّالِيَةَ:\n'مَا أَجْمَلَ هَذِهِ الحَدِيقَةَ الغَنَّاءَ!'\nاخْتَرْ الإِجَابَةَ الصَّحِيحَةَ:",
     "formulaHud": {
       "title": "TAKSONOMI KALAM INSYA'I",
       "latex": "\\text{Kalam Insya'i} = \\begin{cases} \\text{1. Thalabi (Ada Tuntutan):} & \\text{Amr, Nahyi, Istifham, Tamanni, Nida'} \\\\ \\mathbf{\\text{2. Ghairu Thalabi (Tanpa Tuntutan):}} & \\mathbf{\\text{Ta'ajjub (مَا أَجْمَلَ!), Qasam, Madh, Dzam, 'Uqud}} \\end{cases}",
@@ -4964,7 +4964,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pernyataan mengenai kaidah I'rab kelompok Isim Manshub (*Manshubatul Asma'*) dalam tata bahasa Arab. Tentukan apakah masing-masing pernyataan BENAR atau SALAH!",
+    "questionHtml": "حَدِّدْ صِحَّةَ العِبَارَاتِ التَّالِيَةِ (صَحِيحٌ / خَطَأٌ):",
     "formulaHud": {
       "title": "EVALUASI MANSYUBATUL ASMA'",
       "latex": "\\begin{aligned} \\text{Maf'ul Bih: } & \\text{Benar (Objek penderita perbuatan, Manshub)} \\\\ \\text{Maf'ul Liajlih: } & \\text{Salah (Masdar qolbi manshub alasan perbuatan, bukan fi'il)} \\\\ \\text{Haal Mufradah: } & \\text{Benar (Nakirah, manshub, menerangkan shahibul hal)} \\\\ \\text{Inna: } & \\text{Salah (Inna menashabkan isim dan merafa'kan khabar)} \\end{aligned}",
@@ -5012,7 +5012,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan terkait derivasi kata dalam ilmu shorof berikut!",
+    "questionHtml": "حَدِّدْ صِحَّةَ العِبَارَاتِ التَّالِيَةِ (صَحِيحٌ / خَطَأٌ):",
     "formulaHud": {
       "title": "EVALUASI WAZAN MORFOLOGI SHOROF",
       "latex": "\\begin{aligned} \\text{فَاعِلٌ: } & \\text{Benar (Isim Fa'il: Pelaku)} \\\\ \\text{مَفْعُولٌ: } & \\text{Benar (Isim Maf'ul: Objek)} \\\\ \\text{أَفْعَلَ: } & \\text{Benar (Ta'diyah / Transitif)} \\\\ \\text{Isim Alat: } & \\text{Salah (Wazan isim alat mifaal/mif'al untuk perkakas, bukan kalender)} \\end{aligned}",
@@ -5060,7 +5060,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pernyataan mengenai konsep-konsep pokok dalam tiga cabang ilmu balaghah. Tentukan apakah masing-masing pernyataan BENAR atau SALAH!",
+    "questionHtml": "حَدِّدْ صِحَّةَ العِبَارَاتِ التَّالِيَةِ (صَحِيحٌ / خَطَأٌ):",
     "formulaHud": {
       "title": "EVALUASI TEORI BALAGHAH TIGA CABANG",
       "latex": "\\begin{aligned} \\text{Ilmu Bayan: } & \\text{Benar (Tasybih, Majaz, Kinayah)} \\\\ \\text{Thibaq Ijab: } & \\text{Salah (Yang didahului partikel nafi adalah Thibaq Salab)} \\\\ \\text{Jinas Taam: } & \\text{Benar (Sama 4 kriteria huruf, beda makna)} \\\\ \\text{Isti'arah: } & \\text{Benar (Tasybih hadzafa ahadu tharafaihi)} \\end{aligned}",
@@ -5108,7 +5108,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan terkait tokoh ilmuwan besar dalam peradaban Islam berikut!",
+    "questionHtml": "حَدِّدْ صِحَّةَ العِبَارَاتِ التَّالِيَةِ (صَحِيحٌ / خَطَأٌ):",
     "formulaHud": {
       "title": "EVALUASI TOKOH ILMUWAN MUSLIM KLASIK",
       "latex": "\\begin{aligned} \\text{Al-Khawarizmi: } & \\text{Benar (Bapak Aljabar, Angka Nol)} \\\\ \\text{Ibnu Khaldun: } & \\text{Benar (Muqaddimah, Sosiologi 'Ashabiyyah)} \\\\ \\text{Ibnu Sina: } & \\text{Benar (Al-Qanun fit-Thibb, Kedokteran)} \\\\ \\text{Al-Biruni: } & \\text{Salah (Al-Biruni ahli geodesi, astronomi, bukan penemu kapal diesel)} \\end{aligned}",
@@ -5156,7 +5156,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pernyataan mengenai kaidah bilangan (*adad ma'dud*) dalam tata bahasa Arab. Tentukan apakah masing-masing pernyataan BENAR atau SALAH!",
+    "questionHtml": "حَدِّدْ صِحَّةَ العِبَارَاتِ التَّالِيَةِ (صَحِيحٌ / خَطَأٌ):",
     "formulaHud": {
       "title": "EVALUASI KAIDAH ADAD MA'DUD",
       "latex": "\\begin{aligned} \\text{Adad 1-2: } & \\text{Benar (Muwafaqah gender, posisi na'at)} \\\\ \\text{Adad 3-10: } & \\text{Benar (Mukhalafah gender, ma'dud jama' majrur)} \\\\ \\text{Adad 11-19: } & \\text{Salah (Ma'dud belasan wajib mufrad manshub, bukan jama' marfu')} \\\\ \\text{Mi'ah \\& Alf: } & \\text{Benar (Ma'dud mufrad majrur)} \\end{aligned}",

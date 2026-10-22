@@ -13,7 +13,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut ini:\n'わたしは 毎月 [一日] に としょかんへ 行きます。'\nBagaimanakah cara baca yang TEPAT untuk kata kanji di dalam kurung [一日] ketika merujuk pada tanggal satu dalam penanggalan Jepang?",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'わたしは 毎月 [一日] に としょかんへ 行きます。'",
     "formulaHud": {
       "title": "PENANGGALAN KHUSUS JEPANG (暦の特別な読み方)",
       "latex": "\\text{Kanji } [\\text{一日}] \\implies \\begin{cases} \\mathbf{\\text{ついたち (Tsuitachi)}} & \\text{Tanggal 1 (Kalender)} \\\\ \\text{いちにち (Ichinichi)} & \\text{Durasi 1 Hari} \\end{cases}",
@@ -61,7 +61,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'つくえの [上] に ノートと えんぴつが あります。'\nCara baca kunyomi yang TEPAT untuk kanji di dalam kurung [上] pada kalimat di atas adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'つくえの [上] に ノートと えんぴつが あります。'",
     "formulaHud": {
       "title": "KANJI POSISI DASAR (位置の漢字)",
       "latex": "[\\text{上}] = \\mathbf{\\text{うえ (Ue / Atas)}} \\quad \\longleftrightarrow \\quad [\\text{下}] = \\text{した (Shita / Bawah)}",
@@ -109,7 +109,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Cermati teks singkat berikut:\n'いま [午前八時半] です。じゅぎょうが はじまります。'\nCara baca yang BENAR untuk gabungan kanji di dalam tanda kurung siku [午前八時半] adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'いま [午前八時半] です。じゅぎょうが はじまります。'",
     "formulaHud": {
       "title": "NOTASI WAKTU JEPANG (時刻の表記)",
       "latex": "\\text{午前 (Gozen - AM)} + \\text{八時 (Hachi-ji - Pukul 8)} + \\text{半 (Han - Setengah/30 Menit)} = \\mathbf{\\text{ごぜんはちじはん}}",
@@ -157,7 +157,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan sopan mengenai keluarga sendiri kepada lawan bicara, seseorang berkata:\n'私の [母] は 病院の 看護師です。'\nCara baca kanji [母] ketika menyebut ibu kandung sendiri adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'私の [母] は 病院の 看護師です。'",
     "formulaHud": {
       "title": "SEBUTAN KELUARGA SENDIRI VS ORANG LAIN (内と外の家族呼称)",
       "latex": "\\begin{aligned} \\text{Keluarga Sendiri (Uchi): } & \\mathbf{\\text{母 (はは - Haha)}} \\quad / \\quad \\text{父 (ちち - Chichi)} \\\\ \\text{Orang Lain (Soto): } & \\text{お母さん (おかあさん)} \\quad / \\quad \\text{お父さん (おとうさん)} \\end{aligned}",
@@ -205,7 +205,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bacalah kalimat rumpang berikut:\n'せんせいは こくばんに しろい ( ... ) で 字を 書きました。'\nKosakata alat tulis yang PALING LOGIS untuk melengkapi kalimat di atas adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'せんせいは こくばんに しろい ( ... ) で 字を 書きました。'",
     "formulaHud": {
       "title": "ALAT TULIS PAPAN KOKUBAN (文房具の機能)",
       "latex": "\\text{こくばん (Papan Tulis Hitam)} + \\text{しろい (Putih)} + \\text{書く (Menulis)} \\implies \\mathbf{\\text{チョーク (Chooku)}}",
@@ -253,7 +253,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan dialog singkat berikut:\nTanaka: 'この シャツは とても [たかい] ですね。'\nKen: 'いいえ、そんなに たかくないですよ。あそこの 店のほうが もっと [ ... ] です。'\nKata sifat antonim dari 'たかい' untuk melengkapi pernyataan Ken adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'この シャツは とても [たかい] ですね。'",
     "formulaHud": {
       "title": "ANTONIM KATA SIFAT-I (対義語)",
       "latex": "\\text{高い (たかい - Mahal)} \\quad \\longleftrightarrow \\quad \\mathbf{\\text{安い (やすい - Murah)}}",
@@ -301,7 +301,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat berikut dengan kata kerja bentuk -masu yang TEPAT:\n'毎晩 ねる まえに、へやで お気に入りの おんがくを ( ... )。'",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'毎晩 ねる まえに、へやで お気に入りの おんがくを ( ... )。'",
     "formulaHud": {
       "title": "KOLOKASI OBJEK & VERBA (目的語と動詞の共起関係)",
       "latex": "\\text{おんがく (Musik)} + \\text{を (Partikel Objek)} \\implies \\mathbf{\\text{ききます (Kikimasu / Mendengarkan)}}",
@@ -397,7 +397,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bacalah deskripsi fenomena alam berikut:\n'日本では 4月に さくらが さきます。暖かくなって、新学期が はじまります。'\nMusim yang digambarkan dalam kalimat di atas adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'日本では 4月に さくらが さきます。暖かくなって、新学期が はじまります。'",
     "formulaHud": {
       "title": "EMPAT MUSIM JEPANG (日本の四季)",
       "latex": "\\text{4月 (April)} + \\text{さくら (Sakura Mekar)} + \\text{あたたかい (Hangat)} \\implies \\mathbf{\\text{春 (はる - Haru)}}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat rumpang berikut dengan partikel yang TEPAT:\n'わたし [ ... ] 毎朝 りんご [ ... ] たべます。'",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'わたし [ ... ] 毎朝 りんご [ ... ] たべます。'",
     "formulaHud": {
       "title": "STRUKTUR DASAR SOV (基本文型)",
       "latex": "\\mathbf{S \\text{ は }} + \\mathbf{O \\text{ を }} + \\mathbf{V \\text{ ます}} \\implies \\text{わたし } \\mathbf{\\text{は}} \\text{ りんご } \\mathbf{\\text{を}} \\text{ たべます}",
@@ -541,7 +541,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang berikut:\n'スピーチコンテストの 原稿を パソコン ( ... ) 作りました。'\nPartikel yang TEPAT untuk mengisi rumpang yang menyatakan sarana/alat teknologi pembuatan naskah adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'スピーチコンテストの 原稿を パソコン ( ... ) 作りました。'",
     "formulaHud": {
       "title": "PARTIKEL SARANA / ALAT (手段・道具の「で」)",
       "latex": "\\text{パソコン (Komputer/Laptop)} + \\mathbf{\\text{で (de)}} + \\text{作りました (Membuat)}",
@@ -589,7 +589,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam kaidah tata bahasa Jepang, kata penunjuk waktu manakah di bawah ini yang WAJIB diikuti oleh partikel titik waktu 'に' (ni)?",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'に'",
     "formulaHud": {
       "title": "REGULASI PENGGUNAAN PARTIKEL に PADA WAKTU",
       "latex": "\\begin{cases} \\mathbf{\\text{Pakai に:}} & \\text{Hari (日曜日), Jam (7時), Tanggal (15日), Bulan (4月)} \\\\ \\mathbf{\\text{Tanpa に:}} & \\text{Waktu Relatif (きょう, あした, きのう, まいにち, いま)} \\end{cases}",
@@ -637,7 +637,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat pergerakan fisik berikut dengan partikel yang BENAR:\n'らいしゅうの 土曜日に 家族と 一緒に きょうと ( ... ) 行きます。'",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'らいしゅうの 土曜日に 家族と 一緒に きょうと ( ... ) 行きます。'",
     "formulaHud": {
       "title": "PARTIKEL DESTINASI PERPINDAHAN (移動動詞の方向格)",
       "latex": "\\text{きょうと (Kyoto)} + \\mathbf{\\text{へ / に}} + \\text{行きます (Pergi)}",
@@ -685,7 +685,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Bentuk negatif lampau yang TEPAT dari verba 'たべます' untuk menyatakan bahwa subjek tidak makan apa pun kemarin malam adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'たべます'",
     "formulaHud": {
       "title": "KONJUGASI BENTUK MASU (ます形の時制・極性変化)",
       "latex": "\\begin{array}{|c|c|c|} \\hline & \\text{Non-Lampau} & \\text{Lampau} \\\\ \\hline \\text{Positif} & \\text{~ます} & \\text{~ました} \\\\ \\hline \\text{Negatif} & \\text{~ません} & \\mathbf{\\text{~ませんでした}} \\\\ \\hline \\end{array}",
@@ -733,7 +733,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Verba 'かきます' termasuk dalam kata kerja Golongan I (akhiran bunyi -ki). Bagaimanakah perubahan bentuk -te (te-kei) yang BENAR dari verba tersebut?",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'かきます'",
     "formulaHud": {
       "title": "KAIDAH ONBIN VERBA GOLONGAN I (イ音便の規則)",
       "latex": "\\text{Verba akhiran } [\\text{〜きます}] \\xrightarrow{\\text{Te-form}} \\mathbf{\\text{〜いて (ite)}} \\quad (\\text{かきます } \\to \\mathbf{\\text{かいて}})",
@@ -1069,7 +1069,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ketika seorang anak hendak berangkat ke sekolah, ia mengucapkan 'いってきます' (Ittekimasu). Jawaban balasan yang TEPAT dan lumrah diucapkan oleh orang tua yang berada di rumah adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'いってきます'",
     "formulaHud": {
       "title": "PASANGAN UNGKAPAN RUMAH TANGGA (出立と帰宅の挨拶)",
       "latex": "\\begin{aligned} \\text{Orang Berangkat: } \\text{いってきます} & \\longleftrightarrow \\mathbf{\\text{いってらっしゃい (Orang di Rumah)}} \\\\ \\text{Orang Pulang: } \\text{ただいま} & \\longleftrightarrow \\text{おかえりなさい (Orang di Rumah)} \\end{aligned}",
@@ -1261,7 +1261,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat berikut:\n'日本へ 行く まえに、旅行の [準備] を しなければなりません。'\nCara baca gabungan kanji di dalam kurung siku [準備] yang bermakna 'persiapan' adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'日本へ 行く まえに、旅行の [準備] を しなければなりません。'",
     "formulaHud": {
       "title": "PEMBACAAN KANJI JUKUGO N4 (二字熟語の音読み)",
       "latex": "[\\text{準 (Jun / Standar/Siap)}] + [\\text{備 (Bi / Kelengkapan)}] \\implies \\mathbf{\\text{じゅんび (Junbi)}}",
@@ -1309,7 +1309,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Bacalah kalimat berikut:\n'こまったことが あったら、いつでも 先生に [相談] してください。'\nCara baca yang BENAR untuk gabungan kanji di dalam kurung siku [相談] yang bermakna 'berkonsultasi / berdiskusi mencari jalan keluar' adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'こまったことが あったら、いつでも 先生に [相談] してください。'",
     "formulaHud": {
       "title": "KANJI JUKUGO KONSULTASI (相談の音読み)",
       "latex": "[\\text{相 (Sou / Saling/Menghadap)}] + [\\text{談 (Dan / Percakapan)}] \\implies \\mathbf{\\text{そうだん (Soudan)}}",
@@ -1357,7 +1357,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dokter memberikan instruksi penggunaan obat kepada pasien:\n'この くすりは 1にちに 3 ( ... )、しょくごに のんでください。'\nKata bantu pembilang yang TEPAT untuk menyatakan 'tiga kali dalam sehari' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'この くすりは 1にちに 3 ( ... )、しょくごに のんでください。'",
     "formulaHud": {
       "title": "PEMBILANG FREKUENSI (頻度を表す助数詞)",
       "latex": "\\text{1日に (Dalam 1 Hari)} + \\text{3} + \\mathbf{\\text{回 (かい - Kai)}} + \\text{飲む (Diminum)}",
@@ -1405,7 +1405,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat rumpang berikut:\n'としょかんでは、みんなの めいわくに ならないように [しずか] ( ... ) 本を よんでください。'\nPartikel yang WAJIB dilekatkan pada kata sifat-na 'しずか' agar berfungsi sebagai adverbia (menerangkan cara membaca 'dengan tenang') adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'としょかんでは、みんなの めいわくに ならないように [しずか] ( ... ) 本を よんでください。'",
     "formulaHud": {
       "title": "DERIVASI ADVERBIAL KATA SIFAT-NA (形容動詞の連用修飾)",
       "latex": "\\begin{aligned} \\text{Menerangkan Nomina: } & \\text{Kata Sifat-Na} + \\mathbf{\\text{な}} + \\text{Nomina} \\\\ \\text{Menerangkan Verba: } & \\text{Kata Sifat-Na} + \\mathbf{\\text{に}} + \\text{Verba} \\quad (\\text{しずか} + \\mathbf{\\text{に}} + \\text{よむ}) \\end{aligned}",
@@ -1453,7 +1453,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Di ruang kelas, listrik padam karena badai:\n'きゅうに でんきが ( A ) ました。せんせいが かいちゅうでんとうを ( B ) ました。'\nPasangan verba yang TEPAT untuk mengisi posisi ( A ) padam otomatis dan ( B ) menyalakan senter adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'きゅうに でんきが ( A ) ました。せんせいが かいちゅうでんとうを ( B ) ました。'",
     "formulaHud": {
       "title": "PASANGAN VERBA SAKELAR (電化機器の自他動詞)",
       "latex": "\\begin{aligned} \\text{Intransitif (Mati Sendiri): } & \\text{でんきが } \\mathbf{\\text{消える (きえる)}} \\\\ \\text{Transitif (Menyalakan): } & \\text{でんとうを } \\mathbf{\\text{点ける (つける)}} \\end{aligned}",
@@ -1501,7 +1501,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat berikut:\n'あさから 何も 食べていないので、おなかが ( ... ) です。早く ラーメンが 食べたいです。'\nKata onomatope/gitaigo bahasa Jepang yang TEPAT untuk menggambarkan 'perut lapar keroncongan' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'あさから 何も 食べていないので、おなかが ( ... ) です。早く ラーメンが 食べたいです。'",
     "formulaHud": {
       "title": "GITAIGO KONDISI FISIK (状態副詞・オノマトペ)",
       "latex": "\\text{おなかが } + \\mathbf{\\text{ペコペコ (Pekopeko)}} \\implies \\text{Sangat Lapar Keroncongan}",
@@ -1549,7 +1549,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam warta berita televisi NHK diberitakan:\n'きのうの 夜、強い [地震] が ありましたが、津波の 心配は ありません。'\nCara baca yang BENAR untuk gabungan kanji di dalam tanda kurung [地震] adalah...",
+    "questionHtml": "次の文の [ ... ] の言葉の正しい読み方を選びなさい：\n'きのうの 夜、強い [地震] が ありましたが、津波の 心配は ありません。'",
     "formulaHud": {
       "title": "KANJI BENCANA ALAM (自然災害の語彙)",
       "latex": "[\\text{地 (Ji / Bumi/Tanah)}] + [\\text{震 (Shin / Getaran/Guncangan)}] \\implies \\mathbf{\\text{じしん (Jishin / Gempa Bumi)}}",
@@ -1597,7 +1597,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Perhatikan transformasi kalimat berikut:\nKalimat Asli: 'わたしは 漢字を 読みます。'\nKalimat Potensial: 'わたしは 漢字 [ A ] 読 [ B ] ます。'\nPartikel ( A ) dan konjugasi verba potensial ( B ) yang TEPAT untuk menyatakan 'bisa membaca kanji' adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'わたしは 漢字を 読みます。'",
     "formulaHud": {
       "title": "KAIDAH BENTUK BISA / POTENSIAL (可能動詞の形成規則)",
       "latex": "\\begin{aligned} \\text{Konjugasi: } & \\text{書く (kaku)} \\to \\mathbf{\\text{書ける (kakeru)}} \\quad / \\quad \\text{読む (yomu)} \\to \\mathbf{\\text{読める (yomeru)}} \\\\ \\text{Partikel: } & \\text{Objek [を] wajib bertransformasi menjadi } \\mathbf{[が]} \\end{aligned}",
@@ -1645,7 +1645,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Cermati dialog rencana kegiatan akhir pekan berikut:\nSato: 'あした 雨が ( ... )、サッカーの 試合は 中止に なります。'\nKen: 'そうですね。晴れると いいですね。'\nBentuk verba bersyarat yang TEPAT untuk mengisi rumpang Sato ('jika besok turun hujan...') adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'あした 雨が ( ... )、サッカーの 試合は 中止に なります。'",
     "formulaHud": {
       "title": "POLA BERSYARAT TARA (条件形「〜たら」)",
       "latex": "\\mathbf{V\\text{-た形}} + \\mathbf{\\text{ら}} \\implies \\text{Jika / Seandainya terjadi } V \\text{ di masa mendatang}",
@@ -1693,7 +1693,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam sesi wawancara, pewawancara bertanya:\n'あなたは 今までに 富士山に ( ... ) ことが ありますか。'\nBentuk verba yang BENAR untuk melengkapi pertanyaan pengalaman 'apakah pernah mendaki Gunung Fuji' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'あなたは 今までに 富士山に ( ... ) ことが ありますか。'",
     "formulaHud": {
       "title": "POLA RIWAYAT PENGALAMAN (経験表現)",
       "latex": "\\mathbf{V\\text{-た形}} + \\mathbf{\\text{ことが あります}} \\implies \\text{Pernah mengalami / melakukan } V",
@@ -1741,7 +1741,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang mahasiswa asing diingatkan mengenai masa berlaku visa:\n'来月の 末までに 入国管理局へ 行って、ビザを 更新 ( ... )。'\nBentuk keharusan formal yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'来月の 末までに 入国管理局へ 行って、ビザを 更新 ( ... )。'",
     "formulaHud": {
       "title": "POLA KEHARUSAN / OBLIGASI (義務表現)",
       "latex": "\\mathbf{V\\text{-ない形 (Coret い)}} + \\mathbf{\\text{なければなりません}} \\implies \\text{Harus / Wajib melakukan } V",
@@ -1789,7 +1789,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seseorang melihat kue tart yang dihias stroberi segar di etalase toko dan berkomentar:\n'わあ、この ケーキ、とても ( ... ) そうですね。買いましょう！'\nBentuk kata sifat 'おいしい' yang TEPAT ketika digabungkan dengan pola dugaan visual (~sou da) adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'おいしい'",
     "formulaHud": {
       "title": "DUGAAN PANDANGAN MATA VS KABAR BURUNG (様態と伝聞の「そうだ」)",
       "latex": "\\begin{aligned} \\text{Kesan Visual (Kelihatannya Enak): } & \\text{おいし} [\\cancel{\\text{い}}] + \\mathbf{\\text{そう}} \\implies \\mathbf{\\text{おいしそう}} \\\\ \\text{Kabar Burung (Katanya Enak): } & \\text{おいしい (Bentuk Kamus)} + \\mathbf{\\text{そうだ}} \\implies \\text{おいしいそうだ} \\end{aligned}",
@@ -1885,7 +1885,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Ibu berkata kepada anggota keluarga sebelum para tamu pesta berdatangan:\n'お客さんが 来る まえに、へやを そうじ ( ... )。'\nPola verba persiapan awal yang TEPAT melengkapi kalimat ibu adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'お客さんが 来る まえに、へやを そうじ ( ... )。'",
     "formulaHud": {
       "title": "POLA PERSIAPAN MENGHADAPI MASA DEPAN (準備表現「〜ておく」)",
       "latex": "\\mathbf{V\\text{-て形}} + \\mathbf{\\text{おきます}} \\implies \\text{Melakukan } V \\text{ terlebih dahulu untuk persiapan peristiwa kelak}",
@@ -1933,7 +1933,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang kakek memuji ponsel pintar barunya:\n'この スマートフォンは 字が 大きくて、とても ( ... ) です。'\nBentuk kata yang TEPAT untuk menyatakan bahwa teks di ponsel tersebut 'mudah dibaca' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'この スマートフォンは 字が 大きくて、とても ( ... ) です。'",
     "formulaHud": {
       "title": "AFIKSASI TINGKAT KEMUDAHAN TINDAKAN (難易表現)",
       "latex": "\\begin{aligned} \\mathbf{V\\text{-ます形 (Coret ます)}} + \\mathbf{\\text{やすい}} & \\implies \\text{Mudah dilakukan } (\\text{よみ} + \\text{やすい}) \\\\ \\mathbf{V\\text{-ます形 (Coret ます)}} + \\mathbf{\\text{にくい}} & \\implies \\text{Sukar / Sulit dilakukan } (\\text{よみ} + \\text{にくい}) \\end{aligned}",
@@ -1981,7 +1981,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan mengenai transportasi di Tokyo, seorang warga lokal menjelaskan:\n'新幹線は 普通電車 ( ... ) ずっと 速いです。'\nPartikel pembanding yang TEPAT untuk melengkapi perbandingan 'Shinkansen jauh lebih cepat daripada kereta lokal biasa' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'新幹線は 普通電車 ( ... ) ずっと 速いです。'",
     "formulaHud": {
       "title": "STRUKTUR KOMPARATIF DUA ENTITAS (比較文型)",
       "latex": "\\mathbf{A \\text{ のほうが }} + \\mathbf{B \\text{ より }} + \\text{Sifat} \\implies A \\text{ lebih } [\\text{Sifat}] \\text{ daripada } B",
@@ -2029,7 +2029,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat pernyataan rencana pribadi berikut:\n'大学を 卒業した あと、日本の 会社で ( ... ) つもりです。'",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'大学を 卒業した あと、日本の 会社で ( ... ) つもりです。'",
     "formulaHud": {
       "title": "POLA RENCANA SUBJEKTIF (意志・意図表現「つもり」)",
       "latex": "\\mathbf{V\\text{-辞書形 (Kamus)}} + \\mathbf{\\text{つもりです}} \\implies \\text{Berniat / Berencana kuat melakukan } V",
@@ -2292,7 +2292,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang teman mengajak pergi menonton konser musik malam ini:\nKen: '今晩、一緒に コンサートへ 行きませんか。'\nNamun, Hana tidak bisa hadir karena harus mempersiapkan ujian esok hari. Cara menolak yang PALING SOPAN dan lumrah dalam pragmatik komunikasi Jepang tanpa menyinggung perasaan lawan bicara adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'今晩、一緒に コンサートへ 行きませんか。'",
     "formulaHud": {
       "title": "PRAGMATIK PENOLAKAN TIDAK LANGSUNG (配慮表現・婉曲な断り)",
       "latex": "\\text{Ajakan} \\xrightarrow{\\text{Penolakan Sopan}} \\mathbf{\\text{すみません、ちょっと都合が悪くて (Chotto tsugou ga warukute...)}}",
@@ -2388,7 +2388,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat bahasa Jepang berikut:\n'昨日、傘を 持たずに 出かけたら、途中で 雨に ( ... )、風邪を ひいてしまいました。'\nBentuk konjugasi verba pasif yang TEPAT untuk mengekspresikan bahwa subjek 'mengalami kerugian/kesusahan karena kehujanan di jalan' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'昨日、傘を 持たずに 出かけたら、途中で 雨に ( ... )、風邪を ひいてしまいました。'",
     "formulaHud": {
       "title": "KONSEP PASIF MERUGIKAN (迷惑の受身 / 間接受身)",
       "latex": "\\mathbf{S \\text{ は }} + \\mathbf{\\text{Peristiwa Alam/Orang Lain に}} + \\mathbf{V\\text{-られる (Ukemi)}} \\implies \\text{Subjek menderita akibat } V",
@@ -2436,7 +2436,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ibu berkata mengenai pendisiplinan anaknya di rumah:\n'子どもが 野菜を 嫌がりますが、健康の ために 毎日 野菜を ( ... ) います。'\nBentuk verba kausatif yang TEPAT untuk menyatakan tindakan ibu 'membuat/menyuruh anak memakan sayur demi kesehatan' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'子どもが 野菜を 嫌がりますが、健康の ために 毎日 野菜を ( ... ) います。'",
     "formulaHud": {
       "title": "PEMBENTUKAN VERBA KAUSATIF (使役形「〜せる・〜させる」)",
       "latex": "\\begin{aligned} \\text{Golongan II (Ichidan): } & \\text{食べる} \\to \\mathbf{\\text{食べさせる (Tabesaseru)}} \\\\ \\text{Makna: } & \\text{Menyuruh / Membiarkan orang lain melakukan aksi } V \\end{aligned}",
@@ -2484,7 +2484,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ken menceritakan pengalamannya saat pesta penyambutan mahasiswa baru:\n'お酒が あまり 飲めないのに、先輩に 無理に ビールを ( ... )、本当に 困りました。'\nBentuk verba kausatif-pasif yang TEPAT untuk mengungkapkan bahwa Ken 'dipaksa meminum bir oleh seniornya' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'お酒が あまり 飲めないのに、先輩に 無理に ビールを ( ... )、本当に 困りました。'",
     "formulaHud": {
       "title": "BENTUK KAUSATIF-PASIF KETERPAKSAAN (使役受身の短縮形)",
       "latex": "\\text{飲む (nomu)} \\xrightarrow{\\text{Kausatif-Pasif Ringkas}} \\mathbf{\\text{飲まされる (nomasareru)}} \\xrightarrow{\\text{Te-form}} \\mathbf{\\text{飲まされて}}",
@@ -2532,7 +2532,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Sekretaris perusahaan berbicara kepada klien tamu mengenai aktivitas Direktur Utama (Shachou):\n'社長は たった今、会議室へ ( ... ) ました。少々 お待ちください。'\nVerba Sonkeigo bentuk hormat khusus dari '行きました' yang TEPAT untuk menghormati direktur utama adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'行きました'",
     "formulaHud": {
       "title": "DISTINGSI SONKEIGO VS KENJOUGO (尊敬語と謙譲語の厳格な対立)",
       "latex": "\\begin{aligned} \\mathbf{\\text{Sonkeigo (Hormat Subjek Atasan):}} & \\text{行く / 来る / いる} \\implies \\mathbf{\\text{いらっしゃる (Irassharu)}} \\\\ \\mathbf{\\text{Kenjougo (Merendahkan Pihak Sendiri):}} & \\text{行く / 来る} \\implies \\text{参る (まいる - Mairu)} \\end{aligned}",
@@ -2580,7 +2580,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Saat seorang staf sales memperkenalkan diri di hadapan direksi perusahaan mitra bisnis:\n'はじめまして。わたくし、ABC商事の 田中と ( ... )。どうぞ よろしくお願い申し上げます。'\nVerba Kenjougo yang TEPAT untuk menyebut nama diri sendiri secara rendah hati dan sangat santun adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'はじめまして。わたくし、ABC商事の 田中と ( ... )。どうぞ よろしくお願い申し上げます。'",
     "formulaHud": {
       "title": "KENJOUGO PERKENALAN IDENTITAS (自己紹介の謙譲語)",
       "latex": "\\text{Nama Sendiri } + \\text{と } + \\mathbf{\\text{申します (もうします - Moushimasu)}}",
@@ -2628,7 +2628,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Cermati kalimat rumpang yang memuat nuansa ketidakpuasan subjektif pembicara berikut:\n'あんなに 一生懸命 勉強した ( ... )、試験の 点数は よくありませんでした。本当に 悔しいです。'\nPartikel konjungsi yang TEPAT untuk menautkan ekspektasi tinggi dengan hasil yang mengecewakan secara emosional adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'あんなに 一生懸命 勉強した ( ... )、試験の 点数は よくありませんでした。本当に 悔しいです。'",
     "formulaHud": {
       "title": "PRAGMATIK EMOSIONAL KONJUNGSI NONI (逆接の「のに」の感情性)",
       "latex": "\\mathbf{\\text{Ekspektasi (Kerja Keras)}} + \\mathbf{\\text{のに (Padahal)}} + \\mathbf{\\text{Fakta Mengecewakan (Nilai Buruk)}} \\implies \\text{Emosi Kesal / Kecewa}",
@@ -2724,7 +2724,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Analisis dialog penentuan keberangkatan kereta berikut:\nTanaka: '鈴木さんは もう 駅に 着きましたか。'\nYamada: 'はい、彼は 朝6時の 新幹線に 乗ったので、今ごろは もう 東京に ( ... ) です。'\nUngkapan derajat kepastian logis yang TEPAT diucapkan Yamada ('seharusnya sudah tiba di Tokyo berdasarkan perhitungan jam') adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'鈴木さんは もう 駅に 着きましたか。'",
     "formulaHud": {
       "title": "MODALITAS KEPASTIAN RASIONAL (確信の「はずだ」)",
       "latex": "\\mathbf{\\text{Fakta Premis (Naik Kereta Jam 6)}} \\xrightarrow{\\text{Kalkulasi Rasional}} \\mathbf{V\\text{-辞書形 / ている}} + \\mathbf{\\text{はずです (Pasti / Semestinya)}}",
@@ -3343,7 +3343,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Mengapa seorang staf bawahan DILARANG KERAS mengucapkan 'ご苦労様でした' (*Gokurousama deshita*) kepada manajer divisi yang baru selesai memimpin proyek?",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'ご苦労様でした'",
     "formulaHud": {
       "title": "TABU ARAH HIERARKI KESANTUNAN (上下関係の挨拶禁則)",
       "latex": "\\begin{cases} \\mathbf{\\text{Atasan } \\to \\text{ Bawahan:}} & \\text{ご苦労様 (Gokurousama) - Boleh} \\\\ \\mathbf{\\text{Bawahan } \\to \\text{ Atasan:}} & \\text{ご苦労様 - } \\mathbf{\\text{TABU MUTLAK! Wajib: お疲れ様 (Otsukaresama)}} \\end{cases}",
@@ -3526,7 +3526,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam sesi wawancara mengenai kegemaran berolahraga di Jepang, penanya ingin menanyakan olahraga mana yang paling disukai dari empat pilihan yang diajukan:\n'サッカーと 野球と テニスと 水泳の なかで、( ... ) が いちばん 好きですか。'\nKata tanya interrogativa yang TEPAT untuk mengisi rumpang tersebut adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'サッカーと 野球と テニスと 水泳の なかで、( ... ) が いちばん 好きですか。'",
     "formulaHud": {
       "title": "STRUKTUR SUPERLATIF PILIHAN TERTUTUP (最上級の疑問文)",
       "latex": "\\mathbf{[A \\text{ と } B \\text{ と } C \\text{ のなかで}]} + \\mathbf{\\text{どれ が}} + \\text{いちばん } + \\text{Sifat} \\implies \\text{Paling } [\\text{Sifat}] \\text{ di antara pilihan}",
@@ -3622,7 +3622,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan proses pergantian musim berikut:\n1) 秋に なって、木の 葉が 赤 [ A ] なりました。\n2) 工事の あと、この 町は とても にぎやか [ B ] なりました。\nImbuhan ( A ) untuk kata sifat-i 'あかい' dan ( B ) untuk kata sifat-na 'にぎやか' yang TEPAT berturut-turut adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'あかい'",
     "formulaHud": {
       "title": "KONSTRUKSI PERUBAHAN KEADAAN (状態変化「〜になる」)",
       "latex": "\\begin{cases} \\mathbf{\\text{Kata Sifat-i:}} & \\text{赤}[\\cancel{\\text{い}}] + \\mathbf{\\text{く}} + \\text{なる} \\implies \\mathbf{\\text{赤くなる}} \\\\ \\mathbf{\\text{Kata Sifat-na:}} & \\text{にぎやか} + \\mathbf{\\text{に}} + \\text{なる} \\implies \\mathbf{\\text{にぎやかになる}} \\end{cases}",
@@ -3718,7 +3718,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat tujuan aktivitas berikut:\n'週末、デパートへ 新しい 冬物の コートを ( ... ) 行きました。'",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'週末、デパートへ 新しい 冬物の コートを ( ... ) 行きました。'",
     "formulaHud": {
       "title": "POLA TUJUAN PERGERAKAN (移動の目的「〜に行く」)",
       "latex": "\\mathbf{V\\text{-ます形 (Coret ます)}} + \\mathbf{\\text{に}} + \\mathbf{\\text{行く / 来る / 帰る}} \\implies \\text{Pergi/Datang untuk melakukan } V",
@@ -3766,7 +3766,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan aturan minum obat berikut:\n'しょくじを ( A ) まえに、手を 洗います。\n ごはんを ( B ) あとで、くすりを 飲みます。'\nBentuk verba 'たべる' yang BENAR untuk mengisi posisi ( A ) dan ( B ) berturut-turut adalah...",
+    "questionHtml": "次の文章を読んで、最も適切な答えを選びなさい：\n'たべる'",
     "formulaHud": {
       "title": "SEKUENSI KRONOLOGIS VERBA (前後の時間的連関)",
       "latex": "\\begin{cases} \\mathbf{V\\text{-辞書形 (Kamus)}} + \\mathbf{\\text{まえに}} & \\implies \\text{Sebelum melakukan } V \\\\ \\mathbf{V\\text{-た形 (Lampau)}} + \\mathbf{\\text{あとで}} & \\implies \\text{Sesudah tuntas melakukan } V \\end{cases}",
@@ -3814,7 +3814,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dokter melarang pasien melakukan kebiasaan buruk saat makan:\n'テレビを ( ... ) ごはんを 食べてはいけません。消化に 悪いです。'\nBentuk verba 'みます' yang TEPAT untuk menyatakan 'makan sambil menonton TV' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'テレビを ( ... ) ごはんを 食べてはいけません。消化に 悪いです。'",
     "formulaHud": {
       "title": "AKSI PARALEL SIMULTAN (同時動作「〜ながら」)",
       "latex": "\\mathbf{V\\text{-ます形 (Coret ます)}} + \\mathbf{\\text{ながら}} + V_2 \\implies \\text{Melakukan } V_2 \\text{ sambil melakukan } V_1",
@@ -3862,7 +3862,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seseorang menceritakan rutinitas santainya saat hari libur di rumah:\n'日曜日は 部屋を ( A )、本を ( B ) して、のんびり 過ごします。'\nBentuk verba yang TEPAT untuk mengisi posisi ( A ) dan ( B ) secara berturut-turut adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'日曜日は 部屋を ( A )、本を ( B ) して、のんびり 過ごします。'",
     "formulaHud": {
       "title": "ENUMERASI TINDAKAN REPRESENTATIF (例示表現「〜たり〜たりする」)",
       "latex": "\\mathbf{V_1\\text{-たり}} + \\mathbf{V_2\\text{-たりする}} \\implies \\text{Melakukan kegiatan seperti } V_1 \\text{ dan } V_2",
@@ -3958,7 +3958,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Melihat langit yang mendung hitam pekat di sore hari, seseorang berujar:\n'空が 暗くなってきましたね。夕方から 雨が ( ... )。傘を 持って行きましょう。'\nPola modalitas dugaan probabilitas yang TEPAT mengisi kalimat tersebut adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'空が 暗くなってきましたね。夕方から 雨が ( ... )。傘を 持って行きましょう。'",
     "formulaHud": {
       "title": "MODALITAS KEMUNGKINAN DUA ARAH (不確定推量「〜かもしれない」)",
       "latex": "\\mathbf{V\\text{-普通形}} + \\mathbf{\\text{かもしれません}} \\implies \\text{Mungkin / Bisa jadi terjadi } V \\quad (P \\approx 50\\%)",
@@ -4140,7 +4140,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks mengenai seni tradisi Jepang (*Sadou*) berikut:\n'茶道（さどう）の 精神は、千利休（せんの りきゅう）によって 大成された「和・敬・清・寂（わけいせいじゃく）」という 四つの 言葉に 集約されています。「和」は お互いの 心を 開き 仲良くすること、「敬」は 互いの 人格を 尊重し 敬い合うこと、「清」は 心と 身の回りを 清らかに 保つこと、そして「寂」は どんな ときにも 動じない 穏やかな 静けさを 意味します。'\nMakna dari prinsip '敬 (Kei)' dalam ajaran upacara minum teh menurut wacana di atas adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'敬 (Kei)'",
     "formulaHud": {
       "title": "EMPAT PILAR SADOU (四規：和敬清寂)",
       "latex": "\\begin{aligned} \\text{和 (Wa): } & \\text{Kerukunan Hati} \\\\ \\mathbf{\\text{敬 (Kei):}} & \\mathbf{\\text{Saling Menghormati Martabat (互いの人格を尊重)}} \\\\ \\text{清 (Sei): } & \\text{Kemurnian / Kebersihan} \\\\ \\text{寂 (Jaku): } & \\text{Keheningan Batin Mendalam} \\end{aligned}",
@@ -4231,7 +4231,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Lengkapilah kalimat rumpang berikut di mana pembicara menunjuk sebuah jam tangan yang berada di dekat lawan bicara:\n'( ... ) とけいは だれの ですか。とても すてきですね。'",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'( ... ) とけいは だれの ですか。とても すてきですね。'",
     "formulaHud": {
       "title": "DISTINGSI PRENOMINAL VS PRONOMINA (連体詞と代名詞の区別)",
       "latex": "\\begin{cases} \\mathbf{\\text{Prenominal:}} & \\mathbf{\\text{この / その / あの / どの}} + \\mathbf{\\text{Nomina (とけい)}} \\\\ \\mathbf{\\text{Pronomina:}} & \\text{これ / それ / あれ / どれ} + [\\cancel{\\text{Nomina}}] \\end{cases}",
@@ -4279,7 +4279,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat pernyataan hobi berikut:\n'私の 趣味は 休日に ギターを ( ... ) ことです。'\nBentuk verba 'ひきます' yang BENAR untuk mengisi rumpang nominalisasi adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'私の 趣味は 休日に ギターを ( ... ) ことです。'",
     "formulaHud": {
       "title": "NOMINALISASI KLAUSA VERBAL (動詞の連体形名詞化)",
       "latex": "\\mathbf{V\\text{-辞書形 (Kamus)}} + \\mathbf{\\text{こと / の}} \\implies \\text{Hal / Tindakan melakukan } V",
@@ -4327,7 +4327,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang karyawan memberi tahu keluarganya mengenai keputusan mutasi kantor:\n'会社の 命令で、来月から 大阪支社へ 転勤する ( ... ) ました。'\nUngkapan gramatikal yang TEPAT untuk menyatakan bahwa mutasi tersebut merupakan 'keputusan sepihak dari perusahaan' (bukan keputusan pribadi karyawan) adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'会社の 命令で、来月から 大阪支社へ 転勤する ( ... ) ました。'",
     "formulaHud": {
       "title": "DISTINGSI SUMBER KEPUTUSAN (決定の主体表現)",
       "latex": "\\begin{aligned} \\mathbf{\\text{Keputusan Otoritas / Luar:}} & V\\text{-辞書形} + \\mathbf{\\text{ことに なりました (Koto ni narimashita)}} \\\\ \\mathbf{\\text{Keputusan Mandiri:}} & V\\text{-辞書形} + \\text{ことに しました (Koto ni shimashita)} \\end{aligned}",
@@ -4375,7 +4375,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Melihat orang-orang di luar gedung yang berjalan mengenakan jas hujan dan membuka payung basah, seseorang berujar:\n'外を 歩いている 人たちが 傘を さしていますね。外は 雨が ( ... ) ようです。'\nBentuk predikat yang TEPAT melengkapi kesimpulan dugaan observasional tersebut adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'外を 歩いている 人たちが 傘を さしていますね。外は 雨が ( ... ) ようです。'",
     "formulaHud": {
       "title": "DUGAAN DEDUKTIF VISUAL (視覚証拠に基づく推量「〜ようだ」)",
       "latex": "\\mathbf{\\text{Bukti Visual (Orang Buka Payung)}} \\xrightarrow{\\text{Deduksi Rasional}} \\mathbf{V\\text{-ている}} + \\mathbf{\\text{ようです (Tampaknya sedang hujan)}}",
@@ -4423,7 +4423,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi pengoperasian mesin otomatis:\n'この 赤い ボタンを ( ... )、おつりが 出ます。'\nBentuk verba bersyarat yang TEPAT untuk menyatakan 'jika tombol ini ditekan, uang kembalian pasti otomatis keluar' adalah...",
+    "questionHtml": "次の文の（ ... ）に入る最も適切な言葉を選びなさい：\n'この 赤い ボタンを ( ... )、おつりが 出ます。'",
     "formulaHud": {
       "title": "KENISCAYAAN MEKANIK & ALAM (確定条件・自然法則の「と」)",
       "latex": "\\mathbf{V\\text{-辞書形 (Kamus)}} + \\mathbf{\\text{と}} \\implies \\text{Pasti seketika terjadi akibat otomatis (Keniscayaan Mesin/Hukum Alam)}",
@@ -4975,7 +4975,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pernyataan mengenai fungsi dan kaidah partikel bahasa Jepang (*Joshi*). Tentukan apakah masing-masing pernyataan BENAR atau SALAH!",
+    "questionHtml": "次の各文の正誤（正しい・誤り）を判断しなさい：",
     "formulaHud": {
       "title": "EVALUASI FUNGSI KASUS PARTIKEL (助詞機能の正誤判定)",
       "latex": "\\begin{aligned} \\text{Partikel を: } & \\text{Benar (Objek langsung transitif)} \\\\ \\text{Partikel で: } & \\text{Salah (Waktu spesifik memakai に, de untuk sarana/tempat aksi)} \\\\ \\text{Partikel に: } & \\text{Benar (Titik target arah gerak)} \\\\ \\text{Partikel へ: } & \\text{Benar (Ditulis 'he', dilafalkan 'e')} \\end{aligned}",
@@ -5023,7 +5023,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan terkait aturan konjugasi kata kerja bahasa Jepang berikut!",
+    "questionHtml": "次の各文の正誤（正しい・誤り）を判断しなさい：",
     "formulaHud": {
       "title": "EVALUASI KONJUGASI VERBAL (動詞活用の正誤判定)",
       "latex": "\\begin{aligned} \\text{Ichidan Te: } & \\text{Benar (る } \\to \\text{ て)} \\\\ \\text{Ikimasu: } & \\text{Salah (Pengecualian mutlak: 行く } \\to \\mathbf{\\text{行って}}, \\text{ bukan いいて)} \\\\ \\text{Nakereba: } & \\text{Benar (〜ない } \\to \\text{ 〜なければなりません)} \\\\ \\text{Potensial Godan: } & \\text{Salah (Berubah ke baris 'え' / e-dan, seperti 書く } \\to \\text{ 書ける)} \\end{aligned}",
@@ -5071,7 +5071,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Berikut disajikan pasangan kata kerja transitif (*Tadoushi*) dan intransitif (*Jidoushi*). Tentukan apakah klasifikasi makna dan partikelnya BENAR atau SALAH!",
+    "questionHtml": "次の各文の正誤（正しい・誤り）を判断しなさい：",
     "formulaHud": {
       "title": "EVALUASI PASANGAN JIDOUSHI-TADOUSHI (自他動詞対の判定)",
       "latex": "\\begin{aligned} \\text{閉まる (shimaru): } & \\text{Benar (Intransitif / Otomatis)} \\\\ \\text{消す (kesu): } & \\text{Benar (Transitif / Sengaja dimatikan)} \\\\ \\text{落とす (otosu): } & \\text{Salah (Otosu adalah transitif; intransitifnya adalah 落ちる / ochiru)} \\\\ \\text{沸く (waku): } & \\text{Benar (Intransitif; transitifnya adalah 沸かす / wakasu)} \\end{aligned}",
@@ -5119,7 +5119,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap pernyataan penggunaan ungkapan komunikasi harian bahasa Jepang berikut!",
+    "questionHtml": "次の各文の正誤（正しい・誤り）を判断しなさい：",
     "formulaHud": {
       "title": "EVALUASI PRAGMATIK SALAM (日常挨拶の文脈適合性)",
       "latex": "\\begin{aligned} \\text{ただいま: } & \\text{Salah (Diucapkan orang yang baru pulang, penyambut menjawab おかえりなさい)} \\\\ \\text{いただきます: } & \\text{Benar (Sebelum makan)} \\\\ \\text{どうも: } & \\text{Benar (Ekspresi serbaguna santai)} \\\\ \\text{さようなら: } & \\text{Salah (Pamit ke kantor memakai いってきます, sayounara berjarak perpisahan lama)} \\end{aligned}",
@@ -5167,7 +5167,7 @@ window.TKA_BAHASA_JEPANG_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "matrix",
-    "questionHtml": "Tentukan kategori BENAR atau SALAH untuk setiap butir pernyataan mengenai konsep kebudayaan dan norma sosial Jepang berikut!",
+    "questionHtml": "次の各文の正誤（正しい・誤り）を判断しなさい：",
     "formulaHud": {
       "title": "EVALUASI SOSIO-KULTURAL JEPANG (日本文化・社会規範の判定)",
       "latex": "\\begin{aligned} \\text{Uchi-Soto: } & \\text{Benar (Pilar fundamental ragam bahasa hormat Keigo)} \\\\ \\text{Uang Tip: } & \\text{Salah (Tidak ada budaya tip di Jepang, bahkan dinilai merendahkan)} \\\\ \\text{Eskalator Tokyo: } & \\text{Benar (Berdiri di kiri di Kanto / Tokyo, kanan di Kansai)} \\\\ \\text{Lepas Sepatu di Genkan: } & \\text{Benar (Etika higienitas dan pemisahan batas ruang sakral rumah)} \\end{aligned}",

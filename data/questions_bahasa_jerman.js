@@ -13,7 +13,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Lukas menceritakan kebiasaan membaca saudaranya:\n'Mein Bruder ( ... ) jeden Abend vor dem Schlafen einen Kriminalroman.'\nBentuk konjugasi kata kerja 'lesen' yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Mein Bruder ( ... ) jeden Abend vor dem Schlafen einen Kriminalroman.'",
     "formulaHud": {
       "title": "VOKALWECHSEL IM PRÄSENS (e -> ie)",
       "latex": "\\text{lesen: } \\text{du liest}, \\quad \\text{er/sie/es liest}, \\quad \\text{ihr lest}",
@@ -61,7 +61,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di toko alat tulis, seorang siswa berkata kepada kasir:\n'Ich brauche einen Füller. Ich kaufe ( ... ) Füller hier, weil er von sehr guter Qualität ist.'\nKata sandang tertentu (bestimmter Artikel) yang TEPAT untuk kata benda maskulin 'Füller' pada posisi Akkusativ adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich brauche einen Füller. Ich kaufe ( ... ) Füller hier, weil er von sehr guter Qualität ist.'",
     "formulaHud": {
       "title": "DEKLINASI ARTIKEL MASKULIN",
       "latex": "\\text{Maskulin: } \\text{Nom: der} \\quad \\rightarrow \\quad \\text{Akk: den} \\quad \\rightarrow \\quad \\text{Dat: dem}",
@@ -109,7 +109,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam rutinitas pagi hari, seorang siswa menjelaskan jadwalnya:\n'Der Wecker klingelt um sechs Uhr, und ich stehe sofort ( ... ).'\nPrefiks yang TEPAT untuk melengkapi kata kerja terpisah 'aufstehen' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Wecker klingelt um sechs Uhr, und ich stehe sofort ( ... ).'",
     "formulaHud": {
       "title": "TRENNBARE VERBEN IM HAUPTSATZ",
       "latex": "\\text{Hauptsatz: } \\text{Subjekt} + \\text{Verbstamm (Pos. 2)} + \\dots + \\text{Präfix (Satzende)}",
@@ -157,7 +157,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Pengawas perpustakaan sekolah menegaskan tata tertib kepada siswa:\n'Hier im Lesesaal ist absolutes Schweigen vorgeschrieben. Man ( ... ) hier nicht laut telefonieren.'\nModalverb yang TEPAT untuk menyatakan larangan atau ketiadaan izin adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Hier im Lesesaal ist absolutes Schweigen vorgeschrieben. Man ( ... ) hier nicht laut telefonieren.'",
     "formulaHud": {
       "title": "SEMANTIK MODALVERBEN: DÜRFEN VS KÖNNEN",
       "latex": "\\text{nicht dürfen} = \\text{Verbot (Larangan resmi)}, \\quad \\text{nicht können} = \\text{Unfähigkeit (Ketidakmampuan)}",
@@ -205,7 +205,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Ketika ditawari camilan oleh temannya, Martin menjawab:\n'Danke, aber ich habe im Moment ( ... ) Zeit, weil mein Bus in fünf Minuten abfährt.'\nKata sangkal yang TEPAT untuk kata benda tanpa artikel bergender feminin 'Zeit' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Danke, aber ich habe im Moment ( ... ) Zeit, weil mein Bus in fünf Minuten abfährt.'",
     "formulaHud": {
       "title": "NEGASI: KEIN- VS NICHT",
       "latex": "\\text{kein/e/en} + \\text{Nomen (ohne Artikel)}, \\quad \\text{nicht} + \\text{Verb / Adjektiv / Eigennamen}",
@@ -301,7 +301,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Thomas kehilangan bolpoin barunya di kelas:\n'Wo ist mein Kugelschreiber? Ich suche ( ... ) schon seit zwanzig Minuten.'\nKata ganti orang (Personalpronomen) yang TEPAT untuk menggantikan kata benda maskulin 'Kugelschreiber' pada posisi Akkusativ adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wo ist mein Kugelschreiber? Ich suche ( ... ) schon seit zwanzig Minuten.'",
     "formulaHud": {
       "title": "PERSONALPRONOMEN: MASKULIN AKKUSATIV",
       "latex": "\\text{der Kugelschreiber } \\rightarrow \\text{Nom: er} \\quad \\rightarrow \\quad \\text{Akk: ihn} \\quad \\rightarrow \\quad \\text{Dat: ihm}",
@@ -349,7 +349,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang mahasiswa pertukaran memperkenalkan diri di hadapan kelas:\n'Guten Tag! Ich komme ( ... ) Indonesien, aber zurzeit wohne ich ( ... ) Berlin bei einer Gastfamilie.'\nPasangan preposisi yang TEPAT untuk menyatakan negara asal dan kota tempat tinggal adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Guten Tag! Ich komme ( ... ) Indonesien, aber zurzeit wohne ich ( ... ) Berlin bei einer Gastfamilie.'",
     "formulaHud": {
       "title": "HERKUNFT & WOHNORT",
       "latex": "\\text{kommen aus } + \\text{Land/Stadt}, \\quad \\text{wohnen in } + \\text{Stadt/Land}",
@@ -397,7 +397,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang ibu menanyakan sarana transportasi anaknya ke sekolah:\n'Wie ( ... ) du morgens zur Schule, mit dem Fahrrad oder mit dem Bus?'\nBentuk konjugasi kata kerja 'fahren' yang TEPAT untuk subjek 'du' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wie ( ... ) du morgens zur Schule, mit dem Fahrrad oder mit dem Bus?'",
     "formulaHud": {
       "title": "VOKALWECHSEL (a -> ä)",
       "latex": "\\text{fahren: } \\text{du fährst}, \\quad \\text{er/sie/es fährt}, \\quad \\text{ihr fahrt}",
@@ -493,7 +493,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di kantin sekolah saat jam istirahat:\n'Zum Frühstück trinke ich meistens eine Tasse Kaffee mit Milch und esse ein ( ... ) mit Butter und Marmelade.'\nKata benda yang TEPAT dan lazim untuk melengkapi sarapan khas Jerman tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Zum Frühstück trinke ich meistens eine Tasse Kaffee mit Milch und esse ein ( ... ) mit Butter und Marmelade.'",
     "formulaHud": {
       "title": "WORTSCHATZ FRÜHSTÜCK",
       "latex": "\\text{das Brötchen (Netral)} \\rightarrow \\text{ein Brötchen mit Butter und Marmelade}",
@@ -541,7 +541,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam percakapan keluarga:\n'Das ist ( ... ) Mutter. Sie arbeitet als Ärztin im städtischen Krankenhaus.'\nBentuk kata ganti kepemilikan orang pertama (Possessivpronomen) yang TEPAT untuk subjek feminin 'Mutter' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Das ist ( ... ) Mutter. Sie arbeitet als Ärztin im städtischen Krankenhaus.'",
     "formulaHud": {
       "title": "POSSESSIVPRONOMEN: NOMINATIV",
       "latex": "\\text{die Mutter (feminin) } \\rightarrow \\text{meine Mutter}, \\quad \\text{der Vater } \\rightarrow \\text{mein Vater}",
@@ -589,7 +589,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang pelanggan memesan minuman di sebuah kafe di Berlin:\n'Guten Tag! Ich ( ... ) bitte ein Glas Mineralwasser ohne Kohlensäure.'\nBentuk verba kesantunan 'möchten' yang TEPAT untuk subjek 'ich' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Guten Tag! Ich ( ... ) bitte ein Glas Mineralwasser ohne Kohlensäure.'",
     "formulaHud": {
       "title": "KONJUGASI MÖCHTEN (HÖFLICHE BITTE)",
       "latex": "\\text{ich möchte}, \\quad \\text{du möchtest}, \\quad \\text{er/sie/es möchte}, \\quad \\text{wir möchten}",
@@ -637,7 +637,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Guru meminta para siswa membuka bahan ajar:\n'Bitte macht eure ( ... ) auf Seite 45 auf und lest den ersten Textabschnitt!'\nBentuk jamak (Plural) yang BENAR dari kata benda 'das Buch' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Bitte macht eure ( ... ) auf Seite 45 auf und lest den ersten Textabschnitt!'",
     "formulaHud": {
       "title": "PLURALBILDUNG: DAS BUCH",
       "latex": "\\text{das Buch} \\quad \\rightarrow \\quad \\text{die Bücher (Nom/Akk Plural)}",
@@ -685,7 +685,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Klaus membawa hadiah ulang tahun untuk temannya:\n'Heute hat Claudia Geburtstag. Dieses Geschenk ist ( ... ).'\nBentuk kata ganti yang TEPAT setelah preposisi Akkusativ 'für' untuk persona ketiga feminin 'Claudia' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Heute hat Claudia Geburtstag. Dieses Geschenk ist ( ... ).'",
     "formulaHud": {
       "title": "AKKUSATIV-PRÄPOSITION: FÜR",
       "latex": "\\text{Präposition } \\mathbf{für} + \\text{Akkusativ} \\quad (\\text{sie } \\rightarrow \\text{sie})",
@@ -733,7 +733,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Pasien mengeluhkan keluhannya kepada dokter:\n'Herr Doktor, ich kann kaum schlucken und habe Fieber. Mein ( ... ) tut schrecklich weh.'\nBagian tubuh bergender maskulin tunggal yang TEPAT sesuai keluhan sakit menelan tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Herr Doktor, ich kann kaum schlucken und habe Fieber. Mein ( ... ) tut schrecklich weh.'",
     "formulaHud": {
       "title": "SYMPTOME AUSDRÜCKEN: WEHTUN",
       "latex": "\\text{Nomen Sing. + tut weh} \\quad \\leftrightarrow \\quad \\text{Nomen Plur. + tun weh}",
@@ -781,7 +781,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang murid menyadari waktu ujian sudah semakin dekat:\n'Es ist schon spät und morgen schreiben wir eine Klassenarbeit. Ich ( ... ) jetzt wirklich fleißig lernen.'\nBentuk konjugasi kata kerja modal 'müssen' yang TEPAT untuk subjek 'ich' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Es ist schon spät und morgen schreiben wir eine Klassenarbeit. Ich ( ... ) jetzt wirklich fleißig lernen.'",
     "formulaHud": {
       "title": "KONJUGASI MODALVERB MÜSSEN (PRÄSENS)",
       "latex": "\\text{ich muss}, \\quad \\text{du musst}, \\quad \\text{er/sie/es muss}, \\quad \\text{wir müssen}",
@@ -829,7 +829,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam perkenalan profil karier:\n'Herr Wagner ist Lehrer an einem Gymnasium, und seine Frau arbeitet auch an derselben Schule als ( ... ).'\nBentuk nama profesi wanita yang TEPAT untuk rekan seprofesinya adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Herr Wagner ist Lehrer an einem Gymnasium, und seine Frau arbeitet auch an derselben Schule als ( ... ).'",
     "formulaHud": {
       "title": "BERUFSBEZEICHNUNGEN (FEMININ)",
       "latex": "\\text{der Lehrer (Maskulin)} \\quad + \\text{ -in} \\quad \\rightarrow \\quad \\text{die Lehrerin (Feminin)}",
@@ -925,7 +925,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang kakak memberi instruksi kepada adik laki-lakinya:\n'Peter, es ist schon sehr kalt draußen. ( ... ) bitte deine warme Jacke an!'\nBentuk kata kerja perintah (Imperativ) yang TEPAT dari verba 'anziehen' untuk persona 'du' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Peter, es ist schon sehr kalt draußen. ( ... ) bitte deine warme Jacke an!'",
     "formulaHud": {
       "title": "IMPERATIV DER DU-FORM",
       "latex": "\\text{anziehen } \\rightarrow \\text{du ziehst an } \\rightarrow \\text{Zieh ... an!}",
@@ -973,7 +973,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Dalam jadwal mingguan klub olahraga sekolah:\n'Das Fußballtraining findet jede Woche ( ... ) Samstagnachmittag auf dem Sportplatz statt.'\nPreposisi temporal yang TEPAT untuk menerangkan waktu hari dan bagian hari tertentu adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Das Fußballtraining findet jede Woche ( ... ) Samstagnachmittag auf dem Sportplatz statt.'",
     "formulaHud": {
       "title": "TEMPORALE PRÄPOSITIONEN: AM VS IM VS UM",
       "latex": "\\mathbf{am} + \\text{Tage/Tageszeiten}, \\quad \\mathbf{im} + \\text{Monate/Jahreszeiten}, \\quad \\mathbf{um} + \\text{Uhrzeit}",
@@ -1021,7 +1021,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Di etalase toko pakaian:\n'Schau mal! Wie findest du ( ... ) blaue T-Shirt dort drüben? Ich finde es wirklich schick.'\nBentuk kata ganti penunjuk (Demonstrativpronomen) yang TEPAT untuk kata benda netral 'T-Shirt' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Schau mal! Wie findest du ( ... ) blaue T-Shirt dort drüben? Ich finde es wirklich schick.'",
     "formulaHud": {
       "title": "DEMONSTRATIVPRONOMEN DIES-",
       "latex": "\\text{das T-Shirt (Netral) } \\rightarrow \\text{Nom/Akk: dieses T-Shirt}",
@@ -1069,7 +1069,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Melihat awan gelap dan rintik air turun dari langit:\n'Nimm unbedingt deinen Regenschirm mit! Draußen ( ... ) es ziemlich stark.'\nKata kerja cuaca yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Nimm unbedingt deinen Regenschirm mit! Draußen ( ... ) es ziemlich stark.'",
     "formulaHud": {
       "title": "WETTERAUSDRÜCKE (IMPERSONAL ES)",
       "latex": "\\text{Es regnet (Hujan)}, \\quad \\text{Es schneit (Salju)}, \\quad \\text{Die Sonne scheint (Cerah)}",
@@ -1117,7 +1117,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "easy",
     "type": "mcq",
-    "questionHtml": "Seorang remaja menjelaskan rencananya di akhir pekan:\n'Ich wollte eigentlich mit meinen Freunden ins Kino gehen, ( ... ) ich muss leider zu Hause für die Matheprüfung lernen.'\nKata hubung koordinatif (Konjunktion) yang TEPAT untuk menyatakan kontras atau pertentangan adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich wollte eigentlich mit meinen Freunden ins Kino gehen, ( ... ) ich muss leider zu Hause für die Matheprüfung lernen.'",
     "formulaHud": {
       "title": "KOORDINIERENDE KONJUNKTIONEN (ADUSO)",
       "latex": "\\text{ADUSO: } \\text{aber, denn, und, sondern, oder } (\\text{Posisi 0})",
@@ -1213,7 +1213,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang kakek membawa koper yang sangat berat di peron kereta api:\n'Entschuldigen Sie, junger Mann! Könnten Sie ( ... ) bitte beim Tragen dieses schweren Koffers helfen?'\nBentuk kata ganti orang (Personalpronomen) yang TEPAT untuk objek verba 'helfen' pada persona pertama tunggal adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Entschuldigen Sie, junger Mann! Könnten Sie ( ... ) bitte beim Tragen dieses schweren Koffers helfen?'",
     "formulaHud": {
       "title": "VERB MIT DATIV: HELFEN",
       "latex": "\\text{helfen} + \\text{Dativ} \\quad (\\text{ich } \\rightarrow \\text{mir})",
@@ -1261,7 +1261,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Ibu memberikan instruksi penataan ruang tamu kepada anaknya:\n'Bitte stelle die Stehlampe ( ... ) Ecke! Dort ( ... ) sie am besten und stört niemanden.'\nPasangan frasa preposisi dan kata kerja yang TEPAT untuk melengkapi kalimat tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Bitte stelle die Stehlampe ( ... ) Ecke! Dort ( ... ) sie am besten und stört niemanden.'",
     "formulaHud": {
       "title": "WECHSELPRÄPOSITIONEN & VERBENPAARE",
       "latex": "\\text{stellen (Aktion, Wohin?)} \\rightarrow \\text{Akkusativ}, \\quad \\text{stehen (Zustand, Wo?)} \\rightarrow \\text{Dativ}",
@@ -1309,7 +1309,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam survei mobilitas komuter di kota Frankfurt:\n'Viele Angestellte fahren morgens nicht mit dem Auto, sondern ( ... ) U-Bahn zur Arbeit, um Staus zu vermeiden.'\nBentuk artikel yang TEPAT setelah preposisi Dativ 'mit' untuk kata benda feminin 'U-Bahn' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Viele Angestellte fahren morgens nicht mit dem Auto, sondern ( ... ) U-Bahn zur Arbeit, um Staus zu vermeiden.'",
     "formulaHud": {
       "title": "DATIV-PRÄPOSITION: MIT",
       "latex": "\\text{Präposition } \\mathbf{mit} + \\text{Dativ} \\quad (\\text{die U-Bahn } \\rightarrow \\text{mit der U-Bahn})",
@@ -1357,7 +1357,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Setelah liburan musim panas, seorang siswa bercerita kepada guru:\n'In den Ferien ( ... ) meine Familie und ich für zwei Wochen nach Wien ( ... ).'\nPasangan kata kerja bantu (Hilfsverb) dan bentuk lampau (Partizip II) yang TEPAT dari verba 'fahren' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'In den Ferien ( ... ) meine Familie und ich für zwei Wochen nach Wien ( ... ).'",
     "formulaHud": {
       "title": "PERFEKT MIT SEIN (ORTSWECHSEL)",
       "latex": "\\text{Subjek Plural} + \\mathbf{sind} + \\dots + \\text{Partizip II (}\\mathbf{gefahren}\\text{)}",
@@ -1405,7 +1405,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Leon tidak dapat menghadiri pesta ulang tahun temannya:\n'Leon kommt heute leider nicht zur Geburtstagsparty, weil er ( ... ).'\nSusunan klausa anak (Nebensatz) yang BENAR sesuai kaidah gramatika bahasa Jerman adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Leon kommt heute leider nicht zur Geburtstagsparty, weil er ( ... ).'",
     "formulaHud": {
       "title": "NEBENSATZ MIT WEIL (VERB-LETZT-STELLUNG)",
       "latex": "\\text{weil} + \\text{Subjekt} + \\dots + \\text{Infinitiv} + \\mathbf{konjugiertes Verb (Ende)}",
@@ -1453,7 +1453,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Para turis sangat menikmati keindahan kota tua Heidelberg:\n'Die alten Schlösser und engen Gassen in Heidelberg gefallen ( ... ) unglaublich gut.'\nBentuk pronomina persona ketiga jamak (mereka) dalam kasus Dativ yang TEPAT adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die alten Schlösser und engen Gassen in Heidelberg gefallen ( ... ) unglaublich gut.'",
     "formulaHud": {
       "title": "VERB MIT DATIV: GEFALLEN",
       "latex": "\\text{etwas (Nom.) gefällt / gefallen} + \\text{jemandem (Dativ)}",
@@ -1501,7 +1501,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam wawancara mengenai kegemaran membaca dan menonton:\n'Ich lese gern historische Romane, aber noch ( ... ) sehe ich mir Dokumentarfilme über Natur an.'\nBentuk perbandingan tingkat lebih (Komparativ) yang TEPAT dari kata keterangan 'gern' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich lese gern historische Romane, aber noch ( ... ) sehe ich mir Dokumentarfilme über Natur an.'",
     "formulaHud": {
       "title": "STEIGERUNG VON GERN",
       "latex": "\\text{Positiv: gern} \\quad \\rightarrow \\quad \\text{Komparativ: lieber} \\quad \\rightarrow \\quad \\text{Superlativ: am liebsten}",
@@ -1549,7 +1549,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang ekspatriat menceritakan lama tinggalnya di Jerman:\n'Herr Meyer wohnt schon ( ... ) einem ganzen Jahr in Hamburg und lernt fleißig Deutsch.'\nPreposisi temporal yang TEPAT untuk menyatakan peristiwa yang dimulai di masa lalu dan masih berlangsung hingga kini adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Herr Meyer wohnt schon ( ... ) einem ganzen Jahr in Hamburg und lernt fleißig Deutsch.'",
     "formulaHud": {
       "title": "TEMPORALE PRÄPOSITION: SEIT",
       "latex": "\\mathbf{seit} + \\text{Dativ (Präsens)} = \\text{Aksi dimulai di masa lalu & masih berlanjut}",
@@ -1597,7 +1597,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dokter memberikan kepastian diagnosis kepada pasien:\n'Der Arzt hat mir gestern versichert, ( ... ) die Operation völlig schmerzfrei verlaufen wird.'\nKata penghubung subordinatif yang TEPAT untuk menghubungkan klausa isi pernyataan faktual adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Arzt hat mir gestern versichert, ( ... ) die Operation völlig schmerzfrei verlaufen wird.'",
     "formulaHud": {
       "title": "OBJEKTSATZ MIT DASS",
       "latex": "\\text{Hauptsatz (versichert)} + , \\mathbf{dass} + \\dots + \\text{Verb-Ende (verlaufen wird)}",
@@ -1645,7 +1645,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Jonas menceritakan alasan ia tidak masuk sekolah kemarin:\n'Gestern hatte ich hohes Fieber, deshalb ( ... ) ich leider nicht zum Unterricht kommen.'\nBentuk lampau sederhana (Präteritum) dari modalverb 'können' yang TEPAT untuk subjek 'ich' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Gestern hatte ich hohes Fieber, deshalb ( ... ) ich leider nicht zum Unterricht kommen.'",
     "formulaHud": {
       "title": "PRÄTERITUM DER MODALVERBEN: KÖNNEN",
       "latex": "\\text{ich konnte}, \\quad \\text{du konntest}, \\quad \\text{er/sie/es konnte}, \\quad \\text{wir konnten}",
@@ -1693,7 +1693,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Setelah selesai membaca majalah, ayah berkata:\n'Ich ( ... ) die Zeitschrift auf den Wohnzimmertisch, und jetzt ( ... ) sie dort neben der Vase.'\nPasangan kata kerja yang TEPAT untuk melengkapi tindakan dinamis dan keadaan statis tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich ( ... ) die Zeitschrift auf den Wohnzimmertisch, und jetzt ( ... ) sie dort neben der Vase.'",
     "formulaHud": {
       "title": "VERBENPAAR: LEGEN VS LIEGEN",
       "latex": "\\text{legen (Aktion, Wohin? + Akk)} \\quad \\leftrightarrow \\quad \\text{liegen (Zustand, Wo? + Dat)}",
@@ -1741,7 +1741,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seorang kawan menyarankan kegiatan saat cuaca cerah di akhir pekan:\n'( ... ) das Wetter am Samstag schön bleibt, machen wir einen Tagesausflug in den Schwarzwald.'\nKata penghubung subordinatif yang TEPAT untuk mengawali klausa syarat atau kondisi tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) das Wetter am Samstag schön bleibt, machen wir einen Tagesausflug in den Schwarzwald.'",
     "formulaHud": {
       "title": "KONDITIONALSATZ MIT WENN",
       "latex": "\\mathbf{Wenn} + \\text{Subjekt} + \\dots + \\text{Verb (bleibt)}, \\quad \\text{Verb (machen)} + \\text{Subjekt} + \\dots",
@@ -1789,7 +1789,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Murid-murid menyambut antusias rencana kunjungan museum:\n'Alle Schüler freuen ( ... ) schon riesig auf die bevorstehende Klassenfahrt nach Berlin.'\nBentuk kata ganti refleksif (Reflexivpronomen) yang TEPAT untuk subjek persona ketiga jamak 'alle Schüler' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Alle Schüler freuen ( ... ) schon riesig auf die bevorstehende Klassenfahrt nach Berlin.'",
     "formulaHud": {
       "title": "REFLEXIVPRONOMEN IM AKKUSATIV",
       "latex": "\\text{Subjekt: er/sie/es/sie(Pl.)} \\quad \\rightarrow \\quad \\text{Reflexivpronomen: } \\mathbf{sich}",
@@ -1837,7 +1837,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Felix meminta maaf karena datang terlambat ke pertemuan:\n'Entschuldigung für die Verspätung! Ich habe meinen Zug nach Köln leider ( ... ).'\nBentuk Partizip II yang BENAR dari kata kerja tak terpisah 'verpassen' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Entschuldigung für die Verspätung! Ich habe meinen Zug nach Köln leider ( ... ).'",
     "formulaHud": {
       "title": "PARTIZIP II UNTRENNBARER VERBEN",
       "latex": "\\text{Präfixe: be-, emp-, ent-, er-, ge-, miss-, ver-, zer-} \\rightarrow \\text{OHNE ge-}",
@@ -1933,7 +1933,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Pasien yang sedang demam tinggi menelpon tempat kerjanya:\n'Ich fühle mich heute gar nicht gut und gehe jetzt direkt ( ... ) Arzt.'\nBentuk kontraksi preposisi dan artikel Dativ yang TEPAT untuk tujuan profesi dokter (der Arzt) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich fühle mich heute gar nicht gut und gehe jetzt direkt ( ... ) Arzt.'",
     "formulaHud": {
       "title": "PRÄPOSITION ZU + PERSON (DATIV)",
       "latex": "\\mathbf{zu} + \\text{Person/Beruf (Dativ)} \\quad \\rightarrow \\quad \\text{zu + dem} = \\mathbf{zum}",
@@ -1981,7 +1981,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Di pusat informasi stasiun pusat kereta api:\n'Können Sie mir bitte sagen, ( ... ) der Intercity-Express nach Hamburg heute planmäßig abfährt?'\nKata sambung subordinatif yang TEPAT untuk pertanyaan ya/tidak tidak langsung (indirekte Ja/Nein-Frage) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Können Sie mir bitte sagen, ( ... ) der Intercity-Express nach Hamburg heute planmäßig abfährt?'",
     "formulaHud": {
       "title": "INDIREKTE FRAGESÄTZE MIT OB",
       "latex": "\\text{Indirekte Ja/Nein-Frage: } \\mathbf{ob} + \\text{Subjekt} + \\dots + \\text{konjugiertes Verb (Ende)}",
@@ -2029,7 +2029,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dua sahabat membandingkan rute perjalanan kereta api:\n'Die Fahrt mit dem Hochgeschwindigkeitszug ICE ist deutlich schneller ( ... ) die Reise mit dem Regionalexpress.'\nPartikel pembanding yang TEPAT untuk melengkapi tingkat perbandingan lebih (Komparativ) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die Fahrt mit dem Hochgeschwindigkeitszug ICE ist deutlich schneller ( ... ) die Reise mit dem Regionalexpress.'",
     "formulaHud": {
       "title": "VERGLEICHSPARTIKELN: ALS VS WIE",
       "latex": "\\text{Komparativ} + \\mathbf{als} \\quad (\\text{schneller als}), \\quad \\text{Positiv: } \\mathbf{so} \\dots \\mathbf{wie} \\quad (\\text{so schnell wie})",
@@ -2077,7 +2077,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam aturan pemakaian obat dari apotek:\n'Bitte nehmen Sie diese Tablette immer dreimal täglich ( ... ) dem Essen mit einem großen Glas Wasser ein.'\nPreposisi temporal yang TEPAT untuk menyatakan waktu 'sesudah makan' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Bitte nehmen Sie diese Tablette immer dreimal täglich ( ... ) dem Essen mit einem großen Glas Wasser ein.'",
     "formulaHud": {
       "title": "TEMPORALE PRÄPOSITION: NACH (+ DATIV)",
       "latex": "\\mathbf{nach} + \\text{Dativ} = \\text{sesudah / setelah}",
@@ -2125,7 +2125,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Klaus meluruskan informasi mengenai jurusan kuliah adiknya:\n'Mein Bruder studiert nicht Medizin an der Universität München, ( ... ) er lernt Maschinenbau an der TU Berlin.'\nKata hubung koordinatif korektif yang TEPAT setelah kalimat negasi adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Mein Bruder studiert nicht Medizin an der Universität München, ( ... ) er lernt Maschinenbau an der TU Berlin.'",
     "formulaHud": {
       "title": "KORREKTIVE KONJUNKTION: SONDERN",
       "latex": "\\text{nicht } A, \\quad \\mathbf{sondern} \\quad B \\quad (\\text{Posisi 0})",
@@ -2221,7 +2221,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam korespondensi surat elektronik:\n'Frau Müller hat den ausführlichen Geschäftsbericht für den Vorstand bereits gestern Abend ( ... ).'\nBentuk Partizip II yang BENAR dari verba kuat 'schreiben' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Frau Müller hat den ausführlichen Geschäftsbericht für den Vorstand bereits gestern Abend ( ... ).'",
     "formulaHud": {
       "title": "PARTIZIP II STARKER VERBEN: SCHREIBEN",
       "latex": "\\text{schreiben (Ablautreihe 1): } \\text{schreiben} \\rightarrow \\text{schrieb} \\rightarrow \\mathbf{geschrieben}",
@@ -2269,7 +2269,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Dalam panduan pemilahan sampah ramah lingkungan di apartemen kota Köln:\n'Leere Plastikflaschen ohne Pfand, Milchtüten und Konservendosen gehören in die ( ... ).'\nWadah penampung sampah daur ulang yang TEPAT sesuai sistem pemilahan sampah Jerman adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Leere Plastikflaschen ohne Pfand, Milchtüten und Konservendosen gehören in die ( ... ).'",
     "formulaHud": {
       "title": "MÜLLTRENNUNG IN DEUTSCHLAND",
       "latex": "\\text{Gelbe Tonne/Sack} = \\text{Verpackungen (Plastik, Metall, Tetrapak)}",
@@ -2317,7 +2317,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Seseorang memberikan petunjuk arah di pusat kota:\n'Die städtische Zentralbibliothek befindet sich direkt gegenüber ( ... ) großen Park.'\nBentuk artikel yang TEPAT setelah preposisi Dativ 'gegenüber' untuk kata benda maskulin 'der Park' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die städtische Zentralbibliothek befindet sich direkt gegenüber ( ... ) großen Park.'",
     "formulaHud": {
       "title": "DATIV-PRÄPOSITION: GEGENÜBER",
       "latex": "\\mathbf{gegenüber} + \\text{Dativ} \\quad (\\text{der Park } \\rightarrow \\text{dem Park})",
@@ -2365,7 +2365,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "medium",
     "type": "mcq",
-    "questionHtml": "Sekretaris menyampaikan instruksi direktur kepada seorang staf:\n'Frau Schmidt, der Chef hat gesagt, Sie ( ... ) ihn sofort in seinem Büro anrufen.'\nBentuk konjugasi modalverb 'sollen' yang TEPAT untuk persona formal 'Sie' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Frau Schmidt, der Chef hat gesagt, Sie ( ... ) ihn sofort in seinem Büro anrufen.'",
     "formulaHud": {
       "title": "MODALVERB SOLLEN (FREMDER WILLE)",
       "latex": "\\text{Chef sagt: \"Rufen Sie mich an!\" } \\rightarrow \\text{Sie } \\mathbf{sollen} \\text{ ihn anrufen.}",
@@ -2413,7 +2413,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam evaluasi kinerja proyek teknologi hijau:\n'( ... ) die Anschaffungskosten für Solaranlagen anfangs relativ hoch sind, entscheiden sich immer mehr Haushalte für die Installation sauberer Photovoltaik.'\nKata penghubung subordinatif konsesif yang TEPAT untuk menyatakan paradoks pertentangan tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) die Anschaffungskosten für Solaranlagen anfangs relativ hoch sind, entscheiden sich immer mehr Haushalte für die Installation sauberer Photovoltaik.'",
     "formulaHud": {
       "title": "KONZESSIVSATZ MIT OBWOHL",
       "latex": "\\mathbf{Obwohl} + \\text{Subjekt} + \\dots + \\text{Verb (sind)}, \\quad \\text{Verb (entscheiden)} + \\text{Subjekt} + \\dots",
@@ -2461,7 +2461,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang ibu menjelaskan alasannya bekerja lembur di kantor:\n'Die Mutter arbeitet jeden Tag zusätzliche Überstunden, ( ... ) ihre Kinder an einer renommierten Musikakademie studieren können.'\nStruktur penghubung tujuan (Finalsatz) yang TEPAT untuk melengkapi kalimat dengan dua subjek berbeda tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die Mutter arbeitet jeden Tag zusätzliche Überstunden, ( ... ) ihre Kinder an einer renommierten Musikakademie studieren können.'",
     "formulaHud": {
       "title": "FINALSÄTZE: DAMIT VS UM...ZU",
       "latex": "\\text{Subjekt 1 (Mutter)} \\neq \\text{Subjekt 2 (Kinder)} \\quad \\implies \\quad \\mathbf{damit} + \\text{Nebensatz}",
@@ -2509,7 +2509,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam sambutan perpisahan kepala laboratorium kimia:\n'Frau Professor Hoffmann ist eine herausragende Wissenschaftlerin, ( ... ) wir für die großartige Unterstützung während des Forschungsprojekts sehr danken.'\nKata ganti relatif (Relativpronomen) yang TEPAT untuk merujuk pada 'eine Wissenschaftlerin' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Frau Professor Hoffmann ist eine herausragende Wissenschaftlerin, ( ... ) wir für die großartige Unterstützung während des Forschungsprojekts sehr danken.'",
     "formulaHud": {
       "title": "RELATIVPRONOMEN IM DATIV (FEMININ)",
       "latex": "\\text{die Wissenschaftlerin (feminin)} + \\mathbf{danken} (+\\text{Dativ}) \\quad \\rightarrow \\quad \\text{Relativpronomen: } \\mathbf{der}",
@@ -2557,7 +2557,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dua mahasiswa kelelahan menghadapi pekan ujian akhir semester:\n'Ich bin so gestresst. Wenn ich doch bloß reich ( ... ), ( ... ) ich jetzt sofort einen Flug in die Karibik buchen.'\nPasangan bentuk Konjunktiv II yang TEPAT untuk menyatakan pengandaian tak nyata masa kini tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich bin so gestresst. Wenn ich doch bloß reich ( ... ), ( ... ) ich jetzt sofort einen Flug in die Karibik buchen.'",
     "formulaHud": {
       "title": "KONJUNKTIV II: IRREALER KONDITIONALSATZ",
       "latex": "\\text{Wenn ich reich } \\mathbf{wäre}, \\quad \\mathbf{würde} \\text{ ich } \\dots \\text{ buchen}",
@@ -2605,7 +2605,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam proses perakitan kendaraan modern di pabrik mobil Stuttgart:\n'Die hochentwickelten Elektromotoren ( ... ) vollautomatisch von spezialisierten Industrie-Robotern ( ... ).'\nPasangan kata kerja bantu pasif dan bentuk Partizip II yang TEPAT untuk subjek jamak tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die hochentwickelten Elektromotoren ( ... ) vollautomatisch von spezialisierten Industrie-Robotern ( ... ).'",
     "formulaHud": {
       "title": "VORGANGSPASSIV IM PRÄSENS",
       "latex": "\\text{Subjekt (Plural)} + \\mathbf{werden} + \\dots + \\text{von (Dativ)} + \\mathbf{Partizip II (montiert)}",
@@ -2653,7 +2653,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemberitaan mengenai kelancaran operasi kereta cepat saat badai salju:\n'Trotz ( ... ) heftigen Schneesturms erreichten fast alle Züge der Deutschen Bahn ihr Ziel ohne größere Verspätung.'\nBentuk artikel Genitiv maskulin tunggal yang TEPAT untuk melengkapi frasa preposisi tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Trotz ( ... ) heftigen Schneesturms erreichten fast alle Züge der Deutschen Bahn ihr Ziel ohne größere Verspätung.'",
     "formulaHud": {
       "title": "GENITIV-PRÄPOSITION: TROTZ",
       "latex": "\\mathbf{trotz} + \\text{Genitiv} \\quad (\\text{der Schneesturm } \\rightarrow \\text{des Schneesturms})",
@@ -2701,7 +2701,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam pameran arsitektur perkotaan modern:\n'Der Bürgermeister lobte den ( ... ) Entwurf des jungen Architekten für den neuen Hauptbahnhof.'\nBentuk deklinasi kata sifat 'kreativ' yang TEPAT setelah artikel tentu maskulin Akkusativ 'den' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Bürgermeister lobte den ( ... ) Entwurf des jungen Architekten für den neuen Hauptbahnhof.'",
     "formulaHud": {
       "title": "SCHWACHE ADJEKTIVDEKLINATION (TYP 1)",
       "latex": "\\text{den (bestimmter Artikel Akk. Mask.) } + \\text{Adjektiv-}\\mathbf{en} + \\text{Nomen}",
@@ -2749,7 +2749,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Di ruang tunggu bandara internasional Frankfurt:\n'Seit über zwei Stunden warten die Passagiere ungeduldig ( ... ) den verspäteten Abflug ihrer Maschine.'\nPreposisi dan kasus yang TEPAT sebagai pasangan permanen kata kerja 'warten' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Seit über zwei Stunden warten die Passagiere ungeduldig ( ... ) den verspäteten Abflug ihrer Maschine.'",
     "formulaHud": {
       "title": "FESTE PRÄPOSITION: WARTEN AUF (+ AKK)",
       "latex": "\\mathbf{warten auf} + \\text{Akkusativ} \\quad (\\text{der Abflug } \\rightarrow \\text{den Abflug})",
@@ -2797,7 +2797,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam deskripsi kebiasaan belajar seorang akademisi:\n'( ... ) der Professor die wissenschaftlichen Daten am Computer analysierte, notierte seine Assistentin alle Auffälligkeiten im Laborbericht.'\nKata penghubung subordinatif temporal yang TEPAT untuk menyatakan dua peristiwa yang terjadi secara bersamaan adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) der Professor die wissenschaftlichen Daten am Computer analysierte, notierte seine Assistentin alle Auffälligkeiten im Laborbericht.'",
     "formulaHud": {
       "title": "TEMPORALSATZ: GLEICHZEITIGKEIT MIT WÄHREND",
       "latex": "\\mathbf{Während} + \\text{Aktion A (Präteritum)}, \\quad \\text{Aktion B (Präteritum simultan)}",
@@ -2845,7 +2845,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Direktur yayasan sosial memberikan penghargaan kepada relawan kemanusiaan:\n'Wir danken allen ehrenamtlichen Helfern, ohne ( ... ) unermüdlichen Einsatz diese Hilfsaktion unmöglich gewesen wäre, und ( ... ) wir heute großen Respekt zollen.'\nBentuk pronomina relatif Dativ jamak yang TEPAT untuk mengisi rujukan kedua (orang kepada siapa rasa hormat diberikan) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wir danken allen ehrenamtlichen Helfern, ohne ( ... ) unermüdlichen Einsatz diese Hilfsaktion unmöglich gewesen wäre, und ( ... ) wir heute großen Respekt zollen.'",
     "formulaHud": {
       "title": "RELATIVPRONOMEN IM DATIV PLURAL",
       "latex": "\\text{die Helfer (Plural)} + \\text{Respekt zollen (}+\\text{Dativ)} \\quad \\rightarrow \\quad \\text{Relativpronomen: } \\mathbf{denen}",
@@ -2893,7 +2893,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam pengumuman pendaftaran simposium sains nasional:\n'Mehr als dreihundert renommierte Wissenschaftler aus ganz Europa nehmen in diesem Jahr ( ... ) Fachkongress für Biotechnologie in Leipzig teil.'\nPasangan preposisi dan artikel yang TEPAT untuk verba terpisah 'teilnehmen' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Mehr als dreihundert renommierte Wissenschaftler aus ganz Europa nehmen in diesem Jahr ( ... ) Fachkongress für Biotechnologie in Leipzig teil.'",
     "formulaHud": {
       "title": "FESTE PRÄPOSITION: TEILNEHMEN AN (+ DAT)",
       "latex": "\\mathbf{teilnehmen an} + \\text{Dativ} \\quad (\\text{der Kongress } \\rightarrow \\text{an dem / am Kongress})",
@@ -2941,7 +2941,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam buku teks sejarah integrasi Eropa pasca Perang Dunia II:\n'Die Verträge zur Gründung der Europäischen Wirtschaftsgemeinschaft ( ... ) im Jahr 1957 in Rom von den Vertretern der sechs Gründerstaaten feierlich ( ... ).'\nPasangan bentuk kata kerja pasif Präteritum yang TEPAT untuk subjek jamak 'Die Verträge' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die Verträge zur Gründung der Europäischen Wirtschaftsgemeinschaft ( ... ) im Jahr 1957 in Rom von den Vertretern der sechs Gründerstaaten feierlich ( ... ).'",
     "formulaHud": {
       "title": "VORGANGSPASSIV IM PRÄTERITUM",
       "latex": "\\text{Subjekt (Plural)} + \\mathbf{wurden} + \\dots + \\mathbf{Partizip II (unterzeichnet)}",
@@ -2989,7 +2989,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana analitis ketenagakerjaan berikut:\n'Das deutsche Modell der Dualen Ausbildung gilt weltweit als Erfolgsrezept gegen Jugendarbeitslosigkeit. Die Besonderheit liegt in der engen Verzahnung zweier Lernorte: Die Auszubildenden verbringen einen Teil ihrer Woche in der Berufsschule, wo theoretisches Fachwissen vermittelt wird, und den anderen Teil direkt in einem Ausbildungsbetrieb, wo sie praktische Fertigkeiten im realen Arbeitsumfeld erwerben.'\nBerdasarkan teks di atas, pilar utama yang menjadikan 'Duale Ausbildung' sangat diakui secara global adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Das deutsche Modell der Dualen Ausbildung gilt weltweit als Erfolgsrezept gegen Jugendarbeitslosigkeit. Die Besonderheit liegt in der engen Verzahnung zweier Lernorte: Die Auszubildenden verbringen einen Teil ihrer Woche in der Berufsschule, wo theoretisches Fachwissen vermittelt wird, und den anderen Teil direkt in einem Ausbildungsbetrieb, wo sie praktische Fertigkeiten im realen Arbeitsumfeld erwerben.'",
     "formulaHud": {
       "title": "DUALES SYSTEM DER BERUFSAUSBILDUNG",
       "latex": "\\text{Duales System} = \\text{Theorie (Berufsschule)} + \\text{Praxis (Ausbildungsbetrieb)}",
@@ -3033,7 +3033,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam laporan investigasi laboratorium forensik:\n'Nachdem die Forscher alle Blutproben gründlich ( ... ), ( ... ) sie die Ergebnisse im offiziellen Abschlussbericht.'\nPasangan kala waktu yang TEPAT untuk memenuhi kaidah 'Vorzeitigkeit' (Plusquamperfekt pada Nebensatz dan Präteritum pada Hauptsatz) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Nachdem die Forscher alle Blutproben gründlich ( ... ), ( ... ) sie die Ergebnisse im offiziellen Abschlussbericht.'",
     "formulaHud": {
       "title": "VORZEITIGKEIT MIT NACHDEM",
       "latex": "\\mathbf{Nachdem} + \\text{Plusquamperfekt (analysiert hatten)}, \\quad \\text{Hauptsatz in } \\mathbf{Präteritum (veröffentlichten)}",
@@ -3081,7 +3081,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam sambutan ulang tahun sahabat karib:\n'Ich danke meinem ( ... ) Freund aus tiefstem Herzen für seine langjährige Treue und Hilfsbereitschaft.'\nBentuk kata sifat 'treu' yang TEPAT setelah artikel kepemilikan Dativ 'meinem' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Ich danke meinem ( ... ) Freund aus tiefstem Herzen für seine langjährige Treue und Hilfsbereitschaft.'",
     "formulaHud": {
       "title": "GEMISCHTE ADJEKTIVDEKLINATION (TYP 2)",
       "latex": "\\text{meinem (Possessivartikel Dat. Mask.) } + \\text{Adjektiv-}\\mathbf{en} + \\text{Nomen}",
@@ -3129,7 +3129,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang pelamar kerja menyesali kegagalannya dalam sesi wawancara bahasa asing:\n'Wenn ich während der Schulzeit doch nur fleißiger Deutsch ( ... ), ( ... ) ich die prestigeträchtige Stelle bei Siemens in München bekommen.'\nPasangan bentuk Konjunktiv II masa lampau (Irrealis der Vergangenheit) yang TEPAT adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wenn ich während der Schulzeit doch nur fleißiger Deutsch ( ... ), ( ... ) ich die prestigeträchtige Stelle bei Siemens in München bekommen.'",
     "formulaHud": {
       "title": "KONJUNKTIV II DER VERGANGENHEIT",
       "latex": "\\text{Wenn } \\dots \\text{Part. II } + \\mathbf{hätte/wäre}, \\quad \\mathbf{hätte/wäre} + \\dots + \\text{Part. II}",
@@ -3177,7 +3177,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam kuesioner orientasi bakat siswa sekolah menengah atas:\n'Viele Jugendliche in Deutschland interessieren sich heutzutage brennend ( ... ) moderne Informationstechnologien und künstliche Intelligenz.'\nPreposisi dan kasus yang TEPAT untuk melengkapi verba refleksif 'sich interessieren' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Viele Jugendliche in Deutschland interessieren sich heutzutage brennend ( ... ) moderne Informationstechnologien und künstliche Intelligenz.'",
     "formulaHud": {
       "title": "FESTE PRÄPOSITION: SICH INTERESSIEREN FÜR",
       "latex": "\\mathbf{sich interessieren für} + \\text{Akkusativ} \\quad \\leftrightarrow \\quad \\mathbf{Interesse haben an} + \\text{Dativ}",
@@ -3225,7 +3225,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Instruksi keselamatan operasional di laboratorium mikrobiologi:\n'Aus Sicherheitsgründen ( ... ) alle chemischen Substanzen nach Versuchsende vorschriftsmäßig in den dafür vorgesehenen Spezialbehältern ( ... ).'\nPasangan bentuk kata kerja modal pasif yang TEPAT untuk subjek jamak adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Aus Sicherheitsgründen ( ... ) alle chemischen Substanzen nach Versuchsende vorschriftsmäßig in den dafür vorgesehenen Spezialbehältern ( ... ).'",
     "formulaHud": {
       "title": "PASSIV MIT MODALVERBEN IM HAUPTSATZ",
       "latex": "\\text{Modalverb (Pos. 2)} + \\dots + \\mathbf{Partizip II} + \\mathbf{werden (Satzende)}",
@@ -3273,7 +3273,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kebijakan lingkungan berikut:\n'Unter dem Begriff \"Energiewende\" versteht die deutsche Bundesregierung den tiefgreifenden Umbau der nationalen Energieversorgung: weg von fossilen Brennstoffen wie Kohle sowie dem endgültigen Atomausstieg, hin zu erneuerbaren Energieträgern wie Windkraft, Photovoltaik und Biomasse. Kernziel dieser langfristigen Strategie ist es, bis zum Jahr 2045 vollständige Treibhausgasneutralität zu erreichen und gleichzeitig die Versorgungssicherheit für die heimische Industrie zu garantieren.'\nBerdasarkan wacana di atas, sasaran strategis jangka panjang dari proyek 'Energiewende' Jerman adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Energiewende'",
     "formulaHud": {
       "title": "DIE DEUTSCHE ENERGIEWENDE",
       "latex": "\\text{Energiewende} = \\text{Atomausstieg} + \\text{Kohleausstieg} \\quad \\rightarrow \\quad \\text{Treibhausgasneutralität bis 2045}",
@@ -3316,7 +3316,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam laporan sosiologi urban tentang tren demografi kota-kota besar:\n'Die stetig ( ... ) Zahl älterer Mitbürger stellt das deutsche Pflegesystem vor enorme finanzielle und personelle Herausforderungen.'\nBentuk Partizip I atributif dari kata kerja 'steigen' yang TEPAT untuk kata benda feminin 'die Zahl' dalam kasus Nominativ adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die stetig ( ... ) Zahl älterer Mitbürger stellt das deutsche Pflegesystem vor enorme finanzielle und personelle Herausforderungen.'",
     "formulaHud": {
       "title": "PARTIZIP I ALS ADJEKTIV (AKTIV & GLEICHZEITIG)",
       "latex": "\\text{Infinitiv (steigen)} + \\mathbf{d} + \\text{Adjektivendung (}\\mathbf{e}\\text{)} \\quad \\rightarrow \\quad \\text{die steigen}\\mathbf{de} \\text{ Zahl}",
@@ -3364,7 +3364,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang atlet lari maraton menceritakan pola hidup barunya:\n'( ... ) ich meine Ernährung komplett auf pflanzliche Kost umgestellt habe, fühle ich mich tagsüber wesentlich fitter und leistungsfähiger.'\nKata penghubung subordinatif yang TEPAT untuk menandai titik awal mula perubahan kebiasaan yang berlanjut hingga kini adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) ich meine Ernährung komplett auf pflanzliche Kost umgestellt habe, fühle ich mich tagsüber wesentlich fitter und leistungsfähiger.'",
     "formulaHud": {
       "title": "TEMPORALSATZ: SEITDEM",
       "latex": "\\mathbf{Seitdem} + \\text{Auslöser (Perfekt)}, \\quad \\text{Resultat bis heute (Präsens)}",
@@ -3412,7 +3412,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam sesi konsultasi hukum perdata di kantor notaris:\n'Der Anwalt bat den anwesenden ( ... ), das offizielle Protokoll sorgfältig durchzulesen und persönlich zu unterzeichnen.'\nBentuk kata benda maskulin lemah (n-Deklination) yang TEPAT dari 'der Zeuge' pada posisi Akkusativ adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Anwalt bat den anwesenden ( ... ), das offizielle Protokoll sorgfältig durchzulesen und persönlich zu unterzeichnen.'",
     "formulaHud": {
       "title": "N-DEKLINATION (SCHWACHE MASCHULINA)",
       "latex": "\\text{der Zeuge (Nom.)} \\quad \\rightarrow \\quad \\text{den Zeugen (Akk.)} \\quad \\rightarrow \\quad \\text{dem Zeugen (Dat.)}",
@@ -3460,7 +3460,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Ekonom menganalisis prospek stabilitas nilai mata uang tunggal Eropa:\n'Der wirtschaftliche Erfolg der Eurozone hängt in hohem Maße ( ... ) geopolitischen Stabilität und den globalen Energiepreisen ab.'\nPreposisi dan bentuk artikel Dativ feminin yang TEPAT untuk melengkapi verba terpisah 'abhängen' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der wirtschaftliche Erfolg der Eurozone hängt in hohem Maße ( ... ) geopolitischen Stabilität und den globalen Energiepreisen ab.'",
     "formulaHud": {
       "title": "FESTE PRÄPOSITION: ABHÄNGEN VON (+ DAT)",
       "latex": "\\mathbf{abhängen von} + \\text{Dativ} \\quad (\\text{die Stabilität } \\rightarrow \\text{von der Stabilität})",
@@ -3556,7 +3556,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "latihan",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam warta berita harian mengenai pernyataan menteri keuangan:\n'Der Finanzminister erklärte gestern auf der Pressekonferenz, die Inflation ( ... ) im kommenden Quartal spürbar zurückgehen.'\nBentuk kata kerja bantu Konjunktiv I orang ketiga tunggal yang TEPAT untuk laporan wicara tak langsung (indirekte Rede) adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Finanzminister erklärte gestern auf der Pressekonferenz, die Inflation ( ... ) im kommenden Quartal spürbar zurückgehen.'",
     "formulaHud": {
       "title": "INDIREKTE REDE: KONJUNKTIV I",
       "latex": "\\text{Aussage: \"Die Inflation wird zurückgehen.\" } \\rightarrow \\text{Er sagte, die Inflation } \\mathbf{werde} \\text{ zurückgehen.}",
@@ -3604,7 +3604,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah teks informasi transportasi berikut:\n'Mit der Einführung des sogenannten Deutschlandtickets für bundesweit 49 Euro im Monat hat die Bundesregierung einen Meilenstein in der Verkehrspolitik gesetzt. Das Ticket gilt als digitales Abonnement im gesamten öffentlichen Personennahverkehr (ÖPNV) und Regionalverkehr aller teilnehmenden Verkehrsverbünde. Fahrten im Fernverkehr der Deutschen Bahn (ICE, IC, EC) sind jedoch strikt von der Gültigkeit ausgeschlossen.'\nBerdasarkan petunjuk regulasi resmi di atas, seorang penumpang yang memegang Deutschlandticket TIDAK DAPAT menggunakan tiket tersebut untuk menaiki...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Mit der Einführung des sogenannten Deutschlandtickets für bundesweit 49 Euro im Monat hat die Bundesregierung einen Meilenstein in der Verkehrspolitik gesetzt. Das Ticket gilt als digitales Abonnement im gesamten öffentlichen Personennahverkehr (ÖPNV) und Regionalverkehr aller teilnehmenden Verkehrsverbünde. Fahrten im Fernverkehr der Deutschen Bahn (ICE, IC, EC) sind jedoch strikt von der Gültigkeit ausgeschlossen.'",
     "formulaHud": {
       "title": "GELTUNGSBEREICH DES DEUTSCHLANDTICKETS",
       "latex": "\\text{Deutschlandticket} = \\text{ÖPNV + Regionalverkehr} \\quad \\neq \\quad \\text{Fernverkehr (ICE/IC/EC)}",
@@ -3651,7 +3651,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dua peneliti sedang mendiskusikan kelanjutan eksperimen biokimia:\n'Habt ihr schon über die unerwarteten Messergebnisse gesprochen? — Ja, natürlich haben wir ausführlich ( ... ) diskutiert.'\nKata keterangan pronominal (Pronominaladverb) yang TEPAT untuk merujuk pada benda/topik bahasan 'über die Messergebnisse' adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'über die Messergebnisse'",
     "formulaHud": {
       "title": "PRONOMINALADVERBIEN: DA(R)- + PRÄPOSITION",
       "latex": "\\text{da-} + \\mathbf{r} + \\text{über (Vokal)} = \\mathbf{darüber}",
@@ -3699,7 +3699,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang saksi mata melaporkan insiden kecelakaan di persimpangan jalan:\n'Der Autofahrer bog mit hoher Geschwindigkeit nach rechts ab, ( ... ) den Blinker zu setzen.'\nFrasa penghubung infinitif yang TEPAT untuk menyatakan tindakan yang dilakukan 'tanpa menyalakan lampu sein' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Der Autofahrer bog mit hoher Geschwindigkeit nach rechts ab, ( ... ) den Blinker zu setzen.'",
     "formulaHud": {
       "title": "INFINITIVGRUPPEN: OHNE...ZU",
       "latex": "\\mathbf{ohne} + \\dots + \\mathbf{zu} + \\text{Infinitiv} = \\text{tanpa melakukan perbuatan}",
@@ -3747,7 +3747,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam ulasan otomotif tentang mobil listrik terbaru:\n'Die hohe Reichweite und der leistungsstarke Motor ( ... ) neuen Elektroautos haben viele Fachjournalisten überzeugt.'\nBentuk artikel dan deklinasi kata sifat Genitiv netral tunggal yang TEPAT untuk 'das Elektroauto' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die hohe Reichweite und der leistungsstarke Motor ( ... ) neuen Elektroautos haben viele Fachjournalisten überzeugt.'",
     "formulaHud": {
       "title": "GENITIV-ATTRIBUT: DAS AUTO",
       "latex": "\\text{das Auto (Netral)} \\quad \\rightarrow \\quad \\mathbf{des} \\text{ neuen Elektroauto}\\mathbf{s}",
@@ -3795,7 +3795,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang manajer proyek menjelaskan keputusan strategis perusahaannya:\n'Die Nachfrage nach unseren Produkten im Ausland ist drastisch gestiegen, deshalb ( ... ) wir im nächsten Monat eine neue Produktionslinie eröffnen.'\nSusunan kata yang TEPAT setelah kata keterangan penghubung kausalitas 'deshalb' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Die Nachfrage nach unseren Produkten im Ausland ist drastisch gestiegen, deshalb ( ... ) wir im nächsten Monat eine neue Produktionslinie eröffnen.'",
     "formulaHud": {
       "title": "INVERSION NACH KONJUNKTIONALADVERB (DESHALB)",
       "latex": "\\text{Pos. 1: deshalb} + \\mathbf{Pos. 2: finites Verb (werden)} + \\text{Pos. 3: Subjekt (wir)} + \\dots",
@@ -3843,7 +3843,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam modul pelatihan adaptasi lintas budaya bagi tenaga kerja asing di Jerman:\n'Wenn Sie zu einem offiziellen Geschäftstermin in einem deutschen Unternehmen eingeladen sind, gilt es als oberstes Gebot der Professionalität, dass Sie...'\nSikap profesional yang PALING diharapkan dan dihargai dalam kultur kerja korporasi Jerman adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wenn Sie zu einem offiziellen Geschäftstermin in einem deutschen Unternehmen eingeladen sind, gilt es als oberstes Gebot der Professionalität, dass Sie...'",
     "formulaHud": {
       "title": "DEUTSCHE ARBEITSKULTUR: SACHLICHKEIT & PÜNKTLICHKEIT",
       "latex": "\\text{Geschäftskultur} = \\text{Pünktlichkeit} + \\text{Sachlichkeit (Fakten)} + \\text{Verbindlichkeit}",
@@ -3886,7 +3886,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pemandu wisata memperkenalkan bangunan bersejarah di kota Weimar:\n'Das ist das berühmte Goethe-Nationalmuseum, ( ... ) der Dichterfürst Johann Wolfgang von Goethe fast fünfzig Jahre lang gelebt und gearbeitet hat.'\nBentuk frasa relatif preposisional yang TEPAT untuk merujuk pada museum netral 'das Museum' dalam kasus Dativ adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Das ist das berühmte Goethe-Nationalmuseum, ( ... ) der Dichterfürst Johann Wolfgang von Goethe fast fünfzig Jahre lang gelebt und gearbeitet hat.'",
     "formulaHud": {
       "title": "RELATIVSATZ MIT PRÄPOSITION (WO? -> DATIV)",
       "latex": "\\text{das Museum (Netral)} + \\text{leben in (Dativ)} \\quad \\rightarrow \\quad \\mathbf{in dem}",
@@ -3934,7 +3934,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Pelanggan di restoran merasa hidangan yang disajikan belum cukup hangat:\n'Entschuldigung, Herr Ober! ( ... ) Sie diese Suppe bitte noch einmal kurz in der Küche aufwärmen lassen?'\nBentuk verba kesantunan formal Konjunktiv II yang TEPAT untuk menyampaikan permohonan tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Entschuldigung, Herr Ober! ( ... ) Sie diese Suppe bitte noch einmal kurz in der Küche aufwärmen lassen?'",
     "formulaHud": {
       "title": "HÖFLICHE BITTE IM KONJUNKTIV II",
       "latex": "\\mathbf{Könnten Sie} \\dots ? \\quad \\leftrightarrow \\quad \\mathbf{Würden Sie} \\dots ?",
@@ -4025,7 +4025,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Di kedai minuman saat cuaca terik di musim panas:\n'Nach der anstrengenden Bergwanderung trank Michael mit großem Genuss ( ... ) Apfelsaft.'\nBentuk deklinasi kata sifat 'kalt' yang TEPAT tanpa artikel (Nullartikel) di depan kata benda maskulin Akkusativ 'Apfelsaft' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Nach der anstrengenden Bergwanderung trank Michael mit großem Genuss ( ... ) Apfelsaft.'",
     "formulaHud": {
       "title": "STARKE ADJEKTIVDEKLINATION (OHNE ARTIKEL)",
       "latex": "\\text{Nullartikel} + \\text{Akkusativ Maskulin (der Apfelsaft)} \\quad \\implies \\quad \\text{Adjektiv-}\\mathbf{en}",
@@ -4073,7 +4073,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Kakek menceritakan pengalaman masa kecilnya yang sangat berkesan:\n'( ... ) ich zehn Jahre alt war, sah ich zum ersten Mal in meinem Leben das Meer.'\nKata penghubung subordinatif temporal yang TEPAT untuk peristiwa tunggal unik di masa lampau adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) ich zehn Jahre alt war, sah ich zum ersten Mal in meinem Leben das Meer.'",
     "formulaHud": {
       "title": "TEMPORALSÄTZE: ALS VS WENN (VERGANGENHEIT)",
       "latex": "\\mathbf{Als} = \\text{einmaliges Ereignis in der Vergangenheit}, \\quad \\mathbf{Wenn} = \\text{wiederholtes Ereignis (immer wenn)}",
@@ -4121,7 +4121,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam reuni akbar alumni sekolah menengah:\n'Wir saßen stundenlang zusammen und erinnerten uns gerne ( ... ) die vielen lustigen Erlebnisse aus unserer Schulzeit.'\nPreposisi dan kasus yang TEPAT untuk melengkapi verba refleksif 'sich erinnern' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wir saßen stundenlang zusammen und erinnerten uns gerne ( ... ) die vielen lustigen Erlebnisse aus unserer Schulzeit.'",
     "formulaHud": {
       "title": "FESTE PRÄPOSITION: SICH ERINNERN AN (+ AKK)",
       "latex": "\\mathbf{sich erinnern an} + \\text{Akkusativ}",
@@ -4212,7 +4212,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang pelanggan tiba di kantor pos pada pukul 18.30 sore:\n'Es tut mir leid, die Postfiliale ( ... ) seit einer halben Stunde ( ... ). Bitte kommen Sie morgen früh wieder.'\nPasangan kata kerja bantu dan bentuk pasif keadaan (Zustandspassiv) yang TEPAT adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Es tut mir leid, die Postfiliale ( ... ) seit einer halben Stunde ( ... ). Bitte kommen Sie morgen früh wieder.'",
     "formulaHud": {
       "title": "ZUSTANDSPASSIV VS VORGANGSPASSIV",
       "latex": "\\text{Zustandspassiv (Status selesai): } \\mathbf{sein} + \\text{Partizip II} \\quad (\\text{ist geschlossen})",
@@ -4260,7 +4260,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam ulasan kualifikasi seorang kandidat beasiswa doktoral:\n'Dieser Bewerber beherrscht ( ... ) fließend vier Fremdsprachen, ( ... ) besitzt auch bereits profunde Forschungserfahrung im Bereich der erneuerbaren Energien.'\nPasangan konjungsi ganda (Doppelkonjunktion) yang TEPAT untuk menggabungkan dua keunggulan tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Dieser Bewerber beherrscht ( ... ) fließend vier Fremdsprachen, ( ... ) besitzt auch bereits profunde Forschungserfahrung im Bereich der erneuerbaren Energien.'",
     "formulaHud": {
       "title": "DOPPELKONJUNKTIONEN: POSITIV-KUMULATIV",
       "latex": "\\mathbf{nicht nur} \\dots \\mathbf{sondern auch} \\quad \\iff \\quad \\mathbf{sowohl} \\dots \\mathbf{als auch}",
@@ -4308,7 +4308,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Perhatikan kalimat preposisional berikut:\n'Wegen des dichten Nebels konnte das Flugzeug in Frankfurt nicht landen.'\nJika kalimat tersebut diubah menjadi kalimat bertingkat dengan anak kalimat subordinatif 'weil', bentuk yang BENAR secara gramatika adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Wegen des dichten Nebels konnte das Flugzeug in Frankfurt nicht landen.'",
     "formulaHud": {
       "title": "NOMINALSTIL ZU VERBALSTIL (WEGEN -> WEIL)",
       "latex": "\\mathbf{wegen} + \\text{Genitiv (Nebel)} \\quad \\iff \\quad \\mathbf{weil} + \\text{Subjekt} + \\dots + \\mathbf{Verb-Ende (war)}",
@@ -4351,7 +4351,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Sebelum sahabatnya melangkah masuk ke ruang ujian lisan penentuan kelulusan:\n'Mach dir keine Sorgen, du hast dich monatelang hervorragend vorbereitet. Ich drücke dir ganz fest die Daumen!'\nMakna komunikatif yang dimaksud dari ungkapan idiomatis 'jemandem die Daumen drücken' adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Mach dir keine Sorgen, du hast dich monatelang hervorragend vorbereitet. Ich drücke dir ganz fest die Daumen!'",
     "formulaHud": {
       "title": "REDEWENDUNG: DIE DAUMEN DRÜCKEN",
       "latex": "\\text{jemandem die Daumen drücken} = \\text{Viel Glück / Erfolg wünschen}",
@@ -4394,7 +4394,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana sistem jaminan sosial berikut:\n'Das deutsche Gesundheitssystem basiert auf dem fundamentalen Solidaritätsprinzip der Gesetzlichen Krankenversicherung (GKV). Dies bedeutet, dass die monatlichen Versicherungsbeiträge prozentual nach dem Bruttoeinkommen der Versicherten berechnet werden und nicht nach deren individuellem Krankheitsrisiko oder Alter. Gesunde und Gutverdienende unterstützen somit Kranke und Einkommensschwache, während alle Mitglieder im Bedarfsfall denselben umfassenden Anspruch auf medizinische Versorgung haben.'\nBerdasarkan teks di atas, manifestasi nyata dari 'prinsip solidaritas' dalam asuransi kesehatan Jerman adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Das deutsche Gesundheitssystem basiert auf dem fundamentalen Solidaritätsprinzip der Gesetzlichen Krankenversicherung (GKV). Dies bedeutet, dass die monatlichen Versicherungsbeiträge prozentual nach dem Bruttoeinkommen der Versicherten berechnet werden und nicht nach deren individuellem Krankheitsrisiko oder Alter. Gesunde und Gutverdienende unterstützen somit Kranke und Einkommensschwache, während alle Mitglieder im Bedarfsfall denselben umfassenden Anspruch auf medizinische Versorgung haben.'",
     "formulaHud": {
       "title": "SOLIDARITÄTSPRINZIP DER GKV",
       "latex": "\\text{Beitrag} \\propto \\text{Einkommen (Geld)}, \\quad \\text{Leistung} = \\text{Bedarf (Medizin)}",
@@ -4437,7 +4437,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang teknisi komputer menjelaskan kendala yang dialaminya kemarin:\n'Wegen eines unerwarteten Serverausfalls habe ich die defekte Datenbank nicht rechtzeitig ( ... ).'\nBentuk verba akhir yang TEPAT untuk melengkapi konstruksi Perfekt dari modalverb 'können' bersama verba penuh 'reparieren' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wegen eines unerwarteten Serverausfalls habe ich die defekte Datenbank nicht rechtzeitig ( ... ).'",
     "formulaHud": {
       "title": "ERSATZINFINITIV BEI MODALVERBEN",
       "latex": "\\text{haben} + \\dots + \\text{Vollverb (Infinitiv)} + \\mathbf{Modalverb (Infinitiv)}",
@@ -4485,7 +4485,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Rektor universitas memuji pencapaian mahasiswa teladan:\n'Wir gratulieren dem begabten Studenten, ( ... ) innovative Masterarbeit mit dem prestigeträchtigen Förderpreis für Quantenphysik ausgezeichnet wurde.'\nBentuk pronomina relatif Genitiv yang TEPAT untuk merujuk pada kata benda maskulin tunggal 'der Student' adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'Wir gratulieren dem begabten Studenten, ( ... ) innovative Masterarbeit mit dem prestigeträchtigen Förderpreis für Quantenphysik ausgezeichnet wurde.'",
     "formulaHud": {
       "title": "RELATIVPRONOMEN IM GENITIV",
       "latex": "\\text{der Student (Maskulin)} \\quad \\rightarrow \\quad \\text{Genitiv: } \\mathbf{dessen} \\text{ Masterarbeit}",
@@ -4533,7 +4533,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Bacalah wacana kenegaraan Jerman berikut:\n'Der 3. Oktober ist der offizielle Nationalfeiertag der Bundesrepublik Deutschland und trägt den Namen \"Tag der Deutschen Einheit\". An diesem Tag im Jahr 1990 trat der Einigungsvertrag in Kraft, wodurch die Deutsche Demokratische Republik (DDR) der Bundesrepublik beitrat und die über vier Jahrzehnte andauernde schmerzhafte Teilung des Landes nach dem Zweiten Weltkrieg friedlich überwunden wurde. Anders als in vielen anderen Ländern gedenkt Deutschland damit keinem militärischen Sieg, sondern dem friedlichen Triumph von Freiheit und Wiedervereinigung.'\nBerdasarkan wacana di atas, peristiwa monumental yang diperingati pada 'Tag der Deutschen Einheit' setiap 3 Oktober adalah...",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Tag der Deutschen Einheit'",
     "formulaHud": {
       "title": "TAG DER DEUTSCHEN EINHEIT (3. OKTOBER 1990)",
       "latex": "\\text{3. Oktober 1990} = \\text{Inkrafttreten des Einigungsvertrags} \\quad (\\text{Wiedervereinigung BRD & DDR})",
@@ -4576,7 +4576,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Seorang ibu memberikan wejangan kepada putranya yang baru merantau ke luar kota:\n'( ... ) du immer an deine Gesundheit, wenn du in den stressigen Prüfungsphasen bist!'\nBentuk kata kerja perintah (Imperativ) dari verba 'denken' untuk persona 'du' yang TEPAT adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) du immer an deine Gesundheit, wenn du in den stressigen Prüfungsphasen bist!'",
     "formulaHud": {
       "title": "IMPERATIV & FESTE PRÄPOSITION: DENKEN AN (+ AKK)",
       "latex": "\\text{denken an (+Akk)} \\quad \\rightarrow \\quad \\text{Imperativ (du): } \\mathbf{Denk(e) an} \\dots !",
@@ -4667,7 +4667,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "mode": "simulasi",
     "difficulty": "hard",
     "type": "mcq",
-    "questionHtml": "Dalam evaluasi pasca misi penyelamatan darurat di pegunungan Alpen:\n'( ... ) das Rettungsteam nur zehn Minuten später eingetroffen, hätten die verunglückten Bergsteiger die eisige Nacht kaum überlebt.'\nBentuk kata kerja bantu yang TEPAT untuk mengawali kalimat pengandaian inversi tanpa kata 'wenn' tersebut adalah...",
+    "questionHtml": "Wählen Sie die richtige Option, um den Satz zu ergänzen:\n'( ... ) das Rettungsteam nur zehn Minuten später eingetroffen, hätten die verunglückten Bergsteiger die eisige Nacht kaum überlebt.'",
     "formulaHud": {
       "title": "VERB-ERST-KONDITIONALSATZ (UNEINGELEITETER KONDITIONALSATZ)",
       "latex": "\\mathbf{Wäre} \\text{ das Team eingetroffen } \\iff \\text{Wenn das Team eingetroffen } \\mathbf{wäre}",
@@ -4925,7 +4925,7 @@ window.TKA_BAHASA_JERMAN_QUESTIONS = [
     "subject": "bahasa_jerman",
     "mode": "simulasi",
     "difficulty": "hard",
-    "questionHtml": "Sistem 'Duale Ausbildung' di Jerman memiliki karakteristik struktural yang sangat spesifik dalam membina calon tenaga ahli. Manakah <strong>DUA (2)</strong> fakta di bawah ini yang BENAR mengenai sistem Duale Ausbildung?",
+    "questionHtml": "Lesen Sie den folgenden Satz und wählen Sie die passende Antwort:\n'Duale Ausbildung'",
     "explanation": "Dalam Duale Ausbildung: (A) Peserta menandatangani kontrak kerja resmi dan menerima gaji bulanan (Ausbildungsvergütung) (Benar). (B) Pelatihan berlangsung nyata di tempat kerja dan sekolah, bukan murni daring (Salah). (C) Ujian akhir distandarisasi oleh IHK/HWK (Benar). (D) Terbuka luas untuk lulusan sekolah menengah (Salah). Fakta yang benar adalah A dan C."
   },
   {
