@@ -7402,4 +7402,37 @@ body.modal-scroll-lock {
   border-top-color: rgba(244, 63, 94, 0.35);
 }
 
+/* ==========================================================================
+   TKA MOBILE NAVIGATION: TOAST NOTIFICATION (NEO-BRUTALISM)
+   ========================================================================== */
+.tka-mobile-toast {
+  position: fixed;
+  bottom: calc(82px + env(safe-area-inset-bottom));
+  left: 50%;
+  transform: translateX(-50%) translateY(16px);
+  background: #0f1420;
+  color: #f8fafc;
+  border: 2px solid #38bdf8;
+  box-shadow: 3px 3px 0px #000000;
+  border-radius: 999px;
+  padding: 10px 20px;
+  font-size: 13.5px;
+  font-weight: 700;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  letter-spacing: -0.2px;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.22s cubic-bezier(0.16, 1, 0.3, 1), transform 0.22s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.22s;
+  z-index: 10000;
+  white-space: nowrap;
+}
+
+.tka-mobile-toast.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+
 

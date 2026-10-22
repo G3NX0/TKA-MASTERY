@@ -79,21 +79,27 @@ tka-mastery-hub/
 
 ---
 
-## 3. Arsitektur View & Alur Pengguna (SPA Router)
-Semua tampilan dikendalikan di [app.js](file:///C:/Users/glixer/.gemini/antigravity-ide/scratch/tka-mastery-hub/app.js) dengan class `.stage-view.active`:
-1. **`#viewHome` (Beranda):**
+## 3. Arsitektur View, Hash Router & Navigasi Mobile (SPA History Engine)
+Semua tampilan dikendalikan di [app.js](file:///C:/Users/glixer/.gemini/antigravity-ide/scratch/tka-mastery-hub/app.js) dengan sinkronisasi URL Hash, History API, dan `sessionStorage`:
+1. **`#viewHome` (`#home` atau tanpa hash):**
    - **3D Curved Panorama Deck:** 3 Card mapel utama (`ind`, `mtk`, `eng`) dengan orientasi silinder 3D (`is-active-center`, `is-peek-left`, `is-peek-right`) yang sinkron saat digeser (swipe/touch) atau diklik.
    - **Bespoke Cyber-Cockpit Orbit Switcher (`#mobilePanoramaNav`):** Pil navigasi unik di bawah deck dengan segmented dock kapsul recessed, micro-badge icon SVG, dan live pulsing spark per subjek.
    - **Banner Tes Diagnostik Cepat:** Akses instan ke 15 soal gabungan.
-   - **Katalog 19 Mapel Pilihan:** Accordion drawer pemetaan kompetensi Kurikulum Merdeka & SNBT.
-2. **`#viewSubject` (Halaman Subjek):**
-   - Dua launchpad: **Training Lab (Latihan)** dengan pemilih level (Mudah/Sedang/Sulit) dan **Exam Arena (Simulasi Ujian Realistis)** dengan timer 30 menit.
-3. **`#viewExam` (Workstation Ujian & Latihan):**
+   - **Katalog 22 Mapel Pilihan/Lanjutan:** Accordion drawer pemetaan kompetensi Kurikulum Merdeka & SNBT.
+   - **Double-Tap Back Guard:** Saat di beranda, tombol back HP pertama kali menampilkan toast notification "Tekan sekali lagi untuk keluar dari TKA Hub" (rentang 2,5 detik) guna mencegah user keluar secara tidak sengaja.
+2. **`#viewSubject` (`#subject/${subjectKey}`, misal `#subject/kimia`):**
+   - Dua launchpad: **Training Lab (Latihan)** dengan pemilih level (Mudah/Sedang/Sulit) dan **Exam Arena (Simulasi Ujian Realistis)** dengan timer terstandarisasi.
+   - Tombol back HP otomatis kembali ke `#home` secara SPA tanpa reload.
+3. **`#viewWorkspace` (`#workspace`):**
    - Split paper layout, floating sticky timer HUD, KaTeX math typesetting, interactive option badges.
-   - Latihan mode: Tersedia drawer Clue, Rumus HUD, dan Solusi Bertahap.
-   - Simulasi mode: Wajib fullscreen (F11), no-clue, dan **Strict 3-Strike Proctoring** (blur/focus switch detection modal warning).
-4. **`#viewResults` (Analisis Pasca-Ujian):**
+   - **Zero Data Loss on Reload:** State pengerjaan (`tka_exam_session`) disimpan otomatis di `sessionStorage` (soal, nomor aktif, jawaban terpilih, flag ragu-ragu, sisa timer). Saat halaman di-refresh, progres ujian/latihan tetap pulih 100% instan.
+   - **Mobile Back Interception:**
+     - Jika ada modal/drawer terbuka (Tabel Periodik, Subnet Calc, BEP Calc, Trace Table, Question Grid Drawer, Confirm Modal): tombol back HP **hanya menutup modal/drawer tersebut** dan mempertahankan soal ujian.
+     - Jika simulasi HOTS sedang berlangsung: tombol back HP memunculkan in-app confirmation ("Batalkan Simulasi?") dengan jeda timer agar ujian tidak hangus tanpa sengaja.
+     - Jika latihan mandiri / review mode: tombol back HP langsung kembali ke `#subject/${subjectKey}`.
+4. **`#viewResults` (`#results`):**
    - Score breakdown, akurasi per topik, radar analysis, log pelanggaran proctoring, dan mode review kunci jawaban.
+   - Tombol back HP kembali ke Subject Hub (atau Home jika tes diagnostik).
 
 ---
 

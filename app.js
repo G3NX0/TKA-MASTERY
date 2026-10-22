@@ -2105,9 +2105,36 @@
   }
 
   // =========================================================================
-  // MULTI-PAGE VIEW ROUTER
+  // MULTI-PAGE VIEW ROUTER, HASH NAVIGATION & SESSION PERSISTENCE
   // =========================================================================
-  function navigateTo(viewName, subjectKey = null) {
+  let lastHomeBackPressTime = 0;
+  let toastTimeout = null;
+
+  function showToastNotification(message) {
+    let toast = document.getElementById('tkaMobileToast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.id = 'tkaMobileToast';
+      toast.className = 'tka-mobile-toast';
+      document.body.appendChild(toast);
+    }
+    toast.textContent = message;
+    toast.classList.add('visible');
+    clearTimeout(toastTimeout);
+    toastTimeout = setTimeout(() => {
+      toast.classList.remove('visible');
+    }, 2200);
+  }
+
+  function getCurrentRouteHash() {
+    if (state.currentView === 'home') return '#home';
+    if (state.currentView === 'subject') return `#subject/${state.currentSubject || 'mtk'}`;
+    if (state.currentView === 'workspace') return '#workspace';
+    if (state.currentView === 'results') return '#results';
+    return '#home';
+  }
+
+  function navigateTo(viewName, subjectKey = null, options = {}) {
     state.currentView = viewName;
     if (subjectKey) state.currentSubject = subjectKey;
 
@@ -2152,6 +2179,319 @@
       els.viewResults.classList.add('active');
       safeScrollTop();
     }
+
+    // Sync Browser History Stack & URL Hash
+    const targetHash = getCurrentRouteHash();
+    if (!options.fromHistory) {
+      const stateObj = { view: state.currentView, subject: state.currentSubject };
+      if (options.replace || window.location.hash === targetHash) {
+        history.replaceState(stateObj, '', targetHash);
+      } else {
+        history.pushState(stateObj, '', targetHash);
+      }
+    }
+
+    // Persist current route in sessionStorage
+    try {
+      sessionStorage.setItem('tka_last_route', JSON.stringify({
+        view: state.currentView,
+        subject: state.currentSubject
+      }));
+    } catch (e) {}
+  }
+
+  // =========================================================================
+  // EXAM SESSION PERSISTENCE (ZERO-DATA-LOSS ON REFRESH)
+  // =========================================================================
+  function saveExamSession() {
+    if (state.currentView !== 'workspace') return;
+    if (!state.exam.questions || state.exam.questions.length === 0) return;
+
+    try {
+      const sessionPayload = {
+        sessionMode: state.sessionMode,
+        currentSubject: state.currentSubject,
+        selectedDifficulty: state.selectedDifficulty,
+        currentIndex: state.exam.currentIndex,
+        answers: state.exam.answers || {},
+        flags: state.exam.flags || {},
+        remainingSeconds: state.exam.remainingSeconds,
+        startTime: state.exam.startTime,
+        strikes: state.exam.strikes || 0,
+        isFinished: state.exam.isFinished || false,
+        isReviewMode: state.exam.isReviewMode || false,
+        questionIds: state.exam.questions.map(q => q.id || q.questionHtml)
+      };
+      sessionStorage.setItem('tka_exam_session', JSON.stringify(sessionPayload));
+    } catch (e) {
+      console.warn('Gagal menyimpan sesi ujian ke sessionStorage:', e);
+    }
+  }
+
+  function clearExamSession() {
+    try {
+      sessionStorage.removeItem('tka_exam_session');
+    } catch (e) {}
+  }
+
+  function restoreExamSession() {
+    try {
+      const raw = sessionStorage.getItem('tka_exam_session');
+      if (!raw) return false;
+      const data = JSON.parse(raw);
+      if (!data || !data.currentSubject) return false;
+
+      let restoredPool = [];
+
+      if (data.sessionMode === 'diagnostik') {
+        const mtkDiag = (window.TKA_DATABASE?.mtk?.questions || []).filter(q => q.isDiagnostic);
+        const indDiag = (window.TKA_DATABASE?.ind?.questions || []).filter(q => q.isDiagnostic);
+        const engDiag = (window.TKA_DATABASE?.eng?.questions || []).filter(q => q.isDiagnostic);
+        const allDiag = [...mtkDiag, ...indDiag, ...engDiag];
+
+        if (data.questionIds && Array.isArray(data.questionIds)) {
+          const map = new Map();
+          allDiag.forEach(q => map.set(q.id || q.questionHtml, q));
+          restoredPool = data.questionIds.map(id => map.get(id)).filter(Boolean);
+        }
+        if (restoredPool.length === 0) restoredPool = allDiag;
+      } else {
+        const sData = window.TKA_DATABASE?.[data.currentSubject];
+        if (!sData || !sData.questions) return false;
+
+        if (data.questionIds && Array.isArray(data.questionIds)) {
+          const map = new Map();
+          sData.questions.forEach(q => map.set(q.id || q.questionHtml, q));
+          restoredPool = data.questionIds.map(id => map.get(id)).filter(Boolean);
+        }
+
+        if (restoredPool.length === 0) {
+          if (data.sessionMode === 'simulasi') {
+            restoredPool = sData.questions.filter(q => q.mode === 'simulasi' || q.difficulty === 'simulation_hots');
+            if (restoredPool.length === 0) restoredPool = sData.questions.filter(q => q.difficulty === 'hard');
+          } else {
+            const diff = data.selectedDifficulty || 'easy';
+            restoredPool = sData.questions.filter(q => q.mode === 'latihan' && q.difficulty === diff);
+            if (restoredPool.length === 0) restoredPool = sData.questions.filter(q => q.difficulty === diff);
+            if (restoredPool.length === 0) restoredPool = sData.questions;
+          }
+        }
+      }
+
+      if (restoredPool.length === 0) return false;
+
+      state.sessionMode = data.sessionMode || 'latihan';
+      state.currentSubject = data.currentSubject;
+      state.selectedDifficulty = data.selectedDifficulty || 'easy';
+
+      state.exam.questions = restoredPool;
+      state.exam.currentIndex = Math.min(data.currentIndex || 0, restoredPool.length - 1);
+      state.exam.answers = data.answers || {};
+      state.exam.flags = data.flags || {};
+      state.exam.strikes = data.strikes || 0;
+      state.exam.startTime = data.startTime || Date.now();
+      state.exam.isFinished = !!data.isFinished;
+      state.exam.isReviewMode = !!data.isReviewMode;
+      state.exam.remainingSeconds = typeof data.remainingSeconds === 'number' ? data.remainingSeconds : 3600;
+
+      const sData = window.TKA_DATABASE?.[data.currentSubject] || { title: data.sessionMode === 'diagnostik' ? 'Tes Diagnostik TKA' : 'Mata Pelajaran' };
+      if (els.infoSubjectName) els.infoSubjectName.textContent = data.sessionMode === 'diagnostik' ? 'TES DIAGNOSTIK AWAL' : sData.title;
+      if (els.infoModeBadge) {
+        els.infoModeBadge.className = `info-mode-badge ${data.sessionMode}`;
+        els.infoModeBadge.textContent = data.sessionMode === 'latihan' ? 'LATIHAN MANDIRI' : (data.sessionMode === 'diagnostik' ? 'DIAGNOSTIK 15 SOAL' : 'SIMULASI HOTS');
+      }
+
+      if (data.sessionMode === 'simulasi' && !state.exam.isFinished) {
+        document.body.classList.add('session-mode-simulasi');
+        if (els.scaffoldingBottomPanel) els.scaffoldingBottomPanel.classList.add('hidden');
+        if (els.hudStrikeBox) els.hudStrikeBox.classList.remove('hidden');
+        if (els.hudTimerBox) els.hudTimerBox.classList.remove('hidden');
+        updateStrikeDots(state.exam.strikes);
+        startTimer(state.exam.remainingSeconds);
+      } else {
+        document.body.classList.remove('session-mode-simulasi');
+        if (els.scaffoldingBottomPanel) els.scaffoldingBottomPanel.classList.remove('hidden');
+        if (els.hudStrikeBox) els.hudStrikeBox.classList.add('hidden');
+        if (els.hudTimerBox) els.hudTimerBox.classList.add('hidden');
+        stopTimer();
+      }
+
+      renderSubjectTools(state.currentSubject);
+      renderQuestion(state.exam.currentIndex);
+      return true;
+    } catch (e) {
+      console.error('Error saat merestore sesi ujian:', e);
+      return false;
+    }
+  }
+
+  function closeAnyActiveModalOrDrawer() {
+    let closed = false;
+
+    // 1. Bespoke Subject Modals
+    const modals = [
+      els.modalPeriodicTable,
+      els.modalPhysicsConstants,
+      els.modalSubnetCalc,
+      els.modalBepCalc,
+      els.modalTraceTable
+    ];
+    modals.forEach(m => {
+      if (m && (!m.classList.contains('hidden') || m.style.display === 'flex')) {
+        closeSubjectModal(m);
+        closed = true;
+      }
+    });
+
+    // 2. Question Grid Drawer
+    if (els.gridDrawerOverlay && (!els.gridDrawerOverlay.classList.contains('hidden') || els.gridDrawerOverlay.style.display === 'flex')) {
+      closeGridDrawer();
+      closed = true;
+    }
+
+    // 3. App Confirm Modal
+    if (els.appConfirmModal && (!els.appConfirmModal.classList.contains('hidden') && els.appConfirmModal.style.display !== 'none')) {
+      els.appConfirmModal.classList.add('hidden');
+      els.appConfirmModal.style.display = 'none';
+      state.isModalOpen = false;
+      document.body.classList.remove('modal-scroll-lock');
+      closed = true;
+    }
+
+    // 4. Proctor Modal (hanya tutup jika belum max strikes)
+    if (els.proctorModal && !els.proctorModal.classList.contains('hidden')) {
+      if (state.exam.strikes < state.exam.maxStrikes) {
+        els.proctorModal.classList.add('hidden');
+        resumeTimer();
+        closed = true;
+      }
+    }
+
+    // 5. Scaffolding Drawers (Formula HUD, Clue 1, Clue 2, Solution)
+    [els.drawerFormulaHud, els.drawerClue1, els.drawerClue2, els.drawerSolution].forEach(d => {
+      if (d && (d.classList.contains('expanded') || (d.style.maxHeight && d.style.maxHeight !== '0px'))) {
+        d.classList.remove('expanded');
+        d.style.maxHeight = null;
+        closed = true;
+      }
+    });
+
+    return closed;
+  }
+
+  function handlePopState(e) {
+    // 1. Prioritas Utama: Jika ada modal atau drawer terbuka, tutup itu saja dan jangan pindah halaman
+    if (closeAnyActiveModalOrDrawer()) {
+      history.pushState({ view: state.currentView, subject: state.currentSubject }, '', getCurrentRouteHash());
+      return;
+    }
+
+    // 2. Jika sedang di Workspace
+    if (state.currentView === 'workspace') {
+      if (state.sessionMode === 'simulasi' && !state.exam.isFinished) {
+        // Cegah accidental exit saat simulasi HOTS resmi
+        history.pushState({ view: 'workspace', subject: state.currentSubject }, '', '#workspace');
+        pauseTimer();
+        showAppConfirm({
+          title: 'Batalkan Simulasi?',
+          message: 'Menekan tombol kembali akan membatalkan sesi simulasi ujian ini. Yakin ingin keluar?',
+          okText: 'Ya, Keluar',
+          cancelText: 'Tetap Lanjut',
+          onOk: () => {
+            stopTimer();
+            clearExamSession();
+            if (document.fullscreenElement && document.exitFullscreen) {
+              document.exitFullscreen().catch(() => {});
+            }
+            navigateTo('subject', state.currentSubject, { fromHistory: true });
+          },
+          onCancel: () => {
+            resumeTimer();
+          }
+        });
+        return;
+      }
+
+      // Mode latihan mandiri or review mode
+      clearExamSession();
+      if (state.sessionMode === 'diagnostik') {
+        navigateTo('home', null, { fromHistory: true });
+      } else {
+        navigateTo('subject', state.currentSubject, { fromHistory: true });
+      }
+      return;
+    }
+
+    // 3. Jika sedang di Results
+    if (state.currentView === 'results') {
+      clearExamSession();
+      if (state.sessionMode === 'diagnostik') {
+        navigateTo('home', null, { fromHistory: true });
+      } else {
+        navigateTo('subject', state.currentSubject, { fromHistory: true });
+      }
+      return;
+    }
+
+    // 4. Jika sedang di Subject Hub
+    if (state.currentView === 'subject') {
+      navigateTo('home', null, { fromHistory: true });
+      return;
+    }
+
+    // 5. Jika sedang di Home
+    if (state.currentView === 'home') {
+      const now = Date.now();
+      if (now - lastHomeBackPressTime < 2500) {
+        // Double-tap back dalam 2.5 detik -> izinkan keluar secara native
+        return;
+      }
+      lastHomeBackPressTime = now;
+      history.pushState({ view: 'home' }, '', '#home');
+      showToastNotification('Tekan sekali lagi untuk keluar dari TKA Hub');
+    }
+  }
+
+  function handleRouteFromHash(isInitialLoad = false) {
+    const rawHash = (window.location.hash || '').trim();
+    const hash = rawHash.toLowerCase();
+
+    if (hash === '#workspace') {
+      const restored = restoreExamSession();
+      if (restored) {
+        navigateTo('workspace', state.currentSubject, { fromHistory: true, replace: isInitialLoad });
+        return;
+      }
+      if (state.currentSubject && window.TKA_DATABASE?.[state.currentSubject]) {
+        navigateTo('subject', state.currentSubject, { fromHistory: true, replace: true });
+      } else {
+        navigateTo('home', null, { fromHistory: true, replace: true });
+      }
+      return;
+    }
+
+    if (hash.startsWith('#subject/')) {
+      const parts = rawHash.split('/');
+      const subjKey = parts[1] ? parts[1].trim() : '';
+      if (subjKey && window.TKA_DATABASE?.[subjKey]) {
+        navigateTo('subject', subjKey, { fromHistory: true, replace: isInitialLoad });
+        return;
+      }
+      navigateTo('home', null, { fromHistory: true, replace: true });
+      return;
+    }
+
+    if (hash === '#results') {
+      if (state.exam.isFinished) {
+        navigateTo('results', null, { fromHistory: true, replace: isInitialLoad });
+        return;
+      }
+      navigateTo('home', null, { fromHistory: true, replace: true });
+      return;
+    }
+
+    // Default to Home View
+    navigateTo('home', null, { fromHistory: true, replace: isInitialLoad });
   }
 
   // =========================================================================
@@ -2663,6 +3003,7 @@
 
     navigateTo('workspace');
     renderQuestion(0);
+    saveExamSession();
   }
 
   // =========================================================================
@@ -2705,6 +3046,7 @@
     syncNavbarState('diag');
     navigateTo('workspace');
     renderQuestion(0);
+    saveExamSession();
   }
 
   // =========================================================================
@@ -3472,6 +3814,9 @@
 
     // Trigger KaTeX Typesetting
     triggerKaTeX();
+
+    // Persist active exam state on question change
+    saveExamSession();
   }
 
   function getNormalizedOptions(question) {
@@ -3600,6 +3945,7 @@
             state.exam.answers[qIndex][stmt.id] = true;
             renderOptions(question, qIndex);
             updateNavigatorChipsState();
+            saveExamSession();
           });
 
           btnS.addEventListener('click', () => {
@@ -3607,6 +3953,7 @@
             state.exam.answers[qIndex][stmt.id] = false;
             renderOptions(question, qIndex);
             updateNavigatorChipsState();
+            saveExamSession();
           });
         }
 
@@ -3664,6 +4011,7 @@
             state.exam.answers[qIndex] = cur;
             renderOptions(question, qIndex);
             updateNavigatorChipsState();
+            saveExamSession();
           });
         }
 
@@ -3705,6 +4053,7 @@
             state.exam.answers[qIndex] = opt.key;
             renderOptions(question, qIndex);
             updateNavigatorChipsState();
+            saveExamSession();
           });
         }
 
@@ -3758,15 +4107,23 @@
   }
 
   // =========================================================================
-  // IN-APP MODAL HELPER (ZERO WINDOW.BLUR LOCKS)
-  // =========================================================================
   // =========================================================================
   // IN-APP MODAL HELPER (ZERO WINDOW.BLUR LOCKS & GUARANTEED DISPLAY)
   // =========================================================================
-  function showAppConfirm({ title, message, okText = 'Ya, Kumpulkan Ujian', cancelText = 'Periksa Kembali', onOk, onCancel }) {
+  function showAppConfirm({ title, message, okText = 'Ya, Kumpulkan Ujian', cancelText = 'Periksa Kembali', onOk, onCancel, isAudit = false }) {
     state.isModalOpen = true;
     if (els.appConfirmTitle) els.appConfirmTitle.textContent = title;
     if (els.appConfirmMessage) els.appConfirmMessage.textContent = message;
+
+    const auditStatsRow = els.appConfirmModal?.querySelector('.audit-stats-row');
+    const auditChipsSec = els.appConfirmModal?.querySelector('.audit-chips-section');
+    const auditWarningBox = els.auditWarningBox;
+    const auditSubtitle = els.appConfirmModal?.querySelector('.audit-subtitle');
+
+    if (auditStatsRow) auditStatsRow.style.display = isAudit ? '' : 'none';
+    if (auditChipsSec) auditChipsSec.style.display = isAudit ? '' : 'none';
+    if (auditWarningBox && !isAudit) auditWarningBox.classList.add('hidden');
+    if (auditSubtitle) auditSubtitle.style.display = isAudit ? '' : 'none';
 
     if (els.btnAppConfirmOk) {
       const span = els.btnAppConfirmOk.querySelector('span');
@@ -3787,6 +4144,7 @@
       }
       if (els.btnAppConfirmOk) els.btnAppConfirmOk.onclick = null;
       if (els.btnAppConfirmCancel) els.btnAppConfirmCancel.onclick = null;
+      document.body.classList.remove('modal-scroll-lock');
     };
 
     if (els.btnAppConfirmOk) {
@@ -3806,6 +4164,7 @@
     if (els.appConfirmModal) {
       els.appConfirmModal.classList.remove('hidden');
       els.appConfirmModal.style.display = 'flex'; // Explicit flex display!
+      document.body.classList.add('modal-scroll-lock');
     }
   }
 
@@ -3893,6 +4252,7 @@
       message: confirmMsg,
       okText: 'Ya, Kumpulkan Ujian',
       cancelText: 'Periksa Kembali',
+      isAudit: true,
       onOk: () => {
         closeGridDrawer();
         if (document.fullscreenElement && document.exitFullscreen) {
@@ -3916,8 +4276,10 @@
           message: 'Keluar sekarang akan membatalkan sesi ujian simulasi dan tidak menyimpan skor. Yakin ingin keluar?',
           okText: 'Ya, Keluar',
           cancelText: 'Tetap Lanjut',
+          isAudit: false,
           onOk: () => {
             stopTimer();
+            clearExamSession();
             if (document.fullscreenElement && document.exitFullscreen) {
               document.exitFullscreen().catch(() => {});
             }
@@ -3928,6 +4290,7 @@
       }
 
       stopTimer();
+      clearExamSession();
       if (state.sessionMode === 'diagnostik') {
         navigateTo('home');
       } else {
@@ -3951,6 +4314,7 @@
         state.exam.flags[idx] = !state.exam.flags[idx];
         els.btnPaperFlag.classList.toggle('active-flag', !!state.exam.flags[idx]);
         updateNavigatorChipsState();
+        saveExamSession();
       });
     }
 
@@ -4133,6 +4497,10 @@
 
       state.exam.remainingSeconds -= 1;
       updateTimerDisplay();
+
+      if (state.exam.remainingSeconds % 5 === 0) {
+        saveExamSession();
+      }
 
       if (state.exam.remainingSeconds <= 0) {
         stopTimer();
@@ -4372,6 +4740,7 @@
 
     els.btnReportReturn.addEventListener('click', () => {
       state.exam.isReviewMode = false;
+      clearExamSession();
       if (state.sessionMode === 'diagnostik') {
         navigateTo('home');
       } else {
@@ -4394,8 +4763,12 @@
     initProctorListeners();
     initResultsListeners();
 
-    // Default to Home View
-    navigateTo('home');
+    // Register PopState & BeforeUnload Listeners for Device Back Navigation & Auto-Save
+    window.addEventListener('popstate', handlePopState);
+    window.addEventListener('beforeunload', saveExamSession);
+
+    // Initial Routing: Restore from URL Hash or Saved State on Reload
+    handleRouteFromHash(true);
   }
 
   if (document.readyState === 'loading') {
