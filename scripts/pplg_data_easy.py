@@ -1,737 +1,1108 @@
 # -*- coding: utf-8 -*-
 """
-pplg_data_easy.py
-25 Authentic Easy (L1/L2 C2/C3) Questions for PPLG SMK/MAK
-Strictly aligned with Pusmendik TKA 2026 & BSKAP 033/H/KR/2024
-Anti-Bias: Distractor lengths balanced, keys evenly distributed.
+TKA PPLG - 25 SOAL LATIHAN EASY (rpl-lat-e-01 s.d. rpl-lat-e-25)
+Mengadopsi langsung 25 Soal Autentik Pilihan Ganda dari Simulasi Resmi TKA PPLG Pusmendik
 """
 
 EASY_QUESTIONS = [
-    {
-        "id": "rpl-lat-e-01",
-        "subject": "rpl",
-        "materi": "PROSES BISNIS & SDLC",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Agile Scrum Roles & Responsibilities",
-        "type": "mcq",
-        "questionHtml": "Dalam kerangka kerja Scrum pada pengembangan perangkat lunak, peran manakah yang bertanggung jawab secara penuh untuk mengelola Product Backlog dan memaksimalkan nilai bisnis produk yang dihasilkan?",
-        "options": [
-            {"key": "A", "text": "Scrum Master yang memfasilitasi daily standup dan menghilangkan hambatan kerja tim."},
-            {"key": "B", "text": "Product Owner yang menyusun prioritas backlog dan mendefinisikan kriteria bisnis."},
-            {"key": "C", "text": "Lead Developer yang merancang arsitektur kode dan mengawasi implementasi basis data."},
-            {"key": "D", "text": "Quality Assurance yang memverifikasi acceptance criteria dan menjalankan pengujian."},
-            {"key": "E", "text": "Project Sponsor yang mendanai inisiatif perangkat lunak dan menyetujui anggaran."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SCRUM ARTIFACTS & RESPONSIBILITIES",
-            "latex": "\\text{Product Backlog} \\xrightarrow{\\text{Sprint Planning}} \\text{Sprint Backlog} \\to \\text{Increment}",
-            "legend": "• Product Owner: Value maximizer & backlog owner<br>• Scrum Master: Process coach & impediment remover<br>• Dev Team: Increment builder"
-        },
-        "hints": {
-            "concept": "Scrum membagi 3 peran inti: Product Owner (kelola backlog & nilai bisnis), Scrum Master (fasilitasi proses), dan Development Team (rekayasa teknis).",
-            "execution": "Pilihlah peran yang fokus pada visi produk dan prioritas backlog bisnis, yaitu Product Owner."
-        },
-        "explanation": "Product Owner bertanggung jawab mengoptimalkan nilai produk dan mengelola Product Backlog secara berkesinambungan. Pilihan A adalah peran Scrum Master, sedangkan C dan D adalah tim pengembang teknis. Jawaban: B.",
-        "isDiagnostic": True
+  {
+    "id": "rpl-lat-e-01",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Profesi & Kewirausahaan PPLG",
+    "type": "mcq",
+    "questionHtml": "Dalam sebuah tim pengembangan perangkat lunak, terdapat berbagai peran profesi yang saling berkolaborasi. Tugas utama dari seorang <strong>UI/UX Designer</strong> dalam siklus pengembangan aplikasi adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mengelola konfigurasi server dan jaringan agar aplikasi berjalan stabil saat diakses pengguna."
+      },
+      {
+        "key": "B",
+        "text": "Merancang tampilan antarmuka (User Interface) dan alur pengalaman pengguna (User Experience) aplikasi."
+      },
+      {
+        "key": "C",
+        "text": "Menulis kode program sisi server (backend) untuk memproses transaksi basis data."
+      },
+      {
+        "key": "D",
+        "text": "Melakukan pengujian penetrasi keamanan (penetration testing) terhadap celah sistem aplikasi."
+      },
+      {
+        "key": "E",
+        "text": "Mengatur proses kompilasi rilis dan distribusi aplikasi ke toko aplikasi (app store)."
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "DESAIN PRODUK DIGITAL: UI VS UX",
+      "latex": "\\text{UI (Visual Design)} + \\text{UX (User Journey)} \\implies \\text{Usable & Intuitive Product}",
+      "legend": "• UI Designer: Tata letak, warna, tipografi, dan komponen visual.<br>• UX Designer: Riset persona, alur navigasi (wireframe/prototype), dan kemudahan interaksi."
     },
-    {
-        "id": "rpl-lat-e-02",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Enkapsulasi & Access Modifier",
-        "type": "mcq",
-        "questionHtml": "Perhatikan potongan kode kelas Java berikut:\n```java\npublic class RekeningBank {\n    private double saldo;\n    \n    public RekeningBank(double saldoAwal) {\n        this.saldo = saldoAwal;\n    }\n    \n    public double getSaldo() {\n        return this.saldo;\n    }\n}\n```\nTujuan utama dari penerapan modifier `private` pada variabel `saldo` adalah...",
-        "options": [
-            {"key": "A", "text": "Mencegah variabel saldo diakses atau dimodifikasi langsung secara sembarangan dari luar kelas."},
-            {"key": "B", "text": "Mengizinkan semua kelas dalam package yang sama mengakses nilai variabel saldo secara langsung."},
-            {"key": "C", "text": "Mempercepat proses alokasi memori runtime saat objek kelas RekeningBank diinstansiasi oleh JVM."},
-            {"key": "D", "text": "Membuat variabel saldo dapat diwariskan secara otomatis tanpa pembatasan ke seluruh subclass turunan."},
-            {"key": "E", "text": "Mengharuskan JVM menganggap variabel saldo sebagai konstanta mutlak yang nilainya tidak dapat diubah."}
-        ],
-        "correctKey": "A",
-        "formulaHud": {
-            "title": "DATA HIDING & ENKAPSULASI",
-            "latex": "\\text{Class} \\{ \\text{private attribute} + \\text{public getter/setter} \\}",
-            "legend": "• private: Akses eksklusif dalam kelas deklarasi<br>• protected: Akses dalam package & turunan subclass<br>• public: Akses global tanpa restriksi"
-        },
-        "hints": {
-            "concept": "Enkapsulasi menyembunyikan data internal objek (data hiding) menggunakan modifier private dan menyediakan gerbang terkontrol melalui public method.",
-            "execution": "Modifier private memastikan integritas state objek agar tidak diubah secara langsung dari kode eksternal."
-        },
-        "explanation": "Modifier `private` menerapkan prinsip enkapsulasi (data hiding) agar atribut tidak dapat diakses atau diubah langsung dari luar kelas, melainkan melalui method perantara seperti getter atau setter. Jawaban: A.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "UI berfokus pada estetika visual dan komponen antarmuka, sedangkan UX berfokus pada efisiensi alur serta kepuasan interaksi pengguna.",
+      "execution": "Pilihlah peran yang berhubungan langsung dengan desain visual antarmuka dan alur kenyamanan pengguna."
     },
-    {
-        "id": "rpl-lat-e-03",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Pewarisan (Inheritance)",
-        "type": "mcq",
-        "questionHtml": "Dalam bahasa pemrograman Java, kata kunci (keyword) yang digunakan oleh sebuah subclass untuk mewarisi atribut dan method dari superclass konkret adalah...",
-        "options": [
-            {"key": "A", "text": "implements yang digunakan saat mendeklarasikan adopsi kontrak interface abstrak."},
-            {"key": "B", "text": "inherits yang digunakan secara eksplisit dalam pewarisan kelas turunan Java modern."},
-            {"key": "C", "text": "extends yang digunakan untuk memperluas fungsionalitas dari superclass induk."},
-            {"key": "D", "text": "super yang digunakan untuk mereferensikan instance objek superclass pada constructor."},
-            {"key": "E", "text": "instanceof yang digunakan untuk memeriksa kesesuaian tipe objek pada waktu runtime."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "INHERITANCE RELATIONSHIP",
-            "latex": "\\text{class } B \\text{ extends } A \\implies B \\text{ is-a } A",
-            "legend": "• extends: Pewarisan kelas induk konkret/abstrak<br>• implements: Realisasi kontrak antarmuka interface<br>• super: Referensi delegasi superclass"
-        },
-        "hints": {
-            "concept": "Keyword 'extends' menyatakan relasi 'is-a' antara subclass dan superclass dalam Java.",
-            "execution": "Jangan tertukar antara extends (untuk class) dan implements (untuk interface)."
-        },
-        "explanation": "Di Java, kelas turunan menggunakan keyword `extends` untuk mewarisi superclass. Keyword `implements` digunakan untuk mengimplementasikan antarmuka (`interface`). Jawaban: C.",
-        "isDiagnostic": False
+    "explanation": "Tugas utama UI/UX Designer adalah merancang antarmuka grafis (UI) serta alur interaksi dan kenyamanan pengguna (UX). Opsi A adalah tugas DevOps/Sysadmin, Opsi C tugas Backend Developer, Opsi D tugas Security Specialist, dan Opsi E tugas Release Engineer. Jawaban: B.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-02",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Profesi & Kewirausahaan PPLG",
+    "type": "mcq",
+    "questionHtml": "Sebuah studio gim sedang menyelesaikan pengembangan gim mobile sebelum diluncurkan ke publik. Peran utama seorang <strong>Quality Assurance (QA) Tester</strong> pada tahap tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Merancang karakter 3D, animasi, dan aset visual lingkungan gim."
+      },
+      {
+        "key": "B",
+        "text": "Menyusun strategi monetisasi dan kampanye pemasaran gim di media sosial."
+      },
+      {
+        "key": "C",
+        "text": "Menguji perangkat lunak/gim secara sistematis untuk menemukan bug dan memastikan kesesuaian dengan spesifikasi."
+      },
+      {
+        "key": "D",
+        "text": "Mendesain topologi jaringan lokal untuk kantor operasional studio gim."
+      },
+      {
+        "key": "E",
+        "text": "Menulis kontrak kerja sama lisensi dengan investor dan penerbit gim."
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "SIKLUS TESTING PERANGKAT LUNAK (QA)",
+      "latex": "\\text{Spesifikasi Fitur} \\xrightarrow{\\text{Test Case Execution}} \\text{Bug Tracking} \\to \\text{Release Approval}",
+      "legend": "• QA Engineer/Tester bertindak sebagai penjaga gerbang kualitas (quality gatekeeper) sebelum produk didistribusikan."
     },
-    {
-        "id": "rpl-lat-e-04",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Kategori Perintah SQL (DDL vs DML)",
-        "type": "mcq",
-        "questionHtml": "Manakah kelompok perintah SQL berikut yang seluruh anggotanya termasuk dalam kategori Data Definition Language (DDL)?",
-        "options": [
-            {"key": "A", "text": "SELECT, INSERT, UPDATE, dan DELETE yang digunakan untuk manipulasi data baris."},
-            {"key": "B", "text": "CREATE, ALTER, DROP, dan TRUNCATE yang digunakan untuk mendefinisikan skema struktur tabel."},
-            {"key": "C", "text": "GRANT, REVOKE, DENY, dan AUDIT yang digunakan untuk pengelolaan hak akses otorisasi data."},
-            {"key": "D", "text": "COMMIT, ROLLBACK, SAVEPOINT, dan RELEASE yang digunakan untuk mengontrol siklus transaksi ACID."},
-            {"key": "E", "text": "MERGE, UPSERT, REPLACE, dan BULK LOAD yang digunakan untuk sinkronisasi rekaman basis data."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SQL COMMAND TAXONOMY",
-            "latex": "\\text{SQL} = \\text{DDL} \\cup \\text{DML} \\cup \\text{DCL} \\cup \\text{TCL}",
-            "legend": "• DDL (Struktur): CREATE, ALTER, DROP, TRUNCATE<br>• DML (Data): SELECT, INSERT, UPDATE, DELETE<br>• DCL (Hak Akses): GRANT, REVOKE<br>• TCL (Transaksi): COMMIT, ROLLBACK"
-        },
-        "hints": {
-            "concept": "DDL (Data Definition Language) mendefinisikan dan memodifikasi struktur skema tabel, bukan isi data rekaman.",
-            "execution": "Carilah opsi yang memuat perintah pembentukan dan penghapusan tabel: CREATE, ALTER, DROP."
-        },
-        "explanation": "DDL (Data Definition Language) mencakup perintah yang mengelola struktur/skema database: `CREATE`, `ALTER`, `DROP`, dan `TRUNCATE`. Pilihan A adalah DML, pilihan C adalah DCL, dan D adalah TCL. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Quality Assurance (QA) bertugas memverifikasi fungsionalitas dan mencari celah kesalahan (defect/bug) agar produk siap rilis.",
+      "execution": "Cari opsi yang menekankan pengujian sistematis dan verifikasi spesifikasi."
     },
-    {
-        "id": "rpl-lat-e-05",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Prinsip Normalisasi 1NF",
-        "type": "mcq",
-        "questionHtml": "Sebuah tabel relasional dikatakan telah memenuhi bentuk normal pertama (First Normal Form / 1NF) apabila memenuhi syarat utama yaitu...",
-        "options": [
-            {"key": "A", "text": "Seluruh atribut non-kunci primer tidak memiliki ketergantungan transitif terhadap atribut lain."},
-            {"key": "B", "text": "Tabel telah memiliki foreign key yang terhubung secara referensial ke tabel induk lain."},
-            {"key": "C", "text": "Setiap kolom bernilai atomik dan tidak terdapat kelompok data berulang (repeating groups)."},
-            {"key": "D", "text": "Semua atribut non-kunci bergantung secara fungsional penuh pada primary key komposit."},
-            {"key": "E", "text": "Setiap baris data telah diurutkan secara fisik berdasarkan nilai indeks clustered B-Tree."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "TAHAPAN NORMALISASI DATA",
-            "latex": "\\text{Unnormalized} \\xrightarrow{1\\text{NF}} \\text{Atomik} \\xrightarrow{2\\text{NF}} \\text{No Partial} \\xrightarrow{3\\text{NF}} \\text{No Transitive}",
-            "legend": "• 1NF: Atomic values & no multi-valued attributes<br>• 2NF: 1NF + no partial functional dependency<br>• 3NF: 2NF + no transitive dependency"
-        },
-        "hints": {
-            "concept": "1NF fokus pada keatoman data (satu sel hanya memuat satu nilai tunggal) dan ketiadaan kolom/baris yang berulang.",
-            "execution": "Opsi A adalah 3NF, opsi D adalah 2NF. 1NF mensyaratkan nilai atomik."
-        },
-        "explanation": "Syarat 1NF adalah setiap kolom hanya memuat nilai atomik (tidak dapat dipecah lagi) dan tidak memiliki repeating groups/multi-valued attributes. Jawaban: C.",
-        "isDiagnostic": False
+    "explanation": "Peran utama QA Tester adalah merancang skenario pengujian, mengeksekusi test case, menemukan bug, dan memvalidasi apakah gim berjalan sesuai kriteria penerimaan (acceptance criteria). Jawaban: C.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-03",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Profesi & Kewirausahaan PPLG",
+    "type": "mcq",
+    "questionHtml": "Dalam industri pengembangan gim (game development), profesi yang bertanggung jawab merancang mekanik permainan (game mechanics), aturan menang-kalah, sistem level, dan keseimbangan alur permainan (gameplay balancing) adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Game Designer"
+      },
+      {
+        "key": "B",
+        "text": "Database Administrator"
+      },
+      {
+        "key": "C",
+        "text": "Network Engineer"
+      },
+      {
+        "key": "D",
+        "text": "Sound Engineer"
+      },
+      {
+        "key": "E",
+        "text": "System Administrator"
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "GAME DESIGN ARCHITECTURE",
+      "latex": "\\text{Core Loop} + \\text{Rules & Mechanics} + \\text{Balancing} \\implies \\text{Game Design Document (GDD)}",
+      "legend": "• Game Designer merumuskan visi gameplay, aturan main, dan desain level.<br>• Game Programmer merealisasikan rancangan tersebut ke dalam kode."
     },
-    {
-        "id": "rpl-lat-e-06",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "HTTP Response Status Codes",
-        "type": "mcq",
-        "questionHtml": "Ketika sebuah endpoint RESTful API berhasil membuat entitas sumber daya baru di database server melalui request `POST`, kode status HTTP standar yang paling tepat dikembalikan adalah...",
-        "options": [
-            {"key": "A", "text": "200 OK yang mengindikasikan keberhasilan umum pemrosesan request tanpa entitas baru."},
-            {"key": "B", "text": "201 Created yang mengindikasikan entitas sumber daya baru telah berhasil dibuat di server."},
-            {"key": "C", "text": "204 No Content yang mengindikasikan permintaan sukses tetapi respons tidak memiliki isi bodi."},
-            {"key": "D", "text": "301 Moved Permanently yang mengalihkan URL request secara permanen ke lokasi endpoint baru."},
-            {"key": "E", "text": "400 Bad Request yang mengindikasikan payload request tidak sesuai format validasi schema."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "HTTP SUCCESS STATUS CODES",
-            "latex": "200 \\text{ (OK)}, \\quad 201 \\text{ (Created)}, \\quad 204 \\text{ (No Content)}",
-            "legend": "• 200: Operasi standar berhasil<br>• 201: Resource berhasil dibuat (POST)<br>• 204: Berhasil tanpa return body (DELETE)"
-        },
-        "hints": {
-            "concept": "HTTP status 201 Created secara spesifik dirancang untuk operasi pembuatan resource baru yang berhasil.",
-            "execution": "200 adalah kesuksesan generik, 201 spesifik untuk created resource."
-        },
-        "explanation": "HTTP 201 Created adalah kode status standar RFC 7231 saat request POST sukses membuat resource baru di server. 200 adalah respons umum, 204 tanpa bodi respons. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Game Designer adalah arsitek alur permainan dan aturan mekanik gim yang dituangkan ke dalam Game Design Document (GDD).",
+      "execution": "Pilihlah profesi yang memegang peran konseptual mekanik gim, bukan infrastruktur jaringan atau audio."
     },
-    {
-        "id": "rpl-lat-e-07",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Deklarasi Variabel JavaScript Modern",
-        "type": "mcq",
-        "questionHtml": "Perhatikan kode JavaScript modern berikut:\n```javascript\nconst maxCapacity = 100;\nmaxCapacity = 120;\n```\nApa yang akan terjadi pada lingkungan eksekusi JavaScript (runtime) saat baris kedua dieksekusi?",
-        "options": [
-            {"key": "A", "text": "Nilai maxCapacity berhasil diperbarui menjadi 120 secara mulus tanpa peringatan apapun."},
-            {"key": "B", "text": "Terjadi TypeError: Assignment to constant variable karena nilai referensi const di-assign ulang."},
-            {"key": "C", "text": "Terjadi SyntaxError saat fase kompilasi sebelum kode sempat dieksekusi oleh engine V8."},
-            {"key": "D", "text": "Variabel maxCapacity otomatis diubah tipenya oleh engine menjadi variabel bertipe var global."},
-            {"key": "E", "text": "Nilai variabel maxCapacity menjadi undefined karena konflik alokasi memori runtime V8."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "JS VARIABLE BINDING RULES",
-            "latex": "\\text{const} \\implies \\text{Immutable Binding (Reassignment Forbidden)}",
-            "legend": "• const: Block scope, no reassignment, temporal dead zone<br>• let: Block scope, mutable, temporal dead zone<br>• var: Function scope, hoisted"
-        },
-        "hints": {
-            "concept": "Variabel yang dideklarasikan dengan const memiliki binding konstan yang tidak mengizinkan penugasan ulang (reassignment).",
-            "execution": "Upaya mengubah nilai primitif variabel const akan memicu TypeError di runtime."
-        },
-        "explanation": "Pada JavaScript ES6+, variabel `const` tidak dapat di-assign ulang nilainya. Upaya me-reassign nilai pada identifier `const` akan memicu runtime error berupa `TypeError: Assignment to constant variable`. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Game Designer bertanggung jawab menyusun aturan, mekanik, sistem progresi, dan balancing gim. Database Administrator (B) mengelola basis data, Network Engineer (C) mengelola jaringan, dan Sound Engineer (D) memproduksi audio efek. Jawaban: A.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-04",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Manajemen Proyek & Budaya Mutu",
+    "type": "mcq",
+    "questionHtml": "Seorang Project Manager memimpin proyek pembuatan sistem informasi rumah sakit. Urutan tahapan dasar manajemen proyek perangkat lunak dari awal hingga selesai yang paling tepat adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pelaksanaan → Perencanaan → Inisiasi → Penutupan"
+      },
+      {
+        "key": "B",
+        "text": "Perencanaan → Inisiasi → Penutupan → Pelaksanaan dan Pemantauan"
+      },
+      {
+        "key": "C",
+        "text": "Penutupan → Pelaksanaan → Perencanaan → Inisiasi"
+      },
+      {
+        "key": "D",
+        "text": "Inisiasi → Perencanaan → Pelaksanaan dan Pemantauan → Penutupan"
+      },
+      {
+        "key": "E",
+        "text": "Inisiasi → Penutupan → Perencanaan → Pelaksanaan dan Pemantauan"
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "PMBOK / SOFTWARE PROJECT LIFECYCLE",
+      "latex": "\\text{Initiating} \\to \\text{Planning} \\to \\text{Executing \\& Monitoring} \\to \\text{Closing}",
+      "legend": "• 1. Inisiasi (Charter/Tujuan) → 2. Perencanaan (WBS/Jadwal) → 3. Eksekusi & Monitoring (Coding/Testing) → 4. Penutupan (Handover)."
     },
-    {
-        "id": "rpl-lat-e-08",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN APLIKASI BERGERAK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Android Activity Lifecycle",
-        "type": "mcq",
-        "questionHtml": "Pada siklus hidup (lifecycle) Activity sistem operasi Android, callback method manakah yang pertama kali dipanggil saat activity mulai diciptakan dan bertugas menginisialisasi view serta layout UI?",
-        "options": [
-            {"key": "A", "text": "onStart() yang membuat activity mulai terlihat di layar pengguna tetapi belum dapat berinteraksi."},
-            {"key": "B", "text": "onResume() yang menandakan activity berada di foreground dan siap menerima input interaksi."},
-            {"key": "C", "text": "onCreate() yang menginisialisasi komponen dasar, data binding, dan memanggil setContentView()."},
-            {"key": "D", "text": "onPause() yang dipanggil ketika activity kehilangan fokus utama akibat pop-up atau dialog."},
-            {"key": "E", "text": "onRestart() yang memulihkan activity setelah sebelumnya berada pada status onStop."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "ANDROID ACTIVITY LIFECYCLE FLOW",
-            "latex": "\\text{onCreate()} \\to \\text{onStart()} \\to \\text{onResume()} \\leftrightarrow \\text{onPause()} \\to \\text{onStop()} \\to \\text{onDestroy()}",
-            "legend": "• onCreate: Inisialisasi awal & layout binding<br>• onResume: Interaktif di foreground<br>• onDestroy: Cleanup resource & memori"
-        },
-        "hints": {
-            "concept": "Activity lifecycle diawali dengan onCreate(), di mana pengembang menempatkan inisialisasi view via setContentView().",
-            "execution": "onCreate() dipanggil tepat sekali saat instance Activity dibangun."
-        },
-        "explanation": "`onCreate()` adalah callback pertama yang dieksekusi oleh sistem operasi Android saat Activity dibuat. Di method inilah layout XML dihubungkan menggunakan `setContentView()`. Jawaban: C.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Manajemen proyek selalu diawali perumusan tujuan proyek (inisiasi), perencanaan ruang lingkup dan jadwal, eksekusi kerja, hingga serah terima akhir (penutupan).",
+      "execution": "Cari opsi yang diawali dengan Inisiasi dan diakhiri dengan Penutupan secara kronologis logis."
     },
-    {
-        "id": "rpl-lat-e-09",
-        "subject": "rpl",
-        "materi": "REKAYASA PEMROGRAMAN GIM",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Game Loop Architecture",
-        "type": "mcq",
-        "questionHtml": "Dalam arsitektur engine gim modern, fungsi inti dari komponen Game Loop yang berjalan secara kontinu setiap frame adalah...",
-        "options": [
-            {"key": "A", "text": "Mengompilasi ulang seluruh source code gim secara real-time setiap kali pemain melakukan aksi."},
-            {"key": "B", "text": "Menerima input pengguna, memperbarui kondisi logika objek dunia gim, dan merender tampilan grafis."},
-            {"key": "C", "text": "Menghubungkan gim secara terus-menerus ke server basis data cloud untuk sinkronisasi leaderboard."},
-            {"key": "D", "text": "Membersihkan alokasi memori RAM secara paksa setiap frame agar tidak terjadi fragmentasi heap."},
-            {"key": "E", "text": "Memeriksa keaslian lisensi perangkat lunak gim dari store server sebelum aset dimuat ke GPU."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "CLASSIC GAME LOOP PATTERN",
-            "latex": "\\text{while}(\\text{running}) \\;\\{ \\text{processInput}(); \\; \\text{updateState}(\\Delta t); \\; \\text{renderView}(); \\}",
-            "legend": "• Input: Keyboard, touch, controller event<br>• Update: Fisika, AI, collision, timer<br>• Render: Gambar scene ke frame buffer"
-        },
-        "hints": {
-            "concept": "Game loop memiliki 3 tahapan siklis utama: Process Input -> Update Game State -> Render Output.",
-            "execution": "Siklus ini dieksekusi berulang kali (misal 60 fps) untuk menjaga dunia game responsif."
-        },
-        "explanation": "Game Loop adalah jantung aplikasi gim yang berjalan berulang-ulang untuk: (1) membaca input pemain, (2) mengkalkulasi logika/fisika/AI (update), dan (3) menggambar scene ke layar (render). Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Tahapan standar manajemen proyek (PMBOK/SDLC) adalah: (1) Inisiasi (Initiating), (2) Perencanaan (Planning), (3) Pelaksanaan dan Pemantauan (Executing & Monitoring/Controlling), serta (4) Penutupan (Closing). Jawaban: D.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-05",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Kewirausahaan (Technopreneurship)",
+    "type": "mcq",
+    "questionHtml": "Sebuah tim wirausaha muda (startup) di bidang PPLG ingin meluncurkan aplikasi pengelola keuangan pelajar dengan modal terbatas dan tenggat waktu cepat. Berdasarkan prinsip technopreneurship, langkah awal paling efektif untuk memvalidasi ide produk ke pasar adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menyewa server berkapasitas tinggi untuk jutaan pengguna sebelum membuat baris kode pertama."
+      },
+      {
+        "key": "B",
+        "text": "Membangun produk versi fungsi inti paling esensial (Minimum Viable Product / MVP) untuk menguji respons pengguna nyata."
+      },
+      {
+        "key": "C",
+        "text": "Menunggu hingga seluruh 50 fitur tambahan selesai sempurna selama tiga tahun sebelum diperlihatkan kepada calon pengguna."
+      },
+      {
+        "key": "D",
+        "text": "Membeli lisensi perangkat lunak enterprise termahal tanpa melakukan riset permasalahan pengguna."
+      },
+      {
+        "key": "E",
+        "text": "Mengabaikan umpan balik pengguna awal karena tim pengembang sudah merasa aplikasinya sempurna."
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "LEAN STARTUP FRAMEWORK",
+      "latex": "\\text{Build (MVP)} \\to \\text{Measure (User Feedback)} \\to \\text{Learn (Iterate/Pivot)}",
+      "legend": "• MVP (Minimum Viable Product): Versi produk dengan fitur minimum yang sudah dapat memecahkan masalah inti pengguna."
     },
-    {
-        "id": "rpl-lat-e-10",
-        "subject": "rpl",
-        "materi": "REKAYASA PEMROGRAMAN GIM",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Collision Detection (AABB)",
-        "type": "mcq",
-        "questionHtml": "Teknik deteksi tabrakan (collision detection) 2D yang menggunakan kotak pembatas sejajar sumbu koordinat tanpa rotasi dikenal dengan istilah...",
-        "options": [
-            {"key": "A", "text": "Raycasting yang menembakkan berkas garis vektor lurus untuk mengukur jarak objek target."},
-            {"key": "B", "text": "Axis-Aligned Bounding Box (AABB) yang membandingkan koordinat batas minimum dan maksimum."},
-            {"key": "C", "text": "Oriented Bounding Box (OBB) yang menggunakan pemisahan sumbu SAT dengan sudut rotasi dinamis."},
-            {"key": "D", "text": "Convex Hull Detection yang menghitung poligon terluar yang membungkus seluruh vertex objek."},
-            {"key": "E", "text": "Spatial Hashing yang membagi ruang dunia gim ke dalam grid sel matriks berindeks terpisah."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "AABB COLLISION FORMULA",
-            "latex": "\\text{overlap} = (x_{1\\text{min}} \\le x_{2\\text{max}}) \\land (x_{1\\text{max}} \\ge x_{2\\text{min}}) \\land (y_{1\\text{min}} \\le y_{2\\text{max}}) \\land (y_{1\\text{max}} \\ge y_{2\\text{min}})",
-            "legend": "• AABB: Efisien, komputasi murah (hanya perbandingan angka aljabar sederhana)<br>• Sumbu sejajar X dan Y (tanpa rotasi sudut)"
-        },
-        "hints": {
-            "concept": "Axis-Aligned Bounding Box (AABB) adalah metode deteksi tabrakan kotak non-rotasi paling mendasar.",
-            "execution": "Perhatikan frasa 'kotak pembatas sejajar sumbu koordinat' yang merupakan terjemahan dari Axis-Aligned Bounding Box."
-        },
-        "explanation": "AABB (Axis-Aligned Bounding Box) adalah algoritma deteksi tabrakan yang mengasumsikan batas kotak objek selalu sejajar dengan sumbu X dan Y dunia gim, menjadikannya sangat cepat dikomputasi. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Pendekatan Lean Startup menekankan pembuatan MVP untuk memvalidasi hipotesis pasar dengan biaya dan waktu sehemat mungkin.",
+      "execution": "Pilihlah langkah yang berorientasi pada perilisan versi sederhana awal untuk menguji respons pasar."
     },
-    {
-        "id": "rpl-lat-e-11",
-        "subject": "rpl",
-        "materi": "DESAIN UI/UX & AKSESIBILITAS",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "10 Nielsen Usability Heuristics",
-        "type": "mcq",
-        "questionHtml": "Ketika sebuah aplikasi menampilkan ikon progress bar atau animasi loading saat memproses pengunggahan file pengguna, prinsip usability heuristic Jakob Nielsen manakah yang sedang dipenuhi?",
-        "options": [
-            {"key": "A", "text": "Match between system and real world dengan menggunakan metafora objek kehidupan nyata."},
-            {"key": "B", "text": "Visibility of system status dengan selalu memberi tahu pengguna kondisi yang sedang berlangsung."},
-            {"key": "C", "text": "User control and freedom dengan menyediakan tombol darurat undo untuk membatalkan aksi."},
-            {"key": "D", "text": "Error prevention dengan mencegah kesalahan pengguna terjadi sebelum aksi dieksekusi."},
-            {"key": "E", "text": "Flexibility and efficiency of use dengan menyediakan shortcut bagi pengguna mahir."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "NIELSEN HEURISTIC #1",
-            "latex": "\\text{Feedback Time} < 100\\text{ms (Instant)}, \\quad < 1\\text{s (Flow)}, \\quad > 10\\text{s (Show Progress)}",
-            "legend": "• Heuristic 1: Visibility of system status<br>• Memberikan umpan balik visual tepat waktu kepada pengguna"
-        },
-        "hints": {
-            "concept": "Heuristik pertama Nielsen menyatakan sistem harus selalu menginformasikan status kerjanya kepada user melalui feedback yang wajar dan tepat waktu.",
-            "execution": "Progress bar dan indikator loading adalah contoh klasik pemenuhan status sistem."
-        },
-        "explanation": "Prinsip 'Visibility of system status' mengharuskan sistem selalu memberi tahu pengguna mengenai apa yang sedang terjadi melalui umpan balik yang sesuai dalam waktu yang wajar (seperti loading bar). Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Langkah awal paling efektif dalam metodologi Lean Startup/Technopreneurship adalah membangun Minimum Viable Product (MVP) untuk menguji respons pengguna secara langsung dan mengumpulkan data valid sebelum menginvestasikan modal besar. Jawaban: B.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-06",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Prinsip K3LH Lingkungan TI",
+    "type": "mcq",
+    "questionHtml": "Pekerja di bidang pengembangan perangkat lunak dan gim menghabiskan waktu berjam-jam di depan layar monitor. Penerapan <strong>aturan 20-20-20</strong> dalam prinsip Kesehatan dan Keselamatan Kerja (K3) bertujuan untuk …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mempercepat proses kompilasi kode sumber sebanyak 20 persen dalam 20 menit."
+      },
+      {
+        "key": "B",
+        "text": "Menghemat konsumsi daya listrik komputer hingga 20 watt setiap 20 detik."
+      },
+      {
+        "key": "C",
+        "text": "Mengistirahatkan mata setiap 20 menit dengan melihat objek berjarak 20 kaki (±6 meter) selama 20 detik guna mengurangi kelelahan mata."
+      },
+      {
+        "key": "D",
+        "text": "Mengetik minimal 20 baris kode setiap 20 menit dengan maksimal 20 kesalahan sintaks."
+      },
+      {
+        "key": "E",
+        "text": "Melakukan restart sistem operasi setiap 20 jam sekali selama 20 menit."
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "ATURAN K3LH KESEHATAN MATA (20-20-20 RULE)",
+      "latex": "\\text{Tiap 20 Menit Bekerja} \\implies \\text{Lihat Objek 20 Kaki (6 m)} \\times 20 \\text{ Detik}",
+      "legend": "• Mencegah Computer Vision Syndrome (CVS), mata kering, dan ketegangan otot akomodasi mata."
     },
-    {
-        "id": "rpl-lat-e-12",
-        "subject": "rpl",
-        "materi": "DESAIN UI/UX & AKSESIBILITAS",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Standar Kontras Warna WCAG",
-        "type": "mcq",
-        "questionHtml": "Berdasarkan pedoman aksesibilitas web Web Content Accessibility Guidelines (WCAG) 2.1 level AA, rasio kontras minimum antara warna teks normal dengan latar belakangnya adalah sebesar...",
-        "options": [
-            {"key": "A", "text": "2.0:1 yang merupakan standar rasio kontras minimum bagi elemen dekoratif non-teks antarmuka."},
-            {"key": "B", "text": "3.0:1 yang merupakan standar rasio kontras untuk teks berukuran besar (large text minimal 18pt)."},
-            {"key": "C", "text": "4.5:1 yang merupakan standar rasio kontras minimum untuk teks normal agar terbaca dengan jelas."},
-            {"key": "D", "text": "7.0:1 yang merupakan standar rasio kontras ketat level AAA untuk keterbacaan tingkat tinggi."},
-            {"key": "E", "text": "10.0:1 yang merupakan rasio kontras ekstrim monokrom hitam putih murni tanpa gradasi."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "WCAG CONTRAST RATIO SPECIFICATION",
-            "latex": "\\text{Ratio} = \\frac{L_1 + 0.05}{L_2 + 0.05} \\ge 4.5:1 \\quad (\\text{Level AA Normal Text})",
-            "legend": "• Level AA Normal Text: Minimal 4.5:1<br>• Level AA Large Text (>=18pt/14pt bold): Minimal 3.0:1<br>• Level AAA Normal Text: Minimal 7.0:1"
-        },
-        "hints": {
-            "concept": "WCAG 2.1 Level AA mensyaratkan rasio kontras 4.5:1 untuk teks normal dan 3:1 untuk teks besar.",
-            "execution": "Pilihlah angka 4.5:1 untuk teks biasa pada level AA."
-        },
-        "explanation": "WCAG 2.1 Level AA menetapkan ambang batas rasio kontras minimal 4.5:1 untuk teks reguler. Untuk teks besar (18pt atau 14pt tebal), batasnya adalah 3:1. Jawaban: C.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Aturan 20-20-20 adalah protokol standar ergonomi visual bagi praktisi TI yang menatap layar secara intensif.",
+      "execution": "Pilihlah opsi yang menjelaskan relaksasi penglihatan mata pada jarak 20 kaki selama 20 detik."
     },
-    {
-        "id": "rpl-lat-e-13",
-        "subject": "rpl",
-        "materi": "K3LH & HAKI PERANGKAT LUNAK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Lisensi Perangkat Lunak Open Source",
-        "type": "mcq",
-        "questionHtml": "Lisensi perangkat lunak open source manakah yang bersifat 'permissive' (sangat longgar) dan mengizinkan kode digunakan kembali dalam proyek komersial tertutup (proprietary) hanya dengan menyertakan pemberitahuan hak cipta aslinya?",
-        "options": [
-            {"key": "A", "text": "GNU General Public License (GPL) yang menerapkan klausul copyleft ketat pada proyek turunan."},
-            {"key": "B", "text": "MIT License yang memberikan kebebasan penuh penggunaan komersial dengan mencantumkan lisensi."},
-            {"key": "C", "text": "Affero General Public License (AGPL) yang mewajibkan rilis source code layanan berbasis jaringan."},
-            {"key": "D", "text": "Creative Commons Non-Commercial (CC-NC) yang melarang keras pemanfaatan untuk tujuan profit."},
-            {"key": "E", "text": "End User License Agreement (EULA) yang merupakan perjanjian pembatasan lisensi hak milik vendor."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SOFTWARE LICENSE CATEGORIES",
-            "latex": "\\text{Open Source} = \\text{Permissive (MIT/BSD/Apache)} \\cup \\text{Copyleft (GPL/AGPL)}",
-            "legend": "• MIT: Permissive, komersial diizinkan, no copyleft<br>• GPL: Viral copyleft, turunan wajib open source GPL"
-        },
-        "hints": {
-            "concept": "Lisensi MIT adalah lisensi permisif populer yang memungkinkan pengembang memakai kode untuk aplikasi komersial tanpa kewajiban membuka source code.",
-            "execution": "GPL mewajibkan copyleft, sedangkan MIT bersifat permisif."
-        },
-        "explanation": "Lisensi MIT adalah jenis lisensi permisif yang memberikan izin bagi siapa pun untuk menggunakan, memodifikasi, dan mendistribusikan kode, termasuk untuk keperluan komersial tertutup, dengan syarat tetap menyertakan hak cipta dan disclaimer asli. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Aturan 20-20-20 adalah pedoman ergonomi visual K3LH: setiap 20 menit menatap layar, istirahatkan mata dengan memandang objek berjarak 20 kaki (sekitar 6 meter) selama minimal 20 detik untuk mencegah Computer Vision Syndrome. Jawaban: C.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-07",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Ergonomi Kerja Komputer",
+    "type": "mcq",
+    "questionHtml": "Untuk mencegah cedera otot dan tulang belakang (<em>musculoskeletal disorders</em>) saat melakukan pemrograman dalam durasi panjang, pengaturan posisi kerja ergonomis yang tepat adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mengatur bagian atas layar monitor sejajar atau sedikit di bawah tinggi mata dengan jarak pandang 50–70 cm serta punggung tersangga tegak."
+      },
+      {
+        "key": "B",
+        "text": "Meletakkan monitor jauh di atas kepala sehingga leher terus mendongak ke atas selama bekerja."
+      },
+      {
+        "key": "C",
+        "text": "Menggunakan kursi tanpa sandaran dengan posisi layar menempel kurang dari 15 cm dari mata."
+      },
+      {
+        "key": "D",
+        "text": "Meletakkan keyboard di atas pangkuan dengan posisi pergelangan tangan menekuk tajam ke atas."
+      },
+      {
+        "key": "E",
+        "text": "Mematikan seluruh pencahayaan ruangan hingga gelap gulita dan mengatur kecerahan layar pada tingkat maksimum 100%."
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "STANDAR ERGONOMI WORKSTATION",
+      "latex": "\\text{Jarak Layar: } 50-70\\text{ cm} \\quad | \\quad \\text{Sudut Siku/Lutut: } 90^{\\circ} \\quad | \\quad \\text{Punggung: Tegak Bersandar}",
+      "legend": "• Mencegah Repetitive Strain Injury (RSI) dan nyeri leher/punggung (cervical spondylosis)."
     },
-    {
-        "id": "rpl-lat-e-14",
-        "subject": "rpl",
-        "materi": "K3LH & HAKI PERANGKAT LUNAK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "K3LH & Ergonomi Kerja IT",
-        "type": "mcq",
-        "questionHtml": "Untuk mencegah kelelahan mata (Computer Vision Syndrome) bagi programmer yang menatap monitor berjam-jam, aturan ergonomi '20-20-20' menganjurkan agar...",
-        "options": [
-            {"key": "A", "text": "Setiap 20 jam bekerja, istirahatlah selama 20 menit penuh sambil mengonsumsi 20 mililiter air mineral."},
-            {"key": "B", "text": "Setiap 20 menit menatap layar, alihkan pandangan ke objek berjarak 20 kaki (6 meter) selama 20 detik."},
-            {"key": "C", "text": "Mengatur tingkat kecerahan layar monitor pada angka 20% dengan sudut kemiringan tepat 20 derajat."},
-            {"key": "D", "text": "Setiap 20 baris kode program yang ditulis, lakukan peregangan jari tangan sebanyak 20 kali repetisi."},
-            {"key": "E", "text": "Menjaga jarak mata dari layar kaca monitor sejauh tepat 20 sentimeter dengan sudut pandang 20 derajat."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "THE 20-20-20 RULE FOR EYE ERGONOMICS",
-            "latex": "20\\text{ minutes work} \\implies \\text{Look at } 20\\text{ feet distant object} \\implies \\text{for } 20\\text{ seconds}",
-            "legend": "• Mencegah Computer Vision Syndrome (CVS)<br>• Melemaskan otot silier lensa mata"
-        },
-        "hints": {
-            "concept": "Rule 20-20-20 adalah rekomendasi medis ergonomi: setiap 20 menit, pandang objek sejauh 20 kaki selama 20 detik.",
-            "execution": "20 feet setara dengan 6 meter."
-        },
-        "explanation": "Aturan ergonomi mata 20-20-20 menyatakan bahwa setiap 20 menit bekerja di depan komputer, istirahatkan mata dengan memandang objek berjarak minimal 20 kaki (sekitar 6 meter) selama minimal 20 detik untuk mengistirahatkan otot fokus mata. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Posisi kerja ergonomis menjaga sudut leher netral (tidak mendongak/menunduk tajam) dan jarak layar yang aman bagi mata.",
+      "execution": "Pilihlah konfigurasi yang menyangga punggung tegak dengan garis pandang sejajar bagian atas monitor."
     },
-    {
-        "id": "rpl-lat-e-15",
-        "subject": "rpl",
-        "materi": "PENGUJIAN PERANGKAT LUNAK (QA)",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Pengujian Black-Box vs White-Box",
-        "type": "mcq",
-        "questionHtml": "Perbedaan fundamental antara metode pengujian perangkat lunak Black-Box Testing dan White-Box Testing terletak pada...",
-        "options": [
-            {"key": "A", "text": "Pengujian black-box hanya dapat dilakukan oleh komputer secara otomatis tanpa keterlibatan manusia."},
-            {"key": "B", "text": "Black-box menguji fungsi berdasarkan input-output spesifikasi, sedangkan white-box menguji alur kode internal."},
-            {"key": "C", "text": "White-box testing hanya menguji antarmuka visual grafis pengguna tanpa memeriksa basis data server."},
-            {"key": "D", "text": "Black-box mensyaratkan penguji memiliki akses penuh terhadap diagram logika kode sumber aplikasi."},
-            {"key": "E", "text": "White-box testing hanya dijalankan pada tahapan pengujian penerimaan pengguna akhir (User Acceptance Test)."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "TESTING PARADIGMS COMPARISON",
-            "latex": "\\text{Black-Box} \\colon f(x) \\to y \\quad \\text{vs} \\quad \\text{White-Box} \\colon \\text{Control Flow Graph & Branch}",
-            "legend": "• Black-Box: Uji spesifikasi & fungsional (tanpa lihat kode)<br>• White-Box: Uji struktur, percabangan, & jalur logika internal"
-        },
-        "hints": {
-            "concept": "Black-box menguji 'apa yang dilakukan sistem' dari luar (spesifikasi), sedangkan white-box menguji 'bagaimana sistem bekerja' di dalam (struktur kode).",
-            "execution": "Black box = tanpa akses kode sumber; White box = dengan analisis kode sumber."
-        },
-        "explanation": "Black-Box Testing berfokus pada pengujian fungsionalitas berdasarkan spesifikasi kebutuhan tanpa melihat struktur kode internal, sedangkan White-Box Testing menganalisis struktur internal, alur percabangan, dan logika kode sumber program. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Pengaturan ergonomis yang benar adalah monitor berada pada jarak 50–70 cm, bagian atas layar sejajar atau sedikit di bawah mata agar leher berada pada posisi netral (15–20 derajat ke bawah), dan punggung tertopang tegak. Jawaban: A.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-08",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Pengelolaan Aset Digital & Kolaborasi",
+    "type": "mcq",
+    "questionHtml": "Lima orang programmer bekerja secara bersamaan mengembangkan modul yang berbeda pada satu proyek aplikasi e-commerce. Agar setiap perubahan kode tercatat riwayatnya, tidak saling menimpa secara acak, dan mudah digabungkan, perangkat pengelolaan aset digital yang wajib digunakan adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Aplikasi pengolah gambar bitmap."
+      },
+      {
+        "key": "B",
+        "text": "Perangkat lunak antivirus lokal."
+      },
+      {
+        "key": "C",
+        "text": "Media penyimpanan flashdisk yang dipinjamkan bergantian."
+      },
+      {
+        "key": "D",
+        "text": "Version Control System (seperti Git) dengan mekanisme branching dan merge/pull request."
+      },
+      {
+        "key": "E",
+        "text": "Aplikasi pemutar multimedia resolusi tinggi."
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "VERSION CONTROL SYSTEM (VCS)",
+      "latex": "\\text{Working Directory} \\xrightarrow{\\text{add}} \\text{Staging} \\xrightarrow{\\text{commit}} \\text{Local Repo} \\xrightarrow{\\text{push}} \\text{Remote}",
+      "legend": "• Branching: Bekerja pada fitur terpisah secara paralel.<br>• Merge/Pull Request: Menggabungkan kode dengan tinjauan (code review)."
     },
-    {
-        "id": "rpl-lat-e-16",
-        "subject": "rpl",
-        "materi": "ALGORITMA & PEMROGRAMAN TERSTRUKTUR",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Struktur Kontrol Percabangan",
-        "type": "mcq",
-        "questionHtml": "Perhatikan potongan kode Python berikut:\n```python\nscore = 85\nif score >= 90:\n    grade = \"A\"\nelif score >= 80:\n    grade = \"B\"\nelif score >= 70:\n    grade = \"C\"\nelse:\n    grade = \"D\"\nprint(grade)\n```\nOutput nilai variabel `grade` yang dicetak pada terminal adalah...",
-        "options": [
-            {"key": "A", "text": "A karena evaluasi kondisi percabangan selalu memilih nilai grade tertinggi yang tersedia."},
-            {"key": "B", "text": "B karena nilai 85 memenuhi kondisi elif kedua score >= 80 dan eksekusi blok percabangan berakhir."},
-            {"key": "C", "text": "C karena kondisi 85 juga secara matematis lebih besar sama dengan 70 pada evaluasi ketiga."},
-            {"key": "D", "text": "D karena struktur percabangan mengalami runtime fallback ke blok klausa else default."},
-            {"key": "E", "text": "Terjadi error kompilasi karena variabel grade dideklarasikan berulang di dalam blok if."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "CONDITIONAL CONTROL FLOW",
-            "latex": "85 \\ge 90 \\; (\\text{False}) \\implies 85 \\ge 80 \\; (\\text{True}) \\implies \\text{Execute & Exit Branch}",
-            "legend": "• if-elif-else mengeksekusi blok pertama yang bernilai True lalu keluar dari seluruh rantai seleksi"
-        },
-        "hints": {
-            "concept": "Dalam struktur if-elif-else, begitu sebuah kondisi terpenuhi (True), blok tersebut dieksekusi dan sisa kondisi di bawahnya diabaikan.",
-            "execution": "Kondisi score >= 90 bernilai False. Kondisi score >= 80 bernilai True, sehingga grade = 'B' dieksekusi."
-        },
-        "explanation": "Karena 85 < 90 (False), evaluasi berlanjut ke `elif score >= 80`. Karena 85 >= 80 bernilai True, maka `grade = 'B'` dijalankan dan rantai percabangan selesai. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Sistem kontrol versi (VCS) mencatat setiap riwayat commit, mencegah penimpaan file yang tidak disengaja, dan memfasilitasi penggabungan (merge).",
+      "execution": "Pilihlah teknologi yang standar dipakai industri perangkat lunak untuk kolaborasi kode, yaitu Git."
     },
-    {
-        "id": "rpl-lat-e-17",
-        "subject": "rpl",
-        "materi": "PROSES BISNIS & SDLC",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Git Version Control Dasar",
-        "type": "mcq",
-        "questionHtml": "Perintah Git yang digunakan untuk memindahkan perubahan file dari working directory lokal ke dalam staging area sebelum dilakukan commit adalah...",
-        "options": [
-            {"key": "A", "text": "git commit -m yang menyimpan snapshot perubahan secara permanen ke repositori lokal."},
-            {"key": "B", "text": "git push origin yang mengunggah riwayat commit lokal ke repositori remote di cloud."},
-            {"key": "C", "text": "git add yang mendaftarkan perubahan file yang dipilih ke dalam staging area."},
-            {"key": "D", "text": "git checkout yang beralih antar branch kerja atau membatalkan perubahan lokal."},
-            {"key": "E", "text": "git status yang menampilkan status pelacakan file pada direktori kerja saat ini."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "GIT WORKFLOW STAGES",
-            "latex": "\\text{Working Directory} \\xrightarrow{\\text{git add}} \\text{Staging Area} \\xrightarrow{\\text{git commit}} \\text{Local Repo}",
-            "legend": "• Working directory: Berkas diubah di editor<br>• Staging area (Index): Berkas siap di-commit<br>• Repository: Riwayat permanen"
-        },
-        "hints": {
-            "concept": "Tiga zona Git: Working Directory -> Staging Area -> Commit History.",
-            "execution": "git add digunakan untuk memindahkan perubahan ke Staging Area."
-        },
-        "explanation": "Perintah `git add <nama_file>` atau `git add .` berfungsi menambahkan file dari working directory ke staging area (index) agar siap disertakan dalam commit berikutnya. Jawaban: C.",
-        "isDiagnostic": False
+    "explanation": "Version Control System (seperti Git/GitHub/GitLab) menyediakan mekanisme isolasi cabang (branching), pelacakan riwayat commit, dan penggabungan kode (merge/PR) sehingga kolaborasi multi-programmer berlangsung aman dan teratur. Jawaban: D.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-09",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Keamanan Aset Proyek & Kredensial",
+    "type": "mcq",
+    "questionHtml": "Seorang pengembang aplikasi harus menghubungkan programnya dengan layanan pembayaran pihak ketiga menggunakan API Secret Key dan kata sandi basis data. Praktik pengelolaan aset kode sumber yang paling aman saat proyek diunggah ke repositori Git publik adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menuliskan API Secret Key dan kata sandi secara langsung (hardcoded) di bagian paling atas file index utama."
+      },
+      {
+        "key": "B",
+        "text": "Menyimpan kredensial sensitif di dalam file environment (.env) dan mendaftarkan file .env tersebut ke dalam .gitignore."
+      },
+      {
+        "key": "C",
+        "text": "Mengunggah tangkapan layar berisi kata sandi basis data ke dalam file README.md agar mudah dibaca publik."
+      },
+      {
+        "key": "D",
+        "text": "Mengirimkan kata sandi melalui kolom komentar publik di media sosial proyek."
+      },
+      {
+        "key": "E",
+        "text": "Menamai file kode sumber utama dengan kata sandi basis data yang digunakan."
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "ENVIRONMENT VARIABLES & GITIGNORE",
+      "latex": "\\text{Secrets in } \\texttt{.env} \\quad + \\quad \\text{Rule in } \\texttt{.gitignore: } \\texttt{.env} \\implies \\text{Zero Credential Leak}",
+      "legend": "• .gitignore memberi tahu Git untuk mengabaikan file tertentu agar tidak pernah ter-commit atau ter-push ke server remote."
     },
-    {
-        "id": "rpl-lat-e-18",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "SQL Agregasi & Klausa WHERE",
-        "type": "mcq",
-        "questionHtml": "Perhatikan query SQL sederhana berikut:\n```sql\nSELECT COUNT(*) AS total_produk\nFROM produk\nWHERE kategori = 'Elektronik';\n```\nFungsi agregasi `COUNT(*)` pada query di atas menghasilkan...",
-        "options": [
-            {"key": "A", "text": "Jumlah akumulasi total nominal harga seluruh produk dengan kategori Elektronik di tabel."},
-            {"key": "B", "text": "Jumlah total baris (rekaman) produk yang memenuhi kriteria kategori 'Elektronik'."},
-            {"key": "C", "text": "Rata-rata jumlah stok unit barang yang termasuk dalam klasifikasi produk Elektronik."},
-            {"key": "D", "text": "Daftar nama seluruh produk barang Elektronik yang diurutkan secara berurutan abjad."},
-            {"key": "E", "text": "Nilai transaksi harga tertinggi di antara produk-produk dalam kategori Elektronik."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SQL AGGREGATE FUNCTIONS",
-            "latex": "\\text{COUNT}(*) \\to \\text{Row Count}, \\quad \\text{SUM}(c) \\to \\text{Total}, \\quad \\text{AVG}(c) \\to \\text{Mean}",
-            "legend": "• COUNT(*): Menghitung seluruh baris termasuk nilai NULL<br>• SUM: Akumulasi nilai angka<br>• AVG: Rata-rata nilai"
-        },
-        "hints": {
-            "concept": "Fungsi COUNT(*) menghitung banyaknya baris rekaman yang lolos filter klausul WHERE.",
-            "execution": "Untuk total harga digunakan SUM(), rata-rata AVG(), dan jumlah baris COUNT()."
-        },
-        "explanation": "Fungsi `COUNT(*)` menghitung banyaknya jumlah baris rekaman yang dihasilkan oleh query setelah disaring oleh klausul `WHERE kategori = 'Elektronik'`. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Kredensial rahasia (API key, token, DB password) tidak boleh di-hardcode di kode sumber publik, melainkan disimpan di variabel lingkungan (.env).",
+      "execution": "Pilihlah kombinasi penyimpanan pada file .env dan pemfilteran dengan .gitignore."
     },
-    {
-        "id": "rpl-lat-e-19",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Format Data Pertukaran JSON",
-        "type": "mcq",
-        "questionHtml": "Dalam ekosistem komunikasi data web modern dan REST API, singkatan resmi serta karakteristik utama dari format data JSON adalah...",
-        "options": [
-            {"key": "A", "text": "Java Script Object Notation yang merupakan format pertukaran data teks ringan berbasis key-value."},
-            {"key": "B", "text": "Java Standard Output Network yang merupakan protokol transfer data biner antar server."},
-            {"key": "C", "text": "Joint Security Organization Network yang mengatur enkripsi paket pada protokol HTTPS."},
-            {"key": "D", "text": "Java Source Object Network yang berfungsi mengompilasi file bytecode di browser client."},
-            {"key": "E", "text": "JavaScript Operational Node yang mengelola thread eksekusi multi-core pada runtime Node.js."}
-        ],
-        "correctKey": "A",
-        "formulaHud": {
-            "title": "JSON DATA STRUCTURE",
-            "latex": "\\text{JSON} = \\{ \\text{\"key\"} \\colon \\text{value} \\}, \\quad \\text{where value} \\in \\{ \\text{string, number, bool, array, object, null} \\}",
-            "legend": "• Format berbasis teks, human-readable, language-independent"
-        },
-        "hints": {
-            "concept": "JSON singkatan dari JavaScript Object Notation, format teks standar untuk representasi struktur data berpasangan key-value.",
-            "execution": "JSON mudah dibaca manusia dan didukung oleh hampir semua bahasa pemrograman modern."
-        },
-        "explanation": "JSON (JavaScript Object Notation) adalah format standar pertukaran data terbuka berbasis teks yang ringan, mudah dibaca manusia dan mesin, serta independen dari bahasa pemrograman. Jawaban: A.",
-        "isDiagnostic": False
+    "explanation": "Praktik keamanan baku adalah menyimpan kredensial pada file environment (.env) dan mendaftarkan .env ke dalam file .gitignore agar tidak terunggah ke repositori publik. Menulis kredensial di kode (hardcoding) sangat berbahaya karena rentan dicuri bot penyerang. Jawaban: B.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-10",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Prosedur Pengelolaan & Cadangan Aset",
+    "type": "mcq",
+    "questionHtml": "Dalam pengelolaan aset digital proyek perangkat lunak, risiko kehilangan data akibat kerusakan perangkat keras server dapat diminimalkan melalui prosedur …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menghapus log transaksi basis data setiap satu jam sekali."
+      },
+      {
+        "key": "B",
+        "text": "Menyimpan satu-satunya salinan basis data di partisi yang sama dengan file sementara (temp) sistem operasi."
+      },
+      {
+        "key": "C",
+        "text": "Menonaktifkan fitur autentikasi pengguna pada server basis data."
+      },
+      {
+        "key": "D",
+        "text": "Mengubah seluruh nama tabel basis data setiap hari secara manual."
+      },
+      {
+        "key": "E",
+        "text": "Melakukan pencadangan (backup) otomatis secara berkala ke lokasi penyimpanan terpisah serta menguji prosedur pemulihannya (restore)."
+      }
+    ],
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "STRATEGI CADANGAN DATA 3-2-1",
+      "latex": "3 \\text{ Salinan Data} \\to 2 \\text{ Media Berbeda} \\to 1 \\text{ Salinan Off-site/Cloud}",
+      "legend": "• Backup tanpa uji coba pemulihan (restore drill) tidak menjamin ketersediaan data saat terjadi disaster recovery."
     },
-    {
-        "id": "rpl-lat-e-20",
-        "subject": "rpl",
-        "materi": "PENGUJIAN PERANGKAT LUNAK (QA)",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Tingkatan Pengujian Unit Test",
-        "type": "mcq",
-        "questionHtml": "Dalam piramida pengujian perangkat lunak, tingkatan pengujian yang berfokus menguji unit kode terkecil (seperti method atau fungsi tunggal) secara terisolasi dinamakan...",
-        "options": [
-            {"key": "A", "text": "System Testing yang menguji keseluruhan sistem perangkat lunak secara utuh end-to-end."},
-            {"key": "B", "text": "Integration Testing yang memverifikasi komunikasi dan interaksi antar beberapa modul komponen."},
-            {"key": "C", "text": "Unit Testing yang memvalidasi kebenaran logika fungsi atau method terkecil secara terisolasi."},
-            {"key": "D", "text": "Acceptance Testing yang dilakukan oleh pengguna akhir untuk memastikan kesesuaian kebutuhan bisnis."},
-            {"key": "E", "text": "Performance Testing yang mengukur daya tahan dan waktu respons server di bawah beban tinggi."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "TEST PYRAMID HIERARCHY",
-            "latex": "\\text{E2E / UI Test} \\; (10\\%) \\to \\text{Integration Test} \\; (20\\%) \\to \\text{Unit Test} \\; (70\\%)",
-            "legend": "• Unit: Paling banyak, cepat, menguji fungsi individual<br>• Integration: Uji gabungan modul/DB/API<br>• E2E: Uji alur pengguna menyeluruh"
-        },
-        "hints": {
-            "concept": "Pengujian pada level terkecil komponen perangkat lunak (fungsi, prosedur, class method) disebut unit test.",
-            "execution": "Piramida pengujian menempatkan unit test di lapisan terbawah karena paling cepat dan terisolasi."
-        },
-        "explanation": "Unit Testing adalah pengujian terhadap bagian terkecil dari perangkat lunak (seperti fungsi atau method individual) secara terisolasi dari dependensi luar. Jawaban: C.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Pencadangan rutin ke media atau lokasi terpisah serta pengujian pemulihan adalah fondasi kelangsungan bisnis (business continuity).",
+      "execution": "Pilihlah opsi yang mencakup pencadangan berkala di lokasi berbeda dan verifikasi restore."
     },
-    {
-        "id": "rpl-lat-e-21",
-        "subject": "rpl",
-        "materi": "ALGORITMA & PEMROGRAMAN TERSTRUKTUR",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Struktur Data Linier (Array & List)",
-        "type": "mcq",
-        "questionHtml": "Karakteristik mendasar dari struktur data Array satu dimensi statis dalam memori komputer adalah...",
-        "options": [
-            {"key": "A", "text": "Dapat menampung berbagai tipe data heterogen tanpa batasan kapasitas alokasi awal."},
-            {"key": "B", "text": "Menyimpan elemen-elemen bertipe sama dalam lokasi blok memori yang berurutan (kontigu)."},
-            {"key": "C", "text": "Elemen hanya dapat diakses secara sekuensial dari elemen pertama hingga terakhir."},
-            {"key": "D", "text": "Alokasi ukuran panjang array otomatis bertambah saat terjadi penambahan data baru."},
-            {"key": "E", "text": "Setiap elemen memiliki pointer referensi eksplisit ke alamat memori elemen berikutnya."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "ARRAY MEMORY ADDRESS CALCULATION",
-            "latex": "\\text{Address}(A[i]) = \\text{BaseAddress} + (i \\times \\text{ElementSize})",
-            "legend": "• Akses langsung konstan: $O(1)$ random access time<br>• Memori kontigu (berurutan tanpa jeda)"
-        },
-        "hints": {
-            "concept": "Array statis mengalokasikan memori secara kontigu (berdampingan) dan memiliki ukuran tetap dengan tipe data homogen.",
-            "execution": "Lokasi memori kontigu memungkinkan akses acak $O(1)$ via indeks."
-        },
-        "explanation": "Array menyimpan elemen-elemen bertipe data sama pada blok memori yang berurutan (kontigu), memungkinkan akses instan $O(1)$ menggunakan indeks. Pilihan E adalah karakteristik Linked List. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Untuk memitigasi risiko kerusakan fisik server atau bencana, tim wajib menjalankan pencadangan (backup) berkala ke lokasi fisik/cloud terpisah dan memverifikasi kelayakan prosedur restore secara teratur. Jawaban: E.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-11",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Lingkungan Sistem Operasi (CLI Linux)",
+    "type": "mcq",
+    "questionHtml": "Seorang pengembang gim menggunakan terminal sistem operasi berbasis Linux untuk menyiapkan struktur folder proyek baru. Perintah CLI yang tepat untuk membuat direktori bertingkat <code>src/assets/sprites</code> sekaligus adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "rm -rf src/assets/sprites"
+      },
+      {
+        "key": "B",
+        "text": "mkdir -p src/assets/sprites"
+      },
+      {
+        "key": "C",
+        "text": "cat src/assets/sprites"
+      },
+      {
+        "key": "D",
+        "text": "ps aux src/assets/sprites"
+      },
+      {
+        "key": "E",
+        "text": "kill -9 src/assets/sprites"
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "PERINTAH DASAR LINUX CLI",
+      "latex": "\\texttt{mkdir -p [path/nested/dir]} \\implies \\text{Membuat direktori induk \& anak sekaligus}",
+      "legend": "• \\texttt{-p} (parents): Tidak menghasilkan error jika folder sudah ada, dan membuat seluruh subfolder yang belum tersedia."
     },
-    {
-        "id": "rpl-lat-e-22",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN APLIKASI BERGERAK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Komponen UI & Layouting Android",
-        "type": "mcq",
-        "questionHtml": "Dalam perancangan antarmuka Android menggunakan XML, jenis layout yang menyusun elemen tampilan (views) secara berurutan dalam satu arah, baik horizontal maupun vertikal, adalah...",
-        "options": [
-            {"key": "A", "text": "ConstraintLayout yang menyusun view berdasarkan hubungan pembatas relatif terhadap elemen lain."},
-            {"key": "B", "text": "LinearLayout yang menata widget anak secara berurutan dalam satu orientasi garis lurus."},
-            {"key": "C", "text": "FrameLayout yang menumpuk view anak di atas view lainnya pada sudut kiri atas layar."},
-            {"key": "D", "text": "TableLayout yang menyusun elemen ke dalam baris dan kolom kisi-kisi matriks kaku."},
-            {"key": "E", "text": "RelativeLayout yang menempatkan view berdasarkan posisi relatif terhadap view saudaranya."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "ANDROID LAYOUT ATTRIBUTES",
-            "latex": "\\text{android:orientation} = \\text{\"vertical\"} \\mid \\text{\"horizontal\"}",
-            "legend": "• LinearLayout: Penataan linier 1 arah<br>• ConstraintLayout: Fleksibel, flat hierarchy, performa tinggi"
-        },
-        "hints": {
-            "concept": "LinearLayout menggunakan atribut android:orientation untuk menyusun komponen secara vertikal atau horizontal.",
-            "execution": "ConstraintLayout menggunakan constraints, sedangkan LinearLayout menata dalam satu garis lurus."
-        },
-        "explanation": "LinearLayout adalah ViewGroup yang mengatur komponen anak-anaknya dalam satu baris (horizontal) atau satu kolom (vertikal) sesuai atribut `android:orientation`. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Perintah 'mkdir' (make directory) dengan flag '-p' (parents) membuat seluruh hirarki folder bertingkat dalam satu langkah.",
+      "execution": "Pilihlah perintah pembuatan direktori dengan parameter pembuatan folder induk."
     },
-    {
-        "id": "rpl-lat-e-23",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Konsep Abstraksi & Interface",
-        "type": "mcq",
-        "questionHtml": "Pernyataan yang BENAR mengenai perbedaan antara Interface dan Abstract Class dalam bahasa Java murni adalah...",
-        "options": [
-            {"key": "A", "text": "Sebuah kelas konkret di Java diperbolehkan mewarisi lebih dari satu superclass abstrak."},
-            {"key": "B", "text": "Interface hanya mendefinisikan kontrak tanpa bisa memiliki method dengan implementasi default."},
-            {"key": "C", "text": "Sebuah kelas konkret dapat mengimplementasikan beberapa interface sekaligus (multiple interfaces)."},
-            {"key": "D", "text": "Abstract class tidak dapat memiliki constructor untuk menginisialisasi atribut instansinya."},
-            {"key": "E", "text": "Interface dapat diinstansiasi secara langsung menjadi objek mandiri dengan kata kunci new."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "JAVA MULTIPLE INHERITANCE THROUGH INTERFACES",
-            "latex": "\\text{class } C \\text{ extends } A \\text{ implements } I_1, I_2, I_3",
-            "legend": "• Java mendukung single class inheritance (extends 1 class)<br>• Java mendukung multiple interface implementation (implements banyak interface)"
-        },
-        "hints": {
-            "concept": "Java tidak mengizinkan multiple inheritance untuk class, tetapi mengizinkan implementasi banyak interface sekaligus pada satu kelas.",
-            "execution": "Pilihlah fakta bahwa class Java dapat mengimplementasikan banyak interface."
-        },
-        "explanation": "Di Java, sebuah kelas hanya boleh mewarisi satu kelas induk (single inheritance), tetapi dapat mengimplementasikan banyak interface sekaligus (`implements InterfaceA, InterfaceB`). Jawaban: C.",
-        "isDiagnostic": False
+    "explanation": "Perintah 'mkdir -p' (make directory parents) digunakan untuk membuat direktori bertingkat secara rekursif jika direktori induknya belum ada. 'rm -rf' untuk menghapus, 'cat' untuk membaca file, dan 'kill' untuk menghentikan proses. Jawaban: B.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-12",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Sistem Operasi & Hak Akses File",
+    "type": "mcq",
+    "questionHtml": "Seorang pengembang aplikasi web sedang menyiapkan proyek pada server lokal Linux untuk keperluan pengujian. Saat aplikasi diakses melalui browser, muncul pesan kesalahan berikut:<br><code>Permission denied: /var/www/html/index.php</code><br>Tindakan perbaikan yang paling tepat untuk mengatasi masalah tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mengganti kabel jaringan UTP dengan serat optik."
+      },
+      {
+        "key": "B",
+        "text": "Memformat ulang seluruh partisi harddisk server."
+      },
+      {
+        "key": "C",
+        "text": "Mengubah hak akses (permission) atau kepemilikan (ownership) pada file/direktori proyek agar dapat dibaca oleh layanan web server."
+      },
+      {
+        "key": "D",
+        "text": "Menghapus browser pada komputer client dan memasang aplikasi desain grafis."
+      },
+      {
+        "key": "E",
+        "text": "Mengubah nama domain aplikasi menjadi alamat MAC Address."
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "HAK AKSES FILE LINUX (POSIX PERMISSIONS)",
+      "latex": "\\texttt{chmod [mode] file} \\quad | \\quad \\texttt{chown [user]:[group] file}",
+      "legend": "• Error 'Permission denied' terjadi saat user proses web server (misal www-data/nginx) tidak memiliki hak baca (r) atau eksekusi (x) pada file."
     },
-    {
-        "id": "rpl-lat-e-24",
-        "subject": "rpl",
-        "materi": "K3LH & HAKI PERANGKAT LUNAK",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Hukum Digital & UU ITE",
-        "type": "mcq",
-        "questionHtml": "Tindakan mengakses sistem komputer milik pihak lain tanpa hak atau melawan hukum dengan sengaja melanggar sistem pengamanan merupakan pelanggaran hukum digital yang diatur dalam Undang-Undang ITE pada pasal...",
-        "options": [
-            {"key": "A", "text": "Pasal tentang penyebaran informasi hoaks dan berita bohong yang menyesatkan publik."},
-            {"key": "B", "text": "Pasal 30 tentang akses ilegal (illegal access) terhadap sistem komputer atau jaringan orang lain."},
-            {"key": "C", "text": "Pasal tentang pencemaran nama baik dan penghinaan personal melalui media sosial online."},
-            {"key": "D", "text": "Pasal tentang transaksi perdagangan elektronik dan pendaftaran penyelenggara sistem komersial."},
-            {"key": "E", "text": "Pasal tentang perlindungan hak cipta konten multimedia yang diunggah ke portal streaming."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "CYBER LAW FRAMEWORK (UU ITE)",
-            "latex": "\\text{Pasal 30 UU ITE} \\implies \\text{Illegal Access to Computer System / Data}",
-            "legend": "• Ayat 1: Akses tanpa hak<br>• Ayat 2: Akses untuk memperoleh info/dokumen<br>• Ayat 3: Membobol sistem pengamanan (cracking)"
-        },
-        "hints": {
-            "concept": "Pasal 30 UU ITE mengatur tindak pidana akses ilegal (illegal access) ke komputer/jaringan orang lain dengan melanggar pengamanan.",
-            "execution": "Ingat konsep Illegal Access = Pasal 30 UU ITE."
-        },
-        "explanation": "Pasal 30 UU ITE secara tegas melarang perbuatan setiap orang yang dengan sengaja dan tanpa hak atau melawan hukum mengakses komputer dan/atau sistem elektronik milik orang lain dengan cara apa pun (illegal access). Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Pesan 'Permission denied' menandakan user proses web server tidak memiliki hak izin akses baca/tulis terhadap file yang dituju.",
+      "execution": "Pilihlah solusi yang mengoreksi hak akses (chmod) atau kepemilikan file (chown)."
     },
-    {
-        "id": "rpl-lat-e-25",
-        "subject": "rpl",
-        "materi": "PROSES BISNIS & SDLC",
-        "mode": "latihan",
-        "difficulty": "easy",
-        "topic": "Model SDLC Waterfall vs Agile",
-        "type": "mcq",
-        "questionHtml": "Situasi proyek pengembangan perangkat lunak manakah yang PALING tepat menggunakan model siklus hidup Waterfall tradisional dibandingkan Agile?",
-        "options": [
-            {"key": "A", "text": "Aplikasi rintisan (startup) baru di mana fitur dan target pasar masih dalam tahap eksperimen cepat."},
-            {"key": "B", "text": "Sistem kendali kedirgantaraan dengan spesifikasi kebutuhan yang sudah fix, kaku, dan regulasi ketat."},
-            {"key": "C", "text": "Game online mobile yang membutuhkan pembaruan konten dan penyesuaian event berkala tiap minggu."},
-            {"key": "D", "text": "Portal e-commerce ritel yang ingin sering merilis fitur baru berdasarkan tren belanja konsumen."},
-            {"key": "E", "text": "Sistem media sosial interaktif yang terus mengembangkan algoritma rekomendasi berdasarkan feedback."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SDLC MODEL SELECTION MATRIX",
-            "latex": "\\text{Requirements Clarity} \\land \\text{High Regulation} \\implies \\text{Waterfall}",
-            "legend": "• Waterfall: Spesifikasi jelas, stabil, minim perubahan, dokumentasi ketat<br>• Agile: Dinamis, eksperimental, feedback cepat"
-        },
-        "hints": {
-            "concept": "Model Waterfall sangat cocok untuk sistem dengan persyaratan yang telah pasti dan tidak berubah-ubah serta memiliki standar keselamatan/regulasi ketat.",
-            "execution": "Sistem kedirgantaraan atau alat medis memiliki spesifikasi baku yang fatal jika diubah di tengah jalan."
-        },
-        "explanation": "Model Waterfall ideal untuk proyek berskala kritis dengan spesifikasi kebutuhan yang sudah pasti, jelas, tidak boleh berubah di tengah jalan, dan memiliki standar dokumentasi ketat (seperti sistem kedirgantaraan, militer, atau perangkat medis). Jawaban: B.",
-        "isDiagnostic": False
-    }
+    "explanation": "Pesan 'Permission denied' merupakan indikasi masalah izin baca/eksekusi file pada level sistem operasi. Solusinya adalah menyesuaikan hak akses (chmod) atau kepemilikan file (chown) agar user web server (seperti www-data) dapat membaca file tersebut. Jawaban: C.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-13",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Infrastruktur & Addressing IPv4 Subnet",
+    "type": "mcq",
+    "questionHtml": "Cermati data konfigurasi jaringan lokal (LAN) pada infrastruktur pengembangan aplikasi web yang terhubung melalui satu Switch (tanpa Router/VLAN) berikut:<br>• Server Aplikasi: IP <code>192.168.10.10/24</code><br>• File Storage Server: IP <code>192.168.10.15/24</code><br>• Database Server: <em>Titik A</em><br>Agar Database Server pada Titik A dapat berkomunikasi langsung dengan Server Aplikasi dan File Storage Server dalam subnet yang sama, alamat IP yang paling tepat dikonfigurasi pada Titik A adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "192.168.10.10/24"
+      },
+      {
+        "key": "B",
+        "text": "192.168.100.20/24"
+      },
+      {
+        "key": "C",
+        "text": "192.168.10.255/24"
+      },
+      {
+        "key": "D",
+        "text": "192.168.10.20/24"
+      },
+      {
+        "key": "E",
+        "text": "10.10.10.20/24"
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "RENTANG HOST USABLE IPv4 /24",
+      "latex": "\\text{Network: } 192.168.10.0 \\quad | \\quad \\text{Host: } 192.168.10.1 - 192.168.10.254 \\quad | \\quad \\text{Broadcast: } 192.168.10.255",
+      "legend": "• IP tidak boleh bentrok (duplikat) dan tidak boleh menggunakan alamat Network (.0) atau Broadcast (.255)."
+    },
+    "hints": {
+      "concept": "Pada subnet /24 (255.255.255.0), tiga oktet pertama harus sama persis (192.168.10.x) dan host ID harus unik serta bukan broadcast (.255).",
+      "execution": "Pilihlah IP dengan network 192.168.10.x yang belum digunakan oleh server lain dan bukan alamat broadcast."
+    },
+    "explanation": "Pada subnet 192.168.10.0/24, rentang host yang valid adalah 192.168.10.1 hingga 192.168.10.254. Opsi A duplikat dengan Server Aplikasi, Opsi B dan E beda network, Opsi C adalah alamat broadcast. Maka IP yang tepat adalah 192.168.10.20/24. Jawaban: D.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-14",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Infrastruktur & Perangkat Jaringan",
+    "type": "mcq",
+    "questionHtml": "Tim pengembang berada pada jaringan lokal <code>192.168.1.0/24</code>, sedangkan server staging pengujian berada pada segmen jaringan berbeda yaitu <code>10.20.30.0/24</code>. Perangkat jaringan utama yang bertugas menghubungkan kedua jaringan berbeda tersebut dan meneruskan paket data berdasarkan alamat IP adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Router"
+      },
+      {
+        "key": "B",
+        "text": "Hub"
+      },
+      {
+        "key": "C",
+        "text": "Repeater"
+      },
+      {
+        "key": "D",
+        "text": "Konektor RJ-45"
+      },
+      {
+        "key": "E",
+        "text": "Crimping Tool"
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "ROUTING LAYER 3 (NETWORK LAYER)",
+      "latex": "\\text{Subnet A (192.168.1.0/24)} \\xleftrightarrow{\\quad\\text{ROUTER}\\quad} \\text{Subnet B (10.20.30.0/24)}",
+      "legend": "• Switch/Hub menghubungkan perangkat dalam satu subnet (Layer 2).<br>• Router menghubungkan dua atau lebih subnet/jaringan yang berbeda (Layer 3)."
+    },
+    "hints": {
+      "concept": "Perangkat yang bertugas melakukan routing (perutean paket) antar-segmen jaringan IP yang berbeda adalah Router.",
+      "execution": "Pilihlah perangkat Layer 3 OSI yang memiliki kemampuan membaca tabel routing IP."
+    },
+    "explanation": "Router adalah perangkat jaringan Layer 3 yang berfungsi meneruskan paket data antar-jaringan/subnet yang berbeda berdasarkan IP Address. Switch/Hub bekerja pada jaringan lokal yang sama. Jawaban: A.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-15",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Arsitektur & Mekanisme TCP/IP",
+    "type": "mcq",
+    "questionHtml": "Sebuah aplikasi mobile mengambil data profil pengguna dari server melalui endpoint REST API menggunakan protokol HTTPS di atas transport TCP. Pernyataan yang tepat mengenai peran layer pada arsitektur TCP/IP dalam proses tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "HTTPS bekerja pada Network Access Layer untuk mengatur sinyal radio Wi-Fi."
+      },
+      {
+        "key": "B",
+        "text": "TCP bekerja pada Application Layer untuk merender tampilan CSS di layar ponsel."
+      },
+      {
+        "key": "C",
+        "text": "HTTPS bekerja pada Application Layer untuk pertukaran data terenkripsi, sedangkan TCP bekerja pada Transport Layer untuk menjamin pengiriman paket secara andal dan berurutan."
+      },
+      {
+        "key": "D",
+        "text": "IP bekerja pada Application Layer untuk menerjemahkan kueri SQL menjadi tabel HTML."
+      },
+      {
+        "key": "E",
+        "text": "Transport Layer hanya berfungsi menentukan warna kabel UTP yang digunakan."
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "MODEL 4-LAYER TCP/IP",
+      "latex": "\\begin{aligned} \\text{Application} &: \\text{HTTPS, HTTP, DNS, SSH} \\\\ \\text{Transport} &: \\text{TCP (Reliable/Ordered), UDP (Fast/Lossy)} \\\\ \\text{Internet} &: \\text{IP (Addressing \\& Routing), ICMP} \\\\ \\text{Network Access} &: \\text{Ethernet, Wi-Fi, MAC Address} \\end{aligned}",
+      "legend": "• TCP menjamin koneksi andal (handshake, ACK, retransmisi).<br>• HTTPS menyediakan pertukaran data terenkripsi SSL/TLS di layer aplikasi."
+    },
+    "hints": {
+      "concept": "HTTPS adalah protokol tingkat aplikasi (Application Layer), sedangkan TCP adalah protokol transmisi handal (Transport Layer).",
+      "execution": "Pilihlah opsi yang memetakan HTTPS ke Application Layer dan TCP ke Transport Layer dengan benar."
+    },
+    "explanation": "Dalam arsitektur TCP/IP, HTTPS berada pada Application Layer (mengatur enkripsi dan format data aplikasi web), sedangkan TCP berada pada Transport Layer (memastikan paket terkirim secara andal, tanpa corrupt, dan berurutan via 3-way handshake). Jawaban: C.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-16",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Struktur Data & Tipe Data Dasar",
+    "type": "mcq",
+    "questionHtml": "Seorang programmer gim sedang mendeklarasikan empat variabel untuk menyimpan data pemain:<br>1) <code>id_pemain = 1042</code><br>2) <code>nama_user = \"GarudaKnight\"</code><br>3) <code>skor_akurasi = 87.5</code><br>4) <code>status_aktif = True</code><br>Pasangan tipe data yang tepat secara berurutan untuk keempat variabel tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "String, Integer, Boolean, Float"
+      },
+      {
+        "key": "B",
+        "text": "Integer, Float, String, Boolean"
+      },
+      {
+        "key": "C",
+        "text": "Float, String, Integer, Boolean"
+      },
+      {
+        "key": "D",
+        "text": "Integer, String, Float, Boolean"
+      },
+      {
+        "key": "E",
+        "text": "Boolean, String, Float, Integer"
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "KLASIFIKASI TIPE DATA PRIMITIF",
+      "latex": "1042 \\in \\mathbb{Z} \\text{ (Integer)} \\quad | \\quad \\text{\"Text\"} \\in \\text{String} \\quad | \\quad 87.5 \\in \\mathbb{R} \\text{ (Float)} \\quad | \\quad \\text{True/False} \\in \\text{Boolean}",
+      "legend": "• int: bilangan bulat.<br>• str: untaian karakter.<br>• float: bilangan desimal berkoma.<br>• bool: nilai logika kebenaran."
+    },
+    "hints": {
+      "concept": "1042 adalah bilangan bulat (integer), \"GarudaKnight\" adalah teks (string), 87.5 berkoma (float), dan True adalah boolean.",
+      "execution": "Cocokkan urutan 1 ke 4: Integer, String, Float, Boolean."
+    },
+    "explanation": "1042 bertipe Integer, \"GarudaKnight\" bertipe String, 87.5 bertipe Float (desimal), dan True bertipe Boolean. Urutan yang benar adalah Integer, String, Float, Boolean. Jawaban: D.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-17",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Struktur Data & Tipe Data",
+    "type": "mcq",
+    "questionHtml": "Sebuah gim RPG membutuhkan struktur data untuk menyimpan ribuan katalog item yang dapat dicari secara instan berdasarkan kode unik item (contoh: <code>\"ITM-099\"</code> memetakan ke objek data <code>\"Pedang Naga\"</code>). Struktur data yang paling efisien untuk kebutuhan pencarian berbasis pasangan kunci-nilai (<em>key-value pair</em>) tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Variabel bertipe karakter tunggal (Char)"
+      },
+      {
+        "key": "B",
+        "text": "Dictionary / Hash Map"
+      },
+      {
+        "key": "C",
+        "text": "Antrean cetak (Print Spooler)"
+      },
+      {
+        "key": "D",
+        "text": "Konstanta bertipe Boolean"
+      },
+      {
+        "key": "E",
+        "text": "Komentar dokumentasi program"
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "KEY-VALUE DATA STRUCTURE",
+      "latex": "\\text{Hash}(\\text{Key}) \\xrightarrow{\\mathcal{O}(1)} \\text{Bucket Index} \\to \\text{Value Retrieval}",
+      "legend": "• Dictionary / Hash Map memiliki kompleksitas pencarian rata-rata O(1) berdasarkan kunci unik."
+    },
+    "hints": {
+      "concept": "Struktur data yang mengaitkan setiap 'key' (kunci unik) ke 'value' (nilai data) adalah Dictionary (di Python) atau Hash Map (di Java/C++).",
+      "execution": "Pilihlah struktur data koleksi pasangan key-value."
+    },
+    "explanation": "Dictionary (Python) atau Hash Map (Java/C++) merupakan struktur data asosiatif yang menyimpan pasangan kunci-nilai (key-value) dengan akses pencarian instan rata-rata O(1). Jawaban: B.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-18",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Struktur Kontrol Program (Perulangan & Modulo)",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan program berikut!<br><pre><code>total = 0\nfor i in range(1, 7):\n    if i % 2 == 0:\n        total += i\nprint(total)</code></pre>Output yang dihasilkan ketika program di atas dijalankan adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "15"
+      },
+      {
+        "key": "E",
+        "text": "21"
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "TRACE PERULANGAN RANGE & MODULO",
+      "latex": "i \\in \\{1, 2, 3, 4, 5, 6\\} \\quad \\land \\quad (i \\pmod 2 == 0) \\implies i \\in \\{2, 4, 6\\}",
+      "legend": "• total = 2 + 4 + 6 = 12.<br>• range(1, 7) berhenti sebelum angka 7."
+    },
+    "hints": {
+      "concept": "range(1, 7) menghasilkan bilangan 1 sampai 6. Kondisi i % 2 == 0 hanya menyaring bilangan genap.",
+      "execution": "Jumlahkan semua nilai genap dari 1 sampai 6: 2 + 4 + 6."
+    },
+    "explanation": "Fungsi range(1, 7) melakukan iterasi untuk nilai i = 1, 2, 3, 4, 5, 6. Nilai yang memenuhi kondisi genap (i % 2 == 0) adalah 2, 4, dan 6. Akumulasi total = 2 + 4 + 6 = 12. Jawaban: C.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-19",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Modularisasi Program & Pemanggilan Fungsi",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program modular berikut!<br><pre><code>1: def hitung(a, b):\n2:     return a + b + 2\n3:\n4: def proses(x):\n5:     return x * 2 + 1\n6:\n7: # Lengkapi baris 8 di bawah ini\n8: ________________________\n9: print(nilai)</code></pre>Agar output program menghasilkan angka <strong>11</strong>, maka pernyataan yang harus dilengkapi pada baris 8 adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "nilai = proses(3)"
+      },
+      {
+        "key": "B",
+        "text": "nilai = hitung(5, 6)"
+      },
+      {
+        "key": "C",
+        "text": "nilai = proses(11)"
+      },
+      {
+        "key": "D",
+        "text": "nilai = proses(hitung(3, 0))"
+      },
+      {
+        "key": "E",
+        "text": "nilai = hitung(11, 0)"
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "KOMPOSISI FUNGSI MATEMATIKA",
+      "latex": "f(g(a, b)) \\implies \\text{hitung}(3, 0) = 3 + 0 + 2 = 5 \\implies \\text{proses}(5) = 5 \\times 2 + 1 = 11",
+      "legend": "• Nilai kembalian fungsi dalam dievaluasi terlebih dahulu sebelum dilewatkan ke fungsi luar."
+    },
+    "hints": {
+      "concept": "Uji setiap opsi dengan mensubstitusikan nilai parameter ke dalam definisi fungsi hitung dan proses.",
+      "execution": "Hitung: hitung(3, 0) = 3 + 0 + 2 = 5. Lalu proses(5) = 5 * 2 + 1 = 11."
+    },
+    "explanation": "Pada opsi D: hitung(3, 0) menghasilkan 3 + 0 + 2 = 5. Kemudian proses(5) menghasilkan 5 * 2 + 1 = 11. Opsi A menghasilkan 7, Opsi B menghasilkan 13, Opsi C menghasilkan 23, Opsi E menghasilkan 13. Jawaban yang tepat adalah D.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-20",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Lingkup Variabel (Variable Scope)",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode berikut!<br><pre><code>def hitung_skor(poin_dasar):\n    bonus = 50\n    return poin_dasar + bonus\n\nhasil = hitung_skor(100)\nprint(bonus)</code></pre>Ketika potongan program di atas dijalankan, hal yang akan terjadi pada baris <code>print(bonus)</code> adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menampilkan angka 50 tanpa kesalahan."
+      },
+      {
+        "key": "B",
+        "text": "Menampilkan angka 150 tanpa kesalahan."
+      },
+      {
+        "key": "C",
+        "text": "Menampilkan angka 100 tanpa kesalahan."
+      },
+      {
+        "key": "D",
+        "text": "Menampilkan teks \"poin_dasar + bonus\"."
+      },
+      {
+        "key": "E",
+        "text": "Menghasilkan pesan kesalahan (NameError) karena variabel bonus bersifat lokal di dalam fungsi hitung_skor()."
+      }
+    ],
+    "correctKey": "E",
+    "formulaHud": {
+      "title": "LOCAL VS GLOBAL SCOPE",
+      "latex": "\\text{Variable inside function} \\implies \\text{Local Scope} \\implies \\text{Inaccessible from global scope}",
+      "legend": "• Variabel yang dideklarasikan di dalam blok fungsi dialokasikan pada stack frame lokal dan dihapus saat fungsi selesai."
+    },
+    "hints": {
+      "concept": "Variabel 'bonus' berada di dalam fungsi (local scope). Lingkup global di luar fungsi tidak mengenali variabel tersebut.",
+      "execution": "Memanggil variabel lokal di luar lingkup fungsi akan memicu NameError."
+    },
+    "explanation": "Variabel 'bonus' didefinisikan di dalam fungsi hitung_skor, sehingga memiliki lingkup lokal (local scope). Saat interpreter mencoba mengakses variabel tersebut di lingkup global melalui print(bonus), sistem akan melempar pesan kesalahan NameError: name 'bonus' is not defined. Jawaban: E.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-21",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Konsep Dasar OOP (Class & Object)",
+    "type": "mcq",
+    "questionHtml": "Dalam paradigma Pemrograman Berorientasi Objek (OOP), perbedaan mendasar antara <strong>Class</strong> dan <strong>Object</strong> adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Class adalah nilai kembalian fungsi, sedangkan Object adalah operator logika."
+      },
+      {
+        "key": "B",
+        "text": "Class adalah cetak biru (blueprint) yang mendefinisikan atribut dan method, sedangkan Object adalah instansiasi nyata dari class tersebut."
+      },
+      {
+        "key": "C",
+        "text": "Class hanya dapat menyimpan tipe data Boolean, sedangkan Object hanya menyimpan tipe data String."
+      },
+      {
+        "key": "D",
+        "text": "Object dibuat terlebih dahulu di dalam kode sumber sebelum Class didefinisikan."
+      },
+      {
+        "key": "E",
+        "text": "Class dan Object hanya dapat digunakan pada bahasa pemrograman tingkat mesin (Assembly)."
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "ANALOGI CLASS VS OBJECT",
+      "latex": "\\text{Class (Blueprint / Cetak Biru)} \\xrightarrow{\\text{Instansiasi}} \\text{Object (Instans / Rumah Nyata)}",
+      "legend": "• Class: Struktur konsep, definisi atribut dan method.<br>• Object: Entitas konkrit di memori dengan nilai state masing-masing."
+    },
+    "hints": {
+      "concept": "Class adalah skema/rancangan cetak biru (seperti denah rumah), sedangkan Object adalah wujud nyata hasil cetakan (rumah jadi).",
+      "execution": "Pilihlah definisi yang menyebutkan Class sebagai blueprint dan Object sebagai instansiasi nyata."
+    },
+    "explanation": "Class merupakan blueprint atau template yang mendefinisikan variabel (atribut) dan perilaku (method), sedangkan Object adalah wujud instansiasi konkrit dari class tersebut yang menempati memori dengan nilai atribut tersendiri. Jawaban: B.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-22",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Instansiasi Class & Object",
+    "type": "mcq",
+    "questionHtml": "Perhatikan definisi class untuk karakter gim berikut!<br><pre><code>class Karakter:\n    def __init__(self, nama, hp):\n        self.nama = nama\n        self.hp = hp\n    def info(self):\n        return f\"{self.nama} (HP: {self.hp})\"</code></pre>Cara yang tepat untuk membuat objek baru bernama <code>hero1</code> dari class <code>Karakter</code> dengan nama <code>\"Arjuna\"</code> dan hp bernilai <code>100</code> adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "hero1 = Karakter.info(\"Arjuna\", 100)"
+      },
+      {
+        "key": "B",
+        "text": "hero1 = __init__(\"Arjuna\", 100)"
+      },
+      {
+        "key": "C",
+        "text": "hero1 = Karakter(\"Arjuna\", 100)"
+      },
+      {
+        "key": "D",
+        "text": "class hero1 = Karakter(100)"
+      },
+      {
+        "key": "E",
+        "text": "hero1 = self.nama(\"Arjuna\")"
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "SINTAKS INSTANSIASI OBJEK (PYTHON)",
+      "latex": "\\texttt{nama\\_objek = NamaClass(argumen1, argumen2)}",
+      "legend": "• Memanggil NamaClass(...) secara otomatis mengeksekusi constructor \\texttt{__init__} untuk menginisialisasi atribut objek."
+    },
+    "hints": {
+      "concept": "Instansiasi dilakukan dengan memanggil nama kelas seperti fungsi, diikuti argumen yang sesuai dengan parameter constructor __init__.",
+      "execution": "Pilihlah sintaks hero1 = Karakter(\"Arjuna\", 100)."
+    },
+    "explanation": "Di Python, membuat objek dilakukan dengan memanggil nama class diikuti tanda kurung yang berisi argumen constructor: hero1 = Karakter(\"Arjuna\", 100). Constructor __init__ akan terpanggil secara otomatis di latar belakang. Jawaban: C.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-23",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Enkapsulasi & Access Modifier",
+    "type": "mcq",
+    "questionHtml": "Pada aplikasi dompet digital, atribut <code>saldo</code> pada class <code>Dompet</code> tidak boleh diubah secara langsung dari luar class menjadi nilai negatif (misalnya <code>dompet1.saldo = -500000</code>). Penerapan prinsip enkapsulasi yang paling tepat untuk mengatasi masalah tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menetapkan atribut saldo sebagai private dan menyediakan method getter serta setter/mutator yang memvalidasi agar nilai transaksi tidak negatif."
+      },
+      {
+        "key": "B",
+        "text": "Menetapkan atribut saldo sebagai variabel global publik tanpa method apa pun."
+      },
+      {
+        "key": "C",
+        "text": "Menghapus atribut saldo dari class Dompet dan menyimpannya di judul jendela browser."
+      },
+      {
+        "key": "D",
+        "text": "Mengubah tipe data saldo menjadi teks biasa agar tidak bisa dikurangi."
+      },
+      {
+        "key": "E",
+        "text": "Mendeklarasikan ulang class Dompet setiap kali pengguna menekan tombol layar."
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "PRINSIP ENKAPSULASI & DATA HIDING",
+      "latex": "\\text{Private Attribute } (\\texttt{\\_saldo}) \\quad + \\quad \\text{Setter: } \\texttt{set\\_saldo(val) if val } \\ge 0 \\implies \\text{Data Integrity}",
+      "legend": "• Enkapsulasi menyembunyikan detail internal objek dan hanya mengizinkan modifikasi melalui method terkontrol (getter & setter)."
+    },
+    "hints": {
+      "concept": "Enkapsulasi melindungi atribut dari manipulasi ilegal dengan menjadikannya private dan menyediakan method setter dengan aturan validasi.",
+      "execution": "Pilihlah penerapan atribut private disertai method getter dan setter bervalidasi."
+    },
+    "explanation": "Prinsip enkapsulasi mengharuskan data sensitif disembunyikan (private) dan hanya dapat diakses atau diubah melalui method getter dan setter. Pada setter, kode validasi disematkan guna memastikan nilai saldo tidak pernah menjadi negatif. Jawaban: A.",
+    "isDiagnostic": true
+  },
+  {
+    "id": "rpl-lat-e-24",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Access Modifier (Protected Scope)",
+    "type": "mcq",
+    "questionHtml": "Dalam perancangan class berorientasi objek, seorang programmer ingin agar atribut <code>kecepatan_maks</code> dapat diakses langsung oleh class <code>Kendaraan</code> itu sendiri maupun oleh subclass turunannya (seperti <code>Mobil</code> dan <code>Motor</code>), tetapi tidak ditujukan untuk diakses bebas oleh bagian luar yang tidak berelasi. Access modifier yang paling sesuai untuk kebutuhan tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "private"
+      },
+      {
+        "key": "B",
+        "text": "global"
+      },
+      {
+        "key": "C",
+        "text": "static konstanta luar"
+      },
+      {
+        "key": "D",
+        "text": "protected"
+      },
+      {
+        "key": "E",
+        "text": "anonymous"
+      }
+    ],
+    "correctKey": "D",
+    "formulaHud": {
+      "title": "TABEL ACCESS MODIFIERS",
+      "latex": "\\begin{array}{|l|c|c|c|} \\hline \\textbf{Modifier} & \\textbf{Same Class} & \\textbf{Subclass} & \\textbf{World} \\\\ \\hline \\text{public} & \\checkmark & \\checkmark & \\checkmark \\\\ \\hline \\text{protected} & \\checkmark & \\checkmark & \\times \\\\ \\hline \\text{private} & \\checkmark & \\times & \\times \\\\ \\hline \\end{array}",
+      "legend": "• protected: dapat diakses oleh kelas itu sendiri dan kelas-kelas keturunannya (subclasses)."
+    },
+    "hints": {
+      "concept": "Protected mengizinkan akses bagi kelas induk dan kelas turunannya (inheritance hierarchy), tetapi membatasi akses dari luar.",
+      "execution": "Pilihlah access modifier 'protected'."
+    },
+    "explanation": "Access modifier 'protected' dirancang secara khusus untuk relasi pewarisan: anggota kelas dapat diakses oleh kelas tempat ia dideklarasikan serta kelas-kelas turunannya (subclass), namun terlindung dari akses langsung kode luar. Jawaban: D.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-e-25",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "easy",
+    "topic": "Pewarisan (Inheritance & Constructor)",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode superclass berikut!<br><pre><code>class Karakter:\n    def __init__(self, nama, hp):\n        self.nama = nama\n        self.hp = hp</code></pre>Untuk membuat subclass <code>MusuhBoss</code> yang mewarisi <code>Karakter</code> serta menambahkan atribut baru <code>elemen</code>, deklarasi kode yang paling tepat adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "class MusuhBoss:\n    Karakter(nama, hp)"
+      },
+      {
+        "key": "B",
+        "text": "def MusuhBoss(Karakter):\n    return nama + hp"
+      },
+      {
+        "key": "C",
+        "text": "class MusuhBoss(Karakter):\n    def __init__(self, nama, hp, elemen):\n        super().__init__(nama, hp)\n        self.elemen = elemen"
+      },
+      {
+        "key": "D",
+        "text": "class Karakter(MusuhBoss):\n    self.elemen = elemen"
+      },
+      {
+        "key": "E",
+        "text": "MusuhBoss = super(Karakter.elemen)"
+      }
+    ],
+    "correctKey": "C",
+    "formulaHud": {
+      "title": "SINTAKS INHERITANCE DENGAN SUPER()",
+      "latex": "\\begin{aligned} &\\textbf{class } \\text{SubClass}(\\text{SuperClass}): \\\\ &\\quad \\textbf{def } \\text{\\_\\_init\\_\\_}(\\text{self}, a, b, c): \\\\ &\\qquad \\text{super}().\\text{\\_\\_init\\_\\_}(a, b) \\\\ &\\qquad \\text{self}.c = c \\end{aligned}",
+      "legend": "• super().__init__(...) mendelegasikan inisialisasi atribut bawaan ke constructor superclass."
+    },
+    "hints": {
+      "concept": "Subclass mewarisi superclass dengan sintaks class Sub(Super):. Konstruktor subclass memanggil super().__init__() untuk mewarisi atribut induk.",
+      "execution": "Pilihlah Opsi C yang mendefinisikan class MusuhBoss(Karakter) dengan pemanggilan super().__init__(nama, hp)."
+    },
+    "explanation": "Deklarasi class turunan dilakukan dengan menuliskan superclass di dalam kurung: class MusuhBoss(Karakter):. Di dalam constructor __init__, pemanggilan super().__init__(nama, hp) wajib dilakukan untuk menginisialisasi atribut induk nama dan hp sebelum menambahkan self.elemen = elemen. Jawaban: C.",
+    "isDiagnostic": false
+  }
 ]
-
-print(f"Loaded {len(EASY_QUESTIONS)} easy questions.")

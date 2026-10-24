@@ -41,7 +41,7 @@ tka-mastery-hub/
     # Kluster 3: Teknologi & Vokasi (5 Mapel = 675 Soal)
     ├── questions_informatika.js       # 135 Soal Informatika (Pusmendik SMA)
     ├── questions_pkk.js               # 135 Soal Produk Kreatif dan Kewirausahaan (Pilihan Wajib SMK)
-    ├── questions_rpl.js               # 135 Soal Pengembangan Perangkat Lunak dan Gim (SMK/MAK)
+    ├── questions_rpl.js               # 110 Soal PPLG SMK/MAK (100% Autentik Pusmendik 2025/2026 - SK BSKAP 046/H/KR/2025)
     ├── questions_tkj.js               # 135 Soal Teknik Jaringan Komputer dan Telekomunikasi (SMK/MAK)
     ├── questions_rekayasa_desain.js   # 135 Soal Desain Komunikasi Visual (SMK/MAK)
     # Kluster 4: Bahasa Asing & Budaya (7 Mapel = 945 Soal)
@@ -172,6 +172,13 @@ Semua tampilan dikendalikan di [app.js](file:///C:/Users/glixer/.gemini/antigrav
    - Biarkan pengguna melakukan pengujian & verifikasi visual langsung di browser lokalnya.
    - **HANYA** eksekusi `git push` apabila pengguna telah meninjau dan secara eksplisit memerintahkan: `"push"`, `"oke push"`, atau instruksi serupa.
 
+* **OVERHAUL 100% BANK SOAL TKA PPLG SMK/MAK (2026-10-24):**
+  - Mengadopsi 100% materi autentik dari dokumen bocoran simulasi resmi `Simulasi_TKA_PPLG_SMK_50_Soal.pdf` (SK BSKAP No. 046/H/KR/2025).
+  - Terdiri dari tepat 110 butir soal: 25 Easy (`rpl-lat-e-01..25`), 25 Medium (`rpl-lat-m-01..25`), 25 Hard (`rpl-lat-h-01..25`), dan 35 Simulasi (`rpl-sim-01..35`: 25 MCQ, 5 Multi, 5 Matrix).
+  - 5 Elemen Resmi: Wawasan Dunia Kerja PPLG, Kecakapan Kerja Dasar/K3LH/Git, Teknologi Jaringan Komputer, Pemrograman Terstruktur, dan OOP.
+  - 100% soal dilengkapi `formulaHud`, `hints` (concept & execution), dan `explanation` mendalam.
+  - Nol perubahan UI design (desain tampilan tidak diubah).
+
 ---
-*Updated: 2026-10-22 — TKA Mastery Hub Engineering Handover*
+*Updated: 2026-10-24 — TKA Mastery Hub Engineering Handover*
 

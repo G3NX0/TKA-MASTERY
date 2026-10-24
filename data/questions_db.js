@@ -188,8 +188,8 @@
       title: "Pengembangan Perangkat Lunak dan Gim (SMK/MAK)",
       badge: "PPLG & Rekayasa Gim — TKA 2026",
       iconSvg: `<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 17l6-6-6-6"/><line x1="12" y1="19" x2="20" y2="19"/></svg>`,
-      description: "Proses Bisnis PPLG & Siklus SDLC Agile/Scrum, 4 Pilar OOP Java/C#, Normalisasi Basis Data Relasional SQL & ACID, K3LH Budaya Kerja Industri, Pengelolaan UI/UX & Aset Gim, Git Version Control.",
-      status: "Standar Resmi Pusmendik Kemendikdasmen TKA 2026 (PPLG) & BSKAP 033/H/KR/2024",
+      description: "5 Elemen Resmi TKA PPLG: Wawasan Dunia Kerja PPLG (Profesi, Agile/Scrum, HAKI, SQA), Kecakapan Kerja Dasar (K3LH 20-20-20, Git, Backup 3-2-1), Teknologi Jaringan Komputer (Linux, Subnetting, TCP/IP, REST API), Pemrograman Terstruktur (List/Dict, Modular, Scope), serta OOP (Class, Enkapsulasi, Inheritance, Polymorphism).",
+      status: "Standar Resmi Pusmendik TKA PPLG SMK/MAK 2025/2026 (SK BSKAP No. 046/H/KR/2025)",
       accentColor: "#06b6d4",
       totalPool: rplPool.length || 110,
       questions: rplPool

@@ -1,737 +1,1105 @@
 # -*- coding: utf-8 -*-
-"""
-pplg_data_medium.py
-25 Authentic Medium (L2/L3 C3/C4) Questions for PPLG SMK/MAK
-Strictly aligned with Pusmendik TKA 2026 & BSKAP 033/H/KR/2024
-Anti-Bias: Distractor lengths balanced, keys evenly distributed.
-"""
-
 MEDIUM_QUESTIONS = [
-    {
-        "id": "rpl-lat-m-01",
-        "subject": "rpl",
-        "materi": "PROSES BISNIS & SDLC",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Penyelesaian Git Merge Conflict",
-        "type": "mcq",
-        "questionHtml": "Saat seorang programmer menjalankan perintah `git merge feature-login` ke branch `develop`, terminal menampilkan pesan *CONFLICT (content): Merge conflict in auth.js*. Pemeriksaan file menampilkan teks berikut:\n```javascript\n<<<<<<< HEAD\nconst tokenExpiry = '24h';\n=======\nconst tokenExpiry = '12h';\n>>>>>>> feature-login\n```\nLangkah rekayasa yang tepat untuk menyelesaikan konflik tersebut secara profesional adalah...",
-        "options": [
-            {"key": "A", "text": "Menghapus seluruh file auth.js dari repositori lalu menjalankan git pull paksa dari branch main remote."},
-            {"key": "B", "text": "Berdiskusi dengan tim untuk memilih durasi expiry yang valid, menghapus marker konflik, lalu git add dan commit."},
-            {"key": "C", "text": "Membiarkan tanda kurung siku dan marker konflik di dalam file karena Git otomatis memilih baris terpanjang."},
-            {"key": "D", "text": "Menjalankan perintah git push --force agar branch feature-login menimpa seluruh riwayat branch develop."},
-            {"key": "E", "text": "Membuat branch baru dari HEAD lalu menduplikasi seluruh perubahan konfigurasi token secara manual."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "GIT MERGE CONFLICT ANATOMY",
-            "latex": "\\text{<<<<<<< HEAD (Current)} \\quad \\mid \\quad \\text{======= (Divider)} \\quad \\mid \\quad \\text{>>>>>>> Incoming Branch}",
-            "legend": "• Resolusi: Pilih kode benar -> Hapus 3 baris marker -> git add -> git commit"
-        },
-        "hints": {
-            "concept": "Marker <<<<<<< HEAD dan >>>>>>> menunjukkan dua versi kode berbeda pada baris yang sama. Pengembang harus memilih versi terbaik dan menghapus penanda konflik.",
-            "execution": "Langkah standar: modifikasi manual konten yang diinginkan, hapus marker, simpan file, lalu jalankan git add dan commit."
-        },
-        "explanation": "Untuk menyelesaikan merge conflict, developer harus menyelaraskan keputusan bisnis dengan tim/author, menghapus penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), menyimpan file hasil edit, lalu melakukan staging (`git add`) dan finalisasi (`git commit`). Jawaban: B.",
-        "isDiagnostic": False
+  {
+    "id": "rpl-lat-m-01",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Kewirausahaan & HAKI Perangkat Lunak",
+    "type": "mcq",
+    "questionHtml": "Sebuah tim pengembang SMK merilis modul perpustakaan kode berlisensi <strong>GNU General Public License (GPL) v3</strong>. Sebuah perusahaan rintisan (startup) bermaksud mengintegrasikan modul tersebut ke dalam produk komersial mereka. Berdasarkan karakteristik lisensi GPL v3, konsekuensi hukum yang WAJIB ditaati perusahaan tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perusahaan bebas menutup seluruh kode sumber produk komersialnya tanpa kewajiban apa pun asalkan membayar royalti."
+      },
+      {
+        "key": "B",
+        "text": "Perusahaan wajib merilis seluruh kode sumber produk komersial turunannya ke publik dengan lisensi yang sama (copyleft)."
+      },
+      {
+        "key": "C",
+        "text": "Perusahaan harus menghapus nama pencipta asli dari berkas dokumentasi agar tidak terjadi konflik hak cipta."
+      },
+      {
+        "key": "D",
+        "text": "Modul GPL sama sekali tidak boleh digunakan untuk tujuan bisnis atau operasional organisasi apa pun."
+      },
+      {
+        "key": "E",
+        "text": "Hak cipta modul otomatis berpindah menjadi milik perusahaan begitu kode diunduh."
+      }
+    ],
+    "correctKey": "B",
+    "formulaHud": {
+      "title": "SOFTWARE LICENSING: COPYLEFT VS PERMISSIVE",
+      "latex": "\\text{GPL (Viral Copyleft)} \\implies \\text{Derived Works MUST be Open Source under GPL}",
+      "legend": "• GPL (Copyleft): Karya turunan wajib open source berlisensi setara.<br>• MIT / Apache / BSD (Permissive): Boleh dijadikan proprietary tertutup dengan tetap menyertakan hak cipta asli."
     },
-    {
-        "id": "rpl-lat-m-02",
-        "subject": "rpl",
-        "materi": "PROSES BISNIS & SDLC",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Strategi Git Rebase vs Git Merge",
-        "type": "mcq",
-        "questionHtml": "Seorang Lead Engineer meminta anggota tim untuk menggunakan `git rebase` daripada `git merge` saat memperbarui feature branch lokal mereka terhadap branch `main`. Keuntungan utama dari penggunaan `git rebase` pada skenario tersebut adalah...",
-        "options": [
-            {"key": "A", "text": "Menghapus seluruh commit lama yang cacat dan menggantinya dengan snapshot kode tunggal terkompresi."},
-            {"key": "B", "text": "Menghasilkan riwayat riwayat commit yang linier, bersih, dan rapi tanpa adanya extra merge commit node."},
-            {"key": "C", "text": "Mencegah terjadinya konflik antar file sama sekali secara otomatis melalui kecerdasan algoritma Git."},
-            {"key": "D", "text": "Mengunggah commit langsung ke server cloud remote tanpa memerlukan otentikasi kunci SSH pengembang."},
-            {"key": "E", "text": "Mengizinkan banyak developer mengedit commit yang sama di remote repository secara bersamaan tanpa lock."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "REBASE VS MERGE COMMIT TOPOLOGY",
-            "latex": "\\text{Merge: } C_1 \\to C_2 \\to M_{\\text{merge}} \\quad \\text{vs} \\quad \\text{Rebase: } C_1' \\to C_2' \\to C_{\\text{linear}}",
-            "legend": "• Rebase: Memindahkan basis branch menghasilkan riwayat 1 garis lurus<br>• Merge: Mempertahankan cabang riwayat dengan simpul merge commit baru"
-        },
-        "hints": {
-            "concept": "Git rebase menerapkan kembali commit dari feature branch di atas commit terakhir branch target, menciptakan riwayat lurus tanpa percabangan ganda.",
-            "execution": "Keunggulan rebase adalah commit history yang linier dan mudah dilacak saat debugging (misal menggunakan git bisect)."
-        },
-        "explanation": "Keuntungan utama `git rebase` adalah menghasilkan riwayat commit linier yang rapi tanpa 'merge commit' tambahan, mempermudah pelacakan perubahan kode dan audit git log. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Lisensi GPL bersifat 'viral copyleft'. Karya turunan atau aplikasi yang menggabungkan kode GPL wajib membuka kode sumbernya di bawah lisensi GPL yang sama.",
+      "execution": "Pilihlah opsi yang menyebutkan kewajiban menyertakan dan membuka kode sumber produk turunan di bawah lisensi setara."
     },
-    {
-        "id": "rpl-lat-m-03",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Polimorfisme Dinamis (Dynamic Method Dispatch)",
-        "type": "mcq",
-        "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\nclass Sensor {\n    public void baca() {\n        System.out.print(\"Sensor-Aktif \");\n    }\n}\n\nclass SensorSuhu extends Sensor {\n    @Override\n    public void baca() {\n        System.out.print(\"Suhu:28C \");\n    }\n}\n\npublic class App {\n    public static void main(String[] args) {\n        Sensor s = new SensorSuhu();\n        s.baca();\n    }\n}\n```\nOutput yang tampil di layar konsol dan prinsip kerja yang mendasarinya adalah...",
-        "options": [
-            {"key": "A", "text": "Sensor-Aktif karena tipe referensi variabel deklarasi s adalah kelas induk Sensor pada saat kompilasi."},
-            {"key": "B", "text": "Suhu:28C karena JVM memanggil method objek riil SensorSuhu di memori heap via dynamic method dispatch."},
-            {"key": "C", "text": "Sensor-Aktif Suhu:28C karena superclass otomatis dieksekusi terlebih dahulu sebelum method subclass."},
-            {"key": "D", "text": "Compile-time error karena variabel tipe Sensor tidak dapat menampung instansiasi objek kelas turunannya."},
-            {"key": "E", "text": "Runtime error ClassCastException karena ketidakcocokan tipe referensi objek polimorfik di stack JVM."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "DYNAMIC METHOD DISPATCH PRINCIPLE",
-            "latex": "\\text{Reference Type } (\\text{Sensor}) \\xrightarrow{\\text{Runtime Resolution}} \\text{Actual Object Method } (\\text{SensorSuhu.baca()})",
-            "legend": "• Penentuan pemanggilan method override dilakukan saat runtime berdasarkan tipe objek riil di heap"
-        },
-        "hints": {
-            "concept": "Pada polimorfisme dinamis, method yang dipanggil ditentukan oleh objek sebenarnya yang dibuat dengan 'new', bukan tipe variabel referensinya.",
-            "execution": "Variabel s merujuk ke objek baru SensorSuhu(), sehingga method baca() milik SensorSuhu yang dijalankan."
-        },
-        "explanation": "Meskipun tipe referensi `s` bertipe `Sensor`, objek sebenarnya yang diinstansiasi di memori heap adalah `SensorSuhu()`. Berdasarkan prinsip polimorfisme dinamis (dynamic method dispatch), JVM akan memanggil method override milik `SensorSuhu`. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Karakteristik utama lisensi GNU GPL (General Public License) adalah sifat copyleft (timbal balik), yaitu setiap perangkat lunak turunan yang mengintegrasikan kode berlisensi GPL wajib mendistribusikan kode sumbernya secara terbuka di bawah lisensi yang sama jika dirilis ke publik. Jawaban: B.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-m-02",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Manajemen Proyek Agile/Scrum",
+    "type": "mcq",
+    "questionHtml": "Dalam sesi <em>Sprint Planning</em> pada pengembangan perangkat lunak metode Scrum, tim pengembang melakukan estimasi beban kerja menggunakan teknik <em>Planning Poker</em>. Jika terjadi perbedaan poin estimasi yang sangat mencolok antar-programmer (misalnya satu developer memberi 2 poin sedangkan developer lain memberi 13 poin), tindakan yang paling tepat dilakukan adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Langsung mengambil angka rata-rata hitung matematis dari kedua nilai tersebut tanpa diskusi."
+      },
+      {
+        "key": "B",
+        "text": "Memberikan kesempatan kepada pemberi estimasi terendah dan tertinggi untuk menjelaskan asumsi dan kompleksitas teknisnya sebelum estimasi ulang."
+      },
+      {
+        "key": "C",
+        "text": "Scrum Master secara sepihak memaksakan angka estimasi yang sesuai dengan tenggat waktu pimpinan."
+      },
+      {
+        "key": "D",
+        "text": "Menghapus user story tersebut dari Product Backlog karena dianggap tidak layak dikerjakan."
+      },
+      {
+        "key": "E",
+        "text": "Menyerahkan penentuan poin kepada Product Owner karena memiliki otoritas penuh atas bisnis."
+      }
+    ],
+    "formulaHud": {
+      "title": "AGILE ESTIMATION CONVERGENCE",
+      "latex": "\\Delta_{\\text{Story Points}} > \\text{Threshold} \\implies \\text{Discussion (Min vs Max)} \\to \\text{Re-estimate}",
+      "legend": "• Planning Poker mengungkap perbedaan persepsi kompleksitas & risiko teknis.<br>• PO menjelaskan kriteria penerimaan; Dev Team berdiskusi untuk mencapai konsensus."
     },
-    {
-        "id": "rpl-lat-m-04",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Prinsip SOLID: Single Responsibility Principle",
-        "type": "mcq",
-        "questionHtml": "Perhatikan perancangan kelas Java berikut:\n```java\npublic class LaporanPenjualan {\n    public void hitungTotalPenjualan() { /* Kalkulasi laba */ }\n    public void simpanKeDatabase() { /* Koneksi JDBC & INSERT SQL */ }\n    public void cetakLaporanPDF() { /* Format layout & render PDF */ }\n}\n```\nKelas di atas melanggar prinsip Single Responsibility Principle (SRP) karena...",
-        "options": [
-            {"key": "A", "text": "Tidak mengimplementasikan interface Serializable untuk penyimpanan state objek ke media disk sekunder."},
-            {"key": "B", "text": "Memiliki lebih dari satu tanggung jawab (alasan untuk berubah): kalkulasi bisnis, persistensi data, dan rendering UI."},
-            {"key": "C", "text": "Menggunakan method dengan visibilitas public yang membahayakan enkapsulasi data internal objek."},
-            {"key": "D", "text": "Tidak mendeklarasikan variabel konstanta statis untuk menyimpan string query SQL dan konfigurasi PDF."},
-            {"key": "E", "text": "Menolak pewarisan kelas turunan karena tidak ditambahkan keyword abstract pada deklarasi kelasnya."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SOLID - SINGLE RESPONSIBILITY PRINCIPLE (SRP)",
-            "latex": "\\text{A Class should have one, and only one, reason to change}",
-            "legend": "• Solusi: Pisahkan ke 3 kelas: SalesCalculator, SalesRepository, dan SalesPdfExporter"
-        },
-        "hints": {
-            "concept": "SRP (prinsip pertama SOLID) menegaskan bahwa satu kelas hanya boleh memiliki satu tanggung jawab atau satu alasan untuk berubah.",
-            "execution": "Kelas tersebut mengurusi logika bisnis (hitung laba), database (simpan DB), dan presentasi (cetak PDF)."
-        },
-        "explanation": "SRP menyatakan 'A class should have only one reason to change'. Kelas `LaporanPenjualan` memiliki 3 alasan berbeda untuk berubah: perubahan aturan bisnis perhitungan, perubahan skema database, atau perubahan template PDF. Solusinya adalah memisahkannya menjadi 3 kelas berbeda. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Perbedaan estimasi ekstrem menunjukkan adanya asumsi teknis atau risiko tersembunyi yang belum diketahui salah satu pihak.",
+      "execution": "Pilihlah langkah kolaboratif di mana kedua pihak yang memberi nilai ekstrem mendiskusikan asumsi mereka untuk mencapai konsensus tim."
     },
-    {
-        "id": "rpl-lat-m-05",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Normalisasi 2NF (Ketergantungan Parsial)",
-        "type": "mcq",
-        "questionHtml": "Diberikan relasi tabel `KRS(NIM, Kode_MK, Nama_Mahasiswa, Nama_MK, Nilai_Huruf)` dengan Primary Key komposit `(NIM, Kode_MK)`. Ketergantungan fungsional yang ada adalah:\n1. `(NIM, Kode_MK) -> Nilai_Huruf`\n2. `NIM -> Nama_Mahasiswa`\n3. `Kode_MK -> Nama_MK`\n\nTabel tersebut belum memenuhi Bentuk Normal Kedua (2NF) karena...",
-        "options": [
-            {"key": "A", "text": "Nilai_Huruf memiliki nilai berulang yang tidak terindeks secara seimbang pada struktur B-Tree."},
-            {"key": "B", "text": "Terdapat ketergantungan fungsional parsial di mana atribut non-kunci hanya bergantung pada sebagian kunci komposit."},
-            {"key": "C", "text": "Terdapat ketergantungan transitif antar sesama atribut non-kunci primer di dalam relasi tabel tersebut."},
-            {"key": "D", "text": "Kolom primary key komposit tidak boleh terdiri dari lebih dari satu atribut dalam sistem basis data RDBMS."},
-            {"key": "E", "text": "Tabel KRS tidak menyertakan foreign key ke tabel dosen pembimbing akademik mahasiswa bersangkutan."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SECOND NORMAL FORM (2NF) CONDITION",
-            "latex": "\\text{2NF} \\iff \\text{1NF} \\land \\neg(\\exists \\text{ non-key } A \\colon P_{\\text{partial}} \\to A)",
-            "legend": "• Partial dependency: NIM -> Nama_Mhs (hanya bergantung pada separuh composite key)<br>• Solusi: Dekomposisi ke Mahasiswa, MataKuliah, dan KRS"
-        },
-        "hints": {
-            "concept": "Syarat 2NF adalah 1NF dan tidak ada ketergantungan parsial (atribut non-kunci bergantung pada sebagian saja dari primary key gabungan).",
-            "execution": "Atribut Nama_Mahasiswa hanya bergantung pada NIM, dan Nama_MK hanya bergantung pada Kode_MK."
-        },
-        "explanation": "2NF melarang adanya Partial Functional Dependency pada tabel yang memiliki Composite Primary Key. Karena `Nama_Mahasiswa` hanya bergantung pada `NIM` (sebagian dari key `(NIM, Kode_MK)`), tabel harus didekomposisi agar memenuhi 2NF. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Dalam Planning Poker, perbedaan nilai estimasi yang ekstrem (misalnya 2 vs 13) menandakan adanya gap pemahaman: pihak yang memberi nilai 2 mungkin melihat solusi sederhana yang belum disadari orang lain, atau pihak yang memberi 13 menyadari adanya risiko teknis berat. Diskusi antara nilai terendah dan tertinggi dilakukan untuk menyelaraskan asumsi sebelum putaran voting ulang. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-03",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Software Quality Assurance (SQA) & Mutu",
+    "type": "mcq",
+    "questionHtml": "Sebuah tim rekayasa perangkat lunak menerapkan prinsip <em>Continuous Integration / Continuous Deployment (CI/CD)</em>. Tahap <em>automated unit testing</em> dan <em>static code analysis</em> selalu dijalankan setiap kali ada pull request baru. Tujuan utama menempatkan pengujian otomatis di awal alur pipeline (<em>shift-left testing</em>) adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menggantikan peran seluruh pengembang manusia dengan kecerdasan buatan."
+      },
+      {
+        "key": "B",
+        "text": "Menemukan dan memperbaiki cacat program (bug) sedini mungkin saat biaya perbaikannya masih paling rendah."
+      },
+      {
+        "key": "C",
+        "text": "Menghilangkan kebutuhan dokumentasi teknis dan arsitektur sistem secara total."
+      },
+      {
+        "key": "D",
+        "text": "Menunda waktu peluncuran aplikasi ke pasar agar pelanggan merasa produk lebih eksklusif."
+      },
+      {
+        "key": "E",
+        "text": "Mengharuskan server produksi dimatikan secara total selama proses pengujian berlangsung."
+      }
+    ],
+    "formulaHud": {
+      "title": "COST OF QUALITY: SHIFT-LEFT TESTING",
+      "latex": "\\text{Cost}(\\text{Bug Discovery}) \\propto \\text{Stage of SDLC}: \\quad \\text{Dev} \\ll \\text{QA} \\ll \\text{Staging} \\lll \\text{Production}",
+      "legend": "• Menemukan bug di tahap pengkodean (Unit Test): Biaya perbaikan 1x.<br>• Menemukan bug setelah rilis ke produksi: Biaya perbaikan bisa mencapai 30x–100x."
     },
-    {
-        "id": "rpl-lat-m-06",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Normalisasi 3NF (Ketergantungan Transitif)",
-        "type": "mcq",
-        "questionHtml": "Diberikan relasi tabel `Pegawai(ID_Pegawai, Nama, Kode_Departemen, Nama_Departemen)` dengan Primary Key `ID_Pegawai`. Diketahui dependensi fungsional:\n- `ID_Pegawai -> Kode_Departemen`\n- `Kode_Departemen -> Nama_Departemen`\n\nUntuk mengubah tabel tersebut agar memenuhi Bentuk Normal Ketiga (3NF), dekomposisi tabel yang benar adalah...",
-        "options": [
-            {"key": "A", "text": "Membuat satu tabel baru yang menggabungkan seluruh data pegawai dan riwayat penggajian secara utuh."},
-            {"key": "B", "text": "Memecah menjadi Pegawai(ID_Pegawai, Nama, Kode_Departemen) dan Departemen(Kode_Departemen, Nama_Departemen)."},
-            {"key": "C", "text": "Menghapus kolom Kode_Departemen dan hanya menyisakan Nama_Departemen langsung di tabel Pegawai."},
-            {"key": "D", "text": "Menambahkan kolom ID_Pegawai sebagai primary key kedua di dalam tabel Departemen yang didekomposisi."},
-            {"key": "E", "text": "Mengubah Primary Key ID_Pegawai menjadi composite key (ID_Pegawai, Kode_Departemen, Nama_Departemen)."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "THIRD NORMAL FORM (3NF) DECOMPOSITION",
-            "latex": "X \\to Y \\land Y \\to Z \\implies X \\to Z \\quad (\\text{Transitive Dependency Eliminated})",
-            "legend": "• Tabel 1: Pegawai(ID_Pegawai [PK], Nama, Kode_Departemen [FK])<br>• Tabel 2: Departemen(Kode_Departemen [PK], Nama_Departemen)"
-        },
-        "hints": {
-            "concept": "3NF mensyaratkan tidak adanya transitive dependency (atribut non-kunci menentukan atribut non-kunci lainnya).",
-            "execution": "Kode_Departemen menentukan Nama_Departemen. Pisahkan entitas Departemen menjadi tabel independen."
-        },
-        "explanation": "Pada tabel awal terjadi transitive dependency: `ID_Pegawai -> Kode_Departemen -> Nama_Departemen`. Untuk mencapai 3NF, atribut yang bergantung secara transitif dipisahkan ke tabel master tersendiri: `Departemen(Kode_Departemen, Nama_Departemen)` dan `Pegawai(ID_Pegawai, Nama, Kode_Departemen)`. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Prinsip shift-left testing berorientasi pada pencegahan cacat sejak awal siklus pengkodean.",
+      "execution": "Pilihlah jawaban yang menyoroti efisiensi biaya dan deteksi dini bug sebelum mencapai tahap rilis."
     },
-    {
-        "id": "rpl-lat-m-07",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "SQL Multi-Table JOIN Analysis",
-        "type": "mcq",
-        "questionHtml": "Perhatikan data pada dua tabel relasional berikut:\nTabel `Pelanggan`: 4 baris data (ID: 1, 2, 3, 4)\nTabel `Pesanan`: 3 baris data (ID_Pelanggan: 1, 2, 2)\n\nJika dieksekusi query SQL berikut:\n```sql\nSELECT p.ID, p.Nama, o.ID_Pesanan\nFROM Pelanggan p\nLEFT JOIN Pesanan o ON p.ID = o.ID_Pelanggan;\n```\nBerapa jumlah total baris rekaman data yang dihasilkan pada output query tersebut?",
-        "options": [
-            {"key": "A", "text": "2 baris data karena hanya pelanggan ID 1 dan ID 2 yang memiliki relasi transaksi pesanan aktif."},
-            {"key": "B", "text": "3 baris data karena query dibatasi oleh jumlah baris pada tabel pesanan sisi kanan join."},
-            {"key": "C", "text": "5 baris data karena pelanggan 2 muncul 2 kali, pelanggan 1 muncul 1 kali, dan pelanggan 3 & 4 bernilai NULL."},
-            {"key": "D", "text": "4 baris data karena tabel sisi kiri Pelanggan memiliki tepat 4 rekaman unik tanpa duplikasi."},
-            {"key": "E", "text": "7 baris data hasil perkalian Cartesian Product antara tabel Pelanggan dan tabel Pesanan."}
-        ],
-        "correctKey": "C",
-        "formulaHud": {
-            "title": "LEFT JOIN RECORD CALCULATION",
-            "latex": "\\text{Rows} = \\sum_{p \\in \\text{Pelanggan}} \\max(1, \\text{matchCount}(p)) = 1 + 2 + 1 + 1 = 5",
-            "legend": "• ID 1: 1 match (1 baris)<br>• ID 2: 2 match (2 baris)<br>• ID 3: 0 match (1 baris NULL)<br>• ID 4: 0 match (1 baris NULL)"
-        },
-        "hints": {
-            "concept": "LEFT JOIN mempertahankan SEMUA baris dari tabel kiri. Jika ada kecocokan ganda di tabel kanan, baris bertambah. Jika tidak cocok, kolom kanan diisi NULL.",
-            "execution": "ID 1 menghasilkan 1 baris. ID 2 menghasilkan 2 baris. ID 3 menghasilkan 1 baris (NULL). ID 4 menghasilkan 1 baris (NULL). Total = 1 + 2 + 1 + 1 = 5 baris."
-        },
-        "explanation": "LEFT JOIN menyertakan seluruh baris tabel kiri (Pelanggan). ID 1 berpasangan dengan 1 pesanan (1 baris), ID 2 berpasangan dengan 2 pesanan (2 baris), ID 3 dan ID 4 tidak memiliki pesanan sehingga masing-masing muncul 1 baris dengan nilai pesanan NULL. Total baris = 1 + 2 + 1 + 1 = 5 baris. Jawaban: C.",
-        "isDiagnostic": False
+    "explanation": "Prinsip Shift-Left Testing menggeser pengujian ke tahap awal siklus pengembangan. Menurut riset rekayasa perangkat lunak (Boehm & Basili), biaya memperbaiki cacat program yang ditemukan pada tahap koding/unit test jauh lebih murah hingga puluhan kali lipat dibandingkan jika bug tersebut lolos sampai lingkungan produksi. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-04",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Profesi & Technopreneurship PPLG",
+    "type": "mcq",
+    "questionHtml": "Dalam startup teknologi bidang perangkat lunak, produk awal yang dirilis ke pasar dengan fitur paling mendasar tetapi sudah mampu menyelesaikan masalah inti pengguna serta memvalidasi hipotesis bisnis dikenal sebagai …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Minimum Viable Product (MVP)"
+      },
+      {
+        "key": "B",
+        "text": "Final Enterprise Release"
+      },
+      {
+        "key": "C",
+        "text": "Deprecated Legacy System"
+      },
+      {
+        "key": "D",
+        "text": "Proof of Hardware Concept"
+      },
+      {
+        "key": "E",
+        "text": "Disposable Throwaway Script"
+      }
+    ],
+    "formulaHud": {
+      "title": "LEAN STARTUP METHODOLOGY",
+      "latex": "\\text{Build (MVP)} \\to \\text{Measure (User Feedback)} \\to \\text{Learn (Pivot or Persevere)}",
+      "legend": "• MVP: Versi produk dengan fitur esensial minimum untuk menguji respon pasar nyata dengan biaya & waktu seminimal mungkin."
     },
-    {
-        "id": "rpl-lat-m-08",
-        "subject": "rpl",
-        "materi": "BASIS DATA RELASIONAL & SQL",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "SQL GROUP BY & HAVING Filter",
-        "type": "mcq",
-        "questionHtml": "Perhatikan query SQL analitik penjualan berikut:\n```sql\nSELECT cabang_toko, SUM(total_harga) AS total_omset\nFROM transaksi\nWHERE status_pembayaran = 'Lunas'\nGROUP BY cabang_toko\nHAVING SUM(total_harga) >= 50000000;\n```\nFungsi spesifik dari klausul `HAVING` pada query di atas adalah...",
-        "options": [
-            {"key": "A", "text": "Menyaring transaksi satuan sebelum dilakukan pengelompokan baris data oleh sistem database engine."},
-            {"key": "B", "text": "Menyaring kelompok cabang toko yang memiliki akumulasi total omset minimal lima puluh juta rupiah."},
-            {"key": "C", "text": "Mengurutkan nama cabang toko dari perolehan total omset terbesar ke yang terkecil secara descending."},
-            {"key": "D", "text": "Menghitung rata-rata pendapatan harian untuk setiap transaksi yang statusnya lunas terverifikasi."},
-            {"key": "E", "text": "Membuat index clustered virtual pada kolom cabang_toko untuk mengoptimalkan pembacaan disk."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "WHERE VS HAVING LOGICAL EXECUTION ORDER",
-            "latex": "\\text{FROM} \\to \\text{WHERE (Row Filter)} \\to \\text{GROUP BY} \\to \\text{HAVING (Group Filter)} \\to \\text{SELECT}",
-            "legend": "• WHERE: Filter individual rows sebelum agregasi<br>• HAVING: Filter groups hasil agregasi"
-        },
-        "hints": {
-            "concept": "HAVING bertindak sebagai filter untuk kelompok data (hasil agregasi SUM, COUNT, AVG), berbeda dengan WHERE yang memfilter baris mentah.",
-            "execution": "Klausul HAVING menyaring hasil kelompok cabang toko yang total_omset-nya >= 50.000.000."
-        },
-        "explanation": "Klausul `HAVING` digunakan khusus untuk memfilter baris kelompok hasil agregasi (di sini: `SUM(total_harga) >= 50000000`), sedangkan klausul `WHERE` menyaring baris individual sebelum proses grouping dilakukan. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Istilah ini dipopulerkan oleh metodologi Lean Startup untuk menguji produk secara cepat dan terukur.",
+      "execution": "Pilihlah istilah yang merupakan singkatan dari versi produk minimum yang berfungsi layak."
     },
-    {
-        "id": "rpl-lat-m-09",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Keamanan Web: Pencegahan Serangan XSS",
-        "type": "mcq",
-        "questionHtml": "Aplikasi forum komunitas menampilkan komentar pengguna secara langsung ke halaman web menggunakan sintaks:\n```javascript\ndocument.getElementById('komentar-box').innerHTML = userCommentInput;\n```\nPotensi kerentanan keamanan dan solusi rekayasa terbaik untuk memperbaikinya adalah...",
-        "options": [
-            {"key": "A", "text": "Rentan SQL Injection; solusinya adalah menggunakan prepared statement pada query database server."},
-            {"key": "B", "text": "Rentan Cross-Site Scripting (XSS); solusinya menggunakan textContent atau melakukan sanitasi HTML entitas."},
-            {"key": "C", "text": "Rentan Cross-Site Request Forgery (CSRF); solusinya adalah menyisipkan token acak pada form input."},
-            {"key": "D", "text": "Rentan Denial of Service (DoS); solusinya membatasi panjang input komentar maksimal 200 karakter."},
-            {"key": "E", "text": "Rentan Broken Authentication; solusinya menggunakan algoritma hashing password Argon2 di backend."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "DOM-BASED XSS MITIGATION",
-            "latex": "\\text{Sink: innerHTML (Vulnerable)} \\xrightarrow{\\text{Refactor}} \\text{textContent} \\lor \\text{DOMPurify.sanitize()}",
-            "legend": "• innerHTML: Mengeksekusi tag <script> atau <img onerror=...><br>• textContent: Merender teks aman tanpa interpretasi markup"
-        },
-        "hints": {
-            "concept": "Menyematkan string pengguna langsung ke properti innerHTML membuka celah Cross-Site Scripting (XSS).",
-            "execution": "Gantilah innerHTML dengan textContent atau gunakan library sanitasi HTML."
-        },
-        "explanation": "Penggunaan `innerHTML` secara langsung dengan data mentah dari pengguna menyebabkan kerentanan Cross-Site Scripting (XSS). Penyerang dapat menyuntikkan skrip jahat. Solusi aman adalah menggunakan `textContent` atau sanitasi string HTML sebelum dirender. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Minimum Viable Product (MVP) adalah versi awal produk perangkat lunak yang hanya memuat fitur-fitur esensial utama untuk menyelesaikan masalah spesifik pengguna dan mengumpulkan masukan nyata secara cepat dengan sumber daya seminimal mungkin. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-05",
+    "subject": "rpl",
+    "materi": "WAWASAN DUNIA KERJA BIDANG PPLG",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Manajemen Proyek & Budaya Mutu",
+    "type": "mcq",
+    "questionHtml": "Pada akhir setiap Sprint, tim Scrum mengadakan pertemuan khusus berdurasi 1–2 jam untuk mengevaluasi proses kerja internal tim, menemukan hal-hal yang berjalan baik, hambatan komunikasi, serta merumuskan aksi perbaikan konkret untuk Sprint berikutnya. Pertemuan ini disebut …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Daily Standup Meeting"
+      },
+      {
+        "key": "B",
+        "text": "Sprint Retrospective"
+      },
+      {
+        "key": "C",
+        "text": "Product Backlog Refinement"
+      },
+      {
+        "key": "D",
+        "text": "Sprint Review bersama Klien"
+      },
+      {
+        "key": "E",
+        "text": "Architecture Review Board"
+      }
+    ],
+    "formulaHud": {
+      "title": "SCRUM CEREMONIES: REVIEW VS RETROSPECTIVE",
+      "latex": "\\text{Sprint Review (Focus on Product Increment)} \\quad \\mid \\quad \\text{Sprint Retrospective (Focus on Team Process \\& Culture)}",
+      "legend": "• Sprint Review: Demonstrasi fitur produk ke pemangku kepentingan.<br>• Sprint Retrospective: Refleksi internal cara kerja tim (Start, Stop, Continue)."
     },
-    {
-        "id": "rpl-lat-m-10",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "JavaScript Event Loop & Microtask Queue",
-        "type": "mcq",
-        "questionHtml": "Perhatikan potongan kode asynchronous JavaScript berikut:\n```javascript\nconsole.log('1');\nsetTimeout(() => console.log('2'), 0);\nPromise.resolve().then(() => console.log('3'));\nconsole.log('4');\n```\nUrutan output angka yang dicetak pada console log browser adalah...",
-        "options": [
-            {"key": "A", "text": "1, 2, 3, 4 karena eksekusi baris kode asynchronous JavaScript selalu berurutan sesuai urutan deklarasi."},
-            {"key": "B", "text": "1, 4, 3, 2 karena Call Stack tuntas, disusul Microtask Queue (Promise), lalu Macrotask Queue (setTimeout)."},
-            {"key": "C", "text": "1, 4, 2, 3 karena delay timeout bernilai 0 milidetik langsung diproses sebelum promise diselesaikan engine."},
-            {"key": "D", "text": "3, 1, 4, 2 karena resolver promise memiliki hak prioritas eksekusi tertinggi di atas thread JavaScript."},
-            {"key": "E", "text": "1, 2, 4, 3 karena fungsi setTimeout ditempatkan sebelum pemanggilan promise pada urutan baris program."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "JS EVENT LOOP EXECUTION ORDER",
-            "latex": "\\text{Call Stack (Sync)} \\to \\text{Microtask Queue (Promise)} \\to \\text{Macrotask Queue (Timer/IO)}",
-            "legend": "• Sinkron: '1' lalu '4'<br>• Microtask: '3'<br>• Macrotask: '2'<br>• Urutan final: 1 -> 4 -> 3 -> 2"
-        },
-        "hints": {
-            "concept": "Urutan eksekusi JavaScript: 1. Kode sinkron di Call Stack; 2. Semua antrean Microtask (Promise .then); 3. Antrean Macrotask/Task (setTimeout).",
-            "execution": "1 dan 4 dieksekusi sinkron. Kemudian Promise (microtask) mencetak 3. Terakhir setTimeout (macrotask) mencetak 2."
-        },
-        "explanation": "Urutan eksekusi: (1) `console.log('1')` dan `console.log('4')` dieksekusi langsung di Call Stack secara sinkron. (2) `Promise.then()` masuk ke Microtask Queue dan dieksekusi segera setelah stack kosong (mencetak '3'). (3) Callback `setTimeout` masuk ke Macrotask Queue dan baru dieksekusi pada iterasi event loop berikutnya (mencetak '2'). Urutan output: 1, 4, 3, 2. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Bedakan antara evaluasi hasil produk (Review) dengan evaluasi proses dan cara kerja tim (Retrospective).",
+      "execution": "Pilihlah seremoni yang fokus utamanya adalah perbaikan proses kerja dan hubungan internal tim pengembang."
     },
-    {
-        "id": "rpl-lat-m-11",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN APLIKASI BERGERAK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Siklus Hidup Android Saat Rotasi Layar",
-        "type": "mcq",
-        "questionHtml": "Ketika pengguna memutar orientasi layar smartphone dari potret ke lanskap pada Activity Android standar, urutan transisi callback lifecycle yang terjadi pada Activity tersebut adalah...",
-        "options": [
-            {"key": "A", "text": "Activity hanya memanggil onResume() ulang tanpa menghancurkan objek view yang sudah ada di memori."},
-            {"key": "B", "text": "Activity dihancurkan (onPause -> onStop -> onDestroy) lalu diciptakan kembali (onCreate -> onStart -> onResume)."},
-            {"key": "C", "text": "Sistem operasi Android langsung mematikan aplikasi dan memunculkan dialog Application Not Responding."},
-            {"key": "D", "text": "Activity masuk ke status background onStop() secara permanen sampai pengguna menyentuh layar kembali."},
-            {"key": "E", "text": "Hanya method onSaveInstanceState() yang dieksekusi tanpa memicu method inisialisasi onCreate()."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "CONFIGURATION CHANGE LIFECYCLE",
-            "latex": "\\text{Screen Rotate} \\implies \\text{Tear Down (onPause-onStop-onDestroy)} \\to \\text{Rebuild (onCreate-onStart-onResume)}",
-            "legend": "• State preservation: Gunakan ViewModel atau onSaveInstanceState(Bundle)"
-        },
-        "hints": {
-            "concept": "Perubahan konfigurasi (seperti rotasi layar) secara default menyebabkan sistem Android menghancurkan Activity dan membuatnya kembali untuk memuat resource layout yang sesuai.",
-            "execution": "Prosesnya adalah siklus penghancuran lengkap diikuti penciptaan ulang lengkap."
-        },
-        "explanation": "Pada Android, perubahan konfigurasi perangkat (seperti rotasi layar) memicu penghancuran Activity yang sedang aktif (`onPause()` -> `onStop()` -> `onDestroy()`) lalu sistem membangunnya kembali dari awal (`onCreate()` -> `onStart()` -> `onResume()`) agar aplikasi dapat memuat resource layout lanskap yang baru. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Sprint Retrospective adalah seremoni Scrum di mana seluruh tim pengembang melakukan refleksi internal mengenai cara kerja, alat, komunikasi, dan relasi selama Sprint yang baru selesai, guna merancang rencana aksi peningkatan mutu kerja pada Sprint berikutnya. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-06",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Pengelolaan Aset Digital & Version Control",
+    "type": "mcq",
+    "questionHtml": "Dua pengembang perangkat lunak mengerjakan modul yang sama pada cabang (branch) berbeda. Saat dilakukan penggabungan cabang menggunakan perintah <code>git merge feature-pembayaran</code>, Git menampilkan pesan:<br><pre><code>CONFLICT (content): Merge conflict in controllers/payment.py\nAutomatic merge failed; fix conflicts and then commit the result.</code></pre>Langkah teknis yang benar dan aman untuk menyelesaikan masalah tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menghapus folder `.git` agar seluruh riwayat konflik hilang dan repositori menjadi bersih."
+      },
+      {
+        "key": "B",
+        "text": "Membuka file `payment.py`, menganalisis penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), memilih/menggabungkan baris kode yang benar, menyimpan file, lalu menjalankan `git add` dan `git commit`."
+      },
+      {
+        "key": "C",
+        "text": "Mematikan paksa komputer server agar Git membatalkan merge secara otomatis tanpa jejak."
+      },
+      {
+        "key": "D",
+        "text": "Menjalankan perintah `git push --force` ke server produksi agar konflik tertimpa secara otomatis."
+      },
+      {
+        "key": "E",
+        "text": "Mengganti nama ekstensi file `payment.py` menjadi `payment.txt` agar Git tidak mengenali file kode tersebut."
+      }
+    ],
+    "formulaHud": {
+      "title": "GIT CONFLICT RESOLUTION WORKFLOW",
+      "latex": "\\text{Conflict Markers} \\to \\text{Manual Resolution} \\to \\texttt{git add <file>} \\to \\texttt{git commit -m \"fix conflict\"}",
+      "legend": "• <<<<<<< HEAD: Perubahan di cabang saat ini.<br>• =======: Pembatas konflik.<br>• >>>>>>> branch: Perubahan dari cabang yang digabungkan."
     },
-    {
-        "id": "rpl-lat-m-12",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN APLIKASI BERGERAK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Arsitektur MVVM & Komponen ViewModel",
-        "type": "mcq",
-        "questionHtml": "Dalam arsitektur modern Android (MVVM), keuntungan utama memisahkan logika penyiapan data UI ke dalam komponen Android Jetpack `ViewModel` adalah...",
-        "options": [
-            {"key": "A", "text": "Menghapus kebutuhan pembuatan layout tampilan antarmuka berekstensi XML atau Jetpack Compose."},
-            {"key": "B", "text": "Data bertahan hidup melewati perubahan konfigurasi (seperti rotasi layar) tanpa perlu memuat ulang data dari network."},
-            {"key": "C", "text": "Otomatis mengompresi ukuran file APK dan bundle aplikasi menjadi setengah ukuran semula."},
-            {"key": "D", "text": "Memungkinkan eksekusi query basis data secara langsung pada Main Thread tanpa memicu exception."},
-            {"key": "E", "text": "Menjamin aplikasi dapat berjalan normal tanpa memerlukan izin permissions koneksi internet sama sekali."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "VIEWMODEL LIFESPAN",
-            "latex": "\\text{ViewModel Life} \\ge \\sum \\text{Activity Rotations (Retains State)}",
-            "legend": "• ViewModel tetap berada di memori saat Activity re-create karena rotasi layar<br>• Membersihkan resource di onCleared() saat Activity selesai (finish)"
-        },
-        "hints": {
-            "concept": "Tujuan utama ViewModel adalah mengelola dan mempertahankan data untuk UI dengan siklus hidup yang bertahan terhadap perubahan konfigurasi layar.",
-            "execution": "Data yang disimpan di ViewModel tidak hilang saat Activity di-destroy dan di-recreate akibat rotasi."
-        },
-        "explanation": "Objek `ViewModel` dirancang untuk mempertahankan state dan data UI saat terjadi perubahan konfigurasi (seperti rotasi layar), sehingga aplikasi tidak perlu melakukan fetch ulang data dari REST API atau basis data saat Activity dibangun kembali. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Konflik Git terjadi jika baris file yang sama diubah secara berbeda oleh dua commit. Programmer harus memutuskan logika mana yang dipertahankan.",
+      "execution": "Pilihlah urutan: periksa penanda konflik, selesaikan manual, tandai selesai dengan `git add`, dan rekam dengan `git commit`."
     },
-    {
-        "id": "rpl-lat-m-13",
-        "subject": "rpl",
-        "materi": "REKAYASA PEMROGRAMAN GIM",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Pemanfaatan Delta Time dalam Game Loop",
-        "type": "mcq",
-        "questionHtml": "Dalam kalkulasi pergerakan karakter pada game engine, pengembang mengalikan kecepatan dengan variabel `deltaTime` (`position += speed * dt`). Tujuan fundamental dari penerapan rumus tersebut adalah...",
-        "options": [
-            {"key": "A", "text": "Meningkatkan resolusi grafis tekstur gambar karakter secara otomatis saat performa frame rate melonjak."},
-            {"key": "B", "text": "Menjaga kecepatan pergerakan objek tetap konsisten per detik terlepas dari fluktuasi frame rate perangkat pemain."},
-            {"key": "C", "text": "Mencegah karakter menembus batas dinding pembatas arena pertempuran gim akibat lag koneksi internet."},
-            {"key": "D", "text": "Menghemat konsumsi daya baterai perangkat dengan menurunkan frekuensi refresh rate layar secara drastis."},
-            {"key": "E", "text": "Mengunci kecepatan putaran animasi sprite 2D agar selalu tepat berjalan pada 30 frame per detik."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "FRAME-RATE INDEPENDENT MOTION",
-            "latex": "\\Delta s = v \\times \\Delta t \\quad (\\text{Displacement} = \\text{Velocity} \\times \\text{Delta Time})",
-            "legend": "• 30 FPS: dt = 0.033s -> Gerak = v * 0.033<br>• 60 FPS: dt = 0.016s -> Gerak = v * 0.016<br>• Jarak tempuh per detik identik di semua perangkat"
-        },
-        "hints": {
-            "concept": "Delta time (dt) adalah selisih waktu antara frame saat ini dan frame sebelumnya. Perkalian dengan dt membuat pergerakan berbasis waktu riil, bukan frame.",
-            "execution": "Tanpa dt, game di monitor 120Hz akan bergerak 2x lebih cepat dibanding monitor 60Hz."
-        },
-        "explanation": "Mengalikan perpindahan dengan `deltaTime` (waktu yang dihabiskan untuk menyelesaikan satu frame) menjamin pergerakan objek bersifat independen dari frame rate (frame-rate independent movement), sehingga kecepatan karakter konstan baik di perangkat yang berjalan pada 30 FPS maupun 120 FPS. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Langkah standar menyelesaikan Git merge conflict adalah memeriksa file yang berkonflik, menyunting penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`) untuk memastikan logika kode yang benar tetap utuh, lalu menandai file dengan `git add payment.py` dan membuat commit penyelesaian menggunakan `git commit`. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-07",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Keamanan Aset Proyek & Kredensial",
+    "type": "mcq",
+    "questionHtml": "Dalam pengembangan web, file <code>.env</code> digunakan untuk menyimpan variabel lingkungan rahasia seperti kunci API, token OAuth, dan kata sandi basis data. Agar file sensitif ini tidak terunggah ke repositori publik (GitHub/GitLab), tindakan pencegahan standar industri yang wajib dilakukan adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mencantumkan nama file `.env` di dalam berkas konfigurasi `.gitignore` sejak inisialisasi awal proyek."
+      },
+      {
+        "key": "B",
+        "text": "Mengubah seluruh kata sandi menjadi teks kosong setiap kali programmer melakukan `git push`."
+      },
+      {
+        "key": "C",
+        "text": "Mengompresi file `.env` menjadi file ZIP dengan kata sandi sederhana."
+      },
+      {
+        "key": "D",
+        "text": "Menyalin file `.env` ke folder `node_modules` agar diabaikan sistem operasi."
+      },
+      {
+        "key": "E",
+        "text": "Mengunggah file `.env` ke branch khusus yang diberi nama 'secret-branch'."
+      }
+    ],
+    "formulaHud": {
+      "title": "CREDENTIAL SECURITY: GITIGNORE PATTERN",
+      "latex": "\\texttt{.gitignore} \\ni \\texttt{.env} \\implies \\text{Secret Keys Excluded from Version Control Tracking}",
+      "legend": "• Praktik baik: Sertakan `.env.example` (template kosong tanpa rahasia) di repositori.<br>• File `.env` asli tidak boleh pernah berada dalam pohon commit Git."
     },
-    {
-        "id": "rpl-lat-m-14",
-        "subject": "rpl",
-        "materi": "REKAYASA PEMROGRAMAN GIM",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Optimasi Collision Lingkaran (Distance Squared)",
-        "type": "mcq",
-        "questionHtml": "Untuk mendeteksi tabrakan antara dua objek lingkaran dengan radius $r_1$ dan $r_2$ serta jarak pusat $dx$ dan $dy$, programmer gim profesional membandingkan `(dx*dx + dy*dy) <= (r1+r2)*(r1+r2)` daripada menggunakan fungsi akar `Math.sqrt()`. Alasan optimasi teknis dari pendekatan tersebut adalah...",
-        "options": [
-            {"key": "A", "text": "Fungsi Math.sqrt() memiliki keterbatasan kapasitas bit sehingga tidak dapat memproses angka floating-point presisi."},
-            {"key": "B", "text": "Operasi akar kuadrat (square root) membebani siklus CPU secara intensif dibanding perkalian matematika biasa."},
-            {"key": "C", "text": "Menghitung akar kuadrat memicu pembagian dengan nol ketika kedua pusat lingkaran saling berhimpitan."},
-            {"key": "D", "text": "Bahasa pemrograman gim tidak menyediakan pustaka pustaka fungsi aljabar trigonometri bawaan di modul matematika."},
-            {"key": "E", "text": "Rumus perbandingan kuadrat otomatis menghasilkan vektor normal pantulan fisika pasca tabrakan terjadi."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "CIRCLE COLLISION OPTIMIZATION",
-            "latex": "\\sqrt{dx^2 + dy^2} \\le (r_1 + r_2) \\iff dx^2 + dy^2 \\le (r_1 + r_2)^2",
-            "legend": "• Menghindari instruksi sqrt CPU yang mahal<br>• Operasi perkalian dan penjumlahan integer/float jauh lebih cepat"
-        },
-        "hints": {
-            "concept": "Dalam fisika game 2D, operasi Math.sqrt() adalah salah satu instruksi CPU yang paling memakan waktu komputasi.",
-            "execution": "Membandingkan kuadrat kedua sisi persamaan menghasilkan logika matematika yang identik dengan biaya komputasi jauh lebih murah."
-        },
-        "explanation": "Operasi akar kuadrat (`Math.sqrt`) membutuhkan puluhan siklus CPU (clock cycles) yang lambat jika dieksekusi ribuan kali per frame. Mengkuadratkan kedua ruas persamaan ($dx^2 + dy^2 \\le (r_1 + r_2)^2$) memberikan hasil evaluasi logika yang persis sama dengan operasi perkalian aljabar yang jauh lebih cepat. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "File `.gitignore` memberi instruksi kepada Git untuk tidak melacak atau menyertakan file/folder tertentu ke dalam staging area.",
+      "execution": "Pilihlah konfigurasi yang memanfaatkan file `.gitignore` untuk mencegah pelacakan berkas rahasia."
     },
-    {
-        "id": "rpl-lat-m-15",
-        "subject": "rpl",
-        "materi": "REKAYASA PEMROGRAMAN GIM",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Finite State Machine (FSM) AI Musuh",
-        "type": "mcq",
-        "questionHtml": "Dalam perancangan kecerdasan buatan (AI) musuh pada gim menggunakan pola Finite State Machine (FSM), jika musuh berada dalam state `Patrol` dan mendeteksi pemain masuk ke dalam radius pandang (`distanceToPlayer <= viewRadius`), transisi state yang semestinya terjadi adalah...",
-        "options": [
-            {"key": "A", "text": "Beralih ke state Die dan menghapus instance musuh dari hierarki active game objects di scene."},
-            {"key": "B", "text": "Beralih ke state Chase untuk bergerak mendekati posisi koordinat pemain hingga jarak serang tercapai."},
-            {"key": "C", "text": "Tetap berada pada state Patrol dan mematikan fungsi deteksi tabrakan fisik musuh terhadap rintangan."},
-            {"key": "D", "text": "Otomatis me-restart level permainan dari awal karena musuh telah mendeteksi keberadaan target."},
-            {"key": "E", "text": "Beralih ke state Idle secara permanen tanpa melakukan animasi tindakan responsif apapun."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "NPC FINITE STATE MACHINE (FSM)",
-            "latex": "\\text{Patrol} \\xrightarrow{\\text{Player in View}} \\text{Chase} \\xrightarrow{\\text{Player in Range}} \\text{Attack}",
-            "legend": "• Patrol: Jalan santai rute waypoint<br>• Chase: Kejar pemain<br>• Attack: Lakukan pukulan/tembakan"
-        },
-        "hints": {
-            "concept": "FSM AI musuh standar terdiri dari 3 siklus dasar: Patrol (patroli rute) -> Chase (mengejar saat pemain terlihat) -> Attack (menyerang saat dalam jangkauan).",
-            "execution": "Kondisi pemain masuk radius pandang memicu transisi dari Patrol ke Chase."
-        },
-        "explanation": "Dalam pola FSM AI game klasik, ketika entitas dalam kondisi `Patrol` mendeteksi target dalam jangkauan penglihatan (`viewRadius`), trigger tersebut memicu transisi ke state `Chase` (mengejar pemain) hingga berada dalam jarak serang (`attackRange`). Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Menambahkan baris `.env` ke dalam file `.gitignore` memastikan bahwa Git tidak akan pernah melacak atau mengunggah file yang berisi kredensial rahasia ke repositori remote, mencegah kebocoran data sensitif ke publik. Sebagai gantinya, tim biasanya menyertakan `.env.example` sebagai referensi struktur konfigurasi. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-08",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "K3LH Lingkungan TI & Ergonomi",
+    "type": "mcq",
+    "questionHtml": "Seorang programmer yang bekerja 8–10 jam sehari di depan komputer sering mengeluhkan rasa pegal, nyeri tajam, dan mati rasa pada pergelangan tangan serta jari-jari tangan. Gangguan kesehatan akibat gerakan repetitif dan posisi pergelangan tangan yang menekan meja secara tidak ergonomis ini dikenal secara medis sebagai …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carpal Tunnel Syndrome (CTS)"
+      },
+      {
+        "key": "B",
+        "text": "Tinnitus Akut"
+      },
+      {
+        "key": "C",
+        "text": "Insomnia Degeneratif"
+      },
+      {
+        "key": "D",
+        "text": "Skoliosis Struktural"
+      },
+      {
+        "key": "E",
+        "text": "Vertigo Paroksismal"
+      }
+    ],
+    "formulaHud": {
+      "title": "ERGONOMI PROGRAMMER: REPETITIVE STRAIN INJURY",
+      "latex": "\\text{Sudut Pergelangan} \\approx 180^{\\circ} \\text{ (Netral)} \\implies \\text{Pencegahan Tekanan Saraf Medianus (CTS)}",
+      "legend": "• Carpal Tunnel Syndrome: Tertekannya saraf medianus di pergelangan tangan akibat mengetik terus-menerus tanpa penopang ergonomis."
     },
-    {
-        "id": "rpl-lat-m-16",
-        "subject": "rpl",
-        "materi": "PENGUJIAN PERANGKAT LUNAK (QA)",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Boundary Value Analysis (BVA)",
-        "type": "mcq",
-        "questionHtml": "Sebuah form pendaftaran kursus online memvalidasi input umur peserta dengan aturan: 'Hanya peserta berumur 18 sampai 60 tahun (inklusif) yang diperbolehkan mendaftar'. Berdasarkan teknik Boundary Value Analysis (BVA), kumpulan nilai uji batas umur yang paling tepat disiapkan adalah...",
-        "options": [
-            {"key": "A", "text": "25, 35, 45, dan 55 tahun yang mewakili titik tengah rentang umur normal."},
-            {"key": "B", "text": "17, 18, 19, 59, 60, dan 61 tahun yang menguji nilai tepat di batas, tepat di bawah, dan tepat di atas batas."},
-            {"key": "C", "text": "0, 10, 50, dan 100 tahun yang merupakan rentang umur manusia secara umum di dunia nyata."},
-            {"key": "D", "text": "-18 dan -60 tahun yang menguji penanganan sistem terhadap input angka negatif tidak logis."},
-            {"key": "E", "text": "18 dan 60 tahun saja tanpa perlu memeriksa nilai sebelum dan sesudah batas ambang batas."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "BOUNDARY VALUE ANALYSIS (BVA) RULE",
-            "latex": "\\text{Boundary Set} = \\{ \\text{Min}-1, \\; \\text{Min}, \\; \\text{Min}+1, \\; \\text{Max}-1, \\; \\text{Max}, \\; \\text{Max}+1 \\}",
-            "legend": "• Min = 18 -> Uji: 17, 18, 19<br>• Max = 60 -> Uji: 59, 60, 61"
-        },
-        "hints": {
-            "concept": "BVA menguji batas rentang input yang valid: tepat pada batas minimum dan maksimum, serta satu nilai di luar batas dan satu nilai di dalam batas.",
-            "execution": "Untuk rentang 18..60: uji 17 (invalid), 18 (valid), 19 (valid), 59 (valid), 60 (valid), 61 (invalid)."
-        },
-        "explanation": "Teknik Boundary Value Analysis (BVA) berfokus pada titik kritis perbatasan input: `min - 1`, `min`, `min + 1` dan `max - 1`, `max`, `max + 1`. Untuk interval 18-60, himpunan uji lengkapnya adalah 17, 18, 19, 59, 60, dan 61. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Sindrom lorong karpal menyerang pergelangan tangan akibat penekanan saraf medianus dalam waktu berkepanjangan.",
+      "execution": "Pilihlah istilah medis untuk gangguan saraf pergelangan tangan pada pengguna komputer (singkatan CTS)."
     },
-    {
-        "id": "rpl-lat-m-17",
-        "subject": "rpl",
-        "materi": "PENGUJIAN PERANGKAT LUNAK (QA)",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Siklus Test-Driven Development (TDD)",
-        "type": "mcq",
-        "questionHtml": "Dalam metodologi pengembangan perangkat lunak Test-Driven Development (TDD), urutan siklus kerja (cycle) yang benar dan wajib dipatuhi oleh software engineer adalah...",
-        "options": [
-            {"key": "A", "text": "Menulis kode implementasi -> menguji secara manual di browser -> membuat dokumentasi API laporan."},
-            {"key": "B", "text": "RED (tulis test gagal) -> GREEN (tulis kode minimal agar test lulus) -> REFACTOR (rapikan kode tanpa merusak test)."},
-            {"key": "C", "text": "REFACTOR (rancang arsitektur) -> RED (buat unit test) -> GREEN (rilis kode langsung ke production)."},
-            {"key": "D", "text": "GREEN (buat test yang pasti sukses) -> RED (buat test yang error) -> DEPLOY (unggah aplikasi ke server)."},
-            {"key": "E", "text": "Membuat skema database -> membuat antarmuka frontend -> menulis unit testing di tahapan akhir rilis."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "TDD CYCLE (RED - GREEN - REFACTOR)",
-            "latex": "\\text{RED (Write Failing Test)} \\to \\text{GREEN (Pass Minimal Code)} \\to \\text{REFACTOR (Clean & Optimize)}",
-            "legend": "• RED: Tentukan ekspektasi fungsi sebelum kodenya dibuat<br>• GREEN: Implementasikan solusi paling sederhana<br>• REFACTOR: Hilangkan duplikasi dan optimasi struktur"
-        },
-        "hints": {
-            "concept": "TDD mengikuti irama Red-Green-Refactor: buat tes yang gagal dahulu, implementasikan kode minimal agar tes lulus, lalu bersihkan kode.",
-            "execution": "Kata kuncinya adalah RED -> GREEN -> REFACTOR."
-        },
-        "explanation": "Siklus inti TDD adalah: (1) RED: menulis unit test yang mendefinisikan fitur baru dan memastikannya gagal karena kode belum dibuat, (2) GREEN: menulis kode program minimal yang membuat test berhasil lulus, dan (3) REFACTOR: memperbaiki struktur dan kebersihan kode tanpa mengubah fungsionalitasnya. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Carpal Tunnel Syndrome (CTS) adalah gangguan ergonomis yang umum menyerang pengembang perangkat lunak akibat penekanan saraf medianus pada lorong karpal di pergelangan tangan, dipicu oleh mengetik dalam durasi panjang dengan sudut tangan yang tidak netral. Pencegahannya melibatkan penggunaan wrist rest dan keyboard ergonomis. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-09",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Prosedur Pengelolaan & Strategi Backup",
+    "type": "mcq",
+    "questionHtml": "Strategi cadangan data (backup) standar internasional yang diterapkan pada pusat data industri perangkat lunak adalah <strong>Aturan 3-2-1</strong>. Makna teknis yang benar dari angka 3, 2, dan 1 dalam aturan tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Membuat 3 salinan data, disimpan pada 2 jenis media penyimpanan berbeda, dengan 1 salinan berada di lokasi terpisah (off-site / cloud)."
+      },
+      {
+        "key": "B",
+        "text": "Melakukan backup setiap 3 hari sekali, menggunakan 2 jenis kata sandi, dan dikerjakan oleh 1 orang teknisi."
+      },
+      {
+        "key": "C",
+        "text": "Menyimpan data di 3 harddisk internal komputer yang sama selama 2 tahun dan menghapus 1 salinan lama."
+      },
+      {
+        "key": "D",
+        "text": "Membagi file menjadi 3 partisi, menyalinnya ke 2 folder lokal, dan mengompresnya 1 kali."
+      },
+      {
+        "key": "E",
+        "text": "Mengharuskan sistem di-restart 3 kali, diperiksa oleh 2 manajer, sebelum 1 file dipindahkan."
+      }
+    ],
+    "formulaHud": {
+      "title": "DATA RESILIENCE: ATURAN BACKUP 3-2-1",
+      "latex": "3\\text{ Salinan Data} \\quad \\to \\quad 2\\text{ Media Berbeda (e.g. SSD \\& NAS)} \\quad \\to \\quad 1\\text{ Off-site (Cloud/DRC)}",
+      "legend": "• Menjamin pemulihan data (Disaster Recovery) meskipun server lokal mengalami kebakaran, pencurian, atau serangan ransomware."
     },
-    {
-        "id": "rpl-lat-m-18",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Penanganan Eksepsi (Checked vs Unchecked)",
-        "type": "mcq",
-        "questionHtml": "Perhatikan potongan kode program Java berikut:\n```java\npublic class DataParser {\n    public static void main(String[] args) {\n        String teks = null;\n        System.out.println(teks.length());\n    }\n}\n```\nKetika program di-compile dan dijalankan, jenis eksepsi yang dilemparkan dan kategorinya adalah...",
-        "options": [
-            {"key": "A", "text": "IOException yang merupakan checked exception yang wajib ditangkap menggunakan klausa try-catch."},
-            {"key": "B", "text": "NullPointerException yang merupakan unchecked exception (turunan langsung dari RuntimeException)."},
-            {"key": "C", "text": "Compile-time Error: Variable teks has not been initialized correctly on heap memory."},
-            {"key": "D", "text": "ArithmeticException karena operasi panjang karakter pada nilai null menghasilkan pembagian tak terdefinisi."},
-            {"key": "E", "text": "IllegalArgumentException yang dilemparkan otomatis oleh method length() milik kelas String."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "JAVA EXCEPTION HIERARCHY",
-            "latex": "\\text{Throwable} \\to \\text{Exception} \\to \\text{RuntimeException} \\to \\text{NullPointerException (Unchecked)}",
-            "legend": "• Checked: Wajib di-catch atau throws (misal IOException, SQLException)<br>• Unchecked: Runtime error akibat kelalaian logika kode"
-        },
-        "hints": {
-            "concept": "Mengakses method atau atribut pada variabel yang bernilai null menghasilkan NullPointerException di runtime (kategori unchecked exception).",
-            "execution": "Kode lolos kompilasi, namun saat runtime baris teks.length() melempar NullPointerException."
-        },
-        "explanation": "Memanggil method (`length()`) pada referensi objek yang bernilai `null` akan melempar `NullPointerException` pada saat runtime. Karena merupakan turunan dari `RuntimeException`, eksepsi ini tergolong unchecked exception (tidak diwajibkan oleh compiler untuk ditangkap secara eksplisit). Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Aturan 3-2-1 menjamin redundansi data di media fisik lokal berbeda dan salinan aman di luar lokasi fisik gedung (cloud/off-site).",
+      "execution": "Pilihlah jawaban yang merinci 3 salinan data, 2 media berbeda, dan 1 salinan off-site."
     },
-    {
-        "id": "rpl-lat-m-19",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Idempotensi Method HTTP REST API",
-        "type": "mcq",
-        "questionHtml": "Dalam perancangan RESTful API, sebuah method HTTP dikatakan memiliki sifat 'idempotent' jika pemanggilan berulang kali dengan parameter yang sama menghasilkan efek samping status server yang identik. Manakah pasangan method HTTP yang KEDUANYA bersifat idempotent?",
-        "options": [
-            {"key": "A", "text": "POST dan PATCH yang digunakan untuk menambahkan entitas rekaman baru dan memperbarui data."},
-            {"key": "B", "text": "GET dan PUT yang digunakan untuk mengambil data serta mengganti data sumber daya secara utuh."},
-            {"key": "C", "text": "POST dan DELETE yang digunakan untuk memproses transaksi baru dan menghapus record."},
-            {"key": "D", "text": "CONNECT dan POST yang digunakan untuk membangun tunnel jaringan dan mengirim payload."},
-            {"key": "E", "text": "PATCH dan POST yang digunakan untuk manipulasi data parsial pada database backend."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "HTTP METHODS IDEMPOTENCY MATRIX",
-            "latex": "f(f(x)) = f(x) \\implies \\text{Idempotent: GET, PUT, DELETE, HEAD, OPTIONS}",
-            "legend": "• GET: Safe & Idempotent<br>• PUT: Idempotent (replace resource)<br>• DELETE: Idempotent (hapus resource berkali-kali tetap hilang)<br>• POST: Non-idempotent (bikin entitas baru setiap dipanggil)"
-        },
-        "hints": {
-            "concept": "Method idempotent: efek pemanggilan N kali sama dengan 1 kali pemanggilan. GET, PUT, DELETE adalah idempotent. POST bukan idempotent.",
-            "execution": "GET (hanya membaca) dan PUT (mengganti utuh state resource) keduanya adalah idempotent."
-        },
-        "explanation": "GET, PUT, dan DELETE adalah method HTTP yang bersifat idempotent menurut spesifikasi RFC 7231. Memanggil `PUT` berkali-kali dengan payload yang sama akan menghasilkan state resource yang persis sama. Sebaliknya, `POST` tidak idempotent karena setiap eksekusi akan membuat entitas data baru yang berbeda di server. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Aturan Backup 3-2-1 adalah praktik terbaik pemulihan bencana (Disaster Recovery): simpan minimal 3 salinan data (1 data primer + 2 backup), simpan salinan pada minimal 2 media teknologi berbeda (misalnya SSD server lokal dan storage server NAS), serta letakkan minimal 1 salinan di lokasi fisik terpisah (off-site seperti cloud storage). Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-10",
+    "subject": "rpl",
+    "materi": "KECAKAPAN KERJA DASAR, K3LH, DAN BUDAYA KERJA",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Budaya Kerja 5S/5R dalam Lingkungan RPL",
+    "type": "mcq",
+    "questionHtml": "Penerapan budaya kerja industri <strong>5S / 5R</strong> (Ringkas, Rapi, Resik, Rawat, Rajin) tidak hanya berlaku pada kebersihan fisik laboratorium, melainkan juga pada manajemen repositori perangkat lunak. Praktik di bawah ini yang mencerminkan prinsip <strong>Ringkas (Seiri / Sort)</strong> pada manajemen kode program adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Menghapus kode yang sudah tidak dipakai (dead code), variabel yang tidak digunakan, serta cabang repositori sementara (feature branch) yang sudah selesai di-merge."
+      },
+      {
+        "key": "B",
+        "text": "Mengatur indentasi seluruh baris kode menggunakan spasi ganda secara manual."
+      },
+      {
+        "key": "C",
+        "text": "Menulis komentar penjelasan pada setiap kata kunci program tanpa kecuali."
+      },
+      {
+        "key": "D",
+        "text": "Menyimpan seluruh file kode, berkas instalasi, dan file musik programmer di desktop komputer kerja."
+      },
+      {
+        "key": "E",
+        "text": "Membiarkan semua pesan error debug tetap aktif pada server rilis produksi."
+      }
+    ],
+    "formulaHud": {
+      "title": "BUDAYA INDUSTRI: 5S PADA SOFTWARE ENGINEERING",
+      "latex": "\\text{Seiri (Ringkas)} \\implies \\text{Pilah \\& Singkirkan Elemen Tak Berguna (Dead Code / Stale Branches)}",
+      "legend": "• Seiri (Ringkas): Buang yang tidak terpakai.<br>• Seiton (Rapi): Susun modul teratur.<br>• Seiso (Resik): Bersihkan linting & warnings.<br>• Seiketsu (Rawat): Standardisasi aturan kode.<br>• Shitsuke (Rajin): Disiplin review & CI/CD."
     },
-    {
-        "id": "rpl-lat-m-20",
-        "subject": "rpl",
-        "materi": "DESAIN UI/UX & AKSESIBILITAS",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Ukuran Target Sentuh (Touch Target Size)",
-        "type": "mcq",
-        "questionHtml": "Berdasarkan pedoman Human Interface Guidelines (Apple) dan Material Design (Google) untuk aplikasi mobile, ukuran target sentuh (touch target) minimum yang direkomendasikan untuk tombol agar mudah ditekan oleh jari pengguna tanpa salah sentuh adalah...",
-        "options": [
-            {"key": "A", "text": "16x16 dp/pt yang merupakan ukuran standar ikon teks inline di dalam paragraf artikel web."},
-            {"key": "B", "text": "44x44 pt (iOS) atau 48x48 dp (Android) untuk menyesuaikan dengan luas permukaan ujung jari manusia."},
-            {"key": "C", "text": "100x100 dp/pt yang wajib diterapkan pada setiap komponen interaktif formulir pendaftaran."},
-            {"key": "D", "text": "24x24 dp/pt yang merupakan ukuran default bounding box aset vektor ikon sistem."},
-            {"key": "E", "text": "80x80 dp/pt untuk memastikan tombol terlihat jelas oleh pengguna dari jarak pandang dua meter."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "MINIMUM ACCESSIBLE TOUCH TARGET",
-            "latex": "\\text{Apple HIG} \\ge 44 \\times 44\\text{ pt}, \\quad \\text{Google Material} \\ge 48 \\times 48\\text{ dp}",
-            "legend": "• Menghindari error miss-click pada layar sentuh ponsel<br>• Standar WCAG 2.1 Success Criterion 2.5.5 (Target Size)"
-        },
-        "hints": {
-            "concept": "Pedoman desain antarmuka mobile menetapkan 44x44 pt (Apple) dan 48x48 dp (Android) sebagai ukuran minimal area sentuh ramah jari.",
-            "execution": "Ukuran ini memperhitungkan rata-rata luas sentuhan bantalan jari manusia (sekitar 7-10 mm)."
-        },
-        "explanation": "Google Material Design menetapkan minimal touch target 48x48 dp, sementara Apple HIG menetapkan minimal 44x44 pt. Hal ini dirancang agar elemen interaktif dapat ditekan dengan nyaman oleh jemari manusia tanpa memicu kesalahan klik pada elemen di sebelahnya. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Prinsip Seiri (Ringkas) menekankan pemisahan dan pembuangan hal-hal yang tidak diperlukan dari lingkungan kerja.",
+      "execution": "Pilihlah tindakan yang melibatkan pembersihan dead code dan branch usang yang sudah tidak memiliki fungsi produktif."
     },
-    {
-        "id": "rpl-lat-m-21",
-        "subject": "rpl",
-        "materi": "K3LH & HAKI PERANGKAT LUNAK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Prinsip Lisensi Copyleft (GPL)",
-        "type": "mcq",
-        "questionHtml": "Sebuah perusahaan software mengintegrasikan modul pustaka yang berlisensi GNU General Public License v3 (GPLv3) ke dalam produk aplikasi komersial mereka. Kewajiban hukum yang ditimbulkan oleh klausul lisensi copyleft GPL tersebut adalah...",
-        "options": [
-            {"key": "A", "text": "Perusahaan hanya wajib membayar royalti tahunan kepada Free Software Foundation tanpa membagikan kode."},
-            {"key": "B", "text": "Seluruh source code aplikasi perusahaan wajib dilisensikan di bawah GPLv3 dan dibuka untuk publik."},
-            {"key": "C", "text": "Perusahaan bebas mendistribusikan aplikasi secara closed-source selama nama pembuat pustaka tidak diubah."},
-            {"key": "D", "text": "Lisensi GPLv3 otomatis gugur ketika aplikasi dijual dengan harga nominal tertentu di pasar komersial."},
-            {"key": "E", "text": "Perusahaan hanya wajib menyertakan file binary executable tanpa perlu menyediakan dokumentasi teknis."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "VIRAL NATURE OF RECIPROCAL COPYLEFT",
-            "latex": "\\text{Proprietary Code} + \\text{GPL Module} \\implies \\text{Entire Derivative Work Must Be GPL}",
-            "legend": "• Copyleft (GPL): Mewajibkan karya turunan berlisensi sama<br>• Berbeda dengan Permissive (MIT) yang mengizinkan closed-source"
-        },
-        "hints": {
-            "concept": "Klausul copyleft pada GPL bersifat 'viral': jika kode GPL digabungkan ke dalam program lain, seluruh program tersebut harus dirilis di bawah lisensi GPL.",
-            "execution": "Oleh karena itu, perusahaan komersial tertutup sangat berhati-hati agar tidak mencampur pustaka GPL ke dalam basis kode proprietary."
-        },
-        "explanation": "Lisensi GPL bersifat reciprocal/copyleft ('viral'). Jika sebuah perangkat lunak menyertakan atau me-link kode berlisensi GPLv3, maka seluruh karya turunan (derivative work) tersebut secara hukum wajib didistribusikan di bawah lisensi GPLv3 dengan source code yang terbuka bagi penggunanya. Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Dalam konteks rekayasa perangkat lunak, prinsip Ringkas (Seiri) diimplementasikan dengan memilah komponen yang diperlukan dan menyingkirkan elemen yang tidak berguna, seperti menghapus dead code (kode yang tidak pernah dieksekusi), membersihkan dependensi yang usang, dan menghapus stale branches di repositori Git. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-11",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Subnetting IPv4 & Komunikasi Jaringan",
+    "type": "mcq",
+    "questionHtml": "Dua komputer pengembang masing-masing dikonfigurasi dengan alamat IP sebagai berikut:<br>• Komputer A: <code>192.168.1.50/24</code><br>• Komputer B: <code>192.168.2.50/24</code><br>Kedua komputer ditancapkan ke port switch layer-2 yang sama tanpa perangkat router. Apa yang akan terjadi jika Komputer A mencoba mengirim paket data langsung ke Komputer B (misalnya dengan <code>ping 192.168.2.50</code>)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Komunikasi langsung berhasil lancar karena switch otomatis merutekan subnet yang berbeda."
+      },
+      {
+        "key": "B",
+        "text": "Komunikasi gagal karena kedua komputer berada pada subnet jaringan yang berbeda dan membutuhkan router (default gateway) untuk meneruskan paket."
+      },
+      {
+        "key": "C",
+        "text": "Komputer B akan otomatis mengubah alamat IP-nya menjadi satu segmen dengan Komputer A."
+      },
+      {
+        "key": "D",
+        "text": "Kabel UTP yang terhubung ke Komputer B akan langsung mengalami korsleting fisik."
+      },
+      {
+        "key": "E",
+        "text": "Data berhasil terkirim asalkan sistem operasi kedua komputer sama-sama Linux."
+      }
+    ],
+    "formulaHud": {
+      "title": "IPV4 SUBNETTING: NETWORK BOUNDARY",
+      "latex": "\\text{Prefix /24} \\implies \\text{Subnet Mask: } 255.255.255.0 \\implies \\text{Network ID } 192.168.1.0 \\neq 192.168.2.0",
+      "legend": "• Perangkat pada Network ID berbeda TIDAK BISA berkomunikasi langsung pada Layer 2 (Switch).<br>• Diperlukan perangkat Layer 3 (Router/Default Gateway) untuk merutekan paket antar-subnet."
     },
-    {
-        "id": "rpl-lat-m-22",
-        "subject": "rpl",
-        "materi": "K3LH & HAKI PERANGKAT LUNAK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "UU Perlindungan Data Pribadi (UU PDP)",
-        "type": "mcq",
-        "questionHtml": "Berdasarkan Undang-Undang Perlindungan Data Pribadi (UU PDP) No. 27 Tahun 2022 di Indonesia, kewajiban utama Pengendali Data Pribadi ketika terjadi kegagalan perlindungan data (kebocoran data) adalah...",
-        "options": [
-            {"key": "A", "text": "Merahasiakan insiden kebocoran tersebut dari publik selamanya demi menjaga nilai saham perusahaan."},
-            {"key": "B", "text": "Menyampaikan pemberitahuan tertulis kepada subjek data dan lembaga terkait maksimal 3x24 jam."},
-            {"key": "C", "text": "Menghapus seluruh rekaman log server dan database cadangan agar jejak digital peretas hilang seketika."},
-            {"key": "D", "text": "Memberikan ganti rugi finansial tunai secara langsung kepada seluruh penduduk Indonesia dalam waktu 24 jam."},
-            {"key": "E", "text": "Menutup permanen operasional server aplikasi dan membubarkan entitas bisnis perusahaan seketika."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "UU PDP DATA BREACH NOTIFICATION TIMELINE",
-            "latex": "\\text{Data Breach Detected} \\implies \\text{Mandatory Written Notice within } 3 \\times 24 \\text{ hours (72 hours)}",
-            "legend": "• Pasal 46 UU PDP: Wajib menyampaikan pemberitahuan ke subjek data & lembaga berwenang<br>• Memuat rincian data terkompromi & kontak penanganan"
-        },
-        "hints": {
-            "concept": "Pasal 46 UU PDP mewajibkan pengendali data memberitahukan insiden kebocoran data secara tertulis paling lambat 3 x 24 jam.",
-            "execution": "Batas waktu pelaporan resmi kebocoran data di Indonesia adalah 3x24 jam."
-        },
-        "explanation": "Berdasarkan Pasal 46 UU PDP No. 27 Tahun 2022, dalam hal terjadi kegagalan pelindungan data pribadi (kebocoran), Pengendali Data Pribadi wajib menyampaikan pemberitahuan secara tertulis paling lambat 3 x 24 jam (72 jam) kepada Subjek Data Pribadi dan lembaga yang berwenang. Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Prefix /24 berarti 24 bit pertama (3 oktet pertama) adalah alamat network. Bandingkan 192.168.1.x dengan 192.168.2.x.",
+      "execution": "Karena network ID berbeda, paket tidak bisa dikirimkan secara broadcast layer 2 langsung tanpa bantuan router."
     },
-    {
-        "id": "rpl-lat-m-23",
-        "subject": "rpl",
-        "materi": "ALGORITMA & PEMROGRAMAN TERSTRUKTUR",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Kompleksitas Waktu Algoritma (Big-O)",
-        "type": "mcq",
-        "questionHtml": "Perhatikan algoritma pencarian elemen pada array terurut (sorted array) yang membagi ruang pencarian menjadi dua bagian secara berulang (Binary Search). Kompleksitas waktu terbaik (best case) dan terburuk (worst case) dari algoritma tersebut berturut-turut adalah...",
-        "options": [
-            {"key": "A", "text": "Best case O(n) dan worst case O(n^2) karena elemen harus diperiksa melalui nested loop bersarang."},
-            {"key": "B", "text": "Best case O(1) dan worst case O(log n) karena target dapat ditemukan di titik tengah awal atau melalui pembagian biner."},
-            {"key": "C", "text": "Best case O(log n) dan worst case O(n) karena ruang pencarian menyusut secara eksponensial di setiap langkah."},
-            {"key": "D", "text": "Best case O(1) dan worst case O(n) karena jika elemen tidak ada maka seluruh array wajib dipindai sekuensial."},
-            {"key": "E", "text": "Best case O(n log n) dan worst case O(n log n) karena array wajib di-reorganisasi ulang setiap iterasi."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "BINARY SEARCH TIME COMPLEXITY",
-            "latex": "T_{\\text{best}} = O(1), \\quad T_{\\text{worst}} = O(\\log_2 n)",
-            "legend": "• Best case: Elemen target tepat berada di indeks tengah pertama ($O(1)$)<br>• Worst case: Setiap langkah membagi n dengan 2 hingga tersisa 1 elemen ($O(\\log n)$)"
-        },
-        "hints": {
-            "concept": "Binary Search membagi dua area pencarian pada setiap iterasi. Jika elemen tengah adalah target, itu kasus terbaik O(1). Jika pencarian sampai ujung, kasus terburuknya adalah O(log n).",
-            "execution": "Best case = O(1), Worst case = O(log n)."
-        },
-        "explanation": "Pada Binary Search, best case terjadi saat elemen yang dicari tepat berada di posisi tengah array pada pengecekan pertama ($O(1)$). Worst case terjadi saat elemen berada di ujung atau tidak ditemukan sama sekali, di mana ruang pencarian berukuran $n$ dibagi dua berulang kali sebanyak $\\log_2 n$ langkah ($O(\\log n)$). Jawaban: B.",
-        "isDiagnostic": False
+    "explanation": "Dengan prefix /24, subnet mask adalah 255.255.255.0. Komputer A berada pada network 192.168.1.0/24 sedangkan Komputer B berada pada network 192.168.2.0/24. Karena berada pada subnet logis yang berbeda, switch Layer 2 tidak dapat meneruskan komunikasi antar-subnet tersebut tanpa bantuan perangkat Layer 3 (Router). Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-12",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Troubleshooting Konektivitas Client-Server & Port",
+    "type": "mcq",
+    "questionHtml": "Sebuah aplikasi web frontend diuji coba untuk menghubungi backend REST API yang berjalan di port <code>8080</code> pada server remote. Saat tombol kirim ditekan, aplikasi menampilkan error: <em>Connection Refused (ERR_CONNECTION_REFUSED)</em>. Setelah diperiksa dengan ping, server merespons <code>0% packet loss</code>. Penyebab teknis yang PALING MUNGKIN dari kegagalan koneksi tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Layanan web backend (service daemon) belum berjalan pada server atau port 8080 terblokir oleh firewall."
+      },
+      {
+        "key": "B",
+        "text": "Kabel serat optik bawah laut antar-pulau terputus total."
+      },
+      {
+        "key": "C",
+        "text": "Layar monitor server remote dalam kondisi mati (sleep mode)."
+      },
+      {
+        "key": "D",
+        "text": "Browser client kehabisan kapasitas memori RAM penyimpanan cookie."
+      },
+      {
+        "key": "E",
+        "text": "Protokol IP pada router client berubah otomatis menjadi IPv6 murni."
+      }
+    ],
+    "formulaHud": {
+      "title": "NETWORK TROUBLESHOOTING: PING VS PORT",
+      "latex": "\\text{Ping OK (ICMP Layer 3)} \\land \\text{Connection Refused (TCP Layer 4)} \\implies \\text{Service Down / Port Blocked}",
+      "legend": "• ICMP Echo (Ping): Memvalidasi konektivitas host level IP.<br>• TCP Connection Refused: Host aktif, namun tidak ada proses yang mendengarkan (listening) di port target, atau firewall menolak paket SYN."
     },
-    {
-        "id": "rpl-lat-m-24",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN BERORIENTASI OBJEK",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Prinsip SOLID: Open/Closed Principle",
-        "type": "mcq",
-        "questionHtml": "Sebuah modul sistem pembayaran e-commerce dirancang agar dapat menerima metode pembayaran baru (seperti QRIS atau Virtual Account) tanpa perlu mengubah source code kelas `CheckoutService` yang sudah teruji. Pendekatan arsitektur ini mematuhi prinsip SOLID yaitu...",
-        "options": [
-            {"key": "A", "text": "Interface Segregation Principle dengan membagi interface besar menjadi interface yang sangat kecil."},
-            {"key": "B", "text": "Open/Closed Principle (OCP) di mana entitas terbuka untuk perluasan tetapi tertutup untuk modifikasi."},
-            {"key": "C", "text": "Liskov Substitution Principle di mana objek subclass harus dapat menggantikan objek superclassnya."},
-            {"key": "D", "text": "Single Responsibility Principle di mana sebuah kelas hanya memiliki satu fungsi logging terpusat."},
-            {"key": "E", "text": "Law of Demeter di mana objek hanya boleh berkomunikasi dengan objek tetangga terdekatnya."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "SOLID - OPEN/CLOSED PRINCIPLE (OCP)",
-            "latex": "\\text{Open for Extension} \\land \\text{Closed for Modification}",
-            "legend": "• Implementasi: Gunakan Interface PaymentStrategy<br>• Menambah metode pembayaran baru cukup membuat kelas baru implementor interface tanpa ubah CheckoutService"
-        },
-        "hints": {
-            "concept": "Open/Closed Principle (huruf 'O' dalam SOLID) menyatakan entitas software harus terbuka untuk perluasan (open for extension) tetapi tertutup untuk modifikasi (closed for modification).",
-            "execution": "Menambah fitur tanpa mengubah kode lama adalah definisi inti OCP."
-        },
-        "explanation": "Open/Closed Principle (OCP) menyatakan bahwa entitas perangkat lunak harus terbuka untuk diekstensi (menambahkan metode pembayaran baru) tetapi tertutup untuk modifikasi (tidak perlu mengedit kode `CheckoutService` yang sudah stabil). Jawaban: B.",
-        "isDiagnostic": False
+    "hints": {
+      "concept": "Ping yang berhasil membuktikan jalur fisik dan perutean IP berfungsi. Masalah terjadi di Transport/Application Layer.",
+      "execution": "Pilihlah kemungkinan di mana service aplikasi belum listening pada port 8080 atau ditolak oleh firewall lokal server."
     },
-    {
-        "id": "rpl-lat-m-25",
-        "subject": "rpl",
-        "materi": "PEMROGRAMAN WEB & API",
-        "mode": "latihan",
-        "difficulty": "medium",
-        "topic": "Penanganan Error Asynchronous Async/Await",
-        "type": "mcq",
-        "questionHtml": "Perhatikan fungsi asynchronous JavaScript berikut:\n```javascript\nasync function fetchUserProfile(userId) {\n    try {\n        const response = await api.get(`/users/${userId}`);\n        return response.data;\n    } catch (error) {\n        console.error('Gagal mengambil data profil:', error.message);\n        return null;\n    }\n}\n```\nPernyataan yang BENAR mengenai alur eksekusi fungsi di atas adalah...",
-        "options": [
-            {"key": "A", "text": "Kata kunci await memblokir seluruh thread utama browser sehingga animasi halaman web membeku."},
-            {"key": "B", "text": "Jika promise api.get di-reject akibat network down, eksekusi melompat ke blok catch dan mengembalikan null."},
-            {"key": "C", "text": "Fungsi fetchUserProfile mengembalikan nilai primitif null secara langsung tanpa dibungkus Promise."},
-            {"key": "D", "text": "Blok try-catch tidak mampu menangkap rejection dari fungsi asynchronous yang menggunakan await."},
-            {"key": "E", "text": "Fungsi akan memicu TypeError karena kata kunci async tidak kompatibel dengan penanganan try-catch."}
-        ],
-        "correctKey": "B",
-        "formulaHud": {
-            "title": "ASYNC/AWAIT ERROR HANDLING FLOW",
-            "latex": "\\text{Promise Rejected} \\implies \\text{await throws Error} \\implies \\text{Handled in catch block}",
-            "legend": "• await membongkar hasil promise yang resolved<br>• Rejection diubah menjadi exception yang ditangkap oleh blok catch"
-        },
-        "hints": {
-            "concept": "Di dalam fungsi async, penanganan error untuk Promise yang rejected dapat dilakukan secara natural dan elegan menggunakan blok try-catch.",
-            "execution": "Jika api.get gagal/reject, aliran kode langsung melompat ke blok catch dan mengembalikan null."
-        },
-        "explanation": "Pada fungsi `async`, ketika sebuah Promise yang di-`await` mengalami rejection (gagal/error), runtime JavaScript akan melempar exception tersebut ke blok `catch`. Di sana pesan kesalahan dicatat ke console dan fungsi secara aman mengembalikan `null`. Jawaban: B.",
-        "isDiagnostic": False
-    }
+    "explanation": "Ketika ping berhasil (host reachable di layer 3), tetapi koneksi TCP ditolak dengan 'Connection Refused', artinya paket SYN TCP sampai ke server target namun server langsung membalas dengan paket RST (Reset). Hal ini terjadi karena tidak ada aplikasi yang sedang mendengarkan (listening) di port 8080 atau port tersebut diblokir oleh firewall server. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-13",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Arsitektur & Protokol TCP/IP (DNS)",
+    "type": "mcq",
+    "questionHtml": "Saat seorang pengguna membuka alamat <code>https://api.sekolahsakti.sch.id</code> pada peramban web, sistem pertama kali melakukan resolusi DNS (Domain Name System). Jenis catatan DNS (<em>DNS Record</em>) yang berfungsi memetakan nama domain/subdomain tersebut secara langsung ke sebuah <strong>alamat IPv4 numerik</strong> server hosting adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Record"
+      },
+      {
+        "key": "B",
+        "text": "CNAME Record"
+      },
+      {
+        "key": "C",
+        "text": "MX Record"
+      },
+      {
+        "key": "D",
+        "text": "TXT Record"
+      },
+      {
+        "key": "E",
+        "text": "PTR Record"
+      }
+    ],
+    "formulaHud": {
+      "title": "DNS RECORD TYPES & RESOLUTION",
+      "latex": "\\text{Domain Name} \\xrightarrow{\\text{A Record}} \\text{IPv4 Address (e.g. 103.25.10.5)}",
+      "legend": "• A Record: Nama host ke IPv4.<br>• AAAA Record: Nama host ke IPv6.<br>• CNAME: Alias nama host ke nama domain lain.<br>• MX: Mail eXchange (server email)."
+    },
+    "hints": {
+      "concept": "Catatan DNS dasar untuk alamat IPv4 terdiri dari satu huruf kapital pertama dalam alfabet.",
+      "execution": "Pilihlah catatan DNS bertipe 'A' (Address Record)."
+    },
+    "explanation": "A Record (Address Record) adalah jenis record DNS yang paling mendasar, berfungsi menerjemahkan (memetakan) sebuah nama domain atau subdomain menjadi alamat IPv4 numerik 32-bit dari server tujuan. CNAME untuk alias nama, MX untuk server mail, dan TXT untuk verifikasi kepemilikan/SPF. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-14",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Komunikasi Web REST API HTTP Methods",
+    "type": "mcq",
+    "questionHtml": "Dalam perancangan layanan web berbasis RESTful API, metode HTTP dirancang dengan sifat tertentu. Metode HTTP yang bersifat <strong>Idempoten</strong> (artinya mengeksekusi permintaan yang sama berkali-kali menghasilkan status akhir sistem yang sama persis seperti jika dieksekusi satu kali) adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "POST"
+      },
+      {
+        "key": "B",
+        "text": "PUT"
+      },
+      {
+        "key": "C",
+        "text": "CONNECT"
+      },
+      {
+        "key": "D",
+        "text": "PATCH (bila menambahkan nilai counter secara incremental)"
+      },
+      {
+        "key": "E",
+        "text": "TRACE tanpa parameter"
+      }
+    ],
+    "formulaHud": {
+      "title": "REST API: IDEMPOTENCY PROPERTY",
+      "latex": "f(f(x)) = f(x) \\implies \\text{Idempotent Methods: GET, PUT, DELETE, HEAD, OPTIONS}",
+      "legend": "• PUT /users/1 (dengan payload lengkap) bersifat idempoten: jika dikirim 5 kali berturut-turut, state data user 1 tetap identik.<br>• POST /users/orders TIDAK idempoten: jika dikirim 5 kali, akan tercipta 5 pesanan baru yang berbeda."
+    },
+    "hints": {
+      "concept": "Idempoten berarti pemanggilan berulang kali tidak mengubah hasil akhir data di server melampaui hasil panggilan pertama.",
+      "execution": "Metode PUT menggantikan representasi sumber daya secara menyeluruh sehingga berkali-kali dipanggil statusnya tetap sama."
+    },
+    "explanation": "Metode PUT, GET, dan DELETE didefinisikan sebagai metode idempoten dalam spesifikasi HTTP RFC 7231. Jika client mengirim permintaan `PUT /api/produk/10` dengan data harga Rp 50.000 sebanyak 10 kali, nilai harga produk di database tetap Rp 50.000. Sebaliknya, metode POST tidak idempoten karena setiap request POST biasanya membuat record data entitas baru. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-15",
+    "subject": "rpl",
+    "materi": "TEKNOLOGI JARINGAN KOMPUTER",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Sistem Operasi Linux & Hak Akses File",
+    "type": "mcq",
+    "questionHtml": "Pada server Linux, seorang web administrator menjalankan perintah:<br><pre><code>chmod 644 /var/www/html/index.php</code></pre>Arti representasi izin hak akses oktal <code>644</code> terhadap file tersebut adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Owner memiliki hak Read & Write (rw-); Group dan Others hanya memiliki hak Read (r--)."
+      },
+      {
+        "key": "B",
+        "text": "Owner memiliki hak Read, Write, Execute (rwx); Group memiliki hak Write; Others tidak punya hak."
+      },
+      {
+        "key": "C",
+        "text": "Semua pengguna memiliki hak Read dan Write secara setara tanpa batasan."
+      },
+      {
+        "key": "D",
+        "text": "File tersebut otomatis terenkripsi dan hanya dapat dibuka oleh user root."
+      },
+      {
+        "key": "E",
+        "text": "Owner memiliki hak eksekusi saja, sedangkan publik memiliki hak baca dan tulis."
+      }
+    ],
+    "formulaHud": {
+      "title": "LINUX PERMISSION OCTAL CALCULATION",
+      "latex": "\\text{Octal: } r=4, \\; w=2, \\; x=1 \\implies 6 = 4+2 \\; (rw-), \\quad 4 = 4 \\; (r--)",
+      "legend": "• Digit 1 (Owner): 6 = Read + Write (4+2).<br>• Digit 2 (Group): 4 = Read only.<br>• Digit 3 (Others/Public): 4 = Read only.<br>• Format string: <code>-rw-r--r--</code>"
+    },
+    "hints": {
+      "concept": "Nilai biner/oktal permission: Read = 4, Write = 2, Execute = 1. Angka 6 = 4 + 2 (Read & Write). Angka 4 = 4 (Read).",
+      "execution": "Owner = 6 (Read+Write), Group = 4 (Read), Others = 4 (Read)."
+    },
+    "explanation": "Dalam notasi oktal Linux: Read (r) bernilai 4, Write (w) bernilai 2, dan Execute (x) bernilai 1. Digit pertama (6) untuk Owner bernilai 4+2 = Read & Write. Digit kedua (4) untuk Group bernilai 4 = Read. Digit ketiga (4) untuk Others bernilai 4 = Read. Format simboliknya adalah `-rw-r--r--`. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-16",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Analisis Struktur Data List / Array (Index Shifting)",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program manipulasi list berikut:<br><pre><code class=\"language-python\">inventori = [\"Pedang\", \"Perisai\", \"Ramuan\", \"Panah\"]\ninventori.append(\"Kunci\")\ninventori.pop(1)\nprint(inventori[1], len(inventori))</code></pre>Output yang dihasilkan saat program di atas dieksekusi adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Perisai 5"
+      },
+      {
+        "key": "B",
+        "text": "Ramuan 4"
+      },
+      {
+        "key": "C",
+        "text": "Pedang 4"
+      },
+      {
+        "key": "D",
+        "text": "Ramuan 5"
+      },
+      {
+        "key": "E",
+        "text": "Panah 3"
+      }
+    ],
+    "formulaHud": {
+      "title": "LIST OPERATION: APPEND & POP INDEX SHIFTING",
+      "latex": "L_0 = [P, S, R, A] \\xrightarrow{\\text{append}(K)} [P, S, R, A, K] \\xrightarrow{\\text{pop}(1)} [P, R, A, K]",
+      "legend": "• Awal: <code>['Pedang', 'Perisai', 'Ramuan', 'Panah']</code>.<br>• Setelah append('Kunci'): panjang list menjadi 5.<br>• Setelah pop(1): elemen indeks 1 ('Perisai') dihapus, elemen berikutnya bergeser ke kiri.<br>• Indeks 1 yang baru adalah 'Ramuan' dan total elemen adalah 4."
+    },
+    "hints": {
+      "concept": "Method pop(i) menghapus elemen pada indeks i dan menggeser seluruh elemen di sebelah kanannya satu posisi ke kiri.",
+      "execution": "Hitung: indeks 1 semula adalah 'Perisai'. Setelah dihapus, 'Ramuan' (semula indeks 2) bergeser menjadi indeks 1. Jumlah elemen = 4 + 1 - 1 = 4."
+    },
+    "explanation": "Pada awal program, inventori berisi 4 elemen. Baris `append('Kunci')` menambah elemen di akhir sehingga menjadi `['Pedang', 'Perisai', 'Ramuan', 'Panah', 'Kunci']` (panjang 5). Baris `pop(1)` menghapus elemen pada indeks 1 yaitu 'Perisai'. Akibatnya elemen di kanannya bergeser ke kiri, sehingga `inventori[1]` kini bernilai 'Ramuan' dan panjang list (`len`) menjadi 4. Jawaban: B.",
+    "isDiagnostic": false,
+    "correctKey": "B"
+  },
+  {
+    "id": "rpl-lat-m-17",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Modularisasi Fungsi: Return Value vs Print",
+    "type": "mcq",
+    "questionHtml": "Perhatikan dua subprogram berikut:<br><pre><code class=\"language-python\">def hitung_luas(panjang, lebar):\n    return panjang * lebar\n\ndef cetak_header(judul):\n    print(\"===\", judul, \"===\")\n\na = hitung_luas(5, 4)\nb = cetak_header(\"Laporan\")\nprint(a, b)</code></pre>Output yang dicetak pada baris terakhir <code>print(a, b)</code> adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "20 None"
+      },
+      {
+        "key": "B",
+        "text": "20 === Laporan ==="
+      },
+      {
+        "key": "C",
+        "text": "None None"
+      },
+      {
+        "key": "D",
+        "text": "20 Error"
+      },
+      {
+        "key": "E",
+        "text": "20 0"
+      }
+    ],
+    "formulaHud": {
+      "title": "FUNCTION MODULARITY: RETURN VS PROCEDURE",
+      "latex": "\\text{def f(): return v} \\implies \\text{Variable stores } v \\quad \\mid \\quad \\text{def g(): print(v)} \\implies \\text{Variable stores } \\texttt{None}",
+      "legend": "• Fungsi `hitung_luas` memiliki return statement sehingga mengembalikan nilai numerik 20.<br>• Prosedur `cetak_header` hanya mencetak ke layar tanpa return, sehingga secara implisit mengembalikan `None`."
+    },
+    "hints": {
+      "concept": "Di Python, fungsi yang tidak memiliki pernyataan `return` eksplisit akan selalu mengembalikan objek `None`.",
+      "execution": "`a` menampung nilai return 20. `b` menampung hasil pemanggilan fungsi yang tidak me-return apa pun (`None`)."
+    },
+    "explanation": "Fungsi `hitung_luas(5, 4)` mengembalikan nilai hasil perkalian yaitu 20, sehingga variabel `a = 20`. Sementara itu, fungsi `cetak_header` hanya melakukan efek samping mencetak string ke konsol tanpa pernyataan `return`, sehingga nilai kembalian default fungsi di Python adalah `None` (`b = None`). Oleh karena itu, `print(a, b)` menghasilkan `20 None`. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-18",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Struktur Data Dictionary & Key-Value Lookup",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode kamus data (dictionary) di Python berikut:<br><pre><code class=\"language-python\">peserta = {\n    \"101\": {\"nama\": \"Budi\", \"nilai\": 85},\n    \"102\": {\"nama\": \"Siti\", \"nilai\": 92},\n    \"103\": {\"nama\": \"Andi\", \"nilai\": 78}\n}\n\ntotal = 0\nfor k in peserta:\n    total += peserta[k][\"nilai\"]\nrata_rata = total / len(peserta)\nprint(f\"{rata_rata:.1f}\")</code></pre>Output yang dihasilkan dari eksekusi kode program di atas adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "85.0"
+      },
+      {
+        "key": "B",
+        "text": "85.0"
+      },
+      {
+        "key": "C",
+        "text": "85.0"
+      },
+      {
+        "key": "D",
+        "text": "85.0"
+      },
+      {
+        "key": "E",
+        "text": "90.0"
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "DICTIONARY ITERATION & AVERAGE CALCULATION",
+      "latex": "\\bar{x} = \\frac{\\sum_{i=1}^{n} \\text{nilai}_i}{n} = \\frac{85 + 92 + 78}{3} = \\frac{255}{3} = 85.0",
+      "legend": "• Perulangan `for k in peserta:` mengiterasi kunci utama dictionary ('101', '102', '103').<br>• `peserta[k]['nilai']` mengakses data nilai masing-masing peserta.<br>• Total = 255; Jumlah peserta = 3; Rata-rata = 85.0."
+    },
+    "hints": {
+      "concept": "Jumlahkan semua nilai: 85 + 92 + 78 = 255. Bagi dengan jumlah peserta (3).",
+      "execution": "255 / 3 = 85.0."
+    },
+    "explanation": "Iterasi dictionary menjumlahkan nilai ketiga siswa: 85 + 92 + 78 = 255. Nilai rata-rata diperoleh dengan membagi total dengan panjang dictionary (3), yaitu 255 / 3 = 85.0. Format `:.1f` mencetaknya dengan satu angka desimal: '85.0'. Jawaban: A.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-m-19",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Trace Algoritma Perulangan Bersarang (Nested Loops)",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program perulangan bersarang berikut:<br><pre><code class=\"language-python\">counter = 0\nfor i in range(1, 4):\n    for j in range(i, 4):\n        counter += 1\nprint(counter)</code></pre>Berapakah nilai akhir variabel <code>counter</code> setelah seluruh perulangan selesai dieksekusi?",
+    "options": [
+      {
+        "key": "A",
+        "text": "6"
+      },
+      {
+        "key": "B",
+        "text": "9"
+      },
+      {
+        "key": "C",
+        "text": "12"
+      },
+      {
+        "key": "D",
+        "text": "3"
+      },
+      {
+        "key": "E",
+        "text": "16"
+      }
+    ],
+    "correctKey": "A",
+    "formulaHud": {
+      "title": "NESTED LOOP TRACING",
+      "latex": "\\text{Total Iterasi} = \\sum_{i=1}^{3} (4 - i) = (4-1) + (4-2) + (4-3) = 3 + 2 + 1 = 6",
+      "legend": "• i = 1: j berjalan dari 1 s.d. 3 (3 kali: j=1, 2, 3).<br>• i = 2: j berjalan dari 2 s.d. 3 (2 kali: j=2, 3).<br>• i = 3: j berjalan dari 3 s.d. 3 (1 kali: j=3).<br>• Total counter = 3 + 2 + 1 = 6."
+    },
+    "hints": {
+      "concept": "Lakukan trace untuk setiap nilai i (1, 2, 3). Range(i, 4) berhenti sebelum angka 4.",
+      "execution": "Hitung jumlah perulangan dalam untuk setiap i: i=1 ada 3 iterasi, i=2 ada 2 iterasi, i=3 ada 1 iterasi. Jumlahkan: 3 + 2 + 1 = 6."
+    },
+    "explanation": "Pada `i = 1`, loop dalam `range(1, 4)` berjalan untuk j = 1, 2, 3 (3 kali). Pada `i = 2`, loop dalam `range(2, 4)` berjalan untuk j = 2, 3 (2 kali). Pada `i = 3`, loop dalam `range(3, 4)` berjalan untuk j = 3 (1 kali). Total penambahan nilai counter adalah 3 + 2 + 1 = 6. Jawaban: A.",
+    "isDiagnostic": false
+  },
+  {
+    "id": "rpl-lat-m-20",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN TERSTRUKTUR",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Lingkup Variabel: Local vs Global Scope",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program mengenai cakupan variabel berikut:<br><pre><code class=\"language-python\">bonus = 5000\n\ndef hitung_gaji(pokok):\n    bonus = 2000\n    return pokok + bonus\n\nhasil = hitung_gaji(10000)\nprint(hasil, bonus)</code></pre>Output yang dicetak oleh program di atas adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "12000 5000"
+      },
+      {
+        "key": "B",
+        "text": "12000 2000"
+      },
+      {
+        "key": "C",
+        "text": "15000 5000"
+      },
+      {
+        "key": "D",
+        "text": "17000 2000"
+      },
+      {
+        "key": "E",
+        "text": "Error: UnboundLocalError"
+      }
+    ],
+    "formulaHud": {
+      "title": "VARIABLE SCOPE: LOCAL SHADOWING",
+      "latex": "\\text{Inside function: } \\text{bonus}_{\\text{local}} = 2000 \\quad \\mid \\quad \\text{Outside function: } \\text{bonus}_{\\text{global}} = 5000",
+      "legend": "• Pendefinisian `bonus = 2000` di dalam fungsi menciptakan variabel lokal yang menaungi (shadowing) variabel global.<br>• Variabel global di luar fungsi tidak mengalami perubahan nilai tanpa kata kunci `global`."
+    },
+    "hints": {
+      "concept": "Variabel di dalam fungsi bersifat lokal kecuali dideklarasikan dengan kata kunci `global`. Variabel global di luar tidak berubah.",
+      "execution": "Di dalam fungsi: pokok (10000) + bonus lokal (2000) = 12000. Di luar fungsi: bonus global tetap 5000."
+    },
+    "explanation": "Variabel `bonus = 2000` yang dibuat di dalam fungsi `hitung_gaji` merupakan variabel lokal (local scope) yang menutupi variabel global hanya di dalam tubuh fungsi tersebut. Hasil fungsi adalah 10000 + 2000 = 12000. Saat fungsi selesai, variabel `bonus` di lingkup global tetap tidak berubah yaitu 5000. Oleh karena itu, outputnya adalah `12000 5000`. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-21",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Class, Object & Constructor Default Parameters",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode class berikut:<br><pre><code class=\"language-python\">class Produk:\n    def __init__(self, nama, harga, stok=10):\n        self.nama = nama\n        self.harga = harga\n        self.stok = stok\n\np1 = Produk(\"Mouse Gaming\", 150000)\np2 = Produk(\"Keyboard Mekanik\", 350000, 25)\np1.stok = 5\n\nprint(p1.stok, p2.stok)</code></pre>Output yang dicetak oleh baris terakhir program di atas adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 25"
+      },
+      {
+        "key": "B",
+        "text": "5 5"
+      },
+      {
+        "key": "C",
+        "text": "10 25"
+      },
+      {
+        "key": "D",
+        "text": "5 10"
+      },
+      {
+        "key": "E",
+        "text": "Error: p1.stok is private"
+      }
+    ],
+    "formulaHud": {
+      "title": "OOP: INSTANCE ATTRIBUTE INDEPENDENCE",
+      "latex": "p_1.\\text{stok} \\cap p_2.\\text{stok} = \\emptyset \\implies \\text{Perubahan pada } p_1 \\text{ tidak mempengaruhi } p_2",
+      "legend": "• p1 diinstansiasi tanpa argumen stok ketiga, sehingga memakai default value stok = 10.<br>• p2 diinstansiasi dengan stok = 25.<br>• `p1.stok = 5` hanya memodifikasi atribut instans milik p1 secara independen."
+    },
+    "hints": {
+      "concept": "Setiap instans objek dari sebuah class mengalokasikan ruang memori sendiri untuk atribut instansnya.",
+      "execution": "p1.stok diubah menjadi 5. p2.stok tetap 25 sesuai inisialisasi constructor-nya."
+    },
+    "explanation": "Objek `p1` dan `p2` adalah dua instans independen dari class `Produk`. Pada saat pembuatan, `p1.stok` bernilai 10 (dari default parameter), dan `p2.stok` bernilai 25. Perintah `p1.stok = 5` hanya mengubah nilai atribut pada objek `p1`. Nilai atribut pada objek `p2` tetap 25. Maka outputnya adalah `5 25`. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-22",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Inheritance & Method Overriding",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program relasi class berikut:<br><pre><code class=\"language-python\">class Kendaraan:\n    def __init__(self, merk):\n        self.merk = merk\n    def info_energi(self):\n        return \"Bahan bakar umum\"\n\nclass MotorListrik(Kendaraan):\n    def info_energi(self):\n        return \"Baterai daya listrik\"\n\nk = Kendaraan(\"Yamaha\")\nm = MotorListrik(\"Gesits\")\nprint(k.info_energi(), \"|\", m.info_energi())</code></pre>Konsep OOP yang ditunjukkan oleh pendefinisian ulang method <code>info_energi()</code> pada class <code>MotorListrik</code> beserta outputnya adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Method Overriding, menghasilkan: Bahan bakar umum | Baterai daya listrik"
+      },
+      {
+        "key": "B",
+        "text": "Method Overloading, menghasilkan: Bahan bakar umum | Bahan bakar umum"
+      },
+      {
+        "key": "C",
+        "text": "Multiple Inheritance, menghasilkan: Baterai daya listrik | Baterai daya listrik"
+      },
+      {
+        "key": "D",
+        "text": "Data Abstraction, menghasilkan: Error: method duplicate"
+      },
+      {
+        "key": "E",
+        "text": "Interface Segregation, menghasilkan: None | None"
+      }
+    ],
+    "formulaHud": {
+      "title": "OOP: METHOD OVERRIDING IN INHERITANCE",
+      "latex": "\\text{SubClass.method()} \\text{ mereplace implementasi } \\text{SuperClass.method()}",
+      "legend": "• Subclass mewarisi seluruh perilaku superclass namun dapat mengganti (override) perilaku method spesifik sesuai kebutuhannya.<br>• Objek superclass tetap mengeksekusi method aslinya."
+    },
+    "hints": {
+      "concept": "Mendefinisikan method dengan nama dan parameter sama di kelas anak untuk menggantikan method kelas induk disebut method overriding.",
+      "execution": "k.info_energi() memanggil versi Kendaraan, m.info_energi() memanggil versi turunan MotorListrik."
+    },
+    "explanation": "Pendefinisian method dengan nama yang sama persis di kelas turunan (`MotorListrik`) untuk menggantikan method milik superclass (`Kendaraan`) adalah bentuk Method Overriding. Objek `k` memanggil method aslinya ('Bahan bakar umum'), sedangkan objek `m` memanggil versi yang sudah dioverride ('Baterai daya listrik'). Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-23",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Dynamic Polymorphism & Duck Typing",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program sistem notifikasi berikut:<br><pre><code class=\"language-python\">class EmailSender:\n    def kirim(self, pesan):\n        return f\"Kirim Email: {pesan}\"\n\nclass SMSSender:\n    def kirim(self, pesan):\n        return f\"Kirim SMS: {pesan}\"\n\ndef siarkan(layanan, teks):\n    return layanan.kirim(teks)\n\ne = EmailSender()\ns = SMSSender()\nprint(siarkan(e, \"Halo\"), \"#\", siarkan(s, \"Pagi\"))</code></pre>Karakteristik utama dari konsep <strong>Polymorphism</strong> yang tercermin pada fungsi <code>siarkan()</code> di atas adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fungsi `siarkan()` dapat menerima objek dari class apa pun asalkan objek tersebut memiliki method `kirim()` dengan antarmuka yang serasi."
+      },
+      {
+        "key": "B",
+        "text": "Fungsi `siarkan()` mewajibkan semua parameter dikonversi menjadi tipe data integer."
+      },
+      {
+        "key": "C",
+        "text": "Seluruh class diwajibkan menghapus constructor `__init__` agar dapat diproses."
+      },
+      {
+        "key": "D",
+        "text": "Kedua objek dipaksa menggunakan alokasi memori fisik yang sama di harddisk."
+      },
+      {
+        "key": "E",
+        "text": "Fungsi `siarkan()` hanya dapat dijalankan pada lingkungan sistem operasi Windows."
+      }
+    ],
+    "formulaHud": {
+      "title": "OOP: POLYMORPHISM & DUCK TYPING",
+      "latex": "\"\\text{If it walks like a duck and quacks like a duck, it's a duck}\" \\implies \\text{Uniform Interface invocation}",
+      "legend": "• Polymorphism memungkinkan kode client memanggil antarmuka seragam (`layanan.kirim()`) pada objek-objek berbeda tanpa perlu memeriksa tipe class konkretnya."
+    },
+    "hints": {
+      "concept": "Polymorphism berarti 'banyak bentuk': satu fungsi pemanggil yang sama dapat berinteraksi dengan berbagai objek berbeda.",
+      "execution": "Pilihlah jawaban yang menjelaskan fleksibilitas fungsi `siarkan()` dalam menerima objek berbeda yang memiliki method `kirim()`."
+    },
+    "explanation": "Polymorphism memungkinkan pemanggilan method yang seragam (`layanan.kirim()`) pada berbagai objek dari kelas yang berbeda (`EmailSender` maupun `SMSSender`). Fungsi `siarkan()` tidak perlu peduli objek berasal dari class apa, asalkan memiliki method `kirim()`. Ini merupakan inti dari konsep dynamic polymorphism dan duck typing. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-24",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Enkapsulasi & Validasi Data Mutator",
+    "type": "mcq",
+    "questionHtml": "Perhatikan perancangan class akun perbankan berikut:<br><pre><code class=\"language-python\">class RekeningBank:\n    def __init__(self, nomor, saldo_awal):\n        self.nomor = nomor\n        self.__saldo = max(0, saldo_awal)\n    \n    def get_saldo(self):\n        return self.__saldo\n        \n    def setor(self, jumlah):\n        if jumlah > 0:\n            self.__saldo += jumlah\n            return True\n        return False\n\nr = RekeningBank(\"001\", 100000)\nr.setor(-50000)\nprint(r.get_saldo())</code></pre>Berapakah output yang dihasilkan dari kode program di atas, dan mengapa?",
+    "options": [
+      {
+        "key": "A",
+        "text": "100000, karena metode mutator setor() menolak penambahan nilai negatif sehingga saldo tidak berubah."
+      },
+      {
+        "key": "B",
+        "text": "50000, karena setoran negatif otomatis mengurangi saldo akun."
+      },
+      {
+        "key": "C",
+        "text": "0, karena terjadi error validasi yang me-reset saldo awal."
+      },
+      {
+        "key": "D",
+        "text": "150000, karena tanda minus diubah menjadi nilai mutlak positif."
+      },
+      {
+        "key": "E",
+        "text": "Error: AttributeError: private variable cannot be accessed."
+      }
+    ],
+    "formulaHud": {
+      "title": "ENCAPSULATION: CONTROLLED MUTATION",
+      "latex": "\\text{setor}(\\Delta) = \\begin{cases} \\text{saldo} + \\Delta & \\text{if } \\Delta > 0 \\\\ \\text{saldo} & \\text{if } \\Delta \\le 0 \\end{cases}",
+      "legend": "• Enkapsulasi melindungi integritas data internal objek dari manipulasi tidak valid dari luar class.<br>• Nilai `jumlah = -50000` tidak memenuhi syarat `jumlah > 0`, sehingga method mengabaikannya."
+    },
+    "hints": {
+      "concept": "Periksa kondisi percabangan di dalam method setor(): `if jumlah > 0:`. Apakah -50000 > 0?",
+      "execution": "Karena kondisi bernilai False, saldo tidak bertambah dan tetap bernilai 100000."
+    },
+    "explanation": "Pada class `RekeningBank`, atribut `__saldo` dienkapsulasi secara private. Method `setor(jumlah)` memiliki aturan validasi `if jumlah > 0`. Karena argumen yang dikirimkan adalah `-50000` (tidak lebih dari 0), kondisi tidak terpenuhi dan saldo tidak dimodifikasi. Pemanggilan `r.get_saldo()` tetap mengembalikan saldo awal yaitu 100000. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  },
+  {
+    "id": "rpl-lat-m-25",
+    "subject": "rpl",
+    "materi": "PEMROGRAMAN BERORIENTASI OBJEK (OOP)",
+    "mode": "latihan",
+    "difficulty": "medium",
+    "topic": "Class Attribute vs Instance Attribute",
+    "type": "mcq",
+    "questionHtml": "Perhatikan potongan kode program class berikut:<br><pre><code class=\"language-python\">class Siswa:\n    sekolah = \"SMK Negeri 1\"\n    def __init__(self, nama):\n        self.nama = nama\n\ns1 = Siswa(\"Budi\")\ns2 = Siswa(\"Ani\")\nSiswa.sekolah = \"SMK Pusat Keunggulan\"\n\nprint(s1.sekolah, \"-\", s2.sekolah)</code></pre>Perbedaan mendasar antara <code>Class Attribute</code> (seperti <code>sekolah</code>) dan <code>Instance Attribute</code> (seperti <code>nama</code>) yang dibuktikan oleh output program di atas adalah …",
+    "options": [
+      {
+        "key": "A",
+        "text": "Class attribute dibagi bersama (shared) oleh seluruh objek dari class tersebut, sehingga perubahannya berdampak pada semua objek (output: SMK Pusat Keunggulan - SMK Pusat Keunggulan)."
+      },
+      {
+        "key": "B",
+        "text": "Class attribute hanya dapat dibaca oleh objek pertama saja (output: SMK Pusat Keunggulan - SMK Negeri 1)."
+      },
+      {
+        "key": "C",
+        "text": "Instance attribute otomatis tersimpan di server cloud eksternal."
+      },
+      {
+        "key": "D",
+        "text": "Class attribute tidak dapat dimodifikasi setelah class pertama kali didefinisikan."
+      },
+      {
+        "key": "E",
+        "text": "Program menghasilkan Error: Siswa object has no attribute sekolah."
+      }
+    ],
+    "formulaHud": {
+      "title": "OOP: CLASS ATTRIBUTE VS INSTANCE ATTRIBUTE",
+      "latex": "\\text{Class Attribute } (\\text{Shared Namespace}) \\quad \\text{vs} \\quad \\text{Instance Attribute } (\\text{Unique per Object})",
+      "legend": "• `sekolah`: Didefinisikan di luar method, milik class, dibagikan ke seluruh instans.<br>• `self.nama`: Didefinisikan di dalam `__init__`, unik untuk setiap instans objek."
+    },
+    "hints": {
+      "concept": "Class attribute adalah variabel milik class yang nilainya dibagi bersama oleh seluruh instans objek yang dibuat dari class tersebut.",
+      "execution": "Mengubah `Siswa.sekolah` memperbarui nilai bagi seluruh objek (`s1` dan `s2`)."
+    },
+    "explanation": "Variabel `sekolah` yang didefinisikan langsung di dalam tubuh class adalah Class Attribute. Variabel ini dimiliki bersama oleh seluruh instans (`s1`, `s2`). Ketika `Siswa.sekolah` diubah menjadi 'SMK Pusat Keunggulan', perubahan ini terefleksi pada seluruh objek yang mengakses atribut tersebut. Outputnya adalah `SMK Pusat Keunggulan - SMK Pusat Keunggulan`. Jawaban: A.",
+    "isDiagnostic": false,
+    "correctKey": "A"
+  }
 ]
 
-print(f"Loaded {len(MEDIUM_QUESTIONS)} medium questions.")
+print('Loaded 25 items.')
