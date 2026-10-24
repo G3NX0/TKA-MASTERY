@@ -595,7 +595,7 @@ SIMULASI_QUESTIONS = [
     "difficulty": "simulation_hots",
     "topic": "Perhitungan Subnetting IPv4 (/28)",
     "type": "mcq",
-    "questionHtml": "Laboratorium komputer RPL membutuhkan subnetting untuk menghubungkan 12 komputer workstation ke jaringan sekolah. Administrator mengalokasikan subnet <strong>172.16.5.0/28</strong>. Berapakah jumlah total host valid yang dapat digunakan pada subnet tersebut, serta berapakah nilai Subnet Mask-nya?",
+    "questionHtml": "Laboratorium komputer RPL membutuhkan subnetting untuk menghubungkan 12 komputer workstation ke jaringan sekolah. Administrator mengalokasikan subnet:<div class=\"net-spec-box\"><div class=\"net-spec-title\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>Alokasi Subnet Workstation Lab</div><div class=\"net-spec-list\"><div class=\"net-spec-item\">🌐 <strong>Subnet Alokasi:</strong> <span class=\"net-ip-badge\">172.16.5.0/28</span> (Kebutuhan: 12 workstation)</div></div></div>Berapakah jumlah total host valid yang dapat digunakan pada subnet tersebut, serta berapakah nilai Subnet Mask-nya?",
     "options": [
       {
         "key": "A",

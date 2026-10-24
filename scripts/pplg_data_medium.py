@@ -448,7 +448,7 @@ MEDIUM_QUESTIONS = [
     "difficulty": "medium",
     "topic": "Subnetting IPv4 & Komunikasi Jaringan",
     "type": "mcq",
-    "questionHtml": "Dua komputer pengembang masing-masing dikonfigurasi dengan alamat IP sebagai berikut:<br>• Komputer A: <code>192.168.1.50/24</code><br>• Komputer B: <code>192.168.2.50/24</code><br>Kedua komputer ditancapkan ke port switch layer-2 yang sama tanpa perangkat router. Apa yang akan terjadi jika Komputer A mencoba mengirim paket data langsung ke Komputer B (misalnya dengan <code>ping 192.168.2.50</code>)?",
+    "questionHtml": "Dua komputer pengembang masing-masing dikonfigurasi dengan alamat IP sebagai berikut:<div class=\"net-spec-box\"><div class=\"net-spec-title\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\"/><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"/></svg>Konfigurasi Host Switch Layer-2 (Tanpa Router)</div><div class=\"net-spec-list\"><div class=\"net-spec-item\">💻 <strong>Komputer A:</strong> <span class=\"net-ip-badge\">192.168.1.50/24</span></div><div class=\"net-spec-item\">💻 <strong>Komputer B:</strong> <span class=\"net-ip-badge\">192.168.2.50/24</span></div></div></div>Kedua komputer ditancapkan ke port switch layer-2 yang sama tanpa perangkat router. Apa yang akan terjadi jika Komputer A mencoba mengirim paket data langsung ke Komputer B (misalnya dengan <code>ping 192.168.2.50</code>)?",
     "options": [
       {
         "key": "A",

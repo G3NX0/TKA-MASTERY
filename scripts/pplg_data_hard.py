@@ -448,7 +448,7 @@ HARD_QUESTIONS = [
     "difficulty": "hard",
     "topic": "Perhitungan Subnetting VLSM IPv4 (/29)",
     "type": "mcq",
-    "questionHtml": "Sebuah klaster server aplikasi mikroservis diberikan alokasi blok jaringan IPv4: <strong>192.168.10.64/29</strong>. Berapakah jumlah alamat IP host yang VALID dan dapat digunakan untuk server, serta berapakah alamat Broadcast dari subnet tersebut?",
+    "questionHtml": "Sebuah klaster server aplikasi mikroservis diberikan alokasi blok jaringan IPv4:<div class=\"net-spec-box\"><div class=\"net-spec-title\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z\"/></svg>Alokasi Blok Subnet CIDR Server</div><div class=\"net-spec-list\"><div class=\"net-spec-item\">🌐 <strong>Alamat Blok:</strong> <span class=\"net-ip-badge\">192.168.10.64/29</span></div></div></div>Berapakah jumlah alamat IP host yang VALID dan dapat digunakan untuk server, serta berapakah alamat Broadcast dari subnet tersebut?",
     "options": [
       {
         "key": "A",

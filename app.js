@@ -263,7 +263,7 @@
     fisika:          { physicsConstants: true },
     tkj:             { subnetCalc: true },
     pkk:             { bepCalc: true },
-    rpl:             { traceTable: true },
+    rpl:             { traceTable: true, subnetCalc: true },
     informatika:     { traceTable: true, subnetCalc: true },
     ekonomi:         { bepCalc: true }
   };
@@ -3510,6 +3510,19 @@
     'Exception', 'List', 'ArrayList', 'HashMap', 'HashSet', 'console', 'JSON'
   ]);
 
+  const CODE_PYTHON_KEYWORDS = new Set([
+    'def', 'class', 'return', 'self', 'if', 'elif', 'else', 'for', 'in', 'while',
+    'import', 'from', 'as', 'None', 'True', 'False', 'is', 'not', 'and', 'or',
+    'pass', 'break', 'continue', 'lambda', 'with', 'try', 'except', 'finally',
+    'raise', 'yield', 'global', 'nonlocal', '__init__', 'async', 'await'
+  ]);
+
+  const CODE_PYTHON_FUNCS = new Set([
+    'print', 'len', 'range', 'append', 'extend', 'split', 'join', 'int', 'str',
+    'float', 'list', 'dict', 'set', 'tuple', 'type', 'input', 'open', 'sum',
+    'min', 'max', 'sorted', 'enumerate', 'zip', 'map', 'filter', 'isinstance'
+  ]);
+
   const CODE_SQL_KEYWORDS = new Set([
     'SELECT', 'FROM', 'WHERE', 'GROUP', 'BY', 'ORDER', 'HAVING', 'INSERT',
     'INTO', 'UPDATE', 'DELETE', 'JOIN', 'INNER', 'LEFT', 'RIGHT', 'OUTER',
@@ -3521,8 +3534,16 @@
   ]);
 
   function highlightCodeSyntax(code, lang) {
-    const l = (lang || '').toLowerCase();
-    const tokenRegex = /(\/\/[^\n]*|\/\*[\s\S]*?\*\/|--[^\n]*|"[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|@\w+|\b\d+(?:\.\d+)?\b|\b[a-zA-Z_]\w*\b|[^\s\w])/g;
+    let l = (lang || '').toLowerCase();
+    if (!l || l === 'code') {
+      if (/\b(def|self|__init__|elif|class\s+\w+[:\(])\b|#\s/.test(code)) l = 'python';
+      else if (/\b(SELECT|FROM|WHERE|INSERT|CREATE TABLE|ALTER TABLE)\b/i.test(code)) l = 'sql';
+      else if (/\b(public class|System\.out|private|protected)\b/.test(code)) l = 'java';
+      else if (/\b(console\.log|const |let |var |=>)\b/.test(code)) l = 'javascript';
+      else if (/\b(chmod|mkdir|sudo|git|CONFLICT)\b/.test(code)) l = 'bash';
+    }
+
+    const tokenRegex = /(\/\/[^\n]*|\/\*[\s\S]*?\*\/|--[^\n]*|#[^\n]*|"[^"\\]*(?:\\.[^"\\]*)*"|'[^'\\]*(?:\\.[^'\\]*)*'|@\w+|\b\d+(?:\.\d+)?\b|\b[a-zA-Z_]\w*\b|[^\s\w])/g;
 
     let result = '';
     let lastIndex = 0;
@@ -3537,7 +3558,7 @@
       const val = match[1];
       const esc = escapeHtml(val);
 
-      if (val.startsWith('//') || val.startsWith('/*') || val.startsWith('--')) {
+      if (val.startsWith('//') || val.startsWith('/*') || val.startsWith('--') || val.startsWith('#')) {
         result += `<span class="tok-comment">${esc}</span>`;
       } else if ((val.startsWith('"') && val.endsWith('"')) || (val.startsWith("'") && val.endsWith("'"))) {
         result += `<span class="tok-str">${esc}</span>`;
@@ -3545,6 +3566,14 @@
         result += `<span class="tok-annot">${esc}</span>`;
       } else if (/^\d/.test(val)) {
         result += `<span class="tok-num">${esc}</span>`;
+      } else if (l === 'python' || l === 'py') {
+        if (CODE_PYTHON_KEYWORDS.has(val)) {
+          result += `<span class="tok-kw">${esc}</span>`;
+        } else if (CODE_PYTHON_FUNCS.has(val)) {
+          result += `<span class="tok-fn">${esc}</span>`;
+        } else {
+          result += esc;
+        }
       } else if (l === 'java' || l === 'javascript' || l === 'js') {
         if (CODE_JAVA_KEYWORDS.has(val)) {
           result += `<span class="tok-kw">${esc}</span>`;
@@ -3561,6 +3590,12 @@
         } else {
           result += esc;
         }
+      } else if (l === 'bash' || l === 'sh' || l === 'shell') {
+        if (['chmod', 'chown', 'mkdir', 'git', 'commit', 'push', 'merge', 'CONFLICT', 'sudo', 'cat', 'grep'].includes(val)) {
+          result += `<span class="tok-kw">${esc}</span>`;
+        } else {
+          result += esc;
+        }
       } else {
         result += esc;
       }
@@ -3573,12 +3608,28 @@
   }
 
   function renderCodeBox(code, lang) {
-    const rawLang = (lang || '').trim();
-    const displayLang = rawLang ? rawLang.toUpperCase() : 'CODE';
-    const highlighted = highlightCodeSyntax(code, rawLang);
-    const lineCount = code.split('\n').length;
+    let cleanCode = (code || '').trim();
+
+    // Strip hardcoded line numbers if present (e.g. '1: def ...', '2: return ...')
+    const rawLines = cleanCode.split('\n');
+    const numberedLines = rawLines.filter(line => /^\s*\d+:\s*/.test(line));
+    if (numberedLines.length >= 2 && numberedLines.length >= rawLines.filter(l => l.trim()).length * 0.4) {
+      cleanCode = rawLines.map(line => line.replace(/^\s*\d+:\s?/, '')).join('\n');
+    }
+
+    let rawLang = (lang || '').trim();
+    if (!rawLang || rawLang.toLowerCase() === 'code') {
+      if (/\b(def|self|__init__|elif|import|class\s+\w+[:\(])\b|#\s/.test(cleanCode)) rawLang = 'python';
+      else if (/\b(SELECT|FROM|WHERE|INSERT|CREATE TABLE|ALTER TABLE)\b/i.test(cleanCode)) rawLang = 'sql';
+      else if (/\b(chmod|mkdir|sudo|git|CONFLICT)\b/.test(cleanCode)) rawLang = 'bash';
+      else rawLang = 'code';
+    }
+
+    const displayLang = rawLang.toUpperCase();
+    const highlighted = highlightCodeSyntax(cleanCode, rawLang);
+    const lineCount = cleanCode.split('\n').length;
     const lineNumbers = Array.from({ length: lineCount }, (_, i) => `<span>${i + 1}</span>`).join('');
-    const encoded = encodeURIComponent(code);
+    const encoded = encodeURIComponent(cleanCode);
 
     return `<div class="code-snippet-box" data-raw-code="${encoded}">
       <div class="code-box-header">
@@ -3652,6 +3703,16 @@
     document.body.removeChild(ta);
   }
 
+  function unescapeHtmlEntities(str) {
+    if (!str || typeof str !== 'string') return str || '';
+    return str
+      .replace(/&lt;/g, '<')
+      .replace(/&gt;/g, '>')
+      .replace(/&quot;/g, '"')
+      .replace(/&#39;/g, "'")
+      .replace(/&amp;/g, '&');
+  }
+
   function autoIsolateArabic(str) {
     if (!str || typeof str !== 'string') return str || '';
     // Auto-wrap quoted Arabic text in <bdi> to protect against BiDi reordering disasters
@@ -3665,21 +3726,36 @@
 
     // If pure inline string without code block and without double-newlines
     if (inlineOnly) {
-      const replaced = content.replace(/`([^`\n]+)`/g, (m, inline) => `<code class="inline-code">${escapeHtml(inline)}</code>`);
+      let replaced = content.replace(/`([^`\n]+)`/g, (m, inline) => `<code class="inline-code">${escapeHtml(inline)}</code>`);
+      replaced = replaced.replace(/<code(?![^>]*class=)([^>]*)>([\s\S]*?)<\/code>/gi, '<code class="inline-code"$1>$2</code>');
       return autoIsolateArabic(replaced);
     }
 
     const blocks = [];
     const placeholderPrefix = '___CODE_BLOCK_TOKEN_';
-    let processed = content.replace(/```([a-zA-Z0-9_-]*)\s*([\s\S]*?)```/g, (match, lang, code) => {
+
+    // 1. Match HTML <pre><code...>...</code></pre>
+    let processed = content.replace(/<pre[^>]*><code(?:\s+class=["'](?:language-)?([a-zA-Z0-9_-]+)["'])?[^>]*>([\s\S]*?)<\/code><\/pre>/gi, (match, lang, code) => {
+      const idx = blocks.length;
+      const cleanRaw = unescapeHtmlEntities(code).replace(/<br\s*\/?>/gi, '\n');
+      blocks.push(renderCodeBox(cleanRaw.trim(), (lang || '').trim()));
+      return `\n\n${placeholderPrefix}${idx}___\n\n`;
+    });
+
+    // 2. Match Markdown ```lang ... ```
+    processed = processed.replace(/```([a-zA-Z0-9_-]*)\s*([\s\S]*?)```/g, (match, lang, code) => {
       const idx = blocks.length;
       blocks.push(renderCodeBox(code.trim(), lang.trim()));
       return `\n\n${placeholderPrefix}${idx}___\n\n`;
     });
 
+    // 3. Match inline backticks
     processed = processed.replace(/`([^`\n]+)`/g, (m, inline) => {
       return `<code class="inline-code">${escapeHtml(inline)}</code>`;
     });
+
+    // 4. Style raw <code> without class
+    processed = processed.replace(/<code(?![^>]*class=)([^>]*)>([\s\S]*?)<\/code>/gi, '<code class="inline-code"$1>$2</code>');
 
     processed = autoIsolateArabic(processed);
 

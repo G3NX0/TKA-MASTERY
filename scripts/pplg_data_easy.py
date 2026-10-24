@@ -541,7 +541,7 @@ EASY_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Infrastruktur & Addressing IPv4 Subnet",
     "type": "mcq",
-    "questionHtml": "Cermati data konfigurasi jaringan lokal (LAN) pada infrastruktur pengembangan aplikasi web yang terhubung melalui satu Switch (tanpa Router/VLAN) berikut:<br>• Server Aplikasi: IP <code>192.168.10.10/24</code><br>• File Storage Server: IP <code>192.168.10.15/24</code><br>• Database Server: <em>Titik A</em><br>Agar Database Server pada Titik A dapat berkomunikasi langsung dengan Server Aplikasi dan File Storage Server dalam subnet yang sama, alamat IP yang paling tepat dikonfigurasi pada Titik A adalah …",
+    "questionHtml": "Cermati data konfigurasi jaringan lokal (LAN) pada infrastruktur pengembangan aplikasi web yang terhubung melalui satu Switch (tanpa Router/VLAN) berikut:<div class=\"net-spec-box\"><div class=\"net-spec-title\"><svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\"><rect x=\"2\" y=\"2\" width=\"20\" height=\"8\" rx=\"2\"/><rect x=\"2\" y=\"14\" width=\"20\" height=\"8\" rx=\"2\"/><line x1=\"6\" y1=\"6\" x2=\"6.01\" y2=\"6\"/><line x1=\"6\" y1=\"18\" x2=\"6.01\" y2=\"18\"/></svg>Topologi Switch LAN Server (Subnet /24)</div><div class=\"net-spec-list\"><div class=\"net-spec-item\">🖥️ <strong>Server Aplikasi:</strong> <span class=\"net-ip-badge\">192.168.10.10/24</span></div><div class=\"net-spec-item\">📁 <strong>File Storage Server:</strong> <span class=\"net-ip-badge\">192.168.10.15/24</span></div><div class=\"net-spec-item\">🗄️ <strong>Database Server:</strong> <span class=\"net-ip-badge\">[ Titik A ]</span></div></div></div>Agar Database Server pada Titik A dapat berkomunikasi langsung dengan Server Aplikasi dan File Storage Server dalam subnet yang sama, alamat IP yang paling tepat dikonfigurasi pada Titik A adalah …",
     "options": [
       {
         "key": "A",
@@ -805,7 +805,7 @@ EASY_QUESTIONS = [
     "difficulty": "easy",
     "topic": "Modularisasi Program & Pemanggilan Fungsi",
     "type": "mcq",
-    "questionHtml": "Perhatikan potongan kode program modular berikut!<br><pre><code>1: def hitung(a, b):\n2:     return a + b + 2\n3:\n4: def proses(x):\n5:     return x * 2 + 1\n6:\n7: # Lengkapi baris 8 di bawah ini\n8: ________________________\n9: print(nilai)</code></pre>Agar output program menghasilkan angka <strong>11</strong>, maka pernyataan yang harus dilengkapi pada baris 8 adalah …",
+    "questionHtml": "Perhatikan potongan kode program modular berikut!<br><pre><code class=\"language-python\">def hitung(a, b):\n    return a + b + 2\n\ndef proses(x):\n    return x * 2 + 1\n\n# Lengkapi baris 8 di bawah ini\n________________________\nprint(nilai)</code></pre>Agar output program menghasilkan angka <strong>11</strong>, maka pernyataan yang harus dilengkapi pada baris 8 adalah …",
     "options": [
       {
         "key": "A",
