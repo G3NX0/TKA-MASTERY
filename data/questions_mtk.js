@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_MTK_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_MTK_QUESTIONS = [
   {
     "id": "mtk-lat-e-01",
@@ -19,18 +25,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rp 225.000"
+        "text": "Rp 230.000"
       },
       {
         "key": "D",
-        "text": "Rp 230.000"
+        "text": "Rp 225.000"
       },
       {
         "key": "E",
         "text": "Rp 235.000"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "INVERSI KOMPOSISI",
       "latex": "(g \\circ f)(x) = y \\iff x = f^{-1}(g^{-1}(y))",
@@ -55,26 +61,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "94 meter"
-      },
-      {
-        "key": "B",
         "text": "97 meter"
       },
       {
+        "key": "B",
+        "text": "105 meter"
+      },
+      {
         "key": "C",
-        "text": "101 meter"
+        "text": "94 meter"
       },
       {
         "key": "D",
-        "text": "105 meter"
+        "text": "101 meter"
       },
       {
         "key": "E",
         "text": "110 meter"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "RATA-RATA GABUNGAN",
       "latex": "\\Delta \\text{Total} = n(\\bar{x}_{\\text{baru}} - \\bar{x}_{\\text{lama}})",
@@ -99,26 +105,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{3}{2}$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$2$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{5}{4}$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$\\frac{7}{4}$"
+      },
+      {
+        "key": "E",
+        "text": "$1$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SIFAT EKSPONEN BASIS 2",
       "latex": "a^m \\cdot a^n = a^{m+n}, \\quad 4 = 2^2, \\quad 128 = 2^7",
@@ -143,26 +149,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3(\\sqrt{7} + \\sqrt{3})$"
-      },
-      {
-        "key": "B",
         "text": "$3(\\sqrt{7} - \\sqrt{3})$"
       },
       {
+        "key": "B",
+        "text": "$3(\\sqrt{7} + \\sqrt{3})$"
+      },
+      {
         "key": "C",
-        "text": "$4(\\sqrt{7} + \\sqrt{3})$"
+        "text": "$2(\\sqrt{7} + \\sqrt{3})$"
       },
       {
         "key": "D",
-        "text": "$2(\\sqrt{7} + \\sqrt{3})$"
+        "text": "$4(\\sqrt{7} + \\sqrt{3})$"
       },
       {
         "key": "E",
         "text": "$6(\\sqrt{7} - \\sqrt{3})$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PERKALIAN SEKAWAN",
       "latex": "\\frac{c}{\\sqrt{a}-\\sqrt{b}} \\times \\frac{\\sqrt{a}+\\sqrt{b}}{\\sqrt{a}+\\sqrt{b}} = \\frac{c(\\sqrt{a}+\\sqrt{b})}{a-b}",
@@ -191,11 +197,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$4$"
+        "text": "$5$"
       },
       {
         "key": "C",
-        "text": "$5$"
+        "text": "$4$"
       },
       {
         "key": "D",
@@ -206,7 +212,7 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$9$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "SIFAT OPERASI LOGARITMA",
       "latex": "^a\\log b + ^a\\log c - ^a\\log d = ^a\\log\\left(\\frac{b \\cdot c}{d}\\right)",
@@ -231,15 +237,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$62$"
-      },
-      {
-        "key": "B",
         "text": "$65$"
       },
       {
+        "key": "B",
+        "text": "$74$"
+      },
+      {
         "key": "C",
-        "text": "$68$"
+        "text": "$62$"
       },
       {
         "key": "D",
@@ -247,10 +253,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$74$"
+        "text": "$68$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SUKU KE-N BARISAN ARITMETIKA",
       "latex": "U_n = a + (n - 1)b, \\quad b = \\frac{U_q - U_p}{q - p}",
@@ -275,11 +281,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.725\\text{ unit}$"
+        "text": "$2.025\\text{ unit}$"
       },
       {
         "key": "B",
-        "text": "$1.800\\text{ unit}$"
+        "text": "$1.950\\text{ unit}$"
       },
       {
         "key": "C",
@@ -287,11 +293,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$1.950\\text{ unit}$"
+        "text": "$1.725\\text{ unit}$"
       },
       {
         "key": "E",
-        "text": "$2.025\\text{ unit}$"
+        "text": "$1.800\\text{ unit}$"
       }
     ],
     "correctKey": "C",
@@ -319,7 +325,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 6.000"
+        "text": "Rp 7.000"
       },
       {
         "key": "B",
@@ -327,7 +333,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rp 6.500"
+        "text": "Rp 6.000"
       },
       {
         "key": "D",
@@ -335,10 +341,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp 7.000"
+        "text": "Rp 6.500"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "ELIMINASI SPLDV",
       "latex": "3x + 2y = 16.500, \\quad 2x + 4y = 19.000",
@@ -363,26 +369,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
-      },
-      {
-        "key": "B",
-        "text": "$2$"
-      },
-      {
-        "key": "C",
         "text": "$3$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$4$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
         "text": "$5$"
+      },
+      {
+        "key": "E",
+        "text": "$2$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PEMFAKTORAN KUADRAT",
       "latex": "(x - p)(x - q) = 0 \\iff x = p \\text{ atau } x = q",
@@ -407,26 +413,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{3}{2}$"
-      },
-      {
-        "key": "C",
         "text": "$2$"
       },
       {
+        "key": "B",
+        "text": "$3$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
         "key": "D",
-        "text": "$\\frac{5}{2}$"
+        "text": "$1$"
       },
       {
         "key": "E",
-        "text": "$3$"
+        "text": "$\\frac{5}{2}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TEOREMA VIETA",
       "latex": "\\alpha + \\beta = -\\frac{b}{a}, \\quad \\alpha \\beta = \\frac{c}{a}",
@@ -451,15 +457,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x \\le 5$"
+        "text": "$x \\ge 7$"
       },
       {
         "key": "B",
-        "text": "$x \\le 7$"
+        "text": "$x \\ge 9$"
       },
       {
         "key": "C",
-        "text": "$x \\ge 7$"
+        "text": "$x \\le 5$"
       },
       {
         "key": "D",
@@ -467,10 +473,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$x \\ge 9$"
+        "text": "$x \\le 7$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PERTIDAKSAMAAN LINEAR",
       "latex": "ax + b \\le cx + d \\iff (a - c)x \\le d - b",
@@ -495,26 +501,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{5}{2}$"
       },
       {
         "key": "B",
-        "text": "$1$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{3}{2}$"
       },
       {
+        "key": "C",
+        "text": "$\\frac{1}{2}$"
+      },
+      {
         "key": "D",
-        "text": "$2$"
+        "text": "$1$"
       },
       {
         "key": "E",
-        "text": "$\\frac{5}{2}$"
+        "text": "$2$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "FORMULA GRADIEN GARIS",
       "latex": "m = \\frac{y_2 - y_1}{x_2 - x_1}",
@@ -543,7 +549,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$13$"
+        "text": "$17$"
       },
       {
         "key": "C",
@@ -551,14 +557,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$17$"
+        "text": "$19$"
       },
       {
         "key": "E",
-        "text": "$19$"
+        "text": "$13$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "KOMPOSISI FUNGSI",
       "latex": "(f \\circ g)(x) = f(g(x))",
@@ -583,15 +589,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3x + 5}{4}$"
+        "text": "$\\frac{4x + 3}{5}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{3x - 5}{4}$"
+        "text": "$\\frac{3x + 5}{4}$"
       },
       {
         "key": "C",
-        "text": "$\\frac{4x + 3}{5}$"
+        "text": "$\\frac{3x - 4}{5}$"
       },
       {
         "key": "D",
@@ -599,10 +605,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{3x - 4}{5}$"
+        "text": "$\\frac{3x - 5}{4}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "INVERS FUNGSI LINEAR",
       "latex": "y = \\frac{ax + b}{c} \\iff x = \\frac{cy - b}{a}",
@@ -627,26 +633,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\begin{pmatrix} 5 & -7 \\\\ 7 & 6 \\end{pmatrix}$"
-      },
-      {
-        "key": "B",
         "text": "$\\begin{pmatrix} 5 & -7 \\\\ 1 & 6 \\end{pmatrix}$"
       },
       {
+        "key": "B",
+        "text": "$\\begin{pmatrix} 7 & -7 \\\\ 1 & 10 \\end{pmatrix}$"
+      },
+      {
         "key": "C",
-        "text": "$\\begin{pmatrix} 7 & -3 \\\\ 7 & 6 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 5 & -7 \\\\ 7 & 6 \\end{pmatrix}$"
       },
       {
         "key": "D",
-        "text": "$\\begin{pmatrix} 5 & 3 \\\\ 7 & 6 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 7 & -3 \\\\ 7 & 6 \\end{pmatrix}$"
       },
       {
         "key": "E",
-        "text": "$\\begin{pmatrix} 7 & -7 \\\\ 1 & 10 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 5 & 3 \\\\ 7 & 6 \\end{pmatrix}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "OPERASI ELEMEN MATRIKS",
       "latex": "k \\cdot A - B = [k \\cdot a_{ij} - b_{ij}]",
@@ -675,11 +681,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\begin{pmatrix} 9 & -1 \\\\ 3 & 15 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 9 & 3 \\\\ 1 & 15 \\end{pmatrix}$"
       },
       {
         "key": "C",
-        "text": "$\\begin{pmatrix} 8 & -2 \\\\ 0 & 15 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 9 & -1 \\\\ 3 & 15 \\end{pmatrix}$"
       },
       {
         "key": "D",
@@ -687,7 +693,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\begin{pmatrix} 9 & 3 \\\\ 1 & 15 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 8 & -2 \\\\ 0 & 15 \\end{pmatrix}$"
       }
     ],
     "correctKey": "A",
@@ -715,26 +721,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$"
+        "text": "$6$"
       },
       {
         "key": "B",
-        "text": "$3$"
-      },
-      {
-        "key": "C",
         "text": "$4$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$5$"
       },
       {
+        "key": "D",
+        "text": "$3$"
+      },
+      {
         "key": "E",
-        "text": "$6$"
+        "text": "$2$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DETERMINAN ORDO 2x2",
       "latex": "\\det(M) = ad - bc",
@@ -759,11 +765,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$48$"
+        "text": "$192$"
       },
       {
         "key": "B",
-        "text": "$72$"
+        "text": "$48$"
       },
       {
         "key": "C",
@@ -775,7 +781,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$192$"
+        "text": "$72$"
       }
     ],
     "correctKey": "C",
@@ -803,11 +809,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\text{ satuan}$"
+        "text": "$9\\text{ satuan}$"
       },
       {
         "key": "B",
-        "text": "$9\\text{ satuan}$"
+        "text": "$14\\text{ satuan}$"
       },
       {
         "key": "C",
@@ -815,11 +821,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$12\\text{ satuan}$"
+        "text": "$8\\text{ satuan}$"
       },
       {
         "key": "E",
-        "text": "$14\\text{ satuan}$"
+        "text": "$12\\text{ satuan}$"
       }
     ],
     "correctKey": "C",
@@ -847,11 +853,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$256\\text{ cm}^2$"
+        "text": "$448\\text{ cm}^2$"
       },
       {
         "key": "B",
-        "text": "$320\\text{ cm}^2$"
+        "text": "$512\\text{ cm}^2$"
       },
       {
         "key": "C",
@@ -859,14 +865,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$448\\text{ cm}^2$"
+        "text": "$320\\text{ cm}^2$"
       },
       {
         "key": "E",
-        "text": "$512\\text{ cm}^2$"
+        "text": "$256\\text{ cm}^2$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "LUAS KUBUS TANPA TUTUP",
       "latex": "L = 5 \\times s^2",
@@ -895,22 +901,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$120\\text{ cm}^3$"
-      },
-      {
-        "key": "C",
         "text": "$150\\text{ cm}^3$"
       },
       {
+        "key": "C",
+        "text": "$120\\text{ cm}^3$"
+      },
+      {
         "key": "D",
-        "text": "$180\\text{ cm}^3$"
+        "text": "$360\\text{ cm}^3$"
       },
       {
         "key": "E",
-        "text": "$360\\text{ cm}^3$"
+        "text": "$180\\text{ cm}^3$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "VOLUME LIMAS",
       "latex": "V = \\frac{1}{3} \\times L_{\\text{alas}} \\times t",
@@ -935,11 +941,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\text{ cm}$"
+        "text": "$12\\text{ cm}$"
       },
       {
         "key": "B",
-        "text": "$6\\sqrt{2}\\text{ cm}$"
+        "text": "$3\\sqrt{2}\\text{ cm}$"
       },
       {
         "key": "C",
@@ -947,14 +953,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$3\\sqrt{2}\\text{ cm}$"
+        "text": "$6\\text{ cm}$"
       },
       {
         "key": "E",
-        "text": "$12\\text{ cm}$"
+        "text": "$6\\sqrt{2}\\text{ cm}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "JARAK TITIK KE RUSUK TEGAK",
       "latex": "d = AC = s\\sqrt{2}",
@@ -979,26 +985,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = 4x - 14$"
+        "text": "$y = 4x - 12$"
       },
       {
         "key": "B",
-        "text": "$y = 4x - 10$"
+        "text": "$y = 4x - 14$"
       },
       {
         "key": "C",
-        "text": "$y = 4x + 10$"
+        "text": "$y = 4x - 10$"
       },
       {
         "key": "D",
-        "text": "$y = -4x + 10$"
+        "text": "$y = 4x + 10$"
       },
       {
         "key": "E",
-        "text": "$y = 4x - 12$"
+        "text": "$y = -4x + 10$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "GARIS SEJAJAR",
       "latex": "m_1 = m_2, \\quad y - y_1 = m(x - x_1)",
@@ -1023,26 +1029,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x - 2y = 0$"
-      },
-      {
-        "key": "B",
-        "text": "$x + 2y - 4 = 0$"
-      },
-      {
-        "key": "C",
-        "text": "$2x - y - 3 = 0$"
-      },
-      {
-        "key": "D",
         "text": "$x - 2y + 4 = 0$"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$2x + y - 5 = 0$"
+      },
+      {
+        "key": "C",
+        "text": "$x + 2y - 4 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$2x - y - 3 = 0$"
+      },
+      {
+        "key": "E",
+        "text": "$x - 2y = 0$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "GARIS TEGAK LURUS",
       "latex": "m_1 \\cdot m_2 = -1",
@@ -1067,7 +1073,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(3, 4)$"
+        "text": "$(7, 4)$"
       },
       {
         "key": "B",
@@ -1075,18 +1081,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$(7, 4)$"
+        "text": "$(7, -10)$"
       },
       {
         "key": "D",
-        "text": "$(7, -10)$"
+        "text": "$(3, 4)$"
       },
       {
         "key": "E",
         "text": "(-3, 4)"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "FORMULA TRANSLASI",
       "latex": "\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = \\begin{pmatrix} x \\\\ y \\end{pmatrix} + \\begin{pmatrix} a \\\\ b \\end{pmatrix}",
@@ -1111,26 +1117,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$78$"
-      },
-      {
-        "key": "B",
-        "text": "$79$"
-      },
-      {
-        "key": "C",
-        "text": "$80$"
-      },
-      {
-        "key": "D",
         "text": "$81$"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$82$"
+      },
+      {
+        "key": "C",
+        "text": "$79$"
+      },
+      {
+        "key": "D",
+        "text": "$80$"
+      },
+      {
+        "key": "E",
+        "text": "$78$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "RATA-RATA DATA TUNGGAL",
       "latex": "\\bar{x} = \\frac{\\sum x_i}{n}",
@@ -1155,11 +1161,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$7$"
+        "text": "$9$"
       },
       {
         "key": "B",
-        "text": "$7,5$"
+        "text": "$8,5$"
       },
       {
         "key": "C",
@@ -1167,11 +1173,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$8,5$"
+        "text": "$7$"
       },
       {
         "key": "E",
-        "text": "$9$"
+        "text": "$7,5$"
       }
     ],
     "correctKey": "C",
@@ -1199,26 +1205,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60$"
-      },
-      {
-        "key": "B",
-        "text": "$90$"
-      },
-      {
-        "key": "C",
         "text": "$120$"
       },
       {
+        "key": "B",
+        "text": "$60$"
+      },
+      {
+        "key": "C",
+        "text": "$90$"
+      },
+      {
         "key": "D",
-        "text": "$150$"
+        "text": "$216$"
       },
       {
         "key": "E",
-        "text": "$216$"
+        "text": "$150$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KAIDAH PENCACAHAN PERMUTASI",
       "latex": "P(n, r) = \\frac{n!}{(n - r)!}",
@@ -1243,26 +1249,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{12}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{1}{9}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\frac{5}{36}$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{1}{6}$"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$\\frac{7}{36}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{1}{9}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{5}{36}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{1}{12}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PELUANG KLASIK",
       "latex": "P(A) = \\frac{n(A)}{n(S)}",
@@ -1287,7 +1293,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{8}$"
+        "text": "$\\frac{1}{2}$"
       },
       {
         "key": "B",
@@ -1295,15 +1301,15 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{1}{2}$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{5}{8}$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$\\frac{3}{5}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{1}{8}$"
       }
     ],
     "correctKey": "B",
@@ -1339,7 +1345,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{3}{4}$"
+        "text": "$\\frac{5}{4}$"
       },
       {
         "key": "D",
@@ -1347,7 +1353,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{5}{4}$"
+        "text": "$\\frac{3}{4}$"
       }
     ],
     "correctKey": "B",
@@ -1375,26 +1381,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-1$"
+        "text": "$1$"
       },
       {
         "key": "B",
-        "text": "$-\\frac{1}{2}$"
+        "text": "$-1$"
       },
       {
         "key": "C",
-        "text": "$0$"
+        "text": "$-\\frac{1}{2}$"
       },
       {
         "key": "D",
-        "text": "$\\frac{1}{2}$"
+        "text": "$0$"
       },
       {
         "key": "E",
-        "text": "$1$"
+        "text": "$\\frac{1}{2}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "NILAI SUDUT ISTIMEWA",
       "latex": "\\sin 30^\\circ = \\frac{1}{2}, \\quad \\cos 60^\\circ = \\frac{1}{2}, \\quad \\tan 45^\\circ = 1",
@@ -1419,26 +1425,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{2}{3}\\pi\\text{ rad}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{3}{4}\\pi\\text{ rad}$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{5}{6}\\pi\\text{ rad}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{7}{6}\\pi\\text{ rad}$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$\\frac{2}{3}\\pi\\text{ rad}$"
+      },
+      {
+        "key": "D",
         "text": "$\\frac{4}{3}\\pi\\text{ rad}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{3}{4}\\pi\\text{ rad}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KONVERSI RADIAN",
       "latex": "\\theta_{\\text{rad}} = \\theta^\\circ \\times \\frac{\\pi}{180^\\circ}",
@@ -1463,15 +1469,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-1$"
-      },
-      {
-        "key": "B",
         "text": "$-\\frac{1}{2}\\sqrt{3}$"
       },
       {
+        "key": "B",
+        "text": "$-1$"
+      },
+      {
         "key": "C",
-        "text": "$-\\frac{1}{2}$"
+        "text": "$\\frac{1}{2}\\sqrt{3}$"
       },
       {
         "key": "D",
@@ -1479,10 +1485,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{2}\\sqrt{3}$"
+        "text": "$-\\frac{1}{2}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "SUDUT BERELASI KUADRAN II",
       "latex": "\\cos(180^\\circ - \\alpha) = -\\cos \\alpha",
@@ -1511,22 +1517,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$16,0\\text{ meter}$"
+        "text": "$18,5\\text{ meter}$"
       },
       {
         "key": "C",
-        "text": "$16,6\\text{ meter}$"
+        "text": "$16,0\\text{ meter}$"
       },
       {
         "key": "D",
-        "text": "$17,2\\text{ meter}$"
+        "text": "$16,6\\text{ meter}$"
       },
       {
         "key": "E",
-        "text": "$18,5\\text{ meter}$"
+        "text": "$17,2\\text{ meter}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "APLIKASI TANGEN ELEVASI",
       "latex": "\\tan \\theta = \\frac{t - h_{\\text{mata}}}{x} \\iff t = x \\cdot \\tan \\theta + h_{\\text{mata}}",
@@ -1562,15 +1568,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$"
-      },
-      {
-        "key": "B",
         "text": "$5$"
       },
       {
+        "key": "B",
+        "text": "$8$"
+      },
+      {
         "key": "C",
-        "text": "$6$"
+        "text": "$4$"
       },
       {
         "key": "D",
@@ -1578,10 +1584,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$8$"
+        "text": "$6$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-02",
@@ -1649,26 +1655,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$48\\text{ meter}$"
-      },
-      {
-        "key": "B",
-        "text": "$72\\text{ meter}$"
-      },
-      {
-        "key": "C",
-        "text": "$84\\text{ meter}$"
-      },
-      {
-        "key": "D",
         "text": "$96\\text{ meter}$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$84\\text{ meter}$"
+      },
+      {
+        "key": "C",
         "text": "$108\\text{ meter}$"
+      },
+      {
+        "key": "D",
+        "text": "$48\\text{ meter}$"
+      },
+      {
+        "key": "E",
+        "text": "$72\\text{ meter}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-04",
@@ -1693,26 +1699,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-1 \\le x \\le 4$"
+        "text": "$x < 0$ atau $x > 3$"
       },
       {
         "key": "B",
-        "text": "$-1 \\le x < 0$ atau $3 < x \\le 4$"
-      },
-      {
-        "key": "C",
         "text": "$0 < x < 3$"
       },
       {
+        "key": "C",
+        "text": "$-1 \\le x < 0$ atau $3 < x \\le 4$"
+      },
+      {
         "key": "D",
-        "text": "$x \\le -1$ atau $x \\ge 4$"
+        "text": "$-1 \\le x \\le 4$"
       },
       {
         "key": "E",
-        "text": "$x < 0$ atau $x > 3$"
+        "text": "$x \\le -1$ atau $x \\ge 4$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-m-05",
@@ -1737,26 +1743,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 23.600.000"
-      },
-      {
-        "key": "B",
         "text": "Rp 23.820.320"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Rp 24.120.000"
       },
       {
+        "key": "C",
+        "text": "Rp 23.600.000"
+      },
+      {
         "key": "D",
-        "text": "Rp 24.360.500"
+        "text": "Rp 24.800.000"
       },
       {
         "key": "E",
-        "text": "Rp 24.800.000"
+        "text": "Rp 24.360.500"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-m-06",
@@ -1825,26 +1831,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sqrt{6} - \\sqrt{5}$"
+        "text": "$\\sqrt{5} - \\sqrt{6}$"
       },
       {
         "key": "B",
-        "text": "$\\sqrt{10} - 1$"
-      },
-      {
-        "key": "C",
         "text": "$\\sqrt{7} - \\sqrt{4}$"
       },
       {
+        "key": "C",
+        "text": "$\\sqrt{10} - 1$"
+      },
+      {
         "key": "D",
-        "text": "$\\sqrt{8} - \\sqrt{3}$"
+        "text": "$\\sqrt{6} - \\sqrt{5}$"
       },
       {
         "key": "E",
-        "text": "$\\sqrt{5} - \\sqrt{6}$"
+        "text": "$\\sqrt{8} - \\sqrt{3}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-m-09",
@@ -1869,7 +1875,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-\\frac{3}{7}$"
+        "text": "$-3$"
       },
       {
         "key": "B",
@@ -1885,10 +1891,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$-3$"
+        "text": "$-\\frac{3}{7}$"
       }
     ],
-    "correctKey": "E"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-m-10",
@@ -1917,19 +1923,19 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-3 \\le x \\le 8$"
-      },
-      {
-        "key": "C",
         "text": "$x < -3$ atau $x \\ge 8$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$x \\le -3$ atau $x > 8$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$-3 < x < 8$"
+      },
+      {
+        "key": "E",
+        "text": "$-3 \\le x \\le 8$"
       }
     ],
     "correctKey": "A"
@@ -1957,26 +1963,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{18}{5}$"
+        "text": "$6$"
       },
       {
         "key": "B",
-        "text": "$\\frac{22}{5}$"
-      },
-      {
-        "key": "C",
         "text": "$4$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{26}{5}$"
       },
       {
+        "key": "D",
+        "text": "$\\frac{18}{5}$"
+      },
+      {
         "key": "E",
-        "text": "$6$"
+        "text": "$\\frac{22}{5}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-12",
@@ -2049,26 +2055,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\begin{pmatrix} 2 & -7 \\\\ -1 & 4 \\end{pmatrix}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\begin{pmatrix} 2 & 7 \\\\ 1 & 4 \\end{pmatrix}$"
-      },
-      {
-        "key": "D",
         "text": "$\\begin{pmatrix} 4 & -7 \\\\ -1 & 2 \\end{pmatrix}$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\begin{pmatrix} 2 & 7 \\\\ 1 & 4 \\end{pmatrix}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$"
+      },
+      {
+        "key": "D",
         "text": "$\\begin{pmatrix} 2 & -1 \\\\ -7 & 4 \\end{pmatrix}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\begin{pmatrix} 2 & -7 \\\\ -1 & 4 \\end{pmatrix}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-14",
@@ -2097,15 +2103,15 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\begin{pmatrix} 2 \\\\ -2 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} -1 \\\\ 7 \\end{pmatrix}$"
       },
       {
         "key": "C",
-        "text": "$\\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 2 \\\\ -2 \\end{pmatrix}$"
       },
       {
         "key": "D",
-        "text": "$\\begin{pmatrix} -1 \\\\ 7 \\end{pmatrix}$"
+        "text": "$\\begin{pmatrix} 3 \\\\ -5 \\end{pmatrix}$"
       },
       {
         "key": "E",
@@ -2137,26 +2143,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$101$"
-      },
-      {
-        "key": "B",
         "text": "$109$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$111$"
       },
       {
+        "key": "C",
+        "text": "$101$"
+      },
+      {
         "key": "D",
-        "text": "$121$"
+        "text": "$131$"
       },
       {
         "key": "E",
-        "text": "$131$"
+        "text": "$121$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-16",
@@ -2181,15 +2187,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{4}$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{1}{3}$"
       },
       {
+        "key": "B",
+        "text": "$\\frac{1}{4}$"
+      },
+      {
         "key": "C",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{3}{4}$"
       },
       {
         "key": "D",
@@ -2197,10 +2203,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{3}{4}$"
+        "text": "$\\frac{1}{2}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-17",
@@ -2225,11 +2231,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(-3, 7)$"
+        "text": "$(-5, 4)$"
       },
       {
         "key": "B",
-        "text": "$(-5, 4)$"
+        "text": "$(-3, 1)$"
       },
       {
         "key": "C",
@@ -2237,14 +2243,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$(-3, 1)$"
+        "text": "$(-3, 7)$"
       },
       {
         "key": "E",
         "text": "$(6, -2)$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-m-18",
@@ -2269,26 +2275,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$13$"
-      },
-      {
-        "key": "B",
-        "text": "$15$"
-      },
-      {
-        "key": "C",
         "text": "$17$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$19$"
+      },
+      {
+        "key": "C",
+        "text": "$15$"
+      },
+      {
+        "key": "D",
+        "text": "$13$"
       },
       {
         "key": "E",
         "text": "$21$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-m-19",
@@ -2313,26 +2319,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$k = 3$ dan akar real berbeda"
-      },
-      {
-        "key": "B",
-        "text": "$k = -3$ dan akar imajiner"
-      },
-      {
-        "key": "C",
-        "text": "$k = 3$ dan akar kembar"
-      },
-      {
-        "key": "D",
         "text": "$k = 1$ dan akar rasional"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$k = 3$ dan akar real berbeda"
+      },
+      {
+        "key": "C",
         "text": "$k = 0$ dan akar irasional"
+      },
+      {
+        "key": "D",
+        "text": "$k = -3$ dan akar imajiner"
+      },
+      {
+        "key": "E",
+        "text": "$k = 3$ dan akar kembar"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-21",
@@ -2357,7 +2363,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4\\sqrt{2}\\text{ cm}$"
+        "text": "$6\\text{ cm}$"
       },
       {
         "key": "B",
@@ -2365,18 +2371,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$6\\text{ cm}$"
+        "text": "$8\\text{ cm}$"
       },
       {
         "key": "D",
-        "text": "$4\\sqrt{5}\\text{ cm}$"
+        "text": "$4\\sqrt{2}\\text{ cm}$"
       },
       {
         "key": "E",
-        "text": "$8\\text{ cm}$"
+        "text": "$4\\sqrt{5}\\text{ cm}$"
       }
     ],
-    "correctKey": "E"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-m-22",
@@ -2401,26 +2407,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x^2 + y^2 - 4x + 6y + 4 = 0$"
-      },
-      {
-        "key": "B",
-        "text": "$x^2 + y^2 - 4x + 6y + 9 = 0$"
-      },
-      {
-        "key": "C",
         "text": "$x^2 + y^2 + 4x - 6y + 4 = 0$"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$x^2 + y^2 - 4x + 6y - 9 = 0$"
+      },
+      {
+        "key": "C",
         "text": "$x^2 + y^2 - 4x + 6y + 13 = 0$"
       },
       {
+        "key": "D",
+        "text": "$x^2 + y^2 - 4x + 6y + 9 = 0$"
+      },
+      {
         "key": "E",
-        "text": "$x^2 + y^2 - 4x + 6y - 9 = 0$"
+        "text": "$x^2 + y^2 - 4x + 6y + 4 = 0$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-23",
@@ -2445,26 +2451,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-3x + 4y = 25$"
-      },
-      {
-        "key": "B",
         "text": "$3x - 4y = 25$"
       },
       {
-        "key": "C",
-        "text": "$-3x - 4y = 25$"
+        "key": "B",
+        "text": "$4x + 3y = 25$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$4x - 3y = 25$"
       },
       {
+        "key": "D",
+        "text": "$-3x - 4y = 25$"
+      },
+      {
         "key": "E",
-        "text": "$4x + 3y = 25$"
+        "text": "$-3x + 4y = 25$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-m-24",
@@ -2493,7 +2499,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$(-2, 5)$"
+        "text": "(-1, 4)"
       },
       {
         "key": "C",
@@ -2501,11 +2507,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$(3, 4)$"
+        "text": "$(-2, 5)$"
       },
       {
         "key": "E",
-        "text": "(-1, 4)"
+        "text": "$(3, 4)$"
       }
     ],
     "correctKey": "A"
@@ -2533,26 +2539,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2x - 3y - 12 = 0$"
+        "text": "$3x - 2y - 12 = 0$"
       },
       {
         "key": "B",
-        "text": "$2x - 3y + 12 = 0$"
+        "text": "$2x - 3y - 12 = 0$"
       },
       {
         "key": "C",
-        "text": "$2x + 3y - 12 = 0$"
+        "text": "$2x - 3y + 12 = 0$"
       },
       {
         "key": "D",
-        "text": "$4x - 6y + 6 = 0$"
+        "text": "$2x + 3y - 12 = 0$"
       },
       {
         "key": "E",
-        "text": "$3x - 2y - 12 = 0$"
+        "text": "$4x - 6y + 6 = 0$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-26",
@@ -2577,26 +2583,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{2}\\sqrt{2}$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{1}{3}\\sqrt{3}$"
       },
       {
+        "key": "B",
+        "text": "$\\sqrt{2}$"
+      },
+      {
         "key": "C",
-        "text": "$\\frac{1}{2}\\sqrt{6}$"
+        "text": "$\\frac{1}{2}\\sqrt{2}$"
       },
       {
         "key": "D",
-        "text": "$\\sqrt{2}$"
+        "text": "$\\frac{1}{2}\\sqrt{6}$"
       },
       {
         "key": "E",
         "text": "$\\sqrt{3}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-m-27",
@@ -2621,15 +2627,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$71,86$"
-      },
-      {
-        "key": "B",
         "text": "$72,36$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$72,86$"
+      },
+      {
+        "key": "C",
+        "text": "$71,86$"
       },
       {
         "key": "D",
@@ -2640,7 +2646,7 @@ window.TKA_MTK_QUESTIONS = [
         "text": "$74,50$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-m-28",
@@ -2665,26 +2671,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$63,71$"
-      },
-      {
-        "key": "B",
-        "text": "$64,25$"
-      },
-      {
-        "key": "C",
-        "text": "$64,79$"
-      },
-      {
-        "key": "D",
         "text": "$65,50$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$64,79$"
+      },
+      {
+        "key": "C",
+        "text": "$64,25$"
+      },
+      {
+        "key": "D",
         "text": "$66,25$"
+      },
+      {
+        "key": "E",
+        "text": "$63,71$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-m-30",
@@ -2709,11 +2715,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$75\\text{ cara}$"
+        "text": "$180\\text{ cara}$"
       },
       {
         "key": "B",
-        "text": "$120\\text{ cara}$"
+        "text": "$75\\text{ cara}$"
       },
       {
         "key": "C",
@@ -2721,11 +2727,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$180\\text{ cara}$"
+        "text": "$210\\text{ cara}$"
       },
       {
         "key": "E",
-        "text": "$210\\text{ cara}$"
+        "text": "$120\\text{ cara}$"
       }
     ],
     "correctKey": "C"
@@ -2757,22 +2763,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$0,38$"
+        "text": "$0,62$"
       },
       {
         "key": "C",
-        "text": "$0,44$"
-      },
-      {
-        "key": "D",
         "text": "$0,56$"
       },
       {
+        "key": "D",
+        "text": "$0,38$"
+      },
+      {
         "key": "E",
-        "text": "$0,62$"
+        "text": "$0,44$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-m-32",
@@ -2797,26 +2803,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2\\sqrt{13}\\text{ cm}$"
-      },
-      {
-        "key": "B",
         "text": "$2\\sqrt{15}\\text{ cm}$"
       },
       {
-        "key": "C",
-        "text": "$5\\sqrt{2}\\text{ cm}$"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$2\\sqrt{19}\\text{ cm}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$6\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "key": "D",
+        "text": "$2\\sqrt{13}\\text{ cm}$"
+      },
+      {
+        "key": "E",
+        "text": "$5\\sqrt{2}\\text{ cm}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-m-33",
@@ -2841,26 +2847,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5\\sqrt{2}\\text{ cm}$"
-      },
-      {
-        "key": "B",
-        "text": "$5\\sqrt{3}\\text{ cm}$"
-      },
-      {
-        "key": "C",
         "text": "$10\\sqrt{2}\\text{ cm}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$10\\sqrt{3}\\text{ cm}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$5\\sqrt{6}\\text{ cm}$"
+      },
+      {
+        "key": "D",
+        "text": "$5\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "key": "E",
+        "text": "$5\\sqrt{3}\\text{ cm}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-m-34",
@@ -2885,11 +2891,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{36}{65}$"
+        "text": "$\\frac{48}{65}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{48}{65}$"
+        "text": "$\\frac{63}{65}$"
       },
       {
         "key": "C",
@@ -2897,7 +2903,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{63}{65}$"
+        "text": "$\\frac{36}{65}$"
       },
       {
         "key": "E",
@@ -2929,11 +2935,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60(\\sqrt{3} - 1)\\text{ meter}$"
+        "text": "$40\\sqrt{3}\\text{ meter}$"
       },
       {
         "key": "B",
-        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$"
+        "text": "$60\\sqrt{3}\\text{ meter}$"
       },
       {
         "key": "C",
@@ -2941,14 +2947,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$40\\sqrt{3}\\text{ meter}$"
+        "text": "$60(\\sqrt{3} - 1)\\text{ meter}$"
       },
       {
         "key": "E",
-        "text": "$60\\sqrt{3}\\text{ meter}$"
+        "text": "$60(\\sqrt{2} - 1)\\text{ meter}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-01",
@@ -2973,26 +2979,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\{-1, 2\\}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\{1, 2\\}$"
-      },
-      {
-        "key": "C",
         "text": "$\\{-2, 1\\}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\{0, 2\\}$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$\\{-1, 2\\}$"
+      },
+      {
+        "key": "D",
         "text": "$\\{-1, 3\\}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\{1, 2\\}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-h-02",
@@ -3017,26 +3023,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x < -1$ atau $x > 4$"
-      },
-      {
-        "key": "B",
-        "text": "$0 < x < \\frac{1}{2}$ atau $x > 16$"
-      },
-      {
-        "key": "C",
         "text": "$x < \\frac{1}{2}$ atau $x > 16$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{1}{2} < x < 16$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$x < -1$ atau $x > 4$"
+      },
+      {
+        "key": "D",
         "text": "$0 < x < 2$ atau $x > 16$"
+      },
+      {
+        "key": "E",
+        "text": "$0 < x < \\frac{1}{2}$ atau $x > 16$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-03",
@@ -3061,26 +3067,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1\\text{ jam } 20\\text{ menit}$"
-      },
-      {
-        "key": "B",
-        "text": "$1\\text{ jam } 40\\text{ menit}$"
-      },
-      {
-        "key": "C",
         "text": "$2\\text{ jam}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$2\\text{ jam } 20\\text{ menit}$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$1\\text{ jam } 20\\text{ menit}$"
+      },
+      {
+        "key": "D",
         "text": "$2\\text{ jam } 40\\text{ menit}$"
+      },
+      {
+        "key": "E",
+        "text": "$1\\text{ jam } 40\\text{ menit}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-04",
@@ -3105,26 +3111,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$36\\sqrt{3}\\text{ cm}^2$"
-      },
-      {
-        "key": "B",
-        "text": "$42\\sqrt{3}\\text{ cm}^2$"
-      },
-      {
-        "key": "C",
         "text": "$48\\sqrt{3}\\text{ cm}^2$"
       },
       {
+        "key": "B",
+        "text": "$64\\sqrt{3}\\text{ cm}^2$"
+      },
+      {
+        "key": "C",
+        "text": "$42\\sqrt{3}\\text{ cm}^2$"
+      },
+      {
         "key": "D",
-        "text": "$54\\sqrt{3}\\text{ cm}^2$"
+        "text": "$36\\sqrt{3}\\text{ cm}^2$"
       },
       {
         "key": "E",
-        "text": "$64\\sqrt{3}\\text{ cm}^2$"
+        "text": "$54\\sqrt{3}\\text{ cm}^2$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-06",
@@ -3149,26 +3155,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$18$"
-      },
-      {
-        "key": "B",
-        "text": "$23$"
-      },
-      {
-        "key": "C",
         "text": "$27$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$32$"
+      },
+      {
+        "key": "C",
+        "text": "$23$"
+      },
+      {
+        "key": "D",
+        "text": "$18$"
       },
       {
         "key": "E",
         "text": "$37$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-07",
@@ -3193,15 +3199,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$"
+        "text": "$\\frac{2\\sqrt{6} - \\sqrt{30}}{3}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{2\\sqrt{2} + 2\\sqrt{3} - 2\\sqrt{5} + \\sqrt{30}}{6}$"
+        "text": "$2\\sqrt{2} + \\sqrt{3} - \\sqrt{5}$"
       },
       {
         "key": "C",
-        "text": "$2\\sqrt{2} + \\sqrt{3} - \\sqrt{5}$"
+        "text": "$\\frac{2\\sqrt{2} + 2\\sqrt{3} - 2\\sqrt{5} + \\sqrt{30}}{6}$"
       },
       {
         "key": "D",
@@ -3209,10 +3215,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{2\\sqrt{6} - \\sqrt{30}}{3}$"
+        "text": "$\\sqrt{2} + \\sqrt{3} - \\sqrt{5} + \\sqrt{30}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-h-08",
@@ -3237,11 +3243,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-10$"
+        "text": "$12$"
       },
       {
         "key": "B",
-        "text": "$-8$"
+        "text": "$8$"
       },
       {
         "key": "C",
@@ -3249,11 +3255,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$8$"
+        "text": "$-8$"
       },
       {
         "key": "E",
-        "text": "$12$"
+        "text": "$-10$"
       }
     ],
     "correctKey": "C"
@@ -3281,11 +3287,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4x^2 - 12x + 1 = 0$"
+        "text": "$4x^2 - 14x + 1 = 0$"
       },
       {
         "key": "B",
-        "text": "$4x^2 - 14x + 1 = 0$"
+        "text": "$4x^2 + 12x + 1 = 0$"
       },
       {
         "key": "C",
@@ -3293,14 +3299,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$2x^2 - 6x + 1 = 0$"
+        "text": "$4x^2 - 12x + 1 = 0$"
       },
       {
         "key": "E",
-        "text": "$4x^2 + 12x + 1 = 0$"
+        "text": "$2x^2 - 6x + 1 = 0$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-10",
@@ -3325,26 +3331,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-3 < x < -1$"
-      },
-      {
-        "key": "B",
-        "text": "$-3 < x < 1$"
-      },
-      {
-        "key": "C",
-        "text": "$-3 \\le x < 1$"
-      },
-      {
-        "key": "D",
         "text": "$x > -3$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$-3 \\le x < 1$"
+      },
+      {
+        "key": "C",
         "text": "$x < -1$"
+      },
+      {
+        "key": "D",
+        "text": "$-3 < x < 1$"
+      },
+      {
+        "key": "E",
+        "text": "$-3 < x < -1$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-11",
@@ -3369,15 +3375,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$150\\text{ unit}$"
+        "text": "$350\\text{ unit}$"
       },
       {
         "key": "B",
-        "text": "$200\\text{ unit}$"
+        "text": "$150\\text{ unit}$"
       },
       {
         "key": "C",
-        "text": "$250\\text{ unit}$"
+        "text": "$200\\text{ unit}$"
       },
       {
         "key": "D",
@@ -3385,10 +3391,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$350\\text{ unit}$"
+        "text": "$250\\text{ unit}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-h-12",
@@ -3413,11 +3419,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 500.000"
+        "text": "Rp 800.000"
       },
       {
         "key": "B",
-        "text": "Rp 600.000"
+        "text": "Rp 500.000"
       },
       {
         "key": "C",
@@ -3425,14 +3431,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rp 800.000"
+        "text": "Rp 1.000.000"
       },
       {
         "key": "E",
-        "text": "Rp 1.000.000"
+        "text": "Rp 600.000"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-13",
@@ -3549,26 +3555,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0$"
-      },
-      {
-        "key": "B",
-        "text": "$1$"
-      },
-      {
-        "key": "C",
-        "text": "$2$"
-      },
-      {
-        "key": "D",
         "text": "$3$"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Tak hingga"
+      },
+      {
+        "key": "C",
+        "text": "$0$"
+      },
+      {
+        "key": "D",
+        "text": "$2$"
+      },
+      {
+        "key": "E",
+        "text": "$1$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-16",
@@ -3593,7 +3599,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$29$"
+        "text": "$33$"
       },
       {
         "key": "B",
@@ -3601,18 +3607,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$33$"
+        "text": "$37$"
       },
       {
         "key": "D",
-        "text": "$35$"
+        "text": "$29$"
       },
       {
         "key": "E",
-        "text": "$37$"
+        "text": "$35$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-17",
@@ -3637,26 +3643,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4\\text{ cm}$"
+        "text": "$4\\sqrt{3}\\text{ cm}$"
       },
       {
         "key": "B",
-        "text": "$4\\sqrt{2}\\text{ cm}$"
-      },
-      {
-        "key": "C",
-        "text": "$8\\text{ cm}$"
-      },
-      {
-        "key": "D",
         "text": "$8\\sqrt{2}\\text{ cm}$"
       },
       {
+        "key": "C",
+        "text": "$4\\sqrt{2}\\text{ cm}$"
+      },
+      {
+        "key": "D",
+        "text": "$8\\text{ cm}$"
+      },
+      {
         "key": "E",
-        "text": "$4\\sqrt{3}\\text{ cm}$"
+        "text": "$4\\text{ cm}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-18",
@@ -3681,11 +3687,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3}{5}$"
+        "text": "$\\frac{4}{5}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{4}{5}$"
+        "text": "$\\frac{3}{5}$"
       },
       {
         "key": "C",
@@ -3693,14 +3699,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{1}{2}\\sqrt{2}$"
+        "text": "$\\frac{5}{6}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{5}{6}$"
+        "text": "$\\frac{1}{2}\\sqrt{2}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-19",
@@ -3725,26 +3731,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = 2x + 10$"
-      },
-      {
-        "key": "B",
         "text": "$y = 2x + 5$"
       },
       {
+        "key": "B",
+        "text": "$y = 2x + 10$"
+      },
+      {
         "key": "C",
-        "text": "$y = 2x + 4$"
+        "text": "$y = 2x + 8$"
       },
       {
         "key": "D",
-        "text": "$y = 2x + 20$"
+        "text": "$y = 2x + 4$"
       },
       {
         "key": "E",
-        "text": "$y = 2x + 8$"
+        "text": "$y = 2x + 20$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-20",
@@ -3769,15 +3775,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(-2, -3)$"
+        "text": "$(-2, 3)$"
       },
       {
         "key": "B",
-        "text": "$(2, -3)$"
+        "text": "(-3, 2)"
       },
       {
         "key": "C",
-        "text": "$(-2, 3)$"
+        "text": "$(-2, -3)$"
       },
       {
         "key": "D",
@@ -3785,10 +3791,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "(-3, 2)"
+        "text": "$(2, -3)$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-h-21",
@@ -3817,22 +3823,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$8\\text{ satuan}$"
-      },
-      {
-        "key": "C",
         "text": "$10\\text{ satuan}$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$12\\text{ satuan}$"
+      },
+      {
+        "key": "D",
+        "text": "$8\\text{ satuan}$"
       },
       {
         "key": "E",
         "text": "$16\\text{ satuan}$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-22",
@@ -3857,26 +3863,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = \\pm \\frac{4}{3}x$"
-      },
-      {
-        "key": "B",
         "text": "$y = \\pm \\frac{3}{4}x$"
       },
       {
+        "key": "B",
+        "text": "$y = \\pm \\frac{16}{9}x$"
+      },
+      {
         "key": "C",
-        "text": "$y = \\pm \\frac{9}{16}x$"
+        "text": "$y = \\pm \\frac{4}{3}x$"
       },
       {
         "key": "D",
-        "text": "$y = \\pm \\frac{16}{9}x$"
+        "text": "$y = \\pm \\frac{9}{16}x$"
       },
       {
         "key": "E",
         "text": "$y = \\pm \\frac{5}{4}x$"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-23",
@@ -3901,26 +3907,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(3, 0)$ dan $x = -3$"
-      },
-      {
-        "key": "B",
         "text": "$(0, 3)$ dan $y = -3$"
       },
       {
+        "key": "B",
+        "text": "$(3, 0)$ dan $x = -3$"
+      },
+      {
         "key": "C",
-        "text": "$(-3, 0)$ dan $x = 3$"
+        "text": "$(6, 0)$ dan $x = -6$"
       },
       {
         "key": "D",
-        "text": "$(6, 0)$ dan $x = -6$"
+        "text": "$(-3, 0)$ dan $x = 3$"
       },
       {
         "key": "E",
         "text": "$(0, 6)$ dan $y = -6$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-24",
@@ -3945,26 +3951,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{4}{11}$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{4}{10}$"
       },
       {
-        "key": "C",
-        "text": "$\\frac{7}{11}$"
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{5}{11}$"
       },
       {
+        "key": "D",
+        "text": "$\\frac{4}{11}$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{7}{11}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-25",
@@ -3993,19 +3999,19 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{11}$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{5}{11}$"
       },
       {
+        "key": "C",
+        "text": "$\\frac{9}{22}$"
+      },
+      {
         "key": "D",
-        "text": "$\\frac{7}{22}$"
+        "text": "$\\frac{3}{11}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{9}{22}$"
+        "text": "$\\frac{7}{22}$"
       }
     ],
     "correctKey": "A"
@@ -4033,26 +4039,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$76{,}64$"
-      },
-      {
-        "key": "B",
         "text": "$77{,}14$"
       },
       {
-        "key": "C",
-        "text": "$78{,}25$"
+        "key": "B",
+        "text": "$76{,}64$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$79{,}50$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$80{,}14$"
+      },
+      {
+        "key": "E",
+        "text": "$78{,}25$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-27",
@@ -4077,26 +4083,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-160$"
-      },
-      {
-        "key": "B",
-        "text": "$-120$"
-      },
-      {
-        "key": "C",
         "text": "$120$"
       },
       {
+        "key": "B",
+        "text": "$240$"
+      },
+      {
+        "key": "C",
+        "text": "$-120$"
+      },
+      {
         "key": "D",
-        "text": "$160$"
+        "text": "$-160$"
       },
       {
         "key": "E",
-        "text": "$240$"
+        "text": "$160$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "mtk-lat-h-28",
@@ -4121,26 +4127,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$85$"
-      },
-      {
-        "key": "B",
-        "text": "$95$"
-      },
-      {
-        "key": "C",
-        "text": "$115$"
-      },
-      {
-        "key": "D",
         "text": "$120$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$115$"
+      },
+      {
+        "key": "C",
+        "text": "$95$"
+      },
+      {
+        "key": "D",
         "text": "$135$"
+      },
+      {
+        "key": "E",
+        "text": "$85$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-30",
@@ -4165,26 +4171,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3\\pi}{2}$"
-      },
-      {
-        "key": "B",
-        "text": "$2\\pi$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{5\\pi}{2}$"
       },
       {
+        "key": "B",
+        "text": "$\\frac{3\\pi}{2}$"
+      },
+      {
+        "key": "C",
+        "text": "$2\\pi$"
+      },
+      {
         "key": "D",
-        "text": "$3\\pi$"
+        "text": "$\\frac{7\\pi}{2}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{7\\pi}{2}$"
+        "text": "$3\\pi$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "mtk-lat-h-31",
@@ -4209,26 +4215,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{3}\\sqrt{3}$"
-      },
-      {
-        "key": "B",
-        "text": "$1$"
-      },
-      {
-        "key": "C",
         "text": "$\\sqrt{3}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{1}{2}$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$1$"
+      },
+      {
+        "key": "D",
         "text": "$\\frac{1}{2}\\sqrt{2}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{1}{3}\\sqrt{3}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-32",
@@ -4253,7 +4259,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2\\sqrt{19}\\text{ cm}$"
+        "text": "$14\\text{ cm}$"
       },
       {
         "key": "B",
@@ -4261,18 +4267,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$2\\sqrt{31}\\text{ cm}$"
+        "text": "$2\\sqrt{19}\\text{ cm}$"
       },
       {
         "key": "D",
-        "text": "$8\\text{ cm}$"
+        "text": "$2\\sqrt{31}\\text{ cm}$"
       },
       {
         "key": "E",
-        "text": "$14\\text{ cm}$"
+        "text": "$8\\text{ cm}$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "mtk-lat-h-33",
@@ -4297,26 +4303,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$"
-      },
-      {
-        "key": "B",
-        "text": "$35\\text{ cm}$ dan $25\\text{ cm}$"
-      },
-      {
-        "key": "C",
         "text": "$30\\text{ cm}$ dan $30\\text{ cm}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$45\\text{ cm}$ dan $15\\text{ cm}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$50\\text{ cm}$ dan $10\\text{ cm}$"
+      },
+      {
+        "key": "D",
+        "text": "$40\\text{ cm}$ dan $20\\text{ cm}$"
+      },
+      {
+        "key": "E",
+        "text": "$35\\text{ cm}$ dan $25\\text{ cm}$"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "mtk-lat-h-34",
@@ -4341,15 +4347,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = 3$ dan $x = -4$"
-      },
-      {
-        "key": "B",
         "text": "$y = -4$ dan $x = 3$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$y = 3$ dan $x = 4$"
+      },
+      {
+        "key": "C",
+        "text": "$y = \\frac{1}{2}$ dan $x = -4$"
       },
       {
         "key": "D",
@@ -4357,10 +4363,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$y = \\frac{1}{2}$ dan $x = -4$"
+        "text": "$y = 3$ dan $x = -4$"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "mtk-lat-h-35",
@@ -4385,15 +4391,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$383$"
-      },
-      {
-        "key": "B",
         "text": "$401$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$403$"
+      },
+      {
+        "key": "C",
+        "text": "$383$"
       },
       {
         "key": "D",
@@ -4419,26 +4425,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-5$"
+        "text": "$7$"
       },
       {
         "key": "B",
-        "text": "$-3$"
-      },
-      {
-        "key": "C",
-        "text": "$1$"
-      },
-      {
-        "key": "D",
         "text": "$3$"
       },
       {
+        "key": "C",
+        "text": "$-3$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      },
+      {
         "key": "E",
-        "text": "$7$"
+        "text": "$-5$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "GRADASI GARIS SINGGUNG PARABOLA",
       "latex": "m = f'(x_0) = 2x_0 - 2, \\quad y - y_0 = m(x - x_0)",
@@ -4463,26 +4469,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{12}{\\sqrt{17}}\\text{ cm}$"
-      },
-      {
-        "key": "C",
-        "text": "$3\\sqrt{2}\\text{ cm}$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{18}{\\sqrt{11}}\\text{ cm}$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\frac{6}{\\sqrt{6}}\\text{ cm}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{12}{\\sqrt{17}}\\text{ cm}$"
+      },
+      {
+        "key": "D",
         "text": "$4\\sqrt{3}\\text{ cm}$"
+      },
+      {
+        "key": "E",
+        "text": "$3\\sqrt{2}\\text{ cm}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "JARAK TITIK KE BIDANG DIMENSI TIGA",
       "latex": "d(C, BDP) = \\frac{3V_{limas}}{L_{alas \\Delta BDP}}",
@@ -4519,11 +4525,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$595$"
+        "text": "$630$"
       },
       {
         "key": "E",
-        "text": "$630$"
+        "text": "$595$"
       }
     ],
     "correctKey": "C",
@@ -4551,26 +4557,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\sqrt{3}\\text{ meter}$"
-      },
-      {
-        "key": "B",
         "text": "$60\\sqrt{3}\\text{ meter}$"
       },
       {
-        "key": "C",
-        "text": "$75\\sqrt{3}\\text{ meter}$"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$80\\text{ meter}$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$50\\sqrt{3}\\text{ meter}$"
+      },
+      {
+        "key": "D",
         "text": "$90\\sqrt{3}\\text{ meter}$"
+      },
+      {
+        "key": "E",
+        "text": "$75\\sqrt{3}\\text{ meter}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TRIGONOMETRI SUDUT ELEVASI DUA TITIK",
       "latex": "H = \\frac{d \\cdot \\tan \\alpha \\cdot \\tan \\beta}{\\tan \\beta - \\tan \\alpha}",
@@ -4595,15 +4601,15 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$12\\text{ jam}$"
-      },
-      {
-        "key": "B",
         "text": "$16\\text{ jam}$"
       },
       {
+        "key": "B",
+        "text": "$12\\text{ jam}$"
+      },
+      {
         "key": "C",
-        "text": "$20\\text{ jam}$"
+        "text": "$28\\text{ jam}$"
       },
       {
         "key": "D",
@@ -4611,10 +4617,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$28\\text{ jam}$"
+        "text": "$20\\text{ jam}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PELURUHAN EKSPONENSIAL RADIOAKTIF",
       "latex": "N(t) = N_0 \\left(\\frac{1}{2}\\right)^{\\frac{t}{T_{1/2}}}",
@@ -4639,7 +4645,7 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "10 kg"
+        "text": "25 kg"
       },
       {
         "key": "B",
@@ -4647,15 +4653,15 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "20 kg"
+        "text": "30 kg"
       },
       {
         "key": "D",
-        "text": "25 kg"
+        "text": "10 kg"
       },
       {
         "key": "E",
-        "text": "30 kg"
+        "text": "20 kg"
       }
     ],
     "correctKey": "B",
@@ -4687,22 +4693,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$22\\text{ cm}$"
+        "text": "$18\\text{ cm}$"
       },
       {
         "key": "C",
-        "text": "$24\\text{ cm}$"
+        "text": "$22\\text{ cm}$"
       },
       {
         "key": "D",
-        "text": "$25\\text{ cm}$"
+        "text": "$24\\text{ cm}$"
       },
       {
         "key": "E",
-        "text": "$18\\text{ cm}$"
+        "text": "$25\\text{ cm}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "GARIS SINGGUNG PERSEKUTUAN LUAR LINGKARAN",
       "latex": "d_{luar} = \\sqrt{p^2 - (R - r)^2}",
@@ -4727,26 +4733,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$16$"
-      },
-      {
-        "key": "B",
         "text": "$17$"
       },
       {
+        "key": "B",
+        "text": "$19$"
+      },
+      {
         "key": "C",
-        "text": "$18$"
+        "text": "$16$"
       },
       {
         "key": "D",
-        "text": "$19$"
+        "text": "$18$"
       },
       {
         "key": "E",
         "text": "$20$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "STATISTIKA DESKRIPTIF DATA TUNGGAL",
       "latex": "\\bar{x} = \\frac{\\sum x_i}{n}, \\quad J = x_{maks} - x_{min}",
@@ -4771,11 +4777,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1.200\\text{ m}^2$"
+        "text": "$2.400\\text{ m}^2$"
       },
       {
         "key": "B",
-        "text": "$1.600\\text{ m}^2$"
+        "text": "$2.000\\text{ m}^2$"
       },
       {
         "key": "C",
@@ -4783,11 +4789,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$2.000\\text{ m}^2$"
+        "text": "$1.600\\text{ m}^2$"
       },
       {
         "key": "E",
-        "text": "$2.400\\text{ m}^2$"
+        "text": "$1.200\\text{ m}^2$"
       }
     ],
     "correctKey": "C",
@@ -4823,7 +4829,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\approx 0,500$"
+        "text": "$\\approx 0,990$"
       },
       {
         "key": "D",
@@ -4831,7 +4837,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\approx 0,990$"
+        "text": "$\\approx 0,500$"
       }
     ],
     "correctKey": "A",
@@ -4863,19 +4869,19 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Rp 1.980.000"
-      },
-      {
-        "key": "C",
         "text": "Rp 2.150.000"
       },
       {
+        "key": "C",
+        "text": "Rp 1.980.000"
+      },
+      {
         "key": "D",
-        "text": "Rp 2.350.000"
+        "text": "Rp 2.500.000"
       },
       {
         "key": "E",
-        "text": "Rp 2.500.000"
+        "text": "Rp 2.350.000"
       }
     ],
     "correctKey": "A",
@@ -4903,11 +4909,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{2}{3}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{2}{3}$"
+        "text": "$\\frac{1}{3}\\sqrt{6}$"
       },
       {
         "key": "C",
@@ -4915,7 +4921,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{1}{3}\\sqrt{6}$"
+        "text": "$\\frac{1}{2}$"
       },
       {
         "key": "E",
@@ -4947,26 +4953,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x \\ge 2$"
-      },
-      {
-        "key": "B",
-        "text": "$1 < x \\le 2$"
-      },
-      {
-        "key": "C",
         "text": "$x > 1$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$x \\ge 3$"
+      },
+      {
+        "key": "C",
+        "text": "$1 < x \\le 2$"
+      },
+      {
+        "key": "D",
+        "text": "$x \\ge 2$"
       },
       {
         "key": "E",
         "text": "$2 \\le x \\le 4$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PERTIDAKSAMAAN EKSPONEN POLINOMIAL",
       "latex": "f(x)^{g(x)} \\ge 1 \\iff [f(x) > 1 \\land g(x) \\ge 0] \\lor [0 < f(x) < 1 \\land g(x) \\le 0]",
@@ -4999,7 +5005,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$9$"
+        "text": "$13$"
       },
       {
         "key": "D",
@@ -5007,10 +5013,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$13$"
+        "text": "$9$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TEOREMA VIETA SUKU BANYAK KUBIK",
       "latex": "\\alpha^2 + \\beta^2 + \\gamma^2 = (\\alpha + \\beta + \\gamma)^2 - 2(\\alpha\\beta + \\beta\\gamma + \\gamma\\alpha)",
@@ -5039,22 +5045,22 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{2}{3}$"
-      },
-      {
-        "key": "C",
         "text": "$1$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{4}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{2}{3}$"
       },
       {
         "key": "E",
         "text": "$\\frac{5}{6}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "RUMUS TANGEN PENJUMLAHAN DUA SUDUT",
       "latex": "\\tan(\\alpha + \\beta) = \\frac{\\tan \\alpha + \\tan \\beta}{1 - \\tan \\alpha \\cdot \\tan \\beta}",
@@ -5087,15 +5093,15 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menjadi 3 kali semula dikurangi 5"
+        "text": "Menjadi 9 kali semula dikurangi 5"
       },
       {
         "key": "D",
-        "text": "Menjadi 9 kali semula"
+        "text": "Menjadi 3 kali semula dikurangi 5"
       },
       {
         "key": "E",
-        "text": "Menjadi 9 kali semula dikurangi 5"
+        "text": "Menjadi 9 kali semula"
       }
     ],
     "correctKey": "B",
@@ -5123,11 +5129,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{6}$"
+        "text": "$\\frac{2}{3}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{5}{6}$"
+        "text": "$\\frac{7}{12}$"
       },
       {
         "key": "C",
@@ -5135,14 +5141,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{2}{3}$"
+        "text": "$\\frac{5}{6}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{7}{12}$"
+        "text": "$\\frac{1}{6}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PELUANG KOMBINATORIK TANPA PENGEMBALIAN",
       "latex": "P(E) = \\frac{n(E)}{n(S)} = \\frac{C(n_1, k_1) \\cdot C(n_2, k_2)}{C(N, K)}",
@@ -5167,26 +5173,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{4}{\\sqrt{5}}$"
-      },
-      {
-        "key": "B",
         "text": "$\\sqrt{5}$"
       },
       {
-        "key": "C",
-        "text": "$\\frac{6}{\\sqrt{5}}$"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$2\\sqrt{5}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\frac{8}{\\sqrt{5}}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{6}{\\sqrt{5}}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{4}{\\sqrt{5}}$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "JARAK MINIMUM TITIK KURVA KE GARIS LURUS",
       "latex": "d_{min} = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}}, \\quad \\text{di mana } f'(x_0) = m_{garis}",
@@ -5211,26 +5217,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3}{2}$"
-      },
-      {
-        "key": "B",
-        "text": "$2$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{5}{2}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$3$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\frac{1}{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "key": "E",
+        "text": "$2$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "KOMPOSISI FUNGSI BERULANG (SIKLIS)",
       "latex": "(f \\circ f)(x) = f(f(x)), \\quad f^3(x) = f(f(f(x)))",
@@ -5350,18 +5356,18 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$38$"
+        "text": "$40$"
       },
       {
         "key": "D",
-        "text": "$40$"
+        "text": "$38$"
       },
       {
         "key": "E",
         "text": "$42$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PROGRAM LINEAR METODE UJI TITIK POJOK",
       "latex": "Z_{maks} = \\max_{(x,y) \\in \\mathcal{D}} (ax + by)",
@@ -5434,11 +5440,11 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$96$"
+        "text": "$768$"
       },
       {
         "key": "C",
-        "text": "$192$"
+        "text": "$96$"
       },
       {
         "key": "D",
@@ -5446,10 +5452,10 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$768$"
+        "text": "$192$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PERMUTASI SIKLIS BERKELOMPOK",
       "latex": "P_{siklis} = (k - 1)! \\times \\prod (n_i!)",
@@ -5474,26 +5480,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{2}{3} < x < 4$"
-      },
-      {
-        "key": "B",
         "text": "$1 < x < 3$"
       },
       {
-        "key": "C",
-        "text": "$\\frac{1}{2} < x < 4$"
+        "key": "B",
+        "text": "$x < \\frac{2}{3}$ atau $x > 4$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$0 < x < 5$"
       },
       {
+        "key": "D",
+        "text": "$\\frac{1}{2} < x < 4$"
+      },
+      {
         "key": "E",
-        "text": "$x < \\frac{2}{3}$ atau $x > 4$"
+        "text": "$\\frac{2}{3} < x < 4$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PERTIDAKSAMAAN NILAI MUTLAK DUA RUAS",
       "latex": "|f(x)| < |g(x)| \\iff (f(x) + g(x))(f(x) - g(x)) < 0",
@@ -5518,11 +5524,11 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{a}{\\sqrt{3}}$"
+        "text": "$\\frac{a}{\\sqrt{2}}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{a\\sqrt{2}}{\\sqrt{3}}$"
+        "text": "$\\frac{a}{\\sqrt{3}}$"
       },
       {
         "key": "C",
@@ -5530,14 +5536,14 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{a\\sqrt{3}}{2}$"
+        "text": "$\\frac{a\\sqrt{2}}{\\sqrt{3}}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{a}{\\sqrt{2}}$"
+        "text": "$\\frac{a\\sqrt{3}}{2}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PROYEKSI VEKTOR ORTOGONAL DIMENSI TIGA",
       "latex": "|\\vec{u}_{proy}| = \\frac{|\\vec{u} \\cdot \\vec{v}|}{|\\vec{v}|}",
@@ -5562,26 +5568,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simpangan rata-rata"
+        "text": "Desil"
       },
       {
         "key": "B",
-        "text": "Jangkauan antarkuartil"
-      },
-      {
-        "key": "C",
-        "text": "Varians"
-      },
-      {
-        "key": "D",
         "text": "Kuartil tengah"
       },
       {
+        "key": "C",
+        "text": "Jangkauan antarkuartil"
+      },
+      {
+        "key": "D",
+        "text": "Simpangan rata-rata"
+      },
+      {
         "key": "E",
-        "text": "Desil"
+        "text": "Varians"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "UKURAN PENYEBARAN KUARTIL",
       "latex": "Q_d = \\frac{1}{2}(Q_3 - Q_1), \\quad H = Q_3 - Q_1",
@@ -5606,26 +5612,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{100\\sqrt{3}}{\\sqrt{3} - 1}\\text{ m}$"
-      },
-      {
-        "key": "B",
-        "text": "$50(\\sqrt{3} + 1)\\text{ m}$"
-      },
-      {
-        "key": "C",
         "text": "$50(3 + \\sqrt{3})\\text{ m}$"
       },
       {
+        "key": "B",
+        "text": "$60\\sqrt{3}\\text{ m}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{100\\sqrt{3}}{\\sqrt{3} - 1}\\text{ m}$"
+      },
+      {
         "key": "D",
-        "text": "$75\\sqrt{3}\\text{ m}$"
+        "text": "$50(\\sqrt{3} + 1)\\text{ m}$"
       },
       {
         "key": "E",
-        "text": "$60\\sqrt{3}\\text{ m}$"
+        "text": "$75\\sqrt{3}\\text{ m}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TRIGONOMETRI KLINOMETER DUA PENGAMAT",
       "latex": "h = \\frac{d}{\\cot \\alpha - \\cot \\beta}",
@@ -5650,26 +5656,26 @@ window.TKA_MTK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 12.500.000"
+        "text": "Rp 21.000.000"
       },
       {
         "key": "B",
-        "text": "Rp 14.800.000"
+        "text": "Rp 12.500.000"
       },
       {
         "key": "C",
-        "text": "Rp 16.200.000"
+        "text": "Rp 14.800.000"
       },
       {
         "key": "D",
-        "text": "Rp 18.000.000"
+        "text": "Rp 16.200.000"
       },
       {
         "key": "E",
-        "text": "Rp 21.000.000"
+        "text": "Rp 18.000.000"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "MODEL OPTIMASI TRANSPORTASI LOGISTIK",
       "latex": "C_{min} = \\sum c_{ij} x_{ij} \\quad \\text{terikat kendala pasokan dan permintaan}",
@@ -5698,7 +5704,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$0,3439$"
+        "text": "$0,4860$"
       },
       {
         "key": "C",
@@ -5706,7 +5712,7 @@ window.TKA_MTK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$0,4860$"
+        "text": "$0,3439$"
       },
       {
         "key": "E",

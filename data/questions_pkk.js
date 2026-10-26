@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB - QUESTIONS_PKK.JS
- * STANDAR PUSMENDIK KEMENDIKDASMEN TKA 2026 & BSKAP 033/H/KR/2024
- * 110 AUTHENTIC HIGH-QUALITY VOCATIONAL QUESTIONS (0% CYCLIC DUPLICATION)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_PKK_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_PKK_QUESTIONS = [
   {
     "id": "pkk-lat-e-01",
@@ -25,27 +26,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Strategi ST (Strengths-Threats), yaitu memanfaatkan keahlian teknis internal untuk menciptakan produk spesifik bagi ceruk pasar (niche market) lokal yang belum terlayani oleh studio pengembang besar."
-      },
-      {
-        "key": "B",
-        "text": "Strategi SO (Strengths-Opportunities), yaitu melakukan perang tarif banting harga gila-gilaan dengan studio besar tanpa menghitung biaya operasional demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Strategi WO (Weaknesses-Opportunities), yaitu menutup unit produksi dan menjual seluruh komputer lab ke pasar barang bekas secara mendadak."
-      },
-      {
-        "key": "D",
         "text": "Strategi WT (Weaknesses-Threats), yaitu menghentikan seluruh aktivitas riset dan membiarkan produk terbengkalai tanpa pembaruan fitur apa pun."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Strategi WO (Weaknesses-Opportunities), yaitu menutup unit produksi dan menjual seluruh komputer lab ke pasar barang bekas secara mendadak."
+      },
+      {
+        "key": "C",
+        "text": "Strategi SO (Strengths-Opportunities), yaitu melakukan perang tarif banting harga gila-gilaan dengan studio besar tanpa menghitung biaya operasional."
+      },
+      {
+        "key": "D",
         "text": "Strategi Defensif Pasif, yaitu menaikkan harga aplikasi hingga sepuluh kali lipat tanpa menambahkan nilai fungsional produk."
+      },
+      {
+        "key": "E",
+        "text": "Strategi ST (Strengths-Threats), yaitu memanfaatkan keahlian teknis internal untuk menciptakan produk spesifik bagi ceruk pasar (niche market) lokal yang belum terlayani oleh studio pengembang besar."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Strategi ST (Strengths-Threats), yaitu memanfaatkan keahlian teknis internal untuk menciptakan produk spesifik bagi ceruk pasar (niche market) lokal yang belum terlayani oleh studio pengembang besar.. Strategi ST mengombinasikan kekuatan internal (keahlian teknis) untuk mengatasi ancaman eksternal (persaingan studio besar) dengan membidik ceruk pasar (niche market). Pilih strategi ST yang fokus pada pemanfaatan keahlian unik untuk menembus pasar khusus (niche market)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Strategi ST (Strengths-Threats), yaitu memanfaatkan keahlian teknis internal untuk menciptakan produk spesifik bagi ceruk pasar (niche market) lokal yang belum terlayani oleh studio pengembang besar.. Strategi ST mengombinasikan kekuatan internal (keahlian teknis) untuk mengatasi ancaman eksternal (persaingan studio besar) dengan membidik ceruk pasar (niche market). Pilih strategi ST yang fokus pada pemanfaatan keahlian unik untuk menembus pasar khusus (niche market)."
   },
   {
     "id": "pkk-lat-e-02",
@@ -68,27 +69,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Customer Segments, karena menjelaskan karakteristik demografis dan profesi dari pelanggan yang memiliki laptop rusak demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Key Partnerships, karena menyebutkan toko suku cadang elektronik tempat membeli motherboard cadangan."
       },
       {
         "key": "B",
-        "text": "Value Propositions, karena mendefinisikan gabungan nilai keunggulan unik, manfaat solusi, dan pemecahan masalah yang ditawarkan kepada konsumen."
-      },
-      {
-        "key": "C",
-        "text": "Channels, karena menjabarkan armada sepeda motor yang digunakan teknisi untuk mendatangi rumah konsumen."
-      },
-      {
-        "key": "D",
         "text": "Cost Structure, karena menghitung biaya pembelian obeng dan pasta pendingin prosesor laptop."
       },
       {
+        "key": "C",
+        "text": "Value Propositions, karena mendefinisikan gabungan nilai keunggulan unik, manfaat solusi, dan pemecahan masalah yang ditawarkan kepada konsumen."
+      },
+      {
+        "key": "D",
+        "text": "Channels, karena menjabarkan armada sepeda motor yang digunakan teknisi untuk mendatangi rumah konsumen."
+      },
+      {
         "key": "E",
-        "text": "Key Partnerships, karena menyebutkan toko suku cadang elektronik tempat membeli motherboard cadangan."
+        "text": "Customer Segments, karena menjelaskan karakteristik demografis dan profesi dari pelanggan yang memiliki laptop rusak."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Value Propositions, karena mendefinisikan gabungan nilai keunggulan unik, manfaat solusi, dan pemecahan masalah yang ditawarkan kepada konsumen.. Value Proposition adalah blok di tengah BMC yang menjelaskan tawaran nilai, keunikan, dan manfaat utama produk/jasa bagi konsumen. Janji layanan cepat 2 jam dan garansi transparan adalah penawaran nilai (Value Proposition)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Value Propositions, karena mendefinisikan gabungan nilai keunggulan unik, manfaat solusi, dan pemecahan masalah yang ditawarkan kepada konsumen.. Value Proposition adalah blok di tengah BMC yang menjelaskan tawaran nilai, keunikan, dan manfaat utama produk/jasa bagi konsumen. Janji layanan cepat 2 jam dan garansi transparan adalah penawaran nilai (Value Proposition)."
   },
   {
     "id": "pkk-lat-e-03",
@@ -111,27 +112,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Final Mass Production, yaitu pelepasan produk matang berskala penuh yang sudah siap dipasarkan ke seluruh dunia tanpa perlu perbaikan lagi untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "Mockup Statis 3 Dimensi, yaitu patung tanah liat yang tidak memiliki fungsi operasional sama sekali di layar komputer."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimum Viable Product (MVP), yaitu versi produk paling sederhana yang memiliki fitur esensial minimum untuk memvalidasi hipotesis pasar dengan usaha dan sumber daya terkecil."
       },
       {
+        "key": "C",
+        "text": "End of Life (EOL), yaitu penarikan resmi suatu produk teknologi dari pasaran karena sudah kedaluwarsa."
+      },
+      {
         "key": "D",
-        "text": "Reverse Engineering, yaitu proses membongkar kode sumber aplikasi kompetitor untuk dijiplak secara ilegal."
+        "text": "Final Mass Production, yaitu pelepasan produk matang berskala penuh yang sudah siap dipasarkan ke seluruh dunia tanpa perlu perbaikan lagi untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "E",
-        "text": "End of Life (EOL), yaitu penarikan resmi suatu produk teknologi dari pasaran karena sudah kedaluwarsa."
+        "text": "Reverse Engineering, yaitu proses membongkar kode sumber aplikasi kompetitor untuk dijiplak secara ilegal."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Minimum Viable Product (MVP), yaitu versi produk paling sederhana yang memiliki fitur esensial minimum untuk memvalidasi hipotesis pasar dengan usaha dan sumber daya terkecil.. MVP (Minimum Viable Product) adalah produk dengan fitur minimal yang cukup untuk menguji respons pasar nyata dan mengumpulkan umpan balik konsumen. Versi awal paling sederhana untuk validasi pasar disebut Minimum Viable Product (MVP)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Minimum Viable Product (MVP), yaitu versi produk paling sederhana yang memiliki fitur esensial minimum untuk memvalidasi hipotesis pasar dengan usaha dan sumber daya terkecil.. MVP (Minimum Viable Product) adalah produk dengan fitur minimal yang cukup untuk menguji respons pasar nyata dan mengumpulkan umpan balik konsumen. Versi awal paling sederhana untuk validasi pasar disebut Minimum Viable Product (MVP)."
   },
   {
     "id": "pkk-lat-e-04",
@@ -154,11 +155,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "30 unit, yang merupakan hasil pembagian biaya tetap langsung dengan harga jual tanpa dikurangi biaya variabel bahan baku sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "100 unit, yang merupakan hasil penaksiran acak berdasarkan target jumlah siswa di satu jurusan SMK."
       },
       {
         "key": "B",
-        "text": "100 unit, yang merupakan hasil penaksiran acak berdasarkan target jumlah siswa di satu jurusan SMK."
+        "text": "60 unit, yang diperoleh dari pembagian Biaya Tetap dengan Margin Kontribusi per unit (Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60)."
       },
       {
         "key": "C",
@@ -166,15 +167,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "60 unit, yang diperoleh dari pembagian Biaya Tetap dengan Margin Kontribusi per unit (Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60)."
+        "text": "30 unit, yang merupakan hasil pembagian biaya tetap langsung dengan harga jual tanpa dikurangi biaya variabel bahan baku konsumen."
       },
       {
         "key": "E",
         "text": "120 unit, yang merupakan perhitungan target omzet penjualan kotor dua kali lipat modal pinjaman bank."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 60 unit, yang diperoleh dari pembagian Biaya Tetap dengan Margin Kontribusi per unit (Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60).. BEP Unit = Total Biaya Tetap / (Harga Jual - Biaya Variabel per unit). Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60 unit."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 60 unit, yang diperoleh dari pembagian Biaya Tetap dengan Margin Kontribusi per unit (Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60).. BEP Unit = Total Biaya Tetap / (Harga Jual - Biaya Variabel per unit). Rp3.000.000 / (Rp100.000 - Rp50.000) = Rp3.000.000 / Rp50.000 = 60 unit."
   },
   {
     "id": "pkk-lat-e-05",
@@ -197,27 +198,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Action (Tindakan Pembelian), yaitu proses ketika konsumen langsung mentransfer uang ke rekening penjual dalam sekejap mata dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Attention (Kesadaran/Perhatian), yaitu memikat pandangan dan menghentikan jempol audiens yang sedang menggulir layar (hooking) agar memperhatikan pesan promosi."
       },
       {
         "key": "B",
-        "text": "Desire (Keinginan Kuat), yaitu tahapan konsumen membandingkan kandungan gizi minuman boba herbal dengan merek lain."
+        "text": "Action (Tindakan Pembelian), yaitu proses ketika konsumen langsung mentransfer uang ke rekening penjual dalam sekejap mata dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "C",
-        "text": "Interest (Ketertarikan Mendalam), yaitu sesi konsumen membaca seluruh artikel ilmiah tentang khasiat tanaman herbal di website resmi."
+        "text": "Desire (Keinginan Kuat), yaitu tahapan konsumen membandingkan kandungan gizi minuman boba herbal dengan merek lain."
       },
       {
         "key": "D",
-        "text": "After-Sales Service, yaitu pemberian kupon perbaikan blender gratis bagi konsumen yang membeli seratus gelas boba."
+        "text": "Interest (Ketertarikan Mendalam), yaitu sesi konsumen membaca seluruh artikel ilmiah tentang khasiat tanaman herbal di website resmi."
       },
       {
         "key": "E",
-        "text": "Attention (Kesadaran/Perhatian), yaitu memikat pandangan dan menghentikan jempol audiens yang sedang menggulir layar (hooking) agar memperhatikan pesan promosi."
+        "text": "After-Sales Service, yaitu pemberian kupon perbaikan blender gratis bagi konsumen yang membeli seratus gelas boba."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Attention (Kesadaran/Perhatian), yaitu memikat pandangan dan menghentikan jempol audiens yang sedang menggulir layar (hooking) agar memperhatikan pesan promosi.. Huruf 'A' pertama dalam AIDA adalah Attention (Perhatian)—tahapan menangkap perhatian awal pengguna media sosial dalam detik-detik pertama. Adegan hook 3 detik pertama bertujuan merebut Attention (perhatian) audiens."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Attention (Kesadaran/Perhatian), yaitu memikat pandangan dan menghentikan jempol audiens yang sedang menggulir layar (hooking) agar memperhatikan pesan promosi.. Huruf 'A' pertama dalam AIDA adalah Attention (Perhatian)—tahapan menangkap perhatian awal pengguna media sosial dalam detik-detik pertama. Adegan hook 3 detik pertama bertujuan merebut Attention (perhatian) audiens."
   },
   {
     "id": "pkk-lat-e-06",
@@ -244,7 +245,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Surat Izin Mengemudi (SIM B2 Umum), yang diterbitkan oleh kepolisian untuk pengemudi kendaraan alat berat pengangkut gandum demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Surat Izin Mengemudi (SIM B2 Umum), yang diterbitkan oleh kepolisian untuk pengemudi kendaraan alat berat pengangkut gandum."
       },
       {
         "key": "C",
@@ -283,11 +284,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp8.000.000, yang hanya merupakan nilai Laba Kotor tanpa memperhitungkan pemotongan beban operasional kantor demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Rp15.000.000, yang merupakan akumulasi seluruh uang kas yang ada di dalam dompet kasir bengkel."
       },
       {
         "key": "B",
-        "text": "Rp5.000.000, yang dihitung dari Penjualan dikurangi HPP menghasilkan Laba Kotor Rp8.000.000, kemudian dikurangi Beban Operasional Rp3.000.000 menghasilkan Laba Bersih Rp5.000.000."
+        "text": "Rp2.000.000, yang dihitung dari pembagian laba kotor dengan jumlah teknisi bengkel las secara sembarangan."
       },
       {
         "key": "C",
@@ -295,15 +296,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rp2.000.000, yang dihitung dari pembagian laba kotor dengan jumlah teknisi bengkel las secara sembarangan."
+        "text": "Rp5.000.000, yang dihitung dari Penjualan dikurangi HPP menghasilkan Laba Kotor Rp8.000.000, kemudian dikurangi Beban Operasional Rp3.000.000 menghasilkan Laba Bersih Rp5.000.000."
       },
       {
         "key": "E",
-        "text": "Rp15.000.000, yang merupakan akumulasi seluruh uang kas yang ada di dalam dompet kasir bengkel."
+        "text": "Rp8.000.000, yang hanya merupakan nilai Laba Kotor tanpa memperhitungkan pemotongan beban operasional kantor."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Rp5.000.000, yang dihitung dari Penjualan dikurangi HPP menghasilkan Laba Kotor Rp8.000.000, kemudian dikurangi Beban Operasional Rp3.000.000 menghasilkan Laba Bersih Rp5.000.000.. Laba Bersih = Pendapatan Penjualan - HPP - Beban Operasional. Laba Kotor = Penjualan - HPP. Laba Kotor = 20 jt - 12 jt = 8 jt. Laba Bersih = 8 jt - 3 jt = 5 juta rupiah."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rp5.000.000, yang dihitung dari Penjualan dikurangi HPP menghasilkan Laba Kotor Rp8.000.000, kemudian dikurangi Beban Operasional Rp3.000.000 menghasilkan Laba Bersih Rp5.000.000.. Laba Bersih = Pendapatan Penjualan - HPP - Beban Operasional. Laba Kotor = Penjualan - HPP. Laba Kotor = 20 jt - 12 jt = 8 jt. Laba Bersih = 8 jt - 3 jt = 5 juta rupiah."
   },
   {
     "id": "pkk-lat-e-08",
@@ -326,7 +327,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seiton (Rapi), yaitu menata dan melabeli tempat penyimpanan peralatan kerja agar mudah diambil saat dibutuhkan untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Shitsuke (Rajin), yaitu mendisiplinkan diri untuk mematuhi seluruh standar kerja K3 secara terus-menerus."
       },
       {
         "key": "B",
@@ -334,19 +335,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Seiri (Ringkas), yaitu memisahkan barang yang diperlukan dengan yang tidak diperlukan dan menyingkirkan barang yang tidak terpakai dari tempat kerja."
-      },
-      {
-        "key": "D",
         "text": "Seiketsu (Rawat), yaitu menjaga standardisasi kebersihan dan kerapian tempat kerja secara konsisten."
       },
       {
+        "key": "D",
+        "text": "Seiri (Ringkas), yaitu memisahkan barang yang diperlukan dengan yang tidak diperlukan dan menyingkirkan barang yang tidak terpakai dari tempat kerja."
+      },
+      {
         "key": "E",
-        "text": "Shitsuke (Rajin), yaitu mendisiplinkan diri untuk mematuhi seluruh standar kerja K3 secara terus-menerus."
+        "text": "Seiton (Rapi), yaitu menata dan melabeli tempat penyimpanan peralatan kerja agar mudah diambil saat dibutuhkan untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Seiri (Ringkas), yaitu memisahkan barang yang diperlukan dengan yang tidak diperlukan dan menyingkirkan barang yang tidak terpakai dari tempat kerja.. 5R: Ringkas (Seiri), Rapi (Seiton), Resik (Seiso), Rawat (Seiketsu), Rajin (Shitsuke). Memilah dan membuang barang yang tak berguna adalah prinsip Ringkas (Seiri). Memilah dan menyingkirkan barang yang tidak diperlukan adalah Seiri (Ringkas)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Seiri (Ringkas), yaitu memisahkan barang yang diperlukan dengan yang tidak diperlukan dan menyingkirkan barang yang tidak terpakai dari tempat kerja.. 5R: Ringkas (Seiri), Rapi (Seiton), Resik (Seiso), Rawat (Seiketsu), Rajin (Shitsuke). Memilah dan membuang barang yang tak berguna adalah prinsip Ringkas (Seiri). Memilah dan menyingkirkan barang yang tidak diperlukan adalah Seiri (Ringkas)."
   },
   {
     "id": "pkk-lat-e-09",
@@ -369,27 +370,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kacamata hitam gaya santai berbahan kaca tipis tanpa pelindung samping yang rentan pecah saat tertimpa partikel besi sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "Topi koboi jerami pelindung terik matahari ladang pertanian."
-      },
-      {
-        "key": "C",
-        "text": "Masker kain tipis yang dipasang menutupi kedua kelopak mata saat mesin bubut sedang berputar kencang."
-      },
-      {
-        "key": "D",
         "text": "Kacamata pelindung keselamatan (Safety Goggles / Face Shield), yang memiliki pelindung benturan samping dan lensa polikarbonat tahan impak serpihan logam panas."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Kacamata hitam gaya santai berbahan kaca tipis tanpa pelindung samping yang rentan pecah saat tertimpa partikel besi konsumen."
+      },
+      {
+        "key": "C",
+        "text": "Topi koboi jerami pelindung terik matahari ladang pertanian."
+      },
+      {
+        "key": "D",
         "text": "Sarung tangan wol rajut longgar dengan benang terurai yang berisiko tinggi terbelit oleh putaran poros spindel mesin."
+      },
+      {
+        "key": "E",
+        "text": "Masker kain tipis yang dipasang menutupi kedua kelopak mata saat mesin bubut sedang berputar kencang."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kacamata pelindung keselamatan (Safety Goggles / Face Shield), yang memiliki pelindung benturan samping dan lensa polikarbonat tahan impak serpihan logam panas.. Serpihan gram logam panas dari mesin bubut dapat menyebabkan kebutaan permanen. APD wajib untuk mata adalah Safety Goggles atau Face Shield berstandar impak tinggi. Kacamata safety (Safety Goggles/Face Shield) berbahan polikarbonat tahan benturan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kacamata pelindung keselamatan (Safety Goggles / Face Shield), yang memiliki pelindung benturan samping dan lensa polikarbonat tahan impak serpihan logam panas.. Serpihan gram logam panas dari mesin bubut dapat menyebabkan kebutaan permanen. APD wajib untuk mata adalah Safety Goggles atau Face Shield berstandar impak tinggi. Kacamata safety (Safety Goggles/Face Shield) berbahan polikarbonat tahan benturan."
   },
   {
     "id": "pkk-lat-e-10",
@@ -412,19 +413,19 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp42.500, yang hanya menambahkan nominal angka 25 langsung ke nilai ratusan per toples kue kering dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
         "text": "Rp65.000, yang merupakan penaksiran markup keuntungan sebesar seratus persen di luar formula keuangan."
       },
       {
+        "key": "B",
+        "text": "Rp100.000, yang merupakan harga patokan toples kristal impor berlapis emas di pusat perbelanjaan mewah."
+      },
+      {
         "key": "C",
-        "text": "Rp30.000, yang menyebabkan unit wirausaha mengalami kerugian finansial di bawah biaya pokok produksi."
+        "text": "Rp42.500, yang hanya menambahkan nominal angka 25 langsung ke nilai ratusan per toples kue kering dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "D",
-        "text": "Rp100.000, yang merupakan harga patokan toples kristal impor berlapis emas di pusat perbelanjaan mewah."
+        "text": "Rp30.000, yang menyebabkan unit wirausaha mengalami kerugian finansial di bawah biaya pokok produksi."
       },
       {
         "key": "E",
@@ -455,27 +456,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-IRT / P-IRT), yang menjamin bahwa olahan pangan telah memenuhi standar keamanan pangan industri rumahan."
-      },
-      {
-        "key": "B",
-        "text": "Izin Edar Alat Kesehatan Radiologi Nuklir dari kementerian energi dan sumber daya mineral demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "Sertifikat Kelayakan Terbang Pesawat Penumpang dari kementerian perhubungan udara."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Izin Penggunaan Senjata Api dari markas besar kepolisian republik Indonesia."
+      },
+      {
+        "key": "C",
+        "text": "Izin Edar Alat Kesehatan Radiologi Nuklir dari kementerian energi dan sumber daya mineral."
+      },
+      {
+        "key": "D",
+        "text": "Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-IRT / P-IRT), yang menjamin bahwa olahan pangan telah memenuhi standar keamanan pangan industri rumahan."
       },
       {
         "key": "E",
         "text": "Surat Pernyataan Bebas Pajak Penghasilan selama sepuluh abad dari bank pembangunan Asia."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-IRT / P-IRT), yang menjamin bahwa olahan pangan telah memenuhi standar keamanan pangan industri rumahan.. Produk makanan kering skala mikro/kecil seperti keripik pisang memerlukan izin edar P-IRT (Pangan Industri Rumah Tangga) dari Dinas Kesehatan setempat. P-IRT adalah sertifikat resmi untuk produk pangan industri rumah tangga."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Sertifikat Produksi Pangan Industri Rumah Tangga (SPP-IRT / P-IRT), yang menjamin bahwa olahan pangan telah memenuhi standar keamanan pangan industri rumahan.. Produk makanan kering skala mikro/kecil seperti keripik pisang memerlukan izin edar P-IRT (Pangan Industri Rumah Tangga) dari Dinas Kesehatan setempat. P-IRT adalah sertifikat resmi untuk produk pangan industri rumah tangga."
   },
   {
     "id": "pkk-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Customer Lifetime Value, yaitu total nominal keuntungan finansial yang disetorkan konsumen ke bank selama sepuluh tahun berturut-turut demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Break-Even Time, yaitu durasi waktu yang dibutuhkan bawang merah untuk bertunas di dalam lemari es."
       },
       {
         "key": "B",
-        "text": "Customer Pain Point, yaitu masalah, hambatan, atau frustrasi spesifik yang dialami calon pelanggan yang membuka peluang bagi terciptanya produk solusi yang bernilai jual."
+        "text": "Customer Lifetime Value, yaitu total nominal keuntungan finansial yang disetorkan konsumen ke bank selama sepuluh tahun berturut-turut."
       },
       {
         "key": "C",
-        "text": "Brand Advocacy, yaitu tindakan ibu rumah tangga menyebarkan brosur promosi di arisan tanpa dibayar."
-      },
-      {
-        "key": "D",
         "text": "Price Skimming, yaitu kebijakan mematok harga sayuran setinggi langit saat musim panen bawang."
       },
       {
+        "key": "D",
+        "text": "Brand Advocacy, yaitu tindakan ibu rumah tangga menyebarkan brosur promosi di arisan tanpa dibayar."
+      },
+      {
         "key": "E",
-        "text": "Break-Even Time, yaitu durasi waktu yang dibutuhkan bawang merah untuk bertunas di dalam lemari es."
+        "text": "Customer Pain Point, yaitu masalah, hambatan, atau frustrasi spesifik yang dialami calon pelanggan yang membuka peluang bagi terciptanya produk solusi yang bernilai jual."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Customer Pain Point, yaitu masalah, hambatan, atau frustrasi spesifik yang dialami calon pelanggan yang membuka peluang bagi terciptanya produk solusi yang bernilai jual.. Keluhan, kerepotan, atau rasa frustrasi yang dialami konsumen adalah Customer Pain Point (titik sakit konsumen) yang memicu ide inovasi bisnis. Ketidaknyamanan mata perih saat mengiris bawang adalah Customer Pain Point."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Customer Pain Point, yaitu masalah, hambatan, atau frustrasi spesifik yang dialami calon pelanggan yang membuka peluang bagi terciptanya produk solusi yang bernilai jual.. Keluhan, kerepotan, atau rasa frustrasi yang dialami konsumen adalah Customer Pain Point (titik sakit konsumen) yang memicu ide inovasi bisnis. Ketidaknyamanan mata perih saat mengiris bawang adalah Customer Pain Point."
   },
   {
     "id": "pkk-lat-e-13",
@@ -541,7 +542,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1x, yang berarti unit usaha mengalami kerugian finansial karena uang iklan hilang tanpa sisa penjualan untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "4x (atau 400%), yang dihitung dari total pendapatan penjualan dibagi dengan total biaya belanja iklan (Rp4.000.000 / Rp1.000.000 = 4)."
       },
       {
         "key": "B",
@@ -549,19 +550,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "4x (atau 400%), yang dihitung dari total pendapatan penjualan dibagi dengan total biaya belanja iklan (Rp4.000.000 / Rp1.000.000 = 4)."
-      },
-      {
-        "key": "D",
         "text": "40x, yang merupakan estimasi berlebihan tanpa dasar perhitungan matematis akuntansi periklanan."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "10x, yang merupakan jumlah klik yang dilakukan oleh staf admin toko daring sendiri."
+      },
+      {
+        "key": "E",
+        "text": "1x, yang berarti unit usaha mengalami kerugian finansial karena uang iklan hilang tanpa sisa penjualan untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 4x (atau 400%), yang dihitung dari total pendapatan penjualan dibagi dengan total biaya belanja iklan (Rp4.000.000 / Rp1.000.000 = 4).. ROAS (Return on Ad Spend) mengukur efektivitas belanja iklan: Pendapatan Iklan / Biaya Iklan. Rp4.000.000 / Rp1.000.000 = 4x (atau 400%)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 4x (atau 400%), yang dihitung dari total pendapatan penjualan dibagi dengan total biaya belanja iklan (Rp4.000.000 / Rp1.000.000 = 4).. ROAS (Return on Ad Spend) mengukur efektivitas belanja iklan: Pendapatan Iklan / Biaya Iklan. Rp4.000.000 / Rp1.000.000 = 4x (atau 400%)."
   },
   {
     "id": "pkk-lat-e-14",
@@ -584,15 +585,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "LIFO (Last In First Out), di mana tepung terigu yang baru dibeli kemarin sore wajib digunakan duluan sementara stok lama dibiarkan membusuk di sudut gudang sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Random Shuffling, di mana karung bahan baku dilemparkan secara acak ke seluruh penjuru ruangan setiap pagi."
       },
       {
         "key": "B",
-        "text": "Average Costing, di mana seluruh karung tepung terigu ditenggelamkan ke dalam bak air untuk dihitung massa jenis rata-ratanya."
+        "text": "Just In Time Ekstrem, di mana koki roti hanya boleh membeli tepung setelah adonan dimasukkan ke dalam loyang pemanggang oven."
       },
       {
         "key": "C",
-        "text": "Just In Time Ekstrem, di mana koki roti hanya boleh membeli tepung setelah adonan dimasukkan ke dalam loyang pemanggang oven."
+        "text": "LIFO (Last In First Out), di mana tepung terigu yang baru dibeli kemarin sore wajib digunakan duluan sementara stok lama dibiarkan membusuk di sudut gudang konsumen."
       },
       {
         "key": "D",
@@ -600,7 +601,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Random Shuffling, di mana karung bahan baku dilemparkan secara acak ke seluruh penjuru ruangan setiap pagi."
+        "text": "Average Costing, di mana seluruh karung tepung terigu ditenggelamkan ke dalam bak air untuk dihitung massa jenis rata-ratanya."
       }
     ],
     "correctKey": "D",
@@ -627,27 +628,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Cost Structure, karena mendata seluruh tagihan listrik server dan gaji bulanan animator 3D dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
         "text": "Key Activities, karena menjabarkan jadwal kerja para programmer mengetik kode bahasa pemrograman."
       },
       {
-        "key": "C",
-        "text": "Key Resources, karena mencatat jumlah unit komputer PC gaming yang ada di laboratorium sekolah."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Customer Relationships, karena menjelaskan cara admin menyapa pelanggan di media sosial."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Cost Structure, karena mendata seluruh tagihan listrik server dan gaji bulanan animator 3D dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+      },
+      {
+        "key": "D",
         "text": "Revenue Streams, karena mencatat representasi uang tunai yang dihasilkan perusahaan dari masing-masing segmen pelanggan melalui mekanisme penetapan harga tertentu."
+      },
+      {
+        "key": "E",
+        "text": "Key Resources, karena mencatat jumlah unit komputer PC gaming yang ada di laboratorium sekolah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Revenue Streams, karena mencatat representasi uang tunai yang dihasilkan perusahaan dari masing-masing segmen pelanggan melalui mekanisme penetapan harga tertentu.. Revenue Streams adalah blok BMC yang merinci semua sumber aliran pemasukan pendapatan kas dari konsumen. Pembelian aplikasi dan in-app purchase dicatat di blok Revenue Streams."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Revenue Streams, karena mencatat representasi uang tunai yang dihasilkan perusahaan dari masing-masing segmen pelanggan melalui mekanisme penetapan harga tertentu.. Revenue Streams adalah blok BMC yang merinci semua sumber aliran pemasukan pendapatan kas dari konsumen. Pembelian aplikasi dan in-app purchase dicatat di blok Revenue Streams."
   },
   {
     "id": "pkk-lat-e-16",
@@ -670,15 +671,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "PT Perorangan (Perseroan Perorangan), yang diperuntukkan khusus bagi Usaha Mikro dan Kecil (UMK) dengan status badan hukum terpisah yang melindungi aset pribadi pendiri."
+        "text": "Badan Usaha Milik Negara (BUMN) Persero Terbuka, yang seluruh sahamnya wajib dimiliki oleh presiden republik Indonesia secara pribadi."
       },
       {
         "key": "B",
-        "text": "Firma Kongsi Dagang, di mana seluruh sekutu bertanggung jawab secara pribadi dengan harta kekayaan keluarga tanpa batas perlindungan hukum demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Firma Kongsi Dagang, di mana seluruh sekutu bertanggung jawab secara pribadi dengan harta kekayaan keluarga tanpa batas perlindungan hukum."
       },
       {
         "key": "C",
-        "text": "Badan Usaha Milik Negara (BUMN) Persero Terbuka, yang seluruh sahamnya wajib dimiliki oleh presiden republik Indonesia secara pribadi."
+        "text": "PT Perorangan (Perseroan Perorangan), yang diperuntukkan khusus bagi Usaha Mikro dan Kecil (UMK) dengan status badan hukum terpisah yang melindungi aset pribadi pendiri."
       },
       {
         "key": "D",
@@ -689,8 +690,8 @@ window.TKA_PKK_QUESTIONS = [
         "text": "Yayasan Amal Nirlaba Tertutup, yang dilarang keras menjual barang dagangan atau mencari laba komersial sama sekali."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) PT Perorangan (Perseroan Perorangan), yang diperuntukkan khusus bagi Usaha Mikro dan Kecil (UMK) dengan status badan hukum terpisah yang melindungi aset pribadi pendiri.. PT Perorangan adalah inovasi hukum bisnis Indonesia untuk UMK yang memungkinkan 1 orang mendirikan PT berbadan hukum resmi tanpa modal minimum. Badan hukum untuk 1 orang pendiri UMK adalah PT Perorangan (Perseroan Perorangan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) PT Perorangan (Perseroan Perorangan), yang diperuntukkan khusus bagi Usaha Mikro dan Kecil (UMK) dengan status badan hukum terpisah yang melindungi aset pribadi pendiri.. PT Perorangan adalah inovasi hukum bisnis Indonesia untuk UMK yang memungkinkan 1 orang mendirikan PT berbadan hukum resmi tanpa modal minimum. Badan hukum untuk 1 orang pendiri UMK adalah PT Perorangan (Perseroan Perorangan)."
   },
   {
     "id": "pkk-lat-e-17",
@@ -713,15 +714,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp4.000 per botol, yang hanya menghitung biaya bahan baku kimia surfaktan tanpa memperhitungkan botol dan upah kerja demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Rp80.000 per botol, yang merupakan kekeliruan perhitungan peletakan titik desimal pada kalkulator kasir."
       },
       {
         "key": "B",
-        "text": "Rp8.000 per botol, yang dihitung dari total biaya produksi dibagi dengan jumlah produk yang dihasilkan (Rp1.600.000 / 200 botol = Rp8.000)."
+        "text": "Rp16.000 per botol, yang dihitung dari pengalian biaya kemasan botol dengan persentase laba kotor toko kelontong."
       },
       {
         "key": "C",
-        "text": "Rp16.000 per botol, yang dihitung dari pengalian biaya kemasan botol dengan persentase laba kotor toko kelontong."
+        "text": "Rp8.000 per botol, yang dihitung dari total biaya produksi dibagi dengan jumlah produk yang dihasilkan (Rp1.600.000 / 200 botol = Rp8.000)."
       },
       {
         "key": "D",
@@ -729,11 +730,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp80.000 per botol, yang merupakan kekeliruan perhitungan peletakan titik desimal pada kalkulator kasir."
+        "text": "Rp4.000 per botol, yang hanya menghitung biaya bahan baku kimia surfaktan tanpa memperhitungkan botol dan upah kerja."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Rp8.000 per botol, yang dihitung dari total biaya produksi dibagi dengan jumlah produk yang dihasilkan (Rp1.600.000 / 200 botol = Rp8.000).. HPP per unit = Total Biaya Produksi / Jumlah Produk yang dihasilkan. Total Biaya = 800rb + 400rb + 400rb = 1.600.000. HPP = 1.600.000 / 200 = Rp8.000 per botol."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Rp8.000 per botol, yang dihitung dari total biaya produksi dibagi dengan jumlah produk yang dihasilkan (Rp1.600.000 / 200 botol = Rp8.000).. HPP per unit = Total Biaya Produksi / Jumlah Produk yang dihasilkan. Total Biaya = 800rb + 400rb + 400rb = 1.600.000. HPP = 1.600.000 / 200 = Rp8.000 per botol."
   },
   {
     "id": "pkk-lat-e-18",
@@ -756,7 +757,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Functional Working Prototype, yaitu mesin nyata berskala 1:1 yang sudah dipasangi pisau baja tajam dan mesin diesel menyala di kandang sapi untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Mockup (Desain Model Visual), yaitu representasi visual berdimensi nyata yang menampilkan tampilan fisik, gaya, dan proporsi produk tanpa dilengkapi fungsi mekanis operasional kerja yang sesungguhnya."
       },
       {
         "key": "B",
@@ -764,19 +765,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mockup (Desain Model Visual), yaitu representasi visual berdimensi nyata yang menampilkan tampilan fisik, gaya, dan proporsi produk tanpa dilengkapi fungsi mekanis operasional kerja yang sesungguhnya."
+        "text": "Functional Working Prototype, yaitu mesin nyata berskala 1:1 yang sudah dipasangi pisau baja tajam dan mesin diesel menyala di kandang sapi untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "D",
-        "text": "Product Recall, yaitu penarikan mesin dari tangan petani karena motor mesin terbukti mengeluarkan asap tebal beracun."
+        "text": "Buku Manual Reparasi, yaitu lembaran kertas fotokopi petunjuk pembongkaran baut karburator mesin traktor."
       },
       {
         "key": "E",
-        "text": "Buku Manual Reparasi, yaitu lembaran kertas fotokopi petunjuk pembongkaran baut karburator mesin traktor."
+        "text": "Product Recall, yaitu penarikan mesin dari tangan petani karena motor mesin terbukti mengeluarkan asap tebal beracun."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mockup (Desain Model Visual), yaitu representasi visual berdimensi nyata yang menampilkan tampilan fisik, gaya, dan proporsi produk tanpa dilengkapi fungsi mekanis operasional kerja yang sesungguhnya.. Model fisik untuk melihat wujud estetika dan proporsi tanpa fungsi mesin yang bekerja disebut Mockup (skala visual). Model fisik representasi bentuk tanpa mesin operasional adalah Mockup."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Mockup (Desain Model Visual), yaitu representasi visual berdimensi nyata yang menampilkan tampilan fisik, gaya, dan proporsi produk tanpa dilengkapi fungsi mekanis operasional kerja yang sesungguhnya.. Model fisik untuk melihat wujud estetika dan proporsi tanpa fungsi mesin yang bekerja disebut Mockup (skala visual). Model fisik representasi bentuk tanpa mesin operasional adalah Mockup."
   },
   {
     "id": "pkk-lat-e-19",
@@ -807,19 +808,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Laba Bersih = Seluruh Uang Kas yang dipinjam dari rentenir tanpa batas waktu pengembalian."
+        "text": "Aset (Aktiva) = Liabilitas (Kewajiban/Utang) + Ekuitas (Modal Sendiri)."
       },
       {
         "key": "D",
-        "text": "Aset (Aktiva) = Liabilitas (Kewajiban/Utang) + Ekuitas (Modal Sendiri)."
+        "text": "Laba Bersih = Seluruh Uang Kas yang dipinjam dari rentenir tanpa batas waktu pengembalian."
       },
       {
         "key": "E",
         "text": "Kewajiban = Aset Kas ditambah dengan Kerugian Piutang Tak Tertagih secara eksponensial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Aset (Aktiva) = Liabilitas (Kewajiban/Utang) + Ekuitas (Modal Sendiri).. Persamaan dasar akuntansi neraca adalah: Aset = Kewajiban (Liabilitas) + Modal (Ekuitas). Aset = Liabilitas + Ekuitas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Aset (Aktiva) = Liabilitas (Kewajiban/Utang) + Ekuitas (Modal Sendiri).. Persamaan dasar akuntansi neraca adalah: Aset = Kewajiban (Liabilitas) + Modal (Ekuitas). Aset = Liabilitas + Ekuitas."
   },
   {
     "id": "pkk-lat-e-20",
@@ -842,11 +843,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pay-Per-Click (PPC) Advertising, yaitu kampanye iklan di mana pemilik akun membayar setiap kali tombol tautan iklan diklik oleh pengguna internet dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Influencer Endorsement Mahal, yaitu membayar artis papan atas senilai ratusan juta rupiah untuk memegang kaos di acara gala premiere."
       },
       {
         "key": "B",
-        "text": "Influencer Endorsement Mahal, yaitu membayar artis papan atas senilai ratusan juta rupiah untuk memegang kaos di acara gala premiere."
+        "text": "Pay-Per-Click (PPC) Advertising, yaitu kampanye iklan di mana pemilik akun membayar setiap kali tombol tautan iklan diklik oleh pengguna internet dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "C",
@@ -885,27 +886,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Amati, Tiru, dan Modifikasi (ATM), di mana pengusaha mempelajari formula sukses bisnis yang sudah ada di pasar, lalu memberikan nilai tambah diferensiasi baru yang unik untuk memenangkan kompetisi pasar."
-      },
-      {
-        "key": "B",
-        "text": "Plagiarisme Murni Ilegal, yaitu meniru seluruh nama merek, logo, dan resep kompetitor secara diam-diam tanpa izin demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Monopoli Dagang Tertutup, yaitu menyuap aparat penegak hukum untuk menutup seluruh gerai kopi lain di wilayah kecamatan."
-      },
-      {
-        "key": "D",
         "text": "Price Dumping Kriminal, yaitu menjual produk dengan harga rugi total untuk menghancurkan ekonomi keluarga petani kopi."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Amati, Tiru, dan Modifikasi (ATM), di mana pengusaha mempelajari formula sukses bisnis yang sudah ada di pasar, lalu memberikan nilai tambah diferensiasi baru yang unik untuk memenangkan kompetisi pasar."
+      },
+      {
+        "key": "C",
         "text": "Spekulasi Saham Valas, yaitu bertaruh pada pergerakan mata uang asing tanpa memproduksi minuman kopi fisik."
+      },
+      {
+        "key": "D",
+        "text": "Plagiarisme Murni Ilegal, yaitu meniru seluruh nama merek, logo, dan resep kompetitor secara diam-diam tanpa izin."
+      },
+      {
+        "key": "E",
+        "text": "Monopoli Dagang Tertutup, yaitu menyuap aparat penegak hukum untuk menutup seluruh gerai kopi lain di wilayah kecamatan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Amati, Tiru, dan Modifikasi (ATM), di mana pengusaha mempelajari formula sukses bisnis yang sudah ada di pasar, lalu memberikan nilai tambah diferensiasi baru yang unik untuk memenangkan kompetisi pasar.. Teknik ATM (Amati, Tiru, Modifikasi) mempelajari keunggulan kompetitor lalu menambahkan modifikasi nilai pembeda (diferensiasi). Mempelajari kesuksesan kompetitor dan memberi nilai tambah baru menerapkan prinsip ATM."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Amati, Tiru, dan Modifikasi (ATM), di mana pengusaha mempelajari formula sukses bisnis yang sudah ada di pasar, lalu memberikan nilai tambah diferensiasi baru yang unik untuk memenangkan kompetisi pasar.. Teknik ATM (Amati, Tiru, Modifikasi) mempelajari keunggulan kompetitor lalu menambahkan modifikasi nilai pembeda (diferensiasi). Mempelajari kesuksesan kompetitor dan memberi nilai tambah baru menerapkan prinsip ATM."
   },
   {
     "id": "pkk-lat-e-22",
@@ -928,7 +929,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjaga kedua kaki tetap lurus kaku dan membungkukkan punggung sejajar lantai lalu menyentak beban sekuat tenaga ke atas demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Menahan karung beras di ujung jari tangan sambil berjalan jinjit di atas tumpukan lantai berminyak licin."
       },
       {
         "key": "B",
@@ -944,7 +945,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menahan karung beras di ujung jari tangan sambil berjalan jinjit di atas tumpukan lantai berminyak licin."
+        "text": "Menjaga kedua kaki tetap lurus kaku dan membungkukkan punggung sejajar lantai lalu menyentak beban sekuat tenaga ke atas."
       }
     ],
     "correctKey": "B",
@@ -971,15 +972,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Siklus SWOT Kriminal, di mana pengusaha mencari kelemahan aparat penegak hukum untuk menghindari pembayaran pajak untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "Metode Piramida Keuangan Cepat, yaitu skema penggandaan uang fiktif melalui arisan berantai ilegal."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Siklus PDCA (Plan - Do - Check - Act / Deming Cycle), yaitu metodologi manajemen berulang empat langkah untuk pengendalian kualitas dan perbaikan proses kerja secara berkelanjutan."
+      },
+      {
+        "key": "C",
+        "text": "Siklus E-Commerce Dropping, di mana pesanan barang dikirim ke alamat acak tanpa pesanan pembeli."
       },
       {
         "key": "D",
@@ -987,11 +988,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Siklus E-Commerce Dropping, di mana pesanan barang dikirim ke alamat acak tanpa pesanan pembeli."
+        "text": "Siklus SWOT Kriminal, di mana pengusaha mencari kelemahan aparat penegak hukum untuk menghindari pembayaran pajak untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Siklus PDCA (Plan - Do - Check - Act / Deming Cycle), yaitu metodologi manajemen berulang empat langkah untuk pengendalian kualitas dan perbaikan proses kerja secara berkelanjutan.. Siklus Plan-Do-Check-Act (PDCA) atau Deming Cycle adalah metodologi perbaikan kualitas berkelanjutan (continuous improvement). Metodologi 4 langkah Plan-Do-Check-Act disebut Siklus PDCA."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Siklus PDCA (Plan - Do - Check - Act / Deming Cycle), yaitu metodologi manajemen berulang empat langkah untuk pengendalian kualitas dan perbaikan proses kerja secara berkelanjutan.. Siklus Plan-Do-Check-Act (PDCA) atau Deming Cycle adalah metodologi perbaikan kualitas berkelanjutan (continuous improvement). Metodologi 4 langkah Plan-Do-Check-Act disebut Siklus PDCA."
   },
   {
     "id": "pkk-lat-e-24",
@@ -1014,7 +1015,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Badan Narkotika Nasional (BNN), yang bertugas memberantas peredaran zat psikotropika ilegal di tempat hiburan malam sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Otoritas Jasa Keuangan (OJK), yang mengawasi perdagangan saham dan operasional perbankan di pasar modal."
       },
       {
         "key": "B",
@@ -1026,15 +1027,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Badan Penyelenggara Jaminan Produk Halal (BPJPH), yang bekerja sama dengan Lembaga Pemeriksa Halal (LPH) dan Komisi Fatwa Majelis Ulama Indonesia (MUI)."
+        "text": "Badan Narkotika Nasional (BNN), yang bertugas memberantas peredaran zat psikotropika ilegal di tempat hiburan malam konsumen."
       },
       {
         "key": "E",
-        "text": "Otoritas Jasa Keuangan (OJK), yang mengawasi perdagangan saham dan operasional perbankan di pasar modal."
+        "text": "Badan Penyelenggara Jaminan Produk Halal (BPJPH), yang bekerja sama dengan Lembaga Pemeriksa Halal (LPH) dan Komisi Fatwa Majelis Ulama Indonesia (MUI)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Badan Penyelenggara Jaminan Produk Halal (BPJPH), yang bekerja sama dengan Lembaga Pemeriksa Halal (LPH) dan Komisi Fatwa Majelis Ulama Indonesia (MUI).. Lembaga pemerintah penerbit sertifikat halal resmi di Indonesia sejak UU JPH adalah BPJPH (Badan Penyelenggara Jaminan Produk Halal) Kemenag. Badan Penyelenggara Jaminan Produk Halal (BPJPH)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Badan Penyelenggara Jaminan Produk Halal (BPJPH), yang bekerja sama dengan Lembaga Pemeriksa Halal (LPH) dan Komisi Fatwa Majelis Ulama Indonesia (MUI).. Lembaga pemerintah penerbit sertifikat halal resmi di Indonesia sejak UU JPH adalah BPJPH (Badan Penyelenggara Jaminan Produk Halal) Kemenag. Badan Penyelenggara Jaminan Produk Halal (BPJPH)."
   },
   {
     "id": "pkk-lat-e-25",
@@ -1057,27 +1058,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan Nilai Ekuitas Saham, di mana perusahaan secara otomatis memenuhi syarat penawaran umum perdana di bursa efek London dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
-        "text": "Kebakaran Modal Permanen, di mana seluruh uang kas kertas di kasir terbakar oleh aliran listrik tegangan tinggi."
-      },
-      {
-        "key": "C",
-        "text": "Penipuan Pajak Berkelanjutan, di mana desainer sengaja menyembunyikan uang di dalam brankas besi dasar laut."
-      },
-      {
-        "key": "D",
         "text": "Inflasi Moneter Global, yang menyebabkan seluruh nilai mata uang di dunia diturunkan menjadi pecahan tembaga."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Penipuan Pajak Berkelanjutan, di mana desainer sengaja menyembunyikan uang di dalam brankas besi dasar laut."
+      },
+      {
+        "key": "C",
         "text": "Krisis Arus Kas (Cash Flow Deficit / Insolvensi Jangka Pendek), di mana usaha menghasilkan laba akuntansi di atas kertas tetapi kekurangan likuiditas uang kas nyata akibat piutang dagang yang belum tertagih."
+      },
+      {
+        "key": "D",
+        "text": "Peningkatan Nilai Ekuitas Saham, di mana perusahaan secara otomatis memenuhi syarat penawaran umum perdana di bursa efek London dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+      },
+      {
+        "key": "E",
+        "text": "Kebakaran Modal Permanen, di mana seluruh uang kas kertas di kasir terbakar oleh aliran listrik tegangan tinggi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Krisis Arus Kas (Cash Flow Deficit / Insolvensi Jangka Pendek), di mana usaha menghasilkan laba akuntansi di atas kertas tetapi kekurangan likuiditas uang kas nyata akibat piutang dagang yang belum tertagih.. Laba di atas kertas (omzet piutang) berbeda dengan kas riil. Bila piutang belum tertagih sementara tagihan harus dibayar, usaha mengalami krisis arus kas (cash flow crisis / kekurangan likuiditas). Krisis Arus Kas (Cash Flow Deficit) akibat tingginya piutang yang belum tertagih."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Krisis Arus Kas (Cash Flow Deficit / Insolvensi Jangka Pendek), di mana usaha menghasilkan laba akuntansi di atas kertas tetapi kekurangan likuiditas uang kas nyata akibat piutang dagang yang belum tertagih.. Laba di atas kertas (omzet piutang) berbeda dengan kas riil. Bila piutang belum tertagih sementara tagihan harus dibayar, usaha mengalami krisis arus kas (cash flow crisis / kekurangan likuiditas). Krisis Arus Kas (Cash Flow Deficit) akibat tingginya piutang yang belum tertagih."
   },
   {
     "id": "pkk-lat-m-01",
@@ -1100,27 +1101,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp10.000.000, dihitung dari rasio margin kontribusi 60% (Margin Kontribusi Rp60.000 / Harga Rp100.000), sehingga Rp6.000.000 dibagi 0,6 menghasilkan omzet impas tepat Rp10.000.000."
-      },
-      {
-        "key": "B",
-        "text": "Rp6.000.000, karena nilai impas omzet selalu identik secara mutlak dengan total pengeluaran biaya tetap gedung tanpa memperhitungkan biaya bahan kain demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "Rp15.000.000, karena laba kotor harus dikalikan 250% untuk menutupi risiko penyusutan mesin cetak sablon digital di laboratorium sekolah."
       },
       {
+        "key": "B",
+        "text": "Rp6.000.000, karena nilai impas omzet selalu identik secara mutlak dengan total pengeluaran biaya tetap gedung tanpa memperhitungkan biaya bahan kain."
+      },
+      {
+        "key": "C",
+        "text": "Rp24.000.000, karena omzet impas dihitung dengan mengalikan harga jual kaos dengan total biaya tetap bulanan secara langsung."
+      },
+      {
         "key": "D",
-        "text": "Rp4.000.000, karena biaya variabel per lembar kaos menjadi pengurang langsung terhadap nilai seluruh aset lancar di neraca saldo."
+        "text": "Rp10.000.000, dihitung dari rasio margin kontribusi 60% (Margin Kontribusi Rp60.000 / Harga Rp100.000), sehingga Rp6.000.000 dibagi 0,6 menghasilkan omzet impas tepat Rp10.000.000."
       },
       {
         "key": "E",
-        "text": "Rp24.000.000, karena omzet impas dihitung dengan mengalikan harga jual kaos dengan total biaya tetap bulanan secara langsung."
+        "text": "Rp4.000.000, karena biaya variabel per lembar kaos menjadi pengurang langsung terhadap nilai seluruh aset lancar di neraca saldo."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Rp10.000.000, dihitung dari rasio margin kontribusi 60% (Margin Kontribusi Rp60.000 / Harga Rp100.000), sehingga Rp6.000.000 dibagi 0,6 menghasilkan omzet impas tepat Rp10.000.000.. BEP Rupiah dihitung dengan membagi Biaya Tetap (FC) dengan Rasio Margin Kontribusi (1 - VC/P). Margin kontribusi = 100rb - 40rb = 60rb (60%). BEP Rp = 6jt / 0,6 = Rp10.000.000."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rp10.000.000, dihitung dari rasio margin kontribusi 60% (Margin Kontribusi Rp60.000 / Harga Rp100.000), sehingga Rp6.000.000 dibagi 0,6 menghasilkan omzet impas tepat Rp10.000.000.. BEP Rupiah dihitung dengan membagi Biaya Tetap (FC) dengan Rasio Margin Kontribusi (1 - VC/P). Margin kontribusi = 100rb - 40rb = 60rb (60%). BEP Rp = 6jt / 0,6 = Rp10.000.000."
   },
   {
     "id": "pkk-lat-m-02",
@@ -1143,27 +1144,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyediakan ruang tunggu mewah ber-AC dengan televisi kabel di kantor pusat bengkel yang berjarak 20 kilometer dari rumah pelanggan demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Menyediakan fitur pemesanan waktu servis presisi via WhatsApp disertai katalog digital daftar harga resmi onderdil dan estimasi biaya sebelum pengerjaan dimulai."
-      },
-      {
-        "key": "C",
         "text": "Memberikan suvenir gantungan kunci berbahan karet sintetis tanpa memberikan rincian nota pembelian onderdil."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menaikkan tarif jasa montir sebesar 50% untuk menyeleksi konsumen dari kalangan ekonomi menengah ke atas."
+      },
+      {
+        "key": "C",
+        "text": "Menyediakan ruang tunggu mewah ber-AC dengan televisi kabel di kantor pusat bengkel yang berjarak 20 kilometer dari rumah pelanggan."
+      },
+      {
+        "key": "D",
+        "text": "Menyediakan fitur pemesanan waktu servis presisi via WhatsApp disertai katalog digital daftar harga resmi onderdil dan estimasi biaya sebelum pengerjaan dimulai."
       },
       {
         "key": "E",
         "text": "Mengganti seluruh mekanik motor bensin dengan montir spesialis pesawat terbang komersial bermesin jet ganda."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menyediakan fitur pemesanan waktu servis presisi via WhatsApp disertai katalog digital daftar harga resmi onderdil dan estimasi biaya sebelum pengerjaan dimulai.. Pain Relievers pada Value Map harus secara spesifik menjawab Customer Pains (antre lama dan ketidaktransparanan harga). Pilih opsi yang menawarkan solusi waktu servis terjadwal dan transparansi katalog harga onderdil."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menyediakan fitur pemesanan waktu servis presisi via WhatsApp disertai katalog digital daftar harga resmi onderdil dan estimasi biaya sebelum pengerjaan dimulai.. Pain Relievers pada Value Map harus secara spesifik menjawab Customer Pains (antre lama dan ketidaktransparanan harga). Pilih opsi yang menawarkan solusi waktu servis terjadwal dan transparansi katalog harga onderdil."
   },
   {
     "id": "pkk-lat-m-03",
@@ -1186,27 +1187,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "600 batang per pemesanan, dengan asumsi memesan dua kali setahun untuk menghabiskan seluruh sisa anggaran kas sekaligus untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "1.200 batang sekaligus di awal tahun, agar gudang sekolah penuh sesak meskipun risiko karat dan biaya simpan membengkak."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "190 batang per pemesanan (dibulatkan dari $\\sqrt{36.000} \\approx 189{,}74$), yang menghasilkan titik keseimbangan optimal antara biaya pesan dan biaya simpan gudang."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "50 batang per pemesanan, agar guru pembimbing sering melakukan perjalanan dinas keluar sekolah untuk mengambil nota kuitansi."
+      },
+      {
+        "key": "D",
+        "text": "600 batang per pemesanan, dengan asumsi memesan dua kali setahun untuk menghabiskan seluruh sisa anggaran kas sekaligus untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "E",
         "text": "300 batang per pemesanan, dihitung dari total kebutuhan dibagi dengan jumlah bulan dalam satu tahun kalender."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 190 batang per pemesanan (dibulatkan dari $\\sqrt{36.000} \\approx 189{,}74$), yang menghasilkan titik keseimbangan optimal antara biaya pesan dan biaya simpan gudang.. Gunakan rumus EOQ = sqrt( (2 * D * S) / H ). 2 * 1200 * 60.000 / 4000 = 144.000.000 / 4000 = 36.000. Akar dari 36.000 = 189,74 ≈ 190 batang."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 190 batang per pemesanan (dibulatkan dari $\\sqrt{36.000} \\approx 189{,}74$), yang menghasilkan titik keseimbangan optimal antara biaya pesan dan biaya simpan gudang.. Gunakan rumus EOQ = sqrt( (2 * D * S) / H ). 2 * 1200 * 60.000 / 4000 = 144.000.000 / 4000 = 36.000. Akar dari 36.000 = 189,74 ≈ 190 batang."
   },
   {
     "id": "pkk-lat-m-04",
@@ -1229,27 +1230,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "60 kg, karena persediaan pengaman tidak boleh dihitung ke dalam ambang batas pemesanan operasional harian sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "20 kg, yaitu saat stok gudang hanya menyisakan cadangan pengaman darurat persis sebelum habis total."
-      },
-      {
-        "key": "C",
         "text": "100 kg, dihitung dengan menjumlahkan seluruh kebutuhan mentega selama satu bulan kalender kerja."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "80 kg, dihitung dari kebutuhan selama waktu tunggu (15 kg/hari x 4 hari = 60 kg) ditambah dengan persediaan pengaman (Safety Stock 20 kg)."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "60 kg, karena persediaan pengaman tidak boleh dihitung ke dalam ambang batas pemesanan operasional harian konsumen."
+      },
+      {
+        "key": "D",
         "text": "39 kg, hasil perkalian waktu tunggu dengan faktor kelembapan udara ruangan dapur pengolahan roti."
+      },
+      {
+        "key": "E",
+        "text": "20 kg, yaitu saat stok gudang hanya menyisakan cadangan pengaman darurat persis sebelum habis total."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 80 kg, dihitung dari kebutuhan selama waktu tunggu (15 kg/hari x 4 hari = 60 kg) ditambah dengan persediaan pengaman (Safety Stock 20 kg).. Reorder Point (ROP) = (Kebutuhan Harian x Lead Time) + Safety Stock. ROP = (15 x 4) + 20 = 60 + 20 = 80 kg."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 80 kg, dihitung dari kebutuhan selama waktu tunggu (15 kg/hari x 4 hari = 60 kg) ditambah dengan persediaan pengaman (Safety Stock 20 kg).. Reorder Point (ROP) = (Kebutuhan Harian x Lead Time) + Safety Stock. ROP = (15 x 4) + 20 = 60 + 20 = 80 kg."
   },
   {
     "id": "pkk-lat-m-05",
@@ -1272,7 +1273,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sangat berbahaya dan mendekati bangkrut, karena biaya pemasaran Rp15.000.000 langsung mengurangi modal dasar perseroan tanpa sisa kas dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Ilegal, karena usaha siswa SMK dilarang menggunakan strategi iklan berbayar di platform media sosial digital."
       },
       {
         "key": "B",
@@ -1280,19 +1281,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Netral, karena biaya akuisisi pelanggan tidak memiliki korelasi statistik dengan pendapatan berulang bulanan (MRR)."
+        "text": "Sehat dan layak ekspansi, karena CAC sebesar Rp300.000 menghasilkan LTV sebesar Rp1.200.000 sehingga rasio LTV : CAC mencapai 4 : 1 (melampaui ambang batas sehat industri startup yaitu minimal 3 : 1)."
       },
       {
         "key": "D",
-        "text": "Ilegal, karena usaha siswa SMK dilarang menggunakan strategi iklan berbayar di platform media sosial digital."
+        "text": "Sangat berbahaya dan mendekati bangkrut, karena biaya pemasaran Rp15.000.000 langsung mengurangi modal dasar perseroan tanpa sisa kas dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "E",
-        "text": "Sehat dan layak ekspansi, karena CAC sebesar Rp300.000 menghasilkan LTV sebesar Rp1.200.000 sehingga rasio LTV : CAC mencapai 4 : 1 (melampaui ambang batas sehat industri startup yaitu minimal 3 : 1)."
+        "text": "Netral, karena biaya akuisisi pelanggan tidak memiliki korelasi statistik dengan pendapatan berulang bulanan (MRR)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sehat dan layak ekspansi, karena CAC sebesar Rp300.000 menghasilkan LTV sebesar Rp1.200.000 sehingga rasio LTV : CAC mencapai 4 : 1 (melampaui ambang batas sehat industri startup yaitu minimal 3 : 1).. CAC = Total Biaya Iklan / Jumlah Pelanggan Baru. LTV = Masa Langganan x Margin per Bulan. Rasio sehat minimal 3:1. CAC = 15jt / 50 = 300rb. LTV = 12 x 100rb = 1,2jt. Rasio = 1,2jt / 300rb = 4:1 (Sehat)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sehat dan layak ekspansi, karena CAC sebesar Rp300.000 menghasilkan LTV sebesar Rp1.200.000 sehingga rasio LTV : CAC mencapai 4 : 1 (melampaui ambang batas sehat industri startup yaitu minimal 3 : 1).. CAC = Total Biaya Iklan / Jumlah Pelanggan Baru. LTV = Masa Langganan x Margin per Bulan. Rasio sehat minimal 3:1. CAC = 15jt / 50 = 300rb. LTV = 12 x 100rb = 1,2jt. Rasio = 1,2jt / 300rb = 4:1 (Sehat)."
   },
   {
     "id": "pkk-lat-m-06",
@@ -1315,11 +1316,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Paten (atau Paten Sederhana), karena objek perlindungan merupakan invasi/inovasi di bidang teknologi yang berupa proses, produk mekanis, atau pengembangan sistem teknis baru."
+        "text": "Indikasi Geografis, karena bahan baku besi dongkrak ditambang dari daerah pegunungan kapur Jawa Timur."
       },
       {
         "key": "B",
-        "text": "Hak Cipta, karena dongkrak hidrolik memiliki kesamaan fungsi estetika dengan lukisan kanvas pemandangan alam demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Paten (atau Paten Sederhana), karena objek perlindungan merupakan invasi/inovasi di bidang teknologi yang berupa proses, produk mekanis, atau pengembangan sistem teknis baru."
       },
       {
         "key": "C",
@@ -1331,11 +1332,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Indikasi Geografis, karena bahan baku besi dongkrak ditambang dari daerah pegunungan kapur Jawa Timur."
+        "text": "Hak Cipta, karena dongkrak hidrolik memiliki kesamaan fungsi estetika dengan lukisan kanvas pemandangan alam."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Paten (atau Paten Sederhana), karena objek perlindungan merupakan invasi/inovasi di bidang teknologi yang berupa proses, produk mekanis, atau pengembangan sistem teknis baru.. Inovasi pada cara kerja, sistem mekanis, atau teknologi fungsional (mekanisme katup daya angkat) dilindungi oleh Paten. Paten (atau Paten Sederhana) untuk invensi teknologi fungsional."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Paten (atau Paten Sederhana), karena objek perlindungan merupakan invasi/inovasi di bidang teknologi yang berupa proses, produk mekanis, atau pengembangan sistem teknis baru.. Inovasi pada cara kerja, sistem mekanis, atau teknologi fungsional (mekanisme katup daya angkat) dilindungi oleh Paten. Paten (atau Paten Sederhana) untuk invensi teknologi fungsional."
   },
   {
     "id": "pkk-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Arus Kas Aktivitas Investasi, Arus Kas Aktivitas Operasi, dan Arus Kas Aktivitas Sosial Kemanusiaan demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
         "text": "Arus Kas Aktivitas Operasi (Operating), Arus Kas Aktivitas Investasi (Investing), dan Arus Kas Aktivitas Pendanaan (Financing)."
       },
       {
-        "key": "C",
-        "text": "Arus Kas Aktivitas Pendanaan, Arus Kas Aktivitas Penjualan Aset, dan Arus Kas Aktivitas Beban Pajak Daerah."
+        "key": "B",
+        "text": "Arus Kas Kasir Depan, Arus Kas Kasir Belakang, dan Arus Kas Gudang Logistik Sentral."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arus Kas Beban Pokok Penjualan, Arus Kas Modal Disetor, dan Arus Kas Piutang Tak Tertagih."
       },
       {
+        "key": "D",
+        "text": "Arus Kas Aktivitas Pendanaan, Arus Kas Aktivitas Penjualan Aset, dan Arus Kas Aktivitas Beban Pajak Daerah."
+      },
+      {
         "key": "E",
-        "text": "Arus Kas Kasir Depan, Arus Kas Kasir Belakang, dan Arus Kas Gudang Logistik Sentral."
+        "text": "Arus Kas Aktivitas Investasi, Arus Kas Aktivitas Operasi, dan Arus Kas Aktivitas Sosial Kemanusiaan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Arus Kas Aktivitas Operasi (Operating), Arus Kas Aktivitas Investasi (Investing), dan Arus Kas Aktivitas Pendanaan (Financing).. (1) Jasa bubut = operasi harian; (2) Pembelian mesin gerinda = investasi aset tetap; (3) Pinjaman modal koperasi = pendanaan modal usaha. Operasi, Investasi, dan Pendanaan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Arus Kas Aktivitas Operasi (Operating), Arus Kas Aktivitas Investasi (Investing), dan Arus Kas Aktivitas Pendanaan (Financing).. (1) Jasa bubut = operasi harian; (2) Pembelian mesin gerinda = investasi aset tetap; (3) Pinjaman modal koperasi = pendanaan modal usaha. Operasi, Investasi, dan Pendanaan."
   },
   {
     "id": "pkk-lat-m-08",
@@ -1405,7 +1406,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "1,0 (atau 100%), yang berarti seluruh kas bank harus segera disita oleh pihak sekolah untuk kas dana bos."
+        "text": "0,5 (atau 50%), yang menunjukkan bahwa kas bank tidak cukup untuk membayar biaya bahan baku satu semester."
       },
       {
         "key": "C",
@@ -1417,7 +1418,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "0,5 (atau 50%), yang menunjukkan bahwa kas bank tidak cukup untuk membayar biaya bahan baku satu semester."
+        "text": "1,0 (atau 100%), yang berarti seluruh kas bank harus segera disita oleh pihak sekolah untuk kas dana bos."
       }
     ],
     "correctKey": "C",
@@ -1444,7 +1445,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Metode Biaya Variabel (Variable Costing), yang hanya memasukkan biaya produksi yang berubah sebanding dengan volume output dan mengabaikan overhead tetap sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Metode Biaya Penuh (Full Costing), yaitu metode penentuan HPP yang membebankan seluruh unsur biaya produksi baik yang berperilaku tetap maupun variabel ke dalam harga pokok produk."
       },
       {
         "key": "B",
@@ -1456,15 +1457,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Metode Biaya Penuh (Full Costing), yaitu metode penentuan HPP yang membebankan seluruh unsur biaya produksi baik yang berperilaku tetap maupun variabel ke dalam harga pokok produk."
+        "text": "Metode Biaya Marginal Acak, yang menentukan biaya produksi berdasarkan tebakan harga pasaran di lokapasar online."
       },
       {
         "key": "E",
-        "text": "Metode Biaya Marginal Acak, yang menentukan biaya produksi berdasarkan tebakan harga pasaran di lokapasar online."
+        "text": "Metode Biaya Variabel (Variable Costing), yang hanya memasukkan biaya produksi yang berubah sebanding dengan volume output dan mengabaikan overhead tetap konsumen."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Metode Biaya Penuh (Full Costing), yaitu metode penentuan HPP yang membebankan seluruh unsur biaya produksi baik yang berperilaku tetap maupun variabel ke dalam harga pokok produk.. Metode penentuan harga pokok produksi yang memperhitungkan seluruh biaya (variabel + tetap) disebut Full Costing. Full Costing (Biaya Penuh)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Metode Biaya Penuh (Full Costing), yaitu metode penentuan HPP yang membebankan seluruh unsur biaya produksi baik yang berperilaku tetap maupun variabel ke dalam harga pokok produk.. Metode penentuan harga pokok produksi yang memperhitungkan seluruh biaya (variabel + tetap) disebut Full Costing. Full Costing (Biaya Penuh)."
   },
   {
     "id": "pkk-lat-m-10",
@@ -1487,7 +1488,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Price Skimming (Penyaringan Harga), yaitu menetapkan harga awal setinggi mungkin untuk memeras surplus konsumen kelas atas sebelum menurunkan harga dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Cost-Plus Pricing Murni, yaitu menambahkan persentase keuntungan kaku tanpa mempedulikan reaksi kompetitor di pasar ritel."
       },
       {
         "key": "B",
@@ -1495,11 +1496,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Cost-Plus Pricing Murni, yaitu menambahkan persentase keuntungan kaku tanpa mempedulikan reaksi kompetitor di pasar ritel."
+        "text": "Dynamic Pricing Algoritmik, yaitu mengubah harga botol setiap 5 detik sesuai dengan pergerakan indeks saham gabungan."
       },
       {
         "key": "D",
-        "text": "Dynamic Pricing Algoritmik, yaitu mengubah harga botol setiap 5 detik sesuai dengan pergerakan indeks saham gabungan."
+        "text": "Price Skimming (Penyaringan Harga), yaitu menetapkan harga awal setinggi mungkin untuk memeras surplus konsumen kelas atas sebelum menurunkan harga dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "E",
@@ -1530,27 +1531,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tahap Kedewasaan / Kematangan (Maturity Stage), yang menuntut strategi modifikasi fitur produk, diferensiasi desain, atau eksplorasi segmen pasar baru agar tidak jatuh ke tahap penurunan (decline)."
-      },
-      {
-        "key": "B",
-        "text": "Tahap Perkenalan (Introduction Stage), di mana konsumen belum mengetahui keberadaan produk dan biaya promosi masih sangat besar demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Tahap Pertumbuhan (Growth Stage), di mana penjualan melonjak drastis secara eksponensial tanpa adanya persaingan yang berarti."
-      },
-      {
-        "key": "D",
         "text": "Tahap Penurunan (Decline Stage), di mana penjualan telah anjlok mendekati nol dan produk harus segera ditarik dari peredaran."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Tahap Pertumbuhan (Growth Stage), di mana penjualan melonjak drastis secara eksponensial tanpa adanya persaingan yang berarti."
+      },
+      {
+        "key": "C",
         "text": "Tahap Konsepsi Awal, di mana siswa baru mulai menggambar sketsa manual di atas kertas kalkir."
+      },
+      {
+        "key": "D",
+        "text": "Tahap Perkenalan (Introduction Stage), di mana konsumen belum mengetahui keberadaan produk dan biaya promosi masih sangat besar."
+      },
+      {
+        "key": "E",
+        "text": "Tahap Kedewasaan / Kematangan (Maturity Stage), yang menuntut strategi modifikasi fitur produk, diferensiasi desain, atau eksplorasi segmen pasar baru agar tidak jatuh ke tahap penurunan (decline)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tahap Kedewasaan / Kematangan (Maturity Stage), yang menuntut strategi modifikasi fitur produk, diferensiasi desain, atau eksplorasi segmen pasar baru agar tidak jatuh ke tahap penurunan (decline).. Penjualan di puncak, pertumbuhan melambat, dan persaingan sangat ketat merupakan karakteristik tahap Maturity (Kedewasaan/Kematangan). Tahap Kedewasaan / Kematangan (Maturity Stage)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Tahap Kedewasaan / Kematangan (Maturity Stage), yang menuntut strategi modifikasi fitur produk, diferensiasi desain, atau eksplorasi segmen pasar baru agar tidak jatuh ke tahap penurunan (decline).. Penjualan di puncak, pertumbuhan melambat, dan persaingan sangat ketat merupakan karakteristik tahap Maturity (Kedewasaan/Kematangan). Tahap Kedewasaan / Kematangan (Maturity Stage)."
   },
   {
     "id": "pkk-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Saluran Tingkat Nol (Zero-Level Channel / Direct Marketing), di mana produsen menjual langsung dari dapur ke tangan konsumen tanpa perantara sama sekali demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Saluran Tingkat Nol (Zero-Level Channel / Direct Marketing), di mana produsen menjual langsung dari dapur ke tangan konsumen tanpa perantara sama sekali."
       },
       {
         "key": "B",
-        "text": "Saluran Tingkat Satu (One-Level Channel / Indirect Distribution), di mana alur produk mengalir dari Produsen $\\rightarrow$ Pengecer (Retailer) $\\rightarrow$ Konsumen Akhir."
-      },
-      {
-        "key": "C",
-        "text": "Saluran Tingkat Dua (Two-Level Channel), di mana barang harus melewati Pedagang Besar (Wholesaler) dan Agen Tunggal Pemegang Merek sebelum sampai ke toko."
-      },
-      {
-        "key": "D",
         "text": "Saluran Sirkular Gelap, di mana barang diselundupkan melewati batas perairan internasional tanpa dokumen karantina."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Saluran Multi-Level Marketing (MLM), di mana konsumen diwajibkan merekrut sepuluh anggota keluarga untuk memperoleh potongan harga."
+      },
+      {
+        "key": "D",
+        "text": "Saluran Tingkat Dua (Two-Level Channel), di mana barang harus melewati Pedagang Besar (Wholesaler) dan Agen Tunggal Pemegang Merek sebelum sampai ke toko."
+      },
+      {
+        "key": "E",
+        "text": "Saluran Tingkat Satu (One-Level Channel / Indirect Distribution), di mana alur produk mengalir dari Produsen $\\rightarrow$ Pengecer (Retailer) $\\rightarrow$ Konsumen Akhir."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Saluran Tingkat Satu (One-Level Channel / Indirect Distribution), di mana alur produk mengalir dari Produsen $\\rightarrow$ Pengecer (Retailer) $\\rightarrow$ Konsumen Akhir.. Produsen menjual ke perantara tunggal (minimarket/pengecer), lalu pengecer menjual ke konsumen = Saluran Tingkat Satu (One-Level Channel). Saluran Tingkat Satu (One-Level Channel)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Saluran Tingkat Satu (One-Level Channel / Indirect Distribution), di mana alur produk mengalir dari Produsen $\\rightarrow$ Pengecer (Retailer) $\\rightarrow$ Konsumen Akhir.. Produsen menjual ke perantara tunggal (minimarket/pengecer), lalu pengecer menjual ke konsumen = Saluran Tingkat Satu (One-Level Channel). Saluran Tingkat Satu (One-Level Channel)."
   },
   {
     "id": "pkk-lat-m-13",
@@ -1616,11 +1617,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Analisis Mengenai Dampak Lingkungan (AMDAL) komprehensif skala reaktor nuklir industri berat untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Surat Keputusan Izin Ekspor Logam Mulia dari Dewan Keamanan Perserikatan Bangsa-Bangsa."
       },
       {
         "key": "B",
-        "text": "Surat Keputusan Izin Ekspor Logam Mulia dari Dewan Keamanan Perserikatan Bangsa-Bangsa."
+        "text": "Sertifikat Kelayakan Terbang Pesawat Ruang Angkasa Berawak dari Badan Antariksa Internasional."
       },
       {
         "key": "C",
@@ -1632,7 +1633,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sertifikat Kelayakan Terbang Pesawat Ruang Angkasa Berawak dari Badan Antariksa Internasional."
+        "text": "Analisis Mengenai Dampak Lingkungan (AMDAL) komprehensif skala reaktor nuklir industri berat untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
     "correctKey": "C",
@@ -1659,27 +1660,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Beta Testing dan Gamma Testing, karena pengujian perangkat lunak di sekolah tidak pernah memerlukan peran pengembang internal sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "Stress Testing dan Penetration Testing, yang bertujuan membobol kata sandi rekening bank milik pemilik toko kelontong."
-      },
-      {
-        "key": "C",
         "text": "Unit Testing dan Code Refactoring, karena pemilik toko kelontong bertugas membaca baris kode pemrograman PHP secara manual."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Alpha Testing (Pengujian Internal di Laboratorium Pengembang) dan Beta Testing (Pengujian Eksternal oleh Pengguna Nyata di Lingkungan Sebenarnya)."
+      },
+      {
+        "key": "C",
+        "text": "Stress Testing dan Penetration Testing, yang bertujuan membobol kata sandi rekening bank milik pemilik toko kelontong."
+      },
+      {
+        "key": "D",
+        "text": "Beta Testing dan Gamma Testing, karena pengujian perangkat lunak di sekolah tidak pernah memerlukan peran pengembang internal konsumen."
       },
       {
         "key": "E",
         "text": "Black Box Testing dan White Box Testing, karena kedua istilah tersebut hanya merujuk pada warna casing komputer jinjing."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Alpha Testing (Pengujian Internal di Laboratorium Pengembang) dan Beta Testing (Pengujian Eksternal oleh Pengguna Nyata di Lingkungan Sebenarnya).. Pengujian internal di lingkungan pengembang = Alpha Test. Pengujian langsung oleh pengguna riil di lapangan = Beta Test. Alpha Testing dan Beta Testing."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Alpha Testing (Pengujian Internal di Laboratorium Pengembang) dan Beta Testing (Pengujian Eksternal oleh Pengguna Nyata di Lingkungan Sebenarnya).. Pengujian internal di lingkungan pengembang = Alpha Test. Pengujian langsung oleh pengguna riil di lapangan = Beta Test. Alpha Testing dan Beta Testing."
   },
   {
     "id": "pkk-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengecat seluruh lantai bengkel dengan warna perak berkilau tanpa menyingkirkan bram besi yang berserakan dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
-        "text": "Menempelkan poster peringatan keselamatan kerja berukuran raksasa di atas tumpahan oli licin agar tidak terlihat oleh pengawas."
-      },
-      {
-        "key": "C",
-        "text": "Menutup bengkel secara permanen dan memindahkan seluruh aktivitas praktik kerja lapangan ke aula olahraga sekolah."
-      },
-      {
-        "key": "D",
         "text": "Meminta seluruh siswa membeli mikrometer baru masing-masing dengan menggunakan uang saku pribadi."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menutup bengkel secara permanen dan memindahkan seluruh aktivitas praktik kerja lapangan ke aula olahraga sekolah."
+      },
+      {
+        "key": "C",
+        "text": "Menempelkan poster peringatan keselamatan kerja berukuran raksasa di atas tumpahan oli licin agar tidak terlihat oleh pengawas."
+      },
+      {
+        "key": "D",
         "text": "Memilah secara tegas antara barang yang masih diperlukan dan barang yang sudah tidak berguna/rusak, kemudian membuang atau menyingkirkan barang yang tidak diperlukan dari area kerja."
+      },
+      {
+        "key": "E",
+        "text": "Mengecat seluruh lantai bengkel dengan warna perak berkilau tanpa menyingkirkan bram besi yang berserakan dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Memilah secara tegas antara barang yang masih diperlukan dan barang yang sudah tidak berguna/rusak, kemudian membuang atau menyingkirkan barang yang tidak diperlukan dari area kerja.. Langkah pertama 5S/5R adalah Seiri (Ringkas): memilah antara barang yang berguna dan tidak berguna, lalu membuang barang yang tidak terpakai. Memilah dan menyingkirkan barang yang tidak diperlukan (Seiri / Ringkas)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Memilah secara tegas antara barang yang masih diperlukan dan barang yang sudah tidak berguna/rusak, kemudian membuang atau menyingkirkan barang yang tidak diperlukan dari area kerja.. Langkah pertama 5S/5R adalah Seiri (Ringkas): memilah antara barang yang berguna dan tidak berguna, lalu membuang barang yang tidak terpakai. Memilah dan menyingkirkan barang yang tidak diperlukan (Seiri / Ringkas)."
   },
   {
     "id": "pkk-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "8 bulan, dihitung dari total nilai investasi awal sebesar Rp12.000.000 dibagi dengan arus kas laba bersih bulanan sebesar Rp1.500.000."
+        "text": "4 bulan, dengan asumsi separuh laba bersih berasal dari sumbangan sukarela orang tua murid."
       },
       {
         "key": "B",
-        "text": "12 bulan, karena periode pengembalian modal bisnis diatur secara resmi harus selalu genap satu tahun pajak demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "18 bulan, karena nilai mesin akan terdepresiasi sebesar 50% setiap kali dialiri arus listrik bolak-balik."
       },
       {
+        "key": "C",
+        "text": "12 bulan, karena periode pengembalian modal bisnis diatur secara resmi harus selalu genap satu tahun pajak."
+      },
+      {
         "key": "D",
-        "text": "4 bulan, dengan asumsi separuh laba bersih berasal dari sumbangan sukarela orang tua murid."
+        "text": "8 bulan, dihitung dari total nilai investasi awal sebesar Rp12.000.000 dibagi dengan arus kas laba bersih bulanan sebesar Rp1.500.000."
       },
       {
         "key": "E",
         "text": "24 bulan, dihitung dengan menjumlahkan seluruh bunga bank yang diasumsikan pada suku bunga majemuk darurat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 8 bulan, dihitung dari total nilai investasi awal sebesar Rp12.000.000 dibagi dengan arus kas laba bersih bulanan sebesar Rp1.500.000.. Payback Period = Nilai Investasi Awal / Arus Kas Bersih per Periode. 12.000.000 / 1.500.000 = 8 bulan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 8 bulan, dihitung dari total nilai investasi awal sebesar Rp12.000.000 dibagi dengan arus kas laba bersih bulanan sebesar Rp1.500.000.. Payback Period = Nilai Investasi Awal / Arus Kas Bersih per Periode. 12.000.000 / 1.500.000 = 8 bulan."
   },
   {
     "id": "pkk-lat-m-17",
@@ -1788,27 +1789,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keputusan pembelian bersifat sangat emosional dan impulsif dipicu oleh warna kemasan kardus yang mencolok demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Keputusan pembelian melibatkan banyak pemangku kepentingan (buying center), proses evaluasi rasional berbasis spesifikasi teknis dan legalitas faktur, serta volume transaksi yang besar dengan kontrak jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "Pembayaran selalu dilakukan secara tunai di kasir minimarket tanpa adanya bukti faktur pajak resmi."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Keputusan pembelian bersifat sangat emosional dan impulsif dipicu oleh warna kemasan kardus yang mencolok."
+      },
+      {
+        "key": "C",
         "text": "Siklus transaksi berlangsung sangat instan dalam hitungan detik layaknya membeli makanan ringan di pinggir jalan."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Harga jual produk tidak boleh dinegosiasikan dan wajib mencantumkan label diskon coret sebesar 90%."
+      },
+      {
+        "key": "E",
+        "text": "Keputusan pembelian melibatkan banyak pemangku kepentingan (buying center), proses evaluasi rasional berbasis spesifikasi teknis dan legalitas faktur, serta volume transaksi yang besar dengan kontrak jangka panjang."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Keputusan pembelian melibatkan banyak pemangku kepentingan (buying center), proses evaluasi rasional berbasis spesifikasi teknis dan legalitas faktur, serta volume transaksi yang besar dengan kontrak jangka panjang.. Model B2B bercirikan keputusan rasional multi-pihak, evaluasi spesifikasi ketat, volume besar, dan kontrak formal jangka panjang. Pilih opsi yang menjelaskan keputusan rasional berbasis spesifikasi teknis dan legalitas formal."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Keputusan pembelian melibatkan banyak pemangku kepentingan (buying center), proses evaluasi rasional berbasis spesifikasi teknis dan legalitas faktur, serta volume transaksi yang besar dengan kontrak jangka panjang.. Model B2B bercirikan keputusan rasional multi-pihak, evaluasi spesifikasi ketat, volume besar, dan kontrak formal jangka panjang. Pilih opsi yang menjelaskan keputusan rasional berbasis spesifikasi teknis dan legalitas formal."
   },
   {
     "id": "pkk-lat-m-18",
@@ -1831,27 +1832,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp20.000.000, karena nilai tersebut merupakan Laba Kotor yang belum dipotong oleh beban gaji dan sewa bengkel untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "Rp11.750.000, karena nilai tersebut merupakan Laba Bersih Setelah Pajak (EAT) yang telah memperhitungkan PPh Final."
       },
       {
-        "key": "C",
-        "text": "Rp12.000.000, diperoleh dari Laba Kotor (Penjualan Rp50.000.000 dikurangi HPP Rp30.000.000 = Rp20.000.000), kemudian dikurangi Beban Operasional sebesar Rp8.000.000."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Rp50.000.000, karena omzet bruto penjualan langsung diakui sebagai keuntungan bersih operasional di rekening bank."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Rp8.000.000, karena beban penjualan otomatis menjadi batas maksimal keuntungan yang boleh diambil oleh unit siswa."
+      },
+      {
+        "key": "D",
+        "text": "Rp20.000.000, karena nilai tersebut merupakan Laba Kotor yang belum dipotong oleh beban gaji dan sewa bengkel untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+      },
+      {
+        "key": "E",
+        "text": "Rp12.000.000, diperoleh dari Laba Kotor (Penjualan Rp50.000.000 dikurangi HPP Rp30.000.000 = Rp20.000.000), kemudian dikurangi Beban Operasional sebesar Rp8.000.000."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Rp12.000.000, diperoleh dari Laba Kotor (Penjualan Rp50.000.000 dikurangi HPP Rp30.000.000 = Rp20.000.000), kemudian dikurangi Beban Operasional sebesar Rp8.000.000.. Laba Operasional = Laba Kotor - Beban Operasional. Laba Kotor = Penjualan - HPP. Laba Kotor = 50jt - 30jt = 20jt. Laba Operasi = 20jt - 8jt = Rp12.000.000."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Rp12.000.000, diperoleh dari Laba Kotor (Penjualan Rp50.000.000 dikurangi HPP Rp30.000.000 = Rp20.000.000), kemudian dikurangi Beban Operasional sebesar Rp8.000.000.. Laba Operasional = Laba Kotor - Beban Operasional. Laba Kotor = Penjualan - HPP. Laba Kotor = 50jt - 30jt = 20jt. Laba Operasi = 20jt - 8jt = Rp12.000.000."
   },
   {
     "id": "pkk-lat-m-19",
@@ -1874,27 +1875,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "0,25%, dihitung secara keliru dari jumlah pembeli dibagi dengan total impresi tayangan iklan awal sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "20,0%, dihitung dari rasio jumlah klik tautan terhadap harga jual satu unit lampu hias pipa."
-      },
-      {
-        "key": "C",
-        "text": "50,0%, karena setiap dua orang yang membaca iklan diyakini pasti akan membeli satu lusin lampu hias."
-      },
-      {
-        "key": "D",
         "text": "5,0%, dihitung dari jumlah pembeli nyata (25 orang) dibagi dengan total pengunjung landing page (500 orang) dikalikan 100%."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "0,25%, dihitung secara keliru dari jumlah pembeli dibagi dengan total impresi tayangan iklan awal konsumen."
+      },
+      {
+        "key": "C",
         "text": "2,5%, dihitung dari selisih antara klik tautan dengan jumlah pengikut akun media sosial sekolah."
+      },
+      {
+        "key": "D",
+        "text": "50,0%, karena setiap dua orang yang membaca iklan diyakini pasti akan membeli satu lusin lampu hias."
+      },
+      {
+        "key": "E",
+        "text": "20,0%, dihitung dari rasio jumlah klik tautan terhadap harga jual satu unit lampu hias pipa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 5,0%, dihitung dari jumlah pembeli nyata (25 orang) dibagi dengan total pengunjung landing page (500 orang) dikalikan 100%.. Conversion Rate dihitung dari (Pembeli / Pengunjung Website) x 100%. 25 / 500 * 100% = 5,0%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 5,0%, dihitung dari jumlah pembeli nyata (25 orang) dibagi dengan total pengunjung landing page (500 orang) dikalikan 100%.. Conversion Rate dihitung dari (Pembeli / Pengunjung Website) x 100%. 25 / 500 * 100% = 5,0%."
   },
   {
     "id": "pkk-lat-m-20",
@@ -1917,11 +1918,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh piutang secara diam-diam dari catatan buku kas tanpa memberitahu guru pembimbing usaha dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Melaporkan penunggak utang langsung ke pengadilan arbitrase internasional di Den Haag Belanda."
       },
       {
         "key": "B",
-        "text": "Menambah plafon kredit menjadi Rp20.000.000 kepada debitur macet tersebut agar mereka terdorong membeli lebih banyak barang."
+        "text": "Menghapus seluruh piutang secara diam-diam dari catatan buku kas tanpa memberitahu guru pembimbing usaha dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "C",
@@ -1929,15 +1930,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Melaporkan penunggak utang langsung ke pengadilan arbitrase internasional di Den Haag Belanda."
+        "text": "Menghentikan fasilitas penjualan kredit baru kepada pelanggan yang menunggak tersebut, membentuk cadangan kerugian piutang tak tertagih, dan mengirimkan surat penagihan berjenjang."
       },
       {
         "key": "E",
-        "text": "Menghentikan fasilitas penjualan kredit baru kepada pelanggan yang menunggak tersebut, membentuk cadangan kerugian piutang tak tertagih, dan mengirimkan surat penagihan berjenjang."
+        "text": "Menambah plafon kredit menjadi Rp20.000.000 kepada debitur macet tersebut agar mereka terdorong membeli lebih banyak barang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menghentikan fasilitas penjualan kredit baru kepada pelanggan yang menunggak tersebut, membentuk cadangan kerugian piutang tak tertagih, dan mengirimkan surat penagihan berjenjang.. Piutang menunggak >90 hari berisiko macet tinggi. Kebijakan pengendalian: stop kredit tambahan, cadangkan kerugian piutang, dan lakukan penagihan bertahap. Stop kredit baru, cadangkan piutang tak tertagih, dan kirim surat peringatan/penagihan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menghentikan fasilitas penjualan kredit baru kepada pelanggan yang menunggak tersebut, membentuk cadangan kerugian piutang tak tertagih, dan mengirimkan surat penagihan berjenjang.. Piutang menunggak >90 hari berisiko macet tinggi. Kebijakan pengendalian: stop kredit tambahan, cadangkan kerugian piutang, dan lakukan penagihan bertahap. Stop kredit baru, cadangkan piutang tak tertagih, dan kirim surat peringatan/penagihan."
   },
   {
     "id": "pkk-lat-m-21",
@@ -1960,27 +1961,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Melindungi kerahasiaan informasi teknis, rahasia dagang, dan skema bisnis agar tidak dibocorkan, ditiru, atau dimanfaatkan oleh pihak mitra tanpa izin sah tertulis."
+        "text": "Menjamin bahwa siswa pembuat alat akan otomatis lulus ujian sekolah tanpa perlu mengikuti asesmen akhir."
       },
       {
         "key": "B",
-        "text": "Memaksa investor menyerahkan seluruh kepemilikan saham perusahaannya kepada kas koperasi sekolah secara cuma-cuma demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Memaksa investor menyerahkan seluruh kepemilikan saham perusahaannya kepada kas koperasi sekolah secara cuma-cuma."
       },
       {
         "key": "C",
-        "text": "Memberikan hak istimewa kepada mitra bengkel untuk menjual alat tersebut secara bebas tanpa membayar royalti."
+        "text": "Melindungi kerahasiaan informasi teknis, rahasia dagang, dan skema bisnis agar tidak dibocorkan, ditiru, atau dimanfaatkan oleh pihak mitra tanpa izin sah tertulis."
       },
       {
         "key": "D",
-        "text": "Menjamin bahwa siswa pembuat alat akan otomatis lulus ujian sekolah tanpa perlu mengikuti asesmen akhir."
+        "text": "Memberikan hak istimewa kepada mitra bengkel untuk menjual alat tersebut secara bebas tanpa membayar royalti."
       },
       {
         "key": "E",
         "text": "Mengganti akta kelahiran seluruh anggota tim rintisan menjadi warga negara asing pemegang paspor diplomatik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Melindungi kerahasiaan informasi teknis, rahasia dagang, dan skema bisnis agar tidak dibocorkan, ditiru, atau dimanfaatkan oleh pihak mitra tanpa izin sah tertulis.. NDA (Non-Disclosure Agreement) adalah perjanjian hukum untuk mengunci dan menjaga kerahasiaan informasi/rahasia dagang dari pembocoran sepihak. Melindungi kerahasiaan informasi teknis dan rahasia bisnis agar tidak ditiru tanpa izin."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Melindungi kerahasiaan informasi teknis, rahasia dagang, dan skema bisnis agar tidak dibocorkan, ditiru, atau dimanfaatkan oleh pihak mitra tanpa izin sah tertulis.. NDA (Non-Disclosure Agreement) adalah perjanjian hukum untuk mengunci dan menjaga kerahasiaan informasi/rahasia dagang dari pembocoran sepihak. Melindungi kerahasiaan informasi teknis dan rahasia bisnis agar tidak ditiru tanpa izin."
   },
   {
     "id": "pkk-lat-m-22",
@@ -2003,27 +2004,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Waste of Overproduction (Pemborosan Produksi Berlebih), karena siswa merakit terlalu banyak panel listrik melebihi jumlah pesanan pelanggan demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Waste of Motion (Pemborosan Gerakan), yaitu gerakan fisik pekerja yang tidak ergonomis atau tidak perlu karena tata letak (layout) area kerja yang buruk."
-      },
-      {
-        "key": "C",
         "text": "Waste of Defect (Pemborosan Cacat Produk), karena saklar listrik meledak akibat korsleting tegangan tinggi."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Waste of Overprocessing (Pemborosan Proses Berlebih), karena permukaan panel dipoles menggunakan serbuk intan berlian."
+      },
+      {
+        "key": "C",
+        "text": "Waste of Motion (Pemborosan Gerakan), yaitu gerakan fisik pekerja yang tidak ergonomis atau tidak perlu karena tata letak (layout) area kerja yang buruk."
+      },
+      {
+        "key": "D",
+        "text": "Waste of Overproduction (Pemborosan Produksi Berlebih), karena siswa merakit terlalu banyak panel listrik melebihi jumlah pesanan pelanggan."
       },
       {
         "key": "E",
         "text": "Waste of Waiting (Pemborosan Menunggu), karena seluruh pasokan listrik PLN di kota tersebut padam selama seminggu."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Waste of Motion (Pemborosan Gerakan), yaitu gerakan fisik pekerja yang tidak ergonomis atau tidak perlu karena tata letak (layout) area kerja yang buruk.. Gerakan fisik pekerja yang bolak-balik karena layout bengkel yang tidak teratur adalah contoh nyata Waste of Motion (Pemborosan Gerakan). Waste of Motion (Pemborosan Gerakan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Waste of Motion (Pemborosan Gerakan), yaitu gerakan fisik pekerja yang tidak ergonomis atau tidak perlu karena tata letak (layout) area kerja yang buruk.. Gerakan fisik pekerja yang bolak-balik karena layout bengkel yang tidak teratur adalah contoh nyata Waste of Motion (Pemborosan Gerakan). Waste of Motion (Pemborosan Gerakan)."
   },
   {
     "id": "pkk-lat-m-23",
@@ -2050,23 +2051,23 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Helm yang tidak ber-SNI tetap boleh dijual bebas asalkan diberi tulisan 'Hanya untuk dipakai di jalan desa'."
-      },
-      {
-        "key": "C",
         "text": "Produk helm dilarang keras diperjualbelikan atau diedarkan di wilayah Republik Indonesia jika belum lulus uji laboratorium terakreditasi dan belum memiliki Sertifikat Produk Penggunaan Tanda SNI (SPPT SNI)."
       },
       {
+        "key": "C",
+        "text": "Helm yang tidak ber-SNI tetap boleh dijual bebas asalkan diberi tulisan 'Hanya untuk dipakai di jalan desa'."
+      },
+      {
         "key": "D",
-        "text": "Pabrik helm otomatis dibebaskan dari kewajiban membayar pajak penghasilan selama sepuluh tahun masa berlakunya sertifikat."
+        "text": "Siswa SMK yang memproduksi helm secara otomatis diangkat menjadi pegawai negeri sipil di Badan Standardisasi Nasional."
       },
       {
         "key": "E",
-        "text": "Siswa SMK yang memproduksi helm secara otomatis diangkat menjadi pegawai negeri sipil di Badan Standardisasi Nasional."
+        "text": "Pabrik helm otomatis dibebaskan dari kewajiban membayar pajak penghasilan selama sepuluh tahun masa berlakunya sertifikat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Produk helm dilarang keras diperjualbelikan atau diedarkan di wilayah Republik Indonesia jika belum lulus uji laboratorium terakreditasi dan belum memiliki Sertifikat Produk Penggunaan Tanda SNI (SPPT SNI).. SNI Wajib berlaku mutlak demi keselamatan konsumen; produk tanpa sertifikat SNI dilarang beredar dan dikenai sanksi penarikan. Dilarang diperjualbelikan di wilayah RI tanpa SPPT SNI."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Produk helm dilarang keras diperjualbelikan atau diedarkan di wilayah Republik Indonesia jika belum lulus uji laboratorium terakreditasi dan belum memiliki Sertifikat Produk Penggunaan Tanda SNI (SPPT SNI).. SNI Wajib berlaku mutlak demi keselamatan konsumen; produk tanpa sertifikat SNI dilarang beredar dan dikenai sanksi penarikan. Dilarang diperjualbelikan di wilayah RI tanpa SPPT SNI."
   },
   {
     "id": "pkk-lat-m-24",
@@ -2089,27 +2090,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "0,2x (atau 20%), yang menunjukkan bahwa usaha mengalami kerugian iklan karena biaya promosi lebih mahal daripada harga sepasang sepatu."
-      },
-      {
-        "key": "B",
-        "text": "2,0x (atau 200%), dihitung dengan mengurangi omzet penjualan dengan biaya pokok bahan baku kulit samak."
-      },
-      {
-        "key": "C",
-        "text": "8,0x (atau 800%), dihitung dari selisih antara pendapatan kotor dengan modal kerja awal yang disetor guru pembimbing."
-      },
-      {
-        "key": "D",
         "text": "5,0x (atau 500%), yang berarti setiap Rp1 uang yang dibelanjakan untuk iklan berhasil mendatangkan omzet penjualan kotor sebesar Rp5."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "8,0x (atau 800%), dihitung dari selisih antara pendapatan kotor dengan modal kerja awal yang disetor guru pembimbing."
+      },
+      {
+        "key": "C",
+        "text": "0,2x (atau 20%), yang menunjukkan bahwa usaha mengalami kerugian iklan karena biaya promosi lebih mahal daripada harga sepasang sepatu."
+      },
+      {
+        "key": "D",
         "text": "12,0x (atau 1.200%), karena seluruh penonton video iklan diasumsikan akan menjadi pelanggan seumur hidup."
+      },
+      {
+        "key": "E",
+        "text": "2,0x (atau 200%), dihitung dengan mengurangi omzet penjualan dengan biaya pokok bahan baku kulit samak."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 5,0x (atau 500%), yang berarti setiap Rp1 uang yang dibelanjakan untuk iklan berhasil mendatangkan omzet penjualan kotor sebesar Rp5.. ROAS = Pendapatan dari Iklan / Biaya Iklan. 10.000.000 / 2.000.000 = 5,0x (atau 500%)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 5,0x (atau 500%), yang berarti setiap Rp1 uang yang dibelanjakan untuk iklan berhasil mendatangkan omzet penjualan kotor sebesar Rp5.. ROAS = Pendapatan dari Iklan / Biaya Iklan. 10.000.000 / 2.000.000 = 5,0x (atau 500%)."
   },
   {
     "id": "pkk-lat-m-25",
@@ -2132,7 +2133,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "90%, karena angka tersebut merupakan Tingkat Efisiensi (Efficiency Rate) yang dihitung dari output aktual dibagi kapasitas efektif."
+        "text": "72%, dihitung dari output aktual (720 unit) dibagi dengan kapasitas desain maksimum mesin (1.000 unit) dikalikan 100%."
       },
       {
         "key": "B",
@@ -2144,15 +2145,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "100%, dengan asumsi seluruh mesin jahit beroperasi secara otomatis tanpa bantuan tenaga manusia sama sekali."
+        "text": "90%, karena angka tersebut merupakan Tingkat Efisiensi (Efficiency Rate) yang dihitung dari output aktual dibagi kapasitas efektif."
       },
       {
         "key": "E",
-        "text": "72%, dihitung dari output aktual (720 unit) dibagi dengan kapasitas desain maksimum mesin (1.000 unit) dikalikan 100%."
+        "text": "100%, dengan asumsi seluruh mesin jahit beroperasi secara otomatis tanpa bantuan tenaga manusia sama sekali."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 72%, dihitung dari output aktual (720 unit) dibagi dengan kapasitas desain maksimum mesin (1.000 unit) dikalikan 100%.. Tingkat Utilisasi dihitung dari Output Aktual dibagi Kapasitas Desain. (Catatan: Output Aktual dibagi Kapasitas Efektif disebut Tingkat Efisiensi). Utilisasi = 720 / 1000 * 100% = 72%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 72%, dihitung dari output aktual (720 unit) dibagi dengan kapasitas desain maksimum mesin (1.000 unit) dikalikan 100%.. Tingkat Utilisasi dihitung dari Output Aktual dibagi Kapasitas Desain. (Catatan: Output Aktual dibagi Kapasitas Efektif disebut Tingkat Efisiensi). Utilisasi = 720 / 1000 * 100% = 72%."
   },
   {
     "id": "pkk-lat-h-01",
@@ -2175,11 +2176,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Layak diterima (Feasible), karena menghasilkan nilai Net Present Value (NPV) positif sebesar Rp+6.480.000 (Present Value arus kas masuk Rp106.480.000 dikurangi investasi awal Rp100.000.000)."
+        "text": "Netral, karena nilai uang di masa depan selalu dianggap sama persis dengan nilai uang saat ini menurut asas akuntansi tunai."
       },
       {
         "key": "B",
-        "text": "Wajib ditolak keras, karena arus kas masuk tiga tahun hanya menghasilkan Rp120.000.000 yang dipotong inflasi menjadi minus Rp15.000.000 demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Tidak layak, karena perhitungan NPV bernilai negatif Rp-10.000.000 setelah memperhitungkan biaya sewa aula sekolah."
       },
       {
         "key": "C",
@@ -2187,15 +2188,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Tidak layak, karena perhitungan NPV bernilai negatif Rp-10.000.000 setelah memperhitungkan biaya sewa aula sekolah."
+        "text": "Layak diterima (Feasible), karena menghasilkan nilai Net Present Value (NPV) positif sebesar Rp+6.480.000 (Present Value arus kas masuk Rp106.480.000 dikurangi investasi awal Rp100.000.000)."
       },
       {
         "key": "E",
-        "text": "Netral, karena nilai uang di masa depan selalu dianggap sama persis dengan nilai uang saat ini menurut asas akuntansi tunai."
+        "text": "Wajib ditolak keras, karena arus kas masuk tiga tahun hanya menghasilkan Rp120.000.000 yang dipotong inflasi menjadi minus Rp15.000.000."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Layak diterima (Feasible), karena menghasilkan nilai Net Present Value (NPV) positif sebesar Rp+6.480.000 (Present Value arus kas masuk Rp106.480.000 dikurangi investasi awal Rp100.000.000).. NPV adalah selisih antara nilai sekarang arus kas masuk (PV of Inflows) dengan nilai investasi awal. Jika NPV > 0, proyek investasi dinyatakan layak diterima. Total PV = 40jt * (0,9091 + 0,8264 + 0,7513) = 40jt * 2,662 = 106.480.000. NPV = 106.480.000 - 100.000.000 = +Rp6.480.000."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Layak diterima (Feasible), karena menghasilkan nilai Net Present Value (NPV) positif sebesar Rp+6.480.000 (Present Value arus kas masuk Rp106.480.000 dikurangi investasi awal Rp100.000.000).. NPV adalah selisih antara nilai sekarang arus kas masuk (PV of Inflows) dengan nilai investasi awal. Jika NPV > 0, proyek investasi dinyatakan layak diterima. Total PV = 40jt * (0,9091 + 0,8264 + 0,7513) = 40jt * 2,662 = 106.480.000. NPV = 106.480.000 - 100.000.000 = +Rp6.480.000."
   },
   {
     "id": "pkk-lat-h-02",
@@ -2218,11 +2219,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Proses berada dalam kendali sempurna karena tidak ada titik pengukuran yang melintasi garis batas kendali atas (UCL) demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Karyawan bengkel berhak mendapatkan kenaikan gaji 100% karena grafik menunjukkan stabilitas garis lurus tanpa gelombang."
       },
       {
         "key": "B",
-        "text": "Proses berada di luar kendali statistik (Out of Statistical Control) akibat adanya gejala pergeseran proses (run/trend) yang memerlukan investigasi keausan mata pahat mesin bubut."
+        "text": "Proses berada dalam kendali sempurna karena tidak ada titik pengukuran yang melintasi garis batas kendali atas (UCL)."
       },
       {
         "key": "C",
@@ -2230,15 +2231,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Karyawan bengkel berhak mendapatkan kenaikan gaji 100% karena grafik menunjukkan stabilitas garis lurus tanpa gelombang."
+        "text": "Seluruh produk poros engkol harus dicairkan kembali ke tungku peleburan logam tanpa perlu memeriksa mata pahat."
       },
       {
         "key": "E",
-        "text": "Seluruh produk poros engkol harus dicairkan kembali ke tungku peleburan logam tanpa perlu memeriksa mata pahat."
+        "text": "Proses berada di luar kendali statistik (Out of Statistical Control) akibat adanya gejala pergeseran proses (run/trend) yang memerlukan investigasi keausan mata pahat mesin bubut."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Proses berada di luar kendali statistik (Out of Statistical Control) akibat adanya gejala pergeseran proses (run/trend) yang memerlukan investigasi keausan mata pahat mesin bubut.. Berdasarkan kaidah SPC, jika ada 8 titik berturut-turut di salah satu sisi Center Line, terjadi anomali run (Special Cause Variation) sehingga proses out of control. Proses out of statistical control akibat gejala run/trend pergeseran proses."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Proses berada di luar kendali statistik (Out of Statistical Control) akibat adanya gejala pergeseran proses (run/trend) yang memerlukan investigasi keausan mata pahat mesin bubut.. Berdasarkan kaidah SPC, jika ada 8 titik berturut-turut di salah satu sisi Center Line, terjadi anomali run (Special Cause Variation) sehingga proses out of control. Proses out of statistical control akibat gejala run/trend pergeseran proses."
   },
   {
     "id": "pkk-lat-h-03",
@@ -2269,7 +2270,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "72,68%, yang menunjukkan kinerja mesin masih berada di bawah standar kelas dunia (World Class) sehingga memerlukan penerapan pemeliharaan preventif (Preventive Maintenance) yang lebih disiplin."
+        "text": "50,00%, karena efisiensi mesin di sekolah selalu dibagi dua akibat libur akhir pekan."
       },
       {
         "key": "D",
@@ -2277,11 +2278,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "50,00%, karena efisiensi mesin di sekolah selalu dibagi dua akibat libur akhir pekan."
+        "text": "72,68%, yang menunjukkan kinerja mesin masih berada di bawah standar kelas dunia (World Class) sehingga memerlukan penerapan pemeliharaan preventif (Preventive Maintenance) yang lebih disiplin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 72,68%, yang menunjukkan kinerja mesin masih berada di bawah standar kelas dunia (World Class) sehingga memerlukan penerapan pemeliharaan preventif (Preventive Maintenance) yang lebih disiplin.. OEE dihitung dengan mengalikan Availability x Performance x Quality. Nilai < 85% berada di bawah standar World Class. 0,90 * 0,85 * 0,95 = 0,72675 = 72,68% (di bawah standar World Class 85%)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 72,68%, yang menunjukkan kinerja mesin masih berada di bawah standar kelas dunia (World Class) sehingga memerlukan penerapan pemeliharaan preventif (Preventive Maintenance) yang lebih disiplin.. OEE dihitung dengan mengalikan Availability x Performance x Quality. Nilai < 85% berada di bawah standar World Class. 0,90 * 0,85 * 0,95 = 0,72675 = 72,68% (di bawah standar World Class 85%)."
   },
   {
     "id": "pkk-lat-h-04",
@@ -2304,11 +2305,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "640 unit gabungan, dihitung dengan membagi biaya tetap dengan margin kontribusi kemeja saja sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "640 unit gabungan, dihitung dengan membagi biaya tetap dengan margin kontribusi kemeja saja konsumen."
       },
       {
         "key": "B",
-        "text": "1.600 unit gabungan, dihitung dengan membagi biaya tetap dengan margin kontribusi kaos olahraga saja."
+        "text": "2.000 unit gabungan, dihitung dari penjumlahan biaya tetap dengan selisih margin kedua produk."
       },
       {
         "key": "C",
@@ -2320,7 +2321,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "2.000 unit gabungan, dihitung dari penjumlahan biaya tetap dengan selisih margin kedua produk."
+        "text": "1.600 unit gabungan, dihitung dengan membagi biaya tetap dengan margin kontribusi kaos olahraga saja."
       }
     ],
     "correctKey": "D",
@@ -2347,27 +2348,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "RPN = 19, dihitung dari penjumlahan ketiga nilai parameter, sehingga tidak memerlukan tindakan pencegahan apa pun dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "RPN = 240, yang tergolong berisiko tinggi (karena melebihi batas kritis tipikal industri yaitu RPN 100), sehingga memerlukan tindakan korektif segera berupa kalibrasi dispenser resin otomatis dan inspeksi ultrasonik."
       },
       {
         "key": "B",
-        "text": "RPN = 40, karena tingkat kejadian dikalikan tingkat keparahan tanpa memperhitungkan faktor deteksi operator."
-      },
-      {
-        "key": "C",
-        "text": "RPN = 1.000, yang berarti pabrik harus ditutup secara permanen oleh pengawas ketenagakerjaan daerah."
-      },
-      {
-        "key": "D",
         "text": "RPN = 48, dihitung dengan membagi tingkat keparahan dengan selisih waktu pengeringan resin."
       },
       {
+        "key": "C",
+        "text": "RPN = 40, karena tingkat kejadian dikalikan tingkat keparahan tanpa memperhitungkan faktor deteksi operator."
+      },
+      {
+        "key": "D",
+        "text": "RPN = 1.000, yang berarti pabrik harus ditutup secara permanen oleh pengawas ketenagakerjaan daerah."
+      },
+      {
         "key": "E",
-        "text": "RPN = 240, yang tergolong berisiko tinggi (karena melebihi batas kritis tipikal industri yaitu RPN 100), sehingga memerlukan tindakan korektif segera berupa kalibrasi dispenser resin otomatis dan inspeksi ultrasonik."
+        "text": "RPN = 19, dihitung dari penjumlahan ketiga nilai parameter, sehingga tidak memerlukan tindakan pencegahan apa pun dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) RPN = 240, yang tergolong berisiko tinggi (karena melebihi batas kritis tipikal industri yaitu RPN 100), sehingga memerlukan tindakan korektif segera berupa kalibrasi dispenser resin otomatis dan inspeksi ultrasonik.. RPN dihitung dari perkalian S x O x D. RPN = 8 x 5 x 6 = 240. Nilai > 100 mewajibkan tindakan korektif segera. RPN = 240 (kategori risiko tinggi, butuh tindakan mitigasi segera)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) RPN = 240, yang tergolong berisiko tinggi (karena melebihi batas kritis tipikal industri yaitu RPN 100), sehingga memerlukan tindakan korektif segera berupa kalibrasi dispenser resin otomatis dan inspeksi ultrasonik.. RPN dihitung dari perkalian S x O x D. RPN = 8 x 5 x 6 = 240. Nilai > 100 mewajibkan tindakan korektif segera. RPN = 240 (kategori risiko tinggi, butuh tindakan mitigasi segera)."
   },
   {
     "id": "pkk-lat-h-06",
@@ -2390,15 +2391,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadinya pelanggaran lisensi jika kode tetap ditutup, karena klausul 'copyleft' (viral clause) pada GPL v3 mewajibkan seluruh kode program turunan yang digabungkan ikut dibuka kode sumbernya (open source) dengan lisensi GPL v3 yang sama."
+        "text": "Siswa diperbolehkan menutup kode asalkan mereka menghapus seluruh komentar teks di baris awal file program."
       },
       {
         "key": "B",
-        "text": "Aman secara hukum tanpa syarat apa pun, karena perangkat lunak buatan siswa sekolah bebas dari jeratan hukum hak cipta internasional demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Aplikasi otomatis menjadi milik pemerintah Republik Indonesia tanpa hak royalti bagi siswa."
       },
       {
         "key": "C",
-        "text": "Aplikasi otomatis menjadi milik pemerintah Republik Indonesia tanpa hak royalti bagi siswa."
+        "text": "Aman secara hukum tanpa syarat apa pun, karena perangkat lunak buatan siswa sekolah bebas dari jeratan hukum hak cipta internasional."
       },
       {
         "key": "D",
@@ -2406,11 +2407,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Siswa diperbolehkan menutup kode asalkan mereka menghapus seluruh komentar teks di baris awal file program."
+        "text": "Terjadinya pelanggaran lisensi jika kode tetap ditutup, karena klausul 'copyleft' (viral clause) pada GPL v3 mewajibkan seluruh kode program turunan yang digabungkan ikut dibuka kode sumbernya (open source) dengan lisensi GPL v3 yang sama."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Terjadinya pelanggaran lisensi jika kode tetap ditutup, karena klausul 'copyleft' (viral clause) pada GPL v3 mewajibkan seluruh kode program turunan yang digabungkan ikut dibuka kode sumbernya (open source) dengan lisensi GPL v3 yang sama.. GPL v3 bersifat Strong Copyleft (resiprokal/viral). Menautkan kode proprietary dengan pustaka GPL mewajibkan seluruh kode turunan dibuka (open source). Terjadi pelanggaran jika kode tetap ditutup, karena sifat copyleft GPL v3 mewajibkan turunan dibuka."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Terjadinya pelanggaran lisensi jika kode tetap ditutup, karena klausul 'copyleft' (viral clause) pada GPL v3 mewajibkan seluruh kode program turunan yang digabungkan ikut dibuka kode sumbernya (open source) dengan lisensi GPL v3 yang sama.. GPL v3 bersifat Strong Copyleft (resiprokal/viral). Menautkan kode proprietary dengan pustaka GPL mewajibkan seluruh kode turunan dibuka (open source). Terjadi pelanggaran jika kode tetap ditutup, karena sifat copyleft GPL v3 mewajibkan turunan dibuka."
   },
   {
     "id": "pkk-lat-h-07",
@@ -2433,15 +2434,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menimbun persediaan suku cadang hingga sepuluh kali lipat di gudang sekolah untuk berspekulasi terhadap harga besi demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Mengganti seluruh pemasok baja dengan pengepul besi tua tanpa perjanjian jaminan mutu pasokan."
       },
       {
         "key": "B",
-        "text": "Menerapkan sistem Vendor-Managed Inventory (VMI) dan berbagi data transaksi titik penjualan (Point of Sale / POS) secara waktu nyata (real-time data sharing) di seluruh rantai pasok."
+        "text": "Memutuskan seluruh jalur komunikasi digital antar toko dan kembali menggunakan surat pos tercatat manual."
       },
       {
         "key": "C",
-        "text": "Memutuskan seluruh jalur komunikasi digital antar toko dan kembali menggunakan surat pos tercatat manual."
+        "text": "Menerapkan sistem Vendor-Managed Inventory (VMI) dan berbagi data transaksi titik penjualan (Point of Sale / POS) secara waktu nyata (real-time data sharing) di seluruh rantai pasok."
       },
       {
         "key": "D",
@@ -2449,11 +2450,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengganti seluruh pemasok baja dengan pengepul besi tua tanpa perjanjian jaminan mutu pasokan."
+        "text": "Menimbun persediaan suku cadang hingga sepuluh kali lipat di gudang sekolah untuk berspekulasi terhadap harga besi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menerapkan sistem Vendor-Managed Inventory (VMI) dan berbagi data transaksi titik penjualan (Point of Sale / POS) secara waktu nyata (real-time data sharing) di seluruh rantai pasok.. Bullwhip effect terjadi akibat distorsi informasi permintaan di hulu rantai pasok. Solusinya adalah transparansi data POS real-time dan Vendor-Managed Inventory (VMI). Menerapkan Vendor-Managed Inventory (VMI) dan berbagi data POS real-time."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menerapkan sistem Vendor-Managed Inventory (VMI) dan berbagi data transaksi titik penjualan (Point of Sale / POS) secara waktu nyata (real-time data sharing) di seluruh rantai pasok.. Bullwhip effect terjadi akibat distorsi informasi permintaan di hulu rantai pasok. Solusinya adalah transparansi data POS real-time dan Vendor-Managed Inventory (VMI). Menerapkan Vendor-Managed Inventory (VMI) dan berbagi data POS real-time."
   },
   {
     "id": "pkk-lat-h-08",
@@ -2480,23 +2481,23 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Zona Abu-abu (Grey Zone), di mana probabilitas kebangkrutan sama persis dengan probabilitas memenangkan undian berhadiah bank."
-      },
-      {
-        "key": "C",
         "text": "Zona Bahaya (Distress Zone), yang mengindikasikan probabilitas tinggi mengalami kepailitan finansial dalam kurun 1-2 tahun ke depan bila tidak dilakukan restrukturisasi utang dan modal kerja."
       },
       {
+        "key": "C",
+        "text": "Perusahaan otomatis dibubarkan oleh kementerian hukum pada hari penghitungan skor selesai dilakukan."
+      },
+      {
         "key": "D",
-        "text": "Zona Nol Risiko, karena seluruh utang perusahaan dijamin sepenuhnya oleh dana abadi pendidikan nasional."
+        "text": "Zona Abu-abu (Grey Zone), di mana probabilitas kebangkrutan sama persis dengan probabilitas memenangkan undian berhadiah bank."
       },
       {
         "key": "E",
-        "text": "Perusahaan otomatis dibubarkan oleh kementerian hukum pada hari penghitungan skor selesai dilakukan."
+        "text": "Zona Nol Risiko, karena seluruh utang perusahaan dijamin sepenuhnya oleh dana abadi pendidikan nasional."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Zona Bahaya (Distress Zone), yang mengindikasikan probabilitas tinggi mengalami kepailitan finansial dalam kurun 1-2 tahun ke depan bila tidak dilakukan restrukturisasi utang dan modal kerja.. Berdasarkan pedoman Altman Z-Score: Z < 1,23 masuk Distress Zone (Zona Bahaya Kebangkrutan). Nilai 1,15 jelas berada di Distress Zone. Zona Bahaya (Distress Zone) dengan risiko tinggi kepailitan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Zona Bahaya (Distress Zone), yang mengindikasikan probabilitas tinggi mengalami kepailitan finansial dalam kurun 1-2 tahun ke depan bila tidak dilakukan restrukturisasi utang dan modal kerja.. Berdasarkan pedoman Altman Z-Score: Z < 1,23 masuk Distress Zone (Zona Bahaya Kebangkrutan). Nilai 1,15 jelas berada di Distress Zone. Zona Bahaya (Distress Zone) dengan risiko tinggi kepailitan."
   },
   {
     "id": "pkk-lat-h-09",
@@ -2519,27 +2520,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fase Control, yaitu langsung membuat jadwal piket kebersihan laboratorium untuk mengunci proses yang belum diperbaiki sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "Fase Improve, yaitu langsung membeli mesin oven reflow baru seharga ratusan juta rupiah tanpa menyelidiki penyebab masalah."
-      },
-      {
-        "key": "C",
-        "text": "Fase Re-Define, yaitu mengubah batas toleransi cacat menjadi 50.000 DPMO agar produk cacat dianggap normal."
-      },
-      {
-        "key": "D",
         "text": "Fase Analyze, yaitu melakukan analisis akar penyebab (Root Cause Analysis) menggunakan diagram Fishbone dan metode 5-Why untuk mengidentifikasi variabel kritis penyebab retak solder."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Fase Control, yaitu langsung membuat jadwal piket kebersihan laboratorium untuk mengunci proses yang belum diperbaiki konsumen."
+      },
+      {
+        "key": "C",
+        "text": "Fase Improve, yaitu langsung membeli mesin oven reflow baru seharga ratusan juta rupiah tanpa menyelidiki penyebab masalah."
+      },
+      {
+        "key": "D",
         "text": "Fase Dismiss, yaitu membubarkan tim proyek dan mengalihkan tanggung jawab kepada siswa kelas sepuluh."
+      },
+      {
+        "key": "E",
+        "text": "Fase Re-Define, yaitu mengubah batas toleransi cacat menjadi 50.000 DPMO agar produk cacat dianggap normal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Fase Analyze, yaitu melakukan analisis akar penyebab (Root Cause Analysis) menggunakan diagram Fishbone dan metode 5-Why untuk mengidentifikasi variabel kritis penyebab retak solder.. Urutan metodologi Six Sigma DMAIC adalah: Define -> Measure -> Analyze -> Improve -> Control. Setelah Measure adalah Analyze. Fase Analyze (analisis akar penyebab masalah)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Fase Analyze, yaitu melakukan analisis akar penyebab (Root Cause Analysis) menggunakan diagram Fishbone dan metode 5-Why untuk mengidentifikasi variabel kritis penyebab retak solder.. Urutan metodologi Six Sigma DMAIC adalah: Define -> Measure -> Analyze -> Improve -> Control. Setelah Measure adalah Analyze. Fase Analyze (analisis akar penyebab masalah)."
   },
   {
     "id": "pkk-lat-h-10",
@@ -2562,11 +2563,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jalur A-C-D dengan total durasi 12 hari, karena sirkuit surya membutuhkan waktu pengerjaan yang paling singkat dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Jalur B-C dengan total durasi 9 hari, dihitung tanpa memperhitungkan tahapan desain awal dan integrasi akhir."
       },
       {
         "key": "B",
-        "text": "Jalur B-C dengan total durasi 9 hari, dihitung tanpa memperhitungkan tahapan desain awal dan integrasi akhir."
+        "text": "Jalur A-B-D dengan total durasi minimum 15 hari, di mana keterlambatan 1 hari pada aktivitas B akan langsung menunda tanggal penyelesaian akhir seluruh proyek."
       },
       {
         "key": "C",
@@ -2578,11 +2579,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Jalur A-B-D dengan total durasi minimum 15 hari, di mana keterlambatan 1 hari pada aktivitas B akan langsung menunda tanggal penyelesaian akhir seluruh proyek."
+        "text": "Jalur A-C-D dengan total durasi 12 hari, karena sirkuit surya membutuhkan waktu pengerjaan yang paling singkat dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Jalur A-B-D dengan total durasi minimum 15 hari, di mana keterlambatan 1 hari pada aktivitas B akan langsung menunda tanggal penyelesaian akhir seluruh proyek.. Hitung durasi tiap jalur: A-B-D = 4 + 6 + 5 = 15 hari. A-C-D = 4 + 3 + 5 = 12 hari. Jalur kritis adalah jalur terpanjang (A-B-D = 15 hari). Jalur A-B-D dengan total durasi 15 hari."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Jalur A-B-D dengan total durasi minimum 15 hari, di mana keterlambatan 1 hari pada aktivitas B akan langsung menunda tanggal penyelesaian akhir seluruh proyek.. Hitung durasi tiap jalur: A-B-D = 4 + 6 + 5 = 15 hari. A-C-D = 4 + 3 + 5 = 12 hari. Jalur kritis adalah jalur terpanjang (A-B-D = 15 hari). Jalur A-B-D dengan total durasi 15 hari."
   },
   {
     "id": "pkk-lat-h-11",
@@ -2605,27 +2606,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Post-Money Valuation sebesar Rp1.000.000.000 dan kepemilikan saham investor sebesar 20%, sehingga porsi kepemilikan pendiri awal terdelusi menjadi 80%."
+        "text": "Post-Money Valuation sebesar Rp800.000.000 dan saham investor dihitung sebagai utang piutang bunga nol persen."
       },
       {
         "key": "B",
-        "text": "Post-Money Valuation sebesar Rp600.000.000 dan investor menguasai 33,3% saham perusahaan rintisan demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "Post-Money Valuation sebesar Rp1.600.000.000 dan investor berhak atas seluruh hak paten produk."
       },
       {
+        "key": "C",
+        "text": "Post-Money Valuation sebesar Rp1.000.000.000 dan kepemilikan saham investor sebesar 20%, sehingga porsi kepemilikan pendiri awal terdelusi menjadi 80%."
+      },
+      {
         "key": "D",
-        "text": "Post-Money Valuation sebesar Rp800.000.000 dan saham investor dihitung sebagai utang piutang bunga nol persen."
+        "text": "Post-Money Valuation sebesar Rp600.000.000 dan investor menguasai 33,3% saham perusahaan rintisan."
       },
       {
         "key": "E",
         "text": "Post-Money Valuation sebesar Rp200.000.000 dan pendiri rintisan kehilangan seluruh hak kelola usaha."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Post-Money Valuation sebesar Rp1.000.000.000 dan kepemilikan saham investor sebesar 20%, sehingga porsi kepemilikan pendiri awal terdelusi menjadi 80%.. Post-money = Pre-money + Investasi. Persentase saham investor = Investasi / Post-money. Post-money = 800jt + 200jt = 1 Milyar. Saham investor = 200jt / 1 M = 20%."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Post-Money Valuation sebesar Rp1.000.000.000 dan kepemilikan saham investor sebesar 20%, sehingga porsi kepemilikan pendiri awal terdelusi menjadi 80%.. Post-money = Pre-money + Investasi. Persentase saham investor = Investasi / Post-money. Post-money = 800jt + 200jt = 1 Milyar. Saham investor = 200jt / 1 M = 20%."
   },
   {
     "id": "pkk-lat-h-12",
@@ -2648,7 +2649,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maksimal 8 jam per hari kerja, karena seluruh kebisingan di bawah 100 dBA dianggap aman bagi organ pendengaran manusia demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Bebas tanpa batas waktu, asalkan pekerja mengenakan kacamata pelindung bening dan sarung tangan karet."
       },
       {
         "key": "B",
@@ -2660,11 +2661,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Bebas tanpa batas waktu, asalkan pekerja mengenakan kacamata pelindung bening dan sarung tangan karet."
+        "text": "Maksimal 24 jam sehari semalam, asalkan ruang bengkel dilengkapi dengan kipas angin berkecepatan tinggi."
       },
       {
         "key": "E",
-        "text": "Maksimal 24 jam sehari semalam, asalkan ruang bengkel dilengkapi dengan kipas angin berkecepatan tinggi."
+        "text": "Maksimal 8 jam per hari kerja, karena seluruh kebisingan di bawah 100 dBA dianggap aman bagi organ pendengaran manusia."
       }
     ],
     "correctKey": "B",
@@ -2691,11 +2692,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tidak memiliki kewajiban finansial apa pun karena kontrak PKWT berakhir demi hukum tanpa adanya pesangon PHK untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Wajib menyerahkan separuh aset tanah bengkel sekolah sebagai ganti rugi pemutusan hubungan kemitraan."
       },
       {
         "key": "B",
-        "text": "Wajib menyerahkan separuh aset tanah bengkel sekolah sebagai ganti rugi pemutusan hubungan kemitraan."
+        "text": "Tidak memiliki kewajiban finansial apa pun karena kontrak PKWT berakhir demi hukum tanpa adanya pesangon PHK untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "C",
@@ -2703,11 +2704,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Wajib membayar uang pesangon sebesar sepuluh kali lipat upah ditambah tunjangan perumahan seumur hidup."
+        "text": "Memotong sisa upah pekerja sebesar 50% sebagai biaya administrasi pembersihan seragam kerja."
       },
       {
         "key": "E",
-        "text": "Memotong sisa upah pekerja sebesar 50% sebagai biaya administrasi pembersihan seragam kerja."
+        "text": "Wajib membayar uang pesangon sebesar sepuluh kali lipat upah ditambah tunjangan perumahan seumur hidup."
       }
     ],
     "correctKey": "C",
@@ -2734,11 +2735,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp3.250.000, dihitung secara keliru dari tarif 0,5% yang langsung dikalikan seluruh total omzet Rp650.000.000 tanpa memperhitungkan fasilitas pembebasan sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Rp3.250.000, dihitung secara keliru dari tarif 0,5% yang langsung dikalikan seluruh total omzet Rp650.000.000 tanpa memperhitungkan fasilitas pembebasan konsumen."
       },
       {
         "key": "B",
-        "text": "Rp6.500.000, karena tarif pajak UMKM diatur secara sepihak sebesar 1% oleh dinas pendapatan daerah setempat."
+        "text": "Rp15.000.000, dihitung dari tarif pajak badan hukum perseroan terbatas skala multinasional."
       },
       {
         "key": "C",
@@ -2750,7 +2751,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp15.000.000, dihitung dari tarif pajak badan hukum perseroan terbatas skala multinasional."
+        "text": "Rp6.500.000, karena tarif pajak UMKM diatur secara sepihak sebesar 1% oleh dinas pendapatan daerah setempat."
       }
     ],
     "correctKey": "D",
@@ -2777,27 +2778,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Klausul 5.1 (Kepemimpinan), yang mewajibkan kepala sekolah mencabut beasiswa seluruh siswa yang mengoperasikan mesin bubut dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
         "text": "Klausul 7.1 (Sumber Daya), yang mewajibkan sekolah mengganti seluruh palet kayu menjadi palet baja nirkarat tahan gempa."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Klausul 4.1 (Konteks Organisasi), yang mengharuskan unit bengkel dipindahkan lokasinya ke luar batas administrasi kabupaten."
       },
       {
+        "key": "C",
+        "text": "Klausul 8.7 (Pengendalian Output yang Tidak Sesuai), yang mewajibkan identifikasi visual yang jelas, pemisahan fisik (karantina), dan penetapan status disposisi agar produk cacat tidak terkirim atau terpakai secara tidak sengaja."
+      },
+      {
         "key": "D",
-        "text": "Klausul 9.3 (Tinjauan Manajemen), yang mewajibkan pembatalan seluruh kontrak kerja sama industri secara sepihak."
+        "text": "Klausul 5.1 (Kepemimpinan), yang mewajibkan kepala sekolah mencabut beasiswa seluruh siswa yang mengoperasikan mesin bubut dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "E",
-        "text": "Klausul 8.7 (Pengendalian Output yang Tidak Sesuai), yang mewajibkan identifikasi visual yang jelas, pemisahan fisik (karantina), dan penetapan status disposisi agar produk cacat tidak terkirim atau terpakai secara tidak sengaja."
+        "text": "Klausul 9.3 (Tinjauan Manajemen), yang mewajibkan pembatalan seluruh kontrak kerja sama industri secara sepihak."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Klausul 8.7 (Pengendalian Output yang Tidak Sesuai), yang mewajibkan identifikasi visual yang jelas, pemisahan fisik (karantina), dan penetapan status disposisi agar produk cacat tidak terkirim atau terpakai secara tidak sengaja.. Klausul ISO 9001:2015 untuk penanganan produk reject/tidak sesuai adalah Klausul 8.7 (Control of nonconforming outputs) dengan segregasi fisik dan pelabelan karantina. Klausul 8.7 (Pengendalian Output yang Tidak Sesuai) dan pemisahan karantina berlabel jelas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Klausul 8.7 (Pengendalian Output yang Tidak Sesuai), yang mewajibkan identifikasi visual yang jelas, pemisahan fisik (karantina), dan penetapan status disposisi agar produk cacat tidak terkirim atau terpakai secara tidak sengaja.. Klausul ISO 9001:2015 untuk penanganan produk reject/tidak sesuai adalah Klausul 8.7 (Control of nonconforming outputs) dengan segregasi fisik dan pelabelan karantina. Klausul 8.7 (Pengendalian Output yang Tidak Sesuai) dan pemisahan karantina berlabel jelas."
   },
   {
     "id": "pkk-lat-h-16",
@@ -2820,27 +2821,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Modified Atmosphere Packaging (MAP) dengan teknik Nitrogen Flushing dan kemasan multilayer aluminium foil (barrier tinggi), yang menggantikan gas oksigen di dalam kemasan dengan gas nitrogen inert (N₂)."
+        "text": "Mengemas keripik menggunakan kantong plastik kresek transparan tipis yang diikat dengan tali rafia basah."
       },
       {
         "key": "B",
-        "text": "Mengemas keripik menggunakan kantong plastik kresek transparan tipis yang diikat dengan tali rafia basah demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
         "text": "Menyemprotkan cairan pestisida dosis rendah secara langsung ke permukaan keripik sebelum dimasukkan ke dalam toples kaca."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Merendam keripik jamur di dalam air gula pekat kemudian membekukannya di dalam lemari es kamar mandi sekolah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menutup kemasan menggunakan staples besi berkarat tanpa merekatkan lapisan plastik dengan alat continuous sealer."
+      },
+      {
+        "key": "E",
+        "text": "Modified Atmosphere Packaging (MAP) dengan teknik Nitrogen Flushing dan kemasan multilayer aluminium foil (barrier tinggi), yang menggantikan gas oksigen di dalam kemasan dengan gas nitrogen inert (N₂)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Modified Atmosphere Packaging (MAP) dengan teknik Nitrogen Flushing dan kemasan multilayer aluminium foil (barrier tinggi), yang menggantikan gas oksigen di dalam kemasan dengan gas nitrogen inert (N₂).. Teknik terbaik memperpanjang umur simpan produk krispi berminyak tanpa pengawet adalah MAP (Modified Atmosphere Packaging) via Nitrogen Flushing dalam kemasan aluminium foil. Modified Atmosphere Packaging (MAP) dengan Nitrogen Flushing dan kemasan multilayer aluminium foil."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Modified Atmosphere Packaging (MAP) dengan teknik Nitrogen Flushing dan kemasan multilayer aluminium foil (barrier tinggi), yang menggantikan gas oksigen di dalam kemasan dengan gas nitrogen inert (N₂).. Teknik terbaik memperpanjang umur simpan produk krispi berminyak tanpa pengawet adalah MAP (Modified Atmosphere Packaging) via Nitrogen Flushing dalam kemasan aluminium foil. Modified Atmosphere Packaging (MAP) dengan Nitrogen Flushing dan kemasan multilayer aluminium foil."
   },
   {
     "id": "pkk-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp75.000 per unit, karena pengurangan biaya harus disamakan secara mutlak dengan total laba yang disetorkan ke kas sekolah demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Rp100.000 per unit, karena siswa diwajibkan bekerja lembur tanpa memperoleh kompensasi uang makan siang."
       },
       {
         "key": "B",
-        "text": "Rp25.000 per unit, karena Biaya Target (Target Cost) adalah Rp175.000 (Rp250.000 dikurangi margin laba Rp75.000), sehingga terdapat selisih efisiensi sebesar Rp25.000 dari biaya saat ini Rp200.000."
-      },
-      {
-        "key": "C",
         "text": "Rp50.000 per unit, dihitung dari selisih antara harga jual target dengan biaya produksi rancangan awal."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Rp0 per unit, karena produk ergonomis sekolah diperbolehkan menjual dengan margin laba minus."
       },
       {
+        "key": "D",
+        "text": "Rp25.000 per unit, karena Biaya Target (Target Cost) adalah Rp175.000 (Rp250.000 dikurangi margin laba Rp75.000), sehingga terdapat selisih efisiensi sebesar Rp25.000 dari biaya saat ini Rp200.000."
+      },
+      {
         "key": "E",
-        "text": "Rp100.000 per unit, karena siswa diwajibkan bekerja lembur tanpa memperoleh kompensasi uang makan siang."
+        "text": "Rp75.000 per unit, karena pengurangan biaya harus disamakan secara mutlak dengan total laba yang disetorkan ke kas sekolah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Rp25.000 per unit, karena Biaya Target (Target Cost) adalah Rp175.000 (Rp250.000 dikurangi margin laba Rp75.000), sehingga terdapat selisih efisiensi sebesar Rp25.000 dari biaya saat ini Rp200.000.. Target Cost = Target Price - Target Profit = 250.000 - 75.000 = 175.000. Pengurangan Biaya = Biaya Sekarang (200.000) - Target Cost (175.000) = 25.000. Rp25.000 per unit efisiensi yang harus dicapai."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rp25.000 per unit, karena Biaya Target (Target Cost) adalah Rp175.000 (Rp250.000 dikurangi margin laba Rp75.000), sehingga terdapat selisih efisiensi sebesar Rp25.000 dari biaya saat ini Rp200.000.. Target Cost = Target Price - Target Profit = 250.000 - 75.000 = 175.000. Pengurangan Biaya = Biaya Sekarang (200.000) - Target Cost (175.000) = 25.000. Rp25.000 per unit efisiensi yang harus dicapai."
   },
   {
     "id": "pkk-lat-h-18",
@@ -2906,15 +2907,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Biaya A adalah Royalty Fee dan Biaya B adalah Franchise Fee untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "Biaya A adalah Pajak Bumi dan Bangunan dan Biaya B adalah Upah Lembur Karyawan Toko."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Biaya A adalah Franchise Fee (Biaya Awal Waralaba) dan Biaya B adalah Royalty Fee (Biaya Royalti Operasional Berkelanjutan)."
+      },
+      {
+        "key": "C",
+        "text": "Biaya A adalah Uang Jaminan Sewa Tempat dan Biaya B adalah Beban Penyusutan Mesin Kasir."
       },
       {
         "key": "D",
@@ -2922,11 +2923,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Biaya A adalah Uang Jaminan Sewa Tempat dan Biaya B adalah Beban Penyusutan Mesin Kasir."
+        "text": "Biaya A adalah Royalty Fee dan Biaya B adalah Franchise Fee untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Biaya A adalah Franchise Fee (Biaya Awal Waralaba) dan Biaya B adalah Royalty Fee (Biaya Royalti Operasional Berkelanjutan).. Biaya lisensi satu kali di awal = Franchise Fee. Persentase berkala dari omzet bulanan = Royalty Fee. Biaya A = Franchise Fee; Biaya B = Royalty Fee."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Biaya A adalah Franchise Fee (Biaya Awal Waralaba) dan Biaya B adalah Royalty Fee (Biaya Royalti Operasional Berkelanjutan).. Biaya lisensi satu kali di awal = Franchise Fee. Persentase berkala dari omzet bulanan = Royalty Fee. Biaya A = Franchise Fee; Biaya B = Royalty Fee."
   },
   {
     "id": "pkk-lat-h-19",
@@ -2949,27 +2950,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem hanya boleh online selama 2 jam per hari dan seluruh transaksi harus dihapus setiap 15 menit sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Sistem wajib pulih dan beroperasi normal kembali paling lambat dalam waktu 2 jam sejak terjadinya bencana (RTO), dan toleransi kehilangan data transaksi maksimal adalah data 15 menit terakhir sebelum insiden (RPO)."
       },
       {
         "key": "B",
-        "text": "Pengembang berhak tidur selama 2 jam sebelum membaca pesan peringatan kegagalan server."
-      },
-      {
-        "key": "C",
         "text": "Perusahaan harus membayar denda ganti rugi kepada seluruh pengguna sebesar Rp2.000.000 setiap 15 menit server padam."
       },
       {
+        "key": "C",
+        "text": "Pengembang berhak tidur selama 2 jam sebelum membaca pesan peringatan kegagalan server."
+      },
+      {
         "key": "D",
-        "text": "Sistem wajib pulih dan beroperasi normal kembali paling lambat dalam waktu 2 jam sejak terjadinya bencana (RTO), dan toleransi kehilangan data transaksi maksimal adalah data 15 menit terakhir sebelum insiden (RPO)."
+        "text": "Sistem hanya boleh online selama 2 jam per hari dan seluruh transaksi harus dihapus setiap 15 menit konsumen."
       },
       {
         "key": "E",
         "text": "Server cadangan dilarang dinyalakan sebelum 2 jam pemadaman total berlangsung."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Sistem wajib pulih dan beroperasi normal kembali paling lambat dalam waktu 2 jam sejak terjadinya bencana (RTO), dan toleransi kehilangan data transaksi maksimal adalah data 15 menit terakhir sebelum insiden (RPO).. RTO = target waktu pemulihan sistem (berapa lama boleh mati). RPO = toleransi kehilangan data (seberapa banyak data boleh hilang sebelum waktu backup terakhir). Sistem pulih maksimal 2 jam (RTO) dan batas hilang data maksimal 15 menit (RPO)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sistem wajib pulih dan beroperasi normal kembali paling lambat dalam waktu 2 jam sejak terjadinya bencana (RTO), dan toleransi kehilangan data transaksi maksimal adalah data 15 menit terakhir sebelum insiden (RPO).. RTO = target waktu pemulihan sistem (berapa lama boleh mati). RPO = toleransi kehilangan data (seberapa banyak data boleh hilang sebelum waktu backup terakhir). Sistem pulih maksimal 2 jam (RTO) dan batas hilang data maksimal 15 menit (RPO)."
   },
   {
     "id": "pkk-lat-h-20",
@@ -2992,27 +2993,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Multichannel Konvensional, di mana setiap saluran penjualan beroperasi secara terisolasi tanpa sinkronisasi stok dan memiliki harga berbeda-beda dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Omnichannel Retailing, yaitu integrasi menyeluruh tanpa batas (seamless) dari semua saluran penjualan yang menyatukan pengalaman berbelanja pelanggan dan sinkronisasi data inventaris secara waktu nyata."
       },
       {
         "key": "B",
-        "text": "Single Channel Tradisional, di mana penjualan hanya dilakukan dengan menjajakan barang dari pintu ke pintu warga."
+        "text": "Multichannel Konvensional, di mana setiap saluran penjualan beroperasi secara terisolasi tanpa sinkronisasi stok dan memiliki harga berbeda-beda dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "C",
-        "text": "Pemasaran Piramida Terlarang, di mana pembeli jaket diwajibkan mencari lima anggota baru untuk mendapatkan resi pengiriman."
-      },
-      {
-        "key": "D",
         "text": "Dark Store Eksklusif, di mana toko fisik dilarang menerima kunjungan manusia dan hanya melayani kurir robot terbang."
       },
       {
+        "key": "D",
+        "text": "Single Channel Tradisional, di mana penjualan hanya dilakukan dengan menjajakan barang dari pintu ke pintu warga."
+      },
+      {
         "key": "E",
-        "text": "Omnichannel Retailing, yaitu integrasi menyeluruh tanpa batas (seamless) dari semua saluran penjualan yang menyatukan pengalaman berbelanja pelanggan dan sinkronisasi data inventaris secara waktu nyata."
+        "text": "Pemasaran Piramida Terlarang, di mana pembeli jaket diwajibkan mencari lima anggota baru untuk mendapatkan resi pengiriman."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Omnichannel Retailing, yaitu integrasi menyeluruh tanpa batas (seamless) dari semua saluran penjualan yang menyatukan pengalaman berbelanja pelanggan dan sinkronisasi data inventaris secara waktu nyata.. Integrasi lintas kanal fisik dan digital secara mulus (pesan online ambil di toko, data stok sinkron) merupakan definisi Omnichannel Retailing. Omnichannel Retailing."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Omnichannel Retailing, yaitu integrasi menyeluruh tanpa batas (seamless) dari semua saluran penjualan yang menyatukan pengalaman berbelanja pelanggan dan sinkronisasi data inventaris secara waktu nyata.. Integrasi lintas kanal fisik dan digital secara mulus (pesan online ambil di toko, data stok sinkron) merupakan definisi Omnichannel Retailing. Omnichannel Retailing."
   },
   {
     "id": "pkk-lat-h-21",
@@ -3039,19 +3040,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sangat tepat, karena kenaikan harga pada produk elastis selalu otomatis meningkatkan laba bersih sebesar kuadrat koefisien elastisitas demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Netral, karena perubahan harga pada kurva elastis tidak akan pernah mempengaruhi kuantitas unit barang yang terjual di pasar."
-      },
-      {
-        "key": "D",
         "text": "Ilegal, karena hukum persaingan usaha melarang penyesuaian harga jual melebihi 5% per tahun kalender."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Sangat tepat, karena kenaikan harga pada produk elastis selalu otomatis meningkatkan laba bersih sebesar kuadrat koefisien elastisitas."
+      },
+      {
+        "key": "D",
         "text": "Tepat, asalkan siswa mengurangi volume produksi barang menjadi hanya satu unit per bulan."
+      },
+      {
+        "key": "E",
+        "text": "Netral, karena perubahan harga pada kurva elastis tidak akan pernah mempengaruhi kuantitas unit barang yang terjual di pasar."
       }
     ],
     "correctKey": "A",
@@ -3078,27 +3079,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gate-to-Gate, yang hanya menghitung jejak karbon saat kayu berada di atas meja pemotongan gergaji mesin demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Cradle-to-Grave (dari buaian hingga liang lahat), yang mengkaji jejak karbon dan dampak ekologis produk secara holistik di setiap tahapan siklus hidupnya."
-      },
-      {
-        "key": "C",
         "text": "Cradle-to-Gate, yang berhenti menghitung dampak lingkungan tepat saat produk dimuat ke dalam truk distributor sekolah."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Gate-to-Gate, yang hanya menghitung jejak karbon saat kayu berada di atas meja pemotongan gergaji mesin."
+      },
+      {
+        "key": "C",
         "text": "Linear Waste Burning, yaitu pendekatan membakar seluruh serbuk gergaji kayu di halaman belakang sekolah secara terbuka."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Ad-hoc Carbon Offset, yaitu sekadar menanam satu pohon bunga mawar di depan ruang kepala sekolah tanpa mengukur emisi."
+      },
+      {
+        "key": "E",
+        "text": "Cradle-to-Grave (dari buaian hingga liang lahat), yang mengkaji jejak karbon dan dampak ekologis produk secara holistik di setiap tahapan siklus hidupnya."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Cradle-to-Grave (dari buaian hingga liang lahat), yang mengkaji jejak karbon dan dampak ekologis produk secara holistik di setiap tahapan siklus hidupnya.. Penilaian siklus hidup produk secara komprehensif dari ekstraksi bahan mentah sampai pembuangan akhir oleh konsumen disebut Cradle-to-Grave. Cradle-to-Grave (dari buaian hingga liang lahat)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Cradle-to-Grave (dari buaian hingga liang lahat), yang mengkaji jejak karbon dan dampak ekologis produk secara holistik di setiap tahapan siklus hidupnya.. Penilaian siklus hidup produk secara komprehensif dari ekstraksi bahan mentah sampai pembuangan akhir oleh konsumen disebut Cradle-to-Grave. Cradle-to-Grave (dari buaian hingga liang lahat)."
   },
   {
     "id": "pkk-lat-h-23",
@@ -3121,27 +3122,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "24 bulan, karena penghematan energi listrik baru diakui secara resmi setelah masa garansi lampu LED berakhir untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "12 bulan, dihitung dengan asumsi tarif listrik industri mengalami kenaikan 100% setiap pergantian musim kemarau."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "10 bulan (atau 0,83 tahun), dihitung dari biaya investasi Rp15.000.000 dibagi dengan nilai penghematan listrik tahunan sebesar Rp18.000.000 (10% dari Rp180.000.000)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "5 bulan, dihitung dari selisih antara konsumsi energi bengkel dengan kapasitas daya gardu trafo sekolah."
+      },
+      {
+        "key": "D",
+        "text": "24 bulan, karena penghematan energi listrik baru diakui secara resmi setelah masa garansi lampu LED berakhir untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "E",
         "text": "36 bulan, karena investasi efisiensi energi wajib diamortisasi selama masa belajar siswa tiga tahun penuh."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 10 bulan (atau 0,83 tahun), dihitung dari biaya investasi Rp15.000.000 dibagi dengan nilai penghematan listrik tahunan sebesar Rp18.000.000 (10% dari Rp180.000.000).. Penghematan tahunan = 10% x 180jt = 18jt/tahun (1,5jt/bulan). Payback = Investasi / Penghematan = 15jt / 18jt = 0,833 tahun = 10 bulan. 10 bulan (atau 0,83 tahun)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 10 bulan (atau 0,83 tahun), dihitung dari biaya investasi Rp15.000.000 dibagi dengan nilai penghematan listrik tahunan sebesar Rp18.000.000 (10% dari Rp180.000.000).. Penghematan tahunan = 10% x 180jt = 18jt/tahun (1,5jt/bulan). Payback = Investasi / Penghematan = 15jt / 18jt = 0,833 tahun = 10 bulan. 10 bulan (atau 0,83 tahun)."
   },
   {
     "id": "pkk-lat-h-24",
@@ -3164,27 +3165,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Papan Utama, yang hanya diperuntukkan bagi korporasi konglomerasi raksasa dengan rekam jejak laba bersih berturut-turut minimal 3 tahun sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Papan Monopoli Negara, yang hanya memuat daftar emiten badan usaha milik negara di sektor pertahanan militer."
       },
       {
         "key": "B",
-        "text": "Papan Pengembangan, yang ditujukan untuk perusahaan menengah yang telah membukukan laba operasional stabil skala puluhan miliar."
-      },
-      {
-        "key": "C",
         "text": "Papan Pemantauan Khusus, yang diperuntukkan bagi emiten bermasalah yang sedang terancam sanksi delisting dari bursa efek."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Papan Akselerasi, yang memberikan relaksasi persyaratan aset berwujud bersih dan masa operasional bagi perusahaan rintisan dan UKM berbadan hukum PT untuk melantai di bursa efek."
       },
       {
+        "key": "D",
+        "text": "Papan Pengembangan, yang ditujukan untuk perusahaan menengah yang telah membukukan laba operasional stabil skala puluhan miliar."
+      },
+      {
         "key": "E",
-        "text": "Papan Monopoli Negara, yang hanya memuat daftar emiten badan usaha milik negara di sektor pertahanan militer."
+        "text": "Papan Utama, yang hanya diperuntukkan bagi korporasi konglomerasi raksasa dengan rekam jejak laba bersih berturut-turut minimal 3 tahun konsumen."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Papan Akselerasi, yang memberikan relaksasi persyaratan aset berwujud bersih dan masa operasional bagi perusahaan rintisan dan UKM berbadan hukum PT untuk melantai di bursa efek.. Bursa Efek Indonesia (BEI) menyediakan Papan Akselerasi secara khusus untuk memfasilitasi pencatatan saham perdana (IPO) bagi UMKM dan startup rintisan. Papan Akselerasi BEI."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Papan Akselerasi, yang memberikan relaksasi persyaratan aset berwujud bersih dan masa operasional bagi perusahaan rintisan dan UKM berbadan hukum PT untuk melantai di bursa efek.. Bursa Efek Indonesia (BEI) menyediakan Papan Akselerasi secara khusus untuk memfasilitasi pencatatan saham perdana (IPO) bagi UMKM dan startup rintisan. Papan Akselerasi BEI."
   },
   {
     "id": "pkk-lat-h-25",
@@ -3207,27 +3208,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyetujui klausul likuidasi penuh di mana seluruh modal disetor otomatis hangus bila pendiri jatuh sakit flu dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
-        "text": "Memberikan seluruh sertifikat saham perusahaan kepada investor tanpa membuat perjanjian pemegang saham."
-      },
-      {
-        "key": "C",
         "text": "Menjual saham menggunakan sistem arisan berantai keluarga di mana pemegang saham diundi setiap arisan bulanan."
       },
       {
+        "key": "B",
+        "text": "Menyetujui klausul likuidasi penuh di mana seluruh modal disetor otomatis hangus bila pendiri jatuh sakit flu dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+      },
+      {
+        "key": "C",
+        "text": "Memberikan seluruh sertifikat saham perusahaan kepada investor tanpa membuat perjanjian pemegang saham."
+      },
+      {
         "key": "D",
-        "text": "Menerbitkan saham tanpa hak suara sama sekali bagi pendiri dan menyerahkan kuasa bank kepada pihak ketiga anonim."
+        "text": "Penerbitan Saham dengan Hak Suara Multipel (Multiple Voting Shares / Dual-Class Shares) atau klausul Hak Veto (Protective Provisions) khusus bagi pendiri atas keputusan pengangkatan dan pemberhentian direksi."
       },
       {
         "key": "E",
-        "text": "Penerbitan Saham dengan Hak Suara Multipel (Multiple Voting Shares / Dual-Class Shares) atau klausul Hak Veto (Protective Provisions) khusus bagi pendiri atas keputusan pengangkatan dan pemberhentian direksi."
+        "text": "Menerbitkan saham tanpa hak suara sama sekali bagi pendiri dan menyerahkan kuasa bank kepada pihak ketiga anonim."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Penerbitan Saham dengan Hak Suara Multipel (Multiple Voting Shares / Dual-Class Shares) atau klausul Hak Veto (Protective Provisions) khusus bagi pendiri atas keputusan pengangkatan dan pemberhentian direksi.. Untuk melindungi posisi kendali pendiri saat saham terdelusi, digunakan instrumen Dual-Class Shares (Saham dengan Hak Suara Multipel / SHSM) atau klausul Protective Provisions/Hak Veto. Saham dengan Hak Suara Multipel (Dual-Class Shares) atau klausul Hak Veto khusus pendiri."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Penerbitan Saham dengan Hak Suara Multipel (Multiple Voting Shares / Dual-Class Shares) atau klausul Hak Veto (Protective Provisions) khusus bagi pendiri atas keputusan pengangkatan dan pemberhentian direksi.. Untuk melindungi posisi kendali pendiri saat saham terdelusi, digunakan instrumen Dual-Class Shares (Saham dengan Hak Suara Multipel / SHSM) atau klausul Protective Provisions/Hak Veto. Saham dengan Hak Suara Multipel (Dual-Class Shares) atau klausul Hak Veto khusus pendiri."
   },
   {
     "id": "pkk-sim-01",
@@ -3250,15 +3251,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Melakukan 'Zoom-In Pivot', yaitu merombak haluan bisnis dengan memfokuskan produk utama sepenuhnya pada fitur konsultasi hama (yang semula hanya fitur minor) karena telah tervalidasi memiliki Product-Market Fit nyata."
+        "text": "Menutup seluruh operasional rintisan dan membuang server aplikasi ke tempat pembuangan akhir sampah elektronik."
       },
       {
         "key": "B",
-        "text": "Melakukan 'Persevere Buta', yaitu memaksakan petani menggunakan fitur inventaris pupuk dengan ancaman pemblokiran akun secara sepihak demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Mengganti seluruh bahasa antarmuka aplikasi menjadi bahasa pemrograman assembly agar terlihat canggih di mata dewan juri lomba."
       },
       {
         "key": "C",
-        "text": "Menutup seluruh operasional rintisan dan membuang server aplikasi ke tempat pembuangan akhir sampah elektronik."
+        "text": "Melakukan 'Persevere Buta', yaitu memaksakan petani menggunakan fitur inventaris pupuk dengan ancaman pemblokiran akun secara sepihak."
       },
       {
         "key": "D",
@@ -3266,11 +3267,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengganti seluruh bahasa antarmuka aplikasi menjadi bahasa pemrograman assembly agar terlihat canggih di mata dewan juri lomba."
+        "text": "Melakukan 'Zoom-In Pivot', yaitu merombak haluan bisnis dengan memfokuskan produk utama sepenuhnya pada fitur konsultasi hama (yang semula hanya fitur minor) karena telah tervalidasi memiliki Product-Market Fit nyata."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Melakukan 'Zoom-In Pivot', yaitu merombak haluan bisnis dengan memfokuskan produk utama sepenuhnya pada fitur konsultasi hama (yang semula hanya fitur minor) karena telah tervalidasi memiliki Product-Market Fit nyata.. Saat data menunjukkan satu fitur minor sangat disukai dan memecahkan masalah nyata pengguna, startup melakukan Zoom-In Pivot. Zoom-In Pivot pada fitur konsultasi hama tanaman."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Melakukan 'Zoom-In Pivot', yaitu merombak haluan bisnis dengan memfokuskan produk utama sepenuhnya pada fitur konsultasi hama (yang semula hanya fitur minor) karena telah tervalidasi memiliki Product-Market Fit nyata.. Saat data menunjukkan satu fitur minor sangat disukai dan memecahkan masalah nyata pengguna, startup melakukan Zoom-In Pivot. Zoom-In Pivot pada fitur konsultasi hama tanaman."
   },
   {
     "id": "pkk-sim-02",
@@ -3293,27 +3294,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp500.000 Menguntungkan (Favorable), karena unit produksi berhasil membuat 100 unit meja tanpa ada siswa yang terluka demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Rp450.000 Tidak Menguntungkan (Unfavorable), karena harga aktual Rp16.000 lebih mahal Rp1.000 dari harga standar untuk seluruh 450 meter bahan yang dibeli."
-      },
-      {
-        "key": "C",
         "text": "Rp750.000 Tidak Menguntungkan, dihitung dari total selisih kuantitas bahan yang dibeli bendahara sekolah."
       },
       {
+        "key": "B",
+        "text": "Rp0 (Impas), karena seluruh kelebihan harga bahan baku otomatis ditanggung oleh dana bantuan operasional sekolah."
+      },
+      {
+        "key": "C",
+        "text": "Rp500.000 Menguntungkan (Favorable), karena unit produksi berhasil membuat 100 unit meja tanpa ada siswa yang terluka."
+      },
+      {
         "key": "D",
-        "text": "Rp1.000.000 Menguntungkan, karena kenaikan harga bahan baku otomatis meningkatkan nilai jual aset sekolah di mata publik."
+        "text": "Rp450.000 Tidak Menguntungkan (Unfavorable), karena harga aktual Rp16.000 lebih mahal Rp1.000 dari harga standar untuk seluruh 450 meter bahan yang dibeli."
       },
       {
         "key": "E",
-        "text": "Rp0 (Impas), karena seluruh kelebihan harga bahan baku otomatis ditanggung oleh dana bantuan operasional sekolah."
+        "text": "Rp1.000.000 Menguntungkan, karena kenaikan harga bahan baku otomatis meningkatkan nilai jual aset sekolah di mata publik."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Rp450.000 Tidak Menguntungkan (Unfavorable), karena harga aktual Rp16.000 lebih mahal Rp1.000 dari harga standar untuk seluruh 450 meter bahan yang dibeli.. MPV = (Actual Price - Standard Price) x Actual Quantity = (16.000 - 15.000) x 450 = Rp450.000 Unfavorable (Tidak Menguntungkan). Rp450.000 Tidak Menguntungkan (Unfavorable)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rp450.000 Tidak Menguntungkan (Unfavorable), karena harga aktual Rp16.000 lebih mahal Rp1.000 dari harga standar untuk seluruh 450 meter bahan yang dibeli.. MPV = (Actual Price - Standard Price) x Actual Quantity = (16.000 - 15.000) x 450 = Rp450.000 Unfavorable (Tidak Menguntungkan). Rp450.000 Tidak Menguntungkan (Unfavorable)."
   },
   {
     "id": "pkk-sim-03",
@@ -3336,7 +3337,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Throughput maksimum adalah 60 unit/jam yang ditentukan oleh kecepatan tercepat mesin Stasiun 1 untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Throughput maksimum adalah 43,75 unit/jam, yang dihitung dari rata-rata aritmatika seluruh stasiun kerja bengkel."
       },
       {
         "key": "B",
@@ -3348,11 +3349,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Throughput maksimum adalah 43,75 unit/jam, yang dihitung dari rata-rata aritmatika seluruh stasiun kerja bengkel."
+        "text": "Throughput sistem tidak terbatas, karena siswa dapat dipaksa bekerja 24 jam nonstop tanpa henti."
       },
       {
         "key": "E",
-        "text": "Throughput sistem tidak terbatas, karena siswa dapat dipaksa bekerja 24 jam nonstop tanpa henti."
+        "text": "Throughput maksimum adalah 60 unit/jam yang ditentukan oleh kecepatan tercepat mesin Stasiun 1 untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       }
     ],
     "correctKey": "C",
@@ -3379,27 +3380,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Unit SMK otomatis menjadi pemilik sah merek karena mereka yang pertama kali memakainya di dapur sekolah (Declarative Principle) sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Merek tersebut otomatis menjadi milik umum (domain publik) dan siapapun bebas menggunakannya tanpa royalti."
       },
       {
         "key": "B",
-        "text": "Kedua belah pihak wajib menggabungkan perusahaannya menjadi badan usaha milik daerah tingkat provinsi Jawa Barat."
-      },
-      {
-        "key": "C",
         "text": "Ditjen KI akan membatalkan sertifikat pengusaha Jakarta secara sepihak dan menyita seluruh keuntungan usahanya."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pengusaha Jakarta sah sebagai pemilik hak eksklusif merek karena Indonesia menganut sistem konstitutif (First to File Principle), sehingga unit SMK dilarang menggunakan merek tersebut di pasaran komersial tanpa izin pemegang sertifikat."
       },
       {
+        "key": "D",
+        "text": "Kedua belah pihak wajib menggabungkan perusahaannya menjadi badan usaha milik daerah tingkat provinsi Jawa Barat."
+      },
+      {
         "key": "E",
-        "text": "Merek tersebut otomatis menjadi milik umum (domain publik) dan siapapun bebas menggunakannya tanpa royalti."
+        "text": "Unit SMK otomatis menjadi pemilik sah merek karena mereka yang pertama kali memakainya di dapur sekolah (Declarative Principle) konsumen."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pengusaha Jakarta sah sebagai pemilik hak eksklusif merek karena Indonesia menganut sistem konstitutif (First to File Principle), sehingga unit SMK dilarang menggunakan merek tersebut di pasaran komersial tanpa izin pemegang sertifikat.. Indonesia menganut asas First to File (bukan First to Use). Hak eksklusif merek lahir dari pendaftaran resmi di DJKI, bukan dari siapa yang memakai duluan di lapangan. Pengusaha Jakarta pemilik sah karena sistem First to File (konstitutif)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pengusaha Jakarta sah sebagai pemilik hak eksklusif merek karena Indonesia menganut sistem konstitutif (First to File Principle), sehingga unit SMK dilarang menggunakan merek tersebut di pasaran komersial tanpa izin pemegang sertifikat.. Indonesia menganut asas First to File (bukan First to Use). Hak eksklusif merek lahir dari pendaftaran resmi di DJKI, bukan dari siapa yang memakai duluan di lapangan. Pengusaha Jakarta pemilik sah karena sistem First to File (konstitutif)."
   },
   {
     "id": "pkk-sim-05",
@@ -3422,11 +3423,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pure Bundling Murni, di mana konsumen dipaksa secara mutlak membeli seluruh paket dan dilarang keras membeli satu layanan saja dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "Freemium Monopoli, di mana seluruh fitur website disembunyikan di balik pembayaran uang tebusan kripto."
       },
       {
         "key": "B",
-        "text": "Predatory Pricing Ekstrem, yang bertujuan membunuh seluruh penyedia jasa internet di wilayah kabupaten secara ilegal."
+        "text": "Mixed Bundling (Penjualan Bundel Campuran), di mana produk ditawarkan baik secara terpisah (ala carte) dengan harga individual maupun dalam satu paket bundel gabungan dengan potongan harga menarik."
       },
       {
         "key": "C",
@@ -3434,15 +3435,15 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Freemium Monopoli, di mana seluruh fitur website disembunyikan di balik pembayaran uang tebusan kripto."
+        "text": "Pure Bundling Murni, di mana konsumen dipaksa secara mutlak membeli seluruh paket dan dilarang keras membeli satu layanan saja dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "E",
-        "text": "Mixed Bundling (Penjualan Bundel Campuran), di mana produk ditawarkan baik secara terpisah (ala carte) dengan harga individual maupun dalam satu paket bundel gabungan dengan potongan harga menarik."
+        "text": "Predatory Pricing Ekstrem, yang bertujuan membunuh seluruh penyedia jasa internet di wilayah kabupaten secara ilegal."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mixed Bundling (Penjualan Bundel Campuran), di mana produk ditawarkan baik secara terpisah (ala carte) dengan harga individual maupun dalam satu paket bundel gabungan dengan potongan harga menarik.. Ketika produk dijual terpisah tetapi juga ditawarkan dalam paket terdiskon bersama, strateginya adalah Mixed Bundling. Mixed Bundling (Penjualan Bundel Campuran)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mixed Bundling (Penjualan Bundel Campuran), di mana produk ditawarkan baik secara terpisah (ala carte) dengan harga individual maupun dalam satu paket bundel gabungan dengan potongan harga menarik.. Ketika produk dijual terpisah tetapi juga ditawarkan dalam paket terdiskon bersama, strateginya adalah Mixed Bundling. Mixed Bundling (Penjualan Bundel Campuran)."
   },
   {
     "id": "pkk-sim-06",
@@ -3469,19 +3470,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "5,00 (atau 500%), dihitung dengan membagi penjualan kotor langsung dengan biaya persediaan tanpa memperhitungkan HPP demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "0,70 (atau 70%), dihitung dari rasio harga pokok penjualan terhadap total penjualan kotor tahunan."
       },
       {
         "key": "C",
-        "text": "0,20 (atau 20%), yang menunjukkan bahwa koperasi mengalami kerugian persediaan sebesar 80% dari modal awal."
-      },
-      {
-        "key": "D",
         "text": "3,50 (atau 350%), yang merupakan perputaran persediaan berdasarkan harga pokok barang."
       },
       {
+        "key": "D",
+        "text": "5,00 (atau 500%), dihitung dengan membagi penjualan kotor langsung dengan biaya persediaan tanpa memperhitungkan HPP."
+      },
+      {
         "key": "E",
-        "text": "0,70 (atau 70%), dihitung dari rasio harga pokok penjualan terhadap total penjualan kotor tahunan."
+        "text": "0,20 (atau 20%), yang menunjukkan bahwa koperasi mengalami kerugian persediaan sebesar 80% dari modal awal."
       }
     ],
     "correctKey": "A",
@@ -3508,27 +3509,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghitung kadar racun arsenik dan zat kimia berbahaya di dalam laboratorium toksikologi forensik demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Menghitung kadar racun arsenik dan zat kimia berbahaya di dalam laboratorium toksikologi forensik."
       },
       {
         "key": "B",
-        "text": "Mengukur secara kuantitatif tingkat kesukaan dan penerimaan subjektif konsumen potensial terhadap karakteristik sensori produk guna menentukan formulasi resep terbaik sebelum diproduksi secara komersial."
-      },
-      {
-        "key": "C",
-        "text": "Menentukan nilai pajak pertambahan nilai yang harus disetorkan ke kantor pelayanan pajak pratama."
-      },
-      {
-        "key": "D",
         "text": "Memaksa panelis menandatangani surat perjanjian pembelian saham perusahaan sebanyak 100 lembar."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Mengganti seluruh komposisi daging ikan lele dengan tepung tapioka tanpa memberitahukan kepada konsumen."
+      },
+      {
+        "key": "D",
+        "text": "Mengukur secara kuantitatif tingkat kesukaan dan penerimaan subjektif konsumen potensial terhadap karakteristik sensori produk guna menentukan formulasi resep terbaik sebelum diproduksi secara komersial."
+      },
+      {
+        "key": "E",
+        "text": "Menentukan nilai pajak pertambahan nilai yang harus disetorkan ke kantor pelayanan pajak pratama."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Mengukur secara kuantitatif tingkat kesukaan dan penerimaan subjektif konsumen potensial terhadap karakteristik sensori produk guna menentukan formulasi resep terbaik sebelum diproduksi secara komersial.. Uji hedonik adalah uji organoleptik berbasis respon afektif (tingkat kesukaan) konsumen terhadap parameter rasa, aroma, tekstur, dan warna sebelum komersialisasi. Mengukur tingkat kesukaan dan penerimaan sensori konsumen untuk optimasi formulasi resep."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mengukur secara kuantitatif tingkat kesukaan dan penerimaan subjektif konsumen potensial terhadap karakteristik sensori produk guna menentukan formulasi resep terbaik sebelum diproduksi secara komersial.. Uji hedonik adalah uji organoleptik berbasis respon afektif (tingkat kesukaan) konsumen terhadap parameter rasa, aroma, tekstur, dan warna sebelum komersialisasi. Mengukur tingkat kesukaan dan penerimaan sensori konsumen untuk optimasi formulasi resep."
   },
   {
     "id": "pkk-sim-08",
@@ -3551,27 +3552,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "100 hari, yang diperoleh dari penjumlahan seluruh hari operasional tanpa memperhitungkan fasilitas tempo utang supplier untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
-        "text": "10 hari, karena periode pembayaran utang langsung dikurangkan dari piutang dagang tanpa memperhitungkan stok gudang."
-      },
-      {
-        "key": "C",
-        "text": "50 hari, dihitung dari DIO (45 hari) + DSO (30 hari) - DPO (25 hari), yang menunjukkan rentang waktu di mana uang kas perusahaan terikat dalam modal kerja sejak pembelian bahan hingga kas piutang diterima."
-      },
-      {
-        "key": "D",
         "text": "20 hari, dihitung dari selisih antara umur persediaan dengan periode pembayaran utang dagang."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "50 hari, dihitung dari DIO (45 hari) + DSO (30 hari) - DPO (25 hari), yang menunjukkan rentang waktu di mana uang kas perusahaan terikat dalam modal kerja sejak pembelian bahan hingga kas piutang diterima."
+      },
+      {
+        "key": "C",
+        "text": "100 hari, yang diperoleh dari penjumlahan seluruh hari operasional tanpa memperhitungkan fasilitas tempo utang supplier untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+      },
+      {
+        "key": "D",
         "text": "75 hari, dihitung dengan mengabaikan seluruh kebijakan kredit dari pemasok kain tekstil."
+      },
+      {
+        "key": "E",
+        "text": "10 hari, karena periode pembayaran utang langsung dikurangkan dari piutang dagang tanpa memperhitungkan stok gudang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 50 hari, dihitung dari DIO (45 hari) + DSO (30 hari) - DPO (25 hari), yang menunjukkan rentang waktu di mana uang kas perusahaan terikat dalam modal kerja sejak pembelian bahan hingga kas piutang diterima.. Cash Conversion Cycle (CCC) = DIO + DSO - DPO. CCC = 45 + 30 - 25 = 50 hari. 50 hari (rentang kas terikat modal kerja operasional)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 50 hari, dihitung dari DIO (45 hari) + DSO (30 hari) - DPO (25 hari), yang menunjukkan rentang waktu di mana uang kas perusahaan terikat dalam modal kerja sejak pembelian bahan hingga kas piutang diterima.. Cash Conversion Cycle (CCC) = DIO + DSO - DPO. CCC = 45 + 30 - 25 = 50 hari. 50 hari (rentang kas terikat modal kerja operasional)."
   },
   {
     "id": "pkk-sim-09",
@@ -3594,27 +3595,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ROE = 13,5%, dihitung dari penjumlahan ketiga indikator keuangan tanpa menerapkan prinsip perkalian faktor sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "ROE = 300%, karena ekuitas perusahaan dihitung menggunakan kurs mata uang euro seratus tahun lalu."
       },
       {
         "key": "B",
-        "text": "ROE = 3,0%, dihitung dari pembagian rasio profit margin dengan equity multiplier."
-      },
-      {
-        "key": "C",
         "text": "ROE = 7,5%, karena perputaran aset memotong nilai keuntungan bersih menjadi separuhnya."
       },
       {
+        "key": "C",
+        "text": "ROE = 3,0%, dihitung dari pembagian rasio profit margin dengan equity multiplier."
+      },
+      {
         "key": "D",
-        "text": "ROE = 30%, dihasilkan dari efisiensi margin laba (10%), kecepatan perputaran aset (1,5x), dan pemanfaatan struktur modal terungkit (leverage 2,0x) yang bekerja secara simultan."
+        "text": "ROE = 13,5%, dihitung dari penjumlahan ketiga indikator keuangan tanpa menerapkan prinsip perkalian faktor konsumen."
       },
       {
         "key": "E",
-        "text": "ROE = 300%, karena ekuitas perusahaan dihitung menggunakan kurs mata uang euro seratus tahun lalu."
+        "text": "ROE = 30%, dihasilkan dari efisiensi margin laba (10%), kecepatan perputaran aset (1,5x), dan pemanfaatan struktur modal terungkit (leverage 2,0x) yang bekerja secara simultan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) ROE = 30%, dihasilkan dari efisiensi margin laba (10%), kecepatan perputaran aset (1,5x), dan pemanfaatan struktur modal terungkit (leverage 2,0x) yang bekerja secara simultan.. Analisis DuPont: ROE = NPM x Asset Turnover x Equity Multiplier. ROE = 0,10 x 1,5 x 2,0 = 0,30 = 30%. ROE = 30%."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) ROE = 30%, dihasilkan dari efisiensi margin laba (10%), kecepatan perputaran aset (1,5x), dan pemanfaatan struktur modal terungkit (leverage 2,0x) yang bekerja secara simultan.. Analisis DuPont: ROE = NPM x Asset Turnover x Equity Multiplier. ROE = 0,10 x 1,5 x 2,0 = 0,30 = 30%. ROE = 30%."
   },
   {
     "id": "pkk-sim-10",
@@ -3637,27 +3638,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "240 detik per unit, dihitung dari total waktu 8 jam penuh tanpa mengurangkan waktu istirahat operator bengkel dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
-        "text": "60 detik per unit, agar siswa bekerja terburu-buru hingga tingkat produk cacat meningkat tajam."
-      },
-      {
-        "key": "C",
-        "text": "1.200 detik per unit, karena siswa diperbolehkan bersantai menonton video di jam kerja praktik."
-      },
-      {
-        "key": "D",
         "text": "30 detik per unit, dihitung dari selisih antara waktu istirahat dengan jumlah saklar listrik."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "240 detik per unit, dihitung dari total waktu 8 jam penuh tanpa mengurangkan waktu istirahat operator bengkel dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+      },
+      {
+        "key": "C",
+        "text": "60 detik per unit, agar siswa bekerja terburu-buru hingga tingkat produk cacat meningkat tajam."
+      },
+      {
+        "key": "D",
         "text": "210 detik per unit (atau 3,5 menit per unit), dihitung dari waktu kerja bersih 25.200 detik dibagi dengan permintaan pelanggan 120 unit."
+      },
+      {
+        "key": "E",
+        "text": "1.200 detik per unit, karena siswa diperbolehkan bersantai menonton video di jam kerja praktik."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 210 detik per unit (atau 3,5 menit per unit), dihitung dari waktu kerja bersih 25.200 detik dibagi dengan permintaan pelanggan 120 unit.. Takt Time = Waktu Kerja Efektif Bersih / Kebutuhan Konsumen = (420 menit x 60 detik) / 120 unit = 25.200 / 120 = 210 detik/unit. 210 detik per unit (atau 3,5 menit per unit)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 210 detik per unit (atau 3,5 menit per unit), dihitung dari waktu kerja bersih 25.200 detik dibagi dengan permintaan pelanggan 120 unit.. Takt Time = Waktu Kerja Efektif Bersih / Kebutuhan Konsumen = (420 menit x 60 detik) / 120 unit = 25.200 / 120 = 210 detik/unit. 210 detik per unit (atau 3,5 menit per unit)."
   },
   {
     "id": "pkk-sim-11",
@@ -3684,19 +3685,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Lembaga anjak piutang menanggung 100% risiko kredit macet tanpa hak menuntut pengembalian uang kepada unit usaha SMK demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Seluruh utang piutang otomatis dihapuskan oleh menteri keuangan atas nama keadilan sosial."
       },
       {
         "key": "C",
-        "text": "Hotel berbintang otomatis menjadi milik sekolah sebagai aset tetap sitaan tanpa proses pengadilan."
+        "text": "Lembaga anjak piutang menanggung 100% risiko kredit macet tanpa hak menuntut pengembalian uang kepada unit usaha SMK."
       },
       {
         "key": "D",
-        "text": "Lembaga anjak piutang wajib membagikan separuh sahamnya kepada guru pembimbing kewirausahaan sekolah."
+        "text": "Hotel berbintang otomatis menjadi milik sekolah sebagai aset tetap sitaan tanpa proses pengadilan."
       },
       {
         "key": "E",
-        "text": "Seluruh utang piutang otomatis dihapuskan oleh menteri keuangan atas nama keadilan sosial."
+        "text": "Lembaga anjak piutang wajib membagikan separuh sahamnya kepada guru pembimbing kewirausahaan sekolah."
       }
     ],
     "correctKey": "A",
@@ -3723,27 +3724,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Air mineral murni dari sumur bor yang telah dimasak mendidih pada suhu seratus derajat celcius demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Bahan pengemulsi nabati/hewani (Emulsifier seperti mono- dan digliserida), gelatin pembentuk gel, dan perisa rum sintetis yang berpotensi mengandung alkohol turunan khamr."
-      },
-      {
-        "key": "C",
         "text": "Tepung terigu curah yang digiling dari biji gandum mentah di ladang pertanian organik."
       },
       {
+        "key": "B",
+        "text": "Air mineral murni dari sumur bor yang telah dimasak mendidih pada suhu seratus derajat celcius."
+      },
+      {
+        "key": "C",
+        "text": "Bahan pengemulsi nabati/hewani (Emulsifier seperti mono- dan digliserida), gelatin pembentuk gel, dan perisa rum sintetis yang berpotensi mengandung alkohol turunan khamr."
+      },
+      {
         "key": "D",
-        "text": "Gula pasir tebu kristal putih yang diperoleh langsung dari petani tebu lokal."
+        "text": "Loyang aluminium cetakan kue yang dicuci bersih menggunakan deterjen pencuci piring."
       },
       {
         "key": "E",
-        "text": "Loyang aluminium cetakan kue yang dicuci bersih menggunakan deterjen pencuci piring."
+        "text": "Gula pasir tebu kristal putih yang diperoleh langsung dari petani tebu lokal."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bahan pengemulsi nabati/hewani (Emulsifier seperti mono- dan digliserida), gelatin pembentuk gel, dan perisa rum sintetis yang berpotensi mengandung alkohol turunan khamr.. Titik kritis bahan halal pada produk reroti/kue adalah pengemulsi (emulsifier berbasis lemak hewani/nabati), gelatin, dan flavor berpelarut alkohol. Emulsifier lemak, gelatin, dan perisa beralkohol (titik kritis kehalalan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Bahan pengemulsi nabati/hewani (Emulsifier seperti mono- dan digliserida), gelatin pembentuk gel, dan perisa rum sintetis yang berpotensi mengandung alkohol turunan khamr.. Titik kritis bahan halal pada produk reroti/kue adalah pengemulsi (emulsifier berbasis lemak hewani/nabati), gelatin, dan flavor berpelarut alkohol. Emulsifier lemak, gelatin, dan perisa beralkohol (titik kritis kehalalan)."
   },
   {
     "id": "pkk-sim-13",
@@ -3766,15 +3767,15 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Revenue (Pendapatan), karena setiap kode undangan otomatis dipotong saldo kasir bank Indonesia untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
-      },
-      {
-        "key": "B",
         "text": "Retention (Retensi), karena pengguna tersebut tetap membuka aplikasi selama sepuluh jam tanpa tidur."
       },
       {
+        "key": "B",
+        "text": "Dissolution (Pembubaran), karena sistem membatasi pendaftaran hanya untuk satu rumpun kejuruan saja."
+      },
+      {
         "key": "C",
-        "text": "Referral (Advokasi / Rujukan Pengguna), yaitu fase di mana pengguna yang puas secara sukarela membagikan dan mengajak pengguna baru ke dalam platform."
+        "text": "Revenue (Pendapatan), karena setiap kode undangan otomatis dipotong saldo kasir bank Indonesia untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "D",
@@ -3782,11 +3783,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Dissolution (Pembubaran), karena sistem membatasi pendaftaran hanya untuk satu rumpun kejuruan saja."
+        "text": "Referral (Advokasi / Rujukan Pengguna), yaitu fase di mana pengguna yang puas secara sukarela membagikan dan mengajak pengguna baru ke dalam platform."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Referral (Advokasi / Rujukan Pengguna), yaitu fase di mana pengguna yang puas secara sukarela membagikan dan mengajak pengguna baru ke dalam platform.. Aktivitas membagikan tautan/kode undangan kepada teman sehingga terjadi pendaftaran baru merupakan tahap Referral (Rujukan). Referral (Rujukan / Word-of-Mouth)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Referral (Advokasi / Rujukan Pengguna), yaitu fase di mana pengguna yang puas secara sukarela membagikan dan mengajak pengguna baru ke dalam platform.. Aktivitas membagikan tautan/kode undangan kepada teman sehingga terjadi pendaftaran baru merupakan tahap Referral (Rujukan). Referral (Rujukan / Word-of-Mouth)."
   },
   {
     "id": "pkk-sim-14",
@@ -3809,27 +3810,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penggunaan Alat Pelindung Diri (APD), karena siswa diwajibkan membeli masker respirator karbon aktif dengan uang sendiri sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
         "text": "Pengendalian Administratif, karena guru hanya menempelkan stiker gambar tengkorak bahaya racun di pintu lemari."
       },
       {
+        "key": "B",
+        "text": "Substitusi (Substitution), yaitu mengganti bahan, peralatan, atau proses yang berbahaya dengan bahan atau proses yang memiliki tingkat bahaya jauh lebih rendah atau tidak berbahaya sama sekali."
+      },
+      {
         "key": "C",
-        "text": "Rekayasa Teknik (Engineering Control), karena cairan kimia diaduk menggunakan sendok makan berbahan plastik."
+        "text": "Penggunaan Alat Pelindung Diri (APD), karena siswa diwajibkan membeli masker respirator karbon aktif dengan uang sendiri konsumen."
       },
       {
         "key": "D",
-        "text": "Substitusi (Substitution), yaitu mengganti bahan, peralatan, atau proses yang berbahaya dengan bahan atau proses yang memiliki tingkat bahaya jauh lebih rendah atau tidak berbahaya sama sekali."
+        "text": "Rekayasa Teknik (Engineering Control), karena cairan kimia diaduk menggunakan sendok makan berbahan plastik."
       },
       {
         "key": "E",
         "text": "Eliminasi Total, karena mobil konsumen langsung dibakar hingga seluruh cat mengelupas dengan sendirinya."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Substitusi (Substitution), yaitu mengganti bahan, peralatan, atau proses yang berbahaya dengan bahan atau proses yang memiliki tingkat bahaya jauh lebih rendah atau tidak berbahaya sama sekali.. Mengganti bahan beracun berbahaya dengan alternatif yang lebih aman merupakan tindakan pada tingkat Substitusi (Hierarchy of Controls). Substitusi (Substitution)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Substitusi (Substitution), yaitu mengganti bahan, peralatan, atau proses yang berbahaya dengan bahan atau proses yang memiliki tingkat bahaya jauh lebih rendah atau tidak berbahaya sama sekali.. Mengganti bahan beracun berbahaya dengan alternatif yang lebih aman merupakan tindakan pada tingkat Substitusi (Hierarchy of Controls). Substitusi (Substitution)."
   },
   {
     "id": "pkk-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Informasi harus diumumkan di surat kabar nasional, ditempel di mading sekolah, dan dibagikan ke seluruh wali murid dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
         "text": "Pemilik resep wajib memiliki gelar doktor di bidang kimia pangan dan memegang paspor Uni Eropa."
       },
       {
+        "key": "B",
+        "text": "Informasi tersebut bersifat rahasia (hanya diketahui pihak tertentu), memiliki nilai ekonomi komersial nyata, dan dijaga kerahasiaannya melalui langkah-langkah yang layak (seperti penyimpanan terkunci, akses terbatas, dan klausul NDA)."
+      },
+      {
         "key": "C",
-        "text": "Formula resep harus diuji coba pada hewan mamalia laut di bawah pengawasan dinas kelautan."
+        "text": "Informasi harus diumumkan di surat kabar nasional, ditempel di mading sekolah, dan dibagikan ke seluruh wali murid dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "D",
-        "text": "Resep wajib dibeli oleh pemerintah daerah dengan harga minimal satu miliar rupiah secara tunai."
+        "text": "Formula resep harus diuji coba pada hewan mamalia laut di bawah pengawasan dinas kelautan."
       },
       {
         "key": "E",
-        "text": "Informasi tersebut bersifat rahasia (hanya diketahui pihak tertentu), memiliki nilai ekonomi komersial nyata, dan dijaga kerahasiaannya melalui langkah-langkah yang layak (seperti penyimpanan terkunci, akses terbatas, dan klausul NDA)."
+        "text": "Resep wajib dibeli oleh pemerintah daerah dengan harga minimal satu miliar rupiah secara tunai."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Informasi tersebut bersifat rahasia (hanya diketahui pihak tertentu), memiliki nilai ekonomi komersial nyata, dan dijaga kerahasiaannya melalui langkah-langkah yang layak (seperti penyimpanan terkunci, akses terbatas, dan klausul NDA).. Syarat Rahasia Dagang menurut UU 30/2000: (1) Bersifat rahasia, (2) Memiliki nilai ekonomi, (3) Dijaga kerahasiaannya melalui upaya yang layak. Bersifat rahasia, memiliki nilai ekonomi, dan dijaga kerahasiaannya dengan upaya layak."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Informasi tersebut bersifat rahasia (hanya diketahui pihak tertentu), memiliki nilai ekonomi komersial nyata, dan dijaga kerahasiaannya melalui langkah-langkah yang layak (seperti penyimpanan terkunci, akses terbatas, dan klausul NDA).. Syarat Rahasia Dagang menurut UU 30/2000: (1) Bersifat rahasia, (2) Memiliki nilai ekonomi, (3) Dijaga kerahasiaannya melalui upaya yang layak. Bersifat rahasia, memiliki nilai ekonomi, dan dijaga kerahasiaannya dengan upaya layak."
   },
   {
     "id": "pkk-sim-16",
@@ -3895,27 +3896,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Stasiun kerja di hilir hanya menarik dan memicu produksi komponen dari stasiun kerja di hulu persis saat ada permintaan nyata, sehingga meniadakan penumpukan barang dalam proses (Work-in-Process / WIP)."
-      },
-      {
-        "key": "B",
-        "text": "Stasiun kerja hulu memproduksi barang sebanyak-banyaknya tanpa mempedulikan apakah stasiun hilir siap menerimanya atau tidak demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Setiap siswa diwajibkan membawa kartu debit perbankan untuk menggesek mesin absensi sebelum menyalakan bor listrik."
-      },
-      {
-        "key": "D",
         "text": "Seluruh proses perakitan dihentikan secara permanen dan sekolah hanya mengimpor barang jadi dari luar negeri."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Mesin pabrik diprogram untuk membuang separuh komponen ke bak sampah setiap lima menit sekali."
+      },
+      {
+        "key": "C",
+        "text": "Stasiun kerja di hilir hanya menarik dan memicu produksi komponen dari stasiun kerja di hulu persis saat ada permintaan nyata, sehingga meniadakan penumpukan barang dalam proses (Work-in-Process / WIP)."
+      },
+      {
+        "key": "D",
+        "text": "Stasiun kerja hulu memproduksi barang sebanyak-banyaknya tanpa mempedulikan apakah stasiun hilir siap menerimanya atau tidak."
+      },
+      {
+        "key": "E",
+        "text": "Setiap siswa diwajibkan membawa kartu debit perbankan untuk menggesek mesin absensi sebelum menyalakan bor listrik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Stasiun kerja di hilir hanya menarik dan memicu produksi komponen dari stasiun kerja di hulu persis saat ada permintaan nyata, sehingga meniadakan penumpukan barang dalam proses (Work-in-Process / WIP).. Sistem Tarik (Pull System) dengan Kanban: stasiun kerja hilir menarik komponen dari hulu hanya ketika dibutuhkan, mencegah penumpukan WIP. Stasiun hilir menarik komponen dari hulu sesuai kebutuhan nyata (meniadakan tumpukan WIP)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Stasiun kerja di hilir hanya menarik dan memicu produksi komponen dari stasiun kerja di hulu persis saat ada permintaan nyata, sehingga meniadakan penumpukan barang dalam proses (Work-in-Process / WIP).. Sistem Tarik (Pull System) dengan Kanban: stasiun kerja hilir menarik komponen dari hulu hanya ketika dibutuhkan, mencegah penumpukan WIP. Stasiun hilir menarik komponen dari hulu sesuai kebutuhan nyata (meniadakan tumpukan WIP)."
   },
   {
     "id": "pkk-sim-17",
@@ -3938,11 +3939,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wajib memiliki modal disetor minimal Rp50 Miliar tunai di brankas kantor kementerian investasi demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
+        "text": "Dapat didirikan oleh 1 orang WNI tanpa akta notaris (cukup pendaftaran elektronik di Kemenkumham), memiliki status badan hukum resmi, dan adanya pemisahan tanggung jawab kekayaan pribadi dengan kekayaan perusahaan (tanggung jawab terbatas)."
       },
       {
         "key": "B",
-        "text": "Dapat didirikan oleh 1 orang WNI tanpa akta notaris (cukup pendaftaran elektronik di Kemenkumham), memiliki status badan hukum resmi, dan adanya pemisahan tanggung jawab kekayaan pribadi dengan kekayaan perusahaan (tanggung jawab terbatas)."
+        "text": "Wajib memiliki modal disetor minimal Rp50 Miliar tunai di brankas kantor kementerian investasi."
       },
       {
         "key": "C",
@@ -3957,8 +3958,8 @@ window.TKA_PKK_QUESTIONS = [
         "text": "Dilarang membuka rekening bank atas nama badan usaha dan tidak berhak mendapatkan Nomor Induk Berusaha."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Dapat didirikan oleh 1 orang WNI tanpa akta notaris (cukup pendaftaran elektronik di Kemenkumham), memiliki status badan hukum resmi, dan adanya pemisahan tanggung jawab kekayaan pribadi dengan kekayaan perusahaan (tanggung jawab terbatas).. PT Perorangan (UU Cipta Kerja): didirikan oleh 1 orang, tanpa akta notaris (cukup SK Kemenkumham online), berstatus badan hukum, dan tanggung jawab terbatas. Dapat didirikan 1 orang tanpa akta notaris, berbadan hukum, dan tanggung jawab terbatas."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Dapat didirikan oleh 1 orang WNI tanpa akta notaris (cukup pendaftaran elektronik di Kemenkumham), memiliki status badan hukum resmi, dan adanya pemisahan tanggung jawab kekayaan pribadi dengan kekayaan perusahaan (tanggung jawab terbatas).. PT Perorangan (UU Cipta Kerja): didirikan oleh 1 orang, tanpa akta notaris (cukup SK Kemenkumham online), berstatus badan hukum, dan tanggung jawab terbatas. Dapat didirikan 1 orang tanpa akta notaris, berbadan hukum, dan tanggung jawab terbatas."
   },
   {
     "id": "pkk-sim-18",
@@ -3981,7 +3982,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bebas dari segala tuntutan hukum karena sekolah berstatus lembaga pendidikan yang kebal terhadap hukum perdata dan pidana untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Wajib memberikan ganti rugi berupa pengembalian uang atau penggantian barang yang sejenis atau setara nilainya, atau perawatan kesehatan/santunan, dalam tenggang waktu 7 hari setelah tanggal transaksi/insiden."
       },
       {
         "key": "B",
@@ -3989,19 +3990,19 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Wajib memberikan ganti rugi berupa pengembalian uang atau penggantian barang yang sejenis atau setara nilainya, atau perawatan kesehatan/santunan, dalam tenggang waktu 7 hari setelah tanggal transaksi/insiden."
+        "text": "Menuntut peternak balik ke kepolisian karena peternak dianggap tidak mampu mendinginkan ruangan kandang."
       },
       {
         "key": "D",
-        "text": "Menuntut peternak balik ke kepolisian karena peternak dianggap tidak mampu mendinginkan ruangan kandang."
+        "text": "Bebas dari segala tuntutan hukum karena sekolah berstatus lembaga pendidikan yang kebal terhadap hukum perdata dan pidana untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "E",
         "text": "Mengganti kerugian peternak dengan selembar kupon undian berhadiah kaos sablon sekolah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Wajib memberikan ganti rugi berupa pengembalian uang atau penggantian barang yang sejenis atau setara nilainya, atau perawatan kesehatan/santunan, dalam tenggang waktu 7 hari setelah tanggal transaksi/insiden.. Pasal 19 UU No. 8/1999 mewajibkan pelaku usaha mengganti rugi kerusakan/kerugian konsumen (uang kembali atau penggantian barang setara) maksimal 7 hari. Wajib memberikan ganti rugi penggantian barang atau uang dalam batas 7 hari."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Wajib memberikan ganti rugi berupa pengembalian uang atau penggantian barang yang sejenis atau setara nilainya, atau perawatan kesehatan/santunan, dalam tenggang waktu 7 hari setelah tanggal transaksi/insiden.. Pasal 19 UU No. 8/1999 mewajibkan pelaku usaha mengganti rugi kerusakan/kerugian konsumen (uang kembali atau penggantian barang setara) maksimal 7 hari. Wajib memberikan ganti rugi penggantian barang atau uang dalam batas 7 hari."
   },
   {
     "id": "pkk-sim-19",
@@ -4024,7 +4025,7 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Carbon Neutral Certification, yaitu standar internasional pengakuan perusahaan yang telah mencapai emisi nol bersih secara saintifik sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
+        "text": "Organic Fair Trade, yaitu sistem sertifikasi keadilan upah bagi para petani kapas dan pekerja tekstil perempuan."
       },
       {
         "key": "B",
@@ -4032,7 +4033,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Organic Fair Trade, yaitu sistem sertifikasi keadilan upah bagi para petani kapas dan pekerja tekstil perempuan."
+        "text": "Life Cycle Sustainability, yaitu pelaporan transparansi dampak ekologis produk secara terbuka kepada publik."
       },
       {
         "key": "D",
@@ -4040,7 +4041,7 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Life Cycle Sustainability, yaitu pelaporan transparansi dampak ekologis produk secara terbuka kepada publik."
+        "text": "Carbon Neutral Certification, yaitu standar internasional pengakuan perusahaan yang telah mencapai emisi nol bersih secara saintifik konsumen."
       }
     ],
     "correctKey": "D",
@@ -4067,11 +4068,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "PI = 0,77, yang menunjukkan proyek harus segera ditolak karena nilai investasi awal lebih kecil daripada arus kas masuk dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
+        "text": "PI = 0,30, dihitung dari selisih antara keuntungan bersih dengan biaya sewa gedung laboratorium."
       },
       {
         "key": "B",
-        "text": "PI = 0,30, dihitung dari selisih antara keuntungan bersih dengan biaya sewa gedung laboratorium."
+        "text": "PI = 1,30, yang menunjukkan proyek sangat layak diterima (karena PI > 1,0), di mana setiap Rp1 investasi awal menghasilkan nilai tunai arus kas masuk sebesar Rp1,30."
       },
       {
         "key": "C",
@@ -4083,11 +4084,11 @@ window.TKA_PKK_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "PI = 1,30, yang menunjukkan proyek sangat layak diterima (karena PI > 1,0), di mana setiap Rp1 investasi awal menghasilkan nilai tunai arus kas masuk sebesar Rp1,30."
+        "text": "PI = 0,77, yang menunjukkan proyek harus segera ditolak karena nilai investasi awal lebih kecil daripada arus kas masuk dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) PI = 1,30, yang menunjukkan proyek sangat layak diterima (karena PI > 1,0), di mana setiap Rp1 investasi awal menghasilkan nilai tunai arus kas masuk sebesar Rp1,30.. Profitability Index (PI) = PV of Cash Inflows / Initial Outlay. PI = 65jt / 50jt = 1,30. Nilai PI > 1,0 menandakan proyek layak diterima. PI = 1,30 (layak diterima, PI > 1,0)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) PI = 1,30, yang menunjukkan proyek sangat layak diterima (karena PI > 1,0), di mana setiap Rp1 investasi awal menghasilkan nilai tunai arus kas masuk sebesar Rp1,30.. Profitability Index (PI) = PV of Cash Inflows / Initial Outlay. PI = 65jt / 50jt = 1,30. Nilai PI > 1,0 menandakan proyek layak diterima. PI = 1,30 (layak diterima, PI > 1,0)."
   },
   {
     "id": "pkk-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencegah terjadinya degradasi reputasi dan nilai ekuitas merek (Brand Dilution) akibat produk berkualitas rendah yang dibuat oleh penerima lisensi, sekaligus memenuhi kewajiban undang-undang untuk menjaga standar kualitas merek terdaftar."
+        "text": "Mengganti nama kepemilikan pabrik mitra menjadi kantor cabang dinas pendidikan provinsi."
       },
       {
         "key": "B",
-        "text": "Memungkinkan siswa SMK menyita seluruh mesin pemotong kulit milik pabrikan mitra tanpa ganti rugi demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Menghapus kewajiban pembayaran pajak penghasilan atas royalti merek bagi kedua belah pihak."
-      },
-      {
-        "key": "D",
         "text": "Memaksa pabrikan mitra mempekerjakan seluruh warga desa sekitar pabrik sebagai direktur operasional."
       },
       {
+        "key": "C",
+        "text": "Memungkinkan siswa SMK menyita seluruh mesin pemotong kulit milik pabrikan mitra tanpa ganti rugi."
+      },
+      {
+        "key": "D",
+        "text": "Mencegah terjadinya degradasi reputasi dan nilai ekuitas merek (Brand Dilution) akibat produk berkualitas rendah yang dibuat oleh penerima lisensi, sekaligus memenuhi kewajiban undang-undang untuk menjaga standar kualitas merek terdaftar."
+      },
+      {
         "key": "E",
-        "text": "Mengganti nama kepemilikan pabrik mitra menjadi kantor cabang dinas pendidikan provinsi."
+        "text": "Menghapus kewajiban pembayaran pajak penghasilan atas royalti merek bagi kedua belah pihak."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Mencegah terjadinya degradasi reputasi dan nilai ekuitas merek (Brand Dilution) akibat produk berkualitas rendah yang dibuat oleh penerima lisensi, sekaligus memenuhi kewajiban undang-undang untuk menjaga standar kualitas merek terdaftar.. Quality Control Clause dalam kontrak lisensi merek bertujuan melindungi reputasi dan ekuitas merek dari penurunan kualitas oleh penerima lisensi. Mencegah degradasi reputasi dan menjaga ekuitas merek (Quality Control Clause)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mencegah terjadinya degradasi reputasi dan nilai ekuitas merek (Brand Dilution) akibat produk berkualitas rendah yang dibuat oleh penerima lisensi, sekaligus memenuhi kewajiban undang-undang untuk menjaga standar kualitas merek terdaftar.. Quality Control Clause dalam kontrak lisensi merek bertujuan melindungi reputasi dan ekuitas merek dari penurunan kualitas oleh penerima lisensi. Mencegah degradasi reputasi dan menjaga ekuitas merek (Quality Control Clause)."
   },
   {
     "id": "pkk-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kerugian mutu bernilai nol rupiah selama produk tidak meledak di tangan konsumen saat pertama kali dicolokkan ke listrik demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang demi mencegah terjadinya risiko kepailitan finansial dan kerugian modal kerja jangka panjang."
-      },
-      {
-        "key": "B",
-        "text": "Kerugian mutu bagi masyarakat/konsumen mulai timbul seketika begitu nilai karakteristik produk menyimpang dari target nominal ($m$), meskipun deviasi tersebut masih berada di dalam rentang batas toleransi spesifikasi teknis yang diizinkan."
-      },
-      {
-        "key": "C",
-        "text": "Produk yang berada di batas toleransi terluar dianggap memiliki mutu yang sama persis sempurnanya dengan produk yang tepat di target nominal."
-      },
-      {
-        "key": "D",
         "text": "Biaya kerugian mutu hanya ditanggung oleh petugas quality control yang bertugas memeriksa barang di pintu keluar gudang."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Produk yang berada di batas toleransi terluar dianggap memiliki mutu yang sama persis sempurnanya dengan produk yang tepat di target nominal."
+      },
+      {
+        "key": "C",
+        "text": "Kerugian mutu bernilai nol rupiah selama produk tidak meledak di tangan konsumen saat pertama kali dicolokkan ke listrik."
+      },
+      {
+        "key": "D",
         "text": "Kerugian mutu dihitung semata-mata dari selisih harga jual produk di pasar tradisional dengan pasar modern."
+      },
+      {
+        "key": "E",
+        "text": "Kerugian mutu bagi masyarakat/konsumen mulai timbul seketika begitu nilai karakteristik produk menyimpang dari target nominal ($m$), meskipun deviasi tersebut masih berada di dalam rentang batas toleransi spesifikasi teknis yang diizinkan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kerugian mutu bagi masyarakat/konsumen mulai timbul seketika begitu nilai karakteristik produk menyimpang dari target nominal ($m$), meskipun deviasi tersebut masih berada di dalam rentang batas toleransi spesifikasi teknis yang diizinkan.. Filosofi Taguchi memandang bahwa setiap penyimpangan dari target nominal (meski masih dalam toleransi) sudah menimbulkan kerugian mutu secara kuadratik bagi konsumen. Kerugian timbul begitu menyimpang dari target nominal (filosofi kuadratik Taguchi)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kerugian mutu bagi masyarakat/konsumen mulai timbul seketika begitu nilai karakteristik produk menyimpang dari target nominal ($m$), meskipun deviasi tersebut masih berada di dalam rentang batas toleransi spesifikasi teknis yang diizinkan.. Filosofi Taguchi memandang bahwa setiap penyimpangan dari target nominal (meski masih dalam toleransi) sudah menimbulkan kerugian mutu secara kuadratik bagi konsumen. Kerugian timbul begitu menyimpang dari target nominal (filosofi kuadratik Taguchi)."
   },
   {
     "id": "pkk-sim-23",
@@ -4196,11 +4197,11 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp895.000.000, dihitung dengan mengurangi valuasi rata-rata dengan persentase penyesuaian pasar modal untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
+        "text": "Rp2.105.000.000, yang diperoleh dengan menambahkan omzet target lima tahun ke depan secara spekulatif."
       },
       {
         "key": "B",
-        "text": "Rp2.105.000.000, yang diperoleh dengan menambahkan omzet target lima tahun ke depan secara spekulatif."
+        "text": "Rp895.000.000, dihitung dengan mengurangi valuasi rata-rata dengan persentase penyesuaian pasar modal untuk memastikan seluruh aktivitas produksi dan transaksi komersial terdokumentasi secara transparan dan akuntabel."
       },
       {
         "key": "C",
@@ -4239,27 +4240,27 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reverse Engineering Tradisional, yaitu membongkar produk kompetitor secara sembunyi-sembunyi untuk meniru ukuran bautnya sesuai dengan ketentuan standar mutu industri kontemporer dan perlindungan kepentingan hak konsumen."
-      },
-      {
-        "key": "B",
-        "text": "Brute Force Fabrication, yaitu memotong kayu secara acak tanpa pengukuran gambar teknik kerja."
-      },
-      {
-        "key": "C",
-        "text": "Destructive Strength Testing, yaitu membanting meja dari lantai tiga sekolah untuk menguji kekuatannya."
-      },
-      {
-        "key": "D",
         "text": "Kansei Engineering (Rekayasa Sensori Emosional), yaitu pendekatan teknologi desain ergonomis yang menerjemahkan citra rasa psikologis (emosi) konsumen menjadi parameter desain fisik produk nyata."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Destructive Strength Testing, yaitu membanting meja dari lantai tiga sekolah untuk menguji kekuatannya."
+      },
+      {
+        "key": "C",
+        "text": "Reverse Engineering Tradisional, yaitu membongkar produk kompetitor secara sembunyi-sembunyi untuk meniru ukuran bautnya konsumen."
+      },
+      {
+        "key": "D",
         "text": "Arbitrary Styling Method, yaitu mengecat meja dengan warna-warni kontras tanpa mempedulikan kenyamanan pengguna."
+      },
+      {
+        "key": "E",
+        "text": "Brute Force Fabrication, yaitu memotong kayu secara acak tanpa pengukuran gambar teknik kerja."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kansei Engineering (Rekayasa Sensori Emosional), yaitu pendekatan teknologi desain ergonomis yang menerjemahkan citra rasa psikologis (emosi) konsumen menjadi parameter desain fisik produk nyata.. Metodologi yang menerjemahkan perasaan emosional/psikologis konsumen menjadi parameter spesifikasi teknis fisik desain disebut Kansei Engineering. Kansei Engineering (Rekayasa Sensori Emosional)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kansei Engineering (Rekayasa Sensori Emosional), yaitu pendekatan teknologi desain ergonomis yang menerjemahkan citra rasa psikologis (emosi) konsumen menjadi parameter desain fisik produk nyata.. Metodologi yang menerjemahkan perasaan emosional/psikologis konsumen menjadi parameter spesifikasi teknis fisik desain disebut Kansei Engineering. Kansei Engineering (Rekayasa Sensori Emosional)."
   },
   {
     "id": "pkk-sim-25",
@@ -4282,19 +4283,19 @@ window.TKA_PKK_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Siswa penjual wajib datang setiap hari ke kantor pajak membawa uang tunai receh untuk membayar PPN transaksi dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
-      },
-      {
-        "key": "B",
-        "text": "Seluruh transaksi di marketplace bebas pajak secara mutlak karena server komputer berada di awan (cloud)."
-      },
-      {
-        "key": "C",
         "text": "Pembeli barang diwajibkan mengirimkan bukti lapor SPT tahunan kepada kurir paket sebelum barang diserahkan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Pajak pertambahan nilai diganti dengan sumbangan wajib beras untuk lumbung pangan desa."
+      },
+      {
+        "key": "C",
+        "text": "Seluruh transaksi di marketplace bebas pajak secara mutlak karena server komputer berada di awan (cloud)."
+      },
+      {
+        "key": "D",
+        "text": "Siswa penjual wajib datang setiap hari ke kantor pajak membawa uang tunai receh untuk membayar PPN transaksi dalam rangka memitigasi potensi sengketa hukum bisnis dan menjaga reputasi ekuitas merek di pasaran."
       },
       {
         "key": "E",

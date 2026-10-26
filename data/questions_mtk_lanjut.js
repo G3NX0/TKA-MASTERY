@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_MTK_LANJUT_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_MTK_LANJUT_QUESTIONS = [
   {
     "id": "mtk_lanjut-lat-e-01",
@@ -11,26 +17,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$21$"
-      },
-      {
-        "key": "B",
         "text": "$15$."
       },
       {
+        "key": "B",
+        "text": "$24$."
+      },
+      {
         "key": "C",
-        "text": "$18$."
+        "text": "$21$"
       },
       {
         "key": "D",
-        "text": "$24$."
+        "text": "$18$."
       },
       {
         "key": "E",
         "text": "$27$."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TEOREMA SISA POLINOMIAL LINEAR",
       "latex": "P(x) = (x - c) \\cdot H(x) + S \\implies S = P(c)",
@@ -55,26 +61,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-2$"
-      },
-      {
-        "key": "B",
         "text": "$1$"
       },
       {
-        "key": "C",
-        "text": "$0$"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$2$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$3$"
+      },
+      {
+        "key": "D",
+        "text": "$-2$"
+      },
+      {
+        "key": "E",
+        "text": "$0$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TEOREMA FAKTOR POLINOMIAL",
       "latex": "(x - c) \\text{ faktor dari } P(x) \\iff P(c) = 0",
@@ -107,7 +113,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$3$"
+        "text": "$\\frac{5}{2}$"
       },
       {
         "key": "D",
@@ -115,10 +121,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{5}{2}$"
+        "text": "$3$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TEOREMA VIETA SUKU BANYAK DERAJAT TIGA",
       "latex": "ax^3 + bx^2 + cx + d = 0 \\implies x_1 + x_2 + x_3 = -\\frac{b}{a}",
@@ -147,11 +153,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$19$."
+        "text": "$27$."
       },
       {
         "key": "C",
-        "text": "$27$."
+        "text": "$19$."
       },
       {
         "key": "D",
@@ -187,7 +193,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-16$."
+        "text": "$-64$"
       },
       {
         "key": "B",
@@ -195,18 +201,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$32$."
-      },
-      {
-        "key": "D",
         "text": "$64$."
       },
       {
+        "key": "D",
+        "text": "$-16$."
+      },
+      {
         "key": "E",
-        "text": "$-64$"
+        "text": "$32$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SIFAT DETERMINAN MATRIKS BERORDO n",
       "latex": "\\det(k \\cdot A \\cdot B) = k^n \\cdot \\det(A) \\cdot \\det(B) \\quad (\\text{untuk ordo } n \\times n)",
@@ -231,11 +237,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(1, 2)$"
+        "text": "$(4, 2)$"
       },
       {
         "key": "B",
-        "text": "$(2, 1)$"
+        "text": "$(-1, 2)$"
       },
       {
         "key": "C",
@@ -243,14 +249,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$(-1, 2)$"
+        "text": "$(2, 1)$"
       },
       {
         "key": "E",
-        "text": "$(4, 2)$"
+        "text": "$(1, 2)$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "BENTUK BAKU PARABOLA HORIZONTAL",
       "latex": "(y - k)^2 = 4p(x - h) \\implies \\text{Puncak } (h, k)",
@@ -275,26 +281,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5$ dan $3$."
+        "text": "$8$ dan $6$."
       },
       {
         "key": "B",
-        "text": "$10$ dan $6$"
+        "text": "$5$ dan $3$."
       },
       {
         "key": "C",
-        "text": "$25$ dan $9$."
-      },
-      {
-        "key": "D",
         "text": "$10$ dan $8$."
       },
       {
+        "key": "D",
+        "text": "$25$ dan $9$."
+      },
+      {
         "key": "E",
-        "text": "$8$ dan $6$."
+        "text": "$10$ dan $6$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DIMENSI SUMBU ELIPS HORIZONTAL",
       "latex": "\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\implies \\text{Sumbu Mayor} = 2a, \\quad \\text{Sumbu Minor} = 2b",
@@ -319,7 +325,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = \\pm \\frac{4}{3}x$"
+        "text": "$y = \\pm \\frac{3}{4}x$"
       },
       {
         "key": "B",
@@ -327,7 +333,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$y = \\pm \\frac{3}{4}x$"
+        "text": "$y = \\pm \\frac{4}{3}x$"
       },
       {
         "key": "D",
@@ -338,7 +344,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
         "text": "$y = \\pm \\frac{3}{5}x$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PERSAMAAN ASIMTOT HIPERBOLA",
       "latex": "\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1 \\implies y = \\pm \\frac{b}{a}x",
@@ -363,15 +369,15 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-4$"
+        "text": "$12$"
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$6$"
       },
       {
         "key": "C",
-        "text": "$6$"
+        "text": "$2$"
       },
       {
         "key": "D",
@@ -379,7 +385,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$12$"
+        "text": "$-4$"
       }
     ],
     "correctKey": "D",
@@ -407,7 +413,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-2$."
+        "text": "$-\\frac{7}{5}$"
       },
       {
         "key": "B",
@@ -415,18 +421,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{7}{5}$."
-      },
-      {
-        "key": "D",
         "text": "$\\frac{14}{5}$."
       },
       {
+        "key": "D",
+        "text": "$\\frac{7}{5}$."
+      },
+      {
         "key": "E",
-        "text": "$-\\frac{7}{5}$"
+        "text": "$-2$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PANJANG PROYEKSI SKALAR",
       "latex": "|\\vec{c}| = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|}",
@@ -451,26 +457,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{7}{25}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{12}{25}$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{16}{25}$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{24}{25}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$-\\frac{7}{25}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{12}{25}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{7}{25}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "IDENTITAS SUDUT GANDA KOSINUS",
       "latex": "\\cos(2\\alpha) = 1 - 2\\sin^2\\alpha = 2\\cos^2\\alpha - 1 = \\cos^2\\alpha - \\sin^2\\alpha",
@@ -499,22 +505,22 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$1$"
-      },
-      {
-        "key": "C",
-        "text": "$\\frac{2}{3}$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{5}{7}$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\sqrt{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$1$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{2}{3}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "RUMUS JUMLAH SUDUT TANGEN",
       "latex": "\\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\cdot \\tan B}",
@@ -539,7 +545,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{3}$"
+        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{6}$"
       },
       {
         "key": "B",
@@ -547,18 +553,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{6}$"
+        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{3}$"
       },
       {
         "key": "D",
-        "text": "$k = \\sqrt{2}, \\quad \\alpha = \\frac{\\pi}{4}$"
+        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{4}$"
       },
       {
         "key": "E",
-        "text": "$k = 2, \\quad \\alpha = \\frac{\\pi}{4}$"
+        "text": "$k = \\sqrt{2}, \\quad \\alpha = \\frac{\\pi}{4}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TRANSFORMASI FUNGSI KOSINUS-SINUS",
       "latex": "a\\cos x + b\\sin x = k\\cos(x - \\alpha) \\implies k = \\sqrt{a^2 + b^2}, \\quad \\tan\\alpha = \\frac{b}{a}",
@@ -591,18 +597,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$6$"
+        "text": "$\\frac{1}{3}$"
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$6$"
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{3}$"
+        "text": "$3$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TEOREMA LIMIT TRIGONOMETRI DASAR",
       "latex": "\\lim_{x \\to 0} \\frac{\\sin(ax)}{bx} = \\frac{a}{b}",
@@ -627,26 +633,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$"
-      },
-      {
-        "key": "B",
         "text": "$4$"
       },
       {
-        "key": "C",
-        "text": "$16$"
+        "key": "B",
+        "text": "$8$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$32$"
       },
       {
+        "key": "D",
+        "text": "$16$"
+      },
+      {
         "key": "E",
-        "text": "$8$"
+        "text": "$2$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "LIMIT IDENTITAS SUDUT KOSINUS",
       "latex": "\\lim_{x \\to 0} \\frac{1 - \\cos(kx)}{x^2} = \\frac{k^2}{2}",
@@ -671,26 +677,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$"
-      },
-      {
-        "key": "B",
         "text": "$0$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$\\frac{4}{3}$"
       },
       {
+        "key": "C",
+        "text": "$2$"
+      },
+      {
         "key": "D",
-        "text": "$4$"
+        "text": "$\\infty$"
       },
       {
         "key": "E",
-        "text": "$\\infty$"
+        "text": "$4$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LIMIT ASIMTOTIK FUNGSI RASIONAL",
       "latex": "\\lim_{x \\to \\infty} \\frac{a_n x^n + \\dots}{b_m x^m + \\dots} = \\begin{cases} \\frac{a_n}{b_m}, & n = m \\\\ 0, & n < m \\\\ \\infty, & n > m \\end{cases}",
@@ -719,11 +725,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$5$"
+        "text": "$2$"
       },
       {
         "key": "C",
-        "text": "$2$"
+        "text": "$5$"
       },
       {
         "key": "D",
@@ -734,7 +740,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
         "text": "$\\infty$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LIMIT SELISIH AKAR KUADRAT TAK HINGGA",
       "latex": "\\lim_{x \\to \\infty} \\left(\\sqrt{ax^2 + bx + c} - \\sqrt{ax^2 + px + q}\\right) = \\frac{b - p}{2\\sqrt{a}} \\quad (a > 0)",
@@ -759,15 +765,15 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\sin(3x)$"
-      },
-      {
-        "key": "B",
         "text": "$2\\sin(3x)\\cos(3x)$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$3\\sin(6x)$"
+      },
+      {
+        "key": "C",
+        "text": "$6\\sin(3x)$"
       },
       {
         "key": "D",
@@ -778,7 +784,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
         "text": "$3\\cos(6x)$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "ATURAN RANTAI TURUNAN TRIGONOMETRI",
       "latex": "\\frac{d}{dx}[\\sin^n(u)] = n\\sin^{n-1}(u) \\cdot \\cos(u) \\cdot u'",
@@ -803,26 +809,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
-      },
-      {
-        "key": "B",
         "text": "$2$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$2\\sqrt{2}$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$4$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$8$"
+      },
+      {
+        "key": "E",
+        "text": "$1$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "GRADIEN GARIS SINGGUNG KURVA",
       "latex": "m = f'(x_0) \\quad \\text{dengan} \\quad \\frac{d}{dx}[\\tan(kx)] = k\\sec^2(kx)",
@@ -847,26 +853,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{4}(x^2 + 5)^5 + C$"
-      },
-      {
-        "key": "B",
-        "text": "$(x^2 + 5)^5 + C$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{2}{5}(x^2 + 5)^5 + C$"
       },
       {
+        "key": "B",
+        "text": "$\\frac{1}{4}(x^2 + 5)^5 + C$"
+      },
+      {
+        "key": "C",
+        "text": "$(x^2 + 5)^5 + C$"
+      },
+      {
         "key": "D",
-        "text": "$\\frac{1}{10}(x^2 + 5)^5 + C$"
+        "text": "$\\frac{1}{5}(x^2 + 5)^5 + C$"
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{5}(x^2 + 5)^5 + C$"
+        "text": "$\\frac{1}{10}(x^2 + 5)^5 + C$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "INTEGRAL DENGAN TEKNIK SUBSTITUSI",
       "latex": "\\int f(g(x))g'(x) \\, dx = \\int f(u) \\, du \\quad \\text{dengan } u = g(x)",
@@ -891,7 +897,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{2}x e^{2x} - \\frac{1}{4}e^{2x} + C$"
+        "text": "$x e^{2x} - \\frac{1}{2}e^{2x} + C$."
       },
       {
         "key": "B",
@@ -899,18 +905,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$x e^{2x} - \\frac{1}{2}e^{2x} + C$."
+        "text": "$\\frac{1}{2}x e^{2x} - \\frac{1}{4}e^{2x} + C$"
       },
       {
         "key": "D",
-        "text": "$\\frac{1}{2}x e^{2x} - \\frac{1}{2}e^{2x} + C$."
+        "text": "$\\frac{1}{4}x e^{2x} - \\frac{1}{4}e^{2x} + C$."
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{4}x e^{2x} - \\frac{1}{4}e^{2x} + C$."
+        "text": "$\\frac{1}{2}x e^{2x} - \\frac{1}{2}e^{2x} + C$."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "FORMULA INTEGRAL PARSIAL",
       "latex": "\\int u \\, dv = u \\cdot v - \\int v \\, du",
@@ -983,11 +989,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3x^3 - 3x^2 - x + 4$"
+        "text": "$3x^3 - 3x^2 + x + 4$"
       },
       {
         "key": "C",
-        "text": "$3x^3 - 3x^2 + x + 4$"
+        "text": "$3x^3 - 3x^2 - x + 4$"
       },
       {
         "key": "D",
@@ -998,7 +1004,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
         "text": "$3x^3 - 3x^2 + 4x - 1$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "SKEMA PEMBAGIAN HORNER",
       "latex": "P(x) = (x - c)H(x) + S",
@@ -1023,11 +1029,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\begin{pmatrix} 2 & 7 \\\\ 1 & 4 \\end{pmatrix}$."
+        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$."
       },
       {
         "key": "B",
-        "text": "$\\begin{pmatrix} -2 & 7 \\\\ 1 & -4 \\end{pmatrix}$."
+        "text": "$\\begin{pmatrix} 2 & 7 \\\\ 1 & 4 \\end{pmatrix}$."
       },
       {
         "key": "C",
@@ -1067,26 +1073,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{2}{9}\\hat{i} - \\frac{2}{9}\\hat{j} + \\frac{1}{9}\\hat{k}$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{1}{3}\\hat{i} - \\frac{1}{3}\\hat{j} + \\frac{1}{3}\\hat{k}$"
       },
       {
-        "key": "C",
-        "text": "$2\\hat{i} - 2\\hat{j} + \\hat{k}$"
+        "key": "B",
+        "text": "$\\frac{2}{3}\\hat{i} - \\frac{2}{3}\\hat{j} + \\frac{1}{3}\\hat{k}$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{2}{\\sqrt{5}}\\hat{i} - \\frac{2}{\\sqrt{5}}\\hat{j} + \\frac{1}{\\sqrt{5}}\\hat{k}$"
       },
       {
+        "key": "D",
+        "text": "$2\\hat{i} - 2\\hat{j} + \\hat{k}$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{2}{3}\\hat{i} - \\frac{2}{3}\\hat{j} + \\frac{1}{3}\\hat{k}$"
+        "text": "$\\frac{2}{9}\\hat{i} - \\frac{2}{9}\\hat{j} + \\frac{1}{9}\\hat{k}$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "VEKTOR SATUAN (UNIT VECTOR)",
       "latex": "\\hat{e}_w = \\frac{\\vec{w}}{|\\vec{w}|} = \\frac{w_x\\hat{i} + w_y\\hat{j} + w_z\\hat{k}}{\\sqrt{w_x^2 + w_y^2 + w_z^2}}",
@@ -1111,26 +1117,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2x + 10$"
+        "text": "$3x - 8$"
       },
       {
         "key": "B",
-        "text": "$2x - 10$"
-      },
-      {
-        "key": "C",
-        "text": "$-2x + 10$"
-      },
-      {
-        "key": "D",
         "text": "$4x + 6$"
       },
       {
+        "key": "C",
+        "text": "$2x - 10$"
+      },
+      {
+        "key": "D",
+        "text": "$2x + 10$"
+      },
+      {
         "key": "E",
-        "text": "$3x - 8$"
+        "text": "$-2x + 10$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "ALGORITMA PEMBAGIAN POLINOMIAL KUADRAT",
       "latex": "P(x) = (x^2 - x - 2)H(x) + (Ax + B)",
@@ -1163,7 +1169,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{43}{4}$."
+        "text": "$13$."
       },
       {
         "key": "D",
@@ -1171,7 +1177,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$13$."
+        "text": "$\\frac{43}{4}$."
       }
     ],
     "correctKey": "B",
@@ -1199,7 +1205,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-12$."
+        "text": "$10$."
       },
       {
         "key": "B",
@@ -1211,7 +1217,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$10$."
+        "text": "$-12$."
       },
       {
         "key": "E",
@@ -1243,26 +1249,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-4$"
+        "text": "$6$"
       },
       {
         "key": "B",
-        "text": "$-2$"
-      },
-      {
-        "key": "C",
         "text": "$2$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$4$"
       },
       {
+        "key": "D",
+        "text": "$-4$"
+      },
+      {
         "key": "E",
-        "text": "$6$"
+        "text": "$-2$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "SYARAT MATRIKS SINGULAR",
       "latex": "\\det(K) = 0",
@@ -1287,26 +1293,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = 2x - 1$"
-      },
-      {
-        "key": "B",
-        "text": "$y = 2x + 2$"
-      },
-      {
-        "key": "C",
         "text": "$y = -\\frac{1}{2}x + 4$"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$y = 2x + 1$"
+      },
+      {
+        "key": "C",
         "text": "$y = 2x + 4$"
       },
       {
+        "key": "D",
+        "text": "$y = 2x + 2$"
+      },
+      {
         "key": "E",
-        "text": "$y = 2x + 1$"
+        "text": "$y = 2x - 1$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "GARIS SINGGUNG PARABOLA BERGRADISIEN m",
       "latex": "y = mx + \\frac{p}{m} \\quad \\text{untuk parabola } y^2 = 4px",
@@ -1331,26 +1337,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x + y - 4 = 0$"
-      },
-      {
-        "key": "B",
         "text": "$x - y - 2 = 0$"
       },
       {
-        "key": "C",
-        "text": "$3x + y - 10 = 0$"
+        "key": "B",
+        "text": "$2x + y - 7 = 0$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$x + 3y - 6 = 0$"
       },
       {
+        "key": "D",
+        "text": "$3x + y - 10 = 0$"
+      },
+      {
         "key": "E",
-        "text": "$2x + y - 7 = 0$"
+        "text": "$x + y - 4 = 0$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PERSAMAAN GARIS SINGGUNG ELIPS DI TITIK P(x1, y1)",
       "latex": "\\frac{x \\cdot x_1}{a^2} + \\frac{y \\cdot y_1}{b^2} = 1",
@@ -1375,26 +1381,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$e = \\frac{5}{3}, \\quad F_1(0, -5) \\text{ dan } F_2(0, 5)$."
-      },
-      {
-        "key": "B",
-        "text": "$e = \\frac{5}{4}, \\quad F_1(-5, 0) \\text{ dan } F_2(5, 0)$"
-      },
-      {
-        "key": "C",
-        "text": "$e = \\frac{3}{4}, \\quad F_1(-4, 0) \\text{ dan } F_2(4, 0)$."
-      },
-      {
-        "key": "D",
         "text": "$e = \\frac{5}{4}, \\quad F_1(0, -5) \\text{ dan } F_2(0, 5)$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$e = \\frac{3}{4}, \\quad F_1(-4, 0) \\text{ dan } F_2(4, 0)$."
+      },
+      {
+        "key": "C",
         "text": "$e = \\frac{7}{4}, \\quad F_1(-7, 0) \\text{ dan } F_2(7, 0)$."
+      },
+      {
+        "key": "D",
+        "text": "$e = \\frac{5}{4}, \\quad F_1(-5, 0) \\text{ dan } F_2(5, 0)$"
+      },
+      {
+        "key": "E",
+        "text": "$e = \\frac{5}{3}, \\quad F_1(0, -5) \\text{ dan } F_2(0, 5)$."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PARAMETER TITIK FOKUS DAN EKSENTRISITAS HIPERBOLA",
       "latex": "c^2 = a^2 + b^2, \\quad e = \\frac{c}{a} > 1",
@@ -1427,18 +1433,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$-5\\hat{i} + 5\\hat{j} + 5\\hat{k}$"
-      },
-      {
-        "key": "D",
         "text": "$3\\hat{i} + \\hat{j} + 2\\hat{k}$."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$-5\\hat{i} + 5\\hat{j} - 5\\hat{k}$."
+      },
+      {
+        "key": "E",
+        "text": "$-5\\hat{i} + 5\\hat{j} + 5\\hat{k}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "CROSS PRODUCT VEKTOR TIGA DIMENSI",
       "latex": "\\vec{u} \\times \\vec{v} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ u_x & u_y & u_z \\\\ v_x & v_y & v_z \\end{vmatrix}",
@@ -1463,7 +1469,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$30^\\circ$"
+        "text": "$60^\\circ$"
       },
       {
         "key": "B",
@@ -1471,18 +1477,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$90^\\circ$"
+        "text": "$120^\\circ$"
       },
       {
         "key": "D",
-        "text": "$60^\\circ$"
+        "text": "$90^\\circ$"
       },
       {
         "key": "E",
-        "text": "$120^\\circ$"
+        "text": "$30^\\circ$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SUDUT ANTARA DUA VEKTOR",
       "latex": "\\cos\\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| \\cdot |\\vec{b}|}",
@@ -1507,19 +1513,19 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\hat{i} + \\hat{j} + 2\\hat{k}$"
+        "text": "$\\frac{4}{3}\\hat{i} + \\frac{4}{3}\\hat{j} + \\frac{8}{3}\\hat{k}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{1}{2}\\hat{i} + \\frac{1}{2}\\hat{j} + \\hat{k}$"
+        "text": "$\\hat{i} + \\hat{j} + 2\\hat{k}$"
       },
       {
         "key": "C",
-        "text": "$3\\hat{i} + 3\\hat{j} + 6\\hat{k}$"
+        "text": "$\\frac{1}{2}\\hat{i} + \\frac{1}{2}\\hat{j} + \\hat{k}$"
       },
       {
         "key": "D",
-        "text": "$\\frac{4}{3}\\hat{i} + \\frac{4}{3}\\hat{j} + \\frac{8}{3}\\hat{k}$"
+        "text": "$3\\hat{i} + 3\\hat{j} + 6\\hat{k}$"
       },
       {
         "key": "E",
@@ -1599,7 +1605,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2 + \\sqrt{3}$"
+        "text": "$2 + \\frac{1}{2}\\sqrt{3}$"
       },
       {
         "key": "C",
@@ -1607,14 +1613,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$2 + \\frac{1}{2}\\sqrt{3}$"
+        "text": "$4 + 2\\sqrt{3}$"
       },
       {
         "key": "E",
-        "text": "$4 + 2\\sqrt{3}$"
+        "text": "$2 + \\sqrt{3}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "KONVERSI PERKALIAN KE PENJUMLAHAN SINUS",
       "latex": "2\\sin A \\cos B = \\sin(A + B) + \\sin(A - B)",
@@ -1643,22 +1649,22 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$1$."
-      },
-      {
-        "key": "C",
-        "text": "$\\frac{3}{2}$"
-      },
-      {
-        "key": "D",
         "text": "$3$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$6$."
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
+        "key": "E",
+        "text": "$1$."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DEKOMPOSISI LIMIT TRIGONOMETRI",
       "latex": "1 - \\cos(2x) = 2\\sin^2(x) \\implies \\lim_{x \\to 0} \\frac{x \\tan(3x)}{2\\sin^2 x}",
@@ -1683,26 +1689,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0$"
+        "text": "$2$"
       },
       {
         "key": "B",
-        "text": "$1$"
-      },
-      {
-        "key": "C",
         "text": "$4$"
       },
       {
+        "key": "C",
+        "text": "$1$"
+      },
+      {
         "key": "D",
-        "text": "$2$"
+        "text": "$0$"
       },
       {
         "key": "E",
         "text": "$\\frac{1}{2}$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SUBSTITUSI VARIABEL LIMIT TAK HINGGA",
       "latex": "u = \\frac{1}{x} \\implies \\text{jika } x \\to \\infty \\text{ maka } u \\to 0",
@@ -1727,26 +1733,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{4}{5}$."
-      },
-      {
-        "key": "B",
-        "text": "$-\\frac{5}{4}$."
-      },
-      {
-        "key": "C",
-        "text": "$-1$."
-      },
-      {
-        "key": "D",
         "text": "$-\\frac{2}{3}$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$-1$."
+      },
+      {
+        "key": "C",
+        "text": "$-\\frac{5}{4}$."
+      },
+      {
+        "key": "D",
         "text": "$-\\frac{4}{5}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{4}{5}$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TEKNIK DIFERENSIASI IMPLISIT",
       "latex": "\\frac{d}{dx}[x^2 + xy + y^2] = 2x + \\left(y + x\\frac{dy}{dx}\\right) + 2y\\frac{dy}{dx} = 0",
@@ -1771,11 +1777,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$-\\frac{3}{2}$"
+        "text": "$-\\frac{3}{4}$."
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{2}$."
+        "text": "$-\\frac{3}{2}$"
       },
       {
         "key": "C",
@@ -1783,14 +1789,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$-\\frac{3}{4}$."
+        "text": "$-1$."
       },
       {
         "key": "E",
-        "text": "$-1$."
+        "text": "$\\frac{3}{2}$."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TURUNAN PERTAMA KURVA PARAMETRIK",
       "latex": "\\frac{dy}{dx} = \\frac{\\frac{dy}{dt}}{\\frac{dx}{dt}}",
@@ -1815,11 +1821,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(1, 6)$"
+        "text": "$(2, 4)$"
       },
       {
         "key": "B",
-        "text": "$(2, 4)$"
+        "text": "$(-2, -48)$"
       },
       {
         "key": "C",
@@ -1831,10 +1837,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$(-2, -48)$"
+        "text": "$(1, 6)$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SYARAT TITIK BELOK FUNGSI",
       "latex": "f''(x) = 0 \\quad \\text{dan terjadi perubahan tanda kecekungan}",
@@ -1859,11 +1865,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{3}\\sin^3(x) + C$"
+        "text": "$\\frac{1}{2}\\sin^2(x) + C$"
       },
       {
         "key": "B",
-        "text": "$\\frac{1}{4}\\cos^4(x) + C$"
+        "text": "$-\\frac{1}{4}\\sin^4(x) + C$"
       },
       {
         "key": "C",
@@ -1871,11 +1877,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$-\\frac{1}{4}\\sin^4(x) + C$"
+        "text": "$\\frac{1}{3}\\sin^3(x) + C$"
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{2}\\sin^2(x) + C$"
+        "text": "$\\frac{1}{4}\\cos^4(x) + C$"
       }
     ],
     "correctKey": "C",
@@ -1903,26 +1909,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x\\sin(x) - \\cos(x) + C$"
+        "text": "$\\frac{1}{2}x^2 \\sin(x) + C$"
       },
       {
         "key": "B",
-        "text": "$-x\\sin(x) + \\cos(x) + C$"
-      },
-      {
-        "key": "C",
-        "text": "$x\\cos(x) + \\sin(x) + C$"
-      },
-      {
-        "key": "D",
         "text": "$x\\sin(x) + \\cos(x) + C$"
       },
       {
+        "key": "C",
+        "text": "$-x\\sin(x) + \\cos(x) + C$"
+      },
+      {
+        "key": "D",
+        "text": "$x\\sin(x) - \\cos(x) + C$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{1}{2}x^2 \\sin(x) + C$"
+        "text": "$x\\cos(x) + \\sin(x) + C$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "INTEGRAL PARSIAL ALJABAR-TRIGONOMETRI",
       "latex": "\\int u \\, dv = uv - \\int v \\, du",
@@ -1951,7 +1957,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{28}{3} \\text{ satuan luas}$."
+        "text": "$\\frac{32}{3} \\text{ satuan luas}$"
       },
       {
         "key": "C",
@@ -1959,14 +1965,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{64}{3} \\text{ satuan luas}$."
+        "text": "$\\frac{28}{3} \\text{ satuan luas}$."
       },
       {
         "key": "E",
-        "text": "$\\frac{32}{3} \\text{ satuan luas}$"
+        "text": "$\\frac{64}{3} \\text{ satuan luas}$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "LUAS ANTARA DUA KURVA",
       "latex": "L = \\int_{x_1}^{x_2} (y_{\\text{atas}} - y_{\\text{bawah}}) \\, dx = \\frac{D\\sqrt{D}}{6a^2}",
@@ -1991,26 +1997,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "B",
-        "text": "$4\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "C",
-        "text": "$16\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "D",
         "text": "$32\\pi \\text{ satuan volume}$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$16\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "C",
+        "text": "$8\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "D",
         "text": "$\\frac{16}{3}\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "E",
+        "text": "$4\\pi \\text{ satuan volume}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "VOLUME BENDA PUTAR METODE CAKRAM",
       "latex": "V = \\pi \\int_a^b [f(x)]^2 \\, dx",
@@ -2035,26 +2041,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3x + 1$"
-      },
-      {
-        "key": "B",
-        "text": "$3x$"
-      },
-      {
-        "key": "C",
         "text": "$2x + 1$"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$-3x$"
+      },
+      {
+        "key": "C",
         "text": "$3x - 1$"
       },
       {
+        "key": "D",
+        "text": "$3x + 1$"
+      },
+      {
         "key": "E",
-        "text": "$-3x$"
+        "text": "$3x$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TEOREMA SISA DENGAN SISTEM ELIMINASI",
       "latex": "S(x) = ax + b \\implies \\begin{cases} a(1) + b = P(1) = 3 \\\\ a(-2) + b = P(-2) = -6 \\end{cases}",
@@ -2079,26 +2085,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$."
+        "text": "$0$."
       },
       {
         "key": "B",
-        "text": "$-2$."
-      },
-      {
-        "key": "C",
-        "text": "$-1$"
-      },
-      {
-        "key": "D",
         "text": "$2$."
       },
       {
+        "key": "C",
+        "text": "$1$."
+      },
+      {
+        "key": "D",
+        "text": "$-1$"
+      },
+      {
         "key": "E",
-        "text": "$0$."
+        "text": "$-2$."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "FORMULA KOFAKTOR ELEMEN MATRIKS",
       "latex": "C_{ij} = (-1)^{i+j} M_{ij} = (-1)^{i+j} \\det(\\text{Submatriks tanpa baris } i \\text{ dan kolom } j)",
@@ -2123,11 +2129,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = 2x \\pm \\sqrt{21}$."
+        "text": "$y = 2x \\pm \\sqrt{11}$"
       },
       {
         "key": "B",
-        "text": "$y = 2x \\pm 3$."
+        "text": "$y = 2x \\pm 1$."
       },
       {
         "key": "C",
@@ -2135,14 +2141,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$y = 2x \\pm \\sqrt{11}$"
+        "text": "$y = 2x \\pm 3$."
       },
       {
         "key": "E",
-        "text": "$y = 2x \\pm 1$."
+        "text": "$y = 2x \\pm \\sqrt{21}$."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "GARIS SINGGUNG HIPERBOLA BERGRADISIEN m",
       "latex": "y = mx \\pm \\sqrt{a^2 m^2 - b^2}",
@@ -2167,7 +2173,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5$."
+        "text": "$14$."
       },
       {
         "key": "B",
@@ -2175,18 +2181,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$10$."
+        "text": "$12$"
       },
       {
         "key": "D",
-        "text": "$14$."
+        "text": "$5$."
       },
       {
         "key": "E",
-        "text": "$12$"
+        "text": "$10$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "AMPLITUDO DAN EKSTREM GELOMBANG HARMONIK",
       "latex": "f(x) = a\\sin(kx) + b\\cos(kx) + c \\implies f_{\\max} = \\sqrt{a^2 + b^2} + c",
@@ -2211,11 +2217,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$p^3 = q^2$"
+        "text": "$p^2 = q^3$"
       },
       {
         "key": "B",
-        "text": "$p^2 = q^3$"
+        "text": "$4p^3 = q^2$"
       },
       {
         "key": "C",
@@ -2223,14 +2229,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$4p^3 = q^2$"
+        "text": "$p^3 = q^2$"
       },
       {
         "key": "E",
         "text": "$p^2 = 2q$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "SYARAT AKAR BERULANG POLINOMIAL",
       "latex": "P(c) = 0 \\quad \\text{dan} \\quad P'(c) = 0",
@@ -2255,26 +2261,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
-      },
-      {
-        "key": "B",
         "text": "$2$"
       },
       {
-        "key": "C",
-        "text": "$-2$"
+        "key": "B",
+        "text": "$\\frac{1}{2}$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$4$"
       },
       {
+        "key": "D",
+        "text": "$-2$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{1}{2}$"
+        "text": "$1$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "JUMLAH KEBALIKAN AKAR POLINOMIAL DERAJAT n",
       "latex": "\\sum \\frac{1}{x_i} = -\\frac{a_1}{a_0} = \\frac{\\sum x_1 x_2 x_3}{x_1 x_2 x_3 x_4}",
@@ -2303,22 +2309,22 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$20$"
-      },
-      {
-        "key": "C",
         "text": "$18$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$-20$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$6$"
+      },
+      {
+        "key": "E",
+        "text": "$20$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "ELEMEN MATRIKS INVERS DARI ADJOIN",
       "latex": "(A^{-1})_{ij} = \\frac{C_{ji}}{\\det(A)}",
@@ -2343,7 +2349,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x + 2y + 3z - 6 = 0$."
+        "text": "$6x + 3y + 2z - 6 = 0$"
       },
       {
         "key": "B",
@@ -2351,18 +2357,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$6x + 2y + 3z - 6 = 0$."
+        "text": "$2x + 3y + 6z - 1 = 0$."
       },
       {
         "key": "D",
-        "text": "$6x + 3y + 2z - 6 = 0$"
+        "text": "$6x + 2y + 3z - 6 = 0$."
       },
       {
         "key": "E",
-        "text": "$2x + 3y + 6z - 1 = 0$."
+        "text": "$x + 2y + 3z - 6 = 0$."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PERSAMAAN BIDANG BENTUK TITIK POTONG SUMBU",
       "latex": "\\frac{x}{a} + \\frac{y}{b} + \\frac{z}{c} = 1",
@@ -2387,26 +2393,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sqrt{3}$."
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{\\sqrt{29}}{3}$."
-      },
-      {
-        "key": "C",
         "text": "$3$."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{7}{3}$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\frac{\\sqrt{45}}{3} = \\sqrt{5}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{3}$."
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{\\sqrt{29}}{3}$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "JARAK TITIK KE GARIS RUANG",
       "latex": "d = \\frac{|\\vec{OA} \\times \\vec{v}|}{|\\vec{v}|}",
@@ -2431,26 +2437,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(y - 2)^2 = 8(x - 1)$"
-      },
-      {
-        "key": "B",
-        "text": "$(y - 2)^2 = 4(x - 1)$"
-      },
-      {
-        "key": "C",
         "text": "$(y - 2)^2 = 16(x - 1)$"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$(y - 2)^2 = 8(x - 1)$"
+      },
+      {
+        "key": "C",
         "text": "$(x - 1)^2 = 8(y - 2)$"
+      },
+      {
+        "key": "D",
+        "text": "$(y - 2)^2 = 4(x - 1)$"
       },
       {
         "key": "E",
         "text": "$(y - 1)^2 = 8(x - 2)$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DEFINISI GEOMETRIS LOKUS PARABOLA",
       "latex": "\\text{Jarak}(P, F) = \\text{Jarak}(P, \\text{direktriks}) \\implies (y - k)^2 = 4p(x - h)",
@@ -2475,11 +2481,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{4}$"
+        "text": "$\\frac{1}{2}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{1}{8}$"
+        "text": "$\\frac{1}{4}$"
       },
       {
         "key": "C",
@@ -2487,14 +2493,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{\\sqrt{3}}{8}$"
+        "text": "$\\frac{1}{8}$"
       },
       {
         "key": "E",
-        "text": "$\\frac{1}{2}$"
+        "text": "$\\frac{\\sqrt{3}}{8}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "IDENTITAS TELESKOPIK SUDUT KOSINUS",
       "latex": "\\prod_{k=0}^{n-1} \\cos(2^k \\theta) = \\frac{\\sin(2^n \\theta)}{2^n \\sin \\theta}",
@@ -2519,11 +2525,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$."
+        "text": "$6$."
       },
       {
         "key": "B",
-        "text": "$4$."
+        "text": "$5$."
       },
       {
         "key": "C",
@@ -2531,11 +2537,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$5$."
+        "text": "$2$."
       },
       {
         "key": "E",
-        "text": "$6$."
+        "text": "$4$."
       }
     ],
     "correctKey": "C",
@@ -2563,7 +2569,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$"
+        "text": "$8$"
       },
       {
         "key": "B",
@@ -2571,18 +2577,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$-8$"
+        "text": "$2$"
       },
       {
         "key": "D",
-        "text": "$8$"
+        "text": "$-8$"
       },
       {
         "key": "E",
-        "text": "$2$"
+        "text": "$4$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "LIMIT SELISIH DUA KOSINUS",
       "latex": "\\lim_{x \\to 0} \\frac{\\cos(ax) - \\cos(bx)}{x^2} = \\frac{b^2 - a^2}{2}",
@@ -2607,7 +2613,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$e^3$."
+        "text": "$e^5$."
       },
       {
         "key": "B",
@@ -2615,18 +2621,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$e^5$."
+        "text": "$e^6$"
       },
       {
         "key": "D",
-        "text": "$6$."
+        "text": "$e^3$."
       },
       {
         "key": "E",
-        "text": "$e^6$"
+        "text": "$6$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LIMIT FUNDAMENTAL BILANGAN EULER",
       "latex": "\\lim_{u \\to 0} (1 + u)^{\\frac{1}{u}} = e \\implies \\lim_{x \\to 0} (1 + ax)^{\\frac{b}{x}} = e^{ab}",
@@ -2655,11 +2661,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$x \\cdot x^{x-1} = x^x$"
+        "text": "$x^x \\ln x$"
       },
       {
         "key": "C",
-        "text": "$x^x \\ln x$"
+        "text": "$x \\cdot x^{x-1} = x^x$"
       },
       {
         "key": "D",
@@ -2699,7 +2705,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$-\\frac{25}{y^3}$"
+        "text": "$-\\frac{1}{y}$."
       },
       {
         "key": "C",
@@ -2707,14 +2713,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$-\\frac{1}{y}$."
+        "text": "$-\\frac{5}{y^3}$."
       },
       {
         "key": "E",
-        "text": "$-\\frac{5}{y^3}$."
+        "text": "$-\\frac{25}{y^3}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TURUNAN KEDUA FUNGSI IMPLISIT",
       "latex": "y'' = \\frac{d}{dx}\\left(-\\frac{x}{y}\\right) = -\\frac{y - x y'}{y^2} = -\\frac{y - x(-x/y)}{y^2} = -\\frac{y^2 + x^2}{y^3}",
@@ -2743,11 +2749,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{4}{\\pi} \\text{ m/menit}$"
+        "text": "$\\frac{2}{\\pi} \\text{ m/menit}$"
       },
       {
         "key": "C",
-        "text": "$\\frac{2}{\\pi} \\text{ m/menit}$"
+        "text": "$\\frac{8}{\\pi} \\text{ m/menit}$"
       },
       {
         "key": "D",
@@ -2755,10 +2761,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{8}{\\pi} \\text{ m/menit}$"
+        "text": "$\\frac{4}{\\pi} \\text{ m/menit}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "LAJU PERUBAHAN VOLUME KERUCUT",
       "latex": "V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi \\left(\\frac{h}{2}\\right)^2 h = \\frac{\\pi}{12}h^3 \\implies \\frac{dV}{dt} = \\frac{\\pi}{4}h^2 \\frac{dh}{dt}",
@@ -2787,22 +2793,22 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$24 \\text{ satuan luas}$."
-      },
-      {
-        "key": "C",
         "text": "$48 \\text{ satuan luas}$."
       },
       {
+        "key": "C",
+        "text": "$36 \\text{ satuan luas}$."
+      },
+      {
         "key": "D",
-        "text": "$32 \\text{ satuan luas}$"
+        "text": "$24 \\text{ satuan luas}$."
       },
       {
         "key": "E",
-        "text": "$36 \\text{ satuan luas}$."
+        "text": "$32 \\text{ satuan luas}$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "OPTIMASI FUNGSI LUAS SIMETRIS",
       "latex": "L(x) = 2x \\cdot y = 2x(12 - x^2) = 24x - 2x^3 \\implies L'(x) = 24 - 6x^2 = 0",
@@ -2827,19 +2833,19 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{2}e^x(\\sin x + \\cos x) + C$."
-      },
-      {
-        "key": "B",
         "text": "$e^x(\\sin x - \\cos x) + C$."
       },
       {
+        "key": "B",
+        "text": "$-e^x \\cos x + C$."
+      },
+      {
         "key": "C",
-        "text": "$\\frac{1}{2}e^x(\\cos x - \\sin x) + C$."
+        "text": "$\\frac{1}{2}e^x(\\sin x + \\cos x) + C$."
       },
       {
         "key": "D",
-        "text": "$-e^x \\cos x + C$."
+        "text": "$\\frac{1}{2}e^x(\\cos x - \\sin x) + C$."
       },
       {
         "key": "E",
@@ -2871,26 +2877,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\arcsin\\left(\\frac{x}{3}\\right) + C$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{1}{3}\\arcsin\\left(\\frac{x}{3}\\right) + C$"
-      },
-      {
-        "key": "C",
-        "text": "$\\arccos\\left(\\frac{x}{3}\\right) + C$"
-      },
-      {
-        "key": "D",
         "text": "$\\ln|x + \\sqrt{9 - x^2}| + C$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\arccos\\left(\\frac{x}{3}\\right) + C$"
+      },
+      {
+        "key": "C",
         "text": "$\\frac{1}{3}\\arctan\\left(\\frac{x}{3}\\right) + C$"
+      },
+      {
+        "key": "D",
+        "text": "$\\arcsin\\left(\\frac{x}{3}\\right) + C$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{1}{3}\\arcsin\\left(\\frac{x}{3}\\right) + C$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "INTEGRAL INVERS TRIGONOMETRI BAKU",
       "latex": "\\int \\frac{1}{\\sqrt{a^2 - x^2}} \\, dx = \\arcsin\\left(\\frac{x}{a}\\right) + C",
@@ -2915,26 +2921,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$9\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{27}{2}\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\frac{81}{10}\\pi \\text{ satuan volume}$"
-      },
-      {
-        "key": "D",
         "text": "$27\\pi \\text{ satuan volume}$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$9\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{27}{2}\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "D",
         "text": "$\\frac{45}{4}\\pi \\text{ satuan volume}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{81}{10}\\pi \\text{ satuan volume}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "METODE KULIT SILINDER TERHADAP SUMBU-Y",
       "latex": "V = 2\\pi \\int_a^b x \\cdot f(x) \\, dx",
@@ -2959,15 +2965,15 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4 \\text{ satuan panjang}$"
+        "text": "$\\frac{25}{3} \\text{ satuan panjang}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{15}{2} \\text{ satuan panjang}$"
+        "text": "$4 \\text{ satuan panjang}$"
       },
       {
         "key": "C",
-        "text": "$5 \\text{ satuan panjang}$"
+        "text": "$\\frac{15}{2} \\text{ satuan panjang}$"
       },
       {
         "key": "D",
@@ -2975,10 +2981,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{25}{3} \\text{ satuan panjang}$"
+        "text": "$5 \\text{ satuan panjang}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PANJANG BUSUR KURVA KARTESIUS",
       "latex": "S = \\int_a^b \\sqrt{1 + [f'(x)]^2} \\, dx",
@@ -3003,26 +3009,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$7$."
-      },
-      {
-        "key": "B",
-        "text": "$9$."
-      },
-      {
-        "key": "C",
         "text": "$11$."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$15$"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$13$."
+      },
+      {
+        "key": "D",
+        "text": "$7$."
+      },
+      {
+        "key": "E",
+        "text": "$9$."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "EVALUASI POLINOMIAL PADA NILAI TERTENTU",
       "latex": "P(x) = (x - a)(x - b)(x - c) \\implies (a+1)(b+1)(c+1) = -P(-1)",
@@ -3051,7 +3057,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$39$."
+        "text": "$78$."
       },
       {
         "key": "C",
@@ -3059,14 +3065,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$78$."
+        "text": "$65$"
       },
       {
         "key": "E",
-        "text": "$65$"
+        "text": "$39$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TEOREMA DETERMINAN MATRIKS BLOK SEGITIGA",
       "latex": "\\det \\begin{pmatrix} A & B \\\\ 0 & C \\end{pmatrix} = \\det(A) \\cdot \\det(C)",
@@ -3091,26 +3097,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x + y - 2 = 0$"
+        "text": "$4x + 2y - 8 = 0$"
       },
       {
         "key": "B",
-        "text": "$x - y - 2 = 0$"
-      },
-      {
-        "key": "C",
-        "text": "$2x + y - 4 = 0$"
-      },
-      {
-        "key": "D",
         "text": "$x + 2y - 4 = 0$"
       },
       {
+        "key": "C",
+        "text": "$x + y - 2 = 0$"
+      },
+      {
+        "key": "D",
+        "text": "$x - y - 2 = 0$"
+      },
+      {
         "key": "E",
-        "text": "$4x + 2y - 8 = 0$"
+        "text": "$2x + y - 4 = 0$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PERSAMAAN GARIS KUTUB ELIPS",
       "latex": "\\frac{x \\cdot x_0}{a^2} + \\frac{y \\cdot y_0}{b^2} = 1",
@@ -3139,7 +3145,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$0$"
+        "text": "$\\frac{\\sqrt{3}}{2}$"
       },
       {
         "key": "C",
@@ -3147,14 +3153,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$-\\frac{1}{2}$"
+        "text": "$0$"
       },
       {
         "key": "E",
-        "text": "$\\frac{\\sqrt{3}}{2}$"
+        "text": "$-\\frac{1}{2}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PENJUMLAHAN SINUS KE PERKALIAN",
       "latex": "\\sin A + \\sin B = 2\\sin\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)",
@@ -3179,26 +3185,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
+        "text": "$\\sqrt{2}$"
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{2}$"
-      },
-      {
-        "key": "C",
         "text": "$\\sqrt{3}$"
       },
       {
+        "key": "C",
+        "text": "$\\frac{3}{2}$"
+      },
+      {
         "key": "D",
-        "text": "$2$"
+        "text": "$1$"
       },
       {
         "key": "E",
-        "text": "$\\sqrt{2}$"
+        "text": "$2$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TEOREMA NILAI RATA-RATA HITUNG TURUNAN (MVT)",
       "latex": "f'(c) = \\frac{f(b) - f(a)}{b - a} \\quad \\text{untuk suatu } c \\in (a, b)",
@@ -3223,7 +3229,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{7}{3}\\ln|x - 2| + \\frac{8}{3}\\ln|x + 1| + C$."
+        "text": "$\\frac{8}{3}\\ln|x + 1| - \\frac{7}{3}\\ln|x - 2| + C$."
       },
       {
         "key": "B",
@@ -3231,18 +3237,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{8}{3}\\ln|x + 1| - \\frac{7}{3}\\ln|x - 2| + C$."
+        "text": "$5\\ln|x^2 - x - 2| + C$."
       },
       {
         "key": "D",
-        "text": "$\\frac{8}{3}\\ln|x - 2| + \\frac{7}{3}\\ln|x + 1| + C$"
+        "text": "$\\frac{7}{3}\\ln|x - 2| + \\frac{8}{3}\\ln|x + 1| + C$."
       },
       {
         "key": "E",
-        "text": "$5\\ln|x^2 - x - 2| + C$."
+        "text": "$\\frac{8}{3}\\ln|x - 2| + \\frac{7}{3}\\ln|x + 1| + C$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "INTEGRASI PECAHAN PARSIAL",
       "latex": "\\frac{5x - 2}{(x - 2)(x + 1)} = \\frac{A}{x - 2} + \\frac{B}{x + 1}",
@@ -3267,26 +3273,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{1}{27}(10\\sqrt{10} - 1)$"
+        "text": "$\\frac{8}{27}(10\\sqrt{10} - 1)$"
       },
       {
         "key": "B",
-        "text": "$\\frac{4}{9}(10\\sqrt{10} - 1)$"
-      },
-      {
-        "key": "C",
         "text": "$\\frac{8}{27}(10\\sqrt{10})$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\frac{16}{27}(10\\sqrt{10} - 1)$"
       },
       {
+        "key": "D",
+        "text": "$\\frac{1}{27}(10\\sqrt{10} - 1)$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{8}{27}(10\\sqrt{10} - 1)$"
+        "text": "$\\frac{4}{9}(10\\sqrt{10} - 1)$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "INTEGRAL PANJANG BUSUR SEMI-KUBIK",
       "latex": "y = x^{3/2} \\implies y' = \\frac{3}{2}x^{1/2} \\implies 1 + (y')^2 = 1 + \\frac{9}{4}x",
@@ -3315,19 +3321,19 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2.000\\text{ km}$ dan $18.000\\text{ km}$."
+        "text": "$4.000\\text{ km}$ dan $10.000\\text{ km}$."
       },
       {
         "key": "C",
-        "text": "$6.000\\text{ km}$ dan $14.000\\text{ km}$."
-      },
-      {
-        "key": "D",
         "text": "$8.000\\text{ km}$ dan $12.000\\text{ km}$."
       },
       {
+        "key": "D",
+        "text": "$6.000\\text{ km}$ dan $14.000\\text{ km}$."
+      },
+      {
         "key": "E",
-        "text": "$4.000\\text{ km}$ dan $10.000\\text{ km}$."
+        "text": "$2.000\\text{ km}$ dan $18.000\\text{ km}$."
       }
     ],
     "correctKey": "A",
@@ -3355,26 +3361,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2$."
-      },
-      {
-        "key": "B",
-        "text": "$4$"
-      },
-      {
-        "key": "C",
-        "text": "$3$."
-      },
-      {
-        "key": "D",
         "text": "$5$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$2$."
+      },
+      {
+        "key": "C",
         "text": "$6$."
+      },
+      {
+        "key": "D",
+        "text": "$4$"
+      },
+      {
+        "key": "E",
+        "text": "$3$."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "ANALISIS TITIK STASIONER EKSTREM LOKAL",
       "latex": "P'(t) = 3t^2 - 18t + 24 = 0 \\implies 3(t - 2)(t - 4) = 0",
@@ -3399,26 +3405,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$100 \\text{ N}$."
+        "text": "$160 \\text{ N}$."
       },
       {
         "key": "B",
-        "text": "$140 \\text{ N}$."
-      },
-      {
-        "key": "C",
-        "text": "$120 \\text{ N}$"
-      },
-      {
-        "key": "D",
         "text": "$150 \\text{ N}$."
       },
       {
+        "key": "C",
+        "text": "$140 \\text{ N}$."
+      },
+      {
+        "key": "D",
+        "text": "$100 \\text{ N}$."
+      },
+      {
         "key": "E",
-        "text": "$160 \\text{ N}$."
+        "text": "$120 \\text{ N}$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "RESULTAN VEKTOR TIGA DIMENSI",
       "latex": "\\vec{F}_R = \\sum \\vec{F} = \\left(\\sum F_x\\right)\\hat{i} + \\left(\\sum F_y\\right)\\hat{j} + \\left(\\sum F_z\\right)\\hat{k}",
@@ -3443,7 +3449,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(-3, 2)$"
+        "text": "$(3, 2)$"
       },
       {
         "key": "B",
@@ -3455,14 +3461,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$(3, 2)$"
+        "text": "$(-3, -2)$"
       },
       {
         "key": "E",
-        "text": "$(-3, -2)$"
+        "text": "$(-3, 2)$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KOMPOSISI TRANSFORMASI MATRIKS",
       "latex": "M = R_{90^\\circ} \\cdot M_x = \\begin{pmatrix} 0 & -1 \\\\ 1 & 0 \\end{pmatrix} \\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix} = \\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}",
@@ -3487,15 +3493,15 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$110\\sqrt{6} \\text{ volt}$."
+        "text": "$0 \\text{ volt}$."
       },
       {
         "key": "B",
-        "text": "$220 \\text{ volt}$."
+        "text": "$110\\sqrt{2} \\text{ volt}$"
       },
       {
         "key": "C",
-        "text": "$0 \\text{ volt}$."
+        "text": "$110\\sqrt{6} \\text{ volt}$."
       },
       {
         "key": "D",
@@ -3503,10 +3509,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$110\\sqrt{2} \\text{ volt}$"
+        "text": "$220 \\text{ volt}$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PERSAMAAN GELOMBANG TEGANGAN AC",
       "latex": "V(t) = V_{\\max} \\sin(\\omega t + \\phi)",
@@ -3535,11 +3541,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$6$."
+        "text": "$12$."
       },
       {
         "key": "C",
-        "text": "$12$."
+        "text": "$6$."
       },
       {
         "key": "D",
@@ -3575,26 +3581,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$30^\\circ$."
-      },
-      {
-        "key": "B",
-        "text": "$60^\\circ$"
-      },
-      {
-        "key": "C",
-        "text": "$45^\\circ$."
-      },
-      {
-        "key": "D",
         "text": "$75^\\circ$."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$90^\\circ$."
+      },
+      {
+        "key": "C",
+        "text": "$30^\\circ$."
+      },
+      {
+        "key": "D",
+        "text": "$45^\\circ$."
+      },
+      {
+        "key": "E",
+        "text": "$60^\\circ$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "OPTIMASI PENAMPANG TALANG TRAPESIUM",
       "latex": "L(\\theta) = (10 + 10\\cos\\theta)(10\\sin\\theta) = 100\\sin\\theta(1 + \\cos\\theta)",
@@ -3619,7 +3625,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\pi \\text{ m}^3$"
+        "text": "$64\\pi \\text{ m}^3$"
       },
       {
         "key": "B",
@@ -3627,18 +3633,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$16\\pi \\text{ m}^3$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{32}{3}\\pi \\text{ m}^3$"
       },
       {
+        "key": "D",
+        "text": "$16\\pi \\text{ m}^3$"
+      },
+      {
         "key": "E",
-        "text": "$64\\pi \\text{ m}^3$"
+        "text": "$8\\pi \\text{ m}^3$"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "VOLUME BENDA PUTAR TERHADAP SUMBU-Y",
       "latex": "V = \\pi \\int_c^d [g(y)]^2 \\, dy = \\pi \\int_0^8 \\frac{y}{2} \\, dy",
@@ -3663,26 +3669,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$y = x - 4$"
-      },
-      {
-        "key": "B",
-        "text": "$y = x + 2$"
-      },
-      {
-        "key": "C",
-        "text": "$y = x + 8$"
-      },
-      {
-        "key": "D",
         "text": "$y = x + 4$"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$y = x - 4$"
+      },
+      {
+        "key": "C",
         "text": "$y = 2x + 4$"
+      },
+      {
+        "key": "D",
+        "text": "$y = x + 2$"
+      },
+      {
+        "key": "E",
+        "text": "$y = x + 8$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "GARIS SINGGUNG PARABOLA HORIZONTAL",
       "latex": "y = mx + \\frac{p}{m} \\quad \\text{dengan } 4p = 16 \\implies p = 4",
@@ -3707,26 +3713,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4$."
-      },
-      {
-        "key": "B",
-        "text": "$5$."
-      },
-      {
-        "key": "C",
-        "text": "$-7$."
-      },
-      {
-        "key": "D",
         "text": "$10$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$-7$."
+      },
+      {
+        "key": "C",
+        "text": "$5$."
+      },
+      {
+        "key": "D",
         "text": "$-2$"
+      },
+      {
+        "key": "E",
+        "text": "$4$."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "EVALUASI SISA POLINOMIAL DARI FAKTOR PEMBAGI",
       "latex": "P(x) = (x^2 - 4)H(x) + S(x) \\implies P(c) = S(c) \\quad (\\text{saat } c^2 - 4 = 0)",
@@ -3751,7 +3757,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{7}{2} \\text{ satuan luas}$"
+        "text": "$7 \\text{ satuan luas}$"
       },
       {
         "key": "B",
@@ -3759,18 +3765,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$7 \\text{ satuan luas}$"
-      },
-      {
-        "key": "D",
         "text": "$\\sqrt{14} \\text{ satuan luas}$"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$\\frac{\\sqrt{13}}{2} \\text{ satuan luas}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{7}{2} \\text{ satuan luas}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "LUAS SEGITIGA VEKTOR RUANG",
       "latex": "L = \\frac{1}{2} |\\vec{AB} \\times \\vec{AC}|",
@@ -3795,26 +3801,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{\\pi}{6}$"
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{\\pi}{3}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\frac{2\\pi}{3}$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{5\\pi}{6}$"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$\\frac{4\\pi}{3}$"
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{\\pi}{6}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{\\pi}{3}$"
+      },
+      {
+        "key": "E",
+        "text": "$\\frac{2\\pi}{3}$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "BENTUK KHUSUS GELOMBANG MAKSIMUM",
       "latex": "k = \\sqrt{1^2 + (\\sqrt{3})^2} = 2 \\implies 2\\cos\\left(x - \\frac{\\pi}{3}\\right) = 2",
@@ -3839,26 +3845,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x + 4y - 9 = 0$."
+        "text": "$x - 4y + 7 = 0$."
       },
       {
         "key": "B",
-        "text": "$4x + y - 6 = 0$."
-      },
-      {
-        "key": "C",
         "text": "$4x - y - 2 = 0$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$2x - y = 0$."
       },
       {
+        "key": "D",
+        "text": "$4x + y - 6 = 0$."
+      },
+      {
         "key": "E",
-        "text": "$x - 4y + 7 = 0$."
+        "text": "$x + 4y - 9 = 0$."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PERSAMAAN GARIS NORMAL KURVA",
       "latex": "m_n = -\\frac{1}{m_s} \\implies y - y_1 = m_n(x - x_1)",
@@ -3883,26 +3889,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{\\pi}{2}$"
-      },
-      {
-        "key": "B",
-        "text": "$2\\pi$"
-      },
-      {
-        "key": "C",
         "text": "$4\\pi$"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$4$"
+      },
+      {
+        "key": "C",
         "text": "$\\pi$"
       },
       {
+        "key": "D",
+        "text": "$\\frac{\\pi}{2}$"
+      },
+      {
         "key": "E",
-        "text": "$4$"
+        "text": "$2\\pi$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "INTEGRAL GEOMETRIS SEPEREMPAT LINGKARAN",
       "latex": "\\int_0^r \\sqrt{r^2 - x^2} \\, dx = \\frac{1}{4}\\pi r^2",
@@ -3931,7 +3937,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2x - 1$"
+        "text": "$x - 1$"
       },
       {
         "key": "C",
@@ -3943,10 +3949,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$x - 1$"
+        "text": "$2x - 1$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "REDUKSI PANGKAT PEMBAGI KUADRATIK",
       "latex": "x^2 \\equiv 1 \\pmod{x^2 - 1} \\implies x^5 = (x^2)^2 \\cdot x \\equiv 1^2 \\cdot x = x",
@@ -3971,7 +3977,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\lambda_1 = 5, \\quad \\lambda_2 = 2$"
+        "text": "$\\lambda_1 = 7, \\quad \\lambda_2 = 0$"
       },
       {
         "key": "B",
@@ -3979,18 +3985,18 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\lambda_1 = 4, \\quad \\lambda_2 = 3$"
+        "text": "$\\lambda_1 = 5, \\quad \\lambda_2 = 2$"
       },
       {
         "key": "D",
-        "text": "$\\lambda_1 = -5, \\quad \\lambda_2 = -2$"
+        "text": "$\\lambda_1 = 4, \\quad \\lambda_2 = 3$"
       },
       {
         "key": "E",
-        "text": "$\\lambda_1 = 7, \\quad \\lambda_2 = 0$"
+        "text": "$\\lambda_1 = -5, \\quad \\lambda_2 = -2$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PERSAMAAN KARAKTERISTIK NILAI EIGEN",
       "latex": "\\det(A - \\lambda I) = \\lambda^2 - \\text{Tr}(A)\\lambda + \\det(A) = 0",
@@ -4015,26 +4021,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$(3, 1)$."
-      },
-      {
-        "key": "B",
         "text": "$(3, -3)$"
       },
       {
-        "key": "C",
-        "text": "$(1, -1)$."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$(5, -1)$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$(3, -5)$."
+      },
+      {
+        "key": "D",
+        "text": "$(1, -1)$."
+      },
+      {
+        "key": "E",
+        "text": "$(3, 1)$."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PARABOLA VERTIKAL MEMBUKA KE BAWAH",
       "latex": "(x - h)^2 = -4p(y - k) \\implies \\text{Fokus } (h, k - p)",
@@ -4059,11 +4065,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$7 \\text{ satuan volume}$."
+        "text": "$13 \\text{ satuan volume}$."
       },
       {
         "key": "B",
-        "text": "$9 \\text{ satuan volume}$."
+        "text": "$15 \\text{ satuan volume}$."
       },
       {
         "key": "C",
@@ -4071,11 +4077,11 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$13 \\text{ satuan volume}$."
+        "text": "$7 \\text{ satuan volume}$."
       },
       {
         "key": "E",
-        "text": "$15 \\text{ satuan volume}$."
+        "text": "$9 \\text{ satuan volume}$."
       }
     ],
     "correctKey": "C",
@@ -4107,7 +4113,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\frac{3}{\\sqrt{1 - 9x^2}}$"
+        "text": "$\\frac{3}{1 + 9x^2}$"
       },
       {
         "key": "C",
@@ -4115,14 +4121,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\frac{3}{1 + 9x^2}$"
+        "text": "$\\frac{3}{\\sqrt{1 - 9x^2}}$"
       },
       {
         "key": "E",
         "text": "$\\frac{9}{1 + 9x^2}$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TURUNAN ARCTANGEN DENGAN ATURAN RANTAI",
       "latex": "\\frac{d}{dx}[\\arctan(u)] = \\frac{u'}{1 + u^2}",
@@ -4147,26 +4153,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{3}{2}$"
-      },
-      {
-        "key": "B",
         "text": "$\\frac{4}{3}$"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$\\frac{5}{2}$"
       },
       {
+        "key": "C",
+        "text": "$2$"
+      },
+      {
         "key": "D",
-        "text": "$1$"
+        "text": "$\\frac{3}{2}$"
       },
       {
         "key": "E",
-        "text": "$2$"
+        "text": "$1$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "KOORDINAT PUSAT MASSA (CENTROID)",
       "latex": "\\bar{x} = \\frac{\\int_a^b x y \\, dx}{\\int_a^b y \\, dx}",
@@ -4191,26 +4197,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2 - \\sqrt{3}$"
+        "text": "$\\frac{2 - \\sqrt{3}}{2}$"
       },
       {
         "key": "B",
-        "text": "$2 + \\sqrt{3}$"
-      },
-      {
-        "key": "C",
-        "text": "$\\sqrt{3} - 1$"
-      },
-      {
-        "key": "D",
         "text": "$\\frac{\\sqrt{3} - 1}{\\sqrt{3} + 1}$"
       },
       {
+        "key": "C",
+        "text": "$2 + \\sqrt{3}$"
+      },
+      {
+        "key": "D",
+        "text": "$\\sqrt{3} - 1$"
+      },
+      {
         "key": "E",
-        "text": "$\\frac{2 - \\sqrt{3}}{2}$"
+        "text": "$2 - \\sqrt{3}$"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TANGEN SETENGAH SUDUT",
       "latex": "\\tan\\left(\\frac{\\theta}{2}\\right) = \\frac{1 - \\cos\\theta}{\\sin\\theta}",
@@ -4235,15 +4241,15 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1$"
+        "text": "$2026$"
       },
       {
         "key": "B",
-        "text": "$0$"
+        "text": "$1$"
       },
       {
         "key": "C",
-        "text": "$-1$"
+        "text": "$0$"
       },
       {
         "key": "D",
@@ -4251,10 +4257,10 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$2026$"
+        "text": "$-1$"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TEOREMA FAKTOR SUKU TINGGI",
       "latex": "P(1) = (1)^{2026} - 1 = 1 - 1 = 0",
@@ -4279,26 +4285,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$24$."
+        "text": "$36$."
       },
       {
         "key": "B",
-        "text": "$9$."
-      },
-      {
-        "key": "C",
         "text": "$33$"
       },
       {
+        "key": "C",
+        "text": "$9$."
+      },
+      {
         "key": "D",
-        "text": "$27$."
+        "text": "$24$."
       },
       {
         "key": "E",
-        "text": "$36$."
+        "text": "$27$."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "SIFAT MATRIKS DIAGONAL",
       "latex": "\\text{Tr}(A) = \\sum a_{ii}, \\quad \\det(A) = \\prod a_{ii}",
@@ -4327,7 +4333,7 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$6$."
+        "text": "$4$."
       },
       {
         "key": "C",
@@ -4335,14 +4341,14 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$12$"
+        "text": "$6$."
       },
       {
         "key": "E",
-        "text": "$4$."
+        "text": "$12$"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PANJANG LATUS RECTUM PARABOLA",
       "latex": "LR = |4p| \\quad \\text{untuk } y^2 = 4px",
@@ -4367,26 +4373,26 @@ window.TKA_MTK_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sec^2 x + C$"
-      },
-      {
-        "key": "B",
-        "text": "$-\\ln|\\sec x| + C$"
-      },
-      {
-        "key": "C",
         "text": "$\\ln|\\sin x| + C$"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\cot x + C$"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$-\\ln|\\sec x| + C$"
+      },
+      {
+        "key": "D",
         "text": "$\\ln|\\sec x| + C$"
+      },
+      {
+        "key": "E",
+        "text": "$\\sec^2 x + C$"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "INTEGRAL FUNGSI TANGEN DASAR",
       "latex": "\\int \\frac{\\sin x}{\\cos x} \\, dx = -\\ln|\\cos x| + C = \\ln|\\sec x| + C",

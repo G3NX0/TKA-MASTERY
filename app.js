@@ -2257,7 +2257,8 @@
         strikes: state.exam.strikes || 0,
         isFinished: state.exam.isFinished || false,
         isReviewMode: state.exam.isReviewMode || false,
-        questionIds: state.exam.questions.map(q => q.id || q.questionHtml)
+        questionIds: state.exam.questions.map(q => q.id || q.questionHtml),
+        questions: state.exam.questions
       };
       sessionStorage.setItem('tka_exam_session', JSON.stringify(sessionPayload));
     } catch (e) {
@@ -2280,7 +2281,9 @@
 
       let restoredPool = [];
 
-      if (data.sessionMode === 'diagnostik') {
+      if (data.questions && Array.isArray(data.questions) && data.questions.length > 0) {
+        restoredPool = data.questions;
+      } else if (data.sessionMode === 'diagnostik') {
         const mtkDiag = (window.TKA_DATABASE?.mtk?.questions || []).filter(q => q.isDiagnostic);
         const indDiag = (window.TKA_DATABASE?.ind?.questions || []).filter(q => q.isDiagnostic);
         const engDiag = (window.TKA_DATABASE?.eng?.questions || []).filter(q => q.isDiagnostic);
@@ -3096,8 +3099,76 @@
   }
 
   // =========================================================================
-  // SESSION LAUNCHER (TRAINING / SIMULATION / DIAGNOSTIC)
+  // RUNTIME SESSION ENGINE & DYNAMIC ANTI-PATTERN RANDOMIZATION
   // =========================================================================
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      const temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
+    }
+    return array;
+  }
+
+  function syncExplanationKey(exp, oldKey, newKey) {
+    if (!exp || typeof exp !== 'string' || !oldKey || oldKey === newKey) return exp;
+    let res = exp;
+    res = res.replace(/(Kunci\s+Jawaban:\s*\(?)[A-E](\)?)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(Jawaban\s*(?:yang\s+benar)?:\s*\(?)[A-E](\)?)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(Correct\s+Answer:\s*<\/strong>\s*\(?)[A-E](\)?)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(Correct\s+Answer:\s*\(?)[A-E](\)?)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(option\s*\()[A-E](\))/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(opsi\s*\()[A-E](\))/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(pilihan\s*\()[A-E](\))/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(opsi\s+)[A-E](\s+adalah|\s+benar|\s+tepat)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(pilihan\s+)[A-E](\s+adalah|\s+benar|\s+tepat)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    res = res.replace(/(jawaban\s+yang\s+(?:paling\s+)?(?:benar|tepat)\s+adalah\s+(?:\(?))[A-E](\)?)/gi, (m, p1, p2) => `${p1}${newKey}${p2}`);
+    return res;
+  }
+
+  function prepareRandomizedSessionPool(rawPool, shouldShuffleQuestions = true) {
+    if (!Array.isArray(rawPool) || rawPool.length === 0) return [];
+    // Deep clone pool so base global data remains pristine
+    const clonedPool = JSON.parse(JSON.stringify(rawPool));
+
+    // 1. Randomize question sequence dynamically on session launch
+    if (shouldShuffleQuestions) {
+      shuffleArray(clonedPool);
+    }
+
+    // 2. Randomize option positions and dynamically remap keys for every question
+    const LETTERS = ['A', 'B', 'C', 'D', 'E'];
+    clonedPool.forEach(q => {
+      if (q.type === 'mcq' && Array.isArray(q.options) && q.options.length >= 2) {
+        const oldKey = q.correctKey || q.correctAnswer;
+        const correctOpt = q.options.find(o => o.key === oldKey);
+
+        shuffleArray(q.options);
+
+        let newKey = oldKey;
+        q.options.forEach((opt, idx) => {
+          const assignedKey = LETTERS[idx] || String.fromCharCode(65 + idx);
+          if (opt === correctOpt || (correctOpt && opt.text === correctOpt.text)) {
+            newKey = assignedKey;
+          }
+          opt.key = assignedKey;
+        });
+
+        q.correctKey = newKey;
+        if (q.correctAnswer && typeof q.correctAnswer === 'string') {
+          q.correctAnswer = newKey;
+        }
+
+        if (q.explanation && oldKey && newKey !== oldKey) {
+          q.explanation = syncExplanationKey(q.explanation, oldKey, newKey);
+        }
+      }
+    });
+
+    return clonedPool;
+  }
+
   function launchSession(mode, difficulty) {
     const sKey = state.currentSubject;
     const sData = window.TKA_DATABASE[sKey];
@@ -3131,8 +3202,8 @@
       pool = sData.questions;
     }
 
-    // Reset exam state
-    state.exam.questions = pool;
+    // Reset exam state with dynamically randomized questions and options
+    state.exam.questions = prepareRandomizedSessionPool(pool, true);
     state.exam.currentIndex = 0;
     state.exam.answers = {};
     state.exam.flags = {};
@@ -3191,7 +3262,8 @@
     state.currentSubject = 'diag';
     state.selectedDifficulty = 'all';
 
-    state.exam.questions = pool;
+    // Deep clone and randomize questions and option positions in diagnostic session
+    state.exam.questions = prepareRandomizedSessionPool(pool, true);
     state.exam.currentIndex = 0;
     state.exam.answers = {};
     state.exam.flags = {};

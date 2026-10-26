@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_RPL_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_RPL_QUESTIONS = [
   {
     "id": "rpl-lat-e-01",
@@ -11,11 +17,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengelola konfigurasi server dan jaringan agar aplikasi berjalan stabil saat diakses pengguna."
+        "text": "Mengatur proses kompilasi rilis dan distribusi aplikasi ke toko aplikasi (app store)."
       },
       {
         "key": "B",
-        "text": "Merancang tampilan antarmuka (User Interface) dan alur pengalaman pengguna (User Experience) aplikasi."
+        "text": "Melakukan pengujian penetrasi keamanan (penetration testing) terhadap celah sistem aplikasi."
       },
       {
         "key": "C",
@@ -23,14 +29,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Melakukan pengujian penetrasi keamanan (penetration testing) terhadap celah sistem aplikasi."
+        "text": "Merancang tampilan antarmuka (User Interface) dan alur pengalaman pengguna (User Experience) aplikasi."
       },
       {
         "key": "E",
-        "text": "Mengatur proses kompilasi rilis dan distribusi aplikasi ke toko aplikasi (app store)."
+        "text": "Mengelola konfigurasi server dan jaringan agar aplikasi berjalan stabil saat diakses pengguna."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DESAIN PRODUK DIGITAL: UI VS UX",
       "latex": "\\text{UI (Visual Design)} + \\text{UX (User Journey)} \\implies \\text{Usable & Intuitive Product}",
@@ -40,7 +46,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "UI berfokus pada estetika visual dan komponen antarmuka, sedangkan UX berfokus pada efisiensi alur serta kepuasan interaksi pengguna.",
       "execution": "Pilihlah peran yang berhubungan langsung dengan desain visual antarmuka dan alur kenyamanan pengguna."
     },
-    "explanation": "Tugas utama UI/UX Designer adalah merancang antarmuka grafis (UI) serta alur interaksi dan kenyamanan pengguna (UX). Opsi A adalah tugas DevOps/Sysadmin, Opsi C tugas Backend Developer, Opsi D tugas Security Specialist, dan Opsi E tugas Release Engineer. Jawaban: B.",
+    "explanation": "Tugas utama UI/UX Designer adalah merancang antarmuka grafis (UI) serta alur interaksi dan kenyamanan pengguna (UX). Opsi D adalah tugas DevOps/Sysadmin, Opsi C tugas Backend Developer, Opsi D tugas Security Specialist, dan Opsi E tugas Release Engineer. Jawaban: D.",
     "isDiagnostic": true
   },
   {
@@ -55,26 +61,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Merancang karakter 3D, animasi, dan aset visual lingkungan gim."
-      },
-      {
-        "key": "B",
-        "text": "Menyusun strategi monetisasi dan kampanye pemasaran gim di media sosial."
-      },
-      {
-        "key": "C",
-        "text": "Menguji perangkat lunak/gim secara sistematis untuk menemukan bug dan memastikan kesesuaian dengan spesifikasi."
-      },
-      {
-        "key": "D",
         "text": "Mendesain topologi jaringan lokal untuk kantor operasional studio gim."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menguji perangkat lunak/gim secara sistematis untuk menemukan bug dan memastikan kesesuaian dengan spesifikasi."
+      },
+      {
+        "key": "C",
+        "text": "Menyusun strategi monetisasi dan kampanye pemasaran gim di media sosial."
+      },
+      {
+        "key": "D",
         "text": "Menulis kontrak kerja sama lisensi dengan investor dan penerbit gim."
+      },
+      {
+        "key": "E",
+        "text": "Merancang karakter 3D, animasi, dan aset visual lingkungan gim."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "SIKLUS TESTING PERANGKAT LUNAK (QA)",
       "latex": "\\text{Spesifikasi Fitur} \\xrightarrow{\\text{Test Case Execution}} \\text{Bug Tracking} \\to \\text{Release Approval}",
@@ -84,7 +90,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Quality Assurance (QA) bertugas memverifikasi fungsionalitas dan mencari celah kesalahan (defect/bug) agar produk siap rilis.",
       "execution": "Cari opsi yang menekankan pengujian sistematis dan verifikasi spesifikasi."
     },
-    "explanation": "Peran utama QA Tester adalah merancang skenario pengujian, mengeksekusi test case, menemukan bug, dan memvalidasi apakah gim berjalan sesuai kriteria penerimaan (acceptance criteria). Jawaban: C.",
+    "explanation": "Peran utama QA Tester adalah merancang skenario pengujian, mengeksekusi test case, menemukan bug, dan memvalidasi apakah gim berjalan sesuai kriteria penerimaan (acceptance criteria). Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -143,26 +149,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelaksanaan → Perencanaan → Inisiasi → Penutupan"
+        "text": "Inisiasi → Penutupan → Perencanaan → Pelaksanaan dan Pemantauan"
       },
       {
         "key": "B",
-        "text": "Perencanaan → Inisiasi → Penutupan → Pelaksanaan dan Pemantauan"
+        "text": "Pelaksanaan → Perencanaan → Inisiasi → Penutupan"
       },
       {
         "key": "C",
-        "text": "Penutupan → Pelaksanaan → Perencanaan → Inisiasi"
-      },
-      {
-        "key": "D",
         "text": "Inisiasi → Perencanaan → Pelaksanaan dan Pemantauan → Penutupan"
       },
       {
+        "key": "D",
+        "text": "Penutupan → Pelaksanaan → Perencanaan → Inisiasi"
+      },
+      {
         "key": "E",
-        "text": "Inisiasi → Penutupan → Perencanaan → Pelaksanaan dan Pemantauan"
+        "text": "Perencanaan → Inisiasi → Penutupan → Pelaksanaan dan Pemantauan"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PMBOK / SOFTWARE PROJECT LIFECYCLE",
       "latex": "\\text{Initiating} \\to \\text{Planning} \\to \\text{Executing \\& Monitoring} \\to \\text{Closing}",
@@ -172,7 +178,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Manajemen proyek selalu diawali perumusan tujuan proyek (inisiasi), perencanaan ruang lingkup dan jadwal, eksekusi kerja, hingga serah terima akhir (penutupan).",
       "execution": "Cari opsi yang diawali dengan Inisiasi dan diakhiri dengan Penutupan secara kronologis logis."
     },
-    "explanation": "Tahapan standar manajemen proyek (PMBOK/SDLC) adalah: (1) Inisiasi (Initiating), (2) Perencanaan (Planning), (3) Pelaksanaan dan Pemantauan (Executing & Monitoring/Controlling), serta (4) Penutupan (Closing). Jawaban: D.",
+    "explanation": "Tahapan standar manajemen proyek (PMBOK/SDLC) adalah: (1) Inisiasi (Initiating), (2) Perencanaan (Planning), (3) Pelaksanaan dan Pemantauan (Executing & Monitoring/Controlling), serta (4) Penutupan (Closing). Jawaban: C.",
     "isDiagnostic": true
   },
   {
@@ -187,26 +193,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyewa server berkapasitas tinggi untuk jutaan pengguna sebelum membuat baris kode pertama."
-      },
-      {
-        "key": "B",
-        "text": "Membangun produk versi fungsi inti paling esensial (Minimum Viable Product / MVP) untuk menguji respons pengguna nyata."
-      },
-      {
-        "key": "C",
-        "text": "Menunggu hingga seluruh 50 fitur tambahan selesai sempurna selama tiga tahun sebelum diperlihatkan kepada calon pengguna."
-      },
-      {
-        "key": "D",
         "text": "Membeli lisensi perangkat lunak enterprise termahal tanpa melakukan riset permasalahan pengguna."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menunggu hingga seluruh 50 fitur tambahan selesai sempurna selama tiga tahun sebelum diperlihatkan kepada calon pengguna."
+      },
+      {
+        "key": "C",
+        "text": "Membangun produk versi fungsi inti paling esensial (Minimum Viable Product / MVP) untuk menguji respons pengguna nyata."
+      },
+      {
+        "key": "D",
         "text": "Mengabaikan umpan balik pengguna awal karena tim pengembang sudah merasa aplikasinya sempurna."
+      },
+      {
+        "key": "E",
+        "text": "Menyewa server berkapasitas tinggi untuk jutaan pengguna sebelum membuat baris kode pertama."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LEAN STARTUP FRAMEWORK",
       "latex": "\\text{Build (MVP)} \\to \\text{Measure (User Feedback)} \\to \\text{Learn (Iterate/Pivot)}",
@@ -216,7 +222,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Pendekatan Lean Startup menekankan pembuatan MVP untuk memvalidasi hipotesis pasar dengan biaya dan waktu sehemat mungkin.",
       "execution": "Pilihlah langkah yang berorientasi pada perilisan versi sederhana awal untuk menguji respons pasar."
     },
-    "explanation": "Langkah awal paling efektif dalam metodologi Lean Startup/Technopreneurship adalah membangun Minimum Viable Product (MVP) untuk menguji respons pengguna secara langsung dan mengumpulkan data valid sebelum menginvestasikan modal besar. Jawaban: B.",
+    "explanation": "Langkah awal paling efektif dalam metodologi Lean Startup/Technopreneurship adalah membangun Minimum Viable Product (MVP) untuk menguji respons pengguna secara langsung dan mengumpulkan data valid sebelum menginvestasikan modal besar. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -231,7 +237,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempercepat proses kompilasi kode sumber sebanyak 20 persen dalam 20 menit."
+        "text": "Mengetik minimal 20 baris kode setiap 20 menit dengan maksimal 20 kesalahan sintaks."
       },
       {
         "key": "B",
@@ -239,18 +245,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengistirahatkan mata setiap 20 menit dengan melihat objek berjarak 20 kaki (±6 meter) selama 20 detik guna mengurangi kelelahan mata."
+        "text": "Mempercepat proses kompilasi kode sumber sebanyak 20 persen dalam 20 menit."
       },
       {
         "key": "D",
-        "text": "Mengetik minimal 20 baris kode setiap 20 menit dengan maksimal 20 kesalahan sintaks."
+        "text": "Melakukan restart sistem operasi setiap 20 jam sekali selama 20 menit."
       },
       {
         "key": "E",
-        "text": "Melakukan restart sistem operasi setiap 20 jam sekali selama 20 menit."
+        "text": "Mengistirahatkan mata setiap 20 menit dengan melihat objek berjarak 20 kaki (±6 meter) selama 20 detik guna mengurangi kelelahan mata."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "ATURAN K3LH KESEHATAN MATA (20-20-20 RULE)",
       "latex": "\\text{Tiap 20 Menit Bekerja} \\implies \\text{Lihat Objek 20 Kaki (6 m)} \\times 20 \\text{ Detik}",
@@ -260,7 +266,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Aturan 20-20-20 adalah protokol standar ergonomi visual bagi praktisi TI yang menatap layar secara intensif.",
       "execution": "Pilihlah opsi yang menjelaskan relaksasi penglihatan mata pada jarak 20 kaki selama 20 detik."
     },
-    "explanation": "Aturan 20-20-20 adalah pedoman ergonomi visual K3LH: setiap 20 menit menatap layar, istirahatkan mata dengan memandang objek berjarak 20 kaki (sekitar 6 meter) selama minimal 20 detik untuk mencegah Computer Vision Syndrome. Jawaban: C.",
+    "explanation": "Aturan 20-20-20 adalah pedoman ergonomi visual K3LH: setiap 20 menit menatap layar, istirahatkan mata dengan memandang objek berjarak 20 kaki (sekitar 6 meter) selama minimal 20 detik untuk mencegah Computer Vision Syndrome. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -275,26 +281,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengatur bagian atas layar monitor sejajar atau sedikit di bawah tinggi mata dengan jarak pandang 50–70 cm serta punggung tersangga tegak."
-      },
-      {
-        "key": "B",
         "text": "Meletakkan monitor jauh di atas kepala sehingga leher terus mendongak ke atas selama bekerja."
       },
       {
+        "key": "B",
+        "text": "Meletakkan keyboard di atas pangkuan dengan posisi pergelangan tangan menekuk tajam ke atas."
+      },
+      {
         "key": "C",
-        "text": "Menggunakan kursi tanpa sandaran dengan posisi layar menempel kurang dari 15 cm dari mata."
+        "text": "Mengatur bagian atas layar monitor sejajar atau sedikit di bawah tinggi mata dengan jarak pandang 50–70 cm serta punggung tersangga tegak."
       },
       {
         "key": "D",
-        "text": "Meletakkan keyboard di atas pangkuan dengan posisi pergelangan tangan menekuk tajam ke atas."
+        "text": "Menggunakan kursi tanpa sandaran dengan posisi layar menempel kurang dari 15 cm dari mata."
       },
       {
         "key": "E",
         "text": "Mematikan seluruh pencahayaan ruangan hingga gelap gulita dan mengatur kecerahan layar pada tingkat maksimum 100%."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "STANDAR ERGONOMI WORKSTATION",
       "latex": "\\text{Jarak Layar: } 50-70\\text{ cm} \\quad | \\quad \\text{Sudut Siku/Lutut: } 90^{\\circ} \\quad | \\quad \\text{Punggung: Tegak Bersandar}",
@@ -304,7 +310,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Posisi kerja ergonomis menjaga sudut leher netral (tidak mendongak/menunduk tajam) dan jarak layar yang aman bagi mata.",
       "execution": "Pilihlah konfigurasi yang menyangga punggung tegak dengan garis pandang sejajar bagian atas monitor."
     },
-    "explanation": "Pengaturan ergonomis yang benar adalah monitor berada pada jarak 50–70 cm, bagian atas layar sejajar atau sedikit di bawah mata agar leher berada pada posisi netral (15–20 derajat ke bawah), dan punggung tertopang tegak. Jawaban: A.",
+    "explanation": "Pengaturan ergonomis yang benar adalah monitor berada pada jarak 50–70 cm, bagian atas layar sejajar atau sedikit di bawah mata agar leher berada pada posisi netral (15–20 derajat ke bawah), dan punggung tertopang tegak. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -319,26 +325,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Aplikasi pengolah gambar bitmap."
-      },
-      {
-        "key": "B",
-        "text": "Perangkat lunak antivirus lokal."
-      },
-      {
-        "key": "C",
         "text": "Media penyimpanan flashdisk yang dipinjamkan bergantian."
       },
       {
+        "key": "B",
+        "text": "Aplikasi pemutar multimedia resolusi tinggi."
+      },
+      {
+        "key": "C",
+        "text": "Aplikasi pengolah gambar bitmap."
+      },
+      {
         "key": "D",
-        "text": "Version Control System (seperti Git) dengan mekanisme branching dan merge/pull request."
+        "text": "Perangkat lunak antivirus lokal."
       },
       {
         "key": "E",
-        "text": "Aplikasi pemutar multimedia resolusi tinggi."
+        "text": "Version Control System (seperti Git) dengan mekanisme branching dan merge/pull request."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "VERSION CONTROL SYSTEM (VCS)",
       "latex": "\\text{Working Directory} \\xrightarrow{\\text{add}} \\text{Staging} \\xrightarrow{\\text{commit}} \\text{Local Repo} \\xrightarrow{\\text{push}} \\text{Remote}",
@@ -348,7 +354,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Sistem kontrol versi (VCS) mencatat setiap riwayat commit, mencegah penimpaan file yang tidak disengaja, dan memfasilitasi penggabungan (merge).",
       "execution": "Pilihlah teknologi yang standar dipakai industri perangkat lunak untuk kolaborasi kode, yaitu Git."
     },
-    "explanation": "Version Control System (seperti Git/GitHub/GitLab) menyediakan mekanisme isolasi cabang (branching), pelacakan riwayat commit, dan penggabungan kode (merge/PR) sehingga kolaborasi multi-programmer berlangsung aman dan teratur. Jawaban: D.",
+    "explanation": "Version Control System (seperti Git/GitHub/GitLab) menyediakan mekanisme isolasi cabang (branching), pelacakan riwayat commit, dan penggabungan kode (merge/PR) sehingga kolaborasi multi-programmer berlangsung aman dan teratur. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -363,11 +369,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menuliskan API Secret Key dan kata sandi secara langsung (hardcoded) di bagian paling atas file index utama."
+        "text": "Menyimpan kredensial sensitif di dalam file environment (.env) dan mendaftarkan file.env tersebut ke dalam.gitignore."
       },
       {
         "key": "B",
-        "text": "Menyimpan kredensial sensitif di dalam file environment (.env) dan mendaftarkan file .env tersebut ke dalam .gitignore."
+        "text": "Mengirimkan kata sandi melalui kolom komentar publik di media sosial proyek."
       },
       {
         "key": "C",
@@ -375,14 +381,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengirimkan kata sandi melalui kolom komentar publik di media sosial proyek."
+        "text": "Menuliskan API Secret Key dan kata sandi secara langsung (hardcoded) di bagian paling atas file index utama."
       },
       {
         "key": "E",
         "text": "Menamai file kode sumber utama dengan kata sandi basis data yang digunakan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "ENVIRONMENT VARIABLES & GITIGNORE",
       "latex": "\\text{Secrets in } \\texttt{.env} \\quad + \\quad \\text{Rule in } \\texttt{.gitignore: } \\texttt{.env} \\implies \\text{Zero Credential Leak}",
@@ -392,7 +398,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Kredensial rahasia (API key, token, DB password) tidak boleh di-hardcode di kode sumber publik, melainkan disimpan di variabel lingkungan (.env).",
       "execution": "Pilihlah kombinasi penyimpanan pada file .env dan pemfilteran dengan .gitignore."
     },
-    "explanation": "Praktik keamanan baku adalah menyimpan kredensial pada file environment (.env) dan mendaftarkan .env ke dalam file .gitignore agar tidak terunggah ke repositori publik. Menulis kredensial di kode (hardcoding) sangat berbahaya karena rentan dicuri bot penyerang. Jawaban: B.",
+    "explanation": "Praktik keamanan baku adalah menyimpan kredensial pada file environment (.env) dan mendaftarkan .env ke dalam file .gitignore agar tidak terunggah ke repositori publik. Menulis kredensial di kode (hardcoding) sangat berbahaya karena rentan dicuri bot penyerang. Jawaban: A.",
     "isDiagnostic": true
   },
   {
@@ -411,7 +417,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menyimpan satu-satunya salinan basis data di partisi yang sama dengan file sementara (temp) sistem operasi."
+        "text": "Melakukan pencadangan (backup) otomatis secara berkala ke lokasi penyimpanan terpisah serta menguji prosedur pemulihannya (restore)."
       },
       {
         "key": "C",
@@ -419,14 +425,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengubah seluruh nama tabel basis data setiap hari secara manual."
+        "text": "Menyimpan satu-satunya salinan basis data di partisi yang sama dengan file sementara (temp) sistem operasi."
       },
       {
         "key": "E",
-        "text": "Melakukan pencadangan (backup) otomatis secara berkala ke lokasi penyimpanan terpisah serta menguji prosedur pemulihannya (restore)."
+        "text": "Mengubah seluruh nama tabel basis data setiap hari secara manual."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "STRATEGI CADANGAN DATA 3-2-1",
       "latex": "3 \\text{ Salinan Data} \\to 2 \\text{ Media Berbeda} \\to 1 \\text{ Salinan Off-site/Cloud}",
@@ -436,7 +442,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Pencadangan rutin ke media atau lokasi terpisah serta pengujian pemulihan adalah fondasi kelangsungan bisnis (business continuity).",
       "execution": "Pilihlah opsi yang mencakup pencadangan berkala di lokasi berbeda dan verifikasi restore."
     },
-    "explanation": "Untuk memitigasi risiko kerusakan fisik server atau bencana, tim wajib menjalankan pencadangan (backup) berkala ke lokasi fisik/cloud terpisah dan memverifikasi kelayakan prosedur restore secara teratur. Jawaban: E.",
+    "explanation": "Untuk memitigasi risiko kerusakan fisik server atau bencana, tim wajib menjalankan pencadangan (backup) berkala ke lokasi fisik/cloud terpisah dan memverifikasi kelayakan prosedur restore secara teratur. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -459,15 +465,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "cat src/assets/sprites"
+        "text": "kill -9 src/assets/sprites"
       },
       {
         "key": "D",
-        "text": "ps aux src/assets/sprites"
+        "text": "cat src/assets/sprites"
       },
       {
         "key": "E",
-        "text": "kill -9 src/assets/sprites"
+        "text": "ps aux src/assets/sprites"
       }
     ],
     "correctKey": "B",
@@ -495,26 +501,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengganti kabel jaringan UTP dengan serat optik."
+        "text": "Mengubah nama domain aplikasi menjadi alamat MAC Address."
       },
       {
         "key": "B",
-        "text": "Memformat ulang seluruh partisi harddisk server."
-      },
-      {
-        "key": "C",
-        "text": "Mengubah hak akses (permission) atau kepemilikan (ownership) pada file/direktori proyek agar dapat dibaca oleh layanan web server."
-      },
-      {
-        "key": "D",
         "text": "Menghapus browser pada komputer client dan memasang aplikasi desain grafis."
       },
       {
+        "key": "C",
+        "text": "Mengganti kabel jaringan UTP dengan serat optik."
+      },
+      {
+        "key": "D",
+        "text": "Mengubah hak akses (permission) atau kepemilikan (ownership) pada file/direktori proyek agar dapat dibaca oleh layanan web server."
+      },
+      {
         "key": "E",
-        "text": "Mengubah nama domain aplikasi menjadi alamat MAC Address."
+        "text": "Memformat ulang seluruh partisi harddisk server."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "HAK AKSES FILE LINUX (POSIX PERMISSIONS)",
       "latex": "\\texttt{chmod [mode] file} \\quad | \\quad \\texttt{chown [user]:[group] file}",
@@ -524,7 +530,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Pesan 'Permission denied' menandakan user proses web server tidak memiliki hak izin akses baca/tulis terhadap file yang dituju.",
       "execution": "Pilihlah solusi yang mengoreksi hak akses (chmod) atau kepemilikan file (chown)."
     },
-    "explanation": "Pesan 'Permission denied' merupakan indikasi masalah izin baca/eksekusi file pada level sistem operasi. Solusinya adalah menyesuaikan hak akses (chmod) atau kepemilikan file (chown) agar user web server (seperti www-data) dapat membaca file tersebut. Jawaban: C.",
+    "explanation": "Pesan 'Permission denied' merupakan indikasi masalah izin baca/eksekusi file pada level sistem operasi. Solusinya adalah menyesuaikan hak akses (chmod) atau kepemilikan file (chown) agar user web server (seperti www-data) dapat membaca file tersebut. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -543,7 +549,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "192.168.100.20/24"
+        "text": "10.10.10.20/24"
       },
       {
         "key": "C",
@@ -551,14 +557,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "192.168.10.20/24"
+        "text": "192.168.100.20/24"
       },
       {
         "key": "E",
-        "text": "10.10.10.20/24"
+        "text": "192.168.10.20/24"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "RENTANG HOST USABLE IPv4 /24",
       "latex": "\\text{Network: } 192.168.10.0 \\quad | \\quad \\text{Host: } 192.168.10.1 - 192.168.10.254 \\quad | \\quad \\text{Broadcast: } 192.168.10.255",
@@ -568,7 +574,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Pada subnet /24 (255.255.255.0), tiga oktet pertama harus sama persis (192.168.10.x) dan host ID harus unik serta bukan broadcast (.255).",
       "execution": "Pilihlah IP dengan network 192.168.10.x yang belum digunakan oleh server lain dan bukan alamat broadcast."
     },
-    "explanation": "Pada subnet 192.168.10.0/24, rentang host yang valid adalah 192.168.10.1 hingga 192.168.10.254. Opsi A duplikat dengan Server Aplikasi, Opsi B dan E beda network, Opsi C adalah alamat broadcast. Maka IP yang tepat adalah 192.168.10.20/24. Jawaban: D.",
+    "explanation": "Pada subnet 192.168.10.0/24, rentang host yang valid adalah 192.168.10.1 hingga 192.168.10.254. Opsi A duplikat dengan Server Aplikasi, Opsi B dan E beda network, Opsi E adalah alamat broadcast. Maka IP yang tepat adalah 192.168.10.20/24. Jawaban: E.",
     "isDiagnostic": true
   },
   {
@@ -583,7 +589,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Router"
+        "text": "Crimping Tool"
       },
       {
         "key": "B",
@@ -591,18 +597,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Repeater"
-      },
-      {
-        "key": "D",
         "text": "Konektor RJ-45"
       },
       {
+        "key": "D",
+        "text": "Router"
+      },
+      {
         "key": "E",
-        "text": "Crimping Tool"
+        "text": "Repeater"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "ROUTING LAYER 3 (NETWORK LAYER)",
       "latex": "\\text{Subnet A (192.168.1.0/24)} \\xleftrightarrow{\\quad\\text{ROUTER}\\quad} \\text{Subnet B (10.20.30.0/24)}",
@@ -612,7 +618,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Perangkat yang bertugas melakukan routing (perutean paket) antar-segmen jaringan IP yang berbeda adalah Router.",
       "execution": "Pilihlah perangkat Layer 3 OSI yang memiliki kemampuan membaca tabel routing IP."
     },
-    "explanation": "Router adalah perangkat jaringan Layer 3 yang berfungsi meneruskan paket data antar-jaringan/subnet yang berbeda berdasarkan IP Address. Switch/Hub bekerja pada jaringan lokal yang sama. Jawaban: A.",
+    "explanation": "Router adalah perangkat jaringan Layer 3 yang berfungsi meneruskan paket data antar-jaringan/subnet yang berbeda berdasarkan IP Address. Switch/Hub bekerja pada jaringan lokal yang sama. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -627,26 +633,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "HTTPS bekerja pada Network Access Layer untuk mengatur sinyal radio Wi-Fi."
-      },
-      {
-        "key": "B",
         "text": "TCP bekerja pada Application Layer untuk merender tampilan CSS di layar ponsel."
       },
       {
-        "key": "C",
-        "text": "HTTPS bekerja pada Application Layer untuk pertukaran data terenkripsi, sedangkan TCP bekerja pada Transport Layer untuk menjamin pengiriman paket secara andal dan berurutan."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "IP bekerja pada Application Layer untuk menerjemahkan kueri SQL menjadi tabel HTML."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Transport Layer hanya berfungsi menentukan warna kabel UTP yang digunakan."
+      },
+      {
+        "key": "D",
+        "text": "HTTPS bekerja pada Application Layer untuk pertukaran data terenkripsi, sedangkan TCP bekerja pada Transport Layer untuk menjamin pengiriman paket secara andal dan berurutan."
+      },
+      {
+        "key": "E",
+        "text": "HTTPS bekerja pada Network Access Layer untuk mengatur sinyal radio Wi-Fi."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "MODEL 4-LAYER TCP/IP",
       "latex": "\\begin{aligned} \\text{Application} &: \\text{HTTPS, HTTP, DNS, SSH} \\\\ \\text{Transport} &: \\text{TCP (Reliable/Ordered), UDP (Fast/Lossy)} \\\\ \\text{Internet} &: \\text{IP (Addressing \\& Routing), ICMP} \\\\ \\text{Network Access} &: \\text{Ethernet, Wi-Fi, MAC Address} \\end{aligned}",
@@ -656,7 +662,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "HTTPS adalah protokol tingkat aplikasi (Application Layer), sedangkan TCP adalah protokol transmisi handal (Transport Layer).",
       "execution": "Pilihlah opsi yang memetakan HTTPS ke Application Layer dan TCP ke Transport Layer dengan benar."
     },
-    "explanation": "Dalam arsitektur TCP/IP, HTTPS berada pada Application Layer (mengatur enkripsi dan format data aplikasi web), sedangkan TCP berada pada Transport Layer (memastikan paket terkirim secara andal, tanpa corrupt, dan berurutan via 3-way handshake). Jawaban: C.",
+    "explanation": "Dalam arsitektur TCP/IP, HTTPS berada pada Application Layer (mengatur enkripsi dan format data aplikasi web), sedangkan TCP berada pada Transport Layer (memastikan paket terkirim secara andal, tanpa corrupt, dan berurutan via 3-way handshake). Jawaban: D.",
     "isDiagnostic": true
   },
   {
@@ -671,7 +677,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "String, Integer, Boolean, Float"
+        "text": "Integer, String, Float, Boolean"
       },
       {
         "key": "B",
@@ -683,14 +689,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Integer, String, Float, Boolean"
+        "text": "Boolean, String, Float, Integer"
       },
       {
         "key": "E",
-        "text": "Boolean, String, Float, Integer"
+        "text": "String, Integer, Boolean, Float"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KLASIFIKASI TIPE DATA PRIMITIF",
       "latex": "1042 \\in \\mathbb{Z} \\text{ (Integer)} \\quad | \\quad \\text{\"Text\"} \\in \\text{String} \\quad | \\quad 87.5 \\in \\mathbb{R} \\text{ (Float)} \\quad | \\quad \\text{True/False} \\in \\text{Boolean}",
@@ -700,7 +706,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "1042 adalah bilangan bulat (integer), \"GarudaKnight\" adalah teks (string), 87.5 berkoma (float), dan True adalah boolean.",
       "execution": "Cocokkan urutan 1 ke 4: Integer, String, Float, Boolean."
     },
-    "explanation": "1042 bertipe Integer, \"GarudaKnight\" bertipe String, 87.5 bertipe Float (desimal), dan True bertipe Boolean. Urutan yang benar adalah Integer, String, Float, Boolean. Jawaban: D.",
+    "explanation": "1042 bertipe Integer, \"GarudaKnight\" bertipe String, 87.5 bertipe Float (desimal), dan True bertipe Boolean. Urutan yang benar adalah Integer, String, Float, Boolean. Jawaban: A.",
     "isDiagnostic": false
   },
   {
@@ -719,22 +725,22 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Dictionary / Hash Map"
-      },
-      {
-        "key": "C",
         "text": "Antrean cetak (Print Spooler)"
       },
       {
+        "key": "C",
+        "text": "Dictionary / Hash Map"
+      },
+      {
         "key": "D",
-        "text": "Konstanta bertipe Boolean"
+        "text": "Komentar dokumentasi program"
       },
       {
         "key": "E",
-        "text": "Komentar dokumentasi program"
+        "text": "Konstanta bertipe Boolean"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "KEY-VALUE DATA STRUCTURE",
       "latex": "\\text{Hash}(\\text{Key}) \\xrightarrow{\\mathcal{O}(1)} \\text{Bucket Index} \\to \\text{Value Retrieval}",
@@ -744,7 +750,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Struktur data yang mengaitkan setiap 'key' (kunci unik) ke 'value' (nilai data) adalah Dictionary (di Python) atau Hash Map (di Java/C++).",
       "execution": "Pilihlah struktur data koleksi pasangan key-value."
     },
-    "explanation": "Dictionary (Python) atau Hash Map (Java/C++) merupakan struktur data asosiatif yang menyimpan pasangan kunci-nilai (key-value) dengan akses pencarian instan rata-rata O(1). Jawaban: B.",
+    "explanation": "Dictionary (Python) atau Hash Map (Java/C++) merupakan struktur data asosiatif yang menyimpan pasangan kunci-nilai (key-value) dengan akses pencarian instan rata-rata O(1). Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -759,7 +765,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "6"
+        "text": "12"
       },
       {
         "key": "B",
@@ -767,18 +773,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "6"
       },
       {
         "key": "E",
         "text": "21"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TRACE PERULANGAN RANGE & MODULO",
       "latex": "i \\in \\{1, 2, 3, 4, 5, 6\\} \\quad \\land \\quad (i \\pmod 2 == 0) \\implies i \\in \\{2, 4, 6\\}",
@@ -788,7 +794,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "range(1, 7) menghasilkan bilangan 1 sampai 6. Kondisi i % 2 == 0 hanya menyaring bilangan genap.",
       "execution": "Jumlahkan semua nilai genap dari 1 sampai 6: 2 + 4 + 6."
     },
-    "explanation": "Fungsi range(1, 7) melakukan iterasi untuk nilai i = 1, 2, 3, 4, 5, 6. Nilai yang memenuhi kondisi genap (i % 2 == 0) adalah 2, 4, dan 6. Akumulasi total = 2 + 4 + 6 = 12. Jawaban: C.",
+    "explanation": "Fungsi range(1, 7) melakukan iterasi untuk nilai i = 1, 2, 3, 4, 5, 6. Nilai yang memenuhi kondisi genap (i % 2 == 0) adalah 2, 4, dan 6. Akumulasi total = 2 + 4 + 6 = 12. Jawaban: A.",
     "isDiagnostic": false
   },
   {
@@ -807,22 +813,22 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "nilai = hitung(5, 6)"
+        "text": "nilai = hitung(11, 0)"
       },
       {
         "key": "C",
-        "text": "nilai = proses(11)"
+        "text": "nilai = hitung(5, 6)"
       },
       {
         "key": "D",
-        "text": "nilai = proses(hitung(3, 0))"
+        "text": "nilai = proses(11)"
       },
       {
         "key": "E",
-        "text": "nilai = hitung(11, 0)"
+        "text": "nilai = proses(hitung(3, 0))"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "KOMPOSISI FUNGSI MATEMATIKA",
       "latex": "f(g(a, b)) \\implies \\text{hitung}(3, 0) = 3 + 0 + 2 = 5 \\implies \\text{proses}(5) = 5 \\times 2 + 1 = 11",
@@ -832,7 +838,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Uji setiap opsi dengan mensubstitusikan nilai parameter ke dalam definisi fungsi hitung dan proses.",
       "execution": "Hitung: hitung(3, 0) = 3 + 0 + 2 = 5. Lalu proses(5) = 5 * 2 + 1 = 11."
     },
-    "explanation": "Pada opsi D: hitung(3, 0) menghasilkan 3 + 0 + 2 = 5. Kemudian proses(5) menghasilkan 5 * 2 + 1 = 11. Opsi A menghasilkan 7, Opsi B menghasilkan 13, Opsi C menghasilkan 23, Opsi E menghasilkan 13. Jawaban yang tepat adalah D.",
+    "explanation": "Pada opsi D: hitung(3, 0) menghasilkan 3 + 0 + 2 = 5. Kemudian proses(5) menghasilkan 5 * 2 + 1 = 11. Opsi A menghasilkan 7, Opsi B menghasilkan 13, Opsi C menghasilkan 23, Opsi E menghasilkan 13. Jawaban yang tepat adalah E.",
     "isDiagnostic": false
   },
   {
@@ -851,22 +857,22 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menampilkan angka 150 tanpa kesalahan."
-      },
-      {
-        "key": "C",
-        "text": "Menampilkan angka 100 tanpa kesalahan."
-      },
-      {
-        "key": "D",
         "text": "Menampilkan teks \"poin_dasar + bonus\"."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menampilkan angka 150 tanpa kesalahan."
+      },
+      {
+        "key": "D",
         "text": "Menghasilkan pesan kesalahan (NameError) karena variabel bonus bersifat lokal di dalam fungsi hitung_skor()."
+      },
+      {
+        "key": "E",
+        "text": "Menampilkan angka 100 tanpa kesalahan."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "LOCAL VS GLOBAL SCOPE",
       "latex": "\\text{Variable inside function} \\implies \\text{Local Scope} \\implies \\text{Inaccessible from global scope}",
@@ -876,7 +882,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Variabel 'bonus' berada di dalam fungsi (local scope). Lingkup global di luar fungsi tidak mengenali variabel tersebut.",
       "execution": "Memanggil variabel lokal di luar lingkup fungsi akan memicu NameError."
     },
-    "explanation": "Variabel 'bonus' didefinisikan di dalam fungsi hitung_skor, sehingga memiliki lingkup lokal (local scope). Saat interpreter mencoba mengakses variabel tersebut di lingkup global melalui print(bonus), sistem akan melempar pesan kesalahan NameError: name 'bonus' is not defined. Jawaban: E.",
+    "explanation": "Variabel 'bonus' didefinisikan di dalam fungsi hitung_skor, sehingga memiliki lingkup lokal (local scope). Saat interpreter mencoba mengakses variabel tersebut di lingkup global melalui print(bonus), sistem akan melempar pesan kesalahan NameError: name 'bonus' is not defined. Jawaban: D.",
     "isDiagnostic": true
   },
   {
@@ -891,26 +897,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Class adalah nilai kembalian fungsi, sedangkan Object adalah operator logika."
-      },
-      {
-        "key": "B",
         "text": "Class adalah cetak biru (blueprint) yang mendefinisikan atribut dan method, sedangkan Object adalah instansiasi nyata dari class tersebut."
       },
       {
-        "key": "C",
-        "text": "Class hanya dapat menyimpan tipe data Boolean, sedangkan Object hanya menyimpan tipe data String."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Object dibuat terlebih dahulu di dalam kode sumber sebelum Class didefinisikan."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Class dan Object hanya dapat digunakan pada bahasa pemrograman tingkat mesin (Assembly)."
+      },
+      {
+        "key": "D",
+        "text": "Class adalah nilai kembalian fungsi, sedangkan Object adalah operator logika."
+      },
+      {
+        "key": "E",
+        "text": "Class hanya dapat menyimpan tipe data Boolean, sedangkan Object hanya menyimpan tipe data String."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "ANALOGI CLASS VS OBJECT",
       "latex": "\\text{Class (Blueprint / Cetak Biru)} \\xrightarrow{\\text{Instansiasi}} \\text{Object (Instans / Rumah Nyata)}",
@@ -920,7 +926,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Class adalah skema/rancangan cetak biru (seperti denah rumah), sedangkan Object adalah wujud nyata hasil cetakan (rumah jadi).",
       "execution": "Pilihlah definisi yang menyebutkan Class sebagai blueprint dan Object sebagai instansiasi nyata."
     },
-    "explanation": "Class merupakan blueprint atau template yang mendefinisikan variabel (atribut) dan perilaku (method), sedangkan Object adalah wujud instansiasi konkrit dari class tersebut yang menempati memori dengan nilai atribut tersendiri. Jawaban: B.",
+    "explanation": "Class merupakan blueprint atau template yang mendefinisikan variabel (atribut) dan perilaku (method), sedangkan Object adalah wujud instansiasi konkrit dari class tersebut yang menempati memori dengan nilai atribut tersendiri. Jawaban: A.",
     "isDiagnostic": false
   },
   {
@@ -935,7 +941,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "hero1 = Karakter.info(\"Arjuna\", 100)"
+        "text": "hero1 = self.nama(\"Arjuna\")"
       },
       {
         "key": "B",
@@ -943,18 +949,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "hero1 = Karakter(\"Arjuna\", 100)"
-      },
-      {
-        "key": "D",
         "text": "class hero1 = Karakter(100)"
       },
       {
+        "key": "D",
+        "text": "hero1 = Karakter.info(\"Arjuna\", 100)"
+      },
+      {
         "key": "E",
-        "text": "hero1 = self.nama(\"Arjuna\")"
+        "text": "hero1 = Karakter(\"Arjuna\", 100)"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "SINTAKS INSTANSIASI OBJEK (PYTHON)",
       "latex": "\\texttt{nama\\_objek = NamaClass(argumen1, argumen2)}",
@@ -964,7 +970,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Instansiasi dilakukan dengan memanggil nama kelas seperti fungsi, diikuti argumen yang sesuai dengan parameter constructor __init__.",
       "execution": "Pilihlah sintaks hero1 = Karakter(\"Arjuna\", 100)."
     },
-    "explanation": "Di Python, membuat objek dilakukan dengan memanggil nama class diikuti tanda kurung yang berisi argumen constructor: hero1 = Karakter(\"Arjuna\", 100). Constructor __init__ akan terpanggil secara otomatis di latar belakang. Jawaban: C.",
+    "explanation": "Di Python, membuat objek dilakukan dengan memanggil nama class diikuti tanda kurung yang berisi argumen constructor: hero1 = Karakter(\"Arjuna\", 100). Constructor __init__ akan terpanggil secara otomatis di latar belakang. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -979,26 +985,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menetapkan atribut saldo sebagai private dan menyediakan method getter serta setter/mutator yang memvalidasi agar nilai transaksi tidak negatif."
+        "text": "Mengubah tipe data saldo menjadi teks biasa agar tidak bisa dikurangi."
       },
       {
         "key": "B",
-        "text": "Menetapkan atribut saldo sebagai variabel global publik tanpa method apa pun."
+        "text": "Menetapkan atribut saldo sebagai private dan menyediakan method getter serta setter/mutator yang memvalidasi agar nilai transaksi tidak negatif."
       },
       {
         "key": "C",
-        "text": "Menghapus atribut saldo dari class Dompet dan menyimpannya di judul jendela browser."
+        "text": "Menetapkan atribut saldo sebagai variabel global publik tanpa method apa pun."
       },
       {
         "key": "D",
-        "text": "Mengubah tipe data saldo menjadi teks biasa agar tidak bisa dikurangi."
+        "text": "Menghapus atribut saldo dari class Dompet dan menyimpannya di judul jendela browser."
       },
       {
         "key": "E",
         "text": "Mendeklarasikan ulang class Dompet setiap kali pengguna menekan tombol layar."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PRINSIP ENKAPSULASI & DATA HIDING",
       "latex": "\\text{Private Attribute } (\\texttt{\\_saldo}) \\quad + \\quad \\text{Setter: } \\texttt{set\\_saldo(val) if val } \\ge 0 \\implies \\text{Data Integrity}",
@@ -1008,7 +1014,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Enkapsulasi melindungi atribut dari manipulasi ilegal dengan menjadikannya private dan menyediakan method setter dengan aturan validasi.",
       "execution": "Pilihlah penerapan atribut private disertai method getter dan setter bervalidasi."
     },
-    "explanation": "Prinsip enkapsulasi mengharuskan data sensitif disembunyikan (private) dan hanya dapat diakses atau diubah melalui method getter dan setter. Pada setter, kode validasi disematkan guna memastikan nilai saldo tidak pernah menjadi negatif. Jawaban: A.",
+    "explanation": "Prinsip enkapsulasi mengharuskan data sensitif disembunyikan (private) dan hanya dapat diakses atau diubah melalui method getter dan setter. Pada setter, kode validasi disematkan guna memastikan nilai saldo tidak pernah menjadi negatif. Jawaban: B.",
     "isDiagnostic": true
   },
   {
@@ -1023,26 +1029,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "private"
+        "text": "anonymous"
       },
       {
         "key": "B",
-        "text": "global"
-      },
-      {
-        "key": "C",
-        "text": "static konstanta luar"
-      },
-      {
-        "key": "D",
         "text": "protected"
       },
       {
+        "key": "C",
+        "text": "private"
+      },
+      {
+        "key": "D",
+        "text": "global"
+      },
+      {
         "key": "E",
-        "text": "anonymous"
+        "text": "static konstanta luar"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TABEL ACCESS MODIFIERS",
       "latex": "\\begin{array}{|l|c|c|c|} \\hline \\textbf{Modifier} & \\textbf{Same Class} & \\textbf{Subclass} & \\textbf{World} \\\\ \\hline \\text{public} & \\checkmark & \\checkmark & \\checkmark \\\\ \\hline \\text{protected} & \\checkmark & \\checkmark & \\times \\\\ \\hline \\text{private} & \\checkmark & \\times & \\times \\\\ \\hline \\end{array}",
@@ -1052,7 +1058,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Protected mengizinkan akses bagi kelas induk dan kelas turunannya (inheritance hierarchy), tetapi membatasi akses dari luar.",
       "execution": "Pilihlah access modifier 'protected'."
     },
-    "explanation": "Access modifier 'protected' dirancang secara khusus untuk relasi pewarisan: anggota kelas dapat diakses oleh kelas tempat ia dideklarasikan serta kelas-kelas turunannya (subclass), namun terlindung dari akses langsung kode luar. Jawaban: D.",
+    "explanation": "Access modifier 'protected' dirancang secara khusus untuk relasi pewarisan: anggota kelas dapat diakses oleh kelas tempat ia dideklarasikan serta kelas-kelas turunannya (subclass), namun terlindung dari akses langsung kode luar. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -1067,23 +1073,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "class MusuhBoss:\n    Karakter(nama, hp)"
+        "text": "class Karakter(MusuhBoss): self.elemen = elemen"
       },
       {
         "key": "B",
-        "text": "def MusuhBoss(Karakter):\n    return nama + hp"
+        "text": "MusuhBoss = super(Karakter.elemen)"
       },
       {
         "key": "C",
-        "text": "class MusuhBoss(Karakter):\n    def __init__(self, nama, hp, elemen):\n        super().__init__(nama, hp)\n        self.elemen = elemen"
+        "text": "class MusuhBoss(Karakter): def __init__(self, nama, hp, elemen): super().__init__(nama, hp) self.elemen = elemen"
       },
       {
         "key": "D",
-        "text": "class Karakter(MusuhBoss):\n    self.elemen = elemen"
+        "text": "class MusuhBoss: Karakter(nama, hp)"
       },
       {
         "key": "E",
-        "text": "MusuhBoss = super(Karakter.elemen)"
+        "text": "def MusuhBoss(Karakter): return nama + hp"
       }
     ],
     "correctKey": "C",
@@ -1111,7 +1117,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perusahaan bebas menutup seluruh kode sumber produk komersialnya tanpa kewajiban apa pun asalkan membayar royalti."
+        "text": "Hak cipta modul otomatis berpindah menjadi milik perusahaan begitu kode diunduh."
       },
       {
         "key": "B",
@@ -1119,15 +1125,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Perusahaan harus menghapus nama pencipta asli dari berkas dokumentasi agar tidak terjadi konflik hak cipta."
-      },
-      {
-        "key": "D",
         "text": "Modul GPL sama sekali tidak boleh digunakan untuk tujuan bisnis atau operasional organisasi apa pun."
       },
       {
+        "key": "D",
+        "text": "Perusahaan harus menghapus nama pencipta asli dari berkas dokumentasi agar tidak terjadi konflik hak cipta."
+      },
+      {
         "key": "E",
-        "text": "Hak cipta modul otomatis berpindah menjadi milik perusahaan begitu kode diunduh."
+        "text": "Perusahaan bebas menutup seluruh kode sumber produk komersialnya tanpa kewajiban apa pun asalkan membayar royalti."
       }
     ],
     "correctKey": "B",
@@ -1155,19 +1161,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Langsung mengambil angka rata-rata hitung matematis dari kedua nilai tersebut tanpa diskusi."
-      },
-      {
-        "key": "B",
-        "text": "Memberikan kesempatan kepada pemberi estimasi terendah dan tertinggi untuk menjelaskan asumsi dan kompleksitas teknisnya sebelum estimasi ulang."
-      },
-      {
-        "key": "C",
         "text": "Scrum Master secara sepihak memaksakan angka estimasi yang sesuai dengan tenggat waktu pimpinan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menghapus user story tersebut dari Product Backlog karena dianggap tidak layak dikerjakan."
+      },
+      {
+        "key": "C",
+        "text": "Langsung mengambil angka rata-rata hitung matematis dari kedua nilai tersebut tanpa diskusi."
+      },
+      {
+        "key": "D",
+        "text": "Memberikan kesempatan kepada pemberi estimasi terendah dan tertinggi untuk menjelaskan asumsi dan kompleksitas teknisnya sebelum estimasi ulang."
       },
       {
         "key": "E",
@@ -1183,9 +1189,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Perbedaan estimasi ekstrem menunjukkan adanya asumsi teknis atau risiko tersembunyi yang belum diketahui salah satu pihak.",
       "execution": "Pilihlah langkah kolaboratif di mana kedua pihak yang memberi nilai ekstrem mendiskusikan asumsi mereka untuk mencapai konsensus tim."
     },
-    "explanation": "Dalam Planning Poker, perbedaan nilai estimasi yang ekstrem (misalnya 2 vs 13) menandakan adanya gap pemahaman: pihak yang memberi nilai 2 mungkin melihat solusi sederhana yang belum disadari orang lain, atau pihak yang memberi 13 menyadari adanya risiko teknis berat. Diskusi antara nilai terendah dan tertinggi dilakukan untuk menyelaraskan asumsi sebelum putaran voting ulang. Jawaban: B.",
+    "explanation": "Dalam Planning Poker, perbedaan nilai estimasi yang ekstrem (misalnya 2 vs 13) menandakan adanya gap pemahaman: pihak yang memberi nilai 2 mungkin melihat solusi sederhana yang belum disadari orang lain, atau pihak yang memberi 13 menyadari adanya risiko teknis berat. Diskusi antara nilai terendah dan tertinggi dilakukan untuk menyelaraskan asumsi sebelum putaran voting ulang. Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-m-03",
@@ -1199,11 +1205,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggantikan peran seluruh pengembang manusia dengan kecerdasan buatan."
+        "text": "Mengharuskan server produksi dimatikan secara total selama proses pengujian berlangsung."
       },
       {
         "key": "B",
-        "text": "Menemukan dan memperbaiki cacat program (bug) sedini mungkin saat biaya perbaikannya masih paling rendah."
+        "text": "Menggantikan peran seluruh pengembang manusia dengan kecerdasan buatan."
       },
       {
         "key": "C",
@@ -1211,11 +1217,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menunda waktu peluncuran aplikasi ke pasar agar pelanggan merasa produk lebih eksklusif."
+        "text": "Menemukan dan memperbaiki cacat program (bug) sedini mungkin saat biaya perbaikannya masih paling rendah."
       },
       {
         "key": "E",
-        "text": "Mengharuskan server produksi dimatikan secara total selama proses pengujian berlangsung."
+        "text": "Menunda waktu peluncuran aplikasi ke pasar agar pelanggan merasa produk lebih eksklusif."
       }
     ],
     "formulaHud": {
@@ -1227,9 +1233,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prinsip shift-left testing berorientasi pada pencegahan cacat sejak awal siklus pengkodean.",
       "execution": "Pilihlah jawaban yang menyoroti efisiensi biaya dan deteksi dini bug sebelum mencapai tahap rilis."
     },
-    "explanation": "Prinsip Shift-Left Testing menggeser pengujian ke tahap awal siklus pengembangan. Menurut riset rekayasa perangkat lunak (Boehm & Basili), biaya memperbaiki cacat program yang ditemukan pada tahap koding/unit test jauh lebih murah hingga puluhan kali lipat dibandingkan jika bug tersebut lolos sampai lingkungan produksi. Jawaban: B.",
+    "explanation": "Prinsip Shift-Left Testing menggeser pengujian ke tahap awal siklus pengembangan. Menurut riset rekayasa perangkat lunak (Boehm & Basili), biaya memperbaiki cacat program yang ditemukan pada tahap koding/unit test jauh lebih murah hingga puluhan kali lipat dibandingkan jika bug tersebut lolos sampai lingkungan produksi. Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-m-04",
@@ -1247,7 +1253,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Final Enterprise Release"
+        "text": "Proof of Hardware Concept"
       },
       {
         "key": "C",
@@ -1255,11 +1261,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Proof of Hardware Concept"
+        "text": "Disposable Throwaway Script"
       },
       {
         "key": "E",
-        "text": "Disposable Throwaway Script"
+        "text": "Final Enterprise Release"
       }
     ],
     "formulaHud": {
@@ -1331,11 +1337,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus folder `.git` agar seluruh riwayat konflik hilang dan repositori menjadi bersih."
+        "text": "Mengganti nama ekstensi file `payment.py` menjadi `payment.txt` agar Git tidak mengenali file kode tersebut."
       },
       {
         "key": "B",
-        "text": "Membuka file `payment.py`, menganalisis penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), memilih/menggabungkan baris kode yang benar, menyimpan file, lalu menjalankan `git add` dan `git commit`."
+        "text": "Menjalankan perintah `git push --force` ke server produksi agar konflik tertimpa secara otomatis."
       },
       {
         "key": "C",
@@ -1343,11 +1349,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menjalankan perintah `git push --force` ke server produksi agar konflik tertimpa secara otomatis."
+        "text": "Menghapus folder `.git` agar seluruh riwayat konflik hilang dan repositori menjadi bersih."
       },
       {
         "key": "E",
-        "text": "Mengganti nama ekstensi file `payment.py` menjadi `payment.txt` agar Git tidak mengenali file kode tersebut."
+        "text": "Membuka file `payment.py`, menganalisis penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), memilih/menggabungkan baris kode yang benar, menyimpan file, lalu menjalankan `git add` dan `git commit`."
       }
     ],
     "formulaHud": {
@@ -1359,9 +1365,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Konflik Git terjadi jika baris file yang sama diubah secara berbeda oleh dua commit. Programmer harus memutuskan logika mana yang dipertahankan.",
       "execution": "Pilihlah urutan: periksa penanda konflik, selesaikan manual, tandai selesai dengan `git add`, dan rekam dengan `git commit`."
     },
-    "explanation": "Langkah standar menyelesaikan Git merge conflict adalah memeriksa file yang berkonflik, menyunting penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`) untuk memastikan logika kode yang benar tetap utuh, lalu menandai file dengan `git add payment.py` dan membuat commit penyelesaian menggunakan `git commit`. Jawaban: B.",
+    "explanation": "Langkah standar menyelesaikan Git merge conflict adalah memeriksa file yang berkonflik, menyunting penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`) untuk memastikan logika kode yang benar tetap utuh, lalu menandai file dengan `git add payment.py` dan membuat commit penyelesaian menggunakan `git commit`. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-m-07",
@@ -1375,19 +1381,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencantumkan nama file `.env` di dalam berkas konfigurasi `.gitignore` sejak inisialisasi awal proyek."
+        "text": "Menyalin file `.env` ke folder `node_modules` agar diabaikan sistem operasi."
       },
       {
         "key": "B",
-        "text": "Mengubah seluruh kata sandi menjadi teks kosong setiap kali programmer melakukan `git push`."
-      },
-      {
-        "key": "C",
         "text": "Mengompresi file `.env` menjadi file ZIP dengan kata sandi sederhana."
       },
       {
+        "key": "C",
+        "text": "Mencantumkan nama file `.env` di dalam berkas konfigurasi `.gitignore` sejak inisialisasi awal proyek."
+      },
+      {
         "key": "D",
-        "text": "Menyalin file `.env` ke folder `node_modules` agar diabaikan sistem operasi."
+        "text": "Mengubah seluruh kata sandi menjadi teks kosong setiap kali programmer melakukan `git push`."
       },
       {
         "key": "E",
@@ -1403,9 +1409,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "File `.gitignore` memberi instruksi kepada Git untuk tidak melacak atau menyertakan file/folder tertentu ke dalam staging area.",
       "execution": "Pilihlah konfigurasi yang memanfaatkan file `.gitignore` untuk mencegah pelacakan berkas rahasia."
     },
-    "explanation": "Menambahkan baris `.env` ke dalam file `.gitignore` memastikan bahwa Git tidak akan pernah melacak atau mengunggah file yang berisi kredensial rahasia ke repositori remote, mencegah kebocoran data sensitif ke publik. Sebagai gantinya, tim biasanya menyertakan `.env.example` sebagai referensi struktur konfigurasi. Jawaban: A.",
+    "explanation": "Menambahkan baris `.env` ke dalam file `.gitignore` memastikan bahwa Git tidak akan pernah melacak atau mengunggah file yang berisi kredensial rahasia ke repositori remote, mencegah kebocoran data sensitif ke publik. Sebagai gantinya, tim biasanya menyertakan `.env.example` sebagai referensi struktur konfigurasi. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-m-08",
@@ -1419,23 +1425,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Carpal Tunnel Syndrome (CTS)"
-      },
-      {
-        "key": "B",
-        "text": "Tinnitus Akut"
-      },
-      {
-        "key": "C",
         "text": "Insomnia Degeneratif"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Vertigo Paroksismal"
+      },
+      {
+        "key": "C",
         "text": "Skoliosis Struktural"
       },
       {
+        "key": "D",
+        "text": "Tinnitus Akut"
+      },
+      {
         "key": "E",
-        "text": "Vertigo Paroksismal"
+        "text": "Carpal Tunnel Syndrome (CTS)"
       }
     ],
     "formulaHud": {
@@ -1447,9 +1453,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Sindrom lorong karpal menyerang pergelangan tangan akibat penekanan saraf medianus dalam waktu berkepanjangan.",
       "execution": "Pilihlah istilah medis untuk gangguan saraf pergelangan tangan pada pengguna komputer (singkatan CTS)."
     },
-    "explanation": "Carpal Tunnel Syndrome (CTS) adalah gangguan ergonomis yang umum menyerang pengembang perangkat lunak akibat penekanan saraf medianus pada lorong karpal di pergelangan tangan, dipicu oleh mengetik dalam durasi panjang dengan sudut tangan yang tidak netral. Pencegahannya melibatkan penggunaan wrist rest dan keyboard ergonomis. Jawaban: A.",
+    "explanation": "Carpal Tunnel Syndrome (CTS) adalah gangguan ergonomis yang umum menyerang pengembang perangkat lunak akibat penekanan saraf medianus pada lorong karpal di pergelangan tangan, dipicu oleh mengetik dalam durasi panjang dengan sudut tangan yang tidak netral. Pencegahannya melibatkan penggunaan wrist rest dan keyboard ergonomis. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-m-09",
@@ -1471,15 +1477,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menyimpan data di 3 harddisk internal komputer yang sama selama 2 tahun dan menghapus 1 salinan lama."
-      },
-      {
-        "key": "D",
         "text": "Membagi file menjadi 3 partisi, menyalinnya ke 2 folder lokal, dan mengompresnya 1 kali."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengharuskan sistem di-restart 3 kali, diperiksa oleh 2 manajer, sebelum 1 file dipindahkan."
+      },
+      {
+        "key": "E",
+        "text": "Menyimpan data di 3 harddisk internal komputer yang sama selama 2 tahun dan menghapus 1 salinan lama."
       }
     ],
     "formulaHud": {
@@ -1511,11 +1517,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mengatur indentasi seluruh baris kode menggunakan spasi ganda secara manual."
+        "text": "Membiarkan semua pesan error debug tetap aktif pada server rilis produksi."
       },
       {
         "key": "C",
-        "text": "Menulis komentar penjelasan pada setiap kata kunci program tanpa kecuali."
+        "text": "Mengatur indentasi seluruh baris kode menggunakan spasi ganda secara manual."
       },
       {
         "key": "D",
@@ -1523,7 +1529,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Membiarkan semua pesan error debug tetap aktif pada server rilis produksi."
+        "text": "Menulis komentar penjelasan pada setiap kata kunci program tanpa kecuali."
       }
     ],
     "formulaHud": {
@@ -1551,23 +1557,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Komunikasi langsung berhasil lancar karena switch otomatis merutekan subnet yang berbeda."
-      },
-      {
-        "key": "B",
-        "text": "Komunikasi gagal karena kedua komputer berada pada subnet jaringan yang berbeda dan membutuhkan router (default gateway) untuk meneruskan paket."
-      },
-      {
-        "key": "C",
-        "text": "Komputer B akan otomatis mengubah alamat IP-nya menjadi satu segmen dengan Komputer A."
-      },
-      {
-        "key": "D",
         "text": "Kabel UTP yang terhubung ke Komputer B akan langsung mengalami korsleting fisik."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Data berhasil terkirim asalkan sistem operasi kedua komputer sama-sama Linux."
+      },
+      {
+        "key": "C",
+        "text": "Komunikasi gagal karena kedua komputer berada pada subnet jaringan yang berbeda dan membutuhkan router (default gateway) untuk meneruskan paket."
+      },
+      {
+        "key": "D",
+        "text": "Komunikasi langsung berhasil lancar karena switch otomatis merutekan subnet yang berbeda."
+      },
+      {
+        "key": "E",
+        "text": "Komputer B akan otomatis mengubah alamat IP-nya menjadi satu segmen dengan Komputer A."
       }
     ],
     "formulaHud": {
@@ -1579,9 +1585,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prefix /24 berarti 24 bit pertama (3 oktet pertama) adalah alamat network. Bandingkan 192.168.1.x dengan 192.168.2.x.",
       "execution": "Karena network ID berbeda, paket tidak bisa dikirimkan secara broadcast layer 2 langsung tanpa bantuan router."
     },
-    "explanation": "Dengan prefix /24, subnet mask adalah 255.255.255.0. Komputer A berada pada network 192.168.1.0/24 sedangkan Komputer B berada pada network 192.168.2.0/24. Karena berada pada subnet logis yang berbeda, switch Layer 2 tidak dapat meneruskan komunikasi antar-subnet tersebut tanpa bantuan perangkat Layer 3 (Router). Jawaban: B.",
+    "explanation": "Dengan prefix /24, subnet mask adalah 255.255.255.0. Komputer A berada pada network 192.168.1.0/24 sedangkan Komputer B berada pada network 192.168.2.0/24. Karena berada pada subnet logis yang berbeda, switch Layer 2 tidak dapat meneruskan komunikasi antar-subnet tersebut tanpa bantuan perangkat Layer 3 (Router). Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-m-12",
@@ -1595,7 +1601,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Layanan web backend (service daemon) belum berjalan pada server atau port 8080 terblokir oleh firewall."
+        "text": "Layar monitor server remote dalam kondisi mati (sleep mode)."
       },
       {
         "key": "B",
@@ -1603,7 +1609,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Layar monitor server remote dalam kondisi mati (sleep mode)."
+        "text": "Layanan web backend (service daemon) belum berjalan pada server atau port 8080 terblokir oleh firewall."
       },
       {
         "key": "D",
@@ -1623,9 +1629,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Ping yang berhasil membuktikan jalur fisik dan perutean IP berfungsi. Masalah terjadi di Transport/Application Layer.",
       "execution": "Pilihlah kemungkinan di mana service aplikasi belum listening pada port 8080 atau ditolak oleh firewall lokal server."
     },
-    "explanation": "Ketika ping berhasil (host reachable di layer 3), tetapi koneksi TCP ditolak dengan 'Connection Refused', artinya paket SYN TCP sampai ke server target namun server langsung membalas dengan paket RST (Reset). Hal ini terjadi karena tidak ada aplikasi yang sedang mendengarkan (listening) di port 8080 atau port tersebut diblokir oleh firewall server. Jawaban: A.",
+    "explanation": "Ketika ping berhasil (host reachable di layer 3), tetapi koneksi TCP ditolak dengan 'Connection Refused', artinya paket SYN TCP sampai ke server target namun server langsung membalas dengan paket RST (Reset). Hal ini terjadi karena tidak ada aplikasi yang sedang mendengarkan (listening) di port 8080 atau port tersebut diblokir oleh firewall server. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-m-13",
@@ -1639,15 +1645,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A Record"
+        "text": "MX Record"
       },
       {
         "key": "B",
-        "text": "CNAME Record"
+        "text": "PTR Record"
       },
       {
         "key": "C",
-        "text": "MX Record"
+        "text": "CNAME Record"
       },
       {
         "key": "D",
@@ -1655,7 +1661,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "PTR Record"
+        "text": "A Record"
       }
     ],
     "formulaHud": {
@@ -1667,9 +1673,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Catatan DNS dasar untuk alamat IPv4 terdiri dari satu huruf kapital pertama dalam alfabet.",
       "execution": "Pilihlah catatan DNS bertipe 'A' (Address Record)."
     },
-    "explanation": "A Record (Address Record) adalah jenis record DNS yang paling mendasar, berfungsi menerjemahkan (memetakan) sebuah nama domain atau subdomain menjadi alamat IPv4 numerik 32-bit dari server tujuan. CNAME untuk alias nama, MX untuk server mail, dan TXT untuk verifikasi kepemilikan/SPF. Jawaban: A.",
+    "explanation": "A Record (Address Record) adalah jenis record DNS yang paling mendasar, berfungsi menerjemahkan (memetakan) sebuah nama domain atau subdomain menjadi alamat IPv4 numerik 32-bit dari server tujuan. CNAME untuk alias nama, MX untuk server mail, dan TXT untuk verifikasi kepemilikan/SPF. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-m-14",
@@ -1683,7 +1689,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "POST"
+        "text": "TRACE tanpa parameter"
       },
       {
         "key": "B",
@@ -1699,7 +1705,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "TRACE tanpa parameter"
+        "text": "POST"
       }
     ],
     "formulaHud": {
@@ -1727,23 +1733,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Owner memiliki hak Read & Write (rw-); Group dan Others hanya memiliki hak Read (r--)."
-      },
-      {
-        "key": "B",
-        "text": "Owner memiliki hak Read, Write, Execute (rwx); Group memiliki hak Write; Others tidak punya hak."
-      },
-      {
-        "key": "C",
-        "text": "Semua pengguna memiliki hak Read dan Write secara setara tanpa batasan."
-      },
-      {
-        "key": "D",
         "text": "File tersebut otomatis terenkripsi dan hanya dapat dibuka oleh user root."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Owner memiliki hak Read & Write (rw-); Group dan Others hanya memiliki hak Read (r--)."
+      },
+      {
+        "key": "C",
         "text": "Owner memiliki hak eksekusi saja, sedangkan publik memiliki hak baca dan tulis."
+      },
+      {
+        "key": "D",
+        "text": "Semua pengguna memiliki hak Read dan Write secara setara tanpa batasan."
+      },
+      {
+        "key": "E",
+        "text": "Owner memiliki hak Read, Write, Execute (rwx); Group memiliki hak Write; Others tidak punya hak."
       }
     ],
     "formulaHud": {
@@ -1755,9 +1761,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Nilai biner/oktal permission: Read = 4, Write = 2, Execute = 1. Angka 6 = 4 + 2 (Read & Write). Angka 4 = 4 (Read).",
       "execution": "Owner = 6 (Read+Write), Group = 4 (Read), Others = 4 (Read)."
     },
-    "explanation": "Dalam notasi oktal Linux: Read (r) bernilai 4, Write (w) bernilai 2, dan Execute (x) bernilai 1. Digit pertama (6) untuk Owner bernilai 4+2 = Read & Write. Digit kedua (4) untuk Group bernilai 4 = Read. Digit ketiga (4) untuk Others bernilai 4 = Read. Format simboliknya adalah `-rw-r--r--`. Jawaban: A.",
+    "explanation": "Dalam notasi oktal Linux: Read (r) bernilai 4, Write (w) bernilai 2, dan Execute (x) bernilai 1. Digit pertama (6) untuk Owner bernilai 4+2 = Read & Write. Digit kedua (4) untuk Group bernilai 4 = Read. Digit ketiga (4) untuk Others bernilai 4 = Read. Format simboliknya adalah `-rw-r--r--`. Jawaban: B.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "rpl-lat-m-16",
@@ -1771,11 +1777,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perisai 5"
+        "text": "Panah 3"
       },
       {
         "key": "B",
-        "text": "Ramuan 4"
+        "text": "Ramuan 5"
       },
       {
         "key": "C",
@@ -1783,11 +1789,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Ramuan 5"
+        "text": "Perisai 5"
       },
       {
         "key": "E",
-        "text": "Panah 3"
+        "text": "Ramuan 4"
       }
     ],
     "formulaHud": {
@@ -1799,9 +1805,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Method pop(i) menghapus elemen pada indeks i dan menggeser seluruh elemen di sebelah kanannya satu posisi ke kiri.",
       "execution": "Hitung: indeks 1 semula adalah 'Perisai'. Setelah dihapus, 'Ramuan' (semula indeks 2) bergeser menjadi indeks 1. Jumlah elemen = 4 + 1 - 1 = 4."
     },
-    "explanation": "Pada awal program, inventori berisi 4 elemen. Baris `append('Kunci')` menambah elemen di akhir sehingga menjadi `['Pedang', 'Perisai', 'Ramuan', 'Panah', 'Kunci']` (panjang 5). Baris `pop(1)` menghapus elemen pada indeks 1 yaitu 'Perisai'. Akibatnya elemen di kanannya bergeser ke kiri, sehingga `inventori[1]` kini bernilai 'Ramuan' dan panjang list (`len`) menjadi 4. Jawaban: B.",
+    "explanation": "Pada awal program, inventori berisi 4 elemen. Baris `append('Kunci')` menambah elemen di akhir sehingga menjadi `['Pedang', 'Perisai', 'Ramuan', 'Panah', 'Kunci']` (panjang 5). Baris `pop(1)` menghapus elemen pada indeks 1 yaitu 'Perisai'. Akibatnya elemen di kanannya bergeser ke kiri, sehingga `inventori[1]` kini bernilai 'Ramuan' dan panjang list (`len`) menjadi 4. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-m-17",
@@ -1815,23 +1821,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "20 None"
-      },
-      {
-        "key": "B",
-        "text": "20 === Laporan ==="
-      },
-      {
-        "key": "C",
-        "text": "None None"
-      },
-      {
-        "key": "D",
         "text": "20 Error"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "20 0"
+      },
+      {
+        "key": "C",
+        "text": "20 None"
+      },
+      {
+        "key": "D",
+        "text": "None None"
+      },
+      {
+        "key": "E",
+        "text": "20 === Laporan ==="
       }
     ],
     "formulaHud": {
@@ -1843,9 +1849,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Di Python, fungsi yang tidak memiliki pernyataan `return` eksplisit akan selalu mengembalikan objek `None`.",
       "execution": "`a` menampung nilai return 20. `b` menampung hasil pemanggilan fungsi yang tidak me-return apa pun (`None`)."
     },
-    "explanation": "Fungsi `hitung_luas(5, 4)` mengembalikan nilai hasil perkalian yaitu 20, sehingga variabel `a = 20`. Sementara itu, fungsi `cetak_header` hanya melakukan efek samping mencetak string ke konsol tanpa pernyataan `return`, sehingga nilai kembalian default fungsi di Python adalah `None` (`b = None`). Oleh karena itu, `print(a, b)` menghasilkan `20 None`. Jawaban: A.",
+    "explanation": "Fungsi `hitung_luas(5, 4)` mengembalikan nilai hasil perkalian yaitu 20, sehingga variabel `a = 20`. Sementara itu, fungsi `cetak_header` hanya melakukan efek samping mencetak string ke konsol tanpa pernyataan `return`, sehingga nilai kembalian default fungsi di Python adalah `None` (`b = None`). Oleh karena itu, `print(a, b)` menghasilkan `20 None`. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-m-18",
@@ -1871,14 +1877,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "85.0"
+        "text": "90.0"
       },
       {
         "key": "E",
-        "text": "90.0"
+        "text": "85.0"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DICTIONARY ITERATION & AVERAGE CALCULATION",
       "latex": "\\bar{x} = \\frac{\\sum_{i=1}^{n} \\text{nilai}_i}{n} = \\frac{85 + 92 + 78}{3} = \\frac{255}{3} = 85.0",
@@ -1888,7 +1894,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Jumlahkan semua nilai: 85 + 92 + 78 = 255. Bagi dengan jumlah peserta (3).",
       "execution": "255 / 3 = 85.0."
     },
-    "explanation": "Iterasi dictionary menjumlahkan nilai ketiga siswa: 85 + 92 + 78 = 255. Nilai rata-rata diperoleh dengan membagi total dengan panjang dictionary (3), yaitu 255 / 3 = 85.0. Format `:.1f` mencetaknya dengan satu angka desimal: '85.0'. Jawaban: A.",
+    "explanation": "Iterasi dictionary menjumlahkan nilai ketiga siswa: 85 + 92 + 78 = 255. Nilai rata-rata diperoleh dengan membagi total dengan panjang dictionary (3), yaitu 255 / 3 = 85.0. Format `:.1f` mencetaknya dengan satu angka desimal: '85.0'. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -1903,11 +1909,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "6"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "9"
+        "text": "6"
       },
       {
         "key": "C",
@@ -1915,14 +1921,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "3"
+        "text": "9"
       },
       {
         "key": "E",
         "text": "16"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "NESTED LOOP TRACING",
       "latex": "\\text{Total Iterasi} = \\sum_{i=1}^{3} (4 - i) = (4-1) + (4-2) + (4-3) = 3 + 2 + 1 = 6",
@@ -1932,7 +1938,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Lakukan trace untuk setiap nilai i (1, 2, 3). Range(i, 4) berhenti sebelum angka 4.",
       "execution": "Hitung jumlah perulangan dalam untuk setiap i: i=1 ada 3 iterasi, i=2 ada 2 iterasi, i=3 ada 1 iterasi. Jumlahkan: 3 + 2 + 1 = 6."
     },
-    "explanation": "Pada `i = 1`, loop dalam `range(1, 4)` berjalan untuk j = 1, 2, 3 (3 kali). Pada `i = 2`, loop dalam `range(2, 4)` berjalan untuk j = 2, 3 (2 kali). Pada `i = 3`, loop dalam `range(3, 4)` berjalan untuk j = 3 (1 kali). Total penambahan nilai counter adalah 3 + 2 + 1 = 6. Jawaban: A.",
+    "explanation": "Pada `i = 1`, loop dalam `range(1, 4)` berjalan untuk j = 1, 2, 3 (3 kali). Pada `i = 2`, loop dalam `range(2, 4)` berjalan untuk j = 2, 3 (2 kali). Pada `i = 3`, loop dalam `range(3, 4)` berjalan untuk j = 3 (1 kali). Total penambahan nilai counter adalah 3 + 2 + 1 = 6. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -1947,7 +1953,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "12000 5000"
+        "text": "17000 2000"
       },
       {
         "key": "B",
@@ -1955,15 +1961,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "15000 5000"
+        "text": "Error: UnboundLocalError"
       },
       {
         "key": "D",
-        "text": "17000 2000"
+        "text": "12000 5000"
       },
       {
         "key": "E",
-        "text": "Error: UnboundLocalError"
+        "text": "15000 5000"
       }
     ],
     "formulaHud": {
@@ -1975,9 +1981,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Variabel di dalam fungsi bersifat lokal kecuali dideklarasikan dengan kata kunci `global`. Variabel global di luar tidak berubah.",
       "execution": "Di dalam fungsi: pokok (10000) + bonus lokal (2000) = 12000. Di luar fungsi: bonus global tetap 5000."
     },
-    "explanation": "Variabel `bonus = 2000` yang dibuat di dalam fungsi `hitung_gaji` merupakan variabel lokal (local scope) yang menutupi variabel global hanya di dalam tubuh fungsi tersebut. Hasil fungsi adalah 10000 + 2000 = 12000. Saat fungsi selesai, variabel `bonus` di lingkup global tetap tidak berubah yaitu 5000. Oleh karena itu, outputnya adalah `12000 5000`. Jawaban: A.",
+    "explanation": "Variabel `bonus = 2000` yang dibuat di dalam fungsi `hitung_gaji` merupakan variabel lokal (local scope) yang menutupi variabel global hanya di dalam tubuh fungsi tersebut. Hasil fungsi adalah 10000 + 2000 = 12000. Saat fungsi selesai, variabel `bonus` di lingkup global tetap tidak berubah yaitu 5000. Oleh karena itu, outputnya adalah `12000 5000`. Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-m-21",
@@ -1991,23 +1997,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "5 25"
+        "text": "Error: p1.stok is private"
       },
       {
         "key": "B",
-        "text": "5 5"
-      },
-      {
-        "key": "C",
-        "text": "10 25"
-      },
-      {
-        "key": "D",
         "text": "5 10"
       },
       {
+        "key": "C",
+        "text": "5 5"
+      },
+      {
+        "key": "D",
+        "text": "5 25"
+      },
+      {
         "key": "E",
-        "text": "Error: p1.stok is private"
+        "text": "10 25"
       }
     ],
     "formulaHud": {
@@ -2019,9 +2025,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Setiap instans objek dari sebuah class mengalokasikan ruang memori sendiri untuk atribut instansnya.",
       "execution": "p1.stok diubah menjadi 5. p2.stok tetap 25 sesuai inisialisasi constructor-nya."
     },
-    "explanation": "Objek `p1` dan `p2` adalah dua instans independen dari class `Produk`. Pada saat pembuatan, `p1.stok` bernilai 10 (dari default parameter), dan `p2.stok` bernilai 25. Perintah `p1.stok = 5` hanya mengubah nilai atribut pada objek `p1`. Nilai atribut pada objek `p2` tetap 25. Maka outputnya adalah `5 25`. Jawaban: A.",
+    "explanation": "Objek `p1` dan `p2` adalah dua instans independen dari class `Produk`. Pada saat pembuatan, `p1.stok` bernilai 10 (dari default parameter), dan `p2.stok` bernilai 25. Perintah `p1.stok = 5` hanya mengubah nilai atribut pada objek `p1`. Nilai atribut pada objek `p2` tetap 25. Maka outputnya adalah `5 25`. Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-m-22",
@@ -2035,23 +2041,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Method Overriding, menghasilkan: Bahan bakar umum | Baterai daya listrik"
-      },
-      {
-        "key": "B",
         "text": "Method Overloading, menghasilkan: Bahan bakar umum | Bahan bakar umum"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Multiple Inheritance, menghasilkan: Baterai daya listrik | Baterai daya listrik"
       },
       {
+        "key": "C",
+        "text": "Interface Segregation, menghasilkan: None | None"
+      },
+      {
         "key": "D",
-        "text": "Data Abstraction, menghasilkan: Error: method duplicate"
+        "text": "Method Overriding, menghasilkan: Bahan bakar umum | Baterai daya listrik"
       },
       {
         "key": "E",
-        "text": "Interface Segregation, menghasilkan: None | None"
+        "text": "Data Abstraction, menghasilkan: Error: method duplicate"
       }
     ],
     "formulaHud": {
@@ -2063,9 +2069,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Mendefinisikan method dengan nama dan parameter sama di kelas anak untuk menggantikan method kelas induk disebut method overriding.",
       "execution": "k.info_energi() memanggil versi Kendaraan, m.info_energi() memanggil versi turunan MotorListrik."
     },
-    "explanation": "Pendefinisian method dengan nama yang sama persis di kelas turunan (`MotorListrik`) untuk menggantikan method milik superclass (`Kendaraan`) adalah bentuk Method Overriding. Objek `k` memanggil method aslinya ('Bahan bakar umum'), sedangkan objek `m` memanggil versi yang sudah dioverride ('Baterai daya listrik'). Jawaban: A.",
+    "explanation": "Pendefinisian method dengan nama yang sama persis di kelas turunan (`MotorListrik`) untuk menggantikan method milik superclass (`Kendaraan`) adalah bentuk Method Overriding. Objek `k` memanggil method aslinya ('Bahan bakar umum'), sedangkan objek `m` memanggil versi yang sudah dioverride ('Baterai daya listrik'). Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-m-23",
@@ -2083,19 +2089,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Fungsi `siarkan()` mewajibkan semua parameter dikonversi menjadi tipe data integer."
-      },
-      {
-        "key": "C",
         "text": "Seluruh class diwajibkan menghapus constructor `__init__` agar dapat diproses."
       },
       {
+        "key": "C",
+        "text": "Fungsi `siarkan()` mewajibkan semua parameter dikonversi menjadi tipe data integer."
+      },
+      {
         "key": "D",
-        "text": "Kedua objek dipaksa menggunakan alokasi memori fisik yang sama di harddisk."
+        "text": "Fungsi `siarkan()` hanya dapat dijalankan pada lingkungan sistem operasi Windows."
       },
       {
         "key": "E",
-        "text": "Fungsi `siarkan()` hanya dapat dijalankan pada lingkungan sistem operasi Windows."
+        "text": "Kedua objek dipaksa menggunakan alokasi memori fisik yang sama di harddisk."
       }
     ],
     "formulaHud": {
@@ -2127,7 +2133,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "50000, karena setoran negatif otomatis mengurangi saldo akun."
+        "text": "Error: AttributeError: private variable cannot be accessed."
       },
       {
         "key": "C",
@@ -2135,11 +2141,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "150000, karena tanda minus diubah menjadi nilai mutlak positif."
+        "text": "50000, karena setoran negatif otomatis mengurangi saldo akun."
       },
       {
         "key": "E",
-        "text": "Error: AttributeError: private variable cannot be accessed."
+        "text": "150000, karena tanda minus diubah menjadi nilai mutlak positif."
       }
     ],
     "formulaHud": {
@@ -2167,23 +2173,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Class attribute dibagi bersama (shared) oleh seluruh objek dari class tersebut, sehingga perubahannya berdampak pada semua objek (output: SMK Pusat Keunggulan - SMK Pusat Keunggulan)."
+        "text": "Program menghasilkan Error: Siswa object has no attribute sekolah."
       },
       {
         "key": "B",
-        "text": "Class attribute hanya dapat dibaca oleh objek pertama saja (output: SMK Pusat Keunggulan - SMK Negeri 1)."
-      },
-      {
-        "key": "C",
-        "text": "Instance attribute otomatis tersimpan di server cloud eksternal."
-      },
-      {
-        "key": "D",
         "text": "Class attribute tidak dapat dimodifikasi setelah class pertama kali didefinisikan."
       },
       {
+        "key": "C",
+        "text": "Class attribute hanya dapat dibaca oleh objek pertama saja (output: SMK Pusat Keunggulan - SMK Negeri 1)."
+      },
+      {
+        "key": "D",
+        "text": "Instance attribute otomatis tersimpan di server cloud eksternal."
+      },
+      {
         "key": "E",
-        "text": "Program menghasilkan Error: Siswa object has no attribute sekolah."
+        "text": "Class attribute dibagi bersama (shared) oleh seluruh objek dari class tersebut, sehingga perubahannya berdampak pada semua objek (output: SMK Pusat Keunggulan - SMK Pusat Keunggulan)."
       }
     ],
     "formulaHud": {
@@ -2195,9 +2201,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Class attribute adalah variabel milik class yang nilainya dibagi bersama oleh seluruh instans objek yang dibuat dari class tersebut.",
       "execution": "Mengubah `Siswa.sekolah` memperbarui nilai bagi seluruh objek (`s1` dan `s2`)."
     },
-    "explanation": "Variabel `sekolah` yang didefinisikan langsung di dalam tubuh class adalah Class Attribute. Variabel ini dimiliki bersama oleh seluruh instans (`s1`, `s2`). Ketika `Siswa.sekolah` diubah menjadi 'SMK Pusat Keunggulan', perubahan ini terefleksi pada seluruh objek yang mengakses atribut tersebut. Outputnya adalah `SMK Pusat Keunggulan - SMK Pusat Keunggulan`. Jawaban: A.",
+    "explanation": "Variabel `sekolah` yang didefinisikan langsung di dalam tubuh class adalah Class Attribute. Variabel ini dimiliki bersama oleh seluruh instans (`s1`, `s2`). Ketika `Siswa.sekolah` diubah menjadi 'SMK Pusat Keunggulan', perubahan ini terefleksi pada seluruh objek yang mengakses atribut tersebut. Outputnya adalah `SMK Pusat Keunggulan - SMK Pusat Keunggulan`. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-h-01",
@@ -2211,7 +2217,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memerintahkan seluruh tim pengembang bekerja lembur 24 jam nonstop setiap hari hingga akhir Sprint."
+        "text": "Mengubah angka estimasi story points dari 65 menjadi 30 secara sepihak di dashboard agar laporan terlihat hijau."
       },
       {
         "key": "B",
@@ -2219,7 +2225,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengubah angka estimasi story points dari 65 menjadi 30 secara sepihak di dashboard agar laporan terlihat hijau."
+        "text": "Memerintahkan seluruh tim pengembang bekerja lembur 24 jam nonstop setiap hari hingga akhir Sprint."
       },
       {
         "key": "D",
@@ -2255,26 +2261,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perusahaan tidak berkewajiban membuka kode sumber karena tidak mendistribusikan salinan biner perangkat lunak secara fisik."
-      },
-      {
-        "key": "B",
-        "text": "Perusahaan WAJIB menyediakan seluruh kode sumber lengkap dari layanan SaaS tersebut kepada seluruh pengguna yang mengaksesnya melalui jaringan."
-      },
-      {
-        "key": "C",
-        "text": "Perusahaan hanya perlu membayar biaya langganan bulanan kepada Free Software Foundation (FSF)."
-      },
-      {
-        "key": "D",
         "text": "Lisensi AGPL v3 otomatis berubah menjadi lisensi MIT yang permisif jika berjalan di server cloud."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Aplikasi cloud tersebut secara otomatis ditutup paksa oleh sistem operasi server."
+      },
+      {
+        "key": "C",
+        "text": "Perusahaan tidak berkewajiban membuka kode sumber karena tidak mendistribusikan salinan biner perangkat lunak secara fisik."
+      },
+      {
+        "key": "D",
+        "text": "Perusahaan WAJIB menyediakan seluruh kode sumber lengkap dari layanan SaaS tersebut kepada seluruh pengguna yang mengaksesnya melalui jaringan."
+      },
+      {
+        "key": "E",
+        "text": "Perusahaan hanya perlu membayar biaya langganan bulanan kepada Free Software Foundation (FSF)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "SOFTWARE LICENSING: AGPL NETWORK COPYLEFT",
       "latex": "\\text{AGPL v3: Section 13 (Remote Network Interaction)} \\implies \\text{Source Code MUST be Offered to Network Users}",
@@ -2284,7 +2290,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Lisensi Affero GPL (AGPL) diciptakan khusus untuk menutup 'ASP loophole', mewajibkan penyedia SaaS membuka kode sumber kepada siapapun yang berinteraksi lewat jaringan.",
       "execution": "Pilihlah jawaban yang menegaskan kewajiban membuka source code lengkap kepada pengguna yang mengakses via web/jaringan."
     },
-    "explanation": "Klausul Pasal 13 pada lisensi AGPL v3 dirancang khusus untuk mengatasi 'SaaS/ASP loophole' pada GPL standar. Jika perangkat lunak yang menggunakan kode AGPL dimodifikasi dan dijalankan di server sehingga pengguna berinteraksi dengannya melalui jaringan komputer (seperti web SaaS), penyedia layanan wajib memberikan akses kode sumber lengkap kepada para pengguna jaringan tersebut. Jawaban: B.",
+    "explanation": "Klausul Pasal 13 pada lisensi AGPL v3 dirancang khusus untuk mengatasi 'SaaS/ASP loophole' pada GPL standar. Jika perangkat lunak yang menggunakan kode AGPL dimodifikasi dan dijalankan di server sehingga pengguna berinteraksi dengannya melalui jaringan komputer (seperti web SaaS), penyedia layanan wajib memberikan akses kode sumber lengkap kepada para pengguna jaringan tersebut. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -2299,7 +2305,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menulis kode koneksi SQL dan string kueri langsung di dalam konstruktor Entity."
+        "text": "Mengizinkan lapisan inti mengimpor driver MySQL secara langsung agar eksekusi lebih cepat."
       },
       {
         "key": "B",
@@ -2311,11 +2317,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengganti seluruh basis data relasional dengan file teks catatan sementara."
+        "text": "Menulis kode koneksi SQL dan string kueri langsung di dalam konstruktor Entity."
       },
       {
         "key": "E",
-        "text": "Mengizinkan lapisan inti mengimpor driver MySQL secara langsung agar eksekusi lebih cepat."
+        "text": "Mengganti seluruh basis data relasional dengan file teks catatan sementara."
       }
     ],
     "formulaHud": {
@@ -2343,23 +2349,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menurunkan target batas minimum coverage di server CI/CD menjadi 50% secara diam-diam."
-      },
-      {
-        "key": "B",
-        "text": "Menulis skenario pengujian unit otomatis (automated unit tests) tambahan untuk menguji percabangan logika baru hingga cakupan kode mencapai minimal 80%."
-      },
-      {
-        "key": "C",
         "text": "Menghapus seluruh fitur baru dari aplikasi agar tidak ada baris kode baru yang diukur."
       },
       {
+        "key": "B",
+        "text": "Menurunkan target batas minimum coverage di server CI/CD menjadi 50% secara diam-diam."
+      },
+      {
+        "key": "C",
+        "text": "Menulis skenario pengujian unit otomatis (automated unit tests) tambahan untuk menguji percabangan logika baru hingga cakupan kode mencapai minimal 80%."
+      },
+      {
         "key": "D",
-        "text": "Mengganti nama file kode sumber menjadi file gambar agar tidak dipindai oleh alat analisis."
+        "text": "Menambahkan komentar kosong sebanyak 10.000 baris untuk menaikkan volume file."
       },
       {
         "key": "E",
-        "text": "Menambahkan komentar kosong sebanyak 10.000 baris untuk menaikkan volume file."
+        "text": "Mengganti nama file kode sumber menjadi file gambar agar tidak dipindai oleh alat analisis."
       }
     ],
     "formulaHud": {
@@ -2371,9 +2377,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Kegagalan Quality Gate akibat rendahnya cakupan kode (coverage) diatasi dengan melengkapi skenario pengujian otomatis, bukan melonggarkan standar mutu.",
       "execution": "Pilihlah opsi penulisan unit test tambahan untuk menguji percabangan logika kode baru."
     },
-    "explanation": "Quality Gate gagal karena metrik Code Coverage pada kode baru hanya 62%, di bawah ambang batas wajib 80%. Artinya, lebih dari sepertiga baris kode baru belum teruji oleh skenario pengujian otomatis. Langkah standar rekayasa perangkat lunak adalah menulis skenario unit test tambahan (menguji kondisi normal dan batas) hingga cakupan pengujian melampaui 80%. Jawaban: B.",
+    "explanation": "Quality Gate gagal karena metrik Code Coverage pada kode baru hanya 62%, di bawah ambang batas wajib 80%. Artinya, lebih dari sepertiga baris kode baru belum teruji oleh skenario pengujian otomatis. Langkah standar rekayasa perangkat lunak adalah menulis skenario unit test tambahan (menguji kondisi normal dan batas) hingga cakupan pengujian melampaui 80%. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-h-05",
@@ -2387,23 +2393,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Unit Tests terbanyak (fondasi luas), Service/Integration Tests sedang, dan UI/End-to-End Tests paling sedikit (puncak piramida)."
+        "text": "Hanya melakukan pengujian stres (Stress Testing) tanpa pernah menguji fungsionalitas."
       },
       {
         "key": "B",
-        "text": "Manual UI Tests 90%, Automated Integration Tests 10%, dan Unit Tests 0%."
-      },
-      {
-        "key": "C",
         "text": "End-to-End Tests terbanyak, Unit Tests sedang, dan Kompilasi paling sedikit."
       },
       {
+        "key": "C",
+        "text": "Unit Tests terbanyak (fondasi luas), Service/Integration Tests sedang, dan UI/End-to-End Tests paling sedikit (puncak piramida)."
+      },
+      {
         "key": "D",
-        "text": "Seluruh pengujian dilakukan secara acak tanpa pembagian tingkatan piramida."
+        "text": "Manual UI Tests 90%, Automated Integration Tests 10%, dan Unit Tests 0%."
       },
       {
         "key": "E",
-        "text": "Hanya melakukan pengujian stres (Stress Testing) tanpa pernah menguji fungsionalitas."
+        "text": "Seluruh pengujian dilakukan secara acak tanpa pembagian tingkatan piramida."
       }
     ],
     "formulaHud": {
@@ -2415,9 +2421,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Unit test cepat dan murah dieksekusi, sehingga harus menjadi fondasi terbanyak. E2E test lambat dan mahal sehingga ditempatkan di puncak piramida.",
       "execution": "Pilihlah struktur: Unit Tests terbanyak di dasar, Integration di tengah, UI/E2E paling sedikit di puncak."
     },
-    "explanation": "Piramida Pengujian menganjurkan struktur di mana Unit Test menjadi fondasi terbesar (cepat dieksekusi, murah, mengisolasi fungsi/metode secara spesifik), diikuti Integration Test pada lapisan tengah (memverifikasi interaksi antar-modul/database), dan E2E/UI Test dengan proporsi paling sedikit di puncak karena prosesnya lambat, berat sumber daya, dan rentan terhadap flakiness. Jawaban: A.",
+    "explanation": "Piramida Pengujian menganjurkan struktur di mana Unit Test menjadi fondasi terbesar (cepat dieksekusi, murah, mengisolasi fungsi/metode secara spesifik), diikuti Integration Test pada lapisan tengah (memverifikasi interaksi antar-modul/database), dan E2E/UI Test dengan proporsi paling sedikit di puncak karena prosesnya lambat, berat sumber daya, dan rentan terhadap flakiness. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-h-06",
@@ -2431,23 +2437,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`git rebase -i HEAD~4` lalu mengubah penanda pada commit kedua hingga keempat menjadi `squash` atau `s`."
-      },
-      {
-        "key": "B",
         "text": "`git delete HEAD~4` dilanjutkan dengan memformat ulang drive komputer."
       },
       {
+        "key": "B",
+        "text": "`git rebase -i HEAD~4` lalu mengubah penanda pada commit kedua hingga keempat menjadi `squash` atau `s`."
+      },
+      {
         "key": "C",
-        "text": "`git clone --mirror` ke folder sementara dan menghapus riwayat log."
+        "text": "`git revert HEAD~4` yang membatalkan seluruh kode yang telah diketik."
       },
       {
         "key": "D",
-        "text": "`git push --all` ke server produksi tanpa review."
+        "text": "`git clone --mirror` ke folder sementara dan menghapus riwayat log."
       },
       {
         "key": "E",
-        "text": "`git revert HEAD~4` yang membatalkan seluruh kode yang telah diketik."
+        "text": "`git push --all` ke server produksi tanpa review."
       }
     ],
     "formulaHud": {
@@ -2459,9 +2465,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Perintah rebase interaktif dengan opsi -i memungkinkan pengembang menggabungkan beberapa commit riwayat lokal menjadi satu (squash).",
       "execution": "Pilihlah perintah `git rebase -i HEAD~4` dengan perintah `squash`."
     },
-    "explanation": "Perintah `git rebase -i HEAD~4` membuka teks editor interaktif untuk 4 commit terakhir. Dengan mengubah kata kunci dari `pick` menjadi `squash` (atau `s`) pada commit-commit kecil perbaikan typo, Git akan melebur commit-commit tersebut ke commit awal sebelumnya menjadi satu commit terpadu, menjaga riwayat git tetap bersih dan informatif. Jawaban: A.",
+    "explanation": "Perintah `git rebase -i HEAD~4` membuka teks editor interaktif untuk 4 commit terakhir. Dengan mengubah kata kunci dari `pick` menjadi `squash` (atau `s`) pada commit-commit kecil perbaikan typo, Git akan melebur commit-commit tersebut ke commit awal sebelumnya menjadi satu commit terpadu, menjaga riwayat git tetap bersih dan informatif. Jawaban: B.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "rpl-lat-h-07",
@@ -2475,7 +2481,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Segera melakukan *Revoke / Invalidate* (mencabut dan merotasi) API Secret Key tersebut di dashboard penyedia layanan, kemudian membersihkan riwayat commit menggunakan alat seperti `git-filter-repo` atau BFG Repo-Cleaner."
+        "text": "Mengirim email massal kepada seluruh pengguna aplikasi meminta mereka tidak menyalin kunci rahasia tersebut."
       },
       {
         "key": "B",
@@ -2483,15 +2489,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengirim email massal kepada seluruh pengguna aplikasi meminta mereka tidak menyalin kunci rahasia tersebut."
-      },
-      {
-        "key": "D",
         "text": "Mematikan server produksi selama 3 bulan hingga riwayat commit terhapus dengan sendirinya."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengubah nama file di repositori menjadi `bukan_rahasia.txt`."
+      },
+      {
+        "key": "E",
+        "text": "Segera melakukan *Revoke / Invalidate* (mencabut dan merotasi) API Secret Key tersebut di dashboard penyedia layanan, kemudian membersihkan riwayat commit menggunakan alat seperti `git-filter-repo` atau BFG Repo-Cleaner."
       }
     ],
     "formulaHud": {
@@ -2503,9 +2509,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prioritas nomor satu saat kredensial bocor adalah mematikan fungsi kredensial itu (revoke & rotate) agar tidak dapat digunakan peretas, baru kemudian membersihkan riwayat commit.",
       "execution": "Pilihlah tindakan pencabutan (revoke) dan rotasi API key sesegera mungkin disusul pembersihan riwayat Git."
     },
-    "explanation": "Prinsip utama penanganan kebocoran kredensial adalah: asumsikan kunci tersebut sudah terkompromi oleh bot pemindai publik dalam hitungan detik. Oleh karena itu, langkah pertama yang mutlak wajib dilakukan adalah me-revoke (membatalkan/mencabut) API Key lama di dashboard penyedia dan menerbitkan kunci baru (rotasi). Setelah akses peretas dinetralisasi, barulah riwayat repositori dibersihkan dengan `git-filter-repo` atau BFG Repo-Cleaner. Jawaban: A.",
+    "explanation": "Prinsip utama penanganan kebocoran kredensial adalah: asumsikan kunci tersebut sudah terkompromi oleh bot pemindai publik dalam hitungan detik. Oleh karena itu, langkah pertama yang mutlak wajib dilakukan adalah me-revoke (membatalkan/mencabut) API Key lama di dashboard penyedia dan menerbitkan kunci baru (rotasi). Setelah akses peretas dinetralisasi, barulah riwayat repositori dibersihkan dengan `git-filter-repo` atau BFG Repo-Cleaner. Jawaban: E.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "rpl-lat-h-08",
@@ -2519,23 +2525,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem wajib pulih dan beroperasi kembali maksimal dalam 15 menit setelah insiden (RTO), serta tidak boleh ada kehilangan data transaksi sama sekali (RPO 0 detik melalui replikasi sinkron)."
-      },
-      {
-        "key": "B",
-        "text": "Data hanya dibackup setiap 15 menit dan sistem diizinkan mati selama 0 hari."
-      },
-      {
-        "key": "C",
-        "text": "Pengguna harus menunggu 15 menit setiap kali melakukan transaksi transfer."
-      },
-      {
-        "key": "D",
         "text": "Server dimatikan selama 15 menit setiap tengah malam untuk pendinginan mesin."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Sistem wajib pulih dan beroperasi kembali maksimal dalam 15 menit setelah insiden (RTO), serta tidak boleh ada kehilangan data transaksi sama sekali (RPO 0 detik melalui replikasi sinkron)."
+      },
+      {
+        "key": "C",
         "text": "Biaya operasional server turun sebesar 15% setiap transaksi bernilai 0 rupiah."
+      },
+      {
+        "key": "D",
+        "text": "Data hanya dibackup setiap 15 menit dan sistem diizinkan mati selama 0 hari."
+      },
+      {
+        "key": "E",
+        "text": "Pengguna harus menunggu 15 menit setiap kali melakukan transaksi transfer."
       }
     ],
     "formulaHud": {
@@ -2547,9 +2553,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "RTO berkaitan dengan WAKTU pemulihan sistem (Downtime). RPO berkaitan dengan TITIK data yang hilang (Data Loss).",
       "execution": "RTO 15 menit = maksimal sistem mati 15 menit. RPO 0 detik = nol kehilangan data transaksi."
     },
-    "explanation": "Recovery Time Objective (RTO) adalah durasi waktu maksimal yang ditoleransi untuk memulihkan sistem perangkat lunak setelah bencana terjadi (15 menit). Recovery Point Objective (RPO) adalah batas maksimal usia data yang boleh hilang diukur dalam waktu; RPO 0 detik berarti arsitektur menggunakan replikasi sinkron multi-region sehingga tidak ada satu pun transaksi yang hilang saat terjadi bencana. Jawaban: A.",
+    "explanation": "Recovery Time Objective (RTO) adalah durasi waktu maksimal yang ditoleransi untuk memulihkan sistem perangkat lunak setelah bencana terjadi (15 menit). Recovery Point Objective (RPO) adalah batas maksimal usia data yang boleh hilang diukur dalam waktu; RPO 0 detik berarti arsitektur menggunakan replikasi sinkron multi-region sehingga tidak ada satu pun transaksi yang hilang saat terjadi bencana. Jawaban: B.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "rpl-lat-h-09",
@@ -2563,23 +2569,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencari kambing hitam dan memberikan sanksi pemotongan gaji kepada engineer yang melakukan eksekusi perintah."
-      },
-      {
-        "key": "B",
-        "text": "Menganalisis kelemahan sistem, kegagalan guardrail/proses otomatisasi, serta merancang tindakan pencegahan sistemik agar kesalahan manusia yang sama tidak berakibat fatal di masa depan."
-      },
-      {
-        "key": "C",
-        "text": "Menghapus seluruh rekaman log insiden dari server agar tidak terlihat oleh auditor."
-      },
-      {
-        "key": "D",
         "text": "Melarang seluruh engineer junior menyentuh papan ketik komputer selama 6 bulan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menghapus seluruh rekaman log insiden dari server agar tidak terlihat oleh auditor."
+      },
+      {
+        "key": "C",
+        "text": "Menganalisis kelemahan sistem, kegagalan guardrail/proses otomatisasi, serta merancang tindakan pencegahan sistemik agar kesalahan manusia yang sama tidak berakibat fatal di masa depan."
+      },
+      {
+        "key": "D",
         "text": "Menutup perusahaan dan mengembalikan modal kepada investor."
+      },
+      {
+        "key": "E",
+        "text": "Mencari kambing hitam dan memberikan sanksi pemotongan gaji kepada engineer yang melakukan eksekusi perintah."
       }
     ],
     "formulaHud": {
@@ -2591,9 +2597,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Budaya blameless berfokus pada mengapa sistem mengizinkan kesalahan itu terjadi, bukan menghukum individu yang tidak sengaja melakukannya.",
       "execution": "Pilihlah opsi yang menekankan perbaikan sistem, guardrail, dan pencegahan sistemik."
     },
-    "explanation": "Dalam budaya rekayasa perangkat lunak modern (Google SRE / DevOps), Blameless Post-Mortem berangkat dari prinsip bahwa kesalahan manusia tidak terelakkan. Fokus penyelidikan bukan menyalahkan individu, melainkan menganalisis faktor sistemik: mengapa sistem mengizinkan aksi berbahaya dijalankan tanpa konfirmasi otomatis, mengapa pengujian otomatis tidak mendeteksinya, dan bagaimana membangun guardrail pelindung untuk mencegah insiden berulang. Jawaban: B.",
+    "explanation": "Dalam budaya rekayasa perangkat lunak modern (Google SRE / DevOps), Blameless Post-Mortem berangkat dari prinsip bahwa kesalahan manusia tidak terelakkan. Fokus penyelidikan bukan menyalahkan individu, melainkan menganalisis faktor sistemik: mengapa sistem mengizinkan aksi berbahaya dijalankan tanpa konfirmasi otomatis, mengapa pengujian otomatis tidak mendeteksinya, dan bagaimana membangun guardrail pelindung untuk mencegah insiden berulang. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-h-10",
@@ -2607,19 +2613,19 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`chmod 600 ~/.ssh/id_ed25519`"
-      },
-      {
-        "key": "B",
         "text": "`chmod 777 ~/.ssh/id_ed25519`"
       },
       {
+        "key": "B",
+        "text": "`chown nobody ~/.ssh/id_ed25519`"
+      },
+      {
         "key": "C",
-        "text": "`rm -rf ~/.ssh`"
+        "text": "`chmod 600 ~/.ssh/id_ed25519`"
       },
       {
         "key": "D",
-        "text": "`chown nobody ~/.ssh/id_ed25519`"
+        "text": "`rm -rf ~/.ssh`"
       },
       {
         "key": "E",
@@ -2635,9 +2641,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "File kunci privat SSH harus terlindungi ketat. Hanya pemilik file yang boleh membaca dan menulis (6 = 4+2), pengguna lain tidak boleh memiliki akses apa pun (00).",
       "execution": "Pilihlah perintah `chmod 600` untuk berkas private key."
     },
-    "explanation": "Klien OpenSSH memiliki mekanisme keamanan ketat yang menolak menggunakan file kunci privat jika izin berkasnya terlalu longgar (misalnya 777). File privat hanya boleh diakses oleh pemiliknya sendiri secara eksklusif. Perintah `chmod 600 ~/.ssh/id_ed25519` memberikan hak baca dan tulis (rw-) hanya kepada pemilik, serta mencabut seluruh hak akses bagi grup dan orang lain (---), sehingga memenuhi persyaratan keamanan OpenSSH. Jawaban: A.",
+    "explanation": "Klien OpenSSH memiliki mekanisme keamanan ketat yang menolak menggunakan file kunci privat jika izin berkasnya terlalu longgar (misalnya 777). File privat hanya boleh diakses oleh pemiliknya sendiri secara eksklusif. Perintah `chmod 600 ~/.ssh/id_ed25519` memberikan hak baca dan tulis (rw-) hanya kepada pemilik, serta mencabut seluruh hak akses bagi grup dan orang lain (---), sehingga memenuhi persyaratan keamanan OpenSSH. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-h-11",
@@ -2651,15 +2657,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "6 IP host valid (192.168.10.65 s.d. 192.168.10.70) dan Broadcast: 192.168.10.71"
+        "text": "14 IP host valid (192.168.10.65 s.d. 192.168.10.78) dan Broadcast: 192.168.10.79"
       },
       {
         "key": "B",
-        "text": "8 IP host valid (192.168.10.64 s.d. 192.168.10.71) dan Broadcast: 192.168.10.72"
+        "text": "2 IP host valid (192.168.10.65 s.d. 192.168.10.66) dan Broadcast: 192.168.10.67"
       },
       {
         "key": "C",
-        "text": "14 IP host valid (192.168.10.65 s.d. 192.168.10.78) dan Broadcast: 192.168.10.79"
+        "text": "8 IP host valid (192.168.10.64 s.d. 192.168.10.71) dan Broadcast: 192.168.10.72"
       },
       {
         "key": "D",
@@ -2667,10 +2673,10 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "2 IP host valid (192.168.10.65 s.d. 192.168.10.66) dan Broadcast: 192.168.10.67"
+        "text": "6 IP host valid (192.168.10.65 s.d. 192.168.10.70) dan Broadcast: 192.168.10.71"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "IPV4 SUBNETTING FORMULA: PREFIX /29",
       "latex": "H = 32 - 29 = 3 \\implies \\text{Total IP} = 2^3 = 8, \\quad \\text{Host Valid} = 2^3 - 2 = 6",
@@ -2680,7 +2686,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prefix /29 menyisakan 32 - 29 = 3 bit untuk host. Total IP = 2^3 = 8. Host valid = 8 - 2 = 6.",
       "execution": "Hitung: 64 (Network). 65 s.d. 70 (Host). 71 (Broadcast)."
     },
-    "explanation": "Pada subnet `/29`, jumlah bit host adalah 32 - 29 = 3 bit. Total alamat IP per subnet adalah 2^3 = 8 IP. Alamat network awal adalah 192.168.10.64. Alamat broadcast adalah alamat terakhir dari blok tersebut, yaitu 192.168.10.64 + 7 = 192.168.10.71. Jumlah IP host yang valid yang dapat digunakan perangkat adalah total dikurangi 2 (Network & Broadcast), yaitu 6 host, dengan rentang 192.168.10.65 hingga 192.168.10.70. Jawaban: A.",
+    "explanation": "Pada subnet `/29`, jumlah bit host adalah 32 - 29 = 3 bit. Total alamat IP per subnet adalah 2^3 = 8 IP. Alamat network awal adalah 192.168.10.64. Alamat broadcast adalah alamat terakhir dari blok tersebut, yaitu 192.168.10.64 + 7 = 192.168.10.71. Jumlah IP host yang valid yang dapat digunakan perangkat adalah total dikurangi 2 (Network & Broadcast), yaitu 6 host, dengan rentang 192.168.10.65 hingga 192.168.10.70. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -2695,11 +2701,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`ss -tulpn | grep 3000`"
+        "text": "`ping 3000`"
       },
       {
         "key": "B",
-        "text": "`ping 3000`"
+        "text": "`cat /etc/hosts`"
       },
       {
         "key": "C",
@@ -2707,7 +2713,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "`cat /etc/hosts`"
+        "text": "`ss -tulpn | grep 3000`"
       },
       {
         "key": "E",
@@ -2723,9 +2729,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Perintah `ss` (Socket Statistics) dengan kombinasi flag tulpn menyaring port TCP/UDP yang sedang listening beserta nomor PID prosesnya.",
       "execution": "Pilihlah perintah `ss -tulpn` yang dipadukan dengan pipa `grep 3000`."
     },
-    "explanation": "Perintah `ss` (Socket Statistics) adalah alat standar modern di Linux untuk memeriksa koneksi dan status socket jaringan. Flag `-t` (TCP), `-u` (UDP), `-l` (listening sockets), `-p` (menampilkan Process ID dan nama program), dan `-n` (menampilkan angka port numerik bukan nama layanan), jika dipadukan dengan `grep 3000`, akan secara instan menampilkan apakah port 3000 aktif beserta PID aplikasinya. Jawaban: A.",
+    "explanation": "Perintah `ss` (Socket Statistics) adalah alat standar modern di Linux untuk memeriksa koneksi dan status socket jaringan. Flag `-t` (TCP), `-u` (UDP), `-l` (listening sockets), `-p` (menampilkan Process ID dan nama program), dan `-n` (menampilkan angka port numerik bukan nama layanan), jika dipadukan dengan `grep 3000`, akan secara instan menampilkan apakah port 3000 aktif beserta PID aplikasinya. Jawaban: D.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "rpl-lat-h-13",
@@ -2747,15 +2753,15 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Protokol TCP hanya dapat bekerja pada komputer yang terhubung kabel serat optik."
-      },
-      {
-        "key": "D",
         "text": "UDP mengenkripsi seluruh grafik model 3D secara otomatis pada Layer 2."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "TCP melarang pengiriman data berupa angka desimal koordinat koordinat."
+      },
+      {
+        "key": "E",
+        "text": "Protokol TCP hanya dapat bekerja pada komputer yang terhubung kabel serat optik."
       }
     ],
     "formulaHud": {
@@ -2783,23 +2789,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "OPTIONS"
-      },
-      {
-        "key": "B",
-        "text": "HEAD"
-      },
-      {
-        "key": "C",
-        "text": "CONNECT"
-      },
-      {
-        "key": "D",
         "text": "TRACE"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "CONNECT"
+      },
+      {
+        "key": "C",
+        "text": "OPTIONS"
+      },
+      {
+        "key": "D",
         "text": "GET"
+      },
+      {
+        "key": "E",
+        "text": "HEAD"
       }
     ],
     "formulaHud": {
@@ -2811,9 +2817,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Mekanisme keamanan CORS pada peramban web mengirimkan HTTP OPTIONS request otomatis untuk mengecek izin server.",
       "execution": "Pilihlah metode HTTP OPTIONS."
     },
-    "explanation": "Ketika permintaan lintas-origin (Cross-Origin) bukan merupakan 'Simple Request' (misalnya karena menggunakan header kustom Authorization atau format Content-Type: application/json), spesifikasi CORS W3C/WHATWG mewajibkan peramban mengirimkan Preflight Request menggunakan metode HTTP OPTIONS ke server tujuan untuk memastikan server mengizinkan interaksi tersebut. Jawaban: A.",
+    "explanation": "Ketika permintaan lintas-origin (Cross-Origin) bukan merupakan 'Simple Request' (misalnya karena menggunakan header kustom Authorization atau format Content-Type: application/json), spesifikasi CORS W3C/WHATWG mewajibkan peramban mengirimkan Preflight Request menggunakan metode HTTP OPTIONS ke server tujuan untuk memastikan server mengizinkan interaksi tersebut. Jawaban: C.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "rpl-lat-h-15",
@@ -2831,7 +2837,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Nginx otomatis menulis ulang kode logika backend menjadi bahasa mesin secara instan."
+        "text": "Nginx menggantikan seluruh fungsi basis data relasional di server pusat."
       },
       {
         "key": "C",
@@ -2839,11 +2845,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Nginx menggantikan seluruh fungsi basis data relasional di server pusat."
+        "text": "Nginx membatasi akses aplikasi sehingga hanya dapat dikunjungi oleh satu komputer saja dalam satu waktu."
       },
       {
         "key": "E",
-        "text": "Nginx membatasi akses aplikasi sehingga hanya dapat dikunjungi oleh satu komputer saja dalam satu waktu."
+        "text": "Nginx otomatis menulis ulang kode logika backend menjadi bahasa mesin secara instan."
       }
     ],
     "formulaHud": {
@@ -2871,11 +2877,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "15"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "120"
+        "text": "Error: RecursionError / Stack Overflow"
       },
       {
         "key": "C",
@@ -2883,14 +2889,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "15"
       },
       {
         "key": "E",
-        "text": "Error: RecursionError / Stack Overflow"
+        "text": "120"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "RECURSION TRACE WITH STEP-2",
       "latex": "m(5) = 5 \\times m(3) = 5 \\times (3 \\times m(1)) = 5 \\times 3 \\times 1 = 15",
@@ -2900,7 +2906,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Perhatikan pengurangan pada pemanggilan rekursif: n - 2, bukan n - 1.",
       "execution": "Lacak runtutan: 5 * misteri(3) -> 5 * (3 * misteri(1)) -> 5 * 3 * 1 = 15."
     },
-    "explanation": "Pemanggilan `misteri(5)` menghasilkan evaluasi rantai: `5 * misteri(3)`. Kemudian `misteri(3)` mengevaluasi `3 * misteri(1)`. Karena pada `misteri(1)` nilai `n = 1` memenuhi kondisi basis `n <= 1`, fungsi mengembalikan angka 1. Hasil totalnya adalah `5 * 3 * 1 = 15`. Jawaban: A.",
+    "explanation": "Pemanggilan `misteri(5)` menghasilkan evaluasi rantai: `5 * misteri(3)`. Kemudian `misteri(3)` mengevaluasi `3 * misteri(1)`. Karena pada `misteri(1)` nilai `n = 1` memenuhi kondisi basis `n <= 1`, fungsi mengembalikan angka 1. Hasil totalnya adalah `5 * 3 * 1 = 15`. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -2915,26 +2921,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencetak 10 lalu variabel x berubah menjadi 20."
-      },
-      {
-        "key": "B",
-        "text": "Terjadi UnboundLocalError karena x dianggap variabel lokal (akibat assignment x = 20), tetapi dirujuk oleh print(x) sebelum diberi nilai inisialisasi."
-      },
-      {
-        "key": "C",
         "text": "Mencetak 20."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Mencetak None."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Program berjalan tanpa output apa pun."
+      },
+      {
+        "key": "D",
+        "text": "Terjadi UnboundLocalError karena x dianggap variabel lokal (akibat assignment x = 20), tetapi dirujuk oleh print(x) sebelum diberi nilai inisialisasi."
+      },
+      {
+        "key": "E",
+        "text": "Mencetak 10 lalu variabel x berubah menjadi 20."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PYTHON LEGB SCOPE RESOLUTION",
       "latex": "\\text{Assignment } (x = 20) \\implies x \\in \\text{Local Scope} \\implies \\text{print}(x) \\text{ references unassigned local variable}",
@@ -2944,7 +2950,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Di Python, penugasan variabel (`x = 20`) di dalam fungsi menyebabkan variabel tersebut menjadi lokal di seluruh tubuh fungsi tersebut, sehingga pembacaan sebelumnya menjadi invalid.",
       "execution": "Pilihlah opsi yang menjelaskan terjadinya UnboundLocalError."
     },
-    "explanation": "Pada Python, keberadaan baris `x = 20` di dalam fungsi `ubah()` menyebabkan kompilator menetapkan bahwa `x` adalah variabel lokal (local scope) di sepanjang fungsi tersebut. Akibatnya, ketika baris `print(x)` mencoba membaca nilai `x` sebelum baris penugasan `x = 20` dieksekusi, Python melemparkan `UnboundLocalError: local variable 'x' referenced before assignment`. Untuk membaca dan mengubah variabel global, diperlukan deklarasi eksplisit `global x`. Jawaban: B.",
+    "explanation": "Pada Python, keberadaan baris `x = 20` di dalam fungsi `ubah()` menyebabkan kompilator menetapkan bahwa `x` adalah variabel lokal (local scope) di sepanjang fungsi tersebut. Akibatnya, ketika baris `print(x)` mencoba membaca nilai `x` sebelum baris penugasan `x = 20` dieksekusi, Python melemparkan `UnboundLocalError: local variable 'x' referenced before assignment`. Untuk membaca dan mengubah variabel global, diperlukan deklarasi eksplisit `global x`. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -2959,26 +2965,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "['Apel', 'Jeruk'] ['Apel', 'Jeruk']"
-      },
-      {
-        "key": "B",
-        "text": "['Apel'] ['Jeruk']"
-      },
-      {
-        "key": "C",
-        "text": "['Apel'] ['Apel', 'Jeruk']"
-      },
-      {
-        "key": "D",
         "text": "['Jeruk'] ['Jeruk']"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "['Apel'] ['Apel', 'Jeruk']"
+      },
+      {
+        "key": "C",
+        "text": "['Apel'] ['Jeruk']"
+      },
+      {
+        "key": "D",
         "text": "Error: Default argument cannot be a list"
+      },
+      {
+        "key": "E",
+        "text": "['Apel', 'Jeruk'] ['Apel', 'Jeruk']"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PYTHON MUTABLE DEFAULT ARGUMENT TRAP",
       "latex": "\\text{Default arg } \\texttt{daftar=[]} \\text{ dievaluasi HANYA SEKALI saat definisi fungsi} \\implies \\text{Objek list dibagi bersama}",
@@ -2988,7 +2994,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Di Python, parameter default dibuat sekali saat fungsi didefinisikan, bukan setiap kali fungsi dipanggil. Menggunakan objek mutable (seperti list []) menyimpan riwayat modifikasi sebelumnya.",
       "execution": "Kedua variabel menunjuk ke list yang sama yang sekarang berisi Apel dan Jeruk."
     },
-    "explanation": "Ini adalah perilaku klasik Python yang dikenal sebagai 'Mutable Default Argument Trap'. Argumen default `daftar=[]` dibuat satu kali saja saat fungsi didefinisikan. Pada pemanggilan pertama `tambah_data('Apel')`, list default dimodifikasi berisi `['Apel']`. Pada pemanggilan kedua `tambah_data('Jeruk')`, list default yang sama dimodifikasi kembali sehingga menjadi `['Apel', 'Jeruk']`. Variabel `a` dan `b` keduanya merujuk ke objek list yang sama, sehingga dicetak `['Apel', 'Jeruk'] ['Apel', 'Jeruk']`. Solusi yang benar adalah menggunakan `daftar=None`. Jawaban: A.",
+    "explanation": "Ini adalah perilaku klasik Python yang dikenal sebagai 'Mutable Default Argument Trap'. Argumen default `daftar=[]` dibuat satu kali saja saat fungsi didefinisikan. Pada pemanggilan pertama `tambah_data('Apel')`, list default dimodifikasi berisi `['Apel']`. Pada pemanggilan kedua `tambah_data('Jeruk')`, list default yang sama dimodifikasi kembali sehingga menjadi `['Apel', 'Jeruk']`. Variabel `a` dan `b` keduanya merujuk ke objek list yang sama, sehingga dicetak `['Apel', 'Jeruk'] ['Apel', 'Jeruk']`. Solusi yang benar adalah menggunakan `daftar=None`. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3047,23 +3053,23 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hash Map / Dictionary (menggunakan fungsi hash untuk pemetaan kunci langsung ke lokasi memori)"
+        "text": "File teks sekuensial yang dibaca baris per baris dari harddisk"
       },
       {
         "key": "B",
-        "text": "Singly Linked List tak terurut (pencarian linier O(N))"
+        "text": "Hash Map / Dictionary (menggunakan fungsi hash untuk pemetaan kunci langsung ke lokasi memori)"
       },
       {
         "key": "C",
-        "text": "Array biasa tak terurut (pencarian linier O(N))"
-      },
-      {
-        "key": "D",
         "text": "Queue berbasis antrean FIFO (pencarian O(N))"
       },
       {
+        "key": "D",
+        "text": "Singly Linked List tak terurut (pencarian linier O(N))"
+      },
+      {
         "key": "E",
-        "text": "File teks sekuensial yang dibaca baris per baris dari harddisk"
+        "text": "Array biasa tak terurut (pencarian linier O(N))"
       }
     ],
     "formulaHud": {
@@ -3075,9 +3081,9 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Pencarian berbiaya konstan O(1) memanfaatkan fungsi hash yang langsung memetakan kunci unik ke alamat memori penyimpanan.",
       "execution": "Pilihlah Hash Map / Dictionary."
     },
-    "explanation": "Struktur data Hash Map (dikenal sebagai Dictionary di Python atau HashMap di Java) menggunakan fungsi hash matematis untuk mengonversi kunci menjadi indeks array internal. Rata-rata operasi pencarian, penyisipan, dan penghapusan bernilai konstan O(1), sangat ideal untuk pencarian data bervolume besar dibandingkan array atau linked list yang memerlukan waktu O(N). Jawaban: A.",
+    "explanation": "Struktur data Hash Map (dikenal sebagai Dictionary di Python atau HashMap di Java) menggunakan fungsi hash matematis untuk mengonversi kunci menjadi indeks array internal. Rata-rata operasi pencarian, penyisipan, dan penghapusan bernilai konstan O(1), sangat ideal untuk pencarian data bervolume besar dibandingkan array atau linked list yang memerlukan waktu O(N). Jawaban: B.",
     "isDiagnostic": false,
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "rpl-lat-h-21",
@@ -3091,7 +3097,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "B, karena algoritma C3 Linearization pada Method Resolution Order (MRO) memeriksa class B sebelum class C."
+        "text": "None, karena class D hanya berisi pass."
       },
       {
         "key": "B",
@@ -3099,18 +3105,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "A, karena class A adalah superclass puncak."
-      },
-      {
-        "key": "D",
         "text": "Error: DiamondInheritanceAmbiguityError."
       },
       {
+        "key": "D",
+        "text": "A, karena class A adalah superclass puncak."
+      },
+      {
         "key": "E",
-        "text": "None, karena class D hanya berisi pass."
+        "text": "B, karena algoritma C3 Linearization pada Method Resolution Order (MRO) memeriksa class B sebelum class C."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "OOP: PYTHON C3 LINEARIZATION (MRO)",
       "latex": "\\text{MRO}(D) = [D, B, C, A, \\text{object}] \\implies d.\\text{halo}() \\text{ menemukan } B.\\text{halo}() \\text{ pertama kali}",
@@ -3120,7 +3126,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Di Python, pewarisan berganda diatur oleh MRO (Method Resolution Order) dari kiri ke kanan. D mewarisi B lalu C, sehingga method di B akan dipanggil pertama.",
       "execution": "D tidak punya method halo, maka cari ke B. B memiliki halo() yang mengembalikan 'B'."
     },
-    "explanation": "Python menyelesaikan masalah ambiguitas pewarisan berganda (Diamond Problem) menggunakan algoritma C3 Linearization yang menghasilkan Method Resolution Order (MRO). Karena class `D` didefinisikan sebagai `class D(B, C)`, urutan pencariannya adalah `[D, B, C, A, object]`. Saat `d.halo()` dipanggil, method ditemukan pertama kali pada class `B`, sehingga mencetak 'B'. Jawaban: A.",
+    "explanation": "Python menyelesaikan masalah ambiguitas pewarisan berganda (Diamond Problem) menggunakan algoritma C3 Linearization yang menghasilkan Method Resolution Order (MRO). Karena class `D` didefinisikan sebagai `class D(B, C)`, urutan pencariannya adalah `[D, B, C, A, object]`. Saat `d.halo()` dipanggil, method ditemukan pertama kali pada class `B`, sehingga mencetak 'B'. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3139,19 +3145,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "LaporanPenjualan tidak boleh memiliki fungsi simpan sama sekali."
-      },
-      {
-        "key": "C",
         "text": "Nama variabel harus selalu diawali dengan tiga tanda garis bawah."
       },
       {
+        "key": "C",
+        "text": "LaporanPenjualan tidak boleh memiliki fungsi simpan sama sekali."
+      },
+      {
         "key": "D",
-        "text": "MySQLDatabase harus dihapus dan diganti dengan variabel string lokal biasa."
+        "text": "Class LaporanPenjualan seharusnya mewarisi secara langsung seluruh fungsi sistem operasi."
       },
       {
         "key": "E",
-        "text": "Class LaporanPenjualan seharusnya mewarisi secara langsung seluruh fungsi sistem operasi."
+        "text": "MySQLDatabase harus dihapus dan diganti dengan variabel string lokal biasa."
       }
     ],
     "formulaHud": {
@@ -3179,26 +3185,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi TypeError karena PembayaranQRIS belum mengimplementasikan method abstrak bayar(), sehingga tidak dapat diinstansiasi."
-      },
-      {
-        "key": "B",
-        "text": "Objek berhasil dibuat dan method bayar otomatis mengembalikan angka nol."
-      },
-      {
-        "key": "C",
-        "text": "Sistem membuka kamera smartphone secara otomatis untuk memindai kode QR."
-      },
-      {
-        "key": "D",
         "text": "Class Pembayaran otomatis terhapus dari sistem."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Program mencetak None tanpa error."
+      },
+      {
+        "key": "C",
+        "text": "Objek berhasil dibuat dan method bayar otomatis mengembalikan angka nol."
+      },
+      {
+        "key": "D",
+        "text": "Sistem membuka kamera smartphone secara otomatis untuk memindai kode QR."
+      },
+      {
+        "key": "E",
+        "text": "Terjadi TypeError karena PembayaranQRIS belum mengimplementasikan method abstrak bayar(), sehingga tidak dapat diinstansiasi."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "OOP: ABSTRACT METHOD ENFORCEMENT",
       "latex": "\\text{SubClass} \\text{ without implementation of } @abstractmethod \\implies \\text{TypeError: Can't instantiate abstract class}",
@@ -3208,7 +3214,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Kelas yang mewarisi `ABC` dan memiliki method abstrak tidak dapat diinstansiasi menjadi objek jika subclass belum mengimplementasikan method abstrak tersebut.",
       "execution": "Pilihlah opsi yang menyebutkan TypeError kegagalan instansiasi kelas abstrak."
     },
-    "explanation": "Modul `abc` (Abstract Base Classes) pada Python menerapkan penegakan kontrak antarmuka secara ketat. Ketika sebuah subclass (`PembayaranQRIS`) mewarisi kelas abstrak (`Pembayaran`) tetapi tidak meng-override method yang diberi dekorator `@abstractmethod` (`bayar`), Python melarang instansiasi kelas tersebut dan melemparkan `TypeError: Can't instantiate abstract class PembayaranQRIS with abstract method bayar`. Jawaban: A.",
+    "explanation": "Modul `abc` (Abstract Base Classes) pada Python menerapkan penegakan kontrak antarmuka secara ketat. Ketika sebuah subclass (`PembayaranQRIS`) mewarisi kelas abstrak (`Pembayaran`) tetapi tidak meng-override method yang diberi dekorator `@abstractmethod` (`bayar`), Python melarang instansiasi kelas tersebut dan melemparkan `TypeError: Can't instantiate abstract class PembayaranQRIS with abstract method bayar`. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3227,7 +3233,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Singleton Pattern"
+        "text": "Prototype Pattern"
       },
       {
         "key": "C",
@@ -3239,7 +3245,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Prototype Pattern"
+        "text": "Singleton Pattern"
       }
     ],
     "formulaHud": {
@@ -3267,26 +3273,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ksatria 80"
-      },
-      {
-        "key": "B",
-        "text": "Ksatria 100"
-      },
-      {
-        "key": "C",
         "text": "Pemanah 80"
       },
       {
+        "key": "B",
+        "text": "Error: ShallowCopyException"
+      },
+      {
+        "key": "C",
+        "text": "Ksatria 100"
+      },
+      {
         "key": "D",
-        "text": "Pemanah 100"
+        "text": "Ksatria 80"
       },
       {
         "key": "E",
-        "text": "Error: ShallowCopyException"
+        "text": "Pemanah 100"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "OOP MEMORY: SHALLOW COPY VS DEEP COPY",
       "latex": "k_1.\\text{atribut} \\equiv k_2.\\text{atribut} \\implies \\text{Perubahan atribut bersarang pada } k_2 \\text{ ikut mengubah } k_1",
@@ -3296,7 +3302,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Shallow copy menyalin objek utama, tetapi objek bersarang (dictionary atribut) tetap merujuk pada alamat memori yang sama.",
       "execution": "k2.nama diganti 'Pemanah' tidak mempengaruhi k1.nama ('Ksatria'). Tetapi k2.atribut['hp'] = 80 mengubah dictionary bersama, sehingga k1.atribut['hp'] juga menjadi 80."
     },
-    "explanation": "Pada Shallow Copy (`copy.copy`), objek `k2` dibuat sebagai objek instans baru terpisah dari `k1`, sehingga perubahan `k2.nama = 'Pemanah'` tidak mengubah `k1.nama` (tetap 'Ksatria'). Namun, atribut bersarang yang merupakan objek mutabel (`self.atribut` berupa dictionary) hanya disalin alamat referensi memorinya. Akibatnya, `k1.atribut` dan `k2.atribut` menunjuk pada dictionary yang sama di memori. Mengubah `k2.atribut['hp'] = 80` ikut mengubah `k1.atribut['hp']` menjadi 80. Jawaban: A.",
+    "explanation": "Pada Shallow Copy (`copy.copy`), objek `k2` dibuat sebagai objek instans baru terpisah dari `k1`, sehingga perubahan `k2.nama = 'Pemanah'` tidak mengubah `k1.nama` (tetap 'Ksatria'). Namun, atribut bersarang yang merupakan objek mutabel (`self.atribut` berupa dictionary) hanya disalin alamat referensi memorinya. Akibatnya, `k1.atribut` dan `k2.atribut` menunjuk pada dictionary yang sama di memori. Mengubah `k2.atribut['hp'] = 80` ikut mengubah `k1.atribut['hp']` menjadi 80. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -3311,26 +3317,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menetapkan atribut saldo sebagai private dan menyediakan method getter serta setter/mutator yang memvalidasi agar nilai transaksi tidak negatif."
-      },
-      {
-        "key": "B",
         "text": "Menetapkan atribut saldo sebagai variabel global publik tanpa method apa pun."
       },
       {
-        "key": "C",
-        "text": "Menghapus atribut saldo dari class Dompet dan menyimpannya di judul jendela browser."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Mengubah tipe data saldo menjadi teks biasa agar tidak bisa dikurangi."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menetapkan atribut saldo sebagai private dan menyediakan method getter serta setter/mutator yang memvalidasi agar nilai transaksi tidak negatif."
+      },
+      {
+        "key": "D",
         "text": "Mendeklarasikan ulang class Dompet setiap kali pengguna menekan tombol layar."
+      },
+      {
+        "key": "E",
+        "text": "Menghapus atribut saldo dari class Dompet dan menyimpannya di judul jendela browser."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "OOP: ENKAPSULASI SALDO REKENING",
       "latex": "\\text{Attribute: } -\\text{saldo} \\;(\\text{private}) \\quad \\mid \\quad +\\text{setSaldo}(x): \\; \\text{if } x \\ge 0 \\implies \\text{saldo} = x",
@@ -3340,7 +3346,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Enkapsulasi menyembunyikan state internal objek dengan modifier private dan hanya mengizinkan modifikasi melalui method mutator terproteksi.",
       "execution": "Pilihlah opsi yang menetapkan atribut sebagai private serta menyediakan method getter dan setter bervalidasi."
     },
-    "explanation": "Sesuai prinsip dasar Enkapsulasi, atribut saldo harus disembunyikan (dijadikan private) agar tidak bisa dimanipulasi sewenang-wenang dari luar class. Akses terhadap saldo dikontrol melalui method getter (untuk membaca) dan setter (untuk mengubah), di mana setter dapat memvalidasi nilai input agar saldo tidak menjadi negatif. Jawaban: A.",
+    "explanation": "Sesuai prinsip dasar Enkapsulasi, atribut saldo harus disembunyikan (dijadikan private) agar tidak bisa dimanipulasi sewenang-wenang dari luar class. Akses terhadap saldo dikontrol melalui method getter (untuk membaca) dan setter (untuk mengubah), di mana setter dapat memvalidasi nilai input agar saldo tidak menjadi negatif. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -3355,26 +3361,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya dapat diakses oleh class itu sendiri dan class turunannya (subclass)."
-      },
-      {
-        "key": "B",
         "text": "Dapat diakses secara bebas tanpa batasan oleh file kode program mana pun di seluruh dunia."
       },
       {
-        "key": "C",
-        "text": "Hanya dapat diakses oleh fungsi di luar class yang tidak memiliki izin keamanan."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Otomatis terkunci secara permanen dan tidak dapat dibaca oleh objek apa pun."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Hanya dapat diakses oleh class itu sendiri dan class turunannya (subclass)."
+      },
+      {
+        "key": "D",
         "text": "Hanya dapat dibuka saat komputer tidak terhubung ke jaringan internet."
+      },
+      {
+        "key": "E",
+        "text": "Hanya dapat diakses oleh fungsi di luar class yang tidak memiliki izin keamanan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "UML ACCESS MODIFIERS VISIBILITY",
       "latex": "\\begin{aligned} + & \\text{ : Public (Seluruh lingkup)} \\\\ \\# & \\text{ : Protected (Class itu sendiri \\& Subclass)} \\\\ - & \\text{ : Private (Hanya internal class)} \\end{aligned}",
@@ -3384,7 +3390,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Modifier protected dirancang khusus untuk mendukung mekanisme pewarisan (inheritance).",
       "execution": "Pilihlah cakupan yang mengizinkan akses bagi class itu sendiri dan class-class turunannya (subclass)."
     },
-    "explanation": "Access modifier protected (#) membatasi aksesibilitas elemen kelas sehingga hanya dapat diakses oleh metode di dalam kelas itu sendiri serta kelas-kelas turunannya (subclasses) melalui hierarki pewarisan (inheritance). Publik umum di luar hierarki tidak dapat mengakses anggota protected tersebut. Jawaban: A.",
+    "explanation": "Access modifier protected (#) membatasi aksesibilitas elemen kelas sehingga hanya dapat diakses oleh metode di dalam kelas itu sendiri serta kelas-kelas turunannya (subclasses) melalui hierarki pewarisan (inheritance). Publik umum di luar hierarki tidak dapat mengakses anggota protected tersebut. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -3399,7 +3405,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengeksekusi inisialisasi atribut merk dan tahun yang didefinisikan pada constructor superclass Kendaraan."
+        "text": "Mengubah class Mobil menjadi class yang tidak memiliki method apa pun."
       },
       {
         "key": "B",
@@ -3407,18 +3413,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengubah class Mobil menjadi class yang tidak memiliki method apa pun."
-      },
-      {
-        "key": "D",
         "text": "Menghentikan jalannya program secara otomatis karena terjadi duplikasi atribut."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengonversi seluruh variabel string menjadi angka biner."
+      },
+      {
+        "key": "E",
+        "text": "Mengeksekusi inisialisasi atribut merk dan tahun yang didefinisikan pada constructor superclass Kendaraan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "OOP: SUPERCLASS INITIALIZATION",
       "latex": "\\texttt{super().\\_\\_init\\_\\_(args)} \\implies \\text{Panggil Constructor SuperClass untuk inisialisasi atribut warisan}",
@@ -3428,7 +3434,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Fungsi super() merujuk pada superclass (kelas induk). Pemanggilan super().__init__() menjalankan konstruktor kelas induk.",
       "execution": "Pilihlah jawaban yang menjelaskan eksekusi inisialisasi atribut merk dan tahun pada superclass Kendaraan."
     },
-    "explanation": "Pemanggilan `super().__init__(merk, tahun)` berfungsi memanggil konstruktor dari superclass (`Kendaraan`) untuk menginisialisasi atribut `merk` dan `tahun` yang didefinisikan pada kelas induk tersebut. Hal ini mencegah duplikasi kode dan memastikan objek anak (`Mobil`) memiliki state dasar yang lengkap sesuai rancangan kelas induknya. Jawaban: A.",
+    "explanation": "Pemanggilan `super().__init__(merk, tahun)` berfungsi memanggil konstruktor dari superclass (`Kendaraan`) untuk menginisialisasi atribut `merk` dan `tahun` yang didefinisikan pada kelas induk tersebut. Hal ini mencegah duplikasi kode dan memastikan objek anak (`Mobil`) memiliki state dasar yang lengkap sesuai rancangan kelas induknya. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3443,11 +3449,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Polymorphism melalui mekanisme method overriding"
+        "text": "Serialisasi data melalui format JSON"
       },
       {
         "key": "B",
-        "text": "Serialisasi data melalui format JSON"
+        "text": "Polymorphism melalui mekanisme method overriding"
       },
       {
         "key": "C",
@@ -3455,14 +3461,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kompilasi kode program menjadi bytecode assembly"
+        "text": "Instansiasi variabel global di luar memori"
       },
       {
         "key": "E",
-        "text": "Instansiasi variabel global di luar memori"
+        "text": "Kompilasi kode program menjadi bytecode assembly"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "OOP: POLYMORPHISM VIA OVERRIDING",
       "latex": "\\text{Interface: } \\text{hitung\\_luas}() \\implies \\begin{cases} \\pi \\cdot r^2 & \\text{pada Lingkaran} \\\\ p \\cdot l & \\text{pada PersegiPanjang} \\end{cases}",
@@ -3472,7 +3478,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Satu nama method yang sama tetapi memiliki perilaku implementasi berbeda pada berbagai kelas turunan merupakan inti dari konsep polymorphism (banyak bentuk).",
       "execution": "Pilihlah Polymorphism melalui mekanisme method overriding."
     },
-    "explanation": "Penerapan di mana class turunan mendefinisikan ulang method yang ada pada class induknya dengan nama dan parameter yang sama persis namun logika berbeda merupakan wujud nyata dari konsep Polymorphism melalui mekanisme Method Overriding. Jawaban: A.",
+    "explanation": "Penerapan di mana class turunan mendefinisikan ulang method yang ada pada class induknya dengan nama dan parameter yang sama persis namun logika berbeda merupakan wujud nyata dari konsep Polymorphism melalui mekanisme Method Overriding. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -3491,19 +3497,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "0 lalu 0 lalu 0"
-      },
-      {
-        "key": "C",
-        "text": "49.0 lalu 20 lalu 10"
-      },
-      {
-        "key": "D",
         "text": "154.0 lalu 20 lalu 24"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Error: List tidak dapat menampung objek berbeda class"
+      },
+      {
+        "key": "D",
+        "text": "49.0 lalu 20 lalu 10"
+      },
+      {
+        "key": "E",
+        "text": "0 lalu 0 lalu 0"
       }
     ],
     "correctKey": "A",
@@ -3543,11 +3549,11 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "2 Sprint"
+        "text": "16 Sprint"
       },
       {
         "key": "E",
-        "text": "16 Sprint"
+        "text": "2 Sprint"
       }
     ],
     "correctKey": "A",
@@ -3579,19 +3585,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Paten Sederhana Perangkat Keras"
-      },
-      {
-        "key": "C",
         "text": "Desain Tata Letak Sirkuit Terpadu"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Merek dan Indikasi Geografis"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Rahasia Dagang Pertanian"
+      },
+      {
+        "key": "E",
+        "text": "Paten Sederhana Perangkat Keras"
       }
     ],
     "correctKey": "A",
@@ -3619,26 +3625,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pivot"
-      },
-      {
-        "key": "B",
-        "text": "Bankruptcy"
-      },
-      {
-        "key": "C",
         "text": "Perseverance buta"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Deprecate server"
+      },
+      {
+        "key": "C",
         "text": "Downsizing paksa"
       },
       {
+        "key": "D",
+        "text": "Pivot"
+      },
+      {
         "key": "E",
-        "text": "Deprecate server"
+        "text": "Bankruptcy"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "LEAN STARTUP: THE PIVOT CONCEPT",
       "latex": "\\text{Validated Learning (Feedback)} \\implies \\text{Pivot: Structured course correction to test a new hypothesis}",
@@ -3648,7 +3654,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Istilah perubahan haluan strategi produk berdasarkan umpan balik nyata pengguna untuk menemukan kecocokan pasar (product-market fit).",
       "execution": "Pilihlah istilah 'Pivot'."
     },
-    "explanation": "Dalam technopreneurship dan Lean Startup (Eric Ries), 'Pivot' adalah koreksi arah terstruktur yang dirancang untuk menguji hipotesis baru mengenai produk atau model bisnis berdasarkan pembelajaran tervalidasi (validated learning) dari respon nyata pengguna di pasar. Jawaban: A.",
+    "explanation": "Dalam technopreneurship dan Lean Startup (Eric Ries), 'Pivot' adalah koreksi arah terstruktur yang dirancang untuk menguji hipotesis baru mengenai produk atau model bisnis berdasarkan pembelajaran tervalidasi (validated learning) dari respon nyata pengguna di pasar. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -3663,7 +3669,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendeteksi kelemahan logika, celah keamanan, dan 'code smell' sedini mungkin, sekaligus meratakan transfer pengetahuan (knowledge sharing) antar-anggota tim."
+        "text": "Memperpanjang birokrasi agar rilis aplikasi tertunda selama berbulan-bulan."
       },
       {
         "key": "B",
@@ -3671,7 +3677,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Memperpanjang birokrasi agar rilis aplikasi tertunda selama berbulan-bulan."
+        "text": "Menghapus kebutuhan pengujian unit test dan dokumentasi antarmuka."
       },
       {
         "key": "D",
@@ -3679,10 +3685,10 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghapus kebutuhan pengujian unit test dan dokumentasi antarmuka."
+        "text": "Mendeteksi kelemahan logika, celah keamanan, dan 'code smell' sedini mungkin, sekaligus meratakan transfer pengetahuan (knowledge sharing) antar-anggota tim."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "ENGINEERING EXCELLENCE: CODE REVIEW",
       "latex": "\\text{Peer Review} \\implies \\text{Defect Detection} \\uparrow \\; + \\; \\text{Shared Codebase Ownership} \\uparrow \\; + \\; \\text{Bus Factor} \\downarrow",
@@ -3692,7 +3698,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Code review bertujuan untuk meningkatkan kualitas kode, mencegah bug lolos ke produksi, dan memfasilitasi pertukaran ilmu.",
       "execution": "Pilihlah opsi yang menyebutkan deteksi kelemahan logika, celah keamanan, dan knowledge sharing."
     },
-    "explanation": "Peer Code Review adalah praktik standar industri di mana sesama pengembang memeriksa kode rekan kerja sebelum digabung. Praktik ini efektif mendeteksi cacat logika, potensi celah keamanan (seperti SQL injection), menjaga konsistensi gaya kode, serta menyebarkan pemahaman arsitektur sistem secara merata di dalam tim (shared ownership). Jawaban: A.",
+    "explanation": "Peer Code Review adalah praktik standar industri di mana sesama pengembang memeriksa kode rekan kerja sebelum digabung. Praktik ini efektif mendeteksi cacat logika, potensi celah keamanan (seperti SQL injection), menjaga konsistensi gaya kode, serta menyebarkan pemahaman arsitektur sistem secara merata di dalam tim (shared ownership). Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3707,26 +3713,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menginjeksi kredensial melalui Environment Variables (variabel lingkungan sistem) yang disuntikkan secara dinamis saat runtime dari Secret Vault atau orkestrator."
-      },
-      {
-        "key": "B",
         "text": "Menulis kata sandi di baris komentar pertama file index.html."
       },
       {
-        "key": "C",
-        "text": "Menempelkan catatan kertas berisi kata sandi di atas casing monitor server."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Menyimpan kata sandi di dalam gambar PNG logo perusahaan."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Mengirimkan kata sandi melalui pesan SMS terbuka ke seluruh staf setiap 5 menit."
+      },
+      {
+        "key": "D",
+        "text": "Menempelkan catatan kertas berisi kata sandi di atas casing monitor server."
+      },
+      {
+        "key": "E",
+        "text": "Menginjeksi kredensial melalui Environment Variables (variabel lingkungan sistem) yang disuntikkan secara dinamis saat runtime dari Secret Vault atau orkestrator."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "THE TWELVE-FACTOR APP: CONFIG IN ENVIRONMENT",
       "latex": "\\text{Factor III (Config)}: \\quad \\text{Store config in the environment } (\\text{Strict separation of config from code})",
@@ -3736,7 +3742,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prinsip Twelve-Factor App menyatakan konfigurasi rahasia harus disimpan terpisah dari kode sumber, menggunakan Environment Variables.",
       "execution": "Pilihlah injeksi melalui Environment Variables saat runtime."
     },
-    "explanation": "Berdasarkan prinsip 'The Twelve-Factor App', konfigurasi yang bervariasi antar-lingkungan (khususnya kredensial sensitif) tidak boleh di-hardcode di dalam kode program. Praktik terbaik adalah menyuntikkannya sebagai Environment Variables saat aplikasi dijalankan (runtime) dari sistem manajemen rahasia terenkripsi (seperti HashiCorp Vault atau Docker/K8s Secrets). Jawaban: A.",
+    "explanation": "Berdasarkan prinsip 'The Twelve-Factor App', konfigurasi yang bervariasi antar-lingkungan (khususnya kredensial sensitif) tidak boleh di-hardcode di dalam kode program. Praktik terbaik adalah menyuntikkannya sebagai Environment Variables saat aplikasi dijalankan (runtime) dari sistem manajemen rahasia terenkripsi (seperti HashiCorp Vault atau Docker/K8s Secrets). Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3751,26 +3757,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Aturan angka '1', yaitu menyimpan minimal 1 salinan cadangan di lokasi fisik terpisah / off-site (misal Cloud Storage terenkripsi)."
-      },
-      {
-        "key": "B",
-        "text": "Aturan angka '3', yaitu mencetak kode sumber di 3 lembar kertas HVS."
-      },
-      {
-        "key": "C",
-        "text": "Aturan angka '2', yaitu menyalin data ke 2 folder berbeda di dalam laptop yang ikut terbakar."
-      },
-      {
-        "key": "D",
         "text": "Kabel listrik komputer yang terbuat dari bahan tembaga tebal."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Aturan angka '2', yaitu menyalin data ke 2 folder berbeda di dalam laptop yang ikut terbakar."
+      },
+      {
+        "key": "C",
+        "text": "Aturan angka '1', yaitu menyimpan minimal 1 salinan cadangan di lokasi fisik terpisah / off-site (misal Cloud Storage terenkripsi)."
+      },
+      {
+        "key": "D",
         "text": "Sertifikat garansi monitor kantor yang masih aktif."
+      },
+      {
+        "key": "E",
+        "text": "Aturan angka '3', yaitu mencetak kode sumber di 3 lembar kertas HVS."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "OFF-SITE DATA SURVIVABILITY",
       "latex": "\\text{Disaster at Site A } (\\text{Fire/Theft}) \\land 1\\text{ Off-site Copy at Site B (Cloud)} \\implies \\text{Full Data Recovery Possible}",
@@ -3780,7 +3786,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Angka '1' dalam aturan 3-2-1 mewakili 1 salinan di lokasi terpisah (off-site/cloud), yang melindungi dari kehancuran fisik di lokasi lokal.",
       "execution": "Pilihlah aturan angka '1' (off-site / cloud)."
     },
-    "explanation": "Dalam aturan backup 3-2-1, angka '1' menegaskan kewajiban menyimpan minimal 1 salinan data di luar lokasi fisik utama (off-site atau cloud). Jika kantor utama mengalami bencana kehancuran total (seperti kebakaran atau banjir), salinan off-site ini menjadi penjamin tunggal bahwa data perusahaan dapat dipulihkan secara utuh. Jawaban: A.",
+    "explanation": "Dalam aturan backup 3-2-1, angka '1' menegaskan kewajiban menyimpan minimal 1 salinan data di luar lokasi fisik utama (off-site atau cloud). Jika kantor utama mengalami bencana kehancuran total (seperti kebakaran atau banjir), salinan off-site ini menjadi penjamin tunggal bahwa data perusahaan dapat dipulihkan secara utuh. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -3795,26 +3801,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Setiap 20 menit menatap layar, istirahatkan mata selama 20 detik dengan melihat objek yang berjarak minimal 20 kaki (sekitar 6 meter)."
-      },
-      {
-        "key": "B",
-        "text": "Bekerja terus menerus selama 20 jam, tidur selama 20 menit, dan mengonsumsi 20 gelas kopi."
-      },
-      {
-        "key": "C",
         "text": "Menyetel kecerahan monitor pada angka 20% dengan jarak wajah 20 milimeter dari layar."
       },
       {
+        "key": "B",
+        "text": "Setiap 20 menit menatap layar, istirahatkan mata selama 20 detik dengan melihat objek yang berjarak minimal 20 kaki (sekitar 6 meter)."
+      },
+      {
+        "key": "C",
+        "text": "Bekerja terus menerus selama 20 jam, tidur selama 20 menit, dan mengonsumsi 20 gelas kopi."
+      },
+      {
         "key": "D",
-        "text": "Mengedipkan mata sebanyak 20 kali dalam durasi 20 jam kerja."
+        "text": "Membeli monitor baru setiap 20 hari kerja selama 20 tahun."
       },
       {
         "key": "E",
-        "text": "Membeli monitor baru setiap 20 hari kerja selama 20 tahun."
+        "text": "Mengedipkan mata sebanyak 20 kali dalam durasi 20 jam kerja."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "K3LH VISION PROTECTION: RULE OF 20-20-20",
       "latex": "20\\text{ min (Screen)} \\to 20\\text{ sec (Break)} \\to 20\\text{ feet / 6 meters (Focal Relaxation)}",
@@ -3824,7 +3830,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Aturan ini dibuat oleh American Optometric Association: 20 menit bekerja, 20 detik istirahat, pandang sejauh 20 kaki (6 meter).",
       "execution": "Pilihlah opsi yang merinci 20 menit, 20 detik, dan 20 kaki / 6 meter."
     },
-    "explanation": "Aturan 20-20-20 adalah pedoman ergonomi visual standar: setiap 20 menit bekerja di depan layar komputer, istirahatkan mata selama minimal 20 detik dengan mengalihkan fokus pandangan ke objek berjarak setidaknya 20 kaki (sekitar 6 meter) untuk merelaksasi otot fokus mata dan memicu refleks berkedip alami. Jawaban: A.",
+    "explanation": "Aturan 20-20-20 adalah pedoman ergonomi visual standar: setiap 20 menit bekerja di depan layar komputer, istirahatkan mata selama minimal 20 detik dengan mengalihkan fokus pandangan ke objek berjarak setidaknya 20 kaki (sekitar 6 meter) untuk merelaksasi otot fokus mata dan memicu refleks berkedip alami. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -3839,11 +3845,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hotfix Branch"
+        "text": "Feature Branch"
       },
       {
         "key": "B",
-        "text": "Feature Branch"
+        "text": "Staging Backup Branch"
       },
       {
         "key": "C",
@@ -3855,10 +3861,10 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Staging Backup Branch"
+        "text": "Hotfix Branch"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "GIT FLOW: HOTFIX BRANCH LIFECYCLE",
       "latex": "\\texttt{main} \\xrightarrow{\\text{branch}} \\texttt{hotfix/v1.0.1} \\xrightarrow{\\text{patch}} \\begin{cases} \\text{merge into } \\texttt{main} \\\\ \\text{merge into } \\texttt{develop} \\end{cases}",
@@ -3868,7 +3874,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Cabang darurat untuk perbaikan cepat langsung dari produksi dinamakan 'hotfix'.",
       "execution": "Pilihlah 'Hotfix Branch'."
     },
-    "explanation": "Dalam arsitektur Git Flow, cabang Hotfix dibuat langsung dari cabang produksi `main` untuk menangani insiden kritis mendesak yang ditemukan di lingkungan produksi. Setelah perbaikan selesai dan diverifikasi, cabang hotfix segera digabungkan (merge) ke `main` (dengan tagging rilis baru) serta digabungkan ke `develop` agar perbaikan tersebut tidak hilang pada rilis berikutnya. Jawaban: A.",
+    "explanation": "Dalam arsitektur Git Flow, cabang Hotfix dibuat langsung dari cabang produksi `main` untuk menangani insiden kritis mendesak yang ditemukan di lingkungan produksi. Setelah perbaikan selesai dan diverifikasi, cabang hotfix segera digabungkan (merge) ke `main` (dengan tagging rilis baru) serta digabungkan ke `develop` agar perbaikan tersebut tidak hilang pada rilis berikutnya. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3883,11 +3889,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "14 host valid dan Subnet Mask 255.255.255.240"
+        "text": "6 host valid dan Subnet Mask 255.255.255.252"
       },
       {
         "key": "B",
-        "text": "16 host valid dan Subnet Mask 255.255.255.248"
+        "text": "14 host valid dan Subnet Mask 255.255.255.240"
       },
       {
         "key": "C",
@@ -3895,14 +3901,14 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "6 host valid dan Subnet Mask 255.255.255.252"
+        "text": "16 host valid dan Subnet Mask 255.255.255.248"
       },
       {
         "key": "E",
         "text": "12 host valid dan Subnet Mask 255.255.255.192"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "IPV4 SUBNETTING: PREFIX /28",
       "latex": "H = 32 - 28 = 4 \\implies \\text{Total IP} = 2^4 = 16, \\quad \\text{Host Valid} = 16 - 2 = 14",
@@ -3912,7 +3918,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prefix /28 menyisakan 4 bit host (32 - 28 = 4). Total IP = 2^4 = 16. Host valid = 16 - 2 = 14. Oktet terakhir: 11110000 = 240.",
       "execution": "Pilihlah 14 host valid dan subnet mask 255.255.255.240."
     },
-    "explanation": "Pada notasi CIDR /28, jumlah bit untuk host adalah 32 - 28 = 4 bit. Jumlah total alamat IP yang tersedia adalah 2^4 = 16. Mengurangi 1 network address dan 1 broadcast address, diperoleh 14 IP host valid (cukup untuk 12 workstation). Subnet mask oktet ke-4 memiliki 4 bit biner satu (11110000 = 128+64+32+16 = 240), sehingga subnet mask lengkapnya adalah 255.255.255.240. Jawaban: A.",
+    "explanation": "Pada notasi CIDR /28, jumlah bit untuk host adalah 32 - 28 = 4 bit. Jumlah total alamat IP yang tersedia adalah 2^4 = 16. Mengurangi 1 network address dan 1 broadcast address, diperoleh 14 IP host valid (cukup untuk 12 workstation). Subnet mask oktet ke-4 memiliki 4 bit biner satu (11110000 = 128+64+32+16 = 240), sehingga subnet mask lengkapnya adalah 255.255.255.240. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -3927,7 +3933,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`sudo chown www-data:www-data config.json`"
+        "text": "`sudo ifconfig www-data up`"
       },
       {
         "key": "B",
@@ -3935,18 +3941,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "`sudo rm -f config.json`"
+        "text": "`sudo reboot now`"
       },
       {
         "key": "D",
-        "text": "`sudo ifconfig www-data up`"
+        "text": "`sudo rm -f config.json`"
       },
       {
         "key": "E",
-        "text": "`sudo reboot now`"
+        "text": "`sudo chown www-data:www-data config.json`"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "LINUX FILE OWNERSHIP: CHOWN COMMAND",
       "latex": "\\texttt{chown [user]:[group] [target\\_file]} \\implies \\text{Transfer file ownership to specified service account}",
@@ -3956,7 +3962,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Untuk mengubah pemilik (owner) dan grup file di Linux digunakan perintah `chown` (change owner), bukan chmod.",
       "execution": "Pilihlah perintah `sudo chown www-data:www-data config.json`."
     },
-    "explanation": "Perintah `chown` (change owner) adalah utilitas Linux untuk mengganti kepemilikan pengguna dan grup pada suatu berkas. Dengan menjalankan `sudo chown www-data:www-data config.json`, kepemilikan berkas diserahkan kepada akun layanan web server (`www-data`), sehingga aplikasi yang berjalan di bawah akun tersebut dapat membaca konfigurasi tanpa hambatan izin akses. Jawaban: A.",
+    "explanation": "Perintah `chown` (change owner) adalah utilitas Linux untuk mengganti kepemilikan pengguna dan grup pada suatu berkas. Dengan menjalankan `sudo chown www-data:www-data config.json`, kepemilikan berkas diserahkan kepada akun layanan web server (`www-data`), sehingga aplikasi yang berjalan di bawah akun tersebut dapat membaca konfigurasi tanpa hambatan izin akses. Jawaban: E.",
     "isDiagnostic": false
   },
   {
@@ -3971,26 +3977,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "CNAME (Canonical Name) Record"
-      },
-      {
-        "key": "B",
-        "text": "A (Address) Record"
-      },
-      {
-        "key": "C",
-        "text": "PTR (Pointer) Record"
-      },
-      {
-        "key": "D",
         "text": "SOA (Start of Authority) Record"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "PTR (Pointer) Record"
+      },
+      {
+        "key": "C",
         "text": "NS (Name Server) Record"
+      },
+      {
+        "key": "D",
+        "text": "CNAME (Canonical Name) Record"
+      },
+      {
+        "key": "E",
+        "text": "A (Address) Record"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DNS ALIASING MECHANISM",
       "latex": "\\text{portal.smkhebat.sch.id} \\xrightarrow{\\text{CNAME}} \\text{utama.smkhebat.sch.id} \\xrightarrow{\\text{A Record}} 103.10.5.2",
@@ -4000,7 +4006,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Catatan DNS untuk menetapkan alias nama domain ke nama domain lain disebut Canonical Name (CNAME).",
       "execution": "Pilihlah CNAME Record."
     },
-    "explanation": "CNAME Record (Canonical Name Record) adalah tipe catatan DNS yang memetakan sebuah nama alias (alias domain) ke nama domain yang sebenarnya (canonical domain). Keuntungan CNAME adalah jika alamat IP server berubah, administrator cukup memperbarui satu A Record milik domain kanonikal saja. Jawaban: A.",
+    "explanation": "CNAME Record (Canonical Name Record) adalah tipe catatan DNS yang memetakan sebuah nama alias (alias domain) ke nama domain yang sebenarnya (canonical domain). Keuntungan CNAME adalah jika alamat IP server berubah, administrator cukup memperbarui satu A Record milik domain kanonikal saja. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -4015,26 +4021,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "401 menandakan kegagalan Otentikasi (identitas pengguna belum terverifikasi/belum login), sedangkan 403 menandakan kegagalan Otorisasi (identitas terverifikasi tetapi tidak memiliki hak akses/izin atas aksi tersebut)."
+        "text": "401 menandakan server sedang memproses data, sedangkan 403 menandakan proses selesai sukses."
       },
       {
         "key": "B",
-        "text": "401 menandakan kabel jaringan putus, sedangkan 403 menandakan komputer server meledak."
+        "text": "401 menandakan kegagalan Otentikasi (identitas pengguna belum terverifikasi/belum login), sedangkan 403 menandakan kegagalan Otorisasi (identitas terverifikasi tetapi tidak memiliki hak akses/izin atas aksi tersebut)."
       },
       {
         "key": "C",
-        "text": "401 untuk browser Chrome, sedangkan 403 khusus untuk browser Firefox."
-      },
-      {
-        "key": "D",
         "text": "Kedua kode memiliki arti yang identik dan hanya perbedaan angka keberuntungan."
       },
       {
+        "key": "D",
+        "text": "401 untuk browser Chrome, sedangkan 403 khusus untuk browser Firefox."
+      },
+      {
         "key": "E",
-        "text": "401 menandakan server sedang memproses data, sedangkan 403 menandakan proses selesai sukses."
+        "text": "401 menandakan kabel jaringan putus, sedangkan 403 menandakan komputer server meledak."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "HTTP STATUS CODES: AUTHENTICATION VS AUTHORIZATION",
       "latex": "\\begin{aligned} \\text{HTTP 401} & : \\text{Unauthenticated (Who are you? Missing valid credentials)} \\\\ \\text{HTTP 403} & : \\text{Forbidden / Unauthorized (I know who you are, but you cannot access this)} \\end{aligned}",
@@ -4044,7 +4050,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "401 = Otentikasi (siapa kamu?). 403 = Otorisasi/Hak Akses (kamu boleh melakukan ini atau tidak?).",
       "execution": "Pilihlah perbedaan antara Authentication (401) dan Authorization (403)."
     },
-    "explanation": "Dalam spesifikasi RFC HTTP: Kode 401 Unauthorized secara teknis berarti unauthenticated (klien belum menyertakan kredensial otentikasi yang valid). Kode 403 Forbidden berarti server mengenali siapa klien tersebut (sudah login), namun aturan hak akses (Role-Based Access Control) melarang klien tersebut mengeksekusi sumber daya atau aksi tersebut. Jawaban: A.",
+    "explanation": "Dalam spesifikasi RFC HTTP: Kode 401 Unauthorized secara teknis berarti unauthenticated (klien belum menyertakan kredensial otentikasi yang valid). Kode 403 Forbidden berarti server mengenali siapa klien tersebut (sudah login), namun aturan hak akses (Role-Based Access Control) melarang klien tersebut mengeksekusi sumber daya atau aksi tersebut. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -4059,26 +4065,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "[24, 40]"
-      },
-      {
-        "key": "B",
-        "text": "[12, 24, 40]"
-      },
-      {
-        "key": "C",
-        "text": "[17, 33, 51]"
-      },
-      {
-        "key": "D",
         "text": "[24]"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "[17, 33, 51]"
+      },
+      {
+        "key": "C",
+        "text": "[24, 40]"
+      },
+      {
+        "key": "D",
         "text": "[]"
+      },
+      {
+        "key": "E",
+        "text": "[12, 24, 40]"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LOGICAL PREDICATE TRACING",
       "latex": "P(a) = (a \\pmod 2 = 0) \\land (a > 20) \\implies \\text{Bilangan Genap yang Lebih Besar dari 20}",
@@ -4088,7 +4094,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Dua syarat harus terpenuhi sekaligus: bilangan genap (`a % 2 == 0`) DAN lebih besar dari 20 (`a > 20`).",
       "execution": "Periksa: 12 (tidak > 20), 24 (cocok), 40 (cocok). Hasil = [24, 40]."
     },
-    "explanation": "Kondisi `a % 2 == 0 and a > 20` memerlukan bilangan tersebut genap sekaligus lebih besar dari 20. Dari list `[12, 17, 24, 33, 40, 51]`, angka 12 ditolak karena tidak lebih besar dari 20. Angka 17, 33, dan 51 ditolak karena ganjil. Hanya angka 24 dan 40 yang memenuhi kedua syarat tersebut, sehingga dicetak `[24, 40]`. Jawaban: A.",
+    "explanation": "Kondisi `a % 2 == 0 and a > 20` memerlukan bilangan tersebut genap sekaligus lebih besar dari 20. Dari list `[12, 17, 24, 33, 40, 51]`, angka 12 ditolak karena tidak lebih besar dari 20. Angka 17, 33, dan 51 ditolak karena ganjil. Hanya angka 24 dan 40 yang memenuhi kedua syarat tersebut, sehingga dicetak `[24, 40]`. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -4103,7 +4109,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "['Java', 'Python', 'Go']"
+        "text": "['Java', 'Python', 'Go', 'Rust']"
       },
       {
         "key": "B",
@@ -4111,18 +4117,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "['Java', 'Python', 'Go', 'Rust']"
+        "text": "['Python', 'Go']"
       },
       {
         "key": "D",
-        "text": "['C++', 'Rust']"
+        "text": "['Java', 'Python', 'Go']"
       },
       {
         "key": "E",
-        "text": "['Python', 'Go']"
+        "text": "['C++', 'Rust']"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "LIST SLICING SEMANTICS",
       "latex": "L[\\text{start}:\\text{stop}] \\implies \\text{Elemen dari indeks } \\text{start} \\text{ inklusif s.d. } \\text{stop}-1 \\text{ eksklusif}",
@@ -4132,7 +4138,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Slicing [1:4] mengambil elemen mulai dari indeks 1 sampai dengan sebelum indeks 4 (yaitu indeks 1, 2, dan 3).",
       "execution": "Indeks 1 adalah Java, 2 adalah Python, 3 adalah Go."
     },
-    "explanation": "Pada Python, notasi slicing `list[start:stop]` mengambil elemen dimulai dari indeks `start` hingga tepat sebelum indeks `stop` (indeks `stop` bersifat eksklusif). Dengan list `bahasa`, indeks 1 adalah 'Java', indeks 2 adalah 'Python', dan indeks 3 adalah 'Go'. Indeks 4 ('Rust') tidak disertakan. Maka outputnya adalah `['Java', 'Python', 'Go']`. Jawaban: A.",
+    "explanation": "Pada Python, notasi slicing `list[start:stop]` mengambil elemen dimulai dari indeks `start` hingga tepat sebelum indeks `stop` (indeks `stop` bersifat eksklusif). Dengan list `bahasa`, indeks 1 adalah 'Java', indeks 2 adalah 'Python', dan indeks 3 adalah 'Go'. Indeks 4 ('Rust') tidak disertakan. Maka outputnya adalah `['Java', 'Python', 'Go']`. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -4147,26 +4153,26 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "90000 75000"
-      },
-      {
-        "key": "B",
-        "text": "100000 75000"
-      },
-      {
-        "key": "C",
         "text": "90000 100000"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Error: Parameter kedua wajib disertakan"
+      },
+      {
+        "key": "C",
         "text": "80000 70000"
       },
       {
+        "key": "D",
+        "text": "90000 75000"
+      },
+      {
         "key": "E",
-        "text": "Error: Parameter kedua wajib disertakan"
+        "text": "100000 75000"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DEFAULT PARAMETER COMPUTATION",
       "latex": "\\begin{aligned} \\text{total1} & = 100000 - (100000 \\times 10\\%) = 90000 \\\\ \\text{total2} & = 100000 - (100000 \\times 25\\%) = 75000 \\end{aligned}",
@@ -4176,7 +4182,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Jika argumen kedua tidak diberikan, fungsi menggunakan nilai parameter default (persen = 10). Jika diberikan, nilai default ditimpa.",
       "execution": "total1 = 100000 - 10000 = 90000. total2 = 100000 - 25000 = 75000."
     },
-    "explanation": "Pada `total1`, pemanggilan `hitung_diskon(100000)` hanya menyertakan 1 argumen, sehingga parameter `persen` menggunakan nilai default 10: 100000 - 10% = 90000. Pada `total2`, pemanggilan `hitung_diskon(100000, 25)` secara eksplisit mengisi nilai `persen = 25`: 100000 - 25% = 75000. Maka dicetak `90000 75000`. Jawaban: A.",
+    "explanation": "Pada `total1`, pemanggilan `hitung_diskon(100000)` hanya menyertakan 1 argumen, sehingga parameter `persen` menggunakan nilai default 10: 100000 - 10% = 90000. Pada `total2`, pemanggilan `hitung_diskon(100000, 25)` secara eksplisit mengisi nilai `persen = 25`: 100000 - 25% = 75000. Maka dicetak `90000 75000`. Jawaban: D.",
     "isDiagnostic": false
   },
   {
@@ -4199,7 +4205,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "20 None"
+        "text": "15 0"
       },
       {
         "key": "D",
@@ -4207,7 +4213,7 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "15 0"
+        "text": "20 None"
       }
     ],
     "correctKey": "A",
@@ -4239,19 +4245,19 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mengunci seluruh file kode sumber agar tidak dapat disalin oleh orang lain."
-      },
-      {
-        "key": "C",
         "text": "Mengonversi seluruh variabel instans menjadi variabel global sistem operasi."
       },
       {
+        "key": "C",
+        "text": "Menghapus objek secara otomatis begitu method selesai dipanggil."
+      },
+      {
         "key": "D",
-        "text": "Mempercepat kecepatan koneksi internet saat aplikasi dijalankan."
+        "text": "Mengunci seluruh file kode sumber agar tidak dapat disalin oleh orang lain."
       },
       {
         "key": "E",
-        "text": "Menghapus objek secara otomatis begitu method selesai dipanggil."
+        "text": "Mempercepat kecepatan koneksi internet saat aplikasi dijalankan."
       }
     ],
     "correctKey": "A",
@@ -4279,11 +4285,11 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi AttributeError karena Python menerapkan 'name mangling' yang mengubah nama atribut internal menjadi `_Pengguna__pin`."
+        "text": "Nilai PIN terhapus permanen dari memori objek."
       },
       {
         "key": "B",
-        "text": "Program mencetak angka 1234 secara normal tanpa hambatan."
+        "text": "Terjadi AttributeError karena Python menerapkan 'name mangling' yang mengubah nama atribut internal menjadi `_Pengguna__pin`."
       },
       {
         "key": "C",
@@ -4295,10 +4301,10 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Nilai PIN terhapus permanen dari memori objek."
+        "text": "Program mencetak angka 1234 secara normal tanpa hambatan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PYTHON PRIVATE ATTRIBUTE NAME MANGLING",
       "latex": "\\texttt{self.\\_\\_attr} \\xrightarrow{\\text{Name Mangling}} \\texttt{\\_ClassName\\_\\_attr}",
@@ -4308,7 +4314,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Atribut dengan dua garis bawah di depan (`__pin`) mengalami name mangling di Python, sehingga akses langsung `u.__pin` menimbulkan AttributeError.",
       "execution": "Pilihlah jawaban yang menjelaskan AttributeError akibat mekanisme name mangling."
     },
-    "explanation": "Pada Python, atribut yang diawali dengan dua garis bawah (seperti `__pin`) mengalami mekanisme name mangling untuk mencegah konflik penamaan pada subclass dan menyimulasikan atribut private. Secara internal, nama atribut diubah menjadi `_Pengguna__pin`. Upaya mengakses `u.__pin` secara langsung dari luar class akan memicu `AttributeError: 'Pengguna' object has no attribute '__pin'`. Jawaban: A.",
+    "explanation": "Pada Python, atribut yang diawali dengan dua garis bawah (seperti `__pin`) mengalami mekanisme name mangling untuk mencegah konflik penamaan pada subclass dan menyimulasikan atribut private. Secara internal, nama atribut diubah menjadi `_Pengguna__pin`. Upaya mengakses `u.__pin` secara langsung dari luar class akan memicu `AttributeError: 'Pengguna' object has no attribute '__pin'`. Jawaban: B.",
     "isDiagnostic": false
   },
   {
@@ -4323,15 +4329,15 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Class anak (Kucing) mewarisi seluruh kemampuan/method dari class induk (Hewan) sehingga objek k dapat memanggil bernapas() sekaligus method uniknya bersuara()."
+        "text": "Method bernapas() hanya dapat dijalankan di dalam kandang fisik."
       },
       {
         "key": "B",
-        "text": "Class Hewan otomatis terhapus saat class Kucing dibuat."
+        "text": "Program memicu error karena Kucing tidak memiliki constructor."
       },
       {
         "key": "C",
-        "text": "Method bernapas() hanya dapat dijalankan di dalam kandang fisik."
+        "text": "Class anak (Kucing) mewarisi seluruh kemampuan/method dari class induk (Hewan) sehingga objek k dapat memanggil bernapas() sekaligus method uniknya bersuara()."
       },
       {
         "key": "D",
@@ -4339,10 +4345,10 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Program memicu error karena Kucing tidak memiliki constructor."
+        "text": "Class Hewan otomatis terhapus saat class Kucing dibuat."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "OOP: INHERITANCE REUSABILITY",
       "latex": "\\text{Kucing} \\subseteq \\text{Hewan} \\implies \\text{Methods}(k) = \\text{Methods}(\\text{Hewan}) \\cup \\text{Methods}(\\text{Kucing})",
@@ -4352,7 +4358,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Kelas turunan (anak) otomatis memiliki akses ke semua method publik yang didefinisikan pada kelas induk.",
       "execution": "Pilihlah opsi yang menjelaskan pewarisan method dari class induk ke class anak."
     },
-    "explanation": "Inheritance (Pewarisan) memungkinkan class turunan (`Kucing`) secara otomatis mewarisi perilaku dan atribut dari class induk (`Hewan`). Oleh karena itu, objek `k` yang diinstansiasi dari class `Kucing` dapat langsung memanggil method warisan `bernapas()` sekaligus method khususnya sendiri `bersuara()`. Output: 'Menghirup oksigen dan Meow'. Jawaban: A.",
+    "explanation": "Inheritance (Pewarisan) memungkinkan class turunan (`Kucing`) secara otomatis mewarisi perilaku dan atribut dari class induk (`Hewan`). Oleh karena itu, objek `k` yang diinstansiasi dari class `Kucing` dapat langsung memanggil method warisan `bernapas()` sekaligus method khususnya sendiri `bersuara()`. Output: 'Menghirup oksigen dan Meow'. Jawaban: C.",
     "isDiagnostic": false
   },
   {
@@ -4367,7 +4373,7 @@ window.TKA_RPL_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fungsi cetak_slip() tidak perlu diubah sama sekali (memenuhi prinsip Open/Closed Principle), cukup buat class KaryawanMagang yang memiliki method hitung_gaji()."
+        "text": "Fungsi cetak_slip() harus ditulis ulang menjadi 10 fungsi berbeda."
       },
       {
         "key": "B",
@@ -4375,18 +4381,18 @@ window.TKA_RPL_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Karyawan Magang dilarang menerima gaji dalam bentuk uang."
+        "text": "Program akan otomatis berhenti bekerja."
       },
       {
         "key": "D",
-        "text": "Fungsi cetak_slip() harus ditulis ulang menjadi 10 fungsi berbeda."
+        "text": "Fungsi cetak_slip() tidak perlu diubah sama sekali (memenuhi prinsip Open/Closed Principle), cukup buat class KaryawanMagang yang memiliki method hitung_gaji()."
       },
       {
         "key": "E",
-        "text": "Program akan otomatis berhenti bekerja."
+        "text": "Karyawan Magang dilarang menerima gaji dalam bentuk uang."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "SOLID: OPEN/CLOSED PRINCIPLE (OCP)",
       "latex": "\\text{Open for Extension} \\land \\text{Closed for Modification} \\implies \\text{Polymorphic Function Extensibility}",
@@ -4396,7 +4402,7 @@ window.TKA_RPL_QUESTIONS = [
       "concept": "Prinsip Open/Closed (OCP): kode terbuka untuk penambahan fitur baru tetapi tertutup untuk modifikasi kode yang sudah stabil.",
       "execution": "Pilihlah jawaban yang menegaskan bahwa fungsi cetak_slip() tidak perlu diubah saat ada kelas karyawan baru."
     },
-    "explanation": "Keunggulan utama Polymorphism adalah mendukung prinsip Open/Closed Principle (OCP). Fungsi `cetak_slip(k)` dirancang fleksibel menerima objek apa pun yang memiliki antarmuka `hitung_gaji()`. Jika kelak ditambah kelas baru `KaryawanMagang`, kita tidak perlu menyentuh atau memodifikasi fungsi `cetak_slip()`. Cukup pastikan kelas baru mengimplementasikan method `hitung_gaji()`. Jawaban: A.",
+    "explanation": "Keunggulan utama Polymorphism adalah mendukung prinsip Open/Closed Principle (OCP). Fungsi `cetak_slip(k)` dirancang fleksibel menerima objek apa pun yang memiliki antarmuka `hitung_gaji()`. Jika kelak ditambah kelas baru `KaryawanMagang`, kita tidak perlu menyentuh atau memodifikasi fungsi `cetak_slip()`. Cukup pastikan kelas baru mengimplementasikan method `hitung_gaji()`. Jawaban: D.",
     "isDiagnostic": false
   },
   {

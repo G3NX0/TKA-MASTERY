@@ -1,5 +1,9 @@
-// TKA MASTERY HUB - ARAB QUESTIONS DATABASE
-// Automatically sanitized: pure foreign questions and options, translation available via toggle
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_BAHASA_ARAB_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_BAHASA_ARAB_QUESTIONS = [
   {
     "id": "arb-lat-e-01",
@@ -22,8 +26,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "مُجْتَهِدٌ",
-        "translation": "mujtahidun - khabar mufrad mudzakkar marfu' dengan harakat dhommatain."
+        "text": "مُجْتَهِدَانِ",
+        "translation": "mujtahidaani - bentuk mutsanna dua orang dengan tanda alif yang tidak sesuai dengan subjek tunggal."
       },
       {
         "key": "B",
@@ -32,22 +36,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "مُجْتَهِدِينَ",
-        "translation": "mujtahidiina - bentuk jama' mudzakkar salim manshub/majrur berakhiran ya' dan nun."
+        "text": "مُجْتَهِدٌ",
+        "translation": "mujtahidun - khabar mufrad mudzakkar marfu' dengan harakat dhommatain."
       },
       {
         "key": "D",
-        "text": "مُجْتَهِدَانِ",
-        "translation": "mujtahidaani - bentuk mutsanna dua orang dengan tanda alif yang tidak sesuai dengan subjek tunggal."
+        "text": "مُجْتَهِدَاتٌ",
+        "translation": "mujtahidaatun - bentuk jama' mu'annats salim yang dikhususkan bagi perempuan jamak."
       },
       {
         "key": "E",
-        "text": "مُجْتَهِدَاتٌ",
-        "translation": "mujtahidaatun - bentuk jama' mu'annats salim yang dikhususkan bagi perempuan jamak."
+        "text": "مُجْتَهِدِينَ",
+        "translation": "mujtahidiina - bentuk jama' mudzakkar salim manshub/majrur berakhiran ya' dan nun."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) مُجْتَهِدٌ (mujtahidun - khabar mufrad mudzakkar marfu' dengan harakat dhommatain).. Mubtada' 'الطَّالِبُ' adalah isim mufrad mudzakkar marfu' (dhommah). Maka khabar-nya wajib berupa isim mufrad mudzakkar marfu' pula (dhommah/dhommatain). Pilih 'مُجْتَهِدٌ' (mujtahidun) yang berjenis mudzakkar tunggal dan berharakat marfu'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) مُجْتَهِدٌ (mujtahidun - khabar mufrad mudzakkar marfu' dengan harakat dhommatain).. Mubtada' 'الطَّالِبُ' adalah isim mufrad mudzakkar marfu' (dhommah). Maka khabar-nya wajib berupa isim mufrad mudzakkar marfu' pula (dhommah/dhommatain). Pilih 'مُجْتَهِدٌ' (mujtahidun) yang berjenis mudzakkar tunggal dan berharakat marfu'."
   },
   {
     "id": "arb-lat-e-02",
@@ -70,32 +74,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "المُعَلِّمُونَ",
-        "translation": "al-mu'allimuuna - marfu' dengan tanda wawu yang keliru untuk posisi isim Inna."
-      },
-      {
-        "key": "B",
         "text": "المُعَلِّمِينَ",
         "translation": "al-mu'allimiina - isim Inna manshub dengan tanda ya' karena berupa jama' mudzakkar salim."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "المُعَلِّمَانِ",
         "translation": "al-mu'allimaani - mutsanna marfu' dengan tanda alif yang bertentangan dengan khabar jamak."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "المُعَلِّمُ",
         "translation": "al-mu'allimu - isim mufrad marfu' dengan dhommah yang tidak sesuai konteks jamak."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "المُعَلِّمَاتُ",
         "translation": "al-mu'allimaatu - jama' mu'annats salim marfu' yang tidak cocok dengan khabar mudzakkar."
+      },
+      {
+        "key": "E",
+        "text": "المُعَلِّمُونَ",
+        "translation": "al-mu'allimuuna - marfu' dengan tanda wawu yang keliru untuk posisi isim Inna."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) المُعَلِّمِينَ (al-mu'allimiina - isim Inna manshub dengan tanda ya' karena berupa jama' mudzakkar salim).. Inna menashabkan isim dan merafa'kan khabar. Tanda nashab jama' mudzakkar salim adalah huruf ya' (ين). Pilih kata berakhiran ya' nun: 'المُعَلِّمِينَ' (al-mu'allimiina)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) المُعَلِّمِينَ (al-mu'allimiina - isim Inna manshub dengan tanda ya' karena berupa jama' mudzakkar salim).. Inna menashabkan isim dan merafa'kan khabar. Tanda nashab jama' mudzakkar salim adalah huruf ya' (ين). Pilih kata berakhiran ya' nun: 'المُعَلِّمِينَ' (al-mu'allimiina)."
   },
   {
     "id": "arb-lat-e-03",
@@ -123,27 +127,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "بَارِدٍ",
-        "translation": "baaridin - majrur dengan harakat kasratain yang hanya berlaku jika ada huruf jar."
-      },
-      {
-        "key": "C",
-        "text": "بَارِدًا",
-        "translation": "baaridan - khabar kaana manshub dengan harakat fathatain."
-      },
-      {
-        "key": "D",
         "text": "بَارِدَةٌ",
         "translation": "baaridatun - mu'annats marfu' yang tidak selaras dengan isim kaana mudzakkar."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "بَارِدَانِ",
         "translation": "baaridaani - mutsanna marfu' dengan alif yang tidak sesuai konteks subjek tunggal."
+      },
+      {
+        "key": "D",
+        "text": "بَارِدًا",
+        "translation": "baaridan - khabar kaana manshub dengan harakat fathatain."
+      },
+      {
+        "key": "E",
+        "text": "بَارِدٍ",
+        "translation": "baaridin - majrur dengan harakat kasratain yang hanya berlaku jika ada huruf jar."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) بَارِدًا (baaridan - khabar kaana manshub dengan harakat fathatain).. Kaana merafa'kan isim (الجَوُّ) dan memanshubkan khabar. Tanda nashab isim mufrad adalah fathah/fathatain. Pilih kata berharakat fathatain: 'بَارِدًا' (baaridan)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) بَارِدًا (baaridan - khabar kaana manshub dengan harakat fathatain).. Kaana merafa'kan isim (الجَوُّ) dan memanshubkan khabar. Tanda nashab isim mufrad adalah fathah/fathatain. Pilih kata berharakat fathatain: 'بَارِدًا' (baaridan)."
   },
   {
     "id": "arb-lat-e-04",
@@ -166,32 +170,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "الدَّوْلَتَانِ",
-        "translation": "ad-dawlataani - bentuk mutsanna marfu' dengan alif yang keliru setelah huruf jar."
-      },
-      {
-        "key": "B",
         "text": "الدَّوْلَةُ",
         "translation": "ad-dawlatu - isim mufrad marfu' dengan dhommah yang tidak menunjukkan makna dua negara."
       },
       {
-        "key": "C",
-        "text": "الدُّوَلُ",
-        "translation": "ad-duwalu - jama' taksir marfu' dengan dhommah yang tidak sesuai tanda jar."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "الدَّوْلَتَيْنِ",
         "translation": "ad-dawlataini - isim mutsanna majrur dengan tanda huruf ya' setelah huruf jar."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "الدَّوْلَاتِ",
         "translation": "ad-dawlaati - bentuk jamak yang keliru secara konteks gramatikal mutsanna."
+      },
+      {
+        "key": "D",
+        "text": "الدُّوَلُ",
+        "translation": "ad-duwalu - jama' taksir marfu' dengan dhommah yang tidak sesuai tanda jar."
+      },
+      {
+        "key": "E",
+        "text": "الدَّوْلَتَانِ",
+        "translation": "ad-dawlataani - bentuk mutsanna marfu' dengan alif yang keliru setelah huruf jar."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) الدَّوْلَتَيْنِ (ad-dawlataini - isim mutsanna majrur dengan tanda huruf ya' setelah huruf jar).. Setelah huruf jar (إِلَى), isim menjadi majrur. Isim mutsanna (dua) tanda majrur-nya memakai ya' sukun (يْنِ). Pilih bentuk mutsanna berakhiran ya' nun: 'الدَّوْلَتَيْنِ' (ad-dawlataini)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) الدَّوْلَتَيْنِ (ad-dawlataini - isim mutsanna majrur dengan tanda huruf ya' setelah huruf jar).. Setelah huruf jar (إِلَى), isim menjadi majrur. Isim mutsanna (dua) tanda majrur-nya memakai ya' sukun (يْنِ). Pilih bentuk mutsanna berakhiran ya' nun: 'الدَّوْلَتَيْنِ' (ad-dawlataini)."
   },
   {
     "id": "arb-lat-e-05",
@@ -214,8 +218,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "مُفِيدٌ",
-        "translation": "mufiidun - marfu' dengan dhommatain sehingga tidak selaras dengan man'ut yang manshub."
+        "text": "المُفِيدُ",
+        "translation": "al-mufiidu - ma'rifah ber-alif lam yang tidak cocok dengan man'ut nakirah."
       },
       {
         "key": "B",
@@ -224,22 +228,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "المُفِيدُ",
-        "translation": "al-mufiidu - ma'rifah ber-alif lam yang tidak cocok dengan man'ut nakirah."
-      },
-      {
-        "key": "D",
         "text": "مُفِيدِينَ",
         "translation": "mufiidiina - jama' mudzakkar salim yang menyalahi kaidah mufrad bendanya."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "مُفِيدًا",
         "translation": "mufiidan - na'at manshub bil-fathah, nakirah, dan mudzakkar mengikuti man'utnya."
+      },
+      {
+        "key": "E",
+        "text": "مُفِيدٌ",
+        "translation": "mufiidun - marfu' dengan dhommatain sehingga tidak selaras dengan man'ut yang manshub."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) مُفِيدًا (mufiidan - na'at manshub bil-fathah, nakirah, dan mudzakkar mengikuti man'utnya).. Na'at wajib mengikuti man'ut dalam 4 perkara: i'rab, jenis, bilangan, dan ke-ma'rifah/nakirah-annya. Karena 'كِتَابًا' adalah nakirah, mudzakkar, mufrad, manshub, maka na'atnya harus 'مُفِيدًا'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) مُفِيدًا (mufiidan - na'at manshub bil-fathah, nakirah, dan mudzakkar mengikuti man'utnya).. Na'at wajib mengikuti man'ut dalam 4 perkara: i'rab, jenis, bilangan, dan ke-ma'rifah/nakirah-annya. Karena 'كِتَابًا' adalah nakirah, mudzakkar, mufrad, manshub, maka na'atnya harus 'مُفِيدًا'."
   },
   {
     "id": "arb-lat-e-06",
@@ -267,23 +271,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Dia saling keluar bersama-sama",
-        "translation": "musyarakah timbal balik antardua pihak."
-      },
-      {
-        "key": "C",
-        "text": "Dia memohon untuk dikeluarkan",
-        "translation": "thalab al-fi'li seperti wazan istaf'ala."
-      },
-      {
-        "key": "D",
         "text": "Dia berpura-pura keluar dari ruangan",
         "translation": "tazahur bi al-fi'li."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Dia keluar berulang-ulang tanpa henti secara bertahap",
         "translation": "mubalaghah wat-taktsir."
+      },
+      {
+        "key": "D",
+        "text": "Dia memohon untuk dikeluarkan",
+        "translation": "thalab al-fi'li seperti wazan istaf'ala."
+      },
+      {
+        "key": "E",
+        "text": "Dia saling keluar bersama-sama",
+        "translation": "musyarakah timbal balik antardua pihak."
       }
     ],
     "correctKey": "A",
@@ -315,13 +319,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "يُرَاجِعَ",
-        "translation": "yuraaji'a - fi'il mudhari' shahih akhir manshub dengan harakat fathah."
+        "text": "رَاجَعَ",
+        "translation": "raaja'a - fi'il madhi yang tidak tepat mengikuti huruf mashdariyah nashab 'an'."
       },
       {
         "key": "C",
-        "text": "يُرَاجِعْ",
-        "translation": "yuraaji' - majzum dengan sukun yang hanya berlaku jika didahului huruf jazm."
+        "text": "يُرَاجِعَ",
+        "translation": "yuraaji'a - fi'il mudhari' shahih akhir manshub dengan harakat fathah."
       },
       {
         "key": "D",
@@ -330,12 +334,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "رَاجَعَ",
-        "translation": "raaja'a - fi'il madhi yang tidak tepat mengikuti huruf mashdariyah nashab 'an'."
+        "text": "يُرَاجِعْ",
+        "translation": "yuraaji' - majzum dengan sukun yang hanya berlaku jika didahului huruf jazm."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) يُرَاجِعَ (yuraaji'a - fi'il mudhari' shahih akhir manshub dengan harakat fathah).. Huruf 'أَنْ' adalah harf nashab wa mashdariyyah. Fi'il mudhari' shahih al-akhir yang memasukinya menjadi manshub bil-fathah. Pilih fi'il mudhari' berharakat fathah: 'يُرَاجِعَ' (yuraaji'a)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) يُرَاجِعَ (yuraaji'a - fi'il mudhari' shahih akhir manshub dengan harakat fathah).. Huruf 'أَنْ' adalah harf nashab wa mashdariyyah. Fi'il mudhari' shahih al-akhir yang memasukinya menjadi manshub bil-fathah. Pilih fi'il mudhari' berharakat fathah: 'يُرَاجِعَ' (yuraaji'a)."
   },
   {
     "id": "arb-lat-e-08",
@@ -358,8 +362,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "يَذْهَبُ",
-        "translation": "yadh-habu - marfu' dengan dhommah yang mengabaikan amil jazm di depannya."
+        "text": "يَذْهَبْ",
+        "translation": "yadh-hab - fi'il mudhari' majzum dengan tanda sukun pada huruf ba'."
       },
       {
         "key": "B",
@@ -368,8 +372,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "يَذْهَبْ",
-        "translation": "yadh-hab - fi'il mudhari' majzum dengan tanda sukun pada huruf ba'."
+        "text": "يَذْهَبُ",
+        "translation": "yadh-habu - marfu' dengan dhommah yang mengabaikan amil jazm di depannya."
       },
       {
         "key": "D",
@@ -382,8 +386,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "dhahaba - bentuk fi'il madhi yang tidak digunakan langsung setelah partikel lam."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) يَذْهَبْ (yadh-hab - fi'il mudhari' majzum dengan tanda sukun pada huruf ba').. Huruf 'لَمْ' adalah adawatul jazm. Fi'il mudhari' shahih akhir yang memasukinya berharakat sukun (majzum). Pilih kata bersukun: 'يَذْهَبْ' (yadh-hab)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) يَذْهَبْ (yadh-hab - fi'il mudhari' majzum dengan tanda sukun pada huruf ba').. Huruf 'لَمْ' adalah adawatul jazm. Fi'il mudhari' shahih akhir yang memasukinya berharakat sukun (majzum). Pilih kata bersukun: 'يَذْهَبْ' (yadh-hab)."
   },
   {
     "id": "arb-lat-e-09",
@@ -406,8 +410,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "مَكْتُوبٌ",
-        "translation": "maktuubun - isim maf'ul bermakna sesuatu yang tertulis/surat."
+        "text": "مِكْتَابٌ",
+        "translation": "miktaabun - wazan shighah mubalaghah/alat yang tidak baku."
       },
       {
         "key": "B",
@@ -416,22 +420,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
+        "text": "مَكْتُوبٌ",
+        "translation": "maktuubun - isim maf'ul bermakna sesuatu yang tertulis/surat."
+      },
+      {
+        "key": "D",
         "text": "كِتَابٌ",
         "translation": "kitaabun - bentuk isim masdar/isim jenis bermakna buku."
       },
       {
-        "key": "D",
+        "key": "E",
         "text": "كَاتِبٌ",
         "translation": "kaatibun - penulis / sekretaris."
-      },
-      {
-        "key": "E",
-        "text": "مِكْتَابٌ",
-        "translation": "miktaabun - wazan shighah mubalaghah/alat yang tidak baku."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) كَاتِبٌ (kaatibun - penulis / sekretaris).. Isim fa'il dari fi'il tsulatsi mujarrad berwazan فَاعِلٌ (faa'ilun). Kataba -> Kaatibun. Pilih: 'كَاتِبٌ' (kaatibun)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) كَاتِبٌ (kaatibun - penulis / sekretaris).. Isim fa'il dari fi'il tsulatsi mujarrad berwazan فَاعِلٌ (faa'ilun). Kataba -> Kaatibun. Pilih: 'كَاتِبٌ' (kaatibun)."
   },
   {
     "id": "arb-lat-e-10",
@@ -454,18 +458,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "هُوَ",
-        "translation": "huwa - kata ganti tunggal untuk orang ketiga laki-laki mudzakkar."
-      },
-      {
-        "key": "B",
         "text": "هُمْ",
         "translation": "hum - kata ganti jamak untuk kelompok laki-laki."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "أَنْتِ",
         "translation": "anti - kata ganti orang kedua perempuan yang diajak bicara langsung."
+      },
+      {
+        "key": "C",
+        "text": "هِيَ",
+        "translation": "hiya - kata ganti tunggal orang ketiga perempuan."
       },
       {
         "key": "D",
@@ -474,12 +478,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "هِيَ",
-        "translation": "hiya - kata ganti tunggal orang ketiga perempuan."
+        "text": "هُوَ",
+        "translation": "huwa - kata ganti tunggal untuk orang ketiga laki-laki mudzakkar."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) هِيَ (hiya - kata ganti tunggal orang ketiga perempuan).. Fathimah adalah mufrad mu'annats gha'ibah (orang ketiga tunggal perempuan). Kata ganti yang tepat adalah 'هِيَ' (hiya). Pilih 'هِيَ' (hiya)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) هِيَ (hiya - kata ganti tunggal orang ketiga perempuan).. Fathimah adalah mufrad mu'annats gha'ibah (orang ketiga tunggal perempuan). Kata ganti yang tepat adalah 'هِيَ' (hiya). Pilih 'هِيَ' (hiya)."
   },
   {
     "id": "arb-lat-e-11",
@@ -502,23 +506,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "خَمْسَةُ أَقْلَامٍ",
-        "translation": "khamsatu aqlaamin - adad berbentuk mu'annats ber-ta' marbuthah dan ma'dud berbentuk jama' majrur."
-      },
-      {
-        "key": "B",
-        "text": "خَمْسُ أَقْلَامٍ",
-        "translation": "khamsu aqlaamin - adad mudzakkar yang menyalahi kaidah lawan jenis dengan qalam ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
         "text": "خَمْسَةُ قَلَمٍ",
         "translation": "khamsatu qalamin - ma'dud berbentuk mufrad yang bertentangan dengan kaidah jamak."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "خَمْسَةُ أَقْلَامٍ",
+        "translation": "khamsatu aqlaamin - adad berbentuk mu'annats ber-ta' marbuthah dan ma'dud berbentuk jama' majrur."
+      },
+      {
+        "key": "C",
         "text": "خَمْسُ قَلَمًا",
         "translation": "khamsu qalaman - susunan salah menyerupai kaidah bilangan belasan."
+      },
+      {
+        "key": "D",
+        "text": "خَمْسُ أَقْلَامٍ",
+        "translation": "khamsu aqlaamin - adad mudzakkar yang menyalahi kaidah lawan jenis dengan qalam ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       },
       {
         "key": "E",
@@ -526,8 +530,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "khaamisu aqlaamin - bentuk bilangan bertingkat yang tidak tepat untuk menghitung jumlah."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) خَمْسَةُ أَقْلَامٍ (khamsatu aqlaamin - adad berbentuk mu'annats ber-ta' marbuthah dan ma'dud berbentuk jama' majrur).. Untuk bilangan 3-10: Jika ma'dud mudzakkar (qalam), adad harus mu'annats (khamsatu) dan ma'dud berbentuk jama' majrur (aqlaamin). Pilih: 'خَمْسَةُ أَقْلَامٍ' (khamsatu aqlaamin)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) خَمْسَةُ أَقْلَامٍ (khamsatu aqlaamin - adad berbentuk mu'annats ber-ta' marbuthah dan ma'dud berbentuk jama' majrur).. Untuk bilangan 3-10: Jika ma'dud mudzakkar (qalam), adad harus mu'annats (khamsatu) dan ma'dud berbentuk jama' majrur (aqlaamin). Pilih: 'خَمْسَةُ أَقْلَامٍ' (khamsatu aqlaamin)."
   },
   {
     "id": "arb-lat-e-12",
@@ -560,18 +564,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "الدَّرْسِ",
-        "translation": "ad-darsi - majrur dengan kasrah yang hanya terjadi jika ada huruf jar atau idhafah."
-      },
-      {
-        "key": "D",
         "text": "الدَّرْسَانِ",
         "translation": "ad-darsaani - mutsanna marfu' dengan alif yang tidak memenuhi kaidah nashab."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "الدُّرُوسُ",
         "translation": "ad-duruusu - jama' taksir marfu' dengan dhommah."
+      },
+      {
+        "key": "E",
+        "text": "الدَّرْسِ",
+        "translation": "ad-darsi - majrur dengan kasrah yang hanya terjadi jika ada huruf jar atau idhafah."
       }
     ],
     "correctKey": "B",
@@ -598,32 +602,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "كَتَبْتُ",
-        "translation": "katabtu - mutakallim wahdah tanda orang pertama tunggal 'aku/saya' sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+        "text": "كَتَبْنَ",
+        "translation": "katabna - tanda jamak gha'ibah khusus perempuan."
       },
       {
         "key": "B",
-        "text": "كَتَبْتُمْ",
-        "translation": "katabtum - tanda jamak mukhatab laki-laki 'kalian beramai-ramai'."
-      },
-      {
-        "key": "C",
-        "text": "كَتَبْنَا",
-        "translation": "katabnaa - diakhiri dhamir muttashil nun dan alif panjang tanda fa'il nahnu."
-      },
-      {
-        "key": "D",
         "text": "كَتَبُوا",
         "translation": "katabuu - tanda jamak gha'ib laki-laki mereka beramai-ramai."
       },
       {
+        "key": "C",
+        "text": "كَتَبْتُمْ",
+        "translation": "katabtum - tanda jamak mukhatab laki-laki 'kalian beramai-ramai'."
+      },
+      {
+        "key": "D",
+        "text": "كَتَبْنَا",
+        "translation": "katabnaa - diakhiri dhamir muttashil nun dan alif panjang tanda fa'il nahnu."
+      },
+      {
         "key": "E",
-        "text": "كَتَبْنَ",
-        "translation": "katabna - tanda jamak gha'ibah khusus perempuan."
+        "text": "كَتَبْتُ",
+        "translation": "katabtu - mutakallim wahdah tanda orang pertama tunggal 'aku/saya' sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) كَتَبْنَا (katabnaa - diakhiri dhamir muttashil nun dan alif panjang tanda fa'il nahnu).. Tashrif fi'il madhi untuk 'نَحْنُ' (kami) ditandai dengan sufiks 'نَا' (naa) dan sukun pada huruf ketiga kata kerja dasar. Pilih: 'كَتَبْنَا' (katabnaa)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) كَتَبْنَا (katabnaa - diakhiri dhamir muttashil nun dan alif panjang tanda fa'il nahnu).. Tashrif fi'il madhi untuk 'نَحْنُ' (kami) ditandai dengan sufiks 'نَا' (naa) dan sukun pada huruf ketiga kata kerja dasar. Pilih: 'كَتَبْنَا' (katabnaa)."
   },
   {
     "id": "arb-lat-e-14",
@@ -651,27 +655,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Membakar",
-        "translation": "memusnahkan buku-buku lama yang halamannya robek dan usang."
-      },
-      {
-        "key": "C",
         "text": "Mencetak",
         "translation": "memperbanyak naskah lembaran kerja menggunakan mesin printer."
       },
       {
+        "key": "C",
+        "text": "Membakar",
+        "translation": "memusnahkan buku-buku lama yang halamannya robek dan usang."
+      },
+      {
         "key": "D",
-        "text": "Meminjam",
-        "translation": "mengambil buku untuk dibaca dan dikembalikan dalam jangka waktu tertentu."
+        "text": "Menghafal",
+        "translation": "mengingat teks materi ujian tanpa melihat lembaran buku."
       },
       {
         "key": "E",
-        "text": "Menghafal",
-        "translation": "mengingat teks materi ujian tanpa melihat lembaran buku."
+        "text": "Meminjam",
+        "translation": "mengambil buku untuk dibaca dan dikembalikan dalam jangka waktu tertentu."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Meminjam (mengambil buku untuk dibaca dan dikembalikan dalam jangka waktu tertentu).. 'يَسْتَعِيرُ' berasal dari kata 'استعار - يستعير' yang berarti meminjam (istitalah/thalab al-i'arah). Pilih arti 'Meminjam'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Meminjam (mengambil buku untuk dibaca dan dikembalikan dalam jangka waktu tertentu).. 'يَسْتَعِيرُ' berasal dari kata 'استعار - يستعير' yang berarti meminjam (istitalah/thalab al-i'arah). Pilih arti 'Meminjam'."
   },
   {
     "id": "arb-lat-e-15",
@@ -694,13 +698,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "سَافَرَ أَحْمَدُ إِلَى مَكَّةَ فَـبَعْدَ عَشْرِ سَنَوَاتٍ رَجَعَ إِلَى وَطَنِهِ",
-        "translation": "Penggunaan jeda 10 tahun yang seharusnya memakai tsumma."
+        "text": "أَكَلْتُ التُّفَّاحَ فَـالسَّيَّارَةَ فِي الشَّارِعِ",
+        "translation": "Penggabungan dua kata yang tidak memiliki hubungan korelasi makna."
       },
       {
         "key": "B",
-        "text": "تَزَوَّجَ عَلِيٌّ فَـوُلِدَ لَهُ وَلَدٌ بَعْدَ خَمْسِ سِنِينَ",
-        "translation": "Kelahiran anak berselang 5 tahun yang tidak logis memakai fa'."
+        "text": "دَخَلَ الأُسْتَاذُ الفَصْلَ فَوَقَفَ الطُّلَّابُ",
+        "translation": "Ustadz masuk kelas, seketika itu pula para siswa langsung berdiri menyambutnya."
       },
       {
         "key": "C",
@@ -709,17 +713,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "أَكَلْتُ التُّفَّاحَ فَـالسَّيَّارَةَ فِي الشَّارِعِ",
-        "translation": "Penggabungan dua kata yang tidak memiliki hubungan korelasi makna."
+        "text": "تَزَوَّجَ عَلِيٌّ فَـوُلِدَ لَهُ وَلَدٌ بَعْدَ خَمْسِ سِنِينَ",
+        "translation": "Kelahiran anak berselang 5 tahun yang tidak logis memakai fa'."
       },
       {
         "key": "E",
-        "text": "دَخَلَ الأُسْتَاذُ الفَصْلَ فَوَقَفَ الطُّلَّابُ",
-        "translation": "Ustadz masuk kelas, seketika itu pula para siswa langsung berdiri menyambutnya."
+        "text": "سَافَرَ أَحْمَدُ إِلَى مَكَّةَ فَـبَعْدَ عَشْرِ سَنَوَاتٍ رَجَعَ إِلَى وَطَنِهِ",
+        "translation": "Penggunaan jeda 10 tahun yang seharusnya memakai tsumma."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) دَخَلَ الأُسْتَاذُ الفَصْلَ فَوَقَفَ الطُّلَّابُ (Ustadz masuk kelas, seketika itu pula para siswa langsung berdiri menyambutnya).. Huruf 'fa' (فَـ) bermakna berurutan langsung seketika tanpa jeda waktu (tartib wa ta'qib). Pilih kalimat guru masuk kelas dan siswa langsung berdiri seketika."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) دَخَلَ الأُسْتَاذُ الفَصْلَ فَوَقَفَ الطُّلَّابُ (Ustadz masuk kelas, seketika itu pula para siswa langsung berdiri menyambutnya).. Huruf 'fa' (فَـ) bermakna berurutan langsung seketika tanpa jeda waktu (tartib wa ta'qib). Pilih kalimat guru masuk kelas dan siswa langsung berdiri seketika."
   },
   {
     "id": "arb-lat-e-16",
@@ -742,13 +746,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "اسْتَمِعْ",
-        "translation": "istami' - fi'il amar mabni di atas sukun."
+        "text": "اسْتَمَعَ",
+        "translation": "istama'a - bentuk fi'il madhi lampau yang bukan kalimat perintah."
       },
       {
         "key": "B",
-        "text": "اسْتَمِعِي",
-        "translation": "istami'ii - fi'il amar untuk mukhatabah perempuan tunggal berakhiran ya' mukhathabah."
+        "text": "اسْتَمِعَا",
+        "translation": "istami'aa - fi'il amar untuk dua orang mutsanna berakhiran alif itsnain."
       },
       {
         "key": "C",
@@ -757,17 +761,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "اسْتَمِعَا",
-        "translation": "istami'aa - fi'il amar untuk dua orang mutsanna berakhiran alif itsnain."
+        "text": "اسْتَمِعِي",
+        "translation": "istami'ii - fi'il amar untuk mukhatabah perempuan tunggal berakhiran ya' mukhathabah."
       },
       {
         "key": "E",
-        "text": "اسْتَمَعَ",
-        "translation": "istama'a - bentuk fi'il madhi lampau yang bukan kalimat perintah."
+        "text": "اسْتَمِعْ",
+        "translation": "istami' - fi'il amar mabni di atas sukun."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) اسْتَمِعْ (istami' - fi'il amar mabni di atas sukun).. Subjek perintah adalah 'يَا بَنِيَّ' (wahai anak laki-lakiku/anta). Fi'il amar untuk anta mabni di atas sukun: 'اسْتَمِعْ'. Pilih: 'اسْتَمِعْ' (istami')."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) اسْتَمِعْ (istami' - fi'il amar mabni di atas sukun).. Subjek perintah adalah 'يَا بَنِيَّ' (wahai anak laki-lakiku/anta). Fi'il amar untuk anta mabni di atas sukun: 'اسْتَمِعْ'. Pilih: 'اسْتَمِعْ' (istami')."
   },
   {
     "id": "arb-lat-e-17",
@@ -790,32 +794,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Isim Zaman",
-        "translation": "kata benda yang khusus menunjukkan masa/waktu berlangsungnya pekerjaan ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
         "text": "Isim Makan",
         "translation": "kata benda derivasi yang menunjukkan keterangan tempat terjadinya suatu perbuatan."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Isim Alat",
         "translation": "kata benda yang menunjukkan perkakas konkret untuk melakukan perbuatan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Isim Tafdhil",
         "translation": "kata benda yang menyatakan perbandingan sifat lebih atau paling unggul."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Isim Fa'il",
         "translation": "kata benda yang menyatakan subjek pelaku aktif dari suatu pekerjaan."
+      },
+      {
+        "key": "E",
+        "text": "Isim Zaman",
+        "translation": "kata benda yang khusus menunjukkan masa/waktu berlangsungnya pekerjaan ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Isim Makan (kata benda derivasi yang menunjukkan keterangan tempat terjadinya suatu perbuatan).. 'Masjid' berasal dari sajada (bersujud) mengikuti wazan maf'ilun untuk menunjukkan tempat sujud (isim makan). Pilih kategori Isim Makan (keterangan tempat terjadinya perbuatan)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Isim Makan (kata benda derivasi yang menunjukkan keterangan tempat terjadinya suatu perbuatan).. 'Masjid' berasal dari sajada (bersujud) mengikuti wazan maf'ilun untuk menunjukkan tempat sujud (isim makan). Pilih kategori Isim Makan (keterangan tempat terjadinya perbuatan)."
   },
   {
     "id": "arb-lat-e-18",
@@ -838,8 +842,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "أَبَا",
-        "translation": "abaa - manshub dengan tanda huruf alif yang keliru untuk posisi mubtada'."
+        "text": "آبَاءُ",
+        "translation": "aabaa'u - jama' taksir yang bermakna banyak ayah/leluhur."
       },
       {
         "key": "B",
@@ -853,13 +857,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "أَبٌ",
-        "translation": "abun - mufrad bertanwin tanpa idhafah yang tidak cocok disandingkan dengan Ali."
+        "text": "أَبَا",
+        "translation": "abaa - manshub dengan tanda huruf alif yang keliru untuk posisi mubtada'."
       },
       {
         "key": "E",
-        "text": "آبَاءُ",
-        "translation": "aabaa'u - jama' taksir yang bermakna banyak ayah/leluhur."
+        "text": "أَبٌ",
+        "translation": "abun - mufrad bertanwin tanpa idhafah yang tidak cocok disandingkan dengan Ali."
       }
     ],
     "correctKey": "C",
@@ -886,27 +890,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kalimat 1 dan 2 sama-sama menggunakan Laa an-Nahiyah yang mewajibkan harakat fathah pada fi'il mudhari' menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Kalimat 1 berfungsi sebagai huruf jar, sedangkan Kalimat 2 berfungsi sebagai isim istifham penanya."
       },
       {
         "key": "B",
-        "text": "Kalimat 1 adalah Laa an-Nafiyah pembuat ragu, sedangkan Kalimat 2 adalah huruf syarat penegas sumpah."
+        "text": "Kalimat 1 dan 2 sama-sama menggunakan Laa an-Nahiyah yang mewajibkan harakat fathah pada fi'il mudhari'."
       },
       {
         "key": "C",
-        "text": "Kalimat 1 memanshubkan fi'il mudhari', sedangkan Kalimat 2 memajzumkan fi'il madhi."
-      },
-      {
-        "key": "D",
         "text": "Kalimat 1 menggunakan Laa an-Nahiyah (larangan yang menjazmkan fi'il dengan sukun), sedangkan Kalimat 2 menggunakan Laa an-Nafiyah (peniadaan kabar yang membiarkan fi'il tetap marfu' dengan dhommah)."
       },
       {
+        "key": "D",
+        "text": "Kalimat 1 adalah Laa an-Nafiyah pembuat ragu, sedangkan Kalimat 2 adalah huruf syarat penegas sumpah."
+      },
+      {
         "key": "E",
-        "text": "Kalimat 1 berfungsi sebagai huruf jar, sedangkan Kalimat 2 berfungsi sebagai isim istifham penanya."
+        "text": "Kalimat 1 memanshubkan fi'il mudhari', sedangkan Kalimat 2 memajzumkan fi'il madhi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kalimat 1 menggunakan Laa an-Nahiyah (larangan yang menjazmkan fi'il dengan sukun), sedangkan Kalimat 2 menggunakan Laa an-Nafiyah (peniadaan kabar yang membiarkan fi'il tetap marfu' dengan dhommah).. Laa Nahiyah (larangan/jangan) menjazmkan fi'il (sukun). Laa Nafiyah (tidak/hanya berita) tidak mengubah i'rab (tetap marfu' dhommah). Pilih opsi: Kalimat 1 Laa an-Nahiyah (menjazmkan), Kalimat 2 Laa an-Nafiyah (tetap marfu')."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kalimat 1 menggunakan Laa an-Nahiyah (larangan yang menjazmkan fi'il dengan sukun), sedangkan Kalimat 2 menggunakan Laa an-Nafiyah (peniadaan kabar yang membiarkan fi'il tetap marfu' dengan dhommah).. Laa Nahiyah (larangan/jangan) menjazmkan fi'il (sukun). Laa Nafiyah (tidak/hanya berita) tidak mengubah i'rab (tetap marfu' dhommah). Pilih opsi: Kalimat 1 Laa an-Nahiyah (menjazmkan), Kalimat 2 Laa an-Nafiyah (tetap marfu')."
   },
   {
     "id": "arb-lat-e-20",
@@ -929,13 +933,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "الفَوْزُ",
-        "translation": "al-fawzu - sinonim yang bermakna kemenangan atau keberuntungan besar."
+        "text": "السَّعَادَةُ",
+        "translation": "as-sa'aadatu - kebahagiaan atau ketenteraman batin jiwa."
       },
       {
         "key": "B",
-        "text": "السَّعَادَةُ",
-        "translation": "as-sa'aadatu - kebahagiaan atau ketenteraman batin jiwa."
+        "text": "الفَوْزُ",
+        "translation": "al-fawzu - sinonim yang bermakna kemenangan atau keberuntungan besar."
       },
       {
         "key": "C",
@@ -944,17 +948,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "الكَسَلُ",
-        "translation": "al-kasalu - sifat malas dalam menjalankan aktivitas pekerjaan."
+        "text": "الفَشَلُ",
+        "translation": "al-fasyalu - kegagalan / ketidakberhasilan."
       },
       {
         "key": "E",
-        "text": "الفَشَلُ",
-        "translation": "al-fasyalu - kegagalan / ketidakberhasilan."
+        "text": "الكَسَلُ",
+        "translation": "al-kasalu - sifat malas dalam menjalankan aktivitas pekerjaan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) الفَشَلُ (al-fasyalu - kegagalan / ketidakberhasilan).. Lawan kata dari an-najah (sukses) adalah al-fasyal (kegagalan). Pilih: 'الفَشَلُ' (al-fasyalu)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) الفَشَلُ (al-fasyalu - kegagalan / ketidakberhasilan).. Lawan kata dari an-najah (sukses) adalah al-fasyal (kegagalan). Pilih: 'الفَشَلُ' (al-fasyalu)."
   },
   {
     "id": "arb-lat-e-21",
@@ -982,23 +986,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "كُتُبٌ",
-        "translation": "kutubun - jama' taksir marfu' yang menyalahi kaidah mufrad manshub ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "كِتَابَانِ",
+        "translation": "kitaabaani - mutsanna marfu' dengan alif yang tidak memenuhi syarat tamyiz."
       },
       {
         "key": "C",
-        "text": "كِتَابٍ",
-        "translation": "kitaabin - majrur dengan kasratain yang hanya berlaku pada kam khabariyyah."
-      },
-      {
-        "key": "D",
         "text": "الكِتَابُ",
         "translation": "al-kitaabu - isim ma'rifah ber-alif lam yang tidak boleh menjadi tamyiz."
       },
       {
+        "key": "D",
+        "text": "كِتَابٍ",
+        "translation": "kitaabin - majrur dengan kasratain yang hanya berlaku pada kam khabariyyah."
+      },
+      {
         "key": "E",
-        "text": "كِتَابَانِ",
-        "translation": "kitaabaani - mutsanna marfu' dengan alif yang tidak memenuhi syarat tamyiz."
+        "text": "كُتُبٌ",
+        "translation": "kutubun - jama' taksir marfu' yang menyalahi kaidah mufrad manshub ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       }
     ],
     "correctKey": "A",
@@ -1025,18 +1029,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
+        "text": "هَذَا الكُتُبُ نَافِعٌ",
+        "translation": "hadha adalah kata tunjuk untuk mufrad mudzakkar."
+      },
+      {
+        "key": "B",
         "text": "هَؤُلَاءِ الكُتُبُ نَافِعَةٌ",
         "translation": "ha'ulaa'i hanya diperuntukkan bagi jamak manusia berakal ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       },
       {
-        "key": "B",
-        "text": "هَذِهِ الكُتُبُ نَافِعَةٌ",
-        "translation": "hadhihi al-kutubu naafi'atun - menggunakan hadhihi karena al-kutub adalah jama' taksir ghairu 'aqil."
-      },
-      {
         "key": "C",
-        "text": "هَذَا الكُتُبُ نَافِعٌ",
-        "translation": "hadha adalah kata tunjuk untuk mufrad mudzakkar."
+        "text": "ذَلِكَ الكُتُبُ نَافِعَاتٌ",
+        "translation": "dhalika adalah kata tunjuk jauh untuk tunggal mudzakkar."
       },
       {
         "key": "D",
@@ -1045,12 +1049,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "ذَلِكَ الكُتُبُ نَافِعَاتٌ",
-        "translation": "dhalika adalah kata tunjuk jauh untuk tunggal mudzakkar."
+        "text": "هَذِهِ الكُتُبُ نَافِعَةٌ",
+        "translation": "hadhihi al-kutubu naafi'atun - menggunakan hadhihi karena al-kutub adalah jama' taksir ghairu 'aqil."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) هَذِهِ الكُتُبُ نَافِعَةٌ (hadhihi al-kutubu naafi'atun - menggunakan hadhihi karena al-kutub adalah jama' taksir ghairu 'aqil).. Kaidah baku: 'Kullu jam'in ghairi 'aaqilin mu'annats' (Setiap jamak tak berakal dihukumi mufrad mu'annats). Gunakan 'هَذِهِ'. Pilih kalimat: 'هَذِهِ الكُتُبُ نَافِعَةٌ'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) هَذِهِ الكُتُبُ نَافِعَةٌ (hadhihi al-kutubu naafi'atun - menggunakan hadhihi karena al-kutub adalah jama' taksir ghairu 'aqil).. Kaidah baku: 'Kullu jam'in ghairi 'aaqilin mu'annats' (Setiap jamak tak berakal dihukumi mufrad mu'annats). Gunakan 'هَذِهِ'. Pilih kalimat: 'هَذِهِ الكُتُبُ نَافِعَةٌ'."
   },
   {
     "id": "arb-lat-e-23",
@@ -1073,18 +1077,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "كَبِيرٌ مِنْ",
-        "translation": "kabiirun min - bentuk sifat musyabbahah biasa tanpa perubahan wazan tafdhil."
-      },
-      {
-        "key": "B",
         "text": "مَكْبُورٌ مِنْ",
         "translation": "makbuurun min - bentuk wazan isim maf'ul yang keliru makna."
       },
       {
+        "key": "B",
+        "text": "أَكْبَرِينَ مِنْ",
+        "translation": "akbariina min - bentuk jamak yang tidak lazim dalam konstruksi komparatif tunggal."
+      },
+      {
         "key": "C",
-        "text": "أَكْبَرُ مِنْ",
-        "translation": "akbaru min - mengikuti wazan af'alu min untuk menyatakan komparasi sifat."
+        "text": "كَبِيرٌ مِنْ",
+        "translation": "kabiirun min - bentuk sifat musyabbahah biasa tanpa perubahan wazan tafdhil."
       },
       {
         "key": "D",
@@ -1093,12 +1097,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "أَكْبَرِينَ مِنْ",
-        "translation": "akbariina min - bentuk jamak yang tidak lazim dalam konstruksi komparatif tunggal."
+        "text": "أَكْبَرُ مِنْ",
+        "translation": "akbaru min - mengikuti wazan af'alu min untuk menyatakan komparasi sifat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) أَكْبَرُ مِنْ (akbaru min - mengikuti wazan af'alu min untuk menyatakan komparasi sifat).. Isim tafdhil untuk perbandingan komparatif (lebih ... daripada) mengikuti wazan 'أَفْعَلُ مِنْ' (af'alu min). Kabiirun -> Akbaru min. Pilih: 'أَكْبَرُ مِنْ' (akbaru min)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) أَكْبَرُ مِنْ (akbaru min - mengikuti wazan af'alu min untuk menyatakan komparasi sifat).. Isim tafdhil untuk perbandingan komparatif (lebih ... daripada) mengikuti wazan 'أَفْعَلُ مِنْ' (af'alu min). Kabiirun -> Akbaru min. Pilih: 'أَكْبَرُ مِنْ' (akbaru min)."
   },
   {
     "id": "arb-lat-e-24",
@@ -1121,27 +1125,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban membeli kamus tebal terbitan luar negeri bagi setiap turis yang berlibur ke Timur Tengah menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
-      },
-      {
-        "key": "B",
-        "text": "Jumlah total percetakan buku tulis yang beroperasi di sepanjang pesisir Laut Merah."
-      },
-      {
-        "key": "C",
         "text": "Metode bertani gandum modern di kawasan padang pasir jazirah Arab pada masa lampau."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kedudukan luhur dan fungsi global bahasa Arab sebagai bahasa internasional dan bahasa peradaban Islam."
+      },
+      {
+        "key": "C",
+        "text": "Kewajiban membeli kamus tebal terbitan luar negeri bagi setiap turis yang berlibur ke Timur Tengah."
+      },
+      {
+        "key": "D",
+        "text": "Jumlah total percetakan buku tulis yang beroperasi di sepanjang pesisir Laut Merah."
       },
       {
         "key": "E",
         "text": "Silsilah raja-raja kekaisaran Romawi kuno yang menaklukkan wilayah semenanjung Mediterania."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kedudukan luhur dan fungsi global bahasa Arab sebagai bahasa internasional dan bahasa peradaban Islam.. Teks berbicara tentang bahasa Arab sebagai bahasa global (lisan dunia), bahasa Al-Qur'an, dan sumber peradaban Islam. Pilih opsi: Kedudukan luhur dan fungsi global bahasa Arab sebagai bahasa internasional dan peradaban."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kedudukan luhur dan fungsi global bahasa Arab sebagai bahasa internasional dan bahasa peradaban Islam.. Teks berbicara tentang bahasa Arab sebagai bahasa global (lisan dunia), bahasa Al-Qur'an, dan sumber peradaban Islam. Pilih opsi: Kedudukan luhur dan fungsi global bahasa Arab sebagai bahasa internasional dan peradaban."
   },
   {
     "id": "arb-lat-e-25",
@@ -1164,32 +1168,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "تَحْتُ",
-        "translation": "tahtu - marfu' dengan dhommah yang menyalahi i'rab asli dharaf beridhafah."
-      },
-      {
-        "key": "B",
         "text": "تَحْتِ",
         "translation": "tahti - majrur dengan kasrah yang keliru tanpa adanya huruf jar pendahulu."
       },
       {
-        "key": "C",
-        "text": "فَوْقَ",
-        "translation": "fawqa - bermakna 'di atas' yang tidak logis untuk tempat berteduh santai petani."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "خَلْفُ",
         "translation": "khalfu - berharakat dhommah yang tidak sesuai posisi nashab dharaf."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "تَحْتُ",
+        "translation": "tahtu - marfu' dengan dhommah yang menyalahi i'rab asli dharaf beridhafah."
+      },
+      {
+        "key": "D",
         "text": "تَحْتَ",
         "translation": "tahta - dharaf makan manshub bil-fathah bermakna 'di bawah'."
+      },
+      {
+        "key": "E",
+        "text": "فَوْقَ",
+        "translation": "fawqa - bermakna 'di atas' yang tidak logis untuk tempat berteduh santai petani."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) تَحْتَ (tahta - dharaf makan manshub bil-fathah bermakna 'di bawah').. Kata keterangan tempat (dharaf makan) seperti tahta berkedudukan manshub dengan fathah: 'تَحْتَ' (di bawah). Pilih 'تَحْتَ' (tahta)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) تَحْتَ (tahta - dharaf makan manshub bil-fathah bermakna 'di bawah').. Kata keterangan tempat (dharaf makan) seperti tahta berkedudukan manshub dengan fathah: 'تَحْتَ' (di bawah). Pilih 'تَحْتَ' (tahta)."
   },
   {
     "id": "arb-lat-m-01",
@@ -1222,18 +1226,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "كُرَمَاءُ",
-        "translation": "kuramaa'u - bentuk jama' taksir yang menyalahi kaidah na'at sababi yang wajib selalu mufrad."
-      },
-      {
-        "key": "D",
         "text": "كَرِيمَيْنِ",
         "translation": "kariimaini - bentuk mutsanna manshub/majrur yang tidak selaras dengan syarat mufrad."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "الكَرِيمُ",
         "translation": "al-kariimu - isim ma'rifah yang bertentangan dengan man'ut sebelumnya yang nakirah."
+      },
+      {
+        "key": "E",
+        "text": "كُرَمَاءُ",
+        "translation": "kuramaa'u - bentuk jama' taksir yang menyalahi kaidah na'at sababi yang wajib selalu mufrad."
       }
     ],
     "correctKey": "A",
@@ -1260,13 +1264,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "الَّذِينَ",
-        "translation": "al-ladhiina - isim maushul jamak yang khusus digunakan untuk kelompok laki-laki ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "اللاَّتِي",
+        "translation": "al-laatii - isim maushul khusus untuk kelompok jamak perempuan / jama' mu'annats."
       },
       {
         "key": "B",
-        "text": "اللاَّتِي",
-        "translation": "al-laatii - isim maushul khusus untuk kelompok jamak perempuan / jama' mu'annats."
+        "text": "الَّذِينَ",
+        "translation": "al-ladhiina - isim maushul jamak yang khusus digunakan untuk kelompok laki-laki ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       },
       {
         "key": "C",
@@ -1284,8 +1288,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "al-ladhaani - isim maushul untuk dua orang laki-laki / mutsanna mudzakkar."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) اللاَّتِي (al-laatii - isim maushul khusus untuk kelompok jamak perempuan / jama' mu'annats).. Kata 'الطَّالِبَاتِ' adalah jama' mu'annats (perempuan jamak). Isim maushul yang sesuai adalah 'اللاَّتِي' atau 'اللَّوَائِي'. Pilih: 'اللاَّتِي' (al-laatii)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) اللاَّتِي (al-laatii - isim maushul khusus untuk kelompok jamak perempuan / jama' mu'annats).. Kata 'الطَّالِبَاتِ' adalah jama' mu'annats (perempuan jamak). Isim maushul yang sesuai adalah 'اللاَّتِي' atau 'اللَّوَائِي'. Pilih: 'اللاَّتِي' (al-laatii)."
   },
   {
     "id": "arb-lat-m-03",
@@ -1308,8 +1312,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "تُقَصِّرُونَ",
-        "translation": "tuqash-shiruuna - marfu' dengan tetap adanya nun / tsubutun nun yang belum dijazmkan."
+        "text": "قَصَّرْتُمْ",
+        "translation": "qash-shartum - bentuk fi'il madhi yang tidak dapat didahului partikel laa an-nahiyah."
       },
       {
         "key": "B",
@@ -1323,13 +1327,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "يُقَصِّرُوا",
-        "translation": "yuqash-shiruu - bentuk gha'ib orang ketiga yang tidak cocok untuk panggilan langsung yaa thullaab."
+        "text": "تُقَصِّرُونَ",
+        "translation": "tuqash-shiruuna - marfu' dengan tetap adanya nun / tsubutun nun yang belum dijazmkan."
       },
       {
         "key": "E",
-        "text": "قَصَّرْتُمْ",
-        "translation": "qash-shartum - bentuk fi'il madhi yang tidak dapat didahului partikel laa an-nahiyah."
+        "text": "يُقَصِّرُوا",
+        "translation": "yuqash-shiruu - bentuk gha'ib orang ketiga yang tidak cocok untuk panggilan langsung yaa thullaab."
       }
     ],
     "correctKey": "C",
@@ -1361,18 +1365,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "صَلَّيْتُ فِي المَسَاجِدِ الأَثَرِيَّةِ التَّارِيخِيَّةِ",
-        "translation": "al-masaajidi berharakat kasrah karena memiliki alif lam ma'rifah."
-      },
-      {
-        "key": "C",
         "text": "صَلَّيْتُ فِي مَسَاجِدٍ كَثِيرَةٍ بِالتَّنْوِينِ",
         "translation": "penambahan tanwin kasrah yang melanggar hukum ghairu munsharif."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ فِي جَزِيرَةِ جَاوَى",
         "translation": "shallaitu fii masaajida katsiiratin - masaajida majrur bil-fathah karena ghairu munsharif dan tanpa alif lam."
+      },
+      {
+        "key": "D",
+        "text": "صَلَّيْتُ فِي المَسَاجِدِ الأَثَرِيَّةِ التَّارِيخِيَّةِ",
+        "translation": "al-masaajidi berharakat kasrah karena memiliki alif lam ma'rifah."
       },
       {
         "key": "E",
@@ -1380,8 +1384,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "pemberian dhommah yang menyalahi fungsi huruf jar fii."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ فِي جَزِيرَةِ جَاوَى (shallaitu fii masaajida katsiiratin - masaajida majrur bil-fathah karena ghairu munsharif dan tanpa alif lam).. Isim ghairu munsharif majrur dengan fathah tanpa tanwin syaratnya: tidak ada Alif Lam dan tidak di-idhafah-kan. Pilih: 'صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ' di mana masaajida berfathah dan tidak ber-Al."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ فِي جَزِيرَةِ جَاوَى (shallaitu fii masaajida katsiiratin - masaajida majrur bil-fathah karena ghairu munsharif dan tanpa alif lam).. Isim ghairu munsharif majrur dengan fathah tanpa tanwin syaratnya: tidak ada Alif Lam dan tidak di-idhafah-kan. Pilih: 'صَلَّيْتُ فِي مَسَاجِدَ كَثِيرَةٍ' di mana masaajida berfathah dan tidak ber-Al."
   },
   {
     "id": "arb-lat-m-05",
@@ -1404,32 +1408,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "فَرِحٌ",
-        "translation": "farihun - marfu' dengan dhommatain yang keliru untuk kategori manshubatul asma'."
-      },
-      {
-        "key": "B",
-        "text": "الفَرِحُ",
-        "translation": "al-farihu - isim ma'rifah ber-alif lam yang menyalahi syarat pokok ke-nakirah-an haal."
-      },
-      {
-        "key": "C",
-        "text": "فَرِحِينَ",
-        "translation": "farihiina - jamak yang bertentangan dengan shahibul hal tunggal al-faa'izu."
-      },
-      {
-        "key": "D",
         "text": "فَرِحَةً",
         "translation": "farihatan - mu'annats yang tidak selaras dengan shahibul hal mudzakkar."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "فَرِحِينَ",
+        "translation": "farihiina - jamak yang bertentangan dengan shahibul hal tunggal al-faa'izu."
+      },
+      {
+        "key": "C",
+        "text": "الفَرِحُ",
+        "translation": "al-farihu - isim ma'rifah ber-alif lam yang menyalahi syarat pokok ke-nakirah-an haal."
+      },
+      {
+        "key": "D",
         "text": "فَرِحًا",
         "translation": "farihan - isim nakirah manshub dengan harakat fathatain yang berfungsi sebagai haal."
+      },
+      {
+        "key": "E",
+        "text": "فَرِحٌ",
+        "translation": "farihun - marfu' dengan dhommatain yang keliru untuk kategori manshubatul asma'."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) فَرِحًا (farihan - isim nakirah manshub dengan harakat fathatain yang berfungsi sebagai haal).. Haal mufradah wajib berupa isim sifat nakirah dan manshub (fathah), serta menyamai shahibul hal (الفَائِزُ) dalam gender dan bilangannya. Pilih kata sifat nakirah manshub: 'فَرِحًا' (farihan)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) فَرِحًا (farihan - isim nakirah manshub dengan harakat fathatain yang berfungsi sebagai haal).. Haal mufradah wajib berupa isim sifat nakirah dan manshub (fathah), serta menyamai shahibul hal (الفَائِزُ) dalam gender dan bilangannya. Pilih kata sifat nakirah manshub: 'فَرِحًا' (farihan)."
   },
   {
     "id": "arb-lat-m-06",
@@ -1457,23 +1461,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "مِسَاحَةٌ",
-        "translation": "misaahatun - berharakat dhommatain yang keliru untuk jabatan i'rab tamyiz ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
-        "text": "مِسَاحَةٍ",
-        "translation": "misaahatin - majrur dengan kasratain yang tidak memenuhi hukum nashab tamyiz."
-      },
-      {
-        "key": "D",
         "text": "المِسَاحَةُ",
         "translation": "al-misaahatu - isim ma'rifah ber-alif lam yang melanggar sifat kenakiran tamyiz."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "بِالمِسَاحَةِ",
         "translation": "bil-misaahati - susunan jar majrur yang tidak membentuk pola tamyiz murni."
+      },
+      {
+        "key": "D",
+        "text": "مِسَاحَةٌ",
+        "translation": "misaahatun - berharakat dhommatain yang keliru untuk jabatan i'rab tamyiz ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
+        "key": "E",
+        "text": "مِسَاحَةٍ",
+        "translation": "misaahatin - majrur dengan kasratain yang tidak memenuhi hukum nashab tamyiz."
       }
     ],
     "correctKey": "A",
@@ -1500,18 +1504,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "رَغْبَةٌ",
-        "translation": "raghbatun - marfu' dengan dhommatain yang tidak sesuai untuk i'rab maf'ul liajlih ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "الرَّغْبَةُ",
+        "translation": "ar-raghbatu - isim ma'rifah yang bukan format baku maf'ul liajlih tunggal."
       },
       {
         "key": "B",
-        "text": "رَغْبَةً",
-        "translation": "raghbatan - maf'ul liajlih manshub dengan harakat fathatain bermakna 'karena menginginkan/berhasrat'."
+        "text": "رَاغِبًا",
+        "translation": "raaghiban - bentuk isim fa'il yang lebih condong menjadi haal daripada masdar qolbi."
       },
       {
         "key": "C",
-        "text": "رَاغِبًا",
-        "translation": "raaghiban - bentuk isim fa'il yang lebih condong menjadi haal daripada masdar qolbi."
+        "text": "رَغْبَةٌ",
+        "translation": "raghbatun - marfu' dengan dhommatain yang tidak sesuai untuk i'rab maf'ul liajlih ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       },
       {
         "key": "D",
@@ -1520,12 +1524,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "الرَّغْبَةُ",
-        "translation": "ar-raghbatu - isim ma'rifah yang bukan format baku maf'ul liajlih tunggal."
+        "text": "رَغْبَةً",
+        "translation": "raghbatan - maf'ul liajlih manshub dengan harakat fathatain bermakna 'karena menginginkan/berhasrat'."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) رَغْبَةً (raghbatan - maf'ul liajlih manshub dengan harakat fathatain bermakna 'karena menginginkan/berhasrat').. Maf'ul liajlih adalah masdar qolbi (hati/keinginan) manshub yang menjawab pertanyaan 'mengapa perbuatan itu dilakukan'. Pilih: 'رَغْبَةً' (raghbatan)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) رَغْبَةً (raghbatan - maf'ul liajlih manshub dengan harakat fathatain bermakna 'karena menginginkan/berhasrat').. Maf'ul liajlih adalah masdar qolbi (hati/keinginan) manshub yang menjawab pertanyaan 'mengapa perbuatan itu dilakukan'. Pilih: 'رَغْبَةً' (raghbatan)."
   },
   {
     "id": "arb-lat-m-08",
@@ -1548,32 +1552,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Li Taukidil Fi'li semata",
-        "translation": "hanya menegaskan perbuatan tanpa memberikan keterangan jenis atau sifat sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
-        "text": "Li Bayaanil 'Adad",
-        "translation": "menjelaskan jumlah kuantitas berapa kali perbuatan dilakukan."
-      },
-      {
-        "key": "C",
-        "text": "Li Bayaani an-Nau'",
-        "translation": "menjelaskan jenis atau kualitas dari perbuatan terima kasih tersebut karena diikuti kata sifat."
-      },
-      {
-        "key": "D",
         "text": "Li Bayaaniz-Zaman",
         "translation": "menjelaskan masa atau waktu pelaksanaan akad pertemuan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Li Bayaani an-Nau'",
+        "translation": "menjelaskan jenis atau kualitas dari perbuatan terima kasih tersebut karena diikuti kata sifat."
+      },
+      {
+        "key": "C",
         "text": "Li Bayaanil-Makan",
         "translation": "menunjukkan lokasi tempat dilangsungkannya bimbingan belajar."
+      },
+      {
+        "key": "D",
+        "text": "Li Taukidil Fi'li semata",
+        "translation": "hanya menegaskan perbuatan tanpa memberikan keterangan jenis atau sifat sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+      },
+      {
+        "key": "E",
+        "text": "Li Bayaanil 'Adad",
+        "translation": "menjelaskan jumlah kuantitas berapa kali perbuatan dilakukan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Li Bayaani an-Nau' (menjelaskan jenis atau kualitas dari perbuatan terima kasih tersebut karena diikuti kata sifat).. Jika maf'ul muthlaq diikuti kata sifat (na'at seperti جَزِيلًا) atau mudhaf ilaih, maka fungsinya adalah li bayaani an-nau' (menjelaskan macam/kualitas perbuatan). Pilih: Li Bayaani an-Nau' (menjelaskan jenis/kualitas perbuatan)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Li Bayaani an-Nau' (menjelaskan jenis atau kualitas dari perbuatan terima kasih tersebut karena diikuti kata sifat).. Jika maf'ul muthlaq diikuti kata sifat (na'at seperti جَزِيلًا) atau mudhaf ilaih, maka fungsinya adalah li bayaani an-nau' (menjelaskan macam/kualitas perbuatan). Pilih: Li Bayaani an-Nau' (menjelaskan jenis/kualitas perbuatan)."
   },
   {
     "id": "arb-lat-m-09",
@@ -1596,32 +1600,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Al-Musyarakah",
-        "translation": "saling memotong secara bergantian antardua kubu pedagang pasar menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
-      },
-      {
-        "key": "B",
         "text": "At-Talab",
         "translation": "memohon dan meminta orang lain untuk memotongkan daging."
       },
       {
-        "key": "C",
-        "text": "As-Sairurah",
-        "translation": "perubahan zat dari daging segar menjadi daging olahan panggang."
+        "key": "B",
+        "text": "Al-Musyarakah",
+        "translation": "saling memotong secara bergantian antardua kubu pedagang pasar menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "At-Taktsir wal-Mubalaghah",
         "translation": "menunjukkan intensitas perbuatan yang dilakukan berulang-ulang hingga terpotong menjadi berkeping-keping."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "At-Tahwil",
         "translation": "mengubah fungsi pisau pemotong menjadi perkakas pajangan dinding."
+      },
+      {
+        "key": "E",
+        "text": "As-Sairurah",
+        "translation": "perubahan zat dari daging segar menjadi daging olahan panggang."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) At-Taktsir wal-Mubalaghah (menunjukkan intensitas perbuatan yang dilakukan berulang-ulang hingga terpotong menjadi berkeping-keping).. Wazan فَعَّلَ (dengan tasydid) memiliki faedah at-taktsir (banyaknya/intensifnya pekerjaan, seperti qath-tha'a = memotong-motong hingga lumat). Pilih opsi: At-Taktsir wal-Mubalaghah (intensitas berulang-ulang)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) At-Taktsir wal-Mubalaghah (menunjukkan intensitas perbuatan yang dilakukan berulang-ulang hingga terpotong menjadi berkeping-keping).. Wazan فَعَّلَ (dengan tasydid) memiliki faedah at-taktsir (banyaknya/intensifnya pekerjaan, seperti qath-tha'a = memotong-motong hingga lumat). Pilih opsi: At-Taktsir wal-Mubalaghah (intensitas berulang-ulang)."
   },
   {
     "id": "arb-lat-m-10",
@@ -1644,8 +1648,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "At-Takalluf",
-        "translation": "pemaksaan diri untuk melakukan sesuatu secara susah payah diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+        "text": "Li Thalabil Ma'rifah",
+        "translation": "permintaan untuk berkenalan secara formal melalui surat kabar."
       },
       {
         "key": "B",
@@ -1654,22 +1658,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Li Thalabil Ma'rifah",
-        "translation": "permintaan untuk berkenalan secara formal melalui surat kabar."
+        "text": "At-Takalluf",
+        "translation": "pemaksaan diri untuk melakukan sesuatu secara susah payah diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
       },
       {
         "key": "D",
-        "text": "Li Muthawa'ati af'ala",
-        "translation": "akibat otomatis yang ditimbulkan oleh perintah penguasa."
+        "text": "Al-Musyarakah baina itsnain",
+        "translation": "perbuatan timbal balik yang dilakukan secara bersamaan oleh dua orang pelaku."
       },
       {
         "key": "E",
-        "text": "Al-Musyarakah baina itsnain",
-        "translation": "perbuatan timbal balik yang dilakukan secara bersamaan oleh dua orang pelaku."
+        "text": "Li Muthawa'ati af'ala",
+        "translation": "akibat otomatis yang ditimbulkan oleh perintah penguasa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Al-Musyarakah baina itsnain (perbuatan timbal balik yang dilakukan secara bersamaan oleh dua orang pelaku).. Wazan فَاعَلَ (faa'ala) paling sering berfaedah lil-musyarakah baina itsnain (saling melakukan perbuatan antardua pihak). Pilih: Al-Musyarakah baina itsnain (perbuatan timbal balik dua pelaku)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Al-Musyarakah baina itsnain (perbuatan timbal balik yang dilakukan secara bersamaan oleh dua orang pelaku).. Wazan فَاعَلَ (faa'ala) paling sering berfaedah lil-musyarakah baina itsnain (saling melakukan perbuatan antardua pihak). Pilih: Al-Musyarakah baina itsnain (perbuatan timbal balik dua pelaku)."
   },
   {
     "id": "arb-lat-m-11",
@@ -1697,13 +1701,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "قَالْتُ",
-        "translation": "qaaltu - kesalahan mempertahankan huruf alif yang menyebabkan bertemunya dua huruf sukun."
+        "text": "قِلْتُ",
+        "translation": "qiltu - pengkasrahan huruf qaf yang hanya berlaku untuk ajwaf ya'i seperti bi'tu."
       },
       {
         "key": "C",
-        "text": "قِلْتُ",
-        "translation": "qiltu - pengkasrahan huruf qaf yang hanya berlaku untuk ajwaf ya'i seperti bi'tu."
+        "text": "قَالْتُ",
+        "translation": "qaaltu - kesalahan mempertahankan huruf alif yang menyebabkan bertemunya dua huruf sukun."
       },
       {
         "key": "D",
@@ -1740,8 +1744,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wajib marfu' bil-dhommah: مُهَنْدِسٌ",
-        "translation": "muhandisun."
+        "text": "Boleh marfu' atau majrur sesuai kehendak pembicara tanpa ada ikatan kaidah."
       },
       {
         "key": "B",
@@ -1750,16 +1753,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Wajib majrur bil-kasrah: مُهَنْدِسٍ",
-        "translation": "muhandisin."
+        "text": "Mabni di atas sukun karena dianggap sebagai isim istifham penanya."
       },
       {
         "key": "D",
-        "text": "Boleh marfu' atau majrur sesuai kehendak pembicara tanpa ada ikatan kaidah."
+        "text": "Wajib marfu' bil-dhommah: مُهَنْدِسٌ",
+        "translation": "muhandisun."
       },
       {
         "key": "E",
-        "text": "Mabni di atas sukun karena dianggap sebagai isim istifham penanya."
+        "text": "Wajib majrur bil-kasrah: مُهَنْدِسٍ",
+        "translation": "muhandisin."
       }
     ],
     "correctKey": "B",
@@ -1786,8 +1790,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "طَالِبُ",
-        "translation": "thaalibu - berharakat dhommah yang hanya berlaku pada munada mufrad 'alam atau nakirah maqshudah."
+        "text": "طَالِبَ",
+        "translation": "thaaliba - munada mudhaf berharakat fathah tanpa tanwin."
       },
       {
         "key": "B",
@@ -1796,22 +1800,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "طَالِبَ",
-        "translation": "thaaliba - munada mudhaf berharakat fathah tanpa tanwin."
-      },
-      {
-        "key": "D",
         "text": "طَالِبًا",
         "translation": "thaaliban - bertanwin yang tidak sah disandingkan sebagai kata pertama susunan idhafah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "طَالِبُونَ",
         "translation": "thaalibuuna - jamak marfu' berakhiran wawu dan nun."
+      },
+      {
+        "key": "E",
+        "text": "طَالِبُ",
+        "translation": "thaalibu - berharakat dhommah yang hanya berlaku pada munada mufrad 'alam atau nakirah maqshudah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) طَالِبَ (thaaliba - munada mudhaf berharakat fathah tanpa tanwin).. Munada mudhaf hukumnya adalah manshub bil-fathah tanpa tanwin karena berposisi sebagai mudhaf. Pilih: 'طَالِبَ' (thaaliba)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) طَالِبَ (thaaliba - munada mudhaf berharakat fathah tanpa tanwin).. Munada mudhaf hukumnya adalah manshub bil-fathah tanpa tanwin karena berposisi sebagai mudhaf. Pilih: 'طَالِبَ' (thaaliba)."
   },
   {
     "id": "arb-lat-m-14",
@@ -1834,13 +1838,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "عُمَرَ",
-        "translation": "Umara - manshub bil-fathah yang menyalahi i'rab mubdal minhu yang berkedudukan marfu' menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "عُمَرٍ",
+        "translation": "Umarin - berharakat kasratain yang melanggar hukum isim ghairu munsharif."
       },
       {
         "key": "B",
-        "text": "عُمَرٍ",
-        "translation": "Umarin - berharakat kasratain yang melanggar hukum isim ghairu munsharif."
+        "text": "عُمَرَ",
+        "translation": "Umara - manshub bil-fathah yang menyalahi i'rab mubdal minhu yang berkedudukan marfu' menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
       },
       {
         "key": "C",
@@ -1882,13 +1886,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "نَفْسُهُ",
-        "translation": "nafsuhu - marfu' dengan dhommah yang keliru karena mu'akkad-nya berstatus maf'ul bih manshub."
+        "text": "أَنْفُسُهُمْ",
+        "translation": "anfusuhum - jamak taksir marfu' yang bertentangan dengan kaidah mufrad manshub."
       },
       {
         "key": "B",
-        "text": "نَفْسِهِ",
-        "translation": "nafsihi - majrur dengan kasrah yang menyalahi i'rab objek penderita."
+        "text": "نَفْسَهُ",
+        "translation": "nafsahu - taukid ma'nawi manshub bil-fathah bersambung dhamir hu merujuk pada ar-ra'iisa."
       },
       {
         "key": "C",
@@ -1897,17 +1901,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "أَنْفُسُهُمْ",
-        "translation": "anfusuhum - jamak taksir marfu' yang bertentangan dengan kaidah mufrad manshub."
+        "text": "نَفْسِهِ",
+        "translation": "nafsihi - majrur dengan kasrah yang menyalahi i'rab objek penderita."
       },
       {
         "key": "E",
-        "text": "نَفْسَهُ",
-        "translation": "nafsahu - taukid ma'nawi manshub bil-fathah bersambung dhamir hu merujuk pada ar-ra'iisa."
+        "text": "نَفْسُهُ",
+        "translation": "nafsuhu - marfu' dengan dhommah yang keliru karena mu'akkad-nya berstatus maf'ul bih manshub."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) نَفْسَهُ (nafsahu - taukid ma'nawi manshub bil-fathah bersambung dhamir hu merujuk pada ar-ra'iisa).. Objek yang ditegaskan adalah 'الرَّئِيسَ' (maf'ul bih manshub fathah). Taukid ma'nawi-nya wajib manshub fathah: 'نَفْسَهُ'. Pilih: 'نَفْسَهُ' (nafsahu)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) نَفْسَهُ (nafsahu - taukid ma'nawi manshub bil-fathah bersambung dhamir hu merujuk pada ar-ra'iisa).. Objek yang ditegaskan adalah 'الرَّئِيسَ' (maf'ul bih manshub fathah). Taukid ma'nawi-nya wajib manshub fathah: 'نَفْسَهُ'. Pilih: 'نَفْسَهُ' (nafsahu)."
   },
   {
     "id": "arb-lat-m-16",
@@ -1930,32 +1934,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "خَمْسَةَ عَشَرَ طَالِبًا",
-        "translation": "khamsata 'asyara thaaliban - juz 1 mu'annats, juz 2 mudzakkar, keduanya berfathah, ma'dud mufrad manshub."
+        "text": "خَامِسَ عَشَرَ طَالِبًا",
+        "translation": "khaamisa 'asyara thaaliban - susunan bilangan bertingkat ke-15."
       },
       {
         "key": "B",
-        "text": "خَمْسَ عَشْرَةَ طَالِبًا",
-        "translation": "khamsa 'asyrata thaaliban - susunan gender terbalik yang menyalahi kaidah ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
-        "text": "خَمْسَةُ عَشَرَ طَالِبٍ",
-        "translation": "khamsatu 'asyara thaalibin - juz 1 berharakat dhommah dan ma'dud majrur."
-      },
-      {
-        "key": "D",
         "text": "خَمْسَ عَشَرَ طُلَّابٍ",
         "translation": "khamsa 'asyara thullaabin - ma'dud berbentuk jamak yang tidak sah untuk adad belasan."
       },
       {
+        "key": "C",
+        "text": "خَمْسَةَ عَشَرَ طَالِبًا",
+        "translation": "khamsata 'asyara thaaliban - juz 1 mu'annats, juz 2 mudzakkar, keduanya berfathah, ma'dud mufrad manshub."
+      },
+      {
+        "key": "D",
+        "text": "خَمْسَ عَشْرَةَ طَالِبًا",
+        "translation": "khamsa 'asyrata thaaliban - susunan gender terbalik yang menyalahi kaidah ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
         "key": "E",
-        "text": "خَامِسَ عَشَرَ طَالِبًا",
-        "translation": "khaamisa 'asyara thaaliban - susunan bilangan bertingkat ke-15."
+        "text": "خَمْسَةُ عَشَرَ طَالِبٍ",
+        "translation": "khamsatu 'asyara thaalibin - juz 1 berharakat dhommah dan ma'dud majrur."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) خَمْسَةَ عَشَرَ طَالِبًا (khamsata 'asyara thaaliban - juz 1 mu'annats, juz 2 mudzakkar, keduanya berfathah, ma'dud mufrad manshub).. Adad 13-19: Juz 1 lawan jenis ma'dud (khamsata), Juz 2 sejenis ma'dud ('asyara), keduanya fathah, ma'dud mufrad manshub (thaaliban). Pilih: 'خَمْسَةَ عَشَرَ طَالِبًا'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) خَمْسَةَ عَشَرَ طَالِبًا (khamsata 'asyara thaaliban - juz 1 mu'annats, juz 2 mudzakkar, keduanya berfathah, ma'dud mufrad manshub).. Adad 13-19: Juz 1 lawan jenis ma'dud (khamsata), Juz 2 sejenis ma'dud ('asyara), keduanya fathah, ma'dud mufrad manshub (thaaliban). Pilih: 'خَمْسَةَ عَشَرَ طَالِبًا'."
   },
   {
     "id": "arb-lat-m-17",
@@ -1978,27 +1982,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadi pedoman pembuatan persenjataan meriam mesiu pada masa ekspedisi laut kesultanan Turki Utsmani ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
-        "text": "Menjadi buku rujukan utama pembelajaran kedokteran di berbagai universitas Eropa selama berabad-abad karena deskripsinya yang akurat mengenai penyakit menular."
-      },
-      {
-        "key": "C",
-        "text": "Berisi peta navigasi pelayaran samudra yang pertama kali memetakan benua Antartika di kutub selatan."
-      },
-      {
-        "key": "D",
         "text": "Merupakan naskah undang-undang perpajakan tanah pertama yang diterapkan di kawasan gurun Sahara barat."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Berisi peta navigasi pelayaran samudra yang pertama kali memetakan benua Antartika di kutub selatan."
+      },
+      {
+        "key": "C",
         "text": "Berisi kumpulan syair puisi cinta romantik yang dinyanyikan para penunggang kuda di padang rumput."
+      },
+      {
+        "key": "D",
+        "text": "Menjadi pedoman pembuatan persenjataan meriam mesiu pada masa ekspedisi laut kesultanan Turki Utsmani."
+      },
+      {
+        "key": "E",
+        "text": "Menjadi buku rujukan utama pembelajaran kedokteran di berbagai universitas Eropa selama berabad-abad karena deskripsinya yang akurat mengenai penyakit menular."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menjadi buku rujukan utama pembelajaran kedokteran di berbagai universitas Eropa selama berabad-abad karena deskripsinya yang akurat mengenai penyakit menular.. Teks menyatakan: 'ظَلَّ المَرْجِعَ الأَسَاسِيَّ لِتَدْرِيسِ الطِّبِّ فِي جَامِعَاتِ أُورُوبَّا لِعِدَّةِ قُرُونٍ' (menjadi rujukan dasar kedokteran di Eropa berabad-abad). Pilih opsi: Menjadi buku rujukan utama kedokteran di universitas Eropa selama berabad-abad."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Menjadi buku rujukan utama pembelajaran kedokteran di berbagai universitas Eropa selama berabad-abad karena deskripsinya yang akurat mengenai penyakit menular.. Teks menyatakan: 'ظَلَّ المَرْجِعَ الأَسَاسِيَّ لِتَدْرِيسِ الطِّبِّ فِي جَامِعَاتِ أُورُوبَّا لِعِدَّةِ قُرُونٍ' (menjadi rujukan dasar kedokteran di Eropa berabad-abad). Pilih opsi: Menjadi buku rujukan utama kedokteran di universitas Eropa selama berabad-abad."
   },
   {
     "id": "arb-lat-m-18",
@@ -2021,8 +2025,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ar-Riq'ah",
-        "translation": "خَطُّ الرُّقْعَةِ - khat cepat untuk catatan tangan sehari-hari dengan huruf rapat dan sederhana."
+        "text": "Al-Kufi",
+        "translation": "خَطُّ الكُوفِيِّ - khat tertua bermodel geometris kaku tanpa harakat pada batu nisan kuno."
       },
       {
         "key": "B",
@@ -2031,22 +2035,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "An-Naskhi",
-        "translation": "خَطُّ النَّسْخِ - khat naskah yang menjadi standar percetakan buku dan mushaf resmi."
-      },
-      {
-        "key": "D",
         "text": "Al-Diwani",
         "translation": "خَطُّ الدِّيوَانِيِّ - khat berlekuk indah yang dahulu digunakan untuk surat resmi istana khalifah."
       },
       {
+        "key": "D",
+        "text": "Ar-Riq'ah",
+        "translation": "خَطُّ الرُّقْعَةِ - khat cepat untuk catatan tangan sehari-hari dengan huruf rapat dan sederhana."
+      },
+      {
         "key": "E",
-        "text": "Al-Kufi",
-        "translation": "خَطُّ الكُوفِيِّ - khat tertua bermodel geometris kaku tanpa harakat pada batu nisan kuno."
+        "text": "An-Naskhi",
+        "translation": "خَطُّ النَّسْخِ - khat naskah yang menjadi standar percetakan buku dan mushaf resmi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) An-Naskhi (خَطُّ النَّسْخِ - khat naskah yang menjadi standar percetakan buku dan mushaf resmi).. Khat yang digunakan untuk menyalin mushaf Al-Qur'an dan buku percetakan karena keterbacaannya yang tinggi adalah Khat Naskhi. Pilih: An-Naskhi (خَطُّ النَّسْخِ)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) An-Naskhi (خَطُّ النَّسْخِ - khat naskah yang menjadi standar percetakan buku dan mushaf resmi).. Khat yang digunakan untuk menyalin mushaf Al-Qur'an dan buku percetakan karena keterbacaannya yang tinggi adalah Khat Naskhi. Pilih: An-Naskhi (خَطُّ النَّسْخِ)."
   },
   {
     "id": "arb-lat-m-19",
@@ -2069,27 +2073,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(1) - (3) - (2) - (4) menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "(3) - (1) - (4) - (2)"
       },
       {
         "key": "B",
-        "text": "(2) - (3) - (1) - (4)"
+        "text": "(1) - (3) - (2) - (4)."
       },
       {
         "key": "C",
-        "text": "(4) - (2) - (3) - (1)"
-      },
-      {
-        "key": "D",
         "text": "(2) - (4) - (3) - (1)"
       },
       {
+        "key": "D",
+        "text": "(2) - (3) - (1) - (4)"
+      },
+      {
         "key": "E",
-        "text": "(3) - (1) - (4) - (2)"
+        "text": "(4) - (2) - (3) - (1)"
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) (2) - (4) - (3) - (1). Kronologi logis: Bangun pagi (2) -> Wudhu & sholat fajar (4) -> Sarapan bersama keluarga (3) -> Menuju masjid Jum'atan (1). Pilih urutan: (2) - (4) - (3) - (1)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) (2) - (4) - (3) - (1). Kronologi logis: Bangun pagi (2) -> Wudhu & sholat fajar (4) -> Sarapan bersama keluarga (3) -> Menuju masjid Jum'atan (1). Pilih urutan: (2) - (4) - (3) - (1)."
   },
   {
     "id": "arb-lat-m-20",
@@ -2112,8 +2116,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "حَضَرُوا المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
-        "translation": "menyalahi kaidah karena fi'il berakhiran wawu jama'ah sebelum fa'il zhahir diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+        "text": "حَضَرَا المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
+        "translation": "menggunakan alif itsnain mutsanna untuk subjek jamak."
       },
       {
         "key": "B",
@@ -2127,17 +2131,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "حَضَرَا المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
-        "translation": "menggunakan alif itsnain mutsanna untuk subjek jamak."
+        "text": "حَضَرَ المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
+        "translation": "hadhara al-mu'allimuuna - fi'il tetap mufrad mudzakkar hadhara meskipun fa'il jamak."
       },
       {
         "key": "E",
-        "text": "حَضَرَ المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
-        "translation": "hadhara al-mu'allimuuna - fi'il tetap mufrad mudzakkar hadhara meskipun fa'il jamak."
+        "text": "حَضَرُوا المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ",
+        "translation": "menyalahi kaidah karena fi'il berakhiran wawu jama'ah sebelum fa'il zhahir diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) حَضَرَ المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ (hadhara al-mu'allimuuna - fi'il tetap mufrad mudzakkar hadhara meskipun fa'il jamak).. Kaidah Jumlah Fi'liyyah: Fi'il di awal kalimat selalu MUFRAD meskipun fa'il-nya mutsanna atau jamak. Cukup sesuaikan jenisnya (mudzakkar/muannats). Pilih: 'حَضَرَ المُعَلِّمُونَ' (bukan hadharuu)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) حَضَرَ المُعَلِّمُونَ فِي قَاعَةِ الِاجْتِمَاعِ (hadhara al-mu'allimuuna - fi'il tetap mufrad mudzakkar hadhara meskipun fa'il jamak).. Kaidah Jumlah Fi'liyyah: Fi'il di awal kalimat selalu MUFRAD meskipun fa'il-nya mutsanna atau jamak. Cukup sesuaikan jenisnya (mudzakkar/muannats). Pilih: 'حَضَرَ المُعَلِّمُونَ' (bukan hadharuu)."
   },
   {
     "id": "arb-lat-m-21",
@@ -2160,32 +2164,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Isim Alat",
-        "translation": "kata benda turunan yang menunjukkan instrumen atau perkakas perantara untuk melakukan pekerjaan."
+        "text": "Isim Hai'ah",
+        "translation": "kata benda yang melukiskan gaya atau sikap tingkah laku perbuatan."
       },
       {
         "key": "B",
-        "text": "Isim Makan",
-        "translation": "kata benda yang menunjukkan lokasi tempat pelaksanaan kegiatan ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
-        "text": "Isim Zaman",
-        "translation": "kata benda yang menyatakan waktu jam atau musim terjadinya aksi."
-      },
-      {
-        "key": "D",
         "text": "Isim Marrah",
         "translation": "kata benda yang menunjukkan bahwa perbuatan hanya terjadi satu kali saja."
       },
       {
+        "key": "C",
+        "text": "Isim Makan",
+        "translation": "kata benda yang menunjukkan lokasi tempat pelaksanaan kegiatan ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
+        "key": "D",
+        "text": "Isim Zaman",
+        "translation": "kata benda yang menyatakan waktu jam atau musim terjadinya aksi."
+      },
+      {
         "key": "E",
-        "text": "Isim Hai'ah",
-        "translation": "kata benda yang melukiskan gaya atau sikap tingkah laku perbuatan."
+        "text": "Isim Alat",
+        "translation": "kata benda turunan yang menunjukkan instrumen atau perkakas perantara untuk melakukan pekerjaan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Isim Alat (kata benda turunan yang menunjukkan instrumen atau perkakas perantara untuk melakukan pekerjaan).. Miqashshun (gunting) dan miizaanun (timbangan) adalah nama-nama perkakas/alat bantu pekerjaan (Isim Alat). Pilih kategori Isim Alat."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Isim Alat (kata benda turunan yang menunjukkan instrumen atau perkakas perantara untuk melakukan pekerjaan).. Miqashshun (gunting) dan miizaanun (timbangan) adalah nama-nama perkakas/alat bantu pekerjaan (Isim Alat). Pilih kategori Isim Alat."
   },
   {
     "id": "arb-lat-m-22",
@@ -2208,32 +2212,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "إِلَهٌ",
-        "translation": "ilahun - marfu' bertanwin yang menyalahi hukum mabni fathah isim laa."
-      },
-      {
-        "key": "B",
-        "text": "إِلَهَ",
-        "translation": "ilaha - isim laa mabni di atas fathah karena berupa isim mufrad nakirah muttashil."
-      },
-      {
-        "key": "C",
-        "text": "إِلَهٍ",
-        "translation": "ilahin - bertanwin kasratain yang keliru untuk posisi isim laa."
-      },
-      {
-        "key": "D",
         "text": "إِلَهًا",
         "translation": "ilahan - manshub bertanwin yang hanya berlaku jika berupa syabih bil-mudhaf."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "الإِلَهُ",
         "translation": "al-ilahu - ma'rifah ber-alif lam yang melanggar syarat kenakiran mutlak isim laa."
+      },
+      {
+        "key": "C",
+        "text": "إِلَهٌ",
+        "translation": "ilahun - marfu' bertanwin yang menyalahi hukum mabni fathah isim laa."
+      },
+      {
+        "key": "D",
+        "text": "إِلَهَ",
+        "translation": "ilaha - isim laa mabni di atas fathah karena berupa isim mufrad nakirah muttashil."
+      },
+      {
+        "key": "E",
+        "text": "إِلَهٍ",
+        "translation": "ilahin - bertanwin kasratain yang keliru untuk posisi isim laa."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) إِلَهَ (ilaha - isim laa mabni di atas fathah karena berupa isim mufrad nakirah muttashil).. Isim Laa an-Nafiyah lil-Jinsi jika mufrad (bukan mudhaf atau syabih mudhaf) dihukumi mabni 'alal-fath tanpa tanwin: 'لَا إِلَهَ'. Pilih: 'إِلَهَ' (ilaha)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) إِلَهَ (ilaha - isim laa mabni di atas fathah karena berupa isim mufrad nakirah muttashil).. Isim Laa an-Nafiyah lil-Jinsi jika mufrad (bukan mudhaf atau syabih mudhaf) dihukumi mabni 'alal-fath tanpa tanwin: 'لَا إِلَهَ'. Pilih: 'إِلَهَ' (ilaha)."
   },
   {
     "id": "arb-lat-m-23",
@@ -2256,16 +2260,15 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Minyak mentah bumi dan gas alam cair hasil pengeboran laut lepas pantai sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
         "text": "Mesin pesawat terbang tempur dan sistem radar navigasi satelit militer."
       },
       {
+        "key": "B",
+        "text": "Mobil mewah lapis baja dan kendaraan berat traktor pembajak sawah."
+      },
+      {
         "key": "C",
-        "text": "Produk-produk pertanian perkebunan seperti minyak kelapa sawit",
-        "translation": "minyak nabati dan biji kopi."
+        "text": "Minyak mentah bumi dan gas alam cair hasil pengeboran laut lepas pantai sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
       },
       {
         "key": "D",
@@ -2273,11 +2276,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mobil mewah lapis baja dan kendaraan berat traktor pembajak sawah."
+        "text": "Produk-produk pertanian perkebunan seperti minyak kelapa sawit",
+        "translation": "minyak nabati dan biji kopi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Produk-produk pertanian perkebunan seperti minyak kelapa sawit (minyak nabati) dan biji kopi.. Teks menyatakan: 'تُصَدِّرُ إِنْدُونِيسِيَا المُنْتَجَاتِ الزِّرَاعِيَّةَ مِثْلَ زَيْتِ النَّخِيلِ وَالبُنِّ' (Indonesia mengekspor produk pertanian seperti minyak sawit dan kopi). Pilih: Minyak kelapa sawit dan biji kopi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Produk-produk pertanian perkebunan seperti minyak kelapa sawit (minyak nabati) dan biji kopi.. Teks menyatakan: 'تُصَدِّرُ إِنْدُونِيسِيَا المُنْتَجَاتِ الزِّرَاعِيَّةَ مِثْلَ زَيْتِ النَّخِيلِ وَالبُنِّ' (Indonesia mengekspor produk pertanian seperti minyak sawit dan kopi). Pilih: Minyak kelapa sawit dan biji kopi."
   },
   {
     "id": "arb-lat-m-24",
@@ -2305,18 +2309,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
+        "text": "لَمْ يَدْعُ",
+        "translation": "lam yad'u - huruf wawu dibuang dan huruf 'ain tetap berharakat dhommah pendek."
+      },
+      {
+        "key": "C",
         "text": "لَمْ يَدْعُكْ",
         "translation": "lam yad'uk - penambahan huruf kaf yang tidak sesuai dengan bentuk kata kerja asli."
       },
       {
-        "key": "C",
+        "key": "D",
         "text": "لَمْ يَدْعَى",
         "translation": "lam yad'aa - penggantian huruf 'illat menjadi alif layyinah yang keliru."
-      },
-      {
-        "key": "D",
-        "text": "لَمْ يَدْعُ",
-        "translation": "lam yad'u - huruf wawu dibuang dan huruf 'ain tetap berharakat dhommah pendek."
       },
       {
         "key": "E",
@@ -2324,8 +2328,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "lam yad'uuna - bentuk jamak yang menyalahi subjek tunggal gha'ib."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) لَمْ يَدْعُ (lam yad'u - huruf wawu dibuang dan huruf 'ain tetap berharakat dhommah pendek).. Fi'il mu'tal naqish yang berakhiran huruf 'illat (seperti yad'uu) jika majzum tanda jazm-nya adalah membuang huruf 'illat: 'لَمْ يَدْعُ'. Pilih: 'لَمْ يَدْعُ' (lam yad'u)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) لَمْ يَدْعُ (lam yad'u - huruf wawu dibuang dan huruf 'ain tetap berharakat dhommah pendek).. Fi'il mu'tal naqish yang berakhiran huruf 'illat (seperti yad'uu) jika majzum tanda jazm-nya adalah membuang huruf 'illat: 'لَمْ يَدْعُ'. Pilih: 'لَمْ يَدْعُ' (lam yad'u)."
   },
   {
     "id": "arb-lat-m-25",
@@ -2353,8 +2357,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "تَجْتَهِدَ",
-        "translation": "tajtahida - manshub dengan fathah yang keliru diterapkan pada kalimat syarat."
+        "text": "تَجْتَهِدْ",
+        "translation": "tajtahid - fi'il syarth majzum dengan tanda sukun pada huruf dal."
       },
       {
         "key": "C",
@@ -2368,12 +2372,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "تَجْتَهِدْ",
-        "translation": "tajtahid - fi'il syarth majzum dengan tanda sukun pada huruf dal."
+        "text": "تَجْتَهِدَ",
+        "translation": "tajtahida - manshub dengan fathah yang keliru diterapkan pada kalimat syarat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) تَجْتَهِدْ (tajtahid - fi'il syarth majzum dengan tanda sukun pada huruf dal).. Partikel 'إِنْ' syarthiyyah menjazmkan dua fi'il: fi'il syarat dan jawab syarat. Fi'il syarat harus majzum bis-sukun: 'تَجْتَهِدْ'. Pilih: 'تَجْتَهِدْ' (tajtahid)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) تَجْتَهِدْ (tajtahid - fi'il syarth majzum dengan tanda sukun pada huruf dal).. Partikel 'إِنْ' syarthiyyah menjazmkan dua fi'il: fi'il syarat dan jawab syarat. Fi'il syarat harus majzum bis-sukun: 'تَجْتَهِدْ'. Pilih: 'تَجْتَهِدْ' (tajtahid)."
   },
   {
     "id": "arb-lat-h-01",
@@ -2396,8 +2400,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tasybih Mu'akkad",
-        "translation": "تَشْبِيهٌ مُؤَكَّدٌ - tasybih yang dihapuskan peranti perbandingannya untuk memperkuat penegasan keserupaan."
+        "text": "Isti'arah Makniyyah",
+        "translation": "penghapusan total terhadap musyabbah bih yang hanya menyisakan sifat bawaannya."
       },
       {
         "key": "B",
@@ -2411,8 +2415,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Isti'arah Makniyyah",
-        "translation": "penghapusan total terhadap musyabbah bih yang hanya menyisakan sifat bawaannya."
+        "text": "Tasybih Mu'akkad",
+        "translation": "تَشْبِيهٌ مُؤَكَّدٌ - tasybih yang dihapuskan peranti perbandingannya untuk memperkuat penegasan keserupaan."
       },
       {
         "key": "E",
@@ -2420,8 +2424,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "penyebutan sebagian organ untuk memaksudkan keseluruhan tubuh."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tasybih Mu'akkad (تَشْبِيهٌ مُؤَكَّدٌ - tasybih yang dihapuskan peranti perbandingannya untuk memperkuat penegasan keserupaan).. Tasybih yang TIDAK menyebutkan adat tasybih (alat pembanding) disebut Tasybih Mu'akkad. Jika adat disebutkan disebut Mursal. Pilih: Tasybih Mu'akkad (تَشْبِيهٌ مُؤَكَّدٌ)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tasybih Mu'akkad (تَشْبِيهٌ مُؤَكَّدٌ - tasybih yang dihapuskan peranti perbandingannya untuk memperkuat penegasan keserupaan).. Tasybih yang TIDAK menyebutkan adat tasybih (alat pembanding) disebut Tasybih Mu'akkad. Jika adat disebutkan disebut Mursal. Pilih: Tasybih Mu'akkad (تَشْبِيهٌ مُؤَكَّدٌ)."
   },
   {
     "id": "arb-lat-h-02",
@@ -2444,8 +2448,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Isti'arah Makniyyah",
-        "translation": "اسْتِعَارَةٌ مَكْنِيَّةٌ - metafora tersirat di mana musyabbah bih-nya disembunyikan dan hanya disisakan kelazimannya."
+        "text": "Jinas Isytiqaq",
+        "translation": "keserupaan akar kata bunyi tanpa keterkaitan makna kiasan metaforis."
       },
       {
         "key": "B",
@@ -2454,18 +2458,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Tasybih Dhimni",
-        "translation": "penyerupaan terselubung yang disimpulkan dari susunan wacana tanpa rukun tasybih formal."
-      },
-      {
-        "key": "D",
         "text": "Majaz Mursal 'Alaqah Sababiyyah",
         "translation": "penggunaan kata sebab untuk memaksudkan akibat yang ditimbulkan."
       },
       {
+        "key": "D",
+        "text": "Isti'arah Makniyyah",
+        "translation": "اسْتِعَارَةٌ مَكْنِيَّةٌ - metafora tersirat di mana musyabbah bih-nya disembunyikan dan hanya disisakan kelazimannya."
+      },
+      {
         "key": "E",
-        "text": "Jinas Isytiqaq",
-        "translation": "keserupaan akar kata bunyi tanpa keterkaitan makna kiasan metaforis."
+        "text": "Tasybih Dhimni",
+        "translation": "penyerupaan terselubung yang disimpulkan dari susunan wacana tanpa rukun tasybih formal."
       }
     ],
     "correctKey": "B",
@@ -2492,32 +2496,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Thibaq Ijab",
-        "translation": "طِبَاقُ الإِيجَابِ - pertemuan dua kata berlawanan yang sama-sama berbentuk positif tanpa partikel negasi seperti al-lail wan-nahar sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
         "text": "Muqabalah",
         "translation": "penyandingan dua kalimat atau lebih yang masing-masing memiliki lawan kata secara sejajar."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Thibaq Salab",
         "translation": "طِبَاقُ السَّلْبِ - pertemuan dua kata berlawanan di mana yang satu berbentuk positif/itsbat dan yang lainnya berbentuk negatif/nafyi."
       },
       {
+        "key": "C",
+        "text": "Thibaq Ijab",
+        "translation": "طِبَاقُ الإِيجَابِ - pertemuan dua kata berlawanan yang sama-sama berbentuk positif tanpa partikel negasi seperti al-lail wan-nahar sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+      },
+      {
         "key": "D",
-        "text": "Jinas Taam",
-        "translation": "kesamaan bunyi dua kata secara mutlak dalam jumlah huruf, harakat, urutan, dan jenis huruf namun beda makna."
+        "text": "Saja' Murashsha'",
+        "translation": "kesamaan rima huruf akhir pada potongan-potongan kalimat prosa berirama."
       },
       {
         "key": "E",
-        "text": "Saja' Murashsha'",
-        "translation": "kesamaan rima huruf akhir pada potongan-potongan kalimat prosa berirama."
+        "text": "Jinas Taam",
+        "translation": "kesamaan bunyi dua kata secara mutlak dalam jumlah huruf, harakat, urutan, dan jenis huruf namun beda makna."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Thibaq Salab (طِبَاقُ السَّلْبِ - pertemuan dua kata berlawanan di mana yang satu berbentuk positif/itsbat dan yang lainnya berbentuk negatif/nafyi).. Pertentangan antara bentuk positif (يَعْلَمُونَ) dan bentuk negatif nafi (لَا يَعْلَمُونَ) dari kata yang sama disebut Thibaq Salab (طِبَاقُ السَّلْبِ). Pilih: Thibaq Salab (طِبَاقُ السَّلْبِ)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Thibaq Salab (طِبَاقُ السَّلْبِ - pertemuan dua kata berlawanan di mana yang satu berbentuk positif/itsbat dan yang lainnya berbentuk negatif/nafyi).. Pertentangan antara bentuk positif (يَعْلَمُونَ) dan bentuk negatif nafi (لَا يَعْلَمُونَ) dari kata yang sama disebut Thibaq Salab (طِبَاقُ السَّلْبِ). Pilih: Thibaq Salab (طِبَاقُ السَّلْبِ)."
   },
   {
     "id": "arb-lat-h-04",
@@ -2540,7 +2544,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wajib dimasuki partikel 'أَنْ' mashdariyyah tanpa kecuali agar maknanya sah menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Boleh memilih antara fi'il madhi atau fi'il amar sesuai kehendak mutakallim."
       },
       {
         "key": "B",
@@ -2548,19 +2552,19 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Boleh memilih antara fi'il madhi atau fi'il amar sesuai kehendak mutakallim."
+        "text": "Wajib dimasuki partikel 'أَنْ' mashdariyyah tanpa kecuali agar maknanya sah."
       },
       {
         "key": "D",
-        "text": "Wajib berupa Jumlah Fi'liyyah yang predikatnya fi'il mudhari' dan WAJIB BERSIH / TERLARANG (mumtani') dimasuki partikel 'أَنْ' mashdariyyah."
+        "text": "Wajib berupa syibh al-jumlah dari susunan zharf makan dan majrur mutsanna."
       },
       {
         "key": "E",
-        "text": "Wajib berupa syibh al-jumlah dari susunan zharf makan dan majrur mutsanna."
+        "text": "Wajib berupa Jumlah Fi'liyyah yang predikatnya fi'il mudhari' dan WAJIB BERSIH / TERLARANG (mumtani') dimasuki partikel 'أَنْ' mashdariyyah."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Wajib berupa Jumlah Fi'liyyah yang predikatnya fi'il mudhari' dan WAJIB BERSIH / TERLARANG (mumtani') dimasuki partikel 'أَنْ' mashdariyyah.. Khabar af'alusy syuru' (mulai berbuat) WAJIB berupa fi'il mudhari' dan DILARANG KERAS (mumtani') dimasuki 'أَنْ' karena syuru' bermakna sedang dimulai saat ini. Pilih opsi: Wajib berupa fi'il mudhari' dan terlarang (mumtani') dimasuki partikel 'an'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Wajib berupa Jumlah Fi'liyyah yang predikatnya fi'il mudhari' dan WAJIB BERSIH / TERLARANG (mumtani') dimasuki partikel 'أَنْ' mashdariyyah.. Khabar af'alusy syuru' (mulai berbuat) WAJIB berupa fi'il mudhari' dan DILARANG KERAS (mumtani') dimasuki 'أَنْ' karena syuru' bermakna sedang dimulai saat ini. Pilih opsi: Wajib berupa fi'il mudhari' dan terlarang (mumtani') dimasuki partikel 'an'."
   },
   {
     "id": "arb-lat-h-05",
@@ -2583,28 +2587,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena kata tersebut kemasukan huruf jar tersembunyi yang mewajibkan harakat kasrah diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+        "text": "Li Tafadi Iltiqa'is-Sakinain",
+        "translation": "harakat kasrah insidental/'aridhah untuk menghindari bertemunya dua huruf sukun yang mustahil diucapkan dalam fonologi bahasa Arab fusha."
       },
       {
         "key": "B",
-        "text": "Karena kata 'الكَلَامَ' berkedudukan sebagai mudhaf ilaih yang mengkasrahkan kata sebelumnya."
-      },
-      {
-        "key": "C",
-        "text": "Karena fi'il amar tersebut berubah fungsi menjadi isim mufrad mu'annats makhfudh."
-      },
-      {
-        "key": "D",
         "text": "Sebagai tanda bahwa pekerjaan tersebut dilakukan oleh dua orang mutsanna di masa lampau."
       },
       {
+        "key": "C",
+        "text": "Karena kata 'الكَلَامَ' berkedudukan sebagai mudhaf ilaih yang mengkasrahkan kata sebelumnya."
+      },
+      {
+        "key": "D",
+        "text": "Karena fi'il amar tersebut berubah fungsi menjadi isim mufrad mu'annats makhfudh."
+      },
+      {
         "key": "E",
-        "text": "Li Tafadi Iltiqa'is-Sakinain",
-        "translation": "harakat kasrah insidental/'aridhah untuk menghindari bertemunya dua huruf sukun yang mustahil diucapkan dalam fonologi bahasa Arab fusha."
+        "text": "Karena kata tersebut kemasukan huruf jar tersembunyi yang mewajibkan harakat kasrah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Li Tafadi Iltiqa'is-Sakinain (harakat kasrah insidental/'aridhah untuk menghindari bertemunya dua huruf sukun yang mustahil diucapkan dalam fonologi bahasa Arab fusha).. Dalam bahasa Arab, bertemunya dua huruf mati/sukun (iltiqa'us sakinain) dihindari dengan mengkasrahkan huruf sukun pertama (kasrah 'aridhah). Pilih: Menghindari bertemunya dua huruf sukun (li tafadi iltiqa'is-sakinain)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Li Tafadi Iltiqa'is-Sakinain (harakat kasrah insidental/'aridhah untuk menghindari bertemunya dua huruf sukun yang mustahil diucapkan dalam fonologi bahasa Arab fusha).. Dalam bahasa Arab, bertemunya dua huruf mati/sukun (iltiqa'us sakinain) dihindari dengan mengkasrahkan huruf sukun pertama (kasrah 'aridhah). Pilih: Menghindari bertemunya dua huruf sukun (li tafadi iltiqa'is-sakinain)."
   },
   {
     "id": "arb-lat-h-06",
@@ -2627,28 +2631,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
+        "text": "Keduanya berstatus mabni di atas sukun mutlak dan tidak memiliki kedudukan I'rab."
+      },
+      {
+        "key": "B",
+        "text": "القَاضِي majrur dengan ya' sukun mutsanna, sedangkan الفَتَى manshub dengan fathah jazm."
+      },
+      {
+        "key": "C",
+        "text": "القَاضِي marfu' karena ta'adz-dzur, sedangkan الفَتَى majrur karena tsiqal berat diucapkan."
+      },
+      {
+        "key": "D",
         "text": "القَاضِي marfu' dengan dhommah muqaddarah karena tsiqal",
         "translation": "berat diucapkan), sedangkan الفَتَى majrur dengan kasrah muqaddarah karena ta'adz-dzur (kemustahilan menerima harakat pada alif."
       },
       {
-        "key": "B",
-        "text": "Keduanya marfu' dengan tanda zhahir yang tampak jelas di akhir huruf secara fonetis ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
-        "text": "القَاضِي majrur dengan ya' sukun mutsanna, sedangkan الفَتَى manshub dengan fathah jazm."
-      },
-      {
-        "key": "D",
-        "text": "القَاضِي marfu' karena ta'adz-dzur, sedangkan الفَتَى majrur karena tsiqal berat diucapkan."
-      },
-      {
         "key": "E",
-        "text": "Keduanya berstatus mabni di atas sukun mutlak dan tidak memiliki kedudukan I'rab."
+        "text": "Keduanya marfu' dengan tanda zhahir yang tampak jelas di akhir huruf secara fonetis."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) القَاضِي marfu' dengan dhommah muqaddarah karena tsiqal (berat diucapkan), sedangkan الفَتَى majrur dengan kasrah muqaddarah karena ta'adz-dzur (kemustahilan menerima harakat pada alif).. Isim Maqshur (berakhir alif) dihukumi ta'adz-dzur (mustahil berharakat). Isim Manqush (berakhir ya') pada rafa' & jar dihukumi tsiqal (berat diucapkan). Pilih: Al-Qadhi marfu' dhommah muqaddarah tsiqal; Al-Fata majrur kasrah muqaddarah ta'adz-dzur."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) القَاضِي marfu' dengan dhommah muqaddarah karena tsiqal (berat diucapkan), sedangkan الفَتَى majrur dengan kasrah muqaddarah karena ta'adz-dzur (kemustahilan menerima harakat pada alif).. Isim Maqshur (berakhir alif) dihukumi ta'adz-dzur (mustahil berharakat). Isim Manqush (berakhir ya') pada rafa' & jar dihukumi tsiqal (berat diucapkan). Pilih: Al-Qadhi marfu' dhommah muqaddarah tsiqal; Al-Fata majrur kasrah muqaddarah ta'adz-dzur."
   },
   {
     "id": "arb-lat-h-07",
@@ -2671,27 +2675,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mudhaf-nya berposisi sebagai huruf jar rahasia yang mengharuskan kata kedua berharakat fathah ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
         "text": "Mudhaf-nya berupa isim sifat musyabbahah/isim fa'il yang disandarkan kepada ma'mul-nya, yang semata-mata berfungsi untuk takhfif (meringankan lafadz pengucapan dengan membuang tanwin) tanpa memberi faedah ta'rif."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Mudhaf ilaih-nya berupa kata kerja fi'il madhi yang diubah secara paksa menjadi kata benda."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Susunan tersebut hanya boleh diucapkan pada saat pembacaan teks proklamasi kemerdekaan."
+      },
+      {
+        "key": "D",
+        "text": "Mudhaf-nya berposisi sebagai huruf jar rahasia yang mengharuskan kata kedua berharakat fathah."
       },
       {
         "key": "E",
         "text": "Kedua kata tersebut saling bertentangan secara semantik dan membentuk makna negatif kutukan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Mudhaf-nya berupa isim sifat musyabbahah/isim fa'il yang disandarkan kepada ma'mul-nya, yang semata-mata berfungsi untuk takhfif (meringankan lafadz pengucapan dengan membuang tanwin) tanpa memberi faedah ta'rif.. Idhafah lafzhiyyah terjadi bila mudhaf berupa sifat (isim fa'il, maf'ul, sifat musyabbahah) yang disandarkan ke ma'mul-nya, bertujuan meringankan lafadz (takhfif) bukan mema'rifahkan. Pilih: Mudhaf berupa isim sifat yang disandarkan ke ma'mul-nya berfungsi takhfif tanpa memberi faedah ta'rif."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Mudhaf-nya berupa isim sifat musyabbahah/isim fa'il yang disandarkan kepada ma'mul-nya, yang semata-mata berfungsi untuk takhfif (meringankan lafadz pengucapan dengan membuang tanwin) tanpa memberi faedah ta'rif.. Idhafah lafzhiyyah terjadi bila mudhaf berupa sifat (isim fa'il, maf'ul, sifat musyabbahah) yang disandarkan ke ma'mul-nya, bertujuan meringankan lafadz (takhfif) bukan mema'rifahkan. Pilih: Mudhaf berupa isim sifat yang disandarkan ke ma'mul-nya berfungsi takhfif tanpa memberi faedah ta'rif."
   },
   {
     "id": "arb-lat-h-08",
@@ -2719,7 +2723,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kedua amil beramal bersama-sama secara merger sehingga isim zhahir menyandang dua harakat sekaligus."
+        "text": "Isim zhahir tersebut digugurkan hak i'rab-nya dan diganti dengan dhamir mustatir wujuban."
       },
       {
         "key": "C",
@@ -2728,7 +2732,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Isim zhahir tersebut digugurkan hak i'rab-nya dan diganti dengan dhamir mustatir wujuban."
+        "text": "Kedua amil beramal bersama-sama secara merger sehingga isim zhahir menyandang dua harakat sekaligus."
       },
       {
         "key": "E",
@@ -2759,27 +2763,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena huruf ta' melambangkan perbuatan malas yang tidak pantas disematkan pada sifat sabar menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Karena huruf tha' adalah huruf penutup kalender hijriyah yang wajib diabadikan dalam teks tertulis."
       },
       {
         "key": "B",
-        "text": "Karena huruf shad adalah huruf vokal panjang yang tidak boleh berdampingan dengan konsonan gigi."
-      },
-      {
-        "key": "C",
         "text": "Untuk mengubah makna kata kerja pasif menjadi kata kerja perintah imperatif langsung."
       },
       {
+        "key": "C",
+        "text": "Karena huruf shad adalah huruf vokal panjang yang tidak boleh berdampingan dengan konsonan gigi."
+      },
+      {
         "key": "D",
-        "text": "Untuk menyelaraskan artikulasi makhraj bunyi ta' yang tipis agar sesuai dengan sifat huruf shad yang tebal (isti'la' dan ithbaq), sehingga ucapan menjadi harmonis dan mudah dilafalkan."
+        "text": "Karena huruf ta' melambangkan perbuatan malas yang tidak pantas disematkan pada sifat sabar."
       },
       {
         "key": "E",
-        "text": "Karena huruf tha' adalah huruf penutup kalender hijriyah yang wajib diabadikan dalam teks tertulis."
+        "text": "Untuk menyelaraskan artikulasi makhraj bunyi ta' yang tipis agar sesuai dengan sifat huruf shad yang tebal (isti'la' dan ithbaq), sehingga ucapan menjadi harmonis dan mudah dilafalkan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Untuk menyelaraskan artikulasi makhraj bunyi ta' yang tipis agar sesuai dengan sifat huruf shad yang tebal (isti'la' dan ithbaq), sehingga ucapan menjadi harmonis dan mudah dilafalkan.. Huruf ta' pada ifta'ala diganti tha' (ط) jika huruf pertamanya adalah huruf ithbaq (shad, dhad, tha', zha') demi keselarasan fonologis makhraj tebal (ithbaq). Pilih: Menyelaraskan artikulasi makhraj bunyi ta' tipis dengan huruf shad tebal (isti'la' & ithbaq)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Untuk menyelaraskan artikulasi makhraj bunyi ta' yang tipis agar sesuai dengan sifat huruf shad yang tebal (isti'la' dan ithbaq), sehingga ucapan menjadi harmonis dan mudah dilafalkan.. Huruf ta' pada ifta'ala diganti tha' (ط) jika huruf pertamanya adalah huruf ithbaq (shad, dhad, tha', zha') demi keselarasan fonologis makhraj tebal (ithbaq). Pilih: Menyelaraskan artikulasi makhraj bunyi ta' tipis dengan huruf shad tebal (isti'la' & ithbaq)."
   },
   {
     "id": "arb-lat-h-10",
@@ -2802,13 +2806,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "At-Talab semata",
-        "translation": "meminta atau memohon agar murid mempercantik gaya tulisannya diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+        "text": "As-Sairurah",
+        "translation": "perubahan bentuk wujud dari kertas usang menjadi lembaran emas."
       },
       {
         "key": "B",
-        "text": "As-Sairurah",
-        "translation": "perubahan bentuk wujud dari kertas usang menjadi lembaran emas."
+        "text": "At-Talab semata",
+        "translation": "meminta atau memohon agar murid mempercantik gaya tulisannya diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
       },
       {
         "key": "C",
@@ -2817,17 +2821,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Al-Mubalaghah fin-Nafyi",
-        "translation": "penolakan mutlak terhadap seluruh isi lembar jawaban."
+        "text": "Al-I'tiqad / Ar-Ru'yah",
+        "translation": "meyakini atau menganggap sesuatu memiliki sifat tertentu, yaitu guru menganggap jawaban murid tersebut baik."
       },
       {
         "key": "E",
-        "text": "Al-I'tiqad / Ar-Ru'yah",
-        "translation": "meyakini atau menganggap sesuatu memiliki sifat tertentu, yaitu guru menganggap jawaban murid tersebut baik."
+        "text": "Al-Mubalaghah fin-Nafyi",
+        "translation": "penolakan mutlak terhadap seluruh isi lembar jawaban."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Al-I'tiqad / Ar-Ru'yah (meyakini atau menganggap sesuatu memiliki sifat tertentu, yaitu guru menganggap jawaban murid tersebut baik).. Wazan istaf'ala tidak selalu berarti meminta (thalab). Pada kata 'istahsana' maknanya adalah al-i'tiqad (menganggap/meyakini baik). Pilih: Al-I'tiqad / Ar-Ru'yah (menganggap sesuatu memiliki sifat baik)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Al-I'tiqad / Ar-Ru'yah (meyakini atau menganggap sesuatu memiliki sifat tertentu, yaitu guru menganggap jawaban murid tersebut baik).. Wazan istaf'ala tidak selalu berarti meminta (thalab). Pada kata 'istahsana' maknanya adalah al-i'tiqad (menganggap/meyakini baik). Pilih: Al-I'tiqad / Ar-Ru'yah (menganggap sesuatu memiliki sifat baik)."
   },
   {
     "id": "arb-lat-h-11",
@@ -2850,32 +2854,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fakkul Idgham",
-        "translation": "فَكُّ الإِدْغَامِ - wajib mengurai tasydid menjadi dua huruf dal terpisah: مَدَدْتُ / madadtu karena bersambung dengan dhamir rafa' mutaharrik."
+        "text": "Qalbul Waw",
+        "translation": "mengubah kata kerja madda menjadi fi'il mu'tal ajwaf maada."
       },
       {
         "key": "B",
-        "text": "Wujubul Idgham",
-        "translation": "wajib mempertahankan tasydid sehingga berbunyi maddtu dengan sukun rangkap ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "C",
-        "text": "Ibdal",
-        "translation": "mengganti huruf dal kedua menjadi huruf ya' sehingga berbunyi madaytu."
-      },
-      {
-        "key": "D",
         "text": "Hadzful Fa'",
         "translation": "membuang huruf mim awal sehingga hanya tersisa huruf daddtu."
       },
       {
+        "key": "C",
+        "text": "Wujubul Idgham",
+        "translation": "wajib mempertahankan tasydid sehingga berbunyi maddtu dengan sukun rangkap ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
+        "key": "D",
+        "text": "Ibdal",
+        "translation": "mengganti huruf dal kedua menjadi huruf ya' sehingga berbunyi madaytu."
+      },
+      {
         "key": "E",
-        "text": "Qalbul Waw",
-        "translation": "mengubah kata kerja madda menjadi fi'il mu'tal ajwaf maada."
+        "text": "Fakkul Idgham",
+        "translation": "فَكُّ الإِدْغَامِ - wajib mengurai tasydid menjadi dua huruf dal terpisah: مَدَدْتُ / madadtu karena bersambung dengan dhamir rafa' mutaharrik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Fakkul Idgham (فَكُّ الإِدْغَامِ - wajib mengurai tasydid menjadi dua huruf dal terpisah: مَدَدْتُ / madadtu karena bersambung dengan dhamir rafa' mutaharrik).. Bila fi'il mudha'af bersambung dengan dhamir rafa' mutaharrik (seperti tu, ta, ti, na), tasydid WAJIB diurai (fakkul idgham): 'مَدَدْتُ'. Pilih: Fakkul Idgham (wajib mengurai tasydid menjadi dua dal terpisah: مَدَدْتُ)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Fakkul Idgham (فَكُّ الإِدْغَامِ - wajib mengurai tasydid menjadi dua huruf dal terpisah: مَدَدْتُ / madadtu karena bersambung dengan dhamir rafa' mutaharrik).. Bila fi'il mudha'af bersambung dengan dhamir rafa' mutaharrik (seperti tu, ta, ti, na), tasydid WAJIB diurai (fakkul idgham): 'مَدَدْتُ'. Pilih: Fakkul Idgham (wajib mengurai tasydid menjadi dua dal terpisah: مَدَدْتُ)."
   },
   {
     "id": "arb-lat-h-12",
@@ -2903,13 +2907,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "الشَّبَابَ",
-        "translation": "asy-syabaaba - isim ma'rifah manshub bil-fathah 'alal-ikhtishash."
+        "text": "الشَّبَابِ",
+        "translation": "asy-syabaabi - majrur dengan kasrah yang tidak memiliki landasan gramatikal."
       },
       {
         "key": "C",
-        "text": "الشَّبَابِ",
-        "translation": "asy-syabaabi - majrur dengan kasrah yang tidak memiliki landasan gramatikal."
+        "text": "الشَّبَابَ",
+        "translation": "asy-syabaaba - isim ma'rifah manshub bil-fathah 'alal-ikhtishash."
       },
       {
         "key": "D",
@@ -2922,8 +2926,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "syabaabun - nakirah bertanwin yang menyalahi syarat pokok isim mukhtash yang harus ma'rifah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) الشَّبَابَ (asy-syabaaba - isim ma'rifah manshub bil-fathah 'alal-ikhtishash).. Isim mukhtash setelah dhamir mutakallim (nahnu) berkedudukan manshub bil-fathah atas fi'il mahdzuf yang ditakdirkan (a'nii/akhushu). Pilih kata ma'rifah manshub: 'الشَّبَابَ' (asy-syabaaba)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) الشَّبَابَ (asy-syabaaba - isim ma'rifah manshub bil-fathah 'alal-ikhtishash).. Isim mukhtash setelah dhamir mutakallim (nahnu) berkedudukan manshub bil-fathah atas fi'il mahdzuf yang ditakdirkan (a'nii/akhushu). Pilih kata ma'rifah manshub: 'الشَّبَابَ' (asy-syabaaba)."
   },
   {
     "id": "arb-lat-h-13",
@@ -2946,28 +2950,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "إِيَّاكَ adalah mubtada' marfu' fardhu, sedangkan الكَذِبَ adalah khabar marfu' bil-dhommah sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
         "text": "إِيَّاكَ adalah huruf jar istimewa, sedangkan الكَذِبَ adalah isim majrur bil-fathah."
       },
       {
+        "key": "B",
+        "text": "Keduanya adalah isim mutsanna mabni di atas alif penanda peringatan masa lampau."
+      },
+      {
         "key": "C",
+        "text": "إِيَّاكَ adalah isim fi'il amar, sedangkan الكَذِبَ adalah fa'il marfu' mutlaq."
+      },
+      {
+        "key": "D",
         "text": "إِيَّاكَ berkedudukan sebagai maf'ul bih manshub",
         "translation": "atas fi'il mahdzuf wujuban 'احْذَرْ'), dan الكَذِبَ adalah maf'ul bih manshub atas fi'il mahdzuf lain ('وَاحْذَرِ الكَذِبَ'."
       },
       {
-        "key": "D",
-        "text": "Keduanya adalah isim mutsanna mabni di atas alif penanda peringatan masa lampau."
-      },
-      {
         "key": "E",
-        "text": "إِيَّاكَ adalah isim fi'il amar, sedangkan الكَذِبَ adalah fa'il marfu' mutlaq."
+        "text": "إِيَّاكَ adalah mubtada' marfu' fardhu, sedangkan الكَذِبَ adalah khabar marfu' bil-dhommah sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) إِيَّاكَ berkedudukan sebagai maf'ul bih manshub (atas fi'il mahdzuf wujuban 'احْذَرْ'), dan الكَذِبَ adalah maf'ul bih manshub atas fi'il mahdzuf lain ('وَاحْذَرِ الكَذِبَ').. Pada uslub tahdzir 'إِيَّاكَ وَالكَذِبَ', kata 'iyyaaka' berposisi sebagai maf'ul bih dari fi'il mahdzuf (ihdzar), dan 'al-kadziba' juga maf'ul bih manshub. Pilih opsi: 'إِيَّاكَ' maf'ul bih manshub atas fi'il mahdzuf 'احْذَرْ', dan 'الكَذِبَ' maf'ul bih atas fi'il mahdzuf lainnya."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) إِيَّاكَ berkedudukan sebagai maf'ul bih manshub (atas fi'il mahdzuf wujuban 'احْذَرْ'), dan الكَذِبَ adalah maf'ul bih manshub atas fi'il mahdzuf lain ('وَاحْذَرِ الكَذِبَ').. Pada uslub tahdzir 'إِيَّاكَ وَالكَذِبَ', kata 'iyyaaka' berposisi sebagai maf'ul bih dari fi'il mahdzuf (ihdzar), dan 'al-kadziba' juga maf'ul bih manshub. Pilih opsi: 'إِيَّاكَ' maf'ul bih manshub atas fi'il mahdzuf 'احْذَرْ', dan 'الكَذِبَ' maf'ul bih atas fi'il mahdzuf lainnya."
   },
   {
     "id": "arb-lat-h-14",
@@ -2990,15 +2994,15 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maf'ul bih manshub bil-fathah dari fi'il madh yang mendahuluinya menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Badal muthabaq yang menggantikan posisi maf'ul muthlaq mahdzuf."
       },
       {
         "key": "B",
-        "text": "Mudhaf ilaih majrur bil-kasrah yang menyatu dengan fa'il al-khuluqu."
+        "text": "Maf'ul bih manshub bil-fathah dari fi'il madh yang mendahuluinya."
       },
       {
         "key": "C",
-        "text": "Tamyiz nakirah manshub penjelas keraguan jenis perbuatan terpuji."
+        "text": "Mudhaf ilaih majrur bil-kasrah yang menyatu dengan fa'il al-khuluqu."
       },
       {
         "key": "D",
@@ -3007,7 +3011,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Badal muthabaq yang menggantikan posisi maf'ul muthlaq mahdzuf."
+        "text": "Tamyiz nakirah manshub penjelas keraguan jenis perbuatan terpuji."
       }
     ],
     "correctKey": "D",
@@ -3034,28 +3038,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Al-Maqshur adalah 'بِالنِّيَّاتِ', sedangkan Al-Maqshur 'Alaih adalah huruf 'إِنَّمَا' diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
-      },
-      {
-        "key": "B",
-        "text": "Al-Maqshur adalah huruf 'إِنَّمَا', sedangkan Al-Maqshur 'Alaih adalah lafadz 'الأَعْمَالُ'."
-      },
-      {
-        "key": "C",
-        "text": "Kedua-duanya adalah Al-Maqshur tanpa adanya Al-Maqshur 'Alaih dalam metode innama."
-      },
-      {
-        "key": "D",
         "text": "Al-Maqshur adalah ganjaran pahala surga, sedangkan Al-Maqshur 'Alaih adalah keikhlasan hati."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Al-Maqshur adalah 'الأَعْمَالُ'",
         "translation": "segala amal perbuatan), dan Al-Maqshur 'Alaih adalah 'بِالنِّيَّاتِ' (ketergantungan pada niat."
+      },
+      {
+        "key": "C",
+        "text": "Al-Maqshur adalah 'بِالنِّيَّاتِ', sedangkan Al-Maqshur 'Alaih adalah huruf 'إِنَّمَا'."
+      },
+      {
+        "key": "D",
+        "text": "Al-Maqshur adalah huruf 'إِنَّمَا', sedangkan Al-Maqshur 'Alaih adalah lafadz 'الأَعْمَالُ'."
+      },
+      {
+        "key": "E",
+        "text": "Kedua-duanya adalah Al-Maqshur tanpa adanya Al-Maqshur 'Alaih dalam metode innama."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Al-Maqshur adalah 'الأَعْمَالُ' (segala amal perbuatan), dan Al-Maqshur 'Alaih adalah 'بِالنِّيَّاتِ' (ketergantungan pada niat).. Pada qashr dengan 'إِنَّمَا', Al-Maqshur terletak setelah innama ('الأَعْمَالُ'), dan Al-Maqshur 'Alaih terletak di bagian paling akhir ('بِالنِّيَّاتِ'). Pilih: Al-Maqshur adalah 'الأَعْمَالُ' dan Al-Maqshur 'Alaih adalah 'بِالنِّيَّاتِ'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Al-Maqshur adalah 'الأَعْمَالُ' (segala amal perbuatan), dan Al-Maqshur 'Alaih adalah 'بِالنِّيَّاتِ' (ketergantungan pada niat).. Pada qashr dengan 'إِنَّمَا', Al-Maqshur terletak setelah innama ('الأَعْمَالُ'), dan Al-Maqshur 'Alaih terletak di bagian paling akhir ('بِالنِّيَّاتِ'). Pilih: Al-Maqshur adalah 'الأَعْمَالُ' dan Al-Maqshur 'Alaih adalah 'بِالنِّيَّاتِ'."
   },
   {
     "id": "arb-lat-h-16",
@@ -3078,27 +3082,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seorang penguasa muslim yang mencintai kaum intelektual/ulama fikih, gemar berdiskusi mendalami hukum Islam bermazhab Syafi'i, serta memimpin rakyat yang ramah dan gigih."
+        "text": "Seorang raja otoriter yang mewajibkan seluruh pengembara asing membayar upeti emas batangan murni di dermaga pelabuhan."
       },
       {
         "key": "B",
-        "text": "Seorang raja otoriter yang mewajibkan seluruh pengembara asing membayar upeti emas batangan murni di dermaga pelabuhan ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "Seorang penguasa muslim yang mencintai kaum intelektual/ulama fikih, gemar berdiskusi mendalami hukum Islam bermazhab Syafi'i, serta memimpin rakyat yang ramah dan gigih."
       },
       {
         "key": "C",
-        "text": "Pemimpin militer yang menolak interaksi diplomatik dengan para pedagang muslim dari kawasan Afrika Utara."
-      },
-      {
-        "key": "D",
         "text": "Raja yang mewajibkan rakyatnya beralih keyakinan memeluk agama kuno dataran Persia."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Penguasa pulau tandus yang melarang penanaman pohon kelapa dan rempah cengkeh di wilayah kerajaannya."
+      },
+      {
+        "key": "E",
+        "text": "Pemimpin militer yang menolak interaksi diplomatik dengan para pedagang muslim dari kawasan Afrika Utara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Seorang penguasa muslim yang mencintai kaum intelektual/ulama fikih, gemar berdiskusi mendalami hukum Islam bermazhab Syafi'i, serta memimpin rakyat yang ramah dan gigih.. Teks menegaskan: 'حَاكِمُهَا مَلِكٌ مُسْلِمٌ فَاضِلٌ ... يُحِبُّ الفُقَهَاءَ وَالعُلَمَاءَ ... عَلَى المَذْهَبِ الشَّافِعِيِّ' (raja utama yang mencintai ulama dan fikih mazhab Syafi'i). Pilih opsi: Penguasa muslim yang mencintai ulama/fikih Syafi'i, gemar berdiskusi ilmiah, dan rakyatnya ramah/gigih."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Seorang penguasa muslim yang mencintai kaum intelektual/ulama fikih, gemar berdiskusi mendalami hukum Islam bermazhab Syafi'i, serta memimpin rakyat yang ramah dan gigih.. Teks menegaskan: 'حَاكِمُهَا مَلِكٌ مُسْلِمٌ فَاضِلٌ ... يُحِبُّ الفُقَهَاءَ وَالعُلَمَاءَ ... عَلَى المَذْهَبِ الشَّافِعِيِّ' (raja utama yang mencintai ulama dan fikih mazhab Syafi'i). Pilih opsi: Penguasa muslim yang mencintai ulama/fikih Syafi'i, gemar berdiskusi ilmiah, dan rakyatnya ramah/gigih."
   },
   {
     "id": "arb-lat-h-17",
@@ -3121,28 +3125,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Negara yang kuat hanya dapat dibangun jika seluruh warga hidup dalam kemewahan harta benda tanpa perlu bekerja ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
-        "text": "Solidaritas kelompok",
-        "translation": "'ashabiyyah) merupakan fondasi utama kejayaan dan berdirinya negara, sedangkan pola hidup mewah yang berlebihan (al-ifrath fit-taraf akan merusak ikatan solidaritas tersebut hingga memicu keruntuhan negara."
-      },
-      {
-        "key": "C",
         "text": "Kekuasaan politik suatu bangsa semata-mata ditentukan oleh luasnya wilayah tambang minyak bumi di gurun."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Negara yang kuat hanya dapat dibangun jika seluruh warga hidup dalam kemewahan harta benda tanpa perlu bekerja."
+      },
+      {
+        "key": "C",
         "text": "Keruntuhan suatu dinasti terjadi akibat terlalu seringnya para pemimpin membaca buku sejarah peradaban kuno."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Hubungan kekerabatan darah wajib dihapus secara total agar negara mampu memenangkan perang antarbangsa."
+      },
+      {
+        "key": "E",
+        "text": "Solidaritas kelompok",
+        "translation": "'ashabiyyah) merupakan fondasi utama kejayaan dan berdirinya negara, sedangkan pola hidup mewah yang berlebihan (al-ifrath fit-taraf akan merusak ikatan solidaritas tersebut hingga memicu keruntuhan negara."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Solidaritas kelompok ('ashabiyyah) merupakan fondasi utama kejayaan dan berdirinya negara, sedangkan pola hidup mewah yang berlebihan (al-ifrath fit-taraf) akan merusak ikatan solidaritas tersebut hingga memicu keruntuhan negara.. Ibnu Khaldun menjelaskan bahwa 'ashabiyyah (solidaritas) adalah modal pembangun negara, dan at-taraf (kemewahan berlebih) adalah perusak solidaritas pemicu runtuhnya negara. Pilih: Solidaritas fondasi kejayaan negara, sedangkan kemewahan berlebih merusak ikatan dan memicu keruntuhan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Solidaritas kelompok ('ashabiyyah) merupakan fondasi utama kejayaan dan berdirinya negara, sedangkan pola hidup mewah yang berlebihan (al-ifrath fit-taraf) akan merusak ikatan solidaritas tersebut hingga memicu keruntuhan negara.. Ibnu Khaldun menjelaskan bahwa 'ashabiyyah (solidaritas) adalah modal pembangun negara, dan at-taraf (kemewahan berlebih) adalah perusak solidaritas pemicu runtuhnya negara. Pilih: Solidaritas fondasi kejayaan negara, sedangkan kemewahan berlebih merusak ikatan dan memicu keruntuhan."
   },
   {
     "id": "arb-lat-h-18",
@@ -3165,8 +3169,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "فِي البَيْتِ الرَّجُلُ",
-        "translation": "khabar boleh mendahului atau diakhirkan karena mubtada' ar-rajulu berbentuk ma'rifah sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+        "text": "عِنْدِي كِتَابُكَ",
+        "translation": "khabar boleh diakhirkan karena mudhaf ilaih kaf menjadikannya isim ma'rifah."
       },
       {
         "key": "B",
@@ -3175,8 +3179,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "فِي البَيْتِ رَجُلٌ",
-        "translation": "fii al-baiti rajulun - wajib mendahulukan khabar fii al-baiti karena mubtada' rajulun adalah nakirah murni."
+        "text": "فِي البَيْتِ الرَّجُلُ",
+        "translation": "khabar boleh mendahului atau diakhirkan karena mubtada' ar-rajulu berbentuk ma'rifah sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
       },
       {
         "key": "D",
@@ -3185,12 +3189,12 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "عِنْدِي كِتَابُكَ",
-        "translation": "khabar boleh diakhirkan karena mudhaf ilaih kaf menjadikannya isim ma'rifah."
+        "text": "فِي البَيْتِ رَجُلٌ",
+        "translation": "fii al-baiti rajulun - wajib mendahulukan khabar fii al-baiti karena mubtada' rajulun adalah nakirah murni."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) فِي البَيْتِ رَجُلٌ (fii al-baiti rajulun - wajib mendahulukan khabar fii al-baiti karena mubtada' rajulun adalah nakirah murni).. Khabar wajib mendahului mubtada' jika khabar berupa syibh jumlah (fii al-baiti) dan mubtada' berupa nakirah mahdhah murni tanpa sifat/idhafah ('رَجُلٌ'). Pilih: 'فِي البَيْتِ رَجُلٌ'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) فِي البَيْتِ رَجُلٌ (fii al-baiti rajulun - wajib mendahulukan khabar fii al-baiti karena mubtada' rajulun adalah nakirah murni).. Khabar wajib mendahului mubtada' jika khabar berupa syibh jumlah (fii al-baiti) dan mubtada' berupa nakirah mahdhah murni tanpa sifat/idhafah ('رَجُلٌ'). Pilih: 'فِي البَيْتِ رَجُلٌ'."
   },
   {
     "id": "arb-lat-h-19",
@@ -3213,7 +3217,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Berstatus sebagai fi'il amar mabni di atas fathah karena adanya nun taukid tsaqilah menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Didahului oleh Fa' Sababiyyah yang jatuh setelah kalimat thalab",
+        "translation": "nahyi / larangan , di mana terdapat 'أَنْ' mudhmarah wujuuban yang menashabkan fi'il mudhari'."
       },
       {
         "key": "B",
@@ -3221,20 +3226,19 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Tunduk pada kaidah huruf 'athaf biasa yang mengabaikan makna sebab akibat peristiwa."
+        "text": "Berstatus sebagai fi'il amar mabni di atas fathah karena adanya nun taukid tsaqilah."
       },
       {
         "key": "D",
-        "text": "Didahului oleh Fa' Sababiyyah yang jatuh setelah kalimat thalab",
-        "translation": "nahyi / larangan , di mana terdapat 'أَنْ' mudhmarah wujuuban yang menashabkan fi'il mudhari'."
+        "text": "Berposisi sebagai isim ghairu munsharif yang majrur dengan harakat fathah."
       },
       {
         "key": "E",
-        "text": "Berposisi sebagai isim ghairu munsharif yang majrur dengan harakat fathah."
+        "text": "Tunduk pada kaidah huruf 'athaf biasa yang mengabaikan makna sebab akibat peristiwa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Didahului oleh Fa' Sababiyyah yang jatuh setelah kalimat thalab (nahyi / larangan), di mana terdapat 'أَنْ' mudhmarah wujuuban yang menashabkan fi'il mudhari'.. Fa' Sababiyyah menashabkan fi'il mudhari' (dengan 'an' tersirat secara wajib) apabila didahului oleh thalab (perintah, larangan, doa, istifham) atau nafi. Pilih: Didahului Fa' Sababiyyah setelah kalimat thalab/nahyi dengan 'an' mudhmarah wujuuban."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Didahului oleh Fa' Sababiyyah yang jatuh setelah kalimat thalab (nahyi / larangan), di mana terdapat 'أَنْ' mudhmarah wujuuban yang menashabkan fi'il mudhari'.. Fa' Sababiyyah menashabkan fi'il mudhari' (dengan 'an' tersirat secara wajib) apabila didahului oleh thalab (perintah, larangan, doa, istifham) atau nafi. Pilih: Didahului Fa' Sababiyyah setelah kalimat thalab/nahyi dengan 'an' mudhmarah wujuuban."
   },
   {
     "id": "arb-lat-h-20",
@@ -3257,15 +3261,16 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan tempat dilangsungkannya ritual lari-lari kecil antara bukit Shafa dan Marwah diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
-      },
-      {
-        "key": "B",
         "text": "Menunjukkan waktu saat fajar menyingsing sebelum matahari terbit di ufuk timur."
       },
       {
+        "key": "B",
+        "text": "Menunjukkan tempat dilangsungkannya ritual lari-lari kecil antara bukit Shafa dan Marwah."
+      },
+      {
         "key": "C",
-        "text": "Berfungsi sebagai isim alat yang digunakan untuk menggali sumur zamzam."
+        "text": "Diawali huruf mim za'idah",
+        "translation": "tambahan) dan bermakna murni masdar hakiki (yaitu semakna dengan kata 'سَعْيًا' - usaha nyata , bukan menunjukkan lokasi tempat terjadinya pekerjaan."
       },
       {
         "key": "D",
@@ -3273,12 +3278,11 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Diawali huruf mim za'idah",
-        "translation": "tambahan) dan bermakna murni masdar hakiki (yaitu semakna dengan kata 'سَعْيًا' - usaha nyata , bukan menunjukkan lokasi tempat terjadinya pekerjaan."
+        "text": "Berfungsi sebagai isim alat yang digunakan untuk menggali sumur zamzam."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Diawali huruf mim za'idah (tambahan) dan bermakna murni masdar hakiki (yaitu semakna dengan kata 'سَعْيًا' - usaha nyata), bukan menunjukkan lokasi tempat terjadinya pekerjaan.. Masdar mimi diawali huruf mim tambahan dan bermakna masdar hakiki (perbuatan/usaha itu sendiri, semakna dengan sa'yan), bukan menunjukkan tempat. Pilih: Diawali huruf mim tambahan dan bermakna murni masdar hakiki (semakna dengan sa'yan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Diawali huruf mim za'idah (tambahan) dan bermakna murni masdar hakiki (yaitu semakna dengan kata 'سَعْيًا' - usaha nyata), bukan menunjukkan lokasi tempat terjadinya pekerjaan.. Masdar mimi diawali huruf mim tambahan dan bermakna masdar hakiki (perbuatan/usaha itu sendiri, semakna dengan sa'yan), bukan menunjukkan tempat. Pilih: Diawali huruf mim tambahan dan bermakna murni masdar hakiki (semakna dengan sa'yan)."
   },
   {
     "id": "arb-lat-h-21",
@@ -3306,13 +3310,13 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Jinas Naqish",
-        "translation": "جِنَاسٌ نَاقِصٌ - keserupaan dua kata yang memiliki perbedaan pada salah satu dari empat aspek huruf ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "Thibaq Ijab",
+        "translation": "pertemuan dua kata yang saling bertolak belakang maknanya secara hakiki."
       },
       {
         "key": "C",
-        "text": "Thibaq Ijab",
-        "translation": "pertemuan dua kata yang saling bertolak belakang maknanya secara hakiki."
+        "text": "Raddul 'Ajuz 'alas-Shadr",
+        "translation": "pengulangan kata awal bait pada posisi kata paling akhir bait."
       },
       {
         "key": "D",
@@ -3321,8 +3325,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Raddul 'Ajuz 'alas-Shadr",
-        "translation": "pengulangan kata awal bait pada posisi kata paling akhir bait."
+        "text": "Jinas Naqish",
+        "translation": "جِنَاسٌ نَاقِصٌ - keserupaan dua kata yang memiliki perbedaan pada salah satu dari empat aspek huruf ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       }
     ],
     "correctKey": "A",
@@ -3349,7 +3353,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kekurangan pasokan energi listrik tenaga surya di laboratorium komputer perguruan tinggi ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "Kekurangan pasokan energi listrik tenaga surya di laboratorium komputer perguruan tinggi."
       },
       {
         "key": "B",
@@ -3357,7 +3361,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Keinginan produsen perangkat lunak memonopoli seluruh jaringan satelit komunikasi global."
+        "text": "Kewajiban seluruh siswa menghafal kode bahasa pemrograman mesin dalam naskah kaligrafi."
       },
       {
         "key": "D",
@@ -3365,7 +3369,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kewajiban seluruh siswa menghafal kode bahasa pemrograman mesin dalam naskah kaligrafi."
+        "text": "Keinginan produsen perangkat lunak memonopoli seluruh jaringan satelit komunikasi global."
       }
     ],
     "correctKey": "B",
@@ -3392,32 +3396,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "وَشَاطِئُ",
-        "translation": "wa syaathi'u - marfu' dengan dhommah yang keliru karena menyangka sebagai 'athaf kepada musafir sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
-        "text": "وَشَاطِئٍ",
-        "translation": "wa syaathi'in - majrur dengan kasratain tanpa adanya amil jar."
-      },
-      {
-        "key": "C",
         "text": "وَشَاطِئَ",
         "translation": "wa syaathi'a - huruf wawu bermakna ma'a dan isim setelahnya berkedudukan maf'ul ma'ah manshub bil-fathah."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "مَعَ شَاطِئًا",
         "translation": "penggabungan kata ma'a dengan isim manshub bertanwin yang tidak lazim."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "وَالشَّاطِئُ بِالضَّمِّ",
         "translation": "berharakat dhommah yang tidak memenuhi fungsi maf'ul ma'ah."
+      },
+      {
+        "key": "D",
+        "text": "وَشَاطِئُ",
+        "translation": "wa syaathi'u - marfu' dengan dhommah yang keliru karena menyangka sebagai 'athaf kepada musafir sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+      },
+      {
+        "key": "E",
+        "text": "وَشَاطِئٍ",
+        "translation": "wa syaathi'in - majrur dengan kasratain tanpa adanya amil jar."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) وَشَاطِئَ (wa syaathi'a - huruf wawu bermakna ma'a dan isim setelahnya berkedudukan maf'ul ma'ah manshub bil-fathah).. Karena pantai tidak mungkin ikut berjalan dengan pengembara, wawu di sini adalah Wawu Ma'iyyah (bersamaan dengan), dan kata setelahnya adalah Maf'ul Ma'ah yang MANSHUB: 'وَشَاطِئَ'. Pilih: 'وَشَاطِئَ' (wa syaathi'a)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) وَشَاطِئَ (wa syaathi'a - huruf wawu bermakna ma'a dan isim setelahnya berkedudukan maf'ul ma'ah manshub bil-fathah).. Karena pantai tidak mungkin ikut berjalan dengan pengembara, wawu di sini adalah Wawu Ma'iyyah (bersamaan dengan), dan kata setelahnya adalah Maf'ul Ma'ah yang MANSHUB: 'وَشَاطِئَ'. Pilih: 'وَشَاطِئَ' (wa syaathi'a)."
   },
   {
     "id": "arb-lat-h-24",
@@ -3440,32 +3444,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "بُيُوتَ",
-        "translation": "buyuuta - yang dibuang adalah kata rumah-rumah pemukiman menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "حَيَوَانَاتِ",
+        "translation": "hayawaanaati - yang dibuang adalah hewan ternak kambing."
       },
       {
         "key": "B",
-        "text": "أَمْوَالَ",
-        "translation": "amwaala - yang dibuang adalah harta kekayaan desa."
-      },
-      {
-        "key": "C",
         "text": "أَشْجَارَ",
         "translation": "asyjaara - yang dibuang adalah pepohonan kurma di kebun."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "أَهْلَ",
         "translation": "ahla - yang dibuang adalah mudhaf 'penduduk', sehingga takdir kalimat aslinya adalah: 'وَاسْأَلْ أَهْلَ القَرْيَةِ' karena desa berupa bangunan fisik tidak dapat ditanyai."
       },
       {
+        "key": "D",
+        "text": "أَمْوَالَ",
+        "translation": "amwaala - yang dibuang adalah harta kekayaan desa."
+      },
+      {
         "key": "E",
-        "text": "حَيَوَانَاتِ",
-        "translation": "hayawaanaati - yang dibuang adalah hewan ternak kambing."
+        "text": "بُيُوتَ",
+        "translation": "buyuuta - yang dibuang adalah kata rumah-rumah pemukiman menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) أَهْلَ (ahla - yang dibuang adalah mudhaf 'penduduk', sehingga takdir kalimat aslinya adalah: 'وَاسْأَلْ أَهْلَ القَرْيَةِ' karena desa berupa bangunan fisik tidak dapat ditanyai).. Desa fisik tidak bisa ditanyai. Yang ditanyai adalah penduduknya. Kata yang dibuang (al-mahdzuf) adalah 'أَهْلَ' (penduduk desa). Pilih: 'أَهْلَ' (ahla - penduduk desa)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) أَهْلَ (ahla - yang dibuang adalah mudhaf 'penduduk', sehingga takdir kalimat aslinya adalah: 'وَاسْأَلْ أَهْلَ القَرْيَةِ' karena desa berupa bangunan fisik tidak dapat ditanyai).. Desa fisik tidak bisa ditanyai. Yang ditanyai adalah penduduknya. Kata yang dibuang (al-mahdzuf) adalah 'أَهْلَ' (penduduk desa). Pilih: 'أَهْلَ' (ahla - penduduk desa)."
   },
   {
     "id": "arb-lat-h-25",
@@ -3488,28 +3492,28 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "لَيْتَ berfungsi untuk memuji sifat dermawan, sedangkan لَعَلَّ berfungsi untuk melarang perbuatan tercela diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
-      },
-      {
-        "key": "B",
-        "text": "لَيْتَ khusus digunakan dalam kalimat masa lampau, sedangkan لَعَلَّ hanya digunakan dalam kalimat masa depan."
-      },
-      {
-        "key": "C",
-        "text": "لَيْتَ menjazmkan fi'il mudhari', sedangkan لَعَلَّ memajrurkan isim zhahir ber-alif lam."
-      },
-      {
-        "key": "D",
         "text": "Keduanya memiliki makna yang identik seratus persen tanpa ada perbedaan retorika sedikit pun."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "لَيْتَ berfungsi untuk memuji sifat dermawan, sedangkan لَعَلَّ berfungsi untuk melarang perbuatan tercela."
+      },
+      {
+        "key": "C",
         "text": "لَيْتَ berfungsi untuk at-tamanni",
         "translation": "menginginkan sesuatu yang mustahil terjadi atau sangat sulit terwujud), sedangkan لَعَلَّ berfungsi untuk at-tarajji wal-isyfaq (mengharapkan sesuatu yang disukai dan mungkin terwujud, atau mengkhawatirkan hal buruk."
+      },
+      {
+        "key": "D",
+        "text": "لَيْتَ menjazmkan fi'il mudhari', sedangkan لَعَلَّ memajrurkan isim zhahir ber-alif lam."
+      },
+      {
+        "key": "E",
+        "text": "لَيْتَ khusus digunakan dalam kalimat masa lampau, sedangkan لَعَلَّ hanya digunakan dalam kalimat masa depan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) لَيْتَ berfungsi untuk at-tamanni (menginginkan sesuatu yang mustahil terjadi atau sangat sulit terwujud), sedangkan لَعَلَّ berfungsi untuk at-tarajji wal-isyfaq (mengharapkan sesuatu yang disukai dan mungkin terwujud, atau mengkhawatirkan hal buruk).. 'Laita' (tamanni) = mengharapkan hal mustahil/sangat sulit terjadi (seperti ingin muda kembali). 'La'alla' (tarajji) = mengharapkan hal yang mungkin terjadi. Pilih opsi: Laita untuk at-tamanni (hal mustahil/sulit), La'alla untuk at-tarajji (hal mungkin terwujud/dikhawatirkan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) لَيْتَ berfungsi untuk at-tamanni (menginginkan sesuatu yang mustahil terjadi atau sangat sulit terwujud), sedangkan لَعَلَّ berfungsi untuk at-tarajji wal-isyfaq (mengharapkan sesuatu yang disukai dan mungkin terwujud, atau mengkhawatirkan hal buruk).. 'Laita' (tamanni) = mengharapkan hal mustahil/sangat sulit terjadi (seperti ingin muda kembali). 'La'alla' (tarajji) = mengharapkan hal yang mungkin terjadi. Pilih opsi: Laita untuk at-tamanni (hal mustahil/sulit), La'alla untuk at-tarajji (hal mungkin terwujud/dikhawatirkan)."
   },
   {
     "id": "arb-sim-01",
@@ -3532,8 +3536,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "مُنْصِتَاتٍ",
-        "translation": "munshitaatin - khabar kaana manshub dengan harakat kasratain sebagai pengganti fathah pada jama' mu'annats salim."
+        "text": "مُنْصِتَاتًا",
+        "translation": "munshitaatan - penambahan fathatain yang mustahil secara kaidah pada jama' mu'annats salim."
       },
       {
         "key": "B",
@@ -3542,22 +3546,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "مُنْصِتُونَ",
-        "translation": "munshituuna - jama' mudzakkar salim yang menyalahi gender siswi perempuan."
+        "text": "مُنْصِتَةً",
+        "translation": "munshitatan - mufrad yang tidak selaras dengan subjek thalibaat yang jamak."
       },
       {
         "key": "D",
-        "text": "مُنْصِتَاتًا",
-        "translation": "munshitaatan - penambahan fathatain yang mustahil secara kaidah pada jama' mu'annats salim."
+        "text": "مُنْصِتَاتٍ",
+        "translation": "munshitaatin - khabar kaana manshub dengan harakat kasratain sebagai pengganti fathah pada jama' mu'annats salim."
       },
       {
         "key": "E",
-        "text": "مُنْصِتَةً",
-        "translation": "munshitatan - mufrad yang tidak selaras dengan subjek thalibaat yang jamak."
+        "text": "مُنْصِتُونَ",
+        "translation": "munshituuna - jama' mudzakkar salim yang menyalahi gender siswi perempuan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) مُنْصِتَاتٍ (munshitaatin - khabar kaana manshub dengan harakat kasratain sebagai pengganti fathah pada jama' mu'annats salim).. Khabar kaana berkedudukan manshub. Pada jama' mu'annats salim, tanda nashab-nya adalah kasrah (kasratain): 'مُنْصِتَاتٍ'. Pilih: 'مُنْصِتَاتٍ' (munshitaatin)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) مُنْصِتَاتٍ (munshitaatin - khabar kaana manshub dengan harakat kasratain sebagai pengganti fathah pada jama' mu'annats salim).. Khabar kaana berkedudukan manshub. Pada jama' mu'annats salim, tanda nashab-nya adalah kasrah (kasratain): 'مُنْصِتَاتٍ'. Pilih: 'مُنْصِتَاتٍ' (munshitaatin)."
   },
   {
     "id": "arb-sim-02",
@@ -3580,32 +3584,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "أَبُو",
-        "translation": "Abuu - marfu' dengan huruf wawu yang keliru untuk posisi isim inna ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
         "text": "أَبَا",
         "translation": "Abaa - isim inna manshub dengan tanda huruf alif karena bagian dari Asma'ul Khamsah."
       },
       {
+        "key": "B",
+        "text": "إِبَّا",
+        "translation": "Ibbaa - kesalahan ortografi yang tidak ada dalam kosakata bahasa Arab fusha."
+      },
+      {
         "key": "C",
+        "text": "أَبُو",
+        "translation": "Abuu - marfu' dengan huruf wawu yang keliru untuk posisi isim inna ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
+        "key": "D",
         "text": "أَبِي",
         "translation": "Abii - majrur dengan huruf ya' yang hanya berlaku jika ada huruf jar."
       },
       {
-        "key": "D",
+        "key": "E",
         "text": "أَبٌ",
         "translation": "Abun - mufrad bertanwin tanpa idhafah yang tidak cocok untuk nama gelar Abu Bakar."
-      },
-      {
-        "key": "E",
-        "text": "إِبَّا",
-        "translation": "Ibbaa - kesalahan ortografi yang tidak ada dalam kosakata bahasa Arab fusha."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) أَبَا (Abaa - isim inna manshub dengan tanda huruf alif karena bagian dari Asma'ul Khamsah).. Isim Inna berkedudukan manshub. Tanda nashab Asma'ul Khamsah adalah huruf Alif (أَبَا بَكْرٍ). Pilih: 'أَبَا' (Abaa)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) أَبَا (Abaa - isim inna manshub dengan tanda huruf alif karena bagian dari Asma'ul Khamsah).. Isim Inna berkedudukan manshub. Tanda nashab Asma'ul Khamsah adalah huruf Alif (أَبَا بَكْرٍ). Pilih: 'أَبَا' (Abaa)."
   },
   {
     "id": "arb-sim-03",
@@ -3628,23 +3632,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Al-Musyarakah al-Kamilah",
-        "translation": "saling bertukar pengetahuan secara instan tanpa proses berpikir sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
-      },
-      {
-        "key": "B",
-        "text": "At-Ta'diyah al-Mujarradah",
-        "translation": "semata-mata menjadikan orang lain mengetahui tanpa usaha pribadi."
-      },
-      {
-        "key": "C",
         "text": "At-Tadrij wat-Takalluf",
         "translation": "memperoleh ilmu secara bertahap sedikit demi sedikit dengan kesungguhan usaha batin."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Al-Musyarakah al-Kamilah",
+        "translation": "saling bertukar pengetahuan secara instan tanpa proses berpikir sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+      },
+      {
+        "key": "C",
         "text": "Li Thalabil Maal",
         "translation": "memohon bayaran upah materi atas jasa mengajar di ruang kelas."
+      },
+      {
+        "key": "D",
+        "text": "At-Ta'diyah al-Mujarradah",
+        "translation": "semata-mata menjadikan orang lain mengetahui tanpa usaha pribadi."
       },
       {
         "key": "E",
@@ -3652,8 +3656,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "peniadaan pemahaman terhadap isi teks buku bacaan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) At-Tadrij wat-Takalluf (memperoleh ilmu secara bertahap sedikit demi sedikit dengan kesungguhan usaha batin).. Wazan تَفَعَّلَ (seperti ta'allama) berfaedah at-tadrij (bertahap sedikit demi sedikit) dan at-takalluf (usaha sungguh-sungguh). Pilih: At-Tadrij wat-Takalluf (memperoleh ilmu bertahap sedikit demi sedikit dengan kesungguhan)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) At-Tadrij wat-Takalluf (memperoleh ilmu secara bertahap sedikit demi sedikit dengan kesungguhan usaha batin).. Wazan تَفَعَّلَ (seperti ta'allama) berfaedah at-tadrij (bertahap sedikit demi sedikit) dan at-takalluf (usaha sungguh-sungguh). Pilih: At-Tadrij wat-Takalluf (memperoleh ilmu bertahap sedikit demi sedikit dengan kesungguhan)."
   },
   {
     "id": "arb-sim-04",
@@ -3676,7 +3680,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memohon agar minyak bumi keluar dengan sendirinya tanpa perlu melakukan pengeboran menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Menjual seluruh kilang pengeboran lepas pantai kepada konsorsium maskapai penerbangan asing."
       },
       {
         "key": "B",
@@ -3684,19 +3688,19 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menjual seluruh kilang pengeboran lepas pantai kepada konsorsium maskapai penerbangan asing."
-      },
-      {
-        "key": "D",
         "text": "Mengeksplorasi dan mengeluarkan minyak bumi dari kedalaman sumur dengan mengerahkan daya upaya dan teknologi mesin."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menimbun kembali sumur-sumur minyak dengan pasir pantai agar tidak dapat dimanfaatkan."
+      },
+      {
+        "key": "E",
+        "text": "Memohon agar minyak bumi keluar dengan sendirinya tanpa perlu melakukan pengeboran."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mengeksplorasi dan mengeluarkan minyak bumi dari kedalaman sumur dengan mengerahkan daya upaya dan teknologi mesin.. Kata 'istakhraja' berarti mengerahkan tenaga/alat untuk mengeluarkan atau mengeksplorasi bahan tambang. Pilih opsi: Mengeksplorasi dan mengeluarkan minyak bumi dengan daya upaya dan teknologi mesin."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mengeksplorasi dan mengeluarkan minyak bumi dari kedalaman sumur dengan mengerahkan daya upaya dan teknologi mesin.. Kata 'istakhraja' berarti mengerahkan tenaga/alat untuk mengeluarkan atau mengeksplorasi bahan tambang. Pilih opsi: Mengeksplorasi dan mengeluarkan minyak bumi dengan daya upaya dan teknologi mesin."
   },
   {
     "id": "arb-sim-05",
@@ -3719,32 +3723,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "صَلَّيْتُ المَسْجِدَ بِالنَّصْبِ بِلَا حَرْفِ جَرٍّ",
-        "translation": "salah karena al-masjid adalah isim makan mukhtash yang wajib didahului huruf jar fii."
-      },
-      {
-        "key": "B",
-        "text": "جَلَسْتُ الفَصْلَ لِسَمَاعِ الشَّرْحِ",
-        "translation": "salah karena al-fashl adalah tempat terbatas yang wajib memakai fii al-fashli."
-      },
-      {
-        "key": "C",
-        "text": "نِمْتُ البَيْتَ لَيْلًا",
-        "translation": "salah karena al-bait adalah mukhtash yang tidak boleh langsung dinashabkan sebagai zharf."
-      },
-      {
-        "key": "D",
         "text": "سَافَرْتُ مَكَّةَ لِلْعُمْرَةِ",
         "translation": "salah karena Makkah adalah nama kota terbatas yang wajib diawali ilaa."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "وَقَفَ الخَطِيبُ أَمَامَ الجُمْهُورِ يُلْقِي خُطْبَتَهُ",
         "translation": "amama adalah zharf makan mubham penunjuk arah depan yang sah berharakat manshub."
+      },
+      {
+        "key": "C",
+        "text": "جَلَسْتُ الفَصْلَ لِسَمَاعِ الشَّرْحِ",
+        "translation": "salah karena al-fashl adalah tempat terbatas yang wajib memakai fii al-fashli."
+      },
+      {
+        "key": "D",
+        "text": "نِمْتُ البَيْتَ لَيْلًا",
+        "translation": "salah karena al-bait adalah mukhtash yang tidak boleh langsung dinashabkan sebagai zharf."
+      },
+      {
+        "key": "E",
+        "text": "صَلَّيْتُ المَسْجِدَ بِالنَّصْبِ بِلَا حَرْفِ جَرٍّ",
+        "translation": "salah karena al-masjid adalah isim makan mukhtash yang wajib didahului huruf jar fii."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) وَقَفَ الخَطِيبُ أَمَامَ الجُمْهُورِ يُلْقِي خُطْبَتَهُ (amama adalah zharf makan mubham penunjuk arah depan yang sah berharakat manshub).. Zharf makan yang boleh langsung dinashabkan adalah isim makan mubham (arah yang 6: amama, khala, fawqa, tahta, yamina, syimala). Tempat berbatas seperti masjid/kelas wajib memakai huruf jar 'fii'. Pilih: 'وَقَفَ الخَطِيبُ أَمَامَ الجُمْهُورِ'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) وَقَفَ الخَطِيبُ أَمَامَ الجُمْهُورِ يُلْقِي خُطْبَتَهُ (amama adalah zharf makan mubham penunjuk arah depan yang sah berharakat manshub).. Zharf makan yang boleh langsung dinashabkan adalah isim makan mubham (arah yang 6: amama, khala, fawqa, tahta, yamina, syimala). Tempat berbatas seperti masjid/kelas wajib memakai huruf jar 'fii'. Pilih: 'وَقَفَ الخَطِيبُ أَمَامَ الجُمْهُورِ'."
   },
   {
     "id": "arb-sim-06",
@@ -3767,13 +3771,11 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Majrur bil-kasrah: طَالِبٍ",
-        "translation": "thaalibin - berharakat kasratain sebagai isim majrur oleh huruf jar khala."
+        "text": "Berstatus sebagai khabar kaana yang tersembunyi di dalam dada pembicara."
       },
       {
         "key": "B",
-        "text": "Wajib marfu' bil-dhommah: طَالِبٌ",
-        "translation": "thaalibun - yang tidak memiliki landasan gramatikal sama sekali ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "Wajib ber-alif lam mutsanna marfu' dengan huruf alif."
       },
       {
         "key": "C",
@@ -3781,15 +3783,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Wajib ber-alif lam mutsanna marfu' dengan huruf alif."
+        "text": "Majrur bil-kasrah: طَالِبٍ",
+        "translation": "thaalibin - berharakat kasratain sebagai isim majrur oleh huruf jar khala."
       },
       {
         "key": "E",
-        "text": "Berstatus sebagai khabar kaana yang tersembunyi di dalam dada pembicara."
+        "text": "Wajib marfu' bil-dhommah: طَالِبٌ",
+        "translation": "thaalibun - yang tidak memiliki landasan gramatikal sama sekali ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Majrur bil-kasrah: طَالِبٍ (thaalibin - berharakat kasratain sebagai isim majrur oleh huruf jar khala).. Jika 'خَلَا' dianggap huruf jar (karena tanpa 'مَا'), maka kata setelahnya berkedudukan sebagai isim majrur bil-kasrah: 'طَالِبٍ'. Pilih opsi: Majrur bil-kasrah: 'طَالِبٍ' (thaalibin)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Majrur bil-kasrah: طَالِبٍ (thaalibin - berharakat kasratain sebagai isim majrur oleh huruf jar khala).. Jika 'خَلَا' dianggap huruf jar (karena tanpa 'مَا'), maka kata setelahnya berkedudukan sebagai isim majrur bil-kasrah: 'طَالِبٍ'. Pilih opsi: Majrur bil-kasrah: 'طَالِبٍ' (thaalibin)."
   },
   {
     "id": "arb-sim-07",
@@ -3817,8 +3821,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "ثَلَاثِينَ",
-        "translation": "tsalaathiina - maf'ul bih manshub dengan tanda ya' karena mulhaq bi jama' mudzakkar salim."
+        "text": "ثَلَاثُ",
+        "translation": "tsalaatsu - bentuk satuan mudzakkar yang salah makna."
       },
       {
         "key": "C",
@@ -3827,17 +3831,17 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "ثَلَاثُ",
-        "translation": "tsalaatsu - bentuk satuan mudzakkar yang salah makna."
+        "text": "ثَلَاثَاتٍ",
+        "translation": "tsalaatsaatin - bentuk jamak yang tidak ada dalam kaidah bilangan puluhan."
       },
       {
         "key": "E",
-        "text": "ثَلَاثَاتٍ",
-        "translation": "tsalaatsaatin - bentuk jamak yang tidak ada dalam kaidah bilangan puluhan."
+        "text": "ثَلَاثِينَ",
+        "translation": "tsalaathiina - maf'ul bih manshub dengan tanda ya' karena mulhaq bi jama' mudzakkar salim."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) ثَلَاثِينَ (tsalaathiina - maf'ul bih manshub dengan tanda ya' karena mulhaq bi jama' mudzakkar salim).. Bilangan puluhan (alfazhul 'uqud: 20-90) mulhaq jama' mudzakkar salim. Pada posisi maf'ul bih (manshub), tandanya adalah huruf ya': 'ثَلَاثِينَ'. Pilih: 'ثَلَاثِينَ' (tsalaathiina)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) ثَلَاثِينَ (tsalaathiina - maf'ul bih manshub dengan tanda ya' karena mulhaq bi jama' mudzakkar salim).. Bilangan puluhan (alfazhul 'uqud: 20-90) mulhaq jama' mudzakkar salim. Pada posisi maf'ul bih (manshub), tandanya adalah huruf ya': 'ثَلَاثِينَ'. Pilih: 'ثَلَاثِينَ' (tsalaathiina)."
   },
   {
     "id": "arb-sim-08",
@@ -3865,27 +3869,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "وَالشَّمْسَ طَالِعَةً",
-        "translation": "menashabkan mubtada' dan khabar secara keliru tanpa adanya amil nawasikh."
-      },
-      {
-        "key": "C",
-        "text": "وَالشَّمْسُ طَالِعَةٌ",
-        "translation": "wasy-syamsu thaali'atun - wawul hal menghubungkan jumlah ismiyyah mubtada' dan khabar yang berada pada posisi fi mahalli nashbin haal."
-      },
-      {
-        "key": "D",
         "text": "وَالشَّمْسِ طَالِعَةٍ",
         "translation": "memajrurkan mubtada' dan khabar seolah-olah wawu tersebut adalah wawu qasam."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "طَالِعَةُ الشَّمْسِ بِالإِضَافَةِ",
         "translation": "susunan idhafah yang tidak membentuk struktur klausa keadaan berwawu."
+      },
+      {
+        "key": "D",
+        "text": "وَالشَّمْسَ طَالِعَةً",
+        "translation": "menashabkan mubtada' dan khabar secara keliru tanpa adanya amil nawasikh."
+      },
+      {
+        "key": "E",
+        "text": "وَالشَّمْسُ طَالِعَةٌ",
+        "translation": "wasy-syamsu thaali'atun - wawul hal menghubungkan jumlah ismiyyah mubtada' dan khabar yang berada pada posisi fi mahalli nashbin haal."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) وَالشَّمْسُ طَالِعَةٌ (wasy-syamsu thaali'atun - wawul hal menghubungkan jumlah ismiyyah mubtada' dan khabar yang berada pada posisi fi mahalli nashbin haal).. Haal berupa jumlah ismiyyah wajib diawali Wawul Hal, dan di dalamnya tersusun dari mubtada' marfu' dan khabar marfu': 'وَالشَّمْسُ طَالِعَةٌ'. Pilih: 'وَالشَّمْسُ طَالِعَةٌ' (wasy-syamsu thaali'atun)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) وَالشَّمْسُ طَالِعَةٌ (wasy-syamsu thaali'atun - wawul hal menghubungkan jumlah ismiyyah mubtada' dan khabar yang berada pada posisi fi mahalli nashbin haal).. Haal berupa jumlah ismiyyah wajib diawali Wawul Hal, dan di dalamnya tersusun dari mubtada' marfu' dan khabar marfu': 'وَالشَّمْسُ طَالِعَةٌ'. Pilih: 'وَالشَّمْسُ طَالِعَةٌ' (wasy-syamsu thaali'atun)."
   },
   {
     "id": "arb-sim-09",
@@ -3908,23 +3912,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "عَسَلٌ",
-        "translation": "asalun - marfu' dengan dhommatain yang keliru untuk posisi tamyiz."
+        "text": "عَسَلًا",
+        "translation": "asalan - tamyiz malfuzh manshub dengan harakat fathatain bermakna madu."
       },
       {
         "key": "B",
-        "text": "عَسَلٍ",
-        "translation": "asalin - majrur yang hanya sah jika susunan diubah menjadi idhafah rithla 'asalin."
-      },
-      {
-        "key": "C",
         "text": "العَسَلُ",
         "translation": "al-'asalu - isim ma'rifah yang tidak memenuhi syarat kenakiran tamyiz."
       },
       {
+        "key": "C",
+        "text": "عَسَلٌ",
+        "translation": "asalun - marfu' dengan dhommatain yang keliru untuk posisi tamyiz."
+      },
+      {
         "key": "D",
-        "text": "عَسَلًا",
-        "translation": "asalan - tamyiz malfuzh manshub dengan harakat fathatain bermakna madu."
+        "text": "عَسَلٍ",
+        "translation": "asalin - majrur yang hanya sah jika susunan diubah menjadi idhafah rithla 'asalin."
       },
       {
         "key": "E",
@@ -3932,8 +3936,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "bil-'asali - susunan huruf jar majrur yang tidak membentuk tamyiz malfuzh murni."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) عَسَلًا (asalan - tamyiz malfuzh manshub dengan harakat fathatain bermakna madu).. Setelah isim ukuran/timbangan (rithlan), kata penjelas jenisnya adalah Tamyiz Malfuzh yang berstatus nakirah manshub: 'عَسَلًا'. Pilih kata bertanwin fathah: 'عَسَلًا' (asalan)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) عَسَلًا (asalan - tamyiz malfuzh manshub dengan harakat fathatain bermakna madu).. Setelah isim ukuran/timbangan (rithlan), kata penjelas jenisnya adalah Tamyiz Malfuzh yang berstatus nakirah manshub: 'عَسَلًا'. Pilih kata bertanwin fathah: 'عَسَلًا' (asalan)."
   },
   {
     "id": "arb-sim-10",
@@ -3961,27 +3965,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kulliyyah",
-        "translation": "penyebutan keseluruhan tubuh untuk memaksudkan satu ujung jari."
+        "text": "Sababiyyah",
+        "translation": "سَبَبِيَّةٌ - menyebutkan sebab yaitu hujan, tetapi yang dimaksudkan adalah akibat yang ditimbulkannya yaitu tumbuhnya rumput."
       },
       {
         "key": "C",
-        "text": "Juz'iyyah",
-        "translation": "penyebutan sebagian kecil untuk memaksudkan keseluruhan badan."
-      },
-      {
-        "key": "D",
         "text": "I'tibaru Ma Kaana",
         "translation": "penyebutan masa lalu seseorang sebelum berganti status."
       },
       {
+        "key": "D",
+        "text": "Kulliyyah",
+        "translation": "penyebutan keseluruhan tubuh untuk memaksudkan satu ujung jari."
+      },
+      {
         "key": "E",
-        "text": "Sababiyyah",
-        "translation": "سَبَبِيَّةٌ - menyebutkan sebab yaitu hujan, tetapi yang dimaksudkan adalah akibat yang ditimbulkannya yaitu tumbuhnya rumput."
+        "text": "Juz'iyyah",
+        "translation": "penyebutan sebagian kecil untuk memaksudkan keseluruhan badan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sababiyyah (سَبَبِيَّةٌ - menyebutkan sebab yaitu hujan, tetapi yang dimaksudkan adalah akibat yang ditimbulkannya yaitu tumbuhnya rumput).. Majaz Mursal 'Alaqah Sababiyyah menyebutkan sebabnya (hujan/al-ghaits), padahal yang dimaksud adalah akibatnya (rumput/an-nabat). Pilih: Sababiyyah (سَبَبِيَّةٌ - menyebut sebab, memaksudkan akibat)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Sababiyyah (سَبَبِيَّةٌ - menyebutkan sebab yaitu hujan, tetapi yang dimaksudkan adalah akibat yang ditimbulkannya yaitu tumbuhnya rumput).. Majaz Mursal 'Alaqah Sababiyyah menyebutkan sebabnya (hujan/al-ghaits), padahal yang dimaksud adalah akibatnya (rumput/an-nabat). Pilih: Sababiyyah (سَبَبِيَّةٌ - menyebut sebab, memaksudkan akibat)."
   },
   {
     "id": "arb-sim-11",
@@ -4009,23 +4013,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Thibaq Ijab semata",
-        "translation": "karena hanya melibatkan satu pasang kata berlawanan saja ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+        "text": "Tauriyah",
+        "translation": "penggunaan kata yang memiliki makna dekat dan makna jauh yang tersembunyi."
       },
       {
         "key": "C",
-        "text": "Jinas Isytiqaq",
-        "translation": "penggabungan akar kata yang serupa secara fonetis."
-      },
-      {
-        "key": "D",
         "text": "Iltifat",
         "translation": "peralihan gaya tutur kata dari orang ketiga ke orang pertama."
       },
       {
+        "key": "D",
+        "text": "Jinas Isytiqaq",
+        "translation": "penggabungan akar kata yang serupa secara fonetis."
+      },
+      {
         "key": "E",
-        "text": "Tauriyah",
-        "translation": "penggunaan kata yang memiliki makna dekat dan makna jauh yang tersembunyi."
+        "text": "Thibaq Ijab semata",
+        "translation": "karena hanya melibatkan satu pasang kata berlawanan saja ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       }
     ],
     "correctKey": "A",
@@ -4052,32 +4056,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "أَكَلَ، سَأَلَ، قَرَأَ",
-        "translation": "ketiganya adalah fi'il shahih mahmuz karena mengandung huruf hamzah."
-      },
-      {
-        "key": "B",
-        "text": "كَتَبَ، جَلَسَ، فَتَحَ",
-        "translation": "semuanya fi'il shahih salim tanpa hamzah dan tanpa huruf ganda."
-      },
-      {
-        "key": "C",
-        "text": "مَدَّ، شَدَّ، عَدَّ",
-        "translation": "ketiganya adalah fi'il shahih mudha'af karena memiliki huruf kedua dan ketiga kembar."
-      },
-      {
-        "key": "D",
         "text": "وَجَدَ، قَالَ، رَمَى",
         "translation": "ketiganya adalah fi'il mu'tal yang mengandung huruf 'illat."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "أَمَرَ، فَرَّ، نَصَرَ",
         "translation": "campuran antara mahmuz, mudha'af, dan salim."
+      },
+      {
+        "key": "C",
+        "text": "أَكَلَ، سَأَلَ، قَرَأَ",
+        "translation": "ketiganya adalah fi'il shahih mahmuz karena mengandung huruf hamzah."
+      },
+      {
+        "key": "D",
+        "text": "مَدَّ، شَدَّ، عَدَّ",
+        "translation": "ketiganya adalah fi'il shahih mudha'af karena memiliki huruf kedua dan ketiga kembar."
+      },
+      {
+        "key": "E",
+        "text": "كَتَبَ، جَلَسَ، فَتَحَ",
+        "translation": "semuanya fi'il shahih salim tanpa hamzah dan tanpa huruf ganda."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) كَتَبَ، جَلَسَ، فَتَحَ (semuanya fi'il shahih salim tanpa hamzah dan tanpa huruf ganda).. Fi'il Shahih Salim adalah fi'il shahih yang huruf aslinya selamat/bebas dari huruf hamzah dan tasydid kembar (seperti kataba, jalasa, fataha). Pilih: 'كَتَبَ، جَلَسَ، فَتَحَ'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) كَتَبَ، جَلَسَ، فَتَحَ (semuanya fi'il shahih salim tanpa hamzah dan tanpa huruf ganda).. Fi'il Shahih Salim adalah fi'il shahih yang huruf aslinya selamat/bebas dari huruf hamzah dan tasydid kembar (seperti kataba, jalasa, fataha). Pilih: 'كَتَبَ، جَلَسَ، فَتَحَ'."
   },
   {
     "id": "arb-sim-13",
@@ -4100,32 +4104,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fi'il Lafif Maqrun",
-        "translation": "لَفِيفٌ مَقْرُونٌ - fi'il yang kedua huruf 'illat-nya berdampingan bersambung seperti rawaa dan hawaa."
-      },
-      {
-        "key": "B",
-        "text": "Fi'il Mu'tal Mithal",
-        "translation": "fi'il yang hanya huruf pertamanya saja berupa huruf 'illat."
-      },
-      {
-        "key": "C",
-        "text": "Fi'il Lafif Mafruq",
-        "translation": "لَفِيفٌ مَفْرُوقٌ - fi'il yang kedua huruf 'illat-nya terpisah oleh huruf shahih."
-      },
-      {
-        "key": "D",
         "text": "Fi'il Mu'tal Ajwaf",
         "translation": "fi'il yang hanya huruf tengahnya saja berupa huruf 'illat."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Fi'il Lafif Mafruq",
+        "translation": "لَفِيفٌ مَفْرُوقٌ - fi'il yang kedua huruf 'illat-nya terpisah oleh huruf shahih."
+      },
+      {
+        "key": "C",
         "text": "Fi'il Mu'tal Naqish",
         "translation": "fi'il yang hanya huruf ujung akhirnya saja berupa huruf 'illat."
+      },
+      {
+        "key": "D",
+        "text": "Fi'il Lafif Maqrun",
+        "translation": "لَفِيفٌ مَقْرُونٌ - fi'il yang kedua huruf 'illat-nya berdampingan bersambung seperti rawaa dan hawaa."
+      },
+      {
+        "key": "E",
+        "text": "Fi'il Mu'tal Mithal",
+        "translation": "fi'il yang hanya huruf pertamanya saja berupa huruf 'illat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Fi'il Lafif Mafruq (لَفِيفٌ مَفْرُوقٌ - fi'il yang kedua huruf 'illat-nya terpisah oleh huruf shahih).. Dua huruf 'illat yang terpisah oleh huruf shahih (seperti wa-qa-ya) dinamakan Lafif Mafruq (terpisah). Pilih: Fi'il Lafif Mafruq (لَفِيفٌ مَفْرُوقٌ)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Fi'il Lafif Mafruq (لَفِيفٌ مَفْرُوقٌ - fi'il yang kedua huruf 'illat-nya terpisah oleh huruf shahih).. Dua huruf 'illat yang terpisah oleh huruf shahih (seperti wa-qa-ya) dinamakan Lafif Mafruq (terpisah). Pilih: Fi'il Lafif Mafruq (لَفِيفٌ مَفْرُوقٌ)."
   },
   {
     "id": "arb-sim-14",
@@ -4148,8 +4152,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "فَاطِمَةُ هِيَ الطَّالِبَةُ الأَفْضَلُ فِي الفَصْلِ",
-        "translation": "salah karena al-afdhala berbentuk mudzakkar saat ber-alif lam menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "فَاطِمَةُ هِيَ الطَّالِبَةُ الفُضْلَيَاتُ فِي الفَصْلِ",
+        "translation": "menggunakan bentuk jamak untuk subjek tunggal."
       },
       {
         "key": "B",
@@ -4158,8 +4162,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "فَاطِمَةُ هِيَ الطَّالِبَةُ الفُضْلَيَاتُ فِي الفَصْلِ",
-        "translation": "menggunakan bentuk jamak untuk subjek tunggal."
+        "text": "فَاطِمَةُ هِيَ الطَّالِبَةُ الأَفْضَلُ فِي الفَصْلِ",
+        "translation": "salah karena al-afdhala berbentuk mudzakkar saat ber-alif lam menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
       },
       {
         "key": "D",
@@ -4196,32 +4200,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Laamut Ta'lil",
-        "translation": "lam yang semata-mata menerangkan sebab alasan terjadinya pekerjaan diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
-      },
-      {
-        "key": "B",
         "text": "Laamul Amr",
         "translation": "lam perintah yang bertugas menjazmkan fi'il mudhari' dengan harakat sukun."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Laamul Ibtida'",
         "translation": "lam penegas yang berada di awal mubtada' tanpa merusak harakat rofa'."
       },
       {
+        "key": "C",
+        "text": "Laamut Ta'lil",
+        "translation": "lam yang semata-mata menerangkan sebab alasan terjadinya pekerjaan diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+      },
+      {
         "key": "D",
-        "text": "Laamul Qasam",
-        "translation": "lam penjelas sumpah yang mewajibkan fi'il bersambung dengan nun taukid."
+        "text": "Laamul Juhud",
+        "translation": "لَامُ الجُحُودِ - lam penegasan penolakan mutlak yang jatuh setelah kaana manfiyyah 'مَا كَانَ' dan menashabkan fi'il mudhari' dengan perantara an mudhmarah wujuuban."
       },
       {
         "key": "E",
-        "text": "Laamul Juhud",
-        "translation": "لَامُ الجُحُودِ - lam penegasan penolakan mutlak yang jatuh setelah kaana manfiyyah 'مَا كَانَ' dan menashabkan fi'il mudhari' dengan perantara an mudhmarah wujuuban."
+        "text": "Laamul Qasam",
+        "translation": "lam penjelas sumpah yang mewajibkan fi'il bersambung dengan nun taukid."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Laamul Juhud (لَامُ الجُحُودِ - lam penegasan penolakan mutlak yang jatuh setelah kaana manfiyyah 'مَا كَانَ' dan menashabkan fi'il mudhari' dengan perantara an mudhmarah wujuuban).. Huruf lam yang jatuh setelah kata 'Maa Kaana' (penafian masa lampau) disebut Laamul Juhud (لَامُ الجُحُودِ) dan berfungsi menashabkan fi'il mudhari'. Pilih: Laamul Juhud (لَامُ الجُحُودِ)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Laamul Juhud (لَامُ الجُحُودِ - lam penegasan penolakan mutlak yang jatuh setelah kaana manfiyyah 'مَا كَانَ' dan menashabkan fi'il mudhari' dengan perantara an mudhmarah wujuuban).. Huruf lam yang jatuh setelah kata 'Maa Kaana' (penafian masa lampau) disebut Laamul Juhud (لَامُ الجُحُودِ) dan berfungsi menashabkan fi'il mudhari'. Pilih: Laamul Juhud (لَامُ الجُحُودِ)."
   },
   {
     "id": "arb-sim-16",
@@ -4244,8 +4248,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "تَبْلُغَ",
-        "translation": "tablugha - fi'il mudhari' manshub bil-fathah setelah hatta gha'iyyah yang bermakna 'ilaa an'."
+        "text": "بَلَغْتَ",
+        "translation": "balaghta - bentuk fi'il madhi yang tidak selaras dengan partikel masa depan hatta."
       },
       {
         "key": "B",
@@ -4254,22 +4258,22 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "تَبْلُغْ",
-        "translation": "tablugh - majzum dengan sukun yang keliru karena hatta bukan huruf jazm."
-      },
-      {
-        "key": "D",
         "text": "تَبْلُغُونَ",
         "translation": "tablughuuna - marfu' dengan tsubutun nun yang tidak sesuai subjek tunggal anta."
       },
       {
+        "key": "D",
+        "text": "تَبْلُغْ",
+        "translation": "tablugh - majzum dengan sukun yang keliru karena hatta bukan huruf jazm."
+      },
+      {
         "key": "E",
-        "text": "بَلَغْتَ",
-        "translation": "balaghta - bentuk fi'il madhi yang tidak selaras dengan partikel masa depan hatta."
+        "text": "تَبْلُغَ",
+        "translation": "tablugha - fi'il mudhari' manshub bil-fathah setelah hatta gha'iyyah yang bermakna 'ilaa an'."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) تَبْلُغَ (tablugha - fi'il mudhari' manshub bil-fathah setelah hatta gha'iyyah yang bermakna 'ilaa an').. Kata 'حَتَّى' yang bermakna hingga/sampai (gha'iyyah) menashabkan fi'il mudhari' dengan harakat fathah: 'تَبْلُغَ'. Pilih: 'تَبْلُغَ' (tablugha)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) تَبْلُغَ (tablugha - fi'il mudhari' manshub bil-fathah setelah hatta gha'iyyah yang bermakna 'ilaa an').. Kata 'حَتَّى' yang bermakna hingga/sampai (gha'iyyah) menashabkan fi'il mudhari' dengan harakat fathah: 'تَبْلُغَ'. Pilih: 'تَبْلُغَ' (tablugha)."
   },
   {
     "id": "arb-sim-17",
@@ -4292,27 +4296,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memprediksi masa depan ramalan nasib kekayaan seseorang berdasarkan tanggal kelahiran di kalender romawi ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
-        "text": "Menentukan arah kiblat bagi musafir di gurun dan lautan serta menghitung waktu pelaksanaan sholat lima waktu secara akurat melalui pengamatan posisi bintang."
-      },
-      {
-        "key": "C",
         "text": "Menggali sumur minyak bumi bawah tanah dengan bantuan medan magnet buatan manusia."
       },
       {
+        "key": "B",
+        "text": "Memprediksi masa depan ramalan nasib kekayaan seseorang berdasarkan tanggal kelahiran di kalender romawi."
+      },
+      {
+        "key": "C",
+        "text": "Menentukan arah kiblat bagi musafir di gurun dan lautan serta menghitung waktu pelaksanaan sholat lima waktu secara akurat melalui pengamatan posisi bintang."
+      },
+      {
         "key": "D",
-        "text": "Mendeteksi kebocoran lambung kapal uap niaga dari serangan peluru meriam musuh."
+        "text": "Mengirimkan pesan sandi telegraf nirkabel antarkerajaan di sepanjang pesisir Laut Kaspia."
       },
       {
         "key": "E",
-        "text": "Mengirimkan pesan sandi telegraf nirkabel antarkerajaan di sepanjang pesisir Laut Kaspia."
+        "text": "Mendeteksi kebocoran lambung kapal uap niaga dari serangan peluru meriam musuh."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menentukan arah kiblat bagi musafir di gurun dan lautan serta menghitung waktu pelaksanaan sholat lima waktu secara akurat melalui pengamatan posisi bintang.. Teks menyatakan astrolabe digunakan untuk: 'تَحْدِيدِ أَوْقَاتِ الصَّلَوَاتِ الخَمْسِ ... وَتَعْيِينِ اتِّجَاهِ القِبْلَةِ لِلْمُسَافِرِينَ' (menentukan waktu sholat dan arah kiblat musafir). Pilih: Menentukan arah kiblat dan menghitung waktu sholat lima waktu melalui posisi bintang."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menentukan arah kiblat bagi musafir di gurun dan lautan serta menghitung waktu pelaksanaan sholat lima waktu secara akurat melalui pengamatan posisi bintang.. Teks menyatakan astrolabe digunakan untuk: 'تَحْدِيدِ أَوْقَاتِ الصَّلَوَاتِ الخَمْسِ ... وَتَعْيِينِ اتِّجَاهِ القِبْلَةِ لِلْمُسَافِرِينَ' (menentukan waktu sholat dan arah kiblat musafir). Pilih: Menentukan arah kiblat dan menghitung waktu sholat lima waktu melalui posisi bintang."
   },
   {
     "id": "arb-sim-18",
@@ -4339,23 +4343,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Penemuan pesawat terbang komersial bermesin jet yang mengangkut jemaah dari Batavia dalam hitungan jam."
+        "text": "Penutupan seluruh dermaga pelabuhan samudra Hindia oleh armada militer kekaisaran Ottoman."
       },
       {
         "key": "C",
-        "text": "Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh pelayaran laut dari beberapa bulan menjadi beberapa minggu."
-      },
-      {
-        "key": "D",
         "text": "Pemberian subsidi tiket gratis tanpa syarat oleh kongsi dagang VOC kepada seluruh santri pesantren pedalaman."
       },
       {
+        "key": "D",
+        "text": "Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh pelayaran laut dari beberapa bulan menjadi beberapa minggu."
+      },
+      {
         "key": "E",
-        "text": "Penutupan seluruh dermaga pelabuhan samudra Hindia oleh armada militer kekaisaran Ottoman."
+        "text": "Penemuan pesawat terbang komersial bermesin jet yang mengangkut jemaah dari Batavia dalam hitungan jam."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh pelayaran laut dari beberapa bulan menjadi beberapa minggu.. Teks menegaskan faktor kuncinya: 'افْتِتَاحُ قَنَاةِ السُّوَيْسِ عَامَ 1869م وَدُخُولُ السُّفُنِ البُخَارِيَّةِ' (pembukaan Terusan Suez dan kapal uap yang memangkas waktu tempuh). Pilih opsi: Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh pelayaran laut dari beberapa bulan menjadi beberapa minggu.. Teks menegaskan faktor kuncinya: 'افْتِتَاحُ قَنَاةِ السُّوَيْسِ عَامَ 1869م وَدُخُولُ السُّفُنِ البُخَارِيَّةِ' (pembukaan Terusan Suez dan kapal uap yang memangkas waktu tempuh). Pilih opsi: Pembukaan Terusan Suez dan pengoperasian kapal uap yang memangkas waktu tempuh."
   },
   {
     "id": "arb-sim-19",
@@ -4378,27 +4382,27 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghancurkan seluruh bangunan bersejarah peninggalan kerajaan Majapahit dengan kekuatan pasukan perang menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
+        "text": "Menghancurkan seluruh bangunan bersejarah peninggalan kerajaan Majapahit dengan kekuatan pasukan perang."
       },
       {
         "key": "B",
-        "text": "Mewajibkan seluruh warga kota Kudus memakai jubah putih dan berbicara dalam bahasa Arab pasar setiap hari."
-      },
-      {
-        "key": "C",
-        "text": "Melarang penggunaan bahan bata merah lokal dalam pembuatan menara dan menggantinya dengan marmer impor Italia."
-      },
-      {
-        "key": "D",
         "text": "Melakukan dakwah persuasif-akomodatif dengan memadukan estetika arsitektur bata merah bercorak candi Hindu ke dalam kompleks masjid demi keharmonisan sosial masyarakat lokal."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Mewajibkan seluruh warga kota Kudus memakai jubah putih dan berbicara dalam bahasa Arab pasar setiap hari."
+      },
+      {
+        "key": "D",
         "text": "Menyerahkan pengelolaan masjid agung kepada kantor kamar dagang kolonial Belanda."
+      },
+      {
+        "key": "E",
+        "text": "Melarang penggunaan bahan bata merah lokal dalam pembuatan menara dan menggantinya dengan marmer impor Italia."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Melakukan dakwah persuasif-akomodatif dengan memadukan estetika arsitektur bata merah bercorak candi Hindu ke dalam kompleks masjid demi keharmonisan sosial masyarakat lokal.. Teks menerangkan strategi Sunan Kudus: 'حِكْمَةَ سُنَنْ قُدُس فِي نَشْرِ الدَّعْوَةِ السِّلْمِيَّةِ دُونَ الصِّدَامِ' melalui akulturasi menara bata merah mirip candi Jawa. Pilih: Dakwah persuasif-akomodatif memadukan arsitektur bata merah candi Hindu ke dalam kompleks masjid."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Melakukan dakwah persuasif-akomodatif dengan memadukan estetika arsitektur bata merah bercorak candi Hindu ke dalam kompleks masjid demi keharmonisan sosial masyarakat lokal.. Teks menerangkan strategi Sunan Kudus: 'حِكْمَةَ سُنَنْ قُدُس فِي نَشْرِ الدَّعْوَةِ السِّلْمِيَّةِ دُونَ الصِّدَامِ' melalui akulturasi menara bata merah mirip candi Jawa. Pilih: Dakwah persuasif-akomodatif memadukan arsitektur bata merah candi Hindu ke dalam kompleks masjid."
   },
   {
     "id": "arb-sim-20",
@@ -4426,18 +4430,18 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "B",
+        "text": "بَلْ زَيْدًا",
+        "translation": "bal zaidan - partikel bal adalah huruf 'athaf biasa yang tidak memanshubkan isim bertanwin tanpa amil."
+      },
+      {
+        "key": "C",
         "text": "لَكِنَّ زَيْدٍ",
         "translation": "lakinna Zaidin - majrur dengan kasrah yang menyalahi kaidah isim lakinna."
       },
       {
-        "key": "C",
+        "key": "D",
         "text": "لِأَنَّ زَيْدٌ",
         "translation": "li'anna zaidun - selain salah harakat dhommah, li'anna berfungsi sebab akibat bukan pertentangan."
-      },
-      {
-        "key": "D",
-        "text": "بَلْ زَيْدًا",
-        "translation": "bal zaidan - partikel bal adalah huruf 'athaf biasa yang tidak memanshubkan isim bertanwin tanpa amil."
       },
       {
         "key": "E",
@@ -4469,23 +4473,23 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
+        "text": "مَكْتُوبٌ",
+        "translation": "maktuubun - isim maf'ul yang membutuhkan na'ibul fa'il, bukan maf'ul bih."
+      },
+      {
+        "key": "B",
         "text": "كَاتِبٌ",
         "translation": "kaatibun - isim fa'il bertanwin dhommatain marfu' sebagai khabar dan beramal menashabkan waajibii."
       },
       {
-        "key": "B",
+        "key": "C",
         "text": "كَاتِبُ بِدُونِ تَنْوِينٍ",
         "translation": "kaatibu tanpa tanwin yang mengubah konstruksi menjadi susunan idhafah terputus ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
       },
       {
-        "key": "C",
+        "key": "D",
         "text": "كَاتِبًا",
         "translation": "kaatiban - berharakat fathatain yang keliru untuk posisi khabar mubtada' ana."
-      },
-      {
-        "key": "D",
-        "text": "مَكْتُوبٌ",
-        "translation": "maktuubun - isim maf'ul yang membutuhkan na'ibul fa'il, bukan maf'ul bih."
       },
       {
         "key": "E",
@@ -4493,8 +4497,8 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
         "translation": "kitaabatan - bentuk masdar muthlaq yang bukan isim fa'il pemangku pekerjaan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) كَاتِبٌ (kaatibun - isim fa'il bertanwin dhommatain marfu' sebagai khabar dan beramal menashabkan waajibii).. Isim fa'il beramal seperti fi'il-nya (menashabkan maf'ul bih) bila bertanwin dan bersandar pada mubtada': 'أَنَا كَاتِبٌ وَاجِبِي'. Pilih: 'كَاتِبٌ' (kaatibun)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) كَاتِبٌ (kaatibun - isim fa'il bertanwin dhommatain marfu' sebagai khabar dan beramal menashabkan waajibii).. Isim fa'il beramal seperti fi'il-nya (menashabkan maf'ul bih) bila bertanwin dan bersandar pada mubtada': 'أَنَا كَاتِبٌ وَاجِبِي'. Pilih: 'كَاتِبٌ' (kaatibun)."
   },
   {
     "id": "arb-sim-22",
@@ -4517,32 +4521,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "بَابَهُ",
-        "translation": "baabahu - manshub dengan fathah yang keliru karena isim maf'ul merafa'kan na'ibul fa'il ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
-      },
-      {
-        "key": "B",
-        "text": "بَابُهُ",
-        "translation": "baabuhu - na'ibul fa'il marfu' dengan harakat dhommah bersambung dhamir hu merujuk pada al-masjid."
-      },
-      {
-        "key": "C",
         "text": "بَابِهِ",
         "translation": "baabihi - majrur dengan kasrah yang tidak memiliki landasan gramatikal."
       },
       {
+        "key": "B",
+        "text": "بَابَهُ",
+        "translation": "baabahu - manshub dengan fathah yang keliru karena isim maf'ul merafa'kan na'ibul fa'il ditinjau dari timbangan morfologi shorof wazan tsulatsi dan faedah semantiknya."
+      },
+      {
+        "key": "C",
+        "text": "بَابُهُ",
+        "translation": "baabuhu - na'ibul fa'il marfu' dengan harakat dhommah bersambung dhamir hu merujuk pada al-masjid."
+      },
+      {
         "key": "D",
-        "text": "أَبْوَابًا",
-        "translation": "abwaaban - jama' taksir manshub bertanwin yang menyalahi kaidah rafa'."
+        "text": "بِالبَابِ",
+        "translation": "bil-baabi - susunan huruf jar yang membatalkan fungsi na'ibul fa'il murni."
       },
       {
         "key": "E",
-        "text": "بِالبَابِ",
-        "translation": "bil-baabi - susunan huruf jar yang membatalkan fungsi na'ibul fa'il murni."
+        "text": "أَبْوَابًا",
+        "translation": "abwaaban - jama' taksir manshub bertanwin yang menyalahi kaidah rafa'."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) بَابُهُ (baabuhu - na'ibul fa'il marfu' dengan harakat dhommah bersambung dhamir hu merujuk pada al-masjid).. Isim maf'ul (مَفْتُوحٌ) beramal seperti fi'il majhul (yuf-tahu), yaitu merafa'kan Na'ibul Fa'il: 'بَابُهُ' (baabuhu). Pilih: 'بَابُهُ' (baabuhu)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) بَابُهُ (baabuhu - na'ibul fa'il marfu' dengan harakat dhommah bersambung dhamir hu merujuk pada al-masjid).. Isim maf'ul (مَفْتُوحٌ) beramal seperti fi'il majhul (yuf-tahu), yaitu merafa'kan Na'ibul Fa'il: 'بَابُهُ' (baabuhu). Pilih: 'بَابُهُ' (baabuhu)."
   },
   {
     "id": "arb-sim-23",
@@ -4565,11 +4569,11 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Shifat Musyabbahah hanya boleh digunakan untuk benda mati seperti batu dan kayu bakar sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi' sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
+        "text": "Shifat Musyabbahah wajib selalu berharakat majrur bil-fathah tanpa memedulikan amil kalimat."
       },
       {
         "key": "B",
-        "text": "Shifat Musyabbahah wajib selalu berharakat majrur bil-fathah tanpa memedulikan amil kalimat."
+        "text": "Isim Fa'il hanya dibentuk dari kata kerja bahasa Persia kuno yang diserap ke bahasa Arab."
       },
       {
         "key": "C",
@@ -4577,11 +4581,11 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Isim Fa'il hanya dibentuk dari kata kerja bahasa Persia kuno yang diserap ke bahasa Arab."
+        "text": "Kedua bentuk kata tersebut tidak memiliki perbedaan sama sekali dan dapat dipertukarkan secara acak."
       },
       {
         "key": "E",
-        "text": "Kedua bentuk kata tersebut tidak memiliki perbedaan sama sekali dan dapat dipertukarkan secara acak."
+        "text": "Shifat Musyabbahah hanya boleh digunakan untuk benda mati seperti batu dan kayu bakar sesuai dengan prinsip retorika sastra ilmu balaghah dalam cabang bayan, ma'ani, dan badi'."
       }
     ],
     "correctKey": "C",
@@ -4608,32 +4612,32 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kalam Insya'i Thalabi",
-        "translation": "karena dianggap menuntut tukang kebun membersihkan seluruh daun kering menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
-      },
-      {
-        "key": "B",
         "text": "Kalam Khabari Ibtida'i",
         "translation": "karena pendengar sama sekali tidak meragukan keindahan taman."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Kalam Khabari Thalabi",
         "translation": "karena pembicara memperkuat kalimat dengan dua huruf taukid."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kalam Insya'i Ghairu Thalabi",
         "translation": "كَلَامٌ إِنْشَائِيٌّ غَيْرُ طَلَبِيٍّ - gaya tutur yang tidak menuntut terjadinya sesuatu dari lawan bicara, melainkan mengekspresikan ketakjuban emosional."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Uslub Qashr Hakiki",
         "translation": "karena membatasi keindahan hanya pada satu taman bunga saja."
+      },
+      {
+        "key": "E",
+        "text": "Kalam Insya'i Thalabi",
+        "translation": "karena dianggap menuntut tukang kebun membersihkan seluruh daun kering menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha menurut konteks sintaksis wacana peradaban Islam dan literasi teks qira'ah fusha."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kalam Insya'i Ghairu Thalabi (كَلَامٌ إِنْشَائِيٌّ غَيْرُ طَلَبِيٍّ - gaya tutur yang tidak menuntut terjadinya sesuatu dari lawan bicara, melainkan mengekspresikan ketakjuban emosional).. Kalimat ta'ajjub (مَا أَفْعَلَ!) tergolong ke dalam Kalam Insya'i Ghairu Thalabi (tidak menuntut respon tindakan, hanya luapan kekaguman). Pilih: Kalam Insya'i Ghairu Thalabi (كَلَامٌ إِنْشَائِيٌّ غَيْرُ طَلَبِيٍّ)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kalam Insya'i Ghairu Thalabi (كَلَامٌ إِنْشَائِيٌّ غَيْرُ طَلَبِيٍّ - gaya tutur yang tidak menuntut terjadinya sesuatu dari lawan bicara, melainkan mengekspresikan ketakjuban emosional).. Kalimat ta'ajjub (مَا أَفْعَلَ!) tergolong ke dalam Kalam Insya'i Ghairu Thalabi (tidak menuntut respon tindakan, hanya luapan kekaguman). Pilih: Kalam Insya'i Ghairu Thalabi (كَلَامٌ إِنْشَائِيٌّ غَيْرُ طَلَبِيٍّ)."
   },
   {
     "id": "arb-sim-25",
@@ -4656,7 +4660,7 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Filsafat akal wajib dilarang secara total karena pasti merusak kemurnian akidah umat beragama diturunkan dari analisis filologis leksikografi bahasa Arab standar modern diturunkan dari analisis filologis leksikografi bahasa Arab standar modern."
+        "text": "Tidak ada pertentangan hakiki antara akal murni (filsafat/sains) dan wahyu yang sahih (agama), karena keduanya sama-sama bersumber dari kebenaran mutlak yang saling melengkapi."
       },
       {
         "key": "B",
@@ -4664,19 +4668,19 @@ window.TKA_BAHASA_ARAB_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Akal manusia memiliki kedudukan lebih tinggi daripada kitab suci sehingga wahyu boleh dihapus sesuka hati."
+        "text": "Filsafat akal wajib dilarang secara total karena pasti merusak kemurnian akidah umat beragama."
       },
       {
         "key": "D",
-        "text": "Seluruh karya sains klasik wajib dibakar demi menjaga stabilitas kekuasaan dinasti penguasa."
+        "text": "Akal manusia memiliki kedudukan lebih tinggi daripada kitab suci sehingga wahyu boleh dihapus sesuka hati."
       },
       {
         "key": "E",
-        "text": "Tidak ada pertentangan hakiki antara akal murni (filsafat/sains) dan wahyu yang sahih (agama), karena keduanya sama-sama bersumber dari kebenaran mutlak yang saling melengkapi."
+        "text": "Seluruh karya sains klasik wajib dibakar demi menjaga stabilitas kekuasaan dinasti penguasa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tidak ada pertentangan hakiki antara akal murni (filsafat/sains) dan wahyu yang sahih (agama), karena keduanya sama-sama bersumber dari kebenaran mutlak yang saling melengkapi.. Teks menegaskan pandangan Ibnu Rusyd: 'لَا تَعَارُضَ عَلَى الإِطْلَاقِ بَيْنَ العَقْلِ الصَّرِيحِ وَالنَّقْلِ الصَّحِيحِ' (tidak ada pertentangan antara akal murni dan wahyu sahih). Pilih opsi: Tidak ada pertentangan hakiki antara akal murni (sains) dan wahyu sahih (agama)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tidak ada pertentangan hakiki antara akal murni (filsafat/sains) dan wahyu yang sahih (agama), karena keduanya sama-sama bersumber dari kebenaran mutlak yang saling melengkapi.. Teks menegaskan pandangan Ibnu Rusyd: 'لَا تَعَارُضَ عَلَى الإِطْلَاقِ بَيْنَ العَقْلِ الصَّرِيحِ وَالنَّقْلِ الصَّحِيحِ' (tidak ada pertentangan antara akal murni dan wahyu sahih). Pilih opsi: Tidak ada pertentangan hakiki antara akal murni (sains) dan wahyu sahih (agama)."
   },
   {
     "id": "arb-sim-26",

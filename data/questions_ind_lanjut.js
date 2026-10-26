@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_IND_LANJUT_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_IND_LANJUT_QUESTIONS = [
   {
     "id": "ind_lanjut-lat-e-01",
@@ -11,26 +17,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
-      },
-      {
-        "key": "B",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
-      },
-      {
-        "key": "C",
         "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+      },
+      {
+        "key": "D",
         "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+      },
+      {
+        "key": "E",
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -40,7 +46,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -55,7 +61,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "B",
@@ -71,10 +77,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -84,7 +90,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -99,26 +105,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
-      },
-      {
-        "key": "B",
         "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
-        "key": "C",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "key": "B",
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
+        "key": "D",
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+      },
+      {
         "key": "E",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -128,7 +134,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -147,7 +153,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "C",
@@ -155,14 +161,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "E",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -172,7 +178,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -199,11 +205,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "E",
-        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       }
     ],
     "correctKey": "B",
@@ -231,26 +237,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
-      },
-      {
-        "key": "B",
-        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
-      },
-      {
-        "key": "C",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
-      },
-      {
-        "key": "D",
         "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+      },
+      {
+        "key": "C",
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
+      },
+      {
+        "key": "D",
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
+      },
+      {
+        "key": "E",
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -260,7 +266,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -275,15 +281,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
-      },
-      {
-        "key": "B",
         "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
+        "key": "B",
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+      },
+      {
         "key": "C",
-        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "D",
@@ -291,7 +297,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       }
     ],
     "correctKey": "D",
@@ -319,26 +325,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "B",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
-      },
-      {
-        "key": "C",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
-      },
-      {
-        "key": "D",
         "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
+        "key": "C",
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+      },
+      {
+        "key": "D",
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+      },
+      {
         "key": "E",
-        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -348,7 +354,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -363,15 +369,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
-      },
-      {
-        "key": "B",
         "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
+        "key": "B",
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
+      },
+      {
         "key": "C",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "D",
@@ -379,7 +385,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       }
     ],
     "correctKey": "D",
@@ -407,26 +413,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
-      },
-      {
-        "key": "B",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
-      },
-      {
-        "key": "C",
         "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+      },
+      {
+        "key": "C",
         "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
+        "key": "D",
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+      },
+      {
         "key": "E",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -436,7 +442,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -451,26 +457,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "B",
-        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
-      },
-      {
-        "key": "C",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
-      },
-      {
-        "key": "D",
         "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
+        "key": "C",
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
+      },
+      {
+        "key": "D",
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+      },
+      {
         "key": "E",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -480,7 +486,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -499,22 +505,22 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "D",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "E",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -524,7 +530,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -539,26 +545,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
-      },
-      {
-        "key": "B",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
-      },
-      {
-        "key": "C",
         "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
+        "key": "B",
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+      },
+      {
+        "key": "C",
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+      },
+      {
         "key": "D",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "E",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -568,7 +574,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -583,26 +589,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
-      },
-      {
-        "key": "B",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
-      },
-      {
-        "key": "C",
         "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+      },
+      {
+        "key": "D",
         "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+      },
+      {
+        "key": "E",
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -612,7 +618,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -627,26 +633,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
-      },
-      {
-        "key": "B",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
-      },
-      {
-        "key": "C",
         "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+      },
+      {
+        "key": "C",
         "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+      },
+      {
+        "key": "D",
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "E",
         "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -656,7 +662,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -671,26 +677,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
-      },
-      {
-        "key": "B",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
-      },
-      {
-        "key": "C",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
-      },
-      {
-        "key": "D",
         "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+      },
+      {
+        "key": "C",
         "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
+      },
+      {
+        "key": "D",
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+      },
+      {
+        "key": "E",
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -700,7 +706,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -715,7 +721,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "B",
@@ -723,18 +729,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "D",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "E",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -744,7 +750,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -759,26 +765,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
-      },
-      {
-        "key": "B",
         "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
+        "key": "B",
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
+      },
+      {
         "key": "C",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "D",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "E",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -788,7 +794,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -803,7 +809,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "B",
@@ -811,18 +817,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
-      },
-      {
-        "key": "D",
         "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
+      },
+      {
+        "key": "E",
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -832,7 +838,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -847,26 +853,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
-      },
-      {
-        "key": "B",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
-      },
-      {
-        "key": "C",
-        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
-      },
-      {
-        "key": "D",
         "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
+      },
+      {
+        "key": "C",
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+      },
+      {
+        "key": "D",
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+      },
+      {
+        "key": "E",
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -876,7 +882,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -891,26 +897,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "B",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
-      },
-      {
-        "key": "C",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
-      },
-      {
-        "key": "D",
         "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
+        "key": "C",
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+      },
+      {
+        "key": "D",
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+      },
+      {
         "key": "E",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -920,7 +926,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -935,26 +941,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
-      },
-      {
-        "key": "B",
         "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
-        "key": "C",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "key": "B",
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
+        "key": "D",
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+      },
+      {
         "key": "E",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -964,7 +970,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -979,11 +985,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "B",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "C",
@@ -991,14 +997,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "E",
-        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1008,7 +1014,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1023,15 +1029,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
-      },
-      {
-        "key": "B",
         "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+      },
+      {
+        "key": "C",
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "D",
@@ -1039,10 +1045,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1052,7 +1058,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1067,26 +1073,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
-      },
-      {
-        "key": "B",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
-      },
-      {
-        "key": "C",
         "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+      },
+      {
+        "key": "D",
         "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+      },
+      {
+        "key": "E",
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1096,7 +1102,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1111,26 +1117,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
-      },
-      {
-        "key": "B",
         "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
+        "key": "B",
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
+      },
+      {
         "key": "C",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "D",
-        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "E",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1140,7 +1146,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1163,7 +1169,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "D",
@@ -1171,7 +1177,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       }
     ],
     "correctKey": "B",
@@ -1199,26 +1205,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
-      },
-      {
-        "key": "B",
         "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
+        "key": "B",
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+      },
+      {
         "key": "C",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "D",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "E",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1228,7 +1234,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1243,15 +1249,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
-      },
-      {
-        "key": "B",
         "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
+      },
+      {
+        "key": "C",
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
         "key": "D",
@@ -1259,10 +1265,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1272,7 +1278,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1287,26 +1293,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
-      },
-      {
-        "key": "B",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
-      },
-      {
-        "key": "C",
         "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+      },
+      {
+        "key": "C",
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
+      },
+      {
+        "key": "D",
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "E",
         "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1316,7 +1322,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1331,26 +1337,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
-      },
-      {
-        "key": "B",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
-      },
-      {
-        "key": "C",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
-      },
-      {
-        "key": "D",
         "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+      },
+      {
+        "key": "C",
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
+      },
+      {
+        "key": "D",
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+      },
+      {
+        "key": "E",
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1360,7 +1366,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1375,7 +1381,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "B",
@@ -1383,18 +1389,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
         "key": "D",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "E",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1404,7 +1410,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1419,26 +1425,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
-      },
-      {
-        "key": "B",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
-      },
-      {
-        "key": "C",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
-      },
-      {
-        "key": "D",
         "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+      },
+      {
+        "key": "C",
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
+      },
+      {
+        "key": "D",
         "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+      },
+      {
+        "key": "E",
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1448,7 +1454,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1463,26 +1469,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
-      },
-      {
-        "key": "B",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
-      },
-      {
-        "key": "C",
-        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
-      },
-      {
-        "key": "D",
         "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+      },
+      {
+        "key": "C",
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
+      },
+      {
+        "key": "D",
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+      },
+      {
+        "key": "E",
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1492,7 +1498,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1507,11 +1513,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "B",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "C",
@@ -1519,14 +1525,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "E",
-        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1536,7 +1542,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1551,7 +1557,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "B",
@@ -1567,7 +1573,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       }
     ],
     "correctKey": "D",
@@ -1595,26 +1601,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "B",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
-      },
-      {
-        "key": "C",
         "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
+        "key": "D",
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+      },
+      {
         "key": "E",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1624,7 +1630,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1639,26 +1645,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "B",
-        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
-      },
-      {
-        "key": "C",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
-      },
-      {
-        "key": "D",
         "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
+        "key": "C",
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+      },
+      {
+        "key": "D",
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+      },
+      {
         "key": "E",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1668,7 +1674,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1683,7 +1689,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "B",
@@ -1691,18 +1697,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "D",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
         "key": "E",
-        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1712,7 +1718,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1731,19 +1737,19 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "C",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
-      },
-      {
-        "key": "D",
         "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
+        "key": "D",
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+      },
+      {
         "key": "E",
-        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       }
     ],
     "correctKey": "A",
@@ -1775,22 +1781,22 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "C",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
-      },
-      {
-        "key": "D",
         "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
+        "key": "D",
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+      },
+      {
         "key": "E",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1800,7 +1806,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1815,15 +1821,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
-      },
-      {
-        "key": "B",
         "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
+        "key": "B",
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+      },
+      {
         "key": "C",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "D",
@@ -1831,10 +1837,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1844,7 +1850,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1859,7 +1865,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "B",
@@ -1867,11 +1873,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "D",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "E",
@@ -1903,26 +1909,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
         "key": "B",
-        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
         "key": "C",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
         "key": "D",
-        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "E",
         "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1932,7 +1938,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -1951,11 +1957,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "C",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "D",
@@ -1963,10 +1969,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -1976,7 +1982,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2003,14 +2009,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "E",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2020,7 +2026,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2035,19 +2041,19 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
-      },
-      {
-        "key": "B",
         "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+      },
+      {
+        "key": "D",
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "E",
@@ -2079,26 +2085,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
-      },
-      {
-        "key": "B",
         "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
+        "key": "B",
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+      },
+      {
         "key": "C",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
         "key": "D",
-        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "E",
         "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2108,7 +2114,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2123,26 +2129,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
-      },
-      {
-        "key": "B",
         "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
-        "key": "C",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "key": "B",
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
+      },
+      {
+        "key": "E",
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2152,7 +2158,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2171,7 +2177,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
         "key": "C",
@@ -2179,14 +2185,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "E",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2196,7 +2202,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2211,26 +2217,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
-      },
-      {
-        "key": "B",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
-      },
-      {
-        "key": "C",
         "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
+      },
+      {
+        "key": "D",
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+      },
+      {
+        "key": "E",
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2240,7 +2246,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2255,7 +2261,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
         "key": "B",
@@ -2263,18 +2269,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
-      },
-      {
-        "key": "D",
         "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
+        "key": "D",
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+      },
+      {
         "key": "E",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2284,7 +2290,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2299,11 +2305,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "B",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "C",
@@ -2311,7 +2317,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "E",
@@ -2355,11 +2361,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
         "key": "E",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       }
     ],
     "correctKey": "A",
@@ -2387,11 +2393,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
         "key": "B",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "C",
@@ -2399,11 +2405,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
         "key": "E",
-        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       }
     ],
     "correctKey": "C",
@@ -2435,22 +2441,22 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "C",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "D",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "E",
         "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2460,7 +2466,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2475,11 +2481,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "B",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "C",
@@ -2523,15 +2529,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "C",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "D",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "E",
@@ -2563,11 +2569,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "B",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "C",
@@ -2575,14 +2581,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "E",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2592,7 +2598,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2607,11 +2613,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "B",
-        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
         "key": "C",
@@ -2623,7 +2629,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       }
     ],
     "correctKey": "D",
@@ -2655,7 +2661,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "C",
@@ -2663,14 +2669,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "E",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2680,7 +2686,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2695,11 +2701,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "B",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "C",
@@ -2711,10 +2717,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2724,7 +2730,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2739,26 +2745,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "B",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "C",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
-      },
-      {
-        "key": "D",
         "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
+        "key": "D",
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+      },
+      {
         "key": "E",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2768,7 +2774,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2783,26 +2789,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
-      },
-      {
-        "key": "B",
         "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
       },
       {
-        "key": "C",
-        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
+      },
+      {
+        "key": "D",
+        "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
+      },
+      {
+        "key": "E",
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2812,7 +2818,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2827,26 +2833,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
-      },
-      {
-        "key": "B",
         "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
+        "key": "B",
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+      },
+      {
         "key": "C",
-        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "D",
-        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "E",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+        "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2856,7 +2862,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2871,26 +2877,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
-      },
-      {
-        "key": "B",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
-      },
-      {
-        "key": "C",
         "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+      },
+      {
+        "key": "D",
         "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
+      },
+      {
+        "key": "E",
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2900,7 +2906,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -2915,11 +2921,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "B",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       },
       {
         "key": "C",
@@ -2927,7 +2933,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "E",
@@ -2959,7 +2965,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       },
       {
         "key": "B",
@@ -2971,14 +2977,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "E",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -2988,7 +2994,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3003,26 +3009,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "B",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
-      },
-      {
-        "key": "C",
         "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
+        "key": "C",
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+      },
+      {
         "key": "D",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "E",
         "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3032,7 +3038,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3047,26 +3053,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
-      },
-      {
-        "key": "B",
         "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
-        "key": "C",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+        "key": "B",
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+      },
+      {
+        "key": "E",
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3076,7 +3082,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3091,7 +3097,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "B",
@@ -3099,15 +3105,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
-      },
-      {
-        "key": "D",
         "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
+        "key": "D",
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
+      },
+      {
         "key": "E",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       }
     ],
     "correctKey": "B",
@@ -3135,26 +3141,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
-      },
-      {
-        "key": "B",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
-      },
-      {
-        "key": "C",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
-      },
-      {
-        "key": "D",
         "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+      },
+      {
+        "key": "C",
         "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+      },
+      {
+        "key": "D",
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+      },
+      {
+        "key": "E",
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3164,7 +3170,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3179,26 +3185,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "B",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
-      },
-      {
-        "key": "C",
         "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
+        "key": "C",
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
+      },
+      {
         "key": "D",
-        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       },
       {
         "key": "E",
         "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3208,7 +3214,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3223,26 +3229,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
-      },
-      {
-        "key": "B",
         "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+      },
+      {
+        "key": "E",
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3252,7 +3258,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3267,15 +3273,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
-      },
-      {
-        "key": "B",
         "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
       },
       {
+        "key": "B",
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+      },
+      {
         "key": "C",
-        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "D",
@@ -3283,10 +3289,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3296,7 +3302,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false
   },
   {
@@ -3315,22 +3321,22 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "C",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "D",
-        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "E",
         "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3340,7 +3346,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3356,11 +3362,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "B",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "C",
@@ -3368,14 +3374,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
+        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
       },
       {
         "key": "E",
-        "text": "Kementerian Pertanian akan menghentikan seluruh program irigasi teknis di pedesaan."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3385,7 +3391,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3401,15 +3407,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
       },
       {
         "key": "B",
-        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       },
       {
         "key": "C",
-        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
+        "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
         "key": "D",
@@ -3417,10 +3423,10 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+        "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3430,7 +3436,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3446,26 +3452,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
-      },
-      {
-        "key": "B",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
-      },
-      {
-        "key": "C",
         "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
+      },
+      {
+        "key": "C",
         "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+      },
+      {
+        "key": "D",
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "E",
         "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3475,7 +3481,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3491,26 +3497,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
-      },
-      {
-        "key": "B",
         "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
       },
       {
-        "key": "C",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+        "key": "B",
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
+        "key": "D",
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
+      },
+      {
         "key": "E",
-        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3520,7 +3526,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (C)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3540,11 +3546,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       },
       {
         "key": "C",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+        "text": "Eksplosif dan lugas guna memobilisasi gelora patriotik rakyat secara langsung."
       },
       {
         "key": "D",
@@ -3555,7 +3561,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
         "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3565,7 +3571,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Diksi dan Estetika Puisi Angkatan 45 vs Angkatan 66 secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3581,11 +3587,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
       },
       {
         "key": "B",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
+        "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
       },
       {
         "key": "C",
@@ -3593,14 +3599,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       },
       {
         "key": "E",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+        "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3610,7 +3616,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3630,15 +3636,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
         "key": "C",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
       },
       {
         "key": "D",
-        "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "E",
@@ -3671,26 +3677,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "B",
-        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
-      },
-      {
-        "key": "C",
-        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
-      },
-      {
-        "key": "D",
         "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       },
       {
+        "key": "C",
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+      },
+      {
+        "key": "D",
+        "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
+      },
+      {
         "key": "E",
-        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
+        "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3700,7 +3706,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3716,26 +3722,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
-      },
-      {
-        "key": "B",
         "text": "Membuat alur cerita menjadi tidak logis dan membingungkan pembaca pemula."
       },
       {
+        "key": "B",
+        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+      },
+      {
         "key": "C",
-        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       },
       {
         "key": "D",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "E",
-        "text": "Menghentikan minat baca secara mendadak karena rahasia utama sudah terbongkar sejak awal."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3745,7 +3751,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3761,11 +3767,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "B",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "C",
@@ -3773,14 +3779,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       },
       {
         "key": "E",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+        "text": "Terdapat kesalahan ejaan berupa penulisan huruf kapital pada kata tugas penunjuk jabatan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3790,7 +3796,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (B)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3806,11 +3812,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
+        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
       },
       {
         "key": "B",
-        "text": "Pertanyaan yang diajukan dewan dianggap tidak relevan dengan tupoksi kementerian."
+        "text": "Pemerintah berhasil melipatgandakan produksi komoditas pangan hingga surplus ekspor."
       },
       {
         "key": "C",
@@ -3818,14 +3824,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
+        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
       },
       {
         "key": "E",
-        "text": "Target kemungkinan besar tidak tercapai akibat faktor cuaca ekstrem yang di luar kendali."
+        "text": "Menteri menolak memberikan keterangan resmi karena sedang menunggu audit independen."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3835,7 +3841,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Implikatur Percakapan dalam Sidang Kebijakan dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Implikatur Percakapan dalam Sidang Kebijakan secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3859,15 +3865,15 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
-      },
-      {
-        "key": "D",
         "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
+      },
+      {
+        "key": "E",
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
       }
     ],
     "correctKey": "A",
@@ -3896,7 +3902,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
+        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
         "key": "B",
@@ -3904,18 +3910,18 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       },
       {
         "key": "D",
-        "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
+        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
       },
       {
         "key": "E",
-        "text": "Kerap diasosiasikan secara stereotipikal dengan pelaku pelanggaran hukum atau etik korps."
+        "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3925,7 +3931,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Pergeseran Makna Peyorasi di Media Sosial dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Pergeseran Makna Peyorasi di Media Sosial secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3941,11 +3947,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       },
       {
         "key": "B",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
+        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
       },
       {
         "key": "C",
@@ -3953,14 +3959,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
+        "text": "Komisif (mengikat diri penutur untuk melakukan tindakan moral di masa depan)."
       },
       {
         "key": "E",
-        "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+        "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -3970,7 +3976,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3986,11 +3992,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
+        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
       },
       {
         "key": "B",
-        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
+        "text": "Simbolik kabur yang sengaja menghindari konfrontasi dengan sensor kolonial."
       },
       {
         "key": "C",
@@ -3998,11 +4004,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
+        "text": "Aristokratik dan elitis yang merefleksikan nilai-nilai feodalisme keraton lama."
       },
       {
         "key": "E",
-        "text": "Melankolis dan pasrah dalam meratapi penderitaan fisik akibat agresi militer asing."
+        "text": "Birokratis kaku yang meniru surat-surat dinas resmi pemerintahan pendudukan."
       }
     ],
     "correctKey": "C",
@@ -4031,26 +4037,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
-      },
-      {
-        "key": "B",
-        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
-      },
-      {
-        "key": "C",
-        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
-      },
-      {
-        "key": "D",
         "text": "Menyajikan kronologi hukum peradilan formal tanpa melibatkan konflik psikologis tokoh."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Membenarkan tindak pidana korupsi sebagai kewajaran sosiologis di negara berkembang."
+      },
+      {
+        "key": "C",
         "text": "Menggugat polarisasi biner antara kebaikan mutlak dan kejahatan absolut dalam fiksi."
+      },
+      {
+        "key": "D",
+        "text": "Menghilangkan fungsi didaktis karya sastra demi sensasi estetika bentuk semata."
+      },
+      {
+        "key": "E",
+        "text": "Mengurangi empati pembaca terhadap penderitaan para korban tindak korupsi struktural."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4060,7 +4066,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekonstruksi Tokoh Antagonis dalam Cerpen Realis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (C) adalah jawaban yang tepat karena menguraikan esensi Dekonstruksi Tokoh Antagonis dalam Cerpen Realis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4076,26 +4082,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
+        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
       },
       {
         "key": "B",
-        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
+        "text": "Kesenjangan antara klaim orisinalitas tematik dan eksekusi struktural narasi novel."
       },
       {
         "key": "C",
-        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
-      },
-      {
-        "key": "D",
         "text": "Ketidaksesuaian harga jual buku dengan daya beli umum target pembaca usia muda."
       },
       {
+        "key": "D",
+        "text": "Pelanggaran norma kesusilaan yang terkandung di dalam dialog antartokoh utama."
+      },
+      {
         "key": "E",
-        "text": "Kelemahan teknis percetakan dan tata letak sampul buku yang kurang memikat pembaca."
+        "text": "Kurangnya promosi pemasaran penerbit di media sosial dan platform toko buku daring."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4105,7 +4111,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Resensi Kritis dan Evaluasi Nilai Kebaruan Novel dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (A)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Resensi Kritis dan Evaluasi Nilai Kebaruan Novel secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4121,26 +4127,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
-      },
-      {
-        "key": "B",
-        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
-      },
-      {
-        "key": "C",
         "text": "Menunjukkan ketidakmampuan penulis naskah memahami fakta kronologi sejarah masa lampau."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menegaskan kontinuitas luka historis dan trauma psikologis yang melintasi zaman."
+      },
+      {
+        "key": "C",
+        "text": "Mempercepat durasi pementasan drama agar efisien dalam penggunaan anggaran teater."
+      },
+      {
+        "key": "D",
+        "text": "Menolak seluruh kaidah teater realisme demi kepuasan subjektif para pemain di panggung."
       },
       {
         "key": "E",
         "text": "Menghibur penonton melalui komedi situasi yang memparodikan leluhur bangsa nusantara."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4150,7 +4156,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Fungsi Alusi Sejarah dalam Drama Surealis dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (B) adalah jawaban yang tepat karena menguraikan esensi Fungsi Alusi Sejarah dalam Drama Surealis secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4166,7 +4172,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
+        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
       },
       {
         "key": "B",
@@ -4178,14 +4184,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
+        "text": "Menjadikan novel tersebut tergolong sebagai karya sastra populer non-kanonikal."
       },
       {
         "key": "E",
-        "text": "Menghapuskan konflik batin antartokoh sehingga cerita berakhir hambar tanpa klimaks."
+        "text": "Membangkitkan rasa iba dan ketegangan mendalam pada pembaca atas kesia-siaan perjuangan tokoh."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "TELAAH KRITIS: ANALISIS TEKS ARGUMENTASI & KRITIK SASTRA",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4195,7 +4201,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ironi Dramatis dalam Epilog Karya Prosa dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Ironi Dramatis dalam Epilog Karya Prosa secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4211,11 +4217,11 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
+        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
       },
       {
         "key": "B",
-        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
+        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
       },
       {
         "key": "C",
@@ -4223,14 +4229,14 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kata 'Baru' dapat menerangkan verba penyerahan ataupun menerangkan status kepegawaian."
+        "text": "Pilihan katanya terlalu teknis sehingga sulit dipahami oleh masyarakat pembaca awam."
       },
       {
         "key": "E",
-        "text": "Struktur kalimat tidak memuat kata kerja transitif yang menuntut objek penderita."
+        "text": "Kata 'Dugaan' tidak memenuhi syarat keabsahan pembuktian hukum materiil di kejaksaan."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4240,7 +4246,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Ambiguitas Gramatikal dalam Tajuk Rencana dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Ambiguitas Gramatikal dalam Tajuk Rencana secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4301,26 +4307,26 @@ window.TKA_IND_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
-      },
-      {
-        "key": "B",
-        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
-      },
-      {
-        "key": "C",
-        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
-      },
-      {
-        "key": "D",
         "text": "Hilangnya kontrol rasionalitas tindakan dan timbulnya reaksi fisik yang tidak beraturan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Kekhawatiran intelektual terhadap masa depan peradaban dunia yang bersifat abstrak."
+      },
+      {
+        "key": "C",
+        "text": "Kesedihan mendalam yang timbul akibat penyesalan atas keputusan masa lampau."
+      },
+      {
+        "key": "D",
+        "text": "Tingkat kekhawatiran jangka panjang yang berlangsung secara kronis berbulan-bulan."
+      },
+      {
+        "key": "E",
+        "text": "Rasa tidak nyaman ringan yang dapat diatasi sepenuhnya dengan istirahat sejenak."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4330,7 +4336,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Dekomposisi Medan Makna Leksikon Emosi dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (D)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (A) adalah jawaban yang tepat karena menguraikan esensi Dekomposisi Medan Makna Leksikon Emosi secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4350,19 +4356,19 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
-      },
-      {
-        "key": "C",
         "text": "Diserap secara keliru dari rumpun bahasa Austronesia purba oleh jurnalis kriminal."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Mengalami pertukaran persepsi indra dari tanggapan rabaan menuju tanggapan visual."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Kehilangan statusnya sebagai kata benda dalam tataran sintaksis bahasa Indonesia resmi."
+      },
+      {
+        "key": "E",
+        "text": "Maknanya meluas menjadi sebutan penghormatan bagi pejabat birokrasi pemerintahan."
       }
     ],
     "correctKey": "A",
@@ -4395,22 +4401,22 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
-      },
-      {
-        "key": "C",
-        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
-      },
-      {
-        "key": "D",
         "text": "Ekspresif (mengungkapkan perasaan psikologis senang atau sedih penutur kepada publik)."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Asertif (menyatakan kebenaran proposisi faktual yang dapat diuji empiris di lapangan)."
+      },
+      {
+        "key": "D",
         "text": "Deklarasi (menciptakan realitas status hukum baru secara serta-merta melalui perkataan)."
+      },
+      {
+        "key": "E",
+        "text": "Direktif (memerintahkan mitra tutur untuk melakukan sesuatu di luar kehendaknya)."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "TELAAH KRITIS: SEMANTIK & PRAGMATIK KONTEMPORER",
       "latex": "\\text{Kaidah Analisis} \\implies \\text{Struktur Proposisi} + \\text{Nuansa Semantik} + \\text{Koherensi Logis}",
@@ -4420,7 +4426,7 @@ window.TKA_IND_LANJUT_QUESTIONS = [
       "concept": "Pahami kaidah Tindak Tutur Deklaratif Pejabat Publik dalam menganalisis konstruksi wacana ilmiah.",
       "execution": "Analisis relasi antarpremis teks stimulus, lalu pilih opsi (E)."
     },
-    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (E) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
+    "explanation": "Berdasarkan telaah kaidah bahasa dan logika wacana, opsi (D) adalah jawaban yang tepat karena menguraikan esensi Tindak Tutur Deklaratif Pejabat Publik secara komprehensif tanpa kerancuan makna.",
     "isDiagnostic": false,
     "isSimulation": true
   },

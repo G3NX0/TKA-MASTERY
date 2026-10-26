@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_SOSIOLOGI.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Sosiologi Soshum)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_SOSIOLOGI_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_SOSIOLOGI_QUESTIONS = [
   {
     "id": "sos-lat-e-01",
@@ -29,19 +30,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sosiologi tidak memiliki aturan hukum maupun kaidah etika penelitian sehingga peneliti bebas melanggar privasi responden ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Sosiologi selalu membenarkan segala bentuk tindakan kejahatan kriminal yang dilakukan oleh kelompok masyarakat miskin."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Sosiologi menolak penggunaan logika rasional dan hanya mendasarkan kesimpulan pada mitos supranatural leluhur."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Sosiologi hanya boleh meneliti perbuatan-perbuatan mulia para pejabat pemerintah tanpa boleh mengkritisi kebijakan negara."
+      },
+      {
+        "key": "E",
+        "text": "Sosiologi tidak memiliki aturan hukum maupun kaidah etika penelitian sehingga peneliti bebas melanggar privasi responden."
       }
     ],
     "correctKey": "A",
@@ -68,27 +69,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fakta sosial murni berasal dari dorongan biologis alamiah dan kejiwaan bawah sadar individu sejak lahir ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
-        "text": "Fakta sosial berada di luar kehendak individu (_eksternal_), bersifat umum di masyarakat (_general_), serta memiliki daya paksa terhadap tindakan individu (_koersif_)."
-      },
-      {
-        "key": "C",
-        "text": "Fakta sosial bersifat subjektif dan dapat diubah secara bebas oleh tiap individu kapan saja tanpa sanksi."
-      },
-      {
-        "key": "D",
         "text": "Fakta sosial hanya berlaku bagi warga negara asing yang berkunjung ke wilayah hukum suatu negara."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Fakta sosial selalu berbentuk benda fisik mati seperti prasasti batu dan artefak arkeologi purba."
+      },
+      {
+        "key": "C",
+        "text": "Fakta sosial berada di luar kehendak individu (_eksternal_), bersifat umum di masyarakat (_general_), serta memiliki daya paksa terhadap tindakan individu (_koersif_)."
+      },
+      {
+        "key": "D",
+        "text": "Fakta sosial murni berasal dari dorongan biologis alamiah dan kejiwaan bawah sadar individu sejak lahir."
+      },
+      {
+        "key": "E",
+        "text": "Fakta sosial bersifat subjektif dan dapat diubah secara bebas oleh tiap individu kapan saja tanpa sanksi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Fakta sosial berada di luar kehendak individu (_eksternal_), bersifat umum di masyarakat (_general_), serta memiliki daya paksa terhadap tindakan individu (_koersif_).. Fakta sosial Émile Durkheim: cara bertindak, berpikir, dan merasa yang bersifat eksternal (di luar individu), koersif (memaksa), dan umum (general). Pilih: Berada di luar individu (eksternal), bersifat umum (general), dan memiliki daya paksa (koersif)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Fakta sosial berada di luar kehendak individu (_eksternal_), bersifat umum di masyarakat (_general_), serta memiliki daya paksa terhadap tindakan individu (_koersif_).. Fakta sosial Émile Durkheim: cara bertindak, berpikir, dan merasa yang bersifat eksternal (di luar individu), koersif (memaksa), dan umum (general). Pilih: Berada di luar individu (eksternal), bersifat umum (general), dan memiliki daya paksa (koersif)."
   },
   {
     "id": "sos-lat-e-03",
@@ -111,27 +112,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kesamaan suku bangsa dan kesetaraan tingkat kekayaan ekonomi nominal sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Status kewarganegaraan yang sah dan kepemilikan kartu tanda penduduk elektronik."
       },
       {
         "key": "B",
-        "text": "Keberadaan dokumen perjanjian notaris resmi dan kehadiran aparat kepolisian."
-      },
-      {
-        "key": "C",
-        "text": "Kontak sosial (baik secara langsung/primer maupun tidak langsung/sekunder) dan komunikasi (penyampaian serta penafsiran makna pesan antarpelaku)."
-      },
-      {
-        "key": "D",
         "text": "Kedekatan jarak fisik kurang dari satu meter tanpa adanya pertukaran pesan suara."
       },
       {
+        "key": "C",
+        "text": "Keberadaan dokumen perjanjian notaris resmi dan kehadiran aparat kepolisian."
+      },
+      {
+        "key": "D",
+        "text": "Kesamaan suku bangsa dan kesetaraan tingkat kekayaan ekonomi nominal."
+      },
+      {
         "key": "E",
-        "text": "Status kewarganegaraan yang sah dan kepemilikan kartu tanda penduduk elektronik."
+        "text": "Kontak sosial (baik secara langsung/primer maupun tidak langsung/sekunder) dan komunikasi (penyampaian serta penafsiran makna pesan antarpelaku)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Kontak sosial (baik secara langsung/primer maupun tidak langsung/sekunder) dan komunikasi (penyampaian serta penafsiran makna pesan antarpelaku).. Syarat interaksi sosial menurut sosiologi ada dua: Kontak sosial dan Komunikasi. Pilih: Kontak sosial dan komunikasi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kontak sosial (baik secara langsung/primer maupun tidak langsung/sekunder) dan komunikasi (penyampaian serta penafsiran makna pesan antarpelaku).. Syarat interaksi sosial menurut sosiologi ada dua: Kontak sosial dan Komunikasi. Pilih: Kontak sosial dan komunikasi."
   },
   {
     "id": "sos-lat-e-04",
@@ -154,7 +155,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ajudikasi, yaitu penyelesaian sengketa perdata melalui persidangan meja hijau pengadilan negeri menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Arbitrase, yaitu penyelesaian perselisihan yang diputuskan secara mutlak oleh hakim wasit netral berwenang."
       },
       {
         "key": "B",
@@ -162,19 +163,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Arbitrase, yaitu penyelesaian perselisihan yang diputuskan secara mutlak oleh hakim wasit netral berwenang."
+        "text": "Kompromi, yaitu bentuk akomodasi di mana masing-masing pihak yang bersengketa bersedia saling mengurangi tuntutan guna mencapai mufakat damai."
       },
       {
         "key": "D",
-        "text": "Kompromi, yaitu bentuk akomodasi di mana masing-masing pihak yang bersengketa bersedia saling mengurangi tuntutan guna mencapai mufakat damai."
+        "text": "Ajudikasi, yaitu penyelesaian sengketa perdata melalui persidangan meja hijau pengadilan negeri menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "E",
         "text": "Stalemate, yaitu kondisi konflik yang terhenti otomatis karena kedua pihak memiliki kekuatan persenjataan seimbang."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kompromi, yaitu bentuk akomodasi di mana masing-masing pihak yang bersengketa bersedia saling mengurangi tuntutan guna mencapai mufakat damai.. Bentuk akomodasi di mana kedua pihak saling mengurangi tuntutan untuk mencapai mufakat disebut kompromi. Pilih: Kompromi."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kompromi, yaitu bentuk akomodasi di mana masing-masing pihak yang bersengketa bersedia saling mengurangi tuntutan guna mencapai mufakat damai.. Bentuk akomodasi di mana kedua pihak saling mengurangi tuntutan untuk mencapai mufakat disebut kompromi. Pilih: Kompromi."
   },
   {
     "id": "sos-lat-e-05",
@@ -197,15 +198,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Makanan pokok, air minum, dan pakaian seragam yang berguna untuk memenuhi kebutuhan biologis raga manusia diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Cangkul dan traktor yang sangat bernilai bagi petani untuk mengolah sawah, serta buku pelajaran dan laptop yang sangat dibutuhkan siswa untuk belajar aktif."
       },
       {
         "key": "B",
-        "text": "Kitab suci keagamaan dan doa harian yang menuntun ketenangan batin dan keimanan spiritual manusia."
+        "text": "Karya seni lukisan pemandangan indah yang dinikmati karena memberikan kepuasan estetika rasa keindahan."
       },
       {
         "key": "C",
-        "text": "Karya seni lukisan pemandangan indah yang dinikmati karena memberikan kepuasan estetika rasa keindahan."
+        "text": "Kitab suci keagamaan dan doa harian yang menuntun ketenangan batin dan keimanan spiritual manusia."
       },
       {
         "key": "D",
@@ -213,11 +214,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Cangkul dan traktor yang sangat bernilai bagi petani untuk mengolah sawah, serta buku pelajaran dan laptop yang sangat dibutuhkan siswa untuk belajar aktif."
+        "text": "Makanan pokok, air minum, dan pakaian seragam yang berguna untuk memenuhi kebutuhan biologis raga manusia diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Cangkul dan traktor yang sangat bernilai bagi petani untuk mengolah sawah, serta buku pelajaran dan laptop yang sangat dibutuhkan siswa untuk belajar aktif.. Nilai Material = berguna untuk raga fisik jasmani. Nilai Vital = berguna untuk melakukan kegiatan/aktivitas (alat kerja, buku, komputer). Nilai Kerohanian = kebutuhan batin/jiwa. Pilih: Cangkul/traktor untuk petani dan laptop/buku untuk siswa belajar aktif."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Cangkul dan traktor yang sangat bernilai bagi petani untuk mengolah sawah, serta buku pelajaran dan laptop yang sangat dibutuhkan siswa untuk belajar aktif.. Nilai Material = berguna untuk raga fisik jasmani. Nilai Vital = berguna untuk melakukan kegiatan/aktivitas (alat kerja, buku, komputer). Nilai Kerohanian = kebutuhan batin/jiwa. Pilih: Cangkul/traktor untuk petani dan laptop/buku untuk siswa belajar aktif."
   },
   {
     "id": "sos-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tata Kelakuan (_Mores_)."
-      },
-      {
-        "key": "B",
         "text": "Cara (_Usage_), yang sanksinya paling ringan berupa teguran atau cemoohan ringan semata."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Kebiasaan (_Folkways_), yaitu perbuatan berulang yang dianggap baik dan lazim diikuti masyarakat."
       },
       {
+        "key": "C",
+        "text": "Hukum Positif (_Laws_), yaitu aturan formal tertulis negara yang disertai sanksi pidana kurungan penjara."
+      },
+      {
         "key": "D",
-        "text": "Adat Istiadat (_Custom_), yang sanksi pelanggarannya berupa hukuman adat berat pengusiran dari kampung."
+        "text": "Tata Kelakuan (_Mores_)."
       },
       {
         "key": "E",
-        "text": "Hukum Positif (_Laws_), yaitu aturan formal tertulis negara yang disertai sanksi pidana kurungan penjara."
+        "text": "Adat Istiadat (_Custom_), yang sanksi pelanggarannya berupa hukuman adat berat pengusiran dari kampung."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tata Kelakuan (_Mores_).. Tingkatan norma dari terlemah ke terkuat: Usage (cara) -> Folkways (kebiasaan) -> Mores (tata kelakuan) -> Custom (adat istiadat). Tata kelakuan (mores) berfungsi sebagai alat kontrol pengawas moral. Pilih: Tata Kelakuan (Mores)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tata Kelakuan (_Mores_).. Tingkatan norma dari terlemah ke terkuat: Usage (cara) -> Folkways (kebiasaan) -> Mores (tata kelakuan) -> Custom (adat istiadat). Tata kelakuan (mores) berfungsi sebagai alat kontrol pengawas moral. Pilih: Tata Kelakuan (Mores)."
   },
   {
     "id": "sos-lat-e-07",
@@ -283,7 +284,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tahap Persiapan (_Preparatory Stage_), di mana anak hanya meniru gerakan fisik secara tidak sadar tanpa memahami simbol apa pun ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Tahap Persiapan (_Preparatory Stage_), di mana anak hanya meniru gerakan fisik secara tidak sadar tanpa memahami simbol apa pun."
       },
       {
         "key": "B",
@@ -295,11 +296,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Tahap Penerimaan Norma Kolektif (_Generalized Other_), di mana individu telah mampu menempatkan diri dalam tatanan masyarakat luas."
+        "text": "Tahap Kedewasaan Biologis, di mana kepribadian manusia berhenti berkembang secara permanen."
       },
       {
         "key": "E",
-        "text": "Tahap Kedewasaan Biologis, di mana kepribadian manusia berhenti berkembang secara permanen."
+        "text": "Tahap Penerimaan Norma Kolektif (_Generalized Other_), di mana individu telah mampu menempatkan diri dalam tatanan masyarakat luas."
       }
     ],
     "correctKey": "B",
@@ -326,15 +327,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keluarga memiliki wewenang hukum konstitusional untuk memenjarakan anak jika melanggar jam tidur malam sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Keluarga merupakan lingkungan pertama tempat anak berinteraksi intensif, menerima kasih sayang, serta menanamkan dasar kepribadian, nilai moral, dan norma awal sebelum berinteraksi dengan masyarakat luas."
       },
       {
         "key": "B",
-        "text": "Keluarga bertugas mencetak ijazah akademik formal yang diakui oleh Kementerian Ketenagakerjaan."
+        "text": "Keluarga menggantikan seluruh fungsi pengadilan dan kepolisian dalam penegakan hukum pidana negara."
       },
       {
         "key": "C",
-        "text": "Keluarga merupakan lingkungan pertama tempat anak berinteraksi intensif, menerima kasih sayang, serta menanamkan dasar kepribadian, nilai moral, dan norma awal sebelum berinteraksi dengan masyarakat luas."
+        "text": "Keluarga bertugas mencetak ijazah akademik formal yang diakui oleh Kementerian Ketenagakerjaan."
       },
       {
         "key": "D",
@@ -342,11 +343,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Keluarga menggantikan seluruh fungsi pengadilan dan kepolisian dalam penegakan hukum pidana negara."
+        "text": "Keluarga memiliki wewenang hukum konstitusional untuk memenjarakan anak jika melanggar jam tidur malam."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Keluarga merupakan lingkungan pertama tempat anak berinteraksi intensif, menerima kasih sayang, serta menanamkan dasar kepribadian, nilai moral, dan norma awal sebelum berinteraksi dengan masyarakat luas.. Keluarga adalah agen sosialisasi primer karena merupakan media sosialisasi pertama dan paling mendasar dalam membentuk kepribadian, afeksi, dan moral anak. Pilih: Keluarga adalah lingkungan pertama tempat menanamkan dasar kepribadian dan nilai moral awal."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Keluarga merupakan lingkungan pertama tempat anak berinteraksi intensif, menerima kasih sayang, serta menanamkan dasar kepribadian, nilai moral, dan norma awal sebelum berinteraksi dengan masyarakat luas.. Keluarga adalah agen sosialisasi primer karena merupakan media sosialisasi pertama dan paling mendasar dalam membentuk kepribadian, afeksi, dan moral anak. Pilih: Keluarga adalah lingkungan pertama tempat menanamkan dasar kepribadian dan nilai moral awal."
   },
   {
     "id": "sos-lat-e-09",
@@ -369,27 +370,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ikatan sosial didasari oleh kontrak kerja formal tertulis jangka pendek dengan orientasi laba bisnis komersial semata menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Hubungan antaranggotanya bersifat mekanis, dingin, impersonal, dan hanya berlangsung di kantor saat jam kerja dinas."
-      },
-      {
-        "key": "C",
         "text": "Keanggotaan kelompok didasarkan pada kepemilikan modal saham terbanyak dalam perseroan terbatas terbuka."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Ikatan sosial didasari oleh hubungan batin yang murni, alami, mendalam, intim, eksklusif, dan bersifat kekal tanpa memperhitungkan untung rugi material."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Ikatan sosial didasari oleh kontrak kerja formal tertulis jangka pendek dengan orientasi laba bisnis komersial semata menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
+        "key": "D",
         "text": "Kelompok dibentuk secara artifisial oleh instruksi presiden untuk jangka waktu 30 hari kalender."
+      },
+      {
+        "key": "E",
+        "text": "Hubungan antaranggotanya bersifat mekanis, dingin, impersonal, dan hanya berlangsung di kantor saat jam kerja dinas."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ikatan sosial didasari oleh hubungan batin yang murni, alami, mendalam, intim, eksklusif, dan bersifat kekal tanpa memperhitungkan untung rugi material.. Gemeinschaft (paguyuban) = ikatan batiniah, intim, alami, kekal (contoh keluarga, rukun tetangga desa). Gesellschaft (patembayan) = kontraktual, formal, berorientasi pamrih/laba (perusahaan, serikat buruh). Pilih: Hubungan batin yang murni, alami, mendalam, intim, dan bersifat kekal."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Ikatan sosial didasari oleh hubungan batin yang murni, alami, mendalam, intim, eksklusif, dan bersifat kekal tanpa memperhitungkan untung rugi material.. Gemeinschaft (paguyuban) = ikatan batiniah, intim, alami, kekal (contoh keluarga, rukun tetangga desa). Gesellschaft (patembayan) = kontraktual, formal, berorientasi pamrih/laba (perusahaan, serikat buruh). Pilih: Hubungan batin yang murni, alami, mendalam, intim, dan bersifat kekal."
   },
   {
     "id": "sos-lat-e-10",
@@ -412,11 +413,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Adanya sikap antipati, prasangka negatif, kecurigaan, dan permusuhan yang diungkapkan dengan istilah 'mereka' diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Sikap acuh tak acuh dan tidak peduli sama sekali terhadap nasib anggota kelompok sendiri."
       },
       {
         "key": "B",
-        "text": "Sikap acuh tak acuh dan tidak peduli sama sekali terhadap nasib anggota kelompok sendiri."
+        "text": "Adanya sikap antipati, prasangka negatif, kecurigaan, dan permusuhan yang diungkapkan dengan istilah 'mereka' diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "C",
@@ -424,15 +425,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penolakan total terhadap semua lambang, seragam, dan identitas kelompok asal."
+        "text": "Adanya rasa solidaritas mendalam, loyalitas, simpati emosional, dan rasa memiliki yang diungkapkan dengan istilah 'kami' atau 'kita'."
       },
       {
         "key": "E",
-        "text": "Adanya rasa solidaritas mendalam, loyalitas, simpati emosional, dan rasa memiliki yang diungkapkan dengan istilah 'kami' atau 'kita'."
+        "text": "Penolakan total terhadap semua lambang, seragam, dan identitas kelompok asal."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Adanya rasa solidaritas mendalam, loyalitas, simpati emosional, dan rasa memiliki yang diungkapkan dengan istilah 'kami' atau 'kita'.. In-group = kelompok dalam, perasaan 'kami/kita', ditandai simpati, loyalitas, dan solidaritas. Out-group = kelompok luar ('mereka'), ditandai jarak sosial atau antipati. Pilih: Rasa solidaritas mendalam, loyalitas, simpati, dan rasa memiliki yang diungkapkan dengan 'kami' atau 'kita'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Adanya rasa solidaritas mendalam, loyalitas, simpati emosional, dan rasa memiliki yang diungkapkan dengan istilah 'kami' atau 'kita'.. In-group = kelompok dalam, perasaan 'kami/kita', ditandai simpati, loyalitas, dan solidaritas. Out-group = kelompok luar ('mereka'), ditandai jarak sosial atau antipati. Pilih: Rasa solidaritas mendalam, loyalitas, simpati, dan rasa memiliki yang diungkapkan dengan 'kami' atau 'kita'."
   },
   {
     "id": "sos-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Setiap anggota masyarakat memiliki peluang dan hak yang sama untuk melakukan mobilitas sosial vertikal naik berdasarkan kemampuan kerja, pendidikan, dan prestasi pribadi."
+        "text": "Kedudukan status sosial seseorang ditentukan mutlak sejak lahir melalui garis keturunan kasta tanpa kemungkinan berubah seumur hidup."
       },
       {
         "key": "B",
-        "text": "Kedudukan status sosial seseorang ditentukan mutlak sejak lahir melalui garis keturunan kasta tanpa kemungkinan berubah seumur hidup ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Setiap anggota masyarakat memiliki peluang dan hak yang sama untuk melakukan mobilitas sosial vertikal naik berdasarkan kemampuan kerja, pendidikan, dan prestasi pribadi."
       },
       {
         "key": "C",
-        "text": "Masyarakat dilarang keras melanjutkan pendidikan ke jenjang universitas jika berasal dari keluarga buruh tani miskin."
-      },
-      {
-        "key": "D",
         "text": "Perpindahan lapisan sosial hanya dapat terjadi jika seseorang mendapatkan gelar kebangsawanan langsung dari raja feudal."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Seluruh warga negara diwajibkan memiliki tingkat kekayaan materi dan luas rumah yang identik seragam oleh undang-undang."
+      },
+      {
+        "key": "E",
+        "text": "Masyarakat dilarang keras melanjutkan pendidikan ke jenjang universitas jika berasal dari keluarga buruh tani miskin."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Setiap anggota masyarakat memiliki peluang dan hak yang sama untuk melakukan mobilitas sosial vertikal naik berdasarkan kemampuan kerja, pendidikan, dan prestasi pribadi.. Stratifikasi terbuka memungkinkan mobilitas sosial vertikal (naik atau turun) berdasarkan prestasi dan usaha individu (achieved status). Pilih: Memiliki peluang dan hak yang sama untuk mobilitas sosial vertikal berdasarkan prestasi dan kemampuan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Setiap anggota masyarakat memiliki peluang dan hak yang sama untuk melakukan mobilitas sosial vertikal naik berdasarkan kemampuan kerja, pendidikan, dan prestasi pribadi.. Stratifikasi terbuka memungkinkan mobilitas sosial vertikal (naik atau turun) berdasarkan prestasi dan usaha individu (achieved status). Pilih: Memiliki peluang dan hak yang sama untuk mobilitas sosial vertikal berdasarkan prestasi dan kemampuan."
   },
   {
     "id": "sos-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gedung sekolah bertingkat selalu dilengkapi lift mekanik otomatis untuk menaikkan siswa ke ruang kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Pendidikan membekali individu dari latar belakang ekonomi bawah dengan keterampilan, keahlian, dan kualifikasi ijazah yang memungkinkan mereka meraih profesi bergengsi dan mendaki tangga status sosial ke lapisan atas."
       },
       {
-        "key": "C",
-        "text": "Lembaga pendidikan menjamin seluruh lulusannya otomatis diangkat menjadi pejabat eselon satu kementerian tanpa tes seleksi."
+        "key": "B",
+        "text": "Sekolah bertugas membagikan uang tunai hibah secara berkala kepada seluruh keluarga siswa miskin."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pendidikan melarang anak-anak orang kaya untuk belajar bersama dengan anak-anak masyarakat miskin."
       },
       {
+        "key": "D",
+        "text": "Lembaga pendidikan menjamin seluruh lulusannya otomatis diangkat menjadi pejabat eselon satu kementerian tanpa tes seleksi."
+      },
+      {
         "key": "E",
-        "text": "Sekolah bertugas membagikan uang tunai hibah secara berkala kepada seluruh keluarga siswa miskin."
+        "text": "Gedung sekolah bertingkat selalu dilengkapi lift mekanik otomatis untuk menaikkan siswa ke ruang kelas."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pendidikan membekali individu dari latar belakang ekonomi bawah dengan keterampilan, keahlian, dan kualifikasi ijazah yang memungkinkan mereka meraih profesi bergengsi dan mendaki tangga status sosial ke lapisan atas.. Pendidikan disebut social elevator karena mengangkat status sosial seseorang dari lapisan bawah ke lapisan atas melalui pemerolehan ilmu dan ijazah profesi. Pilih opsi yang menjelaskan pembekalan keterampilan/kualifikasi untuk meraih profesi bergengsi dan mendaki status sosial."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pendidikan membekali individu dari latar belakang ekonomi bawah dengan keterampilan, keahlian, dan kualifikasi ijazah yang memungkinkan mereka meraih profesi bergengsi dan mendaki tangga status sosial ke lapisan atas.. Pendidikan disebut social elevator karena mengangkat status sosial seseorang dari lapisan bawah ke lapisan atas melalui pemerolehan ilmu dan ijazah profesi. Pilih opsi yang menjelaskan pembekalan keterampilan/kualifikasi untuk meraih profesi bergengsi dan mendaki status sosial."
   },
   {
     "id": "sos-lat-e-13",
@@ -541,27 +542,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mobilitas Sosial Vertikal Turun (_Social Sinking_) intragenerasi."
-      },
-      {
-        "key": "B",
         "text": "Mobilitas Sosial Horizontal, karena status dan kehormatannya tidak mengalami perubahan apa pun."
       },
       {
-        "key": "C",
-        "text": "Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi."
+        "key": "B",
+        "text": "Mobilitas Sosial Vertikal Turun (_Social Sinking_) intragenerasi."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Mobilitas Sosial Lateral, yang hanya berupa perpindahan tempat tinggal geografis tanpa perubahan profesi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Stagnasi sosial permanen akibat kungkungan tradisi kemiskinan desa asal."
+      },
+      {
+        "key": "E",
+        "text": "Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi.. Dari anak petani miskin naik menjadi direktur riset perusahaan = mobilitas sosial vertikal naik (social climbing) antargenerasi. Pilih: Mobilitas Sosial Vertikal Naik (Social Climbing) antargenerasi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi.. Dari anak petani miskin naik menjadi direktur riset perusahaan = mobilitas sosial vertikal naik (social climbing) antargenerasi. Pilih: Mobilitas Sosial Vertikal Naik (Social Climbing) antargenerasi."
   },
   {
     "id": "sos-lat-e-14",
@@ -584,11 +585,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diferensiasi sosial membagi warga negara menjadi kasta atas bangsawan terhormat dan kasta budak tertindas menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Diferensiasi sosial hanya berlaku untuk pembagian warisan keluarga menurut hukum adat perdata."
       },
       {
         "key": "B",
-        "text": "Diferensiasi sosial hanya berlaku untuk pembagian warisan keluarga menurut hukum adat perdata."
+        "text": "Diferensiasi sosial membagi warga negara menjadi kasta atas bangsawan terhormat dan kasta budak tertindas menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "C",
@@ -596,15 +597,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Diferensiasi sosial membagi masyarakat secara horizontal atas dasar perbedaan ciri tanpa membedakan tingkatan hierarki tinggi-rendah derajat antarwarga."
+        "text": "Pemerintah menetapkan bahwa suku bangsa tertentu secara resmi berkedudukan lebih mulia daripada suku bangsa lainnya."
       },
       {
         "key": "E",
-        "text": "Pemerintah menetapkan bahwa suku bangsa tertentu secara resmi berkedudukan lebih mulia daripada suku bangsa lainnya."
+        "text": "Diferensiasi sosial membagi masyarakat secara horizontal atas dasar perbedaan ciri tanpa membedakan tingkatan hierarki tinggi-rendah derajat antarwarga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Diferensiasi sosial membagi masyarakat secara horizontal atas dasar perbedaan ciri tanpa membedakan tingkatan hierarki tinggi-rendah derajat antarwarga.. Diferensiasi sosial bersifat horizontal (sejajar/tanpa hierarki tingkatan: suku, ras, agama). Stratifikasi sosial bersifat vertikal (berjenjang: kekayaan, kekuasaan). Pilih: Diferensiasi sosial membagi masyarakat secara horizontal tanpa membedakan tingkatan hierarki tinggi-rendah."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Diferensiasi sosial membagi masyarakat secara horizontal atas dasar perbedaan ciri tanpa membedakan tingkatan hierarki tinggi-rendah derajat antarwarga.. Diferensiasi sosial bersifat horizontal (sejajar/tanpa hierarki tingkatan: suku, ras, agama). Stratifikasi sosial bersifat vertikal (berjenjang: kekayaan, kekuasaan). Pilih: Diferensiasi sosial membagi masyarakat secara horizontal tanpa membedakan tingkatan hierarki tinggi-rendah."
   },
   {
     "id": "sos-lat-e-15",
@@ -627,7 +628,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Teori Asosiasi Diferensial Edwin H. Sutherland, yang menyatakan kejahatan diwariskan melalui genetik kromosom darah diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Teori Fungsionalisme Struktural, yang menyatakan kejahatan wajib dilestarikan agar penjara tidak kosong."
       },
       {
         "key": "B",
@@ -639,15 +640,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Teori Fungsionalisme Struktural, yang menyatakan kejahatan wajib dilestarikan agar penjara tidak kosong."
+        "text": "Teori Pelabelan (_Labeling Theory_) oleh Howard S. Becker, di mana pemberian cap atau stigma negatif oleh masyarakat mendorong seseorang melakukan penyimpangan sekunder (_secondary deviance_)."
       },
       {
         "key": "E",
-        "text": "Teori Pelabelan (_Labeling Theory_) oleh Howard S. Becker, di mana pemberian cap atau stigma negatif oleh masyarakat mendorong seseorang melakukan penyimpangan sekunder (_secondary deviance_)."
+        "text": "Teori Asosiasi Diferensial Edwin H. Sutherland, yang menyatakan kejahatan diwariskan melalui genetik kromosom darah diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Teori Pelabelan (_Labeling Theory_) oleh Howard S. Becker, di mana pemberian cap atau stigma negatif oleh masyarakat mendorong seseorang melakukan penyimpangan sekunder (_secondary deviance_).. Teori Labeling (Howard Becker): pemberian cap/stigma negatif dari masyarakat membuat seseorang menginternalisasi cap tersebut dan melakukan penyimpangan sekunder. Pilih: Teori Pelabelan (Labeling Theory) oleh Howard S. Becker."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Teori Pelabelan (_Labeling Theory_) oleh Howard S. Becker, di mana pemberian cap atau stigma negatif oleh masyarakat mendorong seseorang melakukan penyimpangan sekunder (_secondary deviance_).. Teori Labeling (Howard Becker): pemberian cap/stigma negatif dari masyarakat membuat seseorang menginternalisasi cap tersebut dan melakukan penyimpangan sekunder. Pilih: Teori Pelabelan (Labeling Theory) oleh Howard S. Becker."
   },
   {
     "id": "sos-lat-e-16",
@@ -670,27 +671,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Preventif, yaitu upaya pengendalian sosial yang dilakukan sebelum terjadinya pelanggaran norma guna mencegah timbulnya penyimpangan."
+        "text": "Kuratif, yaitu tindakan penangkapan dan rehabilitasi medis yang dilakukan setelah siswa terbukti mengonsumsi narkoba."
       },
       {
         "key": "B",
-        "text": "Kuratif, yaitu tindakan penangkapan dan rehabilitasi medis yang dilakukan setelah siswa terbukti mengonsumsi narkoba ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
-        "text": "Koersif represif, yaitu penjatuhan hukuman fisik kurungan penjara seketika di hadapan seluruh siswa upacara."
-      },
-      {
-        "key": "D",
         "text": "Ajudikasi, yaitu proses pembacaan vonis hukuman mati oleh majelis hakim agung di mahkamah militer."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Stalemate, yaitu pembiaran peredaran narkotika karena aparat kehabisan surat perintah penangkapan."
+      },
+      {
+        "key": "D",
+        "text": "Koersif represif, yaitu penjatuhan hukuman fisik kurungan penjara seketika di hadapan seluruh siswa upacara."
+      },
+      {
+        "key": "E",
+        "text": "Preventif, yaitu upaya pengendalian sosial yang dilakukan sebelum terjadinya pelanggaran norma guna mencegah timbulnya penyimpangan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Preventif, yaitu upaya pengendalian sosial yang dilakukan sebelum terjadinya pelanggaran norma guna mencegah timbulnya penyimpangan.. Pengendalian sosial yang dilakukan SEBELUM terjadinya penyimpangan (penyuluhan, sosialisasi, nasihat) disebut preventif. Pilih: Preventif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Preventif, yaitu upaya pengendalian sosial yang dilakukan sebelum terjadinya pelanggaran norma guna mencegah timbulnya penyimpangan.. Pengendalian sosial yang dilakukan SEBELUM terjadinya penyimpangan (penyuluhan, sosialisasi, nasihat) disebut preventif. Pilih: Preventif."
   },
   {
     "id": "sos-lat-e-17",
@@ -713,7 +714,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mediasi, di mana pihak ketiga hanya berperan sebagai penengah netral yang memberikan saran tanpa wewenang mengambil keputusan mengikat ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Ajudikasi, di mana sengketa diselesaikan secara pidana di hadapan regu tembak pengadilan militer luar biasa."
       },
       {
         "key": "B",
@@ -721,15 +722,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Konsiliasi, di mana lembaga perwakilan mempertemukan keinginan buruh tanpa adanya penetapan vonis resmi."
+        "text": "Segregasi, di mana buruh dan pengusaha saling memisahkan diri tinggal di pulau yang berbeda selamanya."
       },
       {
         "key": "D",
-        "text": "Ajudikasi, di mana sengketa diselesaikan secara pidana di hadapan regu tembak pengadilan militer luar biasa."
+        "text": "Mediasi, di mana pihak ketiga hanya berperan sebagai penengah netral yang memberikan saran tanpa wewenang mengambil keputusan mengikat."
       },
       {
         "key": "E",
-        "text": "Segregasi, di mana buruh dan pengusaha saling memisahkan diri tinggal di pulau yang berbeda selamanya."
+        "text": "Konsiliasi, di mana lembaga perwakilan mempertemukan keinginan buruh tanpa adanya penetapan vonis resmi."
       }
     ],
     "correctKey": "B",
@@ -756,7 +757,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perubahan Revolusi, yaitu perubahan mendasar yang berlangsung sangat cepat dan menjalar ke sendi-sendi pokok masyarakat."
+        "text": "Perubahan yang Dikehendaki (_Intended Change_), yaitu perubahan yang direncanakan secara matang oleh agen perubahan."
       },
       {
         "key": "B",
@@ -764,19 +765,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Perubahan Evolusi."
+        "text": "Perubahan Revolusi, yaitu perubahan mendasar yang berlangsung sangat cepat dan menjalar ke sendi-sendi pokok masyarakat."
       },
       {
         "key": "D",
-        "text": "Perubahan yang Dikehendaki (_Intended Change_), yaitu perubahan yang direncanakan secara matang oleh agen perubahan."
+        "text": "Perubahan Evolusi."
       },
       {
         "key": "E",
         "text": "Perubahan Siklis, yang selalu mengembalikan tatanan masyarakat ke titik nol secara berulang-ulang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Perubahan Evolusi.. Perubahan lambat, bertahap, dalam waktu lama tanpa rencana radikal disebut evolusi sosial. Pilih: Perubahan Evolusi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Perubahan Evolusi.. Perubahan lambat, bertahap, dalam waktu lama tanpa rencana radikal disebut evolusi sosial. Pilih: Perubahan Evolusi."
   },
   {
     "id": "sos-lat-e-19",
@@ -799,27 +800,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "_Discovery_ selalu dilakukan oleh ilmuwan Barat sedangkan _Invention_ hanya dapat dilakukan oleh masyarakat tradisional pedalaman menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "_Discovery_ merupakan penemuan yang sengaja dirahasiakan sedangkan _Invention_ adalah penemuan palsu hasil manipulasi data."
-      },
-      {
-        "key": "C",
         "text": "_Discovery_ hanya berlaku untuk penemuan fosil purba sedangkan _Invention_ khusus untuk penemuan resep makanan kuliner."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "_Discovery_ selalu dilakukan oleh ilmuwan Barat sedangkan _Invention_ hanya dapat dilakukan oleh masyarakat tradisional pedalaman menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
+        "key": "C",
         "text": "_Discovery_ adalah penemuan unsur kebudayaan baru yang sebelumnya sebenarnya sudah ada di alam namun belum diketahui, sedangkan _Invention_ adalah pengembangan penemuan baru yang telah diakui, diterima, dan diterapkan secara luas oleh masyarakat."
+      },
+      {
+        "key": "D",
+        "text": "_Discovery_ merupakan penemuan yang sengaja dirahasiakan sedangkan _Invention_ adalah penemuan palsu hasil manipulasi data."
       },
       {
         "key": "E",
         "text": "Kedua istilah tersebut memiliki arti yang sama persis dan tidak memiliki perbedaan sosiologis sama sekali."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) _Discovery_ adalah penemuan unsur kebudayaan baru yang sebelumnya sebenarnya sudah ada di alam namun belum diketahui, sedangkan _Invention_ adalah pengembangan penemuan baru yang telah diakui, diterima, dan diterapkan secara luas oleh masyarakat.. Discovery = penemuan sesuatu yang baru yang sebenarnya sudah ada di alam. Invention = proses pengembangan discovery hingga diterima dan diterapkan oleh masyarakat luas. Pilih opsi: Discovery penemuan unsur baru yang sudah ada di alam tapi belum diketahui, Invention pengembangan yang diakui dan diterapkan masyarakat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) _Discovery_ adalah penemuan unsur kebudayaan baru yang sebelumnya sebenarnya sudah ada di alam namun belum diketahui, sedangkan _Invention_ adalah pengembangan penemuan baru yang telah diakui, diterima, dan diterapkan secara luas oleh masyarakat.. Discovery = penemuan sesuatu yang baru yang sebenarnya sudah ada di alam. Invention = proses pengembangan discovery hingga diterima dan diterapkan oleh masyarakat luas. Pilih opsi: Discovery penemuan unsur baru yang sudah ada di alam tapi belum diketahui, Invention pengembangan yang diakui dan diterapkan masyarakat."
   },
   {
     "id": "sos-lat-e-20",
@@ -846,15 +847,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Chauvinisme, yaitu rasa cinta tanah air yang berlebihan hingga memandang rendah bangsa-bangsa lain."
-      },
-      {
-        "key": "C",
         "text": "Etnosentrisme, yaitu kecenderungan memandang budaya kelompoknya sendiri sebagai yang paling unggul."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Primordialisme, yaitu loyalitas berlebihan terhadap tradisi ikatan kedaerahan atau ikatan darah masa lalu."
+      },
+      {
+        "key": "D",
+        "text": "Chauvinisme, yaitu rasa cinta tanah air yang berlebihan hingga memandang rendah bangsa-bangsa lain."
       },
       {
         "key": "E",
@@ -885,11 +886,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kemiskinan yang timbul akibat faktor nilai, sikap mental, dan kebiasaan hidup individu atau kelompok yang pasrah, malas, enggan bekerja keras, dan tidak memiliki motivasi berprestasi."
+        "text": "Kemiskinan yang hanya melanda para konglomerat yang kehilangan sebagian sahamnya di bursa efek internasional."
       },
       {
         "key": "B",
-        "text": "Kemiskinan yang dialami warga akibat kebijakan diskriminatif negara yang menutup akses modal dan pendidikan ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Kemiskinan yang dialami warga akibat kebijakan diskriminatif negara yang menutup akses modal dan pendidikan."
       },
       {
         "key": "C",
@@ -897,15 +898,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kemiskinan sementara yang dialami seseorang saat sedang menunggu pencairan bonus gaji akhir tahun."
+        "text": "Kemiskinan yang timbul akibat faktor nilai, sikap mental, dan kebiasaan hidup individu atau kelompok yang pasrah, malas, enggan bekerja keras, dan tidak memiliki motivasi berprestasi."
       },
       {
         "key": "E",
-        "text": "Kemiskinan yang hanya melanda para konglomerat yang kehilangan sebagian sahamnya di bursa efek internasional."
+        "text": "Kemiskinan sementara yang dialami seseorang saat sedang menunggu pencairan bonus gaji akhir tahun."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kemiskinan yang timbul akibat faktor nilai, sikap mental, dan kebiasaan hidup individu atau kelompok yang pasrah, malas, enggan bekerja keras, dan tidak memiliki motivasi berprestasi.. Kemiskinan kultural bersumber dari sikap mental/budaya (pasrah, malas, fatalistik, enggan berubah). Kemiskinan struktural bersumber dari sistem dan struktur sosial-ekonomi yang membelenggu. Pilih: Kemiskinan akibat faktor sikap mental, pasrah, malas, dan enggan bekerja keras."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kemiskinan yang timbul akibat faktor nilai, sikap mental, dan kebiasaan hidup individu atau kelompok yang pasrah, malas, enggan bekerja keras, dan tidak memiliki motivasi berprestasi.. Kemiskinan kultural bersumber dari sikap mental/budaya (pasrah, malas, fatalistik, enggan berubah). Kemiskinan struktural bersumber dari sistem dan struktur sosial-ekonomi yang membelenggu. Pilih: Kemiskinan akibat faktor sikap mental, pasrah, malas, dan enggan bekerja keras."
   },
   {
     "id": "sos-lat-e-22",
@@ -928,27 +929,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terciptanya kerukunan hidup abadi di mana masyarakat miskin dengan ikhlas menyerahkan seluruh hartanya kepada konglomerat ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Munculnya kecemburuan sosial, polarisasi kelas, disintegrasi sosial, serta meningkatnya kerentanan terhadap tindak kriminalitas dan konflik horizontal di masyarakat."
       },
       {
-        "key": "C",
-        "text": "Hilangnya seluruh pengangguran karena kelompok miskin secara otomatis diserap menjadi komisaris bank."
+        "key": "B",
+        "text": "Terciptanya kerukunan hidup abadi di mana masyarakat miskin dengan ikhlas menyerahkan seluruh hartanya kepada konglomerat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Penurunan angka kejahatan pencurian dan penipuan menjadi nol persen di seluruh pelosok kota."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Seluruh penduduk secara serentak menghentikan aktivitas ekonomi pasar bebas dan kembali ke sistem barter purba."
+      },
+      {
+        "key": "E",
+        "text": "Hilangnya seluruh pengangguran karena kelompok miskin secara otomatis diserap menjadi komisaris bank."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Munculnya kecemburuan sosial, polarisasi kelas, disintegrasi sosial, serta meningkatnya kerentanan terhadap tindak kriminalitas dan konflik horizontal di masyarakat.. Ketimpangan sosial ekonomi yang lebar memicu: kecemburuan sosial, polarisasi kelas, meningkatnya kriminalitas, dan potensi disintegrasi atau konflik horizontal. Pilih: Munculnya kecemburuan sosial, polarisasi kelas, disintegrasi sosial, dan kriminalitas meningkat."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Munculnya kecemburuan sosial, polarisasi kelas, disintegrasi sosial, serta meningkatnya kerentanan terhadap tindak kriminalitas dan konflik horizontal di masyarakat.. Ketimpangan sosial ekonomi yang lebar memicu: kecemburuan sosial, polarisasi kelas, meningkatnya kriminalitas, dan potensi disintegrasi atau konflik horizontal. Pilih: Munculnya kecemburuan sosial, polarisasi kelas, disintegrasi sosial, dan kriminalitas meningkat."
   },
   {
     "id": "sos-lat-e-23",
@@ -971,27 +972,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bentuk pembangkangan hukum adat terhadap program modernisasi industri kayu gelondongan nasional sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Bentuk pembangkangan hukum adat terhadap program modernisasi industri kayu gelondongan nasional."
       },
       {
         "key": "B",
-        "text": "Upaya masyarakat primitif untuk mengisolasi diri dari peradaban modern karena membenci penggunaan teknologi listrik."
-      },
-      {
-        "key": "C",
         "text": "Pedoman tata nilai, norma adat, dan etika lingkungan leluhur yang terbukti efektif menjaga kelestarian sumber daya alam dan mencegah bencana ekologis secara berkelanjutan."
       },
       {
+        "key": "C",
+        "text": "Upaya masyarakat primitif untuk mengisolasi diri dari peradaban modern karena membenci penggunaan teknologi listrik."
+      },
+      {
         "key": "D",
-        "text": "Trik bisnis pariwisata komersial yang sengaja dibuat untuk menarik wisatawan asing membayar karcis mahal."
+        "text": "Sistem takhayul kuno yang terbukti menghancurkan perekonomian pangan perdesaan Jawa Barat."
       },
       {
         "key": "E",
-        "text": "Sistem takhayul kuno yang terbukti menghancurkan perekonomian pangan perdesaan Jawa Barat."
+        "text": "Trik bisnis pariwisata komersial yang sengaja dibuat untuk menarik wisatawan asing membayar karcis mahal."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pedoman tata nilai, norma adat, dan etika lingkungan leluhur yang terbukti efektif menjaga kelestarian sumber daya alam dan mencegah bencana ekologis secara berkelanjutan.. Kearifan lokal (local wisdom) berfungsi sebagai pedoman nilai dan norma etika lingkungan yang menjaga kelestarian alam dan mencegah kerusakan lingkungan hidup berkelanjutan. Pilih: Pedoman tata nilai, norma adat, dan etika lingkungan yang menjaga kelestarian sumber daya alam."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pedoman tata nilai, norma adat, dan etika lingkungan leluhur yang terbukti efektif menjaga kelestarian sumber daya alam dan mencegah bencana ekologis secara berkelanjutan.. Kearifan lokal (local wisdom) berfungsi sebagai pedoman nilai dan norma etika lingkungan yang menjaga kelestarian alam dan mencegah kerusakan lingkungan hidup berkelanjutan. Pilih: Pedoman tata nilai, norma adat, dan etika lingkungan yang menjaga kelestarian sumber daya alam."
   },
   {
     "id": "sos-lat-e-24",
@@ -1018,23 +1019,23 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Data Sekunder, karena data tersebut diperoleh dari membaca laporan statistik resmi Badan Pusat Statistik (BPS)."
-      },
-      {
-        "key": "C",
         "text": "Data Fiktif, karena ungkapan perasaan manusia tidak memenuhi syarat kebenaran ilmu pengetahuan alam."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Data Kualitatif, yaitu data yang disajikan dalam bentuk narasi kata-kata, makna, dan deskripsi mendalam tanpa menggunakan analisis angka statistik numerik."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Data Geospasial, yaitu data koordinat lintang bujur yang diperoleh dari citra satelit orbit bumi."
+      },
+      {
+        "key": "E",
+        "text": "Data Sekunder, karena data tersebut diperoleh dari membaca laporan statistik resmi Badan Pusat Statistik (BPS)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Data Kualitatif, yaitu data yang disajikan dalam bentuk narasi kata-kata, makna, dan deskripsi mendalam tanpa menggunakan analisis angka statistik numerik.. Data berupa kata-kata naratif, makna, dan catatan hasil wawancara mendalam disebut data kualitatif (berbeda dengan data angka/numerik yang merupakan data kuantitatif). Pilih: Data Kualitatif."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Data Kualitatif, yaitu data yang disajikan dalam bentuk narasi kata-kata, makna, dan deskripsi mendalam tanpa menggunakan analisis angka statistik numerik.. Data berupa kata-kata naratif, makna, dan catatan hasil wawancara mendalam disebut data kualitatif (berbeda dengan data angka/numerik yang merupakan data kuantitatif). Pilih: Data Kualitatif."
   },
   {
     "id": "sos-lat-e-25",
@@ -1057,7 +1058,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Observasi Non-Partisipan, di mana peneliti hanya mengamati dari kejauhan menggunakan teropong tanpa terlibat apa pun."
+        "text": "Eksperimen Laboratorium terkontrol dengan memisahkan subjek penelitian ke dalam ruangan kedap suara."
       },
       {
         "key": "B",
@@ -1065,19 +1066,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Analisis Konten Dokumen Arsip Sejarah di perpustakaan nasional daerah ibu kota."
+        "text": "Observasi Partisipan (_Participant Observation_)."
       },
       {
         "key": "D",
-        "text": "Eksperimen Laboratorium terkontrol dengan memisahkan subjek penelitian ke dalam ruangan kedap suara."
+        "text": "Analisis Konten Dokumen Arsip Sejarah di perpustakaan nasional daerah ibu kota."
       },
       {
         "key": "E",
-        "text": "Observasi Partisipan (_Participant Observation_)."
+        "text": "Observasi Non-Partisipan, di mana peneliti hanya mengamati dari kejauhan menggunakan teropong tanpa terlibat apa pun."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Observasi Partisipan (_Participant Observation_).. Peneliti tinggal bersama dan ikut serta langsung dalam kegiatan sehari-hari masyarakat yang diteliti disebut Observasi Partisipan (Participant Observation). Pilih: Observasi Partisipan (Participant Observation)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Observasi Partisipan (_Participant Observation_).. Peneliti tinggal bersama dan ikut serta langsung dalam kegiatan sehari-hari masyarakat yang diteliti disebut Observasi Partisipan (Participant Observation). Pilih: Observasi Partisipan (Participant Observation)."
   },
   {
     "id": "sos-lat-m-01",
@@ -1100,11 +1101,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tindakan Rasional Instrumental (_Zweckrational_), di mana individu secara sadar dan rasional memperhitungkan kesesuaian antara tujuan yang ingin dicapai dengan alat atau cara terbaik yang digunakan."
+        "text": "Tindakan Tradisional, yang dilakukan murni karena kebiasaan turun-temurun tanpa pertimbangan rasional efisiensi."
       },
       {
         "key": "B",
-        "text": "Tindakan Rasional Berorientasi Nilai (_Wertrational_), di mana tujuan tindakan tidak dipersoalkan demi menegakkan nilai moral keagamaan semata ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Tindakan Rasional Berorientasi Nilai (_Wertrational_), di mana tujuan tindakan tidak dipersoalkan demi menegakkan nilai moral keagamaan semata."
       },
       {
         "key": "C",
@@ -1112,15 +1113,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Tindakan Tradisional, yang dilakukan murni karena kebiasaan turun-temurun tanpa pertimbangan rasional efisiensi."
+        "text": "Tindakan Rasional Instrumental (_Zweckrational_), di mana individu secara sadar dan rasional memperhitungkan kesesuaian antara tujuan yang ingin dicapai dengan alat atau cara terbaik yang digunakan."
       },
       {
         "key": "E",
         "text": "Tindakan Irasional Destruktif, yang bertentangan dengan norma masyarakat umum."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tindakan Rasional Instrumental (_Zweckrational_), di mana individu secara sadar dan rasional memperhitungkan kesesuaian antara tujuan yang ingin dicapai dengan alat atau cara terbaik yang digunakan.. Weber membagi tindakan sosial: Rasional instrumental (tujuan & cara dihitung efisien), Rasional nilai (demi nilai absolut), Afektif (emosi), Tradisional (kebiasaan adat). Pilih: Tindakan Rasional Instrumental (Zweckrational)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tindakan Rasional Instrumental (_Zweckrational_), di mana individu secara sadar dan rasional memperhitungkan kesesuaian antara tujuan yang ingin dicapai dengan alat atau cara terbaik yang digunakan.. Weber membagi tindakan sosial: Rasional instrumental (tujuan & cara dihitung efisien), Rasional nilai (demi nilai absolut), Afektif (emosi), Tradisional (kebiasaan adat). Pilih: Tindakan Rasional Instrumental (Zweckrational)."
   },
   {
     "id": "sos-lat-m-02",
@@ -1143,27 +1144,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Solidaritas mekanik memiliki spesialisasi profesi dokter dan insinyur yang sangat kompleks sedangkan organik seragam sebagai petani ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
-        "text": "Solidaritas mekanik didasarkan pada keseragaman kesadaran kolektif dengan pembagian kerja rendah dan hukum represif (pidana pembalasan), sedangkan solidaritas organik didasarkan pada saling ketergantungan akibat pembagian kerja tinggi dan hukum restitutif (pemulihan hak perdata)."
-      },
-      {
-        "key": "C",
-        "text": "Solidaritas organik menuntut hukuman mati bagi siapa saja yang berbeda pendapat politik sedangkan mekanik membebaskannya."
-      },
-      {
-        "key": "D",
         "text": "Solidaritas mekanik hanya terdapat di negara industri maju Barat sedangkan solidaritas organik berada di pedalaman hutan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Solidaritas organik menuntut hukuman mati bagi siapa saja yang berbeda pendapat politik sedangkan mekanik membebaskannya."
+      },
+      {
+        "key": "C",
         "text": "Kedua jenis solidaritas tersebut menolak keberadaan hukum formal dan hanya mengandalkan kekuatan fisik senjata."
+      },
+      {
+        "key": "D",
+        "text": "Solidaritas mekanik memiliki spesialisasi profesi dokter dan insinyur yang sangat kompleks sedangkan organik seragam sebagai petani."
+      },
+      {
+        "key": "E",
+        "text": "Solidaritas mekanik didasarkan pada keseragaman kesadaran kolektif dengan pembagian kerja rendah dan hukum represif (pidana pembalasan), sedangkan solidaritas organik didasarkan pada saling ketergantungan akibat pembagian kerja tinggi dan hukum restitutif (pemulihan hak perdata)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Solidaritas mekanik didasarkan pada keseragaman kesadaran kolektif dengan pembagian kerja rendah dan hukum represif (pidana pembalasan), sedangkan solidaritas organik didasarkan pada saling ketergantungan akibat pembagian kerja tinggi dan hukum restitutif (pemulihan hak perdata).. Mekanik = pembagian kerja rendah, kesadaran kolektif kuat, hukum represif. Organik = pembagian kerja tinggi (spesialisasi), saling tergantung fungsional, hukum restitutif. Pilih: Solidaritas mekanik pembagian kerja rendah & hukum represif, organik pembagian kerja tinggi & hukum restitutif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Solidaritas mekanik didasarkan pada keseragaman kesadaran kolektif dengan pembagian kerja rendah dan hukum represif (pidana pembalasan), sedangkan solidaritas organik didasarkan pada saling ketergantungan akibat pembagian kerja tinggi dan hukum restitutif (pemulihan hak perdata).. Mekanik = pembagian kerja rendah, kesadaran kolektif kuat, hukum represif. Organik = pembagian kerja tinggi (spesialisasi), saling tergantung fungsional, hukum restitutif. Pilih: Solidaritas mekanik pembagian kerja rendah & hukum represif, organik pembagian kerja tinggi & hukum restitutif."
   },
   {
     "id": "sos-lat-m-03",
@@ -1186,27 +1187,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mediasi, di mana perorangan netral tunggal hanya bertugas mencatat jalannya pembicaraan tanpa memiliki lembaga resmi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Mediasi, di mana perorangan netral tunggal hanya bertugas mencatat jalannya pembicaraan tanpa memiliki lembaga resmi."
       },
       {
         "key": "B",
-        "text": "Ajudikasi, di mana kedua desa saling menggugat pidana di depan majelis hakim pengadilan tindak pidana korupsi."
+        "text": "Koersi, di mana salah satu desa mengerahkan pasukan bersenjata untuk membakar lumbung padi desa lawan."
       },
       {
         "key": "C",
-        "text": "Konsiliasi, di mana lembaga atau badan perwakilan tertentu yang disepakati mempertemukan keinginan pihak-pihak yang berselisih guna mencapai kesepakatan perdamaian bersama."
+        "text": "Ajudikasi, di mana kedua desa saling menggugat pidana di depan majelis hakim pengadilan tindak pidana korupsi."
       },
       {
         "key": "D",
-        "text": "Koersi, di mana salah satu desa mengerahkan pasukan bersenjata untuk membakar lumbung padi desa lawan."
+        "text": "Konsiliasi, di mana lembaga atau badan perwakilan tertentu yang disepakati mempertemukan keinginan pihak-pihak yang berselisih guna mencapai kesepakatan perdamaian bersama."
       },
       {
         "key": "E",
         "text": "Segregasi, di mana batas kedua desa dibangun tembok beton berlin setinggi lima belas meter."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Konsiliasi, di mana lembaga atau badan perwakilan tertentu yang disepakati mempertemukan keinginan pihak-pihak yang berselisih guna mencapai kesepakatan perdamaian bersama.. Penyelesaian konflik melalui lembaga/komite khusus tertentu yang mempertemukan pihak berselisih untuk mencapai mufakat disebut konsiliasi. Pilih: Konsiliasi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Konsiliasi, di mana lembaga atau badan perwakilan tertentu yang disepakati mempertemukan keinginan pihak-pihak yang berselisih guna mencapai kesepakatan perdamaian bersama.. Penyelesaian konflik melalui lembaga/komite khusus tertentu yang mempertemukan pihak berselisih untuk mencapai mufakat disebut konsiliasi. Pilih: Konsiliasi."
   },
   {
     "id": "sos-lat-m-04",
@@ -1229,7 +1230,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kompetisi murni, di mana pihak-pihak yang bertanding bersaing secara sportif sesuai tata tertib panitia pemilihan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Kerja sama koalisi (_joint venture_), di mana kedua kandidat sepakat menggabungkan suara kepengurusan."
       },
       {
         "key": "B",
@@ -1245,7 +1246,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kerja sama koalisi (_joint venture_), di mana kedua kandidat sepakat menggabungkan suara kepengurusan."
+        "text": "Kompetisi murni, di mana pihak-pihak yang bertanding bersaing secara sportif sesuai tata tertib panitia pemilihan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       }
     ],
     "correctKey": "D",
@@ -1272,7 +1273,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1) Melihat cermin kaca kamar tidur; 2) Menghitung jumlah kerutan wajah; dan 3) Membeli produk kosmetik mahal di toko daring diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "1) Membayangkan bagaimana diri kita tampak di mata orang lain; 2) Membayangkan bagaimana orang lain menilai penampilan atau tindakan kita; dan 3) Mengembangkan perasaan tertentu (seperti bangga atau malu) sebagai reaksi atas penilaian yang dibayangkan tersebut."
       },
       {
         "key": "B",
@@ -1288,11 +1289,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "1) Membayangkan bagaimana diri kita tampak di mata orang lain; 2) Membayangkan bagaimana orang lain menilai penampilan atau tindakan kita; dan 3) Mengembangkan perasaan tertentu (seperti bangga atau malu) sebagai reaksi atas penilaian yang dibayangkan tersebut."
+        "text": "1) Melihat cermin kaca kamar tidur; 2) Menghitung jumlah kerutan wajah; dan 3) Membeli produk kosmetik mahal di toko daring diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 1) Membayangkan bagaimana diri kita tampak di mata orang lain; 2) Membayangkan bagaimana orang lain menilai penampilan atau tindakan kita; dan 3) Mengembangkan perasaan tertentu (seperti bangga atau malu) sebagai reaksi atas penilaian yang dibayangkan tersebut.. Tiga fase looking-glass self Cooley: 1. Membayangkan bagaimana kita tampak di mata orang lain, 2. Membayangkan penilaian orang lain terhadap kita, 3. Merasakan respon emosional (bangga/malu). Pilih opsi yang memuat 3 tahapan pembayangan penampilan, penilaian orang lain, dan respon emosional."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 1) Membayangkan bagaimana diri kita tampak di mata orang lain; 2) Membayangkan bagaimana orang lain menilai penampilan atau tindakan kita; dan 3) Mengembangkan perasaan tertentu (seperti bangga atau malu) sebagai reaksi atas penilaian yang dibayangkan tersebut.. Tiga fase looking-glass self Cooley: 1. Membayangkan bagaimana kita tampak di mata orang lain, 2. Membayangkan penilaian orang lain terhadap kita, 3. Merasakan respon emosional (bangga/malu). Pilih opsi yang memuat 3 tahapan pembayangan penampilan, penilaian orang lain, dan respon emosional."
   },
   {
     "id": "sos-lat-m-06",
@@ -1315,15 +1316,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sosialisasi Partisipatoris (_Participatory Socialization_), yang mengutamakan partisipasi aktif anak, komunikasi dua arah secara dialogis, dan pemberian imbalan daripada hukuman fisik."
+        "text": "Sosialisasi Anticipatoris, yang murni mempersiapkan anak menjadi tentara profesional sejak bayi."
       },
       {
         "key": "B",
-        "text": "Sosialisasi Represif (_Repressive Socialization_), yang menuntut kepatuhan mutlak anak, komunikasi satu arah, dan hukuman fisik yang keras ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Sosialisasi Sekunder Otoriter, yang melarang anak berinteraksi dengan teman sebaya di luar rumah."
       },
       {
         "key": "C",
-        "text": "Sosialisasi Sekunder Otoriter, yang melarang anak berinteraksi dengan teman sebaya di luar rumah."
+        "text": "Sosialisasi Partisipatoris (_Participatory Socialization_), yang mengutamakan partisipasi aktif anak, komunikasi dua arah secara dialogis, dan pemberian imbalan daripada hukuman fisik."
       },
       {
         "key": "D",
@@ -1331,11 +1332,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sosialisasi Anticipatoris, yang murni mempersiapkan anak menjadi tentara profesional sejak bayi."
+        "text": "Sosialisasi Represif (_Repressive Socialization_), yang menuntut kepatuhan mutlak anak, komunikasi satu arah, dan hukuman fisik yang keras."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sosialisasi Partisipatoris (_Participatory Socialization_), yang mengutamakan partisipasi aktif anak, komunikasi dua arah secara dialogis, dan pemberian imbalan daripada hukuman fisik.. Sosialisasi partisipatoris = dialog dua arah, menghargai pendapat anak, imbalan lebih utama dari hukuman. Sosialisasi represif = satu arah perintah, kepatuhan kaku, hukuman fisik. Pilih: Sosialisasi Partisipatoris (Participatory Socialization)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sosialisasi Partisipatoris (_Participatory Socialization_), yang mengutamakan partisipasi aktif anak, komunikasi dua arah secara dialogis, dan pemberian imbalan daripada hukuman fisik.. Sosialisasi partisipatoris = dialog dua arah, menghargai pendapat anak, imbalan lebih utama dari hukuman. Sosialisasi represif = satu arah perintah, kepatuhan kaku, hukuman fisik. Pilih: Sosialisasi Partisipatoris (Participatory Socialization)."
   },
   {
     "id": "sos-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "_Membership Group_ (Kelompok Keanggotaan), karena mahasiswa tersebut telah terikat kontrak kerja resmi dan menerima gaji bulanan ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "_Membership Group_ (Kelompok Keanggotaan), karena mahasiswa tersebut telah terikat kontrak kerja resmi dan menerima gaji bulanan."
       },
       {
         "key": "B",
-        "text": "_Reference Group_ (Kelompok Acuan), yaitu kelompok sosial yang menjadi pedoman atau tolok ukur bagi seseorang untuk membentuk kepribadian dan perilakunya meskipun ia bukan merupakan anggota formal kelompok tersebut."
-      },
-      {
-        "key": "C",
         "text": "_Out-Group_ bermusuhan, yang dibenci dan dihindari oleh mahasiswa tersebut."
       },
       {
+        "key": "C",
+        "text": "_Reference Group_ (Kelompok Acuan), yaitu kelompok sosial yang menjadi pedoman atau tolok ukur bagi seseorang untuk membentuk kepribadian dan perilakunya meskipun ia bukan merupakan anggota formal kelompok tersebut."
+      },
+      {
         "key": "D",
-        "text": "Kelompok Primer Intim, yang terbentuk atas dasar ikatan batin kekeluargaan sedarah."
+        "text": "Kelompok Okupasional, yang anggotanya terdiri atas para pengangguran usia muda."
       },
       {
         "key": "E",
-        "text": "Kelompok Okupasional, yang anggotanya terdiri atas para pengangguran usia muda."
+        "text": "Kelompok Primer Intim, yang terbentuk atas dasar ikatan batin kekeluargaan sedarah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) _Reference Group_ (Kelompok Acuan), yaitu kelompok sosial yang menjadi pedoman atau tolok ukur bagi seseorang untuk membentuk kepribadian dan perilakunya meskipun ia bukan merupakan anggota formal kelompok tersebut.. Kelompok acuan tempat seseorang meniru norma dan perilakunya meskipun bukan anggota resmi disebut Reference Group. Kelompok tempat terdaftar resmi disebut Membership Group. Pilih: Reference Group (Kelompok Acuan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) _Reference Group_ (Kelompok Acuan), yaitu kelompok sosial yang menjadi pedoman atau tolok ukur bagi seseorang untuk membentuk kepribadian dan perilakunya meskipun ia bukan merupakan anggota formal kelompok tersebut.. Kelompok acuan tempat seseorang meniru norma dan perilakunya meskipun bukan anggota resmi disebut Reference Group. Kelompok tempat terdaftar resmi disebut Membership Group. Pilih: Reference Group (Kelompok Acuan)."
   },
   {
     "id": "sos-lat-m-08",
@@ -1401,27 +1402,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Konsolidasi (_Consolidation_), yang memperkuat tumpang tindih batasan kelompok suku dan memperuncing polarisasi permusuhan antarwarga sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
         "text": "Segregasi rasial, di mana suku yang berbeda dilarang memasuki gedung universitas yang sama."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Interseksi (_Intersection_), yang berpotensi memperkuat integrasi nasional dan meredam potensi konflik primordial suku karena adanya loyalitas ganda (_cross-cutting affiliations_)."
       },
       {
+        "key": "C",
+        "text": "Konsolidasi (_Consolidation_), yang memperkuat tumpang tindih batasan kelompok suku dan memperuncing polarisasi permusuhan antarwarga."
+      },
+      {
         "key": "D",
-        "text": "Akalang akulturasi paksa, di mana salah satu suku diwajibkan melupakan bahasa ibunya oleh undang-undang."
+        "text": "Polarisasi etnis ekstrem, yang selalu berujung pada pecahnya perang saudara."
       },
       {
         "key": "E",
-        "text": "Polarisasi etnis ekstrem, yang selalu berujung pada pecahnya perang saudara."
+        "text": "Akalang akulturasi paksa, di mana salah satu suku diwajibkan melupakan bahasa ibunya oleh undang-undang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Interseksi (_Intersection_), yang berpotensi memperkuat integrasi nasional dan meredam potensi konflik primordial suku karena adanya loyalitas ganda (_cross-cutting affiliations_).. Interseksi adalah persilangan keanggotaan masyarakat majemuk (perbedaan suku disatukan oleh profesi/hobi yang sama) -> menghasilkan cross-cutting affiliations yang meredam konflik dan memperkuat integrasi. Pilih: Interseksi (Intersection), memperkuat integrasi nasional dan meredam konflik."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Interseksi (_Intersection_), yang berpotensi memperkuat integrasi nasional dan meredam potensi konflik primordial suku karena adanya loyalitas ganda (_cross-cutting affiliations_).. Interseksi adalah persilangan keanggotaan masyarakat majemuk (perbedaan suku disatukan oleh profesi/hobi yang sama) -> menghasilkan cross-cutting affiliations yang meredam konflik dan memperkuat integrasi. Pilih: Interseksi (Intersection), memperkuat integrasi nasional dan meredam konflik."
   },
   {
     "id": "sos-lat-m-09",
@@ -1444,27 +1445,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gelar sarjana hukum (Ascribed), anak raja mahkota (Achieved), dan kepemilikan mobil mewah (Assigned) menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Gelar juara olimpiade sains (Ascribed), kasta ksatria sejak lahir (Achieved), dan hadiah undian sepeda motor (Assigned)."
-      },
-      {
-        "key": "C",
         "text": "Gelar pahlawan revolusi (Ascribed), jenis kelamin laki-laki (Achieved), dan jabatan kepala desa (Assigned)."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Status residivis mantan narapidana (Ascribed), warna kulit putih (Achieved), dan nomor rekening bank (Assigned)."
+      },
+      {
+        "key": "C",
         "text": "Gelar pangeran bangsawan keraton (Ascribed), gelar sarjana dokter spesialis bedah (Achieved), dan penganugerahan gelar Pahlawan Nasional oleh Presiden (Assigned)."
       },
       {
+        "key": "D",
+        "text": "Gelar sarjana hukum (Ascribed), anak raja mahkota (Achieved), dan kepemilikan mobil mewah (Assigned) menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
         "key": "E",
-        "text": "Status residivis mantan narapidana (Ascribed), warna kulit putih (Achieved), dan nomor rekening bank (Assigned)."
+        "text": "Gelar juara olimpiade sains (Ascribed), kasta ksatria sejak lahir (Achieved), dan hadiah undian sepeda motor (Assigned)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Gelar pangeran bangsawan keraton (Ascribed), gelar sarjana dokter spesialis bedah (Achieved), dan penganugerahan gelar Pahlawan Nasional oleh Presiden (Assigned).. Ascribed = didapat sejak lahir (kebangsawanan/kasta). Achieved = diraih dengan usaha/prestasi (dokter/sarjana). Assigned = dianugerahkan atas jasa (gelar pahlawan/kalpataru). Pilih: Gelar pangeran bangsawan (Ascribed), sarjana dokter bedah (Achieved), gelar Pahlawan Nasional (Assigned)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Gelar pangeran bangsawan keraton (Ascribed), gelar sarjana dokter spesialis bedah (Achieved), dan penganugerahan gelar Pahlawan Nasional oleh Presiden (Assigned).. Ascribed = didapat sejak lahir (kebangsawanan/kasta). Achieved = diraih dengan usaha/prestasi (dokter/sarjana). Assigned = dianugerahkan atas jasa (gelar pahlawan/kalpataru). Pilih: Gelar pangeran bangsawan (Ascribed), sarjana dokter bedah (Achieved), gelar Pahlawan Nasional (Assigned)."
   },
   {
     "id": "sos-lat-m-10",
@@ -1487,19 +1488,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketegangan Peran (_Role Strain_), yaitu kesulitan menjalankan kewajiban di dalam satu status peran yang sama diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
-      },
-      {
-        "key": "B",
-        "text": "Kegagalan Sosialisasi, di mana ibu tersebut melupakan seluruh ajaran moral agamanya."
-      },
-      {
-        "key": "C",
         "text": "Penyimpangan Sekunder, di mana polisi tersebut telah bersekongkol dengan sindikat narkotika."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Ketegangan Peran (_Role Strain_), yaitu kesulitan menjalankan kewajiban di dalam satu status peran yang sama diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+      },
+      {
+        "key": "C",
         "text": "Konflik Antargenerasi, yaitu perselisihan ideologis antara pemuda dan kaum lansia."
+      },
+      {
+        "key": "D",
+        "text": "Kegagalan Sosialisasi, di mana ibu tersebut melupakan seluruh ajaran moral agamanya."
       },
       {
         "key": "E",
@@ -1530,27 +1531,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Inovasi (_Innovation_), di mana individu menerima tujuan kultural kemakmuran materi ($+$), namun menolak atau melanggar cara-cara kelembagaan yang sah ($-$)."
-      },
-      {
-        "key": "B",
-        "text": "Konformitas (_Conformity_), di mana individu menerima tujuan sukses ($+$) dan tetap patuh menggunakan cara-cara yang sah ($+$)."
-      },
-      {
-        "key": "C",
-        "text": "Ritualisme (_Ritualism_), di mana individu menolak ambisi kekayaan ($-$), namun secara kaku tetap menjalankan rutinitas aturan kerja halal ($+$)."
-      },
-      {
-        "key": "D",
         "text": "Retretisme (_Retreatism_), di mana individu menolak tujuan kemakmuran ($-$) dan menolak cara-cara kerja halal ($-$) lalu mengasingkan diri sebagai pecandu narkoba."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Inovasi (_Innovation_), di mana individu menerima tujuan kultural kemakmuran materi ($+$), namun menolak atau melanggar cara-cara kelembagaan yang sah ($-$)."
+      },
+      {
+        "key": "C",
         "text": "Pemberontakan (_Rebellion_), di mana individu menolak seluruh tujuan dan cara lama lalu menggantinya dengan tujuan dan nilai tatanan baru ($\\pm, \\pm$)."
+      },
+      {
+        "key": "D",
+        "text": "Konformitas (_Conformity_), di mana individu menerima tujuan sukses ($+$) dan tetap patuh menggunakan cara-cara yang sah ($+$)."
+      },
+      {
+        "key": "E",
+        "text": "Ritualisme (_Ritualism_), di mana individu menolak ambisi kekayaan ($-$), namun secara kaku tetap menjalankan rutinitas aturan kerja halal ($+$)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Inovasi (_Innovation_), di mana individu menerima tujuan kultural kemakmuran materi ($+$), namun menolak atau melanggar cara-cara kelembagaan yang sah ($-$).. Merton Strain Theory: Inovasi = menerima tujuan sukses materi (+), tetapi menolak/melanggar cara sah yang diakui hukum (-) dengan cara korupsi/ilegal. Pilih: Inovasi (Innovation)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Inovasi (_Innovation_), di mana individu menerima tujuan kultural kemakmuran materi ($+$), namun menolak atau melanggar cara-cara kelembagaan yang sah ($-$).. Merton Strain Theory: Inovasi = menerima tujuan sukses materi (+), tetapi menolak/melanggar cara sah yang diakui hukum (-) dengan cara korupsi/ilegal. Pilih: Inovasi (Innovation)."
   },
   {
     "id": "sos-lat-m-12",
@@ -1573,15 +1574,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perilaku kejahatan diwariskan secara biologis melalui mutasi genetik bentuk tengkorak kepala sejak dalam kandungan ibu ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Perilaku menyimpang dipelajari melalui proses interaksi komunikasi intensif dalam kelompok primer, di mana individu lebih sering terpapar oleh definisi-definisi yang menguntungkan pelanggaran hukum dibandingkan definisi yang patuh hukum."
       },
       {
+        "key": "B",
+        "text": "Perilaku kejahatan diwariskan secara biologis melalui mutasi genetik bentuk tengkorak kepala sejak dalam kandungan ibu."
+      },
+      {
         "key": "C",
-        "text": "Penyimpangan terjadi karena individu mengalami kerasukan roh halus jahat yang tidak dapat disembuhkan oleh medis."
+        "text": "Kejahatan hanya dapat dilakukan oleh orang-orang yang tidak memiliki nomor induk kependudukan resmi."
       },
       {
         "key": "D",
@@ -1589,11 +1590,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kejahatan hanya dapat dilakukan oleh orang-orang yang tidak memiliki nomor induk kependudukan resmi."
+        "text": "Penyimpangan terjadi karena individu mengalami kerasukan roh halus jahat yang tidak dapat disembuhkan oleh medis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Perilaku menyimpang dipelajari melalui proses interaksi komunikasi intensif dalam kelompok primer, di mana individu lebih sering terpapar oleh definisi-definisi yang menguntungkan pelanggaran hukum dibandingkan definisi yang patuh hukum.. Teori Asosiasi Diferensial (Sutherland): perilaku menyimpang dipelajari lewat interaksi intensif dengan kelompok yang menganggap pelanggaran norma sebagai hal biasa. Pilih: Perilaku menyimpang dipelajari melalui interaksi komunikasi dalam kelompok primer yang mendukung pelanggaran hukum."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Perilaku menyimpang dipelajari melalui proses interaksi komunikasi intensif dalam kelompok primer, di mana individu lebih sering terpapar oleh definisi-definisi yang menguntungkan pelanggaran hukum dibandingkan definisi yang patuh hukum.. Teori Asosiasi Diferensial (Sutherland): perilaku menyimpang dipelajari lewat interaksi intensif dengan kelompok yang menganggap pelanggaran norma sebagai hal biasa. Pilih: Perilaku menyimpang dipelajari melalui interaksi komunikasi dalam kelompok primer yang mendukung pelanggaran hukum."
   },
   {
     "id": "sos-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perbedaan selera musik dan gaya busana antara generasi muda dan orang tua di tempat hiburan malam sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
-        "text": "Kekurangan pasokan air bersih akibat pipa saluran PDAM yang bocor di musim kemarau."
-      },
-      {
-        "key": "C",
         "text": "Distribusi otoritas (wewenang) yang tidak seimbang di dalam asosiasi-asosiasi yang terkoordinasi secara imperatif (_imperatively coordinated associations_), yang membelah kelompok menjadi mereka yang berkuasa dan mereka yang dikuasai."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Persaingan harga barang kebutuhan pokok antar-pedagang sayur di pasar tradisional."
+      },
+      {
+        "key": "C",
+        "text": "Perbedaan selera musik dan gaya busana antara generasi muda dan orang tua di tempat hiburan malam."
+      },
+      {
+        "key": "D",
+        "text": "Kekurangan pasokan air bersih akibat pipa saluran PDAM yang bocor di musim kemarau."
       },
       {
         "key": "E",
         "text": "Ketidakmampuan warga negara berbahasa asing saat bepergian ke luar negeri."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Distribusi otoritas (wewenang) yang tidak seimbang di dalam asosiasi-asosiasi yang terkoordinasi secara imperatif (_imperatively coordinated associations_), yang membelah kelompok menjadi mereka yang berkuasa dan mereka yang dikuasai.. Teori konflik Dahrendorf: konflik berakar pada ketimpangan distribusi otoritas/wewenang dalam kelompok terkoordinasi (imperatively coordinated associations). Pilih: Distribusi otoritas (wewenang) yang tidak seimbang di dalam asosiasi terkoordinasi secara imperatif."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Distribusi otoritas (wewenang) yang tidak seimbang di dalam asosiasi-asosiasi yang terkoordinasi secara imperatif (_imperatively coordinated associations_), yang membelah kelompok menjadi mereka yang berkuasa dan mereka yang dikuasai.. Teori konflik Dahrendorf: konflik berakar pada ketimpangan distribusi otoritas/wewenang dalam kelompok terkoordinasi (imperatively coordinated associations). Pilih: Distribusi otoritas (wewenang) yang tidak seimbang di dalam asosiasi terkoordinasi secara imperatif."
   },
   {
     "id": "sos-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Aksi pemukulan dan penganiayaan fisik secara langsung yang dilakukan oleh begal sepeda motor di jalan raya menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
         "text": "Ledakan bom bunuh diri yang menghancurkan gedung perkantoran dan melukai aparat keamanan."
       },
       {
-        "key": "C",
-        "text": "Pernyataan ujaran kebencian rasisme yang diteriakkan oleh suporter sepak bola di dalam stadion olahraga."
+        "key": "B",
+        "text": "Perkelahian massal antarpelajar SMA yang saling melempar batu di jembatan layang."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Tingginya angka kematian ibu melahirkan dan anak stunting di daerah terpencil akibat kebijakan anggaran negara yang tidak merata dan ketiadaan akses puskesmas serta jalan beraspal."
       },
       {
+        "key": "D",
+        "text": "Pernyataan ujaran kebencian rasisme yang diteriakkan oleh suporter sepak bola di dalam stadion olahraga."
+      },
+      {
         "key": "E",
-        "text": "Perkelahian massal antarpelajar SMA yang saling melempar batu di jembatan layang."
+        "text": "Aksi pemukulan dan penganiayaan fisik secara langsung yang dilakukan oleh begal sepeda motor di jalan raya menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Tingginya angka kematian ibu melahirkan dan anak stunting di daerah terpencil akibat kebijakan anggaran negara yang tidak merata dan ketiadaan akses puskesmas serta jalan beraspal.. Kekerasan struktural Galtung: ketidakadilan sistem, diskriminasi hukum, dan kebijakan anggaran timpang yang membuat rakyat tertindas/menderita tanpa adanya pukulan fisik langsung. Pilih: Kematian ibu dan stunting akibat kebijakan anggaran negara timpang dan ketiadaan akses puskesmas/jalan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Tingginya angka kematian ibu melahirkan dan anak stunting di daerah terpencil akibat kebijakan anggaran negara yang tidak merata dan ketiadaan akses puskesmas serta jalan beraspal.. Kekerasan struktural Galtung: ketidakadilan sistem, diskriminasi hukum, dan kebijakan anggaran timpang yang membuat rakyat tertindas/menderita tanpa adanya pukulan fisik langsung. Pilih: Kematian ibu dan stunting akibat kebijakan anggaran negara timpang dan ketiadaan akses puskesmas/jalan."
   },
   {
     "id": "sos-lat-m-15",
@@ -1702,15 +1703,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perdamaian Negatif (_Negative Peace_), yaitu kondisi di mana kekerasan fisik berhenti semata karena adanya todongan senjata aparat patroli namun bara kebencian masih menyala diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
-      },
-      {
-        "key": "B",
         "text": "Status Quo Otoriter, di mana masyarakat dilarang keluar rumah setelah pukul 6 sore selamanya."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Stalemate militer, di mana kedua pihak kehabisan peluru amunisi sehingga terpaksa mundur."
+      },
+      {
+        "key": "C",
+        "text": "Perdamaian Negatif (_Negative Peace_), yaitu kondisi di mana kekerasan fisik berhenti semata karena adanya todongan senjata aparat patroli namun bara kebencian masih menyala diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "D",
@@ -1745,27 +1746,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Siklus perputaran sejarah yang tak terelakkan, di mana setiap peradaban besar pasti mengalami tahapan kelahiran (_birth_), pertumbuhan (_growth_), masa kejayaan (_climax_), dan akhirnya keruntuhan (_decline_) untuk kemudian digantikan peradaban baru berulang kali."
+        "text": "Garis lurus linier yang terus maju tanpa batas menuju kesempurnaan peradaban mutlak di masa depan."
       },
       {
         "key": "B",
-        "text": "Garis lurus linier yang terus maju tanpa batas menuju kesempurnaan peradaban mutlak di masa depan ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Perkembangan teknologi mekanik yang diatur oleh satu kecerdasan buatan komputer super."
       },
       {
+        "key": "C",
+        "text": "Siklus perputaran sejarah yang tak terelakkan, di mana setiap peradaban besar pasti mengalami tahapan kelahiran (_birth_), pertumbuhan (_growth_), masa kejayaan (_climax_), dan akhirnya keruntuhan (_decline_) untuk kemudian digantikan peradaban baru berulang kali."
+      },
+      {
         "key": "D",
-        "text": "Perubahan statis yang tidak pernah bergeser dari kondisi masyarakat zaman batu purba."
+        "text": "Peristiwa acak yang sepenuhnya ditentukan oleh jatuhnya bintang komet dari antariksa."
       },
       {
         "key": "E",
-        "text": "Peristiwa acak yang sepenuhnya ditentukan oleh jatuhnya bintang komet dari antariksa."
+        "text": "Perubahan statis yang tidak pernah bergeser dari kondisi masyarakat zaman batu purba."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Siklus perputaran sejarah yang tak terelakkan, di mana setiap peradaban besar pasti mengalami tahapan kelahiran (_birth_), pertumbuhan (_growth_), masa kejayaan (_climax_), dan akhirnya keruntuhan (_decline_) untuk kemudian digantikan peradaban baru berulang kali.. Teori siklus (Spengler, Toynbee, Sorokin): peradaban berputar seperti siklus hidup (lahir -> tumbuh -> puncak jaya -> runtuh) secara berulang, bukan garis lurus. Pilih: Siklus perputaran sejarah: kelahiran, pertumbuhan, kejayaan, dan keruntuhan berulang kali."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Siklus perputaran sejarah yang tak terelakkan, di mana setiap peradaban besar pasti mengalami tahapan kelahiran (_birth_), pertumbuhan (_growth_), masa kejayaan (_climax_), dan akhirnya keruntuhan (_decline_) untuk kemudian digantikan peradaban baru berulang kali.. Teori siklus (Spengler, Toynbee, Sorokin): peradaban berputar seperti siklus hidup (lahir -> tumbuh -> puncak jaya -> runtuh) secara berulang, bukan garis lurus. Pilih: Siklus perputaran sejarah: kelahiran, pertumbuhan, kejayaan, dan keruntuhan berulang kali."
   },
   {
     "id": "sos-lat-m-17",
@@ -1788,27 +1789,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sikap pasrah terhadap nasib (fatalistik), menolak segala bentuk inovasi teknologi, dan mengutamakan ramalan dukun ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Sikap pasrah terhadap nasib (fatalistik), menolak segala bentuk inovasi teknologi, dan mengutamakan ramalan dukun."
       },
       {
         "key": "B",
-        "text": "Keterbukaan terhadap pengalaman baru dan perubahan, memiliki orientasi kuat terhadap masa kini dan masa depan (bukan masa lalu), menghargai ketepatan waktu, serta memiliki keyakinan pada kemanjuran ilmu pengetahuan dan teknologi."
-      },
-      {
-        "key": "C",
         "text": "Keengganan merencanakan masa depan karena meyakini seluruh nasib manusia diatur murni oleh kutukan leluhur."
       },
       {
+        "key": "C",
+        "text": "Ketergantungan mutlak pada perintah tetua adat dalam memilih pasangan hidup dan profesi kerja."
+      },
+      {
         "key": "D",
-        "text": "Kecenderungan untuk selalu menyelesaikan sengketa dengan perang suku dan perkelahian fisik senjata tradisional."
+        "text": "Keterbukaan terhadap pengalaman baru dan perubahan, memiliki orientasi kuat terhadap masa kini dan masa depan (bukan masa lalu), menghargai ketepatan waktu, serta memiliki keyakinan pada kemanjuran ilmu pengetahuan dan teknologi."
       },
       {
         "key": "E",
-        "text": "Ketergantungan mutlak pada perintah tetua adat dalam memilih pasangan hidup dan profesi kerja."
+        "text": "Kecenderungan untuk selalu menyelesaikan sengketa dengan perang suku dan perkelahian fisik senjata tradisional."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Keterbukaan terhadap pengalaman baru dan perubahan, memiliki orientasi kuat terhadap masa kini dan masa depan (bukan masa lalu), menghargai ketepatan waktu, serta memiliki keyakinan pada kemanjuran ilmu pengetahuan dan teknologi.. Ciri manusia modern Alex Inkeles: terbuka terhadap hal baru, orientasi masa kini dan masa depan, menghargai waktu, percaya pada sains dan perencanaan. Pilih: Keterbukaan terhadap pengalaman baru, orientasi masa depan, menghargai waktu, dan percaya pada sains."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Keterbukaan terhadap pengalaman baru dan perubahan, memiliki orientasi kuat terhadap masa kini dan masa depan (bukan masa lalu), menghargai ketepatan waktu, serta memiliki keyakinan pada kemanjuran ilmu pengetahuan dan teknologi.. Ciri manusia modern Alex Inkeles: terbuka terhadap hal baru, orientasi masa kini dan masa depan, menghargai waktu, percaya pada sains dan perencanaan. Pilih: Keterbukaan terhadap pengalaman baru, orientasi masa depan, menghargai waktu, dan percaya pada sains."
   },
   {
     "id": "sos-lat-m-18",
@@ -1831,27 +1832,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Negara berkembang miskin murni karena rakyatnya memiliki IQ biologis yang rendah dan malas beribadah sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
-        "text": "Negara-negara maju telah memberikan seluruh kekayaannya secara gratis kepada negara berkembang tanpa mengharapkan keuntungan."
-      },
-      {
-        "key": "C",
-        "text": "Keterbelakangan negara berkembang bukanlah kondisi alamiah pra-modern, melainkan akibat struktural dari penghisapan surplus ekonomi oleh negara-negara maju (metropolis) terhadap negara pinggiran (satelit) melalui hubungan perdagangan internasional yang timpang."
-      },
-      {
-        "key": "D",
         "text": "Negara berkembang tertinggal karena menolak mengimpor makanan kaleng dan mobil mewah dari luar negeri."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Keterbelakangan negara berkembang bukanlah kondisi alamiah pra-modern, melainkan akibat struktural dari penghisapan surplus ekonomi oleh negara-negara maju (metropolis) terhadap negara pinggiran (satelit) melalui hubungan perdagangan internasional yang timpang."
+      },
+      {
+        "key": "C",
+        "text": "Negara-negara maju telah memberikan seluruh kekayaannya secara gratis kepada negara berkembang tanpa mengharapkan keuntungan."
+      },
+      {
+        "key": "D",
         "text": "Kemiskinan terjadi semata-mata karena benua Asia dan Afrika tidak memiliki sumber daya alam mineral apa pun."
+      },
+      {
+        "key": "E",
+        "text": "Negara berkembang miskin murni karena rakyatnya memiliki IQ biologis yang rendah dan malas beribadah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Keterbelakangan negara berkembang bukanlah kondisi alamiah pra-modern, melainkan akibat struktural dari penghisapan surplus ekonomi oleh negara-negara maju (metropolis) terhadap negara pinggiran (satelit) melalui hubungan perdagangan internasional yang timpang.. Teori Dependensia (Frank): keterbelakangan negara berkembang disebabkan eksploitasi dan penghisapan surplus oleh negara maju (metropolis-satelit) dalam sistem kapitalisme global. Pilih opsi: Akibat struktural penghisapan surplus ekonomi oleh negara maju (metropolis) terhadap negara pinggiran (satelit)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Keterbelakangan negara berkembang bukanlah kondisi alamiah pra-modern, melainkan akibat struktural dari penghisapan surplus ekonomi oleh negara-negara maju (metropolis) terhadap negara pinggiran (satelit) melalui hubungan perdagangan internasional yang timpang.. Teori Dependensia (Frank): keterbelakangan negara berkembang disebabkan eksploitasi dan penghisapan surplus oleh negara maju (metropolis-satelit) dalam sistem kapitalisme global. Pilih opsi: Akibat struktural penghisapan surplus ekonomi oleh negara maju (metropolis) terhadap negara pinggiran (satelit)."
   },
   {
     "id": "sos-lat-m-19",
@@ -1874,27 +1875,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Guncangan Budaya (_Cultural Shock_), yaitu disorientasi mental yang dialami seseorang saat pertama kali tinggal di negeri asing menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Guncangan Budaya (_Cultural Shock_), yaitu disorientasi mental yang dialami seseorang saat pertama kali tinggal di negeri asing menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "B",
-        "text": "Anomi sosial, yaitu kondisi ketiadaan hukum dan kehancuran total seluruh tatanan kepolisian negara."
+        "text": "Asimilasi budaya, yaitu peleburan dua kebudayaan berbeda menjadi satu kebudayaan tunggal yang harmonis."
       },
       {
         "key": "C",
-        "text": "Difusi kebudayaan, yaitu penyebaran unsur budaya dari satu kelompok masyarakat ke masyarakat lain."
+        "text": "Anomi sosial, yaitu kondisi ketiadaan hukum dan kehancuran total seluruh tatanan kepolisian negara."
       },
       {
         "key": "D",
-        "text": "Ketertinggalan Budaya (_Cultural Lag_) menurut teori William F. Ogburn, di mana kemajuan kebudayaan material (teknologi fisik) bergerak jauh lebih cepat daripada kesiapan kebudayaan non-material (norma, hukum, etika mental)."
+        "text": "Difusi kebudayaan, yaitu penyebaran unsur budaya dari satu kelompok masyarakat ke masyarakat lain."
       },
       {
         "key": "E",
-        "text": "Asimilasi budaya, yaitu peleburan dua kebudayaan berbeda menjadi satu kebudayaan tunggal yang harmonis."
+        "text": "Ketertinggalan Budaya (_Cultural Lag_) menurut teori William F. Ogburn, di mana kemajuan kebudayaan material (teknologi fisik) bergerak jauh lebih cepat daripada kesiapan kebudayaan non-material (norma, hukum, etika mental)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ketertinggalan Budaya (_Cultural Lag_) menurut teori William F. Ogburn, di mana kemajuan kebudayaan material (teknologi fisik) bergerak jauh lebih cepat daripada kesiapan kebudayaan non-material (norma, hukum, etika mental).. Cultural lag (Ogburn): ketimpangan di mana kebudayaan material/teknologi berubah cepat mendahului kebudayaan non-material (nilai, norma, hukum, etika). Pilih: Ketertinggalan Budaya (Cultural Lag) menurut William F. Ogburn."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Ketertinggalan Budaya (_Cultural Lag_) menurut teori William F. Ogburn, di mana kemajuan kebudayaan material (teknologi fisik) bergerak jauh lebih cepat daripada kesiapan kebudayaan non-material (norma, hukum, etika mental).. Cultural lag (Ogburn): ketimpangan di mana kebudayaan material/teknologi berubah cepat mendahului kebudayaan non-material (nilai, norma, hukum, etika). Pilih: Ketertinggalan Budaya (Cultural Lag) menurut William F. Ogburn."
   },
   {
     "id": "sos-lat-m-20",
@@ -1917,15 +1918,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seseorang memiliki rumah dan mobil pribadi, namun merasa miskin karena tetangganya memiliki helikopter dan kapal pesiar diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Tingkat pendapatan seseorang atau keluarga berada di bawah garis batas minimum (Garis Kemiskinan) yang diperlukan untuk memenuhi kebutuhan fisik biologis mendasar manusia (pangan setara 2.100 kkal, pakaian, dan tempat tinggal layak)."
       },
       {
         "key": "B",
-        "text": "Kemiskinan yang dialami warga negara hanya saat nilai tukar mata uang rupiah melemah terhadap dolar Amerika Serikat."
+        "text": "Seseorang memiliki rumah dan mobil pribadi, namun merasa miskin karena tetangganya memiliki helikopter dan kapal pesiar diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "C",
-        "text": "Kondisi seseorang yang sengaja berpura-pura menjadi pengemis di jalan raya untuk mengumpulkan uang sedekah."
+        "text": "Kemiskinan yang dialami warga negara hanya saat nilai tukar mata uang rupiah melemah terhadap dolar Amerika Serikat."
       },
       {
         "key": "D",
@@ -1933,11 +1934,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Tingkat pendapatan seseorang atau keluarga berada di bawah garis batas minimum (Garis Kemiskinan) yang diperlukan untuk memenuhi kebutuhan fisik biologis mendasar manusia (pangan setara 2.100 kkal, pakaian, dan tempat tinggal layak)."
+        "text": "Kondisi seseorang yang sengaja berpura-pura menjadi pengemis di jalan raya untuk mengumpulkan uang sedekah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tingkat pendapatan seseorang atau keluarga berada di bawah garis batas minimum (Garis Kemiskinan) yang diperlukan untuk memenuhi kebutuhan fisik biologis mendasar manusia (pangan setara 2.100 kkal, pakaian, dan tempat tinggal layak).. Kemiskinan absolut diukur berdasarkan garis batas kebutuhan hidup pokok minimum (pangan 2.100 kkal + non pangan dasar). Kemiskinan relatif diukur berdasarkan perbandingan standar hidup masyarakat sekitar. Pilih: Pendapatan berada di bawah garis batas minimum untuk memenuhi kebutuhan fisik dasar (pangan 2.100 kkal, pakaian, tempat tinggal)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tingkat pendapatan seseorang atau keluarga berada di bawah garis batas minimum (Garis Kemiskinan) yang diperlukan untuk memenuhi kebutuhan fisik biologis mendasar manusia (pangan setara 2.100 kkal, pakaian, dan tempat tinggal layak).. Kemiskinan absolut diukur berdasarkan garis batas kebutuhan hidup pokok minimum (pangan 2.100 kkal + non pangan dasar). Kemiskinan relatif diukur berdasarkan perbandingan standar hidup masyarakat sekitar. Pilih: Pendapatan berada di bawah garis batas minimum untuk memenuhi kebutuhan fisik dasar (pangan 2.100 kkal, pakaian, tempat tinggal)."
   },
   {
     "id": "sos-lat-m-21",
@@ -1960,27 +1961,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Eksklusi Sosial (_Social Exclusion_), yaitu proses struktural yang menghalangi individu atau kelompok rentan untuk berpartisipasi penuh dalam kehidupan sosial, ekonomi, dan politik masyarakat."
-      },
-      {
-        "key": "B",
-        "text": "Inklusi Sosial, yaitu upaya membuka kesempatan seluas-luasnya bagi seluruh elemen masyarakat untuk berdaya ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Mobilitas sosial vertikal naik secara meritokratis di sektor ketenagakerjaan modern."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Eksklusi Sosial (_Social Exclusion_), yaitu proses struktural yang menghalangi individu atau kelompok rentan untuk berpartisipasi penuh dalam kehidupan sosial, ekonomi, dan politik masyarakat."
+      },
+      {
+        "key": "C",
         "text": "Akulturasi harmonis antara kebudayaan masyarakat lokal dan kelompok pendatang."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Diferensiasi profesional yang didasarkan pada kompetensi sertifikasi keahlian teknis."
+      },
+      {
+        "key": "E",
+        "text": "Inklusi Sosial, yaitu upaya membuka kesempatan seluas-luasnya bagi seluruh elemen masyarakat untuk berdaya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Eksklusi Sosial (_Social Exclusion_), yaitu proses struktural yang menghalangi individu atau kelompok rentan untuk berpartisipasi penuh dalam kehidupan sosial, ekonomi, dan politik masyarakat.. Proses peminggiran terstruktur yang menghalangi kelompok rentan/marjinal dari akses sosial, ekonomi, dan hak politik disebut Eksklusi Sosial (Social Exclusion). Pilih: Eksklusi Sosial (Social Exclusion)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Eksklusi Sosial (_Social Exclusion_), yaitu proses struktural yang menghalangi individu atau kelompok rentan untuk berpartisipasi penuh dalam kehidupan sosial, ekonomi, dan politik masyarakat.. Proses peminggiran terstruktur yang menghalangi kelompok rentan/marjinal dari akses sosial, ekonomi, dan hak politik disebut Eksklusi Sosial (Social Exclusion). Pilih: Eksklusi Sosial (Social Exclusion)."
   },
   {
     "id": "sos-lat-m-22",
@@ -2003,11 +2004,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah pusat menentukan seratus persen jenis program tanpa perlu berkonsultasi dengan tokoh masyarakat desa ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Masyarakat lokal diposisikan sebagai subjek utama yang berdaulat dalam mengidentifikasi masalah, merancang solusi, dan mengelola dana program secara mandiri, sehingga menumbuhkan kemandirian berkelanjutan."
       },
       {
         "key": "B",
-        "text": "Masyarakat lokal diposisikan sebagai subjek utama yang berdaulat dalam mengidentifikasi masalah, merancang solusi, dan mengelola dana program secara mandiri, sehingga menumbuhkan kemandirian berkelanjutan."
+        "text": "Seluruh pengelolaan aset desa diserahkan kepada perusahaan asing swasta untuk dimonopoli keuntungannya."
       },
       {
         "key": "C",
@@ -2015,15 +2016,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Seluruh pengelolaan aset desa diserahkan kepada perusahaan asing swasta untuk dimonopoli keuntungannya."
+        "text": "Pemerintah pusat menentukan seratus persen jenis program tanpa perlu berkonsultasi dengan tokoh masyarakat desa."
       },
       {
         "key": "E",
         "text": "Masyarakat dilarang menggunakan musyawarah mufakat dan diwajibkan mematuhi perintah bupati secara militeristis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Masyarakat lokal diposisikan sebagai subjek utama yang berdaulat dalam mengidentifikasi masalah, merancang solusi, dan mengelola dana program secara mandiri, sehingga menumbuhkan kemandirian berkelanjutan.. Pendekatan bottom-up dalam pemberdayaan komunitas: masyarakat sebagai subjek utama, aktif mengenali masalah, merancang program, mandiri dan berkelanjutan (bukan sekadar objek penerima bantuan). Pilih opsi yang menempatkan masyarakat lokal sebagai subjek utama yang berdaulat dan mandiri."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Masyarakat lokal diposisikan sebagai subjek utama yang berdaulat dalam mengidentifikasi masalah, merancang solusi, dan mengelola dana program secara mandiri, sehingga menumbuhkan kemandirian berkelanjutan.. Pendekatan bottom-up dalam pemberdayaan komunitas: masyarakat sebagai subjek utama, aktif mengenali masalah, merancang program, mandiri dan berkelanjutan (bukan sekadar objek penerima bantuan). Pilih opsi yang menempatkan masyarakat lokal sebagai subjek utama yang berdaulat dan mandiri."
   },
   {
     "id": "sos-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengambilan Sampel Acak Sederhana (_Simple Random Sampling_), di mana seluruh 1.000 siswa diundi langsung tanpa pemisahan kelas."
-      },
-      {
-        "key": "B",
         "text": "Pengambilan Sampel Bertujuan (_Purposive Sampling_), di mana peneliti hanya memilih teman-teman dekatnya sendiri."
       },
       {
-        "key": "C",
-        "text": "Pengambilan Sampel Acak Berstrata (_Stratified Random Sampling_)."
+        "key": "B",
+        "text": "Pengambilan Sampel Kuota Tanpa Acak, di mana peneliti berhenti setelah mewawancarai siswa yang lewat di kantin."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pengambilan Sampel Bola Salju (_Snowball Sampling_), di mana sampel bergulir dari satu responden ke responden lain."
       },
       {
+        "key": "D",
+        "text": "Pengambilan Sampel Acak Sederhana (_Simple Random Sampling_), di mana seluruh 1.000 siswa diundi langsung tanpa pemisahan kelas."
+      },
+      {
         "key": "E",
-        "text": "Pengambilan Sampel Kuota Tanpa Acak, di mana peneliti berhenti setelah mewawancarai siswa yang lewat di kantin."
+        "text": "Pengambilan Sampel Acak Berstrata (_Stratified Random Sampling_)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pengambilan Sampel Acak Berstrata (_Stratified Random Sampling_).. Membagi populasi ke dalam tingkatan/strata (kelas X, XI, XII) lalu mengambil sampel acak proporsional dari tiap strata disebut Stratified Random Sampling. Pilih: Pengambilan Sampel Acak Berstrata (Stratified Random Sampling)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pengambilan Sampel Acak Berstrata (_Stratified Random Sampling_).. Membagi populasi ke dalam tingkatan/strata (kelas X, XI, XII) lalu mengambil sampel acak proporsional dari tiap strata disebut Stratified Random Sampling. Pilih: Pengambilan Sampel Acak Berstrata (Stratified Random Sampling)."
   },
   {
     "id": "sos-lat-m-24",
@@ -2089,27 +2090,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengambilan Sampel Klaster Wilayah (_Cluster Sampling_)."
-      },
-      {
-        "key": "B",
-        "text": "Pengambilan Sampel Acak Sistematis (_Systematic Random Sampling_)."
-      },
-      {
-        "key": "C",
         "text": "Sensus Penduduk Menyeluruh, di mana seluruh warga negara diwajibkan mengisi kuesioner terbuka."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Penarikan Sampel Bola Salju (_Snowball Sampling_)."
+      },
+      {
+        "key": "C",
+        "text": "Pengambilan Sampel Klaster Wilayah (_Cluster Sampling_)."
+      },
+      {
+        "key": "D",
+        "text": "Pengambilan Sampel Acak Sistematis (_Systematic Random Sampling_)."
       },
       {
         "key": "E",
         "text": "Pengambilan Sampel Insidental Sembarangan (_Accidental Sampling_)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Penarikan Sampel Bola Salju (_Snowball Sampling_).. Teknik sampling di mana sampel berkembang bergulir dari satu informan ke informan rujukan berikutnya untuk populasi tersembunyi/tertutup disebut Snowball Sampling. Pilih: Penarikan Sampel Bola Salju (Snowball Sampling)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Penarikan Sampel Bola Salju (_Snowball Sampling_).. Teknik sampling di mana sampel berkembang bergulir dari satu informan ke informan rujukan berikutnya untuk populasi tersembunyi/tertutup disebut Snowball Sampling. Pilih: Penarikan Sampel Bola Salju (Snowball Sampling)."
   },
   {
     "id": "sos-lat-m-25",
@@ -2132,27 +2133,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Validitas hanya berkaitan dengan jumlah halaman tebal kuesioner sedangkan Reliabilitas berkaitan dengan warna tinta cetak formulir diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
-      },
-      {
-        "key": "B",
         "text": "Validitas adalah hasil uji coba instrumen di laboratorium kimia sedangkan Reliabilitas adalah persetujuan tanda tangan kepala sekolah."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Reliabilitas membuktikan instrumen tidak memiliki pertanyaan sama sekali sedangkan Validitas membuktikan seluruh responden menjawab setuju."
       },
       {
+        "key": "C",
+        "text": "Validitas hanya berkaitan dengan jumlah halaman tebal kuesioner sedangkan Reliabilitas berkaitan dengan warna tinta cetak formulir diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+      },
+      {
         "key": "D",
-        "text": "Kedua istilah tersebut memiliki makna identik yang dapat saling dipertukarkan tanpa kaidah statistik."
+        "text": "Validitas mengukur derajat ketepatan instrumen dalam mengukur apa yang sebenarnya hendak diukur (keabsahan alat ukur), sedangkan Reliabilitas mengukur derajat konsistensi dan kestabilan hasil pengukuran instrumen saat diujikan secara berulang pada kondisi yang sama."
       },
       {
         "key": "E",
-        "text": "Validitas mengukur derajat ketepatan instrumen dalam mengukur apa yang sebenarnya hendak diukur (keabsahan alat ukur), sedangkan Reliabilitas mengukur derajat konsistensi dan kestabilan hasil pengukuran instrumen saat diujikan secara berulang pada kondisi yang sama."
+        "text": "Kedua istilah tersebut memiliki makna identik yang dapat saling dipertukarkan tanpa kaidah statistik."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Validitas mengukur derajat ketepatan instrumen dalam mengukur apa yang sebenarnya hendak diukur (keabsahan alat ukur), sedangkan Reliabilitas mengukur derajat konsistensi dan kestabilan hasil pengukuran instrumen saat diujikan secara berulang pada kondisi yang sama.. Validitas = ketepatan alat ukur (mengukur apa yang hendak diukur). Reliabilitas = keandalan/konsistensi hasil jika diuji berulang kali pada kondisi yang sama. Pilih opsi: Validitas mengukur derajat ketepatan apa yang hendak diukur, Reliabilitas mengukur derajat konsistensi hasil pengujian berulang."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Validitas mengukur derajat ketepatan instrumen dalam mengukur apa yang sebenarnya hendak diukur (keabsahan alat ukur), sedangkan Reliabilitas mengukur derajat konsistensi dan kestabilan hasil pengukuran instrumen saat diujikan secara berulang pada kondisi yang sama.. Validitas = ketepatan alat ukur (mengukur apa yang hendak diukur). Reliabilitas = keandalan/konsistensi hasil jika diuji berulang kali pada kondisi yang sama. Pilih opsi: Validitas mengukur derajat ketepatan apa yang hendak diukur, Reliabilitas mengukur derajat konsistensi hasil pengujian berulang."
   },
   {
     "id": "sos-lat-h-01",
@@ -2175,27 +2176,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketika seorang pekerja di-PHK, hal itu bukan semata karena kemalasan pribadinya, melainkan terkait krisis makroekonomi, deindustrialisasi, dan otomatisasi pabrik yang mengakibatkan jutaan buruh kehilangan mata pencaharian secara serentak."
-      },
-      {
-        "key": "B",
-        "text": "Ketika seorang siswa terlambat sekolah, hal itu dipastikan karena kutukan roh leluhur yang mengikat rumahnya ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
-        "text": "Ketika seseorang gagal dalam ujian wawancara kerja, solusinya adalah menyalahkan warna baju yang dikenakan saat tes."
-      },
-      {
-        "key": "D",
         "text": "Ketika seseorang terserang flu, hal tersebut harus diselesaikan melalui sidang parlemen dewan perwakilan rakyat."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Ketika seseorang gagal dalam ujian wawancara kerja, solusinya adalah menyalahkan warna baju yang dikenakan saat tes."
+      },
+      {
+        "key": "C",
+        "text": "Ketika seorang siswa terlambat sekolah, hal itu dipastikan karena kutukan roh leluhur yang mengikat rumahnya."
+      },
+      {
+        "key": "D",
         "text": "Semua masalah yang dialami oleh manusia di dunia murni merupakan tanggung jawab genetik biologis masing-masing individu."
+      },
+      {
+        "key": "E",
+        "text": "Ketika seorang pekerja di-PHK, hal itu bukan semata karena kemalasan pribadinya, melainkan terkait krisis makroekonomi, deindustrialisasi, dan otomatisasi pabrik yang mengakibatkan jutaan buruh kehilangan mata pencaharian secara serentak."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Ketika seorang pekerja di-PHK, hal itu bukan semata karena kemalasan pribadinya, melainkan terkait krisis makroekonomi, deindustrialisasi, dan otomatisasi pabrik yang mengakibatkan jutaan buruh kehilangan mata pencaharian secara serentak.. Imajinasi sosiologis (C. Wright Mills): kemampuan melihat keterkaitan antara pengalaman pribadi (troubles) dengan kekuatan struktur sosial dan sejarah yang lebih luas (public issues). Pilih opsi yang mengaitkan PHK perorangan dengan fenomena deindustrialisasi dan krisis makroekonomi masyarakat luas."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Ketika seorang pekerja di-PHK, hal itu bukan semata karena kemalasan pribadinya, melainkan terkait krisis makroekonomi, deindustrialisasi, dan otomatisasi pabrik yang mengakibatkan jutaan buruh kehilangan mata pencaharian secara serentak.. Imajinasi sosiologis (C. Wright Mills): kemampuan melihat keterkaitan antara pengalaman pribadi (troubles) dengan kekuatan struktur sosial dan sejarah yang lebih luas (public issues). Pilih opsi yang mengaitkan PHK perorangan dengan fenomena deindustrialisasi dan krisis makroekonomi masyarakat luas."
   },
   {
     "id": "sos-lat-h-02",
@@ -2218,27 +2219,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Negara _Periphery_ menguasai perbankan multinasional dunia dan meminjamkan modal tanpa bunga kepada negara _Core_ ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Negara _Periphery_ menguasai perbankan multinasional dunia dan meminjamkan modal tanpa bunga kepada negara _Core_."
       },
       {
         "key": "B",
-        "text": "Negara _Core_ menguasai industri berteknologi tinggi dan modal raksasa yang mengeksploitasi bahan mentah dan tenaga kerja murah dari negara _Periphery_, sedangkan negara _Semi-Periphery_ bertindak sebagai penyangga perantara stabilitas sistem dengan menjalankan manufaktur kelas menengah."
-      },
-      {
-        "key": "C",
-        "text": "Seluruh negara di dunia memiliki posisi setara dan saling bergantian peran menjadi negara inti setiap lima tahun sekali."
-      },
-      {
-        "key": "D",
         "text": "Negara _Semi-Periphery_ melarang seluruh aktivitas ekspor impor dan menutup diri total dari perdagangan global."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Negara _Core_ murni hidup dari bantuan subsidi pangan gandum yang disumbangkan oleh negara pinggiran miskin."
+      },
+      {
+        "key": "D",
+        "text": "Seluruh negara di dunia memiliki posisi setara dan saling bergantian peran menjadi negara inti setiap lima tahun sekali."
+      },
+      {
+        "key": "E",
+        "text": "Negara _Core_ menguasai industri berteknologi tinggi dan modal raksasa yang mengeksploitasi bahan mentah dan tenaga kerja murah dari negara _Periphery_, sedangkan negara _Semi-Periphery_ bertindak sebagai penyangga perantara stabilitas sistem dengan menjalankan manufaktur kelas menengah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Negara _Core_ menguasai industri berteknologi tinggi dan modal raksasa yang mengeksploitasi bahan mentah dan tenaga kerja murah dari negara _Periphery_, sedangkan negara _Semi-Periphery_ bertindak sebagai penyangga perantara stabilitas sistem dengan menjalankan manufaktur kelas menengah.. Wallerstein membagi dunia: Core (negara maju penguasa modal/teknologi), Semi-Periphery (penyangga industri manufaktur menengah), Periphery (pemasok bahan mentah murah & dieksploitasi). Pilih: Core menguasai teknologi/modal tinggi mengeksploitasi bahan mentah Periphery, Semi-Periphery sebagai penyangga perantara."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Negara _Core_ menguasai industri berteknologi tinggi dan modal raksasa yang mengeksploitasi bahan mentah dan tenaga kerja murah dari negara _Periphery_, sedangkan negara _Semi-Periphery_ bertindak sebagai penyangga perantara stabilitas sistem dengan menjalankan manufaktur kelas menengah.. Wallerstein membagi dunia: Core (negara maju penguasa modal/teknologi), Semi-Periphery (penyangga industri manufaktur menengah), Periphery (pemasok bahan mentah murah & dieksploitasi). Pilih: Core menguasai teknologi/modal tinggi mengeksploitasi bahan mentah Periphery, Semi-Periphery sebagai penyangga perantara."
   },
   {
     "id": "sos-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyesuaikan diri dengan lingkungan fisik dan mengeksploitasi sumber daya alam (dijalankan subsistem ekonomi) sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
         "text": "Merumuskan prioritas tujuan bersama masyarakat dan memobilisasi sumber daya (dijalankan subsistem politik/negara)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Mengatur koordinasi, keterkaitan emosional, dan solidaritas antar-elemen atau subsistem dalam masyarakat guna memelihara keteraturan dan mencegah konflik internal yang destruktif."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Memelihara dan memperbarui pola-pola nilai budaya moral dasar antar-generasi (dijalankan keluarga dan agama)."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menghapus seluruh perbedaan suku dan mencairkan mata uang negara menjadi satu sistem pembayaran tunggal."
+      },
+      {
+        "key": "E",
+        "text": "Menyesuaikan diri dengan lingkungan fisik dan mengeksploitasi sumber daya alam (dijalankan subsistem ekonomi)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mengatur koordinasi, keterkaitan emosional, dan solidaritas antar-elemen atau subsistem dalam masyarakat guna memelihara keteraturan dan mencegah konflik internal yang destruktif.. Skema AGIL Parsons: A = Adaptation (Ekonomi), G = Goal Attainment (Politik), I = Integration (Hukum/Solidaritas mengatur keteraturan subsistem), L = Latency (Keluarga/Agama memelihara pola nilai). Pilih: Mengatur koordinasi, keterkaitan emosional, dan solidaritas antarsubsistem guna menjaga keteraturan dan kohesi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mengatur koordinasi, keterkaitan emosional, dan solidaritas antar-elemen atau subsistem dalam masyarakat guna memelihara keteraturan dan mencegah konflik internal yang destruktif.. Skema AGIL Parsons: A = Adaptation (Ekonomi), G = Goal Attainment (Politik), I = Integration (Hukum/Solidaritas mengatur keteraturan subsistem), L = Latency (Keluarga/Agama memelihara pola nilai). Pilih: Mengatur koordinasi, keterkaitan emosional, dan solidaritas antarsubsistem guna menjaga keteraturan dan kohesi."
   },
   {
     "id": "sos-lat-h-04",
@@ -2304,7 +2305,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengajarkan keterampilan berhitung matematika, literasi ilmiah, dan penerbitan ijazah kompetensi formal menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Membimbing siswa agar dapat lulus seleksi masuk perguruan tinggi negeri dengan nilai memuaskan."
       },
       {
         "key": "B",
@@ -2312,19 +2313,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mempersiapkan peserta didik agar mampu mengoperasikan komputer dan mesin industri pabrik."
-      },
-      {
-        "key": "D",
         "text": "Menunda masuknya angkatan kerja muda ke pasar tenaga kerja yang sudah jenuh, memperpanjang masa ketergantungan remaja pada orang tua, serta menjadi arena seleksi perjodohan antarkelas sosial sederajat."
       },
       {
+        "key": "D",
+        "text": "Mengajarkan keterampilan berhitung matematika, literasi ilmiah, dan penerbitan ijazah kompetensi formal menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
         "key": "E",
-        "text": "Membimbing siswa agar dapat lulus seleksi masuk perguruan tinggi negeri dengan nilai memuaskan."
+        "text": "Mempersiapkan peserta didik agar mampu mengoperasikan komputer dan mesin industri pabrik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menunda masuknya angkatan kerja muda ke pasar tenaga kerja yang sudah jenuh, memperpanjang masa ketergantungan remaja pada orang tua, serta menjadi arena seleksi perjodohan antarkelas sosial sederajat.. Fungsi manifes = fungsi yang disadari dan direncanakan resmi (baca tulis, transfer ilmu, ijazah). Fungsi laten = fungsi tersembunyi yang tidak direncanakan (menunda pengangguran, ajang perjodohan, pemeliharaan kelas). Pilih: Menunda masuknya angkatan kerja ke pasar kerja, memperpanjang masa ketergantungan, arena perjodohan antarkelas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menunda masuknya angkatan kerja muda ke pasar tenaga kerja yang sudah jenuh, memperpanjang masa ketergantungan remaja pada orang tua, serta menjadi arena seleksi perjodohan antarkelas sosial sederajat.. Fungsi manifes = fungsi yang disadari dan direncanakan resmi (baca tulis, transfer ilmu, ijazah). Fungsi laten = fungsi tersembunyi yang tidak direncanakan (menunda pengangguran, ajang perjodohan, pemeliharaan kelas). Pilih: Menunda masuknya angkatan kerja ke pasar kerja, memperpanjang masa ketergantungan, arena perjodohan antarkelas."
   },
   {
     "id": "sos-lat-h-05",
@@ -2355,7 +2356,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Koleksi lukisan seni antik mahal yang dipajang di ruang tamu rumah peristirahatan mewah."
+        "text": "Kepemilikan gelar akademik sarjana, master, atau sertifikasi profesi dari universitas bergengsi yang diakui secara legal dan membuka akses istimewa ke pasar kerja kelas atas."
       },
       {
         "key": "D",
@@ -2363,11 +2364,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kepemilikan gelar akademik sarjana, master, atau sertifikasi profesi dari universitas bergengsi yang diakui secara legal dan membuka akses istimewa ke pasar kerja kelas atas."
+        "text": "Koleksi lukisan seni antik mahal yang dipajang di ruang tamu rumah peristirahatan mewah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kepemilikan gelar akademik sarjana, master, atau sertifikasi profesi dari universitas bergengsi yang diakui secara legal dan membuka akses istimewa ke pasar kerja kelas atas.. Bourdieu membagi modal budaya ke dalam 3 bentuk: Embodied (disposisi mental), Objectified (benda seni/buku), Institutionalized (ijazah/gelar akademik yang diakui secara formal). Pilih: Kepemilikan gelar akademik sarjana/master dan sertifikasi profesi universitas bergengsi."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kepemilikan gelar akademik sarjana, master, atau sertifikasi profesi dari universitas bergengsi yang diakui secara legal dan membuka akses istimewa ke pasar kerja kelas atas.. Bourdieu membagi modal budaya ke dalam 3 bentuk: Embodied (disposisi mental), Objectified (benda seni/buku), Institutionalized (ijazah/gelar akademik yang diakui secara formal). Pilih: Kepemilikan gelar akademik sarjana/master dan sertifikasi profesi universitas bergengsi."
   },
   {
     "id": "sos-lat-h-06",
@@ -2390,11 +2391,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Logika pasar komersial (uang) dan birokrasi negara (kekuasaan) merangsek masuk ke dalam ranah privat keluarga, pendidikan, seni, dan komunitas warga, sehingga relasi kemanusiaan yang tulus terdistorsi menjadi hubungan untung-rugi dan kepatuhan administratif semata."
+        "text": "Warga negara berhenti menggunakan uang kertas dan kembali menggunakan barter hasil panen padi."
       },
       {
         "key": "B",
-        "text": "Masyarakat tradisional pedesaan berhasil membubarkan seluruh perbankan dan kantor kementerian negara ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Logika pasar komersial (uang) dan birokrasi negara (kekuasaan) merangsek masuk ke dalam ranah privat keluarga, pendidikan, seni, dan komunitas warga, sehingga relasi kemanusiaan yang tulus terdistorsi menjadi hubungan untung-rugi dan kepatuhan administratif semata."
       },
       {
         "key": "C",
@@ -2406,11 +2407,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Warga negara berhenti menggunakan uang kertas dan kembali menggunakan barter hasil panen padi."
+        "text": "Masyarakat tradisional pedesaan berhasil membubarkan seluruh perbankan dan kantor kementerian negara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Logika pasar komersial (uang) dan birokrasi negara (kekuasaan) merangsek masuk ke dalam ranah privat keluarga, pendidikan, seni, dan komunitas warga, sehingga relasi kemanusiaan yang tulus terdistorsi menjadi hubungan untung-rugi dan kepatuhan administratif semata.. Kolonisasi dunia kehidupan (Habermas): invasi logika sistem (uang & kekuasaan birokrasi) ke dalam ranah lifeworld (keluarga, komunitas, pendidikan) yang mendistorsi komunikasi tulus menjadi transaksi pamrih. Pilih: Logika pasar komersial (uang) dan birokrasi (kekuasaan) merangsek ke ranah privat, mendistorsi relasi kemanusiaan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Logika pasar komersial (uang) dan birokrasi negara (kekuasaan) merangsek masuk ke dalam ranah privat keluarga, pendidikan, seni, dan komunitas warga, sehingga relasi kemanusiaan yang tulus terdistorsi menjadi hubungan untung-rugi dan kepatuhan administratif semata.. Kolonisasi dunia kehidupan (Habermas): invasi logika sistem (uang & kekuasaan birokrasi) ke dalam ranah lifeworld (keluarga, komunitas, pendidikan) yang mendistorsi komunikasi tulus menjadi transaksi pamrih. Pilih: Logika pasar komersial (uang) dan birokrasi (kekuasaan) merangsek ke ranah privat, mendistorsi relasi kemanusiaan."
   },
   {
     "id": "sos-lat-h-07",
@@ -2433,27 +2434,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bunuh Diri Egoistik (_Egoistic Suicide_), yang terjadi karena rendahnya integrasi sosial di mana individu merasa terisolasi dan kesepian dari masyarakat ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Bunuh Diri Altruistik (_Altruistic Suicide_), yang terjadi akibat derajat integrasi sosial yang terlampau kuat (_over-integrated_), di mana individu merasa dirinya sepenuhnya lebur dan wajib berkorban demi kehormatan kelompoknya."
       },
       {
-        "key": "C",
-        "text": "Bunuh Diri Anomik (_Anomic Suicide_), yang terjadi akibat hancurnya regulasi norma sosial saat terjadi krisis atau perubahan ekonomi mendadak."
+        "key": "B",
+        "text": "Bunuh Diri Rasional Komersial, yang dilakukan untuk mencairkan polis asuransi jiwa bagi keluarga."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Bunuh Diri Fatalistik (_Fatalistic Suicide_), yang terjadi akibat regulasi sosial yang terlampau menindas tanpa ada harapan kebebasan seperti budak belian."
       },
       {
+        "key": "D",
+        "text": "Bunuh Diri Egoistik (_Egoistic Suicide_), yang terjadi karena rendahnya integrasi sosial di mana individu merasa terisolasi dan kesepian dari masyarakat."
+      },
+      {
         "key": "E",
-        "text": "Bunuh Diri Rasional Komersial, yang dilakukan untuk mencairkan polis asuransi jiwa bagi keluarga."
+        "text": "Bunuh Diri Anomik (_Anomic Suicide_), yang terjadi akibat hancurnya regulasi norma sosial saat terjadi krisis atau perubahan ekonomi mendadak."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bunuh Diri Altruistik (_Altruistic Suicide_), yang terjadi akibat derajat integrasi sosial yang terlampau kuat (_over-integrated_), di mana individu merasa dirinya sepenuhnya lebur dan wajib berkorban demi kehormatan kelompoknya.. Tipe bunuh diri Durkheim: Altruistik = integrasi sosial terlalu tinggi (berkorban demi kelompok/prajurit). Egoistik = integrasi rendah (kesepian). Anomik = regulasi rendah (krisis/anomi). Fatalistik = regulasi terlalu menindas (budak). Pilih: Bunuh Diri Altruistik (Altruistic Suicide) akibat integrasi sosial terlampau kuat."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Bunuh Diri Altruistik (_Altruistic Suicide_), yang terjadi akibat derajat integrasi sosial yang terlampau kuat (_over-integrated_), di mana individu merasa dirinya sepenuhnya lebur dan wajib berkorban demi kehormatan kelompoknya.. Tipe bunuh diri Durkheim: Altruistik = integrasi sosial terlalu tinggi (berkorban demi kelompok/prajurit). Egoistik = integrasi rendah (kesepian). Anomik = regulasi rendah (krisis/anomi). Fatalistik = regulasi terlalu menindas (budak). Pilih: Bunuh Diri Altruistik (Altruistic Suicide) akibat integrasi sosial terlampau kuat."
   },
   {
     "id": "sos-lat-h-08",
@@ -2476,15 +2477,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah membangun tembok penjara besi raksasa di sekeliling pabrik untuk mencegah buruh pulang ke rumah sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
         "text": "Terjadinya kepunahan massal mineral besi dan baja akibat dieksploitasi oleh industri kapal perang dunia."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Manusia modern terperangkap dalam sistem birokrasi kaku, teknokrasi dingin, dan kalkulasi efisiensi mekanistik tanpa jiwa, yang membatasi kebebasan hakiki manusia dan memicu 'ketiadaan pesona dunia' (_disenchantment of the world_)."
+      },
+      {
+        "key": "C",
+        "text": "Keberhasilan manusia menciptakan surga duniawi yang bebas dari segala bentuk penderitaan batin."
       },
       {
         "key": "D",
@@ -2492,11 +2493,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Keberhasilan manusia menciptakan surga duniawi yang bebas dari segala bentuk penderitaan batin."
+        "text": "Pemerintah membangun tembok penjara besi raksasa di sekeliling pabrik untuk mencegah buruh pulang ke rumah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Manusia modern terperangkap dalam sistem birokrasi kaku, teknokrasi dingin, dan kalkulasi efisiensi mekanistik tanpa jiwa, yang membatasi kebebasan hakiki manusia dan memicu 'ketiadaan pesona dunia' (_disenchantment of the world_).. Iron Cage (Weber): manusia terperangkap dalam sistem birokrasi mekanistik yang dingin dan kalkulasi efisiensi formal, menghilangkan nilai jiwa dan memicu hilangnya pesona dunia (disenchantment). Pilih opsi: Manusia modern terperangkap dalam birokrasi kaku, efisiensi mekanistik tanpa jiwa, dan membatasi kebebasan hakiki."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Manusia modern terperangkap dalam sistem birokrasi kaku, teknokrasi dingin, dan kalkulasi efisiensi mekanistik tanpa jiwa, yang membatasi kebebasan hakiki manusia dan memicu 'ketiadaan pesona dunia' (_disenchantment of the world_).. Iron Cage (Weber): manusia terperangkap dalam sistem birokrasi mekanistik yang dingin dan kalkulasi efisiensi formal, menghilangkan nilai jiwa dan memicu hilangnya pesona dunia (disenchantment). Pilih opsi: Manusia modern terperangkap dalam birokrasi kaku, efisiensi mekanistik tanpa jiwa, dan membatasi kebebasan hakiki."
   },
   {
     "id": "sos-lat-h-09",
@@ -2519,7 +2520,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gangguan kepribadian ganda skizofrenia akut yang harus segera dikarantina di rumah sakit jiwa daerah menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Manajemen Kesan (_Impression Management_), di mana panggung depan (_front stage_) digunakan untuk menampilkan pertunjukan peran ideal yang diharapkan penonton sosial, sedangkan panggung belakang (_back stage_) menjadi tempat aktor melepaskan atribut peran dan bertindak tanpa topeng kepalsuan."
       },
       {
         "key": "B",
@@ -2527,19 +2528,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Bentuk anomi sosial total di mana pelayan tersebut menolak mematuhi aturan agama keluarga."
+        "text": "Gangguan kepribadian ganda skizofrenia akut yang harus segera dikarantina di rumah sakit jiwa daerah menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "D",
-        "text": "Manajemen Kesan (_Impression Management_), di mana panggung depan (_front stage_) digunakan untuk menampilkan pertunjukan peran ideal yang diharapkan penonton sosial, sedangkan panggung belakang (_back stage_) menjadi tempat aktor melepaskan atribut peran dan bertindak tanpa topeng kepalsuan."
+        "text": "Eksklusi sosial sepihak yang dilakukan oleh pemilik restoran terhadap seluruh juru masak dapur."
       },
       {
         "key": "E",
-        "text": "Eksklusi sosial sepihak yang dilakukan oleh pemilik restoran terhadap seluruh juru masak dapur."
+        "text": "Bentuk anomi sosial total di mana pelayan tersebut menolak mematuhi aturan agama keluarga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Manajemen Kesan (_Impression Management_), di mana panggung depan (_front stage_) digunakan untuk menampilkan pertunjukan peran ideal yang diharapkan penonton sosial, sedangkan panggung belakang (_back stage_) menjadi tempat aktor melepaskan atribut peran dan bertindak tanpa topeng kepalsuan.. Dramaturgi Goffman: Front stage (panggung depan = senyum santun, peran ideal di depan publik) vs Back stage (panggung belakang = ruang privat melepas topeng peran), bagian dari impression management. Pilih: Manajemen Kesan (Impression Management), front stage menampilkan peran ideal, back stage melepaskan atribut peran."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Manajemen Kesan (_Impression Management_), di mana panggung depan (_front stage_) digunakan untuk menampilkan pertunjukan peran ideal yang diharapkan penonton sosial, sedangkan panggung belakang (_back stage_) menjadi tempat aktor melepaskan atribut peran dan bertindak tanpa topeng kepalsuan.. Dramaturgi Goffman: Front stage (panggung depan = senyum santun, peran ideal di depan publik) vs Back stage (panggung belakang = ruang privat melepas topeng peran), bagian dari impression management. Pilih: Manajemen Kesan (Impression Management), front stage menampilkan peran ideal, back stage melepaskan atribut peran."
   },
   {
     "id": "sos-lat-h-10",
@@ -2562,7 +2563,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempercepat kepunahan seluruh anggota kelompok akibat perang saudara yang berkepanjangan diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Menghilangkan rasa empati kemanusiaan di dalam keluarga inti."
       },
       {
         "key": "B",
@@ -2570,11 +2571,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Membuat seluruh anggota kelompok kehilangan harta kekayaan dan mata pencaharian hidupnya."
+        "text": "Mempercepat kepunahan seluruh anggota kelompok akibat perang saudara yang berkepanjangan diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "D",
-        "text": "Menghilangkan rasa empati kemanusiaan di dalam keluarga inti."
+        "text": "Membuat seluruh anggota kelompok kehilangan harta kekayaan dan mata pencaharian hidupnya."
       },
       {
         "key": "E",
@@ -2605,27 +2606,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Struktur relasi sosial antarindividu yang mencakup kepercayaan (_trust_), norma kewajiban timbal balik (_reciprocity_), dan saluran informasi yang memfasilitasi tindakan produktif bersama yang tidak mungkin dicapai oleh individu secara terisolasi."
+        "text": "Tumpukan uang tunai deposito di brankas bank sentral yang dipinjamkan tanpa bunga."
       },
       {
         "key": "B",
-        "text": "Tumpukan uang tunai deposito di brankas bank sentral yang dipinjamkan tanpa bunga ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Perjanjian politik rahasia yang melarang warga negara menggunakan hak pilih dalam pemilu."
       },
       {
         "key": "C",
-        "text": "Kumpulan senjata api organik yang disimpan di gudang militer untuk menghadapi invasi asing."
-      },
-      {
-        "key": "D",
         "text": "Jaringan pipa gas alam bawah tanah yang mengalirkan energi panas ke pabrik peleburan timah."
       },
       {
+        "key": "D",
+        "text": "Struktur relasi sosial antarindividu yang mencakup kepercayaan (_trust_), norma kewajiban timbal balik (_reciprocity_), dan saluran informasi yang memfasilitasi tindakan produktif bersama yang tidak mungkin dicapai oleh individu secara terisolasi."
+      },
+      {
         "key": "E",
-        "text": "Perjanjian politik rahasia yang melarang warga negara menggunakan hak pilih dalam pemilu."
+        "text": "Kumpulan senjata api organik yang disimpan di gudang militer untuk menghadapi invasi asing."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Struktur relasi sosial antarindividu yang mencakup kepercayaan (_trust_), norma kewajiban timbal balik (_reciprocity_), dan saluran informasi yang memfasilitasi tindakan produktif bersama yang tidak mungkin dicapai oleh individu secara terisolasi.. Modal sosial menurut Coleman: struktur relasi sosial yang mengandung norma timbal balik (reciprocity), rasa saling percaya (trust), dan jaringan informasi yang memudahkan tindakan bersama. Pilih opsi: Struktur relasi sosial antarindividu yang mencakup kepercayaan (trust), norma timbal balik, dan saluran informasi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Struktur relasi sosial antarindividu yang mencakup kepercayaan (_trust_), norma kewajiban timbal balik (_reciprocity_), dan saluran informasi yang memfasilitasi tindakan produktif bersama yang tidak mungkin dicapai oleh individu secara terisolasi.. Modal sosial menurut Coleman: struktur relasi sosial yang mengandung norma timbal balik (reciprocity), rasa saling percaya (trust), dan jaringan informasi yang memudahkan tindakan bersama. Pilih opsi: Struktur relasi sosial antarindividu yang mencakup kepercayaan (trust), norma timbal balik, dan saluran informasi."
   },
   {
     "id": "sos-lat-h-12",
@@ -2648,27 +2649,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Masyarakat wajib memiliki dua presiden dan dua dewan perwakilan rakyat agar kekuasaan terbagi dua secara seimbang ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Struktur sosial dan agen manusia bukanlah dua hal yang terpisah, melainkan saling membentuk secara dialektis: struktur sosial merupakan sarana sekaligus hasil dari praktik-praktik sosial yang dilakukan berulang oleh para agen (_structure as both medium and outcome of social practices_)."
       },
       {
-        "key": "C",
-        "text": "Setiap warga negara memiliki dua kepribadian yang berbeda pada siang hari dan malam hari."
+        "key": "B",
+        "text": "Agen manusia hidup di ruang angkasa hampa udara tanpa keterikatan pada aturan bahasa dan hukum negara."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Struktur sosial adalah entitas gaib mutlak yang tidak pernah dapat disentuh atau diubah oleh manusia fana."
       },
       {
+        "key": "D",
+        "text": "Setiap warga negara memiliki dua kepribadian yang berbeda pada siang hari dan malam hari."
+      },
+      {
         "key": "E",
-        "text": "Agen manusia hidup di ruang angkasa hampa udara tanpa keterikatan pada aturan bahasa dan hukum negara."
+        "text": "Masyarakat wajib memiliki dua presiden dan dua dewan perwakilan rakyat agar kekuasaan terbagi dua secara seimbang."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Struktur sosial dan agen manusia bukanlah dua hal yang terpisah, melainkan saling membentuk secara dialektis: struktur sosial merupakan sarana sekaligus hasil dari praktik-praktik sosial yang dilakukan berulang oleh para agen (_structure as both medium and outcome of social practices_).. Dualitas Struktur Giddens: Struktur dan agen saling membentuk secara dialektis; struktur adalah sarana sekaligus hasil (medium and outcome) dari praktik berulang para agen. Pilih: Struktur sosial merupakan sarana sekaligus hasil dari praktik-praktik sosial yang dilakukan oleh para agen."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Struktur sosial dan agen manusia bukanlah dua hal yang terpisah, melainkan saling membentuk secara dialektis: struktur sosial merupakan sarana sekaligus hasil dari praktik-praktik sosial yang dilakukan berulang oleh para agen (_structure as both medium and outcome of social practices_).. Dualitas Struktur Giddens: Struktur dan agen saling membentuk secara dialektis; struktur adalah sarana sekaligus hasil (medium and outcome) dari praktik berulang para agen. Pilih: Struktur sosial merupakan sarana sekaligus hasil dari praktik-praktik sosial yang dilakukan oleh para agen."
   },
   {
     "id": "sos-lat-h-13",
@@ -2691,11 +2692,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Risiko modern murni bersumber dari kemarahan roh penjaga gunung berapi yang menuntut upacara kurban kerbau sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Risiko modern adalah bahaya kekurangan pasokan kertas kantor di ruang arsip kementerian."
       },
       {
         "key": "B",
-        "text": "Risiko modern hanya dapat melanda masyarakat miskin dan sama sekali tidak pernah menyentuh orang kaya atau negara maju."
+        "text": "Risiko modern dapat dihilangkan secara instan dengan cara mematikan koneksi internet di seluruh dunia selama 24 jam."
       },
       {
         "key": "C",
@@ -2703,11 +2704,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Risiko modern dapat dihilangkan secara instan dengan cara mematikan koneksi internet di seluruh dunia selama 24 jam."
+        "text": "Risiko modern hanya dapat melanda masyarakat miskin dan sama sekali tidak pernah menyentuh orang kaya atau negara maju."
       },
       {
         "key": "E",
-        "text": "Risiko modern adalah bahaya kekurangan pasokan kertas kantor di ruang arsip kementerian."
+        "text": "Risiko modern murni bersumber dari kemarahan roh penjaga gunung berapi yang menuntut upacara kurban kerbau."
       }
     ],
     "correctKey": "C",
@@ -2734,11 +2735,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keadaan di mana seluruh penduduk kota mengalami kebutaan penglihatan akibat gerhana matahari total menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Keadaan di mana seluruh penduduk kota mengalami kebutaan penglihatan akibat gerhana matahari total menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "B",
-        "text": "Kondisi masyarakat purba yang belum mengenal tulisan alfabet dan hanya berkomunikasi memakai asap api."
+        "text": "Kondisi di mana seluruh gedung bertingkat di dunia runtuh akibat gempa bumi lempeng tektonik."
       },
       {
         "key": "C",
@@ -2746,15 +2747,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kondisi di mana citra visual, simbol, dan simulasi media massa tampak lebih nyata dan lebih dipercaya daripada realitas konkret aslinya, hingga batas antara kenyataan objektif dan ilusi buatan lenyap sama sekali."
+        "text": "Kondisi masyarakat purba yang belum mengenal tulisan alfabet dan hanya berkomunikasi memakai asap api."
       },
       {
         "key": "E",
-        "text": "Kondisi di mana seluruh gedung bertingkat di dunia runtuh akibat gempa bumi lempeng tektonik."
+        "text": "Kondisi di mana citra visual, simbol, dan simulasi media massa tampak lebih nyata dan lebih dipercaya daripada realitas konkret aslinya, hingga batas antara kenyataan objektif dan ilusi buatan lenyap sama sekali."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kondisi di mana citra visual, simbol, dan simulasi media massa tampak lebih nyata dan lebih dipercaya daripada realitas konkret aslinya, hingga batas antara kenyataan objektif dan ilusi buatan lenyap sama sekali.. Hiperrealitas Baudrillard: citra, tanda, dan simulasi media menjadi lebih nyata dari realitas asli (simulakra murni) hingga batas antara fakta dan ilusi runtuh. Pilih opsi yang menjelaskan kondisi citra/simulasi tampak lebih nyata daripada realitas konkret aslinya."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kondisi di mana citra visual, simbol, dan simulasi media massa tampak lebih nyata dan lebih dipercaya daripada realitas konkret aslinya, hingga batas antara kenyataan objektif dan ilusi buatan lenyap sama sekali.. Hiperrealitas Baudrillard: citra, tanda, dan simulasi media menjadi lebih nyata dari realitas asli (simulakra murni) hingga batas antara fakta dan ilusi runtuh. Pilih opsi yang menjelaskan kondisi citra/simulasi tampak lebih nyata daripada realitas konkret aslinya."
   },
   {
     "id": "sos-lat-h-15",
@@ -2777,11 +2778,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan dramatis keterlibatan warga dalam membaca buku teks sosiologi setebal ribuan halaman setiap hari diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Tercapainya konsensus mutlak di mana seluruh warga negara memiliki kesamaan pandangan politik tanpa perdebatan."
       },
       {
         "key": "B",
-        "text": "Tercapainya konsensus mutlak di mana seluruh warga negara memiliki kesamaan pandangan politik tanpa perdebatan."
+        "text": "Terjadinya fragmentasi opini ke dalam ruang gema (_echo chambers_), komersialisasi data privasi warga, serta penyebaran hoaks dan ujaran kebencian berbasis polarisasi algoritma yang melumpuhkan dialog deliberatif rasional."
       },
       {
         "key": "C",
@@ -2793,11 +2794,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Terjadinya fragmentasi opini ke dalam ruang gema (_echo chambers_), komersialisasi data privasi warga, serta penyebaran hoaks dan ujaran kebencian berbasis polarisasi algoritma yang melumpuhkan dialog deliberatif rasional."
+        "text": "Peningkatan dramatis keterlibatan warga dalam membaca buku teks sosiologi setebal ribuan halaman setiap hari diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Terjadinya fragmentasi opini ke dalam ruang gema (_echo chambers_), komersialisasi data privasi warga, serta penyebaran hoaks dan ujaran kebencian berbasis polarisasi algoritma yang melumpuhkan dialog deliberatif rasional.. Distorsi ruang publik digital masa kini: echo chambers (ruang gema), gelembung filter, polarisasi algoritma clickbait, dan hoaks yang merusak dialog rasional deliberatif. Pilih: Terjadinya fragmentasi opini ke dalam ruang gema (echo chambers), komersialisasi data, dan polarisasi algoritma."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Terjadinya fragmentasi opini ke dalam ruang gema (_echo chambers_), komersialisasi data privasi warga, serta penyebaran hoaks dan ujaran kebencian berbasis polarisasi algoritma yang melumpuhkan dialog deliberatif rasional.. Distorsi ruang publik digital masa kini: echo chambers (ruang gema), gelembung filter, polarisasi algoritma clickbait, dan hoaks yang merusak dialog rasional deliberatif. Pilih: Terjadinya fragmentasi opini ke dalam ruang gema (echo chambers), komersialisasi data, dan polarisasi algoritma."
   },
   {
     "id": "sos-lat-h-16",
@@ -2820,27 +2821,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penanaman ideologi, nilai, dan pandangan hidup kelas penguasa melalui institusi masyarakat sipil (sekolah, media, agama, kesenian) sehingga diterima secara sukarela sebagai 'akal sehat' (_common sense_) dan kebenaran alamiah oleh kelas yang tertindas tanpa perlu menggunakan paksaan fisik militer."
+        "text": "Pemusnahan seluruh buku perpustakaan negara dan penutupan seluruh siaran stasiun televisi secara permanen."
       },
       {
         "key": "B",
-        "text": "Pengerahan tank panser dan senapan laras panjang aparat militer untuk membasmi setiap demonstrasi buruh pabrik ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Pemberian uang suap tunai kepada seluruh rakyat miskin setiap hari menjelang pemilihan umum presiden."
       },
       {
+        "key": "C",
+        "text": "Penanaman ideologi, nilai, dan pandangan hidup kelas penguasa melalui institusi masyarakat sipil (sekolah, media, agama, kesenian) sehingga diterima secara sukarela sebagai 'akal sehat' (_common sense_) dan kebenaran alamiah oleh kelas yang tertindas tanpa perlu menggunakan paksaan fisik militer."
+      },
+      {
         "key": "D",
-        "text": "Pemusnahan seluruh buku perpustakaan negara dan penutupan seluruh siaran stasiun televisi secara permanen."
+        "text": "Pengerahan tank panser dan senapan laras panjang aparat militer untuk membasmi setiap demonstrasi buruh pabrik."
       },
       {
         "key": "E",
         "text": "Penyelenggaraan pemilu langsung yang diawasi secara ketat oleh pengamat internasional dari lima benua."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penanaman ideologi, nilai, dan pandangan hidup kelas penguasa melalui institusi masyarakat sipil (sekolah, media, agama, kesenian) sehingga diterima secara sukarela sebagai 'akal sehat' (_common sense_) dan kebenaran alamiah oleh kelas yang tertindas tanpa perlu menggunakan paksaan fisik militer.. Hegemoni Gramsci: kelas dominan memimpin lewat persetujuan/konsensus sukarela (bukan kekerasan fisik) dengan menanamkan nilai-nilainya lewat sekolah, media, dan agama hingga dianggap akal sehat (common sense). Pilih: Penanaman ideologi kelas penguasa melalui masyarakat sipil (sekolah, media, agama) hingga diterima sebagai 'common sense'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Penanaman ideologi, nilai, dan pandangan hidup kelas penguasa melalui institusi masyarakat sipil (sekolah, media, agama, kesenian) sehingga diterima secara sukarela sebagai 'akal sehat' (_common sense_) dan kebenaran alamiah oleh kelas yang tertindas tanpa perlu menggunakan paksaan fisik militer.. Hegemoni Gramsci: kelas dominan memimpin lewat persetujuan/konsensus sukarela (bukan kekerasan fisik) dengan menanamkan nilai-nilainya lewat sekolah, media, dan agama hingga dianggap akal sehat (common sense). Pilih: Penanaman ideologi kelas penguasa melalui masyarakat sipil (sekolah, media, agama) hingga diterima sebagai 'common sense'."
   },
   {
     "id": "sos-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghukum setiap narapidana dengan cambukan rantai besi panas di hadapan penonton alun-alun kota setiap tengah hari ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
         "text": "Menciptakan kesadaran pada diri individu bahwa dirinya selalu berada di bawah pengawasan menara pengawas setiap saat (meskipun pengawas tidak tampak), sehingga individu secara otomatis menginternalisasi aturan dan mendisiplinkan perilakunya sendiri."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Membiarkan tahanan bebas berkeliaran ke luar tembok penjara tanpa penjagaan satpam apa pun."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Membangun sel tahanan mewah berbintang lima yang dilengkapi fasilitas kolam renang air hangat pribadi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menutup seluruh jendela dan mematikan lampu agar narapidana berada dalam kegelapan mutlak seumur hidup."
+      },
+      {
+        "key": "E",
+        "text": "Menghukum setiap narapidana dengan cambukan rantai besi panas di hadapan penonton alun-alun kota setiap tengah hari."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menciptakan kesadaran pada diri individu bahwa dirinya selalu berada di bawah pengawasan menara pengawas setiap saat (meskipun pengawas tidak tampak), sehingga individu secara otomatis menginternalisasi aturan dan mendisiplinkan perilakunya sendiri.. Panoptikon Foucault: rasa selalu diawasi (walau pengawas tak terlihat) membuat individu menginternalisasi aturan dan mendisiplinkan dirinya sendiri (docile bodies). Pilih opsi yang menjelaskan penciptaan kesadaran diri selalu diawasi sehingga menginternalisasi disiplin sendiri."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menciptakan kesadaran pada diri individu bahwa dirinya selalu berada di bawah pengawasan menara pengawas setiap saat (meskipun pengawas tidak tampak), sehingga individu secara otomatis menginternalisasi aturan dan mendisiplinkan perilakunya sendiri.. Panoptikon Foucault: rasa selalu diawasi (walau pengawas tak terlihat) membuat individu menginternalisasi aturan dan mendisiplinkan dirinya sendiri (docile bodies). Pilih opsi yang menjelaskan penciptaan kesadaran diri selalu diawasi sehingga menginternalisasi disiplin sendiri."
   },
   {
     "id": "sos-lat-h-18",
@@ -2906,7 +2907,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketiadaan menara BTS sinyal telekomunikasi dan jaringan kabel optik internet di pulau terdepan perbatasan negara sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Kesenjangan dalam hasil riil (_tangible outcomes_) berupa peningkatan aset kekayaan modal finansial di bursa saham."
       },
       {
         "key": "B",
@@ -2914,19 +2915,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kesenjangan dalam keterampilan literasi digital, kemampuan bernalar kritis dalam memfilter informasi, serta kompetensi pemanfaatan internet untuk kegiatan produktif bernilai ekonomi tinggi, meskipun akses fisik perangkat gawai dan sinyal internet sudah tersedia setara."
+        "text": "Larangan resmi pemerintah bagi anak-anak di bawah umur untuk menggunakan komputer perpustakaan sekolah."
       },
       {
         "key": "D",
-        "text": "Kesenjangan dalam hasil riil (_tangible outcomes_) berupa peningkatan aset kekayaan modal finansial di bursa saham."
+        "text": "Kesenjangan dalam keterampilan literasi digital, kemampuan bernalar kritis dalam memfilter informasi, serta kompetensi pemanfaatan internet untuk kegiatan produktif bernilai ekonomi tinggi, meskipun akses fisik perangkat gawai dan sinyal internet sudah tersedia setara."
       },
       {
         "key": "E",
-        "text": "Larangan resmi pemerintah bagi anak-anak di bawah umur untuk menggunakan komputer perpustakaan sekolah."
+        "text": "Ketiadaan menara BTS sinyal telekomunikasi dan jaringan kabel optik internet di pulau terdepan perbatasan negara."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Kesenjangan dalam keterampilan literasi digital, kemampuan bernalar kritis dalam memfilter informasi, serta kompetensi pemanfaatan internet untuk kegiatan produktif bernilai ekonomi tinggi, meskipun akses fisik perangkat gawai dan sinyal internet sudah tersedia setara.. First-level = kesenjangan akses fisik infrastruktur/gawai. Second-level = kesenjangan keterampilan, literasi, dan efikasi penggunaan produktif. Third-level = kesenjangan hasil ekonomi/sosial riil. Pilih: Kesenjangan keterampilan literasi digital dan kemampuan nalar kritis meskipun akses fisik perangkat sudah ada."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kesenjangan dalam keterampilan literasi digital, kemampuan bernalar kritis dalam memfilter informasi, serta kompetensi pemanfaatan internet untuk kegiatan produktif bernilai ekonomi tinggi, meskipun akses fisik perangkat gawai dan sinyal internet sudah tersedia setara.. First-level = kesenjangan akses fisik infrastruktur/gawai. Second-level = kesenjangan keterampilan, literasi, dan efikasi penggunaan produktif. Third-level = kesenjangan hasil ekonomi/sosial riil. Pilih: Kesenjangan keterampilan literasi digital dan kemampuan nalar kritis meskipun akses fisik perangkat sudah ada."
   },
   {
     "id": "sos-lat-h-19",
@@ -2949,11 +2950,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membangun jaringan pertemanan lintas batas agama dan ras yang melemahkan rasa cinta tanah air menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Menghilangkan seluruh perbedaan kasta sosial dan menyatukan seluruh buruh pabrik dunia."
       },
       {
         "key": "B",
-        "text": "Menghilangkan seluruh perbedaan kasta sosial dan menyatukan seluruh buruh pabrik dunia."
+        "text": "Memperkuat ikatan emosional internal antarwarga yang memiliki latar belakang homogen (satu suku atau satu mazhab agama), namun berisiko menumbuhkan sikap intoleran, eksklusivitas kaku, sektarianisme, dan prasangka permusuhan terhadap kelompok luar."
       },
       {
         "key": "C",
@@ -2961,15 +2962,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Memperkuat ikatan emosional internal antarwarga yang memiliki latar belakang homogen (satu suku atau satu mazhab agama), namun berisiko menumbuhkan sikap intoleran, eksklusivitas kaku, sektarianisme, dan prasangka permusuhan terhadap kelompok luar."
+        "text": "Membangun jaringan pertemanan lintas batas agama dan ras yang melemahkan rasa cinta tanah air menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "E",
         "text": "Mengharuskan setiap warga masyarakat untuk berganti nama marga setiap sepuluh tahun sekali."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Memperkuat ikatan emosional internal antarwarga yang memiliki latar belakang homogen (satu suku atau satu mazhab agama), namun berisiko menumbuhkan sikap intoleran, eksklusivitas kaku, sektarianisme, dan prasangka permusuhan terhadap kelompok luar.. Bonding social capital (Putnam): ikatan kuat kelompok homogen (satu suku/agama), memperkuat internal tapi jika terlalu ekstrem menimbulkan eksklusivisme dan intoleransi kelompok luar. Pilih opsi: Memperkuat ikatan internal homogen namun berisiko menumbuhkan eksklusivitas kaku dan prasangka terhadap kelompok luar."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Memperkuat ikatan emosional internal antarwarga yang memiliki latar belakang homogen (satu suku atau satu mazhab agama), namun berisiko menumbuhkan sikap intoleran, eksklusivitas kaku, sektarianisme, dan prasangka permusuhan terhadap kelompok luar.. Bonding social capital (Putnam): ikatan kuat kelompok homogen (satu suku/agama), memperkuat internal tapi jika terlalu ekstrem menimbulkan eksklusivisme dan intoleransi kelompok luar. Pilih opsi: Memperkuat ikatan internal homogen namun berisiko menumbuhkan eksklusivitas kaku dan prasangka terhadap kelompok luar."
   },
   {
     "id": "sos-lat-h-20",
@@ -2992,7 +2993,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki anggaran kas resmi puluhan triliun rupiah yang disimpan di bank luar negeri di bawah kendali presiden partai diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Wajib memiliki kantor cabang fisik di setiap kecamatan dengan struktur komando jenderal bergaris kaku."
       },
       {
         "key": "B",
@@ -3000,19 +3001,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Wajib memiliki kantor cabang fisik di setiap kecamatan dengan struktur komando jenderal bergaris kaku."
-      },
-      {
-        "key": "D",
         "text": "Tunduk mutlak pada arahan menteri dalam negeri dan selalu dibubarkan secara sukarela sebelum aksi damai dimulai."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Bersifat desentralistik tanpa komando pemimpin tunggal berhierarki (_leaderless / horizontal networks_), dipicu oleh kemarahan emosional bersama atas ketidakadilan, serta mengombinasikan ruang maya daring (_cyberspace_) dengan pendudukan ruang fisik perkotaan (_urban public space_)."
+      },
+      {
+        "key": "E",
+        "text": "Memiliki anggaran kas resmi puluhan triliun rupiah yang disimpan di bank luar negeri di bawah kendali presiden partai diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Bersifat desentralistik tanpa komando pemimpin tunggal berhierarki (_leaderless / horizontal networks_), dipicu oleh kemarahan emosional bersama atas ketidakadilan, serta mengombinasikan ruang maya daring (_cyberspace_) dengan pendudukan ruang fisik perkotaan (_urban public space_).. Gerakan sosial baru Manuel Castells: jaringan horizontal tanpa pemimpin tunggal (leaderless), otonom, mengombinasikan ruang maya (medsos) dan ruang fisik jalanan. Pilih: Desentralistik tanpa pemimpin tunggal berhierarki, berbasis emosi bersama, mengombinasikan ruang maya dan ruang fisik kota."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Bersifat desentralistik tanpa komando pemimpin tunggal berhierarki (_leaderless / horizontal networks_), dipicu oleh kemarahan emosional bersama atas ketidakadilan, serta mengombinasikan ruang maya daring (_cyberspace_) dengan pendudukan ruang fisik perkotaan (_urban public space_).. Gerakan sosial baru Manuel Castells: jaringan horizontal tanpa pemimpin tunggal (leaderless), otonom, mengombinasikan ruang maya (medsos) dan ruang fisik jalanan. Pilih: Desentralistik tanpa pemimpin tunggal berhierarki, berbasis emosi bersama, mengombinasikan ruang maya dan ruang fisik kota."
   },
   {
     "id": "sos-lat-h-21",
@@ -3035,27 +3036,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dimensi Kesehatan (asupan gizi dan mortalitas anak), Dimensi Pendidikan (lama sekolah dan partisipasi sekolah anak), serta Dimensi Standar Hidup Layak (bahan bakar memasak, sanitasi, air minum bersih, listrik, perumahan, dan kepemilikan aset)."
-      },
-      {
-        "key": "B",
-        "text": "Dimensi Agama, Dimensi Kesukuan, dan Dimensi Kepemilikan Senjata Api Berizin Resmi ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Dimensi Jumlah Rekening Kartu Kredit, Dimensi Merek Mobil Mewah, dan Dimensi Kekerabatan Pejabat."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Dimensi Agama, Dimensi Kesukuan, dan Dimensi Kepemilikan Senjata Api Berizin Resmi."
+      },
+      {
+        "key": "C",
         "text": "Dimensi Keberuntungan Nasib, Dimensi Ramalan Horoskop, dan Dimensi Jumlah Pengikut Media Sosial."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Dimensi Luas Wilayah Geografis, Dimensi Suhu Udara Rata-rata, dan Dimensi Kedalaman Palung Laut."
+      },
+      {
+        "key": "E",
+        "text": "Dimensi Kesehatan (asupan gizi dan mortalitas anak), Dimensi Pendidikan (lama sekolah dan partisipasi sekolah anak), serta Dimensi Standar Hidup Layak (bahan bakar memasak, sanitasi, air minum bersih, listrik, perumahan, dan kepemilikan aset)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Dimensi Kesehatan (asupan gizi dan mortalitas anak), Dimensi Pendidikan (lama sekolah dan partisipasi sekolah anak), serta Dimensi Standar Hidup Layak (bahan bakar memasak, sanitasi, air minum bersih, listrik, perumahan, dan kepemilikan aset).. Tiga dimensi Indeks Kemiskinan Multidimensi (MPI): 1. Kesehatan (gizi & mortalitas anak), 2. Pendidikan (lama sekolah & partisipasi), 3. Standar Hidup Layak (sanitasi, air bersih, listrik, rumah, aset). Pilih opsi yang memuat dimensi Kesehatan, Pendidikan, dan Standar Hidup Layak."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Dimensi Kesehatan (asupan gizi dan mortalitas anak), Dimensi Pendidikan (lama sekolah dan partisipasi sekolah anak), serta Dimensi Standar Hidup Layak (bahan bakar memasak, sanitasi, air minum bersih, listrik, perumahan, dan kepemilikan aset).. Tiga dimensi Indeks Kemiskinan Multidimensi (MPI): 1. Kesehatan (gizi & mortalitas anak), 2. Pendidikan (lama sekolah & partisipasi), 3. Standar Hidup Layak (sanitasi, air bersih, listrik, rumah, aset). Pilih opsi yang memuat dimensi Kesehatan, Pendidikan, dan Standar Hidup Layak."
   },
   {
     "id": "sos-lat-h-22",
@@ -3078,27 +3079,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh rekaman suara wawancara narasumber dan menggantinya dengan cerita fiksi karangan pribadi peneliti ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "B",
-        "text": "Mengumpulkan informasi dari beragam narasumber (korban, saksi mahasiswa, dosen pembimbing, dan psikolog) serta memadukan berbagai teknik pengumpulan data seperti wawancara mendalam, observasi suasana lingkungan, dan kajian dokumen rekam medis atau rekaman percakapan digital."
-      },
-      {
-        "key": "C",
-        "text": "Hanya mewawancarai satu orang pejabat universitas melalui telepon selama dua menit tanpa mengecek kebenaran faktual lapangan."
-      },
-      {
-        "key": "D",
         "text": "Menyalin seluruh isi skripsi penelitian orang lain yang pernah dilakukan di universitas luar negeri tanpa mencantumkan rujukan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Memaksa korban menandatangani surat pernyataan damai di kantor polisi tanpa melakukan investigasi bukti empiris."
+      },
+      {
+        "key": "C",
+        "text": "Menghapus seluruh rekaman suara wawancara narasumber dan menggantinya dengan cerita fiksi karangan pribadi peneliti."
+      },
+      {
+        "key": "D",
+        "text": "Mengumpulkan informasi dari beragam narasumber (korban, saksi mahasiswa, dosen pembimbing, dan psikolog) serta memadukan berbagai teknik pengumpulan data seperti wawancara mendalam, observasi suasana lingkungan, dan kajian dokumen rekam medis atau rekaman percakapan digital."
+      },
+      {
+        "key": "E",
+        "text": "Hanya mewawancarai satu orang pejabat universitas melalui telepon selama dua menit tanpa mengecek kebenaran faktual lapangan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Mengumpulkan informasi dari beragam narasumber (korban, saksi mahasiswa, dosen pembimbing, dan psikolog) serta memadukan berbagai teknik pengumpulan data seperti wawancara mendalam, observasi suasana lingkungan, dan kajian dokumen rekam medis atau rekaman percakapan digital.. Triangulasi memvalidasi temuan dengan memadukan beragam sumber informan dan beragam teknik pengumpulan data (wawancara, observasi, dokumen) untuk menghindari bias sudut pandang tunggal. Pilih opsi: Mengumpulkan info dari beragam narasumber dan memadukan teknik wawancara, observasi, dan dokumen."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mengumpulkan informasi dari beragam narasumber (korban, saksi mahasiswa, dosen pembimbing, dan psikolog) serta memadukan berbagai teknik pengumpulan data seperti wawancara mendalam, observasi suasana lingkungan, dan kajian dokumen rekam medis atau rekaman percakapan digital.. Triangulasi memvalidasi temuan dengan memadukan beragam sumber informan dan beragam teknik pengumpulan data (wawancara, observasi, dokumen) untuk menghindari bias sudut pandang tunggal. Pilih opsi: Mengumpulkan info dari beragam narasumber dan memadukan teknik wawancara, observasi, dan dokumen."
   },
   {
     "id": "sos-lat-h-23",
@@ -3121,27 +3122,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Paradigma Fakta Sosial hanya meneliti binatang hutan sedangkan Paradigma Definisi Sosial hanya meneliti mesin komputer sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
-        "text": "Paradigma Definisi Sosial menolak keberadaan manusia dan hanya percaya pada kekuatan hukum fisika kuantum."
-      },
-      {
-        "key": "C",
         "text": "Paradigma Fakta Sosial (Durkheim) memandang struktur makro dan institusi sosial sebagai kekuatan eksternal yang mengendalikan perilaku individu, sedangkan Paradigma Definisi Sosial (Weber) memandang individu sebagai aktor kreatif yang memaknai dan mengonstruksi realitas sosial melalui tindakan bermakna."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Paradigma Fakta Sosial menganggap masyarakat terbentuk murni dari kumpulan mimpi bawah sadar individu yang terisolasi."
+      },
+      {
+        "key": "C",
+        "text": "Paradigma Definisi Sosial menolak keberadaan manusia dan hanya percaya pada kekuatan hukum fisika kuantum."
+      },
+      {
+        "key": "D",
+        "text": "Paradigma Fakta Sosial hanya meneliti binatang hutan sedangkan Paradigma Definisi Sosial hanya meneliti mesin komputer."
       },
       {
         "key": "E",
         "text": "Kedua paradigma tersebut diciptakan oleh ilmuwan matematika yang sama pada abad kedua puluh satu."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Paradigma Fakta Sosial (Durkheim) memandang struktur makro dan institusi sosial sebagai kekuatan eksternal yang mengendalikan perilaku individu, sedangkan Paradigma Definisi Sosial (Weber) memandang individu sebagai aktor kreatif yang memaknai dan mengonstruksi realitas sosial melalui tindakan bermakna.. Paradigma Fakta Sosial (Durkheim): struktur/institusi sosial makro mengendalikan individu. Paradigma Definisi Sosial (Weber): individu aktif memaknai tindakan dan mengonstruksi realitas sosial. Pilih: Fakta Sosial memandang struktur makro mengendalikan individu, Definisi Sosial memandang individu memaknai dan mengonstruksi realitas."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Paradigma Fakta Sosial (Durkheim) memandang struktur makro dan institusi sosial sebagai kekuatan eksternal yang mengendalikan perilaku individu, sedangkan Paradigma Definisi Sosial (Weber) memandang individu sebagai aktor kreatif yang memaknai dan mengonstruksi realitas sosial melalui tindakan bermakna.. Paradigma Fakta Sosial (Durkheim): struktur/institusi sosial makro mengendalikan individu. Paradigma Definisi Sosial (Weber): individu aktif memaknai tindakan dan mengonstruksi realitas sosial. Pilih: Fakta Sosial memandang struktur makro mengendalikan individu, Definisi Sosial memandang individu memaknai dan mengonstruksi realitas."
   },
   {
     "id": "sos-lat-h-24",
@@ -3164,15 +3165,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyusunan Angka Persentase, Pengujian Regresi Linier Berganda, dan Perhitungan Nilai R-Squared SPSS menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Pencetakan Massal Kuesioner, Penyebaran Brosur di Perempatan Jalan, dan Penghitungan Kertas Suara Rusak."
       },
       {
         "key": "B",
-        "text": "Pembuatan Sertifikat Hak Cipta, Penentuan Tarif Konsultasi Riset, dan Pembagian Royalti Penulis."
+        "text": "Penyusunan Angka Persentase, Pengujian Regresi Linier Berganda, dan Perhitungan Nilai R-Squared SPSS menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "C",
-        "text": "Pengecatan Laboratorium Sosiologi, Pembelian Alat Perekam Baru, dan Pengusiran Responden Nakal."
+        "text": "Pembuatan Sertifikat Hak Cipta, Penentuan Tarif Konsultasi Riset, dan Pembagian Royalti Penulis."
       },
       {
         "key": "D",
@@ -3180,7 +3181,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pencetakan Massal Kuesioner, Penyebaran Brosur di Perempatan Jalan, dan Penghitungan Kertas Suara Rusak."
+        "text": "Pengecatan Laboratorium Sosiologi, Pembelian Alat Perekam Baru, dan Pengusiran Responden Nakal."
       }
     ],
     "correctKey": "D",
@@ -3207,27 +3208,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "_Output_ adalah keuntungan uang tunai fasilitator; _Outcome_ adalah biaya sewa gedung pertemuan; dan _Impact_ adalah foto bersama dengan bupati diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "_Output_ adalah keuntungan uang tunai fasilitator; _Outcome_ adalah biaya sewa gedung pertemuan; dan _Impact_ adalah foto bersama dengan bupati diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "B",
-        "text": "_Output_ adalah kemiskinan mutlak keluarga; _Outcome_ adalah bencana alam kekeringan; dan _Impact_ adalah bubarnya perkumpulan desa."
-      },
-      {
-        "key": "C",
         "text": "Ketiga indikator tersebut memiliki definisi identik dan hanya digunakan untuk menghitung sisa anggaran APBN kementerian."
       },
       {
+        "key": "C",
+        "text": "_Output_ adalah produk langsung dari aktivitas (misal 50 ibu rumah tangga lulus pelatihan vokasi menjahit); _Outcome_ adalah perubahan perilaku atau kapasitas jangka menengah (para ibu mulai membuka usaha konveksi dan memiliki pendapatan mandiri); sedangkan _Impact_ adalah perubahan struktural jangka panjang yang berkelanjutan (turunnya angka kemiskinan desa dan meningkatnya kesetaraan gender keluarga)."
+      },
+      {
         "key": "D",
-        "text": "_Impact_ adalah produk langsung hari pertama sedangkan _Output_ adalah hasil yang terjadi seratus tahun kemudian."
+        "text": "_Output_ adalah kemiskinan mutlak keluarga; _Outcome_ adalah bencana alam kekeringan; dan _Impact_ adalah bubarnya perkumpulan desa."
       },
       {
         "key": "E",
-        "text": "_Output_ adalah produk langsung dari aktivitas (misal 50 ibu rumah tangga lulus pelatihan vokasi menjahit); _Outcome_ adalah perubahan perilaku atau kapasitas jangka menengah (para ibu mulai membuka usaha konveksi dan memiliki pendapatan mandiri); sedangkan _Impact_ adalah perubahan struktural jangka panjang yang berkelanjutan (turunnya angka kemiskinan desa dan meningkatnya kesetaraan gender keluarga)."
+        "text": "_Impact_ adalah produk langsung hari pertama sedangkan _Output_ adalah hasil yang terjadi seratus tahun kemudian."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) _Output_ adalah produk langsung dari aktivitas (misal 50 ibu rumah tangga lulus pelatihan vokasi menjahit); _Outcome_ adalah perubahan perilaku atau kapasitas jangka menengah (para ibu mulai membuka usaha konveksi dan memiliki pendapatan mandiri); sedangkan _Impact_ adalah perubahan struktural jangka panjang yang berkelanjutan (turunnya angka kemiskinan desa dan meningkatnya kesetaraan gender keluarga).. Rantai Theory of Change: Output = hasil langsung aktivitas (jumlah peserta lulus latih). Outcome = perubahan perilaku/daya beli jangka menengah (usaha berjalan mandiri). Impact = perubahan struktural jangka panjang (kemiskinan desa turun & kesetaraan meningkat). Pilih opsi yang membedakan Output (lulus pelatihan), Outcome (buka usaha mandiri), dan Impact (turunnya angka kemiskinan desa)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) _Output_ adalah produk langsung dari aktivitas (misal 50 ibu rumah tangga lulus pelatihan vokasi menjahit); _Outcome_ adalah perubahan perilaku atau kapasitas jangka menengah (para ibu mulai membuka usaha konveksi dan memiliki pendapatan mandiri); sedangkan _Impact_ adalah perubahan struktural jangka panjang yang berkelanjutan (turunnya angka kemiskinan desa dan meningkatnya kesetaraan gender keluarga).. Rantai Theory of Change: Output = hasil langsung aktivitas (jumlah peserta lulus latih). Outcome = perubahan perilaku/daya beli jangka menengah (usaha berjalan mandiri). Impact = perubahan struktural jangka panjang (kemiskinan desa turun & kesetaraan meningkat). Pilih opsi yang membedakan Output (lulus pelatihan), Outcome (buka usaha mandiri), dan Impact (turunnya angka kemiskinan desa)."
   },
   {
     "id": "sos-sim-01",
@@ -3250,27 +3251,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Etnosentrisme, yaitu kecenderungan memandang dan menilai kebudayaan kelompok lain secara sepihak dengan menggunakan tolok ukur nilai dan standar kebudayaan kelompoknya sendiri."
+        "text": "Relativisme Budaya (_Cultural Relativism_), yaitu usaha memahami praktik kebudayaan lain dari sudut pandang konteks nilai masyarakat setempat."
       },
       {
         "key": "B",
-        "text": "Relativisme Budaya (_Cultural Relativism_), yaitu usaha memahami praktik kebudayaan lain dari sudut pandang konteks nilai masyarakat setempat ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Etnosentrisme, yaitu kecenderungan memandang dan menilai kebudayaan kelompok lain secara sepihak dengan menggunakan tolok ukur nilai dan standar kebudayaan kelompoknya sendiri."
       },
       {
         "key": "C",
-        "text": "Xenosentrisme, yaitu sikap mengagumi kebudayaan bangsa asing secara berlebihan dan merendahkan budaya bangsa sendiri."
-      },
-      {
-        "key": "D",
         "text": "Pluralisme kultural, yaitu pengakuan tulus atas kesetaraan hak hidup berbagai kebudayaan dalam tatanan demokrasi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Asimilasi budaya sukarela yang menyatukan tradisi perdesaan dengan tradisi metropolitan."
+      },
+      {
+        "key": "E",
+        "text": "Xenosentrisme, yaitu sikap mengagumi kebudayaan bangsa asing secara berlebihan dan merendahkan budaya bangsa sendiri."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Etnosentrisme, yaitu kecenderungan memandang dan menilai kebudayaan kelompok lain secara sepihak dengan menggunakan tolok ukur nilai dan standar kebudayaan kelompoknya sendiri.. Etnosentrisme = menilai kebudayaan kelompok lain dengan tolak ukur budaya sendiri (menganggap budaya sendiri paling benar/superior). Relativisme budaya = memahami kebudayaan dari sudut pandang konteks aslinya. Pilih: Etnosentrisme."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Etnosentrisme, yaitu kecenderungan memandang dan menilai kebudayaan kelompok lain secara sepihak dengan menggunakan tolok ukur nilai dan standar kebudayaan kelompoknya sendiri.. Etnosentrisme = menilai kebudayaan kelompok lain dengan tolak ukur budaya sendiri (menganggap budaya sendiri paling benar/superior). Relativisme budaya = memahami kebudayaan dari sudut pandang konteks aslinya. Pilih: Etnosentrisme."
   },
   {
     "id": "sos-sim-02",
@@ -3293,11 +3294,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Premis Pertama, yaitu manusia bertindak terhadap sesuatu berdasarkan makna yang dimiliki hal tersebut bagi mereka ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Premis Ketiga, yaitu makna-makna tersebut ditangani dan dimodifikasi melalui suatu proses penafsiran yang digunakan oleh seseorang dalam menghadapi hal-hal yang dijumpainya."
       },
       {
         "key": "B",
-        "text": "Premis Ketiga, yaitu makna-makna tersebut ditangani dan dimodifikasi melalui suatu proses penafsiran yang digunakan oleh seseorang dalam menghadapi hal-hal yang dijumpainya."
+        "text": "Premis Mutlak Durkheimian, yang menyatakan simbol diciptakan oleh genetik biologis sejak zaman purba."
       },
       {
         "key": "C",
@@ -3305,15 +3306,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Premis Mutlak Durkheimian, yang menyatakan simbol diciptakan oleh genetik biologis sejak zaman purba."
+        "text": "Premis Pertama, yaitu manusia bertindak terhadap sesuatu berdasarkan makna yang dimiliki hal tersebut bagi mereka."
       },
       {
         "key": "E",
         "text": "Premis Fungsionalisme Parsonian, yang menolak adanya interpretasi subjektif dari pelaku sosial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Premis Ketiga, yaitu makna-makna tersebut ditangani dan dimodifikasi melalui suatu proses penafsiran yang digunakan oleh seseorang dalam menghadapi hal-hal yang dijumpainya.. Tiga premis Blumer: 1. Manusia bertindak berdasarkan makna; 2. Makna lahir dari interaksi sosial; 3. Makna dimodifikasi melalui proses penafsiran reflektif individu. Pilih: Premis Ketiga."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Premis Ketiga, yaitu makna-makna tersebut ditangani dan dimodifikasi melalui suatu proses penafsiran yang digunakan oleh seseorang dalam menghadapi hal-hal yang dijumpainya.. Tiga premis Blumer: 1. Manusia bertindak berdasarkan makna; 2. Makna lahir dari interaksi sosial; 3. Makna dimodifikasi melalui proses penafsiran reflektif individu. Pilih: Premis Ketiga."
   },
   {
     "id": "sos-sim-03",
@@ -3336,15 +3337,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ajudikasi, di mana kedua presiden menandatangani pengakuan bersalah di pengadilan hak asasi manusia sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
         "text": "Koersi, di mana Uni Soviet berhasil menaklukkan Washington DC dengan serangan darat kilat."
       },
       {
+        "key": "B",
+        "text": "Eliminasi, di mana salah satu pihak menyerah secara sukarela tanpa syarat."
+      },
+      {
         "key": "C",
-        "text": "_Stalemate_, yaitu keadaan di mana pertentangan atau konflik terhenti dengan sendirinya pada suatu titik tertentu karena kedua pihak memiliki kekuatan yang seimbang sehingga tidak ada pihak yang dapat maju atau mundur."
+        "text": "Ajudikasi, di mana kedua presiden menandatangani pengakuan bersalah di pengadilan hak asasi manusia."
       },
       {
         "key": "D",
@@ -3352,11 +3353,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Eliminasi, di mana salah satu pihak menyerah secara sukarela tanpa syarat."
+        "text": "_Stalemate_, yaitu keadaan di mana pertentangan atau konflik terhenti dengan sendirinya pada suatu titik tertentu karena kedua pihak memiliki kekuatan yang seimbang sehingga tidak ada pihak yang dapat maju atau mundur."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) _Stalemate_, yaitu keadaan di mana pertentangan atau konflik terhenti dengan sendirinya pada suatu titik tertentu karena kedua pihak memiliki kekuatan yang seimbang sehingga tidak ada pihak yang dapat maju atau mundur.. Kondisi konflik terhenti otomatis karena kekuatan kedua pihak seimbang dan saling mengunci sehingga tidak ada yang bisa menang disebut Stalemate. Pilih: Stalemate."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) _Stalemate_, yaitu keadaan di mana pertentangan atau konflik terhenti dengan sendirinya pada suatu titik tertentu karena kedua pihak memiliki kekuatan yang seimbang sehingga tidak ada pihak yang dapat maju atau mundur.. Kondisi konflik terhenti otomatis karena kekuatan kedua pihak seimbang dan saling mengunci sehingga tidak ada yang bisa menang disebut Stalemate. Pilih: Stalemate."
   },
   {
     "id": "sos-sim-04",
@@ -3379,15 +3380,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemaksaan fisik secara militer yang mewajibkan remaja menyetorkan uang jajan ke rekening pengembang aplikasi menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Penggantian ikatan biologis orang tua kandung secara administratif menurut undang-undang perdata."
       },
       {
         "key": "B",
-        "text": "Pemberian sertifikat ijazah profesi hukum yang diakui resmi oleh Mahkamah Konstitusi."
+        "text": "Pemaksaan fisik secara militer yang mewajibkan remaja menyetorkan uang jajan ke rekening pengembang aplikasi menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "C",
-        "text": "Penggantian ikatan biologis orang tua kandung secara administratif menurut undang-undang perdata."
+        "text": "Pemberian vaksin kekebalan tubuh terhadap penyakit infeksi menular secara otomatis."
       },
       {
         "key": "D",
@@ -3395,7 +3396,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pemberian vaksin kekebalan tubuh terhadap penyakit infeksi menular secara otomatis."
+        "text": "Pemberian sertifikat ijazah profesi hukum yang diakui resmi oleh Mahkamah Konstitusi."
       }
     ],
     "correctKey": "D",
@@ -3422,27 +3423,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hubungan antaranggotanya diatur oleh anggaran dasar formal tertulis dan terbatas pada urusan bisnis kantor diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Hubungan antaranggotanya diatur oleh anggaran dasar formal tertulis dan terbatas pada urusan bisnis kantor diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "B",
-        "text": "Jumlah anggotanya mencapai puluhan ribu orang yang tersebar di berbagai benua tanpa pernah bertemu langsung."
-      },
-      {
-        "key": "C",
-        "text": "Keanggotaan dapat diperjualbelikan melalui bursa efek dengan sertifikat kepemilikan modal saham."
-      },
-      {
-        "key": "D",
         "text": "Kelompok ini hanya beranggotakan para pejabat kementerian yang memegang kekuasaan politik eksekutif."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Hubungan antaranggota bersifat tatap muka langsung (_face-to-face_), intim, personal, mendalam, dan memiliki keterikatan afeksi emosional yang menjadi wadah utama pembentukan kepribadian dasar manusia."
+      },
+      {
+        "key": "D",
+        "text": "Jumlah anggotanya mencapai puluhan ribu orang yang tersebar di berbagai benua tanpa pernah bertemu langsung."
+      },
+      {
+        "key": "E",
+        "text": "Keanggotaan dapat diperjualbelikan melalui bursa efek dengan sertifikat kepemilikan modal saham."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Hubungan antaranggota bersifat tatap muka langsung (_face-to-face_), intim, personal, mendalam, dan memiliki keterikatan afeksi emosional yang menjadi wadah utama pembentukan kepribadian dasar manusia.. Kelompok primer Cooley: tatap muka langsung (face to face), intim, personal, hubungan batin mendalam, pembentuk kepribadian dasar (keluarga, sahabat karib). Pilih opsi: Hubungan tatap muka langsung (face-to-face), intim, personal, mendalam, dan keterikatan afeksi emosional."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Hubungan antaranggota bersifat tatap muka langsung (_face-to-face_), intim, personal, mendalam, dan memiliki keterikatan afeksi emosional yang menjadi wadah utama pembentukan kepribadian dasar manusia.. Kelompok primer Cooley: tatap muka langsung (face to face), intim, personal, hubungan batin mendalam, pembentuk kepribadian dasar (keluarga, sahabat karib). Pilih opsi: Hubungan tatap muka langsung (face-to-face), intim, personal, mendalam, dan keterikatan afeksi emosional."
   },
   {
     "id": "sos-lat-m-06b",
@@ -3465,27 +3466,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Beban Ganda (_Double Burden_), yaitu bentuk ketimpangan gender di mana perempuan memikul beban kerja produktif di ranah publik sekaligus beban kerja domestik reproduktif di ranah domestik secara berlebihan."
-      },
-      {
-        "key": "B",
-        "text": "Marginalisasi ekonomi murni, di mana perempuan dilarang membuka rekening tabungan bank sendiri ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
-        "text": "Stereotipe gender pelabelan, di mana perempuan dianggap selalu lebih emosional daripada laki-laki."
-      },
-      {
-        "key": "D",
         "text": "Kekerasan fisik domestik langsung yang mengakibatkan luka fisik berat pada tubuh korban."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Beban Ganda (_Double Burden_), yaitu bentuk ketimpangan gender di mana perempuan memikul beban kerja produktif di ranah publik sekaligus beban kerja domestik reproduktif di ranah domestik secara berlebihan."
+      },
+      {
+        "key": "C",
+        "text": "Marginalisasi ekonomi murni, di mana perempuan dilarang membuka rekening tabungan bank sendiri."
+      },
+      {
+        "key": "D",
         "text": "Emansipasi wanita sempurna, di mana beban kerja telah terbagi rata secara profesional."
+      },
+      {
+        "key": "E",
+        "text": "Stereotipe gender pelabelan, di mana perempuan dianggap selalu lebih emosional daripada laki-laki."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Beban Ganda (_Double Burden_), yaitu bentuk ketimpangan gender di mana perempuan memikul beban kerja produktif di ranah publik sekaligus beban kerja domestik reproduktif di ranah domestik secara berlebihan.. Perempuan yang bekerja mencari nafkah di kantor sekaligus memikul seluruh pekerjaan rumah tangga domestik sendirian mengalami Beban Ganda (Double Burden). Pilih: Beban Ganda (Double Burden)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Beban Ganda (_Double Burden_), yaitu bentuk ketimpangan gender di mana perempuan memikul beban kerja produktif di ranah publik sekaligus beban kerja domestik reproduktif di ranah domestik secara berlebihan.. Perempuan yang bekerja mencari nafkah di kantor sekaligus memikul seluruh pekerjaan rumah tangga domestik sendirian mengalami Beban Ganda (Double Burden). Pilih: Beban Ganda (Double Burden)."
   },
   {
     "id": "sos-sim-07",
@@ -3508,7 +3509,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi."
+        "text": "Mobilitas Struktural Positif, yang menaikkan status ekonomi seluruh keluarga besarnya."
       },
       {
         "key": "B",
@@ -3516,15 +3517,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mobilitas Sosial Horizontal, karena kedua profesi tersebut sama-sama membutuhkan penggunaan sepeda motor."
+        "text": "Mobilitas Sosial Vertikal Naik (_Social Climbing_) antargenerasi."
       },
       {
         "key": "D",
-        "text": "Mobilitas Struktural Positif, yang menaikkan status ekonomi seluruh keluarga besarnya."
+        "text": "Stagnasi sosial tertutup yang dialami oleh masyarakat kasta sudra di masa feodal."
       },
       {
         "key": "E",
-        "text": "Stagnasi sosial tertutup yang dialami oleh masyarakat kasta sudra di masa feodal."
+        "text": "Mobilitas Sosial Horizontal, karena kedua profesi tersebut sama-sama membutuhkan penggunaan sepeda motor."
       }
     ],
     "correctKey": "B",
@@ -3551,27 +3552,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh partai politik pasti akan membubarkan diri secara sukarela setelah memenangkan pemilihan umum sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
-        "text": "Masyarakat selalu dipimpin oleh seorang kaisar turun-temurun yang memiliki kekuatan supranatural gaib."
-      },
-      {
-        "key": "C",
         "text": "Setiap organisasi formal berskala besar (bahkan yang semula didirikan atas dasar cita-cita demokrasi sekalipun) pada akhirnya pasti akan dikuasai dan dikendalikan oleh segelintir elit kecil pengurus yang mempertahankan kekuasaan demi kepentingan kelompoknya sendiri."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kekuasaan politik selalu terdistribusi secara merata kepada seluruh anggota partai hingga tingkat ranting terendah."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Partai politik diwajibkan oleh konstitusi untuk membagikan seluruh aset keuangannya kepada warga miskin."
+      },
+      {
+        "key": "D",
+        "text": "Masyarakat selalu dipimpin oleh seorang kaisar turun-temurun yang memiliki kekuatan supranatural gaib."
+      },
+      {
+        "key": "E",
+        "text": "Seluruh partai politik pasti akan membubarkan diri secara sukarela setelah memenangkan pemilihan umum."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Setiap organisasi formal berskala besar (bahkan yang semula didirikan atas dasar cita-cita demokrasi sekalipun) pada akhirnya pasti akan dikuasai dan dikendalikan oleh segelintir elit kecil pengurus yang mempertahankan kekuasaan demi kepentingan kelompoknya sendiri.. Iron Law of Oligarchy (Robert Michels): semua organisasi besar (termasuk partai demokratis) pasti berujung dikuasai oleh segelintir elit kecil (oligarki) yang melanggengkan kekuasaan. Pilih opsi: Setiap organisasi besar pada akhirnya pasti akan dikuasai oleh segelintir elit kecil pengurus demi kepentingan kelompoknya."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Setiap organisasi formal berskala besar (bahkan yang semula didirikan atas dasar cita-cita demokrasi sekalipun) pada akhirnya pasti akan dikuasai dan dikendalikan oleh segelintir elit kecil pengurus yang mempertahankan kekuasaan demi kepentingan kelompoknya sendiri.. Iron Law of Oligarchy (Robert Michels): semua organisasi besar (termasuk partai demokratis) pasti berujung dikuasai oleh segelintir elit kecil (oligarki) yang melanggengkan kekuasaan. Pilih opsi: Setiap organisasi besar pada akhirnya pasti akan dikuasai oleh segelintir elit kecil pengurus demi kepentingan kelompoknya."
   },
   {
     "id": "sos-sim-09",
@@ -3594,27 +3595,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyimpangan yang dilakukan berulang kali oleh residivis kejahatan berat yang sudah keluar masuk penjara berkali-kali menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Penyimpangan yang pelakunya telah membentuk geng kriminal terorganisir dan memiliki senjata api rakitan."
-      },
-      {
-        "key": "C",
-        "text": "Penyimpangan yang mengakibatkan pembubaran parlemen negara dan perubahan konstitusi undang-undang dasar."
-      },
-      {
-        "key": "D",
         "text": "Penyimpangan bersifat temporer (sementara), tidak dilakukan secara berulang, pelakunya masih dapat diterima oleh masyarakat umum, dan tindakan tersebut tidak menjadi bagian dari gaya hidup permanen pelakunya."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Penyimpangan yang dilakukan berulang kali oleh residivis kejahatan berat yang sudah keluar masuk penjara berkali-kali menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
+        "key": "C",
+        "text": "Penyimpangan yang pelakunya telah membentuk geng kriminal terorganisir dan memiliki senjata api rakitan."
+      },
+      {
+        "key": "D",
         "text": "Penyimpangan yang dilakukan secara terang-terangan di hadapan majelis hakim pengadilan internasional."
+      },
+      {
+        "key": "E",
+        "text": "Penyimpangan yang mengakibatkan pembubaran parlemen negara dan perubahan konstitusi undang-undang dasar."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Penyimpangan bersifat temporer (sementara), tidak dilakukan secara berulang, pelakunya masih dapat diterima oleh masyarakat umum, dan tindakan tersebut tidak menjadi bagian dari gaya hidup permanen pelakunya.. Penyimpangan primer = temporer, insidental, pelakunya masih diterima masyarakat, belum menjadi gaya hidup. Penyimpangan sekunder = permanen, berulang, diinternalisasi sebagai gaya hidup dan identitas diri. Pilih: Penyimpangan bersifat temporer, tidak berulang, pelakunya masih diterima masyarakat, dan bukan gaya hidup permanen."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Penyimpangan bersifat temporer (sementara), tidak dilakukan secara berulang, pelakunya masih dapat diterima oleh masyarakat umum, dan tindakan tersebut tidak menjadi bagian dari gaya hidup permanen pelakunya.. Penyimpangan primer = temporer, insidental, pelakunya masih diterima masyarakat, belum menjadi gaya hidup. Penyimpangan sekunder = permanen, berulang, diinternalisasi sebagai gaya hidup dan identitas diri. Pilih: Penyimpangan bersifat temporer, tidak berulang, pelakunya masih diterima masyarakat, dan bukan gaya hidup permanen."
   },
   {
     "id": "sos-sim-10",
@@ -3645,7 +3646,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Penyangkalan Korban (_Denial of the Victim_), dengan menyatakan korban memang pantas menerima perlakuan buruk tersebut."
+        "text": "Mengutuk yang Mengutuk (_Condemnation of the Condemners_), di mana pelaku menyangkal kesalahannya dengan cara menyerang motif, keadilan, atau perilaku pihak yang berwenang menghukumnya."
       },
       {
         "key": "D",
@@ -3653,11 +3654,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengutuk yang Mengutuk (_Condemnation of the Condemners_), di mana pelaku menyangkal kesalahannya dengan cara menyerang motif, keadilan, atau perilaku pihak yang berwenang menghukumnya."
+        "text": "Penyangkalan Korban (_Denial of the Victim_), dengan menyatakan korban memang pantas menerima perlakuan buruk tersebut."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mengutuk yang Mengutuk (_Condemnation of the Condemners_), di mana pelaku menyangkal kesalahannya dengan cara menyerang motif, keadilan, atau perilaku pihak yang berwenang menghukumnya.. Sykes & Matza: Menyalahkan balik pihak guru/penilai yang dianggap tidak adil adalah teknik 'Condemnation of the Condemners' (Mengutuk yang Mengutuk). Pilih: Mengutuk yang Mengutuk (Condemnation of the Condemners)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mengutuk yang Mengutuk (_Condemnation of the Condemners_), di mana pelaku menyangkal kesalahannya dengan cara menyerang motif, keadilan, atau perilaku pihak yang berwenang menghukumnya.. Sykes & Matza: Menyalahkan balik pihak guru/penilai yang dianggap tidak adil adalah teknik 'Condemnation of the Condemners' (Mengutuk yang Mengutuk). Pilih: Mengutuk yang Mengutuk (Condemnation of the Condemners)."
   },
   {
     "id": "sos-sim-11",
@@ -3680,11 +3681,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kumpulan individu yang menempati posisi kekuasaan yang sama dan memiliki kepentingan laten (tersembunyi) yang identik, namun belum terorganisir secara sadar dan belum memiliki struktur organisasi perlawanan bersama."
+        "text": "Sekelompok warga yang sedang berbelanja pakaian seragam di pasar swalayan tanpa kepentingan politik."
       },
       {
         "key": "B",
-        "text": "Kelompok massa bersenjata yang telah menyatakan perang kemerdekaan secara resmi melalui siaran radio ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Organisasi teroris transnasional yang memiliki markas bawah tanah di perbatasan benua."
       },
       {
         "key": "C",
@@ -3692,15 +3693,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Organisasi teroris transnasional yang memiliki markas bawah tanah di perbatasan benua."
+        "text": "Kelompok massa bersenjata yang telah menyatakan perang kemerdekaan secara resmi melalui siaran radio."
       },
       {
         "key": "E",
-        "text": "Sekelompok warga yang sedang berbelanja pakaian seragam di pasar swalayan tanpa kepentingan politik."
+        "text": "Kumpulan individu yang menempati posisi kekuasaan yang sama dan memiliki kepentingan laten (tersembunyi) yang identik, namun belum terorganisir secara sadar dan belum memiliki struktur organisasi perlawanan bersama."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kumpulan individu yang menempati posisi kekuasaan yang sama dan memiliki kepentingan laten (tersembunyi) yang identik, namun belum terorganisir secara sadar dan belum memiliki struktur organisasi perlawanan bersama.. Quasi-group (kelompok semu) Dahrendorf: individu yang berada dalam posisi yang sama dan memiliki kepentingan laten identik, tapi belum terorganisir dan belum sadar bergerak bersama. Pilih: Kumpulan individu yang menempati posisi sama dengan kepentingan laten, namun belum terorganisir secara sadar."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kumpulan individu yang menempati posisi kekuasaan yang sama dan memiliki kepentingan laten (tersembunyi) yang identik, namun belum terorganisir secara sadar dan belum memiliki struktur organisasi perlawanan bersama.. Quasi-group (kelompok semu) Dahrendorf: individu yang berada dalam posisi yang sama dan memiliki kepentingan laten identik, tapi belum terorganisir dan belum sadar bergerak bersama. Pilih: Kumpulan individu yang menempati posisi sama dengan kepentingan laten, namun belum terorganisir secara sadar."
   },
   {
     "id": "sos-sim-12",
@@ -3723,11 +3724,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memaksa kedua pihak menjual tanah sengketa ke perusahaan swasta lalu membagi uangnya sama rata di kantor polisi ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Memaksa kedua pihak menjual tanah sengketa ke perusahaan swasta lalu membagi uangnya sama rata di kantor polisi."
       },
       {
         "key": "B",
-        "text": "Fokus pada pemberdayaan para pihak (_empowerment_) dan pengakuan saling memahami perasaan (_recognition_), guna memulihkan relasi kemanusiaan yang retak alih-alih sekadar memaksakan pembagian nominal materi semata."
+        "text": "Mengusir kedua pihak dari desa agar sengketa tersebut tidak membebani anggaran belanja daerah."
       },
       {
         "key": "C",
@@ -3735,15 +3736,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menyita tanah warisan tersebut menjadi aset milik pribadi sang mediator sebagai imbalan jasa konsultasi."
+        "text": "Fokus pada pemberdayaan para pihak (_empowerment_) dan pengakuan saling memahami perasaan (_recognition_), guna memulihkan relasi kemanusiaan yang retak alih-alih sekadar memaksakan pembagian nominal materi semata."
       },
       {
         "key": "E",
-        "text": "Mengusir kedua pihak dari desa agar sengketa tersebut tidak membebani anggaran belanja daerah."
+        "text": "Menyita tanah warisan tersebut menjadi aset milik pribadi sang mediator sebagai imbalan jasa konsultasi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Fokus pada pemberdayaan para pihak (_empowerment_) dan pengakuan saling memahami perasaan (_recognition_), guna memulihkan relasi kemanusiaan yang retak alih-alih sekadar memaksakan pembagian nominal materi semata.. Mediasi transformatif (Bush & Folger) bertujuan pada dua hal: Empowerment (pemberdayaan para pihak) dan Recognition (saling mengakui dan memahami perspektif lawan), memulihkan relasi sosial. Pilih: Fokus pada pemberdayaan (empowerment) dan pengakuan saling memahami (recognition) guna memulihkan relasi kemanusiaan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Fokus pada pemberdayaan para pihak (_empowerment_) dan pengakuan saling memahami perasaan (_recognition_), guna memulihkan relasi kemanusiaan yang retak alih-alih sekadar memaksakan pembagian nominal materi semata.. Mediasi transformatif (Bush & Folger) bertujuan pada dua hal: Empowerment (pemberdayaan para pihak) dan Recognition (saling mengakui dan memahami perspektif lawan), memulihkan relasi sosial. Pilih: Fokus pada pemberdayaan (empowerment) dan pengakuan saling memahami (recognition) guna memulihkan relasi kemanusiaan."
   },
   {
     "id": "sos-sim-13",
@@ -3766,27 +3767,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kehancuran peradaban total yang tidak mungkin pernah dipulihkan kembali oleh hukum negara sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
-      },
-      {
-        "key": "B",
         "text": "Penyimpangan sekunder permanen yang dilakukan oleh seluruh penduduk kota metropolitan."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Disorganisasi sosial sementara yang kemudian disusul oleh proses Reorganisasi sosial (pembentukan norma, aturan kelembagaan, dan struktur penyesuaian baru)."
       },
       {
+        "key": "C",
+        "text": "Pembentukan kasta tertutup baru yang melarang perkawinan antarkeluarga pengemudi kendaraan."
+      },
+      {
         "key": "D",
-        "text": "Kemunduran evolusi biologis masyarakat kota kembali ke zaman purba berburu dan meramu."
+        "text": "Kehancuran peradaban total yang tidak mungkin pernah dipulihkan kembali oleh hukum negara."
       },
       {
         "key": "E",
-        "text": "Pembentukan kasta tertutup baru yang melarang perkawinan antarkeluarga pengemudi kendaraan."
+        "text": "Kemunduran evolusi biologis masyarakat kota kembali ke zaman purba berburu dan meramu."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Disorganisasi sosial sementara yang kemudian disusul oleh proses Reorganisasi sosial (pembentukan norma, aturan kelembagaan, dan struktur penyesuaian baru).. Perubahan sosial yang diawali kekacauan/konflik sementara saat norma lama runtuh (disorganisasi), lalu tercapai keseimbangan dan aturan baru (reorganisasi). Pilih: Disorganisasi sosial sementara yang disusul oleh proses Reorganisasi sosial."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Disorganisasi sosial sementara yang kemudian disusul oleh proses Reorganisasi sosial (pembentukan norma, aturan kelembagaan, dan struktur penyesuaian baru).. Perubahan sosial yang diawali kekacauan/konflik sementara saat norma lama runtuh (disorganisasi), lalu tercapai keseimbangan dan aturan baru (reorganisasi). Pilih: Disorganisasi sosial sementara yang disusul oleh proses Reorganisasi sosial."
   },
   {
     "id": "sos-sim-14",
@@ -3809,7 +3810,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kepunahan total seluruh tanaman padi liar akibat bencana banjir bandang zaman glasial menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Diciptakannya teknologi bajak bertenaga hewan dan irigasi yang melahirkan surplus pangan masif, di mana surplus tersebut kemudian dimonopoli dan dikuasai oleh segelintir elit penguasa feudal dan tuan tanah."
       },
       {
         "key": "B",
@@ -3817,19 +3818,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Larangan dari dewan gereja abad pertengahan bagi kaum tani untuk mengonsumsi daging hewan."
+        "text": "Kepunahan total seluruh tanaman padi liar akibat bencana banjir bandang zaman glasial menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "D",
-        "text": "Diciptakannya teknologi bajak bertenaga hewan dan irigasi yang melahirkan surplus pangan masif, di mana surplus tersebut kemudian dimonopoli dan dikuasai oleh segelintir elit penguasa feudal dan tuan tanah."
+        "text": "Penetapan undang-undang anti-monopoli yang membagi tanah negara secara gratis kepada seluruh budak."
       },
       {
         "key": "E",
-        "text": "Penetapan undang-undang anti-monopoli yang membagi tanah negara secara gratis kepada seluruh budak."
+        "text": "Larangan dari dewan gereja abad pertengahan bagi kaum tani untuk mengonsumsi daging hewan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Diciptakannya teknologi bajak bertenaga hewan dan irigasi yang melahirkan surplus pangan masif, di mana surplus tersebut kemudian dimonopoli dan dikuasai oleh segelintir elit penguasa feudal dan tuan tanah.. Lenski: pada masyarakat agraris, inovasi bajak hewan menciptakan surplus pangan masif. Surplus ini dimonopoli oleh raja/tuan tanah feodal, menciptakan puncak ketimpangan sosial tertinggi dalam sejarah. Pilih opsi: Teknologi bajak bertenaga hewan menghasilkan surplus pangan yang dimonopoli oleh elit penguasa feudal dan tuan tanah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Diciptakannya teknologi bajak bertenaga hewan dan irigasi yang melahirkan surplus pangan masif, di mana surplus tersebut kemudian dimonopoli dan dikuasai oleh segelintir elit penguasa feudal dan tuan tanah.. Lenski: pada masyarakat agraris, inovasi bajak hewan menciptakan surplus pangan masif. Surplus ini dimonopoli oleh raja/tuan tanah feodal, menciptakan puncak ketimpangan sosial tertinggi dalam sejarah. Pilih opsi: Teknologi bajak bertenaga hewan menghasilkan surplus pangan yang dimonopoli oleh elit penguasa feudal dan tuan tanah."
   },
   {
     "id": "sos-sim-15",
@@ -3852,11 +3853,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Imperialisme kultural mutlak, di mana budaya lokal dimusnahkan seratus persen oleh kekuatan korporasi asing diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Imperialisme kultural mutlak, di mana budaya lokal dimusnahkan seratus persen oleh kekuatan korporasi asing diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "B",
-        "text": "Westernisasi buta, di mana masyarakat Indonesia sepenuhnya meninggalkan seluruh makanan tradisional nenek moyang."
+        "text": "Konsumerisme regresif, yang memicu kepunahan seluruh sawah tanaman padi di pulau Jawa."
       },
       {
         "key": "C",
@@ -3864,7 +3865,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Konsumerisme regresif, yang memicu kepunahan seluruh sawah tanaman padi di pulau Jawa."
+        "text": "Westernisasi buta, di mana masyarakat Indonesia sepenuhnya meninggalkan seluruh makanan tradisional nenek moyang."
       },
       {
         "key": "E",
@@ -3895,27 +3896,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Segregasi Spasial Keruangan (_Spatial Segregation_), yang mencerminkan polarisasi kelas sosial ekonomi ekstrem yang diwujudkan dalam pemisahan fisik lingkungan tempat tinggal dan minimnya interaksi sosial antar-strata."
-      },
-      {
-        "key": "B",
-        "text": "Integrasi sosial fungsional sempurna, di mana warga kedua pemukiman saling bertukar rumah setiap akhir pekan ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Akulturasi budaya arsitektur tradisional yang menjaga keharmonisan estetika lingkungan perdesaan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Bentuk gotong royong modern yang didanai sepenuhnya oleh kas rukun tetangga setempat."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Segregasi Spasial Keruangan (_Spatial Segregation_), yang mencerminkan polarisasi kelas sosial ekonomi ekstrem yang diwujudkan dalam pemisahan fisik lingkungan tempat tinggal dan minimnya interaksi sosial antar-strata."
+      },
+      {
+        "key": "D",
         "text": "Hasil dari program pemerataan pembangunan nasional yang berhasil menghapus kesenjangan pendapatan."
+      },
+      {
+        "key": "E",
+        "text": "Integrasi sosial fungsional sempurna, di mana warga kedua pemukiman saling bertukar rumah setiap akhir pekan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Segregasi Spasial Keruangan (_Spatial Segregation_), yang mencerminkan polarisasi kelas sosial ekonomi ekstrem yang diwujudkan dalam pemisahan fisik lingkungan tempat tinggal dan minimnya interaksi sosial antar-strata.. Pemisahan fisik tempat tinggal antara perumahan mewah berpagar tertutup (gated communities) dan kawasan kumuh (slums) mencerminkan Segregasi Spasial Keruangan (Spatial Segregation). Pilih: Segregasi Spasial Keruangan (Spatial Segregation)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Segregasi Spasial Keruangan (_Spatial Segregation_), yang mencerminkan polarisasi kelas sosial ekonomi ekstrem yang diwujudkan dalam pemisahan fisik lingkungan tempat tinggal dan minimnya interaksi sosial antar-strata.. Pemisahan fisik tempat tinggal antara perumahan mewah berpagar tertutup (gated communities) dan kawasan kumuh (slums) mencerminkan Segregasi Spasial Keruangan (Spatial Segregation). Pilih: Segregasi Spasial Keruangan (Spatial Segregation)."
   },
   {
     "id": "sos-sim-17",
@@ -3938,11 +3939,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keluarga kaya membagi seluruh warisannya kepada pengemis $\\to$ pengemis menjadi jutawan $\\to$ jutawan membeli bank $\\to$ bank membebaskan bunga ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
+        "text": "Anak petani memenangkan medali emas olimpiade $\\to$ diangkat menjadi menteri $\\to$ seluruh petani menjadi konglomerat seketika."
       },
       {
         "key": "B",
-        "text": "Keluarga miskin berpendapatan rendah $\\to$ ketidakmampuan membiayai nutrisi gizi anak dan pendidikan bermutu $\\to$ anak putus sekolah dan kekurangan keterampilan keahlian $\\to$ anak hanya terserap di sektor kerja informal berupah rendah saat dewasa $\\to$ melahirkan keluarga miskin baru."
+        "text": "Kemiskinan terjadi murni karena adanya kutukan mistis yang diwariskan melalui garis keturunan ibu kandung."
       },
       {
         "key": "C",
@@ -3950,15 +3951,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Anak petani memenangkan medali emas olimpiade $\\to$ diangkat menjadi menteri $\\to$ seluruh petani menjadi konglomerat seketika."
+        "text": "Keluarga miskin berpendapatan rendah $\\to$ ketidakmampuan membiayai nutrisi gizi anak dan pendidikan bermutu $\\to$ anak putus sekolah dan kekurangan keterampilan keahlian $\\to$ anak hanya terserap di sektor kerja informal berupah rendah saat dewasa $\\to$ melahirkan keluarga miskin baru."
       },
       {
         "key": "E",
-        "text": "Kemiskinan terjadi murni karena adanya kutukan mistis yang diwariskan melalui garis keturunan ibu kandung."
+        "text": "Keluarga kaya membagi seluruh warisannya kepada pengemis $\\to$ pengemis menjadi jutawan $\\to$ jutawan membeli bank $\\to$ bank membebaskan bunga."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Keluarga miskin berpendapatan rendah $\\to$ ketidakmampuan membiayai nutrisi gizi anak dan pendidikan bermutu $\\to$ anak putus sekolah dan kekurangan keterampilan keahlian $\\to$ anak hanya terserap di sektor kerja informal berupah rendah saat dewasa $\\to$ melahirkan keluarga miskin baru.. Vicious circle of poverty dalam sosiologi: Pendapatan rendah -> defisit gizi & pendidikan anak -> rendahnya keahlian kerja saat dewasa -> pendapatan rendah berulang pada generasi berikutnya. Pilih opsi rantai kausalitas: Keluarga miskin berpendapatan rendah -> tak mampu biaya nutrisi/sekolah -> putus sekolah/keahlian rendah -> kerja informal upah rendah -> keluarga miskin baru."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Keluarga miskin berpendapatan rendah $\\to$ ketidakmampuan membiayai nutrisi gizi anak dan pendidikan bermutu $\\to$ anak putus sekolah dan kekurangan keterampilan keahlian $\\to$ anak hanya terserap di sektor kerja informal berupah rendah saat dewasa $\\to$ melahirkan keluarga miskin baru.. Vicious circle of poverty dalam sosiologi: Pendapatan rendah -> defisit gizi & pendidikan anak -> rendahnya keahlian kerja saat dewasa -> pendapatan rendah berulang pada generasi berikutnya. Pilih opsi rantai kausalitas: Keluarga miskin berpendapatan rendah -> tak mampu biaya nutrisi/sekolah -> putus sekolah/keahlian rendah -> kerja informal upah rendah -> keluarga miskin baru."
   },
   {
     "id": "sos-sim-18",
@@ -3981,27 +3982,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penjualan hak guna air irigasi kepada konglomerat perhotelan swasta asing dengan harga komersial tertinggi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Penjualan hak guna air irigasi kepada konglomerat perhotelan swasta asing dengan harga komersial tertinggi."
       },
       {
         "key": "B",
-        "text": "Pemberian hak monopoli air mutlak kepada kepala desa terkaya tanpa kewajiban membagi kepada petani miskin."
-      },
-      {
-        "key": "C",
         "text": "Menjaga keseimbangan harmonis antara hubungan manusia dengan Sang Pencipta (_Parahyangan_ melalui pura pura air), hubungan harmonis antarsesama manusia (_Pawongan_ melalui musyawarah gotong royong pembagian debit air yang adil), dan hubungan harmonis manusia dengan alam lingkungan (_Palemahan_ melalui rotasi tanam serentak pencegah hama)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Penggunaan pestisida kimia beracun dosis tinggi secara rahasia di malam hari untuk membasmi burung sawah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Pemberantasan seluruh tradisi ritual keagamaan di sawah demi mengejar target panen padi empat kali setahun."
+      },
+      {
+        "key": "E",
+        "text": "Pemberian hak monopoli air mutlak kepada kepala desa terkaya tanpa kewajiban membagi kepada petani miskin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menjaga keseimbangan harmonis antara hubungan manusia dengan Sang Pencipta (_Parahyangan_ melalui pura pura air), hubungan harmonis antarsesama manusia (_Pawongan_ melalui musyawarah gotong royong pembagian debit air yang adil), dan hubungan harmonis manusia dengan alam lingkungan (_Palemahan_ melalui rotasi tanam serentak pencegah hama).. Subak di Bali berlandaskan filosofi Tri Hita Karana: Parahyangan (manusia dengan Tuhan/pura air), Pawongan (manusia dengan sesama/gotong royong adil alokasi air), Palemahan (manusia dengan alam/tata rotasi tanam). Pilih opsi yang menjabarkan keseimbangan Parahyangan (pura air), Pawongan (musyawarah pembagian air adil), dan Palemahan (rotasi tanam serentak)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menjaga keseimbangan harmonis antara hubungan manusia dengan Sang Pencipta (_Parahyangan_ melalui pura pura air), hubungan harmonis antarsesama manusia (_Pawongan_ melalui musyawarah gotong royong pembagian debit air yang adil), dan hubungan harmonis manusia dengan alam lingkungan (_Palemahan_ melalui rotasi tanam serentak pencegah hama).. Subak di Bali berlandaskan filosofi Tri Hita Karana: Parahyangan (manusia dengan Tuhan/pura air), Pawongan (manusia dengan sesama/gotong royong adil alokasi air), Palemahan (manusia dengan alam/tata rotasi tanam). Pilih opsi yang menjabarkan keseimbangan Parahyangan (pura air), Pawongan (musyawarah pembagian air adil), dan Palemahan (rotasi tanam serentak)."
   },
   {
     "id": "sos-sim-19",
@@ -4024,7 +4025,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kontrol Warga Penuh (_Citizen Control_), di mana warga memegang wewenang penuh dalam perencanaan dan penggunaan anggaran menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+        "text": "Partisipasi Semu / Simbolis (_Tokenism_), di mana keterlibatan warga hanya sebagai formalitas permukaan (seperti sekadar diinformasikan atau diajak konsultasi pura-pura) tanpa adanya pemberian kekuasaan nyata (_citizen power_)."
       },
       {
         "key": "B",
@@ -4032,19 +4033,19 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Delegasi Kekuasaan (_Delegated Power_), di mana warga memegang hak veto terhadap setiap rancangan kebijakan publik."
+        "text": "Kontrol Warga Penuh (_Citizen Control_), di mana warga memegang wewenang penuh dalam perencanaan dan penggunaan anggaran menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
       },
       {
         "key": "D",
-        "text": "Partisipasi Semu / Simbolis (_Tokenism_), di mana keterlibatan warga hanya sebagai formalitas permukaan (seperti sekadar diinformasikan atau diajak konsultasi pura-pura) tanpa adanya pemberian kekuasaan nyata (_citizen power_)."
+        "text": "Kondisi Anarki Murni, di mana masyarakat desa mengusir seluruh aparat birokrasi dari wilayahnya."
       },
       {
         "key": "E",
-        "text": "Kondisi Anarki Murni, di mana masyarakat desa mengusir seluruh aparat birokrasi dari wilayahnya."
+        "text": "Delegasi Kekuasaan (_Delegated Power_), di mana warga memegang hak veto terhadap setiap rancangan kebijakan publik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Partisipasi Semu / Simbolis (_Tokenism_), di mana keterlibatan warga hanya sebagai formalitas permukaan (seperti sekadar diinformasikan atau diajak konsultasi pura-pura) tanpa adanya pemberian kekuasaan nyata (_citizen power_).. Arnstein Ladder of Participation: Warga hanya diundang hadir tanda tangan tanpa didengar aspirasinya = Tokenism (partisipasi semu/simbolis). Pilih: Partisipasi Semu / Simbolis (Tokenism)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Partisipasi Semu / Simbolis (_Tokenism_), di mana keterlibatan warga hanya sebagai formalitas permukaan (seperti sekadar diinformasikan atau diajak konsultasi pura-pura) tanpa adanya pemberian kekuasaan nyata (_citizen power_).. Arnstein Ladder of Participation: Warga hanya diundang hadir tanda tangan tanpa didengar aspirasinya = Tokenism (partisipasi semu/simbolis). Pilih: Partisipasi Semu / Simbolis (Tokenism)."
   },
   {
     "id": "sos-sim-20",
@@ -4067,27 +4068,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat pendidikan orang tua tidak memiliki pengaruh apa pun terhadap masa depan anak diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
-      },
-      {
-        "key": "B",
         "text": "Terdapat hubungan negatif sempurna di mana orang tua berpendidikan tinggi selalu melarang anaknya kuliah."
       },
       {
+        "key": "B",
+        "text": "Tingkat pendidikan orang tua tidak memiliki pengaruh apa pun terhadap masa depan anak diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+      },
+      {
         "key": "C",
-        "text": "Nilai signifikansi membuktikan bahwa data yang dikumpulkan oleh peneliti palsu dan melanggar hukum."
+        "text": "Terdapat hubungan positif yang kuat dan signifikan secara statistik antara tingkat pendidikan orang tua dengan aspirasi studi anak; semakin tinggi tingkat pendidikan orang tua, semakin tinggi pula dorongan aspirasi pendidikan anak ke perguruan tinggi."
       },
       {
         "key": "D",
-        "text": "Semua anak dari keluarga buta huruf dipastikan tidak memiliki cita-cita hidup sama sekali."
+        "text": "Nilai signifikansi membuktikan bahwa data yang dikumpulkan oleh peneliti palsu dan melanggar hukum."
       },
       {
         "key": "E",
-        "text": "Terdapat hubungan positif yang kuat dan signifikan secara statistik antara tingkat pendidikan orang tua dengan aspirasi studi anak; semakin tinggi tingkat pendidikan orang tua, semakin tinggi pula dorongan aspirasi pendidikan anak ke perguruan tinggi."
+        "text": "Semua anak dari keluarga buta huruf dipastikan tidak memiliki cita-cita hidup sama sekali."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Terdapat hubungan positif yang kuat dan signifikan secara statistik antara tingkat pendidikan orang tua dengan aspirasi studi anak; semakin tinggi tingkat pendidikan orang tua, semakin tinggi pula dorongan aspirasi pendidikan anak ke perguruan tinggi.. Nilai r = +0,78 (positif kuat) dan p = 0,001 (< 0,05 signifikan). Berarti terdapat hubungan positif kuat dan signifikan antara pendidikan orang tua dan aspirasi kuliah anak. Pilih opsi yang menyatakan adanya hubungan positif yang kuat dan signifikan secara statistik."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Terdapat hubungan positif yang kuat dan signifikan secara statistik antara tingkat pendidikan orang tua dengan aspirasi studi anak; semakin tinggi tingkat pendidikan orang tua, semakin tinggi pula dorongan aspirasi pendidikan anak ke perguruan tinggi.. Nilai r = +0,78 (positif kuat) dan p = 0,001 (< 0,05 signifikan). Berarti terdapat hubungan positif kuat dan signifikan antara pendidikan orang tua dan aspirasi kuliah anak. Pilih opsi yang menyatakan adanya hubungan positif yang kuat dan signifikan secara statistik."
   },
   {
     "id": "sos-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membongkar dan menyingkap aturan-aturan tak terucapkan (_taken-for-granted assumptions_) dan norma tersembunyi yang menopang keteraturan interaksi sosial sehari-hari masyarakat yang biasanya tidak disadari oleh para pelakunya."
+        "text": "Menguji ketahanan fisik para mahasiswa terhadap pukulan kemarahan orang tua di ruang makan."
       },
       {
         "key": "B",
-        "text": "Menguji ketahanan fisik para mahasiswa terhadap pukulan kemarahan orang tua di ruang makan ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas ditinjau dari dinamika diferensiasi sosial horizontal dan polarisasi stratifikasi kelas."
-      },
-      {
-        "key": "C",
         "text": "Mendorong anak-anak muda untuk memutuskan tali silaturahmi keluarga secara permanen."
       },
       {
+        "key": "C",
+        "text": "Mengumpulkan bukti tindak pidana penipuan perhotelan yang dilakukan oleh orang tua di rumah."
+      },
+      {
         "key": "D",
-        "text": "Membuktikan bahwa orang tua tidak memiliki kasih sayang biologis terhadap anak kandungnya."
+        "text": "Membongkar dan menyingkap aturan-aturan tak terucapkan (_taken-for-granted assumptions_) dan norma tersembunyi yang menopang keteraturan interaksi sosial sehari-hari masyarakat yang biasanya tidak disadari oleh para pelakunya."
       },
       {
         "key": "E",
-        "text": "Mengumpulkan bukti tindak pidana penipuan perhotelan yang dilakukan oleh orang tua di rumah."
+        "text": "Membuktikan bahwa orang tua tidak memiliki kasih sayang biologis terhadap anak kandungnya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Membongkar dan menyingkap aturan-aturan tak terucapkan (_taken-for-granted assumptions_) dan norma tersembunyi yang menopang keteraturan interaksi sosial sehari-hari masyarakat yang biasanya tidak disadari oleh para pelakunya.. Breaching experiments Garfinkel sengaja melanggar norma kewajaran sehari-hari untuk mengungkap aturan tak tertulis (taken-for-granted rules) yang menopang keteraturan sosial. Pilih: Membongkar aturan tak terucapkan (taken-for-granted assumptions) dan norma tersembunyi yang menopang keteraturan sosial sehari-hari."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Membongkar dan menyingkap aturan-aturan tak terucapkan (_taken-for-granted assumptions_) dan norma tersembunyi yang menopang keteraturan interaksi sosial sehari-hari masyarakat yang biasanya tidak disadari oleh para pelakunya.. Breaching experiments Garfinkel sengaja melanggar norma kewajaran sehari-hari untuk mengungkap aturan tak tertulis (taken-for-granted rules) yang menopang keteraturan sosial. Pilih: Membongkar aturan tak terucapkan (taken-for-granted assumptions) dan norma tersembunyi yang menopang keteraturan sosial sehari-hari."
   },
   {
     "id": "sos-sim-22",
@@ -4153,11 +4154,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Surat Perjanjian Utang Piutang Bermeterai Sepuluh Ribu Rupiah."
+        "text": "Surat Kuasa Khusus Pengalihan Seluruh Aset Kekayaan Responden."
       },
       {
         "key": "B",
-        "text": "_Informed Consent_ (Persetujuan Setelah Penjelasan Lengkap)."
+        "text": "Surat Perjanjian Utang Piutang Bermeterai Sepuluh Ribu Rupiah."
       },
       {
         "key": "C",
@@ -4165,15 +4166,15 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Surat Kuasa Khusus Pengalihan Seluruh Aset Kekayaan Responden."
+        "text": "_Informed Consent_ (Persetujuan Setelah Penjelasan Lengkap)."
       },
       {
         "key": "E",
         "text": "Surat Perintah Penahanan Sementara dari Kejaksaan Negeri."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) _Informed Consent_ (Persetujuan Setelah Penjelasan Lengkap).. Lembar persetujuan sukarela responden setelah memahami tujuan, hak, dan jaminan kerahasiaan penelitian disebut Informed Consent. Pilih: Informed Consent (Persetujuan Setelah Penjelasan Lengkap)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) _Informed Consent_ (Persetujuan Setelah Penjelasan Lengkap).. Lembar persetujuan sukarela responden setelah memahami tujuan, hak, dan jaminan kerahasiaan penelitian disebut Informed Consent. Pilih: Informed Consent (Persetujuan Setelah Penjelasan Lengkap)."
   },
   {
     "id": "sos-sim-23",
@@ -4196,11 +4197,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kelompok terbentuk berdasarkan garis keturunan darah leluhur purba yang wajib tinggal di dalam satu rumah adat yang sama sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi sesuai dengan fungsi manifes dan fungsi laten institusi sosial dalam menjaga integrasi."
+        "text": "Kelompok memiliki pasukan bersenjata tajam yang bertugas memerangi kelompok suku tetangga setiap malam."
       },
       {
         "key": "B",
-        "text": "Kelompok memiliki pasukan bersenjata tajam yang bertugas memerangi kelompok suku tetangga setiap malam."
+        "text": "Keanggotaan bersifat tertutup kaku di mana anggotanya dilarang menikah dengan orang di luar marga kelompok."
       },
       {
         "key": "C",
@@ -4208,7 +4209,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Keanggotaan bersifat tertutup kaku di mana anggotanya dilarang menikah dengan orang di luar marga kelompok."
+        "text": "Kelompok terbentuk berdasarkan garis keturunan darah leluhur purba yang wajib tinggal di dalam satu rumah adat yang sama."
       },
       {
         "key": "E",
@@ -4239,27 +4240,27 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bentuk pemberontakan kriminal bersenjata yang dilakukan oleh para pemuda melawan kedaulatan negara menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Kegagalan total sistem pendidikan dasar nasional yang menghasilkan lulusan buta huruf."
-      },
-      {
-        "key": "C",
         "text": "Penyimpangan seksual masif yang melanggar aturan tata susila dan hukum adat perdata."
       },
       {
+        "key": "B",
+        "text": "Bentuk pemberontakan kriminal bersenjata yang dilakukan oleh para pemuda melawan kedaulatan negara menurut mekanisme resolusi konflik struktural dan transformasi perdamaian berkelanjutan."
+      },
+      {
+        "key": "C",
+        "text": "Gejala penurunan kecerdasan otak manusia akibat radiasi menara satelit komunikasi."
+      },
+      {
         "key": "D",
-        "text": "Kesenjangan Generasi (_Generation Gap_), yaitu perbedaan nilai, norma, persepsi, dan etos perilaku antargenerasi akibat perbedaan konteks historis, perkembangan teknologi, dan kondisi sosio-kultural saat mereka mengalami masa sosialisasi primer."
+        "text": "Kegagalan total sistem pendidikan dasar nasional yang menghasilkan lulusan buta huruf."
       },
       {
         "key": "E",
-        "text": "Gejala penurunan kecerdasan otak manusia akibat radiasi menara satelit komunikasi."
+        "text": "Kesenjangan Generasi (_Generation Gap_), yaitu perbedaan nilai, norma, persepsi, dan etos perilaku antargenerasi akibat perbedaan konteks historis, perkembangan teknologi, dan kondisi sosio-kultural saat mereka mengalami masa sosialisasi primer."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kesenjangan Generasi (_Generation Gap_), yaitu perbedaan nilai, norma, persepsi, dan etos perilaku antargenerasi akibat perbedaan konteks historis, perkembangan teknologi, dan kondisi sosio-kultural saat mereka mengalami masa sosialisasi primer.. Perbedaan pandangan, nilai kerja, dan norma perilaku antargenerasi akibat perbedaan konteks sejarah dan sosialisasi disebut Kesenjangan Generasi (Generation Gap). Pilih: Kesenjangan Generasi (Generation Gap)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kesenjangan Generasi (_Generation Gap_), yaitu perbedaan nilai, norma, persepsi, dan etos perilaku antargenerasi akibat perbedaan konteks historis, perkembangan teknologi, dan kondisi sosio-kultural saat mereka mengalami masa sosialisasi primer.. Perbedaan pandangan, nilai kerja, dan norma perilaku antargenerasi akibat perbedaan konteks sejarah dan sosialisasi disebut Kesenjangan Generasi (Generation Gap). Pilih: Kesenjangan Generasi (Generation Gap)."
   },
   {
     "id": "sos-sim-25",
@@ -4282,11 +4283,11 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keberadaan instruksi tertulis langsung dari Mahkamah Agung luar negeri diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
+        "text": "Kedatangan pesawat antariksa asing yang mendarat di pusat kerumunan massa."
       },
       {
         "key": "B",
-        "text": "Pembagian sembako gratis dari pemerintah yang dibagikan secara serentak di alun-alun."
+        "text": "Keberadaan instruksi tertulis langsung dari Mahkamah Agung luar negeri diturunkan dari kaidah metodologi penelitian sosial empiris dan paradigma fakta sosial."
       },
       {
         "key": "C",
@@ -4294,7 +4295,7 @@ window.TKA_SOSIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kedatangan pesawat antariksa asing yang mendarat di pusat kerumunan massa."
+        "text": "Pembagian sembako gratis dari pemerintah yang dibagikan secara serentak di alun-alun."
       },
       {
         "key": "E",

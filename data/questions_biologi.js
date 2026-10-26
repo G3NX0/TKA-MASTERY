@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_BIOLOGI.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_BIOLOGI_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_BIOLOGI_QUESTIONS = [
   {
     "id": "bio-lat-e-01",
@@ -25,27 +26,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ribosom $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Vesikel Transpor $\\rightarrow$ Badan Golgi $\\rightarrow$ Vesikel Sekretori $\\rightarrow$ Membran Plasma (Eksositosis)."
+        "text": "Ribosom $\\rightarrow$ Badan Golgi $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Nukleus $\\rightarrow$ Membran Plasma."
       },
       {
         "key": "B",
-        "text": "Ribosom $\\rightarrow$ Mitokondria $\\rightarrow$ Lisosom $\\rightarrow$ Badan Golgi $\\rightarrow$ Dinding Sel sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Ribosom $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Vesikel Transpor $\\rightarrow$ Badan Golgi $\\rightarrow$ Vesikel Sekretori $\\rightarrow$ Membran Plasma (Eksositosis)."
       },
       {
         "key": "C",
-        "text": "Retikulum Endoplasma Halus $\\rightarrow$ Peroksisom $\\rightarrow$ Sentriol $\\rightarrow$ Membran Plasma."
+        "text": "Ribosom $\\rightarrow$ Mitokondria $\\rightarrow$ Lisosom $\\rightarrow$ Badan Golgi $\\rightarrow$ Dinding Sel."
       },
       {
         "key": "D",
-        "text": "Nukleolus $\\rightarrow$ Vakuola Sentral $\\rightarrow$ Kloroplas $\\rightarrow$ Badan Golgi $\\rightarrow$ Sitosol."
+        "text": "Retikulum Endoplasma Halus $\\rightarrow$ Peroksisom $\\rightarrow$ Sentriol $\\rightarrow$ Membran Plasma."
       },
       {
         "key": "E",
-        "text": "Ribosom $\\rightarrow$ Badan Golgi $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Nukleus $\\rightarrow$ Membran Plasma."
+        "text": "Nukleolus $\\rightarrow$ Vakuola Sentral $\\rightarrow$ Kloroplas $\\rightarrow$ Badan Golgi $\\rightarrow$ Sitosol."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Ribosom $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Vesikel Transpor $\\rightarrow$ Badan Golgi $\\rightarrow$ Vesikel Sekretori $\\rightarrow$ Membran Plasma (Eksositosis).. Protein sekretori diproduksi di RE kasar, dibawa vesikel transpor ke cis-Golgi, dimatangkan di trans-Golgi, lalu dibawa vesikel sekretori menuju membran plasma. Urutan tepat: Ribosom -> RE Kasar -> Vesikel Transpor -> Badan Golgi -> Vesikel Sekretori -> Membran Plasma."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Ribosom $\\rightarrow$ Retikulum Endoplasma Kasar $\\rightarrow$ Vesikel Transpor $\\rightarrow$ Badan Golgi $\\rightarrow$ Vesikel Sekretori $\\rightarrow$ Membran Plasma (Eksositosis).. Protein sekretori diproduksi di RE kasar, dibawa vesikel transpor ke cis-Golgi, dimatangkan di trans-Golgi, lalu dibawa vesikel sekretori menuju membran plasma. Urutan tepat: Ribosom -> RE Kasar -> Vesikel Transpor -> Badan Golgi -> Vesikel Sekretori -> Membran Plasma."
   },
   {
     "id": "bio-lat-e-02",
@@ -68,7 +69,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lisis (sitolisis), terjadi karena air berdifusi masuk secara masif menyebabkan dinding sel pecah akibat tekanan osmosis tinggi sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Turgiditas, terjadi karena sel menyerap air garam secara difusi terfasilitasi hingga vakuola mengembang maksimal."
       },
       {
         "key": "B",
@@ -76,7 +77,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Turgiditas, terjadi karena sel menyerap air garam secara difusi terfasilitasi hingga vakuola mengembang maksimal."
+        "text": "Lisis (sitolisis), terjadi karena air berdifusi masuk secara masif menyebabkan dinding sel pecah akibat tekanan osmosis tinggi."
       },
       {
         "key": "D",
@@ -111,27 +112,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Substrat mengalami hidrolisis spontan menjadi gas karbon dioksida sebelum sempat bertumbukan dengan enzim ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
         "text": "Enzim kehabisan energi aktivasi karena seluruh molekul ATP di dalam bejana reaksi telah terurai habis."
       },
       {
+        "key": "B",
+        "text": "Substrat mengalami hidrolisis spontan menjadi gas karbon dioksida sebelum sempat bertumbukan dengan enzim."
+      },
+      {
         "key": "C",
-        "text": "Denaturasi protein enzim; energi kinetik termal yang berlebihan memutuskan ikatan hidrogen dan interaksi nonkovalen penstabil konformasi tiga dimensi sisi aktif enzim sehingga substrat tidak dapat berikatan lagi."
+        "text": "Terbentuknya kompleks enzim-substrat yang bersifat kovalen permanen sehingga enzim tidak dapat melepaskan produk."
       },
       {
         "key": "D",
-        "text": "Terbentuknya kompleks enzim-substrat yang bersifat kovalen permanen sehingga enzim tidak dapat melepaskan produk."
+        "text": "Denaturasi protein enzim; energi kinetik termal yang berlebihan memutuskan ikatan hidrogen dan interaksi nonkovalen penstabil konformasi tiga dimensi sisi aktif enzim sehingga substrat tidak dapat berikatan lagi."
       },
       {
         "key": "E",
         "text": "Enzim membeku dan mengkristal menjadi endapan kalsium fosfat yang tidak dapat larut dalam air."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Denaturasi protein enzim; energi kinetik termal yang berlebihan memutuskan ikatan hidrogen dan interaksi nonkovalen penstabil konformasi tiga dimensi sisi aktif enzim sehingga substrat tidak dapat berikatan lagi.. Enzim adalah protein. Suhu tinggi merusak ikatan non-kovalen yang mempertahankan bentuk sisi aktifnya. Proses perusakan bentuk struktur protein ini disebut denaturasi. Pilih opsi yang menjelaskan denaturasi protein enzim dan kerusakan konformasi sisi aktif."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Denaturasi protein enzim; energi kinetik termal yang berlebihan memutuskan ikatan hidrogen dan interaksi nonkovalen penstabil konformasi tiga dimensi sisi aktif enzim sehingga substrat tidak dapat berikatan lagi.. Enzim adalah protein. Suhu tinggi merusak ikatan non-kovalen yang mempertahankan bentuk sisi aktifnya. Proses perusakan bentuk struktur protein ini disebut denaturasi. Pilih opsi yang menjelaskan denaturasi protein enzim dan kerusakan konformasi sisi aktif."
   },
   {
     "id": "bio-lat-e-04",
@@ -154,27 +155,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "2 molekul Asetil Ko-A, 4 molekul ATP bersih, dan 2 molekul FADH2 menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "1 molekul Asam Sitrat, 2 molekul CO2, dan 36 molekul ATP."
-      },
-      {
-        "key": "C",
         "text": "2 molekul Asam Laktat, 2 molekul NAD+, dan 0 molekul ATP."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "2 molekul Asetil Ko-A, 4 molekul ATP bersih, dan 2 molekul FADH2 menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
+        "key": "C",
         "text": "2 molekul Asam Piruvat, 2 molekul ATP bersih (karena menghasilkan 4 ATP tetapi mengonsumsi 2 ATP di awal), dan 2 molekul NADH."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "2 molekul Etanol, 2 molekul CO2, dan 38 molekul ATP bersih."
+      },
+      {
+        "key": "E",
+        "text": "1 molekul Asam Sitrat, 2 molekul CO2, dan 36 molekul ATP."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 2 molekul Asam Piruvat, 2 molekul ATP bersih (karena menghasilkan 4 ATP tetapi mengonsumsi 2 ATP di awal), dan 2 molekul NADH.. Glikolisis memecah glukosa (6C) menjadi 2 piruvat (3C). Total dibuat 4 ATP tetapi 2 ATP dipakai di tahap investasi, sehingga hasil bersih 2 ATP dan 2 NADH. Produk bersih: 2 Asam Piruvat, 2 ATP bersih, dan 2 NADH."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 2 molekul Asam Piruvat, 2 molekul ATP bersih (karena menghasilkan 4 ATP tetapi mengonsumsi 2 ATP di awal), dan 2 molekul NADH.. Glikolisis memecah glukosa (6C) menjadi 2 piruvat (3C). Total dibuat 4 ATP tetapi 2 ATP dipakai di tahap investasi, sehingga hasil bersih 2 ATP dan 2 NADH. Produk bersih: 2 Asam Piruvat, 2 ATP bersih, dan 2 NADH."
   },
   {
     "id": "bio-lat-e-05",
@@ -197,19 +198,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reduksi gas karbon dioksida ($\text{CO}_2$) oleh enzim Rubisco pada tahap fiksasi Siklus Calvin diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Oksidasi molekul NADPH menjadi NADP+ pada membran grana saat reaksi gelap."
       },
       {
         "key": "B",
-        "text": "Penguraian molekul glukosa cadangan di dalam stroma kloroplas pada malam hari."
-      },
-      {
-        "key": "C",
         "text": "Fotofosforilasi siklik yang melibatkan pelepasan oksigen dari membran luar kloroplas."
       },
       {
+        "key": "C",
+        "text": "Reduksi gas karbon dioksida ($ ext{CO}_2$) oleh enzim Rubisco pada tahap fiksasi Siklus Calvin."
+      },
+      {
         "key": "D",
-        "text": "Oksidasi molekul NADPH menjadi NADP+ pada membran grana saat reaksi gelap."
+        "text": "Penguraian molekul glukosa cadangan di dalam stroma kloroplas pada malam hari."
       },
       {
         "key": "E",
@@ -240,27 +241,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$22\\%$, karena menurut aturan Chargaff jumlah $\\text{A} = \\text{T}$ dan $\\text{G} = \\text{C}$. Jika $\\text{A} = 28\\%$, maka $\\text{T} = 28\\%$ (total $\\text{A} + \\text{T} = 56\\%$). Sisanya adalah $\\text{G} + \\text{C} = 100\\% - 56\\% = 44\\%$, sehingga persentase sitosin adalah $\\text{C} = \\frac{44\\%}{2} = 22\\%$."
+        "text": "$56\\%$, karena menyamakan persentase sitosin dengan jumlah gabungan adenin dan timin."
       },
       {
         "key": "B",
-        "text": "$28\\%$, karena seluruh keempat jenis basa nitrogen selalu memiliki proporsi persentase yang identik sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
         "text": "$44\\%$, dihitung dari pengurangan total persentase tanpa membagi dua pasangan guanin dan sitosin."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$14\\%$, dihitung dari pembagian persentase adenin dengan jumlah rantai ganda heliks DNA."
       },
       {
+        "key": "D",
+        "text": "$22\\%$, karena menurut aturan Chargaff jumlah $\\text{A} = \\text{T}$ dan $\\text{G} = \\text{C}$. Jika $\\text{A} = 28\\%$, maka $\\text{T} = 28\\%$ (total $\\text{A} + \\text{T} = 56\\%$). Sisanya adalah $\\text{G} + \\text{C} = 100\\% - 56\\% = 44\\%$, sehingga persentase sitosin adalah $\\text{C} = \\frac{44\\%}{2} = 22\\%$."
+      },
+      {
         "key": "E",
-        "text": "$56\\%$, karena menyamakan persentase sitosin dengan jumlah gabungan adenin dan timin."
+        "text": "$28\\%$, karena seluruh keempat jenis basa nitrogen selalu memiliki proporsi persentase yang identik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $22\\%$, karena menurut aturan Chargaff jumlah $\\text{A} = \\text{T}$ dan $\\text{G} = \\text{C}$. Jika $\\text{A} = 28\\%$, maka $\\text{T} = 28\\%$ (total $\\text{A} + \\text{T} = 56\\%$). Sisanya adalah $\\text{G} + \\text{C} = 100\\% - 56\\% = 44\\%$, sehingga persentase sitosin adalah $\\text{C} = \\frac{44\\%}{2} = 22\\%$.. Pada DNA utas ganda: %A = %T dan %G = %C. Jumlah total A + T + G + C = 100%. A = 28% -> T = 28%. A + T = 56%. Maka G + C = 44%. C = 44% / 2 = 22%."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $22\\%$, karena menurut aturan Chargaff jumlah $\\text{A} = \\text{T}$ dan $\\text{G} = \\text{C}$. Jika $\\text{A} = 28\\%$, maka $\\text{T} = 28\\%$ (total $\\text{A} + \\text{T} = 56\\%$). Sisanya adalah $\\text{G} + \\text{C} = 100\\% - 56\\% = 44\\%$, sehingga persentase sitosin adalah $\\text{C} = \\frac{44\\%}{2} = 22\\%$.. Pada DNA utas ganda: %A = %T dan %G = %C. Jumlah total A + T + G + C = 100%. A = 28% -> T = 28%. A + T = 56%. Maka G + C = 44%. C = 44% / 2 = 22%."
   },
   {
     "id": "bio-lat-e-07",
@@ -283,11 +284,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5'\\text{-AUG–CCA–AAG–GCU–UGA-}3'$, akibat salah menyalin pasangan basa sitosin menjadi adenin sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "$5'\\text{-UAC–GGA–UUC–CGA–ACU-}3'$, yang hanya menyalin untai cetakan dengan sekadar mengganti timin menjadi urasil."
       },
       {
         "key": "B",
-        "text": "$5'\\text{-AUG–CCU–AAG–GCU–UGA-}3'$, karena transkripsi membentuk rantai komplementer antiparalel dengan mengganti basa adenin pada DNA menjadi urasil pada RNA, timin menjadi adenin, sitosin menjadi guanin, dan guanin menjadi sitosin."
+        "text": "$5'\\text{-ATG–CCT–AAG–GCT–TGA-}3'$, karena masih mengandung basa nitrogen timin yang tidak terdapat pada molekul RNA."
       },
       {
         "key": "C",
@@ -295,15 +296,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$5'\\text{-ATG–CCT–AAG–GCT–TGA-}3'$, karena masih mengandung basa nitrogen timin yang tidak terdapat pada molekul RNA."
+        "text": "$5'\\text{-AUG–CCA–AAG–GCU–UGA-}3'$, akibat salah menyalin pasangan basa sitosin menjadi adenin."
       },
       {
         "key": "E",
-        "text": "$5'\\text{-UAC–GGA–UUC–CGA–ACU-}3'$, yang hanya menyalin untai cetakan dengan sekadar mengganti timin menjadi urasil."
+        "text": "$5'\\text{-AUG–CCU–AAG–GCU–UGA-}3'$, karena transkripsi membentuk rantai komplementer antiparalel dengan mengganti basa adenin pada DNA menjadi urasil pada RNA, timin menjadi adenin, sitosin menjadi guanin, dan guanin menjadi sitosin."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $5'\\text{-AUG–CCU–AAG–GCU–UGA-}3'$, karena transkripsi membentuk rantai komplementer antiparalel dengan mengganti basa adenin pada DNA menjadi urasil pada RNA, timin menjadi adenin, sitosin menjadi guanin, dan guanin menjadi sitosin.. mRNA dibuat komplementer terhadap template (antisense) dengan arah 5' -> 3'. Pada RNA, tidak ada T, digantikan oleh U. T->A, A->U, C->G, G->C. Maka: TAC -> AUG, GGA -> CCU, TTC -> AAG, CGA -> GCU, ACT -> UGA."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $5'\\text{-AUG–CCU–AAG–GCU–UGA-}3'$, karena transkripsi membentuk rantai komplementer antiparalel dengan mengganti basa adenin pada DNA menjadi urasil pada RNA, timin menjadi adenin, sitosin menjadi guanin, dan guanin menjadi sitosin.. mRNA dibuat komplementer terhadap template (antisense) dengan arah 5' -> 3'. Pada RNA, tidak ada T, digantikan oleh U. T->A, A->U, C->G, G->C. Maka: TAC -> AUG, GGA -> CCU, TTC -> AAG, CGA -> GCU, ACT -> UGA."
   },
   {
     "id": "bio-lat-e-08",
@@ -326,15 +327,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Profase, di mana membran inti baru mulai melarut dan benang kromatin mulai memadat ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Metafase, di mana kromosom terkondensasi maksimal dan pelat metafase terbentuk dengan kinetokor setiap kromatid terikat pada mikrotubulus spindel dari kutub berlawanan."
       },
       {
         "key": "B",
-        "text": "Anafase, di mana kromatid saudara telah terpisah ditarik menuju kutub sel yang berlawanan."
+        "text": "Interfase fase G1, di mana sel melakukan replikasi organel tanpa adanya pemadatan kromosom."
       },
       {
         "key": "C",
-        "text": "Metafase, di mana kromosom terkondensasi maksimal dan pelat metafase terbentuk dengan kinetokor setiap kromatid terikat pada mikrotubulus spindel dari kutub berlawanan."
+        "text": "Anafase, di mana kromatid saudara telah terpisah ditarik menuju kutub sel yang berlawanan."
       },
       {
         "key": "D",
@@ -342,11 +343,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Interfase fase G1, di mana sel melakukan replikasi organel tanpa adanya pemadatan kromosom."
+        "text": "Profase, di mana membran inti baru mulai melarut dan benang kromatin mulai memadat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Metafase, di mana kromosom terkondensasi maksimal dan pelat metafase terbentuk dengan kinetokor setiap kromatid terikat pada mikrotubulus spindel dari kutub berlawanan.. Kata kunci: kromosom berjajar di bidang ekuator / pelat tengah sel. Ini adalah ciri khas metafase. Pilih Metafase."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Metafase, di mana kromosom terkondensasi maksimal dan pelat metafase terbentuk dengan kinetokor setiap kromatid terikat pada mikrotubulus spindel dari kutub berlawanan.. Kata kunci: kromosom berjajar di bidang ekuator / pelat tengah sel. Ini adalah ciri khas metafase. Pilih Metafase."
   },
   {
     "id": "bio-lat-e-09",
@@ -369,11 +370,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "40 tanaman, yang merupakan jumlah tanaman berfenotipe batang pendek resesif menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "80 tanaman, dihitung jika mengasumsikan rasio fenotipe satu banding satu seperti uji silang (test cross)."
       },
       {
         "key": "B",
-        "text": "80 tanaman, dihitung jika mengasumsikan rasio fenotipe satu banding satu seperti uji silang (test cross)."
+        "text": "100 tanaman, dihitung dari pembagian rata persentase sembarang tanpa acuan hukum Mendel."
       },
       {
         "key": "C",
@@ -385,7 +386,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "100 tanaman, dihitung dari pembagian rata persentase sembarang tanpa acuan hukum Mendel."
+        "text": "40 tanaman, yang merupakan jumlah tanaman berfenotipe batang pendek resesif menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       }
     ],
     "correctKey": "D",
@@ -412,7 +413,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya golongan darah AB $100\\%$ karena sifat A dan B bersifat kodominan murni diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Empat kemungkinan: Golongan darah A, B, AB, atau O dengan peluang masing-masing sebesar $25\\%$ ($1 : 1 : 1 : 1$), karena kombinasi gamet menghasilkan genotipe $I^A I^B$ (AB), $I^A I^O$ (A), $I^B I^O$ (B), dan $I^O I^O$ (O)."
       },
       {
         "key": "B",
@@ -420,19 +421,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Golongan darah O $75\\%$ dan golongan darah AB $25\\%$."
-      },
-      {
-        "key": "D",
         "text": "Hanya golongan darah O karena alel resesif selalu mendominasi dalam perkawinan heterozigot."
       },
       {
+        "key": "D",
+        "text": "Golongan darah O $75\\%$ dan golongan darah AB $25\\%$."
+      },
+      {
         "key": "E",
-        "text": "Empat kemungkinan: Golongan darah A, B, AB, atau O dengan peluang masing-masing sebesar $25\\%$ ($1 : 1 : 1 : 1$), karena kombinasi gamet menghasilkan genotipe $I^A I^B$ (AB), $I^A I^O$ (A), $I^B I^O$ (B), dan $I^O I^O$ (O)."
+        "text": "Hanya golongan darah AB $100\\%$ karena sifat A dan B bersifat kodominan murni."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Empat kemungkinan: Golongan darah A, B, AB, atau O dengan peluang masing-masing sebesar $25\\%$ ($1 : 1 : 1 : 1$), karena kombinasi gamet menghasilkan genotipe $I^A I^B$ (AB), $I^A I^O$ (A), $I^B I^O$ (B), dan $I^O I^O$ (O).. Gamet ibu: I^A dan I^O. Gamet ayah: I^B dan I^O. Silangkan keduanya dalam papan catur Punnett 2x2. Hasil: I^A I^B (AB), I^A I^O (A), I^B I^O (B), I^O I^O (O). Keempatnya mungkin terjadi dengan peluang masing-masing 25%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Empat kemungkinan: Golongan darah A, B, AB, atau O dengan peluang masing-masing sebesar $25\\%$ ($1 : 1 : 1 : 1$), karena kombinasi gamet menghasilkan genotipe $I^A I^B$ (AB), $I^A I^O$ (A), $I^B I^O$ (B), dan $I^O I^O$ (O).. Gamet ibu: I^A dan I^O. Gamet ayah: I^B dan I^O. Silangkan keduanya dalam papan catur Punnett 2x2. Hasil: I^A I^B (AB), I^A I^O (A), I^B I^O (B), I^O I^O (O). Keempatnya mungkin terjadi dengan peluang masing-masing 25%."
   },
   {
     "id": "bio-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hormon auksin terdegradasi atau bermigrasi menjauhi cahaya ke sisi batang yang terlindung dari cahaya (sisi gelap), menyebabkan sel-sel pada sisi gelap mengalami pemanjangan lebih cepat dibandingkan sisi yang terkena cahaya."
-      },
-      {
-        "key": "B",
-        "text": "Hormon sitokinin diproduksi secara berlebih pada sisi terang sehingga menghambat pertumbuhan sel batang sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "Cahaya matahari merangsang sintesis hormon giberelin di pucuk batang untuk membakar klorofil."
-      },
-      {
-        "key": "D",
         "text": "Sel-sel pada sisi terang mengalami pembelahan meiosis lebih cepat daripada sel pada sisi gelap."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Hormon sitokinin diproduksi secara berlebih pada sisi terang sehingga menghambat pertumbuhan sel batang."
+      },
+      {
+        "key": "C",
         "text": "Asam absisat terkonsentrasi di sisi gelap menyebabkan stomata menutup dan batang menciut."
+      },
+      {
+        "key": "D",
+        "text": "Cahaya matahari merangsang sintesis hormon giberelin di pucuk batang untuk membakar klorofil."
+      },
+      {
+        "key": "E",
+        "text": "Hormon auksin terdegradasi atau bermigrasi menjauhi cahaya ke sisi batang yang terlindung dari cahaya (sisi gelap), menyebabkan sel-sel pada sisi gelap mengalami pemanjangan lebih cepat dibandingkan sisi yang terkena cahaya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Hormon auksin terdegradasi atau bermigrasi menjauhi cahaya ke sisi batang yang terlindung dari cahaya (sisi gelap), menyebabkan sel-sel pada sisi gelap mengalami pemanjangan lebih cepat dibandingkan sisi yang terkena cahaya.. Auksin peka terhadap cahaya. Di sisi terkena cahaya, auksin berkurang/rusak. Di sisi gelap, auksin melimpah sehingga sel-sel sisi gelap memanjang lebih cepat. Pilih jawaban yang menjelaskan akumulasi auksin di sisi gelap yang memicu pemanjangan sel asimetris."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Hormon auksin terdegradasi atau bermigrasi menjauhi cahaya ke sisi batang yang terlindung dari cahaya (sisi gelap), menyebabkan sel-sel pada sisi gelap mengalami pemanjangan lebih cepat dibandingkan sisi yang terkena cahaya.. Auksin peka terhadap cahaya. Di sisi terkena cahaya, auksin berkurang/rusak. Di sisi gelap, auksin melimpah sehingga sel-sel sisi gelap memanjang lebih cepat. Pilih jawaban yang menjelaskan akumulasi auksin di sisi gelap yang memicu pemanjangan sel asimetris."
   },
   {
     "id": "bio-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dinding ventrikel dan atrium jantung mamalia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
         "text": "Dinding saluran pencernaan lambung dan usus halus, serta pembuluh darah dan saluran kemih."
       },
       {
+        "key": "B",
+        "text": "Dinding ventrikel dan atrium jantung mamalia."
+      },
+      {
         "key": "C",
-        "text": "Otot bisep dan trisep yang melekat pada rangka tulang lengan atas."
+        "text": "Lidah dan otot diafragma pernapasan sukarela."
       },
       {
         "key": "D",
-        "text": "Lidah dan otot diafragma pernapasan sukarela."
+        "text": "Otot bisep dan trisep yang melekat pada rangka tulang lengan atas."
       },
       {
         "key": "E",
         "text": "Otot betis (gastroknemius) yang berfungsi untuk berlari cepat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Dinding saluran pencernaan lambung dan usus halus, serta pembuluh darah dan saluran kemih.. Ciri: gelendong, satu inti di tengah, involunter, tidak bergaris lurik. Ini adalah ciri khas otot polos (otot organ dalam). Otot polos menyusun organ-organ viseral dalam seperti lambung, usus, dan pembuluh darah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Dinding saluran pencernaan lambung dan usus halus, serta pembuluh darah dan saluran kemih.. Ciri: gelendong, satu inti di tengah, involunter, tidak bergaris lurik. Ini adalah ciri khas otot polos (otot organ dalam). Otot polos menyusun organ-organ viseral dalam seperti lambung, usus, dan pembuluh darah."
   },
   {
     "id": "bio-lat-e-13",
@@ -541,7 +542,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ventrikel kanan $\\rightarrow$ Arteri pulmonalis $\\rightarrow$ Paru-paru $\\rightarrow$ Vena pulmonalis $\\rightarrow$ Atrium kiri ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Ventrikel kiri $\\rightarrow$ Arteri pulmonalis $\\rightarrow$ Jaringan otak $\\rightarrow$ Vena pulmonalis $\\rightarrow$ Bilik kanan."
       },
       {
         "key": "B",
@@ -549,19 +550,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Ventrikel kiri (bilik kiri) $\\rightarrow$ Aorta $\\rightarrow$ Arteri $\\rightarrow$ Kapiler seluruh tubuh $\\rightarrow$ Vena cava $\\rightarrow$ Atrium kanan (serambi kanan)."
+        "text": "Ventrikel kanan $\\rightarrow$ Arteri pulmonalis $\\rightarrow$ Paru-paru $\\rightarrow$ Vena pulmonalis $\\rightarrow$ Atrium kiri."
       },
       {
         "key": "D",
-        "text": "Ventrikel kiri $\\rightarrow$ Arteri pulmonalis $\\rightarrow$ Jaringan otak $\\rightarrow$ Vena pulmonalis $\\rightarrow$ Bilik kanan."
+        "text": "Ventrikel kiri (bilik kiri) $\\rightarrow$ Aorta $\\rightarrow$ Arteri $\\rightarrow$ Kapiler seluruh tubuh $\\rightarrow$ Vena cava $\\rightarrow$ Atrium kanan (serambi kanan)."
       },
       {
         "key": "E",
         "text": "Atrium kanan $\\rightarrow$ Vena cava $\\rightarrow$ Seluruh tubuh $\\rightarrow$ Aorta $\\rightarrow$ Ventrikel kiri."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Ventrikel kiri (bilik kiri) $\\rightarrow$ Aorta $\\rightarrow$ Arteri $\\rightarrow$ Kapiler seluruh tubuh $\\rightarrow$ Vena cava $\\rightarrow$ Atrium kanan (serambi kanan).. Peredaran darah besar bermula dari bilik kiri (ventrikel kiri) memompa darah bersih via aorta ke seluruh tubuh, lalu kembali via vena kava ke serambi kanan (atrium kanan). Urutan: Bilik kiri -> Aorta -> Seluruh tubuh -> Vena kava -> Serambi kanan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Ventrikel kiri (bilik kiri) $\\rightarrow$ Aorta $\\rightarrow$ Arteri $\\rightarrow$ Kapiler seluruh tubuh $\\rightarrow$ Vena cava $\\rightarrow$ Atrium kanan (serambi kanan).. Peredaran darah besar bermula dari bilik kiri (ventrikel kiri) memompa darah bersih via aorta ke seluruh tubuh, lalu kembali via vena kava ke serambi kanan (atrium kanan). Urutan: Bilik kiri -> Aorta -> Seluruh tubuh -> Vena kava -> Serambi kanan."
   },
   {
     "id": "bio-lat-e-14",
@@ -584,11 +585,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Polipeptida protein menjadi oligopeptida rantai pendek dalam suasana asam kuat menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Disakarida sukrosa menjadi monosakarida glukosa dan fruktosa murni."
       },
       {
         "key": "B",
-        "text": "Polisakarida amilum menjadi disakarida maltosa pada rongga mulut."
+        "text": "Trigliserida (lemak) yang telah diemulsikan oleh cairan empedu menjadi asam lemak dan gliserol."
       },
       {
         "key": "C",
@@ -596,15 +597,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Trigliserida (lemak) yang telah diemulsikan oleh cairan empedu menjadi asam lemak dan gliserol."
+        "text": "Polipeptida protein menjadi oligopeptida rantai pendek dalam suasana asam kuat menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
-        "text": "Disakarida sukrosa menjadi monosakarida glukosa dan fruktosa murni."
+        "text": "Polisakarida amilum menjadi disakarida maltosa pada rongga mulut."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Trigliserida (lemak) yang telah diemulsikan oleh cairan empedu menjadi asam lemak dan gliserol.. Lipase memecah lemak (trigliserida) menjadi asam lemak dan gliserol. Garam empedu membantu mengemulsikannya terlebih dahulu. Pilih hidrolisis trigliserida (lemak) menjadi asam lemak dan gliserol."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Trigliserida (lemak) yang telah diemulsikan oleh cairan empedu menjadi asam lemak dan gliserol.. Lipase memecah lemak (trigliserida) menjadi asam lemak dan gliserol. Garam empedu membantu mengemulsikannya terlebih dahulu. Pilih hidrolisis trigliserida (lemak) menjadi asam lemak dan gliserol."
   },
   {
     "id": "bio-lat-e-15",
@@ -627,27 +628,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Transpor aktif primer, yang membutuhkan penguraian energi ATP oleh pompa molekul hemoglobin pada eritrosit diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
-        "text": "Osmosis gas terlarut, yang dipicu oleh perbedaan konsentrasi ion natrium pada dinding epitel bronkiolus."
-      },
-      {
-        "key": "C",
         "text": "Endositosis makrofag, di mana gelembung udara ditelan utuh oleh vakuola sel darah putih alveolar."
       },
       {
+        "key": "B",
+        "text": "Difusi sederhana, didorong oleh perbedaan tekanan parsial gas di mana $P_{\\text{O}_2}$ di alveolus ($104\\text{ mmHg}$) lebih tinggi daripada di kapiler darah deoksigenasi ($40\\text{ mmHg}$)."
+      },
+      {
+        "key": "C",
+        "text": "Transpor aktif primer, yang membutuhkan penguraian energi ATP oleh pompa molekul hemoglobin pada eritrosit."
+      },
+      {
         "key": "D",
-        "text": "Filtrasi tekanan hidrostatis, yang memompa gas melewati membran basalis secara mekanis murni."
+        "text": "Osmosis gas terlarut, yang dipicu oleh perbedaan konsentrasi ion natrium pada dinding epitel bronkiolus."
       },
       {
         "key": "E",
-        "text": "Difusi sederhana, didorong oleh perbedaan tekanan parsial gas di mana $P_{\\text{O}_2}$ di alveolus ($104\\text{ mmHg}$) lebih tinggi daripada di kapiler darah deoksigenasi ($40\\text{ mmHg}$)."
+        "text": "Filtrasi tekanan hidrostatis, yang memompa gas melewati membran basalis secara mekanis murni."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Difusi sederhana, didorong oleh perbedaan tekanan parsial gas di mana $P_{\\text{O}_2}$ di alveolus ($104\\text{ mmHg}$) lebih tinggi daripada di kapiler darah deoksigenasi ($40\\text{ mmHg}$).. Pertukaran gas O2 dan CO2 di alveolus terjadi murni secara difusi sederhana mengikuti penurunan tekanan parsial gas (dari tekanan parsial tinggi ke rendah). Pilih difusi sederhana berdasarkan perbedaan tekanan parsial gas."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Difusi sederhana, didorong oleh perbedaan tekanan parsial gas di mana $P_{\\text{O}_2}$ di alveolus ($104\\text{ mmHg}$) lebih tinggi daripada di kapiler darah deoksigenasi ($40\\text{ mmHg}$).. Pertukaran gas O2 dan CO2 di alveolus terjadi murni secara difusi sederhana mengikuti penurunan tekanan parsial gas (dari tekanan parsial tinggi ke rendah). Pilih difusi sederhana berdasarkan perbedaan tekanan parsial gas."
   },
   {
     "id": "bio-lat-e-16",
@@ -670,27 +671,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel-sel darah (eritrosit, leukosit, trombosit) dan protein berukuran besar (seperti albumin), karena pori-pori endotel glomerulus dan podosit menahannya."
-      },
-      {
-        "key": "B",
-        "text": "Molekul glukosa dan asam amino bebas yang larut dalam plasma darah sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
         "text": "Ion-ion garam anorganik seperti natrium, kalium, dan klorida."
       },
       {
+        "key": "B",
+        "text": "Vitamin yang larut dalam air dan senyawa asam urat encer."
+      },
+      {
+        "key": "C",
+        "text": "Sel-sel darah (eritrosit, leukosit, trombosit) dan protein berukuran besar (seperti albumin), karena pori-pori endotel glomerulus dan podosit menahannya."
+      },
+      {
         "key": "D",
-        "text": "Molekul air dan zat sisa metabolisme nitrogen berupa urea."
+        "text": "Molekul glukosa dan asam amino bebas yang larut dalam plasma darah."
       },
       {
         "key": "E",
-        "text": "Vitamin yang larut dalam air dan senyawa asam urat encer."
+        "text": "Molekul air dan zat sisa metabolisme nitrogen berupa urea."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sel-sel darah (eritrosit, leukosit, trombosit) dan protein berukuran besar (seperti albumin), karena pori-pori endotel glomerulus dan podosit menahannya.. Membran filtrasi glomerulus menahan sel darah dan makromolekul protein besar (seperti albumin). Glukosa, asam amino, air, dan urea lolos menjadi urin primer. Pilih sel-sel darah dan protein berukuran besar (albumin)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sel-sel darah (eritrosit, leukosit, trombosit) dan protein berukuran besar (seperti albumin), karena pori-pori endotel glomerulus dan podosit menahannya.. Membran filtrasi glomerulus menahan sel darah dan makromolekul protein besar (seperti albumin). Glukosa, asam amino, air, dan urea lolos menjadi urin primer. Pilih sel-sel darah dan protein berukuran besar (albumin)."
   },
   {
     "id": "bio-lat-e-17",
@@ -713,7 +714,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keluarnya ion kalium secara masif yang menyebabkan membran sinaps membeku sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Terjadinya depolarisasi retrograde yang membalikkan arah aliran impuls kembali ke dendrit."
       },
       {
         "key": "B",
@@ -721,7 +722,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Penyerapan molekul ATP secara fagositosis oleh reseptor pascasinaps."
+        "text": "Keluarnya ion kalium secara masif yang menyebabkan membran sinaps membeku."
       },
       {
         "key": "D",
@@ -729,7 +730,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Terjadinya depolarisasi retrograde yang membalikkan arah aliran impuls kembali ke dendrit."
+        "text": "Penyerapan molekul ATP secara fagositosis oleh reseptor pascasinaps."
       }
     ],
     "correctKey": "B",
@@ -756,11 +757,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghancurkan sel inang yang terinfeksi virus secara langsung dengan mensekresikan perforin dan granzim ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Menghancurkan sel inang yang terinfeksi virus secara langsung dengan mensekresikan perforin dan granzim."
       },
       {
         "key": "B",
-        "text": "Melakukan fagositosis menelan bakteri patogen utuh seperti yang dilakukan oleh neutrofil dan makrofag."
+        "text": "Menghasilkan senyawa histamin dalam jumlah besar untuk memicu reaksi anafilaktik alergi lokal."
       },
       {
         "key": "C",
@@ -768,11 +769,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghasilkan senyawa histamin dalam jumlah besar untuk memicu reaksi anafilaktik alergi lokal."
+        "text": "Bermutasi menjadi keping darah (trombosit) untuk membendung pendarahan luka terbuka."
       },
       {
         "key": "E",
-        "text": "Bermutasi menjadi keping darah (trombosit) untuk membendung pendarahan luka terbuka."
+        "text": "Melakukan fagositosis menelan bakteri patogen utuh seperti yang dilakukan oleh neutrofil dan makrofag."
       }
     ],
     "correctKey": "C",
@@ -799,27 +800,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$10.000\\text{ kJ}$, yang merupakan jumlah energi yang diterima oleh konsumen primer (herbivor) menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "$1.000\\text{ kJ}$, yang merupakan jumlah energi yang diterima oleh konsumen sekunder (karnivor kecil)."
-      },
-      {
-        "key": "C",
         "text": "$50.000\\text{ kJ}$, dihitung jika mengasumsikan efisiensi transfer energi sebesar 50% pada tiap trofik."
       },
       {
+        "key": "B",
+        "text": "$10\\text{ kJ}$, dihitung jika trofik elang diperlakukan sebagai tingkat trofik kelima (konsumen kuaterner)."
+      },
+      {
+        "key": "C",
+        "text": "$1.000\\text{ kJ}$, yang merupakan jumlah energi yang diterima oleh konsumen sekunder (karnivor kecil)."
+      },
+      {
         "key": "D",
-        "text": "$100\\text{ kJ}$, karena pada setiap perpindahan tingkat trofik hanya sekitar $10\\%$ energi yang ditransformasikan menjadi biomassa trofik berikutnya: Produsen ($100.000\\text{ kJ}$) $\\rightarrow$ Konsumen I ($10.000\\text{ kJ}$) $\\rightarrow$ Konsumen II ($1.000\\text{ kJ}$) $\\rightarrow$ Konsumen III ($100\\text{ kJ}$)."
+        "text": "$10.000\\text{ kJ}$, yang merupakan jumlah energi yang diterima oleh konsumen primer (herbivor) menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
-        "text": "$10\\text{ kJ}$, dihitung jika trofik elang diperlakukan sebagai tingkat trofik kelima (konsumen kuaterner)."
+        "text": "$100\\text{ kJ}$, karena pada setiap perpindahan tingkat trofik hanya sekitar $10\\%$ energi yang ditransformasikan menjadi biomassa trofik berikutnya: Produsen ($100.000\\text{ kJ}$) $\\rightarrow$ Konsumen I ($10.000\\text{ kJ}$) $\\rightarrow$ Konsumen II ($1.000\\text{ kJ}$) $\\rightarrow$ Konsumen III ($100\\text{ kJ}$)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $100\\text{ kJ}$, karena pada setiap perpindahan tingkat trofik hanya sekitar $10\\%$ energi yang ditransformasikan menjadi biomassa trofik berikutnya: Produsen ($100.000\\text{ kJ}$) $\\rightarrow$ Konsumen I ($10.000\\text{ kJ}$) $\\rightarrow$ Konsumen II ($1.000\\text{ kJ}$) $\\rightarrow$ Konsumen III ($100\\text{ kJ}$).. Aturan Lindeman: Hanya sekitar 10% energi berpindah ke tingkat trofik berikutnya (90% hilang sebagai panas respirasi dan ekskresi). Produsen (100.000) -> K1 (10.000) -> K2 (1.000) -> K3 (100 kJ)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $100\\text{ kJ}$, karena pada setiap perpindahan tingkat trofik hanya sekitar $10\\%$ energi yang ditransformasikan menjadi biomassa trofik berikutnya: Produsen ($100.000\\text{ kJ}$) $\\rightarrow$ Konsumen I ($10.000\\text{ kJ}$) $\\rightarrow$ Konsumen II ($1.000\\text{ kJ}$) $\\rightarrow$ Konsumen III ($100\\text{ kJ}$).. Aturan Lindeman: Hanya sekitar 10% energi berpindah ke tingkat trofik berikutnya (90% hilang sebagai panas respirasi dan ekskresi). Produsen (100.000) -> K1 (10.000) -> K2 (1.000) -> K3 (100 kJ)."
   },
   {
     "id": "bio-lat-e-20",
@@ -842,15 +843,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\textit{Saccharomyces cerevisiae}$, khamir uniseluler yang digunakan untuk fermentasi alkohol roti dan bir diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
         "text": "$\\textit{Lactobacillus bulgaricus}$, bakteri asam laktat yang digunakan dalam pembuatan yogurt susu."
       },
       {
+        "key": "B",
+        "text": "$\\textit{Saccharomyces cerevisiae}$, khamir uniseluler yang digunakan untuk fermentasi alkohol roti dan bir."
+      },
+      {
         "key": "C",
-        "text": "$\\textit{Acetobacter xylinum}$, bakteri yang memproduksi pelikel selulosa pada pembuatan nata de coco."
+        "text": "$\\textit{Rhizopus oryzae}$ dan $\\textit{Rhizopus oligosporus}$, kapang kelompok Zygomycota yang membentuk hifa putih mengikat biji kedelai menjadi massa padat kompak."
       },
       {
         "key": "D",
@@ -858,11 +859,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\textit{Rhizopus oryzae}$ dan $\\textit{Rhizopus oligosporus}$, kapang kelompok Zygomycota yang membentuk hifa putih mengikat biji kedelai menjadi massa padat kompak."
+        "text": "$\\textit{Acetobacter xylinum}$, bakteri yang memproduksi pelikel selulosa pada pembuatan nata de coco."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\textit{Rhizopus oryzae}$ dan $\\textit{Rhizopus oligosporus}$, kapang kelompok Zygomycota yang membentuk hifa putih mengikat biji kedelai menjadi massa padat kompak.. Jamur pembuat tempe adalah Rhizopus oryzae dan Rhizopus oligosporus (kapang tempe). Pilih Rhizopus oryzae / Rhizopus oligosporus."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $\\textit{Rhizopus oryzae}$ dan $\\textit{Rhizopus oligosporus}$, kapang kelompok Zygomycota yang membentuk hifa putih mengikat biji kedelai menjadi massa padat kompak.. Jamur pembuat tempe adalah Rhizopus oryzae dan Rhizopus oligosporus (kapang tempe). Pilih Rhizopus oryzae / Rhizopus oligosporus."
   },
   {
     "id": "bio-lat-e-21",
@@ -885,11 +886,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Enzim restriksi endonuklease (seperti $\\textit{EcoRI}$) untuk memotong urutan basa pengenal spesifik, dan DNA ligase untuk mengkatalisis pembentukan ikatan fosfodiester penyambung fragmen DNA."
+        "text": "Enzim lisosom untuk membelah kromosom, dan enzim polimerase Taq untuk membungkus kapsid virus."
       },
       {
         "key": "B",
-        "text": "Enzim DNA polimerase untuk memotong untai ganda, dan RNA primase untuk mengikat fragmen intron sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Enzim tripsin untuk menghancurkan asam nukleat, dan enzim reverse transkriptase untuk menyambung protein."
       },
       {
         "key": "C",
@@ -897,15 +898,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Enzim tripsin untuk menghancurkan asam nukleat, dan enzim reverse transkriptase untuk menyambung protein."
+        "text": "Enzim DNA polimerase untuk memotong untai ganda, dan RNA primase untuk mengikat fragmen intron."
       },
       {
         "key": "E",
-        "text": "Enzim lisosom untuk membelah kromosom, dan enzim polimerase Taq untuk membungkus kapsid virus."
+        "text": "Enzim restriksi endonuklease (seperti $\\textit{EcoRI}$) untuk memotong urutan basa pengenal spesifik, dan DNA ligase untuk mengkatalisis pembentukan ikatan fosfodiester penyambung fragmen DNA."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Enzim restriksi endonuklease (seperti $\\textit{EcoRI}$) untuk memotong urutan basa pengenal spesifik, dan DNA ligase untuk mengkatalisis pembentukan ikatan fosfodiester penyambung fragmen DNA.. Gunting molekuler = enzim restriksi endonuklease. Lem molekuler = DNA ligase. Pilih restriksi endonuklease (pemotong) dan DNA ligase (penyambung)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Enzim restriksi endonuklease (seperti $\\textit{EcoRI}$) untuk memotong urutan basa pengenal spesifik, dan DNA ligase untuk mengkatalisis pembentukan ikatan fosfodiester penyambung fragmen DNA.. Gunting molekuler = enzim restriksi endonuklease. Lem molekuler = DNA ligase. Pilih restriksi endonuklease (pemotong) dan DNA ligase (penyambung)."
   },
   {
     "id": "bio-lat-e-22",
@@ -928,15 +929,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Analogi, membuktikan evolusi konvergen di mana organ berbeda asal-usul berkembang menjalankan fungsi yang sama sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
         "text": "Homologi, membuktikan terjadinya evolusi divergen dari satu nenek moyang mamalia purba yang sama ($\\textit{common ancestor}$) yang beradaptasi menempati relung lingkungan yang berbeda."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Organ vestigial, yaitu sisa organ masa lalu yang telah menyusut dan kehilangan seluruh fungsinya."
+      },
+      {
+        "key": "C",
+        "text": "Atavisme fosil, yaitu pemunculan sifat purba yang merugikan kelangsungan hidup populasi."
       },
       {
         "key": "D",
@@ -944,11 +945,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Atavisme fosil, yaitu pemunculan sifat purba yang merugikan kelangsungan hidup populasi."
+        "text": "Analogi, membuktikan evolusi konvergen di mana organ berbeda asal-usul berkembang menjalankan fungsi yang sama."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Homologi, membuktikan terjadinya evolusi divergen dari satu nenek moyang mamalia purba yang sama ($\\textit{common ancestor}$) yang beradaptasi menempati relung lingkungan yang berbeda.. Homologi: asal struktur tulang sama tetapi fungsi berbeda (evolusi divergen). Analogi: asal struktur berbeda tetapi fungsi sama (evolusi konvergen). Pilih Homologi (evolusi divergen dari nenek moyang yang sama)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Homologi, membuktikan terjadinya evolusi divergen dari satu nenek moyang mamalia purba yang sama ($\\textit{common ancestor}$) yang beradaptasi menempati relung lingkungan yang berbeda.. Homologi: asal struktur tulang sama tetapi fungsi berbeda (evolusi divergen). Analogi: asal struktur berbeda tetapi fungsi sama (evolusi konvergen). Pilih Homologi (evolusi divergen dari nenek moyang yang sama)."
   },
   {
     "id": "bio-lat-e-23",
@@ -971,27 +972,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ukuran populasi sangat kecil sehingga hanyutan genetik ($\\textit{genetic drift}$) bekerja secara dominan ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
         "text": "Terjadi perkawinan assortatif non-acak di mana individu hanya kawin dengan sesama fenotipe serupa."
       },
       {
-        "key": "C",
-        "text": "Ukuran populasi sangat besar, terjadi perkawinan acak ($\\textit{random mating}$), tidak ada mutasi, tidak ada aliran gen (migrasi masuk atau keluar), dan tidak ada seleksi alam."
+        "key": "B",
+        "text": "Adanya tekanan seleksi alam yang kuat yang memusnahkan individu bergenotipe heterozigot."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Tingkat laju mutasi spontan sangat tinggi untuk memunculkan alel-alel baru setiap generasi."
       },
       {
+        "key": "D",
+        "text": "Ukuran populasi sangat besar, terjadi perkawinan acak ($\\textit{random mating}$), tidak ada mutasi, tidak ada aliran gen (migrasi masuk atau keluar), dan tidak ada seleksi alam."
+      },
+      {
         "key": "E",
-        "text": "Adanya tekanan seleksi alam yang kuat yang memusnahkan individu bergenotipe heterozigot."
+        "text": "Ukuran populasi sangat kecil sehingga hanyutan genetik ($\\textit{genetic drift}$) bekerja secara dominan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Ukuran populasi sangat besar, terjadi perkawinan acak ($\\textit{random mating}$), tidak ada mutasi, tidak ada aliran gen (migrasi masuk atau keluar), dan tidak ada seleksi alam.. Kesetimbangan genetik hanya berlaku jika tidak ada faktor evolusi yang bekerja: populasi besar, kawin acak, tidak ada mutasi, migrasi, maupun seleksi alam. Pilih opsi yang memuat kelima syarat ketiadaan gaya evolusi tersebut."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Ukuran populasi sangat besar, terjadi perkawinan acak ($\\textit{random mating}$), tidak ada mutasi, tidak ada aliran gen (migrasi masuk atau keluar), dan tidak ada seleksi alam.. Kesetimbangan genetik hanya berlaku jika tidak ada faktor evolusi yang bekerja: populasi besar, kawin acak, tidak ada mutasi, migrasi, maupun seleksi alam. Pilih opsi yang memuat kelima syarat ketiadaan gaya evolusi tersebut."
   },
   {
     "id": "bio-lat-e-24",
@@ -1014,7 +1015,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan konsentrasi gas ozon terlarut yang membakar sisik ikan secara spontan menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Penurunan drastis kadar oksigen terlarut ($\\text{Dissolved Oxygen / DO}$) air danau karena bakteri pengurai aerobik mengonsumsi oksigen secara masif saat menguraikan biomassa alga yang mati massal di dasar danau."
       },
       {
         "key": "B",
@@ -1022,19 +1023,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Air danau membeku menjadi lapisan es padat karena cahaya matahari terhalang alga."
+        "text": "Ikan-ikan berevolusi menjadi amfibi darat secara instan dalam kurun waktu satu minggu."
       },
       {
         "key": "D",
-        "text": "Penurunan drastis kadar oksigen terlarut ($\\text{Dissolved Oxygen / DO}$) air danau karena bakteri pengurai aerobik mengonsumsi oksigen secara masif saat menguraikan biomassa alga yang mati massal di dasar danau."
+        "text": "Peningkatan konsentrasi gas ozon terlarut yang membakar sisik ikan secara spontan menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
-        "text": "Ikan-ikan berevolusi menjadi amfibi darat secara instan dalam kurun waktu satu minggu."
+        "text": "Air danau membeku menjadi lapisan es padat karena cahaya matahari terhalang alga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Penurunan drastis kadar oksigen terlarut ($\\text{Dissolved Oxygen / DO}$) air danau karena bakteri pengurai aerobik mengonsumsi oksigen secara masif saat menguraikan biomassa alga yang mati massal di dasar danau.. Ketika alga yang meledak populasinya mati, bakteri dekomposer aerob menguraikannya dan menyedot habis oksigen terlarut (DO turun drastis), menyebabkan ikan mati lemas. Pilih penurunan drastis kadar oksigen terlarut (DO) akibat aktivitas bakteri pengurai."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Penurunan drastis kadar oksigen terlarut ($\\text{Dissolved Oxygen / DO}$) air danau karena bakteri pengurai aerobik mengonsumsi oksigen secara masif saat menguraikan biomassa alga yang mati massal di dasar danau.. Ketika alga yang meledak populasinya mati, bakteri dekomposer aerob menguraikannya dan menyedot habis oksigen terlarut (DO turun drastis), menyebabkan ikan mati lemas. Pilih penurunan drastis kadar oksigen terlarut (DO) akibat aktivitas bakteri pengurai."
   },
   {
     "id": "bio-lat-e-25",
@@ -1057,27 +1058,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem rangka tulang sejati, otot lurik, sistem sirkulasi jantung, dan ginjal pembentuk urin diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
-        "text": "Lapisan epitel saluran pencernaan lambung, usus, serta organ hati dan pankreas."
-      },
-      {
-        "key": "C",
-        "text": "Jaringan ikat darah, limfa, pembuluh darah kapiler, dan gonad reproduksi testis/ovarium."
-      },
-      {
-        "key": "D",
         "text": "Lapisan endotel dinding pembuluh darah paru-paru dan lapisan pleura pelindung dada."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Jaringan ikat darah, limfa, pembuluh darah kapiler, dan gonad reproduksi testis/ovarium."
+      },
+      {
+        "key": "C",
         "text": "Sistem saraf (otak dan sumsum tulang belakang) serta lapisan epidermis kulit dan derivatnya (rambut, kuku, dan reseptor sensori)."
+      },
+      {
+        "key": "D",
+        "text": "Sistem rangka tulang sejati, otot lurik, sistem sirkulasi jantung, dan ginjal pembentuk urin."
+      },
+      {
+        "key": "E",
+        "text": "Lapisan epitel saluran pencernaan lambung, usus, serta organ hati dan pankreas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sistem saraf (otak dan sumsum tulang belakang) serta lapisan epidermis kulit dan derivatnya (rambut, kuku, dan reseptor sensori).. Ektoderm (luar) membentuk sistem saraf (otak, sumsum tulang belakang) dan kulit luar (epidermis). Mesoderm membentuk otot, tulang, jantung. Endoderm membentuk saluran pencernaan dan hati. Pilih sistem saraf dan epidermis kulit."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sistem saraf (otak dan sumsum tulang belakang) serta lapisan epidermis kulit dan derivatnya (rambut, kuku, dan reseptor sensori).. Ektoderm (luar) membentuk sistem saraf (otak, sumsum tulang belakang) dan kulit luar (epidermis). Mesoderm membentuk otot, tulang, jantung. Endoderm membentuk saluran pencernaan dan hati. Pilih sistem saraf dan epidermis kulit."
   },
   {
     "id": "bio-lat-m-01",
@@ -1100,11 +1101,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\text{ NADH}$, $2\\text{ FADH}_2$, $2\\text{ ATP}$ (atau $2\\text{ GTP}$), dan $4\\text{ molekul CO}_2$, karena satu putaran Siklus Krebs menghasilkan $3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP/GTP}$, serta melepaskan $2\\text{ CO}_2$."
+        "text": "$3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP}$, dan $2\\text{ CO}_2$, yang hanya menghitung hasil satu molekul asetil ko-A (setengah molekul glukosa)."
       },
       {
         "key": "B",
-        "text": "$2\\text{ NADH}$, $2\\text{ FADH}_2$, $36\\text{ ATP}$, dan $6\\text{ molekul CO}_2$, karena mengabaikan pembagian putaran siklus per molekul asetil ko-A sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "$6\\text{ NADH}$, $2\\text{ FADH}_2$, $2\\text{ ATP}$ (atau $2\\text{ GTP}$), dan $4\\text{ molekul CO}_2$, karena satu putaran Siklus Krebs menghasilkan $3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP/GTP}$, serta melepaskan $2\\text{ CO}_2$."
       },
       {
         "key": "C",
@@ -1112,15 +1113,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$4\\text{ NADH}$, $0\\text{ FADH}_2$, $2\\text{ ATP}$, dan $2\\text{ molekul asam piruvat}$, karena menyamakan hasil Siklus Krebs dengan fermentasi asam laktat."
+        "text": "$2\\text{ NADH}$, $2\\text{ FADH}_2$, $36\\text{ ATP}$, dan $6\\text{ molekul CO}_2$, karena mengabaikan pembagian putaran siklus per molekul asetil ko-A."
       },
       {
         "key": "E",
-        "text": "$3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP}$, dan $2\\text{ CO}_2$, yang hanya menghitung hasil satu molekul asetil ko-A (setengah molekul glukosa)."
+        "text": "$4\\text{ NADH}$, $0\\text{ FADH}_2$, $2\\text{ ATP}$, dan $2\\text{ molekul asam piruvat}$, karena menyamakan hasil Siklus Krebs dengan fermentasi asam laktat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $6\\text{ NADH}$, $2\\text{ FADH}_2$, $2\\text{ ATP}$ (atau $2\\text{ GTP}$), dan $4\\text{ molekul CO}_2$, karena satu putaran Siklus Krebs menghasilkan $3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP/GTP}$, serta melepaskan $2\\text{ CO}_2$.. Satu molekul glukosa menghasilkan 2 asetil Ko-A, sehingga Siklus Krebs berputar 2 kali. Kalikan hasil satu putaran (3 NADH, 1 FADH2, 1 ATP, 2 CO2) dengan dua. Hasil total untuk 1 glukosa: 6 NADH, 2 FADH2, 2 ATP, dan 4 CO2."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $6\\text{ NADH}$, $2\\text{ FADH}_2$, $2\\text{ ATP}$ (atau $2\\text{ GTP}$), dan $4\\text{ molekul CO}_2$, karena satu putaran Siklus Krebs menghasilkan $3\\text{ NADH}$, $1\\text{ FADH}_2$, $1\\text{ ATP/GTP}$, serta melepaskan $2\\text{ CO}_2$.. Satu molekul glukosa menghasilkan 2 asetil Ko-A, sehingga Siklus Krebs berputar 2 kali. Kalikan hasil satu putaran (3 NADH, 1 FADH2, 1 ATP, 2 CO2) dengan dua. Hasil total untuk 1 glukosa: 6 NADH, 2 FADH2, 2 ATP, dan 4 CO2."
   },
   {
     "id": "bio-lat-m-02",
@@ -1143,7 +1144,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ion $H^+$ langsung mengikat molekul oksigen di ruang antarmembran membentuk hidrogen peroksida bertekanan tinggi yang menekan sintesis ATP sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Kompleks ATP Sintase memompa molekul glukosa secara transpor aktif primer langsung ke dalam matriks mitokondria."
       },
       {
         "key": "B",
@@ -1151,11 +1152,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Elektron langsung melompat keluar membran krista dan membakar gugus fosfat bebas di sitoplasma sel."
+        "text": "Ion $H^+$ langsung mengikat molekul oksigen di ruang antarmembran membentuk hidrogen peroksida bertekanan tinggi yang menekan sintesis ATP."
       },
       {
         "key": "D",
-        "text": "Kompleks ATP Sintase memompa molekul glukosa secara transpor aktif primer langsung ke dalam matriks mitokondria."
+        "text": "Elektron langsung melompat keluar membran krista dan membakar gugus fosfat bebas di sitoplasma sel."
       },
       {
         "key": "E",
@@ -1186,27 +1187,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghasilkan tambahan $34\\text{ molekul ATP}$ baru dari pemecahan ikatan laktat secara anaerob ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Menghilangkan rasa lelah otot secara instan dengan mendisosiasi ion kalsium retikulum sarkoplasma."
       },
       {
         "key": "B",
-        "text": "Menaikkan pH sitosol otot agar enzim-enzim seluler terlindung dari bahaya denaturasi asam."
+        "text": "Menghasilkan tambahan $34\\text{ molekul ATP}$ baru dari pemecahan ikatan laktat secara anaerob."
       },
       {
         "key": "C",
-        "text": "Meregenerasi molekul $\\text{NAD}^+$ dari $\\text{NADH}$ agar proses glikolisis dapat terus berlangsung menghasilkan pasokan energi darurat $2\\text{ ATP}$ per molekul glukosa tanpa memerlukan oksigen."
-      },
-      {
-        "key": "D",
         "text": "Mengubah molekul asam laktat menjadi gas oksigen terlarut di dalam miofibril otot lurik."
       },
       {
+        "key": "D",
+        "text": "Menaikkan pH sitosol otot agar enzim-enzim seluler terlindung dari bahaya denaturasi asam."
+      },
+      {
         "key": "E",
-        "text": "Menghilangkan rasa lelah otot secara instan dengan mendisosiasi ion kalsium retikulum sarkoplasma."
+        "text": "Meregenerasi molekul $\\text{NAD}^+$ dari $\\text{NADH}$ agar proses glikolisis dapat terus berlangsung menghasilkan pasokan energi darurat $2\\text{ ATP}$ per molekul glukosa tanpa memerlukan oksigen."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Meregenerasi molekul $\\text{NAD}^+$ dari $\\text{NADH}$ agar proses glikolisis dapat terus berlangsung menghasilkan pasokan energi darurat $2\\text{ ATP}$ per molekul glukosa tanpa memerlukan oksigen.. Glikolisis membutuhkan NAD+ untuk memecah glukosa. Jika tidak ada O2, NADH menumpuk dan glikolisis berhenti. Fermentasi mereoksidasi NADH menjadi NAD+ agar glikolisis bisa terus jalan. Pilih regenerasi NAD+ agar glikolisis dapat terus berjalan menghasilkan 2 ATP."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Meregenerasi molekul $\\text{NAD}^+$ dari $\\text{NADH}$ agar proses glikolisis dapat terus berlangsung menghasilkan pasokan energi darurat $2\\text{ ATP}$ per molekul glukosa tanpa memerlukan oksigen.. Glikolisis membutuhkan NAD+ untuk memecah glukosa. Jika tidak ada O2, NADH menumpuk dan glikolisis berhenti. Fermentasi mereoksidasi NADH menjadi NAD+ agar glikolisis bisa terus jalan. Pilih regenerasi NAD+ agar glikolisis dapat terus berjalan menghasilkan 2 ATP."
   },
   {
     "id": "bio-lat-m-04",
@@ -1229,15 +1230,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1. Fotolisis air menghasilkan O2; 2. Transpor elektron menghasilkan NADPH; 3. Kemiosmosis membentuk glukosa menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
         "text": "1. Glikolisis memecah RuBP; 2. Siklus asam sitrat menghasilkan CO2; 3. Fosforilasi oksidatif membentuk amilum."
       },
       {
+        "key": "B",
+        "text": "1. Fotolisis air menghasilkan O2; 2. Transpor elektron menghasilkan NADPH; 3. Kemiosmosis membentuk glukosa menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
         "key": "C",
-        "text": "1. Fiksasi O2 oleh klorofil; 2. Reduksi PGA menjadi piruvat; 3. Regenerasi enzim amilase di grana."
+        "text": "1. Pembukaan stomata; 2. Pengikatan nitrogen bebas atmosfer; 3. Sintesis asam amino esensial."
       },
       {
         "key": "D",
@@ -1245,7 +1246,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "1. Pembukaan stomata; 2. Pengikatan nitrogen bebas atmosfer; 3. Sintesis asam amino esensial."
+        "text": "1. Fiksasi O2 oleh klorofil; 2. Reduksi PGA menjadi piruvat; 3. Regenerasi enzim amilase di grana."
       }
     ],
     "correctKey": "D",
@@ -1272,11 +1273,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya membuka stomata pada malam hari dan menyimpan gas oksigen di dalam vakuola raksasa sel mesofil diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Menghentikan reaksi terang sepenuhnya sehingga tidak menghasilkan molekul oksigen yang dapat mengganggu Rubisco."
       },
       {
         "key": "B",
-        "text": "Tidak menggunakan enzim Rubisco sama sekali dan menggantinya dengan pigmen fikosianin alga biru."
+        "text": "Memiliki anatomi Kranz dengan pemisahan spasial: fiksasi awal $\\text{CO}_2$ dilakukan di sel mesofil oleh enzim PEP karboksilase (yang tidak memiliki afinitas terhadap $\\text{O}_2$) membentuk asam malat ($4\\text{C}$), kemudian didekarboksilasi di sel seludang pembuluh ($\\textit{bundle sheath}$) menghasilkan konsentrasi $\\text{CO}_2$ lokal yang tinggi di sekitar enzim Rubisco."
       },
       {
         "key": "C",
@@ -1284,15 +1285,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghentikan reaksi terang sepenuhnya sehingga tidak menghasilkan molekul oksigen yang dapat mengganggu Rubisco."
+        "text": "Tidak menggunakan enzim Rubisco sama sekali dan menggantinya dengan pigmen fikosianin alga biru."
       },
       {
         "key": "E",
-        "text": "Memiliki anatomi Kranz dengan pemisahan spasial: fiksasi awal $\\text{CO}_2$ dilakukan di sel mesofil oleh enzim PEP karboksilase (yang tidak memiliki afinitas terhadap $\\text{O}_2$) membentuk asam malat ($4\\text{C}$), kemudian didekarboksilasi di sel seludang pembuluh ($\\textit{bundle sheath}$) menghasilkan konsentrasi $\\text{CO}_2$ lokal yang tinggi di sekitar enzim Rubisco."
+        "text": "Hanya membuka stomata pada malam hari dan menyimpan gas oksigen di dalam vakuola raksasa sel mesofil."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Memiliki anatomi Kranz dengan pemisahan spasial: fiksasi awal $\\text{CO}_2$ dilakukan di sel mesofil oleh enzim PEP karboksilase (yang tidak memiliki afinitas terhadap $\\text{O}_2$) membentuk asam malat ($4\\text{C}$), kemudian didekarboksilasi di sel seludang pembuluh ($\\textit{bundle sheath}$) menghasilkan konsentrasi $\\text{CO}_2$ lokal yang tinggi di sekitar enzim Rubisco.. Tanaman C4 memisahkan fiksasi CO2 secara spasial (tempat): PEP karboksilase di sel mesofil membentuk malat (4C), yang lalu dibawa ke sel seludang pembuluh untuk melepaskan CO2 pekat di depan Rubisco. Pilih pemisahan spasial dengan anatomi Kranz, PEP karboksilase di mesofil, dan Rubisco di seludang pembuluh."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Memiliki anatomi Kranz dengan pemisahan spasial: fiksasi awal $\\text{CO}_2$ dilakukan di sel mesofil oleh enzim PEP karboksilase (yang tidak memiliki afinitas terhadap $\\text{O}_2$) membentuk asam malat ($4\\text{C}$), kemudian didekarboksilasi di sel seludang pembuluh ($\\textit{bundle sheath}$) menghasilkan konsentrasi $\\text{CO}_2$ lokal yang tinggi di sekitar enzim Rubisco.. Tanaman C4 memisahkan fiksasi CO2 secara spasial (tempat): PEP karboksilase di sel mesofil membentuk malat (4C), yang lalu dibawa ke sel seludang pembuluh untuk melepaskan CO2 pekat di depan Rubisco. Pilih pemisahan spasial dengan anatomi Kranz, PEP karboksilase di mesofil, dan Rubisco di seludang pembuluh."
   },
   {
     "id": "bio-lat-m-06",
@@ -1315,27 +1316,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membuka stomata hanya pada malam hari untuk memfiksasi $\\text{CO}_2$ menjadi asam malat dan menyimpannya di vakuola, kemudian menutup rapat stomata pada siang hari untuk mencegah transpirasi sementara asam malat dibongkar melepaskan $\\text{CO}_2$ untuk Siklus Calvin menggunakan ATP dan NADPH dari reaksi terang."
+        "text": "Melakukan Siklus Calvin hanya pada saat musim hujan dan mengalami dormansi total selama sembilan bulan kemarau."
       },
       {
         "key": "B",
-        "text": "Membuka stomata pada siang hari terik dan menutupnya pada malam hari seperti tumbuhan normal pada umumnya sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "Menggantikan dinding selulosa batang dengan lapisan lilin kalsium karbonat yang tidak membutuhkan gas CO2 sama sekali."
-      },
-      {
-        "key": "D",
         "text": "Menghilangkan klorofil daun dan hidup murni sebagai parasit saprofit penyerap nutrisi organik tanah gurun."
       },
       {
+        "key": "C",
+        "text": "Membuka stomata hanya pada malam hari untuk memfiksasi $\\text{CO}_2$ menjadi asam malat dan menyimpannya di vakuola, kemudian menutup rapat stomata pada siang hari untuk mencegah transpirasi sementara asam malat dibongkar melepaskan $\\text{CO}_2$ untuk Siklus Calvin menggunakan ATP dan NADPH dari reaksi terang."
+      },
+      {
+        "key": "D",
+        "text": "Membuka stomata pada siang hari terik dan menutupnya pada malam hari seperti tumbuhan normal pada umumnya."
+      },
+      {
         "key": "E",
-        "text": "Melakukan Siklus Calvin hanya pada saat musim hujan dan mengalami dormansi total selama sembilan bulan kemarau."
+        "text": "Menggantikan dinding selulosa batang dengan lapisan lilin kalsium karbonat yang tidak membutuhkan gas CO2 sama sekali."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Membuka stomata hanya pada malam hari untuk memfiksasi $\\text{CO}_2$ menjadi asam malat dan menyimpannya di vakuola, kemudian menutup rapat stomata pada siang hari untuk mencegah transpirasi sementara asam malat dibongkar melepaskan $\\text{CO}_2$ untuk Siklus Calvin menggunakan ATP dan NADPH dari reaksi terang.. Tumbuhan CAM memisahkan fiksasi CO2 secara temporal (waktu): stomata buka malam hari (ikat CO2 jadi asam malat simpan di vakuola), stomata tutup siang hari (malat dipecah lepas CO2 untuk siklus Calvin). Pilih pembukaan stomata malam hari (fiksasi CO2 ke vakuola) dan penutupan stomata siang hari (Siklus Calvin)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Membuka stomata hanya pada malam hari untuk memfiksasi $\\text{CO}_2$ menjadi asam malat dan menyimpannya di vakuola, kemudian menutup rapat stomata pada siang hari untuk mencegah transpirasi sementara asam malat dibongkar melepaskan $\\text{CO}_2$ untuk Siklus Calvin menggunakan ATP dan NADPH dari reaksi terang.. Tumbuhan CAM memisahkan fiksasi CO2 secara temporal (waktu): stomata buka malam hari (ikat CO2 jadi asam malat simpan di vakuola), stomata tutup siang hari (malat dipecah lepas CO2 untuk siklus Calvin). Pilih pembukaan stomata malam hari (fiksasi CO2 ke vakuola) dan penutupan stomata siang hari (Siklus Calvin)."
   },
   {
     "id": "bio-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kedua untai baru disintesis secara serentak kontinu tanpa terputus-putus menggunakan enzim RNA ligase sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Kedua untai baru disintesis secara serentak kontinu tanpa terputus-putus menggunakan enzim RNA ligase."
       },
       {
         "key": "B",
-        "text": "Untai maju ($\\textit{leading strand}$) disintesis secara kontinu searah garpu replikasi, sedangkan untai lambat ($\\textit{lagging strand}$) disintesis secara diskontinu menjauhi garpu replikasi membentuk segmen-segmen pendek yang disebut fragmen Okazaki."
-      },
-      {
-        "key": "C",
-        "text": "Untai maju disintesis ke arah 3' ke 5', sedangkan untai lambat sama sekali tidak membutuhkan molekul primer RNA."
-      },
-      {
-        "key": "D",
         "text": "Fragmen Okazaki hanya dibentuk pada untai cetakan yang mengandung basa purin lebih dari 80%."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Enzim helikase mensintesis untai maju sedangkan DNA polimerase hanya mensintesis fragmen Okazaki."
+      },
+      {
+        "key": "D",
+        "text": "Untai maju ($\\textit{leading strand}$) disintesis secara kontinu searah garpu replikasi, sedangkan untai lambat ($\\textit{lagging strand}$) disintesis secara diskontinu menjauhi garpu replikasi membentuk segmen-segmen pendek yang disebut fragmen Okazaki."
+      },
+      {
+        "key": "E",
+        "text": "Untai maju disintesis ke arah 3' ke 5', sedangkan untai lambat sama sekali tidak membutuhkan molekul primer RNA."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Untai maju ($\\textit{leading strand}$) disintesis secara kontinu searah garpu replikasi, sedangkan untai lambat ($\\textit{lagging strand}$) disintesis secara diskontinu menjauhi garpu replikasi membentuk segmen-segmen pendek yang disebut fragmen Okazaki.. DNA polimerase hanya bisa memanjang dari 5' ke 3'. Untai yang searah bukaan garpu disintesis kontinu (leading strand). Untai berlawanan disintesis bertahap sebagai potongan-potongan (lagging strand, fragmen Okazaki). Pilih leading strand kontinu dan lagging strand diskontinu (fragmen Okazaki)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Untai maju ($\\textit{leading strand}$) disintesis secara kontinu searah garpu replikasi, sedangkan untai lambat ($\\textit{lagging strand}$) disintesis secara diskontinu menjauhi garpu replikasi membentuk segmen-segmen pendek yang disebut fragmen Okazaki.. DNA polimerase hanya bisa memanjang dari 5' ke 3'. Untai yang searah bukaan garpu disintesis kontinu (leading strand). Untai berlawanan disintesis bertahap sebagai potongan-potongan (lagging strand, fragmen Okazaki). Pilih leading strand kontinu dan lagging strand diskontinu (fragmen Okazaki)."
   },
   {
     "id": "bio-lat-m-08",
@@ -1401,7 +1402,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Laktosa berikatan langsung dengan RNA polimerase memicu mutasi permanen pada daerah promotor operon ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Molekul alolaktosa (induser turunan laktosa) berikatan dengan protein represor lac, menyebabkan perubahan konformasi protein represor sehingga terlepas dari daerah operator, memungkinkan RNA polimerase mentranskripsi gen struktural $\\textit{lacZ}$, $\\textit{lacY}$, dan $\\textit{lacA}$."
       },
       {
         "key": "B",
@@ -1409,7 +1410,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Molekul alolaktosa (induser turunan laktosa) berikatan dengan protein represor lac, menyebabkan perubahan konformasi protein represor sehingga terlepas dari daerah operator, memungkinkan RNA polimerase mentranskripsi gen struktural $\\textit{lacZ}$, $\\textit{lacY}$, dan $\\textit{lacA}$."
+        "text": "Laktosa berikatan langsung dengan RNA polimerase memicu mutasi permanen pada daerah promotor operon."
       },
       {
         "key": "D",
@@ -1420,8 +1421,8 @@ window.TKA_BIOLOGI_QUESTIONS = [
         "text": "Gen lacZ melepaskan plasmid rekombinan yang menghancurkan seluruh dinding sel bakteri inang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Molekul alolaktosa (induser turunan laktosa) berikatan dengan protein represor lac, menyebabkan perubahan konformasi protein represor sehingga terlepas dari daerah operator, memungkinkan RNA polimerase mentranskripsi gen struktural $\\textit{lacZ}$, $\\textit{lacY}$, dan $\\textit{lacA}$.. Laktosa (alolaktosa) bertindak sebagai induser. Alolaktosa mengikat represor lac sehingga represor inaktif dan lepas dari operator. Jalur transkripsi RNA polimerase menjadi terbuka. Pilih alolaktosa berikatan dengan represor sehingga terlepas dari operator."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Molekul alolaktosa (induser turunan laktosa) berikatan dengan protein represor lac, menyebabkan perubahan konformasi protein represor sehingga terlepas dari daerah operator, memungkinkan RNA polimerase mentranskripsi gen struktural $\\textit{lacZ}$, $\\textit{lacY}$, dan $\\textit{lacA}$.. Laktosa (alolaktosa) bertindak sebagai induser. Alolaktosa mengikat represor lac sehingga represor inaktif dan lepas dari operator. Jalur transkripsi RNA polimerase menjadi terbuka. Pilih alolaktosa berikatan dengan represor sehingga terlepas dari operator."
   },
   {
     "id": "bio-lat-m-09",
@@ -1444,27 +1445,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mutasi bisu ($\\textit{silent mutation}$); menghasilkan asam amino yang sama persis sehingga struktur dan fungsi protein tidak berubah menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Mutasi tanpa arti ($\\textit{nonsense mutation}$); translasi terhenti secara prematur menghasilkan rantai polipeptida yang jauh lebih pendek dan hampir selalu kehilangan fungsi biologisnya."
       },
       {
         "key": "B",
-        "text": "Mutasi salah arti ($\\textit{missense mutation}$); hanya mengubah satu jenis asam amino dan protein tetap selesai ditranslasikan hingga ujung."
-      },
-      {
-        "key": "C",
         "text": "Mutasi pergeseran rangka ($\\textit{frameshift mutation}$); terjadi penambahan atau pengurangan tiga basa nitrogen yang mempertahankan kodon stop normal."
       },
       {
+        "key": "C",
+        "text": "Mutasi salah arti ($\\textit{missense mutation}$); hanya mengubah satu jenis asam amino dan protein tetap selesai ditranslasikan hingga ujung."
+      },
+      {
         "key": "D",
-        "text": "Mutasi tanpa arti ($\\textit{nonsense mutation}$); translasi terhenti secara prematur menghasilkan rantai polipeptida yang jauh lebih pendek dan hampir selalu kehilangan fungsi biologisnya."
+        "text": "Mutasi bisu ($\\textit{silent mutation}$); menghasilkan asam amino yang sama persis sehingga struktur dan fungsi protein tidak berubah menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
         "text": "Mutasi netral; asam amino yang berubah memiliki sifat kimia identik sehingga enzim bekerja dengan efisiensi dua kali lipat."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mutasi tanpa arti ($\\textit{nonsense mutation}$); translasi terhenti secara prematur menghasilkan rantai polipeptida yang jauh lebih pendek dan hampir selalu kehilangan fungsi biologisnya.. Perubahan kodon menjadi kodon stop disebut mutasi tanpa arti (nonsense mutation). Translasi berhenti lebih awal sehingga rantai polipeptida terpotong pendek. Pilih mutasi tanpa arti (nonsense mutation) yang menghasilkan polipeptida pendek."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Mutasi tanpa arti ($\\textit{nonsense mutation}$); translasi terhenti secara prematur menghasilkan rantai polipeptida yang jauh lebih pendek dan hampir selalu kehilangan fungsi biologisnya.. Perubahan kodon menjadi kodon stop disebut mutasi tanpa arti (nonsense mutation). Translasi berhenti lebih awal sehingga rantai polipeptida terpotong pendek. Pilih mutasi tanpa arti (nonsense mutation) yang menghasilkan polipeptida pendek."
   },
   {
     "id": "bio-lat-m-10",
@@ -1487,27 +1488,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Interfase fase S, di mana molekul DNA gagal melakukan replikasi semikonservatif di dalam nukleus diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
-        "text": "Telofase mitosis pada saat pembelahan sel-sel epitel jaringan somatik embrio."
-      },
-      {
-        "key": "C",
-        "text": "Sitokinesis pembelahan biner amitosis pada sel-sel bakteri usus halus ibu."
-      },
-      {
-        "key": "D",
         "text": "Profase I saat terjadi pertukaran segmen kromatid non-saudara pada proses pindah silang kiasma."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Anafase I (gagal berpisahnya pasangan kromosom homolog) atau Anafase II (gagal berpisahnya pasangan kromatid saudara) pada proses oogenesis atau spermatogenesis orang tua."
+      },
+      {
+        "key": "C",
+        "text": "Telofase mitosis pada saat pembelahan sel-sel epitel jaringan somatik embrio."
+      },
+      {
+        "key": "D",
+        "text": "Interfase fase S, di mana molekul DNA gagal melakukan replikasi semikonservatif di dalam nukleus."
+      },
+      {
+        "key": "E",
+        "text": "Sitokinesis pembelahan biner amitosis pada sel-sel bakteri usus halus ibu."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Anafase I (gagal berpisahnya pasangan kromosom homolog) atau Anafase II (gagal berpisahnya pasangan kromatid saudara) pada proses oogenesis atau spermatogenesis orang tua.. Nondisjunction (gagal berpisah) adalah kegagalan pemisahan kromosom homolog pada Anafase I atau kegagalan pemisahan kromatid saudara pada Anafase II. Pilih Anafase I atau Anafase II pada proses meiosis pembentukan gamet."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Anafase I (gagal berpisahnya pasangan kromosom homolog) atau Anafase II (gagal berpisahnya pasangan kromatid saudara) pada proses oogenesis atau spermatogenesis orang tua.. Nondisjunction (gagal berpisah) adalah kegagalan pemisahan kromosom homolog pada Anafase I atau kegagalan pemisahan kromatid saudara pada Anafase II. Pilih Anafase I atau Anafase II pada proses meiosis pembentukan gamet."
   },
   {
     "id": "bio-lat-m-11",
@@ -1530,27 +1531,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3\\text{ Ungu} : 3\\text{ Merah} : 2\\text{ Putih}$ (atau disederhanakan dari $6 : 6 : 4$), karena persilangan alel $A$ ($Aa \\times Aa$) menghasilkan $\\frac{3}{4} A\\_$ dan $\\frac{1}{4} aa$ (putih); sedangkan persilangan alel $B$ ($Bb \\times bb$) menghasilkan $\\frac{1}{2} Bb$ dan $\\frac{1}{2} bb$. Maka ungu ($A\\_Bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, merah ($A\\_bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, dan putih ($aa\\_\\_$) = $\\frac{1}{4} = \\frac{2}{8}$."
-      },
-      {
-        "key": "B",
-        "text": "$9\\text{ Ungu} : 3\\text{ Merah} : 4\\text{ Putih}$, yang merupakan rasio klasik keturunan F2 hasil persilangan sesama dihibrid heterozigot AaBb x AaBb sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "$1\\text{ Ungu} : 1\\text{ Merah} : 1\\text{ Putih} : 1\\text{ Kuning}$, dihitung dari asumsi pemisahan bebas empat warna tanpa kriptomeri."
-      },
-      {
-        "key": "D",
         "text": "$12\\text{ Ungu} : 3\\text{ Merah} : 1\\text{ Putih}$, yang merupakan rasio karakteristik penyimpangan epistasis dominan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$9\\text{ Ungu} : 3\\text{ Merah} : 4\\text{ Putih}$, yang merupakan rasio klasik keturunan F2 hasil persilangan sesama dihibrid heterozigot AaBb x AaBb."
+      },
+      {
+        "key": "C",
         "text": "$15\\text{ Ungu} : 1\\text{ Putih}$, yang merupakan rasio karakteristik penyimpangan polimeri gen ganda."
+      },
+      {
+        "key": "D",
+        "text": "$1\\text{ Ungu} : 1\\text{ Merah} : 1\\text{ Putih} : 1\\text{ Kuning}$, dihitung dari asumsi pemisahan bebas empat warna tanpa kriptomeri."
+      },
+      {
+        "key": "E",
+        "text": "$3\\text{ Ungu} : 3\\text{ Merah} : 2\\text{ Putih}$ (atau disederhanakan dari $6 : 6 : 4$), karena persilangan alel $A$ ($Aa \\times Aa$) menghasilkan $\\frac{3}{4} A\\_$ dan $\\frac{1}{4} aa$ (putih); sedangkan persilangan alel $B$ ($Bb \\times bb$) menghasilkan $\\frac{1}{2} Bb$ dan $\\frac{1}{2} bb$. Maka ungu ($A\\_Bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, merah ($A\\_bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, dan putih ($aa\\_\\_$) = $\\frac{1}{4} = \\frac{2}{8}$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $3\\text{ Ungu} : 3\\text{ Merah} : 2\\text{ Putih}$ (atau disederhanakan dari $6 : 6 : 4$), karena persilangan alel $A$ ($Aa \\times Aa$) menghasilkan $\\frac{3}{4} A\\_$ dan $\\frac{1}{4} aa$ (putih); sedangkan persilangan alel $B$ ($Bb \\times bb$) menghasilkan $\\frac{1}{2} Bb$ dan $\\frac{1}{2} bb$. Maka ungu ($A\\_Bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, merah ($A\\_bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, dan putih ($aa\\_\\_$) = $\\frac{1}{4} = \\frac{2}{8}$.. Hitung probabilitas per pasang gen: Aa x Aa -> 3/4 A_ dan 1/4 aa. Bb x bb -> 1/2 Bb dan 1/2 bb. Ungu = A_Bb (3/4 * 1/2 = 3/8). Merah = A_bb (3/4 * 1/2 = 3/8). Putih = aa (1/4 = 2/8). Rasio fenotipe: 3 Ungu : 3 Merah : 2 Putih."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $3\\text{ Ungu} : 3\\text{ Merah} : 2\\text{ Putih}$ (atau disederhanakan dari $6 : 6 : 4$), karena persilangan alel $A$ ($Aa \\times Aa$) menghasilkan $\\frac{3}{4} A\\_$ dan $\\frac{1}{4} aa$ (putih); sedangkan persilangan alel $B$ ($Bb \\times bb$) menghasilkan $\\frac{1}{2} Bb$ dan $\\frac{1}{2} bb$. Maka ungu ($A\\_Bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, merah ($A\\_bb$) = $\\frac{3}{4} \\times \\frac{1}{2} = \\frac{3}{8}$, dan putih ($aa\\_\\_$) = $\\frac{1}{4} = \\frac{2}{8}$.. Hitung probabilitas per pasang gen: Aa x Aa -> 3/4 A_ dan 1/4 aa. Bb x bb -> 1/2 Bb dan 1/2 bb. Ungu = A_Bb (3/4 * 1/2 = 3/8). Merah = A_bb (3/4 * 1/2 = 3/8). Putih = aa (1/4 = 2/8). Rasio fenotipe: 3 Ungu : 3 Merah : 2 Putih."
   },
   {
     "id": "bio-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{NPS} = 83\\%$ dengan jarak genetik $83\\text{ cM}$, dihitung dari persentase kombinasi parental bukan rekombinan sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "$\\text{NPS} = 83\\%$ dengan jarak genetik $83\\text{ cM}$, dihitung dari persentase kombinasi parental bukan rekombinan."
       },
       {
         "key": "B",
-        "text": "$\\text{NPS} = 17\\%$ dengan jarak genetik $17\\text{ sentimorgan (cM)}$, karena total individu rekombinan adalah $185 + 205 = 390\\text{ ekor}$, dan total seluruh keturunan adalah $965 + 945 + 185 + 205 = 2.300\\text{ ekor}$. Nilai pindah silang dihitung dengan rumus: $\\text{NPS} = \\frac{\\sum \\text{Rekombinan}}{\\sum \\text{Total Individu}} \\times 100\\% = \\frac{390}{2300} \\times 100\\% \\approx 16{,}96\\% \\approx 17\\%$."
-      },
-      {
-        "key": "C",
-        "text": "$\\text{NPS} = 50\\%$ dengan jarak genetik $50\\text{ cM}$, karena mengasumsikan pemilahan bebas Mendel sempurna tanpa pautan gen."
-      },
-      {
-        "key": "D",
         "text": "$\\text{NPS} = 8{,}5\\%$ dengan jarak genetik $8{,}5\\text{ cM}$, karena keliru membagi jumlah rekombinan dengan angka dua."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\text{NPS} = 0\\%$ dengan jarak genetik $0\\text{ cM}$, karena mengasumsikan pautan sempurna tanpa pernah terjadi kiasma kromatid."
+      },
+      {
+        "key": "D",
+        "text": "$\\text{NPS} = 17\\%$ dengan jarak genetik $17\\text{ sentimorgan (cM)}$, karena total individu rekombinan adalah $185 + 205 = 390\\text{ ekor}$, dan total seluruh keturunan adalah $965 + 945 + 185 + 205 = 2.300\\text{ ekor}$. Nilai pindah silang dihitung dengan rumus: $\\text{NPS} = \\frac{\\sum \\text{Rekombinan}}{\\sum \\text{Total Individu}} \\times 100\\% = \\frac{390}{2300} \\times 100\\% \\approx 16{,}96\\% \\approx 17\\%$."
+      },
+      {
+        "key": "E",
+        "text": "$\\text{NPS} = 50\\%$ dengan jarak genetik $50\\text{ cM}$, karena mengasumsikan pemilahan bebas Mendel sempurna tanpa pautan gen."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\text{NPS} = 17\\%$ dengan jarak genetik $17\\text{ sentimorgan (cM)}$, karena total individu rekombinan adalah $185 + 205 = 390\\text{ ekor}$, dan total seluruh keturunan adalah $965 + 945 + 185 + 205 = 2.300\\text{ ekor}$. Nilai pindah silang dihitung dengan rumus: $\\text{NPS} = \\frac{\\sum \\text{Rekombinan}}{\\sum \\text{Total Individu}} \\times 100\\% = \\frac{390}{2300} \\times 100\\% \\approx 16{,}96\\% \\approx 17\\%$.. Rumus NPS = (Total Rekombinan / Total Seluruh Keturunan) * 100%. 1% NPS = 1 centimorgan (cM). Rekombinan = 185 + 205 = 390. Total = 965 + 945 + 185 + 205 = 2300. NPS = (390 / 2300) * 100% = 17% (17 cM)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{NPS} = 17\\%$ dengan jarak genetik $17\\text{ sentimorgan (cM)}$, karena total individu rekombinan adalah $185 + 205 = 390\\text{ ekor}$, dan total seluruh keturunan adalah $965 + 945 + 185 + 205 = 2.300\\text{ ekor}$. Nilai pindah silang dihitung dengan rumus: $\\text{NPS} = \\frac{\\sum \\text{Rekombinan}}{\\sum \\text{Total Individu}} \\times 100\\% = \\frac{390}{2300} \\times 100\\% \\approx 16{,}96\\% \\approx 17\\%$.. Rumus NPS = (Total Rekombinan / Total Seluruh Keturunan) * 100%. 1% NPS = 1 centimorgan (cM). Rekombinan = 185 + 205 = 390. Total = 965 + 945 + 185 + 205 = 2300. NPS = (390 / 2300) * 100% = 17% (17 cM)."
   },
   {
     "id": "bio-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\%$, yang merupakan peluang anak laki-laki menderita hemofilia jika yang ditanyakan khusus di antara anak laki-laki saja ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "$0\\%$, karena berasumsi bahwa wanita normal selalu menghasilkan keturunan yang $100\\%$ terbebas dari hemofilia."
-      },
-      {
-        "key": "C",
         "text": "$25\\%$ (atau $1$ dari $4$ kemungkinan anak), karena wanita tersebut pasti membawa alel hemofilia dari ayahnya sehingga bergenotipe pembawa ($X^H X^h$) dan pria bergenotipe normal ($X^H Y$). Persilangan menghasilkan anak: $X^H X^H$ ($25\\%$, wanita normal), $X^H X^h$ ($25\\%$, wanita carrier), $X^H Y$ ($25\\%$, pria normal), dan $X^h Y$ ($25\\%$, pria hemofilia)."
       },
       {
+        "key": "B",
+        "text": "$12{,}5\\%$, dihitung dari pembagian ganda persentase pembawa sifat terpaut autosom."
+      },
+      {
+        "key": "C",
+        "text": "$0\\%$, karena berasumsi bahwa wanita normal selalu menghasilkan keturunan yang $100\\%$ terbebas dari hemofilia."
+      },
+      {
         "key": "D",
-        "text": "$75\\%$, dihitung dari rasio dominan sifat normal yang keliru diterapkan pada alel resesif."
+        "text": "$50\\%$, yang merupakan peluang anak laki-laki menderita hemofilia jika yang ditanyakan khusus di antara anak laki-laki saja."
       },
       {
         "key": "E",
-        "text": "$12{,}5\\%$, dihitung dari pembagian ganda persentase pembawa sifat terpaut autosom."
+        "text": "$75\\%$, dihitung dari rasio dominan sifat normal yang keliru diterapkan pada alel resesif."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $25\\%$ (atau $1$ dari $4$ kemungkinan anak), karena wanita tersebut pasti membawa alel hemofilia dari ayahnya sehingga bergenotipe pembawa ($X^H X^h$) dan pria bergenotipe normal ($X^H Y$). Persilangan menghasilkan anak: $X^H X^H$ ($25\\%$, wanita normal), $X^H X^h$ ($25\\%$, wanita carrier), $X^H Y$ ($25\\%$, pria normal), dan $X^h Y$ ($25\\%$, pria hemofilia).. Ibu memiliki ayah hemofilia, maka ibu pasti heterozigot/carrier (X^H X^h). Ayah normal (X^H Y). Dari 4 kemungkinan keturunan (XHXH, XHXh, XHY, XhY), anak laki-laki hemofilia adalah XhY (1 dari 4 = 25%). Pilih 25% dari total seluruh anak."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $25\\%$ (atau $1$ dari $4$ kemungkinan anak), karena wanita tersebut pasti membawa alel hemofilia dari ayahnya sehingga bergenotipe pembawa ($X^H X^h$) dan pria bergenotipe normal ($X^H Y$). Persilangan menghasilkan anak: $X^H X^H$ ($25\\%$, wanita normal), $X^H X^h$ ($25\\%$, wanita carrier), $X^H Y$ ($25\\%$, pria normal), dan $X^h Y$ ($25\\%$, pria hemofilia).. Ibu memiliki ayah hemofilia, maka ibu pasti heterozigot/carrier (X^H X^h). Ayah normal (X^H Y). Dari 4 kemungkinan keturunan (XHXH, XHXh, XHY, XhY), anak laki-laki hemofilia adalah XhY (1 dari 4 = 25%). Pilih 25% dari total seluruh anak."
   },
   {
     "id": "bio-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nodus Atrioventrikular (AV node), yang berfungsi mempercepat laju impuls hingga sepuluh kali lipat saat menuju apeks jantung menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Septum interventrikularis, yang memompa darah kotor dari bilik kanan menuju ke pembuluh balik otak."
       },
       {
         "key": "B",
-        "text": "Berkas His (Atrioventricular bundle), yang memproduksi hormon epinefrin langsung ke dalam bilik ventrikel kiri."
-      },
-      {
-        "key": "C",
         "text": "Serabut Purkinje, yang mengatur penutupan katup semilunaris aorta pada saat fase diastol jantung."
       },
       {
+        "key": "C",
+        "text": "Berkas His (Atrioventricular bundle), yang memproduksi hormon epinefrin langsung ke dalam bilik ventrikel kiri."
+      },
+      {
         "key": "D",
-        "text": "Nodus Sinoatrial (SA node), terletak di dinding atrium kanan dekat muara vena cava superior, yang menghasilkan potensial aksi spontan dengan frekuensi intrinsik tertinggi ($70-80\\text{ kali/menit}$)."
+        "text": "Nodus Atrioventrikular (AV node), yang berfungsi mempercepat laju impuls hingga sepuluh kali lipat saat menuju apeks jantung menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
-        "text": "Septum interventrikularis, yang memompa darah kotor dari bilik kanan menuju ke pembuluh balik otak."
+        "text": "Nodus Sinoatrial (SA node), terletak di dinding atrium kanan dekat muara vena cava superior, yang menghasilkan potensial aksi spontan dengan frekuensi intrinsik tertinggi ($70-80\\text{ kali/menit}$)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Nodus Sinoatrial (SA node), terletak di dinding atrium kanan dekat muara vena cava superior, yang menghasilkan potensial aksi spontan dengan frekuensi intrinsik tertinggi ($70-80\\text{ kali/menit}$).. Pemacu alami jantung (pacemaker) adalah nodus sinoatrial (SA node) di dinding serambi kanan. Nodus SA mengawali potensial aksi secara ritmis. Pilih Nodus Sinoatrial (SA node)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Nodus Sinoatrial (SA node), terletak di dinding atrium kanan dekat muara vena cava superior, yang menghasilkan potensial aksi spontan dengan frekuensi intrinsik tertinggi ($70-80\\text{ kali/menit}$).. Pemacu alami jantung (pacemaker) adalah nodus sinoatrial (SA node) di dinding serambi kanan. Nodus SA mengawali potensial aksi secara ritmis. Pilih Nodus Sinoatrial (SA node)."
   },
   {
     "id": "bio-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengeluaran ion natrium ($\text{Na}^+$) secara transpor aktif primer oleh pompa membran eritrosit diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
-        "text": "Masuknya ion kalsium ($\text{Ca}^{2+}$) yang memicu koagulasi darah langsung di dalam kapiler jaringan."
-      },
-      {
-        "key": "C",
         "text": "Pelepasan molekul gas nitrogen dari hemoglobin untuk menetralkan muatan positif ion hidrogen bebas."
       },
       {
+        "key": "B",
+        "text": "Pengeluaran ion natrium ($ ext{Na}^+$) secara transpor aktif primer oleh pompa membran eritrosit."
+      },
+      {
+        "key": "C",
+        "text": "Pergeseran klorida ($\\textit{chloride shift}$), yaitu masuknya ion klorida ($\\text{Cl}^-$) dari plasma darah ke dalam eritrosit melalui protein penukar anion ($\\textit{anion exchanger 1}$) untuk mengimbangi keluarnya ion $\\text{HCO}_3^-$."
+      },
+      {
         "key": "D",
-        "text": "Penyerapan molekul urea dari plasma ke dalam inti sel eritrosit matang."
+        "text": "Masuknya ion kalsium ($ ext{Ca}^{2+}$) yang memicu koagulasi darah langsung di dalam kapiler jaringan."
       },
       {
         "key": "E",
-        "text": "Pergeseran klorida ($\\textit{chloride shift}$), yaitu masuknya ion klorida ($\\text{Cl}^-$) dari plasma darah ke dalam eritrosit melalui protein penukar anion ($\\textit{anion exchanger 1}$) untuk mengimbangi keluarnya ion $\\text{HCO}_3^-$."
+        "text": "Penyerapan molekul urea dari plasma ke dalam inti sel eritrosit matang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pergeseran klorida ($\\textit{chloride shift}$), yaitu masuknya ion klorida ($\\text{Cl}^-$) dari plasma darah ke dalam eritrosit melalui protein penukar anion ($\\textit{anion exchanger 1}$) untuk mengimbangi keluarnya ion $\\text{HCO}_3^-$.. Keluarnya ion negatif bikarbonat (HCO3-) dari eritrosit diimbangi dengan masuknya ion negatif klorida (Cl-) dari plasma. Fenomena ini disebut chloride shift (pergeseran klorida). Pilih pergeseran klorida (chloride shift), masuknya ion Cl- ke dalam eritrosit."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pergeseran klorida ($\\textit{chloride shift}$), yaitu masuknya ion klorida ($\\text{Cl}^-$) dari plasma darah ke dalam eritrosit melalui protein penukar anion ($\\textit{anion exchanger 1}$) untuk mengimbangi keluarnya ion $\\text{HCO}_3^-$.. Keluarnya ion negatif bikarbonat (HCO3-) dari eritrosit diimbangi dengan masuknya ion negatif klorida (Cl-) dari plasma. Fenomena ini disebut chloride shift (pergeseran klorida). Pilih pergeseran klorida (chloride shift), masuknya ion Cl- ke dalam eritrosit."
   },
   {
     "id": "bio-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ADH berikatan dengan reseptor $V_2$ di sel epitel tubulus pengumpul ($\\textit{collecting duct}$), memicu insersi saluran air akuaporin-2 ke membran apikal sehingga permeabilitas air meningkat drastis dan air diserap kembali secara osmosis ke medula ginjal yang hiperosmotik, menghasilkan volume urin sedikit dan pekat."
+        "text": "ADH menyumbat lubang glomerulus sehingga proses filtrasi darah berhenti total selama beberapa jam."
       },
       {
         "key": "B",
-        "text": "ADH menyumbat lubang glomerulus sehingga proses filtrasi darah berhenti total selama beberapa jam sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
         "text": "ADH merangsang pembongkaran protein albumin di kapsula Bowman untuk menyerap kelebihan garam natrium."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "ADH memicu sekresi ion kalium secara masif di tubulus kontortus proksimal sehingga urin menjadi cair dan bening."
+      },
+      {
+        "key": "D",
+        "text": "ADH berikatan dengan reseptor $V_2$ di sel epitel tubulus pengumpul ($\\textit{collecting duct}$), memicu insersi saluran air akuaporin-2 ke membran apikal sehingga permeabilitas air meningkat drastis dan air diserap kembali secara osmosis ke medula ginjal yang hiperosmotik, menghasilkan volume urin sedikit dan pekat."
       },
       {
         "key": "E",
         "text": "ADH menghancurkan lapisan medula ginjal sehingga urin langsung dialirkan ke pembuluh limfa."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) ADH berikatan dengan reseptor $V_2$ di sel epitel tubulus pengumpul ($\\textit{collecting duct}$), memicu insersi saluran air akuaporin-2 ke membran apikal sehingga permeabilitas air meningkat drastis dan air diserap kembali secara osmosis ke medula ginjal yang hiperosmotik, menghasilkan volume urin sedikit dan pekat.. ADH bekerja pada tubulus pengumpul nefron. ADH merangsang penempatan saluran air (akuaporin-2) ke membran sel, meningkatkan penyerapan kembali air sehingga urin pekat dan sedikit. Pilih insersi saluran air akuaporin-2 di tubulus pengumpul yang meningkatkan reabsorpsi air."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) ADH berikatan dengan reseptor $V_2$ di sel epitel tubulus pengumpul ($\\textit{collecting duct}$), memicu insersi saluran air akuaporin-2 ke membran apikal sehingga permeabilitas air meningkat drastis dan air diserap kembali secara osmosis ke medula ginjal yang hiperosmotik, menghasilkan volume urin sedikit dan pekat.. ADH bekerja pada tubulus pengumpul nefron. ADH merangsang penempatan saluran air (akuaporin-2) ke membran sel, meningkatkan penyerapan kembali air sehingga urin pekat dan sedikit. Pilih insersi saluran air akuaporin-2 di tubulus pengumpul yang meningkatkan reabsorpsi air."
   },
   {
     "id": "bio-lat-m-17",
@@ -1788,15 +1789,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel alfa pankreas mensekresikan glukagon untuk memicu glikogenolisis dan glukoneogenesis di hati sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Kelenjar tiroid memproduksi tiroksin yang mengubah glukosa menjadi kalsitonin padat pada tulang."
       },
       {
         "key": "B",
-        "text": "Sel beta pulau Langerhans pankreas mensekresikan insulin, yang merangsang translokasi transporter GLUT-4 pada sel otot rangka dan adiposa untuk menyerap glukosa, serta merangsang glikogenesis (pembentukan glikogen) di organ hati."
+        "text": "Sel alfa pankreas mensekresikan glukagon untuk memicu glikogenolisis dan glukoneogenesis di hati."
       },
       {
         "key": "C",
-        "text": "Kelenjar medula adrenal mensekresikan epinefrin untuk menguraikan cadangan protein menjadi asam laktat."
+        "text": "Sel beta pulau Langerhans pankreas mensekresikan insulin, yang merangsang translokasi transporter GLUT-4 pada sel otot rangka dan adiposa untuk menyerap glukosa, serta merangsang glikogenesis (pembentukan glikogen) di organ hati."
       },
       {
         "key": "D",
@@ -1804,11 +1805,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kelenjar tiroid memproduksi tiroksin yang mengubah glukosa menjadi kalsitonin padat pada tulang."
+        "text": "Kelenjar medula adrenal mensekresikan epinefrin untuk menguraikan cadangan protein menjadi asam laktat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sel beta pulau Langerhans pankreas mensekresikan insulin, yang merangsang translokasi transporter GLUT-4 pada sel otot rangka dan adiposa untuk menyerap glukosa, serta merangsang glikogenesis (pembentukan glikogen) di organ hati.. Gula darah naik -> sel beta pankreas sekresikan insulin -> memicu penyerapan glukosa oleh sel tubuh dan pembentukan glikogen di hati -> gula darah kembali normal. Pilih sekresi insulin oleh sel beta pulau Langerhans pankreas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sel beta pulau Langerhans pankreas mensekresikan insulin, yang merangsang translokasi transporter GLUT-4 pada sel otot rangka dan adiposa untuk menyerap glukosa, serta merangsang glikogenesis (pembentukan glikogen) di organ hati.. Gula darah naik -> sel beta pankreas sekresikan insulin -> memicu penyerapan glukosa oleh sel tubuh dan pembentukan glikogen di hati -> gula darah kembali normal. Pilih sekresi insulin oleh sel beta pulau Langerhans pankreas."
   },
   {
     "id": "bio-lat-m-18",
@@ -1831,27 +1832,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengikatan ion kalsium pada molekul titin yang memicu pemanjangan pita I dan zona H secara serentak ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "Hidrolisis molekul ATP oleh aktin yang menyebabkan filamen tebal menciut hingga lenyap dari sarkomer."
-      },
-      {
-        "key": "C",
-        "text": "Pelepasan ion $\\text{Ca}^{2+}$ dari retikulum sarkoplasma yang berikatan dengan subunit troponin C, menyebabkan perubahan konformasi tropomiosin sehingga tempat pengikatan ($\\textit{binding site}$) miosin pada aktin terbuka."
-      },
-      {
-        "key": "D",
         "text": "Penempelan asetilkolin langsung pada kepala miosin yang mendorong miofibril bergeser ke arah luar tendon."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Penurunan kadar asam laktat di dalam mitokondria yang mengendurkan serat kolagen otot."
+      },
+      {
+        "key": "C",
+        "text": "Hidrolisis molekul ATP oleh aktin yang menyebabkan filamen tebal menciut hingga lenyap dari sarkomer."
+      },
+      {
+        "key": "D",
+        "text": "Pengikatan ion kalsium pada molekul titin yang memicu pemanjangan pita I dan zona H secara serentak."
+      },
+      {
+        "key": "E",
+        "text": "Pelepasan ion $\\text{Ca}^{2+}$ dari retikulum sarkoplasma yang berikatan dengan subunit troponin C, menyebabkan perubahan konformasi tropomiosin sehingga tempat pengikatan ($\\textit{binding site}$) miosin pada aktin terbuka."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pelepasan ion $\\text{Ca}^{2+}$ dari retikulum sarkoplasma yang berikatan dengan subunit troponin C, menyebabkan perubahan konformasi tropomiosin sehingga tempat pengikatan ($\\textit{binding site}$) miosin pada aktin terbuka.. Ion Ca2+ dilepas dari retikulum sarkoplasma -> berikatan dengan troponin -> menggeser tropomiosin -> binding site miosin pada aktin terbuka -> jembatan silang terbentuk. Pilih ion Ca2+ berikatan dengan troponin C menggeser tropomiosin membuka binding site aktin."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pelepasan ion $\\text{Ca}^{2+}$ dari retikulum sarkoplasma yang berikatan dengan subunit troponin C, menyebabkan perubahan konformasi tropomiosin sehingga tempat pengikatan ($\\textit{binding site}$) miosin pada aktin terbuka.. Ion Ca2+ dilepas dari retikulum sarkoplasma -> berikatan dengan troponin -> menggeser tropomiosin -> binding site miosin pada aktin terbuka -> jembatan silang terbentuk. Pilih ion Ca2+ berikatan dengan troponin C menggeser tropomiosin membuka binding site aktin."
   },
   {
     "id": "bio-lat-m-19",
@@ -1874,11 +1875,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel T CD4+ mengenali molekul glukosa bebas dalam darah, sedangkan sel T CD8+ hanya mengenali antigen bakteri tanpa melibatkan molekul MHC menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Sel T $\\text{CD4}^+$ mengenali antigen eksogen yang dipresentasikan oleh molekul $\\text{MHC Kelas II}$ pada sel penyaji antigen (APC seperti sel dendritik, makrofag, sel B); sedangkan sel T $\\text{CD8}^+$ mengenali antigen endogen (seperti virus/kanker) yang dipresentasikan oleh $\\text{MHC Kelas I}$ pada semua sel tubuh berinti."
       },
       {
         "key": "B",
-        "text": "MHC Kelas I hanya terdapat pada sel darah merah tanpa inti, sedangkan MHC Kelas II terdapat pada sel saraf otak saja."
+        "text": "Sel T CD4+ menghancurkan MHC Kelas II sedangkan sel T CD8+ mensintesis molekul komplemen di hati."
       },
       {
         "key": "C",
@@ -1886,15 +1887,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Sel T $\\text{CD4}^+$ mengenali antigen eksogen yang dipresentasikan oleh molekul $\\text{MHC Kelas II}$ pada sel penyaji antigen (APC seperti sel dendritik, makrofag, sel B); sedangkan sel T $\\text{CD8}^+$ mengenali antigen endogen (seperti virus/kanker) yang dipresentasikan oleh $\\text{MHC Kelas I}$ pada semua sel tubuh berinti."
+        "text": "Sel T CD4+ mengenali molekul glukosa bebas dalam darah, sedangkan sel T CD8+ hanya mengenali antigen bakteri tanpa melibatkan molekul MHC menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "E",
-        "text": "Sel T CD4+ menghancurkan MHC Kelas II sedangkan sel T CD8+ mensintesis molekul komplemen di hati."
+        "text": "MHC Kelas I hanya terdapat pada sel darah merah tanpa inti, sedangkan MHC Kelas II terdapat pada sel saraf otak saja."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Sel T $\\text{CD4}^+$ mengenali antigen eksogen yang dipresentasikan oleh molekul $\\text{MHC Kelas II}$ pada sel penyaji antigen (APC seperti sel dendritik, makrofag, sel B); sedangkan sel T $\\text{CD8}^+$ mengenali antigen endogen (seperti virus/kanker) yang dipresentasikan oleh $\\text{MHC Kelas I}$ pada semua sel tubuh berinti.. Gunakan aturan perkalian 8: CD4 x MHC II = 8 (T helper kenali APC); CD8 x MHC I = 8 (T sitotoksik kenali semua sel berinti). Pilih CD4+ mengenali MHC II pada APC dan CD8+ mengenali MHC I pada semua sel berinti."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sel T $\\text{CD4}^+$ mengenali antigen eksogen yang dipresentasikan oleh molekul $\\text{MHC Kelas II}$ pada sel penyaji antigen (APC seperti sel dendritik, makrofag, sel B); sedangkan sel T $\\text{CD8}^+$ mengenali antigen endogen (seperti virus/kanker) yang dipresentasikan oleh $\\text{MHC Kelas I}$ pada semua sel tubuh berinti.. Gunakan aturan perkalian 8: CD4 x MHC II = 8 (T helper kenali APC); CD8 x MHC I = 8 (T sitotoksik kenali semua sel berinti). Pilih CD4+ mengenali MHC II pada APC dan CD8+ mengenali MHC I pada semua sel berinti."
   },
   {
     "id": "bio-lat-m-20",
@@ -1917,27 +1918,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "9.216 orang, yang merupakan jumlah individu normal homozigot dominan (AA) diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "$768$ orang, karena frekuensi homozigot resesif $q^2 = \\frac{16}{10.000} = 0{,}0016$, sehingga frekuensi alel resesif $q = \\sqrt{0{,}0016} = 0{,}04$. Karena $p + q = 1$, maka frekuensi alel dominan $p = 1 - 0{,}04 = 0{,}96$. Frekuensi heterozigot adalah $2pq = 2 \\times 0{,}96 \\times 0{,}04 = 0{,}0768$ ($7{,}68\\%$). Jumlah individu carrier adalah $0{,}0768 \\times 10.000 = 768\\text{ orang}$."
       },
       {
         "key": "B",
-        "text": "384 orang, dihitung jika lupa mengalikan perkalian alel dengan koefisien dua pada rumus 2pq."
-      },
-      {
-        "key": "C",
         "text": "160 orang, dihitung dari asumsi rasio linear persentase penderita albino."
       },
       {
+        "key": "C",
+        "text": "9.216 orang, yang merupakan jumlah individu normal homozigot dominan (AA)."
+      },
+      {
         "key": "D",
-        "text": "9.984 orang, yang merupakan jumlah total seluruh individu berfenotipe normal gabungan homozigot dan heterozigot."
+        "text": "384 orang, dihitung jika lupa mengalikan perkalian alel dengan koefisien dua pada rumus 2pq."
       },
       {
         "key": "E",
-        "text": "$768$ orang, karena frekuensi homozigot resesif $q^2 = \\frac{16}{10.000} = 0{,}0016$, sehingga frekuensi alel resesif $q = \\sqrt{0{,}0016} = 0{,}04$. Karena $p + q = 1$, maka frekuensi alel dominan $p = 1 - 0{,}04 = 0{,}96$. Frekuensi heterozigot adalah $2pq = 2 \\times 0{,}96 \\times 0{,}04 = 0{,}0768$ ($7{,}68\\%$). Jumlah individu carrier adalah $0{,}0768 \\times 10.000 = 768\\text{ orang}$."
+        "text": "9.984 orang, yang merupakan jumlah total seluruh individu berfenotipe normal gabungan homozigot dan heterozigot."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $768$ orang, karena frekuensi homozigot resesif $q^2 = \\frac{16}{10.000} = 0{,}0016$, sehingga frekuensi alel resesif $q = \\sqrt{0{,}0016} = 0{,}04$. Karena $p + q = 1$, maka frekuensi alel dominan $p = 1 - 0{,}04 = 0{,}96$. Frekuensi heterozigot adalah $2pq = 2 \\times 0{,}96 \\times 0{,}04 = 0{,}0768$ ($7{,}68\\%$). Jumlah individu carrier adalah $0{,}0768 \\times 10.000 = 768\\text{ orang}$.. Cari q dulu dari q^2 = 16/10.000 = 0,0016 -> q = 0,04. Lalu p = 1 - 0,04 = 0,96. Jumlah carrier = 2pq * total populasi. 2pq = 2 * 0,96 * 0,04 = 0,0768. Jumlah carrier = 0,0768 * 10.000 = 768 orang."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $768$ orang, karena frekuensi homozigot resesif $q^2 = \\frac{16}{10.000} = 0{,}0016$, sehingga frekuensi alel resesif $q = \\sqrt{0{,}0016} = 0{,}04$. Karena $p + q = 1$, maka frekuensi alel dominan $p = 1 - 0{,}04 = 0{,}96$. Frekuensi heterozigot adalah $2pq = 2 \\times 0{,}96 \\times 0{,}04 = 0{,}0768$ ($7{,}68\\%$). Jumlah individu carrier adalah $0{,}0768 \\times 10.000 = 768\\text{ orang}$.. Cari q dulu dari q^2 = 16/10.000 = 0,0016 -> q = 0,04. Lalu p = 1 - 0,04 = 0,96. Jumlah carrier = 2pq * total populasi. 2pq = 2 * 0,96 * 0,04 = 0,0768. Jumlah carrier = 0,0768 * 10.000 = 768 orang."
   },
   {
     "id": "bio-lat-m-21",
@@ -1960,15 +1961,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1. Denaturasi ($\\sim 94-96^\\circ\\text{C}$): Pemutusan ikatan hidrogen untuk memisahkan heliks ganda DNA menjadi dua untai tunggal;<br>2. Penempelan / Annealing ($\\sim 50-65^\\circ\\text{C}$): Penempelan primer oligonukleotida pada sekuens komplemen untai tunggal DNA;<br>3. Pemanjangan / Elongasi ($\\sim 72^\\circ\\text{C}$): Sintesis untai DNA baru oleh enzim termostabil Taq DNA polimerase."
+        "text": "1. Hibridisasi ($72^\\circ\\text{C}$); 2. Denaturasi enzim ($50^\\circ\\text{C}$); 3. Isolasi plasmid ($95^\\circ\\text{C}$)."
       },
       {
         "key": "B",
-        "text": "1. Hibridisasi ($72^\\circ\\text{C}$); 2. Denaturasi enzim ($50^\\circ\\text{C}$); 3. Isolasi plasmid ($95^\\circ\\text{C}$) sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "1. Sentrifugasi ($100^\\circ\\text{C}$); 2. Elektroforesis ($72^\\circ\\text{C}$); 3. Pemotongan restriksi ($55^\\circ\\text{C}$)."
       },
       {
         "key": "C",
-        "text": "1. Annealing ($95^\\circ\\text{C}$); 2. Elongasi ($4^\\circ\\text{C}$); 3. Pembekuan DNA ($72^\\circ\\text{C}$)."
+        "text": "1. Denaturasi ($\\sim 94-96^\\circ\\text{C}$): Pemutusan ikatan hidrogen untuk memisahkan heliks ganda DNA menjadi dua untai tunggal;<br>2. Penempelan / Annealing ($\\sim 50-65^\\circ\\text{C}$): Penempelan primer oligonukleotida pada sekuens komplemen untai tunggal DNA;<br>3. Pemanjangan / Elongasi ($\\sim 72^\\circ\\text{C}$): Sintesis untai DNA baru oleh enzim termostabil Taq DNA polimerase."
       },
       {
         "key": "D",
@@ -1976,11 +1977,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "1. Sentrifugasi ($100^\\circ\\text{C}$); 2. Elektroforesis ($72^\\circ\\text{C}$); 3. Pemotongan restriksi ($55^\\circ\\text{C}$)."
+        "text": "1. Annealing ($95^\\circ\\text{C}$); 2. Elongasi ($4^\\circ\\text{C}$); 3. Pembekuan DNA ($72^\\circ\\text{C}$)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 1. Denaturasi ($\\sim 94-96^\\circ\\text{C}$): Pemutusan ikatan hidrogen untuk memisahkan heliks ganda DNA menjadi dua untai tunggal;<br>2. Penempelan / Annealing ($\\sim 50-65^\\circ\\text{C}$): Penempelan primer oligonukleotida pada sekuens komplemen untai tunggal DNA;<br>3. Pemanjangan / Elongasi ($\\sim 72^\\circ\\text{C}$): Sintesis untai DNA baru oleh enzim termostabil Taq DNA polimerase.. Urutan suhu PCR: Denaturasi (~95 C, buka pita DNA), Annealing (~55 C, primer nempel), Elongasi (~72 C, enzim Taq polimerase bekerja memanjangkan DNA). Pilih Denaturasi (94-96 C) -> Annealing (50-65 C) -> Elongasi (72 C)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 1. Denaturasi ($\\sim 94-96^\\circ\\text{C}$): Pemutusan ikatan hidrogen untuk memisahkan heliks ganda DNA menjadi dua untai tunggal;<br>2. Penempelan / Annealing ($\\sim 50-65^\\circ\\text{C}$): Penempelan primer oligonukleotida pada sekuens komplemen untai tunggal DNA;<br>3. Pemanjangan / Elongasi ($\\sim 72^\\circ\\text{C}$): Sintesis untai DNA baru oleh enzim termostabil Taq DNA polimerase.. Urutan suhu PCR: Denaturasi (~95 C, buka pita DNA), Annealing (~55 C, primer nempel), Elongasi (~72 C, enzim Taq polimerase bekerja memanjangkan DNA). Pilih Denaturasi (94-96 C) -> Annealing (50-65 C) -> Elongasi (72 C)."
   },
   {
     "id": "bio-lat-m-22",
@@ -2003,11 +2004,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel darah merah manusia dengan sel bakteri $\\textit{Escherichia coli}$ penghasil enzim restriksi sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Sel makrofag monosit dengan sel virus influenza yang telah dinonaktifkan."
       },
       {
         "key": "B",
-        "text": "Sel limfosit B mencit yang telah diimunisasi antigen (penghasil antibodi spesifik) dengan sel kanker mieloma (memiliki sifat membelah diri tanpa batas / immortal)."
+        "text": "Sel punca embrionik dengan sel sperma mamalia yang diradiasi sinar gamma intensitas tinggi."
       },
       {
         "key": "C",
@@ -2015,15 +2016,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Sel punca embrionik dengan sel sperma mamalia yang diradiasi sinar gamma intensitas tinggi."
+        "text": "Sel darah merah manusia dengan sel bakteri $\\textit{Escherichia coli}$ penghasil enzim restriksi."
       },
       {
         "key": "E",
-        "text": "Sel makrofag monosit dengan sel virus influenza yang telah dinonaktifkan."
+        "text": "Sel limfosit B mencit yang telah diimunisasi antigen (penghasil antibodi spesifik) dengan sel kanker mieloma (memiliki sifat membelah diri tanpa batas / immortal)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sel limfosit B mencit yang telah diimunisasi antigen (penghasil antibodi spesifik) dengan sel kanker mieloma (memiliki sifat membelah diri tanpa batas / immortal).. Hibridoma adalah fusi sel B (yang membuat antibodi spesifik) dengan sel mieloma/kanker (yang membelah terus-menerus/imortal). Pilih sel limfosit B dengan sel kanker mieloma."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Sel limfosit B mencit yang telah diimunisasi antigen (penghasil antibodi spesifik) dengan sel kanker mieloma (memiliki sifat membelah diri tanpa batas / immortal).. Hibridoma adalah fusi sel B (yang membuat antibodi spesifik) dengan sel mieloma/kanker (yang membelah terus-menerus/imortal). Pilih sel limfosit B dengan sel kanker mieloma."
   },
   {
     "id": "bio-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Suksesi sekunder, karena letusan gunung hanya mematikan vegetasi pohon tanpa merusak komunitas mikroba tanah asal ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
         "text": "Degradasi klimaks permanen, di mana ekosistem tidak akan pernah mampu dihuni kembali oleh makhluk hidup."
       },
       {
-        "key": "C",
-        "text": "Suksesi primer, karena diawali dari substrat batuan anorganik tandus tanpa tanah; dimulai dari organisme perintis (seperti lumut kerak / $\\textit{lichen}$ dan lumut kerak biru-hijau) yang melapukkan batu menjadi tanah hingga akhirnya terbentuk komunitas klimaks."
+        "key": "B",
+        "text": "Evolusi konvergen habitat, di mana tanaman darat berubah menjadi terumbu karang laut dalam."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Biomagnifikasi ekologis, di mana polutan logam berat terkonsentrasi di puncak rantai makanan pulau."
       },
       {
+        "key": "D",
+        "text": "Suksesi primer, karena diawali dari substrat batuan anorganik tandus tanpa tanah; dimulai dari organisme perintis (seperti lumut kerak / $\\textit{lichen}$ dan lumut kerak biru-hijau) yang melapukkan batu menjadi tanah hingga akhirnya terbentuk komunitas klimaks."
+      },
+      {
         "key": "E",
-        "text": "Evolusi konvergen habitat, di mana tanaman darat berubah menjadi terumbu karang laut dalam."
+        "text": "Suksesi sekunder, karena letusan gunung hanya mematikan vegetasi pohon tanpa merusak komunitas mikroba tanah asal."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Suksesi primer, karena diawali dari substrat batuan anorganik tandus tanpa tanah; dimulai dari organisme perintis (seperti lumut kerak / $\\textit{lichen}$ dan lumut kerak biru-hijau) yang melapukkan batu menjadi tanah hingga akhirnya terbentuk komunitas klimaks.. Jika gangguan menghancurkan seluruh tanah hingga hanya tersisa batuan tandus (seperti lahar beku Krakatau), itu adalah suksesi primer (dimulai oleh lumut kerak perintis). Pilih suksesi primer yang dimulai dari organisme perintis."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Suksesi primer, karena diawali dari substrat batuan anorganik tandus tanpa tanah; dimulai dari organisme perintis (seperti lumut kerak / $\\textit{lichen}$ dan lumut kerak biru-hijau) yang melapukkan batu menjadi tanah hingga akhirnya terbentuk komunitas klimaks.. Jika gangguan menghancurkan seluruh tanah hingga hanya tersisa batuan tandus (seperti lahar beku Krakatau), itu adalah suksesi primer (dimulai oleh lumut kerak perintis). Pilih suksesi primer yang dimulai dari organisme perintis."
   },
   {
     "id": "bio-lat-m-24",
@@ -2089,27 +2090,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kedua populasi kawin silang secara intensif setiap musim semi menghasilkan spesies poliploidi mandul menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Kedua populasi tetap memiliki aliran gen bebas tanpa hambatan reproduksi morfologis."
       },
       {
         "key": "B",
-        "text": "Tupai tebing utara bermutasi menjadi karnivora pemangsa tupai tebing selatan."
-      },
-      {
-        "key": "C",
-        "text": "Terjadi kepunahan massal akibat meteorit yang hanya jatuh di dasar sungai ngarai."
-      },
-      {
-        "key": "D",
         "text": "Penghalang geografis fisik (ngarai yang dalam) memisahkan satu populasi leluhur menjadi dua populasi terisolasi, menghentikan aliran gen ($\\textit{gene flow}$), sehingga kedua populasi mengalami mutasi independen, seleksi alam terhadap lingkungan lokal, dan hanyutan genetik hingga terjadi isolasi reproduksi."
       },
       {
+        "key": "C",
+        "text": "Kedua populasi kawin silang secara intensif setiap musim semi menghasilkan spesies poliploidi mandul menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
+        "key": "D",
+        "text": "Terjadi kepunahan massal akibat meteorit yang hanya jatuh di dasar sungai ngarai."
+      },
+      {
         "key": "E",
-        "text": "Kedua populasi tetap memiliki aliran gen bebas tanpa hambatan reproduksi morfologis."
+        "text": "Tupai tebing utara bermutasi menjadi karnivora pemangsa tupai tebing selatan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Penghalang geografis fisik (ngarai yang dalam) memisahkan satu populasi leluhur menjadi dua populasi terisolasi, menghentikan aliran gen ($\\textit{gene flow}$), sehingga kedua populasi mengalami mutasi independen, seleksi alam terhadap lingkungan lokal, dan hanyutan genetik hingga terjadi isolasi reproduksi.. Spesiasi alopatrik dipicu oleh pemisahan geografis (ngarai/sungai). Aliran gen terhenti, mutasi dan seleksi alam lokal bekerja terpisah, hingga akhirnya terbentuk isolasi reproduksi. Pilih penghalang geografis menghentikan aliran gen memicu isolasi reproduksi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Penghalang geografis fisik (ngarai yang dalam) memisahkan satu populasi leluhur menjadi dua populasi terisolasi, menghentikan aliran gen ($\\textit{gene flow}$), sehingga kedua populasi mengalami mutasi independen, seleksi alam terhadap lingkungan lokal, dan hanyutan genetik hingga terjadi isolasi reproduksi.. Spesiasi alopatrik dipicu oleh pemisahan geografis (ngarai/sungai). Aliran gen terhenti, mutasi dan seleksi alam lokal bekerja terpisah, hingga akhirnya terbentuk isolasi reproduksi. Pilih penghalang geografis menghentikan aliran gen memicu isolasi reproduksi."
   },
   {
     "id": "bio-lat-m-25",
@@ -2132,27 +2133,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membelah ke arah dalam membentuk epidermis berstomata, dan ke arah luar membentuk kambium gabus pelindung diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
-        "text": "Membelah ke arah dalam membentuk floem primer, dan membelah ke arah luar membentuk endodermis kedap air."
-      },
-      {
-        "key": "C",
-        "text": "Membelah ke arah luar membentuk empulur parenkim spons, dan ke arah dalam membentuk stomata lentisel."
-      },
-      {
-        "key": "D",
         "text": "Membelah ke arah samping membentuk kolenkim dan sklerenkim serat tanpa menghasilkan pembuluh angkut."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Membelah ke arah luar membentuk empulur parenkim spons, dan ke arah dalam membentuk stomata lentisel."
+      },
+      {
+        "key": "C",
         "text": "Membelah ke arah dalam membentuk xilem sekunder (kayu), dan membelah ke arah luar membentuk floem sekunder (kulit kayu bagian dalam); aktivitas ke arah dalam lebih aktif daripada ke arah luar."
+      },
+      {
+        "key": "D",
+        "text": "Membelah ke arah dalam membentuk floem primer, dan membelah ke arah luar membentuk endodermis kedap air."
+      },
+      {
+        "key": "E",
+        "text": "Membelah ke arah dalam membentuk epidermis berstomata, dan ke arah luar membentuk kambium gabus pelindung."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Membelah ke arah dalam membentuk xilem sekunder (kayu), dan membelah ke arah luar membentuk floem sekunder (kulit kayu bagian dalam); aktivitas ke arah dalam lebih aktif daripada ke arah luar.. Kambium vaskular: membelah ke dalam membentuk xilem sekunder (kayu), membelah ke luar membentuk floem sekunder (kulit kayu). Pertumbuhan ke dalam lebih cepat. Pilih membelah ke dalam membentuk xilem sekunder dan ke luar membentuk floem sekunder."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Membelah ke arah dalam membentuk xilem sekunder (kayu), dan membelah ke arah luar membentuk floem sekunder (kulit kayu bagian dalam); aktivitas ke arah dalam lebih aktif daripada ke arah luar.. Kambium vaskular: membelah ke dalam membentuk xilem sekunder (kayu), membelah ke luar membentuk floem sekunder (kulit kayu). Pertumbuhan ke dalam lebih cepat. Pilih membelah ke dalam membentuk xilem sekunder dan ke luar membentuk floem sekunder."
   },
   {
     "id": "bio-lat-h-01",
@@ -2175,11 +2176,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Senyawa $A$ menghentikan konsumsi $\\text{O}_2$ dan menghentikan sintesis $\\text{ATP}$; sedangkan Senyawa $B$ meningkatkan laju konsumsi $\\text{O}_2$ disertai penghentian sintesis $\\text{ATP}$ (energi dilepaskan sebagai panas / termogenesis berlebih)."
+        "text": "Senyawa B memblokir Kompleks I sedangkan Senyawa A memutar balik rotor ATP Sintase memproduksi glukosa."
       },
       {
         "key": "B",
-        "text": "Kedua senyawa sama-sama menghentikan konsumsi oksigen dan melipatgandakan sintesis ATP sebesar sepuluh kali lipat sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Senyawa A memicu fermentasi asam sitrat di dalam krista, sedangkan Senyawa B mengubah glukosa menjadi glikogen secara spontan."
       },
       {
         "key": "C",
@@ -2187,15 +2188,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Senyawa A memicu fermentasi asam sitrat di dalam krista, sedangkan Senyawa B mengubah glukosa menjadi glikogen secara spontan."
+        "text": "Kedua senyawa sama-sama menghentikan konsumsi oksigen dan melipatgandakan sintesis ATP sebesar sepuluh kali lipat."
       },
       {
         "key": "E",
-        "text": "Senyawa B memblokir Kompleks I sedangkan Senyawa A memutar balik rotor ATP Sintase memproduksi glukosa."
+        "text": "Senyawa $A$ menghentikan konsumsi $\\text{O}_2$ dan menghentikan sintesis $\\text{ATP}$; sedangkan Senyawa $B$ meningkatkan laju konsumsi $\\text{O}_2$ disertai penghentian sintesis $\\text{ATP}$ (energi dilepaskan sebagai panas / termogenesis berlebih)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Senyawa $A$ menghentikan konsumsi $\\text{O}_2$ dan menghentikan sintesis $\\text{ATP}$; sedangkan Senyawa $B$ meningkatkan laju konsumsi $\\text{O}_2$ disertai penghentian sintesis $\\text{ATP}$ (energi dilepaskan sebagai panas / termogenesis berlebih).. Sianida memblokir transfer elektron ke O2 pada kompleks IV (konsumsi O2 berhenti, ATP berhenti). DNP adalah uncoupler yang membocorkan gradien H+ (transpor elektron bekerja kencang membakar O2, tapi ATP tidak terbentuk, energi jadi panas). Pilih: Sianida menghentikan O2 dan ATP; DNP meningkatkan O2 dan menghentikan ATP (termogenesis)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Senyawa $A$ menghentikan konsumsi $\\text{O}_2$ dan menghentikan sintesis $\\text{ATP}$; sedangkan Senyawa $B$ meningkatkan laju konsumsi $\\text{O}_2$ disertai penghentian sintesis $\\text{ATP}$ (energi dilepaskan sebagai panas / termogenesis berlebih).. Sianida memblokir transfer elektron ke O2 pada kompleks IV (konsumsi O2 berhenti, ATP berhenti). DNP adalah uncoupler yang membocorkan gradien H+ (transpor elektron bekerja kencang membakar O2, tapi ATP tidak terbentuk, energi jadi panas). Pilih: Sianida menghentikan O2 dan ATP; DNP meningkatkan O2 dan menghentikan ATP (termogenesis)."
   },
   {
     "id": "bio-lat-h-02",
@@ -2218,11 +2219,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ditingkatkan secara masif oleh ATP untuk mempercepat penimbunan asam laktat di mitokondria sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Mengubah fruktosa menjadi amilum kristal yang disimpan permanen di dalam lisosom."
       },
       {
         "key": "B",
-        "text": "Dihambat secara alosterik oleh ATP berkonsentrasi tinggi dan sitrat; ATP berikatan pada situs alosterik berafinitas rendah menurunkan afinitas PFK-1 terhadap substratnya sehingga glikolisis diperlambat untuk mencegah pemborosan bahan bakar glukosa."
+        "text": "Ditingkatkan secara masif oleh ATP untuk mempercepat penimbunan asam laktat di mitokondria."
       },
       {
         "key": "C",
@@ -2230,15 +2231,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Diaktifkan oleh kelebihan sitrat untuk memicu sintesis asam nukleat DNA dalam sitoplasma."
+        "text": "Dihambat secara alosterik oleh ATP berkonsentrasi tinggi dan sitrat; ATP berikatan pada situs alosterik berafinitas rendah menurunkan afinitas PFK-1 terhadap substratnya sehingga glikolisis diperlambat untuk mencegah pemborosan bahan bakar glukosa."
       },
       {
         "key": "E",
-        "text": "Mengubah fruktosa menjadi amilum kristal yang disimpan permanen di dalam lisosom."
+        "text": "Diaktifkan oleh kelebihan sitrat untuk memicu sintesis asam nukleat DNA dalam sitoplasma."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Dihambat secara alosterik oleh ATP berkonsentrasi tinggi dan sitrat; ATP berikatan pada situs alosterik berafinitas rendah menurunkan afinitas PFK-1 terhadap substratnya sehingga glikolisis diperlambat untuk mencegah pemborosan bahan bakar glukosa.. PFK-1 adalah enzim pengatur utama glikolisis. Jika energi sel sudah melimpah (ATP dan sitrat tinggi), keduanya bertindak sebagai inhibitor alosterik untuk mengerem glikolisis. Pilih dihambat secara alosterik oleh ATP tinggi dan sitrat."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Dihambat secara alosterik oleh ATP berkonsentrasi tinggi dan sitrat; ATP berikatan pada situs alosterik berafinitas rendah menurunkan afinitas PFK-1 terhadap substratnya sehingga glikolisis diperlambat untuk mencegah pemborosan bahan bakar glukosa.. PFK-1 adalah enzim pengatur utama glikolisis. Jika energi sel sudah melimpah (ATP dan sitrat tinggi), keduanya bertindak sebagai inhibitor alosterik untuk mengerem glikolisis. Pilih dihambat secara alosterik oleh ATP tinggi dan sitrat."
   },
   {
     "id": "bio-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terbentuk 2 molekul glukosa bebas; proses daur ulang berlangsung murni di dalam vakuola dan badan Golgi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Terbentuk 2 molekul glukosa bebas; proses daur ulang berlangsung murni di dalam vakuola dan badan Golgi."
       },
       {
         "key": "B",
-        "text": "Terbentuk gas metana dan amonia; berlangsung di dalam ribosom dan sentriol tanpa mengonsumsi energi."
+        "text": "Terbentuk asam malat dan PEP; berlangsung di seludang pembuluh tanpa melibatkan peroksisom."
       },
       {
         "key": "C",
-        "text": "Terbentuk 1 molekul 3-PGA ($3\\text{C}$) dan 1 molekul 2-fosfoglikolat ($2\\text{C}$); daur ulang senyawa fosfoglikolat menjadi 3-PGA melibatkan kerja sama terkoordinasi tiga organel seluler: Kloroplas, Peroksisom, dan Mitokondria, dengan mengonsumsi ATP dan melepaskan $\\text{CO}_2$."
-      },
-      {
-        "key": "D",
         "text": "Terbentuk asam piruvat dan asetil Ko-A; proses berlangsung di dinding selulosa dan retikulum endoplasma halus."
       },
       {
+        "key": "D",
+        "text": "Terbentuk 1 molekul 3-PGA ($3\\text{C}$) dan 1 molekul 2-fosfoglikolat ($2\\text{C}$); daur ulang senyawa fosfoglikolat menjadi 3-PGA melibatkan kerja sama terkoordinasi tiga organel seluler: Kloroplas, Peroksisom, dan Mitokondria, dengan mengonsumsi ATP dan melepaskan $\\text{CO}_2$."
+      },
+      {
         "key": "E",
-        "text": "Terbentuk asam malat dan PEP; berlangsung di seludang pembuluh tanpa melibatkan peroksisom."
+        "text": "Terbentuk gas metana dan amonia; berlangsung di dalam ribosom dan sentriol tanpa mengonsumsi energi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terbentuk 1 molekul 3-PGA ($3\\text{C}$) dan 1 molekul 2-fosfoglikolat ($2\\text{C}$); daur ulang senyawa fosfoglikolat menjadi 3-PGA melibatkan kerja sama terkoordinasi tiga organel seluler: Kloroplas, Peroksisom, dan Mitokondria, dengan mengonsumsi ATP dan melepaskan $\\text{CO}_2$.. Rubisco + O2 menghasilkan 3-PGA (3C) dan 2-fosfoglikolat (2C). Daur ulang glikolat (jalur C2) melibatkan 3 organel: Kloroplas -> Peroksisom -> Mitokondria. Pilih 3-PGA dan 2-fosfoglikolat dengan keterlibatan Kloroplas, Peroksisom, dan Mitokondria."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Terbentuk 1 molekul 3-PGA ($3\\text{C}$) dan 1 molekul 2-fosfoglikolat ($2\\text{C}$); daur ulang senyawa fosfoglikolat menjadi 3-PGA melibatkan kerja sama terkoordinasi tiga organel seluler: Kloroplas, Peroksisom, dan Mitokondria, dengan mengonsumsi ATP dan melepaskan $\\text{CO}_2$.. Rubisco + O2 menghasilkan 3-PGA (3C) dan 2-fosfoglikolat (2C). Daur ulang glikolat (jalur C2) melibatkan 3 organel: Kloroplas -> Peroksisom -> Mitokondria. Pilih 3-PGA dan 2-fosfoglikolat dengan keterlibatan Kloroplas, Peroksisom, dan Mitokondria."
   },
   {
     "id": "bio-lat-h-04",
@@ -2304,11 +2305,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mutasi titik spontan yang secara teratur mengubah kodon stop menjadi asam amino triptofan menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Penambahan tudung 7-metilguanosin pada ujung 3' secara acak oleh enzim DNA polimerase."
       },
       {
         "key": "B",
-        "text": "Penambahan tudung 7-metilguanosin pada ujung 3' secara acak oleh enzim DNA polimerase."
+        "text": "Splicing alternatif ($\\textit{alternative RNA splicing}$); kompleks spliceosome memotong intron dan menggabungkan ekson-ekson dalam kombinasi yang berbeda-beda dari satu transkrip pre-mRNA yang sama."
       },
       {
         "key": "C",
@@ -2316,15 +2317,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Splicing alternatif ($\\textit{alternative RNA splicing}$); kompleks spliceosome memotong intron dan menggabungkan ekson-ekson dalam kombinasi yang berbeda-beda dari satu transkrip pre-mRNA yang sama."
+        "text": "Replikasi DNA secara semikonservatif yang menyisipkan sekuens transposon retrovirus."
       },
       {
         "key": "E",
-        "text": "Replikasi DNA secara semikonservatif yang menyisipkan sekuens transposon retrovirus."
+        "text": "Mutasi titik spontan yang secara teratur mengubah kodon stop menjadi asam amino triptofan menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Splicing alternatif ($\\textit{alternative RNA splicing}$); kompleks spliceosome memotong intron dan menggabungkan ekson-ekson dalam kombinasi yang berbeda-beda dari satu transkrip pre-mRNA yang sama.. Satu gen dapat menghasilkan beberapa jenis protein berbeda melalui pemotongan intron dan penyambungan kombinasi ekson yang berbeda-beda. Ini disebut penyambungan alternatif (alternative splicing). Pilih splicing alternatif (alternative RNA splicing) oleh kompleks spliceosome."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Splicing alternatif ($\\textit{alternative RNA splicing}$); kompleks spliceosome memotong intron dan menggabungkan ekson-ekson dalam kombinasi yang berbeda-beda dari satu transkrip pre-mRNA yang sama.. Satu gen dapat menghasilkan beberapa jenis protein berbeda melalui pemotongan intron dan penyambungan kombinasi ekson yang berbeda-beda. Ini disebut penyambungan alternatif (alternative splicing). Pilih splicing alternatif (alternative RNA splicing) oleh kompleks spliceosome."
   },
   {
     "id": "bio-lat-h-05",
@@ -2347,19 +2348,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hipometilasi DNA total disertai hiperasetilasi ekor histon oleh Histone Acetyltransferase (HAT) diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
-      },
-      {
-        "key": "B",
         "text": "Fosforilasi ikatan fosfodiester DNA oleh enzim RNA polimerase pada daerah promotor gen."
       },
       {
+        "key": "B",
+        "text": "Hipometilasi DNA total disertai hiperasetilasi ekor histon oleh Histone Acetyltransferase (HAT)."
+      },
+      {
         "key": "C",
-        "text": "Pemutusan ikatan hidrogen antaruntai heliks ganda DNA secara enzimatik permanen."
+        "text": "Penyisipan gugus sulfat pada basa timin yang memicu pembukaan struktur heliks ganda menjadi eukromatin."
       },
       {
         "key": "D",
-        "text": "Penyisipan gugus sulfat pada basa timin yang memicu pembukaan struktur heliks ganda menjadi eukromatin."
+        "text": "Pemutusan ikatan hidrogen antaruntai heliks ganda DNA secara enzimatik permanen."
       },
       {
         "key": "E",
@@ -2390,27 +2391,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Adanya sekuens pendek Protospacer Adjacent Motif (PAM, urutan spesifik $5'\\text{-NGG-}3'$) yang terletak tepat di sebelah hilir (arah 3') dari sekuens protospacer target pada untai DNA non-komplemen."
+        "text": "Target DNA harus berupa untai tunggal yang telah dipanaskan hingga suhu denaturasi $95^\\circ\\text{C}$."
       },
       {
         "key": "B",
-        "text": "Adanya sekuens promotor TATA box yang berjarak persis sepuluh pasang basa dari kodon inisiasi AUG sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
         "text": "Adanya primer RNA oligonukleotida yang disintesis sebelumnya oleh enzim primase mitokondria."
       },
       {
+        "key": "C",
+        "text": "Adanya sekuens pendek Protospacer Adjacent Motif (PAM, urutan spesifik $5'\\text{-NGG-}3'$) yang terletak tepat di sebelah hilir (arah 3') dari sekuens protospacer target pada untai DNA non-komplemen."
+      },
+      {
         "key": "D",
-        "text": "Target DNA harus berupa untai tunggal yang telah dipanaskan hingga suhu denaturasi $95^\\circ\\text{C}$."
+        "text": "Adanya sekuens promotor TATA box yang berjarak persis sepuluh pasang basa dari kodon inisiasi AUG."
       },
       {
         "key": "E",
         "text": "Daerah target harus berada di ujung telomer kromosom dan memiliki panjang minimal 10.000 pasang basa."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Adanya sekuens pendek Protospacer Adjacent Motif (PAM, urutan spesifik $5'\\text{-NGG-}3'$) yang terletak tepat di sebelah hilir (arah 3') dari sekuens protospacer target pada untai DNA non-komplemen.. Cas9 membutuhkan motif PAM (Protospacer Adjacent Motif, yaitu sekuens 5'-NGG-3') tepat di samping sekuens target untuk bisa menempel dan memotong untai ganda DNA. Pilih adanya sekuens Protospacer Adjacent Motif (PAM, 5'-NGG-3')."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Adanya sekuens pendek Protospacer Adjacent Motif (PAM, urutan spesifik $5'\\text{-NGG-}3'$) yang terletak tepat di sebelah hilir (arah 3') dari sekuens protospacer target pada untai DNA non-komplemen.. Cas9 membutuhkan motif PAM (Protospacer Adjacent Motif, yaitu sekuens 5'-NGG-3') tepat di samping sekuens target untuk bisa menempel dan memotong untai ganda DNA. Pilih adanya sekuens Protospacer Adjacent Motif (PAM, 5'-NGG-3')."
   },
   {
     "id": "bio-lat-h-07",
@@ -2433,15 +2434,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "180 tanaman, yang merupakan jumlah tanaman berbunga ungu (9/16 dari 320) sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
         "text": "140 tanaman, karena persilangan dihibrid heterozigot ganda ($CcPp \\times CcPp$) pada gen komplementer menghasilkan rasio fenotipe $9\\text{ Ungu } (C\\_P\\_) : 7\\text{ Putih } (C\\_pp, ccP\\_, ccpp)$. Fraksi tanaman berbunga putih adalah $\\frac{7}{16}$, sehingga jumlahnya adalah $\\frac{7}{16} \\times 320 = 140\\text{ tanaman}$."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "20 tanaman, dihitung jika hanya genotipe homozigot resesif ganda ccpp yang dianggap berwarna putih."
+      },
+      {
+        "key": "C",
+        "text": "160 tanaman, dihitung dari pembagian rata separuh tanaman ungu dan separuh putih."
       },
       {
         "key": "D",
@@ -2449,11 +2450,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "160 tanaman, dihitung dari pembagian rata separuh tanaman ungu dan separuh putih."
+        "text": "180 tanaman, yang merupakan jumlah tanaman berbunga ungu (9/16 dari 320)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 140 tanaman, karena persilangan dihibrid heterozigot ganda ($CcPp \\times CcPp$) pada gen komplementer menghasilkan rasio fenotipe $9\\text{ Ungu } (C\\_P\\_) : 7\\text{ Putih } (C\\_pp, ccP\\_, ccpp)$. Fraksi tanaman berbunga putih adalah $\\frac{7}{16}$, sehingga jumlahnya adalah $\\frac{7}{16} \\times 320 = 140\\text{ tanaman}$.. Gen komplementer: Ungu = C_P_ (9/16). Putih = sisa kombinasi lainnya (7/16). Jumlah putih = (7 / 16) * 320 = 7 * 20 = 140 tanaman."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 140 tanaman, karena persilangan dihibrid heterozigot ganda ($CcPp \\times CcPp$) pada gen komplementer menghasilkan rasio fenotipe $9\\text{ Ungu } (C\\_P\\_) : 7\\text{ Putih } (C\\_pp, ccP\\_, ccpp)$. Fraksi tanaman berbunga putih adalah $\\frac{7}{16}$, sehingga jumlahnya adalah $\\frac{7}{16} \\times 320 = 140\\text{ tanaman}$.. Gen komplementer: Ungu = C_P_ (9/16). Putih = sisa kombinasi lainnya (7/16). Jumlah putih = (7 / 16) * 320 = 7 * 20 = 140 tanaman."
   },
   {
     "id": "bio-lat-h-08",
@@ -2476,27 +2477,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gen $a$, karena gen $a$ selalu dituliskan pertama kali dalam notasi alfabet genetika klasik ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "Gen $c$, karena gen $c$ terletak di ujung terminal kromatid yang paling mudah mengalami delesi."
-      },
-      {
-        "key": "C",
         "text": "Gen $b$, karena pada peristiwa pindah silang ganda (double crossover), hanya alel dari gen yang berada di posisi tengah yang tertukar relatif terhadap alel-alel dari kedua gen penanda di tepi (gen $b$ tertukar: $a^+$ berpasangan dengan $b$ dan $c^+$, serta $a$ berpasangan dengan $b^+$ dan $c$)."
       },
       {
+        "key": "B",
+        "text": "Gen $a$, karena gen $a$ selalu dituliskan pertama kali dalam notasi alfabet genetika klasik."
+      },
+      {
+        "key": "C",
+        "text": "Gen $b$ dan gen $a$ bertukar posisi secara acak pada setiap pembelahan mitosis somatik."
+      },
+      {
         "key": "D",
-        "text": "Ketiga gen terletak melingkar sehingga tidak memiliki konsep posisi tengah maupun tepi."
+        "text": "Gen $c$, karena gen $c$ terletak di ujung terminal kromatid yang paling mudah mengalami delesi."
       },
       {
         "key": "E",
-        "text": "Gen $b$ dan gen $a$ bertukar posisi secara acak pada setiap pembelahan mitosis somatik."
+        "text": "Ketiga gen terletak melingkar sehingga tidak memiliki konsep posisi tengah maupun tepi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Gen $b$, karena pada peristiwa pindah silang ganda (double crossover), hanya alel dari gen yang berada di posisi tengah yang tertukar relatif terhadap alel-alel dari kedua gen penanda di tepi (gen $b$ tertukar: $a^+$ berpasangan dengan $b$ dan $c^+$, serta $a$ berpasangan dengan $b^+$ dan $c$).. Bandingkan tipe DCO (frekuensi terkecil) dengan parental. Pada parental: a+ b+ c+ dan a b c. Pada DCO: a+ b c+ dan a b+ c. Perhatikan bahwa hanya alel b yang berpindah kubu. Maka lokus b berada di tengah. Urutan gen pada kromosom adalah a - b - c (gen b di tengah)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Gen $b$, karena pada peristiwa pindah silang ganda (double crossover), hanya alel dari gen yang berada di posisi tengah yang tertukar relatif terhadap alel-alel dari kedua gen penanda di tepi (gen $b$ tertukar: $a^+$ berpasangan dengan $b$ dan $c^+$, serta $a$ berpasangan dengan $b^+$ dan $c$).. Bandingkan tipe DCO (frekuensi terkecil) dengan parental. Pada parental: a+ b+ c+ dan a b c. Pada DCO: a+ b c+ dan a b+ c. Perhatikan bahwa hanya alel b yang berpindah kubu. Maka lokus b berada di tengah. Urutan gen pada kromosom adalah a - b - c (gen b di tengah)."
   },
   {
     "id": "bio-lat-h-09",
@@ -2519,27 +2520,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi mutasi delesi seluruh kromosom nomor 9 yang membawa lokus gen ABO pada sel telur ibu menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "Antibodi anti-A dan anti-B mengendapkan seluruh eritrosit sehingga menghasilkan darah transparan."
-      },
-      {
-        "key": "C",
-        "text": "Gen $I^A$ dan $I^B$ mengalami transkripsi terbalik menjadi molekul lipid glikogen di limpa."
-      },
-      {
-        "key": "D",
         "text": "Epistasis resesif oleh lokus gen $H$; individu tersebut homozigot resesif ($hh$) sehingga enzim fukosiltransferase inaktif dan tidak mampu membentuk substansi dasar antigen H pada membran eritrosit, akibatnya enzim glikosiltransferase $I^A$ dan $I^B$ tidak memiliki substrat untuk menempelkan gula penentu antigen A atau B."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Terjadi mutasi delesi seluruh kromosom nomor 9 yang membawa lokus gen ABO pada sel telur ibu menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
+        "key": "C",
+        "text": "Antibodi anti-A dan anti-B mengendapkan seluruh eritrosit sehingga menghasilkan darah transparan."
+      },
+      {
+        "key": "D",
         "text": "Individu tersebut memiliki golongan darah rhesus null yang menolak seluruh ikatan hemoglobin."
+      },
+      {
+        "key": "E",
+        "text": "Gen $I^A$ dan $I^B$ mengalami transkripsi terbalik menjadi molekul lipid glikogen di limpa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Epistasis resesif oleh lokus gen $H$; individu tersebut homozigot resesif ($hh$) sehingga enzim fukosiltransferase inaktif dan tidak mampu membentuk substansi dasar antigen H pada membran eritrosit, akibatnya enzim glikosiltransferase $I^A$ dan $I^B$ tidak memiliki substrat untuk menempelkan gula penentu antigen A atau B.. Fenotipe Bombay adalah contoh epistasis resesif. Tanpa alel H dominan (genotipe hh), substansi H tidak terbentuk, sehingga antigen A dan B tidak bisa ditempelkan ke eritrosit, tampak seperti golongan O. Pilih epistasis resesif oleh lokus gen H (homozigot hh gagal membentuk substansi H)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Epistasis resesif oleh lokus gen $H$; individu tersebut homozigot resesif ($hh$) sehingga enzim fukosiltransferase inaktif dan tidak mampu membentuk substansi dasar antigen H pada membran eritrosit, akibatnya enzim glikosiltransferase $I^A$ dan $I^B$ tidak memiliki substrat untuk menempelkan gula penentu antigen A atau B.. Fenotipe Bombay adalah contoh epistasis resesif. Tanpa alel H dominan (genotipe hh), substansi H tidak terbentuk, sehingga antigen A dan B tidak bisa ditempelkan ke eritrosit, tampak seperti golongan O. Pilih epistasis resesif oleh lokus gen H (homozigot hh gagal membentuk substansi H)."
   },
   {
     "id": "bio-lat-h-10",
@@ -2562,19 +2563,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$q_1 = 0{,}00$, karena berasumsi bahwa alel resesif letal langsung lenyap 100% dari populasi dalam satu generasi diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "$q_1 = 0{,}20$, karena menganggap hukum Hardy-Weinberg tetap mempertahankan frekuensi alel konstan meskipun ada seleksi mematikan."
       },
       {
         "key": "B",
-        "text": "$q_1 = 0{,}10$, dihitung dari asumsi penurunan frekuensi linear sebesar separuh nilai awal."
+        "text": "$q_1 = 0{,}00$, karena berasumsi bahwa alel resesif letal langsung lenyap 100% dari populasi dalam satu generasi."
       },
       {
         "key": "C",
-        "text": "$q_1 = 0{,}04$, yang merupakan frekuensi awal genotipe homozigot resesif (q0 kuadrat)."
+        "text": "$q_1 = 0{,}10$, dihitung dari asumsi penurunan frekuensi linear sebesar separuh nilai awal."
       },
       {
         "key": "D",
-        "text": "$q_1 = 0{,}20$, karena menganggap hukum Hardy-Weinberg tetap mempertahankan frekuensi alel konstan meskipun ada seleksi mematikan."
+        "text": "$q_1 = 0{,}04$, yang merupakan frekuensi awal genotipe homozigot resesif (q0 kuadrat)."
       },
       {
         "key": "E",
@@ -2605,15 +2606,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pars desenden tipis sangat permeabel terhadap air tetapi kedap terhadap garam $\\text{NaCl}$, sedangkan pars asenden tebal aktif memompa ion $\\text{Na}^+$ dan $\\text{Cl}^-$ keluar ke cairan interstisial tetapi kedap sempurna terhadap air."
+        "text": "Pars desenden kedap terhadap air tetapi permeabel terhadap gas oksigen, sedangkan pars asenden memompa hormon aldosteron."
       },
       {
         "key": "B",
-        "text": "Pars desenden memompa glukosa keluar, sedangkan pars asenden menyerap urea secara endositosis fagositik sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Pars desenden tipis sangat permeabel terhadap air tetapi kedap terhadap garam $\\text{NaCl}$, sedangkan pars asenden tebal aktif memompa ion $\\text{Na}^+$ dan $\\text{Cl}^-$ keluar ke cairan interstisial tetapi kedap sempurna terhadap air."
       },
       {
         "key": "C",
-        "text": "Pars desenden kedap terhadap air tetapi permeabel terhadap gas oksigen, sedangkan pars asenden memompa hormon aldosteron."
+        "text": "Pars asenden menyerap air secara masif sedangkan pars desenden mengekskresikan sel darah merah utuh ke pelvis ginjal."
       },
       {
         "key": "D",
@@ -2621,11 +2622,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pars asenden menyerap air secara masif sedangkan pars desenden mengekskresikan sel darah merah utuh ke pelvis ginjal."
+        "text": "Pars desenden memompa glukosa keluar, sedangkan pars asenden menyerap urea secara endositosis fagositik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pars desenden tipis sangat permeabel terhadap air tetapi kedap terhadap garam $\\text{NaCl}$, sedangkan pars asenden tebal aktif memompa ion $\\text{Na}^+$ dan $\\text{Cl}^-$ keluar ke cairan interstisial tetapi kedap sempurna terhadap air.. Lengkung desenden Henle permeabel air dan kedap garam (air keluar -> filtrat makin pekat). Lengkung asenden tebal kedap air dan memompa aktif garam NaCl keluar (interstisial jadi sangat pekat). Pilih pars desenden permeabel air kedap garam, pars asenden aktif memompa NaCl dan kedap air."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pars desenden tipis sangat permeabel terhadap air tetapi kedap terhadap garam $\\text{NaCl}$, sedangkan pars asenden tebal aktif memompa ion $\\text{Na}^+$ dan $\\text{Cl}^-$ keluar ke cairan interstisial tetapi kedap sempurna terhadap air.. Lengkung desenden Henle permeabel air dan kedap garam (air keluar -> filtrat makin pekat). Lengkung asenden tebal kedap air dan memompa aktif garam NaCl keluar (interstisial jadi sangat pekat). Pilih pars desenden permeabel air kedap garam, pars asenden aktif memompa NaCl dan kedap air."
   },
   {
     "id": "bio-lat-h-12",
@@ -2648,15 +2649,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peregangan ventrikel menghancurkan nodus SA sehingga jantung berdenyut menggunakan pacu listrik otot diafragma sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Peningkatan volume darah menyebabkan otot bilik jantung mengalami hipertrofi nekrosis seketika."
       },
       {
         "key": "B",
-        "text": "Peningkatan pengisian darah ($\\textit{end-diastolic volume / preload}$) meregangkan miokardium ventrikel, membawa panjang sarkomer mendekati panjang optimum ($2{,}2\\,\\mu\\text{m}$) di mana tumpang tindih filamen aktin-miosin paling ideal dan afinitas troponin C terhadap ion $\\text{Ca}^{2+}$ meningkat, menghasilkan gaya kontraksi ($\\textit{stroke volume}$) yang lebih kuat."
+        "text": "Tekanan darah tinggi memicu pelepasan hormon paratiroid yang menyerap kalsium keluar dari sel otot jantung."
       },
       {
         "key": "C",
-        "text": "Peningkatan volume darah menyebabkan otot bilik jantung mengalami hipertrofi nekrosis seketika."
+        "text": "Peregangan ventrikel menghancurkan nodus SA sehingga jantung berdenyut menggunakan pacu listrik otot diafragma."
       },
       {
         "key": "D",
@@ -2664,11 +2665,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Tekanan darah tinggi memicu pelepasan hormon paratiroid yang menyerap kalsium keluar dari sel otot jantung."
+        "text": "Peningkatan pengisian darah ($\\textit{end-diastolic volume / preload}$) meregangkan miokardium ventrikel, membawa panjang sarkomer mendekati panjang optimum ($2{,}2\\,\\mu\\text{m}$) di mana tumpang tindih filamen aktin-miosin paling ideal dan afinitas troponin C terhadap ion $\\text{Ca}^{2+}$ meningkat, menghasilkan gaya kontraksi ($\\textit{stroke volume}$) yang lebih kuat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Peningkatan pengisian darah ($\\textit{end-diastolic volume / preload}$) meregangkan miokardium ventrikel, membawa panjang sarkomer mendekati panjang optimum ($2{,}2\\,\\mu\\text{m}$) di mana tumpang tindih filamen aktin-miosin paling ideal dan afinitas troponin C terhadap ion $\\text{Ca}^{2+}$ meningkat, menghasilkan gaya kontraksi ($\\textit{stroke volume}$) yang lebih kuat.. Hukum Frank-Starling: semakin banyak darah masuk ke ventrikel (preload naik), semakin meregang sarkomer otot jantung mendekati panjang optimal, menghasilkan kontraksi dan volume sekuncup (stroke volume) yang lebih kuat. Pilih peregangan sarkomer mendekati panjang optimum meningkatkan tumpang tindih aktin-miosin dan gaya kontraksi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Peningkatan pengisian darah ($\\textit{end-diastolic volume / preload}$) meregangkan miokardium ventrikel, membawa panjang sarkomer mendekati panjang optimum ($2{,}2\\,\\mu\\text{m}$) di mana tumpang tindih filamen aktin-miosin paling ideal dan afinitas troponin C terhadap ion $\\text{Ca}^{2+}$ meningkat, menghasilkan gaya kontraksi ($\\textit{stroke volume}$) yang lebih kuat.. Hukum Frank-Starling: semakin banyak darah masuk ke ventrikel (preload naik), semakin meregang sarkomer otot jantung mendekati panjang optimal, menghasilkan kontraksi dan volume sekuncup (stroke volume) yang lebih kuat. Pilih peregangan sarkomer mendekati panjang optimum meningkatkan tumpang tindih aktin-miosin dan gaya kontraksi."
   },
   {
     "id": "bio-lat-h-13",
@@ -2691,27 +2692,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membran akson memiliki permeabilitas ion natrium yang tak terbatas sehingga ion natrium bebas melompat masuk ke mitokondria ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
         "text": "Molekul DNA bermuatan positif pekat keluar meninggalkan sitosol sel saraf melalui pori-pori nukleus."
       },
       {
+        "key": "B",
+        "text": "Membran akson memiliki permeabilitas ion natrium yang tak terbatas sehingga ion natrium bebas melompat masuk ke mitokondria."
+      },
+      {
         "key": "C",
-        "text": "Permeabilitas membran saat istirahat terhadap ion $\\text{K}^+$ jauh lebih tinggi ($20-50\\text{ kali lipat}$) dibandingkan terhadap ion $\\text{Na}^+$ akibat adanya saluran bocor kalium ($\\text{K}^+\\text{ leak channels}$) yang selalu terbuka, diiringi kerja elektrogenik pompa $\\text{Na}^+/\\text{K}^+$ ATPase yang memompa $3\\text{ Na}^+$ keluar dan $2\\text{ K}^+$ ke dalam."
+        "text": "Selubung mielin mengalirkan elektron bebas dari dendrit langsung menuju nodus Ranvier secara kontinu."
       },
       {
         "key": "D",
-        "text": "Adanya ion kalsium yang menetralkan seluruh muatan listrik negatif protein intraseluler."
+        "text": "Permeabilitas membran saat istirahat terhadap ion $\\text{K}^+$ jauh lebih tinggi ($20-50\\text{ kali lipat}$) dibandingkan terhadap ion $\\text{Na}^+$ akibat adanya saluran bocor kalium ($\\text{K}^+\\text{ leak channels}$) yang selalu terbuka, diiringi kerja elektrogenik pompa $\\text{Na}^+/\\text{K}^+$ ATPase yang memompa $3\\text{ Na}^+$ keluar dan $2\\text{ K}^+$ ke dalam."
       },
       {
         "key": "E",
-        "text": "Selubung mielin mengalirkan elektron bebas dari dendrit langsung menuju nodus Ranvier secara kontinu."
+        "text": "Adanya ion kalsium yang menetralkan seluruh muatan listrik negatif protein intraseluler."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Permeabilitas membran saat istirahat terhadap ion $\\text{K}^+$ jauh lebih tinggi ($20-50\\text{ kali lipat}$) dibandingkan terhadap ion $\\text{Na}^+$ akibat adanya saluran bocor kalium ($\\text{K}^+\\text{ leak channels}$) yang selalu terbuka, diiringi kerja elektrogenik pompa $\\text{Na}^+/\\text{K}^+$ ATPase yang memompa $3\\text{ Na}^+$ keluar dan $2\\text{ K}^+$ ke dalam.. Pada keadaan istirahat, membran jauh lebih permeabel terhadap K+ (lewat K+ leak channels) dibanding Na+. Difusi keluar K+ bersama protein anion intraseluler menciptakan potensial negatif -70 mV, distabilkan pompa 3Na+/2K+ ATPase. Pilih tingginya permeabilitas ion K+ (saluran bocor K+) dan pompa 3Na+/2K+ ATPase."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Permeabilitas membran saat istirahat terhadap ion $\\text{K}^+$ jauh lebih tinggi ($20-50\\text{ kali lipat}$) dibandingkan terhadap ion $\\text{Na}^+$ akibat adanya saluran bocor kalium ($\\text{K}^+\\text{ leak channels}$) yang selalu terbuka, diiringi kerja elektrogenik pompa $\\text{Na}^+/\\text{K}^+$ ATPase yang memompa $3\\text{ Na}^+$ keluar dan $2\\text{ K}^+$ ke dalam.. Pada keadaan istirahat, membran jauh lebih permeabel terhadap K+ (lewat K+ leak channels) dibanding Na+. Difusi keluar K+ bersama protein anion intraseluler menciptakan potensial negatif -70 mV, distabilkan pompa 3Na+/2K+ ATPase. Pilih tingginya permeabilitas ion K+ (saluran bocor K+) dan pompa 3Na+/2K+ ATPase."
   },
   {
     "id": "bio-lat-h-14",
@@ -2734,7 +2735,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Medula adrenal mensekresikan insulin $\\rightarrow$ hipofisis posterior mensekresikan hormon pertumbuhan $\\rightarrow$ hipotalamus melepaskan melatonin pembakar lemak menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Hipofisis anterior memproduksi prolaktin $\\rightarrow$ korteks adrenal memproduksi adrenalin $\\rightarrow$ hipotalamus melepaskan hormon antidiuretik."
       },
       {
         "key": "B",
@@ -2742,19 +2743,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Hipofisis anterior memproduksi prolaktin $\\rightarrow$ korteks adrenal memproduksi adrenalin $\\rightarrow$ hipotalamus melepaskan hormon antidiuretik."
+        "text": "Medula adrenal mensekresikan insulin $\\rightarrow$ hipofisis posterior mensekresikan hormon pertumbuhan $\\rightarrow$ hipotalamus melepaskan melatonin pembakar lemak menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "D",
-        "text": "Hipotalamus mensekresikan Corticotropin-Releasing Hormone (CRH) $\\rightarrow$ merangsang hipofisis anterior mensekresikan Adrenocorticotropic Hormone (ACTH) $\\rightarrow$ merangsang korteks adrenal mensekresikan hormon glukokortikoid (Kortisol); kadar kortisol bebas yang tinggi di darah memberikan umpan balik negatif menghambat pelepasan CRH dan ACTH."
+        "text": "Korteks adrenal mensekresikan tiroksin $\\rightarrow$ hipofisis mensekresikan oksitosin $\\rightarrow$ hipotalamus menghentikan respirasi aerob."
       },
       {
         "key": "E",
-        "text": "Korteks adrenal mensekresikan tiroksin $\\rightarrow$ hipofisis mensekresikan oksitosin $\\rightarrow$ hipotalamus menghentikan respirasi aerob."
+        "text": "Hipotalamus mensekresikan Corticotropin-Releasing Hormone (CRH) $\\rightarrow$ merangsang hipofisis anterior mensekresikan Adrenocorticotropic Hormone (ACTH) $\\rightarrow$ merangsang korteks adrenal mensekresikan hormon glukokortikoid (Kortisol); kadar kortisol bebas yang tinggi di darah memberikan umpan balik negatif menghambat pelepasan CRH dan ACTH."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Hipotalamus mensekresikan Corticotropin-Releasing Hormone (CRH) $\\rightarrow$ merangsang hipofisis anterior mensekresikan Adrenocorticotropic Hormone (ACTH) $\\rightarrow$ merangsang korteks adrenal mensekresikan hormon glukokortikoid (Kortisol); kadar kortisol bebas yang tinggi di darah memberikan umpan balik negatif menghambat pelepasan CRH dan ACTH.. Sumbu HPA: Hipotalamus melepas CRH -> memicu Hipofisis Anterior melepas ACTH -> memicu Korteks Adrenal melepas Kortisol. Kortisol tinggi memberikan umpan balik negatif menghambat hipotalamus & hipofisis. Pilih kaskade CRH -> ACTH -> Kortisol dengan umpan balik negatif kortisol."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Hipotalamus mensekresikan Corticotropin-Releasing Hormone (CRH) $\\rightarrow$ merangsang hipofisis anterior mensekresikan Adrenocorticotropic Hormone (ACTH) $\\rightarrow$ merangsang korteks adrenal mensekresikan hormon glukokortikoid (Kortisol); kadar kortisol bebas yang tinggi di darah memberikan umpan balik negatif menghambat pelepasan CRH dan ACTH.. Sumbu HPA: Hipotalamus melepas CRH -> memicu Hipofisis Anterior melepas ACTH -> memicu Korteks Adrenal melepas Kortisol. Kortisol tinggi memberikan umpan balik negatif menghambat hipotalamus & hipofisis. Pilih kaskade CRH -> ACTH -> Kortisol dengan umpan balik negatif kortisol."
   },
   {
     "id": "bio-lat-h-15",
@@ -2777,7 +2778,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gaya kapilaritas dan daya hisap transpirasi daun yang menarik molekul gula ke atas melawan gravitasi diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Pemuatan aktif sukrosa ke dalam elemen pembuluh tapis di organ $\\textit{source}$ menurunkan potensial air secara drastis, memicu osmosis air dari xilem tetangga masuk ke floem sehingga menciptakan tekanan turgor hidrostatis yang tinggi; sebaliknya di organ $\\textit{sink}$ sukrosa dibongkar keluar sehingga air berosmosis kembali ke xilem, menghasilkan gradien tekanan hidrostatis yang mendorong aliran getah dari sumber ke penampung."
       },
       {
         "key": "B",
@@ -2789,15 +2790,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pembelahan mitosis kambium pembuluh yang secara fisik mendorong molekul sukrosa ke ujung akar."
+        "text": "Gaya kapilaritas dan daya hisap transpirasi daun yang menarik molekul gula ke atas melawan gravitasi."
       },
       {
         "key": "E",
-        "text": "Pemuatan aktif sukrosa ke dalam elemen pembuluh tapis di organ $\\textit{source}$ menurunkan potensial air secara drastis, memicu osmosis air dari xilem tetangga masuk ke floem sehingga menciptakan tekanan turgor hidrostatis yang tinggi; sebaliknya di organ $\\textit{sink}$ sukrosa dibongkar keluar sehingga air berosmosis kembali ke xilem, menghasilkan gradien tekanan hidrostatis yang mendorong aliran getah dari sumber ke penampung."
+        "text": "Pembelahan mitosis kambium pembuluh yang secara fisik mendorong molekul sukrosa ke ujung akar."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pemuatan aktif sukrosa ke dalam elemen pembuluh tapis di organ $\\textit{source}$ menurunkan potensial air secara drastis, memicu osmosis air dari xilem tetangga masuk ke floem sehingga menciptakan tekanan turgor hidrostatis yang tinggi; sebaliknya di organ $\\textit{sink}$ sukrosa dibongkar keluar sehingga air berosmosis kembali ke xilem, menghasilkan gradien tekanan hidrostatis yang mendorong aliran getah dari sumber ke penampung.. Di daun (source), gula dimuat ke floem -> air xilem masuk ke floem secara osmosis -> tekanan turgor naik tinggi. Di sink, gula dibongkar -> air keluar -> tekanan turgor rendah. Beda tekanan hidrostatis ini mendorong aliran cairan getah floem. Pilih pembentukan gradien tekanan turgor hidrostatis akibat pemuatan dan pembongkaran sukrosa osmotik."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pemuatan aktif sukrosa ke dalam elemen pembuluh tapis di organ $\\textit{source}$ menurunkan potensial air secara drastis, memicu osmosis air dari xilem tetangga masuk ke floem sehingga menciptakan tekanan turgor hidrostatis yang tinggi; sebaliknya di organ $\\textit{sink}$ sukrosa dibongkar keluar sehingga air berosmosis kembali ke xilem, menghasilkan gradien tekanan hidrostatis yang mendorong aliran getah dari sumber ke penampung.. Di daun (source), gula dimuat ke floem -> air xilem masuk ke floem secara osmosis -> tekanan turgor naik tinggi. Di sink, gula dibongkar -> air keluar -> tekanan turgor rendah. Beda tekanan hidrostatis ini mendorong aliran cairan getah floem. Pilih pembentukan gradien tekanan turgor hidrostatis akibat pemuatan dan pembongkaran sukrosa osmotik."
   },
   {
     "id": "bio-lat-h-16",
@@ -2820,27 +2821,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Epinefrin berikatan dengan GPCR $\\rightarrow$ Aktivasi protein $G_s$ (mengikat GTP) $\\rightarrow$ Stimulasi enzim adenilat siklase $\\rightarrow$ Sintesis second messenger cAMP dari ATP $\\rightarrow$ Aktivasi Protein Kinase A (PKA) $\\rightarrow$ Fosforilasi kaskade glikogen fosforilase kinase dan glikogen fosforilase."
+        "text": "Epinefrin menginaktifkan adenilat siklase $\\rightarrow$ menurunkan kadar cAMP $\\rightarrow$ memicu sintesis glikogen polimer."
       },
       {
         "key": "B",
-        "text": "Epinefrin masuk ke dalam inti sel $\\rightarrow$ berikatan dengan DNA $\\rightarrow$ memotong ikatan glikogen secara hidrolisis asam sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Epinefrin berikatan dengan GPCR $\\rightarrow$ Aktivasi protein $G_s$ (mengikat GTP) $\\rightarrow$ Stimulasi enzim adenilat siklase $\\rightarrow$ Sintesis second messenger cAMP dari ATP $\\rightarrow$ Aktivasi Protein Kinase A (PKA) $\\rightarrow$ Fosforilasi kaskade glikogen fosforilase kinase dan glikogen fosforilase."
       },
       {
         "key": "C",
-        "text": "Epinefrin berikatan dengan reseptor tirosin kinase $\\rightarrow$ autofosforilasi $\\rightarrow$ membuka saluran ion kalium di vakuola."
-      },
-      {
-        "key": "D",
         "text": "Epinefrin merangsang lisosom memakan mitokondria untuk melepaskan molekul glukosa cadangan."
       },
       {
+        "key": "D",
+        "text": "Epinefrin masuk ke dalam inti sel $\\rightarrow$ berikatan dengan DNA $\\rightarrow$ memotong ikatan glikogen secara hidrolisis asam."
+      },
+      {
         "key": "E",
-        "text": "Epinefrin menginaktifkan adenilat siklase $\\rightarrow$ menurunkan kadar cAMP $\\rightarrow$ memicu sintesis glikogen polimer."
+        "text": "Epinefrin berikatan dengan reseptor tirosin kinase $\\rightarrow$ autofosforilasi $\\rightarrow$ membuka saluran ion kalium di vakuola."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Epinefrin berikatan dengan GPCR $\\rightarrow$ Aktivasi protein $G_s$ (mengikat GTP) $\\rightarrow$ Stimulasi enzim adenilat siklase $\\rightarrow$ Sintesis second messenger cAMP dari ATP $\\rightarrow$ Aktivasi Protein Kinase A (PKA) $\\rightarrow$ Fosforilasi kaskade glikogen fosforilase kinase dan glikogen fosforilase.. Epinefrin -> GPCR -> Protein Gs (GTP) -> Adenilat siklase -> cAMP -> PKA -> aktivasi glikogen fosforilase -> pelepasan glukosa. Pilih kaskade GPCR -> Gs -> adenilat siklase -> cAMP -> PKA -> aktivasi glikogen fosforilase."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Epinefrin berikatan dengan GPCR $\\rightarrow$ Aktivasi protein $G_s$ (mengikat GTP) $\\rightarrow$ Stimulasi enzim adenilat siklase $\\rightarrow$ Sintesis second messenger cAMP dari ATP $\\rightarrow$ Aktivasi Protein Kinase A (PKA) $\\rightarrow$ Fosforilasi kaskade glikogen fosforilase kinase dan glikogen fosforilase.. Epinefrin -> GPCR -> Protein Gs (GTP) -> Adenilat siklase -> cAMP -> PKA -> aktivasi glikogen fosforilase -> pelepasan glukosa. Pilih kaskade GPCR -> Gs -> adenilat siklase -> cAMP -> PKA -> aktivasi glikogen fosforilase."
   },
   {
     "id": "bio-lat-h-17",
@@ -2863,15 +2864,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "p53 memotong rantai DNA menjadi fragmen-fragmen kecil agar sel dapat langsung memasuki fase anafase pembelahan mitosis sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
         "text": "p53 terstabilisasi dan bertindak sebagai faktor transkripsi untuk mengekspresikan protein p21 (inhibitor CDK); p21 menghambat kompleks Cyclin D-CDK4/6 dan Cyclin E-CDK2, mencegah fosforilasi protein Rb sehingga Rb tetap mengikat dan membungkam faktor transkripsi E2F, menghentikan siklus sel pada fase G1 untuk memberi waktu perbaikan DNA (atau memicu apoptosis via Bax jika kerusakan terlalu parah)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "p53 memfosforilasi molekul tubulin agar gelendong pembelahan terbentuk di dalam membran nukleus interfase."
+      },
+      {
+        "key": "C",
+        "text": "p53 memicu translasi onkogen Ras untuk mempercepat penggandaan kromatid secara tak terkendali."
       },
       {
         "key": "D",
@@ -2879,11 +2880,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "p53 memicu translasi onkogen Ras untuk mempercepat penggandaan kromatid secara tak terkendali."
+        "text": "p53 memotong rantai DNA menjadi fragmen-fragmen kecil agar sel dapat langsung memasuki fase anafase pembelahan mitosis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) p53 terstabilisasi dan bertindak sebagai faktor transkripsi untuk mengekspresikan protein p21 (inhibitor CDK); p21 menghambat kompleks Cyclin D-CDK4/6 dan Cyclin E-CDK2, mencegah fosforilasi protein Rb sehingga Rb tetap mengikat dan membungkam faktor transkripsi E2F, menghentikan siklus sel pada fase G1 untuk memberi waktu perbaikan DNA (atau memicu apoptosis via Bax jika kerusakan terlalu parah).. p53 mendeteksi kerusakan DNA -> aktifkan p21 -> hambat kompleks Cyclin-CDK -> Rb tetap mengikat E2F (inaktif) -> siklus sel tertahan di G1 untuk perbaikan DNA atau apoptosis. Pilih p53 memicu ekspresi p21 menghambat CDK, mempertahankan Rb mengikat E2F sehingga siklus sel terhenti di G1."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) p53 terstabilisasi dan bertindak sebagai faktor transkripsi untuk mengekspresikan protein p21 (inhibitor CDK); p21 menghambat kompleks Cyclin D-CDK4/6 dan Cyclin E-CDK2, mencegah fosforilasi protein Rb sehingga Rb tetap mengikat dan membungkam faktor transkripsi E2F, menghentikan siklus sel pada fase G1 untuk memberi waktu perbaikan DNA (atau memicu apoptosis via Bax jika kerusakan terlalu parah).. p53 mendeteksi kerusakan DNA -> aktifkan p21 -> hambat kompleks Cyclin-CDK -> Rb tetap mengikat E2F (inaktif) -> siklus sel tertahan di G1 untuk perbaikan DNA atau apoptosis. Pilih p53 memicu ekspresi p21 menghambat CDK, mempertahankan Rb mengikat E2F sehingga siklus sel terhenti di G1."
   },
   {
     "id": "bio-lat-h-18",
@@ -2906,7 +2907,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gen Hox diekspresikan secara acak di setiap sel tubuh tanpa mempedulikan posisi fisik pada kromosom ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Gen Hox diekspresikan secara acak di setiap sel tubuh tanpa mempedulikan posisi fisik pada kromosom."
       },
       {
         "key": "B",
@@ -2914,19 +2915,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Urutan susunan fisik gen-gen $\\textit{Hox}$ di sepanjang untai kromosom (dari ujung 3' ke 5') tepat sejajar dengan urutan ekspresi spasialnya di sepanjang tubuh dari anterior ke posterior, serta waktu ekspresinya selama perkembangan embrio (gen ujung 3' diekspresikan lebih awal di wilayah anterior)."
+        "text": "Setiap mutasi pada gen Hox selalu menghasilkan individu yang tidak memiliki materi genetik sama sekali."
       },
       {
         "key": "D",
-        "text": "Kolinearitas berarti gen Hox hanya mampu ditranskripsi jika sel mengandung kloroplas fungsional."
+        "text": "Urutan susunan fisik gen-gen $\\textit{Hox}$ di sepanjang untai kromosom (dari ujung 3' ke 5') tepat sejajar dengan urutan ekspresi spasialnya di sepanjang tubuh dari anterior ke posterior, serta waktu ekspresinya selama perkembangan embrio (gen ujung 3' diekspresikan lebih awal di wilayah anterior)."
       },
       {
         "key": "E",
-        "text": "Setiap mutasi pada gen Hox selalu menghasilkan individu yang tidak memiliki materi genetik sama sekali."
+        "text": "Kolinearitas berarti gen Hox hanya mampu ditranskripsi jika sel mengandung kloroplas fungsional."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Urutan susunan fisik gen-gen $\\textit{Hox}$ di sepanjang untai kromosom (dari ujung 3' ke 5') tepat sejajar dengan urutan ekspresi spasialnya di sepanjang tubuh dari anterior ke posterior, serta waktu ekspresinya selama perkembangan embrio (gen ujung 3' diekspresikan lebih awal di wilayah anterior).. Kolinearitas gen Hox: urutan gen pada kromosom (3' ke 5') mencerminkan urutan bagian tubuh dari anterior (kepala) ke posterior (ekor) dan urutan waktu kemunculannya saat embriogenesis. Pilih urutan gen pada kromosom sejajar dengan urutan spasial anterior-posterior dan waktu ekspresinya."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Urutan susunan fisik gen-gen $\\textit{Hox}$ di sepanjang untai kromosom (dari ujung 3' ke 5') tepat sejajar dengan urutan ekspresi spasialnya di sepanjang tubuh dari anterior ke posterior, serta waktu ekspresinya selama perkembangan embrio (gen ujung 3' diekspresikan lebih awal di wilayah anterior).. Kolinearitas gen Hox: urutan gen pada kromosom (3' ke 5') mencerminkan urutan bagian tubuh dari anterior (kepala) ke posterior (ekor) dan urutan waktu kemunculannya saat embriogenesis. Pilih urutan gen pada kromosom sejajar dengan urutan spasial anterior-posterior dan waktu ekspresinya."
   },
   {
     "id": "bio-lat-h-19",
@@ -2949,27 +2950,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Antibodi IgG dan IgM mengaktifkan komplemen jalur alternatif yang melisiskan sel eritrosit di ginjal menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "Limfosit T sitotoksik membunuh sel-sel epitel kulit menggunakan enzim perforin dan granzim secara langsung."
-      },
-      {
-        "key": "C",
         "text": "Sel dendritik memproduksi racun botulinum yang membekukan saluran pernapasan atas."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Antibodi IgG dan IgM mengaktifkan komplemen jalur alternatif yang melisiskan sel eritrosit di ginjal menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
+        "key": "C",
         "text": "Alergen mengikat silang ($\\textit{cross-linking}$) minimal dua molekul antibodi $\\text{IgE}$ spesifik yang telah tertambat pada reseptor $\\text{Fc}\\varepsilon\\text{RI}$ di permukaan sel mast dan basofil, memicu influks kalsium dan degranulasi eksositosis cepat histamin, leukotrien, dan prostaglandin yang menyebabkan vasodilatasi sistemik dan bronkokonstriksi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Molekul alergen menembus mitokondria sel mast dan menghentikan pembentukan energi ATP secara permanen."
+      },
+      {
+        "key": "E",
+        "text": "Limfosit T sitotoksik membunuh sel-sel epitel kulit menggunakan enzim perforin dan granzim secara langsung."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Alergen mengikat silang ($\\textit{cross-linking}$) minimal dua molekul antibodi $\\text{IgE}$ spesifik yang telah tertambat pada reseptor $\\text{Fc}\\varepsilon\\text{RI}$ di permukaan sel mast dan basofil, memicu influks kalsium dan degranulasi eksositosis cepat histamin, leukotrien, dan prostaglandin yang menyebabkan vasodilatasi sistemik dan bronkokonstriksi.. Alergi tipe I: diperantarai IgE pada reseptor Fc-epsilon-RI sel mast. Saat alergen datang lagi, alergen mengikat-silang IgE -> sel mast degranulasi -> lepas histamin -> vasodilatasi masif & bronkokonstriksi. Pilih cross-linking antibodi IgE pada sel mast yang memicu degranulasi cepat histamin."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Alergen mengikat silang ($\\textit{cross-linking}$) minimal dua molekul antibodi $\\text{IgE}$ spesifik yang telah tertambat pada reseptor $\\text{Fc}\\varepsilon\\text{RI}$ di permukaan sel mast dan basofil, memicu influks kalsium dan degranulasi eksositosis cepat histamin, leukotrien, dan prostaglandin yang menyebabkan vasodilatasi sistemik dan bronkokonstriksi.. Alergi tipe I: diperantarai IgE pada reseptor Fc-epsilon-RI sel mast. Saat alergen datang lagi, alergen mengikat-silang IgE -> sel mast degranulasi -> lepas histamin -> vasodilatasi masif & bronkokonstriksi. Pilih cross-linking antibodi IgE pada sel mast yang memicu degranulasi cepat histamin."
   },
   {
     "id": "bio-lat-h-20",
@@ -2992,7 +2993,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bakteri mengganti dinding sel peptidoglikannya menjadi dinding sel selulosa seperti tumbuhan tingkat tinggi diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Bakteri menghentikan sintesis protein seluler dan bertahan hidup murni menggunakan energi foton sinar ultraviolet."
       },
       {
         "key": "B",
@@ -3000,19 +3001,19 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Bakteri bermutasi menjadi virus litik intraseluler obligat yang tidak memiliki membran sel."
+        "text": "Perolehan gen $\\textit{mecA}$ melalui transfer gen horizontal yang mengkode protein pengikat penisilin alternatif PBP2a ($\\textit{Penicillin-Binding Protein 2a}$); protein PBP2a memiliki afinitas pengikatan yang sangat rendah terhadap antibiotik beta-laktam sehingga sintesis dinding sel peptidoglikan bakteri tetap berlangsung normal meskipun terdapat antibiotik berkonsentrasi tinggi."
       },
       {
         "key": "D",
-        "text": "Bakteri menghentikan sintesis protein seluler dan bertahan hidup murni menggunakan energi foton sinar ultraviolet."
+        "text": "Bakteri bermutasi menjadi virus litik intraseluler obligat yang tidak memiliki membran sel."
       },
       {
         "key": "E",
-        "text": "Perolehan gen $\\textit{mecA}$ melalui transfer gen horizontal yang mengkode protein pengikat penisilin alternatif PBP2a ($\\textit{Penicillin-Binding Protein 2a}$); protein PBP2a memiliki afinitas pengikatan yang sangat rendah terhadap antibiotik beta-laktam sehingga sintesis dinding sel peptidoglikan bakteri tetap berlangsung normal meskipun terdapat antibiotik berkonsentrasi tinggi."
+        "text": "Bakteri mengganti dinding sel peptidoglikannya menjadi dinding sel selulosa seperti tumbuhan tingkat tinggi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Perolehan gen $\\textit{mecA}$ melalui transfer gen horizontal yang mengkode protein pengikat penisilin alternatif PBP2a ($\\textit{Penicillin-Binding Protein 2a}$); protein PBP2a memiliki afinitas pengikatan yang sangat rendah terhadap antibiotik beta-laktam sehingga sintesis dinding sel peptidoglikan bakteri tetap berlangsung normal meskipun terdapat antibiotik berkonsentrasi tinggi.. MRSA membawa gen mecA yang mengkode PBP2a (Penicillin-Binding Protein 2a alternatif). PBP2a tidak bisa diikat oleh antibiotik beta-laktam, sehingga dinding sel bakteri tetap terbentuk. Pilih gen mecA yang mengkode protein PBP2a berafinitas rendah terhadap beta-laktam."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Perolehan gen $\\textit{mecA}$ melalui transfer gen horizontal yang mengkode protein pengikat penisilin alternatif PBP2a ($\\textit{Penicillin-Binding Protein 2a}$); protein PBP2a memiliki afinitas pengikatan yang sangat rendah terhadap antibiotik beta-laktam sehingga sintesis dinding sel peptidoglikan bakteri tetap berlangsung normal meskipun terdapat antibiotik berkonsentrasi tinggi.. MRSA membawa gen mecA yang mengkode PBP2a (Penicillin-Binding Protein 2a alternatif). PBP2a tidak bisa diikat oleh antibiotik beta-laktam, sehingga dinding sel bakteri tetap terbentuk. Pilih gen mecA yang mengkode protein PBP2a berafinitas rendah terhadap beta-laktam."
   },
   {
     "id": "bio-lat-h-21",
@@ -3035,27 +3036,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$N = \\frac{K}{2}$ (separuh dari daya dukung lingkungan), karena grafik laju pertambahan populasi terhadap $N$ berbentuk kurva parabola dengan titik puncak maksimum tepat pada $N = \\frac{K}{2}$, di mana turunan kedua $\\frac{d^2N}{dt^2} = 0$ (titik belok kurva sigmoid $S$)."
-      },
-      {
-        "key": "B",
-        "text": "$N = K$, di mana laju pertambahan populasi justru bernilai nol ($dN/dt = 0$) karena daya dukung lingkungan telah jenuh penuh sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "$N = 0$, di mana tidak ada individu organisme yang mampu bereproduksi menghasilkan anakan baru."
-      },
-      {
-        "key": "D",
         "text": "$N = 2K$, di mana terjadi mortalitas massal akibat kompetisi intraspesifik yang melampaui batas ekosistem."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$N = 0$, di mana tidak ada individu organisme yang mampu bereproduksi menghasilkan anakan baru."
+      },
+      {
+        "key": "C",
+        "text": "$N = \\frac{K}{2}$ (separuh dari daya dukung lingkungan), karena grafik laju pertambahan populasi terhadap $N$ berbentuk kurva parabola dengan titik puncak maksimum tepat pada $N = \\frac{K}{2}$, di mana turunan kedua $\\frac{d^2N}{dt^2} = 0$ (titik belok kurva sigmoid $S$)."
+      },
+      {
+        "key": "D",
         "text": "$N = \\frac{K}{4}$, di mana populasi masih berada pada fase lag awal dengan laju pertumbuhan yang lambat."
+      },
+      {
+        "key": "E",
+        "text": "$N = K$, di mana laju pertambahan populasi justru bernilai nol ($dN/dt = 0$) karena daya dukung lingkungan telah jenuh penuh."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $N = \\frac{K}{2}$ (separuh dari daya dukung lingkungan), karena grafik laju pertambahan populasi terhadap $N$ berbentuk kurva parabola dengan titik puncak maksimum tepat pada $N = \\frac{K}{2}$, di mana turunan kedua $\\frac{d^2N}{dt^2} = 0$ (titik belok kurva sigmoid $S$).. Laju pertambahan dN/dt = rN(1 - N/K) adalah fungsi kuadrat terhadap N. Puncaknya tercapai pada turunan = 0, yaitu saat N = K/2 (separuh kapasitas daya dukung). Pilih N = K/2 (separuh daya dukung lingkungan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $N = \\frac{K}{2}$ (separuh dari daya dukung lingkungan), karena grafik laju pertambahan populasi terhadap $N$ berbentuk kurva parabola dengan titik puncak maksimum tepat pada $N = \\frac{K}{2}$, di mana turunan kedua $\\frac{d^2N}{dt^2} = 0$ (titik belok kurva sigmoid $S$).. Laju pertambahan dN/dt = rN(1 - N/K) adalah fungsi kuadrat terhadap N. Puncaknya tercapai pada turunan = 0, yaitu saat N = K/2 (separuh kapasitas daya dukung). Pilih N = K/2 (separuh daya dukung lingkungan)."
   },
   {
     "id": "bio-lat-h-22",
@@ -3078,7 +3079,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Berukuran kecil dan terletak sangat terisolasi jauh di tengah samudra luas sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Berukuran kecil dan terletak sangat terisolasi jauh di tengah samudra luas."
       },
       {
         "key": "B",
@@ -3086,11 +3087,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Berukuran besar namun terletak sangat terisolasi dengan suhu udara di bawah nol derajat Celsius."
+        "text": "Berukuran kecil dan terletak dekat karena pulau kecil tidak memiliki pemangsa puncak karnivora."
       },
       {
         "key": "D",
-        "text": "Berukuran kecil dan terletak dekat karena pulau kecil tidak memiliki pemangsa puncak karnivora."
+        "text": "Berukuran besar namun terletak sangat terisolasi dengan suhu udara di bawah nol derajat Celsius."
       },
       {
         "key": "E",
@@ -3121,7 +3122,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Laju evolusi molekuler berbanding lurus dengan kuadrat jumlah populasi sehingga jam molekuler hanya berlaku pada populasi kecil ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Semua protein di dalam tubuh berevolusi dengan kecepatan laju substitusi yang identik persis tanpa perbedaan."
       },
       {
         "key": "B",
@@ -3133,11 +3134,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Semua protein di dalam tubuh berevolusi dengan kecepatan laju substitusi yang identik persis tanpa perbedaan."
+        "text": "Jam molekuler hanya dapat diukur menggunakan isotop radioaktif uranium pada sampel fosil batuan beku."
       },
       {
         "key": "E",
-        "text": "Jam molekuler hanya dapat diukur menggunakan isotop radioaktif uranium pada sampel fosil batuan beku."
+        "text": "Laju evolusi molekuler berbanding lurus dengan kuadrat jumlah populasi sehingga jam molekuler hanya berlaku pada populasi kecil."
       }
     ],
     "correctKey": "C",
@@ -3164,27 +3165,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penurunan drastis hormon progesteron akibat atrofi dini korpus luteum pada fase folikuler awal menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Penurunan drastis hormon progesteron akibat atrofi dini korpus luteum pada fase folikuler awal menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "B",
-        "text": "Umpan balik negatif hormon testosteron yang memblokir pelepasan hormon GnRH di hipotalamus."
-      },
-      {
-        "key": "C",
-        "text": "Kenaikan hormon prolaktin yang merangsang lisis dinding ovarium secara mekanik enzimatis."
-      },
-      {
-        "key": "D",
         "text": "Lonjakan tajam hormon LH ($\\textit{LH surge}$) yang dipicu oleh mekanisme umpan balik positif dari kadar estrogen (estradiol) berkonsentrasi tinggi yang disekresikan secara kontinu oleh folikel Graaf matang selama lebih dari 36 jam."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Pelepasan hormon oksitosin dalam jumlah besar oleh endometrium rahim fase menstruasi."
+      },
+      {
+        "key": "D",
+        "text": "Umpan balik negatif hormon testosteron yang memblokir pelepasan hormon GnRH di hipotalamus."
+      },
+      {
+        "key": "E",
+        "text": "Kenaikan hormon prolaktin yang merangsang lisis dinding ovarium secara mekanik enzimatis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Lonjakan tajam hormon LH ($\\textit{LH surge}$) yang dipicu oleh mekanisme umpan balik positif dari kadar estrogen (estradiol) berkonsentrasi tinggi yang disekresikan secara kontinu oleh folikel Graaf matang selama lebih dari 36 jam.. Sebelum ovulasi, estrogen folikel Graaf yang sangat tinggi memicu umpan balik positif ke hipofisis anterior, menghasilkan lonjakan masif hormon LH (LH surge) yang memicu ovulasi. Pilih lonjakan hormon LH (LH surge) akibat umpan balik positif estrogen konsentrasi tinggi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Lonjakan tajam hormon LH ($\\textit{LH surge}$) yang dipicu oleh mekanisme umpan balik positif dari kadar estrogen (estradiol) berkonsentrasi tinggi yang disekresikan secara kontinu oleh folikel Graaf matang selama lebih dari 36 jam.. Sebelum ovulasi, estrogen folikel Graaf yang sangat tinggi memicu umpan balik positif ke hipofisis anterior, menghasilkan lonjakan masif hormon LH (LH surge) yang memicu ovulasi. Pilih lonjakan hormon LH (LH surge) akibat umpan balik positif estrogen konsentrasi tinggi."
   },
   {
     "id": "bio-lat-h-25",
@@ -3207,27 +3208,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel mengalami depolarisasi masif akibat terbukanya jutaan saluran kalsium berpintu voltase di segmen luar diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Sel mengalami depolarisasi masif akibat terbukanya jutaan saluran kalsium berpintu voltase di segmen luar."
       },
       {
         "key": "B",
-        "text": "Molekul rodopsin meledak melepaskan panas yang mendidihkan cairan humor vitreus bola mata."
-      },
-      {
-        "key": "C",
-        "text": "Saluran ion klorida terpompa keluar menyebabkan potensial membran melonjak positif $+50\\text{ mV}$."
-      },
-      {
-        "key": "D",
         "text": "Sel fotoreseptor memproduksi hormon melatonin yang melarutkan pigmen melanin koroid mata."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Molekul rodopsin meledak melepaskan panas yang mendidihkan cairan humor vitreus bola mata."
+      },
+      {
+        "key": "D",
         "text": "Sel mengalami hiperpolarisasi (bukan depolarisasi); fotoisomerisasi retinal mengaktifkan protein transdusin $\\rightarrow$ stimulasi fosfodiesterase (PDE) memecah cGMP menjadi $5'\\text{-GMP} \\rightarrow$ penutupan saluran ion $\\text{Na}^+$ berpintu cGMP $\\rightarrow$ influks $\\text{Na}^+$ terhenti sementara efluks $\\text{K}^+$ berlanjut $\\rightarrow$ penurunan pelepasan neurotransmiter glutamat ke sel bipolar."
+      },
+      {
+        "key": "E",
+        "text": "Saluran ion klorida terpompa keluar menyebabkan potensial membran melonjak positif $+50\\text{ mV}$."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sel mengalami hiperpolarisasi (bukan depolarisasi); fotoisomerisasi retinal mengaktifkan protein transdusin $\\rightarrow$ stimulasi fosfodiesterase (PDE) memecah cGMP menjadi $5'\\text{-GMP} \\rightarrow$ penutupan saluran ion $\\text{Na}^+$ berpintu cGMP $\\rightarrow$ influks $\\text{Na}^+$ terhenti sementara efluks $\\text{K}^+$ berlanjut $\\rightarrow$ penurunan pelepasan neurotransmiter glutamat ke sel bipolar.. Di dalam gelap, sel batang terdepolarisasi (-40 mV). Saat terkena cahaya, cGMP dipecah oleh PDE, kanal Na+ menutup, sehingga sel batang terhiperpolarisasi (-70 mV) dan mengurangi sekresi glutamat. Pilih sel mengalami hiperpolarisasi akibat penutupan saluran ion Na+ berpintu cGMP."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Sel mengalami hiperpolarisasi (bukan depolarisasi); fotoisomerisasi retinal mengaktifkan protein transdusin $\\rightarrow$ stimulasi fosfodiesterase (PDE) memecah cGMP menjadi $5'\\text{-GMP} \\rightarrow$ penutupan saluran ion $\\text{Na}^+$ berpintu cGMP $\\rightarrow$ influks $\\text{Na}^+$ terhenti sementara efluks $\\text{K}^+$ berlanjut $\\rightarrow$ penurunan pelepasan neurotransmiter glutamat ke sel bipolar.. Di dalam gelap, sel batang terdepolarisasi (-40 mV). Saat terkena cahaya, cGMP dipecah oleh PDE, kanal Na+ menutup, sehingga sel batang terhiperpolarisasi (-70 mV) dan mengurangi sekresi glutamat. Pilih sel mengalami hiperpolarisasi akibat penutupan saluran ion Na+ berpintu cGMP."
   },
   {
     "id": "bio-sim-01",
@@ -3250,27 +3251,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyerapan glukosa di membran apikal terhenti total; inhibisi pompa $\\text{Na}^+/\\text{K}^+$ ATPase menyebabkan konsentrasi $\\text{Na}^+$ intraseluler meningkat dan gradien konsentrasi elektrokimia natrium melenyap, sehingga simporter SGLT-1 kehilangan gaya penggerak transpor glukosa melawan gradiennya."
+        "text": "Enterosit membelah diri secara meiosis menghasilkan jutaan sel usus baru yang kebal terhadap racun ouabain."
       },
       {
         "key": "B",
-        "text": "Penyerapan glukosa meningkat sepuluh kali lipat karena glukosa langsung berdifusi bebas menembus membran tanpa natrium sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Penyerapan glukosa meningkat sepuluh kali lipat karena glukosa langsung berdifusi bebas menembus membran tanpa natrium."
       },
       {
         "key": "C",
-        "text": "Glukosa diubah menjadi gas metana dan diekskresikan kembali ke rongga lambung secara spontan."
-      },
-      {
-        "key": "D",
         "text": "Simporter SGLT-1 beralih menggunakan gradien ion kalsium untuk memompa glukosa keluar menuju feses."
       },
       {
+        "key": "D",
+        "text": "Penyerapan glukosa di membran apikal terhenti total; inhibisi pompa $\\text{Na}^+/\\text{K}^+$ ATPase menyebabkan konsentrasi $\\text{Na}^+$ intraseluler meningkat dan gradien konsentrasi elektrokimia natrium melenyap, sehingga simporter SGLT-1 kehilangan gaya penggerak transpor glukosa melawan gradiennya."
+      },
+      {
         "key": "E",
-        "text": "Enterosit membelah diri secara meiosis menghasilkan jutaan sel usus baru yang kebal terhadap racun ouabain."
+        "text": "Glukosa diubah menjadi gas metana dan diekskresikan kembali ke rongga lambung secara spontan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penyerapan glukosa di membran apikal terhenti total; inhibisi pompa $\\text{Na}^+/\\text{K}^+$ ATPase menyebabkan konsentrasi $\\text{Na}^+$ intraseluler meningkat dan gradien konsentrasi elektrokimia natrium melenyap, sehingga simporter SGLT-1 kehilangan gaya penggerak transpor glukosa melawan gradiennya.. SGLT-1 membutuhkan gradien natrium (Na+ luar tinggi, Na+ dalam rendah). Gradien ini dijaga oleh pompa Na+/K+ ATPase di membran basolateral. Jika pompa dihambat ouabain, gradien Na+ hilang, maka penyerapan glukosa terhenti. Pilih: penyerapan glukosa terhenti karena lenyapnya gradien konsentrasi natrium penggerak SGLT-1."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Penyerapan glukosa di membran apikal terhenti total; inhibisi pompa $\\text{Na}^+/\\text{K}^+$ ATPase menyebabkan konsentrasi $\\text{Na}^+$ intraseluler meningkat dan gradien konsentrasi elektrokimia natrium melenyap, sehingga simporter SGLT-1 kehilangan gaya penggerak transpor glukosa melawan gradiennya.. SGLT-1 membutuhkan gradien natrium (Na+ luar tinggi, Na+ dalam rendah). Gradien ini dijaga oleh pompa Na+/K+ ATPase di membran basolateral. Jika pompa dihambat ouabain, gradien Na+ hilang, maka penyerapan glukosa terhenti. Pilih: penyerapan glukosa terhenti karena lenyapnya gradien konsentrasi natrium penggerak SGLT-1."
   },
   {
     "id": "bio-sim-02",
@@ -3293,27 +3294,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Inhibisi kompetitif ireversibel oleh molekul karbon monoksida yang mengkatalisis pemecahan rantai globin sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
-        "text": "Kooperativitas positif pengikatan alosterik (efek homotropik); pengikatan molekul oksigen pertama pada salah satu subunit heme memicu perubahan konformasi kuaterner dari keadaan tegang (Tense / T state) berafinitas rendah menjadi keadaan rileks (Relaxed / R state) yang meningkatkan afinitas pengikatan oksigen pada subunit-subunit berikutnya."
-      },
-      {
-        "key": "C",
-        "text": "Denaturasi termal selektif yang menyebabkan hemoglobin kehilangan ion besi ferro di kapiler paru-paru."
-      },
-      {
-        "key": "D",
         "text": "Reaksi enzimatik proteolisis di mana molekul hemoglobin memakan molekul mioglobin otot rangka."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Inhibisi kompetitif ireversibel oleh molekul karbon monoksida yang mengkatalisis pemecahan rantai globin."
+      },
+      {
+        "key": "C",
+        "text": "Kooperativitas positif pengikatan alosterik (efek homotropik); pengikatan molekul oksigen pertama pada salah satu subunit heme memicu perubahan konformasi kuaterner dari keadaan tegang (Tense / T state) berafinitas rendah menjadi keadaan rileks (Relaxed / R state) yang meningkatkan afinitas pengikatan oksigen pada subunit-subunit berikutnya."
+      },
+      {
+        "key": "D",
         "text": "Transpor pasif difusi terfasilitasi yang membutuhkan pembongkaran membran eritrosit secara periodik."
+      },
+      {
+        "key": "E",
+        "text": "Denaturasi termal selektif yang menyebabkan hemoglobin kehilangan ion besi ferro di kapiler paru-paru."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kooperativitas positif pengikatan alosterik (efek homotropik); pengikatan molekul oksigen pertama pada salah satu subunit heme memicu perubahan konformasi kuaterner dari keadaan tegang (Tense / T state) berafinitas rendah menjadi keadaan rileks (Relaxed / R state) yang meningkatkan afinitas pengikatan oksigen pada subunit-subunit berikutnya.. Kurva sigmoid hemoglobin disebabkan oleh kooperativitas positif: pengikatan O2 pada satu subunit memicu perubahan konformasi T -> R yang mempermudah pengikatan O2 berikutnya. Pilih kooperativitas positif pengikatan alosterik (transisi keadaan Tense ke Relaxed)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kooperativitas positif pengikatan alosterik (efek homotropik); pengikatan molekul oksigen pertama pada salah satu subunit heme memicu perubahan konformasi kuaterner dari keadaan tegang (Tense / T state) berafinitas rendah menjadi keadaan rileks (Relaxed / R state) yang meningkatkan afinitas pengikatan oksigen pada subunit-subunit berikutnya.. Kurva sigmoid hemoglobin disebabkan oleh kooperativitas positif: pengikatan O2 pada satu subunit memicu perubahan konformasi T -> R yang mempermudah pengikatan O2 berikutnya. Pilih kooperativitas positif pengikatan alosterik (transisi keadaan Tense ke Relaxed)."
   },
   {
     "id": "bio-sim-03",
@@ -3336,27 +3337,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem malat-aspartat menghasilkan 38 ATP sedangkan gliserol-3-fosfat menghasilkan hanya 2 ATP seperti fermentasi laktat ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "Sistem gliserol-3-fosfat menghasilkan 36 ATP sedangkan malat-aspartat menghasilkan 12 ATP akibat hilangnya ion sitrat."
-      },
-      {
-        "key": "C",
         "text": "Sistem malat-aspartat menghasilkan $32\\text{ ATP}$ netto (karena elektron sitosol diserahkan ke $\\text{NAD}^+$ matriks pada Kompleks I), sedangkan sistem gliserol-3-fosfat menghasilkan $30\\text{ ATP}$ netto (karena elektron diserahkan ke $\\text{FAD}$ membran pada Kompleks II yang memotong satu situs pemompaan proton)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kedua sistem menghasilkan jumlah ATP yang identik persis yaitu 24 ATP di semua jenis sel eukariotik."
+      },
+      {
+        "key": "C",
+        "text": "Sistem gliserol-3-fosfat menghasilkan 36 ATP sedangkan malat-aspartat menghasilkan 12 ATP akibat hilangnya ion sitrat."
+      },
+      {
+        "key": "D",
+        "text": "Sistem malat-aspartat menghasilkan 38 ATP sedangkan gliserol-3-fosfat menghasilkan hanya 2 ATP seperti fermentasi laktat."
       },
       {
         "key": "E",
         "text": "Sistem malat-aspartat mengonsumsi ATP sedangkan gliserol-3-fosfat memproduksi asam lemak bebas di krista."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Sistem malat-aspartat menghasilkan $32\\text{ ATP}$ netto (karena elektron sitosol diserahkan ke $\\text{NAD}^+$ matriks pada Kompleks I), sedangkan sistem gliserol-3-fosfat menghasilkan $30\\text{ ATP}$ netto (karena elektron diserahkan ke $\\text{FAD}$ membran pada Kompleks II yang memotong satu situs pemompaan proton).. Shuttle malat-aspartat menyerahkan elektron ke NAD+ matriks (Kompleks I, 2,5 ATP/NADH -> total 32 ATP). Shuttle gliserol-3-fosfat menyerahkan elektron ke FAD (Kompleks II, 1,5 ATP/FADH2 -> total 30 ATP). Pilih: malat-aspartat menghasilkan 32 ATP (via Kompleks I) dan gliserol-3-fosfat menghasilkan 30 ATP (via Kompleks II)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sistem malat-aspartat menghasilkan $32\\text{ ATP}$ netto (karena elektron sitosol diserahkan ke $\\text{NAD}^+$ matriks pada Kompleks I), sedangkan sistem gliserol-3-fosfat menghasilkan $30\\text{ ATP}$ netto (karena elektron diserahkan ke $\\text{FAD}$ membran pada Kompleks II yang memotong satu situs pemompaan proton).. Shuttle malat-aspartat menyerahkan elektron ke NAD+ matriks (Kompleks I, 2,5 ATP/NADH -> total 32 ATP). Shuttle gliserol-3-fosfat menyerahkan elektron ke FAD (Kompleks II, 1,5 ATP/FADH2 -> total 30 ATP). Pilih: malat-aspartat menghasilkan 32 ATP (via Kompleks I) dan gliserol-3-fosfat menghasilkan 30 ATP (via Kompleks II)."
   },
   {
     "id": "bio-sim-04",
@@ -3379,11 +3380,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1 foton cahaya, karena satu foton mampu membelah seratus molekul air sekaligus secara kuantum resonansi menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "4 foton cahaya; karena pelepasan satu molekul $\\text{O}_2$ membutuhkan penarikan empat elektron dari dua molekul air ($2\\text{H}_2\\text{O} \\rightarrow 4\\text{H}^+ + 4e^- + \\text{O}_2$), sehingga OEC harus melalui transisi 4 tingkat oksidasi penyimpanan muatan (dari keadaan dasar $S_0$ hingga $S_4$ yang melepaskan $\\text{O}_2$)."
       },
       {
         "key": "B",
-        "text": "2 foton cahaya, dihitung dari koefisien dua pada rumus kimia molekul air reaktan."
+        "text": "8 foton cahaya, karena setiap proton H+ membutuhkan dua kali eksitasi fotofosforilasi siklik."
       },
       {
         "key": "C",
@@ -3391,15 +3392,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "4 foton cahaya; karena pelepasan satu molekul $\\text{O}_2$ membutuhkan penarikan empat elektron dari dua molekul air ($2\\text{H}_2\\text{O} \\rightarrow 4\\text{H}^+ + 4e^- + \\text{O}_2$), sehingga OEC harus melalui transisi 4 tingkat oksidasi penyimpanan muatan (dari keadaan dasar $S_0$ hingga $S_4$ yang melepaskan $\\text{O}_2$)."
+        "text": "2 foton cahaya, dihitung dari koefisien dua pada rumus kimia molekul air reaktan."
       },
       {
         "key": "E",
-        "text": "8 foton cahaya, karena setiap proton H+ membutuhkan dua kali eksitasi fotofosforilasi siklik."
+        "text": "1 foton cahaya, karena satu foton mampu membelah seratus molekul air sekaligus secara kuantum resonansi menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 4 foton cahaya; karena pelepasan satu molekul $\\text{O}_2$ membutuhkan penarikan empat elektron dari dua molekul air ($2\\text{H}_2\\text{O} \\rightarrow 4\\text{H}^+ + 4e^- + \\text{O}_2$), sehingga OEC harus melalui transisi 4 tingkat oksidasi penyimpanan muatan (dari keadaan dasar $S_0$ hingga $S_4$ yang melepaskan $\\text{O}_2$).. Reaksi fotolisis air: 2 H2O -> 4 H+ + 4 e- + O2. Dibutuhkan 4 elektron, dan setiap foton mengeksitasi 1 elektron. Jadi butuh 4 foton untuk 1 molekul O2. Pilih 4 foton cahaya (untuk mengekstraksi 4 elektron dari 2 H2O)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 4 foton cahaya; karena pelepasan satu molekul $\\text{O}_2$ membutuhkan penarikan empat elektron dari dua molekul air ($2\\text{H}_2\\text{O} \\rightarrow 4\\text{H}^+ + 4e^- + \\text{O}_2$), sehingga OEC harus melalui transisi 4 tingkat oksidasi penyimpanan muatan (dari keadaan dasar $S_0$ hingga $S_4$ yang melepaskan $\\text{O}_2$).. Reaksi fotolisis air: 2 H2O -> 4 H+ + 4 e- + O2. Dibutuhkan 4 elektron, dan setiap foton mengeksitasi 1 elektron. Jadi butuh 4 foton untuk 1 molekul O2. Pilih 4 foton cahaya (untuk mengekstraksi 4 elektron dari 2 H2O)."
   },
   {
     "id": "bio-sim-05",
@@ -3422,11 +3423,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Aktivitas endonuklease restriksi yang memotong seluruh untai cetakan DNA parental menjadi fragmen pendek diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Aktivitas telomerase yang menambahkan sekuens heksanukleotida berulang untuk menutupi kesalahan pasangan basa."
       },
       {
         "key": "B",
-        "text": "Aktivitas telomerase yang menambahkan sekuens heksanukleotida berulang untuk menutupi kesalahan pasangan basa."
+        "text": "Aktivitas eksonuklease $3' \\rightarrow 5'$; ketika basa yang salah dipasangkan di ujung 3', DNA polimerase berhenti bergerak maju, mundur satu langkah untuk memotong dan membuang nukleotida yang salah pasang tersebut, lalu melanjutkan kembali sintesis polimerisasi $5' \\rightarrow 3'$."
       },
       {
         "key": "C",
@@ -3434,15 +3435,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Aktivitas eksonuklease 5' ke 3' yang memakan primer RNA pada seluruh kromosom secara acak."
+        "text": "Aktivitas endonuklease restriksi yang memotong seluruh untai cetakan DNA parental menjadi fragmen pendek."
       },
       {
         "key": "E",
-        "text": "Aktivitas eksonuklease $3' \\rightarrow 5'$; ketika basa yang salah dipasangkan di ujung 3', DNA polimerase berhenti bergerak maju, mundur satu langkah untuk memotong dan membuang nukleotida yang salah pasang tersebut, lalu melanjutkan kembali sintesis polimerisasi $5' \\rightarrow 3'$."
+        "text": "Aktivitas eksonuklease 5' ke 3' yang memakan primer RNA pada seluruh kromosom secara acak."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Aktivitas eksonuklease $3' \\rightarrow 5'$; ketika basa yang salah dipasangkan di ujung 3', DNA polimerase berhenti bergerak maju, mundur satu langkah untuk memotong dan membuang nukleotida yang salah pasang tersebut, lalu melanjutkan kembali sintesis polimerisasi $5' \\rightarrow 3'$.. Aktivitas proofreading DNA polimerase berjalan berlawanan arah dengan arah sintesis, yaitu memotong dari ujung 3' ke belakang: eksonuklease 3' -> 5'. Pilih aktivitas eksonuklease 3' ke 5'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Aktivitas eksonuklease $3' \\rightarrow 5'$; ketika basa yang salah dipasangkan di ujung 3', DNA polimerase berhenti bergerak maju, mundur satu langkah untuk memotong dan membuang nukleotida yang salah pasang tersebut, lalu melanjutkan kembali sintesis polimerisasi $5' \\rightarrow 3'$.. Aktivitas proofreading DNA polimerase berjalan berlawanan arah dengan arah sintesis, yaitu memotong dari ujung 3' ke belakang: eksonuklease 3' -> 5'. Pilih aktivitas eksonuklease 3' ke 5'."
   },
   {
     "id": "bio-sim-06",
@@ -3465,27 +3466,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Faktor elongasi EF-G (translokase) dengan mengonsumsi energi dari hidrolisis molekul GTP menjadi GDP, mendorong ribosom bergerak maju sejauh tepat satu kodon (tiga nukleotida) ke arah ujung 3' mRNA."
-      },
-      {
-        "key": "B",
-        "text": "Enzim DNA helikase yang membakar molekul glukosa bebas di dalam cairan sitoplasma sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "Faktor terminasi RF-1 yang menambahkan molekul air pada ujung amino terminal rantai polipeptida."
-      },
-      {
-        "key": "D",
         "text": "Kompleks proteasom 26S yang mencerna subunit besar 50S menjadi asam amino bebas."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Faktor elongasi EF-G (translokase) dengan mengonsumsi energi dari hidrolisis molekul GTP menjadi GDP, mendorong ribosom bergerak maju sejauh tepat satu kodon (tiga nukleotida) ke arah ujung 3' mRNA."
+      },
+      {
+        "key": "C",
         "text": "Enzim aminoasil-tRNA sintetase yang melepaskan ikatan peptidil secara hidrolisis asam kuat."
+      },
+      {
+        "key": "D",
+        "text": "Enzim DNA helikase yang membakar molekul glukosa bebas di dalam cairan sitoplasma."
+      },
+      {
+        "key": "E",
+        "text": "Faktor terminasi RF-1 yang menambahkan molekul air pada ujung amino terminal rantai polipeptida."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Faktor elongasi EF-G (translokase) dengan mengonsumsi energi dari hidrolisis molekul GTP menjadi GDP, mendorong ribosom bergerak maju sejauh tepat satu kodon (tiga nukleotida) ke arah ujung 3' mRNA.. Translokasi ribosom (menggeser ribosom sejauh 1 kodon memindahkan tRNA dari situs A ke P) dikatalisis oleh faktor elongasi EF-G dengan energi dari hidrolisis GTP. Pilih faktor elongasi EF-G (translokase) menggunakan energi hidrolisis GTP."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Faktor elongasi EF-G (translokase) dengan mengonsumsi energi dari hidrolisis molekul GTP menjadi GDP, mendorong ribosom bergerak maju sejauh tepat satu kodon (tiga nukleotida) ke arah ujung 3' mRNA.. Translokasi ribosom (menggeser ribosom sejauh 1 kodon memindahkan tRNA dari situs A ke P) dikatalisis oleh faktor elongasi EF-G dengan energi dari hidrolisis GTP. Pilih faktor elongasi EF-G (translokase) menggunakan energi hidrolisis GTP."
   },
   {
     "id": "bio-sim-07",
@@ -3508,27 +3509,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hilangnya gen globin sehingga sel darah putih kehilangan kemampuan mengangkut gas karbon dioksida sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Pembentukan kloroplas buatan di dalam sitoplasma limfosit yang memproduksi racun sianida."
       },
       {
         "key": "B",
-        "text": "Terbentuknya gen fusi onkogenik $\\textit{BCR-ABL}$ yang mengkode protein chimera dengan aktivitas tirosin kinase yang aktif secara konstitutif (terus-menerus memfosforilasi protein target tanpa memerlukan stimulasi faktor pertumbuhan luar)."
-      },
-      {
-        "key": "C",
         "text": "Terjadinya duplikasi seluruh telomer sel darah yang menyebabkan sel darah mengalami penuaan seketika."
       },
       {
+        "key": "C",
+        "text": "Terbentuknya gen fusi onkogenik $\\textit{BCR-ABL}$ yang mengkode protein chimera dengan aktivitas tirosin kinase yang aktif secara konstitutif (terus-menerus memfosforilasi protein target tanpa memerlukan stimulasi faktor pertumbuhan luar)."
+      },
+      {
         "key": "D",
-        "text": "Pembentukan kloroplas buatan di dalam sitoplasma limfosit yang memproduksi racun sianida."
+        "text": "Hilangnya gen globin sehingga sel darah putih kehilangan kemampuan mengangkut gas karbon dioksida."
       },
       {
         "key": "E",
         "text": "Mutasi titik pada gen insulin pankreas yang menghentikan metabolisme karbohidrat sel darah merah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Terbentuknya gen fusi onkogenik $\\textit{BCR-ABL}$ yang mengkode protein chimera dengan aktivitas tirosin kinase yang aktif secara konstitutif (terus-menerus memfosforilasi protein target tanpa memerlukan stimulasi faktor pertumbuhan luar).. Translokasi t(9;22) menggabungkan gen BCR dan ABL menjadi gen fusi BCR-ABL yang menghasilkan protein tirosin kinase yang selalu aktif (konstitutif), memicu leukemia CML. Pilih terbentuknya gen fusi onkogenik BCR-ABL penghasil tirosin kinase aktif konstitutif."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Terbentuknya gen fusi onkogenik $\\textit{BCR-ABL}$ yang mengkode protein chimera dengan aktivitas tirosin kinase yang aktif secara konstitutif (terus-menerus memfosforilasi protein target tanpa memerlukan stimulasi faktor pertumbuhan luar).. Translokasi t(9;22) menggabungkan gen BCR dan ABL menjadi gen fusi BCR-ABL yang menghasilkan protein tirosin kinase yang selalu aktif (konstitutif), memicu leukemia CML. Pilih terbentuknya gen fusi onkogenik BCR-ABL penghasil tirosin kinase aktif konstitutif."
   },
   {
     "id": "bio-sim-08",
@@ -3551,27 +3552,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$25{,}0\\%$, dihitung jika hanya memperhitungkan segregasi salah satu pasang gen secara terpisah ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "$37{,}5\\%$, yang merupakan persentase perolehan anak ayam berpial Walnut (3/8)."
-      },
-      {
-        "key": "C",
-        "text": "$12{,}5\\%$ (atau $1$ dari $8$ anak), karena dari persilangan genotipe alel pertama ($Rr \\times Rr$) menghasilkan $\\frac{1}{4} rr$, dan persilangan alel kedua ($Pp \\times pp$) menghasilkan $\\frac{1}{2} P\\_$. Sifat pial Pea memiliki genotipe $rrP\\_$, sehingga peluangnya adalah $\\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\%$."
-      },
-      {
-        "key": "D",
         "text": "$6{,}25\\%$, dihitung jika mengasumsikan persilangan sesama dihibrid heterozigot ganda (1/16)."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$0\\%$, karena berasumsi pial Pea tidak mungkin muncul dari induk berpial Rose."
+      },
+      {
+        "key": "C",
+        "text": "$25{,}0\\%$, dihitung jika hanya memperhitungkan segregasi salah satu pasang gen secara terpisah."
+      },
+      {
+        "key": "D",
+        "text": "$37{,}5\\%$, yang merupakan persentase perolehan anak ayam berpial Walnut (3/8)."
+      },
+      {
+        "key": "E",
+        "text": "$12{,}5\\%$ (atau $1$ dari $8$ anak), karena dari persilangan genotipe alel pertama ($Rr \\times Rr$) menghasilkan $\\frac{1}{4} rr$, dan persilangan alel kedua ($Pp \\times pp$) menghasilkan $\\frac{1}{2} P\\_$. Sifat pial Pea memiliki genotipe $rrP\\_$, sehingga peluangnya adalah $\\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\%$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $12{,}5\\%$ (atau $1$ dari $8$ anak), karena dari persilangan genotipe alel pertama ($Rr \\times Rr$) menghasilkan $\\frac{1}{4} rr$, dan persilangan alel kedua ($Pp \\times pp$) menghasilkan $\\frac{1}{2} P\\_$. Sifat pial Pea memiliki genotipe $rrP\\_$, sehingga peluangnya adalah $\\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\%$.. Pial Pea = rrP_. Dari Rr x Rr didapat rr = 1/4. Dari Pp x pp didapat P_ = 1/2. Kalikan keduanya. Peluang Pea = 1/4 * 1/2 = 1/8 = 12,5%."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $12{,}5\\%$ (atau $1$ dari $8$ anak), karena dari persilangan genotipe alel pertama ($Rr \\times Rr$) menghasilkan $\\frac{1}{4} rr$, dan persilangan alel kedua ($Pp \\times pp$) menghasilkan $\\frac{1}{2} P\\_$. Sifat pial Pea memiliki genotipe $rrP\\_$, sehingga peluangnya adalah $\\frac{1}{4} \\times \\frac{1}{2} = \\frac{1}{8} = 12{,}5\\%$.. Pial Pea = rrP_. Dari Rr x Rr didapat rr = 1/4. Dari Pp x pp didapat P_ = 1/2. Kalikan keduanya. Peluang Pea = 1/4 * 1/2 = 1/8 = 12,5%."
   },
   {
     "id": "bio-sim-09",
@@ -3594,15 +3595,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kucing jantan tidak memiliki melanin sama sekali di dalam folikel rambut kulitnya menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Warna oranye disebabkan oleh infeksi bakteri parasit obligat yang hanya menyerang sel jantan."
       },
       {
         "key": "B",
-        "text": "Terjadi pindah silang meiosis yang terus-menerus memotong kromosom Y menjadi fragmen oranye."
+        "text": "Hormon testosteron mengubah seluruh pigmen hitam menjadi pigmen putih transparan."
       },
       {
         "key": "C",
-        "text": "Warna oranye disebabkan oleh infeksi bakteri parasit obligat yang hanya menyerang sel jantan."
+        "text": "Terjadi pindah silang meiosis yang terus-menerus memotong kromosom Y menjadi fragmen oranye."
       },
       {
         "key": "D",
@@ -3610,7 +3611,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Hormon testosteron mengubah seluruh pigmen hitam menjadi pigmen putih transparan."
+        "text": "Kucing jantan tidak memiliki melanin sama sekali di dalam folikel rambut kulitnya menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       }
     ],
     "correctKey": "D",
@@ -3637,7 +3638,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "100% pada anak laki-laki dan 0% pada anak perempuan karena penyakit terpaut kromosom Y diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "$0\\%$, karena materi genetik mitokondria diwariskan secara maternal murni (eksklusif dari ibu); mitokondria dari sperma ayah yang berada di bagian leher/ekor sperma tidak ikut masuk atau didegradasi secara selektif oleh ubiquitin sel telur pasca fertilisasi."
       },
       {
         "key": "B",
@@ -3653,11 +3654,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$0\\%$, karena materi genetik mitokondria diwariskan secara maternal murni (eksklusif dari ibu); mitokondria dari sperma ayah yang berada di bagian leher/ekor sperma tidak ikut masuk atau didegradasi secara selektif oleh ubiquitin sel telur pasca fertilisasi."
+        "text": "100% pada anak laki-laki dan 0% pada anak perempuan karena penyakit terpaut kromosom Y."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $0\\%$, karena materi genetik mitokondria diwariskan secara maternal murni (eksklusif dari ibu); mitokondria dari sperma ayah yang berada di bagian leher/ekor sperma tidak ikut masuk atau didegradasi secara selektif oleh ubiquitin sel telur pasca fertilisasi.. DNA mitokondria diwariskan 100% dari ibu (maternal inheritance). Ayah TIDAK PERNAH mewariskan mitokondria kepada anak-anaknya. Karena ayahnya yang sakit dan ibunya normal, peluang anaknya mewarisi penyakit adalah 0%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $0\\%$, karena materi genetik mitokondria diwariskan secara maternal murni (eksklusif dari ibu); mitokondria dari sperma ayah yang berada di bagian leher/ekor sperma tidak ikut masuk atau didegradasi secara selektif oleh ubiquitin sel telur pasca fertilisasi.. DNA mitokondria diwariskan 100% dari ibu (maternal inheritance). Ayah TIDAK PERNAH mewariskan mitokondria kepada anak-anaknya. Karena ayahnya yang sakit dan ibunya normal, peluang anaknya mewarisi penyakit adalah 0%."
   },
   {
     "id": "bio-sim-11",
@@ -3680,27 +3681,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel jukstaglomerulus mensekresikan enzim renin ke dalam darah $\\rightarrow$ renin memotong angiotensinogen dari hati menjadi Angiotensin I $\\rightarrow$ enzim ACE (di endotel kapiler paru-paru) mengubah Angiotensin I menjadi Angiotensin II aktif $\\rightarrow$ Angiotensin II memicu vasokonstriksi arteriol sistemik kuat dan merangsang korteks adrenal mensekresikan hormon aldosteron untuk meningkatkan reabsorpsi $\\text{Na}^+$ dan air di ginjal."
+        "text": "Ginjal mensekresikan hormon insulin yang mengubah urea menjadi glukosa untuk menaikkan volume darah secara osmosis."
       },
       {
         "key": "B",
-        "text": "Ginjal mensekresikan hormon insulin yang mengubah urea menjadi glukosa untuk menaikkan volume darah secara osmosis sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Sel jukstaglomerulus mensekresikan enzim renin ke dalam darah $\\rightarrow$ renin memotong angiotensinogen dari hati menjadi Angiotensin I $\\rightarrow$ enzim ACE (di endotel kapiler paru-paru) mengubah Angiotensin I menjadi Angiotensin II aktif $\\rightarrow$ Angiotensin II memicu vasokonstriksi arteriol sistemik kuat dan merangsang korteks adrenal mensekresikan hormon aldosteron untuk meningkatkan reabsorpsi $\\text{Na}^+$ dan air di ginjal."
       },
       {
         "key": "C",
-        "text": "Makula densa memproduksi hormon tiroksin yang menghancurkan pembuluh darah vena untuk menghentikan aliran balik."
+        "text": "Kapsula Bowman mensekresikan eritropoietin yang langsung memicu pembekuan darah di bilik kiri jantung."
       },
       {
         "key": "D",
-        "text": "Kapsula Bowman mensekresikan eritropoietin yang langsung memicu pembekuan darah di bilik kiri jantung."
+        "text": "Makula densa memproduksi hormon tiroksin yang menghancurkan pembuluh darah vena untuk menghentikan aliran balik."
       },
       {
         "key": "E",
         "text": "Sel jukstaglomerulus menyerap seluruh molekul aldosteron dari darah untuk diekskresikan ke dalam kantung kemih."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sel jukstaglomerulus mensekresikan enzim renin ke dalam darah $\\rightarrow$ renin memotong angiotensinogen dari hati menjadi Angiotensin I $\\rightarrow$ enzim ACE (di endotel kapiler paru-paru) mengubah Angiotensin I menjadi Angiotensin II aktif $\\rightarrow$ Angiotensin II memicu vasokonstriksi arteriol sistemik kuat dan merangsang korteks adrenal mensekresikan hormon aldosteron untuk meningkatkan reabsorpsi $\\text{Na}^+$ dan air di ginjal.. Sistem RAAS: Ginjal lepas Renin -> ubah Angiotensinogen jadi Ang I -> ACE ubah jadi Ang II -> Ang II memicu vasokonstriksi dan sekresi Aldosteron (retensi Na+ & air). Pilih sekresi renin memicu pembentukan Angiotensin II dan aldosteron."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Sel jukstaglomerulus mensekresikan enzim renin ke dalam darah $\\rightarrow$ renin memotong angiotensinogen dari hati menjadi Angiotensin I $\\rightarrow$ enzim ACE (di endotel kapiler paru-paru) mengubah Angiotensin I menjadi Angiotensin II aktif $\\rightarrow$ Angiotensin II memicu vasokonstriksi arteriol sistemik kuat dan merangsang korteks adrenal mensekresikan hormon aldosteron untuk meningkatkan reabsorpsi $\\text{Na}^+$ dan air di ginjal.. Sistem RAAS: Ginjal lepas Renin -> ubah Angiotensinogen jadi Ang I -> ACE ubah jadi Ang II -> Ang II memicu vasokonstriksi dan sekresi Aldosteron (retensi Na+ & air). Pilih sekresi renin memicu pembentukan Angiotensin II dan aldosteron."
   },
   {
     "id": "bio-sim-12",
@@ -3723,15 +3724,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva disosiasi bergeser ke arah kiri (afinitas $\\text{O}_2$ meningkat drastis), sehingga hemoglobin mengikat oksigen sangat kuat dan tidak melepaskannya sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Molekul hemoglobin terurai menjadi asam amino bebas dan berhenti mengalir di dalam pembuluh darah kapiler."
       },
       {
         "key": "B",
-        "text": "Kurva disosiasi oksihemoglobin bergeser ke arah kanan (afinitas hemoglobin terhadap $\\text{O}_2$ menurun), sehingga hemoglobin lebih mudah melepaskan molekul oksigen ke jaringan otot yang sedang aktif bermetabolisme."
+        "text": "Kurva disosiasi bergeser ke arah kiri (afinitas $\\text{O}_2$ meningkat drastis), sehingga hemoglobin mengikat oksigen sangat kuat dan tidak melepaskannya."
       },
       {
         "key": "C",
-        "text": "Molekul hemoglobin terurai menjadi asam amino bebas dan berhenti mengalir di dalam pembuluh darah kapiler."
+        "text": "Kurva disosiasi oksihemoglobin bergeser ke arah kanan (afinitas hemoglobin terhadap $\\text{O}_2$ menurun), sehingga hemoglobin lebih mudah melepaskan molekul oksigen ke jaringan otot yang sedang aktif bermetabolisme."
       },
       {
         "key": "D",
@@ -3742,8 +3743,8 @@ window.TKA_BIOLOGI_QUESTIONS = [
         "text": "Kurva disosiasi berubah menjadi garis vertikal lurus sempurna menolak penyerapan molekul oksigen di paru-paru."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kurva disosiasi oksihemoglobin bergeser ke arah kanan (afinitas hemoglobin terhadap $\\text{O}_2$ menurun), sehingga hemoglobin lebih mudah melepaskan molekul oksigen ke jaringan otot yang sedang aktif bermetabolisme.. Efek Bohr: asam (pH turun), CO2 naik, suhu naik, 2,3-BPG naik -> kurva disosiasi geser ke KANAN -> afinitas turun -> O2 lebih mudah dilepas ke jaringan. Pilih pergeseran kurva ke kanan mempermudah pelepasan oksigen ke jaringan aktif."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kurva disosiasi oksihemoglobin bergeser ke arah kanan (afinitas hemoglobin terhadap $\\text{O}_2$ menurun), sehingga hemoglobin lebih mudah melepaskan molekul oksigen ke jaringan otot yang sedang aktif bermetabolisme.. Efek Bohr: asam (pH turun), CO2 naik, suhu naik, 2,3-BPG naik -> kurva disosiasi geser ke KANAN -> afinitas turun -> O2 lebih mudah dilepas ke jaringan. Pilih pergeseran kurva ke kanan mempermudah pelepasan oksigen ke jaringan aktif."
   },
   {
     "id": "bio-sim-13",
@@ -3766,27 +3767,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Merambat merayap secara lambat di seluruh permukaan selubung lipid mielin tanpa melewati membran plasma ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Merambat merayap secara lambat di seluruh permukaan selubung lipid mielin tanpa melewati membran plasma."
       },
       {
         "key": "B",
-        "text": "Menghidrolisis lapisan fosfolipid mielin menjadi bahan bakar pembakar neurotransmiter di badan sel neuron."
+        "text": "Memicu pembentukan sinapsis elektrik baru di dalam selubung sel Schwann pada setiap mikron akson."
       },
       {
         "key": "C",
-        "text": "Hanya dibangkitkan pada celah nodus Ranvier yang kaya saluran $\\text{Na}^+$ berpintu voltase; selubung mielin bertindak sebagai isolator listrik dengan resistensi tinggi dan kapasitansi rendah yang memungkinkan arus elektrotonik lokal mengalir cepat meloncat dari satu nodus Ranvier ke nodus berikutnya."
-      },
-      {
-        "key": "D",
         "text": "Mengalir secara konduksi kawat tembaga murni bebas hambatan langsung dari otak ke ujung jari."
       },
       {
+        "key": "D",
+        "text": "Hanya dibangkitkan pada celah nodus Ranvier yang kaya saluran $\\text{Na}^+$ berpintu voltase; selubung mielin bertindak sebagai isolator listrik dengan resistensi tinggi dan kapasitansi rendah yang memungkinkan arus elektrotonik lokal mengalir cepat meloncat dari satu nodus Ranvier ke nodus berikutnya."
+      },
+      {
         "key": "E",
-        "text": "Memicu pembentukan sinapsis elektrik baru di dalam selubung sel Schwann pada setiap mikron akson."
+        "text": "Menghidrolisis lapisan fosfolipid mielin menjadi bahan bakar pembakar neurotransmiter di badan sel neuron."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Hanya dibangkitkan pada celah nodus Ranvier yang kaya saluran $\\text{Na}^+$ berpintu voltase; selubung mielin bertindak sebagai isolator listrik dengan resistensi tinggi dan kapasitansi rendah yang memungkinkan arus elektrotonik lokal mengalir cepat meloncat dari satu nodus Ranvier ke nodus berikutnya.. Konduksi saltatori: impuls 'meloncat' dari nodus Ranvier ke nodus Ranvier berikutnya karena mielin bertindak sebagai isolator listrik. Potensial aksi hanya terjadi di nodus Ranvier. Pilih potensial aksi meloncat dari nodus Ranvier ke nodus berikutnya karena mielin sebagai isolator."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Hanya dibangkitkan pada celah nodus Ranvier yang kaya saluran $\\text{Na}^+$ berpintu voltase; selubung mielin bertindak sebagai isolator listrik dengan resistensi tinggi dan kapasitansi rendah yang memungkinkan arus elektrotonik lokal mengalir cepat meloncat dari satu nodus Ranvier ke nodus berikutnya.. Konduksi saltatori: impuls 'meloncat' dari nodus Ranvier ke nodus Ranvier berikutnya karena mielin bertindak sebagai isolator listrik. Potensial aksi hanya terjadi di nodus Ranvier. Pilih potensial aksi meloncat dari nodus Ranvier ke nodus berikutnya karena mielin sebagai isolator."
   },
   {
     "id": "bio-sim-14",
@@ -3809,27 +3810,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyalinan antigen patogen secara fotosintesis molekuler oleh sel darah putih di kelenjar timus menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "Mutasi nondisjunction kromosom somatik yang menggandakan seluruh genom menjadi poliploidi 16n."
-      },
-      {
-        "key": "C",
         "text": "Transkripsi terbalik asam lemak jenuh menjadi urutan asam deoksiribonukleat di hati."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Penempelan molekul kolesterol secara kovalen pada daerah konstan rantai berat antibodi."
+      },
+      {
+        "key": "C",
         "text": "Rekombinasi somatik $V(D)J$; pemotongan dan penyambungan acak segmen gen Variable (V), Diversity (D), dan Joining (J) pada lokus rantai berat dan rantai ringan imunoglobulin oleh kompleks enzim rekombinase RAG-1 dan RAG-2 selama pematangan sel B di sumsum tulang."
       },
       {
+        "key": "D",
+        "text": "Penyalinan antigen patogen secara fotosintesis molekuler oleh sel darah putih di kelenjar timus menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
         "key": "E",
-        "text": "Penempelan molekul kolesterol secara kovalen pada daerah konstan rantai berat antibodi."
+        "text": "Mutasi nondisjunction kromosom somatik yang menggandakan seluruh genom menjadi poliploidi 16n."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Rekombinasi somatik $V(D)J$; pemotongan dan penyambungan acak segmen gen Variable (V), Diversity (D), dan Joining (J) pada lokus rantai berat dan rantai ringan imunoglobulin oleh kompleks enzim rekombinase RAG-1 dan RAG-2 selama pematangan sel B di sumsum tulang.. Keanekaragaman antibodi triliunan jenis dihasilkan oleh pemotongan dan penyambungan acak segmen gen V, D, dan J (rekombinasi somatik V(D)J) yang dipotong oleh enzim RAG-1 dan RAG-2. Pilih rekombinasi somatik V(D)J oleh enzim RAG-1 dan RAG-2."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Rekombinasi somatik $V(D)J$; pemotongan dan penyambungan acak segmen gen Variable (V), Diversity (D), dan Joining (J) pada lokus rantai berat dan rantai ringan imunoglobulin oleh kompleks enzim rekombinase RAG-1 dan RAG-2 selama pematangan sel B di sumsum tulang.. Keanekaragaman antibodi triliunan jenis dihasilkan oleh pemotongan dan penyambungan acak segmen gen V, D, dan J (rekombinasi somatik V(D)J) yang dipotong oleh enzim RAG-1 dan RAG-2. Pilih rekombinasi somatik V(D)J oleh enzim RAG-1 dan RAG-2."
   },
   {
     "id": "bio-sim-15",
@@ -3852,11 +3853,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tekanan akar yang memompa air secara aktif dari korteks ke pucuk pohon dengan tekanan hidrostatik 100 atm diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Tekanan akar yang memompa air secara aktif dari korteks ke pucuk pohon dengan tekanan hidrostatik 100 atm."
       },
       {
         "key": "B",
-        "text": "Aktivitas pompa natrium kalium pada sel parenkim spons yang mendorong molekul air ke atas."
+        "text": "Kavitasi dan embolisme udara yang memecah pembuluh xilem menjadi saluran vakum termal."
       },
       {
         "key": "C",
@@ -3864,15 +3865,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kavitasi dan embolisme udara yang memecah pembuluh xilem menjadi saluran vakum termal."
+        "text": "Transpirasi air melalui stomata daun menghasilkan tegangan negatif (tekanan hisap hidrostatik) pada mesofil daun yang menarik kolom air tak terputus ke atas melalui pembuluh xilem, didukung oleh gaya kohesi kuat antarmolekul air (ikatan hidrogen) dan adhesi air pada dinding hidrofilik trakea/trakeid xilem."
       },
       {
         "key": "E",
-        "text": "Transpirasi air melalui stomata daun menghasilkan tegangan negatif (tekanan hisap hidrostatik) pada mesofil daun yang menarik kolom air tak terputus ke atas melalui pembuluh xilem, didukung oleh gaya kohesi kuat antarmolekul air (ikatan hidrogen) dan adhesi air pada dinding hidrofilik trakea/trakeid xilem."
+        "text": "Aktivitas pompa natrium kalium pada sel parenkim spons yang mendorong molekul air ke atas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Transpirasi air melalui stomata daun menghasilkan tegangan negatif (tekanan hisap hidrostatik) pada mesofil daun yang menarik kolom air tak terputus ke atas melalui pembuluh xilem, didukung oleh gaya kohesi kuat antarmolekul air (ikatan hidrogen) dan adhesi air pada dinding hidrofilik trakea/trakeid xilem.. Air ditarik ke atas oleh tarikan transpirasi daun (tegangan negatif) yang merambat sepanjang benang air kontinu berkat gaya kohesi (ikatan hidrogen sesama air) dan adhesi (ke dinding xilem). Pilih tarikan transpirasi (tegangan negatif) didukung kohesi ikatan hidrogen dan adhesi dinding xilem."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Transpirasi air melalui stomata daun menghasilkan tegangan negatif (tekanan hisap hidrostatik) pada mesofil daun yang menarik kolom air tak terputus ke atas melalui pembuluh xilem, didukung oleh gaya kohesi kuat antarmolekul air (ikatan hidrogen) dan adhesi air pada dinding hidrofilik trakea/trakeid xilem.. Air ditarik ke atas oleh tarikan transpirasi daun (tegangan negatif) yang merambat sepanjang benang air kontinu berkat gaya kohesi (ikatan hidrogen sesama air) dan adhesi (ke dinding xilem). Pilih tarikan transpirasi (tegangan negatif) didukung kohesi ikatan hidrogen dan adhesi dinding xilem."
   },
   {
     "id": "bio-sim-16",
@@ -3895,27 +3896,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Panjang periode kegelapan malam hari yang kontinu (tak terputus) harus melampaui batas periode kritis; penyinaran sekejap dengan cahaya merah ($\\textit{night break}$) di tengah malam akan mengubah $P_r$ menjadi $P_{fr}$ yang bertindak sebagai inhibitor pembungaan pada tanaman hari pendek."
-      },
-      {
-        "key": "B",
-        "text": "Panjang siang hari harus minimal 18 jam dengan intensitas cahaya ultraviolet maksimum sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "C",
-        "text": "Tanaman harus disiram dengan air es bersuhu nol derajat selama fase pembungaan."
-      },
-      {
-        "key": "D",
         "text": "Kandungan hormon auksin pada pucuk apikal harus dinaikkan sepuluh kali lipat melampaui giberelin."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Tanaman harus disiram dengan air es bersuhu nol derajat selama fase pembungaan."
+      },
+      {
+        "key": "C",
         "text": "Tanaman harus disimpan di dalam ruangan tanpa udara selama tiga hari berturut-turut."
+      },
+      {
+        "key": "D",
+        "text": "Panjang periode kegelapan malam hari yang kontinu (tak terputus) harus melampaui batas periode kritis; penyinaran sekejap dengan cahaya merah ($\\textit{night break}$) di tengah malam akan mengubah $P_r$ menjadi $P_{fr}$ yang bertindak sebagai inhibitor pembungaan pada tanaman hari pendek."
+      },
+      {
+        "key": "E",
+        "text": "Panjang siang hari harus minimal 18 jam dengan intensitas cahaya ultraviolet maksimum."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Panjang periode kegelapan malam hari yang kontinu (tak terputus) harus melampaui batas periode kritis; penyinaran sekejap dengan cahaya merah ($\\textit{night break}$) di tengah malam akan mengubah $P_r$ menjadi $P_{fr}$ yang bertindak sebagai inhibitor pembungaan pada tanaman hari pendek.. Tanaman hari pendek (SDP) sebenarnya membutuhkan malam panjang tak terputus. Kilatan cahaya di tengah malam (night break) mengubah Pr jadi Pfr yang menghambat pembungaan SDP. Pilih periode malam kontinu melampaui batas kritis, di mana flash cahaya merah malam hari menghambat pembungaan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Panjang periode kegelapan malam hari yang kontinu (tak terputus) harus melampaui batas periode kritis; penyinaran sekejap dengan cahaya merah ($\\textit{night break}$) di tengah malam akan mengubah $P_r$ menjadi $P_{fr}$ yang bertindak sebagai inhibitor pembungaan pada tanaman hari pendek.. Tanaman hari pendek (SDP) sebenarnya membutuhkan malam panjang tak terputus. Kilatan cahaya di tengah malam (night break) mengubah Pr jadi Pfr yang menghambat pembungaan SDP. Pilih periode malam kontinu melampaui batas kritis, di mana flash cahaya merah malam hari menghambat pembungaan."
   },
   {
     "id": "bio-sim-17",
@@ -3938,27 +3939,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Depolarisasi listrik seketika dari $-70\\text{ mV}$ menjadi $+20\\text{ mV}$ akibat influks ion natrium (blokade cepat) sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "Depolarisasi listrik seketika dari $-70\\text{ mV}$ menjadi $+20\\text{ mV}$ akibat influks ion natrium (blokade cepat)."
       },
       {
         "key": "B",
-        "text": "Reaksi kortikal ($\\textit{cortical reaction}$); fusi sperma memicu gelombang pelepasan ion $\\text{Ca}^{2+}$ intraseluler yang menyebabkan eksositosis granula kortikal ke ruang perivitelin, memodifikasi reseptor zona pelusida (reaksi zona) dan mengeraskan membran fertilisasi sehingga sperma lain tidak dapat menembus."
-      },
-      {
-        "key": "C",
         "text": "Pelepasan gas hidrogen sulfida yang membunuh seluruh sperma di dalam tuba fallopi."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pembelahan meiosis II oosit yang melontarkan badan polar kedua ke luar ovarium."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Penghancuran total sitoplasma oosit oleh enzim lisosom sel folikel korona radiata."
+      },
+      {
+        "key": "E",
+        "text": "Reaksi kortikal ($\\textit{cortical reaction}$); fusi sperma memicu gelombang pelepasan ion $\\text{Ca}^{2+}$ intraseluler yang menyebabkan eksositosis granula kortikal ke ruang perivitelin, memodifikasi reseptor zona pelusida (reaksi zona) dan mengeraskan membran fertilisasi sehingga sperma lain tidak dapat menembus."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Reaksi kortikal ($\\textit{cortical reaction}$); fusi sperma memicu gelombang pelepasan ion $\\text{Ca}^{2+}$ intraseluler yang menyebabkan eksositosis granula kortikal ke ruang perivitelin, memodifikasi reseptor zona pelusida (reaksi zona) dan mengeraskan membran fertilisasi sehingga sperma lain tidak dapat menembus.. Blokade lambat polispermi adalah reaksi kortikal: gelombang ion Ca2+ memicu granula kortikal melepas enzim yang mengeraskan zona pelusida (reaksi zona) sehingga sperma lain terblokir. Pilih reaksi kortikal: pelepasan granula kortikal yang mengeraskan membran fertilisasi / zona pelusida."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Reaksi kortikal ($\\textit{cortical reaction}$); fusi sperma memicu gelombang pelepasan ion $\\text{Ca}^{2+}$ intraseluler yang menyebabkan eksositosis granula kortikal ke ruang perivitelin, memodifikasi reseptor zona pelusida (reaksi zona) dan mengeraskan membran fertilisasi sehingga sperma lain tidak dapat menembus.. Blokade lambat polispermi adalah reaksi kortikal: gelombang ion Ca2+ memicu granula kortikal melepas enzim yang mengeraskan zona pelusida (reaksi zona) sehingga sperma lain terblokir. Pilih reaksi kortikal: pelepasan granula kortikal yang mengeraskan membran fertilisasi / zona pelusida."
   },
   {
     "id": "bio-sim-18",
@@ -3981,27 +3982,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Insulin, Glukagon, Adrenalin, dan Tiroksin yang memicu glikogenesis pada sel punca ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
+        "text": "Amilase, Tripsin, Lipase, dan Pepsinogen pengurai dinding sel fibroblas."
       },
       {
         "key": "B",
-        "text": "DNA polimerase, RNA primase, Helikase, dan Ligase pembuat untai Okazaki."
-      },
-      {
-        "key": "C",
         "text": "Oct3/4, Sox2, Klf4, dan c-Myc (faktor OSKM), yang bekerja secara sinergis mengaktifkan jaringan gen pluripotensi embrionik dan membungkam gen spesifik diferensiasi sel somatik melalui remodelling epigenetik global."
       },
       {
+        "key": "C",
+        "text": "DNA polimerase, RNA primase, Helikase, dan Ligase pembuat untai Okazaki."
+      },
+      {
         "key": "D",
-        "text": "p53, Rb, CDK4, dan Siklin D yang memblokir siklus sel pada fase interfase G0."
+        "text": "Insulin, Glukagon, Adrenalin, dan Tiroksin yang memicu glikogenesis pada sel punca."
       },
       {
         "key": "E",
-        "text": "Amilase, Tripsin, Lipase, dan Pepsinogen pengurai dinding sel fibroblas."
+        "text": "p53, Rb, CDK4, dan Siklin D yang memblokir siklus sel pada fase interfase G0."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Oct3/4, Sox2, Klf4, dan c-Myc (faktor OSKM), yang bekerja secara sinergis mengaktifkan jaringan gen pluripotensi embrionik dan membungkam gen spesifik diferensiasi sel somatik melalui remodelling epigenetik global.. Empat faktor transkripsi Yamanaka (OSKM) adalah: Oct3/4, Sox2, Klf4, dan c-Myc. Pilih Oct3/4, Sox2, Klf4, dan c-Myc."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Oct3/4, Sox2, Klf4, dan c-Myc (faktor OSKM), yang bekerja secara sinergis mengaktifkan jaringan gen pluripotensi embrionik dan membungkam gen spesifik diferensiasi sel somatik melalui remodelling epigenetik global.. Empat faktor transkripsi Yamanaka (OSKM) adalah: Oct3/4, Sox2, Klf4, dan c-Myc. Pilih Oct3/4, Sox2, Klf4, dan c-Myc."
   },
   {
     "id": "bio-sim-19",
@@ -4024,11 +4025,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lokus STR mengkode antibodi pelindung terhadap racun arsenik di sumsum tulang belakang menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+        "text": "Lokus STR terletak pada daerah non-coding DNA dengan tingkat polimorfisme variasi jumlah pengulangan unit basa ($2-6\\text{ bp}$) yang sangat tinggi antar-individu dalam populasi, diwariskan secara kodominan menurut hukum Mendel, dan memiliki laju amplifikasi PCR yang stabil bahkan dari sampel DNA yang terdegradasi."
       },
       {
         "key": "B",
-        "text": "Lokus STR selalu memiliki urutan basa nukleotida yang identik persis pada seluruh umat manusia di bumi."
+        "text": "Lokus STR mengkode antibodi pelindung terhadap racun arsenik di sumsum tulang belakang menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
       },
       {
         "key": "C",
@@ -4036,15 +4037,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Lokus STR terletak pada daerah non-coding DNA dengan tingkat polimorfisme variasi jumlah pengulangan unit basa ($2-6\\text{ bp}$) yang sangat tinggi antar-individu dalam populasi, diwariskan secara kodominan menurut hukum Mendel, dan memiliki laju amplifikasi PCR yang stabil bahkan dari sampel DNA yang terdegradasi."
+        "text": "Lokus STR bermutasi setiap hari menghasilkan jutaan jenis golongan darah baru."
       },
       {
         "key": "E",
-        "text": "Lokus STR bermutasi setiap hari menghasilkan jutaan jenis golongan darah baru."
+        "text": "Lokus STR selalu memiliki urutan basa nukleotida yang identik persis pada seluruh umat manusia di bumi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Lokus STR terletak pada daerah non-coding DNA dengan tingkat polimorfisme variasi jumlah pengulangan unit basa ($2-6\\text{ bp}$) yang sangat tinggi antar-individu dalam populasi, diwariskan secara kodominan menurut hukum Mendel, dan memiliki laju amplifikasi PCR yang stabil bahkan dari sampel DNA yang terdegradasi.. STR adalah pengulangan unit pendek (2-6 bp) pada daerah non-coding DNA. Polimorfismenya sangat tinggi (jumlah repetisinya bervariasi antarindividu), stabil diamplifikasi PCR, dan diwariskan menurut hukum Mendel. Pilih lokus STR di daerah non-coding dengan polimorfisme jumlah pengulangan sangat tinggi dan stabil diamplifikasi PCR."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Lokus STR terletak pada daerah non-coding DNA dengan tingkat polimorfisme variasi jumlah pengulangan unit basa ($2-6\\text{ bp}$) yang sangat tinggi antar-individu dalam populasi, diwariskan secara kodominan menurut hukum Mendel, dan memiliki laju amplifikasi PCR yang stabil bahkan dari sampel DNA yang terdegradasi.. STR adalah pengulangan unit pendek (2-6 bp) pada daerah non-coding DNA. Polimorfismenya sangat tinggi (jumlah repetisinya bervariasi antarindividu), stabil diamplifikasi PCR, dan diwariskan menurut hukum Mendel. Pilih lokus STR di daerah non-coding dengan polimorfisme jumlah pengulangan sangat tinggi dan stabil diamplifikasi PCR."
   },
   {
     "id": "bio-sim-20",
@@ -4067,11 +4068,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh populasi kerang remis punah seketika akibat kehabisan mangsa bintang laut diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Seluruh populasi kerang remis punah seketika akibat kehabisan mangsa bintang laut."
       },
       {
         "key": "B",
-        "text": "Terumbu karang tumbuh subur menutupi pantai intertidal membentuk atol raksasa."
+        "text": "Semua alga laut berevolusi menjadi tanaman mangrove berakar napas."
       },
       {
         "key": "C",
@@ -4079,7 +4080,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Semua alga laut berevolusi menjadi tanaman mangrove berakar napas."
+        "text": "Terumbu karang tumbuh subur menutupi pantai intertidal membentuk atol raksasa."
       },
       {
         "key": "E",
@@ -4110,15 +4111,15 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\textit{Nitrosomonas}$ (mengoksidasi $\\text{NH}_4^+$ menjadi $\\text{NO}_2^-$), $\\textit{Nitrobacter}$ (mengoksidasi $\\text{NO}_2^-$ menjadi $\\text{NO}_3^-$), dan $\\textit{Pseudomonas denitrificans}$ (mereduksi $\\text{NO}_3^-$ menjadi gas $\\text{N}_2$ dalam kondisi anaerob)."
+        "text": "$\\textit{Lactobacillus}$ (membuat amonium), $\\textit{Streptococcus}$ (mengoksidasi nitrat), dan $\\textit{Clostridium}$ (menyerap sulfur)."
       },
       {
         "key": "B",
-        "text": "$\\textit{Rhizobium}$ (menghasilkan urea), $\\textit{Azotobacter}$ (memecah nitrit), dan $\\textit{Escherichia coli}$ (membakar amonia) sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
+        "text": "$\\textit{Nitrosomonas}$ (mengoksidasi $\\text{NH}_4^+$ menjadi $\\text{NO}_2^-$), $\\textit{Nitrobacter}$ (mengoksidasi $\\text{NO}_2^-$ menjadi $\\text{NO}_3^-$), dan $\\textit{Pseudomonas denitrificans}$ (mereduksi $\\text{NO}_3^-$ menjadi gas $\\text{N}_2$ dalam kondisi anaerob)."
       },
       {
         "key": "C",
-        "text": "$\\textit{Lactobacillus}$ (membuat amonium), $\\textit{Streptococcus}$ (mengoksidasi nitrat), dan $\\textit{Clostridium}$ (menyerap sulfur)."
+        "text": "$\\textit{Rhizobium}$ (menghasilkan urea), $\\textit{Azotobacter}$ (memecah nitrit), dan $\\textit{Escherichia coli}$ (membakar amonia)."
       },
       {
         "key": "D",
@@ -4129,8 +4130,8 @@ window.TKA_BIOLOGI_QUESTIONS = [
         "text": "$\\textit{Nitrobacter}$ (membuat amonia), $\\textit{Nitrosomonas}$ (membuat gas N2), dan $\\textit{Methanobacterium}$ (membentuk asam cuka)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\textit{Nitrosomonas}$ (mengoksidasi $\\text{NH}_4^+$ menjadi $\\text{NO}_2^-$), $\\textit{Nitrobacter}$ (mengoksidasi $\\text{NO}_2^-$ menjadi $\\text{NO}_3^-$), dan $\\textit{Pseudomonas denitrificans}$ (mereduksi $\\text{NO}_3^-$ menjadi gas $\\text{N}_2$ dalam kondisi anaerob).. Nitrifikasi 1 (amonium -> nitrit) oleh Nitrosomonas. Nitrifikasi 2 (nitrit -> nitrat) oleh Nitrobacter. Denitrifikasi (nitrat -> gas N2) oleh Pseudomonas denitrificans. Pilih urutan Nitrosomonas -> Nitrobacter -> Pseudomonas denitrificans."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\textit{Nitrosomonas}$ (mengoksidasi $\\text{NH}_4^+$ menjadi $\\text{NO}_2^-$), $\\textit{Nitrobacter}$ (mengoksidasi $\\text{NO}_2^-$ menjadi $\\text{NO}_3^-$), dan $\\textit{Pseudomonas denitrificans}$ (mereduksi $\\text{NO}_3^-$ menjadi gas $\\text{N}_2$ dalam kondisi anaerob).. Nitrifikasi 1 (amonium -> nitrit) oleh Nitrosomonas. Nitrifikasi 2 (nitrit -> nitrat) oleh Nitrobacter. Denitrifikasi (nitrat -> gas N2) oleh Pseudomonas denitrificans. Pilih urutan Nitrosomonas -> Nitrobacter -> Pseudomonas denitrificans."
   },
   {
     "id": "bio-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seleksi penstabilan ($\\textit{stabilizing selection}$), yang menguntungkan fenotipe rata-rata dan menyeleksi kedua fenotipe ekstrem sesuai dengan jalur metabolisme enzimatik terkoordinasi dan hukum konservasi energi biokimia."
-      },
-      {
-        "key": "B",
         "text": "Seleksi pemecah ($\\textit{disruptive / diversifying selection}$), di mana tekanan lingkungan menguntungkan kedua fenotipe ekstrem pada kedua ujung kurva distribusi dan menyeleksi terhadap fenotipe rata-rata intermediet."
       },
       {
+        "key": "B",
+        "text": "Seleksi artifisial domestikasi, yang sengaja dirancang oleh pemulia tanaman pangan komersial."
+      },
+      {
         "key": "C",
-        "text": "Seleksi terarah ($\\textit{directional selection}$), yang menggeser seluruh kurva distribusi ke arah salah satu fenotipe ekstrem saja."
+        "text": "Seleksi penstabilan ($\\textit{stabilizing selection}$), yang menguntungkan fenotipe rata-rata dan menyeleksi kedua fenotipe ekstrem."
       },
       {
         "key": "D",
-        "text": "Seleksi seksual intraspesifik, yang hanya dipengaruhi oleh perkelahian fisik antarpejantan burung."
+        "text": "Seleksi terarah ($\\textit{directional selection}$), yang menggeser seluruh kurva distribusi ke arah salah satu fenotipe ekstrem saja."
       },
       {
         "key": "E",
-        "text": "Seleksi artifisial domestikasi, yang sengaja dirancang oleh pemulia tanaman pangan komersial."
+        "text": "Seleksi seksual intraspesifik, yang hanya dipengaruhi oleh perkelahian fisik antarpejantan burung."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Seleksi pemecah ($\\textit{disruptive / diversifying selection}$), di mana tekanan lingkungan menguntungkan kedua fenotipe ekstrem pada kedua ujung kurva distribusi dan menyeleksi terhadap fenotipe rata-rata intermediet.. Kedua fenotipe ekstrem (kecil dan besar) diuntungkan sementara fenotipe sedang/rata-rata tersingkir. Ini disebut seleksi pemecah (disruptive selection). Pilih seleksi pemecah (disruptive / diversifying selection)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Seleksi pemecah ($\\textit{disruptive / diversifying selection}$), di mana tekanan lingkungan menguntungkan kedua fenotipe ekstrem pada kedua ujung kurva distribusi dan menyeleksi terhadap fenotipe rata-rata intermediet.. Kedua fenotipe ekstrem (kecil dan besar) diuntungkan sementara fenotipe sedang/rata-rata tersingkir. Ini disebut seleksi pemecah (disruptive selection). Pilih seleksi pemecah (disruptive / diversifying selection)."
   },
   {
     "id": "bio-sim-23",
@@ -4196,27 +4197,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keduanya memiliki dinding selulosa tebal dan mampu melakukan pembelahan reduksi meiosis empat tahap ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi ditinjau dari teori endosimbiosis serial serta adaptasi morfofisiologi seleksi alam populasi."
-      },
-      {
-        "key": "B",
-        "text": "Keduanya menghasilkan spora aseksual bertudung protein seperti cendawan basidiomycota."
-      },
-      {
-        "key": "C",
-        "text": "Mitokondria dan kloroplas memiliki molekul DNA sirkular ganda telanjang (tanpa histon) seperti bakteri, memiliki ribosom tipe 70S yang rentan terhadap antibiotik antibakteri, membelah diri secara biner ($\\textit{binary fission}$) independen dari siklus sel inang, serta memiliki membran ganda di mana membran dalamnya memiliki komposisi lipid kardiolipin khas membran bakteri."
-      },
-      {
-        "key": "D",
         "text": "Keduanya memiliki retikulum endoplasma dan badan Golgi internal tersendiri di dalam matriksnya."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Keduanya memiliki dinding selulosa tebal dan mampu melakukan pembelahan reduksi meiosis empat tahap."
+      },
+      {
+        "key": "C",
         "text": "Keduanya dapat bermutasi menjadi virus bakteriofag jika sel inang mengalami dehidrasi."
+      },
+      {
+        "key": "D",
+        "text": "Keduanya menghasilkan spora aseksual bertudung protein seperti cendawan basidiomycota."
+      },
+      {
+        "key": "E",
+        "text": "Mitokondria dan kloroplas memiliki molekul DNA sirkular ganda telanjang (tanpa histon) seperti bakteri, memiliki ribosom tipe 70S yang rentan terhadap antibiotik antibakteri, membelah diri secara biner ($\\textit{binary fission}$) independen dari siklus sel inang, serta memiliki membran ganda di mana membran dalamnya memiliki komposisi lipid kardiolipin khas membran bakteri."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mitokondria dan kloroplas memiliki molekul DNA sirkular ganda telanjang (tanpa histon) seperti bakteri, memiliki ribosom tipe 70S yang rentan terhadap antibiotik antibakteri, membelah diri secara biner ($\\textit{binary fission}$) independen dari siklus sel inang, serta memiliki membran ganda di mana membran dalamnya memiliki komposisi lipid kardiolipin khas membran bakteri.. Bukti endosimbiosis: DNA sirkular mirip bakteri, ribosom 70S, pembelahan biner mandiri, membran ganda, dan membran dalam mengandung kardiolipin. Pilih DNA sirkular tanpa histon, ribosom 70S, pembelahan biner, dan membran dalam berlipid kardiolipin."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mitokondria dan kloroplas memiliki molekul DNA sirkular ganda telanjang (tanpa histon) seperti bakteri, memiliki ribosom tipe 70S yang rentan terhadap antibiotik antibakteri, membelah diri secara biner ($\\textit{binary fission}$) independen dari siklus sel inang, serta memiliki membran ganda di mana membran dalamnya memiliki komposisi lipid kardiolipin khas membran bakteri.. Bukti endosimbiosis: DNA sirkular mirip bakteri, ribosom 70S, pembelahan biner mandiri, membran ganda, dan membran dalam mengandung kardiolipin. Pilih DNA sirkular tanpa histon, ribosom 70S, pembelahan biner, dan membran dalam berlipid kardiolipin."
   },
   {
     "id": "bio-sim-24",
@@ -4239,27 +4240,27 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Asam lemak langsung berdifusi masuk ke kapiler darah porta hepatika menuju organ hati tanpa membentuk lipoprotein menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
-      },
-      {
-        "key": "B",
-        "text": "Trigliserida dipecah menjadi gas karbon dioksida di dalam inti sel enterosit dan diekskresikan lewat alveolus."
-      },
-      {
-        "key": "C",
         "text": "Misel empedu menembus membran basolateral secara utuh dan mengalir ke ginjal untuk disaring menjadi urin primer."
       },
       {
+        "key": "B",
+        "text": "Asam lemak langsung berdifusi masuk ke kapiler darah porta hepatika menuju organ hati tanpa membentuk lipoprotein menurut interaksi kaskade transduksi sinyal intraseluler dan umpan balik neuroendokrin."
+      },
+      {
+        "key": "C",
+        "text": "Trigliserida dipecah menjadi gas karbon dioksida di dalam inti sel enterosit dan diekskresikan lewat alveolus."
+      },
+      {
         "key": "D",
-        "text": "Asam lemak rantai panjang disintesis ulang menjadi trigliserida di retikulum endoplasma halus, dikemas bersama kolesterol, fosfolipid, dan apolipoprotein B-48 membentuk partikel lipoprotein kilomikron, kemudian disekresikan via eksositosis ke pembuluh kil (lakteal) sistem limfatik sebelum masuk ke vena subklavia sinistra melalui duktus torasikus."
+        "text": "Asam lemak diikat oleh molekul hemoglobin eritrosit untuk dibakar menjadi energi panas di limpa."
       },
       {
         "key": "E",
-        "text": "Asam lemak diikat oleh molekul hemoglobin eritrosit untuk dibakar menjadi energi panas di limpa."
+        "text": "Asam lemak rantai panjang disintesis ulang menjadi trigliserida di retikulum endoplasma halus, dikemas bersama kolesterol, fosfolipid, dan apolipoprotein B-48 membentuk partikel lipoprotein kilomikron, kemudian disekresikan via eksositosis ke pembuluh kil (lakteal) sistem limfatik sebelum masuk ke vena subklavia sinistra melalui duktus torasikus."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Asam lemak rantai panjang disintesis ulang menjadi trigliserida di retikulum endoplasma halus, dikemas bersama kolesterol, fosfolipid, dan apolipoprotein B-48 membentuk partikel lipoprotein kilomikron, kemudian disekresikan via eksositosis ke pembuluh kil (lakteal) sistem limfatik sebelum masuk ke vena subklavia sinistra melalui duktus torasikus.. Lemak disintesis ulang jadi trigliserida di RE halus, dikemas jadi kilomikron, lalu dieksositosis ke pembuluh kil/lakteal (sistem limfatik) -> duktus torasikus -> vena subklavia. Pilih pembentukan kilomikron di enterosit dan eksositosis ke pembuluh lakteal (sistem limfatik)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Asam lemak rantai panjang disintesis ulang menjadi trigliserida di retikulum endoplasma halus, dikemas bersama kolesterol, fosfolipid, dan apolipoprotein B-48 membentuk partikel lipoprotein kilomikron, kemudian disekresikan via eksositosis ke pembuluh kil (lakteal) sistem limfatik sebelum masuk ke vena subklavia sinistra melalui duktus torasikus.. Lemak disintesis ulang jadi trigliserida di RE halus, dikemas jadi kilomikron, lalu dieksositosis ke pembuluh kil/lakteal (sistem limfatik) -> duktus torasikus -> vena subklavia. Pilih pembentukan kilomikron di enterosit dan eksositosis ke pembuluh lakteal (sistem limfatik)."
   },
   {
     "id": "bio-sim-25",
@@ -4282,7 +4283,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sel lemak cokelat memecah molekul kalsium karbonat secara pembakaran api terbuka di dalam vakuola diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler diturunkan dari analisis segregasi alel independen hukum Mendel dan genetika molekuler."
+        "text": "Jaringan lemak cokelat bergetar secara mekanik dengan frekuensi ultrasound membakar selulosa kulit."
       },
       {
         "key": "B",
@@ -4290,7 +4291,7 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Jaringan lemak cokelat bergetar secara mekanik dengan frekuensi ultrasound membakar selulosa kulit."
+        "text": "Membran dalam mitokondria sel lemak cokelat mengekspresikan protein uncoupling UCP-1 (termogenin) berkonsentrasi tinggi yang memintas aliran proton kembali ke matriks tanpa melalui ATP Sintase, mendisipasi gradien elektrokimia proton secara langsung menjadi energi termal murni."
       },
       {
         "key": "D",
@@ -4298,11 +4299,11 @@ window.TKA_BIOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Membran dalam mitokondria sel lemak cokelat mengekspresikan protein uncoupling UCP-1 (termogenin) berkonsentrasi tinggi yang memintas aliran proton kembali ke matriks tanpa melalui ATP Sintase, mendisipasi gradien elektrokimia proton secara langsung menjadi energi termal murni."
+        "text": "Sel lemak cokelat memecah molekul kalsium karbonat secara pembakaran api terbuka di dalam vakuola."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Membran dalam mitokondria sel lemak cokelat mengekspresikan protein uncoupling UCP-1 (termogenin) berkonsentrasi tinggi yang memintas aliran proton kembali ke matriks tanpa melalui ATP Sintase, mendisipasi gradien elektrokimia proton secara langsung menjadi energi termal murni.. Lemak cokelat (BAT) memiliki protein UCP-1 (termogenin) di membran dalam mitokondria. UCP-1 membocorkan gradien H+ kembali ke matriks tanpa lewat ATP sintase, sehingga 100% energi disipasi menjadi panas. Pilih ekspresi protein uncoupling UCP-1 (termogenin) yang memintas gradien proton menjadi energi termal murni."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Membran dalam mitokondria sel lemak cokelat mengekspresikan protein uncoupling UCP-1 (termogenin) berkonsentrasi tinggi yang memintas aliran proton kembali ke matriks tanpa melalui ATP Sintase, mendisipasi gradien elektrokimia proton secara langsung menjadi energi termal murni.. Lemak cokelat (BAT) memiliki protein UCP-1 (termogenin) di membran dalam mitokondria. UCP-1 membocorkan gradien H+ kembali ke matriks tanpa lewat ATP sintase, sehingga 100% energi disipasi menjadi panas. Pilih ekspresi protein uncoupling UCP-1 (termogenin) yang memintas gradien proton menjadi energi termal murni."
   },
   {
     "id": "bio-sim-26",

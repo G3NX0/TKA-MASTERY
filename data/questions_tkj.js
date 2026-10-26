@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_TKJ_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_TKJ_QUESTIONS = [
   {
     "id": "tkj-lat-e-01",
@@ -11,26 +17,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "/27 dengan subnet mask 255.255.255.224 yang menyediakan kapasitas maksimum 30 usable host."
-      },
-      {
-        "key": "B",
-        "text": "/28 dengan subnet mask 255.255.255.240 yang menyediakan kapasitas maksimum 14 usable host."
-      },
-      {
-        "key": "C",
-        "text": "/26 dengan subnet mask 255.255.255.192 yang menyediakan kapasitas maksimum 62 usable host."
-      },
-      {
-        "key": "D",
         "text": "/25 dengan subnet mask 255.255.255.128 yang menyediakan kapasitas maksimum 126 usable host."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "/26 dengan subnet mask 255.255.255.192 yang menyediakan kapasitas maksimum 62 usable host."
+      },
+      {
+        "key": "C",
         "text": "/24 dengan subnet mask 255.255.255.0 yang menyediakan kapasitas maksimum 254 usable host."
+      },
+      {
+        "key": "D",
+        "text": "/28 dengan subnet mask 255.255.255.240 yang menyediakan kapasitas maksimum 14 usable host."
+      },
+      {
+        "key": "E",
+        "text": "/27 dengan subnet mask 255.255.255.224 yang menyediakan kapasitas maksimum 30 usable host."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "FORMULA KALKULASI USABLE HOST IPV4",
       "latex": "\\text{Usable Host} = 2^{(32 - \\text{prefix})} - 2 \\ge \\text{Host Dibutuhkan}",
@@ -40,7 +46,7 @@ window.TKA_TKJ_QUESTIONS = [
       "concept": "Hitung pangkat dua terkecil yang lebih besar dari total host + 2. Kebutuhan 29 host memerlukan minimal 31 alamat, sehingga blok ukuran 32 (prefix /27) adalah yang paling pas.",
       "execution": "Prefix /28 hanya menyediakan 14 host (kurang). Prefix /27 menyediakan 30 host (mencukupi 29 host dengan sisa 1). Prefix /26 ke atas terlalu boros."
     },
-    "explanation": "Pada subnetting IPv4, jumlah host yang dapat dialokasikan dihitung dengan rumus 2^(32 - prefix) - 2. Untuk 29 perangkat, dibutuhkan minimal 31 alamat (termasuk Network ID dan Broadcast ID). Pangkat 2 terdekat adalah 2^5 = 32 alamat, yang berkorespondensi dengan prefix 32 - 5 = /27 (255.255.255.224), menghasilkan 30 usable host. Pilihan A adalah yang paling efisien.",
+    "explanation": "Pada subnetting IPv4, jumlah host yang dapat dialokasikan dihitung dengan rumus 2^(32 - prefix) - 2. Untuk 29 perangkat, dibutuhkan minimal 31 alamat (termasuk Network ID dan Broadcast ID). Pangkat 2 terdekat adalah 2^5 = 32 alamat, yang berkorespondensi dengan prefix 32 - 5 = /27 (255.255.255.224), menghasilkan 30 usable host. Pilihan E adalah yang paling efisien.",
     "isDiagnostic": true
   },
   {
@@ -55,11 +61,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "50 meter untuk menjaga redaman sinyal frekuensi tinggi di bawah 100 MHz."
+        "text": "500 meter jika dihubungkan secara point-to-point tanpa melewati patch panel."
       },
       {
         "key": "B",
-        "text": "100 meter (90 meter kabel solid horizontal + 10 meter total patch cord)."
+        "text": "50 meter untuk menjaga redaman sinyal frekuensi tinggi di bawah 100 MHz."
       },
       {
         "key": "C",
@@ -67,14 +73,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "250 meter dengan syarat menggunakan konektor modular berpelindung RJ-45 Cat 6A."
+        "text": "100 meter (90 meter kabel solid horizontal + 10 meter total patch cord)."
       },
       {
         "key": "E",
-        "text": "500 meter jika dihubungkan secara point-to-point tanpa melewati patch panel."
+        "text": "250 meter dengan syarat menggunakan konektor modular berpelindung RJ-45 Cat 6A."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "STANDAR PANJANG KABEL TIA/EIA-568",
       "latex": "L_{\\text{channel}} = L_{\\text{permanent link}} (90\\text{ m}) + L_{\\text{patch cords}} (10\\text{ m}) = 100\\text{ m}",
@@ -103,22 +109,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Port Number aplikasi tujuan (Transport Port 16-bit) pada Transport Layer demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
-      },
-      {
-        "key": "C",
-        "text": "MAC Address tujuan (Media Access Control 48-bit hex) pada Data Link Layer."
-      },
-      {
-        "key": "D",
         "text": "Domain Name System FQDN melalui query balik pada Application Layer."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Sequence Number dan Acknowledgment Number pada sesi TCP handshake."
+      },
+      {
+        "key": "D",
+        "text": "MAC Address tujuan (Media Access Control 48-bit hex) pada Data Link Layer."
+      },
+      {
+        "key": "E",
+        "text": "Port Number aplikasi tujuan (Transport Port 16-bit) pada Transport Layer."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "STRUKTUR IDENTITAS LAYER 2",
       "latex": "\\text{MAC} = \\underbrace{\\text{XX:XX:XX}}_{\\text{OUI (Vendor)}} : \\underbrace{\\text{XX:XX:XX}}_{\\text{NIC Serial}} \\quad (48\\text{ bit})",
@@ -143,7 +149,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diameter inti SMF sangat besar (±50 µm) sehingga mampu menampung banyak panjang gelombang cahaya LED murah."
+        "text": "Kabel SMF kebal terhadap efek tekukan tajam (macrobending) tanpa mengalami redaman daya sama sekali."
       },
       {
         "key": "B",
@@ -151,7 +157,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kabel SMF kebal terhadap efek tekukan tajam (macrobending) tanpa mengalami redaman daya sama sekali."
+        "text": "Biaya terminasi dan konektor SMF jauh lebih murah serta tidak membutuhkan proses fusion splicing presisi."
       },
       {
         "key": "D",
@@ -159,7 +165,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Biaya terminasi dan konektor SMF jauh lebih murah serta tidak membutuhkan proses fusion splicing presisi."
+        "text": "Diameter inti SMF sangat besar (±50 µm) sehingga mampu menampung banyak panjang gelombang cahaya LED murah."
       }
     ],
     "correctKey": "D",
@@ -191,7 +197,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Solicit, Advertise, Request, dan Confirm (SARC)."
+        "text": "Handshake, Allocation, Binding, dan Termination (HABT)."
       },
       {
         "key": "C",
@@ -199,7 +205,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Handshake, Allocation, Binding, dan Termination (HABT)."
+        "text": "Solicit, Advertise, Request, dan Confirm (SARC)."
       },
       {
         "key": "E",
@@ -231,26 +237,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "10.0.0.0/8, 172.16.0.0/12, dan 192.168.0.0/16."
-      },
-      {
-        "key": "B",
-        "text": "11.0.0.0/8, 172.32.0.0/12, dan 192.169.0.0/16."
-      },
-      {
-        "key": "C",
-        "text": "127.0.0.0/8, 169.254.0.0/16, dan 224.0.0.0/4."
-      },
-      {
-        "key": "D",
         "text": "8.8.8.8/32, 1.1.1.1/32, dan 208.67.222.222/32."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "10.0.0.0/8, 172.16.0.0/12, dan 192.168.0.0/16."
+      },
+      {
+        "key": "C",
         "text": "100.64.0.0/10, 192.0.2.0/24, dan 198.51.100.0/24."
+      },
+      {
+        "key": "D",
+        "text": "11.0.0.0/8, 172.32.0.0/12, dan 192.169.0.0/16."
+      },
+      {
+        "key": "E",
+        "text": "127.0.0.0/8, 169.254.0.0/16, dan 224.0.0.0/4."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "RENTANG IP PRIVATE RFC 1918",
       "latex": "\\begin{cases} \\text{Kelas A:} & 10.0.0.0 - 10.255.255.255 \\; (/8) \\\\ \\text{Kelas B:} & 172.16.0.0 - 172.31.255.255 \\; (/12) \\\\ \\text{Kelas C:} & 192.168.0.0 - 192.168.255.255 \\; (/16) \\end{cases}",
@@ -275,11 +281,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Putih-Hijau, Hijau, Putih-Oranye, Biru, Putih-Biru, Oranye, Putih-Cokelat, Cokelat sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Putih-Hijau, Hijau, Putih-Oranye, Biru, Putih-Biru, Oranye, Putih-Cokelat, Cokelat."
       },
       {
         "key": "B",
-        "text": "Putih-Oranye, Oranye, Putih-Hijau, Biru, Putih-Biru, Hijau, Putih-Cokelat, Cokelat."
+        "text": "Oranye, Putih-Oranye, Hijau, Putih-Hijau, Biru, Putih-Biru, Cokelat, Putih-Cokelat."
       },
       {
         "key": "C",
@@ -287,14 +293,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Oranye, Putih-Oranye, Hijau, Putih-Hijau, Biru, Putih-Biru, Cokelat, Putih-Cokelat."
+        "text": "Putih-Biru, Biru, Putih-Oranye, Oranye, Putih-Hijau, Hijau, Putih-Cokelat, Cokelat."
       },
       {
         "key": "E",
-        "text": "Putih-Biru, Biru, Putih-Oranye, Oranye, Putih-Hijau, Hijau, Putih-Cokelat, Cokelat."
+        "text": "Putih-Oranye, Oranye, Putih-Hijau, Biru, Putih-Biru, Hijau, Putih-Cokelat, Cokelat."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "URUTAN WARNA STANDAR T568B",
       "latex": "\\text{Pin: } 1(\\text{PO}) - 2(\\text{O}) - 3(\\text{PH}) - 4(\\text{B}) - 5(\\text{PB}) - 6(\\text{H}) - 7(\\text{PC}) - 8(\\text{C})",
@@ -323,11 +329,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Kabel UTP terpasang longgar sehingga hanya mendukung paket data transmisi broadcast lokal guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "Alamat Default Gateway belum diisi atau salah mengarah ke IP di luar subnet 192.168.1.0/24."
       },
       {
         "key": "C",
-        "text": "Alamat Default Gateway belum diisi atau salah mengarah ke IP di luar subnet 192.168.1.0/24."
+        "text": "Workstation mengalami collision domain karena switch menggunakan kabel Cat 5e."
       },
       {
         "key": "D",
@@ -335,10 +341,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Workstation mengalami collision domain karena switch menggunakan kabel Cat 5e."
+        "text": "Kabel UTP terpasang longgar sehingga hanya mendukung paket data transmisi broadcast lokal guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PRINSIP ROUTING LOGIKAL GATEWAY",
       "latex": "\\text{Jika } \\text{IP}_{\\text{dest}} \\notin \\text{Subnet}_{\\text{local}} \\implies \\text{Forward to Default Gateway}",
@@ -367,7 +373,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Record 'PTR' (Pointer Record untuk resolusi pemetaan balik IP ke Domain)."
+        "text": "Record 'A' (Address Record untuk pemetaan FQDN ke IPv4 32-bit)."
       },
       {
         "key": "C",
@@ -375,14 +381,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Record 'A' (Address Record untuk pemetaan FQDN ke IPv4 32-bit)."
+        "text": "Record 'PTR' (Pointer Record untuk resolusi pemetaan balik IP ke Domain)."
       },
       {
         "key": "E",
         "text": "Record 'MX' (Mail Exchange Record untuk mengarahkan pengiriman email server)."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "FORMAT DNS RESOURCE RECORD",
       "latex": "\\texttt{smkhebat.sch.id.}\\quad \\texttt{IN}\\quad \\texttt{A}\\quad \\texttt{103.25.10.5}",
@@ -407,7 +413,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Optical Power Meter (OPM pengukur daya sinyal dBm)."
+        "text": "Fiber Cleaver (Alat pemotong sudut presisi ujung core kaca)."
       },
       {
         "key": "B",
@@ -419,7 +425,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Fiber Cleaver (Alat pemotong sudut presisi ujung core kaca)."
+        "text": "Optical Power Meter (OPM pengukur daya sinyal dBm)."
       },
       {
         "key": "E",
@@ -451,26 +457,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memecah satu broadcast domain besar menjadi beberapa broadcast domain kecil secara logikal demi efisiensi dan keamanan."
-      },
-      {
-        "key": "B",
-        "text": "Meningkatkan daya listrik PoE yang dihantarkan ke perangkat Access Point di plafon untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "C",
         "text": "Menggantikan peran kabel serat optik dengan kabel tembaga berkecepatan 100 Gbps."
       },
       {
+        "key": "B",
+        "text": "Mengubah switch unmanaged menjadi router BGP kelas backbone antar negara."
+      },
+      {
+        "key": "C",
+        "text": "Meningkatkan daya listrik PoE yang dihantarkan ke perangkat Access Point di plafon untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
         "key": "D",
-        "text": "Menghilangkan kebutuhan konfigurasi IP Address pada setiap workstation di jaringan."
+        "text": "Memecah satu broadcast domain besar menjadi beberapa broadcast domain kecil secara logikal demi efisiensi dan keamanan."
       },
       {
         "key": "E",
-        "text": "Mengubah switch unmanaged menjadi router BGP kelas backbone antar negara."
+        "text": "Menghilangkan kebutuhan konfigurasi IP Address pada setiap workstation di jaringan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "SEGMENTASI VLAN PADA SWITCH",
       "latex": "1\\text{ Switch Fisik} \\xrightarrow{\\text{IEEE 802.1Q}} N\\text{ Broadcast Domain Terisolasi}",
@@ -499,11 +505,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Port TCP 443."
+        "text": "Port UDP 53."
       },
       {
         "key": "C",
-        "text": "Port TCP 21."
+        "text": "Port TCP 443."
       },
       {
         "key": "D",
@@ -511,10 +517,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Port UDP 53."
+        "text": "Port TCP 21."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "WELL-KNOWN PORTS STANDAR IANA",
       "latex": "\\text{HTTPS} = \\text{TCP } 443, \\quad \\text{HTTP} = \\text{TCP } 80, \\quad \\text{SSH} = \\text{TCP } 22, \\quad \\text{DNS} = 53",
@@ -539,11 +545,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Network ID: 192.168.10.0 dan Broadcast ID: 192.168.10.63."
+        "text": "Network ID: 192.168.10.0 dan Broadcast ID: 192.168.10.255."
       },
       {
         "key": "B",
-        "text": "Network ID: 192.168.10.64 dan Broadcast ID: 192.168.10.128 demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Network ID: 192.168.10.0 dan Broadcast ID: 192.168.10.63."
       },
       {
         "key": "C",
@@ -555,7 +561,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Network ID: 192.168.10.0 dan Broadcast ID: 192.168.10.255."
+        "text": "Network ID: 192.168.10.64 dan Broadcast ID: 192.168.10.128."
       }
     ],
     "correctKey": "C",
@@ -583,26 +589,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyediakan jumlah non-overlapping channel yang jauh lebih banyak hingga 24 channel mandiri."
-      },
-      {
-        "key": "B",
         "text": "Kecepatan transfer data (throughput) maksimumnya jauh melampaui frekuensi 5 GHz pada jarak dekat."
       },
       {
+        "key": "B",
+        "text": "Menyediakan jumlah non-overlapping channel yang jauh lebih banyak hingga 24 channel mandiri."
+      },
+      {
         "key": "C",
-        "text": "Bebas dari gangguan interferensi gelombang elektromagnetik perangkat Bluetooth dan microwave oven sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Jangkauan sinyal lebih jauh dan kemampuan menembus dinding padat lebih baik karena panjang gelombangnya lebih besar."
       },
       {
         "key": "D",
-        "text": "Jangkauan sinyal lebih jauh dan kemampuan menembus dinding padat lebih baik karena panjang gelombangnya lebih besar."
+        "text": "Bebas dari gangguan interferensi gelombang elektromagnetik perangkat Bluetooth dan microwave oven."
       },
       {
         "key": "E",
         "text": "Mendukung bandwidth channel 160 MHz untuk transmisi ultra-broadband nirkabel."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "HUBUNGAN FREKUENSI DAN PANJANG GELOMBANG",
       "latex": "\\lambda = \\frac{c}{f} \\implies f \\uparrow \\iff \\lambda \\downarrow \\iff \\text{Penetrasi Objek Solid} \\downarrow",
@@ -627,19 +633,19 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ditiup dengan kuat menggunakan kompresor angin bertekanan tinggi ke arah lantai ruang kerja."
-      },
-      {
-        "key": "B",
         "text": "Diusap langsung menggunakan telapak tangan telanjang untuk memastikan meja kerja sudah bersih licin guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
+        "key": "B",
+        "text": "Dilarutkan dengan cairan alkohol 70% agar serpihan kaca meleleh secara kimiawi."
+      },
+      {
         "key": "C",
-        "text": "Dibuang langsung ke tempat sampah kertas biasa di bawah meja kerja teknisi."
+        "text": "Ditiup dengan kuat menggunakan kompresor angin bertekanan tinggi ke arah lantai ruang kerja."
       },
       {
         "key": "D",
-        "text": "Dilarutkan dengan cairan alkohol 70% agar serpihan kaca meleleh secara kimiawi."
+        "text": "Dibuang langsung ke tempat sampah kertas biasa di bawah meja kerja teknisi."
       },
       {
         "key": "E",
@@ -671,26 +677,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "APIPA (Automatic Private IP Addressing / Link-Local IPv4)."
-      },
-      {
-        "key": "B",
-        "text": "SLAAC (Stateless Address Autoconfiguration IPv6)."
-      },
-      {
-        "key": "C",
-        "text": "Static Manual Configuration melalui registry Windows untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "D",
         "text": "DNS Dynamic Update Client Registration."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "DHCP Relay Discovery Fallback Agent."
+      },
+      {
+        "key": "C",
+        "text": "APIPA (Automatic Private IP Addressing / Link-Local IPv4)."
+      },
+      {
+        "key": "D",
+        "text": "Static Manual Configuration melalui registry Windows untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
+        "key": "E",
+        "text": "SLAAC (Stateless Address Autoconfiguration IPv6)."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "RENTANG BLOK IP APIPA (RFC 3927)",
       "latex": "\\text{APIPA} = 169.254.0.1 \\text{ s/d } 169.254.255.254 \\quad (/16)",
@@ -715,26 +721,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Access Port (Untagged port khusus satu VLAN untuk end-device)."
-      },
-      {
-        "key": "B",
         "text": "Trunk Port (Tagging port pembawa banyak VLAN)."
       },
       {
-        "key": "C",
-        "text": "Console Port (Port serial khusus konfigurasi terminal lokal)."
+        "key": "B",
+        "text": "Auxiliary Port (Port modem cadangan koneksi out-of-band)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Mirror Port (Port pengganda paket untuk packet analyzer)."
       },
       {
+        "key": "D",
+        "text": "Console Port (Port serial khusus konfigurasi terminal lokal)."
+      },
+      {
         "key": "E",
-        "text": "Auxiliary Port (Port modem cadangan koneksi out-of-band)."
+        "text": "Access Port (Untagged port khusus satu VLAN untuk end-device)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PERBEDAAN ACCESS VS TRUNK PORT",
       "latex": "\\begin{cases} \\text{Access Port:} & \\text{Membawa 1 VLAN (Untagged frame ke PC)} \\\\ \\text{Trunk Port:} & \\text{Membawa } N\\text{ VLAN (Menyisipkan 4-byte 802.1Q Header)} \\end{cases}",
@@ -759,11 +765,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "IGMP (Internet Group Management Protocol untuk multicast IPTV)."
+        "text": "SMTP (Simple Mail Transfer Protocol untuk pengiriman pesan elektronik) dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
         "key": "B",
-        "text": "SNMP (Simple Network Management Protocol untuk monitoring CPU router)."
+        "text": "ARP (Address Resolution Protocol untuk memetakan IP ke MAC)."
       },
       {
         "key": "C",
@@ -771,11 +777,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "SMTP (Simple Mail Transfer Protocol untuk pengiriman pesan elektronik) dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "IGMP (Internet Group Management Protocol untuk multicast IPTV)."
       },
       {
         "key": "E",
-        "text": "ARP (Address Resolution Protocol untuk memetakan IP ke MAC)."
+        "text": "SNMP (Simple Network Management Protocol untuk monitoring CPU router)."
       }
     ],
     "correctKey": "C",
@@ -803,11 +809,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "RARP (Reverse Address Resolution Protocol melalui multicast) demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "ARP (Address Resolution Protocol melalui paket broadcast ARP Request)."
       },
       {
         "key": "B",
-        "text": "DHCP (Dynamic Host Configuration Protocol melalui unicast)."
+        "text": "RARP (Reverse Address Resolution Protocol melalui multicast)."
       },
       {
         "key": "C",
@@ -815,14 +821,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "ARP (Address Resolution Protocol melalui paket broadcast ARP Request)."
+        "text": "DHCP (Dynamic Host Configuration Protocol melalui unicast)."
       },
       {
         "key": "E",
         "text": "NAT (Network Address Translation melalui translasi port)."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "MEKANISME KERJA PROTOKOL ARP",
       "latex": "\\text{Host A} \\xrightarrow{\\text{ARP Request (Broadcast)}} \\text{Semua PC} \\implies \\text{Host Target} \\xrightarrow{\\text{ARP Reply (Unicast)}} \\text{Host A}",
@@ -851,22 +857,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Membatasi kecepatan download dan upload setiap klien menjadi tepat 512 Kbps."
+        "text": "Mengubah alamat IP privat klien LAN menjadi IP publik dinamis router saat paket keluar menuju internet."
       },
       {
         "key": "C",
-        "text": "Memblokir secara permanen seluruh serangan virus trojan yang masuk melalui port HTTP sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
-      },
-      {
-        "key": "D",
         "text": "Menduplikasi paket data klien ke server cadangan untuk keperluan audit forensik."
       },
       {
+        "key": "D",
+        "text": "Membatasi kecepatan download dan upload setiap klien menjadi tepat 512 Kbps."
+      },
+      {
         "key": "E",
-        "text": "Mengubah alamat IP privat klien LAN menjadi IP publik dinamis router saat paket keluar menuju internet."
+        "text": "Memblokir secara permanen seluruh serangan virus trojan yang masuk melalui port HTTP."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "PRINSIP NAT MASQUERADE (SRC-NAT)",
       "latex": "\\text{IP Private:Port} \\xrightarrow{\\text{Router Masquerade}} \\text{IP Publik Router:Port Baru} \\implies \\text{Internet}",
@@ -895,7 +901,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Konektor FC (Ferrule Connector dengan sistem ulir putar baut metal)."
+        "text": "Konektor RJ-11 (Registered Jack 4-pin untuk jaringan telepon kabel)."
       },
       {
         "key": "C",
@@ -903,11 +909,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Konektor BNC (Bayonet Neill-Concelman untuk kabel koaksial analog)."
+        "text": "Konektor FC (Ferrule Connector dengan sistem ulir putar baut metal)."
       },
       {
         "key": "E",
-        "text": "Konektor RJ-11 (Registered Jack 4-pin untuk jaringan telepon kabel)."
+        "text": "Konektor BNC (Bayonet Neill-Concelman untuk kabel koaksial analog)."
       }
     ],
     "correctKey": "A",
@@ -935,26 +941,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kanal 1, Kanal 2, dan Kanal 3."
-      },
-      {
-        "key": "B",
         "text": "Kanal 1, Kanal 6, dan Kanal 11."
       },
       {
+        "key": "B",
+        "text": "Kanal 1, Kanal 2, dan Kanal 3."
+      },
+      {
         "key": "C",
-        "text": "Kanal 2, Kanal 7, dan Kanal 12 guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "Kanal 3, Kanal 6, dan Kanal 9."
       },
       {
         "key": "D",
-        "text": "Kanal 3, Kanal 6, dan Kanal 9."
+        "text": "Kanal 2, Kanal 7, dan Kanal 12 guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "E",
         "text": "Kanal 4, Kanal 8, dan Kanal 12."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "JARAK KANAL WI-FI 2.4 GHZ",
       "latex": "\\Delta f_{\\text{channel}} = 5\\,\\text{MHz}, \\quad B_{\\text{channel}} = 20\\,\\text{MHz} \\implies \\text{Jarak Aman} \\ge 25\\,\\text{MHz}",
@@ -983,22 +989,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Hanya dapat berjalan pada media serat optik dan menolak koneksi melalui kabel UTP tembaga."
+        "text": "Membutuhkan bandwidth internet minimum 100 Mbps untuk membuka satu sesi command line."
       },
       {
         "key": "C",
-        "text": "Mengirimkan seluruh teks termasuk username dan password dalam format plain text (tidak terenkripsi) sehingga rawan disadap."
+        "text": "Hanya dapat berjalan pada media serat optik dan menolak koneksi melalui kabel UTP tembaga."
       },
       {
         "key": "D",
-        "text": "Membutuhkan bandwidth internet minimum 100 Mbps untuk membuka satu sesi command line."
+        "text": "Mengirimkan seluruh teks termasuk username dan password dalam format plain text (tidak terenkripsi) sehingga rawan disadap."
       },
       {
         "key": "E",
         "text": "Mengubah konfigurasi hardware router menjadi read-only secara otomatis setelah 5 menit."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "ENKRIPSI PROTOKOL REMOTE MANAGEMENT",
       "latex": "\\begin{cases} \\text{Telnet (Port 23):} & \\text{Clear-text / Plain-text (Rawan Eavesdropping via Wireshark)} \\\\ \\text{SSH (Port 22):} & \\text{Asymmetric/Symmetric Encryption (TLS/Diffie-Hellman)} \\end{cases}",
@@ -1027,22 +1033,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Checksum IP yang dibuat sengaja rusak agar paket didrop router target."
-      },
-      {
-        "key": "C",
-        "text": "Fragment Offset yang diisi nilai acak untuk memecah frame data."
-      },
-      {
-        "key": "D",
         "text": "Time to Live (TTL) yang dinaikkan secara bertahap mulai dari nilai 1."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Checksum IP yang dibuat sengaja rusak agar paket didrop router target."
+      },
+      {
+        "key": "D",
         "text": "Source IP Address yang disamarkan dengan metode dynamic IP spoofing."
+      },
+      {
+        "key": "E",
+        "text": "Fragment Offset yang diisi nilai acak untuk memecah frame data."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "MEKANISME KERJA TRACEROUTE (TTL EXPIRY)",
       "latex": "\\text{Hop } 1: \\text{TTL}=1 \\implies \\text{Router 1 reply } \\texttt{ICMP Time Exceeded (Type 11)}",
@@ -1067,7 +1073,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kacamata pelindung sinar UV matahari dan sarung tangan kain biasa."
+        "text": "Full Body Harness dengan tali lanyard ganda penyerap kejut (energy absorber)."
       },
       {
         "key": "B",
@@ -1079,14 +1085,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rompi visibilitas oranye tanpa tali pengait sabuk keselamatan."
+        "text": "Kacamata pelindung sinar UV matahari dan sarung tangan kain biasa."
       },
       {
         "key": "E",
-        "text": "Full Body Harness dengan tali lanyard ganda penyerap kejut (energy absorber)."
+        "text": "Rompi visibilitas oranye tanpa tali pengait sabuk keselamatan."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "STANDAR K3 BEKERJA DI KETINGGIAN (PERMENAKER NO. 9 TAHUN 2016)",
       "latex": "h > 1.8\\,\\text{m} \\implies \\text{Wajib Fall Protection System (Full Body Harness + Lanyard)}",
@@ -1111,7 +1117,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Engineering: /24 (maks 254 host), Finance: /25 (maks 126 host), HRD: /26 (maks 62 host)."
+        "text": "Engineering: /24 (maks 254 host), Finance: /26 (maks 62 host), HRD: /27 (maks 30 host)."
       },
       {
         "key": "B",
@@ -1119,7 +1125,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Engineering: /22 (maks 1022 host), Finance: /24 (maks 254 host), HRD: /25 (maks 126 host)."
+        "text": "Engineering: /24 (maks 254 host), Finance: /25 (maks 126 host), HRD: /26 (maks 62 host)."
       },
       {
         "key": "D",
@@ -1127,7 +1133,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Engineering: /24 (maks 254 host), Finance: /26 (maks 62 host), HRD: /27 (maks 30 host)."
+        "text": "Engineering: /22 (maks 1022 host), Finance: /24 (maks 254 host), HRD: /25 (maks 126 host)."
       }
     ],
     "correctKey": "B",
@@ -1155,15 +1161,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "-5.8 dBm (total loss saluran = 2.8 dB)."
-      },
-      {
-        "key": "B",
         "text": "-8.2 dBm (total loss saluran = 5.2 dB)."
       },
       {
+        "key": "B",
+        "text": "-5.8 dBm (total loss saluran = 2.8 dB)."
+      },
+      {
         "key": "C",
-        "text": "-7.0 dBm (total loss saluran = 4.0 dB)."
+        "text": "-3.8 dBm (total loss saluran = 0.8 dB)."
       },
       {
         "key": "D",
@@ -1171,10 +1177,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "-3.8 dBm (total loss saluran = 0.8 dB)."
+        "text": "-7.0 dBm (total loss saluran = 4.0 dB)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "RUMUS LINK LOSS BUDGET FIBER OPTIK",
       "latex": "\\begin{aligned} \\text{Loss}_{\\text{total}} &= (L \\times \\alpha) + (N_{\\text{splice}} \\times \\text{Loss}_{\\text{sp}}) + (N_{\\text{conn}} \\times \\text{Loss}_{\\text{co}}) \\\\ P_{\\text{rx}} &= P_{\\text{tx}} - \\text{Loss}_{\\text{total}} \\end{aligned}",
@@ -1199,11 +1205,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Switch-3, karena memiliki nilai Bridge Priority tertinggi (40960) yang menunjukkan kapasitas pemrosesan paling besar demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Switch-1, karena memiliki MAC Address dengan nilai hex tertinggi yang menandakan hardware keluaran terbaru."
       },
       {
         "key": "B",
-        "text": "Switch-1, karena memiliki MAC Address dengan nilai hex tertinggi yang menandakan hardware keluaran terbaru."
+        "text": "Switch-2, karena memiliki Bridge Priority terkecil (32768) dan nilai MAC Address terendah di antara prioritas yang sama."
       },
       {
         "key": "C",
@@ -1211,14 +1217,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Switch-2, karena memiliki Bridge Priority terkecil (32768) dan nilai MAC Address terendah di antara prioritas yang sama."
+        "text": "Switch-3, karena memiliki nilai Bridge Priority tertinggi (40960) yang menunjukkan kapasitas pemrosesan paling besar."
       },
       {
         "key": "E",
         "text": "Switch-2 dan Switch-1 menjadi dual active root bridge dengan mekanisme Virtual Router Redundancy Protocol."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "KRITERIA SELEKSI ROOT BRIDGE (BRIDGE ID)",
       "latex": "\\text{Bridge ID} = \\text{Bridge Priority (2 byte)} + \\text{MAC Address (6 byte)}",
@@ -1243,26 +1249,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "interface GigabitEthernet0/0 \n switchport mode trunk \n switchport trunk allowed vlan 10,20"
+        "text": "interface vlan 10 ip address 192.168.10.1 255.255.255.0 no shutdown"
       },
       {
         "key": "B",
-        "text": "interface GigabitEthernet0/0.10 \n encapsulation isl 10 \n ip address 192.168.10.1 255.255.255.128 sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "interface GigabitEthernet0/0.10 encapsulation isl 10 ip address 192.168.10.1 255.255.255.128."
       },
       {
         "key": "C",
-        "text": "interface vlan 10 \n ip address 192.168.10.1 255.255.255.0 \n no shutdown"
+        "text": "interface GigabitEthernet0/0.10 encapsulation dot1Q 10 ip address 192.168.10.1 255.255.255.0"
       },
       {
         "key": "D",
-        "text": "interface GigabitEthernet0/0 \n vlan 10 routing enable \n ip default-gateway 192.168.10.1"
+        "text": "interface GigabitEthernet0/0 vlan 10 routing enable ip default-gateway 192.168.10.1"
       },
       {
         "key": "E",
-        "text": "interface GigabitEthernet0/0.10 \n encapsulation dot1Q 10 \n ip address 192.168.10.1 255.255.255.0"
+        "text": "interface GigabitEthernet0/0 switchport mode trunk switchport trunk allowed vlan 10,20"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "SINTAKS CISCO ROUTER-ON-A-STICK",
       "latex": "\\begin{aligned} &\\texttt{interface GigabitEthernet0/0.10} \\\\ &\\texttt{encapsulation dot1Q 10} \\\\ &\\texttt{ip address 192.168.10.1 255.255.255.0} \\end{aligned}",
@@ -1287,26 +1293,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menetapkan rute ISP-A dengan distance = 1 dan rute ISP-B dengan distance = 2 (atau nilai yang lebih besar)."
-      },
-      {
-        "key": "B",
-        "text": "Menetapkan rute ISP-A dengan distance = 250 dan rute ISP-B dengan distance = 1."
-      },
-      {
-        "key": "C",
-        "text": "Mengatur kedua rute ISP-A dan ISP-B dengan nilai distance = 1 agar terjadi pembagian beban (load balancing ECMP)."
-      },
-      {
-        "key": "D",
         "text": "Menonaktifkan tabel routing static dan menggantinya dengan bridging port interface ISP-A dan ISP-B."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Mengatur kedua rute ISP-A dan ISP-B dengan nilai distance = 1 agar terjadi pembagian beban (load balancing ECMP)."
+      },
+      {
+        "key": "C",
         "text": "Mengatur routing mark pada ISP-B dengan routing table khusus tanpa menentukan default gateway."
+      },
+      {
+        "key": "D",
+        "text": "Menetapkan rute ISP-A dengan distance = 1 dan rute ISP-B dengan distance = 2 (atau nilai yang lebih besar)."
+      },
+      {
+        "key": "E",
+        "text": "Menetapkan rute ISP-A dengan distance = 250 dan rute ISP-B dengan distance = 1."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PRINSIP ADMINISTRATIVE DISTANCE (DISTANCE)",
       "latex": "\\text{Rute Aktif} = \\min(\\text{Distance}) \\implies \\begin{cases} \\text{ISP-A (Primary):} & \\text{Distance} = 1 \\\\ \\text{ISP-B (Floating Backup):} & \\text{Distance} = 2 \\end{cases}",
@@ -1331,26 +1337,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Alamat IP host terkecil pada antarmuka LAN yang terhubung langsung."
-      },
-      {
-        "key": "B",
-        "text": "Nilai OSPF Interface Priority tertinggi (default priority = 1, nilai 0 tidak akan pernah menjadi DR/BDR)."
-      },
-      {
-        "key": "C",
         "text": "Jumlah total rute eksternal yang di-redistribute ke dalam OSPF database."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Nilai OSPF Process ID terkecil yang dikonfigurasikan administrator pada router guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Waktu operasional (uptime) perangkat yang paling lama menyala tanpa reboot."
+      },
+      {
+        "key": "D",
+        "text": "Nilai OSPF Interface Priority tertinggi (default priority = 1, nilai 0 tidak akan pernah menjadi DR/BDR)."
+      },
+      {
+        "key": "E",
+        "text": "Alamat IP host terkecil pada antarmuka LAN yang terhubung langsung."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "URUTAN SELEKSI DR/BDR OSPF",
       "latex": "1.\\; \\max(\\text{OSPF Priority}) \\xrightarrow{\\text{Tie-break}} 2.\\; \\max(\\text{Router ID})",
@@ -1379,7 +1385,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "NAT 1-to-1 (memetakan seluruh IP server langsung ke setiap port switch mahasiswa) untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+        "text": "IGMP Snooping (membatasi penyebaran paket multicast IPTV di dalam switch)."
       },
       {
         "key": "C",
@@ -1391,7 +1397,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "IGMP Snooping (membatasi penyebaran paket multicast IPTV di dalam switch)."
+        "text": "NAT 1-to-1 (memetakan seluruh IP server langsung ke setiap port switch mahasiswa) untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       }
     ],
     "correctKey": "C",
@@ -1419,26 +1425,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "SNR = -155 dB; koneksi terputus total karena berada di bawah ambang batas sinyal minimum."
-      },
-      {
-        "key": "B",
         "text": "SNR = 15 dB; koneksi sangat buruk dan mengalami packet loss ekstrem di atas 50%."
       },
       {
+        "key": "B",
+        "text": "SNR = 65 dB; sinyal terlalu kuat sehingga menimbulkan saturasi pada radio receiver AP."
+      },
+      {
         "key": "C",
-        "text": "SNR = -25 dB; sinyal noise lebih kuat daripada sinyal data sehingga terjadi interferensi parah."
+        "text": "SNR = -155 dB; koneksi terputus total karena berada di bawah ambang batas sinyal minimum."
       },
       {
         "key": "D",
-        "text": "SNR = 25 dB; kualitas sinyal sangat baik untuk throughput tinggi dan streaming video stabil."
+        "text": "SNR = -25 dB; sinyal noise lebih kuat daripada sinyal data sehingga terjadi interferensi parah."
       },
       {
         "key": "E",
-        "text": "SNR = 65 dB; sinyal terlalu kuat sehingga menimbulkan saturasi pada radio receiver AP."
+        "text": "SNR = 25 dB; kualitas sinyal sangat baik untuk throughput tinggi dan streaming video stabil."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "FORMULA SIGNAL-TO-NOISE RATIO (SNR)",
       "latex": "\\text{SNR (dB)} = \\text{RSSI (dBm)} - \\text{Noise Floor (dBm)} = -65 - (-90) = 25\\,\\text{dB}",
@@ -1463,26 +1469,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Chain 'forward' (memproses paket data yang hanya melintasi router dari klien ke internet)."
+        "text": "Chain 'input' (memproses paket yang alamat tujuan IP-nya adalah router itu sendiri)."
       },
       {
         "key": "B",
-        "text": "Chain 'output' (memproses paket yang berasal dari dalam router menuju jaringan luar)."
-      },
-      {
-        "key": "C",
         "text": "Chain 'prerouting' (memproses translasi alamat sebelum keputusan routing diambil)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Chain 'postrouting' (memproses masquerade sesaat sebelum paket keluar fisik)."
       },
       {
+        "key": "D",
+        "text": "Chain 'output' (memproses paket yang berasal dari dalam router menuju jaringan luar)."
+      },
+      {
         "key": "E",
-        "text": "Chain 'input' (memproses paket yang alamat tujuan IP-nya adalah router itu sendiri)."
+        "text": "Chain 'forward' (memproses paket data yang hanya melintasi router dari klien ke internet)."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "ALUR PACKET FLOW FIREWALL MIKROTIK",
       "latex": "\\begin{cases} \\text{Chain input:} & \\text{Client} \\to \\text{Router itu sendiri} \\\\ \\text{Chain forward:} & \\text{Client} \\to \\text{Router} \\to \\text{Host Tujuan (Internet)} \\\\ \\text{Chain output:} & \\text{Router itu sendiri} \\to \\text{Jaringan Luar} \\end{cases}",
@@ -1507,26 +1513,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "/ip firewall nat add chain=dstnat dst-address=203.0.113.10 protocol=tcp dst-port=80 action=dst-nat to-addresses=192.168.10.80 to-ports=80"
-      },
-      {
-        "key": "B",
         "text": "/ip firewall nat add chain=srcnat src-address=192.168.10.80 action=masquerade to-addresses=203.0.113.10 dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "/ip firewall nat add chain=dstnat src-address=203.0.113.10 action=redirect to-ports=80"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "/ip firewall nat add chain=forward in-interface=ether1 protocol=tcp dst-port=80 action=accept"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "/ip firewall nat add chain=srcnat dst-address=192.168.10.80 protocol=tcp action=dst-nat to-ports=8080"
+      },
+      {
+        "key": "E",
+        "text": "/ip firewall nat add chain=dstnat dst-address=203.0.113.10 protocol=tcp dst-port=80 action=dst-nat to-addresses=192.168.10.80 to-ports=80"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "PRINSIP DESTINATION NAT (PORT FORWARDING)",
       "latex": "\\begin{aligned} &\\texttt{chain=dstnat} \\\\ &\\texttt{dst-address=IP\\_Publik \\quad protocol=tcp \\quad dst-port=Port\\_Publik} \\\\ &\\texttt{action=dst-nat \\quad to-addresses=IP\\_Server\\_Lokal \\quad to-ports=Port\\_Lokal} \\end{aligned}",
@@ -1551,26 +1557,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "/etc/ssh/sshd_config dengan permission 777 demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "~/.ssh/id_rsa dengan permission 700."
       },
       {
         "key": "B",
-        "text": "~/.ssh/authorized_keys dengan permission 600."
-      },
-      {
-        "key": "C",
         "text": "~/.ssh/known_hosts dengan permission 644."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "/var/log/auth.log dengan permission 640."
       },
       {
+        "key": "D",
+        "text": "/etc/ssh/sshd_config dengan permission 777."
+      },
+      {
         "key": "E",
-        "text": "~/.ssh/id_rsa dengan permission 700."
+        "text": "~/.ssh/authorized_keys dengan permission 600."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "STRUKTUR FILE SSH KEY AUTHENTICATION",
       "latex": "\\text{Klien: } \\texttt{id\\_rsa (Private)} \\xrightarrow{\\text{Kirim Publik}} \\text{Server: } \\texttt{~/.ssh/authorized\\_keys (Public)}",
@@ -1595,7 +1601,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "2001:db8::ff::42:8329"
+        "text": "2001:db8::ff00:42:8329"
       },
       {
         "key": "B",
@@ -1603,18 +1609,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "2001:db8::ff00:42:8329"
+        "text": "2001:db8:0:0:0:ff:42:8329"
       },
       {
         "key": "D",
-        "text": "2001:db8:0:0:0:ff:42:8329"
+        "text": "2001:db8::ff::42:8329"
       },
       {
         "key": "E",
         "text": "2001::db8::ff00:42:8329"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DUA ATURAN PENYINGKATAN IPV6 (RFC 5952)",
       "latex": "\\begin{aligned} 1.\\; &\\text{Omit leading zeros: } \\texttt{0db8} \\to \\texttt{db8}, \\; \\texttt{0042} \\to \\texttt{42} \\\\ 2.\\; &\\text{Compress contiguous zeros: } \\texttt{:0000:0000:0000:} \\to \\texttt{::} \\; (\\text{Hanya } 1\\times) \\end{aligned}",
@@ -1639,15 +1645,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "FIFO (First In First Out) tanpa konfigurasi packet limit maupun rate burst."
+        "text": "RED (Random Early Detection) untuk menjatuhkan paket TCP secara acak pada buffer penuh."
       },
       {
         "key": "B",
-        "text": "RED (Random Early Detection) untuk menjatuhkan paket TCP secara acak pada buffer penuh sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "SFQ (Stochastic Fairness Queuing) dengan fixed limit tepat 128 Kbps per workstation."
       },
       {
         "key": "C",
-        "text": "SFQ (Stochastic Fairness Queuing) dengan fixed limit tepat 128 Kbps per workstation."
+        "text": "FIFO (First In First Out) tanpa konfigurasi packet limit maupun rate burst."
       },
       {
         "key": "D",
@@ -1687,11 +1693,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Memperluas jangkauan transmisi sinyal radio Access Point hingga dua kali lipat lebih jauh."
+        "text": "Kebal terhadap serangan offline dictionary attack (kamus sandi) dan menyediakan forward secrecy."
       },
       {
         "key": "C",
-        "text": "Mendukung transmisi data tanpa menggunakan enkripsi algoritma simetris apapun."
+        "text": "Memperluas jangkauan transmisi sinyal radio Access Point hingga dua kali lipat lebih jauh."
       },
       {
         "key": "D",
@@ -1699,10 +1705,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kebal terhadap serangan offline dictionary attack (kamus sandi) dan menyediakan forward secrecy."
+        "text": "Mendukung transmisi data tanpa menggunakan enkripsi algoritma simetris apapun."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "MEKANISME WPA3 SIMULTANEOUS AUTHENTICATION OF EQUALS",
       "latex": "\\text{Dragonfly Handshake (SAE)} \\implies \\text{Zero Offline Brute Force} + \\text{Forward Secrecy}",
@@ -1727,26 +1733,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendukung autentikasi berbasis pengguna (USM) dan enkripsi paket (privacy) menggunakan algoritma AES/DES."
-      },
-      {
-        "key": "B",
-        "text": "Meningkatkan kecepatan sampling trafik antarmuka dari hitungan menit menjadi milidetik murni."
-      },
-      {
-        "key": "C",
-        "text": "Mengizinkan query monitoring tanpa memerlukan konfigurasi port UDP 161 pada firewall."
-      },
-      {
-        "key": "D",
         "text": "Menyederhanakan keamanan dengan menggunakan kata kunci community string publik 'public'."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Menghilangkan struktur hierarki Object Identifier (OID) dan Management Information Base (MIB) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+      },
+      {
+        "key": "C",
+        "text": "Mendukung autentikasi berbasis pengguna (USM) dan enkripsi paket (privacy) menggunakan algoritma AES/DES."
+      },
+      {
+        "key": "D",
+        "text": "Meningkatkan kecepatan sampling trafik antarmuka dari hitungan menit menjadi milidetik murni."
+      },
+      {
+        "key": "E",
+        "text": "Mengizinkan query monitoring tanpa memerlukan konfigurasi port UDP 161 pada firewall."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "LEVEL KEAMANAN SNMP V3 (USM)",
       "latex": "\\begin{cases} \\text{noAuthNoPriv:} & \\text{Tanpa autentikasi, tanpa enkripsi} \\\\ \\text{authNoPriv:} & \\text{Autentikasi MD5/SHA, tanpa enkripsi} \\\\ \\text{authPriv:} & \\text{Autentikasi SHA + Enkripsi AES (Paling Aman)} \\end{cases}",
@@ -1771,26 +1777,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Switch akan membiarkan paket lewat namun bandwidth laptop dibatasi menjadi 10 Kbps."
-      },
-      {
-        "key": "B",
         "text": "Port switch akan langsung masuk ke status 'err-disable' (mati total) dan lampu indikator port berubah warna amber/oranye."
       },
       {
-        "key": "C",
-        "text": "Switch mengirimkan peringatan email ke administrator tetapi laptop asing tetap dapat mengakses server lokal untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Laptop asing secara otomatis diformat sistem operasinya oleh switch melalui perintah TFTP."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Switch merestart dirinya sendiri dan menghapus seluruh tabel VLAN yang tersimpan di flash."
+      },
+      {
+        "key": "D",
+        "text": "Switch mengirimkan peringatan email ke administrator tetapi laptop asing tetap dapat mengakses server lokal untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
+        "key": "E",
+        "text": "Switch akan membiarkan paket lewat namun bandwidth laptop dibatasi menjadi 10 Kbps."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TIGA MODE VIOLATION PORT SECURITY CISCO",
       "latex": "\\begin{cases} \\texttt{protect:} & \\text{Drop paket MAC liar, port tetap menyala, no log} \\\\ \\texttt{restrict:} & \\text{Drop paket MAC liar, port tetap menyala, catat log SNMP} \\\\ \\texttt{shutdown:} & \\text{Matikan port langsung ke status err-disable (Paling Aman)} \\end{cases}",
@@ -1815,26 +1821,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghentikan layanan web server dan mengalihkan seluruh lalu lintas ke router gateway di IP 127.0.0.1 dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "Membatasi koneksi maksimum dari satu IP address klien menjadi tepat 3000 request per detik."
       },
       {
         "key": "B",
-        "text": "Melakukan enkripsi file HTML dengan protokol TLS 1.3 sebelum disimpan ke harddisk server."
-      },
-      {
-        "key": "C",
         "text": "Meneruskan setiap permintaan HTTP dari klien luar ke aplikasi backend Node.js/Python yang berjalan di port lokal 3000."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Membuat database MySQL baru di memori RAM pada alamat port 3000 secara otomatis."
       },
       {
+        "key": "D",
+        "text": "Menghentikan layanan web server dan mengalihkan seluruh lalu lintas ke router gateway di IP 127.0.0.1 dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+      },
+      {
         "key": "E",
-        "text": "Membatasi koneksi maksimum dari satu IP address klien menjadi tepat 3000 request per detik."
+        "text": "Melakukan enkripsi file HTML dengan protokol TLS 1.3 sebelum disimpan ke harddisk server."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "ARSITEKTUR NGINX REVERSE PROXY",
       "latex": "\\text{Client (Internet:80)} \\xrightarrow{\\text{HTTP}} \\text{Nginx (Reverse Proxy)} \\xrightarrow{\\texttt{proxy\\_pass}} \\text{App Backend (127.0.0.1:3000)}",
@@ -1859,15 +1865,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kabel yang terbakar oleh arus listrik tegangan tinggi dari petir."
+        "text": "Kabel mengalami induksi elektromagnetik dari kawat tembaga di sekitarnya."
       },
       {
         "key": "B",
-        "text": "Sambungan leburan fusion splice sempurna yang sama sekali tidak memiliki redaman demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Sambungan leburan fusion splice sempurna yang sama sekali tidak memiliki redaman."
       },
       {
         "key": "C",
-        "text": "Kabel mengalami induksi elektromagnetik dari kawat tembaga di sekitarnya."
+        "text": "Kondisi di mana diameter core serat optik tiba-tiba membesar secara alami."
       },
       {
         "key": "D",
@@ -1875,7 +1881,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kondisi di mana diameter core serat optik tiba-tiba membesar secara alami."
+        "text": "Kabel yang terbakar oleh arus listrik tegangan tinggi dari petir."
       }
     ],
     "correctKey": "D",
@@ -1903,11 +1909,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tidak memerlukan konfigurasi kunci kriptografi publik maupun privat antar perangkat."
+        "text": "Basis kode sangat ringkas (~4.000 baris kode), performa throughput tinggi di kernel space, dan menggunakan kriptografi modern Curve25519."
       },
       {
         "key": "B",
-        "text": "Beroperasi secara eksklusif menggunakan protokol TCP port 443 tanpa pernah menggunakan UDP sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Beroperasi secara eksklusif menggunakan protokol TCP port 443 tanpa pernah menggunakan UDP."
       },
       {
         "key": "C",
@@ -1919,10 +1925,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Basis kode sangat ringkas (~4.000 baris kode), performa throughput tinggi di kernel space, dan menggunakan kriptografi modern Curve25519."
+        "text": "Tidak memerlukan konfigurasi kunci kriptografi publik maupun privat antar perangkat."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KOMPARASI EFISIENSI KODE VPN",
       "latex": "\\text{OpenVPN} \\approx 100{,}000\\text{ LOC} \\quad \\text{vs} \\quad \\text{WireGuard} \\approx 4{,}000\\text{ LOC}",
@@ -1947,26 +1953,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengalikan kapasitas bandwidth gabungan (agregasi 4 Gbps) sekaligus menyediakan redundansi link tanpa diblokir oleh Spanning Tree."
-      },
-      {
-        "key": "B",
-        "text": "Mengubah fungsi switch layer 2 menjadi router BGP yang mampu menampung full internet routing table guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
-      },
-      {
-        "key": "C",
         "text": "Menghilangkan kebutuhan konfigurasi VLAN tagging pada antarmuka trunk antar switch."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Mengurangi konsumsi listrik port switch hingga 75% saat lalu lintas data sedang sepi."
+      },
+      {
+        "key": "C",
+        "text": "Mengalikan kapasitas bandwidth gabungan (agregasi 4 Gbps) sekaligus menyediakan redundansi link tanpa diblokir oleh Spanning Tree."
+      },
+      {
+        "key": "D",
+        "text": "Mengubah fungsi switch layer 2 menjadi router BGP yang mampu menampung full internet routing table guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "E",
         "text": "Memperbolehkan satu komputer klien menggunakan 4 alamat IP privat yang berbeda secara bersamaan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "PRINSIP LINK AGGREGATION (LACP 802.3AD)",
       "latex": "4 \\times 1\\,\\text{Gbps Fisik Link} \\xrightarrow{\\text{LACP Bonding}} 1 \\times 4\\,\\text{Gbps Logikal PortChannel}",
@@ -1995,22 +2001,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mempercepat pemrosesan paket data koneksi yang sudah sah terjalin tanpa harus mencocokkan ke ratusan aturan filter di bawahnya (menghemat CPU router)."
-      },
-      {
-        "key": "C",
-        "text": "Menghapus seluruh rekaman log koneksi di harddisk router agar memori penyimpanan tidak penuh untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "D",
         "text": "Mengizinkan pengguna tak dikenal dari internet publik membobol password router tanpa batasan."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Mempercepat pemrosesan paket data koneksi yang sudah sah terjalin tanpa harus mencocokkan ke ratusan aturan filter di bawahnya (menghemat CPU router)."
+      },
+      {
+        "key": "D",
         "text": "Mengubah seluruh paket data TCP menjadi paket data UDP agar proses transmisi lebih cepat."
+      },
+      {
+        "key": "E",
+        "text": "Menghapus seluruh rekaman log koneksi di harddisk router agar memori penyimpanan tidak penuh untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "OPTIMASI FILTER STATEFUL CONNECTION TRACKING",
       "latex": "\\text{Paket Masuk} \\implies \\text{Cek Connection State} \\begin{cases} \\texttt{established/related} &\\to \\text{Accept Langsung (Bypass Rules)} \\\\ \\texttt{new/invalid} &\\to \\text{Evaluasi Sisa Rules di Bawah} \\end{cases}",
@@ -2035,26 +2041,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maksimum $\\le 3.5\\text{ dB}$ per titik sambungan fusi serat optik."
-      },
-      {
-        "key": "B",
-        "text": "Tepat $0.00\\text{ dB}$ tanpa boleh ada deviasi sudut pantul sedikit pun."
-      },
-      {
-        "key": "C",
         "text": "Maksimum $\\le 0.05\\text{ dB}$ (ideal $0.01 - 0.03\\text{ dB}$ per titik sambungan)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Antara $1.0\\text{ dB}$ sampai dengan $2.5\\text{ dB}$ pada suhu ruangan kerja normal."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Tepat $0.00\\text{ dB}$ tanpa boleh ada deviasi sudut pantul sedikit pun."
+      },
+      {
+        "key": "D",
         "text": "Tergantung pada warna selubung tabung loose tube kabel yang sedang disambung."
+      },
+      {
+        "key": "E",
+        "text": "Maksimum $\\le 3.5\\text{ dB}$ per titik sambungan fusi serat optik."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "STANDAR LOSS SAMBUNGAN FUSION SPLICING (ITU-T G.652)",
       "latex": "\\text{Splice Loss}_{\\text{SMF}} \\le 0.05\\,\\text{dB} \\quad (\\text{Ideal: } \\le 0.02\\,\\text{dB})",
@@ -2079,15 +2085,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengukur latensi ping ICMP ke setiap router hop yang dilewati menuju server DNS publik dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "Mengenkripsi kueri DNS menggunakan protokol DNS-over-HTTPS (DoH) ke Cloudflare."
       },
       {
         "key": "B",
-        "text": "Mengunduh file zona DNS secara lengkap menggunakan teknik DNS Zone Transfer (AXFR)."
+        "text": "Memperbaiki secara otomatis kesalahan ketik konfigurasi pada berkas /etc/resolv.conf."
       },
       {
         "key": "C",
-        "text": "Mengenkripsi kueri DNS menggunakan protokol DNS-over-HTTPS (DoH) ke Cloudflare."
+        "text": "Mengukur latensi ping ICMP ke setiap router hop yang dilewati menuju server DNS publik dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
         "key": "D",
@@ -2095,7 +2101,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memperbaiki secara otomatis kesalahan ketik konfigurasi pada berkas /etc/resolv.conf."
+        "text": "Mengunduh file zona DNS secara lengkap menggunakan teknik DNS Zone Transfer (AXFR)."
       }
     ],
     "correctKey": "D",
@@ -2123,11 +2129,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menambahkan angka `AA:BB` di akhir MAC Address dan mengalikan octet pertama dengan angka dua demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Mengonversi seluruh digit hex genap menjadi nol dan digit ganjil menjadi huruf F."
       },
       {
         "key": "B",
-        "text": "Menghapus 3 byte pertama OUI vendor dan menggantinya dengan prefix link-local `FE80::`."
+        "text": "Menyisipkan 16-bit hex `FF:FE` di tengah-tengah MAC Address dan membalik bit ke-7 (Universal/Local bit) pada octet pertama."
       },
       {
         "key": "C",
@@ -2135,14 +2141,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengonversi seluruh digit hex genap menjadi nol dan digit ganjil menjadi huruf F."
+        "text": "Menambahkan angka `AA:BB` di akhir MAC Address dan mengalikan octet pertama dengan angka dua."
       },
       {
         "key": "E",
-        "text": "Menyisipkan 16-bit hex `FF:FE` di tengah-tengah MAC Address dan membalik bit ke-7 (Universal/Local bit) pada octet pertama."
+        "text": "Menghapus 3 byte pertama OUI vendor dan menggantinya dengan prefix link-local `FE80::`."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "MEKANISME TRANSFORMASI IEEE EUI-64",
       "latex": "\\begin{aligned} \\text{MAC: } & \\texttt{00:1A:2B} : \\texttt{3C:4D:5E} \\\\ \\text{Sisip FFFE: } & \\texttt{00:1A:2B}:\\mathbf{FF:FE}:\\texttt{3C:4D:5E} \\\\ \\text{Invert Bit-7: } & \\texttt{00} (\\mathbf{0}00000\\mathbf{0}0_2) \\to \\texttt{02} (000000\\mathbf{1}0_2) \\implies \\texttt{021a:2bff:fe3c:4d5e} \\end{aligned}",
@@ -2167,26 +2173,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maksimum $\\le 5\\,\\Omega$ (Ohm), dan idealnya di bawah $1 - 2\\,\\Omega$ untuk instalasi telekomunikasi sensitif."
-      },
-      {
-        "key": "B",
-        "text": "Minimal harus di atas $50\\,\\Omega$ agar muatan petir tidak merusak lapisan tanah."
-      },
-      {
-        "key": "C",
         "text": "Tepat $100\\,\\Omega$ agar serasi dengan impedansi karakteristik kabel UTP tembaga."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Antara $20\\,\\Omega$ sampai $35\\,\\Omega$ tergantung jenis batuan di lokasi menara."
       },
       {
+        "key": "C",
+        "text": "Minimal harus di atas $50\\,\\Omega$ agar muatan petir tidak merusak lapisan tanah."
+      },
+      {
+        "key": "D",
+        "text": "Tidak perlu diukur asalkan tembaga penangkal petir ditancapkan sedalam minimal 10 cm."
+      },
+      {
         "key": "E",
-        "text": "Tidak perlu diukur asalkan tembaga penangkal petir ditancapkan sedalam minimal 10 cm sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Maksimum $\\le 5\\,\\Omega$ (Ohm), dan idealnya di bawah $1 - 2\\,\\Omega$ untuk instalasi telekomunikasi sensitif."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "STANDAR RESISTANSI GROUNDING PUIL & ITU-T",
       "latex": "R_{\\text{grounding}} \\le 5\\,\\Omega \\quad (\\text{Rekomendasi Telekomunikasi: } \\le 1 - 2\\,\\Omega)",
@@ -2211,26 +2217,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "R1 meng-generate LSA Type 1 (Router LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 2 (Network LSA)."
-      },
-      {
-        "key": "B",
-        "text": "R1 meng-generate LSA Type 4 (ASBR Summary LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 7 (NSSA External LSA)."
-      },
-      {
-        "key": "C",
         "text": "R1 meng-generate LSA Type 3 (Summary LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 5 (AS External LSA)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "R1 meng-generate LSA Type 5 (External LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 3 (Summary LSA)."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "R1 meng-generate LSA Type 4 (ASBR Summary LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 7 (NSSA External LSA)."
+      },
+      {
+        "key": "D",
         "text": "R1 meng-generate LSA Type 2 (Network LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 1 (Router LSA)."
+      },
+      {
+        "key": "E",
+        "text": "R1 meng-generate LSA Type 1 (Router LSA), dan rute eksternal dari R3 disebarkan sebagai LSA Type 2 (Network LSA)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "TAKSONOMI TIPE LSA PADA PROTOKOL OSPF",
       "latex": "\\begin{aligned} \\text{LSA 1:} & \\text{ Router (Intra-Area)} & \\text{LSA 4:} & \\text{ ASBR Summary (Menuju ASBR)} \\\\ \\text{LSA 2:} & \\text{ Network (Dihasilkan DR)} & \\text{LSA 5:} & \\text{ AS External (Dihasilkan ASBR)} \\\\ \\text{LSA 3:} & \\text{ Summary (Dihasilkan ABR)} & \\text{LSA 7:} & \\text{ NSSA External (Dihasilkan NSSA)} \\end{aligned}",
@@ -2255,7 +2261,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rute dari ISP-2, karena memiliki nilai AS Path yang lebih pendek (1 AS hop vs 2 AS hop), dievaluasi sebelum Local Preference guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "Rute dari ISP-1, karena memiliki nilai MED yang lebih tinggi yang menandakan prioritas metrik terbesar."
       },
       {
         "key": "B",
@@ -2263,18 +2269,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kedua rute dibagikan beban lalu lintasnya (load balancing) karena nilai Weight keduanya bernilai sama-sama 0."
+        "text": "Rute dari ISP-2, karena memiliki nilai AS Path yang lebih pendek (1 AS hop vs 2 AS hop), dievaluasi sebelum Local Preference guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "D",
-        "text": "Rute dari ISP-1, karena memiliki nilai Local Preference yang lebih tinggi (200 > 100), dievaluasi sebelum mempertimbangkan panjang AS Path."
+        "text": "Kedua rute dibagikan beban lalu lintasnya (load balancing) karena nilai Weight keduanya bernilai sama-sama 0."
       },
       {
         "key": "E",
-        "text": "Rute dari ISP-1, karena memiliki nilai MED yang lebih tinggi yang menandakan prioritas metrik terbesar."
+        "text": "Rute dari ISP-1, karena memiliki nilai Local Preference yang lebih tinggi (200 > 100), dievaluasi sebelum mempertimbangkan panjang AS Path."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "URUTAN HIERARKI BGP BEST PATH SELECTION",
       "latex": "1.\\,\\text{Weight (Highest)} \\to 2.\\,\\text{Local-Pref (Highest)} \\to 3.\\,\\text{Originate} \\to 4.\\,\\text{AS-Path (Shortest)} \\to 5.\\,\\text{Origin Code} \\to 6.\\,\\text{MED (Lowest)}",
@@ -2299,26 +2305,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "192.168.16.0/21; dan mengaktifkan split horizon pada seluruh antarmuka backbone OSPF."
-      },
-      {
-        "key": "B",
-        "text": "192.168.0.0/20; dan menyetel Administrative Distance rute summary menjadi bernilai 255 untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "C",
         "text": "192.168.16.0/23; dan memblokir paket ICMP redirect pada switch access layer."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "192.168.18.0/22; dan mengaktifkan fitur Proxy ARP pada antarmuka trunk router."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "192.168.16.0/21; dan mengaktifkan split horizon pada seluruh antarmuka backbone OSPF."
+      },
+      {
+        "key": "D",
         "text": "192.168.16.0/22; dan menambahkan rute statis 192.168.16.0/22 ke interface 'null0' (blackhole) untuk mencegah routing loop."
+      },
+      {
+        "key": "E",
+        "text": "192.168.0.0/20; dan menyetel Administrative Distance rute summary menjadi bernilai 255 untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "KALKULASI RUTE RINGKASAN (ROUTE SUMMARIZATION)",
       "latex": "\\begin{aligned} .16 &= 000100\\mathbf{00}_2 \\\\ .17 &= 000100\\mathbf{01}_2 \\\\ .18 &= 000100\\mathbf{10}_2 \\\\ .19 &= 000100\\mathbf{11}_2 \\end{aligned} \\implies 6\\text{ bit sama di oktet ke-3} \\implies 16 + 6 = 22\\text{ bit} \\implies /22",
@@ -2351,15 +2357,15 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "BPDU Guard mengubah mode port menjadi trunking otomatis, sedangkan Root Guard menghapus tabel CAM jika terjadi banjir ARP."
+        "text": "Keduanya berfungsi identik untuk mengaktifkan Dynamic Trunking Protocol (DTP) secara agresif pada antarmuka access."
       },
       {
         "key": "D",
-        "text": "BPDU Guard mempercepat proses konvergensi STP dari 30 detik menjadi 1 detik, sedangkan Root Guard memblokir seluruh frame broadcast dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "BPDU Guard mengubah mode port menjadi trunking otomatis, sedangkan Root Guard menghapus tabel CAM jika terjadi banjir ARP."
       },
       {
         "key": "E",
-        "text": "Keduanya berfungsi identik untuk mengaktifkan Dynamic Trunking Protocol (DTP) secara agresif pada antarmuka access."
+        "text": "BPDU Guard mempercepat proses konvergensi STP dari 30 detik menjadi 1 detik, sedangkan Root Guard memblokir seluruh frame broadcast dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       }
     ],
     "correctKey": "A",
@@ -2387,7 +2393,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dispersi Modal (Modal Dispersion akibat perbedaan sudut pantul multi-mode) demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Self-Phase Modulation akibat non-linearitas daya optik yang terlalu rendah."
       },
       {
         "key": "B",
@@ -2395,15 +2401,15 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Atenuasi Rayleigh Scattering akibat kotoran mikroskopis partikel kaca."
+        "text": "Four-Wave Mixing akibat polarisasi melingkar gelombang radio microwave."
       },
       {
         "key": "D",
-        "text": "Self-Phase Modulation akibat non-linearitas daya optik yang terlalu rendah."
+        "text": "Dispersi Modal (Modal Dispersion akibat perbedaan sudut pantul multi-mode)."
       },
       {
         "key": "E",
-        "text": "Four-Wave Mixing akibat polarisasi melingkar gelombang radio microwave."
+        "text": "Atenuasi Rayleigh Scattering akibat kotoran mikroskopis partikel kaca."
       }
     ],
     "correctKey": "B",
@@ -2431,7 +2437,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Koneksi TCP telah diputus secara paksa oleh server dengan flag RST (Reset connection)."
+        "text": "Server meminta klien untuk melipatgandakan ukuran segmen Maximum Transmission Unit (MTU) menjadi 9000 bytes."
       },
       {
         "key": "B",
@@ -2439,18 +2445,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Buffer penerima (Receive Buffer) pada server sudah penuh total, sehingga klien wajib menghentikan pengiriman data dan hanya mengirim TCP Zero Window Probe secara berkala."
+        "text": "Koneksi TCP telah diputus secara paksa oleh server dengan flag RST (Reset connection)."
       },
       {
         "key": "D",
-        "text": "Server meminta klien untuk melipatgandakan ukuran segmen Maximum Transmission Unit (MTU) menjadi 9000 bytes sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Server berhasil menyelesaikan handshake dan meminta autentikasi username SSL baru."
       },
       {
         "key": "E",
-        "text": "Server berhasil menyelesaikan handshake dan meminta autentikasi username SSL baru."
+        "text": "Buffer penerima (Receive Buffer) pada server sudah penuh total, sehingga klien wajib menghentikan pengiriman data dan hanya mengirim TCP Zero Window Probe secara berkala."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "KONTROL ALIRAN DATA TCP SLIDING WINDOW",
       "latex": "\\text{Throughput Maksimum} = \\frac{\\text{TCP Window Size}}{\\text{Round-Trip Time (RTT)}} \\implies \\text{Win}=0 \\implies \\text{Throughput}=0",
@@ -2475,26 +2481,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memperbesar nilai MTU kartu jaringan menjadi 16.000 bytes agar paket SYN dapat ditampung sekaligus."
-      },
-      {
-        "key": "B",
-        "text": "Menonaktifkan protokol TCP pada kernel dan mengganti seluruh port HTTP web server menjadi protokol UDP mentah guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
-      },
-      {
-        "key": "C",
         "text": "Mengirimkan paket ICMP Destination Unreachable ke seluruh alamat IP yang mengirimkan paket SYN."
       },
       {
+        "key": "B",
+        "text": "Memperbesar nilai MTU kartu jaringan menjadi 16.000 bytes agar paket SYN dapat ditampung sekaligus."
+      },
+      {
+        "key": "C",
+        "text": "Menonaktifkan protokol TCP pada kernel dan mengganti seluruh port HTTP web server menjadi protokol UDP mentah guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+      },
+      {
         "key": "D",
-        "text": "Mengaktifkan 'SYN Cookies' (net.ipv4.tcp_syncookies = 1) di mana server menyandikan data koneksi ke dalam Initial Sequence Number (ISN) tanpa mengalokasikan memori tabel koneksi sebelum ACK diterima."
+        "text": "Mematikan fitur Address Resolution Protocol (ARP) pada kartu jaringan server Linux."
       },
       {
         "key": "E",
-        "text": "Mematikan fitur Address Resolution Protocol (ARP) pada kartu jaringan server Linux."
+        "text": "Mengaktifkan 'SYN Cookies' (net.ipv4.tcp_syncookies = 1) di mana server menyandikan data koneksi ke dalam Initial Sequence Number (ISN) tanpa mengalokasikan memori tabel koneksi sebelum ACK diterima."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "MEKANISME KRIPTOGRAFI TCP SYN COOKIES",
       "latex": "\\text{ISN}_{\\text{Server}} = \\text{Hash}(\\text{Src IP, Dst IP, Src Port, Dst Port, Secret Key, Time Counter}) + \\text{MSS Encoded}",
@@ -2523,22 +2529,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "1. Pasang aturan action=drop pada port 80 di mangle -> 2. Buat static DNS -> 3. Aktifkan proxy server internal."
-      },
-      {
-        "key": "C",
         "text": "1. Set distance=1 pada kedua rute -> 2. Aktifkan OSPF pada interface LAN -> 3. Buat aturan filter forward accept."
       },
       {
+        "key": "C",
+        "text": "1. Pasang aturan action=drop pada port 80 di mangle -> 2. Buat static DNS -> 3. Aktifkan proxy server internal."
+      },
+      {
         "key": "D",
-        "text": "1. Gunakan Destination NAT mengarah ke IP ISP-1 -> 2. Matikan connection tracking router -> 3. Simpan konfigurasi."
+        "text": "1. Tandai koneksi di /ip firewall mangle (mark-connection) -> 2. Tandai rute dari koneksi tersebut (mark-routing) -> 3. Buat default gateway di /ip route dengan routing-mark yang sesuai."
       },
       {
         "key": "E",
-        "text": "1. Tandai koneksi di /ip firewall mangle (mark-connection) -> 2. Tandai rute dari koneksi tersebut (mark-routing) -> 3. Buat default gateway di /ip route dengan routing-mark yang sesuai."
+        "text": "1. Gunakan Destination NAT mengarah ke IP ISP-1 -> 2. Matikan connection tracking router -> 3. Simpan konfigurasi."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "URUTAN EKSEKUSI POLICY-BASED ROUTING MIKROTIK",
       "latex": "\\text{Traffic Game} \\xrightarrow{\\text{Mangle}} \\texttt{mark-conn} \\xrightarrow{\\text{Mangle}} \\texttt{mark-routing='to\\_ISP1'} \\xrightarrow{\\text{IP Route}} \\texttt{gateway=IP\\_ISP1 routing-mark='to\\_ISP1'}",
@@ -2563,15 +2569,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggunakan autentikasi dua arah (mutual authentication) berbasis sertifikat digital X.509 baik di sisi server RADIUS maupun pada setiap perangkat klien (tanpa mengandalkan password)."
+        "text": "Mengizinkan pengguna login menggunakan akun media sosial tanpa perlu terdaftar di direktori institusi dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
         "key": "B",
-        "text": "Menghilangkan kebutuhan instalasi sertifikat pada sisi server sehingga konfigurasi lebih cepat."
+        "text": "Menggunakan autentikasi dua arah (mutual authentication) berbasis sertifikat digital X.509 baik di sisi server RADIUS maupun pada setiap perangkat klien (tanpa mengandalkan password)."
       },
       {
         "key": "C",
-        "text": "Mengizinkan pengguna login menggunakan akun media sosial tanpa perlu terdaftar di direktori institusi dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "Memperbolehkan perangkat klien menghubungkan diri ke Access Point tanpa perlu enkripsi RF."
       },
       {
         "key": "D",
@@ -2579,10 +2585,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memperbolehkan perangkat klien menghubungkan diri ke Access Point tanpa perlu enkripsi RF."
+        "text": "Menghilangkan kebutuhan instalasi sertifikat pada sisi server sehingga konfigurasi lebih cepat."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "KOMPARASI PROTOKOL EAP WIRELESS ENTERPRISE",
       "latex": "\\begin{aligned} \\text{PEAP-MSCHAPv2:} & \\; \\text{Sertifikat di Server} + \\text{Username/Password di Klien (Rawan Phishing)} \\\\ \\text{EAP-TLS:} & \\; \\text{Sertifikat Digital di Server} + \\text{Sertifikat Digital di Klien (Paling Aman)} \\end{aligned}",
@@ -2607,26 +2613,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "R2 akan menjadi Master permanen selamanya dan menolak melepaskan status Master meskipun R1 sudah menyala normal kembali demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Klien di jaringan lokal harus merestart kartu jaringannya secara manual agar dapat terhubung kembali ke R1."
       },
       {
         "key": "B",
-        "text": "Saat R1 mati, R2 langsung mengambil alih menjadi Master; ketika R1 menyala kembali, R1 segera mengambil alih kembali (preempt) menjadi Master karena nilai prioritasnya lebih tinggi (150 > 100)."
-      },
-      {
-        "key": "C",
         "text": "Kedua router akan mengalami konflik split-brain sehingga alamat Virtual IP 192.168.1.1 mati total dari jaringan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "R1 akan menjadi Backup permanen dan hanya menyala jika R2 juga ikut dimatikan oleh administrator."
       },
       {
+        "key": "D",
+        "text": "Saat R1 mati, R2 langsung mengambil alih menjadi Master; ketika R1 menyala kembali, R1 segera mengambil alih kembali (preempt) menjadi Master karena nilai prioritasnya lebih tinggi (150 > 100)."
+      },
+      {
         "key": "E",
-        "text": "Klien di jaringan lokal harus merestart kartu jaringannya secara manual agar dapat terhubung kembali ke R1."
+        "text": "R2 akan menjadi Master permanen selamanya dan menolak melepaskan status Master meskipun R1 sudah menyala normal kembali."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "MEKANISME PREEMPTION VRRP (RFC 5798)",
       "latex": "\\begin{aligned} \\text{R1 Down} &\\implies \\text{R2 (Priority 100) naik menjadi Master} \\\\ \\text{R1 Up (Priority 150) + Preempt=Yes} &\\implies \\text{R1 merebut kembali status Master} \\end{aligned}",
@@ -2651,26 +2657,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kabel serat optik tidak mendukung transmisi suara manusia melainkan hanya data teks digital."
-      },
-      {
-        "key": "B",
         "text": "Server Asterisk kehabisan memori harddisk sehingga tidak dapat merekam percakapan."
       },
       {
+        "key": "B",
+        "text": "Protokol DNS sekolah gagal melakukan resolusi reverse lookup alamat IPv6."
+      },
+      {
         "key": "C",
-        "text": "Protokol pensinyalan SIP (Session Initiation Protocol port UDP 5060) berhasil menembus firewall, namun aliran paket suara RTP (Real-time Transport Protocol port UDP rentang 10000-20000) terblokir oleh firewall atau mengalami kesalahan translasi NAT."
+        "text": "IP phone klien mengalami kerusakan fisik pada speaker handset secara bersamaan di kedua lokasi dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
         "key": "D",
-        "text": "IP phone klien mengalami kerusakan fisik pada speaker handset secara bersamaan di kedua lokasi sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "Protokol pensinyalan SIP (Session Initiation Protocol port UDP 5060) berhasil menembus firewall, namun aliran paket suara RTP (Real-time Transport Protocol port UDP rentang 10000-20000) terblokir oleh firewall atau mengalami kesalahan translasi NAT."
       },
       {
         "key": "E",
-        "text": "Protokol DNS sekolah gagal melakukan resolusi reverse lookup alamat IPv6."
+        "text": "Kabel serat optik tidak mendukung transmisi suara manusia melainkan hanya data teks digital."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "PEMISAHAN PROTOKOL VOIP DUAL-STREAM",
       "latex": "\\begin{cases} \\text{Signaling (Call Setup):} & \\text{SIP (Session Initiation Protocol) - UDP/TCP 5060} \\\\ \\text{Media Audio (Voice Payload):} & \\text{RTP (Real-time Transport Protocol) - UDP 10000-20000} \\end{cases}",
@@ -2695,26 +2701,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan seluruh perangkat switch dan router fisik serta menggantinya murni dengan gelombang satelit nirkabel demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "B",
         "text": "Menggabungkan Management Plane dan Physical Plane ke dalam satu keping ASIC mikrokontroler."
       },
       {
+        "key": "B",
+        "text": "Menghilangkan seluruh perangkat switch dan router fisik serta menggantinya murni dengan gelombang satelit nirkabel untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
         "key": "C",
-        "text": "Mewajibkan setiap switch menjalankan protokol routing BGP full mesh secara desentralisasi penuh."
+        "text": "Memisahkan bidang kendali logika perutean (Control Plane) ke kontroler terpusat berbasis software, sementara switch fisik hanya bertugas meneruskan paket data murni (Data/Forwarding Plane) via protokol OpenFlow."
       },
       {
         "key": "D",
-        "text": "Memisahkan bidang kendali logika perutean (Control Plane) ke kontroler terpusat berbasis software, sementara switch fisik hanya bertugas meneruskan paket data murni (Data/Forwarding Plane) via protokol OpenFlow."
+        "text": "Mewajibkan setiap switch menjalankan protokol routing BGP full mesh secara desentralisasi penuh."
       },
       {
         "key": "E",
         "text": "Menolak seluruh paket data TCP dan hanya memperbolehkan transmisi frame mentah Ethernet."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "ARSITEKTUR DASAR SOFTWARE-DEFINED NETWORKING",
       "latex": "\\begin{aligned} \\text{Application Plane} &\\xrightarrow{\\text{Northbound API (REST/JSON)}} \\\\ \\text{Control Plane} &\\; \\text{(SDN Controller: ONOS, ODL, Ryu)} \\\\ &\\xrightarrow{\\text{Southbound API (OpenFlow/NETCONF)}} \\\\ \\text{Data Plane} &\\; \\text{(Flow Switches: Forwarding Engines)} \\end{aligned}",
@@ -2739,11 +2745,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "6in4 Tunneling statis yang membutuhkan konfigurasi tunnel broker manual di setiap smartphone klien dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+        "text": "Proxy HTTP transparan tanpa keterlibatan protokol DNS sama sekali."
       },
       {
         "key": "B",
-        "text": "Dual Stack murni di mana setiap komputer wajib memiliki dua alamat IPv4 dan IPv6 aktif."
+        "text": "DNS64 (membuat alamat IPv6 sintetis dengan menyematkan IPv4 target ke prefix 64:ff9b::/96) dan NAT64 (menerjemahkan paket header IPv6 menjadi paket IPv4 murni pada router gateway)."
       },
       {
         "key": "C",
@@ -2751,14 +2757,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Proxy HTTP transparan tanpa keterlibatan protokol DNS sama sekali."
+        "text": "6in4 Tunneling statis yang membutuhkan konfigurasi tunnel broker manual di setiap smartphone klien dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       },
       {
         "key": "E",
-        "text": "DNS64 (membuat alamat IPv6 sintetis dengan menyematkan IPv4 target ke prefix 64:ff9b::/96) dan NAT64 (menerjemahkan paket header IPv6 menjadi paket IPv4 murni pada router gateway)."
+        "text": "Dual Stack murni di mana setiap komputer wajib memiliki dua alamat IPv4 dan IPv6 aktif."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "MEKANISME TRANSISI NAT64 & DNS64 (RFC 6146 / 6052)",
       "latex": "\\begin{aligned} \\text{Query DNS klien (AAAA)} &\\xrightarrow{\\text{DNS64}} \\text{Kombinasi } \\texttt{64:ff9b::} + \\text{IPv4 Hex} \\\\ \\text{Paket IPv6 Klien} &\\xrightarrow{\\text{Router NAT64}} \\text{Translasi ke IPv4 Asli} \\implies \\text{IPv4 Web Server} \\end{aligned}",
@@ -2783,11 +2789,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dynamic ARP Inspection (DAI) yang memvalidasi keabsahan paket ARP terhadap tabel database DHCP Snooping Binding."
+        "text": "Storm Control untuk membatasi persentase broadcast data rate menjadi 10%."
       },
       {
         "key": "B",
-        "text": "Storm Control untuk membatasi persentase broadcast data rate menjadi 10%."
+        "text": "Dynamic ARP Inspection (DAI) yang memvalidasi keabsahan paket ARP terhadap tabel database DHCP Snooping Binding."
       },
       {
         "key": "C",
@@ -2795,14 +2801,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Access Control List (ACL) statis yang memblokir protokol ICMP Echo Request demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Mengaktifkan auto-MDIX pada semua kabel straight-through di switch."
       },
       {
         "key": "E",
-        "text": "Mengaktifkan auto-MDIX pada semua kabel straight-through di switch."
+        "text": "Access Control List (ACL) statis yang memblokir protokol ICMP Echo Request."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "MEKANISME VALIDASI DYNAMIC ARP INSPECTION (DAI)",
       "latex": "\\text{Paket ARP Masuk} \\implies \\text{Cek IP-MAC Binding Table} \\begin{cases} \\text{Cocok dengan DHCP Snooping DB} &\\to \\text{Forward} \\\\ \\text{Tidak Cocok (Palsu/Spoofed)} &\\to \\text{Drop Langsung + Log Alert} \\end{cases}",
@@ -2827,26 +2833,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "PUE = 0.67; menunjukkan data center sangat efisien karena nilai berada di bawah ambang batas angka 1.0 sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "PUE = 0.67; menunjukkan data center sangat efisien karena nilai berada di bawah ambang batas angka 1.0."
       },
       {
         "key": "B",
-        "text": "PUE = 1.50; menunjukkan efisiensi wajar di mana untuk setiap 1 Watt daya perangkat IT, dibutuhkan 0.5 Watt daya tambahan untuk pendingin dan fasilitas."
+        "text": "PUE = 1.00; menunjukkan efisiensi termodinamika sempurna tanpa adanya kehilangan energi."
       },
       {
         "key": "C",
-        "text": "PUE = 2.40; menunjukkan pemborosan daya ekstrem yang melebihi standar fasilitas Tier 4."
+        "text": "PUE = 1.50; menunjukkan efisiensi wajar di mana untuk setiap 1 Watt daya perangkat IT, dibutuhkan 0.5 Watt daya tambahan untuk pendingin dan fasilitas."
       },
       {
         "key": "D",
-        "text": "PUE = 4.00; menunjukkan data center mengalami kebocoran arus listrik induksi."
+        "text": "PUE = 2.40; menunjukkan pemborosan daya ekstrem yang melebihi standar fasilitas Tier 4."
       },
       {
         "key": "E",
-        "text": "PUE = 1.00; menunjukkan efisiensi termodinamika sempurna tanpa adanya kehilangan energi."
+        "text": "PUE = 4.00; menunjukkan data center mengalami kebocoran arus listrik induksi."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "FORMULA STANDAR POWER USAGE EFFECTIVENESS (THE GREEN GRID)",
       "latex": "\\text{PUE} = \\frac{\\text{Total Facility Energy}}{\\text{IT Equipment Energy}} = \\frac{240\\,\\text{kW}}{160\\,\\text{kW}} = 1.50",
@@ -2871,7 +2877,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjalankan protokol OSPF di atas eBGP tanpa konfigurasi autonomous system number guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "BGP Route Reflector (RR) di mana router server diizinkan merefleksikan rute iBGP ke router Route Reflector Client."
       },
       {
         "key": "B",
@@ -2879,18 +2885,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "BGP Route Reflector (RR) di mana router server diizinkan merefleksikan rute iBGP ke router Route Reflector Client."
+        "text": "Mengaktifkan fitur proxy ARP pada antarmuka loopback seluruh router internal."
       },
       {
         "key": "D",
-        "text": "Mengaktifkan fitur proxy ARP pada antarmuka loopback seluruh router internal."
+        "text": "Menjalankan protokol OSPF di atas eBGP tanpa konfigurasi autonomous system number guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "E",
         "text": "Menurunkan nilai Administrative Distance eBGP menjadi 200 sama dengan iBGP."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "SKALABILITAS PEERING IBGP DENGAN ROUTE REFLECTOR",
       "latex": "\\text{Full Mesh: } \\frac{N(N-1)}{2} \\text{ sesi} \\quad \\xrightarrow{\\text{Route Reflector}} \\quad N-1 \\text{ sesi peering terpusat}",
@@ -2915,26 +2921,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mampu memperbaiki frame data yang korup menggunakan algoritma Cyclomatic Redundancy Check untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Memperkuat seluruh kanal panjang gelombang cahaya di jendela 1550 nm secara optik murni tanpa perlu mengonversi sinyal cahaya ke sinyal listrik terlebih dahulu (All-Optical Amplification)."
       },
       {
         "key": "B",
-        "text": "Menghilangkan redaman dispersi kromatik secara mutlak tanpa sisa delay sedikit pun."
+        "text": "Mampu memperbaiki frame data yang korup menggunakan algoritma Cyclomatic Redundancy Check untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       },
       {
         "key": "C",
-        "text": "Tidak membutuhkan catu daya listrik eksternal sama sekali untuk memompa laser emisi."
+        "text": "Menghilangkan redaman dispersi kromatik secara mutlak tanpa sisa delay sedikit pun."
       },
       {
         "key": "D",
-        "text": "Memperkuat seluruh kanal panjang gelombang cahaya di jendela 1550 nm secara optik murni tanpa perlu mengonversi sinyal cahaya ke sinyal listrik terlebih dahulu (All-Optical Amplification)."
+        "text": "Tidak membutuhkan catu daya listrik eksternal sama sekali untuk memompa laser emisi."
       },
       {
         "key": "E",
         "text": "Dapat beroperasi pada kabel twisted pair tembaga sejauh 200 kilometer."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "PRINSIP KERJA OPTICAL AMPLIFIER EDFA",
       "latex": "\\text{Signal Optik (1530-1565 nm)} + \\text{Pump Laser (980/1480 nm)} \\xrightarrow{\\text{Erbium Ion Fiber}} \\text{Amplified Optical Output}",
@@ -2963,22 +2969,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Phase 1 menggunakan enkripsi simetris DES, sedangkan Phase 2 menggunakan enkripsi plain-text tanpa kunci guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
-      },
-      {
-        "key": "C",
         "text": "Phase 1 beroperasi di Network Layer, sedangkan Phase 2 beroperasi di Application Layer Nginx."
       },
       {
+        "key": "C",
+        "text": "Phase 1 membangun terowongan terenkripsi yang aman antar kedua router (IKE SA), sedangkan Phase 2 menegosiasikan enkripsi transform set untuk melindungi lalu lintas data nyata klien LAN (IPsec SA)."
+      },
+      {
         "key": "D",
-        "text": "Phase 1 dilakukan oleh teknisi manusia, sedangkan Phase 2 dijalankan oleh robot kecerdasan buatan."
+        "text": "Phase 1 menggunakan enkripsi simetris DES, sedangkan Phase 2 menggunakan enkripsi plain-text tanpa kunci guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "E",
-        "text": "Phase 1 membangun terowongan terenkripsi yang aman antar kedua router (IKE SA), sedangkan Phase 2 menegosiasikan enkripsi transform set untuk melindungi lalu lintas data nyata klien LAN (IPsec SA)."
+        "text": "Phase 1 dilakukan oleh teknisi manusia, sedangkan Phase 2 dijalankan oleh robot kecerdasan buatan."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DUA FASE NEGOSIASI TEROWONGAN IPSEC",
       "latex": "\\begin{aligned} \\text{Phase 1 (IKE SA):} & \\; \\text{Autentikasi Router (PSK/Cert) + Diffie-Hellman Key Exchange} \\\\ \\text{Phase 2 (IPsec SA):} & \\; \\text{Negosiasi Transform Set (ESP-AES-GCM) + Enkripsi Data Pengguna LAN} \\end{aligned}",
@@ -3007,19 +3013,19 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Switch layer 2 akan mengalami kerusakan fisik pada port power supply PoE."
+        "text": "Kecepatan propagasi cahaya pada kabel serat optik akan melambat hingga di bawah 100 km/detik."
       },
       {
         "key": "C",
-        "text": "Alamat IP privat klien LAN akan terkonversi otomatis menjadi alamat IP publik APNIC."
+        "text": "Switch layer 2 akan mengalami kerusakan fisik pada port power supply PoE."
       },
       {
         "key": "D",
-        "text": "Kecepatan propagasi cahaya pada kabel serat optik akan melambat hingga di bawah 100 km/detik sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Alamat IP privat klien LAN akan terkonversi otomatis menjadi alamat IP publik APNIC."
       },
       {
         "key": "E",
-        "text": "DNS server lokal akan berhenti melayani kueri resolusi domain .sch.id."
+        "text": "DNS server lokal akan berhenti melayani kueri resolusi domain.sch.id."
       }
     ],
     "correctKey": "A",
@@ -3051,7 +3057,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "DSCP Expedited Forwarding (EF) dengan nilai biner 101110 (desimal 46)."
+        "text": "DSCP Class Selector 1 (CS1) dengan nilai desimal 8."
       },
       {
         "key": "C",
@@ -3059,14 +3065,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "DSCP Class Selector 1 (CS1) dengan nilai desimal 8."
+        "text": "DSCP Assured Forwarding 43 (AF43) dengan nilai desimal 38."
       },
       {
         "key": "E",
-        "text": "DSCP Assured Forwarding 43 (AF43) dengan nilai desimal 38."
+        "text": "DSCP Expedited Forwarding (EF) dengan nilai biner 101110 (desimal 46)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "MAPPING DIFFSERV DSCP EXPEDITED FORWARDING",
       "latex": "\\text{DSCP Field (6 bit)} = \\mathbf{101110}_2 = 46_{10} \\implies \\text{Per-Hop Behavior: Expedited Forwarding (EF)}",
@@ -3091,11 +3097,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)."
+        "text": "FHSS (Frequency Hopping Spread Spectrum)."
       },
       {
         "key": "B",
-        "text": "DSSS (Direct Sequence Spread Spectrum)."
+        "text": "CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance)."
       },
       {
         "key": "C",
@@ -3103,11 +3109,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "FHSS (Frequency Hopping Spread Spectrum)."
+        "text": "BSS Coloring berbasis token ring analog."
       },
       {
         "key": "E",
-        "text": "BSS Coloring berbasis token ring analog."
+        "text": "DSSS (Direct Sequence Spread Spectrum)."
       }
     ],
     "correctKey": "C",
@@ -3135,7 +3141,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Server mengalami serangan Denial of Service sehingga menolak memproses query database."
+        "text": "Switch core sedang melakukan pembaharuan firmware sehingga semua antarmuka masuk mode standby."
       },
       {
         "key": "B",
@@ -3143,18 +3149,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Klien telah logout dari sesi database dan server menyetujui pemutusan koneksi dengan flag FIN untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
-      },
-      {
-        "key": "D",
         "text": "Klien menerima segmen TCP yang melompati urutan (out-of-order), mengindikasikan ada satu paket di tengah yang hilang (packet loss), sehingga memicu mekanisme Fast Retransmit server tanpa menunggu Retransmission Timeout (RTO)."
       },
       {
+        "key": "D",
+        "text": "Server mengalami serangan Denial of Service sehingga menolak memproses query database."
+      },
+      {
         "key": "E",
-        "text": "Switch core sedang melakukan pembaharuan firmware sehingga semua antarmuka masuk mode standby."
+        "text": "Klien telah logout dari sesi database dan server menyetujui pemutusan koneksi dengan flag FIN untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "MEKANISME TCP FAST RETRANSMIT (RFC 5681)",
       "latex": "3\\times \\text{Duplicate ACKs} \\implies \\text{Segera kirim ulang paket hilang (Bypass RTO Timer)}",
@@ -3179,26 +3185,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menaikkan nilai Local Preference pada pengumuman prefix yang dikirim keluar ke arah ISP-B guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Menaikkan nilai Local Preference pada pengumuman prefix yang dikirim keluar ke arah ISP-B guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "B",
-        "text": "Menyetel nilai Weight menjadi 65535 pada antarmuka yang mengarah ke ISP-B."
+        "text": "AS-Path Prepending (menyisipkan nomor AS sendiri berulang kali, misal: '64512 64512 64512', pada pengumuman prefix ke arah ISP-B agar rute tampak lebih panjang dan dijauhi)."
       },
       {
         "key": "C",
-        "text": "Menghapus default gateway ISP-A dari tabel routing BGP lokal."
-      },
-      {
-        "key": "D",
         "text": "Mengaktifkan mode bridge transparan pada router border eBGP."
       },
       {
+        "key": "D",
+        "text": "Menghapus default gateway ISP-A dari tabel routing BGP lokal."
+      },
+      {
         "key": "E",
-        "text": "AS-Path Prepending (menyisipkan nomor AS sendiri berulang kali, misal: '64512 64512 64512', pada pengumuman prefix ke arah ISP-B agar rute tampak lebih panjang dan dijauhi)."
+        "text": "Menyetel nilai Weight menjadi 65535 pada antarmuka yang mengarah ke ISP-B."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "TEKNIK AS-PATH PREPENDING UNTUK INBOUND TRAFFIC",
       "latex": "\\begin{aligned} \\text{Iklan ke ISP-A:} & \\; \\text{AS-Path} = [64512] \\quad (\\text{Panjang}=1) \\implies \\mathbf{Dipilih\\;Dunia} \\\\ \\text{Iklan ke ISP-B:} & \\; \\text{AS-Path} = [64512\\; 64512\\; 64512] \\quad (\\text{Panjang}=3) \\implies \\text{Dijauhi} \\end{aligned}",
@@ -3223,26 +3229,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengiklankan alamat IP publik yang sama persis (misal 8.8.8.8) dari ratusan lokasi server berbeda melalui protokol BGP, sehingga kueri pengguna secara alami diarahkan ke data center terdekat secara topologi perutean."
-      },
-      {
-        "key": "B",
-        "text": "Menyimpan seluruh data internet global di dalam satu komputer server tunggal supercepat di Amerika Serikat sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
-      },
-      {
-        "key": "C",
-        "text": "Mengubah paket data UDP port 53 menjadi transmisi radio satelit gelombang mikro antariksa."
-      },
-      {
-        "key": "D",
         "text": "Mewajibkan pengguna memasukkan password token digital sebelum kueri DNS dijawab oleh server."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menyimpan seluruh data internet global di dalam satu komputer server tunggal supercepat di Amerika Serikat dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+      },
+      {
+        "key": "C",
         "text": "Menduplikasi setiap pertanyaan kueri DNS ke seluruh server di dunia secara broadcast simultan."
+      },
+      {
+        "key": "D",
+        "text": "Mengiklankan alamat IP publik yang sama persis (misal 8.8.8.8) dari ratusan lokasi server berbeda melalui protokol BGP, sehingga kueri pengguna secara alami diarahkan ke data center terdekat secara topologi perutean."
+      },
+      {
+        "key": "E",
+        "text": "Mengubah paket data UDP port 53 menjadi transmisi radio satelit gelombang mikro antariksa."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "MEKANISME BGP ANYCAST ROUTING",
       "latex": "1\\,\\text{IP Address Target (8.8.8.8)} \\iff N\\,\\text{Server Fisik di Seluruh Dunia (BGP PoP)}",
@@ -3267,26 +3273,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membekukan seluruh ruangan server hingga mencapai suhu nol mutlak (-273 derajat Celsius) demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+        "text": "Membekukan seluruh ruangan server hingga mencapai suhu nol mutlak (-273 derajat Celsius) untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       },
       {
         "key": "B",
-        "text": "Tidak menghantarkan arus listrik (non-konduktif), tidak meninggalkan residu kimiawi korosif yang merusak sirkuit elektronik, dan aman bagi manusia di dalam ruangan pada konsentrasi desain standar."
-      },
-      {
-        "key": "C",
-        "text": "Membanjiri ruangan dengan air bertekanan tinggi yang telah dihilangkan mineral garamnya."
-      },
-      {
-        "key": "D",
         "text": "Menghilangkan seluruh gas oksigen hingga 0% dalam waktu kurang dari 1 detik."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Bereaksi secara kimiawi membakar habis seluruh bahan plastik isolator kabel jaringan."
+      },
+      {
+        "key": "D",
+        "text": "Membanjiri ruangan dengan air bertekanan tinggi yang telah dihilangkan mineral garamnya."
+      },
+      {
+        "key": "E",
+        "text": "Tidak menghantarkan arus listrik (non-konduktif), tidak meninggalkan residu kimiawi korosif yang merusak sirkuit elektronik, dan aman bagi manusia di dalam ruangan pada konsentrasi desain standar."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "STANDAR SISTEM PEMADAM CLEAN AGENT (NFPA 2001)",
       "latex": "\\text{Total Flooding System (Novec 1230 / FM-200)} \\implies \\text{Heat Absorption} + \\text{Zero Electrical Damage}",
@@ -3319,18 +3325,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Perbedaan waktu sistem (NTP clock drift) antara kedua router melebihi 10 detik."
+        "text": "Kabel serat optik yang digunakan mengalami pelemahan daya (loss) sebesar 0.2 dB."
       },
       {
         "key": "D",
-        "text": "Ketidakcocokan nilai Maximum Transmission Unit (MTU) pada antarmuka kedua router yang bertetangga."
+        "text": "Perbedaan waktu sistem (NTP clock drift) antara kedua router melebihi 10 detik."
       },
       {
         "key": "E",
-        "text": "Kabel serat optik yang digunakan mengalami pelemahan daya (loss) sebesar 0.2 dB."
+        "text": "Ketidakcocokan nilai Maximum Transmission Unit (MTU) pada antarmuka kedua router yang bertetangga."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "explanation": "Dalam pembentukan adjacency OSPF, pada fase EXSTART kedua router menegosiasikan peran Master/Slave dan saling bertukar Database Description (DBD) packets. Jika nilai MTU pada antarmuka kedua router tidak cocok (misal router A diset MTU 1500 dan router B diset MTU 1492), paket DBD yang berukuran penuh akan didrop atau ditolak oleh router dengan MTU lebih kecil, menyebabkan proses OSPF terjebak selamanya di status EXSTART/EXCHANGE.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: TROUBLESHOOTING OSPF NEIGHBOR STUCK IN EXSTART/EXCHANGE STATE",
@@ -3354,15 +3360,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dispersi polarisasi mode akibat medan gravitasi bumi pada serat kaca."
-      },
-      {
-        "key": "B",
         "text": "Kerusakan laser dioda pemancar akibat kehabisan baterai lithium OTDR."
       },
       {
+        "key": "B",
+        "text": "Dispersi polarisasi mode akibat medan gravitasi bumi pada serat kaca."
+      },
+      {
         "key": "C",
-        "text": "Efek non-linear Raman Scattering yang menyerap daya optik pada frekuensi tinggi demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Efek non-linear Raman Scattering yang menyerap daya optik pada frekuensi tinggi."
       },
       {
         "key": "D",
@@ -3397,26 +3403,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengubah Native VLAN pada seluruh port trunk menjadi VLAN ID khusus yang tidak digunakan (misal VLAN 999) dan mengaktifkan 'vlan dot1q tag native'."
+        "text": "Menyetel seluruh port switch menjadi mode trunk dengan Dynamic Trunking Protocol (DTP) aktif."
       },
       {
         "key": "B",
-        "text": "Menyetel seluruh port switch menjadi mode trunk dengan Dynamic Trunking Protocol (DTP) aktif sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Mengubah Native VLAN pada seluruh port trunk menjadi VLAN ID khusus yang tidak digunakan (misal VLAN 999) dan mengaktifkan 'vlan dot1q tag native'."
       },
       {
         "key": "C",
-        "text": "Menonaktifkan protokol Spanning Tree pada seluruh switch distribusi dan access."
-      },
-      {
-        "key": "D",
         "text": "Memperpanjang ukuran frame jumbo MTU menjadi 9216 bytes pada port klien."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengganti seluruh kabel UTP dengan kabel koaksial berpelindung ganda."
+      },
+      {
+        "key": "E",
+        "text": "Menonaktifkan protokol Spanning Tree pada seluruh switch distribusi dan access."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "explanation": "Double-tagging VLAN hopping attack mengeksploitasi fitur Native VLAN yang dikirimkan tanpa tag (untagged) pada port trunk 802.1Q. Jika port penyerang berada pada VLAN yang sama dengan Native VLAN trunk (biasanya default VLAN 1), switch pertama akan mencopot tag luar dan mengirimkan frame mentah yang masih memuat tag dalam (VLAN 20 target) ke link trunk. Switch kedua akan meneruskan frame tersebut ke VLAN 20. Mitigasi resminya adalah mengubah Native VLAN trunk ke VLAN yang tidak dipakai oleh port access mana pun, serta mengonfigurasi `vlan dot1q tag native` agar Native VLAN pun tetap di-tag.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: VLAN HOPPING ATTACK: MITIGASI DOUBLE TAGGING 802.1Q",
@@ -3444,22 +3450,22 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "/31 dengan subnet mask 255.255.255.254 (menyediakan tepat 2 alamat host untuk router-to-router)."
+        "text": "/28 dengan subnet mask 255.255.255.240 (menyediakan 14 usable host)."
       },
       {
         "key": "C",
-        "text": "/32 dengan subnet mask 255.255.255.255 (khusus host route loopback tunggal)."
-      },
-      {
-        "key": "D",
         "text": "/29 dengan subnet mask 255.255.255.248 (menyediakan 6 usable host)."
       },
       {
+        "key": "D",
+        "text": "/31 dengan subnet mask 255.255.255.254 (menyediakan tepat 2 alamat host untuk router-to-router)."
+      },
+      {
         "key": "E",
-        "text": "/28 dengan subnet mask 255.255.255.240 (menyediakan 14 usable host)."
+        "text": "/32 dengan subnet mask 255.255.255.255 (khusus host route loopback tunggal)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "explanation": "Secara tradisional, link point-to-point antar dua router menggunakan prefix /30 yang memakan 4 IP (1 Network ID, 2 Usable Host, 1 Broadcast ID) sehingga terjadi pemborosan 50% alamat. Standar RFC 3021 menetapkan penggunaan prefix /31 (mask 255.255.255.254) untuk link point-to-point, di mana kedua alamat yang tersedia diperlakukan langsung sebagai alamat host sah ujung-ke-ujung tanpa memerlukan Network ID maupun Broadcast ID, menghemat ruang alamat IPv4 secara signifikan.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: KALKULASI SUBNET POINT-TO-POINT WAN /31 VS /30",
@@ -3483,26 +3489,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "IEEE 802.1D (Spanning Tree), 802.1Q (VLAN Tagging), dan 802.3af (Power over Ethernet) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
-      },
-      {
-        "key": "B",
         "text": "IEEE 802.11b (DSSS 11 Mbps) dan 802.11a (OFDM 54 Mbps)."
       },
       {
-        "key": "C",
-        "text": "IEEE 802.11r (Fast Transition), 802.11k (Radio Resource Measurement), dan 802.11v (Wireless Network Management)."
+        "key": "B",
+        "text": "IEEE 802.1D (Spanning Tree), 802.1Q (VLAN Tagging), dan 802.3af (Power over Ethernet) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "IEEE 802.3ad (Link Aggregation) dan 802.3x (Flow Control)."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "IEEE 802.1X murni tanpa dukungan ekstensi handover nirkabel."
+      },
+      {
+        "key": "E",
+        "text": "IEEE 802.11r (Fast Transition), 802.11k (Radio Resource Measurement), dan 802.11v (Wireless Network Management)."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "explanation": "Pada jaringan Wi-Fi enterprise berkeamanan 802.1X/WPA2, proses roaming standar membutuhkan re-authentication penuh ke server RADIUS dan 4-way handshake ulang yang memakan waktu 2-5 detik (memutus panggilan VoIP). Solusinya adalah trio standar IEEE: 802.11k (membantu klien memindai daftar AP tetangga terbaik), 802.11v (mengarahkan klien ke AP yang tidak padat), dan 802.11r (Fast BSS Transition yang menyimpan cache kunci enkripsi di controller sehingga waktu handover terpangkas menjadi di bawah 50 ms tanpa lag percakapan).",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ANALISIS FAST ROAMING NIRKABEL 802.11R/K/V",
@@ -3526,26 +3532,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "16 detik penuh sesuai nilai Burst-Time yang ditentukan di antarmuka Winbox untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "B",
         "text": "8 detik karena kecepatan diturunkan tepat di separuh waktu konfigurasi."
       },
       {
+        "key": "B",
+        "text": "16 detik penuh sesuai nilai Burst-Time yang ditentukan di antarmuka Winbox untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
         "key": "C",
-        "text": "12 detik karena nilai Max-Limit lebih tinggi daripada Burst-Threshold."
+        "text": "3 detik (dihitung dari formula: (Burst-Threshold / Burst-Limit) * Burst-Time = (1.5 / 8) * 16 = 3 detik)."
       },
       {
         "key": "D",
-        "text": "3 detik (dihitung dari formula: (Burst-Threshold / Burst-Limit) * Burst-Time = (1.5 / 8) * 16 = 3 detik)."
+        "text": "12 detik karena nilai Max-Limit lebih tinggi daripada Burst-Threshold."
       },
       {
         "key": "E",
         "text": "Kecepatan 8 Mbps bertahan selamanya tanpa pernah diturunkan router."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "explanation": "Pada MikroTik RouterOS, 'Burst-Time' bukan durasi waktu burst diberikan, melainkan jendela waktu (moving average window) yang digunakan router untuk menghitung kecepatan rata-rata klien. Rumus durasi waktu burst maksimum (T_burst) saat download konstan pada rate Burst-Limit adalah: T_burst = (Burst-Threshold / Burst-Limit) * Burst-Time = (1.5 Mbps / 8 Mbps) * 16 detik = 0.1875 * 16 = tepat 3 detik. Setelah 3 detik, kecepatan rata-rata klien melampaui 1.5 Mbps sehingga router membatasi kecepatan ke Max-Limit (2 Mbps).",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: KALKULASI BURST LIMIT, BURST THRESHOLD, DAN BURST TIME MIKROTIK",
@@ -3569,26 +3575,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "ISP akan melipatgandakan alokasi bandwidth link hingga link stabil kembali."
-      },
-      {
-        "key": "B",
-        "text": "Router border BGP akan secara otomatis beralih menggunakan protokol routing RIPv2."
-      },
-      {
-        "key": "C",
-        "text": "Seluruh konfigurasi router lokal akan terhapus dan kembali ke setelan pabrik default dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
-      },
-      {
-        "key": "D",
         "text": "Sesi BGP dialihkan secara otomatis menggunakan kabel telepon analog PSTN."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Prefix jaringan tersebut akan dikenai denda penalti (suppressed) dan disembunyikan dari tabel perutean global internet selama periode penalti tertentu (decay half-life)."
+      },
+      {
+        "key": "C",
+        "text": "ISP akan melipatgandakan alokasi bandwidth link hingga link stabil kembali."
+      },
+      {
+        "key": "D",
+        "text": "Router border BGP akan secara otomatis beralih menggunakan protokol routing RIPv2."
+      },
+      {
+        "key": "E",
+        "text": "Seluruh konfigurasi router lokal akan terhapus dan kembali ke setelan pabrik default dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "explanation": "Route Flapping adalah kondisi di mana suatu rute terus-menerus muncul dan hilang (up/down) dalam waktu singkat, memicu badai pembaruan BGP UPDATE ke jutaan router di seluruh dunia dan membebani CPU router global. Untuk mengatasinya, router ISP menerapkan BGP Route Flap Damping (RFC 2439). Setiap kali rute flap, rute diberi skor penalti (misal 1000). Jika akumulasi penalti melampaui batas 'suppress threshold', rute akan diblokir (suppressed) dan tidak lagi diumumkan ke internet global hingga penaltinya meluruh (decay) di bawah 'reuse threshold'.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: PENDETEKSIAN BGP ROUTE FLAPPING AND DAMPAK ROUTE FLAP DAMPING",
@@ -3612,26 +3618,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "DNSSEC (Domain Name System Security Extensions) berbasis verifikasi rantai RRSIG dan DNSKEY."
+        "text": "NAT Masquerade dengan memodifikasi field checksum header IP."
       },
       {
         "key": "B",
-        "text": "DHCP Snooping yang memblokir kueri UDP port 53 pada access port switch demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
-      },
-      {
-        "key": "C",
         "text": "Dynamic Host Configuration Protocol Option 82 pada server gateway."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Spanning Tree Protocol PortFast BPDU Filter pada router border."
       },
       {
+        "key": "D",
+        "text": "DNSSEC (Domain Name System Security Extensions) berbasis verifikasi rantai RRSIG dan DNSKEY."
+      },
+      {
         "key": "E",
-        "text": "NAT Masquerade dengan memodifikasi field checksum header IP."
+        "text": "DHCP Snooping yang memblokir kueri UDP port 53 pada access port switch."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "explanation": "DNS konvensional tidak memiliki mekanisme autentikasi pesan, sehingga resolver rentan menerima jawaban palsu dari peretas yang berhasil menebak Transaction ID 16-bit dan UDP source port (Kaminsky DNS Cache Poisoning). DNSSEC (RFC 4033) menyelesaikan kelemahan ini dengan memperkenalkan kriptografi kunci publik: setiap DNS record ditandatangani secara digital dengan Record RRSIG (Resource Record Signature) yang dapat diverifikasi keabsahannya menggunakan kunci publik DNSKEY melalui rantai kepercayaan hierarkis (Chain of Trust) hingga ke Root DNS Anchor.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ANALISIS SERANGAN DNS CACHE POISONING (KAMINSKY BUG)",
@@ -3655,11 +3661,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "-35.0 dBm (mengalami loss berlebih sehingga ONT masuk status Loss of Signal / LOS merah) sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "-19.0 dBm (berada dalam rentang sensitivitas ideal ONT GPON kelas B+ yaitu -8 s/d -27 dBm)."
       },
       {
         "key": "B",
-        "text": "-19.0 dBm (berada dalam rentang sensitivitas ideal ONT GPON kelas B+ yaitu -8 s/d -27 dBm)."
+        "text": "-35.0 dBm (mengalami loss berlebih sehingga ONT masuk status Loss of Signal / LOS merah)."
       },
       {
         "key": "C",
@@ -3667,14 +3673,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "+1.5 dBm (mengindikasikan terjadinya penguatan daya optik pasif di dalam splitter)."
+        "text": "-12.0 dBm (daya terukur tidak dipengaruhi oleh keberadaan splitter optik)."
       },
       {
         "key": "E",
-        "text": "-12.0 dBm (daya terukur tidak dipengaruhi oleh keberadaan splitter optik)."
+        "text": "+1.5 dBm (mengindikasikan terjadinya penguatan daya optik pasif di dalam splitter)."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "KALKULASI TOTAL LOSS GPON SPLITTER BERTINGKAT",
       "latex": "\\begin{aligned} \\text{Total Loss} &= \\text{Loss}_{1:4} (7.0) + \\text{Loss}_{1:8} (10.5) + \\text{Loss}_{\\text{kabel}} (4.5) = 22.0\\,\\text{dB} \\\\ P_{\\text{ONT}} &= P_{\\text{OLT}} (+3\\,\\text{dBm}) - \\text{Total Loss} (22.0\\,\\text{dB}) = -19.0\\,\\text{dBm} \\end{aligned}",
@@ -3698,11 +3704,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penghapusan seluruh tabel MAC Address secara otomatis setiap terjadi perubahan topologi fisik guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "Pengecekan arus listrik tegangan port switch menggunakan sensor resistansi tembaga."
       },
       {
         "key": "B",
-        "text": "Penggunaan protokol routing dinamis OSPF di layer 2 untuk menghitung rute frame terpendek."
+        "text": "Pendelegasian seluruh kalkulasi pohon topologi jaringan ke server cloud internet eksternal."
       },
       {
         "key": "C",
@@ -3710,11 +3716,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pengecekan arus listrik tegangan port switch menggunakan sensor resistansi tembaga."
+        "text": "Penghapusan seluruh tabel MAC Address secara otomatis setiap terjadi perubahan topologi fisik guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       },
       {
         "key": "E",
-        "text": "Pendelegasian seluruh kalkulasi pohon topologi jaringan ke server cloud internet eksternal."
+        "text": "Penggunaan protokol routing dinamis OSPF di layer 2 untuk menghitung rute frame terpendek."
       }
     ],
     "correctKey": "C",
@@ -3745,11 +3751,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "UDP Flooding attack yang bertujuan melumpuhkan bandwidth antarmuka server."
+        "text": "Percobaan sinkronisasi waktu jaringan menggunakan protokol Network Time Protocol (NTP) untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       },
       {
         "key": "C",
-        "text": "Serangan SQL Injection berbasis boolean blind pada formulir autentikasi web."
+        "text": "UDP Flooding attack yang bertujuan melumpuhkan bandwidth antarmuka server."
       },
       {
         "key": "D",
@@ -3757,7 +3763,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Percobaan sinkronisasi waktu jaringan menggunakan protokol Network Time Protocol (NTP) untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Serangan SQL Injection berbasis boolean blind pada formulir autentikasi web."
       }
     ],
     "correctKey": "D",
@@ -3784,26 +3790,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "File index.html tidak ditemukan pada direktori penyimpanan dokumen server (Not Found) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
-      },
-      {
-        "key": "B",
-        "text": "Sertifikat SSL/TLS domain telah kedaluwarsa sehingga koneksi HTTPS dihentikan browser."
-      },
-      {
-        "key": "C",
-        "text": "Pengguna salah memasukkan username dan password pada halaman form login pengguna."
-      },
-      {
-        "key": "D",
         "text": "Klien menggunakan browser versi lama yang tidak mendukung format gambar WebP."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Pengguna salah memasukkan username dan password pada halaman form login pengguna."
+      },
+      {
+        "key": "C",
         "text": "Nginx (sebagai proxy) gagal berkomunikasi atau tidak menerima respons yang valid dari server aplikasi upstream (PHP-FPM socket / Node.js port 3000 down atau hang)."
+      },
+      {
+        "key": "D",
+        "text": "Sertifikat SSL/TLS domain telah kedaluwarsa sehingga koneksi HTTPS dihentikan browser."
+      },
+      {
+        "key": "E",
+        "text": "File index.html tidak ditemukan pada direktori penyimpanan dokumen server (Not Found) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "explanation": "Kode status HTTP 502 (Bad Gateway) adalah respons tingkat server yang berarti server proxy (dalam kasus ini Nginx) berhasil menerima permintaan dari klien, tetapi ketika Nginx mencoba meneruskan permintaan tersebut ke server backend hulu (upstream application server seperti PHP-FPM, Gunicorn, atau Node.js), backend tersebut mati (service stop/crash), hang, atau menolak koneksi soket. Akibatnya Nginx mengembalikan kode 502 Bad Gateway ke pengunjung.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: TROUBLESHOOTING LAYANAN WEB: ANALISIS HTTP 502 BAD GATEWAY NGINX",
@@ -3831,19 +3837,19 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Router BGP menghitung nilai hop count maksimum yang tidak boleh melebihi 15 hop seperti RIP."
-      },
-      {
-        "key": "C",
-        "text": "Router BGP memverifikasi keaslian paket menggunakan tanda tangan token JWT di setiap payload untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "D",
         "text": "Seluruh update rute BGP wajib dilewatkan melalui kabel optik bawah laut Samudra Pasifik."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Router BGP menghitung nilai hop count maksimum yang tidak boleh melebihi 15 hop seperti RIP."
+      },
+      {
+        "key": "D",
         "text": "Setiap sesi BGP diputus paksa dan dinegosiasikan ulang setiap interval 60 detik."
+      },
+      {
+        "key": "E",
+        "text": "Router BGP memverifikasi keaslian paket menggunakan tanda tangan token JWT di setiap payload untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       }
     ],
     "correctKey": "A",
@@ -3870,26 +3876,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "VPN menggunakan enkripsi kriptografi sedangkan ZTNA menolak enkripsi data untuk mempercepat transmisi."
+        "text": "ZTNA menghapus seluruh sistem firewall fisik dan menggantinya dengan sakelar listrik manual."
       },
       {
         "key": "B",
-        "text": "VPN tradisional memberikan akses penuh ke seluruh subnet LAN setelah terhubung (castle-and-moat), sedangkan ZTNA menerapkan prinsip 'never trust, always verify' dengan memberikan akses mikrosegmentasi hanya ke aplikasi spesifik yang diizinkan."
-      },
-      {
-        "key": "C",
         "text": "ZTNA hanya dapat diakses menggunakan komputer mainframe tanpa dukungan perangkat smartphone."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "VPN tradisional tidak memerlukan alamat IP publik sedangkan ZTNA mewajibkan IP statis di setiap laptop."
       },
       {
+        "key": "D",
+        "text": "VPN menggunakan enkripsi kriptografi sedangkan ZTNA menolak enkripsi data untuk mempercepat transmisi."
+      },
+      {
         "key": "E",
-        "text": "ZTNA menghapus seluruh sistem firewall fisik dan menggantinya dengan sakelar listrik manual."
+        "text": "VPN tradisional memberikan akses penuh ke seluruh subnet LAN setelah terhubung (castle-and-moat), sedangkan ZTNA menerapkan prinsip 'never trust, always verify' dengan memberikan akses mikrosegmentasi hanya ke aplikasi spesifik yang diizinkan."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "explanation": "Model keamanan tradisional (Castle-and-Moat) menggunakan VPN di mana pengguna yang berhasil melewati perimeter gerbang (login VPN) akan mendapatkan akses tingkat jaringan (network-level access) ke seluruh segmen IP LAN di kantor, membuka celah lateral movement bagi peretas. Sebaliknya, Zero Trust Network Access (ZTNA) mengadopsi prinsip 'Never Trust, Always Verify': pengguna tidak pernah ditempatkan di jaringan perusahaan secara langsung, melainkan hanya diberikan akses mikrosegmentasi terisolasi ke aplikasi tertentu (application-level access) setelah memeriksa konteks perangkat, identitas, dan postur keamanan secara kontinu.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: PRINSIP ZERO TRUST NETWORK ACCESS (ZTNA) VS VPN TRADISIONAL",
@@ -3913,11 +3919,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Router Solicitation (RS) dan Router Advertisement (RA) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
+        "text": "IGMP Membership Report dan IGMP Leave Group."
       },
       {
         "key": "B",
-        "text": "Echo Request (Type 128) dan Echo Reply (Type 129)."
+        "text": "DHCPv6 Solicit dan DHCPv6 Advertise."
       },
       {
         "key": "C",
@@ -3925,11 +3931,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "DHCPv6 Solicit dan DHCPv6 Advertise."
+        "text": "Echo Request (Type 128) dan Echo Reply (Type 129)."
       },
       {
         "key": "E",
-        "text": "IGMP Membership Report dan IGMP Leave Group."
+        "text": "Router Solicitation (RS) dan Router Advertisement (RA) guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       }
     ],
     "correctKey": "C",
@@ -3960,11 +3966,11 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Panjang gelombang cahaya laser akan bergeser dari 1310 nm menjadi sinar ultraviolet."
+        "text": "Diameter inti serat kaca akan meleleh secara otomatis akibat tekanan udara."
       },
       {
         "key": "C",
-        "text": "Diameter inti serat kaca akan meleleh secara otomatis akibat tekanan udara."
+        "text": "Kecepatan transfer data bit rate jaringan meningkat dua kali lipat akibat pemampatan gelombang untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       },
       {
         "key": "D",
@@ -3972,7 +3978,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kecepatan transfer data bit rate jaringan meningkat dua kali lipat akibat pemampatan gelombang untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern."
+        "text": "Panjang gelombang cahaya laser akan bergeser dari 1310 nm menjadi sinar ultraviolet."
       }
     ],
     "correctKey": "D",
@@ -3999,26 +4005,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan seluruh kebutuhan switch fisik dengan menghubungkan kabel server langsung ke router gateway internet."
-      },
-      {
-        "key": "B",
         "text": "Mengandalkan protokol Spanning Tree klasik untuk mematikan 50% link redundansi demi mencegah loop."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Membatasi kecepatan transfer data antar server maksimum tepat 10 Mbps untuk penghematan listrik."
       },
       {
+        "key": "C",
+        "text": "Menghilangkan seluruh kebutuhan switch fisik dengan menghubungkan kabel server langsung ke router gateway internet."
+      },
+      {
         "key": "D",
-        "text": "Hanya memperbolehkan satu server aktif dalam satu rak server secara bergantian."
+        "text": "Setiap switch Leaf terhubung langsung ke seluruh switch Spine, menjamin jarak hop yang seragam (tepat 2 hop antar server) dengan latensi rendah dan pemanfaatan seluruh link aktif via Equal-Cost Multi-Path (ECMP)."
       },
       {
         "key": "E",
-        "text": "Setiap switch Leaf terhubung langsung ke seluruh switch Spine, menjamin jarak hop yang seragam (tepat 2 hop antar server) dengan latensi rendah dan pemanfaatan seluruh link aktif via Equal-Cost Multi-Path (ECMP)."
+        "text": "Hanya memperbolehkan satu server aktif dalam satu rak server secara bergantian."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "explanation": "Pada arsitektur Spine-and-Leaf (berbasis topologi Clos network), setiap switch Leaf (rak server) terhubung ke semua switch Spine di atasnya, dan tidak ada interkoneksi antar sesama Spine maupun antar sesama Leaf. Desain ini menghilangkan pemblokiran port oleh Spanning Tree dengan memanfaatkan perutean Layer 3 ECMP (Equal-Cost Multi-Path). Hasilnya, setiap server di rak mana pun dapat berkomunikasi dengan server di rak lain dengan jarak tepat 2 hop yang konsisten, menghasilkan throughput maksimal dan latensi ultra-rendah untuk trafik East-West.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ARSITEKTUR SPINE-LEAF DATA CENTER (CLOS NETWORK)",
@@ -4042,26 +4048,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gratuitous ARP (GARP) / Address Collision Detection (ACD) yang dibroadcast oleh host untuk memeriksa apakah ada perangkat lain yang menjawab kepemilikan IP tersebut."
+        "text": "Pemindaian port SSH otomatis menggunakan script Python di background kernel."
       },
       {
         "key": "B",
-        "text": "Query DNS rekursif ke root-servers.net yang memvalidasi sertifikat hardware."
+        "text": "Gratuitous ARP (GARP) / Address Collision Detection (ACD) yang dibroadcast oleh host untuk memeriksa apakah ada perangkat lain yang menjawab kepemilikan IP tersebut."
       },
       {
         "key": "C",
-        "text": "Paket ICMP Echo Request yang dikirimkan oleh switch access ke cloud provider demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
-      },
-      {
-        "key": "D",
         "text": "Pengecekan lisensi Windows Defender melalui port TCP 445 SMB share."
       },
       {
+        "key": "D",
+        "text": "Paket ICMP Echo Request yang dikirimkan oleh switch access ke cloud provider untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+      },
+      {
         "key": "E",
-        "text": "Pemindaian port SSH otomatis menggunakan script Python di background kernel."
+        "text": "Query DNS rekursif ke root-servers.net yang memvalidasi sertifikat hardware."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "explanation": "Ketika antarmuka jaringan dikonfigurasikan dengan sebuah alamat IP baru, sistem operasi modern akan menjalankan mekanisme IPv4 Address Conflict Detection (RFC 5227) menggunakan 'Gratuitous ARP' (GARP). Host mengirimkan frame ARP Request broadcast ke jaringan lokal dengan IP pengirim dan IP target yang sama-sama diisi alamat IP barunya tersebut (misal: 'Siapa yang memakai 192.168.1.50?'). Jika ada perangkat lain yang membalas ARP Reply tersebut, sistem operasi mengetahui bahwa IP tersebut sudah dipakai (duplikat) dan seketika memunculkan peringatan konflik.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: TROUBLESHOOTING DUPLICATE IP AND GRATUITOUS ARP",
@@ -4085,15 +4091,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pencurian password admin router melalui jalur koneksi console serial RS-232 fisik."
-      },
-      {
-        "key": "B",
         "text": "IP Spoofing (memalsukan IP sumber kueri DNS menjadi IP publik korban) dipadukan dengan kueri tipe 'ANY' atau DNSSEC berukuran besar ke Open Resolver (faktor amplifikasi 50x hingga 100x)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Pengiriman virus macro melalui lampiran email Microsoft Word ke komputer kepala sekolah."
+      },
+      {
+        "key": "C",
+        "text": "Pencurian password admin router melalui jalur koneksi console serial RS-232 fisik."
       },
       {
         "key": "D",
@@ -4104,7 +4110,7 @@ window.TKA_TKJ_QUESTIONS = [
         "text": "Manipulasi frekuensi radio Access Point dari 2.4 GHz menjadi sinyal gelombang radio FM komersial dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih guna menjamin keandalan transmisi data dan kepatuhan standar industri telekomunikasi."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "explanation": "Serangan DNS Amplification adalah bentuk serangan Distributed Denial of Service (DDoS) berbasis refleksi. Penyerang memanfaatkan fakta bahwa protokol UDP tidak melakukan handshake (connectionless) sehingga IP pengirim sangat mudah dipalsukan (IP Spoofing). Botnet mengirimkan kueri DNS kecil (~60 bytes) dengan IP sumber yang dipalsukan menjadi IP korban menuju ribuan Open DNS Resolver publik di internet. Kueri tersebut meminta record besar (seperti `ANY` record atau zona bertanda tangan DNSSEC yang berukuran >3.000 bytes). Seluruh server DNS publik tersebut akan membalas dan mengarahkan gelombang data raksasa ke IP korban.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ANALISIS SERANGAN DNS AMPLIFICATION DDOS",
@@ -4128,11 +4134,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengubah Area 2 menjadi Totally Stubby Area tanpa default route."
+        "text": "Mengaktifkan protokol routing RIPv1 pada antarmuka penghubung kedua area."
       },
       {
         "key": "B",
-        "text": "Mengaktifkan protokol routing RIPv1 pada antarmuka penghubung kedua area."
+        "text": "Menghapus seluruh konfigurasi OSPF dan menggantinya dengan bridging layer 2 murni untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
       },
       {
         "key": "C",
@@ -4140,7 +4146,7 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghapus seluruh konfigurasi OSPF dan menggantinya dengan bridging layer 2 murni untuk memastikan seluruh frame dan paket data terdistribusi secara seimbang tanpa jitter."
+        "text": "Mengubah Area 2 menjadi Totally Stubby Area tanpa default route."
       },
       {
         "key": "E",
@@ -4171,7 +4177,7 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Konektor APC dapat dipasang secara terbalik tanpa perlu membersihkan debu pada ferrule."
+        "text": "Konektor APC tidak memerlukan pengunci klip mekanik saat ditancapkan ke adapter."
       },
       {
         "key": "B",
@@ -4179,18 +4185,18 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Konektor APC tidak memerlukan pengunci klip mekanik saat ditancapkan ke adapter."
+        "text": "Konektor APC dapat dipasang secara terbalik tanpa perlu membersihkan debu pada ferrule."
       },
       {
         "key": "D",
-        "text": "Sudut kemiringan 8 derajat pada ferrule APC memantulkan cahaya balik (optical return loss) ke dinding cladding, menghasilkan nilai return loss sangat tinggi ( $\\le -60\\text{ dB}$ ) yang melindungi pemancar laser OLT dari kerusakan."
+        "text": "Warna hijau menandakan kabel tersebut ramah lingkungan dan bebas dari radiasi elektromagnetik."
       },
       {
         "key": "E",
-        "text": "Warna hijau menandakan kabel tersebut ramah lingkungan dan bebas dari radiasi elektromagnetik."
+        "text": "Sudut kemiringan 8 derajat pada ferrule APC memantulkan cahaya balik (optical return loss) ke dinding cladding, menghasilkan nilai return loss sangat tinggi ( $\\le -60\\text{ dB}$ ) yang melindungi pemancar laser OLT dari kerusakan."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "explanation": "Pada konektor UPC (biru), ujung permukaan ferrule dipoles datar-cembung (flat/dome), sehingga cahaya yang terpantul pada celah udara akan langsung memantul lurus 180 derajat kembali ke arah laser pemancar (Optical Return Loss berkisar -50 dB), yang dapat merusak stabilitas laser dan memicu distorsi pada transmisi video analog/RF. Pada konektor APC (hijau), ujung ferrule dipoles dengan sudut kemiringan presisi 8 derajat. Kemiringan ini membelokkan cahaya pantulan keluar menembus cladding, menghasilkan return loss superior ( $\\le -60\\text{ dB}$ ).",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ANALISIS REDAMAN KONEKTOR UPC VS APC PADA JARINGAN FTTH GPON",
@@ -4214,11 +4220,11 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memperbesar nilai MTU interface LAN klien menjadi 9000 bytes jumbo frame."
+        "text": "Mengonfigurasi 'TCP MSS Clamping' (menurunkan nilai Maximum Segment Size, misal `ip tcp adjust-mss 1360`) untuk mengkompensasi overhead enkripsi header IPsec dan mencegah paket melampaui MTU 1500 dengan bit Don't Fragment (DF) aktif."
       },
       {
         "key": "B",
-        "text": "Menonaktifkan enkripsi IPsec dan membiarkan data terkirim tanpa perlindungan keamanan."
+        "text": "Memperbesar nilai MTU interface LAN klien menjadi 9000 bytes jumbo frame."
       },
       {
         "key": "C",
@@ -4226,14 +4232,14 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghapus seluruh rute static pada routing table dan membiarkan router offline."
+        "text": "Menonaktifkan enkripsi IPsec dan membiarkan data terkirim tanpa perlindungan keamanan."
       },
       {
         "key": "E",
-        "text": "Mengonfigurasi 'TCP MSS Clamping' (menurunkan nilai Maximum Segment Size, misal `ip tcp adjust-mss 1360`) untuk mengkompensasi overhead enkripsi header IPsec dan mencegah paket melampaui MTU 1500 dengan bit Don't Fragment (DF) aktif."
+        "text": "Menghapus seluruh rute static pada routing table dan membiarkan router offline."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "explanation": "Paket ping ICMP kecil (biasanya 32-64 bytes) dapat melintasi terowongan VPN tanpa masalah. Namun ketika klien mengirimkan data web besar, paket TCP memiliki ukuran segmen maksimal (MSS 1460 bytes) yang menghasilkan paket IP berukuran 1500 bytes (batas standar MTU). Terowongan VPN IPsec menambahkan overhead header enkripsi (ESP, IV, padding, HMAC) sekitar 50-70 bytes, sehingga ukuran total paket membengkak menjadi >1550 bytes. Jika paket diset dengan flag DF (Don't Fragment), paket akan didrop oleh router di internet (Path MTU Black Hole). Solusi standar adalah mengaktifkan TCP MSS Clamping pada router VPN untuk memaksa kedua endpoint mereduksi ukuran segmen datanya sejak awal.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: TROUBLESHOOTING MTU MISMATCH AND IP FRAGMENTATION",
@@ -4257,26 +4263,26 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengaktifkan DHCP Snooping pada switch, menetapkan port uplink ke router resmi sebagai 'trusted', dan seluruh port kamar siswa sebagai 'untrusted' (paket DHCP Offer dari port untrusted akan seketika didrop)."
-      },
-      {
-        "key": "B",
-        "text": "Mengaktifkan fitur Spanning Tree PortFast pada seluruh port switch kamar asrama sesuai dengan ketentuan best practice arsitektur jaringan komputer enterprise modern dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
-      },
-      {
-        "key": "C",
-        "text": "Memasang penangkal petir tembaga pada tiang Access Point luar ruangan."
-      },
-      {
-        "key": "D",
         "text": "Mengubah subnet mask seluruh komputer siswa menjadi 255.255.255.255."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Mengaktifkan DHCP Snooping pada switch, menetapkan port uplink ke router resmi sebagai 'trusted', dan seluruh port kamar siswa sebagai 'untrusted' (paket DHCP Offer dari port untrusted akan seketika didrop)."
+      },
+      {
+        "key": "C",
+        "text": "Mengaktifkan fitur Spanning Tree PortFast pada seluruh port switch kamar asrama dalam rangka memitigasi potensi gangguan interferensi elektromagnetik dan redaman berlebih."
+      },
+      {
+        "key": "D",
         "text": "Menurunkan kecepatan port switch siswa dari 1 Gbps menjadi 10 Mbps Half-Duplex."
+      },
+      {
+        "key": "E",
+        "text": "Memasang penangkal petir tembaga pada tiang Access Point luar ruangan."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "explanation": "DHCP Snooping adalah fitur keamanan layer 2 pada switch yang bertindak seperti firewall antara klien DHCP dan server DHCP. Switch membagi port-portnya menjadi dua kategori: (1) Trusted Port: hanya port yang terhubung ke DHCP Server resmi atau uplink router utama yang diizinkan meneruskan paket respons DHCP (seperti DHCP Offer dan DHCP ACK); (2) Untrusted Port: seluruh port akses pengguna. Jika ada perangkat liar yang mengirimkan DHCP Offer atau DHCP ACK pada port untrusted, switch akan mendeteksi pelanggaran tersebut dan langsung mendrop paketnya.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: MITIGASI SERANGAN ROGUE DHCP SERVER MENGGUNAKAN DHCP SNOOPING",
@@ -4300,15 +4306,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "One-way Latency $\\le 2000\\text{ ms}$, Jitter $\\le 500\\text{ ms}$, dan Packet Loss Ratio $\\le 15\\% $."
-      },
-      {
-        "key": "B",
         "text": "One-way Latency $\\le 100\\text{ ms}$, IP Packet Delay Variation (Jitter) $\\le 50\\text{ ms}$, dan Packet Loss Ratio $\\le 0.1\\% $ (atau $\\le 10^{-3}$)."
       },
       {
+        "key": "B",
+        "text": "Hanya diukur berdasarkan kecepatan download Speedtest tanpa memperhatikan latensi paket."
+      },
+      {
         "key": "C",
-        "text": "Latency harus bernilai mutlak $0\\text{ ms}$ pada kabel tembaga tanpa ada deviasi waktu perambatan sinyal demi mencegah terjadinya degradasi throughput pada link jaringan backbone utama."
+        "text": "Latency harus bernilai mutlak $0\\text{ ms}$ pada kabel tembaga tanpa ada deviasi waktu perambatan sinyal."
       },
       {
         "key": "D",
@@ -4316,10 +4322,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Hanya diukur berdasarkan kecepatan download Speedtest tanpa memperhatikan latensi paket."
+        "text": "One-way Latency $\\le 2000\\text{ ms}$, Jitter $\\le 500\\text{ ms}$, dan Packet Loss Ratio $\\le 15\\% $."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "explanation": "Standar internasional ITU-T Recommendation Y.1541 mendefinisikan parameter performa jaringan IP. Untuk Kelas 0 (aplikasi sangat sensitif terhadap penundaan seperti VoIP interaktif real-time, telemedisin, dan video conference berkualitas tinggi), ambang batas yang disyaratkan adalah: One-way Transfer Delay (Latensi) maksimal 100 ms, Delay Variation (Jitter) maksimal 50 ms, dan Packet Loss Ratio (PLR) tidak boleh melebihi 0.1% (1 paket hilang per 1000 paket).",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: ANALISIS METRIK KUALITAS LAYANAN (JITTER, LATENCY, PACKET LOSS) STANDAR ITU-T Y.1541",
@@ -4343,15 +4349,15 @@ window.TKA_TKJ_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Masuk ke ruang baterai dengan membawa korek api untuk memeriksa titik sumber kebocoran gas."
+        "text": "Menyalakan kipas angin rumahan biasa di tengah-tengah ruang baterai."
       },
       {
         "key": "B",
-        "text": "Menutup rapat seluruh pintu dan jendela serta mematikan blower ventilasi udara agar gas terkurung."
+        "text": "Segera menekan tombol Emergency Power Off (EPO) charger baterai, mengaktifkan sistem ventilasi pembuangan gas khusus anti-ledakan (explosion-proof exhaust), dan mengevakuasi seluruh personil keluar dari zona bahaya."
       },
       {
         "key": "C",
-        "text": "Segera menekan tombol Emergency Power Off (EPO) charger baterai, mengaktifkan sistem ventilasi pembuangan gas khusus anti-ledakan (explosion-proof exhaust), dan mengevakuasi seluruh personil keluar dari zona bahaya."
+        "text": "Masuk ke ruang baterai dengan membawa korek api untuk memeriksa titik sumber kebocoran gas."
       },
       {
         "key": "D",
@@ -4359,10 +4365,10 @@ window.TKA_TKJ_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menyalakan kipas angin rumahan biasa di tengah-tengah ruang baterai."
+        "text": "Menutup rapat seluruh pintu dan jendela serta mematikan blower ventilasi udara agar gas terkurung."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "explanation": "Baterai timbal-asam (VRLA) yang mengalami overcharging atau thermal runaway akan melepaskan gas hidrogen (H2) yang sangat mudah terbakar dan meledak jika konsentrasinya di udara melampaui Lower Explosive Limit (LEL 4%), serta uap asam sulfat yang beracun bagi pernapasan. Standar keselamatan kerja data center (OSHA / NFPA 855) mewajibkan: (1) Memutus sumber pengisian daya listrik; (2) Mengaktifkan sistem ventilasi pembuangan gas anti-ledakan (intrinsically safe exhaust); (3) Larangan keras adanya percikan api atau sakelar listrik biasa; dan (4) Evakuasi seluruh personil ke titik kumpul aman.",
     "formulaHud": {
       "title": "STANDAR & PROTOKOL: SOP EVAKUASI DAN PENANGANAN KEBOCORAN GAS BERACUN RUANG BATERAI UPS DATA CENTER",

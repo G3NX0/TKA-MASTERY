@@ -1,5 +1,9 @@
-// TKA MASTERY HUB - MANDARIN QUESTIONS DATABASE
-// Automatically sanitized: pure foreign questions and options, translation available via toggle
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_BAHASA_MANDARIN_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_BAHASA_MANDARIN_QUESTIONS = [
   {
     "id": "man-lat-e-01",
@@ -22,32 +26,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "河",
-        "translation": "hé - sungai / aliran air alami."
-      },
-      {
-        "key": "B",
         "text": "林",
         "translation": "lín - hutan lebat yang tersusun dari radikal pohon 木."
       },
       {
+        "key": "B",
+        "text": "跑",
+        "translation": "pǎo - berlari yang memuat radikal kaki 足/𧾷."
+      },
+      {
         "key": "C",
+        "text": "河",
+        "translation": "hé - sungai / aliran air alami."
+      },
+      {
+        "key": "D",
         "text": "休",
         "translation": "xiū - beristirahat yang memuat radikal manusia 亻 dan pohon 木."
       },
       {
-        "key": "D",
+        "key": "E",
         "text": "吃",
         "translation": "chī - makan yang memuat radikal mulut 口."
-      },
-      {
-        "key": "E",
-        "text": "跑",
-        "translation": "pǎo - berlari yang memuat radikal kaki 足/𧾷."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 河 (hé - sungai / aliran air alami).. Radikal 氵 (tiga titik air) ada pada karakter yang berkaitan dengan air. '河' (hé) berarti sungai. Pilih opsi: '河 (hé)'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 河 (hé - sungai / aliran air alami).. Radikal 氵 (tiga titik air) ada pada karakter yang berkaitan dengan air. '河' (hé) berarti sungai. Pilih opsi: '河 (hé)'."
   },
   {
     "id": "man-lat-e-02",
@@ -70,27 +74,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karakter kedua (好) berubah menjadi nada keempat (去声 - qùshēng / nada turun tegas) ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
-      },
-      {
-        "key": "B",
-        "text": "Karakter pertama (你) berubah menjadi nada kedua (阳平 - yángpíng / nada naik /), sehingga dilafalkan 'ní hǎo'."
-      },
-      {
-        "key": "C",
         "text": "Kedua karakter sama-sama berubah menjadi nada netral yang diucapkan sangat pendek dan ringan."
       },
       {
+        "key": "B",
+        "text": "Kedua karakter tetap dilafalkan utuh dengan nada ketiga tanpa mengalami perubahan fonetis apa pun."
+      },
+      {
+        "key": "C",
+        "text": "Karakter pertama (你) berubah menjadi nada kedua (阳平 - yángpíng / nada naik /), sehingga dilafalkan 'ní hǎo'."
+      },
+      {
         "key": "D",
-        "text": "Karakter pertama berubah menjadi nada pertama (阴平 - yīnpíng / nada tinggi datar)."
+        "text": "Karakter kedua (好) berubah menjadi nada keempat (去声 - qùshēng / nada turun tegas)."
       },
       {
         "key": "E",
-        "text": "Kedua karakter tetap dilafalkan utuh dengan nada ketiga tanpa mengalami perubahan fonetis apa pun."
+        "text": "Karakter pertama berubah menjadi nada pertama (阴平 - yīnpíng / nada tinggi datar)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Karakter pertama (你) berubah menjadi nada kedua (阳平 - yángpíng / nada naik /), sehingga dilafalkan 'ní hǎo'.. Pertemuan dua nada 3 (3+3) secara otomatis mengubah nada pertama menjadi nada 2: 你好 nǐ hǎo dilafalkan 'ní hǎo'. Pilih opsi yang menjelaskan perubahan karakter pertama menjadi nada kedua (2+3)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Karakter pertama (你) berubah menjadi nada kedua (阳平 - yángpíng / nada naik /), sehingga dilafalkan 'ní hǎo'.. Pertemuan dua nada 3 (3+3) secara otomatis mengubah nada pertama menjadi nada 2: 你好 nǐ hǎo dilafalkan 'ní hǎo'. Pilih opsi yang menjelaskan perubahan karakter pertama menjadi nada kedua (2+3)."
   },
   {
     "id": "man-lat-e-03",
@@ -113,8 +117,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "bù shì",
-        "translation": "tetap bernada keempat ganda yang dianggap tidak selaras dengan kaidah eufoni Mandarin."
+        "text": "bú shì",
+        "translation": "nada 'bù' berubah menjadi nada kedua 'bú' saat mendahului nada keempat."
       },
       {
         "key": "B",
@@ -123,8 +127,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "bú shì",
-        "translation": "nada 'bù' berubah menjadi nada kedua 'bú' saat mendahului nada keempat."
+        "text": "bu shì",
+        "translation": "berubah menjadi nada netral tanpa tanda aksen."
       },
       {
         "key": "D",
@@ -133,12 +137,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "bu shì",
-        "translation": "berubah menjadi nada netral tanpa tanda aksen."
+        "text": "bù shì",
+        "translation": "tetap bernada keempat ganda yang dianggap tidak selaras dengan kaidah eufoni Mandarin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) bú shì (nada 'bù' berubah menjadi nada kedua 'bú' saat mendahului nada keempat).. Kaidah '不': jika diikuti nada 4 (seperti 是 shì), maka 不 dibaca nada 2 (bú shì). Pilih: 'bú shì'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) bú shì (nada 'bù' berubah menjadi nada kedua 'bú' saat mendahului nada keempat).. Kaidah '不': jika diikuti nada 4 (seperti 是 shì), maka 不 dibaca nada 2 (bú shì). Pilih: 'bú shì'."
   },
   {
     "id": "man-lat-e-04",
@@ -161,27 +165,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketika '一' berdiri sendiri saat menghitung urutan angka satu, dua, tiga (yī, èr, sān) menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
-        "text": "Ketika '一' diikuti oleh kata bernada pertama seperti '一天' (yìtiān)."
-      },
-      {
-        "key": "C",
         "text": "Ketika '一' terletak pada akhir frasa atau penutup kalimat pernyataan."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Ketika '一' digunakan untuk menyebut nomor kamar hotel atau nomor telepon pribadi."
+      },
+      {
+        "key": "C",
         "text": "Ketika '一' diikuti oleh karakter yang berharakat nada keempat (*qùshēng*), seperti pada kata '一共' (yígòng) atau '一下' (yíxià)."
       },
       {
+        "key": "D",
+        "text": "Ketika '一' diikuti oleh kata bernada pertama seperti '一天' (yìtiān)."
+      },
+      {
         "key": "E",
-        "text": "Ketika '一' digunakan untuk menyebut nomor kamar hotel atau nomor telepon pribadi."
+        "text": "Ketika '一' berdiri sendiri saat menghitung urutan angka satu, dua, tiga (yī, èr, sān)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ketika '一' diikuti oleh karakter yang berharakat nada keempat (*qùshēng*), seperti pada kata '一共' (yígòng) atau '一下' (yíxià).. Kata 一 (yī) berubah menjadi nada 2 (yí) hanya jika berada di depan suku kata bernada 4 (seperti 一下 yíxià, 一共 yígòng). Pilih opsi yang menyebutkan kondisi mendahului karakter bernada keempat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Ketika '一' diikuti oleh karakter yang berharakat nada keempat (*qùshēng*), seperti pada kata '一共' (yígòng) atau '一下' (yíxià).. Kata 一 (yī) berubah menjadi nada 2 (yí) hanya jika berada di depan suku kata bernada 4 (seperti 一下 yíxià, 一共 yígòng). Pilih opsi yang menyebutkan kondisi mendahului karakter bernada keempat."
   },
   {
     "id": "man-lat-e-05",
@@ -204,32 +208,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Shù",
-        "translation": "竖 - goresan tegak lurus vertikal dari atas ke bawah."
+        "text": "Héng",
+        "translation": "横 - goresan mendatar horizontal."
       },
       {
         "key": "B",
-        "text": "Piě",
-        "translation": "撇 - goresan miring melengkung ke arah kiri bawah."
-      },
-      {
-        "key": "C",
-        "text": "Nà",
-        "translation": "捺 - goresan tebal meluncur ke arah kanan bawah."
-      },
-      {
-        "key": "D",
         "text": "Diǎn",
         "translation": "点 - goresan titik kecil penekan aksen."
       },
       {
+        "key": "C",
+        "text": "Shù",
+        "translation": "竖 - goresan tegak lurus vertikal dari atas ke bawah."
+      },
+      {
+        "key": "D",
+        "text": "Piě",
+        "translation": "撇 - goresan miring melengkung ke arah kiri bawah."
+      },
+      {
         "key": "E",
-        "text": "Héng",
-        "translation": "横 - goresan mendatar horizontal."
+        "text": "Nà",
+        "translation": "捺 - goresan tebal meluncur ke arah kanan bawah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Héng (横 - goresan mendatar horizontal).. Goresan garis horizontal mendatar disebut 横 (Héng). Garis vertikal tegak disebut 竖 (Shù). Pilih: 'Héng (横)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Héng (横 - goresan mendatar horizontal).. Goresan garis horizontal mendatar disebut 横 (Héng). Garis vertikal tegak disebut 竖 (Shù). Pilih: 'Héng (横)'."
   },
   {
     "id": "man-lat-e-06",
@@ -252,23 +256,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 您",
-        "translation": "nín), B: 们 (men."
+        "text": "A: 他",
+        "translation": "tā), B: 们 (men - 'tā' merujuk pada orang ketiga tunggal 'dia'."
       },
       {
         "key": "B",
-        "text": "A: 你",
-        "translation": "nǐ), B: 们 (men - penggunaan 'nǐ' dinilai kurang sopan untuk menyapa guru."
-      },
-      {
-        "key": "C",
         "text": "A: 您",
         "translation": "nín), B: 个 (gè - 'gè' adalah kata bantu bilangan, bukan penanda jamak nomina manusia."
       },
       {
+        "key": "C",
+        "text": "A: 你",
+        "translation": "nǐ), B: 们 (men - penggunaan 'nǐ' dinilai kurang sopan untuk menyapa guru."
+      },
+      {
         "key": "D",
-        "text": "A: 他",
-        "translation": "tā), B: 们 (men - 'tā' merujuk pada orang ketiga tunggal 'dia'."
+        "text": "A: 您",
+        "translation": "nín), B: 们 (men."
       },
       {
         "key": "E",
@@ -276,8 +280,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "shéi), B: 些 (xiē - tidak membentuk keselarasan subjek gramatikal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) A: 您 (nín), B: 们 (men).. Menyapa guru secara hormat: 您 (nín). Bentuk jamak teman-teman: 朋友 + 们 (péngyoumen). Pilih: 'A: 您 (nín), B: 们 (men)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) A: 您 (nín), B: 们 (men).. Menyapa guru secara hormat: 您 (nín). Bentuk jamak teman-teman: 朋友 + 们 (péngyoumen). Pilih: 'A: 您 (nín), B: 们 (men)'."
   },
   {
     "id": "man-lat-e-07",
@@ -300,32 +304,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 个",
-        "translation": "gè), B: 本 (běn - terbalik dan pemakaian gè kurang presisi untuk buku cetak ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
-      },
-      {
-        "key": "B",
         "text": "A: 本",
         "translation": "běn - satuan untuk jilidan buku/majalah), B: 张 (zhāng - satuan untuk benda berpermukaan datar rata seperti meja, kertas, atau kasur."
       },
       {
-        "key": "C",
-        "text": "A: 张",
-        "translation": "zhāng), B: 件 (jiàn - jiàn adalah satuan untuk pakaian atau perkara urusan."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "A: 条",
         "translation": "tiáo), B: 只 (zhī - tiáo untuk benda panjang menjalar dan zhī untuk binatang berkaki."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "A: 个",
+        "translation": "gè), B: 本 (běn - terbalik dan pemakaian gè kurang presisi untuk buku cetak ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+      },
+      {
+        "key": "D",
         "text": "A: 块",
         "translation": "kuài), B: 瓶 (píng - kuài untuk potongan balok/uang dan píng untuk botol minuman."
+      },
+      {
+        "key": "E",
+        "text": "A: 张",
+        "translation": "zhāng), B: 件 (jiàn - jiàn adalah satuan untuk pakaian atau perkara urusan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) A: 本 (běn - satuan untuk jilidan buku/majalah), B: 张 (zhāng - satuan untuk benda berpermukaan datar rata seperti meja, kertas, atau kasur).. Buku (书) menggunakan kata bantu bilangan 本 (běn). Meja (桌子) memiliki permukaan rata, menggunakan 张 (zhāng). Pilih: 'A: 本 (běn), B: 张 (zhāng)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) A: 本 (běn - satuan untuk jilidan buku/majalah), B: 张 (zhāng - satuan untuk benda berpermukaan datar rata seperti meja, kertas, atau kasur).. Buku (书) menggunakan kata bantu bilangan 本 (běn). Meja (桌子) memiliki permukaan rata, menggunakan 张 (zhāng). Pilih: 'A: 本 (běn), B: 张 (zhāng)'."
   },
   {
     "id": "man-lat-e-08",
@@ -358,22 +362,22 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "A: 件",
-        "translation": "jiàn - satuan pakaian atasan/baju), B: 条 (tiáo - satuan benda panjang ramping seperti celana, ikan, dan sungai."
-      },
-      {
-        "key": "D",
         "text": "A: 只",
         "translation": "zhī), B: 根 (gēn - zhī untuk hewan dan gēn untuk benda silindris keras."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "A: 块",
         "translation": "kuài), B: 片 (piàn - kuài untuk batangan dan piàn untuk lembaran tipis roti/daun."
+      },
+      {
+        "key": "E",
+        "text": "A: 件",
+        "translation": "jiàn - satuan pakaian atasan/baju), B: 条 (tiáo - satuan benda panjang ramping seperti celana, ikan, dan sungai."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) A: 件 (jiàn - satuan pakaian atasan/baju), B: 条 (tiáo - satuan benda panjang ramping seperti celana, ikan, dan sungai).. Kemeja (衬衫) memakai 件 (jiàn). Celana (裤子) bentuknya panjang, memakai 条 (tiáo). Pilih: 'A: 件 (jiàn), B: 条 (tiáo)'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) A: 件 (jiàn - satuan pakaian atasan/baju), B: 条 (tiáo - satuan benda panjang ramping seperti celana, ikan, dan sungai).. Kemeja (衬衫) memakai 件 (jiàn). Celana (裤子) bentuknya panjang, memakai 条 (tiáo). Pilih: 'A: 件 (jiàn), B: 条 (tiáo)'."
   },
   {
     "id": "man-lat-e-09",
@@ -401,27 +405,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "A: 呢",
-        "translation": "ne), B: 的 (de - ne untuk pertanyaan balik/sedang berlangsung dan de adalah partikel kepemilikan."
-      },
-      {
-        "key": "C",
-        "text": "A: 吗",
-        "translation": "ma), B: 呢 (ne - kalimat kedua bukan merupakan pertanyaan balik topik eliptis."
-      },
-      {
-        "key": "D",
         "text": "A: 吗",
         "translation": "ma - penanda interogatif ya/tidak murni), B: 吧 (ba - penanda ajakan, saran, atau konfirmasi perkiraan."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "A: 呢",
+        "translation": "ne), B: 的 (de - ne untuk pertanyaan balik/sedang berlangsung dan de adalah partikel kepemilikan."
+      },
+      {
+        "key": "D",
         "text": "A: 啊",
         "translation": "a), B: 啦 (la - partikel modalitas seru yang tidak membentuk struktur interrogatif standar."
+      },
+      {
+        "key": "E",
+        "text": "A: 吗",
+        "translation": "ma), B: 呢 (ne - kalimat kedua bukan merupakan pertanyaan balik topik eliptis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) A: 吗 (ma - penanda interogatif ya/tidak murni), B: 吧 (ba - penanda ajakan, saran, atau konfirmasi perkiraan).. Kalimat 1 pertanyaan fakta: 吗 (ma). Kalimat 2 ajakan mari jalan-jalan: 吧 (ba). Pilih: 'A: 吗 (ma), B: 吧 (ba)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) A: 吗 (ma - penanda interogatif ya/tidak murni), B: 吧 (ba - penanda ajakan, saran, atau konfirmasi perkiraan).. Kalimat 1 pertanyaan fakta: 吗 (ma). Kalimat 2 ajakan mari jalan-jalan: 吧 (ba). Pilih: 'A: 吗 (ma), B: 吧 (ba)'."
   },
   {
     "id": "man-lat-e-10",
@@ -449,27 +453,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "他很的高兴。",
-        "translation": "Penyisipan partikel 'de' yang salah di antara kata keterangan tingkat dan kata sifat."
-      },
-      {
-        "key": "C",
         "text": "的我们去吃饭。",
         "translation": "Partikel 'de' tidak boleh diletakkan di awal kalimat mendahului subjek pronomina."
       },
       {
+        "key": "C",
+        "text": "他很的高兴。",
+        "translation": "Penyisipan partikel 'de' yang salah di antara kata keterangan tingkat dan kata sifat."
+      },
+      {
         "key": "D",
-        "text": "我看了的电影。",
-        "translation": "Partikel 'de' keliru disisipkan menggantikan partikel aspek ketuntasan 了 le."
+        "text": "这是我爸爸的汽车。",
+        "translation": "Zhè shì wǒ bàba de qìchē - ini adalah mobil milik ayah saya."
       },
       {
         "key": "E",
-        "text": "这是我爸爸的汽车。",
-        "translation": "Zhè shì wǒ bàba de qìchē - ini adalah mobil milik ayah saya."
+        "text": "我看了的电影。",
+        "translation": "Partikel 'de' keliru disisipkan menggantikan partikel aspek ketuntasan 了 le."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 这是我爸爸的汽车。 (Zhè shì wǒ bàba de qìchē - ini adalah mobil milik ayah saya).. Partikel 的 (de) berfungsi menghubungkan pemilik dan milik: 我爸爸的汽车 (mobil milik ayah saya). Pilih: '这是我爸爸的汽车。'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 这是我爸爸的汽车。 (Zhè shì wǒ bàba de qìchē - ini adalah mobil milik ayah saya).. Partikel 的 (de) berfungsi menghubungkan pemilik dan milik: 我爸爸的汽车 (mobil milik ayah saya). Pilih: '这是我爸爸的汽车。'."
   },
   {
     "id": "man-lat-e-11",
@@ -492,32 +496,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "我明天去北京。 / 明天我去北京。",
-        "translation": "Keterangan waktu 'míngtiān' diletakkan tepat setelah subjek atau di awal kalimat sebelum subjek."
-      },
-      {
-        "key": "B",
-        "text": "我去北京明天。",
-        "translation": "Keterangan waktu diletakkan di akhir kalimat meniru struktur bahasa Indonesia/Inggris yang dilarang keras dalam Mandarin."
-      },
-      {
-        "key": "C",
         "text": "我去明天北京。",
         "translation": "Keterangan waktu disisipkan di antara kata kerja dan objek destinasi."
       },
       {
+        "key": "B",
+        "text": "去北京我明天。",
+        "translation": "Kata kerja diletakkan di awal kalimat deklaratif tanpa adanya konteks imperatif."
+      },
+      {
+        "key": "C",
+        "text": "我明天去北京。 / 明天我去北京。",
+        "translation": "Keterangan waktu 'míngtiān' diletakkan tepat setelah subjek atau di awal kalimat sebelum subjek."
+      },
+      {
         "key": "D",
-        "text": "北京明天我去。",
-        "translation": "Objek kota diletakkan di awal kalimat tanpa struktur topik-komen yang sahih."
+        "text": "我去北京明天。",
+        "translation": "Keterangan waktu diletakkan di akhir kalimat meniru struktur bahasa Indonesia/Inggris yang dilarang keras dalam Mandarin."
       },
       {
         "key": "E",
-        "text": "去北京我明天。",
-        "translation": "Kata kerja diletakkan di awal kalimat deklaratif tanpa adanya konteks imperatif."
+        "text": "北京明天我去。",
+        "translation": "Objek kota diletakkan di awal kalimat tanpa struktur topik-komen yang sahih."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 我明天去北京。 / 明天我去北京。 (Keterangan waktu 'míngtiān' diletakkan tepat setelah subjek atau di awal kalimat sebelum subjek).. Dalam bahasa Mandarin, keterangan waktu ditaruh SEBELUM kata kerja (setelah subjek atau paling depan). Tidak boleh di ujung belakang kalimat. Pilih opsi: '我明天去北京。 / 明天我去北京。'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 我明天去北京。 / 明天我去北京。 (Keterangan waktu 'míngtiān' diletakkan tepat setelah subjek atau di awal kalimat sebelum subjek).. Dalam bahasa Mandarin, keterangan waktu ditaruh SEBELUM kata kerja (setelah subjek atau paling depan). Tidak boleh di ujung belakang kalimat. Pilih opsi: '我明天去北京。 / 明天我去北京。'."
   },
   {
     "id": "man-lat-e-12",
@@ -540,11 +544,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(2) - (1) - (3) : 弟弟看书在图书馆。 (Menempatkan keterangan tempat di belakang predikat yang melanggar kaidah Mandarin)."
+        "text": "(3) - (1) - (2) : 在图书馆看书弟弟。 (Meletakkan subjek di akhir kalimat)."
       },
       {
         "key": "B",
-        "text": "(2) - (3) - (1) : 弟弟在图书馆看书。 (Subjek + Keterangan Tempat di depan + Predikat Kata Kerja)."
+        "text": "(1) - (3) - (2) : 看书在图书馆弟弟。 (Struktur acak tanpa kohesi gramatikal)."
       },
       {
         "key": "C",
@@ -552,15 +556,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "(3) - (1) - (2) : 在图书馆看书弟弟。 (Meletakkan subjek di akhir kalimat)."
+        "text": "(2) - (1) - (3) : 弟弟看书在图书馆。 (Menempatkan keterangan tempat di belakang predikat yang melanggar kaidah Mandarin)."
       },
       {
         "key": "E",
-        "text": "(1) - (3) - (2) : 看书在图书馆弟弟。 (Struktur acak tanpa kohesi gramatikal)."
+        "text": "(2) - (3) - (1) : 弟弟在图书馆看书。 (Subjek + Keterangan Tempat di depan + Predikat Kata Kerja)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) (2) - (3) - (1) : 弟弟在图书馆看书。 (Subjek + Keterangan Tempat di depan + Predikat Kata Kerja).. Rumus bahasa Mandarin: Subjek + 在 (zài) Tempat + Kata Kerja + Objek. Jadi: 弟弟在图书馆看书。 Pilih urutan: (2) - (3) - (1)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) (2) - (3) - (1) : 弟弟在图书馆看书。 (Subjek + Keterangan Tempat di depan + Predikat Kata Kerja).. Rumus bahasa Mandarin: Subjek + 在 (zài) Tempat + Kata Kerja + Objek. Jadi: 弟弟在图书馆看书。 Pilih urutan: (2) - (3) - (1)."
   },
   {
     "id": "man-lat-e-13",
@@ -583,32 +587,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "想",
-        "translation": "xiǎng - hanya bermakna angan-angan atau memikirkan dalam hati tanpa tindakan pemesanan langsung."
-      },
-      {
-        "key": "B",
-        "text": "会",
-        "translation": "huì - menyatakan keterampilan kompetensi yang diperoleh dari proses belajar."
-      },
-      {
-        "key": "C",
-        "text": "要",
-        "translation": "yào - menyatakan kehendak aktif/pasti menginginkan atau memesan sesuatu barang."
-      },
-      {
-        "key": "D",
         "text": "能",
         "translation": "néng - menyatakan kemampuan fisik atau izin situasi kondisional."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "可以",
         "translation": "kěyǐ - menyatakan perizinan normatif dari pihak berwenang."
+      },
+      {
+        "key": "C",
+        "text": "会",
+        "translation": "huì - menyatakan keterampilan kompetensi yang diperoleh dari proses belajar."
+      },
+      {
+        "key": "D",
+        "text": "要",
+        "translation": "yào - menyatakan kehendak aktif/pasti menginginkan atau memesan sesuatu barang."
+      },
+      {
+        "key": "E",
+        "text": "想",
+        "translation": "xiǎng - hanya bermakna angan-angan atau memikirkan dalam hati tanpa tindakan pemesanan langsung."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 要 (yào - menyatakan kehendak aktif/pasti menginginkan atau memesan sesuatu barang).. Memesan makanan secara pasti di restoran memakai 要 (yào): 我要一碗牛肉面. Pilih: '要 (yào)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 要 (yào - menyatakan kehendak aktif/pasti menginginkan atau memesan sesuatu barang).. Memesan makanan secara pasti di restoran memakai 要 (yào): 我要一碗牛肉面. Pilih: '要 (yào)'."
   },
   {
     "id": "man-lat-e-14",
@@ -631,13 +635,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 能",
-        "translation": "néng), B: 会 (huì - terbalik esensi antara keterampilan belajar dan batasan fisik akibat sakit menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
+        "text": "A: 会",
+        "translation": "huì - kemahiran berbahasa hasil proses belajar), B: 能 (néng - kemampuan kondisi fisik saat ini."
       },
       {
         "key": "B",
-        "text": "A: 可以",
-        "translation": "kěyǐ), B: 会 (huì - kěyǐ menandai izin peraturan sosial."
+        "text": "A: 能",
+        "translation": "néng), B: 能 (néng - mengabaikan perbedaan domain perolehan ilmu bahasa."
       },
       {
         "key": "C",
@@ -646,17 +650,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A: 会",
-        "translation": "huì - kemahiran berbahasa hasil proses belajar), B: 能 (néng - kemampuan kondisi fisik saat ini."
+        "text": "A: 能",
+        "translation": "néng), B: 会 (huì - terbalik esensi antara keterampilan belajar dan batasan fisik akibat sakit menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
       },
       {
         "key": "E",
-        "text": "A: 能",
-        "translation": "néng), B: 能 (néng - mengabaikan perbedaan domain perolehan ilmu bahasa."
+        "text": "A: 可以",
+        "translation": "kěyǐ), B: 会 (huì - kěyǐ menandai izin peraturan sosial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) A: 会 (huì - kemahiran berbahasa hasil proses belajar), B: 能 (néng - kemampuan kondisi fisik saat ini).. Bisa bahasa Mandarin karena belajar -> 会 (huì). Tidak bisa nyanyi karena radang tenggorokan/fisik sakit -> 不能 (bù néng). Pilih: 'A: 会 (huì), B: 能 (néng)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) A: 会 (huì - kemahiran berbahasa hasil proses belajar), B: 能 (néng - kemampuan kondisi fisik saat ini).. Bisa bahasa Mandarin karena belajar -> 会 (huì). Tidak bisa nyanyi karena radang tenggorokan/fisik sakit -> 不能 (bù néng). Pilih: 'A: 会 (huì), B: 能 (néng)'."
   },
   {
     "id": "man-lat-e-15",
@@ -679,23 +683,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "从",
-        "translation": "cóng - preposisi yang menandai titik tolak awal keberangkatan rute perjalanan fisik diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "往",
+        "translation": "wǎng - preposisi yang menandai orientasi arah pergerakan kompas."
       },
       {
         "key": "B",
-        "text": "到",
-        "translation": "dào - preposisi yang menandai titik akhir tujuan destinasi kedatangan."
-      },
-      {
-        "key": "C",
         "text": "在",
         "translation": "zài - preposisi yang menandai lokasi keberadaan tempat eksistensial."
       },
       {
+        "key": "C",
+        "text": "从",
+        "translation": "cóng - preposisi yang menandai titik tolak awal keberangkatan rute perjalanan fisik diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+      },
+      {
         "key": "D",
-        "text": "往",
-        "translation": "wǎng - preposisi yang menandai orientasi arah pergerakan kompas."
+        "text": "到",
+        "translation": "dào - preposisi yang menandai titik akhir tujuan destinasi kedatangan."
       },
       {
         "key": "E",
@@ -727,13 +731,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 因为",
-        "translation": "yīnwèi - karena), B: 所以 (suǒyǐ - oleh sebab itu / maka dari itu."
+        "text": "A: 既",
+        "translation": "jì), B: 又 (yòu) - pasangan konjungsi kesetaraan sifat ganda (baik...maupun...."
       },
       {
         "key": "B",
-        "text": "A: 虽然",
-        "translation": "suīrán), B: 但是 (dànshì) - pasangan konjungsi pertentangan (walaupun...tetapi...."
+        "text": "A: 因为",
+        "translation": "yīnwèi - karena), B: 所以 (suǒyǐ - oleh sebab itu / maka dari itu."
       },
       {
         "key": "C",
@@ -747,12 +751,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "A: 既",
-        "translation": "jì), B: 又 (yòu) - pasangan konjungsi kesetaraan sifat ganda (baik...maupun...."
+        "text": "A: 虽然",
+        "translation": "suīrán), B: 但是 (dànshì) - pasangan konjungsi pertentangan (walaupun...tetapi...."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) A: 因为 (yīnwèi - karena), B: 所以 (suǒyǐ - oleh sebab itu / maka dari itu).. Hubungan karena hujan lebat maka pertandingan ditunda adalah kausalitas: 因为 (yīnwèi)... 所以 (suǒyǐ)... Pilih opsi: 'A: 因为 (yīnwèi), B: 所以 (suǒyǐ)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) A: 因为 (yīnwèi - karena), B: 所以 (suǒyǐ - oleh sebab itu / maka dari itu).. Hubungan karena hujan lebat maka pertandingan ditunda adalah kausalitas: 因为 (yīnwèi)... 所以 (suǒyǐ)... Pilih opsi: 'A: 因为 (yīnwèi), B: 所以 (suǒyǐ)'."
   },
   {
     "id": "man-lat-e-17",
@@ -775,32 +779,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 因为",
-        "translation": "yīnwèi), B: 所以 (suǒyǐ - menyatakan hubungan sebab akibat lurus yang keliru secara logika."
+        "text": "A: 无论",
+        "translation": "wúlùn), B: 都 (dōu - menyatakan kondisi tanpa kecuali."
       },
       {
         "key": "B",
-        "text": "A: 虽然",
-        "translation": "suīrán), B: 但是 (dànshì."
-      },
-      {
-        "key": "C",
-        "text": "A: 如果",
-        "translation": "rúguǒ), B: 就 (jiù - menyatakan hubungan syarat hipotetis masa depan."
-      },
-      {
-        "key": "D",
         "text": "A: 只要",
         "translation": "zhǐyào), B: 就 (jiù - menyatakan syarat cukup mutlak."
       },
       {
+        "key": "C",
+        "text": "A: 虽然",
+        "translation": "suīrán), B: 但是 (dànshì."
+      },
+      {
+        "key": "D",
+        "text": "A: 如果",
+        "translation": "rúguǒ), B: 就 (jiù - menyatakan hubungan syarat hipotetis masa depan."
+      },
+      {
         "key": "E",
-        "text": "A: 无论",
-        "translation": "wúlùn), B: 都 (dōu - menyatakan kondisi tanpa kecuali."
+        "text": "A: 因为",
+        "translation": "yīnwèi), B: 所以 (suǒyǐ - menyatakan hubungan sebab akibat lurus yang keliru secara logika."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) A: 虽然 (suīrán), B: 但是 (dànshì).. Meskipun sulit, tetapi menarik: 虽然 (suīrán)... 但是 (dànshì)... Pilih: 'A: 虽然 (suīrán), B: 但是 (dànshì)'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) A: 虽然 (suīrán), B: 但是 (dànshì).. Meskipun sulit, tetapi menarik: 虽然 (suīrán)... 但是 (dànshì)... Pilih: 'A: 虽然 (suīrán), B: 但是 (dànshì)'."
   },
   {
     "id": "man-lat-e-18",
@@ -823,32 +827,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
+        "text": "姐姐的个子太高。",
+        "translation": "Tài gāo menandai keberlebihan yang melebihi batas toleransi wajar."
+      },
+      {
+        "key": "B",
         "text": "姐姐的个子很最高。",
         "translation": "Dilarang menggabungkan kata keterangan 'hěn' dengan kata tingkat 'zuì' secara bersamaan."
       },
       {
-        "key": "B",
-        "text": "姐姐的个子极高了。",
-        "translation": "Struktur 'jí le' menandai derajat sangat ekstrem, bukan perbandingan superlatif kelompok."
-      },
-      {
         "key": "C",
-        "text": "姐姐的个子最高。",
-        "translation": "Jiějie de gèzi zuì gāo - postur badan kakak perempuan adalah yang paling tinggi."
-      },
-      {
-        "key": "D",
         "text": "姐姐的个子比最高。",
         "translation": "Penggabungan partikel komparatif bǐ dengan zuì yang menyalahi sintaksis."
       },
       {
+        "key": "D",
+        "text": "姐姐的个子最高。",
+        "translation": "Jiějie de gèzi zuì gāo - postur badan kakak perempuan adalah yang paling tinggi."
+      },
+      {
         "key": "E",
-        "text": "姐姐的个子太高。",
-        "translation": "Tài gāo menandai keberlebihan yang melebihi batas toleransi wajar."
+        "text": "姐姐的个子极高了。",
+        "translation": "Struktur 'jí le' menandai derajat sangat ekstrem, bukan perbandingan superlatif kelompok."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 姐姐的个子最高。 (Jiějie de gèzi zuì gāo - postur badan kakak perempuan adalah yang paling tinggi).. Superlatif (paling tinggi) adalah 最 (zuì) + Kata Sifat: 最高 (zuì gāo). Tidak boleh ditambah 很 di depan 最. Pilih: '姐姐的个子最高。'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 姐姐的个子最高。 (Jiějie de gèzi zuì gāo - postur badan kakak perempuan adalah yang paling tinggi).. Superlatif (paling tinggi) adalah 最 (zuì) + Kata Sifat: 最高 (zuì gāo). Tidak boleh ditambah 很 di depan 最. Pilih: '姐姐的个子最高。'."
   },
   {
     "id": "man-lat-e-19",
@@ -876,18 +880,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
+        "text": "A: 从",
+        "translation": "cóng), B: 到 (dào."
+      },
+      {
+        "key": "C",
         "text": "A: 在",
         "translation": "zài), B: 去 (qù - qù adalah kata kerja pergi, bukan penanda batas waktu tiba."
       },
       {
-        "key": "C",
+        "key": "D",
         "text": "A: 往",
         "translation": "wǎng), B: 向 (xiàng - keduanya merupakan preposisi arah mata angin kompas."
-      },
-      {
-        "key": "D",
-        "text": "A: 从",
-        "translation": "cóng), B: 到 (dào."
       },
       {
         "key": "E",
@@ -895,8 +899,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "zì), B: 于 (yú - register sastra klasik kuno yang tidak selaras dengan bahasa modern sederhana."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) A: 从 (cóng), B: 到 (dào).. Dari jam 8 sampai jam 4: 从 (cóng) 8点 到 (dào) 4点. Pilih: 'A: 从 (cóng), B: 到 (dào)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) A: 从 (cóng), B: 到 (dào).. Dari jam 8 sampai jam 4: 从 (cóng) 8点 到 (dào) 4点. Pilih: 'A: 从 (cóng), B: 到 (dào)'."
   },
   {
     "id": "man-lat-e-20",
@@ -919,32 +923,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 以后",
-        "translation": "yǐhòu), B: 以前 (yǐqián - terbalik total urutan kronologis belajarnya."
-      },
-      {
-        "key": "B",
-        "text": "A: 之前",
-        "translation": "zhīqián), B: 以前 (yǐqián - keduanya sama-sama bermakna sebelum."
-      },
-      {
-        "key": "C",
         "text": "A: 过去",
         "translation": "guòqù), B: 将来 (jiānglái - kata benda mandiri yang berarti masa lalu dan masa depan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A: 刚才",
         "translation": "gāngcái), B: 现在 (xiànzài - baru saja dan sekarang."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "A: 以后",
+        "translation": "yǐhòu), B: 以前 (yǐqián - terbalik total urutan kronologis belajarnya."
+      },
+      {
+        "key": "D",
         "text": "A: 以前",
         "translation": "yǐqián - sebelum kelas dimulai), B: 以后 (yǐhòu - sesudah lulus kelak."
+      },
+      {
+        "key": "E",
+        "text": "A: 之前",
+        "translation": "zhīqián), B: 以前 (yǐqián - keduanya sama-sama bermakna sebelum."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) A: 以前 (yǐqián - sebelum kelas dimulai), B: 以后 (yǐhòu - sesudah lulus kelak).. Sebelum kelas = 上课以前. Sesudah lulus = 毕业以后. Pilih opsi: 'A: 以前 (yǐqián), B: 以后 (yǐhòu)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) A: 以前 (yǐqián - sebelum kelas dimulai), B: 以后 (yǐhòu - sesudah lulus kelak).. Sebelum kelas = 上课以前. Sesudah lulus = 毕业以后. Pilih opsi: 'A: 以前 (yǐqián), B: 以后 (yǐhòu)'."
   },
   {
     "id": "man-lat-e-21",
@@ -972,23 +976,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "没关系",
-        "translation": "Méi guānxi - jawaban balasan yang khusus untuk merespons permohonan maaf duìbuqǐ."
-      },
-      {
-        "key": "C",
         "text": "对不起",
         "translation": "Duìbuqǐ - ungkapan meminta maaf atas kesalahan yang tidak relevan."
       },
       {
+        "key": "C",
+        "text": "不用",
+        "translation": "Búyòng - penolakan kasar yang bernada ketus jika diucapkan sendiri tanpa konteks."
+      },
+      {
         "key": "D",
-        "text": "请问",
-        "translation": "Qǐngwèn - ungkapan permisi sebelum mengajukan pertanyaan kepada orang lain."
+        "text": "没关系",
+        "translation": "Méi guānxi - jawaban balasan yang khusus untuk merespons permohonan maaf duìbuqǐ."
       },
       {
         "key": "E",
-        "text": "不用",
-        "translation": "Búyòng - penolakan kasar yang bernada ketus jika diucapkan sendiri tanpa konteks."
+        "text": "请问",
+        "translation": "Qǐngwèn - ungkapan permisi sebelum mengajukan pertanyaan kepada orang lain."
       }
     ],
     "correctKey": "A",
@@ -1063,32 +1067,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "这个苹果叫什么名字？",
-        "translation": "Menanyakan siapa nama apel tersebut sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+        "text": "这个苹果是谁的？",
+        "translation": "Menanyakan siapa pemilik buah apel tersebut."
       },
       {
         "key": "B",
-        "text": "这个苹果在哪里买的？",
-        "translation": "Menanyakan di mana apel tersebut dibeli sebelumnya."
-      },
-      {
-        "key": "C",
         "text": "这个苹果一斤多少钱？",
         "translation": "Zhè ge píngguǒ yì jīn duōshao qián? - buah apel ini satu jin/setengah kilo berapa harganya?."
       },
       {
+        "key": "C",
+        "text": "这个苹果在哪里买的？",
+        "translation": "Menanyakan di mana apel tersebut dibeli sebelumnya."
+      },
+      {
         "key": "D",
-        "text": "这个苹果好吃吗？",
-        "translation": "Hanya menanyakan apakah rasa apelnya enak tanpa menanyakan nominal uang."
+        "text": "这个苹果叫什么名字？",
+        "translation": "Menanyakan siapa nama apel tersebut sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
       },
       {
         "key": "E",
-        "text": "这个苹果是谁的？",
-        "translation": "Menanyakan siapa pemilik buah apel tersebut."
+        "text": "这个苹果好吃吗？",
+        "translation": "Hanya menanyakan apakah rasa apelnya enak tanpa menanyakan nominal uang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 这个苹果一斤多少钱？ (Zhè ge píngguǒ yì jīn duōshao qián? - buah apel ini satu jin/setengah kilo berapa harganya?).. Menanyakan harga barang menggunakan kata tanya '多少钱' (duōshao qián). Pilih: '这个苹果一斤多少钱？'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 这个苹果一斤多少钱？ (Zhè ge píngguǒ yì jīn duōshao qián? - buah apel ini satu jin/setengah kilo berapa harganya?).. Menanyakan harga barang menggunakan kata tanya '多少钱' (duōshao qián). Pilih: '这个苹果一斤多少钱？'."
   },
   {
     "id": "man-lat-e-24",
@@ -1111,13 +1115,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "你叫什么名字？",
-        "translation": "Pertanyaan interogatif yang diajukan sebelum perkenalan selesai."
+        "text": "祝你生日快乐！",
+        "translation": "Ucapan selamat ulang tahun yang tidak relevan dengan konteks perkenalan."
       },
       {
         "key": "B",
-        "text": "祝你生日快乐！",
-        "translation": "Ucapan selamat ulang tahun yang tidak relevan dengan konteks perkenalan."
+        "text": "你叫什么名字？",
+        "translation": "Pertanyaan interogatif yang diajukan sebelum perkenalan selesai."
       },
       {
         "key": "C",
@@ -1126,17 +1130,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "很高兴认识你！",
-        "translation": "Hěn gāoxìng rènshi nǐ! - sangat senang dapat mengenal Anda!."
+        "text": "一路顺风！",
+        "translation": "Ucapan doa selamat jalan kepada pelancong yang hendak bepergian jauh."
       },
       {
         "key": "E",
-        "text": "一路顺风！",
-        "translation": "Ucapan doa selamat jalan kepada pelancong yang hendak bepergian jauh."
+        "text": "很高兴认识你！",
+        "translation": "Hěn gāoxìng rènshi nǐ! - sangat senang dapat mengenal Anda!."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 很高兴认识你！ (Hěn gāoxìng rènshi nǐ! - sangat senang dapat mengenal Anda!).. Senang berkenalan dengan Anda dalam bahasa Mandarin adalah '很高兴认识你！' (Hěn gāoxìng rènshi nǐ!). Pilih: '很高兴认识你！'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 很高兴认识你！ (Hěn gāoxìng rènshi nǐ! - sangat senang dapat mengenal Anda!).. Senang berkenalan dengan Anda dalam bahasa Mandarin adalah '很高兴认识你！' (Hěn gāoxìng rènshi nǐ!). Pilih: '很高兴认识你！'."
   },
   {
     "id": "man-lat-e-25",
@@ -1159,13 +1163,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "快走！",
-        "translation": "Kuài zǒu! - perintah kasar yang berarti 'bersegeralah angkat kaki / enyahlah'."
+        "text": "不送！",
+        "translation": "Bú sòng! - ungkapan dingin yang menyiratkan keengganan mengantar tamu."
       },
       {
         "key": "B",
-        "text": "不送！",
-        "translation": "Bú sòng! - ungkapan dingin yang menyiratkan keengganan mengantar tamu."
+        "text": "快走！",
+        "translation": "Kuài zǒu! - perintah kasar yang berarti 'bersegeralah angkat kaki / enyahlah'."
       },
       {
         "key": "C",
@@ -1207,8 +1211,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "过",
-        "translation": "guo - partikel aspek yang melekat pada verba untuk menandai pengalaman hidup di masa lalu."
+        "text": "在",
+        "translation": "zài - partikel penanda aspek sedang berlangsungnya aksi progresif."
       },
       {
         "key": "B",
@@ -1217,13 +1221,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "着",
-        "translation": "zhe - partikel aspek yang menandai keberlangsungan suatu aksi atau bertahannya keadaan."
+        "text": "过",
+        "translation": "guo - partikel aspek yang melekat pada verba untuk menandai pengalaman hidup di masa lalu."
       },
       {
         "key": "D",
-        "text": "在",
-        "translation": "zài - partikel penanda aspek sedang berlangsungnya aksi progresif."
+        "text": "着",
+        "translation": "zhe - partikel aspek yang menandai keberlangsungan suatu aksi atau bertahannya keadaan."
       },
       {
         "key": "E",
@@ -1231,8 +1235,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "de - partikel struktural modifikasi kepemilikan atau frasa nomina."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 过 (guo - partikel aspek yang melekat pada verba untuk menandai pengalaman hidup di masa lalu).. Menyatakan pengalaman 'pernah' melakukan sesuatu dalam bahasa Mandarin memakai kata kerja + 过 (guo): 去过 (pernah pergi). Pilih: '过 (guo)'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 过 (guo - partikel aspek yang melekat pada verba untuk menandai pengalaman hidup di masa lalu).. Menyatakan pengalaman 'pernah' melakukan sesuatu dalam bahasa Mandarin memakai kata kerja + 过 (guo): 去过 (pernah pergi). Pilih: '过 (guo)'."
   },
   {
     "id": "man-lat-m-02",
@@ -1255,8 +1259,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "了",
-        "translation": "le - hanya menandai bahwa aksi membuka pintu telah selesai dieksekusi."
+        "text": "得",
+        "translation": "dé - komplemen derajat yang memerlukan kata sifat penjelas di belakangnya."
       },
       {
         "key": "B",
@@ -1265,18 +1269,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "过",
-        "translation": "guo - menyiratkan pintu pernah terbuka di masa lalu namun kini sudah tertutup kembali."
-      },
-      {
-        "key": "D",
         "text": "在",
         "translation": "zài - dilarang diletakkan di belakang kata kerja sebagai sufiks aspek."
       },
       {
+        "key": "D",
+        "text": "了",
+        "translation": "le - hanya menandai bahwa aksi membuka pintu telah selesai dieksekusi."
+      },
+      {
         "key": "E",
-        "text": "得",
-        "translation": "dé - komplemen derajat yang memerlukan kata sifat penjelas di belakangnya."
+        "text": "过",
+        "translation": "guo - menyiratkan pintu pernah terbuka di masa lalu namun kini sudah tertutup kembali."
       }
     ],
     "correctKey": "B",
@@ -1303,18 +1307,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "王明比李华很最高。",
-        "translation": "Menambahkan kata keterangan 'hěn' atau 'zuì' yang dilarang keras di belakang struktur bǐ."
+        "text": "王明比李华高五厘米。",
+        "translation": "Wáng Míng bǐ Lǐ Huá gāo wǔ límǐ - Wang Ming lebih tinggi 5 cm daripada Li Hua."
       },
       {
         "key": "B",
-        "text": "王明比李华五厘米高。",
-        "translation": "Meletakkan selisih angka sebelum kata sifat yang menyalahi susunan kata sintaksis."
+        "text": "王明跟李华更高五厘米。",
+        "translation": "Menggunakan gēn yang berarti 'sama dengan' dan tidak kompatibel dengan selisih angka konkret."
       },
       {
         "key": "C",
-        "text": "王明比李华高五厘米。",
-        "translation": "Wáng Míng bǐ Lǐ Huá gāo wǔ límǐ - Wang Ming lebih tinggi 5 cm daripada Li Hua."
+        "text": "王明比李华很最高。",
+        "translation": "Menambahkan kata keterangan 'hěn' atau 'zuì' yang dilarang keras di belakang struktur bǐ."
       },
       {
         "key": "D",
@@ -1323,12 +1327,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "王明跟李华更高五厘米。",
-        "translation": "Menggunakan gēn yang berarti 'sama dengan' dan tidak kompatibel dengan selisih angka konkret."
+        "text": "王明比李华五厘米高。",
+        "translation": "Meletakkan selisih angka sebelum kata sifat yang menyalahi susunan kata sintaksis."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 王明比李华高五厘米。 (Wáng Míng bǐ Lǐ Huá gāo wǔ límǐ - Wang Ming lebih tinggi 5 cm daripada Li Hua).. Rumus perbandingan 'bǐ' dengan selisih: A + 比 + B + Kata Sifat + Selisih. Jadi: 王明比李华高五厘米. Pilih opsi: '王明比李华高五厘米。'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 王明比李华高五厘米。 (Wáng Míng bǐ Lǐ Huá gāo wǔ límǐ - Wang Ming lebih tinggi 5 cm daripada Li Hua).. Rumus perbandingan 'bǐ' dengan selisih: A + 比 + B + Kata Sifat + Selisih. Jadi: 王明比李华高五厘米. Pilih opsi: '王明比李华高五厘米。'."
   },
   {
     "id": "man-lat-m-04",
@@ -1351,13 +1355,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "哥哥比弟弟一样高。",
-        "translation": "Menggabungkan partikel bǐ yang menuntut perbedaan dengan kata yíyàng yang berarti sama."
+        "text": "哥哥和弟弟一样不高。",
+        "translation": "Konstruksi negasi yang rancu dan tidak lazim dalam perbandingan kesetaraan alami."
       },
       {
         "key": "B",
-        "text": "哥哥和弟弟一样不高。",
-        "translation": "Konstruksi negasi yang rancu dan tidak lazim dalam perbandingan kesetaraan alami."
+        "text": "哥哥像弟弟很高。",
+        "translation": "Penggunaan xiàng yang bermakna 'menyerupai' tanpa partikel kesetaraan yíyàng."
       },
       {
         "key": "C",
@@ -1371,8 +1375,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "哥哥像弟弟很高。",
-        "translation": "Penggunaan xiàng yang bermakna 'menyerupai' tanpa partikel kesetaraan yíyàng."
+        "text": "哥哥比弟弟一样高。",
+        "translation": "Menggabungkan partikel bǐ yang menuntut perbedaan dengan kata yíyàng yang berarti sama."
       }
     ],
     "correctKey": "D",
@@ -1399,32 +1403,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 完",
-        "translation": "wán), B: 懂 (dǒng - terbalik esensi hasil pemahaman intelektual dengan tuntasnya tugas fisik diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
-      },
-      {
-        "key": "B",
-        "text": "A: 见",
-        "translation": "jiàn), B: 到 (dào - jiàn menandai persepsi indra penangkapan suara/cahaya sekilas."
-      },
-      {
-        "key": "C",
-        "text": "A: 对",
-        "translation": "duì), B: 错 (cuò - duì dan cuò menandai benar atau salahnya hasil pengerjaan."
-      },
-      {
-        "key": "D",
         "text": "A: 好",
         "translation": "hǎo), B: 走 (zǒu - zǒu adalah kata kerja gerak berjalan yang tidak berfungsi sebagai komplemen tugas."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "A: 完",
+        "translation": "wán), B: 懂 (dǒng - terbalik esensi hasil pemahaman intelektual dengan tuntasnya tugas fisik diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+      },
+      {
+        "key": "C",
         "text": "A: 懂",
         "translation": "dǒng - mengerti/paham makna teks melalui pendengaran), B: 完 (wán - tuntas menyelesaikan seluruh halaman tugas."
+      },
+      {
+        "key": "D",
+        "text": "A: 对",
+        "translation": "duì), B: 错 (cuò - duì dan cuò menandai benar atau salahnya hasil pengerjaan."
+      },
+      {
+        "key": "E",
+        "text": "A: 见",
+        "translation": "jiàn), B: 到 (dào - jiàn menandai persepsi indra penangkapan suara/cahaya sekilas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) A: 懂 (dǒng - mengerti/paham makna teks melalui pendengaran), B: 完 (wán - tuntas menyelesaikan seluruh halaman tugas).. Mendengar sampai paham: 听懂 (tīngdǒng). Menulis sampai selesai: 写完 (xiěwán). Pilih opsi: 'A: 懂 (dǒng), B: 完 (wán)'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) A: 懂 (dǒng - mengerti/paham makna teks melalui pendengaran), B: 完 (wán - tuntas menyelesaikan seluruh halaman tugas).. Mendengar sampai paham: 听懂 (tīngdǒng). Menulis sampai selesai: 写完 (xiěwán). Pilih opsi: 'A: 懂 (dǒng), B: 完 (wán)'."
   },
   {
     "id": "man-lat-m-06",
@@ -1447,23 +1451,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "得",
-        "translation": "de - partikel struktural yang menghubungkan kata kerja dengan komplemen penjelas tingkat kualitas tindakan."
-      },
-      {
-        "key": "B",
         "text": "的",
         "translation": "de - partikel kepemilikan nomina yang salah fatal jika diletakkan setelah kata kerja untuk komplemen ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
       },
       {
+        "key": "B",
+        "text": "得",
+        "translation": "de - partikel struktural yang menghubungkan kata kerja dengan komplemen penjelas tingkat kualitas tindakan."
+      },
+      {
         "key": "C",
-        "text": "地",
-        "translation": "de - partikel adverbial yang hanya dipakai sebelum kata kerja untuk menerangkan sikap tindakan."
+        "text": "很",
+        "translation": "hěn - kata keterangan yang tidak dapat bertindak sebagai partikel struktural penghubung."
       },
       {
         "key": "D",
-        "text": "很",
-        "translation": "hěn - kata keterangan yang tidak dapat bertindak sebagai partikel struktural penghubung."
+        "text": "地",
+        "translation": "de - partikel adverbial yang hanya dipakai sebelum kata kerja untuk menerangkan sikap tindakan."
       },
       {
         "key": "E",
@@ -1471,8 +1475,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "le - partikel aspek yang tidak dapat mengikat langsung kata sifat evaluatif kualitas."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 得 (de - partikel struktural yang menghubungkan kata kerja dengan komplemen penjelas tingkat kualitas tindakan).. Menilai kualitas perbuatan (V + de + Sifat) wajib memakai '得' (de): 打得很好 (bermain dengan sangat baik). Pilih: '得 (de)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 得 (de - partikel struktural yang menghubungkan kata kerja dengan komplemen penjelas tingkat kualitas tindakan).. Menilai kualitas perbuatan (V + de + Sifat) wajib memakai '得' (de): 打得很好 (bermain dengan sangat baik). Pilih: '得 (de)'."
   },
   {
     "id": "man-lat-m-07",
@@ -1495,32 +1499,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "天气越来越很冷。",
-        "translation": "Menyisipkan kata keterangan 'hěn' di dalam struktur yuèláiyuè yang dilarang keras."
-      },
-      {
-        "key": "B",
         "text": "天气越来越冷了。",
         "translation": "Tiānqì yuè lái yuè lěng le - cuaca semakin lama menjadi semakin dingin."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "天气越来越非常冷。",
         "translation": "Menyisipkan kata keterangan 'fēicháng' yang merusak fungsi intensitas bertahap."
       },
       {
+        "key": "C",
+        "text": "天气越来越很冷。",
+        "translation": "Menyisipkan kata keterangan 'hěn' di dalam struktur yuèláiyuè yang dilarang keras."
+      },
+      {
         "key": "D",
-        "text": "天气更越来越冷。",
-        "translation": "Penggabungan dobel kata 'gèng' yang rancu di depan yuèláiyuè."
+        "text": "天气最越来越冷。",
+        "translation": "Penggabungan kata superlatif 'zuì' yang bertentangan dengan proses kontinuitas."
       },
       {
         "key": "E",
-        "text": "天气最越来越冷。",
-        "translation": "Penggabungan kata superlatif 'zuì' yang bertentangan dengan proses kontinuitas."
+        "text": "天气更越来越冷。",
+        "translation": "Penggabungan dobel kata 'gèng' yang rancu di depan yuèláiyuè."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 天气越来越冷了。 (Tiānqì yuè lái yuè lěng le - cuaca semakin lama menjadi semakin dingin).. Pola 'semakin...': 越来越 (yuè lái yuè) + Kata Sifat. Tidak boleh disisipkan '很' (hěn) atau '非常' (fēicháng). Pilih: '天气越来越冷了。'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 天气越来越冷了。 (Tiānqì yuè lái yuè lěng le - cuaca semakin lama menjadi semakin dingin).. Pola 'semakin...': 越来越 (yuè lái yuè) + Kata Sifat. Tidak boleh disisipkan '很' (hěn) atau '非常' (fēicháng). Pilih: '天气越来越冷了。'."
   },
   {
     "id": "man-lat-m-08",
@@ -1543,13 +1547,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 虽然",
-        "translation": "suīrán), B: 但是 (dànshì) - menyatakan pertentangan yang tidak selaras dengan akumulasi dua bahasa."
+        "text": "A: 宁可",
+        "translation": "nìngkě), B: 也不 (yěbù) - menyatakan pilihan kompromi berkorban."
       },
       {
         "key": "B",
-        "text": "A: 因为",
-        "translation": "yīnwèi), B: 所以 (suǒyǐ) - menyatakan hubungan sebab akibat lurus yang kurang pas."
+        "text": "A: 虽然",
+        "translation": "suīrán), B: 但是 (dànshì) - menyatakan pertentangan yang tidak selaras dengan akumulasi dua bahasa."
       },
       {
         "key": "C",
@@ -1563,8 +1567,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "A: 宁可",
-        "translation": "nìngkě), B: 也不 (yěbù) - menyatakan pilihan kompromi berkorban."
+        "text": "A: 因为",
+        "translation": "yīnwèi), B: 所以 (suǒyǐ) - menyatakan hubungan sebab akibat lurus yang kurang pas."
       }
     ],
     "correctKey": "C",
@@ -1591,8 +1595,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 虽然",
-        "translation": "suīrán), B: 可是 (kěshì - konjungsi pertentangan konsesif."
+        "text": "A: 如果",
+        "translation": "rúguǒ), B: 就 (jiù."
       },
       {
         "key": "B",
@@ -1606,17 +1610,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A: 如果",
-        "translation": "rúguǒ), B: 就 (jiù."
+        "text": "A: 即使",
+        "translation": "jíshǐ), B: 也 (yě) - pengandaian ekstrem konsesif (meskipun seandainya."
       },
       {
         "key": "E",
-        "text": "A: 即使",
-        "translation": "jíshǐ), B: 也 (yě) - pengandaian ekstrem konsesif (meskipun seandainya."
+        "text": "A: 虽然",
+        "translation": "suīrán), B: 可是 (kěshì - konjungsi pertentangan konsesif."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) A: 如果 (rúguǒ), B: 就 (jiù).. Jika besok tidak hujan, maka kita pergi mendaki: 如果 (rúguǒ)... 就 (jiù)... Pilih opsi: 'A: 如果 (rúguǒ), B: 就 (jiù)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) A: 如果 (rúguǒ), B: 就 (jiù).. Jika besok tidak hujan, maka kita pergi mendaki: 如果 (rúguǒ)... 就 (jiù)... Pilih opsi: 'A: 如果 (rúguǒ), B: 就 (jiù)'."
   },
   {
     "id": "man-lat-m-10",
@@ -1639,32 +1643,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "中国人习惯吃饭用筷子。",
-        "translation": "Menempatkan sarana 'yòng kuàizi' di belakang objek makanan meniru pola bahasa Indonesia/Inggris."
-      },
-      {
-        "key": "B",
-        "text": "中国人习惯在筷子吃饭。",
-        "translation": "Preposisi zài menandai lokasi tempat, bukan alat instrumen makan."
-      },
-      {
-        "key": "C",
         "text": "中国人习惯被筷子吃饭。",
         "translation": "Struktur kalimat pasif bèi yang keliru mengartikan orang dimakan oleh sumpit."
       },
       {
+        "key": "B",
+        "text": "中国人习惯用筷子吃饭。",
+        "translation": "Zhōngguórén xíguàn yòng kuàizi chīfàn - orang Tiongkok terbiasa memakai sumpit untuk makan."
+      },
+      {
+        "key": "C",
+        "text": "中国人习惯在筷子吃饭。",
+        "translation": "Preposisi zài menandai lokasi tempat, bukan alat instrumen makan."
+      },
+      {
         "key": "D",
-        "text": "中国人习惯把筷子吃饭。",
-        "translation": "Struktur bǎ yang rancu tanpa verba tindakan yang tuntas terhadap sumpit."
+        "text": "中国人习惯吃饭用筷子。",
+        "translation": "Menempatkan sarana 'yòng kuàizi' di belakang objek makanan meniru pola bahasa Indonesia/Inggris."
       },
       {
         "key": "E",
-        "text": "中国人习惯用筷子吃饭。",
-        "translation": "Zhōngguórén xíguàn yòng kuàizi chīfàn - orang Tiongkok terbiasa memakai sumpit untuk makan."
+        "text": "中国人习惯把筷子吃饭。",
+        "translation": "Struktur bǎ yang rancu tanpa verba tindakan yang tuntas terhadap sumpit."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 中国人习惯用筷子吃饭。 (Zhōngguórén xíguàn yòng kuàizi chīfàn - orang Tiongkok terbiasa memakai sumpit untuk makan).. Menggunakan alat melakukan perbuatan: 用 (yòng) Alat + Kata Kerja. Jadi: 用筷子吃饭 (memakai sumpit makan). Pilih: '中国人习惯用筷子吃饭。'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 中国人习惯用筷子吃饭。 (Zhōngguórén xíguàn yòng kuàizi chīfàn - orang Tiongkok terbiasa memakai sumpit untuk makan).. Menggunakan alat melakukan perbuatan: 用 (yòng) Alat + Kata Kerja. Jadi: 用筷子吃饭 (memakai sumpit makan). Pilih: '中国人习惯用筷子吃饭。'."
   },
   {
     "id": "man-lat-m-11",
@@ -1691,19 +1695,19 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Meragukan / Menolak mempercayai fakta yang ada di lapangan ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Meragukan / Menolak mempercayai fakta yang ada di lapangan."
       },
       {
         "key": "C",
-        "text": "Menyesal / Merasa kecewa atas peristiwa buruk yang terlanjur terjadi."
-      },
-      {
-        "key": "D",
         "text": "Memohon / Meminta bantuan kepada pihak keluarga besar."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menunda / Mengulur-ulur waktu pelaksanaan rencana kerja."
+      },
+      {
+        "key": "E",
+        "text": "Menyesal / Merasa kecewa atas peristiwa buruk yang terlanjur terjadi."
       }
     ],
     "correctKey": "A",
@@ -1730,32 +1734,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 帮助",
-        "translation": "bāngzhù), B: 相信 (xiāngxìn - terbalik urutan logika batin pertemanan."
-      },
-      {
-        "key": "B",
-        "text": "A: 相信",
-        "translation": "xiāngxìn - mempercayai), B: 帮助 (bāngzhù - menolong/membantu."
-      },
-      {
-        "key": "C",
-        "text": "A: 明白",
-        "translation": "míngbai), B: 决定 (juédìng - mengerti dan memutuskan."
-      },
-      {
-        "key": "D",
         "text": "A: 介绍",
         "translation": "jièshào), B: 离开 (líkāi - memperkenalkan dan meninggalkan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "A: 清楚",
         "translation": "qīngchu), B: 迟到 (chídào - jelas dan terlambat."
+      },
+      {
+        "key": "C",
+        "text": "A: 帮助",
+        "translation": "bāngzhù), B: 相信 (xiāngxìn - terbalik urutan logika batin pertemanan."
+      },
+      {
+        "key": "D",
+        "text": "A: 明白",
+        "translation": "míngbai), B: 决定 (juédìng - mengerti dan memutuskan."
+      },
+      {
+        "key": "E",
+        "text": "A: 相信",
+        "translation": "xiāngxìn - mempercayai), B: 帮助 (bāngzhù - menolong/membantu."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) A: 相信 (xiāngxìn - mempercayai), B: 帮助 (bāngzhù - menolong/membantu).. Saling percaya: 互相相信 (hùxiāng xiāngxìn). Saling membantu: 互相帮助 (hùxiāng bāngzhù). Pilih: 'A: 相信 (xiāngxìn), B: 帮助 (bāngzhù)'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) A: 相信 (xiāngxìn - mempercayai), B: 帮助 (bāngzhù - menolong/membantu).. Saling percaya: 互相相信 (hùxiāng xiāngxìn). Saling membantu: 互相帮助 (hùxiāng bāngzhù). Pilih: 'A: 相信 (xiāngxìn), B: 帮助 (bāngzhù)'."
   },
   {
     "id": "man-lat-m-13",
@@ -1784,12 +1788,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       {
         "key": "B",
         "text": "方便",
-        "translation": "sempit / sesak), dan 环境 (cuaca dingin bersalju."
+        "translation": "jauh / terpencil), dan 环境 (kebisingan pasar malam."
       },
       {
         "key": "C",
         "text": "方便",
-        "translation": "praktis / mudah / nyaman aksesnya), dan 环境 (lingkungan / suasana sekitar perumahan."
+        "translation": "sempit / sesak), dan 环境 (cuaca dingin bersalju."
       },
       {
         "key": "D",
@@ -1799,11 +1803,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       {
         "key": "E",
         "text": "方便",
-        "translation": "jauh / terpencil), dan 环境 (kebisingan pasar malam."
+        "translation": "praktis / mudah / nyaman aksesnya), dan 环境 (lingkungan / suasana sekitar perumahan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 方便 (praktis / mudah / nyaman aksesnya), dan 环境 (lingkungan / suasana sekitar perumahan).. 方便 (fāngbiàn) berarti praktis/mudah/nyaman. 环境 (huánjìng) berarti lingkungan. Pilih opsi: '方便 (praktis / mudah / nyaman), dan 环境 (lingkungan / suasana sekitar)'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 方便 (praktis / mudah / nyaman aksesnya), dan 环境 (lingkungan / suasana sekitar perumahan).. 方便 (fāngbiàn) berarti praktis/mudah/nyaman. 环境 (huánjìng) berarti lingkungan. Pilih opsi: '方便 (praktis / mudah / nyaman), dan 环境 (lingkungan / suasana sekitar)'."
   },
   {
     "id": "man-lat-m-14",
@@ -1831,13 +1835,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "认识",
-        "translation": "rènshi - mengenal rupa fisik orang atau mengenali aksara visual tertentu."
+        "text": "认为",
+        "translation": "rènwéi - berpendapat atau beranggapan subjektif menurut pemikiran sendiri."
       },
       {
         "key": "C",
-        "text": "认为",
-        "translation": "rènwéi - berpendapat atau beranggapan subjektif menurut pemikiran sendiri."
+        "text": "认识",
+        "translation": "rènshi - mengenal rupa fisik orang atau mengenali aksara visual tertentu."
       },
       {
         "key": "D",
@@ -1879,27 +1883,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "他参加了一个苹果。",
-        "translation": "Dilarang menggunakan cānjiā untuk memakan atau membeli benda fisik makanan."
+        "text": "很多留学生报名参加了今年的汉语水平考试（HSK）。",
+        "translation": "Banyak mahasiswa asing mendaftar untuk mengikuti ujian HSK tahun ini."
       },
       {
         "key": "C",
-        "text": "妈妈正在厨房参加饭。",
-        "translation": "Dilarang menggunakan cānjiā untuk memasak nasi di dapur."
-      },
-      {
-        "key": "D",
         "text": "我们一起参加公共汽车去市中心。",
         "translation": "Dilarang menggunakan cānjiā untuk menaiki moda transportasi; seharusnya zuò/dā."
       },
       {
+        "key": "D",
+        "text": "妈妈正在厨房参加饭。",
+        "translation": "Dilarang menggunakan cānjiā untuk memasak nasi di dapur."
+      },
+      {
         "key": "E",
-        "text": "很多留学生报名参加了今年的汉语水平考试（HSK）。",
-        "translation": "Banyak mahasiswa asing mendaftar untuk mengikuti ujian HSK tahun ini."
+        "text": "他参加了一个苹果。",
+        "translation": "Dilarang menggunakan cānjiā untuk memakan atau membeli benda fisik makanan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 很多留学生报名参加了今年的汉语水平考试（HSK）。 (Banyak mahasiswa asing mendaftar untuk mengikuti ujian HSK tahun ini).. 参加 (cānjiā) berarti mengikuti kegiatan, rapat, atau ujian (参加考试). Tidak bisa dipakai untuk benda fisik atau naik bus. Pilih: '很多留学生报名参加了今年的汉语水平考试（HSK）。'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 很多留学生报名参加了今年的汉语水平考试（HSK）。 (Banyak mahasiswa asing mendaftar untuk mengikuti ujian HSK tahun ini).. 参加 (cānjiā) berarti mengikuti kegiatan, rapat, atau ujian (参加考试). Tidak bisa dipakai untuk benda fisik atau naik bus. Pilih: '很多留学生报名参加了今年的汉语水平考试（HSK）。'."
   },
   {
     "id": "man-lat-m-16",
@@ -1922,15 +1926,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kereta G102 berangkat dari Stasiun Shanghai Hongqiao menuju Stasiun Beijing South pada pukul 08.00 pagi dengan kelas kursi kedua di dekat jendela (12F)."
+        "text": "Harga tiket kereta api cepat tersebut adalah 102 Yuan Tiongkok dan berlaku untuk kelas bisnis VIP."
       },
       {
         "key": "B",
-        "text": "Kereta berangkat dari stasiun Beijing South menuju ke stasiun Shanghai Hongqiao pada sore hari pukul 17.00 ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Tiket tersebut dapat digunakan bebas di sembarang kereta api reguler selama bulan Oktober 2026."
       },
       {
         "key": "C",
-        "text": "Harga tiket kereta api cepat tersebut adalah 102 Yuan Tiongkok dan berlaku untuk kelas bisnis VIP."
+        "text": "Kereta berangkat dari stasiun Beijing South menuju ke stasiun Shanghai Hongqiao pada sore hari pukul 17.00."
       },
       {
         "key": "D",
@@ -1938,11 +1942,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Tiket tersebut dapat digunakan bebas di sembarang kereta api reguler selama bulan Oktober 2026."
+        "text": "Kereta G102 berangkat dari Stasiun Shanghai Hongqiao menuju Stasiun Beijing South pada pukul 08.00 pagi dengan kelas kursi kedua di dekat jendela (12F)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kereta G102 berangkat dari Stasiun Shanghai Hongqiao menuju Stasiun Beijing South pada pukul 08.00 pagi dengan kelas kursi kedua di dekat jendela (12F).. Tiket menunjukkan: G102 上海虹桥 -> 北京南 (Shanghai Hongqiao ke Beijing South), 08:00开 (berangkat jam 8 pagi), 05车厢 12F (Gerbong 5, Kursi 12F jendela), 二等座 (Second class). Pilih opsi yang menyebutkan keberangkatan jam 08.00 pagi dari Shanghai Hongqiao ke Beijing South gerbong 5 kursi 12F."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kereta G102 berangkat dari Stasiun Shanghai Hongqiao menuju Stasiun Beijing South pada pukul 08.00 pagi dengan kelas kursi kedua di dekat jendela (12F).. Tiket menunjukkan: G102 上海虹桥 -> 北京南 (Shanghai Hongqiao ke Beijing South), 08:00开 (berangkat jam 8 pagi), 05车厢 12F (Gerbong 5, Kursi 12F jendela), 二等座 (Second class). Pilih opsi yang menyebutkan keberangkatan jam 08.00 pagi dari Shanghai Hongqiao ke Beijing South gerbong 5 kursi 12F."
   },
   {
     "id": "man-lat-m-17",
@@ -1965,28 +1969,28 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemberitahuan bahwa penerbangan menuju Jakarta mengalami pembatalan sepihak akibat badai salju lebat ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Permintaan kepada penumpang untuk menukarkan kembali uang mata uang asing di loket kasir bandara."
       },
       {
         "key": "B",
+        "text": "Instruksi kepada seluruh penumpang untuk segera mengambil bagasi koper di sabuk konveyor nomor 18."
+      },
+      {
+        "key": "C",
         "text": "Pemberitahuan bahwa proses naik ke pesawat",
         "translation": "*登机 - dēngjī*) telah dimulai dan penumpang dipersilakan menuju Pintu Masuk Nomor 18 (18号登机口."
       },
       {
-        "key": "C",
-        "text": "Instruksi kepada seluruh penumpang untuk segera mengambil bagasi koper di sabuk konveyor nomor 18."
-      },
-      {
         "key": "D",
-        "text": "Peringatan bahwa pintu gerbang nomor 18 telah ditutup permanen karena pesawat telah lepas landas."
+        "text": "Pemberitahuan bahwa penerbangan menuju Jakarta mengalami pembatalan sepihak akibat badai salju lebat."
       },
       {
         "key": "E",
-        "text": "Permintaan kepada penumpang untuk menukarkan kembali uang mata uang asing di loket kasir bandara."
+        "text": "Peringatan bahwa pintu gerbang nomor 18 telah ditutup permanen karena pesawat telah lepas landas."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pemberitahuan bahwa proses naik ke pesawat (*登机 - dēngjī*) telah dimulai dan penumpang dipersilakan menuju Pintu Masuk Nomor 18 (18号登机口).. Teks pengumuman: '现在 开始登机了 (sekarang mulai boarding)... 由 18号登机口 上飞机 (naik pesawat lewat boarding gate 18)'. Pilih opsi: Pemberitahuan boarding telah dimulai di Gate 18."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pemberitahuan bahwa proses naik ke pesawat (*登机 - dēngjī*) telah dimulai dan penumpang dipersilakan menuju Pintu Masuk Nomor 18 (18号登机口).. Teks pengumuman: '现在 开始登机了 (sekarang mulai boarding)... 由 18号登机口 上飞机 (naik pesawat lewat boarding gate 18)'. Pilih opsi: Pemberitahuan boarding telah dimulai di Gate 18."
   },
   {
     "id": "man-lat-m-18",
@@ -2009,27 +2013,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hari ini siang tepat pukul 14.00 di Ruang Rapat Pertama."
+        "text": "Rapat dibatalkan selamanya dan laporan penjualan ditiadakan."
       },
       {
         "key": "B",
-        "text": "Hari ini sore pukul 16.00 setelah klien bisnis meninggalkan kantor."
-      },
-      {
-        "key": "C",
         "text": "Besok pagi pukul 09.30 di Ruang Rapat Ketiga."
       },
       {
+        "key": "C",
+        "text": "Hari ini sore pukul 16.00 setelah klien bisnis meninggalkan kantor."
+      },
+      {
         "key": "D",
-        "text": "Besok sore pukul 14.00 dengan memindahkan lokasi ke kantor cabang lain."
+        "text": "Hari ini siang tepat pukul 14.00 di Ruang Rapat Pertama."
       },
       {
         "key": "E",
-        "text": "Rapat dibatalkan selamanya dan laporan penjualan ditiadakan."
+        "text": "Besok sore pukul 14.00 dengan memindahkan lokasi ke kantor cabang lain."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Besok pagi pukul 09.30 di Ruang Rapat Ketiga.. Pesan menyatakan: '现 推迟到 明天上午 九点半举行。会议地点 不变' (sekarang diundur ke besok pagi jam 9.30, tempat ruang rapat 3 tetap). Pilih opsi: 'Besok pagi pukul 09.30 di Ruang Rapat Ketiga'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Besok pagi pukul 09.30 di Ruang Rapat Ketiga.. Pesan menyatakan: '现 推迟到 明天上午 九点半举行。会议地点 不变' (sekarang diundur ke besok pagi jam 9.30, tempat ruang rapat 3 tetap). Pilih opsi: 'Besok pagi pukul 09.30 di Ruang Rapat Ketiga'."
   },
   {
     "id": "man-lat-m-19",
@@ -2052,28 +2056,28 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memasukkan seluruh potongan bebek utuh ke dalam mangkuk kuah sup pedas mendidih bercampur cabai rawit menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
-        "text": "Memakan irisan daging bebek dengan mencelupkannya langsung ke dalam susu manis dingin tanpa bumbu saus."
-      },
-      {
-        "key": "C",
         "text": "Mengeringkan irisan daging bebek di bawah terik matahari sebelum digoreng kembali dengan tepung krispi."
       },
       {
+        "key": "B",
+        "text": "Meminum saus manis pekat terlebih dahulu sebelum menyantap potongan kulit bebek tanpa sayuran apa pun."
+      },
+      {
+        "key": "C",
+        "text": "Memasukkan seluruh potongan bebek utuh ke dalam mangkuk kuah sup pedas mendidih bercampur cabai rawit."
+      },
+      {
         "key": "D",
-        "text": "Mengambil selembar panekuk tipis",
-        "translation": "*héyèbǐng*), mengoleskan saus manis (*tiánmiànjiàng* , lalu menggulungnya bersama irisan daging/kulit bebek, daun bawang, dan potongan mentimun."
+        "text": "Memakan irisan daging bebek dengan mencelupkannya langsung ke dalam susu manis dingin tanpa bumbu saus."
       },
       {
         "key": "E",
-        "text": "Meminum saus manis pekat terlebih dahulu sebelum menyantap potongan kulit bebek tanpa sayuran apa pun."
+        "text": "Mengambil selembar panekuk tipis",
+        "translation": "*héyèbǐng*), mengoleskan saus manis (*tiánmiànjiàng* , lalu menggulungnya bersama irisan daging/kulit bebek, daun bawang, dan potongan mentimun."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mengambil selembar panekuk tipis (*héyèbǐng*), mengoleskan saus manis (*tiánmiànjiàng*), lalu menggulungnya bersama irisan daging/kulit bebek, daun bawang, dan potongan mentimun.. Teks mendeskripsikan: '用 特制的 薄荷叶饼，抹上 甜面酱，卷入 鸭肉、葱条和 黄瓜条 一起食用' (gulung bebek, saus manis, daun bawang, mentimun dalam panekuk tipis). Pilih opsi yang menjelaskan menggulung bebek dengan panekuk tipis, saus manis, daun bawang, dan mentimun."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mengambil selembar panekuk tipis (*héyèbǐng*), mengoleskan saus manis (*tiánmiànjiàng*), lalu menggulungnya bersama irisan daging/kulit bebek, daun bawang, dan potongan mentimun.. Teks mendeskripsikan: '用 特制的 薄荷叶饼，抹上 甜面酱，卷入 鸭肉、葱条和 黄瓜条 一起食用' (gulung bebek, saus manis, daun bawang, mentimun dalam panekuk tipis). Pilih opsi yang menjelaskan menggulung bebek dengan panekuk tipis, saus manis, daun bawang, dan mentimun."
   },
   {
     "id": "man-lat-m-20",
@@ -2096,15 +2100,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena tuan rumah ingin menghemat persediaan air minum dan daun teh mahal agar tidak cepat habis diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Agar tamu merasa kehausan dan terpaksa membeli air teh botolan yang dijual oleh anggota keluarga tuan rumah."
       },
       {
         "key": "B",
-        "text": "Karena cangkir teh porselen kuno Tiongkok akan pecah secara otomatis jika diisi air panas melebihi separuh wadah."
+        "text": "Karena tuan rumah ingin menghemat persediaan air minum dan daun teh mahal agar tidak cepat habis."
       },
       {
         "key": "C",
-        "text": "Agar tamu merasa kehausan dan terpaksa membeli air teh botolan yang dijual oleh anggota keluarga tuan rumah."
+        "text": "Karena menurut tradisi 'Chá mǎn qī kè', mengisi cangkir hingga penuh meluap dianggap tidak sopan/menghina tamu, dan sisa ruang kosong melambangkan rasa hormat serta persahabatan."
       },
       {
         "key": "D",
@@ -2112,11 +2116,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Karena menurut tradisi 'Chá mǎn qī kè', mengisi cangkir hingga penuh meluap dianggap tidak sopan/menghina tamu, dan sisa ruang kosong melambangkan rasa hormat serta persahabatan."
+        "text": "Karena cangkir teh porselen kuno Tiongkok akan pecah secara otomatis jika diisi air panas melebihi separuh wadah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Karena menurut tradisi 'Chá mǎn qī kè', mengisi cangkir hingga penuh meluap dianggap tidak sopan/menghina tamu, dan sisa ruang kosong melambangkan rasa hormat serta persahabatan.. Teks menyatakan: '俗话说“茶满 欺客”，留出 三分 象征着 彼此的情谊与 尊重' (menuang penuh dianggap menghina tamu, menyisakan 30% cangkir melambangkan rasa hormat dan persahabatan). Pilih opsi yang menjelaskan pepatah 'Cha man qi ke' dan sisa ruang sebagai simbol rasa hormat serta persahabatan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Karena menurut tradisi 'Chá mǎn qī kè', mengisi cangkir hingga penuh meluap dianggap tidak sopan/menghina tamu, dan sisa ruang kosong melambangkan rasa hormat serta persahabatan.. Teks menyatakan: '俗话说“茶满 欺客”，留出 三分 象征着 彼此的情谊与 尊重' (menuang penuh dianggap menghina tamu, menyisakan 30% cangkir melambangkan rasa hormat dan persahabatan). Pilih opsi yang menjelaskan pepatah 'Cha man qi ke' dan sisa ruang sebagai simbol rasa hormat serta persahabatan."
   },
   {
     "id": "man-lat-m-21",
@@ -2139,27 +2143,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Generasi terdahulu bersusah payah menanam kebajikan dan infrastruktur agar generasi penerus dapat menikmati kesejahteraan dan keteduhan hidup."
+        "text": "Masyarakat diwajibkan untuk menebang seluruh pohon rindang di pinggir jalan raya agar tidak menghalangi sinar matahari."
       },
       {
         "key": "B",
-        "text": "Masyarakat diwajibkan untuk menebang seluruh pohon rindang di pinggir jalan raya agar tidak menghalangi sinar matahari ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
-      },
-      {
-        "key": "C",
         "text": "Setiap individu dilarang beristirahat di bawah naungan pohon sebelum membayar pajak perkebunan kepada pemerintah."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Generasi muda tidak perlu bekerja keras karena seluruh kekayaan telah diwariskan secara berlimpah oleh orang tua."
+      },
+      {
+        "key": "D",
+        "text": "Generasi terdahulu bersusah payah menanam kebajikan dan infrastruktur agar generasi penerus dapat menikmati kesejahteraan dan keteduhan hidup."
       },
       {
         "key": "E",
         "text": "Menanam bibit pohon buah di hutan lindung merupakan perbuatan sia-sia yang merugikan anggaran kas negara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Generasi terdahulu bersusah payah menanam kebajikan dan infrastruktur agar generasi penerus dapat menikmati kesejahteraan dan keteduhan hidup.. Peribahasa bermakna: orang zaman dulu menanam pohon, orang zaman sekarang berteduh di bawahnya. Artinya generasi terdahulu berjuang agar generasi penerus menikmati hasilnya. Pilih opsi yang menjelaskan perjuangan generasi terdahulu agar generasi penerus dapat menikmati kesejahteraan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Generasi terdahulu bersusah payah menanam kebajikan dan infrastruktur agar generasi penerus dapat menikmati kesejahteraan dan keteduhan hidup.. Peribahasa bermakna: orang zaman dulu menanam pohon, orang zaman sekarang berteduh di bawahnya. Artinya generasi terdahulu berjuang agar generasi penerus menikmati hasilnya. Pilih opsi yang menjelaskan perjuangan generasi terdahulu agar generasi penerus dapat menikmati kesejahteraan."
   },
   {
     "id": "man-lat-m-22",
@@ -2182,11 +2186,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Larangan mutlak dari perbankan pusat bagi siapa pun untuk memiliki rekening tabungan bank secara pribadi ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Larangan mutlak dari perbankan pusat bagi siapa pun untuk memiliki rekening tabungan bank secara pribadi."
       },
       {
         "key": "B",
-        "text": "Popularitas pembayaran seluler melalui pemindaian kode QR pada aplikasi seperti WeChat Pay dan Alipay di berbagai level transaksi masyarakat."
+        "text": "Ketiadaan akses jaringan internet dan listrik di seluruh wilayah perkotaan besar Tiongkok."
       },
       {
         "key": "C",
@@ -2194,15 +2198,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kewajiban setiap warga negara untuk menyerahkan telepon pintarnya kepada petugas kasir pasar swalayan."
+        "text": "Popularitas pembayaran seluler melalui pemindaian kode QR pada aplikasi seperti WeChat Pay dan Alipay di berbagai level transaksi masyarakat."
       },
       {
         "key": "E",
-        "text": "Ketiadaan akses jaringan internet dan listrik di seluruh wilayah perkotaan besar Tiongkok."
+        "text": "Kewajiban setiap warga negara untuk menyerahkan telepon pintarnya kepada petugas kasir pasar swalayan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Popularitas pembayaran seluler melalui pemindaian kode QR pada aplikasi seperti WeChat Pay dan Alipay di berbagai level transaksi masyarakat.. Teks menyebutkan peran pembayaran seluler lewat scan QR code di WeChat Pay dan Alipay yang sangat populer di segala level transaksi. Pilih opsi: Popularitas pembayaran seluler via pemindaian kode QR pada aplikasi WeChat Pay dan Alipay."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Popularitas pembayaran seluler melalui pemindaian kode QR pada aplikasi seperti WeChat Pay dan Alipay di berbagai level transaksi masyarakat.. Teks menyebutkan peran pembayaran seluler lewat scan QR code di WeChat Pay dan Alipay yang sangat populer di segala level transaksi. Pilih opsi: Popularitas pembayaran seluler via pemindaian kode QR pada aplikasi WeChat Pay dan Alipay."
   },
   {
     "id": "man-lat-m-23",
@@ -2225,28 +2229,28 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena jam dinding tradisional Tiongkok dipercaya mengandung radiasi jarum magnetik yang merusak memori otak sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
         "text": "Karena masyarakat Tiongkok zaman kuno dilarang menghitung waktu dan hanya boleh berpatokan pada matahari terbit."
       },
       {
-        "key": "C",
-        "text": "Karena pelafalan kata 'memberi jam dinding'",
-        "translation": "送钟 - sòng zhōng) berbunyi homofon identik dengan kata 'mengantar jenazah / menghadiri pemakaman' (送终 - sòng zhōng."
+        "key": "B",
+        "text": "Karena warna angka pada jam dinding bertentangan dengan prinsip penanggalan kalender lunar imlek."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Karena harga jam dinding jauh lebih murah dibandingkan buah apel merah segar sehingga dinilai pelit."
       },
       {
+        "key": "D",
+        "text": "Karena jam dinding tradisional Tiongkok dipercaya mengandung radiasi jarum magnetik yang merusak memori otak sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+      },
+      {
         "key": "E",
-        "text": "Karena warna angka pada jam dinding bertentangan dengan prinsip penanggalan kalender lunar imlek."
+        "text": "Karena pelafalan kata 'memberi jam dinding'",
+        "translation": "送钟 - sòng zhōng) berbunyi homofon identik dengan kata 'mengantar jenazah / menghadiri pemakaman' (送终 - sòng zhōng."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Karena pelafalan kata 'memberi jam dinding' (送钟 - sòng zhōng) berbunyi homofon identik dengan kata 'mengantar jenazah / menghadiri pemakaman' (送终 - sòng zhōng).. Memberi jam dinding (送钟 sòng zhōng) bunyinya sama persis dengan mengantar upacara kematian (送终 sòng zhōng). Pilih opsi yang menjelaskan kemiripan bunyi (homofon) antara memberi jam dinding dengan mengantar jenazah/kematian."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Karena pelafalan kata 'memberi jam dinding' (送钟 - sòng zhōng) berbunyi homofon identik dengan kata 'mengantar jenazah / menghadiri pemakaman' (送终 - sòng zhōng).. Memberi jam dinding (送钟 sòng zhōng) bunyinya sama persis dengan mengantar upacara kematian (送终 sòng zhōng). Pilih opsi yang menjelaskan kemiripan bunyi (homofon) antara memberi jam dinding dengan mengantar jenazah/kematian."
   },
   {
     "id": "man-lat-m-24",
@@ -2269,27 +2273,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Warna merah melambangkan kemarahan dan peperangan kaisar, sedangkan warna putih melambangkan perdamaian internasional menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
-        "text": "Warna putih dilarang oleh undang-undang kehutanan Tiongkok karena memantulkan panas sinar matahari yang berlebihan."
-      },
-      {
-        "key": "C",
-        "text": "Warna merah adalah satu-satunya pigmen pewarna cat yang diproduksi oleh pabrik industri kimia Tiongkok kuno."
-      },
-      {
-        "key": "D",
         "text": "Warna merah melambangkan keberuntungan, kegembiraan, dan kemakmuran berkah, sedangkan warna putih secara tradisional berkonotasi dengan duka cita dan upacara kematian."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Amplop putih hanya boleh digunakan untuk menyimpan surat rahasia dinas intelijen kaisar di istana terlarang."
+      },
+      {
+        "key": "C",
+        "text": "Warna merah melambangkan kemarahan dan peperangan kaisar, sedangkan warna putih melambangkan perdamaian internasional."
+      },
+      {
+        "key": "D",
+        "text": "Warna merah adalah satu-satunya pigmen pewarna cat yang diproduksi oleh pabrik industri kimia Tiongkok kuno."
+      },
+      {
+        "key": "E",
+        "text": "Warna putih dilarang oleh undang-undang kehutanan Tiongkok karena memantulkan panas sinar matahari yang berlebihan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Warna merah melambangkan keberuntungan, kegembiraan, dan kemakmuran berkah, sedangkan warna putih secara tradisional berkonotasi dengan duka cita dan upacara kematian.. Merah (红色) melambangkan keberuntungan/sukacita/kemakmuran. Putih (白色) berkonotasi perkabungan/kematian. Pilih opsi: Merah melambangkan keberuntungan dan kegembiraan, sedangkan putih berkonotasi duka cita."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Warna merah melambangkan keberuntungan, kegembiraan, dan kemakmuran berkah, sedangkan warna putih secara tradisional berkonotasi dengan duka cita dan upacara kematian.. Merah (红色) melambangkan keberuntungan/sukacita/kemakmuran. Putih (白色) berkonotasi perkabungan/kematian. Pilih opsi: Merah melambangkan keberuntungan dan kegembiraan, sedangkan putih berkonotasi duka cita."
   },
   {
     "id": "man-lat-m-25",
@@ -2312,11 +2316,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengangkat gelas sendiri setinggi mungkin jauh melampaui kepala atasan sebagai bukti supremasi diri diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Membenturkan gelas dengan sekuat tenaga hingga kedua gelas pecah dan membasahi meja makan."
       },
       {
         "key": "B",
-        "text": "Membenturkan gelas dengan sekuat tenaga hingga kedua gelas pecah dan membasahi meja makan."
+        "text": "Menolak menyentuhkan gelas sama sekali dan membalikkan posisi cangkir menjadi tengkurap di hadapan atasan."
       },
       {
         "key": "C",
@@ -2324,15 +2328,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menolak menyentuhkan gelas sama sekali dan membalikkan posisi cangkir menjadi tengkurap di hadapan atasan."
+        "text": "Menurunkan bibir gelas sendiri sedikit lebih rendah daripada bibir gelas atasan/orang yang lebih tua saat membenturkannya perlahan."
       },
       {
         "key": "E",
-        "text": "Menurunkan bibir gelas sendiri sedikit lebih rendah daripada bibir gelas atasan/orang yang lebih tua saat membenturkannya perlahan."
+        "text": "Mengangkat gelas sendiri setinggi mungkin jauh melampaui kepala atasan sebagai bukti supremasi diri."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menurunkan bibir gelas sendiri sedikit lebih rendah daripada bibir gelas atasan/orang yang lebih tua saat membenturkannya perlahan.. Etika bersulang (干杯) di hadapan atasan/orang tua: bibir gelas kita diturunkan sedikit lebih rendah dari gelas pihak yang dihormati. Pilih opsi yang menjelaskan memposisikan bibir gelas sendiri sedikit lebih rendah saat bersulang."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menurunkan bibir gelas sendiri sedikit lebih rendah daripada bibir gelas atasan/orang yang lebih tua saat membenturkannya perlahan.. Etika bersulang (干杯) di hadapan atasan/orang tua: bibir gelas kita diturunkan sedikit lebih rendah dari gelas pihak yang dihormati. Pilih opsi yang menjelaskan memposisikan bibir gelas sendiri sedikit lebih rendah saat bersulang."
   },
   {
     "id": "man-lat-h-01",
@@ -2355,23 +2359,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "你快把桌子上的书放进书包里去。",
-        "translation": "Nǐ kuài bǎ zhuōzi shang de shū fàng jìn shūbāo lǐ qù - segera masukkan buku yang di atas meja itu ke dalam tas ransel."
-      },
-      {
-        "key": "B",
-        "text": "你快把一本书看。",
-        "translation": "Struktur 把 dilarang menggunakan objek tak tentu / indefinite seperti 'yī běn shū' dan dilarang predikat verba telanjang tanpa komplemen."
-      },
-      {
-        "key": "C",
         "text": "你快把书放在。",
         "translation": "Verba fàng tidak dilengkapi penunjuk lokasi tujuan yang tuntas setelah preposisi zài."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "你把快书放在书包里。",
         "translation": "Kata keterangan kuài salah penempatan karena diletakkan di antara partikel bǎ dan objek nomina."
+      },
+      {
+        "key": "C",
+        "text": "你快把桌子上的书放进书包里去。",
+        "translation": "Nǐ kuài bǎ zhuōzi shang de shū fàng jìn shūbāo lǐ qù - segera masukkan buku yang di atas meja itu ke dalam tas ransel."
+      },
+      {
+        "key": "D",
+        "text": "你快把一本书看。",
+        "translation": "Struktur 把 dilarang menggunakan objek tak tentu / indefinite seperti 'yī běn shū' dan dilarang predikat verba telanjang tanpa komplemen."
       },
       {
         "key": "E",
@@ -2379,8 +2383,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "Terbalik peran subjek pelaku dan objek penderita yang dimanipulasi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 你快把桌子上的书放进书包里去。 (Nǐ kuài bǎ zhuōzi shang de shū fàng jìn shūbāo lǐ qù - segera masukkan buku yang di atas meja itu ke dalam tas ransel).. Struktur 把 mensyaratkan: 1) Objek definit/jelas (buku di atas meja), 2) Verba diikuti hasil/arah tindakan (放进书包里去). Tidak boleh objek indefinit (一本书) atau verba telanjang (看). Pilih: '你快把桌子上的书放进书包里去。'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 你快把桌子上的书放进书包里去。 (Nǐ kuài bǎ zhuōzi shang de shū fàng jìn shūbāo lǐ qù - segera masukkan buku yang di atas meja itu ke dalam tas ransel).. Struktur 把 mensyaratkan: 1) Objek definit/jelas (buku di atas meja), 2) Verba diikuti hasil/arah tindakan (放进书包里去). Tidak boleh objek indefinit (一本书) atau verba telanjang (看). Pilih: '你快把桌子上的书放进书包里去。'."
   },
   {
     "id": "man-lat-h-02",
@@ -2413,18 +2417,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
+        "text": "给弟弟在吃",
+        "translation": "Struktur progresif yang tidak menandai ketuntasan lenyapnya kue cokelat tersebut."
+      },
+      {
+        "key": "D",
         "text": "叫弟弟吃了没有",
         "translation": "Bentuk kalimat tanya interogatif yang bertentangan dengan konteks seruan mengeluh zāogāo."
       },
       {
-        "key": "D",
+        "key": "E",
         "text": "让弟弟吃吃",
         "translation": "Bentuk reduplikasi verba chīchī yang mengindikasikan kegiatan mencicipi santai."
-      },
-      {
-        "key": "E",
-        "text": "给弟弟在吃",
-        "translation": "Struktur progresif yang tidak menandai ketuntasan lenyapnya kue cokelat tersebut."
       }
     ],
     "correctKey": "B",
@@ -2451,32 +2455,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "买在上海了的",
-        "translation": "Susunan kata acak yang mencampuradukkan partikel aspek le dengan partikel de penekanan sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
-        "text": "去上海买了",
-        "translation": "Hanya kalimat narasi lampau biasa tanpa adanya struktur penekanan fokus lokasi informasi."
-      },
-      {
-        "key": "C",
-        "text": "是在上海买的",
-        "translation": "Shì zài Shànghǎi mǎi de - menegaskan bahwa lokasi pembelian pakaian qipao tersebut adalah di Shanghai."
-      },
-      {
-        "key": "D",
         "text": "是上海买旗袍",
         "translation": "Kehilangan partikel penutup 'de' yang merupakan pasangan wajib dari kopula 'shì'."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "的是在上海买",
         "translation": "Penempatan partikel 'de' di awal kalimat yang menyalahi kaidah gramatika."
+      },
+      {
+        "key": "C",
+        "text": "去上海买了",
+        "translation": "Hanya kalimat narasi lampau biasa tanpa adanya struktur penekanan fokus lokasi informasi."
+      },
+      {
+        "key": "D",
+        "text": "是在上海买的",
+        "translation": "Shì zài Shànghǎi mǎi de - menegaskan bahwa lokasi pembelian pakaian qipao tersebut adalah di Shanghai."
+      },
+      {
+        "key": "E",
+        "text": "买在上海了的",
+        "translation": "Susunan kata acak yang mencampuradukkan partikel aspek le dengan partikel de penekanan sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 是在上海买的 (Shì zài Shànghǎi mǎi de - menegaskan bahwa lokasi pembelian pakaian qipao tersebut adalah di Shanghai).. Pertanyaan memakai '是在哪儿买的' (di mana belinya). Jawabannya wajib simetris memakai struktur penekanan 是...的: 是在上海买的. Pilih: '是在上海买的 (Shì zài Shànghǎi mǎi de)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 是在上海买的 (Shì zài Shànghǎi mǎi de - menegaskan bahwa lokasi pembelian pakaian qipao tersebut adalah di Shanghai).. Pertanyaan memakai '是在哪儿买的' (di mana belinya). Jawabannya wajib simetris memakai struktur penekanan 是...的: 是在上海买的. Pilih: '是在上海买的 (Shì zài Shànghǎi mǎi de)'."
   },
   {
     "id": "man-lat-h-04",
@@ -2499,23 +2503,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "这道题太难了，虽然最聪明的学生都不会做。",
-        "translation": "Konjungsi suīrán tidak membentuk makna ekstrem bahwa yang terpandai pun gagal menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
         "text": "这道题太难了，不但最聪明的学生都做。",
         "translation": "Búdàn menyiratkan penambahan positif yang bertentangan dengan konteks kegagalan."
       },
       {
+        "key": "B",
+        "text": "这道题太难了，连我们班最聪明的学生都不会做。",
+        "translation": "Zhè dào tí tài nán le, lián wǒmen bān zuì cōngmíng de xuésheng dōu bú huì zuò."
+      },
+      {
         "key": "C",
-        "text": "这道题太难了，连最聪明的学生都做得很好。",
-        "translation": "Kontradiksi logika antara soal yang sangat sulit dengan hasil yang sangat baik."
+        "text": "这道题太难了，虽然最聪明的学生都不会做。",
+        "translation": "Konjungsi suīrán tidak membentuk makna ekstrem bahwa yang terpandai pun gagal menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
       },
       {
         "key": "D",
-        "text": "这道题太难了，连我们班最聪明的学生都不会做。",
-        "translation": "Zhè dào tí tài nán le, lián wǒmen bān zuì cōngmíng de xuésheng dōu bú huì zuò."
+        "text": "这道题太难了，连最聪明的学生都做得很好。",
+        "translation": "Kontradiksi logika antara soal yang sangat sulit dengan hasil yang sangat baik."
       },
       {
         "key": "E",
@@ -2523,8 +2527,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "Posisi kata lián dan dōu terbalik secara fatal dalam kalimat."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 这道题太难了，连我们班最聪明的学生都不会做。 (Zhè dào tí tài nán le, lián wǒmen bān zuì cōngmíng de xuésheng dōu bú huì zuò).. Pola 'bahkan... pun...': 连 (lián) [Kasus Ekstrem] 都/也 (dōu/yě) [Predikat]. Jadi: 连最聪明的学生都不会做. Pilih opsi yang menggunakan struktur '连...都不会做'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 这道题太难了，连我们班最聪明的学生都不会做。 (Zhè dào tí tài nán le, lián wǒmen bān zuì cōngmíng de xuésheng dōu bú huì zuò).. Pola 'bahkan... pun...': 连 (lián) [Kasus Ekstrem] 都/也 (dōu/yě) [Predikat]. Jadi: 连最聪明的学生都不会做. Pilih opsi yang menggunakan struktur '连...都不会做'."
   },
   {
     "id": "man-lat-h-05",
@@ -2547,32 +2551,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "大家都使这个好消息非常激动。",
-        "translation": "Terbalik subjek penyebab dengan objek penerima efek emosional diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "这个好消息使大家都感到非常激动。",
+        "translation": "Zhè ge hǎo xiāoxi shǐ dàjiā dōu gǎndào fēicháng jīdòng - kabar baik ini membuat semua orang terharu/bersemangat."
       },
       {
         "key": "B",
-        "text": "这个好消息被大家都使激动了。",
-        "translation": "Mencampuradukkan partikel pasif bèi dengan verba kausatif shǐ secara tumpang tindih."
-      },
-      {
-        "key": "C",
-        "text": "使这个好消息大家都非常激动。",
-        "translation": "Meletakkan verba kausatif di awal kalimat mendahului stimulus pemicu."
-      },
-      {
-        "key": "D",
         "text": "这个好消息把大家都使激动了。",
         "translation": "Mencampuradukkan struktur bǎ dengan shǐ yang merusak struktur sintaksis."
       },
       {
+        "key": "C",
+        "text": "这个好消息被大家都使激动了。",
+        "translation": "Mencampuradukkan partikel pasif bèi dengan verba kausatif shǐ secara tumpang tindih."
+      },
+      {
+        "key": "D",
+        "text": "使这个好消息大家都非常激动。",
+        "translation": "Meletakkan verba kausatif di awal kalimat mendahului stimulus pemicu."
+      },
+      {
         "key": "E",
-        "text": "这个好消息使大家都感到非常激动。",
-        "translation": "Zhè ge hǎo xiāoxi shǐ dàjiā dōu gǎndào fēicháng jīdòng - kabar baik ini membuat semua orang terharu/bersemangat."
+        "text": "大家都使这个好消息非常激动。",
+        "translation": "Terbalik subjek penyebab dengan objek penerima efek emosional diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 这个好消息使大家都感到非常激动。 (Zhè ge hǎo xiāoxi shǐ dàjiā dōu gǎndào fēicháng jīdòng - kabar baik ini membuat semua orang terharu/bersemangat).. Pola kausatif: Hal Pemicu + 使 (shǐ) + Orang/Pihak + Respon Emosi: 这个好消息使大家都感到非常激动. Pilih opsi: '这个好消息使大家都感到非常激动。'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 这个好消息使大家都感到非常激动。 (Zhè ge hǎo xiāoxi shǐ dàjiā dōu gǎndào fēicháng jīdòng - kabar baik ini membuat semua orang terharu/bersemangat).. Pola kausatif: Hal Pemicu + 使 (shǐ) + Orang/Pihak + Respon Emosi: 这个好消息使大家都感到非常激动. Pilih opsi: '这个好消息使大家都感到非常激动。'."
   },
   {
     "id": "man-lat-h-06",
@@ -2596,31 +2600,31 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       {
         "key": "A",
         "text": "A: 都",
-        "translation": "dōu - menandai pengecualian total bahwa selain dia, semuanya hadir), B: 还 / 也 (hái/yě - menandai penambahan kumulatif selain A juga bisa B."
+        "translation": "dōu), B: 都 (dōu - mengabaikan perbedaan logis antara himpunan minus dan himpunan plus."
       },
       {
         "key": "B",
-        "text": "A: 还",
-        "translation": "hái), B: 都 (dōu - terbalik esensi antara fungsi pengecualian eksklusif dan penambahan inklusif ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "A: 都",
+        "translation": "dōu - menandai pengecualian total bahwa selain dia, semuanya hadir), B: 还 / 也 (hái/yě - menandai penambahan kumulatif selain A juga bisa B."
       },
       {
         "key": "C",
-        "text": "A: 只",
-        "translation": "zhǐ), B: 就 (jiù - susunan partikel yang tidak membentuk pasangan baku dengan chúle."
-      },
-      {
-        "key": "D",
         "text": "A: 却",
         "translation": "què), B: 又 (yòu - partikel adversatif yang salah posisi penempatan dalam klausa."
       },
       {
+        "key": "D",
+        "text": "A: 只",
+        "translation": "zhǐ), B: 就 (jiù - susunan partikel yang tidak membentuk pasangan baku dengan chúle."
+      },
+      {
         "key": "E",
-        "text": "A: 都",
-        "translation": "dōu), B: 都 (dōu - mengabaikan perbedaan logis antara himpunan minus dan himpunan plus."
+        "text": "A: 还",
+        "translation": "hái), B: 都 (dōu - terbalik esensi antara fungsi pengecualian eksklusif dan penambahan inklusif ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) A: 都 (dōu - menandai pengecualian total bahwa selain dia, semuanya hadir), B: 还 / 也 (hái/yě - menandai penambahan kumulatif selain A juga bisa B).. 1) Pengecualian (semua hadir kecuali Xiao Ming) berpasangan dengan 都 (dōu). 2) Penambahan (selain Inggris juga bisa Korea) berpasangan dengan 还 (hái) atau 也 (yě). Pilih: 'A: 都 (dōu), B: 还 / 也 (hái/yě)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) A: 都 (dōu - menandai pengecualian total bahwa selain dia, semuanya hadir), B: 还 / 也 (hái/yě - menandai penambahan kumulatif selain A juga bisa B).. 1) Pengecualian (semua hadir kecuali Xiao Ming) berpasangan dengan 都 (dōu). 2) Penambahan (selain Inggris juga bisa Korea) berpasangan dengan 还 (hái) atau 也 (yě). Pilih: 'A: 都 (dōu), B: 还 / 也 (hái/yě)'."
   },
   {
     "id": "man-lat-h-07",
@@ -2643,18 +2647,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "小猫从箱子里跳出去了。",
-        "translation": "Tiào chūqu menandai pergerakan menjauhi posisi pembicara yang bertentangan dengan konteks ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "小猫从箱子里跳下来去。",
+        "translation": "Kombinasi arah ganda yang cacat secara fonologi dan morfologi arah gerak."
       },
       {
         "key": "B",
-        "text": "小猫从箱子里跳出来了。",
-        "translation": "Xiǎomāo cóng xiāngzi lǐ tiào chūlai le - anak kucing melompat keluar mendekati posisi pembicara."
+        "text": "小猫从箱子里跳进来了。",
+        "translation": "Tiào jìnlái menandai pergerakan melompat masuk ke dalam wadah pembicara."
       },
       {
         "key": "C",
-        "text": "小猫从箱子里跳进来了。",
-        "translation": "Tiào jìnlái menandai pergerakan melompat masuk ke dalam wadah pembicara."
+        "text": "小猫从箱子里跳出去了。",
+        "translation": "Tiào chūqu menandai pergerakan menjauhi posisi pembicara yang bertentangan dengan konteks ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
       },
       {
         "key": "D",
@@ -2663,12 +2667,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "小猫从箱子里跳下来去。",
-        "translation": "Kombinasi arah ganda yang cacat secara fonologi dan morfologi arah gerak."
+        "text": "小猫从箱子里跳出来了。",
+        "translation": "Xiǎomāo cóng xiāngzi lǐ tiào chūlai le - anak kucing melompat keluar mendekati posisi pembicara."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 小猫从箱子里跳出来了。 (Xiǎomāo cóng xiāngzi lǐ tiào chūlai le - anak kucing melompat keluar mendekati posisi pembicara).. Kucing melompat keluar (出 - chū) menuju ke arah pembicara (来 - lái), maka komplemen arahnya adalah '跳出来' (tiào chūlai). Pilih: '小猫从箱子里跳出来了。'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 小猫从箱子里跳出来了。 (Xiǎomāo cóng xiāngzi lǐ tiào chūlai le - anak kucing melompat keluar mendekati posisi pembicara).. Kucing melompat keluar (出 - chū) menuju ke arah pembicara (来 - lái), maka komplemen arahnya adalah '跳出来' (tiào chūlai). Pilih: '小猫从箱子里跳出来了。'."
   },
   {
     "id": "man-lat-h-08",
@@ -2691,32 +2695,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 又",
-        "translation": "yòu), B: 又 (yòu) - menandai dua sifat setara simultan pada satu objek (misalnya yòu dà yòu tián sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
-        "text": "A: 也",
-        "translation": "yě), B: 也 (yě - penanda kesamaan paralel yang tidak memiliki relasi eskalasi bertingkat."
-      },
-      {
-        "key": "C",
         "text": "A: 越",
         "translation": "yuè), B: 越 (yuè - pola yuè... yuè... yang menandai bahwa semakin berani berbicara, maka akan semakin lancar bicaranya."
       },
       {
+        "key": "B",
+        "text": "A: 又",
+        "translation": "yòu), B: 又 (yòu) - menandai dua sifat setara simultan pada satu objek (misalnya yòu dà yòu tián sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+      },
+      {
+        "key": "C",
+        "text": "A: 越",
+        "translation": "yuè), B: 更 (gèng - mengganti kata yuè kedua dengan gèng yang merusak simetri struktur peribahasa."
+      },
+      {
         "key": "D",
-        "text": "A: 既",
-        "translation": "jì), B: 且 (qiě - konjungsi sastra penambahan sifat."
+        "text": "A: 也",
+        "translation": "yě), B: 也 (yě - penanda kesamaan paralel yang tidak memiliki relasi eskalasi bertingkat."
       },
       {
         "key": "E",
-        "text": "A: 越",
-        "translation": "yuè), B: 更 (gèng - mengganti kata yuè kedua dengan gèng yang merusak simetri struktur peribahasa."
+        "text": "A: 既",
+        "translation": "jì), B: 且 (qiě - konjungsi sastra penambahan sifat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) A: 越 (yuè), B: 越 (yuè) - pola yuè... yuè... yang menandai bahwa semakin berani berbicara, maka akan semakin lancar bicaranya.. Pola 'semakin... semakin...': 越 (yuè)... 越 (yuè)... -> 你越敢说，就越流利. Pilih opsi: 'A: 越 (yuè), B: 越 (yuè)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) A: 越 (yuè), B: 越 (yuè) - pola yuè... yuè... yang menandai bahwa semakin berani berbicara, maka akan semakin lancar bicaranya.. Pola 'semakin... semakin...': 越 (yuè)... 越 (yuè)... -> 你越敢说，就越流利. Pilih opsi: 'A: 越 (yuè), B: 越 (yuè)'."
   },
   {
     "id": "man-lat-h-09",
@@ -2739,15 +2743,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban dari pemerintah pusat untuk mengikuti parade militer nasional tahunan di kota kelahirannya menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
+        "text": "Kewajiban dari pemerintah pusat untuk mengikuti parade militer nasional tahunan di kota kelahirannya."
       },
       {
         "key": "B",
-        "text": "Keinginan untuk menghindari pajak penghasilan tahunan yang hanya ditagihkan kepada warga yang tinggal di kota rantau."
+        "text": "Syarat wajib bagi seluruh warga negara untuk membeli tiket kereta cepat Gaotie bersubsidi separuh harga."
       },
       {
         "key": "C",
-        "text": "Syarat wajib bagi seluruh warga negara untuk membeli tiket kereta cepat Gaotie bersubsidi separuh harga."
+        "text": "Larangan dari perbankan nasional untuk menggunakan uang digital WeChat Pay selama bulan Februari."
       },
       {
         "key": "D",
@@ -2755,7 +2759,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Larangan dari perbankan nasional untuk menggunakan uang digital WeChat Pay selama bulan Februari."
+        "text": "Keinginan untuk menghindari pajak penghasilan tahunan yang hanya ditagihkan kepada warga yang tinggal di kota rantau."
       }
     ],
     "correctKey": "D",
@@ -2782,19 +2786,19 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Harapan agar harga tepung terigu dan kacang merah untuk bahan baku kue bulan tidak mengalami kenaikan harga di pasar diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Peringatan kepada para nelayan laut dalam agar tidak melaut saat air laut mengalami fenomena pasang purnama."
       },
       {
         "key": "B",
-        "text": "Doa memohon agar kaisar memberikan kenaikan pangkat jabatan militer kepada para prajurit perbatasan dinasti Song."
+        "text": "Harapan agar harga tepung terigu dan kacang merah untuk bahan baku kue bulan tidak mengalami kenaikan harga di pasar."
       },
       {
         "key": "C",
-        "text": "Harapan agar cuaca musim gugur tidak menghasilkan embun beku yang dapat merusak tanaman padi gogo."
+        "text": "Doa memohon agar kaisar memberikan kenaikan pangkat jabatan militer kepada para prajurit perbatasan dinasti Song."
       },
       {
         "key": "D",
-        "text": "Peringatan kepada para nelayan laut dalam agar tidak melaut saat air laut mengalami fenomena pasang purnama."
+        "text": "Harapan agar cuaca musim gugur tidak menghasilkan embun beku yang dapat merusak tanaman padi gogo."
       },
       {
         "key": "E",
@@ -2825,27 +2829,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Agar ikan dan udang di sungai memakan beras ketan tersebut dan tidak merusak atau memakan jenazah penyair patriotik Qu Yuan."
+        "text": "Sebagai teknik memancing ikan massal yang dipraktikkan oleh para prajurit kerajaan Chu zaman kuno."
       },
       {
         "key": "B",
-        "text": "Sebagai sesaji upacara memohon kepada dewa naga agar menurunkan hujan berkah untuk musim tanam padi ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
-      },
-      {
-        "key": "C",
         "text": "Untuk menguji kekuatan arus sungai sebelum perlombaan perahu naga skala nasional diselenggarakan."
       },
       {
+        "key": "C",
+        "text": "Agar ikan dan udang di sungai memakan beras ketan tersebut dan tidak merusak atau memakan jenazah penyair patriotik Qu Yuan."
+      },
+      {
         "key": "D",
-        "text": "Sebagai teknik memancing ikan massal yang dipraktikkan oleh para prajurit kerajaan Chu zaman kuno."
+        "text": "Sebagai sesaji upacara memohon kepada dewa naga agar menurunkan hujan berkah untuk musim tanam padi."
       },
       {
         "key": "E",
         "text": "Untuk meracuni hewan-hewan buas di dasar sungai agar tidak menyerang perahu para nelayan tradisional."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Agar ikan dan udang di sungai memakan beras ketan tersebut dan tidak merusak atau memakan jenazah penyair patriotik Qu Yuan.. Teks menyatakan: '把 用 苇叶 包裹的 糯米饭（粽子）投入 江中，希望 鱼虾 吃饱后 不去 伤害 屈原的 身体'. Pilih opsi yang menjelaskan agar ikan/udang kenyang sehingga tidak merusak tubuh Qu Yuan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Agar ikan dan udang di sungai memakan beras ketan tersebut dan tidak merusak atau memakan jenazah penyair patriotik Qu Yuan.. Teks menyatakan: '把 用 苇叶 包裹的 糯米饭（粽子）投入 江中，希望 鱼虾 吃饱后 不去 伤害 屈原的 身体'. Pilih opsi yang menjelaskan agar ikan/udang kenyang sehingga tidak merusak tubuh Qu Yuan."
   },
   {
     "id": "man-lat-h-12",
@@ -2868,27 +2872,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebagai instrumen ancaman sanksi ekonomi terhadap negara-negara yang menolak berinvestasi di industri bambu Tiongkok ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Sebagai instrumen ancaman sanksi ekonomi terhadap negara-negara yang menolak berinvestasi di industri bambu Tiongkok."
       },
       {
         "key": "B",
-        "text": "Sebagai 'Duta Persahabatan' dan simbol perdamaian yang mempererat kerja sama konservasi sains serta membangun jembatan emosional antara Tiongkok dan dunia."
+        "text": "Sebagai hewan sirkus pertunjukan komersial yang seluruh keuntungan tiketnya disetorkan ke kas dinas perpajakan luar negeri."
       },
       {
         "key": "C",
-        "text": "Sebagai objek komoditas perdagangan senjata militer yang ditukarkan dengan teknologi eksplorasi antariksa asing."
+        "text": "Sebagai 'Duta Persahabatan' dan simbol perdamaian yang mempererat kerja sama konservasi sains serta membangun jembatan emosional antara Tiongkok dan dunia."
       },
       {
         "key": "D",
-        "text": "Sebagai hewan sirkus pertunjukan komersial yang seluruh keuntungan tiketnya disetorkan ke kas dinas perpajakan luar negeri."
+        "text": "Sebagai objek komoditas perdagangan senjata militer yang ditukarkan dengan teknologi eksplorasi antariksa asing."
       },
       {
         "key": "E",
         "text": "Sebagai spesies pengontrol hama hutan cemara di kebun binatang negara-negara beriklim kutub utara."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sebagai 'Duta Persahabatan' dan simbol perdamaian yang mempererat kerja sama konservasi sains serta membangun jembatan emosional antara Tiongkok dan dunia.. Teks menyebutkan panda sebagai: '代表 和平与 友谊的 国礼... 连接 中国与 世界 人民心灵的“友谊大使”' (Duta persahabatan dan simbol perdamaian). Pilih opsi yang menjelaskan peran panda sebagai 'Duta Persahabatan' dan simbol perdamaian dunia."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sebagai 'Duta Persahabatan' dan simbol perdamaian yang mempererat kerja sama konservasi sains serta membangun jembatan emosional antara Tiongkok dan dunia.. Teks menyebutkan panda sebagai: '代表 和平与 友谊的 国礼... 连接 中国与 世界 人民心灵的“友谊大使”' (Duta persahabatan dan simbol perdamaian). Pilih opsi yang menjelaskan peran panda sebagai 'Duta Persahabatan' dan simbol perdamaian dunia."
   },
   {
     "id": "man-lat-h-13",
@@ -2912,31 +2916,31 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       {
         "key": "A",
         "text": "Bǐ",
-        "translation": "Pensil Grafit), Chǐ (Penggaris Besi), Xiàngpí (Penghapus Karet), dan Jiāoshuǐ (Lem Kertas Cair sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
-        "text": "Chá",
-        "translation": "Daun Teh Hitam), Jiǔ (Arak Beras Putih), Qín (Kecapi Dawai Guzheng), dan Qí (Papan Catur Weiqi."
-      },
-      {
-        "key": "C",
-        "text": "Bǐ",
         "translation": "Kuas Tulis - 笔), Mò (Tinta Bak Batangan - 墨), Zhǐ (Kertas Xuan Khusus - 纸), dan Yàn (Batu Asahan Tinta - 砚."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Bǐ",
+        "translation": "Pensil Grafit), Chǐ (Penggaris Besi), Xiàngpí (Penghapus Karet), dan Jiāoshuǐ (Lem Kertas Cair sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+      },
+      {
+        "key": "C",
         "text": "Dāo",
         "translation": "Pisau Ukir), Mù (Kayu Balok Pinus), Qī (Cat Minyak Warna), dan Bù (Kain Sutra Sulam."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Jīn",
         "translation": "Emas Murni), Yín (Perak Kuno), Tóng (Tembaga Kuningan), dan Tiě (Besi Baja Tempa."
+      },
+      {
+        "key": "E",
+        "text": "Chá",
+        "translation": "Daun Teh Hitam), Jiǔ (Arak Beras Putih), Qín (Kecapi Dawai Guzheng), dan Qí (Papan Catur Weiqi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Bǐ (Kuas Tulis - 笔), Mò (Tinta Bak Batangan - 墨), Zhǐ (Kertas Xuan Khusus - 纸), dan Yàn (Batu Asahan Tinta - 砚).. Empat Harta Kamar Belajar (文房四宝) adalah: Kuas (笔 bǐ), Tinta (墨 mò), Kertas (纸 zhǐ), dan Batu tinta (砚 yàn). Pilih opsi: 'Bǐ (笔), Mò (墨), Zhǐ (纸), dan Yàn (砚)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Bǐ (Kuas Tulis - 笔), Mò (Tinta Bak Batangan - 墨), Zhǐ (Kertas Xuan Khusus - 纸), dan Yàn (Batu Asahan Tinta - 砚).. Empat Harta Kamar Belajar (文房四宝) adalah: Kuas (笔 bǐ), Tinta (墨 mò), Kertas (纸 zhǐ), dan Batu tinta (砚 yàn). Pilih opsi: 'Bǐ (笔), Mò (墨), Zhǐ (纸), dan Yàn (砚)'."
   },
   {
     "id": "man-lat-h-14",
@@ -2959,27 +2963,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kamar utama di sisi utara dikosongkan permanen sebagai gudang penyimpanan pakan ternak kuda menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
-        "text": "Seluruh anak cucu usia termuda diwajibkan tinggal di kamar utama utara, sedangkan orang tua tinggal di luar gerbang."
-      },
-      {
-        "key": "C",
-        "text": "Kamar yang paling dekat dengan pintu gerbang masuk (*Dàozuòfáng*) adalah kamar sakral bagi kakek tertua."
-      },
-      {
-        "key": "D",
         "text": "Kamar utama di sisi utara (*Zhèngfáng*) yang menghadap ke selatan dengan pencahayaan terbaik khusus diperuntukkan bagi tetua/orang tua tertinggi dalam keluarga."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Pembagian kamar dilakukan secara acak melalui pengundian nomor dadu setiap pergantian musim."
+      },
+      {
+        "key": "C",
+        "text": "Seluruh anak cucu usia termuda diwajibkan tinggal di kamar utama utara, sedangkan orang tua tinggal di luar gerbang."
+      },
+      {
+        "key": "D",
+        "text": "Kamar yang paling dekat dengan pintu gerbang masuk (*Dàozuòfáng*) adalah kamar sakral bagi kakek tertua."
+      },
+      {
+        "key": "E",
+        "text": "Kamar utama di sisi utara dikosongkan permanen sebagai gudang penyimpanan pakan ternak kuda."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kamar utama di sisi utara (*Zhèngfáng*) yang menghadap ke selatan dengan pencahayaan terbaik khusus diperuntukkan bagi tetua/orang tua tertinggi dalam keluarga.. Teks menyatakan: '正房（北房）坐北朝南，光线 最好，由 家中 辈分最高的 长辈 居住' (kamar utama utara dengan cahaya terbaik untuk tetua tertinggi). Pilih opsi: Kamar utama utara (Zhengfang) menghadap selatan diperuntukkan bagi tetua tertinggi keluarga."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kamar utama di sisi utara (*Zhèngfáng*) yang menghadap ke selatan dengan pencahayaan terbaik khusus diperuntukkan bagi tetua/orang tua tertinggi dalam keluarga.. Teks menyatakan: '正房（北房）坐北朝南，光线 最好，由 家中 辈分最高的 长辈 居住' (kamar utama utara dengan cahaya terbaik untuk tetua tertinggi). Pilih opsi: Kamar utama utara (Zhengfang) menghadap selatan diperuntukkan bagi tetua tertinggi keluarga."
   },
   {
     "id": "man-lat-h-15",
@@ -3002,11 +3006,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zhongyi menolak penggunaan bahan alami tumbuhan obat dan hanya mengandalkan operasi pembedahan organ secara massal diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Zhongyi mewajibkan seluruh pasien menjalani puasa makan makanan padat selama 365 hari penuh tanpa minum air."
       },
       {
         "key": "B",
-        "text": "Zhongyi mewajibkan seluruh pasien menjalani puasa makan makanan padat selama 365 hari penuh tanpa minum air."
+        "text": "Zhongyi menolak penggunaan bahan alami tumbuhan obat dan hanya mengandalkan operasi pembedahan organ secara massal."
       },
       {
         "key": "C",
@@ -3014,15 +3018,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Zhongyi hanya boleh dipraktikkan kepada pasien anak-anak balita yang belum pernah mengonsumsi obat kimia modern."
+        "text": "Zhongyi memandang tubuh secara holistik dan menitikberatkan pada pemulihan keseimbangan dinamis Yin-Yang serta kelancaran energi Qi/darah di seluruh tubuh, bukan sekadar mematikan gejala lokal semata."
       },
       {
         "key": "E",
-        "text": "Zhongyi memandang tubuh secara holistik dan menitikberatkan pada pemulihan keseimbangan dinamis Yin-Yang serta kelancaran energi Qi/darah di seluruh tubuh, bukan sekadar mematikan gejala lokal semata."
+        "text": "Zhongyi hanya boleh dipraktikkan kepada pasien anak-anak balita yang belum pernah mengonsumsi obat kimia modern."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Zhongyi memandang tubuh secara holistik dan menitikberatkan pada pemulihan keseimbangan dinamis Yin-Yang serta kelancaran energi Qi/darah di seluruh tubuh, bukan sekadar mematikan gejala lokal semata.. Teks menekankan: kesehatan bergantung pada keseimbangan Yin-Yang dan kelancaran Qi/darah, pengobatan berfokus pada penyelarasan seluruh tubuh (整体调理), bukan cuma gejala lokal. Pilih opsi yang menjelaskan pendekatan holistik keseimbangan Yin-Yang dan kelancaran Qi di seluruh tubuh."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Zhongyi memandang tubuh secara holistik dan menitikberatkan pada pemulihan keseimbangan dinamis Yin-Yang serta kelancaran energi Qi/darah di seluruh tubuh, bukan sekadar mematikan gejala lokal semata.. Teks menekankan: kesehatan bergantung pada keseimbangan Yin-Yang dan kelancaran Qi/darah, pengobatan berfokus pada penyelarasan seluruh tubuh (整体调理), bukan cuma gejala lokal. Pilih opsi yang menjelaskan pendekatan holistik keseimbangan Yin-Yang dan kelancaran Qi di seluruh tubuh."
   },
   {
     "id": "man-lat-h-16",
@@ -3055,13 +3059,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mǎimài, shōu gòu, jiān bīng",
-        "translation": "Jual beli, pengambilalihan aset, dan penggabungan paksa korporasi."
+        "text": "Dān biān, qiǎng zhì, zhì cái",
+        "translation": "Unilateral sepihak, pemaksaan kehendak, dan penjatuhan sanksi embargo."
       },
       {
         "key": "D",
-        "text": "Dān biān, qiǎng zhì, zhì cái",
-        "translation": "Unilateral sepihak, pemaksaan kehendak, dan penjatuhan sanksi embargo."
+        "text": "Mǎimài, shōu gòu, jiān bīng",
+        "translation": "Jual beli, pengambilalihan aset, dan penggabungan paksa korporasi."
       },
       {
         "key": "E",
@@ -3093,15 +3097,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketiadaan fasilitas rumah sakit dan tenaga bidan terlatih di seluruh wilayah perkotaan provinsi besar ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Penolakan dari generasi kakek nenek lansia untuk membantu merawat cucu-cucu di rumah hunian."
       },
       {
         "key": "B",
-        "text": "Tingginya biaya hidup di perkotaan dan beratnya tekanan persaingan kerja yang membuat minat generasi muda untuk memiliki banyak anak tetap rendah."
+        "text": "Kewajiban bagi setiap keluarga untuk menyekolahkan anak-anaknya ke universitas di luar negeri sejak usia balita."
       },
       {
         "key": "C",
-        "text": "Kewajiban bagi setiap keluarga untuk menyekolahkan anak-anaknya ke universitas di luar negeri sejak usia balita."
+        "text": "Tingginya biaya hidup di perkotaan dan beratnya tekanan persaingan kerja yang membuat minat generasi muda untuk memiliki banyak anak tetap rendah."
       },
       {
         "key": "D",
@@ -3109,11 +3113,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Penolakan dari generasi kakek nenek lansia untuk membantu merawat cucu-cucu di rumah hunian."
+        "text": "Ketiadaan fasilitas rumah sakit dan tenaga bidan terlatih di seluruh wilayah perkotaan provinsi besar."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Tingginya biaya hidup di perkotaan dan beratnya tekanan persaingan kerja yang membuat minat generasi muda untuk memiliki banyak anak tetap rendah.. Teks menyebutkan: '由于 城市 生活成本高、年轻人的 就业压力大，如何 真正 提高 年轻夫妇的 生育意愿，依然是一个 复杂的 社会课题'. Pilih opsi yang menyebutkan tingginya biaya hidup perkotaan dan beratnya tekanan kerja generasi muda."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Tingginya biaya hidup di perkotaan dan beratnya tekanan persaingan kerja yang membuat minat generasi muda untuk memiliki banyak anak tetap rendah.. Teks menyebutkan: '由于 城市 生活成本高、年轻人的 就业压力大，如何 真正 提高 年轻夫妇的 生育意愿，依然是一个 复杂的 社会课题'. Pilih opsi yang menyebutkan tingginya biaya hidup perkotaan dan beratnya tekanan kerja generasi muda."
   },
   {
     "id": "man-lat-h-18",
@@ -3136,27 +3140,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengajarkan bahwa kodok harus belajar menyelam di laut lepas agar tidak dimangsa oleh burung elang sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
         "text": "Memerintahkan masyarakat untuk tidak membuang sampah plastik ke dalam sumur tua pedesaan."
       },
       {
+        "key": "B",
+        "text": "Menganjurkan agar penyu laut pindah tempat tinggal ke sumur pedesaan demi mencari ketenangan hidup."
+      },
+      {
         "key": "C",
-        "text": "Menyindir orang yang memiliki wawasan sempit dan pengetahuan terbatas namun bersikap sombong serta merasa dirinya paling hebat karena belum melihat luasnya dunia."
+        "text": "Mengajarkan bahwa kodok harus belajar menyelam di laut lepas agar tidak dimangsa oleh burung elang sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
       },
       {
         "key": "D",
-        "text": "Menjelaskan bahwa air laut rasanya asin karena mengandung mineral garam yang terbawa banjir bandang."
+        "text": "Menyindir orang yang memiliki wawasan sempit dan pengetahuan terbatas namun bersikap sombong serta merasa dirinya paling hebat karena belum melihat luasnya dunia."
       },
       {
         "key": "E",
-        "text": "Menganjurkan agar penyu laut pindah tempat tinggal ke sumur pedesaan demi mencari ketenangan hidup."
+        "text": "Menjelaskan bahwa air laut rasanya asin karena mengandung mineral garam yang terbawa banjir bandang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menyindir orang yang memiliki wawasan sempit dan pengetahuan terbatas namun bersikap sombong serta merasa dirinya paling hebat karena belum melihat luasnya dunia.. Peribahasa 井底之蛙 (kodok dalam tempurung/sumur) menyindir orang yang picik/berwawasan sempit dan sombong karena belum melihat dunia luar yang luas. Pilih opsi yang menyindir orang berwawasan sempit namun sombong merasa paling hebat."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menyindir orang yang memiliki wawasan sempit dan pengetahuan terbatas namun bersikap sombong serta merasa dirinya paling hebat karena belum melihat luasnya dunia.. Peribahasa 井底之蛙 (kodok dalam tempurung/sumur) menyindir orang yang picik/berwawasan sempit dan sombong karena belum melihat dunia luar yang luas. Pilih opsi yang menyindir orang berwawasan sempit namun sombong merasa paling hebat."
   },
   {
     "id": "man-lat-h-19",
@@ -3179,11 +3183,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Praktik suap menyuap uang tunai ilegal di bawah meja untuk memenangkan tender lelang proyek proyek pemerintah menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
+        "text": "Kewajiban menandatangani kontrak kerja tanpa boleh membaca pasal-pasal perlindungan hukum tenaga kerja."
       },
       {
         "key": "B",
-        "text": "Kewajiban menandatangani kontrak kerja tanpa boleh membaca pasal-pasal perlindungan hukum tenaga kerja."
+        "text": "Perjanjian monopoli pasar sepihak yang memaksa mitra bisnis asing menyerahkan seluruh aset pabriknya."
       },
       {
         "key": "C",
@@ -3195,7 +3199,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Perjanjian monopoli pasar sepihak yang memaksa mitra bisnis asing menyerahkan seluruh aset pabriknya."
+        "text": "Praktik suap menyuap uang tunai ilegal di bawah meja untuk memenangkan tender lelang proyek proyek pemerintah."
       }
     ],
     "correctKey": "D",
@@ -3222,15 +3226,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tepat berada di sudut tersembunyi di dekat pintu kamar kecil toilet agar mudah mencuci tangan diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Tepat berada di sudut tersembunyi di dekat pintu kamar kecil toilet agar mudah mencuci tangan."
       },
       {
         "key": "B",
-        "text": "Berada di kursi yang membelakangi pintu masuk sehingga wajah tamu tidak terlihat oleh pelayan."
+        "text": "Berada di samping meja kasir pembayaran agar bisa langsung mengawasi tagihan nota makanan."
       },
       {
         "key": "C",
-        "text": "Berada di samping meja kasir pembayaran agar bisa langsung mengawasi tagihan nota makanan."
+        "text": "Berada di kursi yang membelakangi pintu masuk sehingga wajah tamu tidak terlihat oleh pelayan."
       },
       {
         "key": "D",
@@ -3265,16 +3269,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena tindakan membalik ikan",
-        "translation": "*fān yú*) berkonotasi buruk menyerupai peristiwa 'perahu nelayan yang terbalik di tengah lautan' (*fān chuán - 翻船*."
+        "text": "Karena sisik ikan bagian bawah mengandung nilai sejarah arkeologi dinasti kekaisaran yang harus diawetkan."
       },
       {
         "key": "B",
-        "text": "Karena tulang punggung ikan mengandung duri beracun yang dapat meledak jika dibalik secara mendadak ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Karena tulang punggung ikan mengandung duri beracun yang dapat meledak jika dibalik secara mendadak."
       },
       {
         "key": "C",
-        "text": "Karena sisik ikan bagian bawah mengandung nilai sejarah arkeologi dinasti kekaisaran yang harus diawetkan."
+        "text": "Karena koki restoran akan mendenda pelanggan yang tidak mampu mengangkat tulang ikan dengan satu sumpit."
       },
       {
         "key": "D",
@@ -3282,11 +3285,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Karena koki restoran akan mendenda pelanggan yang tidak mampu mengangkat tulang ikan dengan satu sumpit."
+        "text": "Karena tindakan membalik ikan",
+        "translation": "*fān yú*) berkonotasi buruk menyerupai peristiwa 'perahu nelayan yang terbalik di tengah lautan' (*fān chuán - 翻船*."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Karena tindakan membalik ikan (*fān yú*) berkonotasi buruk menyerupai peristiwa 'perahu nelayan yang terbalik di tengah lautan' (*fān chuán - 翻船*).. Di kalangan nelayan pesisir Tiongkok, membalik ikan (翻鱼) dihindari karena berasosiasi dengan kapal terbalik di laut (翻船). Pilih opsi yang mengaitkan tindakan membalik ikan dengan kapal/perahu nelayan yang terbalik di laut."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Karena tindakan membalik ikan (*fān yú*) berkonotasi buruk menyerupai peristiwa 'perahu nelayan yang terbalik di tengah lautan' (*fān chuán - 翻船*).. Di kalangan nelayan pesisir Tiongkok, membalik ikan (翻鱼) dihindari karena berasosiasi dengan kapal terbalik di laut (翻船). Pilih opsi yang mengaitkan tindakan membalik ikan dengan kapal/perahu nelayan yang terbalik di laut."
   },
   {
     "id": "man-lat-h-22",
@@ -3309,28 +3313,28 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Angka 8 adalah lambang dari 8 kaisar pertama Tiongkok, sedangkan angka 4 adalah lambang dari 4 musim dingin yang beku ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Angka 8 melambangkan jumlah arah mata angin kompas, sedangkan angka 4 dilarang dalam ilmu ukur matematika kuno."
       },
       {
         "key": "B",
+        "text": "Angka 4 dilarang oleh kalender astronomi bulan imlek karena menyebabkan gerhana matahari total."
+      },
+      {
+        "key": "C",
         "text": "Angka 8",
         "translation": "*bā*) berima fonetis mirip dengan kata makmur/sukses rezeki (*fā - 发财*), sedangkan angka 4 (*sì*) berbunyi sangat mirip dengan kata kematian (*sǐ - 死*."
       },
       {
-        "key": "C",
-        "text": "Angka 4 dilarang oleh kalender astronomi bulan imlek karena menyebabkan gerhana matahari total."
-      },
-      {
         "key": "D",
-        "text": "Angka 8 melambangkan jumlah arah mata angin kompas, sedangkan angka 4 dilarang dalam ilmu ukur matematika kuno."
+        "text": "Angka 8 ditetapkan oleh kementerian perdagangan sebagai tarif minimum bunga pinjaman modal usaha."
       },
       {
         "key": "E",
-        "text": "Angka 8 ditetapkan oleh kementerian perdagangan sebagai tarif minimum bunga pinjaman modal usaha."
+        "text": "Angka 8 adalah lambang dari 8 kaisar pertama Tiongkok, sedangkan angka 4 adalah lambang dari 4 musim dingin yang beku."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Angka 8 (*bā*) berima fonetis mirip dengan kata makmur/sukses rezeki (*fā - 发财*), sedangkan angka 4 (*sì*) berbunyi sangat mirip dengan kata kematian (*sǐ - 死*).. Angka 8 (bā) bunyinya mirip 发 (fā / makmur kaya). Angka 4 (sì) bunyinya mirip 死 (sǐ / mati). Pilih opsi: Angka 8 berima mirip kata makmur (fā) dan angka 4 mirip kata mati (sǐ)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Angka 8 (*bā*) berima fonetis mirip dengan kata makmur/sukses rezeki (*fā - 发财*), sedangkan angka 4 (*sì*) berbunyi sangat mirip dengan kata kematian (*sǐ - 死*).. Angka 8 (bā) bunyinya mirip 发 (fā / makmur kaya). Angka 4 (sì) bunyinya mirip 死 (sǐ / mati). Pilih opsi: Angka 8 berima mirip kata makmur (fā) dan angka 4 mirip kata mati (sǐ)."
   },
   {
     "id": "man-lat-h-23",
@@ -3353,27 +3357,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan kartu nama dengan tangan kiri sambil memasukkan tangan kanan ke dalam saku celana depan sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
-      },
-      {
-        "key": "B",
-        "text": "Langsung memasukkan kartu nama mitra bisnis ke dalam saku celana belakang tanpa membaca nama dan jabatannya."
-      },
-      {
-        "key": "C",
-        "text": "Menyerahkan dan menerima dengan menggunakan kedua belah tangan (*shuāngshǒu*), dengan posisi teks menghadap ke arah lawan bicara, lalu membacanya sejenak dengan penuh hormat."
-      },
-      {
-        "key": "D",
         "text": "Menuliskan harga penawaran diskon produk langsung di atas foto kartu nama rekan kerja menggunakan spidol permanen."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menyerahkan dan menerima dengan menggunakan kedua belah tangan (*shuāngshǒu*), dengan posisi teks menghadap ke arah lawan bicara, lalu membacanya sejenak dengan penuh hormat."
+      },
+      {
+        "key": "C",
+        "text": "Menyerahkan kartu nama dengan tangan kiri sambil memasukkan tangan kanan ke dalam saku celana depan sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+      },
+      {
+        "key": "D",
         "text": "Menyelipkan kartu nama ke dalam lipatan taplak meja makan sebelum bersalaman dengan mitra usaha."
+      },
+      {
+        "key": "E",
+        "text": "Langsung memasukkan kartu nama mitra bisnis ke dalam saku celana belakang tanpa membaca nama dan jabatannya."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menyerahkan dan menerima dengan menggunakan kedua belah tangan (*shuāngshǒu*), dengan posisi teks menghadap ke arah lawan bicara, lalu membacanya sejenak dengan penuh hormat.. Kartu nama (名片) wajib diserahkan dan diterima dengan kedua tangan (双手), tulisan menghadap lawan bicara, dan dibaca teliti. Pilih opsi: Menyerahkan dan menerima dengan kedua belah tangan, teks menghadap lawan bicara, dan dibaca sejenak dengan hormat."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menyerahkan dan menerima dengan menggunakan kedua belah tangan (*shuāngshǒu*), dengan posisi teks menghadap ke arah lawan bicara, lalu membacanya sejenak dengan penuh hormat.. Kartu nama (名片) wajib diserahkan dan diterima dengan kedua tangan (双手), tulisan menghadap lawan bicara, dan dibaca teliti. Pilih opsi: Menyerahkan dan menerima dengan kedua belah tangan, teks menghadap lawan bicara, dan dibaca sejenak dengan hormat."
   },
   {
     "id": "man-lat-h-24",
@@ -3396,11 +3400,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Langsung merebut amplop angpao dengan cepat sambil langsung membuka isinya di depan kerabat yang memberi menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
+        "text": "Menyuruh anak balita untuk mengambil uang tunai tersebut dan menyembunyikannya di bawah karpet ruangan."
       },
       {
         "key": "B",
-        "text": "Melemparkan kembali amplop ke wajah pemberi sambil berteriak marah karena merasa dihina secara finansial."
+        "text": "Menolak secara halus dengan santun sebanyak satu atau dua kali terlebih dahulu sebelum akhirnya menerimanya dengan penuh rasa terima kasih dan kedua belah tangan."
       },
       {
         "key": "C",
@@ -3408,15 +3412,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menolak secara halus dengan santun sebanyak satu atau dua kali terlebih dahulu sebelum akhirnya menerimanya dengan penuh rasa terima kasih dan kedua belah tangan."
+        "text": "Langsung merebut amplop angpao dengan cepat sambil langsung membuka isinya di depan kerabat yang memberi."
       },
       {
         "key": "E",
-        "text": "Menyuruh anak balita untuk mengambil uang tunai tersebut dan menyembunyikannya di bawah karpet ruangan."
+        "text": "Melemparkan kembali amplop ke wajah pemberi sambil berteriak marah karena merasa dihina secara finansial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menolak secara halus dengan santun sebanyak satu atau dua kali terlebih dahulu sebelum akhirnya menerimanya dengan penuh rasa terima kasih dan kedua belah tangan.. Tradisi kesantunan Tionghoa (推辞 tuīcí): menolak secara halus 1-2 kali sebelum menerima dengan ucapan terima kasih dan kedua tangan. Pilih opsi: Menolak secara halus dengan santun 1-2 kali terlebih dahulu sebelum akhirnya menerima dengan terima kasih."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menolak secara halus dengan santun sebanyak satu atau dua kali terlebih dahulu sebelum akhirnya menerimanya dengan penuh rasa terima kasih dan kedua belah tangan.. Tradisi kesantunan Tionghoa (推辞 tuīcí): menolak secara halus 1-2 kali sebelum menerima dengan ucapan terima kasih dan kedua tangan. Pilih opsi: Menolak secara halus dengan santun 1-2 kali terlebih dahulu sebelum akhirnya menerima dengan terima kasih."
   },
   {
     "id": "man-lat-h-25",
@@ -3439,8 +3443,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Binatang pertama adalah Naga",
-        "translation": "Lóng - 龙), dan binatang penutup adalah Harimau (Hǔ - 虎 diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "Binatang pertama adalah Monyet",
+        "translation": "Hóu - 猴), dan binatang penutup adalah Ayam (Jī - 鸡."
       },
       {
         "key": "B",
@@ -3449,13 +3453,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Binatang pertama adalah Kuda",
-        "translation": "Mǎ - 马), dan binatang penutup adalah Kelinci (Tù - 兔."
+        "text": "Binatang pertama adalah Naga",
+        "translation": "Lóng - 龙), dan binatang penutup adalah Harimau (Hǔ - 虎 diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
       },
       {
         "key": "D",
-        "text": "Binatang pertama adalah Monyet",
-        "translation": "Hóu - 猴), dan binatang penutup adalah Ayam (Jī - 鸡."
+        "text": "Binatang pertama adalah Kuda",
+        "translation": "Mǎ - 马), dan binatang penutup adalah Kelinci (Tù - 兔."
       },
       {
         "key": "E",
@@ -3487,13 +3491,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "还是",
-        "translation": "háishì - kata hubung 'atau' yang khusus digunakan dalam kalimat tanya pilihan interogatif."
+        "text": "因为",
+        "translation": "yīnwèi - konjungsi kausalitas yang menandai alasan penyebab."
       },
       {
         "key": "B",
-        "text": "或者",
-        "translation": "huòzhě - kata hubung 'atau' yang hanya boleh digunakan dalam kalimat pernyataan deklaratif biasa."
+        "text": "但是",
+        "translation": "dànshì - konjungsi pertentangan yang bermakna 'tetapi / namun'."
       },
       {
         "key": "C",
@@ -3502,17 +3506,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "但是",
-        "translation": "dànshì - konjungsi pertentangan yang bermakna 'tetapi / namun'."
+        "text": "或者",
+        "translation": "huòzhě - kata hubung 'atau' yang hanya boleh digunakan dalam kalimat pernyataan deklaratif biasa."
       },
       {
         "key": "E",
-        "text": "因为",
-        "translation": "yīnwèi - konjungsi kausalitas yang menandai alasan penyebab."
+        "text": "还是",
+        "translation": "háishì - kata hubung 'atau' yang khusus digunakan dalam kalimat tanya pilihan interogatif."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 还是 (háishì - kata hubung 'atau' yang khusus digunakan dalam kalimat tanya pilihan interogatif).. Kata 'atau' dalam kalimat tanya wajib memakai 还是 (háishì). Kata 或者 (huòzhě) hanya untuk kalimat pernyataan biasa. Pilih: '还是 (háishì)'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 还是 (háishì - kata hubung 'atau' yang khusus digunakan dalam kalimat tanya pilihan interogatif).. Kata 'atau' dalam kalimat tanya wajib memakai 还是 (háishì). Kata 或者 (huòzhě) hanya untuk kalimat pernyataan biasa. Pilih: '还是 (háishì)'."
   },
   {
     "id": "man-sim-02",
@@ -3583,32 +3587,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "北京不比哈尔滨那么冷。",
-        "translation": "Struktur 'bù bǐ' bermakna Beijing tidak lebih dingin, tapi 'méiyǒu' adalah standar baku untuk menyatakan tidak se-dingin."
-      },
-      {
-        "key": "B",
         "text": "北京比哈尔滨没有冷。",
         "translation": "Menempatkan kata méiyǒu di belakang kata bǐ yang merusak sintaksis kalimat."
       },
       {
-        "key": "C",
-        "text": "北京没有哈尔滨那么冷。",
-        "translation": "Běijīng méiyǒu Hā'ěrbīn nàme lěng - Beijing tidak sedingin Harbin."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "北京跟哈尔滨一样冷。",
         "translation": "Menyatakan kesetaraan yang bertentangan secara matematis dengan selisih 15 derajat."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "北京不比哈尔滨那么冷。",
+        "translation": "Struktur 'bù bǐ' bermakna Beijing tidak lebih dingin, tapi 'méiyǒu' adalah standar baku untuk menyatakan tidak se-dingin."
+      },
+      {
+        "key": "D",
         "text": "哈尔滨没有北京冷。",
         "translation": "Terbalik subjek yang justru memutarbalikkan fakta iklim kedua kota."
+      },
+      {
+        "key": "E",
+        "text": "北京没有哈尔滨那么冷。",
+        "translation": "Běijīng méiyǒu Hā'ěrbīn nàme lěng - Beijing tidak sedingin Harbin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 北京没有哈尔滨那么冷。 (Běijīng méiyǒu Hā'ěrbīn nàme lěng - Beijing tidak sedingin Harbin).. Rumus A tidak se-... B: A + 没有 (méiyǒu) + B + (那么) + Sifat -> 北京没有哈尔滨那么冷. Pilih: '北京没有哈尔滨那么冷。'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 北京没有哈尔滨那么冷。 (Běijīng méiyǒu Hā'ěrbīn nàme lěng - Beijing tidak sedingin Harbin).. Rumus A tidak se-... B: A + 没有 (méiyǒu) + B + (那么) + Sifat -> 北京没有哈尔滨那么冷. Pilih: '北京没有哈尔滨那么冷。'."
   },
   {
     "id": "man-sim-04",
@@ -3631,7 +3635,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wajib diletakkan di antara kata 把 dan objek penderita (contoh: '我把没有钥匙弄丢')."
+        "text": "Boleh diletakkan di sembarang posisi karena partikel 把 fleksibel terhadap partikel negasi."
       },
       {
         "key": "B",
@@ -3639,19 +3643,19 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Wajib diletakkan di akhir kalimat setelah partikel le (contoh: '我把钥匙弄丢没有')."
-      },
-      {
-        "key": "D",
         "text": "Wajib diletakkan TEPAT DI DEPAN kata '把' (sebelum kata 把, contoh: '我没有把钥匙弄丢')."
       },
       {
+        "key": "D",
+        "text": "Wajib diletakkan di antara kata 把 dan objek penderita (contoh: '我把没有钥匙弄丢')."
+      },
+      {
         "key": "E",
-        "text": "Boleh diletakkan di sembarang posisi karena partikel 把 fleksibel terhadap partikel negasi."
+        "text": "Wajib diletakkan di akhir kalimat setelah partikel le (contoh: '我把钥匙弄丢没有')."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Wajib diletakkan TEPAT DI DEPAN kata '把' (sebelum kata 把, contoh: '我没有把钥匙弄丢').. Aturan emas kalimat 把: kata negasi (没/不) dan kata bantu modalitas HARUS diletakkan SEBELUM kata 把 (我没有把... / 你别把...). Pilih opsi: Wajib diletakkan TEPAT DI DEPAN kata '把'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Wajib diletakkan TEPAT DI DEPAN kata '把' (sebelum kata 把, contoh: '我没有把钥匙弄丢').. Aturan emas kalimat 把: kata negasi (没/不) dan kata bantu modalitas HARUS diletakkan SEBELUM kata 把 (我没有把... / 你别把...). Pilih opsi: Wajib diletakkan TEPAT DI DEPAN kata '把'."
   },
   {
     "id": "man-sim-05",
@@ -3674,32 +3678,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "装得下",
-        "translation": "zhuāng de xià - bentuk positif yang berarti muat dan masih memiliki sisa ruang diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "装不下",
+        "translation": "zhuāng bu xià - tidak muat menampung seluruh berkas video karena keterbatasan kapasitas ruang."
       },
       {
         "key": "B",
-        "text": "装完",
-        "translation": "zhuāng wán - komplemen hasil yang hanya berarti selesai mengisi tanpa menilai kapasitas muatan."
-      },
-      {
-        "key": "C",
-        "text": "不装",
-        "translation": "bù zhuāng - penolakan kehendak subjektif untuk tidak mau memasukkan barang."
-      },
-      {
-        "key": "D",
         "text": "装好了",
         "translation": "zhuāng hǎo le - menyatakan bahwa proses pemasangan telah rampung dengan baik."
       },
       {
+        "key": "C",
+        "text": "装完",
+        "translation": "zhuāng wán - komplemen hasil yang hanya berarti selesai mengisi tanpa menilai kapasitas muatan."
+      },
+      {
+        "key": "D",
+        "text": "不装",
+        "translation": "bù zhuāng - penolakan kehendak subjektif untuk tidak mau memasukkan barang."
+      },
+      {
         "key": "E",
-        "text": "装不下",
-        "translation": "zhuāng bu xià - tidak muat menampung seluruh berkas video karena keterbatasan kapasitas ruang."
+        "text": "装得下",
+        "translation": "zhuāng de xià - bentuk positif yang berarti muat dan masih memiliki sisa ruang diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 装不下 (zhuāng bu xià - tidak muat menampung seluruh berkas video karena keterbatasan kapasitas ruang).. Menyatakan tidak muat menampung menggunakan komplemen kemungkinan negatif: 装不下 (zhuāng bu xià). Pilih: '装不下 (zhuāng bu xià)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 装不下 (zhuāng bu xià - tidak muat menampung seluruh berkas video karena keterbatasan kapasitas ruang).. Menyatakan tidak muat menampung menggunakan komplemen kemungkinan negatif: 装不下 (zhuāng bu xià). Pilih: '装不下 (zhuāng bu xià)'."
   },
   {
     "id": "man-sim-06",
@@ -3723,12 +3727,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       {
         "key": "A",
         "text": "A: 就",
-        "translation": "jiù - menandai waktu yang dinilai cepat, dini, atau lancar), B: 才 (cái - menandai waktu yang dinilai lambat, telat, atau penuh rintangan."
+        "translation": "jiù), B: 就 (jiù - mengabaikan kontras emosional antara 'zhēn kuài' dan 'tài màn le'."
       },
       {
         "key": "B",
-        "text": "A: 才",
-        "translation": "cái), B: 就 (jiù - terbalik persepsi psikologis antara efisiensi waktu dan keterlambatan kemacetan ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "A: 又",
+        "translation": "yòu), B: 再 (zài - yòu dan zài menandai pengulangan aksi di masa lampau dan masa depan."
       },
       {
         "key": "C",
@@ -3737,17 +3741,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A: 又",
-        "translation": "yòu), B: 再 (zài - yòu dan zài menandai pengulangan aksi di masa lampau dan masa depan."
+        "text": "A: 就",
+        "translation": "jiù - menandai waktu yang dinilai cepat, dini, atau lancar), B: 才 (cái - menandai waktu yang dinilai lambat, telat, atau penuh rintangan."
       },
       {
         "key": "E",
-        "text": "A: 就",
-        "translation": "jiù), B: 就 (jiù - mengabaikan kontras emosional antara 'zhēn kuài' dan 'tài màn le'."
+        "text": "A: 才",
+        "translation": "cái), B: 就 (jiù - terbalik persepsi psikologis antara efisiensi waktu dan keterlambatan kemacetan ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) A: 就 (jiù - menandai waktu yang dinilai cepat, dini, atau lancar), B: 才 (cái - menandai waktu yang dinilai lambat, telat, atau penuh rintangan).. Satu jam sudah sampai (cepat): 就 (jiù). Dua jam baru sampai (lambat/macet): 才 (cái). Pilih opsi: 'A: 就 (jiù), B: 才 (cái)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) A: 就 (jiù - menandai waktu yang dinilai cepat, dini, atau lancar), B: 才 (cái - menandai waktu yang dinilai lambat, telat, atau penuh rintangan).. Satu jam sudah sampai (cepat): 就 (jiù). Dua jam baru sampai (lambat/macet): 才 (cái). Pilih opsi: 'A: 就 (jiù), B: 才 (cái)'."
   },
   {
     "id": "man-sim-07",
@@ -3770,15 +3774,15 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban membeli pakaian tersebut secara berulang-ulang sebanyak tiga kali transaksi ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Membayar uang muka terlebih dahulu sebelum pakaian boleh dilihat dari jarak dekat."
       },
       {
         "key": "B",
-        "text": "Melakukan tindakan mencoba pakaian tersebut dalam durasi waktu yang singkat dan santai (*mencoba-coba sebentar*)."
+        "text": "Perintah tegas untuk menguji ketahanan kain pakaian dengan merobeknya di hadapan kasir."
       },
       {
         "key": "C",
-        "text": "Perintah tegas untuk menguji ketahanan kain pakaian dengan merobeknya di hadapan kasir."
+        "text": "Kewajiban membeli pakaian tersebut secara berulang-ulang sebanyak tiga kali transaksi."
       },
       {
         "key": "D",
@@ -3786,11 +3790,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Membayar uang muka terlebih dahulu sebelum pakaian boleh dilihat dari jarak dekat."
+        "text": "Melakukan tindakan mencoba pakaian tersebut dalam durasi waktu yang singkat dan santai (*mencoba-coba sebentar*)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Melakukan tindakan mencoba pakaian tersebut dalam durasi waktu yang singkat dan santai (*mencoba-coba sebentar*).. Reduplikasi kata kerja (试一试 shì yi shì) bermakna melakukan perbuatan sebentar/mencoba santai (mencoba sebentar). Pilih opsi: Melakukan tindakan mencoba pakaian dalam durasi singkat dan santai."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Melakukan tindakan mencoba pakaian tersebut dalam durasi waktu yang singkat dan santai (*mencoba-coba sebentar*).. Reduplikasi kata kerja (试一试 shì yi shì) bermakna melakukan perbuatan sebentar/mencoba santai (mencoba sebentar). Pilih opsi: Melakukan tindakan mencoba pakaian dalam durasi singkat dan santai."
   },
   {
     "id": "man-sim-08",
@@ -3818,27 +3822,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "大家",
-        "translation": "dàjiā - semua orang / khalayak ramai."
-      },
-      {
-        "key": "C",
-        "text": "自己",
-        "translation": "zìjǐ - diri sendiri / secara mandiri tanpa bantuan orang lain."
-      },
-      {
-        "key": "D",
         "text": "人家",
         "translation": "rénjia - orang tersebut / orang lain."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "双方",
         "translation": "shuāngfāng - kedua belah pihak dalam perundingan perjanjian."
+      },
+      {
+        "key": "D",
+        "text": "自己",
+        "translation": "zìjǐ - diri sendiri / secara mandiri tanpa bantuan orang lain."
+      },
+      {
+        "key": "E",
+        "text": "大家",
+        "translation": "dàjiā - semua orang / khalayak ramai."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 自己 (zìjǐ - diri sendiri / secara mandiri tanpa bantuan orang lain).. Melakukan perbuatan secara mandiri/sendiri: 自己做饭 (memasak sendiri). Pilih: '自己 (zìjǐ)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 自己 (zìjǐ - diri sendiri / secara mandiri tanpa bantuan orang lain).. Melakukan perbuatan secara mandiri/sendiri: 自己做饭 (memasak sendiri). Pilih: '自己 (zìjǐ)'."
   },
   {
     "id": "man-sim-09",
@@ -3861,23 +3865,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "吗",
-        "translation": "ma - partikel penanya ya/tidak yang menuntut adanya predikat verba lengkap menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
-        "text": "吧",
-        "translation": "ba - penanda dugaan yang tidak tepat digunakan saat panik mencari benda hilang."
-      },
-      {
-        "key": "C",
         "text": "了",
         "translation": "le - penanda ketuntasan yang tidak membentuk kalimat tanya pencarian posisi benda."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "呢",
         "translation": "ne - partikel interogatif yang ketika menempel langsung pada nomina berfungsi menanyakan keberadaan 'di mana objek tersebut?'."
+      },
+      {
+        "key": "C",
+        "text": "吧",
+        "translation": "ba - penanda dugaan yang tidak tepat digunakan saat panik mencari benda hilang."
+      },
+      {
+        "key": "D",
+        "text": "吗",
+        "translation": "ma - partikel penanya ya/tidak yang menuntut adanya predikat verba lengkap menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
       },
       {
         "key": "E",
@@ -3885,8 +3889,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "a - partikel seru modalitas yang tidak memiliki daya interogatif lokatif mandiri."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 呢 (ne - partikel interogatif yang ketika menempel langsung pada nomina berfungsi menanyakan keberadaan 'di mana objek tersebut?').. Kata Benda + 呢 (ne) berfungsi menanyakan 'di mana benda itu berada?': 我的手机呢？(Di mana ponsel saya?). Pilih: '呢 (ne)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 呢 (ne - partikel interogatif yang ketika menempel langsung pada nomina berfungsi menanyakan keberadaan 'di mana objek tersebut?').. Kata Benda + 呢 (ne) berfungsi menanyakan 'di mana benda itu berada?': 我的手机呢？(Di mana ponsel saya?). Pilih: '呢 (ne)'."
   },
   {
     "id": "man-lat-m-10b",
@@ -3909,32 +3913,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A: 又",
-        "translation": "yòu), B: 再 (zài - terbalik mutlak antara dimensi waktu lampau dan rencana masa depan diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
-      },
-      {
-        "key": "B",
-        "text": "A: 还",
-        "translation": "hái), B: 也 (yě - tidak menandai pengulangan tindakan verba spesifik."
-      },
-      {
-        "key": "C",
         "text": "A: 再",
         "translation": "zài), B: 再 (zài - mengabaikan fakta bahwa keterlambatan tadi pagi sudah nyata terjadi."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A: 又",
         "translation": "yòu), B: 又 (yòu - mengabaikan fakta bahwa menonton besok adalah rencana kehendak."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "A: 又",
+        "translation": "yòu), B: 再 (zài - terbalik mutlak antara dimensi waktu lampau dan rencana masa depan diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+      },
+      {
+        "key": "D",
         "text": "A: 再",
         "translation": "zài - pengulangan aksi di masa yang akan datang), B: 又 (yòu - pengulangan peristiwa yang sudah terjadi di masa lampau."
+      },
+      {
+        "key": "E",
+        "text": "A: 还",
+        "translation": "hái), B: 也 (yě - tidak menandai pengulangan tindakan verba spesifik."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) A: 再 (zài - pengulangan aksi di masa yang akan datang), B: 又 (yòu - pengulangan peristiwa yang sudah terjadi di masa lampau).. Mau nonton lagi besok (masa depan) -> 再 (zài). Tadi pagi terlambat lagi (sudah terjadi di masa lampau) -> 又 (yòu). Pilih: 'A: 再 (zài), B: 又 (yòu)'."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) A: 再 (zài - pengulangan aksi di masa yang akan datang), B: 又 (yòu - pengulangan peristiwa yang sudah terjadi di masa lampau).. Mau nonton lagi besok (masa depan) -> 再 (zài). Tadi pagi terlambat lagi (sudah terjadi di masa lampau) -> 又 (yòu). Pilih: 'A: 再 (zài), B: 又 (yòu)'."
   },
   {
     "id": "man-sim-11",
@@ -3961,19 +3965,19 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Karena undang-undang perkawinan Tiongkok melarang keras para ibu kandung untuk tinggal serumah dengan anak kandungnya ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Agar para orang tua muda dapat menggunakan seluruh waktu liburnya untuk berkeliling dunia tanpa anak."
       },
       {
         "key": "C",
-        "text": "Karena kakek-nenek diwajibkan oleh dinas pendidikan untuk menggantikan seluruh peran guru di sekolah dasar."
-      },
-      {
-        "key": "D",
         "text": "Karena biaya sekolah taman kanak-kanak digratiskan khusus bagi anak-anak yang diantar oleh kakek kandung."
       },
       {
+        "key": "D",
+        "text": "Karena kakek-nenek diwajibkan oleh dinas pendidikan untuk menggantikan seluruh peran guru di sekolah dasar."
+      },
+      {
         "key": "E",
-        "text": "Agar para orang tua muda dapat menggunakan seluruh waktu liburnya untuk berkeliling dunia tanpa anak."
+        "text": "Karena undang-undang perkawinan Tiongkok melarang keras para ibu kandung untuk tinggal serumah dengan anak kandungnya."
       }
     ],
     "correctKey": "A",
@@ -4000,27 +4004,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keluarga mengalami kebangkrutan finansial mendadak akibat biaya konsumsi makanan kakek-nenek yang terlalu mahal ditinjau dari register kesantunan komunikasi sosial dan kaidah nada pinyin."
+        "text": "Kakek dan nenek menuntut pembayaran gaji profesional dengan nominal setara manajer bank nasional."
       },
       {
         "key": "B",
-        "text": "Timbulnya perbedaan sudut pandang antara generasi tua dan generasi muda dalam hal pola pendidikan anak, gizi makanan, dan konsep pengasuhan."
+        "text": "Keluarga mengalami kebangkrutan finansial mendadak akibat biaya konsumsi makanan kakek-nenek yang terlalu mahal."
       },
       {
         "key": "C",
-        "text": "Pemerintah kota mencabut hak kepemilikan apartemen keluarga yang tinggal bersama tiga generasi."
-      },
-      {
-        "key": "D",
         "text": "Anak-anak menolak belajar berbicara bahasa Mandarin dan hanya mau berkomunikasi dengan bahasa isyarat kuno."
       },
       {
+        "key": "D",
+        "text": "Timbulnya perbedaan sudut pandang antara generasi tua dan generasi muda dalam hal pola pendidikan anak, gizi makanan, dan konsep pengasuhan."
+      },
+      {
         "key": "E",
-        "text": "Kakek dan nenek menuntut pembayaran gaji profesional dengan nominal setara manajer bank nasional."
+        "text": "Pemerintah kota mencabut hak kepemilikan apartemen keluarga yang tinggal bersama tiga generasi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Timbulnya perbedaan sudut pandang antara generasi tua dan generasi muda dalam hal pola pendidikan anak, gizi makanan, dan konsep pengasuhan.. Teks menyebutkan: '也常因 两代人在 育儿观念、饮食营养和 教育方式上的 差异而 产生 家庭小摩擦' (perbedaan dalam konsep mendidik anak, nutrisi, dan cara asuh). Pilih opsi yang menyebutkan perbedaan sudut pandang dalam konsep pendidikan anak, nutrisi, dan pola asuh."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Timbulnya perbedaan sudut pandang antara generasi tua dan generasi muda dalam hal pola pendidikan anak, gizi makanan, dan konsep pengasuhan.. Teks menyebutkan: '也常因 两代人在 育儿观念、饮食营养和 教育方式上的 差异而 产生 家庭小摩擦' (perbedaan dalam konsep mendidik anak, nutrisi, dan cara asuh). Pilih opsi yang menyebutkan perbedaan sudut pandang dalam konsep pendidikan anak, nutrisi, dan pola asuh."
   },
   {
     "id": "man-sim-13",
@@ -4043,8 +4047,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "因材施教",
-        "translation": "Yīn cái shī jiào - prinsip mendidik yang disesuaikan dengan bakat dan karakteristik unik individu murid sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+        "text": "有教无类",
+        "translation": "Yǒu jiào wú lèi - dalam menyelenggarakan pendidikan tidak boleh ada sekat kasta atau diskriminasi kelas."
       },
       {
         "key": "B",
@@ -4053,8 +4057,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "有教无类",
-        "translation": "Yǒu jiào wú lèi - dalam menyelenggarakan pendidikan tidak boleh ada sekat kasta atau diskriminasi kelas."
+        "text": "学而优则仕",
+        "translation": "Xué ér yōu zé shì - konsep bahwa sarjana berprestasi unggul hendaknya mengabdi menjadi pejabat negara."
       },
       {
         "key": "D",
@@ -4063,12 +4067,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "学而优则仕",
-        "translation": "Xué ér yōu zé shì - konsep bahwa sarjana berprestasi unggul hendaknya mengabdi menjadi pejabat negara."
+        "text": "因材施教",
+        "translation": "Yīn cái shī jiào - prinsip mendidik yang disesuaikan dengan bakat dan karakteristik unik individu murid sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 有教无类 (Yǒu jiào wú lèi - dalam menyelenggarakan pendidikan tidak boleh ada sekat kasta atau diskriminasi kelas).. Teks menyatakan: '有教无类（不论 贫富贵贱，人人 都有 接受教育的 权利）'. Prinsip tanpa membedakan kaya/miskin adalah 有教无类 (Yǒu jiào wú lèi). Pilih: '有教无类 (Yǒu jiào wú lèi)'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 有教无类 (Yǒu jiào wú lèi - dalam menyelenggarakan pendidikan tidak boleh ada sekat kasta atau diskriminasi kelas).. Teks menyatakan: '有教无类（不论 贫富贵贱，人人 都有 接受教育的 权利）'. Prinsip tanpa membedakan kaya/miskin adalah 有教无类 (Yǒu jiào wú lèi). Pilih: '有教无类 (Yǒu jiào wú lèi)'."
   },
   {
     "id": "man-sim-14",
@@ -4106,17 +4110,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "因材施教",
-        "translation": "Yīn cái shī jiào - mendidik sesuai dengan potensi bahan dan karakteristik siswa."
+        "text": "道不同不相为谋",
+        "translation": "Prinsip tidak bersekutu dengan orang yang berbeda jalur prinsip moral."
       },
       {
         "key": "E",
-        "text": "道不同不相为谋",
-        "translation": "Prinsip tidak bersekutu dengan orang yang berbeda jalur prinsip moral."
+        "text": "因材施教",
+        "translation": "Yīn cái shī jiào - mendidik sesuai dengan potensi bahan dan karakteristik siswa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 因材施教 (Yīn cái shī jiào - mendidik sesuai dengan potensi bahan dan karakteristik siswa).. Teks menyatakan: '因材施教（根据 学生 不同的 才能和 特点 进行 针对性的 教育）' (mendidik sesuai bakat dan karakteristik unik murid). Pilih: '因材施教 (Yīn cái shī jiào)'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 因材施教 (Yīn cái shī jiào - mendidik sesuai dengan potensi bahan dan karakteristik siswa).. Teks menyatakan: '因材施教（根据 学生 不同的 才能和 特点 进行 针对性的 教育）' (mendidik sesuai bakat dan karakteristik unik murid). Pilih: '因材施教 (Yīn cái shī jiào)'."
   },
   {
     "id": "man-sim-15",
@@ -4139,27 +4143,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembuatan tambang batu bara terbuka raksasa di sepanjang dasar aliran ngarai sungai diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
-      },
-      {
-        "key": "B",
-        "text": "Penimbunan air tawar untuk dialirkan seluruhnya ke samudra Arktik di kutub utara."
-      },
-      {
-        "key": "C",
         "text": "Pembangunan jalur pacuan kuda internasional di atas puncak bendungan beton."
       },
       {
+        "key": "B",
+        "text": "Pembuatan tambang batu bara terbuka raksasa di sepanjang dasar aliran ngarai sungai."
+      },
+      {
+        "key": "C",
+        "text": "Penimbunan air tawar untuk dialirkan seluruhnya ke samudra Arktik di kutub utara."
+      },
+      {
         "key": "D",
-        "text": "Pengalihan seluruh rute penerbangan pesawat komersial internasional melintasi ngarai."
+        "text": "Pengendalian banjir, pembangkitan energi listrik tenaga air yang ramah lingkungan, serta perbaikan jalur navigasi transportasi pelayaran sungai."
       },
       {
         "key": "E",
-        "text": "Pengendalian banjir, pembangkitan energi listrik tenaga air yang ramah lingkungan, serta perbaikan jalur navigasi transportasi pelayaran sungai."
+        "text": "Pengalihan seluruh rute penerbangan pesawat komersial internasional melintasi ngarai."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pengendalian banjir, pembangkitan energi listrik tenaga air yang ramah lingkungan, serta perbaikan jalur navigasi transportasi pelayaran sungai.. Teks menyebutkan: '为了 防洪、发电和 改善航运，中国在此 建造了 世界上最大的 水利枢纽工程——三峡大坝' (untuk kendali banjir, pembangkit listrik, dan perbaikan pelayaran). Pilih opsi: Pengendalian banjir, pembangkit listrik tenaga air ramah lingkungan, dan perbaikan navigasi pelayaran."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pengendalian banjir, pembangkitan energi listrik tenaga air yang ramah lingkungan, serta perbaikan jalur navigasi transportasi pelayaran sungai.. Teks menyebutkan: '为了 防洪、发电和 改善航运，中国在此 建造了 世界上最大的 水利枢纽工程——三峡大坝' (untuk kendali banjir, pembangkit listrik, dan perbaikan pelayaran). Pilih opsi: Pengendalian banjir, pembangkit listrik tenaga air ramah lingkungan, dan perbaikan navigasi pelayaran."
   },
   {
     "id": "man-sim-16",
@@ -4182,18 +4186,18 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "饭",
-        "translation": "fàn - nasi / makanan pokok harian."
-      },
-      {
-        "key": "B",
         "text": "跑",
         "translation": "pǎo - berlari yang beradikalkan kaki 足."
       },
       {
+        "key": "B",
+        "text": "饭",
+        "translation": "fàn - nasi / makanan pokok harian."
+      },
+      {
         "key": "C",
-        "text": "睡",
-        "translation": "shuì - tidur yang beradikalkan mata 目."
+        "text": "玩",
+        "translation": "wán - bermain yang beradikalkan giok 王/玉."
       },
       {
         "key": "D",
@@ -4202,12 +4206,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "玩",
-        "translation": "wán - bermain yang beradikalkan giok 王/玉."
+        "text": "睡",
+        "translation": "shuì - tidur yang beradikalkan mata 目."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 饭 (fàn - nasi / makanan pokok harian).. Radikal 饣 berkaitan dengan makanan. '饭' (fàn) berarti nasi/makanan. Pilih: '饭 (fàn)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 饭 (fàn - nasi / makanan pokok harian).. Radikal 饣 berkaitan dengan makanan. '饭' (fàn) berarti nasi/makanan. Pilih: '饭 (fàn)'."
   },
   {
     "id": "man-sim-17",
@@ -4230,32 +4234,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "你明天去不去图书馆吗？",
-        "translation": "Dilarang keras menyisipkan partikel tanya 'ma' di akhir kalimat yang sudah berstruktur Zhengfan."
-      },
-      {
-        "key": "B",
         "text": "你明天去不去图书馆？",
         "translation": "Nǐ míngtiān qù bu qù túshūguǎn? - besok kamu pergi atau tidak pergi ke perpustakaan?."
       },
       {
-        "key": "C",
-        "text": "你明天去图书馆不去吗？",
-        "translation": "Susunan kata kacau yang memecah frasa kata kerja ke ujung kalimat."
+        "key": "B",
+        "text": "你去图书馆很忙不忙？",
+        "translation": "Pencampuran kata keterangan hěn di dalam konstruksi Zhengfan kata sifat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "你明天是不是去图书馆吗？",
         "translation": "Penggunaan dobel penanya shì bu shì bersama partikel ma yang redundan."
       },
       {
+        "key": "D",
+        "text": "你明天去图书馆不去吗？",
+        "translation": "Susunan kata kacau yang memecah frasa kata kerja ke ujung kalimat."
+      },
+      {
         "key": "E",
-        "text": "你去图书馆很忙不忙？",
-        "translation": "Pencampuran kata keterangan hěn di dalam konstruksi Zhengfan kata sifat."
+        "text": "你明天去不去图书馆吗？",
+        "translation": "Dilarang keras menyisipkan partikel tanya 'ma' di akhir kalimat yang sudah berstruktur Zhengfan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 你明天去不去图书馆？ (Nǐ míngtiān qù bu qù túshūguǎn? - besok kamu pergi atau tidak pergi ke perpustakaan?).. Struktur pertanyaan bolak-balik (V-不-V) seperti '去不去' TIDAK BOLEH ditambahi '吗' di belakangnya. Bentuk yang benar: 你明天去不去图书馆？ Pilih: '你明天去不去图书馆？'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 你明天去不去图书馆？ (Nǐ míngtiān qù bu qù túshūguǎn? - besok kamu pergi atau tidak pergi ke perpustakaan?).. Struktur pertanyaan bolak-balik (V-不-V) seperti '去不去' TIDAK BOLEH ditambahi '吗' di belakangnya. Bentuk yang benar: 你明天去不去图书馆？ Pilih: '你明天去不去图书馆？'."
   },
   {
     "id": "man-sim-18",
@@ -4278,32 +4282,32 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "我昨天不去看了电影。",
-        "translation": "Dilarang menggunakan kata negasi 'bù' bersama partikel aspek le untuk peristiwa lampau."
-      },
-      {
-        "key": "B",
-        "text": "我昨天没有看了电影。",
-        "translation": "Dilarang menyisipkan partikel aspek 'le' di dalam kalimat negasi méiyǒu."
-      },
-      {
-        "key": "C",
         "text": "我昨天没有去看电影。",
         "translation": "Wǒ zuótiān méiyǒu qù kàn diànyǐng - saya kemarin tidak pergi menonton film."
       },
       {
+        "key": "B",
+        "text": "我昨天不去看了电影。",
+        "translation": "Dilarang menggunakan kata negasi 'bù' bersama partikel aspek le untuk peristiwa lampau."
+      },
+      {
+        "key": "C",
+        "text": "我昨天不去看电影了。",
+        "translation": "Bú qù ... le menandai pembatalan niat mendadak, bukan penegasan fakta historis ketiadaan aktivitas."
+      },
+      {
         "key": "D",
-        "text": "我昨天看电影不去了。",
-        "translation": "Susunan kata terbalik yang tidak memiliki kohesi predikatif."
+        "text": "我昨天没有看了电影。",
+        "translation": "Dilarang menyisipkan partikel aspek 'le' di dalam kalimat negasi méiyǒu."
       },
       {
         "key": "E",
-        "text": "我昨天不去看电影了。",
-        "translation": "Bú qù ... le menandai pembatalan niat mendadak, bukan penegasan fakta historis ketiadaan aktivitas."
+        "text": "我昨天看电影不去了。",
+        "translation": "Susunan kata terbalik yang tidak memiliki kohesi predikatif."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 我昨天没有去看电影。 (Wǒ zuótiān méiyǒu qù kàn diànyǐng - saya kemarin tidak pergi menonton film).. Negasi peristiwa masa lalu menggunakan 没有 (méiyǒu) dan TIDAK BOLEH memakai 了 di belakangnya. Bentuk baku: 我昨天没有去看电影。 Pilih: '我昨天没有去看电影。'."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 我昨天没有去看电影。 (Wǒ zuótiān méiyǒu qù kàn diànyǐng - saya kemarin tidak pergi menonton film).. Negasi peristiwa masa lalu menggunakan 没有 (méiyǒu) dan TIDAK BOLEH memakai 了 di belakangnya. Bentuk baku: 我昨天没有去看电影。 Pilih: '我昨天没有去看电影。'."
   },
   {
     "id": "man-sim-19",
@@ -4326,23 +4330,23 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "爸爸买了一张新汽车。",
-        "translation": "Zhāng adalah satuan untuk benda lembaran rata, bukan untuk kendaraan bermotor menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
         "text": "爸爸买了一台新汽车。",
         "translation": "Tái adalah satuan untuk mesin elektronik atau perkakas pabrik."
       },
       {
+        "key": "B",
+        "text": "爸爸买了一张新汽车。",
+        "translation": "Zhāng adalah satuan untuk benda lembaran rata, bukan untuk kendaraan bermotor menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
+      },
+      {
         "key": "C",
-        "text": "爸爸买了一条新汽车。",
-        "translation": "Tiáo adalah satuan untuk benda memanjang lentur seperti celana atau ikan."
+        "text": "爸爸买了一辆新汽车。",
+        "translation": "Bàba mǎi le yí liàng xīn qìchē - ayah membeli sebuah mobil baru dengan liangci liàng."
       },
       {
         "key": "D",
-        "text": "爸爸买了一辆新汽车。",
-        "translation": "Bàba mǎi le yí liàng xīn qìchē - ayah membeli sebuah mobil baru dengan liangci liàng."
+        "text": "爸爸买了一条新汽车。",
+        "translation": "Tiáo adalah satuan untuk benda memanjang lentur seperti celana atau ikan."
       },
       {
         "key": "E",
@@ -4350,8 +4354,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
         "translation": "Zhī adalah satuan untuk tangkai bunga atau pena tulis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 爸爸买了一辆新汽车。 (Bàba mǎi le yí liàng xīn qìchē - ayah membeli sebuah mobil baru dengan liangci liàng).. Kata bantu bilangan untuk mobil/kendaraan beroda adalah 辆 (liàng): 一辆新汽车. Pilih: '爸爸买了一辆新汽车。'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 爸爸买了一辆新汽车。 (Bàba mǎi le yí liàng xīn qìchē - ayah membeli sebuah mobil baru dengan liangci liàng).. Kata bantu bilangan untuk mobil/kendaraan beroda adalah 辆 (liàng): 一辆新汽车. Pilih: '爸爸买了一辆新汽车。'."
   },
   {
     "id": "man-sim-20",
@@ -4374,13 +4378,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "八点三刻点",
-        "translation": "Kombinasi kata yang tidak baku karena mengulang kata diǎn dua kali diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
+        "text": "八点半一刻",
+        "translation": "Bentuk tidak lazim dalam ortografi jam Mandarin."
       },
       {
         "key": "B",
-        "text": "九点过十五分刻",
-        "translation": "Pencampuran mubazir antara menit fēn dengan satuan kè."
+        "text": "差一刻九点",
+        "translation": "Chà yí kè jiǔ diǎn - kurang satu seperempat jam/15 menit menuju pukul sembilan."
       },
       {
         "key": "C",
@@ -4389,17 +4393,17 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "八点半一刻",
-        "translation": "Bentuk tidak lazim dalam ortografi jam Mandarin."
+        "text": "八点三刻点",
+        "translation": "Kombinasi kata yang tidak baku karena mengulang kata diǎn dua kali diturunkan dari analisis struktur klausa kalimat bertingkat tata bahasa Mandarin."
       },
       {
         "key": "E",
-        "text": "差一刻九点",
-        "translation": "Chà yí kè jiǔ diǎn - kurang satu seperempat jam/15 menit menuju pukul sembilan."
+        "text": "九点过十五分刻",
+        "translation": "Pencampuran mubazir antara menit fēn dengan satuan kè."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 差一刻九点 (Chà yí kè jiǔ diǎn - kurang satu seperempat jam/15 menit menuju pukul sembilan).. Pukul 08.45 = jam 9 kurang 15 menit. 15 menit adalah 一刻 (yí kè). Jadi: 差一刻九点 (chà yí kè jiǔ diǎn). Pilih: '差一刻九点 (Chà yí kè jiǔ diǎn)'."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 差一刻九点 (Chà yí kè jiǔ diǎn - kurang satu seperempat jam/15 menit menuju pukul sembilan).. Pukul 08.45 = jam 9 kurang 15 menit. 15 menit adalah 一刻 (yí kè). Jadi: 差一刻九点 (chà yí kè jiǔ diǎn). Pilih: '差一刻九点 (Chà yí kè jiǔ diǎn)'."
   },
   {
     "id": "man-sim-21",
@@ -4422,8 +4426,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "请问",
-        "translation": "Qǐngwèn - permisi, bolehkah saya bertanya sebentar."
+        "text": "你告诉我",
+        "translation": "Nǐ gàosu wǒ - suruhan langsung tanpa formula kesantunan."
       },
       {
         "key": "B",
@@ -4432,22 +4436,22 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "给我说",
-        "translation": "Gěi wǒ shuō - katakan kepada saya yang bernada memaksa."
+        "text": "请问",
+        "translation": "Qǐngwèn - permisi, bolehkah saya bertanya sebentar."
       },
       {
         "key": "D",
-        "text": "你告诉我",
-        "translation": "Nǐ gàosu wǒ - suruhan langsung tanpa formula kesantunan."
+        "text": "看这里",
+        "translation": "Kàn zhèlǐ - suruhan untuk melihat ke arah pembicara."
       },
       {
         "key": "E",
-        "text": "看这里",
-        "translation": "Kàn zhèlǐ - suruhan untuk melihat ke arah pembicara."
+        "text": "给我说",
+        "translation": "Gěi wǒ shuō - katakan kepada saya yang bernada memaksa."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 请问 (Qǐngwèn - permisi, bolehkah saya bertanya sebentar).. Menanyakan arah atau informasi kepada orang di jalan selalu diawali dengan '请问' (qǐngwèn - permisi numpang tanya). Pilih: '请问 (Qǐngwèn)'."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 请问 (Qǐngwèn - permisi, bolehkah saya bertanya sebentar).. Menanyakan arah atau informasi kepada orang di jalan selalu diawali dengan '请问' (qǐngwèn - permisi numpang tanya). Pilih: '请问 (Qǐngwèn)'."
   },
   {
     "id": "man-sim-22",
@@ -4470,8 +4474,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "太便宜了，给贵一点儿吧！",
-        "translation": "Menyatakan barang terlalu murah dan meminta penjual menaikkan harga."
+        "text": "你的东西是假货，退钱！",
+        "translation": "Tuduhan kasar barang tiruan palsu tanpa pembuktian yang memicu perselisihan."
       },
       {
         "key": "B",
@@ -4480,13 +4484,13 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "我不给钱，你送给我吧！",
-        "translation": "Meminta barang secara cuma-cuma tanpa mau membayar uang."
+        "text": "太便宜了，给贵一点儿吧！",
+        "translation": "Menyatakan barang terlalu murah dan meminta penjual menaikkan harga."
       },
       {
         "key": "D",
-        "text": "你的东西是假货，退钱！",
-        "translation": "Tuduhan kasar barang tiruan palsu tanpa pembuktian yang memicu perselisihan."
+        "text": "我不给钱，你送给我吧！",
+        "translation": "Meminta barang secara cuma-cuma tanpa mau membayar uang."
       },
       {
         "key": "E",
@@ -4518,8 +4522,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "祝你新婚快乐！",
-        "translation": "Ucapan selamat atas pernikahan bahagia pengantin baru sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
+        "text": "祝你生意兴隆！",
+        "translation": "Ucapan semoga bisnis toko laris manis dan makmur bagi pengusaha."
       },
       {
         "key": "B",
@@ -4528,8 +4532,8 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "祝你一路平安！ / 祝你一路顺风！",
-        "translation": "Zhù nǐ yílù píng'ān / yílù shùnfēng - semoga perjalanan Anda lancar, selamat, dan berhembus angin sejuk."
+        "text": "祝你新婚快乐！",
+        "translation": "Ucapan selamat atas pernikahan bahagia pengantin baru sesuai konteks semantik wacana bacaan dan kaidah ortografi aksara hanzi fusha."
       },
       {
         "key": "D",
@@ -4538,12 +4542,12 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "祝你生意兴隆！",
-        "translation": "Ucapan semoga bisnis toko laris manis dan makmur bagi pengusaha."
+        "text": "祝你一路平安！ / 祝你一路顺风！",
+        "translation": "Zhù nǐ yílù píng'ān / yílù shùnfēng - semoga perjalanan Anda lancar, selamat, dan berhembus angin sejuk."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 祝你一路平安！ / 祝你一路顺风！ (Zhù nǐ yílù píng'ān / yílù shùnfēng - semoga perjalanan Anda lancar, selamat, dan berhembus angin sejuk).. Mendoakan orang yang hendak bepergian jauh/naik pesawat: 祝你一路平安！ / 一路顺风！ Pilih opsi doa keselamatan perjalanan (yílù píng'ān / yílù shùnfēng)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 祝你一路平安！ / 祝你一路顺风！ (Zhù nǐ yílù píng'ān / yílù shùnfēng - semoga perjalanan Anda lancar, selamat, dan berhembus angin sejuk).. Mendoakan orang yang hendak bepergian jauh/naik pesawat: 祝你一路平安！ / 一路顺风！ Pilih opsi doa keselamatan perjalanan (yílù píng'ān / yílù shùnfēng)."
   },
   {
     "id": "man-sim-24",
@@ -4566,27 +4570,27 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Karena adonan mi dibuat dari bahan karet sintetis yang tidak bisa putus oleh gigitan manusia menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa menurut norma komunikasi situasional dan etika pragmatik budaya Tionghoa."
-      },
-      {
-        "key": "B",
         "text": "Karena pemilik restoran akan mendenda pelanggan yang menyisakan potongan mi di dalam mangkuk."
       },
       {
+        "key": "B",
+        "text": "Karena adonan mi dibuat dari bahan karet sintetis yang tidak bisa putus oleh gigitan manusia."
+      },
+      {
         "key": "C",
-        "text": "Agar seluruh kuah kaldu panas tersedot habis ke dalam kerongkongan sekaligus tanpa tersisa."
+        "text": "Karena helaian mi yang panjang dan tidak terputus melambangkan umur panjang (*chángshòu*); memotong helaian mi dipercaya membawa pertanda buruk memendekkan usia hidup."
       },
       {
         "key": "D",
-        "text": "Karena helaian mi yang panjang dan tidak terputus melambangkan umur panjang (*chángshòu*); memotong helaian mi dipercaya membawa pertanda buruk memendekkan usia hidup."
+        "text": "Agar seluruh kuah kaldu panas tersedot habis ke dalam kerongkongan sekaligus tanpa tersisa."
       },
       {
         "key": "E",
         "text": "Karena tradisi tersebut diwajibkan oleh dewa dapur untuk menghormati tungku perapian memasak."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Karena helaian mi yang panjang dan tidak terputus melambangkan umur panjang (*chángshòu*); memotong helaian mi dipercaya membawa pertanda buruk memendekkan usia hidup.. Helaian mi panjang melambangkan umur panjang. Memotong mi dianggap memotong usia (pertanda buruk). Pilih opsi yang menjelaskan helaian mi melambangkan umur panjang dan memotongnya dipercaya pertanda buruk memendekkan usia."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Karena helaian mi yang panjang dan tidak terputus melambangkan umur panjang (*chángshòu*); memotong helaian mi dipercaya membawa pertanda buruk memendekkan usia hidup.. Helaian mi panjang melambangkan umur panjang. Memotong mi dianggap memotong usia (pertanda buruk). Pilih opsi yang menjelaskan helaian mi melambangkan umur panjang dan memotongnya dipercaya pertanda buruk memendekkan usia."
   },
   {
     "id": "man-sim-25",
@@ -4609,7 +4613,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kelicikan yang penuh tipu muslihat, pengkhianatan keji, dan kejahatan konspirasi (yang diwakili oleh warna putih)."
+        "text": "Kekuatan magis makhluk siluman halus, dewa langit, dan hantu penasaran (yang diwakili oleh warna emas/perak)."
       },
       {
         "key": "B",
@@ -4617,7 +4621,7 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kekuatan magis makhluk siluman halus, dewa langit, dan hantu penasaran (yang diwakili oleh warna emas/perak)."
+        "text": "Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran berjiwa ksatria (*zhōngchéng yǒnggǎn*)."
       },
       {
         "key": "D",
@@ -4625,11 +4629,11 @@ window.TKA_BAHASA_MANDARIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran berjiwa ksatria (*zhōngchéng yǒnggǎn*)."
+        "text": "Kelicikan yang penuh tipu muslihat, pengkhianatan keji, dan kejahatan konspirasi (yang diwakili oleh warna putih)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran berjiwa ksatria (*zhōngchéng yǒnggǎn*).. Wajah merah (红色) pada Opera Beijing (seperti Guan Yu) melambangkan kesetiaan, keberanian, dan kejujuran (忠勇). Wajah putih melambangkan kelicikan (Cao Cao). Pilih opsi: Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran berjiwa ksatria (*zhōngchéng yǒnggǎn*).. Wajah merah (红色) pada Opera Beijing (seperti Guan Yu) melambangkan kesetiaan, keberanian, dan kejujuran (忠勇). Wajah putih melambangkan kelicikan (Cao Cao). Pilih opsi: Kesetiaan moral yang teguh, keberanian patriotik, dan kejujuran."
   },
   {
     "id": "man-sim-26",

@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_EKONOMI.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Ekonomi Soshum)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_EKONOMI_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_EKONOMI_QUESTIONS = [
   {
     "id": "eko-lat-e-01",
@@ -25,15 +26,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 3.500.000,- per bulan, yaitu nilai alternatif terbaik tertinggi yang dikorbankan (gaji sebagai staf administrasi)."
+        "text": "Rp 1.500.000,- per bulan, yaitu biaya eksplisit yang dikeluarkan secara langsung untuk membayar kuliah."
       },
       {
         "key": "B",
-        "text": "Rp 6.700.000,- per bulan, hasil penjumlahan seluruh alternatif gaji pekerjaan yang tidak dipilih sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Rp 3.200.000,- per bulan, yaitu alternatif pekerjaan dengan nilai nominal gaji terendah."
       },
       {
         "key": "C",
-        "text": "Rp 1.500.000,- per bulan, yaitu biaya eksplisit yang dikeluarkan secara langsung untuk membayar kuliah."
+        "text": "Rp 3.500.000,- per bulan, yaitu nilai alternatif terbaik tertinggi yang dikorbankan (gaji sebagai staf administrasi)."
       },
       {
         "key": "D",
@@ -41,11 +42,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp 3.200.000,- per bulan, yaitu alternatif pekerjaan dengan nilai nominal gaji terendah."
+        "text": "Rp 6.700.000,- per bulan, hasil penjumlahan seluruh alternatif gaji pekerjaan yang tidak dipilih."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Rp 3.500.000,- per bulan, yaitu nilai alternatif terbaik tertinggi yang dikorbankan (gaji sebagai staf administrasi).. Biaya peluang adalah nilai kesempatan terbaik yang hilang/dikorbankan karena mengambil suatu keputusan. Pilih: Rp 3.500.000,- per bulan (alternatif terbaik yang dikorbankan)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Rp 3.500.000,- per bulan, yaitu nilai alternatif terbaik tertinggi yang dikorbankan (gaji sebagai staf administrasi).. Biaya peluang adalah nilai kesempatan terbaik yang hilang/dikorbankan karena mengambil suatu keputusan. Pilih: Rp 3.500.000,- per bulan (alternatif terbaik yang dikorbankan)."
   },
   {
     "id": "eko-lat-e-02",
@@ -68,7 +69,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh produsen di pasar sepakat untuk memproduksi barang dalam jumlah kuantitas yang sama besar sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Tingkat inflasi dan nilai tukar valuta asing berada pada titik ekuilibrium nol secara permanen."
       },
       {
         "key": "B",
@@ -80,11 +81,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Permintaan konsumen bersifat inelastis sempurna sehingga kuantitas tidak terpengaruh oleh harga."
+        "text": "Seluruh produsen di pasar sepakat untuk memproduksi barang dalam jumlah kuantitas yang sama besar."
       },
       {
         "key": "E",
-        "text": "Tingkat inflasi dan nilai tukar valuta asing berada pada titik ekuilibrium nol secara permanen."
+        "text": "Permintaan konsumen bersifat inelastis sempurna sehingga kuantitas tidak terpengaruh oleh harga."
       }
     ],
     "correctKey": "B",
@@ -111,27 +112,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{PNB} = \\text{PDB} - \\text{Pajak Tidak Langsung} + \\text{Subsidi Pemerintah}$, tanpa memperhitungkan faktor warga negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "$\\text{PNB} = \\text{PDB} - \\text{Pajak Tidak Langsung} + \\text{Subsidi Pemerintah}$, tanpa memperhitungkan faktor warga negara."
       },
       {
         "key": "B",
-        "text": "$\\text{PNB} = \\text{PDB} \\times \\text{Indeks Harga Konsumen (IHK)}$, untuk mengeliminasi dampak inflasi tahunan."
-      },
-      {
-        "key": "C",
         "text": "$\\text{PNB} = \\text{PDB} + \\text{Pendapatan Neto Faktor Luar Negeri (FPNLN)}$, di mana FPNLN adalah selisih pendapatan warga negara di luar negeri dikurangi pendapatan warga negara asing di dalam negeri."
       },
       {
+        "key": "C",
+        "text": "$\\text{PNB} = \\text{PDB} \\times \\text{Indeks Harga Konsumen (IHK)}$, untuk mengeliminasi dampak inflasi tahunan."
+      },
+      {
         "key": "D",
-        "text": "$\\text{PNB} = \\text{PDB} + \\text{Penyusutan Barang Modal (Depresiasi)}$, untuk menghitung produk neto."
+        "text": "$\\text{PNB} = \\text{PDB} / \\text{Jumlah Penduduk Total}$, yang mencerminkan pendapatan per kapita riil."
       },
       {
         "key": "E",
-        "text": "$\\text{PNB} = \\text{PDB} / \\text{Jumlah Penduduk Total}$, yang mencerminkan pendapatan per kapita riil."
+        "text": "$\\text{PNB} = \\text{PDB} + \\text{Penyusutan Barang Modal (Depresiasi)}$, untuk menghitung produk neto."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\text{PNB} = \\text{PDB} + \\text{Pendapatan Neto Faktor Luar Negeri (FPNLN)}$, di mana FPNLN adalah selisih pendapatan warga negara di luar negeri dikurangi pendapatan warga negara asing di dalam negeri.. PNB = PDB + Pendapatan Neto Faktor Produksi Luar Negeri (FPNLN). Pilih: PNB = PDB + Pendapatan Neto Faktor Luar Negeri (FPNLN)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{PNB} = \\text{PDB} + \\text{Pendapatan Neto Faktor Luar Negeri (FPNLN)}$, di mana FPNLN adalah selisih pendapatan warga negara di luar negeri dikurangi pendapatan warga negara asing di dalam negeri.. PNB = PDB + Pendapatan Neto Faktor Produksi Luar Negeri (FPNLN). Pilih: PNB = PDB + Pendapatan Neto Faktor Luar Negeri (FPNLN)."
   },
   {
     "id": "eko-lat-e-04",
@@ -154,27 +155,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membeli obligasi pemerintah dari masyarakat umum secara besar-besaran untuk menyuntikkan uang tunai ke perbankan menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
-        "text": "Menurunkan suku bunga acuan BI-Rate agar perbankan lebih mudah menyalurkan kredit pinjaman konsumsi."
-      },
-      {
-        "key": "C",
         "text": "Menurunkan rasio Giro Wajib Minimum (GWM) perbankan komersial agar kapasitas cadangan dana bank meningkat."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menjual Surat Berharga Negara (SBN) atau Sertifikat Bank Indonesia (SBI) ke pasar uang perbankan untuk menyerap kelebihan likuiditas dan mengurangi jumlah uang yang beredar di masyarakat."
+      },
+      {
+        "key": "C",
+        "text": "Membeli obligasi pemerintah dari masyarakat umum secara besar-besaran untuk menyuntikkan uang tunai ke perbankan akrual."
+      },
+      {
+        "key": "D",
+        "text": "Menurunkan suku bunga acuan BI-Rate agar perbankan lebih mudah menyalurkan kredit pinjaman konsumsi."
       },
       {
         "key": "E",
         "text": "Menghapus pungutan pajak penghasilan karyawan untuk meningkatkan daya beli konsumsi rumah tangga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menjual Surat Berharga Negara (SBN) atau Sertifikat Bank Indonesia (SBI) ke pasar uang perbankan untuk menyerap kelebihan likuiditas dan mengurangi jumlah uang yang beredar di masyarakat.. Mengatasi inflasi butuh mengurangi uang beredar. BI menjual SBN/SBI agar uang ditarik dari perbankan ke Bank Indonesia. Pilih: Menjual Surat Berharga Negara (SBN) atau SBI ke pasar uang."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menjual Surat Berharga Negara (SBN) atau Sertifikat Bank Indonesia (SBI) ke pasar uang perbankan untuk menyerap kelebihan likuiditas dan mengurangi jumlah uang yang beredar di masyarakat.. Mengatasi inflasi butuh mengurangi uang beredar. BI menjual SBN/SBI agar uang ditarik dari perbankan ke Bank Indonesia. Pilih: Menjual Surat Berharga Negara (SBN) atau SBI ke pasar uang."
   },
   {
     "id": "eko-lat-e-05",
@@ -197,27 +198,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{Aset} = \\text{Ekuitas} - \\text{Liabilitas} + \\text{Beban Operasional}$, yang mengabaikan hak klaim kreditur luar diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
-      },
-      {
-        "key": "B",
         "text": "$\\text{Aset} + \\text{Liabilitas} = \\text{Ekuitas} - \\text{Prive Pemilik}$, yang membalik posisi pasiva."
       },
       {
-        "key": "C",
-        "text": "$\\text{Liabilitas} = \\text{Aset} + \\text{Ekuitas}$, yang mengasumsikan utang menampung seluruh kekayaan perusahaan."
+        "key": "B",
+        "text": "$\\text{Aset (Harta)} = \\text{Liabilitas (Utang)} + \\text{Ekuitas (Modal)}$, yang mencerminkan bahwa seluruh kekayaan perusahaan didanai oleh klaim kreditur dan hak pemilik modal."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\text{Pendapatan} = \\text{Aset} - \\text{Beban}$, yang hanya mengukur laba kotor periode berjalan."
       },
       {
+        "key": "D",
+        "text": "$\\text{Aset} = \\text{Ekuitas} - \\text{Liabilitas} + \\text{Beban Operasional}$, yang mengabaikan hak klaim kreditur luar diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+      },
+      {
         "key": "E",
-        "text": "$\\text{Aset (Harta)} = \\text{Liabilitas (Utang)} + \\text{Ekuitas (Modal)}$, yang mencerminkan bahwa seluruh kekayaan perusahaan didanai oleh klaim kreditur dan hak pemilik modal."
+        "text": "$\\text{Liabilitas} = \\text{Aset} + \\text{Ekuitas}$, yang mengasumsikan utang menampung seluruh kekayaan perusahaan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{Aset (Harta)} = \\text{Liabilitas (Utang)} + \\text{Ekuitas (Modal)}$, yang mencerminkan bahwa seluruh kekayaan perusahaan didanai oleh klaim kreditur dan hak pemilik modal.. Persamaan dasar akuntansi baku: Aset = Liabilitas + Ekuitas (Harta = Utang + Modal). Pilih: Aset = Liabilitas + Ekuitas."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{Aset (Harta)} = \\text{Liabilitas (Utang)} + \\text{Ekuitas (Modal)}$, yang mencerminkan bahwa seluruh kekayaan perusahaan didanai oleh klaim kreditur dan hak pemilik modal.. Persamaan dasar akuntansi baku: Aset = Liabilitas + Ekuitas (Harta = Utang + Modal). Pilih: Aset = Liabilitas + Ekuitas."
   },
   {
     "id": "eko-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukum Gossen I (The Law of Diminishing Marginal Utility), yang menyatakan bahwa jika konsumsi satu jenis barang dilakukan secara terus-menerus, tambahan kepuasan (Marginal Utility) yang diperoleh akan semakin menurun."
-      },
-      {
-        "key": "B",
-        "text": "Hukum Gossen II, yang mengatur pengalokasian pendapatan untuk berbagai jenis barang guna mencapai kepuasan yang sama sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
-        "text": "Hukum Penawaran Say, yang menyatakan bahwa setiap penawaran barang akan otomatis menciptakan permintaannya sendiri."
-      },
-      {
-        "key": "D",
         "text": "Hukum Hasil Lebih yang Semakin Berkurang (The Law of Diminishing Returns), yang berlaku pada fungsi produksi input produsen."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Hukum Permintaan Keynes, yang menyatakan konsumsi agregat bergantung pada pendapatan disposabel absolut."
+      },
+      {
+        "key": "C",
+        "text": "Hukum Gossen I (The Law of Diminishing Marginal Utility), yang menyatakan bahwa jika konsumsi satu jenis barang dilakukan secara terus-menerus, tambahan kepuasan (Marginal Utility) yang diperoleh akan semakin menurun."
+      },
+      {
+        "key": "D",
+        "text": "Hukum Penawaran Say, yang menyatakan bahwa setiap penawaran barang akan otomatis menciptakan permintaannya sendiri."
+      },
+      {
+        "key": "E",
+        "text": "Hukum Gossen II, yang mengatur pengalokasian pendapatan untuk berbagai jenis barang guna mencapai kepuasan yang sama."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Hukum Gossen I (The Law of Diminishing Marginal Utility), yang menyatakan bahwa jika konsumsi satu jenis barang dilakukan secara terus-menerus, tambahan kepuasan (Marginal Utility) yang diperoleh akan semakin menurun.. Konsumsi terus menerus atas 1 jenis barang menghasilkan tambahan kepuasan (MU) yang semakin berkurang adalah Hukum Gossen I. Pilih: Hukum Gossen I (The Law of Diminishing Marginal Utility)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Hukum Gossen I (The Law of Diminishing Marginal Utility), yang menyatakan bahwa jika konsumsi satu jenis barang dilakukan secara terus-menerus, tambahan kepuasan (Marginal Utility) yang diperoleh akan semakin menurun.. Konsumsi terus menerus atas 1 jenis barang menghasilkan tambahan kepuasan (MU) yang semakin berkurang adalah Hukum Gossen I. Pilih: Hukum Gossen I (The Law of Diminishing Marginal Utility)."
   },
   {
     "id": "eko-lat-e-07",
@@ -283,27 +284,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Produsen memiliki hak paten legal untuk menentukan harga jual setinggi-tingginya secara sepihak (Price Maker) sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Hanya terdapat segelintir perusahaan raksasa yang saling mengawasi reaksi penetapan harga pesaing."
       },
       {
         "key": "B",
-        "text": "Produsen bertindak sebagai penerima harga (Price Taker), di mana harga ditentukan sepenuhnya oleh mekanisme kekuatan pasar sehingga kurva permintaan yang dihadapi perusahaan berbentuk horizontal elastis sempurna ($P = AR = MR$)."
+        "text": "Produsen memiliki hak paten legal untuk menentukan harga jual setinggi-tingginya secara sepihak (Price Maker)."
       },
       {
         "key": "C",
-        "text": "Barang yang diperjualbelikan memiliki diferensiasi produk yang sangat unik dan didukung promosi iklan gencar."
-      },
-      {
-        "key": "D",
         "text": "Terdapat hambatan masuk pasar yang sangat tinggi (barrier to entry) berupa modal teknologi raksasa."
       },
       {
+        "key": "D",
+        "text": "Barang yang diperjualbelikan memiliki diferensiasi produk yang sangat unik dan didukung promosi iklan gencar."
+      },
+      {
         "key": "E",
-        "text": "Hanya terdapat segelintir perusahaan raksasa yang saling mengawasi reaksi penetapan harga pesaing."
+        "text": "Produsen bertindak sebagai penerima harga (Price Taker), di mana harga ditentukan sepenuhnya oleh mekanisme kekuatan pasar sehingga kurva permintaan yang dihadapi perusahaan berbentuk horizontal elastis sempurna ($P = AR = MR$)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Produsen bertindak sebagai penerima harga (Price Taker), di mana harga ditentukan sepenuhnya oleh mekanisme kekuatan pasar sehingga kurva permintaan yang dihadapi perusahaan berbentuk horizontal elastis sempurna ($P = AR = MR$).. Di PPS, produsen adalah price taker (penerima harga), kurva permintaan horizontal elastis sempurna P = AR = MR. Pilih: Produsen bertindak sebagai penerima harga (Price Taker) dengan kurva permintaan horizontal."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Produsen bertindak sebagai penerima harga (Price Taker), di mana harga ditentukan sepenuhnya oleh mekanisme kekuatan pasar sehingga kurva permintaan yang dihadapi perusahaan berbentuk horizontal elastis sempurna ($P = AR = MR$).. Di PPS, produsen adalah price taker (penerima harga), kurva permintaan horizontal elastis sempurna P = AR = MR. Pilih: Produsen bertindak sebagai penerima harga (Price Taker) dengan kurva permintaan horizontal."
   },
   {
     "id": "eko-lat-e-08",
@@ -326,27 +327,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Negara tersebut memiliki biaya peluang (opportunity cost) yang lebih rendah dalam memproduksi barang tersebut ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Negara tersebut menguasai seluruh hak distribusi dagang secara monopoli di pasar modal dunia."
       },
       {
         "key": "B",
-        "text": "Negara tersebut mengenakan tarif bea masuk paling tinggi untuk memblokir barang impor dari luar negeri."
+        "text": "Negara tersebut memiliki biaya peluang (opportunity cost) yang lebih rendah dalam memproduksi barang tersebut."
       },
       {
         "key": "C",
-        "text": "Negara tersebut mampu memproduksi komoditas tersebut dengan biaya absolut yang lebih rendah atau menggunakan sumber daya/tenaga kerja yang lebih sedikit per unit output dibandingkan negara mitra."
-      },
-      {
-        "key": "D",
         "text": "Negara tersebut memiliki jumlah cadangan emas batangan terbesar di brankas bank sentralnya."
       },
       {
+        "key": "D",
+        "text": "Negara tersebut mengenakan tarif bea masuk paling tinggi untuk memblokir barang impor dari luar negeri."
+      },
+      {
         "key": "E",
-        "text": "Negara tersebut menguasai seluruh hak distribusi dagang secara monopoli di pasar modal dunia."
+        "text": "Negara tersebut mampu memproduksi komoditas tersebut dengan biaya absolut yang lebih rendah atau menggunakan sumber daya/tenaga kerja yang lebih sedikit per unit output dibandingkan negara mitra."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Negara tersebut mampu memproduksi komoditas tersebut dengan biaya absolut yang lebih rendah atau menggunakan sumber daya/tenaga kerja yang lebih sedikit per unit output dibandingkan negara mitra.. Keunggulan mutlak Adam Smith berbasis keunggulan produksi langsung (biaya absolut lebih murah / output lebih banyak per unit input). Pilih: Mampu memproduksi dengan biaya absolut lebih rendah atau sumber daya lebih sedikit."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Negara tersebut mampu memproduksi komoditas tersebut dengan biaya absolut yang lebih rendah atau menggunakan sumber daya/tenaga kerja yang lebih sedikit per unit output dibandingkan negara mitra.. Keunggulan mutlak Adam Smith berbasis keunggulan produksi langsung (biaya absolut lebih murah / output lebih banyak per unit input). Pilih: Mampu memproduksi dengan biaya absolut lebih rendah atau sumber daya lebih sedikit."
   },
   {
     "id": "eko-lat-e-09",
@@ -369,15 +370,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat jabatan struktural dan lamanya masa keanggotaan pengurus di dewan pembina koperasi menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Jumlah pinjaman dana macet yang belum dilunasi oleh anggota kepada kas operasional koperasi."
       },
       {
         "key": "B",
-        "text": "Tingkat pendidikan formal tertinggi dan jumlah anggota keluarga yang tercantum di kartu keluarga."
+        "text": "Tingkat jabatan struktural dan lamanya masa keanggotaan pengurus di dewan pembina koperasi akrual."
       },
       {
         "key": "C",
-        "text": "Jumlah pinjaman dana macet yang belum dilunasi oleh anggota kepada kas operasional koperasi."
+        "text": "Dibagikan sama rata secara mutlak kepada seluruh anggota tanpa mempedulikan transaksi dan simpanan."
       },
       {
         "key": "D",
@@ -385,7 +386,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Dibagikan sama rata secara mutlak kepada seluruh anggota tanpa mempedulikan transaksi dan simpanan."
+        "text": "Tingkat pendidikan formal tertinggi dan jumlah anggota keluarga yang tercantum di kartu keluarga."
       }
     ],
     "correctKey": "D",
@@ -412,27 +413,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Modal Ahmad (Debit) Rp 170.000.000,-; Kas (Kredit) Rp 50.000.000,-; dan Kendaraan (Kredit) Rp 120.000.000,-."
-      },
-      {
-        "key": "B",
-        "text": "Kas (Debit) Rp 50.000.000,-; Pendapatan Jasa (Kredit) Rp 50.000.000,-; dan Kendaraan tidak dicatat."
-      },
-      {
-        "key": "C",
         "text": "Beban Modal (Debit) Rp 170.000.000,- dan Utang Usaha (Kredit) Rp 170.000.000,-."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Modal Ahmad (Debit) Rp 170.000.000,-; Kas (Kredit) Rp 50.000.000,-; dan Kendaraan (Kredit) Rp 120.000.000,-."
+      },
+      {
+        "key": "C",
         "text": "Prive Ahmad (Debit) Rp 170.000.000,- dan Kas (Kredit) Rp 170.000.000,-."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Kas (Debit) Rp 50.000.000,-; Kendaraan (Debit) Rp 120.000.000,-; dan Modal Ahmad (Kredit) Rp 170.000.000,-."
+      },
+      {
+        "key": "E",
+        "text": "Kas (Debit) Rp 50.000.000,-; Pendapatan Jasa (Kredit) Rp 50.000.000,-; dan Kendaraan tidak dicatat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kas (Debit) Rp 50.000.000,-; Kendaraan (Debit) Rp 120.000.000,-; dan Modal Ahmad (Kredit) Rp 170.000.000,-.. Kas dan Kendaraan adalah aset (bertambah di Debit). Modal adalah ekuitas (bertambah di Kredit). Pilih: Kas (Debit) 50 Jt, Kendaraan (Debit) 120 Jt, Modal Ahmad (Kredit) 170 Jt."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kas (Debit) Rp 50.000.000,-; Kendaraan (Debit) Rp 120.000.000,-; dan Modal Ahmad (Kredit) Rp 170.000.000,-.. Kas dan Kendaraan adalah aset (bertambah di Debit). Modal adalah ekuitas (bertambah di Kredit). Pilih: Kas (Debit) 50 Jt, Kendaraan (Debit) 120 Jt, Modal Ahmad (Kredit) 170 Jt."
   },
   {
     "id": "eko-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Barang apa yang akan diproduksi dan berapa banyak (_What_), bagaimana cara memproduksi barang tersebut (_How_), dan untuk siapa barang tersebut diproduksi (_For Whom_)."
+        "text": "Berapa jumlah pegawai yang dibutuhkan (_Labor_), bagaimana cara mendapatkan pinjaman bank (_Loan_), dan berapa lama masa sewa (_Lease_)."
       },
       {
         "key": "B",
-        "text": "Kapan barang diproduksi (_When_), di mana lokasi pabrik dibangun (_Where_), dan siapa nama pemilik perusahaan (_Who_) sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
-        "text": "Berapa harga jual barang di pasar (_How Much_), bagaimana cara mengiklankannya (_How to Sell_), dan mengapa barang dibuat (_Why_)."
-      },
-      {
-        "key": "D",
         "text": "Apakah barang harus diekspor (_Export_), berapa nilai kurs mata uang (_Exchange Rate_), dan bagaimana cara memungut pajak (_Tax_)."
       },
       {
+        "key": "C",
+        "text": "Barang apa yang akan diproduksi dan berapa banyak (_What_), bagaimana cara memproduksi barang tersebut (_How_), dan untuk siapa barang tersebut diproduksi (_For Whom_)."
+      },
+      {
+        "key": "D",
+        "text": "Kapan barang diproduksi (_When_), di mana lokasi pabrik dibangun (_Where_), dan siapa nama pemilik perusahaan (_Who_)."
+      },
+      {
         "key": "E",
-        "text": "Berapa jumlah pegawai yang dibutuhkan (_Labor_), bagaimana cara mendapatkan pinjaman bank (_Loan_), dan berapa lama masa sewa (_Lease_)."
+        "text": "Berapa harga jual barang di pasar (_How Much_), bagaimana cara mengiklankannya (_How to Sell_), dan mengapa barang dibuat (_Why_)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Barang apa yang akan diproduksi dan berapa banyak (_What_), bagaimana cara memproduksi barang tersebut (_How_), dan untuk siapa barang tersebut diproduksi (_For Whom_).. Tiga masalah pokok ekonomi modern adalah What, How, dan For Whom. Pilih: Barang apa yang diproduksi (What), bagaimana memproduksinya (How), dan untuk siapa diproduksi (For Whom)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Barang apa yang akan diproduksi dan berapa banyak (_What_), bagaimana cara memproduksi barang tersebut (_How_), dan untuk siapa barang tersebut diproduksi (_For Whom_).. Tiga masalah pokok ekonomi modern adalah What, How, dan For Whom. Pilih: Barang apa yang diproduksi (What), bagaimana memproduksinya (How), dan untuk siapa diproduksi (For Whom)."
   },
   {
     "id": "eko-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_d = 1$ (Elastis Uniter), dengan bentuk kurva berupa kurva hiperbola persegi simetris sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$E_d = 1$ (Elastis Uniter), dengan bentuk kurva berupa kurva hiperbola persegi simetris."
       },
       {
         "key": "B",
-        "text": "$E_d = 0$ (Inelastis Sempurna), dengan bentuk kurva permintaan berupa garis lurus vertikal tegak lurus terhadap sumbu horizontal kuantitas."
+        "text": "$E_d < 1$ (Inelastis), dengan kurva permintaan yang memotong sumbu vertikal pada titik harga negatif."
       },
       {
         "key": "C",
-        "text": "$E_d = \\infty$ (Elastis Sempurna), dengan bentuk kurva berupa garis horizontal mendatar sejajar sumbu kuantitas."
-      },
-      {
-        "key": "D",
         "text": "$E_d > 1$ (Elastis), dengan kurva permintaan yang berbentuk sangat landai mendekati sumbu horizontal."
       },
       {
+        "key": "D",
+        "text": "$E_d = 0$ (Inelastis Sempurna), dengan bentuk kurva permintaan berupa garis lurus vertikal tegak lurus terhadap sumbu horizontal kuantitas."
+      },
+      {
         "key": "E",
-        "text": "$E_d < 1$ (Inelastis), dengan kurva permintaan yang memotong sumbu vertikal pada titik harga negatif."
+        "text": "$E_d = \\infty$ (Elastis Sempurna), dengan bentuk kurva berupa garis horizontal mendatar sejajar sumbu kuantitas."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $E_d = 0$ (Inelastis Sempurna), dengan bentuk kurva permintaan berupa garis lurus vertikal tegak lurus terhadap sumbu horizontal kuantitas.. Kuantitas tidak berubah sama sekali terhadap perubahan harga berarti inelastis sempurna: Ed = 0, kurva vertikal tegak. Pilih: Ed = 0 (Inelastis Sempurna) dengan kurva garis vertikal."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $E_d = 0$ (Inelastis Sempurna), dengan bentuk kurva permintaan berupa garis lurus vertikal tegak lurus terhadap sumbu horizontal kuantitas.. Kuantitas tidak berubah sama sekali terhadap perubahan harga berarti inelastis sempurna: Ed = 0, kurva vertikal tegak. Pilih: Ed = 0 (Inelastis Sempurna) dengan kurva garis vertikal."
   },
   {
     "id": "eko-lat-e-13",
@@ -541,27 +542,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{DI} = \\text{Personal Income} + \\text{Pajak Pertambahan Nilai (PPN)} - \\text{Subsidi}$ ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
         "text": "$\\text{DI} = \\text{Net National Income (NNI)} - \\text{Penyusutan Barang Modal}$."
       },
       {
-        "key": "C",
-        "text": "$\\text{DI} = \\text{Personal Income (PI)} - \\text{Pajak Langsung (Direct Tax)}$, di mana pajak langsung contohnya adalah Pajak Penghasilan (PPh)."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$\\text{DI} = \\text{Gross National Product} - \\text{Iuran Jaminan Sosial} - \\text{Laba Ditahan}$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\text{DI} = \\text{Personal Income} \\times \\text{Tingkat Bunga Tabungan Bank}$."
+      },
+      {
+        "key": "D",
+        "text": "$\\text{DI} = \\text{Personal Income} + \\text{Pajak Pertambahan Nilai (PPN)} - \\text{Subsidi}$."
+      },
+      {
+        "key": "E",
+        "text": "$\\text{DI} = \\text{Personal Income (PI)} - \\text{Pajak Langsung (Direct Tax)}$, di mana pajak langsung contohnya adalah Pajak Penghasilan (PPh)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\text{DI} = \\text{Personal Income (PI)} - \\text{Pajak Langsung (Direct Tax)}$, di mana pajak langsung contohnya adalah Pajak Penghasilan (PPh).. Disposable Income (DI) = Personal Income (PI) - Pajak Langsung (PPh). Pilih: DI = Personal Income (PI) - Pajak Langsung (Direct Tax)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\text{DI} = \\text{Personal Income (PI)} - \\text{Pajak Langsung (Direct Tax)}$, di mana pajak langsung contohnya adalah Pajak Penghasilan (PPh).. Disposable Income (DI) = Personal Income (PI) - Pajak Langsung (PPh). Pilih: DI = Personal Income (PI) - Pajak Langsung (Direct Tax)."
   },
   {
     "id": "eko-lat-e-14",
@@ -584,27 +585,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kebijakan Fiskal Ekspansif, yaitu menurunkan tarif pajak dan melipatgandakan anggaran belanja proyek infrastruktur publik menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
         "text": "Kebijakan Moneter Diskonto, yaitu menurunkan tingkat suku bunga pinjaman bank sentral kepada bank komersial."
       },
       {
-        "key": "C",
-        "text": "Mencetak uang kertas baru dalam jumlah masif untuk membagikan bantuan langsung tunai kepada seluruh warga."
+        "key": "B",
+        "text": "Menghapus seluruh bea ekspor komoditas mentah ke luar negeri tanpa memungut pajak pertambahan nilai."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kebijakan Fiskal Kontraktif, yaitu menaikkan tarif pajak dan memangkas pengeluaran/belanja negara untuk menyerap kelebihan daya beli masyarakat."
       },
       {
+        "key": "D",
+        "text": "Kebijakan Fiskal Ekspansif, yaitu menurunkan tarif pajak dan melipatgandakan anggaran belanja proyek infrastruktur publik akrual."
+      },
+      {
         "key": "E",
-        "text": "Menghapus seluruh bea ekspor komoditas mentah ke luar negeri tanpa memungut pajak pertambahan nilai."
+        "text": "Mencetak uang kertas baru dalam jumlah masif untuk membagikan bantuan langsung tunai kepada seluruh warga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kebijakan Fiskal Kontraktif, yaitu menaikkan tarif pajak dan memangkas pengeluaran/belanja negara untuk menyerap kelebihan daya beli masyarakat.. Meredam inflasi via fiskal: kurangi pengeluaran belanja pemerintah (G turun) dan naikkan tarif pajak (T naik). Pilih: Kebijakan Fiskal Kontraktif, menaikkan tarif pajak dan memangkas pengeluaran negara."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kebijakan Fiskal Kontraktif, yaitu menaikkan tarif pajak dan memangkas pengeluaran/belanja negara untuk menyerap kelebihan daya beli masyarakat.. Meredam inflasi via fiskal: kurangi pengeluaran belanja pemerintah (G turun) dan naikkan tarif pajak (T naik). Pilih: Kebijakan Fiskal Kontraktif, menaikkan tarif pajak dan memangkas pengeluaran negara."
   },
   {
     "id": "eko-lat-e-15",
@@ -627,27 +628,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Khusus mencetak dan mengedarkan uang rupiah fisik serta mengatur kebijakan nilai tukar valuta asing secara eksklusif diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Sektor Perbankan, Pasar Modal, serta Perasuransian, Dana Pensiun, Lembaga Pembiayaan, dan Lembaga Jasa Keuangan Lainnya (IKNB)."
       },
       {
         "key": "B",
-        "text": "Mengelola penerimaan perpajakan negara dan menyusun Anggaran Pendapatan dan Belanja Negara (APBN)."
-      },
-      {
-        "key": "C",
         "text": "Mengawasi persaingan usaha tidak sehat antar perusahaan ritel di bawah komisi anti-monopoli."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Mengadili sengketa tindak pidana korupsi pejabat negara di lembaga peradilan tindak pidana khusus."
       },
       {
+        "key": "D",
+        "text": "Khusus mencetak dan mengedarkan uang rupiah fisik serta mengatur kebijakan nilai tukar valuta asing secara eksklusif diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+      },
+      {
         "key": "E",
-        "text": "Sektor Perbankan, Pasar Modal, serta Perasuransian, Dana Pensiun, Lembaga Pembiayaan, dan Lembaga Jasa Keuangan Lainnya (IKNB)."
+        "text": "Mengelola penerimaan perpajakan negara dan menyusun Anggaran Pendapatan dan Belanja Negara (APBN)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sektor Perbankan, Pasar Modal, serta Perasuransian, Dana Pensiun, Lembaga Pembiayaan, dan Lembaga Jasa Keuangan Lainnya (IKNB).. OJK mengatur dan mengawasi mikroprudensial: perbankan, pasar modal, dan industri keuangan non-bank (IKNB). Pilih: Sektor Perbankan, Pasar Modal, Perasuransian, Dana Pensiun, dan Lembaga Pembiayaan (IKNB)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sektor Perbankan, Pasar Modal, serta Perasuransian, Dana Pensiun, Lembaga Pembiayaan, dan Lembaga Jasa Keuangan Lainnya (IKNB).. OJK mengatur dan mengawasi mikroprudensial: perbankan, pasar modal, dan industri keuangan non-bank (IKNB). Pilih: Sektor Perbankan, Pasar Modal, Perasuransian, Dana Pensiun, dan Lembaga Pembiayaan (IKNB)."
   },
   {
     "id": "eko-lat-e-16",
@@ -670,27 +671,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi kelebihan permintaan (Shortage / Excess Demand), karena pada harga murah jumlah barang yang diminta konsumen meningkat drastis sementara produsen enggan menambah jumlah penawaran barang."
-      },
-      {
-        "key": "B",
-        "text": "Terjadi kelebihan penawaran (Surplus / Excess Supply), sehingga barang menumpuk tak terjual di gudang pedagang sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "Produsen memperoleh laba super-normal yang luar biasa besar karena volume penjualan meningkat tak terbatas."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Harga pasar seketika melonjak menjadi dua kali lipat dari harga keseimbangan awal tanpa ada intervensi."
+      },
+      {
+        "key": "C",
         "text": "Kurva permintaan bergeser ke kiri bawah secara permanen dan kurva penawaran menjadi vertikal tegak."
       },
       {
+        "key": "D",
+        "text": "Terjadi kelebihan permintaan (Shortage / Excess Demand), karena pada harga murah jumlah barang yang diminta konsumen meningkat drastis sementara produsen enggan menambah jumlah penawaran barang."
+      },
+      {
         "key": "E",
-        "text": "Harga pasar seketika melonjak menjadi dua kali lipat dari harga keseimbangan awal tanpa ada intervensi."
+        "text": "Terjadi kelebihan penawaran (Surplus / Excess Supply), sehingga barang menumpuk tak terjual di gudang pedagang."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Terjadi kelebihan permintaan (Shortage / Excess Demand), karena pada harga murah jumlah barang yang diminta konsumen meningkat drastis sementara produsen enggan menambah jumlah penawaran barang.. Harga maksimum di bawah ekuilibrium membuat harga murah: konsumen minta banyak (Qd naik), penjual tawarkan sedikit (Qs turun) -> Terjadi Shortage (Kelebihan Permintaan). Pilih: Terjadi kelebihan permintaan (Shortage / Excess Demand)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Terjadi kelebihan permintaan (Shortage / Excess Demand), karena pada harga murah jumlah barang yang diminta konsumen meningkat drastis sementara produsen enggan menambah jumlah penawaran barang.. Harga maksimum di bawah ekuilibrium membuat harga murah: konsumen minta banyak (Qd naik), penjual tawarkan sedikit (Qs turun) -> Terjadi Shortage (Kelebihan Permintaan). Pilih: Terjadi kelebihan permintaan (Shortage / Excess Demand)."
   },
   {
     "id": "eko-lat-e-17",
@@ -713,15 +714,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sewa tanah (Rent) dan Upah tenaga kerja (Wage) sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Sewa tanah (Rent) dan Subsidi pemerintah (Subsidy)."
       },
       {
         "key": "B",
-        "text": "Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit)."
+        "text": "Sewa tanah (Rent) dan Upah tenaga kerja (Wage)."
       },
       {
         "key": "C",
-        "text": "Upah tenaga kerja (Wage) dan Bunga modal (Interest)."
+        "text": "Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit)."
       },
       {
         "key": "D",
@@ -729,11 +730,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sewa tanah (Rent) dan Subsidi pemerintah (Subsidy)."
+        "text": "Upah tenaga kerja (Wage) dan Bunga modal (Interest)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit).. Modal mendapat bunga (interest), kewirausahaan/keahlian mendapat laba (profit). Pilih: Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit).. Modal mendapat bunga (interest), kewirausahaan/keahlian mendapat laba (profit). Pilih: Bunga modal (Interest) dan Laba/Keuntungan usaha (Profit)."
   },
   {
     "id": "eko-lat-e-18",
@@ -756,15 +757,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Investasi langsung asing (FDI), investasi portofolio saham/obligasi, dan pinjaman utang luar negeri ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
         "text": "Perubahan cadangan devisa emas bank sentral dan transaksi derivatif keuangan berjangka."
       },
       {
+        "key": "B",
+        "text": "Investasi langsung asing (FDI), investasi portofolio saham/obligasi, dan pinjaman utang luar negeri."
+      },
+      {
         "key": "C",
-        "text": "Neraca perdagangan barang (ekspor dan impor barang), neraca jasa (transportasi dan pariwisata), pendapatan primer (gaji TKI dan dividen investasi), serta pendapatan sekunder (hibah dan kiriman uang remitansi)."
+        "text": "Pembelian surat utang negara oleh investor domestik pada pasar modal lokal."
       },
       {
         "key": "D",
@@ -772,11 +773,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pembelian surat utang negara oleh investor domestik pada pasar modal lokal."
+        "text": "Neraca perdagangan barang (ekspor dan impor barang), neraca jasa (transportasi dan pariwisata), pendapatan primer (gaji TKI dan dividen investasi), serta pendapatan sekunder (hibah dan kiriman uang remitansi)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Neraca perdagangan barang (ekspor dan impor barang), neraca jasa (transportasi dan pariwisata), pendapatan primer (gaji TKI dan dividen investasi), serta pendapatan sekunder (hibah dan kiriman uang remitansi).. Neraca Berjalan mencakup: perdagangan barang (ekspor/impor), jasa, pendapatan primer, dan transfer pendapatan sekunder. Pilih: Neraca perdagangan barang, neraca jasa, pendapatan primer, dan pendapatan sekunder."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Neraca perdagangan barang (ekspor dan impor barang), neraca jasa (transportasi dan pariwisata), pendapatan primer (gaji TKI dan dividen investasi), serta pendapatan sekunder (hibah dan kiriman uang remitansi).. Neraca Berjalan mencakup: perdagangan barang (ekspor/impor), jasa, pendapatan primer, dan transfer pendapatan sekunder. Pilih: Neraca perdagangan barang, neraca jasa, pendapatan primer, dan pendapatan sekunder."
   },
   {
     "id": "eko-lat-e-19",
@@ -799,27 +800,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh utang perusahaan wajib dilunasi menggunakan rumah dan tabungan pribadi para pemegang saham tanpa batas menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
         "text": "Perusahaan tidak diwajibkan membayar pajak badan usaha kepada pemerintah pusat sama sekali."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Masa operasional perusahaan otomatis berakhir dan dibubarkan apabila salah satu pemegang saham meninggal dunia."
       },
       {
+        "key": "C",
+        "text": "Setiap pemegang saham memiliki hak mutlak untuk memimpin operasional harian perusahaan tanpa persetujuan direksi."
+      },
+      {
         "key": "D",
-        "text": "Tanggung jawab pemilik modal bersifat terbatas (Limited Liability), di mana risiko kerugian yang ditanggung pemegang saham hanya sebesar nilai nominal saham yang disetorkan dan tidak melibatkan harta kekayaan pribadi."
+        "text": "Seluruh utang perusahaan wajib dilunasi menggunakan rumah dan tabungan pribadi para pemegang saham tanpa batas akrual."
       },
       {
         "key": "E",
-        "text": "Setiap pemegang saham memiliki hak mutlak untuk memimpin operasional harian perusahaan tanpa persetujuan direksi."
+        "text": "Tanggung jawab pemilik modal bersifat terbatas (Limited Liability), di mana risiko kerugian yang ditanggung pemegang saham hanya sebesar nilai nominal saham yang disetorkan dan tidak melibatkan harta kekayaan pribadi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Tanggung jawab pemilik modal bersifat terbatas (Limited Liability), di mana risiko kerugian yang ditanggung pemegang saham hanya sebesar nilai nominal saham yang disetorkan dan tidak melibatkan harta kekayaan pribadi.. Ciri khas PT: Tanggung jawab pemegang saham terbatas (limited liability) sebatas modal saham yang disetor. Pilih: Tanggung jawab pemilik modal bersifat terbatas sebatas modal yang disetorkan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Tanggung jawab pemilik modal bersifat terbatas (Limited Liability), di mana risiko kerugian yang ditanggung pemegang saham hanya sebesar nilai nominal saham yang disetorkan dan tidak melibatkan harta kekayaan pribadi.. Ciri khas PT: Tanggung jawab pemegang saham terbatas (limited liability) sebatas modal saham yang disetor. Pilih: Tanggung jawab pemilik modal bersifat terbatas sebatas modal yang disetorkan."
   },
   {
     "id": "eko-lat-e-20",
@@ -842,15 +843,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Beban Operasional Penjualan, karena uang tunai sudah keluar dari rekening bank perusahaan diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Aset Lancar (Current Assets), karena perusahaan memiliki hak ekonomis atas manfaat ruangan kantor di masa depan yang akan habis digunakan dalam periode kurang dari satu tahun."
       },
       {
         "key": "B",
-        "text": "Liabilitas Jangka Pendek (Utang Lancar), karena perusahaan berutang ruangan kepada pemilik gedung."
+        "text": "Beban Operasional Penjualan, karena uang tunai sudah keluar dari rekening bank perusahaan diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "C",
-        "text": "Ekuitas Modal Pemilik, karena sewa kantor menambah nilai investasi jangka panjang perusahaan."
+        "text": "Liabilitas Jangka Pendek (Utang Lancar), karena perusahaan berutang ruangan kepada pemilik gedung."
       },
       {
         "key": "D",
@@ -858,11 +859,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Aset Lancar (Current Assets), karena perusahaan memiliki hak ekonomis atas manfaat ruangan kantor di masa depan yang akan habis digunakan dalam periode kurang dari satu tahun."
+        "text": "Ekuitas Modal Pemilik, karena sewa kantor menambah nilai investasi jangka panjang perusahaan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Aset Lancar (Current Assets), karena perusahaan memiliki hak ekonomis atas manfaat ruangan kantor di masa depan yang akan habis digunakan dalam periode kurang dari satu tahun.. Sewa dibayar di muka adalah hak ekonomis yang dinikmati di masa depan, diklasifikasikan sebagai Aset Lancar (Current Assets). Pilih: Aset Lancar (Current Assets)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Aset Lancar (Current Assets), karena perusahaan memiliki hak ekonomis atas manfaat ruangan kantor di masa depan yang akan habis digunakan dalam periode kurang dari satu tahun.. Sewa dibayar di muka adalah hak ekonomis yang dinikmati di masa depan, diklasifikasikan sebagai Aset Lancar (Current Assets). Pilih: Aset Lancar (Current Assets)."
   },
   {
     "id": "eko-lat-e-21",
@@ -889,19 +890,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Motif Menabung, Motif Konsumsi, dan Motif Menghindari Pajak sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Motif Menabung, Motif Konsumsi, dan Motif Menghindari Pajak."
       },
       {
         "key": "C",
-        "text": "Motif Investasi Fisik, Motif Perdagangan Saham, dan Motif Pembayaran Dividen."
+        "text": "Motif Ekspor Barang, Motif Impor Bahan Baku, dan Motif Arbitrase Valuta."
       },
       {
         "key": "D",
-        "text": "Motif Kedermawanan Sosial, Motif Pinjaman Bank, dan Motif Belanja Hiburan."
+        "text": "Motif Investasi Fisik, Motif Perdagangan Saham, dan Motif Pembayaran Dividen."
       },
       {
         "key": "E",
-        "text": "Motif Ekspor Barang, Motif Impor Bahan Baku, dan Motif Arbitrase Valuta."
+        "text": "Motif Kedermawanan Sosial, Motif Pinjaman Bank, dan Motif Belanja Hiburan."
       }
     ],
     "correctKey": "A",
@@ -928,11 +929,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Barang Komplementer (Saling Melengkapi), artinya kenaikan harga kopi akan menyebabkan permintaan terhadap teh menurun drastis sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Barang Substitusi (Saling Menggantikan), artinya jika harga kopi mengalami kenaikan, permintaan terhadap teh akan meningkat karena konsumen beralih mengonsumsi teh."
       },
       {
         "key": "B",
-        "text": "Barang Substitusi (Saling Menggantikan), artinya jika harga kopi mengalami kenaikan, permintaan terhadap teh akan meningkat karena konsumen beralih mengonsumsi teh."
+        "text": "Barang Inferior, artinya konsumsi teh akan ditinggalkan ketika pendapatan konsumen mengalami peningkatan."
       },
       {
         "key": "C",
@@ -940,15 +941,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Barang Inferior, artinya konsumsi teh akan ditinggalkan ketika pendapatan konsumen mengalami peningkatan."
+        "text": "Barang Giffen, artinya kenaikan harga teh akan menyebabkan masyarakat miskin membeli teh lebih banyak."
       },
       {
         "key": "E",
-        "text": "Barang Giffen, artinya kenaikan harga teh akan menyebabkan masyarakat miskin membeli teh lebih banyak."
+        "text": "Barang Komplementer (Saling Melengkapi), artinya kenaikan harga kopi akan menyebabkan permintaan terhadap teh menurun drastis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Barang Substitusi (Saling Menggantikan), artinya jika harga kopi mengalami kenaikan, permintaan terhadap teh akan meningkat karena konsumen beralih mengonsumsi teh.. Elastisitas silang positif (Exy > 0) menandakan kedua barang bersifat substitusi (saling menggantikan). Pilih: Barang Substitusi (Saling Menggantikan)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Barang Substitusi (Saling Menggantikan), artinya jika harga kopi mengalami kenaikan, permintaan terhadap teh akan meningkat karena konsumen beralih mengonsumsi teh.. Elastisitas silang positif (Exy > 0) menandakan kedua barang bersifat substitusi (saling menggantikan). Pilih: Barang Substitusi (Saling Menggantikan)."
   },
   {
     "id": "eko-lat-e-23",
@@ -971,27 +972,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nilai Koefisien Gini mendekati angka 1 (satu), di mana seluruh pendapatan nasional dinikmati hanya oleh satu orang terkaya ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Nilai Koefisien Gini berada di atas angka 2,5 sesuai standar toleransi inflasi Bank Dunia."
       },
       {
         "key": "B",
-        "text": "Nilai Koefisien Gini bernilai negatif minus satu ($-1$), yang mencerminkan deflasi ekonomi berkepanjangan."
-      },
-      {
-        "key": "C",
-        "text": "Nilai Koefisien Gini mendekati angka 0 (nol), di mana Kurva Lorenz berimpit sempurna dengan garis diagonal pemerataan sempurna."
-      },
-      {
-        "key": "D",
         "text": "Nilai Koefisien Gini bernilai sama dengan 100, yang menandakan pertumbuhan ekonomi tercepat di dunia."
       },
       {
+        "key": "C",
+        "text": "Nilai Koefisien Gini mendekati angka 1 (satu), di mana seluruh pendapatan nasional dinikmati hanya oleh satu orang terkaya."
+      },
+      {
+        "key": "D",
+        "text": "Nilai Koefisien Gini mendekati angka 0 (nol), di mana Kurva Lorenz berimpit sempurna dengan garis diagonal pemerataan sempurna."
+      },
+      {
         "key": "E",
-        "text": "Nilai Koefisien Gini berada di atas angka 2,5 sesuai standar toleransi inflasi Bank Dunia."
+        "text": "Nilai Koefisien Gini bernilai negatif minus satu ($-1$), yang mencerminkan deflasi ekonomi berkepanjangan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Nilai Koefisien Gini mendekati angka 0 (nol), di mana Kurva Lorenz berimpit sempurna dengan garis diagonal pemerataan sempurna.. Koefisien Gini berkisar 0 sampai 1. Mendekati 0 berarti semakin merata sempurna. Mendekati 1 berarti semakin timpang. Pilih: Nilai Koefisien Gini mendekati 0 (nol), kurva berimpit dengan garis diagonal pemerataan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Nilai Koefisien Gini mendekati angka 0 (nol), di mana Kurva Lorenz berimpit sempurna dengan garis diagonal pemerataan sempurna.. Koefisien Gini berkisar 0 sampai 1. Mendekati 0 berarti semakin merata sempurna. Mendekati 1 berarti semakin timpang. Pilih: Nilai Koefisien Gini mendekati 0 (nol), kurva berimpit dengan garis diagonal pemerataan."
   },
   {
     "id": "eko-lat-e-24",
@@ -1014,27 +1015,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengenakan tarif pajak persentase ad-valorem sebesar-besarnya untuk menambah penerimaan kas kasir bea cukai menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Membatasi jumlah fisik maksimum barang impor yang boleh masuk ke dalam negeri selama periode tertentu untuk melindungi produsen domestik dari serbuan produk luar negeri."
       },
       {
         "key": "B",
-        "text": "Menjual barang ke pasar luar negeri dengan harga yang jauh lebih murah daripada harga jual di pasar domestik."
+        "text": "Mengenakan tarif pajak persentase ad-valorem sebesar-besarnya untuk menambah penerimaan kas kasir bea cukai akrual."
       },
       {
         "key": "C",
-        "text": "Menghapus seluruh perizinan impor agar harga barang di pasar dalam negeri turun hingga titik terendah."
+        "text": "Menjual barang ke pasar luar negeri dengan harga yang jauh lebih murah daripada harga jual di pasar domestik."
       },
       {
         "key": "D",
-        "text": "Membatasi jumlah fisik maksimum barang impor yang boleh masuk ke dalam negeri selama periode tertentu untuk melindungi produsen domestik dari serbuan produk luar negeri."
+        "text": "Menghapus seluruh perizinan impor agar harga barang di pasar dalam negeri turun hingga titik terendah."
       },
       {
         "key": "E",
         "text": "Memaksa negara mitra dagang untuk menukarkan seluruh mata uang asingnya menjadi surat utang negara."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Membatasi jumlah fisik maksimum barang impor yang boleh masuk ke dalam negeri selama periode tertentu untuk melindungi produsen domestik dari serbuan produk luar negeri.. Kuota impor adalah pembatasan kuantitas fisik maksimum barang yang boleh diimpor untuk melindungi industri dalam negeri. Pilih: Membatasi jumlah fisik maksimum barang impor yang boleh masuk selama periode tertentu."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Membatasi jumlah fisik maksimum barang impor yang boleh masuk ke dalam negeri selama periode tertentu untuk melindungi produsen domestik dari serbuan produk luar negeri.. Kuota impor adalah pembatasan kuantitas fisik maksimum barang yang boleh diimpor untuk melindungi industri dalam negeri. Pilih: Membatasi jumlah fisik maksimum barang impor yang boleh masuk selama periode tertentu."
   },
   {
     "id": "eko-lat-e-25",
@@ -1057,27 +1058,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah sama sekali tidak ikut campur dalam perekonomian dan menyerahkan seluruhnya pada mekanisme pasar bebas diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
-      },
-      {
-        "key": "B",
-        "text": "Harga komoditas terbentuk murni berdasarkan interaksi hukum permintaan dan penawaran di bursa efek."
-      },
-      {
-        "key": "C",
-        "text": "Masyarakat bebas memiliki modal produksi tanpa batas dan persaingan antar pengusaha berlangsung sangat ketat."
-      },
-      {
-        "key": "D",
         "text": "Teknologi yang digunakan bersifat sangat sederhana dan sistem barter barang menjadi alat tukar utama masyarakat."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Seluruh sumber daya dan faktor produksi strategis dikuasai sepenuhnya oleh negara/pemerintah pusat, sehingga hak milik individu tidak diakui dan kebebasan berusaha sangat dibatasi."
+      },
+      {
+        "key": "C",
+        "text": "Pemerintah sama sekali tidak ikut campur dalam perekonomian dan menyerahkan seluruhnya pada mekanisme pasar bebas diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+      },
+      {
+        "key": "D",
+        "text": "Masyarakat bebas memiliki modal produksi tanpa batas dan persaingan antar pengusaha berlangsung sangat ketat."
+      },
+      {
+        "key": "E",
+        "text": "Harga komoditas terbentuk murni berdasarkan interaksi hukum permintaan dan penawaran di bursa efek."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Seluruh sumber daya dan faktor produksi strategis dikuasai sepenuhnya oleh negara/pemerintah pusat, sehingga hak milik individu tidak diakui dan kebebasan berusaha sangat dibatasi.. Sistem ekonomi komando: peran pemerintah dominan dan menguasai seluruh faktor produksi, hak milik swasta dibatasi. Pilih: Seluruh sumber daya dan faktor produksi dikuasai penuh oleh negara, hak milik individu tidak diakui."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Seluruh sumber daya dan faktor produksi strategis dikuasai sepenuhnya oleh negara/pemerintah pusat, sehingga hak milik individu tidak diakui dan kebebasan berusaha sangat dibatasi.. Sistem ekonomi komando: peran pemerintah dominan dan menguasai seluruh faktor produksi, hak milik swasta dibatasi. Pilih: Seluruh sumber daya dan faktor produksi dikuasai penuh oleh negara, hak milik individu tidak diakui."
   },
   {
     "id": "eko-lat-m-01",
@@ -1100,15 +1101,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_e' = 33$ dan $Q_e' = 34$, di mana harga naik dari $P_e = 30$ dan kuantitas turun dari $Q_e = 40$."
+        "text": "$P_e' = 27$ dan $Q_e' = 46$, karena produsen menanggung subsidi harga di pasar persaingan."
       },
       {
         "key": "B",
-        "text": "$P_e' = 36$ dan $Q_e' = 28$, akibat pembebanan seluruh pajak langsung ke konsumen tanpa pergeseran sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$P_e' = 33$ dan $Q_e' = 34$, di mana harga naik dari $P_e = 30$ dan kuantitas turun dari $Q_e = 40$."
       },
       {
         "key": "C",
-        "text": "$P_e' = 27$ dan $Q_e' = 46$, karena produsen menanggung subsidi harga di pasar persaingan."
+        "text": "$P_e' = 35$ dan $Q_e' = 30$, hasil perhitungan kesalahan inversi gradien fungsi penawaran."
       },
       {
         "key": "D",
@@ -1116,11 +1117,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$P_e' = 35$ dan $Q_e' = 30$, hasil perhitungan kesalahan inversi gradien fungsi penawaran."
+        "text": "$P_e' = 36$ dan $Q_e' = 28$, akibat pembebanan seluruh pajak langsung ke konsumen tanpa pergeseran."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $P_e' = 33$ dan $Q_e' = 34$, di mana harga naik dari $P_e = 30$ dan kuantitas turun dari $Q_e = 40$.. Pajak spesifik t menggeser kurva penawaran: ganti P dengan (P - t) pada fungsi Qs. Samakan Qd = Qs'. Qs' = -20 + 2(P - 6) = -32 + 2P. 100 - 2P = -32 + 2P -> 4P = 132 -> P = 33, Q = 100 - 2(33) = 34."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $P_e' = 33$ dan $Q_e' = 34$, di mana harga naik dari $P_e = 30$ dan kuantitas turun dari $Q_e = 40$.. Pajak spesifik t menggeser kurva penawaran: ganti P dengan (P - t) pada fungsi Qs. Samakan Qd = Qs'. Qs' = -20 + 2(P - 6) = -32 + 2P. 100 - 2P = -32 + 2P -> 4P = 132 -> P = 33, Q = 100 - 2(33) = 34."
   },
   {
     "id": "eko-lat-m-02",
@@ -1143,7 +1144,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 1.195 Triliun, hasil penjumlahan seluruh variabel data secara membabi buta termasuk sewa dan upah sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Rp 850 Triliun, hasil perhitungan tanpa memperhitungkan neraca perdagangan ekspor neto."
       },
       {
         "key": "B",
@@ -1151,15 +1152,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rp 850 Triliun, hasil perhitungan tanpa memperhitungkan neraca perdagangan ekspor neto."
-      },
-      {
-        "key": "D",
         "text": "Rp 890 Triliun, hasil kesalahan menambahkan nilai impor dan mengurangkan nilai ekspor."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Rp 630 Triliun, hasil penjumlahan sewa tanah dan upah gaji pada pendekatan pendapatan."
+      },
+      {
+        "key": "E",
+        "text": "Rp 1.195 Triliun, hasil penjumlahan seluruh variabel data secara membabi buta termasuk sewa dan upah."
       }
     ],
     "correctKey": "B",
@@ -1186,27 +1187,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva Indiferen memotong tegak lurus Garis Anggaran pada titik batas sumbu horizontal barang X ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
-        "text": "Total Utility dari barang X sama persis dengan Total Utility dari barang Y tanpa mempedulikan harga pasar."
-      },
-      {
-        "key": "C",
         "text": "Kurva Indiferen (Indifference Curve) bersinggungan tepat dengan Garis Anggaran (Budget Line), di mana Tingkat Substitusi Marjinal sama dengan rasio harga kedua barang ($MRS_{xy} = \\frac{P_x}{P_y}$)."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Kurva Indiferen memotong tegak lurus Garis Anggaran pada titik batas sumbu horizontal barang X."
+      },
+      {
+        "key": "C",
         "text": "Seluruh pendapatan konsumen dihabiskan hanya untuk membeli satu jenis barang yang memiliki harga termurah."
+      },
+      {
+        "key": "D",
+        "text": "Total Utility dari barang X sama persis dengan Total Utility dari barang Y tanpa mempedulikan harga pasar."
       },
       {
         "key": "E",
         "text": "Kurva Indiferen berada di posisi paling bawah mendekati titik origin nol sumbu koordinat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Kurva Indiferen (Indifference Curve) bersinggungan tepat dengan Garis Anggaran (Budget Line), di mana Tingkat Substitusi Marjinal sama dengan rasio harga kedua barang ($MRS_{xy} = \\frac{P_x}{P_y}$).. Keseimbangan konsumen ordinal tercapai saat Indifference Curve bersinggungan dengan Budget Line: MRSxy = Px / Py. Pilih: Kurva Indiferen bersinggungan dengan Garis Anggaran di mana MRSxy = Px / Py."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kurva Indiferen (Indifference Curve) bersinggungan tepat dengan Garis Anggaran (Budget Line), di mana Tingkat Substitusi Marjinal sama dengan rasio harga kedua barang ($MRS_{xy} = \\frac{P_x}{P_y}$).. Keseimbangan konsumen ordinal tercapai saat Indifference Curve bersinggungan dengan Budget Line: MRSxy = Px / Py. Pilih: Kurva Indiferen bersinggungan dengan Garis Anggaran di mana MRSxy = Px / Py."
   },
   {
     "id": "eko-lat-m-04",
@@ -1229,15 +1230,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva $MC$ selalu berada di atas kurva $AC$ di seluruh rentang jumlah output produksi barang menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Kurva $MC$ berbentuk garis lurus horizontal sedangkan kurva $AC$ berbentuk garis lurus vertikal."
       },
       {
         "key": "B",
-        "text": "Kurva $MC$ memotong kurva $AC$ tepat pada titik maksimum kurva $AC$ saat terjadi kelebihan kapasitas."
+        "text": "Kurva $MC$ selalu berada di atas kurva $AC$ di seluruh rentang jumlah output produksi barang akrual."
       },
       {
         "key": "C",
-        "text": "Kurva $MC$ berbentuk garis lurus horizontal sedangkan kurva $AC$ berbentuk garis lurus vertikal."
+        "text": "Kurva $MC$ memotong kurva $AC$ tepat pada titik potong sumbu vertikal biaya awal nol."
       },
       {
         "key": "D",
@@ -1245,7 +1246,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kurva $MC$ memotong kurva $AC$ tepat pada titik potong sumbu vertikal biaya awal nol."
+        "text": "Kurva $MC$ memotong kurva $AC$ tepat pada titik maksimum kurva $AC$ saat terjadi kelebihan kapasitas."
       }
     ],
     "correctKey": "D",
@@ -1272,11 +1273,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat harga ($P$) tetap stabil tidak berubah karena transaksi riil mengimbangi peredaran uang diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Volume transaksi barang ($T$) otomatis berlipat ganda menjadi 800 juta unit tanpa kenaikan harga."
       },
       {
         "key": "B",
-        "text": "Tingkat harga ($P$) turun menjadi setengahnya karena daya beli uang mengalami apresiasi nilai."
+        "text": "Tingkat harga ($P$) tetap stabil tidak berubah karena transaksi riil mengimbangi peredaran uang diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "C",
@@ -1284,7 +1285,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Volume transaksi barang ($T$) otomatis berlipat ganda menjadi 800 juta unit tanpa kenaikan harga."
+        "text": "Tingkat harga ($P$) turun menjadi setengahnya karena daya beli uang mengalami apresiasi nilai."
       },
       {
         "key": "E",
@@ -1315,27 +1316,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 625.000.000,-, dihitung dari formula angka pengganda uang $M = \\frac{1}{\\text{GWM}} \\times \\text{Setoran Awal} = \\frac{1}{0,08} \\times 50.000.000 = 12,5 \\times 50.000.000$."
+        "text": "Rp 400.000.000,-, hasil perkalian setoran awal dengan suku bunga acuan moneter nasional."
       },
       {
         "key": "B",
-        "text": "Rp 400.000.000,-, hasil perkalian setoran awal dengan suku bunga acuan moneter nasional sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "Rp 54.000.000,-, hasil penambahan setoran awal dengan margin bunga sebesar delapan persen."
       },
       {
+        "key": "C",
+        "text": "Rp 50.000.000,-, karena bank komersial dilarang meminjamkan dana simpanan kepada nasabah lain."
+      },
+      {
         "key": "D",
-        "text": "Rp 500.000.000,-, hasil perhitungan angka pengganda dengan pembulatan rasio sepuluh persen."
+        "text": "Rp 625.000.000,-, dihitung dari formula angka pengganda uang $M = \\frac{1}{\\text{GWM}} \\times \\text{Setoran Awal} = \\frac{1}{0,08} \\times 50.000.000 = 12,5 \\times 50.000.000$."
       },
       {
         "key": "E",
-        "text": "Rp 50.000.000,-, karena bank komersial dilarang meminjamkan dana simpanan kepada nasabah lain."
+        "text": "Rp 500.000.000,-, hasil perhitungan angka pengganda dengan pembulatan rasio sepuluh persen."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Rp 625.000.000,-, dihitung dari formula angka pengganda uang $M = \\frac{1}{\\text{GWM}} \\times \\text{Setoran Awal} = \\frac{1}{0,08} \\times 50.000.000 = 12,5 \\times 50.000.000$.. Angka pengganda uang sederhana m = 1 / GWM. m = 1 / 0.08 = 12.5. Total uang = 12.5 * 50 juta = 625 juta. Pilih: Rp 625.000.000,-."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rp 625.000.000,-, dihitung dari formula angka pengganda uang $M = \\frac{1}{\\text{GWM}} \\times \\text{Setoran Awal} = \\frac{1}{0,08} \\times 50.000.000 = 12,5 \\times 50.000.000$.. Angka pengganda uang sederhana m = 1 / GWM. m = 1 / 0.08 = 12.5. Total uang = 12.5 * 50 juta = 625 juta. Pilih: Rp 625.000.000,-."
   },
   {
     "id": "eko-lat-m-07",
@@ -1358,11 +1359,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Q = 40$ unit, $P = \\text{Rp } 60,-$, dan laba maksimum $\\pi = \\text{Rp } 600,-$ sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$Q = 40$ unit, $P = \\text{Rp } 60,-$, dan laba maksimum $\\pi = \\text{Rp } 600,-$."
       },
       {
         "key": "B",
-        "text": "$Q = 20$ unit, $P = \\text{Rp } 80,-$, dan laba maksimum $\\pi = \\text{Rp } 800,-$."
+        "text": "$Q = 25$ unit, $P = \\text{Rp } 75,-$, dan laba maksimum $\\pi = \\text{Rp } 750,-$."
       },
       {
         "key": "C",
@@ -1370,15 +1371,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$Q = 25$ unit, $P = \\text{Rp } 75,-$, dan laba maksimum $\\pi = \\text{Rp } 750,-$."
+        "text": "$Q = 15$ unit, $P = \\text{Rp } 85,-$, dan laba maksimum $\\pi = \\text{Rp } 525,-$."
       },
       {
         "key": "E",
-        "text": "$Q = 15$ unit, $P = \\text{Rp } 85,-$, dan laba maksimum $\\pi = \\text{Rp } 525,-$."
+        "text": "$Q = 20$ unit, $P = \\text{Rp } 80,-$, dan laba maksimum $\\pi = \\text{Rp } 800,-$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $Q = 20$ unit, $P = \\text{Rp } 80,-$, dan laba maksimum $\\pi = \\text{Rp } 800,-$.. Laba maksimum tercapai saat MR = MC. Turunkan TR untuk memperoleh MR, turunkan TC untuk memperoleh MC, lalu samakan untuk mencari Q, P, dan laba. MR = 100 - 2Q, MC = 20 + 2Q. 100 - 2Q = 20 + 2Q -> 4Q = 80 -> Q = 20. P = 100 - 20 = 80. Laba = TR - TC = 1.600 - 800 = 800."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $Q = 20$ unit, $P = \\text{Rp } 80,-$, dan laba maksimum $\\pi = \\text{Rp } 800,-$.. Laba maksimum tercapai saat MR = MC. Turunkan TR untuk memperoleh MR, turunkan TC untuk memperoleh MC, lalu samakan untuk mencari Q, P, dan laba. MR = 100 - 2Q, MC = 20 + 2Q. 100 - 2Q = 20 + 2Q -> 4Q = 80 -> Q = 20. P = 100 - 20 = 80. Laba = TR - TC = 1.600 - 800 = 800."
   },
   {
     "id": "eko-lat-m-08",
@@ -1401,27 +1402,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Akumulasi Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Peralatan (Kredit) Rp 10.000.000,- ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
         "text": "Beban Penyusutan Peralatan (Debit) Rp 12.000.000,- dan Kas (Kredit) Rp 12.000.000,-."
       },
       {
-        "key": "C",
-        "text": "Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-."
+        "key": "B",
+        "text": "Beban Operasional (Debit) Rp 60.000.000,- dan Modal Usaha (Kredit) Rp 60.000.000,-."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Peralatan (Debit) Rp 50.000.000,- dan Beban Penyusutan Peralatan (Kredit) Rp 50.000.000,-."
       },
       {
+        "key": "D",
+        "text": "Akumulasi Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Peralatan (Kredit) Rp 10.000.000,-."
+      },
+      {
         "key": "E",
-        "text": "Beban Operasional (Debit) Rp 60.000.000,- dan Modal Usaha (Kredit) Rp 60.000.000,-."
+        "text": "Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-.. Penyusutan = (Harga Perolehan - Nilai Sisa) / Umur = (60 jt - 10 jt) / 5 = 10 jt. Jurnal: Beban Penyusutan (D) dan Akumulasi Penyusutan (K). Pilih: Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-.. Penyusutan = (Harga Perolehan - Nilai Sisa) / Umur = (60 jt - 10 jt) / 5 = 10 jt. Jurnal: Beban Penyusutan (D) dan Akumulasi Penyusutan (K). Pilih: Beban Penyusutan Peralatan (Debit) Rp 10.000.000,- dan Akumulasi Penyusutan Peralatan (Kredit) Rp 10.000.000,-."
   },
   {
     "id": "eko-lat-m-09",
@@ -1444,27 +1445,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Indonesia dan Vietnam tidak dapat melakukan perdagangan karena Vietnam memiliki keunggulan mutlak di semua bidang menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Vietnam berspesialisasi memproduksi kain dengan syarat Indonesia membayar bea tarif impor sebesar seratus persen."
       },
       {
         "key": "B",
-        "text": "Indonesia berspesialisasi memproduksi sepatu dan Vietnam berspesialisasi memproduksi kain, dengan nilai tukar 1 sepatu = 3 meter kain."
+        "text": "Indonesia dan Vietnam tidak dapat melakukan perdagangan karena Vietnam memiliki keunggulan mutlak di semua bidang akrual."
       },
       {
         "key": "C",
-        "text": "Kedua negara berspesialisasi memproduksi kain secara serentak dan menghentikan seluruh produksi sepatu."
-      },
-      {
-        "key": "D",
         "text": "Indonesia berspesialisasi memproduksi kain (biaya peluang sepatu lebih mahal: 2 kain > 1 kain) dan Vietnam berspesialisasi memproduksi sepatu, dengan rentang DTI yang saling menguntungkan: $1 \\text{ unit sepatu bernilai antara } 1 \\text{ s.d. } 2 \\text{ meter kain}$."
       },
       {
+        "key": "D",
+        "text": "Indonesia berspesialisasi memproduksi sepatu dan Vietnam berspesialisasi memproduksi kain, dengan nilai tukar 1 sepatu = 3 meter kain."
+      },
+      {
         "key": "E",
-        "text": "Vietnam berspesialisasi memproduksi kain dengan syarat Indonesia membayar bea tarif impor sebesar seratus persen."
+        "text": "Kedua negara berspesialisasi memproduksi kain secara serentak dan menghentikan seluruh produksi sepatu."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Indonesia berspesialisasi memproduksi kain (biaya peluang sepatu lebih mahal: 2 kain > 1 kain) dan Vietnam berspesialisasi memproduksi sepatu, dengan rentang DTI yang saling menguntungkan: $1 \\text{ unit sepatu bernilai antara } 1 \\text{ s.d. } 2 \\text{ meter kain}$.. Biaya peluang 1 sepatu di Vietnam adalah 1 kain (lebih murah dari Indo yang 2 kain). Vietnam spesialisasi sepatu, Indonesia spesialisasi kain. Rentang DTI: 1 sepatu = 1 s.d. 2 kain. Pilih: Indonesia spesialisasi kain, Vietnam spesialisasi sepatu, rentang DTI: 1 sepatu di antara 1 s.d. 2 meter kain."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Indonesia berspesialisasi memproduksi kain (biaya peluang sepatu lebih mahal: 2 kain > 1 kain) dan Vietnam berspesialisasi memproduksi sepatu, dengan rentang DTI yang saling menguntungkan: $1 \\text{ unit sepatu bernilai antara } 1 \\text{ s.d. } 2 \\text{ meter kain}$.. Biaya peluang 1 sepatu di Vietnam adalah 1 kain (lebih murah dari Indo yang 2 kain). Vietnam spesialisasi sepatu, Indonesia spesialisasi kain. Rentang DTI: 1 sepatu = 1 s.d. 2 kain. Pilih: Indonesia spesialisasi kain, Vietnam spesialisasi sepatu, rentang DTI: 1 sepatu di antara 1 s.d. 2 meter kain."
   },
   {
     "id": "eko-lat-m-10",
@@ -1495,19 +1496,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rp 3.100.000,-, hasil kesalahan perkalian rasio simpanan terhadap total laba kotor koperasi."
+        "text": "Rp 2.200.000,-, terdiri atas Jasa Modal Rp 1.000.000,- dan Jasa Pinjaman Rp 1.200.000,-."
       },
       {
         "key": "D",
-        "text": "Rp 1.500.000,-, hasil potongan pajak bunga simpanan anggota perorangan."
+        "text": "Rp 3.100.000,-, hasil kesalahan perkalian rasio simpanan terhadap total laba kotor koperasi."
       },
       {
         "key": "E",
-        "text": "Rp 2.200.000,-, terdiri atas Jasa Modal Rp 1.000.000,- dan Jasa Pinjaman Rp 1.200.000,-."
+        "text": "Rp 1.500.000,-, hasil potongan pajak bunga simpanan anggota perorangan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rp 2.200.000,-, terdiri atas Jasa Modal Rp 1.000.000,- dan Jasa Pinjaman Rp 1.200.000,-.. Jasa modal Budi = (10/200) * (25% * 80jt) = 0.05 * 20jt = 1.000.000. Jasa pinjaman = (15/300) * (30% * 80jt) = 0.05 * 24jt = 1.200.000. Total = 2.200.000. Pilih: Rp 2.200.000,-."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Rp 2.200.000,-, terdiri atas Jasa Modal Rp 1.000.000,- dan Jasa Pinjaman Rp 1.200.000,-.. Jasa modal Budi = (10/200) * (25% * 80jt) = 0.05 * 20jt = 1.000.000. Jasa pinjaman = (15/300) * (30% * 80jt) = 0.05 * 24jt = 1.200.000. Total = 2.200.000. Pilih: Rp 2.200.000,-."
   },
   {
     "id": "eko-lat-m-11",
@@ -1530,11 +1531,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5,0\\%$, tergolong ke dalam kategori Inflasi Ringan (di bawah $10\\%$ per tahun)."
+        "text": "$12,5\\%$, tergolong ke dalam kategori Hiperinflasi (di atas $100\\%$ per tahun)."
       },
       {
         "key": "B",
-        "text": "$5,625\\%$, tergolong ke dalam kategori Inflasi Sedang (antara $10\\%$ sampai $30\\%$ per tahun)."
+        "text": "$5,0\\%$, tergolong ke dalam kategori Inflasi Ringan (di bawah $10\\%$ per tahun)."
       },
       {
         "key": "C",
@@ -1542,15 +1543,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$12,5\\%$, tergolong ke dalam kategori Hiperinflasi (di atas $100\\%$ per tahun)."
+        "text": "$5,625\\%$, tergolong ke dalam kategori Inflasi Sedang (antara $10\\%$ sampai $30\\%$ per tahun)."
       },
       {
         "key": "E",
         "text": "$3,2\\%$, tergolong ke dalam kategori Deflasi Negatif berkesinambungan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $5,0\\%$, tergolong ke dalam kategori Inflasi Ringan (di bawah $10\\%$ per tahun).. Laju inflasi = ((IHK_t - IHK_t-1) / IHK_t-1) * 100%. (118.125 - 112.5) / 112.5 = 5.625 / 112.5 = 0.05 = 5.0%. Inflasi di bawah 10% adalah inflasi ringan. Pilih: 5,0%, tergolong ke dalam kategori Inflasi Ringan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $5,0\\%$, tergolong ke dalam kategori Inflasi Ringan (di bawah $10\\%$ per tahun).. Laju inflasi = ((IHK_t - IHK_t-1) / IHK_t-1) * 100%. (118.125 - 112.5) / 112.5 = 5.625 / 112.5 = 0.05 = 5.0%. Inflasi di bawah 10% adalah inflasi ringan. Pilih: 5,0%, tergolong ke dalam kategori Inflasi Ringan."
   },
   {
     "id": "eko-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_d = -0,5$ (Inelastis, karena $|E_d| < 1$), di mana persentase perubahan kuantitas lebih kecil dari persentase harga sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
-        "text": "$E_d = -2,0$ (Elastis, karena $|E_d| = 2 > 1$), di mana kenaikan harga sebesar $1\\%$ akan menurunkan jumlah permintaan barang sebesar $2\\%$."
-      },
-      {
-        "key": "C",
-        "text": "$E_d = -1,0$ (Elastis Uniter), di mana persentase perubahan harga dan kuantitas sama persis."
-      },
-      {
-        "key": "D",
         "text": "$E_d = -4,0$ (Elastis Sempurna), di mana permintaan barang sangat rentan terhadap perubahan substitusi."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$E_d = 0$ (Inelastis Sempurna), di mana kurva permintaan berbentuk garis tegak lurus."
+      },
+      {
+        "key": "C",
+        "text": "$E_d = -2,0$ (Elastis, karena $|E_d| = 2 > 1$), di mana kenaikan harga sebesar $1\\%$ akan menurunkan jumlah permintaan barang sebesar $2\\%$."
+      },
+      {
+        "key": "D",
+        "text": "$E_d = -1,0$ (Elastis Uniter), di mana persentase perubahan harga dan kuantitas sama persis."
+      },
+      {
+        "key": "E",
+        "text": "$E_d = -0,5$ (Inelastis, karena $|E_d| < 1$), di mana persentase perubahan kuantitas lebih kecil dari persentase harga."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $E_d = -2,0$ (Elastis, karena $|E_d| = 2 > 1$), di mana kenaikan harga sebesar $1\\%$ akan menurunkan jumlah permintaan barang sebesar $2\\%$.. Pada P = 5, Q = 200 - 4(25) = 100. Turunan dQ/dP = -8P = -40. Ed = (dQ/dP) * (P/Q) = -40 * (5/100) = -2.0. Nilai mutlak 2 > 1 berarti Elastis. Pilih: Ed = -2,0 (Elastis, karena |Ed| > 1)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $E_d = -2,0$ (Elastis, karena $|E_d| = 2 > 1$), di mana kenaikan harga sebesar $1\\%$ akan menurunkan jumlah permintaan barang sebesar $2\\%$.. Pada P = 5, Q = 200 - 4(25) = 100. Turunan dQ/dP = -8P = -40. Ed = (dQ/dP) * (P/Q) = -40 * (5/100) = -2.0. Nilai mutlak 2 > 1 berarti Elastis. Pilih: Ed = -2,0 (Elastis, karena |Ed| > 1)."
   },
   {
     "id": "eko-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva Isoquant memotong tegak lurus kurva Isocost pada titik di mana Marginal Product tenaga kerja sama dengan nol ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
         "text": "Produsen menggunakan tenaga kerja dua kali lebih banyak daripada modal tanpa memperhitungkan upah marjinal."
       },
       {
-        "key": "C",
-        "text": "Tingkat Substitusi Teknis Marjinal sama dengan rasio harga input ($MRTS_{LK} = \\frac{w}{r} = \\frac{50.000}{100.000} = 0,5$), yang ditandai dengan bersinggungannya kurva Isoquant dengan kurva Isocost."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Total Cost yang dikeluarkan perusahaan sama persis dengan Total Revenue dari penjualan barang di pasar bebas."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Kurva Isoquant memotong tegak lurus kurva Isocost pada titik di mana Marginal Product tenaga kerja sama dengan nol."
+      },
+      {
+        "key": "D",
         "text": "Kurva Isocost bergeser ke kanan atas menjauhi kurva Isoquant sehingga timbul laba monopoli."
+      },
+      {
+        "key": "E",
+        "text": "Tingkat Substitusi Teknis Marjinal sama dengan rasio harga input ($MRTS_{LK} = \\frac{w}{r} = \\frac{50.000}{100.000} = 0,5$), yang ditandai dengan bersinggungannya kurva Isoquant dengan kurva Isocost."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Tingkat Substitusi Teknis Marjinal sama dengan rasio harga input ($MRTS_{LK} = \\frac{w}{r} = \\frac{50.000}{100.000} = 0,5$), yang ditandai dengan bersinggungannya kurva Isoquant dengan kurva Isocost.. Keseimbangan produsen (Least Cost Combination) tercapai saat kurva Isoquant bersinggungan dengan Isocost: MRTS_LK = w / r = 50.000 / 100.000 = 0,5. Pilih opsi: MRTS_LK = w / r = 0,5, ditandai persinggungan Isoquant dan Isocost."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Tingkat Substitusi Teknis Marjinal sama dengan rasio harga input ($MRTS_{LK} = \\frac{w}{r} = \\frac{50.000}{100.000} = 0,5$), yang ditandai dengan bersinggungannya kurva Isoquant dengan kurva Isocost.. Keseimbangan produsen (Least Cost Combination) tercapai saat kurva Isoquant bersinggungan dengan Isocost: MRTS_LK = w / r = 50.000 / 100.000 = 0,5. Pilih opsi: MRTS_LK = w / r = 0,5, ditandai persinggungan Isoquant dan Isocost."
   },
   {
     "id": "eko-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 50 Triliun, karena pendapatan nasional hanya bertambah tepat sebesar nilai suntikan dana pemerintah menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
-        "text": "Rp 200 Triliun, hasil perkalian nilai pengeluaran pemerintah dengan koefisien MPC masyarakat."
-      },
-      {
-        "key": "C",
-        "text": "Rp 40 Triliun, karena sebagian dana mengalami kebocoran melalui tabungan dan pajak."
-      },
-      {
-        "key": "D",
         "text": "Rp 250 Triliun, dihitung dari formula angka pengganda belanja pemerintah $k_G = \\frac{1}{1 - MPC} = \\frac{1}{1 - 0,8} = 5$, sehingga $\\Delta Y = 5 \\times 50 = 250$ Triliun."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Rp 40 Triliun, karena sebagian dana mengalami kebocoran melalui tabungan dan pajak."
+      },
+      {
+        "key": "C",
         "text": "Rp 500 Triliun, hasil asumsi angka pengganda pajak lump-sum berbobot sepuluh kali lipat."
+      },
+      {
+        "key": "D",
+        "text": "Rp 50 Triliun, karena pendapatan nasional hanya bertambah tepat sebesar nilai suntikan dana pemerintah akrual."
+      },
+      {
+        "key": "E",
+        "text": "Rp 200 Triliun, hasil perkalian nilai pengeluaran pemerintah dengan koefisien MPC masyarakat."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Rp 250 Triliun, dihitung dari formula angka pengganda belanja pemerintah $k_G = \\frac{1}{1 - MPC} = \\frac{1}{1 - 0,8} = 5$, sehingga $\\Delta Y = 5 \\times 50 = 250$ Triliun.. Multiplier belanja k_G = 1 / (1 - MPC) = 1 / (1 - 0.8) = 1 / 0.2 = 5. Delta Y = 5 * 50 = 250 Triliun. Pilih: Rp 250 Triliun."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Rp 250 Triliun, dihitung dari formula angka pengganda belanja pemerintah $k_G = \\frac{1}{1 - MPC} = \\frac{1}{1 - 0,8} = 5$, sehingga $\\Delta Y = 5 \\times 50 = 250$ Triliun.. Multiplier belanja k_G = 1 / (1 - MPC) = 1 / (1 - 0.8) = 1 / 0.2 = 5. Delta Y = 5 * 50 = 250 Triliun. Pilih: Rp 250 Triliun."
   },
   {
     "id": "eko-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki hak suara ganda dalam RUPS untuk memilih jajaran dewan direksi dan komisaris perusahaan diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
-      },
-      {
-        "key": "B",
-        "text": "Bebas dari segala kewajiban hukum dan dapat menuntut pengembalian modal pokok setiap saat seperti deposito."
-      },
-      {
-        "key": "C",
-        "text": "Dijamin memperoleh imbalan bunga kupon bulanan tetap yang ditanggung sepenuhnya oleh Bank Indonesia."
-      },
-      {
-        "key": "D",
         "text": "Dapat menukarkan sahamnya menjadi mata uang emas batangan langsung di kantor Otoritas Jasa Keuangan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Mendapatkan prioritas utama dalam pembagian dividen dengan tingkat dividen tetap (fixed dividend) dan memperoleh klaim aset terlebih dahulu jika perusahaan mengalami likuidasi/pailit, namun umumnya tidak memiliki hak suara dalam Rapat Umum Pemegang Saham (RUPS)."
+      },
+      {
+        "key": "C",
+        "text": "Memiliki hak suara ganda dalam RUPS untuk memilih jajaran dewan direksi dan komisaris perusahaan diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+      },
+      {
+        "key": "D",
+        "text": "Dijamin memperoleh imbalan bunga kupon bulanan tetap yang ditanggung sepenuhnya oleh Bank Indonesia."
+      },
+      {
+        "key": "E",
+        "text": "Bebas dari segala kewajiban hukum dan dapat menuntut pengembalian modal pokok setiap saat seperti deposito."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mendapatkan prioritas utama dalam pembagian dividen dengan tingkat dividen tetap (fixed dividend) dan memperoleh klaim aset terlebih dahulu jika perusahaan mengalami likuidasi/pailit, namun umumnya tidak memiliki hak suara dalam Rapat Umum Pemegang Saham (RUPS).. Saham preferen: dividen tetap dan prioritas klaim aset saat likuidasi, tetapi umumnya tidak punya hak suara di RUPS. Pilih opsi yang menjelaskan prioritas pembagian dividen tetap dan klaim aset saat likuidasi namun tanpa hak suara."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mendapatkan prioritas utama dalam pembagian dividen dengan tingkat dividen tetap (fixed dividend) dan memperoleh klaim aset terlebih dahulu jika perusahaan mengalami likuidasi/pailit, namun umumnya tidak memiliki hak suara dalam Rapat Umum Pemegang Saham (RUPS).. Saham preferen: dividen tetap dan prioritas klaim aset saat likuidasi, tetapi umumnya tidak punya hak suara di RUPS. Pilih opsi yang menjelaskan prioritas pembagian dividen tetap dan klaim aset saat likuidasi namun tanpa hak suara."
   },
   {
     "id": "eko-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-."
+        "text": "Beban Sewa (Debit) Rp 7.500.000,- dan Kas (Kredit) Rp 7.500.000,-."
       },
       {
         "key": "B",
-        "text": "Pendapatan Sewa (Debit) Rp 7.500.000,- dan Sewa Diterima di Muka (Kredit) Rp 7.500.000,-."
-      },
-      {
-        "key": "C",
         "text": "Kas (Debit) Rp 36.000.000,- dan Pendapatan Sewa (Kredit) Rp 36.000.000,-."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Sewa Diterima di Muka (Debit) Rp 28.500.000,- dan Pendapatan Sewa (Kredit) Rp 28.500.000,-."
       },
       {
+        "key": "D",
+        "text": "Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-."
+      },
+      {
         "key": "E",
-        "text": "Beban Sewa (Debit) Rp 7.500.000,- dan Kas (Kredit) Rp 7.500.000,-."
+        "text": "Pendapatan Sewa (Debit) Rp 7.500.000,- dan Sewa Diterima di Muka (Kredit) Rp 7.500.000,-."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-.. Dari 1 Agustus ke 31 Desember = 5 bulan berjalan. Total sewa 2 tahun = 24 bulan. Hak pendapatan yang sudah terealisasi = (5/24) * 36 jt = 7,5 jt. Debet Sewa Diterima di Muka, Kredit Pendapatan Sewa. Pilih: Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-.. Dari 1 Agustus ke 31 Desember = 5 bulan berjalan. Total sewa 2 tahun = 24 bulan. Hak pendapatan yang sudah terealisasi = (5/24) * 36 jt = 7,5 jt. Debet Sewa Diterima di Muka, Kredit Pendapatan Sewa. Pilih: Sewa Diterima di Muka (Debit) Rp 7.500.000,- dan Pendapatan Sewa (Kredit) Rp 7.500.000,-."
   },
   {
     "id": "eko-lat-m-17",
@@ -1788,15 +1789,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jika perusahaan menaikkan harga, pesaing akan menaikkan harga dua kali lipat lebih tinggi untuk membentuk kartel monopoli sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
         "text": "Jika salah satu perusahaan menaikkan harga, perusahaan pesaing tidak akan mengikuti (sehingga kurva di atas harga pasar bersifat elastis), namun jika perusahaan menurunkan harga, seluruh pesaing akan ikut menurunkan harga agar tidak kehilangan pangsa pasar (kurva di bawah harga pasar bersifat inelastis)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Seluruh perusahaan di pasar oligopoli sepakat untuk tidak memproduksi barang selama harga belum disetujui pemerintah."
+      },
+      {
+        "key": "C",
+        "text": "Kurva permintaan oligopoli selalu berbentuk garis lurus horizontal seperti halnya pasar persaingan sempurna."
       },
       {
         "key": "D",
@@ -1804,11 +1805,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kurva permintaan oligopoli selalu berbentuk garis lurus horizontal seperti halnya pasar persaingan sempurna."
+        "text": "Jika perusahaan menaikkan harga, pesaing akan menaikkan harga dua kali lipat lebih tinggi untuk membentuk kartel monopoli."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Jika salah satu perusahaan menaikkan harga, perusahaan pesaing tidak akan mengikuti (sehingga kurva di atas harga pasar bersifat elastis), namun jika perusahaan menurunkan harga, seluruh pesaing akan ikut menurunkan harga agar tidak kehilangan pangsa pasar (kurva di bawah harga pasar bersifat inelastis).. Asumsi Sweezy: Naik harga tidak diikuti (elastis), turun harga diikuti semua pesaing (inelastis). Akibatnya harga cenderung kaku (rigid). Pilih opsi: Jika menaikkan harga pesaing tidak mengikuti (elastis), jika menurunkan harga pesaing ikut menurunkan harga (inelastis)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Jika salah satu perusahaan menaikkan harga, perusahaan pesaing tidak akan mengikuti (sehingga kurva di atas harga pasar bersifat elastis), namun jika perusahaan menurunkan harga, seluruh pesaing akan ikut menurunkan harga agar tidak kehilangan pangsa pasar (kurva di bawah harga pasar bersifat inelastis).. Asumsi Sweezy: Naik harga tidak diikuti (elastis), turun harga diikuti semua pesaing (inelastis). Akibatnya harga cenderung kaku (rigid). Pilih opsi: Jika menaikkan harga pesaing tidak mengikuti (elastis), jika menurunkan harga pesaing ikut menurunkan harga (inelastis)."
   },
   {
     "id": "eko-lat-m-18",
@@ -1831,7 +1832,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kondisi Marshall-Lerner Negatif, yaitu kondisi di mana jumlah elastisitas ekspor dan impor selalu lebih besar dari sepuluh ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Krisis Neraca Modal, yaitu penarikan seluruh investasi asing portofolio dari pasar saham dalam satu hari perdagangan."
       },
       {
         "key": "B",
@@ -1839,19 +1840,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Efek Kurva J (J-Curve Effect), yang terjadi karena volume ekspor dan impor bersifat kaku (inelastic) dalam jangka pendek akibat kontrak dagang lama yang masih berjalan, sehingga nilai tagihan impor melonjak sebelum volume perdagangan mampu menyesuaikan diri."
-      },
-      {
-        "key": "D",
         "text": "Perangkap Likuiditas (Liquidity Trap), yaitu kondisi suku bunga nol di mana kebijakan moneter kehilangan efektivitasnya."
       },
       {
+        "key": "D",
+        "text": "Efek Kurva J (J-Curve Effect), yang terjadi karena volume ekspor dan impor bersifat kaku (inelastic) dalam jangka pendek akibat kontrak dagang lama yang masih berjalan, sehingga nilai tagihan impor melonjak sebelum volume perdagangan mampu menyesuaikan diri."
+      },
+      {
         "key": "E",
-        "text": "Krisis Neraca Modal, yaitu penarikan seluruh investasi asing portofolio dari pasar saham dalam satu hari perdagangan."
+        "text": "Kondisi Marshall-Lerner Negatif, yaitu kondisi di mana jumlah elastisitas ekspor dan impor selalu lebih besar dari sepuluh."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Efek Kurva J (J-Curve Effect), yang terjadi karena volume ekspor dan impor bersifat kaku (inelastic) dalam jangka pendek akibat kontrak dagang lama yang masih berjalan, sehingga nilai tagihan impor melonjak sebelum volume perdagangan mampu menyesuaikan diri.. Depresiasi mata uang membuat neraca dagang memburuk dulu di jangka pendek baru membaik di jangka panjang, membentuk pola huruf J (J-Curve Effect). Pilih: Efek Kurva J (J-Curve Effect)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Efek Kurva J (J-Curve Effect), yang terjadi karena volume ekspor dan impor bersifat kaku (inelastic) dalam jangka pendek akibat kontrak dagang lama yang masih berjalan, sehingga nilai tagihan impor melonjak sebelum volume perdagangan mampu menyesuaikan diri.. Depresiasi mata uang membuat neraca dagang memburuk dulu di jangka pendek baru membaik di jangka panjang, membentuk pola huruf J (J-Curve Effect). Pilih: Efek Kurva J (J-Curve Effect)."
   },
   {
     "id": "eko-lat-m-19",
@@ -1874,27 +1875,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukum Biaya Tetap Konstan, di mana setiap penambahan barang selalu menuntut pengorbanan barang lain yang sama persis ukurannya menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
         "text": "Kondisi inefisiensi produksi di mana perekonomian beroperasi di bawah kapasitas penuh tenaga kerja."
       },
       {
+        "key": "B",
+        "text": "Hukum Biaya Tetap Konstan, di mana setiap penambahan barang selalu menuntut pengorbanan barang lain yang sama persis ukurannya akrual."
+      },
+      {
         "key": "C",
-        "text": "Kemustahilan komputasi dalam membagi sumber daya antara barang konsumsi publik dan barang modal swasta."
+        "text": "Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs), yang menyatakan bahwa untuk memproduksi unit tambahan suatu barang, masyarakat harus mengorbankan kuantitas barang lain dalam jumlah yang semakin lama semakin besar karena sumber daya tidak dapat dialihkan secara sempurna."
       },
       {
         "key": "D",
-        "text": "Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs), yang menyatakan bahwa untuk memproduksi unit tambahan suatu barang, masyarakat harus mengorbankan kuantitas barang lain dalam jumlah yang semakin lama semakin besar karena sumber daya tidak dapat dialihkan secara sempurna."
+        "text": "Kemustahilan komputasi dalam membagi sumber daya antara barang konsumsi publik dan barang modal swasta."
       },
       {
         "key": "E",
         "text": "Keberadaan inflasi harga barang yang menyebabkan seluruh biaya bahan baku menjadi dua kali lipat lebih mahal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs), yang menyatakan bahwa untuk memproduksi unit tambahan suatu barang, masyarakat harus mengorbankan kuantitas barang lain dalam jumlah yang semakin lama semakin besar karena sumber daya tidak dapat dialihkan secara sempurna.. Bentuk PPF cekung (concave) ke titik nol mencerminkan The Law of Increasing Opportunity Costs (biaya peluang yang semakin meningkat). Pilih: Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs), yang menyatakan bahwa untuk memproduksi unit tambahan suatu barang, masyarakat harus mengorbankan kuantitas barang lain dalam jumlah yang semakin lama semakin besar karena sumber daya tidak dapat dialihkan secara sempurna.. Bentuk PPF cekung (concave) ke titik nol mencerminkan The Law of Increasing Opportunity Costs (biaya peluang yang semakin meningkat). Pilih: Hukum Peningkatan Biaya Peluang (The Law of Increasing Opportunity Costs)."
   },
   {
     "id": "eko-lat-m-20",
@@ -1917,11 +1918,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 125.000.000,-, hasil perhitungan tanpa mengurangkan retur dan potongan pembelian diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Rp 110.000.000,-, hasil kesalahan mengurangkan beban angkut dari total pembelian barang."
       },
       {
         "key": "B",
-        "text": "Rp 110.000.000,-, hasil kesalahan mengurangkan beban angkut dari total pembelian barang."
+        "text": "Rp 115.000.000,-, dihitung dari formula $\\text{HPP} = \\text{Persediaan Awal} + \\text{Pembelian Bersih} - \\text{Persediaan Akhir} = 35 + (120 + 5 - 4 - 1) - 40 = 35 + 120 - 40 = 115$ Juta."
       },
       {
         "key": "C",
@@ -1929,15 +1930,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rp 95.000.000,-, hasil pengurangan persediaan awal dan akhir dari total pembelian bruto."
+        "text": "Rp 125.000.000,-, hasil perhitungan tanpa mengurangkan retur dan potongan pembelian diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "E",
-        "text": "Rp 115.000.000,-, dihitung dari formula $\\text{HPP} = \\text{Persediaan Awal} + \\text{Pembelian Bersih} - \\text{Persediaan Akhir} = 35 + (120 + 5 - 4 - 1) - 40 = 35 + 120 - 40 = 115$ Juta."
+        "text": "Rp 95.000.000,-, hasil pengurangan persediaan awal dan akhir dari total pembelian bruto."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rp 115.000.000,-, dihitung dari formula $\\text{HPP} = \\text{Persediaan Awal} + \\text{Pembelian Bersih} - \\text{Persediaan Akhir} = 35 + (120 + 5 - 4 - 1) - 40 = 35 + 120 - 40 = 115$ Juta.. Pembelian bersih = 120 + 5 - (4 + 1) = 120 jt. Barang tersedia = 35 + 120 = 155 jt. HPP = 155 - 40 = 115 jt. Pilih: Rp 115.000.000,-."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Rp 115.000.000,-, dihitung dari formula $\\text{HPP} = \\text{Persediaan Awal} + \\text{Pembelian Bersih} - \\text{Persediaan Akhir} = 35 + (120 + 5 - 4 - 1) - 40 = 35 + 120 - 40 = 115$ Juta.. Pembelian bersih = 120 + 5 - (4 + 1) = 120 jt. Barang tersedia = 35 + 120 = 155 jt. HPP = 155 - 40 = 115 jt. Pilih: Rp 115.000.000,-."
   },
   {
     "id": "eko-lat-m-21",
@@ -1964,19 +1965,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$Y = 180$ Triliun, hasil perkalian konsumsi otonom dengan koefisien kemiringan marginal MPC sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "$Y = 300$ Triliun, hasil penambahan fungsi tabungan dengan pendapatan disposabel penuh."
       },
       {
+        "key": "C",
+        "text": "$Y = 480$ Triliun, hasil perhitungan dengan membagi konsumsi otonom dengan angka pengganda pajak dua."
+      },
+      {
         "key": "D",
-        "text": "$Y = 60$ Triliun, yaitu nilai konsumsi otonom saat pendapatan nasional bernilai nol."
+        "text": "$Y = 180$ Triliun, hasil perkalian konsumsi otonom dengan koefisien kemiringan marginal MPC."
       },
       {
         "key": "E",
-        "text": "$Y = 480$ Triliun, hasil perhitungan dengan membagi konsumsi otonom dengan angka pengganda pajak dua."
+        "text": "$Y = 60$ Triliun, yaitu nilai konsumsi otonom saat pendapatan nasional bernilai nol."
       }
     ],
     "correctKey": "A",
@@ -2003,11 +2004,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerintah memberikan kebebasan mutlak kepada konglomerat swasta untuk mengeksploitasi seluruh sumber daya mineral tanpa izin sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Sistem pasar bebas kapitalis diterapkan secara murni tanpa ada intervensi regulasi harga sedikit pun dari pemerintah."
       },
       {
         "key": "B",
-        "text": "Cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak, serta bumi, air, dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat."
+        "text": "Masyarakat dilarang memiliki modal tabungan pribadi dan seluruh kepemilikan tanah wajib diserahkan kepada koperasi desa."
       },
       {
         "key": "C",
@@ -2015,15 +2016,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Masyarakat dilarang memiliki modal tabungan pribadi dan seluruh kepemilikan tanah wajib diserahkan kepada koperasi desa."
+        "text": "Pemerintah memberikan kebebasan mutlak kepada konglomerat swasta untuk mengeksploitasi seluruh sumber daya mineral tanpa izin."
       },
       {
         "key": "E",
-        "text": "Sistem pasar bebas kapitalis diterapkan secara murni tanpa ada intervensi regulasi harga sedikit pun dari pemerintah."
+        "text": "Cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak, serta bumi, air, dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak, serta bumi, air, dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.. Ayat 2 & 3 Pasal 33: cabang produksi penting dan bumi, air, kekayaan alam dikuasai negara untuk sebesar-besar kemakmuran rakyat. Pilih opsi: Cabang-cabang produksi penting dan kekayaan alam dikuasai oleh negara untuk sebesar-besar kemakmuran rakyat."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Cabang-cabang produksi yang penting bagi negara dan menguasai hajat hidup orang banyak, serta bumi, air, dan kekayaan alam yang terkandung di dalamnya dikuasai oleh negara dan dipergunakan untuk sebesar-besar kemakmuran rakyat.. Ayat 2 & 3 Pasal 33: cabang produksi penting dan bumi, air, kekayaan alam dikuasai negara untuk sebesar-besar kemakmuran rakyat. Pilih opsi: Cabang-cabang produksi penting dan kekayaan alam dikuasai oleh negara untuk sebesar-besar kemakmuran rakyat."
   },
   {
     "id": "eko-lat-m-23",
@@ -2046,7 +2047,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Demand-Pull Inflation, yang ditandai dengan pergeseran kurva permintaan agregat ke kanan atas akibat lonjakan daya beli ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Imported Deflation, yang menyebabkan penurunan harga barang komoditas impor di pasar dalam negeri."
       },
       {
         "key": "B",
@@ -2054,19 +2055,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Cost-Push Inflation (Inflasi Dorongan Biaya), yang ditandai dengan pergeseran kurva penawaran agregat ($AS$) ke kiri atas, menyebabkan tingkat harga umum naik dan output riil PDB menurun (berisiko memicu stagflasi)."
+        "text": "Demand-Pull Inflation, yang ditandai dengan pergeseran kurva permintaan agregat ke kanan atas akibat lonjakan daya beli."
       },
       {
         "key": "D",
-        "text": "Imported Deflation, yang menyebabkan penurunan harga barang komoditas impor di pasar dalam negeri."
+        "text": "Cost-Push Inflation (Inflasi Dorongan Biaya), yang ditandai dengan pergeseran kurva penawaran agregat ($AS$) ke kiri atas, menyebabkan tingkat harga umum naik dan output riil PDB menurun (berisiko memicu stagflasi)."
       },
       {
         "key": "E",
         "text": "Structural Deflation, yang terjadi saat penawaran barang melimpah ruah akibat panen raya serentak."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Cost-Push Inflation (Inflasi Dorongan Biaya), yang ditandai dengan pergeseran kurva penawaran agregat ($AS$) ke kiri atas, menyebabkan tingkat harga umum naik dan output riil PDB menurun (berisiko memicu stagflasi).. Kenaikan harga akibat lonjakan biaya bahan baku/BBM/upah adalah Cost-Push Inflation (pergeseran AS ke kiri). Pilih: Cost-Push Inflation (Inflasi Dorongan Biaya)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Cost-Push Inflation (Inflasi Dorongan Biaya), yang ditandai dengan pergeseran kurva penawaran agregat ($AS$) ke kiri atas, menyebabkan tingkat harga umum naik dan output riil PDB menurun (berisiko memicu stagflasi).. Kenaikan harga akibat lonjakan biaya bahan baku/BBM/upah adalah Cost-Push Inflation (pergeseran AS ke kiri). Pilih: Cost-Push Inflation (Inflasi Dorongan Biaya)."
   },
   {
     "id": "eko-lat-m-24",
@@ -2089,7 +2090,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengangguran Friksional, yaitu pengangguran sementara yang terjadi karena pekerja sedang dalam proses berpindah tempat kerja menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Pengangguran Sukarela (Voluntary), yaitu orang yang memilih menganggur karena sudah merasa kaya secara finansial."
       },
       {
         "key": "B",
@@ -2097,19 +2098,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Pengangguran Siklikal (Konjungtur), yaitu pengangguran akibat penurunan permintaan agregat saat resesi ekonomi."
-      },
-      {
-        "key": "D",
         "text": "Pengangguran Struktural (Structural Unemployment), yang terjadi akibat adanya ketidakcocokan mendasar (mismatch) antara keterampilan tenaga kerja yang tersedia dan keahlian yang dibutuhkan oleh lowongan kerja baru."
       },
       {
+        "key": "D",
+        "text": "Pengangguran Friksional, yaitu pengangguran sementara yang terjadi karena pekerja sedang dalam proses berpindah tempat kerja akrual."
+      },
+      {
         "key": "E",
-        "text": "Pengangguran Sukarela (Voluntary), yaitu orang yang memilih menganggur karena sudah merasa kaya secara finansial."
+        "text": "Pengangguran Siklikal (Konjungtur), yaitu pengangguran akibat penurunan permintaan agregat saat resesi ekonomi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pengangguran Struktural (Structural Unemployment), yang terjadi akibat adanya ketidakcocokan mendasar (mismatch) antara keterampilan tenaga kerja yang tersedia dan keahlian yang dibutuhkan oleh lowongan kerja baru.. Pengangguran akibat perubahan struktur teknologi/ekonomi di mana skill lama tidak cocok dengan kebutuhan baru disebut Pengangguran Struktural. Pilih: Pengangguran Struktural (Structural Unemployment)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pengangguran Struktural (Structural Unemployment), yang terjadi akibat adanya ketidakcocokan mendasar (mismatch) antara keterampilan tenaga kerja yang tersedia dan keahlian yang dibutuhkan oleh lowongan kerja baru.. Pengangguran akibat perubahan struktur teknologi/ekonomi di mana skill lama tidak cocok dengan kebutuhan baru disebut Pengangguran Struktural. Pilih: Pengangguran Struktural (Structural Unemployment)."
   },
   {
     "id": "eko-lat-m-25",
@@ -2132,11 +2133,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Akad jual beli barang di mana bank menetapkan harga perolehan ditambah margin keuntungan tetap yang dicicil nasabah diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Akad kerja sama kemitraan di mana bank syariah menyediakan $100\\%$ modal usaha (Shahibul Maal) dan nasabah bertindak sebagai pengelola usaha (Mudharib), dengan keuntungan dibagi berdasarkan nisbah bagi hasil yang disepakati bersama di awal, sedangkan kerugian finansial ditanggung oleh bank pemilik modal selama bukan akibat kelalaian nasabah."
       },
       {
         "key": "B",
-        "text": "Akad pinjaman berbunga tetap dengan jaminan surat tanah yang akan disita bank jika angsuran bulanan macet."
+        "text": "Akad jual beli barang di mana bank menetapkan harga perolehan ditambah margin keuntungan tetap yang dicicil nasabah diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "C",
@@ -2148,11 +2149,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Akad kerja sama kemitraan di mana bank syariah menyediakan $100\\%$ modal usaha (Shahibul Maal) dan nasabah bertindak sebagai pengelola usaha (Mudharib), dengan keuntungan dibagi berdasarkan nisbah bagi hasil yang disepakati bersama di awal, sedangkan kerugian finansial ditanggung oleh bank pemilik modal selama bukan akibat kelalaian nasabah."
+        "text": "Akad pinjaman berbunga tetap dengan jaminan surat tanah yang akan disita bank jika angsuran bulanan macet."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Akad kerja sama kemitraan di mana bank syariah menyediakan $100\\%$ modal usaha (Shahibul Maal) dan nasabah bertindak sebagai pengelola usaha (Mudharib), dengan keuntungan dibagi berdasarkan nisbah bagi hasil yang disepakati bersama di awal, sedangkan kerugian finansial ditanggung oleh bank pemilik modal selama bukan akibat kelalaian nasabah.. Mudharabah adalah kemitraan bagi hasil di mana 100% modal dari bank dan nasabah sebagai pengelola. Pilih opsi: Kerja sama kemitraan di mana bank menyediakan 100% modal dan keuntungan dibagi sesuai nisbah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Akad kerja sama kemitraan di mana bank syariah menyediakan $100\\%$ modal usaha (Shahibul Maal) dan nasabah bertindak sebagai pengelola usaha (Mudharib), dengan keuntungan dibagi berdasarkan nisbah bagi hasil yang disepakati bersama di awal, sedangkan kerugian finansial ditanggung oleh bank pemilik modal selama bukan akibat kelalaian nasabah.. Mudharabah adalah kemitraan bagi hasil di mana 100% modal dari bank dan nasabah sebagai pengelola. Pilih opsi: Kerja sama kemitraan di mana bank menyediakan 100% modal dan keuntungan dibagi sesuai nisbah."
   },
   {
     "id": "eko-lat-h-01",
@@ -2175,27 +2176,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$r^* = 25\\% \\ (0,25)$, $Y^* = 900$, dan terjadi sebagian efek perdesakan investasi swasta (_partial crowding-out_) akibat kenaikan suku bunga dari $20\\%$ menjadi $25\\%$."
+        "text": "$r^* = 20\\% \\ (0,20)$, $Y^* = 800$, dan tidak terjadi crowding-out karena pasar uang mampu menyerap seluruh belanja pemerintah."
       },
       {
         "key": "B",
-        "text": "$r^* = 20\\% \\ (0,20)$, $Y^* = 800$, dan tidak terjadi crowding-out karena pasar uang mampu menyerap seluruh belanja pemerintah sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$r^* = 25\\% \\ (0,25)$, $Y^* = 900$, dan terjadi sebagian efek perdesakan investasi swasta (_partial crowding-out_) akibat kenaikan suku bunga dari $20\\%$ menjadi $25\\%$."
       },
       {
         "key": "C",
-        "text": "$r^* = 30\\% \\ (0,30)$, $Y^* = 1.000$, dan terjadi fenomena crowding-out total yang membuat pendapatan riil tidak bertambah."
+        "text": "$r^* = 25\\% \\ (0,25)$, $Y^* = 1.400$, dan seluruh kenaikan belanja pemerintah dikonversi menjadi pendapatan tanpa hambatan likuiditas."
       },
       {
         "key": "D",
-        "text": "$r^* = 15\\% \\ (0,15)$, $Y^* = 700$, dan suku bunga turun merangsang lonjakan tajam investasi riil swasta domestik."
+        "text": "$r^* = 30\\% \\ (0,30)$, $Y^* = 1.000$, dan terjadi fenomena crowding-out total yang membuat pendapatan riil tidak bertambah."
       },
       {
         "key": "E",
-        "text": "$r^* = 25\\% \\ (0,25)$, $Y^* = 1.400$, dan seluruh kenaikan belanja pemerintah dikonversi menjadi pendapatan tanpa hambatan likuiditas."
+        "text": "$r^* = 15\\% \\ (0,15)$, $Y^* = 700$, dan suku bunga turun merangsang lonjakan tajam investasi riil swasta domestik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $r^* = 25\\% \\ (0,25)$, $Y^* = 900$, dan terjadi sebagian efek perdesakan investasi swasta (_partial crowding-out_) akibat kenaikan suku bunga dari $20\\%$ menjadi $25\\%$.. Samakan persamaan IS baru dengan LM untuk mencari suku bunga baru r*, lalu substitusikan r* ke dalam salah satu persamaan untuk mencari Y*. 1.400 - 2.000r = 400 + 2.000r -> 4.000r = 1.000 -> r = 0,25 (25%). Y = 400 + 2.000(0,25) = 900. Kenaikan r menyebabkan crowding out."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $r^* = 25\\% \\ (0,25)$, $Y^* = 900$, dan terjadi sebagian efek perdesakan investasi swasta (_partial crowding-out_) akibat kenaikan suku bunga dari $20\\%$ menjadi $25\\%$.. Samakan persamaan IS baru dengan LM untuk mencari suku bunga baru r*, lalu substitusikan r* ke dalam salah satu persamaan untuk mencari Y*. 1.400 - 2.000r = 400 + 2.000r -> 4.000r = 1.000 -> r = 0,25 (25%). Y = 400 + 2.000(0,25) = 900. Kenaikan r menyebabkan crowding out."
   },
   {
     "id": "eko-lat-h-02",
@@ -2218,11 +2219,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Q_A^* = Q_B^* = 60$ unit (total output $Q = 120$ unit), harga pasar $P^* = \\text{Rp } 30,-$, sama persis dengan kondisi persaingan sempurna sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$Q_A^* = Q_B^* = 20$ unit (total output $Q = 40$ unit), harga pasar $P^* = \\text{Rp } 110,-$, dengan deadweight loss melebihi monopoli absolut."
       },
       {
         "key": "B",
-        "text": "$Q_A^* = Q_B^* = 40$ unit (total output $Q = 80$ unit), harga pasar $P^* = \\text{Rp } 70,-$, di mana total output duopoli lebih banyak dan harga lebih murah dibandingkan monopoli murni ($Q_{\\text{mono}} = 60, P_{\\text{mono}} = 90$)."
+        "text": "$Q_A^* = Q_B^* = 60$ unit (total output $Q = 120$ unit), harga pasar $P^* = \\text{Rp } 30,-$, sama persis dengan kondisi persaingan sempurna."
       },
       {
         "key": "C",
@@ -2234,11 +2235,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$Q_A^* = Q_B^* = 20$ unit (total output $Q = 40$ unit), harga pasar $P^* = \\text{Rp } 110,-$, dengan deadweight loss melebihi monopoli absolut."
+        "text": "$Q_A^* = Q_B^* = 40$ unit (total output $Q = 80$ unit), harga pasar $P^* = \\text{Rp } 70,-$, di mana total output duopoli lebih banyak dan harga lebih murah dibandingkan monopoli murni ($Q_{\\text{mono}} = 60, P_{\\text{mono}} = 90$)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $Q_A^* = Q_B^* = 40$ unit (total output $Q = 80$ unit), harga pasar $P^* = \\text{Rp } 70,-$, di mana total output duopoli lebih banyak dan harga lebih murah dibandingkan monopoli murni ($Q_{\\text{mono}} = 60, P_{\\text{mono}} = 90$).. Tentukan TR_A dan turunkan ke MR_A. Samakan MR_A = MC untuk mencari fungsi reaksi Q_A terhadap Q_B. Karena simetris, Q_A = Q_B. MR_A = 150 - 2Q_A - Q_B = 30 -> 2Q_A + Q_B = 120. Karena Q_A = Q_B -> 3Q_A = 120 -> Q_A = 40, Q_B = 40. P = 150 - 80 = 70."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $Q_A^* = Q_B^* = 40$ unit (total output $Q = 80$ unit), harga pasar $P^* = \\text{Rp } 70,-$, di mana total output duopoli lebih banyak dan harga lebih murah dibandingkan monopoli murni ($Q_{\\text{mono}} = 60, P_{\\text{mono}} = 90$).. Tentukan TR_A dan turunkan ke MR_A. Samakan MR_A = MC untuk mencari fungsi reaksi Q_A terhadap Q_B. Karena simetris, Q_A = Q_B. MR_A = 150 - 2Q_A - Q_B = 30 -> 2Q_A + Q_B = 120. Karena Q_A = Q_B -> 3Q_A = 120 -> Q_A = 40, Q_B = 40. P = 150 - 80 = 70."
   },
   {
     "id": "eko-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$k^* = 25$ unit modal per pekerja dan $y^* = 5$ unit output per pekerja ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
-        "text": "$k^* = 49$ unit modal per pekerja dan $y^* = 7$ unit output per pekerja."
-      },
-      {
-        "key": "C",
-        "text": "$k^* = 36$ unit modal per pekerja dan $y^* = 6$ unit output per pekerja."
-      },
-      {
-        "key": "D",
         "text": "$k^* = 16$ unit modal per pekerja dan $y^* = 4$ unit output per pekerja."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$k^* = 25$ unit modal per pekerja dan $y^* = 5$ unit output per pekerja."
+      },
+      {
+        "key": "C",
         "text": "$k^* = 64$ unit modal per pekerja dan $y^* = 8$ unit output per pekerja."
+      },
+      {
+        "key": "D",
+        "text": "$k^* = 36$ unit modal per pekerja dan $y^* = 6$ unit output per pekerja."
+      },
+      {
+        "key": "E",
+        "text": "$k^* = 49$ unit modal per pekerja dan $y^* = 7$ unit output per pekerja."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $k^* = 36$ unit modal per pekerja dan $y^* = 6$ unit output per pekerja.. Pada kondisi steady-state, investasi baru = investasi penggantian: s . f(k) = (delta + n)k. Masukkan nilai s = 0,3 dan delta + n = 0,05. 0,3 * sqrt(k) = 0,05 * k -> sqrt(k) / k = 0,05 / 0,3 = 1/6 -> sqrt(k) = 6 -> k* = 36. Output y* = sqrt(36) = 6."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $k^* = 36$ unit modal per pekerja dan $y^* = 6$ unit output per pekerja.. Pada kondisi steady-state, investasi baru = investasi penggantian: s . f(k) = (delta + n)k. Masukkan nilai s = 0,3 dan delta + n = 0,05. 0,3 * sqrt(k) = 0,05 * k -> sqrt(k) / k = 0,05 / 0,3 = 1/6 -> sqrt(k) = 6 -> k* = 36. Output y* = sqrt(36) = 6."
   },
   {
     "id": "eko-lat-h-04",
@@ -2304,15 +2305,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kebijakan fiskal sangat efektif menaikkan output riil sementara kebijakan moneter mandul karena likuiditas terperangkap di pasar uang menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Kebijakan fiskal sangat efektif menaikkan output riil sementara kebijakan moneter mandul karena likuiditas terperangkap di pasar uang akrual."
       },
       {
         "key": "B",
-        "text": "Kedua kebijakan sama-sama sangat efektif melipatgandakan output riil karena suku bunga domestik terisolasi dari suku bunga global."
+        "text": "Kedua kebijakan sama sekali tidak efektif karena mobilitas modal sempurna melumpuhkan seluruh instrumen transmisi pemerintah dan bank sentral."
       },
       {
         "key": "C",
-        "text": "Kedua kebijakan sama sekali tidak efektif karena mobilitas modal sempurna melumpuhkan seluruh instrumen transmisi pemerintah dan bank sentral."
+        "text": "Kebijakan fiskal hanya efektif jika pemerintah mencetak surat utang dalam mata uang emas murni secara tertutup."
       },
       {
         "key": "D",
@@ -2320,7 +2321,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kebijakan fiskal hanya efektif jika pemerintah mencetak surat utang dalam mata uang emas murni secara tertutup."
+        "text": "Kedua kebijakan sama-sama sangat efektif melipatgandakan output riil karena suku bunga domestik terisolasi dari suku bunga global."
       }
     ],
     "correctKey": "D",
@@ -2347,19 +2348,19 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$i^* = 7,0\\%$, hasil kalkulasi penjumlahan suku bunga riil netral dengan tingkat inflasi aktual murni diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "$i^* = 5,5\\%$, hasil pelonggaran moneter agresif untuk menstimulasi kredit perbankan komersial."
       },
       {
         "key": "B",
-        "text": "$i^* = 8,0\\%$, hasil perhitungan tanpa memperhitungkan bobot reaksi terhadap kesenjangan output agregat."
+        "text": "$i^* = 7,0\\%$, hasil kalkulasi penjumlahan suku bunga riil netral dengan tingkat inflasi aktual murni diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "C",
-        "text": "$i^* = 10,5\\%$, hasil penerapan koefisien pengetatan moneter ganda pada instrumen giro wajib minimum."
+        "text": "$i^* = 8,0\\%$, hasil perhitungan tanpa memperhitungkan bobot reaksi terhadap kesenjangan output agregat."
       },
       {
         "key": "D",
-        "text": "$i^* = 5,5\\%$, hasil pelonggaran moneter agresif untuk menstimulasi kredit perbankan komersial."
+        "text": "$i^* = 10,5\\%$, hasil penerapan koefisien pengetatan moneter ganda pada instrumen giro wajib minimum."
       },
       {
         "key": "E",
@@ -2390,27 +2391,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$X^* = 30$ unit dan $Y^* = 40$ unit, di mana konsumen membelanjakan $60\\%$ anggarannya untuk barang $X$ (Rp 600.000,-) dan $40\\%$ untuk barang $Y$ (Rp 400.000,-)."
-      },
-      {
-        "key": "B",
-        "text": "$X^* = 25$ unit dan $Y^* = 50$ unit, dengan membagi total anggaran belanja secara seimbang rata lima puluh persen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "$X^* = 40$ unit dan $Y^* = 20$ unit, yang memprioritaskan konsumsi barang bernilai ekonomi lebih tinggi."
       },
       {
+        "key": "B",
+        "text": "$X^* = 20$ unit dan $Y^* = 60$ unit, hasil estimasi titik potong garis anggaran tanpa mempertimbangkan proporsi elastisitas utilitas."
+      },
+      {
+        "key": "C",
+        "text": "$X^* = 25$ unit dan $Y^* = 50$ unit, dengan membagi total anggaran belanja secara seimbang rata lima puluh persen."
+      },
+      {
         "key": "D",
-        "text": "$X^* = 50$ unit dan $Y^* = 0$ unit, di mana konsumen menghabiskan seluruh pendapatan hanya pada barang kebutuhan primer."
+        "text": "$X^* = 30$ unit dan $Y^* = 40$ unit, di mana konsumen membelanjakan $60\\%$ anggarannya untuk barang $X$ (Rp 600.000,-) dan $40\\%$ untuk barang $Y$ (Rp 400.000,-)."
       },
       {
         "key": "E",
-        "text": "$X^* = 20$ unit dan $Y^* = 60$ unit, hasil estimasi titik potong garis anggaran tanpa mempertimbangkan proporsi elastisitas utilitas."
+        "text": "$X^* = 50$ unit dan $Y^* = 0$ unit, di mana konsumen menghabiskan seluruh pendapatan hanya pada barang kebutuhan primer."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $X^* = 30$ unit dan $Y^* = 40$ unit, di mana konsumen membelanjakan $60\\%$ anggarannya untuk barang $X$ (Rp 600.000,-) dan $40\\%$ untuk barang $Y$ (Rp 400.000,-).. Pada utilitas Cobb-Douglas U = X^a Y^b, proporsi pengeluaran untuk X adalah a/(a+b) dari pendapatan I, dan untuk Y adalah b/(a+b) dari I. Pengeluaran X = 0,6 * 1.000.000 = 600.000 -> X* = 600.000 / 20.000 = 30 unit. Pengeluaran Y = 0,4 * 1.000.000 = 400.000 -> Y* = 400.000 / 10.000 = 40 unit."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $X^* = 30$ unit dan $Y^* = 40$ unit, di mana konsumen membelanjakan $60\\%$ anggarannya untuk barang $X$ (Rp 600.000,-) dan $40\\%$ untuk barang $Y$ (Rp 400.000,-).. Pada utilitas Cobb-Douglas U = X^a Y^b, proporsi pengeluaran untuk X adalah a/(a+b) dari pendapatan I, dan untuk Y adalah b/(a+b) dari I. Pengeluaran X = 0,6 * 1.000.000 = 600.000 -> X* = 600.000 / 20.000 = 30 unit. Pengeluaran Y = 0,4 * 1.000.000 = 400.000 -> Y* = 400.000 / 10.000 = 40 unit."
   },
   {
     "id": "eko-lat-h-07",
@@ -2433,11 +2434,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$T_k = \\text{Rp } 20,-$ per unit, $T_p = \\text{Rp } 0,-$ per unit, dan $\\text{DWL} = \\text{Rp } 100,-$."
+        "text": "$T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 0,-$ karena pasar menyerap pajak secara efisien."
       },
       {
         "key": "B",
-        "text": "$T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 50,-$."
+        "text": "$T_k = \\text{Rp } 20,-$ per unit, $T_p = \\text{Rp } 0,-$ per unit, dan $\\text{DWL} = \\text{Rp } 100,-$."
       },
       {
         "key": "C",
@@ -2449,11 +2450,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 0,-$ karena pasar menyerap pajak secara efisien."
+        "text": "$T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 50,-$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 50,-$.. Cari keseimbangan awal (Q0, P0), lalu tentukan fungsi penawaran baru setelah pajak Ps' = Ps + t. Cari ekuilibrium baru (Qt, Pt). Beban konsumen = Pt - P0. DWL = 0,5 * t * (Q0 - Qt). Q0 = 20, P0 = 60. Ps' = 40 + 2Q -> 100 - 2Q = 40 + 2Q -> Qt = 15, Pt = 70. Tk = 70 - 60 = 10, Tp = 10. DWL = 0,5 * 20 * (20 - 15) = 50."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $T_k = \\text{Rp } 10,-$ per unit, $T_p = \\text{Rp } 10,-$ per unit, dan $\\text{DWL} = \\text{Rp } 50,-$.. Cari keseimbangan awal (Q0, P0), lalu tentukan fungsi penawaran baru setelah pajak Ps' = Ps + t. Cari ekuilibrium baru (Qt, Pt). Beban konsumen = Pt - P0. DWL = 0,5 * t * (Q0 - Qt). Q0 = 20, P0 = 60. Ps' = 40 + 2Q -> 100 - 2Q = 40 + 2Q -> Qt = 15, Pt = 70. Tk = 70 - 60 = 10, Tp = 10. DWL = 0,5 * 20 * (20 - 15) = 50."
   },
   {
     "id": "eko-lat-h-08",
@@ -2476,27 +2477,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_1^* = \\text{Rp } 100,-$ dan $P_2^* = \\text{Rp } 100,-$, karena hukum satu harga (Law of One Price) melarang disparitas tarif antar konsumen ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "$P_1^* = \\text{Rp } 180,-$ dan $P_2^* = \\text{Rp } 120,-$, dengan kuantitas kursi dibatasi separuh kapasitas penerbangan komersial."
       },
       {
         "key": "B",
-        "text": "$P_1^* = \\text{Rp } 80,-$ dan $P_2^* = \\text{Rp } 110,-$, karena wisatawan mengonsumsi fasilitas hiburan tambahan di kabin pesawat."
-      },
-      {
-        "key": "C",
         "text": "$P_1^* = \\text{Rp } 110,-$ dan $P_2^* = \\text{Rp } 80,-$, di mana harga lebih mahal dikenakan pada Pasar 1 karena penumpang bisnis memiliki elastisitas permintaan yang lebih inelastis dibandingkan wisatawan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$P_1^* = \\text{Rp } 140,-$ dan $P_2^* = \\text{Rp } 60,-$, hasil penetapan tarif batas atas oleh kementerian perhubungan."
       },
       {
+        "key": "D",
+        "text": "$P_1^* = \\text{Rp } 80,-$ dan $P_2^* = \\text{Rp } 110,-$, karena wisatawan mengonsumsi fasilitas hiburan tambahan di kabin pesawat."
+      },
+      {
         "key": "E",
-        "text": "$P_1^* = \\text{Rp } 180,-$ dan $P_2^* = \\text{Rp } 120,-$, dengan kuantitas kursi dibatasi separuh kapasitas penerbangan komersial."
+        "text": "$P_1^* = \\text{Rp } 100,-$ dan $P_2^* = \\text{Rp } 100,-$, karena hukum satu harga (Law of One Price) melarang disparitas tarif antar konsumen."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $P_1^* = \\text{Rp } 110,-$ dan $P_2^* = \\text{Rp } 80,-$, di mana harga lebih mahal dikenakan pada Pasar 1 karena penumpang bisnis memiliki elastisitas permintaan yang lebih inelastis dibandingkan wisatawan.. Samakan MR tiap pasar dengan MC: MR1 = MC dan MR2 = MC. Dari situ cari Q1 dan Q2, lalu substitusikan ke P1 dan P2. 200 - 2Q1 = 20 -> Q1 = 90 -> P1 = 110. 140 - 2Q2 = 20 -> Q2 = 60 -> P2 = 80."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $P_1^* = \\text{Rp } 110,-$ dan $P_2^* = \\text{Rp } 80,-$, di mana harga lebih mahal dikenakan pada Pasar 1 karena penumpang bisnis memiliki elastisitas permintaan yang lebih inelastis dibandingkan wisatawan.. Samakan MR tiap pasar dengan MC: MR1 = MC dan MR2 = MC. Dari situ cari Q1 dan Q2, lalu substitusikan ke P1 dan P2. 200 - 2Q1 = 20 -> Q1 = 90 -> P1 = 110. 140 - 2Q2 = 20 -> Q2 = 60 -> P2 = 80."
   },
   {
     "id": "eko-lat-h-09",
@@ -2519,11 +2520,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$t^* = \\text{Rp } 40,-$ per unit barang, yang akan menghentikan seluruh aktivitas operasional pabrik kertas menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "$t^* = \\text{Rp } 30,-$ per unit barang, yang akan menurunkan output dari ekuilibrium pasar bebas $Q_m = 40$ unit menjadi tingkat output optimum sosial $Q^* = 30$ unit."
       },
       {
         "key": "B",
-        "text": "$t^* = \\text{Rp } 20,-$ per unit barang, hasil perhitungan dari biaya marjinal privat awal produsen."
+        "text": "$t^* = \\text{Rp } 40,-$ per unit barang, yang akan menghentikan seluruh aktivitas operasional pabrik kertas akrual."
       },
       {
         "key": "C",
@@ -2531,15 +2532,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$t^* = \\text{Rp } 30,-$ per unit barang, yang akan menurunkan output dari ekuilibrium pasar bebas $Q_m = 40$ unit menjadi tingkat output optimum sosial $Q^* = 30$ unit."
+        "text": "$t^* = \\text{Rp } 50,-$ per unit barang, hasil pembebanan denda administratif tetap tanpa menghitung ekuilibrium."
       },
       {
         "key": "E",
-        "text": "$t^* = \\text{Rp } 50,-$ per unit barang, hasil pembebanan denda administratif tetap tanpa menghitung ekuilibrium."
+        "text": "$t^* = \\text{Rp } 20,-$ per unit barang, hasil perhitungan dari biaya marjinal privat awal produsen."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $t^* = \\text{Rp } 30,-$ per unit barang, yang akan menurunkan output dari ekuilibrium pasar bebas $Q_m = 40$ unit menjadi tingkat output optimum sosial $Q^* = 30$ unit.. Tentukan MSC = MPC + MEC. Samakan MSC = MSB (di mana MSB = P) untuk memperoleh Q optimum sosial Q*. Tarif pajak Pigouvian t* = MEC(Q*). MSC = 40 + 2Q + Q = 40 + 3Q. 40 + 3Q = 160 - Q -> 4Q = 120 -> Q* = 30. Pajak t* = MEC(30) = 30."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $t^* = \\text{Rp } 30,-$ per unit barang, yang akan menurunkan output dari ekuilibrium pasar bebas $Q_m = 40$ unit menjadi tingkat output optimum sosial $Q^* = 30$ unit.. Tentukan MSC = MPC + MEC. Samakan MSC = MSB (di mana MSB = P) untuk memperoleh Q optimum sosial Q*. Tarif pajak Pigouvian t* = MEC(Q*). MSC = 40 + 2Q + Q = 40 + 3Q. 40 + 3Q = 160 - Q -> 4Q = 120 -> Q* = 30. Pajak t* = MEC(30) = 30."
   },
   {
     "id": "eko-lat-h-10",
@@ -2562,11 +2563,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh dana BLT akan langsung dihabiskan untuk konsumsi primer dengan nilai $MPC_t$ sama persis dengan satu diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Perekonomian akan mengalami perangkap likuiditas di mana fungsi konsumsi berubah menjadi garis melengkung ke bawah."
       },
       {
         "key": "B",
-        "text": "Konsumen akan meminjam uang lebih banyak di perbankan karena menganggap dana BLT sebagai kenaikan pendapatan tetap."
+        "text": "Kecenderungan mengonsumsi marjinal dari pendapatan sementara ($MPC_t$) mendekati nol, karena konsumen yang rasional akan menabung sebagian besar dana BLT tersebut untuk meratakan pola konsumsi sepanjang hidupnya (_consumption smoothing_), sehingga dampak pengganda konsumsinya sangat kecil."
       },
       {
         "key": "C",
@@ -2574,15 +2575,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Perekonomian akan mengalami perangkap likuiditas di mana fungsi konsumsi berubah menjadi garis melengkung ke bawah."
+        "text": "Konsumen akan meminjam uang lebih banyak di perbankan karena menganggap dana BLT sebagai kenaikan pendapatan tetap."
       },
       {
         "key": "E",
-        "text": "Kecenderungan mengonsumsi marjinal dari pendapatan sementara ($MPC_t$) mendekati nol, karena konsumen yang rasional akan menabung sebagian besar dana BLT tersebut untuk meratakan pola konsumsi sepanjang hidupnya (_consumption smoothing_), sehingga dampak pengganda konsumsinya sangat kecil."
+        "text": "Seluruh dana BLT akan langsung dihabiskan untuk konsumsi primer dengan nilai $MPC_t$ sama persis dengan satu diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kecenderungan mengonsumsi marjinal dari pendapatan sementara ($MPC_t$) mendekati nol, karena konsumen yang rasional akan menabung sebagian besar dana BLT tersebut untuk meratakan pola konsumsi sepanjang hidupnya (_consumption smoothing_), sehingga dampak pengganda konsumsinya sangat kecil.. Friedman menyatakan konsumsi didorong pendapatan permanen. Pendapatan transitori (sementara seperti BLT) memiliki MPC mendekati nol karena mayoritas ditabung. Pilih opsi: MPC transitori mendekati nol karena konsumen menabung untuk consumption smoothing."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kecenderungan mengonsumsi marjinal dari pendapatan sementara ($MPC_t$) mendekati nol, karena konsumen yang rasional akan menabung sebagian besar dana BLT tersebut untuk meratakan pola konsumsi sepanjang hidupnya (_consumption smoothing_), sehingga dampak pengganda konsumsinya sangat kecil.. Friedman menyatakan konsumsi didorong pendapatan permanen. Pendapatan transitori (sementara seperti BLT) memiliki MPC mendekati nol karena mayoritas ditabung. Pilih opsi: MPC transitori mendekati nol karena konsumen menabung untuk consumption smoothing."
   },
   {
     "id": "eko-lat-h-11",
@@ -2605,27 +2606,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penarikan kas optimal sebesar $C^* = \\text{Rp } 20.000.000,-$ per transaksi dan saldo kas rata-rata yang disimpan dalam dompet adalah $M^* = \\text{Rp } 10.000.000,-$."
-      },
-      {
-        "key": "B",
-        "text": "Penarikan $C^* = \\text{Rp } 40.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 20.000.000,-$ sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
-        "text": "Penarikan $C^* = \\text{Rp } 10.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 5.000.000,-$."
-      },
-      {
-        "key": "D",
         "text": "Penarikan $C^* = \\text{Rp } 30.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 15.000.000,-$."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Penarikan $C^* = \\text{Rp } 50.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 25.000.000,-$."
+      },
+      {
+        "key": "C",
+        "text": "Penarikan $C^* = \\text{Rp } 40.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 20.000.000,-$."
+      },
+      {
+        "key": "D",
+        "text": "Penarikan kas optimal sebesar $C^* = \\text{Rp } 20.000.000,-$ per transaksi dan saldo kas rata-rata yang disimpan dalam dompet adalah $M^* = \\text{Rp } 10.000.000,-$."
+      },
+      {
+        "key": "E",
+        "text": "Penarikan $C^* = \\text{Rp } 10.000.000,-$ dan rata-rata saldo $M^* = \\text{Rp } 5.000.000,-$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penarikan kas optimal sebesar $C^* = \\text{Rp } 20.000.000,-$ per transaksi dan saldo kas rata-rata yang disimpan dalam dompet adalah $M^* = \\text{Rp } 10.000.000,-$.. Formula Baumol-Tobin: C* = sqrt(2FY / r) dan rata-rata saldo kas M* = C* / 2. C* = sqrt(2 * 50.000 * 400 jt / 0,10) = sqrt(4 * 10^14) = 20.000.000. Rata-rata saldo M* = 20 jt / 2 = 10.000.000."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Penarikan kas optimal sebesar $C^* = \\text{Rp } 20.000.000,-$ per transaksi dan saldo kas rata-rata yang disimpan dalam dompet adalah $M^* = \\text{Rp } 10.000.000,-$.. Formula Baumol-Tobin: C* = sqrt(2FY / r) dan rata-rata saldo kas M* = C* / 2. C* = sqrt(2 * 50.000 * 400 jt / 0,10) = sqrt(4 * 10^14) = 20.000.000. Rata-rata saldo M* = 20 jt / 2 = 10.000.000."
   },
   {
     "id": "eko-lat-h-12",
@@ -2648,15 +2649,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Apresiasi (penguatan) sebesar $2,5\\%$, karena suku bunga Indonesia lebih tinggi menarik arus modal masuk permanen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
         "text": "Depresiasi (pelemahan) sebesar $2,5\\%$, yang mengeliminasi selisih keuntungan bunga domestik sehingga imbal hasil yang diharapkan antar kedua negara menjadi seimbang."
       },
       {
+        "key": "B",
+        "text": "Apresiasi (penguatan) sebesar $2,5\\%$, karena suku bunga Indonesia lebih tinggi menarik arus modal masuk permanen."
+      },
+      {
         "key": "C",
-        "text": "Depresiasi sebesar $10,5\\%$, hasil penjumlahan suku bunga nominal kedua negara dalam neraca modal."
+        "text": "Stabilitas mutlak $0\\%$, karena pasar valuta asing selalu berada dalam kondisi nilai tukar riil konstan."
       },
       {
         "key": "D",
@@ -2664,11 +2665,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Stabilitas mutlak $0\\%$, karena pasar valuta asing selalu berada dalam kondisi nilai tukar riil konstan."
+        "text": "Depresiasi sebesar $10,5\\%$, hasil penjumlahan suku bunga nominal kedua negara dalam neraca modal."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Depresiasi (pelemahan) sebesar $2,5\\%$, yang mengeliminasi selisih keuntungan bunga domestik sehingga imbal hasil yang diharapkan antar kedua negara menjadi seimbang.. Formula UIP: i_dom = i_asing + %Ekspektasi Depresiasi. Selisih suku bunga = 6,5% - 4,0% = 2,5% depresiasi rupiah. Pilih: Depresiasi (pelemahan) sebesar 2,5%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Depresiasi (pelemahan) sebesar $2,5\\%$, yang mengeliminasi selisih keuntungan bunga domestik sehingga imbal hasil yang diharapkan antar kedua negara menjadi seimbang.. Formula UIP: i_dom = i_asing + %Ekspektasi Depresiasi. Selisih suku bunga = 6,5% - 4,0% = 2,5% depresiasi rupiah. Pilih: Depresiasi (pelemahan) sebesar 2,5%."
   },
   {
     "id": "eko-lat-h-13",
@@ -2691,11 +2692,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 85.000.000,-, sesuai dengan saldo pembukuan awal kas perusahaan sebelum penyesuaian ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Rp 94.000.000,-, sesuai dengan saldo mutlak rekening koran yang diterbitkan oleh pihak perbankan."
       },
       {
         "key": "B",
-        "text": "Rp 94.000.000,-, sesuai dengan saldo mutlak rekening koran yang diterbitkan oleh pihak perbankan."
+        "text": "Rp 102.000.000,-, hasil penjumlahan seluruh setoran tanpa mengurangkan cek kosong dan beban administrasi."
       },
       {
         "key": "C",
@@ -2707,7 +2708,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp 102.000.000,-, hasil penjumlahan seluruh setoran tanpa mengurangkan cek kosong dan beban administrasi."
+        "text": "Rp 85.000.000,-, sesuai dengan saldo pembukuan awal kas perusahaan sebelum penyesuaian."
       }
     ],
     "correctKey": "C",
@@ -2734,27 +2735,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Metode FIFO menghasilkan nilai Persediaan Akhir lebih rendah dan beban pajak penghasilan yang jauh lebih kecil menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
-        "text": "Kedua metode menghasilkan HPP dan laba bersih yang identik karena standar akuntansi IFRS mewajibkan pembulatan nilai wajar."
-      },
-      {
-        "key": "C",
         "text": "Metode FIFO menghasilkan HPP lebih tinggi sehingga dividen yang dibagikan kepada pemegang saham menjadi berkurang."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Metode FIFO menghasilkan nilai Persediaan Akhir lebih rendah dan beban pajak penghasilan yang jauh lebih kecil akrual."
+      },
+      {
+        "key": "C",
         "text": "Metode FIFO menghasilkan nilai Persediaan Akhir lebih tinggi, HPP lebih rendah, laba kotor lebih tinggi, dan konsekuensinya beban pajak penghasilan (PPh) menjadi lebih besar dibandingkan metode Rata-Rata Tertimbang."
+      },
+      {
+        "key": "D",
+        "text": "Kedua metode menghasilkan HPP dan laba bersih yang identik karena standar akuntansi IFRS mewajibkan pembulatan nilai wajar."
       },
       {
         "key": "E",
         "text": "Metode Weighted Average menghasilkan nilai laba kotor tertinggi karena menggunakan harga pembelian paling mutakhir."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Metode FIFO menghasilkan nilai Persediaan Akhir lebih tinggi, HPP lebih rendah, laba kotor lebih tinggi, dan konsekuensinya beban pajak penghasilan (PPh) menjadi lebih besar dibandingkan metode Rata-Rata Tertimbang.. Saat harga naik: FIFO mengeluarkan barang lama yang murah untuk HPP -> HPP rendah -> Laba tinggi -> Pajak tinggi -> Nilai stok akhir tinggi (barang baru yang mahal). Pilih opsi: Nilai Persediaan Akhir lebih tinggi, HPP lebih rendah, dan beban pajak penghasilan lebih besar."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Metode FIFO menghasilkan nilai Persediaan Akhir lebih tinggi, HPP lebih rendah, laba kotor lebih tinggi, dan konsekuensinya beban pajak penghasilan (PPh) menjadi lebih besar dibandingkan metode Rata-Rata Tertimbang.. Saat harga naik: FIFO mengeluarkan barang lama yang murah untuk HPP -> HPP rendah -> Laba tinggi -> Pajak tinggi -> Nilai stok akhir tinggi (barang baru yang mahal). Pilih opsi: Nilai Persediaan Akhir lebih tinggi, HPP lebih rendah, dan beban pajak penghasilan lebih besar."
   },
   {
     "id": "eko-lat-h-15",
@@ -2777,15 +2778,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 8.000.000,-, tepat sebesar kas bunga kupon nominal yang dibayarkan kepada investor obligasi diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Rp 9.241.800,-, terdiri atas pembayaran kupon tunai Rp 8.000.000,- dan amortisasi diskonto obligasi penambah nilai tercatat sebesar Rp 1.241.800,-."
       },
       {
         "key": "B",
-        "text": "Rp 10.000.000,-, hasil perkalian suku bunga efektif pasar dengan nilai nominal penuh obligasi."
+        "text": "Rp 1.516.400,-, hasil pembagian garis lurus total diskonto obligasi selama lima tahun masa edar."
       },
       {
         "key": "C",
-        "text": "Rp 1.516.400,-, hasil pembagian garis lurus total diskonto obligasi selama lima tahun masa edar."
+        "text": "Rp 8.000.000,-, tepat sebesar kas bunga kupon nominal yang dibayarkan kepada investor obligasi diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "D",
@@ -2793,11 +2794,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rp 9.241.800,-, terdiri atas pembayaran kupon tunai Rp 8.000.000,- dan amortisasi diskonto obligasi penambah nilai tercatat sebesar Rp 1.241.800,-."
+        "text": "Rp 10.000.000,-, hasil perkalian suku bunga efektif pasar dengan nilai nominal penuh obligasi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rp 9.241.800,-, terdiri atas pembayaran kupon tunai Rp 8.000.000,- dan amortisasi diskonto obligasi penambah nilai tercatat sebesar Rp 1.241.800,-.. Beban bunga efektif = Nilai tercatat awal obligasi x Suku bunga pasar = 92.418.000 x 10% = 9.241.800. Kas kupon = 8% x 100 jt = 8.000.000. Pilih: Rp 9.241.800,-."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Rp 9.241.800,-, terdiri atas pembayaran kupon tunai Rp 8.000.000,- dan amortisasi diskonto obligasi penambah nilai tercatat sebesar Rp 1.241.800,-.. Beban bunga efektif = Nilai tercatat awal obligasi x Suku bunga pasar = 92.418.000 x 10% = 9.241.800. Kas kupon = 8% x 100 jt = 8.000.000. Pilih: Rp 9.241.800,-."
   },
   {
     "id": "eko-lat-h-16",
@@ -2824,7 +2825,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pengusaha diwajibkan oleh undang-undang antimonopoli internasional untuk membagi seluruh dividen kepada buruh harian sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Pemerintah memberikan subsidi tunai langsung kepada pengusaha sebesar selisih upah minimum dan upah pasar."
       },
       {
         "key": "C",
@@ -2832,11 +2833,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pemerintah memberikan subsidi tunai langsung kepada pengusaha sebesar selisih upah minimum dan upah pasar."
+        "text": "Tingkat inflasi yang tinggi secara otomatis melipatgandakan daya beli riil upah tanpa campur tangan manajemen."
       },
       {
         "key": "E",
-        "text": "Tingkat inflasi yang tinggi secara otomatis melipatgandakan daya beli riil upah tanpa campur tangan manajemen."
+        "text": "Pengusaha diwajibkan oleh undang-undang antimonopoli internasional untuk membagi seluruh dividen kepada buruh harian."
       }
     ],
     "correctKey": "A",
@@ -2863,7 +2864,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kedua perusahaan memilih Harga Tinggi secara diam-diam sehingga Keseimbangan Nash menghasilkan laba optimal Rp 100 Miliar sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Tidak ada strategi dominan bagi kedua perusahaan sehingga keseimbangan hanya dapat dicapai melalui undian probabilitas acak."
       },
       {
         "key": "B",
@@ -2871,15 +2872,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Perusahaan Alpha memilih Harga Rendah sedangkan Beta memilih Harga Tinggi sehingga Keseimbangan Nash tidak pernah stabil."
+        "text": "Keseimbangan Nash tercapai saat kedua perusahaan menghentikan perang tarif dan menyerahkan pangsa pasar kepada BUMN."
       },
       {
         "key": "D",
-        "text": "Tidak ada strategi dominan bagi kedua perusahaan sehingga keseimbangan hanya dapat dicapai melalui undian probabilitas acak."
+        "text": "Kedua perusahaan memilih Harga Tinggi secara diam-diam sehingga Keseimbangan Nash menghasilkan laba optimal Rp 100 Miliar."
       },
       {
         "key": "E",
-        "text": "Keseimbangan Nash tercapai saat kedua perusahaan menghentikan perang tarif dan menyerahkan pangsa pasar kepada BUMN."
+        "text": "Perusahaan Alpha memilih Harga Rendah sedangkan Beta memilih Harga Tinggi sehingga Keseimbangan Nash tidak pernah stabil."
       }
     ],
     "correctKey": "B",
@@ -2906,11 +2907,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "_Adverse Selection_ terjadi setelah klaim asuransi cair, sedangkan _Moral Hazard_ terjadi saat pendaftaran polis pertama kali ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "_Adverse Selection_ hanya dialami oleh lembaga perbankan negara, sedangkan _Moral Hazard_ murni fenomena di pasar modal swasta."
       },
       {
         "key": "B",
-        "text": "_Adverse Selection_ hanya dialami oleh lembaga perbankan negara, sedangkan _Moral Hazard_ murni fenomena di pasar modal swasta."
+        "text": "_Adverse Selection_ terjadi saat suku bunga acuan dipangkas, sedangkan _Moral Hazard_ terjadi saat bank sentral menaikkan giro wajib minimum."
       },
       {
         "key": "C",
@@ -2918,11 +2919,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "_Adverse Selection_ terjadi saat suku bunga acuan dipangkas, sedangkan _Moral Hazard_ terjadi saat bank sentral menaikkan giro wajib minimum."
+        "text": "Kedua fenomena terjadi serentak sebelum penandatanganan akad dan hanya dapat diatasi dengan pembubaran perusahaan asuransi."
       },
       {
         "key": "E",
-        "text": "Kedua fenomena terjadi serentak sebelum penandatanganan akad dan hanya dapat diatasi dengan pembubaran perusahaan asuransi."
+        "text": "_Adverse Selection_ terjadi setelah klaim asuransi cair, sedangkan _Moral Hazard_ terjadi saat pendaftaran polis pertama kali."
       }
     ],
     "correctKey": "C",
@@ -2949,27 +2950,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pendapatan nasional tidak berubah sama sekali ($\\Delta Y = 0$) karena kenaikan belanja negara dihapus tuntas oleh kenaikan pajak menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Pendapatan nasional meningkat sebesar $\\Delta Y = \\text{Rp } 75 \\text{ Triliun}$, tepat sebesar proporsi koefisien MPC belanja."
       },
       {
         "key": "B",
-        "text": "Pendapatan nasional meningkat sebesar $\\Delta Y = \\text{Rp } 400 \\text{ Triliun}$, mengikuti multiplier belanja pemerintah murni."
+        "text": "Pendapatan nasional tidak berubah sama sekali ($\\Delta Y = 0$) karena kenaikan belanja negara dihapus tuntas oleh kenaikan pajak akrual."
       },
       {
         "key": "C",
-        "text": "Pendapatan nasional justru merosot sebesar $\\Delta Y = -\\text{Rp } 100 \\text{ Triliun}$ akibat kontraksi konsumsi masyarakat berpendapatan rendah."
-      },
-      {
-        "key": "D",
         "text": "Pendapatan nasional bertambah tepat sebesar $\\Delta Y = \\text{Rp } 100 \\text{ Triliun}$, karena nilai angka pengganda anggaran berimbang (_Balanced Budget Multiplier_) selalu bernilai tepat sama dengan satu ($k_{bb} = 1$)."
       },
       {
+        "key": "D",
+        "text": "Pendapatan nasional justru merosot sebesar $\\Delta Y = -\\text{Rp } 100 \\text{ Triliun}$ akibat kontraksi konsumsi masyarakat berpendapatan rendah."
+      },
+      {
         "key": "E",
-        "text": "Pendapatan nasional meningkat sebesar $\\Delta Y = \\text{Rp } 75 \\text{ Triliun}$, tepat sebesar proporsi koefisien MPC belanja."
+        "text": "Pendapatan nasional meningkat sebesar $\\Delta Y = \\text{Rp } 400 \\text{ Triliun}$, mengikuti multiplier belanja pemerintah murni."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pendapatan nasional bertambah tepat sebesar $\\Delta Y = \\text{Rp } 100 \\text{ Triliun}$, karena nilai angka pengganda anggaran berimbang (_Balanced Budget Multiplier_) selalu bernilai tepat sama dengan satu ($k_{bb} = 1$).. Teorema Balanced Budget Multiplier: k_bb = k_G + k_T = 1/(1-MPC) - MPC/(1-MPC) = (1-MPC)/(1-MPC) = 1. Jadi Delta Y = 1 x Delta G = 100 Triliun. Pilih: Pendapatan nasional bertambah tepat sebesar Rp 100 Triliun (k_bb = 1)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pendapatan nasional bertambah tepat sebesar $\\Delta Y = \\text{Rp } 100 \\text{ Triliun}$, karena nilai angka pengganda anggaran berimbang (_Balanced Budget Multiplier_) selalu bernilai tepat sama dengan satu ($k_{bb} = 1$).. Teorema Balanced Budget Multiplier: k_bb = k_G + k_T = 1/(1-MPC) - MPC/(1-MPC) = (1-MPC)/(1-MPC) = 1. Jadi Delta Y = 1 x Delta G = 100 Triliun. Pilih: Pendapatan nasional bertambah tepat sebesar Rp 100 Triliun (k_bb = 1)."
   },
   {
     "id": "eko-lat-h-20",
@@ -2992,11 +2993,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva melengkung menurun dari kiri atas ke kanan bawah secara permanen di segala horizon waktu diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Kurva melengkung menurun dari kiri atas ke kanan bawah secara permanen di segala horizon waktu diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "B",
-        "text": "Garis lurus horizontal sempurna pada tingkat suku bunga netral bank sentral."
+        "text": "Garis lurus vertikal sempurna tepat pada Tingkat Pengangguran Alami (Non-Accelerating Inflation Rate of Unemployment / NAIRU), yang menegaskan bahwa dalam jangka panjang tidak ada pertukaran (_trade-off_) permanen antara inflasi dan pengangguran."
       },
       {
         "key": "C",
@@ -3004,15 +3005,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Garis diagonal positif bergerak selaras dengan laju pertumbuhan Produk Domestik Bruto riil."
+        "text": "Garis lurus horizontal sempurna pada tingkat suku bunga netral bank sentral."
       },
       {
         "key": "E",
-        "text": "Garis lurus vertikal sempurna tepat pada Tingkat Pengangguran Alami (Non-Accelerating Inflation Rate of Unemployment / NAIRU), yang menegaskan bahwa dalam jangka panjang tidak ada pertukaran (_trade-off_) permanen antara inflasi dan pengangguran."
+        "text": "Garis diagonal positif bergerak selaras dengan laju pertumbuhan Produk Domestik Bruto riil."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Garis lurus vertikal sempurna tepat pada Tingkat Pengangguran Alami (Non-Accelerating Inflation Rate of Unemployment / NAIRU), yang menegaskan bahwa dalam jangka panjang tidak ada pertukaran (_trade-off_) permanen antara inflasi dan pengangguran.. Jangka panjang Kurva Phillips berbentuk vertikal di tingkat pengangguran alami (NAIRU). Tidak ada trade-off permanen antara inflasi dan pengangguran. Pilih: Garis lurus vertikal sempurna pada tingkat pengangguran alami (NAIRU)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Garis lurus vertikal sempurna tepat pada Tingkat Pengangguran Alami (Non-Accelerating Inflation Rate of Unemployment / NAIRU), yang menegaskan bahwa dalam jangka panjang tidak ada pertukaran (_trade-off_) permanen antara inflasi dan pengangguran.. Jangka panjang Kurva Phillips berbentuk vertikal di tingkat pengangguran alami (NAIRU). Tidak ada trade-off permanen antara inflasi dan pengangguran. Pilih: Garis lurus vertikal sempurna pada tingkat pengangguran alami (NAIRU)."
   },
   {
     "id": "eko-lat-h-21",
@@ -3039,11 +3040,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sekutu Arya menerima Rp 24.000.000,- dan Sekutu Bayu menerima Rp 16.000.000,-."
+        "text": "Sekutu Arya menerima Rp 35.000.000,- dan Sekutu Bayu menerima Rp 5.000.000,-."
       },
       {
         "key": "C",
-        "text": "Sekutu Arya menerima Rp 20.000.000,- dan Sekutu Bayu menerima Rp 20.000.000,-."
+        "text": "Sekutu Arya menerima Rp 24.000.000,- dan Sekutu Bayu menerima Rp 16.000.000,-."
       },
       {
         "key": "D",
@@ -3051,7 +3052,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sekutu Arya menerima Rp 35.000.000,- dan Sekutu Bayu menerima Rp 5.000.000,-."
+        "text": "Sekutu Arya menerima Rp 20.000.000,- dan Sekutu Bayu menerima Rp 20.000.000,-."
       }
     ],
     "correctKey": "A",
@@ -3078,27 +3079,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{NPV} = -\\text{Rp } 5,4200 \\text{ Miliar}$, sehingga proyek dinyatakan ditolak karena merugikan keuangan negara sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
-        "text": "$\\text{NPV} = +\\text{Rp } 1,9629 \\text{ Miliar}$ (atau $+\\text{Rp } 1.962.900.000,-$), sehingga proyek investasi dinyatakan **Layak Diterima** karena $\\text{NPV} > 0$."
-      },
-      {
-        "key": "C",
-        "text": "$\\text{NPV} = +\\text{Rp } 23,0000 \\text{ Miliar}$, dihitung dari akumulasi kas masuk bruto tanpa memperhitungkan faktor nilai waktu uang."
-      },
-      {
-        "key": "D",
         "text": "$\\text{NPV} = 0$, sehingga proyek berada dalam posisi titik impas tanpa nilai tambah ekonomi."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\text{NPV} = +\\text{Rp } 23,0000 \\text{ Miliar}$, dihitung dari akumulasi kas masuk bruto tanpa memperhitungkan faktor nilai waktu uang."
+      },
+      {
+        "key": "C",
         "text": "$\\text{NPV} = +\\text{Rp } 9,4500 \\text{ Miliar}$, hasil pemotongan diskonto suku bunga majemuk flat lima persen."
+      },
+      {
+        "key": "D",
+        "text": "$\\text{NPV} = -\\text{Rp } 5,4200 \\text{ Miliar}$, sehingga proyek dinyatakan ditolak karena merugikan keuangan negara."
+      },
+      {
+        "key": "E",
+        "text": "$\\text{NPV} = +\\text{Rp } 1,9629 \\text{ Miliar}$ (atau $+\\text{Rp } 1.962.900.000,-$), sehingga proyek investasi dinyatakan **Layak Diterima** karena $\\text{NPV} > 0$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\text{NPV} = +\\text{Rp } 1,9629 \\text{ Miliar}$ (atau $+\\text{Rp } 1.962.900.000,-$), sehingga proyek investasi dinyatakan **Layak Diterima** karena $\\text{NPV} > 0$.. NPV = Total PV Arus Kas Masuk - Investasi Awal. Jika NPV > 0 maka proyek layak diterima. Pilih opsi kelayakan: Proyek layak diterima karena NPV bernilai positif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\text{NPV} = +\\text{Rp } 1,9629 \\text{ Miliar}$ (atau $+\\text{Rp } 1.962.900.000,-$), sehingga proyek investasi dinyatakan **Layak Diterima** karena $\\text{NPV} > 0$.. NPV = Total PV Arus Kas Masuk - Investasi Awal. Jika NPV > 0 maka proyek layak diterima. Pilih opsi kelayakan: Proyek layak diterima karena NPV bernilai positif."
   },
   {
     "id": "eko-lat-h-23",
@@ -3121,11 +3122,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$V_L = V_U - T_c \\cdot D$, di mana penggunaan utang selalu menurunkan nilai perusahaan akibat ancaman kebangkrutan seketika ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "$V_L = V_U - T_c \\cdot D$, di mana penggunaan utang selalu menurunkan nilai perusahaan akibat ancaman kebangkrutan seketika."
       },
       {
         "key": "B",
-        "text": "$V_L = V_U$, di mana struktur modal tidak memiliki pengaruh sedikit pun terhadap nilai pasar perusahaan dalam segala kondisi."
+        "text": "$V_L = D \\times (1 + k_e)$, di mana nilai perusahaan ditentukan secara independen oleh ekspektasi pengembalian modal saham."
       },
       {
         "key": "C",
@@ -3137,7 +3138,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$V_L = D \\times (1 + k_e)$, di mana nilai perusahaan ditentukan secara independen oleh ekspektasi pengembalian modal saham."
+        "text": "$V_L = V_U$, di mana struktur modal tidak memiliki pengaruh sedikit pun terhadap nilai pasar perusahaan dalam segala kondisi."
       }
     ],
     "correctKey": "C",
@@ -3164,7 +3165,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{WACC} = 13,0\\%$, hasil perhitungan tanpa mengurangkan perisai pajak bunga atas utang menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "$\\text{WACC} = 14,25\\%$, hasil penambahan tarif pajak badan ke dalam beban modal saham."
       },
       {
         "key": "B",
@@ -3172,7 +3173,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\text{WACC} = 10,0\\%$, hasil kesalahan pembobotan yang didominasi oleh instrumen utang komersial."
+        "text": "$\\text{WACC} = 13,0\\%$, hasil perhitungan tanpa mengurangkan perisai pajak bunga atas utang akrual."
       },
       {
         "key": "D",
@@ -3180,7 +3181,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{WACC} = 14,25\\%$, hasil penambahan tarif pajak badan ke dalam beban modal saham."
+        "text": "$\\text{WACC} = 10,0\\%$, hasil kesalahan pembobotan yang didominasi oleh instrumen utang komersial."
       }
     ],
     "correctKey": "D",
@@ -3207,15 +3208,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat pendapatan per kapita nominal, angka kelahiran kasar, dan rasio kepemilikan kendaraan bermotor per rumah tangga diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
-      },
-      {
-        "key": "B",
         "text": "Tingkat inflasi tahunan, cadangan devisa bank sentral, dan angka melek huruf penduduk dewasa."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Penerimaan pajak daerah, panjang jalan tol beraspal, dan rasio tempat tidur rumah sakit per kapita."
+      },
+      {
+        "key": "C",
+        "text": "Tingkat pendapatan per kapita nominal, angka kelahiran kasar, dan rasio kepemilikan kendaraan bermotor per rumah tangga diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "D",
@@ -3223,7 +3224,7 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "1. Dimensi Kesehatan: Umur Harapan Hidup saat Lahir (UHH);\n2. Dimensi Pendidikan: Harapan Lama Sekolah (HLS) dan Rata-rata Lama Sekolah (RLS);\n3. Dimensi Standar Hidup Layak: Pengeluaran Riil per Kapita yang Disesuaikan (daya beli PPP);\ndengan penggabungan menggunakan rata-rata geometrik."
+        "text": "1. Dimensi Kesehatan: Umur Harapan Hidup saat Lahir (UHH); 2. Dimensi Pendidikan: Harapan Lama Sekolah (HLS) dan Rata-rata Lama Sekolah (RLS); 3. Dimensi Standar Hidup Layak: Pengeluaran Riil per Kapita yang Disesuaikan (daya beli PPP); dengan penggabungan menggunakan rata-rata geometrik."
       }
     ],
     "correctKey": "E",
@@ -3250,27 +3251,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 8.000.000,-."
+        "text": "Laba Akuntansi sebesar Rp 368.000.000,- dan Laba Ekonomi sebesar Rp 20.000.000,-."
       },
       {
         "key": "B",
-        "text": "Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 380.000.000,-."
-      },
-      {
-        "key": "C",
-        "text": "Laba Akuntansi sebesar Rp 220.000.000,- dan Laba Ekonomi sebesar -Rp 152.000.000,- (Rugi Ekonomi)."
-      },
-      {
-        "key": "D",
         "text": "Laba Akuntansi sebesar Rp 600.000.000,- dan Laba Ekonomi sebesar Rp 228.000.000,-."
       },
       {
+        "key": "C",
+        "text": "Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 8.000.000,-."
+      },
+      {
+        "key": "D",
+        "text": "Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 380.000.000,-."
+      },
+      {
         "key": "E",
-        "text": "Laba Akuntansi sebesar Rp 368.000.000,- dan Laba Ekonomi sebesar Rp 20.000.000,-."
+        "text": "Laba Akuntansi sebesar Rp 220.000.000,- dan Laba Ekonomi sebesar -Rp 152.000.000,- (Rugi Ekonomi)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 8.000.000,-.. Laba akuntansi = TR - Biaya eksplisit = 600 jt - 220 jt = 380 jt. Biaya implisit = Gaji setahun (360 jt) + Bunga deposito (12 jt) = 372 jt. Laba ekonomi = 380 jt - 372 jt = 8 jt. Pilih: Laba Akuntansi Rp 380.000.000,- dan Laba Ekonomi Rp 8.000.000,-."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Laba Akuntansi sebesar Rp 380.000.000,- dan Laba Ekonomi sebesar Rp 8.000.000,-.. Laba akuntansi = TR - Biaya eksplisit = 600 jt - 220 jt = 380 jt. Biaya implisit = Gaji setahun (360 jt) + Bunga deposito (12 jt) = 372 jt. Laba ekonomi = 380 jt - 372 jt = 8 jt. Pilih: Laba Akuntansi Rp 380.000.000,- dan Laba Ekonomi Rp 8.000.000,-."
   },
   {
     "id": "eko-sim-02",
@@ -3293,27 +3294,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_c = -2,0$ (bernilai negatif), menunjukkan bahwa kedua barang tersebut merupakan barang komplementer (saling melengkapi) sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
-        "text": "$E_c = +2,0$ (bernilai positif), menunjukkan bahwa kompor listrik induksi dan gas elpiji memiliki hubungan sebagai barang substitusi (saling menggantikan)."
-      },
-      {
-        "key": "C",
         "text": "$E_c = +0,5$, menunjukkan bahwa hubungan substitusi antara kedua produk sangat lemah dan mendekati netral."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$E_c = -0,5$, menunjukkan bahwa kenaikan harga elpiji memangkas daya beli konsumsi kompor listrik."
+      },
+      {
+        "key": "C",
         "text": "$E_c = 0$, menunjukkan bahwa kompor listrik dan gas elpiji merupakan barang independen yang tidak berhubungan."
       },
       {
+        "key": "D",
+        "text": "$E_c = -2,0$ (bernilai negatif), menunjukkan bahwa kedua barang tersebut merupakan barang komplementer (saling melengkapi)."
+      },
+      {
         "key": "E",
-        "text": "$E_c = -0,5$, menunjukkan bahwa kenaikan harga elpiji memangkas daya beli konsumsi kompor listrik."
+        "text": "$E_c = +2,0$ (bernilai positif), menunjukkan bahwa kompor listrik induksi dan gas elpiji memiliki hubungan sebagai barang substitusi (saling menggantikan)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $E_c = +2,0$ (bernilai positif), menunjukkan bahwa kompor listrik induksi dan gas elpiji memiliki hubungan sebagai barang substitusi (saling menggantikan).. Elastisitas silang E_c = %Delta Q / %Delta P = +50% / +25% = +2,0. Tanda positif menandakan barang substitusi. Pilih: Ec = +2,0 (positif), barang substitusi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $E_c = +2,0$ (bernilai positif), menunjukkan bahwa kompor listrik induksi dan gas elpiji memiliki hubungan sebagai barang substitusi (saling menggantikan).. Elastisitas silang E_c = %Delta Q / %Delta P = +50% / +25% = +2,0. Tanda positif menandakan barang substitusi. Pilih: Ec = +2,0 (positif), barang substitusi."
   },
   {
     "id": "eko-sim-03",
@@ -3336,15 +3337,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Q_s = 20$ unit, $P_s = \\text{Rp } 80,-$, dan total pengeluaran subsidi pemerintah adalah Rp 200,- ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "$Q_s = 22$ unit, $P_s = \\text{Rp } 76,-$, dan total pengeluaran subsidi pemerintah adalah Rp 220,-."
       },
       {
         "key": "B",
-        "text": "$Q_s = 25$ unit, $P_s = \\text{Rp } 70,-$, dan total pengeluaran subsidi pemerintah adalah Rp 250,-."
+        "text": "$Q_s = 24$ unit, $P_s = \\text{Rp } 72,-$, dan total pengeluaran subsidi pemerintah adalah Rp 240,-."
       },
       {
         "key": "C",
-        "text": "$Q_s = 22$ unit, $P_s = \\text{Rp } 76,-$, dan total pengeluaran subsidi pemerintah adalah Rp 220,-."
+        "text": "$Q_s = 20$ unit, $P_s = \\text{Rp } 80,-$, dan total pengeluaran subsidi pemerintah adalah Rp 200,-."
       },
       {
         "key": "D",
@@ -3352,11 +3353,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$Q_s = 24$ unit, $P_s = \\text{Rp } 72,-$, dan total pengeluaran subsidi pemerintah adalah Rp 240,-."
+        "text": "$Q_s = 25$ unit, $P_s = \\text{Rp } 70,-$, dan total pengeluaran subsidi pemerintah adalah Rp 250,-."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $Q_s = 22$ unit, $P_s = \\text{Rp } 76,-$, dan total pengeluaran subsidi pemerintah adalah Rp 220,-.. Fungsi penawaran baru setelah subsidi: Ps' = Ps - s = (20 + 3Q) - 10 = 10 + 3Q. Samakan dengan permintaan Pd = 120 - 2Q. 120 - 2Q = 10 + 3Q -> 5Q = 110 -> Qs = 22. Ps = 120 - 2(22) = 76. Total Subsidi = 10 * 22 = 220."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $Q_s = 22$ unit, $P_s = \\text{Rp } 76,-$, dan total pengeluaran subsidi pemerintah adalah Rp 220,-.. Fungsi penawaran baru setelah subsidi: Ps' = Ps - s = (20 + 3Q) - 10 = 10 + 3Q. Samakan dengan permintaan Pd = 120 - 2Q. 120 - 2Q = 10 + 3Q -> 5Q = 110 -> Qs = 22. Ps = 120 - 2(22) = 76. Total Subsidi = 10 * 22 = 220."
   },
   {
     "id": "eko-sim-04",
@@ -3379,27 +3380,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurva Konsumsi Harga (Price Consumption Curve / PCC), yang kemudian diturunkan menjadi Kurva Permintaan Individu menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC), yang jika ditransformasikan ke diagram hubungan antara tingkat pendapatan dan jumlah pembelian barang $X$ akan menghasilkan Kurva Engel."
       },
       {
         "key": "B",
-        "text": "Kurva Kemungkinan Produksi (PPF), yang menunjukkan batas pertukaran teknologi dan sumber daya fisik."
-      },
-      {
-        "key": "C",
         "text": "Kurva Isocost, yang menggambarkan kombinasi anggaran biaya faktor produksi modal dan tenaga kerja."
       },
       {
+        "key": "C",
+        "text": "Kurva Kemungkinan Produksi (PPF), yang menunjukkan batas pertukaran teknologi dan sumber daya fisik."
+      },
+      {
         "key": "D",
-        "text": "Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC), yang jika ditransformasikan ke diagram hubungan antara tingkat pendapatan dan jumlah pembelian barang $X$ akan menghasilkan Kurva Engel."
+        "text": "Kurva Konsumsi Harga (Price Consumption Curve / PCC), yang kemudian diturunkan menjadi Kurva Permintaan Individu akrual."
       },
       {
         "key": "E",
         "text": "Kurva Batas Kemakmuran Sosial (Social Welfare Function), yang menghubungkan titik-titik pareto optimal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC), yang jika ditransformasikan ke diagram hubungan antara tingkat pendapatan dan jumlah pembelian barang $X$ akan menghasilkan Kurva Engel.. Kurva yang menghubungkan titik keseimbangan saat pendapatan berubah adalah ICC (Income Consumption Curve), yang ditransformasikan menjadi Kurva Engel. Pilih: Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC) dan Kurva Engel."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC), yang jika ditransformasikan ke diagram hubungan antara tingkat pendapatan dan jumlah pembelian barang $X$ akan menghasilkan Kurva Engel.. Kurva yang menghubungkan titik keseimbangan saat pendapatan berubah adalah ICC (Income Consumption Curve), yang ditransformasikan menjadi Kurva Engel. Pilih: Kurva Konsumsi Pendapatan (Income Consumption Curve / ICC) dan Kurva Engel."
   },
   {
     "id": "eko-sim-05",
@@ -3422,27 +3423,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tahap I (Tahap Irasional), karena pada tahap ini nilai produksi marjinal $MP$ masih terus mengalami kenaikan tajam di atas nilai rata-rata diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
-      },
-      {
-        "key": "B",
         "text": "Tahap III (Tahap Irasional), karena penambahan tenaga kerja telah menghasilkan nilai $MP$ negatif yang menghemat beban upah buruh."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Tepat pada titik awal saat jumlah tenaga kerja pertama kali dimasukkan ke dalam pabrik tanpa modal pendamping."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Tahap di mana kurva AP bernilai negatif dan kurva TP berbentuk garis lurus vertikal sejajar sumbu tegak."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Tahap II (Tahap Rasional), yang dimulai dari titik saat $AP$ mencapai nilai maksimum ($MP = AP$) hingga saat $MP = 0$ (saat $TP$ mencapai nilai maksimum), di mana elastisitas output berada pada rentang $0 \\le E_p \\le 1$."
+      },
+      {
+        "key": "E",
+        "text": "Tahap I (Tahap Irasional), karena pada tahap ini nilai produksi marjinal $MP$ masih terus mengalami kenaikan tajam di atas nilai rata-rata diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tahap II (Tahap Rasional), yang dimulai dari titik saat $AP$ mencapai nilai maksimum ($MP = AP$) hingga saat $MP = 0$ (saat $TP$ mencapai nilai maksimum), di mana elastisitas output berada pada rentang $0 \\le E_p \\le 1$.. Produsen rasional selalu beroperasi di Tahap II (dari AP maks / MP=AP sampai TP maks / MP=0, di mana 0 <= Ep <= 1). Pilih: Tahap II (Tahap Rasional), dari AP maksimum (MP = AP) hingga MP = 0 (TP maksimum)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tahap II (Tahap Rasional), yang dimulai dari titik saat $AP$ mencapai nilai maksimum ($MP = AP$) hingga saat $MP = 0$ (saat $TP$ mencapai nilai maksimum), di mana elastisitas output berada pada rentang $0 \\le E_p \\le 1$.. Produsen rasional selalu beroperasi di Tahap II (dari AP maks / MP=AP sampai TP maks / MP=0, di mana 0 <= Ep <= 1). Pilih: Tahap II (Tahap Rasional), dari AP maksimum (MP = AP) hingga MP = 0 (TP maksimum)."
   },
   {
     "id": "eko-sim-06",
@@ -3465,27 +3466,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P \\ge AVC_{\\min}$ (harga pasar masih mampu menutup seluruh Biaya Variabel Rata-rata minimum), sehingga pendapatan penjualan masih dapat memberikan kontribusi untuk menutup sebagian Biaya Tetap ($FC$)."
+        "text": "$P < AVC_{\\min}$, karena perusahaan dapat meminjam dana darurat kepada bank tanpa batas waktu."
       },
       {
         "key": "B",
-        "text": "$P < AVC_{\\min}$, karena perusahaan dapat meminjam dana darurat kepada bank tanpa batas waktu sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "$P = ATC_{\\min}$, di mana perusahaan memperoleh laba supernormal sepuluh persen di atas biaya total."
       },
       {
+        "key": "C",
+        "text": "$P < AFC$, karena biaya tetap tidak perlu dibayar jika perusahaan beroperasi di bawah kapasitas normal."
+      },
+      {
         "key": "D",
-        "text": "$P = MC$ pada saat kurva biaya marjinal berada tepat di bawah titik nol absolut."
+        "text": "$P \\ge AVC_{\\min}$ (harga pasar masih mampu menutup seluruh Biaya Variabel Rata-rata minimum), sehingga pendapatan penjualan masih dapat memberikan kontribusi untuk menutup sebagian Biaya Tetap ($FC$)."
       },
       {
         "key": "E",
-        "text": "$P < AFC$, karena biaya tetap tidak perlu dibayar jika perusahaan beroperasi di bawah kapasitas normal."
+        "text": "$P = MC$ pada saat kurva biaya marjinal berada tepat di bawah titik nol absolut."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $P \\ge AVC_{\\min}$ (harga pasar masih mampu menutup seluruh Biaya Variabel Rata-rata minimum), sehingga pendapatan penjualan masih dapat memberikan kontribusi untuk menutup sebagian Biaya Tetap ($FC$).. Perusahaan tetap beroperasi jangka pendek meski rugi asalkan harga P masih di atas AVC minimum (P >= AVC_min). Titik P = AVC_min adalah Titik Tutup Usaha (Shut-down Point). Pilih opsi: P >= AVC_min (harga masih menutup seluruh Biaya Variabel Rata-rata minimum)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $P \\ge AVC_{\\min}$ (harga pasar masih mampu menutup seluruh Biaya Variabel Rata-rata minimum), sehingga pendapatan penjualan masih dapat memberikan kontribusi untuk menutup sebagian Biaya Tetap ($FC$).. Perusahaan tetap beroperasi jangka pendek meski rugi asalkan harga P masih di atas AVC minimum (P >= AVC_min). Titik P = AVC_min adalah Titik Tutup Usaha (Shut-down Point). Pilih opsi: P >= AVC_min (harga masih menutup seluruh Biaya Variabel Rata-rata minimum)."
   },
   {
     "id": "eko-sim-07",
@@ -3508,27 +3509,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$L = 0,25$, dengan elastisitas harga permintaan $|E_d| = 4,00$ sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "B",
-        "text": "$L = 0,75$ (menunjukkan kekuatan monopoli yang sangat tinggi), dengan elastisitas harga permintaan $|E_d| = 1,33$."
-      },
-      {
-        "key": "C",
-        "text": "$L = 0,50$, dengan elastisitas harga permintaan $|E_d| = 2,00$."
-      },
-      {
-        "key": "D",
         "text": "$L = 1,00$, dengan elastisitas harga permintaan $|E_d| = 1,00$ (elastis uniter)."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$L = 0,50$, dengan elastisitas harga permintaan $|E_d| = 2,00$."
+      },
+      {
+        "key": "C",
         "text": "$L = 0$, yang menunjukkan bahwa perusahaan tidak memiliki kekuatan monopoli sama sekali."
+      },
+      {
+        "key": "D",
+        "text": "$L = 0,75$ (menunjukkan kekuatan monopoli yang sangat tinggi), dengan elastisitas harga permintaan $|E_d| = 1,33$."
+      },
+      {
+        "key": "E",
+        "text": "$L = 0,25$, dengan elastisitas harga permintaan $|E_d| = 4,00$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $L = 0,75$ (menunjukkan kekuatan monopoli yang sangat tinggi), dengan elastisitas harga permintaan $|E_d| = 1,33$.. Indeks Lerner L = (P - MC) / P = (100 - 25) / 100 = 75/100 = 0,75. Hubungan elastisitas L = 1 / |Ed| -> |Ed| = 1 / 0,75 = 1,33. Pilih: L = 0,75 dengan elastisitas |Ed| = 1,33."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $L = 0,75$ (menunjukkan kekuatan monopoli yang sangat tinggi), dengan elastisitas harga permintaan $|E_d| = 1,33$.. Indeks Lerner L = (P - MC) / P = (100 - 25) / 100 = 75/100 = 0,75. Hubungan elastisitas L = 1 / |Ed| -> |Ed| = 1 / 0,75 = 1,33. Pilih: L = 0,75 dengan elastisitas |Ed| = 1,33."
   },
   {
     "id": "eko-sim-08",
@@ -3551,11 +3552,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 680.000.000,-, hasil penjumlahan seluruh nilai transaksi bruto dari petani hingga butik ritel ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Rp 220.000.000,-, hasil pengurangan nilai kain tekstil dari total omzet pakaian jadi."
       },
       {
         "key": "B",
-        "text": "Rp 420.000.000,-, hasil selisih nilai penjualan butik dengan biaya kapas awal petani."
+        "text": "Rp 680.000.000,-, hasil penjumlahan seluruh nilai transaksi bruto dari petani hingga butik ritel."
       },
       {
         "key": "C",
@@ -3563,11 +3564,11 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rp 220.000.000,-, hasil pengurangan nilai kain tekstil dari total omzet pakaian jadi."
+        "text": "Rp 190.000.000,-, sesuai dengan nilai penyerahan barang dari pabrik garmen ke pihak ritel."
       },
       {
         "key": "E",
-        "text": "Rp 190.000.000,-, sesuai dengan nilai penyerahan barang dari pabrik garmen ke pihak ritel."
+        "text": "Rp 420.000.000,-, hasil selisih nilai penjualan butik dengan biaya kapas awal petani."
       }
     ],
     "correctKey": "C",
@@ -3594,11 +3595,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$21,0\\%$, hasil perhitungan kenaikan PDB nominal tanpa memperhitungkan deflator inflasi menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "$11,0\\%$, hasil pengurangan tingkat inflasi deflator langsung dari persentase nominal."
       },
       {
         "key": "B",
-        "text": "$11,0\\%$, hasil pengurangan tingkat inflasi deflator langsung dari persentase nominal."
+        "text": "$5,0\\%$, hasil koreksi deflator menggunakan indeks harga produsen industri berat."
       },
       {
         "key": "C",
@@ -3606,15 +3607,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$10,0\\%$, dihitung dari kenaikan PDB Riil dari Rp 2.000 Triliun menjadi Rp 2.200 Triliun."
+        "text": "$21,0\\%$, hasil perhitungan kenaikan PDB nominal tanpa memperhitungkan deflator inflasi akrual."
       },
       {
         "key": "E",
-        "text": "$5,0\\%$, hasil koreksi deflator menggunakan indeks harga produsen industri berat."
+        "text": "$10,0\\%$, dihitung dari kenaikan PDB Riil dari Rp 2.000 Triliun menjadi Rp 2.200 Triliun."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $10,0\\%$, dihitung dari kenaikan PDB Riil dari Rp 2.000 Triliun menjadi Rp 2.200 Triliun.. PDB Riil 2024 = (PDB Nominal / Deflator) * 100 = (2.420 / 110) * 100 = 2.200 Triliun. Pertumbuhan riil = (2.200 - 2.000) / 2.000 = 10,0%. Pilih: 10,0%."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $10,0\\%$, dihitung dari kenaikan PDB Riil dari Rp 2.000 Triliun menjadi Rp 2.200 Triliun.. PDB Riil 2024 = (PDB Nominal / Deflator) * 100 = (2.420 / 110) * 100 = 2.200 Triliun. Pertumbuhan riil = (2.200 - 2.000) / 2.000 = 10,0%. Pilih: 10,0%."
   },
   {
     "id": "eko-sim-10",
@@ -3641,23 +3642,23 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 200 \\text{ Triliun}$, agar nilainya sama persis dengan target kenaikan pendapatan nasional."
-      },
-      {
-        "key": "C",
         "text": "Kenaikan pajak sebesar $\\Delta T = +\\text{Rp } 50 \\text{ Triliun}$, untuk memperkuat kas perbendaharaan negara."
       },
       {
+        "key": "C",
+        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 50 \\text{ Triliun}$, karena angka pengganda pajak bernilai $k_T = -\\frac{MPC}{1 - MPC} = -\\frac{0,8}{0,2} = -4$."
+      },
+      {
         "key": "D",
-        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 25 \\text{ Triliun}$, hasil estimasi separuh angka pengganda investasi."
+        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 200 \\text{ Triliun}$, agar nilainya sama persis dengan target kenaikan pendapatan nasional."
       },
       {
         "key": "E",
-        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 50 \\text{ Triliun}$, karena angka pengganda pajak bernilai $k_T = -\\frac{MPC}{1 - MPC} = -\\frac{0,8}{0,2} = -4$."
+        "text": "Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 25 \\text{ Triliun}$, hasil estimasi separuh angka pengganda investasi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 50 \\text{ Triliun}$, karena angka pengganda pajak bernilai $k_T = -\\frac{MPC}{1 - MPC} = -\\frac{0,8}{0,2} = -4$.. Multiplier pajak k_T = -MPC / (1 - MPC) = -0,8 / 0,2 = -4. Delta Y = k_T * Delta T -> 200 = -4 * Delta T -> Delta T = -50 Triliun. Pilih: Pemotongan pajak sebesar Delta T = -Rp 50 Triliun."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pemotongan pajak sebesar $\\Delta T = -\\text{Rp } 50 \\text{ Triliun}$, karena angka pengganda pajak bernilai $k_T = -\\frac{MPC}{1 - MPC} = -\\frac{0,8}{0,2} = -4$.. Multiplier pajak k_T = -MPC / (1 - MPC) = -0,8 / 0,2 = -4. Delta Y = k_T * Delta T -> 200 = -4 * Delta T -> Delta T = -50 Triliun. Pilih: Pemotongan pajak sebesar Delta T = -Rp 50 Triliun."
   },
   {
     "id": "eko-sim-11",
@@ -3680,27 +3681,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pertemuan berkala dan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum agar secara sukarela menyelaraskan penyaluran kredit dan suku bunga perbankan dengan target stabilitas moneter nasional tanpa adanya paksaan sanksi hukum langsung."
-      },
-      {
-        "key": "B",
-        "text": "Penerbitan surat perintah penutupan paksa operasional kantor cabang bank yang menolak menurunkan bunga deposito sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
-      },
-      {
-        "key": "C",
         "text": "Penyitaan seluruh sertifikat deposito berjangka milik nasabah korporasi swasta untuk dijadikan cadangan devisa negara."
       },
       {
+        "key": "B",
+        "text": "Pertemuan berkala dan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum agar secara sukarela menyelaraskan penyaluran kredit dan suku bunga perbankan dengan target stabilitas moneter nasional tanpa adanya paksaan sanksi hukum langsung."
+      },
+      {
+        "key": "C",
+        "text": "Penerbitan surat perintah penutupan paksa operasional kantor cabang bank yang menolak menurunkan bunga deposito."
+      },
+      {
         "key": "D",
-        "text": "Penetapan kuota impor bahan pangan pokok melalui lelang terbuka kementerian perdagangan."
+        "text": "Pemberian subsidi bunga kredit usaha mikro secara langsung yang ditransfer dari rekening kas negara APBN."
       },
       {
         "key": "E",
-        "text": "Pemberian subsidi bunga kredit usaha mikro secara langsung yang ditransfer dari rekening kas negara APBN."
+        "text": "Penetapan kuota impor bahan pangan pokok melalui lelang terbuka kementerian perdagangan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pertemuan berkala dan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum agar secara sukarela menyelaraskan penyaluran kredit dan suku bunga perbankan dengan target stabilitas moneter nasional tanpa adanya paksaan sanksi hukum langsung.. Himbauan moral (Moral Suasion) adalah ajakan/himbauan persuasif bank sentral kepada pimpinan bank umum untuk menyelaraskan kebijakan kredit dengan target moneter tanpa sanksi formal. Pilih opsi yang menjelaskan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum secara sukarela."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pertemuan berkala dan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum agar secara sukarela menyelaraskan penyaluran kredit dan suku bunga perbankan dengan target stabilitas moneter nasional tanpa adanya paksaan sanksi hukum langsung.. Himbauan moral (Moral Suasion) adalah ajakan/himbauan persuasif bank sentral kepada pimpinan bank umum untuk menyelaraskan kebijakan kredit dengan target moneter tanpa sanksi formal. Pilih opsi yang menjelaskan komunikasi persuasif pimpinan bank sentral dengan direksi bank-bank umum secara sukarela."
   },
   {
     "id": "eko-sim-12",
@@ -3723,27 +3724,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Surplus konsumen bertambah pesat karena kualitas daging sapi lokal meningkat dua kali lipat sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Surplus konsumen bertambah pesat karena kualitas daging sapi lokal meningkat dua kali lipat."
       },
       {
         "key": "B",
-        "text": "Surplus konsumen berkurang, surplus produsen domestik bertambah, pemerintah memperoleh penerimaan bea masuk, dan tercipta kerugian bobot mati masyarakat (Deadweight Loss) yang terdiri atas distorsi produksi dan distorsi konsumsi."
-      },
-      {
-        "key": "C",
-        "text": "Surplus produsen domestik menyusut karena harga jual daging sapi di pasar domestik menjadi lebih murah."
-      },
-      {
-        "key": "D",
         "text": "Seluruh surplus ekonomi masyarakat musnah tanpa ada penerimaan pajak bea masuk yang masuk ke kas negara."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Perekonomian mencapai efisiensi alokatif optimal dengan hilangnya seluruh beban subsidi pemerintah."
+      },
+      {
+        "key": "D",
+        "text": "Surplus produsen domestik menyusut karena harga jual daging sapi di pasar domestik menjadi lebih murah."
+      },
+      {
+        "key": "E",
+        "text": "Surplus konsumen berkurang, surplus produsen domestik bertambah, pemerintah memperoleh penerimaan bea masuk, dan tercipta kerugian bobot mati masyarakat (Deadweight Loss) yang terdiri atas distorsi produksi dan distorsi konsumsi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Surplus konsumen berkurang, surplus produsen domestik bertambah, pemerintah memperoleh penerimaan bea masuk, dan tercipta kerugian bobot mati masyarakat (Deadweight Loss) yang terdiri atas distorsi produksi dan distorsi konsumsi.. Tarif impor menaikkan harga domestik: Surplus konsumen berkurang (-), Surplus produsen bertambah (+), Pemerintah dapat kas bea masuk (+), Timbul DWL berupa segitiga distorsi produksi dan konsumsi. Pilih: Surplus konsumen berkurang, surplus produsen bertambah, kas bea masuk bertambah, dan timbul deadweight loss."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Surplus konsumen berkurang, surplus produsen domestik bertambah, pemerintah memperoleh penerimaan bea masuk, dan tercipta kerugian bobot mati masyarakat (Deadweight Loss) yang terdiri atas distorsi produksi dan distorsi konsumsi.. Tarif impor menaikkan harga domestik: Surplus konsumen berkurang (-), Surplus produsen bertambah (+), Pemerintah dapat kas bea masuk (+), Timbul DWL berupa segitiga distorsi produksi dan konsumsi. Pilih: Surplus konsumen berkurang, surplus produsen bertambah, kas bea masuk bertambah, dan timbul deadweight loss."
   },
   {
     "id": "eko-sim-13",
@@ -3766,27 +3767,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembayaran utang dagang kepada pemasok dengan memanfaatkan syarat potongan tunai 2/10, n/30 ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
+        "text": "Pengambilan uang tunai dari kas perusahaan oleh pemilik untuk keperluan pribadi (Prive)."
       },
       {
         "key": "B",
-        "text": "Pembayaran gaji karyawan toko bulanan secara tunai melalui transfer rekening kas bank perusahaan."
+        "text": "Pembayaran utang dagang kepada pemasok dengan memanfaatkan syarat potongan tunai 2/10, n/30."
       },
       {
         "key": "C",
-        "text": "Transaksi pengembalian barang dagangan yang rusak kepada pemasok (vendor) atas pembelian barang secara kredit minggu lalu."
-      },
-      {
-        "key": "D",
         "text": "Pembelian perlengkapan kantor operasional secara tunai dari toko alat tulis terdekat."
       },
       {
+        "key": "D",
+        "text": "Pembayaran gaji karyawan toko bulanan secara tunai melalui transfer rekening kas bank perusahaan."
+      },
+      {
         "key": "E",
-        "text": "Pengambilan uang tunai dari kas perusahaan oleh pemilik untuk keperluan pribadi (Prive)."
+        "text": "Transaksi pengembalian barang dagangan yang rusak kepada pemasok (vendor) atas pembelian barang secara kredit minggu lalu."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Transaksi pengembalian barang dagangan yang rusak kepada pemasok (vendor) atas pembelian barang secara kredit minggu lalu.. Jurnal pengeluaran kas hanya mencatat transaksi yang mengeluarkan uang kas. Retur pembelian kredit tidak mengeluarkan kas, melainkan dicatat di Jurnal Umum. Pilih opsi: Pengembalian barang dagangan atas pembelian secara kredit (Retur pembelian kredit)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Transaksi pengembalian barang dagangan yang rusak kepada pemasok (vendor) atas pembelian barang secara kredit minggu lalu.. Jurnal pengeluaran kas hanya mencatat transaksi yang mengeluarkan uang kas. Retur pembelian kredit tidak mengeluarkan kas, melainkan dicatat di Jurnal Umum. Pilih opsi: Pengembalian barang dagangan atas pembelian secara kredit (Retur pembelian kredit)."
   },
   {
     "id": "eko-sim-14",
@@ -3809,27 +3810,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolkan saldo seluruh Akun Riil (Aset, Liabilitas, dan Ekuitas) agar neraca awal tahun depan bersih menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
-      },
-      {
-        "key": "B",
-        "text": "Menghapus seluruh piutang dagang pelanggan yang belum tertagih sampai tanggal neraca."
-      },
-      {
-        "key": "C",
         "text": "Mengganti seluruh nilai wajar gedung kantor dengan nilai perolehan historis amortisasi."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menolkan saldo seluruh Akun Nominal (Pendapatan dan Beban) serta akun Prive/Dividen, lalu memindahkan saldo laba/rugi bersih periode berjalan ke akun Modal/Laba Ditahan di Neraca."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menghapus seluruh piutang dagang pelanggan yang belum tertagih sampai tanggal neraca."
+      },
+      {
+        "key": "D",
         "text": "Memindahkan seluruh saldo kas bank perusahaan ke rekening kas negara kementerian keuangan."
+      },
+      {
+        "key": "E",
+        "text": "Menolkan saldo seluruh Akun Riil (Aset, Liabilitas, dan Ekuitas) agar neraca awal tahun depan bersih akrual."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menolkan saldo seluruh Akun Nominal (Pendapatan dan Beban) serta akun Prive/Dividen, lalu memindahkan saldo laba/rugi bersih periode berjalan ke akun Modal/Laba Ditahan di Neraca.. Jurnal penutup menolkan akun-akun nominal (pendapatan, beban, ikhtisar laba rugi, prive) dan memindahkan saldo laba/rugi ke modal. Pilih opsi: Menolkan saldo seluruh Akun Nominal (Pendapatan dan Beban) serta akun Prive, dan memindahkan saldo ke akun Modal."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menolkan saldo seluruh Akun Nominal (Pendapatan dan Beban) serta akun Prive/Dividen, lalu memindahkan saldo laba/rugi bersih periode berjalan ke akun Modal/Laba Ditahan di Neraca.. Jurnal penutup menolkan akun-akun nominal (pendapatan, beban, ikhtisar laba rugi, prive) dan memindahkan saldo laba/rugi ke modal. Pilih opsi: Menolkan saldo seluruh Akun Nominal (Pendapatan dan Beban) serta akun Prive, dan memindahkan saldo ke akun Modal."
   },
   {
     "id": "eko-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ayat jurnal penyesuaian untuk penyusutan aset tetap dan amortisasi hak paten tak berwujud diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Akun penyesuaian akhir periode yang memunculkan akun riil baru dari transaksi akrual, seperti Beban yang Masih Harus Dibayar (Utang Beban) dan Pendapatan yang Masih Harus Diterima (Piutang Pendapatan)."
       },
       {
         "key": "B",
-        "text": "Seluruh transaksi penyetoran modal awal tunai pemegang saham baru."
-      },
-      {
-        "key": "C",
         "text": "Penyesuaian persediaan akhir barang dagangan menggunakan pendekatan ikhtisar laba rugi."
       },
       {
+        "key": "C",
+        "text": "Seluruh transaksi penyetoran modal awal tunai pemegang saham baru."
+      },
+      {
         "key": "D",
-        "text": "Pelunasan utang obligasi jangka panjang yang telah jatuh tempo di bank kustodian."
+        "text": "Ayat jurnal penyesuaian untuk penyusutan aset tetap dan amortisasi hak paten tak berwujud diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "E",
-        "text": "Akun penyesuaian akhir periode yang memunculkan akun riil baru dari transaksi akrual, seperti Beban yang Masih Harus Dibayar (Utang Beban) dan Pendapatan yang Masih Harus Diterima (Piutang Pendapatan)."
+        "text": "Pelunasan utang obligasi jangka panjang yang telah jatuh tempo di bank kustodian."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Akun penyesuaian akhir periode yang memunculkan akun riil baru dari transaksi akrual, seperti Beban yang Masih Harus Dibayar (Utang Beban) dan Pendapatan yang Masih Harus Diterima (Piutang Pendapatan).. Jurnal pembalik dibuat untuk beban yang masih harus dibayar (utang beban) dan pendapatan yang masih harus diterima (piutang pendapatan). Penyusutan dan amortisasi TIDAK pernah dibalik. Pilih: Beban yang Masih Harus Dibayar dan Pendapatan yang Masih Harus Diterima."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Akun penyesuaian akhir periode yang memunculkan akun riil baru dari transaksi akrual, seperti Beban yang Masih Harus Dibayar (Utang Beban) dan Pendapatan yang Masih Harus Diterima (Piutang Pendapatan).. Jurnal pembalik dibuat untuk beban yang masih harus dibayar (utang beban) dan pendapatan yang masih harus diterima (piutang pendapatan). Penyusutan dan amortisasi TIDAK pernah dibalik. Pilih: Beban yang Masih Harus Dibayar dan Pendapatan yang Masih Harus Diterima."
   },
   {
     "id": "eko-sim-16",
@@ -3895,11 +3896,11 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{CAR} = \\frac{\\text{Modal Bank (Tier 1 + Tier 2)}}{\\text{Aktiva Tertimbang Menurut Risiko (ATMR)}} \\times 100\\%$, yang berfungsi sebagai bantalan penyerap kerugian kredit bermasalah agar dana simpanan nasabah penyimpan tetap aman."
+        "text": "$\\text{CAR} = \\frac{\\text{Kredit Macet (NPL)}}{\\text{Total Kredit}} \\times 100\\%$, yang berfungsi menghitung rasio kebangkrutan perbankan."
       },
       {
         "key": "B",
-        "text": "$\\text{CAR} = \\frac{\\text{Kredit yang Disalurkan}}{\\text{Total Dana Pihak Ketiga}} \\times 100\\%$, yang berfungsi mengukur likuiditas pinjaman debitur sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$\\text{CAR} = \\frac{\\text{Modal Bank (Tier 1 + Tier 2)}}{\\text{Aktiva Tertimbang Menurut Risiko (ATMR)}} \\times 100\\%$, yang berfungsi sebagai bantalan penyerap kerugian kredit bermasalah agar dana simpanan nasabah penyimpan tetap aman."
       },
       {
         "key": "C",
@@ -3907,15 +3908,15 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\text{CAR} = \\frac{\\text{Kredit Macet (NPL)}}{\\text{Total Kredit}} \\times 100\\%$, yang berfungsi menghitung rasio kebangkrutan perbankan."
+        "text": "$\\text{CAR} = \\frac{\\text{Kredit yang Disalurkan}}{\\text{Total Dana Pihak Ketiga}} \\times 100\\%$, yang berfungsi mengukur likuiditas pinjaman debitur."
       },
       {
         "key": "E",
         "text": "$\\text{CAR} = \\frac{\\text{Cadangan Giro Wajib}}{\\text{Kas Fisik di Brankas}} \\times 100\\%$, yang berfungsi menghitung rasio uang kartal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\text{CAR} = \\frac{\\text{Modal Bank (Tier 1 + Tier 2)}}{\\text{Aktiva Tertimbang Menurut Risiko (ATMR)}} \\times 100\\%$, yang berfungsi sebagai bantalan penyerap kerugian kredit bermasalah agar dana simpanan nasabah penyimpan tetap aman.. CAR = (Modal Bank / ATMR) x 100%. Fungsinya sebagai penyerap potensi kerugian kredit agar dana nasabah terlindungi. Pilih: CAR = Modal Bank / ATMR x 100%."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{CAR} = \\frac{\\text{Modal Bank (Tier 1 + Tier 2)}}{\\text{Aktiva Tertimbang Menurut Risiko (ATMR)}} \\times 100\\%$, yang berfungsi sebagai bantalan penyerap kerugian kredit bermasalah agar dana simpanan nasabah penyimpan tetap aman.. CAR = (Modal Bank / ATMR) x 100%. Fungsinya sebagai penyerap potensi kerugian kredit agar dana nasabah terlindungi. Pilih: CAR = Modal Bank / ATMR x 100%."
   },
   {
     "id": "eko-sim-17",
@@ -3938,27 +3939,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{EPS} = \\text{Rp } 50,-$ per lembar saham dan $\\text{PER} = 150 \\text{ kali}$ sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "$\\text{EPS} = \\text{Rp } 250,-$ per lembar saham dan $\\text{PER} = 30 \\text{ kali}$."
       },
       {
         "key": "B",
-        "text": "$\\text{EPS} = \\text{Rp } 500,-$ per lembar saham dan $\\text{PER} = 15 \\text{ kali}$."
-      },
-      {
-        "key": "C",
-        "text": "$\\text{EPS} = \\text{Rp } 750,-$ per lembar saham dan $\\text{PER} = 10 \\text{ kali}$."
-      },
-      {
-        "key": "D",
         "text": "$\\text{EPS} = \\text{Rp } 500,-$ per lembar saham dan $\\text{PER} = 25 \\text{ kali}$."
       },
       {
+        "key": "C",
+        "text": "$\\text{EPS} = \\text{Rp } 50,-$ per lembar saham dan $\\text{PER} = 150 \\text{ kali}$."
+      },
+      {
+        "key": "D",
+        "text": "$\\text{EPS} = \\text{Rp } 500,-$ per lembar saham dan $\\text{PER} = 15 \\text{ kali}$."
+      },
+      {
         "key": "E",
-        "text": "$\\text{EPS} = \\text{Rp } 250,-$ per lembar saham dan $\\text{PER} = 30 \\text{ kali}$."
+        "text": "$\\text{EPS} = \\text{Rp } 750,-$ per lembar saham dan $\\text{PER} = 10 \\text{ kali}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\text{EPS} = \\text{Rp } 500,-$ per lembar saham dan $\\text{PER} = 15 \\text{ kali}$.. EPS = Laba Bersih / Jumlah Saham = 50 Miliar / 100 Juta = 500 per lembar. PER = Harga Saham / EPS = 7.500 / 500 = 15 kali. Pilih: EPS = Rp 500,- dan PER = 15 kali."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{EPS} = \\text{Rp } 500,-$ per lembar saham dan $\\text{PER} = 15 \\text{ kali}$.. EPS = Laba Bersih / Jumlah Saham = 50 Miliar / 100 Juta = 500 per lembar. PER = Harga Saham / EPS = 7.500 / 500 = 15 kali. Pilih: EPS = Rp 500,- dan PER = 15 kali."
   },
   {
     "id": "eko-sim-18",
@@ -3981,27 +3982,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simpanan Pokok, Simpanan Sukarela, Pinjaman Bank Komersial, dan Obligasi."
-      },
-      {
-        "key": "B",
-        "text": "Simpanan Wajib, Simpanan Sukarela, Modal Penyertaan BUMN, dan Kredit Usaha Rakyat."
-      },
-      {
-        "key": "C",
         "text": "Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Simpanan Sukarela, Deposito Anggota, Hibah Pemerintah Asing, dan Fasilitas Diskonto."
+      },
+      {
+        "key": "C",
         "text": "Simpanan Pokok, Modal Pinjaman Anggota, Dana Pensiun, dan Surat Utang Luar Negeri."
       },
       {
+        "key": "D",
+        "text": "Simpanan Wajib, Simpanan Sukarela, Modal Penyertaan BUMN, dan Kredit Usaha Rakyat."
+      },
+      {
         "key": "E",
-        "text": "Simpanan Sukarela, Deposito Anggota, Hibah Pemerintah Asing, dan Fasilitas Diskonto."
+        "text": "Simpanan Pokok, Simpanan Sukarela, Pinjaman Bank Komersial, dan Obligasi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah.. Pasal 41 UU No. 25/1992: Modal Sendiri Koperasi terdiri dari: Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah. Simpanan sukarela masuk modal pinjaman. Pilih: Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah.. Pasal 41 UU No. 25/1992: Modal Sendiri Koperasi terdiri dari: Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah. Simpanan sukarela masuk modal pinjaman. Pilih: Simpanan Pokok, Simpanan Wajib, Dana Cadangan, dan Hibah."
   },
   {
     "id": "eko-sim-19",
@@ -4024,7 +4025,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Planning (Perencanaan), yaitu penetapan tujuan jangka panjang dan strategi pencapaian target target perusahaan menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Innovating (Inovasi), yaitu penciptaan teknologi mutakhir yang belum pernah diproduksi sebelumnya."
       },
       {
         "key": "B",
@@ -4032,19 +4033,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Controlling (Pengawasan), yaitu pengukuran kinerja aktual dibandingkan standar dan tindakan koreksi penyimpangan."
+        "text": "Planning (Perencanaan), yaitu penetapan tujuan jangka panjang dan strategi pencapaian target target perusahaan akrual."
       },
       {
         "key": "D",
-        "text": "Organizing (Pengorganisasian), yaitu proses pengelompokan aktivitas kerja, pengalokasian sumber daya organisasi, dan penetapan wewenang serta tanggung jawab struktural."
+        "text": "Controlling (Pengawasan), yaitu pengukuran kinerja aktual dibandingkan standar dan tindakan koreksi penyimpangan."
       },
       {
         "key": "E",
-        "text": "Innovating (Inovasi), yaitu penciptaan teknologi mutakhir yang belum pernah diproduksi sebelumnya."
+        "text": "Organizing (Pengorganisasian), yaitu proses pengelompokan aktivitas kerja, pengalokasian sumber daya organisasi, dan penetapan wewenang serta tanggung jawab struktural."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Organizing (Pengorganisasian), yaitu proses pengelompokan aktivitas kerja, pengalokasian sumber daya organisasi, dan penetapan wewenang serta tanggung jawab struktural.. Membagi tugas, menyusun struktur organisasi, dan mendelegasikan wewenang adalah esensi fungsi Organizing (Pengorganisasian). Pilih: Organizing (Pengorganisasian)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Organizing (Pengorganisasian), yaitu proses pengelompokan aktivitas kerja, pengalokasian sumber daya organisasi, dan penetapan wewenang serta tanggung jawab struktural.. Membagi tugas, menyusun struktur organisasi, dan mendelegasikan wewenang adalah esensi fungsi Organizing (Pengorganisasian). Pilih: Organizing (Pengorganisasian)."
   },
   {
     "id": "eko-sim-20",
@@ -4067,27 +4068,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "BI-FAST khusus digunakan untuk transaksi valuta asing internasional sedangkan RTGS hanya untuk mata uang lokal pecahan kecil diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "BI-FAST khusus digunakan untuk transaksi valuta asing internasional sedangkan RTGS hanya untuk mata uang lokal pecahan kecil diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "B",
-        "text": "BI-FAST hanya beroperasi pada hari kerja perbankan sedangkan RTGS beroperasi 24 jam tanpa henti di akhir pekan."
+        "text": "BI-FAST melayani transaksi ritel nasabah bernilai rendah hingga maksimal Rp 250.000.000,- yang beroperasi selama 24 jam sehari 7 hari seminggu (24/7) secara real-time; sedangkan BI-RTGS melayani transfer dana bernilai besar (_high-value payments_ di atas Rp 100 Juta) dan transaksi antarbank yang penyelesaiannya seketika per transaksi pada jam operasional kerja."
       },
       {
         "key": "C",
-        "text": "BI-FAST membebankan biaya transfer jutaan rupiah sedangkan RTGS bebas biaya administrasi untuk masyarakat umum."
+        "text": "BI-FAST hanya beroperasi pada hari kerja perbankan sedangkan RTGS beroperasi 24 jam tanpa henti di akhir pekan."
       },
       {
         "key": "D",
-        "text": "Kedua sistem pembayaran tersebut telah dihapuskan dan digantikan sepenuhnya oleh mata uang kripto tak terdaftar."
+        "text": "BI-FAST membebankan biaya transfer jutaan rupiah sedangkan RTGS bebas biaya administrasi untuk masyarakat umum."
       },
       {
         "key": "E",
-        "text": "BI-FAST melayani transaksi ritel nasabah bernilai rendah hingga maksimal Rp 250.000.000,- yang beroperasi selama 24 jam sehari 7 hari seminggu (24/7) secara real-time; sedangkan BI-RTGS melayani transfer dana bernilai besar (_high-value payments_ di atas Rp 100 Juta) dan transaksi antarbank yang penyelesaiannya seketika per transaksi pada jam operasional kerja."
+        "text": "Kedua sistem pembayaran tersebut telah dihapuskan dan digantikan sepenuhnya oleh mata uang kripto tak terdaftar."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) BI-FAST melayani transaksi ritel nasabah bernilai rendah hingga maksimal Rp 250.000.000,- yang beroperasi selama 24 jam sehari 7 hari seminggu (24/7) secara real-time; sedangkan BI-RTGS melayani transfer dana bernilai besar (_high-value payments_ di atas Rp 100 Juta) dan transaksi antarbank yang penyelesaiannya seketika per transaksi pada jam operasional kerja.. BI-FAST: ritel (maksimal 250 juta), operasional 24/7 real-time. BI-RTGS: nilai besar (high value, di atas 100 juta), jam kerja bank sentral. Pilih opsi yang menjelaskan BI-FAST melayani ritel 24/7 hingga 250 juta, dan RTGS melayani nilai besar seketika saat jam kerja."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) BI-FAST melayani transaksi ritel nasabah bernilai rendah hingga maksimal Rp 250.000.000,- yang beroperasi selama 24 jam sehari 7 hari seminggu (24/7) secara real-time; sedangkan BI-RTGS melayani transfer dana bernilai besar (_high-value payments_ di atas Rp 100 Juta) dan transaksi antarbank yang penyelesaiannya seketika per transaksi pada jam operasional kerja.. BI-FAST: ritel (maksimal 250 juta), operasional 24/7 real-time. BI-RTGS: nilai besar (high value, di atas 100 juta), jam kerja bank sentral. Pilih opsi yang menjelaskan BI-FAST melayani ritel 24/7 hingga 250 juta, dan RTGS melayani nilai besar seketika saat jam kerja."
   },
   {
     "id": "eko-sim-21",
@@ -4110,15 +4111,15 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "FDI melibatkan pendirian pabrik fisik, pengadaan aset riil, dan kepemilikan saham jangka panjang dengan kendali manajemen aktif (_lasting interest_ minimal 10%); sedangkan Investasi Portofolio berupa pembelian aset keuangan likuid (saham publik dan obligasi) bermotif imbal hasil jangka pendek tanpa kendali manajemen aktif."
+        "text": "FDI dicatat di Neraca Berjalan sedangkan Investasi Portofolio dicatat di pos Kesalahan dan Kelalaian Bersih."
       },
       {
         "key": "B",
-        "text": "FDI hanya dilakukan oleh bank sentral negara sedangkan portofolio murni transaksi antar warga negara miskin sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "FDI hanya dilakukan oleh bank sentral negara sedangkan portofolio murni transaksi antar warga negara miskin."
       },
       {
         "key": "C",
-        "text": "FDI dicatat di Neraca Berjalan sedangkan Investasi Portofolio dicatat di pos Kesalahan dan Kelalaian Bersih."
+        "text": "FDI melibatkan pendirian pabrik fisik, pengadaan aset riil, dan kepemilikan saham jangka panjang dengan kendali manajemen aktif (_lasting interest_ minimal 10%); sedangkan Investasi Portofolio berupa pembelian aset keuangan likuid (saham publik dan obligasi) bermotif imbal hasil jangka pendek tanpa kendali manajemen aktif."
       },
       {
         "key": "D",
@@ -4129,8 +4130,8 @@ window.TKA_EKONOMI_QUESTIONS = [
         "text": "Investasi Portofolio dilarang diperdagangkan di pasar bursa efek internasional menurut konvensi IMF."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) FDI melibatkan pendirian pabrik fisik, pengadaan aset riil, dan kepemilikan saham jangka panjang dengan kendali manajemen aktif (_lasting interest_ minimal 10%); sedangkan Investasi Portofolio berupa pembelian aset keuangan likuid (saham publik dan obligasi) bermotif imbal hasil jangka pendek tanpa kendali manajemen aktif.. FDI = modal fisik/pabrik riil jangka panjang dengan kontrol manajemen. Investasi Portofolio = instrumen keuangan saham/obligasi likuid tanpa kendali manajemen (hot money). Pilih: FDI aset riil dan kendali manajemen aktif, Portofolio aset keuangan likuid jangka pendek tanpa kendali manajemen."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) FDI melibatkan pendirian pabrik fisik, pengadaan aset riil, dan kepemilikan saham jangka panjang dengan kendali manajemen aktif (_lasting interest_ minimal 10%); sedangkan Investasi Portofolio berupa pembelian aset keuangan likuid (saham publik dan obligasi) bermotif imbal hasil jangka pendek tanpa kendali manajemen aktif.. FDI = modal fisik/pabrik riil jangka panjang dengan kontrol manajemen. Investasi Portofolio = instrumen keuangan saham/obligasi likuid tanpa kendali manajemen (hot money). Pilih: FDI aset riil dan kendali manajemen aktif, Portofolio aset keuangan likuid jangka pendek tanpa kendali manajemen."
   },
   {
     "id": "eko-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 5.700.000,-, hasil perkalian tarif flat lima persen terhadap seluruh penghasilan neto tahunan sesuai dengan prinsip efisiensi alokasi sumber daya langka dan teori utilitas konsumen."
+        "text": "Rp 1.500.000,-, hasil pemotongan diskon pajak investasi reksadana syariah."
       },
       {
         "key": "B",
-        "text": "Rp 3.000.000,- per tahun, dihitung dari tarif 5% atas Penghasilan Kena Pajak (PKP) sebesar Rp 60.000.000,-."
-      },
-      {
-        "key": "C",
-        "text": "Rp 9.000.000,-, hasil perhitungan lapisan kedua tanpa memperhitungkan batas dasar lapisan awal."
-      },
-      {
-        "key": "D",
         "text": "Rp 4.500.000,-, hasil penerapan tarif rata-rata efektif PPh badan."
       },
       {
+        "key": "C",
+        "text": "Rp 3.000.000,- per tahun, dihitung dari tarif 5% atas Penghasilan Kena Pajak (PKP) sebesar Rp 60.000.000,-."
+      },
+      {
+        "key": "D",
+        "text": "Rp 9.000.000,-, hasil perhitungan lapisan kedua tanpa memperhitungkan batas dasar lapisan awal."
+      },
+      {
         "key": "E",
-        "text": "Rp 1.500.000,-, hasil pemotongan diskon pajak investasi reksadana syariah."
+        "text": "Rp 5.700.000,-, hasil perkalian tarif flat lima persen terhadap seluruh penghasilan neto tahunan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Rp 3.000.000,- per tahun, dihitung dari tarif 5% atas Penghasilan Kena Pajak (PKP) sebesar Rp 60.000.000,-.. PKP = Penghasilan Neto - PTKP = 114 jt - 54 jt = 60 jt. Karena tepat 60 jt, seluruhnya kena tarif lapisan 1 yaitu 5%. PPh = 5% x 60 jt = 3.000.000. Pilih: Rp 3.000.000,- per tahun."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Rp 3.000.000,- per tahun, dihitung dari tarif 5% atas Penghasilan Kena Pajak (PKP) sebesar Rp 60.000.000,-.. PKP = Penghasilan Neto - PTKP = 114 jt - 54 jt = 60 jt. Karena tepat 60 jt, seluruhnya kena tarif lapisan 1 yaitu 5%. PPh = 5% x 60 jt = 3.000.000. Pilih: Rp 3.000.000,- per tahun."
   },
   {
     "id": "eko-sim-23",
@@ -4196,27 +4197,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dana Alokasi Khusus (DAK) Fisik, yang bersifat _specific grant_ untuk mendanai sarana prasarana fisik pendidikan dan kesehatan ditinjau dari instrumen transmisi kebijakan moneter bank sentral dan stimulus fiskal negara."
-      },
-      {
-        "key": "B",
-        "text": "Dana Bagi Hasil (DBH), yang dibagikan berdasarkan persentase daerah penghasil sumber daya alam migas dan pertambangan."
-      },
-      {
-        "key": "C",
         "text": "Dana Alokasi Umum (DAU), yang bersifat _block grant_ (bebas digunakan daerah sesuai prioritas otonomi) dan dialokasikan dengan formula celah fiskal (_fiscal gap_)."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Dana Darurat Bencana, yang dialokasikan hanya saat terjadi letusan gunung berapi berskala nasional."
+      },
+      {
+        "key": "C",
         "text": "Dana Otonomi Khusus, yang hanya dialokasikan kepada seluruh provinsi di pulau Jawa secara merata."
       },
       {
+        "key": "D",
+        "text": "Dana Bagi Hasil (DBH), yang dibagikan berdasarkan persentase daerah penghasil sumber daya alam migas dan pertambangan."
+      },
+      {
         "key": "E",
-        "text": "Dana Darurat Bencana, yang dialokasikan hanya saat terjadi letusan gunung berapi berskala nasional."
+        "text": "Dana Alokasi Khusus (DAK) Fisik, yang bersifat _specific grant_ untuk mendanai sarana prasarana fisik pendidikan dan kesehatan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Dana Alokasi Umum (DAU), yang bersifat _block grant_ (bebas digunakan daerah sesuai prioritas otonomi) dan dialokasikan dengan formula celah fiskal (_fiscal gap_).. DAU (Dana Alokasi Umum) bersifat block grant untuk mengurangi ketimpangan fiskal antar daerah. DAK bersifat spesifik grant. Pilih: Dana Alokasi Umum (DAU)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Dana Alokasi Umum (DAU), yang bersifat _block grant_ (bebas digunakan daerah sesuai prioritas otonomi) dan dialokasikan dengan formula celah fiskal (_fiscal gap_).. DAU (Dana Alokasi Umum) bersifat block grant untuk mengurangi ketimpangan fiskal antar daerah. DAK bersifat spesifik grant. Pilih: Dana Alokasi Umum (DAU)."
   },
   {
     "id": "eko-sim-24",
@@ -4239,27 +4240,27 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Negara Andromeda memiliki pemerataan sempurna di mana seluruh warga negaranya berpendapatan identik menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual menurut prinsip pencatatan persamaan dasar akuntansi dan pengakuan pendapatan beban berbasis akrual."
+        "text": "Negara Bima mengalami kebangkrutan fiskal karena Koefisien Gini di bawah nol koma tiga menandakan deflasi."
       },
       {
         "key": "B",
-        "text": "Negara Bima mengalami krisis kemiskinan ekstrem akibat konsentrasi kekayaan pada satu persen oligarki elit."
-      },
-      {
-        "key": "C",
-        "text": "Kedua negara memiliki struktur pemerataan yang serupa karena selisih nilai Gini tidak memiliki signifikansi statistik."
-      },
-      {
-        "key": "D",
         "text": "Negara Andromeda mengalami ketimpangan distribusi pendapatan yang parah/tinggi ($G > 0,5$), sedangkan Negara Bima memiliki tingkat pemerataan pendapatan yang relatif merata dan berkeadilan ($G < 0,3$)."
       },
       {
+        "key": "C",
+        "text": "Negara Andromeda memiliki pemerataan sempurna di mana seluruh warga negaranya berpendapatan identik akrual."
+      },
+      {
+        "key": "D",
+        "text": "Negara Bima mengalami krisis kemiskinan ekstrem akibat konsentrasi kekayaan pada satu persen oligarki elit."
+      },
+      {
         "key": "E",
-        "text": "Negara Bima mengalami kebangkrutan fiskal karena Koefisien Gini di bawah nol koma tiga menandakan deflasi."
+        "text": "Kedua negara memiliki struktur pemerataan yang serupa karena selisih nilai Gini tidak memiliki signifikansi statistik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Negara Andromeda mengalami ketimpangan distribusi pendapatan yang parah/tinggi ($G > 0,5$), sedangkan Negara Bima memiliki tingkat pemerataan pendapatan yang relatif merata dan berkeadilan ($G < 0,3$).. Gini = 0 merata sempurna, Gini = 1 timpang sempurna. Gini 0,52 = ketimpangan tinggi. Gini 0,26 = ketimpangan rendah (relatif merata). Pilih: Negara Andromeda mengalami ketimpangan tinggi (G > 0,5), Negara Bima relatif merata (G < 0,3)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Negara Andromeda mengalami ketimpangan distribusi pendapatan yang parah/tinggi ($G > 0,5$), sedangkan Negara Bima memiliki tingkat pemerataan pendapatan yang relatif merata dan berkeadilan ($G < 0,3$).. Gini = 0 merata sempurna, Gini = 1 timpang sempurna. Gini 0,52 = ketimpangan tinggi. Gini 0,26 = ketimpangan rendah (relatif merata). Pilih: Negara Andromeda mengalami ketimpangan tinggi (G > 0,5), Negara Bima relatif merata (G < 0,3)."
   },
   {
     "id": "eko-sim-25",
@@ -4282,7 +4283,7 @@ window.TKA_EKONOMI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rumah Tangga Produsen (RTP) menuju Rumah Tangga Konsumen (RTK) melalui Pasar Output barang jadi diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
+        "text": "Masyarakat Luar Negeri menuju RTK dalam bentuk subsidi bahan bakar minyak gratis."
       },
       {
         "key": "B",
@@ -4290,19 +4291,19 @@ window.TKA_EKONOMI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rumah Tangga Konsumen langsung ke Bank Sentral tanpa melalui pasar faktor produksi."
+        "text": "Rumah Tangga Produsen (RTP) menuju Rumah Tangga Konsumen (RTK) melalui Pasar Output barang jadi diturunkan dari analisis komparatif neraca pembayaran internasional dan stabilitas nilai tukar valuta."
       },
       {
         "key": "D",
-        "text": "Masyarakat Luar Negeri menuju RTK dalam bentuk subsidi bahan bakar minyak gratis."
+        "text": "Rumah Tangga Konsumen (RTK) menuju Rumah Tangga Produsen (RTP) melalui Pasar Input (Pasar Faktor Produksi), dan sebagai imbalannya RTP memberikan aliran balas jasa berupa sewa, upah, bunga, dan laba."
       },
       {
         "key": "E",
-        "text": "Rumah Tangga Konsumen (RTK) menuju Rumah Tangga Produsen (RTP) melalui Pasar Input (Pasar Faktor Produksi), dan sebagai imbalannya RTP memberikan aliran balas jasa berupa sewa, upah, bunga, dan laba."
+        "text": "Rumah Tangga Konsumen langsung ke Bank Sentral tanpa melalui pasar faktor produksi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rumah Tangga Konsumen (RTK) menuju Rumah Tangga Produsen (RTP) melalui Pasar Input (Pasar Faktor Produksi), dan sebagai imbalannya RTP memberikan aliran balas jasa berupa sewa, upah, bunga, dan laba.. RTK adalah pemilik faktor produksi (tanah, tenaga kerja, modal, keahlian) yang diserahkan ke RTP lewat Pasar Faktor Produksi (Pasar Input). Pilih: Dari RTK menuju RTP melalui Pasar Input dengan balas jasa sewa, upah, bunga, dan laba."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rumah Tangga Konsumen (RTK) menuju Rumah Tangga Produsen (RTP) melalui Pasar Input (Pasar Faktor Produksi), dan sebagai imbalannya RTP memberikan aliran balas jasa berupa sewa, upah, bunga, dan laba.. RTK adalah pemilik faktor produksi (tanah, tenaga kerja, modal, keahlian) yang diserahkan ke RTP lewat Pasar Faktor Produksi (Pasar Input). Pilih: Dari RTK menuju RTP melalui Pasar Input dengan balas jasa sewa, upah, bunga, dan laba."
   },
   {
     "id": "eko-sim-26",

@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_SEJARAH_LANJUT.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Sejarah Lanjut Soshum)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_SEJARAH_LANJUT_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_SEJARAH_LANJUT_QUESTIONS = [
   {
     "id": "sejl-lat-e-01",
@@ -25,11 +26,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Heuristik (kegiatan melacak, mencari, dan menghimpun jejak-jejak masa lalu atau sumber sejarah yang relevan dengan topik penelitian)."
+        "text": "Kritik intern (pengujian kredibilitas dan kebenaran isi narasi kesaksian yang tertulis dalam dokumen arsip)."
       },
       {
         "key": "B",
-        "text": "Kritik intern (pengujian kredibilitas dan kebenaran isi narasi kesaksian yang tertulis dalam dokumen arsip) ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Interpretasi (penafsiran dan penyusunan sintesis fakta-fakta sejarah menjadi satu rangkaian eksplanasi yang logis)."
       },
       {
         "key": "C",
@@ -37,15 +38,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Interpretasi (penafsiran dan penyusunan sintesis fakta-fakta sejarah menjadi satu rangkaian eksplanasi yang logis)."
+        "text": "Historiografi (penulisan laporan akhir sejarah dalam bentuk narasi kronologis yang sistematis dan komunikatif)."
       },
       {
         "key": "E",
-        "text": "Historiografi (penulisan laporan akhir sejarah dalam bentuk narasi kronologis yang sistematis dan komunikatif)."
+        "text": "Heuristik (kegiatan melacak, mencari, dan menghimpun jejak-jejak masa lalu atau sumber sejarah yang relevan dengan topik penelitian)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Heuristik (kegiatan melacak, mencari, dan menghimpun jejak-jejak masa lalu atau sumber sejarah yang relevan dengan topik penelitian).. Tahapan metodologi penelitian sejarah terdiri atas 4 tahap: Heuristik (pencarian sumber), Verifikasi/Kritik (pengujian sumber), Interpretasi (penafsiran), dan Historiografi (penulisan). Pilih definisi 'Heuristik' yang berarti langkah mencari dan menghimpun jejak atau sumber-sumber sejarah."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Heuristik (kegiatan melacak, mencari, dan menghimpun jejak-jejak masa lalu atau sumber sejarah yang relevan dengan topik penelitian).. Tahapan metodologi penelitian sejarah terdiri atas 4 tahap: Heuristik (pencarian sumber), Verifikasi/Kritik (pengujian sumber), Interpretasi (penafsiran), dan Historiografi (penulisan). Pilih definisi 'Heuristik' yang berarti langkah mencari dan menghimpun jejak atau sumber-sumber sejarah."
   },
   {
     "id": "sejl-lat-e-02",
@@ -68,27 +69,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Meluas dalam ruang dan sangat terbatas dalam dimensi waktu guna membedah struktur sosial secara mendalam pada suatu masa tertentu ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Meluas dalam ruang dan sangat terbatas dalam dimensi waktu guna membedah struktur sosial secara mendalam pada suatu masa tertentu."
       },
       {
         "key": "B",
-        "text": "Memanjang dalam lintasan waktu dan menyempit dalam ruang untuk menelusuri proses perkembangan, kesinambungan, dan kausalitas suatu peristiwa."
-      },
-      {
-        "key": "C",
         "text": "Mengabaikan urutan kronologi waktu peristiwa dan hanya menitikberatkan pada aspek mitologi religi masyarakat purba."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Menganalisis sistem perekonomian global tanpa mempertimbangkan perubahan kurun waktu antargenerasi."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Memandang bahwa semua peristiwa sejarah masa lampau berdiri sendiri secara terisolasi tanpa ada hubungan sebab-akibat."
+      },
+      {
+        "key": "E",
+        "text": "Memanjang dalam lintasan waktu dan menyempit dalam ruang untuk menelusuri proses perkembangan, kesinambungan, dan kausalitas suatu peristiwa."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Memanjang dalam lintasan waktu dan menyempit dalam ruang untuk menelusuri proses perkembangan, kesinambungan, dan kausalitas suatu peristiwa.. Diakronik (dia = melintasi, chronos = waktu) berarti menelusuri proses peristiwa yang memanjang dalam dimensi waktu dengan ruang yang menyempit/fokus. Pilih opsi: Memanjang dalam waktu dan menyempit dalam ruang guna menelusuri kronologi serta kausalitas."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Memanjang dalam lintasan waktu dan menyempit dalam ruang untuk menelusuri proses perkembangan, kesinambungan, dan kausalitas suatu peristiwa.. Diakronik (dia = melintasi, chronos = waktu) berarti menelusuri proses peristiwa yang memanjang dalam dimensi waktu dengan ruang yang menyempit/fokus. Pilih opsi: Memanjang dalam waktu dan menyempit dalam ruang guna menelusuri kronologi serta kausalitas."
   },
   {
     "id": "sejl-lat-e-03",
@@ -111,7 +112,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Indonesiacentris dan menggunakan pendekatan kritis ilmu-ilmu sosial multidimensional modern sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Positivistik murni yang sepenuhnya bebas dari unsur mitos serta berbasis data statistik ilmiah."
       },
       {
         "key": "B",
@@ -119,19 +120,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Istanacentris dan magis-religius (menjadikan raja/keluarga istana sebagai pusat narasi serta menghubungkan legitimasi kekuasaan dengan kekuatan gaib/dewa)."
+        "text": "Indonesiacentris dan menggunakan pendekatan kritis ilmu-ilmu sosial multidimensional modern."
       },
       {
         "key": "D",
-        "text": "Demokratis dan secara transparan mengungkap penderitaan ekonomi rakyat jelata dari kelas bawah."
+        "text": "Istanacentris dan magis-religius (menjadikan raja/keluarga istana sebagai pusat narasi serta menghubungkan legitimasi kekuasaan dengan kekuatan gaib/dewa)."
       },
       {
         "key": "E",
-        "text": "Positivistik murni yang sepenuhnya bebas dari unsur mitos serta berbasis data statistik ilmiah."
+        "text": "Demokratis dan secara transparan mengungkap penderitaan ekonomi rakyat jelata dari kelas bawah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Istanacentris dan magis-religius (menjadikan raja/keluarga istana sebagai pusat narasi serta menghubungkan legitimasi kekuasaan dengan kekuatan gaib/dewa).. Historiografi tradisional berpusat pada raja/kraton (istanasentris), menjunjung etnisitas lokal, dan bercampur dengan mitos atau legitimasi magis. Pilih: Istanacentris dan magis-religius yang mengagungkan raja dan kekuatan supranatural."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Istanacentris dan magis-religius (menjadikan raja/keluarga istana sebagai pusat narasi serta menghubungkan legitimasi kekuasaan dengan kekuatan gaib/dewa).. Historiografi tradisional berpusat pada raja/kraton (istanasentris), menjunjung etnisitas lokal, dan bercampur dengan mitos atau legitimasi magis. Pilih: Istanacentris dan magis-religius yang mengagungkan raja dan kekuatan supranatural."
   },
   {
     "id": "sejl-lat-e-04",
@@ -154,11 +155,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perekonomian negaranya murni bergantung pada budidaya pertanian padi sawah irigasi di dataran tinggi pedalaman menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Raja-raja Sriwijaya menolak kehadiran kapal dagang asing dan menerapkan politik isolasi tertutup."
       },
       {
         "key": "B",
-        "text": "Raja-raja Sriwijaya menolak kehadiran kapal dagang asing dan menerapkan politik isolasi tertutup."
+        "text": "Perekonomian negaranya murni bergantung pada budidaya pertanian padi sawah irigasi di dataran tinggi pedalaman menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "C",
@@ -166,15 +167,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kekuatan politik, kedaulatan, dan basis kemakmuran ekonominya bertumpu pada penguasaan armada laut, kontrol atas jalur pelayaran Selat Malaka, dan perdagangan transit internasional."
+        "text": "Sriwijaya tidak memiliki armada angkatan laut dan hanya menyewa tentara bayaran dari bangsa Romawi."
       },
       {
         "key": "E",
-        "text": "Sriwijaya tidak memiliki armada angkatan laut dan hanya menyewa tentara bayaran dari bangsa Romawi."
+        "text": "Kekuatan politik, kedaulatan, dan basis kemakmuran ekonominya bertumpu pada penguasaan armada laut, kontrol atas jalur pelayaran Selat Malaka, dan perdagangan transit internasional."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kekuatan politik, kedaulatan, dan basis kemakmuran ekonominya bertumpu pada penguasaan armada laut, kontrol atas jalur pelayaran Selat Malaka, dan perdagangan transit internasional.. Talasokrasi (thalassocracy) berasal dari bahasa Yunani thalassa (laut) dan kratos (kekuasaan). Merujuk pada negara yang dominasinya didasarkan pada supremasi maritim. Pilih opsi yang menekankan penguasaan armada laut, jalur Selat Malaka, dan perdagangan maritim internasional."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kekuatan politik, kedaulatan, dan basis kemakmuran ekonominya bertumpu pada penguasaan armada laut, kontrol atas jalur pelayaran Selat Malaka, dan perdagangan transit internasional.. Talasokrasi (thalassocracy) berasal dari bahasa Yunani thalassa (laut) dan kratos (kekuasaan). Merujuk pada negara yang dominasinya didasarkan pada supremasi maritim. Pilih opsi yang menekankan penguasaan armada laut, jalur Selat Malaka, dan perdagangan maritim internasional."
   },
   {
     "id": "sejl-lat-e-05",
@@ -197,27 +198,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penghancuran total kompleks percandian Borobudur oleh pasukan tentara Sanjaya yang beraliran Hindu ekstrem diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Pernikahan politik antara Rakai Pikatan (Sanjaya) dengan Pramodhawardhani (Syailendra) serta pembangunan Candi Plaosan yang memadukan corak arsitektur Hindu dan Buddha."
       },
       {
         "key": "B",
-        "text": "Penerbitan dekrit kerajaan yang mewajibkan seluruh rakyat memeluk satu agama tunggal di bawah ancaman hukuman mati."
-      },
-      {
-        "key": "C",
-        "text": "Pemusnahan seluruh prasasti batu berhuruf Pranagari dan pemutusan hubungan diplomatik dengan Kerajaan Sriwijaya."
-      },
-      {
-        "key": "D",
         "text": "Pemisahan wilayah Jawa Tengah menjadi dua negara yang saling berperang tanpa henti selama lima abad."
       },
       {
+        "key": "C",
+        "text": "Penerbitan dekrit kerajaan yang mewajibkan seluruh rakyat memeluk satu agama tunggal di bawah ancaman hukuman mati."
+      },
+      {
+        "key": "D",
+        "text": "Penghancuran total kompleks percandian Borobudur oleh pasukan tentara Sanjaya yang beraliran Hindu ekstrem."
+      },
+      {
         "key": "E",
-        "text": "Pernikahan politik antara Rakai Pikatan (Sanjaya) dengan Pramodhawardhani (Syailendra) serta pembangunan Candi Plaosan yang memadukan corak arsitektur Hindu dan Buddha."
+        "text": "Pemusnahan seluruh prasasti batu berhuruf Pranagari dan pemutusan hubungan diplomatik dengan Kerajaan Sriwijaya."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pernikahan politik antara Rakai Pikatan (Sanjaya) dengan Pramodhawardhani (Syailendra) serta pembangunan Candi Plaosan yang memadukan corak arsitektur Hindu dan Buddha.. Pernikahan Rakai Pikatan dan Pramodhawardhani menyatukan Wangsa Sanjaya dan Syailendra, menghasilkan warisan arsitektur megah seperti Candi Plaosan. Cari opsi pernikahan politik Rakai Pikatan dengan Pramodhawardhani serta Candi Plaosan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pernikahan politik antara Rakai Pikatan (Sanjaya) dengan Pramodhawardhani (Syailendra) serta pembangunan Candi Plaosan yang memadukan corak arsitektur Hindu dan Buddha.. Pernikahan Rakai Pikatan dan Pramodhawardhani menyatukan Wangsa Sanjaya dan Syailendra, menghasilkan warisan arsitektur megah seperti Candi Plaosan. Cari opsi pernikahan politik Rakai Pikatan dengan Pramodhawardhani serta Candi Plaosan."
   },
   {
     "id": "sejl-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tekad untuk menyatukan wilayah kepulauan Nusantara di bawah naungan kedaulatan Kemaharajaan Majapahit sebelum menikmati kesenangan pribadi."
+        "text": "Rencana ekspansi pelayaran mengarungi Samudera Hindia untuk merebut pelabuhan dagang di semenanjung Afrika."
       },
       {
         "key": "B",
-        "text": "Pernyataan perang untuk menaklukkan seluruh daratan Tiongkok di bawah kekuasaan Kaisar Dinasti Ming ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Penolakan terhadap sistem pemerintahan monarki dan pembentukan sistem republik demokratis di tanah Jawa."
       },
       {
+        "key": "C",
+        "text": "Tekad untuk menyatukan wilayah kepulauan Nusantara di bawah naungan kedaulatan Kemaharajaan Majapahit sebelum menikmati kesenangan pribadi."
+      },
+      {
         "key": "D",
-        "text": "Larangan memakan rempah-rempah kelapa bagi para perwira militer Majapahit selama musim paceklik."
+        "text": "Pernyataan perang untuk menaklukkan seluruh daratan Tiongkok di bawah kekuasaan Kaisar Dinasti Ming."
       },
       {
         "key": "E",
-        "text": "Rencana ekspansi pelayaran mengarungi Samudera Hindia untuk merebut pelabuhan dagang di semenanjung Afrika."
+        "text": "Larangan memakan rempah-rempah kelapa bagi para perwira militer Majapahit selama musim paceklik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tekad untuk menyatukan wilayah kepulauan Nusantara di bawah naungan kedaulatan Kemaharajaan Majapahit sebelum menikmati kesenangan pribadi.. Sumpah Palapa adalah ikrar Gajah Mada tidak akan beristirahat atau menikmati kenikmatan duniawi sebelum mempersatukan wilayah-wilayah Nusantara di bawah panji Majapahit. Pilih: Tekad menyatukan wilayah kepulauan Nusantara di bawah kedaulatan Majapahit."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Tekad untuk menyatukan wilayah kepulauan Nusantara di bawah naungan kedaulatan Kemaharajaan Majapahit sebelum menikmati kesenangan pribadi.. Sumpah Palapa adalah ikrar Gajah Mada tidak akan beristirahat atau menikmati kenikmatan duniawi sebelum mempersatukan wilayah-wilayah Nusantara di bawah panji Majapahit. Pilih: Tekad menyatukan wilayah kepulauan Nusantara di bawah kedaulatan Majapahit."
   },
   {
     "id": "sejl-lat-e-07",
@@ -283,27 +284,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dominasi angkatan perang kavaleri berkuda yang menduduki seluruh wilayah pedalaman pulau Kalimantan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
-        "text": "Letak geografisnya yang sangat strategis di pintu masuk Selat Malaka serta percetakan mata uang dinar emas (_deureuham_) yang menjamin transaksi niaga internasional."
-      },
-      {
-        "key": "C",
-        "text": "Adanya traktat persekutuan militer rahasia dengan pasukan perang Salib di Laut Tengah."
-      },
-      {
-        "key": "D",
         "text": "Penerapan sistem kerja paksa rodi tanpa upah bagi seluruh saudagar asing asal Gujarat dan Persia."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Adanya traktat persekutuan militer rahasia dengan pasukan perang Salib di Laut Tengah."
+      },
+      {
+        "key": "C",
+        "text": "Letak geografisnya yang sangat strategis di pintu masuk Selat Malaka serta percetakan mata uang dinar emas (_deureuham_) yang menjamin transaksi niaga internasional."
+      },
+      {
+        "key": "D",
         "text": "Satu-satunya produsen rempah cengkih dan pala terbesar di dunia yang memonopoli pasar Laut Jawa."
+      },
+      {
+        "key": "E",
+        "text": "Dominasi angkatan perang kavaleri berkuda yang menduduki seluruh wilayah pedalaman pulau Kalimantan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Letak geografisnya yang sangat strategis di pintu masuk Selat Malaka serta percetakan mata uang dinar emas (_deureuham_) yang menjamin transaksi niaga internasional.. Samudera Pasai berkembang karena berada di ujung barat pintu Selat Malaka dan menggunakan mata uang emas (dirham/dinar) yang stabil dalam perdagangan samudra. Pilih opsi letak strategis di Selat Malaka dan percetakan mata uang dinar emas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Letak geografisnya yang sangat strategis di pintu masuk Selat Malaka serta percetakan mata uang dinar emas (_deureuham_) yang menjamin transaksi niaga internasional.. Samudera Pasai berkembang karena berada di ujung barat pintu Selat Malaka dan menggunakan mata uang emas (dirham/dinar) yang stabil dalam perdagangan samudra. Pilih opsi letak strategis di Selat Malaka dan percetakan mata uang dinar emas."
   },
   {
     "id": "sejl-lat-e-08",
@@ -326,27 +327,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membantu para raja pribumi Nusantara mendirikan sistem pemerintahan demokrasi parlementer modern sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Menghapus seluruh pungutan bea cukai bagi rakyat jelata di seluruh kepulauan Nusantara."
       },
       {
         "key": "B",
-        "text": "Membubarkan seluruh armada kapal dagang Belanda dan menyerahkan seluruh aset kepada kerajaan Spanyol."
-      },
-      {
-        "key": "C",
-        "text": "Memberikan wewenang monopoli dagang, mencetak uang sendiri, membentuk angkatan perang, mendirikan benteng, dan menyatakan perang atau damai demi memenangkan persaingan melawan kongsi dagang Eropa lainnya."
-      },
-      {
-        "key": "D",
         "text": "Melarang kapal VOC mempersenjatai diri dengan meriam agar tercipta perdagangan damai di perairan Asia."
       },
       {
+        "key": "C",
+        "text": "Membantu para raja pribumi Nusantara mendirikan sistem pemerintahan demokrasi parlementer modern."
+      },
+      {
+        "key": "D",
+        "text": "Memberikan wewenang monopoli dagang, mencetak uang sendiri, membentuk angkatan perang, mendirikan benteng, dan menyatakan perang atau damai demi memenangkan persaingan melawan kongsi dagang Eropa lainnya."
+      },
+      {
         "key": "E",
-        "text": "Menghapus seluruh pungutan bea cukai bagi rakyat jelata di seluruh kepulauan Nusantara."
+        "text": "Membubarkan seluruh armada kapal dagang Belanda dan menyerahkan seluruh aset kepada kerajaan Spanyol."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Memberikan wewenang monopoli dagang, mencetak uang sendiri, membentuk angkatan perang, mendirikan benteng, dan menyatakan perang atau damai demi memenangkan persaingan melawan kongsi dagang Eropa lainnya.. Hak Oktrooi memberi VOC hak istimewa seperti negara: monopoli, mencetak uang, merekrut tentara, mendirikan benteng, dan menyatakan perang/damai. Pilih opsi yang mencantumkan hak monopoli, mencetak uang, membentuk tentara, dan menyatakan perang/damai."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Memberikan wewenang monopoli dagang, mencetak uang sendiri, membentuk angkatan perang, mendirikan benteng, dan menyatakan perang atau damai demi memenangkan persaingan melawan kongsi dagang Eropa lainnya.. Hak Oktrooi memberi VOC hak istimewa seperti negara: monopoli, mencetak uang, merekrut tentara, mendirikan benteng, dan menyatakan perang/damai. Pilih opsi yang mencantumkan hak monopoli, mencetak uang, membentuk tentara, dan menyatakan perang/damai."
   },
   {
     "id": "sejl-lat-e-09",
@@ -377,19 +378,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menolak sistem ekonomi merkantilisme dan menggantinya dengan ekonomi sosialis tanpa uang tunai."
+        "text": "Mengatasi krisis kas keuangan Belanda yang bangkrut akibat Perang Jawa (Diponegoro) dan pemisahan diri Belgia dari Kerajaan Belanda."
       },
       {
         "key": "D",
-        "text": "Mengatasi krisis kas keuangan Belanda yang bangkrut akibat Perang Jawa (Diponegoro) dan pemisahan diri Belgia dari Kerajaan Belanda."
+        "text": "Menolak sistem ekonomi merkantilisme dan menggantinya dengan ekonomi sosialis tanpa uang tunai."
       },
       {
         "key": "E",
         "text": "Melindungi kepemilikan tanah adat desa dari monopoli saudagar perantara asal daratan Eropa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mengatasi krisis kas keuangan Belanda yang bangkrut akibat Perang Jawa (Diponegoro) dan pemisahan diri Belgia dari Kerajaan Belanda.. Cultuurstelsel 1830 dicanangkan karena kas Belanda terkuras habis akibat Perang Jawa (1825–1830) dan Perang Belgia (1830). Pilih opsi: Mengatasi kas keuangan Belanda yang bangkrut akibat Perang Diponegoro dan pemisahan Belgia."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mengatasi krisis kas keuangan Belanda yang bangkrut akibat Perang Jawa (Diponegoro) dan pemisahan diri Belgia dari Kerajaan Belanda.. Cultuurstelsel 1830 dicanangkan karena kas Belanda terkuras habis akibat Perang Jawa (1825–1830) dan Perang Belgia (1830). Pilih opsi: Mengatasi kas keuangan Belanda yang bangkrut akibat Perang Diponegoro dan pemisahan Belgia."
   },
   {
     "id": "sejl-lat-e-10",
@@ -412,19 +413,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Irigasi (pembangunan saluran pengairan yang seluruh airnya hanya dialirkan ke lahan persawahan petani miskin) diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
-      },
-      {
-        "key": "B",
-        "text": "Emigrasi (pemindahan penduduk Jawa ke wilayah Sumatera murni untuk mendirikan akademi militer pejuang kemerdekaan)."
-      },
-      {
-        "key": "C",
         "text": "Industrialisasi (pemberian modal uang tanpa bunga untuk pembangunan pabrik pesawat terbang pribumi)."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Irigasi (pembangunan saluran pengairan yang seluruh airnya hanya dialirkan ke lahan persawahan petani miskin)."
+      },
+      {
+        "key": "C",
         "text": "Desentralisasi (pemberian kedaulatan mutlak kepada para bupati untuk membentuk tentara merdeka)."
+      },
+      {
+        "key": "D",
+        "text": "Emigrasi (pemindahan penduduk Jawa ke wilayah Sumatera murni untuk mendirikan akademi militer pejuang kemerdekaan)."
       },
       {
         "key": "E",
@@ -455,27 +456,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Budi Utomo merupakan pelopor organisasi modern pertama di Nusantara yang memiliki struktur kepengurusan teratur, tujuan yang jelas, dan mengedepankan perjuangan nirkekerasan lewat pendidikan."
-      },
-      {
-        "key": "B",
-        "text": "Budi Utomo berhasil mengusir pasukan angkatan laut Belanda dari pelabuhan Tanjung Priok melalui aksi senjata ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Budi Utomo adalah partai politik pertama yang secara resmi memproklamasikan negara Republik Indonesia Serikat."
       },
       {
+        "key": "B",
+        "text": "Budi Utomo langsung menghimpun jutaan buruh pabrik gula untuk melancarkan mogok kerja massal nasional."
+      },
+      {
+        "key": "C",
+        "text": "Budi Utomo merupakan pelopor organisasi modern pertama di Nusantara yang memiliki struktur kepengurusan teratur, tujuan yang jelas, dan mengedepankan perjuangan nirkekerasan lewat pendidikan."
+      },
+      {
         "key": "D",
-        "text": "Budi Utomo menuntut pembentukan persemakmuran kerajaan di bawah kekuasaan Ratu Belanda di Den Haag."
+        "text": "Budi Utomo berhasil mengusir pasukan angkatan laut Belanda dari pelabuhan Tanjung Priok melalui aksi senjata."
       },
       {
         "key": "E",
-        "text": "Budi Utomo langsung menghimpun jutaan buruh pabrik gula untuk melancarkan mogok kerja massal nasional."
+        "text": "Budi Utomo menuntut pembentukan persemakmuran kerajaan di bawah kekuasaan Ratu Belanda di Den Haag."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Budi Utomo merupakan pelopor organisasi modern pertama di Nusantara yang memiliki struktur kepengurusan teratur, tujuan yang jelas, dan mengedepankan perjuangan nirkekerasan lewat pendidikan.. Budi Utomo menjadi tonggak kebangkitan nasional karena merupakan organisasi modern pertama di Indonesia dengan kepengurusan dan asas teratur. Pilih opsi yang menyebut Budi Utomo sebagai pelopor organisasi modern pertama dengan perjuangan terorganisasi."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Budi Utomo merupakan pelopor organisasi modern pertama di Nusantara yang memiliki struktur kepengurusan teratur, tujuan yang jelas, dan mengedepankan perjuangan nirkekerasan lewat pendidikan.. Budi Utomo menjadi tonggak kebangkitan nasional karena merupakan organisasi modern pertama di Indonesia dengan kepengurusan dan asas teratur. Pilih opsi yang menyebut Budi Utomo sebagai pelopor organisasi modern pertama dengan perjuangan terorganisasi."
   },
   {
     "id": "sejl-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembentukan laskar militer bersenjata pemuda untuk menyerang istana Gubernur Jenderal di Bogor ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
         "text": "Meleburnya sekat-sekat etnisitas, kedaerahan, dan primordialisme menjadi satu komitmen kebangsaan: satu tanah air, satu bangsa, dan satu bahasa persatuan Indonesia."
       },
       {
-        "key": "C",
-        "text": "Penyatuan mata uang Hindia Belanda dengan mata uang Yen Jepang di seluruh perbankan komersial."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Persetujuan pemuda Indonesia untuk tunduk pada undang-undang kerajaan Belanda selama seratus tahun ke depan."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Pembubaran seluruh organisasi pemuda kepulauan dan penolakan terhadap bahasa Melayu sebagai bahasa komunikasi."
+      },
+      {
+        "key": "D",
+        "text": "Pembentukan laskar militer bersenjata pemuda untuk menyerang istana Gubernur Jenderal di Bogor."
+      },
+      {
+        "key": "E",
+        "text": "Penyatuan mata uang Hindia Belanda dengan mata uang Yen Jepang di seluruh perbankan komersial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Meleburnya sekat-sekat etnisitas, kedaerahan, dan primordialisme menjadi satu komitmen kebangsaan: satu tanah air, satu bangsa, dan satu bahasa persatuan Indonesia.. Sumpah Pemuda 1928 mendobrak etnosentrisme kedaerahan (Jong Java, Jong Sumatranen Bond, Jong Ambon, dsb.) menjadi persatuan nasional: Satu Nusa, Satu Bangsa, Satu Bahasa. Pilih opsi peleburan sekat etnis/kedaerahan menjadi satu tanah air, satu bangsa, dan satu bahasa persatuan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Meleburnya sekat-sekat etnisitas, kedaerahan, dan primordialisme menjadi satu komitmen kebangsaan: satu tanah air, satu bangsa, dan satu bahasa persatuan Indonesia.. Sumpah Pemuda 1928 mendobrak etnosentrisme kedaerahan (Jong Java, Jong Sumatranen Bond, Jong Ambon, dsb.) menjadi persatuan nasional: Satu Nusa, Satu Bangsa, Satu Bahasa. Pilih opsi peleburan sekat etnis/kedaerahan menjadi satu tanah air, satu bangsa, dan satu bahasa persatuan."
   },
   {
     "id": "sejl-lat-e-13",
@@ -541,11 +542,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penentuan strategi taktik tempur gerilya menghadapi pasukan tentara Sekutu di wilayah pesisir Pasifik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Pemberian ganti rugi aset perkebunan karet milik perusahaan swasta Belanda yang disita bala tentara Dai Nippon."
       },
       {
         "key": "B",
-        "text": "Pemilihan susunan kabinet kementerian serta pembentukan bank sentral nasional pertama Republik Indonesia."
+        "text": "Penentuan strategi taktik tempur gerilya menghadapi pasukan tentara Sekutu di wilayah pesisir Pasifik."
       },
       {
         "key": "C",
@@ -553,7 +554,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pemberian ganti rugi aset perkebunan karet milik perusahaan swasta Belanda yang disita bala tentara Dai Nippon."
+        "text": "Pemilihan susunan kabinet kementerian serta pembentukan bank sentral nasional pertama Republik Indonesia."
       },
       {
         "key": "E",
@@ -584,27 +585,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menuntut Soekarno-Hatta menyerahkan mandat kepemimpinan revolusi kepada perwira komando tentara Sekutu menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Menyembunyikan naskah otentik naskah proklamasi agar tidak disita oleh agen intelijen mata-mata Inggris."
-      },
-      {
-        "key": "C",
-        "text": "Memaksa para pemimpin tua menandatangani perjanjian damai tanpa syarat dengan jenderal panglima tentara Dai Nippon."
-      },
-      {
-        "key": "D",
         "text": "Menjauhkan Soekarno-Hatta dari pengaruh dan tekanan militer Jepang agar proklamasi kemerdekaan segera diumumkan sebagai kehendak murni bangsa Indonesia, bukan hadiah pemberian Jepang."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Menghindari ancaman bencana letusan gunung berapi yang diperkirakan melanda wilayah Batavia dan sekitarnya."
+      },
+      {
+        "key": "C",
+        "text": "Menuntut Soekarno-Hatta menyerahkan mandat kepemimpinan revolusi kepada perwira komando tentara Sekutu menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+      },
+      {
+        "key": "D",
+        "text": "Memaksa para pemimpin tua menandatangani perjanjian damai tanpa syarat dengan jenderal panglima tentara Dai Nippon."
+      },
+      {
+        "key": "E",
+        "text": "Menyembunyikan naskah otentik naskah proklamasi agar tidak disita oleh agen intelijen mata-mata Inggris."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menjauhkan Soekarno-Hatta dari pengaruh dan tekanan militer Jepang agar proklamasi kemerdekaan segera diumumkan sebagai kehendak murni bangsa Indonesia, bukan hadiah pemberian Jepang.. Peristiwa Rengasdengklok dilakukan pemuda untuk mengamankan Dwitunggal dari pengaruh Jepang dan mempercepat deklarasi proklamasi kemerdekaan independen. Pilih opsi menjauhkan Soekarno-Hatta dari pengaruh Jepang agar proklamasi lahir murni dari bangsa sendiri."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menjauhkan Soekarno-Hatta dari pengaruh dan tekanan militer Jepang agar proklamasi kemerdekaan segera diumumkan sebagai kehendak murni bangsa Indonesia, bukan hadiah pemberian Jepang.. Peristiwa Rengasdengklok dilakukan pemuda untuk mengamankan Dwitunggal dari pengaruh Jepang dan mempercepat deklarasi proklamasi kemerdekaan independen. Pilih opsi menjauhkan Soekarno-Hatta dari pengaruh Jepang agar proklamasi lahir murni dari bangsa sendiri."
   },
   {
     "id": "sejl-lat-e-15",
@@ -627,11 +628,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tenggelamnya kapal perang Belanda di Selat Madura akibat sabotase ranjau torpedo nelayan tradisional diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Tenggelamnya kapal perang Belanda di Selat Madura akibat sabotase ranjau torpedo nelayan tradisional."
       },
       {
         "key": "B",
-        "text": "Penolakan rakyat Surabaya untuk mengembalikan seluruh pesawat tempur rampasan Sekutu di Pangkalan Morokrembangan."
+        "text": "Tewasnya perwira tinggi militer Inggris, Brigadir Jenderal A.W.S. Mallaby, dalam baku tembak di sekitar Jembatan Merah Surabaya pada 30 Oktober 1945."
       },
       {
         "key": "C",
@@ -639,15 +640,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penangkapan Gubernur Jawa Timur Raden Mas Tumenggung Ario Soerjo oleh tentara bayaran Gurkha."
+        "text": "Penolakan rakyat Surabaya untuk mengembalikan seluruh pesawat tempur rampasan Sekutu di Pangkalan Morokrembangan."
       },
       {
         "key": "E",
-        "text": "Tewasnya perwira tinggi militer Inggris, Brigadir Jenderal A.W.S. Mallaby, dalam baku tembak di sekitar Jembatan Merah Surabaya pada 30 Oktober 1945."
+        "text": "Penangkapan Gubernur Jawa Timur Raden Mas Tumenggung Ario Soerjo oleh tentara bayaran Gurkha."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tewasnya perwira tinggi militer Inggris, Brigadir Jenderal A.W.S. Mallaby, dalam baku tembak di sekitar Jembatan Merah Surabaya pada 30 Oktober 1945.. Pemicu langsung pertempuran 10 November 1945 adalah tewasnya Brigjen A.W.S. Mallaby di Jembatan Merah yang disusul ultimatum Mayor Jenderal E.C. Mansergh. Pilih opsi: Tewasnya Brigjen A.W.S. Mallaby dalam insiden baku tembak di Jembatan Merah."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Tewasnya perwira tinggi militer Inggris, Brigadir Jenderal A.W.S. Mallaby, dalam baku tembak di sekitar Jembatan Merah Surabaya pada 30 Oktober 1945.. Pemicu langsung pertempuran 10 November 1945 adalah tewasnya Brigjen A.W.S. Mallaby di Jembatan Merah yang disusul ultimatum Mayor Jenderal E.C. Mansergh. Pilih opsi: Tewasnya Brigjen A.W.S. Mallaby dalam insiden baku tembak di Jembatan Merah."
   },
   {
     "id": "sejl-lat-e-16",
@@ -670,11 +671,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kerajaan Belanda mengakui kedaulatan Indonesia secara penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS) paling lambat akhir Desember 1949."
+        "text": "Pemberian ganti rugi perang dari pemerintah Belanda sebesar seratus miliar gulden tunai kepada kabinet RIS."
       },
       {
         "key": "B",
-        "text": "Penyatuan wilayah Papua Barat seketika ke dalam wilayah RIS pada hari penandatanganan traktat KMB ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Kerajaan Belanda mengakui kedaulatan Indonesia secara penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS) paling lambat akhir Desember 1949."
       },
       {
         "key": "C",
@@ -682,15 +683,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pemberian ganti rugi perang dari pemerintah Belanda sebesar seratus miliar gulden tunai kepada kabinet RIS."
+        "text": "Penyatuan wilayah Papua Barat seketika ke dalam wilayah RIS pada hari penandatanganan traktat KMB."
       },
       {
         "key": "E",
         "text": "Penghapusan seluruh utang Hindia Belanda masa lalu oleh Dewan Keamanan Perserikatan Bangsa-Bangsa."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kerajaan Belanda mengakui kedaulatan Indonesia secara penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS) paling lambat akhir Desember 1949.. Hasil terpenting KMB 1949 adalah pengakuan kedaulatan penuh tanpa syarat oleh Belanda kepada RIS pada akhir Desember 1949. Pilih opsi Belanda mengakui kedaulatan penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kerajaan Belanda mengakui kedaulatan Indonesia secara penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS) paling lambat akhir Desember 1949.. Hasil terpenting KMB 1949 adalah pengakuan kedaulatan penuh tanpa syarat oleh Belanda kepada RIS pada akhir Desember 1949. Pilih opsi Belanda mengakui kedaulatan penuh dan tanpa syarat kepada Republik Indonesia Serikat (RIS)."
   },
   {
     "id": "sejl-lat-e-17",
@@ -713,7 +714,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Presiden dan Wakil Presiden secara langsung pada putaran pertama serta kepala daerah pada putaran kedua ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Anggota Mahkamah Agung pada tahap pertama dan para gubernur seluruh provinsi pada tahap kedua."
       },
       {
         "key": "B",
@@ -721,15 +722,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Anggota Mahkamah Agung pada tahap pertama dan para gubernur seluruh provinsi pada tahap kedua."
+        "text": "Presiden dan Wakil Presiden secara langsung pada putaran pertama serta kepala daerah pada putaran kedua."
       },
       {
         "key": "D",
-        "text": "Panglima Angkatan Bersenjata pada tahap pertama dan menteri luar negeri pada tahap kedua."
+        "text": "Anggota Majelis Permusyawaratan Rakyat Sementara (MPRS) dan hakim pengadilan militer nasional."
       },
       {
         "key": "E",
-        "text": "Anggota Majelis Permusyawaratan Rakyat Sementara (MPRS) dan hakim pengadilan militer nasional."
+        "text": "Panglima Angkatan Bersenjata pada tahap pertama dan menteri luar negeri pada tahap kedua."
       }
     ],
     "correctKey": "B",
@@ -756,15 +757,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Piagam Jakarta (dokumen kompromi sembilan tokoh pendiri bangsa mengenai rumusan dasar negara) sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
         "text": "Deklarasi Bangkok (piagam pembentukan organisasi perhimpunan bangsa-bangsa Asia Tenggara/ASEAN)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Dasasila Bandung (sepuluh prinsip perdamaian internasional, penghormatan kedaulatan, non-agresi, dan anti-kolonialisme)."
+      },
+      {
+        "key": "C",
+        "text": "Piagam Jakarta (dokumen kompromi sembilan tokoh pendiri bangsa mengenai rumusan dasar negara)."
       },
       {
         "key": "D",
@@ -775,8 +776,8 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
         "text": "Proklamasi Kemerdekaan (deklarasi pembebasan tanah air dari penjajahan kekaisaran militer Jepang)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Dasasila Bandung (sepuluh prinsip perdamaian internasional, penghormatan kedaulatan, non-agresi, dan anti-kolonialisme).. KAA di Bandung 1955 menghasilkan kesepakatan prinsipil 'Dasasila Bandung' yang menjadi landasan Gerakan Non-Blok. Pilih opsi Dasasila Bandung yang memuat sepuluh prinsip perdamaian dan anti-kolonialisme."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Dasasila Bandung (sepuluh prinsip perdamaian internasional, penghormatan kedaulatan, non-agresi, dan anti-kolonialisme).. KAA di Bandung 1955 menghasilkan kesepakatan prinsipil 'Dasasila Bandung' yang menjadi landasan Gerakan Non-Blok. Pilih opsi Dasasila Bandung yang memuat sepuluh prinsip perdamaian dan anti-kolonialisme."
   },
   {
     "id": "sejl-lat-e-19",
@@ -799,27 +800,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memilih menteri keuangan baru untuk menstabilkan harga komoditas pokok beras di pasar ibu kota menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Menyusun dan menetapkan Undang-Undang Dasar baru pengganti UUDS 1950 akibat kebuntuan perdebatan dasar negara antar-fraksi."
       },
       {
         "key": "B",
-        "text": "Menyetujui pengerahan armada tentara untuk melancarkan serangan pembebasan wilayah Sabah dan Sarawak."
-      },
-      {
-        "key": "C",
         "text": "Menolak rencana pembangunan Monumen Nasional (Monas) dan kompleks olahraga Stadion Senayan."
       },
       {
+        "key": "C",
+        "text": "Menyetujui pengerahan armada tentara untuk melancarkan serangan pembebasan wilayah Sabah dan Sarawak."
+      },
+      {
         "key": "D",
-        "text": "Menyusun dan menetapkan Undang-Undang Dasar baru pengganti UUDS 1950 akibat kebuntuan perdebatan dasar negara antar-fraksi."
+        "text": "Memilih menteri keuangan baru untuk menstabilkan harga komoditas pokok beras di pasar ibu kota menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
         "text": "Mengadakan pemilihan umum kedua untuk memilih anggota dewan perwakilan rakyat tingkat kabupaten."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menyusun dan menetapkan Undang-Undang Dasar baru pengganti UUDS 1950 akibat kebuntuan perdebatan dasar negara antar-fraksi.. Dekrit Presiden 5 Juli 1959 dikeluarkan Soekarno karena Konstituante gagal menyepakati UUD definitif baru pengganti UUDS 1950. Pilih opsi: Kegagalan Dewan Konstituante menetapkan UUD baru pengganti UUDS 1950."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menyusun dan menetapkan Undang-Undang Dasar baru pengganti UUDS 1950 akibat kebuntuan perdebatan dasar negara antar-fraksi.. Dekrit Presiden 5 Juli 1959 dikeluarkan Soekarno karena Konstituante gagal menyepakati UUD definitif baru pengganti UUDS 1950. Pilih opsi: Kegagalan Dewan Konstituante menetapkan UUD baru pengganti UUDS 1950."
   },
   {
     "id": "sejl-lat-e-20",
@@ -842,27 +843,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus hak monopoli perdagangan komoditas timah milik pengusaha lokal di pulau Bangka Belitung diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
-      },
-      {
-        "key": "B",
-        "text": "Mengumumkan pengunduran diri Indonesia dari keanggotaan Konferensi Tingkat Tinggi Gerakan Non-Blok di Beograd."
-      },
-      {
-        "key": "C",
-        "text": "Memperpanjang status sewa pangkalan militer Angkatan Laut Inggris di perairan Selat Singapura."
-      },
-      {
-        "key": "D",
         "text": "Menyerahkan seluruh pengelolaan ladang minyak bumi Sumatera kepada konglomerat perbankan Swiss."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menghapus hak monopoli perdagangan komoditas timah milik pengusaha lokal di pulau Bangka Belitung."
+      },
+      {
+        "key": "C",
+        "text": "Mengumumkan pengunduran diri Indonesia dari keanggotaan Konferensi Tingkat Tinggi Gerakan Non-Blok di Beograd."
+      },
+      {
+        "key": "D",
         "text": "Menggagalkan pembentukan negara boneka Papua buatan Belanda, mengibarkan Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan rakyat demi integrasi wilayah NKRI."
+      },
+      {
+        "key": "E",
+        "text": "Memperpanjang status sewa pangkalan militer Angkatan Laut Inggris di perairan Selat Singapura."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menggagalkan pembentukan negara boneka Papua buatan Belanda, mengibarkan Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan rakyat demi integrasi wilayah NKRI.. Trikora 1961 dicetuskan Soekarno di alun-alun utara Yogyakarta untuk membebaskan Irian Barat dari cengkeraman kolonial Belanda. Pilih opsi menggagalkan negara boneka Papua buatan Belanda dan mengibarkan Merah Putih di Irian Barat."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menggagalkan pembentukan negara boneka Papua buatan Belanda, mengibarkan Sang Saka Merah Putih di Irian Barat, dan memobilisasi kekuatan rakyat demi integrasi wilayah NKRI.. Trikora 1961 dicetuskan Soekarno di alun-alun utara Yogyakarta untuk membebaskan Irian Barat dari cengkeraman kolonial Belanda. Pilih opsi menggagalkan negara boneka Papua buatan Belanda dan mengibarkan Merah Putih di Irian Barat."
   },
   {
     "id": "sejl-lat-e-21",
@@ -889,19 +890,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menyerahkan mahkota kepresidenan secara sepihak dan membubarkan seluruh badan peradilan konstitusi ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Memerintahkan pembentukan pakta militer pertahanan bersama dengan tentara Amerika Serikat di kawasan Pasifik."
       },
       {
+        "key": "C",
+        "text": "Menyerahkan mahkota kepresidenan secara sepihak dan membubarkan seluruh badan peradilan konstitusi."
+      },
+      {
         "key": "D",
-        "text": "Menginstruksikan pencetakan obligasi utang luar negeri tanpa batas untuk membiayai proyek mercusuar."
+        "text": "Mengganti lambang burung Garuda Pancasila dengan simbol kemiliteran angkatan bersenjata."
       },
       {
         "key": "E",
-        "text": "Mengganti lambang burung Garuda Pancasila dengan simbol kemiliteran angkatan bersenjata."
+        "text": "Menginstruksikan pencetakan obligasi utang luar negeri tanpa batas untuk membiayai proyek mercusuar."
       }
     ],
     "correctKey": "A",
@@ -928,27 +929,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Partai Nasional Indonesia (PNI), Partai Komunis Indonesia (PKI), dan Masyumi ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Partai Nasional Indonesia (PNI), Partai Komunis Indonesia (PKI), dan Masyumi."
       },
       {
         "key": "B",
-        "text": "Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golongan Karya (Golkar)."
-      },
-      {
-        "key": "C",
-        "text": "Partai Sosialis Indonesia (PSI), Partai Murba, dan Nahdlatul Ulama (NU)."
-      },
-      {
-        "key": "D",
         "text": "Partai Buruh, Partai Amanat Rakyat, dan Gerakan Mahasiswa Nasional."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Partai Katolik, Partai Kristen Indonesia (Parkindo), dan Sarekat Islam."
+      },
+      {
+        "key": "D",
+        "text": "Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golongan Karya (Golkar)."
+      },
+      {
+        "key": "E",
+        "text": "Partai Sosialis Indonesia (PSI), Partai Murba, dan Nahdlatul Ulama (NU)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golongan Karya (Golkar).. Fusi 1973 menggabungkan seluruh parpol menjadi 2 parpol (PPP dan PDI) serta 1 golongan karya (Golkar). Pilih opsi: Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golkar."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golongan Karya (Golkar).. Fusi 1973 menggabungkan seluruh parpol menjadi 2 parpol (PPP dan PDI) serta 1 golongan karya (Golkar). Pilih opsi: Partai Persatuan Pembangunan (PPP), Partai Demokrasi Indonesia (PDI), dan Golkar."
   },
   {
     "id": "sejl-lat-e-23",
@@ -971,27 +972,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Organisasi Kesehatan Dunia (WHO) atas keberhasilan menekan angka wabah influenza di pedesaan sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
-        "text": "International Monetary Fund (IMF) atas pelunasan utang obligasi pembangunan waduk irigasi."
-      },
-      {
-        "key": "C",
-        "text": "Food and Agriculture Organization (FAO) PBB di Roma, Italia, pada tahun 1985 yang menganugerahkan penghargaan medali kepada Presiden Soeharto."
-      },
-      {
-        "key": "D",
         "text": "United Nations Educational, Scientific and Cultural Organization (UNESCO) atas penetapan lumbung padi sebagai cagar budaya."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "World Trade Organization (WTO) atas penghapusan tarif bea ekspor beras ke benua Eropa."
+      },
+      {
+        "key": "C",
+        "text": "Organisasi Kesehatan Dunia (WHO) atas keberhasilan menekan angka wabah influenza di pedesaan."
+      },
+      {
+        "key": "D",
+        "text": "Food and Agriculture Organization (FAO) PBB di Roma, Italia, pada tahun 1985 yang menganugerahkan penghargaan medali kepada Presiden Soeharto."
+      },
+      {
+        "key": "E",
+        "text": "International Monetary Fund (IMF) atas pelunasan utang obligasi pembangunan waduk irigasi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Food and Agriculture Organization (FAO) PBB di Roma, Italia, pada tahun 1985 yang menganugerahkan penghargaan medali kepada Presiden Soeharto.. Swasembada beras 1984 mendapat penghargaan internasional dari badan pangan PBB yaitu FAO (Food and Agriculture Organization) di Roma. Pilih opsi: Food and Agriculture Organization (FAO) di Roma, Italia, pada tahun 1985."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Food and Agriculture Organization (FAO) PBB di Roma, Italia, pada tahun 1985 yang menganugerahkan penghargaan medali kepada Presiden Soeharto.. Swasembada beras 1984 mendapat penghargaan internasional dari badan pangan PBB yaitu FAO (Food and Agriculture Organization) di Roma. Pilih opsi: Food and Agriculture Organization (FAO) di Roma, Italia, pada tahun 1985."
   },
   {
     "id": "sejl-lat-e-24",
@@ -1014,27 +1015,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kekalahan total angkatan perang Republik Indonesia dalam pertempuran laut melawan negara tetangga menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Penolakan rakyat terhadap rencana pembangunan jalan tol lintas Sumatera dan trans-Jawa."
       },
       {
         "key": "B",
-        "text": "Ditariknya seluruh mata uang rupiah dari peredaran oleh Bank Dunia dan digantikan mata uang dolar."
-      },
-      {
-        "key": "C",
-        "text": "Rencana pemerintah Orde Baru untuk menghapus sistem kepresidenan dan membentuk monarki absolut."
-      },
-      {
-        "key": "D",
         "text": "Krisis moneter hebat tahun 1997/1998, gelombang demonstrasi mahasiswa massal pasca-Tragedi Trisakti, serta pengunduran diri 14 menteri bidang ekonomi."
       },
       {
+        "key": "C",
+        "text": "Kekalahan total angkatan perang Republik Indonesia dalam pertempuran laut melawan negara tetangga menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+      },
+      {
+        "key": "D",
+        "text": "Rencana pemerintah Orde Baru untuk menghapus sistem kepresidenan dan membentuk monarki absolut."
+      },
+      {
         "key": "E",
-        "text": "Penolakan rakyat terhadap rencana pembangunan jalan tol lintas Sumatera dan trans-Jawa."
+        "text": "Ditariknya seluruh mata uang rupiah dari peredaran oleh Bank Dunia dan digantikan mata uang dolar."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Krisis moneter hebat tahun 1997/1998, gelombang demonstrasi mahasiswa massal pasca-Tragedi Trisakti, serta pengunduran diri 14 menteri bidang ekonomi.. Lengsernya Orde Baru dipicu oleh krisis multidimensi (krisis moneter 1997, Tragedi Trisakti, kerusuhan massal, dan mundurnya 14 menteri). Pilih opsi: Krisis moneter 1997/1998, gelombang demonstrasi mahasiswa Tragedi Trisakti, serta mundurnya 14 menteri."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Krisis moneter hebat tahun 1997/1998, gelombang demonstrasi mahasiswa massal pasca-Tragedi Trisakti, serta pengunduran diri 14 menteri bidang ekonomi.. Lengsernya Orde Baru dipicu oleh krisis multidimensi (krisis moneter 1997, Tragedi Trisakti, kerusuhan massal, dan mundurnya 14 menteri). Pilih opsi: Krisis moneter 1997/1998, gelombang demonstrasi mahasiswa Tragedi Trisakti, serta mundurnya 14 menteri."
   },
   {
     "id": "sejl-lat-e-25",
@@ -1057,19 +1058,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ali Sastroamidjojo (Perdana Menteri Indonesia pada masa penyelenggaraan KAA Bandung)."
-      },
-      {
-        "key": "B",
-        "text": "Sultan Hamengkubuwono IX (Menteri Koordinator Bidang Ekonomi, Keuangan, dan Industri)."
-      },
-      {
-        "key": "C",
         "text": "Prof. Dr. Mochtar Kusumaatmadja (Pakar hukum laut penata konsep negara kepulauan)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Mochamad Jasin (Perwira komando kepolisian istimewa pejuang revolusi Surabaya)."
+      },
+      {
+        "key": "C",
+        "text": "Ali Sastroamidjojo (Perdana Menteri Indonesia pada masa penyelenggaraan KAA Bandung)."
+      },
+      {
+        "key": "D",
+        "text": "Sultan Hamengkubuwono IX (Menteri Koordinator Bidang Ekonomi, Keuangan, dan Industri)."
       },
       {
         "key": "E",
@@ -1100,11 +1101,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kritik ekstern menguji otentisitas fisik sumber (bahan kertas, usia tinta, gaya tulisan, dan asal-usul dokumen), sedangkan kritik intern menguji kredibilitas isi kesaksian narasi yang disampaikan oleh pembuat sumber."
+        "text": "Kritik ekstern meneliti kesesuaian cerita rakyat mitologis, sedangkan kritik intern menghitung jumlah korban jiwa dalam peperangan."
       },
       {
         "key": "B",
-        "text": "Kritik ekstern menguji pandangan moral sejarawan terhadap peristiwa, sedangkan kritik intern mencetak ulang dokumen arsip untuk dipublikasikan luas ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Kritik ekstern menguji pandangan moral sejarawan terhadap peristiwa, sedangkan kritik intern mencetak ulang dokumen arsip untuk dipublikasikan luas."
       },
       {
         "key": "C",
@@ -1112,15 +1113,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kritik ekstern meneliti kesesuaian cerita rakyat mitologis, sedangkan kritik intern menghitung jumlah korban jiwa dalam peperangan."
+        "text": "Kritik ekstern menguji otentisitas fisik sumber (bahan kertas, usia tinta, gaya tulisan, dan asal-usul dokumen), sedangkan kritik intern menguji kredibilitas isi kesaksian narasi yang disampaikan oleh pembuat sumber."
       },
       {
         "key": "E",
         "text": "Kritik ekstern hanya berlaku untuk peninggalan fosil purba, sedangkan kritik intern hanya berlaku untuk arsip elektronik abad ke-21."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kritik ekstern menguji otentisitas fisik sumber (bahan kertas, usia tinta, gaya tulisan, dan asal-usul dokumen), sedangkan kritik intern menguji kredibilitas isi kesaksian narasi yang disampaikan oleh pembuat sumber.. Kritik eksternal = menguji otentisitas/keaslian bentuk fisik dokumen (tinta, kertas, asal dokumen). Kritik internal = menguji kredibilitas isi informasi dokumen. Pilih opsi: Kritik ekstern menguji otentisitas fisik, sedangkan kritik intern menguji kredibilitas isi kesaksian narasi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kritik ekstern menguji otentisitas fisik sumber (bahan kertas, usia tinta, gaya tulisan, dan asal-usul dokumen), sedangkan kritik intern menguji kredibilitas isi kesaksian narasi yang disampaikan oleh pembuat sumber.. Kritik eksternal = menguji otentisitas/keaslian bentuk fisik dokumen (tinta, kertas, asal dokumen). Kritik internal = menguji kredibilitas isi informasi dokumen. Pilih opsi: Kritik ekstern menguji otentisitas fisik, sedangkan kritik intern menguji kredibilitas isi kesaksian narasi."
   },
   {
     "id": "sejl-lat-m-02",
@@ -1143,27 +1144,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Historiografi positivistik modern kembali ke historiografi mitologis tradisional yang mengagungkan trah para raja feodal ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
-        "text": "Neerlandosentris (Belanda sebagai subjek utama peradaban dan bangsa pribumi sekadar objek pasif pemberontak) menuju Indonesiasentris (menempatkan rakyat dan bangsa Indonesia sebagai pelaku dan subjek utama dinamika sejarahnya sendiri)."
-      },
-      {
-        "key": "C",
-        "text": "Pendekatan sejarah lisan beralih ke analisis data ekonomi makro tanpa mempertimbangkan kesaksian para pejuang perintis kemerdekaan."
-      },
-      {
-        "key": "D",
         "text": "Sejarah nasional Indonesia dihapuskan dan digantikan oleh sejarah integrasi global persemakmuran imperium kolonial Eropa."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Pendekatan sejarah lisan beralih ke analisis data ekonomi makro tanpa mempertimbangkan kesaksian para pejuang perintis kemerdekaan."
+      },
+      {
+        "key": "C",
+        "text": "Neerlandosentris (Belanda sebagai subjek utama peradaban dan bangsa pribumi sekadar objek pasif pemberontak) menuju Indonesiasentris (menempatkan rakyat dan bangsa Indonesia sebagai pelaku dan subjek utama dinamika sejarahnya sendiri)."
+      },
+      {
+        "key": "D",
         "text": "Kajian sejarah lokal daerah dilarang total agar tidak memicu disintegrasi persatuan bangsa di era Republik Indonesia Serikat."
+      },
+      {
+        "key": "E",
+        "text": "Historiografi positivistik modern kembali ke historiografi mitologis tradisional yang mengagungkan trah para raja feodal."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Neerlandosentris (Belanda sebagai subjek utama peradaban dan bangsa pribumi sekadar objek pasif pemberontak) menuju Indonesiasentris (menempatkan rakyat dan bangsa Indonesia sebagai pelaku dan subjek utama dinamika sejarahnya sendiri).. Dekolonisasi sejarah berarti melepaskan historiografi dari sudut pandang penjajah (Neerlandosentris) menjadi berorientasi pada bangsa sendiri (Indonesiasentris). Pilih peralihan dari Neerlandosentris (Belanda subjek utama) menuju Indonesiasentris (rakyat Indonesia subjek utama)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Neerlandosentris (Belanda sebagai subjek utama peradaban dan bangsa pribumi sekadar objek pasif pemberontak) menuju Indonesiasentris (menempatkan rakyat dan bangsa Indonesia sebagai pelaku dan subjek utama dinamika sejarahnya sendiri).. Dekolonisasi sejarah berarti melepaskan historiografi dari sudut pandang penjajah (Neerlandosentris) menjadi berorientasi pada bangsa sendiri (Indonesiasentris). Pilih peralihan dari Neerlandosentris (Belanda subjek utama) menuju Indonesiasentris (rakyat Indonesia subjek utama)."
   },
   {
     "id": "sejl-lat-m-03",
@@ -1186,7 +1187,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya menyusun kronologi tanggal dan urutan nama raja tanpa memberikan analisis sebab-akibat sosial kemasyarakatan sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Hanya menyusun kronologi tanggal dan urutan nama raja tanpa memberikan analisis sebab-akibat sosial kemasyarakatan."
       },
       {
         "key": "B",
@@ -1194,7 +1195,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengintegrasikan konsep dan teori ilmu-ilmu sosial (seperti sosiologi kekuasaan, antropologi religi, dan ekonomi agraria) untuk membongkar struktur dan kausalitas kompleks di balik suatu peristiwa sejarah."
+        "text": "Menggantikan fakta sejarah empiris dengan narasi fiksi sastra drama guna memikat minat generasi muda."
       },
       {
         "key": "D",
@@ -1202,11 +1203,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menggantikan fakta sejarah empiris dengan narasi fiksi sastra drama guna memikat minat generasi muda."
+        "text": "Mengintegrasikan konsep dan teori ilmu-ilmu sosial (seperti sosiologi kekuasaan, antropologi religi, dan ekonomi agraria) untuk membongkar struktur dan kausalitas kompleks di balik suatu peristiwa sejarah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mengintegrasikan konsep dan teori ilmu-ilmu sosial (seperti sosiologi kekuasaan, antropologi religi, dan ekonomi agraria) untuk membongkar struktur dan kausalitas kompleks di balik suatu peristiwa sejarah.. Sartono Kartodirdjo memelopori pendekatan multidimensional: memanfaatkan konsep ilmu sosial (sosiologi, antropologi, ekonomi) untuk membedah peristiwa secara mendalam. Pilih opsi: Mengintegrasikan konsep ilmu-ilmu sosial untuk membongkar struktur dan kausalitas kompleks peristiwa sejarah."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mengintegrasikan konsep dan teori ilmu-ilmu sosial (seperti sosiologi kekuasaan, antropologi religi, dan ekonomi agraria) untuk membongkar struktur dan kausalitas kompleks di balik suatu peristiwa sejarah.. Sartono Kartodirdjo memelopori pendekatan multidimensional: memanfaatkan konsep ilmu sosial (sosiologi, antropologi, ekonomi) untuk membedah peristiwa secara mendalam. Pilih opsi: Mengintegrasikan konsep ilmu-ilmu sosial untuk membongkar struktur dan kausalitas kompleks peristiwa sejarah."
   },
   {
     "id": "sejl-lat-m-04",
@@ -1229,7 +1230,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wilayah karesidenan VOC, wilayah swapraja kesultanan, dan wilayah gubernemen kolonial Hindia Belanda menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Negaragung (wilayah inti pusat kerajaan di sekitar Trowulan), Mancanegara (wilayah luar Jawa yang mengakui supremasi dan membayar upeti), dan Mitreka Satata (negara-negara sahabat merdeka di seberang lautan yang kedudukannya sederajat)."
       },
       {
         "key": "B",
@@ -1237,19 +1238,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Provinsi otonom serikat, wilayah mandat Perserikatan Bangsa-Bangsa, dan zona demiliterisasi netral."
+        "text": "Wilayah karesidenan VOC, wilayah swapraja kesultanan, dan wilayah gubernemen kolonial Hindia Belanda menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "D",
-        "text": "Negaragung (wilayah inti pusat kerajaan di sekitar Trowulan), Mancanegara (wilayah luar Jawa yang mengakui supremasi dan membayar upeti), dan Mitreka Satata (negara-negara sahabat merdeka di seberang lautan yang kedudukannya sederajat)."
+        "text": "Provinsi otonom serikat, wilayah mandat Perserikatan Bangsa-Bangsa, dan zona demiliterisasi netral."
       },
       {
         "key": "E",
         "text": "Tanah perdikan biara pendeta, tanah milik pedagang asing Gujarat, dan pelabuhan monopoli bangsa Portugis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Negaragung (wilayah inti pusat kerajaan di sekitar Trowulan), Mancanegara (wilayah luar Jawa yang mengakui supremasi dan membayar upeti), dan Mitreka Satata (negara-negara sahabat merdeka di seberang lautan yang kedudukannya sederajat).. Lapis wilayah Majapahit terdiri dari: Negara Agung (pusat/inti), Manca Negara (daerah taklukan/upeti di kepulauan), dan Mitreka Satata (sahabat setara di mancanegara). Pilih: Negaragung, Mancanegara, dan Mitreka Satata."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Negaragung (wilayah inti pusat kerajaan di sekitar Trowulan), Mancanegara (wilayah luar Jawa yang mengakui supremasi dan membayar upeti), dan Mitreka Satata (negara-negara sahabat merdeka di seberang lautan yang kedudukannya sederajat).. Lapis wilayah Majapahit terdiri dari: Negara Agung (pusat/inti), Manca Negara (daerah taklukan/upeti di kepulauan), dan Mitreka Satata (sahabat setara di mancanegara). Pilih: Negaragung, Mancanegara, dan Mitreka Satata."
   },
   {
     "id": "sejl-lat-m-05",
@@ -1272,27 +1273,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hancurnya benteng keraton Mataram di Karta akibat gempa bumi tektonik dahsyat sepanjang pantai selatan diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
-      },
-      {
-        "key": "B",
-        "text": "Membelotnya seluruh armada perahu perang Mataram kepada kongsi dagang Inggris (EIC) di Banten."
-      },
-      {
-        "key": "C",
-        "text": "Tewasnya Sultan Agung di medan pertempuran akibat ledakan meriam kapal kompeni Belanda."
-      },
-      {
-        "key": "D",
         "text": "Adanya perjanjian penyerahan tanpa syarat seluruh wilayah Jawa Tengah kepada Gubernur Jenderal J.P. Coen."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Hancurnya benteng keraton Mataram di Karta akibat gempa bumi tektonik dahsyat sepanjang pantai selatan."
+      },
+      {
+        "key": "C",
         "text": "Dibakarnya lumbung-lumbung pasokan beras tentara Mataram di Tegal dan Cirebon oleh mata-mata VOC sebelum pasukan induk tiba di Batavia, sehingga ribuan prajurit kelaparan dan terserang wabah penyakit."
+      },
+      {
+        "key": "D",
+        "text": "Tewasnya Sultan Agung di medan pertempuran akibat ledakan meriam kapal kompeni Belanda."
+      },
+      {
+        "key": "E",
+        "text": "Membelotnya seluruh armada perahu perang Mataram kepada kongsi dagang Inggris (EIC) di Banten."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Dibakarnya lumbung-lumbung pasokan beras tentara Mataram di Tegal dan Cirebon oleh mata-mata VOC sebelum pasukan induk tiba di Batavia, sehingga ribuan prajurit kelaparan dan terserang wabah penyakit.. Serangan kedua Mataram (1629) gagal karena lumbung-lumbung beras logistik di Tegal dan Cirebon dibakar oleh agen VOC, menyebabkan kelaparan dan wabah penyakit. Pilih opsi dibakarnya lumbung-lumbung pasokan beras di Tegal dan Cirebon oleh mata-mata VOC."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Dibakarnya lumbung-lumbung pasokan beras tentara Mataram di Tegal dan Cirebon oleh mata-mata VOC sebelum pasukan induk tiba di Batavia, sehingga ribuan prajurit kelaparan dan terserang wabah penyakit.. Serangan kedua Mataram (1629) gagal karena lumbung-lumbung beras logistik di Tegal dan Cirebon dibakar oleh agen VOC, menyebabkan kelaparan dan wabah penyakit. Pilih opsi dibakarnya lumbung-lumbung pasokan beras di Tegal dan Cirebon oleh mata-mata VOC."
   },
   {
     "id": "sejl-lat-m-06",
@@ -1315,27 +1316,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendirikan benteng-benteng pertahanan di setiap daerah yang berhasil direbut dan menghubungkannya dengan jalur infrastruktur jalan pos serta kavaleri patroli cepat, sehingga ruang gerak pasukan gerilya Diponegoro terisolasi dan semakin sempit."
+        "text": "Membangun satu benteng raksasa di muara Sungai Progo untuk menampung seluruh penduduk pulau Jawa."
       },
       {
         "key": "B",
-        "text": "Membangun satu benteng raksasa di muara Sungai Progo untuk menampung seluruh penduduk pulau Jawa ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Mengeringkan seluruh aliran sungai di kawasan perbukitan Menoreh untuk menenggelamkan markas gerilya Selarong."
       },
       {
         "key": "C",
-        "text": "Menarik mundur seluruh garnisun militer Belanda ke Batavia dan membiarkan Jawa Tengah diperintah secara otonom."
-      },
-      {
-        "key": "D",
         "text": "Membagi-bagikan senjata senapan modern gratis kepada para petani desa agar bangkit melawan pasukan pangeran keraton."
       },
       {
+        "key": "D",
+        "text": "Mendirikan benteng-benteng pertahanan di setiap daerah yang berhasil direbut dan menghubungkannya dengan jalur infrastruktur jalan pos serta kavaleri patroli cepat, sehingga ruang gerak pasukan gerilya Diponegoro terisolasi dan semakin sempit."
+      },
+      {
         "key": "E",
-        "text": "Mengeringkan seluruh aliran sungai di kawasan perbukitan Menoreh untuk menenggelamkan markas gerilya Selarong."
+        "text": "Menarik mundur seluruh garnisun militer Belanda ke Batavia dan membiarkan Jawa Tengah diperintah secara otonom."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Mendirikan benteng-benteng pertahanan di setiap daerah yang berhasil direbut dan menghubungkannya dengan jalur infrastruktur jalan pos serta kavaleri patroli cepat, sehingga ruang gerak pasukan gerilya Diponegoro terisolasi dan semakin sempit.. Benteng Stelsel adalah sistem pendirian benteng di titik-titik strategis yang saling terhubung untuk mengepung dan mempersempit mobilitas gerilya Diponegoro. Pilih opsi mendirikan benteng-benteng di daerah yang direbut dan menghubungkannya dengan patroli cepat guna mempersempit ruang gerak gerilya."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mendirikan benteng-benteng pertahanan di setiap daerah yang berhasil direbut dan menghubungkannya dengan jalur infrastruktur jalan pos serta kavaleri patroli cepat, sehingga ruang gerak pasukan gerilya Diponegoro terisolasi dan semakin sempit.. Benteng Stelsel adalah sistem pendirian benteng di titik-titik strategis yang saling terhubung untuk mengepung dan mempersempit mobilitas gerilya Diponegoro. Pilih opsi mendirikan benteng-benteng di daerah yang direbut dan menghubungkannya dengan patroli cepat guna mempersempit ruang gerak gerilya."
   },
   {
     "id": "sejl-lat-m-07",
@@ -1358,7 +1359,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan pengelolaan pelabuhan Sabang kepada imperium Ottoman Turki demi terciptanya pakta netralitas ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Menarik seluruh armada kapal tempur kompeni dan mengakui Aceh sebagai negara protektorat berdaulat."
       },
       {
         "key": "B",
@@ -1374,7 +1375,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menarik seluruh armada kapal tempur kompeni dan mengakui Aceh sebagai negara protektorat berdaulat."
+        "text": "Menyerahkan pengelolaan pelabuhan Sabang kepada imperium Ottoman Turki demi terciptanya pakta netralitas."
       }
     ],
     "correctKey": "B",
@@ -1401,27 +1402,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban perusahaan Belanda membagikan separuh keuntungan deviden kepada organisasi serikat buruh pribumi sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
-        "text": "Pelarangan penanaman komoditas ekspor kopi, karet, tembakau, dan tebu di seluruh perkebunan Pulau Jawa."
-      },
-      {
-        "key": "C",
         "text": "Pemberian hak sewa tanah jangka panjang kepada pengusaha swasta hingga 75 tahun melalui sistem hak erfpacht (_erfpachtrecht_) atas tanah negara yang belum digarap."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Pemberian sertifikat hak milik abadi atas tanah ulayat desa kepada kaum buruh tani miskin."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Penghapusan seluruh sistem mata uang gulden dan pengembalian transaksi pasar ke sistem barter primitif."
+      },
+      {
+        "key": "D",
+        "text": "Pelarangan penanaman komoditas ekspor kopi, karet, tembakau, dan tebu di seluruh perkebunan Pulau Jawa."
+      },
+      {
+        "key": "E",
+        "text": "Kewajiban perusahaan Belanda membagikan separuh keuntungan deviden kepada organisasi serikat buruh pribumi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pemberian hak sewa tanah jangka panjang kepada pengusaha swasta hingga 75 tahun melalui sistem hak erfpacht (_erfpachtrecht_) atas tanah negara yang belum digarap.. Agrarische Wet 1870 memberikan hak erfpacht: hak sewa tanah milik negara kepada investor swasta hingga kurun waktu 75 tahun. Pilih opsi hak sewa tanah jangka panjang hingga 75 tahun (hak erfpacht)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pemberian hak sewa tanah jangka panjang kepada pengusaha swasta hingga 75 tahun melalui sistem hak erfpacht (_erfpachtrecht_) atas tanah negara yang belum digarap.. Agrarische Wet 1870 memberikan hak erfpacht: hak sewa tanah milik negara kepada investor swasta hingga kurun waktu 75 tahun. Pilih opsi hak sewa tanah jangka panjang hingga 75 tahun (hak erfpacht)."
   },
   {
     "id": "sejl-lat-m-09",
@@ -1444,27 +1445,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perebutan hak pengelolaan dana bantuan persenjataan dari kekaisaran militer Jerman di Berlin menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Penolakan pimpinan SI cabang Surabaya terhadap pembacaan ikrar Sumpah Pemuda dalam bahasa Indonesia."
-      },
-      {
-        "key": "C",
         "text": "Kesepakatan pimpinan pusat SI untuk membubarkan organisasi dan bergabung ke dalam militer bala tentara Jepang."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Perebutan hak pengelolaan dana bantuan persenjataan dari kekaisaran militer Jerman di Berlin menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+      },
+      {
+        "key": "C",
         "text": "Infiltrasi kader-kader ISDV (komunis pimpinan Henk Sneevliet) seperti Semaun dan Darsono yang menyebarkan doktrin marxisme radikal dan menentang kepemimpinan H.O.S. Tjokroaminoto dan H. Agus Salim yang berlandaskan nasionalisme Islam."
+      },
+      {
+        "key": "D",
+        "text": "Penolakan pimpinan SI cabang Surabaya terhadap pembacaan ikrar Sumpah Pemuda dalam bahasa Indonesia."
       },
       {
         "key": "E",
         "text": "Perdebatan mengenai pemilihan calon menteri kabinet pertama di parlemen dewan rakyat Volksraad."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Infiltrasi kader-kader ISDV (komunis pimpinan Henk Sneevliet) seperti Semaun dan Darsono yang menyebarkan doktrin marxisme radikal dan menentang kepemimpinan H.O.S. Tjokroaminoto dan H. Agus Salim yang berlandaskan nasionalisme Islam.. Perpecahan SI disebabkan infiltrasi doktrin komunis ISDV melalui Semaun dan Darsono (SI Merah) melawan pimpinan Islamis Tjokroaminoto-Agus Salim (SI Putih). Pilih opsi infiltrasi ISDV komunis (Semaun-Darsono) menentang kepemimpinan nasionalisme Islam (Tjokroaminoto-Agus Salim)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Infiltrasi kader-kader ISDV (komunis pimpinan Henk Sneevliet) seperti Semaun dan Darsono yang menyebarkan doktrin marxisme radikal dan menentang kepemimpinan H.O.S. Tjokroaminoto dan H. Agus Salim yang berlandaskan nasionalisme Islam.. Perpecahan SI disebabkan infiltrasi doktrin komunis ISDV melalui Semaun dan Darsono (SI Merah) melawan pimpinan Islamis Tjokroaminoto-Agus Salim (SI Putih). Pilih opsi infiltrasi ISDV komunis (Semaun-Darsono) menentang kepemimpinan nasionalisme Islam (Tjokroaminoto-Agus Salim)."
   },
   {
     "id": "sejl-lat-m-10",
@@ -1487,7 +1488,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Permintaan agar ratu Belanda memberikan status wilayah persemakmuran otonom dengan raja berdarah Eropa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Tuntutan agar seluruh pegawai kantor kolonial diganti oleh pekerja imigran buruh kasar dari luar kepulauan Nusantara."
       },
       {
         "key": "B",
@@ -1495,7 +1496,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Tuntutan agar seluruh pegawai kantor kolonial diganti oleh pekerja imigran buruh kasar dari luar kepulauan Nusantara."
+        "text": "Penegasan bahwa kemerdekaan Indonesia harus diraih oleh bangsa Indonesia sendiri melalui persatuan nasional, kemandirian kekuatan sendiri (_self-reliance_), dan sikap non-kooperasi tanpa bergantung pada belas kasihan penjajah Belanda."
       },
       {
         "key": "D",
@@ -1503,11 +1504,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Penegasan bahwa kemerdekaan Indonesia harus diraih oleh bangsa Indonesia sendiri melalui persatuan nasional, kemandirian kekuatan sendiri (_self-reliance_), dan sikap non-kooperasi tanpa bergantung pada belas kasihan penjajah Belanda."
+        "text": "Permintaan agar ratu Belanda memberikan status wilayah persemakmuran otonom dengan raja berdarah Eropa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Penegasan bahwa kemerdekaan Indonesia harus diraih oleh bangsa Indonesia sendiri melalui persatuan nasional, kemandirian kekuatan sendiri (_self-reliance_), dan sikap non-kooperasi tanpa bergantung pada belas kasihan penjajah Belanda.. Manifesto Politik PI 1925 di Belanda menegaskan persatuan nasional, kemandirian (self-reliance), dan non-kooperasi sebagai kunci merebut kemerdekaan. Pilih: Penegasan kemerdekaan harus diraih melalui persatuan, swadaya (self-reliance), dan non-kooperasi."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Penegasan bahwa kemerdekaan Indonesia harus diraih oleh bangsa Indonesia sendiri melalui persatuan nasional, kemandirian kekuatan sendiri (_self-reliance_), dan sikap non-kooperasi tanpa bergantung pada belas kasihan penjajah Belanda.. Manifesto Politik PI 1925 di Belanda menegaskan persatuan nasional, kemandirian (self-reliance), dan non-kooperasi sebagai kunci merebut kemerdekaan. Pilih: Penegasan kemerdekaan harus diraih melalui persatuan, swadaya (self-reliance), dan non-kooperasi."
   },
   {
     "id": "sejl-lat-m-11",
@@ -1530,27 +1531,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membongkar secara teoritis watak eksploitatif imperialisme dan kapitalisme kolonial modern yang memeras sumber daya alam dan memiskinkan rakyat bumiputera demi kemakmuran negeri Belanda."
+        "text": "Memohon pengampunan kepada hakim Belanda dan berjanji akan membubarkan Partai Nasional Indonesia untuk selamanya."
       },
       {
         "key": "B",
-        "text": "Memohon pengampunan kepada hakim Belanda dan berjanji akan membubarkan Partai Nasional Indonesia untuk selamanya ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Membongkar secara teoritis watak eksploitatif imperialisme dan kapitalisme kolonial modern yang memeras sumber daya alam dan memiskinkan rakyat bumiputera demi kemakmuran negeri Belanda."
       },
       {
         "key": "C",
-        "text": "Menuntut ganti rugi uang tunai atas masa tahanan di penjara Banceuy untuk dibagikan kepada buruh pelabuhan."
-      },
-      {
-        "key": "D",
         "text": "Menolak keberadaan suku-suku selain etnis Jawa dalam kepengurusan dewan legislatif dewan rakyat Hindia Belanda."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mendukung kebijakan Gubernur Jenderal de Graeff dalam memperluas penanaman tebu paksa di tanah pasundan."
+      },
+      {
+        "key": "E",
+        "text": "Menuntut ganti rugi uang tunai atas masa tahanan di penjara Banceuy untuk dibagikan kepada buruh pelabuhan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Membongkar secara teoritis watak eksploitatif imperialisme dan kapitalisme kolonial modern yang memeras sumber daya alam dan memiskinkan rakyat bumiputera demi kemakmuran negeri Belanda.. 'Indonesia Menggugat' membedah imperialisme modern dan kapitalisme Belanda yang memeras kekayaan alam dan tenaga rakyat bumiputera. Pilih opsi membongkar watak eksploitatif imperialisme dan kapitalisme kolonial yang memiskinkan rakyat."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Membongkar secara teoritis watak eksploitatif imperialisme dan kapitalisme kolonial modern yang memeras sumber daya alam dan memiskinkan rakyat bumiputera demi kemakmuran negeri Belanda.. 'Indonesia Menggugat' membedah imperialisme modern dan kapitalisme Belanda yang memeras kekayaan alam dan tenaga rakyat bumiputera. Pilih opsi membongkar watak eksploitatif imperialisme dan kapitalisme kolonial yang memiskinkan rakyat."
   },
   {
     "id": "sejl-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "'Kembali ke Sistem Monarki' (menyerahkan kedaulatan kepulauan kepada raja-raja feodal lokal tanpa adanya perwakilan dewan rakyat) ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "'Tolak Pemilu Demokratis' (menghapus sistem hak pilih dan mengangkat Dewan Jenderal militer seumur hidup)."
       },
       {
         "key": "B",
-        "text": "'Indonesia Berparlemen' (menuntut pembentukan parlemen sejati yang dipilih secara demokratis oleh dan untuk rakyat Indonesia guna menghadapi bahaya ancaman fasisme Perang Dunia II)."
-      },
-      {
-        "key": "C",
         "text": "'Boikot Sekolah Barat' (melarang seluruh pemuda pribumi mengenyam pendidikan di akademi kedokteran dan teknik kolonial)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "'Integrasi ke Persemakmuran Inggris' (mengajukan permohonan agar Hindia Belanda diserahkan ke bawah mahkota kerajaan Inggris)."
       },
       {
+        "key": "D",
+        "text": "'Kembali ke Sistem Monarki' (menyerahkan kedaulatan kepulauan kepada raja-raja feodal lokal tanpa adanya perwakilan dewan rakyat)."
+      },
+      {
         "key": "E",
-        "text": "'Tolak Pemilu Demokratis' (menghapus sistem hak pilih dan mengangkat Dewan Jenderal militer seumur hidup)."
+        "text": "'Indonesia Berparlemen' (menuntut pembentukan parlemen sejati yang dipilih secara demokratis oleh dan untuk rakyat Indonesia guna menghadapi bahaya ancaman fasisme Perang Dunia II)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) 'Indonesia Berparlemen' (menuntut pembentukan parlemen sejati yang dipilih secara demokratis oleh dan untuk rakyat Indonesia guna menghadapi bahaya ancaman fasisme Perang Dunia II).. GAPI memelopori gerakan 'Indonesia Berparlemen' untuk menuntut parlemen sejati yang dipilih oleh rakyat Indonesia. Pilih opsi 'Indonesia Berparlemen' (tuntutan parlemen sejati yang dipilih demokratis oleh dan untuk rakyat)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) 'Indonesia Berparlemen' (menuntut pembentukan parlemen sejati yang dipilih secara demokratis oleh dan untuk rakyat Indonesia guna menghadapi bahaya ancaman fasisme Perang Dunia II).. GAPI memelopori gerakan 'Indonesia Berparlemen' untuk menuntut parlemen sejati yang dipilih oleh rakyat Indonesia. Pilih opsi 'Indonesia Berparlemen' (tuntutan parlemen sejati yang dipilih demokratis oleh dan untuk rakyat)."
   },
   {
     "id": "sejl-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keterlambatan pembayaran tunjangan pensiun serdadu dari perbankan pusat di Tokyo sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
-        "text": "Ketidaksepakatan perwira muda mengenai warna seragam militer upacara lapangan angkatan perang."
-      },
-      {
-        "key": "C",
         "text": "Penderitaan luar biasa rakyat jelata di pedesaan akibat perlakuan kejam tentara Jepang dalam pengerahan tenaga kerja paksa (Romusha) dan penyitaan paksa hasil panen padi."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Tuntutan agar para tentara Jepang membagikan pedang katana samurai asli kepada seluruh keluarga perwira PETA."
+      },
+      {
+        "key": "C",
+        "text": "Ketidaksepakatan perwira muda mengenai warna seragam militer upacara lapangan angkatan perang."
+      },
+      {
+        "key": "D",
+        "text": "Keterlambatan pembayaran tunjangan pensiun serdadu dari perbankan pusat di Tokyo."
       },
       {
         "key": "E",
         "text": "Penolakan perwira PETA untuk mempelajari strategi taktik perang pertahanan benteng pantai modern."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Penderitaan luar biasa rakyat jelata di pedesaan akibat perlakuan kejam tentara Jepang dalam pengerahan tenaga kerja paksa (Romusha) dan penyitaan paksa hasil panen padi.. Supriyadi memimpin pemberontakan PETA di Blitar karena tidak tahan melihat rakyat tertindas akibat pengerahan Romusha dan perampasan padi oleh militer Jepang. Pilih opsi: Penderitaan rakyat jelata akibat kekejaman Romusha dan penyitaan paksa hasil padi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Penderitaan luar biasa rakyat jelata di pedesaan akibat perlakuan kejam tentara Jepang dalam pengerahan tenaga kerja paksa (Romusha) dan penyitaan paksa hasil panen padi.. Supriyadi memimpin pemberontakan PETA di Blitar karena tidak tahan melihat rakyat tertindas akibat pengerahan Romusha dan perampasan padi oleh militer Jepang. Pilih opsi: Penderitaan rakyat jelata akibat kekejaman Romusha dan penyitaan paksa hasil padi."
   },
   {
     "id": "sejl-lat-m-14",
@@ -1671,15 +1672,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menjaga keutuhan persatuan dan integrasi wilayah nasional Republik Indonesia yang baru merdeka agar wilayah Indonesia bagian timur tidak memisahkan diri."
+        "text": "Perintah langsung dari Kaisar Hirohito yang mewajibkan seluruh negara Asia Tenggara bersikap sekuler."
       },
       {
         "key": "E",
-        "text": "Perintah langsung dari Kaisar Hirohito yang mewajibkan seluruh negara Asia Tenggara bersikap sekuler."
+        "text": "Menjaga keutuhan persatuan dan integrasi wilayah nasional Republik Indonesia yang baru merdeka agar wilayah Indonesia bagian timur tidak memisahkan diri."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menjaga keutuhan persatuan dan integrasi wilayah nasional Republik Indonesia yang baru merdeka agar wilayah Indonesia bagian timur tidak memisahkan diri.. Penghapusan tujuh kata sila pertama Piagam Jakarta disepakati demi menjaga persatuan bangsa dan mencegah wilayah Indonesia Timur memisahkan diri. Pilih opsi menjaga keutuhan persatuan dan integrasi nasional agar wilayah Indonesia timur tidak memisahkan diri."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Menjaga keutuhan persatuan dan integrasi wilayah nasional Republik Indonesia yang baru merdeka agar wilayah Indonesia bagian timur tidak memisahkan diri.. Penghapusan tujuh kata sila pertama Piagam Jakarta disepakati demi menjaga persatuan bangsa dan mencegah wilayah Indonesia Timur memisahkan diri. Pilih opsi menjaga keutuhan persatuan dan integrasi nasional agar wilayah Indonesia timur tidak memisahkan diri."
   },
   {
     "id": "sejl-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghukum para saudagar pedagang pasar yang menolak menggunakan mata uang resmi ORI keluaran Bank Indonesia diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Mencegah tentara Sekutu (Inggris) dan NICA memanfaatkan sarana infrastruktur kota Bandung, gedung-gedung vital, dan instalasi mesiu militer sebagai pangkalan pertahanan strategis perang mereka."
       },
       {
         "key": "B",
-        "text": "Memenuhi ultimatum komando tentara kerajaan Belanda agar seluruh orang Sunda pindah ke wilayah kepulauan Nusa Tenggara."
-      },
-      {
-        "key": "C",
         "text": "Membangun danau buatan raksasa guna mengalirkan air sungai Citarum untuk menggerakkan turbin listrik modern."
       },
       {
+        "key": "C",
+        "text": "Memenuhi ultimatum komando tentara kerajaan Belanda agar seluruh orang Sunda pindah ke wilayah kepulauan Nusa Tenggara."
+      },
+      {
         "key": "D",
-        "text": "Kekalahan total laskar pejuang akibat kehabisan amunisi persenjataan di benteng pertahanan Gedung Sate."
+        "text": "Menghukum para saudagar pedagang pasar yang menolak menggunakan mata uang resmi ORI keluaran Bank Indonesia."
       },
       {
         "key": "E",
-        "text": "Mencegah tentara Sekutu (Inggris) dan NICA memanfaatkan sarana infrastruktur kota Bandung, gedung-gedung vital, dan instalasi mesiu militer sebagai pangkalan pertahanan strategis perang mereka."
+        "text": "Kekalahan total laskar pejuang akibat kehabisan amunisi persenjataan di benteng pertahanan Gedung Sate."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mencegah tentara Sekutu (Inggris) dan NICA memanfaatkan sarana infrastruktur kota Bandung, gedung-gedung vital, dan instalasi mesiu militer sebagai pangkalan pertahanan strategis perang mereka.. Taktik bumi hangus Bandung Lautan Api dilakukan agar sarana logistik dan fasilitas militer tidak dapat dijadikan pangkalan strategis oleh Sekutu/NICA. Pilih opsi mencegah Sekutu dan NICA memanfaatkan sarana infrastruktur dan instalasi militer sebagai markas strategis."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Mencegah tentara Sekutu (Inggris) dan NICA memanfaatkan sarana infrastruktur kota Bandung, gedung-gedung vital, dan instalasi mesiu militer sebagai pangkalan pertahanan strategis perang mereka.. Taktik bumi hangus Bandung Lautan Api dilakukan agar sarana logistik dan fasilitas militer tidak dapat dijadikan pangkalan strategis oleh Sekutu/NICA. Pilih opsi mencegah Sekutu dan NICA memanfaatkan sarana infrastruktur dan instalasi militer sebagai markas strategis."
   },
   {
     "id": "sejl-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diterimanya Garis Demarkasi Van Mook yang memotong wilayah kedaulatan RI menjadi semakin sempit (hanya mencakup sebagian Jawa Tengah, Yogyakarta, dan Sumatera) serta kewajiban 'hijrah' (penarikan mundur) puluhan ribu tentara Divisi Siliwangi dari Jawa Barat."
+        "text": "Penolakan Dewan Keamanan PBB untuk mengakui status eksistensi diplomatik perwakilan Indonesia di luar negeri."
       },
       {
         "key": "B",
-        "text": "Penyerahan seluruh pelabuhan laut Pulau Jawa kepada armada kapal perang Sekutu pimpinan laksamana Inggris ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Pembubaran paksa Tentara Nasional Indonesia dan peleburannya ke dalam korps kepolisian kolonial KNIL."
       },
       {
+        "key": "C",
+        "text": "Penyerahan seluruh pelabuhan laut Pulau Jawa kepada armada kapal perang Sekutu pimpinan laksamana Inggris."
+      },
+      {
         "key": "D",
-        "text": "Penyitaan seluruh cadangan emas batangan negara di bank Yogyakarta untuk membayar kompensasi perang."
+        "text": "Diterimanya Garis Demarkasi Van Mook yang memotong wilayah kedaulatan RI menjadi semakin sempit (hanya mencakup sebagian Jawa Tengah, Yogyakarta, dan Sumatera) serta kewajiban 'hijrah' (penarikan mundur) puluhan ribu tentara Divisi Siliwangi dari Jawa Barat."
       },
       {
         "key": "E",
-        "text": "Penolakan Dewan Keamanan PBB untuk mengakui status eksistensi diplomatik perwakilan Indonesia di luar negeri."
+        "text": "Penyitaan seluruh cadangan emas batangan negara di bank Yogyakarta untuk membayar kompensasi perang."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Diterimanya Garis Demarkasi Van Mook yang memotong wilayah kedaulatan RI menjadi semakin sempit (hanya mencakup sebagian Jawa Tengah, Yogyakarta, dan Sumatera) serta kewajiban 'hijrah' (penarikan mundur) puluhan ribu tentara Divisi Siliwangi dari Jawa Barat.. Perjanjian Renville mengesahkan Garis Van Mook yang mempersempit wilayah RI dan memaksa mundurnya (hijrah) Divisi Siliwangi dari Jawa Barat ke Jawa Tengah. Pilih diterimanya Garis Demarkasi Van Mook yang menyempitkan wilayah RI dan kewajiban hijrah tentara Siliwangi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Diterimanya Garis Demarkasi Van Mook yang memotong wilayah kedaulatan RI menjadi semakin sempit (hanya mencakup sebagian Jawa Tengah, Yogyakarta, dan Sumatera) serta kewajiban 'hijrah' (penarikan mundur) puluhan ribu tentara Divisi Siliwangi dari Jawa Barat.. Perjanjian Renville mengesahkan Garis Van Mook yang mempersempit wilayah RI dan memaksa mundurnya (hijrah) Divisi Siliwangi dari Jawa Barat ke Jawa Tengah. Pilih diterimanya Garis Demarkasi Van Mook yang menyempitkan wilayah RI dan kewajiban hijrah tentara Siliwangi."
   },
   {
     "id": "sejl-lat-m-17",
@@ -1788,7 +1789,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyetujui pembentukan negara bagian boneka di Sumatera Barat di bawah naungan Bijeenkomst voor Federaal Overleg (BFO) ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Menyetujui pembentukan negara bagian boneka di Sumatera Barat di bawah naungan Bijeenkomst voor Federaal Overleg (BFO)."
       },
       {
         "key": "B",
@@ -1796,15 +1797,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menyerahkan seluruh administrasi pemerintahan kepulauan kepada kantor komisi tinggi perwakilan Palang Merah Internasional."
-      },
-      {
-        "key": "D",
         "text": "Membatalkan seluruh mata uang ORI dan menggantinya dengan mata uang dolar Amerika Serikat."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Memerintahkan seluruh gerilyawan pejuang TNI di hutan untuk meletakkan senjata dan menyerah kepada tentara Belanda."
+      },
+      {
+        "key": "E",
+        "text": "Menyerahkan seluruh administrasi pemerintahan kepulauan kepada kantor komisi tinggi perwakilan Palang Merah Internasional."
       }
     ],
     "correctKey": "B",
@@ -1831,27 +1832,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendorong pembentukan aliansi pertahanan militer bersama yang mengadopsi doktrin senjata nuklir Blok Timur sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Menyatukan seluruh sistem moneter negara berkembang ke dalam mata uang tunggal berbasis emas batangan."
       },
       {
         "key": "B",
-        "text": "Mengharuskan seluruh negara anggota menerima bantuan pinjaman modal luar negeri dari Bank Pembangunan Asia."
-      },
-      {
-        "key": "C",
         "text": "Mengobarkan gelombang dekolonisasi dan menginspirasi perjuangan kemerdekaan bangsa-bangsa di benua Afrika dan Asia untuk membebaskan diri dari belenggu imperialisme Barat."
       },
       {
+        "key": "C",
+        "text": "Mendorong pembentukan aliansi pertahanan militer bersama yang mengadopsi doktrin senjata nuklir Blok Timur."
+      },
+      {
         "key": "D",
-        "text": "Menyatukan seluruh sistem moneter negara berkembang ke dalam mata uang tunggal berbasis emas batangan."
+        "text": "Mengharuskan seluruh negara anggota menerima bantuan pinjaman modal luar negeri dari Bank Pembangunan Asia."
       },
       {
         "key": "E",
         "text": "Membubarkan organisasi Majelis Umum Perserikatan Bangsa-Bangsa di Markas Besar New York."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mengobarkan gelombang dekolonisasi dan menginspirasi perjuangan kemerdekaan bangsa-bangsa di benua Afrika dan Asia untuk membebaskan diri dari belenggu imperialisme Barat.. KAA 1955 membangkitkan 'Spirit Bandung' yang menginspirasi gelombang dekolonisasi dan kemerdekaan di Asia dan Afrika. Pilih opsi mengobarkan gelombang dekolonisasi dan menginspirasi kemerdekaan bangsa-bangsa di Afrika dan Asia."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mengobarkan gelombang dekolonisasi dan menginspirasi perjuangan kemerdekaan bangsa-bangsa di benua Afrika dan Asia untuk membebaskan diri dari belenggu imperialisme Barat.. KAA 1955 membangkitkan 'Spirit Bandung' yang menginspirasi gelombang dekolonisasi dan kemerdekaan di Asia dan Afrika. Pilih opsi mengobarkan gelombang dekolonisasi dan menginspirasi kemerdekaan bangsa-bangsa di Afrika dan Asia."
   },
   {
     "id": "sejl-lat-m-19",
@@ -1874,7 +1875,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan seluruh perairan Selat Sunda dan Selat Malaka ke dalam zona pengawasan militer pasukan perdamaian PBB menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Menetapkan batas perairan laut wilayah Indonesia sejauh 200 mil khusus untuk kegiatan penangkapan ikan paus komersial."
       },
       {
         "key": "B",
@@ -1882,7 +1883,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menetapkan batas perairan laut wilayah Indonesia sejauh 200 mil khusus untuk kegiatan penangkapan ikan paus komersial."
+        "text": "Mewajibkan para nelayan pribumi membayar pajak konsesi laut kepada perusahaan pelayaran internasional Belanda."
       },
       {
         "key": "D",
@@ -1890,7 +1891,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mewajibkan para nelayan pribumi membayar pajak konsesi laut kepada perusahaan pelayaran internasional Belanda."
+        "text": "Menyerahkan seluruh perairan Selat Sunda dan Selat Malaka ke dalam zona pengawasan militer pasukan perdamaian PBB menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       }
     ],
     "correctKey": "D",
@@ -1917,7 +1918,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolak bantuan beras dari Organisasi Konferensi Islam di kawasan Timur Tengah diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Menolak bantuan beras dari Organisasi Konferensi Islam di kawasan Timur Tengah."
       },
       {
         "key": "B",
@@ -1925,11 +1926,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Membubarkan seluruh korps diplomatik luar negeri dan menutup pintu perdagangan ekspor karet alam."
+        "text": "Menyerahkan kedaulatan pulau Natuna kepada komando militer angkatan laut kekaisaran Jepang."
       },
       {
         "key": "D",
-        "text": "Menyerahkan kedaulatan pulau Natuna kepada komando militer angkatan laut kekaisaran Jepang."
+        "text": "Membubarkan seluruh korps diplomatik luar negeri dan menutup pintu perdagangan ekspor karet alam."
       },
       {
         "key": "E",
@@ -1960,27 +1961,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembubaran Partai Komunis Indonesia (PKI) beserta ormas-ormasnya, pembersihan Kabinet Dwikora dari unsur-unsur yang terlibat G30S, dan penurunan harga barang kebutuhan pokok / perbaikan ekonomi."
-      },
-      {
-        "key": "B",
-        "text": "Penghapusan seluruh sistem pemilihan umum, pembentukan monarki kesultanan, dan penggantian dasar negara Pancasila ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
-        "text": "Penyatuan militer Indonesia dengan pakta pertahanan SEATO, pemutusan hubungan dengan Tiongkok, dan penarikan mata uang rupiah."
-      },
-      {
-        "key": "D",
         "text": "Pembubaran seluruh perguruan tinggi negeri, pemecatan seluruh dosen ilmu politik, dan penutupan persuratkabaran nasional."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Penghapusan seluruh sistem pemilihan umum, pembentukan monarki kesultanan, dan penggantian dasar negara Pancasila."
+      },
+      {
+        "key": "C",
         "text": "Penggantian bentuk negara republik menjadi negara persemakmuran di bawah perlindungan Dewan Keamanan PBB."
+      },
+      {
+        "key": "D",
+        "text": "Penyatuan militer Indonesia dengan pakta pertahanan SEATO, pemutusan hubungan dengan Tiongkok, dan penarikan mata uang rupiah."
+      },
+      {
+        "key": "E",
+        "text": "Pembubaran Partai Komunis Indonesia (PKI) beserta ormas-ormasnya, pembersihan Kabinet Dwikora dari unsur-unsur yang terlibat G30S, dan penurunan harga barang kebutuhan pokok / perbaikan ekonomi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pembubaran Partai Komunis Indonesia (PKI) beserta ormas-ormasnya, pembersihan Kabinet Dwikora dari unsur-unsur yang terlibat G30S, dan penurunan harga barang kebutuhan pokok / perbaikan ekonomi.. Tritura 10 Januari 1966 berisi 3 poin: 1. Bubarkan PKI, 2. Bersihkan kabinet dari unsur G30S, 3. Turunkan harga kebutuhan pokok. Pilih: Pembubaran PKI, pembersihan Kabinet Dwikora dari unsur G30S, dan penurunan harga barang/perbaikan ekonomi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pembubaran Partai Komunis Indonesia (PKI) beserta ormas-ormasnya, pembersihan Kabinet Dwikora dari unsur-unsur yang terlibat G30S, dan penurunan harga barang kebutuhan pokok / perbaikan ekonomi.. Tritura 10 Januari 1966 berisi 3 poin: 1. Bubarkan PKI, 2. Bersihkan kabinet dari unsur G30S, 3. Turunkan harga kebutuhan pokok. Pilih: Pembubaran PKI, pembersihan Kabinet Dwikora dari unsur G30S, dan penurunan harga barang/perbaikan ekonomi."
   },
   {
     "id": "sejl-lat-m-22",
@@ -2003,27 +2004,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menutup seluruh akses perdagangan luar negeri dan menerapkan sistem ekonomi autarki komando tertutup ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Menutup seluruh akses perdagangan luar negeri dan menerapkan sistem ekonomi autarki komando tertutup."
       },
       {
         "key": "B",
-        "text": "Membuka kembali pintu investasi modal, teknologi, dan korporasi multinasional Barat untuk menggerakkan sektor industri pertambangan, minyak bumi, dan infrastruktur dengan kepastian hukum dan insentif fiskal."
+        "text": "Menasionalkan seluruh aset perkebunan karet milik pengusaha swasta asing tanpa ganti rugi satu sen pun."
       },
       {
         "key": "C",
-        "text": "Mewajibkan seluruh warga negara asing melepaskan kewarganegaraannya jika ingin bekerja di Indonesia."
+        "text": "Membuka kembali pintu investasi modal, teknologi, dan korporasi multinasional Barat untuk menggerakkan sektor industri pertambangan, minyak bumi, dan infrastruktur dengan kepastian hukum dan insentif fiskal."
       },
       {
         "key": "D",
-        "text": "Menasionalkan seluruh aset perkebunan karet milik pengusaha swasta asing tanpa ganti rugi satu sen pun."
+        "text": "Mewajibkan seluruh warga negara asing melepaskan kewarganegaraannya jika ingin bekerja di Indonesia."
       },
       {
         "key": "E",
         "text": "Menghapus seluruh perbankan swasta dan menggantikannya dengan sistem koperasi simpan pinjam desa primitif."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Membuka kembali pintu investasi modal, teknologi, dan korporasi multinasional Barat untuk menggerakkan sektor industri pertambangan, minyak bumi, dan infrastruktur dengan kepastian hukum dan insentif fiskal.. UU PMA No. 1/1967 diterbitkan untuk mengundang kembali investor asing dengan insentif pajak dan kepastian hukum demi memulihkan ekonomi nasional. Pilih opsi membuka kembali pintu investasi modal, teknologi, dan korporasi Barat untuk sektor industri dan migas."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Membuka kembali pintu investasi modal, teknologi, dan korporasi multinasional Barat untuk menggerakkan sektor industri pertambangan, minyak bumi, dan infrastruktur dengan kepastian hukum dan insentif fiskal.. UU PMA No. 1/1967 diterbitkan untuk mengundang kembali investor asing dengan insentif pajak dan kepastian hukum demi memulihkan ekonomi nasional. Pilih opsi membuka kembali pintu investasi modal, teknologi, dan korporasi Barat untuk sektor industri dan migas."
   },
   {
     "id": "sejl-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembentukan sistem negara federal serikat di mana tiap provinsi memiliki tentara angkatan darat sendiri-sendiri sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
-        "text": "Penghapusan seluruh dewan perwakilan rakyat daerah (DPRD) dan penunjukan bupati secara mutlak oleh menteri dalam negeri."
-      },
-      {
-        "key": "C",
         "text": "Pelimpahan kewenangan politik, fiskal, dan pembangunan dari sistem sentralistik rezim Orde Baru langsung ke tingkat kabupaten dan kota, guna mempercepat pelayanan publik dan meredam potensi disintegrasi daerah."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Pemberian hak veto mutlak kepada gubernur untuk membatalkan seluruh undang-undang produk Dewan Perwakilan Rakyat."
+      },
+      {
+        "key": "C",
         "text": "Pemusatan seluruh pendapatan devisa ekspor tambang batu bara murni ke kas perbendaharaan ibu kota Jakarta."
       },
       {
+        "key": "D",
+        "text": "Penghapusan seluruh dewan perwakilan rakyat daerah (DPRD) dan penunjukan bupati secara mutlak oleh menteri dalam negeri."
+      },
+      {
         "key": "E",
-        "text": "Pemberian hak veto mutlak kepada gubernur untuk membatalkan seluruh undang-undang produk Dewan Perwakilan Rakyat."
+        "text": "Pembentukan sistem negara federal serikat di mana tiap provinsi memiliki tentara angkatan darat sendiri-sendiri."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pelimpahan kewenangan politik, fiskal, dan pembangunan dari sistem sentralistik rezim Orde Baru langsung ke tingkat kabupaten dan kota, guna mempercepat pelayanan publik dan meredam potensi disintegrasi daerah.. UU No. 22/1999 mengalihkan kewenangan dari sistem sentralistik Orba ke tingkat daerah dengan titik berat pada kabupaten/kota. Pilih pelimpahan kewenangan politik dan fiskal dari sistem sentralistik ke tingkat kabupaten/kota guna meredam disintegrasi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pelimpahan kewenangan politik, fiskal, dan pembangunan dari sistem sentralistik rezim Orde Baru langsung ke tingkat kabupaten dan kota, guna mempercepat pelayanan publik dan meredam potensi disintegrasi daerah.. UU No. 22/1999 mengalihkan kewenangan dari sistem sentralistik Orba ke tingkat daerah dengan titik berat pada kabupaten/kota. Pilih pelimpahan kewenangan politik dan fiskal dari sistem sentralistik ke tingkat kabupaten/kota guna meredam disintegrasi."
   },
   {
     "id": "sejl-lat-m-24",
@@ -2089,7 +2090,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membantu Uni Soviet mendirikan pakta pertahanan militer bersama di semenanjung Balkan menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Memaksa negara-negara Eropa Barat memusnahkan seluruh cadangan mata uang nasional masing-masing."
       },
       {
         "key": "B",
@@ -2097,7 +2098,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Memaksa negara-negara Eropa Barat memusnahkan seluruh cadangan mata uang nasional masing-masing."
+        "text": "Menjadikan benua Eropa sebagai koloni pertanian kapas bagi pabrik tekstil di daratan Amerika Utara."
       },
       {
         "key": "D",
@@ -2105,7 +2106,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menjadikan benua Eropa sebagai koloni pertanian kapas bagi pabrik tekstil di daratan Amerika Utara."
+        "text": "Membantu Uni Soviet mendirikan pakta pertahanan militer bersama di semenanjung Balkan menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       }
     ],
     "correctKey": "D",
@@ -2132,11 +2133,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Permainan catur domino antarperwira militer akan menggantikan pertempuran bersenjata di garis depan hutan rimba diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Semua partai politik non-komunis di kawasan benua Amerika akan bergabung menjadi organisasi sukarela perdamaian."
       },
       {
         "key": "B",
-        "text": "Negara-negara Asia Tenggara akan bersatu mendirikan negara imperium tunggal yang menaklukkan daratan Eropa Barat."
+        "text": "Apabila satu negara di Asia Tenggara (Vietnam) jatuh ke tangan rezim komunis, maka negara-negara tetangganya di sekitarnya (seperti Laos, Kamboja, Thailand, hingga Indonesia) secara beruntun akan ikut tumbang menjadi negara satelit komunis."
       },
       {
         "key": "C",
@@ -2144,15 +2145,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Semua partai politik non-komunis di kawasan benua Amerika akan bergabung menjadi organisasi sukarela perdamaian."
+        "text": "Permainan catur domino antarperwira militer akan menggantikan pertempuran bersenjata di garis depan hutan rimba."
       },
       {
         "key": "E",
-        "text": "Apabila satu negara di Asia Tenggara (Vietnam) jatuh ke tangan rezim komunis, maka negara-negara tetangganya di sekitarnya (seperti Laos, Kamboja, Thailand, hingga Indonesia) secara beruntun akan ikut tumbang menjadi negara satelit komunis."
+        "text": "Negara-negara Asia Tenggara akan bersatu mendirikan negara imperium tunggal yang menaklukkan daratan Eropa Barat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Apabila satu negara di Asia Tenggara (Vietnam) jatuh ke tangan rezim komunis, maka negara-negara tetangganya di sekitarnya (seperti Laos, Kamboja, Thailand, hingga Indonesia) secara beruntun akan ikut tumbang menjadi negara satelit komunis.. Teori Domino beranggapan jika satu negara di suatu kawasan jatuh ke tangan komunisme, negara-negara tetangganya akan ikut jatuh satu per satu seperti deretan kartu domino. Pilih opsi: Jika satu negara jatuh ke komunis (Vietnam), negara tetangga di sekitarnya akan beruntun ikut tumbang."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Apabila satu negara di Asia Tenggara (Vietnam) jatuh ke tangan rezim komunis, maka negara-negara tetangganya di sekitarnya (seperti Laos, Kamboja, Thailand, hingga Indonesia) secara beruntun akan ikut tumbang menjadi negara satelit komunis.. Teori Domino beranggapan jika satu negara di suatu kawasan jatuh ke tangan komunisme, negara-negara tetangganya akan ikut jatuh satu per satu seperti deretan kartu domino. Pilih opsi: Jika satu negara jatuh ke komunis (Vietnam), negara tetangga di sekitarnya akan beruntun ikut tumbang."
   },
   {
     "id": "sejl-lat-h-01",
@@ -2179,19 +2180,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pergantian jabatan Gubernur Jenderal VOC dari Jan Pieterszoon Coen kepada Pieter Both dalam kurun waktu satu tahun ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
-        "text": "Dekrit presiden yang diterbitkan oleh kepala negara saat membubarkan dewan konstituante dalam hitungan hari."
-      },
-      {
-        "key": "D",
         "text": "Baku tembak singkat antara laskar pemuda bersenjata dengan patroli tentara serdadu di pos perbatasan kota."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Pidato radio berkobar Bung Tomo yang membakar semangat pemuda arek Surabaya menjelang pertempuran 10 November."
+      },
+      {
+        "key": "D",
+        "text": "Pergantian jabatan Gubernur Jenderal VOC dari Jan Pieterszoon Coen kepada Pieter Both dalam kurun waktu satu tahun."
+      },
+      {
+        "key": "E",
+        "text": "Dekrit presiden yang diterbitkan oleh kepala negara saat membubarkan dewan konstituante dalam hitungan hari."
       }
     ],
     "correctKey": "A",
@@ -2218,11 +2219,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tuntutan kaum buruh pelabuhan Cilegon agar jam kerja pabrik diturunkan menjadi 40 jam per minggu sesuai konvensi buruh Jenewa ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Negosiasi diplomatik rahasia antara para kyai pesantren dengan konsorsium perbankan Wall Street Amerika Serikat."
       },
       {
         "key": "B",
-        "text": "Kepercayaan kolektif masyarakat terhadap datangnya figur pembebas 'Ratu Adil' atau Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat Qadiriyah-Naqsyabandiyah untuk menghancurkan tatanan tiran kolonial kafir menjelang akhir zaman."
+        "text": "Tuntutan kaum buruh pelabuhan Cilegon agar jam kerja pabrik diturunkan menjadi 40 jam per minggu sesuai konvensi buruh Jenewa."
       },
       {
         "key": "C",
@@ -2230,15 +2231,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Negosiasi diplomatik rahasia antara para kyai pesantren dengan konsorsium perbankan Wall Street Amerika Serikat."
+        "text": "Kepercayaan kolektif masyarakat terhadap datangnya figur pembebas 'Ratu Adil' atau Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat Qadiriyah-Naqsyabandiyah untuk menghancurkan tatanan tiran kolonial kafir menjelang akhir zaman."
       },
       {
         "key": "E",
         "text": "Instruksi langsung dari menteri jajahan di Den Haag untuk menguji kesiapsiagaan korps polisi militer kolonial marsose."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kepercayaan kolektif masyarakat terhadap datangnya figur pembebas 'Ratu Adil' atau Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat Qadiriyah-Naqsyabandiyah untuk menghancurkan tatanan tiran kolonial kafir menjelang akhir zaman.. Mesianisme dan eskatologi berakar pada keyakinan datangnya Ratu Adil/Imam Mahdi dan doktrin perang sabil (tarekat) untuk meruntuhkan kekuasaan tiran kolonial. Pilih opsi kepercayaan terhadap figur pembebas 'Ratu Adil' / Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kepercayaan kolektif masyarakat terhadap datangnya figur pembebas 'Ratu Adil' atau Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat Qadiriyah-Naqsyabandiyah untuk menghancurkan tatanan tiran kolonial kafir menjelang akhir zaman.. Mesianisme dan eskatologi berakar pada keyakinan datangnya Ratu Adil/Imam Mahdi dan doktrin perang sabil (tarekat) untuk meruntuhkan kekuasaan tiran kolonial. Pilih opsi kepercayaan terhadap figur pembebas 'Ratu Adil' / Imam Mahdi yang dipadukan dengan doktrin perang sabil tarekat."
   },
   {
     "id": "sejl-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bencana tsunami samudra raksasa yang menenggelamkan seluruh kompleks istana keraton Trowulan tanpa sisa sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Ledakan wabah penyakit cacar yang memusnahkan seluruh keturunan keluarga besar Dinasti Rajasa dalam kurun waktu satu pekan."
       },
       {
         "key": "B",
-        "text": "Keputusan Kaisar Dinasti Ming Tiongkok memindahkan seluruh penduduk pulau Jawa ke daratan Manchuria."
-      },
-      {
-        "key": "C",
         "text": "Runtuhnya legitimasi pusat kekuasaan akibat perang saudara berkepanjangan (Perang Paregreg 1404–1406), desentralisasi ekonomi akibat lepasnya pelabuhan-pelabuhan dagang pesisir utara Jawa, serta pergeseran poros niaga maritim internasional ke Selat Malaka."
       },
       {
+        "key": "C",
+        "text": "Keputusan Kaisar Dinasti Ming Tiongkok memindahkan seluruh penduduk pulau Jawa ke daratan Manchuria."
+      },
+      {
         "key": "D",
-        "text": "Ledakan wabah penyakit cacar yang memusnahkan seluruh keturunan keluarga besar Dinasti Rajasa dalam kurun waktu satu pekan."
+        "text": "Bencana tsunami samudra raksasa yang menenggelamkan seluruh kompleks istana keraton Trowulan tanpa sisa."
       },
       {
         "key": "E",
         "text": "Penolakan rakyat jelata pedalaman terhadap penggunaan sistem aksara Jawa Kuno dalam kitab hukum tata negara."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Runtuhnya legitimasi pusat kekuasaan akibat perang saudara berkepanjangan (Perang Paregreg 1404–1406), desentralisasi ekonomi akibat lepasnya pelabuhan-pelabuhan dagang pesisir utara Jawa, serta pergeseran poros niaga maritim internasional ke Selat Malaka.. Runtuhnya Majapahit disebabkan proses multikausal: perang saudara Paregreg, lepasnya jalur perdagangan pesisir utara, dan pergeseran perdagangan ke Selat Malaka. Pilih: Perang saudara Paregreg, desentralisasi pelabuhan pesisir utara Jawa, dan pergeseran niaga internasional ke Selat Malaka."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Runtuhnya legitimasi pusat kekuasaan akibat perang saudara berkepanjangan (Perang Paregreg 1404–1406), desentralisasi ekonomi akibat lepasnya pelabuhan-pelabuhan dagang pesisir utara Jawa, serta pergeseran poros niaga maritim internasional ke Selat Malaka.. Runtuhnya Majapahit disebabkan proses multikausal: perang saudara Paregreg, lepasnya jalur perdagangan pesisir utara, dan pergeseran perdagangan ke Selat Malaka. Pilih: Perang saudara Paregreg, desentralisasi pelabuhan pesisir utara Jawa, dan pergeseran niaga internasional ke Selat Malaka."
   },
   {
     "id": "sejl-lat-h-04",
@@ -2304,7 +2305,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh mata pelajaran sejarah dari kurikulum pendidikan sekolah dasar dan menengah di tanah air menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Melarang penggunaan bahasa Indonesia dalam penulisan buku teks dan menggantinya dengan bahasa Sansekerta kuno."
       },
       {
         "key": "B",
@@ -2312,19 +2313,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Melarang penggunaan bahasa Indonesia dalam penulisan buku teks dan menggantinya dengan bahasa Sansekerta kuno."
+        "text": "Mereduksi, mendistorsi, dan mengaburkan peran sentral Ir. Soekarno dalam sejarah revolusi kemerdekaan (seperti meragukan Soekarno sebagai perumus utama lahirnya Pancasila) sembari menonjolkan peran militer Angkatan Darat sebagai penyelamat tunggal bangsa."
       },
       {
         "key": "D",
-        "text": "Mereduksi, mendistorsi, dan mengaburkan peran sentral Ir. Soekarno dalam sejarah revolusi kemerdekaan (seperti meragukan Soekarno sebagai perumus utama lahirnya Pancasila) sembari menonjolkan peran militer Angkatan Darat sebagai penyelamat tunggal bangsa."
+        "text": "Menghapus seluruh mata pelajaran sejarah dari kurikulum pendidikan sekolah dasar dan menengah di tanah air menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
         "text": "Memusnahkan seluruh museum perjuangan kemerdekaan dan mengubahnya menjadi kompleks pergudangan ekspor."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mereduksi, mendistorsi, dan mengaburkan peran sentral Ir. Soekarno dalam sejarah revolusi kemerdekaan (seperti meragukan Soekarno sebagai perumus utama lahirnya Pancasila) sembari menonjolkan peran militer Angkatan Darat sebagai penyelamat tunggal bangsa.. De-Soekarnoisasi adalah rekayasa historiografi resmi Orde Baru untuk mengikis peranan dan kharisma Soekarno dalam sejarah revolusi dan Pancasila guna mengangkat citra kepemimpinan militer. Pilih opsi mereduksi dan mengaburkan peran sentral Soekarno (seperti pencetus Pancasila) dan menonjolkan peran militer AD."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mereduksi, mendistorsi, dan mengaburkan peran sentral Ir. Soekarno dalam sejarah revolusi kemerdekaan (seperti meragukan Soekarno sebagai perumus utama lahirnya Pancasila) sembari menonjolkan peran militer Angkatan Darat sebagai penyelamat tunggal bangsa.. De-Soekarnoisasi adalah rekayasa historiografi resmi Orde Baru untuk mengikis peranan dan kharisma Soekarno dalam sejarah revolusi dan Pancasila guna mengangkat citra kepemimpinan militer. Pilih opsi mereduksi dan mengaburkan peran sentral Soekarno (seperti pencetus Pancasila) dan menonjolkan peran militer AD."
   },
   {
     "id": "sejl-lat-h-05",
@@ -2347,11 +2348,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "STA menuntut kembalinya sistem feodalisme kraton Jawa murni, sedangkan Sanusi Pane mendukung pengadopsian ideologi fasisme militer Jepang diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "STA melarang penggunaan bahasa Melayu modern, sedangkan Ki Hajar Dewantara mewajibkan seluruh sekolah menggunakan bahasa Latin klasik."
       },
       {
         "key": "B",
-        "text": "STA melarang penggunaan bahasa Melayu modern, sedangkan Ki Hajar Dewantara mewajibkan seluruh sekolah menggunakan bahasa Latin klasik."
+        "text": "STA menolak kemerdekaan politik Indonesia, sedangkan kaum budayawan tradisionalis menolak masuknya modal perdagangan swasta."
       },
       {
         "key": "C",
@@ -2359,15 +2360,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "STA menolak kemerdekaan politik Indonesia, sedangkan kaum budayawan tradisionalis menolak masuknya modal perdagangan swasta."
+        "text": "STA menganjurkan Indonesia berkiblat total pada rasionalisme, individualisme, dan dinamisme Barat demi kemajuan modern, sementara Sanusi Pane dan Ki Hajar Dewantara menekankan sintesis yang tetap mempertahankan nilai-nilai luhur spiritualitas dan kebijaksanaan kolektivisme Timur."
       },
       {
         "key": "E",
-        "text": "STA menganjurkan Indonesia berkiblat total pada rasionalisme, individualisme, dan dinamisme Barat demi kemajuan modern, sementara Sanusi Pane dan Ki Hajar Dewantara menekankan sintesis yang tetap mempertahankan nilai-nilai luhur spiritualitas dan kebijaksanaan kolektivisme Timur."
+        "text": "STA menuntut kembalinya sistem feodalisme kraton Jawa murni, sedangkan Sanusi Pane mendukung pengadopsian ideologi fasisme militer Jepang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) STA menganjurkan Indonesia berkiblat total pada rasionalisme, individualisme, dan dinamisme Barat demi kemajuan modern, sementara Sanusi Pane dan Ki Hajar Dewantara menekankan sintesis yang tetap mempertahankan nilai-nilai luhur spiritualitas dan kebijaksanaan kolektivisme Timur.. Polemik Kebudayaan 1935: STA mendorong adopsi rasionalisme Barat dinamis secara total, sedangkan kubu Sanusi Pane/Ki Hajar Dewantara membela kearifan dan spiritualitas Timur. Pilih: STA berkiblat pada rasionalisme/individualisme Barat, sedangkan Sanusi Pane/Ki Hajar mempertahankan nilai spiritual Timur."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) STA menganjurkan Indonesia berkiblat total pada rasionalisme, individualisme, dan dinamisme Barat demi kemajuan modern, sementara Sanusi Pane dan Ki Hajar Dewantara menekankan sintesis yang tetap mempertahankan nilai-nilai luhur spiritualitas dan kebijaksanaan kolektivisme Timur.. Polemik Kebudayaan 1935: STA mendorong adopsi rasionalisme Barat dinamis secara total, sedangkan kubu Sanusi Pane/Ki Hajar Dewantara membela kearifan dan spiritualitas Timur. Pilih: STA berkiblat pada rasionalisme/individualisme Barat, sedangkan Sanusi Pane/Ki Hajar mempertahankan nilai spiritual Timur."
   },
   {
     "id": "sejl-lat-h-06",
@@ -2390,27 +2391,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembelahan Selat Malaka menjadi dua zona pengaruh kolonial (Belanda di selatan dan Inggris di utara) yang secara tragis membelah jantung peradaban dunia Melayu (Kesultanan Johor-Riau-Lingga) menjadi wilayah cikal bakal Malaysia-Singapura dan wilayah Indonesia."
+        "text": "Penyerahan seluruh wilayah kepulauan Filipina oleh Spanyol kepada kongsi dagang VOC di Batavia."
       },
       {
         "key": "B",
-        "text": "Penyerahan seluruh wilayah kepulauan Filipina oleh Spanyol kepada kongsi dagang VOC di Batavia ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Pembelahan Selat Malaka menjadi dua zona pengaruh kolonial (Belanda di selatan dan Inggris di utara) yang secara tragis membelah jantung peradaban dunia Melayu (Kesultanan Johor-Riau-Lingga) menjadi wilayah cikal bakal Malaysia-Singapura dan wilayah Indonesia."
       },
       {
         "key": "C",
-        "text": "Pembubaran seluruh kesultanan Islam di Nusantara dan pembentukan negara monarki persemakmuran tunggal."
+        "text": "Kewajiban seluruh kapal niaga di Samudera Pasifik berlayar di bawah bendera Angkatan Laut Amerika Serikat."
       },
       {
         "key": "D",
-        "text": "Kewajiban seluruh kapal niaga di Samudera Pasifik berlayar di bawah bendera Angkatan Laut Amerika Serikat."
+        "text": "Pembubaran seluruh kesultanan Islam di Nusantara dan pembentukan negara monarki persemakmuran tunggal."
       },
       {
         "key": "E",
         "text": "Penetapan Pulau Bali sebagai zona netral bebas perang bagi seluruh pelaut perdagangan internasional."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pembelahan Selat Malaka menjadi dua zona pengaruh kolonial (Belanda di selatan dan Inggris di utara) yang secara tragis membelah jantung peradaban dunia Melayu (Kesultanan Johor-Riau-Lingga) menjadi wilayah cikal bakal Malaysia-Singapura dan wilayah Indonesia.. Traktat London 1824 membagi Selat Malaka antara Inggris (utara/Malaya) dan Belanda (selatan/Sumatera-Riau), membelah imperium Johor-Riau. Pilih: Pembelahan Selat Malaka menjadi pengaruh Belanda di selatan dan Inggris di utara yang membelah peradaban Melayu."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pembelahan Selat Malaka menjadi dua zona pengaruh kolonial (Belanda di selatan dan Inggris di utara) yang secara tragis membelah jantung peradaban dunia Melayu (Kesultanan Johor-Riau-Lingga) menjadi wilayah cikal bakal Malaysia-Singapura dan wilayah Indonesia.. Traktat London 1824 membagi Selat Malaka antara Inggris (utara/Malaya) dan Belanda (selatan/Sumatera-Riau), membelah imperium Johor-Riau. Pilih: Pembelahan Selat Malaka menjadi pengaruh Belanda di selatan dan Inggris di utara yang membelah peradaban Melayu."
   },
   {
     "id": "sejl-lat-h-07",
@@ -2433,27 +2434,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemberian saham kepemilikan pabrik minyak bumi kepada keluarga buruh tani yang bersedia pindah ke Kalimantan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
-        "text": "Perekrutan kuli-kuli kontrak asal Jawa untuk dipekerjakan di perkebunan tembakau Deli (Sumatera Timur) dengan jeratan aturan hukum pidana _Poenale Sanctie_ dalam _Koeli Ordonnantie_, yang mengancam hukuman cambuk dan kerja paksa bagi buruh yang melarikan diri."
-      },
-      {
-        "key": "C",
         "text": "Pembangunan akademi tinggi ilmu kelautan bertaraf internasional di kawasan pesisir pulau Halmahera."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kewajiban bagi para pengusaha perkebunan Belanda untuk menanggung biaya haji bagi seluruh pekerja muslim."
+      },
+      {
+        "key": "C",
+        "text": "Perekrutan kuli-kuli kontrak asal Jawa untuk dipekerjakan di perkebunan tembakau Deli (Sumatera Timur) dengan jeratan aturan hukum pidana _Poenale Sanctie_ dalam _Koeli Ordonnantie_, yang mengancam hukuman cambuk dan kerja paksa bagi buruh yang melarikan diri."
+      },
+      {
+        "key": "D",
+        "text": "Pemberian saham kepemilikan pabrik minyak bumi kepada keluarga buruh tani yang bersedia pindah ke Kalimantan."
       },
       {
         "key": "E",
         "text": "Penghapusan seluruh sistem pajak tanah dan bea impor barang konsumsi di seluruh kepulauan luar Jawa."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Perekrutan kuli-kuli kontrak asal Jawa untuk dipekerjakan di perkebunan tembakau Deli (Sumatera Timur) dengan jeratan aturan hukum pidana _Poenale Sanctie_ dalam _Koeli Ordonnantie_, yang mengancam hukuman cambuk dan kerja paksa bagi buruh yang melarikan diri.. Emigrasi Politik Etis dialihkan menjadi suplai buruh kuli kontrak ke perkebunan Deli, di mana buruh diikat oleh aturan pidana Poenale Sanctie jika mencoba kabur. Pilih opsi: Perekrutan kuli kontrak Jawa ke perkebunan Deli dengan ancaman Poenale Sanctie (hukuman jika lari)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Perekrutan kuli-kuli kontrak asal Jawa untuk dipekerjakan di perkebunan tembakau Deli (Sumatera Timur) dengan jeratan aturan hukum pidana _Poenale Sanctie_ dalam _Koeli Ordonnantie_, yang mengancam hukuman cambuk dan kerja paksa bagi buruh yang melarikan diri.. Emigrasi Politik Etis dialihkan menjadi suplai buruh kuli kontrak ke perkebunan Deli, di mana buruh diikat oleh aturan pidana Poenale Sanctie jika mencoba kabur. Pilih opsi: Perekrutan kuli kontrak Jawa ke perkebunan Deli dengan ancaman Poenale Sanctie (hukuman jika lari)."
   },
   {
     "id": "sejl-lat-h-08",
@@ -2476,15 +2477,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penolakan para pemuda karesidenan terhadap rumusan pembukaan Undang-Undang Dasar yang disahkan oleh PPKI sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Akumulasi dendam dan kebencian sosial yang mendalam terhadap para pangreh praja dan birokrat feodal lokal yang selama masa kolonial Belanda dan fasisme pendudukan Jepang selalu menjadi perpanjangan tangan penindasan dan pemerasan beras rakyat."
       },
       {
         "key": "B",
-        "text": "Keinginan kaum tani pedesaan untuk mendirikan wilayah otonom monarki kerajaan baru yang terpisah dari NKRI."
+        "text": "Sengketa tapal batas hutan lindung antara kelompok peternak sapi perah dengan pedagang tembakau swasta."
       },
       {
         "key": "C",
-        "text": "Akumulasi dendam dan kebencian sosial yang mendalam terhadap para pangreh praja dan birokrat feodal lokal yang selama masa kolonial Belanda dan fasisme pendudukan Jepang selalu menjadi perpanjangan tangan penindasan dan pemerasan beras rakyat."
+        "text": "Penolakan para pemuda karesidenan terhadap rumusan pembukaan Undang-Undang Dasar yang disahkan oleh PPKI."
       },
       {
         "key": "D",
@@ -2492,11 +2493,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Sengketa tapal batas hutan lindung antara kelompok peternak sapi perah dengan pedagang tembakau swasta."
+        "text": "Keinginan kaum tani pedesaan untuk mendirikan wilayah otonom monarki kerajaan baru yang terpisah dari NKRI."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Akumulasi dendam dan kebencian sosial yang mendalam terhadap para pangreh praja dan birokrat feodal lokal yang selama masa kolonial Belanda dan fasisme pendudukan Jepang selalu menjadi perpanjangan tangan penindasan dan pemerasan beras rakyat.. Revolusi sosial di daerah (seperti Tiga Daerah) terjadi karena dendam sosial rakyat jelata terhadap para birokrat/pangreh praja feodal yang menjadi alat penindas Belanda dan Jepang. Pilih opsi akumulasi kebencian sosial terhadap pamong praja yang menjadi perpanjangan tangan pemerasan selama era kolonial dan Jepang."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Akumulasi dendam dan kebencian sosial yang mendalam terhadap para pangreh praja dan birokrat feodal lokal yang selama masa kolonial Belanda dan fasisme pendudukan Jepang selalu menjadi perpanjangan tangan penindasan dan pemerasan beras rakyat.. Revolusi sosial di daerah (seperti Tiga Daerah) terjadi karena dendam sosial rakyat jelata terhadap para birokrat/pangreh praja feodal yang menjadi alat penindas Belanda dan Jepang. Pilih opsi akumulasi kebencian sosial terhadap pamong praja yang menjadi perpanjangan tangan pemerasan selama era kolonial dan Jepang."
   },
   {
     "id": "sejl-lat-h-09",
@@ -2519,27 +2520,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penolakan perwira militer di Yogyakarta terhadap pengesahan mata uang Oeang Republik Indonesia (ORI) menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Tuntutan para buruh kereta api agar seluruh jalur rel di pulau Madura diubah menjadi jalur kereta cepat listrik."
-      },
-      {
-        "key": "C",
         "text": "Keinginan pimpinan PKI untuk menyerahkan kepemimpinan revolusi kepada perwakilan komisi jasa-jasa baik PBB."
       },
       {
+        "key": "B",
+        "text": "Penolakan perwira militer di Yogyakarta terhadap pengesahan mata uang Oeang Republik Indonesia (ORI) menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+      },
+      {
+        "key": "C",
+        "text": "Tuntutan para buruh kereta api agar seluruh jalur rel di pulau Madura diubah menjadi jalur kereta cepat listrik."
+      },
+      {
         "key": "D",
-        "text": "Kekecewaan mendalam Front Demokrasi Rakyat (FDR) atas jatuhnya Kabinet Amir Sjarifuddin pasca-Perjanjian Renville, yang dikonsolidasikan oleh Musso lewat resolusi 'Jalan Baru untuk Republik Indonesia' yang menganjurkan pemutusan diplomasi dengan Barat dan keberpihakan total pada poros komunis Uni Soviet."
+        "text": "Persetujuan parlemen dewan perwakilan untuk menyatukan Indonesia ke dalam aliansi pakta pertahanan NATO."
       },
       {
         "key": "E",
-        "text": "Persetujuan parlemen dewan perwakilan untuk menyatukan Indonesia ke dalam aliansi pakta pertahanan NATO."
+        "text": "Kekecewaan mendalam Front Demokrasi Rakyat (FDR) atas jatuhnya Kabinet Amir Sjarifuddin pasca-Perjanjian Renville, yang dikonsolidasikan oleh Musso lewat resolusi 'Jalan Baru untuk Republik Indonesia' yang menganjurkan pemutusan diplomasi dengan Barat dan keberpihakan total pada poros komunis Uni Soviet."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kekecewaan mendalam Front Demokrasi Rakyat (FDR) atas jatuhnya Kabinet Amir Sjarifuddin pasca-Perjanjian Renville, yang dikonsolidasikan oleh Musso lewat resolusi 'Jalan Baru untuk Republik Indonesia' yang menganjurkan pemutusan diplomasi dengan Barat dan keberpihakan total pada poros komunis Uni Soviet.. Peristiwa Madiun 1948 dipicu jatuhnya Kabinet Amir Sjarifuddin (akibat Renville) dan kedatangan Musso dengan doktrin 'Jalan Baru' untuk mendirikan Soviet Indonesia berporos ke Moskow. Pilih opsi: Kekecewaan FDR pasca-Renville dikonsolidasikan Musso lewat 'Jalan Baru' memutus diplomasi Barat dan berporos ke Uni Soviet."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kekecewaan mendalam Front Demokrasi Rakyat (FDR) atas jatuhnya Kabinet Amir Sjarifuddin pasca-Perjanjian Renville, yang dikonsolidasikan oleh Musso lewat resolusi 'Jalan Baru untuk Republik Indonesia' yang menganjurkan pemutusan diplomasi dengan Barat dan keberpihakan total pada poros komunis Uni Soviet.. Peristiwa Madiun 1948 dipicu jatuhnya Kabinet Amir Sjarifuddin (akibat Renville) dan kedatangan Musso dengan doktrin 'Jalan Baru' untuk mendirikan Soviet Indonesia berporos ke Moskow. Pilih opsi: Kekecewaan FDR pasca-Renville dikonsolidasikan Musso lewat 'Jalan Baru' memutus diplomasi Barat dan berporos ke Uni Soviet."
   },
   {
     "id": "sejl-lat-h-10",
@@ -2562,27 +2563,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan seluruh kekuasaan legislatif, eksekutif, dan yudikatif secara permanen kepada Markas Besar Angkatan Udara diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Membongkar sistem demokrasi liberal Barat yang dinilai tidak cocok dengan kepribadian bangsa dan menggantinya dengan Demokrasi Terpimpin yang bertumpu pada Kabinet Gotong Royong (empat partai pemenang pemilu) serta pembentukan Dewan Nasional yang menghimpun golongan-golongan fungsional."
       },
       {
         "key": "B",
-        "text": "Membubarkan seluruh korps diplomatik luar negeri dan menyatakan penutupan wilayah perairan Nusantara bagi pelayaran niaga."
+        "text": "Menyerahkan seluruh kekuasaan legislatif, eksekutif, dan yudikatif secara permanen kepada Markas Besar Angkatan Udara."
       },
       {
         "key": "C",
-        "text": "Menetapkan sistem monarki federal di mana jabatan kepala pemerintahan dipegang secara bergilir oleh para sultan tradisional."
-      },
-      {
-        "key": "D",
         "text": "Mengadakan pemilihan umum kilat setiap enam bulan sekali guna memilih dewan menteri koalisi baru."
       },
       {
+        "key": "D",
+        "text": "Menetapkan sistem monarki federal di mana jabatan kepala pemerintahan dipegang secara bergilir oleh para sultan tradisional."
+      },
+      {
         "key": "E",
-        "text": "Membongkar sistem demokrasi liberal Barat yang dinilai tidak cocok dengan kepribadian bangsa dan menggantinya dengan Demokrasi Terpimpin yang bertumpu pada Kabinet Gotong Royong (empat partai pemenang pemilu) serta pembentukan Dewan Nasional yang menghimpun golongan-golongan fungsional."
+        "text": "Membubarkan seluruh korps diplomatik luar negeri dan menyatakan penutupan wilayah perairan Nusantara bagi pelayaran niaga."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Membongkar sistem demokrasi liberal Barat yang dinilai tidak cocok dengan kepribadian bangsa dan menggantinya dengan Demokrasi Terpimpin yang bertumpu pada Kabinet Gotong Royong (empat partai pemenang pemilu) serta pembentukan Dewan Nasional yang menghimpun golongan-golongan fungsional.. Konsepsi Presiden 1957 mengusulkan penggantian demokrasi liberal dengan Demokrasi Terpimpin: Kabinet Gotong Royong (4 partai besar) dan Dewan Nasional golongan fungsional. Pilih: Mengganti demokrasi liberal Barat dengan Demokrasi Terpimpin bertumpu Kabinet Gotong Royong dan Dewan Nasional golongan fungsional."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Membongkar sistem demokrasi liberal Barat yang dinilai tidak cocok dengan kepribadian bangsa dan menggantinya dengan Demokrasi Terpimpin yang bertumpu pada Kabinet Gotong Royong (empat partai pemenang pemilu) serta pembentukan Dewan Nasional yang menghimpun golongan-golongan fungsional.. Konsepsi Presiden 1957 mengusulkan penggantian demokrasi liberal dengan Demokrasi Terpimpin: Kabinet Gotong Royong (4 partai besar) dan Dewan Nasional golongan fungsional. Pilih: Mengganti demokrasi liberal Barat dengan Demokrasi Terpimpin bertumpu Kabinet Gotong Royong dan Dewan Nasional golongan fungsional."
   },
   {
     "id": "sejl-lat-h-11",
@@ -2605,27 +2606,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nasionalisasi bank sirkulasi swasta kolonial _De Javasche Bank_ menjadi Bank Indonesia (UU No. 11/1953) serta pembatalan sepihak seluruh kesepakatan Uni Indonesia-Belanda dan beban utang finansial ekonomi KMB pada masa Kabinet Ali Sastroamidjojo II tahun 1956."
+        "text": "Penerbitan surat utang negara dengan menjaminkan kepemilikan situs warisan purbakala Candi Borobudur kepada Bank Dunia."
       },
       {
         "key": "B",
-        "text": "Pengalihan seluruh mata uang rupiah ke dalam sistem mata uang Yen Jepang di bawah pengawasan bank multilateral Asia ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Pengalihan seluruh mata uang rupiah ke dalam sistem mata uang Yen Jepang di bawah pengawasan bank multilateral Asia."
       },
       {
         "key": "C",
-        "text": "Penjualan seluruh kilang minyak bumi di pulau Sumatera kepada sindikat kartel perdagangan rempah Uni Soviet."
+        "text": "Nasionalisasi bank sirkulasi swasta kolonial _De Javasche Bank_ menjadi Bank Indonesia (UU No. 11/1953) serta pembatalan sepihak seluruh kesepakatan Uni Indonesia-Belanda dan beban utang finansial ekonomi KMB pada masa Kabinet Ali Sastroamidjojo II tahun 1956."
       },
       {
         "key": "D",
-        "text": "Penerbitan surat utang negara dengan menjaminkan kepemilikan situs warisan purbakala Candi Borobudur kepada Bank Dunia."
+        "text": "Penjualan seluruh kilang minyak bumi di pulau Sumatera kepada sindikat kartel perdagangan rempah Uni Soviet."
       },
       {
         "key": "E",
         "text": "Pemberian subsidi pajak penuh kepada seluruh konglomerat perusahaan multinasional asal negeri Belanda."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Nasionalisasi bank sirkulasi swasta kolonial _De Javasche Bank_ menjadi Bank Indonesia (UU No. 11/1953) serta pembatalan sepihak seluruh kesepakatan Uni Indonesia-Belanda dan beban utang finansial ekonomi KMB pada masa Kabinet Ali Sastroamidjojo II tahun 1956.. Penebusan kedaulatan ekonomi dilakukan lewat nasionalisasi De Javasche Bank menjadi Bank Indonesia (1953) dan pembatalan sepihak beban finansial KMB pada 1956. Pilih opsi: Nasionalisasi De Javasche Bank menjadi Bank Indonesia serta pembatalan sepihak utang finansial ekonomi KMB tahun 1956."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Nasionalisasi bank sirkulasi swasta kolonial _De Javasche Bank_ menjadi Bank Indonesia (UU No. 11/1953) serta pembatalan sepihak seluruh kesepakatan Uni Indonesia-Belanda dan beban utang finansial ekonomi KMB pada masa Kabinet Ali Sastroamidjojo II tahun 1956.. Penebusan kedaulatan ekonomi dilakukan lewat nasionalisasi De Javasche Bank menjadi Bank Indonesia (1953) dan pembatalan sepihak beban finansial KMB pada 1956. Pilih opsi: Nasionalisasi De Javasche Bank menjadi Bank Indonesia serta pembatalan sepihak utang finansial ekonomi KMB tahun 1956."
   },
   {
     "id": "sejl-lat-h-12",
@@ -2648,27 +2649,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyerahan pengelolaan wilayah teritorial laut Jawa kepada armada kapal perang patroli militer gabungan Pakta Warsawa ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
         "text": "Diterimanya secara resmi asas dan doktrin Negara Kepulauan (_Archipelagic State Principle_) dalam Bagian IV Konvensi Hukum Laut PBB (UNCLOS 1982) di Montego Bay, Jamaika, yang mengakui kedaulatan mutlak Indonesia atas seluruh perairan pedalaman kepulauannya."
       },
       {
-        "key": "C",
-        "text": "Dilarangnya seluruh kapal niaga asing melintasi Alur Laut Kepulauan Indonesia (ALKI) tanpa persetujuan parlemen daerah."
+        "key": "B",
+        "text": "Penyatuan batas perairan laut territorial Indonesia dengan zona ekonomi eksklusif benua Australia."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kewajiban pemerintah Republik Indonesia membayar ganti rugi sewa wilayah perairan kepada pengadilan maritim internasional di Den Haag."
       },
       {
+        "key": "D",
+        "text": "Penyerahan pengelolaan wilayah teritorial laut Jawa kepada armada kapal perang patroli militer gabungan Pakta Warsawa."
+      },
+      {
         "key": "E",
-        "text": "Penyatuan batas perairan laut territorial Indonesia dengan zona ekonomi eksklusif benua Australia."
+        "text": "Dilarangnya seluruh kapal niaga asing melintasi Alur Laut Kepulauan Indonesia (ALKI) tanpa persetujuan parlemen daerah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Diterimanya secara resmi asas dan doktrin Negara Kepulauan (_Archipelagic State Principle_) dalam Bagian IV Konvensi Hukum Laut PBB (UNCLOS 1982) di Montego Bay, Jamaika, yang mengakui kedaulatan mutlak Indonesia atas seluruh perairan pedalaman kepulauannya.. Puncak perjuangan Deklarasi Djuanda adalah diakuinya prinsip Negara Kepulauan (Archipelagic State Principle) dalam UNCLOS 1982 di Montego Bay, Jamaika. Pilih: Diterimanya doktrin Negara Kepulauan (Archipelagic State) dalam UNCLOS 1982 di Montego Bay, Jamaika."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Diterimanya secara resmi asas dan doktrin Negara Kepulauan (_Archipelagic State Principle_) dalam Bagian IV Konvensi Hukum Laut PBB (UNCLOS 1982) di Montego Bay, Jamaika, yang mengakui kedaulatan mutlak Indonesia atas seluruh perairan pedalaman kepulauannya.. Puncak perjuangan Deklarasi Djuanda adalah diakuinya prinsip Negara Kepulauan (Archipelagic State Principle) dalam UNCLOS 1982 di Montego Bay, Jamaika. Pilih: Diterimanya doktrin Negara Kepulauan (Archipelagic State) dalam UNCLOS 1982 di Montego Bay, Jamaika."
   },
   {
     "id": "sejl-lat-h-13",
@@ -2691,27 +2692,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menuntut pengunduran diri Indonesia dari keanggotaan badan pangan dunia FAO di Roma akibat surplus beras berlebih sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
-      },
-      {
-        "key": "B",
-        "text": "Mendesak pemerintah Orde Baru untuk membentuk pakta pertahanan militer konfrontasi bersenjata melawan Malaysia."
-      },
-      {
-        "key": "C",
         "text": "Menolak penyalahgunaan dan monopoli tafsir Pancasila oleh Presiden Soeharto dalam pidato perwira ABRI di Pekanbaru yang menuduh kritik oposisi politik sah terhadap pemerintah sebagai bentuk subversi menentang ideologi negara Pancasila."
       },
       {
+        "key": "B",
+        "text": "Menolak pembangunan infrastruktur jalan tol Jagorawi karena dianggap merusak habitat satwa liar di pegunungan."
+      },
+      {
+        "key": "C",
+        "text": "Mendesak pemerintah Orde Baru untuk membentuk pakta pertahanan militer konfrontasi bersenjata melawan Malaysia."
+      },
+      {
         "key": "D",
-        "text": "Meminta pembubaran seluruh yayasan sosial keagamaan dan penutupan seluruh jalur perdagangan ekspor minyak mentah."
+        "text": "Menuntut pengunduran diri Indonesia dari keanggotaan badan pangan dunia FAO di Roma akibat surplus beras berlebih."
       },
       {
         "key": "E",
-        "text": "Menolak pembangunan infrastruktur jalan tol Jagorawi karena dianggap merusak habitat satwa liar di pegunungan."
+        "text": "Meminta pembubaran seluruh yayasan sosial keagamaan dan penutupan seluruh jalur perdagangan ekspor minyak mentah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menolak penyalahgunaan dan monopoli tafsir Pancasila oleh Presiden Soeharto dalam pidato perwira ABRI di Pekanbaru yang menuduh kritik oposisi politik sah terhadap pemerintah sebagai bentuk subversi menentang ideologi negara Pancasila.. Petisi 50 memprotes Presiden Soeharto yang memonopoli tafsir Pancasila dan menganggap kritik politik terhadap pemerintah sebagai tindakan menentang Pancasila. Pilih: Menolak monopoli tafsir Pancasila yang menuduh kritik oposisi terhadap pemerintah sebagai subversi menentang Pancasila."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menolak penyalahgunaan dan monopoli tafsir Pancasila oleh Presiden Soeharto dalam pidato perwira ABRI di Pekanbaru yang menuduh kritik oposisi politik sah terhadap pemerintah sebagai bentuk subversi menentang ideologi negara Pancasila.. Petisi 50 memprotes Presiden Soeharto yang memonopoli tafsir Pancasila dan menganggap kritik politik terhadap pemerintah sebagai tindakan menentang Pancasila. Pilih: Menolak monopoli tafsir Pancasila yang menuduh kritik oposisi terhadap pemerintah sebagai subversi menentang Pancasila."
   },
   {
     "id": "sejl-lat-h-14",
@@ -2734,27 +2735,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jalur pedagang pasar tradisional, perkumpulan seniman drama jalanan, dan asosiasi pengemudi becak kayuh ibu kota menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Jalur pakta pertahanan militer NATO, dewan keamanan Uni Eropa, dan perwakilan kedutaan besar negara-negara Skandinavia."
-      },
-      {
-        "key": "C",
         "text": "Jalur komando tentara kerajaan Belanda, persemakmuran Inggris di Pasifik, dan korps militer sukarela Palang Merah."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Jalur ABRI (perpecahan internal antara kubu militer profesional pimpinan Jenderal Wiranto dengan perwira loyalis), Jalur Birokrasi (mundurnya 14 menteri koordinator ekonomi yang menolak Komite Reformasi), dan Jalur Golkar (desakan pimpinan DPR/MPR Harmoko agar Presiden mundur)."
+      },
+      {
+        "key": "C",
+        "text": "Jalur pakta pertahanan militer NATO, dewan keamanan Uni Eropa, dan perwakilan kedutaan besar negara-negara Skandinavia."
+      },
+      {
+        "key": "D",
+        "text": "Jalur pedagang pasar tradisional, perkumpulan seniman drama jalanan, dan asosiasi pengemudi becak kayuh ibu kota menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
         "text": "Jalur asosiasi produsen beras nasional, dewan guru sekolah kejuruan, dan pimpinan federasi serikat atletik daerah."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Jalur ABRI (perpecahan internal antara kubu militer profesional pimpinan Jenderal Wiranto dengan perwira loyalis), Jalur Birokrasi (mundurnya 14 menteri koordinator ekonomi yang menolak Komite Reformasi), dan Jalur Golkar (desakan pimpinan DPR/MPR Harmoko agar Presiden mundur).. Pilar Orba adalah ABG (ABRI, Birokrasi, Golkar). Keruntuhannya terjadi saat ketiganya serentak berpaling: Wiranto/militer, Harmoko/Golkar, dan 14 menteri/Birokrasi. Pilih: Jalur ABRI (perpecahan internal militer), Jalur Birokrasi (14 menteri mundur), dan Jalur Golkar (desakan Harmoko)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Jalur ABRI (perpecahan internal antara kubu militer profesional pimpinan Jenderal Wiranto dengan perwira loyalis), Jalur Birokrasi (mundurnya 14 menteri koordinator ekonomi yang menolak Komite Reformasi), dan Jalur Golkar (desakan pimpinan DPR/MPR Harmoko agar Presiden mundur).. Pilar Orba adalah ABG (ABRI, Birokrasi, Golkar). Keruntuhannya terjadi saat ketiganya serentak berpaling: Wiranto/militer, Harmoko/Golkar, dan 14 menteri/Birokrasi. Pilih: Jalur ABRI (perpecahan internal militer), Jalur Birokrasi (14 menteri mundur), dan Jalur Golkar (desakan Harmoko)."
   },
   {
     "id": "sejl-lat-h-15",
@@ -2777,7 +2778,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keinginan kerajaan Mesir untuk menyerahkan pengelolaan jalur perdagangan rempah kepada armada angkatan laut Jepang diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Tuntutan agar seluruh penduduk benua Afrika menggunakan mata uang tunggal dinar emas dalam transaksi minyak."
       },
       {
         "key": "B",
@@ -2785,11 +2786,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Tuntutan agar seluruh penduduk benua Afrika menggunakan mata uang tunggal dinar emas dalam transaksi minyak."
+        "text": "Perjanjian rahasia antara perwira militer Mesir dengan pemerintah kerajaan Belanda untuk membubarkan Liga Arab."
       },
       {
         "key": "D",
-        "text": "Perjanjian rahasia antara perwira militer Mesir dengan pemerintah kerajaan Belanda untuk membubarkan Liga Arab."
+        "text": "Keinginan kerajaan Mesir untuk menyerahkan pengelolaan jalur perdagangan rempah kepada armada angkatan laut Jepang."
       },
       {
         "key": "E",
@@ -2820,27 +2821,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Uni Soviet setuju membongkar dan memulangkan seluruh instalasi rudal nuklir balistiknya dari Kuba, dengan imbalan jaminan Amerika Serikat tidak akan menginvasi Kuba serta janji rahasia AS menarik rudal nuklir Jupiter miliknya dari Turki."
+        "text": "Penghapusan seluruh senjata konvensional di kawasan benua Amerika dan penggantiannya dengan armada helikopter patroli."
       },
       {
         "key": "B",
-        "text": "Pemberian izin kepada angkatan laut Kuba untuk mendirikan markas pangkalan kapal perang di lepas pantai Florida ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
-        "text": "Penyatuan kedua blok militer NATO dan Pakta Warsawa ke dalam komando gabungan Dewan Keamanan PBB."
-      },
-      {
-        "key": "D",
         "text": "Pembagian wilayah kepulauan Karibia menjadi dua zona demiliterisasi di bawah pengawasan tentara perdamaian."
       },
       {
+        "key": "C",
+        "text": "Uni Soviet setuju membongkar dan memulangkan seluruh instalasi rudal nuklir balistiknya dari Kuba, dengan imbalan jaminan Amerika Serikat tidak akan menginvasi Kuba serta janji rahasia AS menarik rudal nuklir Jupiter miliknya dari Turki."
+      },
+      {
+        "key": "D",
+        "text": "Pemberian izin kepada angkatan laut Kuba untuk mendirikan markas pangkalan kapal perang di lepas pantai Florida."
+      },
+      {
         "key": "E",
-        "text": "Penghapusan seluruh senjata konvensional di kawasan benua Amerika dan penggantiannya dengan armada helikopter patroli."
+        "text": "Penyatuan kedua blok militer NATO dan Pakta Warsawa ke dalam komando gabungan Dewan Keamanan PBB."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Uni Soviet setuju membongkar dan memulangkan seluruh instalasi rudal nuklir balistiknya dari Kuba, dengan imbalan jaminan Amerika Serikat tidak akan menginvasi Kuba serta janji rahasia AS menarik rudal nuklir Jupiter miliknya dari Turki.. Krisis Rudal Kuba 1962 diselesaikan dengan kompromi: Soviet mencabut rudal dari Kuba, AS berjanji tidak menginvasi Kuba dan diam-diam menarik rudal Jupiter dari Turki. Pilih: Soviet membongkar rudal di Kuba dengan imbalan AS tidak menginvasi Kuba dan menarik rudal Jupiter dari Turki."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Uni Soviet setuju membongkar dan memulangkan seluruh instalasi rudal nuklir balistiknya dari Kuba, dengan imbalan jaminan Amerika Serikat tidak akan menginvasi Kuba serta janji rahasia AS menarik rudal nuklir Jupiter miliknya dari Turki.. Krisis Rudal Kuba 1962 diselesaikan dengan kompromi: Soviet mencabut rudal dari Kuba, AS berjanji tidak menginvasi Kuba dan diam-diam menarik rudal Jupiter dari Turki. Pilih: Soviet membongkar rudal di Kuba dengan imbalan AS tidak menginvasi Kuba dan menarik rudal Jupiter dari Turki."
   },
   {
     "id": "sejl-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perekonomian Uni Soviet langsung melampaui produksi industri Amerika Serikat dalam waktu kurang dari enam bulan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
-        "text": "Bukannya menyelamatkan sosialisme, keterbukaan informasi dan pelonggaran kendali negara justru membangkitkan sentimen nasionalisme republik-republik bagian, membongkar kejahatan masa lalu rezim Stalin, dan mempercepat disintegrasi bubarnya Uni Soviet pada Desember 1991."
-      },
-      {
-        "key": "C",
         "text": "Seluruh negara Eropa Timur memutuskan untuk bergabung secara sukarela ke dalam sistem satu partai komunis Moskow."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Dibangunnya tembok pembatas beton baru di sepanjang perbatasan perairan Kutub Utara guna mencegah pelarian modal."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Penyatuan mata uang rubel dengan poundsterling Inggris dalam transaksi perdagangan minyak bumi antarbenua."
+      },
+      {
+        "key": "D",
+        "text": "Bukannya menyelamatkan sosialisme, keterbukaan informasi dan pelonggaran kendali negara justru membangkitkan sentimen nasionalisme republik-republik bagian, membongkar kejahatan masa lalu rezim Stalin, dan mempercepat disintegrasi bubarnya Uni Soviet pada Desember 1991."
+      },
+      {
+        "key": "E",
+        "text": "Perekonomian Uni Soviet langsung melampaui produksi industri Amerika Serikat dalam waktu kurang dari enam bulan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bukannya menyelamatkan sosialisme, keterbukaan informasi dan pelonggaran kendali negara justru membangkitkan sentimen nasionalisme republik-republik bagian, membongkar kejahatan masa lalu rezim Stalin, dan mempercepat disintegrasi bubarnya Uni Soviet pada Desember 1991.. Glasnost dan Perestroika bermaksud memodernisasi Soviet, tetapi malah memicu bangkitnya nasionalisme negara bagian dan membongkar kelemahan rezim hingga Soviet bubar pada 1991. Pilih opsi: Membangkitkan sentimen nasionalisme republik bagian dan mempercepat disintegrasi bubarnya Uni Soviet pada 1991."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Bukannya menyelamatkan sosialisme, keterbukaan informasi dan pelonggaran kendali negara justru membangkitkan sentimen nasionalisme republik-republik bagian, membongkar kejahatan masa lalu rezim Stalin, dan mempercepat disintegrasi bubarnya Uni Soviet pada Desember 1991.. Glasnost dan Perestroika bermaksud memodernisasi Soviet, tetapi malah memicu bangkitnya nasionalisme negara bagian dan membongkar kelemahan rezim hingga Soviet bubar pada 1991. Pilih opsi: Membangkitkan sentimen nasionalisme republik bagian dan mempercepat disintegrasi bubarnya Uni Soviet pada 1991."
   },
   {
     "id": "sejl-lat-h-18",
@@ -2906,7 +2907,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pengeringan total seluruh danau vulkanik di kawasan dataran tinggi Dieng untuk mendirikan tambang batu bara terbuka sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Pengeringan total seluruh danau vulkanik di kawasan dataran tinggi Dieng untuk mendirikan tambang batu bara terbuka."
       },
       {
         "key": "B",
@@ -2914,19 +2915,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Penebangan liar dan eksploitasi habis-habisan hutan kayu jati (_Tectona grandis_) melalui sistem kerja paksa blandong (_blandongdienst_) guna memasok bahan baku galangan kapal perang, benteng pertahanan, dan peti kemas rempah-rempah yang memicu erosi dan banjir bandang."
+        "text": "Pemusnahan seluruh populasi kerbau liar di lereng Gunung Merapi demi memonopoli industri kulit sabuk amunisi."
       },
       {
         "key": "D",
-        "text": "Pencemaran radioaktif dari instalasi pengolahan uranium di sekitar muara Sungai Bengawan Solo."
+        "text": "Penebangan liar dan eksploitasi habis-habisan hutan kayu jati (_Tectona grandis_) melalui sistem kerja paksa blandong (_blandongdienst_) guna memasok bahan baku galangan kapal perang, benteng pertahanan, dan peti kemas rempah-rempah yang memicu erosi dan banjir bandang."
       },
       {
         "key": "E",
-        "text": "Pemusnahan seluruh populasi kerbau liar di lereng Gunung Merapi demi memonopoli industri kulit sabuk amunisi."
+        "text": "Pencemaran radioaktif dari instalasi pengolahan uranium di sekitar muara Sungai Bengawan Solo."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Penebangan liar dan eksploitasi habis-habisan hutan kayu jati (_Tectona grandis_) melalui sistem kerja paksa blandong (_blandongdienst_) guna memasok bahan baku galangan kapal perang, benteng pertahanan, dan peti kemas rempah-rempah yang memicu erosi dan banjir bandang.. Sistem kerja blandong (blandongdienst) adalah eksploitasi penebangan hutan jati di Jawa oleh VOC untuk galangan kapal dan infrastruktur, menyebabkan kerusakan lingkungan parah. Pilih opsi eksploitasi hutan kayu jati melalui kerja paksa blandong untuk galangan kapal dan benteng kompeni."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Penebangan liar dan eksploitasi habis-habisan hutan kayu jati (_Tectona grandis_) melalui sistem kerja paksa blandong (_blandongdienst_) guna memasok bahan baku galangan kapal perang, benteng pertahanan, dan peti kemas rempah-rempah yang memicu erosi dan banjir bandang.. Sistem kerja blandong (blandongdienst) adalah eksploitasi penebangan hutan jati di Jawa oleh VOC untuk galangan kapal dan infrastruktur, menyebabkan kerusakan lingkungan parah. Pilih opsi eksploitasi hutan kayu jati melalui kerja paksa blandong untuk galangan kapal dan benteng kompeni."
   },
   {
     "id": "sejl-lat-h-19",
@@ -2949,15 +2950,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penarikan mundur pasukan secara bertahap menuju benteng pertahanan di dasar kawah danau Batur menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Perjanjian pembagian wilayah pulau Bali menjadi dua karesidenan administrasi kolonial terpisah."
       },
       {
         "key": "B",
-        "text": "Permintaan gencatan senjata diplomasi dengan syarat tentara NICA bersedia membayar upeti perak."
+        "text": "Pemberian mandat militer kepada pejabat konsulat diplomatik Inggris untuk memimpin perang pulau Bali."
       },
       {
         "key": "C",
-        "text": "Pemberian mandat militer kepada pejabat konsulat diplomatik Inggris untuk memimpin perang pulau Bali."
+        "text": "Permintaan gencatan senjata diplomasi dengan syarat tentara NICA bersedia membayar upeti perak."
       },
       {
         "key": "D",
@@ -2965,7 +2966,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Perjanjian pembagian wilayah pulau Bali menjadi dua karesidenan administrasi kolonial terpisah."
+        "text": "Penarikan mundur pasukan secara bertahap menuju benteng pertahanan di dasar kawah danau Batur menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       }
     ],
     "correctKey": "D",
@@ -2992,19 +2993,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Adanya kesamaan tradisi perayaan sepuluh Muharram (Asyura) yang membuktikan pengaruh kaum Syiah keturunan kaisar Mongol diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
-      },
-      {
-        "key": "B",
-        "text": "Penemuan makam bertarikh Fatimah binti Maimun di Leran yang diukir dengan huruf kanji Tiongkok dinasti Ming."
-      },
-      {
-        "key": "C",
         "text": "Catatan musafir bangsa Portugis yang menegaskan bahwa seluruh kitab fikih di Malaka ditulis dalam bahasa Gujarat kuno."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kewajiban seluruh jamaah haji kepulauan Jawa untuk transit dan menetap selama sepuluh tahun di pelabuhan Kalkuta India."
+      },
+      {
+        "key": "C",
+        "text": "Penemuan makam bertarikh Fatimah binti Maimun di Leran yang diukir dengan huruf kanji Tiongkok dinasti Ming."
+      },
+      {
+        "key": "D",
+        "text": "Adanya kesamaan tradisi perayaan sepuluh Muharram (Asyura) yang membuktikan pengaruh kaum Syiah keturunan kaisar Mongol."
       },
       {
         "key": "E",
@@ -3035,27 +3036,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyebutan nama kakek Mulawarman yaitu Kundungga yang merupakan nama asli nusantara (belum terpengaruh bahasa Sanskerta), serta penyelenggaraan upacara selamatan kenduri sedekah 20.000 ekor sapi kepada para Brahmana di tanah suci _Waprakeswara_ (lapangan suci pemujaan Dewa Siwa)."
+        "text": "Pelarangan total bagi penduduk pribumi pedalaman untuk memeluk ajaran agama Hindu aliran Siwa Trimurti."
       },
       {
         "key": "B",
-        "text": "Pembangunan candi piramida bertingkat sepuluh untuk menyimpan abu jenazah para bangsawan ksatria perang ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Pernyataan deklarasi perang penaklukan terhadap wilayah kekuasaan kemaharajaan Gupta di lembah Sungai Gangga."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pemberian mandat kepada perwira maritim Romawi untuk memungut bea cukai di sepanjang muara Sungai Mahakam."
       },
       {
+        "key": "D",
+        "text": "Pembangunan candi piramida bertingkat sepuluh untuk menyimpan abu jenazah para bangsawan ksatria perang."
+      },
+      {
         "key": "E",
-        "text": "Pelarangan total bagi penduduk pribumi pedalaman untuk memeluk ajaran agama Hindu aliran Siwa Trimurti."
+        "text": "Penyebutan nama kakek Mulawarman yaitu Kundungga yang merupakan nama asli nusantara (belum terpengaruh bahasa Sanskerta), serta penyelenggaraan upacara selamatan kenduri sedekah 20.000 ekor sapi kepada para Brahmana di tanah suci _Waprakeswara_ (lapangan suci pemujaan Dewa Siwa)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penyebutan nama kakek Mulawarman yaitu Kundungga yang merupakan nama asli nusantara (belum terpengaruh bahasa Sanskerta), serta penyelenggaraan upacara selamatan kenduri sedekah 20.000 ekor sapi kepada para Brahmana di tanah suci _Waprakeswara_ (lapangan suci pemujaan Dewa Siwa).. Yupa mencatat akulturasi: Kundungga (nama lokal), Aswawarman & Mulawarman (Sansekerta), dan upacara sedekah 20.000 sapi di tempat suci Waprakeswara (pemujaan Siwa). Pilih opsi nama asli lokal Kundungga dan sedekah 20.000 sapi kepada Brahmana di Waprakeswara."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Penyebutan nama kakek Mulawarman yaitu Kundungga yang merupakan nama asli nusantara (belum terpengaruh bahasa Sanskerta), serta penyelenggaraan upacara selamatan kenduri sedekah 20.000 ekor sapi kepada para Brahmana di tanah suci _Waprakeswara_ (lapangan suci pemujaan Dewa Siwa).. Yupa mencatat akulturasi: Kundungga (nama lokal), Aswawarman & Mulawarman (Sansekerta), dan upacara sedekah 20.000 sapi di tempat suci Waprakeswara (pemujaan Siwa). Pilih opsi nama asli lokal Kundungga dan sedekah 20.000 sapi kepada Brahmana di Waprakeswara."
   },
   {
     "id": "sejl-lat-h-22",
@@ -3078,15 +3079,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyerahan seluruh tambang batu bara Ombilin Sawahlunto kepada investor swasta asal negeri Spanyol ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Perjanjian rahasia pengangkatan residen Belanda menjadi pemangku adat tertinggi di seluruh luhak Minangkabau."
       },
       {
         "key": "B",
-        "text": "Perjanjian Plakat Puncak Pato di Bukit Marapalam yang melahirkan kompromi kultural agung: _Adat Basandi Syarak, Syarak Basandi Kitabullah_ (Adat bersendikan syariat, syariat bersendikan Kitab Allah)."
+        "text": "Penyerahan seluruh tambang batu bara Ombilin Sawahlunto kepada investor swasta asal negeri Spanyol."
       },
       {
         "key": "C",
-        "text": "Perjanjian rahasia pengangkatan residen Belanda menjadi pemangku adat tertinggi di seluruh luhak Minangkabau."
+        "text": "Deklarasi pemisahan diri kepulauan Sumatera Barat dari jaringan perdagangan internasional Samudera Hindia."
       },
       {
         "key": "D",
@@ -3094,11 +3095,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Deklarasi pemisahan diri kepulauan Sumatera Barat dari jaringan perdagangan internasional Samudera Hindia."
+        "text": "Perjanjian Plakat Puncak Pato di Bukit Marapalam yang melahirkan kompromi kultural agung: _Adat Basandi Syarak, Syarak Basandi Kitabullah_ (Adat bersendikan syariat, syariat bersendikan Kitab Allah)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Perjanjian Plakat Puncak Pato di Bukit Marapalam yang melahirkan kompromi kultural agung: _Adat Basandi Syarak, Syarak Basandi Kitabullah_ (Adat bersendikan syariat, syariat bersendikan Kitab Allah).. Plakat Puncak Pato di Bukit Marapalam mendamaikan Kaum Adat dan Padri dengan konsensus: Adat Basandi Syarak, Syarak Basandi Kitabullah guna bersatu melawan Belanda. Pilih opsi: Perjanjian Plakat Puncak Pato yang melahirkan kompromi 'Adat Basandi Syarak, Syarak Basandi Kitabullah'."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Perjanjian Plakat Puncak Pato di Bukit Marapalam yang melahirkan kompromi kultural agung: _Adat Basandi Syarak, Syarak Basandi Kitabullah_ (Adat bersendikan syariat, syariat bersendikan Kitab Allah).. Plakat Puncak Pato di Bukit Marapalam mendamaikan Kaum Adat dan Padri dengan konsensus: Adat Basandi Syarak, Syarak Basandi Kitabullah guna bersatu melawan Belanda. Pilih opsi: Perjanjian Plakat Puncak Pato yang melahirkan kompromi 'Adat Basandi Syarak, Syarak Basandi Kitabullah'."
   },
   {
     "id": "sejl-lat-h-23",
@@ -3121,15 +3122,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menenggelamkan seluruh kapal induk armada perang Belanda di perairan Laut Jawa secara permanen sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Menenggelamkan seluruh kapal induk armada perang Belanda di perairan Laut Jawa secara permanen."
       },
       {
         "key": "B",
-        "text": "Memaksa Ratu Belanda menandatangani surat penyerahan takhta kerajaan kepada Sri Sultan di Yogyakarta."
+        "text": "Mematahkan kebohongan propaganda diplomasi Belanda di forum Dewan Keamanan PBB yang mengklaim bahwa Republik Indonesia dan tentara TNI sudah musnah, sehingga memaksa Belanda kembali ke meja perundingan."
       },
       {
         "key": "C",
-        "text": "Mematahkan kebohongan propaganda diplomasi Belanda di forum Dewan Keamanan PBB yang mengklaim bahwa Republik Indonesia dan tentara TNI sudah musnah, sehingga memaksa Belanda kembali ke meja perundingan."
+        "text": "Memaksa Ratu Belanda menandatangani surat penyerahan takhta kerajaan kepada Sri Sultan di Yogyakarta."
       },
       {
         "key": "D",
@@ -3140,8 +3141,8 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
         "text": "Mengganti seluruh persenjataan infantri tentara Sekutu dengan senapan bambu runcing tradisional."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mematahkan kebohongan propaganda diplomasi Belanda di forum Dewan Keamanan PBB yang mengklaim bahwa Republik Indonesia dan tentara TNI sudah musnah, sehingga memaksa Belanda kembali ke meja perundingan.. Serangan Umum 1 Maret 1949 bertujuan politis membantah propaganda Belanda di PBB bahwa TNI dan RI sudah hancur lebur. Pilih: Mematahkan kebohongan propaganda Belanda di PBB yang mengklaim RI dan TNI sudah musnah."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mematahkan kebohongan propaganda diplomasi Belanda di forum Dewan Keamanan PBB yang mengklaim bahwa Republik Indonesia dan tentara TNI sudah musnah, sehingga memaksa Belanda kembali ke meja perundingan.. Serangan Umum 1 Maret 1949 bertujuan politis membantah propaganda Belanda di PBB bahwa TNI dan RI sudah hancur lebur. Pilih: Mematahkan kebohongan propaganda Belanda di PBB yang mengklaim RI dan TNI sudah musnah."
   },
   {
     "id": "sejl-lat-h-24",
@@ -3164,7 +3165,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membentuk mata uang bersama 'Dinar Non-Blok' untuk menggantikan seluruh sistem perbankan komersial internasional menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Membentuk mata uang bersama 'Dinar Non-Blok' untuk menggantikan seluruh sistem perbankan komersial internasional menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "B",
@@ -3172,19 +3173,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mendukung pengerahan pasukan rudal balistik Uni Soviet di seluruh wilayah perbatasan negara Amerika Latin."
-      },
-      {
-        "key": "D",
         "text": "Menolak keterlibatan ke dalam pakta militer pertahanan adidaya (NATO atau Pakta Warsawa), mengutuk politik apartheid dan kolonialisme dalam segala bentuknya, serta memperjuangkan koeksistensi damai aktif (_active peaceful coexistence_) tanpa tunduk pada tekanan blok Barat maupun Timur."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menuntut pembubaran organisasi Palang Merah Internasional dan menolak bantuan beras kemanusiaan PBB."
+      },
+      {
+        "key": "E",
+        "text": "Mendukung pengerahan pasukan rudal balistik Uni Soviet di seluruh wilayah perbatasan negara Amerika Latin."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menolak keterlibatan ke dalam pakta militer pertahanan adidaya (NATO atau Pakta Warsawa), mengutuk politik apartheid dan kolonialisme dalam segala bentuknya, serta memperjuangkan koeksistensi damai aktif (_active peaceful coexistence_) tanpa tunduk pada tekanan blok Barat maupun Timur.. GNB Beograd 1961 dirintis Soekarno, Tito, Nasser, Nehru, Nkrumah untuk menolak masuk pakta militer manapun, menentang kolonialisme, dan menegakkan koeksistensi damai aktif. Pilih opsi menolak pakta militer adidaya (NATO/Pakta Warsawa), mengutuk kolonialisme/apartheid, dan memperjuangkan koeksistensi damai aktif."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menolak keterlibatan ke dalam pakta militer pertahanan adidaya (NATO atau Pakta Warsawa), mengutuk politik apartheid dan kolonialisme dalam segala bentuknya, serta memperjuangkan koeksistensi damai aktif (_active peaceful coexistence_) tanpa tunduk pada tekanan blok Barat maupun Timur.. GNB Beograd 1961 dirintis Soekarno, Tito, Nasser, Nehru, Nkrumah untuk menolak masuk pakta militer manapun, menentang kolonialisme, dan menegakkan koeksistensi damai aktif. Pilih opsi menolak pakta militer adidaya (NATO/Pakta Warsawa), mengutuk kolonialisme/apartheid, dan memperjuangkan koeksistensi damai aktif."
   },
   {
     "id": "sejl-lat-h-25",
@@ -3207,15 +3208,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolak mentah-mentah seluruh dokumen arsip tertulis peninggalan Belanda dan hanya mempercayai cerita rakyat lisan tanpa verifikasi diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Menghapus seluruh stempel dan tanda tangan gubernur jenderal pada kertas dokumen arsip sebelum dilakukan analisis laboratorium."
       },
       {
         "key": "B",
-        "text": "Menerjemahkan dokumen arsip ke dalam bahasa Sansekerta kuno agar isi narasinya terlihat lebih sakral dan berwibawa."
+        "text": "Mendekonstruksi asumsi-asumsi hegemonik penguasa kolonial yang tersurat dalam teks untuk menemukan kembali suara, perspektif, motif agensi, dan dinamika perlawanan rakyat pribumi yang sengaja diabaikan, direndahkan, atau disamarkan dalam laporan resmi tersebut."
       },
       {
         "key": "C",
-        "text": "Menghapus seluruh stempel dan tanda tangan gubernur jenderal pada kertas dokumen arsip sebelum dilakukan analisis laboratorium."
+        "text": "Menolak mentah-mentah seluruh dokumen arsip tertulis peninggalan Belanda dan hanya mempercayai cerita rakyat lisan tanpa verifikasi."
       },
       {
         "key": "D",
@@ -3223,11 +3224,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mendekonstruksi asumsi-asumsi hegemonik penguasa kolonial yang tersurat dalam teks untuk menemukan kembali suara, perspektif, motif agensi, dan dinamika perlawanan rakyat pribumi yang sengaja diabaikan, direndahkan, atau disamarkan dalam laporan resmi tersebut."
+        "text": "Menerjemahkan dokumen arsip ke dalam bahasa Sansekerta kuno agar isi narasinya terlihat lebih sakral dan berwibawa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mendekonstruksi asumsi-asumsi hegemonik penguasa kolonial yang tersurat dalam teks untuk menemukan kembali suara, perspektif, motif agensi, dan dinamika perlawanan rakyat pribumi yang sengaja diabaikan, direndahkan, atau disamarkan dalam laporan resmi tersebut.. Reading against the grain berarti membaca arsip kolonial secara kritis: mendekonstruksi sudut pandang penjajah untuk menggali agensi dan suara rakyat pribumi yang tersembunyi. Pilih: Mendekonstruksi asumsi hegemonik penguasa kolonial untuk menemukan kembali suara, motif, dan perlawanan rakyat yang disamarkan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mendekonstruksi asumsi-asumsi hegemonik penguasa kolonial yang tersurat dalam teks untuk menemukan kembali suara, perspektif, motif agensi, dan dinamika perlawanan rakyat pribumi yang sengaja diabaikan, direndahkan, atau disamarkan dalam laporan resmi tersebut.. Reading against the grain berarti membaca arsip kolonial secara kritis: mendekonstruksi sudut pandang penjajah untuk menggali agensi dan suara rakyat pribumi yang tersembunyi. Pilih: Mendekonstruksi asumsi hegemonik penguasa kolonial untuk menemukan kembali suara, motif, dan perlawanan rakyat yang disamarkan."
   },
   {
     "id": "sejl-sim-01",
@@ -3254,11 +3255,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Penolakan perwira angkatan laut terhadap pembelian kapal perang destroyer dari persemakmuran kerajaan Inggris ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Kegagalan menteri pertanian menumpas serangan hama belalang di persawahan sepanjang pantai utara pulau Madura."
       },
       {
         "key": "C",
-        "text": "Kegagalan menteri pertanian menumpas serangan hama belalang di persawahan sepanjang pantai utara pulau Madura."
+        "text": "Tuntutan serikat buruh pelabuhan Tanjung Perak agar seluruh modal asing milik pengusaha Belanda disita tanpa ganti rugi."
       },
       {
         "key": "D",
@@ -3266,7 +3267,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Tuntutan serikat buruh pelabuhan Tanjung Perak agar seluruh modal asing milik pengusaha Belanda disita tanpa ganti rugi."
+        "text": "Penolakan perwira angkatan laut terhadap pembelian kapal perang destroyer dari persemakmuran kerajaan Inggris."
       }
     ],
     "correctKey": "A",
@@ -3293,7 +3294,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyitaan paksa seluruh perahu nelayan tradisional oleh kongsi pedagang rempah asal kepulauan Maluku ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Penolakan para pedagang pasar tradisional untuk menerima pembayaran transaksi menggunakan wesel pos pos giro."
       },
       {
         "key": "B",
@@ -3305,11 +3306,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penolakan para pedagang pasar tradisional untuk menerima pembayaran transaksi menggunakan wesel pos pos giro."
+        "text": "Kewajiban seluruh saudagar kain batik untuk mengekspor seluruh hasil produksinya ke pasar Uni Soviet."
       },
       {
         "key": "E",
-        "text": "Kewajiban seluruh saudagar kain batik untuk mengekspor seluruh hasil produksinya ke pasar Uni Soviet."
+        "text": "Penyitaan paksa seluruh perahu nelayan tradisional oleh kongsi pedagang rempah asal kepulauan Maluku."
       }
     ],
     "correctKey": "B",
@@ -3336,27 +3337,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penetapan wilayah Irian Barat sebagai koloni persemakmuran otonom kerajaan Belanda selama seratus tahun ke depan sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Penghapusan seluruh hak pilih penduduk asli pulau Papua dalam pemilihan umum badan perwakilan daerah."
       },
       {
         "key": "B",
-        "text": "Pemisahan wilayah Papua menjadi lima negara bagian independen di bawah perlindungan militer Pakta ANZUS."
+        "text": "Penetapan wilayah Irian Barat sebagai koloni persemakmuran otonom kerajaan Belanda selama seratus tahun ke depan."
       },
       {
         "key": "C",
-        "text": "Belanda menyerahkan administrasi Irian Barat kepada otoritas transisi PBB yaitu UNTEA (_United Nations Temporary Executive Authority_), yang selanjutnya menyerahkan wilayah tersebut kepada Republik Indonesia paling lambat 1 Mei 1963 disertai kewajiban menggelar Penentuan Pendapat Rakyat (Pepera)."
+        "text": "Pemisahan wilayah Papua menjadi lima negara bagian independen di bawah perlindungan militer Pakta ANZUS."
       },
       {
         "key": "D",
-        "text": "Kewajiban pemerintah Indonesia membagi dua hasil tambang emas Grasberg dengan kementerian luar negeri Australia."
+        "text": "Belanda menyerahkan administrasi Irian Barat kepada otoritas transisi PBB yaitu UNTEA (_United Nations Temporary Executive Authority_), yang selanjutnya menyerahkan wilayah tersebut kepada Republik Indonesia paling lambat 1 Mei 1963 disertai kewajiban menggelar Penentuan Pendapat Rakyat (Pepera)."
       },
       {
         "key": "E",
-        "text": "Penghapusan seluruh hak pilih penduduk asli pulau Papua dalam pemilihan umum badan perwakilan daerah."
+        "text": "Kewajiban pemerintah Indonesia membagi dua hasil tambang emas Grasberg dengan kementerian luar negeri Australia."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Belanda menyerahkan administrasi Irian Barat kepada otoritas transisi PBB yaitu UNTEA (_United Nations Temporary Executive Authority_), yang selanjutnya menyerahkan wilayah tersebut kepada Republik Indonesia paling lambat 1 Mei 1963 disertai kewajiban menggelar Penentuan Pendapat Rakyat (Pepera).. Perjanjian New York 1962 menetapkan Belanda menyerahkan Irian Barat ke UNTEA (PBB), lalu UNTEA menyerahkannya ke RI (1 Mei 1963) dengan syarat diadakan Pepera. Pilih opsi: Belanda menyerahkan Irian Barat kepada UNTEA, yang kemudian menyerahkannya ke RI disertai kewajiban menggelar Pepera."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Belanda menyerahkan administrasi Irian Barat kepada otoritas transisi PBB yaitu UNTEA (_United Nations Temporary Executive Authority_), yang selanjutnya menyerahkan wilayah tersebut kepada Republik Indonesia paling lambat 1 Mei 1963 disertai kewajiban menggelar Penentuan Pendapat Rakyat (Pepera).. Perjanjian New York 1962 menetapkan Belanda menyerahkan Irian Barat ke UNTEA (PBB), lalu UNTEA menyerahkannya ke RI (1 Mei 1963) dengan syarat diadakan Pepera. Pilih opsi: Belanda menyerahkan Irian Barat kepada UNTEA, yang kemudian menyerahkannya ke RI disertai kewajiban menggelar Pepera."
   },
   {
     "id": "sejl-sim-04",
@@ -3379,27 +3380,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memerintahkan massa rakyat melancarkan serangan serentak membakar seluruh tank baja militer Jepang di lapangan menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Menyerahkan teks naskah proklamasi kepada komando tentara Sekutu yang baru mendarat di pelabuhan Tanjung Priok."
-      },
-      {
-        "key": "C",
         "text": "Mengumumkan penundaan kemerdekaan hingga tiba keputusan resmi dari sidang dewan keamanan Perserikatan Bangsa-Bangsa."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menunjukkan kepada dunia dan tentara pendudukan Jepang bahwa kedaulatan pemerintah Republik Indonesia memiliki legitimasi dan kepatuhan penuh dari rakyat jelata, di mana Soekarno berhasil membubarkan massa secara damai dan tertib hanya dengan pidato singkat tanpa memicu pertumpahan darah massal."
+      },
+      {
+        "key": "C",
+        "text": "Menyerahkan teks naskah proklamasi kepada komando tentara Sekutu yang baru mendarat di pelabuhan Tanjung Priok."
+      },
+      {
+        "key": "D",
+        "text": "Memerintahkan massa rakyat melancarkan serangan serentak membakar seluruh tank baja militer Jepang di lapangan menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
         "text": "Menunjuk para jenderal militer kekaisaran Jepang untuk duduk sebagai menteri pertahanan dalam kabinet presidensial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menunjukkan kepada dunia dan tentara pendudukan Jepang bahwa kedaulatan pemerintah Republik Indonesia memiliki legitimasi dan kepatuhan penuh dari rakyat jelata, di mana Soekarno berhasil membubarkan massa secara damai dan tertib hanya dengan pidato singkat tanpa memicu pertumpahan darah massal.. Rapat Ikada 19 September 1945 membuktikan wibawa pemerintah RI: rakyat patuh pada Soekarno untuk pulang damai, menghindari pembantaian oleh tentara Jepang. Pilih: Menunjukkan pemerintah RI memiliki kepatuhan rakyat penuh, di mana Soekarno membubarkan massa damai tanpa pertumpahan darah."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menunjukkan kepada dunia dan tentara pendudukan Jepang bahwa kedaulatan pemerintah Republik Indonesia memiliki legitimasi dan kepatuhan penuh dari rakyat jelata, di mana Soekarno berhasil membubarkan massa secara damai dan tertib hanya dengan pidato singkat tanpa memicu pertumpahan darah massal.. Rapat Ikada 19 September 1945 membuktikan wibawa pemerintah RI: rakyat patuh pada Soekarno untuk pulang damai, menghindari pembantaian oleh tentara Jepang. Pilih: Menunjukkan pemerintah RI memiliki kepatuhan rakyat penuh, di mana Soekarno membubarkan massa damai tanpa pertumpahan darah."
   },
   {
     "id": "sejl-sim-05",
@@ -3422,27 +3423,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyatuan seluruh armada perahu phinisi Gowa ke dalam armada angkatan perang kekaisaran Dinasti Qing Tiongkok diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
-      },
-      {
-        "key": "B",
-        "text": "Pemberian mandat kepada raja Ternate untuk memungut bea cukai di sepanjang perairan Selat Makassar."
-      },
-      {
-        "key": "C",
         "text": "Kewajiban para bangsawan Makassar memeluk agama Kristen Protestan dan menetap di perumahan benteng Batavia."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Penghapusan seluruh hukum syariat Islam di wilayah jazirah Sulawesi Selatan oleh pendeta kerajaan Belanda."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Kewajiban menutup pelabuhan Somba Opu bagi seluruh pedagang asing non-Belanda, menyerahkan hak monopoli perdagangan rempah mutlak kepada VOC, serta meruntuhkan seluruh benteng pertahanan Gowa kecuali Benteng Ujung Pandang (Fort Rotterdam)."
+      },
+      {
+        "key": "D",
+        "text": "Pemberian mandat kepada raja Ternate untuk memungut bea cukai di sepanjang perairan Selat Makassar."
+      },
+      {
+        "key": "E",
+        "text": "Penyatuan seluruh armada perahu phinisi Gowa ke dalam armada angkatan perang kekaisaran Dinasti Qing Tiongkok."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kewajiban menutup pelabuhan Somba Opu bagi seluruh pedagang asing non-Belanda, menyerahkan hak monopoli perdagangan rempah mutlak kepada VOC, serta meruntuhkan seluruh benteng pertahanan Gowa kecuali Benteng Ujung Pandang (Fort Rotterdam).. Perjanjian Bongaya 1667 memaksa Hasanuddin mengakui monopoli VOC, menutup pelabuhan bagi pedagang asing selain VOC, dan meruntuhkan benteng pertahanan Gowa. Pilih opsi menutup pelabuhan bagi pedagang non-Belanda, monopoli rempah kepada VOC, dan meruntuhkan benteng pertahanan kecuali Fort Rotterdam."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kewajiban menutup pelabuhan Somba Opu bagi seluruh pedagang asing non-Belanda, menyerahkan hak monopoli perdagangan rempah mutlak kepada VOC, serta meruntuhkan seluruh benteng pertahanan Gowa kecuali Benteng Ujung Pandang (Fort Rotterdam).. Perjanjian Bongaya 1667 memaksa Hasanuddin mengakui monopoli VOC, menutup pelabuhan bagi pedagang asing selain VOC, dan meruntuhkan benteng pertahanan Gowa. Pilih opsi menutup pelabuhan bagi pedagang non-Belanda, monopoli rempah kepada VOC, dan meruntuhkan benteng pertahanan kecuali Fort Rotterdam."
   },
   {
     "id": "sejl-sim-06",
@@ -3465,15 +3466,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Meningkatnya eskalasi ancaman militer akibat pendaratan pasukan tentara Sekutu (AFNEI) yang diboncengi tentara NICA/Belanda yang bertekad menegakkan kembali kekuasaan kolonial di Indonesia dengan kekuatan senjata."
+        "text": "Perintah dari Markas Besar Perserikatan Bangsa-Bangsa agar Indonesia mengirim pasukan perdamaian ke semenanjung Sinai."
       },
       {
         "key": "B",
-        "text": "Perintah dari Markas Besar Perserikatan Bangsa-Bangsa agar Indonesia mengirim pasukan perdamaian ke semenanjung Sinai ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Meningkatnya eskalasi ancaman militer akibat pendaratan pasukan tentara Sekutu (AFNEI) yang diboncengi tentara NICA/Belanda yang bertekad menegakkan kembali kekuasaan kolonial di Indonesia dengan kekuatan senjata."
       },
       {
         "key": "C",
-        "text": "Tuntutan para perwira tentara kekaisaran Jepang agar senjata mereka dibeli dengan mata uang emas batangan."
+        "text": "Rencana pembubaran seluruh kementerian kabinet presidensial pertama bentukan Presiden Soekarno."
       },
       {
         "key": "D",
@@ -3481,11 +3482,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Rencana pembubaran seluruh kementerian kabinet presidensial pertama bentukan Presiden Soekarno."
+        "text": "Tuntutan para perwira tentara kekaisaran Jepang agar senjata mereka dibeli dengan mata uang emas batangan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Meningkatnya eskalasi ancaman militer akibat pendaratan pasukan tentara Sekutu (AFNEI) yang diboncengi tentara NICA/Belanda yang bertekad menegakkan kembali kekuasaan kolonial di Indonesia dengan kekuatan senjata.. TKR dibentuk pada 5 Oktober 1945 karena situasi darurat militer: Sekutu (AFNEI) dan NICA mendarat untuk mengembalikan penjajahan Belanda dengan kekerasan. Pilih: Meningkatnya eskalasi ancaman militer akibat kedatangan tentara Sekutu (AFNEI) yang diboncengi tentara NICA."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Meningkatnya eskalasi ancaman militer akibat pendaratan pasukan tentara Sekutu (AFNEI) yang diboncengi tentara NICA/Belanda yang bertekad menegakkan kembali kekuasaan kolonial di Indonesia dengan kekuatan senjata.. TKR dibentuk pada 5 Oktober 1945 karena situasi darurat militer: Sekutu (AFNEI) dan NICA mendarat untuk mengembalikan penjajahan Belanda dengan kekerasan. Pilih: Meningkatnya eskalasi ancaman militer akibat kedatangan tentara Sekutu (AFNEI) yang diboncengi tentara NICA."
   },
   {
     "id": "sejl-sim-07",
@@ -3508,27 +3509,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keinginan pemerintah Indonesia untuk menguasai seluruh cadangan minyak bumi dan gas alam di lepas pantai Brunei Darussalam ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Tuntutan para pengusaha karet alam Sumatera agar pelabuhan Singapura ditutup secara permanen bagi pelayaran niaga."
       },
       {
         "key": "B",
-        "text": "Keyakinan bahwa pembentukan Federasi Malaysia merupakan proyek 'Neokolonialisme dan Imperialisme' (Nekolim) buatan Inggris yang dirancang untuk mengepung kedaulatan Republik Indonesia dan melestarikan pangkalan militer Barat di Asia Tenggara."
-      },
-      {
-        "key": "C",
         "text": "Penolakan parlemen Malaysia terhadap penggunaan bahasa Melayu sebagai bahasa resmi pergaulan antarnegara rumpun serumpun."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Perjanjian rahasia antara perwira militer Indonesia dengan pemerintah komunis Kuba untuk mendirikan pangkalan angkatan laut di Selat Malaka."
       },
       {
+        "key": "D",
+        "text": "Keyakinan bahwa pembentukan Federasi Malaysia merupakan proyek 'Neokolonialisme dan Imperialisme' (Nekolim) buatan Inggris yang dirancang untuk mengepung kedaulatan Republik Indonesia dan melestarikan pangkalan militer Barat di Asia Tenggara."
+      },
+      {
         "key": "E",
-        "text": "Tuntutan para pengusaha karet alam Sumatera agar pelabuhan Singapura ditutup secara permanen bagi pelayaran niaga."
+        "text": "Keinginan pemerintah Indonesia untuk menguasai seluruh cadangan minyak bumi dan gas alam di lepas pantai Brunei Darussalam."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Keyakinan bahwa pembentukan Federasi Malaysia merupakan proyek 'Neokolonialisme dan Imperialisme' (Nekolim) buatan Inggris yang dirancang untuk mengepung kedaulatan Republik Indonesia dan melestarikan pangkalan militer Barat di Asia Tenggara.. Soekarno menentang pembentukan Malaysia karena menganggapnya sebagai proyek 'Nekolim' (neokolonialisme) Inggris yang menjadi pangkalan ancaman bagi Indonesia. Pilih: Keyakinan bahwa Federasi Malaysia adalah proyek Neokolonialisme Inggris (Nekolim) untuk mengepung kedaulatan RI."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Keyakinan bahwa pembentukan Federasi Malaysia merupakan proyek 'Neokolonialisme dan Imperialisme' (Nekolim) buatan Inggris yang dirancang untuk mengepung kedaulatan Republik Indonesia dan melestarikan pangkalan militer Barat di Asia Tenggara.. Soekarno menentang pembentukan Malaysia karena menganggapnya sebagai proyek 'Nekolim' (neokolonialisme) Inggris yang menjadi pangkalan ancaman bagi Indonesia. Pilih: Keyakinan bahwa Federasi Malaysia adalah proyek Neokolonialisme Inggris (Nekolim) untuk mengepung kedaulatan RI."
   },
   {
     "id": "sejl-sim-08",
@@ -3551,7 +3552,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyerahan kedaulatan mutlak seluruh bekas Hindia Belanda dari Sabang sampai Merauke kepada kabinet Sjahrir sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Penyerahan kedaulatan mutlak seluruh bekas Hindia Belanda dari Sabang sampai Merauke kepada kabinet Sjahrir."
       },
       {
         "key": "B",
@@ -3559,19 +3560,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Pemerintah Belanda mengakui secara _de facto_ wilayah kekuasaan Republik Indonesia hanya meliputi wilayah Jawa, Madura, dan Sumatera."
+        "text": "Kewajiban bagi TNI untuk menyerahkan seluruh meriam rampasan perang kepada markas besar tentara Gurkha."
       },
       {
         "key": "D",
-        "text": "Kewajiban bagi TNI untuk menyerahkan seluruh meriam rampasan perang kepada markas besar tentara Gurkha."
+        "text": "Pemerintah Belanda mengakui secara _de facto_ wilayah kekuasaan Republik Indonesia hanya meliputi wilayah Jawa, Madura, dan Sumatera."
       },
       {
         "key": "E",
         "text": "Penetapan mata uang gulden Belanda sebagai satu-satunya alat pembayaran yang sah di seluruh kepulauan Indonesia."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pemerintah Belanda mengakui secara _de facto_ wilayah kekuasaan Republik Indonesia hanya meliputi wilayah Jawa, Madura, dan Sumatera.. Perjanjian Linggarjati mengakui wilayah de facto RI secara terbatas, yaitu hanya Jawa, Madura, dan Sumatera. Pilih opsi: Pengakuan de facto wilayah RI hanya meliputi Jawa, Madura, dan Sumatera."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pemerintah Belanda mengakui secara _de facto_ wilayah kekuasaan Republik Indonesia hanya meliputi wilayah Jawa, Madura, dan Sumatera.. Perjanjian Linggarjati mengakui wilayah de facto RI secara terbatas, yaitu hanya Jawa, Madura, dan Sumatera. Pilih opsi: Pengakuan de facto wilayah RI hanya meliputi Jawa, Madura, dan Sumatera."
   },
   {
     "id": "sejl-sim-09",
@@ -3594,27 +3595,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdamparnya kapal selam bertenaga nuklir milik Uni Soviet di lepas pantai teluk Manado tanpa awak kapal menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Ditemukannya peti-peti amunisi buatan pabrik senjata kekaisaran Austro-Hungaria di pedalaman hutan Bukit Barisan."
-      },
-      {
-        "key": "C",
-        "text": "Tertangkapnya perwira komando angkatan darat kerajaan Belanda saat menyamar sebagai saudagar kain sutra di pasar Bukittinggi."
-      },
-      {
-        "key": "D",
         "text": "Ditembak jatuhnya pesawat pembom B-26 Invader milik pemberontak di perairan Ambon oleh tembakan TNI yang dipiloti oleh agen rahasia CIA asal Amerika Serikat bernama Allen Lawrence Pope pada 18 Mei 1958."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Tertangkapnya perwira komando angkatan darat kerajaan Belanda saat menyamar sebagai saudagar kain sutra di pasar Bukittinggi."
+      },
+      {
+        "key": "C",
+        "text": "Ditemukannya peti-peti amunisi buatan pabrik senjata kekaisaran Austro-Hungaria di pedalaman hutan Bukit Barisan."
+      },
+      {
+        "key": "D",
         "text": "Pengakuan menteri luar negeri Jepang di forum PBB bahwa mereka mengirim tentara bayaran ke Minahasa."
+      },
+      {
+        "key": "E",
+        "text": "Terdamparnya kapal selam bertenaga nuklir milik Uni Soviet di lepas pantai teluk Manado tanpa awak kapal menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ditembak jatuhnya pesawat pembom B-26 Invader milik pemberontak di perairan Ambon oleh tembakan TNI yang dipiloti oleh agen rahasia CIA asal Amerika Serikat bernama Allen Lawrence Pope pada 18 Mei 1958.. Bukti keterlibatan CIA Amerika Serikat pada PRRI/Permesta terbongkar saat pesawat bomber B-26 yang dipiloti agen CIA Allen Pope ditembak jatuh di Ambon (18 Mei 1958). Pilih opsi ditembak jatuhnya pesawat bomber B-26 di perairan Ambon yang dipiloti agen CIA Allen Lawrence Pope."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Ditembak jatuhnya pesawat pembom B-26 Invader milik pemberontak di perairan Ambon oleh tembakan TNI yang dipiloti oleh agen rahasia CIA asal Amerika Serikat bernama Allen Lawrence Pope pada 18 Mei 1958.. Bukti keterlibatan CIA Amerika Serikat pada PRRI/Permesta terbongkar saat pesawat bomber B-26 yang dipiloti agen CIA Allen Pope ditembak jatuh di Ambon (18 Mei 1958). Pilih opsi ditembak jatuhnya pesawat bomber B-26 di perairan Ambon yang dipiloti agen CIA Allen Lawrence Pope."
   },
   {
     "id": "sejl-sim-10",
@@ -3637,15 +3638,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mendorong Dewan Keamanan PBB mengirim pasukan multinasional untuk menduduki seluruh instalasi kementerian di Jakarta diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Mendorong Dewan Keamanan PBB mengirim pasukan multinasional untuk menduduki seluruh instalasi kementerian di Jakarta."
       },
       {
         "key": "B",
-        "text": "Mengakibatkan dibatalkannya seluruh jadwal penerbangan komersial internasional di kawasan Asia Tenggara selama satu tahun."
+        "text": "Memaksa para pemilik modal perbankan swasta menutup seluruh kantor cabang bank mereka di luar negeri."
       },
       {
         "key": "C",
-        "text": "Memaksa para pemilik modal perbankan swasta menutup seluruh kantor cabang bank mereka di luar negeri."
+        "text": "Mengakibatkan dibatalkannya seluruh jadwal penerbangan komersial internasional di kawasan Asia Tenggara selama satu tahun."
       },
       {
         "key": "D",
@@ -3684,11 +3685,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Penghapusan seluruh hak asasi manusia warga negara dalam mengemukakan pendapat di muka umum ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Penghapusan seluruh hak asasi manusia warga negara dalam mengemukakan pendapat di muka umum."
       },
       {
         "key": "C",
-        "text": "Penyerahan hak pengangkatan menteri negara kepada pertimbangan para perwira dewan pertahanan militer."
+        "text": "Penerapan sistem monarki konstitusional di mana presiden dipilih seumur hidup oleh dewan penasihat istana."
       },
       {
         "key": "D",
@@ -3696,7 +3697,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Penerapan sistem monarki konstitusional di mana presiden dipilih seumur hidup oleh dewan penasihat istana."
+        "text": "Penyerahan hak pengangkatan menteri negara kepada pertimbangan para perwira dewan pertahanan militer."
       }
     ],
     "correctKey": "A",
@@ -3723,27 +3724,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pasukan ksatria penakluk asal India menginvasi pulau Jawa dengan kekuatan senjata perang gajah lalu mendirikan koloni penindas ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
         "text": "Kaum terpelajar dan pemuda dari kepulauan Nusantara secara aktif berlayar ke India untuk menimba ilmu agama dan filsafat di pusat-pusat keilmuan seperti Universitas Nalanda, lalu kembali ke tanah air untuk mengajarkan dan menyebarkan ajaran tersebut kepada masyarakatnya."
       },
       {
+        "key": "B",
+        "text": "Pasukan ksatria penakluk asal India menginvasi pulau Jawa dengan kekuatan senjata perang gajah lalu mendirikan koloni penindas."
+      },
+      {
         "key": "C",
-        "text": "Para saudagar kasta Waisya memaksakan pernikahan dagang dengan putri-putri kepala suku di seluruh pedalaman Sumatera."
+        "text": "Para biksu India diculik oleh para bajak laut Selat Sunda dan dipaksa menuliskan prasasti batu menggunakan huruf Pallawa."
       },
       {
         "key": "D",
-        "text": "Para biksu India diculik oleh para bajak laut Selat Sunda dan dipaksa menuliskan prasasti batu menggunakan huruf Pallawa."
+        "text": "Para saudagar kasta Waisya memaksakan pernikahan dagang dengan putri-putri kepala suku di seluruh pedalaman Sumatera."
       },
       {
         "key": "E",
         "text": "Kaisar India mengeluarkan dekrit kerajaan yang mewajibkan seluruh penduduk kepulauan Asia Tenggara membayar upeti beras."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kaum terpelajar dan pemuda dari kepulauan Nusantara secara aktif berlayar ke India untuk menimba ilmu agama dan filsafat di pusat-pusat keilmuan seperti Universitas Nalanda, lalu kembali ke tanah air untuk mengajarkan dan menyebarkan ajaran tersebut kepada masyarakatnya.. Teori Arus Balik F.D.K. Bosch menekankan peran aktif pemuda Nusantara yang belajar ke India (seperti Nalanda), lalu pulang menyebarkan ilmunya. Pilih opsi pemuda Nusantara secara aktif berlayar belajar ke India (Universitas Nalanda) lalu pulang menyebarkan ajaran di tanah air."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kaum terpelajar dan pemuda dari kepulauan Nusantara secara aktif berlayar ke India untuk menimba ilmu agama dan filsafat di pusat-pusat keilmuan seperti Universitas Nalanda, lalu kembali ke tanah air untuk mengajarkan dan menyebarkan ajaran tersebut kepada masyarakatnya.. Teori Arus Balik F.D.K. Bosch menekankan peran aktif pemuda Nusantara yang belajar ke India (seperti Nalanda), lalu pulang menyebarkan ilmunya. Pilih opsi pemuda Nusantara secara aktif berlayar belajar ke India (Universitas Nalanda) lalu pulang menyebarkan ajaran di tanah air."
   },
   {
     "id": "sejl-sim-13",
@@ -3766,7 +3767,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pencurian seluruh pohon cengkih purba di lereng Gunung Gamalama oleh tentara angkatan laut Spanyol sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Penerbitan surat izin monopoli rempah-rempah yang ditandatangani oleh Paus di Roma untuk pedagang Inggris."
       },
       {
         "key": "B",
@@ -3774,19 +3775,19 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Pembunuhan licik dan keji terhadap ayahandanya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng sesaat setelah kedua belah pihak mengucapkan sumpah persahabatan damai."
-      },
-      {
-        "key": "D",
         "text": "Tenggelamnya kapal layar permaisuri sultan di perairan Laut Maluku akibat hantaman badai topan tropis."
       },
       {
+        "key": "D",
+        "text": "Pembunuhan licik dan keji terhadap ayahandanya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng sesaat setelah kedua belah pihak mengucapkan sumpah persahabatan damai."
+      },
+      {
         "key": "E",
-        "text": "Penerbitan surat izin monopoli rempah-rempah yang ditandatangani oleh Paus di Roma untuk pedagang Inggris."
+        "text": "Pencurian seluruh pohon cengkih purba di lereng Gunung Gamalama oleh tentara angkatan laut Spanyol."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pembunuhan licik dan keji terhadap ayahandanya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng sesaat setelah kedua belah pihak mengucapkan sumpah persahabatan damai.. Sultan Baabullah mengepung benteng Portugis selama 5 tahun hingga terusir pada 1575 karena ayahnya, Sultan Khairun, dibunuh secara licik di benteng Portugis. Pilih: Pembunuhan licik terhadap ayahnya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pembunuhan licik dan keji terhadap ayahandanya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng sesaat setelah kedua belah pihak mengucapkan sumpah persahabatan damai.. Sultan Baabullah mengepung benteng Portugis selama 5 tahun hingga terusir pada 1575 karena ayahnya, Sultan Khairun, dibunuh secara licik di benteng Portugis. Pilih: Pembunuhan licik terhadap ayahnya, Sultan Khairun, oleh gubernur Portugis Diogo Lopes de Mesquita di dalam benteng."
   },
   {
     "id": "sejl-sim-14",
@@ -3809,27 +3810,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempermudah pengangkutan turis liburan keluarga bangsawan Eropa menuju tempat peristirahatan di pegunungan Dieng menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
-      },
-      {
-        "key": "B",
-        "text": "Membangun jalur balap kereta kuda internasional untuk menarik penanaman modal perbankan dari Amerika Utara."
-      },
-      {
-        "key": "C",
         "text": "Menghubungkan seluruh istana kesultanan tradisional agar para pangeran keraton dapat mengadakan upacara pernikahan bersama."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Mempercepat mobilisasi pasukan tentara dan logistik militer di sepanjang Pulau Jawa guna mempertahankan tanah Jawa dari kemungkinan serangan invasi armada laut kerajaan Inggris (Britania Raya)."
+      },
+      {
+        "key": "C",
+        "text": "Membangun jalur balap kereta kuda internasional untuk menarik penanaman modal perbankan dari Amerika Utara."
+      },
+      {
+        "key": "D",
+        "text": "Mempermudah pengangkutan turis liburan keluarga bangsawan Eropa menuju tempat peristirahatan di pegunungan Dieng menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
         "text": "Menyediakan rute jalan kaki khusus bagi para pekerja migran yang ingin berziarah ke makam-makam wali sanga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mempercepat mobilisasi pasukan tentara dan logistik militer di sepanjang Pulau Jawa guna mempertahankan tanah Jawa dari kemungkinan serangan invasi armada laut kerajaan Inggris (Britania Raya).. Daendels membangun Jalan Raya Pos Anyer-Panarukan untuk kepentingan pertahanan militer: mempermudah mobilitas pasukan menahan invasi armada Inggris. Pilih opsi: Mempercepat mobilisasi pasukan dan logistik militer untuk mempertahankan Jawa dari serangan invasi armada laut Inggris."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mempercepat mobilisasi pasukan tentara dan logistik militer di sepanjang Pulau Jawa guna mempertahankan tanah Jawa dari kemungkinan serangan invasi armada laut kerajaan Inggris (Britania Raya).. Daendels membangun Jalan Raya Pos Anyer-Panarukan untuk kepentingan pertahanan militer: mempermudah mobilitas pasukan menahan invasi armada Inggris. Pilih opsi: Mempercepat mobilisasi pasukan dan logistik militer untuk mempertahankan Jawa dari serangan invasi armada laut Inggris."
   },
   {
     "id": "sejl-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keinginan Bung Hatta untuk kembali memimpin pergerakan laskar gerilya bersenjata di pegunungan Sumatera Barat diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Keinginan Bung Hatta untuk kembali memimpin pergerakan laskar gerilya bersenjata di pegunungan Sumatera Barat."
       },
       {
         "key": "B",
-        "text": "Penolakan kabinet kementerian terhadap rencana Bung Hatta menerbitkan buku teks tata bahasa ekonomi kerakyatan."
-      },
-      {
-        "key": "C",
         "text": "Sengketa kepemilikan tanah perkebunan teh di kawasan lereng Gunung Salak antara keluarga kedua tokoh proklamator."
       },
       {
+        "key": "C",
+        "text": "Penolakan kabinet kementerian terhadap rencana Bung Hatta menerbitkan buku teks tata bahasa ekonomi kerakyatan."
+      },
+      {
         "key": "D",
-        "text": "Tuntutan dewan jenderal angkatan laut agar jabatan wakil presiden dialihkan kepada perwira aktif militer."
+        "text": "Perbedaan pandangan yang kian tajam mengenai arah demokrasi di mana Bung Karno semakin condong ke arah Demokrasi Terpimpin yang menyertakan PKI dan memusatkan kekuasaan pada figur presiden, sementara Bung Hatta tetap berpegang teguh pada supremasi hukum demokrasi parlementer dan menolak keterlibatan komunisme."
       },
       {
         "key": "E",
-        "text": "Perbedaan pandangan yang kian tajam mengenai arah demokrasi di mana Bung Karno semakin condong ke arah Demokrasi Terpimpin yang menyertakan PKI dan memusatkan kekuasaan pada figur presiden, sementara Bung Hatta tetap berpegang teguh pada supremasi hukum demokrasi parlementer dan menolak keterlibatan komunisme."
+        "text": "Tuntutan dewan jenderal angkatan laut agar jabatan wakil presiden dialihkan kepada perwira aktif militer."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Perbedaan pandangan yang kian tajam mengenai arah demokrasi di mana Bung Karno semakin condong ke arah Demokrasi Terpimpin yang menyertakan PKI dan memusatkan kekuasaan pada figur presiden, sementara Bung Hatta tetap berpegang teguh pada supremasi hukum demokrasi parlementer dan menolak keterlibatan komunisme.. Bung Hatta mundur karena menolak arah Demokrasi Terpimpin Soekarno yang otoriter dan menyertakan PKI, serta berbeda pandangan tentang tata negara dan hukum. Pilih perbedaan tajam mengenai arah demokrasi di mana Soekarno condong ke Demokrasi Terpimpin & PKI sementara Hatta konsisten pada supremasi hukum demokrasi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Perbedaan pandangan yang kian tajam mengenai arah demokrasi di mana Bung Karno semakin condong ke arah Demokrasi Terpimpin yang menyertakan PKI dan memusatkan kekuasaan pada figur presiden, sementara Bung Hatta tetap berpegang teguh pada supremasi hukum demokrasi parlementer dan menolak keterlibatan komunisme.. Bung Hatta mundur karena menolak arah Demokrasi Terpimpin Soekarno yang otoriter dan menyertakan PKI, serta berbeda pandangan tentang tata negara dan hukum. Pilih perbedaan tajam mengenai arah demokrasi di mana Soekarno condong ke Demokrasi Terpimpin & PKI sementara Hatta konsisten pada supremasi hukum demokrasi."
   },
   {
     "id": "sejl-sim-16",
@@ -3895,27 +3896,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kritik keras terhadap dominasi modal asing (terutama korporasi Jepang) yang dianggap mematikan pengusaha lokal serta kecaman atas gurita kekuasaan para Asisten Pribadi (Aspri) Presiden yang korup di lingkaran dalam Istana."
+        "text": "Keinginan kaum muda untuk membubarkan seluruh organisasi serikat pramuka kepanduan nasional."
       },
       {
         "key": "B",
-        "text": "Tuntutan agar pemerintah Orde Baru membeli seluruh obligasi surat utang perbankan pemerintah Uni Soviet ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Penolakan terhadap penyelenggaraan pekan olahraga nasional di kompleks stadion Gelora Bung Karno."
       },
       {
+        "key": "C",
+        "text": "Kritik keras terhadap dominasi modal asing (terutama korporasi Jepang) yang dianggap mematikan pengusaha lokal serta kecaman atas gurita kekuasaan para Asisten Pribadi (Aspri) Presiden yang korup di lingkaran dalam Istana."
+      },
+      {
         "key": "D",
-        "text": "Permintaan agar bahasa Jepang diwajibkan menjadi bahasa pengantar di seluruh perguruan tinggi negeri."
+        "text": "Tuntutan agar pemerintah Orde Baru membeli seluruh obligasi surat utang perbankan pemerintah Uni Soviet."
       },
       {
         "key": "E",
-        "text": "Keinginan kaum muda untuk membubarkan seluruh organisasi serikat pramuka kepanduan nasional."
+        "text": "Permintaan agar bahasa Jepang diwajibkan menjadi bahasa pengantar di seluruh perguruan tinggi negeri."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kritik keras terhadap dominasi modal asing (terutama korporasi Jepang) yang dianggap mematikan pengusaha lokal serta kecaman atas gurita kekuasaan para Asisten Pribadi (Aspri) Presiden yang korup di lingkaran dalam Istana.. Peristiwa Malari 1974 dipicu kritik terhadap dominasi modal asing (Jepang) dan kekuasaan para Asisten Pribadi (Aspri) Presiden Soeharto yang dinilai korup. Pilih: Kritik keras terhadap dominasi modal asing (korporasi Jepang) serta kecaman atas kekuasaan Asisten Pribadi (Aspri) Presiden."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kritik keras terhadap dominasi modal asing (terutama korporasi Jepang) yang dianggap mematikan pengusaha lokal serta kecaman atas gurita kekuasaan para Asisten Pribadi (Aspri) Presiden yang korup di lingkaran dalam Istana.. Peristiwa Malari 1974 dipicu kritik terhadap dominasi modal asing (Jepang) dan kekuasaan para Asisten Pribadi (Aspri) Presiden Soeharto yang dinilai korup. Pilih: Kritik keras terhadap dominasi modal asing (korporasi Jepang) serta kecaman atas kekuasaan Asisten Pribadi (Aspri) Presiden."
   },
   {
     "id": "sejl-sim-17",
@@ -3938,27 +3939,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mahkamah Militer Luar Biasa untuk mengadili para perwira komando pertahanan yang melakukan pelanggaran disiplin ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "B",
-        "text": "Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen yang berwenang melakukan penyelidikan, penyidikan, dan penuntutan kasus korupsi luar biasa (_extraordinary crime_)."
-      },
-      {
-        "key": "C",
         "text": "Badan Arbitrase Nasional untuk menyelesaikan sengketa harga tanah warisan para bangsawan feodal keraton."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Mahkamah Militer Luar Biasa untuk mengadili para perwira komando pertahanan yang melakukan pelanggaran disiplin."
+      },
+      {
+        "key": "C",
         "text": "Komite Sensor Nasional untuk mengawasi dan menyaring seluruh tayangan film komersial layar lebar."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Dewan Stabilitas Moneter untuk menentukan besaran suku bunga kredit pinjaman bagi para pemilik modal asing."
+      },
+      {
+        "key": "E",
+        "text": "Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen yang berwenang melakukan penyelidikan, penyidikan, dan penuntutan kasus korupsi luar biasa (_extraordinary crime_)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen yang berwenang melakukan penyelidikan, penyidikan, dan penuntutan kasus korupsi luar biasa (_extraordinary crime_).. UU No. 30/2002 pada era Presiden Megawati melahirkan Komisi Pemberantasan Korupsi (KPK) sebagai lembaga independen pemberantas korupsi. Pilih opsi: Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen penyelidik, penyidik, dan penuntut korupsi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen yang berwenang melakukan penyelidikan, penyidikan, dan penuntutan kasus korupsi luar biasa (_extraordinary crime_).. UU No. 30/2002 pada era Presiden Megawati melahirkan Komisi Pemberantasan Korupsi (KPK) sebagai lembaga independen pemberantas korupsi. Pilih opsi: Komisi Pemberantasan Tindak Pidana Korupsi (KPK) sebagai lembaga independen penyelidik, penyidik, dan penuntut korupsi."
   },
   {
     "id": "sejl-sim-18",
@@ -3981,11 +3982,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Serangan armada kapal induk angkatan laut Jepang ke pangkalan pelabuhan militer Vladivostok di Samudra Pasifik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Serangan armada kapal induk angkatan laut Jepang ke pangkalan pelabuhan militer Vladivostok di Samudra Pasifik."
       },
       {
         "key": "B",
-        "text": "Penolakan pemerintah kerajaan Mesir untuk membagikan deviden tarif Terusan Suez kepada perbankan Uni Soviet."
+        "text": "Rencana pembangunan stasiun satelit orbit angkasa luar bersama antara Amerika Serikat dan kekaisaran Ethiopia."
       },
       {
         "key": "C",
@@ -3993,11 +3994,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rencana pembangunan stasiun satelit orbit angkasa luar bersama antara Amerika Serikat dan kekaisaran Ethiopia."
+        "text": "Penyatuan mata uang franc Perancis dengan mata uang mark Jerman dalam pasar bersama benua Eropa."
       },
       {
         "key": "E",
-        "text": "Penyatuan mata uang franc Perancis dengan mata uang mark Jerman dalam pasar bersama benua Eropa."
+        "text": "Penolakan pemerintah kerajaan Mesir untuk membagikan deviden tarif Terusan Suez kepada perbankan Uni Soviet."
       }
     ],
     "correctKey": "C",
@@ -4024,27 +4025,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyatuan seluruh semenanjung Korea di bawah kepemimpinan presiden terpilih secara demokratis di Seoul menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Pembubaran seluruh pangkalan militer Amerika Serikat di kawasan Asia Timur dan penarikan pasukan sekutu."
       },
       {
         "key": "B",
-        "text": "Peleburan seluruh kekuatan militer semenanjung Korea ke dalam armada komando pasukan perdamaian PBB."
-      },
-      {
-        "key": "C",
-        "text": "Penyerahan kepemilikan kepulauan Jeju kepada kekaisaran Jepang sebagai kompensasi ganti rugi perang."
-      },
-      {
-        "key": "D",
         "text": "Pembentukan Zona Demiliterisasi (DMZ) selebar 4 km di sekitar Garis Lintang Paralel 38 derajat Utara sebagai garis batas gencatan senjata permanen tanpa adanya penandatanganan perjanjian damai definitif."
       },
       {
+        "key": "C",
+        "text": "Peleburan seluruh kekuatan militer semenanjung Korea ke dalam armada komando pasukan perdamaian PBB."
+      },
+      {
+        "key": "D",
+        "text": "Penyatuan seluruh semenanjung Korea di bawah kepemimpinan presiden terpilih secara demokratis di Seoul menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+      },
+      {
         "key": "E",
-        "text": "Pembubaran seluruh pangkalan militer Amerika Serikat di kawasan Asia Timur dan penarikan pasukan sekutu."
+        "text": "Penyerahan kepemilikan kepulauan Jeju kepada kekaisaran Jepang sebagai kompensasi ganti rugi perang."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pembentukan Zona Demiliterisasi (DMZ) selebar 4 km di sekitar Garis Lintang Paralel 38 derajat Utara sebagai garis batas gencatan senjata permanen tanpa adanya penandatanganan perjanjian damai definitif.. Perang Korea berakhir dengan kesepakatan gencatan senjata di Panmunjom (1953) yang menetapkan DMZ di Garis Paralel 38 tanpa traktat perdamaian definitif. Pilih pembentukan Zona Demiliterisasi (DMZ) di Garis Paralel 38° Utara tanpa perjanjian damai definitif."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pembentukan Zona Demiliterisasi (DMZ) selebar 4 km di sekitar Garis Lintang Paralel 38 derajat Utara sebagai garis batas gencatan senjata permanen tanpa adanya penandatanganan perjanjian damai definitif.. Perang Korea berakhir dengan kesepakatan gencatan senjata di Panmunjom (1953) yang menetapkan DMZ di Garis Paralel 38 tanpa traktat perdamaian definitif. Pilih pembentukan Zona Demiliterisasi (DMZ) di Garis Paralel 38° Utara tanpa perjanjian damai definitif."
   },
   {
     "id": "sejl-sim-20",
@@ -4067,27 +4068,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemberian mandat penuh kepada tentara Mesir untuk menduduki seluruh kota pelabuhan Tel Aviv diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Pemberian mandat penuh kepada tentara Mesir untuk menduduki seluruh kota pelabuhan Tel Aviv."
       },
       {
         "key": "B",
-        "text": "Pembentukan sistem mata uang bersama dinar-shekel untuk seluruh transaksi perdagangan di Laut Mati."
-      },
-      {
-        "key": "C",
-        "text": "Penyatuan angkatan udara kedua negara untuk bersama-sama melancarkan serangan terhadap imperium Turki."
-      },
-      {
-        "key": "D",
         "text": "Penghapusan seluruh perbatasan internasional dan penyerahan tanah Palestina kepada komisi perlindungan PBB."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Penandatanganan traktat perdamaian resmi pertama antara negara Arab (Mesir) dengan Israel, di mana Israel setuju mengembalikan seluruh Semenanjung Sinai kepada Mesir dan Mesir secara resmi mengakui kedaulatan negara Israel serta membuka Terusan Suez bagi kapal Israel."
+      },
+      {
+        "key": "D",
+        "text": "Pembentukan sistem mata uang bersama dinar-shekel untuk seluruh transaksi perdagangan di Laut Mati."
+      },
+      {
+        "key": "E",
+        "text": "Penyatuan angkatan udara kedua negara untuk bersama-sama melancarkan serangan terhadap imperium Turki."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Penandatanganan traktat perdamaian resmi pertama antara negara Arab (Mesir) dengan Israel, di mana Israel setuju mengembalikan seluruh Semenanjung Sinai kepada Mesir dan Mesir secara resmi mengakui kedaulatan negara Israel serta membuka Terusan Suez bagi kapal Israel.. Camp David 1978 adalah perjanjian damai pertama negara Arab (Mesir) dengan Israel: Sinai dikembalikan ke Mesir dan Mesir mengakui kedaulatan Israel. Pilih: Traktat damai pertama negara Arab (Mesir) dengan Israel: Sinai dikembalikan dan Mesir mengakui kedaulatan Israel."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Penandatanganan traktat perdamaian resmi pertama antara negara Arab (Mesir) dengan Israel, di mana Israel setuju mengembalikan seluruh Semenanjung Sinai kepada Mesir dan Mesir secara resmi mengakui kedaulatan negara Israel serta membuka Terusan Suez bagi kapal Israel.. Camp David 1978 adalah perjanjian damai pertama negara Arab (Mesir) dengan Israel: Sinai dikembalikan ke Mesir dan Mesir mengakui kedaulatan Israel. Pilih: Traktat damai pertama negara Arab (Mesir) dengan Israel: Sinai dikembalikan dan Mesir mengakui kedaulatan Israel."
   },
   {
     "id": "sejl-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Refleksi moral dan trauma mendalam atas kejahatan kemanusiaan luar biasa, genosida Holokaus, dan penindasan fasisme brutal yang melanda dunia selama Perang Dunia II, sehingga diperlukan standar etik global perlindungan martabat kemanusiaan."
+        "text": "Perintah penarikan seluruh buku undang-undang pidana nasional dan penggantiannya dengan piagam kerajaan Inggris."
       },
       {
         "key": "B",
-        "text": "Keinginan mendirikan satu agama tunggal dunia yang diwajibkan bagi seluruh bangsa tanpa terkecuali ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
-      },
-      {
-        "key": "C",
         "text": "Tuntutan serikat pekerja tambang emas di Afrika Selatan agar seluruh tambang dinasionalisasi oleh PBB."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kesepakatan pembagian zona penangkapan ikan paus di Samudra Arktik bagi negara-negara industri."
       },
       {
+        "key": "D",
+        "text": "Keinginan mendirikan satu agama tunggal dunia yang diwajibkan bagi seluruh bangsa tanpa terkecuali."
+      },
+      {
         "key": "E",
-        "text": "Perintah penarikan seluruh buku undang-undang pidana nasional dan penggantiannya dengan piagam kerajaan Inggris."
+        "text": "Refleksi moral dan trauma mendalam atas kejahatan kemanusiaan luar biasa, genosida Holokaus, dan penindasan fasisme brutal yang melanda dunia selama Perang Dunia II, sehingga diperlukan standar etik global perlindungan martabat kemanusiaan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Refleksi moral dan trauma mendalam atas kejahatan kemanusiaan luar biasa, genosida Holokaus, dan penindasan fasisme brutal yang melanda dunia selama Perang Dunia II, sehingga diperlukan standar etik global perlindungan martabat kemanusiaan.. UDHR 1948 dirumuskan PBB sebagai tanggapan atas kengerian dan genosida Perang Dunia II agar martabat manusia memiliki payung perlindungan universal. Pilih opsi refleksi trauma atas genosida Holokaus dan penindasan fasisme selama Perang Dunia II."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Refleksi moral dan trauma mendalam atas kejahatan kemanusiaan luar biasa, genosida Holokaus, dan penindasan fasisme brutal yang melanda dunia selama Perang Dunia II, sehingga diperlukan standar etik global perlindungan martabat kemanusiaan.. UDHR 1948 dirumuskan PBB sebagai tanggapan atas kengerian dan genosida Perang Dunia II agar martabat manusia memiliki payung perlindungan universal. Pilih opsi refleksi trauma atas genosida Holokaus dan penindasan fasisme selama Perang Dunia II."
   },
   {
     "id": "sejl-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemberian pinjaman uang emas tanpa bunga oleh pemerintah kolonial kepada seluruh keluarga buruh tani miskin ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan ditinjau dari kronologi peristiwa sejarah nasional dan dinamika geopolitik kawasan."
+        "text": "Pengalihan seluruh mata uang gulden menjadi mata uang peso perak dalam perdagangan pasar lokal."
       },
       {
         "key": "B",
-        "text": "Kolapsnya industri gula pasir Jawa akibat anjloknya harga komoditas ekspor gula di pasar dunia dan penutupan pasar tujuan ekspor internasional, yang memaksa penutupan puluhan pabrik gula dan pemutusan hubungan kerja massal bagi ratusan ribu buruh tani."
-      },
-      {
-        "key": "C",
         "text": "Peningkatan volume ekspor kopi dan teh hingga sepuluh kali lipat ke pasar negara-negara Eropa Timur."
       },
       {
+        "key": "C",
+        "text": "Kolapsnya industri gula pasir Jawa akibat anjloknya harga komoditas ekspor gula di pasar dunia dan penutupan pasar tujuan ekspor internasional, yang memaksa penutupan puluhan pabrik gula dan pemutusan hubungan kerja massal bagi ratusan ribu buruh tani."
+      },
+      {
         "key": "D",
-        "text": "Penyitaan seluruh tanah perkebunan swasta oleh para sultan tradisional untuk dibagikan secara gratis."
+        "text": "Pemberian pinjaman uang emas tanpa bunga oleh pemerintah kolonial kepada seluruh keluarga buruh tani miskin."
       },
       {
         "key": "E",
-        "text": "Pengalihan seluruh mata uang gulden menjadi mata uang peso perak dalam perdagangan pasar lokal."
+        "text": "Penyitaan seluruh tanah perkebunan swasta oleh para sultan tradisional untuk dibagikan secara gratis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kolapsnya industri gula pasir Jawa akibat anjloknya harga komoditas ekspor gula di pasar dunia dan penutupan pasar tujuan ekspor internasional, yang memaksa penutupan puluhan pabrik gula dan pemutusan hubungan kerja massal bagi ratusan ribu buruh tani.. Zaman Malaise 1929 menghancurkan industri gula Jawa: harga dunia anjlok, ekspor terhenti, pabrik gula gulung tikar, dan kemiskinan merajalela. Pilih: Kolapsnya industri gula Jawa akibat anjloknya harga ekspor dunia, penutupan pabrik gula, dan PHK massal."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kolapsnya industri gula pasir Jawa akibat anjloknya harga komoditas ekspor gula di pasar dunia dan penutupan pasar tujuan ekspor internasional, yang memaksa penutupan puluhan pabrik gula dan pemutusan hubungan kerja massal bagi ratusan ribu buruh tani.. Zaman Malaise 1929 menghancurkan industri gula Jawa: harga dunia anjlok, ekspor terhenti, pabrik gula gulung tikar, dan kemiskinan merajalela. Pilih: Kolapsnya industri gula Jawa akibat anjloknya harga ekspor dunia, penutupan pabrik gula, dan PHK massal."
   },
   {
     "id": "sejl-sim-23",
@@ -4196,15 +4197,15 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolak seluruh fakta empiris di lapangan dan menggantinya dengan ramalan mistik jangka jayabaya sesuai dengan kaidah interpretasi eksplanasi kausalitas historis dan analisis sinkronik-diakronik."
+        "text": "Membedakan antara sebab pemicu langsung (_trigger/casus belli_) dengan sebab-sebab struktural mendalam (_underlying factors_) dalam rangka menyusun eksplanasi kausalitas multikausal."
       },
       {
         "key": "B",
-        "text": "Mengharuskan penulisan sejarah murni menggunakan bahasa Belanda kuno agar terlihat otentik."
+        "text": "Menolak seluruh fakta empiris di lapangan dan menggantinya dengan ramalan mistik jangka jayabaya."
       },
       {
         "key": "C",
-        "text": "Membedakan antara sebab pemicu langsung (_trigger/casus belli_) dengan sebab-sebab struktural mendalam (_underlying factors_) dalam rangka menyusun eksplanasi kausalitas multikausal."
+        "text": "Memandang bahwa setiap peperangan masa lalu selalu digerakkan oleh konspirasi tunggal agen rahasia."
       },
       {
         "key": "D",
@@ -4212,11 +4213,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memandang bahwa setiap peperangan masa lalu selalu digerakkan oleh konspirasi tunggal agen rahasia."
+        "text": "Mengharuskan penulisan sejarah murni menggunakan bahasa Belanda kuno agar terlihat otentik."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Membedakan antara sebab pemicu langsung (_trigger/casus belli_) dengan sebab-sebab struktural mendalam (_underlying factors_) dalam rangka menyusun eksplanasi kausalitas multikausal.. Pematokan tanah Tegalrejo adalah pemicu langsung (casus belli), sedangkan beban pajak dan masalah agraria adalah faktor struktural mendalam (multikausal). Pilih: Membedakan sebab pemicu langsung (casus belli) dengan sebab struktural mendalam dalam kausalitas multikausal."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Membedakan antara sebab pemicu langsung (_trigger/casus belli_) dengan sebab-sebab struktural mendalam (_underlying factors_) dalam rangka menyusun eksplanasi kausalitas multikausal.. Pematokan tanah Tegalrejo adalah pemicu langsung (casus belli), sedangkan beban pajak dan masalah agraria adalah faktor struktural mendalam (multikausal). Pilih: Membedakan sebab pemicu langsung (casus belli) dengan sebab struktural mendalam dalam kausalitas multikausal."
   },
   {
     "id": "sejl-sim-24",
@@ -4239,27 +4240,27 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghancurkan seluruh kompleks bangunan berarsitektur joglo dan mewajibkan pembangunan kubah bergaya Persia menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
+        "text": "Mengharuskan seluruh penduduk mengubah nama keluarga mereka ke dalam bahasa Yunani klasik."
       },
       {
         "key": "B",
-        "text": "Melarang seluruh masyarakat menyantap makanan tradisional dan mewajibkan impor buah kurma dari jazirah Arab."
-      },
-      {
-        "key": "C",
         "text": "Mengganti seluruh sistem hukum pidana adat dengan hukum perdata maritim kerajaan Romawi kuno."
       },
       {
+        "key": "C",
+        "text": "Melarang seluruh masyarakat menyantap makanan tradisional dan mewajibkan impor buah kurma dari jazirah Arab."
+      },
+      {
         "key": "D",
-        "text": "Memanfaatkan kesenian wayang kulit purwa dan gending gamelan Jawa (seperti tembang Ilir-Ilir dan Dandanggula) yang disisipi nilai-nilai tauhid dan ajaran Islam, serta tradisi Grebeg Maulud (Sekaten)."
+        "text": "Menghancurkan seluruh kompleks bangunan berarsitektur joglo dan mewajibkan pembangunan kubah bergaya Persia menurut sumber berita diplomasi internasional dan perjanjian traktat bilateral antarnegara."
       },
       {
         "key": "E",
-        "text": "Mengharuskan seluruh penduduk mengubah nama keluarga mereka ke dalam bahasa Yunani klasik."
+        "text": "Memanfaatkan kesenian wayang kulit purwa dan gending gamelan Jawa (seperti tembang Ilir-Ilir dan Dandanggula) yang disisipi nilai-nilai tauhid dan ajaran Islam, serta tradisi Grebeg Maulud (Sekaten)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Memanfaatkan kesenian wayang kulit purwa dan gending gamelan Jawa (seperti tembang Ilir-Ilir dan Dandanggula) yang disisipi nilai-nilai tauhid dan ajaran Islam, serta tradisi Grebeg Maulud (Sekaten).. Sunan Kalijaga terkenal dengan dakwah kultural: memanfaatkan media wayang kulit, tembang gamelan (Ilir-Ilir), dan Sekaten sebagai sarana dakwah. Pilih opsi pemanfaatan kesenian wayang kulit, tembang gending gamelan, dan perayaan Sekaten bermuatan nilai tauhid."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Memanfaatkan kesenian wayang kulit purwa dan gending gamelan Jawa (seperti tembang Ilir-Ilir dan Dandanggula) yang disisipi nilai-nilai tauhid dan ajaran Islam, serta tradisi Grebeg Maulud (Sekaten).. Sunan Kalijaga terkenal dengan dakwah kultural: memanfaatkan media wayang kulit, tembang gamelan (Ilir-Ilir), dan Sekaten sebagai sarana dakwah. Pilih opsi pemanfaatan kesenian wayang kulit, tembang gending gamelan, dan perayaan Sekaten bermuatan nilai tauhid."
   },
   {
     "id": "sejl-sim-25",
@@ -4282,11 +4283,11 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menerbitkan sertifikat kepemilikan saham pada seluruh bursa efek perbankan internasional di kota London diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa diturunkan dari analisis struktur sosio-historis dan kontinuitas perubahan peradaban bangsa."
+        "text": "Meminta persetujuan resmi dari seluruh gubernur jenderal koloni wilayah Pasifik di bawah kekuasaan Inggris."
       },
       {
         "key": "B",
-        "text": "Meminta persetujuan resmi dari seluruh gubernur jenderal koloni wilayah Pasifik di bawah kekuasaan Inggris."
+        "text": "Menghapuskan seluruh sistem perpajakan daerah dan membebaskan bea masuk bagi produk impor luar negeri."
       },
       {
         "key": "C",
@@ -4294,7 +4295,7 @@ window.TKA_SEJARAH_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menghapuskan seluruh sistem perpajakan daerah dan membebaskan bea masuk bagi produk impor luar negeri."
+        "text": "Menerbitkan sertifikat kepemilikan saham pada seluruh bursa efek perbankan internasional di kota London."
       },
       {
         "key": "E",

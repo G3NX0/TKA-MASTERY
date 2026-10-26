@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_REKAYASA_DESAIN_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_REKAYASA_DESAIN_QUESTIONS = [
   {
     "id": "tekd-lat-e-01",
@@ -20,15 +26,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Figure-Ground Organization, di mana mata audiens secara dinamis membedakan objek utama (figure) dengan latar belakang ruang negatif (ground) yang membentuk persepsi ganda bermakna."
+        "text": "Proximity (kedekatan spasial), di mana elemen-elemen grafis yang saling berdekatan selalu dikelompokkan oleh otak sebagai satu kesatuan unit fungsional yang homogen."
       },
       {
         "key": "B",
-        "text": "Proximity (kedekatan spasial), di mana elemen-elemen grafis yang saling berdekatan selalu dikelompokkan oleh otak sebagai satu kesatuan unit fungsional yang homogen demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Similarity (kesamaan bentuk), di mana elemen dengan warna dan tekstur identik dianggap memiliki fungsi yang setara dalam tata letak komposisi poster."
       },
       {
         "key": "C",
-        "text": "Similarity (kesamaan bentuk), di mana elemen dengan warna dan tekstur identik dianggap memiliki fungsi yang setara dalam tata letak komposisi poster."
+        "text": "Figure-Ground Organization, di mana mata audiens secara dinamis membedakan objek utama (figure) dengan latar belakang ruang negatif (ground) yang membentuk persepsi ganda bermakna."
       },
       {
         "key": "D",
@@ -39,8 +45,8 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
         "text": "Closure (penutupan bentuk), di mana ruang kosong secara otomatis diisi oleh otak untuk melengkapi bentuk geometris lingkaran yang terputus sebagian."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Figure-Ground menyatakan bahwa sistem visual manusia memisahkan bidang pandang menjadi figur utama dan latar belakang; desainer ulung memanfaatkan ilusi ini untuk menciptakan gambar ganda. Cabang pohon (figure hitam) dan celah putih (ground) bergantian ditangkap persepsi sebagai pohon dan wajah berhadapan. Jawaban: A."
+    "correctKey": "C",
+    "explanation": "Figure-Ground menyatakan bahwa sistem visual manusia memisahkan bidang pandang menjadi figur utama dan latar belakang; desainer ulung memanfaatkan ilusi ini untuk menciptakan gambar ganda. Cabang pohon (figure hitam) dan celah putih (ground) bergantian ditangkap persepsi sebagai pohon dan wajah berhadapan. Jawaban: C."
   },
   {
     "id": "tekd-lat-e-02",
@@ -63,27 +69,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Font serif menggunakan memori file digital yang jauh lebih kecil saat dikirim ke mesin cetak rotogravure."
-      },
-      {
-        "key": "B",
-        "text": "Kaki kait (serif) membentuk garis horizontal maya pada dasar huruf yang memandu mata pembaca meluncur lancar dari kiri ke kanan sepanjang baris teks yang padat."
-      },
-      {
-        "key": "C",
         "text": "Bentuk font berkaki memberikan kesan visual yang sangat modern, futuristik, dan minimalis pada tampilan layar smartphone."
       },
       {
+        "key": "B",
+        "text": "Kaki pada font serif berfungsi menyerap kelebihan tinta cair agar tidak meluber ke luar batas margin halaman."
+      },
+      {
+        "key": "C",
+        "text": "Font serif memiliki ketebalan stroke yang seragam sehingga tidak memerlukan proses rasterisasi saat dicetak pada kertas koran Gestalt."
+      },
+      {
         "key": "D",
-        "text": "Font serif memiliki ketebalan stroke yang seragam sehingga tidak memerlukan proses rasterisasi saat dicetak pada kertas koran sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Kaki kait (serif) membentuk garis horizontal maya pada dasar huruf yang memandu mata pembaca meluncur lancar dari kiri ke kanan sepanjang baris teks yang padat."
       },
       {
         "key": "E",
-        "text": "Kaki pada font serif berfungsi menyerap kelebihan tinta cair agar tidak meluber ke luar batas margin halaman."
+        "text": "Font serif menggunakan memori file digital yang jauh lebih kecil saat dikirim ke mesin cetak rotogravure."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Serif pada tipografi cetak konvensional mempermudah kontinuitas visual (eye tracking) dengan menyatukan huruf-huruf menjadi kesatuan kata dan garis lurus horizontal. Cari jawaban yang menjelaskan keterbacaan (readability) berbasis garis pandu horizontal untuk mata pembaca majalah/buku. Jawaban: B."
+    "correctKey": "D",
+    "explanation": "Serif pada tipografi cetak konvensional mempermudah kontinuitas visual (eye tracking) dengan menyatukan huruf-huruf menjadi kesatuan kata dan garis lurus horizontal. Cari jawaban yang menjelaskan keterbacaan (readability) berbasis garis pandu horizontal untuk mata pembaca majalah/buku. Jawaban: D."
   },
   {
     "id": "tekd-lat-e-03",
@@ -106,11 +112,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mesin cetak digital offset kehabisan pasokan tinta hitam (Key/Black) sehingga tidak mampu mengikat pigmen warna sekunder."
+        "text": "Resolusi kanvas desain awal terlalu tinggi sehingga molekul tinta printer tidak mampu menembus serat kertas art paper."
       },
       {
         "key": "B",
-        "text": "Resolusi kanvas desain awal terlalu tinggi sehingga molekul tinta printer tidak mampu menembus serat kertas art paper."
+        "text": "Penggunaan format file PNG membuat seluruh informasi lapisan warna (color layer) terhapus secara otomatis sebelum proses rasterisasi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "C",
@@ -118,11 +124,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Desainer lupa menambahkan garis batas potong (bleed) sebesar 3 mm pada keempat sisi dokumen poster cetak."
+        "text": "Mesin cetak digital offset kehabisan pasokan tinta hitam (Key/Black) sehingga tidak mampu mengikat pigmen warna sekunder."
       },
       {
         "key": "E",
-        "text": "Penggunaan format file PNG membuat seluruh informasi lapisan warna (color layer) terhapus secara otomatis sebelum proses rasterisasi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Desainer lupa menambahkan garis batas potong (bleed) sebesar 3 mm pada keempat sisi dokumen poster cetak."
       }
     ],
     "correctKey": "C",
@@ -149,7 +155,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Shutter speed lambat, sekitar 1/4 hingga 1/2 detik, agar sensor menangkap seluruh jejak lintasan gerak gelembung air secara artistik untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Shutter speed tinggi, minimal 1/1000 hingga 1/2000 detik, untuk membekukan pergerakan cepat tetesan air percikan soda dalam fraksi waktu sangat singkat."
       },
       {
         "key": "B",
@@ -161,15 +167,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Shutter speed tinggi, minimal 1/1000 hingga 1/2000 detik, untuk membekukan pergerakan cepat tetesan air percikan soda dalam fraksi waktu sangat singkat."
+        "text": "Menggunakan shutter speed 1/30 detik dengan mengaktifkan fitur Optical Image Stabilization pada bodi kamera."
       },
       {
         "key": "E",
-        "text": "Menggunakan shutter speed 1/30 detik dengan mengaktifkan fitur Optical Image Stabilization pada bodi kamera."
+        "text": "Shutter speed lambat, sekitar 1/4 hingga 1/2 detik, agar sensor menangkap seluruh jejak lintasan gerak gelembung air secara artistik untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kecepatan rana (shutter speed) mengontrol durasi sensor kamera terpapar cahaya. Semakin singkat durasi rana terbuka, semakin tajam aksi cepat dibekukan. Untuk membekukan cipratan cairan (splash photography), dibutuhkan rana berkecepatan tinggi ($\\ge 1/1000$ s). Jawaban: D."
+    "correctKey": "A",
+    "explanation": "Kecepatan rana (shutter speed) mengontrol durasi sensor kamera terpapar cahaya. Semakin singkat durasi rana terbuka, semakin tajam aksi cepat dibekukan. Untuk membekukan cipratan cairan (splash photography), dibutuhkan rana berkecepatan tinggi ($\\ge 1/1000$ s). Jawaban: A."
   },
   {
     "id": "tekd-lat-e-05",
@@ -192,7 +198,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Grafis vektor memiliki jumlah variasi spektrum warna gradasi fotorealistik yang jauh melampaui kemampuan file foto JPEG resolusi ultra-HD dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "File vektor memiliki ukuran data yang selalu di bawah 10 Kilobyte terlepas dari seberapa rumit ribuan objek ilustrasi di dalamnya."
       },
       {
         "key": "B",
@@ -204,15 +210,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "File vektor memiliki ukuran data yang selalu di bawah 10 Kilobyte terlepas dari seberapa rumit ribuan objek ilustrasi di dalamnya."
+        "text": "Grafis vektor disusun oleh koordinat matematis dan kurva Bézier sehingga dapat diperbesar hingga ukuran billboard raksasa tanpa penurunan ketajaman atau pecah piksel (resolution independent)."
       },
       {
         "key": "E",
-        "text": "Grafis vektor disusun oleh koordinat matematis dan kurva Bézier sehingga dapat diperbesar hingga ukuran billboard raksasa tanpa penurunan ketajaman atau pecah piksel (resolution independent)."
+        "text": "Grafis vektor memiliki jumlah variasi spektrum warna gradasi fotorealistik yang jauh melampaui kemampuan file foto JPEG resolusi ultra-HD dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Vektor tidak tersusun atas kotak-kotak piksel mati, melainkan formula kurva matematis yang dihitung ulang setiap kali diperbesar. Keunggulan utama vektor untuk logo adalah ketajaman yang konsisten dari kartu nama mikro hingga billboard makro (resolution independence). Jawaban: E."
+    "correctKey": "D",
+    "explanation": "Vektor tidak tersusun atas kotak-kotak piksel mati, melainkan formula kurva matematis yang dihitung ulang setiap kali diperbesar. Keunggulan utama vektor untuk logo adalah ketajaman yang konsisten dari kartu nama mikro hingga billboard makro (resolution independence). Jawaban: D."
   },
   {
     "id": "tekd-lat-e-06",
@@ -235,27 +241,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Setiap bekerja menatap monitor selama 20 menit, alihkan pandangan melihat objek yang berjarak minimal 20 kaki (sekitar 6 meter) selama minimal 20 detik."
-      },
-      {
-        "key": "B",
         "text": "Mengistirahatkan mata selama 20 menit penuh setiap kali selesai mendesain selama 20 detik pada tingkat kecerahan layar 20 persen."
       },
       {
+        "key": "B",
+        "text": "Mengedipkan mata sebanyak 20 kali dalam durasi 20 detik sambil menyemprotkan cairan pembersih layar monitor setiap 20 menit sekali."
+      },
+      {
         "key": "C",
-        "text": "Mengedipkan mata sebanyak 20 kali dalam durasi 20 detik sambil menyemprotkan cairan pembersih layar monitor setiap 20 menit sekali demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Setiap bekerja menatap monitor selama 20 menit, alihkan pandangan melihat objek yang berjarak minimal 20 kaki (sekitar 6 meter) selama minimal 20 detik."
       },
       {
         "key": "D",
-        "text": "Menjauhkan jarak mata dari permukaan layar komputer grafis sejauh 20 sentimeter dan memutar kursi kerja sebesar 20 derajat."
+        "text": "Menatap lampu ultraviolet meja kerja berdaya 20 Watt selama 20 detik setiap kali pergantian sesi rendering grafis 3D."
       },
       {
         "key": "E",
-        "text": "Menatap lampu ultraviolet meja kerja berdaya 20 Watt selama 20 detik setiap kali pergantian sesi rendering grafis 3D."
+        "text": "Menjauhkan jarak mata dari permukaan layar komputer grafis sejauh 20 sentimeter dan memutar kursi kerja sebesar 20 derajat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Aturan 20-20-20 direkomendasikan dokter mata dan ergonomi kerja: 20 menit kerja, lihat 20 kaki (6 meter), selama 20 detik. Tujuannya merelaksasi otot fokus mata (otot siliaris) yang tegang karena terus mengakomodasi jarak dekat layar. Jawaban: A."
+    "correctKey": "C",
+    "explanation": "Aturan 20-20-20 direkomendasikan dokter mata dan ergonomi kerja: 20 menit kerja, lihat 20 kaki (6 meter), selama 20 detik. Tujuannya merelaksasi otot fokus mata (otot siliaris) yang tegang karena terus mengakomodasi jarak dekat layar. Jawaban: C."
   },
   {
     "id": "tekd-lat-e-07",
@@ -278,11 +284,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hak Desain Tata Letak Sirkuit Terpadu, karena ilustrasi kemasan tergolong komponen semikonduktor visual berlisensi terbuka."
+        "text": "Hak Merek Dagang Kolektif, karena kemasan minuman tidak boleh menggunakan warna selain warna primer yang telah disepakati kementerian perindustrian Gestalt."
       },
       {
         "key": "B",
-        "text": "Hak Moral pencipta, karena hak moral melekat secara abadi pada diri pencipta untuk dicantumkan namanya dan tidak boleh diubah atau dirusak integritas karyanya meskipun hak ekonomi telah dialihkan."
+        "text": "Ketentuan Lisensi Domain Publik, karena seluruh karya seni yang dibuat oleh pekerja lepas otomatis menjadi milik bersama masyarakat."
       },
       {
         "key": "C",
@@ -290,15 +296,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Hak Merek Dagang Kolektif, karena kemasan minuman tidak boleh menggunakan warna selain warna primer yang telah disepakati kementerian perindustrian sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Hak Moral pencipta, karena hak moral melekat secara abadi pada diri pencipta untuk dicantumkan namanya dan tidak boleh diubah atau dirusak integritas karyanya meskipun hak ekonomi telah dialihkan."
       },
       {
         "key": "E",
-        "text": "Ketentuan Lisensi Domain Publik, karena seluruh karya seni yang dibuat oleh pekerja lepas otomatis menjadi milik bersama masyarakat."
+        "text": "Hak Desain Tata Letak Sirkuit Terpadu, karena ilustrasi kemasan tergolong komponen semikonduktor visual berlisensi terbuka."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Hak Moral (Pasal 5 UU Hak Cipta) meliputi hak mencantumkan nama dan menjaga keutuhan karya. Hak ini abadi dan tidak dapat dilepaskan. Pengalihan hak komersial hanya mencakup Hak Ekonomi, bukan Hak Moral sang desainer. Jawaban: B."
+    "correctKey": "D",
+    "explanation": "Hak Moral (Pasal 5 UU Hak Cipta) meliputi hak mencantumkan nama dan menjaga keutuhan karya. Hak ini abadi dan tidak dapat dilepaskan. Pengalihan hak komersial hanya mencakup Hak Ekonomi, bukan Hak Moral sang desainer. Jawaban: D."
   },
   {
     "id": "tekd-lat-e-08",
@@ -321,15 +327,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Leading, yaitu penyesuaian jarak vertikal antara garis dasar (baseline) baris teks atas dan baris teks di bawahnya."
+        "text": "Kerning, yaitu penyesuaian jarak ruang optis secara individual antara dua karakter huruf yang berdampingan agar tampak harmonis dan seimbang."
       },
       {
         "key": "B",
-        "text": "Tracking, yaitu penambahan atau pengurangan jarak horizontal secara seragam pada seluruh blok kata atau kalimat sekaligus guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Leading, yaitu penyesuaian jarak vertikal antara garis dasar (baseline) baris teks atas dan baris teks di bawahnya."
       },
       {
         "key": "C",
-        "text": "Kerning, yaitu penyesuaian jarak ruang optis secara individual antara dua karakter huruf yang berdampingan agar tampak harmonis dan seimbang."
+        "text": "Tracking, yaitu penambahan atau pengurangan jarak horizontal secara seragam pada seluruh blok kata atau kalimat sekaligus guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "D",
@@ -340,8 +346,8 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
         "text": "X-Height, yaitu tinggi badan rata-rata huruf kecil seperti 'x', 'a', dan 'o' diukur dari batas garis dasar (baseline)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kerning khusus mengatur jarak antar sepasang karakter spesifik, sedangkan tracking mengatur spasi keseluruhan kata/paragraf. Celah janggal antara dua karakter tunggal 'A' dan 'V' diselesaikan dengan optical/manual kerning. Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Kerning khusus mengatur jarak antar sepasang karakter spesifik, sedangkan tracking mengatur spasi keseluruhan kata/paragraf. Celah janggal antara dua karakter tunggal 'A' dan 'V' diselesaikan dengan optical/manual kerning. Jawaban: A."
   },
   {
     "id": "tekd-lat-e-09",
@@ -368,23 +374,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "150 DPI, karena kerapatan titik tersebut sudah melampaui batas kemampuan mata manusia untuk membedakan detail pada jarak 20 meter untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "C",
-        "text": "600 DPI, karena mesin cetak offset konvensional otomatis merusak plat cetak jika resolusi gambar di bawah nilai tersebut."
-      },
-      {
-        "key": "D",
         "text": "300 DPI (dots per inch) pada ukuran cetak aktual 1:1, sesuai dengan standar resolusi separasi raster offset industri percetakan berkualitas tinggi."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "150 DPI, karena kerapatan titik tersebut sudah melampaui batas kemampuan mata manusia untuk membedakan detail pada jarak 20 meter untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "D",
         "text": "1200 DPI, agar file desain berukuran gigabyte sehingga menghasilkan ketebalan lapisan laminasi glossy yang optimal."
+      },
+      {
+        "key": "E",
+        "text": "600 DPI, karena mesin cetak offset konvensional otomatis merusak plat cetak jika resolusi gambar di bawah nilai tersebut."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Standar cetak offset komersial membutuhkan 300 DPI pada skala aktual agar separasi raster halftone tidak pecah. 300 DPI adalah angka baku industri grafis pra-cetak (pre-press). Jawaban: D."
+    "correctKey": "B",
+    "explanation": "Standar cetak offset komersial membutuhkan 300 DPI pada skala aktual agar separasi raster halftone tidak pecah. 300 DPI adalah angka baku industri grafis pra-cetak (pre-press). Jawaban: B."
   },
   {
     "id": "tekd-lat-e-10",
@@ -407,27 +413,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tepat menempel di sudut kiri paling bawah halaman agar pengguna harus menggulir (scroll) hingga akhir konten web."
-      },
-      {
-        "key": "B",
         "text": "Di tengah-tengah persis kotak paling atas di luar batas pandang layar pertama (above the fold)."
       },
       {
+        "key": "B",
+        "text": "Pada salah satu dari empat titik temu perpotongan garis (power points / intersection points), karena titik tersebut merupakan area alami tangkapan fokus pertama mata manusia."
+      },
+      {
         "key": "C",
-        "text": "Disebar secara acak di dalam seluruh 9 kotak secara bersamaan untuk memberikan variasi opsi visual kepada pengunjung dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Tepat menempel di sudut kiri paling bawah halaman agar pengguna harus menggulir (scroll) hingga akhir konten web."
       },
       {
         "key": "D",
-        "text": "Di area margin terluar kanvas yang tidak terjangkau oleh batas kursor mouse pengguna."
+        "text": "Disebar secara acak di dalam seluruh 9 kotak secara bersamaan untuk memberikan variasi opsi visual kepada pengunjung dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "E",
-        "text": "Pada salah satu dari empat titik temu perpotongan garis (power points / intersection points), karena titik tersebut merupakan area alami tangkapan fokus pertama mata manusia."
+        "text": "Di area margin terluar kanvas yang tidak terjangkau oleh batas kursor mouse pengguna."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Rule of Thirds menempatkan objek fokus di titik perpotongan (intersection point) sepertiga bidang kanvas. Perpotongan garis 1/3 dan 2/3 kanvas adalah titik alami fokus pertama pandangan mata. Jawaban: E."
+    "correctKey": "B",
+    "explanation": "Rule of Thirds menempatkan objek fokus di titik perpotongan (intersection point) sepertiga bidang kanvas. Perpotongan garis 1/3 dan 2/3 kanvas adalah titik alami fokus pertama pandangan mata. Jawaban: B."
   },
   {
     "id": "tekd-lat-e-11",
@@ -454,7 +460,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Bukaan diafragma kecil dengan angka f-stop besar, seperti f/16 atau f/22, untuk membuat seluruh latar belakang sama tajamnya dengan objek cincin demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Mengganti sensor kamera dengan sensor mikro tanpa menggunakan lensa optik apa pun."
       },
       {
         "key": "C",
@@ -462,11 +468,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Memilih lensa sudut lebar (wide-angle 10mm) dengan bukaan f/11 yang diarahkan dari jarak 5 meter dari posisi meja."
+        "text": "Bukaan diafragma kecil dengan angka f-stop besar, seperti f/16 atau f/22, untuk membuat seluruh latar belakang sama tajamnya dengan objek cincin."
       },
       {
         "key": "E",
-        "text": "Mengganti sensor kamera dengan sensor mikro tanpa menggunakan lensa optik apa pun."
+        "text": "Memilih lensa sudut lebar (wide-angle 10mm) dengan bukaan f/11 yang diarahkan dari jarak 5 meter dari posisi meja."
       }
     ],
     "correctKey": "A",
@@ -493,27 +499,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Garis batas area penempelan lem perekat karton, dan garis batas tanggal kedaluwarsa produk kosmetik."
+        "text": "Garis batas toleransi radiasi ultraviolet mesin cetak, dan garis indikator arah tiupan angin ruang pengering kertas Gestalt."
       },
       {
         "key": "B",
-        "text": "Garis potong pisau pond (cut line) untuk memotong pola lembaran karton, dan garis tekuk/lipatan (crease/fold line) untuk memudahkan pelipatan kotak kemasan."
+        "text": "Garis tempat pencetakan barcode produk komersial, dan garis batas penulisan teks komposisi bahan kimia."
       },
       {
         "key": "C",
-        "text": "Garis batas toleransi radiasi ultraviolet mesin cetak, dan garis indikator arah tiupan angin ruang pengering kertas sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Garis potong pisau pond (cut line) untuk memotong pola lembaran karton, dan garis tekuk/lipatan (crease/fold line) untuk memudahkan pelipatan kotak kemasan."
       },
       {
         "key": "D",
-        "text": "Garis tempat pencetakan barcode produk komersial, dan garis batas penulisan teks komposisi bahan kimia."
+        "text": "Garis batas area penempelan lem perekat karton, dan garis batas tanggal kedaluwarsa produk kosmetik."
       },
       {
         "key": "E",
         "text": "Garis batas potong pisau guillotine potong lurus, dan garis cetak warna perak foil panas (hot stamping)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Dieline kemasan membedakan garis potong fisik (solid cut) dan garis lipat yang tidak tembus kertas (crease/perforasi bergaris putus-putus). Garis tegas = potong (cut); garis putus-putus = lipat (crease/fold). Jawaban: B."
+    "correctKey": "C",
+    "explanation": "Dieline kemasan membedakan garis potong fisik (solid cut) dan garis lipat yang tidak tembus kertas (crease/perforasi bergaris putus-putus). Garis tegas = potong (cut); garis putus-putus = lipat (crease/fold). Jawaban: C."
   },
   {
     "id": "tekd-lat-e-13",
@@ -536,27 +542,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mempercepat waktu penyerapan tinta cetak Cyan dan Magenta ke dalam pori-pori kertas HVS."
-      },
-      {
-        "key": "B",
-        "text": "Menyediakan ruang kosong khusus bagi operator percetakan untuk membubuhkan tanda tangan serah terima dokumen guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
-      },
-      {
-        "key": "C",
-        "text": "Mencegah munculnya garis putih tipis di tepi kertas majalah apabila terjadi pergeseran mekanis pisau mesin potong (guillotine) saat memotong tumpukan kertas."
-      },
-      {
-        "key": "D",
         "text": "Memastikan nomor halaman (folio) tercetak tepat di tengah-tengah punggung jilid kawat majalah."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Mencegah munculnya garis putih tipis di tepi kertas majalah apabila terjadi pergeseran mekanis pisau mesin potong (guillotine) saat memotong tumpukan kertas."
+      },
+      {
+        "key": "C",
+        "text": "Menyediakan ruang kosong khusus bagi operator percetakan untuk membubuhkan tanda tangan serah terima dokumen guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+      },
+      {
+        "key": "D",
         "text": "Mengurangi beban kompresi file PDF cetak saat dikirim melalui surat elektronik."
+      },
+      {
+        "key": "E",
+        "text": "Mempercepat waktu penyerapan tinta cetak Cyan dan Magenta ke dalam pori-pori kertas HVS."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Pisau potong mesin potong kertas (guillotine) memiliki toleransi pergeseran mikro (1-2 mm). Jika tidak ada bleed, selisih potong meninggalkan tepi putih kertas kosong. Bleed menjamin gambar latar tercetak penuh hingga ke tepi lembaran tanpa cela putih. Jawaban: C."
+    "correctKey": "B",
+    "explanation": "Pisau potong mesin potong kertas (guillotine) memiliki toleransi pergeseran mikro (1-2 mm). Jika tidak ada bleed, selisih potong meninggalkan tepi putih kertas kosong. Bleed menjamin gambar latar tercetak penuh hingga ke tepi lembaran tanpa cela putih. Jawaban: B."
   },
   {
     "id": "tekd-lat-e-14",
@@ -579,15 +585,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Garis kurva secara otomatis berubah seketika menjadi garis patah-patah dengan sudut lancip 90 derajat siku-siku untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "B",
         "text": "Warna isian (fill color) objek vektor secara instan terhapus dan digantikan oleh tekstur gradasi transparan."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Titik jangkar terhapus secara permanen dari kanvas kerja tanpa meninggalkan jejak koordinat vektor."
+      },
+      {
+        "key": "C",
+        "text": "Resolusi piksel kanvas Adobe Illustrator turun dari 300 PPI menjadi 72 PPI secara otomatis."
       },
       {
         "key": "D",
@@ -595,7 +601,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Resolusi piksel kanvas Adobe Illustrator turun dari 300 PPI menjadi 72 PPI secara otomatis."
+        "text": "Garis kurva secara otomatis berubah seketika menjadi garis patah-patah dengan sudut lancip 90 derajat siku-siku untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       }
     ],
     "correctKey": "D",
@@ -622,11 +628,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memadukan tiga warna yang letaknya saling berdampingan bersebelahan pada lingkaran warna, seperti kuning, kuning-hijau, dan hijau dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Menggunakan variasi tingkat kecerahan (tint) dan kegelapan (shade) dari satu warna tunggal yang identik secara monokromatik."
       },
       {
         "key": "B",
-        "text": "Menggunakan variasi tingkat kecerahan (tint) dan kegelapan (shade) dari satu warna tunggal yang identik secara monokromatik."
+        "text": "Hanya menggunakan gradasi warna abu-abu netral antara hitam pekat dan putih bersih tanpa pigmen warna kromatik."
       },
       {
         "key": "C",
@@ -634,15 +640,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Hanya menggunakan gradasi warna abu-abu netral antara hitam pekat dan putih bersih tanpa pigmen warna kromatik."
+        "text": "Memadukan dua warna yang posisinya saling berseberangan langsung 180 derajat pada lingkaran warna, seperti warna merah dengan hijau atau biru dengan jingga."
       },
       {
         "key": "E",
-        "text": "Memadukan dua warna yang posisinya saling berseberangan langsung 180 derajat pada lingkaran warna, seperti warna merah dengan hijau atau biru dengan jingga."
+        "text": "Memadukan tiga warna yang letaknya saling berdampingan bersebelahan pada lingkaran warna, seperti kuning, kuning-hijau, dan hijau dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Warna komplementer adalah pasangan warna yang letaknya berseberangan tepat 180 derajat di color wheel. Memberikan kontras visual paling tajam dan memicu stimulasi optis instan pada audiens. Jawaban: E."
+    "correctKey": "D",
+    "explanation": "Warna komplementer adalah pasangan warna yang letaknya berseberangan tepat 180 derajat di color wheel. Memberikan kontras visual paling tajam dan memicu stimulasi optis instan pada audiens. Jawaban: D."
   },
   {
     "id": "tekd-lat-e-16",
@@ -665,15 +671,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Back light (rim light / hair light), yang menciptakan garis tepian cahaya berkilau di kepala dan bahu subjek agar tidak tenggelam menyatu dengan latar belakang."
-      },
-      {
-        "key": "B",
         "text": "Key light, yang berfungsi sebagai sumber cahaya utama terkuat untuk menerangi sisi utama wajah subjek dari depan samping."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Fill light, yang diletakkan di sisi berlawanan dari sumber utama untuk melembutkan bayangan pekat pada lekukan wajah."
+      },
+      {
+        "key": "C",
+        "text": "Catch light, yaitu lampu sorot berkekuatan 5000 Watt yang diarahkan langsung tegak lurus ke pupil mata model dari jarak 10 cm."
       },
       {
         "key": "D",
@@ -681,11 +687,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Catch light, yaitu lampu sorot berkekuatan 5000 Watt yang diarahkan langsung tegak lurus ke pupil mata model dari jarak 10 cm demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Back light (rim light / hair light), yang menciptakan garis tepian cahaya berkilau di kepala dan bahu subjek agar tidak tenggelam menyatu dengan latar belakang."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Three-point lighting terdiri dari Key light (utama), Fill light (pengisi bayangan), dan Back light (pemisah latar belakang/rim). Cahaya dari belakang subjek untuk memberi garis tepian pemisah adalah Back Light. Jawaban: A."
+    "correctKey": "E",
+    "explanation": "Three-point lighting terdiri dari Key light (utama), Fill light (pengisi bayangan), dan Back light (pemisah latar belakang/rim). Cahaya dari belakang subjek untuk memberi garis tepian pemisah adalah Back Light. Jawaban: E."
   },
   {
     "id": "tekd-lat-e-17",
@@ -712,23 +718,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Format SVG (Scalable Vector Graphics) untuk ikon vektor murni atau WebP/PNG-8 berbobot ringan untuk mendukung transparansi alfa dengan kompresi lossless yang efisien."
+        "text": "Format JPEG standar dengan tingkat kompresi kualitas 10 persen yang otomatis mengubah latar transparan menjadi kotak hitam pekat Gestalt."
       },
       {
         "key": "C",
-        "text": "Format JPEG standar dengan tingkat kompresi kualitas 10 persen yang otomatis mengubah latar transparan menjadi kotak hitam pekat sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "D",
         "text": "Format TIFF berlapis ganda (multi-layer) khusus mesin pembuat plat film separasi offset komersial."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Format RAW digital negative langsung dari kamera DSLR tanpa melalui tahapan ekspor digital."
+      },
+      {
+        "key": "E",
+        "text": "Format SVG (Scalable Vector Graphics) untuk ikon vektor murni atau WebP/PNG-8 berbobot ringan untuk mendukung transparansi alfa dengan kompresi lossless yang efisien."
       }
     ],
-    "correctKey": "B",
-    "explanation": "JPEG tidak mendukung transparansi latar. Ikon web paling ideal memakai SVG (vektor) atau PNG/WebP (raster transparan). SVG dan PNG/WebP mendukung kanal alfa transparan dengan kompresi web yang cepat. Jawaban: B."
+    "correctKey": "E",
+    "explanation": "JPEG tidak mendukung transparansi latar. Ikon web paling ideal memakai SVG (vektor) atau PNG/WebP (raster transparan). SVG dan PNG/WebP mendukung kanal alfa transparan dengan kompresi web yang cepat. Jawaban: E."
   },
   {
     "id": "tekd-lat-e-18",
@@ -751,15 +757,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghabiskan seluruh stok variasi font berbayar yang dimiliki oleh perusahaan media massa dalam satu terbitan."
+        "text": "Menghindari penggunaan spasi antar kata agar seluruh bidang kertas terisi penuh oleh tinta cetak hitam."
       },
       {
         "key": "B",
-        "text": "Membuat tampilan halaman terlihat rumit dan membingungkan agar pembaca membutuhkan waktu lebih lama di lapak koran."
+        "text": "Menghabiskan seluruh stok variasi font berbayar yang dimiliki oleh perusahaan media massa dalam satu terbitan."
       },
       {
         "key": "C",
-        "text": "Mengarahkan alur membaca mata pembaca dari informasi paling penting (headline) ke informasi penjelas pendukung secara bertahap dan teratur."
+        "text": "Membuat tampilan halaman terlihat rumit dan membingungkan agar pembaca membutuhkan waktu lebih lama di lapak koran."
       },
       {
         "key": "D",
@@ -767,11 +773,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghindari penggunaan spasi antar kata agar seluruh bidang kertas terisi penuh oleh tinta cetak hitam."
+        "text": "Mengarahkan alur membaca mata pembaca dari informasi paling penting (headline) ke informasi penjelas pendukung secara bertahap dan teratur."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Hierarki tipografi mengatur urutan atensi membaca dari yang paling krusial ke detail pendukung. Tujuannya membimbing pembaca menyerap berita terpenting lebih dulu secara terstruktur. Jawaban: C."
+    "correctKey": "E",
+    "explanation": "Hierarki tipografi mengatur urutan atensi membaca dari yang paling krusial ke detail pendukung. Tujuannya membimbing pembaca menyerap berita terpenting lebih dulu secara terstruktur. Jawaban: E."
   },
   {
     "id": "tekd-lat-e-19",
@@ -794,27 +800,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menjual langsung karya ilustrasi tersebut sebagai paket stiker merchandise komersial di marketplace demi meraup keuntungan pribadi untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "B",
-        "text": "Mengganti nama pencipta asli dengan nama sendiri lalu mendaftarkan karya tersebut ke Ditjen KI sebagai merek dagang eksklusif."
-      },
-      {
-        "key": "C",
-        "text": "Memasukkan ilustrasi tersebut ke dalam desain kemasan produk sabun mandi komersial yang diproduksi pabrik secara massal."
-      },
-      {
-        "key": "D",
         "text": "Menggunakan dan memodifikasi ilustrasi tersebut untuk poster kampanye sosial non-komersial di sekolah dengan tetap mencantumkan kredit nama pencipta aslinya."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Melarang masyarakat umum melihat poster tersebut karena lisensi NC berarti karya tersebut rahasia negara."
+      },
+      {
+        "key": "C",
+        "text": "Mengganti nama pencipta asli dengan nama sendiri lalu mendaftarkan karya tersebut ke Ditjen KI sebagai merek dagang eksklusif."
+      },
+      {
+        "key": "D",
+        "text": "Menjual langsung karya ilustrasi tersebut sebagai paket stiker merchandise komersial di marketplace demi meraup keuntungan pribadi untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "E",
+        "text": "Memasukkan ilustrasi tersebut ke dalam desain kemasan produk sabun mandi komersial yang diproduksi pabrik secara massal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "BY = Atribusi (beri kredit pencipta); NC = Non-Commercial (bukan untuk jualan komersial). Boleh untuk kegiatan sosial nirlaba/sekolah asalkan nama pembuat aslinya dicantumkan. Jawaban: D."
+    "correctKey": "A",
+    "explanation": "BY = Atribusi (beri kredit pencipta); NC = Non-Commercial (bukan untuk jualan komersial). Boleh untuk kegiatan sosial nirlaba/sekolah asalkan nama pembuat aslinya dicantumkan. Jawaban: A."
   },
   {
     "id": "tekd-lat-e-20",
@@ -837,27 +843,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wordmark (Logotype), yaitu logo yang hanya berupa tipografi teks nama perusahaan tanpa ada simbol gambar pendukung."
-      },
-      {
-        "key": "B",
-        "text": "Monogram (Lettermark), yaitu logo berbasis inisial huruf tunggal atau kombinasi beberapa huruf awal nama perusahaan dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
-      },
-      {
-        "key": "C",
-        "text": "Emblem, yaitu logo di mana teks nama merek berada terkurung di dalam bingkai lencana atau stempel tradisional."
-      },
-      {
-        "key": "D",
         "text": "Mascot Logo, yaitu logo yang menggunakan karakter tokoh kartun manusia atau hewan sebagai juru bicara merek."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Pictorial Mark (Brand Mark / Logomark), yaitu logo berbasis simbol atau ikon grafis representatif tanpa menggunakan elemen teks nama merek secara langsung."
+      },
+      {
+        "key": "C",
+        "text": "Wordmark (Logotype), yaitu logo yang hanya berupa tipografi teks nama perusahaan tanpa ada simbol gambar pendukung."
+      },
+      {
+        "key": "D",
+        "text": "Monogram (Lettermark), yaitu logo berbasis inisial huruf tunggal atau kombinasi beberapa huruf awal nama perusahaan dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+      },
+      {
+        "key": "E",
+        "text": "Emblem, yaitu logo di mana teks nama merek berada terkurung di dalam bingkai lencana atau stempel tradisional."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Lambang visual mandiri tanpa tulisan huruf disebut Brandmark atau Pictorial Mark. Nike Swoosh dan Apple adalah contoh paling representatif dari Brand Mark / Pictorial Mark murni. Jawaban: E."
+    "correctKey": "B",
+    "explanation": "Lambang visual mandiri tanpa tulisan huruf disebut Brandmark atau Pictorial Mark. Nike Swoosh dan Apple adalah contoh paling representatif dari Brand Mark / Pictorial Mark murni. Jawaban: B."
   },
   {
     "id": "tekd-lat-e-21",
@@ -884,11 +890,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Tekstur nyata (tactile texture), yaitu permukaan fisik benda yang nilai lihatnya sama persis dengan sensasi kasar-halus saat diraba langsung oleh tangan demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Nirmana Trimatra plastis, yaitu patung berdimensi panjang, lebar, dan tinggi yang menembus ruang hampa fisik nyata."
       },
       {
         "key": "C",
-        "text": "Nirmana Trimatra plastis, yaitu patung berdimensi panjang, lebar, dan tinggi yang menembus ruang hampa fisik nyata."
+        "text": "Anatomi tipografi display, yaitu tekstur yang terbentuk secara alami dari tumpukan serat kertas koran basah."
       },
       {
         "key": "D",
@@ -896,7 +902,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Anatomi tipografi display, yaitu tekstur yang terbentuk secara alami dari tumpukan serat kertas koran basah."
+        "text": "Tekstur nyata (tactile texture), yaitu permukaan fisik benda yang nilai lihatnya sama persis dengan sensasi kasar-halus saat diraba langsung oleh tangan."
       }
     ],
     "correctKey": "A",
@@ -923,27 +929,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "High Angle, untuk membuat subjek terlihat kerdil, lemah, tidak berdaya, dan tertekan oleh situasi lingkungan sekitar."
-      },
-      {
-        "key": "B",
-        "text": "Low Angle, untuk membangun kesan subjek terlihat berwibawa, megah, dominan, kuat, dan memiliki otoritas tinggi."
-      },
-      {
-        "key": "C",
         "text": "Bird's Eye View, untuk memperlihatkan denah tata letak panggung dari sudut tegak lurus 90 derajat di langit."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Frog Eye View, khusus untuk menyamarkan wajah model agar tidak dapat dikenali oleh audiens publik."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "High Angle, untuk membuat subjek terlihat kerdil, lemah, tidak berdaya, dan tertekan oleh situasi lingkungan sekitar."
+      },
+      {
+        "key": "D",
         "text": "Eye Level, untuk menampilkan pandangan yang netral, wajar, dan sejajar dengan pandangan mata manusia biasa."
+      },
+      {
+        "key": "E",
+        "text": "Low Angle, untuk membangun kesan subjek terlihat berwibawa, megah, dominan, kuat, dan memiliki otoritas tinggi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Low Angle mengambil gambar dari bawah mengarah ke atas, memberi kesan sosok yang gagah dan berwibawa. Membangun figur kepemimpinan yang dominan menggunakan sudut rendah (Low Angle). Jawaban: B."
+    "correctKey": "E",
+    "explanation": "Low Angle mengambil gambar dari bawah mengarah ke atas, memberi kesan sosok yang gagah dan berwibawa. Membangun figur kepemimpinan yang dominan menggunakan sudut rendah (Low Angle). Jawaban: E."
   },
   {
     "id": "tekd-lat-e-23",
@@ -966,27 +972,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan kepada operator mesin cetak untuk mencampur sendiri tinta Cyan dan Yellow berdasarkan perkiraan mata secara manual sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "B",
         "text": "Mengonversi seluruh file cetak ke model warna RGB 8-bit lalu mencetaknya pada printer inkjet rumahan biasa."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menggunakan sistem warna tinta khusus (Spot Color / Pantone Matching System - PMS) dengan nomor formula tinta pabrikan standar internasional."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Menaikkan saturasi warna Magenta sebesar 100% pada semua file desain sebelum diekspor ke format PDF cetak."
+      },
+      {
+        "key": "D",
+        "text": "Menyerahkan kepada operator mesin cetak untuk mencampur sendiri tinta Cyan dan Yellow berdasarkan perkiraan mata secara manual Gestalt."
       },
       {
         "key": "E",
         "text": "Mengganti seluruh jenis kertas di semua percetakan dengan kertas koran bekas berwarna kuning buram."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Proses separasi CMYK bisa sedikit berbeda antar mesin cetak. Spot Color (Pantone) adalah tinta pra-campur paten untuk konsistensi 100%. Pantone Matching System (PMS) menjamin akurasi warna brand identik di percetakan mana pun. Jawaban: C."
+    "correctKey": "B",
+    "explanation": "Proses separasi CMYK bisa sedikit berbeda antar mesin cetak. Spot Color (Pantone) adalah tinta pra-campur paten untuk konsistensi 100%. Pantone Matching System (PMS) menjamin akurasi warna brand identik di percetakan mana pun. Jawaban: B."
   },
   {
     "id": "tekd-lat-e-24",
@@ -1009,27 +1015,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mockup (High-Fidelity), yaitu representasi visual final statis yang sudah dilengkapi palet warna, tipografi, dan aset visual realistis."
+        "text": "A/B Testing Production, yaitu pelepasan dua versi aplikasi perbankan secara acak ke jutaan nasabah perbankan aktif di pasar modal."
       },
       {
         "key": "B",
-        "text": "Interactive Prototype, yaitu simulasi antarmuka yang sudah dapat diklik dan ditransisikan antar halaman untuk uji coba interaksi pengguna guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Mockup (High-Fidelity), yaitu representasi visual final statis yang sudah dilengkapi palet warna, tipografi, dan aset visual realistis."
       },
       {
         "key": "C",
-        "text": "Design System Tokens, yaitu dokumentasi kode CSS variabel untuk ukuran spasi dan palet warna komponen web."
+        "text": "Interactive Prototype, yaitu simulasi antarmuka yang sudah dapat diklik dan ditransisikan antar halaman untuk uji coba interaksi pengguna guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "D",
-        "text": "Wireframe (Low-Fidelity), yaitu bagan kerangka arsitektur tata letak antarmuka untuk memvalidasi alur fungsi navigasi sebelum tahap visual estetika diterapkan."
+        "text": "Design System Tokens, yaitu dokumentasi kode CSS variabel untuk ukuran spasi dan palet warna komponen web."
       },
       {
         "key": "E",
-        "text": "A/B Testing Production, yaitu pelepasan dua versi aplikasi perbankan secara acak ke jutaan nasabah perbankan aktif di pasar modal."
+        "text": "Wireframe (Low-Fidelity), yaitu bagan kerangka arsitektur tata letak antarmuka untuk memvalidasi alur fungsi navigasi sebelum tahap visual estetika diterapkan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kerangka kasar hitam-putih abu-abu untuk mengatur tata letak dan fungsi disebut Wireframe (low-fidelity). Fokus pada struktur fungsional sebelum melangkah ke estetika mockup dan interaktivitas prototype. Jawaban: D."
+    "correctKey": "E",
+    "explanation": "Kerangka kasar hitam-putih abu-abu untuk mengatur tata letak dan fungsi disebut Wireframe (low-fidelity). Fokus pada struktur fungsional sebelum melangkah ke estetika mockup dan interaktivitas prototype. Jawaban: E."
   },
   {
     "id": "tekd-lat-e-25",
@@ -1056,23 +1062,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Desainer disarankan mematikan seluruh lampu ruangan hingga gelap gulita total dan menaikkan kontras monitor ke 100 persen."
-      },
-      {
-        "key": "C",
         "text": "Mengarahkan sorot lampu meja tepat lurus ke tengah layar monitor agar intensitas bayangan di kanvas desain menghilang."
       },
       {
+        "key": "C",
+        "text": "Pantulan silau memicu ketegangan saraf optis mata dan distorsi penilaian warna; posisi monitor harus diatur menyamping 90 derajat terhadap sumber jendela/lampu dan menggunakan tudung monitor (hood)."
+      },
+      {
         "key": "D",
-        "text": "Menutup seluruh permukaan layar komputer grafis dengan kain spanduk tebal berwarna hitam saat mendesain."
+        "text": "Desainer disarankan mematikan seluruh lampu ruangan hingga gelap gulita total dan menaikkan kontras monitor ke 100 persen."
       },
       {
         "key": "E",
-        "text": "Pantulan silau memicu ketegangan saraf optis mata dan distorsi penilaian warna; posisi monitor harus diatur menyamping 90 derajat terhadap sumber jendela/lampu dan menggunakan tudung monitor (hood)."
+        "text": "Menutup seluruh permukaan layar komputer grafis dengan kain spanduk tebal berwarna hitam saat mendesain."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Silau (glare) layar mengganggu akurasi warna dan merusak mata. Monitor harus diposisikan tegak lurus (90 derajat) terhadap jendela atau lampu. Hindari membelakangi atau menghadap langsung ke arah sumber cahaya untuk meniadakan silau. Jawaban: E."
+    "correctKey": "C",
+    "explanation": "Silau (glare) layar mengganggu akurasi warna dan merusak mata. Monitor harus diposisikan tegak lurus (90 derajat) terhadap jendela atau lampu. Hindari membelakangi atau menghadap langsung ke arah sumber cahaya untuk meniadakan silau. Jawaban: C."
   },
   {
     "id": "tekd-lat-m-01",
@@ -1095,27 +1101,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "80.9 mm, yang merupakan hasil pembagian langsung kolom utama dengan angka dua bulat tanpa mempertimbangkan konstanta rasio emas."
-      },
-      {
-        "key": "B",
         "text": "100 mm, yang diperoleh dari pembagian lebar kolom utama dengan konstanta rasio emas ($161.8 \\div 1.618 = 100$)."
       },
       {
+        "key": "B",
+        "text": "80.9 mm, yang merupakan hasil pembagian langsung kolom utama dengan angka dua bulat tanpa mempertimbangkan konstanta rasio emas."
+      },
+      {
         "key": "C",
-        "text": "120 mm, yang merupakan perbandingan rasio diagonal sepertiga kuadratik bidang kanvas majalah standar folio."
+        "text": "261.8 mm, yang merupakan hasil penjumlahan kumulatif deret Fibonacci tanpa memperhatikan batas total bidang margin kertas."
       },
       {
         "key": "D",
-        "text": "261.8 mm, yang merupakan hasil penjumlahan kumulatif deret Fibonacci tanpa memperhatikan batas total bidang margin kertas."
+        "text": "120 mm, yang merupakan perbandingan rasio diagonal sepertiga kuadratik bidang kanvas majalah standar folio."
       },
       {
         "key": "E",
         "text": "50 mm, yang merupakan batas minimum standar kolom iklan baris menurut regulasi persuratkabaran nasional."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Rasio Emas membagi dua bagian sedemikian rupa sehingga rasio bagian besar ke bagian kecil sama dengan rasio total ke bagian besar (1.618). Bila bagian besar adalah 161.8 mm, maka bagian kecil adalah $161.8 / 1.618 = 100$ mm. Jawaban: B."
+    "correctKey": "A",
+    "explanation": "Rasio Emas membagi dua bagian sedemikian rupa sehingga rasio bagian besar ke bagian kecil sama dengan rasio total ke bagian besar (1.618). Bila bagian besar adalah 161.8 mm, maka bagian kecil adalah $161.8 / 1.618 = 100$ mm. Jawaban: A."
   },
   {
     "id": "tekd-lat-m-02",
@@ -1138,7 +1144,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Widow and Orphan; solusinya adalah menambah nilai baseline shift pada kata terakhir di setiap halaman ganjil majalah dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Rivers of white (sungai putih); solusinya adalah mengaktifkan hyphenation, mengatur toleransi word spacing pada dialog justification, atau beralih ke rata kiri (flush left / ragged right)."
       },
       {
         "key": "B",
@@ -1146,19 +1152,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rivers of white (sungai putih); solusinya adalah mengaktifkan hyphenation, mengatur toleransi word spacing pada dialog justification, atau beralih ke rata kiri (flush left / ragged right)."
+        "text": "Bleed Creep; solusinya adalah memotong margin kertas koran sebanyak 10 sentimeter sebelum proses cetak."
       },
       {
         "key": "D",
-        "text": "Kerning Trap; solusinya adalah mengganti semua huruf kapital dengan huruf kecil italic sans-serif berbobot light."
+        "text": "Widow and Orphan; solusinya adalah menambah nilai baseline shift pada kata terakhir di setiap halaman ganjil majalah dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "E",
-        "text": "Bleed Creep; solusinya adalah memotong margin kertas koran sebanyak 10 sentimeter sebelum proses cetak."
+        "text": "Kerning Trap; solusinya adalah mengganti semua huruf kapital dengan huruf kecil italic sans-serif berbobot light."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Rivers of white adalah celah spasi putih vertikal yang merusak kenyamanan membaca pada teks justified tanpa hyphenation di kolom sempit. Cari opsi yang menyebut 'rivers of white' dan solusinya: hyphenation atau beralih ke rata kiri (ragged right). Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Rivers of white adalah celah spasi putih vertikal yang merusak kenyamanan membaca pada teks justified tanpa hyphenation di kolom sempit. Cari opsi yang menyebut 'rivers of white' dan solusinya: hyphenation atau beralih ke rata kiri (ragged right). Jawaban: A."
   },
   {
     "id": "tekd-lat-m-03",
@@ -1181,27 +1187,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Warna hitam empat komponen tinta otomatis berubah menjadi putih transparan saat terkena sinar lampu UV pengering offset."
-      },
-      {
-        "key": "B",
-        "text": "Mesin cetak offset tidak memiliki silinder plat untuk warna hitam sehingga nilai K wajib diatur selalu $0\\%$."
-      },
-      {
-        "key": "C",
-        "text": "Penggunaan tinta CMYK penuh menyebabkan berat kertas booklet bertambah menjadi 5 kilogram per lembar."
-      },
-      {
-        "key": "D",
         "text": "Nilai TAC mencapai 400% yang melampaui batas toleransi serap kertas ($300\\%$), menyebabkan tinta terlalu tebal dan basah, lambat kering, serta menempel dan mengotori lembaran cetak lain (set-off)."
       },
       {
+        "key": "B",
+        "text": "Perpaduan keempat tinta CMYK secara fisik melanggar undang-undang perlindungan konsumen tentang penggunaan bahan pewarna kimia."
+      },
+      {
+        "key": "C",
+        "text": "Warna hitam empat komponen tinta otomatis berubah menjadi putih transparan saat terkena sinar lampu UV pengering offset."
+      },
+      {
+        "key": "D",
+        "text": "Penggunaan tinta CMYK penuh menyebabkan berat kertas booklet bertambah menjadi 5 kilogram per lembar."
+      },
+      {
         "key": "E",
-        "text": "Perpaduan keempat tinta CMYK secara fisik melanggar undang-undang perlindungan konsumen tentang penggunaan bahan pewarna kimia demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Mesin cetak offset tidak memiliki silinder plat untuk warna hitam sehingga nilai K wajib diatur selalu $0\\%$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "TAC (Total Area Coverage) tidak boleh melebihi 280-300% pada kertas coated standard agar tinta tidak basah dan menodai kertas berikutnya (set-off). Nilai $C100+M100+Y100+K100 = 400\\%$, jauh melampaui batas aman serap tinta percetakan. Jawaban: D."
+    "correctKey": "A",
+    "explanation": "TAC (Total Area Coverage) tidak boleh melebihi 280-300% pada kertas coated standard agar tinta tidak basah dan menodai kertas berikutnya (set-off). Nilai $C100+M100+Y100+K100 = 400\\%$, jauh melampaui batas aman serap tinta percetakan. Jawaban: A."
   },
   {
     "id": "tekd-lat-m-04",
@@ -1224,27 +1230,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi underexposure berat di mana seluruh bayangan menjadi hitam pekat pejal tanpa ada cahaya yang masuk ke sensor."
+        "text": "Foto berada pada kondisi pencahayaan yang sangat seimbang dan memiliki kontras warna yang sempurna untuk cetak kanvas Gestalt."
       },
       {
         "key": "B",
-        "text": "Kamera mengalami kerusakan mekanis pada cermin pentaprisma sehingga tidak mampu merekam spektrum warna hijau daun."
+        "text": "Terjadi overexposure dan highlight clipping, di mana detail tekstur kain renda putih hilang total dan menjadi putih polos tanpa data informasi piksel ($RGB=255,255,255$)."
       },
       {
         "key": "C",
-        "text": "Foto berada pada kondisi pencahayaan yang sangat seimbang dan memiliki kontras warna yang sempurna untuk cetak kanvas sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "D",
         "text": "Nilai ketajaman lensa berada pada titik optimal sweet spot sehingga tidak memerlukan proses sharpening digital."
       },
       {
+        "key": "D",
+        "text": "Kamera mengalami kerusakan mekanis pada cermin pentaprisma sehingga tidak mampu merekam spektrum warna hijau daun."
+      },
+      {
         "key": "E",
-        "text": "Terjadi overexposure dan highlight clipping, di mana detail tekstur kain renda putih hilang total dan menjadi putih polos tanpa data informasi piksel ($RGB=255,255,255$)."
+        "text": "Terjadi underexposure berat di mana seluruh bayangan menjadi hitam pekat pejal tanpa ada cahaya yang masuk ke sensor."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Sisi kanan histogram mewakili kecerahan maksimum (putih). Jika kurva menabrak dinding kanan, artinya highlight terpotong (blown out). Tekstur gaun putih hilang menjadi putih pekat tak terbaca (clipping). Jawaban: E."
+    "correctKey": "B",
+    "explanation": "Sisi kanan histogram mewakili kecerahan maksimum (putih). Jika kurva menabrak dinding kanan, artinya highlight terpotong (blown out). Tekstur gaun putih hilang menjadi putih pekat tak terbaca (clipping). Jawaban: B."
   },
   {
     "id": "tekd-lat-m-05",
@@ -1267,27 +1273,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Minus Front, yang memotong dan membuang area irisan objek atas dari objek di bawahnya, sekaligus menghapus objek atas tersebut."
-      },
-      {
-        "key": "B",
-        "text": "Intersect, yang membuang seluruh bagian kedua objek dan hanya menyisakan area yang saling beririsan bertumpuk."
-      },
-      {
-        "key": "C",
-        "text": "Unite, yang menggabungkan lingkaran dan kotak menjadi satu bentuk kurva utuh tunggal dengan satu warna seragam guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
-      },
-      {
-        "key": "D",
         "text": "Exclude, yang menyisakan bagian unik kedua objek dan hanya melubangi area pertemuan tumpang tindihnya."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Divide, yang memotong semua objek menjadi potongan-potongan terpisah di setiap garis perpotongan kanvas."
+      },
+      {
+        "key": "C",
+        "text": "Intersect, yang membuang seluruh bagian kedua objek dan hanya menyisakan area yang saling beririsan bertumpuk."
+      },
+      {
+        "key": "D",
+        "text": "Minus Front, yang memotong dan membuang area irisan objek atas dari objek di bawahnya, sekaligus menghapus objek atas tersebut."
+      },
+      {
+        "key": "E",
+        "text": "Unite, yang menggabungkan lingkaran dan kotak menjadi satu bentuk kurva utuh tunggal dengan satu warna seragam guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Minus Front memotong bentuk di lapisan belakang menggunakan bentuk lapisan di depannya layaknya cetakan kue. Objek lingkaran merah di depan memotong objek kotak biru di belakang. Jawaban: A."
+    "correctKey": "D",
+    "explanation": "Minus Front memotong bentuk di lapisan belakang menggunakan bentuk lapisan di depannya layaknya cetakan kue. Objek lingkaran merah di depan memotong objek kotak biru di belakang. Jawaban: D."
   },
   {
     "id": "tekd-lat-m-06",
@@ -1310,27 +1316,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Studio desain lokal secara otomatis memenangkan kepemilikan merek karena menganut sistem 'First to Use' tanpa syarat pendaftaran tertulis untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "B",
-        "text": "Hak atas merek menjadi milik pengusaha yang baru mendaftar karena Indonesia menganut sistem 'First to File', di mana perlindungan hukum diberikan kepada pihak pertama yang mengajukan permohonan pendaftaran."
-      },
-      {
-        "key": "C",
-        "text": "Kedua belah pihak diwajibkan oleh DJKI untuk menggabungkan perusahaan mereka menjadi satu badan usaha milik negara."
-      },
-      {
-        "key": "D",
         "text": "Sertifikat merek pengusaha baru otomatis gugur demi hukum karena durasi penggunaan usaha studio lokal sudah melampaui lima tahun."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Studio desain lokal secara otomatis memenangkan kepemilikan merek karena menganut sistem 'First to Use' tanpa syarat pendaftaran tertulis untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "C",
         "text": "Merek 'KREASIKU' disita oleh kementerian kominfo dan diubah statusnya menjadi lisensi umum gratis untuk seluruh rakyat."
+      },
+      {
+        "key": "D",
+        "text": "Kedua belah pihak diwajibkan oleh DJKI untuk menggabungkan perusahaan mereka menjadi satu badan usaha milik negara."
+      },
+      {
+        "key": "E",
+        "text": "Hak atas merek menjadi milik pengusaha yang baru mendaftar karena Indonesia menganut sistem 'First to File', di mana perlindungan hukum diberikan kepada pihak pertama yang mengajukan permohonan pendaftaran."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Di Indonesia, hak merek menganut sistem konstitutif 'First to File' (siapa cepat mendaftar, dialah yang sah secara hukum), bukan 'First to Use'. Pengusaha yang mendaftar secara sah di DJKI menjadi pemilik legal merek tersebut. Jawaban: B."
+    "correctKey": "E",
+    "explanation": "Di Indonesia, hak merek menganut sistem konstitutif 'First to File' (siapa cepat mendaftar, dialah yang sah secara hukum), bukan 'First to Use'. Pengusaha yang mendaftar secara sah di DJKI menjadi pemilik legal merek tersebut. Jawaban: E."
   },
   {
     "id": "tekd-lat-m-07",
@@ -1353,27 +1359,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tendinitis Patela; solusinya adalah memasang alas mouse berbahan logam besi berdaya magnet tinggi pada lantai studio."
-      },
-      {
-        "key": "B",
-        "text": "Presbiopi Dini; solusinya adalah menaikkan resolusi monitor dan memakai kacamata lensa silinder anti radiasi matahari."
-      },
-      {
-        "key": "C",
         "text": "Carpal Tunnel Syndrome (CTS) akibat kompresi saraf medianus; solusinya adalah mengganti mouse konvensional dengan vertical ergonomic mouse atau pen tablet grafis dengan posisi pergelangan netral."
       },
       {
+        "key": "B",
+        "text": "Bursitis Bahu; solusinya adalah mencelupkan pergelangan tangan ke dalam tinta cetak dingin sebelum mulai bekerja."
+      },
+      {
+        "key": "C",
+        "text": "Presbiopi Dini; solusinya adalah menaikkan resolusi monitor dan memakai kacamata lensa silinder anti radiasi matahari."
+      },
+      {
         "key": "D",
-        "text": "Skoliosis Akut; solusinya adalah berdiri tegak di atas satu kaki sambil memegang mouse di udara tanpa bertumpu pada meja dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Tendinitis Patela; solusinya adalah memasang alas mouse berbahan logam besi berdaya magnet tinggi pada lantai studio."
       },
       {
         "key": "E",
-        "text": "Bursitis Bahu; solusinya adalah mencelupkan pergelangan tangan ke dalam tinta cetak dingin sebelum mulai bekerja."
+        "text": "Skoliosis Akut; solusinya adalah berdiri tegak di atas satu kaki sambil memegang mouse di udara tanpa bertumpu pada meja dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Rasa kebas pada ibu jari dan telunjuk akibat beban berulang mouse adalah sindrom lorong karpal (Carpal Tunnel Syndrome). Vertical mouse atau graphic tablet menempatkan pergelangan tangan dalam posisi jabat tangan netral. Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Rasa kebas pada ibu jari dan telunjuk akibat beban berulang mouse adalah sindrom lorong karpal (Carpal Tunnel Syndrome). Vertical mouse atau graphic tablet menempatkan pergelangan tangan dalam posisi jabat tangan netral. Jawaban: A."
   },
   {
     "id": "tekd-lat-m-08",
@@ -1396,27 +1402,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kertas HVS 70 GSM tipis, karena permukaannya yang sangat halus mempermudah proses pengeleman otomatis tanpa mesin press demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Corrugated cardboard gelombang mikro (E-flute / F-flute), yang memiliki struktur lapisan gelombang di bagian tengah untuk menyerap gaya benturan dan getaran mekanis."
       },
       {
         "key": "B",
-        "text": "Kertas Samson Kraft 80 GSM tanpa lapisan penahan, karena bahan ini paling mudah sobek saat terkena tetesan air hujan."
-      },
-      {
-        "key": "C",
         "text": "Kertas Art Paper 120 GSM yang dilaminasi doff dua sisi, karena ketebalannya setara dengan balok kayu jati solid."
       },
       {
+        "key": "C",
+        "text": "Kertas Samson Kraft 80 GSM tanpa lapisan penahan, karena bahan ini paling mudah sobek saat terkena tetesan air hujan."
+      },
+      {
         "key": "D",
-        "text": "Corrugated cardboard gelombang mikro (E-flute / F-flute), yang memiliki struktur lapisan gelombang di bagian tengah untuk menyerap gaya benturan dan getaran mekanis."
+        "text": "Kertas HVS 70 GSM tipis, karena permukaannya yang sangat halus mempermudah proses pengeleman otomatis tanpa mesin press."
       },
       {
         "key": "E",
         "text": "Kertas kalkir transparan 60 GSM, agar konsumen dapat melihat filamen lampu secara langsung dari luar kemasan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Untuk barang mudah pecah seperti bohlam kaca yang ditumpuk, diperlukan lapisan karton bergelombang (corrugated) untuk meredam impak. E-flute corrugated cardboard menggabungkan kemampuan cetak die-cut dengan daya serap benturan. Jawaban: D."
+    "correctKey": "A",
+    "explanation": "Untuk barang mudah pecah seperti bohlam kaca yang ditumpuk, diperlukan lapisan karton bergelombang (corrugated) untuk meredam impak. E-flute corrugated cardboard menggabungkan kemampuan cetak die-cut dengan daya serap benturan. Jawaban: A."
   },
   {
     "id": "tekd-lat-m-09",
@@ -1439,27 +1445,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Teks hitam secara otomatis meleleh dan menyatu menjadi warna emas berkilau di atas permukaan kertas cetak."
-      },
-      {
-        "key": "B",
         "text": "Warna biru pada latar belakang berubah menjadi merah muda menyala karena pengaruh radiasi tinta hitam."
       },
       {
+        "key": "B",
+        "text": "Muncul garis putih tak bertinta (misregistration gap) di sekeliling pinggiran huruf hitam karena plat warna latar berlubang tidak pas berhimpitan dengan teks."
+      },
+      {
         "key": "C",
-        "text": "Plat cetak silinder mesin offset langsung patah menjadi dua bagian akibat ketegangan tegangan permukaan tinta sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Plat cetak silinder mesin offset langsung patah menjadi dua bagian akibat ketegangan tegangan permukaan tinta Gestalt."
       },
       {
         "key": "D",
-        "text": "Seluruh huruf hitam tercetak miring 45 derajat mengikuti arah putaran roda mesin cetak offset."
+        "text": "Teks hitam secara otomatis meleleh dan menyatu menjadi warna emas berkilau di atas permukaan kertas cetak."
       },
       {
         "key": "E",
-        "text": "Muncul garis putih tak bertinta (misregistration gap) di sekeliling pinggiran huruf hitam karena plat warna latar berlubang tidak pas berhimpitan dengan teks."
+        "text": "Seluruh huruf hitam tercetak miring 45 derajat mengikuti arah putaran roda mesin cetak offset."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Teks hitam kecil harus diatur OVERPRINT, bukan KNOCKOUT. Jika di-knockout dan plat cetak bergeser mikro, timbul celah putih bocor. Cacat celah putih di sekeliling teks akibat pergeseran plat cetak disebut misregistration gap. Jawaban: E."
+    "correctKey": "B",
+    "explanation": "Teks hitam kecil harus diatur OVERPRINT, bukan KNOCKOUT. Jika di-knockout dan plat cetak bergeser mikro, timbul celah putih bocor. Cacat celah putih di sekeliling teks akibat pergeseran plat cetak disebut misregistration gap. Jawaban: B."
   },
   {
     "id": "tekd-lat-m-10",
@@ -1482,27 +1488,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Helvetica memiliki nilai x-height (proporsi tinggi huruf kecil) yang jauh lebih tinggi dibandingkan Garamond, sehingga 'badan' hurufnya tampak lebih dominan dan terbuka pada ukuran kecil."
-      },
-      {
-        "key": "B",
-        "text": "Garamond tidak memiliki garis dasar (baseline) sehingga huruf-hurufnya melayang secara acak di luar grid paragraf."
-      },
-      {
-        "key": "C",
         "text": "Helvetica menggunakan ruang warna Adobe RGB 1998 yang secara otomatis mempertebal stroke huruf saat diekspor ke PDF."
       },
       {
+        "key": "B",
+        "text": "Helvetica memiliki nilai ascender dan descender yang sepuluh kali lebih panjang daripada tinggi huruf kapitalnya."
+      },
+      {
+        "key": "C",
+        "text": "Helvetica memiliki nilai x-height (proporsi tinggi huruf kecil) yang jauh lebih tinggi dibandingkan Garamond, sehingga 'badan' hurufnya tampak lebih dominan dan terbuka pada ukuran kecil."
+      },
+      {
         "key": "D",
-        "text": "Garamond diciptakan khusus untuk layar bioskop 70mm sehingga tidak boleh dicetak di atas kertas di bawah ukuran 50 pt guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Garamond tidak memiliki garis dasar (baseline) sehingga huruf-hurufnya melayang secara acak di luar grid paragraf."
       },
       {
         "key": "E",
-        "text": "Helvetica memiliki nilai ascender dan descender yang sepuluh kali lebih panjang daripada tinggi huruf kapitalnya."
+        "text": "Garamond diciptakan khusus untuk layar bioskop 70mm sehingga tidak boleh dicetak di atas kertas di bawah ukuran 50 pt guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       }
     ],
-    "correctKey": "A",
-    "explanation": "X-height adalah tinggi badan huruf kecil (seperti x, a, e). Font dengan x-height besar terlihat jauh lebih besar dan jelas pada ukuran poin kecil. Helvetica memiliki proporsi x-height yang tinggi dibanding Garamond pada ukuran 10 pt yang sama. Jawaban: A."
+    "correctKey": "C",
+    "explanation": "X-height adalah tinggi badan huruf kecil (seperti x, a, e). Font dengan x-height besar terlihat jauh lebih besar dan jelas pada ukuran poin kecil. Helvetica memiliki proporsi x-height yang tinggi dibanding Garamond pada ukuran 10 pt yang sama. Jawaban: C."
   },
   {
     "id": "tekd-lat-m-11",
@@ -1525,15 +1531,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengubah White Balance ke mode 'Shade' (7500K) yang akan menambahkan lebih banyak warna jingga hangat ke dalam sensor untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Mengganti kartu memori SD card dengan jenis berkecepatan UHS-II kelas 10 khusus pemotretan luar ruangan."
       },
       {
         "key": "B",
-        "text": "Mengubah preset White Balance ke 'Tungsten / Incandescent' (sekitar 3200K) atau mengkalibrasi manual dengan abu-abu netral (Grey Card 18%)."
+        "text": "Menaikkan nilai ISO dari 100 menjadi 12.800 untuk membakar kelebihan suhu warna kuning pada lensa optik."
       },
       {
         "key": "C",
-        "text": "Menaikkan nilai ISO dari 100 menjadi 12.800 untuk membakar kelebihan suhu warna kuning pada lensa optik."
+        "text": "Mengubah White Balance ke mode 'Shade' (7500K) yang akan menambahkan lebih banyak warna jingga hangat ke dalam sensor untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "D",
@@ -1541,11 +1547,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengganti kartu memori SD card dengan jenis berkecepatan UHS-II kelas 10 khusus pemotretan luar ruangan."
+        "text": "Mengubah preset White Balance ke 'Tungsten / Incandescent' (sekitar 3200K) atau mengkalibrasi manual dengan abu-abu netral (Grey Card 18%)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "White Balance mengkompensasi suhu warna ruangan. Lampu pijar bersuhu rendah (~3200K, kekuningan); kamera mengoreksinya dengan menambahkan warna biru. Pilih preset Tungsten/Incandescent (3200K) atau custom white balance menggunakan grey card 18%. Jawaban: B."
+    "correctKey": "E",
+    "explanation": "White Balance mengkompensasi suhu warna ruangan. Lampu pijar bersuhu rendah (~3200K, kekuningan); kamera mengoreksinya dengan menambahkan warna biru. Pilih preset Tungsten/Incandescent (3200K) atau custom white balance menggunakan grey card 18%. Jawaban: E."
   },
   {
     "id": "tekd-lat-m-12",
@@ -1568,7 +1574,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Law of Proximity, di mana objek-objek grafis yang saling berjauhan dianggap memiliki ikatan batin yang sama oleh pengamat dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Law of Symmetry, di mana separuh tubuh panda wajib dicerminkan secara identik menggunakan sumbu cermin kartesian."
       },
       {
         "key": "B",
@@ -1576,19 +1582,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Law of Closure, di mana otak manusia secara otomatis mengisi celah kosong atau bentuk yang tidak lengkap untuk menciptakan persepsi visual satu objek yang utuh."
+        "text": "Law of Common Fate, di mana seluruh bagian logo bergerak ke satu arah koordinat vektor yang sama secara kinetik."
       },
       {
         "key": "D",
-        "text": "Law of Symmetry, di mana separuh tubuh panda wajib dicerminkan secara identik menggunakan sumbu cermin kartesian."
+        "text": "Law of Proximity, di mana objek-objek grafis yang saling berjauhan dianggap memiliki ikatan batin yang sama oleh pengamat dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "E",
-        "text": "Law of Common Fate, di mana seluruh bagian logo bergerak ke satu arah koordinat vektor yang sama secara kinetik."
+        "text": "Law of Closure, di mana otak manusia secara otomatis mengisi celah kosong atau bentuk yang tidak lengkap untuk menciptakan persepsi visual satu objek yang utuh."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Closure terjadi saat otak kita melengkapi potongan-potongan informasi visual yang terputus menjadi satu bentuk utuh. Punggung panda terbuka yang secara spontan disatukan oleh pikiran pengamat adalah contoh klasik Law of Closure. Jawaban: C."
+    "correctKey": "E",
+    "explanation": "Closure terjadi saat otak kita melengkapi potongan-potongan informasi visual yang terputus menjadi satu bentuk utuh. Punggung panda terbuka yang secara spontan disatukan oleh pikiran pengamat adalah contoh klasik Law of Closure. Jawaban: E."
   },
   {
     "id": "tekd-lat-m-13",
@@ -1615,23 +1621,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Staging, yaitu pengaturan posisi kamera dan tata lampu agar aksi karakter terlihat jelas di layar tanpa distraksi."
+        "text": "Slow In and Slow Out, yaitu penambahan jumlah frame pada awal dan akhir gerakan agar gerakan terasa lebih mulus dan natural."
       },
       {
         "key": "C",
-        "text": "Follow Through, yaitu gerakan bagian rambut dan pakaian yang tetap melayang maju beberapa saat setelah tubuh berhenti bergerak demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
-      },
-      {
-        "key": "D",
         "text": "Squash and Stretch, di mana objek mengalami peregangan dan penekanan bentuk untuk memperlihatkan fleksibilitas tanpa mengubah volume total objek."
       },
       {
+        "key": "D",
+        "text": "Follow Through, yaitu gerakan bagian rambut dan pakaian yang tetap melayang maju beberapa saat setelah tubuh berhenti bergerak."
+      },
+      {
         "key": "E",
-        "text": "Slow In and Slow Out, yaitu penambahan jumlah frame pada awal dan akhir gerakan agar gerakan terasa lebih mulus dan natural."
+        "text": "Staging, yaitu pengaturan posisi kamera dan tata lampu agar aksi karakter terlihat jelas di layar tanpa distraksi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Squash & stretch adalah prinsip paling vital dari 12 prinsip animasi untuk memberikan ilusi elastisitas dan massa benda lentur. Bola gepeng saat mendarat dan lonjong saat melesat menggambarkan Squash and Stretch. Jawaban: D."
+    "correctKey": "C",
+    "explanation": "Squash & stretch adalah prinsip paling vital dari 12 prinsip animasi untuk memberikan ilusi elastisitas dan massa benda lentur. Bola gepeng saat mendarat dan lonjong saat melesat menggambarkan Squash and Stretch. Jawaban: C."
   },
   {
     "id": "tekd-lat-m-14",
@@ -1654,19 +1660,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Aplikasi perbankan dilarang menggunakan warna putih karena dapat meningkatkan konsumsi baterai layar OLED secara drastis sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "B",
         "text": "Teks pada tombol konfirmasi transaksi wajib dibuat berkedip (blinking) sebanyak 10 kali per detik menurut standar ISO."
       },
       {
+        "key": "B",
+        "text": "Aplikasi perbankan dilarang menggunakan warna putih karena dapat meningkatkan konsumsi baterai layar OLED secara drastis Gestalt."
+      },
+      {
         "key": "C",
-        "text": "Tombol digital wajib memiliki ketebalan bayangan drop shadow minimal 50 piksel pada sistem operasi Android."
+        "text": "WCAG 2.1 melarang penggunaan font non-latin untuk seluruh aplikasi finansial di Asia Tenggara."
       },
       {
         "key": "D",
-        "text": "WCAG 2.1 melarang penggunaan font non-latin untuk seluruh aplikasi finansial di Asia Tenggara."
+        "text": "Tombol digital wajib memiliki ketebalan bayangan drop shadow minimal 50 piksel pada sistem operasi Android."
       },
       {
         "key": "E",
@@ -1697,7 +1703,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Clipping Mask, di mana objek vektor huruf 'B' di posisi teratas berfungsi sebagai bingkai pembatas tampak (mask) bagi foto di bawahnya."
+        "text": "Envelope Distort Mesh, yang menarik dan merusak sudut-sudut foto pegunungan secara acak dengan kisi 4x4."
       },
       {
         "key": "B",
@@ -1705,19 +1711,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Envelope Distort Mesh, yang menarik dan merusak sudut-sudut foto pegunungan secara acak dengan kisi 4x4."
+        "text": "Trace Image Black and White, yang menghapus seluruh foto pegunungan dan menggantinya dengan siluet hitam pekat guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "D",
-        "text": "Trace Image Black and White, yang menghapus seluruh foto pegunungan dan menggantinya dengan siluet hitam pekat guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Clipping Mask, di mana objek vektor huruf 'B' di posisi teratas berfungsi sebagai bingkai pembatas tampak (mask) bagi foto di bawahnya."
       },
       {
         "key": "E",
         "text": "Simplify Path, yang mengurangi jumlah titik koordinat jangkar hingga bentuk huruf 'B' menjadi segitiga lancip."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Clipping Mask mengunci objek di bawahnya agar hanya terlihat di dalam area bentuk vektor yang berada tepat di atasnya. Bentuk huruf 'B' di layer atas meng-klip foto pegunungan di layer bawah. Jawaban: A."
+    "correctKey": "D",
+    "explanation": "Clipping Mask mengunci objek di bawahnya agar hanya terlihat di dalam area bentuk vektor yang berada tepat di atasnya. Bentuk huruf 'B' di layer atas meng-klip foto pegunungan di layer bawah. Jawaban: D."
   },
   {
     "id": "tekd-lat-m-16",
@@ -1740,27 +1746,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lensa 85mm secara otomatis memancarkan sinar laser pemutih kulit wajah saat tombol shutter ditekan separuh."
+        "text": "Lensa sudut lebar hanya dapat menangkap gambar berwarna hitam-putih tanpa saturasi warna kulit manusia."
       },
       {
         "key": "B",
-        "text": "Lensa sudut lebar dari jarak dekat menimbulkan distorsi barel yang membuat hidung dan bagian tengah wajah tampak membesar tidak proporsional, sedangkan lensa 85mm menghasilkan proporsi wajah yang rata dan natural."
-      },
-      {
-        "key": "C",
         "text": "Lensa sudut lebar 18mm memiliki bobot fisik 10 kali lebih berat daripada lensa telephoto studio 105mm."
       },
       {
+        "key": "C",
+        "text": "Lensa 85mm secara otomatis memancarkan sinar laser pemutih kulit wajah saat tombol shutter ditekan separuh."
+      },
+      {
         "key": "D",
-        "text": "Lensa telephoto tidak memerlukan baterai kamera sama sekali karena bekerja berdasarkan hukum pantulan cermin datar untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Lensa sudut lebar dari jarak dekat menimbulkan distorsi barel yang membuat hidung dan bagian tengah wajah tampak membesar tidak proporsional, sedangkan lensa 85mm menghasilkan proporsi wajah yang rata dan natural."
       },
       {
         "key": "E",
-        "text": "Lensa sudut lebar hanya dapat menangkap gambar berwarna hitam-putih tanpa saturasi warna kulit manusia."
+        "text": "Lensa telephoto tidak memerlukan baterai kamera sama sekali karena bekerja berdasarkan hukum pantulan cermin datar untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Lensa sudut lebar dari jarak dekat mendistorsi wajah (efek mata ikan/hidung besar). Lensa 85-105mm memberikan proporsi wajah paling alami dan indah. Pilih jawaban yang menjelaskan distorsi barel pada lensa lebar vs proporsi wajah natural pada focal length 85mm. Jawaban: B."
+    "correctKey": "D",
+    "explanation": "Lensa sudut lebar dari jarak dekat mendistorsi wajah (efek mata ikan/hidung besar). Lensa 85-105mm memberikan proporsi wajah paling alami dan indah. Pilih jawaban yang menjelaskan distorsi barel pada lensa lebar vs proporsi wajah natural pada focal length 85mm. Jawaban: D."
   },
   {
     "id": "tekd-lat-m-17",
@@ -1783,7 +1789,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kertas koran memantulkan 99% cahaya matahari langsung sehingga lensa mata manusia mengalami kebutaan sesaat."
+        "text": "Resolusi plat cetak offset pada kertas koran dipaksa turun dari 300 DPI menjadi 1 DPI oleh komputer RIP."
       },
       {
         "key": "B",
@@ -1799,7 +1805,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Resolusi plat cetak offset pada kertas koran dipaksa turun dari 300 DPI menjadi 1 DPI oleh komputer RIP."
+        "text": "Kertas koran memantulkan 99% cahaya matahari langsung sehingga lensa mata manusia mengalami kebutaan sesaat."
       }
     ],
     "correctKey": "C",
@@ -1826,27 +1832,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hak Rahasia Dagang, yang melindungi formula resep kimia cairan parfum agar tidak dibocorkan oleh mantan karyawan pabrik demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
-      },
-      {
-        "key": "B",
-        "text": "Paten Sederhana, yang melindungi mekanisme mesin hidrolik otomatis pembuat kaca di dalam tungku peleburan baja."
-      },
-      {
-        "key": "C",
         "text": "Hak Cipta Musik, yang melindungi alunan nada jingle iklan radio produk parfum yang disiarkan di stasiun radio komersial."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Desain Industri, yang melindungi kreasi tentang bentuk, konfigurasi, atau komposisi garis dan warna berbentuk tiga dimensi atau dua dimensi yang memberikan kesan estetis pada suatu komoditas."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Hak Rahasia Dagang, yang melindungi formula resep kimia cairan parfum agar tidak dibocorkan oleh mantan karyawan pabrik."
+      },
+      {
+        "key": "D",
         "text": "Perlindungan Varietas Tanaman, yang melindungi jenis bibit bunga melati yang diekstrak menjadi minyak wangi esensial."
+      },
+      {
+        "key": "E",
+        "text": "Paten Sederhana, yang melindungi mekanisme mesin hidrolik otomatis pembuat kaca di dalam tungku peleburan baja."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Perlindungan atas kreasi bentuk, konfigurasi, atau komposisi 3 dimensi suatu produk komersial diatur dalam rezim Desain Industri. Bentuk fisik estetik botol parfum 3D dilindungi di bawah UU Desain Industri. Jawaban: D."
+    "correctKey": "B",
+    "explanation": "Perlindungan atas kreasi bentuk, konfigurasi, atau komposisi 3 dimensi suatu produk komersial diatur dalam rezim Desain Industri. Bentuk fisik estetik botol parfum 3D dilindungi di bawah UU Desain Industri. Jawaban: B."
   },
   {
     "id": "tekd-lat-m-19",
@@ -1869,27 +1875,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Branded House (Monolithic), di mana seluruh lini produk menggunakan satu nama dan logo merek induk tunggal seperti Virgin atau FedEx sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Branded House (Monolithic), di mana seluruh lini produk menggunakan satu nama dan logo merek induk tunggal seperti Virgin atau FedEx Gestalt."
       },
       {
         "key": "B",
-        "text": "Endorsed Brand, di mana logo merek anak selalu disertai kalimat pengesahan merek induk seperti 'Courtyard by Marriott'."
+        "text": "House of Brands (Pluralistic), di mana perusahaan induk menaungi portofolio berbagai merek independen yang berdiri sendiri dengan target audiens dan citra spesifik masing-masing."
       },
       {
         "key": "C",
-        "text": "Co-Branding Aliansi, di mana dua perusahaan berbeda bergabung memproduksi satu produk kolaborasi terbatas."
-      },
-      {
-        "key": "D",
         "text": "Generic Branding, di mana produk dijual dalam wadah kardus polos tanpa label nama dan tanpa logo apa pun."
       },
       {
+        "key": "D",
+        "text": "Co-Branding Aliansi, di mana dua perusahaan berbeda bergabung memproduksi satu produk kolaborasi terbatas."
+      },
+      {
         "key": "E",
-        "text": "House of Brands (Pluralistic), di mana perusahaan induk menaungi portofolio berbagai merek independen yang berdiri sendiri dengan target audiens dan citra spesifik masing-masing."
+        "text": "Endorsed Brand, di mana logo merek anak selalu disertai kalimat pengesahan merek induk seperti 'Courtyard by Marriott'."
       }
     ],
-    "correctKey": "E",
-    "explanation": "House of Brands memayungi banyak merek independen yang memiliki identitas visualnya sendiri (contoh: Unilever, P&G). Lifebuoy, Rinso, Bango yang memiliki logo sendiri-sendiri berada di bawah model House of Brands. Jawaban: E."
+    "correctKey": "B",
+    "explanation": "House of Brands memayungi banyak merek independen yang memiliki identitas visualnya sendiri (contoh: Unilever, P&G). Lifebuoy, Rinso, Bango yang memiliki logo sendiri-sendiri berada di bawah model House of Brands. Jawaban: B."
   },
   {
     "id": "tekd-lat-m-20",
@@ -1912,27 +1918,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Serial Planes (Bidang Berseri), yaitu metode konstruksi trimatra di mana pengulangan dan perubahan bertahap bentuk bidang dua dimensi membentuk ilusi massa dan ruang volumetrik."
+        "text": "Möbius Strip, yaitu lingkaran pita satu sisi tak terhingga yang tidak memiliki batas permukaan atas dan bawah."
       },
       {
         "key": "B",
-        "text": "Linear Framework, yaitu penyusunan rangka kubus hanya menggunakan batang-batang kawat besi tanpa permukaan bidang."
+        "text": "Serial Planes (Bidang Berseri), yaitu metode konstruksi trimatra di mana pengulangan dan perubahan bertahap bentuk bidang dua dimensi membentuk ilusi massa dan ruang volumetrik."
       },
       {
         "key": "C",
-        "text": "Planar Polyhedron, yaitu pembuatan bentuk benda padat geometris tertutup bersisi banyak seperti prisma dan ikosahedron."
+        "text": "Linear Framework, yaitu penyusunan rangka kubus hanya menggunakan batang-batang kawat besi tanpa permukaan bidang."
       },
       {
         "key": "D",
-        "text": "Tessellation Monokrom, yaitu penataan ubin keramik datar tanpa celah spasi sama sekali di atas permukaan lantai dua dimensi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Planar Polyhedron, yaitu pembuatan bentuk benda padat geometris tertutup bersisi banyak seperti prisma dan ikosahedron."
       },
       {
         "key": "E",
-        "text": "Möbius Strip, yaitu lingkaran pita satu sisi tak terhingga yang tidak memiliki batas permukaan atas dan bawah."
+        "text": "Tessellation Monokrom, yaitu penataan ubin keramik datar tanpa celah spasi sama sekali di atas permukaan lantai dua dimensi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Serial Planes menyusun lembaran bidang 2 dimensi berjejer dengan variasi kontur bertahap untuk membangun volume 3 dimensi. Papan-papan sejajar pembentuk gelombang spasial adalah teknik Serial Planes (Bidang Berseri). Jawaban: A."
+    "correctKey": "B",
+    "explanation": "Serial Planes menyusun lembaran bidang 2 dimensi berjejer dengan variasi kontur bertahap untuk membangun volume 3 dimensi. Papan-papan sejajar pembentuk gelombang spasial adalah teknik Serial Planes (Bidang Berseri). Jawaban: B."
   },
   {
     "id": "tekd-lat-m-21",
@@ -1959,11 +1965,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menciptakan kontras yang terukur dan berimbang, misalnya memadukan font Display/Serif klasik yang kaya karakter untuk judul dengan font Sans-Serif netral ber-readability tinggi untuk teks isi."
+        "text": "Menggabungkan minimal tujuh jenis font dekoratif yang sangat rumit dan penuh ornamen dalam satu paragraf pendek teks isi."
       },
       {
         "key": "C",
-        "text": "Menggabungkan minimal tujuh jenis font dekoratif yang sangat rumit dan penuh ornamen dalam satu paragraf pendek teks isi."
+        "text": "Menggunakan font Comic Sans berukuran 48 pt dengan warna kuning neon untuk seluruh naskah narasi festival teater."
       },
       {
         "key": "D",
@@ -1971,11 +1977,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menggunakan font Comic Sans berukuran 48 pt dengan warna kuning neon untuk seluruh naskah narasi festival teater."
+        "text": "Menciptakan kontras yang terukur dan berimbang, misalnya memadukan font Display/Serif klasik yang kaya karakter untuk judul dengan font Sans-Serif netral ber-readability tinggi untuk teks isi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Font pairing sukses menuntut kontras yang jelas dan harmonis (misal Serif judul + Sans-Serif body teks). Jangan pakai 2 font yang mirip tipis. Kontras terukur: Headline ekspresif dipadukan dengan Sans-Serif netral untuk teks isi. Jawaban: B."
+    "correctKey": "E",
+    "explanation": "Font pairing sukses menuntut kontras yang jelas dan harmonis (misal Serif judul + Sans-Serif body teks). Jangan pakai 2 font yang mirip tipis. Kontras terukur: Headline ekspresif dipadukan dengan Sans-Serif netral untuk teks isi. Jawaban: E."
   },
   {
     "id": "tekd-lat-m-22",
@@ -1998,11 +2004,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyiramkan seluruh cairan sisa pelarut ke tanaman taman sekolah sebagai pupuk cair penyubur daun bunga."
+        "text": "Membuang langsung cairan pelarut kimia ke wastafel toilet siswa agar larut dan hanyut bersama air selokan umum dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "B",
-        "text": "Membuang langsung cairan pelarut kimia ke wastafel toilet siswa agar larut dan hanyut bersama air selokan umum dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Menyiramkan seluruh cairan sisa pelarut ke tanaman taman sekolah sebagai pupuk cair penyubur daun bunga."
       },
       {
         "key": "C",
@@ -2041,15 +2047,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukum Moore, yang menyatakan bahwa kecepatan prosesor smartphone berlipat ganda setiap kali tombol bawah ditekan."
+        "text": "Hukum Gestalt Similarity, yang mewajibkan seluruh tombol antarmuka memiliki warna yang identik dengan logo sponsor."
       },
       {
         "key": "B",
-        "text": "Hukum Archimedes, yang menyatakan bahwa tombol digital akan terapung jika layar smartphone dimasukkan ke dalam air mineral untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Hukum Pareto 80/20, yang melarang desainer meletakkan lebih dari 20 huruf dalam satu tombol aplikasi ponsel pintar."
       },
       {
         "key": "C",
-        "text": "Hukum Pareto 80/20, yang melarang desainer meletakkan lebih dari 20 huruf dalam satu tombol aplikasi ponsel pintar."
+        "text": "Hukum Archimedes, yang menyatakan bahwa tombol digital akan terapung jika layar smartphone dimasukkan ke dalam air mineral untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "D",
@@ -2057,7 +2063,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Hukum Gestalt Similarity, yang mewajibkan seluruh tombol antarmuka memiliki warna yang identik dengan logo sponsor."
+        "text": "Hukum Moore, yang menyatakan bahwa kecepatan prosesor smartphone berlipat ganda setiap kali tombol bawah ditekan."
       }
     ],
     "correctKey": "D",
@@ -2088,23 +2094,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mengonversi gambar langsung ke format GIF 256 warna dengan kompresi lossy tanpa transparansi."
+        "text": "Menyimpan file dalam format teks mentah Notepad.TXT lalu membukanya kembali di Adobe InDesign."
       },
       {
         "key": "C",
-        "text": "Menyimpan file dalam format teks mentah Notepad .TXT lalu membukanya kembali di Adobe InDesign."
-      },
-      {
-        "key": "D",
         "text": "Menaikkan kecerahan layar monitor hingga 1000 nits agar garis batas warna tidak tampak oleh pandangan mata."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengubah mode kedalaman warna gambar menjadi 16-bit per channel untuk melipatgandakan jumlah level gradasi warna, atau menambahkan efek noise/dither mikro secara halus."
+      },
+      {
+        "key": "E",
+        "text": "Mengonversi gambar langsung ke format GIF 256 warna dengan kompresi lossy tanpa transparansi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "8-bit hanya punya 256 gradasi warna per kanal, memicu color banding pada langit gradasi halus. 16-bit memiliki 65.536 gradasi per kanal. Solusi: Ubah ke 16-bit per channel atau tambahkan sedikit noise/dithering penyamar garis patahan. Jawaban: E."
+    "correctKey": "D",
+    "explanation": "8-bit hanya punya 256 gradasi warna per kanal, memicu color banding pada langit gradasi halus. 16-bit memiliki 65.536 gradasi per kanal. Solusi: Ubah ke 16-bit per channel atau tambahkan sedikit noise/dithering penyamar garis patahan. Jawaban: D."
   },
   {
     "id": "tekd-lat-m-25",
@@ -2127,27 +2133,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Law of Common Fate, di mana elemen-elemen visual yang bergerak bersama ke arah dan kecepatan yang sama dipersepsikan oleh otak sebagai satu kelompok atau entitas tunggal."
-      },
-      {
-        "key": "B",
         "text": "Law of Proximity, di mana bentuk-bentuk yang diam statis selalu dianggap bergerak jika diletakkan di sudut layar."
       },
       {
-        "key": "C",
-        "text": "Law of Pragnanz, di mana otak manusia menolak melihat gerakan animasi dan mematikan layar proyektor."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Law of Figure-Ground, di mana semua objek segitiga wajib diwarnai hitam di atas kanvas putih bertekstur."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Law of Common Fate, di mana elemen-elemen visual yang bergerak bersama ke arah dan kecepatan yang sama dipersepsikan oleh otak sebagai satu kelompok atau entitas tunggal."
+      },
+      {
+        "key": "D",
         "text": "Law of Continuity, di mana desainer dilarang menganimasikan objek selain garis lurus horizontal kaku."
+      },
+      {
+        "key": "E",
+        "text": "Law of Pragnanz, di mana otak manusia menolak melihat gerakan animasi dan mematikan layar proyektor."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Common Fate berlaku pada animasi: objek yang bergerak bersama ke arah dan kecepatan yang sama dianggap satu kawanan/kelompok oleh persepsi otak. Segitiga yang bergerak searah ke kanan atas secara kohesif menunjukkan Law of Common Fate. Jawaban: A."
+    "correctKey": "C",
+    "explanation": "Common Fate berlaku pada animasi: objek yang bergerak bersama ke arah dan kecepatan yang sama dianggap satu kawanan/kelompok oleh persepsi otak. Segitiga yang bergerak searah ke kanan atas secara kohesif menunjukkan Law of Common Fate. Jawaban: C."
   },
   {
     "id": "tekd-lat-h-01",
@@ -2170,11 +2176,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh warna Cyan, Magenta, Yellow, dan Black diatur tepat pada sudut yang sama persis $0^\\circ$ agar titik raster saling tumpang tindih secara absolut untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Yellow diatur pada sudut $45^\\circ$ karena merupakan warna paling gelap dan kontras, sementara Black diatur pada sudut $0^\\circ$ karena transparan."
       },
       {
         "key": "B",
-        "text": "Cyan $0^\\circ$, Magenta $10^\\circ$, Yellow $20^\\circ$, dan Black $30^\\circ$ agar membentuk garis diagonal sejajar berurutan di seluruh permukaan kanvas."
+        "text": "Sudut raster hanya boleh ditentukan secara acak oleh sensor panas mesin offset saat suhu ruangan mencapai 100 derajat Celsius."
       },
       {
         "key": "C",
@@ -2182,11 +2188,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Yellow diatur pada sudut $45^\\circ$ karena merupakan warna paling gelap dan kontras, sementara Black diatur pada sudut $0^\\circ$ karena transparan."
+        "text": "Cyan $0^\\circ$, Magenta $10^\\circ$, Yellow $20^\\circ$, dan Black $30^\\circ$ agar membentuk garis diagonal sejajar berurutan di seluruh permukaan kanvas."
       },
       {
         "key": "E",
-        "text": "Sudut raster hanya boleh ditentukan secara acak oleh sensor panas mesin offset saat suhu ruangan mencapai 100 derajat Celsius."
+        "text": "Seluruh warna Cyan, Magenta, Yellow, dan Black diatur tepat pada sudut yang sama persis $0^\\circ$ agar titik raster saling tumpang tindih secara absolut untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       }
     ],
     "correctKey": "C",
@@ -2213,15 +2219,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Absolute Colorimetric, yang mempertahankan titik putih asli ruangan dan membiarkan warna di luar gamut terpotong kaku tanpa kompensasi kertas."
+        "text": "Bilinear Interpolation, yang menghapus seluruh kanal warna biru dan menggantikannya dengan kurva hitam pekat."
       },
       {
         "key": "B",
-        "text": "Saturation, yang memaksa seluruh warna menjadi jenuh maksimal secara hiperbolik tanpa memedulikan akurasi warna kulit manusia."
+        "text": "Relative Colorimetric, yang hanya memotong warna di luar gamut ke batas terluar tanpa mengubah warna di dalam gamut, sehingga rentan menghilangkan detail gradasi di area jenuh dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "C",
-        "text": "Relative Colorimetric, yang hanya memotong warna di luar gamut ke batas terluar tanpa mengubah warna di dalam gamut, sehingga rentan menghilangkan detail gradasi di area jenuh dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Saturation, yang memaksa seluruh warna menjadi jenuh maksimal secara hiperbolik tanpa memedulikan akurasi warna kulit manusia."
       },
       {
         "key": "D",
@@ -2229,7 +2235,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Bilinear Interpolation, yang menghapus seluruh kanal warna biru dan menggantikannya dengan kurva hitam pekat."
+        "text": "Absolute Colorimetric, yang mempertahankan titik putih asli ruangan dan membiarkan warna di luar gamut terpotong kaku tanpa kompensasi kertas."
       }
     ],
     "correctKey": "D",
@@ -2256,15 +2262,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Huruf-huruf singkatan otomatis berubah posisi menjadi terbalik 180 derajat mengikuti arah jarum jam."
+        "text": "Seluruh spasi antar kata di dalam bab tersebut otomatis terhapus dan digantikan oleh simbol tanda tanya untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "B",
-        "text": "Seluruh spasi antar kata di dalam bab tersebut otomatis terhapus dan digantikan oleh simbol tanda tanya demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Komputer percetakan secara otomatis menolak mencetak buku dan mengeluarkan peringatan virus berbahaya."
       },
       {
         "key": "C",
-        "text": "Komputer percetakan secara otomatis menolak mencetak buku dan mengeluarkan peringatan virus berbahaya."
+        "text": "Huruf-huruf singkatan otomatis berubah posisi menjadi terbalik 180 derajat mengikuti arah jarum jam."
       },
       {
         "key": "D",
@@ -2299,15 +2305,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "257 tingkatan abu-abu, yang dihitung berdasarkan rumus formula $(\\text{DPI} / \\text{LPI})^2 + 1 = (2400 / 150)^2 + 1 = 16^2 + 1 = 256 + 1 = 257$."
+        "text": "150 tingkatan abu-abu, yang nilainya selalu dibatasi tepat setara dengan frekuensi garis raster LPI kertas."
       },
       {
         "key": "B",
-        "text": "16 tingkatan abu-abu, yang hanya merupakan hasil pembagian langsung nilai 2400 DPI dengan 150 LPI tanpa dipangkatkan dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "64 tingkatan abu-abu, yang dihitung dari akar kuadrat frekuensi garis raster dikalikan koefisien tinta monokrom."
       },
       {
         "key": "C",
-        "text": "150 tingkatan abu-abu, yang nilainya selalu dibatasi tepat setara dengan frekuensi garis raster LPI kertas."
+        "text": "16 tingkatan abu-abu, yang hanya merupakan hasil pembagian langsung nilai 2400 DPI dengan 150 LPI tanpa dipangkatkan dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "D",
@@ -2315,11 +2321,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "64 tingkatan abu-abu, yang dihitung dari akar kuadrat frekuensi garis raster dikalikan koefisien tinta monokrom."
+        "text": "257 tingkatan abu-abu, yang dihitung berdasarkan rumus formula $(\\text{DPI} / \\text{LPI})^2 + 1 = (2400 / 150)^2 + 1 = 16^2 + 1 = 256 + 1 = 257$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Rumus jumlah gradasi abu-abu halftone cetak adalah $(DPI/LPI)^2 + 1$. $(2400 / 150) = 16$. Kemudian $16^2 + 1 = 256 + 1 = 257$ level gradasi. Jawaban: A."
+    "correctKey": "E",
+    "explanation": "Rumus jumlah gradasi abu-abu halftone cetak adalah $(DPI/LPI)^2 + 1$. $(2400 / 150) = 16$. Kemudian $16^2 + 1 = 256 + 1 = 257$ level gradasi. Jawaban: E."
   },
   {
     "id": "tekd-lat-h-05",
@@ -2342,27 +2348,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Even-Odd Rule hanya dapat diterapkan pada gambar berformat JPEG resolusi rendah di bawah 72 PPI."
+        "text": "Non-Zero Winding Rule secara otomatis menghapus seluruh kurva terbuka dan mengubahnya menjadi segitiga siku-siku untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "B",
-        "text": "Even-Odd Rule menentukan area berlubang murni berdasarkan jumlah perpotongan sinar garis ganjil-genap terlepas dari arah kurva, sedangkan Non-Zero Rule mempertimbangkan arah arah jarum jam (path direction) vektor untuk menentukan daerah isi atau lubang."
+        "text": "Even-Odd Rule mewajibkan desainer menginput angka ganjil pada setiap koordinat anchor point di kanvas."
       },
       {
         "key": "C",
-        "text": "Non-Zero Winding Rule secara otomatis menghapus seluruh kurva terbuka dan mengubahnya menjadi segitiga siku-siku demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Even-Odd Rule hanya dapat diterapkan pada gambar berformat JPEG resolusi rendah di bawah 72 PPI."
       },
       {
         "key": "D",
-        "text": "Even-Odd Rule mewajibkan desainer menginput angka ganjil pada setiap koordinat anchor point di kanvas."
+        "text": "Even-Odd Rule menentukan area berlubang murni berdasarkan jumlah perpotongan sinar garis ganjil-genap terlepas dari arah kurva, sedangkan Non-Zero Rule mempertimbangkan arah arah jarum jam (path direction) vektor untuk menentukan daerah isi atau lubang."
       },
       {
         "key": "E",
         "text": "Non-Zero Rule tidak mengizinkan penggunaan warna gradasi selain warna merah dan kuning primer."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Even-Odd Rule hanya menghitung jumlah perpotongan (ganjil = isi, genap = bolong), sementara Non-Zero memperhitungkan arah kurva (searah vs berlawanan jarum jam). Pilih jawaban yang menjelaskan peran arah kurva (path direction) pada Non-Zero vs hitungan perpotongan pada Even-Odd. Jawaban: B."
+    "correctKey": "D",
+    "explanation": "Even-Odd Rule hanya menghitung jumlah perpotongan (ganjil = isi, genap = bolong), sementara Non-Zero memperhitungkan arah kurva (searah vs berlawanan jarum jam). Pilih jawaban yang menjelaskan peran arah kurva (path direction) pada Non-Zero vs hitungan perpotongan pada Even-Odd. Jawaban: D."
   },
   {
     "id": "tekd-lat-h-06",
@@ -2385,15 +2391,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "2:1 (hanya 1 stop perbedaan), yang menghasilkan pencahayaan datar lembut tanpa bayangan sama sekali layaknya iklan kosmetik pagi hari dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "8:1 (atau 3 stop perbedaan), yang menciptakan kontras tinggi dramatis dengan bayangan pekat (chiaroscuro / low key lighting) yang menonjolkan ketegangan misterius."
       },
       {
         "key": "B",
-        "text": "16:1 (4 stop perbedaan), di mana sisi bayangan wajah aktor terbakar menjadi putih menyilaukan melebihi batas lampu utama."
+        "text": "64:1 (6 stop perbedaan), yang menyebabkan sensor kamera DSLR langsung meledak karena kelebihan tegangan foton."
       },
       {
         "key": "C",
-        "text": "8:1 (atau 3 stop perbedaan), yang menciptakan kontras tinggi dramatis dengan bayangan pekat (chiaroscuro / low key lighting) yang menonjolkan ketegangan misterius."
+        "text": "2:1 (hanya 1 stop perbedaan), yang menghasilkan pencahayaan datar lembut tanpa bayangan sama sekali layaknya iklan kosmetik pagi hari dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "D",
@@ -2401,11 +2407,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "64:1 (6 stop perbedaan), yang menyebabkan sensor kamera DSLR langsung meledak karena kelebihan tegangan foton."
+        "text": "16:1 (4 stop perbedaan), di mana sisi bayangan wajah aktor terbakar menjadi putih menyilaukan melebihi batas lampu utama."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Dari f/2.8 ke f/8 terdapat selisih 3 stop f-number ($f/2.8 \\rightarrow f/4 \\rightarrow f/5.6 \\rightarrow f/8$). Setiap 1 stop melipatgandakan cahaya $2\\times$, sehingga $2^3 = 8$. Selisih 3 stop menghasilkan rasio 8:1 (kontras tinggi gaya Low Key). Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Dari f/2.8 ke f/8 terdapat selisih 3 stop f-number ($f/2.8 \\rightarrow f/4 \\rightarrow f/5.6 \\rightarrow f/8$). Setiap 1 stop melipatgandakan cahaya $2\\times$, sehingga $2^3 = 8$. Selisih 3 stop menghasilkan rasio 8:1 (kontras tinggi gaya Low Key). Jawaban: A."
   },
   {
     "id": "tekd-lat-h-07",
@@ -2428,15 +2434,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh penggunaan tinta hitam sehingga gambar majalah hanya dicetak menggunakan tiga warna primer transparan demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Menaikkan batas Total Area Coverage (TAC) kertas menjadi 500% agar tinta lebih lambat mengering di tumpukan palet."
       },
       {
         "key": "B",
-        "text": "Membuat kertas majalah menjadi tahan api dan tahan air secara permanen tanpa perlu proses laminasi plastik tambahan."
+        "text": "Menghapus seluruh penggunaan tinta hitam sehingga gambar majalah hanya dicetak menggunakan tiga warna primer transparan untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "C",
-        "text": "Menaikkan batas Total Area Coverage (TAC) kertas menjadi 500% agar tinta lebih lambat mengering di tumpukan palet."
+        "text": "Membuat kertas majalah menjadi tahan api dan tahan air secara permanen tanpa perlu proses laminasi plastik tambahan."
       },
       {
         "key": "D",
@@ -2475,23 +2481,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Intensitas cahaya meningkat 4 kali lipat lebih terang karena gelombang foton menyerap molekul udara di dalam ruangan studio."
-      },
-      {
-        "key": "C",
         "text": "Intensitas cahaya tetap persis sama 100% karena daya watt bohlam lampu studio tidak diturunkan oleh saklar listrik."
       },
       {
+        "key": "C",
+        "text": "Intensitas cahaya meningkat 4 kali lipat lebih terang karena gelombang foton menyerap molekul udara di dalam ruangan studio."
+      },
+      {
         "key": "D",
-        "text": "Cahaya padam total dan sensor kamera tidak dapat merekam objek apa pun pada jarak melampaui 3 meter."
+        "text": "Tersisa 1/4 (25%) dari intensitas cahaya awal, sehingga fotografer harus membuka diafragma lensa sebanyak 2 stop penuh (menjadi f/4) untuk mempertahankan eksposur yang setara."
       },
       {
         "key": "E",
-        "text": "Tersisa 1/4 (25%) dari intensitas cahaya awal, sehingga fotografer harus membuka diafragma lensa sebanyak 2 stop penuh (menjadi f/4) untuk mempertahankan eksposur yang setara."
+        "text": "Cahaya padam total dan sensor kamera tidak dapat merekam objek apa pun pada jarak melampaui 3 meter."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Hukum Kuadrat Terbalik: jika jarak digandakan ($2\\times$), intensitas cahaya turun menjadi $(1/2)^2 = 1/4$. Penurunan intensitas menjadi 1/4 setara dengan kehilangan 2 stop cahaya ($f/8 \\rightarrow f/5.6 \\rightarrow f/4$). Jawaban: E."
+    "correctKey": "D",
+    "explanation": "Hukum Kuadrat Terbalik: jika jarak digandakan ($2\\times$), intensitas cahaya turun menjadi $(1/2)^2 = 1/4$. Penurunan intensitas menjadi 1/4 setara dengan kehilangan 2 stop cahaya ($f/8 \\rightarrow f/5.6 \\rightarrow f/4$). Jawaban: D."
   },
   {
     "id": "tekd-lat-h-09",
@@ -2514,27 +2520,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki persamaan pada pokoknya (substantial similarity) baik secara visual, fonetik (bunyi pengucapan), maupun konseptual yang berpotensi menyesatkan konsumen mengenai asal-usul produk (likelihood of confusion)."
-      },
-      {
-        "key": "B",
-        "text": "Menggunakan warna hitam yang telah dipatenkan secara tunggal oleh kementerian olahraga republik Indonesia."
-      },
-      {
-        "key": "C",
         "text": "Kata 'ADIDASSO' memiliki jumlah suku kata ganjil yang melanggar kaidah tata bahasa baku bahasa Indonesia."
       },
       {
+        "key": "B",
+        "text": "Sepatu olahraga dilarang diproduksi di wilayah Asia Tenggara menurut kesepakatan perdagangan Jenewa."
+      },
+      {
+        "key": "C",
+        "text": "Memiliki persamaan pada pokoknya (substantial similarity) baik secara visual, fonetik (bunyi pengucapan), maupun konseptual yang berpotensi menyesatkan konsumen mengenai asal-usul produk (likelihood of confusion)."
+      },
+      {
         "key": "D",
-        "text": "Perusahaan pemohon belum terdaftar sebagai anggota perserikatan bangsa-bangsa di bidang standardisasi tekstil guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Perusahaan pemohon belum terdaftar sebagai anggota perserikatan bangsa-bangsa di bidang standardisasi tekstil guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "E",
-        "text": "Sepatu olahraga dilarang diproduksi di wilayah Asia Tenggara menurut kesepakatan perdagangan Jenewa."
+        "text": "Menggunakan warna hitam yang telah dipatenkan secara tunggal oleh kementerian olahraga republik Indonesia."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Merek ditolak jika memiliki 'persamaan pada pokoknya' (visual, bunyi ucapan/fonetik, atau konsep) untuk kelas barang yang sejenis. Kemiripan visual dan fonetik yang memicu kebingungan konsumen (likelihood of confusion) menjadi dasar penolakan mutlak. Jawaban: A."
+    "correctKey": "C",
+    "explanation": "Merek ditolak jika memiliki 'persamaan pada pokoknya' (visual, bunyi ucapan/fonetik, atau konsep) untuk kelas barang yang sejenis. Kemiripan visual dan fonetik yang memicu kebingungan konsumen (likelihood of confusion) menjadi dasar penolakan mutlak. Jawaban: C."
   },
   {
     "id": "tekd-lat-h-10",
@@ -2557,7 +2563,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "120 kg-force, yang hanya merupakan total berat 6 boks tanpa dikalikan faktor keamanan kelembapan kontainer laut sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "50 kg-force, yang dihitung dari pembagian berat keramik dengan luas permukaan tutup atas karton."
       },
       {
         "key": "B",
@@ -2573,7 +2579,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "50 kg-force, yang dihitung dari pembagian berat keramik dengan luas permukaan tutup atas karton."
+        "text": "120 kg-force, yang hanya merupakan total berat 6 boks tanpa dikalikan faktor keamanan kelembapan kontainer laut Gestalt."
       }
     ],
     "correctKey": "B",
@@ -2608,19 +2614,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kualitas cetak sangat prima dan lolos uji kontrol kualitas, karena nilai $\\Delta E_{00} < 1.0$ berada di bawah ambang batas persepsi mata manusia biasa (perbedaan warna tidak kasat mata)."
-      },
-      {
-        "key": "D",
         "text": "Operator mesin offset harus segera mengganti seluruh rol silinder mesin cetak karena warna bergeser sejauh 80 persen."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Nilai tersebut membuktikan bahwa percetakan menggunakan model warna RGB 8-bit alih-alih tinta separasi offset."
+      },
+      {
+        "key": "E",
+        "text": "Kualitas cetak sangat prima dan lolos uji kontrol kualitas, karena nilai $\\Delta E_{00} < 1.0$ berada di bawah ambang batas persepsi mata manusia biasa (perbedaan warna tidak kasat mata)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Nilai Delta E mengukur selisih dua warna. Jika $\\Delta E < 1.0$, mata manusia secara fisiologis tidak mampu melihat perbedaannya. Nilai 0.8 berada di bawah 1.0, menandakan hasil cetak presisi sempurna dan lolos QC. Jawaban: C."
+    "correctKey": "E",
+    "explanation": "Nilai Delta E mengukur selisih dua warna. Jika $\\Delta E < 1.0$, mata manusia secara fisiologis tidak mampu melihat perbedaannya. Nilai 0.8 berada di bawah 1.0, menandakan hasil cetak presisi sempurna dan lolos QC. Jawaban: E."
   },
   {
     "id": "tekd-lat-h-12",
@@ -2643,11 +2649,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menambah jumlah pilihan menjadi 128 kategori dengan warna latar belakang berkedip-kedip untuk menarik mata."
+        "text": "Mengelompokkan 64 pilihan tersebut ke dalam 5 hingga 7 kategori induk utama berbasis hierarki logis untuk meminimalkan beban kognitif dan mempersingkat waktu pengambilan keputusan pengguna."
       },
       {
         "key": "B",
-        "text": "Menghapus seluruh navigasi menu kategori dan memaksa pengguna menebak kata kunci pencarian tanpa panduan apa pun."
+        "text": "Menambah jumlah pilihan menjadi 128 kategori dengan warna latar belakang berkedip-kedip untuk menarik mata."
       },
       {
         "key": "C",
@@ -2655,15 +2661,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengelompokkan 64 pilihan tersebut ke dalam 5 hingga 7 kategori induk utama berbasis hierarki logis untuk meminimalkan beban kognitif dan mempersingkat waktu pengambilan keputusan pengguna."
+        "text": "Menghapus seluruh navigasi menu kategori dan memaksa pengguna menebak kata kunci pencarian tanpa panduan apa pun."
       },
       {
         "key": "E",
-        "text": "Mengubah ukuran font seluruh nama kategori menjadi 4 pt agar seluruh pilihan muat di dalam layar ponsel tanpa perlu scroll demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Mengubah ukuran font seluruh nama kategori menjadi 4 pt agar seluruh pilihan muat di dalam layar ponsel tanpa perlu scroll."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Hukum Hick menyatakan bahwa waktu untuk mengambil keputusan meningkat secara logaritmik seiring bertambahnya jumlah opsi. Mereduksi opsi dari 64 pilihan berserakan menjadi 5-7 kategori induk mempercepat keputusan secara drastis. Jawaban: D."
+    "correctKey": "A",
+    "explanation": "Hukum Hick menyatakan bahwa waktu untuk mengambil keputusan meningkat secara logaritmik seiring bertambahnya jumlah opsi. Mereduksi opsi dari 64 pilihan berserakan menjadi 5-7 kategori induk mempercepat keputusan secara drastis. Jawaban: A."
   },
   {
     "id": "tekd-lat-h-13",
@@ -2686,7 +2692,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1/24 detik (360 derajat sudut rana), yang menyebabkan seluruh adegan lari atlet tampak buram berbayang tanpa ketajaman sama sekali sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "1/12 detik, yang mengakibatkan memori kamera video kehabisan bandwidth transmisi sinyal audio."
       },
       {
         "key": "B",
@@ -2694,19 +2700,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "1 detik penuh, di mana kamera merekam jejak cahaya lampu malam tanpa memperlihatkan sosok atlet minuman energi."
+        "text": "1/48 atau 1/50 detik, yang merupakan dua kali lipat dari kecepatan frame per detik ($t_{\\text{shutter}} = 1 / (2 \\times \\text{FPS})$)."
       },
       {
         "key": "D",
-        "text": "1/12 detik, yang mengakibatkan memori kamera video kehabisan bandwidth transmisi sinyal audio."
+        "text": "1 detik penuh, di mana kamera merekam jejak cahaya lampu malam tanpa memperlihatkan sosok atlet minuman energi."
       },
       {
         "key": "E",
-        "text": "1/48 atau 1/50 detik, yang merupakan dua kali lipat dari kecepatan frame per detik ($t_{\\text{shutter}} = 1 / (2 \\times \\text{FPS})$)."
+        "text": "1/24 detik (360 derajat sudut rana), yang menyebabkan seluruh adegan lari atlet tampak buram berbayang tanpa ketajaman sama sekali Gestalt."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Aturan 180 derajat dalam sinematografi menyatakan bahwa kecepatan rana harus sama dengan 1 dibagi (2 kali frame rate). Pada 24 atau 25 FPS, $1/(2 \\times 24) = 1/48$ detik atau $1/50$ detik. Jawaban: E."
+    "correctKey": "C",
+    "explanation": "Aturan 180 derajat dalam sinematografi menyatakan bahwa kecepatan rana harus sama dengan 1 dibagi (2 kali frame rate). Pada 24 atau 25 FPS, $1/(2 \\times 24) = 1/48$ detik atau $1/50$ detik. Jawaban: C."
   },
   {
     "id": "tekd-lat-h-14",
@@ -2729,27 +2735,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tabular Lining Figures, di mana setiap angka memiliki lebar karakter horizontal yang sama persis (monospaced) dan tinggi angka sejajar rata dengan huruf kapital."
-      },
-      {
-        "key": "B",
-        "text": "Proportional Old Style Figures, di mana angka memiliki lebar bervariasi dan bagian bawah angka 3, 4, 5, 7, 9 menggantung di bawah garis dasar (descender) guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
-      },
-      {
-        "key": "C",
-        "text": "Faux Italic Numbers, di mana seluruh angka dimiringkan paksa 45 derajat sehingga memotong batas kolom tabel."
-      },
-      {
-        "key": "D",
         "text": "Discretionary Fractions, yang mengubah seluruh angka neraca keuangan menjadi pecahan matematika perdelapanan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Small Caps Numerals, yang mengubah angka menjadi huruf hieroglif Mesir kuno tanpa nilai nominal."
+      },
+      {
+        "key": "C",
+        "text": "Proportional Old Style Figures, di mana angka memiliki lebar bervariasi dan bagian bawah angka 3, 4, 5, 7, 9 menggantung di bawah garis dasar (descender) guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+      },
+      {
+        "key": "D",
+        "text": "Tabular Lining Figures, di mana setiap angka memiliki lebar karakter horizontal yang sama persis (monospaced) dan tinggi angka sejajar rata dengan huruf kapital."
+      },
+      {
+        "key": "E",
+        "text": "Faux Italic Numbers, di mana seluruh angka dimiringkan paksa 45 derajat sehingga memotong batas kolom tabel."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Untuk kolom tabel data keuangan yang berjejer ke bawah, angka harus menggunakan Tabular Figures agar lebar setiap karakter angka identik dan titik desimal lurus rapi. Tabular Lining Figures menjamin seluruh angka sejajar lurus secara vertikal dalam tabel neraca. Jawaban: A."
+    "correctKey": "D",
+    "explanation": "Untuk kolom tabel data keuangan yang berjejer ke bawah, angka harus menggunakan Tabular Figures agar lebar setiap karakter angka identik dan titik desimal lurus rapi. Tabular Lining Figures menjamin seluruh angka sejajar lurus secara vertikal dalam tabel neraca. Jawaban: D."
   },
   {
     "id": "tekd-lat-h-15",
@@ -2772,7 +2778,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hak cipta sepenuhnya beralih menjadi milik pribadi mantan desainer karena perusahaan hanya menyediakan perangkat komputer tanpa menyumbang ide kreatif untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Pemerintah kota setempat menyita maskot tersebut untuk dijadikan lambang resmi kantor dinas perpajakan."
       },
       {
         "key": "B",
@@ -2784,11 +2790,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Perusahaan diwajibkan oleh pengadilan membagi separuh saham kepemilikan pabrik kepada mantan desainer tersebut."
+        "text": "Hak cipta sepenuhnya beralih menjadi milik pribadi mantan desainer karena perusahaan hanya menyediakan perangkat komputer tanpa menyumbang ide kreatif untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "E",
-        "text": "Pemerintah kota setempat menyita maskot tersebut untuk dijadikan lambang resmi kantor dinas perpajakan."
+        "text": "Perusahaan diwajibkan oleh pengadilan membagi separuh saham kepemilikan pabrik kepada mantan desainer tersebut."
       }
     ],
     "correctKey": "B",
@@ -2815,7 +2821,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Law of Past Experience, di mana operator harus mengingat kembali lagu masa kanak-kanak sebelum menekan tombol darurat dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Law of Prägnanz (Hukum Keteraturan / Simplicity), di mana otak manusia memproses dan mengingat stimulus visual dalam bentuk yang paling sederhana, teratur, dan stabil dengan usaha kognitif seminimal mungkin."
       },
       {
         "key": "B",
@@ -2823,19 +2829,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Law of Prägnanz (Hukum Keteraturan / Simplicity), di mana otak manusia memproses dan mengingat stimulus visual dalam bentuk yang paling sederhana, teratur, dan stabil dengan usaha kognitif seminimal mungkin."
+        "text": "Law of Past Experience, di mana operator harus mengingat kembali lagu masa kanak-kanak sebelum menekan tombol darurat dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "D",
-        "text": "Law of Invariance, yang melarang penggunaan warna selain warna hitam dan putih pada seluruh panel industri nuklir."
+        "text": "Law of Continuity, yang memaksa operator hanya memandang layar dari sudut 180 derajat membelakangi panel kendali."
       },
       {
         "key": "E",
-        "text": "Law of Continuity, yang memaksa operator hanya memandang layar dari sudut 180 derajat membelakangi panel kendali."
+        "text": "Law of Invariance, yang melarang penggunaan warna selain warna hitam dan putih pada seluruh panel industri nuklir."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Hukum Prägnanz menyatakan bahwa persepsi visual cenderung memilih konfigurasi paling sederhana, simetris, dan teratur demi efisiensi otak. Penyederhanaan indikator untuk meminimalkan beban kognitif operator darurat menerapkan Law of Prägnanz. Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Hukum Prägnanz menyatakan bahwa persepsi visual cenderung memilih konfigurasi paling sederhana, simetris, dan teratur demi efisiensi otak. Penyederhanaan indikator untuk meminimalkan beban kognitif operator darurat menerapkan Law of Prägnanz. Jawaban: A."
   },
   {
     "id": "tekd-lat-h-17",
@@ -2858,27 +2864,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menutup seluruh jendela dan pintu ruangan rapat-rapat serta menyemprotkan pengharum ruangan beraroma mawar melati."
-      },
-      {
-        "key": "B",
-        "text": "Menyuruh pekerja menahan napas selama 8 jam jam kerja tanpa menggunakan alat bantu pernapasan apa pun."
-      },
-      {
-        "key": "C",
-        "text": "Menyediakan susu kental manis kalengan sebanyak satu sendok teh setiap akhir bulan sebagai penawar racun paru-paru demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "D",
         "text": "Memasang sistem ventilasi pembuangan lokal (Local Exhaust Ventilation - LEV) berupa tudung hisap (fume hood) tepat di atas titik penguapan mesin cetak untuk menyedot uap beracun keluar sebelum terhirup pekerja."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menutup seluruh jendela dan pintu ruangan rapat-rapat serta menyemprotkan pengharum ruangan beraroma mawar melati."
+      },
+      {
+        "key": "C",
+        "text": "Menyediakan susu kental manis kalengan sebanyak satu sendok teh setiap akhir bulan sebagai penawar racun paru-paru untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "D",
         "text": "Mengganti seluruh lampu penerangan ruangan kerja dengan bohlam warna merah untuk menyamarkan bau uap pelarut kimia."
+      },
+      {
+        "key": "E",
+        "text": "Menyuruh pekerja menahan napas selama 8 jam jam kerja tanpa menggunakan alat bantu pernapasan apa pun."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Hierarki pengendalian teknik (engineering controls) mengharuskan penangkapan sumber bahaya di titik awalnya menggunakan ventilasi hisap lokal (LEV / fume hood). Pemasangan Local Exhaust Ventilation (LEV) menyedot uap kimia berbahaya langsung di sumbernya sebelum mencemari udara kerja. Jawaban: D."
+    "correctKey": "A",
+    "explanation": "Hierarki pengendalian teknik (engineering controls) mengharuskan penangkapan sumber bahaya di titik awalnya menggunakan ventilasi hisap lokal (LEV / fume hood). Pemasangan Local Exhaust Ventilation (LEV) menyedot uap kimia berbahaya langsung di sumbernya sebelum mencemari udara kerja. Jawaban: A."
   },
   {
     "id": "tekd-lat-h-18",
@@ -2905,11 +2911,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Marketing Budget Tokens $\\rightarrow$ Copyright License Tokens $\\rightarrow$ Vector Curve Tokens $\\rightarrow$ Typography Tokens dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "CSS Inline Styles $\\rightarrow$ Adobe Illustrator Swatches $\\rightarrow$ Print Proofing Tokens $\\rightarrow$ Bleed Margin Tokens."
       },
       {
         "key": "C",
-        "text": "CSS Inline Styles $\\rightarrow$ Adobe Illustrator Swatches $\\rightarrow$ Print Proofing Tokens $\\rightarrow$ Bleed Margin Tokens."
+        "text": "Global/Primitive Tokens (misal: `blue-500: #1E88E5`) $\\rightarrow$ Semantic/Alias Tokens (misal: `color-interactive-primary: blue-500`) $\\rightarrow$ Component Tokens (misal: `btn-primary-bg: color-interactive-primary`)."
       },
       {
         "key": "D",
@@ -2917,11 +2923,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Global/Primitive Tokens (misal: `blue-500: #1E88E5`) $\\rightarrow$ Semantic/Alias Tokens (misal: `color-interactive-primary: blue-500`) $\\rightarrow$ Component Tokens (misal: `btn-primary-bg: color-interactive-primary`)."
+        "text": "Marketing Budget Tokens $\\rightarrow$ Copyright License Tokens $\\rightarrow$ Vector Curve Tokens $\\rightarrow$ Typography Tokens dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Hirarki design token standar industri: Global (nilai mentah) -> Semantic/Alias (fungsi/arti konteks) -> Component (spesifik tombol/komponen). Primitive (`blue-500`) -> Semantic (`interactive-primary`) -> Component (`btn-primary-bg`). Jawaban: E."
+    "correctKey": "C",
+    "explanation": "Hirarki design token standar industri: Global (nilai mentah) -> Semantic/Alias (fungsi/arti konteks) -> Component (spesifik tombol/komponen). Primitive (`blue-500`) -> Semantic (`interactive-primary`) -> Component (`btn-primary-bg`). Jawaban: C."
   },
   {
     "id": "tekd-lat-h-19",
@@ -2944,27 +2950,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyederhanakan kurva (Simplify Path / kurva reduksi) untuk meminimalkan jumlah titik jangkar hanya pada titik ekstrem sudut dan puncak kelengkungan, memaksimalkan penggunaan tuas kendali (handles) halus."
+        "text": "Mencelupkan lembaran stiker vinyl ke dalam minyak pelumas mesin sebelum dimasukkan ke mesin cutting plotter."
       },
       {
         "key": "B",
-        "text": "Mengonversi kurva vektor menjadi gambar raster bitmap hitam-putih 72 PPI berformat BMP."
+        "text": "Menyederhanakan kurva (Simplify Path / kurva reduksi) untuk meminimalkan jumlah titik jangkar hanya pada titik ekstrem sudut dan puncak kelengkungan, memaksimalkan penggunaan tuas kendali (handles) halus."
       },
       {
         "key": "C",
-        "text": "Menambahkan 10.000 anchor point baru di setiap segmen garis lurus untuk memperkuat daya rekat pisau plotter demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Menambahkan 10.000 anchor point baru di setiap segmen garis lurus untuk memperkuat daya rekat pisau plotter untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "D",
-        "text": "Menaikkan tekanan pisau mesin potong hingga menembus meja kerja besi hingga keluar percikan api."
+        "text": "Mengonversi kurva vektor menjadi gambar raster bitmap hitam-putih 72 PPI berformat BMP."
       },
       {
         "key": "E",
-        "text": "Mencelupkan lembaran stiker vinyl ke dalam minyak pelumas mesin sebelum dimasukkan ke mesin cutting plotter."
+        "text": "Menaikkan tekanan pisau mesin potong hingga menembus meja kerja besi hingga keluar percikan api."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Titik jangkar yang terlalu padat membuat pisau plotter tersendat karena harus mengubah orientasi pisau terus-menerus. Kurva harus disederhanakan (Simplify Path). Gunakan Simplify Path untuk menyisakan anchor point di titik-titik ekstrem penting saja. Jawaban: A."
+    "correctKey": "B",
+    "explanation": "Titik jangkar yang terlalu padat membuat pisau plotter tersendat karena harus mengubah orientasi pisau terus-menerus. Kurva harus disederhanakan (Simplify Path). Gunakan Simplify Path untuk menyisakan anchor point di titik-titik ekstrem penting saja. Jawaban: B."
   },
   {
     "id": "tekd-lat-h-20",
@@ -2987,27 +2993,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghasilkan video yang sudah memiliki kontras tajam dan warna sangat menyala sehingga tidak memerlukan proses editing sama sekali dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
-      },
-      {
-        "key": "B",
         "text": "Mengompresi kurva respons cahaya secara logaritmik untuk memaksimalkan perekaman rentang dinamis (Dynamic Range) sensor kamera hingga 14+ stop, menyelamatkan detail di area bayangan gelap dan highlight terik secara bersamaan untuk tahapan color grading."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menghapus suara bising angin secara otomatis menggunakan algoritma kecerdasan buatan di dalam lensa kamera."
       },
       {
+        "key": "C",
+        "text": "Menghasilkan video yang sudah memiliki kontras tajam dan warna sangat menyala sehingga tidak memerlukan proses editing sama sekali dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+      },
+      {
         "key": "D",
-        "text": "Membuat ukuran file video menjadi nol Megabyte sehingga dapat disimpan di kartu SIM telepon genggam lama."
+        "text": "Memaksa proyektor bioskop memutar film pada kecepatan 240 frame per detik tanpa distorsi gambar."
       },
       {
         "key": "E",
-        "text": "Memaksa proyektor bioskop memutar film pada kecepatan 240 frame per detik tanpa distorsi gambar."
+        "text": "Membuat ukuran file video menjadi nol Megabyte sehingga dapat disimpan di kartu SIM telepon genggam lama."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Log gamma merekam gambar berpenampilan flat/kusam dengan tujuan menyimpan rentang dinamis (dynamic range) sensor semaksimal mungkin dari gelap hingga terang. Mempertahankan rentang dinamis (dynamic range) tinggi hingga 14+ stop untuk color grading. Jawaban: B."
+    "correctKey": "A",
+    "explanation": "Log gamma merekam gambar berpenampilan flat/kusam dengan tujuan menyimpan rentang dinamis (dynamic range) sensor semaksimal mungkin dari gelap hingga terang. Mempertahankan rentang dinamis (dynamic range) tinggi hingga 14+ stop untuk color grading. Jawaban: A."
   },
   {
     "id": "tekd-lat-h-21",
@@ -3030,7 +3036,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tekan pada bagian serat atas balok, dan Tarik pada bagian serat bawah balok kantilever."
+        "text": "Gaya putar puntir (torsion) sebesar 360 derajat di setiap titik jangkar bidang dua dimensi untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "B",
@@ -3042,11 +3048,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Gaya magnet bumi vertikal yang mendorong balok ke arah langit secara gravitasi terbalik."
+        "text": "Tekan pada bagian serat atas balok, dan Tarik pada bagian serat bawah balok kantilever."
       },
       {
         "key": "E",
-        "text": "Gaya putar puntir (torsion) sebesar 360 derajat di setiap titik jangkar bidang dua dimensi untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Gaya magnet bumi vertikal yang mendorong balok ke arah langit secara gravitasi terbalik."
       }
     ],
     "correctKey": "C",
@@ -3073,11 +3079,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengganti seluruh botol plastik dengan botol kaca tebal berlapis cat keramik seberat 2 kilogram per botol untuk dikirim ke seluruh dunia."
+        "text": "Mengimpor wadah kayu jati solid langka yang ditebang dari hutan lindung purba setiap kali produksi batch kosmetik baru."
       },
       {
         "key": "B",
-        "text": "Menggunakan plastik Oxo-degradable yang hancur menjadi serpihan mikroplastik berbahaya yang mencemari air tanah dan rantai makanan laut."
+        "text": "Mengganti seluruh botol plastik dengan botol kaca tebal berlapis cat keramik seberat 2 kilogram per botol untuk dikirim ke seluruh dunia."
       },
       {
         "key": "C",
@@ -3085,15 +3091,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Menggunakan botol 100% Post-Consumer Recycled (PCR) PET dengan sistem kemasan isi ulang (refill pouch berbahan mono-material fleksibel yang mudah didaur ulang)."
+        "text": "Menggunakan plastik Oxo-degradable yang hancur menjadi serpihan mikroplastik berbahaya yang mencemari air tanah dan rantai makanan laut."
       },
       {
         "key": "E",
-        "text": "Mengimpor wadah kayu jati solid langka yang ditebang dari hutan lindung purba setiap kali produksi batch kosmetik baru."
+        "text": "Menggunakan botol 100% Post-Consumer Recycled (PCR) PET dengan sistem kemasan isi ulang (refill pouch berbahan mono-material fleksibel yang mudah didaur ulang)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "LCA mempertimbangkan rantai pasok lengkap. Kaca berat meningkatkan emisi pengiriman. Solusi modern paling sirkular adalah PCR (Post-Consumer Recycled) dengan sistem isi ulang mono-material. PCR PET dengan sistem kantong isi ulang (refill) mono-material. Jawaban: D."
+    "correctKey": "E",
+    "explanation": "LCA mempertimbangkan rantai pasok lengkap. Kaca berat meningkatkan emisi pengiriman. Solusi modern paling sirkular adalah PCR (Post-Consumer Recycled) dengan sistem isi ulang mono-material. PCR PET dengan sistem kantong isi ulang (refill) mono-material. Jawaban: E."
   },
   {
     "id": "tekd-lat-h-23",
@@ -3120,11 +3126,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pelanggan lama secara otomatis kehilangan seluruh koleksi baju di lemari pakaian mereka di rumah."
+        "text": "Kehilangan diferensiasi identitas visual unik dan nilai warisan sejarah (heritage value), sehingga merek tampak generik dan sulit dibedakan dari kompetitor di pasar."
       },
       {
         "key": "C",
-        "text": "Pemerintah federal membatalkan seluruh izin ekspor impor pakaian rajut di benua Eropa."
+        "text": "Pelanggan lama secara otomatis kehilangan seluruh koleksi baju di lemari pakaian mereka di rumah."
       },
       {
         "key": "D",
@@ -3132,11 +3138,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kehilangan diferensiasi identitas visual unik dan nilai warisan sejarah (heritage value), sehingga merek tampak generik dan sulit dibedakan dari kompetitor di pasar."
+        "text": "Pemerintah federal membatalkan seluruh izin ekspor impor pakaian rajut di benua Eropa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Tren penyeragaman logo luxury brand menjadi font sans-serif sederhana (blanding) memicu hilangnya diferensiasi khas dan nilai historis warisan merek. Hilangnya diferensiasi dan nilai warisan sejarah brand membuat identitas menjadi generik. Jawaban: E."
+    "correctKey": "B",
+    "explanation": "Tren penyeragaman logo luxury brand menjadi font sans-serif sederhana (blanding) memicu hilangnya diferensiasi khas dan nilai historis warisan merek. Hilangnya diferensiasi dan nilai warisan sejarah brand membuat identitas menjadi generik. Jawaban: B."
   },
   {
     "id": "tekd-lat-h-24",
@@ -3159,27 +3165,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Maksimal 2 jam per hari kerja, karena paparan intensitas bising 95 dBA di luar batas durasi tersebut dapat menyebabkan Trauma Akustik dan Gangguan Pendengaran Akibat Bising (Noise-Induced Hearing Loss - NIHL) permanen."
-      },
-      {
-        "key": "B",
-        "text": "Boleh didengarkan selama 24 jam nonstop setiap hari asalkan editor meminum suplemen vitamin C dosis tinggi."
-      },
-      {
-        "key": "C",
         "text": "Maksimal 8 jam per hari kerja karena telinga manusia secara otomatis kebal terhadap suara di bawah 120 dBA."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Maksimal 15 detik saja karena telinga manusia akan langsung terbakar jika terpapar suara berintensitas 95 dBA."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Boleh didengarkan selama 24 jam nonstop setiap hari asalkan editor meminum suplemen vitamin C dosis tinggi."
+      },
+      {
+        "key": "D",
         "text": "Tidak ada batasan waktu sama sekali karena suara musik studio tergolong gelombang suara harmonis yang menyehatkan untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "E",
+        "text": "Maksimal 2 jam per hari kerja, karena paparan intensitas bising 95 dBA di luar batas durasi tersebut dapat menyebabkan Trauma Akustik dan Gangguan Pendengaran Akibat Bising (Noise-Induced Hearing Loss - NIHL) permanen."
       }
     ],
-    "correctKey": "A",
-    "explanation": "NAB kebisingan kerja standar: 85 dBA untuk 8 jam. Setiap kenaikan 3 dB, waktu pajanan aman berkurang 50%: 88 dB = 4 jam, 91 dB = 2 jam, 94-95 dB = 1-2 jam. Pada 95 dBA, batas aman paparan per hari adalah maksimal sekitar 2 jam. Jawaban: A."
+    "correctKey": "E",
+    "explanation": "NAB kebisingan kerja standar: 85 dBA untuk 8 jam. Setiap kenaikan 3 dB, waktu pajanan aman berkurang 50%: 88 dB = 4 jam, 91 dB = 2 jam, 94-95 dB = 1-2 jam. Pada 95 dBA, batas aman paparan per hari adalah maksimal sekitar 2 jam. Jawaban: E."
   },
   {
     "id": "tekd-lat-h-25",
@@ -3202,7 +3208,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Swiss Style hanya mengizinkan tulisan berbahasa Jerman kuno, sedangkan David Carson hanya mendesain huruf alfabet Arab kaligrafi."
+        "text": "Kedua aliran desain tersebut tidak memiliki perbedaan filosofis sama sekali dan diciptakan oleh orang yang sama pada tahun yang sama."
       },
       {
         "key": "B",
@@ -3218,7 +3224,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kedua aliran desain tersebut tidak memiliki perbedaan filosofis sama sekali dan diciptakan oleh orang yang sama pada tahun yang sama."
+        "text": "Swiss Style hanya mengizinkan tulisan berbahasa Jerman kuno, sedangkan David Carson hanya mendesain huruf alfabet Arab kaligrafi."
       }
     ],
     "correctKey": "B",
@@ -3245,27 +3251,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hot Stamping Gold Foil, yang menempelkan lembaran logam emas berkilau menggunakan plat pemanas tembaga bertekanan hidrolik untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "B",
-        "text": "Blind Debossing, yang menekan kertas ke arah dalam secara mekanis tanpa menambahkan bahan pelapis kimia apa pun."
-      },
-      {
-        "key": "C",
         "text": "Laminasi Glossy penuh pada seluruh permukaan kertas yang menghilangkan seluruh efek redup matte cover buku."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Sablon pasta karet timbul berwarna putih solid yang menutupi seluruh huruf judul dengan lapisan tebal 2 milimeter."
+      },
+      {
+        "key": "C",
         "text": "Spot UV Varnish di atas laminasi Doff, di mana cairan pernis polimer khusus disinari lampu ultraviolet selektif hanya pada area judul dan logo untuk menciptakan kontras tekstur kilap vs redup yang mewah."
       },
       {
+        "key": "D",
+        "text": "Hot Stamping Gold Foil, yang menempelkan lembaran logam emas berkilau menggunakan plat pemanas tembaga bertekanan hidrolik untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
         "key": "E",
-        "text": "Sablon pasta karet timbul berwarna putih solid yang menutupi seluruh huruf judul dengan lapisan tebal 2 milimeter."
+        "text": "Blind Debossing, yang menekan kertas ke arah dalam secara mekanis tanpa menambahkan bahan pelapis kimia apa pun."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Spot UV adalah pemberian pernis mengkilap pada bagian/area tertentu (spot) saja di atas lapisan doff untuk memunculkan efek kontras kilap yang elegan. Pilih Spot UV Varnish di atas laminasi doff. Jawaban: D."
+    "correctKey": "C",
+    "explanation": "Spot UV adalah pemberian pernis mengkilap pada bagian/area tertentu (spot) saja di atas lapisan doff untuk memunculkan efek kontras kilap yang elegan. Pilih Spot UV Varnish di atas laminasi doff. Jawaban: C."
   },
   {
     "id": "tekd-sim-02",
@@ -3288,15 +3294,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Filter Neutral Density (ND 1000) pekat, yang hanya menggelapkan seluruh bidang gambar secara merata tanpa mempengaruhi pantulan silau dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
-      },
-      {
-        "key": "B",
         "text": "Filter Ultraviolet (UV) bening biasa, yang hanya berfungsi sebagai kaca pelindung fisik lensa dari goresan debu kasar."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Filter Star 8-Point Cross, yang mengubah setiap titik pantulan cahaya menjadi kilauan bintang delapan arah yang menyilaukan mata."
+      },
+      {
+        "key": "C",
+        "text": "Filter Neutral Density (ND 1000) pekat, yang hanya menggelapkan seluruh bidang gambar secara merata tanpa mempengaruhi pantulan silau dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "D",
@@ -3331,7 +3337,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ligature (Standard Ligatures 'fi', 'fl'), yang meleburkan titik 'i' ke dalam kurva ujung atas huruf 'f' untuk meningkatkan keindahan aliran visual dan keterbacaan teks."
+        "text": "Monospace Spacing, yang memisahkan huruf 'f' dan 'i' sejauh 10 spasi kosong menggunakan tombol spasi keyboard."
       },
       {
         "key": "B",
@@ -3339,19 +3345,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "All Caps Transformation, yang mengubah seluruh huruf 'fi' menjadi huruf kapital besar balok berukuran 36 pt."
-      },
-      {
-        "key": "D",
         "text": "Vertical Baseline Shift, yang menaikkan huruf 'i' setinggi 5 sentimeter di atas huruf 'f'."
       },
       {
+        "key": "D",
+        "text": "Ligature (Standard Ligatures 'fi', 'fl'), yang meleburkan titik 'i' ke dalam kurva ujung atas huruf 'f' untuk meningkatkan keindahan aliran visual dan keterbacaan teks."
+      },
+      {
         "key": "E",
-        "text": "Monospace Spacing, yang memisahkan huruf 'f' dan 'i' sejauh 10 spasi kosong menggunakan tombol spasi keyboard."
+        "text": "All Caps Transformation, yang mengubah seluruh huruf 'fi' menjadi huruf kapital besar balok berukuran 36 pt."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Ligatur (ligature) adalah glif khusus yang menggabungkan dua huruf yang rawan bertabrakan seperti 'f' dan 'i' menjadi satu kesatuan glif 'fi'. Pilih Standard Ligatures ('fi', 'fl'). Jawaban: A."
+    "correctKey": "D",
+    "explanation": "Ligatur (ligature) adalah glif khusus yang menggabungkan dua huruf yang rawan bertabrakan seperti 'f' dan 'i' menjadi satu kesatuan glif 'fi'. Pilih Standard Ligatures ('fi', 'fl'). Jawaban: D."
   },
   {
     "id": "tekd-sim-04",
@@ -3374,27 +3380,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencetak garis batang barcode menggunakan tinta hitam pekat di atas latar belakang kotak putih bersih."
-      },
-      {
-        "key": "B",
         "text": "Menempatkan elemen ilustrasi grafik terlalu mepet dan tidak menyisakan ruang kosong putih di sisi kiri dan kanan batang barcode (melanggar batas minimal Quiet Zone sebesar 3.63 mm)."
       },
       {
+        "key": "B",
+        "text": "Mencetak garis batang barcode menggunakan tinta hitam pekat di atas latar belakang kotak putih bersih."
+      },
+      {
         "key": "C",
-        "text": "Menggunakan angka berjumlah 13 digit lengkap yang telah terdaftar secara legal di lembaga GS1 Indonesia untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Meletakkan barcode di bagian panel belakang kemasan biskuit yang permukaannya rata tanpa kerutan."
       },
       {
         "key": "D",
-        "text": "Meletakkan barcode di bagian panel belakang kemasan biskuit yang permukaannya rata tanpa kerutan."
+        "text": "Menggunakan angka berjumlah 13 digit lengkap yang telah terdaftar secara legal di lembaga GS1 Indonesia untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "E",
         "text": "Mencetak barcode dengan orientasi tegak lurus searah dengan arah jalannya silinder mesin rotogravure."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Sensor laser barcode kasir membutuhkan zona hening (Quiet Zone)—area kosong bersih di kiri dan kanan kode batang—untuk menandai awal dan akhir pembacaan. Mengabaikan batas Quiet Zone (margin putih kiri-kanan) membuat pemindai gagal membaca barcode. Jawaban: B."
+    "correctKey": "A",
+    "explanation": "Sensor laser barcode kasir membutuhkan zona hening (Quiet Zone)—area kosong bersih di kiri dan kanan kode batang—untuk menandai awal dan akhir pembacaan. Mengabaikan batas Quiet Zone (margin putih kiri-kanan) membuat pemindai gagal membaca barcode. Jawaban: A."
   },
   {
     "id": "tekd-sim-05",
@@ -3425,19 +3431,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Ditolak atau tidak memenuhi syarat hak cipta, karena karya yang dihasilkan murni oleh kecerdasan buatan tanpa campur tangan kreativitas manusia (human authorship) yang substansial tidak diakui sebagai subjek perlindungan hak cipta."
+        "text": "Desainer otomatis diangkat menjadi menteri ekonomi kreatif karena berhasil mengetik kalimat prompt sepuluh kata."
       },
       {
         "key": "D",
-        "text": "Desainer otomatis diangkat menjadi menteri ekonomi kreatif karena berhasil mengetik kalimat prompt sepuluh kata."
+        "text": "Ditolak atau tidak memenuhi syarat hak cipta, karena karya yang dihasilkan murni oleh kecerdasan buatan tanpa campur tangan kreativitas manusia (human authorship) yang substansial tidak diakui sebagai subjek perlindungan hak cipta."
       },
       {
         "key": "E",
         "text": "Pemerintah memberikan medali penghargaan emas atas penemuan teknologi lukisan manual tertua di dunia."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Hukum hak cipta internasional dan nasional mensyaratkan adanya 'kreativitas manusia' (Human Authorship). Output murni ketikan prompt AI tidak memiliki hak cipta. Karya murni AI tanpa kreativitas manusia yang substansial tidak diakui sebagai ciptaan yang dilindungi hak cipta. Jawaban: C."
+    "correctKey": "D",
+    "explanation": "Hukum hak cipta internasional dan nasional mensyaratkan adanya 'kreativitas manusia' (Human Authorship). Output murni ketikan prompt AI tidak memiliki hak cipta. Karya murni AI tanpa kreativitas manusia yang substansial tidak diakui sebagai ciptaan yang dilindungi hak cipta. Jawaban: D."
   },
   {
     "id": "tekd-sim-06",
@@ -3503,15 +3509,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyalakan mode hemat daya baterai dan mematikan lampu monitor hingga tingkat kecerahan nol persen."
-      },
-      {
-        "key": "B",
         "text": "Mengganti kaca meja kerja desainer dengan marmer hitam agar bayangan keyboard tidak memantul ke layar."
       },
       {
+        "key": "B",
+        "text": "Menyalakan mode hemat daya baterai dan mematikan lampu monitor hingga tingkat kecerahan nol persen."
+      },
+      {
         "key": "C",
-        "text": "Menyetel kecerahan monitor ke tingkat maksimal 1000 nits dan memilih profil warna bioskop 'Vivid Dynamic' sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Menyetel kecerahan monitor ke tingkat maksimal 1000 nits dan memilih profil warna bioskop 'Vivid Dynamic' Gestalt dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "D",
@@ -3546,15 +3552,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ketinggian kursi diatur agar telapak kaki menapak rata di lantai dengan sudut lutut 90 derajat, siku lengan bertumpu sejajar meja dengan sudut 90 derajat, serta sandaran kursi menopang kurva lekukan pinggang bawah (lumbar support)."
+        "text": "Mencondongkan leher ke depan sejauh 15 sentimeter dengan pandangan mata menengadah ke langit-langit atap ruangan."
       },
       {
         "key": "B",
-        "text": "Kursi diatur setinggi mungkin hingga kedua kaki menggantung bebas di udara dan punggung membungkuk ke depan menempel meja demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Ketinggian kursi diatur agar telapak kaki menapak rata di lantai dengan sudut lutut 90 derajat, siku lengan bertumpu sejajar meja dengan sudut 90 derajat, serta sandaran kursi menopang kurva lekukan pinggang bawah (lumbar support)."
       },
       {
         "key": "C",
-        "text": "Bekerja sambil berbaring telentang di lantai tanpa bantal penyangga kepala selama 8 jam nonstop."
+        "text": "Kursi diatur setinggi mungkin hingga kedua kaki menggantung bebas di udara dan punggung membungkuk ke depan menempel meja untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "D",
@@ -3562,11 +3568,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mencondongkan leher ke depan sejauh 15 sentimeter dengan pandangan mata menengadah ke langit-langit atap ruangan."
+        "text": "Bekerja sambil berbaring telentang di lantai tanpa bantal penyangga kepala selama 8 jam nonstop."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Prinsip postur ergonomis komputer: Aturan 90 derajat (lutut, siku, pinggul), kaki menapak lantai, dan lumbar support menyangga pinggang. Kaki menapak rata (lutut 90°), siku 90°, dan sandaran menopang pinggang (lumbar support). Jawaban: A."
+    "correctKey": "B",
+    "explanation": "Prinsip postur ergonomis komputer: Aturan 90 derajat (lutut, siku, pinggul), kaki menapak lantai, dan lumbar support menyangga pinggang. Kaki menapak rata (lutut 90°), siku 90°, dan sandaran menopang pinggang (lumbar support). Jawaban: B."
   },
   {
     "id": "tekd-sim-09",
@@ -3597,15 +3603,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menutup seluruh jendela kaca vila dengan cat pilox semprot berwarna hitam legam agar tidak ada cahaya luar yang masuk dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
-      },
-      {
-        "key": "D",
         "text": "Memotret menggunakan lampu kilat (flash) bodi internal kamera yang diarahkan tegak lurus langsung ke kaca jendela."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengganti lensa kamera dengan lensa teropong bintang berjarak fokus 1000 milimeter."
+      },
+      {
+        "key": "E",
+        "text": "Menutup seluruh jendela kaca vila dengan cat pilox semprot berwarna hitam legam agar tidak ada cahaya luar yang masuk dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       }
     ],
     "correctKey": "B",
@@ -3632,11 +3638,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reverse Engineering, yaitu proses membongkar mesin pembuat kopi untuk mempelajari susunan roda gigi mekanik di dalamnya demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+        "text": "Public Domain Dedication, yaitu pelepasan sukarela hak cipta oleh pemilik karya kepada seluruh masyarakat dunia."
       },
       {
         "key": "B",
-        "text": "Fair Use Doktrin, yaitu penggunaan sebagian kecil kutipan berita untuk tujuan ulasan kritis dan pendidikan nirlaba."
+        "text": "Trade Secret Licensing, yaitu perjanjian rahasia resep pembuatan sirup karamel antara dua pemilik perkebunan tebu."
       },
       {
         "key": "C",
@@ -3644,11 +3650,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Public Domain Dedication, yaitu pelepasan sukarela hak cipta oleh pemilik karya kepada seluruh masyarakat dunia."
+        "text": "Reverse Engineering, yaitu proses membongkar mesin pembuat kopi untuk mempelajari susunan roda gigi mekanik di dalamnya untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
       },
       {
         "key": "E",
-        "text": "Trade Secret Licensing, yaitu perjanjian rahasia resep pembuatan sirup karamel antara dua pemilik perkebunan tebu."
+        "text": "Fair Use Doktrin, yaitu penggunaan sebagian kecil kutipan berita untuk tujuan ulasan kritis dan pendidikan nirlaba."
       }
     ],
     "correctKey": "C",
@@ -3675,27 +3681,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perubahan warna tinta barcode kemasan dari warna hitam menjadi warna pelangi menyala saat terkena air panas."
-      },
-      {
-        "key": "B",
-        "text": "Peningkatan berat jenis bubur bayi menjadi seberat logam timbal saat terkena paparan cahaya lampu dapur."
-      },
-      {
-        "key": "C",
         "text": "Timbulnya gelombang suara ultrasonik dari dalam kantong kemasan yang dapat mengagetkan orang tua bayi."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Perubahan warna tinta barcode kemasan dari warna hitam menjadi warna pelangi menyala saat terkena air panas."
+      },
+      {
+        "key": "C",
         "text": "Migrasi zat kimia beracun dari lapisan kemasan plastik ke dalam produk makanan bayi akibat pemanasan suhu tinggi, yang dapat memicu gangguan sistem endokrin dan kesehatan anak."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Larangan dari kementerian perdagangan untuk mencantumkan gambar foto bayi pada label kemasan makanan."
+      },
+      {
+        "key": "E",
+        "text": "Peningkatan berat jenis bubur bayi menjadi seberat logam timbal saat terkena paparan cahaya lampu dapur."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Standar kemasan Food Grade (bebas BPA) bertujuan mencegah migrasi zat kimia beracun dari wadah plastik ke dalam makanan saat terkena suhu panas. Mencegah migrasi zat kimia beracun ke dalam makanan akibat panas tinggi. Jawaban: D."
+    "correctKey": "C",
+    "explanation": "Standar kemasan Food Grade (bebas BPA) bertujuan mencegah migrasi zat kimia beracun dari wadah plastik ke dalam makanan saat terkena suhu panas. Mencegah migrasi zat kimia beracun ke dalam makanan akibat panas tinggi. Jawaban: C."
   },
   {
     "id": "tekd-sim-12",
@@ -3718,7 +3724,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memaksa seluruh foto lukisan dicetak dalam bentuk lingkaran bulat kecil berdiameter 1 sentimeter tanpa variasi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Memberikan fleksibilitas tinggi dalam mengelompokkan beberapa modul bidang menjadi zona spasial multifungsi untuk memuat berbagai proporsi foto karya seni secara harmonis dan konsisten."
       },
       {
         "key": "B",
@@ -3730,15 +3736,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengurangi biaya pembelian kertas buku di pabrik kertas sebesar sembilan puluh persen secara instan."
+        "text": "Memaksa seluruh foto lukisan dicetak dalam bentuk lingkaran bulat kecil berdiameter 1 sentimeter tanpa variasi guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "E",
-        "text": "Memberikan fleksibilitas tinggi dalam mengelompokkan beberapa modul bidang menjadi zona spasial multifungsi untuk memuat berbagai proporsi foto karya seni secara harmonis dan konsisten."
+        "text": "Mengurangi biaya pembelian kertas buku di pabrik kertas sebesar sembilan puluh persen secara instan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Grid modular membagi halaman menjadi matriks kotak-kotak (modul) yang dapat digabungkan menjadi berbagai ukuran bidang (spatial zones) yang fleksibel. Memberikan fleksibilitas pengelompokan modul menjadi zona spasial harmonis untuk berbagai variasi ukuran gambar. Jawaban: E."
+    "correctKey": "A",
+    "explanation": "Grid modular membagi halaman menjadi matriks kotak-kotak (modul) yang dapat digabungkan menjadi berbagai ukuran bidang (spatial zones) yang fleksibel. Memberikan fleksibilitas pengelompokan modul menjadi zona spasial harmonis untuk berbagai variasi ukuran gambar. Jawaban: A."
   },
   {
     "id": "tekd-sim-13",
@@ -3761,27 +3767,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghilangkan tahapan pembuatan film perantara dan penyinaran manual vakum, sehingga registrasi warna jauh lebih presisi, titik raster halftone lebih tajam (generasi pertama), serta meniadakan limbah kimia perak nitrat pemroses film."
-      },
-      {
-        "key": "B",
-        "text": "Memungkinkan mesin cetak bekerja tanpa menggunakan plat aluminium dan tanpa menggunakan tinta cetak sama sekali untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "C",
         "text": "Membuat kertas majalah yang dicetak otomatis berubah menjadi layar sentuh digital interaktif."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Memungkinkan mesin cetak bekerja tanpa menggunakan plat aluminium dan tanpa menggunakan tinta cetak sama sekali untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi Gestalt."
+      },
+      {
+        "key": "C",
         "text": "Menaikkan suhu ruangan percetakan hingga 500 derajat Celsius untuk mengeringkan pakaian karyawan pabrik."
+      },
+      {
+        "key": "D",
+        "text": "Menghilangkan tahapan pembuatan film perantara dan penyinaran manual vakum, sehingga registrasi warna jauh lebih presisi, titik raster halftone lebih tajam (generasi pertama), serta meniadakan limbah kimia perak nitrat pemroses film."
       },
       {
         "key": "E",
         "text": "Mengharuskan operator mencetak seluruh halaman majalah menggunakan kuas lukis cat air satu per satu."
       }
     ],
-    "correctKey": "A",
-    "explanation": "CtP (Computer to Plate) mengekspos laser langsung ke plat aluminium tanpa melalui film plastik. Hasilnya jauh lebih presisi, tajam, cepat, dan ramah lingkungan. Menghilangkan film perantara, registrasi warna lebih presisi, dan meniadakan limbah kimia perak nitrat. Jawaban: A."
+    "correctKey": "D",
+    "explanation": "CtP (Computer to Plate) mengekspos laser langsung ke plat aluminium tanpa melalui film plastik. Hasilnya jauh lebih presisi, tajam, cepat, dan ramah lingkungan. Menghilangkan film perantara, registrasi warna lebih presisi, dan meniadakan limbah kimia perak nitrat. Jawaban: D."
   },
   {
     "id": "tekd-sim-14",
@@ -3804,27 +3810,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tidak terjadi pelanggaran apa pun karena setiap font yang telah dibeli sekali otomatis menjadi hak milik mutlak pembeli selamanya tanpa batasan media."
-      },
-      {
-        "key": "B",
-        "text": "Melanggar ketentuan EULA font, karena Desktop License hanya mengizinkan penggunaan instalasi lokal pada perangkat komputer untuk media statis/cetak; penggunaan pada situs web memerlukan Webfont License (berdasarkan pageviews) dan aplikasi memerlukan App/Server Embedding License."
-      },
-      {
-        "key": "C",
-        "text": "Sistem operasi Android akan secara otomatis menghapus seluruh nomor kontak telepon pengguna yang mengunduh aplikasi startup tersebut."
-      },
-      {
-        "key": "D",
         "text": "Desainer font berhak menyita seluruh gedung kantor startup dan menjualnya di balai lelang negara."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Sistem operasi Android akan secara otomatis menghapus seluruh nomor kontak telepon pengguna yang mengunduh aplikasi startup tersebut."
+      },
+      {
+        "key": "C",
         "text": "Startup hanya perlu mengirimkan sepucuk surat permohonan maaf tanpa ada kewajiban hukum membayar lisensi tambahan."
+      },
+      {
+        "key": "D",
+        "text": "Tidak terjadi pelanggaran apa pun karena setiap font yang telah dibeli sekali otomatis menjadi hak milik mutlak pembeli selamanya tanpa batasan media."
+      },
+      {
+        "key": "E",
+        "text": "Melanggar ketentuan EULA font, karena Desktop License hanya mengizinkan penggunaan instalasi lokal pada perangkat komputer untuk media statis/cetak; penggunaan pada situs web memerlukan Webfont License (berdasarkan pageviews) dan aplikasi memerlukan App/Server Embedding License."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Lisensi font Desktop berbeda dengan Webfont atau App Embedding. Desktop hanya untuk instalasi lokal komputer. Menyematkan ke server web/aplikasi tanpa lisensi tepat melanggar EULA hak cipta. Desktop License hanya untuk instalasi lokal komputer; web dan aplikasi butuh Webfont dan App/Embedding License khusus. Jawaban: B."
+    "correctKey": "E",
+    "explanation": "Lisensi font Desktop berbeda dengan Webfont atau App Embedding. Desktop hanya untuk instalasi lokal komputer. Menyematkan ke server web/aplikasi tanpa lisensi tepat melanggar EULA hak cipta. Desktop License hanya untuk instalasi lokal komputer; web dan aplikasi butuh Webfont dan App/Embedding License khusus. Jawaban: E."
   },
   {
     "id": "tekd-sim-15",
@@ -3847,11 +3853,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Irama Statis Monoton, di mana bentuk dan jarak selalu diulang dalam bentuk yang sama kaku tanpa ada perubahan apa pun demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Proporsi Kerdil, di mana seluruh elemen visual menyusut hingga tidak dapat dilihat tanpa mikroskop optik."
       },
       {
         "key": "B",
-        "text": "Kekacauan Visual (Visual Chaos), di mana tidak ditemukan pola hubungan logis antarelemen rupa."
+        "text": "Tekstur Taktil Nyata, di mana kertas sampul buku otomatis bergetar mengeluarkan nada musik saat dibuka pembaca."
       },
       {
         "key": "C",
@@ -3859,11 +3865,11 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Tekstur Taktil Nyata, di mana kertas sampul buku otomatis bergetar mengeluarkan nada musik saat dibuka pembaca."
+        "text": "Irama Statis Monoton, di mana bentuk dan jarak selalu diulang dalam bentuk yang sama kaku tanpa ada perubahan apa pun."
       },
       {
         "key": "E",
-        "text": "Proporsi Kerdil, di mana seluruh elemen visual menyusut hingga tidak dapat dilihat tanpa mikroskop optik."
+        "text": "Kekacauan Visual (Visual Chaos), di mana tidak ditemukan pola hubungan logis antarelemen rupa."
       }
     ],
     "correctKey": "C",
@@ -3894,7 +3900,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menyorot mata serangga menggunakan lampu laser pemotong besi berkekuatan 10.000 Watt dari jarak 1 cm sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+        "text": "Mengguncang kamera sekuat tenaga saat tombol rana ditekan untuk menyebarkan titik fokus secara acak."
       },
       {
         "key": "C",
@@ -3902,15 +3908,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Focus Stacking, yaitu memotret puluhan foto berturut-turut dengan menggeser titik fokus milimeter demi milimeter menggunakan rel makro, lalu menggabungkan seluruh area tajamnya menggunakan software pengolah gambar."
+        "text": "Menyorot mata serangga menggunakan lampu laser pemotong besi berkekuatan 10.000 Watt dari jarak 1 cm Gestalt dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
       },
       {
         "key": "E",
-        "text": "Mengguncang kamera sekuat tenaga saat tombol rana ditekan untuk menyebarkan titik fokus secara acak."
+        "text": "Focus Stacking, yaitu memotret puluhan foto berturut-turut dengan menggeser titik fokus milimeter demi milimeter menggunakan rel makro, lalu menggabungkan seluruh area tajamnya menggunakan software pengolah gambar."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Lensa makro perbesaran tinggi memiliki DoF sangat tipis. Focus Stacking memotret irisan-irisan fokus berbeda lalu menggabungkan bagian tajamnya. Teknik Focus Stacking dengan rel makro untuk menggabungkan irisan area tajam. Jawaban: D."
+    "correctKey": "E",
+    "explanation": "Lensa makro perbesaran tinggi memiliki DoF sangat tipis. Focus Stacking memotret irisan-irisan fokus berbeda lalu menggabungkan bagian tajamnya. Teknik Focus Stacking dengan rel makro untuk menggabungkan irisan area tajam. Jawaban: E."
   },
   {
     "id": "tekd-sim-17",
@@ -3933,7 +3939,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menggabungkan seluruh elemen cetak, garis pisau potong, dan emboss menjadi satu gambar bitmap JPEG 72 PPI tunggal yang di-flatten."
+        "text": "Memisahkan artwork cetak CMYK, jalur pisau Die-Cut, dan area Emboss ke dalam layer-layer terpisah yang berbeda, dengan garis Die-Cut dan bentuk Emboss menggunakan Spot Color khusus bertipe Technical/No-Print."
       },
       {
         "key": "B",
@@ -3941,19 +3947,19 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menggambar garis potong menggunakan pulpen tinta basah langsung di atas layar monitor komputer percetakan."
+        "text": "Menggabungkan seluruh elemen cetak, garis pisau potong, dan emboss menjadi satu gambar bitmap JPEG 72 PPI tunggal yang di-flatten."
       },
       {
         "key": "D",
-        "text": "Menghapus seluruh teks kartu nama dan membiarkan lembaran kanvas kosong melompong tanpa data vektor."
+        "text": "Menggambar garis potong menggunakan pulpen tinta basah langsung di atas layar monitor komputer percetakan."
       },
       {
         "key": "E",
-        "text": "Memisahkan artwork cetak CMYK, jalur pisau Die-Cut, dan area Emboss ke dalam layer-layer terpisah yang berbeda, dengan garis Die-Cut dan bentuk Emboss menggunakan Spot Color khusus bertipe Technical/No-Print."
+        "text": "Menghapus seluruh teks kartu nama dan membiarkan lembaran kanvas kosong melompong tanpa data vektor."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Finishing khusus (pond pisau potong, emboss, hotprint) wajib diletakkan pada layer terpisah dengan warna Spot Color teknis tersendiri dan registrasi presisi. Pisahkan ke dalam layer tersendiri (CMYK, Die-Cut, Emboss) menggunakan Spot Color khusus. Jawaban: E."
+    "correctKey": "A",
+    "explanation": "Finishing khusus (pond pisau potong, emboss, hotprint) wajib diletakkan pada layer terpisah dengan warna Spot Color teknis tersendiri dan registrasi presisi. Pisahkan ke dalam layer tersendiri (CMYK, Die-Cut, Emboss) menggunakan Spot Color khusus. Jawaban: A."
   },
   {
     "id": "tekd-sim-18",
@@ -3976,27 +3982,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Biru laut (membangun kepercayaan, kestabilan, profesionalisme) dipadukan dengan Hijau toska/sage (kesehatan, pemulihan, ketenangan jiwa) dan Putih steril (kebersihan higienis)."
-      },
-      {
-        "key": "B",
-        "text": "Merah darah menyala dikombinasikan dengan Kuning peringatan dan Hitam pekat pejal untuk memicu kepanikan darurat pasien untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "C",
-        "text": "Cokelat tanah berlumpur gelap dipadukan dengan Abu-abu kusam untuk memberikan kesan gedung kuno yang lapuk."
-      },
-      {
-        "key": "D",
         "text": "Jingga menyengat dipadukan dengan Merah muda fluorescent untuk membangkitkan nafsu makan makanan pedas."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Biru laut (membangun kepercayaan, kestabilan, profesionalisme) dipadukan dengan Hijau toska/sage (kesehatan, pemulihan, ketenangan jiwa) dan Putih steril (kebersihan higienis)."
+      },
+      {
+        "key": "C",
         "text": "Ungu gelap pekat dipadukan dengan Hitam arang untuk membangun suasana ritual pemakaman mistis abad pertengahan."
+      },
+      {
+        "key": "D",
+        "text": "Merah darah menyala dikombinasikan dengan Kuning peringatan dan Hitam pekat pejal untuk memicu kepanikan darurat pasien untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "E",
+        "text": "Cokelat tanah berlumpur gelap dipadukan dengan Abu-abu kusam untuk memberikan kesan gedung kuno yang lapuk."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Sektor medis membutuhkan warna yang menenangkan dan membangun kepercayaan: Biru (kredibilitas/sains), Hijau/Toska (penyembuhan), dan Putih (steril/bersih). Biru laut, hijau toska, dan putih steril adalah palet baku industri kesehatan. Jawaban: A."
+    "correctKey": "B",
+    "explanation": "Sektor medis membutuhkan warna yang menenangkan dan membangun kepercayaan: Biru (kredibilitas/sains), Hijau/Toska (penyembuhan), dan Putih (steril/bersih). Biru laut, hijau toska, dan putih steril adalah palet baku industri kesehatan. Jawaban: B."
   },
   {
     "id": "tekd-sim-19",
@@ -4019,27 +4025,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyemprotkan bensin murni menggunakan selang air bertekanan tinggi ke arah kobaran api."
-      },
-      {
-        "key": "B",
-        "text": "APAR Serbuk Kimia Kering (Dry Chemical Powder ABC) atau APAR Busa (Foam AFFF), yang mampu menyelimuti permukaan bahan terbakar dan memutus pasokan oksigen."
-      },
-      {
-        "key": "C",
-        "text": "APAR berisi air murni bertekanan tinggi yang disemprotkan langsung ke dalam wadah thinner yang sedang mendidih terbakar dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
-      },
-      {
-        "key": "D",
         "text": "Melemparkan tumpukan kertas koran kering tambahan ke atas api agar kobaran api kelelahan membakar kertas."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "APAR berisi air murni bertekanan tinggi yang disemprotkan langsung ke dalam wadah thinner yang sedang mendidih terbakar dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang."
+      },
+      {
+        "key": "C",
         "text": "Meniup api menggunakan kipas angin meja bertenaga baterai kecil dari jarak lima sentimeter."
+      },
+      {
+        "key": "D",
+        "text": "APAR Serbuk Kimia Kering (Dry Chemical Powder ABC) atau APAR Busa (Foam AFFF), yang mampu menyelimuti permukaan bahan terbakar dan memutus pasokan oksigen."
+      },
+      {
+        "key": "E",
+        "text": "Menyemprotkan bensin murni menggunakan selang air bertekanan tinggi ke arah kobaran api."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Percetakan memiliki risiko kebakaran kelas A (kertas) dan kelas B (cairan pelarut kimia). Menggunakan air pada pelarut kimia berbahaya. APAR Dry Powder ABC atau Busa Foam adalah standar yang tepat. APAR Dry Chemical Powder ABC atau Busa Foam AFFF. Jawaban: B."
+    "correctKey": "D",
+    "explanation": "Percetakan memiliki risiko kebakaran kelas A (kertas) dan kelas B (cairan pelarut kimia). Menggunakan air pada pelarut kimia berbahaya. APAR Dry Powder ABC atau Busa Foam adalah standar yang tepat. APAR Dry Chemical Powder ABC atau Busa Foam AFFF. Jawaban: D."
   },
   {
     "id": "tekd-sim-20",
@@ -4062,27 +4068,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Cukup 5 milimeter (ukuran font teks buku 14 pt), karena mata manusia memiliki kemampuan melihat mikro dari jarak satu kilometer demi mencegah terjadinya degradasi kualitas estetika pada media reproduksi cetak maupun digital."
+        "text": "Cukup 5 milimeter (ukuran font teks buku 14 pt), karena mata manusia memiliki kemampuan melihat mikro dari jarak satu kilometer."
       },
       {
         "key": "B",
-        "text": "Minimal 5 meter per huruf, sehingga papan petunjuk arah membutuhkan tiang baja setinggi menara pemancar radio."
-      },
-      {
-        "key": "C",
         "text": "Minimal 3 inci (sekitar 7.6 cm atau 75-80 mm), agar pesan teks terbaca secara instan dan akurat dari jarak 30 meter dalam kondisi kritis."
       },
       {
+        "key": "C",
+        "text": "Tinggi huruf tidak berpengaruh sama sekali terhadap jarak baca asalkan huruf diwarnai hijau neon."
+      },
+      {
         "key": "D",
-        "text": "Setengah milimeter, yang dicetak menggunakan tinta rahasia yang hanya terlihat melalui kacamata khusus inframerah."
+        "text": "Minimal 5 meter per huruf, sehingga papan petunjuk arah membutuhkan tiang baja setinggi menara pemancar radio."
       },
       {
         "key": "E",
-        "text": "Tinggi huruf tidak berpengaruh sama sekali terhadap jarak baca asalkan huruf diwarnai hijau neon."
+        "text": "Setengah milimeter, yang dicetak menggunakan tinta rahasia yang hanya terlihat melalui kacamata khusus inframerah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kaidah Environmental Graphic Design: setiap 10 meter jarak baca membutuhkan tinggi huruf minimal 1 inci (~2.5 cm). Untuk jarak 30 meter: $3 \\times 2.54\\text{ cm} \\approx 7.6\\text{ cm}$ (3 inci). Jawaban: C."
+    "correctKey": "B",
+    "explanation": "Kaidah Environmental Graphic Design: setiap 10 meter jarak baca membutuhkan tinggi huruf minimal 1 inci (~2.5 cm). Untuk jarak 30 meter: $3 \\times 2.54\\text{ cm} \\approx 7.6\\text{ cm}$ (3 inci). Jawaban: B."
   },
   {
     "id": "tekd-sim-21",
@@ -4109,23 +4115,23 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Law of Similarity, di mana seluruh foto tokoh pejuang kemerdekaan wajib diedit memiliki bentuk kumis yang sama persis sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
+        "text": "Law of Similarity, di mana seluruh foto tokoh pejuang kemerdekaan wajib diedit memiliki bentuk kumis yang sama persis Gestalt."
       },
       {
         "key": "C",
-        "text": "Law of Symmetry, di mana separuh poster harus dicelupkan ke dalam air raksa agar memantulkan bayangan cermin."
+        "text": "Law of Continuity (Prinsip Kelangsungan Garis), di mana mata manusia cenderung mengikuti jalur, garis, atau kurva yang mengalir berkesinambungan secara mulus dibandingkan memutus perhatian pada sudut tajam."
       },
       {
         "key": "D",
-        "text": "Law of Continuity (Prinsip Kelangsungan Garis), di mana mata manusia cenderung mengikuti jalur, garis, atau kurva yang mengalir berkesinambungan secara mulus dibandingkan memutus perhatian pada sudut tajam."
+        "text": "Law of Symmetry, di mana separuh poster harus dicelupkan ke dalam air raksa agar memantulkan bayangan cermin."
       },
       {
         "key": "E",
         "text": "Law of Synchrony, di mana kertas poster mengeluarkan aroma wangi bunga melati secara serempak di setiap jam kantor."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Law of Continuity menyatakan bahwa mata terdorong mengikuti garis atau alur kurva yang mengalir berkesinambungan tanpa henti. Liukan pita penuntun urutan membaca menerapkan Law of Continuity. Jawaban: D."
+    "correctKey": "C",
+    "explanation": "Law of Continuity menyatakan bahwa mata terdorong mengikuti garis atau alur kurva yang mengalir berkesinambungan tanpa henti. Liukan pita penuntun urutan membaca menerapkan Law of Continuity. Jawaban: C."
   },
   {
     "id": "tekd-sim-22",
@@ -4148,7 +4154,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ditemukan bahwa teks deskripsi produk ditulis menggunakan bahasa Indonesia baku yang sesuai dengan pedoman umum ejaan bahasa Indonesia guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Ditemukan gambar foto beresolusi rendah (72 PPI), model warna masih ada yang berformat RGB, font teks belum di-convert to curves (outline) atau belum ter-embed, dan tidak adanya lebihan garis bleed 3 mm."
       },
       {
         "key": "B",
@@ -4160,15 +4166,15 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Ditemukan bahwa warna plat cetak hitam menggunakan tinta hitam padahal seharusnya menggunakan air teh manis."
+        "text": "Ditemukan bahwa teks deskripsi produk ditulis menggunakan bahasa Indonesia baku yang sesuai dengan pedoman umum ejaan bahasa Indonesia guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "E",
-        "text": "Ditemukan gambar foto beresolusi rendah (72 PPI), model warna masih ada yang berformat RGB, font teks belum di-convert to curves (outline) atau belum ter-embed, dan tidak adanya lebihan garis bleed 3 mm."
+        "text": "Ditemukan bahwa warna plat cetak hitam menggunakan tinta hitam padahal seharusnya menggunakan air teh manis."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Preflight memeriksa kesalahan teknis cetak: resolusi < 300 DPI, gambar masih RGB, font belum embedded/outline, dan bleed kurang. Checklist preflight mencakup DPI rendah, profil RGB, font missing/belum outline, dan ketiadaan bleed. Jawaban: E."
+    "correctKey": "A",
+    "explanation": "Preflight memeriksa kesalahan teknis cetak: resolusi < 300 DPI, gambar masih RGB, font belum embedded/outline, dan bleed kurang. Checklist preflight mencakup DPI rendah, profil RGB, font missing/belum outline, dan ketiadaan bleed. Jawaban: A."
   },
   {
     "id": "tekd-sim-23",
@@ -4191,27 +4197,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Grey Card dengan standar pantulan 18% netral (18% Reflectance Middle Gray), yang menjadi acuan standar kalibrasi lightmeter kamera untuk membaca pencahayaan netral tanpa terpengaruh warna gelap objek."
-      },
-      {
-        "key": "B",
-        "text": "Kaca cermin rias pengantin yang memantulkan sinar lampu studio 100% tegak lurus ke arah sensor kamera untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
-      },
-      {
-        "key": "C",
-        "text": "Kain spanduk merah darah selebar 10 meter untuk menaikkan saturasi warna kulit model secara digital."
-      },
-      {
-        "key": "D",
         "text": "Lensa pembesar kacamata baca plus lima yang ditempelkan di depan lampu flash bodi kamera."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Batu bata merah yang dicelupkan ke dalam ember cat putih minyak sebelum pemotretan dimulai."
+      },
+      {
+        "key": "C",
+        "text": "Kaca cermin rias pengantin yang memantulkan sinar lampu studio 100% tegak lurus ke arah sensor kamera untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi."
+      },
+      {
+        "key": "D",
+        "text": "Kain spanduk merah darah selebar 10 meter untuk menaikkan saturasi warna kulit model secara digital."
+      },
+      {
+        "key": "E",
+        "text": "Grey Card dengan standar pantulan 18% netral (18% Reflectance Middle Gray), yang menjadi acuan standar kalibrasi lightmeter kamera untuk membaca pencahayaan netral tanpa terpengaruh warna gelap objek."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Lightmeter kamera selalu berasumsi dunia adalah abu-abu 18%. Objek serba hitam diterangkan jadi abu-abu. Grey Card 18% mengunci eksposur yang tepat. Kartu abu-abu netral 18% (18% Grey Card) adalah standar kalibrasi eksposur akurat. Jawaban: A."
+    "correctKey": "E",
+    "explanation": "Lightmeter kamera selalu berasumsi dunia adalah abu-abu 18%. Objek serba hitam diterangkan jadi abu-abu. Grey Card 18% mengunci eksposur yang tepat. Kartu abu-abu netral 18% (18% Grey Card) adalah standar kalibrasi eksposur akurat. Jawaban: E."
   },
   {
     "id": "tekd-sim-24",
@@ -4234,7 +4240,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dapat diklaim hak ciptanya oleh siapapun yang mencetak naskah tersebut untuk pertama kali di atas kertas folio bergaris dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
+        "text": "Dapat diklaim oleh desainer grafis yang membuat tata letak huruf dan nomor halaman buku kumpulan hukum tersebut."
       },
       {
         "key": "B",
@@ -4242,7 +4248,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Hak cipta undang-undang otomatis dimiliki oleh pemilik perusahaan percetakan swasta terbesar di ibu kota."
+        "text": "Dapat diklaim hak ciptanya oleh siapapun yang mencetak naskah tersebut untuk pertama kali di atas kertas folio bergaris dalam rangka memitigasi potensi distorsi persepsi audiens dan penurunan kenyamanan membaca jangka panjang guna menjamin integritas komunikasi visual dan kepatuhan standar industri desain grafis."
       },
       {
         "key": "D",
@@ -4250,7 +4256,7 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Dapat diklaim oleh desainer grafis yang membuat tata letak huruf dan nomor halaman buku kumpulan hukum tersebut."
+        "text": "Hak cipta undang-undang otomatis dimiliki oleh pemilik perusahaan percetakan swasta terbesar di ibu kota."
       }
     ],
     "correctKey": "B",
@@ -4277,27 +4283,27 @@ window.TKA_REKAYASA_DESAIN_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya menggunakan satu warna merah terang untuk seluruh 20 rute jalur kereta tanpa memberikan nomor atau nama stasiun untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi sesuai dengan ketentuan best practice prinsip tata rupa Nirmana dan psikologi persepsi visual Gestalt."
-      },
-      {
-        "key": "B",
-        "text": "Menghapus seluruh peta visual stasiun dan mewajibkan penumpang menghafal seluruh nama stasiun sebelum masuk ke peron."
-      },
-      {
-        "key": "C",
         "text": "Menerapkan pengkodean ganda (Dual Coding / Multi-modal Cueing), di mana selain membedakan jalur dengan warna kontras aman, setiap jalur juga dibedakan dengan bentuk garis unik (putus-putus, garis ganda, solid) dan penambahan simbol ikon atau huruf kode jalur spesifik."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Mengganti seluruh peta cetak stasiun dengan rekaman suara sirene kebakaran yang berbunyi terus-menerus."
+      },
+      {
+        "key": "C",
         "text": "Melarang penderita buta warna menaiki angkutan umum kereta commuter line sesuai instruksi dinas perhubungan."
       },
       {
+        "key": "D",
+        "text": "Hanya menggunakan satu warna merah terang untuk seluruh 20 rute jalur kereta tanpa memberikan nomor atau nama stasiun untuk memastikan seluruh elemen tata rupa dan hierarki informasi terdistribusi secara seimbang tanpa distraksi Gestalt."
+      },
+      {
         "key": "E",
-        "text": "Mengganti seluruh peta cetak stasiun dengan rekaman suara sirene kebakaran yang berbunyi terus-menerus."
+        "text": "Menghapus seluruh peta visual stasiun dan mewajibkan penumpang menghafal seluruh nama stasiun sebelum masuk ke peron."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Desain inklusif melarang penggunaan warna sebagai satu-satunya indikator (WCAG 1.4.1). Wajib menambahkan pola garis unik, ikon, atau label teks (dual coding). Dual coding: bedakan dengan pola garis (putus-putus, solid), ikon, dan simbol huruf di samping warna. Jawaban: C."
+    "correctKey": "A",
+    "explanation": "Desain inklusif melarang penggunaan warna sebagai satu-satunya indikator (WCAG 1.4.1). Wajib menambahkan pola garis unik, ikon, atau label teks (dual coding). Dual coding: bedakan dengan pola garis (putus-putus, solid), ikon, dan simbol huruf di samping warna. Jawaban: A."
   },
   {
     "id": "tekd-sim-26",

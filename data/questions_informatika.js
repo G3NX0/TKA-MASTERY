@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_INFORMATIKA.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_INFORMATIKA_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_INFORMATIKA_QUESTIONS = [
   {
     "id": "inf-lat-e-01",
@@ -29,19 +30,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pengenalan Pola (Pattern Recognition), yaitu mencari kesamaan bentuk tren historis kunjungan pasien antar hari sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "Abstraksi (Abstraction), yaitu mengabaikan informasi identitas pasien yang tidak relevan dengan proses triase medis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Desain Algoritma (Algorithm Design), yaitu menyusun langkah-langkah komputasi otomatis tanpa menguraikan struktur masalah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Generalisasi Komputasi, yaitu menerapkan solusi algoritma yang sama secara membabi buta tanpa modifikasi modul."
+      },
+      {
+        "key": "E",
+        "text": "Pengenalan Pola (Pattern Recognition), yaitu mencari kesamaan bentuk tren historis kunjungan pasien antar hari."
       }
     ],
     "correctKey": "A",
@@ -68,27 +69,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Decode $\\rightarrow$ Fetch $\\rightarrow$ Store $\\rightarrow$ Interrupt $\\rightarrow$ Execute sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
         "text": "Fetch (mengambil kode instruksi dari RAM ke register) $\\rightarrow$ Decode (menerjemahkan kode operasi oleh Control Unit) $\\rightarrow$ Execute (mengeksekusi operasi pada ALU) $\\rightarrow$ Store (menulis hasil kembali ke register/memori)."
       },
       {
+        "key": "B",
+        "text": "Decode $\\rightarrow$ Fetch $\\rightarrow$ Store $\\rightarrow$ Interrupt $\\rightarrow$ Execute."
+      },
+      {
         "key": "C",
-        "text": "Compile $\\rightarrow$ Link $\\rightarrow$ Load $\\rightarrow$ Execute $\\rightarrow$ Terminate."
+        "text": "Interrupt $\\rightarrow$ Paging $\\rightarrow$ Context Switch $\\rightarrow$ Decode $\\rightarrow$ Fetch."
       },
       {
         "key": "D",
-        "text": "Store $\\rightarrow$ ALU Compute $\\rightarrow$ Fetch $\\rightarrow$ Cache $\\rightarrow$ Decode."
+        "text": "Compile $\\rightarrow$ Link $\\rightarrow$ Load $\\rightarrow$ Execute $\\rightarrow$ Terminate."
       },
       {
         "key": "E",
-        "text": "Interrupt $\\rightarrow$ Paging $\\rightarrow$ Context Switch $\\rightarrow$ Decode $\\rightarrow$ Fetch."
+        "text": "Store $\\rightarrow$ ALU Compute $\\rightarrow$ Fetch $\\rightarrow$ Cache $\\rightarrow$ Decode."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Fetch (mengambil kode instruksi dari RAM ke register) $\\rightarrow$ Decode (menerjemahkan kode operasi oleh Control Unit) $\\rightarrow$ Execute (mengeksekusi operasi pada ALU) $\\rightarrow$ Store (menulis hasil kembali ke register/memori).. Siklus instruksi mesin CPU standar: Ambil (Fetch) -> Terjemahkan (Decode) -> Jalankan (Execute) -> Simpan (Store). Pilih opsi: Fetch -> Decode -> Execute -> Store."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Fetch (mengambil kode instruksi dari RAM ke register) $\\rightarrow$ Decode (menerjemahkan kode operasi oleh Control Unit) $\\rightarrow$ Execute (mengeksekusi operasi pada ALU) $\\rightarrow$ Store (menulis hasil kembali ke register/memori).. Siklus instruksi mesin CPU standar: Ambil (Fetch) -> Terjemahkan (Decode) -> Jalankan (Execute) -> Simpan (Store). Pilih opsi: Fetch -> Decode -> Execute -> Store."
   },
   {
     "id": "inf-lat-e-03",
@@ -119,19 +120,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Stack (Tumpukan) dengan prinsip LIFO (Last-In, First-Out), di mana operasi penambahan (push) dan penghapusan (pop) hanya dapat dilakukan pada satu ujung puncak (top)."
+        "text": "Circular Linked List, di mana simpul terakhir selalu menunjuk kembali ke simpul awal tanpa ada titik akhir."
       },
       {
         "key": "D",
-        "text": "Circular Linked List, di mana simpul terakhir selalu menunjuk kembali ke simpul awal tanpa ada titik akhir."
+        "text": "Stack (Tumpukan) dengan prinsip LIFO (Last-In, First-Out), di mana operasi penambahan (push) dan penghapusan (pop) hanya dapat dilakukan pada satu ujung puncak (top)."
       },
       {
         "key": "E",
         "text": "Binary Search Tree, di mana data diurutkan berdasarkan perbandingan nilai kunci simpul induk dan cabang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Stack (Tumpukan) dengan prinsip LIFO (Last-In, First-Out), di mana operasi penambahan (push) dan penghapusan (pop) hanya dapat dilakukan pada satu ujung puncak (top).. Undo/Redo dan Back browser membalik urutan langkah terakhir, menggunakan prinsip Last-In First-Out (LIFO), yaitu Stack. Pilih: Stack (Tumpukan) dengan prinsip LIFO."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Stack (Tumpukan) dengan prinsip LIFO (Last-In, First-Out), di mana operasi penambahan (push) dan penghapusan (pop) hanya dapat dilakukan pada satu ujung puncak (top).. Undo/Redo dan Back browser membalik urutan langkah terakhir, menggunakan prinsip Last-In First-Out (LIFO), yaitu Stack. Pilih: Stack (Tumpukan) dengan prinsip LIFO."
   },
   {
     "id": "inf-lat-e-04",
@@ -154,15 +155,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Data Link Layer (Lapisan 2), yang menangani framing fisik dan physical addressing berupa MAC Address lokal menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Physical Layer (Lapisan 1), yang mentransmisikan bit-bit biner mentah melalui media transmisi kabel atau nirkabel."
       },
       {
         "key": "B",
-        "text": "Transport Layer (Lapisan 4), yang menyediakan komunikasi end-to-end dengan segmentasi data TCP/UDP."
+        "text": "Session Layer (Lapisan 5), yang membuka, mengelola, dan mengakhiri sesi dialog antar aplikasi jaringan."
       },
       {
         "key": "C",
-        "text": "Physical Layer (Lapisan 1), yang mentransmisikan bit-bit biner mentah melalui media transmisi kabel atau nirkabel."
+        "text": "Data Link Layer (Lapisan 2), yang menangani framing fisik dan physical addressing berupa MAC Address lokal."
       },
       {
         "key": "D",
@@ -170,7 +171,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Session Layer (Lapisan 5), yang membuka, mengelola, dan mengakhiri sesi dialog antar aplikasi jaringan."
+        "text": "Transport Layer (Lapisan 4), yang menyediakan komunikasi end-to-end dengan segmentasi data TCP/UDP."
       }
     ],
     "correctKey": "D",
@@ -197,27 +198,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Atribut `NISN` memiliki panjang karakter teks paling pendek sehingga mempercepat proses backup hard disk diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
-        "text": "Atribut `NISN` dapat diubah nilainya sewaktu-waktu oleh pengguna tanpa memengaruhi relasi tabel lainnya."
-      },
-      {
-        "key": "C",
         "text": "Atribut `NISN` otomatis mengurutkan nama siswa sesuai abjad alfabet dari huruf A sampai Z secara fisik."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Atribut `NISN` menjamin nilai yang unik bagi setiap baris rekaman siswa dan secara mutlak tidak boleh bernilai kosong (NOT NULL)."
+      },
+      {
+        "key": "C",
         "text": "Atribut `NISN` merupakan tipe data numerik yang wajib dapat dijumlahkan dan dihitung nilai rata-ratanya."
       },
       {
+        "key": "D",
+        "text": "Atribut `NISN` memiliki panjang karakter teks paling pendek sehingga mempercepat proses backup hard disk diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+      },
+      {
         "key": "E",
-        "text": "Atribut `NISN` menjamin nilai yang unik bagi setiap baris rekaman siswa dan secara mutlak tidak boleh bernilai kosong (NOT NULL)."
+        "text": "Atribut `NISN` dapat diubah nilainya sewaktu-waktu oleh pengguna tanpa memengaruhi relasi tabel lainnya."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Atribut `NISN` menjamin nilai yang unik bagi setiap baris rekaman siswa dan secara mutlak tidak boleh bernilai kosong (NOT NULL).. Syarat mutlak Primary Key (PK): Unik untuk setiap rekaman dan tidak boleh bernilai NULL (NOT NULL). Pilih: Menjamin nilai yang unik dan tidak boleh bernilai kosong (NOT NULL)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Atribut `NISN` menjamin nilai yang unik bagi setiap baris rekaman siswa dan secara mutlak tidak boleh bernilai kosong (NOT NULL).. Syarat mutlak Primary Key (PK): Unik untuk setiap rekaman dan tidak boleh bernilai NULL (NOT NULL). Pilih: Menjamin nilai yang unik dan tidak boleh bernilai kosong (NOT NULL)."
   },
   {
     "id": "inf-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "11 kali perbandingan, karena kompleksitas pencarian biner adalah $O(\\log_2 n)$ sehingga $\\lfloor \\log_2(1024) \\rfloor + 1 = 10 + 1 = 11$."
-      },
-      {
-        "key": "B",
-        "text": "1.024 kali perbandingan, karena algoritma harus memeriksa setiap elemen dari indeks pertama hingga terakhir sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "512 kali perbandingan, karena algoritma membagi array menjadi dua bagian dan memeriksa seluruh separuh array."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "1.024 kali perbandingan, karena algoritma harus memeriksa setiap elemen dari indeks pertama hingga terakhir."
+      },
+      {
+        "key": "C",
         "text": "1 kali perbandingan, karena data sudah terurut sehingga elemen langsung terdeteksi pada percobaan pertama."
+      },
+      {
+        "key": "D",
+        "text": "11 kali perbandingan, karena kompleksitas pencarian biner adalah $O(\\log_2 n)$ sehingga $\\lfloor \\log_2(1024) \\rfloor + 1 = 10 + 1 = 11$."
       },
       {
         "key": "E",
         "text": "100 kali perbandingan, sesuai dengan kapasitas memori buffer prosesor komputer."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) 11 kali perbandingan, karena kompleksitas pencarian biner adalah $O(\\log_2 n)$ sehingga $\\lfloor \\log_2(1024) \\rfloor + 1 = 10 + 1 = 11$.. Binary search membagi ruang pencarian menjadi setengah pada setiap langkah: log2(1024) = 10 pembagian, maksimal 11 perbandingan. Hitung: log2(1024) + 1 = 11 kali."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) 11 kali perbandingan, karena kompleksitas pencarian biner adalah $O(\\log_2 n)$ sehingga $\\lfloor \\log_2(1024) \\rfloor + 1 = 10 + 1 = 11$.. Binary search membagi ruang pencarian menjadi setengah pada setiap langkah: log2(1024) = 10 pembagian, maksimal 11 perbandingan. Hitung: log2(1024) + 1 = 11 kali."
   },
   {
     "id": "inf-lat-e-07",
@@ -283,11 +284,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Integritas (Integrity), yaitu jaminan bahwa data tidak mengalami manipulasi, perubahan, atau perusakan oleh pihak tidak berhak sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Non-Repudiation, yaitu mekanisme pembuktian bahwa pengirim tidak dapat menyangkal telah mengirimkan pesan."
       },
       {
         "key": "B",
-        "text": "Kerahasiaan (Confidentiality), yaitu jaminan bahwa informasi hanya dapat diakses, dibaca, dan disingkap oleh pihak yang berhak dan memiliki otorisasi sah."
+        "text": "Akuntabilitas (Accountability), yaitu pencatatan jejak audit aktivitas pengguna ke dalam berkas log sistem."
       },
       {
         "key": "C",
@@ -295,15 +296,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Non-Repudiation, yaitu mekanisme pembuktian bahwa pengirim tidak dapat menyangkal telah mengirimkan pesan."
+        "text": "Kerahasiaan (Confidentiality), yaitu jaminan bahwa informasi hanya dapat diakses, dibaca, dan disingkap oleh pihak yang berhak dan memiliki otorisasi sah."
       },
       {
         "key": "E",
-        "text": "Akuntabilitas (Accountability), yaitu pencatatan jejak audit aktivitas pengguna ke dalam berkas log sistem."
+        "text": "Integritas (Integrity), yaitu jaminan bahwa data tidak mengalami manipulasi, perubahan, atau perusakan oleh pihak tidak berhak."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Kerahasiaan (Confidentiality), yaitu jaminan bahwa informasi hanya dapat diakses, dibaca, dan disingkap oleh pihak yang berhak dan memiliki otorisasi sah.. Penyadapan data rahasia tanpa izin melanggar pilar Kerahasiaan (Confidentiality). Pilih: Kerahasiaan (Confidentiality)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Kerahasiaan (Confidentiality), yaitu jaminan bahwa informasi hanya dapat diakses, dibaca, dan disingkap oleh pihak yang berhak dan memiliki otorisasi sah.. Penyadapan data rahasia tanpa izin melanggar pilar Kerahasiaan (Confidentiality). Pilih: Kerahasiaan (Confidentiality)."
   },
   {
     "id": "inf-lat-e-08",
@@ -330,7 +331,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "`10.0.0.1`, karena alamat ini merupakan blok alamat IP privat Kelas A murni bukan Kelas C."
+        "text": "`8.8.8.8`, karena alamat ini merupakan DNS server publik milik Google yang dapat dirutekan secara global."
       },
       {
         "key": "C",
@@ -338,11 +339,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "`8.8.8.8`, karena alamat ini merupakan DNS server publik milik Google yang dapat dirutekan secara global."
+        "text": "`127.0.0.1`, karena alamat ini dicadangkan secara khusus sebagai antarmuka Loopback lokal sistem komputer."
       },
       {
         "key": "E",
-        "text": "`127.0.0.1`, karena alamat ini dicadangkan secara khusus sebagai antarmuka Loopback lokal sistem komputer."
+        "text": "`10.0.0.1`, karena alamat ini merupakan blok alamat IP privat Kelas A murni bukan Kelas C."
       }
     ],
     "correctKey": "C",
@@ -369,7 +370,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyimpan data arsip jangka panjang secara permanen saat komputer dimatikan (non-volatile storage) menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Mendinginkan suhu sirkuit mikroprosesor dengan menyerap panas berlebih melalui semikonduktor termal."
       },
       {
         "key": "B",
@@ -377,7 +378,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mendinginkan suhu sirkuit mikroprosesor dengan menyerap panas berlebih melalui semikonduktor termal."
+        "text": "Menambah kapasitas total ruang penyimpanan sekunder komputer tanpa memerlukan penambahan modul SSD fisik."
       },
       {
         "key": "D",
@@ -385,7 +386,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menambah kapasitas total ruang penyimpanan sekunder komputer tanpa memerlukan penambahan modul SSD fisik."
+        "text": "Menyimpan data arsip jangka panjang secara permanen saat komputer dimatikan (non-volatile storage)."
       }
     ],
     "correctKey": "D",
@@ -412,7 +413,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`False`, karena operator logika `not` membalik seluruh hasil ekspresi awal menjadi bernilai salah secara mutlak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "`True`, karena sub-kondisi pertama `(a + c >= b)` bernilai `True` ($20 \\ge 20$), sub-kondisi di dalam tanda kurung `(b % a == 0 or c * 3 > a)` bernilai `False` ($5 == 0$ bernilai `False` dan $15 > 15$ bernilai `False`), sehingga negasinya `not (False)` bernilai `True`, dan evaluasi akhir `True and True` menghasilkan `True`."
       },
       {
         "key": "B",
@@ -420,19 +421,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "`None`, karena operasi perbandingan majemuk tidak mengembalikan tipe data primitif jika tidak diberi klausa `else` eksplisit."
-      },
-      {
-        "key": "D",
         "text": "`TypeError`, karena variabel integer tidak dapat dievaluasi bersama konstanta boolean tanpa fungsi konversi tipe `bool()`."
       },
       {
+        "key": "D",
+        "text": "`False`, karena operator logika `not` membalik seluruh hasil ekspresi awal menjadi bernilai salah secara mutlak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+      },
+      {
         "key": "E",
-        "text": "`True`, karena sub-kondisi pertama `(a + c >= b)` bernilai `True` ($20 \\ge 20$), sub-kondisi di dalam tanda kurung `(b % a == 0 or c * 3 > a)` bernilai `False` ($5 == 0$ bernilai `False` dan $15 > 15$ bernilai `False`), sehingga negasinya `not (False)` bernilai `True`, dan evaluasi akhir `True and True` menghasilkan `True`."
+        "text": "`None`, karena operasi perbandingan majemuk tidak mengembalikan tipe data primitif jika tidak diberi klausa `else` eksplisit."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) `True`, karena sub-kondisi pertama `(a + c >= b)` bernilai `True` ($20 \\ge 20$), sub-kondisi di dalam tanda kurung `(b % a == 0 or c * 3 > a)` bernilai `False` ($5 == 0$ bernilai `False` dan $15 > 15$ bernilai `False`), sehingga negasinya `not (False)` bernilai `True`, dan evaluasi akhir `True and True` menghasilkan `True`.. Evaluasi bertahap: 1) a+c >= b (20 >= 20: True). 2) 20 % 15 == 0 (False). 3) 5*3 > 15 (False). False or False = False. not(False) = True. True and True = True. Nilai akhir adalah True."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) `True`, karena sub-kondisi pertama `(a + c >= b)` bernilai `True` ($20 \\ge 20$), sub-kondisi di dalam tanda kurung `(b % a == 0 or c * 3 > a)` bernilai `False` ($5 == 0$ bernilai `False` dan $15 > 15$ bernilai `False`), sehingga negasinya `not (False)` bernilai `True`, dan evaluasi akhir `True and True` menghasilkan `True`.. Evaluasi bertahap: 1) a+c >= b (20 >= 20: True). 2) 20 % 15 == 0 (False). 3) 5*3 > 15 (False). False or False = False. not(False) = True. True and True = True. Nilai akhir adalah True."
   },
   {
     "id": "inf-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hanya mampu mencari nilai kecocokan (`lookup_value`) pada kolom paling kiri (kolom pertama) dari rentang tabel referensi, lalu mengambil data dari kolom di sebelah kanannya."
+        "text": "Mampu mencari nilai kecocokan pada sembarang kolom dan secara bebas mengambil data dari kolom sebelah kirinya tanpa batas."
       },
       {
         "key": "B",
-        "text": "Mampu mencari nilai kecocokan pada sembarang kolom dan secara bebas mengambil data dari kolom sebelah kirinya tanpa batas sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Hanya mampu mencari nilai kecocokan (`lookup_value`) pada kolom paling kiri (kolom pertama) dari rentang tabel referensi, lalu mengambil data dari kolom di sebelah kanannya."
       },
       {
         "key": "C",
-        "text": "Otomatis menjumlahkan seluruh nilai numerik yang cocok dengan kriteria tanpa memerlukan fungsi SUMIF tambahan."
-      },
-      {
-        "key": "D",
         "text": "Hanya dapat digunakan untuk mencocokkan data bertipe tanggal kalender dan tidak dapat memproses teks alfabetik."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Wajib menyortir data master secara menurun (descending) sebelum rumus pencarian dapat dieksekusi tanpa galat."
+      },
+      {
+        "key": "E",
+        "text": "Otomatis menjumlahkan seluruh nilai numerik yang cocok dengan kriteria tanpa memerlukan fungsi SUMIF tambahan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Hanya mampu mencari nilai kecocokan (`lookup_value`) pada kolom paling kiri (kolom pertama) dari rentang tabel referensi, lalu mengambil data dari kolom di sebelah kanannya.. VLOOKUP (Vertical Lookup) secara fundamental hanya mencari kunci pada kolom pertama tabel referensi dan mengembalikan nilai ke arah kanan. Pilih: Hanya mampu mencari nilai pada kolom paling kiri dari rentang tabel."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Hanya mampu mencari nilai kecocokan (`lookup_value`) pada kolom paling kiri (kolom pertama) dari rentang tabel referensi, lalu mengambil data dari kolom di sebelah kanannya.. VLOOKUP (Vertical Lookup) secara fundamental hanya mencari kunci pada kolom pertama tabel referensi dan mengembalikan nilai ke arah kanan. Pilih: Hanya mampu mencari nilai pada kolom paling kiri dari rentang tabel."
   },
   {
     "id": "inf-lat-e-12",
@@ -498,7 +499,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simpul $A$, karena berada di urutan alfabet pertama dan terhubung dengan seluruh simpul lainnya sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Seluruh simpul memiliki derajat yang persis sama sebesar 2 sisi pertemanan reguler."
       },
       {
         "key": "B",
@@ -506,15 +507,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Simpul $D$, karena merupakan satu-satunya jembatan (bridge) yang menghubungkan simpul $E$ ke jaringan."
-      },
-      {
-        "key": "D",
         "text": "Simpul $E$, karena memiliki derajat pertemanan tertinggi sebesar 4 sisi langsung."
       },
       {
+        "key": "D",
+        "text": "Simpul $D$, karena merupakan satu-satunya jembatan (bridge) yang menghubungkan simpul $E$ ke jaringan."
+      },
+      {
         "key": "E",
-        "text": "Seluruh simpul memiliki derajat yang persis sama sebesar 2 sisi pertemanan reguler."
+        "text": "Simpul $A$, karena berada di urutan alfabet pertama dan terhubung dengan seluruh simpul lainnya."
       }
     ],
     "correctKey": "B",
@@ -541,7 +542,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`SELECT kategori_produk, COUNT(jumlah_terjual) FROM Penjualan WHERE SUM(jumlah_terjual) > 0;`"
+        "text": "`SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;`"
       },
       {
         "key": "B",
@@ -549,7 +550,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "`SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;`"
+        "text": "`SELECT kategori_produk, COUNT(jumlah_terjual) FROM Penjualan WHERE SUM(jumlah_terjual) > 0;`"
       },
       {
         "key": "D",
@@ -560,8 +561,8 @@ window.TKA_INFORMATIKA_QUESTIONS = [
         "text": "`SELECT TOTAL(jumlah_terjual) IN Penjualan GROUPED BY kategori_produk;`"
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) `SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;`. Untuk menghitung total unit per kategori, gunakan fungsi SUM(jumlah_terjual) dan klausul GROUP BY kategori_produk. Pilih: SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;"
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) `SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;`. Untuk menghitung total unit per kategori, gunakan fungsi SUM(jumlah_terjual) dan klausul GROUP BY kategori_produk. Pilih: SELECT kategori_produk, SUM(jumlah_terjual) FROM Penjualan GROUP BY kategori_produk;"
   },
   {
     "id": "inf-lat-e-14",
@@ -584,27 +585,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$162_{10}$, hasil penjumlahan dari bit-bit aktif tanpa memperhitungkan bobot pangkat kelipatan dua menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "$194_{10}$, hasil konversi dengan membalik nilai bit terendah (least significant bit)."
-      },
-      {
-        "key": "C",
         "text": "$146_{10}$, hasil konversi kesalahan membaca bit pembobot orde ketiga dan keempat."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$162_{10}$, hasil penjumlahan dari bit-bit aktif tanpa memperhitungkan bobot pangkat kelipatan dua."
+      },
+      {
+        "key": "C",
         "text": "$178_{10}$, hasil dari $1\\cdot 2^7 + 0\\cdot 2^6 + 1\\cdot 2^5 + 1\\cdot 2^4 + 0\\cdot 2^3 + 0\\cdot 2^2 + 1\\cdot 2^1 + 0\\cdot 2^0 = 128 + 32 + 16 + 2 = 178$."
+      },
+      {
+        "key": "D",
+        "text": "$194_{10}$, hasil konversi dengan membalik nilai bit terendah (least significant bit)."
       },
       {
         "key": "E",
         "text": "$210_{10}$, hasil interpretasi langsung digit biner sebagai bilangan oktal desimal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $178_{10}$, hasil dari $1\\cdot 2^7 + 0\\cdot 2^6 + 1\\cdot 2^5 + 1\\cdot 2^4 + 0\\cdot 2^3 + 0\\cdot 2^2 + 1\\cdot 2^1 + 0\\cdot 2^0 = 128 + 32 + 16 + 2 = 178$.. Jumlahkan bobot pangkat dua: bit ke-7 (128) + bit ke-5 (32) + bit ke-4 (16) + bit ke-1 (2) = 178. Pilih: 178."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $178_{10}$, hasil dari $1\\cdot 2^7 + 0\\cdot 2^6 + 1\\cdot 2^5 + 1\\cdot 2^4 + 0\\cdot 2^3 + 0\\cdot 2^2 + 1\\cdot 2^1 + 0\\cdot 2^0 = 128 + 32 + 16 + 2 = 178$.. Jumlahkan bobot pangkat dua: bit ke-7 (128) + bit ke-5 (32) + bit ke-4 (16) + bit ke-1 (2) = 178. Pilih: 178."
   },
   {
     "id": "inf-lat-e-15",
@@ -627,7 +628,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "UDP menjamin 100% data pasti sampai secara utuh dan berurutan tanpa ada satu bit pun yang rusak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "UDP menggunakan jalur transmisi fisik gelombang radio terpisah yang kebal terhadap kemacetan kabel optik."
       },
       {
         "key": "B",
@@ -635,11 +636,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "UDP menggunakan jalur transmisi fisik gelombang radio terpisah yang kebal terhadap kemacetan kabel optik."
+        "text": "TCP dilarang oleh konsorsium web internasional untuk mentransmisikan data multimedia grafis."
       },
       {
         "key": "D",
-        "text": "TCP dilarang oleh konsorsium web internasional untuk mentransmisikan data multimedia grafis."
+        "text": "UDP menjamin 100% data pasti sampai secara utuh dan berurutan tanpa ada satu bit pun yang rusak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "E",
@@ -670,15 +671,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Base Case (Kondisi Basis), yaitu kondisi pemberhentian eksplisit yang menghentikan rantai pemanggilan rekursif dan mengembalikan nilai konstan."
+        "text": "Global Variable, yaitu deklarasi variabel di luar lingkup fungsi untuk menampung riwayat iterasi."
       },
       {
         "key": "B",
-        "text": "Recursive Step, yaitu pernyataan baris kode yang memanggil kembali nama fungsi dengan parameter membesar sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Recursive Step, yaitu pernyataan baris kode yang memanggil kembali nama fungsi dengan parameter membesar."
       },
       {
         "key": "C",
-        "text": "Global Variable, yaitu deklarasi variabel di luar lingkup fungsi untuk menampung riwayat iterasi."
+        "text": "Exception Handler, yaitu blok kode try-catch untuk menangani kegagalan eksekusi compiler sistem."
       },
       {
         "key": "D",
@@ -686,11 +687,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Exception Handler, yaitu blok kode try-catch untuk menangani kegagalan eksekusi compiler sistem."
+        "text": "Base Case (Kondisi Basis), yaitu kondisi pemberhentian eksplisit yang menghentikan rantai pemanggilan rekursif dan mengembalikan nilai konstan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Base Case (Kondisi Basis), yaitu kondisi pemberhentian eksplisit yang menghentikan rantai pemanggilan rekursif dan mengembalikan nilai konstan.. Kondisi penghenti pemanggilan rekursif disebut Base Case. Pilih: Base Case (Kondisi Basis)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Base Case (Kondisi Basis), yaitu kondisi pemberhentian eksplisit yang menghentikan rantai pemanggilan rekursif dan mengembalikan nilai konstan.. Kondisi penghenti pemanggilan rekursif disebut Base Case. Pilih: Base Case (Kondisi Basis)."
   },
   {
     "id": "inf-lat-e-17",
@@ -713,27 +714,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Distributed Denial of Service (DDoS), yaitu membanjiri server korban dengan jutaan permintaan palsu hingga tumbang sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Ransomware, yaitu mengeksekusi enkripsi sepihak terhadap seluruh berkas komputer korban demi tebusan uang."
       },
       {
         "key": "B",
-        "text": "Phishing, yaitu bentuk rekayasa sosial yang berupaya memancing korban untuk membocorkan informasi kredensial sensitif dengan menyamar sebagai institusi tepercaya."
-      },
-      {
-        "key": "C",
-        "text": "SQL Injection, yaitu menyisipkan kode kueri manipulatif ke dalam kolom formulir masukan web aplikasi."
-      },
-      {
-        "key": "D",
         "text": "Cross-Site Scripting (XSS), yaitu menyuntikkan skrip berbahaya ke dalam halaman peramban pengguna lain."
       },
       {
+        "key": "C",
+        "text": "Phishing, yaitu bentuk rekayasa sosial yang berupaya memancing korban untuk membocorkan informasi kredensial sensitif dengan menyamar sebagai institusi tepercaya."
+      },
+      {
+        "key": "D",
+        "text": "SQL Injection, yaitu menyisipkan kode kueri manipulatif ke dalam kolom formulir masukan web aplikasi."
+      },
+      {
         "key": "E",
-        "text": "Ransomware, yaitu mengeksekusi enkripsi sepihak terhadap seluruh berkas komputer korban demi tebusan uang."
+        "text": "Distributed Denial of Service (DDoS), yaitu membanjiri server korban dengan jutaan permintaan palsu hingga tumbang."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Phishing, yaitu bentuk rekayasa sosial yang berupaya memancing korban untuk membocorkan informasi kredensial sensitif dengan menyamar sebagai institusi tepercaya.. Menyamar sebagai pihak tepercaya via email palsu untuk mencuri data pribadi adalah Phishing. Pilih: Phishing."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Phishing, yaitu bentuk rekayasa sosial yang berupaya memancing korban untuk membocorkan informasi kredensial sensitif dengan menyamar sebagai institusi tepercaya.. Menyamar sebagai pihak tepercaya via email palsu untuk mencuri data pribadi adalah Phishing. Pilih: Phishing."
   },
   {
     "id": "inf-lat-e-18",
@@ -756,27 +757,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terurut menurun (descending) dimulai dari simpul daun terbesar menuju simpul akar ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
         "text": "Tercetak berdasarkan urutan kronologis waktu penyisipan simpul data ke dalam memori komputer."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Terurut menaik (ascending) secara monotonik dari nilai simpul terkecil hingga simpul terbesar."
       },
       {
+        "key": "C",
+        "text": "Acak tidak berpola karena struktur pohon biner bersifat dinamis dan non-sekuensial."
+      },
+      {
         "key": "D",
-        "text": "Tercetak tingkat demi tingkat (level by level) dari kedalaman pohon paling atas ke bawah."
+        "text": "Terurut menurun (descending) dimulai dari simpul daun terbesar menuju simpul akar ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "E",
-        "text": "Acak tidak berpola karena struktur pohon biner bersifat dinamis dan non-sekuensial."
+        "text": "Tercetak tingkat demi tingkat (level by level) dari kedalaman pohon paling atas ke bawah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terurut menaik (ascending) secara monotonik dari nilai simpul terkecil hingga simpul terbesar.. In-Order pada BST (Kiri < Akar < Kanan) otomatis menghasilkan barisan terurut menaik (sorted ascending). Pilih: Terurut menaik (ascending) dari nilai terkecil hingga terbesar."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Terurut menaik (ascending) secara monotonik dari nilai simpul terkecil hingga simpul terbesar.. In-Order pada BST (Kiri < Akar < Kanan) otomatis menghasilkan barisan terurut menaik (sorted ascending). Pilih: Terurut menaik (ascending) dari nilai terkecil hingga terbesar."
   },
   {
     "id": "inf-lat-e-19",
@@ -799,11 +800,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Track Changes, yang melacak riwayat suntingan dan catatan revisi antar beberapa editor dokumen menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "AutoCorrect, yang otomatis memperbaiki kesalahan ketik ejaan kata sesuai kamus tata bahasa."
       },
       {
         "key": "B",
-        "text": "AutoCorrect, yang otomatis memperbaiki kesalahan ketik ejaan kata sesuai kamus tata bahasa."
+        "text": "Track Changes, yang melacak riwayat suntingan dan catatan revisi antar beberapa editor dokumen."
       },
       {
         "key": "C",
@@ -811,15 +812,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mail Merge, yang mengintegrasikan dokumen template master dengan sumber data eksternal (tabel spreadsheet atau basis data) untuk menghasilkan dokumen personal secara otomatis."
+        "text": "Macros Scripting, yang wajib memprogram kode mesin assembly untuk mengatur margin tata letak cetak."
       },
       {
         "key": "E",
-        "text": "Macros Scripting, yang wajib memprogram kode mesin assembly untuk mengatur margin tata letak cetak."
+        "text": "Mail Merge, yang mengintegrasikan dokumen template master dengan sumber data eksternal (tabel spreadsheet atau basis data) untuk menghasilkan dokumen personal secara otomatis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mail Merge, yang mengintegrasikan dokumen template master dengan sumber data eksternal (tabel spreadsheet atau basis data) untuk menghasilkan dokumen personal secara otomatis.. Menggabungkan dokumen master dengan data tabel untuk surat massal adalah fitur Mail Merge. Pilih: Mail Merge."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mail Merge, yang mengintegrasikan dokumen template master dengan sumber data eksternal (tabel spreadsheet atau basis data) untuk menghasilkan dokumen personal secara otomatis.. Menggabungkan dokumen master dengan data tabel untuk surat massal adalah fitur Mail Merge. Pilih: Mail Merge."
   },
   {
     "id": "inf-lat-e-20",
@@ -842,15 +843,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh baris data siswa yang memiliki lebih dari satu jenis hobi secara permanen diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
         "text": "Menambahkan kunci asing (Foreign Key) ke tabel lain tanpa mengubah komposisi nilai sel kolom hobi."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Mengenkripsi kolom hobi menjadi kode biner rahasia agar tidak dapat dibaca oleh pengguna biasa."
+      },
+      {
+        "key": "C",
+        "text": "Menghapus seluruh baris data siswa yang memiliki lebih dari satu jenis hobi secara permanen diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "D",
@@ -885,27 +886,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Berfungsi mengelola dan mengontrol sumber daya perangkat keras secara langsung serta menyediakan antarmuka dasar bagi perangkat lunak lain untuk berjalan, contohnya Linux, Windows, dan driver perangkat."
-      },
-      {
-        "key": "B",
-        "text": "Didesain khusus untuk membantu pengguna menyelesaikan tugas spesifik personal seperti mengedit gambar dan berselancar web sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "Selalu ditulis menggunakan bahasa pemrograman web seperti HTML dan CSS tanpa mengakses komponen memori CPU."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Berfungsi mengelola dan mengontrol sumber daya perangkat keras secara langsung serta menyediakan antarmuka dasar bagi perangkat lunak lain untuk berjalan, contohnya Linux, Windows, dan driver perangkat."
+      },
+      {
+        "key": "C",
         "text": "Hanya dapat dijalankan apabila komputer terhubung secara aktif dengan jaringan internet pita lebar nirkabel."
+      },
+      {
+        "key": "D",
+        "text": "Didesain khusus untuk membantu pengguna menyelesaikan tugas spesifik personal seperti mengedit gambar dan berselancar web."
       },
       {
         "key": "E",
         "text": "Bersifat opsional dan komputer tetap dapat beroperasi menjalankan aplikasi pengolah kata tanpa adanya sistem operasi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Berfungsi mengelola dan mengontrol sumber daya perangkat keras secara langsung serta menyediakan antarmuka dasar bagi perangkat lunak lain untuk berjalan, contohnya Linux, Windows, dan driver perangkat.. Perangkat lunak sistem bertugas mengelola sumber daya perangkat keras dan platform dasar komputasi. Pilih: Mengelola sumber daya perangkat keras dan menyediakan antarmuka dasar bagi perangkat lunak lain."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Berfungsi mengelola dan mengontrol sumber daya perangkat keras secara langsung serta menyediakan antarmuka dasar bagi perangkat lunak lain untuk berjalan, contohnya Linux, Windows, dan driver perangkat.. Perangkat lunak sistem bertugas mengelola sumber daya perangkat keras dan platform dasar komputasi. Pilih: Mengelola sumber daya perangkat keras dan menyediakan antarmuka dasar bagi perangkat lunak lain."
   },
   {
     "id": "inf-lat-e-22",
@@ -928,27 +929,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dynamic Host Configuration Protocol (DHCP), yang otomatis membagikan konfigurasi IP ke komputer klien lokal sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Address Resolution Protocol (ARP), yang memetakan alamat IP logis ke MAC Address fisik dalam satu subnet LAN."
       },
       {
         "key": "B",
-        "text": "Domain Name System (DNS), yang bekerja sebagai buku telepon global internet yang memetakan FQDN ke alamat IP publik server tujuan."
+        "text": "Dynamic Host Configuration Protocol (DHCP), yang otomatis membagikan konfigurasi IP ke komputer klien lokal."
       },
       {
         "key": "C",
-        "text": "Simple Mail Transfer Protocol (SMTP), yang bertugas mengirimkan pesan surel antar server pos elektronik."
-      },
-      {
-        "key": "D",
         "text": "Network Address Translation (NAT), yang memodifikasi informasi header paket untuk berbagi satu IP publik."
       },
       {
+        "key": "D",
+        "text": "Simple Mail Transfer Protocol (SMTP), yang bertugas mengirimkan pesan surel antar server pos elektronik."
+      },
+      {
         "key": "E",
-        "text": "Address Resolution Protocol (ARP), yang memetakan alamat IP logis ke MAC Address fisik dalam satu subnet LAN."
+        "text": "Domain Name System (DNS), yang bekerja sebagai buku telepon global internet yang memetakan FQDN ke alamat IP publik server tujuan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Domain Name System (DNS), yang bekerja sebagai buku telepon global internet yang memetakan FQDN ke alamat IP publik server tujuan.. Menerjemahkan nama domain manusia menjadi alamat IP numerik komputer adalah tugas DNS. Pilih: Domain Name System (DNS)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Domain Name System (DNS), yang bekerja sebagai buku telepon global internet yang memetakan FQDN ke alamat IP publik server tujuan.. Menerjemahkan nama domain manusia menjadi alamat IP numerik komputer adalah tugas DNS. Pilih: Domain Name System (DNS)."
   },
   {
     "id": "inf-lat-e-23",
@@ -1014,7 +1015,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(n \\log n)$, karena algoritma memanfaatkan teknik memecah dan menaklukkan array menjadi dua bagian simetris menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "$O(1)$, karena penukaran elemen selalu dilakukan secara instan di dalam memori register konstan."
       },
       {
         "key": "B",
@@ -1022,19 +1023,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$O(1)$, karena penukaran elemen selalu dilakukan secara instan di dalam memori register konstan."
+        "text": "$O(n^2)$, karena algoritma membutuhkan sekitar $\\frac{n(n-1)}{2}$ kali operasi perbandingan dan penukaran elemen."
       },
       {
         "key": "D",
-        "text": "$O(n^2)$, karena algoritma membutuhkan sekitar $\\frac{n(n-1)}{2}$ kali operasi perbandingan dan penukaran elemen."
+        "text": "$O(n \\log n)$, karena algoritma memanfaatkan teknik memecah dan menaklukkan array menjadi dua bagian simetris."
       },
       {
         "key": "E",
         "text": "$O(\\log n)$, karena setiap iterasi berhasil mengeliminasi separuh dari total data yang belum terurut."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $O(n^2)$, karena algoritma membutuhkan sekitar $\\frac{n(n-1)}{2}$ kali operasi perbandingan dan penukaran elemen.. Bubble sort worst-case memiliki perulangan bersarang n x n, sehingga kompleksitasnya adalah O(n^2). Pilih: O(n^2)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $O(n^2)$, karena algoritma membutuhkan sekitar $\\frac{n(n-1)}{2}$ kali operasi perbandingan dan penukaran elemen.. Bubble sort worst-case memiliki perulangan bersarang n x n, sehingga kompleksitasnya adalah O(n^2). Pilih: O(n^2)."
   },
   {
     "id": "inf-lat-e-25",
@@ -1057,27 +1058,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban untuk membayar royalti bulanan kepada pencipta asli apabila perangkat lunak dijalankan di komputer kantor diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "Kebebasan untuk melihat, memodifikasi, mendistribusikan ulang, dan menggunakan kode sumber baik untuk keperluan non-komersial maupun komersial dengan tetap mencantumkan atribusi hak cipta pencipta aslinya."
       },
       {
         "key": "B",
-        "text": "Larangan keras untuk membaca baris kode sumber asli demi melindungi hak paten rahasia dagang pencipta."
+        "text": "Kewajiban untuk membayar royalti bulanan kepada pencipta asli apabila perangkat lunak dijalankan di komputer kantor diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "C",
-        "text": "Kewajiban untuk menyerahkan seluruh hak milik intelektual ciptaan baru kepada pemilik repositori induk."
-      },
-      {
-        "key": "D",
         "text": "Keharusan mengunci kode hasil modifikasi agar tidak dapat diakses oleh sistem operasi berbasis Unix."
       },
       {
+        "key": "D",
+        "text": "Larangan keras untuk membaca baris kode sumber asli demi melindungi hak paten rahasia dagang pencipta."
+      },
+      {
         "key": "E",
-        "text": "Kebebasan untuk melihat, memodifikasi, mendistribusikan ulang, dan menggunakan kode sumber baik untuk keperluan non-komersial maupun komersial dengan tetap mencantumkan atribusi hak cipta pencipta aslinya."
+        "text": "Kewajiban untuk menyerahkan seluruh hak milik intelektual ciptaan baru kepada pemilik repositori induk."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kebebasan untuk melihat, memodifikasi, mendistribusikan ulang, dan menggunakan kode sumber baik untuk keperluan non-komersial maupun komersial dengan tetap mencantumkan atribusi hak cipta pencipta aslinya.. Lisensi open source memberikan kebebasan melihat, memodifikasi, dan mendistribusikan kode dengan menyertakan atribusi. Pilih opsi yang menjamin kebebasan akses, modifikasi, dan distribusi dengan mencantumkan atribusi hak cipta asli."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kebebasan untuk melihat, memodifikasi, mendistribusikan ulang, dan menggunakan kode sumber baik untuk keperluan non-komersial maupun komersial dengan tetap mencantumkan atribusi hak cipta pencipta aslinya.. Lisensi open source memberikan kebebasan melihat, memodifikasi, dan mendistribusikan kode dengan menyertakan atribusi. Pilih opsi yang menjamin kebebasan akses, modifikasi, dan distribusi dengan mencantumkan atribusi hak cipta asli."
   },
   {
     "id": "inf-lat-m-01",
@@ -1100,15 +1101,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Masalah memiliki sifat Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal (Optimal Substructure), sehingga hasil sub-masalah disimpan sekali dan dapat langsung digunakan kembali tanpa komputasi ulang."
+        "text": "Masalah membagi data menjadi dua himpunan independen yang tidak pernah saling beririsan seperti halnya Merge Sort."
       },
       {
         "key": "B",
-        "text": "Masalah membagi data menjadi dua himpunan independen yang tidak pernah saling beririsan seperti halnya Merge Sort sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Masalah secara otomatis mengalokasikan memori grafis GPU untuk menjalankan komputasi paralel secara fisik."
       },
       {
         "key": "C",
-        "text": "Masalah mengubah proses perhitungan menjadi fungsi acak nondeterministik yang kebal terhadap galat rekursi."
+        "text": "Masalah memiliki sifat Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal (Optimal Substructure), sehingga hasil sub-masalah disimpan sekali dan dapat langsung digunakan kembali tanpa komputasi ulang."
       },
       {
         "key": "D",
@@ -1116,11 +1117,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Masalah secara otomatis mengalokasikan memori grafis GPU untuk menjalankan komputasi paralel secara fisik."
+        "text": "Masalah mengubah proses perhitungan menjadi fungsi acak nondeterministik yang kebal terhadap galat rekursi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Masalah memiliki sifat Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal (Optimal Substructure), sehingga hasil sub-masalah disimpan sekali dan dapat langsung digunakan kembali tanpa komputasi ulang.. Syarat mutlak DP: Overlapping subproblems (sub-masalah tumpang tindih) dan optimal substructure. Hasil disimpan agar tidak dihitung ulang. Pilih opsi yang menyebutkan Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Masalah memiliki sifat Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal (Optimal Substructure), sehingga hasil sub-masalah disimpan sekali dan dapat langsung digunakan kembali tanpa komputasi ulang.. Syarat mutlak DP: Overlapping subproblems (sub-masalah tumpang tindih) dan optimal substructure. Hasil disimpan agar tidak dihitung ulang. Pilih opsi yang menyebutkan Sub-masalah Tumpang Tindih (Overlapping Subproblems) dan Struktur Bawah Optimal."
   },
   {
     "id": "inf-lat-m-02",
@@ -1143,7 +1144,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi Segmentation Fault permanen yang langsung menghentikan paksa (crash) sistem operasi seketika sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Terjadi Segmentation Fault permanen yang langsung menghentikan paksa (crash) sistem operasi seketika."
       },
       {
         "key": "B",
@@ -1151,15 +1152,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "CPU langsung beralih mengeksekusi instruksi berikutnya secara acak tanpa mempedulikan data yang hilang."
-      },
-      {
-        "key": "D",
         "text": "Sistem operasi otomatis menghapus seluruh isi memori RAM fisik untuk mencegah kerusakan perangkat keras."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Prosesor menaikkan kecepatan frekuensi clock secara instan untuk menciptakan modul memori semikonduktor baru."
+      },
+      {
+        "key": "E",
+        "text": "CPU langsung beralih mengeksekusi instruksi berikutnya secara acak tanpa mempedulikan data yang hilang."
       }
     ],
     "correctKey": "B",
@@ -1186,7 +1187,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Linked List menyimpan data dalam blok memori fisik yang berdampingan secara berurutan sehingga akses acaknya berkecepatan $O(1)$ ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "Linked List memiliki kompleksitas penyisipan di awal sebesar $O(1)$ konstan karena hanya memperbarui penunjuk pointer `head`, sedangkan Array membutuhkan $O(n)$ karena harus menggeser (shifting) seluruh $n$ elemen yang ada ke kanan."
       },
       {
         "key": "B",
@@ -1194,7 +1195,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Linked List memiliki kompleksitas penyisipan di awal sebesar $O(1)$ konstan karena hanya memperbarui penunjuk pointer `head`, sedangkan Array membutuhkan $O(n)$ karena harus menggeser (shifting) seluruh $n$ elemen yang ada ke kanan."
+        "text": "Array membutuhkan alokasi memori dua kali lebih besar untuk setiap elemen data karena menyimpan alamat pointer ganda."
       },
       {
         "key": "D",
@@ -1202,11 +1203,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Array membutuhkan alokasi memori dua kali lebih besar untuk setiap elemen data karena menyimpan alamat pointer ganda."
+        "text": "Linked List menyimpan data dalam blok memori fisik yang berdampingan secara berurutan sehingga akses acaknya berkecepatan $O(1)$ ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Linked List memiliki kompleksitas penyisipan di awal sebesar $O(1)$ konstan karena hanya memperbarui penunjuk pointer `head`, sedangkan Array membutuhkan $O(n)$ karena harus menggeser (shifting) seluruh $n$ elemen yang ada ke kanan.. Menyisipkan di awal: Array butuh shifting semua elemen (O(n)), sedangkan Linked List hanya mengubah pointer head (O(1)). Pilih opsi: Linked List memiliki kompleksitas penyisipan O(1) konstan sedangkan Array butuh O(n) karena shifting."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Linked List memiliki kompleksitas penyisipan di awal sebesar $O(1)$ konstan karena hanya memperbarui penunjuk pointer `head`, sedangkan Array membutuhkan $O(n)$ karena harus menggeser (shifting) seluruh $n$ elemen yang ada ke kanan.. Menyisipkan di awal: Array butuh shifting semua elemen (O(n)), sedangkan Linked List hanya mengubah pointer head (O(1)). Pilih opsi: Linked List memiliki kompleksitas penyisipan O(1) konstan sedangkan Array butuh O(n) karena shifting."
   },
   {
     "id": "inf-lat-m-04",
@@ -1233,11 +1234,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "62 host valid, dengan alamat broadcast `192.168.10.127`."
+        "text": "14 host valid, dengan alamat broadcast `192.168.10.79`."
       },
       {
         "key": "C",
-        "text": "14 host valid, dengan alamat broadcast `192.168.10.79`."
+        "text": "62 host valid, dengan alamat broadcast `192.168.10.127`."
       },
       {
         "key": "D",
@@ -1272,15 +1273,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`INNER JOIN`, karena hanya mengembalikan baris yang memiliki nilai kecocokan di kedua tabel secara bersamaan diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "`CROSS JOIN`, karena menghasilkan perkalian kartesian tanpa memperhatikan hubungan kunci asing sama sekali."
       },
       {
         "key": "B",
-        "text": "`RIGHT OUTER JOIN`, karena secara eksklusif hanya menampilkan data pesanan yang tidak memiliki identitas pembeli."
+        "text": "`LEFT OUTER JOIN`, karena akan mempertahankan seluruh baris dari tabel kiri (`Pelanggan`) dan mencocokkan data dari tabel kanan (`Pesanan`), mengisi nilai NULL jika tidak ada kecocokan."
       },
       {
         "key": "C",
-        "text": "`CROSS JOIN`, karena menghasilkan perkalian kartesian tanpa memperhatikan hubungan kunci asing sama sekali."
+        "text": "`RIGHT OUTER JOIN`, karena secara eksklusif hanya menampilkan data pesanan yang tidak memiliki identitas pembeli."
       },
       {
         "key": "D",
@@ -1288,11 +1289,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "`LEFT OUTER JOIN`, karena akan mempertahankan seluruh baris dari tabel kiri (`Pelanggan`) dan mencocokkan data dari tabel kanan (`Pesanan`), mengisi nilai NULL jika tidak ada kecocokan."
+        "text": "`INNER JOIN`, karena hanya mengembalikan baris yang memiliki nilai kecocokan di kedua tabel secara bersamaan diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) `LEFT OUTER JOIN`, karena akan mempertahankan seluruh baris dari tabel kiri (`Pelanggan`) dan mencocokkan data dari tabel kanan (`Pesanan`), mengisi nilai NULL jika tidak ada kecocokan.. Untuk menampilkan semua baris tabel kiri (Pelanggan) meskipun belum ada transaksi di tabel kanan, gunakan LEFT JOIN. Pilih: LEFT OUTER JOIN."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) `LEFT OUTER JOIN`, karena akan mempertahankan seluruh baris dari tabel kiri (`Pelanggan`) dan mencocokkan data dari tabel kanan (`Pesanan`), mengisi nilai NULL jika tidak ada kecocokan.. Untuk menampilkan semua baris tabel kiri (Pelanggan) meskipun belum ada transaksi di tabel kanan, gunakan LEFT JOIN. Pilih: LEFT OUTER JOIN."
   },
   {
     "id": "inf-lat-m-06",
@@ -1315,27 +1316,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(n \\log_2 n)$ pada semua kasus (best, average, dan worst case), karena pohon rekursi memiliki kedalaman $\\log_2 n$ dan setiap level pohon membutuhkan waktu penggabungan linier $O(n)$."
+        "text": "$O(2^n)$, karena pohon pemanggilan fungsi rekursif bercabang dua tanpa henti hingga batas memori."
       },
       {
         "key": "B",
-        "text": "$O(n^2)$ pada worst case, karena proses penggabungan membutuhkan perbandingan kuadratik antar elemen sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "$O(n)$ pada best case, karena jika larik sudah terurut algoritma tidak melakukan pemecahan rekursif."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$O(\\log_2 n)$, karena algoritma berhasil mengabaikan separuh elemen larik pada setiap tahapan partisi."
       },
       {
+        "key": "D",
+        "text": "$O(n \\log_2 n)$ pada semua kasus (best, average, dan worst case), karena pohon rekursi memiliki kedalaman $\\log_2 n$ dan setiap level pohon membutuhkan waktu penggabungan linier $O(n)$."
+      },
+      {
         "key": "E",
-        "text": "$O(2^n)$, karena pohon pemanggilan fungsi rekursif bercabang dua tanpa henti hingga batas memori."
+        "text": "$O(n^2)$ pada worst case, karena proses penggabungan membutuhkan perbandingan kuadratik antar elemen."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $O(n \\log_2 n)$ pada semua kasus (best, average, dan worst case), karena pohon rekursi memiliki kedalaman $\\log_2 n$ dan setiap level pohon membutuhkan waktu penggabungan linier $O(n)$.. Merge sort memiliki kedalaman rekursi log(n) dan merge linier n pada tiap level, sehingga T(n) = O(n log n) di semua kasus. Pilih: O(n log n) pada semua kasus."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $O(n \\log_2 n)$ pada semua kasus (best, average, dan worst case), karena pohon rekursi memiliki kedalaman $\\log_2 n$ dan setiap level pohon membutuhkan waktu penggabungan linier $O(n)$.. Merge sort memiliki kedalaman rekursi log(n) dan merge linier n pada tiap level, sehingga T(n) = O(n log n) di semua kasus. Pilih: O(n log n) pada semua kasus."
   },
   {
     "id": "inf-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kunci asimetris memiliki celah keamanan fatal di mana kunci privat dapat ditebak secara langsung dari sertifikat digital sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Algoritma simetris tidak memerlukan kunci apapun untuk mengenkripsi maupun mendekripsi pesan rahasia pengguna."
       },
       {
         "key": "B",
-        "text": "Komputasi enkripsi dan dekripsi asimetris berbasis operasi matematika bilangan prima besar sangat lambat dan membebani CPU, sehingga kunci asimetris hanya digunakan saat negosiasi jabat tangan awal untuk menukar kunci sesi simetris yang jauh lebih cepat."
-      },
-      {
-        "key": "C",
-        "text": "Algoritma simetris tidak mampu mengenkripsi data multimedia berukuran besar seperti video dan berkas gambar."
-      },
-      {
-        "key": "D",
         "text": "Kunci asimetris dilarang oleh badan standardisasi internet dunia karena membutuhkan sambungan kabel tembaga khusus."
       },
       {
+        "key": "C",
+        "text": "Kunci asimetris memiliki celah keamanan fatal di mana kunci privat dapat ditebak secara langsung dari sertifikat digital."
+      },
+      {
+        "key": "D",
+        "text": "Komputasi enkripsi dan dekripsi asimetris berbasis operasi matematika bilangan prima besar sangat lambat dan membebani CPU, sehingga kunci asimetris hanya digunakan saat negosiasi jabat tangan awal untuk menukar kunci sesi simetris yang jauh lebih cepat."
+      },
+      {
         "key": "E",
-        "text": "Algoritma simetris tidak memerlukan kunci apapun untuk mengenkripsi maupun mendekripsi pesan rahasia pengguna."
+        "text": "Algoritma simetris tidak mampu mengenkripsi data multimedia berukuran besar seperti video dan berkas gambar."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Komputasi enkripsi dan dekripsi asimetris berbasis operasi matematika bilangan prima besar sangat lambat dan membebani CPU, sehingga kunci asimetris hanya digunakan saat negosiasi jabat tangan awal untuk menukar kunci sesi simetris yang jauh lebih cepat.. Kriptografi asimetris lambat sehingga hanya dipakai saat handshake untuk bertukar Session Key. Enkripsi data massal memakai AES simetris yang cepat. Pilih: Komputasi asimetris sangat lambat sehingga hanya digunakan untuk menukar kunci sesi simetris yang cepat."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Komputasi enkripsi dan dekripsi asimetris berbasis operasi matematika bilangan prima besar sangat lambat dan membebani CPU, sehingga kunci asimetris hanya digunakan saat negosiasi jabat tangan awal untuk menukar kunci sesi simetris yang jauh lebih cepat.. Kriptografi asimetris lambat sehingga hanya dipakai saat handshake untuk bertukar Session Key. Enkripsi data massal memakai AES simetris yang cepat. Pilih: Komputasi asimetris sangat lambat sehingga hanya digunakan untuk menukar kunci sesi simetris yang cepat."
   },
   {
     "id": "inf-lat-m-08",
@@ -1405,23 +1406,23 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Algoritma Round-Robin akan otomatis berubah menjadi algoritma First-Come, First-Served (FCFS) konvensional."
-      },
-      {
-        "key": "C",
-        "text": "Efisiensi sistem merosot tajam karena waktu prosesor habis terbuang hanya untuk melakukan peralihan konteks (context switching overhead) antar proses daripada menjalankan instruksi program."
-      },
-      {
-        "key": "D",
         "text": "Sistem operasi akan mengalami deadlock permanen karena memori RAM terfragmentasi secara fisik."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Seluruh proses dalam sistem akan selesai dieksekusi dalam waktu 0 milidetik secara instan."
+      },
+      {
+        "key": "D",
+        "text": "Algoritma Round-Robin akan otomatis berubah menjadi algoritma First-Come, First-Served (FCFS) konvensional."
+      },
+      {
+        "key": "E",
+        "text": "Efisiensi sistem merosot tajam karena waktu prosesor habis terbuang hanya untuk melakukan peralihan konteks (context switching overhead) antar proses daripada menjalankan instruksi program."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Efisiensi sistem merosot tajam karena waktu prosesor habis terbuang hanya untuk melakukan peralihan konteks (context switching overhead) antar proses daripada menjalankan instruksi program.. Time quantum terlalu kecil menyebabkan terlalu sering terjadi context switching sehingga waktu CPU habis untuk overhead alih tugas. Pilih: Kinerja merosot karena tingginya overhead context switching."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Efisiensi sistem merosot tajam karena waktu prosesor habis terbuang hanya untuk melakukan peralihan konteks (context switching overhead) antar proses daripada menjalankan instruksi program.. Time quantum terlalu kecil menyebabkan terlalu sering terjadi context switching sehingga waktu CPU habis untuk overhead alih tugas. Pilih: Kinerja merosot karena tingginya overhead context switching."
   },
   {
     "id": "inf-lat-m-09",
@@ -1444,11 +1445,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Greedy menghasilkan 2 koin ($3 + 3$), yang membuktikan bahwa algoritma serakah selalu optimal pada setiap sistem mata uang menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Greedy menghasilkan 6 koin ($1 + 1 + 1 + 1 + 1 + 1$), karena selalu memprioritaskan koin berbobot terkecil."
       },
       {
         "key": "B",
-        "text": "Greedy menghasilkan 6 koin ($1 + 1 + 1 + 1 + 1 + 1$), karena selalu memprioritaskan koin berbobot terkecil."
+        "text": "Greedy menghasilkan 3 koin ($4 + 1 + 1$), yang BUKAN solusi optimal global karena solusi paling optimal adalah 2 koin ($3 + 3$)."
       },
       {
         "key": "C",
@@ -1456,15 +1457,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Greedy menghasilkan 3 koin ($4 + 1 + 1$), yang BUKAN solusi optimal global karena solusi paling optimal adalah 2 koin ($3 + 3$)."
+        "text": "Greedy menghasilkan 2 koin ($4 + 2$), dengan otomatis mencetak koin baru bernilai 2 yang tidak ada di daftar."
       },
       {
         "key": "E",
-        "text": "Greedy menghasilkan 2 koin ($4 + 2$), dengan otomatis mencetak koin baru bernilai 2 yang tidak ada di daftar."
+        "text": "Greedy menghasilkan 2 koin ($3 + 3$), yang membuktikan bahwa algoritma serakah selalu optimal pada setiap sistem mata uang."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Greedy menghasilkan 3 koin ($4 + 1 + 1$), yang BUKAN solusi optimal global karena solusi paling optimal adalah 2 koin ($3 + 3$).. Greedy memilih koin terbesar dulu: 4, lalu sisa 2 (koin 1 dan 1), total 3 koin. Padahal solusi terbaik adalah 3+3 = 2 koin. Pilih: Greedy menghasilkan 3 koin (4+1+1), bukan optimal global karena solusi optimal adalah 2 koin (3+3)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Greedy menghasilkan 3 koin ($4 + 1 + 1$), yang BUKAN solusi optimal global karena solusi paling optimal adalah 2 koin ($3 + 3$).. Greedy memilih koin terbesar dulu: 4, lalu sisa 2 (koin 1 dan 1), total 3 koin. Padahal solusi terbaik adalah 3+3 = 2 koin. Pilih: Greedy menghasilkan 3 koin (4+1+1), bukan optimal global karena solusi optimal adalah 2 koin (3+3)."
   },
   {
     "id": "inf-lat-m-10",
@@ -1487,7 +1488,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "14 kali pemanggilan, karena fungsi dipanggil sebanyak $n + 1$ kali secara linier diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "8 kali pemanggilan, dengan rantai parameter $n$: $13 \\to 12 \\to 6 \\to 3 \\to 2 \\to 1 \\to 0$."
       },
       {
         "key": "B",
@@ -1495,19 +1496,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "13 kali pemanggilan, sesuai dengan nilai eksponen pangkat yang dimasukkan."
-      },
-      {
-        "key": "D",
         "text": "6 kali pemanggilan, karena pembulatan logaritma basis dua dari angka 13."
       },
       {
+        "key": "D",
+        "text": "13 kali pemanggilan, sesuai dengan nilai eksponen pangkat yang dimasukkan."
+      },
+      {
         "key": "E",
-        "text": "8 kali pemanggilan, dengan rantai parameter $n$: $13 \\to 12 \\to 6 \\to 3 \\to 2 \\to 1 \\to 0$."
+        "text": "14 kali pemanggilan, karena fungsi dipanggil sebanyak $n + 1$ kali secara linier diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) 8 kali pemanggilan, dengan rantai parameter $n$: $13 \\to 12 \\to 6 \\to 3 \\to 2 \\to 1 \\to 0$.. Hitung urutan nilai n yang dipanggil: 13 (ke-1), 12 (ke-2), 6 (ke-3), 3 (ke-4), 2 (ke-5), 1 (ke-6), 0 (ke-7). Total 7 panggilan. Pilih opsi yang sesuai dengan tracing rantai nilai n (7 pemanggilan)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 8 kali pemanggilan, dengan rantai parameter $n$: $13 \\to 12 \\to 6 \\to 3 \\to 2 \\to 1 \\to 0$.. Hitung urutan nilai n yang dipanggil: 13 (ke-1), 12 (ke-2), 6 (ke-3), 3 (ke-4), 2 (ke-5), 1 (ke-6), 0 (ke-7). Total 7 panggilan. Pilih opsi yang sesuai dengan tracing rantai nilai n (7 pemanggilan)."
   },
   {
     "id": "inf-lat-m-11",
@@ -1530,27 +1531,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki struktur teks yang jauh lebih ringkas (tanpa tag penutup yang bertele-tele), ukuran payload lebih kecil sehingga menghemat bandwidth, serta secara bawaan dapat diparsing langsung menjadi objek bahasa pemrograman seperti JavaScript dan Python."
+        "text": "Mampu menyimpan data logika program berupa kode mesin yang dapat dieksekusi langsung oleh prosesor klien."
       },
       {
         "key": "B",
-        "text": "Mendukung validasi skema berbasis DTD dan transformasi XSLT bawaan yang tidak dimiliki oleh format data lainnya sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Mendukung validasi skema berbasis DTD dan transformasi XSLT bawaan yang tidak dimiliki oleh format data lainnya."
       },
       {
         "key": "C",
-        "text": "Wajib dienkripsi menggunakan kunci asimetris sebelum dapat ditransmisikan melalui jaringan internet."
-      },
-      {
-        "key": "D",
         "text": "Menjamin bahwa data tidak dapat diubah oleh siapapun karena berbasis format biner terkompresi permanen."
       },
       {
+        "key": "D",
+        "text": "Wajib dienkripsi menggunakan kunci asimetris sebelum dapat ditransmisikan melalui jaringan internet."
+      },
+      {
         "key": "E",
-        "text": "Mampu menyimpan data logika program berupa kode mesin yang dapat dieksekusi langsung oleh prosesor klien."
+        "text": "Memiliki struktur teks yang jauh lebih ringkas (tanpa tag penutup yang bertele-tele), ukuran payload lebih kecil sehingga menghemat bandwidth, serta secara bawaan dapat diparsing langsung menjadi objek bahasa pemrograman seperti JavaScript dan Python."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Memiliki struktur teks yang jauh lebih ringkas (tanpa tag penutup yang bertele-tele), ukuran payload lebih kecil sehingga menghemat bandwidth, serta secara bawaan dapat diparsing langsung menjadi objek bahasa pemrograman seperti JavaScript dan Python.. JSON lebih ringkas tanpa tag pembuka/penutup ganda, payload lebih kecil, dan native diparsing ke objek pemrograman. Pilih: Memiliki struktur teks lebih ringkas, payload lebih kecil, dan langsung diparsing menjadi objek."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Memiliki struktur teks yang jauh lebih ringkas (tanpa tag penutup yang bertele-tele), ukuran payload lebih kecil sehingga menghemat bandwidth, serta secara bawaan dapat diparsing langsung menjadi objek bahasa pemrograman seperti JavaScript dan Python.. JSON lebih ringkas tanpa tag pembuka/penutup ganda, payload lebih kecil, dan native diparsing ke objek pemrograman. Pilih: Memiliki struktur teks lebih ringkas, payload lebih kecil, dan langsung diparsing menjadi objek."
   },
   {
     "id": "inf-lat-m-12",
@@ -1573,11 +1574,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdapat Ketergantungan Transitif di mana atribut `Nilai_Ujian` menentukan nilai atribut `Nama_Siswa` secara tidak langsung sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Terdapat Ketergantungan Fungsional Parsial (Partial Dependency), di mana atribut non-kunci `Nama_Siswa` hanya bergantung pada `NISN` dan `Nama_Mapel` hanya bergantung pada `Kode_Mapel`; solusinya adalah memecah tabel menjadi tabel `Siswa`, `Mata_Pelajaran`, dan `Nilai`."
       },
       {
         "key": "B",
-        "text": "Terdapat Ketergantungan Fungsional Parsial (Partial Dependency), di mana atribut non-kunci `Nama_Siswa` hanya bergantung pada `NISN` dan `Nama_Mapel` hanya bergantung pada `Kode_Mapel`; solusinya adalah memecah tabel menjadi tabel `Siswa`, `Mata_Pelajaran`, dan `Nilai`."
+        "text": "Kunci utama tabel terdiri atas lebih dari satu kolom yang dilarang keras dalam standar arsitektur SQL relasional."
       },
       {
         "key": "C",
@@ -1585,15 +1586,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kunci utama tabel terdiri atas lebih dari satu kolom yang dilarang keras dalam standar arsitektur SQL relasional."
+        "text": "Tabel tidak memiliki indeks pencarian B-Tree sehingga sistem operasi gagal melakukan pengurutan otomatis."
       },
       {
         "key": "E",
-        "text": "Tabel tidak memiliki indeks pencarian B-Tree sehingga sistem operasi gagal melakukan pengurutan otomatis."
+        "text": "Terdapat Ketergantungan Transitif di mana atribut `Nilai_Ujian` menentukan nilai atribut `Nama_Siswa` secara tidak langsung."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Terdapat Ketergantungan Fungsional Parsial (Partial Dependency), di mana atribut non-kunci `Nama_Siswa` hanya bergantung pada `NISN` dan `Nama_Mapel` hanya bergantung pada `Kode_Mapel`; solusinya adalah memecah tabel menjadi tabel `Siswa`, `Mata_Pelajaran`, dan `Nilai`.. 2NF melarang ketergantungan parsial (atribut non-kunci hanya bergantung pada sebagian dari composite primary key). Pilih opsi yang menyebutkan Ketergantungan Fungsional Parsial (Partial Dependency) dan pemecahan tabel."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Terdapat Ketergantungan Fungsional Parsial (Partial Dependency), di mana atribut non-kunci `Nama_Siswa` hanya bergantung pada `NISN` dan `Nama_Mapel` hanya bergantung pada `Kode_Mapel`; solusinya adalah memecah tabel menjadi tabel `Siswa`, `Mata_Pelajaran`, dan `Nilai`.. 2NF melarang ketergantungan parsial (atribut non-kunci hanya bergantung pada sebagian dari composite primary key). Pilih opsi yang menyebutkan Ketergantungan Fungsional Parsial (Partial Dependency) dan pemecahan tabel."
   },
   {
     "id": "inf-lat-m-13",
@@ -1620,23 +1621,23 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Internet Service Provider (ISP) Server $\\rightarrow$ Browser Cache $\\rightarrow$ Switch LAN $\\rightarrow$ Client Host."
-      },
-      {
-        "key": "C",
         "text": "Root DNS Server (`.`) $\\rightarrow$ Top-Level Domain (TLD) Server (`.id`) $\\rightarrow$ Second-Level Domain Server (`.go.id`) $\\rightarrow$ Authoritative DNS Server (`kemdikbud.go.id`)."
       },
       {
+        "key": "C",
+        "text": "Web Hosting Server $\\rightarrow$ Local Router $\\rightarrow$ Cloudflare Server $\\rightarrow$ Google Root Server."
+      },
+      {
         "key": "D",
-        "text": "Top-Level Domain Server $\\rightarrow$ Authoritative Server $\\rightarrow$ Root Server $\\rightarrow$ Web Application Firewall."
+        "text": "Internet Service Provider (ISP) Server $\\rightarrow$ Browser Cache $\\rightarrow$ Switch LAN $\\rightarrow$ Client Host."
       },
       {
         "key": "E",
-        "text": "Web Hosting Server $\\rightarrow$ Local Router $\\rightarrow$ Cloudflare Server $\\rightarrow$ Google Root Server."
+        "text": "Top-Level Domain Server $\\rightarrow$ Authoritative Server $\\rightarrow$ Root Server $\\rightarrow$ Web Application Firewall."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Root DNS Server (`.`) $\\rightarrow$ Top-Level Domain (TLD) Server (`.id`) $\\rightarrow$ Second-Level Domain Server (`.go.id`) $\\rightarrow$ Authoritative DNS Server (`kemdikbud.go.id`).. Alur hierarki DNS dari kanan ke kiri: Root (.) -> TLD (.id) -> SLD (.go.id) -> Authoritative (kemdikbud.go.id). Pilih: Root DNS Server -> TLD Server -> Second-Level Domain Server -> Authoritative DNS Server."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Root DNS Server (`.`) $\\rightarrow$ Top-Level Domain (TLD) Server (`.id`) $\\rightarrow$ Second-Level Domain Server (`.go.id`) $\\rightarrow$ Authoritative DNS Server (`kemdikbud.go.id`).. Alur hierarki DNS dari kanan ke kiri: Root (.) -> TLD (.id) -> SLD (.go.id) -> Authoritative (kemdikbud.go.id). Pilih: Root DNS Server -> TLD Server -> Second-Level Domain Server -> Authoritative DNS Server."
   },
   {
     "id": "inf-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "CPU langsung mematikan prosesor $\\rightarrow$ Menghapus seluruh memori RAM $\\rightarrow$ Mengulang kembali proses booting komputer dari BIOS/UEFI menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "CPU mengabaikan sinyal keyboard hingga seluruh program aktif yang ada di sistem operasi selesai dijalankan."
-      },
-      {
-        "key": "C",
-        "text": "CPU menyalin seluruh isi hard disk ke memori cache L1 untuk mengantisipasi kerusakan data masukan."
-      },
-      {
-        "key": "D",
         "text": "CPU menyelesaikan instruksi aktif saat ini $\\rightarrow$ Menyimpan status register dan Program Counter (PC) ke Call Stack $\\rightarrow$ Melompat mengeksekusi rutin Interrupt Service Routine (ISR) keyboard $\\rightarrow$ Memulihkan status register dari stack $\\rightarrow$ Melanjutkan instruksi program semula."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "CPU menyalin seluruh isi hard disk ke memori cache L1 untuk mengantisipasi kerusakan data masukan."
+      },
+      {
+        "key": "C",
         "text": "CPU mengubah arsitektur von Neumann menjadi Harvard architecture secara dinamis pada level sirkuit gerbang logika."
+      },
+      {
+        "key": "D",
+        "text": "CPU langsung mematikan prosesor $\\rightarrow$ Menghapus seluruh memori RAM $\\rightarrow$ Mengulang kembali proses booting komputer dari BIOS/UEFI."
+      },
+      {
+        "key": "E",
+        "text": "CPU mengabaikan sinyal keyboard hingga seluruh program aktif yang ada di sistem operasi selesai dijalankan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) CPU menyelesaikan instruksi aktif saat ini $\\rightarrow$ Menyimpan status register dan Program Counter (PC) ke Call Stack $\\rightarrow$ Melompat mengeksekusi rutin Interrupt Service Routine (ISR) keyboard $\\rightarrow$ Memulihkan status register dari stack $\\rightarrow$ Melanjutkan instruksi program semula.. Saat interupsi: CPU simpan status (PC dan register) ke stack, jalankan fungsi penangan (ISR), lalu pulihkan status dan lanjutkan program. Pilih urutan: Selesaikan instruksi aktif -> Simpan status/PC ke Stack -> Jalankan ISR -> Pulihkan status -> Lanjutkan program."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) CPU menyelesaikan instruksi aktif saat ini $\\rightarrow$ Menyimpan status register dan Program Counter (PC) ke Call Stack $\\rightarrow$ Melompat mengeksekusi rutin Interrupt Service Routine (ISR) keyboard $\\rightarrow$ Memulihkan status register dari stack $\\rightarrow$ Melanjutkan instruksi program semula.. Saat interupsi: CPU simpan status (PC dan register) ke stack, jalankan fungsi penangan (ISR), lalu pulihkan status dan lanjutkan program. Pilih urutan: Selesaikan instruksi aktif -> Simpan status/PC ke Stack -> Jalankan ISR -> Pulihkan status -> Lanjutkan program."
   },
   {
     "id": "inf-lat-m-15",
@@ -1702,7 +1703,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(1)$ untuk penyisipan dan $O(n)$ untuk ekstraksi elemen minimum diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "$O(n \\log_2 n)$ untuk penyisipan dan $O(n^2)$ untuk ekstraksi elemen minimum."
       },
       {
         "key": "B",
@@ -1710,11 +1711,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$O(n \\log_2 n)$ untuk penyisipan dan $O(n^2)$ untuk ekstraksi elemen minimum."
+        "text": "$O(1)$ untuk penyisipan dan $O(1)$ untuk ekstraksi elemen minimum konstan."
       },
       {
         "key": "D",
-        "text": "$O(1)$ untuk penyisipan dan $O(1)$ untuk ekstraksi elemen minimum konstan."
+        "text": "$O(1)$ untuk penyisipan dan $O(n)$ untuk ekstraksi elemen minimum diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "E",
@@ -1745,27 +1746,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure / Right to be Forgotten), di mana pengendali data wajib menghentikan pemrosesan dan memusnahkan data pribadi pemohon sesuai regulasi hukum."
-      },
-      {
-        "key": "B",
-        "text": "Hak Portabilitas Data, yaitu hak untuk meminta ganti rugi uang tunai atas kegagalan sistem keamanan aplikasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
-        "text": "Hak Monopoli Komersial, yaitu hak subjek data untuk menjual kembali basis data perusahaan kepada pihak ketiga."
-      },
-      {
-        "key": "D",
         "text": "Hak Anonimitas Mutlak, yaitu jaminan bahwa pengguna bebas melakukan transaksi tanpa identitas yang sah secara perbankan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure / Right to be Forgotten), di mana pengendali data wajib menghentikan pemrosesan dan memusnahkan data pribadi pemohon sesuai regulasi hukum."
+      },
+      {
+        "key": "C",
         "text": "Hak Imunitas Siber, yaitu pembebasan subjek data dari kewajiban membayar utang pokok pinjaman yang telah disepakati."
+      },
+      {
+        "key": "D",
+        "text": "Hak Monopoli Komersial, yaitu hak subjek data untuk menjual kembali basis data perusahaan kepada pihak ketiga."
+      },
+      {
+        "key": "E",
+        "text": "Hak Portabilitas Data, yaitu hak untuk meminta ganti rugi uang tunai atas kegagalan sistem keamanan aplikasi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure / Right to be Forgotten), di mana pengendali data wajib menghentikan pemrosesan dan memusnahkan data pribadi pemohon sesuai regulasi hukum.. Meminta penghapusan rekam jejak pribadi setelah mencabut consent adalah pelaksanaan hak pemusnahan data (right to erasure/forgotten). Pilih: Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure / Right to be Forgotten), di mana pengendali data wajib menghentikan pemrosesan dan memusnahkan data pribadi pemohon sesuai regulasi hukum.. Meminta penghapusan rekam jejak pribadi setelah mencabut consent adalah pelaksanaan hak pemusnahan data (right to erasure/forgotten). Pilih: Hak untuk Menghapus dan Memusnahkan Data Pribadi (Right to Erasure)."
   },
   {
     "id": "inf-lat-m-17",
@@ -1788,27 +1789,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "BFS mengeksplorasi satu cabang jalan sedalam mungkin hingga menemui jalan buntu menggunakan tumpukan (Stack) sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
-        "text": "BFS menelusuri simpul secara melebar tingkat demi tingkat (level by level) menggunakan struktur data antrean (Queue), sehingga jalur yang pertama kali mencapai simpul tujuan pasti merupakan jalur terpendek."
-      },
-      {
-        "key": "C",
-        "text": "BFS menghitung bobot nilai heuristik prediksi arah mata angin menggunakan formula trigonometri Euclidean."
-      },
-      {
-        "key": "D",
         "text": "BFS mengurutkan seluruh simpul labirin menggunakan algoritma Quicksort sebelum langkah penelusuran dimulai."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "BFS mengeksplorasi satu cabang jalan sedalam mungkin hingga menemui jalan buntu menggunakan tumpukan (Stack)."
+      },
+      {
+        "key": "C",
         "text": "DFS selalu membutuhkan waktu komputasi yang tak terhingga karena tidak dapat menandai simpul yang telah dikunjungi."
+      },
+      {
+        "key": "D",
+        "text": "BFS menelusuri simpul secara melebar tingkat demi tingkat (level by level) menggunakan struktur data antrean (Queue), sehingga jalur yang pertama kali mencapai simpul tujuan pasti merupakan jalur terpendek."
+      },
+      {
+        "key": "E",
+        "text": "BFS menghitung bobot nilai heuristik prediksi arah mata angin menggunakan formula trigonometri Euclidean."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) BFS menelusuri simpul secara melebar tingkat demi tingkat (level by level) menggunakan struktur data antrean (Queue), sehingga jalur yang pertama kali mencapai simpul tujuan pasti merupakan jalur terpendek.. BFS menelusuri lapis demi lapis dengan Queue, menjamin jalur pertama yang sampai adalah yang terpendek pada graf berbobot seragam. Pilih: BFS menelusuri simpul tingkat demi tingkat menggunakan Queue sehingga jalur pertama kali mencapai tujuan adalah yang terpendek."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) BFS menelusuri simpul secara melebar tingkat demi tingkat (level by level) menggunakan struktur data antrean (Queue), sehingga jalur yang pertama kali mencapai simpul tujuan pasti merupakan jalur terpendek.. BFS menelusuri lapis demi lapis dengan Queue, menjamin jalur pertama yang sampai adalah yang terpendek pada graf berbobot seragam. Pilih: BFS menelusuri simpul tingkat demi tingkat menggunakan Queue sehingga jalur pertama kali mencapai tujuan adalah yang terpendek."
   },
   {
     "id": "inf-lat-m-18",
@@ -1831,11 +1832,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`SELECT departemen, AVG(gaji) FROM Karyawan WHERE AVG(gaji) > 10000000 GROUP BY departemen;`"
+        "text": "`SELECT departemen, SUM(gaji) FROM Karyawan WHERE departemen IS NOT NULL ORDER BY AVG(gaji) > 10000000;`"
       },
       {
         "key": "B",
-        "text": "`SELECT departemen, SUM(gaji) FROM Karyawan WHERE departemen IS NOT NULL ORDER BY AVG(gaji) > 10000000;`"
+        "text": "`SELECT departemen FROM Karyawan HAVING gaji > 10000000 GROUP BY departemen;`"
       },
       {
         "key": "C",
@@ -1843,7 +1844,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "`SELECT departemen FROM Karyawan HAVING gaji > 10000000 GROUP BY departemen;`"
+        "text": "`SELECT departemen, AVG(gaji) FROM Karyawan WHERE AVG(gaji) > 10000000 GROUP BY departemen;`"
       },
       {
         "key": "E",
@@ -1874,27 +1875,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Klien mengirimkan segmen `ACK` $\\rightarrow$ Server membalas `FIN` $\\rightarrow$ Klien mengirimkan segmen data payload menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
         "text": "Klien mengirimkan `RST` $\\rightarrow$ Server membalas `SYN` $\\rightarrow$ Klien merespons dengan `FIN-ACK`."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Server menyiarkan paket `PING` $\\rightarrow$ Klien merespons `PONG` $\\rightarrow$ Gateway memverifikasi sertifikat digital."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Klien mengirimkan segmen `SYN` (Synchronize) $\\rightarrow$ Server merespons dengan segmen `SYN-ACK` (Synchronize-Acknowledgment) $\\rightarrow$ Klien membalas dengan segmen `ACK` (Acknowledgment)."
+      },
+      {
+        "key": "D",
+        "text": "Klien mengirimkan segmen `ACK` $\\rightarrow$ Server membalas `FIN` $\\rightarrow$ Klien mengirimkan segmen data payload."
       },
       {
         "key": "E",
         "text": "Klien mengirimkan `HELLO` $\\rightarrow$ Server merespons `READY` $\\rightarrow$ Klien mengirimkan `START`."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Klien mengirimkan segmen `SYN` (Synchronize) $\\rightarrow$ Server merespons dengan segmen `SYN-ACK` (Synchronize-Acknowledgment) $\\rightarrow$ Klien membalas dengan segmen `ACK` (Acknowledgment).. Tiga langkah koneksi TCP: Klien kirim SYN -> Server balas SYN-ACK -> Klien konfirmasi dengan ACK. Pilih: SYN -> SYN-ACK -> ACK."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Klien mengirimkan segmen `SYN` (Synchronize) $\\rightarrow$ Server merespons dengan segmen `SYN-ACK` (Synchronize-Acknowledgment) $\\rightarrow$ Klien membalas dengan segmen `ACK` (Acknowledgment).. Tiga langkah koneksi TCP: Klien kirim SYN -> Server balas SYN-ACK -> Klien konfirmasi dengan ACK. Pilih: SYN -> SYN-ACK -> ACK."
   },
   {
     "id": "inf-lat-m-20",
@@ -1917,11 +1918,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(1)$ konstan, karena algoritma mendeteksi bahwa larik sudah terurut sehingga langsung menghentikan program diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "$O(1)$ konstan, karena algoritma mendeteksi bahwa larik sudah terurut sehingga langsung menghentikan program diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "B",
-        "text": "$O(n)$ linier, karena algoritma hanya melakukan satu kali pengecekan partisi dari depan ke belakang."
+        "text": "$O(\\log_2 n)$, karena partisi yang timpang justru mempercepat penggabungan elemen pivot."
       },
       {
         "key": "C",
@@ -1929,7 +1930,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$O(\\log_2 n)$, karena partisi yang timpang justru mempercepat penggabungan elemen pivot."
+        "text": "$O(n)$ linier, karena algoritma hanya melakukan satu kali pengecekan partisi dari depan ke belakang."
       },
       {
         "key": "E",
@@ -1960,15 +1961,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki set instruksi sederhana berukuran seragam (fixed-length), sebagian besar instruksi dieksekusi dalam satu siklus clock, serta menerapkan arsitektur Load/Store di mana operasi manipulasi data hanya dapat dilakukan di dalam register CPU."
+        "text": "Membutuhkan perangkat keras mikro-kode (microcode engine) yang rumit untuk memecah instruksi sebelum dieksekusi ALU."
       },
       {
         "key": "B",
-        "text": "Memiliki instruksi tingkat tinggi berukuran bervariasi yang mampu memanipulasi operan langsung di dalam memori RAM utama sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Tidak memiliki register internal sehingga seluruh perhitungan dilakukan langsung pada sirkuit bus sistem."
       },
       {
         "key": "C",
-        "text": "Tidak memiliki register internal sehingga seluruh perhitungan dilakukan langsung pada sirkuit bus sistem."
+        "text": "Memiliki set instruksi sederhana berukuran seragam (fixed-length), sebagian besar instruksi dieksekusi dalam satu siklus clock, serta menerapkan arsitektur Load/Store di mana operasi manipulasi data hanya dapat dilakukan di dalam register CPU."
       },
       {
         "key": "D",
@@ -1976,11 +1977,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Membutuhkan perangkat keras mikro-kode (microcode engine) yang rumit untuk memecah instruksi sebelum dieksekusi ALU."
+        "text": "Memiliki instruksi tingkat tinggi berukuran bervariasi yang mampu memanipulasi operan langsung di dalam memori RAM utama."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Memiliki set instruksi sederhana berukuran seragam (fixed-length), sebagian besar instruksi dieksekusi dalam satu siklus clock, serta menerapkan arsitektur Load/Store di mana operasi manipulasi data hanya dapat dilakukan di dalam register CPU.. Ciri khas RISC: instruksi sederhana berukuran tetap, eksekusi satu siklus, operasi data hanya di register (Load/Store). Pilih opsi: Instruksi sederhana berukuran seragam, eksekusi satu siklus clock, dan arsitektur Load/Store."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Memiliki set instruksi sederhana berukuran seragam (fixed-length), sebagian besar instruksi dieksekusi dalam satu siklus clock, serta menerapkan arsitektur Load/Store di mana operasi manipulasi data hanya dapat dilakukan di dalam register CPU.. Ciri khas RISC: instruksi sederhana berukuran tetap, eksekusi satu siklus, operasi data hanya di register (Load/Store). Pilih opsi: Instruksi sederhana berukuran seragam, eksekusi satu siklus clock, dan arsitektur Load/Store."
   },
   {
     "id": "inf-lat-m-22",
@@ -2003,11 +2004,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Collision Resistance, yaitu sifat kemustahilan matematis menemukan dua masukan berbeda yang menghasilkan hash identik sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Efek Longsoran (Avalanche Effect), yang menjamin bahwa keluaran hash tidak dapat diprediksi hubungannya dengan masukan awal."
       },
       {
         "key": "B",
-        "text": "Efek Longsoran (Avalanche Effect), yang menjamin bahwa keluaran hash tidak dapat diprediksi hubungannya dengan masukan awal."
+        "text": "Homomorphic Encryption, yaitu kemampuan melakukan operasi komputasi matematika pada teks tersandi tanpa didekripsi."
       },
       {
         "key": "C",
@@ -2015,15 +2016,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Zero-Knowledge Proof, yaitu pembuktian kebenaran suatu pernyataan rahasia tanpa mengungkapkan isi rahasia itu sendiri."
+        "text": "Collision Resistance, yaitu sifat kemustahilan matematis menemukan dua masukan berbeda yang menghasilkan hash identik."
       },
       {
         "key": "E",
-        "text": "Homomorphic Encryption, yaitu kemampuan melakukan operasi komputasi matematika pada teks tersandi tanpa didekripsi."
+        "text": "Zero-Knowledge Proof, yaitu pembuktian kebenaran suatu pernyataan rahasia tanpa mengungkapkan isi rahasia itu sendiri."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Efek Longsoran (Avalanche Effect), yang menjamin bahwa keluaran hash tidak dapat diprediksi hubungannya dengan masukan awal.. Perubahan 1 bit input menyebabkan perubahan drastis pada nilai hash output disebut Avalanche Effect (Efek Longsoran). Pilih: Efek Longsoran (Avalanche Effect)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Efek Longsoran (Avalanche Effect), yang menjamin bahwa keluaran hash tidak dapat diprediksi hubungannya dengan masukan awal.. Perubahan 1 bit input menyebabkan perubahan drastis pada nilai hash output disebut Avalanche Effect (Efek Longsoran). Pilih: Efek Longsoran (Avalanche Effect)."
   },
   {
     "id": "inf-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus folder tersembunyi `.git` secara permanen agar riwayat konflik langsung hilang dari komputer ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "Mengganti nama berkas `app.py` menjadi `app_backup.py` lalu membiarkan sistem Git menyelesaikan sendiri secara otomatis."
       },
       {
         "key": "B",
-        "text": "Menjalankan perintah `git push --force origin main` untuk menimpa seluruh kode di repositori server secara paksa."
+        "text": "Menghapus folder tersembunyi `.git` secara permanen agar riwayat konflik langsung hilang dari komputer ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "C",
-        "text": "Membuka berkas `app.py`, meninjau penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), menyunting baris kode untuk memilih atau menggabungkan perubahan yang benar, menghapus penanda konflik, lalu menjalankan `git add app.py` dan `git commit`."
+        "text": "Menjalankan perintah `git push --force origin main` untuk menimpa seluruh kode di repositori server secara paksa."
       },
       {
         "key": "D",
-        "text": "Mengganti nama berkas `app.py` menjadi `app_backup.py` lalu membiarkan sistem Git menyelesaikan sendiri secara otomatis."
+        "text": "Membuka berkas `app.py`, meninjau penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), menyunting baris kode untuk memilih atau menggabungkan perubahan yang benar, menghapus penanda konflik, lalu menjalankan `git add app.py` dan `git commit`."
       },
       {
         "key": "E",
         "text": "Mematikan sambungan internet komputer dan menginstal ulang sistem operasi untuk memulihkan kode sumber."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Membuka berkas `app.py`, meninjau penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), menyunting baris kode untuk memilih atau menggabungkan perubahan yang benar, menghapus penanda konflik, lalu menjalankan `git add app.py` dan `git commit`.. Menyelesaikan git merge conflict: buka file, edit kode di antara marker conflict, hapus marker, lakukan git add dan git commit. Pilih opsi: Buka file, selesaikan penanda konflik secara manual, hapus penanda, lalu git add dan git commit."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Membuka berkas `app.py`, meninjau penanda konflik (`<<<<<<<`, `=======`, `>>>>>>>`), menyunting baris kode untuk memilih atau menggabungkan perubahan yang benar, menghapus penanda konflik, lalu menjalankan `git add app.py` dan `git commit`.. Menyelesaikan git merge conflict: buka file, edit kode di antara marker conflict, hapus marker, lakukan git add dan git commit. Pilih opsi: Buka file, selesaikan penanda konflik secara manual, hapus penanda, lalu git add dan git commit."
   },
   {
     "id": "inf-lat-m-24",
@@ -2089,11 +2090,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rp 22.000.000,-, hasil penjumlahan kuartil atas dengan satu kali nilai rentang interkuartil dasar menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Rp 22.000.000,-, hasil penjumlahan kuartil atas dengan satu kali nilai rentang interkuartil dasar."
       },
       {
         "key": "B",
-        "text": "Rp 20.000.000,-, nilai tengah dari batas maksimum data gaji normal di perusahaan."
+        "text": "Rp 18.000.000,-, hasil penambahan standar deviasi pada kuartil ketiga statistik sampel."
       },
       {
         "key": "C",
@@ -2101,15 +2102,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Rp 26.000.000,-, dihitung dari formula $Q_3 + 1,5 \\times \\text{IQR}$, di mana $\\text{IQR} = Q_3 - Q_1 = 14 - 6 = 8$ juta, sehingga $14 + 1,5(8) = 26$ juta."
+        "text": "Rp 20.000.000,-, nilai tengah dari batas maksimum data gaji normal di perusahaan."
       },
       {
         "key": "E",
-        "text": "Rp 18.000.000,-, hasil penambahan standar deviasi pada kuartil ketiga statistik sampel."
+        "text": "Rp 26.000.000,-, dihitung dari formula $Q_3 + 1,5 \\times \\text{IQR}$, di mana $\\text{IQR} = Q_3 - Q_1 = 14 - 6 = 8$ juta, sehingga $14 + 1,5(8) = 26$ juta."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Rp 26.000.000,-, dihitung dari formula $Q_3 + 1,5 \\times \\text{IQR}$, di mana $\\text{IQR} = Q_3 - Q_1 = 14 - 6 = 8$ juta, sehingga $14 + 1,5(8) = 26$ juta.. IQR = Q3 - Q1 = 14 - 6 = 8. Batas atas = Q3 + 1.5 * IQR = 14 + 1.5 * 8 = 14 + 12 = 26 juta. Pilih: Rp 26.000.000,-."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Rp 26.000.000,-, dihitung dari formula $Q_3 + 1,5 \\times \\text{IQR}$, di mana $\\text{IQR} = Q_3 - Q_1 = 14 - 6 = 8$ juta, sehingga $14 + 1,5(8) = 26$ juta.. IQR = Q3 - Q1 = 14 - 6 = 8. Batas atas = Q3 + 1.5 * IQR = 14 + 1.5 * 8 = 14 + 12 = 26 juta. Pilih: Rp 26.000.000,-."
   },
   {
     "id": "inf-lat-m-25",
@@ -2132,27 +2133,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membuat cadangan data setiap 3 jam sekali, ditinjau oleh 2 teknisi berbeda, dan disimpan selama 1 tahun penuh diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
-        "text": "Menyimpan data pada 3 komputer dalam 1 ruangan laboratorium yang sama menggunakan 2 kabel LAN dan 1 sakelar."
-      },
-      {
-        "key": "C",
         "text": "Membagi berkas data menjadi 3 pecahan arsip ZIP dengan 2 kata sandi dan 1 kunci pemulihan perangkat keras."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menyimpan data di 3 flashdisk yang dicolokkan secara terus-menerus pada 2 port USB di 1 komputer server utama."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Menyimpan minimal 3 salinan data (1 data produksi asli dan 2 data cadangan), menggunakan 2 jenis media penyimpanan fisik yang berbeda (misalnya SSD server lokal dan Network Attached Storage / pita magnetik), serta menempatkan 1 salinan di lokasi eksternal terpisah (off-site atau cloud terenkripsi)."
+      },
+      {
+        "key": "D",
+        "text": "Menyimpan data pada 3 komputer dalam 1 ruangan laboratorium yang sama menggunakan 2 kabel LAN dan 1 sakelar."
+      },
+      {
+        "key": "E",
+        "text": "Membuat cadangan data setiap 3 jam sekali, ditinjau oleh 2 teknisi berbeda, dan disimpan selama 1 tahun penuh diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menyimpan minimal 3 salinan data (1 data produksi asli dan 2 data cadangan), menggunakan 2 jenis media penyimpanan fisik yang berbeda (misalnya SSD server lokal dan Network Attached Storage / pita magnetik), serta menempatkan 1 salinan di lokasi eksternal terpisah (off-site atau cloud terenkripsi).. Aturan 3-2-1: 3 salinan data, 2 jenis media berbeda, 1 salinan disimpan off-site / cloud di lokasi terpisah. Pilih opsi: 3 salinan data, 2 media penyimpanan berbeda, dan 1 salinan di lokasi terpisah (off-site/cloud)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menyimpan minimal 3 salinan data (1 data produksi asli dan 2 data cadangan), menggunakan 2 jenis media penyimpanan fisik yang berbeda (misalnya SSD server lokal dan Network Attached Storage / pita magnetik), serta menempatkan 1 salinan di lokasi eksternal terpisah (off-site atau cloud terenkripsi).. Aturan 3-2-1: 3 salinan data, 2 jenis media berbeda, 1 salinan disimpan off-site / cloud di lokasi terpisah. Pilih opsi: 3 salinan data, 2 media penyimpanan berbeda, dan 1 salinan di lokasi terpisah (off-site/cloud)."
   },
   {
     "id": "inf-lat-h-01",
@@ -2175,27 +2176,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$DP[i][w] = \\max(DP[i-1][w], \\ DP[i-1][w - w_i] + v_i)$ untuk kondisi $w \\ge w_i$, dan $DP[i][w] = DP[i-1][w]$ jika $w < w_i$, dengan kompleksitas waktu pseudo-polinomial $O(n \\cdot W)$."
+        "text": "$DP[i][w] = \\sum_{k=1}^i \\left( \\frac{w}{w_k} \\cdot v_k \\right)$, yang mengasumsikan barang dapat dipotong menjadi pecahan desimal tak hingga."
       },
       {
         "key": "B",
-        "text": "$DP[i][w] = DP[i-1][w] + \\min(DP[i][w - w_i], v_i)$, dengan kompleksitas waktu eksponensial $O(2^{n+W})$ sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
-        "text": "$DP[i][w] = \\frac{v_i}{w_i} \\times DP[i-1][w]$, dengan kompleksitas waktu polinomial murni $O(n \\log n)$."
-      },
-      {
-        "key": "D",
         "text": "$DP[i][w] = DP[i-1][w - 1] + DP[i - 1][w + 1] - v_i$, dengan kompleksitas waktu konstan $O(1)$."
       },
       {
+        "key": "C",
+        "text": "$DP[i][w] = \\max(DP[i-1][w], \\ DP[i-1][w - w_i] + v_i)$ untuk kondisi $w \\ge w_i$, dan $DP[i][w] = DP[i-1][w]$ jika $w < w_i$, dengan kompleksitas waktu pseudo-polinomial $O(n \\cdot W)$."
+      },
+      {
+        "key": "D",
+        "text": "$DP[i][w] = \\frac{v_i}{w_i} \\times DP[i-1][w]$, dengan kompleksitas waktu polinomial murni $O(n \\log n)$."
+      },
+      {
         "key": "E",
-        "text": "$DP[i][w] = \\sum_{k=1}^i \\left( \\frac{w}{w_k} \\cdot v_k \\right)$, yang mengasumsikan barang dapat dipotong menjadi pecahan desimal tak hingga."
+        "text": "$DP[i][w] = DP[i-1][w] + \\min(DP[i][w - w_i], v_i)$, dengan kompleksitas waktu eksponensial $O(2^{n+W})$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $DP[i][w] = \\max(DP[i-1][w], \\ DP[i-1][w - w_i] + v_i)$ untuk kondisi $w \\ge w_i$, dan $DP[i][w] = DP[i-1][w]$ jika $w < w_i$, dengan kompleksitas waktu pseudo-polinomial $O(n \\cdot W)$.. Pada 0/1 Knapsack, keputusan biner: ambil barang ke-i (jika kapasitas muat) atau lewatkan. Nilai adalah maksimum dari kedua pilihan tersebut. Pilih formula DP: DP[i][w] = max(DP[i-1][w], DP[i-1][w - w_i] + v_i)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $DP[i][w] = \\max(DP[i-1][w], \\ DP[i-1][w - w_i] + v_i)$ untuk kondisi $w \\ge w_i$, dan $DP[i][w] = DP[i-1][w]$ jika $w < w_i$, dengan kompleksitas waktu pseudo-polinomial $O(n \\cdot W)$.. Pada 0/1 Knapsack, keputusan biner: ambil barang ke-i (jika kapasitas muat) atau lewatkan. Nilai adalah maksimum dari kedua pilihan tersebut. Pilih formula DP: DP[i][w] = max(DP[i-1][w], DP[i-1][w - w_i] + v_i)."
   },
   {
     "id": "inf-lat-h-02",
@@ -2218,27 +2219,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Prediksi Cabang Dinamis (Dynamic Branch Prediction), yaitu menebak hasil perhitungan R1 menggunakan tabel Branch Target Buffer (BTB) sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
-        "text": "Penerusan Data (Data Forwarding / Bypassing), yaitu menyalurkan hasil perhitungan ALU dari tahap EX atau register perantara EX/MEM milik instruksi `ADD` secara langsung ke input ALU pada tahap EX milik instruksi `SUB` tanpa menunggu tahap WB selesai."
-      },
-      {
-        "key": "C",
-        "text": "Instruksi NOP Injection, yaitu menyisipkan sepuluh instruksi kosong ke dalam memori RAM utama untuk menghentikan clock."
-      },
-      {
-        "key": "D",
         "text": "Cache Invalidation, yaitu menghapus seluruh baris cache data L1 agar register R1 dipaksa dimuat ulang dari SSD."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Instruksi NOP Injection, yaitu menyisipkan sepuluh instruksi kosong ke dalam memori RAM utama untuk menghentikan clock."
+      },
+      {
+        "key": "C",
+        "text": "Penerusan Data (Data Forwarding / Bypassing), yaitu menyalurkan hasil perhitungan ALU dari tahap EX atau register perantara EX/MEM milik instruksi `ADD` secara langsung ke input ALU pada tahap EX milik instruksi `SUB` tanpa menunggu tahap WB selesai."
+      },
+      {
+        "key": "D",
         "text": "Spekulasi Eksekusi Terbalik, yaitu membalik urutan eksekusi instruksi SUB sebelum instruksi ADD dimulai."
+      },
+      {
+        "key": "E",
+        "text": "Prediksi Cabang Dinamis (Dynamic Branch Prediction), yaitu menebak hasil perhitungan R1 menggunakan tabel Branch Target Buffer (BTB)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Penerusan Data (Data Forwarding / Bypassing), yaitu menyalurkan hasil perhitungan ALU dari tahap EX atau register perantara EX/MEM milik instruksi `ADD` secara langsung ke input ALU pada tahap EX milik instruksi `SUB` tanpa menunggu tahap WB selesai.. Teknik meneruskan hasil kalkulasi ALU langsung dari output pipeline EX ke input ALU instruksi berikutnya disebut Data Forwarding (Bypassing). Pilih: Data Forwarding / Bypassing."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Penerusan Data (Data Forwarding / Bypassing), yaitu menyalurkan hasil perhitungan ALU dari tahap EX atau register perantara EX/MEM milik instruksi `ADD` secara langsung ke input ALU pada tahap EX milik instruksi `SUB` tanpa menunggu tahap WB selesai.. Teknik meneruskan hasil kalkulasi ALU langsung dari output pipeline EX ke input ALU instruksi berikutnya disebut Data Forwarding (Bypassing). Pilih: Data Forwarding / Bypassing."
   },
   {
     "id": "inf-lat-h-03",
@@ -2269,19 +2270,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Rotasi Kiri pada simpul anak $B$ terlebih dahulu (mengubah kondisi menjadi Left-Left), diikuti dengan Rotasi Kanan pada simpul induk $A$ (Left-Right Double Rotation)."
-      },
-      {
-        "key": "D",
         "text": "Dua kali Rotasi Kiri berturut-turut pada simpul induk $A$ hingga seluruh simpul berpindah ke sisi kanan."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menghapus simpul yang baru disisipkan secara permanen karena struktur AVL menolak penyisipan asimetris."
+      },
+      {
+        "key": "E",
+        "text": "Rotasi Kiri pada simpul anak $B$ terlebih dahulu (mengubah kondisi menjadi Left-Left), diikuti dengan Rotasi Kanan pada simpul induk $A$ (Left-Right Double Rotation)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Rotasi Kiri pada simpul anak $B$ terlebih dahulu (mengubah kondisi menjadi Left-Left), diikuti dengan Rotasi Kanan pada simpul induk $A$ (Left-Right Double Rotation).. Kasus Left-Right (LR) diselesaikan dengan rotasi ganda: rotasi kiri pada anak kiri (B), lalu rotasi kanan pada induk (A). Pilih: Rotasi Kiri pada simpul anak B, diikuti Rotasi Kanan pada simpul induk A."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Rotasi Kiri pada simpul anak $B$ terlebih dahulu (mengubah kondisi menjadi Left-Left), diikuti dengan Rotasi Kanan pada simpul induk $A$ (Left-Right Double Rotation).. Kasus Left-Right (LR) diselesaikan dengan rotasi ganda: rotasi kiri pada anak kiri (B), lalu rotasi kanan pada induk (A). Pilih: Rotasi Kiri pada simpul anak B, diikuti Rotasi Kanan pada simpul induk A."
   },
   {
     "id": "inf-lat-h-04",
@@ -2304,27 +2305,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Departemen A menggunakan `/22` (1022 host valid), Departemen B menggunakan `/23` (510 host valid), dan Departemen C menggunakan `/24` (254 host valid)."
-      },
-      {
-        "key": "B",
         "text": "Departemen A menggunakan `/24` (254 host valid), Departemen B menggunakan `/25` (126 host valid), dan Departemen C menggunakan `/26` (62 host valid)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Departemen A menggunakan `/25` (126 host valid), Departemen B menggunakan `/26` (62 host valid), dan Departemen C menggunakan `/27` (30 host valid)."
       },
       {
+        "key": "C",
+        "text": "Departemen A menggunakan `/22` (1022 host valid), Departemen B menggunakan `/23` (510 host valid), dan Departemen C menggunakan `/24` (254 host valid)."
+      },
+      {
         "key": "D",
-        "text": "Departemen A menggunakan `/23` (510 host valid), Departemen B menggunakan `/24` (254 host valid), dan Departemen C menggunakan `/25` (126 host valid)."
+        "text": "Seluruh departemen wajib menggunakan prefix seragam `/23` agar router tidak mengalami kegagalan protokol."
       },
       {
         "key": "E",
-        "text": "Seluruh departemen wajib menggunakan prefix seragam `/23` agar router tidak mengalami kegagalan protokol."
+        "text": "Departemen A menggunakan `/23` (510 host valid), Departemen B menggunakan `/24` (254 host valid), dan Departemen C menggunakan `/25` (126 host valid)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Departemen A menggunakan `/23` (510 host valid), Departemen B menggunakan `/24` (254 host valid), dan Departemen C menggunakan `/25` (126 host valid).. 450 host butuh 2^9 - 2 = 510 host (/23). 200 host butuh 2^8 - 2 = 254 host (/24). 100 host butuh 2^7 - 2 = 126 host (/25). Pilih: Dep A (/23), Dep B (/24), Dep C (/25)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Departemen A menggunakan `/23` (510 host valid), Departemen B menggunakan `/24` (254 host valid), dan Departemen C menggunakan `/25` (126 host valid).. 450 host butuh 2^9 - 2 = 510 host (/23). 200 host butuh 2^8 - 2 = 254 host (/24). 100 host butuh 2^7 - 2 = 126 host (/25). Pilih: Dep A (/23), Dep B (/24), Dep C (/25)."
   },
   {
     "id": "inf-lat-h-05",
@@ -2347,7 +2348,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengorbankan Consistency; sistem tetap menerima penulisan data baru di semua node meskipun data antar node menjadi tidak sinkron dan bertentangan diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "Mengorbankan Consistency; sistem tetap menerima penulisan data baru di semua node meskipun data antar node menjadi tidak sinkron dan bertentangan diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "B",
@@ -2355,19 +2356,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengubah protokol jaringan secara otomatis menjadi model centralized client-server tanpa melalui proses partisi."
-      },
-      {
-        "key": "D",
         "text": "Memaksa hardware sakelar jaringan fisik untuk tersambung kembali menggunakan sinyal kompresi perangkat lunak."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mengorbankan Availability (Ketersediaan); sistem menolak melayani permintaan tulis/baca baru (mengembalikan pesan error atau timeout) pada node yang terisolasi demi mencegah terjadinya inkonsistensi data antar replika server."
+      },
+      {
+        "key": "E",
+        "text": "Mengubah protokol jaringan secara otomatis menjadi model centralized client-server tanpa melalui proses partisi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mengorbankan Availability (Ketersediaan); sistem menolak melayani permintaan tulis/baca baru (mengembalikan pesan error atau timeout) pada node yang terisolasi demi mencegah terjadinya inkonsistensi data antar replika server.. Sistem CP saat terjadi partisi (P) akan memilih menjaga konsistensi (C) dan mengorbankan ketersediaan (A) dengan menolak request pada partisi yang terisolasi. Pilih: Mengorbankan Availability demi mencegah terjadinya inkonsistensi data."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mengorbankan Availability (Ketersediaan); sistem menolak melayani permintaan tulis/baca baru (mengembalikan pesan error atau timeout) pada node yang terisolasi demi mencegah terjadinya inkonsistensi data antar replika server.. Sistem CP saat terjadi partisi (P) akan memilih menjaga konsistensi (C) dan mengorbankan ketersediaan (A) dengan menolak request pada partisi yang terisolasi. Pilih: Mengorbankan Availability demi mencegah terjadinya inkonsistensi data."
   },
   {
     "id": "inf-lat-h-06",
@@ -2390,27 +2391,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Algoritma Bellman-Ford, yang melakukan relaksasi terhadap seluruh $|E|$ sisi graf sebanyak $|V| - 1$ kali dengan kompleksitas waktu $O(|V| \\cdot |E|)$, serta mampu mendeteksi siklus negatif pada relaksasi ke-$|V|$."
-      },
-      {
-        "key": "B",
-        "text": "Algoritma Floyd-Warshall, yang hanya dapat mengeksekusi graf tanpa sisi sama sekali dalam waktu linier $O(|V|)$ sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
-        "text": "Algoritma Prim, yang khusus dirancang untuk mendeteksi siklus berbobot negatif pada pohon rentang minimum."
-      },
-      {
-        "key": "D",
         "text": "Algoritma Breadth-First Search (BFS), yang secara otomatis mengabaikan bobot negatif dengan mengubahnya menjadi nilai nol."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Algoritma A* Search, yang selalu menjamin rute terpendek tanpa memerlukan fungsi heuristik admissibel."
+      },
+      {
+        "key": "C",
+        "text": "Algoritma Floyd-Warshall, yang hanya dapat mengeksekusi graf tanpa sisi sama sekali dalam waktu linier $O(|V|)$."
+      },
+      {
+        "key": "D",
+        "text": "Algoritma Prim, yang khusus dirancang untuk mendeteksi siklus berbobot negatif pada pohon rentang minimum."
+      },
+      {
+        "key": "E",
+        "text": "Algoritma Bellman-Ford, yang melakukan relaksasi terhadap seluruh $|E|$ sisi graf sebanyak $|V| - 1$ kali dengan kompleksitas waktu $O(|V| \\cdot |E|)$, serta mampu mendeteksi siklus negatif pada relaksasi ke-$|V|$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Algoritma Bellman-Ford, yang melakukan relaksasi terhadap seluruh $|E|$ sisi graf sebanyak $|V| - 1$ kali dengan kompleksitas waktu $O(|V| \\cdot |E|)$, serta mampu mendeteksi siklus negatif pada relaksasi ke-$|V|$.. Algoritma untuk single-source shortest path dengan bobot negatif dan deteksi negative weight cycle adalah Bellman-Ford. Pilih: Algoritma Bellman-Ford dengan relaksasi (|V|-1) kali dan kompleksitas O(|V| . |E|)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Algoritma Bellman-Ford, yang melakukan relaksasi terhadap seluruh $|E|$ sisi graf sebanyak $|V| - 1$ kali dengan kompleksitas waktu $O(|V| \\cdot |E|)$, serta mampu mendeteksi siklus negatif pada relaksasi ke-$|V|$.. Algoritma untuk single-source shortest path dengan bobot negatif dan deteksi negative weight cycle adalah Bellman-Ford. Pilih: Algoritma Bellman-Ford dengan relaksasi (|V|-1) kali dan kompleksitas O(|V| . |E|)."
   },
   {
     "id": "inf-lat-h-07",
@@ -2433,7 +2434,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kecepatan transmisi foton kuantum melalui kabel serat optik bawah laut yang tidak dapat dicegat oleh peretas sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Penggunaan kunci simetris rahasia yang telah dipasang secara permanen di pabrik sirkuit prosesor komputer sejak awal."
       },
       {
         "key": "B",
@@ -2441,15 +2442,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Penggunaan kunci simetris rahasia yang telah dipasang secara permanen di pabrik sirkuit prosesor komputer sejak awal."
-      },
-      {
-        "key": "D",
         "text": "Kemustahilan matematis melakukan operasi modulus sisa bagi pada bilangan ganjil yang memiliki lebih dari 10 digit."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Proses enkripsi satu kali pakai (One-Time Pad) yang secara fisik menghancurkan sinyal data setelah dibaca oleh penerima."
+      },
+      {
+        "key": "E",
+        "text": "Kecepatan transmisi foton kuantum melalui kabel serat optik bawah laut yang tidak dapat dicegat oleh peretas."
       }
     ],
     "correctKey": "B",
@@ -2476,27 +2477,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mematikan (kill) secara paksa seluruh proses aktif yang meminta lebih dari satu sumber daya secara acak ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
-        "text": "Mengabaikan pengecekan sumber daya dan langsung mengalokasikan memori hingga kapasitas RAM fisik habis total."
-      },
-      {
-        "key": "C",
-        "text": "Menguji setiap permintaan alokasi sumber daya dengan menyimulasikan keadaan alokasi masa depan; permintaan hanya akan dipenuhi jika hasil simulasi menjamin sistem tetap berada dalam Keadaan Aman (Safe State) di mana terdapat urutan eksekusi (safe sequence) yang memungkinkan seluruh proses menyelesaikan tugasnya."
-      },
-      {
-        "key": "D",
         "text": "Memaksa setiap proses untuk berjalan dalam satu utas (single thread) tunggal secara bergiliran menggunakan timer FCFS."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menguji setiap permintaan alokasi sumber daya dengan menyimulasikan keadaan alokasi masa depan; permintaan hanya akan dipenuhi jika hasil simulasi menjamin sistem tetap berada dalam Keadaan Aman (Safe State) di mana terdapat urutan eksekusi (safe sequence) yang memungkinkan seluruh proses menyelesaikan tugasnya."
+      },
+      {
+        "key": "C",
         "text": "Mengenkripsi tabel sumber daya sistem sehingga proses yang bersaing tidak dapat saling melihat status alokasi."
+      },
+      {
+        "key": "D",
+        "text": "Mematikan (kill) secara paksa seluruh proses aktif yang meminta lebih dari satu sumber daya secara acak ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+      },
+      {
+        "key": "E",
+        "text": "Mengabaikan pengecekan sumber daya dan langsung mengalokasikan memori hingga kapasitas RAM fisik habis total."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menguji setiap permintaan alokasi sumber daya dengan menyimulasikan keadaan alokasi masa depan; permintaan hanya akan dipenuhi jika hasil simulasi menjamin sistem tetap berada dalam Keadaan Aman (Safe State) di mana terdapat urutan eksekusi (safe sequence) yang memungkinkan seluruh proses menyelesaikan tugasnya.. Algoritma Banker menguji simulasi alokasi dan hanya mengabulkan permintaan jika sistem tetap berada dalam Status Aman (Safe State). Pilih: Menguji alokasi dan hanya memenuhinya jika sistem tetap berada dalam Keadaan Aman (Safe State)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menguji setiap permintaan alokasi sumber daya dengan menyimulasikan keadaan alokasi masa depan; permintaan hanya akan dipenuhi jika hasil simulasi menjamin sistem tetap berada dalam Keadaan Aman (Safe State) di mana terdapat urutan eksekusi (safe sequence) yang memungkinkan seluruh proses menyelesaikan tugasnya.. Algoritma Banker menguji simulasi alokasi dan hanya mengabulkan permintaan jika sistem tetap berada dalam Status Aman (Safe State). Pilih: Menguji alokasi dan hanya memenuhinya jika sistem tetap berada dalam Keadaan Aman (Safe State)."
   },
   {
     "id": "inf-lat-h-09",
@@ -2519,27 +2520,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Matriks Ketetanggaan (Adjacency Matrix) dengan penelusuran DFS berulang-ulang yang memiliki kompleksitas waktu $O(|E| \\cdot |V|^2)$ menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "Tumpukan Ganda (Double Stack) yang membalikkan urutan pembacaan bobot sisi setiap kali percabangan terdeteksi."
-      },
-      {
-        "key": "C",
-        "text": "Tabel Hash linier tanpa penanganan tabrakan yang langsung menghapus sisi berbobot ganjil."
-      },
-      {
-        "key": "D",
         "text": "Disjoint Set Union (DSU / Union-Find) yang dilengkapi teknik Path Compression dan Union by Rank/Size, dengan kompleksitas waktu mendekati linier $O(|E| \\log |E| + |E| \\cdot \\alpha(|V|))$."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Pohon Biner Terurut (Binary Search Tree) yang menyimpan alamat memori fisik kartu jaringan router."
+      },
+      {
+        "key": "C",
+        "text": "Tumpukan Ganda (Double Stack) yang membalikkan urutan pembacaan bobot sisi setiap kali percabangan terdeteksi."
+      },
+      {
+        "key": "D",
+        "text": "Tabel Hash linier tanpa penanganan tabrakan yang langsung menghapus sisi berbobot ganjil."
+      },
+      {
+        "key": "E",
+        "text": "Matriks Ketetanggaan (Adjacency Matrix) dengan penelusuran DFS berulang-ulang yang memiliki kompleksitas waktu $O(|E| \\cdot |V|^2)$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Disjoint Set Union (DSU / Union-Find) yang dilengkapi teknik Path Compression dan Union by Rank/Size, dengan kompleksitas waktu mendekati linier $O(|E| \\log |E| + |E| \\cdot \\alpha(|V|))$.. Struktur data standar deteksi siklus pada Kruskal adalah Disjoint Set Union (DSU / Union-Find) dengan Path Compression. Pilih: Disjoint Set Union (DSU / Union-Find) dengan Path Compression dan Union by Rank."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Disjoint Set Union (DSU / Union-Find) yang dilengkapi teknik Path Compression dan Union by Rank/Size, dengan kompleksitas waktu mendekati linier $O(|E| \\log |E| + |E| \\cdot \\alpha(|V|))$.. Struktur data standar deteksi siklus pada Kruskal adalah Disjoint Set Union (DSU / Union-Find) dengan Path Compression. Pilih: Disjoint Set Union (DSU / Union-Find) dengan Path Compression dan Union by Rank."
   },
   {
     "id": "inf-lat-h-10",
@@ -2562,27 +2563,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Matriks substitusi probabilitas Markov yang menebak karakter teks berikutnya secara acak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
-        "text": "Fungsi kompresi Huffman yang mengubah seluruh teks dan pola menjadi deretan bit biner tetap sebelum dicari."
-      },
-      {
-        "key": "C",
-        "text": "Struktur data Trie raksasa yang menduplikasi teks sebanyak $n$ kali di dalam memori cache sekunder."
-      },
-      {
-        "key": "D",
         "text": "Proses pengurutan alfabetik terhadap teks menggunakan algoritma Quicksort tiga dimensi."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Tabel Prefix $\\pi$ / LPS (Longest Proper Prefix which is also Suffix), yang menentukan seberapa jauh penunjuk karakter pola dapat digeser ke depan tanpa perlu memeriksa ulang karakter teks yang sudah terbukti cocok sebelumnya."
+      },
+      {
+        "key": "C",
+        "text": "Matriks substitusi probabilitas Markov yang menebak karakter teks berikutnya secara acak diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+      },
+      {
+        "key": "D",
+        "text": "Struktur data Trie raksasa yang menduplikasi teks sebanyak $n$ kali di dalam memori cache sekunder."
+      },
+      {
+        "key": "E",
+        "text": "Fungsi kompresi Huffman yang mengubah seluruh teks dan pola menjadi deretan bit biner tetap sebelum dicari."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tabel Prefix $\\pi$ / LPS (Longest Proper Prefix which is also Suffix), yang menentukan seberapa jauh penunjuk karakter pola dapat digeser ke depan tanpa perlu memeriksa ulang karakter teks yang sudah terbukti cocok sebelumnya.. KMP memanfaatkan tabel LPS (Longest Proper Prefix which is also Suffix) untuk menggeser pola tanpa memundurkan pointer teks. Pilih opsi: Tabel Prefix / LPS (Longest Proper Prefix which is also Suffix)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Tabel Prefix $\\pi$ / LPS (Longest Proper Prefix which is also Suffix), yang menentukan seberapa jauh penunjuk karakter pola dapat digeser ke depan tanpa perlu memeriksa ulang karakter teks yang sudah terbukti cocok sebelumnya.. KMP memanfaatkan tabel LPS (Longest Proper Prefix which is also Suffix) untuk menggeser pola tanpa memundurkan pointer teks. Pilih opsi: Tabel Prefix / LPS (Longest Proper Prefix which is also Suffix)."
   },
   {
     "id": "inf-lat-h-11",
@@ -2609,7 +2610,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Masalah Under-fetching; diselesaikan oleh GraphQL dengan melarang klien mengirimkan parameter kueri ke server sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Masalah N+1 Query; diselesaikan oleh GraphQL dengan secara otomatis menambah jumlah tabel basis data hingga ribuan."
       },
       {
         "key": "C",
@@ -2617,11 +2618,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Masalah SQL Injection; diselesaikan oleh GraphQL dengan mengubah seluruh basis data relasional menjadi dokumen XML statis."
+        "text": "Masalah Under-fetching; diselesaikan oleh GraphQL dengan melarang klien mengirimkan parameter kueri ke server."
       },
       {
         "key": "E",
-        "text": "Masalah N+1 Query; diselesaikan oleh GraphQL dengan secara otomatis menambah jumlah tabel basis data hingga ribuan."
+        "text": "Masalah SQL Injection; diselesaikan oleh GraphQL dengan mengubah seluruh basis data relasional menjadi dokumen XML statis."
       }
     ],
     "correctKey": "A",
@@ -2648,27 +2649,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jika tabel tersebut memiliki atribut yang nilainya berupa bilangan pecahan desimal yang belum dibulatkan sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Jika tabel tersebut memiliki atribut yang nilainya berupa bilangan pecahan desimal yang belum dibulatkan."
       },
       {
         "key": "B",
-        "text": "Jika pada ketergantungan fungsional non-trivial $X \\to Y$ yang berlaku pada tabel, determinan $X$ BUKAN merupakan Superkey (sering terjadi pada tabel yang memiliki beberapa overlap candidate keys komposit)."
-      },
-      {
-        "key": "C",
         "text": "Jika tabel memiliki ketergantungan parsial di mana kunci primer terdiri dari satu kolom tunggal."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Jika tabel tidak memiliki indeks clustered B-Tree pada media penyimpanan sekunder fisik."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Jika jumlah baris rekaman pada tabel melebihi batas 1.000 data entri per partisi disk."
+      },
+      {
+        "key": "E",
+        "text": "Jika pada ketergantungan fungsional non-trivial $X \\to Y$ yang berlaku pada tabel, determinan $X$ BUKAN merupakan Superkey (sering terjadi pada tabel yang memiliki beberapa overlap candidate keys komposit)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Jika pada ketergantungan fungsional non-trivial $X \\to Y$ yang berlaku pada tabel, determinan $X$ BUKAN merupakan Superkey (sering terjadi pada tabel yang memiliki beberapa overlap candidate keys komposit).. Aturan BCNF mensyaratkan untuk setiap ketergantungan fungsional X -> Y, penentu (X) wajib merupakan Superkey. Pilih opsi: Jika determinan X bukan merupakan Superkey pada ketergantungan fungsional non-trivial X -> Y."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Jika pada ketergantungan fungsional non-trivial $X \\to Y$ yang berlaku pada tabel, determinan $X$ BUKAN merupakan Superkey (sering terjadi pada tabel yang memiliki beberapa overlap candidate keys komposit).. Aturan BCNF mensyaratkan untuk setiap ketergantungan fungsional X -> Y, penentu (X) wajib merupakan Superkey. Pilih opsi: Jika determinan X bukan merupakan Superkey pada ketergantungan fungsional non-trivial X -> Y."
   },
   {
     "id": "inf-lat-h-13",
@@ -2691,7 +2692,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "OSPF hanya mengandalkan informasi jarak lompatan (hop count) dari tetangga langsungnya dan dibatasi maksimal 15 hop ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "OSPF secara otomatis mengenkripsi kabel tembaga fisik menggunakan protokol token ring nirkabel."
       },
       {
         "key": "B",
@@ -2699,19 +2700,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Setiap router memiliki peta topologi jaringan global yang lengkap dan identik melalui pertukaran Link-State Advertisements (LSA) dan menghitung rute bebas loop tercepat menggunakan Algoritma Dijkstra, sehingga konvergensi jaringan tercapai sangat cepat tanpa masalah Count-to-Infinity."
+        "text": "OSPF hanya mengandalkan informasi jarak lompatan (hop count) dari tetangga langsungnya dan dibatasi maksimal 15 hop ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "D",
-        "text": "OSPF tidak memerlukan daya pemrosesan CPU dan memori sama sekali pada perangkat keras router."
+        "text": "Setiap router memiliki peta topologi jaringan global yang lengkap dan identik melalui pertukaran Link-State Advertisements (LSA) dan menghitung rute bebas loop tercepat menggunakan Algoritma Dijkstra, sehingga konvergensi jaringan tercapai sangat cepat tanpa masalah Count-to-Infinity."
       },
       {
         "key": "E",
-        "text": "OSPF secara otomatis mengenkripsi kabel tembaga fisik menggunakan protokol token ring nirkabel."
+        "text": "OSPF tidak memerlukan daya pemrosesan CPU dan memori sama sekali pada perangkat keras router."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Setiap router memiliki peta topologi jaringan global yang lengkap dan identik melalui pertukaran Link-State Advertisements (LSA) dan menghitung rute bebas loop tercepat menggunakan Algoritma Dijkstra, sehingga konvergensi jaringan tercapai sangat cepat tanpa masalah Count-to-Infinity.. OSPF adalah link-state: router memiliki peta topologi utuh via LSA dan menghitung lintasan terpendek bebas loop dengan algoritma Dijkstra (konvergensi cepat). Pilih: Memiliki peta topologi global lengkap, menggunakan Dijkstra, dan konvergensi cepat tanpa loop."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Setiap router memiliki peta topologi jaringan global yang lengkap dan identik melalui pertukaran Link-State Advertisements (LSA) dan menghitung rute bebas loop tercepat menggunakan Algoritma Dijkstra, sehingga konvergensi jaringan tercapai sangat cepat tanpa masalah Count-to-Infinity.. OSPF adalah link-state: router memiliki peta topologi utuh via LSA dan menghitung lintasan terpendek bebas loop dengan algoritma Dijkstra (konvergensi cepat). Pilih: Memiliki peta topologi global lengkap, menggunakan Dijkstra, dan konvergensi cepat tanpa loop."
   },
   {
     "id": "inf-lat-h-14",
@@ -2734,27 +2735,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Master (pengendali bus), Execution (sedang dihitung), Suspended (ditunda sementara), dan Idle (tidak aktif) menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "Monitored (dipantau), Encrypted (terenkripsi), Stored (tersimpan permanen), dan Indexed (terindeks)."
-      },
-      {
-        "key": "C",
         "text": "Memory (di RAM), External (di SSD), Static (konstan), dan Interrupted (terputus sinyal)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Modified (data kotor diubah lokal, berbeda dengan RAM), Exclusive (data bersih hanya ada di cache lokal), Shared (data bersih ada di beberapa cache inti), dan Invalid (data sudah usang tidak valid akibat modifikasi inti lain)."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Monitored (dipantau), Encrypted (terenkripsi), Stored (tersimpan permanen), dan Indexed (terindeks)."
+      },
+      {
+        "key": "D",
         "text": "Main (utama), Ephemeral (sementara), Swapped (ditukar ke disk), dan Isolated (terisolasi)."
+      },
+      {
+        "key": "E",
+        "text": "Master (pengendali bus), Execution (sedang dihitung), Suspended (ditunda sementara), dan Idle (tidak aktif)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Modified (data kotor diubah lokal, berbeda dengan RAM), Exclusive (data bersih hanya ada di cache lokal), Shared (data bersih ada di beberapa cache inti), dan Invalid (data sudah usang tidak valid akibat modifikasi inti lain).. MESI singkatan dari: Modified, Exclusive, Shared, Invalid. Pilih opsi: Modified, Exclusive, Shared, dan Invalid."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Modified (data kotor diubah lokal, berbeda dengan RAM), Exclusive (data bersih hanya ada di cache lokal), Shared (data bersih ada di beberapa cache inti), dan Invalid (data sudah usang tidak valid akibat modifikasi inti lain).. MESI singkatan dari: Modified, Exclusive, Shared, Invalid. Pilih opsi: Modified, Exclusive, Shared, dan Invalid."
   },
   {
     "id": "inf-lat-h-15",
@@ -2820,27 +2821,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "\"Never Trust, Always Verify\"; tidak ada pengguna, perangkat, atau beban kerja yang dipercaya secara bawaan meskipun berada di dalam jaringan internal, sehingga setiap permintaan akses wajib diotentikasi, diotorisasi, dan dienkripsi secara ketat berdasarkan konteks hak akses terkecil (Least Privilege)."
-      },
-      {
-        "key": "B",
-        "text": "Mematikan seluruh sistem pertahanan firewall dan membiarkan jaringan terbuka bebas demi transparansi data publik sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "Memberikan hak akses Administrator (Root) penuh kepada seluruh karyawan agar operasional kantor tidak terhambat."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Menghapus seluruh berkas enkripsi sertifikat SSL agar lalu lintas data dapat dipantau oleh siapa saja."
+      },
+      {
+        "key": "C",
         "text": "Hanya mempercayai perangkat komputer yang dibeli secara langsung dari pabrik tanpa memerlukan kata sandi masuk."
       },
       {
+        "key": "D",
+        "text": "\"Never Trust, Always Verify\"; tidak ada pengguna, perangkat, atau beban kerja yang dipercaya secara bawaan meskipun berada di dalam jaringan internal, sehingga setiap permintaan akses wajib diotentikasi, diotorisasi, dan dienkripsi secara ketat berdasarkan konteks hak akses terkecil (Least Privilege)."
+      },
+      {
         "key": "E",
-        "text": "Menghapus seluruh berkas enkripsi sertifikat SSL agar lalu lintas data dapat dipantau oleh siapa saja."
+        "text": "Mematikan seluruh sistem pertahanan firewall dan membiarkan jaringan terbuka bebas demi transparansi data publik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) \"Never Trust, Always Verify\"; tidak ada pengguna, perangkat, atau beban kerja yang dipercaya secara bawaan meskipun berada di dalam jaringan internal, sehingga setiap permintaan akses wajib diotentikasi, diotorisasi, dan dienkripsi secara ketat berdasarkan konteks hak akses terkecil (Least Privilege).. Prinsip inti Zero Trust: \"Never Trust, Always Verify\" dan menerapkan hak akses terendah (Least Privilege). Pilih opsi yang mencantumkan \"Never Trust, Always Verify\" dan prinsip hak akses terkecil (Least Privilege)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) \"Never Trust, Always Verify\"; tidak ada pengguna, perangkat, atau beban kerja yang dipercaya secara bawaan meskipun berada di dalam jaringan internal, sehingga setiap permintaan akses wajib diotentikasi, diotorisasi, dan dienkripsi secara ketat berdasarkan konteks hak akses terkecil (Least Privilege).. Prinsip inti Zero Trust: \"Never Trust, Always Verify\" dan menerapkan hak akses terendah (Least Privilege). Pilih opsi yang mencantumkan \"Never Trust, Always Verify\" dan prinsip hak akses terkecil (Least Privilege)."
   },
   {
     "id": "inf-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memasukkan simpul yang memiliki In-Degree tertinggi ke dalam tumpukan (Stack) lalu menghapus seluruh sisi masuk sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
-        "text": "Menghitung In-Degree setiap simpul, memasukkan seluruh simpul yang memiliki In-Degree sama dengan 0 ke dalam antrean (Queue), lalu secara berulang mengeluarkan simpul dari antrean dan mengurangi In-Degree simpul-simpul tetangganya."
-      },
-      {
-        "key": "C",
-        "text": "Mengurutkan simpul secara alfabetis berdasarkan label nama teks menggunakan algoritma Quicksort rekursif."
-      },
-      {
-        "key": "D",
         "text": "Mencari jalur lintasan terpendek menggunakan algoritma Dijkstra dimulai dari simpul berbobot sisi negatif."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Memasukkan simpul yang memiliki In-Degree tertinggi ke dalam tumpukan (Stack) lalu menghapus seluruh sisi masuk."
+      },
+      {
+        "key": "C",
         "text": "Membalikkan arah panah seluruh sisi pada graf dan mencari pohon rentang minimum menggunakan algoritma Prim."
+      },
+      {
+        "key": "D",
+        "text": "Menghitung In-Degree setiap simpul, memasukkan seluruh simpul yang memiliki In-Degree sama dengan 0 ke dalam antrean (Queue), lalu secara berulang mengeluarkan simpul dari antrean dan mengurangi In-Degree simpul-simpul tetangganya."
+      },
+      {
+        "key": "E",
+        "text": "Mengurutkan simpul secara alfabetis berdasarkan label nama teks menggunakan algoritma Quicksort rekursif."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menghitung In-Degree setiap simpul, memasukkan seluruh simpul yang memiliki In-Degree sama dengan 0 ke dalam antrean (Queue), lalu secara berulang mengeluarkan simpul dari antrean dan mengurangi In-Degree simpul-simpul tetangganya.. Algoritma Kahn memasukkan simpul dengan in-degree = 0 ke Queue, mencatatnya, lalu mengurangi in-degree tetangganya. Pilih: Menghitung in-degree, memasukkan simpul in-degree = 0 ke Queue, dan mengurangi in-degree tetangganya."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menghitung In-Degree setiap simpul, memasukkan seluruh simpul yang memiliki In-Degree sama dengan 0 ke dalam antrean (Queue), lalu secara berulang mengeluarkan simpul dari antrean dan mengurangi In-Degree simpul-simpul tetangganya.. Algoritma Kahn memasukkan simpul dengan in-degree = 0 ke Queue, mencatatnya, lalu mengurangi in-degree tetangganya. Pilih: Menghitung in-degree, memasukkan simpul in-degree = 0 ke Queue, dan mengurangi in-degree tetangganya."
   },
   {
     "id": "inf-lat-h-18",
@@ -2906,15 +2907,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`rnk = 3` dan `drnk = 4`, karena fungsi RANK() selalu memprioritaskan nomor urut yang lebih padat ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "`rnk = 4` dan `drnk = 3`, karena `RANK()` melompati nomor urutan berikutnya setelah ada nilai kembar seri (1, 2, 2, 4), sedangkan `DENSE_RANK()` tidak pernah melompati nomor peringkat (1, 2, 2, 3)."
       },
       {
         "key": "B",
-        "text": "`rnk = 3` dan `drnk = 3`, karena kedua fungsi menghasilkan urutan peringkat yang identik pada semua kasus."
+        "text": "`rnk = 3` dan `drnk = 4`, karena fungsi RANK() selalu memprioritaskan nomor urut yang lebih padat ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "C",
-        "text": "`rnk = 4` dan `drnk = 3`, karena `RANK()` melompati nomor urutan berikutnya setelah ada nilai kembar seri (1, 2, 2, 4), sedangkan `DENSE_RANK()` tidak pernah melompati nomor peringkat (1, 2, 2, 3)."
+        "text": "`rnk = 3` dan `drnk = 3`, karena kedua fungsi menghasilkan urutan peringkat yang identik pada semua kasus."
       },
       {
         "key": "D",
@@ -2925,8 +2926,8 @@ window.TKA_INFORMATIKA_QUESTIONS = [
         "text": "`rnk = 2` dan `drnk = 2`, karena nilai kembar dianggap sebagai satu kesatuan data tunggal tanpa pembagian."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) `rnk = 4` dan `drnk = 3`, karena `RANK()` melompati nomor urutan berikutnya setelah ada nilai kembar seri (1, 2, 2, 4), sedangkan `DENSE_RANK()` tidak pernah melompati nomor peringkat (1, 2, 2, 3).. Nilai 100 (rank 1, dense 1). Nilai 95 & 95 (rank 2 & 2, dense 2 & 2). Nilai 90 berikutnya mendapat rank 4 (karena lewati 3) dan dense_rank 3. Pilih: rnk = 4 dan drnk = 3."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) `rnk = 4` dan `drnk = 3`, karena `RANK()` melompati nomor urutan berikutnya setelah ada nilai kembar seri (1, 2, 2, 4), sedangkan `DENSE_RANK()` tidak pernah melompati nomor peringkat (1, 2, 2, 3).. Nilai 100 (rank 1, dense 1). Nilai 95 & 95 (rank 2 & 2, dense 2 & 2). Nilai 90 berikutnya mendapat rank 4 (karena lewati 3) dan dense_rank 3. Pilih: rnk = 4 dan drnk = 3."
   },
   {
     "id": "inf-lat-h-19",
@@ -2949,27 +2950,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fase Fast Retransmit, di mana `cwnd` langsung diturunkan menjadi 0 byte untuk menghentikan transmisi paket menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "Fase Exponential Burst, di mana `cwnd` dinaikkan menjadi kuadrat dari nilai sebelumnya setiap milidetik."
-      },
-      {
-        "key": "C",
-        "text": "Fase Multiplicative Decrease, di mana jendela kemacetan diperbesar sepuluh kali lipat untuk memaksa router bekerja."
-      },
-      {
-        "key": "D",
         "text": "Fase Penghindaran Kemacetan (Congestion Avoidance), di mana `cwnd` ditingkatkan secara linier sebesar 1 MSS (Maximum Segment Size) setiap RTT (prinsip Additive Increase)."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Fase Static Allocation, di mana ukuran jendela dikunci secara permanen dan tidak dapat diubah kembali."
+      },
+      {
+        "key": "C",
+        "text": "Fase Fast Retransmit, di mana `cwnd` langsung diturunkan menjadi 0 byte untuk menghentikan transmisi paket."
+      },
+      {
+        "key": "D",
+        "text": "Fase Multiplicative Decrease, di mana jendela kemacetan diperbesar sepuluh kali lipat untuk memaksa router bekerja."
+      },
+      {
+        "key": "E",
+        "text": "Fase Exponential Burst, di mana `cwnd` dinaikkan menjadi kuadrat dari nilai sebelumnya setiap milidetik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Fase Penghindaran Kemacetan (Congestion Avoidance), di mana `cwnd` ditingkatkan secara linier sebesar 1 MSS (Maximum Segment Size) setiap RTT (prinsip Additive Increase).. Setelah Slow Start melewati ssthresh, TCP masuk fase Congestion Avoidance yang menaikkan cwnd secara linier (+1 MSS per RTT). Pilih: Congestion Avoidance, dengan peningkatan linier sebesar 1 MSS per RTT (Additive Increase)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Fase Penghindaran Kemacetan (Congestion Avoidance), di mana `cwnd` ditingkatkan secara linier sebesar 1 MSS (Maximum Segment Size) setiap RTT (prinsip Additive Increase).. Setelah Slow Start melewati ssthresh, TCP masuk fase Congestion Avoidance yang menaikkan cwnd secara linier (+1 MSS per RTT). Pilih: Congestion Avoidance, dengan peningkatan linier sebesar 1 MSS per RTT (Additive Increase)."
   },
   {
     "id": "inf-lat-h-20",
@@ -2992,7 +2993,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh baris papan catur yang tidak memuat bidak ratu pada awal eksekusi program diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "Menghapus seluruh baris papan catur yang tidak memuat bidak ratu pada awal eksekusi program diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "B",
@@ -3000,7 +3001,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mengabaikan aturan pergerakan diagonal ratu dan hanya memeriksa benturan pada baris horizontal saja."
+        "text": "Menghentikan eksplorasi cabang pohon pencarian seketika saat penempatan ratu baru terbukti melanggar kendali keselamatan (berada di baris, kolom, atau diagonal yang sama dengan ratu sebelumnya), lalu mundur (backtrack) ke langkah sebelumnya tanpa menjelajahi sub-cabang di bawahnya."
       },
       {
         "key": "D",
@@ -3008,11 +3009,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghentikan eksplorasi cabang pohon pencarian seketika saat penempatan ratu baru terbukti melanggar kendali keselamatan (berada di baris, kolom, atau diagonal yang sama dengan ratu sebelumnya), lalu mundur (backtrack) ke langkah sebelumnya tanpa menjelajahi sub-cabang di bawahnya."
+        "text": "Mengabaikan aturan pergerakan diagonal ratu dan hanya memeriksa benturan pada baris horizontal saja."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menghentikan eksplorasi cabang pohon pencarian seketika saat penempatan ratu baru terbukti melanggar kendali keselamatan (berada di baris, kolom, atau diagonal yang sama dengan ratu sebelumnya), lalu mundur (backtrack) ke langkah sebelumnya tanpa menjelajahi sub-cabang di bawahnya.. Pruning pada Backtracking menghentikan eksplorasi cabang sesaat setelah kondisi tidak valid terdeteksi, lalu kembali (backtrack) ke langkah sebelumnya. Pilih opsi: Menghentikan eksplorasi cabang saat penempatan melanggar aturan dan langsung mundur (backtrack)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menghentikan eksplorasi cabang pohon pencarian seketika saat penempatan ratu baru terbukti melanggar kendali keselamatan (berada di baris, kolom, atau diagonal yang sama dengan ratu sebelumnya), lalu mundur (backtrack) ke langkah sebelumnya tanpa menjelajahi sub-cabang di bawahnya.. Pruning pada Backtracking menghentikan eksplorasi cabang sesaat setelah kondisi tidak valid terdeteksi, lalu kembali (backtrack) ke langkah sebelumnya. Pilih opsi: Menghentikan eksplorasi cabang saat penempatan melanggar aturan dan langsung mundur (backtrack)."
   },
   {
     "id": "inf-lat-h-21",
@@ -3035,27 +3036,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Total ruang memori kosong yang tersedia di sistem sebenarnya mencukupi untuk menampung proses baru, namun ruang memori tersebut terpecah-pecah menjadi blok-blok kecil yang tidak berurutan (non-contiguous) sehingga sistem gagal mengalokasikannya."
-      },
-      {
-        "key": "B",
-        "text": "Ruang memori yang dialokasikan untuk suatu proses jauh lebih besar daripada kebutuhan data proses sehingga terjadi pemborosan ruang di dalam blok partisi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
-        "text": "Modul perangkat keras RAM mengalami kerusakan sirkuit fisik akibat kelebihan panas voltase listrik."
-      },
-      {
-        "key": "D",
         "text": "Sistem operasi kehabisan alamat bit register Program Counter untuk mengeksekusi instruksi perulangan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Kecepatan transfer data memori cache L3 lebih lambat daripada kecepatan pembacaan piringan magnetik hard disk."
+      },
+      {
+        "key": "C",
+        "text": "Total ruang memori kosong yang tersedia di sistem sebenarnya mencukupi untuk menampung proses baru, namun ruang memori tersebut terpecah-pecah menjadi blok-blok kecil yang tidak berurutan (non-contiguous) sehingga sistem gagal mengalokasikannya."
+      },
+      {
+        "key": "D",
+        "text": "Ruang memori yang dialokasikan untuk suatu proses jauh lebih besar daripada kebutuhan data proses sehingga terjadi pemborosan ruang di dalam blok partisi."
+      },
+      {
+        "key": "E",
+        "text": "Modul perangkat keras RAM mengalami kerusakan sirkuit fisik akibat kelebihan panas voltase listrik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Total ruang memori kosong yang tersedia di sistem sebenarnya mencukupi untuk menampung proses baru, namun ruang memori tersebut terpecah-pecah menjadi blok-blok kecil yang tidak berurutan (non-contiguous) sehingga sistem gagal mengalokasikannya.. Fragmentasi eksternal: total memori bebas cukup, namun terpecah-pecah menjadi lubang kecil yang tidak berdampingan (non-contiguous). Pilih: Total memori kosong mencukupi tetapi terpecah-pecah menjadi blok kecil yang tidak bersebelahan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Total ruang memori kosong yang tersedia di sistem sebenarnya mencukupi untuk menampung proses baru, namun ruang memori tersebut terpecah-pecah menjadi blok-blok kecil yang tidak berurutan (non-contiguous) sehingga sistem gagal mengalokasikannya.. Fragmentasi eksternal: total memori bebas cukup, namun terpecah-pecah menjadi lubang kecil yang tidak berdampingan (non-contiguous). Pilih: Total memori kosong mencukupi tetapi terpecah-pecah menjadi blok kecil yang tidak bersebelahan."
   },
   {
     "id": "inf-lat-h-22",
@@ -3078,27 +3079,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Alice mengenkripsi seluruh dokumen menggunakan Public Key milik Bob; Bob mendekripsinya menggunakan Private Key milik Alice sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
-        "text": "Alice membuat intisari pesan (hash) $\\rightarrow$ Mengenkripsi hash tersebut menggunakan Private Key miliknya sendiri untuk menghasilkan Digital Signature; Bob memverifikasinya dengan mendekripsi Digital Signature menggunakan Public Key milik Alice, lalu membandingkan hasilnya dengan hash dokumen yang dihitungnya sendiri."
-      },
-      {
-        "key": "C",
         "text": "Alice mengenkripsi hash dokumen menggunakan Public Key milik Bob; Bob mendekripsinya menggunakan kunci simetris AES bersama."
       },
       {
+        "key": "B",
+        "text": "Alice mengirimkan Private Key miliknya ke Bob melalui surel terbuka agar Bob dapat mendekripsi dokumen rahasia."
+      },
+      {
+        "key": "C",
+        "text": "Alice membuat intisari pesan (hash) $\\rightarrow$ Mengenkripsi hash tersebut menggunakan Private Key miliknya sendiri untuk menghasilkan Digital Signature; Bob memverifikasinya dengan mendekripsi Digital Signature menggunakan Public Key milik Alice, lalu membandingkan hasilnya dengan hash dokumen yang dihitungnya sendiri."
+      },
+      {
         "key": "D",
-        "text": "Alice menandatangani berkas dengan foto tanda tangan basah; Bob memverifikasinya menggunakan perangkat lunak OCR komputer."
+        "text": "Alice mengenkripsi seluruh dokumen menggunakan Public Key milik Bob; Bob mendekripsinya menggunakan Private Key milik Alice."
       },
       {
         "key": "E",
-        "text": "Alice mengirimkan Private Key miliknya ke Bob melalui surel terbuka agar Bob dapat mendekripsi dokumen rahasia."
+        "text": "Alice menandatangani berkas dengan foto tanda tangan basah; Bob memverifikasinya menggunakan perangkat lunak OCR komputer."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Alice membuat intisari pesan (hash) $\\rightarrow$ Mengenkripsi hash tersebut menggunakan Private Key miliknya sendiri untuk menghasilkan Digital Signature; Bob memverifikasinya dengan mendekripsi Digital Signature menggunakan Public Key milik Alice, lalu membandingkan hasilnya dengan hash dokumen yang dihitungnya sendiri.. Digital Signature dibuat dengan mengenkripsi hash pesan memakai Kunci Privat pengirim. Diverifikasi penerima memakai Kunci Publik pengirim. Pilih: Alice mengenkripsi hash memakai Private Key miliknya; Bob memverifikasi mendekripsi memakai Public Key Alice."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Alice membuat intisari pesan (hash) $\\rightarrow$ Mengenkripsi hash tersebut menggunakan Private Key miliknya sendiri untuk menghasilkan Digital Signature; Bob memverifikasinya dengan mendekripsi Digital Signature menggunakan Public Key milik Alice, lalu membandingkan hasilnya dengan hash dokumen yang dihitungnya sendiri.. Digital Signature dibuat dengan mengenkripsi hash pesan memakai Kunci Privat pengirim. Diverifikasi penerima memakai Kunci Publik pengirim. Pilih: Alice mengenkripsi hash memakai Private Key miliknya; Bob memverifikasi mendekripsi memakai Public Key Alice."
   },
   {
     "id": "inf-lat-h-23",
@@ -3121,15 +3122,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyiapkan dua lingkungan produksi identik penuh (Blue dan Green) lalu mengalihkan sakelar router 100% secara instan ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
         "text": "Mematikan server produksi selama 6 jam di tengah malam untuk menginstal pembaruan basis data secara manual."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Mengarahkan sebagian kecil lalu lintas pengguna nyata (misalnya 5%–10%) ke versi aplikasi baru secara bertahap sambil memantau metrik performa dan log galat; jika stabil, lalu lintas dinaikkan bertahap hingga 100%, namun jika terdeteksi galat, rute lalu lintas langsung dibalikkan kembali ke versi lama."
+      },
+      {
+        "key": "C",
+        "text": "Menghapus seluruh basis data pengguna lama agar aplikasi versi baru dapat berjalan dengan memori kosong optimal."
       },
       {
         "key": "D",
@@ -3137,11 +3138,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menghapus seluruh basis data pengguna lama agar aplikasi versi baru dapat berjalan dengan memori kosong optimal."
+        "text": "Menyiapkan dua lingkungan produksi identik penuh (Blue dan Green) lalu mengalihkan sakelar router 100% secara instan ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Mengarahkan sebagian kecil lalu lintas pengguna nyata (misalnya 5%–10%) ke versi aplikasi baru secara bertahap sambil memantau metrik performa dan log galat; jika stabil, lalu lintas dinaikkan bertahap hingga 100%, namun jika terdeteksi galat, rute lalu lintas langsung dibalikkan kembali ke versi lama.. Canary deployment mengalirkan persentase kecil traffic (misal 5-10%) ke versi baru bertahap sambil memantau metrik kesehatan aplikasi. Pilih opsi yang menjelaskan pengalihan sebagian kecil lalu lintas secara bertahap sambil memantau metrik performa."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Mengarahkan sebagian kecil lalu lintas pengguna nyata (misalnya 5%–10%) ke versi aplikasi baru secara bertahap sambil memantau metrik performa dan log galat; jika stabil, lalu lintas dinaikkan bertahap hingga 100%, namun jika terdeteksi galat, rute lalu lintas langsung dibalikkan kembali ke versi lama.. Canary deployment mengalirkan persentase kecil traffic (misal 5-10%) ke versi baru bertahap sambil memantau metrik kesehatan aplikasi. Pilih opsi yang menjelaskan pengalihan sebagian kecil lalu lintas secara bertahap sambil memantau metrik performa."
   },
   {
     "id": "inf-lat-h-24",
@@ -3164,27 +3165,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Koefisien Korelasi Pearson ($r$), karena secara eksklusif hanya mengukur hubungan keterkaitan garis lurus linier sempurna antar variabel kontinu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
-      },
-      {
-        "key": "B",
-        "text": "Koefisien Determinasi Regresi Kuadrat Terkecil, yang mengasumsikan variansi galat berdistribusi Poisson diskret."
-      },
-      {
-        "key": "C",
-        "text": "Uji Hipotesis Chi-Square Independensi, yang khusus dirancang untuk menguji keterkaitan dua variabel data kategorik nominal."
-      },
-      {
-        "key": "D",
         "text": "Koefisien Korelasi Spearman Rank ($r_s$), karena menghitung korelasi berdasarkan peringkat data (ranking) sehingga mampu menangkap hubungan monotonik non-linier dan lebih tangguh terhadap keberadaan nilai pencilan (outlier) daripada Korelasi Pearson."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Koefisien Gini Kemiskinan, yang mengukur ketimpangan distribusi pendapatan populasi dalam kurva Lorenz."
+      },
+      {
+        "key": "C",
+        "text": "Koefisien Korelasi Pearson ($r$), karena secara eksklusif hanya mengukur hubungan keterkaitan garis lurus linier sempurna antar variabel kontinu."
+      },
+      {
+        "key": "D",
+        "text": "Koefisien Determinasi Regresi Kuadrat Terkecil, yang mengasumsikan variansi galat berdistribusi Poisson diskret."
+      },
+      {
+        "key": "E",
+        "text": "Uji Hipotesis Chi-Square Independensi, yang khusus dirancang untuk menguji keterkaitan dua variabel data kategorik nominal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Koefisien Korelasi Spearman Rank ($r_s$), karena menghitung korelasi berdasarkan peringkat data (ranking) sehingga mampu menangkap hubungan monotonik non-linier dan lebih tangguh terhadap keberadaan nilai pencilan (outlier) daripada Korelasi Pearson.. Untuk hubungan monotonik non-linier dan data bertingkat, gunakan Korelasi Spearman Rank (berbasis peringkat data). Pilih: Koefisien Korelasi Spearman Rank (r_s)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Koefisien Korelasi Spearman Rank ($r_s$), karena menghitung korelasi berdasarkan peringkat data (ranking) sehingga mampu menangkap hubungan monotonik non-linier dan lebih tangguh terhadap keberadaan nilai pencilan (outlier) daripada Korelasi Pearson.. Untuk hubungan monotonik non-linier dan data bertingkat, gunakan Korelasi Spearman Rank (berbasis peringkat data). Pilih: Koefisien Korelasi Spearman Rank (r_s)."
   },
   {
     "id": "inf-lat-h-25",
@@ -3207,7 +3208,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Overfitting Model Komputasi; diselesaikan dengan mematikan algoritma backpropagation jaringan saraf tiruan secara total diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "Kejahatan Siber Phishing; diselesaikan dengan mengubah kata sandi masuk ke basis data universitas secara berkala."
       },
       {
         "key": "B",
@@ -3219,15 +3220,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kejahatan Siber Phishing; diselesaikan dengan mengubah kata sandi masuk ke basis data universitas secara berkala."
+        "text": "Bias Algoritmik (Algorithmic Bias), yang timbul akibat data historis pelatihan yang tidak representatif atau mengandung prasangka masa lalu manusia; solusinya memerlukan audit keadilan data (fairness metrics), penyeimbangan dataset, dan penerapan Explainable AI (XAI) untuk transparansi keputusan."
       },
       {
         "key": "E",
-        "text": "Bias Algoritmik (Algorithmic Bias), yang timbul akibat data historis pelatihan yang tidak representatif atau mengandung prasangka masa lalu manusia; solusinya memerlukan audit keadilan data (fairness metrics), penyeimbangan dataset, dan penerapan Explainable AI (XAI) untuk transparansi keputusan."
+        "text": "Overfitting Model Komputasi; diselesaikan dengan mematikan algoritma backpropagation jaringan saraf tiruan secara total diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Bias Algoritmik (Algorithmic Bias), yang timbul akibat data historis pelatihan yang tidak representatif atau mengandung prasangka masa lalu manusia; solusinya memerlukan audit keadilan data (fairness metrics), penyeimbangan dataset, dan penerapan Explainable AI (XAI) untuk transparansi keputusan.. Diskriminasi otomatis akibat data pelatihan historis yang timpang disebut Algorithmic Bias. Solusinya dengan audit keadilan dataset dan Explainable AI (XAI). Pilih opsi yang menyebutkan Bias Algoritmik (Algorithmic Bias) dan solusi audit keadilan serta Explainable AI (XAI)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Bias Algoritmik (Algorithmic Bias), yang timbul akibat data historis pelatihan yang tidak representatif atau mengandung prasangka masa lalu manusia; solusinya memerlukan audit keadilan data (fairness metrics), penyeimbangan dataset, dan penerapan Explainable AI (XAI) untuk transparansi keputusan.. Diskriminasi otomatis akibat data pelatihan historis yang timpang disebut Algorithmic Bias. Solusinya dengan audit keadilan dataset dan Explainable AI (XAI). Pilih opsi yang menyebutkan Bias Algoritmik (Algorithmic Bias) dan solusi audit keadilan serta Explainable AI (XAI)."
   },
   {
     "id": "inf-sim-01",
@@ -3250,27 +3251,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(|V|^3)$ kubik, karena algoritma mengeksekusi tiga lapis perulangan bersarang untuk mengevaluasi setiap kemungkinan simpul perantara $k$ dari $1$ hingga $|V|$."
+        "text": "$O(|V|!)$, karena mencoba seluruh kemungkinan permutasi urutan simpul satu per satu."
       },
       {
         "key": "B",
-        "text": "$O(|V|^2)$ kuadratik, karena hanya membutuhkan perbandingan langsung antar baris dan kolom matriks ketetanggaan sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "$O(|V| \\cdot |E| \\log |V|)$, setara dengan menjalankan algoritma Dijkstra sebanyak $|V|$ kali secara paralel."
       },
       {
+        "key": "C",
+        "text": "$O(|V|^2)$ kuadratik, karena hanya membutuhkan perbandingan langsung antar baris dan kolom matriks ketetanggaan."
+      },
+      {
         "key": "D",
-        "text": "$O(|V|!)$, karena mencoba seluruh kemungkinan permutasi urutan simpul satu per satu."
+        "text": "$O(|V|^3)$ kubik, karena algoritma mengeksekusi tiga lapis perulangan bersarang untuk mengevaluasi setiap kemungkinan simpul perantara $k$ dari $1$ hingga $|V|$."
       },
       {
         "key": "E",
         "text": "$O(|E| \\log |V|)$, setara dengan pencarian pohon rentang minimum pada graf berbobot tunggal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $O(|V|^3)$ kubik, karena algoritma mengeksekusi tiga lapis perulangan bersarang untuk mengevaluasi setiap kemungkinan simpul perantara $k$ dari $1$ hingga $|V|$.. Floyd-Warshall mengevaluasi intermediate vertex k melalui 3 perulangan bersarang (for k, for i, for j), kompleksitasnya O(V^3). Pilih: O(|V|^3) kubik karena tiga lapis perulangan bersarang."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $O(|V|^3)$ kubik, karena algoritma mengeksekusi tiga lapis perulangan bersarang untuk mengevaluasi setiap kemungkinan simpul perantara $k$ dari $1$ hingga $|V|$.. Floyd-Warshall mengevaluasi intermediate vertex k melalui 3 perulangan bersarang (for k, for i, for j), kompleksitasnya O(V^3). Pilih: O(|V|^3) kubik karena tiga lapis perulangan bersarang."
   },
   {
     "id": "inf-sim-02",
@@ -3293,7 +3294,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\langle P_0, P_1, P_2 \\rangle$, karena $P_0$ adalah proses dengan prioritas nomor indeks terendah sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Tidak ada Safe Sequence yang valid sehingga sistem seketika mengalami deadlock permanen."
       },
       {
         "key": "B",
@@ -3301,15 +3302,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\langle P_2, P_1, P_0 \\rangle$, karena $P_2$ memiliki alokasi sumber daya awal paling seimbang."
+        "text": "$\\langle P_0, P_2, P_1 \\rangle$, karena seluruh proses dapat dieksekusi secara simultan tanpa antrean."
       },
       {
         "key": "D",
-        "text": "Tidak ada Safe Sequence yang valid sehingga sistem seketika mengalami deadlock permanen."
+        "text": "$\\langle P_0, P_1, P_2 \\rangle$, karena $P_0$ adalah proses dengan prioritas nomor indeks terendah."
       },
       {
         "key": "E",
-        "text": "$\\langle P_0, P_2, P_1 \\rangle$, karena seluruh proses dapat dieksekusi secara simultan tanpa antrean."
+        "text": "$\\langle P_2, P_1, P_0 \\rangle$, karena $P_2$ memiliki alokasi sumber daya awal paling seimbang."
       }
     ],
     "correctKey": "B",
@@ -3336,27 +3337,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mematikan fungsi penomoran IP dinamis dan membiarkan setiap komputer memilih alamat IP privat secara acak ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
         "text": "Memasang perangkat lunak antivirus pada komputer gateway tanpa mengonfigurasi perangkat keras sakelar switch."
       },
       {
-        "key": "C",
-        "text": "Dynamic ARP Inspection (DAI), yang bekerja memvalidasi setiap paket balasan ARP terhadap tabel ikatan tepercaya DHCP Snooping Binding Table dan menjatuhkan (drop) paket ARP yang memalsukan pemetaan IP-ke-MAC."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Mengganti seluruh kabel jaringan tembaga dengan kabel nirkabel Wi-Fi tanpa kata sandi akses."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Mematikan fungsi penomoran IP dinamis dan membiarkan setiap komputer memilih alamat IP privat secara acak ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+      },
+      {
+        "key": "D",
         "text": "Mengaktifkan protokol Spanning Tree Protocol (STP) untuk memblokir port jaringan yang memiliki nomor ganjil."
+      },
+      {
+        "key": "E",
+        "text": "Dynamic ARP Inspection (DAI), yang bekerja memvalidasi setiap paket balasan ARP terhadap tabel ikatan tepercaya DHCP Snooping Binding Table dan menjatuhkan (drop) paket ARP yang memalsukan pemetaan IP-ke-MAC."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Dynamic ARP Inspection (DAI), yang bekerja memvalidasi setiap paket balasan ARP terhadap tabel ikatan tepercaya DHCP Snooping Binding Table dan menjatuhkan (drop) paket ARP yang memalsukan pemetaan IP-ke-MAC.. Fitur switch untuk memvalidasi paket ARP dan mencegah ARP spoofing/poisoning adalah Dynamic ARP Inspection (DAI). Pilih: Dynamic ARP Inspection (DAI)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Dynamic ARP Inspection (DAI), yang bekerja memvalidasi setiap paket balasan ARP terhadap tabel ikatan tepercaya DHCP Snooping Binding Table dan menjatuhkan (drop) paket ARP yang memalsukan pemetaan IP-ke-MAC.. Fitur switch untuk memvalidasi paket ARP dan mencegah ARP spoofing/poisoning adalah Dynamic ARP Inspection (DAI). Pilih: Dynamic ARP Inspection (DAI)."
   },
   {
     "id": "inf-sim-04",
@@ -3379,15 +3380,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Trie memiliki waktu pencarian instan $O(1)$ untuk semua jenis kueri kemiripan semantik kecerdasan buatan menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Trie memiliki waktu pencarian instan $O(1)$ untuk semua jenis kueri kemiripan semantik kecerdasan buatan."
       },
       {
         "key": "B",
-        "text": "Tabel Hash tidak mampu menyimpan data bertipe string teks alfabetik yang memiliki panjang lebih dari 5 huruf."
+        "text": "Trie secara otomatis menerjemahkan kosakata asing ke dalam bahasa komputer biner tanpa kamus terjemahan."
       },
       {
         "key": "C",
-        "text": "Trie secara otomatis menerjemahkan kosakata asing ke dalam bahasa komputer biner tanpa kamus terjemahan."
+        "text": "Tabel Hash tidak mampu menyimpan data bertipe string teks alfabetik yang memiliki panjang lebih dari 5 huruf."
       },
       {
         "key": "D",
@@ -3422,7 +3423,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "`READ COMMITTED`, yang hanya mencegah pembacaan data kotor (Dirty Read) dari transaksi yang belum committed diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "`READ UNCOMMITTED`, yang mengizinkan seluruh transaksi membaca perubahan data yang belum disimpan."
       },
       {
         "key": "B",
@@ -3430,7 +3431,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "`READ UNCOMMITTED`, yang mengizinkan seluruh transaksi membaca perubahan data yang belum disimpan."
+        "text": "`READ COMMITTED`, yang hanya mencegah pembacaan data kotor (Dirty Read) dari transaksi yang belum committed diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "D",
@@ -3465,15 +3466,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Panjang 3, dengan sekuens $\\text{\"ACG\"}$ atau $\\text{\"ACT\"}$."
+        "text": "Panjang 5, dengan sekuens $\\text{\"ACCGT\"}$."
       },
       {
         "key": "B",
-        "text": "Panjang 5, dengan sekuens $\\text{\"ACCGT\"}$ sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Panjang 3, dengan sekuens $\\text{\"ACG\"}$ atau $\\text{\"ACT\"}$."
       },
       {
         "key": "C",
-        "text": "Panjang 4, dengan sekuens $\\text{\"ACGT\"}$."
+        "text": "Panjang 1, dengan sekuens $\\text{\"A\"}$ saja."
       },
       {
         "key": "D",
@@ -3481,11 +3482,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Panjang 1, dengan sekuens $\\text{\"A\"}$ saja."
+        "text": "Panjang 4, dengan sekuens $\\text{\"ACGT\"}$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Panjang 3, dengan sekuens $\\text{\"ACG\"}$ atau $\\text{\"ACT\"}$.. Karakter yang muncul berurutan di keduanya: A (indeks 0 di keduanya), C (indeks 1 di S1, indeks 2 di S2), G (indeks 3 di S1, indeks 4 di S2) -> 'ACG' (panjang 3). Pilih: Panjang 3, dengan sekuens \"ACG\" atau \"ACT\"."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Panjang 3, dengan sekuens $\\text{\"ACG\"}$ atau $\\text{\"ACT\"}$.. Karakter yang muncul berurutan di keduanya: A (indeks 0 di keduanya), C (indeks 1 di S1, indeks 2 di S2), G (indeks 3 di S1, indeks 4 di S2) -> 'ACG' (panjang 3). Pilih: Panjang 3, dengan sekuens \"ACG\" atau \"ACT\"."
   },
   {
     "id": "inf-sim-07",
@@ -3508,11 +3509,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "BGP mengukur kualitas rute internet secara eksklusif berdasarkan jumlah sakelar switch lokal yang dilewati paket data sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "BGP menyertakan daftar lengkap nomor urutan Autonomous System (atribut AS-Path) yang dilalui oleh sebuah rute iklan ke jaringan tujuan, yang digunakan router untuk menentukan rute kebijakan terbaik dan mendeteksi serta mencegah terbentuknya loop perutean antar AS secara mutlak."
       },
       {
         "key": "B",
-        "text": "BGP menyertakan daftar lengkap nomor urutan Autonomous System (atribut AS-Path) yang dilalui oleh sebuah rute iklan ke jaringan tujuan, yang digunakan router untuk menentukan rute kebijakan terbaik dan mendeteksi serta mencegah terbentuknya loop perutean antar AS secara mutlak."
+        "text": "BGP secara otomatis memblokir seluruh koneksi internet yang menggunakan protokol TCP lapisan keempat."
       },
       {
         "key": "C",
@@ -3524,11 +3525,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "BGP secara otomatis memblokir seluruh koneksi internet yang menggunakan protokol TCP lapisan keempat."
+        "text": "BGP mengukur kualitas rute internet secara eksklusif berdasarkan jumlah sakelar switch lokal yang dilewati paket data."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) BGP menyertakan daftar lengkap nomor urutan Autonomous System (atribut AS-Path) yang dilalui oleh sebuah rute iklan ke jaringan tujuan, yang digunakan router untuk menentukan rute kebijakan terbaik dan mendeteksi serta mencegah terbentuknya loop perutean antar AS secara mutlak.. BGP disebut path-vector karena mengiklankan rute beserta lintasan nomor AS (AS-Path) untuk mendeteksi loop perutean internet global. Pilih opsi yang menyebutkan penyertaan daftar nomor AS (AS-Path) untuk kebijakan rute dan pencegahan loop."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) BGP menyertakan daftar lengkap nomor urutan Autonomous System (atribut AS-Path) yang dilalui oleh sebuah rute iklan ke jaringan tujuan, yang digunakan router untuk menentukan rute kebijakan terbaik dan mendeteksi serta mencegah terbentuknya loop perutean antar AS secara mutlak.. BGP disebut path-vector karena mengiklankan rute beserta lintasan nomor AS (AS-Path) untuk mendeteksi loop perutean internet global. Pilih opsi yang menyebutkan penyertaan daftar nomor AS (AS-Path) untuk kebijakan rute dan pencegahan loop."
   },
   {
     "id": "inf-sim-08",
@@ -3551,11 +3552,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Anomali Amdahl, yaitu perlambatan akselerasi pemrosesan paralel saat inti prosesor ditambahkan secara fisik ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "Anomali Amdahl, yaitu perlambatan akselerasi pemrosesan paralel saat inti prosesor ditambahkan secara fisik ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "B",
-        "text": "Konflik Peterson, yaitu kegagalan algoritma sinkronisasi dua proses dalam menjamin mutual exclusion."
+        "text": "Deadlock Dine-In, yaitu kebuntuan filosofis sistem akibat kekurangan garpu pemrosesan data."
       },
       {
         "key": "C",
@@ -3567,7 +3568,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Deadlock Dine-In, yaitu kebuntuan filosofis sistem akibat kekurangan garpu pemrosesan data."
+        "text": "Konflik Peterson, yaitu kegagalan algoritma sinkronisasi dua proses dalam menjamin mutual exclusion."
       }
     ],
     "correctKey": "C",
@@ -3594,7 +3595,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menunggu terciptanya komputer kuantum komersial karena komputer digital mustahil menyelesaikan masalah kombinatorial menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Menjalankan algoritma Binary Search pada koordinat garis bujur kota untuk menemukan rute linier langsung."
       },
       {
         "key": "B",
@@ -3602,19 +3603,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menjalankan algoritma Binary Search pada koordinat garis bujur kota untuk menemukan rute linier langsung."
+        "text": "Menggunakan Algoritma Heuristik atau Metaheuristik (seperti Algoritma Genetika, Simulated Annealing, atau Ant Colony Optimization) yang mampu menemukan solusi rute yang mendekati optimal (near-optimal) dalam waktu komputasi yang sangat cepat dan wajar."
       },
       {
         "key": "D",
-        "text": "Menggunakan Algoritma Heuristik atau Metaheuristik (seperti Algoritma Genetika, Simulated Annealing, atau Ant Colony Optimization) yang mampu menemukan solusi rute yang mendekati optimal (near-optimal) dalam waktu komputasi yang sangat cepat dan wajar."
+        "text": "Menunggu terciptanya komputer kuantum komersial karena komputer digital mustahil menyelesaikan masalah kombinatorial."
       },
       {
         "key": "E",
         "text": "Menggunakan algoritma Bubble Sort untuk mengurutkan jarak kota berdasarkan kode pos administrasi daerah."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menggunakan Algoritma Heuristik atau Metaheuristik (seperti Algoritma Genetika, Simulated Annealing, atau Ant Colony Optimization) yang mampu menemukan solusi rute yang mendekati optimal (near-optimal) dalam waktu komputasi yang sangat cepat dan wajar.. Untuk masalah NP-Hard berukuran besar seperti TSP, gunakan algoritma heuristik/metaheuristik (Algoritma Genetika, Simulated Annealing) untuk menemukan solusi mendekati optimal secara cepat. Pilih opsi: Menggunakan Algoritma Heuristik atau Metaheuristik."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menggunakan Algoritma Heuristik atau Metaheuristik (seperti Algoritma Genetika, Simulated Annealing, atau Ant Colony Optimization) yang mampu menemukan solusi rute yang mendekati optimal (near-optimal) dalam waktu komputasi yang sangat cepat dan wajar.. Untuk masalah NP-Hard berukuran besar seperti TSP, gunakan algoritma heuristik/metaheuristik (Algoritma Genetika, Simulated Annealing) untuk menemukan solusi mendekati optimal secara cepat. Pilih opsi: Menggunakan Algoritma Heuristik atau Metaheuristik."
   },
   {
     "id": "inf-sim-10",
@@ -3637,27 +3638,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Heapsort memiliki kompleksitas waktu asimtotik terbaik sebesar $O(1)$ instan pada larik yang belum terurut diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
         "text": "Heapsort bersifat stabil (stable sort) sehingga posisi relatif elemen bernilai kembar selalu terjamin tidak berubah."
       },
       {
-        "key": "C",
-        "text": "Heapsort tidak memerlukan operasi perbandingan antar elemen data sama sekali selama proses pengurutan berlangsung."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Heapsort secara otomatis mengubah prosesor komputer menjadi sistem paralel multi-threading tanpa sistem operasi."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Heapsort memiliki kompleksitas waktu asimtotik terbaik sebesar $O(1)$ instan pada larik yang belum terurut diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+      },
+      {
+        "key": "D",
         "text": "Heapsort bekerja secara in-place dengan kompleksitas ruang memori tambahan sebesar $O(1)$ konstan, sedangkan Merge Sort membutuhkan alokasi memori larik tambahan sebesar $O(n)$ untuk proses penggabungan (merge)."
+      },
+      {
+        "key": "E",
+        "text": "Heapsort tidak memerlukan operasi perbandingan antar elemen data sama sekali selama proses pengurutan berlangsung."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Heapsort bekerja secara in-place dengan kompleksitas ruang memori tambahan sebesar $O(1)$ konstan, sedangkan Merge Sort membutuhkan alokasi memori larik tambahan sebesar $O(n)$ untuk proses penggabungan (merge).. Keunggulan utama Heapsort atas Merge Sort: Heapsort adalah in-place sorting dengan memori tambahan O(1), sedangkan Merge Sort butuh memori tambahan O(n). Pilih: Heapsort bekerja in-place dengan memori tambahan O(1) konstan, sedangkan Merge Sort butuh O(n)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Heapsort bekerja secara in-place dengan kompleksitas ruang memori tambahan sebesar $O(1)$ konstan, sedangkan Merge Sort membutuhkan alokasi memori larik tambahan sebesar $O(n)$ untuk proses penggabungan (merge).. Keunggulan utama Heapsort atas Merge Sort: Heapsort adalah in-place sorting dengan memori tambahan O(1), sedangkan Merge Sort butuh memori tambahan O(n). Pilih: Heapsort bekerja in-place dengan memori tambahan O(1) konstan, sedangkan Merge Sort butuh O(n)."
   },
   {
     "id": "inf-sim-11",
@@ -3680,27 +3681,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "WebSockets membangun satu koneksi TCP persisten dua arah (full-duplex) tunggal setelah jabat tangan HTTP awal, sehingga pesan data dapat dikirimkan secara instan oleh server ke klien (server-push) hanya dengan overhead header frame sebesar 2 hingga 10 byte tanpa overhead header HTTP berulang."
-      },
-      {
-        "key": "B",
-        "text": "HTTP Polling secara otomatis mengompresi data menjadi sinyal inframerah yang kebal terhadap hambatan jarak sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "WebSockets tidak menggunakan jaringan internet sama sekali melainkan frekuensi radio gelombang pendek FM lokal."
       },
       {
+        "key": "B",
+        "text": "WebSockets mewajibkan pengguna untuk melakukan penyegaran halaman peramban (F5) setiap kali data baru masuk."
+      },
+      {
+        "key": "C",
+        "text": "HTTP Polling secara otomatis mengompresi data menjadi sinyal inframerah yang kebal terhadap hambatan jarak."
+      },
+      {
         "key": "D",
-        "text": "HTTP Short Polling selalu menjamin nol persen pemborosan bandwidth meskipun tidak ada pembaruan data dari sensor."
+        "text": "WebSockets membangun satu koneksi TCP persisten dua arah (full-duplex) tunggal setelah jabat tangan HTTP awal, sehingga pesan data dapat dikirimkan secara instan oleh server ke klien (server-push) hanya dengan overhead header frame sebesar 2 hingga 10 byte tanpa overhead header HTTP berulang."
       },
       {
         "key": "E",
-        "text": "WebSockets mewajibkan pengguna untuk melakukan penyegaran halaman peramban (F5) setiap kali data baru masuk."
+        "text": "HTTP Short Polling selalu menjamin nol persen pemborosan bandwidth meskipun tidak ada pembaruan data dari sensor."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) WebSockets membangun satu koneksi TCP persisten dua arah (full-duplex) tunggal setelah jabat tangan HTTP awal, sehingga pesan data dapat dikirimkan secara instan oleh server ke klien (server-push) hanya dengan overhead header frame sebesar 2 hingga 10 byte tanpa overhead header HTTP berulang.. WebSockets membuat koneksi TCP full-duplex persisten dengan overhead header frame sangat kecil (2-10 byte) dan mendukung server-push. Pilih opsi yang menjelaskan koneksi TCP persisten full-duplex dengan overhead header sangat kecil (2-10 byte)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) WebSockets membangun satu koneksi TCP persisten dua arah (full-duplex) tunggal setelah jabat tangan HTTP awal, sehingga pesan data dapat dikirimkan secara instan oleh server ke klien (server-push) hanya dengan overhead header frame sebesar 2 hingga 10 byte tanpa overhead header HTTP berulang.. WebSockets membuat koneksi TCP full-duplex persisten dengan overhead header frame sangat kecil (2-10 byte) dan mendukung server-push. Pilih opsi yang menjelaskan koneksi TCP persisten full-duplex dengan overhead header sangat kecil (2-10 byte)."
   },
   {
     "id": "inf-sim-12",
@@ -3723,27 +3724,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terdiri atas tabel-tabel data yang dinormalisasi penuh hingga 3NF dengan rantai relasi bertingkat menyerupai struktur kepingan salju sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "B",
         "text": "Terdiri atas satu Tabel Fakta (Fact Table) terpusat yang memuat kunci-kunci asing dan metrik pengukuran numerik kuantitatif bisnis, yang dikelilingi oleh sekumpulan Tabel Dimensi (Dimension Tables) yang terdenormalisasi secara langsung tanpa hierarki bertingkat."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Hanya memuat satu tabel tunggal raksasa tanpa adanya hubungan relasi kunci primer dan kunci asing sama sekali."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Tabel-tabel dimensi yang saling terhubung membentuk graf siklis tanpa adanya tabel penampung data numerik."
+      },
+      {
+        "key": "D",
+        "text": "Terdiri atas tabel-tabel data yang dinormalisasi penuh hingga 3NF dengan rantai relasi bertingkat menyerupai struktur kepingan salju."
       },
       {
         "key": "E",
         "text": "Tabel data yang disimpan dalam berkas teks terenkripsi di mana setiap baris mewakili konfigurasi perangkat keras server."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Terdiri atas satu Tabel Fakta (Fact Table) terpusat yang memuat kunci-kunci asing dan metrik pengukuran numerik kuantitatif bisnis, yang dikelilingi oleh sekumpulan Tabel Dimensi (Dimension Tables) yang terdenormalisasi secara langsung tanpa hierarki bertingkat.. Star Schema terdiri dari satu Fact Table di tengah yang dikelilingi oleh Dimension Tables terdenormalisasi. Pilih: Satu Tabel Fakta di tengah dikelilingi oleh Tabel Dimensi terdenormalisasi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Terdiri atas satu Tabel Fakta (Fact Table) terpusat yang memuat kunci-kunci asing dan metrik pengukuran numerik kuantitatif bisnis, yang dikelilingi oleh sekumpulan Tabel Dimensi (Dimension Tables) yang terdenormalisasi secara langsung tanpa hierarki bertingkat.. Star Schema terdiri dari satu Fact Table di tengah yang dikelilingi oleh Dimension Tables terdenormalisasi. Pilih: Satu Tabel Fakta di tengah dikelilingi oleh Tabel Dimensi terdenormalisasi."
   },
   {
     "id": "inf-sim-13",
@@ -3766,27 +3767,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh kata kunci `SELECT` dari aplikasi web dan menggantinya dengan berkas spreadsheet ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
-        "text": "Mengubah metode permintaan formulir HTML dari `POST` menjadi `GET` pada peramban pengguna."
-      },
-      {
-        "key": "C",
-        "text": "Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements), di mana mesin basis data memisahkan secara tegas antara struktur logika kueri SQL dan nilai data masukan pengguna, sehingga masukan berbahaya hanya diperlakukan sebagai literal teks murni dan bukan kode eksekusi."
-      },
-      {
-        "key": "D",
         "text": "Mematikan fungsi logging server basis data agar aktivitas peretas tidak tercatat di memori hard disk."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Menghapus seluruh kata kunci `SELECT` dari aplikasi web dan menggantinya dengan berkas spreadsheet ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+      },
+      {
+        "key": "C",
+        "text": "Mengubah metode permintaan formulir HTML dari `POST` menjadi `GET` pada peramban pengguna."
+      },
+      {
+        "key": "D",
         "text": "Mengganti seluruh kata sandi pengguna menjadi kombinasi huruf kapital tanpa melibatkan angka numerik."
+      },
+      {
+        "key": "E",
+        "text": "Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements), di mana mesin basis data memisahkan secara tegas antara struktur logika kueri SQL dan nilai data masukan pengguna, sehingga masukan berbahaya hanya diperlakukan sebagai literal teks murni dan bukan kode eksekusi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements), di mana mesin basis data memisahkan secara tegas antara struktur logika kueri SQL dan nilai data masukan pengguna, sehingga masukan berbahaya hanya diperlakukan sebagai literal teks murni dan bukan kode eksekusi.. Pencegahan utama SQL Injection adalah Parameterized Queries / Prepared Statements yang memisahkan instruksi SQL dari data literal. Pilih: Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements), di mana mesin basis data memisahkan secara tegas antara struktur logika kueri SQL dan nilai data masukan pengguna, sehingga masukan berbahaya hanya diperlakukan sebagai literal teks murni dan bukan kode eksekusi.. Pencegahan utama SQL Injection adalah Parameterized Queries / Prepared Statements yang memisahkan instruksi SQL dari data literal. Pilih: Menggunakan Kueri Berparameter (Parameterized Queries / Prepared Statements)."
   },
   {
     "id": "inf-sim-14",
@@ -3809,7 +3810,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fragmentasi Memori; diselesaikan dengan melakukan defragmentasi piringan hard disk secara terjadwal menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Buffer Overflow; diselesaikan dengan memperbesar ukuran register Program Counter CPU."
       },
       {
         "key": "B",
@@ -3817,19 +3818,19 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Buffer Overflow; diselesaikan dengan memperbesar ukuran register Program Counter CPU."
-      },
-      {
-        "key": "D",
         "text": "Kondisi Balapan (Race Condition); diselesaikan dengan melindungi blok instruksi tersebut sebagai Bagian Kritis (Critical Section) menggunakan mekanisme penguncian saling mengeluarkan (Mutual Exclusion / Mutex Lock)."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Deadlock Melingkar; diselesaikan dengan menghentikan secara paksa proses sistem operasi induk."
+      },
+      {
+        "key": "E",
+        "text": "Fragmentasi Memori; diselesaikan dengan melakukan defragmentasi piringan hard disk secara terjadwal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kondisi Balapan (Race Condition); diselesaikan dengan melindungi blok instruksi tersebut sebagai Bagian Kritis (Critical Section) menggunakan mekanisme penguncian saling mengeluarkan (Mutual Exclusion / Mutex Lock).. Masalah dua thread memanipulasi data bersamaan tanpa sinkronisasi disebut Race Condition. Solusinya dengan Mutex Lock pada Critical Section. Pilih: Kondisi Balapan (Race Condition); diselesaikan menggunakan Mutual Exclusion / Mutex Lock."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kondisi Balapan (Race Condition); diselesaikan dengan melindungi blok instruksi tersebut sebagai Bagian Kritis (Critical Section) menggunakan mekanisme penguncian saling mengeluarkan (Mutual Exclusion / Mutex Lock).. Masalah dua thread memanipulasi data bersamaan tanpa sinkronisasi disebut Race Condition. Solusinya dengan Mutex Lock pada Critical Section. Pilih: Kondisi Balapan (Race Condition); diselesaikan menggunakan Mutual Exclusion / Mutex Lock."
   },
   {
     "id": "inf-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$A \\rightarrow B \\rightarrow D \\rightarrow E \\rightarrow F \\rightarrow C$ diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
-      },
-      {
-        "key": "B",
         "text": "$A \\rightarrow C \\rightarrow F \\rightarrow E \\rightarrow B \\rightarrow D$"
       },
       {
-        "key": "C",
-        "text": "$A \\rightarrow B \\rightarrow C \\rightarrow F \\rightarrow E \\rightarrow D$"
+        "key": "B",
+        "text": "$A \\rightarrow B \\rightarrow C \\rightarrow D \\rightarrow E \\rightarrow F$"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$A \\rightarrow D \\rightarrow E \\rightarrow B \\rightarrow C \\rightarrow F$"
       },
       {
+        "key": "D",
+        "text": "$A \\rightarrow B \\rightarrow C \\rightarrow F \\rightarrow E \\rightarrow D$"
+      },
+      {
         "key": "E",
-        "text": "$A \\rightarrow B \\rightarrow C \\rightarrow D \\rightarrow E \\rightarrow F$"
+        "text": "$A \\rightarrow B \\rightarrow D \\rightarrow E \\rightarrow F \\rightarrow C$ diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $A \\rightarrow B \\rightarrow C \\rightarrow D \\rightarrow E \\rightarrow F$. Tingkat 0: A. Tingkat 1: B, C. Dari B dimasukkan D, E. Dari C dimasukkan F. Maka urutan BFS adalah A, B, C, D, E, F. Pilih: A -> B -> C -> D -> E -> F."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $A \\rightarrow B \\rightarrow C \\rightarrow D \\rightarrow E \\rightarrow F$. Tingkat 0: A. Tingkat 1: B, C. Dari B dimasukkan D, E. Dari C dimasukkan F. Maka urutan BFS adalah A, B, C, D, E, F. Pilih: A -> B -> C -> D -> E -> F."
   },
   {
     "id": "inf-sim-16",
@@ -3895,27 +3896,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebelum mengenkripsi sistem korban, penyerang terlebih dahulu mencuri dan menyedot data sensitif rahasia perusahaan (eksdiltrasi data); jika korban menolak membayar tebusan dekripsi karena memiliki cadangan data (backup), penyerang mengancam akan mempublikasikan data rahasia tersebut ke forum gelap (dark web) atau menjualnya ke kompetitor."
-      },
-      {
-        "key": "B",
-        "text": "Penyerang meminta tebusan uang dua kali lipat menggunakan mata uang kripto yang berbeda jenisnya sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
         "text": "Penyerang merusak komponen fisik prosesor dan kartu memori RAM server secara permanen dari jarak jauh."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Penyerang mengirimkan dua jenis virus trojan yang berbeda untuk menginfeksi dua sistem operasi bersamaan."
+      },
+      {
+        "key": "C",
+        "text": "Sebelum mengenkripsi sistem korban, penyerang terlebih dahulu mencuri dan menyedot data sensitif rahasia perusahaan (eksdiltrasi data); jika korban menolak membayar tebusan dekripsi karena memiliki cadangan data (backup), penyerang mengancam akan mempublikasikan data rahasia tersebut ke forum gelap (dark web) atau menjualnya ke kompetitor."
+      },
+      {
+        "key": "D",
+        "text": "Penyerang meminta tebusan uang dua kali lipat menggunakan mata uang kripto yang berbeda jenisnya."
       },
       {
         "key": "E",
         "text": "Penyerang mengharuskan pembayaran tebusan dilakukan oleh dua direktur perusahaan secara serentak."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sebelum mengenkripsi sistem korban, penyerang terlebih dahulu mencuri dan menyedot data sensitif rahasia perusahaan (eksdiltrasi data); jika korban menolak membayar tebusan dekripsi karena memiliki cadangan data (backup), penyerang mengancam akan mempublikasikan data rahasia tersebut ke forum gelap (dark web) atau menjualnya ke kompetitor.. Double Extortion memeras dua kali: mengenkripsi sistem DAN mengancam menyebarkan data curian ke publik jika tebusan tak dibayar. Pilih opsi: Mencuri data sensitif sebelum enkripsi, lalu mengancam mempublikasikannya ke dark web jika tebusan ditolak."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sebelum mengenkripsi sistem korban, penyerang terlebih dahulu mencuri dan menyedot data sensitif rahasia perusahaan (eksdiltrasi data); jika korban menolak membayar tebusan dekripsi karena memiliki cadangan data (backup), penyerang mengancam akan mempublikasikan data rahasia tersebut ke forum gelap (dark web) atau menjualnya ke kompetitor.. Double Extortion memeras dua kali: mengenkripsi sistem DAN mengancam menyebarkan data curian ke publik jika tebusan tak dibayar. Pilih opsi: Mencuri data sensitif sebelum enkripsi, lalu mengancam mempublikasikannya ke dark web jika tebusan ditolak."
   },
   {
     "id": "inf-sim-17",
@@ -3938,7 +3939,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kode biner berukuran paling panjang, yang ditempatkan pada cabang pohon terdalam untuk menjaga keaslian data sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Dihapus dari berkas teks asli dan digantikan dengan karakter spasi kosong otomatis."
       },
       {
         "key": "B",
@@ -3946,15 +3947,15 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kode biner berukuran tepat 8-bit tetap yang identik dengan pengkodean karakter ASCII standar."
+        "text": "Kode biner acak yang berganti-ganti nilainya setiap kali berkas teks ditransmisikan melalui jaringan."
       },
       {
         "key": "D",
-        "text": "Dihapus dari berkas teks asli dan digantikan dengan karakter spasi kosong otomatis."
+        "text": "Kode biner berukuran tepat 8-bit tetap yang identik dengan pengkodean karakter ASCII standar."
       },
       {
         "key": "E",
-        "text": "Kode biner acak yang berganti-ganti nilainya setiap kali berkas teks ditransmisikan melalui jaringan."
+        "text": "Kode biner berukuran paling panjang, yang ditempatkan pada cabang pohon terdalam untuk menjaga keaslian data."
       }
     ],
     "correctKey": "B",
@@ -3981,27 +3982,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Underfitting Ekstrem, di mana model tidak mampu mempelajari pola data sama sekali akibat ketiadaan parameter ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
-      },
-      {
-        "key": "B",
-        "text": "Galat Sintaksis Kompilasi, yang menyebabkan bahasa pemrograman Python menolak mengeksekusi fungsi scikit-learn."
-      },
-      {
-        "key": "C",
         "text": "Kebocoran Data (Data Leakage), di mana informasi statistik (seperti rata-rata $\\mu$ dan standar deviasi $\\sigma$) dari data pengujian ikut merembes dan mencemari proses pelatihan model, sehingga evaluasi akurasi model menjadi terlalu optimis secara palsu dan berkinerja buruk di dunia nyata."
       },
       {
+        "key": "B",
+        "text": "Penurunan Resolusi Grafis, di mana diagram visualisasi data kehilangan warna aslinya saat disimpan."
+      },
+      {
+        "key": "C",
+        "text": "Underfitting Ekstrem, di mana model tidak mampu mempelajari pola data sama sekali akibat ketiadaan parameter ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+      },
+      {
         "key": "D",
-        "text": "Kerusakan Hardware Memori RAM, karena dataset terduplikasi secara fisik pada sirkuit motherboard komputer."
+        "text": "Galat Sintaksis Kompilasi, yang menyebabkan bahasa pemrograman Python menolak mengeksekusi fungsi scikit-learn."
       },
       {
         "key": "E",
-        "text": "Penurunan Resolusi Grafis, di mana diagram visualisasi data kehilangan warna aslinya saat disimpan."
+        "text": "Kerusakan Hardware Memori RAM, karena dataset terduplikasi secara fisik pada sirkuit motherboard komputer."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Kebocoran Data (Data Leakage), di mana informasi statistik (seperti rata-rata $\\mu$ dan standar deviasi $\\sigma$) dari data pengujian ikut merembes dan mencemari proses pelatihan model, sehingga evaluasi akurasi model menjadi terlalu optimis secara palsu dan berkinerja buruk di dunia nyata.. Melakukan scaling sebelum split menyebabkan data leakage (informasi data test bocor ke data train), menghasilkan evaluasi performa palsu. Pilih: Kebocoran Data (Data Leakage), informasi statistik data uji merembes ke pelatihan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Kebocoran Data (Data Leakage), di mana informasi statistik (seperti rata-rata $\\mu$ dan standar deviasi $\\sigma$) dari data pengujian ikut merembes dan mencemari proses pelatihan model, sehingga evaluasi akurasi model menjadi terlalu optimis secara palsu dan berkinerja buruk di dunia nyata.. Melakukan scaling sebelum split menyebabkan data leakage (informasi data test bocor ke data train), menghasilkan evaluasi performa palsu. Pilih: Kebocoran Data (Data Leakage), informasi statistik data uji merembes ke pelatihan."
   },
   {
     "id": "inf-sim-19",
@@ -4024,27 +4025,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengenkrpsi seluruh kueri DNS sehingga nama domain yang dicari tidak dapat dibaca oleh penyedia ISP lokal menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Mengenkrpsi seluruh kueri DNS sehingga nama domain yang dicari tidak dapat dibaca oleh penyedia ISP lokal."
       },
       {
         "key": "B",
-        "text": "Mengganti seluruh server DNS global dengan alamat IP tunggal yang dijaga oleh petugas kepolisian internasional."
+        "text": "Memblokir semua situs web yang memiliki ekstensi domain selain `.com` dan `.id` secara permanen."
       },
       {
         "key": "C",
-        "text": "Memaksa seluruh peramban web untuk menghafal seluruh alamat IP situs web di seluruh dunia tanpa bertanya ke resolver."
+        "text": "Mengganti seluruh server DNS global dengan alamat IP tunggal yang dijaga oleh petugas kepolisian internasional."
       },
       {
         "key": "D",
-        "text": "Mengotentikasi keabsahan respons kueri DNS menggunakan tanda tangan digital kriptografi asimetris (catatan RRSIG) yang divalidasi melalui rantai kepercayaan hierarkis (Chain of Trust) dari zona root hingga domain otoritatif."
+        "text": "Memaksa seluruh peramban web untuk menghafal seluruh alamat IP situs web di seluruh dunia tanpa bertanya ke resolver."
       },
       {
         "key": "E",
-        "text": "Memblokir semua situs web yang memiliki ekstensi domain selain `.com` dan `.id` secara permanen."
+        "text": "Mengotentikasi keabsahan respons kueri DNS menggunakan tanda tangan digital kriptografi asimetris (catatan RRSIG) yang divalidasi melalui rantai kepercayaan hierarkis (Chain of Trust) dari zona root hingga domain otoritatif."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mengotentikasi keabsahan respons kueri DNS menggunakan tanda tangan digital kriptografi asimetris (catatan RRSIG) yang divalidasi melalui rantai kepercayaan hierarkis (Chain of Trust) dari zona root hingga domain otoritatif.. DNSSEC mengotentikasi respon DNS dengan tanda tangan digital kriptografis (RRSIG) melalui rantai kepercayaan hierarkis (Chain of Trust). Pilih opsi: Mengotentikasi keabsahan respons DNS menggunakan tanda tangan digital kriptografi asimetris (RRSIG) via Chain of Trust."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mengotentikasi keabsahan respons kueri DNS menggunakan tanda tangan digital kriptografi asimetris (catatan RRSIG) yang divalidasi melalui rantai kepercayaan hierarkis (Chain of Trust) dari zona root hingga domain otoritatif.. DNSSEC mengotentikasi respon DNS dengan tanda tangan digital kriptografis (RRSIG) melalui rantai kepercayaan hierarkis (Chain of Trust). Pilih opsi: Mengotentikasi keabsahan respons DNS menggunakan tanda tangan digital kriptografi asimetris (RRSIG) via Chain of Trust."
   },
   {
     "id": "inf-sim-20",
@@ -4067,11 +4068,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$O(n)$ linier, karena setiap kali operasi append dipanggil prosesor harus memeriksa seluruh isi array diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "$O(1)$ konstan, karena operasi ekspansi yang mahal ($O(n)$) terjadi sangat jarang (hanya pada kelipatan pangkat dua $1, 2, 4, 8, \\dots, 2^k$), sehingga biaya total ekspansi terbagi rata ke seluruh rangkaian operasi penyisipan."
       },
       {
         "key": "B",
-        "text": "$O(\\log_2 n)$, karena kapasitas array bertambah secara logaritmik setiap kali tombol keyboard ditekan."
+        "text": "$O(n)$ linier, karena setiap kali operasi append dipanggil prosesor harus memeriksa seluruh isi array diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "C",
@@ -4083,11 +4084,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$O(1)$ konstan, karena operasi ekspansi yang mahal ($O(n)$) terjadi sangat jarang (hanya pada kelipatan pangkat dua $1, 2, 4, 8, \\dots, 2^k$), sehingga biaya total ekspansi terbagi rata ke seluruh rangkaian operasi penyisipan."
+        "text": "$O(\\log_2 n)$, karena kapasitas array bertambah secara logaritmik setiap kali tombol keyboard ditekan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $O(1)$ konstan, karena operasi ekspansi yang mahal ($O(n)$) terjadi sangat jarang (hanya pada kelipatan pangkat dua $1, 2, 4, 8, \\dots, 2^k$), sehingga biaya total ekspansi terbagi rata ke seluruh rangkaian operasi penyisipan.. Strategi doubling pada vector/list membuat biaya total n operasi adalah < 3n, sehingga biaya rata-rata per operasi adalah O(1) teramortisasi. Pilih: O(1) konstan teramortisasi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $O(1)$ konstan, karena operasi ekspansi yang mahal ($O(n)$) terjadi sangat jarang (hanya pada kelipatan pangkat dua $1, 2, 4, 8, \\dots, 2^k$), sehingga biaya total ekspansi terbagi rata ke seluruh rangkaian operasi penyisipan.. Strategi doubling pada vector/list membuat biaya total n operasi adalah < 3n, sehingga biaya rata-rata per operasi adalah O(1) teramortisasi. Pilih: O(1) konstan teramortisasi."
   },
   {
     "id": "inf-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Virtual Machine memvirtualisasikan perangkat keras fisik penuh dan menjalankan kernel sistem operasi tamu (Guest OS) mandiri di setiap instance, sedangkan Kontainer berbagi kernel sistem operasi host yang sama dan hanya mengisolasi ruang pengguna (user-space via cgroups dan namespaces) sehingga jauh lebih ringan dan cepat dimulai."
-      },
-      {
-        "key": "B",
-        "text": "Kontainer membutuhkan perangkat keras server fisik terpisah untuk setiap aplikasi yang dijalankan sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
-      },
-      {
-        "key": "C",
-        "text": "Virtual Machine tidak dapat menjalankan sistem operasi berbasis Linux sama sekali di dalam pusat data."
-      },
-      {
-        "key": "D",
         "text": "Kontainer memiliki ukuran berkas citra (image) puluhan gigabyte yang jauh lebih besar daripada berkas Virtual Disk."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Virtual Machine memvirtualisasikan perangkat keras fisik penuh dan menjalankan kernel sistem operasi tamu (Guest OS) mandiri di setiap instance, sedangkan Kontainer berbagi kernel sistem operasi host yang sama dan hanya mengisolasi ruang pengguna (user-space via cgroups dan namespaces) sehingga jauh lebih ringan dan cepat dimulai."
+      },
+      {
+        "key": "C",
+        "text": "Kontainer membutuhkan perangkat keras server fisik terpisah untuk setiap aplikasi yang dijalankan."
+      },
+      {
+        "key": "D",
         "text": "Hypervisor Tipe 1 berjalan di atas sistem operasi komersial Windows Desktop seperti halnya aplikasi biasa."
+      },
+      {
+        "key": "E",
+        "text": "Virtual Machine tidak dapat menjalankan sistem operasi berbasis Linux sama sekali di dalam pusat data."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Virtual Machine memvirtualisasikan perangkat keras fisik penuh dan menjalankan kernel sistem operasi tamu (Guest OS) mandiri di setiap instance, sedangkan Kontainer berbagi kernel sistem operasi host yang sama dan hanya mengisolasi ruang pengguna (user-space via cgroups dan namespaces) sehingga jauh lebih ringan dan cepat dimulai.. VM memvirtualisasikan hardware dan punya OS/kernel sendiri. Kontainer berbagi kernel host yang sama via namespaces & cgroups sehingga jauh lebih ringan. Pilih: VM menjalankan kernel Guest OS mandiri, sedangkan Kontainer berbagi kernel host yang sama dengan isolasi user-space."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Virtual Machine memvirtualisasikan perangkat keras fisik penuh dan menjalankan kernel sistem operasi tamu (Guest OS) mandiri di setiap instance, sedangkan Kontainer berbagi kernel sistem operasi host yang sama dan hanya mengisolasi ruang pengguna (user-space via cgroups dan namespaces) sehingga jauh lebih ringan dan cepat dimulai.. VM memvirtualisasikan hardware dan punya OS/kernel sendiri. Kontainer berbagi kernel host yang sama via namespaces & cgroups sehingga jauh lebih ringan. Pilih: VM menjalankan kernel Guest OS mandiri, sedangkan Kontainer berbagi kernel host yang sama dengan isolasi user-space."
   },
   {
     "id": "inf-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menerima sinyal siaran gelombang radio GPS satelit rahasia yang dikirimkan langsung oleh server aplikasi ke ponsel sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi sesuai dengan spesifikasi protokol komunikasi standar dan arsitektur sistem operasi."
+        "text": "Menghasilkan bilangan acak murni yang ditebak secara telepati komputasional oleh server web autentikasi."
       },
       {
         "key": "B",
-        "text": "Menghitung nilai counter waktu diskret $T = \\lfloor (\\text{Unix Time Saat Ini} - T_0) / 30 \\rfloor$, lalu mengevaluasi nilai Hash-based Message Authentication Code (HMAC-SHA1) menggunakan kunci rahasia bersama (shared secret key) yang dipindai saat registrasi QR Code awal, kemudian memangkas hasilnya menjadi 6 digit angka melalui Dynamic Truncation."
+        "text": "Menerima sinyal siaran gelombang radio GPS satelit rahasia yang dikirimkan langsung oleh server aplikasi ke ponsel."
       },
       {
         "key": "C",
-        "text": "Mengirimkan permintaan kueri HTTP POST rahasia melalui jaringan seluler tersembunyi setiap 30 detik secara terus-menerus."
-      },
-      {
-        "key": "D",
         "text": "Membaca nomor seri perangkat keras kartu SIM pengguna dan membaginya dengan angka tahun kabisat kalender."
       },
       {
+        "key": "D",
+        "text": "Menghitung nilai counter waktu diskret $T = \\lfloor (\\text{Unix Time Saat Ini} - T_0) / 30 \\rfloor$, lalu mengevaluasi nilai Hash-based Message Authentication Code (HMAC-SHA1) menggunakan kunci rahasia bersama (shared secret key) yang dipindai saat registrasi QR Code awal, kemudian memangkas hasilnya menjadi 6 digit angka melalui Dynamic Truncation."
+      },
+      {
         "key": "E",
-        "text": "Menghasilkan bilangan acak murni yang ditebak secara telepati komputasional oleh server web autentikasi."
+        "text": "Mengirimkan permintaan kueri HTTP POST rahasia melalui jaringan seluler tersembunyi setiap 30 detik secara terus-menerus."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menghitung nilai counter waktu diskret $T = \\lfloor (\\text{Unix Time Saat Ini} - T_0) / 30 \\rfloor$, lalu mengevaluasi nilai Hash-based Message Authentication Code (HMAC-SHA1) menggunakan kunci rahasia bersama (shared secret key) yang dipindai saat registrasi QR Code awal, kemudian memangkas hasilnya menjadi 6 digit angka melalui Dynamic Truncation.. TOTP menghitung counter T = UnixTime / 30, lalu di-hash dengan shared secret memakai HMAC-SHA1, lalu dipangkas (truncated) menjadi 6 digit. Pilih opsi yang menjelaskan perhitungan counter waktu T = (Unix Time / 30), evaluasi HMAC-SHA1 dengan kunci rahasia bersama, dan Dynamic Truncation."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menghitung nilai counter waktu diskret $T = \\lfloor (\\text{Unix Time Saat Ini} - T_0) / 30 \\rfloor$, lalu mengevaluasi nilai Hash-based Message Authentication Code (HMAC-SHA1) menggunakan kunci rahasia bersama (shared secret key) yang dipindai saat registrasi QR Code awal, kemudian memangkas hasilnya menjadi 6 digit angka melalui Dynamic Truncation.. TOTP menghitung counter T = UnixTime / 30, lalu di-hash dengan shared secret memakai HMAC-SHA1, lalu dipangkas (truncated) menjadi 6 digit. Pilih opsi yang menjelaskan perhitungan counter waktu T = (Unix Time / 30), evaluasi HMAC-SHA1 dengan kunci rahasia bersama, dan Dynamic Truncation."
   },
   {
     "id": "inf-sim-23",
@@ -4196,11 +4197,11 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pola Singleton Pattern; membatasi jumlah objek layanan pembayaran hanya satu instansiasi di seluruh memori server ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
+        "text": "Pola Infinite Retry Pattern; secara agresif mengirimkan jutaan panggilan permintaan baru setiap milidetik ke server yang mati."
       },
       {
         "key": "B",
-        "text": "Pola Infinite Retry Pattern; secara agresif mengirimkan jutaan panggilan permintaan baru setiap milidetik ke server yang mati."
+        "text": "Pola Monolithic Migration; menghapus seluruh repositori Git dan menulis ulang program menggunakan satu berkas kode tunggal."
       },
       {
         "key": "C",
@@ -4208,7 +4209,7 @@ window.TKA_INFORMATIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pola Monolithic Migration; menghapus seluruh repositori Git dan menulis ulang program menggunakan satu berkas kode tunggal."
+        "text": "Pola Singleton Pattern; membatasi jumlah objek layanan pembayaran hanya satu instansiasi di seluruh memori server ditinjau dari keutuhan relasi model data terstruktur serta integritas referensial basis data."
       },
       {
         "key": "E",
@@ -4239,27 +4240,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Algoritma tidak mampu melakukan kalkulasi matematika pecahan desimal sehingga seluruh angka dibulatkan ke nol menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu menurut prinsip keamanan kriptografis dan mekanisme mitigasi kerentanan siber terpadu."
+        "text": "Algoritma tidak mampu melakukan kalkulasi matematika pecahan desimal sehingga seluruh angka dibulatkan ke nol."
       },
       {
         "key": "B",
-        "text": "Algoritma hanya dapat dilatih menggunakan data buatan yang dibuat oleh manusia tanpa algoritma komputasi."
-      },
-      {
-        "key": "C",
         "text": "Algoritma secara naif mengasumsikan bahwa semua pengirim surel di dunia adalah peretas berbahaya."
       },
       {
+        "key": "C",
+        "text": "Algoritma membutuhkan waktu pelatihan jutaan jam komputasi karena tidak memiliki rumus probabilitas tertutup."
+      },
+      {
         "key": "D",
-        "text": "Algoritma membuat asumsi penyederhanaan yang sangat kuat dan naif bahwa setiap fitur atribut (keberadaan kata dalam pesan) saling independen bersyarat (conditionally independent) satu sama lain terhadap kelas target, mengabaikan fakta nyata bahwa dalam bahasa manusia keberadaan suatu kata sering kali berkorelasi erat dengan kata lainnya."
+        "text": "Algoritma hanya dapat dilatih menggunakan data buatan yang dibuat oleh manusia tanpa algoritma komputasi."
       },
       {
         "key": "E",
-        "text": "Algoritma membutuhkan waktu pelatihan jutaan jam komputasi karena tidak memiliki rumus probabilitas tertutup."
+        "text": "Algoritma membuat asumsi penyederhanaan yang sangat kuat dan naif bahwa setiap fitur atribut (keberadaan kata dalam pesan) saling independen bersyarat (conditionally independent) satu sama lain terhadap kelas target, mengabaikan fakta nyata bahwa dalam bahasa manusia keberadaan suatu kata sering kali berkorelasi erat dengan kata lainnya."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Algoritma membuat asumsi penyederhanaan yang sangat kuat dan naif bahwa setiap fitur atribut (keberadaan kata dalam pesan) saling independen bersyarat (conditionally independent) satu sama lain terhadap kelas target, mengabaikan fakta nyata bahwa dalam bahasa manusia keberadaan suatu kata sering kali berkorelasi erat dengan kata lainnya.. Disebut \"Naive\" karena mengasumsikan semua fitur saling independen secara bersyarat (conditionally independent) terhadap kelas target, padahal di realita ada korelasi antar kata. Pilih opsi: Mengasumsikan setiap fitur saling independen bersyarat satu sama lain terhadap kelas target."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Algoritma membuat asumsi penyederhanaan yang sangat kuat dan naif bahwa setiap fitur atribut (keberadaan kata dalam pesan) saling independen bersyarat (conditionally independent) satu sama lain terhadap kelas target, mengabaikan fakta nyata bahwa dalam bahasa manusia keberadaan suatu kata sering kali berkorelasi erat dengan kata lainnya.. Disebut \"Naive\" karena mengasumsikan semua fitur saling independen secara bersyarat (conditionally independent) terhadap kelas target, padahal di realita ada korelasi antar kata. Pilih opsi: Mengasumsikan setiap fitur saling independen bersyarat satu sama lain terhadap kelas target."
   },
   {
     "id": "inf-sim-25",
@@ -4282,27 +4283,27 @@ window.TKA_INFORMATIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dengan mengirimkan seluruh salinan kartu identitas KTP fisik asli melalui surel publik tanpa enkripsi diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
+        "text": "Tanpa perlu mengungkapkan informasi rahasia itu sendiri atau data pribadi pendukung lainnya (seperti tanggal lahir asli, nama lengkap, atau nomor NIK) kepada pihak pemverifikasi."
       },
       {
         "key": "B",
-        "text": "Dengan mewajibkan pihak pemverifikasi untuk menyerahkan kunci privat rekening banknya kepada pihak pembukti."
+        "text": "Dengan mengirimkan seluruh salinan kartu identitas KTP fisik asli melalui surel publik tanpa enkripsi diturunkan dari kaidah penalaran rekursif dan struktur pohon biner pencarian data."
       },
       {
         "key": "C",
-        "text": "Dengan cara menghapus seluruh catatan transaksi di peladen pemerintah secara sepihak dan permanen."
-      },
-      {
-        "key": "D",
         "text": "Hanya berlaku jika kedua belah pihak menandatangani kontrak hukum di hadapan notaris resmi di kantor pengadilan."
       },
       {
+        "key": "D",
+        "text": "Dengan cara menghapus seluruh catatan transaksi di peladen pemerintah secara sepihak dan permanen."
+      },
+      {
         "key": "E",
-        "text": "Tanpa perlu mengungkapkan informasi rahasia itu sendiri atau data pribadi pendukung lainnya (seperti tanggal lahir asli, nama lengkap, atau nomor NIK) kepada pihak pemverifikasi."
+        "text": "Dengan mewajibkan pihak pemverifikasi untuk menyerahkan kunci privat rekening banknya kepada pihak pembukti."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tanpa perlu mengungkapkan informasi rahasia itu sendiri atau data pribadi pendukung lainnya (seperti tanggal lahir asli, nama lengkap, atau nomor NIK) kepada pihak pemverifikasi.. Zero-Knowledge Proof membuktikan kebenaran sebuah pernyataan TANPA membocorkan isi rahasia itu sendiri (zero knowledge leak). Pilih: Tanpa perlu mengungkapkan informasi rahasia atau data pribadi pendukung kepada pihak pemverifikasi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tanpa perlu mengungkapkan informasi rahasia itu sendiri atau data pribadi pendukung lainnya (seperti tanggal lahir asli, nama lengkap, atau nomor NIK) kepada pihak pemverifikasi.. Zero-Knowledge Proof membuktikan kebenaran sebuah pernyataan TANPA membocorkan isi rahasia itu sendiri (zero knowledge leak). Pilih: Tanpa perlu mengungkapkan informasi rahasia atau data pribadi pendukung kepada pihak pemverifikasi."
   },
   {
     "id": "inf-sim-26",

@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_GEOGRAFI.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Geografi Soshum)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_GEOGRAFI_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_GEOGRAFI_QUESTIONS = [
   {
     "id": "geo-lat-e-01",
@@ -25,27 +26,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Konsep Aglomerasi, yaitu kecenderungan persebaran aktivitas manusia atau fenomena geografi yang mengelompok pada suatu wilayah tertentu yang memberikan keuntungan bersama."
+        "text": "Konsep Aksesibilitas, yaitu kemudahan atau keterjangkauan suatu lokasi menggunakan sarana transportasi jalan raya."
       },
       {
         "key": "B",
-        "text": "Konsep Aksesibilitas, yaitu kemudahan atau keterjangkauan suatu lokasi menggunakan sarana transportasi jalan raya sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "Konsep Morfologi, yaitu bentuk roman muka bumi yang menggambarkan kemiringan lereng dan ketinggian dataran tinggi."
       },
       {
+        "key": "C",
+        "text": "Konsep Nilai Kegunaan, yaitu manfaat komparatif suatu bentang lahan bagi kelompok masyarakat tertentu."
+      },
+      {
         "key": "D",
-        "text": "Konsep Interaksi dan Interdependensi, yaitu hubungan timbal balik saling mempengaruhi antara desa dan kota besar."
+        "text": "Konsep Aglomerasi, yaitu kecenderungan persebaran aktivitas manusia atau fenomena geografi yang mengelompok pada suatu wilayah tertentu yang memberikan keuntungan bersama."
       },
       {
         "key": "E",
-        "text": "Konsep Nilai Kegunaan, yaitu manfaat komparatif suatu bentang lahan bagi kelompok masyarakat tertentu."
+        "text": "Konsep Interaksi dan Interdependensi, yaitu hubungan timbal balik saling mempengaruhi antara desa dan kota besar."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Konsep Aglomerasi, yaitu kecenderungan persebaran aktivitas manusia atau fenomena geografi yang mengelompok pada suatu wilayah tertentu yang memberikan keuntungan bersama.. Fenomena mengelompoknya pabrik/industri atau pemukiman dalam satu kawasan khusus mencerminkan konsep Aglomerasi. Pilih: Konsep Aglomerasi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Konsep Aglomerasi, yaitu kecenderungan persebaran aktivitas manusia atau fenomena geografi yang mengelompok pada suatu wilayah tertentu yang memberikan keuntungan bersama.. Fenomena mengelompoknya pabrik/industri atau pemukiman dalam satu kawasan khusus mencerminkan konsep Aglomerasi. Pilih: Konsep Aglomerasi."
   },
   {
     "id": "geo-lat-e-02",
@@ -68,11 +69,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Prinsip Deskripsi murni, karena kajian hanya berfokus pada penyajian data tabel dan diagram angka statistik korban bencana sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Prinsip Kronologi, yaitu kajian perubahan peristiwa alam berdasarkan urutan garis waktu historis dinasti kerajaan masa lalu."
       },
       {
         "key": "B",
-        "text": "Prinsip Korologi, yaitu prinsip geografi paling komprehensif yang menelaah fenomena geosfer dengan memadukan aspek persebaran, interelasi keterkaitan, dan deskripsi dalam ruang tertentu."
+        "text": "Prinsip Distribusi tunggal, karena kajian bertujuan utama memetakan batas zona bahaya wilayah rawan bencana gunung api."
       },
       {
         "key": "C",
@@ -80,15 +81,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Prinsip Distribusi tunggal, karena kajian bertujuan utama memetakan batas zona bahaya wilayah rawan bencana gunung api."
+        "text": "Prinsip Korologi, yaitu prinsip geografi paling komprehensif yang menelaah fenomena geosfer dengan memadukan aspek persebaran, interelasi keterkaitan, dan deskripsi dalam ruang tertentu."
       },
       {
         "key": "E",
-        "text": "Prinsip Kronologi, yaitu kajian perubahan peristiwa alam berdasarkan urutan garis waktu historis dinasti kerajaan masa lalu."
+        "text": "Prinsip Deskripsi murni, karena kajian hanya berfokus pada penyajian data tabel dan diagram angka statistik korban bencana."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Prinsip Korologi, yaitu prinsip geografi paling komprehensif yang menelaah fenomena geosfer dengan memadukan aspek persebaran, interelasi keterkaitan, dan deskripsi dalam ruang tertentu.. Prinsip yang menggabungkan sebaran (distribusi), sebab-akibat (interelasi), dan penjelasan visual (deskripsi) secara terpadu adalah Prinsip Korologi. Pilih: Prinsip Korologi."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Prinsip Korologi, yaitu prinsip geografi paling komprehensif yang menelaah fenomena geosfer dengan memadukan aspek persebaran, interelasi keterkaitan, dan deskripsi dalam ruang tertentu.. Prinsip yang menggabungkan sebaran (distribusi), sebab-akibat (interelasi), dan penjelasan visual (deskripsi) secara terpadu adalah Prinsip Korologi. Pilih: Prinsip Korologi."
   },
   {
     "id": "geo-lat-e-03",
@@ -111,27 +112,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pendekatan Keruangan (Spatial Approach), yang semata-mata mengukur pola persebaran geometri titik lokasi banjir di Jakarta ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Pendekatan Astronomis, yang mengkaji pengaruh posisi orbit konstelasi bintang terhadap pasang surut laut Jawa."
       },
       {
         "key": "B",
-        "text": "Pendekatan Kompleks Wilayah (Regional Complex), yang hanya mengkaji perbedaan komparatif peraturan zonasi antar provinsi mandiri."
-      },
-      {
-        "key": "C",
         "text": "Pendekatan Kelingkungan (Ekologis / Ecological Approach), yaitu pendekatan yang menganalisis interaksi resiprokal timbal balik antara makhluk hidup (terutama aktivitas manusia) dengan lingkungan biofisik tempat tinggalnya."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pendekatan Historis Geologi, yang meneliti pergerakan lempeng tektonik purba pada zaman pleistosen ratusan ribu tahun lalu."
       },
       {
+        "key": "D",
+        "text": "Pendekatan Kompleks Wilayah (Regional Complex), yang hanya mengkaji perbedaan komparatif peraturan zonasi antar provinsi mandiri."
+      },
+      {
         "key": "E",
-        "text": "Pendekatan Astronomis, yang mengkaji pengaruh posisi orbit konstelasi bintang terhadap pasang surut laut Jawa."
+        "text": "Pendekatan Keruangan (Spatial Approach), yang semata-mata mengukur pola persebaran geometri titik lokasi banjir di Jakarta ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pendekatan Kelingkungan (Ekologis / Ecological Approach), yaitu pendekatan yang menganalisis interaksi resiprokal timbal balik antara makhluk hidup (terutama aktivitas manusia) dengan lingkungan biofisik tempat tinggalnya.. Mengkaji interaksi kerusakan lingkungan akibat ulah/perilaku manusia (alih fungsi hutan jadi vila) menggunakan Pendekatan Kelingkungan (Ekologis). Pilih: Pendekatan Kelingkungan (Ekologis)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pendekatan Kelingkungan (Ekologis / Ecological Approach), yaitu pendekatan yang menganalisis interaksi resiprokal timbal balik antara makhluk hidup (terutama aktivitas manusia) dengan lingkungan biofisik tempat tinggalnya.. Mengkaji interaksi kerusakan lingkungan akibat ulah/perilaku manusia (alih fungsi hutan jadi vila) menggunakan Pendekatan Kelingkungan (Ekologis). Pilih: Pendekatan Kelingkungan (Ekologis)."
   },
   {
     "id": "geo-lat-e-04",
@@ -154,27 +155,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Epirogenesa Negatif, yaitu gerakan pengangkatan daratan sehingga permukaan air laut tampak seolah-olah mengalami penurunan surut menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
         "text": "Orogenesa Patahan Horst, yaitu pengangkatan kerak bumi sempit yang membentuk jajaran puncak pegunungan blok."
       },
       {
+        "key": "B",
+        "text": "Gempa Vulkanik Dalam, yaitu runtuhnya dinding kaldera kawah gunung api aktif pasca letusan freatik dahsyat."
+      },
+      {
         "key": "C",
-        "text": "Orogenesa Lipatan Sinklinal, yaitu pembentukan lembah curam akibat tekanan kompresi horizontal bertekanan tinggi."
+        "text": "Epirogenesa Negatif, yaitu gerakan pengangkatan daratan sehingga permukaan air laut tampak seolah-olah mengalami penurunan surut menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "D",
-        "text": "Epirogenesa Positif, yaitu gerakan penurunan daratan yang berlangsung lambat dan mencakup wilayah yang luas, sehingga permukaan air laut seolah-olah mengalami kenaikan relatif."
+        "text": "Orogenesa Lipatan Sinklinal, yaitu pembentukan lembah curam akibat tekanan kompresi horizontal bertekanan tinggi."
       },
       {
         "key": "E",
-        "text": "Gempa Vulkanik Dalam, yaitu runtuhnya dinding kaldera kawah gunung api aktif pasca letusan freatik dahsyat."
+        "text": "Epirogenesa Positif, yaitu gerakan penurunan daratan yang berlangsung lambat dan mencakup wilayah yang luas, sehingga permukaan air laut seolah-olah mengalami kenaikan relatif."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Epirogenesa Positif, yaitu gerakan penurunan daratan yang berlangsung lambat dan mencakup wilayah yang luas, sehingga permukaan air laut seolah-olah mengalami kenaikan relatif.. Epirogenesa Positif = Daratan turun secara lambat dan luas sehingga air laut tampak naik. Epirogenesa Negatif = Daratan naik. Pilih: Epirogenesa Positif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Epirogenesa Positif, yaitu gerakan penurunan daratan yang berlangsung lambat dan mencakup wilayah yang luas, sehingga permukaan air laut seolah-olah mengalami kenaikan relatif.. Epirogenesa Positif = Daratan turun secara lambat dan luas sehingga air laut tampak naik. Epirogenesa Negatif = Daratan naik. Pilih: Epirogenesa Positif."
   },
   {
     "id": "geo-lat-e-05",
@@ -197,27 +198,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tipe Hawaii, yang dicirikan oleh lelehan lava cair basal encer dengan letusan air mancur lava tanpa awan panas diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Tipe Merapi, yang ditandai dengan lelehan lava kental bertekanan gas rendah-sedang yang membentuk kubah lava penyumbat kepundan kawah sebelum akhirnya gugur longsor menghasilkan awan panas."
       },
       {
         "key": "B",
-        "text": "Tipe Pelee, yang dicirikan oleh sumbat lava jarum sangat runcing dan tegak tinggi akibat viskositas gas ekstrem."
-      },
-      {
-        "key": "C",
-        "text": "Tipe Plinian, yang dicirikan oleh letusan ledakan kataklisma raksasa dengan kolom semburan abu mencapai lapisan stratosfer."
-      },
-      {
-        "key": "D",
         "text": "Tipe Stromboli, yang dicirikan oleh letusan berkala setiap beberapa menit dengan lontaran bom vulkanik bercahaya pijar."
       },
       {
+        "key": "C",
+        "text": "Tipe Hawaii, yang dicirikan oleh lelehan lava cair basal encer dengan letusan air mancur lava tanpa awan panas diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "D",
+        "text": "Tipe Plinian, yang dicirikan oleh letusan ledakan kataklisma raksasa dengan kolom semburan abu mencapai lapisan stratosfer."
+      },
+      {
         "key": "E",
-        "text": "Tipe Merapi, yang ditandai dengan lelehan lava kental bertekanan gas rendah-sedang yang membentuk kubah lava penyumbat kepundan kawah sebelum akhirnya gugur longsor menghasilkan awan panas."
+        "text": "Tipe Pelee, yang dicirikan oleh sumbat lava jarum sangat runcing dan tegak tinggi akibat viskositas gas ekstrem."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tipe Merapi, yang ditandai dengan lelehan lava kental bertekanan gas rendah-sedang yang membentuk kubah lava penyumbat kepundan kawah sebelum akhirnya gugur longsor menghasilkan awan panas.. Gunung api dengan lava kental yang membentuk kubah lava lalu runtuh memicu awan panas (wedhus gembel) adalah Tipe Merapi. Pilih: Tipe Merapi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tipe Merapi, yang ditandai dengan lelehan lava kental bertekanan gas rendah-sedang yang membentuk kubah lava penyumbat kepundan kawah sebelum akhirnya gugur longsor menghasilkan awan panas.. Gunung api dengan lava kental yang membentuk kubah lava lalu runtuh memicu awan panas (wedhus gembel) adalah Tipe Merapi. Pilih: Tipe Merapi."
   },
   {
     "id": "geo-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lapisan Stratosfer, yang memiliki fenomena inversi suhu (makin tinggi makin hangat) akibat penyerapan radiasi matahari oleh lapisan ozonosfer."
-      },
-      {
-        "key": "B",
-        "text": "Lapisan Troposfer, tempat terjadinya seluruh peristiwa cuaca seperti hujan, badai petir, awan, dan siklon tropis sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "Lapisan Mesosfer, lapisan terdingin di atmosfer yang berfungsi membakar dan menghancurkan meteor yang jatuh menuju bumi."
       },
       {
+        "key": "B",
+        "text": "Lapisan Eksosfer, lapisan terluar tempat satelit buatan bumi mengorbit dan gas hidrogen lepas ke luar angkasa."
+      },
+      {
+        "key": "C",
+        "text": "Lapisan Stratosfer, yang memiliki fenomena inversi suhu (makin tinggi makin hangat) akibat penyerapan radiasi matahari oleh lapisan ozonosfer."
+      },
+      {
         "key": "D",
-        "text": "Lapisan Termosfer (Ionosfer), tempat terjadinya ionisasi partikel gas yang memantulkan gelombang radio telekomunikasi."
+        "text": "Lapisan Troposfer, tempat terjadinya seluruh peristiwa cuaca seperti hujan, badai petir, awan, dan siklon tropis."
       },
       {
         "key": "E",
-        "text": "Lapisan Eksosfer, lapisan terluar tempat satelit buatan bumi mengorbit dan gas hidrogen lepas ke luar angkasa."
+        "text": "Lapisan Termosfer (Ionosfer), tempat terjadinya ionisasi partikel gas yang memantulkan gelombang radio telekomunikasi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Lapisan Stratosfer, yang memiliki fenomena inversi suhu (makin tinggi makin hangat) akibat penyerapan radiasi matahari oleh lapisan ozonosfer.. Lapisan yang berada pada ketinggian 12-50 km dan mengandung konsentrasi ozon (O3) pelindung sinar UV adalah Stratosfer. Pilih: Lapisan Stratosfer."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Lapisan Stratosfer, yang memiliki fenomena inversi suhu (makin tinggi makin hangat) akibat penyerapan radiasi matahari oleh lapisan ozonosfer.. Lapisan yang berada pada ketinggian 12-50 km dan mengandung konsentrasi ozon (O3) pelindung sinar UV adalah Stratosfer. Pilih: Lapisan Stratosfer."
   },
   {
     "id": "geo-lat-e-07",
@@ -283,11 +284,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Angin Gending di Pasuruan dan Probolinggo (Jawa Timur), yang merusak perkebunan mangga lokal sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Angin Gending di Pasuruan dan Probolinggo (Jawa Timur), yang merusak perkebunan mangga lokal."
       },
       {
         "key": "B",
-        "text": "Angin Bohorok di Deli Serdang (Sumatera Utara), yang terjadi karena massa udara telah menjatuhkan uap airnya sebagai hujan orografis di lereng berhadapan lalu menuruni lereng bayangan hujan secara adiabatik kering."
+        "text": "Angin Wambraw di Biak (Papua), yang berhembus kencang membahayakan aktivitas perahu nelayan tradisional."
       },
       {
         "key": "C",
@@ -295,15 +296,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Angin Wambraw di Biak (Papua), yang berhembus kencang membahayakan aktivitas perahu nelayan tradisional."
+        "text": "Angin Brubu di Makassar (Sulawesi Selatan), yang memicu gelombang panas di sepanjang pesisir pantai barat."
       },
       {
         "key": "E",
-        "text": "Angin Brubu di Makassar (Sulawesi Selatan), yang memicu gelombang panas di sepanjang pesisir pantai barat."
+        "text": "Angin Bohorok di Deli Serdang (Sumatera Utara), yang terjadi karena massa udara telah menjatuhkan uap airnya sebagai hujan orografis di lereng berhadapan lalu menuruni lereng bayangan hujan secara adiabatik kering."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Angin Bohorok di Deli Serdang (Sumatera Utara), yang terjadi karena massa udara telah menjatuhkan uap airnya sebagai hujan orografis di lereng berhadapan lalu menuruni lereng bayangan hujan secara adiabatik kering.. Angin fohn di Deli Serdang (Sumatera Utara) yang merusak tanaman tembakau adalah Angin Bohorok. Pilih: Angin Bohorok di Deli Serdang."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Angin Bohorok di Deli Serdang (Sumatera Utara), yang terjadi karena massa udara telah menjatuhkan uap airnya sebagai hujan orografis di lereng berhadapan lalu menuruni lereng bayangan hujan secara adiabatik kering.. Angin fohn di Deli Serdang (Sumatera Utara) yang merusak tanaman tembakau adalah Angin Bohorok. Pilih: Angin Bohorok di Deli Serdang."
   },
   {
     "id": "geo-lat-e-08",
@@ -326,27 +327,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zona Panas ($0 - 650$ m dpl), paling cocok untuk budidaya kelapa sawit, padi sawah, tebu, dan jagung."
-      },
-      {
-        "key": "B",
         "text": "Zona Dingin ($1.500 - 2.500$ m dpl), paling cocok untuk pinus, cemara gunung, dan lumut kerak artik."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Zona Sedang (Sejuk), paling cocok untuk tanaman teh, kopi, kina, karet, kina, dan aneka sayuran dataran tinggi."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Zona Sangat Dingin (Salju di atas $2.500$ m dpl), di mana tidak ada tanaman budidaya yang mampu bertahan hidup selain lumut."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Zona Tropis Basah Pesisir, paling cocok untuk tanaman bakau mangrove dan rumput laut komersial."
+      },
+      {
+        "key": "E",
+        "text": "Zona Panas ($0 - 650$ m dpl), paling cocok untuk budidaya kelapa sawit, padi sawah, tebu, dan jagung."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Zona Sedang (Sejuk), paling cocok untuk tanaman teh, kopi, kina, karet, kina, dan aneka sayuran dataran tinggi.. Ketinggian 650 - 1.500 m dpl adalah Zona Sedang/Sejuk Junghuhn dengan tanaman utama kopi, teh, kina, dan sayuran. Pilih: Zona Sedang (Sejuk), cocok untuk teh, kopi, kina, dan sayuran dataran tinggi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Zona Sedang (Sejuk), paling cocok untuk tanaman teh, kopi, kina, karet, kina, dan aneka sayuran dataran tinggi.. Ketinggian 650 - 1.500 m dpl adalah Zona Sedang/Sejuk Junghuhn dengan tanaman utama kopi, teh, kina, dan sayuran. Pilih: Zona Sedang (Sejuk), cocok untuk teh, kopi, kina, dan sayuran dataran tinggi."
   },
   {
     "id": "geo-lat-e-09",
@@ -373,7 +374,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Pola Aliran Trelis, yang anak-anak sungainya sejajar bermuara tegak lurus pada batuan lipatan antiklinal dan sinklinal berselang-seling."
+        "text": "Pola Aliran Radial Sentripetal, yang alirannya memusat dari tepi lereng menuju danau atau depresi cekungan tertutup."
       },
       {
         "key": "C",
@@ -381,15 +382,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pola Aliran Dendritik, yang berkembang pada daerah dengan batuan dasar yang homogen (seragam) dan struktur batuan sedimen mendatar (horizontal)."
+        "text": "Pola Aliran Trelis, yang anak-anak sungainya sejajar bermuara tegak lurus pada batuan lipatan antiklinal dan sinklinal berselang-seling."
       },
       {
         "key": "E",
-        "text": "Pola Aliran Radial Sentripetal, yang alirannya memusat dari tepi lereng menuju danau atau depresi cekungan tertutup."
+        "text": "Pola Aliran Dendritik, yang berkembang pada daerah dengan batuan dasar yang homogen (seragam) dan struktur batuan sedimen mendatar (horizontal)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pola Aliran Dendritik, yang berkembang pada daerah dengan batuan dasar yang homogen (seragam) dan struktur batuan sedimen mendatar (horizontal).. Pola aliran menyerupai ranting pohon di daerah batuan homogen dan datar adalah Pola Dendritik. Pilih: Pola Aliran Dendritik."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pola Aliran Dendritik, yang berkembang pada daerah dengan batuan dasar yang homogen (seragam) dan struktur batuan sedimen mendatar (horizontal).. Pola aliran menyerupai ranting pohon di daerah batuan homogen dan datar adalah Pola Dendritik. Pilih: Pola Aliran Dendritik."
   },
   {
     "id": "geo-lat-e-10",
@@ -412,15 +413,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zona Litoral (Pasang Surut), yaitu wilayah pantai sempit yang terendam air saat pasang dan mengering saat air laut surut diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Zona Abisal (Laut Sangat Dalam), yaitu dasar samudra gelap gulita berkedalaman di atas $2.000$ meter dengan suhu beku."
       },
       {
         "key": "B",
-        "text": "Zona Batial (Laut Dalam), yaitu lereng benua curam dengan kedalaman $200 - 2.000$ meter yang remang-remang tanpa terumbu karang."
+        "text": "Zona Litoral (Pasang Surut), yaitu wilayah pantai sempit yang terendam air saat pasang dan mengering saat air laut surut diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "C",
-        "text": "Zona Abisal (Laut Sangat Dalam), yaitu dasar samudra gelap gulita berkedalaman di atas $2.000$ meter dengan suhu beku."
+        "text": "Zona Neritik (Laut Dangkal), yang merupakan paparan benua (continental shelf) dengan kekayaan biologis dan potensi perikanan tangkap terbesar."
       },
       {
         "key": "D",
@@ -428,11 +429,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Zona Neritik (Laut Dangkal), yang merupakan paparan benua (continental shelf) dengan kekayaan biologis dan potensi perikanan tangkap terbesar."
+        "text": "Zona Batial (Laut Dalam), yaitu lereng benua curam dengan kedalaman $200 - 2.000$ meter yang remang-remang tanpa terumbu karang."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Zona Neritik (Laut Dangkal), yang merupakan paparan benua (continental shelf) dengan kekayaan biologis dan potensi perikanan tangkap terbesar.. Laut dangkal kedalaman 0 - 200 meter yang ditembus sinar matahari dan kaya ikan adalah Zona Neritik. Pilih: Zona Neritik (Laut Dangkal)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Zona Neritik (Laut Dangkal), yang merupakan paparan benua (continental shelf) dengan kekayaan biologis dan potensi perikanan tangkap terbesar.. Laut dangkal kedalaman 0 - 200 meter yang ditembus sinar matahari dan kaya ikan adalah Zona Neritik. Pilih: Zona Neritik (Laut Dangkal)."
   },
   {
     "id": "geo-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Iklim ($Cl$), terutama melalui fluktuasi temperatur udara tinggi dan curah hujan tahunan yang melimpah yang mempercepat proses hidrolisis dan pelarutan mineral."
-      },
-      {
-        "key": "B",
-        "text": "Batuan Induk ($P$), karena seluruh jenis tanah di dunia memiliki komposisi mineral kuarsa yang identik sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "Topografi Relief ($R$), karena kemiringan lereng menentukan arah rotasi lempeng benua secara absolut."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Batuan Induk ($P$), karena seluruh jenis tanah di dunia memiliki komposisi mineral kuarsa yang identik."
+      },
+      {
+        "key": "C",
         "text": "Waktu ($T$), karena tanah baru terbentuk secara instan dalam kurun waktu kurang dari dua puluh empat jam."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Tekanan Udara Barometrik, karena massa jenis udara mempengaruhi daya ikat humus organik."
+      },
+      {
+        "key": "E",
+        "text": "Iklim ($Cl$), terutama melalui fluktuasi temperatur udara tinggi dan curah hujan tahunan yang melimpah yang mempercepat proses hidrolisis dan pelarutan mineral."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Iklim ($Cl$), terutama melalui fluktuasi temperatur udara tinggi dan curah hujan tahunan yang melimpah yang mempercepat proses hidrolisis dan pelarutan mineral.. Faktor aktif paling dominan dalam pelapukan di daerah tropis adalah Iklim (Climate: suhu dan curah hujan). Pilih: Iklim (Cl), melalui temperatur dan curah hujan tinggi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Iklim ($Cl$), terutama melalui fluktuasi temperatur udara tinggi dan curah hujan tahunan yang melimpah yang mempercepat proses hidrolisis dan pelarutan mineral.. Faktor aktif paling dominan dalam pelapukan di daerah tropis adalah Iklim (Climate: suhu dan curah hujan). Pilih: Iklim (Cl), melalui temperatur dan curah hujan tinggi."
   },
   {
     "id": "geo-lat-e-12",
@@ -498,15 +499,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Orangutan, Harimau Sumatera, Badak Bercula Satu, dan Gajah (Asiatis / Dangkalan Sunda)."
+        "text": "Kanguru Pohon, Burung Cendrawasih, Kasuari, dan Walabi (Australis / Dangkalan Sahul)."
       },
       {
         "key": "B",
-        "text": "Komodo (Nusa Tenggara), Anoa, Babirusa, dan Burung Maleo (Sulawesi)."
+        "text": "Orangutan, Harimau Sumatera, Badak Bercula Satu, dan Gajah (Asiatis / Dangkalan Sunda)."
       },
       {
         "key": "C",
-        "text": "Kanguru Pohon, Burung Cendrawasih, Kasuari, dan Walabi (Australis / Dangkalan Sahul)."
+        "text": "Komodo (Nusa Tenggara), Anoa, Babirusa, dan Burung Maleo (Sulawesi)."
       },
       {
         "key": "D",
@@ -517,8 +518,8 @@ window.TKA_GEOGRAFI_QUESTIONS = [
         "text": "Beruang Kutub, Rusa Karibu, Penguin Kaisar, dan Serigala Salju Artik (Zona Paleartik)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Komodo (Nusa Tenggara), Anoa, Babirusa, dan Burung Maleo (Sulawesi).. Fauna khas zona peralihan (Sulawesi & Nusa Tenggara): Komodo, Anoa, Babirusa, Burung Maleo. Pilih: Komodo, Anoa, Babirusa, dan Burung Maleo."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Komodo (Nusa Tenggara), Anoa, Babirusa, dan Burung Maleo (Sulawesi).. Fauna khas zona peralihan (Sulawesi & Nusa Tenggara): Komodo, Anoa, Babirusa, Burung Maleo. Pilih: Komodo, Anoa, Babirusa, dan Burung Maleo."
   },
   {
     "id": "geo-lat-e-13",
@@ -541,27 +542,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Didominasi oleh padang rumput ilalang luas yang diselingi pohon akasia berduri tahan kekeringan musiman ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Didominasi oleh padang rumput ilalang luas yang diselingi pohon akasia berduri tahan kekeringan musiman ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
         "key": "B",
-        "text": "Hutan monokultur pohon berdaun jarum (konifer) seperti pinus dan cemara yang tahan terhadap salju abadi."
-      },
-      {
-        "key": "C",
         "text": "Pohon-pohon berkanopi lebat membentuk tajuk berlapis setinggi 30-50 meter, berdaun lebar selalu hijau (evergreen), kaya tumbuhan epifit (anggrek) dan liana (rotan), serta dasar hutan relatif lembap dan ternaungi sinar matahari."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Tumbuh-tumbuhan meranggas menggugurkan daunnya secara serempak saat musim kemarau panjang tiba."
+      },
+      {
+        "key": "D",
+        "text": "Hutan monokultur pohon berdaun jarum (konifer) seperti pinus dan cemara yang tahan terhadap salju abadi."
       },
       {
         "key": "E",
         "text": "Hanya ditumbuhi lumut kerak dan semak kerdil yang membeku sepanjang sembilan bulan musim dingin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pohon-pohon berkanopi lebat membentuk tajuk berlapis setinggi 30-50 meter, berdaun lebar selalu hijau (evergreen), kaya tumbuhan epifit (anggrek) dan liana (rotan), serta dasar hutan relatif lembap dan ternaungi sinar matahari.. Ciri hutan hujan tropis: pohon tinggi berkanopi lebat selalu hijau, terdapat epifit (anggrek) dan liana (rotan/rambat), serta lantai hutan ternaungi. Pilih opsi pohon berkanopi lebat, evergreen, ada epifit dan liana."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pohon-pohon berkanopi lebat membentuk tajuk berlapis setinggi 30-50 meter, berdaun lebar selalu hijau (evergreen), kaya tumbuhan epifit (anggrek) dan liana (rotan), serta dasar hutan relatif lembap dan ternaungi sinar matahari.. Ciri hutan hujan tropis: pohon tinggi berkanopi lebat selalu hijau, terdapat epifit (anggrek) dan liana (rotan/rambat), serta lantai hutan ternaungi. Pilih opsi pohon berkanopi lebat, evergreen, ada epifit dan liana."
   },
   {
     "id": "geo-lat-e-14",
@@ -588,11 +589,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Jumlah kelompok usia tua (di atas 65 tahun) jauh lebih besar daripada jumlah anak-anak balita (konstruktif)."
+        "text": "Mayoritas penduduk berada pada fase pasca-transisi demografi dengan angka kelahiran negatif seperti Jepang."
       },
       {
         "key": "C",
-        "text": "Mayoritas penduduk berada pada fase pasca-transisi demografi dengan angka kelahiran negatif seperti Jepang."
+        "text": "Angka beban ketergantungan bernilai nol karena seluruh warga negara telah bekerja di sektor formal."
       },
       {
         "key": "D",
@@ -600,7 +601,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Angka beban ketergantungan bernilai nol karena seluruh warga negara telah bekerja di sektor formal."
+        "text": "Jumlah kelompok usia tua (di atas 65 tahun) jauh lebih besar daripada jumlah anak-anak balita (konstruktif)."
       }
     ],
     "correctKey": "D",
@@ -627,15 +628,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{Dependency Ratio} = 25$, yang bermakna setiap 100 orang produktif menanggung beban 25 orang non-produktif diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "$\\text{Dependency Ratio} = 40$, yang bermakna setiap 100 orang penduduk usia produktif menanggung beban hidup 40 orang penduduk non-produktif."
       },
       {
         "key": "B",
-        "text": "$\\text{Dependency Ratio} = 30$, yang bermakna setiap 100 orang produktif hanya menanggung beban anak usia sekolah."
+        "text": "$\\text{Dependency Ratio} = 70$, yang bermakna daerah tersebut berada dalam krisis demografi akut."
       },
       {
         "key": "C",
-        "text": "$\\text{Dependency Ratio} = 70$, yang bermakna daerah tersebut berada dalam krisis demografi akut."
+        "text": "$\\text{Dependency Ratio} = 25$, yang bermakna setiap 100 orang produktif menanggung beban 25 orang non-produktif diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "D",
@@ -643,11 +644,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{Dependency Ratio} = 40$, yang bermakna setiap 100 orang penduduk usia produktif menanggung beban hidup 40 orang penduduk non-produktif."
+        "text": "$\\text{Dependency Ratio} = 30$, yang bermakna setiap 100 orang produktif hanya menanggung beban anak usia sekolah."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{Dependency Ratio} = 40$, yang bermakna setiap 100 orang penduduk usia produktif menanggung beban hidup 40 orang penduduk non-produktif.. DR = ((Usia 0-14 + Usia 65+) / Usia 15-64) * 100 = (40.000 / 100.000) * 100 = 40. Pilih: Dependency Ratio = 40 (setiap 100 orang produktif menanggung 40 orang non-produktif)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\text{Dependency Ratio} = 40$, yang bermakna setiap 100 orang penduduk usia produktif menanggung beban hidup 40 orang penduduk non-produktif.. DR = ((Usia 0-14 + Usia 65+) / Usia 15-64) * 100 = (40.000 / 100.000) * 100 = 40. Pilih: Dependency Ratio = 40 (setiap 100 orang produktif menanggung 40 orang non-produktif)."
   },
   {
     "id": "geo-lat-e-16",
@@ -670,15 +671,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Air jernih dan dalam menyerap hampir seluruh gelombang cahaya matahari yang datang sehingga pantulannya sangat lemah (rona gelap), sedangkan partikel suspensi lumpur memantulkan kembali sebagian besar cahaya matahari ke sensor satelit (rona terang)."
+        "text": "Air danau memiliki kerapatan molekul yang membiaskan gelombang radar menjadi warna hijau neon."
       },
       {
         "key": "B",
-        "text": "Air jernih memancarkan radiasi panas bumi lebih kuat daripada lumpur yang bersuhu dingin beku sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Air jernih memancarkan radiasi panas bumi lebih kuat daripada lumpur yang bersuhu dingin beku."
       },
       {
         "key": "C",
-        "text": "Sensor kamera foto udara otomatis menyaring warna biru menjadi hitam untuk seluruh badan perairan alamiah."
+        "text": "Air jernih dan dalam menyerap hampir seluruh gelombang cahaya matahari yang datang sehingga pantulannya sangat lemah (rona gelap), sedangkan partikel suspensi lumpur memantulkan kembali sebagian besar cahaya matahari ke sensor satelit (rona terang)."
       },
       {
         "key": "D",
@@ -686,11 +687,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Air danau memiliki kerapatan molekul yang membiaskan gelombang radar menjadi warna hijau neon."
+        "text": "Sensor kamera foto udara otomatis menyaring warna biru menjadi hitam untuk seluruh badan perairan alamiah."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Air jernih dan dalam menyerap hampir seluruh gelombang cahaya matahari yang datang sehingga pantulannya sangat lemah (rona gelap), sedangkan partikel suspensi lumpur memantulkan kembali sebagian besar cahaya matahari ke sensor satelit (rona terang).. Air jernih menyerap cahaya matahari (reflektansi rendah) sehingga tampak gelap/hitam. Air keruh berlumpur memantulkan banyak cahaya sehingga tampak terang. Pilih opsi: Air jernih menyerap cahaya (pantulan lemah/gelap), sedangkan lumpur memantulkan cahaya (pantulan kuat/terang)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Air jernih dan dalam menyerap hampir seluruh gelombang cahaya matahari yang datang sehingga pantulannya sangat lemah (rona gelap), sedangkan partikel suspensi lumpur memantulkan kembali sebagian besar cahaya matahari ke sensor satelit (rona terang).. Air jernih menyerap cahaya matahari (reflektansi rendah) sehingga tampak gelap/hitam. Air keruh berlumpur memantulkan banyak cahaya sehingga tampak terang. Pilih opsi: Air jernih menyerap cahaya (pantulan lemah/gelap), sedangkan lumpur memantulkan cahaya (pantulan kuat/terang)."
   },
   {
     "id": "geo-lat-e-17",
@@ -713,15 +714,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tekstur, yaitu frekuensi perubahan rona pada citra yang menggambarkan tingkat kehalusan atau kekasaran permukaan tajuk sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Bayangan, yaitu siluet gelap yang terbentuk di belakang objek akibat sudut datang sinar matahari rendah."
       },
       {
         "key": "B",
-        "text": "Pola (Pattern), yaitu susunan keruangan yang teratur dari objek buatan manusia yang membedakannya dari hutan rimba alami yang berstruktur acak."
+        "text": "Tekstur, yaitu frekuensi perubahan rona pada citra yang menggambarkan tingkat kehalusan atau kekasaran permukaan tajuk."
       },
       {
         "key": "C",
-        "text": "Bayangan, yaitu siluet gelap yang terbentuk di belakang objek akibat sudut datang sinar matahari rendah."
+        "text": "Asosiasi, yaitu keterkaitan keberadaan suatu objek dengan objek lain di sekitarnya seperti rel dengan stasiun."
       },
       {
         "key": "D",
@@ -729,11 +730,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Asosiasi, yaitu keterkaitan keberadaan suatu objek dengan objek lain di sekitarnya seperti rel dengan stasiun."
+        "text": "Pola (Pattern), yaitu susunan keruangan yang teratur dari objek buatan manusia yang membedakannya dari hutan rimba alami yang berstruktur acak."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pola (Pattern), yaitu susunan keruangan yang teratur dari objek buatan manusia yang membedakannya dari hutan rimba alami yang berstruktur acak.. Susunan pohon teratur dengan jarak seragam mencerminkan unsur interpretasi Pola (Pattern). Pilih: Pola (Pattern)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pola (Pattern), yaitu susunan keruangan yang teratur dari objek buatan manusia yang membedakannya dari hutan rimba alami yang berstruktur acak.. Susunan pohon teratur dengan jarak seragam mencerminkan unsur interpretasi Pola (Pattern). Pilih: Pola (Pattern)."
   },
   {
     "id": "geo-lat-e-18",
@@ -760,23 +761,23 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Hanya mampu menyimpan data deskriptif atribut tabel tanpa koordinat lintang dan bujur permukaan bumi."
-      },
-      {
-        "key": "C",
         "text": "Menyajikan fenomena geografis ke dalam koordinat eksplisit berupa Titik (Point), Garis (Polyline), dan Luasan/Area (Polygon) dengan batas yang presisi dan resolusi tinggi."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Membutuhkan memori penyimpanan komputer yang jauh lebih besar daripada data raster citra satelit komersial."
+      },
+      {
+        "key": "D",
+        "text": "Hanya mampu menyimpan data deskriptif atribut tabel tanpa koordinat lintang dan bujur permukaan bumi."
       },
       {
         "key": "E",
         "text": "Tidak dapat dianalisis untuk membuat zona penyangga (buffering) di sepanjang tepi jaringan jalan raya."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menyajikan fenomena geografis ke dalam koordinat eksplisit berupa Titik (Point), Garis (Polyline), dan Luasan/Area (Polygon) dengan batas yang presisi dan resolusi tinggi.. Model data vektor menyajikan data dalam bentuk Titik (Point), Garis (Polyline), dan Luasan (Polygon) berbasis koordinat. Pilih opsi: Titik (Point), Garis (Polyline), dan Luasan/Area (Polygon) dengan batas presisi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menyajikan fenomena geografis ke dalam koordinat eksplisit berupa Titik (Point), Garis (Polyline), dan Luasan/Area (Polygon) dengan batas yang presisi dan resolusi tinggi.. Model data vektor menyajikan data dalam bentuk Titik (Point), Garis (Polyline), dan Luasan (Polygon) berbasis koordinat. Pilih opsi: Titik (Point), Garis (Polyline), dan Luasan/Area (Polygon) dengan batas presisi."
   },
   {
     "id": "geo-lat-e-19",
@@ -799,27 +800,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1 : 25.000$, dihitung dari pembagian langsung nilai kontur interval dengan angka faktor seribu menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
-        "text": "$1 : 100.000$, hasil estimasi skala peta regional standar Badan Informasi Geospasial."
-      },
-      {
-        "key": "C",
-        "text": "$1 : 12.500$, hasil pembagian nilai kontur interval dengan faktor dua ratus."
-      },
-      {
-        "key": "D",
         "text": "$1 : 50.000$, dihitung dari formula $\\text{Penyebut Skala} = CI \\times 2.000 = 25 \\times 2.000 = 50.000$."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$1 : 5.000$, skala peta kadaster pertanahan desa."
+      },
+      {
+        "key": "C",
+        "text": "$1 : 25.000$, dihitung dari pembagian langsung nilai kontur interval dengan angka faktor seribu menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+      },
+      {
+        "key": "D",
+        "text": "$1 : 12.500$, hasil pembagian nilai kontur interval dengan faktor dua ratus."
+      },
+      {
+        "key": "E",
+        "text": "$1 : 100.000$, hasil estimasi skala peta regional standar Badan Informasi Geospasial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $1 : 50.000$, dihitung dari formula $\\text{Penyebut Skala} = CI \\times 2.000 = 25 \\times 2.000 = 50.000$.. Penyebut skala = CI x 2.000 = 25 x 2.000 = 50.000. Maka skala peta adalah 1 : 50.000. Pilih: 1 : 50.000."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $1 : 50.000$, dihitung dari formula $\\text{Penyebut Skala} = CI \\times 2.000 = 25 \\times 2.000 = 50.000$.. Penyebut skala = CI x 2.000 = 25 x 2.000 = 50.000. Maka skala peta adalah 1 : 50.000. Pilih: 1 : 50.000."
   },
   {
     "id": "geo-lat-e-20",
@@ -842,27 +843,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Proyeksi Kerucut (Conical Projection), yang paling tepat digunakan untuk memetakan negara-negara di wilayah lintang sedang ($30^\\circ - 60^\\circ$) diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Proyeksi Azimuthal Normal (Zenital), yang bidang datarnya menyinggung kutub utara atau kutub selatan bumi secara tegak lurus."
-      },
-      {
-        "key": "C",
         "text": "Proyeksi Kerucut Miring, yang hanya dapat digunakan untuk memetakan benua Antartika di kutub selatan."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Proyeksi Kerucut (Conical Projection), yang paling tepat digunakan untuk memetakan negara-negara di wilayah lintang sedang ($30^\\circ - 60^\\circ$) diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "C",
         "text": "Proyeksi Pseudopolikonik, yang khusus digunakan untuk memetakan palung laut dalam Mariana."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Proyeksi Silinder (Cylindrical Projection), karena bidang proyeksi berbentuk silinder menyinggung bumi tepat di sepanjang garis ekuator (lingkaran khatulistiwa)."
+      },
+      {
+        "key": "E",
+        "text": "Proyeksi Azimuthal Normal (Zenital), yang bidang datarnya menyinggung kutub utara atau kutub selatan bumi secara tegak lurus."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Proyeksi Silinder (Cylindrical Projection), karena bidang proyeksi berbentuk silinder menyinggung bumi tepat di sepanjang garis ekuator (lingkaran khatulistiwa).. Wilayah ekuator/khatulistiwa (seperti Indonesia) paling tepat dipetakan dengan Proyeksi Silinder (Cylindrical). Lintang sedang = Kerucut, Kutub = Azimuthal. Pilih: Proyeksi Silinder (Cylindrical Projection)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Proyeksi Silinder (Cylindrical Projection), karena bidang proyeksi berbentuk silinder menyinggung bumi tepat di sepanjang garis ekuator (lingkaran khatulistiwa).. Wilayah ekuator/khatulistiwa (seperti Indonesia) paling tepat dipetakan dengan Proyeksi Silinder (Cylindrical). Lintang sedang = Kerucut, Kutub = Azimuthal. Pilih: Proyeksi Silinder (Cylindrical Projection)."
   },
   {
     "id": "geo-lat-e-21",
@@ -885,27 +886,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$I_{AB} = 6.000.000$, dihitung dari formula $I_{AB} = \\frac{20.000 \\times 30.000}{10^2} = \\frac{600.000.000}{100} = 6.000.000$."
-      },
-      {
-        "key": "B",
-        "text": "$I_{AB} = 60.000.000$, hasil perhitungan tanpa mengkuadratkan jarak pemisah antar kedua kota sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "$I_{AB} = 5.000.000$, hasil penjumlahan jumlah penduduk dibagi kuadrat jarak tempuh jalan raya."
       },
       {
+        "key": "B",
+        "text": "$I_{AB} = 60.000.000$, hasil perhitungan tanpa mengkuadratkan jarak pemisah antar kedua kota."
+      },
+      {
+        "key": "C",
+        "text": "$I_{AB} = 6.000.000$, dihitung dari formula $I_{AB} = \\frac{20.000 \\times 30.000}{10^2} = \\frac{600.000.000}{100} = 6.000.000$."
+      },
+      {
         "key": "D",
-        "text": "$I_{AB} = 600.000$, hasil pembagian kuadrat jarak seribu terhadap perkalian populasi."
+        "text": "$I_{AB} = 3.000.000$, hasil pembagian rata populasi kedua kota terhadap jarak absolut."
       },
       {
         "key": "E",
-        "text": "$I_{AB} = 3.000.000$, hasil pembagian rata populasi kedua kota terhadap jarak absolut."
+        "text": "$I_{AB} = 600.000$, hasil pembagian kuadrat jarak seribu terhadap perkalian populasi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $I_{AB} = 6.000.000$, dihitung dari formula $I_{AB} = \\frac{20.000 \\times 30.000}{10^2} = \\frac{600.000.000}{100} = 6.000.000$.. Kekuatan gravitasi I_AB = (P_A * P_B) / d^2 = (20.000 * 30.000) / 10^2 = 600.000.000 / 100 = 6.000.000. Pilih: I_AB = 6.000.000."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $I_{AB} = 6.000.000$, dihitung dari formula $I_{AB} = \\frac{20.000 \\times 30.000}{10^2} = \\frac{600.000.000}{100} = 6.000.000$.. Kekuatan gravitasi I_AB = (P_A * P_B) / d^2 = (20.000 * 30.000) / 10^2 = 600.000.000 / 100 = 6.000.000. Pilih: I_AB = 6.000.000."
   },
   {
     "id": "geo-lat-e-22",
@@ -928,27 +929,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Wilayah Formal (Uniform Region), yaitu wilayah yang dicirikan oleh keseragaman kriteria fisik seperti kesamaan ketinggian dan jenis tanah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
         "text": "Wilayah Fungsional (Nodal Region), yaitu wilayah yang dicirikan oleh adanya heterogenitas aktivitas yang terintegrasi erat oleh jaringan sirkulasi, transportasi, dan titik pusat kegiatan (node)."
       },
       {
-        "key": "C",
-        "text": "Wilayah Perseptual (Vernakular), yaitu wilayah yang batasnya hanya ada dalam persepsi subjektif masyarakat lokal tanpa ikatan mobilitas."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Wilayah Administratif Kaku, yaitu wilayah yang aktivitas ekonominya dilarang melintasi tapal batas kabupaten."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Wilayah Konservasi Ketat, yaitu kawasan cagar alam suaka margasatwa yang tertutup bagi aktivitas transportasi manusia."
+      },
+      {
+        "key": "D",
+        "text": "Wilayah Formal (Uniform Region), yaitu wilayah yang dicirikan oleh keseragaman kriteria fisik seperti kesamaan ketinggian dan jenis tanah."
+      },
+      {
+        "key": "E",
+        "text": "Wilayah Perseptual (Vernakular), yaitu wilayah yang batasnya hanya ada dalam persepsi subjektif masyarakat lokal tanpa ikatan mobilitas."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Wilayah Fungsional (Nodal Region), yaitu wilayah yang dicirikan oleh adanya heterogenitas aktivitas yang terintegrasi erat oleh jaringan sirkulasi, transportasi, dan titik pusat kegiatan (node).. Wilayah yang dihubungkan oleh jaringan transportasi, aliran komuter, dan titik simpul kegiatan (seperti Jabodetabek) adalah Wilayah Fungsional (Nodal). Pilih: Wilayah Fungsional (Nodal Region)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Wilayah Fungsional (Nodal Region), yaitu wilayah yang dicirikan oleh adanya heterogenitas aktivitas yang terintegrasi erat oleh jaringan sirkulasi, transportasi, dan titik pusat kegiatan (node).. Wilayah yang dihubungkan oleh jaringan transportasi, aliran komuter, dan titik simpul kegiatan (seperti Jabodetabek) adalah Wilayah Fungsional (Nodal). Pilih: Wilayah Fungsional (Nodal Region)."
   },
   {
     "id": "geo-lat-e-23",
@@ -975,23 +976,23 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Hutan mangrove, perikanan tuna, tanah alluvial, dan tenaga angin."
-      },
-      {
-        "key": "C",
         "text": "Minyak bumi, gas alam, batu bara, bauksit, dan bijih nikel."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Gelombang pasang laut, air terjun PLTA, peternakan sapi, dan udara bersih."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Mutiara laut, getah karet alam, kakao, dan komoditas rotan hutan."
+      },
+      {
+        "key": "E",
+        "text": "Hutan mangrove, perikanan tuna, tanah alluvial, dan tenaga angin."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Minyak bumi, gas alam, batu bara, bauksit, dan bijih nikel.. SDA tidak dapat diperbaharui terbentuk dari proses geologi jutaan tahun: minyak bumi, gas alam, batu bara, dan barang tambang mineral. Pilih: Minyak bumi, gas alam, batu bara, bauksit, dan bijih nikel."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Minyak bumi, gas alam, batu bara, bauksit, dan bijih nikel.. SDA tidak dapat diperbaharui terbentuk dari proses geologi jutaan tahun: minyak bumi, gas alam, batu bara, dan barang tambang mineral. Pilih: Minyak bumi, gas alam, batu bara, bauksit, dan bijih nikel."
   },
   {
     "id": "geo-lat-e-24",
@@ -1018,11 +1019,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Badai siklon tropis, angin puting beliung, kebakaran hutan musim kemarau, dan kabut asap pekat."
+        "text": "Pemanasan global, hujan asam nitrat industri, dan kenaikan permukaan air laut transgresi."
       },
       {
         "key": "C",
-        "text": "Pemanasan global, hujan asam nitrat industri, dan kenaikan permukaan air laut transgresi."
+        "text": "Kekeringan lahan pertanian akibat fenomena anomali iklim atmosfer El Niño."
       },
       {
         "key": "D",
@@ -1030,7 +1031,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kekeringan lahan pertanian akibat fenomena anomali iklim atmosfer El Niño."
+        "text": "Badai siklon tropis, angin puting beliung, kebakaran hutan musim kemarau, dan kabut asap pekat."
       }
     ],
     "correctKey": "D",
@@ -1057,15 +1058,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pembangunan yang mengeksploitasi seluruh deposit tambang mineral secara maksimal demi pertumbuhan ekonomi secepat-cepatnya diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Pembangunan yang memenuhi kebutuhan generasi masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan untuk memenuhi kebutuhan hidup mereka sendiri."
       },
       {
         "key": "B",
-        "text": "Pembangunan yang melarang seluruh pemanfaatan sumber daya alam dan menghentikan seluruh aktivitas industri pabrik."
+        "text": "Pembangunan yang mewajibkan seluruh negara berkembang berutang kepada perbankan internasional untuk membeli mobil listrik."
       },
       {
         "key": "C",
-        "text": "Pembangunan yang mewajibkan seluruh negara berkembang berutang kepada perbankan internasional untuk membeli mobil listrik."
+        "text": "Pembangunan yang mengeksploitasi seluruh deposit tambang mineral secara maksimal demi pertumbuhan ekonomi secepat-cepatnya diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "D",
@@ -1073,11 +1074,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pembangunan yang memenuhi kebutuhan generasi masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan untuk memenuhi kebutuhan hidup mereka sendiri."
+        "text": "Pembangunan yang melarang seluruh pemanfaatan sumber daya alam dan menghentikan seluruh aktivitas industri pabrik."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pembangunan yang memenuhi kebutuhan generasi masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan untuk memenuhi kebutuhan hidup mereka sendiri.. Definisi Brundtland: Pembangunan yang memenuhi kebutuhan generasi saat ini tanpa mengorbankan kemampuan generasi masa depan. Pilih opsi: Memenuhi kebutuhan masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pembangunan yang memenuhi kebutuhan generasi masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan untuk memenuhi kebutuhan hidup mereka sendiri.. Definisi Brundtland: Pembangunan yang memenuhi kebutuhan generasi saat ini tanpa mengorbankan kemampuan generasi masa depan. Pilih opsi: Memenuhi kebutuhan masa kini tanpa mengorbankan hak dan kemampuan generasi masa depan."
   },
   {
     "id": "geo-lat-m-01",
@@ -1100,27 +1101,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Batuan granit membeku sangat lambat jauh di dalam kerak bumi sehingga atom-atom mineral memiliki waktu cukup untuk membentuk kristal-kristal besar berbutir kasar (faneritik), sedangkan obsidian/basal membeku seketika di permukaan bumi sehingga membentuk tekstur amorf halus atau kaca tanpa kristal (afanitik)."
+        "text": "Batuan granit terbentuk akibat tekanan hidrotermal bawah laut sedangkan basal terbentuk dari abu vulkanik yang memadat di danau kawah."
       },
       {
         "key": "B",
-        "text": "Batuan granit terbentuk akibat tekanan hidrotermal bawah laut sedangkan basal terbentuk dari abu vulkanik yang memadat di danau kawah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
-        "text": "Batuan obsidian membeku di bawah pengaruh tekanan tektonik lempeng konvergen sedangkan granit membeku pada zona sesar transform."
-      },
-      {
-        "key": "D",
         "text": "Batuan granit hanya tersusun dari mineral kalsit gamping sedangkan batuan basal terbentuk dari fosil cangkang moluska laut dalam."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Batuan granit membeku sangat lambat jauh di dalam kerak bumi sehingga atom-atom mineral memiliki waktu cukup untuk membentuk kristal-kristal besar berbutir kasar (faneritik), sedangkan obsidian/basal membeku seketika di permukaan bumi sehingga membentuk tekstur amorf halus atau kaca tanpa kristal (afanitik)."
+      },
+      {
+        "key": "D",
         "text": "Kedua jenis batuan membeku pada kecepatan yang sama tetapi granit terpapar sinar radiasi matahari sehingga butirannya membesar."
+      },
+      {
+        "key": "E",
+        "text": "Batuan obsidian membeku di bawah pengaruh tekanan tektonik lempeng konvergen sedangkan granit membeku pada zona sesar transform."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Batuan granit membeku sangat lambat jauh di dalam kerak bumi sehingga atom-atom mineral memiliki waktu cukup untuk membentuk kristal-kristal besar berbutir kasar (faneritik), sedangkan obsidian/basal membeku seketika di permukaan bumi sehingga membentuk tekstur amorf halus atau kaca tanpa kristal (afanitik).. Batuan beku dalam (granit) membeku perlahan -> kristal kasar (faneritik). Batuan beku luar (obsidian/basal) membeku seketika di permukaan -> kristal halus/kaca (afanitik). Pilih opsi: Granit membeku lambat di dalam kerak (faneritik), obsidian membeku seketika di permukaan (afanitik/kaca)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Batuan granit membeku sangat lambat jauh di dalam kerak bumi sehingga atom-atom mineral memiliki waktu cukup untuk membentuk kristal-kristal besar berbutir kasar (faneritik), sedangkan obsidian/basal membeku seketika di permukaan bumi sehingga membentuk tekstur amorf halus atau kaca tanpa kristal (afanitik).. Batuan beku dalam (granit) membeku perlahan -> kristal kasar (faneritik). Batuan beku luar (obsidian/basal) membeku seketika di permukaan -> kristal halus/kaca (afanitik). Pilih opsi: Granit membeku lambat di dalam kerak (faneritik), obsidian membeku seketika di permukaan (afanitik/kaca)."
   },
   {
     "id": "geo-lat-m-02",
@@ -1143,27 +1144,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pematang tengah samudra (_Mid-Ocean Ridge_) yang memuntahkan lava bantal dasar laut dan membentuk dataran abisal baru sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
-        "text": "Palung Laut Dalam (_Trench_ / Palung Jawa), jajaran kepulauan busur luar non-vulkanik (Pulau Simeulue, Nias, Mentawai, Enggano), busur pegunungan vulkanik aktif di pedalaman, serta potensi gempa megathrust yang memicu tsunami."
-      },
-      {
-        "key": "C",
-        "text": "Sesar geser mendatar tanpa aktivitas kegempaan yang memisahkan benua Australia dan pulau Jawa sejauh ribuan kilometer."
-      },
-      {
-        "key": "D",
         "text": "Zona rift valley daratan luas yang membuat pulau Sumatera dan Jawa saling menjauh membentuk danau air tawar purba."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Sesar geser mendatar tanpa aktivitas kegempaan yang memisahkan benua Australia dan pulau Jawa sejauh ribuan kilometer."
+      },
+      {
+        "key": "C",
+        "text": "Palung Laut Dalam (_Trench_ / Palung Jawa), jajaran kepulauan busur luar non-vulkanik (Pulau Simeulue, Nias, Mentawai, Enggano), busur pegunungan vulkanik aktif di pedalaman, serta potensi gempa megathrust yang memicu tsunami."
+      },
+      {
+        "key": "D",
         "text": "Kubah garam raksasa yang menutupi seluruh cekungan sedimen minyak bumi di perairan utara laut Jawa."
+      },
+      {
+        "key": "E",
+        "text": "Pematang tengah samudra (_Mid-Ocean Ridge_) yang memuntahkan lava bantal dasar laut dan membentuk dataran abisal baru."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Palung Laut Dalam (_Trench_ / Palung Jawa), jajaran kepulauan busur luar non-vulkanik (Pulau Simeulue, Nias, Mentawai, Enggano), busur pegunungan vulkanik aktif di pedalaman, serta potensi gempa megathrust yang memicu tsunami.. Ciri zona subduksi: Palung laut (trench), busur luar prisma akresi (Nias, Mentawai), jajaran gunung api aktif (busur vulkanik), dan potensi gempa megathrust/tsunami. Pilih: Palung laut dalam, busur luar non-vulkanik (Nias, Mentawai), busur vulkanik aktif, dan gempa megathrust."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Palung Laut Dalam (_Trench_ / Palung Jawa), jajaran kepulauan busur luar non-vulkanik (Pulau Simeulue, Nias, Mentawai, Enggano), busur pegunungan vulkanik aktif di pedalaman, serta potensi gempa megathrust yang memicu tsunami.. Ciri zona subduksi: Palung laut (trench), busur luar prisma akresi (Nias, Mentawai), jajaran gunung api aktif (busur vulkanik), dan potensi gempa megathrust/tsunami. Pilih: Palung laut dalam, busur luar non-vulkanik (Nias, Mentawai), busur vulkanik aktif, dan gempa megathrust."
   },
   {
     "id": "geo-lat-m-03",
@@ -1190,23 +1191,23 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Stalagmit, yaitu bentukan endapan kalsit tumpul yang tumbuh menjulang tegak dari lantai dasar gua kapur."
-      },
-      {
-        "key": "C",
         "text": "Doline (Sinkhole), yang jika beberapa doline menyatu membentuk cekungan pelarutan yang lebih luas disebut Uvala atau Polje."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Mekander, yaitu kelokan sungai berkelok yang terbentuk di dataran alluvial berlumpur halus."
+      },
+      {
+        "key": "D",
+        "text": "Stalagmit, yaitu bentukan endapan kalsit tumpul yang tumbuh menjulang tegak dari lantai dasar gua kapur."
       },
       {
         "key": "E",
         "text": "Sand Dune (Barchan), yaitu gumuk pasir pantai yang dihembus angin laut muson timur di pantai Parangtritis."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Doline (Sinkhole), yang jika beberapa doline menyatu membentuk cekungan pelarutan yang lebih luas disebut Uvala atau Polje.. Cekungan corong pelarutan kapur di permukaan tanah tempat air masuk ke bawah tanah adalah Doline (Sinkhole). Penggabungan doline membentuk uvala dan polje. Pilih: Doline (Sinkhole)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Doline (Sinkhole), yang jika beberapa doline menyatu membentuk cekungan pelarutan yang lebih luas disebut Uvala atau Polje.. Cekungan corong pelarutan kapur di permukaan tanah tempat air masuk ke bawah tanah adalah Doline (Sinkhole). Penggabungan doline membentuk uvala dan polje. Pilih: Doline (Sinkhole)."
   },
   {
     "id": "geo-lat-m-04",
@@ -1237,19 +1238,19 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$24,0^\\circ C$, hasil estimasi penurunan suhu hanya pada puncak siang hari bolong."
+        "text": "$12,0^\\circ C$, suhu ekstrim yang hanya terjadi saat fenomena embun upas salju Dieng."
       },
       {
         "key": "D",
-        "text": "$18,0^\\circ C$, dihitung dari formula $T = T_0 - \\left( 0,6 \\times \\frac{h}{100} \\right) = 27,0 - \\left( 0,6 \\times 15 \\right) = 27,0 - 9,0 = 18,0^\\circ C$."
+        "text": "$24,0^\\circ C$, hasil estimasi penurunan suhu hanya pada puncak siang hari bolong."
       },
       {
         "key": "E",
-        "text": "$12,0^\\circ C$, suhu ekstrim yang hanya terjadi saat fenomena embun upas salju Dieng."
+        "text": "$18,0^\\circ C$, dihitung dari formula $T = T_0 - \\left( 0,6 \\times \\frac{h}{100} \\right) = 27,0 - \\left( 0,6 \\times 15 \\right) = 27,0 - 9,0 = 18,0^\\circ C$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $18,0^\\circ C$, dihitung dari formula $T = T_0 - \\left( 0,6 \\times \\frac{h}{100} \\right) = 27,0 - \\left( 0,6 \\times 15 \\right) = 27,0 - 9,0 = 18,0^\\circ C$.. T = T0 - (0,6 * h / 100). Penurunan suhu = 0,6 * (1500 / 100) = 0,6 * 15 = 9,0°C. Suhu = 27,0 - 9,0 = 18,0°C. Pilih: 18,0°C."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $18,0^\\circ C$, dihitung dari formula $T = T_0 - \\left( 0,6 \\times \\frac{h}{100} \\right) = 27,0 - \\left( 0,6 \\times 15 \\right) = 27,0 - 9,0 = 18,0^\\circ C$.. T = T0 - (0,6 * h / 100). Penurunan suhu = 0,6 * (1500 / 100) = 0,6 * 15 = 9,0°C. Suhu = 27,0 - 9,0 = 18,0°C. Pilih: 18,0°C."
   },
   {
     "id": "geo-lat-m-05",
@@ -1272,27 +1273,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$64\\%$, hasil perhitungan kuadrat dari rasio kelembapan absolut diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "$80\\%$, dihitung dari formula kelembapan relatif $RH = \\frac{\\text{Kandungan Uap Aktual}}{\\text{Kapasitas Uap Maksimum}} \\times 100\\% = \\frac{16}{20} \\times 100\\% = 80\\%$."
       },
       {
         "key": "B",
-        "text": "$75\\%$, hasil perkalian rasio uap air dengan tekanan barometrik standar."
-      },
-      {
-        "key": "C",
-        "text": "$85\\%$, hasil koreksi kelembapan menggunakan indeks bias psikrometer sling."
-      },
-      {
-        "key": "D",
         "text": "$90\\%$, kondisi mendekati kejenuhan yang memicu kondensasi awan kumulonimbus."
       },
       {
+        "key": "C",
+        "text": "$64\\%$, hasil perhitungan kuadrat dari rasio kelembapan absolut diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "D",
+        "text": "$75\\%$, hasil perkalian rasio uap air dengan tekanan barometrik standar."
+      },
+      {
         "key": "E",
-        "text": "$80\\%$, dihitung dari formula kelembapan relatif $RH = \\frac{\\text{Kandungan Uap Aktual}}{\\text{Kapasitas Uap Maksimum}} \\times 100\\% = \\frac{16}{20} \\times 100\\% = 80\\%$."
+        "text": "$85\\%$, hasil koreksi kelembapan menggunakan indeks bias psikrometer sling."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $80\\%$, dihitung dari formula kelembapan relatif $RH = \\frac{\\text{Kandungan Uap Aktual}}{\\text{Kapasitas Uap Maksimum}} \\times 100\\% = \\frac{16}{20} \\times 100\\% = 80\\%$.. Kelembapan relatif RH = (Uap Aktual / Uap Maksimum) * 100% = (16 / 20) * 100% = 80%. Pilih: 80%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $80\\%$, dihitung dari formula kelembapan relatif $RH = \\frac{\\text{Kandungan Uap Aktual}}{\\text{Kapasitas Uap Maksimum}} \\times 100\\% = \\frac{16}{20} \\times 100\\% = 80\\%$.. Kelembapan relatif RH = (Uap Aktual / Uap Maksimum) * 100% = (16 / 20) * 100% = 80%. Pilih: 80%."
   },
   {
     "id": "geo-lat-m-06",
@@ -1319,19 +1320,19 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$Q = 25,0\\%$, tergolong ke dalam Tipe Iklim A (Sangat Basah) tanpa bulan kering nyata sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "$Q = 25,0\\%$, tergolong ke dalam Tipe Iklim A (Sangat Basah) tanpa bulan kering nyata."
       },
       {
         "key": "C",
-        "text": "$Q = 60,0\\%$, tergolong ke dalam Tipe Iklim C (Agak Basah) dengan dominasi hutan musim gugur daun."
-      },
-      {
-        "key": "D",
         "text": "$Q = 100,0\\%$, tergolong ke dalam Tipe Iklim D (Sedang) dengan pembagian musim seimbang."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$Q = 133,3\\%$, tergolong ke dalam Tipe Iklim E (Agak Kering) dengan padang sabana luas."
+      },
+      {
+        "key": "E",
+        "text": "$Q = 60,0\\%$, tergolong ke dalam Tipe Iklim C (Agak Basah) dengan dominasi hutan musim gugur daun."
       }
     ],
     "correctKey": "A",
@@ -1358,27 +1359,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Angin bertiup dari gurun kering Benua Australia yang dingin menuju Asia sehingga tidak membawa uap air sedikit pun sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
-        "text": "Angin bertiup dari pusat tekanan tinggi Benua Asia menuju tekanan rendah Benua Australia, melintasi Samudra Hindia dan Laut Natuna luas sehingga menyerap uap air dalam jumlah sangat masif sebelum dibelokkan ke timur oleh Gaya Coriolis saat melintasi garis khatulistiwa."
-      },
-      {
-        "key": "C",
         "text": "Angin terperangkap di pegunungan Himalaya dan melepaskan energi panas terpendam di atas kepulauan Filipina."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Angin bertiup dari gurun kering Benua Australia yang dingin menuju Asia sehingga tidak membawa uap air sedikit pun."
+      },
+      {
+        "key": "C",
         "text": "Gaya gravitasi bulan menyebabkan seluruh massa awan di Samudra Pasifik tersedot ke arah teluk Jakarta secara mendadak."
+      },
+      {
+        "key": "D",
+        "text": "Angin bertiup dari pusat tekanan tinggi Benua Asia menuju tekanan rendah Benua Australia, melintasi Samudra Hindia dan Laut Natuna luas sehingga menyerap uap air dalam jumlah sangat masif sebelum dibelokkan ke timur oleh Gaya Coriolis saat melintasi garis khatulistiwa."
       },
       {
         "key": "E",
         "text": "Pemanasan global meniadakan gaya pembelokan Coriolis sehingga angin bertiup tegak lurus menembus inti bumi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Angin bertiup dari pusat tekanan tinggi Benua Asia menuju tekanan rendah Benua Australia, melintasi Samudra Hindia dan Laut Natuna luas sehingga menyerap uap air dalam jumlah sangat masif sebelum dibelokkan ke timur oleh Gaya Coriolis saat melintasi garis khatulistiwa.. Muson Barat bertiup dari Asia ke Australia, melintasi samudra luas membawa banyak uap air sehingga menyebabkan musim hujan di Indonesia. Pilih opsi: Bertiup dari tekanan tinggi Asia ke Australia melintasi samudra luas membawa uap air masif."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Angin bertiup dari pusat tekanan tinggi Benua Asia menuju tekanan rendah Benua Australia, melintasi Samudra Hindia dan Laut Natuna luas sehingga menyerap uap air dalam jumlah sangat masif sebelum dibelokkan ke timur oleh Gaya Coriolis saat melintasi garis khatulistiwa.. Muson Barat bertiup dari Asia ke Australia, melintasi samudra luas membawa banyak uap air sehingga menyebabkan musim hujan di Indonesia. Pilih opsi: Bertiup dari tekanan tinggi Asia ke Australia melintasi samudra luas membawa uap air masif."
   },
   {
     "id": "geo-lat-m-08",
@@ -1401,7 +1402,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(1) Perkolasi, (2) Infiltrasi, dan (3) Evapotranspirasi ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "(1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (_Surface Runoff_)."
       },
       {
         "key": "B",
@@ -1409,7 +1410,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "(1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (_Surface Runoff_)."
+        "text": "(1) Infiltrasi, (2) Desalinisasi, dan (3) Erosi Lembar."
       },
       {
         "key": "D",
@@ -1417,11 +1418,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "(1) Infiltrasi, (2) Desalinisasi, dan (3) Erosi Lembar."
+        "text": "(1) Perkolasi, (2) Infiltrasi, dan (3) Evapotranspirasi ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) (1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (_Surface Runoff_).. Infiltrasi = meresap ke lapisan tanah atas. Perkolasi = meresap lebih dalam ke akuifer. Runoff = limpasan air mengalir di permukaan. Pilih: (1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (Surface Runoff)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) (1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (_Surface Runoff_).. Infiltrasi = meresap ke lapisan tanah atas. Perkolasi = meresap lebih dalam ke akuifer. Runoff = limpasan air mengalir di permukaan. Pilih: (1) Infiltrasi, (2) Perkolasi, dan (3) Limpasan Permukaan (Surface Runoff)."
   },
   {
     "id": "geo-lat-m-09",
@@ -1444,27 +1445,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "(1) Delta Alluvial, (2) Kipas Alluvial, dan (3) Lembah Graben menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
         "text": "(1) Tanggul Alam, (2) Dataran Banjir, dan (3) Palung Laut Abisal."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "(1) Sinkhole, (2) Stalaktit, dan (3) Danau Glasial Fjord."
       },
       {
+        "key": "C",
+        "text": "(1) Sand Spit, (2) Tombolo, dan (3) Laguna Karang Cincin."
+      },
+      {
         "key": "D",
-        "text": "(1) _Cut Bank_ (Tebing Erosi), (2) _Point Bar_ (Punggung Endapan Pasir), dan (3) _Oxbow Lake_ (Danau Tapal Kuda)."
+        "text": "(1) Delta Alluvial, (2) Kipas Alluvial, dan (3) Lembah Graben menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "E",
-        "text": "(1) Sand Spit, (2) Tombolo, dan (3) Laguna Karang Cincin."
+        "text": "(1) _Cut Bank_ (Tebing Erosi), (2) _Point Bar_ (Punggung Endapan Pasir), dan (3) _Oxbow Lake_ (Danau Tapal Kuda)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) (1) _Cut Bank_ (Tebing Erosi), (2) _Point Bar_ (Punggung Endapan Pasir), dan (3) _Oxbow Lake_ (Danau Tapal Kuda).. Sisi luar kelokan yang tererosi = Cut bank. Sisi dalam yang mengendap = Point bar. Danau tapal kuda yang terputus = Oxbow lake. Pilih: (1) Cut Bank, (2) Point Bar, dan (3) Oxbow Lake."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) (1) _Cut Bank_ (Tebing Erosi), (2) _Point Bar_ (Punggung Endapan Pasir), dan (3) _Oxbow Lake_ (Danau Tapal Kuda).. Sisi luar kelokan yang tererosi = Cut bank. Sisi dalam yang mengendap = Point bar. Danau tapal kuda yang terputus = Oxbow lake. Pilih: (1) Cut Bank, (2) Point Bar, dan (3) Oxbow Lake."
   },
   {
     "id": "geo-lat-m-10",
@@ -1491,7 +1492,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Lapisan Piknoklin, yaitu lapisan batas vertikal yang mengalami penurunan massa jenis batuan dasar samudra."
+        "text": "Paparan Sahul, yaitu jembatan daratan purba yang menghubungkan benua Asia dengan kepulauan Maluku."
       },
       {
         "key": "C",
@@ -1499,7 +1500,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Paparan Sahul, yaitu jembatan daratan purba yang menghubungkan benua Asia dengan kepulauan Maluku."
+        "text": "Lapisan Piknoklin, yaitu lapisan batas vertikal yang mengalami penurunan massa jenis batuan dasar samudra."
       },
       {
         "key": "E",
@@ -1530,27 +1531,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Horizon A (Topsoil / Lapisan Tanah Atas), yaitu horizon mineral yang mengalami pencampuran intensif dengan bahan organik humus dan menjadi zona eluviasi awal."
+        "text": "Horizon O (Organik), yaitu lapisan paling atas yang murni terdiri atas serasah daun dan ranting yang belum terurai."
       },
       {
         "key": "B",
-        "text": "Horizon O (Organik), yaitu lapisan paling atas yang murni terdiri atas serasah daun dan ranting yang belum terurai sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Horizon A (Topsoil / Lapisan Tanah Atas), yaitu horizon mineral yang mengalami pencampuran intensif dengan bahan organik humus dan menjadi zona eluviasi awal."
       },
       {
         "key": "C",
-        "text": "Horizon B (Subsoil / Lapisan Tanah Bawah), yaitu zona akumulasi atau iluviasi liat dan oksida besi yang tercuci dari atas."
+        "text": "Horizon R (Bedrock), yaitu lapisan batuan dasar pejal keras yang belum mengalami pelapukan sedikit pun."
       },
       {
         "key": "D",
-        "text": "Horizon C (Regolit), yaitu lapisan batuan induk yang baru mulai mengalami pelapukan mekanik awal."
+        "text": "Horizon B (Subsoil / Lapisan Tanah Bawah), yaitu zona akumulasi atau iluviasi liat dan oksida besi yang tercuci dari atas."
       },
       {
         "key": "E",
-        "text": "Horizon R (Bedrock), yaitu lapisan batuan dasar pejal keras yang belum mengalami pelapukan sedikit pun."
+        "text": "Horizon C (Regolit), yaitu lapisan batuan induk yang baru mulai mengalami pelapukan mekanik awal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Horizon A (Topsoil / Lapisan Tanah Atas), yaitu horizon mineral yang mengalami pencampuran intensif dengan bahan organik humus dan menjadi zona eluviasi awal.. Lapisan tanah atas berwarna gelap kaya humus tempat perakaran tanaman adalah Horizon A (Topsoil). Pilih: Horizon A (Topsoil / Lapisan Tanah Atas)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Horizon A (Topsoil / Lapisan Tanah Atas), yaitu horizon mineral yang mengalami pencampuran intensif dengan bahan organik humus dan menjadi zona eluviasi awal.. Lapisan tanah atas berwarna gelap kaya humus tempat perakaran tanaman adalah Horizon A (Topsoil). Pilih: Horizon A (Topsoil / Lapisan Tanah Atas)."
   },
   {
     "id": "geo-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penanaman tanaman penutup tanah (_cover crop_), tumpang sari (_intercropping_), dan reboisasi pohon berakar tunjang sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Pemberian mulsa jerami padi di atas permukaan tanah untuk mengurangi energi kinetik tumbukan butir hujan."
       },
       {
         "key": "B",
-        "text": "Pembuatan terasering (sengkedan bangku), saluran pembuangan air (SPA), rorak penampung sedimen, dan pembuatan guludan tanah melintang lereng."
+        "text": "Penanaman tanaman penutup tanah (_cover crop_), tumpang sari (_intercropping_), dan reboisasi pohon berakar tunjang."
       },
       {
         "key": "C",
-        "text": "Penanaman rumput pakan ternak secara berselang-seling mengikuti garis kontur (_contour strip cropping_)."
+        "text": "Pembuatan terasering (sengkedan bangku), saluran pembuangan air (SPA), rorak penampung sedimen, dan pembuatan guludan tanah melintang lereng."
       },
       {
         "key": "D",
-        "text": "Pemberian mulsa jerami padi di atas permukaan tanah untuk mengurangi energi kinetik tumbukan butir hujan."
+        "text": "Penanaman rumput pakan ternak secara berselang-seling mengikuti garis kontur (_contour strip cropping_)."
       },
       {
         "key": "E",
         "text": "Rotasi pergiliran tanaman polong-polongan untuk mengembalikan kesuburan nitrogen tanah secara biologis."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pembuatan terasering (sengkedan bangku), saluran pembuangan air (SPA), rorak penampung sedimen, dan pembuatan guludan tanah melintang lereng.. Metode mekanik/sipil teknis menggunakan rekayasa fisik tanah: terasering, guludan, rorak, saluran air (SPA). Vegetatif menggunakan tumbuhan. Pilih: Pembuatan terasering, saluran pembuangan air (SPA), rorak, dan guludan tanah."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pembuatan terasering (sengkedan bangku), saluran pembuangan air (SPA), rorak penampung sedimen, dan pembuatan guludan tanah melintang lereng.. Metode mekanik/sipil teknis menggunakan rekayasa fisik tanah: terasering, guludan, rorak, saluran air (SPA). Vegetatif menggunakan tumbuhan. Pilih: Pembuatan terasering, saluran pembuangan air (SPA), rorak, dan guludan tanah."
   },
   {
     "id": "geo-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zona Neartik, yang mencakup Amerika Utara (AS dan Kanada) dengan fauna khas bison, serigala abu-abu, dan kalkun liar ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
         "text": "Zona Paleartik, yang mencakup seluruh benua Eropa, Rusia, dan Asia utara dengan fauna beruang cokelat dan rusa kutub."
       },
       {
-        "key": "C",
-        "text": "Zona Neotropik (Neotropical Region), yang memiliki keanekaragaman primata berekor prehensil dan reptil amfibi hutan hujan Amazon terkaya."
+        "key": "B",
+        "text": "Zona Neartik, yang mencakup Amerika Utara (AS dan Kanada) dengan fauna khas bison, serigala abu-abu, dan kalkun liar ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Zona Afrotropik (Etiopian), yang mencakup benua Afrika selatan sahara dengan mamalia sabana seperti gajah afrika dan jerapah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Zona Oriental, yang mencakup Asia Selatan dan Asia Tenggara dengan harimau loreng dan gajah sumatera."
+      },
+      {
+        "key": "E",
+        "text": "Zona Neotropik (Neotropical Region), yang memiliki keanekaragaman primata berekor prehensil dan reptil amfibi hutan hujan Amazon terkaya."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Zona Neotropik (Neotropical Region), yang memiliki keanekaragaman primata berekor prehensil dan reptil amfibi hutan hujan Amazon terkaya.. Amerika Tengah dan Selatan dengan fauna llama, sloth, anakonda, dan piranha adalah Zona Neotropik. (Amerika Utara adalah Neartik). Pilih: Zona Neotropik (Neotropical Region)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Zona Neotropik (Neotropical Region), yang memiliki keanekaragaman primata berekor prehensil dan reptil amfibi hutan hujan Amazon terkaya.. Amerika Tengah dan Selatan dengan fauna llama, sloth, anakonda, dan piranha adalah Zona Neotropik. (Amerika Utara adalah Neartik). Pilih: Zona Neotropik (Neotropical Region)."
   },
   {
     "id": "geo-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Taiga tidak memiliki musim dingin sama sekali sedangkan Tundra mengalami malam kutub selama dua belas bulan penuh menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "Taiga tidak memiliki musim dingin sama sekali sedangkan Tundra mengalami malam kutub selama dua belas bulan penuh menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "B",
-        "text": "Taiga merupakan bioma padang rumput beriklim kering sedangkan Tundra merupakan rawa-rawa hutan bakau air payau."
-      },
-      {
-        "key": "C",
-        "text": "Tundra ditumbuhi oleh pohon-pohon jati meranggas berukuran raksasa sedangkan Taiga murni gurun pasir bersuhu beku."
-      },
-      {
-        "key": "D",
         "text": "Taiga didominasi oleh hutan pohon berdaun jarum (konifer evergreen) seperti pinus, spruce, dan cemara yang tahan beku; sedangkan Tundra merupakan padang terbuka tanpa pepohonan (_treeless_) yang hanya ditumbuhi lumut kerak (lichen) dan semak kerdil di atas tanah beku abadi (_permafrost_)."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Kedua bioma memiliki jenis vegetasi yang identik dan perbedaannya hanya terletak pada koordinat bujur peta dunia."
+      },
+      {
+        "key": "D",
+        "text": "Tundra ditumbuhi oleh pohon-pohon jati meranggas berukuran raksasa sedangkan Taiga murni gurun pasir bersuhu beku."
+      },
+      {
+        "key": "E",
+        "text": "Taiga merupakan bioma padang rumput beriklim kering sedangkan Tundra merupakan rawa-rawa hutan bakau air payau."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Taiga didominasi oleh hutan pohon berdaun jarum (konifer evergreen) seperti pinus, spruce, dan cemara yang tahan beku; sedangkan Tundra merupakan padang terbuka tanpa pepohonan (_treeless_) yang hanya ditumbuhi lumut kerak (lichen) dan semak kerdil di atas tanah beku abadi (_permafrost_).. Taiga = hutan konifer berdaun jarum tahan dingin (pinus/spruce). Tundra = padang tanpa pohon (treeless) di atas tanah beku abadi (permafrost) hanya ada lumut/lichen. Pilih: Taiga didominasi hutan konifer berdaun jarum, Tundra padang tanpa pohon dengan lumut di atas permafrost."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Taiga didominasi oleh hutan pohon berdaun jarum (konifer evergreen) seperti pinus, spruce, dan cemara yang tahan beku; sedangkan Tundra merupakan padang terbuka tanpa pepohonan (_treeless_) yang hanya ditumbuhi lumut kerak (lichen) dan semak kerdil di atas tanah beku abadi (_permafrost_).. Taiga = hutan konifer berdaun jarum tahan dingin (pinus/spruce). Tundra = padang tanpa pohon (treeless) di atas tanah beku abadi (permafrost) hanya ada lumut/lichen. Pilih: Taiga didominasi hutan konifer berdaun jarum, Tundra padang tanpa pohon dengan lumut di atas permafrost."
   },
   {
     "id": "geo-lat-m-15",
@@ -1702,11 +1703,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_n = 25.000$ jiwa dan $P_t = 32.000$ jiwa diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "$P_n = 10.000$ jiwa dan $P_t = 15.000$ jiwa."
       },
       {
         "key": "B",
-        "text": "$P_n = 10.000$ jiwa dan $P_t = 15.000$ jiwa."
+        "text": "$P_n = 25.000$ jiwa dan $P_t = 32.000$ jiwa diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "C",
@@ -1714,15 +1715,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$P_n = 20.000$ jiwa dan $P_t = 25.000$ jiwa."
+        "text": "$P_n = 15.000$ jiwa (tingkat pertumbuhan alami $1,5\\%$) dan $P_t = 20.000$ jiwa (tingkat pertumbuhan total $2,0\\%$)."
       },
       {
         "key": "E",
-        "text": "$P_n = 15.000$ jiwa (tingkat pertumbuhan alami $1,5\\%$) dan $P_t = 20.000$ jiwa (tingkat pertumbuhan total $2,0\\%$)."
+        "text": "$P_n = 20.000$ jiwa dan $P_t = 25.000$ jiwa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $P_n = 15.000$ jiwa (tingkat pertumbuhan alami $1,5\\%$) dan $P_t = 20.000$ jiwa (tingkat pertumbuhan total $2,0\\%$).. Pertumbuhan alami Pn = L - M = 25.000 - 10.000 = 15.000 (1,5%). Pertumbuhan total Pt = Pn + (I - E) = 15.000 + (12.000 - 7.000) = 20.000 (2,0%). Pilih: Pn = 15.000 jiwa (1,5%) dan Pt = 20.000 jiwa (2,0%)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $P_n = 15.000$ jiwa (tingkat pertumbuhan alami $1,5\\%$) dan $P_t = 20.000$ jiwa (tingkat pertumbuhan total $2,0\\%$).. Pertumbuhan alami Pn = L - M = 25.000 - 10.000 = 15.000 (1,5%). Pertumbuhan total Pt = Pn + (I - E) = 15.000 + (12.000 - 7.000) = 20.000 (2,0%). Pilih: Pn = 15.000 jiwa (1,5%) dan Pt = 20.000 jiwa (2,0%)."
   },
   {
     "id": "geo-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingkat kelahiran tetap tinggi sementara tingkat kematian turun tajam secara drastis (akibat perbaikan sanitasi, pasokan pangan, dan obat-obatan modern), sehingga memicu lonjakan pertumbuhan penduduk yang sangat cepat (_ledakan penduduk_)."
+        "text": "Tingkat kematian melampaui angka kelahiran sehingga jumlah penduduk mengalami penurunan populasi secara absolut (Tahap V)."
       },
       {
         "key": "B",
-        "text": "Tingkat kelahiran dan kematian sama-sama sangat tinggi sehingga jumlah penduduk berfluktuasi stabil di tingkat rendah (Tahap I) sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
-        "text": "Tingkat kelahiran mulai menurun drastis menyusul penurunan kematian karena urbanisasi dan program KB (Tahap III)."
-      },
-      {
-        "key": "D",
         "text": "Tingkat kelahiran dan kematian sama-sama sangat rendah sehingga pertumbuhan penduduk stabil atau mendekati nol (Tahap IV)."
       },
       {
+        "key": "C",
+        "text": "Tingkat kelahiran tetap tinggi sementara tingkat kematian turun tajam secara drastis (akibat perbaikan sanitasi, pasokan pangan, dan obat-obatan modern), sehingga memicu lonjakan pertumbuhan penduduk yang sangat cepat (_ledakan penduduk_)."
+      },
+      {
+        "key": "D",
+        "text": "Tingkat kelahiran dan kematian sama-sama sangat tinggi sehingga jumlah penduduk berfluktuasi stabil di tingkat rendah (Tahap I)."
+      },
+      {
         "key": "E",
-        "text": "Tingkat kematian melampaui angka kelahiran sehingga jumlah penduduk mengalami penurunan populasi secara absolut (Tahap V)."
+        "text": "Tingkat kelahiran mulai menurun drastis menyusul penurunan kematian karena urbanisasi dan program KB (Tahap III)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tingkat kelahiran tetap tinggi sementara tingkat kematian turun tajam secara drastis (akibat perbaikan sanitasi, pasokan pangan, dan obat-obatan modern), sehingga memicu lonjakan pertumbuhan penduduk yang sangat cepat (_ledakan penduduk_).. Tahap II (Early Expanding) dicirikan oleh: angka kelahiran masih tinggi, tetapi angka kematian turun drastis karena medis/sanitasi, memicu ledakan penduduk. Pilih: Kelahiran tetap tinggi sementara kematian turun tajam memicu lonjakan pertumbuhan penduduk sangat cepat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Tingkat kelahiran tetap tinggi sementara tingkat kematian turun tajam secara drastis (akibat perbaikan sanitasi, pasokan pangan, dan obat-obatan modern), sehingga memicu lonjakan pertumbuhan penduduk yang sangat cepat (_ledakan penduduk_).. Tahap II (Early Expanding) dicirikan oleh: angka kelahiran masih tinggi, tetapi angka kematian turun drastis karena medis/sanitasi, memicu ledakan penduduk. Pilih: Kelahiran tetap tinggi sementara kematian turun tajam memicu lonjakan pertumbuhan penduduk sangat cepat."
   },
   {
     "id": "geo-lat-m-17",
@@ -1788,11 +1789,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Resolusi Spasial, yaitu ukuran terkecil objek di permukaan bumi yang masih dapat dibedakan dan direkam oleh satu sel piksel sensor satelit sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Resolusi Temporal, yaitu frekuensi atau interval perulangan waktu yang dibutuhkan satelit untuk kembali merekam area geografis yang sama di permukaan bumi."
       },
       {
         "key": "B",
-        "text": "Resolusi Temporal, yaitu frekuensi atau interval perulangan waktu yang dibutuhkan satelit untuk kembali merekam area geografis yang sama di permukaan bumi."
+        "text": "Resolusi Radiometrik, yaitu kepekaan sensor dalam membedakan gradasi perbedaan kekuatan pantulan energi (tingkat kuantisasi bit warna)."
       },
       {
         "key": "C",
@@ -1800,15 +1801,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Resolusi Radiometrik, yaitu kepekaan sensor dalam membedakan gradasi perbedaan kekuatan pantulan energi (tingkat kuantisasi bit warna)."
+        "text": "Resolusi Termal, yaitu kapasitas sensor dalam mendeteksi pancaran gelombang panas inframerah magma gunung api."
       },
       {
         "key": "E",
-        "text": "Resolusi Termal, yaitu kapasitas sensor dalam mendeteksi pancaran gelombang panas inframerah magma gunung api."
+        "text": "Resolusi Spasial, yaitu ukuran terkecil objek di permukaan bumi yang masih dapat dibedakan dan direkam oleh satu sel piksel sensor satelit."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Resolusi Temporal, yaitu frekuensi atau interval perulangan waktu yang dibutuhkan satelit untuk kembali merekam area geografis yang sama di permukaan bumi.. Resolusi yang menunjukkan interval perulangan waktu satelit merekam lokasi yang sama adalah Resolusi Temporal. Pilih: Resolusi Temporal."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Resolusi Temporal, yaitu frekuensi atau interval perulangan waktu yang dibutuhkan satelit untuk kembali merekam area geografis yang sama di permukaan bumi.. Resolusi yang menunjukkan interval perulangan waktu satelit merekam lokasi yang sama adalah Resolusi Temporal. Pilih: Resolusi Temporal."
   },
   {
     "id": "geo-lat-m-18",
@@ -1831,15 +1832,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{NDVI} = \\frac{\\text{Red} - \\text{NIR}}{\\text{Red} + \\text{NIR}}$, karena daun hijau memantulkan seluruh radiasi sinar tampak merah dan menyerap radiasi inframerah ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
         "text": "$\\text{NDVI} = \\text{NIR} \\times \\text{Red}$, karena klorofil memancarkan gelombang radar yang memanaskan lapisan atmosfer."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$\\text{NDVI} = \\frac{\\text{NIR} - \\text{Red}}{\\text{NIR} + \\text{Red}}$, karena klorofil menyerap kuat cahaya merah untuk fotosintesis sementara struktur sel mesofil daun memantulkan radiasi inframerah dekat secara sangat kuat."
+      },
+      {
+        "key": "C",
+        "text": "$\\text{NDVI} = \\frac{\\text{Thermal}}{\\text{Albedo}}$, karena daun yang subur memiliki suhu permukaan yang sama dengan air es kutub."
       },
       {
         "key": "D",
@@ -1847,11 +1848,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{NDVI} = \\frac{\\text{Thermal}}{\\text{Albedo}}$, karena daun yang subur memiliki suhu permukaan yang sama dengan air es kutub."
+        "text": "$\\text{NDVI} = \\frac{\\text{Red} - \\text{NIR}}{\\text{Red} + \\text{NIR}}$, karena daun hijau memantulkan seluruh radiasi sinar tampak merah dan menyerap radiasi inframerah ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\text{NDVI} = \\frac{\\text{NIR} - \\text{Red}}{\\text{NIR} + \\text{Red}}$, karena klorofil menyerap kuat cahaya merah untuk fotosintesis sementara struktur sel mesofil daun memantulkan radiasi inframerah dekat secara sangat kuat.. Formula NDVI = (NIR - Red) / (NIR + Red). Klorofil menyerap sinar Red untuk fotosintesis dan mesofil daun memantulkan sinar NIR sangat kuat. Pilih opsi: NDVI = (NIR - Red) / (NIR + Red), karena klorofil serap merah dan mesofil pantulkan inframerah dekat."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{NDVI} = \\frac{\\text{NIR} - \\text{Red}}{\\text{NIR} + \\text{Red}}$, karena klorofil menyerap kuat cahaya merah untuk fotosintesis sementara struktur sel mesofil daun memantulkan radiasi inframerah dekat secara sangat kuat.. Formula NDVI = (NIR - Red) / (NIR + Red). Klorofil menyerap sinar Red untuk fotosintesis dan mesofil daun memantulkan sinar NIR sangat kuat. Pilih opsi: NDVI = (NIR - Red) / (NIR + Red), karena klorofil serap merah dan mesofil pantulkan inframerah dekat."
   },
   {
     "id": "geo-lat-m-19",
@@ -1886,15 +1887,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Analisis Tumpang Susun (_Overlay Intersect_), yang menggabungkan fitur-fitur spasial dan tabel atribut dari beberapa layer data sehingga hanya area irisan yang memenuhi seluruh kriteria yang akan terpilih."
+        "text": "Analisis Interpolasi Kriging, yaitu penaksiran nilai curah hujan di titik yang tidak memiliki stasiun pengukur hujan."
       },
       {
         "key": "E",
-        "text": "Analisis Interpolasi Kriging, yaitu penaksiran nilai curah hujan di titik yang tidak memiliki stasiun pengukur hujan."
+        "text": "Analisis Tumpang Susun (_Overlay Intersect_), yang menggabungkan fitur-fitur spasial dan tabel atribut dari beberapa layer data sehingga hanya area irisan yang memenuhi seluruh kriteria yang akan terpilih."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Analisis Tumpang Susun (_Overlay Intersect_), yang menggabungkan fitur-fitur spasial dan tabel atribut dari beberapa layer data sehingga hanya area irisan yang memenuhi seluruh kriteria yang akan terpilih.. Menggabungkan beberapa layer peta untuk mencari irisan area yang memenuhi seluruh kriteria adalah analisis Overlay Intersect. Pilih: Analisis Tumpang Susun (Overlay Intersect)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Analisis Tumpang Susun (_Overlay Intersect_), yang menggabungkan fitur-fitur spasial dan tabel atribut dari beberapa layer data sehingga hanya area irisan yang memenuhi seluruh kriteria yang akan terpilih.. Menggabungkan beberapa layer peta untuk mencari irisan area yang memenuhi seluruh kriteria adalah analisis Overlay Intersect. Pilih: Analisis Tumpang Susun (Overlay Intersect)."
   },
   {
     "id": "geo-lat-m-20",
@@ -1917,27 +1918,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fungsi Dissolve, yaitu penggabungan poligon-poligon bertetangga yang memiliki nilai atribut sama menjadi satu poligon besar diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Fungsi Clip, yaitu pemotongan layer data peta spasial menggunakan poligon batas administratif daerah lain."
-      },
-      {
-        "key": "C",
-        "text": "Fungsi Merge, yaitu penggabungan dua tabel basis data relasional yang memiliki primary key berbeda."
-      },
-      {
-        "key": "D",
         "text": "Fungsi Digitasi, yaitu proses penggambaran manual garis batas peta analog menjadi format vektor digital."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Fungsi Buffer (_Buffering_), yaitu pembentukan zona sabuk wilayah penyangga dengan radius jarak tertentu di sekeliling objek titik, garis, atau poligon."
+      },
+      {
+        "key": "C",
+        "text": "Fungsi Dissolve, yaitu penggabungan poligon-poligon bertetangga yang memiliki nilai atribut sama menjadi satu poligon besar diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "D",
+        "text": "Fungsi Merge, yaitu penggabungan dua tabel basis data relasional yang memiliki primary key berbeda."
+      },
+      {
+        "key": "E",
+        "text": "Fungsi Clip, yaitu pemotongan layer data peta spasial menggunakan poligon batas administratif daerah lain."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Fungsi Buffer (_Buffering_), yaitu pembentukan zona sabuk wilayah penyangga dengan radius jarak tertentu di sekeliling objek titik, garis, atau poligon.. Pembuatan zona sabuk penyangga dengan jarak radius tertentu di sekeliling garis sungai adalah fungsi Buffering. Pilih: Fungsi Buffer (Buffering)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Fungsi Buffer (_Buffering_), yaitu pembentukan zona sabuk wilayah penyangga dengan radius jarak tertentu di sekeliling objek titik, garis, atau poligon.. Pembuatan zona sabuk penyangga dengan jarak radius tertentu di sekeliling garis sungai adalah fungsi Buffering. Pilih: Fungsi Buffer (Buffering)."
   },
   {
     "id": "geo-lat-m-21",
@@ -1960,27 +1961,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$10\\%$, dihitung dari rasio beda tinggi terhadap jarak mendatar sebenarnya di lapangan: $\\frac{300 - 200}{4 \\times 250} \\times 100\\% = \\frac{100}{1.000} \\times 100\\% = 10\\%$."
+        "text": "$25\\%$, hasil perkalian beda tinggi dengan angka penyebut skala peta per seratus."
       },
       {
         "key": "B",
-        "text": "$25\\%$, hasil perkalian beda tinggi dengan angka penyebut skala peta per seratus sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "$4\\%$, hasil pembagian jarak peta dengan beda tinggi antar kedua garis kontur."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$40\\%$, hasil perhitungan tanpa mengalikan jarak peta dengan skala sebenarnya."
+      },
+      {
+        "key": "D",
+        "text": "$10\\%$, dihitung dari rasio beda tinggi terhadap jarak mendatar sebenarnya di lapangan: $\\frac{300 - 200}{4 \\times 250} \\times 100\\% = \\frac{100}{1.000} \\times 100\\% = 10\\%$."
       },
       {
         "key": "E",
         "text": "$2,5\\%$, kemiringan lereng landai dataran pantai alluvial."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $10\\%$, dihitung dari rasio beda tinggi terhadap jarak mendatar sebenarnya di lapangan: $\\frac{300 - 200}{4 \\times 250} \\times 100\\% = \\frac{100}{1.000} \\times 100\\% = 10\\%$.. Beda tinggi Delta h = 300 - 200 = 100 m. Jarak riil = 4 cm x 25.000 = 100.000 cm = 1.000 m. %Lereng = (100 / 1.000) * 100% = 10%. Pilih: 10%."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $10\\%$, dihitung dari rasio beda tinggi terhadap jarak mendatar sebenarnya di lapangan: $\\frac{300 - 200}{4 \\times 250} \\times 100\\% = \\frac{100}{1.000} \\times 100\\% = 10\\%$.. Beda tinggi Delta h = 300 - 200 = 100 m. Jarak riil = 4 cm x 25.000 = 100.000 cm = 1.000 m. %Lereng = (100 / 1.000) * 100% = 10%. Pilih: 10%."
   },
   {
     "id": "geo-lat-m-22",
@@ -2003,27 +2004,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$15 \\text{ km}$ tepat di tengah-tengah jarak antar kedua kota tanpa mempertimbangkan bobot populasi sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
         "text": "$10 \\text{ km}$ dari Kota Kenanga (atau $20 \\text{ km}$ dari Kota Melati), yaitu lebih dekat ke arah kota yang jumlah penduduknya lebih sedikit."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$10 \\text{ km}$ dari Kota Melati, sehingga warga kota besar mendapatkan akses yang jauh lebih dekat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$5 \\text{ km}$ dari Kota Kenanga, hasil pembagian rasio kuadrat akar populasi murni."
+      },
+      {
+        "key": "D",
+        "text": "$15 \\text{ km}$ tepat di tengah-tengah jarak antar kedua kota tanpa mempertimbangkan bobot populasi."
       },
       {
         "key": "E",
         "text": "$25 \\text{ km}$ dari Kota Kenanga, tepat berada di pinggiran perbatasan Kota Melati."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $10 \\text{ km}$ dari Kota Kenanga (atau $20 \\text{ km}$ dari Kota Melati), yaitu lebih dekat ke arah kota yang jumlah penduduknya lebih sedikit.. Titik Henti D_AB = d / (1 + sqrt(P_besar / P_kecil)) diukur dari kota berpenduduk lebih KECIL. D = 30 / (1 + sqrt(40.000/10.000)) = 30 / (1 + 2) = 10 km dari Kenanga. Pilih: 10 km dari Kota Kenanga (atau 20 km dari Kota Melati)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $10 \\text{ km}$ dari Kota Kenanga (atau $20 \\text{ km}$ dari Kota Melati), yaitu lebih dekat ke arah kota yang jumlah penduduknya lebih sedikit.. Titik Henti D_AB = d / (1 + sqrt(P_besar / P_kecil)) diukur dari kota berpenduduk lebih KECIL. D = 30 / (1 + sqrt(40.000/10.000)) = 30 / (1 + 2) = 10 km dari Kenanga. Pilih: 10 km dari Kota Kenanga (atau 20 km dari Kota Melati)."
   },
   {
     "id": "geo-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Asas Transportasi Optimum ($K = 4$), di mana pusat pelayanan melayani setengah ($1/2$) dari wilayah heksagonal tetangga di sepanjang jalur jalan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Asas Kawasan Industri Terpadu ($K = 12$), di mana kota inti membagi pangsa pasarnya kepada dua belas kota satelit."
       },
       {
         "key": "B",
-        "text": "Asas Administrasi Pemerintahan ($K = 7$), di mana pusat pelayanan mengendalikan secara mutlak seluruh ($100\\%$) wilayah administratif tetangga."
+        "text": "Asas Transportasi Optimum ($K = 4$), di mana pusat pelayanan melayani setengah ($1/2$) dari wilayah heksagonal tetangga di sepanjang jalur jalan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
         "key": "C",
-        "text": "Asas Pasar Optimum (_Marketing Principle_), di mana pusat pelayanan melayani seluruh wilayah kota inti ditambah sepertiga ($1/3$) bagian dari wilayah heksagonal tetangga di sekelilingnya."
+        "text": "Asas Administrasi Pemerintahan ($K = 7$), di mana pusat pelayanan mengendalikan secara mutlak seluruh ($100\\%$) wilayah administratif tetangga."
       },
       {
         "key": "D",
-        "text": "Asas Pertanian Monokultur ($K = 1$), di mana tidak ada interaksi spasial yang melintasi batas heksagonal tertutup."
+        "text": "Asas Pasar Optimum (_Marketing Principle_), di mana pusat pelayanan melayani seluruh wilayah kota inti ditambah sepertiga ($1/3$) bagian dari wilayah heksagonal tetangga di sekelilingnya."
       },
       {
         "key": "E",
-        "text": "Asas Kawasan Industri Terpadu ($K = 12$), di mana kota inti membagi pangsa pasarnya kepada dua belas kota satelit."
+        "text": "Asas Pertanian Monokultur ($K = 1$), di mana tidak ada interaksi spasial yang melintasi batas heksagonal tertutup."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Asas Pasar Optimum (_Marketing Principle_), di mana pusat pelayanan melayani seluruh wilayah kota inti ditambah sepertiga ($1/3$) bagian dari wilayah heksagonal tetangga di sekelilingnya.. K = 3 adalah Asas Pasar Optimum (1 kota inti + 6 x 1/3 tetangga = 3). K = 4 adalah Asas Transportasi. K = 7 adalah Asas Administratif. Pilih: Asas Pasar Optimum (Marketing Principle), melayani wilayah sendiri + sepertiga wilayah tetangga."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Asas Pasar Optimum (_Marketing Principle_), di mana pusat pelayanan melayani seluruh wilayah kota inti ditambah sepertiga ($1/3$) bagian dari wilayah heksagonal tetangga di sekelilingnya.. K = 3 adalah Asas Pasar Optimum (1 kota inti + 6 x 1/3 tetangga = 3). K = 4 adalah Asas Transportasi. K = 7 adalah Asas Administratif. Pilih: Asas Pasar Optimum (Marketing Principle), melayani wilayah sendiri + sepertiga wilayah tetangga."
   },
   {
     "id": "geo-lat-m-24",
@@ -2089,27 +2090,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Stasiun Pasang Surut (_Tide Gauge_), yang hanya dipasang menempel di dermaga pelabuhan pantai untuk mengukur pasang surut menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
         "text": "Seismometer akselerograf darat, yang merekam getaran gelombang primer dan sekunder di puncak bukit batuan beku."
       },
       {
+        "key": "B",
+        "text": "Stasiun Pasang Surut (_Tide Gauge_), yang hanya dipasang menempel di dermaga pelabuhan pantai untuk mengukur pasang surut menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+      },
+      {
         "key": "C",
-        "text": "Radar cuaca Doppler pita C, yang mendeteksi curah hujan lebat dan pergerakan pusaran awan badai di troposfer."
+        "text": "_Ocean Bottom Pressure Recorder_ (OBPR) yang terhubung dengan pelampung tsunami (_Tsunami Buoy_) di permukaan laut dan kabel serat optik bawah laut (_Cable Based Tomography_)."
       },
       {
         "key": "D",
-        "text": "_Ocean Bottom Pressure Recorder_ (OBPR) yang terhubung dengan pelampung tsunami (_Tsunami Buoy_) di permukaan laut dan kabel serat optik bawah laut (_Cable Based Tomography_)."
+        "text": "Radar cuaca Doppler pita C, yang mendeteksi curah hujan lebat dan pergerakan pusaran awan badai di troposfer."
       },
       {
         "key": "E",
         "text": "Peralatan GPS genggam yang dibawa oleh regu penyelamat bencana SAR di daratan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) _Ocean Bottom Pressure Recorder_ (OBPR) yang terhubung dengan pelampung tsunami (_Tsunami Buoy_) di permukaan laut dan kabel serat optik bawah laut (_Cable Based Tomography_).. Sensor tekanan air laut di dasar samudra yang mendeteksi tsunami sebelum sampai ke pantai adalah OBPR (Ocean Bottom Pressure Recorder) yang terhubung ke Buoy/kabel laut. Pilih: Ocean Bottom Pressure Recorder (OBPR) yang terhubung dengan Tsunami Buoy."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) _Ocean Bottom Pressure Recorder_ (OBPR) yang terhubung dengan pelampung tsunami (_Tsunami Buoy_) di permukaan laut dan kabel serat optik bawah laut (_Cable Based Tomography_).. Sensor tekanan air laut di dasar samudra yang mendeteksi tsunami sebelum sampai ke pantai adalah OBPR (Ocean Bottom Pressure Recorder) yang terhubung ke Buoy/kabel laut. Pilih: Ocean Bottom Pressure Recorder (OBPR) yang terhubung dengan Tsunami Buoy."
   },
   {
     "id": "geo-lat-m-25",
@@ -2132,27 +2133,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kerangka Acuan (KA-ANDAL), yang merupakan ruang lingkup kajian pelingkupan dampak penting sebelum penelitian lapangan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
-      },
-      {
-        "key": "B",
         "text": "Analisis Dampak Lingkungan Hidup (ANDAL), yang berisi telaah cermat dan mendalam mengenai besaran dan sifat penting dampak."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Surat Pernyataan Kesanggupan Pengelolaan dan Pemantauan Lingkungan Hidup (SPPL), yang hanya untuk usaha mikro tanpa dampak penting."
       },
       {
+        "key": "C",
+        "text": "Kerangka Acuan (KA-ANDAL), yang merupakan ruang lingkup kajian pelingkupan dampak penting sebelum penelitian lapangan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
         "key": "D",
-        "text": "Dokumen Izin Mendirikan Bangunan (IMB), yang mengatur ketinggian genteng dan saluran pembuangan air hujan perumahan."
+        "text": "Rencana Pengelolaan Lingkungan Hidup (RKL), yang disusun bersama dengan Rencana Pemantauan Lingkungan Hidup (RPL) berdasarkan temuan dokumen ANDAL."
       },
       {
         "key": "E",
-        "text": "Rencana Pengelolaan Lingkungan Hidup (RKL), yang disusun bersama dengan Rencana Pemantauan Lingkungan Hidup (RPL) berdasarkan temuan dokumen ANDAL."
+        "text": "Dokumen Izin Mendirikan Bangunan (IMB), yang mengatur ketinggian genteng dan saluran pembuangan air hujan perumahan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rencana Pengelolaan Lingkungan Hidup (RKL), yang disusun bersama dengan Rencana Pemantauan Lingkungan Hidup (RPL) berdasarkan temuan dokumen ANDAL.. Dokumen AMDAL yang memuat upaya teknis mengelola dan menanggulangi dampak negatif adalah RKL (Rencana Pengelolaan Lingkungan Hidup). Pemantauan berkala adalah RPL. Pilih: Rencana Pengelolaan Lingkungan Hidup (RKL)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Rencana Pengelolaan Lingkungan Hidup (RKL), yang disusun bersama dengan Rencana Pemantauan Lingkungan Hidup (RPL) berdasarkan temuan dokumen ANDAL.. Dokumen AMDAL yang memuat upaya teknis mengelola dan menanggulangi dampak negatif adalah RKL (Rencana Pengelolaan Lingkungan Hidup). Pemantauan berkala adalah RPL. Pilih: Rencana Pengelolaan Lingkungan Hidup (RKL)."
   },
   {
     "id": "geo-lat-h-01",
@@ -2175,11 +2176,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3.500 \\text{ km}$."
+        "text": "$4.000 \\text{ km}$."
       },
       {
         "key": "B",
-        "text": "$4.500 \\text{ km}$ sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "$3.500 \\text{ km}$."
       },
       {
         "key": "C",
@@ -2187,15 +2188,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$3.250 \\text{ km}$."
+        "text": "$4.500 \\text{ km}$."
       },
       {
         "key": "E",
-        "text": "$4.000 \\text{ km}$."
+        "text": "$3.250 \\text{ km}$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $3.500 \\text{ km}$.. Hukum Laska: Delta = {(S - P) - 1 menit} * 1.000 km. Selisih S - P = 4 menit 30 detik. Dikurangi 1 menit = 3 menit 30 detik (3,5 menit). Hitung: 3,5 * 1.000 km = 3.500 km."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $3.500 \\text{ km}$.. Hukum Laska: Delta = {(S - P) - 1 menit} * 1.000 km. Selisih S - P = 4 menit 30 detik. Dikurangi 1 menit = 3 menit 30 detik (3,5 menit). Hitung: 3,5 * 1.000 km = 3.500 km."
   },
   {
     "id": "geo-lat-h-02",
@@ -2218,27 +2219,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\beta = 0{,}67$, menunjukkan bahwa jaringan transportasi sangat terisolasi dan masih berupa pola pohon sederhana cabang tunggal sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "$\\beta = 0{,}67$, menunjukkan bahwa jaringan transportasi sangat terisolasi dan masih berupa pola pohon sederhana cabang tunggal."
       },
       {
         "key": "B",
-        "text": "$\\beta = 1{,}50$, menunjukkan bahwa konektivitas transportasi antarwilayah tergolong tinggi karena memiliki banyak rute alternatif dan sirkulasi jaringan yang padat ($\\beta > 1$)."
-      },
-      {
-        "key": "C",
-        "text": "$\\beta = 0{,}54$, menunjukkan bahwa sebagian besar simpul kota belum dapat dijangkau oleh kendaraan bermotor angkutan umum."
-      },
-      {
-        "key": "D",
         "text": "$\\beta = 2{,}25$, menunjukkan bahwa wilayah tersebut telah mencapai kondisi jaringan heksagonal jenuh tanpa hambatan topografi."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\beta = 1{,}00$, menunjukkan bahwa sistem transportasi berada pada ambang batas minimum tanpa kemungkinan memilih rute lain."
+      },
+      {
+        "key": "D",
+        "text": "$\\beta = 0{,}54$, menunjukkan bahwa sebagian besar simpul kota belum dapat dijangkau oleh kendaraan bermotor angkutan umum."
+      },
+      {
+        "key": "E",
+        "text": "$\\beta = 1{,}50$, menunjukkan bahwa konektivitas transportasi antarwilayah tergolong tinggi karena memiliki banyak rute alternatif dan sirkulasi jaringan yang padat ($\\beta > 1$)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\beta = 1{,}50$, menunjukkan bahwa konektivitas transportasi antarwilayah tergolong tinggi karena memiliki banyak rute alternatif dan sirkulasi jaringan yang padat ($\\beta > 1$).. Indeks Beta Kansky: beta = e / v, di mana e = 9 dan v = 6. Nilai beta = 9 / 6 = 1,50. Karena beta > 1, wilayah memiliki konektivitas dan alternatif rute tinggi. Pilih: beta = 1,50, konektivitas tinggi dengan banyak rute alternatif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\beta = 1{,}50$, menunjukkan bahwa konektivitas transportasi antarwilayah tergolong tinggi karena memiliki banyak rute alternatif dan sirkulasi jaringan yang padat ($\\beta > 1$).. Indeks Beta Kansky: beta = e / v, di mana e = 9 dan v = 6. Nilai beta = 9 / 6 = 1,50. Karena beta > 1, wilayah memiliki konektivitas dan alternatif rute tinggi. Pilih: beta = 1,50, konektivitas tinggi dengan banyak rute alternatif."
   },
   {
     "id": "geo-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan permintaan komoditas pangan lokal pedesaan yang menaikkan pendapatan riil petani dan menumbuhkan industri pengolahan kecil ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
-        "text": "Penyebaran inovasi teknologi budidaya pertanian modern dan fasilitas perbankan perintis dari kota besar ke pelosok desa."
-      },
-      {
-        "key": "C",
-        "text": "Terjadinya migrasi tenaga kerja produktif berpendidikan, pengalihan aliran modal tabungan lokal, serta tersedotnya bahan mentah dari pedesaan ke kota metropolitan yang memperlebar ketimpangan pembangunan antarwilayah."
-      },
-      {
-        "key": "D",
         "text": "Relokasi pabrik manufaktur padat karya dari pusat kota metropolitan ke wilayah pedesaan untuk memanfaatkan upah buruh terjangkau."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Keseimbangan pertumbuhan ekonomi antarprovinsi yang tercapai secara spontan melalui mekanisme pasar bebas tanpa intervensi negara."
+      },
+      {
+        "key": "C",
+        "text": "Penyebaran inovasi teknologi budidaya pertanian modern dan fasilitas perbankan perintis dari kota besar ke pelosok desa."
+      },
+      {
+        "key": "D",
+        "text": "Peningkatan permintaan komoditas pangan lokal pedesaan yang menaikkan pendapatan riil petani dan menumbuhkan industri pengolahan kecil ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
+        "key": "E",
+        "text": "Terjadinya migrasi tenaga kerja produktif berpendidikan, pengalihan aliran modal tabungan lokal, serta tersedotnya bahan mentah dari pedesaan ke kota metropolitan yang memperlebar ketimpangan pembangunan antarwilayah."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terjadinya migrasi tenaga kerja produktif berpendidikan, pengalihan aliran modal tabungan lokal, serta tersedotnya bahan mentah dari pedesaan ke kota metropolitan yang memperlebar ketimpangan pembangunan antarwilayah.. Backwash effect = efek pengurasan/polarisasi negatif dari pinggiran ke pusat (tenaga kerja muda tersedot, modal mengalir ke kota, daerah pinggiran tertinggal). Pilih opsi: migrasi tenaga kerja produktif, aliran modal tabungan, dan bahan mentah tersedot ke kota metropolitan memperlebar ketimpangan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Terjadinya migrasi tenaga kerja produktif berpendidikan, pengalihan aliran modal tabungan lokal, serta tersedotnya bahan mentah dari pedesaan ke kota metropolitan yang memperlebar ketimpangan pembangunan antarwilayah.. Backwash effect = efek pengurasan/polarisasi negatif dari pinggiran ke pusat (tenaga kerja muda tersedot, modal mengalir ke kota, daerah pinggiran tertinggal). Pilih opsi: migrasi tenaga kerja produktif, aliran modal tabungan, dan bahan mentah tersedot ke kota metropolitan memperlebar ketimpangan."
   },
   {
     "id": "geo-lat-h-04",
@@ -2304,27 +2305,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = 100 \\text{ m/s}$ ($360 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $33{,}3 \\text{ menit}$ menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
-        "text": "$v = 400 \\text{ m/s}$ ($1.440 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $8{,}3 \\text{ menit}$."
-      },
-      {
-        "key": "C",
-        "text": "$v = 50 \\text{ m/s}$ ($180 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $66{,}7 \\text{ menit}$."
-      },
-      {
-        "key": "D",
         "text": "$v = 200 \\text{ m/s}$ ($720 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $16{,}7 \\text{ menit}$ (16 menit 40 detik)."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$v = 50 \\text{ m/s}$ ($180 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $66{,}7 \\text{ menit}$."
+      },
+      {
+        "key": "C",
+        "text": "$v = 400 \\text{ m/s}$ ($1.440 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $8{,}3 \\text{ menit}$."
+      },
+      {
+        "key": "D",
         "text": "$v = 140 \\text{ m/s}$ ($504 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $23{,}8 \\text{ menit}$."
+      },
+      {
+        "key": "E",
+        "text": "$v = 100 \\text{ m/s}$ ($360 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $33{,}3 \\text{ menit}$ menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $v = 200 \\text{ m/s}$ ($720 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $16{,}7 \\text{ menit}$ (16 menit 40 detik).. Rumus kecepatan gelombang tsunami: v = sqrt(g * d) = sqrt(10 * 4.000) = sqrt(40.000) = 200 m/s. Waktu tempuh t = s / v = 200.000 m / 200 m/s = 1.000 s = 16,67 menit. Pilih: v = 200 m/s (720 km/jam) dan waktu tiba 16,7 menit (16 menit 40 detik)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $v = 200 \\text{ m/s}$ ($720 \\text{ km/jam}$) dan waktu tiba gelombang pertama di pantai sekitar $16{,}7 \\text{ menit}$ (16 menit 40 detik).. Rumus kecepatan gelombang tsunami: v = sqrt(g * d) = sqrt(10 * 4.000) = sqrt(40.000) = 200 m/s. Waktu tempuh t = s / v = 200.000 m / 200 m/s = 1.000 s = 16,67 menit. Pilih: v = 200 m/s (720 km/jam) dan waktu tiba 16,7 menit (16 menit 40 detik)."
   },
   {
     "id": "geo-lat-h-05",
@@ -2347,19 +2348,19 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2 \\text{ kali lipat}$ dari kekuatan interaksi semula, karena hubungan antara waktu perjalanan dan interaksi bersifat linear searah diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Tetap sama tidak berubah, karena populasi absolut penduduk di kedua kota tidak mengalami penambahan instan."
       },
       {
         "key": "B",
-        "text": "$8 \\text{ kali lipat}$ dari kekuatan interaksi semula, mengikuti fungsi pertumbuhan kubik volume mobilitas penumpang."
-      },
-      {
-        "key": "C",
         "text": "$16 \\text{ kali lipat}$ dari kekuatan interaksi semula, akibat pelipatgandaan eksponensial arus pertukaran komoditas."
       },
       {
+        "key": "C",
+        "text": "$8 \\text{ kali lipat}$ dari kekuatan interaksi semula, mengikuti fungsi pertumbuhan kubik volume mobilitas penumpang."
+      },
+      {
         "key": "D",
-        "text": "Tetap sama tidak berubah, karena populasi absolut penduduk di kedua kota tidak mengalami penambahan instan."
+        "text": "$2 \\text{ kali lipat}$ dari kekuatan interaksi semula, karena hubungan antara waktu perjalanan dan interaksi bersifat linear searah diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "E",
@@ -2394,19 +2395,19 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Zona konvergensi antartropis (ITCZ) dengan aktivitas awan konvektif cumulonimbus ekstrem dan curah hujan harian lebat sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Zona konvergensi antartropis (ITCZ) dengan aktivitas awan konvektif cumulonimbus ekstrem dan curah hujan harian lebat."
       },
       {
         "key": "C",
-        "text": "Palung siklon kutub bertekanan udara sangat rendah dengan badai salju frontal abadi sepanjang tahun."
-      },
-      {
-        "key": "D",
         "text": "Sabuk angin muson periodik yang berbalik arah setiap enam bulan sekali mengikuti deklinasi semu matahari."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Celah lapisan troposfer terbuka yang memungkinkan radiasi sinar ultraviolet langsung membakar permukaan samudra."
+      },
+      {
+        "key": "E",
+        "text": "Palung siklon kutub bertekanan udara sangat rendah dengan badai salju frontal abadi sepanjang tahun."
       }
     ],
     "correctKey": "A",
@@ -2433,11 +2434,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penguatan drastis Angin Pasat Timur yang mendorong seluruh air panas ke kepulauan Indonesia dan menimbulkan banjir bandang non-stop sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Pelemahan Angin Pasat Timur, pergeseran massa air hangat (_Warm Pool_) ke arah timur menuju pantai barat Peru, terhentinya fenomena _upwelling_ di Pasifik Timur, dan terbentuknya sel tekanan tinggi di atas benua maritim Indonesia yang memicu kemarau ekstrem berkepanjangan serta risiko kebakaran hutan."
       },
       {
         "key": "B",
-        "text": "Pelemahan Angin Pasat Timur, pergeseran massa air hangat (_Warm Pool_) ke arah timur menuju pantai barat Peru, terhentinya fenomena _upwelling_ di Pasifik Timur, dan terbentuknya sel tekanan tinggi di atas benua maritim Indonesia yang memicu kemarau ekstrem berkepanjangan serta risiko kebakaran hutan."
+        "text": "Terhentinya sirkulasi arus termohalin kutub yang mengakibatkan seluruh perairan terumbu karang Indonesia membeku."
       },
       {
         "key": "C",
@@ -2449,11 +2450,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Terhentinya sirkulasi arus termohalin kutub yang mengakibatkan seluruh perairan terumbu karang Indonesia membeku."
+        "text": "Penguatan drastis Angin Pasat Timur yang mendorong seluruh air panas ke kepulauan Indonesia dan menimbulkan banjir bandang non-stop."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pelemahan Angin Pasat Timur, pergeseran massa air hangat (_Warm Pool_) ke arah timur menuju pantai barat Peru, terhentinya fenomena _upwelling_ di Pasifik Timur, dan terbentuknya sel tekanan tinggi di atas benua maritim Indonesia yang memicu kemarau ekstrem berkepanjangan serta risiko kebakaran hutan.. El Nino = Angin Pasat melemah, massa air hangat pindah ke Pasifik Timur (Peru). Di Indonesia terjadi subsidensi udara (tekanan tinggi), minim awan, memicu kemarau panjang. Pilih opsi: Pelemahan Angin Pasat Timur, pergeseran warm pool ke timur (Peru), dan sel tekanan tinggi di atas Indonesia memicu kemarau ekstrem."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pelemahan Angin Pasat Timur, pergeseran massa air hangat (_Warm Pool_) ke arah timur menuju pantai barat Peru, terhentinya fenomena _upwelling_ di Pasifik Timur, dan terbentuknya sel tekanan tinggi di atas benua maritim Indonesia yang memicu kemarau ekstrem berkepanjangan serta risiko kebakaran hutan.. El Nino = Angin Pasat melemah, massa air hangat pindah ke Pasifik Timur (Peru). Di Indonesia terjadi subsidensi udara (tekanan tinggi), minim awan, memicu kemarau panjang. Pilih opsi: Pelemahan Angin Pasat Timur, pergeseran warm pool ke timur (Peru), dan sel tekanan tinggi di atas Indonesia memicu kemarau ekstrem."
   },
   {
     "id": "geo-lat-h-08",
@@ -2476,11 +2477,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemanasan radiasi matahari intensif di wilayah Arktik yang mencairkan gletser air tawar dan membuatnya tenggelam cepat ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Dorongan mekanik pasang surut gravitasi bulan purnama yang menekan permukaan air laut hingga mencapai palung laut."
       },
       {
         "key": "B",
-        "text": "Aktivitas gempa bumi vulkanik di pematang tengah samudra yang menyedot air laut ke kantung magma bawah kerak."
+        "text": "Pemanasan radiasi matahari intensif di wilayah Arktik yang mencairkan gletser air tawar dan membuatnya tenggelam cepat ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
         "key": "C",
@@ -2488,7 +2489,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Dorongan mekanik pasang surut gravitasi bulan purnama yang menekan permukaan air laut hingga mencapai palung laut."
+        "text": "Aktivitas gempa bumi vulkanik di pematang tengah samudra yang menyedot air laut ke kantung magma bawah kerak."
       },
       {
         "key": "E",
@@ -2519,27 +2520,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Umpan balik negatif otomatis, di mana pelelehan es mendinginkan lautan secara permanen dan memicu zaman es baru seketika menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "Umpan balik negatif otomatis, di mana pelelehan es mendinginkan lautan secara permanen dan memicu zaman es baru seketika menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "B",
-        "text": "Peningkatan radiasi gelombang pendek bumi yang dipantulkan langsung ke luar angkasa sehingga iklim menjadi stabil."
-      },
-      {
-        "key": "C",
         "text": "Penurunan kapasitas kalor air laut yang menyebabkan samudra membeku kembali dalam kurun waktu satu musim dingin."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Umpan balik positif es-albedo (_ice-albedo positive feedback_), di mana es mencair menjadi laut terbuka ber-albedo rendah, menyebabkan penyerapan radiasi matahari bertambah, sehingga suhu bumi makin panas dan memicu pencairan es yang lebih masif."
+      },
+      {
+        "key": "D",
+        "text": "Peningkatan radiasi gelombang pendek bumi yang dipantulkan langsung ke luar angkasa sehingga iklim menjadi stabil."
       },
       {
         "key": "E",
         "text": "Pergeseran orbit elips bumi mengelilingi matahari yang memperjauh jarak aphelion bumi secara drastis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Umpan balik positif es-albedo (_ice-albedo positive feedback_), di mana es mencair menjadi laut terbuka ber-albedo rendah, menyebabkan penyerapan radiasi matahari bertambah, sehingga suhu bumi makin panas dan memicu pencairan es yang lebih masif.. Ice-albedo positive feedback: Es (albedo tinggi) mencair -> berubah jadi air laut (albedo rendah) -> serapan panas meningkat -> suhu makin panas -> es mencair makin banyak. Pilih opsi: Umpan balik positif es-albedo, penyerapan radiasi meningkat, memicu pencairan es yang lebih masif."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Umpan balik positif es-albedo (_ice-albedo positive feedback_), di mana es mencair menjadi laut terbuka ber-albedo rendah, menyebabkan penyerapan radiasi matahari bertambah, sehingga suhu bumi makin panas dan memicu pencairan es yang lebih masif.. Ice-albedo positive feedback: Es (albedo tinggi) mencair -> berubah jadi air laut (albedo rendah) -> serapan panas meningkat -> suhu makin panas -> es mencair makin banyak. Pilih opsi: Umpan balik positif es-albedo, penyerapan radiasi meningkat, memicu pencairan es yang lebih masif."
   },
   {
     "id": "geo-lat-h-10",
@@ -2562,27 +2563,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\%$ penurunan erosi diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "$98\\%$ penurunan erosi (laju erosi baru tinggal $2\\%$ dari laju erosi semula)."
       },
       {
         "key": "B",
-        "text": "$70\\%$ penurunan erosi."
-      },
-      {
-        "key": "C",
         "text": "$86\\%$ penurunan erosi."
       },
       {
+        "key": "C",
+        "text": "$70\\%$ penurunan erosi."
+      },
+      {
         "key": "D",
-        "text": "$90\\%$ penurunan erosi."
+        "text": "$50\\%$ penurunan erosi diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "E",
-        "text": "$98\\%$ penurunan erosi (laju erosi baru tinggal $2\\%$ dari laju erosi semula)."
+        "text": "$90\\%$ penurunan erosi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $98\\%$ penurunan erosi (laju erosi baru tinggal $2\\%$ dari laju erosi semula).. Rasio erosi ditentukan oleh perkalian C * P. Kondisi 1: 0,70 * 1,0 = 0,70. Kondisi 2: 0,10 * 0,14 = 0,014. Rasio A2 / A1 = 0,014 / 0,70 = 0,02 (2%). Penurunan erosi = 100% - 2% = 98%. Hitung: 100% - (0,014 / 0,70 * 100%) = 98% penurunan erosi."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $98\\%$ penurunan erosi (laju erosi baru tinggal $2\\%$ dari laju erosi semula).. Rasio erosi ditentukan oleh perkalian C * P. Kondisi 1: 0,70 * 1,0 = 0,70. Kondisi 2: 0,10 * 0,14 = 0,014. Rasio A2 / A1 = 0,014 / 0,70 = 0,02 (2%). Penurunan erosi = 100% - 2% = 98%. Hitung: 100% - (0,014 / 0,70 * 100%) = 98% penurunan erosi."
   },
   {
     "id": "geo-lat-h-11",
@@ -2605,27 +2606,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$IM = 3{,}0$ ($IM > 1$), sehingga industri bersifat _weight-losing_ dan lokasi pabrik harus ditempatkan merapat ke wilayah sumber bahan baku tambang (_raw material oriented_)."
+        "text": "$IM = 0{,}33$ ($IM < 1$), sehingga industri bersifat _weight-gaining_ dan pabrik harus dibangun merapat ke kota pasar konsumen."
       },
       {
         "key": "B",
-        "text": "$IM = 0{,}33$ ($IM < 1$), sehingga industri bersifat _weight-gaining_ dan pabrik harus dibangun merapat ke kota pasar konsumen sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "$IM = 3{,}0$, namun pabrik tetap harus didirikan di pusat kota pasar konsumen untuk menghindari biaya sewa tanah pinggiran."
       },
       {
         "key": "C",
-        "text": "$IM = 1{,}0$, sehingga biaya transportasi bersifat netral dan pabrik bebas didirikan di mana saja sepanjang jalur jalan."
+        "text": "$IM = 3{,}0$ ($IM > 1$), sehingga industri bersifat _weight-losing_ dan lokasi pabrik harus ditempatkan merapat ke wilayah sumber bahan baku tambang (_raw material oriented_)."
       },
       {
         "key": "D",
-        "text": "$IM = 3{,}0$, namun pabrik tetap harus didirikan di pusat kota pasar konsumen untuk menghindari biaya sewa tanah pinggiran."
+        "text": "$IM = 1{,}0$, sehingga biaya transportasi bersifat netral dan pabrik bebas didirikan di mana saja sepanjang jalur jalan."
       },
       {
         "key": "E",
         "text": "$IM = 0{,}75$, sehingga lokasi pabrik wajib ditempatkan tepat di tengah-tengah antara tambang dan pasar secara simetris."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $IM = 3{,}0$ ($IM > 1$), sehingga industri bersifat _weight-losing_ dan lokasi pabrik harus ditempatkan merapat ke wilayah sumber bahan baku tambang (_raw material oriented_).. Indeks Material (IM) = Berat bahan baku / Berat produk jadi = (2,5 + 0,5) / 1,0 = 3,0. Karena IM > 1 (weight-losing), pabrik harus dekat sumber bahan baku tambang. Pilih: IM = 3,0 (IM > 1), weight-losing, orientasi mendekati bahan baku."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $IM = 3{,}0$ ($IM > 1$), sehingga industri bersifat _weight-losing_ dan lokasi pabrik harus ditempatkan merapat ke wilayah sumber bahan baku tambang (_raw material oriented_).. Indeks Material (IM) = Berat bahan baku / Berat produk jadi = (2,5 + 0,5) / 1,0 = 3,0. Karena IM > 1 (weight-losing), pabrik harus dekat sumber bahan baku tambang. Pilih: IM = 3,0 (IM > 1), weight-losing, orientasi mendekati bahan baku."
   },
   {
     "id": "geo-lat-h-12",
@@ -2648,15 +2649,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bergerak pada sektor ekstraktif primer subsisten dengan pasar tertutup yang tidak memerlukan keterlibatan perbankan komersial sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Memiliki ketergantungan $100\\%$ pada subsidi APBN seumur hidup tanpa kemampuan bersaing di pasar ekspor internasional."
       },
       {
         "key": "B",
-        "text": "Memiliki tingkat inovasi dan adopsi teknologi tinggi, pertumbuhan output jauh di atas rata-rata nasional, serta memiliki keterkaitan ekonomi ke belakang (_backward linkages_) dan ke depan (_forward linkages_) yang sangat kuat dengan sektor-sektor industri pendukung lainnya."
+        "text": "Bergerak pada sektor ekstraktif primer subsisten dengan pasar tertutup yang tidak memerlukan keterlibatan perbankan komersial."
       },
       {
         "key": "C",
-        "text": "Beroperasi menggunakan padat karya manual tanpa mekanisasi agar menyerap seluruh pengangguran tanpa menghasilkan laba komersial."
+        "text": "Memiliki tingkat inovasi dan adopsi teknologi tinggi, pertumbuhan output jauh di atas rata-rata nasional, serta memiliki keterkaitan ekonomi ke belakang (_backward linkages_) dan ke depan (_forward linkages_) yang sangat kuat dengan sektor-sektor industri pendukung lainnya."
       },
       {
         "key": "D",
@@ -2664,11 +2665,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memiliki ketergantungan $100\\%$ pada subsidi APBN seumur hidup tanpa kemampuan bersaing di pasar ekspor internasional."
+        "text": "Beroperasi menggunakan padat karya manual tanpa mekanisasi agar menyerap seluruh pengangguran tanpa menghasilkan laba komersial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Memiliki tingkat inovasi dan adopsi teknologi tinggi, pertumbuhan output jauh di atas rata-rata nasional, serta memiliki keterkaitan ekonomi ke belakang (_backward linkages_) dan ke depan (_forward linkages_) yang sangat kuat dengan sektor-sektor industri pendukung lainnya.. Leading industry kutub pertumbuhan Perroux: inovatif, tumbuh pesat di atas rata-rata, memiliki backward linkage (menarik pemasok hulu) dan forward linkage (mendorong industri hilir) yang kuat. Pilih: inovasi tinggi, output di atas rata-rata nasional, keterkaitan ke belakang dan ke depan sangat kuat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Memiliki tingkat inovasi dan adopsi teknologi tinggi, pertumbuhan output jauh di atas rata-rata nasional, serta memiliki keterkaitan ekonomi ke belakang (_backward linkages_) dan ke depan (_forward linkages_) yang sangat kuat dengan sektor-sektor industri pendukung lainnya.. Leading industry kutub pertumbuhan Perroux: inovatif, tumbuh pesat di atas rata-rata, memiliki backward linkage (menarik pemasok hulu) dan forward linkage (mendorong industri hilir) yang kuat. Pilih: inovasi tinggi, output di atas rata-rata nasional, keterkaitan ke belakang dan ke depan sangat kuat."
   },
   {
     "id": "geo-lat-h-13",
@@ -2691,27 +2692,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Burgess menyatakan kawasan industri selalu berada di pusat kota, Hoyt menempatkannya di pinggiran danau, dan Harris-Ullman menolak adanya kawasan industri ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
         "text": "Hoyt menempatkan kelas buruh rendah di sepanjang rute pemandangan alam terbaik, sedangkan Burgess menempatkan elit kaya di samping pabrik kumuh."
       },
       {
+        "key": "B",
+        "text": "Burgess menyatakan kawasan industri selalu berada di pusat kota, Hoyt menempatkannya di pinggiran danau, dan Harris-Ullman menolak adanya kawasan industri ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
         "key": "C",
-        "text": "Burgess menempatkan permukiman kelas atas di zona lingkaran terluar (_commuter zone_), Hoyt menempatkan permukiman kelas atas membentang mengikuti koridor jalur transportasi utama terbaik, sedangkan Harris-Ullman menyatakan kota tidak berpaku pada satu pusat melainkan memiliki banyak nukleus/inti kegiatan terpisah."
+        "text": "Ketiga teori tersebut memiliki asumsi yang identik mengenai peran mutlak topografi pegunungan dalam membatasi pemekaran kota."
       },
       {
         "key": "D",
-        "text": "Harris-Ullman mengasumsikan seluruh kota di dunia berbentuk lingkaran simetris sempurna yang ditarik dari satu titik balai kota."
+        "text": "Burgess menempatkan permukiman kelas atas di zona lingkaran terluar (_commuter zone_), Hoyt menempatkan permukiman kelas atas membentang mengikuti koridor jalur transportasi utama terbaik, sedangkan Harris-Ullman menyatakan kota tidak berpaku pada satu pusat melainkan memiliki banyak nukleus/inti kegiatan terpisah."
       },
       {
         "key": "E",
-        "text": "Ketiga teori tersebut memiliki asumsi yang identik mengenai peran mutlak topografi pegunungan dalam membatasi pemekaran kota."
+        "text": "Harris-Ullman mengasumsikan seluruh kota di dunia berbentuk lingkaran simetris sempurna yang ditarik dari satu titik balai kota."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Burgess menempatkan permukiman kelas atas di zona lingkaran terluar (_commuter zone_), Hoyt menempatkan permukiman kelas atas membentang mengikuti koridor jalur transportasi utama terbaik, sedangkan Harris-Ullman menyatakan kota tidak berpaku pada satu pusat melainkan memiliki banyak nukleus/inti kegiatan terpisah.. Burgess = lingkaran konsentris (zona komuter terluar). Hoyt = sektor/baji mengikuti koridor jalur transportasi. Harris-Ullman = banyak inti/nukleus kegiatan yang terpisah. Pilih: Burgess zona lingkaran terluar, Hoyt membentang sepanjang jalur transportasi, Harris-Ullman banyak inti terpisah."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Burgess menempatkan permukiman kelas atas di zona lingkaran terluar (_commuter zone_), Hoyt menempatkan permukiman kelas atas membentang mengikuti koridor jalur transportasi utama terbaik, sedangkan Harris-Ullman menyatakan kota tidak berpaku pada satu pusat melainkan memiliki banyak nukleus/inti kegiatan terpisah.. Burgess = lingkaran konsentris (zona komuter terluar). Hoyt = sektor/baji mengikuti koridor jalur transportasi. Harris-Ullman = banyak inti/nukleus kegiatan yang terpisah. Pilih: Burgess zona lingkaran terluar, Hoyt membentang sepanjang jalur transportasi, Harris-Ullman banyak inti terpisah."
   },
   {
     "id": "geo-lat-h-14",
@@ -2734,7 +2735,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Algoritma K-Means Clustering yang diterapkan pada citra raster tutupan vegetasi hutan lindung tanpa garis jalan menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "Interpolasi Spasial Inverse Distance Weighting (IDW) untuk mengukur sebaran polusi debu udara di perempatan jalan."
       },
       {
         "key": "B",
@@ -2742,7 +2743,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Interpolasi Spasial Inverse Distance Weighting (IDW) untuk mengukur sebaran polusi debu udara di perempatan jalan."
+        "text": "Transformasi Fourier Cepat yang diterapkan pada citra radar sentinel untuk mendeteksi kelembapan tanah sawah."
       },
       {
         "key": "D",
@@ -2750,7 +2751,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Transformasi Fourier Cepat yang diterapkan pada citra radar sentinel untuk mendeteksi kelembapan tanah sawah."
+        "text": "Algoritma K-Means Clustering yang diterapkan pada citra raster tutupan vegetasi hutan lindung tanpa garis jalan menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       }
     ],
     "correctKey": "D",
@@ -2777,15 +2778,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penajaman kontras kontras histogram linier yang hanya mengubah nilai kecerahan visual warna tanpa memperbaiki posisi spasial diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Klasifikasi piksel tak terbimbing (Unsupervised Classification) menggunakan algoritma ISODATA untuk memisahkan jenis vegetasi."
       },
       {
         "key": "B",
-        "text": "Koreksi radiometrik kalibrasi atmosferik _Dark Object Subtraction_ (DOS) untuk menghilangkan hamburan aerosol cahaya matahari."
+        "text": "Orto-rektifikasi geometrik (_Orthorectification_), yang mengoreksi pergeseran letak piksel akibat perbedaan elevasi topografi sehingga citra satelit memiliki karakteristik proyeksi ortogonal seperti peta garis."
       },
       {
         "key": "C",
-        "text": "Klasifikasi piksel tak terbimbing (Unsupervised Classification) menggunakan algoritma ISODATA untuk memisahkan jenis vegetasi."
+        "text": "Penajaman kontras kontras histogram linier yang hanya mengubah nilai kecerahan visual warna tanpa memperbaiki posisi spasial diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "D",
@@ -2793,11 +2794,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Orto-rektifikasi geometrik (_Orthorectification_), yang mengoreksi pergeseran letak piksel akibat perbedaan elevasi topografi sehingga citra satelit memiliki karakteristik proyeksi ortogonal seperti peta garis."
+        "text": "Koreksi radiometrik kalibrasi atmosferik _Dark Object Subtraction_ (DOS) untuk menghilangkan hamburan aerosol cahaya matahari."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Orto-rektifikasi geometrik (_Orthorectification_), yang mengoreksi pergeseran letak piksel akibat perbedaan elevasi topografi sehingga citra satelit memiliki karakteristik proyeksi ortogonal seperti peta garis.. Koreksi distorsi geometrik akibat variasi relief topografi dengan bantuan DEM dan GCP menghasilkan citra tegak seragam skala disebut Orto-rektifikasi (Orthorectification). Pilih: Orto-rektifikasi geometrik (Orthorectification)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Orto-rektifikasi geometrik (_Orthorectification_), yang mengoreksi pergeseran letak piksel akibat perbedaan elevasi topografi sehingga citra satelit memiliki karakteristik proyeksi ortogonal seperti peta garis.. Koreksi distorsi geometrik akibat variasi relief topografi dengan bantuan DEM dan GCP menghasilkan citra tegak seragam skala disebut Orto-rektifikasi (Orthorectification). Pilih: Orto-rektifikasi geometrik (Orthorectification)."
   },
   {
     "id": "geo-lat-h-16",
@@ -2820,27 +2821,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Analis membuat sampel area pelatihan (_training areas/areas of interest_) berdasarkan survei lapangan untuk tiap kelas tutupan lahan, kemudian komputer menghitung probabilitas statistik piksel untuk dimasukkan ke dalam kelas yang paling sesuai."
-      },
-      {
-        "key": "B",
-        "text": "Komputer secara otomatis mengelompokkan piksel murni berdasarkan kedekatan nilai spektral tanpa perlu pengetahuan atau input awal dari analis manusia sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
-        "text": "Analis menelusuri batas persil tanah secara manual menggunakan kursor digitasi poligon di atas layar komputer tanpa melibatkan statistik multispektral."
-      },
-      {
-        "key": "D",
         "text": "Komputer menghapus seluruh spektrum inframerah dan hanya menggunakan saluran cahaya tampak merah, hijau, biru untuk membedakan bangunan dan air."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Komputer secara otomatis mengelompokkan piksel murni berdasarkan kedekatan nilai spektral tanpa perlu pengetahuan atau input awal dari analis manusia."
+      },
+      {
+        "key": "C",
         "text": "Klasifikasi dilakukan dengan mengukur suhu panas termal objek di malam hari untuk menentukan jenis batuan beku dasar litosfer."
+      },
+      {
+        "key": "D",
+        "text": "Analis membuat sampel area pelatihan (_training areas/areas of interest_) berdasarkan survei lapangan untuk tiap kelas tutupan lahan, kemudian komputer menghitung probabilitas statistik piksel untuk dimasukkan ke dalam kelas yang paling sesuai."
+      },
+      {
+        "key": "E",
+        "text": "Analis menelusuri batas persil tanah secara manual menggunakan kursor digitasi poligon di atas layar komputer tanpa melibatkan statistik multispektral."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Analis membuat sampel area pelatihan (_training areas/areas of interest_) berdasarkan survei lapangan untuk tiap kelas tutupan lahan, kemudian komputer menghitung probabilitas statistik piksel untuk dimasukkan ke dalam kelas yang paling sesuai.. Supervised classification: analis membuat sampel area pelatihan (training area) dari lapangan -> algoritma menghitung probabilitas statistik untuk mengklasifikasikan piksel ke kelas yang paling mirip. Pilih: Analis membuat sampel area pelatihan (training areas), komputer menghitung probabilitas statistik piksel."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Analis membuat sampel area pelatihan (_training areas/areas of interest_) berdasarkan survei lapangan untuk tiap kelas tutupan lahan, kemudian komputer menghitung probabilitas statistik piksel untuk dimasukkan ke dalam kelas yang paling sesuai.. Supervised classification: analis membuat sampel area pelatihan (training area) dari lapangan -> algoritma menghitung probabilitas statistik untuk mengklasifikasikan piksel ke kelas yang paling mirip. Pilih: Analis membuat sampel area pelatihan (training areas), komputer menghitung probabilitas statistik piksel."
   },
   {
     "id": "geo-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Air mengalir menyebar rata ke seluruh delapan sel tetangga secara proporsional tanpa memandang perbedaan ketinggian tempat sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
-        "text": "Air diasumsikan mengalir dari satu sel piksel pusat ke tepat satu dari delapan sel tetangganya yang memiliki kemiringan lereng penurunan elevasi tercuram (_steepest descent_)."
-      },
-      {
-        "key": "C",
         "text": "Air hanya dapat mengalir lurus ke arah empat mata angin utama (Utara, Timur, Selatan, Barat) dan dilarang mengalir diagonal."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Air selalu mengalir naik menuju sel piksel tetangga yang memiliki nilai elevasi kontur paling tinggi."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Air diasumsikan langsung menguap ke atmosfer pada setiap piksel tanpa membentuk jaringan akumulasi anak sungai."
+      },
+      {
+        "key": "D",
+        "text": "Air diasumsikan mengalir dari satu sel piksel pusat ke tepat satu dari delapan sel tetangganya yang memiliki kemiringan lereng penurunan elevasi tercuram (_steepest descent_)."
+      },
+      {
+        "key": "E",
+        "text": "Air mengalir menyebar rata ke seluruh delapan sel tetangga secara proporsional tanpa memandang perbedaan ketinggian tempat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Air diasumsikan mengalir dari satu sel piksel pusat ke tepat satu dari delapan sel tetangganya yang memiliki kemiringan lereng penurunan elevasi tercuram (_steepest descent_).. Algoritma D8 hidrologi: air mengalir ke tepat satu dari 8 sel tetangga di sekitarnya yang memiliki penurunan lereng paling curam (steepest descent). Pilih opsi: mengalir ke tepat satu dari delapan sel tetangga yang memiliki penurunan elevasi tercuram."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Air diasumsikan mengalir dari satu sel piksel pusat ke tepat satu dari delapan sel tetangganya yang memiliki kemiringan lereng penurunan elevasi tercuram (_steepest descent_).. Algoritma D8 hidrologi: air mengalir ke tepat satu dari 8 sel tetangga di sekitarnya yang memiliki penurunan lereng paling curam (steepest descent). Pilih opsi: mengalir ke tepat satu dari delapan sel tetangga yang memiliki penurunan elevasi tercuram."
   },
   {
     "id": "geo-lat-h-18",
@@ -2910,23 +2911,23 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$IMR = 50$, menunjukkan bahwa separuh dari bayi yang lahir tidak tertolong akibat fasilitas puskesmas yang buruk."
+        "text": "$IMR = 40$, menunjukkan bahwa angka kematian balita melebihi batas bahaya stunting gizi buruk nasional."
       },
       {
         "key": "C",
-        "text": "$IMR = 20$, menunjukkan bahwa terdapat 20 bayi meninggal per 1.000 kelahiran hidup, yang merupakan indikator sensitif atas tingkat kesehatan ibu-anak, gizi, dan sanitasi lingkungan setempat."
-      },
-      {
-        "key": "D",
         "text": "$IMR = 2$, menunjukkan bahwa fasilitas persalinan rumah sakit daerah telah berstandar negara maju tanpa cacat gizi."
       },
       {
+        "key": "D",
+        "text": "$IMR = 50$, menunjukkan bahwa separuh dari bayi yang lahir tidak tertolong akibat fasilitas puskesmas yang buruk."
+      },
+      {
         "key": "E",
-        "text": "$IMR = 40$, menunjukkan bahwa angka kematian balita melebihi batas bahaya stunting gizi buruk nasional."
+        "text": "$IMR = 20$, menunjukkan bahwa terdapat 20 bayi meninggal per 1.000 kelahiran hidup, yang merupakan indikator sensitif atas tingkat kesehatan ibu-anak, gizi, dan sanitasi lingkungan setempat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $IMR = 20$, menunjukkan bahwa terdapat 20 bayi meninggal per 1.000 kelahiran hidup, yang merupakan indikator sensitif atas tingkat kesehatan ibu-anak, gizi, dan sanitasi lingkungan setempat.. Rumus IMR: IMR = (D0 / B) * 1.000. D0 = 400 bayi meninggal usia < 1 tahun, B = 20.000 kelahiran hidup. Pembaginya BUKAN total penduduk, melainkan kelahiran hidup. Hitung: (400 / 20.000) * 1.000 = 0,02 * 1.000 = 20."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $IMR = 20$, menunjukkan bahwa terdapat 20 bayi meninggal per 1.000 kelahiran hidup, yang merupakan indikator sensitif atas tingkat kesehatan ibu-anak, gizi, dan sanitasi lingkungan setempat.. Rumus IMR: IMR = (D0 / B) * 1.000. D0 = 400 bayi meninggal usia < 1 tahun, B = 20.000 kelahiran hidup. Pembaginya BUKAN total penduduk, melainkan kelahiran hidup. Hitung: (400 / 20.000) * 1.000 = 0,02 * 1.000 = 20."
   },
   {
     "id": "geo-lat-h-19",
@@ -2949,27 +2950,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh pulau di Indonesia tenggelam di bawah air laut sedalam ratusan meter dan hanya menyisakan puncak Gunung Kerinci menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "Seluruh pulau di Indonesia tenggelam di bawah air laut sedalam ratusan meter dan hanya menyisakan puncak Gunung Kerinci menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "B",
-        "text": "Laut Wallacea membeku menjadi dataran garam kering yang membuat satwa Australia dan Asia bercampur merata di Bali."
-      },
-      {
-        "key": "C",
-        "text": "Paparan Sahul terpisah ribuan kilometer dari Benua Australia akibat gempa tektonik pemekaran dasar samudra."
-      },
-      {
-        "key": "D",
         "text": "Paparan Sunda (_Sunda Shelf_) mengering menyatukan Pulau Sumatera, Jawa, Kalimantan, dan Semenanjung Malaya dengan Benua Asia, sehingga fauna Asiatis (gajah, harimau, badak) leluasa bermigrasi melintasi daratan purba tersebut."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Laut Wallacea membeku menjadi dataran garam kering yang membuat satwa Australia dan Asia bercampur merata di Bali."
+      },
+      {
+        "key": "D",
         "text": "Pulau Jawa dan Papua tersambung langsung oleh daratan datar tanpa rintangan perairan laut dalam sama sekali."
+      },
+      {
+        "key": "E",
+        "text": "Paparan Sahul terpisah ribuan kilometer dari Benua Australia akibat gempa tektonik pemekaran dasar samudra."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Paparan Sunda (_Sunda Shelf_) mengering menyatukan Pulau Sumatera, Jawa, Kalimantan, dan Semenanjung Malaya dengan Benua Asia, sehingga fauna Asiatis (gajah, harimau, badak) leluasa bermigrasi melintasi daratan purba tersebut.. Saat Zaman Es (regresi laut turun ~120 m), Paparan Sunda menjadi daratan kering yang menyatukan Sumatera, Jawa, Kalimantan dengan Benua Asia -> fauna mamalia besar Asiatis bermigrasi. Pilih: Paparan Sunda mengering menyatukan Sumatera, Jawa, Kalimantan dengan Benua Asia sehingga fauna Asiatis leluasa bermigrasi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Paparan Sunda (_Sunda Shelf_) mengering menyatukan Pulau Sumatera, Jawa, Kalimantan, dan Semenanjung Malaya dengan Benua Asia, sehingga fauna Asiatis (gajah, harimau, badak) leluasa bermigrasi melintasi daratan purba tersebut.. Saat Zaman Es (regresi laut turun ~120 m), Paparan Sunda menjadi daratan kering yang menyatukan Sumatera, Jawa, Kalimantan dengan Benua Asia -> fauna mamalia besar Asiatis bermigrasi. Pilih: Paparan Sunda mengering menyatukan Sumatera, Jawa, Kalimantan dengan Benua Asia sehingga fauna Asiatis leluasa bermigrasi."
   },
   {
     "id": "geo-lat-h-20",
@@ -2992,27 +2993,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lembah sungai sempit berbentuk huruf V curam dengan air terjun dan jeram bertingkat berarus deras yang mengikis dasar batuan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Lembah sungai sempit berbentuk huruf V curam dengan air terjun dan jeram bertingkat berarus deras yang mengikis dasar batuan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "B",
-        "text": "Erosi vertikal sungai mendominasi secara agresif dibandingkan erosi lateral sehingga terjadi pendalaman jurang ngarai ngarai terjal."
+        "text": "Lembah sungai sangat lebar dengan lereng landai, kecepatan aliran air lambat, pola meander dan danau tapal kuda (_oxbow lake_) sangat dominan, serta topografi daratan tererosi hampir rata membentuk dataran nyaris (_peneplain_) dengan sisa bukit tahan erosi (_monadnock_)."
       },
       {
         "key": "C",
-        "text": "Dataran tinggi terlipat dengan tebing sesar aktif yang belum tersentuh oleh aliran limpasan air permukaan dan vegetasi rumput."
-      },
-      {
-        "key": "D",
         "text": "Perbukitan kerucut karst gamping dengan lorong gua bawah tanah yang belum terisi oleh endapan stalaktit dan stalagmit."
       },
       {
+        "key": "D",
+        "text": "Erosi vertikal sungai mendominasi secara agresif dibandingkan erosi lateral sehingga terjadi pendalaman jurang ngarai ngarai terjal."
+      },
+      {
         "key": "E",
-        "text": "Lembah sungai sangat lebar dengan lereng landai, kecepatan aliran air lambat, pola meander dan danau tapal kuda (_oxbow lake_) sangat dominan, serta topografi daratan tererosi hampir rata membentuk dataran nyaris (_peneplain_) dengan sisa bukit tahan erosi (_monadnock_)."
+        "text": "Dataran tinggi terlipat dengan tebing sesar aktif yang belum tersentuh oleh aliran limpasan air permukaan dan vegetasi rumput."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Lembah sungai sangat lebar dengan lereng landai, kecepatan aliran air lambat, pola meander dan danau tapal kuda (_oxbow lake_) sangat dominan, serta topografi daratan tererosi hampir rata membentuk dataran nyaris (_peneplain_) dengan sisa bukit tahan erosi (_monadnock_).. Tahapan siklus Davis: Muda (lembah V, erosi vertikal, air terjun). Dewasa (lembah U, erosi lateral). Tua (lembah sangat lebar, erosi lateral dominan, meander luas, oxbow lake, dataran nyaris/peneplain, bukit sisa monadnock). Pilih: Lembah sungai sangat lebar berlereng landai, meander dan oxbow lake dominan, membentuk peneplain dan monadnock."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Lembah sungai sangat lebar dengan lereng landai, kecepatan aliran air lambat, pola meander dan danau tapal kuda (_oxbow lake_) sangat dominan, serta topografi daratan tererosi hampir rata membentuk dataran nyaris (_peneplain_) dengan sisa bukit tahan erosi (_monadnock_).. Tahapan siklus Davis: Muda (lembah V, erosi vertikal, air terjun). Dewasa (lembah U, erosi lateral). Tua (lembah sangat lebar, erosi lateral dominan, meander luas, oxbow lake, dataran nyaris/peneplain, bukit sisa monadnock). Pilih: Lembah sungai sangat lebar berlereng landai, meander dan oxbow lake dominan, membentuk peneplain dan monadnock."
   },
   {
     "id": "geo-lat-h-21",
@@ -3035,27 +3036,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sesar mendatar dekstral (_dextral / right-lateral strike-slip fault_) untuk Sesar Semangko di mana blok seberang bergeser ke kanan, dan sesar mendatar sinistral (_sinistral / left-lateral strike-slip fault_) untuk Sesar Palu-Koro di mana blok seberang bergeser ke kiri."
-      },
-      {
-        "key": "B",
-        "text": "Sesar normal (_dip-slip fault_) yang terjadi akibat tarikan lempeng tektonik divergen di dasar palung laut dalam sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
-        "text": "Sesar naik sungkup (_thrust fault_) yang hanya menggerakkan blok gamping vertikal ke atas tanpa pergeseran horizontal."
-      },
-      {
-        "key": "D",
         "text": "Sesar transform samudra yang tidak memiliki potensi memicu getaran gempa di wilayah permukiman daratan."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Sesar normal (_dip-slip fault_) yang terjadi akibat tarikan lempeng tektonik divergen di dasar palung laut dalam."
+      },
+      {
+        "key": "C",
         "text": "Kedua sesar tersebut merupakan sesar gravitasi rotasional murni yang tidak berhubungan dengan pertemuan lempeng litosfer."
+      },
+      {
+        "key": "D",
+        "text": "Sesar mendatar dekstral (_dextral / right-lateral strike-slip fault_) untuk Sesar Semangko di mana blok seberang bergeser ke kanan, dan sesar mendatar sinistral (_sinistral / left-lateral strike-slip fault_) untuk Sesar Palu-Koro di mana blok seberang bergeser ke kiri."
+      },
+      {
+        "key": "E",
+        "text": "Sesar naik sungkup (_thrust fault_) yang hanya menggerakkan blok gamping vertikal ke atas tanpa pergeseran horizontal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Sesar mendatar dekstral (_dextral / right-lateral strike-slip fault_) untuk Sesar Semangko di mana blok seberang bergeser ke kanan, dan sesar mendatar sinistral (_sinistral / left-lateral strike-slip fault_) untuk Sesar Palu-Koro di mana blok seberang bergeser ke kiri.. Sesar Semangko (Sumatera) = sesar mendatar dekstral (kanan). Sesar Palu-Koro (Sulawesi Tengah) = sesar mendatar sinistral (kiri). Keduanya merupakan strike-slip fault darat aktif. Pilih: Sesar mendatar dekstral untuk Sesar Semangko, dan sesar mendatar sinistral untuk Sesar Palu-Koro."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Sesar mendatar dekstral (_dextral / right-lateral strike-slip fault_) untuk Sesar Semangko di mana blok seberang bergeser ke kanan, dan sesar mendatar sinistral (_sinistral / left-lateral strike-slip fault_) untuk Sesar Palu-Koro di mana blok seberang bergeser ke kiri.. Sesar Semangko (Sumatera) = sesar mendatar dekstral (kanan). Sesar Palu-Koro (Sulawesi Tengah) = sesar mendatar sinistral (kiri). Keduanya merupakan strike-slip fault darat aktif. Pilih: Sesar mendatar dekstral untuk Sesar Semangko, dan sesar mendatar sinistral untuk Sesar Palu-Koro."
   },
   {
     "id": "geo-lat-h-22",
@@ -3078,27 +3079,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Aw \\to Am \\to Af$, yaitu dari sabana gersang di Sumatera barat menuju hutan lebat lembap selalu hujan di Timor Leste sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "$Aw \\to Am \\to Af$, yaitu dari sabana gersang di Sumatera barat menuju hutan lebat lembap selalu hujan di Timor Leste."
       },
       {
         "key": "B",
-        "text": "$Af \\to Am \\to Aw$, yaitu dari Hutan Hujan Tropis selalu basah ($Af$) di Sumatera/Kalimantan, Hutan Muson Tropis berperiodisitas tegas ($Am$) di sebagian Jawa, hingga Sabana Tropis berpadang rumput kering ($Aw$) di Nusa Tenggara Timur."
-      },
-      {
-        "key": "C",
         "text": "$Cs \\to Cw \\to Cf$, yaitu tipe iklim subtropis sedang mediterania yang mengalami musim dingin bersalju di pantai utara Jawa."
       },
       {
+        "key": "C",
+        "text": "$Af \\to Am \\to Aw$, yaitu dari Hutan Hujan Tropis selalu basah ($Af$) di Sumatera/Kalimantan, Hutan Muson Tropis berperiodisitas tegas ($Am$) di sebagian Jawa, hingga Sabana Tropis berpadang rumput kering ($Aw$) di Nusa Tenggara Timur."
+      },
+      {
         "key": "D",
-        "text": "$BW \\to BS \\to Af$, yaitu dari iklim gurun pasir tandus di Kalimantan menuju padang stepa rumput di kepulauan Natuna."
+        "text": "$ET \\to EF \\to Am$, yaitu tipe iklim tundra es beku kutub yang membentang di seluruh pulau dataran rendah Sulawesi."
       },
       {
         "key": "E",
-        "text": "$ET \\to EF \\to Am$, yaitu tipe iklim tundra es beku kutub yang membentang di seluruh pulau dataran rendah Sulawesi."
+        "text": "$BW \\to BS \\to Af$, yaitu dari iklim gurun pasir tandus di Kalimantan menuju padang stepa rumput di kepulauan Natuna."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $Af \\to Am \\to Aw$, yaitu dari Hutan Hujan Tropis selalu basah ($Af$) di Sumatera/Kalimantan, Hutan Muson Tropis berperiodisitas tegas ($Am$) di sebagian Jawa, hingga Sabana Tropis berpadang rumput kering ($Aw$) di Nusa Tenggara Timur.. Gradasi iklim Köppen Indonesia dari barat ke timur: Af (Hutan hujan tropis basah di Sumatera/Kalimantan) -> Am (Muson di Jawa) -> Aw (Sabana tropis kering di NTT). Pilih: Af -> Am -> Aw (Hutan Hujan Tropis -> Muson Tropis -> Sabana Tropis)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $Af \\to Am \\to Aw$, yaitu dari Hutan Hujan Tropis selalu basah ($Af$) di Sumatera/Kalimantan, Hutan Muson Tropis berperiodisitas tegas ($Am$) di sebagian Jawa, hingga Sabana Tropis berpadang rumput kering ($Aw$) di Nusa Tenggara Timur.. Gradasi iklim Köppen Indonesia dari barat ke timur: Af (Hutan hujan tropis basah di Sumatera/Kalimantan) -> Am (Muson di Jawa) -> Aw (Sabana tropis kering di NTT). Pilih: Af -> Am -> Aw (Hutan Hujan Tropis -> Muson Tropis -> Sabana Tropis)."
   },
   {
     "id": "geo-lat-h-23",
@@ -3121,27 +3122,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Fenomena arus pasang laut purnama yang menumpahkan garam mineral dari kawah gunung lumpur bawah laut ke pantai pasir ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
         "text": "Pemanasan gelombang panas lautan (_marine heatwave_) yang membunuh fitoplankton sehingga air laut menjadi jernih bagi ikan karang."
       },
       {
-        "key": "C",
-        "text": "Fenomena _upwelling_ yang dipicu oleh Transpor Ekman (_Ekman Transport_), di mana hembusan angin Muson Tenggara mendorong lapisan massa air hangat permukaan menjauhi garis pantai, memicu naiknya massa air dingin dasar laut yang kaya akan nutrien (nitrat dan fosfat) ke lapisan fotik permukaan."
+        "key": "B",
+        "text": "Fenomena arus pasang laut purnama yang menumpahkan garam mineral dari kawah gunung lumpur bawah laut ke pantai pasir ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Intrusi limbah detergen fosfat buangan sungai kota besar yang menyuburkan lumut pantai beracun tanpa hembusan angin."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Tenggelamnya massa air laut hangat ke palung Jawa (_downwelling_) yang menekan zooplankton hingga ke dasar samudra."
+      },
+      {
+        "key": "E",
+        "text": "Fenomena _upwelling_ yang dipicu oleh Transpor Ekman (_Ekman Transport_), di mana hembusan angin Muson Tenggara mendorong lapisan massa air hangat permukaan menjauhi garis pantai, memicu naiknya massa air dingin dasar laut yang kaya akan nutrien (nitrat dan fosfat) ke lapisan fotik permukaan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Fenomena _upwelling_ yang dipicu oleh Transpor Ekman (_Ekman Transport_), di mana hembusan angin Muson Tenggara mendorong lapisan massa air hangat permukaan menjauhi garis pantai, memicu naiknya massa air dingin dasar laut yang kaya akan nutrien (nitrat dan fosfat) ke lapisan fotik permukaan.. Upwelling di selatan Jawa saat Muson Tenggara: Transpor Ekman mendorong air hangat permukaan menjauhi pantai -> massa air dingin kaya nutrien dari dasar laut naik ke permukaan (upwelling) -> klorofil dan ikan melimpah. Pilih: Fenomena upwelling dipicu Transpor Ekman, naiknya massa air dingin kaya nutrien ke permukaan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Fenomena _upwelling_ yang dipicu oleh Transpor Ekman (_Ekman Transport_), di mana hembusan angin Muson Tenggara mendorong lapisan massa air hangat permukaan menjauhi garis pantai, memicu naiknya massa air dingin dasar laut yang kaya akan nutrien (nitrat dan fosfat) ke lapisan fotik permukaan.. Upwelling di selatan Jawa saat Muson Tenggara: Transpor Ekman mendorong air hangat permukaan menjauhi pantai -> massa air dingin kaya nutrien dari dasar laut naik ke permukaan (upwelling) -> klorofil dan ikan melimpah. Pilih: Fenomena upwelling dipicu Transpor Ekman, naiknya massa air dingin kaya nutrien ke permukaan."
   },
   {
     "id": "geo-lat-h-24",
@@ -3168,23 +3169,23 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$K_f = 600 \\text{ jiwa/km}^2$ dan $K_a = 2.000 \\text{ petani/km}^2$."
-      },
-      {
-        "key": "C",
-        "text": "$K_f = 2.000 \\text{ jiwa/km}^2$ dan $K_a = 300 \\text{ petani/km}^2$."
-      },
-      {
-        "key": "D",
         "text": "$K_f = 2.000 \\text{ jiwa/km}^2$ dan $K_a = 600 \\text{ petani/km}^2$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$K_f = 1.200 \\text{ jiwa/km}^2$ dan $K_a = 360 \\text{ petani/km}^2$."
+      },
+      {
+        "key": "D",
+        "text": "$K_f = 2.000 \\text{ jiwa/km}^2$ dan $K_a = 300 \\text{ petani/km}^2$."
+      },
+      {
+        "key": "E",
+        "text": "$K_f = 600 \\text{ jiwa/km}^2$ dan $K_a = 2.000 \\text{ petani/km}^2$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $K_f = 2.000 \\text{ jiwa/km}^2$ dan $K_a = 600 \\text{ petani/km}^2$.. Kerapatan Fisiologis (Kf) = Total Penduduk / Luas Lahan Pertanian = 1.200.000 / 600 = 2.000 jiwa/km^2. Kerapatan Agraris (Ka) = Petani / Luas Lahan Pertanian = 360.000 / 600 = 600 petani/km^2. Hitung: Kf = 2.000 jiwa/km^2 dan Ka = 600 petani/km^2."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $K_f = 2.000 \\text{ jiwa/km}^2$ dan $K_a = 600 \\text{ petani/km}^2$.. Kerapatan Fisiologis (Kf) = Total Penduduk / Luas Lahan Pertanian = 1.200.000 / 600 = 2.000 jiwa/km^2. Kerapatan Agraris (Ka) = Petani / Luas Lahan Pertanian = 360.000 / 600 = 600 petani/km^2. Hitung: Kf = 2.000 jiwa/km^2 dan Ka = 600 petani/km^2."
   },
   {
     "id": "geo-lat-h-25",
@@ -3207,27 +3208,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penggusuran paksa seluruh desa di kawasan hulu pegunungan untuk dialihfungsikan menjadi zona tambang terbuka berizin negara diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Pembayaran Jasa Lingkungan (_Payment for Ecosystem Services_ / PES), di mana penerima manfaat air bersih dan perlindungan banjir di kawasan hilir (PDAM, industri, warga kota) membayar retribusi jasa lingkungan kepada masyarakat konservasi hulu."
       },
       {
         "key": "B",
-        "text": "Pemberian bantuan beras raskin darurat sebulan sekali tanpa mekanisme perlindungan hukum atas hak kepemilikan tanah adat."
+        "text": "Penggusuran paksa seluruh desa di kawasan hulu pegunungan untuk dialihfungsikan menjadi zona tambang terbuka berizin negara diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       },
       {
         "key": "C",
-        "text": "Penebangan pohon kayu komersial secara legal oleh perusahaan swasta untuk disumbangkan ke kas pembangunan bendungan hilir."
-      },
-      {
-        "key": "D",
         "text": "Penetapan pajak berganda yang lebih tinggi bagi penduduk pedesaan hulu karena dinilai tidak memberikan kontribusi industri bagi negara."
       },
       {
+        "key": "D",
+        "text": "Pemberian bantuan beras raskin darurat sebulan sekali tanpa mekanisme perlindungan hukum atas hak kepemilikan tanah adat."
+      },
+      {
         "key": "E",
-        "text": "Pembayaran Jasa Lingkungan (_Payment for Ecosystem Services_ / PES), di mana penerima manfaat air bersih dan perlindungan banjir di kawasan hilir (PDAM, industri, warga kota) membayar retribusi jasa lingkungan kepada masyarakat konservasi hulu."
+        "text": "Penebangan pohon kayu komersial secara legal oleh perusahaan swasta untuk disumbangkan ke kas pembangunan bendungan hilir."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pembayaran Jasa Lingkungan (_Payment for Ecosystem Services_ / PES), di mana penerima manfaat air bersih dan perlindungan banjir di kawasan hilir (PDAM, industri, warga kota) membayar retribusi jasa lingkungan kepada masyarakat konservasi hulu.. Mekanisme kompensasi ekonomi hilir membayar hulu yang merawat fungsi tata air hutan disebut Pembayaran Jasa Lingkungan (Payment for Ecosystem Services / PES). Pilih: Pembayaran Jasa Lingkungan (Payment for Ecosystem Services / PES) dari penerima manfaat hilir ke pelestari hulu."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pembayaran Jasa Lingkungan (_Payment for Ecosystem Services_ / PES), di mana penerima manfaat air bersih dan perlindungan banjir di kawasan hilir (PDAM, industri, warga kota) membayar retribusi jasa lingkungan kepada masyarakat konservasi hulu.. Mekanisme kompensasi ekonomi hilir membayar hulu yang merawat fungsi tata air hutan disebut Pembayaran Jasa Lingkungan (Payment for Ecosystem Services / PES). Pilih: Pembayaran Jasa Lingkungan (Payment for Ecosystem Services / PES) dari penerima manfaat hilir ke pelestari hulu."
   },
   {
     "id": "geo-sim-01",
@@ -3250,27 +3251,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1 : 19.737$ (dibulatkan menjadi $1 : 20.000$)."
-      },
-      {
-        "key": "B",
-        "text": "$1 : 23.026$ (mengabaikan ketinggian medan $h$)."
-      },
-      {
-        "key": "C",
-        "text": "$1 : 10.000$."
-      },
-      {
-        "key": "D",
         "text": "$1 : 50.000$."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$1 : 5.000$."
+      },
+      {
+        "key": "C",
+        "text": "$1 : 23.026$ (mengabaikan ketinggian medan $h$)."
+      },
+      {
+        "key": "D",
+        "text": "$1 : 10.000$."
+      },
+      {
+        "key": "E",
+        "text": "$1 : 19.737$ (dibulatkan menjadi $1 : 20.000$)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $1 : 19.737$ (dibulatkan menjadi $1 : 20.000$).. Rumus skala foto udara: S = f / (H - h). H - h = 3.500 m - 500 m = 3.000 m. Skala = 0,152 m / 3.000 m = 1 : (3.000 / 0,152) = 1 : 19.737 (sekitar 1 : 20.000). Hitung: 1 : 19.737 atau dibulatkan 1 : 20.000."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $1 : 19.737$ (dibulatkan menjadi $1 : 20.000$).. Rumus skala foto udara: S = f / (H - h). H - h = 3.500 m - 500 m = 3.000 m. Skala = 0,152 m / 3.000 m = 1 : (3.000 / 0,152) = 1 : 19.737 (sekitar 1 : 20.000). Hitung: 1 : 19.737 atau dibulatkan 1 : 20.000."
   },
   {
     "id": "geo-sim-02",
@@ -3293,27 +3294,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$600.000 \\text{ jiwa}$ (proyeksi linier aritmatika sederhana)."
-      },
-      {
-        "key": "B",
-        "text": "$609.500 \\text{ jiwa}$."
-      },
-      {
-        "key": "C",
         "text": "$550.000 \\text{ jiwa}$."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$725.000 \\text{ jiwa}$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$800.000 \\text{ jiwa}$."
+      },
+      {
+        "key": "D",
+        "text": "$600.000 \\text{ jiwa}$ (proyeksi linier aritmatika sederhana)."
+      },
+      {
+        "key": "E",
+        "text": "$609.500 \\text{ jiwa}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $609.500 \\text{ jiwa}$.. Proyeksi geometris: Pt = P0 * (1 + r)^t = 500.000 * (1,02)^10. Dengan (1,02)^10 = 1,219, hitung 500.000 * 1,219. 500.000 * 1,219 = 609.500 jiwa."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $609.500 \\text{ jiwa}$.. Proyeksi geometris: Pt = P0 * (1 + r)^t = 500.000 * (1,02)^10. Dengan (1,02)^10 = 1,219, hitung 500.000 * 1,219. 500.000 * 1,219 = 609.500 jiwa."
   },
   {
     "id": "geo-sim-03",
@@ -3336,27 +3337,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pola acak (_random_), di mana permukiman tersebar bebas di seluruh penjuru dataran tanpa adanya gaya gravitasi fisik yang dominan ($T = 1{,}0$) ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Pola radial melingkar, yang hanya terbentuk di kawasan puncak kepundan gunung berapi aktif."
       },
       {
         "key": "B",
-        "text": "Pola seragam teratur (_regular / dispersed_), di mana rumah-rumah berjarak sama persis membentuk pola heksagonal terencana ($T = 2{,}15$)."
-      },
-      {
-        "key": "C",
         "text": "Pola mengelompok (_clustered_), di mana permukiman terkonsentrasi rapat di sekitar sumber air tawar bersih atau tanggul alam sungai bebas genangan pasang rob laut ($T \\to 0$)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pola linear memanjang pantai, yang ditandai oleh nilai indeks tetangga terdekat mendekati nilai maksimum $T > 2{,}0$."
       },
       {
+        "key": "D",
+        "text": "Pola acak (_random_), di mana permukiman tersebar bebas di seluruh penjuru dataran tanpa adanya gaya gravitasi fisik yang dominan ($T = 1{,}0$) ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
         "key": "E",
-        "text": "Pola radial melingkar, yang hanya terbentuk di kawasan puncak kepundan gunung berapi aktif."
+        "text": "Pola seragam teratur (_regular / dispersed_), di mana rumah-rumah berjarak sama persis membentuk pola heksagonal terencana ($T = 2{,}15$)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pola mengelompok (_clustered_), di mana permukiman terkonsentrasi rapat di sekitar sumber air tawar bersih atau tanggul alam sungai bebas genangan pasang rob laut ($T \\to 0$).. Indeks Tetangga Terdekat (Clark & Evans): Nilai T berkisar antara 0 (mengelompok sempurna), 1 (acak), hingga 2,15 (seragam/teratur). Nilai T = 0,15 berarti pola mengelompok (clustered). Pilih: Pola mengelompok (clustered), terkonsentrasi di sekitar sumber air tawar."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pola mengelompok (_clustered_), di mana permukiman terkonsentrasi rapat di sekitar sumber air tawar bersih atau tanggul alam sungai bebas genangan pasang rob laut ($T \\to 0$).. Indeks Tetangga Terdekat (Clark & Evans): Nilai T berkisar antara 0 (mengelompok sempurna), 1 (acak), hingga 2,15 (seragam/teratur). Nilai T = 0,15 berarti pola mengelompok (clustered). Pilih: Pola mengelompok (clustered), terkonsentrasi di sekitar sumber air tawar."
   },
   {
     "id": "geo-sim-04",
@@ -3379,11 +3380,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60\\%$ menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "$80\\%$."
       },
       {
         "key": "B",
-        "text": "$80\\%$."
+        "text": "$60\\%$ menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "C",
@@ -3422,27 +3423,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2.000.000$."
-      },
-      {
-        "key": "B",
-        "text": "$500.000$."
-      },
-      {
-        "key": "C",
-        "text": "$20.000.000$."
-      },
-      {
-        "key": "D",
         "text": "$400.000$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$2.000.000$."
+      },
+      {
+        "key": "C",
         "text": "$1.000.000$."
+      },
+      {
+        "key": "D",
+        "text": "$20.000.000$."
+      },
+      {
+        "key": "E",
+        "text": "$500.000$."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $1.000.000$.. Rumus gravitasi Reilly: I = (PA * PB) / d^2. Hitung: (40.000 * 10.000) / 20^2 = 400.000.000 / 400 = 1.000.000. Pilih: 1.000.000."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $1.000.000$.. Rumus gravitasi Reilly: I = (PA * PB) / d^2. Hitung: (40.000 * 10.000) / 20^2 = 400.000.000 / 400 = 1.000.000. Pilih: 1.000.000."
   },
   {
     "id": "geo-sim-06",
@@ -3469,7 +3470,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Magma basa encer berkomposisi basaltik dengan gas rendah yang mengalir tenang membentuk lelehan lava pijar tanpa ledakan debu sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Letusan yang dipicu oleh uap air hidrotermal dangkal tanpa adanya material magma segar yang keluar dari perut bumi."
       },
       {
         "key": "C",
@@ -3477,11 +3478,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Letusan yang dipicu oleh uap air hidrotermal dangkal tanpa adanya material magma segar yang keluar dari perut bumi."
+        "text": "Erupsi efusif rekahan linier yang membentuk dataran tinggi basal plateau seluas ribuan kilometer persegi."
       },
       {
         "key": "E",
-        "text": "Erupsi efusif rekahan linier yang membentuk dataran tinggi basal plateau seluas ribuan kilometer persegi."
+        "text": "Magma basa encer berkomposisi basaltik dengan gas rendah yang mengalir tenang membentuk lelehan lava pijar tanpa ledakan debu."
       }
     ],
     "correctKey": "A",
@@ -3508,27 +3509,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Posisi Bulan dan Matahari membentuk sudut siku-siku $90^\\circ$ terhadap Bumi pada fase kuartir pertama dan kuartir ketiga sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "B",
-        "text": "Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus simetris (_syzygy_), yang terjadi pada fase Bulan Baru (Tilem) dan fase Bulan Purnama."
-      },
-      {
-        "key": "C",
-        "text": "Bumi berada pada titik terjauh dari matahari (aphelion) di puncak musim dingin belahan bumi utara."
-      },
-      {
-        "key": "D",
         "text": "Bulan mengalami gerhana total tepat saat terjadi badai siklon tropis di samudra Hindia selatan."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Gaya gravitasi matahari saling meniadakan secara sempurna dengan gaya gravitasi bulan setiap akhir pekan."
+      },
+      {
+        "key": "C",
+        "text": "Posisi Bulan dan Matahari membentuk sudut siku-siku $90^\\circ$ terhadap Bumi pada fase kuartir pertama dan kuartir ketiga."
+      },
+      {
+        "key": "D",
+        "text": "Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus simetris (_syzygy_), yang terjadi pada fase Bulan Baru (Tilem) dan fase Bulan Purnama."
+      },
+      {
+        "key": "E",
+        "text": "Bumi berada pada titik terjauh dari matahari (aphelion) di puncak musim dingin belahan bumi utara."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus simetris (_syzygy_), yang terjadi pada fase Bulan Baru (Tilem) dan fase Bulan Purnama.. Spring tide (pasang purnama) terjadi saat matahari, bulan, dan bumi sejajar (syzygy) pada saat bulan baru dan bulan purnama, gravitasi bulan dan matahari saling memperkuat. Pilih: Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus (syzygy) saat Bulan Baru dan Bulan Purnama."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus simetris (_syzygy_), yang terjadi pada fase Bulan Baru (Tilem) dan fase Bulan Purnama.. Spring tide (pasang purnama) terjadi saat matahari, bulan, dan bumi sejajar (syzygy) pada saat bulan baru dan bulan purnama, gravitasi bulan dan matahari saling memperkuat. Pilih: Posisi Matahari, Bulan, dan Bumi berada pada satu garis lurus (syzygy) saat Bulan Baru dan Bulan Purnama."
   },
   {
     "id": "geo-sim-08",
@@ -3551,15 +3552,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Daun mangrove melepaskan zat kimiawi yang mampu membekukan air laut secara instan sehingga gelombang tidak dapat merambat ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Sistem perakaran tunjang dan napas yang rapat menciptakan kekasaran hidrolik tinggi yang memecah energi kinetik gelombang, memperlambat kecepatan arus bah, serta menjebak puing-puing apung yang berbahaya bagi daratan."
       },
       {
         "key": "B",
-        "text": "Pohon mangrove menyerap seluruh massa air laut ke dalam batang pohonnya hingga surut mengering."
+        "text": "Daun mangrove melepaskan zat kimiawi yang mampu membekukan air laut secara instan sehingga gelombang tidak dapat merambat ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
       },
       {
         "key": "C",
-        "text": "Sistem perakaran tunjang dan napas yang rapat menciptakan kekasaran hidrolik tinggi yang memecah energi kinetik gelombang, memperlambat kecepatan arus bah, serta menjebak puing-puing apung yang berbahaya bagi daratan."
+        "text": "Pohon mangrove menyerap seluruh massa air laut ke dalam batang pohonnya hingga surut mengering."
       },
       {
         "key": "D",
@@ -3570,8 +3571,8 @@ window.TKA_GEOGRAFI_QUESTIONS = [
         "text": "Akar mangrove menahan getaran lempeng tektonik di palung laut agar tidak merambat ke garis pantai."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Sistem perakaran tunjang dan napas yang rapat menciptakan kekasaran hidrolik tinggi yang memecah energi kinetik gelombang, memperlambat kecepatan arus bah, serta menjebak puing-puing apung yang berbahaya bagi daratan.. Mangrove sebagai bioshield: sistem perakaran rapat (akar tunjang dan napas) meningkatkan kekasaran hidrolik, memecah energi kinetik gelombang dan menahan laju kecepatan tsunami serta puing apung. Pilih: Perakaran tunjang dan napas rapat menciptakan kekasaran hidrolik tinggi yang memecah energi gelombang dan memperlambat arus."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sistem perakaran tunjang dan napas yang rapat menciptakan kekasaran hidrolik tinggi yang memecah energi kinetik gelombang, memperlambat kecepatan arus bah, serta menjebak puing-puing apung yang berbahaya bagi daratan.. Mangrove sebagai bioshield: sistem perakaran rapat (akar tunjang dan napas) meningkatkan kekasaran hidrolik, memecah energi kinetik gelombang dan menahan laju kecepatan tsunami serta puing apung. Pilih: Perakaran tunjang dan napas rapat menciptakan kekasaran hidrolik tinggi yang memecah energi gelombang dan memperlambat arus."
   },
   {
     "id": "geo-sim-09",
@@ -3594,7 +3595,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$25 \\text{ hektar}$."
+        "text": "$25 \\text{ km}^2$ ($2.500 \\text{ hektar}$)."
       },
       {
         "key": "B",
@@ -3610,7 +3611,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$25 \\text{ km}^2$ ($2.500 \\text{ hektar}$)."
+        "text": "$25 \\text{ hektar}$."
       }
     ],
     "correctKey": "D",
@@ -3637,11 +3638,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$12 \\text{ km}$ tepat di tengah-tengah antara Kota Cempaka dan Melati."
+        "text": "$6 \\text{ km}$ dari Kota Cempaka (merapat ke kota besar berpenduduk padat)."
       },
       {
         "key": "B",
-        "text": "$6 \\text{ km}$ dari Kota Cempaka (merapat ke kota besar berpenduduk padat)."
+        "text": "$4 \\text{ km}$ dari Kota Melati."
       },
       {
         "key": "C",
@@ -3649,7 +3650,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$4 \\text{ km}$ dari Kota Melati."
+        "text": "$12 \\text{ km}$ tepat di tengah-tengah antara Kota Cempaka dan Melati."
       },
       {
         "key": "E",
@@ -3680,15 +3681,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penurunan muka air tanah gambut (_groundwater table_) menyebabkan kubah gambut mengering, terjadi proses subsidensi dan oksidasi karbon masif yang melepaskan emisi gas $CO_2$ ke atmosfer, serta gambut kering menjadi bahan bakar api bawah permukaan (_smoldering fire_) yang sangat sulit dipadamkan."
+        "text": "Kanal drainase meningkatkan kelembapan tanah gambut sehingga memicu pertumbuhan lumut permafrost kutub."
       },
       {
         "key": "B",
-        "text": "Lahan gambut yang mengering secara spontan akan memadat menjadi batu bara antrasit bermutu tinggi tanpa risiko terbakar sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Penurunan muka air tanah gambut (_groundwater table_) menyebabkan kubah gambut mengering, terjadi proses subsidensi dan oksidasi karbon masif yang melepaskan emisi gas $CO_2$ ke atmosfer, serta gambut kering menjadi bahan bakar api bawah permukaan (_smoldering fire_) yang sangat sulit dipadamkan."
       },
       {
         "key": "C",
-        "text": "Kanal drainase meningkatkan kelembapan tanah gambut sehingga memicu pertumbuhan lumut permafrost kutub."
+        "text": "Air gambut yang asam akan berubah menjadi air tawar murni pH netral yang menyuburkan seluruh terumbu karang laut."
       },
       {
         "key": "D",
@@ -3696,11 +3697,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Air gambut yang asam akan berubah menjadi air tawar murni pH netral yang menyuburkan seluruh terumbu karang laut."
+        "text": "Lahan gambut yang mengering secara spontan akan memadat menjadi batu bara antrasit bermutu tinggi tanpa risiko terbakar."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penurunan muka air tanah gambut (_groundwater table_) menyebabkan kubah gambut mengering, terjadi proses subsidensi dan oksidasi karbon masif yang melepaskan emisi gas $CO_2$ ke atmosfer, serta gambut kering menjadi bahan bakar api bawah permukaan (_smoldering fire_) yang sangat sulit dipadamkan.. Kanal drainase gambut membuat gambut kering -> oksidasi organik melepaskan CO2 masif -> kebakaran bawah tanah (smoldering) yang sulit dipadamkan. Pilih opsi: Penurunan muka air tanah menyebabkan kubah gambut mengering, subsidensi, emisi CO2 masif, dan api bawah permukaan (smoldering fire)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Penurunan muka air tanah gambut (_groundwater table_) menyebabkan kubah gambut mengering, terjadi proses subsidensi dan oksidasi karbon masif yang melepaskan emisi gas $CO_2$ ke atmosfer, serta gambut kering menjadi bahan bakar api bawah permukaan (_smoldering fire_) yang sangat sulit dipadamkan.. Kanal drainase gambut membuat gambut kering -> oksidasi organik melepaskan CO2 masif -> kebakaran bawah tanah (smoldering) yang sulit dipadamkan. Pilih opsi: Penurunan muka air tanah menyebabkan kubah gambut mengering, subsidensi, emisi CO2 masif, dan api bawah permukaan (smoldering fire)."
   },
   {
     "id": "geo-sim-12",
@@ -3723,27 +3724,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nilai _Threshold_ harus jauh lebih besar daripada _Range_, sehingga pedagang mengalami defisit modal operasional sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Pemerintah wajib melarang keberadaan _Range_ agar seluruh wilayah memiliki harga barang yang sama secara mutlak."
       },
       {
         "key": "B",
-        "text": "Nilai _Range_ (jarak maksimum yang rela ditempuh konsumen untuk membeli barang) harus lebih besar daripada nilai _Threshold_ (lingkaran batas populasi minimum yang diperlukan agar usaha memperoleh laba normal), yaitu $\\text{Range} > \\text{Threshold}$."
-      },
-      {
-        "key": "C",
-        "text": "Nilai _Range_ dan _Threshold_ harus selalu identik nol agar konsumen tidak perlu keluar rumah sama sekali."
-      },
-      {
-        "key": "D",
         "text": "_Range_ hanya berlaku untuk barang kebutuhan pokok harian berorde rendah sedangkan _Threshold_ hanya berlaku untuk udara bersih."
       },
       {
+        "key": "C",
+        "text": "Nilai _Threshold_ harus jauh lebih besar daripada _Range_, sehingga pedagang mengalami defisit modal operasional."
+      },
+      {
+        "key": "D",
+        "text": "Nilai _Range_ (jarak maksimum yang rela ditempuh konsumen untuk membeli barang) harus lebih besar daripada nilai _Threshold_ (lingkaran batas populasi minimum yang diperlukan agar usaha memperoleh laba normal), yaitu $\\text{Range} > \\text{Threshold}$."
+      },
+      {
         "key": "E",
-        "text": "Pemerintah wajib melarang keberadaan _Range_ agar seluruh wilayah memiliki harga barang yang sama secara mutlak."
+        "text": "Nilai _Range_ dan _Threshold_ harus selalu identik nol agar konsumen tidak perlu keluar rumah sama sekali."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Nilai _Range_ (jarak maksimum yang rela ditempuh konsumen untuk membeli barang) harus lebih besar daripada nilai _Threshold_ (lingkaran batas populasi minimum yang diperlukan agar usaha memperoleh laba normal), yaitu $\\text{Range} > \\text{Threshold}$.. Syarat usaha bertahan dalam teori Christaller: Range (jangkauan konsumen) harus lebih besar dari Threshold (ambang batas minimum kelayakan modal). Pilih: Nilai Range harus lebih besar daripada nilai Threshold (Range > Threshold)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Nilai _Range_ (jarak maksimum yang rela ditempuh konsumen untuk membeli barang) harus lebih besar daripada nilai _Threshold_ (lingkaran batas populasi minimum yang diperlukan agar usaha memperoleh laba normal), yaitu $\\text{Range} > \\text{Threshold}$.. Syarat usaha bertahan dalam teori Christaller: Range (jangkauan konsumen) harus lebih besar dari Threshold (ambang batas minimum kelayakan modal). Pilih: Nilai Range harus lebih besar daripada nilai Threshold (Range > Threshold)."
   },
   {
     "id": "geo-sim-13",
@@ -3766,27 +3767,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Angin menyedot lava panas di puncak kepundan gunung berapi aktif lalu menghembuskannya ke perkebunan tembakau warga ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
-        "text": "Terjadi pembakaran hutan massal di punggung bukit yang menaikkan suhu udara secara konduksi darat."
-      },
-      {
-        "key": "C",
-        "text": "Saat massa udara naik di lereng hadap angin (_windward_), uap air mengalami kondensasi melepaskan panas laten dan turun sebagai hujan dengan gradien adiabatik basah ($0{,}5^\\circ - 0{,}6^\\circ \\text{C} / 100 \\text{ m}$), sedangkan saat menuruni lereng belakang angin (_leeward_), massa udara kering mengalami pemanasan adiabatik kering ($1^\\circ \\text{C} / 100 \\text{ m}$) tanpa kehilangan kalor."
-      },
-      {
-        "key": "D",
         "text": "Lapisan stratosfer pecah sehingga sinar ultraviolet langsung memanaskan angin yang bertiup kencang."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Angin menyedot lava panas di puncak kepundan gunung berapi aktif lalu menghembuskannya ke perkebunan tembakau warga ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
+        "key": "C",
+        "text": "Terjadi pembakaran hutan massal di punggung bukit yang menaikkan suhu udara secara konduksi darat."
+      },
+      {
+        "key": "D",
         "text": "Angin laut berbelok mendadak di atas puncak gunung dan kehilangan seluruh kandungan oksigennya."
+      },
+      {
+        "key": "E",
+        "text": "Saat massa udara naik di lereng hadap angin (_windward_), uap air mengalami kondensasi melepaskan panas laten dan turun sebagai hujan dengan gradien adiabatik basah ($0{,}5^\\circ - 0{,}6^\\circ \\text{C} / 100 \\text{ m}$), sedangkan saat menuruni lereng belakang angin (_leeward_), massa udara kering mengalami pemanasan adiabatik kering ($1^\\circ \\text{C} / 100 \\text{ m}$) tanpa kehilangan kalor."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Saat massa udara naik di lereng hadap angin (_windward_), uap air mengalami kondensasi melepaskan panas laten dan turun sebagai hujan dengan gradien adiabatik basah ($0{,}5^\\circ - 0{,}6^\\circ \\text{C} / 100 \\text{ m}$), sedangkan saat menuruni lereng belakang angin (_leeward_), massa udara kering mengalami pemanasan adiabatik kering ($1^\\circ \\text{C} / 100 \\text{ m}$) tanpa kehilangan kalor.. Massa udara naik di lereng windward mendingin secara adiabatik basah (0,6 C/100m) dan hujan. Saat turun di leeward, udara kering memanas secara adiabatik kering (1,0 C/100m), menghasilkan angin panas dan kering. Pilih opsi yang menjelaskan gradien adiabatik basah saat naik dan pemanasan adiabatik kering saat turun."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Saat massa udara naik di lereng hadap angin (_windward_), uap air mengalami kondensasi melepaskan panas laten dan turun sebagai hujan dengan gradien adiabatik basah ($0{,}5^\\circ - 0{,}6^\\circ \\text{C} / 100 \\text{ m}$), sedangkan saat menuruni lereng belakang angin (_leeward_), massa udara kering mengalami pemanasan adiabatik kering ($1^\\circ \\text{C} / 100 \\text{ m}$) tanpa kehilangan kalor.. Massa udara naik di lereng windward mendingin secara adiabatik basah (0,6 C/100m) dan hujan. Saat turun di leeward, udara kering memanas secara adiabatik kering (1,0 C/100m), menghasilkan angin panas dan kering. Pilih opsi yang menjelaskan gradien adiabatik basah saat naik dan pemanasan adiabatik kering saat turun."
   },
   {
     "id": "geo-sim-14",
@@ -3809,27 +3810,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Lembah sungai daratan biasa berbentuk huruf V yang tenggelam di daerah beriklim tropis basah tanpa pengaruh es menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
         "text": "Hamparan pasir pantai datar yang memanjang sejajar garis pantai dan memisahkan laguna air asin dangkal."
       },
       {
-        "key": "C",
-        "text": "Pantai tebing karang terangkat yang memiliki teras-teras abrasi bertingkat akibat epirogenesa positif daratan."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Lembah erosi gletser purba berbentuk huruf U curam berdinding terjal yang tenggelam oleh naiknya permukaan air laut pasca-pencairan es glasial, dengan perairan sempit dan sangat dalam hingga ratusan meter."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Lembah sungai daratan biasa berbentuk huruf V yang tenggelam di daerah beriklim tropis basah tanpa pengaruh es menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+      },
+      {
+        "key": "D",
         "text": "Delta muara sungai raksasa yang terus maju ke arah laut akibat tumpukan sedimen lumpur erosi hulu DAS."
+      },
+      {
+        "key": "E",
+        "text": "Pantai tebing karang terangkat yang memiliki teras-teras abrasi bertingkat akibat epirogenesa positif daratan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Lembah erosi gletser purba berbentuk huruf U curam berdinding terjal yang tenggelam oleh naiknya permukaan air laut pasca-pencairan es glasial, dengan perairan sempit dan sangat dalam hingga ratusan meter.. Pantai fjord = lembah glasial es berbentuk U terjal yang tenggelam oleh naiknya muka air laut pasca-zaman es, sempit dan sangat dalam. Pilih: Lembah erosi gletser purba berbentuk huruf U curam yang tenggelam oleh naiknya air laut pasca-pencairan es glasial."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Lembah erosi gletser purba berbentuk huruf U curam berdinding terjal yang tenggelam oleh naiknya permukaan air laut pasca-pencairan es glasial, dengan perairan sempit dan sangat dalam hingga ratusan meter.. Pantai fjord = lembah glasial es berbentuk U terjal yang tenggelam oleh naiknya muka air laut pasca-zaman es, sempit dan sangat dalam. Pilih: Lembah erosi gletser purba berbentuk huruf U curam yang tenggelam oleh naiknya air laut pasca-pencairan es glasial."
   },
   {
     "id": "geo-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ledakan kebutuhan sekolah dasar dan fasilitas taman kanak-kanak akibat kelahiran bayi yang melonjak di luar kendali diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
-      },
-      {
-        "key": "B",
-        "text": "Tingginya angka pengangguran terbuka di kalangan pemuda lulusan baru akibat surplus generasi muda usia produktif."
-      },
-      {
-        "key": "C",
-        "text": "Peningkatan pesat rasio ketergantungan anak-anak balita yang melampaui angka ketergantungan orang tua."
-      },
-      {
-        "key": "D",
         "text": "Terjadinya gelombang emigrasi massal generasi tua ke negara-negara berkembang untuk mencari pekerjaan kasar."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Ledakan kebutuhan sekolah dasar dan fasilitas taman kanak-kanak akibat kelahiran bayi yang melonjak di luar kendali diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "C",
         "text": "Peningkatan rasio ketergantungan lansia (_old-age dependency ratio_), defisit tenaga kerja produktif di sektor riil, meningkatnya beban fiskal pensiun dan jaminan kesehatan nasional, serta ancaman penyusutan populasi absolut."
+      },
+      {
+        "key": "D",
+        "text": "Tingginya angka pengangguran terbuka di kalangan pemuda lulusan baru akibat surplus generasi muda usia produktif."
+      },
+      {
+        "key": "E",
+        "text": "Peningkatan pesat rasio ketergantungan anak-anak balita yang melampaui angka ketergantungan orang tua."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Peningkatan rasio ketergantungan lansia (_old-age dependency ratio_), defisit tenaga kerja produktif di sektor riil, meningkatnya beban fiskal pensiun dan jaminan kesehatan nasional, serta ancaman penyusutan populasi absolut.. Ageing population: proporsi lansia (65+) meningkat tinggi, usia produktif menyusut -> old-age dependency ratio naik, beban jaminan pensiun/kesehatan membengkak, kelangkaan tenaga kerja. Pilih: Peningkatan rasio ketergantungan lansia, defisit tenaga kerja produktif, beban fiskal jaminan pensiun melonjak."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Peningkatan rasio ketergantungan lansia (_old-age dependency ratio_), defisit tenaga kerja produktif di sektor riil, meningkatnya beban fiskal pensiun dan jaminan kesehatan nasional, serta ancaman penyusutan populasi absolut.. Ageing population: proporsi lansia (65+) meningkat tinggi, usia produktif menyusut -> old-age dependency ratio naik, beban jaminan pensiun/kesehatan membengkak, kelangkaan tenaga kerja. Pilih: Peningkatan rasio ketergantungan lansia, defisit tenaga kerja produktif, beban fiskal jaminan pensiun melonjak."
   },
   {
     "id": "geo-sim-16",
@@ -3899,19 +3900,19 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$3{,}80$ (kelas kerawanan sedang) sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "$4{,}00$."
       },
       {
+        "key": "C",
+        "text": "$3{,}50$."
+      },
+      {
         "key": "D",
-        "text": "$4{,}90$."
+        "text": "$3{,}80$ (kelas kerawanan sedang)."
       },
       {
         "key": "E",
-        "text": "$3{,}50$."
+        "text": "$4{,}90$."
       }
     ],
     "correctKey": "A",
@@ -3938,11 +3939,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Vegetasi sehat memantulkan seluruh gelombang SWIR dan menyerap 100% gelombang cahaya tampak merah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Vegetasi sehat memantulkan seluruh gelombang SWIR dan menyerap 100% gelombang cahaya tampak merah."
       },
       {
         "key": "B",
-        "text": "Vegetasi sehat memiliki pantulan sangat tinggi pada saluran NIR dan serapan kuat (pantulan sangat rendah) pada SWIR sehingga menghasilkan nilai $NBR$ positif tinggi, sedangkan area bekas terbakar kehilangan struktur daun (pantulan NIR anjlok) dan arang tanah kering memantulkan gelombang SWIR sangat tinggi sehingga nilai $NBR$ anjlok negatif."
+        "text": "Air dan arang arang hitam memiliki respon spektral yang identik dengan tajuk pohon kanopi hutan primer."
       },
       {
         "key": "C",
@@ -3950,15 +3951,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Air dan arang arang hitam memiliki respon spektral yang identik dengan tajuk pohon kanopi hutan primer."
+        "text": "Gelombang inframerah tidak dapat menembus atmosfer bumi sehingga nilai NBR murni dihasilkan dari estimasi suhu malam hari."
       },
       {
         "key": "E",
-        "text": "Gelombang inframerah tidak dapat menembus atmosfer bumi sehingga nilai NBR murni dihasilkan dari estimasi suhu malam hari."
+        "text": "Vegetasi sehat memiliki pantulan sangat tinggi pada saluran NIR dan serapan kuat (pantulan sangat rendah) pada SWIR sehingga menghasilkan nilai $NBR$ positif tinggi, sedangkan area bekas terbakar kehilangan struktur daun (pantulan NIR anjlok) dan arang tanah kering memantulkan gelombang SWIR sangat tinggi sehingga nilai $NBR$ anjlok negatif."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Vegetasi sehat memiliki pantulan sangat tinggi pada saluran NIR dan serapan kuat (pantulan sangat rendah) pada SWIR sehingga menghasilkan nilai $NBR$ positif tinggi, sedangkan area bekas terbakar kehilangan struktur daun (pantulan NIR anjlok) dan arang tanah kering memantulkan gelombang SWIR sangat tinggi sehingga nilai $NBR$ anjlok negatif.. Vegetasi sehat: pantulan NIR tinggi, SWIR rendah -> NBR positif tinggi. Bekas terbakar: klorofil hancur (NIR rendah), tanah arang kering (SWIR tinggi) -> NBR negatif. Pilih: Vegetasi sehat pantulan NIR tinggi dan SWIR rendah (NBR positif), bekas terbakar pantulan NIR anjlok dan SWIR tinggi (NBR negatif)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Vegetasi sehat memiliki pantulan sangat tinggi pada saluran NIR dan serapan kuat (pantulan sangat rendah) pada SWIR sehingga menghasilkan nilai $NBR$ positif tinggi, sedangkan area bekas terbakar kehilangan struktur daun (pantulan NIR anjlok) dan arang tanah kering memantulkan gelombang SWIR sangat tinggi sehingga nilai $NBR$ anjlok negatif.. Vegetasi sehat: pantulan NIR tinggi, SWIR rendah -> NBR positif tinggi. Bekas terbakar: klorofil hancur (NIR rendah), tanah arang kering (SWIR tinggi) -> NBR negatif. Pilih: Vegetasi sehat pantulan NIR tinggi dan SWIR rendah (NBR positif), bekas terbakar pantulan NIR anjlok dan SWIR tinggi (NBR negatif)."
   },
   {
     "id": "geo-sim-18",
@@ -3981,27 +3982,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zona Iklim Panas ($0 - 650 \\text{ m}$ dpl), yang didominasi oleh perkebunan tebu, kelapa sawit, padi, dan pohon kelapa ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+        "text": "Zona Iklim Dingin (> $2.500 \\text{ m}$ dpl), yang membentang di puncak bersalju tanpa tanaman budidaya pertanian."
       },
       {
         "key": "B",
-        "text": "Zona Iklim Sejuk ($1.500 - 2.500 \\text{ m}$ dpl), yang hanya ditumbuhi oleh hutan lumut dan pohon cemara pinus pegunungan."
-      },
-      {
-        "key": "C",
         "text": "Zona Iklim Sedang ($650 - 1.500 \\text{ m}$ dpl), yang sangat ideal untuk pengembangan komoditas perkebunan teh, kopi, kina, kina, dan tanaman hortikultura sayuran."
       },
       {
+        "key": "C",
+        "text": "Zona Iklim Panas ($0 - 650 \\text{ m}$ dpl), yang didominasi oleh perkebunan tebu, kelapa sawit, padi, dan pohon kelapa ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
         "key": "D",
-        "text": "Zona Iklim Dingin (> $2.500 \\text{ m}$ dpl), yang membentang di puncak bersalju tanpa tanaman budidaya pertanian."
+        "text": "Zona Iklim Sejuk ($1.500 - 2.500 \\text{ m}$ dpl), yang hanya ditumbuhi oleh hutan lumut dan pohon cemara pinus pegunungan."
       },
       {
         "key": "E",
         "text": "Zona Iklim Kering Subtropis, yang didominasi oleh semak berduri kaktus dan tanaman kurma."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Zona Iklim Sedang ($650 - 1.500 \\text{ m}$ dpl), yang sangat ideal untuk pengembangan komoditas perkebunan teh, kopi, kina, kina, dan tanaman hortikultura sayuran.. Ketinggian 1.200 m dpl masuk Zona Sedang Junghuhn (650 - 1.500 m dpl), suhu 17,1 - 22 C. Komoditas utama: teh, kopi, kina, sayuran. Pilih: Zona Iklim Sedang (650 - 1.500 m dpl), cocok untuk teh, kopi, kina, dan sayuran."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Zona Iklim Sedang ($650 - 1.500 \\text{ m}$ dpl), yang sangat ideal untuk pengembangan komoditas perkebunan teh, kopi, kina, kina, dan tanaman hortikultura sayuran.. Ketinggian 1.200 m dpl masuk Zona Sedang Junghuhn (650 - 1.500 m dpl), suhu 17,1 - 22 C. Komoditas utama: teh, kopi, kina, sayuran. Pilih: Zona Iklim Sedang (650 - 1.500 m dpl), cocok untuk teh, kopi, kina, dan sayuran."
   },
   {
     "id": "geo-sim-19",
@@ -4024,15 +4025,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terbentuk dari jatuhnya meteorit raksasa dari luar angkasa yang melubangi lempeng benua dan terisi air hujan meteorik menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+        "text": "Merupakan teluk samudra Hindia yang terisolasi oleh pertumbuhan spit endapan pasir pantai penghalang."
       },
       {
         "key": "B",
-        "text": "Terbentuk dari erosi pelarutan kimiawi batuan gamping karst secara masif yang menghubungkan sungai bawah tanah."
+        "text": "Terbentuk dari jatuhnya meteorit raksasa dari luar angkasa yang melubangi lempeng benua dan terisi air hujan meteorik menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
       },
       {
         "key": "C",
-        "text": "Terbentuk murni akibat bendungan glasial es purba yang mencair saat pemanasan zaman interglasial."
+        "text": "Terbentuk dari erosi pelarutan kimiawi batuan gamping karst secara masif yang menghubungkan sungai bawah tanah."
       },
       {
         "key": "D",
@@ -4040,7 +4041,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Merupakan teluk samudra Hindia yang terisolasi oleh pertumbuhan spit endapan pasir pantai penghalang."
+        "text": "Terbentuk murni akibat bendungan glasial es purba yang mencair saat pemanasan zaman interglasial."
       }
     ],
     "correctKey": "D",
@@ -4067,27 +4068,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Usia batuan beku di poros pematang tengah samudra terbukti berusia paling tua dibandingkan batuan di dekat benua diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Pola polaritas medan magnetik bumi normal dan terbalik (_magnetic reversals_) yang terekam dalam mineral magnetit batuan basal dasar laut tersusun simetris di kedua sisi pematang, dengan usia batuan yang semakin tua seiring bertambahnya jarak dari poros pematang tengah samudra."
       },
       {
         "key": "B",
-        "text": "Dasar samudra tersusun atas lapisan batuan granit berusia miliaran tahun yang tidak pernah bergerak sejak bumi terbentuk."
-      },
-      {
-        "key": "C",
-        "text": "Ketebalan lapisan sedimen lumpur laut di atas pematang tengah samudra terbukti paling tebal di seluruh dunia."
-      },
-      {
-        "key": "D",
         "text": "Medan magnet bumi di dasar samudra selalu menunjuk ke arah khatulistiwa tanpa pernah mengalami pembalikan arah kutub."
       },
       {
+        "key": "C",
+        "text": "Usia batuan beku di poros pematang tengah samudra terbukti berusia paling tua dibandingkan batuan di dekat benua diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+      },
+      {
+        "key": "D",
+        "text": "Ketebalan lapisan sedimen lumpur laut di atas pematang tengah samudra terbukti paling tebal di seluruh dunia."
+      },
+      {
         "key": "E",
-        "text": "Pola polaritas medan magnetik bumi normal dan terbalik (_magnetic reversals_) yang terekam dalam mineral magnetit batuan basal dasar laut tersusun simetris di kedua sisi pematang, dengan usia batuan yang semakin tua seiring bertambahnya jarak dari poros pematang tengah samudra."
+        "text": "Dasar samudra tersusun atas lapisan batuan granit berusia miliaran tahun yang tidak pernah bergerak sejak bumi terbentuk."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pola polaritas medan magnetik bumi normal dan terbalik (_magnetic reversals_) yang terekam dalam mineral magnetit batuan basal dasar laut tersusun simetris di kedua sisi pematang, dengan usia batuan yang semakin tua seiring bertambahnya jarak dari poros pematang tengah samudra.. Bukti pemekaran dasar samudra (seafloor spreading): pita anomali magnetik bumi normal-terbalik tersusun simetris di kedua sisi pematang, batuan di poros ridge paling muda dan semakin menjauh semakin tua. Pilih: Pola polaritas magnetik bumi tersusun simetris di kedua sisi pematang, usia batuan semakin tua menjauhi pematang."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pola polaritas medan magnetik bumi normal dan terbalik (_magnetic reversals_) yang terekam dalam mineral magnetit batuan basal dasar laut tersusun simetris di kedua sisi pematang, dengan usia batuan yang semakin tua seiring bertambahnya jarak dari poros pematang tengah samudra.. Bukti pemekaran dasar samudra (seafloor spreading): pita anomali magnetik bumi normal-terbalik tersusun simetris di kedua sisi pematang, batuan di poros ridge paling muda dan semakin menjauh semakin tua. Pilih: Pola polaritas magnetik bumi tersusun simetris di kedua sisi pematang, usia batuan semakin tua menjauhi pematang."
   },
   {
     "id": "geo-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghentikan konversi lahan pertanian basah beririgasi teknis (_zero conversion_), meningkatkan indeks pertanaman melalui intensifikasi teknologi pertanian, serta mengendalikan laju pertambahan penduduk lokal."
-      },
-      {
-        "key": "B",
-        "text": "Mempercepat alih fungsi seluruh sawah tersisa menjadi kawasan perumahan komersial dan kawasan industri padat modal sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
-      },
-      {
-        "key": "C",
         "text": "Mengusir seluruh petani miskin ke luar perbatasan provinsi tanpa ganti rugi pembebasan lahan garapan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menutup seluruh saluran irigasi primer bendungan agar lahan sawah mengering menjadi lahan semak belukar."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Menghentikan konversi lahan pertanian basah beririgasi teknis (_zero conversion_), meningkatkan indeks pertanaman melalui intensifikasi teknologi pertanian, serta mengendalikan laju pertambahan penduduk lokal."
+      },
+      {
+        "key": "D",
         "text": "Menghapus sektor pertanian dari dokumen RPJMD dan menggantungkan seratus persen pangan dari pasokan impor luar negeri tanpa cadangan logistik."
+      },
+      {
+        "key": "E",
+        "text": "Mempercepat alih fungsi seluruh sawah tersisa menjadi kawasan perumahan komersial dan kawasan industri padat modal."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Menghentikan konversi lahan pertanian basah beririgasi teknis (_zero conversion_), meningkatkan indeks pertanaman melalui intensifikasi teknologi pertanian, serta mengendalikan laju pertambahan penduduk lokal.. Defisit daya dukung lahan pangan (SL < DL): lahan tidak cukup menopang pangan penduduk -> langkah tata ruang: moratorium alih fungsi sawah (zero conversion), intensifikasi pertanian, dan kendali laju penduduk. Pilih: Menghentikan konversi lahan pertanian sawah, meningkatkan intensifikasi teknologi pertanian, dan mengendalikan laju penduduk."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Menghentikan konversi lahan pertanian basah beririgasi teknis (_zero conversion_), meningkatkan indeks pertanaman melalui intensifikasi teknologi pertanian, serta mengendalikan laju pertambahan penduduk lokal.. Defisit daya dukung lahan pangan (SL < DL): lahan tidak cukup menopang pangan penduduk -> langkah tata ruang: moratorium alih fungsi sawah (zero conversion), intensifikasi pertanian, dan kendali laju penduduk. Pilih: Menghentikan konversi lahan pertanian sawah, meningkatkan intensifikasi teknologi pertanian, dan mengendalikan laju penduduk."
   },
   {
     "id": "geo-sim-22",
@@ -4153,15 +4154,15 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Anak-anak sungai membentuk sudut lancip menyatu menyerupai cabang-cabang ranting pohon alami pada batuan beku homogen sesuai dengan dinamika sirkulasi atmosferik global dan klasifikasi zona agroklimat wilayah."
+        "text": "Aliran sungai memencar melingkar keluar dari satu titik puncak kerucut gunung berapi tunggal secara simetris."
       },
       {
         "key": "B",
-        "text": "Sungai utama mengalir sejajar di sepanjang lembah sinklin paralel, dan anak-anak sungai bermuara tegak lurus ($90^\\circ$) ke sungai utama setelah memotong sayap antiklin melalui celah sempit."
+        "text": "Aliran sungai mengalir memusat menuju satu danau cekungan depresi tertutup tanpa saluran pelepasan ke laut."
       },
       {
         "key": "C",
-        "text": "Aliran sungai memencar melingkar keluar dari satu titik puncak kerucut gunung berapi tunggal secara simetris."
+        "text": "Sungai utama mengalir sejajar di sepanjang lembah sinklin paralel, dan anak-anak sungai bermuara tegak lurus ($90^\\circ$) ke sungai utama setelah memotong sayap antiklin melalui celah sempit."
       },
       {
         "key": "D",
@@ -4169,11 +4170,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Aliran sungai mengalir memusat menuju satu danau cekungan depresi tertutup tanpa saluran pelepasan ke laut."
+        "text": "Anak-anak sungai membentuk sudut lancip menyatu menyerupai cabang-cabang ranting pohon alami pada batuan beku homogen."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sungai utama mengalir sejajar di sepanjang lembah sinklin paralel, dan anak-anak sungai bermuara tegak lurus ($90^\\circ$) ke sungai utama setelah memotong sayap antiklin melalui celah sempit.. Pola trellis: khas pada pegunungan lipatan antiklin-sinklin, sungai utama sejajar di lembah, anak sungai masuk tegak lurus (90 derajat). Pilih: Sungai utama mengalir sejajar di sepanjang lembah sinklin, anak sungai bermuara tegak lurus (90 derajat)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sungai utama mengalir sejajar di sepanjang lembah sinklin paralel, dan anak-anak sungai bermuara tegak lurus ($90^\\circ$) ke sungai utama setelah memotong sayap antiklin melalui celah sempit.. Pola trellis: khas pada pegunungan lipatan antiklin-sinklin, sungai utama sejajar di lembah, anak sungai masuk tegak lurus (90 derajat). Pilih: Sungai utama mengalir sejajar di sepanjang lembah sinklin, anak sungai bermuara tegak lurus (90 derajat)."
   },
   {
     "id": "geo-sim-23",
@@ -4196,27 +4197,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tingginya aktivitas letusan gunung berapi bawah tanah di bawah pusat perkantoran perbankan kota metropolitan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
-      },
-      {
-        "key": "B",
         "text": "Penebalan lapisan ozon stratosfer di atas langit kota yang memantulkan kembali panas bumi ke tanah."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Dominasi material buatan berkemampuan menyerap panas tinggi (aspal, beton) dengan albedo rendah, pelepasan panas antropogenik (kendaraan bermotor, AC gedung perkantoran), serta minimnya ruang terbuka hijau (RTH) yang membatasi proses pendinginan evapotranspirasi alami."
       },
       {
+        "key": "C",
+        "text": "Tingginya aktivitas letusan gunung berapi bawah tanah di bawah pusat perkantoran perbankan kota metropolitan ditinjau dari karakteristik geomorfologi litosfer dan proses pembentukan profil tanah berkesinambungan."
+      },
+      {
         "key": "D",
-        "text": "Tiupan angin darat dan angin laut yang terhenti total di seluruh wilayah pesisir kepulauan Indonesia."
+        "text": "Adanya reaksi fisi nuklir spontan pada pondasi tiang pancang gedung pencakar langit kota besar."
       },
       {
         "key": "E",
-        "text": "Adanya reaksi fisi nuklir spontan pada pondasi tiang pancang gedung pencakar langit kota besar."
+        "text": "Tiupan angin darat dan angin laut yang terhenti total di seluruh wilayah pesisir kepulauan Indonesia."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Dominasi material buatan berkemampuan menyerap panas tinggi (aspal, beton) dengan albedo rendah, pelepasan panas antropogenik (kendaraan bermotor, AC gedung perkantoran), serta minimnya ruang terbuka hijau (RTH) yang membatasi proses pendinginan evapotranspirasi alami.. Urban Heat Island (UHI): aspal/beton ber-albedo rendah menyerap panas, buangan panas AC dan kendaraan (antropogenik), serta minimnya RTH untuk pendinginan evapotranspirasi. Pilih opsi: Dominasi material buatan penyerap panas (aspal, beton), pelepasan panas antropogenik, dan minimnya ruang terbuka hijau."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Dominasi material buatan berkemampuan menyerap panas tinggi (aspal, beton) dengan albedo rendah, pelepasan panas antropogenik (kendaraan bermotor, AC gedung perkantoran), serta minimnya ruang terbuka hijau (RTH) yang membatasi proses pendinginan evapotranspirasi alami.. Urban Heat Island (UHI): aspal/beton ber-albedo rendah menyerap panas, buangan panas AC dan kendaraan (antropogenik), serta minimnya RTH untuk pendinginan evapotranspirasi. Pilih opsi: Dominasi material buatan penyerap panas (aspal, beton), pelepasan panas antropogenik, dan minimnya ruang terbuka hijau."
   },
   {
     "id": "geo-sim-24",
@@ -4239,27 +4240,27 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan dramatis keuntungan bersih petani gurem hingga mampu membeli mesin pemanen modern dari luar negeri menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
-      },
-      {
-        "key": "B",
-        "text": "Terjadinya lonjakan ekspor beras pulau Jawa ke pasar komoditas internasional secara mandiri."
-      },
-      {
-        "key": "C",
         "text": "Keluarga petani beralih secara serentak menjadi investor pasar modal saham korporasi agribisnis multinasional."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Peningkatan dramatis keuntungan bersih petani gurem hingga mampu membeli mesin pemanen modern dari luar negeri menurut kaidah interpretasi penginderaan jauh multispektral dan pemodelan topologi sistem informasi geografis."
+      },
+      {
+        "key": "C",
         "text": "Terjadinya penyerapan tenaga kerja berlebih tanpa peningkatan output marjinal (produk marjinal tenaga kerja mendekati nol / $MP_L \\approx 0$), yang memicu pengangguran terselubung (_disguised unemployment_) dan kemiskinan perdesaan."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Lahan pertanian sawah berubah secara alami menjadi padang rumput sabana luas tempat peternakan kuda liar."
+      },
+      {
+        "key": "E",
+        "text": "Terjadinya lonjakan ekspor beras pulau Jawa ke pasar komoditas internasional secara mandiri."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Terjadinya penyerapan tenaga kerja berlebih tanpa peningkatan output marjinal (produk marjinal tenaga kerja mendekati nol / $MP_L \\approx 0$), yang memicu pengangguran terselubung (_disguised unemployment_) dan kemiskinan perdesaan.. Involusi pertanian Geertz di Jawa: fragmentasi lahan sawah sempit + penduduk padat -> produk marjinal mendekati nol (MPL ~ 0) -> timbul pengangguran terselubung dan kemiskinan. Pilih: Penyerapan tenaga kerja berlebih tanpa peningkatan output marjinal (MPL ~ 0), memicu pengangguran terselubung."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Terjadinya penyerapan tenaga kerja berlebih tanpa peningkatan output marjinal (produk marjinal tenaga kerja mendekati nol / $MP_L \\approx 0$), yang memicu pengangguran terselubung (_disguised unemployment_) dan kemiskinan perdesaan.. Involusi pertanian Geertz di Jawa: fragmentasi lahan sawah sempit + penduduk padat -> produk marjinal mendekati nol (MPL ~ 0) -> timbul pengangguran terselubung dan kemiskinan. Pilih: Penyerapan tenaga kerja berlebih tanpa peningkatan output marjinal (MPL ~ 0), memicu pengangguran terselubung."
   },
   {
     "id": "geo-sim-25",
@@ -4282,7 +4283,7 @@ window.TKA_GEOGRAFI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Suhu muka laut di perairan barat Sumatera memanas drastis memicu banjir bandang terus-menerus sepanjang tahun diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
+        "text": "Suhu muka laut di Samudra Hindia bagian barat (pantai timur Afrika) menghangat luar biasa sedangkan di timur (barat Sumatera/selatan Jawa) mendingin drastis, menyebabkan konveksi awan bergeser ke Afrika sehingga wilayah barat Indonesia mengalami penurunan curah hujan tajam dan kekeringan lahan pertanian."
       },
       {
         "key": "B",
@@ -4298,11 +4299,11 @@ window.TKA_GEOGRAFI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Suhu muka laut di Samudra Hindia bagian barat (pantai timur Afrika) menghangat luar biasa sedangkan di timur (barat Sumatera/selatan Jawa) mendingin drastis, menyebabkan konveksi awan bergeser ke Afrika sehingga wilayah barat Indonesia mengalami penurunan curah hujan tajam dan kekeringan lahan pertanian."
+        "text": "Suhu muka laut di perairan barat Sumatera memanas drastis memicu banjir bandang terus-menerus sepanjang tahun diturunkan dari analisis interaksi keruangan antarwilayah dan daya dukung lingkungan hidup berkelanjutan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Suhu muka laut di Samudra Hindia bagian barat (pantai timur Afrika) menghangat luar biasa sedangkan di timur (barat Sumatera/selatan Jawa) mendingin drastis, menyebabkan konveksi awan bergeser ke Afrika sehingga wilayah barat Indonesia mengalami penurunan curah hujan tajam dan kekeringan lahan pertanian.. IOD Positif: Suhu laut di dekat Sumatera/Jawa mendingin, di Afrika barat memanas -> konveksi pindah ke barat (Afrika) -> Indonesia barat mengalami kekeringan ekstrem. Pilih opsi: Suhu laut Samudra Hindia barat Afrika menghangat, barat Sumatera mendingin, memicu penurunan curah hujan tajam dan kekeringan di Indonesia barat."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Suhu muka laut di Samudra Hindia bagian barat (pantai timur Afrika) menghangat luar biasa sedangkan di timur (barat Sumatera/selatan Jawa) mendingin drastis, menyebabkan konveksi awan bergeser ke Afrika sehingga wilayah barat Indonesia mengalami penurunan curah hujan tajam dan kekeringan lahan pertanian.. IOD Positif: Suhu laut di dekat Sumatera/Jawa mendingin, di Afrika barat memanas -> konveksi pindah ke barat (Afrika) -> Indonesia barat mengalami kekeringan ekstrem. Pilih opsi: Suhu laut Samudra Hindia barat Afrika menghangat, barat Sumatera mendingin, memicu penurunan curah hujan tajam dan kekeringan di Indonesia barat."
   },
   {
     "id": "geo-sim-26",

@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_KIMIA.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_KIMIA_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_KIMIA_QUESTIONS = [
   {
     "id": "kim-lat-e-01",
@@ -25,27 +26,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = -2$, dan $s = -\\frac{1}{2}$, karena menurut aturan Hund pada subkulit $3d$ ($l = 2$) yang memiliki 5 orbital ($m = -2, -1, 0, +1, +2$), lima elektron pertama mengisi masing-masing orbital dengan spin ke atas ($s = +\\frac{1}{2}$), dan elektron keenam berpasangan di orbital pertama ($m = -2$) dengan spin berlawanan arah ($s = -\\frac{1}{2}$)."
+        "text": "$[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 4$, $l = 0$, $m = 0$, dan $s = -\\frac{1}{2}$, karena keliru menganggap elektron terluar pada subkulit 4s sebagai elektron terakhir pengisian orbital."
       },
       {
         "key": "B",
-        "text": "$[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 4$, $l = 0$, $m = 0$, dan $s = -\\frac{1}{2}$, karena keliru menganggap elektron terluar pada subkulit 4s sebagai elektron terakhir pengisian orbital sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
         "text": "$[\\text{Ar}]\\,3d^8$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = 0$, dan $s = -\\frac{1}{2}$, karena mengabaikan pengisian subkulit 4s yang memiliki tingkat energi lebih rendah menurut aturan Aufbau."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 3$, $l = 1$, $m = -1$, dan $s = +\\frac{1}{2}$, karena subkulit d keliru diidentifikasi memiliki bilangan kuantum azimut satu."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$[\\text{Ar}]\\,4s^1\\,3d^7$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = +1$, dan $s = +\\frac{1}{2}$, dihitung dari anomali eksitasi elektron yang tidak terjadi pada unsur besi."
+      },
+      {
+        "key": "E",
+        "text": "$[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = -2$, dan $s = -\\frac{1}{2}$, karena menurut aturan Hund pada subkulit $3d$ ($l = 2$) yang memiliki 5 orbital ($m = -2, -1, 0, +1, +2$), lima elektron pertama mengisi masing-masing orbital dengan spin ke atas ($s = +\\frac{1}{2}$), dan elektron keenam berpasangan di orbital pertama ($m = -2$) dengan spin berlawanan arah ($s = -\\frac{1}{2}$)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = -2$, dan $s = -\\frac{1}{2}$, karena menurut aturan Hund pada subkulit $3d$ ($l = 2$) yang memiliki 5 orbital ($m = -2, -1, 0, +1, +2$), lima elektron pertama mengisi masing-masing orbital dengan spin ke atas ($s = +\\frac{1}{2}$), dan elektron keenam berpasangan di orbital pertama ($m = -2$) dengan spin berlawanan arah ($s = -\\frac{1}{2}$).. Tuliskan konfigurasi elektron Fe (Z=26): [Ar] 4s2 3d6. Elektron terakhir mengisi subkulit 3d (n=3, l=2). Isi 5 orbital 3d (m = -2 sampai +2): 5 elektron pertama spin +1/2, elektron ke-6 masuk ke orbital m = -2 dengan spin -1/2."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $[\\text{Ar}]\\,4s^2\\,3d^6$ dengan bilangan kuantum $n = 3$, $l = 2$, $m = -2$, dan $s = -\\frac{1}{2}$, karena menurut aturan Hund pada subkulit $3d$ ($l = 2$) yang memiliki 5 orbital ($m = -2, -1, 0, +1, +2$), lima elektron pertama mengisi masing-masing orbital dengan spin ke atas ($s = +\\frac{1}{2}$), dan elektron keenam berpasangan di orbital pertama ($m = -2$) dengan spin berlawanan arah ($s = -\\frac{1}{2}$).. Tuliskan konfigurasi elektron Fe (Z=26): [Ar] 4s2 3d6. Elektron terakhir mengisi subkulit 3d (n=3, l=2). Isi 5 orbital 3d (m = -2 sampai +2): 5 elektron pertama spin +1/2, elektron ke-6 masuk ke orbital m = -2 dengan spin -1/2."
   },
   {
     "id": "kim-lat-e-02",
@@ -68,27 +69,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Energi ionisasi pertama selalu meningkat secara linier tanpa anomali dari natrium hingga argon sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "B",
         "text": "Jari-jari atom semakin mengecil karena muatan inti efektif ($Z_{\\text{eff}}$) bertambah besar sehingga daya tarik inti terhadap elektron valensi semakin kuat."
       },
       {
-        "key": "C",
-        "text": "Keelektronegatifan unsur semakin berkurang karena jumlah kulit elektron bertambah banyak."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Titik leleh unsur selalu meningkat secara bertahap dari logam natrium sampai gas mulia argon."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Karakter logam semakin menguat karena elektron valensi semakin mudah dilepaskan ke orbital bebas."
+      },
+      {
+        "key": "D",
+        "text": "Energi ionisasi pertama selalu meningkat secara linier tanpa anomali dari natrium hingga argon."
+      },
+      {
+        "key": "E",
+        "text": "Keelektronegatifan unsur semakin berkurang karena jumlah kulit elektron bertambah banyak."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Jari-jari atom semakin mengecil karena muatan inti efektif ($Z_{\\text{eff}}$) bertambah besar sehingga daya tarik inti terhadap elektron valensi semakin kuat.. Dalam satu periode dari kiri ke kanan: jumlah kulit tetap, nomor atom bertambah, muatan inti efektif naik, sehingga gaya tarik inti menguat dan jari-jari atom mengecil. Jari-jari atom mengecil dari Na ke Cl karena muatan inti efektif meningkat."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Jari-jari atom semakin mengecil karena muatan inti efektif ($Z_{\\text{eff}}$) bertambah besar sehingga daya tarik inti terhadap elektron valensi semakin kuat.. Dalam satu periode dari kiri ke kanan: jumlah kulit tetap, nomor atom bertambah, muatan inti efektif naik, sehingga gaya tarik inti menguat dan jari-jari atom mengecil. Jari-jari atom mengecil dari Na ke Cl karena muatan inti efektif meningkat."
   },
   {
     "id": "kim-lat-e-03",
@@ -111,15 +112,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{CH}_4$ berbentuk bujur sangkar dan bersifat polar, sedangkan $\\text{H}_2\\text{O}$ berbentuk linier dan bersifat nonpolar sempurna ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "$\\text{CH}_4$ bersifat polar karena memiliki ikatan kovalen polar C-H, sedangkan $\\text{H}_2\\text{O}$ nonpolar akibat tolak-menolak pasangan elektron."
       },
       {
         "key": "B",
-        "text": "$\\text{CH}_4$ dan $\\text{H}_2\\text{O}$ keduanya memiliki bentuk geometri tetrahedral sempurna dan sama-sama bersifat polar."
+        "text": "$\\text{CH}_4$ berbentuk tetrahedral simetris dan bersifat nonpolar (momen dipol $\\mu = 0$), sedangkan $\\text{H}_2\\text{O}$ berbentuk huruf V (bengkok) dan bersifat polar ($\\mu > 0$) karena memiliki 2 pasangan elektron bebas (PEB)."
       },
       {
         "key": "C",
-        "text": "$\\text{CH}_4$ berbentuk tetrahedral simetris dan bersifat nonpolar (momen dipol $\\mu = 0$), sedangkan $\\text{H}_2\\text{O}$ berbentuk huruf V (bengkok) dan bersifat polar ($\\mu > 0$) karena memiliki 2 pasangan elektron bebas (PEB)."
+        "text": "$\\text{CH}_4$ dan $\\text{H}_2\\text{O}$ keduanya memiliki bentuk geometri tetrahedral sempurna dan sama-sama bersifat polar."
       },
       {
         "key": "D",
@@ -127,11 +128,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{CH}_4$ bersifat polar karena memiliki ikatan kovalen polar C-H, sedangkan $\\text{H}_2\\text{O}$ nonpolar akibat tolak-menolak pasangan elektron."
+        "text": "$\\text{CH}_4$ berbentuk bujur sangkar dan bersifat polar, sedangkan $\\text{H}_2\\text{O}$ berbentuk linier dan bersifat nonpolar sempurna ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\text{CH}_4$ berbentuk tetrahedral simetris dan bersifat nonpolar (momen dipol $\\mu = 0$), sedangkan $\\text{H}_2\\text{O}$ berbentuk huruf V (bengkok) dan bersifat polar ($\\mu > 0$) karena memiliki 2 pasangan elektron bebas (PEB).. CH4 memiliki 4 PEI dan 0 PEB (AX4 = tetrahedral simetris, nonpolar). H2O memiliki 2 PEI dan 2 PEB (AX2E2 = bentuk V/bengkok, asimetris, polar). CH4 tetrahedral nonpolar, H2O bentuk V polar."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{CH}_4$ berbentuk tetrahedral simetris dan bersifat nonpolar (momen dipol $\\mu = 0$), sedangkan $\\text{H}_2\\text{O}$ berbentuk huruf V (bengkok) dan bersifat polar ($\\mu > 0$) karena memiliki 2 pasangan elektron bebas (PEB).. CH4 memiliki 4 PEI dan 0 PEB (AX4 = tetrahedral simetris, nonpolar). H2O memiliki 2 PEI dan 2 PEB (AX2E2 = bentuk V/bengkok, asimetris, polar). CH4 tetrahedral nonpolar, H2O bentuk V polar."
   },
   {
     "id": "kim-lat-e-04",
@@ -154,27 +155,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Massa molekul relatif ($M_r$) air jauh lebih besar daripada massa molekul $\\text{H}_2\\text{S}$, $\\text{H}_2\\text{Se}$, dan $\\text{H}_2\\text{Te}$ menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
         "text": "Gaya dispersi London antarmolekul $\\text{H}_2\\text{O}$ memiliki energi interaksi terkuat di antara seluruh hidrida nonlogam."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Molekul air memiliki ikatan kovalen rangkap dua intramolekul yang sangat stabil dan sukar diputuskan."
       },
       {
+        "key": "C",
+        "text": "Massa molekul relatif ($M_r$) air jauh lebih besar daripada massa molekul $\\text{H}_2\\text{S}$, $\\text{H}_2\\text{Se}$, dan $\\text{H}_2\\text{Te}$ menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+      },
+      {
         "key": "D",
-        "text": "Antarmolekul $\\text{H}_2\\text{O}$ membentuk ikatan hidrogen intermolekul yang sangat kuat akibat perbedaan keelektronegatifan yang besar antara atom hidrogen dan atom oksigen yang berukuran kecil."
+        "text": "Air mengalami ionisasi sempurna di udara terbuka membentuk ion hidronium dan ion hidroksida."
       },
       {
         "key": "E",
-        "text": "Air mengalami ionisasi sempurna di udara terbuka membentuk ion hidronium dan ion hidroksida."
+        "text": "Antarmolekul $\\text{H}_2\\text{O}$ membentuk ikatan hidrogen intermolekul yang sangat kuat akibat perbedaan keelektronegatifan yang besar antara atom hidrogen dan atom oksigen yang berukuran kecil."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Antarmolekul $\\text{H}_2\\text{O}$ membentuk ikatan hidrogen intermolekul yang sangat kuat akibat perbedaan keelektronegatifan yang besar antara atom hidrogen dan atom oksigen yang berukuran kecil.. Senyawa yang memiliki atom H terikat langsung pada N, O, atau F memiliki ikatan hidrogen antarmolekul yang sangat kuat, menyebabkan titik didihnya melonjak anomali tinggi. Air memiliki ikatan hidrogen antarmolekul yang kuat."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Antarmolekul $\\text{H}_2\\text{O}$ membentuk ikatan hidrogen intermolekul yang sangat kuat akibat perbedaan keelektronegatifan yang besar antara atom hidrogen dan atom oksigen yang berukuran kecil.. Senyawa yang memiliki atom H terikat langsung pada N, O, atau F memiliki ikatan hidrogen antarmolekul yang sangat kuat, menyebabkan titik didihnya melonjak anomali tinggi. Air memiliki ikatan hidrogen antarmolekul yang kuat."
   },
   {
     "id": "kim-lat-e-05",
@@ -197,27 +198,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4{,}8\\text{ gram}$, karena beranggapan massa magnesium oksida sama persis dengan massa logam awal tanpa memperhitungkan massa oksigen pengikat diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
-        "text": "$6{,}4\\text{ gram}$, dihitung dari pengalian mol magnesium dengan massa molar gas diatomik oksigen murni."
-      },
-      {
-        "key": "C",
         "text": "$12{,}0\\text{ gram}$, dihitung dari koefisien dua pada magnesium oksida yang keliru dikalikan dua kali ke massa molar."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$16{,}0\\text{ gram}$, dihitung dari penjumlahan langsung massa magnesium dengan massa molar oksigen pembakar."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$6{,}4\\text{ gram}$, dihitung dari pengalian mol magnesium dengan massa molar gas diatomik oksigen murni."
+      },
+      {
+        "key": "D",
         "text": "$8{,}0\\text{ gram}$, karena jumlah mol magnesium yang bereaksi adalah $n_{\\text{Mg}} = \\frac{4{,}8\\text{ g}}{24\\text{ g/mol}} = 0{,}2\\text{ mol}$. Berdasarkan perbandingan koefisien reaksi, mol $\\text{MgO}$ yang dihasilkan sama dengan mol magnesium, yaitu $n_{\\text{MgO}} = 0{,}2\\text{ mol}$. Massa molar $\\text{MgO} = 24 + 16 = 40\\text{ g/mol}$, sehingga massa produk adalah $m = 0{,}2\\text{ mol} \\times 40\\text{ g/mol} = 8{,}0\\text{ gram}$."
+      },
+      {
+        "key": "E",
+        "text": "$4{,}8\\text{ gram}$, karena beranggapan massa magnesium oksida sama persis dengan massa logam awal tanpa memperhitungkan massa oksigen pengikat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $8{,}0\\text{ gram}$, karena jumlah mol magnesium yang bereaksi adalah $n_{\\text{Mg}} = \\frac{4{,}8\\text{ g}}{24\\text{ g/mol}} = 0{,}2\\text{ mol}$. Berdasarkan perbandingan koefisien reaksi, mol $\\text{MgO}$ yang dihasilkan sama dengan mol magnesium, yaitu $n_{\\text{MgO}} = 0{,}2\\text{ mol}$. Massa molar $\\text{MgO} = 24 + 16 = 40\\text{ g/mol}$, sehingga massa produk adalah $m = 0{,}2\\text{ mol} \\times 40\\text{ g/mol} = 8{,}0\\text{ gram}$.. Hitung mol Mg: 4,8 / 24 = 0,2 mol. Koefisien Mg : MgO = 2 : 2 = 1 : 1, jadi mol MgO = 0,2 mol. Massa MgO = 0,2 * Mr(MgO) = 0,2 * 40. m = 0,2 * 40 = 8,0 gram."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $8{,}0\\text{ gram}$, karena jumlah mol magnesium yang bereaksi adalah $n_{\\text{Mg}} = \\frac{4{,}8\\text{ g}}{24\\text{ g/mol}} = 0{,}2\\text{ mol}$. Berdasarkan perbandingan koefisien reaksi, mol $\\text{MgO}$ yang dihasilkan sama dengan mol magnesium, yaitu $n_{\\text{MgO}} = 0{,}2\\text{ mol}$. Massa molar $\\text{MgO} = 24 + 16 = 40\\text{ g/mol}$, sehingga massa produk adalah $m = 0{,}2\\text{ mol} \\times 40\\text{ g/mol} = 8{,}0\\text{ gram}$.. Hitung mol Mg: 4,8 / 24 = 0,2 mol. Koefisien Mg : MgO = 2 : 2 = 1 : 1, jadi mol MgO = 0,2 mol. Massa MgO = 0,2 * Mr(MgO) = 0,2 * 40. m = 0,2 * 40 = 8,0 gram."
   },
   {
     "id": "kim-lat-e-06",
@@ -240,27 +241,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50\\text{ liter}$ $\\text{O}_2$ dan $30\\text{ liter}$ $\\text{CO}_2$, karena menurut Hukum Gay-Lussac dan Avogadro, pada suhu dan tekanan yang sama perbandingan volume gas-gas yang bereaksi dan hasil reaksi berbanding lurus sebagai bilangan bulat sederhana yang sama dengan koefisien reaksinya ($V \\propto n$), sehingga $V_{\\text{O}_2} = \\frac{5}{1} \\times 10 = 50\\text{ liter}$ dan $V_{\\text{CO}_2} = \\frac{3}{1} \\times 10 = 30\\text{ liter}$."
+        "text": "$25\\text{ liter}$ $\\text{O}_2$ dan $15\\text{ liter}$ $\\text{CO}_2$, karena volume gas keliru dibagi dua saat perhitungan stoikiometri gas."
       },
       {
         "key": "B",
-        "text": "$25\\text{ liter}$ $\\text{O}_2$ dan $15\\text{ liter}$ $\\text{CO}_2$, karena volume gas keliru dibagi dua saat perhitungan stoikiometri gas sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
-        "text": "$50\\text{ liter}$ $\\text{O}_2$ dan $40\\text{ liter}$ $\\text{CO}_2$, karena tertukar antara koefisien gas karbon dioksida dengan koefisien uap air."
-      },
-      {
-        "key": "D",
         "text": "$10\\text{ liter}$ $\\text{O}_2$ dan $30\\text{ liter}$ $\\text{CO}_2$, karena mengabaikan koefisien lima pada reaktan gas oksigen pembakar."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$50\\text{ liter}$ $\\text{O}_2$ dan $30\\text{ liter}$ $\\text{CO}_2$, karena menurut Hukum Gay-Lussac dan Avogadro, pada suhu dan tekanan yang sama perbandingan volume gas-gas yang bereaksi dan hasil reaksi berbanding lurus sebagai bilangan bulat sederhana yang sama dengan koefisien reaksinya ($V \\propto n$), sehingga $V_{\\text{O}_2} = \\frac{5}{1} \\times 10 = 50\\text{ liter}$ dan $V_{\\text{CO}_2} = \\frac{3}{1} \\times 10 = 30\\text{ liter}$."
+      },
+      {
+        "key": "D",
         "text": "$100\\text{ liter}$ $\\text{O}_2$ dan $60\\text{ liter}$ $\\text{CO}_2$, dihitung dari perkalian kuadrat koefisien reaksi pembakaran senyawa hidrokarbon."
+      },
+      {
+        "key": "E",
+        "text": "$50\\text{ liter}$ $\\text{O}_2$ dan $40\\text{ liter}$ $\\text{CO}_2$, karena tertukar antara koefisien gas karbon dioksida dengan koefisien uap air."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $50\\text{ liter}$ $\\text{O}_2$ dan $30\\text{ liter}$ $\\text{CO}_2$, karena menurut Hukum Gay-Lussac dan Avogadro, pada suhu dan tekanan yang sama perbandingan volume gas-gas yang bereaksi dan hasil reaksi berbanding lurus sebagai bilangan bulat sederhana yang sama dengan koefisien reaksinya ($V \\propto n$), sehingga $V_{\\text{O}_2} = \\frac{5}{1} \\times 10 = 50\\text{ liter}$ dan $V_{\\text{CO}_2} = \\frac{3}{1} \\times 10 = 30\\text{ liter}$.. Pada P dan T sama, perbandingan volume gas = perbandingan koefisien reaksi. V(O2) = 5 * V(C3H8) = 5 * 10 = 50 L. V(CO2) = 3 * V(C3H8) = 3 * 10 = 30 L. V(O2) = 50 liter dan V(CO2) = 30 liter."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $50\\text{ liter}$ $\\text{O}_2$ dan $30\\text{ liter}$ $\\text{CO}_2$, karena menurut Hukum Gay-Lussac dan Avogadro, pada suhu dan tekanan yang sama perbandingan volume gas-gas yang bereaksi dan hasil reaksi berbanding lurus sebagai bilangan bulat sederhana yang sama dengan koefisien reaksinya ($V \\propto n$), sehingga $V_{\\text{O}_2} = \\frac{5}{1} \\times 10 = 50\\text{ liter}$ dan $V_{\\text{CO}_2} = \\frac{3}{1} \\times 10 = 30\\text{ liter}$.. Pada P dan T sama, perbandingan volume gas = perbandingan koefisien reaksi. V(O2) = 5 * V(C3H8) = 5 * 10 = 50 L. V(CO2) = 3 * V(C3H8) = 3 * 10 = 30 L. V(O2) = 50 liter dan V(CO2) = 30 liter."
   },
   {
     "id": "kim-lat-e-07",
@@ -283,15 +284,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2{,}3$, karena konsentrasi asam sulfat tidak dikalikan dengan valensi asam diprotik dua sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$\\text{pH}_1 = 1$ dan $\\text{pH}_2 = 2$, karena terjadi kekeliruan dalam menghitung nilai logaritma negatif konsentrasi ion hidrogen."
       },
       {
         "key": "B",
-        "text": "$\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2$, karena $\\text{HCl}$ adalah asam kuat bervalensi satu (valensi $a = 1$) sehingga $[\\text{H}^+] = a \\times M = 1 \\times 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$. Larutan $\\text{H}_2\\text{SO}_4$ adalah asam kuat bervalensi dua (valensi $a = 2$) sehingga $[\\text{H}^+] = a \\times M = 2 \\times 0{,}005 = 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$."
+        "text": "$\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2{,}3$, karena konsentrasi asam sulfat tidak dikalikan dengan valensi asam diprotik dua."
       },
       {
         "key": "C",
-        "text": "$\\text{pH}_1 = 1$ dan $\\text{pH}_2 = 2$, karena terjadi kekeliruan dalam menghitung nilai logaritma negatif konsentrasi ion hidrogen."
+        "text": "$\\text{pH}_1 = 12$ dan $\\text{pH}_2 = 12$, karena tertukar dengan nilai pOH larutan basa kuat alkali hidroksida."
       },
       {
         "key": "D",
@@ -299,11 +300,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{pH}_1 = 12$ dan $\\text{pH}_2 = 12$, karena tertukar dengan nilai pOH larutan basa kuat alkali hidroksida."
+        "text": "$\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2$, karena $\\text{HCl}$ adalah asam kuat bervalensi satu (valensi $a = 1$) sehingga $[\\text{H}^+] = a \\times M = 1 \\times 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$. Larutan $\\text{H}_2\\text{SO}_4$ adalah asam kuat bervalensi dua (valensi $a = 2$) sehingga $[\\text{H}^+] = a \\times M = 2 \\times 0{,}005 = 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2$, karena $\\text{HCl}$ adalah asam kuat bervalensi satu (valensi $a = 1$) sehingga $[\\text{H}^+] = a \\times M = 1 \\times 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$. Larutan $\\text{H}_2\\text{SO}_4$ adalah asam kuat bervalensi dua (valensi $a = 2$) sehingga $[\\text{H}^+] = a \\times M = 2 \\times 0{,}005 = 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$.. HCl bervalensi 1: [H+] = 1 * 0,01 = 10^-2 M -> pH = 2. H2SO4 bervalensi 2: [H+] = 2 * 0,005 = 0,01 = 10^-2 M -> pH = 2. Kedua larutan memiliki [H+] = 10^-2 M, sehingga pH keduanya sama dengan 2."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\text{pH}_1 = 2$ dan $\\text{pH}_2 = 2$, karena $\\text{HCl}$ adalah asam kuat bervalensi satu (valensi $a = 1$) sehingga $[\\text{H}^+] = a \\times M = 1 \\times 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$. Larutan $\\text{H}_2\\text{SO}_4$ adalah asam kuat bervalensi dua (valensi $a = 2$) sehingga $[\\text{H}^+] = a \\times M = 2 \\times 0{,}005 = 0{,}01 = 10^{-2}\\text{ M} \\implies \\text{pH} = -\\log(10^{-2}) = 2$.. HCl bervalensi 1: [H+] = 1 * 0,01 = 10^-2 M -> pH = 2. H2SO4 bervalensi 2: [H+] = 2 * 0,005 = 0,01 = 10^-2 M -> pH = 2. Kedua larutan memiliki [H+] = 10^-2 M, sehingga pH keduanya sama dengan 2."
   },
   {
     "id": "kim-lat-e-08",
@@ -326,27 +327,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$[\\text{H}^+] = 10^{-2}\\text{ M}$, $\\text{pH} = 2$, dan $\\alpha = 10\\%$, karena asam asetat keliru dihitung sebagai asam kuat tanpa akar tetapan kesetimbangan ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "$[\\text{H}^+] = 10^{-4}\\text{ M}$, $\\text{pH} = 4$, dan $\\alpha = 0{,}1\\%$, dihitung dari kesalahan pemangkatan akar kuadrat konsentrasi asam."
       },
       {
-        "key": "C",
-        "text": "$[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 3$, dan $\\alpha = 1\\%$ (atau $0{,}01$), karena asam asetat adalah asam lemah yang terionisasi sebagian: $[\\text{H}^+] = \\sqrt{K_a \\cdot M} = \\sqrt{(10^{-5}) \\times 0{,}1} = \\sqrt{10^{-6}} = 10^{-3}\\text{ M}$, sehingga $\\text{pH} = -\\log(10^{-3}) = 3$. Derajat ionisasinya adalah $\\alpha = \\sqrt{\\frac{K_a}{M}} = \\sqrt{\\frac{10^{-5}}{0{,}1}} = \\sqrt{10^{-4}} = 10^{-2} = 0{,}01 = 1\\%$."
+        "key": "B",
+        "text": "$[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 11$, dan $\\alpha = 1\\%$, karena nilai pH tertukar dengan nilai pOH pada skala kebasaan."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$[\\text{H}^+] = 10^{-5}\\text{ M}$, $\\text{pH} = 5$, dan $\\alpha = 0{,}01\\%$, karena menyamakan konsentrasi ion hidrogen dengan nilai Ka murni."
       },
       {
+        "key": "D",
+        "text": "$[\\text{H}^+] = 10^{-2}\\text{ M}$, $\\text{pH} = 2$, dan $\\alpha = 10\\%$, karena asam asetat keliru dihitung sebagai asam kuat tanpa akar tetapan kesetimbangan ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
         "key": "E",
-        "text": "$[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 11$, dan $\\alpha = 1\\%$, karena nilai pH tertukar dengan nilai pOH pada skala kebasaan."
+        "text": "$[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 3$, dan $\\alpha = 1\\%$ (atau $0{,}01$), karena asam asetat adalah asam lemah yang terionisasi sebagian: $[\\text{H}^+] = \\sqrt{K_a \\cdot M} = \\sqrt{(10^{-5}) \\times 0{,}1} = \\sqrt{10^{-6}} = 10^{-3}\\text{ M}$, sehingga $\\text{pH} = -\\log(10^{-3}) = 3$. Derajat ionisasinya adalah $\\alpha = \\sqrt{\\frac{K_a}{M}} = \\sqrt{\\frac{10^{-5}}{0{,}1}} = \\sqrt{10^{-4}} = 10^{-2} = 0{,}01 = 1\\%$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 3$, dan $\\alpha = 1\\%$ (atau $0{,}01$), karena asam asetat adalah asam lemah yang terionisasi sebagian: $[\\text{H}^+] = \\sqrt{K_a \\cdot M} = \\sqrt{(10^{-5}) \\times 0{,}1} = \\sqrt{10^{-6}} = 10^{-3}\\text{ M}$, sehingga $\\text{pH} = -\\log(10^{-3}) = 3$. Derajat ionisasinya adalah $\\alpha = \\sqrt{\\frac{K_a}{M}} = \\sqrt{\\frac{10^{-5}}{0{,}1}} = \\sqrt{10^{-4}} = 10^{-2} = 0{,}01 = 1\\%$.. Asam lemah: [H+] = sqrt(Ka * M) = sqrt(1e-5 * 0,1) = 1e-3 M. pH = -log(1e-3) = 3. Derajat ionisasi alpha = [H+] / M = 1e-3 / 0,1 = 0,01 = 1%. [H+] = 10^-3 M, pH = 3, alpha = 1%."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $[\\text{H}^+] = 10^{-3}\\text{ M}$, $\\text{pH} = 3$, dan $\\alpha = 1\\%$ (atau $0{,}01$), karena asam asetat adalah asam lemah yang terionisasi sebagian: $[\\text{H}^+] = \\sqrt{K_a \\cdot M} = \\sqrt{(10^{-5}) \\times 0{,}1} = \\sqrt{10^{-6}} = 10^{-3}\\text{ M}$, sehingga $\\text{pH} = -\\log(10^{-3}) = 3$. Derajat ionisasinya adalah $\\alpha = \\sqrt{\\frac{K_a}{M}} = \\sqrt{\\frac{10^{-5}}{0{,}1}} = \\sqrt{10^{-4}} = 10^{-2} = 0{,}01 = 1\\%$.. Asam lemah: [H+] = sqrt(Ka * M) = sqrt(1e-5 * 0,1) = 1e-3 M. pH = -log(1e-3) = 3. Derajat ionisasi alpha = [H+] / M = 1e-3 / 0,1 = 0,01 = 1%. [H+] = 10^-3 M, pH = 3, alpha = 1%."
   },
   {
     "id": "kim-lat-e-09",
@@ -369,27 +370,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Campuran 2 dan Campuran 4, karena basa kuat NaOH bersisa pada campuran 2 dan HCl membentuk larutan asam kuat pada campuran 4 menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
         "text": "Hanya Campuran 1, karena campuran 3 dianggap membentuk garam terhidrolisis murni tanpa sisa basa lemah."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Campuran 1 dan Campuran 2, karena keduanya sama-sama mereaksikan asam asetat dengan natrium hidroksida."
       },
       {
+        "key": "C",
+        "text": "Semua campuran (1, 2, 3, dan 4) menghasilkan larutan penyangga karena terjadi reaksi netralisasi asam-basa."
+      },
+      {
         "key": "D",
-        "text": "Campuran 1 dan Campuran 3, karena pada campuran 1 terdapat sisa asam lemah $\\text{CH}_3\\text{COOH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam basa konjugasi $\\text{CH}_3\\text{COONa}$ ($5\\text{ mmol}$), sedangkan pada campuran 3 terdapat sisa basa lemah $\\text{NH}_4\\text{OH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam asam konjugasi $\\text{NH}_4\\text{Cl}$ ($5\\text{ mmol}$)."
+        "text": "Campuran 2 dan Campuran 4, karena basa kuat NaOH bersisa pada campuran 2 dan HCl membentuk larutan asam kuat pada campuran 4 menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "E",
-        "text": "Semua campuran (1, 2, 3, dan 4) menghasilkan larutan penyangga karena terjadi reaksi netralisasi asam-basa."
+        "text": "Campuran 1 dan Campuran 3, karena pada campuran 1 terdapat sisa asam lemah $\\text{CH}_3\\text{COOH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam basa konjugasi $\\text{CH}_3\\text{COONa}$ ($5\\text{ mmol}$), sedangkan pada campuran 3 terdapat sisa basa lemah $\\text{NH}_4\\text{OH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam asam konjugasi $\\text{NH}_4\\text{Cl}$ ($5\\text{ mmol}$)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Campuran 1 dan Campuran 3, karena pada campuran 1 terdapat sisa asam lemah $\\text{CH}_3\\text{COOH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam basa konjugasi $\\text{CH}_3\\text{COONa}$ ($5\\text{ mmol}$), sedangkan pada campuran 3 terdapat sisa basa lemah $\\text{NH}_4\\text{OH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam asam konjugasi $\\text{NH}_4\\text{Cl}$ ($5\\text{ mmol}$).. Buffer terbentuk jika asam lemah bersisa setelah bereaksi dengan basa kuat, atau basa lemah bersisa setelah bereaksi dengan asam kuat. Campuran 1 sisa CH3COOH (buffer asam). Campuran 3 sisa NH4OH (buffer basa). Jawab: 1 dan 3."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Campuran 1 dan Campuran 3, karena pada campuran 1 terdapat sisa asam lemah $\\text{CH}_3\\text{COOH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam basa konjugasi $\\text{CH}_3\\text{COONa}$ ($5\\text{ mmol}$), sedangkan pada campuran 3 terdapat sisa basa lemah $\\text{NH}_4\\text{OH}$ ($10 - 5 = 5\\text{ mmol}$) dan garam asam konjugasi $\\text{NH}_4\\text{Cl}$ ($5\\text{ mmol}$).. Buffer terbentuk jika asam lemah bersisa setelah bereaksi dengan basa kuat, atau basa lemah bersisa setelah bereaksi dengan asam kuat. Campuran 1 sisa CH3COOH (buffer asam). Campuran 3 sisa NH4OH (buffer basa). Jawab: 1 dan 3."
   },
   {
     "id": "kim-lat-e-10",
@@ -412,7 +413,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{pH} = 5 + \\log 2 \\approx 5{,}3$, karena rasio asam terhadap garam keliru dibalik menjadi garam dibagi asam pada perhitungan konsentrasi ion hidrogen diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$\\text{pH} = 4{,}0$, dihitung dari pembagian tetapan Ka dengan rasio volume total campuran."
       },
       {
         "key": "B",
@@ -420,19 +421,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\text{pH} = 4{,}0$, dihitung dari pembagian tetapan Ka dengan rasio volume total campuran."
-      },
-      {
-        "key": "D",
         "text": "$\\text{pH} = 9{,}3$, karena tertukar dengan nilai pH larutan penyangga basa amonia."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$\\text{pH} = 5 - \\log 2 \\approx 4{,}7$, karena jumlah mol asam asetat adalah $n_{\\text{asam}} = 100\\text{ mL} \\times 0{,}2\\text{ M} = 20\\text{ mmol}$ dan jumlah mol garam basa konjugasi adalah $n_{\\text{garam}} = 100\\text{ mL} \\times 0{,}1\\text{ M} = 10\\text{ mmol}$. Berdasarkan persamaan Henderson-Hasselbalch: $[\\text{H}^+] = K_a \\times \\frac{n_{\\text{asam}}}{n_{\\text{garam}}} = 10^{-5} \\times \\frac{20}{10} = 2 \\times 10^{-5}\\text{ M}$, sehingga $\\text{pH} = -\\log(2 \\times 10^{-5}) = 5 - \\log 2 \\approx 4{,}70$."
+      },
+      {
+        "key": "E",
+        "text": "$\\text{pH} = 5 + \\log 2 \\approx 5{,}3$, karena rasio asam terhadap garam keliru dibalik menjadi garam dibagi asam pada perhitungan konsentrasi ion hidrogen."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{pH} = 5 - \\log 2 \\approx 4{,}7$, karena jumlah mol asam asetat adalah $n_{\\text{asam}} = 100\\text{ mL} \\times 0{,}2\\text{ M} = 20\\text{ mmol}$ dan jumlah mol garam basa konjugasi adalah $n_{\\text{garam}} = 100\\text{ mL} \\times 0{,}1\\text{ M} = 10\\text{ mmol}$. Berdasarkan persamaan Henderson-Hasselbalch: $[\\text{H}^+] = K_a \\times \\frac{n_{\\text{asam}}}{n_{\\text{garam}}} = 10^{-5} \\times \\frac{20}{10} = 2 \\times 10^{-5}\\text{ M}$, sehingga $\\text{pH} = -\\log(2 \\times 10^{-5}) = 5 - \\log 2 \\approx 4{,}70$.. Gunakan rumus buffer asam: [H+] = Ka * (mol asam / mol garam). Mol CH3COOH = 100 * 0,2 = 20 mmol. Mol CH3COONa = 100 * 0,1 = 10 mmol. [H+] = 1e-5 * (20 / 10) = 2e-5 M. pH = -log(2e-5) = 5 - log 2."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{pH} = 5 - \\log 2 \\approx 4{,}7$, karena jumlah mol asam asetat adalah $n_{\\text{asam}} = 100\\text{ mL} \\times 0{,}2\\text{ M} = 20\\text{ mmol}$ dan jumlah mol garam basa konjugasi adalah $n_{\\text{garam}} = 100\\text{ mL} \\times 0{,}1\\text{ M} = 10\\text{ mmol}$. Berdasarkan persamaan Henderson-Hasselbalch: $[\\text{H}^+] = K_a \\times \\frac{n_{\\text{asam}}}{n_{\\text{garam}}} = 10^{-5} \\times \\frac{20}{10} = 2 \\times 10^{-5}\\text{ M}$, sehingga $\\text{pH} = -\\log(2 \\times 10^{-5}) = 5 - \\log 2 \\approx 4{,}70$.. Gunakan rumus buffer asam: [H+] = Ka * (mol asam / mol garam). Mol CH3COOH = 100 * 0,2 = 20 mmol. Mol CH3COONa = 100 * 0,1 = 10 mmol. [H+] = 1e-5 * (20 / 10) = 2e-5 M. pH = -log(2e-5) = 5 - log 2."
   },
   {
     "id": "kim-lat-e-11",
@@ -455,11 +456,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bersifat asam dengan $\\text{pH} = 5$, karena $\\text{NH}_4\\text{Cl}$ terbentuk dari kation basa lemah $\\text{NH}_4^+$ dan anion asam kuat $\\text{Cl}^-$. Kation $\\text{NH}_4^+$ mengalami hidrolisis parsial menghasilkan ion hidronium: $\\text{NH}_4^+ + \\text{H}_2\\text{O} \\rightleftharpoons \\text{NH}_4\\text{OH} + \\text{H}^+$. Konsentrasi ion hidrogen dihitung dari $[\\text{H}^+] = \\sqrt{\\frac{K_w}{K_b} [\\text{garam}]} = \\sqrt{\\frac{10^{-14}}{10^{-5}} \\times 0{,}1} = \\sqrt{10^{-9} \\times 10^{-1}} = \\sqrt{10^{-10}} = 10^{-5}\\text{ M} \\implies \\text{pH} = 5$."
+        "text": "Bersifat basa dengan $\\text{pH} = 9$, karena formula hidrolisis keliru dihitung menghasilkan ion hidroksida bukan ion hidronium."
       },
       {
         "key": "B",
-        "text": "Bersifat basa dengan $\\text{pH} = 9$, karena formula hidrolisis keliru dihitung menghasilkan ion hidroksida bukan ion hidronium sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Bersifat asam dengan $\\text{pH} = 3$, dihitung tanpa menyertakan tetapan kesetimbangan air Kw di bawah tanda akar."
       },
       {
         "key": "C",
@@ -467,15 +468,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Bersifat asam dengan $\\text{pH} = 3$, dihitung tanpa menyertakan tetapan kesetimbangan air Kw di bawah tanda akar."
+        "text": "Bersifat asam dengan $\\text{pH} = 5$, karena $\\text{NH}_4\\text{Cl}$ terbentuk dari kation basa lemah $\\text{NH}_4^+$ dan anion asam kuat $\\text{Cl}^-$. Kation $\\text{NH}_4^+$ mengalami hidrolisis parsial menghasilkan ion hidronium: $\\text{NH}_4^+ + \\text{H}_2\\text{O} \\rightleftharpoons \\text{NH}_4\\text{OH} + \\text{H}^+$. Konsentrasi ion hidrogen dihitung dari $[\\text{H}^+] = \\sqrt{\\frac{K_w}{K_b} [\\text{garam}]} = \\sqrt{\\frac{10^{-14}}{10^{-5}} \\times 0{,}1} = \\sqrt{10^{-9} \\times 10^{-1}} = \\sqrt{10^{-10}} = 10^{-5}\\text{ M} \\implies \\text{pH} = 5$."
       },
       {
         "key": "E",
         "text": "Bersifat basa dengan $\\text{pH} = 11$, dihitung dari konsentrasi amonia basa lemah bebas di udara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Bersifat asam dengan $\\text{pH} = 5$, karena $\\text{NH}_4\\text{Cl}$ terbentuk dari kation basa lemah $\\text{NH}_4^+$ dan anion asam kuat $\\text{Cl}^-$. Kation $\\text{NH}_4^+$ mengalami hidrolisis parsial menghasilkan ion hidronium: $\\text{NH}_4^+ + \\text{H}_2\\text{O} \\rightleftharpoons \\text{NH}_4\\text{OH} + \\text{H}^+$. Konsentrasi ion hidrogen dihitung dari $[\\text{H}^+] = \\sqrt{\\frac{K_w}{K_b} [\\text{garam}]} = \\sqrt{\\frac{10^{-14}}{10^{-5}} \\times 0{,}1} = \\sqrt{10^{-9} \\times 10^{-1}} = \\sqrt{10^{-10}} = 10^{-5}\\text{ M} \\implies \\text{pH} = 5$.. NH4Cl adalah garam dari asam kuat (HCl) dan basa lemah (NH4OH), sehingga terhidrolisis kationnya dan bersifat asam. [H+] = sqrt(Kw / Kb * [garam]). [H+] = sqrt(1e-14 / 1e-5 * 0,1) = sqrt(1e-10) = 1e-5 M. pH = 5 (bersifat asam)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Bersifat asam dengan $\\text{pH} = 5$, karena $\\text{NH}_4\\text{Cl}$ terbentuk dari kation basa lemah $\\text{NH}_4^+$ dan anion asam kuat $\\text{Cl}^-$. Kation $\\text{NH}_4^+$ mengalami hidrolisis parsial menghasilkan ion hidronium: $\\text{NH}_4^+ + \\text{H}_2\\text{O} \\rightleftharpoons \\text{NH}_4\\text{OH} + \\text{H}^+$. Konsentrasi ion hidrogen dihitung dari $[\\text{H}^+] = \\sqrt{\\frac{K_w}{K_b} [\\text{garam}]} = \\sqrt{\\frac{10^{-14}}{10^{-5}} \\times 0{,}1} = \\sqrt{10^{-9} \\times 10^{-1}} = \\sqrt{10^{-10}} = 10^{-5}\\text{ M} \\implies \\text{pH} = 5$.. NH4Cl adalah garam dari asam kuat (HCl) dan basa lemah (NH4OH), sehingga terhidrolisis kationnya dan bersifat asam. [H+] = sqrt(Kw / Kb * [garam]). [H+] = sqrt(1e-14 / 1e-5 * 0,1) = sqrt(1e-10) = 1e-5 M. pH = 5 (bersifat asam)."
   },
   {
     "id": "kim-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$K_{sp} = 1{,}6 \\times 10^{-11}$, karena koefisien ion fluorida keliru tidak dipangkatkan dua pada persamaan aksi massa Ksp sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$K_{sp} = 4{,}0 \\times 10^{-8}$, karena garam dianggap terionisasi biner membentuk ion satu banding satu ($K_{sp} = s^2$)."
       },
       {
         "key": "B",
-        "text": "$K_{sp} = 3{,}2 \\times 10^{-11}$, karena reaksi ionisasinya adalah $\\text{CaF}_2(s) \\rightleftharpoons \\text{Ca}^{2+}(aq) + 2\\,\\text{F}^-(aq)$, sehingga $[\\text{Ca}^{2+}] = s$ dan $[\\text{F}^-] = 2s$. Rumus hasil kali kelarutan adalah $K_{sp} = [\\text{Ca}^{2+}][\\text{F}^-]^2 = (s)(2s)^2 = 4s^3 = 4 \\times (2 \\times 10^{-4})^3 = 4 \\times (8 \\times 10^{-12}) = 32 \\times 10^{-12} = 3{,}2 \\times 10^{-11}$."
-      },
-      {
-        "key": "C",
         "text": "$K_{sp} = 8{,}0 \\times 10^{-12}$, dihitung dari perkalian kelarutan ion tanpa menyertakan koefisien stoikiometri empat."
       },
       {
+        "key": "C",
+        "text": "$K_{sp} = 3{,}2 \\times 10^{-11}$, karena reaksi ionisasinya adalah $\\text{CaF}_2(s) \\rightleftharpoons \\text{Ca}^{2+}(aq) + 2\\,\\text{F}^-(aq)$, sehingga $[\\text{Ca}^{2+}] = s$ dan $[\\text{F}^-] = 2s$. Rumus hasil kali kelarutan adalah $K_{sp} = [\\text{Ca}^{2+}][\\text{F}^-]^2 = (s)(2s)^2 = 4s^3 = 4 \\times (2 \\times 10^{-4})^3 = 4 \\times (8 \\times 10^{-12}) = 32 \\times 10^{-12} = 3{,}2 \\times 10^{-11}$."
+      },
+      {
         "key": "D",
-        "text": "$K_{sp} = 4{,}0 \\times 10^{-8}$, karena garam dianggap terionisasi biner membentuk ion satu banding satu ($K_{sp} = s^2$)."
+        "text": "$K_{sp} = 1{,}6 \\times 10^{-11}$, karena koefisien ion fluorida keliru tidak dipangkatkan dua pada persamaan aksi massa Ksp."
       },
       {
         "key": "E",
         "text": "$K_{sp} = 6{,}4 \\times 10^{-10}$, dihitung dari penggandaan kuadrat muatan kation kalsium."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $K_{sp} = 3{,}2 \\times 10^{-11}$, karena reaksi ionisasinya adalah $\\text{CaF}_2(s) \\rightleftharpoons \\text{Ca}^{2+}(aq) + 2\\,\\text{F}^-(aq)$, sehingga $[\\text{Ca}^{2+}] = s$ dan $[\\text{F}^-] = 2s$. Rumus hasil kali kelarutan adalah $K_{sp} = [\\text{Ca}^{2+}][\\text{F}^-]^2 = (s)(2s)^2 = 4s^3 = 4 \\times (2 \\times 10^{-4})^3 = 4 \\times (8 \\times 10^{-12}) = 32 \\times 10^{-12} = 3{,}2 \\times 10^{-11}$.. Reaksi ionisasi: CaF2 -> Ca2+ + 2F-. Jika kelarutan CaF2 = s, maka [Ca2+] = s dan [F-] = 2s. Ksp = [Ca2+] * [F-]^2 = s * (2s)^2 = 4s^3. Ksp = 4 * (2e-4)^3 = 4 * 8e-12 = 32e-12 = 3,2 x 10^-11."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $K_{sp} = 3{,}2 \\times 10^{-11}$, karena reaksi ionisasinya adalah $\\text{CaF}_2(s) \\rightleftharpoons \\text{Ca}^{2+}(aq) + 2\\,\\text{F}^-(aq)$, sehingga $[\\text{Ca}^{2+}] = s$ dan $[\\text{F}^-] = 2s$. Rumus hasil kali kelarutan adalah $K_{sp} = [\\text{Ca}^{2+}][\\text{F}^-]^2 = (s)(2s)^2 = 4s^3 = 4 \\times (2 \\times 10^{-4})^3 = 4 \\times (8 \\times 10^{-12}) = 32 \\times 10^{-12} = 3{,}2 \\times 10^{-11}$.. Reaksi ionisasi: CaF2 -> Ca2+ + 2F-. Jika kelarutan CaF2 = s, maka [Ca2+] = s dan [F-] = 2s. Ksp = [Ca2+] * [F-]^2 = s * (2s)^2 = 4s^3. Ksp = 4 * (2e-4)^3 = 4 * 8e-12 = 32e-12 = 3,2 x 10^-11."
   },
   {
     "id": "kim-lat-e-13",
@@ -541,27 +542,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1 \\times 10^{-5}\\text{ mol/L}$, karena merupakan nilai kelarutan perak klorida dalam air murni tanpa kehadiran ion sejenis ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "$1 \\times 10^{-6}\\text{ mol/L}$, dihitung dari kesalahan pembagian pangkat eksponen tetapan hasil kali kelarutan."
       },
       {
+        "key": "B",
+        "text": "$1 \\times 10^{-8}\\text{ mol/L}$, karena di dalam larutan $\\text{NaCl } 0{,}01\\text{ M}$ terdapat ion sejenis $\\text{Cl}^-$ dengan konsentrasi $[ ext{Cl}^-] = 0{,}01\\text{ M} = 10^{-2}\\text{ M}$. Kelarutan $\\text{AgCl}$ ($s'$) mengalami penekanan kesetimbangan menurut asas Le Chatelier, sehingga $K_{sp} = [\\text{Ag}^+][\\text{Cl}^-] \\implies 10^{-10} = s' \\times 10^{-2} \\implies s' = \\frac{10^{-10}}{10^{-2}} = 10^{-8}\\text{ mol/L}$ (jauh lebih kecil dibandingkan kelarutannya dalam air murni $s = 10^{-5}\\text{ mol/L}$)."
+      },
+      {
         "key": "C",
-        "text": "$1 \\times 10^{-8}\\text{ mol/L}$, karena di dalam larutan $\\text{NaCl } 0{,}01\\text{ M}$ terdapat ion sejenis $\\text{Cl}^-$ dengan konsentrasi $[\text{Cl}^-] = 0{,}01\\text{ M} = 10^{-2}\\text{ M}$. Kelarutan $\\text{AgCl}$ ($s'$) mengalami penekanan kesetimbangan menurut asas Le Chatelier, sehingga $K_{sp} = [\\text{Ag}^+][\\text{Cl}^-] \\implies 10^{-10} = s' \\times 10^{-2} \\implies s' = \\frac{10^{-10}}{10^{-2}} = 10^{-8}\\text{ mol/L}$ (jauh lebih kecil dibandingkan kelarutannya dalam air murni $s = 10^{-5}\\text{ mol/L}$)."
+        "text": "$1 \\times 10^{-5}\\text{ mol/L}$, karena merupakan nilai kelarutan perak klorida dalam air murni tanpa kehadiran ion sejenis ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "D",
-        "text": "$1 \\times 10^{-12}\\text{ mol/L}$, karena konsentrasi ion klorida keliru dikalikan dengan tetapan kelarutan."
+        "text": "$2 \\times 10^{-8}\\text{ mol/L}$, dihitung dari penggandaan kelarutan ion perak dalam pelarut berair."
       },
       {
         "key": "E",
-        "text": "$2 \\times 10^{-8}\\text{ mol/L}$, dihitung dari penggandaan kelarutan ion perak dalam pelarut berair."
+        "text": "$1 \\times 10^{-12}\\text{ mol/L}$, karena konsentrasi ion klorida keliru dikalikan dengan tetapan kelarutan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $1 \\times 10^{-8}\\text{ mol/L}$, karena di dalam larutan $\\text{NaCl } 0{,}01\\text{ M}$ terdapat ion sejenis $\\text{Cl}^-$ dengan konsentrasi $[\text{Cl}^-] = 0{,}01\\text{ M} = 10^{-2}\\text{ M}$. Kelarutan $\\text{AgCl}$ ($s'$) mengalami penekanan kesetimbangan menurut asas Le Chatelier, sehingga $K_{sp} = [\\text{Ag}^+][\\text{Cl}^-] \\implies 10^{-10} = s' \\times 10^{-2} \\implies s' = \\frac{10^{-10}}{10^{-2}} = 10^{-8}\\text{ mol/L}$ (jauh lebih kecil dibandingkan kelarutannya dalam air murni $s = 10^{-5}\\text{ mol/L}$).. Ion sejenis Cl- dari NaCl menekan kelarutan AgCl. [Cl-] = 0,01 = 10^-2 M. Ksp = [Ag+] * [Cl-] -> [Ag+] = s' = Ksp / [Cl-]. s' = 1e-10 / 1e-2 = 1e-8 mol/L."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $1 \\times 10^{-8}\\text{ mol/L}$, karena di dalam larutan $\\text{NaCl } 0{,}01\\text{ M}$ terdapat ion sejenis $\\text{Cl}^-$ dengan konsentrasi $[\text{Cl}^-] = 0{,}01\\text{ M} = 10^{-2}\\text{ M}$. Kelarutan $\\text{AgCl}$ ($s'$) mengalami penekanan kesetimbangan menurut asas Le Chatelier, sehingga $K_{sp} = [\\text{Ag}^+][\\text{Cl}^-] \\implies 10^{-10} = s' \\times 10^{-2} \\implies s' = \\frac{10^{-10}}{10^{-2}} = 10^{-8}\\text{ mol/L}$ (jauh lebih kecil dibandingkan kelarutannya dalam air murni $s = 10^{-5}\\text{ mol/L}$).. Ion sejenis Cl- dari NaCl menekan kelarutan AgCl. [Cl-] = 0,01 = 10^-2 M. Ksp = [Ag+] * [Cl-] -> [Ag+] = s' = Ksp / [Cl-]. s' = 1e-10 / 1e-2 = 1e-8 mol/L."
   },
   {
     "id": "kim-lat-e-14",
@@ -584,7 +585,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$+0{,}372^\\circ\\text{C}$, karena tertukar antara nilai penurunan titik beku dengan titik beku aktual larutan menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$+0{,}372^\\circ\\text{C}$, karena tertukar antara nilai penurunan titik beku dengan titik beku aktual larutan menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "B",
@@ -592,19 +593,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$-0{,}744^\\circ\\text{C}$, dihitung dengan mengalikan faktor Van 't Hoff dua seolah glukosa adalah larutan elektrolit biner."
+        "text": "$-0{,}372^\\circ\\text{C}$, karena glukosa adalah zat nonelektrolit (faktor Van 't Hoff $i = 1$). Jumlah mol glukosa adalah $n = \\frac{18}{180} = 0{,}1\\text{ mol}$. Molalitas larutan adalah $m = \\frac{n}{p\\text{ (kg)}} = \\frac{0{,}1\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}2\\text{ m}$. Penurunan titik beku larutan adalah $\\Delta T_f = m \\times K_f = 0{,}2 \\times 1{,}86 = 0{,}372^\\circ\\text{C}$. Karena titik beku air murni adalah $0^\\circ\\text{C}$, maka titik beku larutan adalah $T_f = 0 - \\Delta T_f = -0{,}372^\\circ\\text{C}$."
       },
       {
         "key": "D",
-        "text": "$-0{,}372^\\circ\\text{C}$, karena glukosa adalah zat nonelektrolit (faktor Van 't Hoff $i = 1$). Jumlah mol glukosa adalah $n = \\frac{18}{180} = 0{,}1\\text{ mol}$. Molalitas larutan adalah $m = \\frac{n}{p\\text{ (kg)}} = \\frac{0{,}1\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}2\\text{ m}$. Penurunan titik beku larutan adalah $\\Delta T_f = m \\times K_f = 0{,}2 \\times 1{,}86 = 0{,}372^\\circ\\text{C}$. Karena titik beku air murni adalah $0^\\circ\\text{C}$, maka titik beku larutan adalah $T_f = 0 - \\Delta T_f = -0{,}372^\\circ\\text{C}$."
+        "text": "$-0{,}744^\\circ\\text{C}$, dihitung dengan mengalikan faktor Van 't Hoff dua seolah glukosa adalah larutan elektrolit biner."
       },
       {
         "key": "E",
         "text": "$-1{,}860^\\circ\\text{C}$, dihitung dari anggapan bahwa larutan memiliki konsentrasi satu molal standar."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $-0{,}372^\\circ\\text{C}$, karena glukosa adalah zat nonelektrolit (faktor Van 't Hoff $i = 1$). Jumlah mol glukosa adalah $n = \\frac{18}{180} = 0{,}1\\text{ mol}$. Molalitas larutan adalah $m = \\frac{n}{p\\text{ (kg)}} = \\frac{0{,}1\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}2\\text{ m}$. Penurunan titik beku larutan adalah $\\Delta T_f = m \\times K_f = 0{,}2 \\times 1{,}86 = 0{,}372^\\circ\\text{C}$. Karena titik beku air murni adalah $0^\\circ\\text{C}$, maka titik beku larutan adalah $T_f = 0 - \\Delta T_f = -0{,}372^\\circ\\text{C}$.. Molalitas m = (18/180) / 0,5 kg = 0,2 m. Penurunan titik beku Delta_Tf = m * Kf = 0,2 * 1,86 = 0,372 C. Titik beku Tf = 0 - Delta_Tf = -0,372 C. Tf = -0,372 C."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $-0{,}372^\\circ\\text{C}$, karena glukosa adalah zat nonelektrolit (faktor Van 't Hoff $i = 1$). Jumlah mol glukosa adalah $n = \\frac{18}{180} = 0{,}1\\text{ mol}$. Molalitas larutan adalah $m = \\frac{n}{p\\text{ (kg)}} = \\frac{0{,}1\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}2\\text{ m}$. Penurunan titik beku larutan adalah $\\Delta T_f = m \\times K_f = 0{,}2 \\times 1{,}86 = 0{,}372^\\circ\\text{C}$. Karena titik beku air murni adalah $0^\\circ\\text{C}$, maka titik beku larutan adalah $T_f = 0 - \\Delta T_f = -0{,}372^\\circ\\text{C}$.. Molalitas m = (18/180) / 0,5 kg = 0,2 m. Penurunan titik beku Delta_Tf = m * Kf = 0,2 * 1,86 = 0,372 C. Titik beku Tf = 0 - Delta_Tf = -0,372 C. Tf = -0,372 C."
   },
   {
     "id": "kim-lat-e-15",
@@ -627,27 +628,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta H = +50{,}4\\text{ kJ/mol}$, karena salah memberikan tanda positif pada reaksi netralisasi yang terbukti eksotermik menaikkan suhu diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
         "text": "$\\Delta H = -25{,}2\\text{ kJ/mol}$, karena massa total larutan keliru dihitung hanya sebesar 100 gram dari volume satu pereaksi."
       },
       {
-        "key": "C",
-        "text": "$\\Delta H = -5{,}04\\text{ kJ/mol}$, karena nilai kalor reaksi belum dibagi dengan jumlah mol pereaksi yang bereaksi."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$\\Delta H = -100{,}8\\text{ kJ/mol}$, dihitung dari penggandaan entalpi akibat reaksi dua senyawa kimia berbeda."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$\\Delta H = -50{,}4\\text{ kJ/mol}$, karena kalor yang dilepaskan larutan adalah $q_{\\text{reaksi}} = -q_{\\text{larutan}} = -(m \\cdot c \\cdot \\Delta T) = -(200\\text{ g} \\times 4{,}2\\text{ J/(g}\\cdot^\\circ\\text{C)} \\times 6^\\circ\\text{C}) = -5.040\\text{ Joule} = -5{,}04\\text{ kJ}$. Jumlah mol air yang terbentuk dari reaksi penetralan adalah $n = 0{,}1\\text{ L} \\times 1\\text{ M} = 0{,}1\\text{ mol}$. Maka entalpi netralisasi per mol air adalah $\\Delta H = \\frac{q_{\\text{reaksi}}}{n} = \\frac{-5{,}04\\text{ kJ}}{0{,}1\\text{ mol}} = -50{,}4\\text{ kJ/mol}$."
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta H = -5{,}04\\text{ kJ/mol}$, karena nilai kalor reaksi belum dibagi dengan jumlah mol pereaksi yang bereaksi."
+      },
+      {
+        "key": "E",
+        "text": "$\\Delta H = +50{,}4\\text{ kJ/mol}$, karena salah memberikan tanda positif pada reaksi netralisasi yang terbukti eksotermik menaikkan suhu."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\Delta H = -50{,}4\\text{ kJ/mol}$, karena kalor yang dilepaskan larutan adalah $q_{\\text{reaksi}} = -q_{\\text{larutan}} = -(m \\cdot c \\cdot \\Delta T) = -(200\\text{ g} \\times 4{,}2\\text{ J/(g}\\cdot^\\circ\\text{C)} \\times 6^\\circ\\text{C}) = -5.040\\text{ Joule} = -5{,}04\\text{ kJ}$. Jumlah mol air yang terbentuk dari reaksi penetralan adalah $n = 0{,}1\\text{ L} \\times 1\\text{ M} = 0{,}1\\text{ mol}$. Maka entalpi netralisasi per mol air adalah $\\Delta H = \\frac{q_{\\text{reaksi}}}{n} = \\frac{-5{,}04\\text{ kJ}}{0{,}1\\text{ mol}} = -50{,}4\\text{ kJ/mol}$.. Hitung kalor q = m * c * Delta_T = 200 * 4,2 * 6 = 5.040 J = 5,04 kJ. Mol H2O yang terbentuk = 0,1 L * 1 M = 0,1 mol. Delta_H = -q / n. Delta_H = -5,04 / 0,1 = -50,4 kJ/mol."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $\\Delta H = -50{,}4\\text{ kJ/mol}$, karena kalor yang dilepaskan larutan adalah $q_{\\text{reaksi}} = -q_{\\text{larutan}} = -(m \\cdot c \\cdot \\Delta T) = -(200\\text{ g} \\times 4{,}2\\text{ J/(g}\\cdot^\\circ\\text{C)} \\times 6^\\circ\\text{C}) = -5.040\\text{ Joule} = -5{,}04\\text{ kJ}$. Jumlah mol air yang terbentuk dari reaksi penetralan adalah $n = 0{,}1\\text{ L} \\times 1\\text{ M} = 0{,}1\\text{ mol}$. Maka entalpi netralisasi per mol air adalah $\\Delta H = \\frac{q_{\\text{reaksi}}}{n} = \\frac{-5{,}04\\text{ kJ}}{0{,}1\\text{ mol}} = -50{,}4\\text{ kJ/mol}$.. Hitung kalor q = m * c * Delta_T = 200 * 4,2 * 6 = 5.040 J = 5,04 kJ. Mol H2O yang terbentuk = 0,1 L * 1 M = 0,1 mol. Delta_H = -q / n. Delta_H = -5,04 / 0,1 = -50,4 kJ/mol."
   },
   {
     "id": "kim-lat-e-16",
@@ -670,15 +671,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta H = -58\\text{ kJ/mol}$, karena pemutusan ikatan reaktan melibatkan $1\\,(\\text{C}=\\text{C}) + 1\\,(\\text{H}-\\text{Cl}) = 614 + 431 = 1.045\\text{ kJ/mol}$ (ikatan 4 C-H di kedua ruas saling meniadakan). Pembentukan ikatan produk melibatkan $1\\,(\\text{C}-\\text{C}) + 1\\,(\\text{C}-\\text{H}) + 1\\,(\\text{C}-\\text{Cl}) = 348 + 413 + 328 = 1.089\\text{ kJ/mol}$. Maka $\\Delta H = \\sum D_{\\text{reaktan}} - \\sum D_{\\text{produk}} = 1.045 - 1.089 = -44...$ mari hitung ulang secara seksama: Reaktan: $4(\\text{C}-\\text{H}) + 1(\\text{C}=\\text{C}) + 1(\\text{H}-\\text{Cl}) = 4(413) + 614 + 431 = 1.652 + 1.045 = 2.697\\text{ kJ/mol}$. Produk: $5(\\text{C}-\\text{H}) + 1(\\text{C}-\\text{C}) + 1(\\text{C}-\\text{Cl}) = 5(413) + 348 + 328 = 2.065 + 676 = 2.741\\text{ kJ/mol}$. Selisih $\\Delta H = 2.697 - 2.741 = -44\\text{ kJ/mol}$."
+        "text": "$\\Delta H = -88\\text{ kJ/mol}$, dihitung dari penggandaan nilai disosiasi ikatan kovalen polar atom klorin."
       },
       {
         "key": "B",
-        "text": "$\\Delta H = +44\\text{ kJ/mol}$, karena rumus entalpi energi ikatan keliru dibalik menjadi energi ikatan produk dikurangi reaktan sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$\\Delta H = -58\\text{ kJ/mol}$, karena pemutusan ikatan reaktan melibatkan $1\\,(\\text{C}=\\text{C}) + 1\\,(\\text{H}-\\text{Cl}) = 614 + 431 = 1.045\\text{ kJ/mol}$ (ikatan 4 C-H di kedua ruas saling meniadakan). Pembentukan ikatan produk melibatkan $1\\,(\\text{C}-\\text{C}) + 1\\,(\\text{C}-\\text{H}) + 1\\,(\\text{C}-\\text{Cl}) = 348 + 413 + 328 = 1.089\\text{ kJ/mol}$. Maka $\\Delta H = \\sum D_{\\text{reaktan}} - \\sum D_{\\text{produk}} = 1.045 - 1.089 = -44...$ mari hitung ulang secara seksama: Reaktan: $4(\\text{C}-\\text{H}) + 1(\\text{C}=\\text{C}) + 1(\\text{H}-\\text{Cl}) = 4(413) + 614 + 431 = 1.652 + 1.045 = 2.697\\text{ kJ/mol}$. Produk: $5(\\text{C}-\\text{H}) + 1(\\text{C}-\\text{Cl}) = 5(413) + 348 + 328 = 2.065 + 676 = 2.741\\text{ kJ/mol}$. Selisih $\\Delta H = 2.697 - 2.741 = -44\\text{ kJ/mol}$."
       },
       {
         "key": "C",
-        "text": "$\\Delta H = -88\\text{ kJ/mol}$, dihitung dari penggandaan nilai disosiasi ikatan kovalen polar atom klorin."
+        "text": "$\\Delta H = -58\\text{ kJ/mol}$, dihitung dari pendekatan kasar tanpa menyertakan energi ikatan atom hidrogen teradisi."
       },
       {
         "key": "D",
@@ -686,11 +687,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\Delta H = -58\\text{ kJ/mol}$, dihitung dari pendekatan kasar tanpa menyertakan energi ikatan atom hidrogen teradisi."
+        "text": "$\\Delta H = +44\\text{ kJ/mol}$, karena rumus entalpi energi ikatan keliru dibalik menjadi energi ikatan produk dikurangi reaktan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\Delta H = -58\\text{ kJ/mol}$, karena pemutusan ikatan reaktan melibatkan $1\\,(\\text{C}=\\text{C}) + 1\\,(\\text{H}-\\text{Cl}) = 614 + 431 = 1.045\\text{ kJ/mol}$ (ikatan 4 C-H di kedua ruas saling meniadakan). Pembentukan ikatan produk melibatkan $1\\,(\\text{C}-\\text{C}) + 1\\,(\\text{C}-\\text{H}) + 1\\,(\\text{C}-\\text{Cl}) = 348 + 413 + 328 = 1.089\\text{ kJ/mol}$. Maka $\\Delta H = \\sum D_{\\text{reaktan}} - \\sum D_{\\text{produk}} = 1.045 - 1.089 = -44...$ mari hitung ulang secara seksama: Reaktan: $4(\\text{C}-\\text{H}) + 1(\\text{C}=\\text{C}) + 1(\\text{H}-\\text{Cl}) = 4(413) + 614 + 431 = 1.652 + 1.045 = 2.697\\text{ kJ/mol}$. Produk: $5(\\text{C}-\\text{H}) + 1(\\text{C}-\\text{C}) + 1(\\text{C}-\\text{Cl}) = 5(413) + 348 + 328 = 2.065 + 676 = 2.741\\text{ kJ/mol}$. Selisih $\\Delta H = 2.697 - 2.741 = -44\\text{ kJ/mol}$.. Gunakan Delta H = Sigma D(ikatan putus / kiri) - Sigma D(ikatan terbentuk / kanan). Ikatan C-H yang putus dan terbentuk dapat disederhanakan: sisa 1 C-H baru di kanan. Kiri = 614 + 431 = 1.045. Kanan = 348 + 413 + 328 = 1.089. Delta H = 1.045 - 1.089 = -44 kJ/mol."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\Delta H = -58\\text{ kJ/mol}$, karena pemutusan ikatan reaktan melibatkan $1\\,(\\text{C}=\\text{C}) + 1\\,(\\text{H}-\\text{Cl}) = 614 + 431 = 1.045\\text{ kJ/mol}$ (ikatan 4 C-H di kedua ruas saling meniadakan). Pembentukan ikatan produk melibatkan $1\\,(\\text{C}-\\text{C}) + 1\\,(\\text{C}-\\text{H}) + 1\\,(\\text{C}-\\text{Cl}) = 348 + 413 + 328 = 1.089\\text{ kJ/mol}$. Maka $\\Delta H = \\sum D_{\\text{reaktan}} - \\sum D_{\\text{produk}} = 1.045 - 1.089 = -44...$ mari hitung ulang secara seksama: Reaktan: $4(\\text{C}-\\text{H}) + 1(\\text{C}=\\text{C}) + 1(\\text{H}-\\text{Cl}) = 4(413) + 614 + 431 = 1.652 + 1.045 = 2.697\\text{ kJ/mol}$. Produk: $5(\\text{C}-\\text{H}) + 1(\\text{C}-\\text{C}) + 1(\\text{C}-\\text{Cl}) = 5(413) + 348 + 328 = 2.065 + 676 = 2.741\\text{ kJ/mol}$. Selisih $\\Delta H = 2.697 - 2.741 = -44\\text{ kJ/mol}$.. Gunakan Delta H = Sigma D(ikatan putus / kiri) - Sigma D(ikatan terbentuk / kanan). Ikatan C-H yang putus dan terbentuk dapat disederhanakan: sisa 1 C-H baru di kanan. Kiri = 614 + 431 = 1.045. Kanan = 348 + 413 + 328 = 1.089. Delta H = 1.045 - 1.089 = -44 kJ/mol."
   },
   {
     "id": "kim-lat-e-17",
@@ -713,27 +714,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = k [\\text{NO}] [\\text{O}_2]$ dengan orde total reaksi sama dengan 2, karena mengasumsikan kedua reaktan memiliki orde satu sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$v = k [\\text{NO}] [\\text{O}_2]$ dengan orde total reaksi sama dengan 2, karena mengasumsikan kedua reaktan memiliki orde satu."
       },
       {
         "key": "B",
-        "text": "$v = k [\\text{NO}]^2 [\\text{O}_2]$ dengan orde total reaksi sama dengan 3, karena dari percobaan 1 dan 2, saat $[\\text{NO}]$ naik 2 kali lipat pada $[\\text{O}_2]$ tetap, laju reaksi naik $4$ kali lipat ($2^x = 4 \\implies x = 2$, orde terhadap $\\text{NO}$ adalah 2). Dari percobaan 1 dan 3, saat $[\\text{O}_2]$ naik 2 kali lipat pada $[\\text{NO}]$ tetap, laju reaksi naik $2$ kali lipat ($2^y = 2 \\implies y = 1$, orde terhadap $\\text{O}_2$ adalah 1). Orde reaksi total adalah $x + y = 2 + 1 = 3$."
+        "text": "$v = k [\\text{NO}]^0 [\\text{O}_2]^1$ dengan orde total reaksi sama dengan 1, dihitung dari asumsi reaksi berorde nol terhadap gas nitrogen monoksida."
       },
       {
         "key": "C",
-        "text": "$v = k [\\text{NO}] [\\text{O}_2]^2$ dengan orde total reaksi sama dengan 3, karena orde reaksi kedua reaktan tertukar letaknya."
+        "text": "$v = k [\\text{NO}]^2 [\\text{O}_2]$ dengan orde total reaksi sama dengan 3, karena dari percobaan 1 dan 2, saat $[\\text{NO}]$ naik 2 kali lipat pada $[\\text{O}_2]$ tetap, laju reaksi naik $4$ kali lipat ($2^x = 4 \\implies x = 2$, orde terhadap $\\text{NO}$ adalah 2). Dari percobaan 1 dan 3, saat $[\\text{O}_2]$ naik 2 kali lipat pada $[\\text{NO}]$ tetap, laju reaksi naik $2$ kali lipat ($2^y = 2 \\implies y = 1$, orde terhadap $\\text{O}_2$ adalah 1). Orde reaksi total adalah $x + y = 2 + 1 = 3$."
       },
       {
         "key": "D",
-        "text": "$v = k [\\text{NO}]^2 [\\text{O}_2]^2$ dengan orde total reaksi sama dengan 4, dihitung dari koefisien reaksi kuadrat tanpa analisis data."
+        "text": "$v = k [\\text{NO}] [\\text{O}_2]^2$ dengan orde total reaksi sama dengan 3, karena orde reaksi kedua reaktan tertukar letaknya."
       },
       {
         "key": "E",
-        "text": "$v = k [\\text{NO}]^0 [\\text{O}_2]^1$ dengan orde total reaksi sama dengan 1, dihitung dari asumsi reaksi berorde nol terhadap gas nitrogen monoksida."
+        "text": "$v = k [\\text{NO}]^2 [\\text{O}_2]^2$ dengan orde total reaksi sama dengan 4, dihitung dari koefisien reaksi kuadrat tanpa analisis data."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $v = k [\\text{NO}]^2 [\\text{O}_2]$ dengan orde total reaksi sama dengan 3, karena dari percobaan 1 dan 2, saat $[\\text{NO}]$ naik 2 kali lipat pada $[\\text{O}_2]$ tetap, laju reaksi naik $4$ kali lipat ($2^x = 4 \\implies x = 2$, orde terhadap $\\text{NO}$ adalah 2). Dari percobaan 1 dan 3, saat $[\\text{O}_2]$ naik 2 kali lipat pada $[\\text{NO}]$ tetap, laju reaksi naik $2$ kali lipat ($2^y = 2 \\implies y = 1$, orde terhadap $\\text{O}_2$ adalah 1). Orde reaksi total adalah $x + y = 2 + 1 = 3$.. Bandingkan percobaan 1 & 2 untuk cari orde NO: (0,2/0,1)^x = 4,8e-3 / 1,2e-3 -> 2^x = 4 -> x = 2. Bandingkan percobaan 1 & 3 untuk cari orde O2: (0,2/0,1)^y = 2,4/1,2 -> 2^y = 2 -> y = 1. v = k [NO]^2 [O2], orde total = 3."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $v = k [\\text{NO}]^2 [\\text{O}_2]$ dengan orde total reaksi sama dengan 3, karena dari percobaan 1 dan 2, saat $[\\text{NO}]$ naik 2 kali lipat pada $[\\text{O}_2]$ tetap, laju reaksi naik $4$ kali lipat ($2^x = 4 \\implies x = 2$, orde terhadap $\\text{NO}$ adalah 2). Dari percobaan 1 dan 3, saat $[\\text{O}_2]$ naik 2 kali lipat pada $[\\text{NO}]$ tetap, laju reaksi naik $2$ kali lipat ($2^y = 2 \\implies y = 1$, orde terhadap $\\text{O}_2$ adalah 1). Orde reaksi total adalah $x + y = 2 + 1 = 3$.. Bandingkan percobaan 1 & 2 untuk cari orde NO: (0,2/0,1)^x = 4,8e-3 / 1,2e-3 -> 2^x = 4 -> x = 2. Bandingkan percobaan 1 & 3 untuk cari orde O2: (0,2/0,1)^y = 2,4/1,2 -> 2^y = 2 -> y = 1. v = k [NO]^2 [O2], orde total = 3."
   },
   {
     "id": "kim-lat-e-18",
@@ -756,27 +757,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$K_p = 0{,}04\\text{ atm}$, karena keliru menganggap nilai Kp selalu sama dengan Kc tanpa memperhitungkan faktor RT ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "$K_p = 0{,}04\\text{ atm}$, karena keliru menganggap nilai Kp selalu sama dengan Kc tanpa memperhitungkan faktor RT ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "B",
-        "text": "$K_p = 67{,}24\\text{ atm}$, dihitung dari pemangkatan kuadrat faktor suhu volume gas ideal."
+        "text": "$K_p = 0{,}00098\\text{ atm}$, karena rumus hubungan tetapan keliru dibagi dengan faktor RT alih-alih dikalikan."
       },
       {
         "key": "C",
-        "text": "$K_p = 1{,}64\\text{ atm}$, karena perubahan jumlah koefisien gas adalah $\\Delta n = \\Sigma n_{\\text{produk}} - \\Sigma n_{\\text{reaktan}} = 2 - 1 = 1$. Berdasarkan hubungan termodinamika antara $K_p$ dan $K_c$: $K_p = K_c (R T)^{\\Delta n} = 0{,}04 \\times (0{,}082 \\times 500)^1 = 0{,}04 \\times 41 = 1{,}64\\text{ atm}$."
+        "text": "$K_p = 67{,}24\\text{ atm}$, dihitung dari pemangkatan kuadrat faktor suhu volume gas ideal."
       },
       {
         "key": "D",
-        "text": "$K_p = 0{,}00098\\text{ atm}$, karena rumus hubungan tetapan keliru dibagi dengan faktor RT alih-alih dikalikan."
+        "text": "$K_p = 1{,}64\\text{ atm}$, karena perubahan jumlah koefisien gas adalah $\\Delta n = \\Sigma n_{\\text{produk}} - \\Sigma n_{\\text{reaktan}} = 2 - 1 = 1$. Berdasarkan hubungan termodinamika antara $K_p$ dan $K_c$: $K_p = K_c (R T)^{\\Delta n} = 0{,}04 \\times (0{,}082 \\times 500)^1 = 0{,}04 \\times 41 = 1{,}64\\text{ atm}$."
       },
       {
         "key": "E",
         "text": "$K_p = 3{,}28\\text{ atm}$, dihitung dari penggandaan nilai koefisien gas nitrogen dioksida."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $K_p = 1{,}64\\text{ atm}$, karena perubahan jumlah koefisien gas adalah $\\Delta n = \\Sigma n_{\\text{produk}} - \\Sigma n_{\\text{reaktan}} = 2 - 1 = 1$. Berdasarkan hubungan termodinamika antara $K_p$ dan $K_c$: $K_p = K_c (R T)^{\\Delta n} = 0{,}04 \\times (0{,}082 \\times 500)^1 = 0{,}04 \\times 41 = 1{,}64\\text{ atm}$.. Gunakan rumus Kp = Kc * (R * T)^Delta_n. Delta_n = 2 - 1 = 1. R * T = 0,082 * 500 = 41. Kp = 0,04 * 41^1 = 1,64 atm."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $K_p = 1{,}64\\text{ atm}$, karena perubahan jumlah koefisien gas adalah $\\Delta n = \\Sigma n_{\\text{produk}} - \\Sigma n_{\\text{reaktan}} = 2 - 1 = 1$. Berdasarkan hubungan termodinamika antara $K_p$ dan $K_c$: $K_p = K_c (R T)^{\\Delta n} = 0{,}04 \\times (0{,}082 \\times 500)^1 = 0{,}04 \\times 41 = 1{,}64\\text{ atm}$.. Gunakan rumus Kp = Kc * (R * T)^Delta_n. Delta_n = 2 - 1 = 1. R * T = 0,082 * 500 = 41. Kp = 0,04 * 41^1 = 1,64 atm."
   },
   {
     "id": "kim-lat-e-19",
@@ -799,15 +800,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menaikkan suhu reaktor dan memperbesar volume bejana reaksi agar molekul gas memiliki energi kinetik lebih tinggi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
         "text": "Menurunkan tekanan sistem dan menambahkan gas amonia secara terus-menerus ke dalam ruang reaktor."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menambahkan katalisator besi (Fe) dalam jumlah sangat besar agar kesetimbangan bergeser ke ruas kanan."
+      },
+      {
+        "key": "C",
+        "text": "Menaikkan suhu reaktor dan menaikkan tekanan sistem secara serentak tanpa kondensasi amonia."
       },
       {
         "key": "D",
@@ -815,7 +816,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Menaikkan suhu reaktor dan menaikkan tekanan sistem secara serentak tanpa kondensasi amonia."
+        "text": "Menaikkan suhu reaktor dan memperbesar volume bejana reaksi agar molekul gas memiliki energi kinetik lebih tinggi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       }
     ],
     "correctKey": "D",
@@ -841,15 +842,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{HCl}$ bertindak sebagai oksidator dan $\\text{Cl}_2$ adalah hasil reduksi, karena klorin mengalami peningkatan bilangan oksidasi diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
         "text": "$\\text{MnO}_2$ bertindak sebagai reduktor dan $\\text{MnCl}_2$ adalah hasil oksidasi, karena mangan melepaskan atom oksigen."
       },
       {
+        "key": "B",
+        "text": "$\\text{MnO}_2$ bertindak sebagai oksidator dan $\\text{MnCl}_2$ adalah hasil reduksi, karena bilangan oksidasi mangan mengalami penurunan (reduksi) dari $+4$ pada $\\text{MnO}_2$ menjadi $+2$ pada $\\text{MnCl}_2$, sehingga zat yang mengalami reduksi ($\\text{MnO}_2$) bertindak sebagai agen pengoksidasi (oksidator)."
+      },
+      {
         "key": "C",
-        "text": "$\\text{HCl}$ bertindak sebagai reduktor dan $\\text{H}_2\\text{O}$ adalah hasil reduksi molekul air murni."
+        "text": "$\\text{HCl}$ bertindak sebagai oksidator dan $\\text{Cl}_2$ adalah hasil reduksi, karena klorin mengalami peningkatan bilangan oksidasi."
       },
       {
         "key": "D",
@@ -857,11 +858,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\text{MnO}_2$ bertindak sebagai oksidator dan $\\text{MnCl}_2$ adalah hasil reduksi, karena bilangan oksidasi mangan mengalami penurunan (reduksi) dari $+4$ pada $\\text{MnO}_2$ menjadi $+2$ pada $\\text{MnCl}_2$, sehingga zat yang mengalami reduksi ($\\text{MnO}_2$) bertindak sebagai agen pengoksidasi (oksidator)."
+        "text": "$\\text{HCl}$ bertindak sebagai reduktor dan $\\text{H}_2\\text{O}$ adalah hasil reduksi molekul air murni."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{MnO}_2$ bertindak sebagai oksidator dan $\\text{MnCl}_2$ adalah hasil reduksi, karena bilangan oksidasi mangan mengalami penurunan (reduksi) dari $+4$ pada $\\text{MnO}_2$ menjadi $+2$ pada $\\text{MnCl}_2$, sehingga zat yang mengalami reduksi ($\\text{MnO}_2$) bertindak sebagai agen pengoksidasi (oksidator).. Oksidator adalah zat yang mengalami reduksi (biloks turun). Reduktor adalah zat yang mengalami oksidasi (biloks naik). Biloks Mn pada MnO2 = +4, pada MnCl2 = +2 (turun = reduksi). Maka MnO2 = oksidator, MnCl2 = hasil reduksi."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{MnO}_2$ bertindak sebagai oksidator dan $\\text{MnCl}_2$ adalah hasil reduksi, karena bilangan oksidasi mangan mengalami penurunan (reduksi) dari $+4$ pada $\\text{MnO}_2$ menjadi $+2$ pada $\\text{MnCl}_2$, sehingga zat yang mengalami reduksi ($\\text{MnO}_2$) bertindak sebagai agen pengoksidasi (oksidator).. Oksidator adalah zat yang mengalami reduksi (biloks turun). Reduktor adalah zat yang mengalami oksidasi (biloks naik). Biloks Mn pada MnO2 = +4, pada MnCl2 = +2 (turun = reduksi). Maka MnO2 = oksidator, MnCl2 = hasil reduksi."
   },
   {
     "id": "kim-lat-e-21",
@@ -888,19 +889,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Katoda adalah seng ($\\text{Zn}$) dan $E^\\circ_{\\text{sel}} = +1{,}10\\text{ Volt}$, karena seng dianggap melepaskan elektron menuju katoda sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Katoda adalah tembaga ($\\text{Cu}$) dan $E^\\circ_{\\text{sel}} = +0{,}42\\text{ Volt}$, dihitung dari selisih nilai mutlak kedua elektroda logam."
       },
       {
         "key": "C",
-        "text": "Katoda adalah tembaga ($\\text{Cu}$) dan $E^\\circ_{\\text{sel}} = -0{,}42\\text{ Volt}$, karena potensial sel dihitung dari penjumlahan aljabar kedua potensial tanpa perubahan tanda anoda."
+        "text": "Katoda adalah seng ($\\text{Zn}$) dan $E^\\circ_{\\text{sel}} = +1{,}10\\text{ Volt}$, karena seng dianggap melepaskan elektron menuju katoda."
       },
       {
         "key": "D",
-        "text": "Katoda adalah seng ($\\text{Zn}$) dan $E^\\circ_{\\text{sel}} = -1{,}10\\text{ Volt}$, karena susunan elektroda sel terbalik polaritas kutubnya."
+        "text": "Katoda adalah tembaga ($\\text{Cu}$) dan $E^\\circ_{\\text{sel}} = -0{,}42\\text{ Volt}$, karena potensial sel dihitung dari penjumlahan aljabar kedua potensial tanpa perubahan tanda anoda."
       },
       {
         "key": "E",
-        "text": "Katoda adalah tembaga ($\\text{Cu}$) dan $E^\\circ_{\\text{sel}} = +0{,}42\\text{ Volt}$, dihitung dari selisih nilai mutlak kedua elektroda logam."
+        "text": "Katoda adalah seng ($\\text{Zn}$) dan $E^\\circ_{\\text{sel}} = -1{,}10\\text{ Volt}$, karena susunan elektroda sel terbalik polaritas kutubnya."
       }
     ],
     "correctKey": "A",
@@ -927,7 +928,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6{,}350\\text{ gram}$, karena muatan kation tembaga keliru dianggap bervalensi satu ($n = 1$) sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$6{,}350\\text{ gram}$, karena muatan kation tembaga keliru dianggap bervalensi satu ($n = 1$)."
       },
       {
         "key": "B",
@@ -939,11 +940,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$31{,}75\\text{ gram}$, karena waktu elektrolisis keliru dihitung selama 9.650 sekon penuh."
+        "text": "$0{,}318\\text{ gram}$, karena galat pembagian nilai Faraday seratus ribu Coulomb."
       },
       {
         "key": "E",
-        "text": "$0{,}318\\text{ gram}$, karena galat pembagian nilai Faraday seratus ribu Coulomb."
+        "text": "$31{,}75\\text{ gram}$, karena waktu elektrolisis keliru dihitung selama 9.650 sekon penuh."
       }
     ],
     "correctKey": "B",
@@ -970,27 +971,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1-butanol, karena merupakan alkohol primer yang dapat dioksidasi bertahap menjadi butanal dan asam butanoat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
-        "text": "2-butanol, karena merupakan alkohol sekunder yang dapat dioksidasi menghasilkan keton butanon."
-      },
-      {
-        "key": "C",
         "text": "2-metil-2-propanol (atau ters-butanol), karena senyawa $\\text{C}_4\\text{H}_{10}\\text{O}$ yang tidak dapat dioksidasi oleh oksidator kuat adalah alkohol tersier, di mana atom karbon yang mengikat gugus hidroksil ($-\\text{OH}$) tidak lagi mengikat atom hidrogen bebas untuk mengalami pelepasan proton."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "1-butanol, karena merupakan alkohol primer yang dapat dioksidasi bertahap menjadi butanal dan asam butanoat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
+        "key": "C",
         "text": "Dietil eter, karena meskipun tidak bereaksi dengan dikromat, eter bukan merupakan turunan alkohol rantai cabang."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "2-metil-1-propanol, karena merupakan alkohol primer bercabang yang masih memiliki dua atom hidrogen alfa."
+      },
+      {
+        "key": "E",
+        "text": "2-butanol, karena merupakan alkohol sekunder yang dapat dioksidasi menghasilkan keton butanon."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) 2-metil-2-propanol (atau ters-butanol), karena senyawa $\\text{C}_4\\text{H}_{10}\\text{O}$ yang tidak dapat dioksidasi oleh oksidator kuat adalah alkohol tersier, di mana atom karbon yang mengikat gugus hidroksil ($-\\text{OH}$) tidak lagi mengikat atom hidrogen bebas untuk mengalami pelepasan proton.. Alkohol primer dapat dioksidasi jadi aldehida/asam karboksilat. Alkohol sekunder dioksidasi jadi keton. Alkohol tersier TIDAK dapat dioksidasi. Cari isomer alkohol tersier dari C4H10O. Isomer tersier C4H10O adalah 2-metil-2-propanol."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) 2-metil-2-propanol (atau ters-butanol), karena senyawa $\\text{C}_4\\text{H}_{10}\\text{O}$ yang tidak dapat dioksidasi oleh oksidator kuat adalah alkohol tersier, di mana atom karbon yang mengikat gugus hidroksil ($-\\text{OH}$) tidak lagi mengikat atom hidrogen bebas untuk mengalami pelepasan proton.. Alkohol primer dapat dioksidasi jadi aldehida/asam karboksilat. Alkohol sekunder dioksidasi jadi keton. Alkohol tersier TIDAK dapat dioksidasi. Cari isomer alkohol tersier dari C4H10O. Isomer tersier C4H10O adalah 2-metil-2-propanol."
   },
   {
     "id": "kim-lat-e-24",
@@ -1013,27 +1014,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Metil propanoat dengan aroma asam cuka yang menyengat dan menusuk hidung menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
-        "text": "Etil metanoat dengan aroma minyak tanah pelumas mesin industri."
-      },
-      {
-        "key": "C",
-        "text": "Propil asetat dengan aroma busuk belerang yang mudah menguap."
-      },
-      {
-        "key": "D",
         "text": "Etil etanoat (etil asetat) dengan aroma harum buah apel/pisang, terbentuk melalui reaksi esterifikasi kondensasi di mana gugus $-\\text{OH}$ dari asam karboksilat berikatan dengan atom $-\\text{H}$ dari alkohol membentuk molekul sampingan air."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Dietil eter dengan aroma obat bius kloroform di ruang operasi bedah."
+      },
+      {
+        "key": "C",
+        "text": "Metil propanoat dengan aroma asam cuka yang menyengat dan menusuk hidung menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+      },
+      {
+        "key": "D",
+        "text": "Etil metanoat dengan aroma minyak tanah pelumas mesin industri."
+      },
+      {
+        "key": "E",
+        "text": "Propil asetat dengan aroma busuk belerang yang mudah menguap."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Etil etanoat (etil asetat) dengan aroma harum buah apel/pisang, terbentuk melalui reaksi esterifikasi kondensasi di mana gugus $-\\text{OH}$ dari asam karboksilat berikatan dengan atom $-\\text{H}$ dari alkohol membentuk molekul sampingan air.. Asam asetat (CH3COOH) + etanol (CH3CH2OH) menghasilkan etil asetat (etil etanoat) dan air. Senyawa ester beraroma buah harum. Etil etanoat (etil asetat) dengan aroma buah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Etil etanoat (etil asetat) dengan aroma harum buah apel/pisang, terbentuk melalui reaksi esterifikasi kondensasi di mana gugus $-\\text{OH}$ dari asam karboksilat berikatan dengan atom $-\\text{H}$ dari alkohol membentuk molekul sampingan air.. Asam asetat (CH3COOH) + etanol (CH3CH2OH) menghasilkan etil asetat (etil etanoat) dan air. Senyawa ester beraroma buah harum. Etil etanoat (etil asetat) dengan aroma buah."
   },
   {
     "id": "kim-lat-e-25",
@@ -1056,27 +1057,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Nilon-6,6, dakron, dan protein, karena ketiganya merupakan polimer kondensasi yang melepaskan molekul air selama reaksi polimerisasi diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Polietilena, polipropilena, dan polivinil klorida (PVC), karena ketiganya terbentuk dari monomer berikatan rangkap dua yang membuka ikatannya membentuk rantai panjang jenuh tanpa melepaskan molekul kecil sampingan."
       },
       {
         "key": "B",
-        "text": "Polietilena, nilon-6,6, dan teflon, karena nilon-6,6 terbentuk melalui polimerisasi kondensasi antara asam adipat dan heksametilendiamin."
-      },
-      {
-        "key": "C",
-        "text": "Bakelit, polistirena, dan selulosa, karena bakelit dan selulosa merupakan produk polimerisasi kondensasi."
-      },
-      {
-        "key": "D",
         "text": "Karet alam, sutra wol, dan poliester, karena protein sutra wol merupakan polipeptida polimer kondensasi."
       },
       {
+        "key": "C",
+        "text": "Nilon-6,6, dakron, dan protein, karena ketiganya merupakan polimer kondensasi yang melepaskan molekul air selama reaksi polimerisasi."
+      },
+      {
+        "key": "D",
+        "text": "Bakelit, polistirena, dan selulosa, karena bakelit dan selulosa merupakan produk polimerisasi kondensasi."
+      },
+      {
         "key": "E",
-        "text": "Polietilena, polipropilena, dan polivinil klorida (PVC), karena ketiganya terbentuk dari monomer berikatan rangkap dua yang membuka ikatannya membentuk rantai panjang jenuh tanpa melepaskan molekul kecil sampingan."
+        "text": "Polietilena, nilon-6,6, dan teflon, karena nilon-6,6 terbentuk melalui polimerisasi kondensasi antara asam adipat dan heksametilendiamin."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Polietilena, polipropilena, dan polivinil klorida (PVC), karena ketiganya terbentuk dari monomer berikatan rangkap dua yang membuka ikatannya membentuk rantai panjang jenuh tanpa melepaskan molekul kecil sampingan.. Polimer adisi berasal dari monomer ikatan rangkap (membuka ikatan rangkap tanpa melepas molekul kecil): PE, PP, PVC, Teflon, Polistirena. Nilon, dakron, dan protein adalah polimer kondensasi. Polietilena, polipropilena, dan PVC."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Polietilena, polipropilena, dan polivinil klorida (PVC), karena ketiganya terbentuk dari monomer berikatan rangkap dua yang membuka ikatannya membentuk rantai panjang jenuh tanpa melepaskan molekul kecil sampingan.. Polimer adisi berasal dari monomer ikatan rangkap (membuka ikatan rangkap tanpa melepas molekul kecil): PE, PP, PVC, Teflon, Polistirena. Nilon, dakron, dan protein adalah polimer kondensasi. Polietilena, polipropilena, dan PVC."
   },
   {
     "id": "kim-lat-m-01",
@@ -1099,27 +1100,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$[\\text{Ar}]\\,3d^3$ dan bersifat paramagnetik, karena atom netral kromium memiliki konfigurasi stabil setengah penuh $[\\text{Ar}]\\,4s^1\\,3d^5$. Ketika melepaskan 3 elektron untuk membentuk kation $\\text{Cr}^{3+}$, 1 elektron pada subkulit terluar $4s$ dan 2 elektron pada subkulit $3d$ dilepaskan terlebih dahulu, menyisakan 3 elektron tunggal yang tidak berpasangan di subkulit $3d$ ($[\\text{Ar}]\\,3d^3$) sehingga ditarik oleh medan magnet luar (paramagnetik)."
+        "text": "$[\\text{Ar}]\\,3d^5$ dan bersifat paramagnetik kuat, karena menyamakan konfigurasi kation dengan konfigurasi atom netral kromium."
       },
       {
         "key": "B",
-        "text": "$[\\text{Ar}]\\,4s^2\\,3d^1$ dan bersifat diamagnetik, karena elektron subkulit 4s keliru dianggap tidak dilepaskan saat pembentukan kation sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$[\\text{Ar}]\\,4s^2\\,3d^1$ dan bersifat diamagnetik, karena elektron subkulit 4s keliru dianggap tidak dilepaskan saat pembentukan kation."
       },
       {
         "key": "C",
-        "text": "$[\\text{Ar}]\\,3d^3$ dan bersifat diamagnetik, karena menganggap seluruh elektron pada orbital subkulit d selalu berpasangan secara simetris."
+        "text": "$[\\text{Ar}]\\,3d^3$ dan bersifat paramagnetik, karena atom netral kromium memiliki konfigurasi stabil setengah penuh $[\\text{Ar}]\\,4s^1\\,3d^5$. Ketika melepaskan 3 elektron untuk membentuk kation $\\text{Cr}^{3+}$, 1 elektron pada subkulit terluar $4s$ dan 2 elektron pada subkulit $3d$ dilepaskan terlebih dahulu, menyisakan 3 elektron tunggal yang tidak berpasangan di subkulit $3d$ ($[\\text{Ar}]\\,3d^3$) sehingga ditarik oleh medan magnet luar (paramagnetik)."
       },
       {
         "key": "D",
-        "text": "$[\\text{Ar}]\\,4s^1\\,3d^2$ dan bersifat feromagnetik permanen, karena mengasumsikan pelepasan elektron hanya berasal dari subkulit dalam."
+        "text": "$[\\text{Ar}]\\,3d^3$ dan bersifat diamagnetik, karena menganggap seluruh elektron pada orbital subkulit d selalu berpasangan secara simetris."
       },
       {
         "key": "E",
-        "text": "$[\\text{Ar}]\\,3d^5$ dan bersifat paramagnetik kuat, karena menyamakan konfigurasi kation dengan konfigurasi atom netral kromium."
+        "text": "$[\\text{Ar}]\\,4s^1\\,3d^2$ dan bersifat feromagnetik permanen, karena mengasumsikan pelepasan elektron hanya berasal dari subkulit dalam."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $[\\text{Ar}]\\,3d^3$ dan bersifat paramagnetik, karena atom netral kromium memiliki konfigurasi stabil setengah penuh $[\\text{Ar}]\\,4s^1\\,3d^5$. Ketika melepaskan 3 elektron untuk membentuk kation $\\text{Cr}^{3+}$, 1 elektron pada subkulit terluar $4s$ dan 2 elektron pada subkulit $3d$ dilepaskan terlebih dahulu, menyisakan 3 elektron tunggal yang tidak berpasangan di subkulit $3d$ ($[\\text{Ar}]\\,3d^3$) sehingga ditarik oleh medan magnet luar (paramagnetik).. Cr netral: [Ar] 4s1 3d5. Cr3+ melepas 1 elektron dari 4s dan 2 elektron dari 3d -> [Ar] 3d3. Ada 3 elektron tak berpasangan -> paramagnetik. [Ar] 3d3, paramagnetik."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $[\\text{Ar}]\\,3d^3$ dan bersifat paramagnetik, karena atom netral kromium memiliki konfigurasi stabil setengah penuh $[\\text{Ar}]\\,4s^1\\,3d^5$. Ketika melepaskan 3 elektron untuk membentuk kation $\\text{Cr}^{3+}$, 1 elektron pada subkulit terluar $4s$ dan 2 elektron pada subkulit $3d$ dilepaskan terlebih dahulu, menyisakan 3 elektron tunggal yang tidak berpasangan di subkulit $3d$ ($[\\text{Ar}]\\,3d^3$) sehingga ditarik oleh medan magnet luar (paramagnetik).. Cr netral: [Ar] 4s1 3d5. Cr3+ melepas 1 elektron dari 4s dan 2 elektron dari 3d -> [Ar] 3d3. Ada 3 elektron tak berpasangan -> paramagnetik. [Ar] 3d3, paramagnetik."
   },
   {
     "id": "kim-lat-m-02",
@@ -1142,27 +1143,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hibridisasi $sp^3$, tipe $AX_4$ (4 PEI dan 0 PEB), dengan bentuk molekul tetrahedral simetris dan bersifat nonpolar sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Hibridisasi $sp^3d$, tipe $AX_5$, dengan bentuk molekul bipiramida trigonal sempurna."
       },
       {
         "key": "B",
-        "text": "Hibridisasi $sp^3d$, tipe $AX_4E$ (4 PEI dan 1 PEB), dengan bentuk molekul jungkat-jungkit (tetrahedral terdistorsi / see-saw), karena belerang memiliki 6 elektron valensi, 4 elektron digunakan untuk berikatan tunggal dengan F, dan 2 elektron tersisa membentuk 1 pasangan elektron bebas (PEB) yang menempati posisi ekuatorial untuk meminimalkan tolakan."
+        "text": "Hibridisasi $sp^3$, tipe $AX_4$ (4 PEI dan 0 PEB), dengan bentuk molekul tetrahedral simetris dan bersifat nonpolar."
       },
       {
         "key": "C",
-        "text": "Hibridisasi $sp^3d^2$, tipe $AX_4E_2$ (4 PEI dan 2 PEB), dengan bentuk molekul bujur sangkar datar."
+        "text": "Hibridisasi $sp^3d$, tipe $AX_4E$ (4 PEI dan 1 PEB), dengan bentuk molekul jungkat-jungkit (tetrahedral terdistorsi / see-saw), karena belerang memiliki 6 elektron valensi, 4 elektron digunakan untuk berikatan tunggal dengan F, dan 2 elektron tersisa membentuk 1 pasangan elektron bebas (PEB) yang menempati posisi ekuatorial untuk meminimalkan tolakan."
       },
       {
         "key": "D",
-        "text": "Hibridisasi $dsp^2$, tipe $AX_4$, dengan bentuk molekul bujur sangkar planar simetris."
+        "text": "Hibridisasi $sp^3d^2$, tipe $AX_4E_2$ (4 PEI dan 2 PEB), dengan bentuk molekul bujur sangkar datar."
       },
       {
         "key": "E",
-        "text": "Hibridisasi $sp^3d$, tipe $AX_5$, dengan bentuk molekul bipiramida trigonal sempurna."
+        "text": "Hibridisasi $dsp^2$, tipe $AX_4$, dengan bentuk molekul bujur sangkar planar simetris."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Hibridisasi $sp^3d$, tipe $AX_4E$ (4 PEI dan 1 PEB), dengan bentuk molekul jungkat-jungkit (tetrahedral terdistorsi / see-saw), karena belerang memiliki 6 elektron valensi, 4 elektron digunakan untuk berikatan tunggal dengan F, dan 2 elektron tersisa membentuk 1 pasangan elektron bebas (PEB) yang menempati posisi ekuatorial untuk meminimalkan tolakan.. Elektron valensi S = 6. Digunakan 4 untuk ikatan dengan F -> sisa 2 elektron = 1 PEB. Total domain = 4 PEI + 1 PEB = 5 (hibridisasi sp3d, tipe AX4E). Bentuk = jungkat-jungkit (see-saw). sp3d, tipe AX4E, bentuk jungkat-jungkit (see-saw)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Hibridisasi $sp^3d$, tipe $AX_4E$ (4 PEI dan 1 PEB), dengan bentuk molekul jungkat-jungkit (tetrahedral terdistorsi / see-saw), karena belerang memiliki 6 elektron valensi, 4 elektron digunakan untuk berikatan tunggal dengan F, dan 2 elektron tersisa membentuk 1 pasangan elektron bebas (PEB) yang menempati posisi ekuatorial untuk meminimalkan tolakan.. Elektron valensi S = 6. Digunakan 4 untuk ikatan dengan F -> sisa 2 elektron = 1 PEB. Total domain = 4 PEI + 1 PEB = 5 (hibridisasi sp3d, tipe AX4E). Bentuk = jungkat-jungkit (see-saw). sp3d, tipe AX4E, bentuk jungkat-jungkit (see-saw)."
   },
   {
     "id": "kim-lat-m-03",
@@ -1185,27 +1186,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Rumus empiris $\\text{CH}_2$ dan rumus molekul $\\text{C}_3\\text{H}_6$ (propena), karena hidrogen keliru dihitung tanpa mengalikan faktor dua pada molekul air ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
-        "text": "Rumus empiris $\\text{C}_2\\text{H}_5$ dan rumus molekul $\\text{C}_4\\text{H}_{10}$ (butana), dihitung dari kesalahan pembagian perbandingan mol atom."
-      },
-      {
-        "key": "C",
         "text": "Rumus empiris $\\text{C}_3\\text{H}_8$ dan rumus molekul $\\text{C}_3\\text{H}_8$ (propana), karena massa karbon adalah $m_C = \\frac{12}{44} \\times 13{,}2\\text{ g} = 3{,}6\\text{ g}$ ($n_C = \\frac{3{,}6}{12} = 0{,}3\\text{ mol}$) dan massa hidrogen adalah $m_H = \\frac{2}{18} \\times 7{,}2\\text{ g} = 0{,}8\\text{ g}$ ($n_H = \\frac{0{,}8}{1} = 0{,}8\\text{ mol}$). Perbandingan mol $\\text{C} : \\text{H} = 0{,}3 : 0{,}8 = 3 : 8$, sehingga rumus empirisnya $(\\text{C}_3\\text{H}_8)_n$. Karena $M_r = (3 \\times 12 + 8 \\times 1)n = 44n = 44 \\implies n = 1$, maka rumus molekulnya adalah $\\text{C}_3\\text{H}_8$."
       },
       {
+        "key": "B",
+        "text": "Rumus empiris $\\text{CH}_2$ dan rumus molekul $\\text{C}_3\\text{H}_6$ (propena), karena hidrogen keliru dihitung tanpa mengalikan faktor dua pada molekul air ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
+        "key": "C",
+        "text": "Rumus empiris $\\text{C}_2\\text{H}_5$ dan rumus molekul $\\text{C}_4\\text{H}_{10}$ (butana), dihitung dari kesalahan pembagian perbandingan mol atom."
+      },
+      {
         "key": "D",
-        "text": "Rumus empiris $\\text{CH}_4$ dan rumus molekul $\\text{CH}_4$ (metana), karena mengabaikan total massa produk pembakaran yang dihasilkan."
+        "text": "Rumus empiris $\\text{C}_3\\text{H}_4$ dan rumus molekul $\\text{C}_3\\text{H}_4$ (propuna), dihitung dari perbandingan stoikiometri gas asetilena."
       },
       {
         "key": "E",
-        "text": "Rumus empiris $\\text{C}_3\\text{H}_4$ dan rumus molekul $\\text{C}_3\\text{H}_4$ (propuna), dihitung dari perbandingan stoikiometri gas asetilena."
+        "text": "Rumus empiris $\\text{CH}_4$ dan rumus molekul $\\text{CH}_4$ (metana), karena mengabaikan total massa produk pembakaran yang dihasilkan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Rumus empiris $\\text{C}_3\\text{H}_8$ dan rumus molekul $\\text{C}_3\\text{H}_8$ (propana), karena massa karbon adalah $m_C = \\frac{12}{44} \\times 13{,}2\\text{ g} = 3{,}6\\text{ g}$ ($n_C = \\frac{3{,}6}{12} = 0{,}3\\text{ mol}$) dan massa hidrogen adalah $m_H = \\frac{2}{18} \\times 7{,}2\\text{ g} = 0{,}8\\text{ g}$ ($n_H = \\frac{0{,}8}{1} = 0{,}8\\text{ mol}$). Perbandingan mol $\\text{C} : \\text{H} = 0{,}3 : 0{,}8 = 3 : 8$, sehingga rumus empirisnya $(\\text{C}_3\\text{H}_8)_n$. Karena $M_r = (3 \\times 12 + 8 \\times 1)n = 44n = 44 \\implies n = 1$, maka rumus molekulnya adalah $\\text{C}_3\\text{H}_8$.. Massa C = (12/44) * 13,2 = 3,6 g -> mol C = 0,3 mol. Massa H = (2/18) * 7,2 = 0,8 g -> mol H = 0,8 mol. Rasio C : H = 3 : 8. RE = C3H8. Karena Mr = 44, RM = C3H8. Rumus empiris dan molekul: C3H8."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Rumus empiris $\\text{C}_3\\text{H}_8$ dan rumus molekul $\\text{C}_3\\text{H}_8$ (propana), karena massa karbon adalah $m_C = \\frac{12}{44} \\times 13{,}2\\text{ g} = 3{,}6\\text{ g}$ ($n_C = \\frac{3{,}6}{12} = 0{,}3\\text{ mol}$) dan massa hidrogen adalah $m_H = \\frac{2}{18} \\times 7{,}2\\text{ g} = 0{,}8\\text{ g}$ ($n_H = \\frac{0{,}8}{1} = 0{,}8\\text{ mol}$). Perbandingan mol $\\text{C} : \\text{H} = 0{,}3 : 0{,}8 = 3 : 8$, sehingga rumus empirisnya $(\\text{C}_3\\text{H}_8)_n$. Karena $M_r = (3 \\times 12 + 8 \\times 1)n = 44n = 44 \\implies n = 1$, maka rumus molekulnya adalah $\\text{C}_3\\text{H}_8$.. Massa C = (12/44) * 13,2 = 3,6 g -> mol C = 0,3 mol. Massa H = (2/18) * 7,2 = 0,8 g -> mol H = 0,8 mol. Rasio C : H = 3 : 8. RE = C3H8. Karena Mr = 44, RM = C3H8. Rumus empiris dan molekul: C3H8."
   },
   {
     "id": "kim-lat-m-04",
@@ -1228,27 +1229,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{Al}$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 6{,}72\\text{ liter}$, karena salah menentukan pereaksi pembatas dan mengasumsikan aluminium habis bereaksi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
-        "text": "$\\text{H}_2\\text{SO}_4$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 2{,}24\\text{ liter}$, dihitung dari rasio satu banding satu terhadap koefisien aluminium."
-      },
-      {
-        "key": "C",
-        "text": "Kedua pereaksi tepat habis bereaksi dan volume $\\text{H}_2 = 4{,}48\\text{ liter}$, dihitung dari asumsi campuran ekimolar stoikiometri."
-      },
-      {
-        "key": "D",
         "text": "$\\text{H}_2\\text{SO}_4$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 3{,}36\\text{ liter}$, karena mol $\\text{Al} = \\frac{5{,}4}{27} = 0{,}2\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}2}{2} = 0{,}10$) dan mol $\\text{H}_2\\text{SO}_4 = 0{,}1\\text{ L} \\times 1{,}5\\text{ M} = 0{,}15\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}15}{3} = 0{,}05$). Karena $0{,}05 < 0{,}10$, maka $\\text{H}_2\\text{SO}_4$ habis bereaksi lebih dulu (pereaksi pembatas). Mol $\\text{H}_2$ yang dihasilkan adalah $\\frac{3}{3} \\times 0{,}15 = 0{,}15\\text{ mol}$. Pada STP, volume gas adalah $V = 0{,}15\\text{ mol} \\times 22{,}4\\text{ L/mol} = 3{,}36\\text{ liter}$."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\text{Al}$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 6{,}72\\text{ liter}$, karena salah menentukan pereaksi pembatas dan mengasumsikan aluminium habis bereaksi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+      },
+      {
+        "key": "C",
+        "text": "$\\text{H}_2\\text{SO}_4$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 2{,}24\\text{ liter}$, dihitung dari rasio satu banding satu terhadap koefisien aluminium."
+      },
+      {
+        "key": "D",
         "text": "$\\text{Al}$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 3{,}36\\text{ liter}$, karena meskipun volume gas benar namun identifikasi pereaksi pembatas keliru."
+      },
+      {
+        "key": "E",
+        "text": "Kedua pereaksi tepat habis bereaksi dan volume $\\text{H}_2 = 4{,}48\\text{ liter}$, dihitung dari asumsi campuran ekimolar stoikiometri."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $\\text{H}_2\\text{SO}_4$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 3{,}36\\text{ liter}$, karena mol $\\text{Al} = \\frac{5{,}4}{27} = 0{,}2\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}2}{2} = 0{,}10$) dan mol $\\text{H}_2\\text{SO}_4 = 0{,}1\\text{ L} \\times 1{,}5\\text{ M} = 0{,}15\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}15}{3} = 0{,}05$). Karena $0{,}05 < 0{,}10$, maka $\\text{H}_2\\text{SO}_4$ habis bereaksi lebih dulu (pereaksi pembatas). Mol $\\text{H}_2$ yang dihasilkan adalah $\\frac{3}{3} \\times 0{,}15 = 0{,}15\\text{ mol}$. Pada STP, volume gas adalah $V = 0{,}15\\text{ mol} \\times 22{,}4\\text{ L/mol} = 3{,}36\\text{ liter}$.. Hitung mol Al: 5,4/27 = 0,2 mol (mol/koef = 0,1). Mol H2SO4: 0,1 * 1,5 = 0,15 mol (mol/koef = 0,05). H2SO4 pembatas. Mol H2 = 3/3 * 0,15 = 0,15 mol. V_STP = 0,15 * 22,4. Pereaksi pembatas = H2SO4, V(H2) = 3,36 liter."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\text{H}_2\\text{SO}_4$ sebagai pereaksi pembatas dan volume $\\text{H}_2 = 3{,}36\\text{ liter}$, karena mol $\\text{Al} = \\frac{5{,}4}{27} = 0{,}2\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}2}{2} = 0{,}10$) dan mol $\\text{H}_2\\text{SO}_4 = 0{,}1\\text{ L} \\times 1{,}5\\text{ M} = 0{,}15\\text{ mol}$ (rasio mol/koefisien = $\\frac{0{,}15}{3} = 0{,}05$). Karena $0{,}05 < 0{,}10$, maka $\\text{H}_2\\text{SO}_4$ habis bereaksi lebih dulu (pereaksi pembatas). Mol $\\text{H}_2$ yang dihasilkan adalah $\\frac{3}{3} \\times 0{,}15 = 0{,}15\\text{ mol}$. Pada STP, volume gas adalah $V = 0{,}15\\text{ mol} \\times 22{,}4\\text{ L/mol} = 3{,}36\\text{ liter}$.. Hitung mol Al: 5,4/27 = 0,2 mol (mol/koef = 0,1). Mol H2SO4: 0,1 * 1,5 = 0,15 mol (mol/koef = 0,05). H2SO4 pembatas. Mol H2 = 3/3 * 0,15 = 0,15 mol. V_STP = 0,15 * 22,4. Pereaksi pembatas = H2SO4, V(H2) = 3,36 liter."
   },
   {
     "id": "kim-lat-m-05",
@@ -1271,27 +1272,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{pH} = 7$ (netral) dan indikator yang tepat adalah bromtimol biru (trayek pH $6{,}0 - 7{,}6$), karena titik ekuivalen dianggap selalu menghasilkan larutan netral diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
-        "text": "$\\text{pH} > 7$ (sekitar $\\text{pH } 8 - 9$) dan indikator yang tepat adalah fenolftalein (trayek pH $8{,}3 - 10{,}0$), karena titrasi melibatkan basa amonia."
-      },
-      {
-        "key": "C",
         "text": "$\\text{pH} = 1$ dan indikator yang tepat adalah metil jingga (trayek pH $3{,}1 - 4{,}4$), karena asam klorida adalah asam kuat yang mendominasi campuran."
       },
       {
+        "key": "B",
+        "text": "$\\text{pH} < 7$ (sekitar $\\text{pH } 5 - 6$) dan indikator yang tepat adalah metil merah (trayek pH $4{,}4 - 6{,}2$), karena pada titik ekuivalen terbentuk garam amonium klorida ($\\text{NH}_4\\text{Cl}$) yang kationnya mengalami hidrolisis parsial menghasilkan ion $\\text{H}^+$ sehingga larutan bersifat asam."
+      },
+      {
+        "key": "C",
+        "text": "$\\text{pH} > 7$ (sekitar $\\text{pH } 8 - 9$) dan indikator yang tepat adalah fenolftalein (trayek pH $8{,}3 - 10{,}0$), karena titrasi melibatkan basa amonia."
+      },
+      {
         "key": "D",
-        "text": "$\\text{pH} = 7$ dan indikator yang tepat adalah fenolftalein karena menghasilkan perubahan warna dari merah muda menjadi tidak berwarna."
+        "text": "$\\text{pH} = 7$ (netral) dan indikator yang tepat adalah bromtimol biru (trayek pH $6{,}0 - 7{,}6$), karena titik ekuivalen dianggap selalu menghasilkan larutan netral."
       },
       {
         "key": "E",
-        "text": "$\\text{pH} < 7$ (sekitar $\\text{pH } 5 - 6$) dan indikator yang tepat adalah metil merah (trayek pH $4{,}4 - 6{,}2$), karena pada titik ekuivalen terbentuk garam amonium klorida ($\\text{NH}_4\\text{Cl}$) yang kationnya mengalami hidrolisis parsial menghasilkan ion $\\text{H}^+$ sehingga larutan bersifat asam."
+        "text": "$\\text{pH} = 7$ dan indikator yang tepat adalah fenolftalein karena menghasilkan perubahan warna dari merah muda menjadi tidak berwarna."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{pH} < 7$ (sekitar $\\text{pH } 5 - 6$) dan indikator yang tepat adalah metil merah (trayek pH $4{,}4 - 6{,}2$), karena pada titik ekuivalen terbentuk garam amonium klorida ($\\text{NH}_4\\text{Cl}$) yang kationnya mengalami hidrolisis parsial menghasilkan ion $\\text{H}^+$ sehingga larutan bersifat asam.. Titrasi basa lemah dengan asam kuat menghasilkan titik ekuivalen di daerah asam (pH < 7) akibat hidrolisis kation NH4+. Gunakan indikator metil merah (trayek 4,4 - 6,2). pH < 7, indikator metil merah."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\text{pH} < 7$ (sekitar $\\text{pH } 5 - 6$) dan indikator yang tepat adalah metil merah (trayek pH $4{,}4 - 6{,}2$), karena pada titik ekuivalen terbentuk garam amonium klorida ($\\text{NH}_4\\text{Cl}$) yang kationnya mengalami hidrolisis parsial menghasilkan ion $\\text{H}^+$ sehingga larutan bersifat asam.. Titrasi basa lemah dengan asam kuat menghasilkan titik ekuivalen di daerah asam (pH < 7) akibat hidrolisis kation NH4+. Gunakan indikator metil merah (trayek 4,4 - 6,2). pH < 7, indikator metil merah."
   },
   {
     "id": "kim-lat-m-06",
@@ -1314,11 +1315,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{pH} = 5 - \\log\\left(\\frac{11}{9}\\right) \\approx 4{,}91$, karena penambahan ion $\\text{H}^+$ dari $\\text{HCl}$ dinetralisasi oleh ion basa konjugasi asetat: $\\text{CH}_3\\text{COO}^- + \\text{H}^+ \\to \\text{CH}_3\\text{COOH}$. Jumlah mol garam asetat berkurang menjadi $0{,}10 - 0{,}01 = 0{,}09\\text{ mol}$ dan mol asam asetat bertambah menjadi $0{,}10 + 0{,}01 = 0{,}11\\text{ mol}$. Maka $[\\text{H}^+] = K_a \\times \\frac{0{,}11}{0{,}09} = 10^{-5} \\times 1{,}222 = 1{,}222 \\times 10^{-5}\\text{ M} \\implies \\text{pH} = 5 - \\log(1{,}22) \\approx 4{,}91$ (terbukti pH larutan relatif konstan hanya turun $0{,}09$ satuan)."
+        "text": "$\\text{pH} = 7{,}00$, karena penambahan asam dianggap menetralkan seluruh sifat keasaman larutan penyangga."
       },
       {
         "key": "B",
-        "text": "$\\text{pH} = 2{,}00$, karena larutan dianggap kehilangan daya penyangga dan langsung mengikuti konsentrasi asam kuat HCl sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$\\text{pH} = 4{,}00$, dihitung dari pengurangan satu satuan skala pH penuh."
       },
       {
         "key": "C",
@@ -1326,15 +1327,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\text{pH} = 4{,}00$, dihitung dari pengurangan satu satuan skala pH penuh."
+        "text": "$\\text{pH} = 5 - \\log\\left(\\frac{11}{9}\\right) \\approx 4{,}91$, karena penambahan ion $\\text{H}^+$ dari $\\text{HCl}$ dinetralisasi oleh ion basa konjugasi asetat: $\\text{CH}_3\\text{COO}^- + \\text{H}^+ \\to \\text{CH}_3\\text{COOH}$. Jumlah mol garam asetat berkurang menjadi $0{,}10 - 0{,}01 = 0{,}09\\text{ mol}$ dan mol asam asetat bertambah menjadi $0{,}10 + 0{,}01 = 0{,}11\\text{ mol}$. Maka $[\\text{H}^+] = K_a \\times \\frac{0{,}11}{0{,}09} = 10^{-5} \\times 1{,}222 = 1{,}222 \\times 10^{-5}\\text{ M} \\implies \\text{pH} = 5 - \\log(1{,}22) \\approx 4{,}91$ (terbukti pH larutan relatif konstan hanya turun $0{,}09$ satuan)."
       },
       {
         "key": "E",
-        "text": "$\\text{pH} = 7{,}00$, karena penambahan asam dianggap menetralkan seluruh sifat keasaman larutan penyangga."
+        "text": "$\\text{pH} = 2{,}00$, karena larutan dianggap kehilangan daya penyangga dan langsung mengikuti konsentrasi asam kuat HCl."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\text{pH} = 5 - \\log\\left(\\frac{11}{9}\\right) \\approx 4{,}91$, karena penambahan ion $\\text{H}^+$ dari $\\text{HCl}$ dinetralisasi oleh ion basa konjugasi asetat: $\\text{CH}_3\\text{COO}^- + \\text{H}^+ \\to \\text{CH}_3\\text{COOH}$. Jumlah mol garam asetat berkurang menjadi $0{,}10 - 0{,}01 = 0{,}09\\text{ mol}$ dan mol asam asetat bertambah menjadi $0{,}10 + 0{,}01 = 0{,}11\\text{ mol}$. Maka $[\\text{H}^+] = K_a \\times \\frac{0{,}11}{0{,}09} = 10^{-5} \\times 1{,}222 = 1{,}222 \\times 10^{-5}\\text{ M} \\implies \\text{pH} = 5 - \\log(1{,}22) \\approx 4{,}91$ (terbukti pH larutan relatif konstan hanya turun $0{,}09$ satuan).. Saat ditambah asam kuat, ion H+ bereaksi dengan basa konjugasi CH3COO-. Asam bertambah: 0,1 + 0,01 = 0,11 mol. Garam berkurang: 0,1 - 0,01 = 0,09 mol. [H+] = Ka * (0,11 / 0,09). [H+] = 1e-5 * (11/9) -> pH = 5 - log(11/9) = 5 - 0,09 = 4,91."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{pH} = 5 - \\log\\left(\\frac{11}{9}\\right) \\approx 4{,}91$, karena penambahan ion $\\text{H}^+$ dari $\\text{HCl}$ dinetralisasi oleh ion basa konjugasi asetat: $\\text{CH}_3\\text{COO}^- + \\text{H}^+ \\to \\text{CH}_3\\text{COOH}$. Jumlah mol garam asetat berkurang menjadi $0{,}10 - 0{,}01 = 0{,}09\\text{ mol}$ dan mol asam asetat bertambah menjadi $0{,}10 + 0{,}01 = 0{,}11\\text{ mol}$. Maka $[\\text{H}^+] = K_a \\times \\frac{0{,}11}{0{,}09} = 10^{-5} \\times 1{,}222 = 1{,}222 \\times 10^{-5}\\text{ M} \\implies \\text{pH} = 5 - \\log(1{,}22) \\approx 4{,}91$ (terbukti pH larutan relatif konstan hanya turun $0{,}09$ satuan).. Saat ditambah asam kuat, ion H+ bereaksi dengan basa konjugasi CH3COO-. Asam bertambah: 0,1 + 0,01 = 0,11 mol. Garam berkurang: 0,1 - 0,01 = 0,09 mol. [H+] = Ka * (0,11 / 0,09). [H+] = 1e-5 * (11/9) -> pH = 5 - log(11/9) = 5 - 0,09 = 4,91."
   },
   {
     "id": "kim-lat-m-07",
@@ -1357,15 +1358,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bersifat basa dengan $\\text{pH} = 7{,}65$, karena nilai tetapan basa amonia keliru dianggap lebih mendominasi sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Bersifat netral dengan $\\text{pH} = 7{,}00$, karena kedua komponen penyusunnya sama-sama lemah sehingga dianggap saling meniadakan sempurna."
       },
       {
         "key": "B",
-        "text": "Bersifat asam dengan $\\text{pH} = 7 - \\frac{1}{2}(\\text{p}K_a - \\text{p}K_b) = 6{,}35$, karena nilai $K_a > K_b$ ($2 \\times 10^{-4} > 1 \\times 10^{-5}$), sehingga ionisasi kation $\\text{NH}_4^+$ menghasilkan ion $\\text{H}^+$ yang lebih dominan daripada ion $\\text{OH}^-$ dari anion format. Konsentrasi $[\\text{H}^+] = \\sqrt{\\frac{K_w \\cdot K_a}{K_b}} = \\sqrt{\\frac{10^{-14} \\times (2 \\times 10^{-4})}{10^{-5}}} = \\sqrt{2 \\times 10^{-13}} = \\sqrt{20 \\times 10^{-14}} \\approx 4{,}47 \\times 10^{-7}\\text{ M} \\implies \\text{pH} = 7 - \\log(4{,}47) \\approx 6{,}35$."
+        "text": "Bersifat basa dengan $\\text{pH} = 7{,}65$, karena nilai tetapan basa amonia keliru dianggap lebih mendominasi."
       },
       {
         "key": "C",
-        "text": "Bersifat netral dengan $\\text{pH} = 7{,}00$, karena kedua komponen penyusunnya sama-sama lemah sehingga dianggap saling meniadakan sempurna."
+        "text": "Bersifat asam dengan $\\text{pH} = 7 - \\frac{1}{2}(\\text{p}K_a - \\text{p}K_b) = 6{,}35$, karena nilai $K_a > K_b$ ($2 \\times 10^{-4} > 1 \\times 10^{-5}$), sehingga ionisasi kation $\\text{NH}_4^+$ menghasilkan ion $\\text{H}^+$ yang lebih dominan daripada ion $\\text{OH}^-$ dari anion format. Konsentrasi $[\\text{H}^+] = \\sqrt{\\frac{K_w \\cdot K_a}{K_b}} = \\sqrt{\\frac{10^{-14} \\times (2 \\times 10^{-4})}{10^{-5}}} = \\sqrt{2 \\times 10^{-13}} = \\sqrt{20 \\times 10^{-14}} \\approx 4{,}47 \\times 10^{-7}\\text{ M} \\implies \\text{pH} = 7 - \\log(4{,}47) \\approx 6{,}35$."
       },
       {
         "key": "D",
@@ -1376,8 +1377,8 @@ window.TKA_KIMIA_QUESTIONS = [
         "text": "Bersifat basa dengan $\\text{pH} = 9{,}50$, dihitung dari rumus hidrolisis kation asam kuat basa lemah."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bersifat asam dengan $\\text{pH} = 7 - \\frac{1}{2}(\\text{p}K_a - \\text{p}K_b) = 6{,}35$, karena nilai $K_a > K_b$ ($2 \\times 10^{-4} > 1 \\times 10^{-5}$), sehingga ionisasi kation $\\text{NH}_4^+$ menghasilkan ion $\\text{H}^+$ yang lebih dominan daripada ion $\\text{OH}^-$ dari anion format. Konsentrasi $[\\text{H}^+] = \\sqrt{\\frac{K_w \\cdot K_a}{K_b}} = \\sqrt{\\frac{10^{-14} \\times (2 \\times 10^{-4})}{10^{-5}}} = \\sqrt{2 \\times 10^{-13}} = \\sqrt{20 \\times 10^{-14}} \\approx 4{,}47 \\times 10^{-7}\\text{ M} \\implies \\text{pH} = 7 - \\log(4{,}47) \\approx 6{,}35$.. Garam dari asam lemah dan basa lemah: [H+] = sqrt(Kw * Ka / Kb). Karena Ka > Kb, larutan bersifat asam (pH < 7). pH = 0,5 * (pKw + pKa - pKb). pKa = 4 - log 2 = 3,70. pKb = 5. pH = 0,5 * (14 + 3,70 - 5) = 0,5 * 12,70 = 6,35 (asam)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Bersifat asam dengan $\\text{pH} = 7 - \\frac{1}{2}(\\text{p}K_a - \\text{p}K_b) = 6{,}35$, karena nilai $K_a > K_b$ ($2 \\times 10^{-4} > 1 \\times 10^{-5}$), sehingga ionisasi kation $\\text{NH}_4^+$ menghasilkan ion $\\text{H}^+$ yang lebih dominan daripada ion $\\text{OH}^-$ dari anion format. Konsentrasi $[\\text{H}^+] = \\sqrt{\\frac{K_w \\cdot K_a}{K_b}} = \\sqrt{\\frac{10^{-14} \\times (2 \\times 10^{-4})}{10^{-5}}} = \\sqrt{2 \\times 10^{-13}} = \\sqrt{20 \\times 10^{-14}} \\approx 4{,}47 \\times 10^{-7}\\text{ M} \\implies \\text{pH} = 7 - \\log(4{,}47) \\approx 6{,}35$.. Garam dari asam lemah dan basa lemah: [H+] = sqrt(Kw * Ka / Kb). Karena Ka > Kb, larutan bersifat asam (pH < 7). pH = 0,5 * (pKw + pKa - pKb). pKa = 4 - log 2 = 3,70. pKb = 5. pH = 0,5 * (14 + 3,70 - 5) = 0,5 * 12,70 = 6,35 (asam)."
   },
   {
     "id": "kim-lat-m-08",
@@ -1400,27 +1401,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$ berwarna merah bata karena nilai kuosien reaksi $Q_{sp} > K_{sp}$ ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$ berwarna merah bata karena nilai kuosien reaksi $Q_{sp} > K_{sp}$ ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "B",
-        "text": "Larutan tepat jenuh dan mulai terbentuk kristal mikro karena nilai $Q_{sp} = K_{sp}$."
+        "text": "Terjadi reaksi redoks pembentukan logam perak bebas dan gas oksigen di dalam wadah bejana."
       },
       {
         "key": "C",
-        "text": "Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$, karena nilai hasil kali kuosien reaksi $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 1 \\times 10^{-12} < K_{sp}$... mari cek konsentrasi campuran dengan cermat: Volume total = $100\\text{ mL}$. $[\\text{Ag}^+] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. $[\\text{CrO}_4^{2-}] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. Maka $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 10^{-8} \\times 10^{-4} = 10^{-12} = 1{,}0 \\times 10^{-12}$. Karena $Q_{sp} = 1{,}0 \\times 10^{-12} < K_{sp} = 2{,}4 \\times 10^{-12}$, maka larutan belum jenuh dan TIDAK terbentuk endapan."
+        "text": "Larutan tepat jenuh dan mulai terbentuk kristal mikro karena nilai $Q_{sp} = K_{sp}$."
       },
       {
         "key": "D",
-        "text": "Terjadi reaksi redoks pembentukan logam perak bebas dan gas oksigen di dalam wadah bejana."
+        "text": "Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$, karena nilai hasil kali kuosien reaksi $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 1 \\times 10^{-12} < K_{sp}$... mari cek konsentrasi campuran dengan cermat: Volume total = $100\\text{ mL}$. $[\\text{Ag}^+] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. $[\\text{CrO}_4^{2-}] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. Maka $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 10^{-8} \\times 10^{-4} = 10^{-12} = 1{,}0 \\times 10^{-12}$. Karena $Q_{sp} = 1{,}0 \\times 10^{-12} < K_{sp} = 2{,}4 \\times 10^{-12}$, maka larutan belum jenuh dan TIDAK terbentuk endapan."
       },
       {
         "key": "E",
         "text": "Terbentuk endapan kalium nitrat $\\text{KNO}_3$ karena memiliki kelarutan yang sangat rendah di air."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$, karena nilai hasil kali kuosien reaksi $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 1 \\times 10^{-12} < K_{sp}$... mari cek konsentrasi campuran dengan cermat: Volume total = $100\\text{ mL}$. $[\\text{Ag}^+] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. $[\\text{CrO}_4^{2-}] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. Maka $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 10^{-8} \\times 10^{-4} = 10^{-12} = 1{,}0 \\times 10^{-12}$. Karena $Q_{sp} = 1{,}0 \\times 10^{-12} < K_{sp} = 2{,}4 \\times 10^{-12}$, maka larutan belum jenuh dan TIDAK terbentuk endapan.. Hitung konsentrasi ion setelah pengenceran: [Ag+] = 1e-4 M, [CrO4 2-] = 1e-4 M. Hitung Qsp = [Ag+]^2 * [CrO4 2-] = (1e-4)^2 * 1e-4 = 1e-12. Bandingkan dengan Ksp = 2,4e-12. Karena Qsp (1e-12) < Ksp (2,4e-12), larutan belum jenuh sehingga tidak terbentuk endapan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Terbentuk endapan $\\text{Ag}_2\\text{CrO}_4$, karena nilai hasil kali kuosien reaksi $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 1 \\times 10^{-12} < K_{sp}$... mari cek konsentrasi campuran dengan cermat: Volume total = $100\\text{ mL}$. $[\\text{Ag}^+] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. $[\\text{CrO}_4^{2-}] = \\frac{50 \\times 2 \\times 10^{-4}}{100} = 1 \\times 10^{-4}\\text{ M}$. Maka $Q_{sp} = [\\text{Ag}^+]^2 [\\text{CrO}_4^{2-}] = (10^{-4})^2 \\times (10^{-4}) = 10^{-8} \\times 10^{-4} = 10^{-12} = 1{,}0 \\times 10^{-12}$. Karena $Q_{sp} = 1{,}0 \\times 10^{-12} < K_{sp} = 2{,}4 \\times 10^{-12}$, maka larutan belum jenuh dan TIDAK terbentuk endapan.. Hitung konsentrasi ion setelah pengenceran: [Ag+] = 1e-4 M, [CrO4 2-] = 1e-4 M. Hitung Qsp = [Ag+]^2 * [CrO4 2-] = (1e-4)^2 * 1e-4 = 1e-12. Bandingkan dengan Ksp = 2,4e-12. Karena Qsp (1e-12) < Ksp (2,4e-12), larutan belum jenuh sehingga tidak terbentuk endapan."
   },
   {
     "id": "kim-lat-m-09",
@@ -1443,7 +1444,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta T_b = 0{,}208^\\circ\\text{C}$ dan $T_b = 100{,}208^\\circ\\text{C}$, karena mengabaikan faktor Van 't Hoff larutan elektrolit ($i = 1$) menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 100{,}416^\\circ\\text{C}$, karena $\\text{NaCl}$ adalah elektrolit kuat biner ($n = 2$ ion: $\\text{Na}^+$ dan $\\text{Cl}^-$) dengan faktor Van 't Hoff $i = 1 + (2 - 1)(1) = 2$. Jumlah mol $\\text{NaCl}$ adalah $n = \\frac{11{,}7}{58{,}5} = 0{,}2\\text{ mol}$. Molalitasnya adalah $m = \\frac{0{,}2\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}4\\text{ m}$. Kenaikan titik didih dihitung dari $\\Delta T_b = m \\times K_b \\times i = 0{,}4 \\times 0{,}52 \\times 2 = 0{,}416^\\circ\\text{C}$. Maka titik didih larutan adalah $T_b = 100 + 0{,}416 = 100{,}416^\\circ\\text{C}$."
       },
       {
         "key": "B",
@@ -1451,19 +1452,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 99{,}584^\\circ\\text{C}$, karena titik didih larutan keliru dikurangkan dari titik didih pelarut air."
+        "text": "$\\Delta T_b = 1{,}040^\\circ\\text{C}$ dan $T_b = 101{,}040^\\circ\\text{C}$, dihitung dari asumsi konsentrasi satu molal elektrolit kuat."
       },
       {
         "key": "D",
-        "text": "$\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 100{,}416^\\circ\\text{C}$, karena $\\text{NaCl}$ adalah elektrolit kuat biner ($n = 2$ ion: $\\text{Na}^+$ dan $\\text{Cl}^-$) dengan faktor Van 't Hoff $i = 1 + (2 - 1)(1) = 2$. Jumlah mol $\\text{NaCl}$ adalah $n = \\frac{11{,}7}{58{,}5} = 0{,}2\\text{ mol}$. Molalitasnya adalah $m = \\frac{0{,}2\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}4\\text{ m}$. Kenaikan titik didih dihitung dari $\\Delta T_b = m \\times K_b \\times i = 0{,}4 \\times 0{,}52 \\times 2 = 0{,}416^\\circ\\text{C}$. Maka titik didih larutan adalah $T_b = 100 + 0{,}416 = 100{,}416^\\circ\\text{C}$."
+        "text": "$\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 99{,}584^\\circ\\text{C}$, karena titik didih larutan keliru dikurangkan dari titik didih pelarut air."
       },
       {
         "key": "E",
-        "text": "$\\Delta T_b = 1{,}040^\\circ\\text{C}$ dan $T_b = 101{,}040^\\circ\\text{C}$, dihitung dari asumsi konsentrasi satu molal elektrolit kuat."
+        "text": "$\\Delta T_b = 0{,}208^\\circ\\text{C}$ dan $T_b = 100{,}208^\\circ\\text{C}$, karena mengabaikan faktor Van 't Hoff larutan elektrolit ($i = 1$) menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 100{,}416^\\circ\\text{C}$, karena $\\text{NaCl}$ adalah elektrolit kuat biner ($n = 2$ ion: $\\text{Na}^+$ dan $\\text{Cl}^-$) dengan faktor Van 't Hoff $i = 1 + (2 - 1)(1) = 2$. Jumlah mol $\\text{NaCl}$ adalah $n = \\frac{11{,}7}{58{,}5} = 0{,}2\\text{ mol}$. Molalitasnya adalah $m = \\frac{0{,}2\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}4\\text{ m}$. Kenaikan titik didih dihitung dari $\\Delta T_b = m \\times K_b \\times i = 0{,}4 \\times 0{,}52 \\times 2 = 0{,}416^\\circ\\text{C}$. Maka titik didih larutan adalah $T_b = 100 + 0{,}416 = 100{,}416^\\circ\\text{C}$.. NaCl terurai jadi 2 ion (i = 2). Mol = 11,7 / 58,5 = 0,2 mol. Molalitas m = 0,2 / 0,5 = 0,4 m. Delta_Tb = m * Kb * i = 0,4 * 0,52 * 2 = 0,416 C. Tb = 100 + 0,416 C. Delta_Tb = 0,416 C, Tb = 100,416 C."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta T_b = 0{,}416^\\circ\\text{C}$ dan $T_b = 100{,}416^\\circ\\text{C}$, karena $\\text{NaCl}$ adalah elektrolit kuat biner ($n = 2$ ion: $\\text{Na}^+$ dan $\\text{Cl}^-$) dengan faktor Van 't Hoff $i = 1 + (2 - 1)(1) = 2$. Jumlah mol $\\text{NaCl}$ adalah $n = \\frac{11{,}7}{58{,}5} = 0{,}2\\text{ mol}$. Molalitasnya adalah $m = \\frac{0{,}2\\text{ mol}}{0{,}5\\text{ kg}} = 0{,}4\\text{ m}$. Kenaikan titik didih dihitung dari $\\Delta T_b = m \\times K_b \\times i = 0{,}4 \\times 0{,}52 \\times 2 = 0{,}416^\\circ\\text{C}$. Maka titik didih larutan adalah $T_b = 100 + 0{,}416 = 100{,}416^\\circ\\text{C}$.. NaCl terurai jadi 2 ion (i = 2). Mol = 11,7 / 58,5 = 0,2 mol. Molalitas m = 0,2 / 0,5 = 0,4 m. Delta_Tb = m * Kb * i = 0,4 * 0,52 * 2 = 0,416 C. Tb = 100 + 0,416 C. Delta_Tb = 0,416 C, Tb = 100,416 C."
   },
   {
     "id": "kim-lat-m-10",
@@ -1486,27 +1487,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$M_r = 60\\text{ g/mol}$, karena volume larutan keliru dihitung sebesar 500 mL diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$M_r = 60\\text{ g/mol}$, karena volume larutan keliru dihitung sebesar 500 mL."
       },
       {
         "key": "B",
-        "text": "$M_r = 240\\text{ g/mol}$, karena tekanan osmotik keliru dikalikan dengan faktor dua elektrolit biner."
-      },
-      {
-        "key": "C",
-        "text": "$M_r = 180\\text{ g/mol}$, dihitung dari pendekatan massa molar glukosa standar tanpa analisis persamaan Van 't Hoff."
-      },
-      {
-        "key": "D",
         "text": "$M_r = 300\\text{ g/mol}$, dihitung dari perkalian suhu mutlak dengan massa zat terlarut."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$M_r = 120\\text{ g/mol}$, karena menurut persamaan tekanan osmotik Van 't Hoff $\\pi = M R T = \\frac{g}{M_r} \\times \\frac{1.000}{V\\text{ (mL)}} \\times R T$, sehingga massa molekul relatif adalah $M_r = \\frac{g \\times 1.000 \\times R T}{\\pi \\times V} = \\frac{3 \\times 1.000 \\times 0{,}082 \\times 300}{2{,}46 \\times 250} = \\frac{73.800}{615} = 120\\text{ g/mol}$."
+      },
+      {
+        "key": "D",
+        "text": "$M_r = 180\\text{ g/mol}$, dihitung dari pendekatan massa molar glukosa standar tanpa analisis persamaan Van 't Hoff."
+      },
+      {
+        "key": "E",
+        "text": "$M_r = 240\\text{ g/mol}$, karena tekanan osmotik keliru dikalikan dengan faktor dua elektrolit biner."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $M_r = 120\\text{ g/mol}$, karena menurut persamaan tekanan osmotik Van 't Hoff $\\pi = M R T = \\frac{g}{M_r} \\times \\frac{1.000}{V\\text{ (mL)}} \\times R T$, sehingga massa molekul relatif adalah $M_r = \\frac{g \\times 1.000 \\times R T}{\\pi \\times V} = \\frac{3 \\times 1.000 \\times 0{,}082 \\times 300}{2{,}46 \\times 250} = \\frac{73.800}{615} = 120\\text{ g/mol}$.. Gunakan pi = (g / Mr) * (R * T / V). Mr = (g * R * T) / (pi * V). V = 0,25 L, T = 300 K. Mr = (3 * 0,082 * 300) / (2,46 * 0,25) = 73,8 / 0,615 = 120 g/mol."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $M_r = 120\\text{ g/mol}$, karena menurut persamaan tekanan osmotik Van 't Hoff $\\pi = M R T = \\frac{g}{M_r} \\times \\frac{1.000}{V\\text{ (mL)}} \\times R T$, sehingga massa molekul relatif adalah $M_r = \\frac{g \\times 1.000 \\times R T}{\\pi \\times V} = \\frac{3 \\times 1.000 \\times 0{,}082 \\times 300}{2{,}46 \\times 250} = \\frac{73.800}{615} = 120\\text{ g/mol}$.. Gunakan pi = (g / Mr) * (R * T / V). Mr = (g * R * T) / (pi * V). V = 0,25 L, T = 300 K. Mr = (3 * 0,082 * 300) / (2,46 * 0,25) = 73,8 / 0,615 = 120 g/mol."
   },
   {
     "id": "kim-lat-m-11",
@@ -1529,27 +1530,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta H_c^\\circ = -2.222\\text{ kJ/mol}$, karena entalpi reaksi dihitung dari selisih entalpi produk dikurangi entalpi reaktan: $\\Delta H = \\sum \\Delta H_f^\\circ(\\text{produk}) - \\sum \\Delta H_f^\\circ(\\text{reaktan}) = [3(-394) + 4(-286)] - [-104 + 5(0)] = [-1.182 - 1.144] - [-104] = -2.326 + 104 = -2.222\\text{ kJ/mol}$."
-      },
-      {
-        "key": "B",
-        "text": "$\\Delta H_c^\\circ = +2.222\\text{ kJ/mol}$, karena salah memberikan tanda positif pada reaksi pembakaran yang terbukti eksotermik membebaskan kalor sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
-        "text": "$\\Delta H_c^\\circ = -2.430\\text{ kJ/mol}$, karena entalpi pembentukan propana keliru dijumlahkan dengan produk bukan dikurangkan."
-      },
-      {
-        "key": "D",
         "text": "$\\Delta H_c^\\circ = -1.182\\text{ kJ/mol}$, karena hanya memperhitungkan entalpi pembentukan gas karbon dioksida tanpa uap air."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$\\Delta H_c^\\circ = -576\\text{ kJ/mol}$, dihitung dari selisih aljabar langsung tanpa mengalikan koefisien reaksi pembakaran."
+      },
+      {
+        "key": "C",
+        "text": "$\\Delta H_c^\\circ = -2.222\\text{ kJ/mol}$, karena entalpi reaksi dihitung dari selisih entalpi produk dikurangi entalpi reaktan: $\\Delta H = \\sum \\Delta H_f^\\circ(\\text{produk}) - \\sum \\Delta H_f^\\circ(\\text{reaktan}) = [3(-394) + 4(-286)] - [-104 + 5(0)] = [-1.182 - 1.144] - [-104] = -2.326 + 104 = -2.222\\text{ kJ/mol}$."
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta H_c^\\circ = +2.222\\text{ kJ/mol}$, karena salah memberikan tanda positif pada reaksi pembakaran yang terbukti eksotermik membebaskan kalor."
+      },
+      {
+        "key": "E",
+        "text": "$\\Delta H_c^\\circ = -2.430\\text{ kJ/mol}$, karena entalpi pembentukan propana keliru dijumlahkan dengan produk bukan dikurangkan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\Delta H_c^\\circ = -2.222\\text{ kJ/mol}$, karena entalpi reaksi dihitung dari selisih entalpi produk dikurangi entalpi reaktan: $\\Delta H = \\sum \\Delta H_f^\\circ(\\text{produk}) - \\sum \\Delta H_f^\\circ(\\text{reaktan}) = [3(-394) + 4(-286)] - [-104 + 5(0)] = [-1.182 - 1.144] - [-104] = -2.326 + 104 = -2.222\\text{ kJ/mol}$.. Delta H = Sigma Delta Hf (produk / kanan) - Sigma Delta Hf (reaktan / kiri). Produk = 3 * (-394) + 4 * (-286) = -2.326 kJ. Reaktan = -104 kJ. Delta H = -2.326 - (-104) = -2.222 kJ/mol."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $\\Delta H_c^\\circ = -2.222\\text{ kJ/mol}$, karena entalpi reaksi dihitung dari selisih entalpi produk dikurangi entalpi reaktan: $\\Delta H = \\sum \\Delta H_f^\\circ(\\text{produk}) - \\sum \\Delta H_f^\\circ(\\text{reaktan}) = [3(-394) + 4(-286)] - [-104 + 5(0)] = [-1.182 - 1.144] - [-104] = -2.326 + 104 = -2.222\\text{ kJ/mol}$.. Delta H = Sigma Delta Hf (produk / kanan) - Sigma Delta Hf (reaktan / kiri). Produk = 3 * (-394) + 4 * (-286) = -2.326 kJ. Reaktan = -104 kJ. Delta H = -2.326 - (-104) = -2.222 kJ/mol."
   },
   {
     "id": "kim-lat-m-12",
@@ -1572,11 +1573,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6\\text{ menit}$, karena laju reaksi keliru dianggap hanya meningkat sembilan kali lipat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$6\\text{ menit}$, karena laju reaksi keliru dianggap hanya meningkat sembilan kali lipat."
       },
       {
         "key": "B",
-        "text": "$2\\text{ menit}$, karena kenaikan suhu adalah $\\Delta T = 55^\\circ\\text{C} - 25^\\circ\\text{C} = 30^\\circ\\text{C}$. Jumlah kenaikan kelipatan sepuluh derajat adalah $n = \\frac{\\Delta T}{10} = \\frac{30}{10} = 3$. Laju reaksi meningkat sebesar $3^n = 3^3 = 27$ kali lebih cepat. Karena waktu reaksi berbanding terbalik dengan laju reaksi ($t \\propto 1/v$), maka waktu yang dibutuhkan pada suhu $55^\\circ\\text{C}$ adalah $t_2 = \\frac{t_1}{3^n} = \\frac{54\\text{ menit}}{27} = 2\\text{ menit}$."
+        "text": "$1\\text{ menit}$, dihitung dari asumsi laju reaksi meningkat secara kuadratik eksponensial."
       },
       {
         "key": "C",
@@ -1584,15 +1585,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$1\\text{ menit}$, dihitung dari asumsi laju reaksi meningkat secara kuadratik eksponensial."
+        "text": "$27\\text{ menit}$, dihitung dari pengurangan separuh waktu reaksi awal."
       },
       {
         "key": "E",
-        "text": "$27\\text{ menit}$, dihitung dari pengurangan separuh waktu reaksi awal."
+        "text": "$2\\text{ menit}$, karena kenaikan suhu adalah $\\Delta T = 55^\\circ\\text{C} - 25^\\circ\\text{C} = 30^\\circ\\text{C}$. Jumlah kenaikan kelipatan sepuluh derajat adalah $n = \\frac{\\Delta T}{10} = \\frac{30}{10} = 3$. Laju reaksi meningkat sebesar $3^n = 3^3 = 27$ kali lebih cepat. Karena waktu reaksi berbanding terbalik dengan laju reaksi ($t \\propto 1/v$), maka waktu yang dibutuhkan pada suhu $55^\\circ\\text{C}$ adalah $t_2 = \\frac{t_1}{3^n} = \\frac{54\\text{ menit}}{27} = 2\\text{ menit}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $2\\text{ menit}$, karena kenaikan suhu adalah $\\Delta T = 55^\\circ\\text{C} - 25^\\circ\\text{C} = 30^\\circ\\text{C}$. Jumlah kenaikan kelipatan sepuluh derajat adalah $n = \\frac{\\Delta T}{10} = \\frac{30}{10} = 3$. Laju reaksi meningkat sebesar $3^n = 3^3 = 27$ kali lebih cepat. Karena waktu reaksi berbanding terbalik dengan laju reaksi ($t \\propto 1/v$), maka waktu yang dibutuhkan pada suhu $55^\\circ\\text{C}$ adalah $t_2 = \\frac{t_1}{3^n} = \\frac{54\\text{ menit}}{27} = 2\\text{ menit}$.. Laju naik 3 kali lipat tiap 10 C. Delta T = 55 - 25 = 30 C -> n = 30/10 = 3 periode. Laju naik 3^3 = 27 kali. Waktu t2 = t1 / 27. t2 = 54 / 27 = 2 menit."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $2\\text{ menit}$, karena kenaikan suhu adalah $\\Delta T = 55^\\circ\\text{C} - 25^\\circ\\text{C} = 30^\\circ\\text{C}$. Jumlah kenaikan kelipatan sepuluh derajat adalah $n = \\frac{\\Delta T}{10} = \\frac{30}{10} = 3$. Laju reaksi meningkat sebesar $3^n = 3^3 = 27$ kali lebih cepat. Karena waktu reaksi berbanding terbalik dengan laju reaksi ($t \\propto 1/v$), maka waktu yang dibutuhkan pada suhu $55^\\circ\\text{C}$ adalah $t_2 = \\frac{t_1}{3^n} = \\frac{54\\text{ menit}}{27} = 2\\text{ menit}$.. Laju naik 3 kali lipat tiap 10 C. Delta T = 55 - 25 = 30 C -> n = 30/10 = 3 periode. Laju naik 3^3 = 27 kali. Waktu t2 = t1 / 27. t2 = 54 / 27 = 2 menit."
   },
   {
     "id": "kim-lat-m-13",
@@ -1615,27 +1616,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$K_p = 1{,}0\\text{ atm}$, karena tekanan parsial reaktan keliru dihitung sama dengan tekanan produk ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "$K_p = 0{,}25\\text{ atm}$, dihitung dari pengkuadratan rasio mol tanpa mengalikan dengan tekanan total gas."
       },
       {
-        "key": "C",
-        "text": "$K_p = 0{,}5\\text{ atm}$, karena mol $\\text{PCl}_5$ yang terurai adalah $\\frac{1}{3}\\text{ mol}$, menyisakan $\\text{PCl}_5 = 1 - \\frac{1}{3} = \\frac{2}{3}\\text{ mol}$, terbentuk $\\text{PCl}_3 = \\frac{1}{3}\\text{ mol}$, dan $\\text{Cl}_2 = \\frac{1}{3}\\text{ mol}$. Total mol gas pada kesetimbangan adalah $n_{\\text{total}} = \\frac{2}{3} + \\frac{1}{3} + \\frac{1}{3} = \\frac{4}{3}\\text{ mol}$. Tekanan parsial masing-masing gas: $P_{\\text{PCl}_5} = \\frac{2/3}{4/3} \\times 4 = 2\\text{ atm}$, $P_{\\text{PCl}_3} = \\frac{1/3}{4/3} \\times 4 = 1\\text{ atm}$, dan $P_{\\text{Cl}_2} = 1\\text{ atm}$. Maka $K_p = \\frac{P_{\\text{PCl}_3} \\cdot P_{\\text{Cl}_2}}{P_{\\text{PCl}_5}} = \\frac{1 \\times 1}{2} = 0{,}5\\text{ atm}$."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "$K_p = 2{,}0\\text{ atm}$, karena rumus Kp keliru dibalik menjadi tekanan reaktan dibagi tekanan produk."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$K_p = 0{,}75\\text{ atm}$, dihitung dari pendekatan pembulatan fraksi mol kesetimbangan kimia."
+      },
+      {
+        "key": "D",
+        "text": "$K_p = 1{,}0\\text{ atm}$, karena tekanan parsial reaktan keliru dihitung sama dengan tekanan produk ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
+        "key": "E",
+        "text": "$K_p = 0{,}5\\text{ atm}$, karena mol $\\text{PCl}_5$ yang terurai adalah $\\frac{1}{3}\\text{ mol}$, menyisakan $\\text{PCl}_5 = 1 - \\frac{1}{3} = \\frac{2}{3}\\text{ mol}$, terbentuk $\\text{PCl}_3 = \\frac{1}{3}\\text{ mol}$, dan $\\text{Cl}_2 = \\frac{1}{3}\\text{ mol}$. Total mol gas pada kesetimbangan adalah $n_{\\text{total}} = \\frac{2}{3} + \\frac{1}{3} + \\frac{1}{3} = \\frac{4}{3}\\text{ mol}$. Tekanan parsial masing-masing gas: $P_{\\text{PCl}_5} = \\frac{2/3}{4/3} \\times 4 = 2\\text{ atm}$, $P_{\\text{PCl}_3} = \\frac{1/3}{4/3} \\times 4 = 1\\text{ atm}$, dan $P_{\\text{Cl}_2} = 1\\text{ atm}$. Maka $K_p = \\frac{P_{\\text{PCl}_3} \\cdot P_{\\text{Cl}_2}}{P_{\\text{PCl}_5}} = \\frac{1 \\times 1}{2} = 0{,}5\\text{ atm}$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $K_p = 0{,}5\\text{ atm}$, karena mol $\\text{PCl}_5$ yang terurai adalah $\\frac{1}{3}\\text{ mol}$, menyisakan $\\text{PCl}_5 = 1 - \\frac{1}{3} = \\frac{2}{3}\\text{ mol}$, terbentuk $\\text{PCl}_3 = \\frac{1}{3}\\text{ mol}$, dan $\\text{Cl}_2 = \\frac{1}{3}\\text{ mol}$. Total mol gas pada kesetimbangan adalah $n_{\\text{total}} = \\frac{2}{3} + \\frac{1}{3} + \\frac{1}{3} = \\frac{4}{3}\\text{ mol}$. Tekanan parsial masing-masing gas: $P_{\\text{PCl}_5} = \\frac{2/3}{4/3} \\times 4 = 2\\text{ atm}$, $P_{\\text{PCl}_3} = \\frac{1/3}{4/3} \\times 4 = 1\\text{ atm}$, dan $P_{\\text{Cl}_2} = 1\\text{ atm}$. Maka $K_p = \\frac{P_{\\text{PCl}_3} \\cdot P_{\\text{Cl}_2}}{P_{\\text{PCl}_5}} = \\frac{1 \\times 1}{2} = 0{,}5\\text{ atm}$.. Mol setimbang: PCl5 = 2/3, PCl3 = 1/3, Cl2 = 1/3. Total mol = 4/3. Tekanan parsial: P(PCl5) = (2/4)*4 = 2 atm, P(PCl3) = (1/4)*4 = 1 atm, P(Cl2) = 1 atm. Kp = 1*1 / 2. Kp = 1 / 2 = 0,5 atm."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $K_p = 0{,}5\\text{ atm}$, karena mol $\\text{PCl}_5$ yang terurai adalah $\\frac{1}{3}\\text{ mol}$, menyisakan $\\text{PCl}_5 = 1 - \\frac{1}{3} = \\frac{2}{3}\\text{ mol}$, terbentuk $\\text{PCl}_3 = \\frac{1}{3}\\text{ mol}$, dan $\\text{Cl}_2 = \\frac{1}{3}\\text{ mol}$. Total mol gas pada kesetimbangan adalah $n_{\\text{total}} = \\frac{2}{3} + \\frac{1}{3} + \\frac{1}{3} = \\frac{4}{3}\\text{ mol}$. Tekanan parsial masing-masing gas: $P_{\\text{PCl}_5} = \\frac{2/3}{4/3} \\times 4 = 2\\text{ atm}$, $P_{\\text{PCl}_3} = \\frac{1/3}{4/3} \\times 4 = 1\\text{ atm}$, dan $P_{\\text{Cl}_2} = 1\\text{ atm}$. Maka $K_p = \\frac{P_{\\text{PCl}_3} \\cdot P_{\\text{Cl}_2}}{P_{\\text{PCl}_5}} = \\frac{1 \\times 1}{2} = 0{,}5\\text{ atm}$.. Mol setimbang: PCl5 = 2/3, PCl3 = 1/3, Cl2 = 1/3. Total mol = 4/3. Tekanan parsial: P(PCl5) = (2/4)*4 = 2 atm, P(PCl3) = (1/4)*4 = 1 atm, P(Cl2) = 1 atm. Kp = 1*1 / 2. Kp = 1 / 2 = 0,5 atm."
   },
   {
     "id": "kim-lat-m-14",
@@ -1658,11 +1659,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$a = 2$, $b = 5$, $c = 16$, $d = 2$, $e = 5$, dan $f = 8$, karena jumlah koefisien ion besi tidak dikalikan dua mengikuti permanganat menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$a = 1$, $b = 3$, $c = 4$, $d = 1$, $e = 3$, dan $f = 2$, karena jumlah ion hidrogen tidak menyetarakan muatan listrik di kedua ruas."
       },
       {
         "key": "B",
-        "text": "$a = 1$, $b = 3$, $c = 4$, $d = 1$, $e = 3$, dan $f = 2$, karena jumlah ion hidrogen tidak menyetarakan muatan listrik di kedua ruas."
+        "text": "$a = 2$, $b = 10$, $c = 8$, $d = 2$, $e = 10$, dan $f = 4$, karena koefisien asam hidrogen tidak digandakan saat pengalian koefisien dua."
       },
       {
         "key": "C",
@@ -1674,7 +1675,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$a = 2$, $b = 10$, $c = 8$, $d = 2$, $e = 10$, dan $f = 4$, karena koefisien asam hidrogen tidak digandakan saat pengalian koefisien dua."
+        "text": "$a = 2$, $b = 5$, $c = 16$, $d = 2$, $e = 5$, dan $f = 8$, karena jumlah koefisien ion besi tidak dikalikan dua mengikuti permanganat menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       }
     ],
     "correctKey": "D",
@@ -1701,27 +1702,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tembaga ($\\text{Cu}$) dan perak ($\\text{Ag}$), karena keduanya merupakan logam mulia yang tahan karat sehingga dianggap mampu melindungi besi diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
-        "text": "Timah ($\\text{Sn}$) dan tembaga ($\\text{Cu}$), karena timah umum digunakan pada kaleng makanan kemasan baja."
-      },
-      {
-        "key": "C",
-        "text": "Hanya perak ($\\text{Ag}$), karena perak memiliki potensial reduksi tertinggi sehingga mendominasi seluruh reaksi elektrokimia."
-      },
-      {
-        "key": "D",
         "text": "Semua logam di atas (Mg, Zn, Sn, Cu, dan Ag) dapat melindungi besi dengan efektivitas yang persis sama."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Magnesium ($\\text{Mg}$) dan seng ($\\text{Zn}$), karena keduanya memiliki potensial reduksi standar yang jauh lebih negatif daripada besi ($E^\\circ_{\\text{Mg}} = -2{,}37\\text{ V}$ dan $E^\\circ_{\\text{Zn}} = -0{,}76\\text{ V} < E^\\circ_{\\text{Fe}} = -0{,}44\\text{ V}$), sehingga logam $\\text{Mg}$ dan $\\text{Zn}$ lebih mudah teroksidasi dan bertindak sebagai anoda korban yang mengorbankan dirinya terkorosi demi melindungi besi."
+      },
+      {
+        "key": "C",
+        "text": "Timah ($\\text{Sn}$) dan tembaga ($\\text{Cu}$), karena timah umum digunakan pada kaleng makanan kemasan baja."
+      },
+      {
+        "key": "D",
+        "text": "Tembaga ($\\text{Cu}$) dan perak ($\\text{Ag}$), karena keduanya merupakan logam mulia yang tahan karat sehingga dianggap mampu melindungi besi."
+      },
+      {
+        "key": "E",
+        "text": "Hanya perak ($\\text{Ag}$), karena perak memiliki potensial reduksi tertinggi sehingga mendominasi seluruh reaksi elektrokimia."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Magnesium ($\\text{Mg}$) dan seng ($\\text{Zn}$), karena keduanya memiliki potensial reduksi standar yang jauh lebih negatif daripada besi ($E^\\circ_{\\text{Mg}} = -2{,}37\\text{ V}$ dan $E^\\circ_{\\text{Zn}} = -0{,}76\\text{ V} < E^\\circ_{\\text{Fe}} = -0{,}44\\text{ V}$), sehingga logam $\\text{Mg}$ dan $\\text{Zn}$ lebih mudah teroksidasi dan bertindak sebagai anoda korban yang mengorbankan dirinya terkorosi demi melindungi besi.. Syarat anoda korban: logam harus memiliki E0 reduksi lebih negatif daripada besi (-0,44 V) agar teroksidasi lebih dahulu. Pilih logam dengan E0 < -0,44 V. Mg (-2,37 V) dan Zn (-0,76 V) memiliki E0 lebih negatif dari Fe (-0,44 V)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Magnesium ($\\text{Mg}$) dan seng ($\\text{Zn}$), karena keduanya memiliki potensial reduksi standar yang jauh lebih negatif daripada besi ($E^\\circ_{\\text{Mg}} = -2{,}37\\text{ V}$ dan $E^\\circ_{\\text{Zn}} = -0{,}76\\text{ V} < E^\\circ_{\\text{Fe}} = -0{,}44\\text{ V}$), sehingga logam $\\text{Mg}$ dan $\\text{Zn}$ lebih mudah teroksidasi dan bertindak sebagai anoda korban yang mengorbankan dirinya terkorosi demi melindungi besi.. Syarat anoda korban: logam harus memiliki E0 reduksi lebih negatif daripada besi (-0,44 V) agar teroksidasi lebih dahulu. Pilih logam dengan E0 < -0,44 V. Mg (-2,37 V) dan Zn (-0,76 V) memiliki E0 lebih negatif dari Fe (-0,44 V)."
   },
   {
     "id": "kim-lat-m-16",
@@ -1744,27 +1745,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Di katoda terjadi reduksi air: $2\\,\\text{H}_2\\text{O}(l) + 2e^- \\to \\text{H}_2(g) + 2\\,\\text{OH}^-(aq)$ dan di anoda dihasilkan gas klorin ($\\text{Cl}_2$), karena kation natrium ($\\text{Na}^+$, logam alkali golongan IA) memiliki potensial reduksi yang sangat negatif ($E^\\circ = -2{,}71\\text{ V}$) sehingga air lebih mudah tereduksi di katoda menghasilkan gas hidrogen dan suasana basa, sedangkan pada konsentrasi pekat ion halida $\\text{Cl}^-$ teroksidasi di anoda menghasilkan gas $\\text{Cl}_2$."
-      },
-      {
-        "key": "B",
-        "text": "Di katoda terjadi reduksi natrium: $\\text{Na}^+ + e^- \\to \\text{Na}(s)$ dan di anoda dihasilkan gas oksigen ($\\text{O}_2$) sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
-        "text": "Di katoda dihasilkan gas hidrogen dan di anoda terjadi oksidasi air menghasilkan gas oksigen murni."
-      },
-      {
-        "key": "D",
         "text": "Di katoda terjadi pengendapan natrium cair dan di anoda dihasilkan gas hidrogen klorida beracun."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Di katoda terjadi reduksi natrium: $\\text{Na}^+ + e^- \\to \\text{Na}(s)$ dan di anoda dihasilkan gas oksigen ($\\text{O}_2$)."
+      },
+      {
+        "key": "C",
         "text": "Di katoda terjadi oksidasi ion hidroksida dan di anoda dihasilkan endapan garam kristal natrium klorida."
+      },
+      {
+        "key": "D",
+        "text": "Di katoda dihasilkan gas hidrogen dan di anoda terjadi oksidasi air menghasilkan gas oksigen murni."
+      },
+      {
+        "key": "E",
+        "text": "Di katoda terjadi reduksi air: $2\\,\\text{H}_2\\text{O}(l) + 2e^- \\to \\text{H}_2(g) + 2\\,\\text{OH}^-(aq)$ dan di anoda dihasilkan gas klorin ($\\text{Cl}_2$), karena kation natrium ($\\text{Na}^+$, logam alkali golongan IA) memiliki potensial reduksi yang sangat negatif ($E^\\circ = -2{,}71\\text{ V}$) sehingga air lebih mudah tereduksi di katoda menghasilkan gas hidrogen dan suasana basa, sedangkan pada konsentrasi pekat ion halida $\\text{Cl}^-$ teroksidasi di anoda menghasilkan gas $\\text{Cl}_2$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Di katoda terjadi reduksi air: $2\\,\\text{H}_2\\text{O}(l) + 2e^- \\to \\text{H}_2(g) + 2\\,\\text{OH}^-(aq)$ dan di anoda dihasilkan gas klorin ($\\text{Cl}_2$), karena kation natrium ($\\text{Na}^+$, logam alkali golongan IA) memiliki potensial reduksi yang sangat negatif ($E^\\circ = -2{,}71\\text{ V}$) sehingga air lebih mudah tereduksi di katoda menghasilkan gas hidrogen dan suasana basa, sedangkan pada konsentrasi pekat ion halida $\\text{Cl}^-$ teroksidasi di anoda menghasilkan gas $\\text{Cl}_2$.. Dalam larutan air, kation Na+ (golongan IA) kalah bersaing dengan air: air yang tereduksi menghasilkan gas H2 dan ion OH-. Di anoda karbon, ion Cl- pekat teroksidasi jadi Cl2. Katoda: reduksi air menghasilkan gas H2. Anoda: gas Cl2."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Di katoda terjadi reduksi air: $2\\,\\text{H}_2\\text{O}(l) + 2e^- \\to \\text{H}_2(g) + 2\\,\\text{OH}^-(aq)$ dan di anoda dihasilkan gas klorin ($\\text{Cl}_2$), karena kation natrium ($\\text{Na}^+$, logam alkali golongan IA) memiliki potensial reduksi yang sangat negatif ($E^\\circ = -2{,}71\\text{ V}$) sehingga air lebih mudah tereduksi di katoda menghasilkan gas hidrogen dan suasana basa, sedangkan pada konsentrasi pekat ion halida $\\text{Cl}^-$ teroksidasi di anoda menghasilkan gas $\\text{Cl}_2$.. Dalam larutan air, kation Na+ (golongan IA) kalah bersaing dengan air: air yang tereduksi menghasilkan gas H2 dan ion OH-. Di anoda karbon, ion Cl- pekat teroksidasi jadi Cl2. Katoda: reduksi air menghasilkan gas H2. Anoda: gas Cl2."
   },
   {
     "id": "kim-lat-m-17",
@@ -1787,7 +1788,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$6{,}350\\text{ gram}$, karena valensi ion tembaga keliru dianggap satu sama seperti perak sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$1{,}588\\text{ gram}$, dihitung dari kesalahan membagi massa ekuivalen tembaga dengan faktor dua lagi."
       },
       {
         "key": "B",
@@ -1795,7 +1796,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$1{,}588\\text{ gram}$, dihitung dari kesalahan membagi massa ekuivalen tembaga dengan faktor dua lagi."
+        "text": "$0{,}635\\text{ gram}$, dihitung dari galat pergeseran koma desimal perhitungan stoikiometri redoks."
       },
       {
         "key": "D",
@@ -1803,7 +1804,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$0{,}635\\text{ gram}$, dihitung dari galat pergeseran koma desimal perhitungan stoikiometri redoks."
+        "text": "$6{,}350\\text{ gram}$, karena valensi ion tembaga keliru dianggap satu sama seperti perak."
       }
     ],
     "correctKey": "B",
@@ -1830,15 +1831,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Magnesium hidroksida ($\\text{Mg(OH)}_2$), karena merupakan basa lemah yang tidak dapat larut dalam larutan basa kuat berlebih ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Asam perklorat ($\\text{HClO}_4$), karena merupakan salah satu asam oksi terkuat yang tidak memiliki sifat amfoter."
       },
       {
         "key": "B",
-        "text": "Natrium hidroksida ($\\text{NaOH}$), karena merupakan basa kuat monoprotik murni yang tidak bereaksi dengan basa."
+        "text": "Aluminium hidroksida ($\\text{Al(OH)}_3$), karena dalam suasana asam $\\text{Al(OH)}_3$ bertindak sebagai basa membentuk kation $[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$, sedangkan dalam suasana basa kuat berlebih bertindak sebagai asam melepaskan proton membentuk anion kompleks aluminat $[\\text{Al(OH)}_4]^-$."
       },
       {
         "key": "C",
-        "text": "Aluminium hidroksida ($\\text{Al(OH)}_3$), karena dalam suasana asam $\\text{Al(OH)}_3$ bertindak sebagai basa membentuk kation $[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$, sedangkan dalam suasana basa kuat berlebih bertindak sebagai asam melepaskan proton membentuk anion kompleks aluminat $[\\text{Al(OH)}_4]^-$."
+        "text": "Magnesium hidroksida ($\\text{Mg(OH)}_2$), karena merupakan basa lemah yang tidak dapat larut dalam larutan basa kuat berlebih ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "D",
@@ -1846,11 +1847,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Asam perklorat ($\\text{HClO}_4$), karena merupakan salah satu asam oksi terkuat yang tidak memiliki sifat amfoter."
+        "text": "Natrium hidroksida ($\\text{NaOH}$), karena merupakan basa kuat monoprotik murni yang tidak bereaksi dengan basa."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Aluminium hidroksida ($\\text{Al(OH)}_3$), karena dalam suasana asam $\\text{Al(OH)}_3$ bertindak sebagai basa membentuk kation $[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$, sedangkan dalam suasana basa kuat berlebih bertindak sebagai asam melepaskan proton membentuk anion kompleks aluminat $[\\text{Al(OH)}_4]^-$.. Di antara hidroksida periode ke-3, hanya Al(OH)3 yang bersifat amfoter: larut dalam larutan asam menghasilkan Al3+ dan larut dalam basa kuat berlebih menghasilkan [Al(OH)4]-. Al(OH)3 bersifat amfoter."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Aluminium hidroksida ($\\text{Al(OH)}_3$), karena dalam suasana asam $\\text{Al(OH)}_3$ bertindak sebagai basa membentuk kation $[\\text{Al}(\\text{H}_2\\text{O})_6]^{3+}$, sedangkan dalam suasana basa kuat berlebih bertindak sebagai asam melepaskan proton membentuk anion kompleks aluminat $[\\text{Al(OH)}_4]^-$.. Di antara hidroksida periode ke-3, hanya Al(OH)3 yang bersifat amfoter: larut dalam larutan asam menghasilkan Al3+ dan larut dalam basa kuat berlebih menghasilkan [Al(OH)4]-. Al(OH)3 bersifat amfoter."
   },
   {
     "id": "kim-lat-m-19",
@@ -1873,7 +1874,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bilangan oksidasi kobalt $+2$, bilangan koordinasi 4, dan nama IUPAC diamintetraklorokobalt(II) klorida menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "Bilangan oksidasi kobalt $+3$, bilangan koordinasi 6, dan nama IUPAC tetraaminadiklorokobalt(III) klorida, karena ligan netral amonia ($\\text{NH}_3$) bermuatan nol dan ligan kloro ($\\text{Cl}^-$) bermuatan $-1$. Terdapat total 3 ion klorida (2 sebagai ligan dalam kurung siku dan 1 sebagai anion penyeimbang di luar), sehingga $\\text{Biloks Co} + 4(0) + 2(-1) + (-1) = 0 \\implies \\text{Biloks Co} = +3$. Jumlah ligan monodentat yang terikat langsung pada kobalt adalah $4 + 2 = 6$ (bilangan koordinasi 6)."
       },
       {
         "key": "B",
@@ -1881,19 +1882,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Bilangan oksidasi kobalt $+1$, bilangan koordinasi 6, dan nama IUPAC klorotetraaminadikobalt(I)."
+        "text": "Bilangan oksidasi kobalt $+6$, bilangan koordinasi 6, dan nama IUPAC heksakobalt tetraamina triklorida."
       },
       {
         "key": "D",
-        "text": "Bilangan oksidasi kobalt $+3$, bilangan koordinasi 6, dan nama IUPAC tetraaminadiklorokobalt(III) klorida, karena ligan netral amonia ($\\text{NH}_3$) bermuatan nol dan ligan kloro ($\\text{Cl}^-$) bermuatan $-1$. Terdapat total 3 ion klorida (2 sebagai ligan dalam kurung siku dan 1 sebagai anion penyeimbang di luar), sehingga $\\text{Biloks Co} + 4(0) + 2(-1) + (-1) = 0 \\implies \\text{Biloks Co} = +3$. Jumlah ligan monodentat yang terikat langsung pada kobalt adalah $4 + 2 = 6$ (bilangan koordinasi 6)."
+        "text": "Bilangan oksidasi kobalt $+2$, bilangan koordinasi 4, dan nama IUPAC diamintetraklorokobalt(II) klorida menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "E",
-        "text": "Bilangan oksidasi kobalt $+6$, bilangan koordinasi 6, dan nama IUPAC heksakobalt tetraamina triklorida."
+        "text": "Bilangan oksidasi kobalt $+1$, bilangan koordinasi 6, dan nama IUPAC klorotetraaminadikobalt(I)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Bilangan oksidasi kobalt $+3$, bilangan koordinasi 6, dan nama IUPAC tetraaminadiklorokobalt(III) klorida, karena ligan netral amonia ($\\text{NH}_3$) bermuatan nol dan ligan kloro ($\\text{Cl}^-$) bermuatan $-1$. Terdapat total 3 ion klorida (2 sebagai ligan dalam kurung siku dan 1 sebagai anion penyeimbang di luar), sehingga $\\text{Biloks Co} + 4(0) + 2(-1) + (-1) = 0 \\implies \\text{Biloks Co} = +3$. Jumlah ligan monodentat yang terikat langsung pada kobalt adalah $4 + 2 = 6$ (bilangan koordinasi 6).. NH3 netral (muatan 0), Cl bermuatan -1. Ada 2 Cl di dalam kompleks dan 1 Cl di luar (total 3 Cl- = -3). Maka Co bermuatan +3. Ada 4 NH3 + 2 Cl = 6 ligan (bilangan koordinasi = 6). Biloks Co = +3, BK = 6, nama: tetraaminadiklorokobalt(III) klorida."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Bilangan oksidasi kobalt $+3$, bilangan koordinasi 6, dan nama IUPAC tetraaminadiklorokobalt(III) klorida, karena ligan netral amonia ($\\text{NH}_3$) bermuatan nol dan ligan kloro ($\\text{Cl}^-$) bermuatan $-1$. Terdapat total 3 ion klorida (2 sebagai ligan dalam kurung siku dan 1 sebagai anion penyeimbang di luar), sehingga $\\text{Biloks Co} + 4(0) + 2(-1) + (-1) = 0 \\implies \\text{Biloks Co} = +3$. Jumlah ligan monodentat yang terikat langsung pada kobalt adalah $4 + 2 = 6$ (bilangan koordinasi 6).. NH3 netral (muatan 0), Cl bermuatan -1. Ada 2 Cl di dalam kompleks dan 1 Cl di luar (total 3 Cl- = -3). Maka Co bermuatan +3. Ada 4 NH3 + 2 Cl = 6 ligan (bilangan koordinasi = 6). Biloks Co = +3, BK = 6, nama: tetraaminadiklorokobalt(III) klorida."
   },
   {
     "id": "kim-lat-m-20",
@@ -1916,11 +1917,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Senyawa $X$ adalah propanon dan Senyawa $Y$ adalah propanal, karena keton dianggap memiliki reaktivitas reduksi lebih tinggi diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Senyawa $X$ adalah propanon dan Senyawa $Y$ adalah propanal, karena keton dianggap memiliki reaktivitas reduksi lebih tinggi."
       },
       {
         "key": "B",
-        "text": "Senyawa $X$ adalah 1-propanol dan Senyawa $Y$ adalah metoksi etana, karena rumus molekulnya keliru disamakan dengan alkohol dan eter."
+        "text": "Senyawa $X$ adalah propanal ($\\text{CH}_3-\\text{CH}_2-\\text{CHO}$) dan Senyawa $Y$ adalah propanon (aseton, $\\text{CH}_3-\\text{CO}-\\text{CH}_3$), karena senyawa turunan alkana $\\text{C}_n\\text{H}_{2n}\\text{O}$ merupakan isomer fungsi antara aldehida (alkanal) dan keton (alkanon). Aldehida adalah reduktor yang mereduksi pereaksi Fehling menjadi endapan merah bata $\\text{Cu}_2\\text{O}$, sedangkan keton tidak dapat dioksidasi oleh pereaksi Fehling/Tollens."
       },
       {
         "key": "C",
@@ -1932,11 +1933,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Senyawa $X$ adalah propanal ($\\text{CH}_3-\\text{CH}_2-\\text{CHO}$) dan Senyawa $Y$ adalah propanon (aseton, $\\text{CH}_3-\\text{CO}-\\text{CH}_3$), karena senyawa turunan alkana $\\text{C}_n\\text{H}_{2n}\\text{O}$ merupakan isomer fungsi antara aldehida (alkanal) dan keton (alkanon). Aldehida adalah reduktor yang mereduksi pereaksi Fehling menjadi endapan merah bata $\\text{Cu}_2\\text{O}$, sedangkan keton tidak dapat dioksidasi oleh pereaksi Fehling/Tollens."
+        "text": "Senyawa $X$ adalah 1-propanol dan Senyawa $Y$ adalah metoksi etana, karena rumus molekulnya keliru disamakan dengan alkohol dan eter."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Senyawa $X$ adalah propanal ($\\text{CH}_3-\\text{CH}_2-\\text{CHO}$) dan Senyawa $Y$ adalah propanon (aseton, $\\text{CH}_3-\\text{CO}-\\text{CH}_3$), karena senyawa turunan alkana $\\text{C}_n\\text{H}_{2n}\\text{O}$ merupakan isomer fungsi antara aldehida (alkanal) dan keton (alkanon). Aldehida adalah reduktor yang mereduksi pereaksi Fehling menjadi endapan merah bata $\\text{Cu}_2\\text{O}$, sedangkan keton tidak dapat dioksidasi oleh pereaksi Fehling/Tollens.. C3H6O adalah rumus umum alkanal (aldehida) dan alkanon (keton). Aldehida memberi hasil positif (endapan merah bata Cu2O) dengan Fehling, sedangkan keton negatif. X = propanal (aldehida), Y = propanon (keton)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Senyawa $X$ adalah propanal ($\\text{CH}_3-\\text{CH}_2-\\text{CHO}$) dan Senyawa $Y$ adalah propanon (aseton, $\\text{CH}_3-\\text{CO}-\\text{CH}_3$), karena senyawa turunan alkana $\\text{C}_n\\text{H}_{2n}\\text{O}$ merupakan isomer fungsi antara aldehida (alkanal) dan keton (alkanon). Aldehida adalah reduktor yang mereduksi pereaksi Fehling menjadi endapan merah bata $\\text{Cu}_2\\text{O}$, sedangkan keton tidak dapat dioksidasi oleh pereaksi Fehling/Tollens.. C3H6O adalah rumus umum alkanal (aldehida) dan alkanon (keton). Aldehida memberi hasil positif (endapan merah bata Cu2O) dengan Fehling, sedangkan keton negatif. X = propanal (aldehida), Y = propanon (keton)."
   },
   {
     "id": "kim-lat-m-21",
@@ -1959,27 +1960,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1 < 2 < 3 < 4$ (Asam asetat < Asam kloroasetat < Asam dikloroasetat < Asam trikloroasetat), karena atom klorin bersifat sangat elektronegatif dan memberikan efek induksi penarik elektron ($-I$) yang kuat di sepanjang ikatan karbon. Semakin banyak atom klorin yang terikat, semakin terdispersi muatan negatif pada ion karboksilat konjugatnya, sehingga ion konjugat menjadi jauh lebih stabil dan asam semakin mudah melepaskan proton $\\text{H}^+$ (kekuatan asam bertambah besar)."
-      },
-      {
-        "key": "B",
-        "text": "$4 < 3 < 2 < 1$, karena beranggapan atom halogen yang banyak justru menghalangi pelepasan ion hidrogen secara sterik sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
-        "text": "$2 < 3 < 4 < 1$, karena asam asetat tanpa substituen dianggap memiliki kemurnian disosiasi paling tinggi."
-      },
-      {
-        "key": "D",
         "text": "$1 < 4 < 2 < 3$, dihitung dari perbedaan massa molar substituen halogen pada rantai karbon."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$2 < 3 < 4 < 1$, karena asam asetat tanpa substituen dianggap memiliki kemurnian disosiasi paling tinggi."
+      },
+      {
+        "key": "C",
+        "text": "$4 < 3 < 2 < 1$, karena beranggapan atom halogen yang banyak justru menghalangi pelepasan ion hidrogen secara sterik."
+      },
+      {
+        "key": "D",
         "text": "$1 = 2 = 3 = 4$, karena seluruh senyawa memiliki gugus karboksilat yang sama persis sehingga nilai Ka identik."
+      },
+      {
+        "key": "E",
+        "text": "$1 < 2 < 3 < 4$ (Asam asetat < Asam kloroasetat < Asam dikloroasetat < Asam trikloroasetat), karena atom klorin bersifat sangat elektronegatif dan memberikan efek induksi penarik elektron ($-I$) yang kuat di sepanjang ikatan karbon. Semakin banyak atom klorin yang terikat, semakin terdispersi muatan negatif pada ion karboksilat konjugatnya, sehingga ion konjugat menjadi jauh lebih stabil dan asam semakin mudah melepaskan proton $\\text{H}^+$ (kekuatan asam bertambah besar)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $1 < 2 < 3 < 4$ (Asam asetat < Asam kloroasetat < Asam dikloroasetat < Asam trikloroasetat), karena atom klorin bersifat sangat elektronegatif dan memberikan efek induksi penarik elektron ($-I$) yang kuat di sepanjang ikatan karbon. Semakin banyak atom klorin yang terikat, semakin terdispersi muatan negatif pada ion karboksilat konjugatnya, sehingga ion konjugat menjadi jauh lebih stabil dan asam semakin mudah melepaskan proton $\\text{H}^+$ (kekuatan asam bertambah besar).. Gugus penarik elektron (seperti Cl) memperkuat sifat asam dengan menstabilkan ion karboksilat melalui efek induksi. Semakin banyak atom Cl, asam semakin kuat. Urutan dari paling lemah: asam asetat (1) < kloroasetat (2) < dikloroasetat (3) < trikloroasetat (4)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $1 < 2 < 3 < 4$ (Asam asetat < Asam kloroasetat < Asam dikloroasetat < Asam trikloroasetat), karena atom klorin bersifat sangat elektronegatif dan memberikan efek induksi penarik elektron ($-I$) yang kuat di sepanjang ikatan karbon. Semakin banyak atom klorin yang terikat, semakin terdispersi muatan negatif pada ion karboksilat konjugatnya, sehingga ion konjugat menjadi jauh lebih stabil dan asam semakin mudah melepaskan proton $\\text{H}^+$ (kekuatan asam bertambah besar).. Gugus penarik elektron (seperti Cl) memperkuat sifat asam dengan menstabilkan ion karboksilat melalui efek induksi. Semakin banyak atom Cl, asam semakin kuat. Urutan dari paling lemah: asam asetat (1) < kloroasetat (2) < dikloroasetat (3) < trikloroasetat (4)."
   },
   {
     "id": "kim-lat-m-22",
@@ -2002,27 +2003,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memiliki 2 atom karbon kiral dan menghasilkan 4 stereoisomer optis aktif tanpa ada bentuk meso sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "B",
         "text": "Memiliki 2 atom karbon kiral dan menghasilkan 3 stereoisomer (sepasang enantiomer optis aktif dan satu bentuk meso optis inaktif), karena molekul memiliki bidang simetri internal (achiral plane) sehingga bentuk $(2R, 3S)$ identik dengan bayangan cerminnya sendiri (senyawa meso), sedangkan pasangan $(2R, 3R)$ dan $(2S, 3S)$ membentuk sepasang enantiomer aktif."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Memiliki 1 atom karbon kiral dan menghasilkan 2 stereoisomer pasangan enantiomer."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Memiliki 4 atom karbon kiral dan menghasilkan 16 stereoisomer berbeda."
+      },
+      {
+        "key": "D",
+        "text": "Memiliki 2 atom karbon kiral dan menghasilkan 4 stereoisomer optis aktif tanpa ada bentuk meso."
       },
       {
         "key": "E",
         "text": "Tidak memiliki atom karbon kiral sama sekali sehingga hanya memiliki satu bentuk geometri tunggal."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Memiliki 2 atom karbon kiral dan menghasilkan 3 stereoisomer (sepasang enantiomer optis aktif dan satu bentuk meso optis inaktif), karena molekul memiliki bidang simetri internal (achiral plane) sehingga bentuk $(2R, 3S)$ identik dengan bayangan cerminnya sendiri (senyawa meso), sedangkan pasangan $(2R, 3R)$ dan $(2S, 3S)$ membentuk sepasang enantiomer aktif.. C kiral di C2 dan C3 (ada 2 atom C kiral). Karena molekul simetris, ada bentuk meso (tidak aktif optik) selain 1 pasang enantiomer. Total stereoisomer = 3. 2 atom C kiral, 3 stereoisomer (2 enantiomer + 1 bentuk meso)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Memiliki 2 atom karbon kiral dan menghasilkan 3 stereoisomer (sepasang enantiomer optis aktif dan satu bentuk meso optis inaktif), karena molekul memiliki bidang simetri internal (achiral plane) sehingga bentuk $(2R, 3S)$ identik dengan bayangan cerminnya sendiri (senyawa meso), sedangkan pasangan $(2R, 3R)$ dan $(2S, 3S)$ membentuk sepasang enantiomer aktif.. C kiral di C2 dan C3 (ada 2 atom C kiral). Karena molekul simetris, ada bentuk meso (tidak aktif optik) selain 1 pasang enantiomer. Total stereoisomer = 3. 2 atom C kiral, 3 stereoisomer (2 enantiomer + 1 bentuk meso)."
   },
   {
     "id": "kim-lat-m-23",
@@ -2045,7 +2046,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Monomernya adalah stirena dan vulkanisasi bertujuan memutuskan rantai ikatan karbon agar karet menjadi lunak dan mudah dibentuk ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Monomernya adalah stirena dan vulkanisasi bertujuan memutuskan rantai ikatan karbon agar karet menjadi lunak dan mudah dibentuk ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "B",
@@ -2053,19 +2054,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Monomernya adalah 2-metil-1,3-butadiena (isoprena) dengan konfigurasi cis-1,4-poliisoprena, dan vulkanisasi bertujuan membentuk jembatan silang belerang (cross-linking $-S-S-$) antar-rantai polimer sehingga karet menjadi lebih elastis, kuat, tahan aus, dan tidak mudah meleleh atau lengket oleh panas."
+        "text": "Monomernya adalah vinil klorida dan vulkanisasi bertujuan meningkatkan daya larut karet di dalam pelarut organik minyak bumi."
       },
       {
         "key": "D",
-        "text": "Monomernya adalah vinil klorida dan vulkanisasi bertujuan meningkatkan daya larut karet di dalam pelarut organik minyak bumi."
+        "text": "Monomernya adalah 2-metil-1,3-butadiena (isoprena) dengan konfigurasi cis-1,4-poliisoprena, dan vulkanisasi bertujuan membentuk jembatan silang belerang (cross-linking $-S-S-$) antar-rantai polimer sehingga karet menjadi lebih elastis, kuat, tahan aus, dan tidak mudah meleleh atau lengket oleh panas."
       },
       {
         "key": "E",
         "text": "Monomernya adalah asam adipat dan vulkanisasi bertujuan menghasilkan reaksi kondensasi pembentukan serat benang sintetis."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Monomernya adalah 2-metil-1,3-butadiena (isoprena) dengan konfigurasi cis-1,4-poliisoprena, dan vulkanisasi bertujuan membentuk jembatan silang belerang (cross-linking $-S-S-$) antar-rantai polimer sehingga karet menjadi lebih elastis, kuat, tahan aus, dan tidak mudah meleleh atau lengket oleh panas.. Karet alam adalah cis-1,4-poliisoprena (monomer isoprena = 2-metil-1,3-butadiena). Vulkanisasi belerang membentuk jembatan silang (-S-S-) agar karet lebih elastis dan tahan panas. Monomer isoprena, vulkanisasi membentuk jembatan silang belerang untuk meningkatkan elastisitas dan ketahanan panas."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Monomernya adalah 2-metil-1,3-butadiena (isoprena) dengan konfigurasi cis-1,4-poliisoprena, dan vulkanisasi bertujuan membentuk jembatan silang belerang (cross-linking $-S-S-$) antar-rantai polimer sehingga karet menjadi lebih elastis, kuat, tahan aus, dan tidak mudah meleleh atau lengket oleh panas.. Karet alam adalah cis-1,4-poliisoprena (monomer isoprena = 2-metil-1,3-butadiena). Vulkanisasi belerang membentuk jembatan silang (-S-S-) agar karet lebih elastis dan tahan panas. Monomer isoprena, vulkanisasi membentuk jembatan silang belerang untuk meningkatkan elastisitas dan ketahanan panas."
   },
   {
     "id": "kim-lat-m-24",
@@ -2088,27 +2089,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$A$ adalah glukosa, $B$ adalah maltosa, dan $C$ adalah selulosa menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$A$ adalah glukosa, $B$ adalah maltosa, dan $C$ adalah selulosa menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "B",
-        "text": "$A$ adalah selulosa, $B$ adalah galaktosa, dan $C$ adalah laktosa."
-      },
-      {
-        "key": "C",
         "text": "$A$ adalah amilum, $B$ adalah sukrosa, dan $C$ adalah glikogen."
       },
       {
+        "key": "C",
+        "text": "$A$ adalah glikogen, $B$ adalah amilum, dan $C$ adalah maltosa."
+      },
+      {
         "key": "D",
-        "text": "$A$ adalah amilum (pati), $B$ adalah fruktosa, dan $C$ adalah sukrosa, karena amilum membentuk kompleks biru kehitaman dengan iodin; fruktosa adalah monosakarida ketosa pereduksi yang cepat bereaksi positif dengan uji Seliwanoff membentuk warna merah ceri; dan sukrosa adalah disakarida non-pereduksi yang terhidrolisis menjadi glukosa dan fruktosa."
+        "text": "$A$ adalah selulosa, $B$ adalah galaktosa, dan $C$ adalah laktosa."
       },
       {
         "key": "E",
-        "text": "$A$ adalah glikogen, $B$ adalah amilum, dan $C$ adalah maltosa."
+        "text": "$A$ adalah amilum (pati), $B$ adalah fruktosa, dan $C$ adalah sukrosa, karena amilum membentuk kompleks biru kehitaman dengan iodin; fruktosa adalah monosakarida ketosa pereduksi yang cepat bereaksi positif dengan uji Seliwanoff membentuk warna merah ceri; dan sukrosa adalah disakarida non-pereduksi yang terhidrolisis menjadi glukosa dan fruktosa."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $A$ adalah amilum (pati), $B$ adalah fruktosa, dan $C$ adalah sukrosa, karena amilum membentuk kompleks biru kehitaman dengan iodin; fruktosa adalah monosakarida ketosa pereduksi yang cepat bereaksi positif dengan uji Seliwanoff membentuk warna merah ceri; dan sukrosa adalah disakarida non-pereduksi yang terhidrolisis menjadi glukosa dan fruktosa.. Uji iodin biru kehitaman = amilum. Uji Seliwanoff merah ceri cepat (ketosa) + Fehling positif = fruktosa. Disakarida non-pereduksi yang hidrolisisnya menghasilkan 2 gula berbeda = sukrosa. A = amilum, B = fruktosa, C = sukrosa."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $A$ adalah amilum (pati), $B$ adalah fruktosa, dan $C$ adalah sukrosa, karena amilum membentuk kompleks biru kehitaman dengan iodin; fruktosa adalah monosakarida ketosa pereduksi yang cepat bereaksi positif dengan uji Seliwanoff membentuk warna merah ceri; dan sukrosa adalah disakarida non-pereduksi yang terhidrolisis menjadi glukosa dan fruktosa.. Uji iodin biru kehitaman = amilum. Uji Seliwanoff merah ceri cepat (ketosa) + Fehling positif = fruktosa. Disakarida non-pereduksi yang hidrolisisnya menghasilkan 2 gula berbeda = sukrosa. A = amilum, B = fruktosa, C = sukrosa."
   },
   {
     "id": "kim-lat-m-25",
@@ -2131,11 +2132,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengandung gugus karbohidrat monosakarida, memiliki ikatan ester lemak, dan mengandung ion kalsium terlarut diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Mengandung asam nukleat DNA, memiliki rantai peptida terbuka, dan mengandung ikatan glikosidik bercabang."
       },
       {
         "key": "B",
-        "text": "Mengandung asam nukleat DNA, memiliki rantai peptida terbuka, dan mengandung ikatan glikosidik bercabang."
+        "text": "Mengandung lipid fosfolipid membran sel dan asam amino nonpolar alifatik rantai lurus murni."
       },
       {
         "key": "C",
@@ -2143,15 +2144,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mengandung lipid fosfolipid membran sel dan asam amino nonpolar alifatik rantai lurus murni."
+        "text": "Mengandung ikatan peptida (uji Biuret positif ungu), memiliki asam amino berinti cincin benzena seperti tirosin/triptofan (uji Xantoproteat positif kuning-jingga), dan mengandung asam amino yang memiliki atom belerang seperti sistein/metionin (uji timbal asetat positif endapan $\\text{PbS}$ hitam)."
       },
       {
         "key": "E",
-        "text": "Mengandung ikatan peptida (uji Biuret positif ungu), memiliki asam amino berinti cincin benzena seperti tirosin/triptofan (uji Xantoproteat positif kuning-jingga), dan mengandung asam amino yang memiliki atom belerang seperti sistein/metionin (uji timbal asetat positif endapan $\\text{PbS}$ hitam)."
+        "text": "Mengandung gugus karbohidrat monosakarida, memiliki ikatan ester lemak, dan mengandung ion kalsium terlarut."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mengandung ikatan peptida (uji Biuret positif ungu), memiliki asam amino berinti cincin benzena seperti tirosin/triptofan (uji Xantoproteat positif kuning-jingga), dan mengandung asam amino yang memiliki atom belerang seperti sistein/metionin (uji timbal asetat positif endapan $\\text{PbS}$ hitam).. Uji Biuret (ungu) = ikatan peptida. Uji Xantoproteat (kuning/jingga) = cincin benzena. Uji timbal asetat (endapan PbS hitam) = belerang/sulfur. Ikatan peptida, cincin benzena, dan unsur belerang."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Mengandung ikatan peptida (uji Biuret positif ungu), memiliki asam amino berinti cincin benzena seperti tirosin/triptofan (uji Xantoproteat positif kuning-jingga), dan mengandung asam amino yang memiliki atom belerang seperti sistein/metionin (uji timbal asetat positif endapan $\\text{PbS}$ hitam).. Uji Biuret (ungu) = ikatan peptida. Uji Xantoproteat (kuning/jingga) = cincin benzena. Uji timbal asetat (endapan PbS hitam) = belerang/sulfur. Ikatan peptida, cincin benzena, dan unsur belerang."
   },
   {
     "id": "kim-lat-h-01",
@@ -2178,19 +2179,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Orde ikatan naik dari 2 menjadi 3 dan sifat kemagnetan tetap paramagnetik dengan medan magnet kuat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
         "text": "Orde ikatan turun dari 2 menjadi 1{,}5 dan sifat kemagnetan tetap paramagnetik seperti ion superoksida."
       },
       {
+        "key": "C",
+        "text": "Orde ikatan menjadi nol dan molekul peroksida langsung terdisosiasi spontan menjadi atom bebas."
+      },
+      {
         "key": "D",
-        "text": "Orde ikatan tidak berubah (tetap 2) dan sifat kemagnetan tetap paramagnetik dengan spin sejajar."
+        "text": "Orde ikatan naik dari 2 menjadi 3 dan sifat kemagnetan tetap paramagnetik dengan medan magnet kuat."
       },
       {
         "key": "E",
-        "text": "Orde ikatan menjadi nol dan molekul peroksida langsung terdisosiasi spontan menjadi atom bebas."
+        "text": "Orde ikatan tidak berubah (tetap 2) dan sifat kemagnetan tetap paramagnetik dengan spin sejajar."
       }
     ],
     "correctKey": "A",
@@ -2217,27 +2218,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ligan $\\text{CN}^-$ mengoksidasi atom besi menjadi bilangan oksidasi $+3$, sedangkan ligan $\\text{H}_2\\text{O}$ mereduksinya menjadi besi nol sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Ligan $\\text{CN}^-$ mengoksidasi atom besi menjadi bilangan oksidasi $+3$, sedangkan ligan $\\text{H}_2\\text{O}$ mereduksinya menjadi besi nol."
       },
       {
         "key": "B",
-        "text": "Ligan $\\text{CN}^-$ adalah ligan medan kuat ($\\Delta_o > P$, energi pemisahan medan oktahedral lebih besar daripada energi perpasangan elektron) yang memaksa keenam elektron $3d$ berpasangan di orbital energi rendah $t_{2g}$ membentuk kompleks spin rendah ($t_{2g}^6\\,e_g^0$, diamagnetik); sedangkan ligan $\\text{H}_2\\text{O}$ adalah ligan medan lemah ($\\Delta_o < P$) sehingga elektron mengisi orbital $t_{2g}$ dan $e_g$ secara terdistribusi membentuk kompleks spin tinggi ($t_{2g}^4\\,e_g^2$, 4 elektron tak berpasangan)."
-      },
-      {
-        "key": "C",
-        "text": "Ligan $\\text{H}_2\\text{O}$ memiliki pasangan elektron bebas lebih banyak sehingga mendistorsi simetri medan ligan oktahedral menjadi bujur sangkar."
-      },
-      {
-        "key": "D",
         "text": "Kompleks $[\\text{Fe}(\\text{CN})_6]^{4-}$ memiliki geometri tetrahedral sedangkan $[\\text{Fe}(\\text{H}_2\\text{O})_6]^{2+}$ memiliki geometri oktahedral."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Ligan $\\text{CN}^-$ membentuk ikatan ionik murni sedangkan molekul air membentuk ikatan hidrogen kovalen koordinasi polar."
+      },
+      {
+        "key": "D",
+        "text": "Ligan $\\text{H}_2\\text{O}$ memiliki pasangan elektron bebas lebih banyak sehingga mendistorsi simetri medan ligan oktahedral menjadi bujur sangkar."
+      },
+      {
+        "key": "E",
+        "text": "Ligan $\\text{CN}^-$ adalah ligan medan kuat ($\\Delta_o > P$, energi pemisahan medan oktahedral lebih besar daripada energi perpasangan elektron) yang memaksa keenam elektron $3d$ berpasangan di orbital energi rendah $t_{2g}$ membentuk kompleks spin rendah ($t_{2g}^6\\,e_g^0$, diamagnetik); sedangkan ligan $\\text{H}_2\\text{O}$ adalah ligan medan lemah ($\\Delta_o < P$) sehingga elektron mengisi orbital $t_{2g}$ dan $e_g$ secara terdistribusi membentuk kompleks spin tinggi ($t_{2g}^4\\,e_g^2$, 4 elektron tak berpasangan)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Ligan $\\text{CN}^-$ adalah ligan medan kuat ($\\Delta_o > P$, energi pemisahan medan oktahedral lebih besar daripada energi perpasangan elektron) yang memaksa keenam elektron $3d$ berpasangan di orbital energi rendah $t_{2g}$ membentuk kompleks spin rendah ($t_{2g}^6\\,e_g^0$, diamagnetik); sedangkan ligan $\\text{H}_2\\text{O}$ adalah ligan medan lemah ($\\Delta_o < P$) sehingga elektron mengisi orbital $t_{2g}$ dan $e_g$ secara terdistribusi membentuk kompleks spin tinggi ($t_{2g}^4\\,e_g^2$, 4 elektron tak berpasangan).. CN- adalah ligan kuat (Delta_o besar, spin rendah): 6 elektron mengisi t2g berpasangan semua (diamagnetik). H2O ligan lemah (Delta_o kecil, spin tinggi): konfigurasi t2g^4 eg^2 ada 4 elektron tak berpasangan (paramagnetik). CN- ligan medan kuat (spin rendah, t2g^6 eg^0), H2O ligan medan lemah (spin tinggi, t2g^4 eg^2)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Ligan $\\text{CN}^-$ adalah ligan medan kuat ($\\Delta_o > P$, energi pemisahan medan oktahedral lebih besar daripada energi perpasangan elektron) yang memaksa keenam elektron $3d$ berpasangan di orbital energi rendah $t_{2g}$ membentuk kompleks spin rendah ($t_{2g}^6\\,e_g^0$, diamagnetik); sedangkan ligan $\\text{H}_2\\text{O}$ adalah ligan medan lemah ($\\Delta_o < P$) sehingga elektron mengisi orbital $t_{2g}$ dan $e_g$ secara terdistribusi membentuk kompleks spin tinggi ($t_{2g}^4\\,e_g^2$, 4 elektron tak berpasangan).. CN- adalah ligan kuat (Delta_o besar, spin rendah): 6 elektron mengisi t2g berpasangan semua (diamagnetik). H2O ligan lemah (Delta_o kecil, spin tinggi): konfigurasi t2g^4 eg^2 ada 4 elektron tak berpasangan (paramagnetik). CN- ligan medan kuat (spin rendah, t2g^6 eg^0), H2O ligan medan lemah (spin tinggi, t2g^4 eg^2)."
   },
   {
     "id": "kim-lat-h-03",
@@ -2260,27 +2261,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$24{,}0\\%$, karena mengabaikan faktor pengenceran alikuot sampel empat kali lipat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
-        "text": "$48{,}0\\%$, dihitung dengan membagi massa sampel dengan volume titran tanpa massa molar."
-      },
-      {
-        "key": "C",
         "text": "$96{,}0\\%$, karena jumlah mol ion $\\text{Ag}^+$ yang bereaksi pada titrasi alikuot $25\\text{ mL}$ adalah $n = V \\times M = 24\\text{ mL} \\times 0{,}1\\text{ M} = 2{,}4\\text{ mmol}$. Karena reaksi pengendapan $\\text{Ag}^+ + \\text{Cl}^- \\to \\text{AgCl}(s)$ memiliki perbandingan mol $1 : 1$, maka mol $\\text{NaCl}$ dalam $25\\text{ mL}$ adalah $2{,}4\\text{ mmol}$. Total mol $\\text{NaCl}$ dalam seluruh $100\\text{ mL}$ larutan sampel adalah $2{,}4\\text{ mmol} \\times \\frac{100}{25} = 9{,}6\\text{ mmol} = 9{,}6 \\times 10^{-3}\\text{ mol}$. Massa $\\text{NaCl}$ murni adalah $m = 9{,}6 \\times 10^{-3}\\text{ mol} \\times 58{,}5\\text{ g/mol} = 0{,}5616\\text{ gram}$. Persentase kemurnian adalah $\\frac{0{,}5616\\text{ g}}{0{,}585\\text{ g}} \\times 100\\% = 96{,}0\\%$."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$80{,}0\\%$, dihitung dari rasio kelarutan perak klorida terhadap perak kromat."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$100{,}0\\%$, karena beranggapan sampel garam dapur bebas dari zat pengotor higroskopis."
+      },
+      {
+        "key": "D",
+        "text": "$48{,}0\\%$, dihitung dengan membagi massa sampel dengan volume titran tanpa massa molar."
+      },
+      {
+        "key": "E",
+        "text": "$24{,}0\\%$, karena mengabaikan faktor pengenceran alikuot sampel empat kali lipat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $96{,}0\\%$, karena jumlah mol ion $\\text{Ag}^+$ yang bereaksi pada titrasi alikuot $25\\text{ mL}$ adalah $n = V \\times M = 24\\text{ mL} \\times 0{,}1\\text{ M} = 2{,}4\\text{ mmol}$. Karena reaksi pengendapan $\\text{Ag}^+ + \\text{Cl}^- \\to \\text{AgCl}(s)$ memiliki perbandingan mol $1 : 1$, maka mol $\\text{NaCl}$ dalam $25\\text{ mL}$ adalah $2{,}4\\text{ mmol}$. Total mol $\\text{NaCl}$ dalam seluruh $100\\text{ mL}$ larutan sampel adalah $2{,}4\\text{ mmol} \\times \\frac{100}{25} = 9{,}6\\text{ mmol} = 9{,}6 \\times 10^{-3}\\text{ mol}$. Massa $\\text{NaCl}$ murni adalah $m = 9{,}6 \\times 10^{-3}\\text{ mol} \\times 58{,}5\\text{ g/mol} = 0{,}5616\\text{ gram}$. Persentase kemurnian adalah $\\frac{0{,}5616\\text{ g}}{0{,}585\\text{ g}} \\times 100\\% = 96{,}0\\%$.. Mol Ag+ = 24 mL * 0,1 M = 2,4 mmol. Ini terdapat dalam 25 mL sampel. Total dalam 100 mL = 2,4 * 4 = 9,6 mmol. Massa NaCl = 9,6 mmol * 58,5 mg/mmol = 561,6 mg = 0,5616 g. % = 0,5616 / 0,585 * 100%. % kemurnian = (0,5616 / 0,585) * 100% = 96,0%."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $96{,}0\\%$, karena jumlah mol ion $\\text{Ag}^+$ yang bereaksi pada titrasi alikuot $25\\text{ mL}$ adalah $n = V \\times M = 24\\text{ mL} \\times 0{,}1\\text{ M} = 2{,}4\\text{ mmol}$. Karena reaksi pengendapan $\\text{Ag}^+ + \\text{Cl}^- \\to \\text{AgCl}(s)$ memiliki perbandingan mol $1 : 1$, maka mol $\\text{NaCl}$ dalam $25\\text{ mL}$ adalah $2{,}4\\text{ mmol}$. Total mol $\\text{NaCl}$ dalam seluruh $100\\text{ mL}$ larutan sampel adalah $2{,}4\\text{ mmol} \\times \\frac{100}{25} = 9{,}6\\text{ mmol} = 9{,}6 \\times 10^{-3}\\text{ mol}$. Massa $\\text{NaCl}$ murni adalah $m = 9{,}6 \\times 10^{-3}\\text{ mol} \\times 58{,}5\\text{ g/mol} = 0{,}5616\\text{ gram}$. Persentase kemurnian adalah $\\frac{0{,}5616\\text{ g}}{0{,}585\\text{ g}} \\times 100\\% = 96{,}0\\%$.. Mol Ag+ = 24 mL * 0,1 M = 2,4 mmol. Ini terdapat dalam 25 mL sampel. Total dalam 100 mL = 2,4 * 4 = 9,6 mmol. Massa NaCl = 9,6 mmol * 58,5 mg/mmol = 561,6 mg = 0,5616 g. % = 0,5616 / 0,585 * 100%. % kemurnian = (0,5616 / 0,585) * 100% = 96,0%."
   },
   {
     "id": "kim-lat-h-04",
@@ -2303,27 +2304,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tetapan $a$ mengoreksi volume fisik molekul gas padat dan tetapan $b$ mengoreksi energi kinetik translasi partikel menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
-        "text": "Tetapan $a$ mengoreksi tumbukan lenting sempurna molekul dan tetapan $b$ menyatakan laju disosiasi endotermik gas."
-      },
-      {
-        "key": "C",
-        "text": "Tetapan $a$ mengoreksi gravitasi bumi di dalam bejana dan tetapan $b$ menyatakan konduktivitas termal wadah."
-      },
-      {
-        "key": "D",
         "text": "Tetapan $a$ mengoreksi adanya gaya tarik-menarik antarmolekul gas nyata (intermolecular attraction) yang memperkecil tekanan terukur pada dinding bejana, sedangkan tetapan $b$ mengoreksi volume nyata yang ditempati oleh partikel molekul gas itu sendiri (excluded volume) yang tidak dapat ditembus oleh molekul lain."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Tetapan $a$ mengoreksi gravitasi bumi di dalam bejana dan tetapan $b$ menyatakan konduktivitas termal wadah."
+      },
+      {
+        "key": "C",
         "text": "Kedua tetapan $a$ dan $b$ merupakan konstanta empiris tanpa makna fisis yang hanya berfungsi sebagai penyeimbang dimensi satuan."
+      },
+      {
+        "key": "D",
+        "text": "Tetapan $a$ mengoreksi volume fisik molekul gas padat dan tetapan $b$ mengoreksi energi kinetik translasi partikel menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+      },
+      {
+        "key": "E",
+        "text": "Tetapan $a$ mengoreksi tumbukan lenting sempurna molekul dan tetapan $b$ menyatakan laju disosiasi endotermik gas."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Tetapan $a$ mengoreksi adanya gaya tarik-menarik antarmolekul gas nyata (intermolecular attraction) yang memperkecil tekanan terukur pada dinding bejana, sedangkan tetapan $b$ mengoreksi volume nyata yang ditempati oleh partikel molekul gas itu sendiri (excluded volume) yang tidak dapat ditembus oleh molekul lain.. a mengoreksi gaya tarik-menarik antarmolekul (yang mengurangi tekanan terukur). b mengoreksi volume fisik yang ditempati molekul gas (volume eksklusi). a = gaya tarik antarmolekul, b = volume fisik partikel molekul."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tetapan $a$ mengoreksi adanya gaya tarik-menarik antarmolekul gas nyata (intermolecular attraction) yang memperkecil tekanan terukur pada dinding bejana, sedangkan tetapan $b$ mengoreksi volume nyata yang ditempati oleh partikel molekul gas itu sendiri (excluded volume) yang tidak dapat ditembus oleh molekul lain.. a mengoreksi gaya tarik-menarik antarmolekul (yang mengurangi tekanan terukur). b mengoreksi volume fisik yang ditempati molekul gas (volume eksklusi). a = gaya tarik antarmolekul, b = volume fisik partikel molekul."
   },
   {
     "id": "kim-lat-h-05",
@@ -2346,27 +2347,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pasangan $\\text{H}_3\\text{PO}_4$ dan $\\text{H}_2\\text{PO}_4^-$ dengan rasio molar $100 : 1$, karena asam triprotik harus dimulai dari pelepasan proton pertama diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
-      },
-      {
-        "key": "B",
-        "text": "Pasangan $\\text{HPO}_4^{2-}$ dan $\\text{PO}_4^{3-}$ dengan rasio molar $1 : 10$, karena ion fosfat bebas memiliki muatan tiga negatif."
-      },
-      {
-        "key": "C",
-        "text": "Pasangan $\\text{H}_2\\text{PO}_4^-$ dan $\\text{HPO}_4^{2-}$ dengan rasio $[\\text{HPO}_4^{2-}] / [\\text{H}_2\\text{PO}_4^-] = 0{,}65$, karena formula rasio logaritma Henderson-Hasselbalch keliru dibalik."
-      },
-      {
-        "key": "D",
         "text": "Pasangan $\\text{H}_3\\text{PO}_4$ dan $\\text{PO}_4^{3-}$ dengan rasio $1 : 1$, karena mengabaikan tahapan disosiasi bertingkat asam poliprotik."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Pasangan $\\text{H}_3\\text{PO}_4$ dan $\\text{H}_2\\text{PO}_4^-$ dengan rasio molar $100 : 1$, karena asam triprotik harus dimulai dari pelepasan proton pertama."
+      },
+      {
+        "key": "C",
         "text": "Pasangan $\\text{H}_2\\text{PO}_4^-$ (asam) dan $\\text{HPO}_4^{2-}$ (basa konjugasi) dengan rasio $[\\text{HPO}_4^{2-}] / [\\text{H}_2\\text{PO}_4^-] \\approx 1{,}55$, karena nilai $\\text{p}K_{a2} = 7{,}21$ berada paling dekat dengan rentang pH fisiologis $7{,}4$. Menurut persamaan Henderson-Hasselbalch: $\\text{pH} = \\text{p}K_{a2} + \\log\\frac{[\\text{HPO}_4^{2-}]}{[\\text{H}_2\\text{PO}_4^-]} \\implies 7{,}40 = 7{,}21 + \\log(\\text{rasio}) \\implies \\log(\\text{rasio}) = 0{,}19 \\implies \\text{rasio} = 10^{0{,}19} \\approx 1{,}55$."
+      },
+      {
+        "key": "D",
+        "text": "Pasangan $\\text{HPO}_4^{2-}$ dan $\\text{PO}_4^{3-}$ dengan rasio molar $1 : 10$, karena ion fosfat bebas memiliki muatan tiga negatif."
+      },
+      {
+        "key": "E",
+        "text": "Pasangan $\\text{H}_2\\text{PO}_4^-$ dan $\\text{HPO}_4^{2-}$ dengan rasio $[\\text{HPO}_4^{2-}] / [\\text{H}_2\\text{PO}_4^-] = 0{,}65$, karena formula rasio logaritma Henderson-Hasselbalch keliru dibalik."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pasangan $\\text{H}_2\\text{PO}_4^-$ (asam) dan $\\text{HPO}_4^{2-}$ (basa konjugasi) dengan rasio $[\\text{HPO}_4^{2-}] / [\\text{H}_2\\text{PO}_4^-] \\approx 1{,}55$, karena nilai $\\text{p}K_{a2} = 7{,}21$ berada paling dekat dengan rentang pH fisiologis $7{,}4$. Menurut persamaan Henderson-Hasselbalch: $\\text{pH} = \\text{p}K_{a2} + \\log\\frac{[\\text{HPO}_4^{2-}]}{[\\text{H}_2\\text{PO}_4^-]} \\implies 7{,}40 = 7{,}21 + \\log(\\text{rasio}) \\implies \\log(\\text{rasio}) = 0{,}19 \\implies \\text{rasio} = 10^{0{,}19} \\approx 1{,}55$.. Cari pKa yang paling dekat dengan pH fisiologis 7,4, yaitu pKa2 = 7,21 (pasangan H2PO4- dan HPO4 2-). Gunakan pH = pKa2 + log([HPO4 2-] / [H2PO4 -]). log(rasio) = 7,40 - 7,21 = 0,19 -> rasio = 10^0,19 = 1,55. Pasangan H2PO4- dan HPO4 2-."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pasangan $\\text{H}_2\\text{PO}_4^-$ (asam) dan $\\text{HPO}_4^{2-}$ (basa konjugasi) dengan rasio $[\\text{HPO}_4^{2-}] / [\\text{H}_2\\text{PO}_4^-] \\approx 1{,}55$, karena nilai $\\text{p}K_{a2} = 7{,}21$ berada paling dekat dengan rentang pH fisiologis $7{,}4$. Menurut persamaan Henderson-Hasselbalch: $\\text{pH} = \\text{p}K_{a2} + \\log\\frac{[\\text{HPO}_4^{2-}]}{[\\text{H}_2\\text{PO}_4^-]} \\implies 7{,}40 = 7{,}21 + \\log(\\text{rasio}) \\implies \\log(\\text{rasio}) = 0{,}19 \\implies \\text{rasio} = 10^{0{,}19} \\approx 1{,}55$.. Cari pKa yang paling dekat dengan pH fisiologis 7,4, yaitu pKa2 = 7,21 (pasangan H2PO4- dan HPO4 2-). Gunakan pH = pKa2 + log([HPO4 2-] / [H2PO4 -]). log(rasio) = 7,40 - 7,21 = 0,19 -> rasio = 10^0,19 = 1,55. Pasangan H2PO4- dan HPO4 2-."
   },
   {
     "id": "kim-lat-h-06",
@@ -2389,11 +2390,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{pH} = 11{,}65$ (karena $[\\text{OH}^-] \\approx 4{,}47 \\times 10^{-3}\\text{ M}$), karena anion karbonat ($\\text{CO}_3^{2-}$) mengalami hidrolisis tahap pertama melepaskan ion hidroksida: $\\text{CO}_3^{2-} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{HCO}_3^- + \\text{OH}^-$ dengan tetapan hidrolisis $K_{h1} = \\frac{K_w}{K_{a2}} = \\frac{10^{-14}}{5 \\times 10^{-11}} = 2 \\times 10^{-4}$. Konsentrasi ion hidroksida dihitung dari $[\\text{OH}^-] = \\sqrt{K_{h1} [\\text{CO}_3^{2-}]} = \\sqrt{(2 \\times 10^{-4}) \\times 0{,}1} = \\sqrt{2 \\times 10^{-5}} = \\sqrt{20 \\times 10^{-6}} \\approx 4{,}47 \\times 10^{-3}\\text{ M}$. Maka $\\text{pOH} = 3 - \\log(4{,}47) \\approx 2{,}35$, sehingga $\\text{pH} = 14 - 2{,}35 = 11{,}65$."
+        "text": "$\\text{pH} = 8{,}35$, dihitung dari nilai logaritma konsentrasi garam tanpa memperhitungkan tetapan kesetimbangan air."
       },
       {
         "key": "B",
-        "text": "$\\text{pH} = 9{,}70$, karena tetapan hidrolisis keliru dihitung menggunakan Ka1 bukan Ka2 dari asam diprotik sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$\\text{pH} = 9{,}70$, karena tetapan hidrolisis keliru dihitung menggunakan Ka1 bukan Ka2 dari asam diprotik."
       },
       {
         "key": "C",
@@ -2401,15 +2402,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\text{pH} = 7{,}00$, karena menganggap hidrolisis tahap kedua menetralkan seluruh ion hidroksida tahap pertama."
+        "text": "$\\text{pH} = 11{,}65$ (karena $[\\text{OH}^-] \\approx 4{,}47 \\times 10^{-3}\\text{ M}$), karena anion karbonat ($\\text{CO}_3^{2-}$) mengalami hidrolisis tahap pertama melepaskan ion hidroksida: $\\text{CO}_3^{2-} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{HCO}_3^- + \\text{OH}^-$ dengan tetapan hidrolisis $K_{h1} = \\frac{K_w}{K_{a2}} = \\frac{10^{-14}}{5 \\times 10^{-11}} = 2 \\times 10^{-4}$. Konsentrasi ion hidroksida dihitung dari $[\\text{OH}^-] = \\sqrt{K_{h1} [\\text{CO}_3^{2-}]} = \\sqrt{(2 \\times 10^{-4}) \\times 0{,}1} = \\sqrt{2 \\times 10^{-5}} = \\sqrt{20 \\times 10^{-6}} \\approx 4{,}47 \\times 10^{-3}\\text{ M}$. Maka $\\text{pOH} = 3 - \\log(4{,}47) \\approx 2{,}35$, sehingga $\\text{pH} = 14 - 2{,}35 = 11{,}65$."
       },
       {
         "key": "E",
-        "text": "$\\text{pH} = 8{,}35$, dihitung dari nilai logaritma konsentrasi garam tanpa memperhitungkan tetapan kesetimbangan air."
+        "text": "$\\text{pH} = 7{,}00$, karena menganggap hidrolisis tahap kedua menetralkan seluruh ion hidroksida tahap pertama."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\text{pH} = 11{,}65$ (karena $[\\text{OH}^-] \\approx 4{,}47 \\times 10^{-3}\\text{ M}$), karena anion karbonat ($\\text{CO}_3^{2-}$) mengalami hidrolisis tahap pertama melepaskan ion hidroksida: $\\text{CO}_3^{2-} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{HCO}_3^- + \\text{OH}^-$ dengan tetapan hidrolisis $K_{h1} = \\frac{K_w}{K_{a2}} = \\frac{10^{-14}}{5 \\times 10^{-11}} = 2 \\times 10^{-4}$. Konsentrasi ion hidroksida dihitung dari $[\\text{OH}^-] = \\sqrt{K_{h1} [\\text{CO}_3^{2-}]} = \\sqrt{(2 \\times 10^{-4}) \\times 0{,}1} = \\sqrt{2 \\times 10^{-5}} = \\sqrt{20 \\times 10^{-6}} \\approx 4{,}47 \\times 10^{-3}\\text{ M}$. Maka $\\text{pOH} = 3 - \\log(4{,}47) \\approx 2{,}35$, sehingga $\\text{pH} = 14 - 2{,}35 = 11{,}65$.. Garam Na2CO3 terhidrolisis menghasilkan OH-: CO3(2-) + H2O <-> HCO3- + OH-. Tetapan hidrolisis Kh1 = Kw / Ka2. Hitung [OH-] = sqrt(Kh1 * [garam]), lalu pH = 14 - pOH. Kh1 = 1e-14 / 5e-11 = 2e-4. [OH-] = sqrt(2e-4 * 0,1) = sqrt(2e-5) = 4,47e-3 M. pOH = 2,35 -> pH = 11,65."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{pH} = 11{,}65$ (karena $[\\text{OH}^-] \\approx 4{,}47 \\times 10^{-3}\\text{ M}$), karena anion karbonat ($\\text{CO}_3^{2-}$) mengalami hidrolisis tahap pertama melepaskan ion hidroksida: $\\text{CO}_3^{2-} + \\text{H}_2\\text{O} \\rightleftharpoons \\text{HCO}_3^- + \\text{OH}^-$ dengan tetapan hidrolisis $K_{h1} = \\frac{K_w}{K_{a2}} = \\frac{10^{-14}}{5 \\times 10^{-11}} = 2 \\times 10^{-4}$. Konsentrasi ion hidroksida dihitung dari $[\\text{OH}^-] = \\sqrt{K_{h1} [\\text{CO}_3^{2-}]} = \\sqrt{(2 \\times 10^{-4}) \\times 0{,}1} = \\sqrt{2 \\times 10^{-5}} = \\sqrt{20 \\times 10^{-6}} \\approx 4{,}47 \\times 10^{-3}\\text{ M}$. Maka $\\text{pOH} = 3 - \\log(4{,}47) \\approx 2{,}35$, sehingga $\\text{pH} = 14 - 2{,}35 = 11{,}65$.. Garam Na2CO3 terhidrolisis menghasilkan OH-: CO3(2-) + H2O <-> HCO3- + OH-. Tetapan hidrolisis Kh1 = Kw / Ka2. Hitung [OH-] = sqrt(Kh1 * [garam]), lalu pH = 14 - pOH. Kh1 = 1e-14 / 5e-11 = 2e-4. [OH-] = sqrt(2e-4 * 0,1) = sqrt(2e-5) = 4,47e-3 M. pOH = 2,35 -> pH = 11,65."
   },
   {
     "id": "kim-lat-h-07",
@@ -2432,27 +2433,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{Pb}^{2+}$ mengendap pertama kali karena memiliki koefisien ion klorida berpangkat dua sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$\\text{Pb}^{2+}$ mengendap pertama kali saat konsentrasi klorida mencapai sepuluh pangkat minus lima molar."
       },
       {
         "key": "B",
-        "text": "$\\text{Ag}^+$ mengendap pertama kali, dan endapan kedua ($\\text{PbCl}_2$) tepat mulai terbentuk pada saat $[\\text{Cl}^-] = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$, karena $\\text{AgCl}$ mulai mengendap saat $[\\text{Cl}^-] = \\frac{K_{sp}\\,\\text{AgCl}}{[\\text{Ag}^+]} = \\frac{1{,}8 \\times 10^{-10}}{0{,}01} = 1{,}8 \\times 10^{-8}\\text{ M}$ (jauh lebih kecil, sehingga $\\text{Ag}^+$ mengendap jauh lebih dulu). Endapan $\\text{PbCl}_2$ baru mulai mengendap saat $[\\text{Cl}^-] = \\sqrt{\\frac{K_{sp}\\,\\text{PbCl}_2}{[\\text{Pb}^{2+}]}} = \\sqrt{\\frac{1{,}7 \\times 10^{-5}}{0{,}01}} = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$."
-      },
-      {
-        "key": "C",
         "text": "$\\text{Ag}^+$ mengendap pertama kali, dan endapan kedua mulai terbentuk pada saat $[\\text{Cl}^-] = 1{,}7 \\times 10^{-3}\\text{ M}$ tanpa menarik akar kuadrat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kedua kation mengendap secara bersamaan karena memiliki konsentrasi molaritas awal yang identik."
       },
       {
+        "key": "D",
+        "text": "$\\text{Ag}^+$ mengendap pertama kali, dan endapan kedua ($\\text{PbCl}_2$) tepat mulai terbentuk pada saat $[\\text{Cl}^-] = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$, karena $\\text{AgCl}$ mulai mengendap saat $[\\text{Cl}^-] = \\frac{K_{sp}\\,\\text{AgCl}}{[\\text{Ag}^+]} = \\frac{1{,}8 \\times 10^{-10}}{0{,}01} = 1{,}8 \\times 10^{-8}\\text{ M}$ (jauh lebih kecil, sehingga $\\text{Ag}^+$ mengendap jauh lebih dulu). Endapan $\\text{PbCl}_2$ baru mulai mengendap saat $[\\text{Cl}^-] = \\sqrt{\\frac{K_{sp}\\,\\text{PbCl}_2}{[\\text{Pb}^{2+}]}} = \\sqrt{\\frac{1{,}7 \\times 10^{-5}}{0{,}01}} = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$."
+      },
+      {
         "key": "E",
-        "text": "$\\text{Pb}^{2+}$ mengendap pertama kali saat konsentrasi klorida mencapai sepuluh pangkat minus lima molar."
+        "text": "$\\text{Pb}^{2+}$ mengendap pertama kali karena memiliki koefisien ion klorida berpangkat dua."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\text{Ag}^+$ mengendap pertama kali, dan endapan kedua ($\\text{PbCl}_2$) tepat mulai terbentuk pada saat $[\\text{Cl}^-] = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$, karena $\\text{AgCl}$ mulai mengendap saat $[\\text{Cl}^-] = \\frac{K_{sp}\\,\\text{AgCl}}{[\\text{Ag}^+]} = \\frac{1{,}8 \\times 10^{-10}}{0{,}01} = 1{,}8 \\times 10^{-8}\\text{ M}$ (jauh lebih kecil, sehingga $\\text{Ag}^+$ mengendap jauh lebih dulu). Endapan $\\text{PbCl}_2$ baru mulai mengendap saat $[\\text{Cl}^-] = \\sqrt{\\frac{K_{sp}\\,\\text{PbCl}_2}{[\\text{Pb}^{2+}]}} = \\sqrt{\\frac{1{,}7 \\times 10^{-5}}{0{,}01}} = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$.. Hitung [Cl-] yang dibutuhkan untuk mulai mengendapkan AgCl: [Cl-] = Ksp(AgCl) / [Ag+]. Hitung [Cl-] untuk PbCl2: [Cl-] = sqrt(Ksp(PbCl2) / [Pb2+]). Yang butuh konsentrasi lebih kecil mengendap duluan. [Cl-] AgCl = 1,8e-8 M (mengendap pertama). [Cl-] PbCl2 = sqrt(1,7e-5 / 0,01) = 4,12 x 10^-2 M."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\text{Ag}^+$ mengendap pertama kali, dan endapan kedua ($\\text{PbCl}_2$) tepat mulai terbentuk pada saat $[\\text{Cl}^-] = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$, karena $\\text{AgCl}$ mulai mengendap saat $[\\text{Cl}^-] = \\frac{K_{sp}\\,\\text{AgCl}}{[\\text{Ag}^+]} = \\frac{1{,}8 \\times 10^{-10}}{0{,}01} = 1{,}8 \\times 10^{-8}\\text{ M}$ (jauh lebih kecil, sehingga $\\text{Ag}^+$ mengendap jauh lebih dulu). Endapan $\\text{PbCl}_2$ baru mulai mengendap saat $[\\text{Cl}^-] = \\sqrt{\\frac{K_{sp}\\,\\text{PbCl}_2}{[\\text{Pb}^{2+}]}} = \\sqrt{\\frac{1{,}7 \\times 10^{-5}}{0{,}01}} = \\sqrt{1{,}7 \\times 10^{-3}} \\approx 4{,}12 \\times 10^{-2}\\text{ M}$.. Hitung [Cl-] yang dibutuhkan untuk mulai mengendapkan AgCl: [Cl-] = Ksp(AgCl) / [Ag+]. Hitung [Cl-] untuk PbCl2: [Cl-] = sqrt(Ksp(PbCl2) / [Pb2+]). Yang butuh konsentrasi lebih kecil mengendap duluan. [Cl-] AgCl = 1,8e-8 M (mengendap pertama). [Cl-] PbCl2 = sqrt(1,7e-5 / 0,01) = 4,12 x 10^-2 M."
   },
   {
     "id": "kim-lat-h-08",
@@ -2475,27 +2476,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$T < 1.112{,}5\\text{ K}$, karena salah mengasumsikan reaksi endotermik lebih spontan pada suhu rendah ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
-        "text": "$T > 890\\text{ K}$, karena satuan kiloJoule pada entalpi tidak dikonversikan ke satuan Joule saat pembagian entropi."
-      },
-      {
-        "key": "C",
         "text": "$T > 1.112{,}5\\text{ K}$ (atau di atas $839{,}5^\\circ\\text{C}$), karena syarat kespontanan menurut kriteria Gibbs adalah $\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ < 0$. Pada titik transisi kesetimbangan $\\Delta G^\\circ = 0$, suhu tercapai saat $T = \\frac{\\Delta H^\\circ}{\\Delta S^\\circ} = \\frac{178.000\\text{ J/mol}}{160\\text{ J/(mol}\\cdot\\text{K)}} = 1.112{,}5\\text{ K}$. Agar reaksi berjalan spontan ($\\Delta G^\\circ < 0$), suhu sistem harus dinaikkan melebihi $1.112{,}5\\text{ Kelvin}$."
       },
       {
+        "key": "B",
+        "text": "$T < 273\\text{ K}$, karena beranggapan seluruh reaksi spontan hanya dapat berlangsung di bawah titik beku es."
+      },
+      {
+        "key": "C",
+        "text": "$T > 890\\text{ K}$, karena satuan kiloJoule pada entalpi tidak dikonversikan ke satuan Joule saat pembagian entropi."
+      },
+      {
         "key": "D",
-        "text": "$T > 2.225\\text{ K}$, dihitung dari penggandaan suhu akibat adanya dua partikel produk dekomposisi."
+        "text": "$T < 1.112{,}5\\text{ K}$, karena salah mengasumsikan reaksi endotermik lebih spontan pada suhu rendah ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "E",
-        "text": "$T < 273\\text{ K}$, karena beranggapan seluruh reaksi spontan hanya dapat berlangsung di bawah titik beku es."
+        "text": "$T > 2.225\\text{ K}$, dihitung dari penggandaan suhu akibat adanya dua partikel produk dekomposisi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $T > 1.112{,}5\\text{ K}$ (atau di atas $839{,}5^\\circ\\text{C}$), karena syarat kespontanan menurut kriteria Gibbs adalah $\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ < 0$. Pada titik transisi kesetimbangan $\\Delta G^\\circ = 0$, suhu tercapai saat $T = \\frac{\\Delta H^\\circ}{\\Delta S^\\circ} = \\frac{178.000\\text{ J/mol}}{160\\text{ J/(mol}\\cdot\\text{K)}} = 1.112{,}5\\text{ K}$. Agar reaksi berjalan spontan ($\\Delta G^\\circ < 0$), suhu sistem harus dinaikkan melebihi $1.112{,}5\\text{ Kelvin}$.. Syarat spontan: Delta G = Delta H - T * Delta S < 0. Suhu saat setimbang T = Delta H / Delta S. Konversi Delta H ke Joule: 178 kJ = 178.000 J. T = 178.000 / 160 = 1.112,5 K. Suhu harus T > 1.112,5 K."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $T > 1.112{,}5\\text{ K}$ (atau di atas $839{,}5^\\circ\\text{C}$), karena syarat kespontanan menurut kriteria Gibbs adalah $\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ < 0$. Pada titik transisi kesetimbangan $\\Delta G^\\circ = 0$, suhu tercapai saat $T = \\frac{\\Delta H^\\circ}{\\Delta S^\\circ} = \\frac{178.000\\text{ J/mol}}{160\\text{ J/(mol}\\cdot\\text{K)}} = 1.112{,}5\\text{ K}$. Agar reaksi berjalan spontan ($\\Delta G^\\circ < 0$), suhu sistem harus dinaikkan melebihi $1.112{,}5\\text{ Kelvin}$.. Syarat spontan: Delta G = Delta H - T * Delta S < 0. Suhu saat setimbang T = Delta H / Delta S. Konversi Delta H ke Joule: 178 kJ = 178.000 J. T = 178.000 / 160 = 1.112,5 K. Suhu harus T > 1.112,5 K."
   },
   {
     "id": "kim-lat-h-09",
@@ -2518,7 +2519,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta G^\\circ \\approx +11{,}49\\text{ kJ/mol}$, karena salah menghilangkan tanda minus pada perumusan potensial termodinamika isotermal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$\\Delta G^\\circ \\approx -11{,}49\\text{ kJ/mol}$, karena menurut hubungan fundamental termodinamika kimia: $\\Delta G^\\circ = -R T \\ln K = -(8{,}314\\text{ J/(mol}\\cdot\\text{K)}) \\times 300\\text{ K} \\times \\ln(100) = -(2.494{,}2) \\times 4{,}605 = -11.485{,}8\\text{ J/mol} \\approx -11{,}49\\text{ kJ/mol}$."
       },
       {
         "key": "B",
@@ -2526,19 +2527,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\Delta G^\\circ \\approx -23{,}0\\text{ kJ/mol}$, karena keliru menggunakan nilai logaritma desimal basis 10 dikalikan faktor dua."
+        "text": "$\\Delta G^\\circ = 0\\text{ kJ/mol}$, karena menyamakan energi bebas Gibbs standar dengan energi bebas saat campuran telah mencapai kesetimbangan dinamis."
       },
       {
         "key": "D",
-        "text": "$\\Delta G^\\circ \\approx -11{,}49\\text{ kJ/mol}$, karena menurut hubungan fundamental termodinamika kimia: $\\Delta G^\\circ = -R T \\ln K = -(8{,}314\\text{ J/(mol}\\cdot\\text{K)}) \\times 300\\text{ K} \\times \\ln(100) = -(2.494{,}2) \\times 4{,}605 = -11.485{,}8\\text{ J/mol} \\approx -11{,}49\\text{ kJ/mol}$."
+        "text": "$\\Delta G^\\circ \\approx +11{,}49\\text{ kJ/mol}$, karena salah menghilangkan tanda minus pada perumusan potensial termodinamika isotermal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "E",
-        "text": "$\\Delta G^\\circ = 0\\text{ kJ/mol}$, karena menyamakan energi bebas Gibbs standar dengan energi bebas saat campuran telah mencapai kesetimbangan dinamis."
+        "text": "$\\Delta G^\\circ \\approx -23{,}0\\text{ kJ/mol}$, karena keliru menggunakan nilai logaritma desimal basis 10 dikalikan faktor dua."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $\\Delta G^\\circ \\approx -11{,}49\\text{ kJ/mol}$, karena menurut hubungan fundamental termodinamika kimia: $\\Delta G^\\circ = -R T \\ln K = -(8{,}314\\text{ J/(mol}\\cdot\\text{K)}) \\times 300\\text{ K} \\times \\ln(100) = -(2.494{,}2) \\times 4{,}605 = -11.485{,}8\\text{ J/mol} \\approx -11{,}49\\text{ kJ/mol}$.. Gunakan Delta G0 = -R * T * ln(K). R = 8,314 J/(mol.K), T = 300 K, ln(100) = 4,605. Delta G0 = -8,314 * 300 * 4,605 = -11.486 J/mol = -11,49 kJ/mol."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta G^\\circ \\approx -11{,}49\\text{ kJ/mol}$, karena menurut hubungan fundamental termodinamika kimia: $\\Delta G^\\circ = -R T \\ln K = -(8{,}314\\text{ J/(mol}\\cdot\\text{K)}) \\times 300\\text{ K} \\times \\ln(100) = -(2.494{,}2) \\times 4{,}605 = -11.485{,}8\\text{ J/mol} \\approx -11{,}49\\text{ kJ/mol}$.. Gunakan Delta G0 = -R * T * ln(K). R = 8,314 J/(mol.K), T = 300 K, ln(100) = 4,605. Delta G0 = -8,314 * 300 * 4,605 = -11.486 J/mol = -11,49 kJ/mol."
   },
   {
     "id": "kim-lat-h-10",
@@ -2561,7 +2562,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_a \\approx 26{,}79\\text{ kJ/mol}$, karena faktor selisih suhu keliru digandakan menjadi dua puluh derajat diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$E_a \\approx 83{,}14\\text{ kJ/mol}$, dihitung dari perkalian langsung konstanta gas dengan kelipatan suhu mutlak."
       },
       {
         "key": "B",
@@ -2569,11 +2570,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$E_a \\approx 5{,}36\\text{ kJ/mol}$, karena galat konversi dari satuan Joule ke kiloJoule."
+        "text": "$E_a \\approx 26{,}79\\text{ kJ/mol}$, karena faktor selisih suhu keliru digandakan menjadi dua puluh derajat."
       },
       {
         "key": "D",
-        "text": "$E_a \\approx 83{,}14\\text{ kJ/mol}$, dihitung dari perkalian langsung konstanta gas dengan kelipatan suhu mutlak."
+        "text": "$E_a \\approx 5{,}36\\text{ kJ/mol}$, karena galat konversi dari satuan Joule ke kiloJoule."
       },
       {
         "key": "E",
@@ -2604,27 +2605,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_{\\text{sel}} = 1{,}0408\\text{ Volt}$ (atau sekitar $1{,}04\\text{ V}$), karena jumlah transfer elektron dalam reaksi adalah $n = 2$. Kuosien reaksi adalah $Q = \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = \\frac{0{,}1}{10^{-3}} = 100 = 10^2$, sehingga $\\log Q = 2$. Menurut persamaan Nernst: $E_{\\text{sel}} = 1{,}10\\text{ V} - \\frac{0{,}0592}{2} \\log(100) = 1{,}10 - (0{,}0296 \\times 2) = 1{,}10 - 0{,}0592 = 1{,}0408\\text{ Volt}$."
+        "text": "$E_{\\text{sel}} = 1{,}0704\\text{ Volt}$, dihitung dengan membagi suku Nernst dengan faktor empat."
       },
       {
         "key": "B",
-        "text": "$E_{\\text{sel}} = 1{,}1592\\text{ Volt}$, karena suku koreksi Nernst keliru ditambahkan pada potensial sel standar padahal konsentrasi produk lebih besar dari reaktan sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$E_{\\text{sel}} = 1{,}0408\\text{ Volt}$ (atau sekitar $1{,}04\\text{ V}$), karena jumlah transfer elektron dalam reaksi adalah $n = 2$. Kuosien reaksi adalah $Q = \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = \\frac{0{,}1}{10^{-3}} = 100 = 10^2$, sehingga $\\log Q = 2$. Menurut persamaan Nernst: $E_{\\text{sel}} = 1{,}10\\text{ V} - \\frac{0{,}0592}{2} \\log(100) = 1{,}10 - (0{,}0296 \\times 2) = 1{,}10 - 0{,}0592 = 1{,}0408\\text{ Volt}$."
       },
       {
         "key": "C",
-        "text": "$E_{\\text{sel}} = 1{,}1000\\text{ Volt}$, karena mengabaikan pengaruh perbedaan konsentrasi larutan elektrolit."
-      },
-      {
-        "key": "D",
         "text": "$E_{\\text{sel}} = 0{,}9816\\text{ Volt}$, dihitung dari pemangkatan kuadrat jumlah transfer elektron pada penyebut."
       },
       {
+        "key": "D",
+        "text": "$E_{\\text{sel}} = 1{,}1592\\text{ Volt}$, karena suku koreksi Nernst keliru ditambahkan pada potensial sel standar padahal konsentrasi produk lebih besar dari reaktan."
+      },
+      {
         "key": "E",
-        "text": "$E_{\\text{sel}} = 1{,}0704\\text{ Volt}$, dihitung dengan membagi suku Nernst dengan faktor empat."
+        "text": "$E_{\\text{sel}} = 1{,}1000\\text{ Volt}$, karena mengabaikan pengaruh perbedaan konsentrasi larutan elektrolit."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $E_{\\text{sel}} = 1{,}0408\\text{ Volt}$ (atau sekitar $1{,}04\\text{ V}$), karena jumlah transfer elektron dalam reaksi adalah $n = 2$. Kuosien reaksi adalah $Q = \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = \\frac{0{,}1}{10^{-3}} = 100 = 10^2$, sehingga $\\log Q = 2$. Menurut persamaan Nernst: $E_{\\text{sel}} = 1{,}10\\text{ V} - \\frac{0{,}0592}{2} \\log(100) = 1{,}10 - (0{,}0296 \\times 2) = 1{,}10 - 0{,}0592 = 1{,}0408\\text{ Volt}$.. Persamaan Nernst: E_sel = E0_sel - (0,0592 / n) * log(Q). n = 2. Q = [Zn2+] / [Cu2+] = 0,1 / 1e-3 = 100. log(100) = 2. E_sel = 1,10 - (0,0592 / 2) * 2 = 1,10 - 0,0592 = 1,0408 Volt."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $E_{\\text{sel}} = 1{,}0408\\text{ Volt}$ (atau sekitar $1{,}04\\text{ V}$), karena jumlah transfer elektron dalam reaksi adalah $n = 2$. Kuosien reaksi adalah $Q = \\frac{[\\text{Zn}^{2+}]}{[\\text{Cu}^{2+}]} = \\frac{0{,}1}{10^{-3}} = 100 = 10^2$, sehingga $\\log Q = 2$. Menurut persamaan Nernst: $E_{\\text{sel}} = 1{,}10\\text{ V} - \\frac{0{,}0592}{2} \\log(100) = 1{,}10 - (0{,}0296 \\times 2) = 1{,}10 - 0{,}0592 = 1{,}0408\\text{ Volt}$.. Persamaan Nernst: E_sel = E0_sel - (0,0592 / n) * log(Q). n = 2. Q = [Zn2+] / [Cu2+] = 0,1 / 1e-3 = 100. log(100) = 2. E_sel = 1,10 - (0,0592 / 2) * 2 = 1,10 - 0,0592 = 1,0408 Volt."
   },
   {
     "id": "kim-lat-h-12",
@@ -2646,27 +2647,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh pengotor seng, emas, dan perak ikut teroksidasi dan terendapkan bersama tembaga di katoda sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "B",
-        "text": "Seng teroksidasi menjadi ion $\\text{Zn}^{2+}$ dan larut tetap berada di dalam larutan elektrolit karena potensial reduksinya sangat negatif sehingga tidak tereduksi di katoda, sedangkan emas dan perak tidak teroksidasi di anoda dan jatuh mengendap ke dasar bejana membentuk lumpur anoda (anode slime) yang bernilai ekonomis tinggi."
-      },
-      {
-        "key": "C",
-        "text": "Emas dan perak teroksidasi membentuk ion kompleks larut, sedangkan seng mengendap di dasar sel elektrolisis."
-      },
-      {
-        "key": "D",
         "text": "Seng, emas, dan perak bereaksi dengan gas belerang membentuk lapisan pasivasi yang menghentikan arus listrik."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Seluruh pengotor seng, emas, dan perak ikut teroksidasi dan terendapkan bersama tembaga di katoda."
+      },
+      {
+        "key": "C",
         "text": "Pengotor emas dan perak menguap sebagai gas mulia beracun di atas permukaan sel elektrolisis industri."
+      },
+      {
+        "key": "D",
+        "text": "Emas dan perak teroksidasi membentuk ion kompleks larut, sedangkan seng mengendap di dasar sel elektrolisis."
+      },
+      {
+        "key": "E",
+        "text": "Seng teroksidasi menjadi ion $\\text{Zn}^{2+}$ dan larut tetap berada di dalam larutan elektrolit karena potensial reduksinya sangat negatif sehingga tidak tereduksi di katoda, sedangkan emas dan perak tidak teroksidasi di anoda dan jatuh mengendap ke dasar bejana membentuk lumpur anoda (anode slime) yang bernilai ekonomis tinggi."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Seng teroksidasi menjadi ion $\\text{Zn}^{2+}$ dan larut tetap berada di dalam larutan elektrolit karena potensial reduksinya sangat negatif sehingga tidak tereduksi di katoda, sedangkan emas dan perak tidak teroksidasi di anoda dan jatuh mengendap ke dasar bejana membentuk lumpur anoda (anode slime) yang bernilai ekonomis tinggi.. Logam lebih aktif dari Cu (Zn, Fe, E0 lebih negatif) teroksidasi jadi ion di larutan. Logam lebih mulia dari Cu (Ag, Au, E0 lebih positif) tidak teroksidasi dan jatuh jadi lumpur anoda. Zn larut sebagai ion di elektrolit, Au dan Ag mengendap menjadi lumpur anoda."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Seng teroksidasi menjadi ion $\\text{Zn}^{2+}$ dan larut tetap berada di dalam larutan elektrolit karena potensial reduksinya sangat negatif sehingga tidak tereduksi di katoda, sedangkan emas dan perak tidak teroksidasi di anoda dan jatuh mengendap ke dasar bejana membentuk lumpur anoda (anode slime) yang bernilai ekonomis tinggi.. Logam lebih aktif dari Cu (Zn, Fe, E0 lebih negatif) teroksidasi jadi ion di larutan. Logam lebih mulia dari Cu (Ag, Au, E0 lebih positif) tidak teroksidasi dan jatuh jadi lumpur anoda. Zn larut sebagai ion di elektrolit, Au dan Ag mengendap menjadi lumpur anoda."
   },
   {
     "id": "kim-lat-h-13",
@@ -2688,7 +2689,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reaksi $S_N1$ berlangsung satu tahap dengan keadaan transisi siklik, sedangkan $S_N2$ berlangsung melalui zat antara radikal bebas ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Reaksi $S_N1$ lebih disukai oleh pelarut aprotik nonpolar sedangkan $S_N2$ membutuhkan pelarut protik berair kuat."
       },
       {
         "key": "B",
@@ -2700,11 +2701,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Reaksi $S_N1$ menghasilkan pembalikan konfigurasi Walden murni, sedangkan $S_N2$ selalu menghasilkan produk retensi."
+        "text": "Reaksi $S_N1$ berlangsung satu tahap dengan keadaan transisi siklik, sedangkan $S_N2$ berlangsung melalui zat antara radikal bebas ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "E",
-        "text": "Reaksi $S_N1$ lebih disukai oleh pelarut aprotik nonpolar sedangkan $S_N2$ membutuhkan pelarut protik berair kuat."
+        "text": "Reaksi $S_N1$ menghasilkan pembalikan konfigurasi Walden murni, sedangkan $S_N2$ selalu menghasilkan produk retensi."
       }
     ],
     "correctKey": "C",
@@ -2731,27 +2732,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1-butena, karena proton hidrogen pada karbon nomor satu paling mudah diserang oleh basa kuat karena rintangan sterik minimal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
-        "text": "2-butanol, karena terjadi reaksi substitusi nukleofilik murni tanpa eliminasi ikatan rangkap."
-      },
-      {
-        "key": "C",
         "text": "Siklobutana, karena rantai karbon mengalami penutupan cincin intramolekuler."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "2-butena (khususnya trans-2-butena), karena aturan Zaitsev menyatakan bahwa eliminasi hidrogen halida dari alkil halida akan mendominasi pembentukan alkena yang memiliki gugus alkil substituen terbanyak (alkena terdisubstitusi yang secara termodinamika memiliki kestabilan ikatan pi lebih tinggi dibanding 1-butena monosubstitusi)."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Butuna, karena terjadi pelepasan dua molekul asam bromida secara simultan."
+      },
+      {
+        "key": "D",
+        "text": "2-butanol, karena terjadi reaksi substitusi nukleofilik murni tanpa eliminasi ikatan rangkap."
+      },
+      {
+        "key": "E",
+        "text": "1-butena, karena proton hidrogen pada karbon nomor satu paling mudah diserang oleh basa kuat karena rintangan sterik minimal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 2-butena (khususnya trans-2-butena), karena aturan Zaitsev menyatakan bahwa eliminasi hidrogen halida dari alkil halida akan mendominasi pembentukan alkena yang memiliki gugus alkil substituen terbanyak (alkena terdisubstitusi yang secara termodinamika memiliki kestabilan ikatan pi lebih tinggi dibanding 1-butena monosubstitusi).. Aturan Zaitsev: pada eliminasi dehidrohalogenasi, produk utama adalah alkena dengan substituen terbanyak (paling stabil). 2-butena (disubstitusi) adalah produk utama. 2-butena (produk Zaitsev yang lebih stabil)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) 2-butena (khususnya trans-2-butena), karena aturan Zaitsev menyatakan bahwa eliminasi hidrogen halida dari alkil halida akan mendominasi pembentukan alkena yang memiliki gugus alkil substituen terbanyak (alkena terdisubstitusi yang secara termodinamika memiliki kestabilan ikatan pi lebih tinggi dibanding 1-butena monosubstitusi).. Aturan Zaitsev: pada eliminasi dehidrohalogenasi, produk utama adalah alkena dengan substituen terbanyak (paling stabil). 2-butena (disubstitusi) adalah produk utama. 2-butena (produk Zaitsev yang lebih stabil)."
   },
   {
     "id": "kim-lat-h-15",
@@ -2773,7 +2774,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Gugus $-\\text{OH}$ bersifat penarik elektron kuat melalui efek induksi sehingga mendeaktivasi posisi meta cincin aromatik diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Perbedaan orientasi disebabkan semata-mata oleh perbedaan massa molar kedua substituen organik."
       },
       {
         "key": "B",
@@ -2785,7 +2786,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Perbedaan orientasi disebabkan semata-mata oleh perbedaan massa molar kedua substituen organik."
+        "text": "Gugus $-\\text{OH}$ bersifat penarik elektron kuat melalui efek induksi sehingga mendeaktivasi posisi meta cincin aromatik."
       },
       {
         "key": "E",
@@ -2816,27 +2817,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Titik isoelektrik $\\text{pI} = 6{,}015$ dan pada $\\text{pH} = 11$ alanin bermuatan negatif sehingga bermigrasi menuju kutub anoda positif, karena titik isoelektrik dihitung dari rata-rata $\\text{pI} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2} = \\frac{2{,}34 + 9{,}69}{2} = \\frac{12{,}03}{2} = 6{,}015$. Pada lingkungan sangat basa ($\\text{pH } 11 > \\text{pI}$), gugus amino melepaskan protonnya ($-\\text{NH}_2$) sementara karboksilat tetap terionisasi ($-\\text{COO}^-$), sehingga menghasilkan ion bermuatan negatif netto (anion) yang ditarik oleh anoda."
-      },
-      {
-        "key": "B",
-        "text": "$\\text{pI} = 7{,}00$ dan pada $\\text{pH } 11$ alanin diam di tempat tidak bermigrasi karena bermuatan netral sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
         "text": "$\\text{pI} = 6{,}015$ dan pada $\\text{pH } 11$ alanin bermuatan positif sehingga bermigrasi menuju kutub katoda negatif."
       },
       {
+        "key": "B",
+        "text": "Titik isoelektrik $\\text{pI} = 6{,}015$ dan pada $\\text{pH} = 11$ alanin bermuatan negatif sehingga bermigrasi menuju kutub anoda positif, karena titik isoelektrik dihitung dari rata-rata $\\text{pI} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2} = \\frac{2{,}34 + 9{,}69}{2} = \\frac{12{,}03}{2} = 6{,}015$. Pada lingkungan sangat basa ($\\text{pH } 11 > \\text{pI}$), gugus amino melepaskan protonnya ($-\\text{NH}_2$) sementara karboksilat tetap terionisasi ($-\\text{COO}^-$), sehingga menghasilkan ion bermuatan negatif netto (anion) yang ditarik oleh anoda."
+      },
+      {
+        "key": "C",
+        "text": "$\\text{pI} = 9{,}69$ dan pada $\\text{pH } 11$ alanin mengendap sebagai kristal padat tak larut."
+      },
+      {
         "key": "D",
-        "text": "$\\text{pI} = 2{,}34$ dan pada $\\text{pH } 11$ alanin terurai menjadi gas amonia dan asam laktat."
+        "text": "$\\text{pI} = 7{,}00$ dan pada $\\text{pH } 11$ alanin diam di tempat tidak bermigrasi karena bermuatan netral."
       },
       {
         "key": "E",
-        "text": "$\\text{pI} = 9{,}69$ dan pada $\\text{pH } 11$ alanin mengendap sebagai kristal padat tak larut."
+        "text": "$\\text{pI} = 2{,}34$ dan pada $\\text{pH } 11$ alanin terurai menjadi gas amonia dan asam laktat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Titik isoelektrik $\\text{pI} = 6{,}015$ dan pada $\\text{pH} = 11$ alanin bermuatan negatif sehingga bermigrasi menuju kutub anoda positif, karena titik isoelektrik dihitung dari rata-rata $\\text{pI} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2} = \\frac{2{,}34 + 9{,}69}{2} = \\frac{12{,}03}{2} = 6{,}015$. Pada lingkungan sangat basa ($\\text{pH } 11 > \\text{pI}$), gugus amino melepaskan protonnya ($-\\text{NH}_2$) sementara karboksilat tetap terionisasi ($-\\text{COO}^-$), sehingga menghasilkan ion bermuatan negatif netto (anion) yang ditarik oleh anoda.. Titik isoelektrik asam amino netral: pI = (pKa1 + pKa2) / 2 = (2,34 + 9,69)/2 = 6,015. Pada pH 11 > pI, asam amino bermuatan negatif (anion) sehingga bergerak ke kutub positif (anoda). pI = 6,015; bermuatan negatif dan bermigrasi ke anoda."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Titik isoelektrik $\\text{pI} = 6{,}015$ dan pada $\\text{pH} = 11$ alanin bermuatan negatif sehingga bermigrasi menuju kutub anoda positif, karena titik isoelektrik dihitung dari rata-rata $\\text{pI} = \\frac{\\text{p}K_{a1} + \\text{p}K_{a2}}{2} = \\frac{2{,}34 + 9{,}69}{2} = \\frac{12{,}03}{2} = 6{,}015$. Pada lingkungan sangat basa ($\\text{pH } 11 > \\text{pI}$), gugus amino melepaskan protonnya ($-\\text{NH}_2$) sementara karboksilat tetap terionisasi ($-\\text{COO}^-$), sehingga menghasilkan ion bermuatan negatif netto (anion) yang ditarik oleh anoda.. Titik isoelektrik asam amino netral: pI = (pKa1 + pKa2) / 2 = (2,34 + 9,69)/2 = 6,015. Pada pH 11 > pI, asam amino bermuatan negatif (anion) sehingga bergerak ke kutub positif (anoda). pI = 6,015; bermuatan negatif dan bermigrasi ke anoda."
   },
   {
     "id": "kim-lat-h-17",
@@ -2859,7 +2860,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Urutan prioritas: $-\\text{COOH} > -\\text{OH} > -\\text{CH}_3 > -\\text{H}$ dengan konfigurasi absolut selalu $(S)$ sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Urutan prioritas: $-\\text{H} > -\\text{CH}_3 > -\\text{COOH} > -\\text{OH}$ diurutkan dari massa molar terkecil ke terbesar."
       },
       {
         "key": "B",
@@ -2867,15 +2868,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Urutan prioritas: $-\\text{CH}_3 > -\\text{COOH} > -\\text{OH} > -\\text{H}$ berdasarkan rantai karbon utama terpanjang."
+        "text": "Urutan prioritas: $-\\text{OH} > -\\text{CH}_3 > -\\text{COOH} > -\\text{H}$ dengan konfigurasi rasemat optis inaktif."
       },
       {
         "key": "D",
-        "text": "Urutan prioritas: $-\\text{H} > -\\text{CH}_3 > -\\text{COOH} > -\\text{OH}$ diurutkan dari massa molar terkecil ke terbesar."
+        "text": "Urutan prioritas: $-\\text{CH}_3 > -\\text{COOH} > -\\text{OH} > -\\text{H}$ berdasarkan rantai karbon utama terpanjang."
       },
       {
         "key": "E",
-        "text": "Urutan prioritas: $-\\text{OH} > -\\text{CH}_3 > -\\text{COOH} > -\\text{H}$ dengan konfigurasi rasemat optis inaktif."
+        "text": "Urutan prioritas: $-\\text{COOH} > -\\text{OH} > -\\text{CH}_3 > -\\text{H}$ dengan konfigurasi absolut selalu $(S)$."
       }
     ],
     "correctKey": "B",
@@ -2902,27 +2903,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$5.730\\text{ tahun}$, karena hanya memperhitungkan 1 periode waktu paruh peluruhan radiasi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "$17.190\\text{ tahun}$, dihitung dari asumsi bahwa zat telah meluruh selama 3 periode paruh."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$11.460\\text{ tahun}$, karena rasio aktivitas radiasi sisa terhadap aktivitas awal adalah $\\frac{A_t}{A_0} = \\frac{3{,}125}{12{,}5} = \\frac{1}{4} = \\left(\\frac{1}{2}\\right)^2$. Hal ini menunjukkan bahwa sampel telah meluruh selama $n = 2$ periode waktu paruh. Maka usia fosil tersebut adalah $t = n \\times T_{1/2} = 2 \\times 5.730\\text{ tahun} = 11.460\\text{ tahun}$."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$22.920\\text{ tahun}$, dihitung dari 4 periode waktu paruh peluruhan radioaktif."
+      },
+      {
+        "key": "D",
+        "text": "$5.730\\text{ tahun}$, karena hanya memperhitungkan 1 periode waktu paruh peluruhan radiasi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "E",
         "text": "$2.865\\text{ tahun}$, karena waktu paruh keliru dibagi dua alih-alih dikalikan dengan jumlah periode peluruhan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $11.460\\text{ tahun}$, karena rasio aktivitas radiasi sisa terhadap aktivitas awal adalah $\\frac{A_t}{A_0} = \\frac{3{,}125}{12{,}5} = \\frac{1}{4} = \\left(\\frac{1}{2}\\right)^2$. Hal ini menunjukkan bahwa sampel telah meluruh selama $n = 2$ periode waktu paruh. Maka usia fosil tersebut adalah $t = n \\times T_{1/2} = 2 \\times 5.730\\text{ tahun} = 11.460\\text{ tahun}$.. At / A0 = 3,125 / 12,5 = 1/4 = (1/2)^2. Artinya telah melewati n = 2 kali waktu paruh. Usia fosil t = 2 * 5.730 tahun. t = 2 * 5.730 = 11.460 tahun."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $11.460\\text{ tahun}$, karena rasio aktivitas radiasi sisa terhadap aktivitas awal adalah $\\frac{A_t}{A_0} = \\frac{3{,}125}{12{,}5} = \\frac{1}{4} = \\left(\\frac{1}{2}\\right)^2$. Hal ini menunjukkan bahwa sampel telah meluruh selama $n = 2$ periode waktu paruh. Maka usia fosil tersebut adalah $t = n \\times T_{1/2} = 2 \\times 5.730\\text{ tahun} = 11.460\\text{ tahun}$.. At / A0 = 3,125 / 12,5 = 1/4 = (1/2)^2. Artinya telah melewati n = 2 kali waktu paruh. Usia fosil t = 2 * 5.730 tahun. t = 2 * 5.730 = 11.460 tahun."
   },
   {
     "id": "kim-lat-h-19",
@@ -2945,27 +2946,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Polimerisasi adisi radikal bebas, karena membuka ikatan rangkap dua karbon-karbon pada asam laktat menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "Polimerisasi adisi radikal bebas, karena membuka ikatan rangkap dua karbon-karbon pada asam laktat menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "B",
-        "text": "Polimerisasi adisi kationik, karena membutuhkan inisiator asam kuat tanpa melepaskan molekul kecil."
+        "text": "Polimerisasi penataan ulang fotokimiawi isomer tanpa adanya reaksi kondensasi gugus fungsi."
       },
       {
         "key": "C",
-        "text": "Vulkanisasi silang belerang, karena menghubungkan rantai peptida dengan ikatan disulfida."
-      },
-      {
-        "key": "D",
         "text": "Polimerisasi kondensasi (atau polimerisasi pembukaan cincin ester siklik laktida), karena gugus karboksilat ($-\\text{COOH}$) pada satu molekul bereaksi dengan gugus hidroksil ($-\\text{OH}$) pada molekul lain membentuk ikatan ester (poliester) dengan melepaskan molekul air ($\\text{H}_2\\text{O}$) sebagai produk sampingan."
       },
       {
+        "key": "D",
+        "text": "Vulkanisasi silang belerang, karena menghubungkan rantai peptida dengan ikatan disulfida."
+      },
+      {
         "key": "E",
-        "text": "Polimerisasi penataan ulang fotokimiawi isomer tanpa adanya reaksi kondensasi gugus fungsi."
+        "text": "Polimerisasi adisi kationik, karena membutuhkan inisiator asam kuat tanpa melepaskan molekul kecil."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Polimerisasi kondensasi (atau polimerisasi pembukaan cincin ester siklik laktida), karena gugus karboksilat ($-\\text{COOH}$) pada satu molekul bereaksi dengan gugus hidroksil ($-\\text{OH}$) pada molekul lain membentuk ikatan ester (poliester) dengan melepaskan molekul air ($\\text{H}_2\\text{O}$) sebagai produk sampingan.. Asam laktat memiliki gugus -OH dan -COOH yang bereaksi membentuk ikatan ester dengan melepaskan H2O. Reaksi polimerisasi yang melepaskan molekul kecil (H2O) adalah polimerisasi kondensasi. Polimerisasi kondensasi menghasilkan poliester dan air."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Polimerisasi kondensasi (atau polimerisasi pembukaan cincin ester siklik laktida), karena gugus karboksilat ($-\\text{COOH}$) pada satu molekul bereaksi dengan gugus hidroksil ($-\\text{OH}$) pada molekul lain membentuk ikatan ester (poliester) dengan melepaskan molekul air ($\\text{H}_2\\text{O}$) sebagai produk sampingan.. Asam laktat memiliki gugus -OH dan -COOH yang bereaksi membentuk ikatan ester dengan melepaskan H2O. Reaksi polimerisasi yang melepaskan molekul kecil (H2O) adalah polimerisasi kondensasi. Polimerisasi kondensasi menghasilkan poliester dan air."
   },
   {
     "id": "kim-lat-h-20",
@@ -2988,7 +2989,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_{\\text{CO}_2} = 0{,}41\\text{ atm}$ dan massa $\\text{CO}_2 = 2{,}2\\text{ gram}$, karena tekanan gas keliru dibagi dua oleh keberadaan dua fasa padatan diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$P_{\\text{CO}_2} = 1{,}64\\text{ atm}$ dan massa $\\text{CO}_2 = 8{,}8\\text{ gram}$, dihitung dari penggandaan tekanan kesetimbangan."
       },
       {
         "key": "B",
@@ -2996,19 +2997,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$P_{\\text{CO}_2} = 1{,}64\\text{ atm}$ dan massa $\\text{CO}_2 = 8{,}8\\text{ gram}$, dihitung dari penggandaan tekanan kesetimbangan."
+        "text": "$P_{\\text{CO}_2} = 0{,}82\\text{ atm}$ dan massa $\\text{CO}_2 = 4{,}4\\text{ gram}$, karena pada kesetimbangan heterogen zat berwujud padat murni tidak disertakan dalam persamaan aksi massa, sehingga $K_p = P_{\\text{CO}_2} = 0{,}82\\text{ atm}$. Jumlah mol gas $\\text{CO}_2$ dihitung dari persamaan gas ideal $n = \\frac{P V}{R T} = \\frac{0{,}82\\text{ atm} \\times 10\\text{ L}}{0{,}082\\text{ L}\\cdot\\text{atm/(mol}\\cdot\\text{K)} \\times 1.000\\text{ K}} = \\frac{8{,}2}{82} = 0{,}1\\text{ mol}$. Massa gas adalah $m = 0{,}1\\text{ mol} \\times 44\\text{ g/mol} = 4{,}4\\text{ gram}$."
       },
       {
         "key": "D",
-        "text": "$P_{\\text{CO}_2} = 0{,}082\\text{ atm}$ dan massa $\\text{CO}_2 = 0{,}44\\text{ gram}$, karena galat penempatan koma desimal konstanta gas ideal."
+        "text": "$P_{\\text{CO}_2} = 0{,}41\\text{ atm}$ dan massa $\\text{CO}_2 = 2{,}2\\text{ gram}$, karena tekanan gas keliru dibagi dua oleh keberadaan dua fasa padatan."
       },
       {
         "key": "E",
-        "text": "$P_{\\text{CO}_2} = 0{,}82\\text{ atm}$ dan massa $\\text{CO}_2 = 4{,}4\\text{ gram}$, karena pada kesetimbangan heterogen zat berwujud padat murni tidak disertakan dalam persamaan aksi massa, sehingga $K_p = P_{\\text{CO}_2} = 0{,}82\\text{ atm}$. Jumlah mol gas $\\text{CO}_2$ dihitung dari persamaan gas ideal $n = \\frac{P V}{R T} = \\frac{0{,}82\\text{ atm} \\times 10\\text{ L}}{0{,}082\\text{ L}\\cdot\\text{atm/(mol}\\cdot\\text{K)} \\times 1.000\\text{ K}} = \\frac{8{,}2}{82} = 0{,}1\\text{ mol}$. Massa gas adalah $m = 0{,}1\\text{ mol} \\times 44\\text{ g/mol} = 4{,}4\\text{ gram}$."
+        "text": "$P_{\\text{CO}_2} = 0{,}082\\text{ atm}$ dan massa $\\text{CO}_2 = 0{,}44\\text{ gram}$, karena galat penempatan koma desimal konstanta gas ideal."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $P_{\\text{CO}_2} = 0{,}82\\text{ atm}$ dan massa $\\text{CO}_2 = 4{,}4\\text{ gram}$, karena pada kesetimbangan heterogen zat berwujud padat murni tidak disertakan dalam persamaan aksi massa, sehingga $K_p = P_{\\text{CO}_2} = 0{,}82\\text{ atm}$. Jumlah mol gas $\\text{CO}_2$ dihitung dari persamaan gas ideal $n = \\frac{P V}{R T} = \\frac{0{,}82\\text{ atm} \\times 10\\text{ L}}{0{,}082\\text{ L}\\cdot\\text{atm/(mol}\\cdot\\text{K)} \\times 1.000\\text{ K}} = \\frac{8{,}2}{82} = 0{,}1\\text{ mol}$. Massa gas adalah $m = 0{,}1\\text{ mol} \\times 44\\text{ g/mol} = 4{,}4\\text{ gram}$.. Padatan murni tidak masuk rumus Kp, jadi Kp = P(CO2) = 0,82 atm. Gunakan gas ideal: n = P * V / (R * T) = 0,82 * 10 / (0,082 * 1000) = 0,1 mol. Massa = n * Mr = 0,1 * 44 = 4,4 g. P(CO2) = 0,82 atm, massa CO2 = 4,4 gram."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $P_{\\text{CO}_2} = 0{,}82\\text{ atm}$ dan massa $\\text{CO}_2 = 4{,}4\\text{ gram}$, karena pada kesetimbangan heterogen zat berwujud padat murni tidak disertakan dalam persamaan aksi massa, sehingga $K_p = P_{\\text{CO}_2} = 0{,}82\\text{ atm}$. Jumlah mol gas $\\text{CO}_2$ dihitung dari persamaan gas ideal $n = \\frac{P V}{R T} = \\frac{0{,}82\\text{ atm} \\times 10\\text{ L}}{0{,}082\\text{ L}\\cdot\\text{atm/(mol}\\cdot\\text{K)} \\times 1.000\\text{ K}} = \\frac{8{,}2}{82} = 0{,}1\\text{ mol}$. Massa gas adalah $m = 0{,}1\\text{ mol} \\times 44\\text{ g/mol} = 4{,}4\\text{ gram}$.. Padatan murni tidak masuk rumus Kp, jadi Kp = P(CO2) = 0,82 atm. Gunakan gas ideal: n = P * V / (R * T) = 0,82 * 10 / (0,082 * 1000) = 0,1 mol. Massa = n * Mr = 0,1 * 44 = 4,4 g. P(CO2) = 0,82 atm, massa CO2 = 4,4 gram."
   },
   {
     "id": "kim-lat-h-21",
@@ -3031,27 +3032,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerap cahaya berwarna jingga (oranye, panjang gelombang $\\approx 600 - 620\\text{ nm}$), dan warna biru yang terlihat adalah warna komplementer yang diteruskan ke mata akibat adanya eksitasi elektron dari orbital $t_{2g}$ ke orbital $e_g$ (transisi $d-d$)."
+        "text": "Menyerap cahaya berwarna biru cerah dan memancarkan kembali cahaya biru melalui peristiwa fluoresensi foton atomik."
       },
       {
         "key": "B",
-        "text": "Menyerap cahaya berwarna biru cerah dan memancarkan kembali cahaya biru melalui peristiwa fluoresensi foton atomik sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
-        "text": "Menyerap sinar ultraviolet tak tampak dan meneruskan seluruh spektrum warna tampak secara seragam."
-      },
-      {
-        "key": "D",
         "text": "Menyerap cahaya berwarna hijau dan meneruskan warna merah melalui hamburan Rayleigh intermolekul pelarut."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Menyerap gelombang inframerah termal akibat getaran ikatan kovalen koordinasi ligan air."
+      },
+      {
+        "key": "D",
+        "text": "Menyerap cahaya berwarna jingga (oranye, panjang gelombang $\\approx 600 - 620\\text{ nm}$), dan warna biru yang terlihat adalah warna komplementer yang diteruskan ke mata akibat adanya eksitasi elektron dari orbital $t_{2g}$ ke orbital $e_g$ (transisi $d-d$)."
+      },
+      {
+        "key": "E",
+        "text": "Menyerap sinar ultraviolet tak tampak dan meneruskan seluruh spektrum warna tampak secara seragam."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Menyerap cahaya berwarna jingga (oranye, panjang gelombang $\\approx 600 - 620\\text{ nm}$), dan warna biru yang terlihat adalah warna komplementer yang diteruskan ke mata akibat adanya eksitasi elektron dari orbital $t_{2g}$ ke orbital $e_g$ (transisi $d-d$).. Warna larutan yang terlihat adalah warna komplementer dari cahaya yang diserap. Warna komplementer dari biru adalah jingga (oranye). Warna muncul karena eksitasi transisi elektron d-d. Menyerap cahaya jingga (transisi d-d), warna komplementer biru diteruskan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Menyerap cahaya berwarna jingga (oranye, panjang gelombang $\\approx 600 - 620\\text{ nm}$), dan warna biru yang terlihat adalah warna komplementer yang diteruskan ke mata akibat adanya eksitasi elektron dari orbital $t_{2g}$ ke orbital $e_g$ (transisi $d-d$).. Warna larutan yang terlihat adalah warna komplementer dari cahaya yang diserap. Warna komplementer dari biru adalah jingga (oranye). Warna muncul karena eksitasi transisi elektron d-d. Menyerap cahaya jingga (transisi d-d), warna komplementer biru diteruskan."
   },
   {
     "id": "kim-lat-h-22",
@@ -3074,15 +3075,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = k [\\text{NO}] [\\text{H}_2]$ dengan zat antara $\\text{H}_2\\text{O}$ sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$v = k [\\text{N}_2\\text{O}_2] [\\text{H}_2]$ dengan zat antara $\\text{NO}_2$."
       },
       {
         "key": "B",
-        "text": "$v = k [\\text{NO}]^2 [\\text{H}_2]$ dengan zat antara $\\text{N}_2\\text{O}_2$, karena tahap lambat (tahap 2) adalah tahap penentu laju (Rate-Determining Step / RDS) sehingga $v = k_2 [\\text{N}_2\\text{O}_2][\\text{H}_2]$. Dari kesetimbangan cepat tahap 1: $[\\text{N}_2\\text{O}_2] = K_c [\\text{NO}]^2$. Substitusi ke tahap 2 menghasilkan $v = k_2 K_c [\\text{NO}]^2 [\\text{H}_2] = k [\\text{NO}]^2 [\\text{H}_2]$. Spesi $\\text{N}_2\\text{O}_2$ terbentuk pada tahap 1 dan dikonsumsi pada tahap 2 sehingga berstatus sebagai zat antara."
+        "text": "$v = k [\\text{NO}]^2$ dengan zat antara atom oksigen radikal."
       },
       {
         "key": "C",
-        "text": "$v = k [\\text{N}_2\\text{O}_2] [\\text{H}_2]$ dengan zat antara $\\text{NO}_2$."
+        "text": "$v = k [\\text{NO}]^2 [\\text{H}_2]$ dengan zat antara $\\text{N}_2\\text{O}_2$, karena tahap lambat (tahap 2) adalah tahap penentu laju (Rate-Determining Step / RDS) sehingga $v = k_2 [\\text{N}_2\\text{O}_2][\\text{H}_2]$. Dari kesetimbangan cepat tahap 1: $[\\text{N}_2\\text{O}_2] = K_c [\\text{NO}]^2$. Substitusi ke tahap 2 menghasilkan $v = k_2 K_c [\\text{NO}]^2 [\\text{H}_2] = k [\\text{NO}]^2 [\\text{H}_2]$. Spesi $\\text{N}_2\\text{O}_2$ terbentuk pada tahap 1 dan dikonsumsi pada tahap 2 sehingga berstatus sebagai zat antara."
       },
       {
         "key": "D",
@@ -3090,11 +3091,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$v = k [\\text{NO}]^2$ dengan zat antara atom oksigen radikal."
+        "text": "$v = k [\\text{NO}] [\\text{H}_2]$ dengan zat antara $\\text{H}_2\\text{O}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $v = k [\\text{NO}]^2 [\\text{H}_2]$ dengan zat antara $\\text{N}_2\\text{O}_2$, karena tahap lambat (tahap 2) adalah tahap penentu laju (Rate-Determining Step / RDS) sehingga $v = k_2 [\\text{N}_2\\text{O}_2][\\text{H}_2]$. Dari kesetimbangan cepat tahap 1: $[\\text{N}_2\\text{O}_2] = K_c [\\text{NO}]^2$. Substitusi ke tahap 2 menghasilkan $v = k_2 K_c [\\text{NO}]^2 [\\text{H}_2] = k [\\text{NO}]^2 [\\text{H}_2]$. Spesi $\\text{N}_2\\text{O}_2$ terbentuk pada tahap 1 dan dikonsumsi pada tahap 2 sehingga berstatus sebagai zat antara.. Laju reaksi ditentukan oleh tahap lambat (tahap 2): v = k2 * [N2O2] * [H2]. Karena N2O2 adalah zat antara, substitusi dari kesetimbangan tahap 1: [N2O2] = Kc * [NO]^2. Maka v = k [NO]^2 [H2]. v = k [NO]^2 [H2], zat antara = N2O2."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $v = k [\\text{NO}]^2 [\\text{H}_2]$ dengan zat antara $\\text{N}_2\\text{O}_2$, karena tahap lambat (tahap 2) adalah tahap penentu laju (Rate-Determining Step / RDS) sehingga $v = k_2 [\\text{N}_2\\text{O}_2][\\text{H}_2]$. Dari kesetimbangan cepat tahap 1: $[\\text{N}_2\\text{O}_2] = K_c [\\text{NO}]^2$. Substitusi ke tahap 2 menghasilkan $v = k_2 K_c [\\text{NO}]^2 [\\text{H}_2] = k [\\text{NO}]^2 [\\text{H}_2]$. Spesi $\\text{N}_2\\text{O}_2$ terbentuk pada tahap 1 dan dikonsumsi pada tahap 2 sehingga berstatus sebagai zat antara.. Laju reaksi ditentukan oleh tahap lambat (tahap 2): v = k2 * [N2O2] * [H2]. Karena N2O2 adalah zat antara, substitusi dari kesetimbangan tahap 1: [N2O2] = Kc * [NO]^2. Maka v = k [NO]^2 [H2]. v = k [NO]^2 [H2], zat antara = N2O2."
   },
   {
     "id": "kim-lat-h-23",
@@ -3117,27 +3118,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$69{,}5\\text{ mg KOH/gram minyak}$, karena mol KOH keliru dihitung hanya satu mol tanpa dikalikan koefisien tiga trigliserida ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "$416{,}8\\text{ mg KOH/gram minyak}$, dihitung dari penggandaan reaksi penyabunan asam lemak bebas."
       },
       {
+        "key": "B",
+        "text": "$69{,}5\\text{ mg KOH/gram minyak}$, karena mol KOH keliru dihitung hanya satu mol tanpa dikalikan koefisien tiga trigliserida ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
         "key": "C",
-        "text": "$208{,}4\\text{ mg KOH/gram minyak}$, karena satu mol trigliserida membutuhkan tepat 3 mol $\\text{KOH}$ untuk memutus 3 ikatan ester membentuk sabun dan gliserol. Jumlah mol tripalmitin dalam $1\\text{ gram}$ adalah $n = \\frac{1\\text{ g}}{806\\text{ g/mol}} \\approx 1{,}2407 \\times 10^{-3}\\text{ mol}$. Mol $\\text{KOH}$ yang dibutuhkan adalah $3 \\times 1{,}2407 \\times 10^{-3} = 3{,}722 \\times 10^{-3}\\text{ mol}$. Massa $\\text{KOH}$ adalah $m = 3{,}722 \\times 10^{-3}\\text{ mol} \\times 56\\text{ g/mol} \\approx 0{,}2084\\text{ gram} = 208{,}4\\text{ miligram}$."
+        "text": "$806{,}0\\text{ mg KOH/gram minyak}$, karena menyamakan angka penyabunan dengan massa molar trigliserida."
       },
       {
         "key": "D",
-        "text": "$806{,}0\\text{ mg KOH/gram minyak}$, karena menyamakan angka penyabunan dengan massa molar trigliserida."
+        "text": "$208{,}4\\text{ mg KOH/gram minyak}$, karena satu mol trigliserida membutuhkan tepat 3 mol $\\text{KOH}$ untuk memutus 3 ikatan ester membentuk sabun dan gliserol. Jumlah mol tripalmitin dalam $1\\text{ gram}$ adalah $n = \\frac{1\\text{ g}}{806\\text{ g/mol}} \\approx 1{,}2407 \\times 10^{-3}\\text{ mol}$. Mol $\\text{KOH}$ yang dibutuhkan adalah $3 \\times 1{,}2407 \\times 10^{-3} = 3{,}722 \\times 10^{-3}\\text{ mol}$. Massa $\\text{KOH}$ adalah $m = 3{,}722 \\times 10^{-3}\\text{ mol} \\times 56\\text{ g/mol} \\approx 0{,}2084\\text{ gram} = 208{,}4\\text{ miligram}$."
       },
       {
         "key": "E",
         "text": "$112{,}0\\text{ mg KOH/gram minyak}$, dihitung dari pembagian massa molar KOH terhadap jumlah ikatan ester."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $208{,}4\\text{ mg KOH/gram minyak}$, karena satu mol trigliserida membutuhkan tepat 3 mol $\\text{KOH}$ untuk memutus 3 ikatan ester membentuk sabun dan gliserol. Jumlah mol tripalmitin dalam $1\\text{ gram}$ adalah $n = \\frac{1\\text{ g}}{806\\text{ g/mol}} \\approx 1{,}2407 \\times 10^{-3}\\text{ mol}$. Mol $\\text{KOH}$ yang dibutuhkan adalah $3 \\times 1{,}2407 \\times 10^{-3} = 3{,}722 \\times 10^{-3}\\text{ mol}$. Massa $\\text{KOH}$ adalah $m = 3{,}722 \\times 10^{-3}\\text{ mol} \\times 56\\text{ g/mol} \\approx 0{,}2084\\text{ gram} = 208{,}4\\text{ miligram}$.. 1 mol trigliserida bereaksi dengan 3 mol KOH. Angka penyabunan = (3 * 56 * 1000) / Mr_minyak. Mr tripalmitin = 806. Angka penyabunan = 168.000 / 806 = 208,4 mg KOH/g."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $208{,}4\\text{ mg KOH/gram minyak}$, karena satu mol trigliserida membutuhkan tepat 3 mol $\\text{KOH}$ untuk memutus 3 ikatan ester membentuk sabun dan gliserol. Jumlah mol tripalmitin dalam $1\\text{ gram}$ adalah $n = \\frac{1\\text{ g}}{806\\text{ g/mol}} \\approx 1{,}2407 \\times 10^{-3}\\text{ mol}$. Mol $\\text{KOH}$ yang dibutuhkan adalah $3 \\times 1{,}2407 \\times 10^{-3} = 3{,}722 \\times 10^{-3}\\text{ mol}$. Massa $\\text{KOH}$ adalah $m = 3{,}722 \\times 10^{-3}\\text{ mol} \\times 56\\text{ g/mol} \\approx 0{,}2084\\text{ gram} = 208{,}4\\text{ miligram}$.. 1 mol trigliserida bereaksi dengan 3 mol KOH. Angka penyabunan = (3 * 56 * 1000) / Mr_minyak. Mr tripalmitin = 806. Angka penyabunan = 168.000 / 806 = 208,4 mg KOH/g."
   },
   {
     "id": "kim-lat-h-24",
@@ -3160,27 +3161,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_{\\text{total}} = 64\\text{ mmHg}$ dan $Y_B = 0{,}25$, dihitung dari rata-rata tekanan murni dan menyamakan fraksi uap dengan fase cair menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$P_{\\text{total}} = 64\\text{ mmHg}$ dan $Y_B = 0{,}25$, dihitung dari rata-rata tekanan murni dan menyamakan fraksi uap dengan fase cair menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "B",
-        "text": "$P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}25$, karena mengabaikan peningkatan konsentrasi uap komponen volatil."
+        "text": "$P_{\\text{total}} = 36\\text{ mmHg}$ dan $Y_B = 0{,}33$, dihitung dari perbandingan mol terbalik larutan biner."
       },
       {
         "key": "C",
-        "text": "$P_{\\text{total}} = 128\\text{ mmHg}$ dan $Y_B = 0{,}75$, dihitung dari penjumlahan langsung kedua tekanan uap murni pelarut."
+        "text": "$P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}25$, karena mengabaikan peningkatan konsentrasi uap komponen volatil."
       },
       {
         "key": "D",
-        "text": "$P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}50$ (atau $50\\%$), karena fraksi mol benzena dalam fase cair adalah $X_B = \\frac{1}{1 + 3} = 0{,}25$ dan toluena $X_T = \\frac{3}{4} = 0{,}75$. Menurut Hukum Raoult: tekanan parsial benzena $P_B = X_B \\cdot P_B^\\circ = 0{,}25 \\times 96 = 24\\text{ mmHg}$ dan toluena $P_T = X_T \\cdot P_T^\\circ = 0{,}75 \\times 32 = 24\\text{ mmHg}$. Tekanan total adalah $P_{\\text{total}} = P_B + P_T = 24 + 24 = 48\\text{ mmHg}$. Fraksi mol benzena dalam fase uap adalah $Y_B = \\frac{P_B}{P_{\\text{total}}} = \\frac{24}{48} = 0{,}50$ (uap menjadi lebih kaya akan komponen yang lebih volatil / titik didih lebih rendah)."
+        "text": "$P_{\\text{total}} = 128\\text{ mmHg}$ dan $Y_B = 0{,}75$, dihitung dari penjumlahan langsung kedua tekanan uap murni pelarut."
       },
       {
         "key": "E",
-        "text": "$P_{\\text{total}} = 36\\text{ mmHg}$ dan $Y_B = 0{,}33$, dihitung dari perbandingan mol terbalik larutan biner."
+        "text": "$P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}50$ (atau $50\\%$), karena fraksi mol benzena dalam fase cair adalah $X_B = \\frac{1}{1 + 3} = 0{,}25$ dan toluena $X_T = \\frac{3}{4} = 0{,}75$. Menurut Hukum Raoult: tekanan parsial benzena $P_B = X_B \\cdot P_B^\\circ = 0{,}25 \\times 96 = 24\\text{ mmHg}$ dan toluena $P_T = X_T \\cdot P_T^\\circ = 0{,}75 \\times 32 = 24\\text{ mmHg}$. Tekanan total adalah $P_{\\text{total}} = P_B + P_T = 24 + 24 = 48\\text{ mmHg}$. Fraksi mol benzena dalam fase uap adalah $Y_B = \\frac{P_B}{P_{\\text{total}}} = \\frac{24}{48} = 0{,}50$ (uap menjadi lebih kaya akan komponen yang lebih volatil / titik didih lebih rendah)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}50$ (atau $50\\%$), karena fraksi mol benzena dalam fase cair adalah $X_B = \\frac{1}{1 + 3} = 0{,}25$ dan toluena $X_T = \\frac{3}{4} = 0{,}75$. Menurut Hukum Raoult: tekanan parsial benzena $P_B = X_B \\cdot P_B^\\circ = 0{,}25 \\times 96 = 24\\text{ mmHg}$ dan toluena $P_T = X_T \\cdot P_T^\\circ = 0{,}75 \\times 32 = 24\\text{ mmHg}$. Tekanan total adalah $P_{\\text{total}} = P_B + P_T = 24 + 24 = 48\\text{ mmHg}$. Fraksi mol benzena dalam fase uap adalah $Y_B = \\frac{P_B}{P_{\\text{total}}} = \\frac{24}{48} = 0{,}50$ (uap menjadi lebih kaya akan komponen yang lebih volatil / titik didih lebih rendah).. Fraksi mol cair: XB = 1/4 = 0,25, XT = 3/4 = 0,75. Tekanan parsial: PB = 0,25 * 96 = 24 mmHg, PT = 0,75 * 32 = 24 mmHg. P_total = 24 + 24 = 48 mmHg. Fraksi mol uap: YB = PB / P_total = 24 / 48 = 0,50. P_total = 48 mmHg, YB = 0,50."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $P_{\\text{total}} = 48\\text{ mmHg}$ dan $Y_B = 0{,}50$ (atau $50\\%$), karena fraksi mol benzena dalam fase cair adalah $X_B = \\frac{1}{1 + 3} = 0{,}25$ dan toluena $X_T = \\frac{3}{4} = 0{,}75$. Menurut Hukum Raoult: tekanan parsial benzena $P_B = X_B \\cdot P_B^\\circ = 0{,}25 \\times 96 = 24\\text{ mmHg}$ dan toluena $P_T = X_T \\cdot P_T^\\circ = 0{,}75 \\times 32 = 24\\text{ mmHg}$. Tekanan total adalah $P_{\\text{total}} = P_B + P_T = 24 + 24 = 48\\text{ mmHg}$. Fraksi mol benzena dalam fase uap adalah $Y_B = \\frac{P_B}{P_{\\text{total}}} = \\frac{24}{48} = 0{,}50$ (uap menjadi lebih kaya akan komponen yang lebih volatil / titik didih lebih rendah).. Fraksi mol cair: XB = 1/4 = 0,25, XT = 3/4 = 0,75. Tekanan parsial: PB = 0,25 * 96 = 24 mmHg, PT = 0,75 * 32 = 24 mmHg. P_total = 24 + 24 = 48 mmHg. Fraksi mol uap: YB = PB / P_total = 24 / 48 = 0,50. P_total = 48 mmHg, YB = 0,50."
   },
   {
     "id": "kim-lat-h-25",
@@ -3203,11 +3204,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$DP = 50$, karena menganggap satu unit berulang berasal dari dua rantai polimer terpisah diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$DP = 200$, dihitung dari penjumlahan jumlah atom karbon dalam kedua monomer pembentuk."
       },
       {
         "key": "B",
-        "text": "$DP = 200$, dihitung dari penjumlahan jumlah atom karbon dalam kedua monomer pembentuk."
+        "text": "$DP = 50$, karena menganggap satu unit berulang berasal dari dua rantai polimer terpisah."
       },
       {
         "key": "C",
@@ -3215,15 +3216,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$DP = 1.000$, dihitung dari pembagian massa polimer dengan massa molar gas hidrogen sampingan."
+        "text": "$DP = 100$, karena derajat polimerisasi menyatakan jumlah unit berulang monomerik yang menyusun satu rantai makromolekul polimer, yang dihitung dari perbandingan massa molar total polimer terhadap massa molar satu unit berulang: $DP = \\frac{M_n}{M_r\\text{ (unit berulang)}} = \\frac{22.600\\text{ g/mol}}{226\\text{ g/mol}} = 100$."
       },
       {
         "key": "E",
-        "text": "$DP = 100$, karena derajat polimerisasi menyatakan jumlah unit berulang monomerik yang menyusun satu rantai makromolekul polimer, yang dihitung dari perbandingan massa molar total polimer terhadap massa molar satu unit berulang: $DP = \\frac{M_n}{M_r\\text{ (unit berulang)}} = \\frac{22.600\\text{ g/mol}}{226\\text{ g/mol}} = 100$."
+        "text": "$DP = 1.000$, dihitung dari pembagian massa polimer dengan massa molar gas hidrogen sampingan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $DP = 100$, karena derajat polimerisasi menyatakan jumlah unit berulang monomerik yang menyusun satu rantai makromolekul polimer, yang dihitung dari perbandingan massa molar total polimer terhadap massa molar satu unit berulang: $DP = \\frac{M_n}{M_r\\text{ (unit berulang)}} = \\frac{22.600\\text{ g/mol}}{226\\text{ g/mol}} = 100$.. Derajat polimerisasi (DP) = Massa molar polimer (Mn) / Massa molar unit berulang (M0). DP = 22.600 / 226 = 100."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $DP = 100$, karena derajat polimerisasi menyatakan jumlah unit berulang monomerik yang menyusun satu rantai makromolekul polimer, yang dihitung dari perbandingan massa molar total polimer terhadap massa molar satu unit berulang: $DP = \\frac{M_n}{M_r\\text{ (unit berulang)}} = \\frac{22.600\\text{ g/mol}}{226\\text{ g/mol}} = 100$.. Derajat polimerisasi (DP) = Massa molar polimer (Mn) / Massa molar unit berulang (M0). DP = 22.600 / 226 = 100."
   },
   {
     "id": "kim-sim-01",
@@ -3246,15 +3247,15 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$U_{\\text{kisi}} = -787\\text{ kJ/mol}$, karena menurut Hukum Hess pada siklus Born-Haber, $\\Delta H_f^\\circ = \\Delta H_{\\text{sub}} + IE_1 + \\frac{1}{2}D(\\text{Cl}_2) + EA + U_{\\text{kisi}}$. Maka $-411 = +108 + 496 + \\frac{1}{2}(242) + (-349) + U_{\\text{kisi}} = 108 + 496 + 121 - 349 + U_{\\text{kisi}} = +376 + U_{\\text{kisi}}$, sehingga $U_{\\text{kisi}} = -411 - 376 = -787\\text{ kJ/mol}$."
+        "text": "$U_{\\text{kisi}} = -908\\text{ kJ/mol}$, akibat lupa mengalikan disosiasi ikatan gas klorin dengan koefisien setengah pada pembentukan satu mol atom Cl."
       },
       {
         "key": "B",
-        "text": "$U_{\\text{kisi}} = -908\\text{ kJ/mol}$, akibat lupa mengalikan disosiasi ikatan gas klorin dengan koefisien setengah pada pembentukan satu mol atom Cl sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$U_{\\text{kisi}} = -438\\text{ kJ/mol}$, dihitung dengan memperlakukan nilai afinitas elektron klorin sebagai proses endotermik bertanda positif."
       },
       {
         "key": "C",
-        "text": "$U_{\\text{kisi}} = -438\\text{ kJ/mol}$, dihitung dengan memperlakukan nilai afinitas elektron klorin sebagai proses endotermik bertanda positif."
+        "text": "$U_{\\text{kisi}} = -666\\text{ kJ/mol}$, akibat salah mengurangkan energi ionisasi natrium dari nilai entalpi pembentukan kristal."
       },
       {
         "key": "D",
@@ -3262,11 +3263,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$U_{\\text{kisi}} = -666\\text{ kJ/mol}$, akibat salah mengurangkan energi ionisasi natrium dari nilai entalpi pembentukan kristal."
+        "text": "$U_{\\text{kisi}} = -787\\text{ kJ/mol}$, karena menurut Hukum Hess pada siklus Born-Haber, $\\Delta H_f^\\circ = \\Delta H_{\\text{sub}} + IE_1 + \\frac{1}{2}D(\\text{Cl}_2) + EA + U_{\\text{kisi}}$. Maka $-411 = +108 + 496 + \\frac{1}{2}(242) + (-349) + U_{\\text{kisi}} = 108 + 496 + 121 - 349 + U_{\\text{kisi}} = +376 + U_{\\text{kisi}}$, sehingga $U_{\\text{kisi}} = -411 - 376 = -787\\text{ kJ/mol}$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $U_{\\text{kisi}} = -787\\text{ kJ/mol}$, karena menurut Hukum Hess pada siklus Born-Haber, $\\Delta H_f^\\circ = \\Delta H_{\\text{sub}} + IE_1 + \\frac{1}{2}D(\\text{Cl}_2) + EA + U_{\\text{kisi}}$. Maka $-411 = +108 + 496 + \\frac{1}{2}(242) + (-349) + U_{\\text{kisi}} = 108 + 496 + 121 - 349 + U_{\\text{kisi}} = +376 + U_{\\text{kisi}}$, sehingga $U_{\\text{kisi}} = -411 - 376 = -787\\text{ kJ/mol}$.. Gunakan Hukum Hess pada siklus Born-Haber: Delta Hf = Delta Hsub + IE1 + 0.5*D(Cl2) + EA + U_kisi. Perhatikan bahwa hanya dibutuhkan 1 mol atom Cl(g), jadi disosiasi Cl2 dikalikan 1/2. Jumlahkan: 108 + 496 + 121 - 349 = 376 kJ/mol. Maka U_kisi = -411 - 376 = -787 kJ/mol."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $U_{\\text{kisi}} = -787\\text{ kJ/mol}$, karena menurut Hukum Hess pada siklus Born-Haber, $\\Delta H_f^\\circ = \\Delta H_{\\text{sub}} + IE_1 + \\frac{1}{2}D(\\text{Cl}_2) + EA + U_{\\text{kisi}}$. Maka $-411 = +108 + 496 + \\frac{1}{2}(242) + (-349) + U_{\\text{kisi}} = 108 + 496 + 121 - 349 + U_{\\text{kisi}} = +376 + U_{\\text{kisi}}$, sehingga $U_{\\text{kisi}} = -411 - 376 = -787\\text{ kJ/mol}$.. Gunakan Hukum Hess pada siklus Born-Haber: Delta Hf = Delta Hsub + IE1 + 0.5*D(Cl2) + EA + U_kisi. Perhatikan bahwa hanya dibutuhkan 1 mol atom Cl(g), jadi disosiasi Cl2 dikalikan 1/2. Jumlahkan: 108 + 496 + 121 - 349 = 376 kJ/mol. Maka U_kisi = -411 - 376 = -787 kJ/mol."
   },
   {
     "id": "kim-sim-02",
@@ -3289,27 +3290,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$r = k_2 [\\text{O}_3][\\text{O}_2]$, karena mengabaikan kesetimbangan tahap pertama dan hanya menuliskan perkalian konsentrasi produk stabil sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "B",
-        "text": "$r = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$, karena pada keadaan tunak laju pembentukan radikal $[\\text{O}]$ sama dengan laju konsumsinya: $\\frac{d[\\text{O}]}{dt} = k_1 [\\text{O}_3] - k_{-1} [\\text{O}_2][\\text{O}] - k_2 [\\text{O}_3][\\text{O}] = 0 \\implies [\\text{O}] = \\frac{k_1 [\\text{O}_3]}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$. Substitusi ke laju penguraian netral: $-\\frac{d[\\text{O}_3]}{dt} = k_1 [\\text{O}_3] - k_{-1}[\\text{O}_2][\\text{O}] + k_2[\\text{O}_3][\\text{O}] = 2 k_2 [\\text{O}_3][\\text{O}] = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$."
-      },
-      {
-        "key": "C",
         "text": "$r = \\frac{k_1 [\\text{O}_3]}{k_{-1} [\\text{O}_2]}$, yang hanya merupakan ungkapan tetapan kesetimbangan parsial konsentrasi tahap pertama."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$r = 2 k_2 [\\text{O}_3]^2$, yang mengasumsikan radikal oksigen terbentuk secara stoikiometrik tanpa reaksi balik dengan oksigen molekuler."
+      },
+      {
+        "key": "C",
         "text": "$r = k_1 k_2 [\\text{O}_3]^2 [\\text{O}_2]^{-2}$, akibat salah mengkuadratkan ketergantungan balik gas oksigen."
       },
       {
+        "key": "D",
+        "text": "$r = k_2 [\\text{O}_3][\\text{O}_2]$, karena mengabaikan kesetimbangan tahap pertama dan hanya menuliskan perkalian konsentrasi produk stabil."
+      },
+      {
         "key": "E",
-        "text": "$r = 2 k_2 [\\text{O}_3]^2$, yang mengasumsikan radikal oksigen terbentuk secara stoikiometrik tanpa reaksi balik dengan oksigen molekuler."
+        "text": "$r = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$, karena pada keadaan tunak laju pembentukan radikal $[\\text{O}]$ sama dengan laju konsumsinya: $\\frac{d[\\text{O}]}{dt} = k_1 [\\text{O}_3] - k_{-1} [\\text{O}_2][\\text{O}] - k_2 [\\text{O}_3][\\text{O}] = 0 \\implies [\\text{O}] = \\frac{k_1 [\\text{O}_3]}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$. Substitusi ke laju penguraian netral: $-\\frac{d[\\text{O}_3]}{dt} = k_1 [\\text{O}_3] - k_{-1}[\\text{O}_2][\\text{O}] + k_2[\\text{O}_3][\\text{O}] = 2 k_2 [\\text{O}_3][\\text{O}] = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $r = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$, karena pada keadaan tunak laju pembentukan radikal $[\\text{O}]$ sama dengan laju konsumsinya: $\\frac{d[\\text{O}]}{dt} = k_1 [\\text{O}_3] - k_{-1} [\\text{O}_2][\\text{O}] - k_2 [\\text{O}_3][\\text{O}] = 0 \\implies [\\text{O}] = \\frac{k_1 [\\text{O}_3]}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$. Substitusi ke laju penguraian netral: $-\\frac{d[\\text{O}_3]}{dt} = k_1 [\\text{O}_3] - k_{-1}[\\text{O}_2][\\text{O}] + k_2[\\text{O}_3][\\text{O}] = 2 k_2 [\\text{O}_3][\\text{O}] = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$.. Pada steady-state: d[O]/dt = 0, sehingga laju pembentukan O pada tahap 1 sama dengan laju reaksi balik tahap 1 ditambah laju konsumsi pada tahap 2. Dapatkan [O] = k1[O3] / (k-1[O2] + k2[O3]), lalu substitusikan ke laju konsumsi O3 yaitu 2*k2*[O3]*[O]."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $r = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$, karena pada keadaan tunak laju pembentukan radikal $[\\text{O}]$ sama dengan laju konsumsinya: $\\frac{d[\\text{O}]}{dt} = k_1 [\\text{O}_3] - k_{-1} [\\text{O}_2][\\text{O}] - k_2 [\\text{O}_3][\\text{O}] = 0 \\implies [\\text{O}] = \\frac{k_1 [\\text{O}_3]}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$. Substitusi ke laju penguraian netral: $-\\frac{d[\\text{O}_3]}{dt} = k_1 [\\text{O}_3] - k_{-1}[\\text{O}_2][\\text{O}] + k_2[\\text{O}_3][\\text{O}] = 2 k_2 [\\text{O}_3][\\text{O}] = \\frac{2 k_1 k_2 [\\text{O}_3]^2}{k_{-1} [\\text{O}_2] + k_2 [\\text{O}_3]}$.. Pada steady-state: d[O]/dt = 0, sehingga laju pembentukan O pada tahap 1 sama dengan laju reaksi balik tahap 1 ditambah laju konsumsi pada tahap 2. Dapatkan [O] = k1[O3] / (k-1[O2] + k2[O3]), lalu substitusikan ke laju konsumsi O3 yaitu 2*k2*[O3]*[O]."
   },
   {
     "id": "kim-sim-03",
@@ -3332,7 +3333,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pada suhu kamar reaksi bersifat endotermik sehingga membutuhkan pasokan kalor kontinu yang sangat mahal untuk menggerakkan turbin kompresor ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Katalis besi baru mulai meleleh dan aktif mengikat gas hidrogen pada suhu di atas $600^\\circ\\text{C}$ sehingga suhu kamar tidak fungsional."
       },
       {
         "key": "B",
@@ -3348,7 +3349,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Katalis besi baru mulai meleleh dan aktif mengikat gas hidrogen pada suhu di atas $600^\\circ\\text{C}$ sehingga suhu kamar tidak fungsional."
+        "text": "Pada suhu kamar reaksi bersifat endotermik sehingga membutuhkan pasokan kalor kontinu yang sangat mahal untuk menggerakkan turbin kompresor ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       }
     ],
     "correctKey": "C",
@@ -3375,27 +3376,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Spesi dominan berupa ion $\\text{PO}_4^{3-}$ dengan $pH = 12{,}38$, karena titran basa kuat telah ditambahkan berlebih melampaui volume asam awal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "Spesi dominan berupa ion $\\text{PO}_4^{3-}$ dengan $pH = 12{,}38$, karena titran basa kuat telah ditambahkan berlebih melampaui volume asam awal menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "B",
-        "text": "Spesi dominan berupa molekul $\\text{H}_3\\text{PO}_4$ tak terdisosiasi dengan $pH = 2{,}12$, karena asam fosfat merupakan asam lemah bertingkat tiga."
-      },
-      {
-        "key": "C",
-        "text": "Spesi dominan berupa ion amfiprotik tunggal $\\text{H}_2\\text{PO}_4^-$ dengan $pH = 4{,}67$, dihitung dari rata-rata akar tetapan disosiasi pertama dan kedua."
-      },
-      {
-        "key": "D",
         "text": "Spesi dominan berupa campuran ekivalen $[\\text{H}_2\\text{PO}_4^-] = [\\text{HPO}_4^{2-}]$ dengan $pH = 7{,}21$, karena $25\\text{ mL}$ pertama $\\text{NaOH}$ telah sempurna mengubah $\\text{H}_3\\text{PO}_4$ menjadi $\\text{H}_2\\text{PO}_4^-$, dan penambahan $12{,}5\\text{ mL}$ berikutnya tepat menetralkan separuh mol $\\text{H}_2\\text{PO}_4^-$ membentuk buffer equimolar dengan $pH = pK_{a2} = -\\log(6{,}2 \\times 10^{-8}) = 7{,}21$."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Spesi dominan berupa endapan garam natrium fosfat netral dengan $pH = 7{,}00$ tepat seperti titrasi asam-basa kuat."
+      },
+      {
+        "key": "D",
+        "text": "Spesi dominan berupa ion amfiprotik tunggal $\\text{H}_2\\text{PO}_4^-$ dengan $pH = 4{,}67$, dihitung dari rata-rata akar tetapan disosiasi pertama dan kedua."
+      },
+      {
+        "key": "E",
+        "text": "Spesi dominan berupa molekul $\\text{H}_3\\text{PO}_4$ tak terdisosiasi dengan $pH = 2{,}12$, karena asam fosfat merupakan asam lemah bertingkat tiga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Spesi dominan berupa campuran ekivalen $[\\text{H}_2\\text{PO}_4^-] = [\\text{HPO}_4^{2-}]$ dengan $pH = 7{,}21$, karena $25\\text{ mL}$ pertama $\\text{NaOH}$ telah sempurna mengubah $\\text{H}_3\\text{PO}_4$ menjadi $\\text{H}_2\\text{PO}_4^-$, dan penambahan $12{,}5\\text{ mL}$ berikutnya tepat menetralkan separuh mol $\\text{H}_2\\text{PO}_4^-$ membentuk buffer equimolar dengan $pH = pK_{a2} = -\\log(6{,}2 \\times 10^{-8}) = 7{,}21$.. V = 37.5 mL berada tepat di tengah-tengah antara TE 1 (25 mL) dan TE 2 (50 mL). Ini adalah titik setengah netralisasi tahap kedua, di mana [H2PO4-] = [HPO4(2-)]. Berdasarkan persamaan Henderson-Hasselbalch tahap 2: pH = pKa2 + log(1) = -log(6,2 x 10^-8) = 7,21."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Spesi dominan berupa campuran ekivalen $[\\text{H}_2\\text{PO}_4^-] = [\\text{HPO}_4^{2-}]$ dengan $pH = 7{,}21$, karena $25\\text{ mL}$ pertama $\\text{NaOH}$ telah sempurna mengubah $\\text{H}_3\\text{PO}_4$ menjadi $\\text{H}_2\\text{PO}_4^-$, dan penambahan $12{,}5\\text{ mL}$ berikutnya tepat menetralkan separuh mol $\\text{H}_2\\text{PO}_4^-$ membentuk buffer equimolar dengan $pH = pK_{a2} = -\\log(6{,}2 \\times 10^{-8}) = 7{,}21$.. V = 37.5 mL berada tepat di tengah-tengah antara TE 1 (25 mL) dan TE 2 (50 mL). Ini adalah titik setengah netralisasi tahap kedua, di mana [H2PO4-] = [HPO4(2-)]. Berdasarkan persamaan Henderson-Hasselbalch tahap 2: pH = pKa2 + log(1) = -log(6,2 x 10^-8) = 7,21."
   },
   {
     "id": "kim-sim-05",
@@ -3418,27 +3419,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$pH = 6{,}70$, akibat salah mengurangkan nilai logaritma dari nilai pKa sistem buffer diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$pH = 6{,}70$, akibat salah mengurangkan nilai logaritma dari nilai pKa sistem buffer."
       },
       {
         "key": "B",
-        "text": "$pH = 7{,}40$, karena menganggap sistem penyangga mampu meniadakan 100% perubahan asam laktat tanpa pergeseran rasio ion sama sekali."
+        "text": "$pH = 7{,}10$ (mengalami asidosis metabolik terkompensasi parsial), karena menurut persamaan Henderson-Hasselbalch klinis: $pH = pK_a' + \\log\\frac{[\\text{HCO}_3^-]}{[\\text{CO}_2]} = 6{,}10 + \\log\\frac{12}{1{,}2} = 6{,}10 + \\log(10) = 6{,}10 + 1{,}00 = 7{,}10$."
       },
       {
         "key": "C",
-        "text": "$pH = 7{,}70$, dihitung dengan membalik perbandingan konsentrasi asam terlarut terhadap basa konjugasi."
-      },
-      {
-        "key": "D",
         "text": "$pH = 6{,}10$, karena mengira seluruh bikarbonat habis bereaksi sehingga pH sama persis dengan nilai pKa murni."
       },
       {
+        "key": "D",
+        "text": "$pH = 7{,}70$, dihitung dengan membalik perbandingan konsentrasi asam terlarut terhadap basa konjugasi."
+      },
+      {
         "key": "E",
-        "text": "$pH = 7{,}10$ (mengalami asidosis metabolik terkompensasi parsial), karena menurut persamaan Henderson-Hasselbalch klinis: $pH = pK_a' + \\log\\frac{[\\text{HCO}_3^-]}{[\\text{CO}_2]} = 6{,}10 + \\log\\frac{12}{1{,}2} = 6{,}10 + \\log(10) = 6{,}10 + 1{,}00 = 7{,}10$."
+        "text": "$pH = 7{,}40$, karena menganggap sistem penyangga mampu meniadakan 100% perubahan asam laktat tanpa pergeseran rasio ion sama sekali."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $pH = 7{,}10$ (mengalami asidosis metabolik terkompensasi parsial), karena menurut persamaan Henderson-Hasselbalch klinis: $pH = pK_a' + \\log\\frac{[\\text{HCO}_3^-]}{[\\text{CO}_2]} = 6{,}10 + \\log\\frac{12}{1{,}2} = 6{,}10 + \\log(10) = 6{,}10 + 1{,}00 = 7{,}10$.. Gunakan persamaan Henderson-Hasselbalch klinis: pH = pKa' + log([HCO3-] / [CO2]). Masukkan konsentrasi akhir. pH = 6,10 + log(12 / 1,2) = 6,10 + log(10) = 6,10 + 1,00 = 7,10."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $pH = 7{,}10$ (mengalami asidosis metabolik terkompensasi parsial), karena menurut persamaan Henderson-Hasselbalch klinis: $pH = pK_a' + \\log\\frac{[\\text{HCO}_3^-]}{[\\text{CO}_2]} = 6{,}10 + \\log\\frac{12}{1{,}2} = 6{,}10 + \\log(10) = 6{,}10 + 1{,}00 = 7{,}10$.. Gunakan persamaan Henderson-Hasselbalch klinis: pH = pKa' + log([HCO3-] / [CO2]). Masukkan konsentrasi akhir. pH = 6,10 + log(12 / 1,2) = 6,10 + log(10) = 6,10 + 1,00 = 7,10."
   },
   {
     "id": "kim-sim-06",
@@ -3461,11 +3462,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$[\\text{H}^+] > 7{,}07 \\times 10^{-1}\\text{ M}$ (atau $pH < 0{,}15$), karena agar $\\text{ZnS}$ tidak mengendap, syaratnya $Q_{sp}[\\text{ZnS}] = [\\text{Zn}^{2+}][\\text{S}^{2-}] < K_{sp}[\\text{ZnS}] \\implies [\\text{S}^{2-}] < \\frac{2{,}0 \\times 10^{-22}}{0{,}01} = 2{,}0 \\times 10^{-20}\\text{ M}$. Dari kesetimbangan disosiasi asam sulfida: $[\\text{S}^{2-}] = \\frac{K_{a1}K_{a2}[\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} = \\frac{10^{-20} \\times 0{,}10}{[\\text{H}^+]^2} = \\frac{10^{-21}}{[\\text{H}^+]^2}$. Syarat tak mengendap: $\\frac{10^{-21}}{[\\text{H}^+]^2} < 2{,}0 \\times 10^{-20} \\implies [\\text{H}^+]^2 > 0{,}05 \\implies [\\text{H}^+] > 0{,}22\\text{ M}$. Sementara pada kondisi ini $[\\text{S}^{2-}] \\approx 10^{-20}\\text{ M}$ jauh melampaui $K_{sp}[\\text{CuS}]$ ($Q_{sp} = 10^{-22} \\gg 6 \\times 10^{-36}$) sehingga $\\text{CuS}$ mengendap tuntas."
+        "text": "$[\\text{H}^+] < 10^{-4}\\text{ M}$, karena konsentrasi sulfida bebas akan terlalu besar dan memicu kopresipitasi seng sulfida."
       },
       {
         "key": "B",
-        "text": "$[\\text{H}^+] < 10^{-7}\\text{ M}$ ($pH > 7$), karena pada kondisi basa kedua ion akan mengendap bersamaan sehingga pemisahan gagal total sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$[\\text{H}^+] = 10^{-10}\\text{ M}$, karena larutan asam kuat tidak mampu mendisosiasikan tembaga sulfida."
       },
       {
         "key": "C",
@@ -3473,15 +3474,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$[\\text{H}^+] < 10^{-4}\\text{ M}$, karena konsentrasi sulfida bebas akan terlalu besar dan memicu kopresipitasi seng sulfida."
+        "text": "$[\\text{H}^+] < 10^{-7}\\text{ M}$ ($pH > 7$), karena pada kondisi basa kedua ion akan mengendap bersamaan sehingga pemisahan gagal total."
       },
       {
         "key": "E",
-        "text": "$[\\text{H}^+] = 10^{-10}\\text{ M}$, karena larutan asam kuat tidak mampu mendisosiasikan tembaga sulfida."
+        "text": "$[\\text{H}^+] > 7{,}07 \\times 10^{-1}\\text{ M}$ (atau $pH < 0{,}15$), karena agar $\\text{ZnS}$ tidak mengendap, syaratnya $Q_{sp}[\\text{ZnS}] = [\\text{Zn}^{2+}][\\text{S}^{2-}] < K_{sp}[\\text{ZnS}] \\implies [\\text{S}^{2-}] < \\frac{2{,}0 \\times 10^{-22}}{0{,}01} = 2{,}0 \\times 10^{-20}\\text{ M}$. Dari kesetimbangan disosiasi asam sulfida: $[\\text{S}^{2-}] = \\frac{K_{a1}K_{a2}[\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} = \\frac{10^{-20} \\times 0{,}10}{[\\text{H}^+]^2} = \\frac{10^{-21}}{[\\text{H}^+]^2}$. Syarat tak mengendap: $\\frac{10^{-21}}{[\\text{H}^+]^2} < 2{,}0 \\times 10^{-20} \\implies [\\text{H}^+]^2 > 0{,}05 \\implies [\\text{H}^+] > 0{,}22\\text{ M}$. Sementara pada kondisi ini $[\\text{S}^{2-}] \\approx 10^{-20}\\text{ M}$ jauh melampaui $K_{sp}[\\text{CuS}]$ ($Q_{sp} = 10^{-22} \\gg 6 \\times 10^{-36}$) sehingga $\\text{CuS}$ mengendap tuntas."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $[\\text{H}^+] > 7{,}07 \\times 10^{-1}\\text{ M}$ (atau $pH < 0{,}15$), karena agar $\\text{ZnS}$ tidak mengendap, syaratnya $Q_{sp}[\\text{ZnS}] = [\\text{Zn}^{2+}][\\text{S}^{2-}] < K_{sp}[\\text{ZnS}] \\implies [\\text{S}^{2-}] < \\frac{2{,}0 \\times 10^{-22}}{0{,}01} = 2{,}0 \\times 10^{-20}\\text{ M}$. Dari kesetimbangan disosiasi asam sulfida: $[\\text{S}^{2-}] = \\frac{K_{a1}K_{a2}[\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} = \\frac{10^{-20} \\times 0{,}10}{[\\text{H}^+]^2} = \\frac{10^{-21}}{[\\text{H}^+]^2}$. Syarat tak mengendap: $\\frac{10^{-21}}{[\\text{H}^+]^2} < 2{,}0 \\times 10^{-20} \\implies [\\text{H}^+]^2 > 0{,}05 \\implies [\\text{H}^+] > 0{,}22\\text{ M}$. Sementara pada kondisi ini $[\\text{S}^{2-}] \\approx 10^{-20}\\text{ M}$ jauh melampaui $K_{sp}[\\text{CuS}]$ ($Q_{sp} = 10^{-22} \\gg 6 \\times 10^{-36}$) sehingga $\\text{CuS}$ mengendap tuntas.. Hitung [S(2-)] maksimum agar ZnS tidak mengendap: [S(2-)] < Ksp(ZnS)/[Zn2+]. Lalu hubungkan dengan kesetimbangan asam H2S: [S2-] = (Ka1Ka2 * [H2S]) / [H+]^2. [S2-] < 2 x 10^-20 M. Maka [H+]^2 > (10^-20 * 0,1) / (2 x 10^-20) = 0,05 -> [H+] > 0,22 M (suasana asam pekat, pH rendah)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $[\\text{H}^+] > 7{,}07 \\times 10^{-1}\\text{ M}$ (atau $pH < 0{,}15$), karena agar $\\text{ZnS}$ tidak mengendap, syaratnya $Q_{sp}[\\text{ZnS}] = [\\text{Zn}^{2+}][\\text{S}^{2-}] < K_{sp}[\\text{ZnS}] \\implies [\\text{S}^{2-}] < \\frac{2{,}0 \\times 10^{-22}}{0{,}01} = 2{,}0 \\times 10^{-20}\\text{ M}$. Dari kesetimbangan disosiasi asam sulfida: $[\\text{S}^{2-}] = \\frac{K_{a1}K_{a2}[\\text{H}_2\\text{S}]}{[\\text{H}^+]^2} = \\frac{10^{-20} \\times 0{,}10}{[\\text{H}^+]^2} = \\frac{10^{-21}}{[\\text{H}^+]^2}$. Syarat tak mengendap: $\\frac{10^{-21}}{[\\text{H}^+]^2} < 2{,}0 \\times 10^{-20} \\implies [\\text{H}^+]^2 > 0{,}05 \\implies [\\text{H}^+] > 0{,}22\\text{ M}$. Sementara pada kondisi ini $[\\text{S}^{2-}] \\approx 10^{-20}\\text{ M}$ jauh melampaui $K_{sp}[\\text{CuS}]$ ($Q_{sp} = 10^{-22} \\gg 6 \\times 10^{-36}$) sehingga $\\text{CuS}$ mengendap tuntas.. Hitung [S(2-)] maksimum agar ZnS tidak mengendap: [S(2-)] < Ksp(ZnS)/[Zn2+]. Lalu hubungkan dengan kesetimbangan asam H2S: [S2-] = (Ka1Ka2 * [H2S]) / [H+]^2. [S2-] < 2 x 10^-20 M. Maka [H+]^2 > (10^-20 * 0,1) / (2 x 10^-20) = 0,05 -> [H+] > 0,22 M (suasana asam pekat, pH rendah)."
   },
   {
     "id": "kim-sim-07",
@@ -3504,27 +3505,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$i_{\\text{eksp}} = 2{,}00$; garam magnesium sulfat selalu terdisosiasi sempurna 100% tanpa adanya interaksi elektrostatik ionik dalam air sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "B",
-        "text": "$i_{\\text{eksp}} = 1{,}40$; nilai $i < 2$ disebabkan oleh pembentukan pasangan ion ($\\textit{ion-pairing}$) antarion bivalen bermuatan tinggi ($\\text{Mg}^{2+}$ dan $\\text{SO}_4^{2-}$) akibat gaya tarik elektrostatik antarion menurut teori Debye-Hückel sehingga jumlah partikel kinetik bebas berkurang."
-      },
-      {
-        "key": "C",
         "text": "$i_{\\text{eksp}} = 0{,}70$; ion magnesium mengalami polimerisasi kovalen membentuk rantai makromolekul padat dalam larutan encer."
       },
       {
+        "key": "B",
+        "text": "$i_{\\text{eksp}} = 2{,}00$; garam magnesium sulfat selalu terdisosiasi sempurna 100% tanpa adanya interaksi elektrostatik ionik dalam air."
+      },
+      {
+        "key": "C",
+        "text": "$i_{\\text{eksp}} = 1{,}40$; nilai $i < 2$ disebabkan oleh pembentukan pasangan ion ($\\textit{ion-pairing}$) antarion bivalen bermuatan tinggi ($\\text{Mg}^{2+}$ dan $\\text{SO}_4^{2-}$) akibat gaya tarik elektrostatik antarion menurut teori Debye-Hückel sehingga jumlah partikel kinetik bebas berkurang."
+      },
+      {
         "key": "D",
-        "text": "$i_{\\text{eksp}} = 2{,}80$; terjadi hidrolisis total yang menghasilkan tambahan ion hidrogen dan hidroksida berlipat ganda dalam air."
+        "text": "$i_{\\text{eksp}} = 1{,}00$; magnesium sulfat tidak larut dalam air sehingga berperilaku seperti senyawa non-elektrolit murni."
       },
       {
         "key": "E",
-        "text": "$i_{\\text{eksp}} = 1{,}00$; magnesium sulfat tidak larut dalam air sehingga berperilaku seperti senyawa non-elektrolit murni."
+        "text": "$i_{\\text{eksp}} = 2{,}80$; terjadi hidrolisis total yang menghasilkan tambahan ion hidrogen dan hidroksida berlipat ganda dalam air."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $i_{\\text{eksp}} = 1{,}40$; nilai $i < 2$ disebabkan oleh pembentukan pasangan ion ($\\textit{ion-pairing}$) antarion bivalen bermuatan tinggi ($\\text{Mg}^{2+}$ dan $\\text{SO}_4^{2-}$) akibat gaya tarik elektrostatik antarion menurut teori Debye-Hückel sehingga jumlah partikel kinetik bebas berkurang.. Hitung faktor van 't Hoff dari data penurunan titik beku terukur: i = Delta Tf / (m * Kf). Pahami interaksi Debye-Huckel untuk ion bermuatan ganda. i = 0,130 / (0,05 * 1,86) = 0,130 / 0,093 = 1,40. Kation Mg(2+) dan anion SO4(2-) saling berpasangan (ion pair)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $i_{\\text{eksp}} = 1{,}40$; nilai $i < 2$ disebabkan oleh pembentukan pasangan ion ($\\textit{ion-pairing}$) antarion bivalen bermuatan tinggi ($\\text{Mg}^{2+}$ dan $\\text{SO}_4^{2-}$) akibat gaya tarik elektrostatik antarion menurut teori Debye-Hückel sehingga jumlah partikel kinetik bebas berkurang.. Hitung faktor van 't Hoff dari data penurunan titik beku terukur: i = Delta Tf / (m * Kf). Pahami interaksi Debye-Huckel untuk ion bermuatan ganda. i = 0,130 / (0,05 * 1,86) = 0,130 / 0,093 = 1,40. Kation Mg(2+) dan anion SO4(2-) saling berpasangan (ion pair)."
   },
   {
     "id": "kim-sim-08",
@@ -3547,11 +3548,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Di anoda terjadi reduksi logam litium cair menjadi endapan litium oksida pejal yang menyerap elektron dari sirkuit luar ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+        "text": "Di katoda terjadi dekomposisi elektrolit organik menjadi gas hidrogen dan gas oksigen bertekanan tinggi."
       },
       {
         "key": "B",
-        "text": "Di katoda terjadi dekomposisi elektrolit organik menjadi gas hidrogen dan gas oksigen bertekanan tinggi."
+        "text": "Di anoda terjadi pengendapan kristal garam litium karbonat padat yang mengisolasi aliran arus listrik secara permanen."
       },
       {
         "key": "C",
@@ -3563,7 +3564,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Di anoda terjadi pengendapan kristal garam litium karbonat padat yang mengisolasi aliran arus listrik secara permanen."
+        "text": "Di anoda terjadi reduksi logam litium cair menjadi endapan litium oksida pejal yang menyerap elektron dari sirkuit luar ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       }
     ],
     "correctKey": "C",
@@ -3590,27 +3591,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kriolit bertindak sebagai zat pengoksidasi kuat ion aluminium; anoda karbon aus akibat terkorosi oleh asam sulfat pekat yang dihasilkan reaksi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
         "text": "Kriolit mencegah pembentukan gas fluorin beracun; anoda karbon meleleh karena suhu busur listrik melampaui $4000^\\circ\\text{C}$."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Kriolit menyerap gas karbon dioksida di katoda; anoda karbon menyublim secara spontan menjadi intan kristalin."
       },
       {
+        "key": "C",
+        "text": "Kriolit berfungsi sebagai sumber ion natrium logam pengganti; anoda karbon hancur akibat gesekan mekanik aliran lelehan logam cair."
+      },
+      {
         "key": "D",
-        "text": "Kriolit berfungsi menurunkan titik leleh alumina dari $\\sim 2050^\\circ\\text{C}$ menjadi $\\sim 950^\\circ\\text{C}$ dan meningkatkan konduktivitas listrik; anoda karbon habis bereaksi karena gas oksigen yang dihasilkan pada anoda bereaksi dengan karbon membentuk gas $\\text{CO}_2$ pada suhu tinggi ($C(s) + O_2(g) \\rightarrow CO_2(g)$)."
+        "text": "Kriolit bertindak sebagai zat pengoksidasi kuat ion aluminium; anoda karbon aus akibat terkorosi oleh asam sulfat pekat yang dihasilkan reaksi menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "E",
-        "text": "Kriolit berfungsi sebagai sumber ion natrium logam pengganti; anoda karbon hancur akibat gesekan mekanik aliran lelehan logam cair."
+        "text": "Kriolit berfungsi menurunkan titik leleh alumina dari $\\sim 2050^\\circ\\text{C}$ menjadi $\\sim 950^\\circ\\text{C}$ dan meningkatkan konduktivitas listrik; anoda karbon habis bereaksi karena gas oksigen yang dihasilkan pada anoda bereaksi dengan karbon membentuk gas $\\text{CO}_2$ pada suhu tinggi ($C(s) + O_2(g) \\rightarrow CO_2(g)$)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kriolit berfungsi menurunkan titik leleh alumina dari $\\sim 2050^\\circ\\text{C}$ menjadi $\\sim 950^\\circ\\text{C}$ dan meningkatkan konduktivitas listrik; anoda karbon habis bereaksi karena gas oksigen yang dihasilkan pada anoda bereaksi dengan karbon membentuk gas $\\text{CO}_2$ pada suhu tinggi ($C(s) + O_2(g) \\rightarrow CO_2(g)$).. Titik leleh Al2O3 murni sangat tinggi (>2000 C). Kriolit menurunkannya ke ~950 C. Di anoda, ion oksida dioksidasi menghasilkan O2 yang langsung membakar karbon anoda menjadi CO2. Pilih opsi yang menjelaskan peran penurunan titik leleh oleh kriolit dan oksidasi anoda karbon menjadi CO2."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Kriolit berfungsi menurunkan titik leleh alumina dari $\\sim 2050^\\circ\\text{C}$ menjadi $\\sim 950^\\circ\\text{C}$ dan meningkatkan konduktivitas listrik; anoda karbon habis bereaksi karena gas oksigen yang dihasilkan pada anoda bereaksi dengan karbon membentuk gas $\\text{CO}_2$ pada suhu tinggi ($C(s) + O_2(g) \\rightarrow CO_2(g)$).. Titik leleh Al2O3 murni sangat tinggi (>2000 C). Kriolit menurunkannya ke ~950 C. Di anoda, ion oksida dioksidasi menghasilkan O2 yang langsung membakar karbon anoda menjadi CO2. Pilih opsi yang menjelaskan peran penurunan titik leleh oleh kriolit dan oksidasi anoda karbon menjadi CO2."
   },
   {
     "id": "kim-sim-10",
@@ -3633,7 +3634,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Molekul $\\text{CH}_4$ memiliki ikatan ionik yang mudah putus, sedangkan molekul $\\text{SiH}_4$ membentuk ikatan kovalen raksasa mirip struktur intan kristal diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Atom $\\text{O}$, $\\text{F}$, dan $\\text{N}$ memiliki elektronegativitas sangat tinggi dan jari-jari atom kecil dengan pasangan elektron bebas sehingga mampu membentuk ikatan hidrogen intermolekul yang sangat kuat; sebaliknya $\\text{CH}_4$ bersifat nonpolar dan atom C tidak memiliki PEB sehingga interaksinya hanya gaya dispersi London yang meningkat seiring ukuran massa molekul ke $\\text{SiH}_4$."
       },
       {
         "key": "B",
@@ -3641,19 +3642,19 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Gaya van der Waals pada $\\text{H}_2\\text{S}$ dan $\\text{HCl}$ lebih kuat daripada $\\text{H}_2\\text{O}$ karena belerang memiliki lebih banyak proton dalam intinya."
-      },
-      {
-        "key": "D",
         "text": "Atom karbon mengalami hibridisasi sp sedangkan atom silikon mengalami hibridisasi sp3d2 dalam senyawa hidridanya."
       },
       {
+        "key": "D",
+        "text": "Molekul $\\text{CH}_4$ memiliki ikatan ionik yang mudah putus, sedangkan molekul $\\text{SiH}_4$ membentuk ikatan kovalen raksasa mirip struktur intan kristal."
+      },
+      {
         "key": "E",
-        "text": "Atom $\\text{O}$, $\\text{F}$, dan $\\text{N}$ memiliki elektronegativitas sangat tinggi dan jari-jari atom kecil dengan pasangan elektron bebas sehingga mampu membentuk ikatan hidrogen intermolekul yang sangat kuat; sebaliknya $\\text{CH}_4$ bersifat nonpolar dan atom C tidak memiliki PEB sehingga interaksinya hanya gaya dispersi London yang meningkat seiring ukuran massa molekul ke $\\text{SiH}_4$."
+        "text": "Gaya van der Waals pada $\\text{H}_2\\text{S}$ dan $\\text{HCl}$ lebih kuat daripada $\\text{H}_2\\text{O}$ karena belerang memiliki lebih banyak proton dalam intinya."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Atom $\\text{O}$, $\\text{F}$, dan $\\text{N}$ memiliki elektronegativitas sangat tinggi dan jari-jari atom kecil dengan pasangan elektron bebas sehingga mampu membentuk ikatan hidrogen intermolekul yang sangat kuat; sebaliknya $\\text{CH}_4$ bersifat nonpolar dan atom C tidak memiliki PEB sehingga interaksinya hanya gaya dispersi London yang meningkat seiring ukuran massa molekul ke $\\text{SiH}_4$.. Ikatan hidrogen intermolekul yang kuat hanya terjadi pada N, O, F karena elektronegativitas tinggi dan ukuran atom kecil. CH4 tidak membentuk ikatan hidrogen karena nonpolar dan tidak ada PEB. Pilih jawaban yang membedakan keberadaan ikatan hidrogen pada H2O/HF/NH3 dengan dominasi gaya dispersi London pada deret hidrida golongan 14."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Atom $\\text{O}$, $\\text{F}$, dan $\\text{N}$ memiliki elektronegativitas sangat tinggi dan jari-jari atom kecil dengan pasangan elektron bebas sehingga mampu membentuk ikatan hidrogen intermolekul yang sangat kuat; sebaliknya $\\text{CH}_4$ bersifat nonpolar dan atom C tidak memiliki PEB sehingga interaksinya hanya gaya dispersi London yang meningkat seiring ukuran massa molekul ke $\\text{SiH}_4$.. Ikatan hidrogen intermolekul yang kuat hanya terjadi pada N, O, F karena elektronegativitas tinggi dan ukuran atom kecil. CH4 tidak membentuk ikatan hidrogen karena nonpolar dan tidak ada PEB. Pilih jawaban yang membedakan keberadaan ikatan hidrogen pada H2O/HF/NH3 dengan dominasi gaya dispersi London pada deret hidrida golongan 14."
   },
   {
     "id": "kim-sim-11",
@@ -3676,11 +3677,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pada isomer $\\textit{cis}$, kedua ligan klorida yang labil terletak berdampingan dengan jarak $\\sim 3{,}3\\text{ Å}$, tepat cocok untuk melakukan koordinasi silang bifungsional intra-untai ($\\textit{intrastrand cross-link}$) pada dua basa nitrogen guanin bersebelahan pada DNA heliks ganda sel kanker sehingga memicu distorsi struktural dan apoptosis sel."
+        "text": "Cisplatin bekerja murni sebagai antioksidan pemulung radikal bebas di dalam sitoplasma sel darah putih normal."
       },
       {
         "key": "B",
-        "text": "Pada isomer $\\textit{trans}$, kedua atom platina saling berikatan membentuk polimer logam berat yang tidak mampu menembus membran sel sama sekali sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Pada isomer $\\textit{cis}$, kedua ligan klorida yang labil terletak berdampingan dengan jarak $\\sim 3{,}3\\text{ Å}$, tepat cocok untuk melakukan koordinasi silang bifungsional intra-untai ($\\textit{intrastrand cross-link}$) pada dua basa nitrogen guanin bersebelahan pada DNA heliks ganda sel kanker sehingga memicu distorsi struktural dan apoptosis sel."
       },
       {
         "key": "C",
@@ -3688,15 +3689,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Isomer $\\textit{trans}$ bersifat sangat mudah terbakar di dalam plasma darah sehingga terurai sebelum mencapai target inti sel."
+        "text": "Pada isomer $\\textit{trans}$, kedua atom platina saling berikatan membentuk polimer logam berat yang tidak mampu menembus membran sel sama sekali."
       },
       {
         "key": "E",
-        "text": "Cisplatin bekerja murni sebagai antioksidan pemulung radikal bebas di dalam sitoplasma sel darah putih normal."
+        "text": "Isomer $\\textit{trans}$ bersifat sangat mudah terbakar di dalam plasma darah sehingga terurai sebelum mencapai target inti sel."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pada isomer $\\textit{cis}$, kedua ligan klorida yang labil terletak berdampingan dengan jarak $\\sim 3{,}3\\text{ Å}$, tepat cocok untuk melakukan koordinasi silang bifungsional intra-untai ($\\textit{intrastrand cross-link}$) pada dua basa nitrogen guanin bersebelahan pada DNA heliks ganda sel kanker sehingga memicu distorsi struktural dan apoptosis sel.. Isomer cis menempatkan dua ligan klorida labil berdampingan (sudut 90 derajat). Posisi ini memungkinkan platina mengikat dua basa guanin bersebelahan pada untai DNA yang sama (intrastrand crosslink). Pilih opsi yang menjelaskan pengikatan silang intra-untai dua basa guanin oleh isomer cis."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pada isomer $\\textit{cis}$, kedua ligan klorida yang labil terletak berdampingan dengan jarak $\\sim 3{,}3\\text{ Å}$, tepat cocok untuk melakukan koordinasi silang bifungsional intra-untai ($\\textit{intrastrand cross-link}$) pada dua basa nitrogen guanin bersebelahan pada DNA heliks ganda sel kanker sehingga memicu distorsi struktural dan apoptosis sel.. Isomer cis menempatkan dua ligan klorida labil berdampingan (sudut 90 derajat). Posisi ini memungkinkan platina mengikat dua basa guanin bersebelahan pada untai DNA yang sama (intrastrand crosslink). Pilih opsi yang menjelaskan pengikatan silang intra-untai dua basa guanin oleh isomer cis."
   },
   {
     "id": "kim-sim-12",
@@ -3719,27 +3720,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penambahan larutan Fehling A dan B dipanaskan; jika terbentuk endapan merah bata menunjukkan adanya gugus aldehida pada asam salisilat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Penambahan larutan Fehling A dan B dipanaskan; jika terbentuk endapan merah bata menunjukkan adanya gugus aldehida pada asam salisilat."
       },
       {
         "key": "B",
-        "text": "Penambahan beberapa tetes larutan $\\text{FeCl}_3$ encer; jika masih terdapat pengotor asam salisilat, larutan akan menghasilkan warna ungu pekat akibat pembentukan kompleks besi(III) fenolat dengan gugus fenol bebas $-\\text{OH}$ asam salisilat."
-      },
-      {
-        "key": "C",
-        "text": "Penambahan pereaksi Tollens menghasilkan cermin perak mengkilap di dinding tabung reaksi akibat oksidasi gugus karboksilat."
-      },
-      {
-        "key": "D",
         "text": "Penambahan larutan bromin dalam $\\text{CCl}_4$; jika warna coklat hilang menandakan adanya ikatan rangkap tiga terisolasi pada aspirin murni."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Penambahan beberapa tetes larutan $\\text{FeCl}_3$ encer; jika masih terdapat pengotor asam salisilat, larutan akan menghasilkan warna ungu pekat akibat pembentukan kompleks besi(III) fenolat dengan gugus fenol bebas $-\\text{OH}$ asam salisilat."
+      },
+      {
+        "key": "D",
         "text": "Uji kertas lakmus merah; aspirin murni akan mengubah lakmus merah menjadi biru pekat karena bersifat basa nitrogen kuat."
+      },
+      {
+        "key": "E",
+        "text": "Penambahan pereaksi Tollens menghasilkan cermin perak mengkilap di dinding tabung reaksi akibat oksidasi gugus karboksilat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Penambahan beberapa tetes larutan $\\text{FeCl}_3$ encer; jika masih terdapat pengotor asam salisilat, larutan akan menghasilkan warna ungu pekat akibat pembentukan kompleks besi(III) fenolat dengan gugus fenol bebas $-\\text{OH}$ asam salisilat.. Asam salisilat memiliki gugus fenolik (-OH menempel pada cincin benzena), sedangkan aspirin telah diubah menjadi ester sehingga tidak memiliki gugus fenol bebas. Uji spesifik fenol menggunakan FeCl3. Reaksi ion Fe3+ dengan fenol menghasilkan kompleks koordinasi berwarna ungu pekat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Penambahan beberapa tetes larutan $\\text{FeCl}_3$ encer; jika masih terdapat pengotor asam salisilat, larutan akan menghasilkan warna ungu pekat akibat pembentukan kompleks besi(III) fenolat dengan gugus fenol bebas $-\\text{OH}$ asam salisilat.. Asam salisilat memiliki gugus fenolik (-OH menempel pada cincin benzena), sedangkan aspirin telah diubah menjadi ester sehingga tidak memiliki gugus fenol bebas. Uji spesifik fenol menggunakan FeCl3. Reaksi ion Fe3+ dengan fenol menghasilkan kompleks koordinasi berwarna ungu pekat."
   },
   {
     "id": "kim-sim-13",
@@ -3762,27 +3763,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Molekul air sebagai $\\text{H}_2^{18}\\text{O}$, membuktikan bahwa gugus hidroksil etanol terlepas utuh diserang oleh proton asam asetat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "Kedua atom oksigen asam asetat secara acak karena terjadi pertukaran isotop simetris melalui radikal bebas gas metana."
       },
       {
+        "key": "B",
+        "text": "Molekul air sebagai $\\text{H}_2^{18}\\text{O}$, membuktikan bahwa gugus hidroksil etanol terlepas utuh diserang oleh proton asam asetat ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
         "key": "C",
-        "text": "Etil asetat pada atom oksigen penjembatan ester ($\\text{CH}_3\\text{CO-}^{18}\\text{OCH}_2\\text{CH}_3$), sedangkan molekul air yang tereliminasi murni mengandung isotop oksigen biasa ($\\text{H}_2^{16}\\text{O}$), membuktikan bahwa pemutusan ikatan terjadi pada ikatan asil–oksigen ($\text{C-OH}$) dari asam karboksilat."
+        "text": "Gas karbon dioksida terbebas akibat dekarboksilasi spontan esterifikasi asam karboksilat alifatik jenuh."
       },
       {
         "key": "D",
-        "text": "Gas karbon dioksida terbebas akibat dekarboksilasi spontan esterifikasi asam karboksilat alifatik jenuh."
+        "text": "Etil asetat pada atom oksigen penjembatan ester ($\\text{CH}_3\\text{CO-}^{18}\\text{OCH}_2\\text{CH}_3$), sedangkan molekul air yang tereliminasi murni mengandung isotop oksigen biasa ($\\text{H}_2^{16}\\text{O}$), membuktikan bahwa pemutusan ikatan terjadi pada ikatan asil–oksigen ($ ext{C-OH}$) dari asam karboksilat."
       },
       {
         "key": "E",
         "text": "Tidak satu pun molekul produk yang mengandung $^{18}\\text{O}$ karena isotop oksigen meluruh menjadi isotop fluorin radioaktif selama pemanasan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Etil asetat pada atom oksigen penjembatan ester ($\\text{CH}_3\\text{CO-}^{18}\\text{OCH}_2\\text{CH}_3$), sedangkan molekul air yang tereliminasi murni mengandung isotop oksigen biasa ($\\text{H}_2^{16}\\text{O}$), membuktikan bahwa pemutusan ikatan terjadi pada ikatan asil–oksigen ($\text{C-OH}$) dari asam karboksilat.. Pada esterifikasi Fischer, gugus -OH dilepas oleh asam karboksilat, sedangkan alkohol hanya melepas atom H (ikatan C-O alkohol TIDAK putus). Atom 18O dari alkohol tetap berada pada molekul ester (etil asetat), sedangkan H2O berasal dari -OH asam karboksilat dan proton H."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Etil asetat pada atom oksigen penjembatan ester ($\\text{CH}_3\\text{CO-}^{18}\\text{OCH}_2\\text{CH}_3$), sedangkan molekul air yang tereliminasi murni mengandung isotop oksigen biasa ($\\text{H}_2^{16}\\text{O}$), membuktikan bahwa pemutusan ikatan terjadi pada ikatan asil–oksigen ($\text{C-OH}$) dari asam karboksilat.. Pada esterifikasi Fischer, gugus -OH dilepas oleh asam karboksilat, sedangkan alkohol hanya melepas atom H (ikatan C-O alkohol TIDAK putus). Atom 18O dari alkohol tetap berada pada molekul ester (etil asetat), sedangkan H2O berasal dari -OH asam karboksilat dan proton H."
   },
   {
     "id": "kim-sim-14",
@@ -3805,7 +3806,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Inhibisi non-kompetitif; inhibitor mengikat sisi alosterik enzim sehingga nilai laju maksimum $V_{\\max}$ turun permanen apapun konsentrasi substratnya menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "Inhibisi kompetitif; inhibitor $X$ memiliki kemiripan struktur dengan substrat dan bersaing merebutkan sisi aktif enzim bebas, sehingga efek penghambatan dapat diatasi tuntas dengan meningkatkan konsentrasi substrat $[S]$ hingga sangat tinggi."
       },
       {
         "key": "B",
@@ -3817,15 +3818,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Inhibisi kompetitif; inhibitor $X$ memiliki kemiripan struktur dengan substrat dan bersaing merebutkan sisi aktif enzim bebas, sehingga efek penghambatan dapat diatasi tuntas dengan meningkatkan konsentrasi substrat $[S]$ hingga sangat tinggi."
+        "text": "Inhibisi non-kompetitif; inhibitor mengikat sisi alosterik enzim sehingga nilai laju maksimum $V_{\\max}$ turun permanen apapun konsentrasi substratnya menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       },
       {
         "key": "E",
         "text": "Inhibisi umpan balik alosterik; inhibitor mempercepat laju denaturasi termal protein enzim pada suhu fisiologis."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Inhibisi kompetitif; inhibitor $X$ memiliki kemiripan struktur dengan substrat dan bersaing merebutkan sisi aktif enzim bebas, sehingga efek penghambatan dapat diatasi tuntas dengan meningkatkan konsentrasi substrat $[S]$ hingga sangat tinggi.. Ingat rumus Lineweaver-Burk. Jika perpotongan sumbu-Y tetap (Vmax sama), tetapi kemiringan berubah dan perpotongan sumbu-X bergeser (Km bertambah), itu adalah inhibisi kompetitif. Inhibitor bersaing langsung di sisi aktif. Dapat diatasi dengan menambahkan konsentrasi substrat berlebih."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Inhibisi kompetitif; inhibitor $X$ memiliki kemiripan struktur dengan substrat dan bersaing merebutkan sisi aktif enzim bebas, sehingga efek penghambatan dapat diatasi tuntas dengan meningkatkan konsentrasi substrat $[S]$ hingga sangat tinggi.. Ingat rumus Lineweaver-Burk. Jika perpotongan sumbu-Y tetap (Vmax sama), tetapi kemiringan berubah dan perpotongan sumbu-X bergeser (Km bertambah), itu adalah inhibisi kompetitif. Inhibitor bersaing langsung di sisi aktif. Dapat diatasi dengan menambahkan konsentrasi substrat berlebih."
   },
   {
     "id": "kim-sim-15",
@@ -3848,27 +3849,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terbentuknya ikatan kovalen silang jembatan disulfida antara atom belerang yang ditambahkan pada proses vulkanisasi termal diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Rantai-rantai polimer memiliki konformasi lurus kaku dengan cincin benzena tersubstitusi para yang tersusun sangat teratur dan saling dihubungkan secara masif oleh jaringan ikatan hidrogen antarrantai antara gugus amida ($\\text{N-H}\\cdots\\text{O=C}$) serta penumpukan interaksi $\\pi-\\pi$ antar cincin aromatik."
       },
       {
         "key": "B",
-        "text": "Tingginya percabangan rantai samping alifatik yang membuat polimer bersifat amorf dan elastis menyerap benturan proyektil."
+        "text": "Terbentuknya ikatan kovalen silang jembatan disulfida antara atom belerang yang ditambahkan pada proses vulkanisasi termal."
       },
       {
         "key": "C",
-        "text": "Kandungan atom klorin yang membentuk kisi kristal garam ionik dengan kerapatan massa jenis mendekati logam berat raksa."
-      },
-      {
-        "key": "D",
         "text": "Kemampuan rantai polimer untuk berotasi bebas $360^\\circ$ pada suhu kamar sehingga berperilaku seperti cairan superkritis."
       },
       {
+        "key": "D",
+        "text": "Tingginya percabangan rantai samping alifatik yang membuat polimer bersifat amorf dan elastis menyerap benturan proyektil."
+      },
+      {
         "key": "E",
-        "text": "Rantai-rantai polimer memiliki konformasi lurus kaku dengan cincin benzena tersubstitusi para yang tersusun sangat teratur dan saling dihubungkan secara masif oleh jaringan ikatan hidrogen antarrantai antara gugus amida ($\\text{N-H}\\cdots\\text{O=C}$) serta penumpukan interaksi $\\pi-\\pi$ antar cincin aromatik."
+        "text": "Kandungan atom klorin yang membentuk kisi kristal garam ionik dengan kerapatan massa jenis mendekati logam berat raksa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Rantai-rantai polimer memiliki konformasi lurus kaku dengan cincin benzena tersubstitusi para yang tersusun sangat teratur dan saling dihubungkan secara masif oleh jaringan ikatan hidrogen antarrantai antara gugus amida ($\\text{N-H}\\cdots\\text{O=C}$) serta penumpukan interaksi $\\pi-\\pi$ antar cincin aromatik.. Kevlar tersusun dari cincin benzena posisi para yang kaku dan dihubungkan oleh gugus amida. Antarrantai sejajar terbentuk ikatan hidrogen N-H...O=C yang sangat rapat dan kuat. Pilih jawaban yang menyebutkan konformasi lurus kaku dengan ikatan hidrogen antarrantai dan interaksi penumpukan pi-pi aromatik."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Rantai-rantai polimer memiliki konformasi lurus kaku dengan cincin benzena tersubstitusi para yang tersusun sangat teratur dan saling dihubungkan secara masif oleh jaringan ikatan hidrogen antarrantai antara gugus amida ($\\text{N-H}\\cdots\\text{O=C}$) serta penumpukan interaksi $\\pi-\\pi$ antar cincin aromatik.. Kevlar tersusun dari cincin benzena posisi para yang kaku dan dihubungkan oleh gugus amida. Antarrantai sejajar terbentuk ikatan hidrogen N-H...O=C yang sangat rapat dan kuat. Pilih jawaban yang menyebutkan konformasi lurus kaku dengan ikatan hidrogen antarrantai dan interaksi penumpukan pi-pi aromatik."
   },
   {
     "id": "kim-sim-16",
@@ -3891,27 +3892,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$25{,}4\\%$ pada rute klorohidrin dan $100\\%$ pada rute oksidasi langsung, karena rute tradisional menghasilkan massa produk samping limbah ($\\text{CaCl}_2$ dan $\\text{H}_2\\text{O}$) yang jauh lebih besar daripada produk target: $\\frac{44}{28 + 71 + 74} \\times 100\\% = \\frac{44}{173} \\times 100\\% = 25{,}4\\%$, sedangkan rute katalitik langsung mengintegrasikan 100% massa seluruh reaktan ke dalam produk akhir tanpa limbah."
+        "text": "$50{,}0\\%$ pada rute klorohidrin dan $50{,}0\\%$ pada rute oksidasi langsung, karena kedua reaksi sama-sama menghasilkan 1 mol etilen oksida."
       },
       {
         "key": "B",
-        "text": "$50{,}0\\%$ pada rute klorohidrin dan $50{,}0\\%$ pada rute oksidasi langsung, karena kedua reaksi sama-sama menghasilkan 1 mol etilen oksida sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
-      },
-      {
-        "key": "C",
         "text": "$80{,}5\\%$ pada rute klorohidrin dan $20{,}0\\%$ pada rute oksidasi langsung, dihitung dari rasio koefisien stoikiometri reaktan pembatas."
       },
       {
+        "key": "C",
+        "text": "$33{,}3\\%$ pada rute klorohidrin dan $66{,}7\\%$ pada rute oksidasi langsung, dihitung dari rasio jumlah atom karbon terhadap hidrogen."
+      },
+      {
         "key": "D",
-        "text": "$100\\%$ pada rute klorohidrin dan $44{,}0\\%$ pada rute oksidasi langsung, akibat salah membagi massa produk samping dengan massa reaktan."
+        "text": "$25{,}4\\%$ pada rute klorohidrin dan $100\\%$ pada rute oksidasi langsung, karena rute tradisional menghasilkan massa produk samping limbah ($\\text{CaCl}_2$ dan $\\text{H}_2\\text{O}$) yang jauh lebih besar daripada produk target: $\\frac{44}{28 + 71 + 74} \\times 100\\% = \\frac{44}{173} \\times 100\\% = 25{,}4\\%$, sedangkan rute katalitik langsung mengintegrasikan 100% massa seluruh reaktan ke dalam produk akhir tanpa limbah."
       },
       {
         "key": "E",
-        "text": "$33{,}3\\%$ pada rute klorohidrin dan $66{,}7\\%$ pada rute oksidasi langsung, dihitung dari rasio jumlah atom karbon terhadap hidrogen."
+        "text": "$100\\%$ pada rute klorohidrin dan $44{,}0\\%$ pada rute oksidasi langsung, akibat salah membagi massa produk samping dengan massa reaktan."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $25{,}4\\%$ pada rute klorohidrin dan $100\\%$ pada rute oksidasi langsung, karena rute tradisional menghasilkan massa produk samping limbah ($\\text{CaCl}_2$ dan $\\text{H}_2\\text{O}$) yang jauh lebih besar daripada produk target: $\\frac{44}{28 + 71 + 74} \\times 100\\% = \\frac{44}{173} \\times 100\\% = 25{,}4\\%$, sedangkan rute katalitik langsung mengintegrasikan 100% massa seluruh reaktan ke dalam produk akhir tanpa limbah.. Rumus Ekonomi Atom = (Mr produk target / total Mr semua reaktan) * 100%. Untuk rute adisi langsung tanpa produk samping, ekonomi atomnya selalu 100%. Rute 1: 44 / (28 + 71 + 74) = 44 / 173 = 25,4%. Rute 2: 44 / (28 + 16) = 44 / 44 = 100%."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $25{,}4\\%$ pada rute klorohidrin dan $100\\%$ pada rute oksidasi langsung, karena rute tradisional menghasilkan massa produk samping limbah ($\\text{CaCl}_2$ dan $\\text{H}_2\\text{O}$) yang jauh lebih besar daripada produk target: $\\frac{44}{28 + 71 + 74} \\times 100\\% = \\frac{44}{173} \\times 100\\% = 25{,}4\\%$, sedangkan rute katalitik langsung mengintegrasikan 100% massa seluruh reaktan ke dalam produk akhir tanpa limbah.. Rumus Ekonomi Atom = (Mr produk target / total Mr semua reaktan) * 100%. Untuk rute adisi langsung tanpa produk samping, ekonomi atomnya selalu 100%. Rute 1: 44 / (28 + 71 + 74) = 44 / 173 = 25,4%. Rute 2: 44 / (28 + 16) = 44 / 44 = 100%."
   },
   {
     "id": "kim-sim-17",
@@ -3934,11 +3935,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$200\\text{ MBq}$, dihitung dari asumsi aktivitas radioaktif berkurang secara linear sebesar 25% setiap 6 jam sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "$25\\text{ MBq}$, dihitung jika waktu peluruhan diasumsikan telah berlangsung selama 5 kali waktu paruh (30 jam)."
       },
       {
         "key": "B",
-        "text": "$50\\text{ MBq}$, karena selang waktu $t = 24\\text{ jam}$ setara dengan $n = \\frac{t}{T_{1/2}} = \\frac{24}{6{,}0} = 4$ kali waktu paruh. Aktivitas sisa dihitung dengan rumus peluruhan radioaktif orde pertama: $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 800 \\times \\left(\\frac{1}{2}\\right)^4 = 800 \\times \\frac{1}{16} = 50\\text{ MBq}$."
+        "text": "$0\\text{ MBq}$, karena mengasumsikan zat radioaktif telah musnah tak bersisa setelah melampaui waktu satu hari semalam."
       },
       {
         "key": "C",
@@ -3946,15 +3947,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$25\\text{ MBq}$, dihitung jika waktu peluruhan diasumsikan telah berlangsung selama 5 kali waktu paruh (30 jam)."
+        "text": "$50\\text{ MBq}$, karena selang waktu $t = 24\\text{ jam}$ setara dengan $n = \\frac{t}{T_{1/2}} = \\frac{24}{6{,}0} = 4$ kali waktu paruh. Aktivitas sisa dihitung dengan rumus peluruhan radioaktif orde pertama: $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 800 \\times \\left(\\frac{1}{2}\\right)^4 = 800 \\times \\frac{1}{16} = 50\\text{ MBq}$."
       },
       {
         "key": "E",
-        "text": "$0\\text{ MBq}$, karena mengasumsikan zat radioaktif telah musnah tak bersisa setelah melampaui waktu satu hari semalam."
+        "text": "$200\\text{ MBq}$, dihitung dari asumsi aktivitas radioaktif berkurang secara linear sebesar 25% setiap 6 jam."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $50\\text{ MBq}$, karena selang waktu $t = 24\\text{ jam}$ setara dengan $n = \\frac{t}{T_{1/2}} = \\frac{24}{6{,}0} = 4$ kali waktu paruh. Aktivitas sisa dihitung dengan rumus peluruhan radioaktif orde pertama: $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 800 \\times \\left(\\frac{1}{2}\\right)^4 = 800 \\times \\frac{1}{16} = 50\\text{ MBq}$.. Peluruhan radioaktif mengikuti kinetika orde pertama: A_t = A_0 * (1/2)^n, dengan n = t / T_1/2. n = 24 / 6 = 4. Maka A_t = 800 * (1/2)^4 = 800 / 16 = 50 MBq."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $50\\text{ MBq}$, karena selang waktu $t = 24\\text{ jam}$ setara dengan $n = \\frac{t}{T_{1/2}} = \\frac{24}{6{,}0} = 4$ kali waktu paruh. Aktivitas sisa dihitung dengan rumus peluruhan radioaktif orde pertama: $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 800 \\times \\left(\\frac{1}{2}\\right)^4 = 800 \\times \\frac{1}{16} = 50\\text{ MBq}$.. Peluruhan radioaktif mengikuti kinetika orde pertama: A_t = A_0 * (1/2)^n, dengan n = t / T_1/2. n = 24 / 6 = 4. Maka A_t = 800 * (1/2)^4 = 800 / 16 = 50 MBq."
   },
   {
     "id": "kim-sim-18",
@@ -3977,27 +3978,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\mu[\\text{NF}_3] > \\mu[\\text{NH}_3] > \\mu[\\text{BF}_3]$, karena atom fluorin memiliki elektronegativitas terbesar di tabel periodik sehingga dipol ikatannya selalu mendominasi mutlak ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
-        "text": "$\\mu[\\text{BF}_3] > \\mu[\\text{NF}_3] > \\mu[\\text{NH}_3]$, karena ikatan kovalen antara boron dan fluorin memiliki selisih elektronegativitas paling besar."
-      },
-      {
-        "key": "C",
-        "text": "$\\mu[\\text{BF}_3] = 0\\text{ D} < \\mu[\\text{NF}_3] (0{,}24\\text{ D}) < \\mu[\\text{NH}_3] (1{,}47\\text{ D})$; $\\text{BF}_3$ nonpolar karena geometri trigonal planar simetris membatalkan seluruh dipol ikatan; pada $\\text{NF}_3$ dipol ikatan polar $\\text{N}-\\text{F}$ berlawanan arah dengan dipol pasangan elektron bebas sehingga saling melemahkan, sedangkan pada $\\text{NH}_3$ dipol ikatan $\\text{N}-\\text{H}$ dan dipol pasangan elektron bebas searah sehingga saling memperkuat."
-      },
-      {
-        "key": "D",
         "text": "$\\mu[\\text{BF}_3] = \\mu[\\text{NF}_3] = \\mu[\\text{NH}_3] = 0\\text{ D}$, karena ketiga molekul sama-sama mengikat tiga atom ligan yang identik mengelilingi atom pusat."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\mu[\\text{BF}_3] = 0\\text{ D} < \\mu[\\text{NF}_3] (0{,}24\\text{ D}) < \\mu[\\text{NH}_3] (1{,}47\\text{ D})$; $\\text{BF}_3$ nonpolar karena geometri trigonal planar simetris membatalkan seluruh dipol ikatan; pada $\\text{NF}_3$ dipol ikatan polar $\\text{N}-\\text{F}$ berlawanan arah dengan dipol pasangan elektron bebas sehingga saling melemahkan, sedangkan pada $\\text{NH}_3$ dipol ikatan $\\text{N}-\\text{H}$ dan dipol pasangan elektron bebas searah sehingga saling memperkuat."
+      },
+      {
+        "key": "C",
+        "text": "$\\mu[\\text{NF}_3] > \\mu[\\text{NH}_3] > \\mu[\\text{BF}_3]$, karena atom fluorin memiliki elektronegativitas terbesar di tabel periodik sehingga dipol ikatannya selalu mendominasi mutlak ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
+      },
+      {
+        "key": "D",
         "text": "$\\mu[\\text{NH}_3] = 0\\text{ D}$, karena gaya tolak pasangan elektron bebas menetralkan muatan parsial positif pada ketiga atom hidrogen."
+      },
+      {
+        "key": "E",
+        "text": "$\\mu[\\text{BF}_3] > \\mu[\\text{NF}_3] > \\mu[\\text{NH}_3]$, karena ikatan kovalen antara boron dan fluorin memiliki selisih elektronegativitas paling besar."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\mu[\\text{BF}_3] = 0\\text{ D} < \\mu[\\text{NF}_3] (0{,}24\\text{ D}) < \\mu[\\text{NH}_3] (1{,}47\\text{ D})$; $\\text{BF}_3$ nonpolar karena geometri trigonal planar simetris membatalkan seluruh dipol ikatan; pada $\\text{NF}_3$ dipol ikatan polar $\\text{N}-\\text{F}$ berlawanan arah dengan dipol pasangan elektron bebas sehingga saling melemahkan, sedangkan pada $\\text{NH}_3$ dipol ikatan $\\text{N}-\\text{H}$ dan dipol pasangan elektron bebas searah sehingga saling memperkuat.. Perhatikan resultan vektor dipol ikatan dan dipol PEB. Pada BF3 simetri planar membatalkan dipol. Pada NF3, dipol ikatan N-F melawan dipol PEB. Pada NH3, dipol ikatan H-N searah dengan dipol PEB. Urutan momen dipol: BF3 (0) < NF3 (0,24 D) < NH3 (1,47 D)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\mu[\\text{BF}_3] = 0\\text{ D} < \\mu[\\text{NF}_3] (0{,}24\\text{ D}) < \\mu[\\text{NH}_3] (1{,}47\\text{ D})$; $\\text{BF}_3$ nonpolar karena geometri trigonal planar simetris membatalkan seluruh dipol ikatan; pada $\\text{NF}_3$ dipol ikatan polar $\\text{N}-\\text{F}$ berlawanan arah dengan dipol pasangan elektron bebas sehingga saling melemahkan, sedangkan pada $\\text{NH}_3$ dipol ikatan $\\text{N}-\\text{H}$ dan dipol pasangan elektron bebas searah sehingga saling memperkuat.. Perhatikan resultan vektor dipol ikatan dan dipol PEB. Pada BF3 simetri planar membatalkan dipol. Pada NF3, dipol ikatan N-F melawan dipol PEB. Pada NH3, dipol ikatan H-N searah dengan dipol PEB. Urutan momen dipol: BF3 (0) < NF3 (0,24 D) < NH3 (1,47 D)."
   },
   {
     "id": "kim-sim-19",
@@ -4020,27 +4021,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Proses pelarutan menghasilkan energi kisi kristal yang sangat eksotermik sehingga energi aktivasi reaksi menjadi bernilai negatif menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
-      },
-      {
-        "key": "B",
-        "text": "Suhu dingin yang tercipta memicu penurunan entropi semesta secara spontan sesuai Hukum Ketiga Termodinamika."
-      },
-      {
-        "key": "C",
         "text": "Ion amonium mengalami reaksi fusi nuklir dengan molekul air melepaskan radiasi partikel alfa yang menetralkan nilai entalpi."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Reaksi tersebut sebenarnya tidak spontan dan hanya dapat berlangsung jika diberi bantuan arus listrik luar secara kontinu."
+      },
+      {
+        "key": "C",
         "text": "Pelarutan kristal padat menjadi ion-ion terhidrasi bebas meningkatkan derajat ketidakteraturan sistem secara drastis ($\\Delta S^\\circ_{\\text{sistem}} \\gg 0$), sehingga pada suhu kamar suku pengurang termal $T\\Delta S^\\circ$ bernilai positif sangat besar dan melampaui nilai $\\Delta H^\\circ$, menghasilkan perubahan energi bebas Gibbs bernilai negatif ($\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ < 0$)."
       },
       {
+        "key": "D",
+        "text": "Proses pelarutan menghasilkan energi kisi kristal yang sangat eksotermik sehingga energi aktivasi reaksi menjadi bernilai negatif menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+      },
+      {
         "key": "E",
-        "text": "Reaksi tersebut sebenarnya tidak spontan dan hanya dapat berlangsung jika diberi bantuan arus listrik luar secara kontinu."
+        "text": "Suhu dingin yang tercipta memicu penurunan entropi semesta secara spontan sesuai Hukum Ketiga Termodinamika."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pelarutan kristal padat menjadi ion-ion terhidrasi bebas meningkatkan derajat ketidakteraturan sistem secara drastis ($\\Delta S^\\circ_{\\text{sistem}} \\gg 0$), sehingga pada suhu kamar suku pengurang termal $T\\Delta S^\\circ$ bernilai positif sangat besar dan melampaui nilai $\\Delta H^\\circ$, menghasilkan perubahan energi bebas Gibbs bernilai negatif ($\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ < 0$).. Reaksi endotermik (Delta H > 0) hanya bisa spontan jika didorong oleh peningkatan entropi yang besar (Delta S > 0) pada suhu di mana T*Delta S > Delta H, sehingga Delta G < 0. Pilih opsi yang menjelaskan dominasi kenaikan entropi (Delta S sistem > 0) yang membuat Delta G negatif pada suhu kamar."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Pelarutan kristal padat menjadi ion-ion terhidrasi bebas meningkatkan derajat ketidakteraturan sistem secara drastis ($\\Delta S^\\circ_{\\text{sistem}} \\gg 0$), sehingga pada suhu kamar suku pengurang termal $T\\Delta S^\\circ$ bernilai positif sangat besar dan melampaui nilai $\\Delta H^\\circ$, menghasilkan perubahan energi bebas Gibbs bernilai negatif ($\\Delta G^\\circ = \\Delta H^\\circ - T\\Delta S^\\circ < 0$).. Reaksi endotermik (Delta H > 0) hanya bisa spontan jika didorong oleh peningkatan entropi yang besar (Delta S > 0) pada suhu di mana T*Delta S > Delta H, sehingga Delta G < 0. Pilih opsi yang menjelaskan dominasi kenaikan entropi (Delta S sistem > 0) yang membuat Delta G negatif pada suhu kamar."
   },
   {
     "id": "kim-sim-20",
@@ -4063,27 +4064,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}$, karena ion natrium berukuran paling kecil sehingga mobilitas difusinya dalam air paling cepat diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "$\\text{Al}^{3+} \\gg \\text{Mg}^{2+} \\gg \\text{Na}^+$; daya koagulasi meningkat secara eksponensial sebanding dengan pangkat enam valensi muatan kation penyerap ($\\text{daya} \\propto z^6$), sehingga ion trivalen $\\text{Al}^{3+}$ memiliki daya pengendapan sekitar 700–1000 kali lebih kuat dibanding ion monovalen $\\text{Na}^+$ dalam menetralkan lapisan rangkap listrik koloid."
       },
       {
         "key": "B",
-        "text": "$\\text{Al}^{3+} = \\text{Mg}^{2+} = \\text{Na}^+$, karena seluruh kation logam golongan utama memiliki kemampuan koagulasi identik per mol ion."
-      },
-      {
-        "key": "C",
-        "text": "Koagulasi ditentukan oleh anion sulfida bukan oleh kation, sehingga jenis logam tidak mempengaruhi pengendapan koloid lumpur."
-      },
-      {
-        "key": "D",
         "text": "Ion $\\text{Al}^{3+}$ tidak mampu mengendapkan koloid karena aluminium bersifat amfoter yang langsung larut kembali sebagai aluminat."
       },
       {
+        "key": "C",
+        "text": "$\\text{Na}^+ > \\text{Mg}^{2+} > \\text{Al}^{3+}$, karena ion natrium berukuran paling kecil sehingga mobilitas difusinya dalam air paling cepat."
+      },
+      {
+        "key": "D",
+        "text": "Koagulasi ditentukan oleh anion sulfida bukan oleh kation, sehingga jenis logam tidak mempengaruhi pengendapan koloid lumpur."
+      },
+      {
         "key": "E",
-        "text": "$\\text{Al}^{3+} \\gg \\text{Mg}^{2+} \\gg \\text{Na}^+$; daya koagulasi meningkat secara eksponensial sebanding dengan pangkat enam valensi muatan kation penyerap ($\\text{daya} \\propto z^6$), sehingga ion trivalen $\\text{Al}^{3+}$ memiliki daya pengendapan sekitar 700–1000 kali lebih kuat dibanding ion monovalen $\\text{Na}^+$ dalam menetralkan lapisan rangkap listrik koloid."
+        "text": "$\\text{Al}^{3+} = \\text{Mg}^{2+} = \\text{Na}^+$, karena seluruh kation logam golongan utama memiliki kemampuan koagulasi identik per mol ion."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\text{Al}^{3+} \\gg \\text{Mg}^{2+} \\gg \\text{Na}^+$; daya koagulasi meningkat secara eksponensial sebanding dengan pangkat enam valensi muatan kation penyerap ($\\text{daya} \\propto z^6$), sehingga ion trivalen $\\text{Al}^{3+}$ memiliki daya pengendapan sekitar 700–1000 kali lebih kuat dibanding ion monovalen $\\text{Na}^+$ dalam menetralkan lapisan rangkap listrik koloid.. Aturan Schulze-Hardy: ion lawan dengan valensi lebih tinggi memiliki daya koagulasi jauh lebih dahsyat (sebanding dengan z^6). Untuk koloid bermuatan negatif, kation penentu efektivitasnya. Valensi kation: Al3+ (z=3) > Mg2+ (z=2) > Na+ (z=1). Daya koagulasi Al3+ >> Mg2+ >> Na+."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\text{Al}^{3+} \\gg \\text{Mg}^{2+} \\gg \\text{Na}^+$; daya koagulasi meningkat secara eksponensial sebanding dengan pangkat enam valensi muatan kation penyerap ($\\text{daya} \\propto z^6$), sehingga ion trivalen $\\text{Al}^{3+}$ memiliki daya pengendapan sekitar 700–1000 kali lebih kuat dibanding ion monovalen $\\text{Na}^+$ dalam menetralkan lapisan rangkap listrik koloid.. Aturan Schulze-Hardy: ion lawan dengan valensi lebih tinggi memiliki daya koagulasi jauh lebih dahsyat (sebanding dengan z^6). Untuk koloid bermuatan negatif, kation penentu efektivitasnya. Valensi kation: Al3+ (z=3) > Mg2+ (z=2) > Na+ (z=1). Daya koagulasi Al3+ >> Mg2+ >> Na+."
   },
   {
     "id": "kim-sim-21",
@@ -4106,11 +4107,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Senyawa $A$ adalah propanal (propionaldehida) dan senyawa $B$ adalah propanon (aseton); serapan $1715\\text{ cm}^{-1}$ adalah vibrasi ulur gugus karbonil ($\\text{C=O}$), sedangkan serapan khas $2720$ dan $2820\\text{ cm}^{-1}$ adalah sidik jari ulur $\\text{C-H}$ aldehida yang tidak dimiliki oleh gugus keton propanon."
+        "text": "Senyawa $A$ adalah propanon dan senyawa $B$ adalah propanal, terbalik karena keton selalu memiliki serapan ulur C-H fermi resonance."
       },
       {
         "key": "B",
-        "text": "Senyawa $A$ adalah 1-propanol dan senyawa $B$ adalah metil etil eter, dengan puncak $1715\\text{ cm}^{-1}$ merupakan vibrasi ikatan eter kovalen sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Senyawa $A$ adalah 1-propanol dan senyawa $B$ adalah metil etil eter, dengan puncak $1715\\text{ cm}^{-1}$ merupakan vibrasi ikatan eter kovalen."
       },
       {
         "key": "C",
@@ -4118,15 +4119,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Senyawa $A$ adalah propanon dan senyawa $B$ adalah propanal, terbalik karena keton selalu memiliki serapan ulur C-H fermi resonance."
+        "text": "Senyawa $A$ adalah siklopropanol dan senyawa $B$ adalah propilena glikol jenuh."
       },
       {
         "key": "E",
-        "text": "Senyawa $A$ adalah siklopropanol dan senyawa $B$ adalah propilena glikol jenuh."
+        "text": "Senyawa $A$ adalah propanal (propionaldehida) dan senyawa $B$ adalah propanon (aseton); serapan $1715\\text{ cm}^{-1}$ adalah vibrasi ulur gugus karbonil ($\\text{C=O}$), sedangkan serapan khas $2720$ dan $2820\\text{ cm}^{-1}$ adalah sidik jari ulur $\\text{C-H}$ aldehida yang tidak dimiliki oleh gugus keton propanon."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Senyawa $A$ adalah propanal (propionaldehida) dan senyawa $B$ adalah propanon (aseton); serapan $1715\\text{ cm}^{-1}$ adalah vibrasi ulur gugus karbonil ($\\text{C=O}$), sedangkan serapan khas $2720$ dan $2820\\text{ cm}^{-1}$ adalah sidik jari ulur $\\text{C-H}$ aldehida yang tidak dimiliki oleh gugus keton propanon.. Puncak kuat di 1715 cm^-1 adalah gugus karbonil C=O. Pasangan puncak di 2720 dan 2820 cm^-1 adalah ciri khas unik C-H aldehida (fermi resonance). Keton tidak memilikinya. Senyawa A memiliki C-H aldehida -> Propanal. Senyawa B tidak memilikinya -> Propanon (aseton)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Senyawa $A$ adalah propanal (propionaldehida) dan senyawa $B$ adalah propanon (aseton); serapan $1715\\text{ cm}^{-1}$ adalah vibrasi ulur gugus karbonil ($\\text{C=O}$), sedangkan serapan khas $2720$ dan $2820\\text{ cm}^{-1}$ adalah sidik jari ulur $\\text{C-H}$ aldehida yang tidak dimiliki oleh gugus keton propanon.. Puncak kuat di 1715 cm^-1 adalah gugus karbonil C=O. Pasangan puncak di 2720 dan 2820 cm^-1 adalah ciri khas unik C-H aldehida (fermi resonance). Keton tidak memilikinya. Senyawa A memiliki C-H aldehida -> Propanal. Senyawa B tidak memilikinya -> Propanon (aseton)."
   },
   {
     "id": "kim-sim-22",
@@ -4149,11 +4150,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ion $\\text{Pb}^{2+}$ mengendap sebagai garam sulfat tak larut di dalam ginjal sehingga tidak perlu diikat oleh ligan pengkhelat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat sesuai dengan konfigurasi orbital molekul terdelokalisasi dan hibridisasi valensi atom pusat."
+        "text": "Konstanta kestabilan pembentukan kompleks $[\\text{Pb(EDTA)}]^{2-}$ ($K_f = 10^{18{,}0}$) jauh lebih besar daripada $[\\text{Ca(EDTA)}]^{2-}$ ($K_f = 10^{10{,}7}$), sehingga ion $\\text{Pb}^{2+}$ mampu mendesak keluar ion $\\text{Ca}^{2+}$ dari ligan secara spontan; penggunaan garam Ca mencegah pengikatan ion kalsium bebas dalam darah yang dapat memicu hipokalsemia fatal."
       },
       {
         "key": "B",
-        "text": "Konstanta kestabilan pembentukan kompleks $[\\text{Pb(EDTA)}]^{2-}$ ($K_f = 10^{18{,}0}$) jauh lebih besar daripada $[\\text{Ca(EDTA)}]^{2-}$ ($K_f = 10^{10{,}7}$), sehingga ion $\\text{Pb}^{2+}$ mampu mendesak keluar ion $\\text{Ca}^{2+}$ dari ligan secara spontan; penggunaan garam Ca mencegah pengikatan ion kalsium bebas dalam darah yang dapat memicu hipokalsemia fatal."
+        "text": "Konstanta kestabilan kompleks timbal lebih kecil daripada kalsium sehingga ion kalsium yang membunuh ion timbal secara enzimatik."
       },
       {
         "key": "C",
@@ -4165,11 +4166,11 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Konstanta kestabilan kompleks timbal lebih kecil daripada kalsium sehingga ion kalsium yang membunuh ion timbal secara enzimatik."
+        "text": "Ion $\\text{Pb}^{2+}$ mengendap sebagai garam sulfat tak larut di dalam ginjal sehingga tidak perlu diikat oleh ligan pengkhelat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Konstanta kestabilan pembentukan kompleks $[\\text{Pb(EDTA)}]^{2-}$ ($K_f = 10^{18{,}0}$) jauh lebih besar daripada $[\\text{Ca(EDTA)}]^{2-}$ ($K_f = 10^{10{,}7}$), sehingga ion $\\text{Pb}^{2+}$ mampu mendesak keluar ion $\\text{Ca}^{2+}$ dari ligan secara spontan; penggunaan garam Ca mencegah pengikatan ion kalsium bebas dalam darah yang dapat memicu hipokalsemia fatal.. Pahami efek kelat dan konstanta pembentukan Kf. Kf(Pb-EDTA) jauh melampaui Kf(Ca-EDTA). Garam kalsium digunakan agar EDTA tidak merampas Ca2+ darah yang dapat menyebabkan kejang hipokalsemia. Pilih jawaban yang menjelaskan perbandingan nilai Kf (Pb mendesak Ca) dan pencegahan hipokalsemia."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Konstanta kestabilan pembentukan kompleks $[\\text{Pb(EDTA)}]^{2-}$ ($K_f = 10^{18{,}0}$) jauh lebih besar daripada $[\\text{Ca(EDTA)}]^{2-}$ ($K_f = 10^{10{,}7}$), sehingga ion $\\text{Pb}^{2+}$ mampu mendesak keluar ion $\\text{Ca}^{2+}$ dari ligan secara spontan; penggunaan garam Ca mencegah pengikatan ion kalsium bebas dalam darah yang dapat memicu hipokalsemia fatal.. Pahami efek kelat dan konstanta pembentukan Kf. Kf(Pb-EDTA) jauh melampaui Kf(Ca-EDTA). Garam kalsium digunakan agar EDTA tidak merampas Ca2+ darah yang dapat menyebabkan kejang hipokalsemia. Pilih jawaban yang menjelaskan perbandingan nilai Kf (Pb mendesak Ca) dan pencegahan hipokalsemia."
   },
   {
     "id": "kim-sim-23",
@@ -4192,27 +4193,27 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Terjadi reaksi kimia adisi eliminasi permanen yang membentuk garam ester kovalen tak terionisasi di dalam larutan ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
-      },
-      {
-        "key": "B",
         "text": "Gaya tolak elektrostatik antara atom klorin kloroform dan gugus metil aseton menyebabkan molekul lebih mudah menguap ke udara bebas."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Terbentuknya ikatan hidrogen intermolekul yang kuat antara atom hidrogen yang bersifat asam pada kloroform (akibat tarikan tiga atom klorin yang sangat elektronegatif) dengan pasangan elektron bebas pada atom oksigen karbonil aseton, sehingga gaya tarik antarmolekul tak sejenis ($A-B$) lebih kuat daripada gaya tarik antarmolekul sejenis ($A-A$ dan $B-B$)."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Molekul aseton mengalami kondensasi aldol membentuk polimer padat yang mengendap di dasar bejana pencampur."
+      },
+      {
+        "key": "D",
+        "text": "Terjadi reaksi kimia adisi eliminasi permanen yang membentuk garam ester kovalen tak terionisasi di dalam larutan ditinjau dari profil energi aktivasi kompleks teraktivasi menurut teori laju reaksi keadaan transisi."
       },
       {
         "key": "E",
         "text": "Kloroform bertindak sebagai ligan bidentat yang mengikat atom karbon aseton membentuk sangkar khelat koordinasi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terbentuknya ikatan hidrogen intermolekul yang kuat antara atom hidrogen yang bersifat asam pada kloroform (akibat tarikan tiga atom klorin yang sangat elektronegatif) dengan pasangan elektron bebas pada atom oksigen karbonil aseton, sehingga gaya tarik antarmolekul tak sejenis ($A-B$) lebih kuat daripada gaya tarik antarmolekul sejenis ($A-A$ dan $B-B$).. Penyimpangan negatif terjadi jika interaksi A-B lebih kuat daripada A-A dan B-B. Atom H pada CHCl3 terpolarisasi positif kuat oleh 3 atom Cl, membentuk ikatan hidrogen dengan atom O pada aseton. Pilih penjelasan pembentukan ikatan hidrogen intermolekul A-B yang lebih kuat dari interaksi molekul murninya."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Terbentuknya ikatan hidrogen intermolekul yang kuat antara atom hidrogen yang bersifat asam pada kloroform (akibat tarikan tiga atom klorin yang sangat elektronegatif) dengan pasangan elektron bebas pada atom oksigen karbonil aseton, sehingga gaya tarik antarmolekul tak sejenis ($A-B$) lebih kuat daripada gaya tarik antarmolekul sejenis ($A-A$ dan $B-B$).. Penyimpangan negatif terjadi jika interaksi A-B lebih kuat daripada A-A dan B-B. Atom H pada CHCl3 terpolarisasi positif kuat oleh 3 atom Cl, membentuk ikatan hidrogen dengan atom O pada aseton. Pilih penjelasan pembentukan ikatan hidrogen intermolekul A-B yang lebih kuat dari interaksi molekul murninya."
   },
   {
     "id": "kim-sim-24",
@@ -4235,7 +4236,7 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$11.460\\text{ tahun}$, dihitung jika aktivitas sampel diasumsikan telah meluruh sebesar dua kali waktu paruh (seperempat aktivitas awal) menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
+        "text": "$22.920\\text{ tahun}$, dihitung jika kayu telah melewati 4 kali waktu paruh (seperenam belas aktivitas awal)."
       },
       {
         "key": "B",
@@ -4243,7 +4244,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$22.920\\text{ tahun}$, dihitung jika kayu telah melewati 4 kali waktu paruh (seperenam belas aktivitas awal)."
+        "text": "$34.380\\text{ tahun}$, dihitung dari perkalian langsung faktor pembagi aktivitas dengan waktu paruh zat."
       },
       {
         "key": "D",
@@ -4251,7 +4252,7 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$34.380\\text{ tahun}$, dihitung dari perkalian langsung faktor pembagi aktivitas dengan waktu paruh zat."
+        "text": "$11.460\\text{ tahun}$, dihitung jika aktivitas sampel diasumsikan telah meluruh sebesar dua kali waktu paruh (seperempat aktivitas awal) menurut pergeseran kesetimbangan dinamis asas Le Chatelier pada sistem heterogen tertutup."
       }
     ],
     "correctKey": "D",
@@ -4278,11 +4279,11 @@ window.TKA_KIMIA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Cincin benzena benzaldehida bermuatan positif kuat yang menolak interaksi dengan molekul pelarut air diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst diturunkan dari relasi energi bebas Gibbs dan potensial elektroda standar reduksi Nernst."
+        "text": "Benzaldehida memiliki titik didih yang terlalu rendah sehingga langsung menguap sebelum sempat membentuk ikatan karbon-karbon baru."
       },
       {
         "key": "B",
-        "text": "Gugus aldehida pada benzaldehida bersifat sangat basa sehingga menetralkan katalis NaOH sebelum reaksi dimulai."
+        "text": "Cincin benzena benzaldehida bermuatan positif kuat yang menolak interaksi dengan molekul pelarut air."
       },
       {
         "key": "C",
@@ -4290,15 +4291,15 @@ window.TKA_KIMIA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Benzaldehida memiliki titik didih yang terlalu rendah sehingga langsung menguap sebelum sempat membentuk ikatan karbon-karbon baru."
+        "text": "Molekul benzaldehida tidak memiliki atom hidrogen alfa ($\\alpha\\text{-H}$) pada karbon di sebelah gugus karbonilnya sehingga tidak dapat melepaskan proton untuk membentuk ion enolat; sebaliknya aseton memiliki enam atom $\\alpha\\text{-H}$ asam yang mudah dideprotonasi oleh basa $\\text{OH}^-$ membentuk nukleofil enolat penyerang."
       },
       {
         "key": "E",
-        "text": "Molekul benzaldehida tidak memiliki atom hidrogen alfa ($\\alpha\\text{-H}$) pada karbon di sebelah gugus karbonilnya sehingga tidak dapat melepaskan proton untuk membentuk ion enolat; sebaliknya aseton memiliki enam atom $\\alpha\\text{-H}$ asam yang mudah dideprotonasi oleh basa $\\text{OH}^-$ membentuk nukleofil enolat penyerang."
+        "text": "Gugus aldehida pada benzaldehida bersifat sangat basa sehingga menetralkan katalis NaOH sebelum reaksi dimulai."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Molekul benzaldehida tidak memiliki atom hidrogen alfa ($\\alpha\\text{-H}$) pada karbon di sebelah gugus karbonilnya sehingga tidak dapat melepaskan proton untuk membentuk ion enolat; sebaliknya aseton memiliki enam atom $\\alpha\\text{-H}$ asam yang mudah dideprotonasi oleh basa $\\text{OH}^-$ membentuk nukleofil enolat penyerang.. Syarat pembentukan ion enolat adalah keberadaan hidrogen alfa (atom H yang terikat pada karbon di samping gugus C=O). Benzaldehida tidak punya H-alfa. Pilih jawaban yang menerangkan ketiadaan hidrogen alfa pada benzaldehida dan keberadaan H-alfa asam pada aseton."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Molekul benzaldehida tidak memiliki atom hidrogen alfa ($\\alpha\\text{-H}$) pada karbon di sebelah gugus karbonilnya sehingga tidak dapat melepaskan proton untuk membentuk ion enolat; sebaliknya aseton memiliki enam atom $\\alpha\\text{-H}$ asam yang mudah dideprotonasi oleh basa $\\text{OH}^-$ membentuk nukleofil enolat penyerang.. Syarat pembentukan ion enolat adalah keberadaan hidrogen alfa (atom H yang terikat pada karbon di samping gugus C=O). Benzaldehida tidak punya H-alfa. Pilih jawaban yang menerangkan ketiadaan hidrogen alfa pada benzaldehida dan keberadaan H-alfa asam pada aseton."
   },
   {
     "id": "kim-sim-26",

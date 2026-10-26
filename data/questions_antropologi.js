@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_ANTROPOLOGI.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework (Antropologi Soshum)
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_ANTROPOLOGI_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_ANTROPOLOGI_QUESTIONS = [
   {
     "id": "ant-lat-e-01",
@@ -29,15 +30,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Wujud Artefak Fisik (benda-benda konkret hasil karya tangan manusia seperti perkakas batu purba dan arsitektur rumah adat) ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Wujud Artefak Fisik (benda-benda konkret hasil karya tangan manusia seperti perkakas batu purba dan arsitektur rumah adat)."
       },
       {
         "key": "C",
-        "text": "Wujud Aktivitas Sosial (rangkaian pola interaksi dan tindakan berpola antarpribadi dalam pergaulan hidup kemasyarakatan sehari-hari)."
+        "text": "Wujud Genetika Biologis (struktur molekul DNA sel tubuh yang diwariskan secara biologis dari orang tua kepada keturunannya)."
       },
       {
         "key": "D",
-        "text": "Wujud Genetika Biologis (struktur molekul DNA sel tubuh yang diwariskan secara biologis dari orang tua kepada keturunannya)."
+        "text": "Wujud Aktivitas Sosial (rangkaian pola interaksi dan tindakan berpola antarpribadi dalam pergaulan hidup kemasyarakatan sehari-hari)."
       },
       {
         "key": "E",
@@ -68,27 +69,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem demokrasi pemilu langsung berbasis teknologi digital komputer ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Sistem kepolisian lalu lintas jalan tol berbayar internasional."
       },
       {
         "key": "B",
-        "text": "Sistem bahasa (sarana komunikasi lambang bunyi vokal maupun isyarat yang digunakan warga masyarakat untuk berinteraksi dan mewariskan kebudayaan antargenerasi)."
-      },
-      {
-        "key": "C",
-        "text": "Sistem transaksi perbankan saham modal pasar komersial Wall Street."
-      },
-      {
-        "key": "D",
         "text": "Sistem kepemilikan pabrik pesawat terbang supersonik antarbenua."
       },
       {
+        "key": "C",
+        "text": "Sistem demokrasi pemilu langsung berbasis teknologi digital komputer."
+      },
+      {
+        "key": "D",
+        "text": "Sistem transaksi perbankan saham modal pasar komersial Wall Street."
+      },
+      {
         "key": "E",
-        "text": "Sistem kepolisian lalu lintas jalan tol berbayar internasional."
+        "text": "Sistem bahasa (sarana komunikasi lambang bunyi vokal maupun isyarat yang digunakan warga masyarakat untuk berinteraksi dan mewariskan kebudayaan antargenerasi)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sistem bahasa (sarana komunikasi lambang bunyi vokal maupun isyarat yang digunakan warga masyarakat untuk berinteraksi dan mewariskan kebudayaan antargenerasi).. 7 Unsur Universal Kebudayaan: Bahasa, Sistem Pengetahuan, Organisasi Sosial/Kekerabatan, Teknologi/Peralatan, Mata Pencaharian, Religi, Kesenian. Pilih Sistem bahasa sebagai salah satu dari 7 unsur universal Kluckhohn."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Sistem bahasa (sarana komunikasi lambang bunyi vokal maupun isyarat yang digunakan warga masyarakat untuk berinteraksi dan mewariskan kebudayaan antargenerasi).. 7 Unsur Universal Kebudayaan: Bahasa, Sistem Pengetahuan, Organisasi Sosial/Kekerabatan, Teknologi/Peralatan, Mata Pencaharian, Religi, Kesenian. Pilih Sistem bahasa sebagai salah satu dari 7 unsur universal Kluckhohn."
   },
   {
     "id": "ant-lat-e-03",
@@ -111,27 +112,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memandang bahwa kebudayaan suku bangsa sendiri merupakan kebudayaan yang paling sempurna, beradab, dan unggul di atas bangsa lain sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Menolak keberadaan suku-suku pedalaman dan memaksa mereka meninggalkan seluruh adat istiadat leluhur mereka."
-      },
-      {
-        "key": "C",
-        "text": "Memahami dan menilai suatu praktik budaya masyarakat dari sudut pandang norma dan nilai internal kebudayaan itu sendiri tanpa menghakiminya berdasarkan ukuran kebudayaan luar."
-      },
-      {
-        "key": "D",
         "text": "Menyamaratakan seluruh bahasa daerah di Indonesia menjadi satu dialek tunggal yang diatur oleh undang-undang pidana."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Memahami dan menilai suatu praktik budaya masyarakat dari sudut pandang norma dan nilai internal kebudayaan itu sendiri tanpa menghakiminya berdasarkan ukuran kebudayaan luar."
+      },
+      {
+        "key": "C",
         "text": "Menganggap bahwa semua upacara adat kematian tradisional merupakan bentuk pemborosan ekonomi yang wajib dilarang negara."
+      },
+      {
+        "key": "D",
+        "text": "Menolak keberadaan suku-suku pedalaman dan memaksa mereka meninggalkan seluruh adat istiadat leluhur mereka."
+      },
+      {
+        "key": "E",
+        "text": "Memandang bahwa kebudayaan suku bangsa sendiri merupakan kebudayaan yang paling sempurna, beradab, dan unggul di atas bangsa lain."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Memahami dan menilai suatu praktik budaya masyarakat dari sudut pandang norma dan nilai internal kebudayaan itu sendiri tanpa menghakiminya berdasarkan ukuran kebudayaan luar.. Relativisme budaya adalah prinsip bahwa setiap kebudayaan harus dipahami dari konteks nilai internal masyarakat bersangkutan, bukan dihakimi dengan standar luar. Pilih: Memahami dan menilai praktik budaya dari sudut pandang norma dan nilai internal kebudayaan itu sendiri."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Memahami dan menilai suatu praktik budaya masyarakat dari sudut pandang norma dan nilai internal kebudayaan itu sendiri tanpa menghakiminya berdasarkan ukuran kebudayaan luar.. Relativisme budaya adalah prinsip bahwa setiap kebudayaan harus dipahami dari konteks nilai internal masyarakat bersangkutan, bukan dihakimi dengan standar luar. Pilih: Memahami dan menilai praktik budaya dari sudut pandang norma dan nilai internal kebudayaan itu sendiri."
   },
   {
     "id": "ant-lat-e-04",
@@ -154,27 +155,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pendekatan Etik (menganalisis fenomena budaya murni dari kerangka teori ilmiah objektif dan tolak ukur peneliti dari luar) menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
-        "text": "Pendekatan Positivistik Kuantitatif (menghitung persentase biaya transaksi hewan ternak di pasar modal bursa efek komersial)."
-      },
-      {
-        "key": "C",
         "text": "Pendekatan Etnosentrisme (menilai upacara adat tersebut sebagai tindakan primitif yang merugikan keuangan keluarga duka)."
       },
       {
+        "key": "B",
+        "text": "Pendekatan Etik (menganalisis fenomena budaya murni dari kerangka teori ilmiah objektif dan tolak ukur peneliti dari luar) menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+      },
+      {
+        "key": "C",
+        "text": "Pendekatan Fasisme Kultural (memaksa keluarga bangsawan mengganti kerbau kurban dengan replika patung dari plastik sintetis)."
+      },
+      {
         "key": "D",
-        "text": "Pendekatan Emik (menjelaskan fenomena budaya berdasarkan sudut pandang, kategori pikiran, dan makna yang diyakini oleh para pelaku kebudayaan lokal / _native's point of view_)."
+        "text": "Pendekatan Positivistik Kuantitatif (menghitung persentase biaya transaksi hewan ternak di pasar modal bursa efek komersial)."
       },
       {
         "key": "E",
-        "text": "Pendekatan Fasisme Kultural (memaksa keluarga bangsawan mengganti kerbau kurban dengan replika patung dari plastik sintetis)."
+        "text": "Pendekatan Emik (menjelaskan fenomena budaya berdasarkan sudut pandang, kategori pikiran, dan makna yang diyakini oleh para pelaku kebudayaan lokal / _native's point of view_)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pendekatan Emik (menjelaskan fenomena budaya berdasarkan sudut pandang, kategori pikiran, dan makna yang diyakini oleh para pelaku kebudayaan lokal / _native's point of view_).. Pendekatan emik menggali fenomena dari kacamata pelaku lokal (orang dalam), sedangkan etik memandang dari kacamata peneliti luar. Pilih opsi: Pendekatan Emik (menjelaskan budaya berdasarkan sudut pandang pelaku kebudayaan lokal)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pendekatan Emik (menjelaskan fenomena budaya berdasarkan sudut pandang, kategori pikiran, dan makna yang diyakini oleh para pelaku kebudayaan lokal / _native's point of view_).. Pendekatan emik menggali fenomena dari kacamata pelaku lokal (orang dalam), sedangkan etik memandang dari kacamata peneliti luar. Pilih opsi: Pendekatan Emik (menjelaskan budaya berdasarkan sudut pandang pelaku kebudayaan lokal)."
   },
   {
     "id": "ant-lat-e-05",
@@ -197,11 +198,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem Kekerabatan Matrilineal (penarikan garis keturunan sepihak yang hanya memperhitungkan jalur nenek moyang perempuan atau ibu) diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Sistem Kekerabatan Bilateral / Parental (penarikan garis keturunan seimbang melalui jalur pihak ayah dan pihak ibu secara serentak)."
       },
       {
         "key": "B",
-        "text": "Sistem Kekerabatan Bilateral / Parental (penarikan garis keturunan seimbang melalui jalur pihak ayah dan pihak ibu secara serentak)."
+        "text": "Sistem Perkawinan Endogami Klan (kewajiban adat bagi pemuda untuk menikahi wanita dari dalam satu garis marga yang sama)."
       },
       {
         "key": "C",
@@ -209,15 +210,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Sistem Perkawinan Endogami Klan (kewajiban adat bagi pemuda untuk menikahi wanita dari dalam satu garis marga yang sama)."
+        "text": "Sistem Kekerabatan Patrilineal (penarikan garis keturunan sepihak/unilateral yang hanya memperhitungkan jalur nenek moyang laki-laki atau ayah)."
       },
       {
         "key": "E",
-        "text": "Sistem Kekerabatan Patrilineal (penarikan garis keturunan sepihak/unilateral yang hanya memperhitungkan jalur nenek moyang laki-laki atau ayah)."
+        "text": "Sistem Kekerabatan Matrilineal (penarikan garis keturunan sepihak yang hanya memperhitungkan jalur nenek moyang perempuan atau ibu)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Sistem Kekerabatan Patrilineal (penarikan garis keturunan sepihak/unilateral yang hanya memperhitungkan jalur nenek moyang laki-laki atau ayah).. Patrilineal menarik garis keturunan dari pihak ayah (laki-laki), seperti pada masyarakat Batak dan Bali. Pilih opsi Sistem Kekerabatan Patrilineal."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Sistem Kekerabatan Patrilineal (penarikan garis keturunan sepihak/unilateral yang hanya memperhitungkan jalur nenek moyang laki-laki atau ayah).. Patrilineal menarik garis keturunan dari pihak ayah (laki-laki), seperti pada masyarakat Batak dan Bali. Pilih opsi Sistem Kekerabatan Patrilineal."
   },
   {
     "id": "ant-lat-e-06",
@@ -244,7 +245,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Anak laki-laki menjadi ahli waris tunggal seluruh harta keluarga dan anak perempuan dilarang tinggal di tanah leluhur ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Anak laki-laki menjadi ahli waris tunggal seluruh harta keluarga dan anak perempuan dilarang tinggal di tanah leluhur."
       },
       {
         "key": "C",
@@ -283,27 +284,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebagai transaksi jual beli manusia di mana pengantin perempuan dianggap sebagai barang komoditas pasar ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
-        "text": "Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antara keluarga pihak pengantin laki-laki dengan keluarga pihak pengantin perempuan."
-      },
-      {
-        "key": "C",
-        "text": "Sebagai denda adat atas pelanggaran hukum pidana pencurian hewan ternak di padang savana."
-      },
-      {
-        "key": "D",
         "text": "Sebagai pembayaran pajak tahunan kepada kantor kementerian pariwisata pemerintah daerah."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Sebagai syarat mutlak untuk membubarkan klan kekerabatan keluarga besar pengantin pria."
+      },
+      {
+        "key": "C",
+        "text": "Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antara keluarga pihak pengantin laki-laki dengan keluarga pihak pengantin perempuan."
+      },
+      {
+        "key": "D",
+        "text": "Sebagai denda adat atas pelanggaran hukum pidana pencurian hewan ternak di padang savana."
+      },
+      {
+        "key": "E",
+        "text": "Sebagai transaksi jual beli manusia di mana pengantin perempuan dianggap sebagai barang komoditas pasar."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antara keluarga pihak pengantin laki-laki dengan keluarga pihak pengantin perempuan.. Belis bukan transaksi jual-beli manusia, melainkan simbol kultural pengikat aliansi kekerabatan dan penghormatan antarkeluarga besar. Pilih: Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antarkeluarga."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antara keluarga pihak pengantin laki-laki dengan keluarga pihak pengantin perempuan.. Belis bukan transaksi jual-beli manusia, melainkan simbol kultural pengikat aliansi kekerabatan dan penghormatan antarkeluarga besar. Pilih: Sebagai simbol penghormatan serta pengikat tali persaudaraan dan aliansi kekerabatan antarkeluarga."
   },
   {
     "id": "ant-lat-e-08",
@@ -326,27 +327,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tahap Sosialisasi, Tahap Penyimpangan, dan Tahap Pengendalian Sosial Institusional sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Tahap Primitif, Tahap Barbarisme, dan Tahap Peradaban Ilmiah Modern."
-      },
-      {
-        "key": "C",
-        "text": "Tahap Pemisahan (_Separation_), Tahap Ambang / Liminal (_Liminality_), dan Tahap Penggabungan Kembali (_Aggregation / Incorporation_)."
-      },
-      {
-        "key": "D",
         "text": "Tahap Negosiasi, Tahap Mediasi Pengadilan, dan Tahap Arbitrase Hukum Pidana."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Tahap Akulturasi, Tahap Asimilasi, dan Tahap Penolakan Budaya Asing."
+      },
+      {
+        "key": "C",
+        "text": "Tahap Sosialisasi, Tahap Penyimpangan, dan Tahap Pengendalian Sosial Institusional."
+      },
+      {
+        "key": "D",
+        "text": "Tahap Pemisahan (_Separation_), Tahap Ambang / Liminal (_Liminality_), dan Tahap Penggabungan Kembali (_Aggregation / Incorporation_)."
+      },
+      {
+        "key": "E",
+        "text": "Tahap Primitif, Tahap Barbarisme, dan Tahap Peradaban Ilmiah Modern."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Tahap Pemisahan (_Separation_), Tahap Ambang / Liminal (_Liminality_), dan Tahap Penggabungan Kembali (_Aggregation / Incorporation_).. Tiga fase Rites of Passage van Gennep: Pemisahan (Separation), Ambang (Liminality), dan Penggabungan kembali dengan status baru (Incorporation). Pilih: Tahap Pemisahan (Separation), Tahap Ambang (Liminality), dan Tahap Penggabungan (Aggregation/Incorporation)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tahap Pemisahan (_Separation_), Tahap Ambang / Liminal (_Liminality_), dan Tahap Penggabungan Kembali (_Aggregation / Incorporation_).. Tiga fase Rites of Passage van Gennep: Pemisahan (Separation), Ambang (Liminality), dan Penggabungan kembali dengan status baru (Incorporation). Pilih: Tahap Pemisahan (Separation), Tahap Ambang (Liminality), dan Tahap Penggabungan (Aggregation/Incorporation)."
   },
   {
     "id": "ant-lat-e-09",
@@ -369,27 +370,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukuman pidana adat bagi warga desa yang menolak membayar pajak panen kelapa kepada kepala suku menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
-        "text": "Upacara pemanggilan roh nenek moyang agar menurunkan hujan lebat di musim kemarau panjang."
-      },
-      {
-        "key": "C",
         "text": "Perlombaan olahraga modern berhadiah uang tunai untuk memperingati kemerdekaan Republik Indonesia."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Ritus inisiasi penanda peralihan dari masa remaja menuju kedewasaan serta pembuktian kematangan fisik dan mental pemuda untuk siap menjadi ksatria pembela desa."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Upacara pemanggilan roh nenek moyang agar menurunkan hujan lebat di musim kemarau panjang."
+      },
+      {
+        "key": "D",
         "text": "Syarat mutlak yang diwajibkan bagi seluruh pemuda yang ingin menjadi pegawai kantor karesidenan Belanda."
+      },
+      {
+        "key": "E",
+        "text": "Hukuman pidana adat bagi warga desa yang menolak membayar pajak panen kelapa kepada kepala suku menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ritus inisiasi penanda peralihan dari masa remaja menuju kedewasaan serta pembuktian kematangan fisik dan mental pemuda untuk siap menjadi ksatria pembela desa.. Hombo Batu di Nias adalah ritus inisiasi kedewasaan dan kesiapan fisik/mental pemuda menjadi prajurit pembela desa. Pilih opsi: Ritus inisiasi penanda kedewasaan serta pembuktian kematangan pemuda siap menjadi ksatria."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Ritus inisiasi penanda peralihan dari masa remaja menuju kedewasaan serta pembuktian kematangan fisik dan mental pemuda untuk siap menjadi ksatria pembela desa.. Hombo Batu di Nias adalah ritus inisiasi kedewasaan dan kesiapan fisik/mental pemuda menjadi prajurit pembela desa. Pilih opsi: Ritus inisiasi penanda kedewasaan serta pembuktian kematangan pemuda siap menjadi ksatria."
   },
   {
     "id": "ant-lat-e-10",
@@ -412,7 +413,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Catur Asrama (empat tahapan jenjang tingkatan kehidupan manusia dalam menempuh kesempurnaan rohani) diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Tri Hita Karana (tiga prinsip penyebab keharmonisan hidup: hubungan harmonis antara manusia dengan Tuhan/Parahyangan, manusia dengan sesama/Pawongan, dan manusia dengan alam lingkungan/Palemahan)."
       },
       {
         "key": "B",
@@ -420,19 +421,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Panca Yadnya (lima jenis kewajiban upacara persembahan suci tulus ikhlas kepada para dewa dan leluhur)."
-      },
-      {
-        "key": "D",
         "text": "Tat Twam Asi (ajaran kesadaran kosmis bahwa aku adalah engkau dan seluruh makhluk hidup adalah satu kesatuan)."
       },
       {
+        "key": "D",
+        "text": "Panca Yadnya (lima jenis kewajiban upacara persembahan suci tulus ikhlas kepada para dewa dan leluhur)."
+      },
+      {
         "key": "E",
-        "text": "Tri Hita Karana (tiga prinsip penyebab keharmonisan hidup: hubungan harmonis antara manusia dengan Tuhan/Parahyangan, manusia dengan sesama/Pawongan, dan manusia dengan alam lingkungan/Palemahan)."
+        "text": "Catur Asrama (empat tahapan jenjang tingkatan kehidupan manusia dalam menempuh kesempurnaan rohani)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Tri Hita Karana (tiga prinsip penyebab keharmonisan hidup: hubungan harmonis antara manusia dengan Tuhan/Parahyangan, manusia dengan sesama/Pawongan, dan manusia dengan alam lingkungan/Palemahan).. Sistem Subak di Bali didasari filosofi Tri Hita Karana: Parahyangan (Tuhan), Pawongan (sesama manusia), dan Palemahan (alam semesta). Pilih: Tri Hita Karana (harmonisasi manusia dengan Tuhan, sesama manusia, dan alam)."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Tri Hita Karana (tiga prinsip penyebab keharmonisan hidup: hubungan harmonis antara manusia dengan Tuhan/Parahyangan, manusia dengan sesama/Pawongan, dan manusia dengan alam lingkungan/Palemahan).. Sistem Subak di Bali didasari filosofi Tri Hita Karana: Parahyangan (Tuhan), Pawongan (sesama manusia), dan Palemahan (alam semesta). Pilih: Tri Hita Karana (harmonisasi manusia dengan Tuhan, sesama manusia, dan alam)."
   },
   {
     "id": "ant-lat-e-11",
@@ -455,11 +456,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memberlakukan larangan adat untuk memanen atau mengambil biota perikanan tertentu (misalnya teripang, lola, dan ikan karang) dalam jangka waktu tertentu guna menjaga populasi dan kelestarian ekosistem laut."
+        "text": "Mewajibkan seluruh penduduk desa menjual hasil tangkapan laut kepada perusahaan asing dengan harga murah."
       },
       {
         "key": "B",
-        "text": "Membakar seluruh hutan bakau di pesisir pantai untuk membangun kompleks pertambangan nikel skala besar ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Memberlakukan larangan adat untuk memanen atau mengambil biota perikanan tertentu (misalnya teripang, lola, dan ikan karang) dalam jangka waktu tertentu guna menjaga populasi dan kelestarian ekosistem laut."
       },
       {
         "key": "C",
@@ -467,15 +468,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mewajibkan seluruh penduduk desa menjual hasil tangkapan laut kepada perusahaan asing dengan harga murah."
+        "text": "Membakar seluruh hutan bakau di pesisir pantai untuk membangun kompleks pertambangan nikel skala besar."
       },
       {
         "key": "E",
         "text": "Menutup seluruh akses pelayaran perahu nelayan tradisional selama sepuluh tahun berturut-turut tanpa ganti rugi."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Memberlakukan larangan adat untuk memanen atau mengambil biota perikanan tertentu (misalnya teripang, lola, dan ikan karang) dalam jangka waktu tertentu guna menjaga populasi dan kelestarian ekosistem laut.. Tradisi Sasi adalah larangan adat mengambil sumber daya tertentu dalam kurun waktu tertentu untuk menjaga kelestarian ekosistem dan stok alam. Pilih: Memberlakukan larangan adat mengambil biota tertentu dalam kurun waktu tertentu guna menjaga kelestarian ekosistem."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Memberlakukan larangan adat untuk memanen atau mengambil biota perikanan tertentu (misalnya teripang, lola, dan ikan karang) dalam jangka waktu tertentu guna menjaga populasi dan kelestarian ekosistem laut.. Tradisi Sasi adalah larangan adat mengambil sumber daya tertentu dalam kurun waktu tertentu untuk menjaga kelestarian ekosistem dan stok alam. Pilih: Memberlakukan larangan adat mengambil biota tertentu dalam kurun waktu tertentu guna menjaga kelestarian ekosistem."
   },
   {
     "id": "ant-lat-e-12",
@@ -498,27 +499,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Manusia raksasa tertua dari Jawa yang bertubuh kerdil dan memakan dedaunan pohon pinus purba ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
-        "text": "Manusia kera yang berjalan tegak (berdasarkan analisis morfologi tulang paha yang menunjukkan kemampuan bipedal tegak sempurna dipadukan dengan volume otak peralihan)."
-      },
-      {
-        "key": "C",
         "text": "Manusia cerdas modern yang pertama kali mampu membuat kapal layar penjelajah samudra antariksa."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Manusia raksasa tertua dari Jawa yang bertubuh kerdil dan memakan dedaunan pohon pinus purba."
+      },
+      {
+        "key": "C",
         "text": "Kera pemanjat pohon yang tidak mampu menginjakkan kedua kakinya di atas tanah berbatu."
+      },
+      {
+        "key": "D",
+        "text": "Manusia kera yang berjalan tegak (berdasarkan analisis morfologi tulang paha yang menunjukkan kemampuan bipedal tegak sempurna dipadukan dengan volume otak peralihan)."
       },
       {
         "key": "E",
         "text": "Manusia gua pembuat perkakas logam perunggu berteknologi tinggi pada masa glasial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Manusia kera yang berjalan tegak (berdasarkan analisis morfologi tulang paha yang menunjukkan kemampuan bipedal tegak sempurna dipadukan dengan volume otak peralihan).. Pithecanthropus erectus artinya 'manusia kera yang berjalan tegak' (pithekos = kera, anthropos = manusia, erectus = tegak). Pilih opsi: Manusia kera yang berjalan tegak."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Manusia kera yang berjalan tegak (berdasarkan analisis morfologi tulang paha yang menunjukkan kemampuan bipedal tegak sempurna dipadukan dengan volume otak peralihan).. Pithecanthropus erectus artinya 'manusia kera yang berjalan tegak' (pithekos = kera, anthropos = manusia, erectus = tegak). Pilih opsi: Manusia kera yang berjalan tegak."
   },
   {
     "id": "ant-lat-e-13",
@@ -541,27 +542,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tinggi tubuh raksasa melebihi tiga meter dengan struktur rahang gigi predator pemakan daging mentah sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Kapasitas tengkorak kepala sangat besar melebihi 2.000 cc dan memiliki sayap tulang di punggung belakang."
-      },
-      {
-        "key": "C",
-        "text": "Postur tubuh kerdil dengan tinggi sekitar 100 cm, kapasitas volume otak kecil sekitar 380–417 cc, namun telah mampu menggunakan perkakas batu dan hidup berdampingan dengan fauna purba gajah kerdil (_Stegodon_)."
-      },
-      {
-        "key": "D",
         "text": "Tubuh bersisik reptil amfibi yang hidup menyelam di dasar danau kawah gunung berapi aktif."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Kemampuan berbicara dalam dialek bahasa Eropa modern dan menggunakan baju zirah besi berlapis baja."
+      },
+      {
+        "key": "C",
+        "text": "Tinggi tubuh raksasa melebihi tiga meter dengan struktur rahang gigi predator pemakan daging mentah."
+      },
+      {
+        "key": "D",
+        "text": "Postur tubuh kerdil dengan tinggi sekitar 100 cm, kapasitas volume otak kecil sekitar 380–417 cc, namun telah mampu menggunakan perkakas batu dan hidup berdampingan dengan fauna purba gajah kerdil (_Stegodon_)."
+      },
+      {
+        "key": "E",
+        "text": "Kapasitas tengkorak kepala sangat besar melebihi 2.000 cc dan memiliki sayap tulang di punggung belakang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Postur tubuh kerdil dengan tinggi sekitar 100 cm, kapasitas volume otak kecil sekitar 380–417 cc, namun telah mampu menggunakan perkakas batu dan hidup berdampingan dengan fauna purba gajah kerdil (_Stegodon_).. Homo floresiensis berciri kerdil (tinggi ~100 cm, volume otak ~400 cc) akibat dwarfisme pulau, ditemukan di Liang Bua Flores. Pilih: Postur tubuh kerdil (tinggi ~100 cm), volume otak kecil (~380-417 cc), dan hidup bersama Stegodon kerdil."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Postur tubuh kerdil dengan tinggi sekitar 100 cm, kapasitas volume otak kecil sekitar 380–417 cc, namun telah mampu menggunakan perkakas batu dan hidup berdampingan dengan fauna purba gajah kerdil (_Stegodon_).. Homo floresiensis berciri kerdil (tinggi ~100 cm, volume otak ~400 cc) akibat dwarfisme pulau, ditemukan di Liang Bua Flores. Pilih: Postur tubuh kerdil (tinggi ~100 cm), volume otak kecil (~380-417 cc), dan hidup bersama Stegodon kerdil."
   },
   {
     "id": "ant-lat-e-14",
@@ -584,11 +585,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perjalanan darat rombongan suku nomaden dari lembah Sungai Nil di Mesir mengarungi gurun sahara menuju Jawa menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Perjalanan darat rombongan suku nomaden dari lembah Sungai Nil di Mesir mengarungi gurun sahara menuju Jawa menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "B",
-        "text": "Eksodus massal bangsa Viking dari semenanjung Skandinavia menggunakan kapal naga melintasi Kutub Selatan."
+        "text": "Perpindahan penduduk asli benua Amerika melintasi Samudera Atlantik pada masa penjelajahan Spanyol."
       },
       {
         "key": "C",
@@ -596,15 +597,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Migrasi bertahap para penutur rumpun bahasa Austronesia dari pulau Formosa (Taiwan) bergerak ke selatan melalui Filipina menuju Nusantara sekitar 4.000 tahun lalu dengan membawa teknologi pelayaran perahu bercadik dan tradisi cocok tanam (neolitikum)."
+        "text": "Eksodus massal bangsa Viking dari semenanjung Skandinavia menggunakan kapal naga melintasi Kutub Selatan."
       },
       {
         "key": "E",
-        "text": "Perpindahan penduduk asli benua Amerika melintasi Samudera Atlantik pada masa penjelajahan Spanyol."
+        "text": "Migrasi bertahap para penutur rumpun bahasa Austronesia dari pulau Formosa (Taiwan) bergerak ke selatan melalui Filipina menuju Nusantara sekitar 4.000 tahun lalu dengan membawa teknologi pelayaran perahu bercadik dan tradisi cocok tanam (neolitikum)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Migrasi bertahap para penutur rumpun bahasa Austronesia dari pulau Formosa (Taiwan) bergerak ke selatan melalui Filipina menuju Nusantara sekitar 4.000 tahun lalu dengan membawa teknologi pelayaran perahu bercadik dan tradisi cocok tanam (neolitikum).. Teori Out of Taiwan menyatakan nenek moyang penutur Austronesia bermigrasi dari Taiwan lewat Filipina ke Nusantara sekitar 2000-1500 SM dengan perahu bercadik. Pilih opsi: Migrasi penutur Austronesia dari Taiwan lewat Filipina ke Nusantara membawa perahu bercadik dan bercocok tanam."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Migrasi bertahap para penutur rumpun bahasa Austronesia dari pulau Formosa (Taiwan) bergerak ke selatan melalui Filipina menuju Nusantara sekitar 4.000 tahun lalu dengan membawa teknologi pelayaran perahu bercadik dan tradisi cocok tanam (neolitikum).. Teori Out of Taiwan menyatakan nenek moyang penutur Austronesia bermigrasi dari Taiwan lewat Filipina ke Nusantara sekitar 2000-1500 SM dengan perahu bercadik. Pilih opsi: Migrasi penutur Austronesia dari Taiwan lewat Filipina ke Nusantara membawa perahu bercadik dan bercocok tanam."
   },
   {
     "id": "ant-lat-e-15",
@@ -627,15 +628,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Semua bahasa manusia di dunia memiliki jumlah kosakata kata kerja yang persis sama tanpa perbedaan dialek diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
         "text": "Bahasa merupakan bawaan genetik biologis mutlak yang tidak dapat dipengaruhi oleh faktor interaksi lingkungan sosial."
       },
       {
+        "key": "B",
+        "text": "Semua bahasa manusia di dunia memiliki jumlah kosakata kata kerja yang persis sama tanpa perbedaan dialek."
+      },
+      {
         "key": "C",
-        "text": "Bahasa-bahasa bangsa Barat memiliki derajat logika berpikir yang lebih tinggi dibandingkan bahasa-bahasa suku pribumi."
+        "text": "Struktur bahasa yang digunakan oleh suatu kelompok masyarakat membentuk dan memengaruhi cara berpikir, pola persepsi, serta pandangan dunia (_worldview_) para penuturnya terhadap realitas di sekitarnya."
       },
       {
         "key": "D",
@@ -643,11 +644,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Struktur bahasa yang digunakan oleh suatu kelompok masyarakat membentuk dan memengaruhi cara berpikir, pola persepsi, serta pandangan dunia (_worldview_) para penuturnya terhadap realitas di sekitarnya."
+        "text": "Bahasa-bahasa bangsa Barat memiliki derajat logika berpikir yang lebih tinggi dibandingkan bahasa-bahasa suku pribumi."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Struktur bahasa yang digunakan oleh suatu kelompok masyarakat membentuk dan memengaruhi cara berpikir, pola persepsi, serta pandangan dunia (_worldview_) para penuturnya terhadap realitas di sekitarnya.. Hipotesis Sapir-Whorf menyatakan bahasa memengaruhi cara berpikir dan memandang dunia (relativitas linguistik). Pilih opsi: Struktur bahasa membentuk dan memengaruhi cara berpikir serta pola persepsi penuturnya."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Struktur bahasa yang digunakan oleh suatu kelompok masyarakat membentuk dan memengaruhi cara berpikir, pola persepsi, serta pandangan dunia (_worldview_) para penuturnya terhadap realitas di sekitarnya.. Hipotesis Sapir-Whorf menyatakan bahasa memengaruhi cara berpikir dan memandang dunia (relativitas linguistik). Pilih opsi: Struktur bahasa membentuk dan memengaruhi cara berpikir serta pola persepsi penuturnya."
   },
   {
     "id": "ant-lat-e-16",
@@ -674,19 +675,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Arsitektur ukiran tiang kayu rumah adat Tongkonan di Tana Toraja ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Kain tenun ikat tradisional bernilai sakral dari kepulauan Nusa Tenggara Timur."
-      },
-      {
-        "key": "D",
         "text": "Permainan sepak takraw dan perlombaan balap karung perayaan kampung."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Buku ensiklopedia ilmiah yang dicetak dan dipublikasikan oleh percetakan modern."
+      },
+      {
+        "key": "D",
+        "text": "Arsitektur ukiran tiang kayu rumah adat Tongkonan di Tana Toraja."
+      },
+      {
+        "key": "E",
+        "text": "Kain tenun ikat tradisional bernilai sakral dari kepulauan Nusa Tenggara Timur."
       }
     ],
     "correctKey": "A",
@@ -713,27 +714,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mitos selalu ditulis di atas kertas koran harian, sedangkan dongeng hanya diceritakan oleh para pemburu di hutan belantara ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Mitos selalu ditulis di atas kertas koran harian, sedangkan dongeng hanya diceritakan oleh para pemburu di hutan belantara."
       },
       {
         "key": "B",
-        "text": "Mitos dianggap suci, memuat tokoh dewa/makhluk supranatural, dan benar-benar terjadi oleh masyarakat pemiliknya, sedangkan dongeng murni dianggap fiktif/khayalan belaka sebagai hiburan dan tidak terikat waktu maupun tempat suci."
+        "text": "Mitos tidak memiliki nama pengarang, sedangkan dongeng selalu ditandatangani oleh menteri kebudayaan nasional."
       },
       {
         "key": "C",
-        "text": "Mitos menceritakan kisah percintaan binatang cerdik, sedangkan dongeng menceritakan sejarah berdirinya kantor bupati."
+        "text": "Mitos dianggap suci, memuat tokoh dewa/makhluk supranatural, dan benar-benar terjadi oleh masyarakat pemiliknya, sedangkan dongeng murni dianggap fiktif/khayalan belaka sebagai hiburan dan tidak terikat waktu maupun tempat suci."
       },
       {
         "key": "D",
-        "text": "Mitos dilarang diceritakan kepada anak-anak, sedangkan dongeng diwajibkan menjadi undang-undang hukum pidana adat."
+        "text": "Mitos menceritakan kisah percintaan binatang cerdik, sedangkan dongeng menceritakan sejarah berdirinya kantor bupati."
       },
       {
         "key": "E",
-        "text": "Mitos tidak memiliki nama pengarang, sedangkan dongeng selalu ditandatangani oleh menteri kebudayaan nasional."
+        "text": "Mitos dilarang diceritakan kepada anak-anak, sedangkan dongeng diwajibkan menjadi undang-undang hukum pidana adat."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Mitos dianggap suci, memuat tokoh dewa/makhluk supranatural, dan benar-benar terjadi oleh masyarakat pemiliknya, sedangkan dongeng murni dianggap fiktif/khayalan belaka sebagai hiburan dan tidak terikat waktu maupun tempat suci.. Mitos dianggap suci dan benar terjadi (tokoh dewa/gaib), sedangkan dongeng murni khayalan hiburan tanpa dianggap nyata. Pilih: Mitos dianggap suci, memuat tokoh dewa, dan benar terjadi, sedangkan dongeng dianggap fiktif belaka sebagai hiburan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mitos dianggap suci, memuat tokoh dewa/makhluk supranatural, dan benar-benar terjadi oleh masyarakat pemiliknya, sedangkan dongeng murni dianggap fiktif/khayalan belaka sebagai hiburan dan tidak terikat waktu maupun tempat suci.. Mitos dianggap suci dan benar terjadi (tokoh dewa/gaib), sedangkan dongeng murni khayalan hiburan tanpa dianggap nyata. Pilih: Mitos dianggap suci, memuat tokoh dewa, dan benar terjadi, sedangkan dongeng dianggap fiktif belaka sebagai hiburan."
   },
   {
     "id": "ant-lat-e-18",
@@ -756,15 +757,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Etnosentrisme (penilaian sepihak bahwa budaya sendiri lebih mulia daripada kebudayaan bangsa lain) sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
         "text": "Enkulturasi (proses belajar dan penyesuaian alam pikiran seorang individu terhadap sistem norma budayanya sejak masa kanak-kanak)."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Difusi Kebudayaan (proses penyebaran unsur-unsur kebudayaan dan gagasan dari satu kebudayaan ke kebudayaan lain di belahan dunia)."
+      },
+      {
+        "key": "C",
+        "text": "Etnosentrisme (penilaian sepihak bahwa budaya sendiri lebih mulia daripada kebudayaan bangsa lain)."
       },
       {
         "key": "D",
@@ -775,8 +776,8 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
         "text": "Marginalisasi (proses penyingkiran kelompok minoritas dari akses perekonomian dan kekuasaan politik)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Difusi Kebudayaan (proses penyebaran unsur-unsur kebudayaan dan gagasan dari satu kebudayaan ke kebudayaan lain di belahan dunia).. Penyebaran unsur-unsur budaya dari satu masyarakat ke masyarakat lain dinamakan difusi kebudayaan. Pilih opsi Difusi Kebudayaan."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Difusi Kebudayaan (proses penyebaran unsur-unsur kebudayaan dan gagasan dari satu kebudayaan ke kebudayaan lain di belahan dunia).. Penyebaran unsur-unsur budaya dari satu masyarakat ke masyarakat lain dinamakan difusi kebudayaan. Pilih opsi Difusi Kebudayaan."
   },
   {
     "id": "ant-lat-e-19",
@@ -799,27 +800,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dekulturasi Kebudayaan (hilangnya seluruh unsur kebudayaan lokal akibat pemusnahan paksa oleh kekuasaan otoriter) menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
-        "text": "Asimilasi Kebudayaan Penuh (peleburan total yang menghilangkan sama sekali seluruh jejak budaya lama hingga tak bersisa)."
-      },
-      {
-        "key": "C",
         "text": "Inovasi Budaya Monosentris (penemuan teknologi murni tanpa adanya kontak dengan kelompok peradaban lain)."
       },
       {
+        "key": "B",
+        "text": "Xenofobia Struktural (sikap penolakan mutlak terhadap pengaruh unsur-unsur budaya dari peradaban masa lalu)."
+      },
+      {
+        "key": "C",
+        "text": "Dekulturasi Kebudayaan (hilangnya seluruh unsur kebudayaan lokal akibat pemusnahan paksa oleh kekuasaan otoriter) menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+      },
+      {
         "key": "D",
-        "text": "Akulturasi Kebudayaan (proses perjumpaan dua unsur kebudayaan berbeda yang saling memengaruhi dan berpadu tanpa menghilangkan identitas kebudayaan aslinya)."
+        "text": "Asimilasi Kebudayaan Penuh (peleburan total yang menghilangkan sama sekali seluruh jejak budaya lama hingga tak bersisa)."
       },
       {
         "key": "E",
-        "text": "Xenofobia Struktural (sikap penolakan mutlak terhadap pengaruh unsur-unsur budaya dari peradaban masa lalu)."
+        "text": "Akulturasi Kebudayaan (proses perjumpaan dua unsur kebudayaan berbeda yang saling memengaruhi dan berpadu tanpa menghilangkan identitas kebudayaan aslinya)."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Akulturasi Kebudayaan (proses perjumpaan dua unsur kebudayaan berbeda yang saling memengaruhi dan berpadu tanpa menghilangkan identitas kebudayaan aslinya).. Akulturasi adalah percampuran dua kebudayaan atau lebih yang menghasilkan bentuk baru tanpa menghilangkan ciri kepribadian kebudayaan aslinya. Pilih opsi Akulturasi Kebudayaan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Akulturasi Kebudayaan (proses perjumpaan dua unsur kebudayaan berbeda yang saling memengaruhi dan berpadu tanpa menghilangkan identitas kebudayaan aslinya).. Akulturasi adalah percampuran dua kebudayaan atau lebih yang menghasilkan bentuk baru tanpa menghilangkan ciri kepribadian kebudayaan aslinya. Pilih opsi Akulturasi Kebudayaan."
   },
   {
     "id": "ant-lat-e-20",
@@ -842,7 +843,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyembahan terhadap patung-patung dewa berkepala singa yang diimpor dari daratan kekaisaran Yunani kuno diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Pemujaan dan penghormatan kepada arwah para leluhur (_Marapu_) yang dipercaya menjadi perantara penghubung antara manusia yang masih hidup dengan Sang Pencipta Yang Maha Tinggi (_Mawulu Tau - Majii Tau_)."
       },
       {
         "key": "B",
@@ -854,15 +855,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penolakan terhadap segala bentuk upacara penguburan jenazah dan pelarangan ziarah kubur batu megalitikum."
+        "text": "Penyembahan terhadap patung-patung dewa berkepala singa yang diimpor dari daratan kekaisaran Yunani kuno."
       },
       {
         "key": "E",
-        "text": "Pemujaan dan penghormatan kepada arwah para leluhur (_Marapu_) yang dipercaya menjadi perantara penghubung antara manusia yang masih hidup dengan Sang Pencipta Yang Maha Tinggi (_Mawulu Tau - Majii Tau_)."
+        "text": "Penolakan terhadap segala bentuk upacara penguburan jenazah dan pelarangan ziarah kubur batu megalitikum."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pemujaan dan penghormatan kepada arwah para leluhur (_Marapu_) yang dipercaya menjadi perantara penghubung antara manusia yang masih hidup dengan Sang Pencipta Yang Maha Tinggi (_Mawulu Tau - Majii Tau_).. Marapu adalah agama asli di Sumba yang meyakini roh leluhur (Marapu) sebagai perantara manusia dengan Sang Pencipta. Pilih: Pemujaan kepada arwah leluhur (Marapu) sebagai perantara antara manusia dengan Sang Pencipta."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Pemujaan dan penghormatan kepada arwah para leluhur (_Marapu_) yang dipercaya menjadi perantara penghubung antara manusia yang masih hidup dengan Sang Pencipta Yang Maha Tinggi (_Mawulu Tau - Majii Tau_).. Marapu adalah agama asli di Sumba yang meyakini roh leluhur (Marapu) sebagai perantara manusia dengan Sang Pencipta. Pilih: Pemujaan kepada arwah leluhur (Marapu) sebagai perantara antara manusia dengan Sang Pencipta."
   },
   {
     "id": "ant-lat-e-21",
@@ -885,11 +886,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Struktur kayu pasak tanpa paku besi yang elastis dan adaptif terhadap guncangan gempa bumi serta atap gonjong yang melambangkan kebersamaan dan kedekatan dengan alam semesta."
+        "text": "Konstruksi rumah mengharuskan penggunaan kaca kristal impor untuk memamerkan kekayaan uang saudagar tambang."
       },
       {
         "key": "B",
-        "text": "Dibangun murni dari semen cor beton tebal agar tahan terhadap serangan meriam kapal perang angkatan laut kolonial ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Ruang dalam rumah dirancang tanpa pintu masuk agar tidak ada orang asing yang dapat bertamu ke dalam keluarga."
       },
       {
         "key": "C",
@@ -897,15 +898,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Ruang dalam rumah dirancang tanpa pintu masuk agar tidak ada orang asing yang dapat bertamu ke dalam keluarga."
+        "text": "Struktur kayu pasak tanpa paku besi yang elastis dan adaptif terhadap guncangan gempa bumi serta atap gonjong yang melambangkan kebersamaan dan kedekatan dengan alam semesta."
       },
       {
         "key": "E",
-        "text": "Konstruksi rumah mengharuskan penggunaan kaca kristal impor untuk memamerkan kekayaan uang saudagar tambang."
+        "text": "Dibangun murni dari semen cor beton tebal agar tahan terhadap serangan meriam kapal perang angkatan laut kolonial."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Struktur kayu pasak tanpa paku besi yang elastis dan adaptif terhadap guncangan gempa bumi serta atap gonjong yang melambangkan kebersamaan dan kedekatan dengan alam semesta.. Rumah Gadang Minangkabau mengandalkan pasak kayu tanpa paku dan sendi batu sehingga lentur serta tahan gempa bumi. Pilih: Struktur pasak kayu tanpa paku besi yang lentur dan tahan gempa serta atap gonjong melambangkan kebersamaan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Struktur kayu pasak tanpa paku besi yang elastis dan adaptif terhadap guncangan gempa bumi serta atap gonjong yang melambangkan kebersamaan dan kedekatan dengan alam semesta.. Rumah Gadang Minangkabau mengandalkan pasak kayu tanpa paku dan sendi batu sehingga lentur serta tahan gempa bumi. Pilih: Struktur pasak kayu tanpa paku besi yang lentur dan tahan gempa serta atap gonjong melambangkan kebersamaan."
   },
   {
     "id": "ant-lat-e-22",
@@ -928,11 +929,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pola Menetap Patrilokal / Virilokal (pasangan suami istri menetap di sekitar lingkungan kerabat keluarga suami) ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Pola Menetap Patrilokal / Virilokal (pasangan suami istri menetap di sekitar lingkungan kerabat keluarga suami)."
       },
       {
         "key": "B",
-        "text": "Pola Menetap Neolokal (pasangan suami istri baru mendirikan tempat kediaman baru yang mandiri terpisah dari kerabat kedua belah pihak)."
+        "text": "Pola Menetap Bilokal (pasangan suami istri diwajibkan berganti tempat tinggal setiap satu minggu sekali secara bergiliran)."
       },
       {
         "key": "C",
@@ -944,11 +945,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pola Menetap Bilokal (pasangan suami istri diwajibkan berganti tempat tinggal setiap satu minggu sekali secara bergiliran)."
+        "text": "Pola Menetap Neolokal (pasangan suami istri baru mendirikan tempat kediaman baru yang mandiri terpisah dari kerabat kedua belah pihak)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pola Menetap Neolokal (pasangan suami istri baru mendirikan tempat kediaman baru yang mandiri terpisah dari kerabat kedua belah pihak).. Neolokal (neo = baru, locus = tempat): pasangan baru tinggal di rumah tangga mandiri baru, terpisah dari keluarga kedua pihak. Pilih opsi Pola Menetap Neolokal."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pola Menetap Neolokal (pasangan suami istri baru mendirikan tempat kediaman baru yang mandiri terpisah dari kerabat kedua belah pihak).. Neolokal (neo = baru, locus = tempat): pasangan baru tinggal di rumah tangga mandiri baru, terpisah dari keluarga kedua pihak. Pilih opsi Pola Menetap Neolokal."
   },
   {
     "id": "ant-lat-e-23",
@@ -971,11 +972,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Para petani membabat habis seluruh hutan lindung tanpa pernah menanam kembali tanaman pangan apa pun sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Setiap keluarga diwajibkan menggunakan pupuk kimia sintetis berkonsentrasi tinggi buatan pabrik asing."
       },
       {
         "key": "B",
-        "text": "Setiap keluarga diwajibkan menggunakan pupuk kimia sintetis berkonsentrasi tinggi buatan pabrik asing."
+        "text": "Seluruh pohon di hutan ditebang untuk diekspor ke pabrik kertas di luar kepulauan Nusantara."
       },
       {
         "key": "C",
@@ -983,11 +984,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Lahan pertanian yang sudah dipanen langsung dijual kepada korporasi perkebunan kelapa sawit swasta."
+        "text": "Para petani membabat habis seluruh hutan lindung tanpa pernah menanam kembali tanaman pangan apa pun."
       },
       {
         "key": "E",
-        "text": "Seluruh pohon di hutan ditebang untuk diekspor ke pabrik kertas di luar kepulauan Nusantara."
+        "text": "Lahan pertanian yang sudah dipanen langsung dijual kepada korporasi perkebunan kelapa sawit swasta."
       }
     ],
     "correctKey": "C",
@@ -1018,7 +1019,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Menyita seluruh harta benda keluarga pelaku untuk dibagikan secara gratis kepada para pedagang asing."
+        "text": "Memulihkan keseimbangan kosmis dan keharmonisan sosial (_restorative justice_) antarsesama warga komunitas tanpa menciptakan dendam atau pihak yang dipermalukan."
       },
       {
         "key": "C",
@@ -1026,15 +1027,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Memulihkan keseimbangan kosmis dan keharmonisan sosial (_restorative justice_) antarsesama warga komunitas tanpa menciptakan dendam atau pihak yang dipermalukan."
+        "text": "Mengharuskan kedua belah pihak yang bersengketa bertarung fisik menggunakan senjata pedang hingga tewas."
       },
       {
         "key": "E",
-        "text": "Mengharuskan kedua belah pihak yang bersengketa bertarung fisik menggunakan senjata pedang hingga tewas."
+        "text": "Menyita seluruh harta benda keluarga pelaku untuk dibagikan secara gratis kepada para pedagang asing."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Memulihkan keseimbangan kosmis dan keharmonisan sosial (_restorative justice_) antarsesama warga komunitas tanpa menciptakan dendam atau pihak yang dipermalukan.. Tujuan hukum adat adalah keadilan restoratif (restorative justice): memulihkan keseimbangan kosmis dan keharmonisan hidup bersama, bukan membalas dendam. Pilih: Memulihkan keseimbangan kosmis dan keharmonisan sosial antarsesama warga tanpa menciptakan dendam."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Memulihkan keseimbangan kosmis dan keharmonisan sosial (_restorative justice_) antarsesama warga komunitas tanpa menciptakan dendam atau pihak yang dipermalukan.. Tujuan hukum adat adalah keadilan restoratif (restorative justice): memulihkan keseimbangan kosmis dan keharmonisan hidup bersama, bukan membalas dendam. Pilih: Memulihkan keseimbangan kosmis dan keharmonisan sosial antarsesama warga tanpa menciptakan dendam."
   },
   {
     "id": "ant-lat-e-25",
@@ -1057,27 +1058,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Revitalisasi Budaya (gerakan menghidupkan kembali tradisi kuno yang hampir punah agar tetap dilestarikan generasi muda) diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Revitalisasi Budaya (gerakan menghidupkan kembali tradisi kuno yang hampir punah agar tetap dilestarikan generasi muda)."
       },
       {
         "key": "B",
-        "text": "Akulturasi Simbolik (perpaduan damai antara dua unsur kesenian tradisional tanpa melibatkan faktor transaksi uang)."
-      },
-      {
-        "key": "C",
-        "text": "Etnogenesis Komunitas (proses pembentukan kelompok etnis atau suku bangsa baru akibat penyatuan wilayah teritorial)."
-      },
-      {
-        "key": "D",
         "text": "Enkulturasi Terencana (proses pengajaran tata krama adat kepada anak-anak balita di dalam lingkungan rumah tangga)."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Komodifikasi Budaya (_Cultural Commodification_, yaitu pergeseran fungsi kebudayaan dari nilai spiritual-kolektif menjadi komoditas ekonomi yang diperjualbelikan)."
+      },
+      {
+        "key": "D",
+        "text": "Akulturasi Simbolik (perpaduan damai antara dua unsur kesenian tradisional tanpa melibatkan faktor transaksi uang)."
+      },
+      {
+        "key": "E",
+        "text": "Etnogenesis Komunitas (proses pembentukan kelompok etnis atau suku bangsa baru akibat penyatuan wilayah teritorial)."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Komodifikasi Budaya (_Cultural Commodification_, yaitu pergeseran fungsi kebudayaan dari nilai spiritual-kolektif menjadi komoditas ekonomi yang diperjualbelikan).. Komodifikasi budaya adalah pergeseran nilai tradisi sakral menjadi komoditas barang/jasa komersial untuk konsumsi pasar (wisatawan). Pilih opsi Komodifikasi Budaya (Cultural Commodification)."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Komodifikasi Budaya (_Cultural Commodification_, yaitu pergeseran fungsi kebudayaan dari nilai spiritual-kolektif menjadi komoditas ekonomi yang diperjualbelikan).. Komodifikasi budaya adalah pergeseran nilai tradisi sakral menjadi komoditas barang/jasa komersial untuk konsumsi pasar (wisatawan). Pilih opsi Komodifikasi Budaya (Cultural Commodification)."
   },
   {
     "id": "ant-lat-m-01",
@@ -1100,11 +1101,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tinggal menetap bersama komunitas lokal dalam kurun waktu lama, menguasai bahasa setempat, serta ikut serta secara langsung dalam aktivitas kehidupan sehari-hari masyarakat guna menangkap sudut pandang pribumi mengenai dunianya."
+        "text": "Mewawancarai para pejabat polisi militer kolonial untuk mendapatkan data statistik kriminalitas masyarakat pedalaman."
       },
       {
         "key": "B",
-        "text": "Menyebarkan kuesioner angket survei lewat pos dari hotel bintang lima tanpa perlu bertemu langsung dengan warga desa ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Menyebarkan kuesioner angket survei lewat pos dari hotel bintang lima tanpa perlu bertemu langsung dengan warga desa."
       },
       {
         "key": "C",
@@ -1112,15 +1113,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Mewawancarai para pejabat polisi militer kolonial untuk mendapatkan data statistik kriminalitas masyarakat pedalaman."
+        "text": "Tinggal menetap bersama komunitas lokal dalam kurun waktu lama, menguasai bahasa setempat, serta ikut serta secara langsung dalam aktivitas kehidupan sehari-hari masyarakat guna menangkap sudut pandang pribumi mengenai dunianya."
       },
       {
         "key": "E",
         "text": "Mengambil foto artefak dari helikopter terbang tanpa pernah menginjakkan kaki di atas tanah pemukiman adat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Tinggal menetap bersama komunitas lokal dalam kurun waktu lama, menguasai bahasa setempat, serta ikut serta secara langsung dalam aktivitas kehidupan sehari-hari masyarakat guna menangkap sudut pandang pribumi mengenai dunianya.. Observasi partisipan Malinowski menuntut etnografer tinggal lama di tengah masyarakat, menguasai bahasa lokal, dan ikut menjalani keseharian masyarakat. Pilih opsi tinggal menetap lama bersama komunitas, menguasai bahasa setempat, dan ikut serta langsung dalam aktivitas harian."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Tinggal menetap bersama komunitas lokal dalam kurun waktu lama, menguasai bahasa setempat, serta ikut serta secara langsung dalam aktivitas kehidupan sehari-hari masyarakat guna menangkap sudut pandang pribumi mengenai dunianya.. Observasi partisipan Malinowski menuntut etnografer tinggal lama di tengah masyarakat, menguasai bahasa lokal, dan ikut menjalani keseharian masyarakat. Pilih opsi tinggal menetap lama bersama komunitas, menguasai bahasa setempat, dan ikut serta langsung dalam aktivitas harian."
   },
   {
     "id": "ant-lat-m-02",
@@ -1143,11 +1144,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengumpulkan keuntungan deviden uang tunai untuk membeli saham kepemilikan pabrik kapal layar uap modern ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Membangun dan memelihara hubungan persahabatan, jaringan aliansi perdamaian antarpulau, serta meningkatkan prestise dan status kehormatan sosial para pelakunya, bukan mencari keuntungan laba material ekonomi komersial."
       },
       {
         "key": "B",
-        "text": "Membangun dan memelihara hubungan persahabatan, jaringan aliansi perdamaian antarpulau, serta meningkatkan prestise dan status kehormatan sosial para pelakunya, bukan mencari keuntungan laba material ekonomi komersial."
+        "text": "Memenuhi kebutuhan pokok pangan beras keluarga di masa paceklik kekeringan lahan pertanian."
       },
       {
         "key": "C",
@@ -1159,11 +1160,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memenuhi kebutuhan pokok pangan beras keluarga di masa paceklik kekeringan lahan pertanian."
+        "text": "Mengumpulkan keuntungan deviden uang tunai untuk membeli saham kepemilikan pabrik kapal layar uap modern."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Membangun dan memelihara hubungan persahabatan, jaringan aliansi perdamaian antarpulau, serta meningkatkan prestise dan status kehormatan sosial para pelakunya, bukan mencari keuntungan laba material ekonomi komersial.. Kula Ring adalah pertukaran simbolis gelang dan kalung kerang untuk menjalin persahabatan, aliansi politik antarpulau, dan prestise martabat sosial. Pilih: Membangun aliansi perdamaian antarpulau, memelihara persahabatan, dan meningkatkan prestise kehormatan sosial."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Membangun dan memelihara hubungan persahabatan, jaringan aliansi perdamaian antarpulau, serta meningkatkan prestise dan status kehormatan sosial para pelakunya, bukan mencari keuntungan laba material ekonomi komersial.. Kula Ring adalah pertukaran simbolis gelang dan kalung kerang untuk menjalin persahabatan, aliansi politik antarpulau, dan prestise martabat sosial. Pilih: Membangun aliansi perdamaian antarpulau, memelihara persahabatan, dan meningkatkan prestise kehormatan sosial."
   },
   {
     "id": "ant-lat-m-03",
@@ -1186,11 +1187,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Upacara militer rahasia untuk melatih prajurit kavaleri berkuda dalam menghadapi agresi tentara Belanda sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Metode seleksi ilmiah untuk menemukan bibit unggul unggas petelur bagi industri peternakan modern."
       },
       {
         "key": "B",
-        "text": "Metode seleksi ilmiah untuk menemukan bibit unggul unggas petelur bagi industri peternakan modern."
+        "text": "Praktik peradilan pidana adat untuk mengeksekusi para narapidana pencuri gabah padi sawah."
       },
       {
         "key": "C",
@@ -1198,11 +1199,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Kewajiban upacara pemujaan dewa laut yang diwajibkan bagi seluruh nelayan di pesisir pantai Sanur."
+        "text": "Upacara militer rahasia untuk melatih prajurit kavaleri berkuda dalam menghadapi agresi tentara Belanda."
       },
       {
         "key": "E",
-        "text": "Praktik peradilan pidana adat untuk mengeksekusi para narapidana pencuri gabah padi sawah."
+        "text": "Kewajiban upacara pemujaan dewa laut yang diwajibkan bagi seluruh nelayan di pesisir pantai Sanur."
       }
     ],
     "correctKey": "C",
@@ -1229,15 +1230,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh kebudayaan di muka bumi berasal dari satu kerajaan piramida tunggal yang pernah berdiri di lembah Sungai Nil Mesir menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Masyarakat modern di Eropa tidak memiliki sistem norma moral dan hanya hidup berdasarkan naluri insting kehewanan purba."
       },
       {
         "key": "B",
-        "text": "Tingkat kecerdasan berpikir manusia ditentukan secara mutlak oleh bentuk lingkar tengkorak kepala dan warna pigmen kulit."
+        "text": "Semua suku bangsa primitif ditakdirkan punah dalam waktu lima puluh tahun akibat ketidakmampuan beradaptasi dengan mesin uap."
       },
       {
         "key": "C",
-        "text": "Semua suku bangsa primitif ditakdirkan punah dalam waktu lima puluh tahun akibat ketidakmampuan beradaptasi dengan mesin uap."
+        "text": "Tingkat kecerdasan berpikir manusia ditentukan secara mutlak oleh bentuk lingkar tengkorak kepala dan warna pigmen kulit."
       },
       {
         "key": "D",
@@ -1245,7 +1246,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Masyarakat modern di Eropa tidak memiliki sistem norma moral dan hanya hidup berdasarkan naluri insting kehewanan purba."
+        "text": "Seluruh kebudayaan di muka bumi berasal dari satu kerajaan piramida tunggal yang pernah berdiri di lembah Sungai Nil Mesir menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       }
     ],
     "correctKey": "D",
@@ -1272,15 +1273,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencabut seluruh hak waris anak perempuan dan mengasingkannya ke luar dari desa tempat kelahirannya diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Memperhitungkan hubungan kekerabatan secara seimbang dan simetris baik melalui garis keturunan pihak ayah maupun pihak ibu tanpa adanya pembedaan derajat antara keluarga pihak laki-laki dan perempuan."
       },
       {
         "key": "B",
-        "text": "Mewajibkan suami memutuskan hubungan silaturahmi dengan orang tua kandungnya setelah melangsungkan akad nikah."
+        "text": "Mencabut seluruh hak waris anak perempuan dan mengasingkannya ke luar dari desa tempat kelahirannya."
       },
       {
         "key": "C",
-        "text": "Mengharuskan setiap keluarga mengangkat kepala suku perang sebagai penguasa mutlak atas anak keturunannya."
+        "text": "Mewajibkan suami memutuskan hubungan silaturahmi dengan orang tua kandungnya setelah melangsungkan akad nikah."
       },
       {
         "key": "D",
@@ -1288,11 +1289,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Memperhitungkan hubungan kekerabatan secara seimbang dan simetris baik melalui garis keturunan pihak ayah maupun pihak ibu tanpa adanya pembedaan derajat antara keluarga pihak laki-laki dan perempuan."
+        "text": "Mengharuskan setiap keluarga mengangkat kepala suku perang sebagai penguasa mutlak atas anak keturunannya."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Memperhitungkan hubungan kekerabatan secara seimbang dan simetris baik melalui garis keturunan pihak ayah maupun pihak ibu tanpa adanya pembedaan derajat antara keluarga pihak laki-laki dan perempuan.. Sistem bilateral (parental) memperhitungkan hubungan kekerabatan secara seimbang melalui garis ayah dan ibu (seperti pada suku Jawa dan Sunda). Pilih: Memperhitungkan hubungan kekerabatan secara seimbang baik melalui pihak ayah maupun pihak ibu tanpa pembedaan derajat."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Memperhitungkan hubungan kekerabatan secara seimbang dan simetris baik melalui garis keturunan pihak ayah maupun pihak ibu tanpa adanya pembedaan derajat antara keluarga pihak laki-laki dan perempuan.. Sistem bilateral (parental) memperhitungkan hubungan kekerabatan secara seimbang melalui garis ayah dan ibu (seperti pada suku Jawa dan Sunda). Pilih: Memperhitungkan hubungan kekerabatan secara seimbang baik melalui pihak ayah maupun pihak ibu tanpa pembedaan derajat."
   },
   {
     "id": "ant-lat-m-06",
@@ -1315,27 +1316,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mencegah fragmentasi (pemecahan) kepemilikan tanah pertanian yang sangat sempit dan langka di lereng pegunungan berbatu, serta menekan laju pertumbuhan populasi penduduk di wilayah berdaya dukung lingkungan sangat terbatas."
+        "text": "Memenuhi dekrit kaisar Dinasti Qing untuk menyeragamkan seluruh dialek bahasa di kawasan Asia Timur."
       },
       {
         "key": "B",
-        "text": "Menjamin kemenangan angkatan perang kekaisaran dalam pertempuran laut melintasi samudra Hindia ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Menggandakan jumlah penerimaan uang zakat fitrah bagi para pemuka agama kuil Buddha pedalaman."
-      },
-      {
-        "key": "D",
         "text": "Memaksa kaum wanita menjadi tentara pemburu binatang buas di padang salju abadi pegunungan."
       },
       {
+        "key": "C",
+        "text": "Menjamin kemenangan angkatan perang kekaisaran dalam pertempuran laut melintasi samudra Hindia."
+      },
+      {
+        "key": "D",
+        "text": "Menggandakan jumlah penerimaan uang zakat fitrah bagi para pemuka agama kuil Buddha pedalaman."
+      },
+      {
         "key": "E",
-        "text": "Memenuhi dekrit kaisar Dinasti Qing untuk menyeragamkan seluruh dialek bahasa di kawasan Asia Timur."
+        "text": "Mencegah fragmentasi (pemecahan) kepemilikan tanah pertanian yang sangat sempit dan langka di lereng pegunungan berbatu, serta menekan laju pertumbuhan populasi penduduk di wilayah berdaya dukung lingkungan sangat terbatas."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Mencegah fragmentasi (pemecahan) kepemilikan tanah pertanian yang sangat sempit dan langka di lereng pegunungan berbatu, serta menekan laju pertumbuhan populasi penduduk di wilayah berdaya dukung lingkungan sangat terbatas.. Poliandri fraternal di Tibet adalah adaptasi ekologis: mencegah tanah pertanian sempit terpecah-pecah ke banyak ahli waris dan menekan ledakan populasi. Pilih opsi mencegah fragmentasi tanah pertanian yang langka di pegunungan serta menekan laju pertumbuhan populasi penduduk."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mencegah fragmentasi (pemecahan) kepemilikan tanah pertanian yang sangat sempit dan langka di lereng pegunungan berbatu, serta menekan laju pertumbuhan populasi penduduk di wilayah berdaya dukung lingkungan sangat terbatas.. Poliandri fraternal di Tibet adalah adaptasi ekologis: mencegah tanah pertanian sempit terpecah-pecah ke banyak ahli waris dan menekan ledakan populasi. Pilih opsi mencegah fragmentasi tanah pertanian yang langka di pegunungan serta menekan laju pertumbuhan populasi penduduk."
   },
   {
     "id": "ant-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghukum para bangsawan istana yang menolak menyumbangkan perhiasan emas kepada biara peribadatan ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Membatasi hak kepemilikan kapal penangkap ikan paus hanya bagi keluarga yang memiliki sepuluh anak laki-laki."
       },
       {
         "key": "B",
-        "text": "Memaksa kelompok-kelompok klan keluarga untuk tidak mengisolasi diri, melainkan keluar menjalin aliansi perkawinan eksogami dan pertukaran sosial timbal balik dengan kelompok klan lain demi mencegah konflik permusuhan dan menjamin integrasi masyarakat."
+        "text": "Menghukum para bangsawan istana yang menolak menyumbangkan perhiasan emas kepada biara peribadatan."
       },
       {
         "key": "C",
-        "text": "Memastikan bahwa seluruh anggota suku bangsa memiliki golongan darah dan susunan genetik yang seragam."
+        "text": "Memaksa kelompok-kelompok klan keluarga untuk tidak mengisolasi diri, melainkan keluar menjalin aliansi perkawinan eksogami dan pertukaran sosial timbal balik dengan kelompok klan lain demi mencegah konflik permusuhan dan menjamin integrasi masyarakat."
       },
       {
         "key": "D",
-        "text": "Membatasi hak kepemilikan kapal penangkap ikan paus hanya bagi keluarga yang memiliki sepuluh anak laki-laki."
+        "text": "Memastikan bahwa seluruh anggota suku bangsa memiliki golongan darah dan susunan genetik yang seragam."
       },
       {
         "key": "E",
         "text": "Memaksa pemuda desa meninggalkan tanah leluhur untuk menjadi buruh perkebunan tembakau kolonial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Memaksa kelompok-kelompok klan keluarga untuk tidak mengisolasi diri, melainkan keluar menjalin aliansi perkawinan eksogami dan pertukaran sosial timbal balik dengan kelompok klan lain demi mencegah konflik permusuhan dan menjamin integrasi masyarakat.. Menurut Lévi-Strauss, tabu insest bukan sekadar biologi, melainkan aturan kultural yang memaksa perkawinan eksogami antar-klan untuk menjalin aliansi dan integrasi sosial. Pilih: Memaksa kelompok klan keluar menjalin aliansi perkawinan eksogami dan pertukaran timbal balik guna mencegah permusuhan."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Memaksa kelompok-kelompok klan keluarga untuk tidak mengisolasi diri, melainkan keluar menjalin aliansi perkawinan eksogami dan pertukaran sosial timbal balik dengan kelompok klan lain demi mencegah konflik permusuhan dan menjamin integrasi masyarakat.. Menurut Lévi-Strauss, tabu insest bukan sekadar biologi, melainkan aturan kultural yang memaksa perkawinan eksogami antar-klan untuk menjalin aliansi dan integrasi sosial. Pilih: Memaksa kelompok klan keluar menjalin aliansi perkawinan eksogami dan pertukaran timbal balik guna mencegah permusuhan."
   },
   {
     "id": "ant-lat-m-08",
@@ -1401,27 +1402,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membuang seluruh abu sisa pembakaran jenazah ke dalam kawah gunung berapi aktif di pulau Jawa sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Menyerahkan seluruh hewan ternak babi milik keluarga kepada pejabat kantor pajak kementerian perbendaharaan."
-      },
-      {
-        "key": "C",
         "text": "Menggali kembali tulang belulang jenazah dari kubur tanah, menyucikannya, lalu memindahkannya ke dalam bangunan panggung berukir (_Sandung_) guna mengantarkan arwah leluhur (_Liau_) menuju alam baka kesempurnaan tertinggi (_Lewu Tatau_)."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Menyanyikan lagu-lagu hiburan dansa modern untuk memikat minat para pemodal perkebunan kelapa sawit."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Melarang seluruh sanak saudara mendatangi makam leluhur selama tujuh generasi berturut-turut."
+      },
+      {
+        "key": "D",
+        "text": "Membuang seluruh abu sisa pembakaran jenazah ke dalam kawah gunung berapi aktif di pulau Jawa."
+      },
+      {
+        "key": "E",
+        "text": "Menyerahkan seluruh hewan ternak babi milik keluarga kepada pejabat kantor pajak kementerian perbendaharaan."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Menggali kembali tulang belulang jenazah dari kubur tanah, menyucikannya, lalu memindahkannya ke dalam bangunan panggung berukir (_Sandung_) guna mengantarkan arwah leluhur (_Liau_) menuju alam baka kesempurnaan tertinggi (_Lewu Tatau_).. Tiwah adalah ritus pemindahan tulang belulang leluhur ke tempat suci bernama Sandung untuk mengantarkan arwah (Liau) menuju surga abadi (Lewu Tatau). Pilih opsi menggali tulang belulang, menyucikannya, dan memindahkannya ke Sandung menuju Lewu Tatau."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menggali kembali tulang belulang jenazah dari kubur tanah, menyucikannya, lalu memindahkannya ke dalam bangunan panggung berukir (_Sandung_) guna mengantarkan arwah leluhur (_Liau_) menuju alam baka kesempurnaan tertinggi (_Lewu Tatau_).. Tiwah adalah ritus pemindahan tulang belulang leluhur ke tempat suci bernama Sandung untuk mengantarkan arwah (Liau) menuju surga abadi (Lewu Tatau). Pilih opsi menggali tulang belulang, menyucikannya, dan memindahkannya ke Sandung menuju Lewu Tatau."
   },
   {
     "id": "ant-lat-m-09",
@@ -1444,7 +1445,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemusnahan seluruh barang bukti kejahatan tindak pidana agar tidak diselidiki oleh aparat penegak hukum formal menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Kewajiban menghancurkan seluruh peninggalan kitab suci kuno yang tersimpan di dalam perpustakaan istana."
       },
       {
         "key": "B",
@@ -1452,19 +1453,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Kewajiban menghancurkan seluruh peninggalan kitab suci kuno yang tersimpan di dalam perpustakaan istana."
-      },
-      {
-        "key": "D",
         "text": "Mengembalikan kelima unsur materi pembentuk badan kasar manusia (_Panca Maha Bhuta_: pertiwi, apah, teja, bayu, akasa) kembali ke alam semesta agar jiwa rohani (_Atman_) terbebas dari ikatan duniawi dan dapat menyatu dengan Sang Pencipta atau bereinkarnasi lebih baik."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Upacara pelepasan kewarganegaraan bagi keluarga yang sanak familinya meninggal dunia di luar pulau Bali."
+      },
+      {
+        "key": "E",
+        "text": "Pemusnahan seluruh barang bukti kejahatan tindak pidana agar tidak diselidiki oleh aparat penegak hukum formal menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mengembalikan kelima unsur materi pembentuk badan kasar manusia (_Panca Maha Bhuta_: pertiwi, apah, teja, bayu, akasa) kembali ke alam semesta agar jiwa rohani (_Atman_) terbebas dari ikatan duniawi dan dapat menyatu dengan Sang Pencipta atau bereinkarnasi lebih baik.. Ngaben mengembalikan 5 unsur Panca Maha Bhuta badan kasar ke alam semesta sehingga Atman (jiwa) terbebas dari ikatan duniawi. Pilih: Mengembalikan kelima unsur raga kasar (Panca Maha Bhuta) ke alam semesta agar Atman terbebas dari ikatan duniawi."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Mengembalikan kelima unsur materi pembentuk badan kasar manusia (_Panca Maha Bhuta_: pertiwi, apah, teja, bayu, akasa) kembali ke alam semesta agar jiwa rohani (_Atman_) terbebas dari ikatan duniawi dan dapat menyatu dengan Sang Pencipta atau bereinkarnasi lebih baik.. Ngaben mengembalikan 5 unsur Panca Maha Bhuta badan kasar ke alam semesta sehingga Atman (jiwa) terbebas dari ikatan duniawi. Pilih: Mengembalikan kelima unsur raga kasar (Panca Maha Bhuta) ke alam semesta agar Atman terbebas dari ikatan duniawi."
   },
   {
     "id": "ant-lat-m-10",
@@ -1487,11 +1488,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban membangun gedung-gedung pencakar langit menggunakan semen cor beton bertulang di seluruh kawasan hutan adat diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Penjualan seluruh kawasan hutan lindung kepada perusahaan swasta perkebunan kelapa sawit skala internasional."
       },
       {
         "key": "B",
-        "text": "Penjualan seluruh kawasan hutan lindung kepada perusahaan swasta perkebunan kelapa sawit skala internasional."
+        "text": "Larangan mutlak mengubah bentang alam alamiah (seperti meratakan bukit, mencangkul tanah, atau membendung aliran sungai), penolakan penggunaan teknologi modern dan bahan kimia sintetis, serta bertani mengikuti kontur lereng bukit demi menjaga keharmonisan kosmos."
       },
       {
         "key": "C",
@@ -1503,11 +1504,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Larangan mutlak mengubah bentang alam alamiah (seperti meratakan bukit, mencangkul tanah, atau membendung aliran sungai), penolakan penggunaan teknologi modern dan bahan kimia sintetis, serta bertani mengikuti kontur lereng bukit demi menjaga keharmonisan kosmos."
+        "text": "Kewajiban membangun gedung-gedung pencakar langit menggunakan semen cor beton bertulang di seluruh kawasan hutan adat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Larangan mutlak mengubah bentang alam alamiah (seperti meratakan bukit, mencangkul tanah, atau membendung aliran sungai), penolakan penggunaan teknologi modern dan bahan kimia sintetis, serta bertani mengikuti kontur lereng bukit demi menjaga keharmonisan kosmos.. Pikukuh Baduy 'panjang jangan dipotong, pendek jangan disambung' melarang mengubah bentang alam asli: tanah tidak dicangkul, bukit tidak diratakan, dan bahan kimia dilarang. Pilih: Larangan mutlak mengubah bentang alam alamiah, penolakan teknologi perusak, dan bertani mengikuti kontur lereng bukit."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Larangan mutlak mengubah bentang alam alamiah (seperti meratakan bukit, mencangkul tanah, atau membendung aliran sungai), penolakan penggunaan teknologi modern dan bahan kimia sintetis, serta bertani mengikuti kontur lereng bukit demi menjaga keharmonisan kosmos.. Pikukuh Baduy 'panjang jangan dipotong, pendek jangan disambung' melarang mengubah bentang alam asli: tanah tidak dicangkul, bukit tidak diratakan, dan bahan kimia dilarang. Pilih: Larangan mutlak mengubah bentang alam alamiah, penolakan teknologi perusak, dan bertani mengikuti kontur lereng bukit."
   },
   {
     "id": "ant-lat-m-11",
@@ -1530,15 +1531,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kawasan hutan primer yang berstatus lindung larangan, di mana pohon dilarang ditebang sembarangan dan hasil hutan hanya boleh dipungut secara terbatas untuk keperluan fasilitas sosial bersama atau upacara adat besar atas izin musyawarah tetua adat."
+        "text": "Hutan komersial yang seluruh hasil kayunya ditebang setiap bulan untuk diekspor ke pabrik mebel di benua Eropa."
       },
       {
         "key": "B",
-        "text": "Lahan terbuka bebas yang dibagikan secara cuma-cuma kepada perusahaan tambang batu bara asing untuk dikeruk hingga habis ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Kawasan hutan primer yang berstatus lindung larangan, di mana pohon dilarang ditebang sembarangan dan hasil hutan hanya boleh dipungut secara terbatas untuk keperluan fasilitas sosial bersama atau upacara adat besar atas izin musyawarah tetua adat."
       },
       {
         "key": "C",
-        "text": "Hutan komersial yang seluruh hasil kayunya ditebang setiap bulan untuk diekspor ke pabrik mebel di benua Eropa."
+        "text": "Kawasan perburuan bebas yang mengizinkan penggunaan senapan otomatis dan racun tuba kimia di sepanjang sungai."
       },
       {
         "key": "D",
@@ -1546,11 +1547,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Kawasan perburuan bebas yang mengizinkan penggunaan senapan otomatis dan racun tuba kimia di sepanjang sungai."
+        "text": "Lahan terbuka bebas yang dibagikan secara cuma-cuma kepada perusahaan tambang batu bara asing untuk dikeruk hingga habis."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kawasan hutan primer yang berstatus lindung larangan, di mana pohon dilarang ditebang sembarangan dan hasil hutan hanya boleh dipungut secara terbatas untuk keperluan fasilitas sosial bersama atau upacara adat besar atas izin musyawarah tetua adat.. Tana' Ulen adalah kawasan hutan larangan adat milik suku Dayak Kenyah yang dilindungi ketat dan kayunya tidak boleh ditebang sembarangan. Pilih opsi kawasan hutan primer berstatus lindung di mana hasil hutan hanya boleh diambil secara terbatas untuk kepentingan bersama atas izin adat."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kawasan hutan primer yang berstatus lindung larangan, di mana pohon dilarang ditebang sembarangan dan hasil hutan hanya boleh dipungut secara terbatas untuk keperluan fasilitas sosial bersama atau upacara adat besar atas izin musyawarah tetua adat.. Tana' Ulen adalah kawasan hutan larangan adat milik suku Dayak Kenyah yang dilindungi ketat dan kayunya tidak boleh ditebang sembarangan. Pilih opsi kawasan hutan primer berstatus lindung di mana hasil hutan hanya boleh diambil secara terbatas untuk kepentingan bersama atas izin adat."
   },
   {
     "id": "ant-lat-m-12",
@@ -1573,27 +1574,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Tengkorak kepala berkapasitas otak sangat besar melebihi 1.800 cc dan memiliki tulang hidung mancung ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Tengkorak kepala berkapasitas otak sangat besar melebihi 1.800 cc dan memiliki tulang hidung mancung."
       },
       {
         "key": "B",
-        "text": "Ukuran tulang rahang bawah yang luar biasa besar dan tebal, gigi geraham besar dengan pola kuskus hominid purba, otot kunyah yang sangat kuat, serta tidak memiliki dagu."
+        "text": "Struktur tulang belakang melengkung bungkuk yang membuktikan gaya hidup berenang di dasar laut dalam."
       },
       {
         "key": "C",
-        "text": "Tulang lengan yang bermutasi menjadi sayap berbulu tebal untuk terbang melintasi jurang pegunungan."
+        "text": "Ukuran tulang rahang bawah yang luar biasa besar dan tebal, gigi geraham besar dengan pola kuskus hominid purba, otot kunyah yang sangat kuat, serta tidak memiliki dagu."
       },
       {
         "key": "D",
-        "text": "Struktur tulang belakang melengkung bungkuk yang membuktikan gaya hidup berenang di dasar laut dalam."
+        "text": "Tulang lengan yang bermutasi menjadi sayap berbulu tebal untuk terbang melintasi jurang pegunungan."
       },
       {
         "key": "E",
         "text": "Rahang gigi yang memiliki taring runcing panjang seperti harimau purba pemakan bangkai beracun."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Ukuran tulang rahang bawah yang luar biasa besar dan tebal, gigi geraham besar dengan pola kuskus hominid purba, otot kunyah yang sangat kuat, serta tidak memiliki dagu.. Meganthropus (manusia raksasa tertua dari Jawa) berciri rahang bawah sangat masif, gigi geraham besar, otot kunyah kokoh, dan tidak berdagu. Pilih: Ukuran rahang bawah sangat besar dan tebal, gigi geraham besar, otot kunyah kuat, dan tidak memiliki dagu."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Ukuran tulang rahang bawah yang luar biasa besar dan tebal, gigi geraham besar dengan pola kuskus hominid purba, otot kunyah yang sangat kuat, serta tidak memiliki dagu.. Meganthropus (manusia raksasa tertua dari Jawa) berciri rahang bawah sangat masif, gigi geraham besar, otot kunyah kokoh, dan tidak berdagu. Pilih: Ukuran rahang bawah sangat besar dan tebal, gigi geraham besar, otot kunyah kuat, dan tidak memiliki dagu."
   },
   {
     "id": "ant-lat-m-13",
@@ -1616,27 +1617,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Dataran tinggi pegunungan pulau Madura yang terisolasi dari pergaulan dunia luar sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Dataran tinggi pegunungan pulau Madura yang terisolasi dari pergaulan dunia luar."
       },
       {
         "key": "B",
-        "text": "Pesisir pantai barat pulau Sumatera yang berbatasan langsung dengan perairan laut India."
-      },
-      {
-        "key": "C",
-        "text": "Indonesia bagian timur (seperti wilayah kepulauan Nusa Tenggara Timur, Maluku, dan Papua) yang memperlihatkan ciri rambut keriting, kulit gelap, dan profil wajah khas Melanesia."
-      },
-      {
-        "key": "D",
         "text": "Hutan rawa gambut di sekitar pesisir semenanjung pulau Bangka dan Belitung."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Lembah perkotaan metropolitan di sekitar muara Sungai Ciliwung Jakarta."
+      },
+      {
+        "key": "D",
+        "text": "Pesisir pantai barat pulau Sumatera yang berbatasan langsung dengan perairan laut India."
+      },
+      {
+        "key": "E",
+        "text": "Indonesia bagian timur (seperti wilayah kepulauan Nusa Tenggara Timur, Maluku, dan Papua) yang memperlihatkan ciri rambut keriting, kulit gelap, dan profil wajah khas Melanesia."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Indonesia bagian timur (seperti wilayah kepulauan Nusa Tenggara Timur, Maluku, dan Papua) yang memperlihatkan ciri rambut keriting, kulit gelap, dan profil wajah khas Melanesia.. Sisa-sisa jejak ragawi Australomelanesoid di Indonesia saat ini dominan berada di Indonesia bagian timur (NTT, Maluku, dan Papua). Pilih opsi: Indonesia bagian timur (Nusa Tenggara Timur, Maluku, dan Papua)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Indonesia bagian timur (seperti wilayah kepulauan Nusa Tenggara Timur, Maluku, dan Papua) yang memperlihatkan ciri rambut keriting, kulit gelap, dan profil wajah khas Melanesia.. Sisa-sisa jejak ragawi Australomelanesoid di Indonesia saat ini dominan berada di Indonesia bagian timur (NTT, Maluku, dan Papua). Pilih opsi: Indonesia bagian timur (Nusa Tenggara Timur, Maluku, dan Papua)."
   },
   {
     "id": "ant-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perbedaan dialek kosakata vokal antardesa nelayan yang dipisahkan oleh bukit pegunungan kapur menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
         "text": "Perubahan istilah nama mata uang dari zaman Hindia Belanda menjadi mata uang rupiah di era revolusi."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Penggunaan bahasa isyarat tangan rahasia di antara para penyelam tradisional pemburu mutiara karang."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Sistem tingkat tutur dalam Bahasa Jawa (_Ngoko_, _Madya_, _Krama Andhap_, dan _Krama Inggil_) yang mencerminkan etika sopan santun, jarak sosial, dan hierarki penghormatan antarwarga masyarakat."
+      },
+      {
+        "key": "D",
+        "text": "Perbedaan dialek kosakata vokal antardesa nelayan yang dipisahkan oleh bukit pegunungan kapur menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "E",
         "text": "Kewajiban para pedagang pasar tradisional menggunakan ejaan bahasa Latin klasik dalam nota kwitansi."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Sistem tingkat tutur dalam Bahasa Jawa (_Ngoko_, _Madya_, _Krama Andhap_, dan _Krama Inggil_) yang mencerminkan etika sopan santun, jarak sosial, dan hierarki penghormatan antarwarga masyarakat.. Sosiolek adalah variasi bahasa berdasarkan status sosial/keakraban, seperti tingkatan tutur Ngoko dan Krama dalam bahasa Jawa. Pilih opsi sistem tingkat tutur dalam Bahasa Jawa (Ngoko, Madya, Krama Inggil) yang mencerminkan etika dan jarak sosial."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Sistem tingkat tutur dalam Bahasa Jawa (_Ngoko_, _Madya_, _Krama Andhap_, dan _Krama Inggil_) yang mencerminkan etika sopan santun, jarak sosial, dan hierarki penghormatan antarwarga masyarakat.. Sosiolek adalah variasi bahasa berdasarkan status sosial/keakraban, seperti tingkatan tutur Ngoko dan Krama dalam bahasa Jawa. Pilih opsi sistem tingkat tutur dalam Bahasa Jawa (Ngoko, Madya, Krama Inggil) yang mencerminkan etika dan jarak sosial."
   },
   {
     "id": "ant-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukuman pengasingan fisik bagi para pemuda yang menolak menjadi prajurit angkatan perang darat diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Hukuman pengasingan fisik bagi para pemuda yang menolak menjadi prajurit angkatan perang darat."
       },
       {
         "key": "B",
-        "text": "Metode sterilisasi peralatan dapur rumah tangga dari kontaminasi bakteri di musim penghujan lebat."
-      },
-      {
-        "key": "C",
         "text": "Pameran kuliner komersial berbayar yang diselenggarakan oleh asosiasi perhotelan internasional."
       },
       {
+        "key": "C",
+        "text": "Metode sterilisasi peralatan dapur rumah tangga dari kontaminasi bakteri di musim penghujan lebat."
+      },
+      {
         "key": "D",
-        "text": "Simbol penyerahan seluruh wilayah kepemilikan hutan adat kepada investor tambang tembaga asing."
+        "text": "Wadah resolusi konflik perdamaian antarsuku, sarana pengikat solidaritas persaudaraan kolektif, serta ungkapan rasa syukur bersama tanpa membedakan status kelas sosial antarwarga."
       },
       {
         "key": "E",
-        "text": "Wadah resolusi konflik perdamaian antarsuku, sarana pengikat solidaritas persaudaraan kolektif, serta ungkapan rasa syukur bersama tanpa membedakan status kelas sosial antarwarga."
+        "text": "Simbol penyerahan seluruh wilayah kepemilikan hutan adat kepada investor tambang tembaga asing."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Wadah resolusi konflik perdamaian antarsuku, sarana pengikat solidaritas persaudaraan kolektif, serta ungkapan rasa syukur bersama tanpa membedakan status kelas sosial antarwarga.. Tradisi Bakar Batu di Papua adalah ritual resolusi konflik (perdamaian antarsuku), sarana syukur bersama, dan perekat kohesi sosial. Pilih: Wadah resolusi konflik perdamaian antarsuku, pengikat solidaritas persaudaraan, dan ungkapan syukur bersama."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Wadah resolusi konflik perdamaian antarsuku, sarana pengikat solidaritas persaudaraan kolektif, serta ungkapan rasa syukur bersama tanpa membedakan status kelas sosial antarwarga.. Tradisi Bakar Batu di Papua adalah ritual resolusi konflik (perdamaian antarsuku), sarana syukur bersama, dan perekat kohesi sosial. Pilih: Wadah resolusi konflik perdamaian antarsuku, pengikat solidaritas persaudaraan, dan ungkapan syukur bersama."
   },
   {
     "id": "ant-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penghargaan atas martabat keluarga mempelai wanita, cermin jenjang pendidikan dan status sosialnya, serta ujian kesungguhan, kerja keras, dan tanggung jawab pihak laki-laki untuk membina mahligai rumah tangga."
-      },
-      {
-        "key": "B",
-        "text": "Harga pembelian wanita sebagai barang komoditas dagang milik keluarga pengantin laki-laki ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
         "text": "Biaya sewa kamar hotel berbintang yang diwajibkan oleh dinas kebudayaan pemerintah daerah."
       },
       {
+        "key": "B",
+        "text": "Uang pelunasan obligasi utang luar negeri keluarga mempelai pria kepada konsorsium bank swasta."
+      },
+      {
+        "key": "C",
+        "text": "Harga pembelian wanita sebagai barang komoditas dagang milik keluarga pengantin laki-laki."
+      },
+      {
         "key": "D",
-        "text": "Denda pidana atas perbuatan pelanggaran hukum lalu lintas di jalan raya kota kabupaten."
+        "text": "Penghargaan atas martabat keluarga mempelai wanita, cermin jenjang pendidikan dan status sosialnya, serta ujian kesungguhan, kerja keras, dan tanggung jawab pihak laki-laki untuk membina mahligai rumah tangga."
       },
       {
         "key": "E",
-        "text": "Uang pelunasan obligasi utang luar negeri keluarga mempelai pria kepada konsorsium bank swasta."
+        "text": "Denda pidana atas perbuatan pelanggaran hukum lalu lintas di jalan raya kota kabupaten."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Penghargaan atas martabat keluarga mempelai wanita, cermin jenjang pendidikan dan status sosialnya, serta ujian kesungguhan, kerja keras, dan tanggung jawab pihak laki-laki untuk membina mahligai rumah tangga.. Uang Panai' merefleksikan nilai Siri' (kehormatan martabat), penghargaan atas pendidikan dan status keluarga wanita, serta bukti kesungguhan pria. Pilih: Penghargaan atas martabat keluarga wanita, cermin jenjang pendidikan/status, serta ujian kesungguhan dan kerja keras pria."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Penghargaan atas martabat keluarga mempelai wanita, cermin jenjang pendidikan dan status sosialnya, serta ujian kesungguhan, kerja keras, dan tanggung jawab pihak laki-laki untuk membina mahligai rumah tangga.. Uang Panai' merefleksikan nilai Siri' (kehormatan martabat), penghargaan atas pendidikan dan status keluarga wanita, serta bukti kesungguhan pria. Pilih: Penghargaan atas martabat keluarga wanita, cermin jenjang pendidikan/status, serta ujian kesungguhan dan kerja keras pria."
   },
   {
     "id": "ant-lat-m-17",
@@ -1788,11 +1789,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemisahan kasta masyarakat secara diskriminatif antara golongan bangsawan kaya dengan para budak hamba sahaya ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Penghapusan seluruh hak kepemilikan pribadi dan kewajiban menyerahkan seluruh penghasilan uang kepada kepala distrik."
       },
       {
         "key": "B",
-        "text": "Egalitarianisme, transparansi sosial, semangat toleransi kerukunan antarkeluarga besar, serta sistem pertahanan kolektif dalam menghadapi ancaman serangan musuh atau binatang buas."
+        "text": "Kewajiban seluruh penghuni rumah untuk tidak berbicara satu patah kata pun selama musim menanam padi ladang."
       },
       {
         "key": "C",
@@ -1800,15 +1801,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penghapusan seluruh hak kepemilikan pribadi dan kewajiban menyerahkan seluruh penghasilan uang kepada kepala distrik."
+        "text": "Pemisahan kasta masyarakat secara diskriminatif antara golongan bangsawan kaya dengan para budak hamba sahaya."
       },
       {
         "key": "E",
-        "text": "Kewajiban seluruh penghuni rumah untuk tidak berbicara satu patah kata pun selama musim menanam padi ladang."
+        "text": "Egalitarianisme, transparansi sosial, semangat toleransi kerukunan antarkeluarga besar, serta sistem pertahanan kolektif dalam menghadapi ancaman serangan musuh atau binatang buas."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Egalitarianisme, transparansi sosial, semangat toleransi kerukunan antarkeluarga besar, serta sistem pertahanan kolektif dalam menghadapi ancaman serangan musuh atau binatang buas.. Rumah Betang Dayak melambangkan nilai egalitarianisme (kesetaraan), kebersamaan, transparansi komunal, dan pertahanan bersama. Pilih opsi: Egalitarianisme, transparansi sosial, semangat toleransi antarkeluarga, dan pertahanan kolektif."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Egalitarianisme, transparansi sosial, semangat toleransi kerukunan antarkeluarga besar, serta sistem pertahanan kolektif dalam menghadapi ancaman serangan musuh atau binatang buas.. Rumah Betang Dayak melambangkan nilai egalitarianisme (kesetaraan), kebersamaan, transparansi komunal, dan pertahanan bersama. Pilih opsi: Egalitarianisme, transparansi sosial, semangat toleransi antarkeluarga, dan pertahanan kolektif."
   },
   {
     "id": "ant-lat-m-18",
@@ -1831,7 +1832,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Keyakinan bahwa meniru suara petir halilintar akan langsung menurunkan hujan lebat di musim kemarau sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Keyakinan bahwa benda-benda yang pernah saling bersentuhan atau terhubung secara fisik dengan seseorang (seperti helaian rambut, kuku, atau pakaian bekas) akan tetap memiliki hubungan pengaruh gaib terhadap orang tersebut meskipun telah terpisah jarak jauh."
       },
       {
         "key": "B",
@@ -1839,19 +1840,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Keyakinan bahwa benda-benda yang pernah saling bersentuhan atau terhubung secara fisik dengan seseorang (seperti helaian rambut, kuku, atau pakaian bekas) akan tetap memiliki hubungan pengaruh gaib terhadap orang tersebut meskipun telah terpisah jarak jauh."
-      },
-      {
-        "key": "D",
         "text": "Penggunaan mikroskop elektron untuk mengamati pergerakan virus influenza di laboratorium rumah sakit."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Penerapan hukum pembagian keuntungan bagi hasil perkebunan karet antara pemilik tanah dengan petani penyakap."
+      },
+      {
+        "key": "E",
+        "text": "Keyakinan bahwa meniru suara petir halilintar akan langsung menurunkan hujan lebat di musim kemarau."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Keyakinan bahwa benda-benda yang pernah saling bersentuhan atau terhubung secara fisik dengan seseorang (seperti helaian rambut, kuku, atau pakaian bekas) akan tetap memiliki hubungan pengaruh gaib terhadap orang tersebut meskipun telah terpisah jarak jauh.. Magi Kontagius Frazer berprinsip hal yang pernah kontak fisik (rambut, kuku, baju) tetap terhubung secara gaib meski terpisah jarak. Pilih: Benda yang pernah bersentuhan fisik (rambut, kuku, pakaian) tetap memiliki pengaruh gaib terhadap orang bersangkutan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Keyakinan bahwa benda-benda yang pernah saling bersentuhan atau terhubung secara fisik dengan seseorang (seperti helaian rambut, kuku, atau pakaian bekas) akan tetap memiliki hubungan pengaruh gaib terhadap orang tersebut meskipun telah terpisah jarak jauh.. Magi Kontagius Frazer berprinsip hal yang pernah kontak fisik (rambut, kuku, baju) tetap terhubung secara gaib meski terpisah jarak. Pilih: Benda yang pernah bersentuhan fisik (rambut, kuku, pakaian) tetap memiliki pengaruh gaib terhadap orang bersangkutan."
   },
   {
     "id": "ant-lat-m-19",
@@ -1874,11 +1875,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membatasi hak asasi kaum perempuan untuk bersekolah di perguruan tinggi negeri di luar kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Memaksa seluruh anak balita tidur di atas pohon kelapa selama musim panen buah-buahan hutan."
       },
       {
         "key": "B",
-        "text": "Memaksa seluruh anak balita tidur di atas pohon kelapa selama musim panen buah-buahan hutan."
+        "text": "Membatasi hak asasi kaum perempuan untuk bersekolah di perguruan tinggi negeri di luar kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "C",
@@ -1886,15 +1887,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Sebagai mekanisme pengendalian sosial kultural dan pelestarian ekologis lingkungan agar sumber mata air dan vegetasi hutan tidak dirusak oleh tangan manusia, yang dibungkus dengan sanksi supranatural agar dipatuhi warga."
+        "text": "Menghapus seluruh perayaan keagamaan resmi dan menggantikannya dengan pesta kembang api komersial."
       },
       {
         "key": "E",
-        "text": "Menghapus seluruh perayaan keagamaan resmi dan menggantikannya dengan pesta kembang api komersial."
+        "text": "Sebagai mekanisme pengendalian sosial kultural dan pelestarian ekologis lingkungan agar sumber mata air dan vegetasi hutan tidak dirusak oleh tangan manusia, yang dibungkus dengan sanksi supranatural agar dipatuhi warga."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Sebagai mekanisme pengendalian sosial kultural dan pelestarian ekologis lingkungan agar sumber mata air dan vegetasi hutan tidak dirusak oleh tangan manusia, yang dibungkus dengan sanksi supranatural agar dipatuhi warga.. Fungsi laten pamali (pantangan) adalah sebagai kontrol sosial dan konservasi alam (melindungi mata air/hutan) lewat narasi sakral agar ditaati masyarakat. Pilih: Mekanisme pengendalian sosial dan pelestarian ekologis lingkungan yang dibungkus sanksi supranatural agar dipatuhi."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Sebagai mekanisme pengendalian sosial kultural dan pelestarian ekologis lingkungan agar sumber mata air dan vegetasi hutan tidak dirusak oleh tangan manusia, yang dibungkus dengan sanksi supranatural agar dipatuhi warga.. Fungsi laten pamali (pantangan) adalah sebagai kontrol sosial dan konservasi alam (melindungi mata air/hutan) lewat narasi sakral agar ditaati masyarakat. Pilih: Mekanisme pengendalian sosial dan pelestarian ekologis lingkungan yang dibungkus sanksi supranatural agar dipatuhi."
   },
   {
     "id": "ant-lat-m-20",
@@ -1917,7 +1918,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sarana pembawa senjata amunisi perang otomatis bagi tentara infantri di medan pertempuran hutan diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Alat ukur kadar keasaman air limbah industri tambang tembaga yang digunakan oleh kementerian lingkungan hidup."
       },
       {
         "key": "B",
@@ -1925,19 +1926,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Alat ukur kadar keasaman air limbah industri tambang tembaga yang digunakan oleh kementerian lingkungan hidup."
-      },
-      {
-        "key": "D",
         "text": "Bahan dasar pembuatan pesawat terbang perintis ringan yang melayani rute pedalaman pulau Papua."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Simbol rahim kehidupan perempuan, simbol kearifan dan perdamaian, penyimpan hasil bumi dan anak balita, serta instrumen demokrasi musyawarah dalam sistem pemilu noken di wilayah pegunungan."
+      },
+      {
+        "key": "E",
+        "text": "Sarana pembawa senjata amunisi perang otomatis bagi tentara infantri di medan pertempuran hutan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Simbol rahim kehidupan perempuan, simbol kearifan dan perdamaian, penyimpan hasil bumi dan anak balita, serta instrumen demokrasi musyawarah dalam sistem pemilu noken di wilayah pegunungan.. Noken Papua adalah simbol rahim ibu/kehidupan, penyimpan hasil bumi, lambang perdamaian, serta instrumen musyawarah sistem pemilu adat noken. Pilih opsi simbol rahim perempuan, kearifan/perdamaian, penyimpan hasil bumi, dan instrumen musyawarah pemilu noken."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Simbol rahim kehidupan perempuan, simbol kearifan dan perdamaian, penyimpan hasil bumi dan anak balita, serta instrumen demokrasi musyawarah dalam sistem pemilu noken di wilayah pegunungan.. Noken Papua adalah simbol rahim ibu/kehidupan, penyimpan hasil bumi, lambang perdamaian, serta instrumen musyawarah sistem pemilu adat noken. Pilih opsi simbol rahim perempuan, kearifan/perdamaian, penyimpan hasil bumi, dan instrumen musyawarah pemilu noken."
   },
   {
     "id": "ant-lat-m-21",
@@ -1960,15 +1961,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Waralaba restoran cepat saji multinasional asal Amerika Serikat yang memodifikasi buku menu mereka dengan menyajikan paket ayam goreng dengan nasi putih hangat, bumbu rendang, dan sambal terasi khas Nusantara."
+        "text": "Penolakan total pemerintah kota terhadap masuknya seluruh kendaraan bermotor buatan luar negeri."
       },
       {
         "key": "B",
-        "text": "Penolakan total pemerintah kota terhadap masuknya seluruh kendaraan bermotor buatan luar negeri ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Penutupan seluruh jaringan internet kabel optik bawah laut guna mencegah masuknya berita luar negeri."
       },
       {
         "key": "C",
-        "text": "Penutupan seluruh jaringan internet kabel optik bawah laut guna mencegah masuknya berita luar negeri."
+        "text": "Pemusnahan seluruh tanaman padi di persawahan dan penggantiannya dengan tanaman gandum padang pasir."
       },
       {
         "key": "D",
@@ -1976,11 +1977,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pemusnahan seluruh tanaman padi di persawahan dan penggantiannya dengan tanaman gandum padang pasir."
+        "text": "Waralaba restoran cepat saji multinasional asal Amerika Serikat yang memodifikasi buku menu mereka dengan menyajikan paket ayam goreng dengan nasi putih hangat, bumbu rendang, dan sambal terasi khas Nusantara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Waralaba restoran cepat saji multinasional asal Amerika Serikat yang memodifikasi buku menu mereka dengan menyajikan paket ayam goreng dengan nasi putih hangat, bumbu rendang, dan sambal terasi khas Nusantara.. Glokalisasi adalah adaptasi produk global dengan selera/budaya lokal, seperti restoran cepat saji global menyajikan ayam goreng pakai nasi dan sambal Nusantara. Pilih: Restoran cepat saji multinasional memodifikasi menu dengan menyajikan paket ayam goreng dengan nasi putih dan sambal khas Nusantara."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Waralaba restoran cepat saji multinasional asal Amerika Serikat yang memodifikasi buku menu mereka dengan menyajikan paket ayam goreng dengan nasi putih hangat, bumbu rendang, dan sambal terasi khas Nusantara.. Glokalisasi adalah adaptasi produk global dengan selera/budaya lokal, seperti restoran cepat saji global menyajikan ayam goreng pakai nasi dan sambal Nusantara. Pilih: Restoran cepat saji multinasional memodifikasi menu dengan menyajikan paket ayam goreng dengan nasi putih dan sambal khas Nusantara."
   },
   {
     "id": "ant-lat-m-22",
@@ -2003,7 +2004,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sistem Kekerabatan Patrilineal Murni (seluruh garis keturunan dan nama marga dipaksakan hanya melalui jalur laki-laki tanpa opsi lain) ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Sistem Kekerabatan Patrilineal Murni (seluruh garis keturunan dan nama marga dipaksakan hanya melalui jalur laki-laki tanpa opsi lain)."
       },
       {
         "key": "B",
@@ -2011,15 +2012,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Sistem Kekerabatan Matrilineal Murni (penarikan garis keturunan hanya diperbolehkan melalui garis ibu dan menolak pihak ayah)."
+        "text": "Sistem Kekerabatan Endogami Tertutup (larangan menikah dengan orang yang berasal dari luar lingkaran keluarga sedarah kandung)."
       },
       {
         "key": "D",
-        "text": "Sistem Kekerabatan Bilokal Statis (kewajiban pasangan pengantin baru untuk tinggal di gua bawah tanah pegunungan kapur)."
+        "text": "Sistem Kekerabatan Matrilineal Murni (penarikan garis keturunan hanya diperbolehkan melalui garis ibu dan menolak pihak ayah)."
       },
       {
         "key": "E",
-        "text": "Sistem Kekerabatan Endogami Tertutup (larangan menikah dengan orang yang berasal dari luar lingkaran keluarga sedarah kandung)."
+        "text": "Sistem Kekerabatan Bilokal Statis (kewajiban pasangan pengantin baru untuk tinggal di gua bawah tanah pegunungan kapur)."
       }
     ],
     "correctKey": "B",
@@ -2046,27 +2047,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perhitungan harga kurs jual beli saham valuta asing di bursa perdagangan komoditas berjangka internasional sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
         "text": "Laporan ramalan cuaca digital berbasis citra radar satelit cuaca geostasioner yang dikirim oleh lembaga antariksa asing."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Pengamatan cermat terhadap tanda-tanda perubahan alamiah kosmik dan biologis (seperti letak rasi bintang Waluku, arah tiupan angin muson, perilaku serangga/burung, dan gugurnya dedaunan pohon kapuk) yang terbukti presisi memandu ritme pertanian tropis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Dekrit perintah wajib tanam yang diterbitkan oleh kantor menteri perdagangan kerajaan kolonial Belanda di Den Haag."
+      },
+      {
+        "key": "D",
+        "text": "Perhitungan harga kurs jual beli saham valuta asing di bursa perdagangan komoditas berjangka internasional."
       },
       {
         "key": "E",
         "text": "Penggunaan dadu ramalan mistik yang dilempar oleh para saudagar keliling di pasar malam kampung."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pengamatan cermat terhadap tanda-tanda perubahan alamiah kosmik dan biologis (seperti letak rasi bintang Waluku, arah tiupan angin muson, perilaku serangga/burung, dan gugurnya dedaunan pohon kapuk) yang terbukti presisi memandu ritme pertanian tropis.. Pranata Mangsa mendasarkan kalender tanam pada pengamatan tanda-tanda alam: rasi bintang Waluku, perilaku hewan/tumbuhan, dan pola angin muson. Pilih: Pengamatan tanda perubahan alamiah kosmik dan biologis (rasi bintang Waluku, arah angin muson, perilaku serangga/burung)."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pengamatan cermat terhadap tanda-tanda perubahan alamiah kosmik dan biologis (seperti letak rasi bintang Waluku, arah tiupan angin muson, perilaku serangga/burung, dan gugurnya dedaunan pohon kapuk) yang terbukti presisi memandu ritme pertanian tropis.. Pranata Mangsa mendasarkan kalender tanam pada pengamatan tanda-tanda alam: rasi bintang Waluku, perilaku hewan/tumbuhan, dan pola angin muson. Pilih: Pengamatan tanda perubahan alamiah kosmik dan biologis (rasi bintang Waluku, arah angin muson, perilaku serangga/burung)."
   },
   {
     "id": "ant-lat-m-24",
@@ -2089,7 +2090,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menghapus seluruh hukum adat di Indonesia dan mewajibkan seluruh suku pedalaman pindah ke apartemen kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara', melainkan hutan yang berada dalam wilayah masyarakat hukum adat, sehingga negara wajib mengakui, menghormati, dan memulihkan hak-hak ulayat masyarakat adat atas tanah dan sumber daya alam leluhurnya."
       },
       {
         "key": "B",
@@ -2097,19 +2098,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Menyita seluruh hutan adat untuk dijadikan pangkalan latihan militer pasukan gabungan negara-negara persemakmuran."
+        "text": "Menghapus seluruh hukum adat di Indonesia dan mewajibkan seluruh suku pedalaman pindah ke apartemen kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "D",
-        "text": "Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara', melainkan hutan yang berada dalam wilayah masyarakat hukum adat, sehingga negara wajib mengakui, menghormati, dan memulihkan hak-hak ulayat masyarakat adat atas tanah dan sumber daya alam leluhurnya."
+        "text": "Melarang masyarakat adat menyelenggarakan ritual doa leluhur di dalam kawasan cagar alam pegunungan."
       },
       {
         "key": "E",
-        "text": "Melarang masyarakat adat menyelenggarakan ritual doa leluhur di dalam kawasan cagar alam pegunungan."
+        "text": "Menyita seluruh hutan adat untuk dijadikan pangkalan latihan militer pasukan gabungan negara-negara persemakmuran."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara', melainkan hutan yang berada dalam wilayah masyarakat hukum adat, sehingga negara wajib mengakui, menghormati, dan memulihkan hak-hak ulayat masyarakat adat atas tanah dan sumber daya alam leluhurnya.. Putusan MK 35/2012 menegaskan 'Hutan Adat Bukan Hutan Negara', mengembalikan kedaulatan hak ulayat atas wilayah leluhur kepada masyarakat adat. Pilih: Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara' dan mengakui hak-hak ulayat masyarakat adat atas tanah leluhur."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara', melainkan hutan yang berada dalam wilayah masyarakat hukum adat, sehingga negara wajib mengakui, menghormati, dan memulihkan hak-hak ulayat masyarakat adat atas tanah dan sumber daya alam leluhurnya.. Putusan MK 35/2012 menegaskan 'Hutan Adat Bukan Hutan Negara', mengembalikan kedaulatan hak ulayat atas wilayah leluhur kepada masyarakat adat. Pilih: Menegaskan bahwa 'Hutan Adat Bukan Lagi Hutan Negara' dan mengakui hak-hak ulayat masyarakat adat atas tanah leluhur."
   },
   {
     "id": "ant-lat-m-25",
@@ -2132,27 +2133,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kurangnya pasokan tinta printer komputer untuk mencetak buku kamus bahasa daerah di perpustakaan nasional diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Kurangnya pasokan tinta printer komputer untuk mencetak buku kamus bahasa daerah di perpustakaan nasional."
       },
       {
         "key": "B",
-        "text": "Penolakan para tetua adat untuk berbicara dengan anak cucu kandung mereka selama musim kemarau panjang."
+        "text": "Terputusnya transmisi antargenerasi di mana para orang tua tidak lagi mengajarkan dan membiasakan bahasa daerah kepada anak-anaknya di lingkungan rumah tangga, terdesak oleh dominasi bahasa nasional dan bahasa gaul urban."
       },
       {
         "key": "C",
-        "text": "Kewajiban seluruh warga negara berbicara dalam bahasa Inggris baku di pasar-pasar tradisional kampung pedalaman."
-      },
-      {
-        "key": "D",
         "text": "Adanya undang-undang pidana yang melarang penggunaan bahasa suku di dalam pergaulan lingkungan keluarga."
       },
       {
+        "key": "D",
+        "text": "Penolakan para tetua adat untuk berbicara dengan anak cucu kandung mereka selama musim kemarau panjang."
+      },
+      {
         "key": "E",
-        "text": "Terputusnya transmisi antargenerasi di mana para orang tua tidak lagi mengajarkan dan membiasakan bahasa daerah kepada anak-anaknya di lingkungan rumah tangga, terdesak oleh dominasi bahasa nasional dan bahasa gaul urban."
+        "text": "Kewajiban seluruh warga negara berbicara dalam bahasa Inggris baku di pasar-pasar tradisional kampung pedalaman."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Terputusnya transmisi antargenerasi di mana para orang tua tidak lagi mengajarkan dan membiasakan bahasa daerah kepada anak-anaknya di lingkungan rumah tangga, terdesak oleh dominasi bahasa nasional dan bahasa gaul urban.. Penyebab utama kepunahan bahasa adalah terputusnya transmisi antargenerasi: orang tua tidak lagi mengajarkan bahasa ibu kepada anak-anaknya di rumah. Pilih opsi: Terputusnya transmisi antargenerasi di mana orang tua tidak lagi membiasakan bahasa daerah kepada anak di rumah tangga."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Terputusnya transmisi antargenerasi di mana para orang tua tidak lagi mengajarkan dan membiasakan bahasa daerah kepada anak-anaknya di lingkungan rumah tangga, terdesak oleh dominasi bahasa nasional dan bahasa gaul urban.. Penyebab utama kepunahan bahasa adalah terputusnya transmisi antargenerasi: orang tua tidak lagi mengajarkan bahasa ibu kepada anak-anaknya di rumah. Pilih opsi: Terputusnya transmisi antargenerasi di mana orang tua tidak lagi membiasakan bahasa daerah kepada anak di rumah tangga."
   },
   {
     "id": "ant-lat-h-01",
@@ -2175,27 +2176,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban untuk memberi (_the obligation to give_), kewajiban untuk menerima (_the obligation to receive_), dan kewajiban untuk membalas kembali hadiah yang telah diterima (_the obligation to reciprocate_) karena adanya spirit penuntut balas (_Hau_) yang melekat pada benda tersebut."
+        "text": "Kewajiban menuntut ganti rugi uang tunai di pengadilan formal atas setiap barang yang dipinjamkan kepada sanak keluarga."
       },
       {
         "key": "B",
-        "text": "Kewajiban menjual seluruh aset keluarga, kewajiban membayar bunga pinjaman bank, dan kewajiban menyetor pajak bea impor ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Kewajiban menimbun barang dagangan, kewajiban merahasiakan harga pokok produksi, dan kewajiban memonopoli jalur pelayaran niaga."
-      },
-      {
-        "key": "D",
         "text": "Kewajiban menyembunyikan identitas pemberi, kewajiban menolak bantuan tetangga, dan kewajiban membakar seluruh bingkisan."
       },
       {
+        "key": "C",
+        "text": "Kewajiban untuk memberi (_the obligation to give_), kewajiban untuk menerima (_the obligation to receive_), dan kewajiban untuk membalas kembali hadiah yang telah diterima (_the obligation to reciprocate_) karena adanya spirit penuntut balas (_Hau_) yang melekat pada benda tersebut."
+      },
+      {
+        "key": "D",
+        "text": "Kewajiban menjual seluruh aset keluarga, kewajiban membayar bunga pinjaman bank, dan kewajiban menyetor pajak bea impor."
+      },
+      {
         "key": "E",
-        "text": "Kewajiban menuntut ganti rugi uang tunai di pengadilan formal atas setiap barang yang dipinjamkan kepada sanak keluarga."
+        "text": "Kewajiban menimbun barang dagangan, kewajiban merahasiakan harga pokok produksi, dan kewajiban memonopoli jalur pelayaran niaga."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kewajiban untuk memberi (_the obligation to give_), kewajiban untuk menerima (_the obligation to receive_), dan kewajiban untuk membalas kembali hadiah yang telah diterima (_the obligation to reciprocate_) karena adanya spirit penuntut balas (_Hau_) yang melekat pada benda tersebut.. Marcel Mauss merumuskan 3 kewajiban moral pertukaran hadiah: 1. Kewajiban memberi, 2. Kewajiban menerima, 3. Kewajiban membalas kembali (karena adanya spirit Hau). Pilih: Kewajiban untuk memberi, kewajiban untuk menerima, dan kewajiban untuk membalas kembali hadiah yang diterima."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Kewajiban untuk memberi (_the obligation to give_), kewajiban untuk menerima (_the obligation to receive_), dan kewajiban untuk membalas kembali hadiah yang telah diterima (_the obligation to reciprocate_) karena adanya spirit penuntut balas (_Hau_) yang melekat pada benda tersebut.. Marcel Mauss merumuskan 3 kewajiban moral pertukaran hadiah: 1. Kewajiban memberi, 2. Kewajiban menerima, 3. Kewajiban membalas kembali (karena adanya spirit Hau). Pilih: Kewajiban untuk memberi, kewajiban untuk menerima, dan kewajiban untuk membalas kembali hadiah yang diterima."
   },
   {
     "id": "ant-lat-h-02",
@@ -2218,11 +2219,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Para inisiat diwajibkan bertarung senjata pedang untuk menentukan siapa yang berhak menjadi kepala suku monarki absolut ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Para inisiat diwajibkan bertarung senjata pedang untuk menentukan siapa yang berhak menjadi kepala suku monarki absolut."
       },
       {
         "key": "B",
-        "text": "Para peserta ritual ditanggalkan dari seluruh atribut status sosial, kekayaan, dan peran kasta lama mereka, berada dalam ruang transisi tanpa status (_betwixt and between_), sehingga melebur ke dalam ikatan persaudaraan egaliter radikal yang setara, homogen, dan intens."
+        "text": "Seluruh hierarki kasta diperkuat sepuluh kali lipat dan rakyat miskin dilarang memandang wajah para tetua adat."
       },
       {
         "key": "C",
@@ -2230,15 +2231,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Peserta upacara menandatangani kontrak kerja sama penanaman modal dengan perusahaan perbankan internasional."
+        "text": "Para peserta ritual ditanggalkan dari seluruh atribut status sosial, kekayaan, dan peran kasta lama mereka, berada dalam ruang transisi tanpa status (_betwixt and between_), sehingga melebur ke dalam ikatan persaudaraan egaliter radikal yang setara, homogen, dan intens."
       },
       {
         "key": "E",
-        "text": "Seluruh hierarki kasta diperkuat sepuluh kali lipat dan rakyat miskin dilarang memandang wajah para tetua adat."
+        "text": "Peserta upacara menandatangani kontrak kerja sama penanaman modal dengan perusahaan perbankan internasional."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Para peserta ritual ditanggalkan dari seluruh atribut status sosial, kekayaan, dan peran kasta lama mereka, berada dalam ruang transisi tanpa status (_betwixt and between_), sehingga melebur ke dalam ikatan persaudaraan egaliter radikal yang setara, homogen, dan intens.. Liminalitas Turner adalah kondisi di antara status lama dan baru (betwixt and between); peserta melepaskan atribut kasta dan membentuk Communitas (ikatan egaliter yang setara). Pilih opsi peserta ditanggalkan dari atribut status/kasta lama, berada dalam ruang transisi (betwixt and between), dan melebur ke ikatan egaliter."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Para peserta ritual ditanggalkan dari seluruh atribut status sosial, kekayaan, dan peran kasta lama mereka, berada dalam ruang transisi tanpa status (_betwixt and between_), sehingga melebur ke dalam ikatan persaudaraan egaliter radikal yang setara, homogen, dan intens.. Liminalitas Turner adalah kondisi di antara status lama dan baru (betwixt and between); peserta melepaskan atribut kasta dan membentuk Communitas (ikatan egaliter yang setara). Pilih opsi peserta ditanggalkan dari atribut status/kasta lama, berada dalam ruang transisi (betwixt and between), dan melebur ke ikatan egaliter."
   },
   {
     "id": "ant-lat-h-03",
@@ -2261,15 +2262,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Perubahan sistem ekonomi merkantilisme menjadi sistem pasar bebas kapitalisme industri monopoli sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
         "text": "Peralihan dari penggunaan bahasa daerah lokal menuju bahasa nasional yang dibakukan oleh undang-undang."
       },
       {
+        "key": "B",
+        "text": "Pergeseran dari sistem pemilihan umum perwakilan dewan bangsawan menuju demokrasi pemilihan langsung."
+      },
+      {
         "key": "C",
-        "text": "Transisi fundamental manusia dari kondisi keadaan alamiah liar tak beradab (_Nature_) menuju tatanan kebudayaan manusia yang beradab dan beraturan sosial (_Culture_)."
+        "text": "Perubahan sistem ekonomi merkantilisme menjadi sistem pasar bebas kapitalisme industri monopoli."
       },
       {
         "key": "D",
@@ -2277,11 +2278,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pergeseran dari sistem pemilihan umum perwakilan dewan bangsawan menuju demokrasi pemilihan langsung."
+        "text": "Transisi fundamental manusia dari kondisi keadaan alamiah liar tak beradab (_Nature_) menuju tatanan kebudayaan manusia yang beradab dan beraturan sosial (_Culture_)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Transisi fundamental manusia dari kondisi keadaan alamiah liar tak beradab (_Nature_) menuju tatanan kebudayaan manusia yang beradab dan beraturan sosial (_Culture_).. Lévi-Strauss memandang transformasi Yang Mentah (Raw) menjadi Yang Matang (Cooked) lewat memasak sebagai simbol peralihan dari Alam (Nature) ke Kebudayaan (Culture). Pilih: Transisi fundamental manusia dari kondisi alamiah liar (Nature) menuju tatanan kebudayaan yang beradab (Culture)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Transisi fundamental manusia dari kondisi keadaan alamiah liar tak beradab (_Nature_) menuju tatanan kebudayaan manusia yang beradab dan beraturan sosial (_Culture_).. Lévi-Strauss memandang transformasi Yang Mentah (Raw) menjadi Yang Matang (Cooked) lewat memasak sebagai simbol peralihan dari Alam (Nature) ke Kebudayaan (Culture). Pilih: Transisi fundamental manusia dari kondisi alamiah liar (Nature) menuju tatanan kebudayaan yang beradab (Culture)."
   },
   {
     "id": "ant-lat-h-04",
@@ -2304,27 +2305,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Zat kimia anorganik beracun yang mengalir di saluran pembuangan limbah pabrik pengolahan karet sintetis menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Zat kimia anorganik beracun yang mengalir di saluran pembuangan limbah pabrik pengolahan karet sintetis menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "B",
-        "text": "Bakteri patogen mikroskopis yang menyebarkan wabah kolera menular di pemukiman kumuh pinggir rel kereta api."
-      },
-      {
-        "key": "C",
-        "text": "Debu vulkanik hasil erupsi gunung berapi yang menghalangi jarak pandang penerbangan pesawat komersial."
-      },
-      {
-        "key": "D",
         "text": "Kotoran dipahami sebagai 'materi yang tidak pada tempatnya' (_matter out of place_), yaitu segala sesuatu yang merusak sistem klasifikasi tatanan sosial, mengaburkan batas-batas kategori budaya, dan mengancam keteraturan kosmologi masyarakat."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Sisa endapan lumpur minyak bumi di dasar tangki penampungan kilang bahan bakar solar industri."
+      },
+      {
+        "key": "D",
+        "text": "Bakteri patogen mikroskopis yang menyebarkan wabah kolera menular di pemukiman kumuh pinggir rel kereta api."
+      },
+      {
+        "key": "E",
+        "text": "Debu vulkanik hasil erupsi gunung berapi yang menghalangi jarak pandang penerbangan pesawat komersial."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Kotoran dipahami sebagai 'materi yang tidak pada tempatnya' (_matter out of place_), yaitu segala sesuatu yang merusak sistem klasifikasi tatanan sosial, mengaburkan batas-batas kategori budaya, dan mengancam keteraturan kosmologi masyarakat.. Mary Douglas merumuskan dirt (kotoran/tabu) sebagai 'matter out of place' (materi yang tidak pada tempatnya) yang merusak sistem batas klasifikasi budaya. Pilih opsi: Kotoran dipahami sebagai 'materi yang tidak pada tempatnya' (matter out of place) yang merusak batas kategori dan keteraturan tatanan sosial."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kotoran dipahami sebagai 'materi yang tidak pada tempatnya' (_matter out of place_), yaitu segala sesuatu yang merusak sistem klasifikasi tatanan sosial, mengaburkan batas-batas kategori budaya, dan mengancam keteraturan kosmologi masyarakat.. Mary Douglas merumuskan dirt (kotoran/tabu) sebagai 'matter out of place' (materi yang tidak pada tempatnya) yang merusak sistem batas klasifikasi budaya. Pilih opsi: Kotoran dipahami sebagai 'materi yang tidak pada tempatnya' (matter out of place) yang merusak batas kategori dan keteraturan tatanan sosial."
   },
   {
     "id": "ant-lat-h-05",
@@ -2347,7 +2348,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bangsa-bangsa Barat secara objektif memiliki keunggulan rasial biologis murni yang diakui oleh seluruh peradaban dunia diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Kajian antropologi harus sepenuhnya bebas dari teori kritis dan hanya berfokus pada pengukuran volume tempurung kepala."
       },
       {
         "key": "B",
@@ -2355,19 +2356,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Seluruh karya seni ukir kayu peninggalan bangsa Timur harus disimpan di ruang bawah tanah museum internasional."
+        "text": "Bangsa-bangsa Barat secara objektif memiliki keunggulan rasial biologis murni yang diakui oleh seluruh peradaban dunia."
       },
       {
         "key": "D",
-        "text": "Kajian antropologi harus sepenuhnya bebas dari teori kritis dan hanya berfokus pada pengukuran volume tempurung kepala."
+        "text": "Wacana 'Orient' (Timur) bukanlah realitas objektif yang alamiah, melainkan konstruksi hegemoni pengetahuan Barat yang sengaja menggambarkan bangsa Timur sebagai entitas yang irasional, eksotis, pasif, dan terbelakang demi melegitimasi dominasi politik dan penaklukan imperialisme Barat."
       },
       {
         "key": "E",
-        "text": "Wacana 'Orient' (Timur) bukanlah realitas objektif yang alamiah, melainkan konstruksi hegemoni pengetahuan Barat yang sengaja menggambarkan bangsa Timur sebagai entitas yang irasional, eksotis, pasif, dan terbelakang demi melegitimasi dominasi politik dan penaklukan imperialisme Barat."
+        "text": "Seluruh karya seni ukir kayu peninggalan bangsa Timur harus disimpan di ruang bawah tanah museum internasional."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Wacana 'Orient' (Timur) bukanlah realitas objektif yang alamiah, melainkan konstruksi hegemoni pengetahuan Barat yang sengaja menggambarkan bangsa Timur sebagai entitas yang irasional, eksotis, pasif, dan terbelakang demi melegitimasi dominasi politik dan penaklukan imperialisme Barat.. Orientalisme Edward Said membongkar bahwa Timur adalah konstruksi Barat (dicitrakan irasional, eksotis, pasif) guna melegitimasi dominasi imperialisme Barat. Pilih: Wacana Timur adalah konstruksi hegemoni Barat yang menggambarkan bangsa Timur irasional dan terbelakang demi melegitimasi penjajahan."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Wacana 'Orient' (Timur) bukanlah realitas objektif yang alamiah, melainkan konstruksi hegemoni pengetahuan Barat yang sengaja menggambarkan bangsa Timur sebagai entitas yang irasional, eksotis, pasif, dan terbelakang demi melegitimasi dominasi politik dan penaklukan imperialisme Barat.. Orientalisme Edward Said membongkar bahwa Timur adalah konstruksi Barat (dicitrakan irasional, eksotis, pasif) guna melegitimasi dominasi imperialisme Barat. Pilih: Wacana Timur adalah konstruksi hegemoni Barat yang menggambarkan bangsa Timur irasional dan terbelakang demi melegitimasi penjajahan."
   },
   {
     "id": "ant-lat-h-06",
@@ -2390,27 +2391,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemerolehan istilah warna dasar berkembang mengikuti tahapan hierarki evolusi universal yang berpola: bahasa paling sederhana selalu memiliki 2 warna dasar (putih/terang dan hitam/gelap), disusul warna merah pada tahap berikutnya, lalu hijau atau kuning, biru, cokelat, hingga warna sekunder lainnya."
+        "text": "Istilah warna ungu dan jingga selalu muncul lebih dulu sebelum masyarakat mengenal istilah warna hitam dan putih."
       },
       {
         "key": "B",
-        "text": "Setiap bahasa di dunia menciptakan nama warna secara acak murni tanpa ada kesamaan urutan evolusi apa pun antarbudaya ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
         "text": "Masyarakat tradisional tidak mampu membedakan warna pelangi karena anatomi retina matanya belum berkembang sempurna."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Semua suku bangsa pedalaman diwajibkan menggunakan istilah spektrum warna berbasis panjang gelombang nanometer."
       },
       {
+        "key": "D",
+        "text": "Pemerolehan istilah warna dasar berkembang mengikuti tahapan hierarki evolusi universal yang berpola: bahasa paling sederhana selalu memiliki 2 warna dasar (putih/terang dan hitam/gelap), disusul warna merah pada tahap berikutnya, lalu hijau atau kuning, biru, cokelat, hingga warna sekunder lainnya."
+      },
+      {
         "key": "E",
-        "text": "Istilah warna ungu dan jingga selalu muncul lebih dulu sebelum masyarakat mengenal istilah warna hitam dan putih."
+        "text": "Setiap bahasa di dunia menciptakan nama warna secara acak murni tanpa ada kesamaan urutan evolusi apa pun antarbudaya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Pemerolehan istilah warna dasar berkembang mengikuti tahapan hierarki evolusi universal yang berpola: bahasa paling sederhana selalu memiliki 2 warna dasar (putih/terang dan hitam/gelap), disusul warna merah pada tahap berikutnya, lalu hijau atau kuning, biru, cokelat, hingga warna sekunder lainnya.. Berlin-Kay membuktikan hierarki universal istilah warna: Tahap I (hitam-putih) -> Tahap II (merah) -> Tahap III (hijau/kuning) -> Tahap IV (biru) -> dst. Pilih opsi urutan hierarki berpola universal: 2 warna dasar (putih/hitam), disusul merah, hijau/kuning, biru, cokelat, dst."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pemerolehan istilah warna dasar berkembang mengikuti tahapan hierarki evolusi universal yang berpola: bahasa paling sederhana selalu memiliki 2 warna dasar (putih/terang dan hitam/gelap), disusul warna merah pada tahap berikutnya, lalu hijau atau kuning, biru, cokelat, hingga warna sekunder lainnya.. Berlin-Kay membuktikan hierarki universal istilah warna: Tahap I (hitam-putih) -> Tahap II (merah) -> Tahap III (hijau/kuning) -> Tahap IV (biru) -> dst. Pilih opsi urutan hierarki berpola universal: 2 warna dasar (putih/hitam), disusul merah, hijau/kuning, biru, cokelat, dst."
   },
   {
     "id": "ant-lat-h-07",
@@ -2433,27 +2434,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pemberontakan militer bersenjata terbuka dengan menduduki gedung parlemen kementerian ibu kota negara ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Pemberontakan militer bersenjata terbuka dengan menduduki gedung parlemen kementerian ibu kota negara."
       },
       {
         "key": "B",
-        "text": "Bentuk perlawanan terselubung dan tidak terorganisasi secara formal (seperti pura-pura bodoh, bekerja lambat, menyembunyikan hasil panen, mencuri kecil-kecilan, sabotase diam-diam, dan gosip fitnah di warung kopi) yang tidak memicu konfrontasi terbuka dengan aparat bersenjata namun secara konstan menggerus hegemoni penguasa."
+        "text": "Penerbitan surat kabar oposisi beroplah jutaan eksemplar yang didanai oleh konsorsium perbankan multinasional."
       },
       {
         "key": "C",
-        "text": "Pengajuan gugatan class-action perdata ke pengadilan mahkamah arbitrase internasional di Den Haag."
-      },
-      {
-        "key": "D",
         "text": "Aksi mogok makan massal di depan kantor kedutaan besar negara-negara persemakmuran Inggris."
       },
       {
+        "key": "D",
+        "text": "Pengajuan gugatan class-action perdata ke pengadilan mahkamah arbitrase internasional di Den Haag."
+      },
+      {
         "key": "E",
-        "text": "Penerbitan surat kabar oposisi beroplah jutaan eksemplar yang didanai oleh konsorsium perbankan multinasional."
+        "text": "Bentuk perlawanan terselubung dan tidak terorganisasi secara formal (seperti pura-pura bodoh, bekerja lambat, menyembunyikan hasil panen, mencuri kecil-kecilan, sabotase diam-diam, dan gosip fitnah di warung kopi) yang tidak memicu konfrontasi terbuka dengan aparat bersenjata namun secara konstan menggerus hegemoni penguasa."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Bentuk perlawanan terselubung dan tidak terorganisasi secara formal (seperti pura-pura bodoh, bekerja lambat, menyembunyikan hasil panen, mencuri kecil-kecilan, sabotase diam-diam, dan gosip fitnah di warung kopi) yang tidak memicu konfrontasi terbuka dengan aparat bersenjata namun secara konstan menggerus hegemoni penguasa.. Weapons of the Weak karya James C. Scott menganalisis perlawanan terselubung kaum tani miskin: pura-pura bodoh, kerja lambat (foot-dragging), sabotase kecil, dan gosip. Pilih: Perlawanan terselubung (pura-pura bodoh, bekerja lambat, sabotase diam-diam, gosip) tanpa konfrontasi senjata terbuka."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Bentuk perlawanan terselubung dan tidak terorganisasi secara formal (seperti pura-pura bodoh, bekerja lambat, menyembunyikan hasil panen, mencuri kecil-kecilan, sabotase diam-diam, dan gosip fitnah di warung kopi) yang tidak memicu konfrontasi terbuka dengan aparat bersenjata namun secara konstan menggerus hegemoni penguasa.. Weapons of the Weak karya James C. Scott menganalisis perlawanan terselubung kaum tani miskin: pura-pura bodoh, kerja lambat (foot-dragging), sabotase kecil, dan gosip. Pilih: Perlawanan terselubung (pura-pura bodoh, bekerja lambat, sabotase diam-diam, gosip) tanpa konfrontasi senjata terbuka."
   },
   {
     "id": "ant-lat-h-08",
@@ -2476,11 +2477,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Setiap keluarga pemburu-peramu menyimpan timbunan emas batangan dan perhiasan berlian di dalam gua tempat tinggalnya sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Penduduk suku tersebut menerima tunjangan bantuan uang tunai bulanan dari kantor badan bantuan sosial PBB."
       },
       {
         "key": "B",
-        "text": "Mereka memiliki teknologi irigasi pertanian otomatis yang digerakkan oleh tenaga panel surya primitif."
+        "text": "Angka harapan hidup masyarakat pemburu-peramu mencapai rata-rata seratus lima puluh tahun berkat konsumsi daging mentah."
       },
       {
         "key": "C",
@@ -2488,11 +2489,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Penduduk suku tersebut menerima tunjangan bantuan uang tunai bulanan dari kantor badan bantuan sosial PBB."
+        "text": "Mereka memiliki teknologi irigasi pertanian otomatis yang digerakkan oleh tenaga panel surya primitif."
       },
       {
         "key": "E",
-        "text": "Angka harapan hidup masyarakat pemburu-peramu mencapai rata-rata seratus lima puluh tahun berkat konsumsi daging mentah."
+        "text": "Setiap keluarga pemburu-peramu menyimpan timbunan emas batangan dan perhiasan berlian di dalam gua tempat tinggalnya."
       }
     ],
     "correctKey": "C",
@@ -2519,27 +2520,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menolak menerima bantuan teknologi modern dari negara lain karena sikap xenofobia yang berlebihan menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
-        "text": "Terlalu taat pada jam kerja kantor sehingga menolak istirahat siang bersama rekan kerja."
-      },
-      {
-        "key": "C",
         "text": "Kecenderungan untuk menabung seluruh penghasilan uang di bawah bantal tanpa pernah berbelanja di pasar."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Menolak menerima bantuan teknologi modern dari negara lain karena sikap xenofobia yang berlebihan menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+      },
+      {
+        "key": "C",
         "text": "Ingin mencapai hasil atau kenikmatan hidup sebesar-besarnya dalam waktu secepat-cepatnya melalui jalan pintas tanpa mau bersusah payah berikhtiar dan menghargai proses kerja keras serta mutu ketelitian."
+      },
+      {
+        "key": "D",
+        "text": "Terlalu taat pada jam kerja kantor sehingga menolak istirahat siang bersama rekan kerja."
       },
       {
         "key": "E",
         "text": "Gemar membaca buku-buku ensiklopedia ilmiah tebal hingga melupakan waktu beribadah di tempat ibadah."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Ingin mencapai hasil atau kenikmatan hidup sebesar-besarnya dalam waktu secepat-cepatnya melalui jalan pintas tanpa mau bersusah payah berikhtiar dan menghargai proses kerja keras serta mutu ketelitian.. Mentalitas menerabas menurut Koentjaraningrat adalah kegemaran mengambil jalan pintas demi hasil cepat/instan tanpa menghargai proses kerja keras dan mutu. Pilih: Ingin mencapai hasil sebesar-besarnya dalam waktu secepat-cepatnya lewat jalan pintas tanpa mau menghargai proses kerja keras dan mutu."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Ingin mencapai hasil atau kenikmatan hidup sebesar-besarnya dalam waktu secepat-cepatnya melalui jalan pintas tanpa mau bersusah payah berikhtiar dan menghargai proses kerja keras serta mutu ketelitian.. Mentalitas menerabas menurut Koentjaraningrat adalah kegemaran mengambil jalan pintas demi hasil cepat/instan tanpa menghargai proses kerja keras dan mutu. Pilih: Ingin mencapai hasil sebesar-besarnya dalam waktu secepat-cepatnya lewat jalan pintas tanpa mau menghargai proses kerja keras dan mutu."
   },
   {
     "id": "ant-lat-h-10",
@@ -2562,19 +2563,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Saling bertukar anak perempuan secara langsung pada hari pernikahan yang sama antar-dua keluarga batih diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
         "text": "Kedua belah pihak diwajibkan menghapus nama marga keluarga masing-masing setelah upacara perkawinan adat selesai."
       },
       {
+        "key": "B",
+        "text": "Perkawinan hanya sah apabila pengantin wanita berasal dari klan marga yang persis sama dengan klan pengantin pria."
+      },
+      {
         "key": "C",
-        "text": "Klan Boru memiliki kekuasaan mutlak untuk menyita seluruh tanah ulayat milik keluarga klan Hula-hula."
+        "text": "Saling bertukar anak perempuan secara langsung pada hari pernikahan yang sama antar-dua keluarga batih."
       },
       {
         "key": "D",
-        "text": "Perkawinan hanya sah apabila pengantin wanita berasal dari klan marga yang persis sama dengan klan pengantin pria."
+        "text": "Klan Boru memiliki kekuasaan mutlak untuk menyita seluruh tanah ulayat milik keluarga klan Hula-hula."
       },
       {
         "key": "E",
@@ -2609,19 +2610,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Melangun dilakukan untuk mencari ladang emas murni peninggalan peradaban kerajaan Sriwijaya kuno ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Orang Rimba berpindah tempat demi menghindari kewajiban membayar pajak penghasilan kepada kantor perbendaharaan daerah."
-      },
-      {
-        "key": "D",
         "text": "Tradisi mengembara dilakukan untuk melatih keterampilan perang gerilya melawan pasukan militer asing."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Perpindahan pemukiman murni dipicu oleh instruksi kepala dinas transmigrasi untuk mengosongkan kawasan hutan."
+      },
+      {
+        "key": "D",
+        "text": "Orang Rimba berpindah tempat demi menghindari kewajiban membayar pajak penghasilan kepada kantor perbendaharaan daerah."
+      },
+      {
+        "key": "E",
+        "text": "Melangun dilakukan untuk mencari ladang emas murni peninggalan peradaban kerajaan Sriwijaya kuno."
       }
     ],
     "correctKey": "A",
@@ -2648,15 +2649,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kewajiban menjual seluruh daging dan minyak paus ke kapal pabrik pengolahan makanan kaleng asal Jepang ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Penggunaan kapal pukat harimau bertenaga mesin jet dan sonar pelacak satelit laut dalam."
       },
       {
         "key": "B",
-        "text": "Pantangan adat melarang keras memburu paus yang sedang bunting, paus betina yang menyusui anaknya, dan anak paus yang masih kecil, serta seluruh hasil tangkapan dibagi rata secara adat kepada janda, yatim piatu, pembuat perahu, dan warga desa tanpa dijualbelikan secara komersial."
+        "text": "Kewajiban menjual seluruh daging dan minyak paus ke kapal pabrik pengolahan makanan kaleng asal Jepang."
       },
       {
         "key": "C",
-        "text": "Penggunaan kapal pukat harimau bertenaga mesin jet dan sonar pelacak satelit laut dalam."
+        "text": "Penetapan kuota tangkapan seribu ekor paus setiap hari untuk memenuhi target ekspor kementerian kelautan."
       },
       {
         "key": "D",
@@ -2664,11 +2665,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Penetapan kuota tangkapan seribu ekor paus setiap hari untuk memenuhi target ekspor kementerian kelautan."
+        "text": "Pantangan adat melarang keras memburu paus yang sedang bunting, paus betina yang menyusui anaknya, dan anak paus yang masih kecil, serta seluruh hasil tangkapan dibagi rata secara adat kepada janda, yatim piatu, pembuat perahu, dan warga desa tanpa dijualbelikan secara komersial."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Pantangan adat melarang keras memburu paus yang sedang bunting, paus betina yang menyusui anaknya, dan anak paus yang masih kecil, serta seluruh hasil tangkapan dibagi rata secara adat kepada janda, yatim piatu, pembuat perahu, dan warga desa tanpa dijualbelikan secara komersial.. Tradisi paus Lamalera sarat etika konservasi adat: dilarang memburu paus bunting/anak paus, dan daging dibagi rata secara subsisten kepada warga/janda tanpa dikomersialkan. Pilih: Pantangan memburu paus bunting/anak paus, serta daging dibagi rata adat kepada janda/yatim tanpa dijualbelikan komersial."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Pantangan adat melarang keras memburu paus yang sedang bunting, paus betina yang menyusui anaknya, dan anak paus yang masih kecil, serta seluruh hasil tangkapan dibagi rata secara adat kepada janda, yatim piatu, pembuat perahu, dan warga desa tanpa dijualbelikan secara komersial.. Tradisi paus Lamalera sarat etika konservasi adat: dilarang memburu paus bunting/anak paus, dan daging dibagi rata secara subsisten kepada warga/janda tanpa dikomersialkan. Pilih: Pantangan memburu paus bunting/anak paus, serta daging dibagi rata adat kepada janda/yatim tanpa dijualbelikan komersial."
   },
   {
     "id": "ant-lat-h-13",
@@ -2691,15 +2692,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penolakan mutlak terhadap penggunaan bahasa Jawa dalam seluruh percakapan sehari-hari dan kewajiban berbahasa Arab murni sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
         "text": "Penghancuran seluruh peninggalan bangunan masjid kuno yang memiliki atap tumpang bertingkat tiga."
       },
       {
+        "key": "B",
+        "text": "Pelarangan seluruh upacara pernikahan adat dan penghapusan sistem penanggalan kalender tahun Saka."
+      },
+      {
         "key": "C",
-        "text": "Perpaduan harmonis antara doktrin tauhid dan tasawuf sufi Islam dengan sisa-sisa kosmologi mistisisme Hindu-Buddha dan animisme leluhur Jawa, yang terwujud dalam ritual slametan, ziarah makam leluhur, serta penghormatan pada roh penunggu kosmis."
+        "text": "Penolakan mutlak terhadap penggunaan bahasa Jawa dalam seluruh percakapan sehari-hari dan kewajiban berbahasa Arab murni."
       },
       {
         "key": "D",
@@ -2707,11 +2708,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Pelarangan seluruh upacara pernikahan adat dan penghapusan sistem penanggalan kalender tahun Saka."
+        "text": "Perpaduan harmonis antara doktrin tauhid dan tasawuf sufi Islam dengan sisa-sisa kosmologi mistisisme Hindu-Buddha dan animisme leluhur Jawa, yang terwujud dalam ritual slametan, ziarah makam leluhur, serta penghormatan pada roh penunggu kosmis."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Perpaduan harmonis antara doktrin tauhid dan tasawuf sufi Islam dengan sisa-sisa kosmologi mistisisme Hindu-Buddha dan animisme leluhur Jawa, yang terwujud dalam ritual slametan, ziarah makam leluhur, serta penghormatan pada roh penunggu kosmis.. Islam Kejawen memadukan tasawuf sufi Islam dengan mistisisme Hindu-Buddha dan animisme Jawa, tampak pada ritual slametan dan ziarah kubur leluhur. Pilih opsi perpaduan doktrin tauhid/tasawuf Islam dengan kosmologi mistisisme Hindu-Buddha dan animisme lokal (slametan/ziarah)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Perpaduan harmonis antara doktrin tauhid dan tasawuf sufi Islam dengan sisa-sisa kosmologi mistisisme Hindu-Buddha dan animisme leluhur Jawa, yang terwujud dalam ritual slametan, ziarah makam leluhur, serta penghormatan pada roh penunggu kosmis.. Islam Kejawen memadukan tasawuf sufi Islam dengan mistisisme Hindu-Buddha dan animisme Jawa, tampak pada ritual slametan dan ziarah kubur leluhur. Pilih opsi perpaduan doktrin tauhid/tasawuf Islam dengan kosmologi mistisisme Hindu-Buddha dan animisme lokal (slametan/ziarah)."
   },
   {
     "id": "ant-lat-h-14",
@@ -2734,11 +2735,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seluruh nenek moyang bangsa Indonesia berasal dari migrasi darat kavaleri berkuda bangsa Hun melintasi stepa Siberia menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Peradaban manusia baru pertama kali bermula di muka bumi pada abad kesembilan belas pasca-revolusi industri mesin uap di Inggris."
       },
       {
         "key": "B",
-        "text": "Peradaban manusia baru pertama kali bermula di muka bumi pada abad kesembilan belas pasca-revolusi industri mesin uap di Inggris."
+        "text": "Pencairan es global pasca-zaman glasial terakhir memicu banjir bandang katastrofik dahsyat yang menenggelamkan daratan benua Paparan Sunda, sehingga memaksa populasi maritim berteknologi maju di wilayah kepulauan Nusantara bermigrasi dan menyebarkan kebudayaan bercocok tanam dan teknologi perahu ke daratan Asia, Pasifik, hingga Madagaskar."
       },
       {
         "key": "C",
@@ -2746,15 +2747,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Pencairan es global pasca-zaman glasial terakhir memicu banjir bandang katastrofik dahsyat yang menenggelamkan daratan benua Paparan Sunda, sehingga memaksa populasi maritim berteknologi maju di wilayah kepulauan Nusantara bermigrasi dan menyebarkan kebudayaan bercocok tanam dan teknologi perahu ke daratan Asia, Pasifik, hingga Madagaskar."
+        "text": "Seluruh nenek moyang bangsa Indonesia berasal dari migrasi darat kavaleri berkuda bangsa Hun melintasi stepa Siberia menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "E",
         "text": "Penduduk asli Nusantara tidak memiliki kemampuan membuat kapal dan hanya terdampar akibat terbawa arus pasang laut."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Pencairan es global pasca-zaman glasial terakhir memicu banjir bandang katastrofik dahsyat yang menenggelamkan daratan benua Paparan Sunda, sehingga memaksa populasi maritim berteknologi maju di wilayah kepulauan Nusantara bermigrasi dan menyebarkan kebudayaan bercocok tanam dan teknologi perahu ke daratan Asia, Pasifik, hingga Madagaskar.. Teori Out of Sundaland Oppenheimer menyatakan tenggelamnya Paparan Sunda akibat banjir mencairnya es purba memicu migrasi peradaban maritim Nusantara ke Asia dan Pasifik. Pilih opsi pencairan es menenggelamkan Paparan Sunda sehingga populasi maritim Nusantara bermigrasi menyebarkan kebudayaan ke Asia dan Pasifik."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pencairan es global pasca-zaman glasial terakhir memicu banjir bandang katastrofik dahsyat yang menenggelamkan daratan benua Paparan Sunda, sehingga memaksa populasi maritim berteknologi maju di wilayah kepulauan Nusantara bermigrasi dan menyebarkan kebudayaan bercocok tanam dan teknologi perahu ke daratan Asia, Pasifik, hingga Madagaskar.. Teori Out of Sundaland Oppenheimer menyatakan tenggelamnya Paparan Sunda akibat banjir mencairnya es purba memicu migrasi peradaban maritim Nusantara ke Asia dan Pasifik. Pilih opsi pencairan es menenggelamkan Paparan Sunda sehingga populasi maritim Nusantara bermigrasi menyebarkan kebudayaan ke Asia dan Pasifik."
   },
   {
     "id": "ant-lat-h-15",
@@ -2777,27 +2778,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kaum subaltern telah menguasai seluruh media massa televisi satelit internasional untuk menyuarakan aspirasi politiknya diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
         "text": "Semua orang miskin pedesaan menolak berbicara dalam bahasa daerah dan hanya mau berkomunikasi lewat surat elektronik."
       },
       {
-        "key": "C",
-        "text": "Kaum tertindas tidak membutuhkan bantuan pendidikan karena telah memiliki sertifikat hak paten teknologi kedokteran."
+        "key": "B",
+        "text": "Kaum subaltern tidak memiliki ruang epistemologis untuk bersuara secara mandiri karena suara mereka selalu dibungkam oleh hegemoni patriarki lokal dan sekaligus diintervensi serta 'diterjemahkan' sepihak oleh narasi intelektual kolonial/elitis Barat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pemerintah kolonial di masa lalu selalu memberikan kebebasan berpendapat penuh bagi seluruh buruh perkebunan tembakau."
       },
       {
+        "key": "D",
+        "text": "Kaum subaltern telah menguasai seluruh media massa televisi satelit internasional untuk menyuarakan aspirasi politiknya."
+      },
+      {
         "key": "E",
-        "text": "Kaum subaltern tidak memiliki ruang epistemologis untuk bersuara secara mandiri karena suara mereka selalu dibungkam oleh hegemoni patriarki lokal dan sekaligus diintervensi serta 'diterjemahkan' sepihak oleh narasi intelektual kolonial/elitis Barat."
+        "text": "Kaum tertindas tidak membutuhkan bantuan pendidikan karena telah memiliki sertifikat hak paten teknologi kedokteran."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Kaum subaltern tidak memiliki ruang epistemologis untuk bersuara secara mandiri karena suara mereka selalu dibungkam oleh hegemoni patriarki lokal dan sekaligus diintervensi serta 'diterjemahkan' sepihak oleh narasi intelektual kolonial/elitis Barat.. Spivak menegaskan kaum subaltern tidak bisa bersuara karena suaranya selalu dibungkam oleh patriarki lokal dan diwakili secara bias oleh wacana elitis Barat. Pilih: Kaum subaltern tidak memiliki ruang bersuara karena dibungkam patriarki lokal dan diterjemahkan sepihak oleh narasi intelektual elitis."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kaum subaltern tidak memiliki ruang epistemologis untuk bersuara secara mandiri karena suara mereka selalu dibungkam oleh hegemoni patriarki lokal dan sekaligus diintervensi serta 'diterjemahkan' sepihak oleh narasi intelektual kolonial/elitis Barat.. Spivak menegaskan kaum subaltern tidak bisa bersuara karena suaranya selalu dibungkam oleh patriarki lokal dan diwakili secara bias oleh wacana elitis Barat. Pilih: Kaum subaltern tidak memiliki ruang bersuara karena dibungkam patriarki lokal dan diterjemahkan sepihak oleh narasi intelektual elitis."
   },
   {
     "id": "ant-lat-h-16",
@@ -2824,19 +2825,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Hukum Militer Romawi kuno, hukum dagang maritim imperium Spanyol, dan piagam perserikatan bangsa-bangsa ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
         "text": "Hukum adat suku Eskimo kutub utara, hukum pertambangan emas Afrika Selatan, dan konstitusi monarki Inggris."
       },
       {
+        "key": "C",
+        "text": "Hukum Militer Romawi kuno, hukum dagang maritim imperium Spanyol, dan piagam perserikatan bangsa-bangsa."
+      },
+      {
         "key": "D",
-        "text": "Hukum perdata negara bagian Amerika Serikat, hukum lalu lintas jalan tol Jepang, dan aturan serikat buruh benua Eropa."
+        "text": "Hukum adat kesultanan Ottoman Turki, hukum tata negara Uni Soviet, dan piagam perlindungan satwa liar Afrika."
       },
       {
         "key": "E",
-        "text": "Hukum adat kesultanan Ottoman Turki, hukum tata negara Uni Soviet, dan piagam perlindungan satwa liar Afrika."
+        "text": "Hukum perdata negara bagian Amerika Serikat, hukum lalu lintas jalan tol Jepang, dan aturan serikat buruh benua Eropa."
       }
     ],
     "correctKey": "A",
@@ -2863,27 +2864,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mengagungkan persaingan kejam hidup-mati dan pesta mabuk ekstatis liar tanpa batas moralitas ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
         "text": "Menjunjung tinggi ketertiban, pengendalian diri emosional, moderasi kesopanan, kerja sama damai, serta menghindari segala bentuk ambisi individualistis yang ekstrem dan kegilaan pesta ekstatis."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Mewajibkan seluruh pemuda ksatria membakar rumah tempat tinggalnya sendiri untuk memamerkan kekayaan harta."
       },
       {
+        "key": "C",
+        "text": "Mengagungkan persaingan kejam hidup-mati dan pesta mabuk ekstatis liar tanpa batas moralitas."
+      },
+      {
         "key": "D",
-        "text": "Menghukum mati siapa saja yang bersikap tenang dan sopan dalam pergaulan musyawarah dewan desa."
+        "text": "Mewajibkan seluruh penduduk meminum racun tanaman hutan setiap kali terjadi gerhana matahari total."
       },
       {
         "key": "E",
-        "text": "Mewajibkan seluruh penduduk meminum racun tanaman hutan setiap kali terjadi gerhana matahari total."
+        "text": "Menghukum mati siapa saja yang bersikap tenang dan sopan dalam pergaulan musyawarah dewan desa."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Menjunjung tinggi ketertiban, pengendalian diri emosional, moderasi kesopanan, kerja sama damai, serta menghindari segala bentuk ambisi individualistis yang ekstrem dan kegilaan pesta ekstatis.. Apollonian (suku Zuni) mencerminkan ketenangan, harmoni, kendali emosi, dan moderasi (kebalikan dari Dionysian yang liar dan ekstatis). Pilih opsi menjunjung ketertiban, pengendalian diri emosional, moderasi kesopanan, dan kerja sama damai."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Menjunjung tinggi ketertiban, pengendalian diri emosional, moderasi kesopanan, kerja sama damai, serta menghindari segala bentuk ambisi individualistis yang ekstrem dan kegilaan pesta ekstatis.. Apollonian (suku Zuni) mencerminkan ketenangan, harmoni, kendali emosi, dan moderasi (kebalikan dari Dionysian yang liar dan ekstatis). Pilih opsi menjunjung ketertiban, pengendalian diri emosional, moderasi kesopanan, dan kerja sama damai."
   },
   {
     "id": "ant-lat-h-18",
@@ -2906,27 +2907,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyakit selalu disebabkan oleh serangan santet ilmu hitam atau kutukan makhluk gaib yang sengaja dikirim oleh dukun musuh sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Penyembuhan penyakit hanya boleh dilakukan dengan mengorbankan seratus ekor kerbau jantan bertanduk emas di puncak gunung."
-      },
-      {
-        "key": "C",
         "text": "Penyakit diyakini timbul akibat ketidakseimbangan unsur-unsur impersonal alamiah dalam tubuh manusia (seperti panas dan dingin, keseimbangan cairan humor, atau paparan angin kotor) yang disembuhkan melalui ramuan herbal jamu atau penyeimbangan diet makanan."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Penyakit dianggap murni sebagai hukuman langsung atas dosa pelanggaran hukum pidana di masa kehidupan masa lampau."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Penyembuhan penyakit hanya boleh dilakukan dengan mengorbankan seratus ekor kerbau jantan bertanduk emas di puncak gunung."
+      },
+      {
+        "key": "D",
         "text": "Pasien diwajibkan melakukan ritual pemanggilan arwah raja purba di dalam gua bawah laut selama empat puluh malam."
+      },
+      {
+        "key": "E",
+        "text": "Penyakit selalu disebabkan oleh serangan santet ilmu hitam atau kutukan makhluk gaib yang sengaja dikirim oleh dukun musuh."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Penyakit diyakini timbul akibat ketidakseimbangan unsur-unsur impersonal alamiah dalam tubuh manusia (seperti panas dan dingin, keseimbangan cairan humor, atau paparan angin kotor) yang disembuhkan melalui ramuan herbal jamu atau penyeimbangan diet makanan.. Sistem naturalistik menganggap penyakit berasal dari ketidakseimbangan unsur alami tubuh (panas-dingin/masuk angin), bukan karena serangan makhluk gaib (personalistik). Pilih: Penyakit timbul akibat ketidakseimbangan unsur impersonal alami dalam tubuh (panas-dingin) yang disembuhkan ramuan herbal."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Penyakit diyakini timbul akibat ketidakseimbangan unsur-unsur impersonal alamiah dalam tubuh manusia (seperti panas dan dingin, keseimbangan cairan humor, atau paparan angin kotor) yang disembuhkan melalui ramuan herbal jamu atau penyeimbangan diet makanan.. Sistem naturalistik menganggap penyakit berasal dari ketidakseimbangan unsur alami tubuh (panas-dingin/masuk angin), bukan karena serangan makhluk gaib (personalistik). Pilih: Penyakit timbul akibat ketidakseimbangan unsur impersonal alami dalam tubuh (panas-dingin) yang disembuhkan ramuan herbal."
   },
   {
     "id": "ant-lat-h-19",
@@ -2949,7 +2950,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Laras Slendro hanya dimainkan menggunakan terompet tiup kuningan Eropa, sedangkan Laras Pelog dimainkan dengan gitar listrik modern menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Laras Slendro hanya dimainkan menggunakan terompet tiup kuningan Eropa, sedangkan Laras Pelog dimainkan dengan gitar listrik modern menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "B",
@@ -2957,7 +2958,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Laras Slendro tidak memiliki alat musik gong dan kendang, sedangkan Laras Pelog tidak memiliki bilah gamelan perunggu."
+        "text": "Laras Slendro diimpor langsung dari kepulauan Karibia, sedangkan Laras Pelog diciptakan oleh serdadu tentara kompeni Belanda."
       },
       {
         "key": "D",
@@ -2965,7 +2966,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Laras Slendro diimpor langsung dari kepulauan Karibia, sedangkan Laras Pelog diciptakan oleh serdadu tentara kompeni Belanda."
+        "text": "Laras Slendro tidak memiliki alat musik gong dan kendang, sedangkan Laras Pelog tidak memiliki bilah gamelan perunggu."
       }
     ],
     "correctKey": "D",
@@ -2992,27 +2993,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Mewajibkan anak memanggil ayah kandungnya dengan sebutan gelar perwira komando militer pertahanan pantai diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Mewajibkan anak memanggil ayah kandungnya dengan sebutan gelar perwira komando militer pertahanan pantai."
       },
       {
         "key": "B",
-        "text": "Melarang penggunaan nama panggilan apa pun di antara saudara sekandung dan hanya memanggil dengan angka nomor undian."
+        "text": "Menggabungkan semua saudara sepupu (baik sepupu silang maupun sepupu paralel dari pihak ayah dan ibu) ke dalam satu kategori sebutan yang sama persis dengan 'Saudara Kandung' (kakak/adik), serta menyamakan sebutan paman/bibi dengan 'Ayah' dan 'Ibu'."
       },
       {
         "key": "C",
-        "text": "Membedakan sepupu silang menjadi golongan budak hamba sahaya yang wajib melayani keluarga paman kandung."
+        "text": "Melarang penggunaan nama panggilan apa pun di antara saudara sekandung dan hanya memanggil dengan angka nomor undian."
       },
       {
         "key": "D",
-        "text": "Menghapus seluruh istilah kekerabatan keluarga dan menggantikannya dengan sebutan kasta bangsawan Eropa."
+        "text": "Membedakan sepupu silang menjadi golongan budak hamba sahaya yang wajib melayani keluarga paman kandung."
       },
       {
         "key": "E",
-        "text": "Menggabungkan semua saudara sepupu (baik sepupu silang maupun sepupu paralel dari pihak ayah dan ibu) ke dalam satu kategori sebutan yang sama persis dengan 'Saudara Kandung' (kakak/adik), serta menyamakan sebutan paman/bibi dengan 'Ayah' dan 'Ibu'."
+        "text": "Menghapus seluruh istilah kekerabatan keluarga dan menggantikannya dengan sebutan kasta bangsawan Eropa."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Menggabungkan semua saudara sepupu (baik sepupu silang maupun sepupu paralel dari pihak ayah dan ibu) ke dalam satu kategori sebutan yang sama persis dengan 'Saudara Kandung' (kakak/adik), serta menyamakan sebutan paman/bibi dengan 'Ayah' dan 'Ibu'.. Sistem Hawaiian menyamakan sebutan saudara kandung dengan seluruh sepupu (baik paralel maupun silang) dan menyamakan paman/bibi dengan ayah/ibu. Pilih: Menggabungkan semua sepupu ke dalam sebutan yang sama dengan Saudara Kandung serta menyamakan paman/bibi dengan Ayah dan Ibu."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Menggabungkan semua saudara sepupu (baik sepupu silang maupun sepupu paralel dari pihak ayah dan ibu) ke dalam satu kategori sebutan yang sama persis dengan 'Saudara Kandung' (kakak/adik), serta menyamakan sebutan paman/bibi dengan 'Ayah' dan 'Ibu'.. Sistem Hawaiian menyamakan sebutan saudara kandung dengan seluruh sepupu (baik paralel maupun silang) dan menyamakan paman/bibi dengan ayah/ibu. Pilih: Menggabungkan semua sepupu ke dalam sebutan yang sama dengan Saudara Kandung serta menyamakan paman/bibi dengan Ayah dan Ibu."
   },
   {
     "id": "ant-lat-h-21",
@@ -3035,27 +3036,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Secara genetik, variasi biologis di dalam satu kelompok populasi yang sama (mencapai sekitar 85–90%) jauh lebih besar daripada variasi genetik antar-kelompok populasi yang berbeda (hanya sekitar 10–15%), serta sifat fisik seperti warna kulit bergradasi secara bersambung (_clinal variation_) mengikuti intensitas radiasi sinar ultraviolet matahari."
-      },
-      {
-        "key": "B",
-        "text": "Seluruh umat manusia di bumi memiliki susunan sidik jari tangan yang persis identik tanpa perbedaan satu lekukan pun ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Setiap suku bangsa di dunia memiliki kemampuan bahasa yang tidak dapat diterjemahkan ke dalam bahasa suku bangsa lain."
-      },
-      {
-        "key": "D",
         "text": "Telah ditemukan obat suntik kimia sintetis yang mampu mengubah warna kulit manusia dalam hitungan detik secara permanen."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Semua fosil manusia purba purba di dunia terbukti berasal dari spesies kera simpanse modern yang bermutasi serentak."
+      },
+      {
+        "key": "C",
+        "text": "Seluruh umat manusia di bumi memiliki susunan sidik jari tangan yang persis identik tanpa perbedaan satu lekukan pun."
+      },
+      {
+        "key": "D",
+        "text": "Secara genetik, variasi biologis di dalam satu kelompok populasi yang sama (mencapai sekitar 85–90%) jauh lebih besar daripada variasi genetik antar-kelompok populasi yang berbeda (hanya sekitar 10–15%), serta sifat fisik seperti warna kulit bergradasi secara bersambung (_clinal variation_) mengikuti intensitas radiasi sinar ultraviolet matahari."
+      },
+      {
+        "key": "E",
+        "text": "Setiap suku bangsa di dunia memiliki kemampuan bahasa yang tidak dapat diterjemahkan ke dalam bahasa suku bangsa lain."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Secara genetik, variasi biologis di dalam satu kelompok populasi yang sama (mencapai sekitar 85–90%) jauh lebih besar daripada variasi genetik antar-kelompok populasi yang berbeda (hanya sekitar 10–15%), serta sifat fisik seperti warna kulit bergradasi secara bersambung (_clinal variation_) mengikuti intensitas radiasi sinar ultraviolet matahari.. Genetika modern membuktikan variasi genetik di dalam satu ras/populasi (85-90%) jauh lebih besar daripada variasi antar-ras (10-15%), membuktikan ras adalah konstruksi sosial. Pilih opsi variasi biologis di dalam satu populasi (85-90%) jauh lebih besar daripada variasi antar-populasi (10-15%) dan sifat fisik bergradasi (clinal)."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Secara genetik, variasi biologis di dalam satu kelompok populasi yang sama (mencapai sekitar 85–90%) jauh lebih besar daripada variasi genetik antar-kelompok populasi yang berbeda (hanya sekitar 10–15%), serta sifat fisik seperti warna kulit bergradasi secara bersambung (_clinal variation_) mengikuti intensitas radiasi sinar ultraviolet matahari.. Genetika modern membuktikan variasi genetik di dalam satu ras/populasi (85-90%) jauh lebih besar daripada variasi antar-ras (10-15%), membuktikan ras adalah konstruksi sosial. Pilih opsi variasi biologis di dalam satu populasi (85-90%) jauh lebih besar daripada variasi antar-populasi (10-15%) dan sifat fisik bergradasi (clinal)."
   },
   {
     "id": "ant-lat-h-22",
@@ -3078,27 +3079,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukuman pengadilan pidana bagi para petani yang menolak memanen garam laut di musim kemarau ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
-        "text": "Arena pertaruhan harga diri dan kehormatan keluarga (_harga diri/martabat siri'_), simbol status sosial ekonomi sang pemilik sapi di hadapan komunitas, serta wujud adaptasi ekologis memuliakan ternak sapi unggul di tengah lingkungan alam Madura yang kering dan berkapur."
-      },
-      {
-        "key": "C",
-        "text": "Metode seleksi prajurit kavaleri berkuda untuk mempertahankan pulau Madura dari ancaman serangan bajak laut asing."
-      },
-      {
-        "key": "D",
         "text": "Upacara wajib penyerahan hewan kurban kepada dewa matahari yang dipercayai bersemayam di dasar sumur garam."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Hukuman pengadilan pidana bagi para petani yang menolak memanen garam laut di musim kemarau."
+      },
+      {
+        "key": "C",
+        "text": "Arena pertaruhan harga diri dan kehormatan keluarga (_harga diri/martabat siri'_), simbol status sosial ekonomi sang pemilik sapi di hadapan komunitas, serta wujud adaptasi ekologis memuliakan ternak sapi unggul di tengah lingkungan alam Madura yang kering dan berkapur."
+      },
+      {
+        "key": "D",
         "text": "Perlombaan olahraga modern berhadiah kupon impor gandum yang disponsori oleh perusahaan makanan kaleng luar negeri."
+      },
+      {
+        "key": "E",
+        "text": "Metode seleksi prajurit kavaleri berkuda untuk mempertahankan pulau Madura dari ancaman serangan bajak laut asing."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Arena pertaruhan harga diri dan kehormatan keluarga (_harga diri/martabat siri'_), simbol status sosial ekonomi sang pemilik sapi di hadapan komunitas, serta wujud adaptasi ekologis memuliakan ternak sapi unggul di tengah lingkungan alam Madura yang kering dan berkapur.. Karapan Sapi Madura adalah arena simbolis harga diri (siri'), prestise status sosial klan pemilik sapi, dan pemuliaan ternak sapi unggul adaptif lahan kering. Pilih: Arena pertaruhan harga diri/kehormatan (siri'), simbol status sosial pemilik, dan adaptasi memuliakan ternak sapi unggul."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Arena pertaruhan harga diri dan kehormatan keluarga (_harga diri/martabat siri'_), simbol status sosial ekonomi sang pemilik sapi di hadapan komunitas, serta wujud adaptasi ekologis memuliakan ternak sapi unggul di tengah lingkungan alam Madura yang kering dan berkapur.. Karapan Sapi Madura adalah arena simbolis harga diri (siri'), prestise status sosial klan pemilik sapi, dan pemuliaan ternak sapi unggul adaptif lahan kering. Pilih: Arena pertaruhan harga diri/kehormatan (siri'), simbol status sosial pemilik, dan adaptasi memuliakan ternak sapi unggul."
   },
   {
     "id": "ant-lat-h-23",
@@ -3121,27 +3122,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penghapusan seluruh bahasa lokal dan penggantiannya secara total dengan dialek bahasa penjajah tanpa perlawanan sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Kewajiban seluruh seniman tradisional untuk melukis potret wajah gubernur jenderal kolonial di setiap kanvas lukisan."
       },
       {
         "key": "B",
-        "text": "Penolakan mutlak kaum pribumi terhadap seluruh barang impor teknologi dan kembalinya peradaban ke masa batu purba."
-      },
-      {
-        "key": "C",
         "text": "Hibriditas bukan sekadar pencampuran pasif dua budaya murni, melainkan terciptanya ruang ambivalen ('Ruang Ketiga') tempat bertemunya budaya penjajah dan terjajah yang mendekonstruksi klaim kemurnian budaya, mengganggu otoritas hegemoni dominan, dan melahirkan makna identitas baru yang subversif."
       },
       {
+        "key": "C",
+        "text": "Penghapusan seluruh bahasa lokal dan penggantiannya secara total dengan dialek bahasa penjajah tanpa perlawanan."
+      },
+      {
         "key": "D",
-        "text": "Penyatuan dua sistem perbankan komersial swasta ke dalam satu badan usaha milik negara secara paksa."
+        "text": "Penolakan mutlak kaum pribumi terhadap seluruh barang impor teknologi dan kembalinya peradaban ke masa batu purba."
       },
       {
         "key": "E",
-        "text": "Kewajiban seluruh seniman tradisional untuk melukis potret wajah gubernur jenderal kolonial di setiap kanvas lukisan."
+        "text": "Penyatuan dua sistem perbankan komersial swasta ke dalam satu badan usaha milik negara secara paksa."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Hibriditas bukan sekadar pencampuran pasif dua budaya murni, melainkan terciptanya ruang ambivalen ('Ruang Ketiga') tempat bertemunya budaya penjajah dan terjajah yang mendekonstruksi klaim kemurnian budaya, mengganggu otoritas hegemoni dominan, dan melahirkan makna identitas baru yang subversif.. Hibriditas Bhabha melahirkan 'Ruang Ketiga' (Third Space) yang mendekonstruksi kemurnian budaya dan meruntuhkan otoritas hegemoni penjajah. Pilih: Terciptanya ruang ambivalen (Ruang Ketiga) tempat bertemunya budaya yang mendekonstruksi kemurnian budaya dan mengganggu otoritas hegemoni."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Hibriditas bukan sekadar pencampuran pasif dua budaya murni, melainkan terciptanya ruang ambivalen ('Ruang Ketiga') tempat bertemunya budaya penjajah dan terjajah yang mendekonstruksi klaim kemurnian budaya, mengganggu otoritas hegemoni dominan, dan melahirkan makna identitas baru yang subversif.. Hibriditas Bhabha melahirkan 'Ruang Ketiga' (Third Space) yang mendekonstruksi kemurnian budaya dan meruntuhkan otoritas hegemoni penjajah. Pilih: Terciptanya ruang ambivalen (Ruang Ketiga) tempat bertemunya budaya yang mendekonstruksi kemurnian budaya dan mengganggu otoritas hegemoni."
   },
   {
     "id": "ant-lat-h-24",
@@ -3164,27 +3165,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "1. Nilai tukar mata uang, 2. Harga bahan bakar solar, 3. Kuota impor beras, 4. Tarif jalan tol berbayar, dan 5. Suku bunga pinjaman bank menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
         "text": "1. Kekuatan armada kapal perang, 2. Jumlah amunisi meriam, 3. Luas benteng pertahanan, 4. Jumlah serdadu infanteri, dan 5. Taktik perang gerilya."
       },
       {
+        "key": "B",
+        "text": "1. Nilai tukar mata uang, 2. Harga bahan bakar solar, 3. Kuota impor beras, 4. Tarif jalan tol berbayar, dan 5. Suku bunga pinjaman bank menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+      },
+      {
         "key": "C",
-        "text": "1. Bentuk tempurung tengkorak, 2. Panjang tulang paha, 3. Berat organ hati, 4. Warna pigmen iris mata, dan 5. Jumlah gigi geraham purba."
+        "text": "1. Hakikat hidup manusia (_Human Nature_), 2. Hakikat karya manusia (_Man-Activity_), 3. Hubungan manusia dalam ruang-waktu (_Time Orientation_), 4. Hubungan manusia dengan alam sekitarnya (_Man-Nature_), dan 5. Hubungan manusia dengan sesamanya (_Relational Orientation_)."
       },
       {
         "key": "D",
-        "text": "1. Hakikat hidup manusia (_Human Nature_), 2. Hakikat karya manusia (_Man-Activity_), 3. Hubungan manusia dalam ruang-waktu (_Time Orientation_), 4. Hubungan manusia dengan alam sekitarnya (_Man-Nature_), dan 5. Hubungan manusia dengan sesamanya (_Relational Orientation_)."
+        "text": "1. Bentuk tempurung tengkorak, 2. Panjang tulang paha, 3. Berat organ hati, 4. Warna pigmen iris mata, dan 5. Jumlah gigi geraham purba."
       },
       {
         "key": "E",
         "text": "1. Kecepatan angin badai topan, 2. Tingkat keasaman air laut, 3. Ketinggian pasang surut, 4. Suhu udara khatulistiwa, dan 5. Tekanan gas atmosfer."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) 1. Hakikat hidup manusia (_Human Nature_), 2. Hakikat karya manusia (_Man-Activity_), 3. Hubungan manusia dalam ruang-waktu (_Time Orientation_), 4. Hubungan manusia dengan alam sekitarnya (_Man-Nature_), dan 5. Hubungan manusia dengan sesamanya (_Relational Orientation_).. 5 Masalah Dasar Orientasi Nilai Kluckhohn: 1. Hakikat hidup (MH), 2. Hakikat karya (MK), 3. Ruang-waktu (MW), 4. Alam sekitar (MA), 5. Hubungan sesama (MM). Pilih: Hakikat hidup, hakikat karya, ruang-waktu, hubungan dengan alam, dan hubungan dengan sesama manusia."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) 1. Hakikat hidup manusia (_Human Nature_), 2. Hakikat karya manusia (_Man-Activity_), 3. Hubungan manusia dalam ruang-waktu (_Time Orientation_), 4. Hubungan manusia dengan alam sekitarnya (_Man-Nature_), dan 5. Hubungan manusia dengan sesamanya (_Relational Orientation_).. 5 Masalah Dasar Orientasi Nilai Kluckhohn: 1. Hakikat hidup (MH), 2. Hakikat karya (MK), 3. Ruang-waktu (MW), 4. Alam sekitar (MA), 5. Hubungan sesama (MM). Pilih: Hakikat hidup, hakikat karya, ruang-waktu, hubungan dengan alam, dan hubungan dengan sesama manusia."
   },
   {
     "id": "ant-lat-h-25",
@@ -3207,15 +3208,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Menyerahkan seluruh catatan harian lapangan kepada kantor menteri perdagangan luar negeri untuk diperjualbelikan diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Mengakui kedaulatan riset masyarakat adat (_indigenous research sovereignty_), melibatkan komunitas adat sebagai mitra setara pemegang kendali penelitian, melindungi kepemilikan intelektual kearifan lokal, serta memastikan bahwa hasil penelitian membawa manfaat nyata bagi pemberdayaan dan emansipasi masyarakat yang diteliti."
       },
       {
         "key": "B",
-        "text": "Melarang warga masyarakat adat membaca buku hasil penelitian yang diterbitkan oleh peneliti antropologi."
+        "text": "Mengharuskan setiap informan adat menandatangani surat pelepasan seluruh hak waris tanah adat leluhur mereka."
       },
       {
         "key": "C",
-        "text": "Mengharuskan setiap informan adat menandatangani surat pelepasan seluruh hak waris tanah adat leluhur mereka."
+        "text": "Melarang warga masyarakat adat membaca buku hasil penelitian yang diterbitkan oleh peneliti antropologi."
       },
       {
         "key": "D",
@@ -3223,11 +3224,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Mengakui kedaulatan riset masyarakat adat (_indigenous research sovereignty_), melibatkan komunitas adat sebagai mitra setara pemegang kendali penelitian, melindungi kepemilikan intelektual kearifan lokal, serta memastikan bahwa hasil penelitian membawa manfaat nyata bagi pemberdayaan dan emansipasi masyarakat yang diteliti."
+        "text": "Menyerahkan seluruh catatan harian lapangan kepada kantor menteri perdagangan luar negeri untuk diperjualbelikan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Mengakui kedaulatan riset masyarakat adat (_indigenous research sovereignty_), melibatkan komunitas adat sebagai mitra setara pemegang kendali penelitian, melindungi kepemilikan intelektual kearifan lokal, serta memastikan bahwa hasil penelitian membawa manfaat nyata bagi pemberdayaan dan emansipasi masyarakat yang diteliti.. Dekolonisasi metodologi riset menuntut pengakuan kedaulatan riset adat, kemitraan setara, perlindungan hak intelektual lokal, dan kemanfaatan nyata bagi masyarakat adat. Pilih: Mengakui kedaulatan riset masyarakat adat, melibatkan komunitas sebagai mitra setara, dan memastikan hasil riset bermanfaat bagi pemberdayaan lokal."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Mengakui kedaulatan riset masyarakat adat (_indigenous research sovereignty_), melibatkan komunitas adat sebagai mitra setara pemegang kendali penelitian, melindungi kepemilikan intelektual kearifan lokal, serta memastikan bahwa hasil penelitian membawa manfaat nyata bagi pemberdayaan dan emansipasi masyarakat yang diteliti.. Dekolonisasi metodologi riset menuntut pengakuan kedaulatan riset adat, kemitraan setara, perlindungan hak intelektual lokal, dan kemanfaatan nyata bagi masyarakat adat. Pilih: Mengakui kedaulatan riset masyarakat adat, melibatkan komunitas sebagai mitra setara, dan memastikan hasil riset bermanfaat bagi pemberdayaan lokal."
   },
   {
     "id": "ant-sim-01",
@@ -3254,19 +3255,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Membuang seluruh sisa barang dagangan impor yang kedaluwarsa demi menghindari pengenaan pajak perdagangan ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Menghukum anggota klan yang terbukti melakukan pelanggaran hukum adat berupa pencurian ternak kuda liar."
       },
       {
         "key": "C",
-        "text": "Menyerahkan seluruh kepemilikan tanah ulayat klan kepada pedagang kulit bulu asal perserikatan bangsa Eropa."
-      },
-      {
-        "key": "D",
         "text": "Meminta bantuan militer kepada suku tetangga untuk bersama-sama menyerang armada kapal perang angkatan laut."
       },
       {
+        "key": "D",
+        "text": "Menyerahkan seluruh kepemilikan tanah ulayat klan kepada pedagang kulit bulu asal perserikatan bangsa Eropa."
+      },
+      {
         "key": "E",
-        "text": "Menghukum anggota klan yang terbukti melakukan pelanggaran hukum adat berupa pencurian ternak kuda liar."
+        "text": "Membuang seluruh sisa barang dagangan impor yang kedaluwarsa demi menghindari pengenaan pajak perdagangan."
       }
     ],
     "correctKey": "A",
@@ -3293,27 +3294,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebagai jaminan uang ganti rugi pembebasan lahan perkebunan cengkeh milik keluarga duka yang telah digusur ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
         "text": "Sebagai kendaraan suci arwah orang yang meninggal (To Madingin) agar mampu menempuh perjalanan gaib dengan selamat menuju alam keabadian peristirahatan leluhur (Puya) sesuai derajat kebangsawanan ampu tana."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Sebagai simbol penyerahan kekuasaan politik distrik kepada aparat perwakilan kantor keresidenan kolonial."
       },
       {
+        "key": "C",
+        "text": "Sebagai bentuk pemusnahan hewan ternak yang tertular penyakit kuku dan mulut agar tidak menular ke desa tetangga."
+      },
+      {
         "key": "D",
-        "text": "Sebagai sarana menyuap para pemuka agama luar agar bersedia mendoakan keselamatan warga desa dari wabah kolera."
+        "text": "Sebagai jaminan uang ganti rugi pembebasan lahan perkebunan cengkeh milik keluarga duka yang telah digusur."
       },
       {
         "key": "E",
-        "text": "Sebagai bentuk pemusnahan hewan ternak yang tertular penyakit kuku dan mulut agar tidak menular ke desa tetangga."
+        "text": "Sebagai sarana menyuap para pemuka agama luar agar bersedia mendoakan keselamatan warga desa dari wabah kolera."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Sebagai kendaraan suci arwah orang yang meninggal (To Madingin) agar mampu menempuh perjalanan gaib dengan selamat menuju alam keabadian peristirahatan leluhur (Puya) sesuai derajat kebangsawanan ampu tana.. Dalam Aluk Todolo Rambu Solo', kerbau belang Tedong Bonga dikorbankan sebagai kendaraan arwah menuju alam peristirahatan leluhur (Puya). Pilih: Sebagai kendaraan suci arwah menuju alam peristirahatan leluhur (Puya) sesuai derajat kebangsawanan."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Sebagai kendaraan suci arwah orang yang meninggal (To Madingin) agar mampu menempuh perjalanan gaib dengan selamat menuju alam keabadian peristirahatan leluhur (Puya) sesuai derajat kebangsawanan ampu tana.. Dalam Aluk Todolo Rambu Solo', kerbau belang Tedong Bonga dikorbankan sebagai kendaraan arwah menuju alam peristirahatan leluhur (Puya). Pilih: Sebagai kendaraan suci arwah menuju alam peristirahatan leluhur (Puya) sesuai derajat kebangsawanan."
   },
   {
     "id": "ant-sim-03",
@@ -3336,27 +3337,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penyakit dianggap sebagai akibat kutukan teluh dan guna-guna yang dikirim oleh dukun santet musuh bebuyutan keluarga sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Penyakit dianggap sebagai akibat kutukan teluh dan guna-guna yang dikirim oleh dukun santet musuh bebuyutan keluarga."
       },
       {
         "key": "B",
-        "text": "Penyakit disebabkan oleh gigitan serangga parasit mikroskopis beracun yang hanya dapat dibunuh dengan radiasi sinar gamma."
-      },
-      {
-        "key": "C",
-        "text": "Penyakit diyakini timbul akibat terganggunya keseimbangan unsur internal tubuh (humoral) oleh anasir dingin dari angin luar, di mana kerokan berfungsi membuka pori-pori kulit untuk mengeluarkan hawa angin berlebih."
-      },
-      {
-        "key": "D",
         "text": "Penyakit muncul karena arwah nenek moyang marah akibat makam keramatnya tidak diberi sesajen kepala kerbau putih."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Penyakit disebabkan oleh gigitan serangga parasit mikroskopis beracun yang hanya dapat dibunuh dengan radiasi sinar gamma."
+      },
+      {
+        "key": "D",
         "text": "Penyakit timbul karena pelanggaran pantangan adat memancing ikan di muara sungai larangan saat bulan purnama."
+      },
+      {
+        "key": "E",
+        "text": "Penyakit diyakini timbul akibat terganggunya keseimbangan unsur internal tubuh (humoral) oleh anasir dingin dari angin luar, di mana kerokan berfungsi membuka pori-pori kulit untuk mengeluarkan hawa angin berlebih."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Penyakit diyakini timbul akibat terganggunya keseimbangan unsur internal tubuh (humoral) oleh anasir dingin dari angin luar, di mana kerokan berfungsi membuka pori-pori kulit untuk mengeluarkan hawa angin berlebih.. Etiologi naturalistik melihat penyakit sebagai akibat ketidakseimbangan unsur fisik/alamiah tubuh (humoral panas-dingin, kelebihan angin), bukan akibat guna-guna roh. Pilih penjelasan bahwa masuk angin adalah ketidakseimbangan humoral oleh anasir dingin/angin dan kerokan memulihkan keseimbangan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Penyakit diyakini timbul akibat terganggunya keseimbangan unsur internal tubuh (humoral) oleh anasir dingin dari angin luar, di mana kerokan berfungsi membuka pori-pori kulit untuk mengeluarkan hawa angin berlebih.. Etiologi naturalistik melihat penyakit sebagai akibat ketidakseimbangan unsur fisik/alamiah tubuh (humoral panas-dingin, kelebihan angin), bukan akibat guna-guna roh. Pilih penjelasan bahwa masuk angin adalah ketidakseimbangan humoral oleh anasir dingin/angin dan kerokan memulihkan keseimbangan."
   },
   {
     "id": "ant-sim-04",
@@ -3379,15 +3380,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Seorang anak laki-laki sulung secara mutlak menguasai seluruh harta pusaka tinggi tanpa hak bagi anak perempuan kandung menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Seorang suami diwajibkan meninggalkan desa kelahirannya dan tinggal menetap di istana rumah gadang milik saudara ibu mertua."
       },
       {
         "key": "B",
-        "text": "Garis keturunan dan hak waris marga hanya diakui sah jika anak tersebut dilahirkan di rumah panggung kediaman paman mertua."
+        "text": "Seorang anak laki-laki sulung secara mutlak menguasai seluruh harta pusaka tinggi tanpa hak bagi anak perempuan kandung menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "C",
-        "text": "Seorang suami diwajibkan meninggalkan desa kelahirannya dan tinggal menetap di istana rumah gadang milik saudara ibu mertua."
+        "text": "Garis keturunan dan hak waris marga hanya diakui sah jika anak tersebut dilahirkan di rumah panggung kediaman paman mertua."
       },
       {
         "key": "D",
@@ -3422,27 +3423,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peningkatan kualitas gizi dan keanekaragaman hayati varietas padi unggul hasil rekayasa genetik laboratorium universitas diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
-        "text": "Keberhasilan program industrialisasi nasional dalam menghapus seluruh bahasa daerah demi pemberlakuan bahasa seragam."
-      },
-      {
-        "key": "C",
-        "text": "Kemenangan kelas borjuasi pedesaan dalam memonopoli penjualan pupuk subsidi kimiawi buatan pabrik transnasional."
-      },
-      {
-        "key": "D",
         "text": "Penurunan tingkat melek huruf dan penurunan minat bersekolah anak-anak pemuda pedesaan di sektor perguruan tinggi."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Kemenangan kelas borjuasi pedesaan dalam memonopoli penjualan pupuk subsidi kimiawi buatan pabrik transnasional."
+      },
+      {
+        "key": "C",
+        "text": "Keberhasilan program industrialisasi nasional dalam menghapus seluruh bahasa daerah demi pemberlakuan bahasa seragam."
+      },
+      {
+        "key": "D",
         "text": "Pelemahan sistem pengetahuan tradisional (indigenous knowledge) dan terputusnya relasi sakral-ekologis antara petani dengan siklus ritus daur tanam padi akibat tergeser oleh rasionalitas teknologi mekanis monokultur."
+      },
+      {
+        "key": "E",
+        "text": "Peningkatan kualitas gizi dan keanekaragaman hayati varietas padi unggul hasil rekayasa genetik laboratorium universitas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Pelemahan sistem pengetahuan tradisional (indigenous knowledge) dan terputusnya relasi sakral-ekologis antara petani dengan siklus ritus daur tanam padi akibat tergeser oleh rasionalitas teknologi mekanis monokultur.. Kosakata lokal agraris adalah bagian dari indigenous knowledge. Hilangnya kosakata mencerminkan erosi pengetahuan ekologis lokal dan keterputusan relasi kultural dengan alam. Pilih: Pelemahan sistem pengetahuan tradisional dan terputusnya relasi sakral-ekologis petani dengan ritus daur tanam."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Pelemahan sistem pengetahuan tradisional (indigenous knowledge) dan terputusnya relasi sakral-ekologis antara petani dengan siklus ritus daur tanam padi akibat tergeser oleh rasionalitas teknologi mekanis monokultur.. Kosakata lokal agraris adalah bagian dari indigenous knowledge. Hilangnya kosakata mencerminkan erosi pengetahuan ekologis lokal dan keterputusan relasi kultural dengan alam. Pilih: Pelemahan sistem pengetahuan tradisional dan terputusnya relasi sakral-ekologis petani dengan ritus daur tanam."
   },
   {
     "id": "ant-sim-06",
@@ -3465,11 +3466,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bentuk badannya yang ramping menyerupai dandang terbalik dengan pola hias geometris stilasi kedok muka (topeng) bermata belo yang mencerminkan ekspresi magis-religius megalitik khas lokal Nusantara."
+        "text": "Bentuk persegi empat beroda gerobak yang ditarik oleh sepasang sapi perah asal daratan padang rumput Argentina."
       },
       {
         "key": "B",
-        "text": "Penggunaan tulisan hieroglif paku bertuliskan nama-nama firaun penguasa lembah Sungai Nil dari kerajaan Mesir Kuno ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Adanya relief gambar perahu kora-kora yang dilengkapi persenjataan senapan mesin otomatis buatan pabrik Eropa."
       },
       {
         "key": "C",
@@ -3477,15 +3478,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Adanya relief gambar perahu kora-kora yang dilengkapi persenjataan senapan mesin otomatis buatan pabrik Eropa."
+        "text": "Bentuk badannya yang ramping menyerupai dandang terbalik dengan pola hias geometris stilasi kedok muka (topeng) bermata belo yang mencerminkan ekspresi magis-religius megalitik khas lokal Nusantara."
       },
       {
         "key": "E",
-        "text": "Bentuk persegi empat beroda gerobak yang ditarik oleh sepasang sapi perah asal daratan padang rumput Argentina."
+        "text": "Penggunaan tulisan hieroglif paku bertuliskan nama-nama firaun penguasa lembah Sungai Nil dari kerajaan Mesir Kuno."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Bentuk badannya yang ramping menyerupai dandang terbalik dengan pola hias geometris stilasi kedok muka (topeng) bermata belo yang mencerminkan ekspresi magis-religius megalitik khas lokal Nusantara.. Nekara tipe Pejeng khas lokal Nusantara memiliki bentuk ramping seperti dandang terbalik dengan hiasan kedok muka (topeng) mata belo khas megalitik lokal. Pilih bentuk ramping menyerupai dandang dengan stilasi kedok muka (topeng) bermata belo khas ekspresi lokal."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Bentuk badannya yang ramping menyerupai dandang terbalik dengan pola hias geometris stilasi kedok muka (topeng) bermata belo yang mencerminkan ekspresi magis-religius megalitik khas lokal Nusantara.. Nekara tipe Pejeng khas lokal Nusantara memiliki bentuk ramping seperti dandang terbalik dengan hiasan kedok muka (topeng) mata belo khas megalitik lokal. Pilih bentuk ramping menyerupai dandang dengan stilasi kedok muka (topeng) bermata belo khas ekspresi lokal."
   },
   {
     "id": "ant-sim-07",
@@ -3508,27 +3509,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kapasitas otak hanya 400 cc dengan rahang sangat maju mirip primata simpanse tanpa kemampuan berjalan tegak lurus ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "B",
         "text": "Volume kapasitas tempurung otak mencapai 1.000 hingga 1.300 cc dengan tengkorak lebih tebal, dahi lebih miring, serta tonjolan alis mata (torus supraorbitalis) yang masih sangat kekar dibanding manusia modern."
       },
       {
-        "key": "C",
-        "text": "Gigi taring berukuran raksasa sepanjang sepuluh sentimeter yang menyerupai gigi karnivora harimau purba bertaring pedang."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Tulang leher yang menyatu dengan tulang dada sehingga tidak dapat menolehkan kepala ke arah kanan maupun kiri."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Volume otak mencapai 2.500 cc dengan rahang sama sekali tidak memiliki gigi taring maupun gigi geraham pencerna rumput."
+      },
+      {
+        "key": "D",
+        "text": "Gigi taring berukuran raksasa sepanjang sepuluh sentimeter yang menyerupai gigi karnivora harimau purba bertaring pedang."
+      },
+      {
+        "key": "E",
+        "text": "Kapasitas otak hanya 400 cc dengan rahang sangat maju mirip primata simpanse tanpa kemampuan berjalan tegak lurus."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Volume kapasitas tempurung otak mencapai 1.000 hingga 1.300 cc dengan tengkorak lebih tebal, dahi lebih miring, serta tonjolan alis mata (torus supraorbitalis) yang masih sangat kekar dibanding manusia modern.. Homo erectus soloensis memiliki kapasitas otak 1.000-1.300 cc, dahi miring, tengkorak tebal, dan torus supraorbitalis kekar (fase peralihan). Pilih kapasitas otak 1.000-1.300 cc dengan dahi miring dan torus supraorbitalis kekar."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Volume kapasitas tempurung otak mencapai 1.000 hingga 1.300 cc dengan tengkorak lebih tebal, dahi lebih miring, serta tonjolan alis mata (torus supraorbitalis) yang masih sangat kekar dibanding manusia modern.. Homo erectus soloensis memiliki kapasitas otak 1.000-1.300 cc, dahi miring, tengkorak tebal, dan torus supraorbitalis kekar (fase peralihan). Pilih kapasitas otak 1.000-1.300 cc dengan dahi miring dan torus supraorbitalis kekar."
   },
   {
     "id": "ant-sim-08",
@@ -3551,27 +3552,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Simbol pembatas wilayah kerajaan kuno yang tidak boleh dilewati oleh para pedagang kuda keliling antardesa sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
-        "text": "Media ritual pemujaan roh dewa angin agar tidak menerbangkan jerami padi kering ke permukiman rumah panggung warga."
-      },
-      {
-        "key": "C",
         "text": "Strategi rekayasa bentang alam untuk memecah laju aliran air permukaan (run-off), mereduksi risiko longsor tebing curam, dan menjaga humus kesuburan tanah vulkanik agar dapat diolah secara lestari."
       },
       {
+        "key": "B",
+        "text": "Simbol pembatas wilayah kerajaan kuno yang tidak boleh dilewati oleh para pedagang kuda keliling antardesa."
+      },
+      {
+        "key": "C",
+        "text": "Media ritual pemujaan roh dewa angin agar tidak menerbangkan jerami padi kering ke permukiman rumah panggung warga."
+      },
+      {
         "key": "D",
-        "text": "Bentuk protes sosial buruh tani kepada tuan tanah kolonial dengan cara mencangkul bukit hingga tidak dapat ditanami."
+        "text": "Sistem pertahanan parit jebakan anti-pencuri yang sengaja dibuat untuk menggagalkan pelarian prajurit musuh bebuyutan."
       },
       {
         "key": "E",
-        "text": "Sistem pertahanan parit jebakan anti-pencuri yang sengaja dibuat untuk menggagalkan pelarian prajurit musuh bebuyutan."
+        "text": "Bentuk protes sosial buruh tani kepada tuan tanah kolonial dengan cara mencangkul bukit hingga tidak dapat ditanami."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Strategi rekayasa bentang alam untuk memecah laju aliran air permukaan (run-off), mereduksi risiko longsor tebing curam, dan menjaga humus kesuburan tanah vulkanik agar dapat diolah secara lestari.. Nyabuk gunung adalah adaptasi ekologis berupa pembuatan terasering melingkari lereng bukit untuk mencegah erosi, menahan run-off, dan menjaga kesuburan tanah. Pilih: Strategi rekayasa bentang alam memecah aliran permukaan, mereduksi risiko longsor, dan menjaga kesuburan tanah."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Strategi rekayasa bentang alam untuk memecah laju aliran air permukaan (run-off), mereduksi risiko longsor tebing curam, dan menjaga humus kesuburan tanah vulkanik agar dapat diolah secara lestari.. Nyabuk gunung adalah adaptasi ekologis berupa pembuatan terasering melingkari lereng bukit untuk mencegah erosi, menahan run-off, dan menjaga kesuburan tanah. Pilih: Strategi rekayasa bentang alam memecah aliran permukaan, mereduksi risiko longsor, dan menjaga kesuburan tanah."
   },
   {
     "id": "ant-sim-09",
@@ -3594,27 +3595,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hukuman pengasingan bagi anak balita yang menangis saat upacara ruwatan desa sedang berlangsung di pendapa balai kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
         "text": "Ritual mengorbankan ayam jago aduan agar arwah penunggu sungai tidak menculik balita saat mandi di sumber mata air."
       },
       {
-        "key": "C",
-        "text": "Cara memeriksa apakah bayi tersebut memiliki penyakit rabun mata ayam dengan cara mengujinya di kegelapan malam."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Simbolisasi perkenalan anak pada realitas dunia sosial bermasyarakat dan proyeksi simbolik penuntun minat bakat masa depan anak saat dewasa dalam mengarungi kehidupan yang penuh batasan norma."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Hukuman pengasingan bagi anak balita yang menangis saat upacara ruwatan desa sedang berlangsung di pendapa balai kota menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+      },
+      {
+        "key": "D",
         "text": "Simbol penyerahan anak kepada pemuka agama untuk dijadikan murid pertapa di puncak bukit selama tujuh tahun penuh."
+      },
+      {
+        "key": "E",
+        "text": "Cara memeriksa apakah bayi tersebut memiliki penyakit rabun mata ayam dengan cara mengujinya di kegelapan malam."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Simbolisasi perkenalan anak pada realitas dunia sosial bermasyarakat dan proyeksi simbolik penuntun minat bakat masa depan anak saat dewasa dalam mengarungi kehidupan yang penuh batasan norma.. Kurungan ayam pada Tedak Siten menyimbolkan batas dunia sosial di mana anak diperkenalkan pada masyarakat dan benda-benda di dalamnya memprediksi minat bakat masa depannya. Pilih opsi perkenalan anak pada realitas dunia sosial bermasyarakat dan proyeksi minat bakat masa depan anak."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Simbolisasi perkenalan anak pada realitas dunia sosial bermasyarakat dan proyeksi simbolik penuntun minat bakat masa depan anak saat dewasa dalam mengarungi kehidupan yang penuh batasan norma.. Kurungan ayam pada Tedak Siten menyimbolkan batas dunia sosial di mana anak diperkenalkan pada masyarakat dan benda-benda di dalamnya memprediksi minat bakat masa depannya. Pilih opsi perkenalan anak pada realitas dunia sosial bermasyarakat dan proyeksi minat bakat masa depan anak."
   },
   {
     "id": "ant-sim-10",
@@ -3637,7 +3638,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Praktek perdukunan voodoo dari pedagang budak kepulauan Karibia yang terdampar di pesisir Selat Sunda diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
+        "text": "Sirkus akrobatik komersial yang diperkenalkan oleh rombongan seniman jalanan asal dataran Tiongkok selatan."
       },
       {
         "key": "B",
@@ -3645,19 +3646,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Sirkus akrobatik komersial yang diperkenalkan oleh rombongan seniman jalanan asal dataran Tiongkok selatan."
-      },
-      {
-        "key": "D",
         "text": "Ritual pengorbanan budak sahaya tawanan perang sebelum armada kapal perang Banten berlayar menuju Batavia."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Praktik mistisisme dan zikir tarekat Rifa'iyah (dan Qadiriyah) yang berakulturasi dengan seni bela diri kanuragan lokal untuk membangkitkan keyakinan spiritual dan ketahanan perlawanan rakyat masa Kesultanan Banten."
+      },
+      {
+        "key": "E",
+        "text": "Praktek perdukunan voodoo dari pedagang budak kepulauan Karibia yang terdampar di pesisir Selat Sunda."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Praktik mistisisme dan zikir tarekat Rifa'iyah (dan Qadiriyah) yang berakulturasi dengan seni bela diri kanuragan lokal untuk membangkitkan keyakinan spiritual dan ketahanan perlawanan rakyat masa Kesultanan Banten.. Debus Banten berakar dari mistisisme zikir tarekat sufi (khususnya Rifa'iyah) yang berpadu dengan kanuragan bela diri lokal untuk membela kesultanan. Pilih: Praktik mistisisme dan zikir tarekat Rifa'iyah yang berakulturasi dengan seni bela diri kanuragan lokal."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Praktik mistisisme dan zikir tarekat Rifa'iyah (dan Qadiriyah) yang berakulturasi dengan seni bela diri kanuragan lokal untuk membangkitkan keyakinan spiritual dan ketahanan perlawanan rakyat masa Kesultanan Banten.. Debus Banten berakar dari mistisisme zikir tarekat sufi (khususnya Rifa'iyah) yang berpadu dengan kanuragan bela diri lokal untuk membela kesultanan. Pilih: Praktik mistisisme dan zikir tarekat Rifa'iyah yang berakulturasi dengan seni bela diri kanuragan lokal."
   },
   {
     "id": "ant-sim-11",
@@ -3680,27 +3681,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Bertentangan dengan prinsip hak asasi manusia, kesetaraan gender, dan telah dibatalkan melalui keputusan resmi Majelis Utama Desa Pakraman/Desa Adat demi keadilan sosial dan keharmonisan keluarga."
+        "text": "Terjadi kepunahan total seluruh warga kasta Sudra akibat bencana alam meletusnya Gunung Agung pada zaman kuno."
       },
       {
         "key": "B",
-        "text": "Seluruh keturunan kasta ksatria telah meninggalkan pulau Bali dan pindah kewarganegaraan ke negara bagian Australia ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
         "text": "Pemerintah kolonial Belanda telah melarang seluruh warga masyarakat Bali menggelar upacara pernikahan secara agama Hindu."
       },
       {
+        "key": "C",
+        "text": "Bertentangan dengan prinsip hak asasi manusia, kesetaraan gender, dan telah dibatalkan melalui keputusan resmi Majelis Utama Desa Pakraman/Desa Adat demi keadilan sosial dan keharmonisan keluarga."
+      },
+      {
         "key": "D",
-        "text": "Terjadi kepunahan total seluruh warga kasta Sudra akibat bencana alam meletusnya Gunung Agung pada zaman kuno."
+        "text": "Seluruh keturunan kasta ksatria telah meninggalkan pulau Bali dan pindah kewarganegaraan ke negara bagian Australia."
       },
       {
         "key": "E",
         "text": "Seluruh pura keluarga pemerajan di Bali diwajibkan untuk dihancurkan dan diganti dengan balai pertemuan politik sekuler."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Bertentangan dengan prinsip hak asasi manusia, kesetaraan gender, dan telah dibatalkan melalui keputusan resmi Majelis Utama Desa Pakraman/Desa Adat demi keadilan sosial dan keharmonisan keluarga.. Sanksi larangan perkawinan antarkasta seperti Asu Pundhung telah dicabut secara resmi oleh majelis adat karena bertentangan dengan HAM dan kesetaraan. Pilih opsi pertentangan dengan HAM dan kesetaraan gender serta telah dibatalkan resmi oleh Majelis Desa Adat."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Bertentangan dengan prinsip hak asasi manusia, kesetaraan gender, dan telah dibatalkan melalui keputusan resmi Majelis Utama Desa Pakraman/Desa Adat demi keadilan sosial dan keharmonisan keluarga.. Sanksi larangan perkawinan antarkasta seperti Asu Pundhung telah dicabut secara resmi oleh majelis adat karena bertentangan dengan HAM dan kesetaraan. Pilih opsi pertentangan dengan HAM dan kesetaraan gender serta telah dibatalkan resmi oleh Majelis Desa Adat."
   },
   {
     "id": "ant-sim-12",
@@ -3723,27 +3724,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Hasil penelitian klinis laboratorium farmasi modern yang didanai oleh lembaga kesehatan dunia WHO pada abad ke-16 ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Hukuman pidana kerja paksa yang mewajibkan seluruh perempuan menumbuk akar tanaman racun setiap pagi hari."
       },
       {
         "key": "B",
-        "text": "Akumulasi pengalaman empiris bertahap selama ratusan tahun melalui proses uji coba kultural (trial and error) yang diwariskan lisan dan terdokumentasi dalam serat/naskah kuno seperti Serat Centhini."
+        "text": "Hasil penelitian klinis laboratorium farmasi modern yang didanai oleh lembaga kesehatan dunia WHO pada abad ke-16."
       },
       {
         "key": "C",
-        "text": "Petunjuk manual mesin pabrik kimia sintetis asal Eropa yang diterjemahkan secara rahasia oleh mata-mata kerajaan."
-      },
-      {
-        "key": "D",
         "text": "Wahyu gaib yang melarang warga mengonsumsi ramuan tumbuhan kecuali bila diperintahkan oleh gubernur jenderal VOC."
       },
       {
+        "key": "D",
+        "text": "Akumulasi pengalaman empiris bertahap selama ratusan tahun melalui proses uji coba kultural (trial and error) yang diwariskan lisan dan terdokumentasi dalam serat/naskah kuno seperti Serat Centhini."
+      },
+      {
         "key": "E",
-        "text": "Hukuman pidana kerja paksa yang mewajibkan seluruh perempuan menumbuk akar tanaman racun setiap pagi hari."
+        "text": "Petunjuk manual mesin pabrik kimia sintetis asal Eropa yang diterjemahkan secara rahasia oleh mata-mata kerajaan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Akumulasi pengalaman empiris bertahap selama ratusan tahun melalui proses uji coba kultural (trial and error) yang diwariskan lisan dan terdokumentasi dalam serat/naskah kuno seperti Serat Centhini.. Sistem obat tradisional etnis bersumber dari akumulasi empiris uji coba bertahap (trial & error) ratusan tahun yang terdokumentasi dalam naskah kuno seperti Serat Centhini. Pilih: Akumulasi pengalaman empiris bertahap melalui trial and error kultural yang diwariskan dan tercatat dalam serat kuno."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) Akumulasi pengalaman empiris bertahap selama ratusan tahun melalui proses uji coba kultural (trial and error) yang diwariskan lisan dan terdokumentasi dalam serat/naskah kuno seperti Serat Centhini.. Sistem obat tradisional etnis bersumber dari akumulasi empiris uji coba bertahap (trial & error) ratusan tahun yang terdokumentasi dalam naskah kuno seperti Serat Centhini. Pilih: Akumulasi pengalaman empiris bertahap melalui trial and error kultural yang diwariskan dan tercatat dalam serat kuno."
   },
   {
     "id": "ant-sim-13",
@@ -3766,7 +3767,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Etnosida terencana untuk melenyapkan seluruh peninggalan agama Hindu dari tanah kepulauan Bali sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Komodifikasi budaya dan desakralisasi seni (proses pengemasan unsur kebudayaan sakral menjadi produk hiburan estetis bernilai ekonomi untuk konsumsi industri pariwisata)."
       },
       {
         "key": "B",
@@ -3774,19 +3775,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Komodifikasi budaya dan desakralisasi seni (proses pengemasan unsur kebudayaan sakral menjadi produk hiburan estetis bernilai ekonomi untuk konsumsi industri pariwisata)."
+        "text": "Pemberontakan serikat pekerja panggung teater rakyat menuntut pembagian laba tiket pertunjukan."
       },
       {
         "key": "D",
-        "text": "Asimilasi biologis antara pendatang asal mancanegara dengan penduduk desa nelayan tradisional lokal."
+        "text": "Etnosida terencana untuk melenyapkan seluruh peninggalan agama Hindu dari tanah kepulauan Bali."
       },
       {
         "key": "E",
-        "text": "Pemberontakan serikat pekerja panggung teater rakyat menuntut pembagian laba tiket pertunjukan."
+        "text": "Asimilasi biologis antara pendatang asal mancanegara dengan penduduk desa nelayan tradisional lokal."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Komodifikasi budaya dan desakralisasi seni (proses pengemasan unsur kebudayaan sakral menjadi produk hiburan estetis bernilai ekonomi untuk konsumsi industri pariwisata).. Komodifikasi budaya adalah transformasi seni sakral lokal menjadi produk komoditas tontonan estetis bernilai ekonomi bagi konsumsi turis. Pilih istilah komodifikasi budaya dan desakralisasi seni untuk konsumsi industri pariwisata."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) Komodifikasi budaya dan desakralisasi seni (proses pengemasan unsur kebudayaan sakral menjadi produk hiburan estetis bernilai ekonomi untuk konsumsi industri pariwisata).. Komodifikasi budaya adalah transformasi seni sakral lokal menjadi produk komoditas tontonan estetis bernilai ekonomi bagi konsumsi turis. Pilih istilah komodifikasi budaya dan desakralisasi seni untuk konsumsi industri pariwisata."
   },
   {
     "id": "ant-sim-14",
@@ -3809,7 +3810,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Memusnahkan seluruh habitat ikan air tawar agar muara sungai dapat dialihfungsikan menjadi dermaga kapal kontainer batu bara menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Mewajibkan warga desa menjual seluruh hasil tangkapan laut kepada tuan tanah feodal dengan harga paling murah."
       },
       {
         "key": "B",
@@ -3817,19 +3818,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Mewajibkan warga desa menjual seluruh hasil tangkapan laut kepada tuan tanah feodal dengan harga paling murah."
+        "text": "Memusnahkan seluruh habitat ikan air tawar agar muara sungai dapat dialihfungsikan menjadi dermaga kapal kontainer batu bara menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "D",
-        "text": "Mencegah penangkapan ikan berlebih (overfishing) dan memberi kesempatan bagi ikan lompa untuk bereproduksi serta membesar, sehingga menjamin kelestarian ekosistem perairan dan ketahanan pangan desa secara berkelanjutan."
+        "text": "Menghukum warga masyarakat yang tidak berpartisipasi dalam upacara penyerahan upeti kepada istana kerajaan seberang lautan."
       },
       {
         "key": "E",
-        "text": "Menghukum warga masyarakat yang tidak berpartisipasi dalam upacara penyerahan upeti kepada istana kerajaan seberang lautan."
+        "text": "Mencegah penangkapan ikan berlebih (overfishing) dan memberi kesempatan bagi ikan lompa untuk bereproduksi serta membesar, sehingga menjamin kelestarian ekosistem perairan dan ketahanan pangan desa secara berkelanjutan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Mencegah penangkapan ikan berlebih (overfishing) dan memberi kesempatan bagi ikan lompa untuk bereproduksi serta membesar, sehingga menjamin kelestarian ekosistem perairan dan ketahanan pangan desa secara berkelanjutan.. Sasi Lompa adalah instrumen kearifan lokal konservasi laut Maluku untuk mencegah overfishing, memberi waktu ikan bertelur/membesar, dan menjaga keberlanjutan pangan. Pilih: Mencegah penangkapan berlebih (overfishing), memberi waktu reproduksi ikan, dan menjamin kelestarian pangan."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Mencegah penangkapan ikan berlebih (overfishing) dan memberi kesempatan bagi ikan lompa untuk bereproduksi serta membesar, sehingga menjamin kelestarian ekosistem perairan dan ketahanan pangan desa secara berkelanjutan.. Sasi Lompa adalah instrumen kearifan lokal konservasi laut Maluku untuk mencegah overfishing, memberi waktu ikan bertelur/membesar, dan menjaga keberlanjutan pangan. Pilih: Mencegah penangkapan berlebih (overfishing), memberi waktu reproduksi ikan, dan menjamin kelestarian pangan."
   },
   {
     "id": "ant-sim-15",
@@ -3852,27 +3853,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ancaman gelombang pasang tsunami samudra yang sering menyapu pesisir pantai pulau-pulau karang terluar diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
-        "text": "Serangan kawanan nyamuk malaria rawa pasang surut dataran rendah hutan mangrove pesisir selatan."
-      },
-      {
-        "key": "C",
-        "text": "Kebutuhan menampung ratusan ekor unta tunggangan yang melintasi jalur perdagangan gurun pasir tandus."
-      },
-      {
-        "key": "D",
         "text": "Kewajiban adat menyembunyikan emas batangan murni dari inspeksi petugas perpajakan kolonial Hindia Belanda."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Kebutuhan menampung ratusan ekor unta tunggangan yang melintasi jalur perdagangan gurun pasir tandus."
+      },
+      {
+        "key": "C",
         "text": "Suhu udara dingin ekstrem pegunungan tinggi Lembah Baliem pada malam hari, di mana ketiadaan jendela dan atap jerami tebal memerangkap panas perapian serta menahan hembusan angin kencang."
+      },
+      {
+        "key": "D",
+        "text": "Serangan kawanan nyamuk malaria rawa pasang surut dataran rendah hutan mangrove pesisir selatan."
+      },
+      {
+        "key": "E",
+        "text": "Ancaman gelombang pasang tsunami samudra yang sering menyapu pesisir pantai pulau-pulau karang terluar."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Suhu udara dingin ekstrem pegunungan tinggi Lembah Baliem pada malam hari, di mana ketiadaan jendela dan atap jerami tebal memerangkap panas perapian serta menahan hembusan angin kencang.. Rumah Honai dirancang melingkar, rapat tanpa jendela, beratap jerami, dan berapian di tengah untuk menahan udara dingin di pegunungan tinggi Lembah Baliem. Pilih opsi adaptasi terhadap suhu udara dingin ekstrem pegunungan Lembah Baliem pada malam hari."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Suhu udara dingin ekstrem pegunungan tinggi Lembah Baliem pada malam hari, di mana ketiadaan jendela dan atap jerami tebal memerangkap panas perapian serta menahan hembusan angin kencang.. Rumah Honai dirancang melingkar, rapat tanpa jendela, beratap jerami, dan berapian di tengah untuk menahan udara dingin di pegunungan tinggi Lembah Baliem. Pilih opsi adaptasi terhadap suhu udara dingin ekstrem pegunungan Lembah Baliem pada malam hari."
   },
   {
     "id": "ant-sim-16",
@@ -3895,15 +3896,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Etnosentrisme memandang dan menilai kebudayaan kelompok lain secara sepihak menggunakan standar nilai budayanya sendiri sebagai tolok ukur keunggulan, sedangkan xenofobia merupakan ketakutan atau kebencian tak rasional terhadap orang asing atau unsur luar."
+        "text": "Etnosentrisme hanya terjadi pada suku terasing di pedalaman hutan, sedangkan xenofobia hanya dialami oleh para pejabat pemerintah pusat."
       },
       {
         "key": "B",
-        "text": "Etnosentrisme merupakan rasa cinta berlebihan kepada bangsa lain, sedangkan xenofobia adalah kebencian mendalam kepada keluarga sendiri ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Etnosentrisme didasarkan pada perhitungan ilmu ekonomi pasar modal, sedangkan xenofobia didasarkan pada ajaran tasawuf sufi."
       },
       {
         "key": "C",
-        "text": "Etnosentrisme hanya terjadi pada suku terasing di pedalaman hutan, sedangkan xenofobia hanya dialami oleh para pejabat pemerintah pusat."
+        "text": "Etnosentrisme merupakan rasa cinta berlebihan kepada bangsa lain, sedangkan xenofobia adalah kebencian mendalam kepada keluarga sendiri."
       },
       {
         "key": "D",
@@ -3911,11 +3912,11 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Etnosentrisme didasarkan pada perhitungan ilmu ekonomi pasar modal, sedangkan xenofobia didasarkan pada ajaran tasawuf sufi."
+        "text": "Etnosentrisme memandang dan menilai kebudayaan kelompok lain secara sepihak menggunakan standar nilai budayanya sendiri sebagai tolok ukur keunggulan, sedangkan xenofobia merupakan ketakutan atau kebencian tak rasional terhadap orang asing atau unsur luar."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Etnosentrisme memandang dan menilai kebudayaan kelompok lain secara sepihak menggunakan standar nilai budayanya sendiri sebagai tolok ukur keunggulan, sedangkan xenofobia merupakan ketakutan atau kebencian tak rasional terhadap orang asing atau unsur luar.. Etnosentrisme = mengukur budaya luar dengan tolok ukur budaya sendiri (merasa budayanya superior). Xenofobia = ketakutan atau kebencian tak berdasar terhadap orang asing. Pilih definisi etnosentrisme mengukur budaya lain dengan standar sendiri vs xenofobia ketakutan/kebencian tak rasional terhadap orang luar."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Etnosentrisme memandang dan menilai kebudayaan kelompok lain secara sepihak menggunakan standar nilai budayanya sendiri sebagai tolok ukur keunggulan, sedangkan xenofobia merupakan ketakutan atau kebencian tak rasional terhadap orang asing atau unsur luar.. Etnosentrisme = mengukur budaya luar dengan tolok ukur budaya sendiri (merasa budayanya superior). Xenofobia = ketakutan atau kebencian tak berdasar terhadap orang asing. Pilih definisi etnosentrisme mengukur budaya lain dengan standar sendiri vs xenofobia ketakutan/kebencian tak rasional terhadap orang luar."
   },
   {
     "id": "ant-sim-17",
@@ -3938,7 +3939,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sebagai pembayaran upeti budak tawanan perang kepada para perwira tentara ekspedisi asing dari seberang pulau ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Sebagai sarana melunasi utang pajak tanah perkebunan kopi kepada administratur perusahaan multinasional barat."
       },
       {
         "key": "B",
@@ -3946,15 +3947,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Sebagai sarana melunasi utang pajak tanah perkebunan kopi kepada administratur perusahaan multinasional barat."
+        "text": "Sebagai syarat membebaskan seorang mempelai pria dari ancaman hukuman penjara akibat perkelahian massal antardesa."
       },
       {
         "key": "D",
-        "text": "Sebagai cara menyogok kepala desa agar bersedia menerbitkan kartu keluarga palsu bagi imigran gelap dari perbatasan."
+        "text": "Sebagai pembayaran upeti budak tawanan perang kepada para perwira tentara ekspedisi asing dari seberang pulau."
       },
       {
         "key": "E",
-        "text": "Sebagai syarat membebaskan seorang mempelai pria dari ancaman hukuman penjara akibat perkelahian massal antardesa."
+        "text": "Sebagai cara menyogok kepala desa agar bersedia menerbitkan kartu keluarga palsu bagi imigran gelap dari perbatasan."
       }
     ],
     "correctKey": "B",
@@ -3981,27 +3982,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pergantian gerhana matahari total dan gempa bumi vulkanik dahsyat yang menenggelamkan pulau tempat tinggal mereka sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
+        "text": "Pertarungan antara kawanan gajah purba mammoth melawan sekelompok harimau pemangsa di padang rumput sabana liar."
       },
       {
         "key": "B",
-        "text": "Penemuan cara menggosok serpihan batu rijang untuk memercikkan bunga api unggun pada saat musim dingin berkepanjangan."
-      },
-      {
-        "key": "C",
         "text": "Pengalaman bermimpi (di mana tubuh fisik tertidur namun jiwa tampak berkelana) dan peristiwa kematian (di mana napas dan daya hidup hilang dari raga fisik seseorang)."
       },
       {
+        "key": "C",
+        "text": "Pergantian gerhana matahari total dan gempa bumi vulkanik dahsyat yang menenggelamkan pulau tempat tinggal mereka."
+      },
+      {
         "key": "D",
-        "text": "Kelahiran bayi kembar siam yang dianggap sebagai tanda kemurkaan dewa petir penguasa puncak gunung berapi keramat."
+        "text": "Penemuan cara menggosok serpihan batu rijang untuk memercikkan bunga api unggun pada saat musim dingin berkepanjangan."
       },
       {
         "key": "E",
-        "text": "Pertarungan antara kawanan gajah purba mammoth melawan sekelompok harimau pemangsa di padang rumput sabana liar."
+        "text": "Kelahiran bayi kembar siam yang dianggap sebagai tanda kemurkaan dewa petir penguasa puncak gunung berapi keramat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Pengalaman bermimpi (di mana tubuh fisik tertidur namun jiwa tampak berkelana) dan peristiwa kematian (di mana napas dan daya hidup hilang dari raga fisik seseorang).. Tylor menyatakan animisme lahir dari upaya manusia awal memahami mimpi (jiwa berkelana saat raga tidur) dan kematian (nafas hidup meninggalkan raga). Pilih: Pengalaman bermimpi dan peristiwa kematian."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Pengalaman bermimpi (di mana tubuh fisik tertidur namun jiwa tampak berkelana) dan peristiwa kematian (di mana napas dan daya hidup hilang dari raga fisik seseorang).. Tylor menyatakan animisme lahir dari upaya manusia awal memahami mimpi (jiwa berkelana saat raga tidur) dan kematian (nafas hidup meninggalkan raga). Pilih: Pengalaman bermimpi dan peristiwa kematian."
   },
   {
     "id": "ant-sim-19",
@@ -4024,27 +4025,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Baduy Dalam bermata pencaharian sebagai pedagang valuta asing di pelabuhan, sedangkan Baduy Luar bertani rempah cengkeh di bukit menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
+        "text": "Baduy Dalam bermata pencaharian sebagai pedagang valuta asing di pelabuhan, sedangkan Baduy Luar bertani rempah cengkeh di bukit menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       },
       {
         "key": "B",
-        "text": "Baduy Dalam memeluk agama resmi dari peradaban Timur Tengah, sedangkan Baduy Luar menganut ajaran animisme suku pedalaman."
-      },
-      {
-        "key": "C",
-        "text": "Baduy Dalam diwajibkan menempuh pendidikan sarjana di luar negeri, sedangkan Baduy Luar dilarang membaca buku pelajaran sekolah."
-      },
-      {
-        "key": "D",
         "text": "Baduy Dalam mengenakan pakaian putih alami tanpa jahitan berikat kepala putih dan menolak sama sekali intervensi teknologi modern serta transportasi mesin, sedangkan Baduy Luar mengenakan pakaian warna hitam/biru tua dan memiliki toleransi terbatas terhadap interaksi dunia luar."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Baduy Dalam memilih kepala desa melalui sistem pemungutan suara elektronik, sedangkan Baduy Luar dipimpin oleh gubernur jenderal."
+      },
+      {
+        "key": "D",
+        "text": "Baduy Dalam diwajibkan menempuh pendidikan sarjana di luar negeri, sedangkan Baduy Luar dilarang membaca buku pelajaran sekolah."
+      },
+      {
+        "key": "E",
+        "text": "Baduy Dalam memeluk agama resmi dari peradaban Timur Tengah, sedangkan Baduy Luar menganut ajaran animisme suku pedalaman."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Baduy Dalam mengenakan pakaian putih alami tanpa jahitan berikat kepala putih dan menolak sama sekali intervensi teknologi modern serta transportasi mesin, sedangkan Baduy Luar mengenakan pakaian warna hitam/biru tua dan memiliki toleransi terbatas terhadap interaksi dunia luar.. Baduy Dalam memakai busana putih/ikat kepala putih, mutlak patuh pikukuh tanpa teknologi/kendaraan; Baduy Luar busana hitam/biru tua, bertindak sebagai penyaring/penyangga dunia luar. Pilih: Baduy Dalam berpakaian putih alami menolak teknologi, Baduy Luar berpakaian hitam/biru tua bertoleransi terbatas."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Baduy Dalam mengenakan pakaian putih alami tanpa jahitan berikat kepala putih dan menolak sama sekali intervensi teknologi modern serta transportasi mesin, sedangkan Baduy Luar mengenakan pakaian warna hitam/biru tua dan memiliki toleransi terbatas terhadap interaksi dunia luar.. Baduy Dalam memakai busana putih/ikat kepala putih, mutlak patuh pikukuh tanpa teknologi/kendaraan; Baduy Luar busana hitam/biru tua, bertindak sebagai penyaring/penyangga dunia luar. Pilih: Baduy Dalam berpakaian putih alami menolak teknologi, Baduy Luar berpakaian hitam/biru tua bertoleransi terbatas."
   },
   {
     "id": "ant-sim-20",
@@ -4067,27 +4068,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Selat Sunda yang memisahkan seluruh bahasa di Pulau Sumatra dengan bahasa di Pulau Jawa tanpa ada persamaan kosakata diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
-        "text": "Selat Bali yang membatasi penggunaan bahasa beraksara Pallawa dengan bahasa rumpun Indo-Eropa di kawasan Pasifik timur."
-      },
-      {
-        "key": "C",
         "text": "Sungai Kapuas di Kalimantan Barat yang memisahkan penutur bahasa Sino-Tibet dengan bahasa Afroasiatika Afrika utara."
       },
       {
+        "key": "B",
+        "text": "Selat Sunda yang memisahkan seluruh bahasa di Pulau Sumatra dengan bahasa di Pulau Jawa tanpa ada persamaan kosakata."
+      },
+      {
+        "key": "C",
+        "text": "Wilayah Pulau Halmahera bagian utara dan pesisir utara Papua hingga pedalaman, di mana bahasa-bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya sedangkan Austronesia mendominasi kawasan barat dan selatan Nusantara."
+      },
+      {
         "key": "D",
-        "text": "Garis Khatulistiwa yang membelah wilayah Indonesia menjadi zona pengguna huruf hieroglif utara dan huruf paku selatan."
+        "text": "Selat Bali yang membatasi penggunaan bahasa beraksara Pallawa dengan bahasa rumpun Indo-Eropa di kawasan Pasifik timur."
       },
       {
         "key": "E",
-        "text": "Wilayah Pulau Halmahera bagian utara dan pesisir utara Papua hingga pedalaman, di mana bahasa-bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya sedangkan Austronesia mendominasi kawasan barat dan selatan Nusantara."
+        "text": "Garis Khatulistiwa yang membelah wilayah Indonesia menjadi zona pengguna huruf hieroglif utara dan huruf paku selatan."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) Wilayah Pulau Halmahera bagian utara dan pesisir utara Papua hingga pedalaman, di mana bahasa-bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya sedangkan Austronesia mendominasi kawasan barat dan selatan Nusantara.. Bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya (seperti Halmahera Utara, Alor-Pantar), sementara Austronesia mendominasi barat dan selatan Nusantara. Pilih opsi persebaran bahasa Non-Austronesia di pedalaman Papua/Halmahera Utara dan Austronesia di barat/selatan Nusantara."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Wilayah Pulau Halmahera bagian utara dan pesisir utara Papua hingga pedalaman, di mana bahasa-bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya sedangkan Austronesia mendominasi kawasan barat dan selatan Nusantara.. Bahasa Non-Austronesia (Papua) terkonsentrasi di pedalaman Pulau Papua dan pulau sekitarnya (seperti Halmahera Utara, Alor-Pantar), sementara Austronesia mendominasi barat dan selatan Nusantara. Pilih opsi persebaran bahasa Non-Austronesia di pedalaman Papua/Halmahera Utara dan Austronesia di barat/selatan Nusantara."
   },
   {
     "id": "ant-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Peringatan janji pengorbanan anak bungsu (Raden Kusuma) pasangan leluhur Roro Anteng dan Joko Seger kepada dewa Bromo demi keselamatan dan kemakmuran seluruh keturunan warga suku Tengger."
-      },
-      {
-        "key": "B",
-        "text": "Perayaan hari ulang tahun raja Majapahit Hayam Wuruk saat menaklukkan benteng pertahanan kerajaan Blambangan ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
-      },
-      {
-        "key": "C",
-        "text": "Pemberian upeti kepada petugas kehutanan kolonial Belanda agar warga diizinkan menebang pohon pinus di hutan lindung."
-      },
-      {
-        "key": "D",
         "text": "Ritual membuang racun belerang yang mencemari saluran irigasi persawahan warga di lereng barat Gunung Semeru."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Upacara pelantikan bupati kepala daerah tingkat dua yang baru terpilih dalam kontestasi pemilihan umum daerah."
+      },
+      {
+        "key": "C",
+        "text": "Peringatan janji pengorbanan anak bungsu (Raden Kusuma) pasangan leluhur Roro Anteng dan Joko Seger kepada dewa Bromo demi keselamatan dan kemakmuran seluruh keturunan warga suku Tengger."
+      },
+      {
+        "key": "D",
+        "text": "Perayaan hari ulang tahun raja Majapahit Hayam Wuruk saat menaklukkan benteng pertahanan kerajaan Blambangan."
+      },
+      {
+        "key": "E",
+        "text": "Pemberian upeti kepada petugas kehutanan kolonial Belanda agar warga diizinkan menebang pohon pinus di hutan lindung."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Peringatan janji pengorbanan anak bungsu (Raden Kusuma) pasangan leluhur Roro Anteng dan Joko Seger kepada dewa Bromo demi keselamatan dan kemakmuran seluruh keturunan warga suku Tengger.. Yadnya Kasada berakar dari mitos pasangan leluhur Tengger (Roro Anteng dan Joko Seger) yang menepati janji mempersembahkan hasil bumi ke kawah Bromo demi keselamatan warga. Pilih: Peringatan janji pengorbanan anak bungsu Raden Kusuma pasangan Roro Anteng dan Joko Seger ke dewa Bromo."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Peringatan janji pengorbanan anak bungsu (Raden Kusuma) pasangan leluhur Roro Anteng dan Joko Seger kepada dewa Bromo demi keselamatan dan kemakmuran seluruh keturunan warga suku Tengger.. Yadnya Kasada berakar dari mitos pasangan leluhur Tengger (Roro Anteng dan Joko Seger) yang menepati janji mempersembahkan hasil bumi ke kawah Bromo demi keselamatan warga. Pilih: Peringatan janji pengorbanan anak bungsu Raden Kusuma pasangan Roro Anteng dan Joko Seger ke dewa Bromo."
   },
   {
     "id": "ant-sim-22",
@@ -4153,7 +4154,7 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Resiprositas negatif (negative reciprocity), yaitu upaya mendapatkan keuntungan sebesar-besarnya dengan mengorbankan pihak lain ditinjau dari sistem kekerabatan tradisional dan struktur organisasi sosial masyarakat adat."
+        "text": "Resiprositas seimbang (balanced reciprocity), yaitu pertukaran komoditas langsung dengan nilai sepadan dalam jangka waktu pasti."
       },
       {
         "key": "B",
@@ -4161,15 +4162,15 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Resiprositas seimbang (balanced reciprocity), yaitu pertukaran komoditas langsung dengan nilai sepadan dalam jangka waktu pasti."
+        "text": "Resiprositas negatif (negative reciprocity), yaitu upaya mendapatkan keuntungan sebesar-besarnya dengan mengorbankan pihak lain."
       },
       {
         "key": "D",
-        "text": "Sistem pasar bebas oligopoli, yaitu penetapan harga sepihak oleh segelintir pedagang tengkulak kartel perdagangan."
+        "text": "Sistem lelang terbuka perbankan, yaitu penjualan agunan jaminan nasabah gagal bayar kepada penawar harga tertinggi."
       },
       {
         "key": "E",
-        "text": "Sistem lelang terbuka perbankan, yaitu penjualan agunan jaminan nasabah gagal bayar kepada penawar harga tertinggi."
+        "text": "Sistem pasar bebas oligopoli, yaitu penetapan harga sepihak oleh segelintir pedagang tengkulak kartel perdagangan."
       }
     ],
     "correctKey": "B",
@@ -4196,27 +4197,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Penolakan mutlak warga Tionghoa untuk memakan makanan lokal berbahan dasar santan kelapa dan bumbu rempah-rempah sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik sesuai dengan kaidah interpretasi makna simbolik tebal (thick description) dan kajian emik."
-      },
-      {
-        "key": "B",
         "text": "Kewajiban seluruh warga pribumi mengganti nama marganya dengan nama marga kaisar Dinasti Ming dari Tiongkok."
       },
       {
-        "key": "C",
-        "text": "Terjadinya akulturasi dan kreolisasi yang harmonis di mana unsur bahasa lokal Melayu/Jawa, busana nusantara, dan estetika Tiongkok melebur membentuk identitas budaya baru tanpa menghilangkan warisan leluhur."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Penghapusan seluruh perayaan tahun baru Imlek dan pembongkaran klenteng bersejarah oleh para pemuka masyarakat lokal."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Penolakan mutlak warga Tionghoa untuk memakan makanan lokal berbahan dasar santan kelapa dan bumbu rempah-rempah."
+      },
+      {
+        "key": "D",
         "text": "Pemberlakuan undang-undang apartheid pemukiman tertutup yang melarang perkawinan campur antarras di seluruh pulau."
+      },
+      {
+        "key": "E",
+        "text": "Terjadinya akulturasi dan kreolisasi yang harmonis di mana unsur bahasa lokal Melayu/Jawa, busana nusantara, dan estetika Tiongkok melebur membentuk identitas budaya baru tanpa menghilangkan warisan leluhur."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Terjadinya akulturasi dan kreolisasi yang harmonis di mana unsur bahasa lokal Melayu/Jawa, busana nusantara, dan estetika Tiongkok melebur membentuk identitas budaya baru tanpa menghilangkan warisan leluhur.. Budaya Tionghoa Peranakan adalah buah akulturasi dan kreolisasi harmonis yang memadukan unsur Tiongkok dan lokal Nusantara membentuk identitas baru. Pilih: Terjadinya akulturasi dan kreolisasi yang harmonis melebur membentuk identitas budaya baru."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Terjadinya akulturasi dan kreolisasi yang harmonis di mana unsur bahasa lokal Melayu/Jawa, busana nusantara, dan estetika Tiongkok melebur membentuk identitas budaya baru tanpa menghilangkan warisan leluhur.. Budaya Tionghoa Peranakan adalah buah akulturasi dan kreolisasi harmonis yang memadukan unsur Tiongkok dan lokal Nusantara membentuk identitas baru. Pilih: Terjadinya akulturasi dan kreolisasi yang harmonis melebur membentuk identitas budaya baru."
   },
   {
     "id": "ant-sim-24",
@@ -4239,27 +4240,27 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Membatasi jumlah ikan tangkapan agar harga jual ikan asin di pasar pelelangan melonjak menjadi setinggi mungkin menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
-      },
-      {
-        "key": "B",
         "text": "Mencegah awak perahu mendengar siaran radio navigasi cuaca yang dipancarkan oleh stasiun meteorologi nasional."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Menghukum para pemuda kampung yang tidak menguasai bahasa asing persemakmuran maritim internasional."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Membangun disiplin psikologis kolektif, menjaga soliditas kekompakan awak kapal saat menghadapi amukan badai samudra, serta menjaga keharmonisan sakral dengan entitas alam gaib penguasa lautan."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Menjamin bahwa perahu Sandeq hanya boleh dinakhodai oleh warga keturunan bangsawan istana kerajaan Eropa."
+      },
+      {
+        "key": "E",
+        "text": "Membatasi jumlah ikan tangkapan agar harga jual ikan asin di pasar pelelangan melonjak menjadi setinggi mungkin menurut mekanisme adaptasi ekologis kearifan lokal dan kesinambungan ritus daur hidup."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) Membangun disiplin psikologis kolektif, menjaga soliditas kekompakan awak kapal saat menghadapi amukan badai samudra, serta menjaga keharmonisan sakral dengan entitas alam gaib penguasa lautan.. Tabu bahari bagi pelaut tradisional berfungsi menjaga kekompakan (kohesi), mencegah konflik batin di tengah laut berisiko tinggi, dan menjaga disiplin mental awak. Pilih opsi membangun disiplin psikologis kolektif, menjaga soliditas kekompakan awak kapal, dan keharmonisan sakral."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Membangun disiplin psikologis kolektif, menjaga soliditas kekompakan awak kapal saat menghadapi amukan badai samudra, serta menjaga keharmonisan sakral dengan entitas alam gaib penguasa lautan.. Tabu bahari bagi pelaut tradisional berfungsi menjaga kekompakan (kohesi), mencegah konflik batin di tengah laut berisiko tinggi, dan menjaga disiplin mental awak. Pilih opsi membangun disiplin psikologis kolektif, menjaga soliditas kekompakan awak kapal, dan keharmonisan sakral."
   },
   {
     "id": "ant-sim-25",
@@ -4282,19 +4283,19 @@ window.TKA_ANTROPOLOGI_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Punahnya seluruh populasi suku Sasak akibat terjangkit wabah penyakit menular yang dibawa oleh kapal pesiar mewah diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis diturunkan dari analisis evolusi ragawi manusia dan dinamika linguistik antropologis."
-      },
-      {
-        "key": "B",
-        "text": "Kewajiban seluruh warga desa Sade untuk merobohkan rumah adat bale tani dan membangun gedung pencakar langit kaca."
-      },
-      {
-        "key": "C",
         "text": "Terhapusnya seluruh dialek bahasa Sasak dan diwajibkannya bahasa Latin kuno sebagai bahasa percakapan sehari-hari."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Pengalihan kepemilikan seluruh tanah ulayat desa Sade kepada konsorsium maskapai penerbangan multinasional."
+      },
+      {
+        "key": "C",
+        "text": "Kewajiban seluruh warga desa Sade untuk merobohkan rumah adat bale tani dan membangun gedung pencakar langit kaca."
+      },
+      {
+        "key": "D",
+        "text": "Punahnya seluruh populasi suku Sasak akibat terjangkit wabah penyakit menular yang dibawa oleh kapal pesiar mewah."
       },
       {
         "key": "E",

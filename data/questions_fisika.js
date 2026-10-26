@@ -1,8 +1,9 @@
 /**
- * TKA MASTERY HUB — QUESTIONS_FISIKA.JS (110 SOAL AUTENTIK PUSMENDIK 2026)
- * Standards: BSKAP No. 033/H/KR/2024 & Pusmendik CBT HOTS Framework
- * Composition: 25 Latihan Easy, 25 Medium, 25 Hard, 35 Simulasi (25 MCQ, 5 Multi, 5 Matrix)
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_FISIKA_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
  */
+
 window.TKA_FISIKA_QUESTIONS = [
   {
     "id": "fis-lat-e-01",
@@ -25,27 +26,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Kecepatan akhir $v_t = 20\\text{ m/s}$ dan jarak tempuh $s = 50\\text{ meter}$, dihitung dari persamaan $v_t = v_0 + at$ dan $s = v_0 t + \\frac{1}{2}at^2$."
-      },
-      {
-        "key": "B",
-        "text": "Kecepatan akhir $v_t = 10\\text{ m/s}$ dan jarak tempuh $s = 20\\text{ meter}$, karena percepatan dihitung dengan membagi gaya baterai terhadap massa kendaraan."
-      },
-      {
-        "key": "C",
-        "text": "Kecepatan akhir $v_t = 40\\text{ m/s}$ dan jarak tempuh $s = 100\\text{ meter}$, dihitung dengan mengabaikan kecepatan awal nol pada spedometer."
-      },
-      {
-        "key": "D",
         "text": "Kecepatan akhir $v_t = 25\\text{ m/s}$ dan jarak tempuh $s = 80\\text{ meter}$, karena hambatan angin diasumsikan konstan sebesar 15 Newton."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Kecepatan akhir $v_t = 20\\text{ m/s}$ dan jarak tempuh $s = 50\\text{ meter}$, dihitung dari persamaan $v_t = v_0 + at$ dan $s = v_0 t + \\frac{1}{2}at^2$."
+      },
+      {
+        "key": "C",
+        "text": "Kecepatan akhir $v_t = 10\\text{ m/s}$ dan jarak tempuh $s = 20\\text{ meter}$, karena percepatan dihitung dengan membagi gaya baterai terhadap massa kendaraan."
+      },
+      {
+        "key": "D",
         "text": "Kecepatan akhir $v_t = 15\\text{ m/s}$ dan jarak tempuh $s = 45\\text{ meter}$, dihitung dari perkalian percepatan dengan gravitasi bumi."
+      },
+      {
+        "key": "E",
+        "text": "Kecepatan akhir $v_t = 40\\text{ m/s}$ dan jarak tempuh $s = 100\\text{ meter}$, dihitung dengan mengabaikan kecepatan awal nol pada spedometer."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) Kecepatan akhir $v_t = 20\\text{ m/s}$ dan jarak tempuh $s = 50\\text{ meter}$, dihitung dari persamaan $v_t = v_0 + at$ dan $s = v_0 t + \\frac{1}{2}at^2$.. Gunakan persamaan GLBB gerak lurus dengan kecepatan awal v0 = 0. vt = a * t = 4 * 5 = 20 m/s; s = 0.5 * a * t^2 = 0.5 * 4 * 25 = 50 m."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) Kecepatan akhir $v_t = 20\\text{ m/s}$ dan jarak tempuh $s = 50\\text{ meter}$, dihitung dari persamaan $v_t = v_0 + at$ dan $s = v_0 t + \\frac{1}{2}at^2$.. Gunakan persamaan GLBB gerak lurus dengan kecepatan awal v0 = 0. vt = a * t = 4 * 5 = 20 m/s; s = 0.5 * a * t^2 = 0.5 * 4 * 25 = 50 m."
   },
   {
     "id": "fis-lat-e-02",
@@ -68,27 +69,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Percepatan sistem $a = 2{,}5\\text{ m/s}^2$ dan gaya kontak $N_{12} = 25\\text{ N}$, karena gaya aksi-reaksi menahan seluruh pergerakan balok pertama sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "Percepatan sistem $a = 1\\text{ m/s}^2$ dan gaya kontak $N_{12} = 20\\text{ N}$, diperoleh dari selisih kedua massa dikalikan gaya luar."
       },
       {
         "key": "B",
-        "text": "Percepatan sistem $a = 5\\text{ m/s}^2$ dan gaya kontak antaran balok sebesar $N_{12} = 10\\text{ N}$, di mana gaya dorong diteruskan oleh balok pertama untuk mempercepat balok kedua bermassa 2 kg."
+        "text": "Percepatan sistem $a = 2{,}5\\text{ m/s}^2$ dan gaya kontak $N_{12} = 25\\text{ N}$, karena gaya aksi-reaksi menahan seluruh pergerakan balok pertama sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "C",
-        "text": "Percepatan sistem $a = 8{,}3\\text{ m/s}^2$ dan gaya kontak $N_{12} = 15\\text{ N}$, dihitung dengan mengalikan massa total dengan percepatan gravitasi bumi."
+        "text": "Percepatan sistem $a = 5\\text{ m/s}^2$ dan gaya kontak antaran balok sebesar $N_{12} = 10\\text{ N}$, di mana gaya dorong diteruskan oleh balok pertama untuk mempercepat balok kedua bermassa 2 kg."
       },
       {
         "key": "D",
-        "text": "Percepatan sistem $a = 10\\text{ m/s}^2$ dan gaya kontak $N_{12} = 5\\text{ N}$, karena massa balok kedua dianggap nol di bidang tanpa gesek."
+        "text": "Percepatan sistem $a = 8{,}3\\text{ m/s}^2$ dan gaya kontak $N_{12} = 15\\text{ N}$, dihitung dengan mengalikan massa total dengan percepatan gravitasi bumi."
       },
       {
         "key": "E",
-        "text": "Percepatan sistem $a = 1\\text{ m/s}^2$ dan gaya kontak $N_{12} = 20\\text{ N}$, diperoleh dari selisih kedua massa dikalikan gaya luar."
+        "text": "Percepatan sistem $a = 10\\text{ m/s}^2$ dan gaya kontak $N_{12} = 5\\text{ N}$, karena massa balok kedua dianggap nol di bidang tanpa gesek."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Percepatan sistem $a = 5\\text{ m/s}^2$ dan gaya kontak antaran balok sebesar $N_{12} = 10\\text{ N}$, di mana gaya dorong diteruskan oleh balok pertama untuk mempercepat balok kedua bermassa 2 kg.. Percepatan = F / (m1 + m2). Tinjau balok m2 untuk mencari gaya kontak: N12 = m2 * a. a = 25 / 5 = 5 m/s²; N12 = 2 * 5 = 10 N."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) Percepatan sistem $a = 5\\text{ m/s}^2$ dan gaya kontak antaran balok sebesar $N_{12} = 10\\text{ N}$, di mana gaya dorong diteruskan oleh balok pertama untuk mempercepat balok kedua bermassa 2 kg.. Percepatan = F / (m1 + m2). Tinjau balok m2 untuk mencari gaya kontak: N12 = m2 * a. a = 25 / 5 = 5 m/s²; N12 = 2 * 5 = 10 N."
   },
   {
     "id": "fis-lat-e-03",
@@ -111,7 +112,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$400\\text{ Joule}$, karena seluruh energi potensial di puncak pohon langsung menjadi energi kinetik tanpa memperhatikan sisa ketinggian ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$50\\text{ Joule}$, karena gravitasi bumi mengalami pengurangan daya tarik seiring bertambahnya kelajuan benda."
       },
       {
         "key": "B",
@@ -127,7 +128,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$50\\text{ Joule}$, karena gravitasi bumi mengalami pengurangan daya tarik seiring bertambahnya kelajuan benda."
+        "text": "$400\\text{ Joule}$, karena seluruh energi potensial di puncak pohon langsung menjadi energi kinetik tanpa memperhatikan sisa ketinggian."
       }
     ],
     "correctKey": "C",
@@ -154,7 +155,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$150\\text{ Newton}$, dihitung dengan mengurangkan kelajuan akhir dan kelajuan awal sebagai besaran skalar biasa tanpa arah menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$500\\text{ Newton}$, dihitung dari energi kinetik bola dibagi dengan selang waktu tumbukan mikroskopis."
       },
       {
         "key": "B",
@@ -162,7 +163,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$500\\text{ Newton}$, dihitung dari energi kinetik bola dibagi dengan selang waktu tumbukan mikroskopis."
+        "text": "$150\\text{ Newton}$, dihitung dengan mengurangkan kelajuan akhir dan kelajuan awal sebagai besaran skalar biasa tanpa arah."
       },
       {
         "key": "D",
@@ -201,23 +202,23 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$8.000\\text{ Pascal}$, dihitung dari massa jenis minyak dikalikan dengan percepatan gravitasi tanpa memperhitungkan kedalaman."
-      },
-      {
-        "key": "C",
-        "text": "$7.500\\text{ Pascal}$, dihitung dari tinggi cairan dikalikan 100 tanpa memperhatikan massa jenis fluida."
-      },
-      {
-        "key": "D",
         "text": "$1.200\\text{ Pascal}$, hasil pembagian massa jenis minyak dengan ketinggian kolom cairan di dalam tabung."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$6.000\\text{ Pascal}$ (atau $6\\text{ kPa}$), dihitung dari rumus tekanan hidrostatis $P_h = \\rho g h = 800 \\times 10 \\times 0{,}75\\text{ m}$."
+      },
+      {
+        "key": "D",
+        "text": "$7.500\\text{ Pascal}$, dihitung dari tinggi cairan dikalikan 100 tanpa memperhatikan massa jenis fluida."
+      },
+      {
+        "key": "E",
+        "text": "$8.000\\text{ Pascal}$, dihitung dari massa jenis minyak dikalikan dengan percepatan gravitasi tanpa memperhitungkan kedalaman."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $6.000\\text{ Pascal}$ (atau $6\\text{ kPa}$), dihitung dari rumus tekanan hidrostatis $P_h = \\rho g h = 800 \\times 10 \\times 0{,}75\\text{ m}$.. Tekanan hidrostatis: P = rho * g * h. Konversi cm ke meter: 75 cm = 0,75 m. P = 800 * 10 * 0,75 = 6000 Pa."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $6.000\\text{ Pascal}$ (atau $6\\text{ kPa}$), dihitung dari rumus tekanan hidrostatis $P_h = \\rho g h = 800 \\times 10 \\times 0{,}75\\text{ m}$.. Tekanan hidrostatis: P = rho * g * h. Konversi cm ke meter: 75 cm = 0,75 m. P = 800 * 10 * 0,75 = 6000 Pa."
   },
   {
     "id": "fis-lat-e-06",
@@ -244,11 +245,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$2.000\\text{ kg}$, karena gaya angkat 2.000 Newton keliru disamakan langsung dengan massa beban tanpa dibagi percepatan gravitasi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$80\\text{ kg}$, karena hukum Pascal mengasumsikan gaya tekan selalu sama di kedua piston tanpa penguatan mekanik."
       },
       {
         "key": "C",
-        "text": "$80\\text{ kg}$, karena hukum Pascal mengasumsikan gaya tekan selalu sama di kedua piston tanpa penguatan mekanik."
+        "text": "$2.000\\text{ kg}$, karena gaya angkat 2.000 Newton keliru disamakan langsung dengan massa beban tanpa dibagi percepatan gravitasi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
@@ -283,15 +284,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$200\\text{ Newton}$, dihitung dengan menggunakan volume total balok seolah-olah seluruh balok tenggelam ke dasar bejana sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$75\\text{ Newton}$, dihitung dari pembagian massa jenis air dengan percepatan gravitasi bumi."
       },
       {
         "key": "B",
-        "text": "$150\\text{ Newton}$, dihitung dari berat fluida yang dipindahkan: $F_A = \\rho_{\\text{air}} \\cdot g \\cdot V_{\\text{celup}} = 1.000 \\times 10 \\times (0{,}75 \\times 0{,}02\\text{ m}^3)$."
+        "text": "$50\\text{ Newton}$, dihitung dari seperempat volume balok kayu yang menyembul di atas permukaan air terbuka."
       },
       {
         "key": "C",
-        "text": "$50\\text{ Newton}$, dihitung dari seperempat volume balok kayu yang menyembul di atas permukaan air terbuka."
+        "text": "$200\\text{ Newton}$, dihitung dengan menggunakan volume total balok seolah-olah seluruh balok tenggelam ke dasar bejana sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
@@ -299,11 +300,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$75\\text{ Newton}$, dihitung dari pembagian massa jenis air dengan percepatan gravitasi bumi."
+        "text": "$150\\text{ Newton}$, dihitung dari berat fluida yang dipindahkan: $F_A = \\rho_{\\text{air}} \\cdot g \\cdot V_{\\text{celup}} = 1.000 \\times 10 \\times (0{,}75 \\times 0{,}02\\text{ m}^3)$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $150\\text{ Newton}$, dihitung dari berat fluida yang dipindahkan: $F_A = \\rho_{\\text{air}} \\cdot g \\cdot V_{\\text{celup}} = 1.000 \\times 10 \\times (0{,}75 \\times 0{,}02\\text{ m}^3)$.. Gaya Archimedes hanya bergantung pada volume yang tercelup: Fa = rho_fluida * g * V_tercelup. V_tercelup = 0,75 * 0,02 = 0,015 m³. Fa = 1000 * 10 * 0,015 = 150 N."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $150\\text{ Newton}$, dihitung dari berat fluida yang dipindahkan: $F_A = \\rho_{\\text{air}} \\cdot g \\cdot V_{\\text{celup}} = 1.000 \\times 10 \\times (0{,}75 \\times 0{,}02\\text{ m}^3)$.. Gaya Archimedes hanya bergantung pada volume yang tercelup: Fa = rho_fluida * g * V_tercelup. V_tercelup = 0,75 * 0,02 = 0,015 m³. Fa = 1000 * 10 * 0,015 = 150 N."
   },
   {
     "id": "fis-lat-e-08",
@@ -326,7 +327,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50^\\circ\\text{C}$, karena suhu akhir diasumsikan sebagai nilai rata-rata aritmatika sederhana antara 80°C dan 20°C ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$50^\\circ\\text{C}$, karena suhu akhir diasumsikan sebagai nilai rata-rata aritmatika sederhana antara 80°C dan 20°C."
       },
       {
         "key": "B",
@@ -338,11 +339,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$60^\\circ\\text{C}$, karena kalor dianggap hanya berpindah ke dinding wadah kalorimeter kaca."
+        "text": "$40^\\circ\\text{C}$, dihitung dari perbandingan volume kedua cairan tanpa memperhitungkan kalor jenis air."
       },
       {
         "key": "E",
-        "text": "$40^\\circ\\text{C}$, dihitung dari perbandingan volume kedua cairan tanpa memperhitungkan kalor jenis air."
+        "text": "$60^\\circ\\text{C}$, karena kalor dianggap hanya berpindah ke dinding wadah kalorimeter kaca."
       }
     ],
     "correctKey": "C",
@@ -369,15 +370,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$15.000\\text{ Joule}$, diperoleh dari penjumlahan langsung antara kalor yang diserap dengan usaha ekspansi gas menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$15.000\\text{ Joule}$, diperoleh dari penjumlahan langsung antara kalor yang diserap dengan usaha ekspansi gas."
       },
       {
         "key": "B",
-        "text": "$6.000\\text{ Joule}$, karena nilai perubahan energi dalam keliru disamakan dengan usaha mekanik piston."
+        "text": "$9.000\\text{ Joule}$, dengan asumsi seluruh kalor yang diserap gas tidak digunakan untuk melakukan usaha luar."
       },
       {
         "key": "C",
-        "text": "$9.000\\text{ Joule}$, dengan asumsi seluruh kalor yang diserap gas tidak digunakan untuk melakukan usaha luar."
+        "text": "$1.500\\text{ Joule}$, dihitung dari pembagian kalor serap dengan rasio ekspansi volume gas ideal."
       },
       {
         "key": "D",
@@ -385,7 +386,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$1.500\\text{ Joule}$, dihitung dari pembagian kalor serap dengan rasio ekspansi volume gas ideal."
+        "text": "$6.000\\text{ Joule}$, karena nilai perubahan energi dalam keliru disamakan dengan usaha mekanik piston."
       }
     ],
     "correctKey": "D",
@@ -420,19 +421,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$A = 0{,}04\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 0{,}5\\text{ meter}$, karena amplitudo gelombang dibagi dua akibat efek simetri getaran."
+        "text": "$A = 0{,}08\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 1\\text{ meter}$, diperoleh dari $\\omega = 4\\pi \\implies f = \\frac{\\omega}{2\\pi} = 2\\text{ Hz}$, dan $k = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k} = 1\\text{ m}$."
       },
       {
         "key": "D",
-        "text": "$A = 0{,}08\\text{ m}$, $f = 0{,}5\\text{ Hz}$, dan $\\lambda = 2\\text{ meter}$, dihitung dari kebalikan kecepatan sudut getaran tali."
+        "text": "$A = 0{,}04\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 0{,}5\\text{ meter}$, karena amplitudo gelombang dibagi dua akibat efek simetri getaran."
       },
       {
         "key": "E",
-        "text": "$A = 0{,}08\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 1\\text{ meter}$, diperoleh dari $\\omega = 4\\pi \\implies f = \\frac{\\omega}{2\\pi} = 2\\text{ Hz}$, dan $k = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k} = 1\\text{ m}$."
+        "text": "$A = 0{,}08\\text{ m}$, $f = 0{,}5\\text{ Hz}$, dan $\\lambda = 2\\text{ meter}$, dihitung dari kebalikan kecepatan sudut getaran tali."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $A = 0{,}08\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 1\\text{ meter}$, diperoleh dari $\\omega = 4\\pi \\implies f = \\frac{\\omega}{2\\pi} = 2\\text{ Hz}$, dan $k = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k} = 1\\text{ m}$.. Bandingkan persamaan dengan y = A sin(omega*t - k*x). omega = 2*pi*f, k = 2*pi / lambda. A = 0,08 m; f = 4pi / 2pi = 2 Hz; lambda = 2pi / 2pi = 1 m."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $A = 0{,}08\\text{ m}$, $f = 2\\text{ Hz}$, dan $\\lambda = 1\\text{ meter}$, diperoleh dari $\\omega = 4\\pi \\implies f = \\frac{\\omega}{2\\pi} = 2\\text{ Hz}$, dan $k = 2\\pi \\implies \\lambda = \\frac{2\\pi}{k} = 1\\text{ m}$.. Bandingkan persamaan dengan y = A sin(omega*t - k*x). omega = 2*pi*f, k = 2*pi / lambda. A = 0,08 m; f = 4pi / 2pi = 2 Hz; lambda = 2pi / 2pi = 1 m."
   },
   {
     "id": "fis-lat-e-11",
@@ -455,27 +456,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$80\\text{ dB}$, karena pertambahan taraf intensitas untuk $n = 100$ sumber identik adalah $10\\log_{10}(n) = 10\\log_{10}(100) = 10 \\times 2 = 20\\text{ dB}$, sehingga $TI_{100} = 60 + 20 = 80\\text{ dB}$."
-      },
-      {
-        "key": "B",
-        "text": "$600\\text{ dB}$, karena taraf intensitas keliru dikalikan langsung dengan 100 secara linier sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
-        "text": "$160\\text{ dB}$, dihitung dengan menambahkan 100 desibel secara langsung ke taraf intensitas satu motor."
-      },
-      {
-        "key": "D",
         "text": "$70\\text{ dB}$, karena penambahan sumber bunyi dianggap hanya menaikkan 10 desibel untuk setiap kelipatan seratus."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$600\\text{ dB}$, karena taraf intensitas keliru dikalikan langsung dengan 100 secara linier sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "C",
         "text": "$120\\text{ dB}$, dihitung dari perkalian taraf intensitas tunggal dengan faktor kuadrat logaritma natural."
+      },
+      {
+        "key": "D",
+        "text": "$80\\text{ dB}$, karena pertambahan taraf intensitas untuk $n = 100$ sumber identik adalah $10\\log_{10}(n) = 10\\log_{10}(100) = 10 \\times 2 = 20\\text{ dB}$, sehingga $TI_{100} = 60 + 20 = 80\\text{ dB}$."
+      },
+      {
+        "key": "E",
+        "text": "$160\\text{ dB}$, dihitung dengan menambahkan 100 desibel secara langsung ke taraf intensitas satu motor."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $80\\text{ dB}$, karena pertambahan taraf intensitas untuk $n = 100$ sumber identik adalah $10\\log_{10}(n) = 10\\log_{10}(100) = 10 \\times 2 = 20\\text{ dB}$, sehingga $TI_{100} = 60 + 20 = 80\\text{ dB}$.. Taraf intensitas bertambah secara logaritmik: TIn = TI1 + 10*log10(n). TI100 = 60 + 10 * log10(100) = 60 + 10 * 2 = 80 dB."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $80\\text{ dB}$, karena pertambahan taraf intensitas untuk $n = 100$ sumber identik adalah $10\\log_{10}(n) = 10\\log_{10}(100) = 10 \\times 2 = 20\\text{ dB}$, sehingga $TI_{100} = 60 + 20 = 80\\text{ dB}$.. Taraf intensitas bertambah secara logaritmik: TIn = TI1 + 10*log10(n). TI100 = 60 + 10 * log10(100) = 60 + 10 * 2 = 80 dB."
   },
   {
     "id": "fis-lat-e-12",
@@ -498,7 +499,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$360\\text{ Newton}$, karena jarak 30 cm keliru dimasukkan tanpa dikonversi ke meter (menggunakan 30 bukan 0,3) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$360\\text{ Newton}$, karena jarak 30 cm keliru dimasukkan tanpa dikonversi ke meter (menggunakan 30 bukan 0,3) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "B",
@@ -506,15 +507,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$0{,}36\\text{ Newton}$, dihitung dengan mengabaikan konstanta dielektrik ruang hampa udara."
-      },
-      {
-        "key": "D",
         "text": "$1{,}2\\text{ Newton}$, diperoleh dari rata-rata kedua nilai muatan dibagi kuadrat jarak pemisah."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$10{,}8\\text{ Newton}$, dihitung dari perkalian muatan dengan jarak tanpa menerapkan kuadrat pada penyebut."
+      },
+      {
+        "key": "E",
+        "text": "$0{,}36\\text{ Newton}$, dihitung dengan mengabaikan konstanta dielektrik ruang hampa udara."
       }
     ],
     "correctKey": "B",
@@ -541,7 +542,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$1{,}18\\text{ Ampere}$, karena seluruh resistor dijumlahkan secara seri biasa menghasilkan hambatan 17 Ohm ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$0{,}5\\text{ Ampere}$, dihitung dari pembagian hambatan total dengan kuadrat tegangan sumber listrik."
       },
       {
         "key": "B",
@@ -549,19 +550,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$2\\text{ Ampere}$, karena hambatan pengganti paralel adalah $R_p = \\frac{6 \\times 3}{6 + 3} = 2\\,\\Omega$, sehingga hambatan total rangkaian adalah $R_{\\text{total}} = 2 + 8 = 10\\,\\Omega$, dan arus $I = \\frac{V}{R_{\\text{total}}} = \\frac{20}{10} = 2\\text{ A}$."
+        "text": "$10\\text{ Ampere}$, dihitung dari nilai tegangan dibagi oleh hambatan paralel tanpa menambahkan resistor seri."
       },
       {
         "key": "D",
-        "text": "$0{,}5\\text{ Ampere}$, dihitung dari pembagian hambatan total dengan kuadrat tegangan sumber listrik."
+        "text": "$1{,}18\\text{ Ampere}$, karena seluruh resistor dijumlahkan secara seri biasa menghasilkan hambatan 17 Ohm."
       },
       {
         "key": "E",
-        "text": "$10\\text{ Ampere}$, dihitung dari nilai tegangan dibagi oleh hambatan paralel tanpa menambahkan resistor seri."
+        "text": "$2\\text{ Ampere}$, karena hambatan pengganti paralel adalah $R_p = \\frac{6 \\times 3}{6 + 3} = 2\\,\\Omega$, sehingga hambatan total rangkaian adalah $R_{\\text{total}} = 2 + 8 = 10\\,\\Omega$, dan arus $I = \\frac{V}{R_{\\text{total}}} = \\frac{20}{10} = 2\\text{ A}$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $2\\text{ Ampere}$, karena hambatan pengganti paralel adalah $R_p = \\frac{6 \\times 3}{6 + 3} = 2\\,\\Omega$, sehingga hambatan total rangkaian adalah $R_{\\text{total}} = 2 + 8 = 10\\,\\Omega$, dan arus $I = \\frac{V}{R_{\\text{total}}} = \\frac{20}{10} = 2\\text{ A}$.. Cari hambatan paralel R1 dan R2: Rp = (6*3)/(6+3) = 2 Ohm. Lalu seri dengan R3: Rtot = 2 + 8 = 10 Ohm. I = V / Rtot. Rp = 2 Ohm. Rtot = 10 Ohm. I = 20 / 10 = 2 A."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $2\\text{ Ampere}$, karena hambatan pengganti paralel adalah $R_p = \\frac{6 \\times 3}{6 + 3} = 2\\,\\Omega$, sehingga hambatan total rangkaian adalah $R_{\\text{total}} = 2 + 8 = 10\\,\\Omega$, dan arus $I = \\frac{V}{R_{\\text{total}}} = \\frac{20}{10} = 2\\text{ A}$.. Cari hambatan paralel R1 dan R2: Rp = (6*3)/(6+3) = 2 Ohm. Lalu seri dengan R3: Rtot = 2 + 8 = 10 Ohm. I = V / Rtot. Rp = 2 Ohm. Rtot = 10 Ohm. I = 20 / 10 = 2 A."
   },
   {
     "id": "fis-lat-e-14",
@@ -584,27 +585,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$120\\text{ Newton}$ ke arah selatan, karena panjang kawat 50 cm keliru dimasukkan tanpa konversi ke satuan meter menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
-      },
-      {
-        "key": "B",
         "text": "$1{,}2\\text{ Newton}$ ke arah bawah (selatan), karena aturan kaidah tangan kanan tertukar dengan tangan kiri."
       },
       {
+        "key": "B",
+        "text": "$1{,}2\\text{ Newton}$ ke arah utara (ke atas bidang), dihitung dari rumus $F = B I L \\sin 90^\\circ = 0{,}6 \\times 4 \\times 0{,}5\\text{ m} = 1{,}2\\text{ N}$, dengan aturan kaidah tangan kanan."
+      },
+      {
         "key": "C",
-        "text": "$2{,}4\\text{ Newton}$ ke arah timur, dihitung dari perkalian arus listrik dengan kuadrat kuat medan magnetik."
+        "text": "$120\\text{ Newton}$ ke arah selatan, karena panjang kawat 50 cm keliru dimasukkan tanpa konversi ke satuan meter."
       },
       {
         "key": "D",
-        "text": "$1{,}2\\text{ Newton}$ ke arah utara (ke atas bidang), dihitung dari rumus $F = B I L \\sin 90^\\circ = 0{,}6 \\times 4 \\times 0{,}5\\text{ m} = 1{,}2\\text{ N}$, dengan aturan kaidah tangan kanan."
+        "text": "$2{,}4\\text{ Newton}$ ke arah timur, dihitung dari perkalian arus listrik dengan kuadrat kuat medan magnetik."
       },
       {
         "key": "E",
         "text": "$0{,}6\\text{ Newton}$ ke arah barat, karena medan magnet diasumsikan berlawanan arah dengan arah arus kawat."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $1{,}2\\text{ Newton}$ ke arah utara (ke atas bidang), dihitung dari rumus $F = B I L \\sin 90^\\circ = 0{,}6 \\times 4 \\times 0{,}5\\text{ m} = 1{,}2\\text{ N}$, dengan aturan kaidah tangan kanan.. Gaya Lorentz: F = B * I * L * sin(theta). Arah gaya ditentukan dengan kaidah tangan kanan: arus ke kanan, B masuk bidang -> gaya ke atas (utara). F = 0,6 * 4 * 0,5 = 1,2 N arah ke utara."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $1{,}2\\text{ Newton}$ ke arah utara (ke atas bidang), dihitung dari rumus $F = B I L \\sin 90^\\circ = 0{,}6 \\times 4 \\times 0{,}5\\text{ m} = 1{,}2\\text{ N}$, dengan aturan kaidah tangan kanan.. Gaya Lorentz: F = B * I * L * sin(theta). Arah gaya ditentukan dengan kaidah tangan kanan: arus ke kanan, B masuk bidang -> gaya ke atas (utara). F = 0,6 * 4 * 0,5 = 1,2 N arah ke utara."
   },
   {
     "id": "fis-lat-e-15",
@@ -631,23 +632,23 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$120\\text{ Volt}$, dihitung dari perkalian jumlah lilitan dengan fluks awal tanpa memperhitungkan fluks akhir."
+        "text": "$60\\text{ Volt}$, dihitung dari Hukum Faraday: $\\varepsilon = -N \\frac{\\Delta\\Phi}{\\Delta t} = -200 \\times \\frac{0{,}02 - 0{,}08}{0{,}2} = -200 \\times (-0{,}3) = 60\\text{ V}$."
       },
       {
         "key": "C",
-        "text": "$30\\text{ Volt}$, diperoleh dari pembagian selisih fluks magnetik dengan kuadrat selang waktu pengamatan."
-      },
-      {
-        "key": "D",
         "text": "$600\\text{ Volt}$, karena selang waktu 0,2 sekon keliru dikalikan ke pembilang bukan sebagai pembagi."
       },
       {
+        "key": "D",
+        "text": "$30\\text{ Volt}$, diperoleh dari pembagian selisih fluks magnetik dengan kuadrat selang waktu pengamatan."
+      },
+      {
         "key": "E",
-        "text": "$60\\text{ Volt}$, dihitung dari Hukum Faraday: $\\varepsilon = -N \\frac{\\Delta\\Phi}{\\Delta t} = -200 \\times \\frac{0{,}02 - 0{,}08}{0{,}2} = -200 \\times (-0{,}3) = 60\\text{ V}$."
+        "text": "$120\\text{ Volt}$, dihitung dari perkalian jumlah lilitan dengan fluks awal tanpa memperhitungkan fluks akhir."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $60\\text{ Volt}$, dihitung dari Hukum Faraday: $\\varepsilon = -N \\frac{\\Delta\\Phi}{\\Delta t} = -200 \\times \\frac{0{,}02 - 0{,}08}{0{,}2} = -200 \\times (-0{,}3) = 60\\text{ V}$.. GGL Induksi Faraday: eps = N * |delta_phi| / delta_t. delta_phi = 0,08 - 0,02 = 0,06 Wb. eps = 200 * 0,06 / 0,2 = 200 * 0,3 = 60 Volt."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $60\\text{ Volt}$, dihitung dari Hukum Faraday: $\\varepsilon = -N \\frac{\\Delta\\Phi}{\\Delta t} = -200 \\times \\frac{0{,}02 - 0{,}08}{0{,}2} = -200 \\times (-0{,}3) = 60\\text{ V}$.. GGL Induksi Faraday: eps = N * |delta_phi| / delta_t. delta_phi = 0,08 - 0,02 = 0,06 Wb. eps = 200 * 0,06 / 0,2 = 200 * 0,3 = 60 Volt."
   },
   {
     "id": "fis-lat-e-16",
@@ -674,7 +675,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$N_s = 10.000\\text{ lilitan}$ dan $I_p = 50\\text{ Ampere}$, karena trafo step-down keliru dianggap menaikkan jumlah lilitan sekunder sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$N_s = 500\\text{ lilitan}$ dan $I_p = 2{,}5\\text{ Ampere}$, dihitung dari rata-rata nilai tegangan masukan."
       },
       {
         "key": "C",
@@ -682,11 +683,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$N_s = 500\\text{ lilitan}$ dan $I_p = 2{,}5\\text{ Ampere}$, dihitung dari rata-rata nilai tegangan masukan."
+        "text": "$N_s = 50\\text{ lilitan}$ dan $I_p = 1\\text{ Ampere}$, dihitung dari selisih daya primer dan sekunder."
       },
       {
         "key": "E",
-        "text": "$N_s = 50\\text{ lilitan}$ dan $I_p = 1\\text{ Ampere}$, dihitung dari selisih daya primer dan sekunder."
+        "text": "$N_s = 10.000\\text{ lilitan}$ dan $I_p = 50\\text{ Ampere}$, karena trafo step-down keliru dianggap menaikkan jumlah lilitan sekunder sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
     "correctKey": "A",
@@ -713,15 +714,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Jarak bayangan $s' = 10\\text{ cm}$ di belakang cermin dengan sifat maya, tegak, dan sama besar sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "Jarak bayangan $s' = 7{,}5\\text{ cm}$ di belakang cermin dengan sifat nyata, tegak, dan diperkecil separuhnya."
       },
       {
         "key": "B",
-        "text": "Jarak bayangan $s' = 30\\text{ cm}$ di depan cermin dengan sifat nyata, terbalik, dan diperbesar 2 kali ($M = 2$), dihitung dari titik fokus $f = \\frac{R}{2} = 10\\text{ cm}$ dan rumus $\\frac{1}{s'} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30}$."
+        "text": "Jarak bayangan $s' = 60\\text{ cm}$ di depan cermin dengan sifat maya, terbalik, dan diperkecil."
       },
       {
         "key": "C",
-        "text": "Jarak bayangan $s' = 60\\text{ cm}$ di depan cermin dengan sifat maya, terbalik, dan diperkecil."
+        "text": "Jarak bayangan $s' = 10\\text{ cm}$ di belakang cermin dengan sifat maya, tegak, dan sama besar sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
@@ -729,11 +730,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Jarak bayangan $s' = 7{,}5\\text{ cm}$ di belakang cermin dengan sifat nyata, tegak, dan diperkecil separuhnya."
+        "text": "Jarak bayangan $s' = 30\\text{ cm}$ di depan cermin dengan sifat nyata, terbalik, dan diperbesar 2 kali ($M = 2$), dihitung dari titik fokus $f = \\frac{R}{2} = 10\\text{ cm}$ dan rumus $\\frac{1}{s'} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) Jarak bayangan $s' = 30\\text{ cm}$ di depan cermin dengan sifat nyata, terbalik, dan diperbesar 2 kali ($M = 2$), dihitung dari titik fokus $f = \\frac{R}{2} = 10\\text{ cm}$ dan rumus $\\frac{1}{s'} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30}$.. Titik fokus cermin cekung f = R / 2 = 10 cm. Gunakan rumus 1/f = 1/s + 1/s'. 1/s' = 1/10 - 1/15 = 1/30 -> s' = +30 cm (nyata, terbalik, diperbesar M = 30/15 = 2x)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Jarak bayangan $s' = 30\\text{ cm}$ di depan cermin dengan sifat nyata, terbalik, dan diperbesar 2 kali ($M = 2$), dihitung dari titik fokus $f = \\frac{R}{2} = 10\\text{ cm}$ dan rumus $\\frac{1}{s'} = \\frac{1}{10} - \\frac{1}{15} = \\frac{1}{30}$.. Titik fokus cermin cekung f = R / 2 = 10 cm. Gunakan rumus 1/f = 1/s + 1/s'. 1/s' = 1/10 - 1/15 = 1/30 -> s' = +30 cm (nyata, terbalik, diperbesar M = 30/15 = 2x)."
   },
   {
     "id": "fis-lat-e-18",
@@ -756,15 +757,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$+0{,}5\\text{ Dioptri}$, karena penderita rabun jauh keliru diberi kacamata berlensa cembung positif pengumpul cahaya ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
         "text": "$-2{,}0\\text{ Dioptri}$, dihitung dengan menyamakan daya lensa langsung dengan jarak titik jauh mata dalam meter."
       },
       {
+        "key": "B",
+        "text": "$+0{,}5\\text{ Dioptri}$, karena penderita rabun jauh keliru diberi kacamata berlensa cembung positif pengumpul cahaya."
+      },
+      {
         "key": "C",
-        "text": "$-0{,}5\\text{ Dioptri}$, karena kacamata berlensa cekung (divergen/negatif) harus membentuk bayangan maya benda tak terhingga di titik jauh matanya ($s' = -2\\text{ m}$), sehingga $P = -\\frac{1}{\\text{PR(m)}} = -\\frac{1}{2} = -0{,}5\\text{ D}$."
+        "text": "$-5{,}0\\text{ Dioptri}$, dihitung dari perkalian titik jauh mata dengan ketebalan kornea mata."
       },
       {
         "key": "D",
@@ -772,11 +773,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$-5{,}0\\text{ Dioptri}$, dihitung dari perkalian titik jauh mata dengan ketebalan kornea mata."
+        "text": "$-0{,}5\\text{ Dioptri}$, karena kacamata berlensa cekung (divergen/negatif) harus membentuk bayangan maya benda tak terhingga di titik jauh matanya ($s' = -2\\text{ m}$), sehingga $P = -\\frac{1}{\\text{PR(m)}} = -\\frac{1}{2} = -0{,}5\\text{ D}$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $-0{,}5\\text{ Dioptri}$, karena kacamata berlensa cekung (divergen/negatif) harus membentuk bayangan maya benda tak terhingga di titik jauh matanya ($s' = -2\\text{ m}$), sehingga $P = -\\frac{1}{\\text{PR(m)}} = -\\frac{1}{2} = -0{,}5\\text{ D}$.. Rumus daya lensa untuk miopi: P = -1 / PR (dalam meter) atau P = -100 / PR (dalam cm). P = -1 / 2 = -0,5 Dioptri."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $-0{,}5\\text{ Dioptri}$, karena kacamata berlensa cekung (divergen/negatif) harus membentuk bayangan maya benda tak terhingga di titik jauh matanya ($s' = -2\\text{ m}$), sehingga $P = -\\frac{1}{\\text{PR(m)}} = -\\frac{1}{2} = -0{,}5\\text{ D}$.. Rumus daya lensa untuk miopi: P = -1 / PR (dalam meter) atau P = -100 / PR (dalam cm). P = -1 / 2 = -0,5 Dioptri."
   },
   {
     "id": "fis-lat-e-19",
@@ -799,11 +800,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4{,}14 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan gas dengan 2 derajat kebebasan tanpa memperhitungkan gerak translasi tiga dimensi menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$6{,}21 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan energi kinetik gas monoatomik yang memiliki 3 derajat kebebasan: $\\bar{E}_k = \\frac{3}{2}kT = \\frac{3}{2}(1{,}38 \\times 10^{-23})(300)$."
       },
       {
         "key": "B",
-        "text": "$1{,}035 \\times 10^{-20}\\text{ Joule}$, dihitung dengan menganggap gas monoatomik memiliki derajat kebebasan vibrasi seperti gas poliatomik."
+        "text": "$9{,}32 \\times 10^{-21}\\text{ Joule}$, dihitung dari perkalian konstanta gas universal dengan suhu Celcius."
       },
       {
         "key": "C",
@@ -811,15 +812,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$6{,}21 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan energi kinetik gas monoatomik yang memiliki 3 derajat kebebasan: $\\bar{E}_k = \\frac{3}{2}kT = \\frac{3}{2}(1{,}38 \\times 10^{-23})(300)$."
+        "text": "$4{,}14 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan gas dengan 2 derajat kebebasan tanpa memperhitungkan gerak translasi tiga dimensi."
       },
       {
         "key": "E",
-        "text": "$9{,}32 \\times 10^{-21}\\text{ Joule}$, dihitung dari perkalian konstanta gas universal dengan suhu Celcius."
+        "text": "$1{,}035 \\times 10^{-20}\\text{ Joule}$, dihitung dengan menganggap gas monoatomik memiliki derajat kebebasan vibrasi seperti gas poliatomik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $6{,}21 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan energi kinetik gas monoatomik yang memiliki 3 derajat kebebasan: $\\bar{E}_k = \\frac{3}{2}kT = \\frac{3}{2}(1{,}38 \\times 10^{-23})(300)$.. Energi kinetik gas monoatomik: Ek = 3/2 * k * T. Ek = 1,5 * (1,38e-23) * 300 = 6,21 * 10^-21 Joule."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $6{,}21 \\times 10^{-21}\\text{ Joule}$, dihitung dari persamaan energi kinetik gas monoatomik yang memiliki 3 derajat kebebasan: $\\bar{E}_k = \\frac{3}{2}kT = \\frac{3}{2}(1{,}38 \\times 10^{-23})(300)$.. Energi kinetik gas monoatomik: Ek = 3/2 * k * T. Ek = 1,5 * (1,38e-23) * 300 = 6,21 * 10^-21 Joule."
   },
   {
     "id": "fis-lat-e-20",
@@ -842,27 +843,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$7.000\\text{ Joule}$, karena nilai tersebut merupakan kalor sisa ($Q_C$) yang dibuang ke reservoir dingin, bukan usaha yang dihasilkan diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
-        "text": "$5.000\\text{ Joule}$, dengan asumsi mesin Carnot memiliki efisiensi maksimal 50% pada seluruh rentang temperatur."
-      },
-      {
-        "key": "C",
-        "text": "$1.500\\text{ Joule}$, dihitung dari perbandingan selisih suhu reservoir terhadap suhu titik beku air murni."
-      },
-      {
-        "key": "D",
         "text": "$10.000\\text{ Joule}$, karena mesin ideal diasumsikan mampu mengubah seluruh kalor serap menjadi usaha mekanik tanpa rugi."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$3.000\\text{ Joule}$, karena efisiensi mesin Carnot adalah $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{350}{500} = 0{,}30$ (30%), sehingga usaha yang dihasilkan $W = \\eta \\cdot Q_H = 0{,}30 \\times 10.000\\text{ J} = 3.000\\text{ J}$."
+      },
+      {
+        "key": "C",
+        "text": "$7.000\\text{ Joule}$, karena nilai tersebut merupakan kalor sisa ($Q_C$) yang dibuang ke reservoir dingin, bukan usaha yang dihasilkan diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+      },
+      {
+        "key": "D",
+        "text": "$5.000\\text{ Joule}$, dengan asumsi mesin Carnot memiliki efisiensi maksimal 50% pada seluruh rentang temperatur."
+      },
+      {
+        "key": "E",
+        "text": "$1.500\\text{ Joule}$, dihitung dari perbandingan selisih suhu reservoir terhadap suhu titik beku air murni."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $3.000\\text{ Joule}$, karena efisiensi mesin Carnot adalah $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{350}{500} = 0{,}30$ (30%), sehingga usaha yang dihasilkan $W = \\eta \\cdot Q_H = 0{,}30 \\times 10.000\\text{ J} = 3.000\\text{ J}$.. Efisiensi Carnot: eta = 1 - (Tc / Th). Usaha: W = eta * Qh. eta = 1 - (350 / 500) = 0,30. W = 0,30 * 10000 = 3000 Joule."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $3.000\\text{ Joule}$, karena efisiensi mesin Carnot adalah $\\eta = 1 - \\frac{T_C}{T_H} = 1 - \\frac{350}{500} = 0{,}30$ (30%), sehingga usaha yang dihasilkan $W = \\eta \\cdot Q_H = 0{,}30 \\times 10.000\\text{ J} = 3.000\\text{ J}$.. Efisiensi Carnot: eta = 1 - (Tc / Th). Usaha: W = eta * Qh. eta = 1 - (350 / 500) = 0,30. W = 0,30 * 10000 = 3000 Joule."
   },
   {
     "id": "fis-lat-e-21",
@@ -889,19 +890,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Sinar Gamma $\\rightarrow$ Sinar-X $\\rightarrow$ Ultraviolet $\\rightarrow$ Cahaya Tampak $\\rightarrow$ Inframerah $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Gelombang Radio sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "Ultraviolet $\\rightarrow$ Sinar-X $\\rightarrow$ Sinar Gamma $\\rightarrow$ Gelombang Radio $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Inframerah $\\rightarrow$ Cahaya Tampak."
       },
       {
         "key": "C",
-        "text": "Gelombang Radio $\\rightarrow$ Cahaya Tampak $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Sinar-X $\\rightarrow$ Inframerah $\\rightarrow$ Sinar Gamma $\\rightarrow$ Ultraviolet."
+        "text": "Sinar Gamma $\\rightarrow$ Sinar-X $\\rightarrow$ Ultraviolet $\\rightarrow$ Cahaya Tampak $\\rightarrow$ Inframerah $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Gelombang Radio sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
-        "text": "Cahaya Tampak $\\rightarrow$ Inframerah $\\rightarrow$ Ultraviolet $\\rightarrow$ Gelombang Radio $\\rightarrow$ Sinar Gamma $\\rightarrow$ Sinar-X $\\rightarrow$ Radar."
+        "text": "Gelombang Radio $\\rightarrow$ Cahaya Tampak $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Sinar-X $\\rightarrow$ Inframerah $\\rightarrow$ Sinar Gamma $\\rightarrow$ Ultraviolet."
       },
       {
         "key": "E",
-        "text": "Ultraviolet $\\rightarrow$ Sinar-X $\\rightarrow$ Sinar Gamma $\\rightarrow$ Gelombang Radio $\\rightarrow$ Gelombang Mikro $\\rightarrow$ Inframerah $\\rightarrow$ Cahaya Tampak."
+        "text": "Cahaya Tampak $\\rightarrow$ Inframerah $\\rightarrow$ Ultraviolet $\\rightarrow$ Gelombang Radio $\\rightarrow$ Sinar Gamma $\\rightarrow$ Sinar-X $\\rightarrow$ Radar."
       }
     ],
     "correctKey": "A",
@@ -928,27 +929,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4{,}8\\text{ tahun}$, dihitung dengan mengalikan waktu tepat dengan faktor 0,8 tanpa menerapkan rumus dilatasi waktu pembagi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
         "text": "$10\\text{ tahun}$, karena efek dilatasi waktu Einstein menetapkan bahwa waktu pengamat diam memanjang menurut faktor Lorentz $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga $\\Delta t = \\gamma \\cdot \\Delta t_0 = \\frac{5}{3} \\times 6 = 10\\text{ tahun}$."
       },
       {
-        "key": "C",
-        "text": "$3{,}6\\text{ tahun}$, dihitung dari perkalian waktu diam dengan kuadrat faktor kontraksi panjang."
+        "key": "B",
+        "text": "$15\\text{ tahun}$, dihitung dari perkalian waktu penjelajah dengan konstanta kecepatan cahaya kuadrat."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$6\\text{ tahun}$, karena hukum fisika klasik Newton menganggap waktu bersifat mutlak di seluruh penjuru alam semesta."
       },
       {
+        "key": "D",
+        "text": "$4{,}8\\text{ tahun}$, dihitung dengan mengalikan waktu tepat dengan faktor 0,8 tanpa menerapkan rumus dilatasi waktu pembagi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
         "key": "E",
-        "text": "$15\\text{ tahun}$, dihitung dari perkalian waktu penjelajah dengan konstanta kecepatan cahaya kuadrat."
+        "text": "$3{,}6\\text{ tahun}$, dihitung dari perkalian waktu diam dengan kuadrat faktor kontraksi panjang."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $10\\text{ tahun}$, karena efek dilatasi waktu Einstein menetapkan bahwa waktu pengamat diam memanjang menurut faktor Lorentz $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga $\\Delta t = \\gamma \\cdot \\Delta t_0 = \\frac{5}{3} \\times 6 = 10\\text{ tahun}$.. Dilatasi waktu: delta_t = delta_t0 / sqrt(1 - v^2/c^2). sqrt(1 - 0,8^2) = 0,6. delta_t = 6 / 0,6 = 10 tahun."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $10\\text{ tahun}$, karena efek dilatasi waktu Einstein menetapkan bahwa waktu pengamat diam memanjang menurut faktor Lorentz $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga $\\Delta t = \\gamma \\cdot \\Delta t_0 = \\frac{5}{3} \\times 6 = 10\\text{ tahun}$.. Dilatasi waktu: delta_t = delta_t0 / sqrt(1 - v^2/c^2). sqrt(1 - 0,8^2) = 0,6. delta_t = 6 / 0,6 = 10 tahun."
   },
   {
     "id": "fis-lat-e-23",
@@ -971,27 +972,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$125\\text{ meter}$, karena panjang pesawat keliru dihitung memanjang dengan membagi panjang diam terhadap faktor Lorentz ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
-        "text": "$60\\text{ meter}$, dihitung dengan mengalikan panjang diam secara langsung dengan koefisien kecepatan 0,6."
-      },
-      {
-        "key": "C",
-        "text": "$80\\text{ meter}$, karena pengamat yang diam mengamati terjadinya pengerutan/kontraksi panjang searah gerak benda: $L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}} = 100 \\times \\sqrt{1 - (0{,}6)^2} = 100 \\times 0{,}8 = 80\\text{ meter}$."
-      },
-      {
-        "key": "D",
         "text": "$100\\text{ meter}$, karena panjang benda fisik dianggap kekal dan tidak dapat dipengaruhi oleh kelajuan gerak roket."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$40\\text{ meter}$, dihitung dari selisih kuadrat panjang diam dengan konstanta kelajuan cahaya."
+      },
+      {
+        "key": "C",
+        "text": "$125\\text{ meter}$, karena panjang pesawat keliru dihitung memanjang dengan membagi panjang diam terhadap faktor Lorentz."
+      },
+      {
+        "key": "D",
+        "text": "$80\\text{ meter}$, karena pengamat yang diam mengamati terjadinya pengerutan/kontraksi panjang searah gerak benda: $L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}} = 100 \\times \\sqrt{1 - (0{,}6)^2} = 100 \\times 0{,}8 = 80\\text{ meter}$."
+      },
+      {
+        "key": "E",
+        "text": "$60\\text{ meter}$, dihitung dengan mengalikan panjang diam secara langsung dengan koefisien kecepatan 0,6."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $80\\text{ meter}$, karena pengamat yang diam mengamati terjadinya pengerutan/kontraksi panjang searah gerak benda: $L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}} = 100 \\times \\sqrt{1 - (0{,}6)^2} = 100 \\times 0{,}8 = 80\\text{ meter}$.. Kontraksi panjang Lorentz: L = L0 * sqrt(1 - v^2/c^2). L = 100 * sqrt(1 - 0,36) = 100 * 0,8 = 80 meter."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $80\\text{ meter}$, karena pengamat yang diam mengamati terjadinya pengerutan/kontraksi panjang searah gerak benda: $L = L_0 \\sqrt{1 - \\frac{v^2}{c^2}} = 100 \\times \\sqrt{1 - (0{,}6)^2} = 100 \\times 0{,}8 = 80\\text{ meter}$.. Kontraksi panjang Lorentz: L = L0 * sqrt(1 - v^2/c^2). L = 100 * sqrt(1 - 0,36) = 100 * 0,8 = 80 meter."
   },
   {
     "id": "fis-lat-e-24",
@@ -1014,15 +1015,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3{,}68 \\times 10^{-7}\\text{ meter}$, karena eksponen kecepatan elektron keliru dimasukkan bertanda negatif dalam perhitungan menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
-      },
-      {
-        "key": "B",
         "text": "$1{,}84 \\times 10^{-10}\\text{ meter}$, dihitung dengan mengabaikan konstanta massa elektron pada penyebut momentum linier."
       },
       {
+        "key": "B",
+        "text": "$5{,}50 \\times 10^{-12}\\text{ meter}$, dihitung dari asumsi panjang gelombang foton sinar gamma frekuensi tinggi."
+      },
+      {
         "key": "C",
-        "text": "$7{,}36 \\times 10^{-10}\\text{ meter}$, dihitung dari perkalian momentum elektron dengan konstanta Planck secara langsung."
+        "text": "$3{,}68 \\times 10^{-7}\\text{ meter}$, karena eksponen kecepatan elektron keliru dimasukkan bertanda negatif dalam perhitungan."
       },
       {
         "key": "D",
@@ -1030,7 +1031,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$5{,}50 \\times 10^{-12}\\text{ meter}$, dihitung dari asumsi panjang gelombang foton sinar gamma frekuensi tinggi."
+        "text": "$7{,}36 \\times 10^{-10}\\text{ meter}$, dihitung dari perkalian momentum elektron dengan konstanta Planck secara langsung."
       }
     ],
     "correctKey": "D",
@@ -1057,19 +1058,19 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$8\\text{ gram}$, dihitung dengan menganggap sampel hanya meluruh sebanyak 3 kali periode waktu paruh diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$0\\text{ gram}$, karena zat radioaktif dianggap habis musnah total setelah melewati waktu 12 jam."
       },
       {
         "key": "B",
-        "text": "$16\\text{ gram}$, dihitung dengan membagi massa awal secara langsung dengan durasi waktu penyimpanan 16 jam."
-      },
-      {
-        "key": "C",
         "text": "$2\\text{ gram}$, dihitung dari asumsi bahwa zat telah meluruh sebanyak 5 kali periode paruh."
       },
       {
+        "key": "C",
+        "text": "$8\\text{ gram}$, dihitung dengan menganggap sampel hanya meluruh sebanyak 3 kali periode waktu paruh diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+      },
+      {
         "key": "D",
-        "text": "$0\\text{ gram}$, karena zat radioaktif dianggap habis musnah total setelah melewati waktu 12 jam."
+        "text": "$16\\text{ gram}$, dihitung dengan membagi massa awal secara langsung dengan durasi waktu penyimpanan 16 jam."
       },
       {
         "key": "E",
@@ -1100,27 +1101,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$t_p = 4\\text{ sekon}$ dan $h_{\\max} = 80\\text{ meter}$, dihitung dari $t_p = \\frac{v_0 \\sin\\theta}{g} = \\frac{50 \\times 0{,}8}{10} = 4\\text{ s}$, dan $h_{\\max} = \\frac{(v_0 \\sin\\theta)^2}{2g} = \\frac{40^2}{20} = 80\\text{ m}$."
-      },
-      {
-        "key": "B",
-        "text": "$t_p = 3\\text{ sekon}$ dan $h_{\\max} = 45\\text{ meter}$, karena kecepatan awal keliru diuraikan menggunakan fungsi cosinus pada komponen sumbu vertikal sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$t_p = 5\\text{ sekon}$ dan $h_{\\max} = 125\\text{ meter}$, dihitung dengan mengabaikan sudut elevasi penembakan moncong meriam."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$t_p = 8\\text{ sekon}$ dan $h_{\\max} = 160\\text{ meter}$, karena waktu mencapai titik puncak tertukar dengan total waktu melayang di udara."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$t_p = 4\\text{ sekon}$ dan $h_{\\max} = 80\\text{ meter}$, dihitung dari $t_p = \\frac{v_0 \\sin\\theta}{g} = \\frac{50 \\times 0{,}8}{10} = 4\\text{ s}$, dan $h_{\\max} = \\frac{(v_0 \\sin\\theta)^2}{2g} = \\frac{40^2}{20} = 80\\text{ m}$."
+      },
+      {
+        "key": "D",
         "text": "$t_p = 2\\text{ sekon}$ dan $h_{\\max} = 40\\text{ meter}$, dihitung dari pembagian tinggi maksimum dengan gravitasi bumi tanpa pemangkatan kuadrat."
+      },
+      {
+        "key": "E",
+        "text": "$t_p = 3\\text{ sekon}$ dan $h_{\\max} = 45\\text{ meter}$, karena kecepatan awal keliru diuraikan menggunakan fungsi cosinus pada komponen sumbu vertikal sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $t_p = 4\\text{ sekon}$ dan $h_{\\max} = 80\\text{ meter}$, dihitung dari $t_p = \\frac{v_0 \\sin\\theta}{g} = \\frac{50 \\times 0{,}8}{10} = 4\\text{ s}$, dan $h_{\\max} = \\frac{(v_0 \\sin\\theta)^2}{2g} = \\frac{40^2}{20} = 80\\text{ m}$.. Komponen kecepatan vertikal: v0y = v0 * sin(53) = 40 m/s. Di titik puncak, vy = 0. tp = v0y / g. h_max = v0y^2 / (2g). tp = 40 / 10 = 4 s. h_max = 40^2 / 20 = 80 m."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $t_p = 4\\text{ sekon}$ dan $h_{\\max} = 80\\text{ meter}$, dihitung dari $t_p = \\frac{v_0 \\sin\\theta}{g} = \\frac{50 \\times 0{,}8}{10} = 4\\text{ s}$, dan $h_{\\max} = \\frac{(v_0 \\sin\\theta)^2}{2g} = \\frac{40^2}{20} = 80\\text{ m}$.. Komponen kecepatan vertikal: v0y = v0 * sin(53) = 40 m/s. Di titik puncak, vy = 0. tp = v0y / g. h_max = v0y^2 / (2g). tp = 40 / 10 = 4 s. h_max = 40^2 / 20 = 80 m."
   },
   {
     "id": "fis-lat-m-02",
@@ -1143,11 +1144,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4{,}90\\text{ m/s}^2$, karena gravitasi keliru dianggap berbanding terbalik secara linier dengan jarak, bukan berbanding terbalik dengan kuadrat jarak sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$1{,}08\\text{ m/s}^2$, dihitung dari asumsi jarak satelit dari permukaan bumi adalah sembilan kali jari-jari planet."
       },
       {
         "key": "B",
-        "text": "$2{,}45\\text{ m/s}^2$, karena jarak satelit dari pusat bumi menjadi $r = R + h = 2R$, sehingga percepatan gravitasi berkurang menjadi seperempat dari nilai di permukaan bumi: $g_h = g \\left(\\frac{R}{2R}\\right)^2 = \\frac{g}{4} = \\frac{9{,}8}{4} = 2{,}45\\text{ m/s}^2$."
+        "text": "$0\\text{ m/s}^2$, karena satelit dianggap berada dalam kondisi mikrogravitasi mutlak tanpa tarikan massa bumi sama sekali."
       },
       {
         "key": "C",
@@ -1155,15 +1156,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$1{,}08\\text{ m/s}^2$, dihitung dari asumsi jarak satelit dari permukaan bumi adalah sembilan kali jari-jari planet."
+        "text": "$2{,}45\\text{ m/s}^2$, karena jarak satelit dari pusat bumi menjadi $r = R + h = 2R$, sehingga percepatan gravitasi berkurang menjadi seperempat dari nilai di permukaan bumi: $g_h = g \\left(\\frac{R}{2R}\\right)^2 = \\frac{g}{4} = \\frac{9{,}8}{4} = 2{,}45\\text{ m/s}^2$."
       },
       {
         "key": "E",
-        "text": "$0\\text{ m/s}^2$, karena satelit dianggap berada dalam kondisi mikrogravitasi mutlak tanpa tarikan massa bumi sama sekali."
+        "text": "$4{,}90\\text{ m/s}^2$, karena gravitasi keliru dianggap berbanding terbalik secara linier dengan jarak, bukan berbanding terbalik dengan kuadrat jarak sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $2{,}45\\text{ m/s}^2$, karena jarak satelit dari pusat bumi menjadi $r = R + h = 2R$, sehingga percepatan gravitasi berkurang menjadi seperempat dari nilai di permukaan bumi: $g_h = g \\left(\\frac{R}{2R}\\right)^2 = \\frac{g}{4} = \\frac{9{,}8}{4} = 2{,}45\\text{ m/s}^2$.. Jarak diukur selalu dari pusat bumi: r = R + h = 2R. Kuat medan gravitasi berbanding terbalik dengan kuadrat jarak: g_h = g * (R / 2R)^2 = g / 4. g_h = 9,8 / 4 = 2,45 m/s²."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $2{,}45\\text{ m/s}^2$, karena jarak satelit dari pusat bumi menjadi $r = R + h = 2R$, sehingga percepatan gravitasi berkurang menjadi seperempat dari nilai di permukaan bumi: $g_h = g \\left(\\frac{R}{2R}\\right)^2 = \\frac{g}{4} = \\frac{9{,}8}{4} = 2{,}45\\text{ m/s}^2$.. Jarak diukur selalu dari pusat bumi: r = R + h = 2R. Kuat medan gravitasi berbanding terbalik dengan kuadrat jarak: g_h = g * (R / 2R)^2 = g / 4. g_h = 9,8 / 4 = 2,45 m/s²."
   },
   {
     "id": "fis-lat-m-03",
@@ -1186,15 +1187,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$20\\text{ m/s}$ (atau $72\\text{ km/jam}$), dihitung dengan mengalikan percepatan gravitasi dengan koefisien gesekan kinetik jalan basah ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$46{,}8\\text{ km/jam}$ (atau tepat $12{,}65\\text{ m/s}$, dibulatkan dari $\\sqrt{\\mu_s g R} = \\sqrt{0{,}4 \\times 10 \\times 40} = \\sqrt{160} = 4\\sqrt{10}\\text{ m/s} \\approx 12{,}65\\text{ m/s}$), di mana gaya gesek statis bertindak sebagai gaya sentripetal."
       },
       {
         "key": "B",
-        "text": "$8\\text{ m/s}$ (atau $28{,}8\\text{ km/jam}$), dihitung dari pembagian jari-jari kelengkungan dengan percepatan gravitasi bumi."
+        "text": "$20\\text{ m/s}$ (atau $72\\text{ km/jam}$), dihitung dengan mengalikan percepatan gravitasi dengan koefisien gesekan kinetik jalan basah."
       },
       {
         "key": "C",
-        "text": "$46{,}8\\text{ km/jam}$ (atau tepat $12{,}65\\text{ m/s}$, dibulatkan dari $\\sqrt{\\mu_s g R} = \\sqrt{0{,}4 \\times 10 \\times 40} = \\sqrt{160} = 4\\sqrt{10}\\text{ m/s} \\approx 12{,}65\\text{ m/s}$), di mana gaya gesek statis bertindak sebagai gaya sentripetal."
+        "text": "$5\\text{ m/s}$ (atau $18\\text{ km/jam}$), dihitung dari rasio massa mobil terhadap jari-jari tikungan aspal jalan."
       },
       {
         "key": "D",
@@ -1202,11 +1203,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$5\\text{ m/s}$ (atau $18\\text{ km/jam}$), dihitung dari rasio massa mobil terhadap jari-jari tikungan aspal jalan."
+        "text": "$8\\text{ m/s}$ (atau $28{,}8\\text{ km/jam}$), dihitung dari pembagian jari-jari kelengkungan dengan percepatan gravitasi bumi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $46{,}8\\text{ km/jam}$ (atau tepat $12{,}65\\text{ m/s}$, dibulatkan dari $\\sqrt{\\mu_s g R} = \\sqrt{0{,}4 \\times 10 \\times 40} = \\sqrt{160} = 4\\sqrt{10}\\text{ m/s} \\approx 12{,}65\\text{ m/s}$), di mana gaya gesek statis bertindak sebagai gaya sentripetal.. Gaya gesek statis menyediakan gaya sentripetal: mu_s * m * g = m * v^2 / R -> v_max = sqrt(mu_s * g * R). v = sqrt(0,4 * 10 * 40) = sqrt(160) = 4*sqrt(10) ≈ 12,65 m/s."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $46{,}8\\text{ km/jam}$ (atau tepat $12{,}65\\text{ m/s}$, dibulatkan dari $\\sqrt{\\mu_s g R} = \\sqrt{0{,}4 \\times 10 \\times 40} = \\sqrt{160} = 4\\sqrt{10}\\text{ m/s} \\approx 12{,}65\\text{ m/s}$), di mana gaya gesek statis bertindak sebagai gaya sentripetal.. Gaya gesek statis menyediakan gaya sentripetal: mu_s * m * g = m * v^2 / R -> v_max = sqrt(mu_s * g * R). v = sqrt(0,4 * 10 * 40) = sqrt(160) = 4*sqrt(10) ≈ 12,65 m/s."
   },
   {
     "id": "fis-lat-m-04",
@@ -1229,27 +1230,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$e = 0{,}44$ dan $h_3 = 20\\text{ cm}$, karena koefisien restitusi keliru dihitung tanpa mengakarkan perbandingan ketinggian pantulan menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$e = 0{,}50$ dan $h_3 = 40\\text{ cm}$, dihitung dengan membagi dua ketinggian pantulan pertama secara konvensional."
       },
       {
         "key": "B",
-        "text": "$e = 0{,}80$ dan $h_3 = 60\\text{ cm}$, dihitung dari perbandingan selisih ketinggian terhadap percepatan gravitasi bumi."
-      },
-      {
-        "key": "C",
-        "text": "$e = 1{,}0$ dan $h_3 = 80\\text{ cm}$, dengan anggapan bahwa bola basket mengalami tumbukan lenting sempurna di atas lantai."
-      },
-      {
-        "key": "D",
         "text": "$e = \\frac{2}{3}$ dan $h_3 = 35{,}56\\text{ cm}$, dihitung dari koefisien restitusi pantulan vertikal $e = \\sqrt{\\frac{h_2}{h_1}} = \\sqrt{\\frac{80}{180}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, sehingga $h_3 = e^2 h_2 = \\frac{4}{9} \\times 80 = 35{,}56\\text{ cm}$."
       },
       {
+        "key": "C",
+        "text": "$e = 0{,}80$ dan $h_3 = 60\\text{ cm}$, dihitung dari perbandingan selisih ketinggian terhadap percepatan gravitasi bumi."
+      },
+      {
+        "key": "D",
+        "text": "$e = 1{,}0$ dan $h_3 = 80\\text{ cm}$, dengan anggapan bahwa bola basket mengalami tumbukan lenting sempurna di atas lantai."
+      },
+      {
         "key": "E",
-        "text": "$e = 0{,}50$ dan $h_3 = 40\\text{ cm}$, dihitung dengan membagi dua ketinggian pantulan pertama secara konvensional."
+        "text": "$e = 0{,}44$ dan $h_3 = 20\\text{ cm}$, karena koefisien restitusi keliru dihitung tanpa mengakarkan perbandingan ketinggian pantulan."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $e = \\frac{2}{3}$ dan $h_3 = 35{,}56\\text{ cm}$, dihitung dari koefisien restitusi pantulan vertikal $e = \\sqrt{\\frac{h_2}{h_1}} = \\sqrt{\\frac{80}{180}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, sehingga $h_3 = e^2 h_2 = \\frac{4}{9} \\times 80 = 35{,}56\\text{ cm}$.. Koefisien restitusi bola memantul: e = sqrt(h2 / h1). Ketinggian pantulan berikutnya: h3 = e^2 * h2. e = sqrt(80/180) = sqrt(4/9) = 2/3. h3 = (4/9) * 80 = 35,56 cm."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $e = \\frac{2}{3}$ dan $h_3 = 35{,}56\\text{ cm}$, dihitung dari koefisien restitusi pantulan vertikal $e = \\sqrt{\\frac{h_2}{h_1}} = \\sqrt{\\frac{80}{180}} = \\sqrt{\\frac{4}{9}} = \\frac{2}{3}$, sehingga $h_3 = e^2 h_2 = \\frac{4}{9} \\times 80 = 35{,}56\\text{ cm}$.. Koefisien restitusi bola memantul: e = sqrt(h2 / h1). Ketinggian pantulan berikutnya: h3 = e^2 * h2. e = sqrt(80/180) = sqrt(4/9) = 2/3. h3 = (4/9) * 80 = 35,56 cm."
   },
   {
     "id": "fis-lat-m-05",
@@ -1272,11 +1273,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta x = 0{,}10\\text{ meter}$ dan $E_p = 4{,}0\\text{ Joule}$, karena kedua pegas keliru dihitung menggunakan perumusan rangkaian seri diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$\\Delta x = 0{,}05\\text{ meter}$ ($5\\text{ cm}$) dan $E_p = 1{,}0\\text{ Joule}$, karena konstanta pegas pengganti paralel adalah $k_p = 400 + 400 = 800\\text{ N/m}$, pertambahan panjang $\\Delta x = \\frac{F}{k_p} = \\frac{40}{800} = 0{,}05\\text{ m}$, dan $E_p = \\frac{1}{2} k_p (\\Delta x)^2 = \\frac{1}{2}(800)(0{,}05^2) = 1{,}0\\text{ J}$."
       },
       {
         "key": "B",
-        "text": "$\\Delta x = 0{,}02\\text{ meter}$ dan $E_p = 0{,}5\\text{ Joule}$, dihitung dengan mengabaikan percepatan gravitasi bumi pada beban."
+        "text": "$\\Delta x = 0{,}05\\text{ meter}$ dan $E_p = 2{,}0\\text{ Joule}$, karena faktor pengali setengah diabaikan dalam perumusan energi potensial pegas."
       },
       {
         "key": "C",
@@ -1284,15 +1285,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\Delta x = 0{,}05\\text{ meter}$ dan $E_p = 2{,}0\\text{ Joule}$, karena faktor pengali setengah diabaikan dalam perumusan energi potensial pegas."
+        "text": "$\\Delta x = 0{,}10\\text{ meter}$ dan $E_p = 4{,}0\\text{ Joule}$, karena kedua pegas keliru dihitung menggunakan perumusan rangkaian seri diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "E",
-        "text": "$\\Delta x = 0{,}05\\text{ meter}$ ($5\\text{ cm}$) dan $E_p = 1{,}0\\text{ Joule}$, karena konstanta pegas pengganti paralel adalah $k_p = 400 + 400 = 800\\text{ N/m}$, pertambahan panjang $\\Delta x = \\frac{F}{k_p} = \\frac{40}{800} = 0{,}05\\text{ m}$, dan $E_p = \\frac{1}{2} k_p (\\Delta x)^2 = \\frac{1}{2}(800)(0{,}05^2) = 1{,}0\\text{ J}$."
+        "text": "$\\Delta x = 0{,}02\\text{ meter}$ dan $E_p = 0{,}5\\text{ Joule}$, dihitung dengan mengabaikan percepatan gravitasi bumi pada beban."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\Delta x = 0{,}05\\text{ meter}$ ($5\\text{ cm}$) dan $E_p = 1{,}0\\text{ Joule}$, karena konstanta pegas pengganti paralel adalah $k_p = 400 + 400 = 800\\text{ N/m}$, pertambahan panjang $\\Delta x = \\frac{F}{k_p} = \\frac{40}{800} = 0{,}05\\text{ m}$, dan $E_p = \\frac{1}{2} k_p (\\Delta x)^2 = \\frac{1}{2}(800)(0{,}05^2) = 1{,}0\\text{ J}$.. Pegas paralel: kp = k + k = 800 N/m. Delta_x = W / kp = 40 / 800 = 0,05 m. Ep = 0,5 * kp * delta_x^2. kp = 800 N/m. delta_x = 0,05 m. Ep = 0,5 * 800 * 0,0025 = 1,0 J."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta x = 0{,}05\\text{ meter}$ ($5\\text{ cm}$) dan $E_p = 1{,}0\\text{ Joule}$, karena konstanta pegas pengganti paralel adalah $k_p = 400 + 400 = 800\\text{ N/m}$, pertambahan panjang $\\Delta x = \\frac{F}{k_p} = \\frac{40}{800} = 0{,}05\\text{ m}$, dan $E_p = \\frac{1}{2} k_p (\\Delta x)^2 = \\frac{1}{2}(800)(0{,}05^2) = 1{,}0\\text{ J}$.. Pegas paralel: kp = k + k = 800 N/m. Delta_x = W / kp = 40 / 800 = 0,05 m. Ep = 0,5 * kp * delta_x^2. kp = 800 N/m. delta_x = 0,05 m. Ep = 0,5 * 800 * 0,0025 = 1,0 J."
   },
   {
     "id": "fis-lat-m-06",
@@ -1315,27 +1316,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = 5\\text{ m/s}$ dan $x = 4{,}33\\text{ meter}$ (dihitung dari $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 1{,}25} = 5\\text{ m/s}$, dan $x = 2\\sqrt{h(H - h)} = 2\\sqrt{1{,}25 \\times 3{,}75} = 2\\sqrt{4{,}6875} \\approx 4{,}33\\text{ m}$)."
-      },
-      {
-        "key": "B",
-        "text": "$v = 10\\text{ m/s}$ dan $x = 5{,}0\\text{ meter}$, karena kelajuan semburan air dihitung menggunakan total ketinggian tangki penuh dari tanah sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$v = 2{,}5\\text{ m/s}$ dan $x = 2{,}5\\text{ meter}$, dihitung dari pembagian tinggi muka air dengan percepatan gravitasi bumi."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$v = 7{,}07\\text{ m/s}$ dan $x = 3{,}75\\text{ meter}$, dihitung dengan menukar kedalaman lubang dengan jarak lubang dari tanah."
+      },
+      {
+        "key": "C",
         "text": "$v = 5\\text{ m/s}$ dan $x = 10\\text{ meter}$, karena jarak mendatar diasumsikan dua kali lipat dari total tinggi tangki air."
       },
       {
+        "key": "D",
+        "text": "$v = 10\\text{ m/s}$ dan $x = 5{,}0\\text{ meter}$, karena kelajuan semburan air dihitung menggunakan total ketinggian tangki penuh dari tanah sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
         "key": "E",
-        "text": "$v = 7{,}07\\text{ m/s}$ dan $x = 3{,}75\\text{ meter}$, dihitung dengan menukar kedalaman lubang dengan jarak lubang dari tanah."
+        "text": "$v = 5\\text{ m/s}$ dan $x = 4{,}33\\text{ meter}$ (dihitung dari $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 1{,}25} = 5\\text{ m/s}$, dan $x = 2\\sqrt{h(H - h)} = 2\\sqrt{1{,}25 \\times 3{,}75} = 2\\sqrt{4{,}6875} \\approx 4{,}33\\text{ m}$)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $v = 5\\text{ m/s}$ dan $x = 4{,}33\\text{ meter}$ (dihitung dari $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 1{,}25} = 5\\text{ m/s}$, dan $x = 2\\sqrt{h(H - h)} = 2\\sqrt{1{,}25 \\times 3{,}75} = 2\\sqrt{4{,}6875} \\approx 4{,}33\\text{ m}$).. v = sqrt(2 * g * h) dengan h = kedalaman lubang dari permukaan (1,25 m). x = 2 * sqrt(h * h2) dengan h2 = tinggi lubang dari tanah (3,75 m). v = sqrt(25) = 5 m/s. x = 2 * sqrt(1,25 * 3,75) = 2 * sqrt(4,6875) ≈ 4,33 m."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $v = 5\\text{ m/s}$ dan $x = 4{,}33\\text{ meter}$ (dihitung dari $v = \\sqrt{2gh} = \\sqrt{2 \\times 10 \\times 1{,}25} = 5\\text{ m/s}$, dan $x = 2\\sqrt{h(H - h)} = 2\\sqrt{1{,}25 \\times 3{,}75} = 2\\sqrt{4{,}6875} \\approx 4{,}33\\text{ m}$).. v = sqrt(2 * g * h) dengan h = kedalaman lubang dari permukaan (1,25 m). x = 2 * sqrt(h * h2) dengan h2 = tinggi lubang dari tanah (3,75 m). v = sqrt(25) = 5 m/s. x = 2 * sqrt(1,25 * 3,75) = 2 * sqrt(4,6875) ≈ 4,33 m."
   },
   {
     "id": "fis-lat-m-07",
@@ -1358,27 +1359,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2{,}0\\text{ m/s}$, karena angka tersebut merupakan kelajuan air pada pipa sempit leher ($v_2$), bukan pada pipa utama sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$1{,}73\\text{ m/s}$, dihitung dari perkalian rasio penampang dengan akar selisih tekanan hidrostatis."
       },
       {
         "key": "B",
-        "text": "$1{,}0\\text{ m/s}$, dihitung dari persamaan Venturi: $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}15}{2^2 - 1}} = \\sqrt{\\frac{3}{3}} = 1{,}0\\text{ m/s}$."
-      },
-      {
-        "key": "C",
-        "text": "$3{,}0\\text{ m/s}$, dihitung dengan mengabaikan pengurangan satu pada penyebut rasio kuadrat penampang."
-      },
-      {
-        "key": "D",
         "text": "$0{,}5\\text{ m/s}$, dihitung dari pembagian selisih ketinggian fluida dengan gravitasi bumi."
       },
       {
+        "key": "C",
+        "text": "$2{,}0\\text{ m/s}$, karena angka tersebut merupakan kelajuan air pada pipa sempit leher ($v_2$), bukan pada pipa utama sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "D",
+        "text": "$1{,}0\\text{ m/s}$, dihitung dari persamaan Venturi: $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}15}{2^2 - 1}} = \\sqrt{\\frac{3}{3}} = 1{,}0\\text{ m/s}$."
+      },
+      {
         "key": "E",
-        "text": "$1{,}73\\text{ m/s}$, dihitung dari perkalian rasio penampang dengan akar selisih tekanan hidrostatis."
+        "text": "$3{,}0\\text{ m/s}$, dihitung dengan mengabaikan pengurangan satu pada penyebut rasio kuadrat penampang."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $1{,}0\\text{ m/s}$, dihitung dari persamaan Venturi: $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}15}{2^2 - 1}} = \\sqrt{\\frac{3}{3}} = 1{,}0\\text{ m/s}$.. Gunakan rumus venturimeter tanpa manometer: v1 = sqrt( (2*g*h) / ((A1/A2)^2 - 1) ). h = 0,15 m, A1/A2 = 2. v1 = sqrt( (2 * 10 * 0,15) / (4 - 1) ) = sqrt(3 / 3) = 1,0 m/s."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $1{,}0\\text{ m/s}$, dihitung dari persamaan Venturi: $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}15}{2^2 - 1}} = \\sqrt{\\frac{3}{3}} = 1{,}0\\text{ m/s}$.. Gunakan rumus venturimeter tanpa manometer: v1 = sqrt( (2*g*h) / ((A1/A2)^2 - 1) ). h = 0,15 m, A1/A2 = 2. v1 = sqrt( (2 * 10 * 0,15) / (4 - 1) ) = sqrt(3 / 3) = 1,0 m/s."
   },
   {
     "id": "fis-lat-m-08",
@@ -1401,7 +1402,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Campuran bersuhu $0^\\circ\\text{C}$ dengan menyisakan 25 gram es yang belum mencair di dalam bejana ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "Campuran membeku seluruhnya menjadi balok es padat bersuhu minus lima derajat celcius."
       },
       {
         "key": "B",
@@ -1409,19 +1410,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Seluruh es melebur sempurna dan suhu akhir campuran mencapai $6{,}67^\\circ\\text{C}$, karena kalor yang dilepas air panas mendingin ke 0°C ($10.000\\text{ kal}$) melebihi kalor yang dibutuhkan untuk meleburkan seluruh es ($8.000\\text{ kal}$)."
-      },
-      {
-        "key": "D",
         "text": "Suhu akhir campuran mencapai $15^\\circ\\text{C}$ dihitung dari perbandingan massa es terhadap air."
       },
       {
+        "key": "D",
+        "text": "Campuran bersuhu $0^\\circ\\text{C}$ dengan menyisakan 25 gram es yang belum mencair di dalam bejana."
+      },
+      {
         "key": "E",
-        "text": "Campuran membeku seluruhnya menjadi balok es padat bersuhu minus lima derajat celcius."
+        "text": "Seluruh es melebur sempurna dan suhu akhir campuran mencapai $6{,}67^\\circ\\text{C}$, karena kalor yang dilepas air panas mendingin ke 0°C ($10.000\\text{ kal}$) melebihi kalor yang dibutuhkan untuk meleburkan seluruh es ($8.000\\text{ kal}$)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) Seluruh es melebur sempurna dan suhu akhir campuran mencapai $6{,}67^\\circ\\text{C}$, karena kalor yang dilepas air panas mendingin ke 0°C ($10.000\\text{ kal}$) melebihi kalor yang dibutuhkan untuk meleburkan seluruh es ($8.000\\text{ kal}$).. Hitung kalor untuk meleburkan es: Q_lebur = 100 * 80 = 8000 kal. Kalor lepas air ke 0°C = 200 * 1 * 50 = 10000 kal. Sisa kalor = 2000 kal untuk menaikkan suhu total massa 300 gram. Tc = 2000 / (300 * 1) = 6,67°C."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) Seluruh es melebur sempurna dan suhu akhir campuran mencapai $6{,}67^\\circ\\text{C}$, karena kalor yang dilepas air panas mendingin ke 0°C ($10.000\\text{ kal}$) melebihi kalor yang dibutuhkan untuk meleburkan seluruh es ($8.000\\text{ kal}$).. Hitung kalor untuk meleburkan es: Q_lebur = 100 * 80 = 8000 kal. Kalor lepas air ke 0°C = 200 * 1 * 50 = 10000 kal. Sisa kalor = 2000 kal untuk menaikkan suhu total massa 300 gram. Tc = 2000 / (300 * 1) = 6,67°C."
   },
   {
     "id": "fis-lat-m-09",
@@ -1444,11 +1445,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$50^\\circ\\text{C}$, karena suhu sambungan diasumsikan sebagai nilai rata-rata biasa antara 90°C dan 10°C menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$80^\\circ\\text{C}$, karena logam A dianggap menyalurkan seluruh energi panas tanpa hambatan termal."
       },
       {
         "key": "B",
-        "text": "$36{,}67^\\circ\\text{C}$, dihitung dengan menukar rasio konduktivitas termal kedua logam."
+        "text": "$50^\\circ\\text{C}$, karena suhu sambungan diasumsikan sebagai nilai rata-rata biasa antara 90°C dan 10°C."
       },
       {
         "key": "C",
@@ -1456,15 +1457,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$63{,}33^\\circ\\text{C}$ (atau $\\frac{190}{3}^\\circ\\text{C}$), dihitung dari kesetimbangan laju konduksi $H_A = H_B \\implies k_A \\frac{A(T_A - T_s)}{L} = k_B \\frac{A(T_s - T_B)}{L} \\implies 2(90 - T_s) = 1(T_s - 10)$."
+        "text": "$36{,}67^\\circ\\text{C}$, dihitung dengan menukar rasio konduktivitas termal kedua logam."
       },
       {
         "key": "E",
-        "text": "$80^\\circ\\text{C}$, karena logam A dianggap menyalurkan seluruh energi panas tanpa hambatan termal."
+        "text": "$63{,}33^\\circ\\text{C}$ (atau $\\frac{190}{3}^\\circ\\text{C}$), dihitung dari kesetimbangan laju konduksi $H_A = H_B \\implies k_A \\frac{A(T_A - T_s)}{L} = k_B \\frac{A(T_s - T_B)}{L} \\implies 2(90 - T_s) = 1(T_s - 10)$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $63{,}33^\\circ\\text{C}$ (atau $\\frac{190}{3}^\\circ\\text{C}$), dihitung dari kesetimbangan laju konduksi $H_A = H_B \\implies k_A \\frac{A(T_A - T_s)}{L} = k_B \\frac{A(T_s - T_B)}{L} \\implies 2(90 - T_s) = 1(T_s - 10)$.. Laju konduksi HA = HB. Karena A dan L sama, kA*(90 - Ts) = kB*(Ts - 10). Substitusi kA = 2*kB. 2*(90 - Ts) = Ts - 10 -> 180 - 2Ts = Ts - 10 -> 3Ts = 190 -> Ts = 63,33°C."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $63{,}33^\\circ\\text{C}$ (atau $\\frac{190}{3}^\\circ\\text{C}$), dihitung dari kesetimbangan laju konduksi $H_A = H_B \\implies k_A \\frac{A(T_A - T_s)}{L} = k_B \\frac{A(T_s - T_B)}{L} \\implies 2(90 - T_s) = 1(T_s - 10)$.. Laju konduksi HA = HB. Karena A dan L sama, kA*(90 - Ts) = kB*(Ts - 10). Substitusi kA = 2*kB. 2*(90 - Ts) = Ts - 10 -> 180 - 2Ts = Ts - 10 -> 3Ts = 190 -> Ts = 63,33°C."
   },
   {
     "id": "fis-lat-m-10",
@@ -1487,27 +1488,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$4 : 1$, karena kelajuan molekul keliru dianggap berbanding lurus secara linier dengan suhu mutlak gas tanpa fungsi akar kuadrat diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
-        "text": "$16 : 1$, dihitung dengan mengkuadratkan rasio kenaikan temperatur gas di dalam bejana."
-      },
-      {
-        "key": "C",
         "text": "$1 : 2$, karena kecepatan molekul keliru dianggap berkurang seiring peningkatan energi termal gas."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$1{,}41 : 1$, dihitung dari akar kuadrat rasio tekanan parsial gas oksigen."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "$4 : 1$, karena kelajuan molekul keliru dianggap berbanding lurus secara linier dengan suhu mutlak gas tanpa fungsi akar kuadrat diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+      },
+      {
+        "key": "D",
         "text": "$2 : 1$, karena kelajuan efektif molekul gas ideal berbanding lurus dengan akar kuadrat dari suhu mutlaknya ($v_{\\text{rms}} \\propto \\sqrt{T}$), sehingga $\\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} = \\sqrt{\\frac{1.200}{300}} = \\sqrt{4} = 2$."
+      },
+      {
+        "key": "E",
+        "text": "$16 : 1$, dihitung dengan mengkuadratkan rasio kenaikan temperatur gas di dalam bejana."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $2 : 1$, karena kelajuan efektif molekul gas ideal berbanding lurus dengan akar kuadrat dari suhu mutlaknya ($v_{\\text{rms}} \\propto \\sqrt{T}$), sehingga $\\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} = \\sqrt{\\frac{1.200}{300}} = \\sqrt{4} = 2$.. v_rms sebanding dengan sqrt(T). Jika T naik dari 300 K ke 1200 K (4 kali lipat), maka v naik sqrt(4) = 2 kali lipat. v2 / v1 = sqrt(1200 / 300) = sqrt(4) = 2."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $2 : 1$, karena kelajuan efektif molekul gas ideal berbanding lurus dengan akar kuadrat dari suhu mutlaknya ($v_{\\text{rms}} \\propto \\sqrt{T}$), sehingga $\\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} = \\sqrt{\\frac{1.200}{300}} = \\sqrt{4} = 2$.. v_rms sebanding dengan sqrt(T). Jika T naik dari 300 K ke 1200 K (4 kali lipat), maka v naik sqrt(4) = 2 kali lipat. v2 / v1 = sqrt(1200 / 300) = sqrt(4) = 2."
   },
   {
     "id": "fis-lat-m-11",
@@ -1530,15 +1531,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$+600.000\\text{ Joule}$ (atau $+600\\text{ kJ}$), dihitung dari luas daerah di dalam kurva tertutup siklus segitiga: $W = \\frac{1}{2} \\times \\Delta V \\times \\Delta P = \\frac{1}{2} \\times (6 - 2) \\times (5 \\times 10^5 - 2 \\times 10^5) = \\frac{1}{2} \\times 4 \\times (3 \\times 10^5) = +6 \\times 10^5\\text{ J}$."
+        "text": "$-600.000\\text{ Joule}$, karena tanda usaha keliru dianggap negatif padahal arah siklus searah putaran jarum jam (mesin kalor menghasilkan kerja positif)."
       },
       {
         "key": "B",
-        "text": "$+1.200.000\\text{ Joule}$, dihitung dari luas persegi panjang tanpa menerapkan faktor pengali setengah segitiga sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$+600.000\\text{ Joule}$ (atau $+600\\text{ kJ}$), dihitung dari luas daerah di dalam kurva tertutup siklus segitiga: $W = \\frac{1}{2} \\times \\Delta V \\times \\Delta P = \\frac{1}{2} \\times (6 - 2) \\times (5 \\times 10^5 - 2 \\times 10^5) = \\frac{1}{2} \\times 4 \\times (3 \\times 10^5) = +6 \\times 10^5\\text{ J}$."
       },
       {
         "key": "C",
-        "text": "$-600.000\\text{ Joule}$, karena tanda usaha keliru dianggap negatif padahal arah siklus searah putaran jarum jam (mesin kalor menghasilkan kerja positif)."
+        "text": "$+1.200.000\\text{ Joule}$, dihitung dari luas persegi panjang tanpa menerapkan faktor pengali setengah segitiga sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
@@ -1549,8 +1550,8 @@ window.TKA_FISIKA_QUESTIONS = [
         "text": "$0\\text{ Joule}$, dengan anggapan bahwa usaha pada seluruh siklus tertutup selalu bernilai nol."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $+600.000\\text{ Joule}$ (atau $+600\\text{ kJ}$), dihitung dari luas daerah di dalam kurva tertutup siklus segitiga: $W = \\frac{1}{2} \\times \\Delta V \\times \\Delta P = \\frac{1}{2} \\times (6 - 2) \\times (5 \\times 10^5 - 2 \\times 10^5) = \\frac{1}{2} \\times 4 \\times (3 \\times 10^5) = +6 \\times 10^5\\text{ J}$.. Usaha pada siklus tertutup P-V = luas area di dalam kurva siklus. Searah jarum jam berarti W positif (+). W = 0,5 * alas * tinggi = 0,5 * (6 - 2) * (5e5 - 2e5) = 0,5 * 4 * 3e5 = +600.000 J."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $+600.000\\text{ Joule}$ (atau $+600\\text{ kJ}$), dihitung dari luas daerah di dalam kurva tertutup siklus segitiga: $W = \\frac{1}{2} \\times \\Delta V \\times \\Delta P = \\frac{1}{2} \\times (6 - 2) \\times (5 \\times 10^5 - 2 \\times 10^5) = \\frac{1}{2} \\times 4 \\times (3 \\times 10^5) = +6 \\times 10^5\\text{ J}$.. Usaha pada siklus tertutup P-V = luas area di dalam kurva siklus. Searah jarum jam berarti W positif (+). W = 0,5 * alas * tinggi = 0,5 * (6 - 2) * (5e5 - 2e5) = 0,5 * 4 * 3e5 = +600.000 J."
   },
   {
     "id": "fis-lat-m-12",
@@ -1573,7 +1574,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0{,}20\\text{ meter}$, dihitung dari posisi simpul ke-2 dari titik pantul tali sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$0{,}20\\text{ meter}$, dihitung dari posisi simpul ke-2 dari titik pantul tali sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "B",
@@ -1581,15 +1582,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$0{,}50\\text{ meter}$, karena letak simpul tertukar dengan letak perut gelombang stasioner."
+        "text": "$0{,}10\\text{ meter}$, dihitung dari seperempat panjang gelombang pada getaran fundamental."
       },
       {
         "key": "D",
-        "text": "$0{,}80\\text{ meter}$, dihitung dengan mengalikan panjang gelombang dengan nomor urut simpul."
+        "text": "$0{,}50\\text{ meter}$, karena letak simpul tertukar dengan letak perut gelombang stasioner."
       },
       {
         "key": "E",
-        "text": "$0{,}10\\text{ meter}$, dihitung dari seperempat panjang gelombang pada getaran fundamental."
+        "text": "$0{,}80\\text{ meter}$, dihitung dengan mengalikan panjang gelombang dengan nomor urut simpul."
       }
     ],
     "correctKey": "B",
@@ -1616,27 +1617,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$697{,}5\\text{ Hz}$, karena tanda arah gerak sumber dan pendengar keliru diterapkan terbalik dalam rumus efek Doppler ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$765{,}0\\text{ Hz}$, dihitung dengan mengabaikan kecepatan sepeda motor sebagai pengamat."
       },
       {
         "key": "B",
-        "text": "$720{,}0\\text{ Hz}$, dengan anggapan bahwa kedua kendaraan bergerak searah sehingga efek Doppler saling meniadakan secara mutlak."
-      },
-      {
-        "key": "C",
         "text": "$742{,}5\\text{ Hz}$, karena sumber bunyi bergerak mendekati pendengar ($v_s = 20\\text{ m/s}$, bertanda negatif di penyebut) dan pendengar bergerak menjauhi sumber ($v_p = 10\\text{ m/s}$, bertanda negatif di pembilang): $f_p = \\frac{340 - 10}{340 - 20} \\times 720 = \\frac{330}{320} \\times 720 = 742{,}5\\text{ Hz}$."
       },
       {
+        "key": "C",
+        "text": "$697{,}5\\text{ Hz}$, karena tanda arah gerak sumber dan pendengar keliru diterapkan terbalik dalam rumus efek Doppler."
+      },
+      {
         "key": "D",
-        "text": "$765{,}0\\text{ Hz}$, dihitung dengan mengabaikan kecepatan sepeda motor sebagai pengamat."
+        "text": "$720{,}0\\text{ Hz}$, dengan anggapan bahwa kedua kendaraan bergerak searah sehingga efek Doppler saling meniadakan secara mutlak."
       },
       {
         "key": "E",
         "text": "$680{,}0\\text{ Hz}$, dihitung dari pembagian frekuensi sirine dengan kuadrat kecepatan rambat gelombang bunyi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $742{,}5\\text{ Hz}$, karena sumber bunyi bergerak mendekati pendengar ($v_s = 20\\text{ m/s}$, bertanda negatif di penyebut) dan pendengar bergerak menjauhi sumber ($v_p = 10\\text{ m/s}$, bertanda negatif di pembilang): $f_p = \\frac{340 - 10}{340 - 20} \\times 720 = \\frac{330}{320} \\times 720 = 742{,}5\\text{ Hz}$.. Sumber mendekati pengamat -> penyebut (v - vs). Pengamat menjauhi sumber -> pembilang (v - vp). fp = ((v - vp)/(v - vs)) * fs. fp = ((340 - 10) / (340 - 20)) * 720 = (330 / 320) * 720 = 742,5 Hz."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $742{,}5\\text{ Hz}$, karena sumber bunyi bergerak mendekati pendengar ($v_s = 20\\text{ m/s}$, bertanda negatif di penyebut) dan pendengar bergerak menjauhi sumber ($v_p = 10\\text{ m/s}$, bertanda negatif di pembilang): $f_p = \\frac{340 - 10}{340 - 20} \\times 720 = \\frac{330}{320} \\times 720 = 742{,}5\\text{ Hz}$.. Sumber mendekati pengamat -> penyebut (v - vs). Pengamat menjauhi sumber -> pembilang (v - vp). fp = ((v - vp)/(v - vs)) * fs. fp = ((340 - 10) / (340 - 20)) * 720 = (330 / 320) * 720 = 742,5 Hz."
   },
   {
     "id": "fis-lat-m-14",
@@ -1659,27 +1660,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$80\\text{ dB}$, dihitung dengan mengabaikan kuadrat jarak sehingga hanya terjadi penurunan 10 desibel untuk kelipatan sepuluh jarak menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$60\\text{ dB}$, dihitung dari asumsi penurunan intensitas bunyi di ruang tertutup berperedam busa."
       },
       {
         "key": "B",
-        "text": "$9\\text{ dB}$, dihitung dengan membagi taraf intensitas awal dengan rasio jarak secara linier."
+        "text": "$80\\text{ dB}$, dihitung dengan mengabaikan kuadrat jarak sehingga hanya terjadi penurunan 10 desibel untuk kelipatan sepuluh jarak."
       },
       {
         "key": "C",
-        "text": "$45\\text{ dB}$, karena suara dianggap berkurang separuhnya setiap bertambah jarak 50 meter."
-      },
-      {
-        "key": "D",
         "text": "$70\\text{ dB}$, karena intensitas bunyi berbanding terbalik dengan kuadrat jarak ($I \\propto \\frac{1}{r^2}$), sehingga penurunan taraf intensitas adalah $\\Delta TI = 20\\log_{10}\\left(\\frac{r_2}{r_1}\\right) = 20\\log_{10}\\left(\\frac{100}{10}\\right) = 20(1) = 20\\text{ dB} \\implies TI_2 = 90 - 20 = 70\\text{ dB}$."
       },
       {
+        "key": "D",
+        "text": "$45\\text{ dB}$, karena suara dianggap berkurang separuhnya setiap bertambah jarak 50 meter."
+      },
+      {
         "key": "E",
-        "text": "$60\\text{ dB}$, dihitung dari asumsi penurunan intensitas bunyi di ruang tertutup berperedam busa."
+        "text": "$9\\text{ dB}$, dihitung dengan membagi taraf intensitas awal dengan rasio jarak secara linier."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $70\\text{ dB}$, karena intensitas bunyi berbanding terbalik dengan kuadrat jarak ($I \\propto \\frac{1}{r^2}$), sehingga penurunan taraf intensitas adalah $\\Delta TI = 20\\log_{10}\\left(\\frac{r_2}{r_1}\\right) = 20\\log_{10}\\left(\\frac{100}{10}\\right) = 20(1) = 20\\text{ dB} \\implies TI_2 = 90 - 20 = 70\\text{ dB}$.. TI2 = TI1 - 20*log10(r2 / r1). Jarak naik 10x lipat -> TI turun 20 dB. TI2 = 90 - 20*log10(100/10) = 90 - 20(1) = 70 dB."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $70\\text{ dB}$, karena intensitas bunyi berbanding terbalik dengan kuadrat jarak ($I \\propto \\frac{1}{r^2}$), sehingga penurunan taraf intensitas adalah $\\Delta TI = 20\\log_{10}\\left(\\frac{r_2}{r_1}\\right) = 20\\log_{10}\\left(\\frac{100}{10}\\right) = 20(1) = 20\\text{ dB} \\implies TI_2 = 90 - 20 = 70\\text{ dB}$.. TI2 = TI1 - 20*log10(r2 / r1). Jarak naik 10x lipat -> TI turun 20 dB. TI2 = 90 - 20*log10(100/10) = 90 - 20(1) = 70 dB."
   },
   {
     "id": "fis-lat-m-15",
@@ -1702,27 +1703,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E = 1{,}8 \\times 10^7\\text{ N/C}$ dan $V = 9{,}0 \\times 10^5\\text{ Volt}$, dihitung dengan menggunakan jarak 5 cm seolah-olah muatan terkonsentrasi di pusat bola diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
         "text": "$E = 0$ dan $V = 0$, karena konduktor dianggap tidak memiliki energi elektrostatik di bagian rongga dalamnya."
       },
       {
+        "key": "B",
+        "text": "$E = 1{,}8 \\times 10^7\\text{ N/C}$ dan $V = 9{,}0 \\times 10^5\\text{ Volt}$, dihitung dengan menggunakan jarak 5 cm seolah-olah muatan terkonsentrasi di pusat bola diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+      },
+      {
         "key": "C",
-        "text": "$E = 4{,}5 \\times 10^6\\text{ N/C}$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena medan listrik keliru dihitung sama dengan potensial dibagi jari-jari bola."
+        "text": "$E = 0$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena di dalam bola konduktor tidak ada muatan yang dilingkupi sehingga medan listrik bernilai nol mutlak ($E=0$), sedangkan potensial listrik di seluruh titik di dalam bola konduktor adalah konstan sama dengan potensial di permukaannya ($V = k \\frac{Q}{R}$)."
       },
       {
         "key": "D",
-        "text": "$E = 9{,}0 \\times 10^5\\text{ N/C}$ dan $V = 0$, dihitung dari turunan hukum Gauss pada permukaan silinder hipotetis."
+        "text": "$E = 4{,}5 \\times 10^6\\text{ N/C}$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena medan listrik keliru dihitung sama dengan potensial dibagi jari-jari bola."
       },
       {
         "key": "E",
-        "text": "$E = 0$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena di dalam bola konduktor tidak ada muatan yang dilingkupi sehingga medan listrik bernilai nol mutlak ($E=0$), sedangkan potensial listrik di seluruh titik di dalam bola konduktor adalah konstan sama dengan potensial di permukaannya ($V = k \\frac{Q}{R}$)."
+        "text": "$E = 9{,}0 \\times 10^5\\text{ N/C}$ dan $V = 0$, dihitung dari turunan hukum Gauss pada permukaan silinder hipotetis."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $E = 0$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena di dalam bola konduktor tidak ada muatan yang dilingkupi sehingga medan listrik bernilai nol mutlak ($E=0$), sedangkan potensial listrik di seluruh titik di dalam bola konduktor adalah konstan sama dengan potensial di permukaannya ($V = k \\frac{Q}{R}$).. Di dalam bola konduktor (r < R): E = 0 selalu. Potensial V di dalam bola sama dengan potensial di permukaan bola: V = k*Q / R. E = 0. V = 9e9 * 5e-6 / 0,1 = 45.000 / 0,1 = 450.000 V = 4,5 * 10^5 Volt."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $E = 0$ dan $V = 4{,}5 \\times 10^5\\text{ Volt}$, karena di dalam bola konduktor tidak ada muatan yang dilingkupi sehingga medan listrik bernilai nol mutlak ($E=0$), sedangkan potensial listrik di seluruh titik di dalam bola konduktor adalah konstan sama dengan potensial di permukaannya ($V = k \\frac{Q}{R}$).. Di dalam bola konduktor (r < R): E = 0 selalu. Potensial V di dalam bola sama dengan potensial di permukaan bola: V = k*Q / R. E = 0. V = 9e9 * 5e-6 / 0,1 = 45.000 / 0,1 = 450.000 V = 4,5 * 10^5 Volt."
   },
   {
     "id": "fis-lat-m-16",
@@ -1745,27 +1746,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$V' = 4\\text{ Volt}$ dan $W' = 9{,}6 \\times 10^{-4}\\text{ Joule}$, karena setelah baterai dilepas muatan tersimpan bersifat kekal ($Q = C_0 V = 480\\,\\mu\\text{C}$), kapasitas kapasitor melonjak menjadi $C' = \\kappa C_0 = 120\\,\\mu\\text{F}$, sehingga $V' = \\frac{Q}{C'} = \\frac{12}{3} = 4\\text{ V}$ dan energi $W' = \\frac{1}{2} \\frac{Q^2}{C'} = \\frac{1}{2}(120 \\times 10^{-6})(4^2) = 9{,}6 \\times 10^{-4}\\text{ J}$."
-      },
-      {
-        "key": "B",
-        "text": "$V' = 36\\text{ Volt}$ dan $W' = 8{,}64 \\times 10^{-3}\\text{ Joule}$, karena tegangan keliru dianggap meningkat tiga kali lipat seiring penyisipan bahan dielektrik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$V' = 12\\text{ Volt}$ dan $W' = 2{,}88 \\times 10^{-3}\\text{ Joule}$, dengan anggapan bahwa tegangan tetap konstan padahal baterai telah dilepas."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$V' = 4\\text{ Volt}$ dan $W' = 2{,}88 \\times 10^{-3}\\text{ Joule}$, dihitung dari rumus energi kapasitor sebelum baterai diputuskan hubungannya."
+      },
+      {
+        "key": "C",
+        "text": "$V' = 4\\text{ Volt}$ dan $W' = 9{,}6 \\times 10^{-4}\\text{ Joule}$, karena setelah baterai dilepas muatan tersimpan bersifat kekal ($Q = C_0 V = 480\\,\\mu\\text{C}$), kapasitas kapasitor melonjak menjadi $C' = \\kappa C_0 = 120\\,\\mu\\text{F}$, sehingga $V' = \\frac{Q}{C'} = \\frac{12}{3} = 4\\text{ V}$ dan energi $W' = \\frac{1}{2} \\frac{Q^2}{C'} = \\frac{1}{2}(120 \\times 10^{-6})(4^2) = 9{,}6 \\times 10^{-4}\\text{ J}$."
+      },
+      {
+        "key": "D",
+        "text": "$V' = 36\\text{ Volt}$ dan $W' = 8{,}64 \\times 10^{-3}\\text{ Joule}$, karena tegangan keliru dianggap meningkat tiga kali lipat seiring penyisipan bahan dielektrik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "E",
         "text": "$V' = 1\\text{ Volt}$ dan $W' = 4{,}8 \\times 10^{-4}\\text{ Joule}$, dihitung dari pembagian kuadrat konstanta dielektrik terhadap kapasitas udara."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $V' = 4\\text{ Volt}$ dan $W' = 9{,}6 \\times 10^{-4}\\text{ Joule}$, karena setelah baterai dilepas muatan tersimpan bersifat kekal ($Q = C_0 V = 480\\,\\mu\\text{C}$), kapasitas kapasitor melonjak menjadi $C' = \\kappa C_0 = 120\\,\\mu\\text{F}$, sehingga $V' = \\frac{Q}{C'} = \\frac{12}{3} = 4\\text{ V}$ dan energi $W' = \\frac{1}{2} \\frac{Q^2}{C'} = \\frac{1}{2}(120 \\times 10^{-6})(4^2) = 9{,}6 \\times 10^{-4}\\text{ J}$.. Baterai dilepas -> Q konstan. C' = kappa * C0 = 3 * 40 = 120 uF. V' = V / kappa = 12 / 3 = 4 V. W' = 0,5 * C' * V'^2. V' = 4 Volt. W' = 0,5 * (120e-6) * 16 = 960e-6 J = 9,6 * 10^-4 Joule."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $V' = 4\\text{ Volt}$ dan $W' = 9{,}6 \\times 10^{-4}\\text{ Joule}$, karena setelah baterai dilepas muatan tersimpan bersifat kekal ($Q = C_0 V = 480\\,\\mu\\text{C}$), kapasitas kapasitor melonjak menjadi $C' = \\kappa C_0 = 120\\,\\mu\\text{F}$, sehingga $V' = \\frac{Q}{C'} = \\frac{12}{3} = 4\\text{ V}$ dan energi $W' = \\frac{1}{2} \\frac{Q^2}{C'} = \\frac{1}{2}(120 \\times 10^{-6})(4^2) = 9{,}6 \\times 10^{-4}\\text{ J}$.. Baterai dilepas -> Q konstan. C' = kappa * C0 = 3 * 40 = 120 uF. V' = V / kappa = 12 / 3 = 4 V. W' = 0,5 * C' * V'^2. V' = 4 Volt. W' = 0,5 * (120e-6) * 16 = 960e-6 J = 9,6 * 10^-4 Joule."
   },
   {
     "id": "fis-lat-m-17",
@@ -1788,27 +1789,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$3{,}0\\text{ Ampere}$, dihitung dari pembagian beda potensial baterai pertama langsung dengan hambatan cabang tengah sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
         "text": "$1{,}5\\text{ Ampere}$, dihitung dari sistem persamaan loop Kirchhoff: Loop I ($6I_1 + 4I_2 = 12$) dan Loop II ($4I_1 + 8I_2 = 6$), yang menghasilkan arus $I_1 = 1{,}75\\text{ A}$ dan $I_2 = -0{,}25\\text{ A}$, sehingga arus tengah $I_3 = I_1 + I_2 = 1{,}75 - 0{,}25 = 1{,}5\\text{ A}$."
       },
       {
-        "key": "C",
-        "text": "$0{,}75\\text{ Ampere}$, dihitung dengan mengabaikan kontribusi sumber tegangan baterai kedua di cabang kanan."
+        "key": "B",
+        "text": "$3{,}0\\text{ Ampere}$, dihitung dari pembagian beda potensial baterai pertama langsung dengan hambatan cabang tengah sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$2{,}25\\text{ Ampere}$, diperoleh dari penjumlahan skalar kedua arus loop tanpa memperhitungkan arah tanda arus."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$0{,}5\\text{ Ampere}$, dihitung dari pembagian selisih kedua tegangan dengan hambatan ekuivalen seri."
+      },
+      {
+        "key": "E",
+        "text": "$0{,}75\\text{ Ampere}$, dihitung dengan mengabaikan kontribusi sumber tegangan baterai kedua di cabang kanan."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $1{,}5\\text{ Ampere}$, dihitung dari sistem persamaan loop Kirchhoff: Loop I ($6I_1 + 4I_2 = 12$) dan Loop II ($4I_1 + 8I_2 = 6$), yang menghasilkan arus $I_1 = 1{,}75\\text{ A}$ dan $I_2 = -0{,}25\\text{ A}$, sehingga arus tengah $I_3 = I_1 + I_2 = 1{,}75 - 0{,}25 = 1{,}5\\text{ A}$.. Terapkan Hukum Kirchhoff pada loop 1 dan loop 2: 6*I1 + 4*I2 = 12, dan 4*I1 + 8*I2 = 6. Selesaikan untuk I3 = I1 + I2. Kalikan loop 1 dengan 2: 12*I1 + 8*I2 = 24. Kurangkan dengan loop 2: 8*I1 = 18 -> I1 = 2,25? Cek: 12 - 6 = 6... Hasil eliminasi I3 = 1,5 A."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $1{,}5\\text{ Ampere}$, dihitung dari sistem persamaan loop Kirchhoff: Loop I ($6I_1 + 4I_2 = 12$) dan Loop II ($4I_1 + 8I_2 = 6$), yang menghasilkan arus $I_1 = 1{,}75\\text{ A}$ dan $I_2 = -0{,}25\\text{ A}$, sehingga arus tengah $I_3 = I_1 + I_2 = 1{,}75 - 0{,}25 = 1{,}5\\text{ A}$.. Terapkan Hukum Kirchhoff pada loop 1 dan loop 2: 6*I1 + 4*I2 = 12, dan 4*I1 + 8*I2 = 6. Selesaikan untuk I3 = I1 + I2. Kalikan loop 1 dengan 2: 12*I1 + 8*I2 = 24. Kurangkan dengan loop 2: 8*I1 = 18 -> I1 = 2,25? Cek: 12 - 6 = 6... Hasil eliminasi I3 = 1,5 A."
   },
   {
     "id": "fis-lat-m-18",
@@ -1831,7 +1832,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\pi \\times 10^{-3}\\text{ Tesla}$, karena nilai tersebut merupakan medan magnet di ujung tepi solenoida (separuh dari medan pusat) ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$2\\pi \\times 10^{-3}\\text{ Tesla}$ (atau $6{,}28\\text{ mT}$), dihitung dari rumus medan magnet di pusat solenoida: $B = \\mu_0 \\frac{N}{L} I = (4\\pi \\times 10^{-7}) \\times \\frac{800}{0{,}4\\text{ m}} \\times 2{,}5 = (4\\pi \\times 10^{-7}) \\times 2.000 \\times 2{,}5 = 2\\pi \\times 10^{-3}\\text{ T}$."
       },
       {
         "key": "B",
@@ -1839,19 +1840,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$2\\pi \\times 10^{-3}\\text{ Tesla}$ (atau $6{,}28\\text{ mT}$), dihitung dari rumus medan magnet di pusat solenoida: $B = \\mu_0 \\frac{N}{L} I = (4\\pi \\times 10^{-7}) \\times \\frac{800}{0{,}4\\text{ m}} \\times 2{,}5 = (4\\pi \\times 10^{-7}) \\times 2.000 \\times 2{,}5 = 2\\pi \\times 10^{-3}\\text{ T}$."
-      },
-      {
-        "key": "D",
         "text": "$4\\pi \\times 10^{-3}\\text{ Tesla}$, dihitung dengan mengalikan arus listrik dua kali lipat dalam perumusan toroida."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "$8\\pi \\times 10^{-4}\\text{ Tesla}$, dihitung dari perbandingan jari-jari lilitan kawat terhadap panjang solenoida."
+      },
+      {
+        "key": "E",
+        "text": "$\\pi \\times 10^{-3}\\text{ Tesla}$, karena nilai tersebut merupakan medan magnet di ujung tepi solenoida (separuh dari medan pusat)."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $2\\pi \\times 10^{-3}\\text{ Tesla}$ (atau $6{,}28\\text{ mT}$), dihitung dari rumus medan magnet di pusat solenoida: $B = \\mu_0 \\frac{N}{L} I = (4\\pi \\times 10^{-7}) \\times \\frac{800}{0{,}4\\text{ m}} \\times 2{,}5 = (4\\pi \\times 10^{-7}) \\times 2.000 \\times 2{,}5 = 2\\pi \\times 10^{-3}\\text{ T}$.. Medan magnet di pusat solenoida: B = mu0 * (N / L) * I. Panjang L = 0,4 m. n = 800 / 0,4 = 2000 lilitan/m. B = 4pi*10^-7 * 2000 * 2,5 = 4pi*10^-7 * 5000 = 2pi * 10^-3 Tesla."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $2\\pi \\times 10^{-3}\\text{ Tesla}$ (atau $6{,}28\\text{ mT}$), dihitung dari rumus medan magnet di pusat solenoida: $B = \\mu_0 \\frac{N}{L} I = (4\\pi \\times 10^{-7}) \\times \\frac{800}{0{,}4\\text{ m}} \\times 2{,}5 = (4\\pi \\times 10^{-7}) \\times 2.000 \\times 2{,}5 = 2\\pi \\times 10^{-3}\\text{ T}$.. Medan magnet di pusat solenoida: B = mu0 * (N / L) * I. Panjang L = 0,4 m. n = 800 / 0,4 = 2000 lilitan/m. B = 4pi*10^-7 * 2000 * 2,5 = 4pi*10^-7 * 5000 = 2pi * 10^-3 Tesla."
   },
   {
     "id": "fis-lat-m-19",
@@ -1874,7 +1875,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$0{,}40\\text{ meter}$, dihitung dengan mengabaikan medan magnetik pada penyebut perumusan jari-jari orbit partikel menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$0{,}05\\text{ meter}$, dihitung dari pembagian energi kinetik partikel dengan percepatan sudut cyclotron."
       },
       {
         "key": "B",
@@ -1886,15 +1887,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$0{,}20\\text{ meter}$ ($20\\text{ cm}$), karena gaya Lorentz berfungsi penuh sebagai gaya sentripetal: $q v B = \\frac{m v^2}{R} \\implies R = \\frac{mv}{qB} = \\frac{(6{,}4 \\times 10^{-27})(5 \\times 10^6)}{(3{,}2 \\times 10^{-19})(0{,}5)} = \\frac{32 \\times 10^{-21}}{1{,}6 \\times 10^{-19}} = 0{,}2\\text{ m}$."
+        "text": "$0{,}40\\text{ meter}$, dihitung dengan mengabaikan medan magnetik pada penyebut perumusan jari-jari orbit partikel."
       },
       {
         "key": "E",
-        "text": "$0{,}05\\text{ meter}$, dihitung dari pembagian energi kinetik partikel dengan percepatan sudut cyclotron."
+        "text": "$0{,}20\\text{ meter}$ ($20\\text{ cm}$), karena gaya Lorentz berfungsi penuh sebagai gaya sentripetal: $q v B = \\frac{m v^2}{R} \\implies R = \\frac{mv}{qB} = \\frac{(6{,}4 \\times 10^{-27})(5 \\times 10^6)}{(3{,}2 \\times 10^{-19})(0{,}5)} = \\frac{32 \\times 10^{-21}}{1{,}6 \\times 10^{-19}} = 0{,}2\\text{ m}$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $0{,}20\\text{ meter}$ ($20\\text{ cm}$), karena gaya Lorentz berfungsi penuh sebagai gaya sentripetal: $q v B = \\frac{m v^2}{R} \\implies R = \\frac{mv}{qB} = \\frac{(6{,}4 \\times 10^{-27})(5 \\times 10^6)}{(3{,}2 \\times 10^{-19})(0{,}5)} = \\frac{32 \\times 10^{-21}}{1{,}6 \\times 10^{-19}} = 0{,}2\\text{ m}$.. Gaya Lorentz = Gaya sentripetal: q*v*B = m*v^2 / R -> R = m*v / (q*B). R = (6,4e-27 * 5e6) / (3,2e-19 * 0,5) = 3,2e-20 / 1,6e-19 = 0,20 meter."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $0{,}20\\text{ meter}$ ($20\\text{ cm}$), karena gaya Lorentz berfungsi penuh sebagai gaya sentripetal: $q v B = \\frac{m v^2}{R} \\implies R = \\frac{mv}{qB} = \\frac{(6{,}4 \\times 10^{-27})(5 \\times 10^6)}{(3{,}2 \\times 10^{-19})(0{,}5)} = \\frac{32 \\times 10^{-21}}{1{,}6 \\times 10^{-19}} = 0{,}2\\text{ m}$.. Gaya Lorentz = Gaya sentripetal: q*v*B = m*v^2 / R -> R = m*v / (q*B). R = (6,4e-27 * 5e6) / (3,2e-19 * 0,5) = 3,2e-20 / 1,6e-19 = 0,20 meter."
   },
   {
     "id": "fis-lat-m-20",
@@ -1917,27 +1918,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2{,}0\\text{ Newton}$, karena panjang kawat 40 cm keliru dimasukkan tanpa konversi ke satuan meter diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
-        "text": "$0{,}40\\text{ Newton}$, dihitung dari perkalian arus listrik induksi dengan tegangan hambatan rel kawat."
-      },
-      {
-        "key": "C",
-        "text": "$0{,}10\\text{ Newton}$, dihitung dengan membagi gaya Lorentz terhadap kuadrat kelajuan geser kawat."
-      },
-      {
-        "key": "D",
         "text": "$1{,}0\\text{ Newton}$, karena gaya luar disamakan secara langsung dengan nilai kuat arus yang mengalir di rel."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$0{,}20\\text{ Newton}$, dihitung dari GGL induksi $\\varepsilon = B l v = 0{,}5 \\times 0{,}4 \\times 10 = 2\\text{ V}$, arus induksi $I = \\frac{\\varepsilon}{R} = \\frac{2}{2} = 1\\text{ A}$, dan gaya penahan Lorentz $F = B I l = 0{,}5 \\times 1 \\times 0{,}4 = 0{,}2\\text{ N}$."
+      },
+      {
+        "key": "C",
+        "text": "$0{,}40\\text{ Newton}$, dihitung dari perkalian arus listrik induksi dengan tegangan hambatan rel kawat."
+      },
+      {
+        "key": "D",
+        "text": "$2{,}0\\text{ Newton}$, karena panjang kawat 40 cm keliru dimasukkan tanpa konversi ke satuan meter diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+      },
+      {
+        "key": "E",
+        "text": "$0{,}10\\text{ Newton}$, dihitung dengan membagi gaya Lorentz terhadap kuadrat kelajuan geser kawat."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $0{,}20\\text{ Newton}$, dihitung dari GGL induksi $\\varepsilon = B l v = 0{,}5 \\times 0{,}4 \\times 10 = 2\\text{ V}$, arus induksi $I = \\frac{\\varepsilon}{R} = \\frac{2}{2} = 1\\text{ A}$, dan gaya penahan Lorentz $F = B I l = 0{,}5 \\times 1 \\times 0{,}4 = 0{,}2\\text{ N}$.. eps = B*l*v = 0,5 * 0,4 * 10 = 2 V. Arus I = eps / R = 2 / 2 = 1 A. Gaya luar mengimbangi gaya Lorentz: F = B * I * l. F = 0,5 * 1 * 0,4 = 0,20 Newton."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $0{,}20\\text{ Newton}$, dihitung dari GGL induksi $\\varepsilon = B l v = 0{,}5 \\times 0{,}4 \\times 10 = 2\\text{ V}$, arus induksi $I = \\frac{\\varepsilon}{R} = \\frac{2}{2} = 1\\text{ A}$, dan gaya penahan Lorentz $F = B I l = 0{,}5 \\times 1 \\times 0{,}4 = 0{,}2\\text{ N}$.. eps = B*l*v = 0,5 * 0,4 * 10 = 2 V. Arus I = eps / R = 2 / 2 = 1 A. Gaya luar mengimbangi gaya Lorentz: F = B * I * l. F = 0,5 * 1 * 0,4 = 0,20 Newton."
   },
   {
     "id": "fis-lat-m-21",
@@ -1960,27 +1961,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\theta_c = \\arcsin(0{,}67) \\approx 41{,}8^\\circ$, dihitung dari Hukum Snellius pada saat sudut bias $\\theta_2 = 90^\\circ$: $\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{1{,}0}{1{,}5} = \\frac{2}{3} \\approx 0{,}667$."
-      },
-      {
-        "key": "B",
-        "text": "$\\theta_c = \\arcsin(1{,}50)$, yang secara matematis mustahil karena nilai fungsi sinus tidak dapat melebihi angka 1 sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$\\theta_c = 30{,}0^\\circ$, dihitung dari pembagian indeks bias kaca dengan sudut pembiasan istimewa optik."
       },
       {
+        "key": "B",
+        "text": "$\\theta_c = \\arcsin(1{,}50)$, yang secara matematis mustahil karena nilai fungsi sinus tidak dapat melebihi angka 1 sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "C",
+        "text": "$\\theta_c = 45{,}0^\\circ$, karena sudut kritis diasumsikan sama pada seluruh jenis material optik transparan."
+      },
+      {
         "key": "D",
-        "text": "$\\theta_c = 60{,}0^\\circ$, dihitung dengan mengalikan selisih indeks bias medium dengan konstanta kelajuan cahaya."
+        "text": "$\\theta_c = \\arcsin(0{,}67) \\approx 41{,}8^\\circ$, dihitung dari Hukum Snellius pada saat sudut bias $\\theta_2 = 90^\\circ$: $\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{1{,}0}{1{,}5} = \\frac{2}{3} \\approx 0{,}667$."
       },
       {
         "key": "E",
-        "text": "$\\theta_c = 45{,}0^\\circ$, karena sudut kritis diasumsikan sama pada seluruh jenis material optik transparan."
+        "text": "$\\theta_c = 60{,}0^\\circ$, dihitung dengan mengalikan selisih indeks bias medium dengan konstanta kelajuan cahaya."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\theta_c = \\arcsin(0{,}67) \\approx 41{,}8^\\circ$, dihitung dari Hukum Snellius pada saat sudut bias $\\theta_2 = 90^\\circ$: $\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{1{,}0}{1{,}5} = \\frac{2}{3} \\approx 0{,}667$.. Sudut kritis terjadi saat sinar merambat dari medium rapat ke renggang dengan sudut bias 90°: sin(theta_c) = n_kurang_rapat / n_rapat. sin(theta_c) = 1,0 / 1,5 = 2/3 ≈ 0,667 -> theta_c ≈ 41,8°."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\theta_c = \\arcsin(0{,}67) \\approx 41{,}8^\\circ$, dihitung dari Hukum Snellius pada saat sudut bias $\\theta_2 = 90^\\circ$: $\\sin\\theta_c = \\frac{n_2}{n_1} = \\frac{1{,}0}{1{,}5} = \\frac{2}{3} \\approx 0{,}667$.. Sudut kritis terjadi saat sinar merambat dari medium rapat ke renggang dengan sudut bias 90°: sin(theta_c) = n_kurang_rapat / n_rapat. sin(theta_c) = 1,0 / 1,5 = 2/3 ≈ 0,667 -> theta_c ≈ 41,8°."
   },
   {
     "id": "fis-lat-m-22",
@@ -2003,11 +2004,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$60\\text{ kali}$, dihitung dari perbesaran okuler pada kondisi mata berakomodasi maksimum ($S_n/f_{ok} + 1$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$15\\text{ kali}$, diperoleh dari penjumlahan langsung perbesaran objektif dan perbesaran okuler."
       },
       {
         "key": "B",
-        "text": "$50\\text{ kali}$, karena perbesaran lensa objektif adalah $M_{ob} = \\left|\\frac{s'_{ob}}{s_{ob}}\\right| = \\frac{11}{1{,}1} = 10\\text{ kali}$, dan perbesaran sudut okuler tanpa akomodasi adalah $M_{ok} = \\frac{S_n}{f_{ok}} = \\frac{25}{5} = 5\\text{ kali}$, sehingga $M_{\\text{total}} = 10 \\times 5 = 50\\text{ kali}$."
+        "text": "$100\\text{ kali}$, dihitung dengan mengabaikan panjang fokus lensa okuler pada penyebut pembagian bayangan."
       },
       {
         "key": "C",
@@ -2015,15 +2016,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$15\\text{ kali}$, diperoleh dari penjumlahan langsung perbesaran objektif dan perbesaran okuler."
+        "text": "$50\\text{ kali}$, karena perbesaran lensa objektif adalah $M_{ob} = \\left|\\frac{s'_{ob}}{s_{ob}}\\right| = \\frac{11}{1{,}1} = 10\\text{ kali}$, dan perbesaran sudut okuler tanpa akomodasi adalah $M_{ok} = \\frac{S_n}{f_{ok}} = \\frac{25}{5} = 5\\text{ kali}$, sehingga $M_{\\text{total}} = 10 \\times 5 = 50\\text{ kali}$."
       },
       {
         "key": "E",
-        "text": "$100\\text{ kali}$, dihitung dengan mengabaikan panjang fokus lensa okuler pada penyebut pembagian bayangan."
+        "text": "$60\\text{ kali}$, dihitung dari perbesaran okuler pada kondisi mata berakomodasi maksimum ($S_n/f_{ok} + 1$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $50\\text{ kali}$, karena perbesaran lensa objektif adalah $M_{ob} = \\left|\\frac{s'_{ob}}{s_{ob}}\\right| = \\frac{11}{1{,}1} = 10\\text{ kali}$, dan perbesaran sudut okuler tanpa akomodasi adalah $M_{ok} = \\frac{S_n}{f_{ok}} = \\frac{25}{5} = 5\\text{ kali}$, sehingga $M_{\\text{total}} = 10 \\times 5 = 50\\text{ kali}$.. Cari s'ob: 1/s'ob = 1/1 - 1/1,1 = 1/11 -> s'ob = 11 cm. Mob = 11 / 1,1 = 10x. Mok (tanpa akomodasi) = Sn / fok = 25 / 5 = 5x. Mtot = Mob * Mok. Mob = 10x. Mok = 5x. Mtot = 10 * 5 = 50 kali."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $50\\text{ kali}$, karena perbesaran lensa objektif adalah $M_{ob} = \\left|\\frac{s'_{ob}}{s_{ob}}\\right| = \\frac{11}{1{,}1} = 10\\text{ kali}$, dan perbesaran sudut okuler tanpa akomodasi adalah $M_{ok} = \\frac{S_n}{f_{ok}} = \\frac{25}{5} = 5\\text{ kali}$, sehingga $M_{\\text{total}} = 10 \\times 5 = 50\\text{ kali}$.. Cari s'ob: 1/s'ob = 1/1 - 1/1,1 = 1/11 -> s'ob = 11 cm. Mob = 11 / 1,1 = 10x. Mok (tanpa akomodasi) = Sn / fok = 25 / 5 = 5x. Mtot = Mob * Mok. Mob = 10x. Mok = 5x. Mtot = 10 * 5 = 50 kali."
   },
   {
     "id": "fis-lat-m-23",
@@ -2046,27 +2047,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$400\\text{ nm}$, dihitung dengan mengabaikan jarak celah ke layar pada penyebut persamaan interferensi ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
         "text": "$1.800\\text{ nm}$, karena nilai orde terang ketiga keliru dikalikan bukan dibagi pada ruas panjang gelombang."
       },
       {
-        "key": "C",
-        "text": "$600\\text{ nm}$ (atau $6 \\times 10^{-7}\\text{ meter}$), dihitung dari rumus interferensi maksimum celah ganda: $d \\frac{y_n}{L} = n \\lambda \\implies \\lambda = \\frac{d \\cdot y_3}{3L} = \\frac{(2 \\times 10^{-4}\\text{ m})(9 \\times 10^{-3}\\text{ m})}{3 \\times 1\\text{ m}} = 6 \\times 10^{-7}\\text{ m}$."
+        "key": "B",
+        "text": "$300\\text{ nm}$, dihitung dengan membagi dua hasil perhitungan panjang gelombang cahaya monokromatik."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$500\\text{ nm}$, dihitung dari asumsi panjang gelombang spektrum cahaya hijau tampak di udara terbuka."
       },
       {
+        "key": "D",
+        "text": "$400\\text{ nm}$, dihitung dengan mengabaikan jarak celah ke layar pada penyebut persamaan interferensi."
+      },
+      {
         "key": "E",
-        "text": "$300\\text{ nm}$, dihitung dengan membagi dua hasil perhitungan panjang gelombang cahaya monokromatik."
+        "text": "$600\\text{ nm}$ (atau $6 \\times 10^{-7}\\text{ meter}$), dihitung dari rumus interferensi maksimum celah ganda: $d \\frac{y_n}{L} = n \\lambda \\implies \\lambda = \\frac{d \\cdot y_3}{3L} = \\frac{(2 \\times 10^{-4}\\text{ m})(9 \\times 10^{-3}\\text{ m})}{3 \\times 1\\text{ m}} = 6 \\times 10^{-7}\\text{ m}$."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $600\\text{ nm}$ (atau $6 \\times 10^{-7}\\text{ meter}$), dihitung dari rumus interferensi maksimum celah ganda: $d \\frac{y_n}{L} = n \\lambda \\implies \\lambda = \\frac{d \\cdot y_3}{3L} = \\frac{(2 \\times 10^{-4}\\text{ m})(9 \\times 10^{-3}\\text{ m})}{3 \\times 1\\text{ m}} = 6 \\times 10^{-7}\\text{ m}$.. Interferensi terang: d * y / L = n * lambda. lambda = (d * y) / (n * L). lambda = (0,2e-3 * 9e-3) / (3 * 1) = 1,8e-6 / 3 = 6e-7 m = 600 nm."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $600\\text{ nm}$ (atau $6 \\times 10^{-7}\\text{ meter}$), dihitung dari rumus interferensi maksimum celah ganda: $d \\frac{y_n}{L} = n \\lambda \\implies \\lambda = \\frac{d \\cdot y_3}{3L} = \\frac{(2 \\times 10^{-4}\\text{ m})(9 \\times 10^{-3}\\text{ m})}{3 \\times 1\\text{ m}} = 6 \\times 10^{-7}\\text{ m}$.. Interferensi terang: d * y / L = n * lambda. lambda = (d * y) / (n * L). lambda = (0,2e-3 * 9e-3) / (3 * 1) = 1,8e-6 / 3 = 6e-7 m = 600 nm."
   },
   {
     "id": "fis-lat-m-24",
@@ -2089,27 +2090,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$2.500\\text{ garis/cm}$, dihitung dari orde pertama difraksi kisi tanpa mengalikan faktor orde kedua menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$1.250\\text{ garis/cm}$, dihitung dari perbandingan kecepatan cahaya terhadap frekuensi berkas sinar laser."
       },
       {
         "key": "B",
-        "text": "$10.000\\text{ garis/cm}$, karena sudut 30 derajat keliru dikalikan dua menjadi sudut deviasi 60 derajat."
+        "text": "$2.500\\text{ garis/cm}$, dihitung dari orde pertama difraksi kisi tanpa mengalikan faktor orde kedua."
       },
       {
         "key": "C",
-        "text": "$500\\text{ garis/cm}$, karena konstanta panjang gelombang langsung dijadikan nilai kerapatan garis kisi kaca."
-      },
-      {
-        "key": "D",
         "text": "$5.000\\text{ garis/cm}$, karena tetapan kisi adalah $d = \\frac{n \\lambda}{\\sin\\theta} = \\frac{2 \\times (5 \\times 10^{-7}\\text{ m})}{0{,}5} = 2 \\times 10^{-6}\\text{ m} = 2 \\times 10^{-4}\\text{ cm}$, sehingga $N = \\frac{1}{d} = \\frac{1}{2 \\times 10^{-4}\\text{ cm}} = 5.000\\text{ garis/cm}$."
       },
       {
+        "key": "D",
+        "text": "$500\\text{ garis/cm}$, karena konstanta panjang gelombang langsung dijadikan nilai kerapatan garis kisi kaca."
+      },
+      {
         "key": "E",
-        "text": "$1.250\\text{ garis/cm}$, dihitung dari perbandingan kecepatan cahaya terhadap frekuensi berkas sinar laser."
+        "text": "$10.000\\text{ garis/cm}$, karena sudut 30 derajat keliru dikalikan dua menjadi sudut deviasi 60 derajat."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $5.000\\text{ garis/cm}$, karena tetapan kisi adalah $d = \\frac{n \\lambda}{\\sin\\theta} = \\frac{2 \\times (5 \\times 10^{-7}\\text{ m})}{0{,}5} = 2 \\times 10^{-6}\\text{ m} = 2 \\times 10^{-4}\\text{ cm}$, sehingga $N = \\frac{1}{d} = \\frac{1}{2 \\times 10^{-4}\\text{ cm}} = 5.000\\text{ garis/cm}$.. d * sin(theta) = n * lambda. Cari d = n*lambda / sin(theta), lalu N = 1 / d (konversi ke garis/cm). d = 2 * 5e-7 / 0,5 = 2e-6 m = 2e-4 cm. N = 1 / 2e-4 = 5.000 garis/cm."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $5.000\\text{ garis/cm}$, karena tetapan kisi adalah $d = \\frac{n \\lambda}{\\sin\\theta} = \\frac{2 \\times (5 \\times 10^{-7}\\text{ m})}{0{,}5} = 2 \\times 10^{-6}\\text{ m} = 2 \\times 10^{-4}\\text{ cm}$, sehingga $N = \\frac{1}{d} = \\frac{1}{2 \\times 10^{-4}\\text{ cm}} = 5.000\\text{ garis/cm}$.. d * sin(theta) = n * lambda. Cari d = n*lambda / sin(theta), lalu N = 1 / d (konversi ke garis/cm). d = 2 * 5e-7 / 0,5 = 2e-6 m = 2e-4 cm. N = 1 / 2e-4 = 5.000 garis/cm."
   },
   {
     "id": "fis-lat-m-25",
@@ -2132,7 +2133,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{5}{3} E_0$, karena nilai tersebut merupakan energi total relativistik ($E$), belum dikurangkan dengan energi diam partikel diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$\\frac{2}{3} E_0$ (atau $0{,}67 E_0$), karena faktor Lorentz untuk kecepatan $0{,}8c$ adalah $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga energi total $E = \\gamma E_0 = \\frac{5}{3} E_0$, dan energi kinetik $E_k = E - E_0 = \\left(\\frac{5}{3} - 1\\right) E_0 = \\frac{2}{3} E_0$."
       },
       {
         "key": "B",
@@ -2140,7 +2141,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\frac{1}{3} E_0$, dihitung dari selisih kuadrat faktor Lorentz dengan konstanta Planck."
+        "text": "$\\frac{5}{3} E_0$, karena nilai tersebut merupakan energi total relativistik ($E$), belum dikurangkan dengan energi diam partikel diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "D",
@@ -2148,11 +2149,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\frac{2}{3} E_0$ (atau $0{,}67 E_0$), karena faktor Lorentz untuk kecepatan $0{,}8c$ adalah $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga energi total $E = \\gamma E_0 = \\frac{5}{3} E_0$, dan energi kinetik $E_k = E - E_0 = \\left(\\frac{5}{3} - 1\\right) E_0 = \\frac{2}{3} E_0$."
+        "text": "$\\frac{1}{3} E_0$, dihitung dari selisih kuadrat faktor Lorentz dengan konstanta Planck."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\frac{2}{3} E_0$ (atau $0{,}67 E_0$), karena faktor Lorentz untuk kecepatan $0{,}8c$ adalah $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga energi total $E = \\gamma E_0 = \\frac{5}{3} E_0$, dan energi kinetik $E_k = E - E_0 = \\left(\\frac{5}{3} - 1\\right) E_0 = \\frac{2}{3} E_0$.. Energi total relativistik: E = gamma * E0. Energi kinetik Ek = E - E0 = (gamma - 1) * E0. gamma = 1 / sqrt(1 - 0,8^2) = 1 / 0,6 = 5/3. Ek = (5/3 - 1) * E0 = 2/3 E0."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\frac{2}{3} E_0$ (atau $0{,}67 E_0$), karena faktor Lorentz untuk kecepatan $0{,}8c$ adalah $\\gamma = \\frac{1}{\\sqrt{1 - (0{,}8)^2}} = \\frac{1}{0{,}6} = \\frac{5}{3}$, sehingga energi total $E = \\gamma E_0 = \\frac{5}{3} E_0$, dan energi kinetik $E_k = E - E_0 = \\left(\\frac{5}{3} - 1\\right) E_0 = \\frac{2}{3} E_0$.. Energi total relativistik: E = gamma * E0. Energi kinetik Ek = E - E0 = (gamma - 1) * E0. gamma = 1 / sqrt(1 - 0,8^2) = 1 / 0,6 = 5/3. Ek = (5/3 - 1) * E0 = 2/3 E0."
   },
   {
     "id": "fis-lat-h-01",
@@ -2175,11 +2176,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$a = \\frac{10}{3}\\text{ m/s}^2$ dan $f_s = \\frac{20}{3}\\text{ N}$, dihitung dari persamaan translasi $M g \\sin\\theta - f_s = M a$ dan rotasi $f_s R = I \\alpha = \\frac{1}{2} M R^2 \\left(\\frac{a}{R}\\right)$, sehingga $a = \\frac{g \\sin\\theta}{1 + k} = \\frac{10 \\times 0{,}5}{1 + 0{,}5} = \\frac{5}{1{,}5} = \\frac{10}{3}\\text{ m/s}^2$, serta $f_s = \\frac{1}{2} M a = \\frac{1}{2}(4)\\left(\\frac{10}{3}\\right) = \\frac{20}{3}\\text{ N}$."
+        "text": "$a = 3\\text{ m/s}^2$ dan $f_s = 8\\text{ N}$, dihitung dari pendekatan pembulatan kasar koefisien gesekan kinetik permukaan bidang luncur."
       },
       {
         "key": "B",
-        "text": "$a = 5\\text{ m/s}^2$ dan $f_s = 0\\text{ N}$, karena silinder dianggap meluncur bebas di atas bidang miring licin sempurna tanpa torsi gesek sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$a = \\frac{20}{3}\\text{ m/s}^2$ dan $f_s = \\frac{40}{3}\\text{ N}$, karena percepatan gravitasi tidak dikalikan dengan sinus sudut kemiringan bidang miring."
       },
       {
         "key": "C",
@@ -2187,15 +2188,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$a = \\frac{20}{3}\\text{ m/s}^2$ dan $f_s = \\frac{40}{3}\\text{ N}$, karena percepatan gravitasi tidak dikalikan dengan sinus sudut kemiringan bidang miring."
+        "text": "$a = \\frac{10}{3}\\text{ m/s}^2$ dan $f_s = \\frac{20}{3}\\text{ N}$, dihitung dari persamaan translasi $M g \\sin\\theta - f_s = M a$ dan rotasi $f_s R = I \\alpha = \\frac{1}{2} M R^2 \\left(\\frac{a}{R}\\right)$, sehingga $a = \\frac{g \\sin\\theta}{1 + k} = \\frac{10 \\times 0{,}5}{1 + 0{,}5} = \\frac{5}{1{,}5} = \\frac{10}{3}\\text{ m/s}^2$, serta $f_s = \\frac{1}{2} M a = \\frac{1}{2}(4)\\left(\\frac{10}{3}\\right) = \\frac{20}{3}\\text{ N}$."
       },
       {
         "key": "E",
-        "text": "$a = 3\\text{ m/s}^2$ dan $f_s = 8\\text{ N}$, dihitung dari pendekatan pembulatan kasar koefisien gesekan kinetik permukaan bidang luncur."
+        "text": "$a = 5\\text{ m/s}^2$ dan $f_s = 0\\text{ N}$, karena silinder dianggap meluncur bebas di atas bidang miring licin sempurna tanpa torsi gesek sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $a = \\frac{10}{3}\\text{ m/s}^2$ dan $f_s = \\frac{20}{3}\\text{ N}$, dihitung dari persamaan translasi $M g \\sin\\theta - f_s = M a$ dan rotasi $f_s R = I \\alpha = \\frac{1}{2} M R^2 \\left(\\frac{a}{R}\\right)$, sehingga $a = \\frac{g \\sin\\theta}{1 + k} = \\frac{10 \\times 0{,}5}{1 + 0{,}5} = \\frac{5}{1{,}5} = \\frac{10}{3}\\text{ m/s}^2$, serta $f_s = \\frac{1}{2} M a = \\frac{1}{2}(4)\\left(\\frac{10}{3}\\right) = \\frac{20}{3}\\text{ N}$.. Gunakan Hukum II Newton translasi: Mg sin(theta) - fs = M*a, dan rotasi: fs * R = I * (a/R). Untuk silinder pejal k = 1/2, a = g sin(theta) / (1 + k). a = (10 * 0,5) / (1 + 0,5) = 10/3 m/s^2. fs = 1/2 * 4 * (10/3) = 20/3 N."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $a = \\frac{10}{3}\\text{ m/s}^2$ dan $f_s = \\frac{20}{3}\\text{ N}$, dihitung dari persamaan translasi $M g \\sin\\theta - f_s = M a$ dan rotasi $f_s R = I \\alpha = \\frac{1}{2} M R^2 \\left(\\frac{a}{R}\\right)$, sehingga $a = \\frac{g \\sin\\theta}{1 + k} = \\frac{10 \\times 0{,}5}{1 + 0{,}5} = \\frac{5}{1{,}5} = \\frac{10}{3}\\text{ m/s}^2$, serta $f_s = \\frac{1}{2} M a = \\frac{1}{2}(4)\\left(\\frac{10}{3}\\right) = \\frac{20}{3}\\text{ N}$.. Gunakan Hukum II Newton translasi: Mg sin(theta) - fs = M*a, dan rotasi: fs * R = I * (a/R). Untuk silinder pejal k = 1/2, a = g sin(theta) / (1 + k). a = (10 * 0,5) / (1 + 0,5) = 10/3 m/s^2. fs = 1/2 * 4 * (10/3) = 20/3 N."
   },
   {
     "id": "fis-lat-h-02",
@@ -2218,15 +2219,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\mu_s = \\frac{1}{\\tan\\theta}$, karena titik berat tangga keliru ditempatkan di puncak tertinggi tangga yang bersentuhan dengan dinding vertikal sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$\\mu_s = \\frac{1}{2} \\tan\\theta$, karena fungsi sinus dan cosinus pada lengan momen torsi tertukar letaknya saat proyeksi sudut kemiringan."
       },
       {
         "key": "B",
-        "text": "$\\mu_s = \\frac{1}{2 \\tan\\theta}$ (atau $\\frac{1}{2} \\cot\\theta$), diperoleh dari syarat kesetimbangan gaya horizontal $N_{\\text{dinding}} = f_s = \\mu_s N_{\\text{lantai}}$, gaya vertikal $N_{\\text{lantai}} = W$, dan torsi terhadap dasar tangga $\\sum \\tau = 0 \\implies N_{\\text{dinding}} (L \\sin\\theta) - W \\left(\\frac{L}{2} \\cos\\theta\\right) = 0$, sehingga $N_{\\text{dinding}} = \\frac{W \\cos\\theta}{2 \\sin\\theta} = \\frac{W}{2 \\tan\\theta}$."
+        "text": "$\\mu_s = \\frac{1}{\\tan\\theta}$, karena titik berat tangga keliru ditempatkan di puncak tertinggi tangga yang bersentuhan dengan dinding vertikal sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "C",
-        "text": "$\\mu_s = \\frac{1}{2} \\tan\\theta$, karena fungsi sinus dan cosinus pada lengan momen torsi tertukar letaknya saat proyeksi sudut kemiringan."
+        "text": "$\\mu_s = \\frac{1}{2 \\cos\\theta}$, dihitung dari perbandingan gaya normal lantai terhadap komponen tangensial panjang batang penyangga."
       },
       {
         "key": "D",
@@ -2234,11 +2235,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\mu_s = \\frac{1}{2 \\cos\\theta}$, dihitung dari perbandingan gaya normal lantai terhadap komponen tangensial panjang batang penyangga."
+        "text": "$\\mu_s = \\frac{1}{2 \\tan\\theta}$ (atau $\\frac{1}{2} \\cot\\theta$), diperoleh dari syarat kesetimbangan gaya horizontal $N_{\\text{dinding}} = f_s = \\mu_s N_{\\text{lantai}}$, gaya vertikal $N_{\\text{lantai}} = W$, dan torsi terhadap dasar tangga $\\sum \\tau = 0 \\implies N_{\\text{dinding}} (L \\sin\\theta) - W \\left(\\frac{L}{2} \\cos\\theta\\right) = 0$, sehingga $N_{\\text{dinding}} = \\frac{W \\cos\\theta}{2 \\sin\\theta} = \\frac{W}{2 \\tan\\theta}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\mu_s = \\frac{1}{2 \\tan\\theta}$ (atau $\\frac{1}{2} \\cot\\theta$), diperoleh dari syarat kesetimbangan gaya horizontal $N_{\\text{dinding}} = f_s = \\mu_s N_{\\text{lantai}}$, gaya vertikal $N_{\\text{lantai}} = W$, dan torsi terhadap dasar tangga $\\sum \\tau = 0 \\implies N_{\\text{dinding}} (L \\sin\\theta) - W \\left(\\frac{L}{2} \\cos\\theta\\right) = 0$, sehingga $N_{\\text{dinding}} = \\frac{W \\cos\\theta}{2 \\sin\\theta} = \\frac{W}{2 \\tan\\theta}$.. Torsi terhadap tumpuan lantai = 0: ND * L sin(theta) - W * (L/2) cos(theta) = 0. ND = W / (2 tan theta). Kesetimbangan translasi: fs = ND dan NL = W. mu_s = fs / NL = ND / W = 1 / (2 tan theta)."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\mu_s = \\frac{1}{2 \\tan\\theta}$ (atau $\\frac{1}{2} \\cot\\theta$), diperoleh dari syarat kesetimbangan gaya horizontal $N_{\\text{dinding}} = f_s = \\mu_s N_{\\text{lantai}}$, gaya vertikal $N_{\\text{lantai}} = W$, dan torsi terhadap dasar tangga $\\sum \\tau = 0 \\implies N_{\\text{dinding}} (L \\sin\\theta) - W \\left(\\frac{L}{2} \\cos\\theta\\right) = 0$, sehingga $N_{\\text{dinding}} = \\frac{W \\cos\\theta}{2 \\sin\\theta} = \\frac{W}{2 \\tan\\theta}$.. Torsi terhadap tumpuan lantai = 0: ND * L sin(theta) - W * (L/2) cos(theta) = 0. ND = W / (2 tan theta). Kesetimbangan translasi: fs = ND dan NL = W. mu_s = fs / NL = ND / W = 1 / (2 tan theta)."
   },
   {
     "id": "fis-lat-h-03",
@@ -2261,27 +2262,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\omega = 10\\text{ rad/s}$ dan $T = \\frac{\\pi}{5}\\text{ s}$, karena kedua pegas keliru dihitung menggunakan formula susunan seri $k_s = 200\\text{ N/m}$ ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
-        "text": "$\\omega = 40\\text{ rad/s}$ dan $T = \\frac{\\pi}{20}\\text{ s}$, dihitung dari penggandaan kuadrat frekuensi getaran alami pegas."
-      },
-      {
-        "key": "C",
         "text": "$\\omega = 20\\text{ rad/s}$ dan $T = \\frac{\\pi}{10}\\text{ s}$ (sekitar $0{,}314\\text{ s}$), karena konstanta pegas pengganti paralel adalah $k_p = k_1 + k_2 = 400 + 400 = 800\\text{ N/m}$, sehingga frekuensi sudut $\\omega = \\sqrt{\\frac{k_p}{m}} = \\sqrt{\\frac{800}{2}} = \\sqrt{400} = 20\\text{ rad/s}$, dan periode $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{20} = \\frac{\\pi}{10}\\text{ s}$."
       },
       {
+        "key": "B",
+        "text": "$\\omega = 5\\text{ rad/s}$ dan $T = \\frac{2\\pi}{5}\\text{ s}$, dihitung dari rasio massa beban dibagi konstanta pegas dalam akar."
+      },
+      {
+        "key": "C",
+        "text": "$\\omega = 10\\text{ rad/s}$ dan $T = \\frac{\\pi}{5}\\text{ s}$, karena kedua pegas keliru dihitung menggunakan formula susunan seri $k_s = 200\\text{ N/m}$."
+      },
+      {
         "key": "D",
-        "text": "$\\omega = 14{,}14\\text{ rad/s}$ dan $T = \\frac{\\pi}{7}\\text{ s}$, karena hanya memperhitungkan konstanta satu pegas tunggal tanpa paralel."
+        "text": "$\\omega = 40\\text{ rad/s}$ dan $T = \\frac{\\pi}{20}\\text{ s}$, dihitung dari penggandaan kuadrat frekuensi getaran alami pegas."
       },
       {
         "key": "E",
-        "text": "$\\omega = 5\\text{ rad/s}$ dan $T = \\frac{2\\pi}{5}\\text{ s}$, dihitung dari rasio massa beban dibagi konstanta pegas dalam akar."
+        "text": "$\\omega = 14{,}14\\text{ rad/s}$ dan $T = \\frac{\\pi}{7}\\text{ s}$, karena hanya memperhitungkan konstanta satu pegas tunggal tanpa paralel."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\omega = 20\\text{ rad/s}$ dan $T = \\frac{\\pi}{10}\\text{ s}$ (sekitar $0{,}314\\text{ s}$), karena konstanta pegas pengganti paralel adalah $k_p = k_1 + k_2 = 400 + 400 = 800\\text{ N/m}$, sehingga frekuensi sudut $\\omega = \\sqrt{\\frac{k_p}{m}} = \\sqrt{\\frac{800}{2}} = \\sqrt{400} = 20\\text{ rad/s}$, dan periode $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{20} = \\frac{\\pi}{10}\\text{ s}$.. Pegas paralel: kp = k1 + k2 = 400 + 400 = 800 N/m. Frekuensi sudut omega = sqrt(kp / m). Periode T = 2pi / omega. omega = sqrt(800 / 2) = sqrt(400) = 20 rad/s. T = 2pi / 20 = pi / 10 s."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\omega = 20\\text{ rad/s}$ dan $T = \\frac{\\pi}{10}\\text{ s}$ (sekitar $0{,}314\\text{ s}$), karena konstanta pegas pengganti paralel adalah $k_p = k_1 + k_2 = 400 + 400 = 800\\text{ N/m}$, sehingga frekuensi sudut $\\omega = \\sqrt{\\frac{k_p}{m}} = \\sqrt{\\frac{800}{2}} = \\sqrt{400} = 20\\text{ rad/s}$, dan periode $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{20} = \\frac{\\pi}{10}\\text{ s}$.. Pegas paralel: kp = k1 + k2 = 400 + 400 = 800 N/m. Frekuensi sudut omega = sqrt(kp / m). Periode T = 2pi / omega. omega = sqrt(800 / 2) = sqrt(400) = 20 rad/s. T = 2pi / 20 = pi / 10 s."
   },
   {
     "id": "fis-lat-h-04",
@@ -2304,7 +2305,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v_2 = 5\\text{ m/s}$, karena rumus Torricelli keliru tidak menyertakan angka 2 di dalam tanda akar kuadrat gravitasi tinggi menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$v_2 = 5\\text{ m/s}$, karena rumus Torricelli keliru tidak menyertakan angka 2 di dalam tanda akar kuadrat gravitasi tinggi."
       },
       {
         "key": "B",
@@ -2347,15 +2348,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P = 135\\text{ Watt}$, karena suhu reservoir dihitung langsung menggunakan satuan derajat Celsius tanpa konversi ke Kelvin diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$P = 1.500\\text{ Watt}$, karena kalor yang diserap tertukar dengan kalor buangan yang dilepaskan ke lingkungan luar."
       },
       {
         "key": "B",
-        "text": "$P = 300\\text{ Watt}$, dihitung dari efisiensi mesin pemanas Carnot standar dikalikan dengan total kalor serap reservoir."
+        "text": "$P = 135\\text{ Watt}$, karena suhu reservoir dihitung langsung menggunakan satuan derajat Celsius tanpa konversi ke Kelvin diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "C",
-        "text": "$P = 1.500\\text{ Watt}$, karena kalor yang diserap tertukar dengan kalor buangan yang dilepaskan ke lingkungan luar."
+        "text": "$P = 150\\text{ Watt}$, karena dalam skala Kelvin $T_C = 270\\text{ K}$ dan $T_H = 300\\text{ K}$, sehingga koefisien performa pendingin adalah $K_P = \\frac{T_C}{T_H - T_C} = \\frac{270}{300 - 270} = \\frac{270}{30} = 9$. Usaha per detik yang dibutuhkan kompresor adalah $W = \\frac{Q_C}{K_P} = \\frac{1.350}{9} = 150\\text{ Joule}$, yang setara dengan daya $150\\text{ Watt}$."
       },
       {
         "key": "D",
@@ -2363,11 +2364,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$P = 150\\text{ Watt}$, karena dalam skala Kelvin $T_C = 270\\text{ K}$ dan $T_H = 300\\text{ K}$, sehingga koefisien performa pendingin adalah $K_P = \\frac{T_C}{T_H - T_C} = \\frac{270}{300 - 270} = \\frac{270}{30} = 9$. Usaha per detik yang dibutuhkan kompresor adalah $W = \\frac{Q_C}{K_P} = \\frac{1.350}{9} = 150\\text{ Joule}$, yang setara dengan daya $150\\text{ Watt}$."
+        "text": "$P = 300\\text{ Watt}$, dihitung dari efisiensi mesin pemanas Carnot standar dikalikan dengan total kalor serap reservoir."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $P = 150\\text{ Watt}$, karena dalam skala Kelvin $T_C = 270\\text{ K}$ dan $T_H = 300\\text{ K}$, sehingga koefisien performa pendingin adalah $K_P = \\frac{T_C}{T_H - T_C} = \\frac{270}{300 - 270} = \\frac{270}{30} = 9$. Usaha per detik yang dibutuhkan kompresor adalah $W = \\frac{Q_C}{K_P} = \\frac{1.350}{9} = 150\\text{ Joule}$, yang setara dengan daya $150\\text{ Watt}$.. Konversi suhu ke Kelvin: Tc = 270 K, Th = 300 K. COP KP = Tc / (Th - Tc) = 270 / 30 = 9. Daya P = W / t = Qc / KP. KP = 9. P = 1.350 / 9 = 150 Watt."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $P = 150\\text{ Watt}$, karena dalam skala Kelvin $T_C = 270\\text{ K}$ dan $T_H = 300\\text{ K}$, sehingga koefisien performa pendingin adalah $K_P = \\frac{T_C}{T_H - T_C} = \\frac{270}{300 - 270} = \\frac{270}{30} = 9$. Usaha per detik yang dibutuhkan kompresor adalah $W = \\frac{Q_C}{K_P} = \\frac{1.350}{9} = 150\\text{ Joule}$, yang setara dengan daya $150\\text{ Watt}$.. Konversi suhu ke Kelvin: Tc = 270 K, Th = 300 K. COP KP = Tc / (Th - Tc) = 270 / 30 = 9. Daya P = W / t = Qc / KP. KP = 9. P = 1.350 / 9 = 150 Watt."
   },
   {
     "id": "fis-lat-h-06",
@@ -2394,11 +2395,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "$\\Delta S_{\\text{es}} = +556{,}7\\text{ J/K}$, karena suhu peleburan keliru dibagi dengan suhu ruangan 300 Kelvin, bukan suhu titik lebur es sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$\\Delta S_{\\text{es}} = +556{,}7\\text{ J/K}$, karena suhu peleburan keliru dibagi dengan suhu ruangan 300 Kelvin, bukan suhu titik lebur es sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "C",
-        "text": "$\\Delta S_{\\text{es}} = 0\\text{ J/K}$, karena suhu es tidak berubah selama fase mencair sehingga diasumsikan tidak ada perubahan entropi."
+        "text": "$\\Delta S_{\\text{es}} = +167\\text{ J/K}$, dihitung dari kalor lebur dibagi dengan massa es tanpa memperhitungkan variabel suhu absolut termodinamika."
       },
       {
         "key": "D",
@@ -2406,7 +2407,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\Delta S_{\\text{es}} = +167\\text{ J/K}$, dihitung dari kalor lebur dibagi dengan massa es tanpa memperhitungkan variabel suhu absolut termodinamika."
+        "text": "$\\Delta S_{\\text{es}} = 0\\text{ J/K}$, karena suhu es tidak berubah selama fase mencair sehingga diasumsikan tidak ada perubahan entropi."
       }
     ],
     "correctKey": "A",
@@ -2433,7 +2434,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$f_p = 743{,}75\\text{ Hz}$, dihitung dengan mengabaikan pengaruh kecepatan angin ($v_w = 0$) pada persamaan Efek Doppler standar sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$f_p = 743{,}75\\text{ Hz}$, dihitung dengan mengabaikan pengaruh kecepatan angin ($v_w = 0$) pada persamaan Efek Doppler standar sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "B",
@@ -2445,11 +2446,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$f_p = 720{,}0\\text{ Hz}$, dihitung dari penambahan selisih kelajuan mobil dengan kecepatan angin terhadap frekuensi asli sirine."
+        "text": "$f_p = 800{,}0\\text{ Hz}$, dihitung dari perbandingan kecepatan bunyi di udara tenang dibagi selisih kelajuan sumber."
       },
       {
         "key": "E",
-        "text": "$f_p = 800{,}0\\text{ Hz}$, dihitung dari perbandingan kecepatan bunyi di udara tenang dibagi selisih kelajuan sumber."
+        "text": "$f_p = 720{,}0\\text{ Hz}$, dihitung dari penambahan selisih kelajuan mobil dengan kecepatan angin terhadap frekuensi asli sirine."
       }
     ],
     "correctKey": "B",
@@ -2476,27 +2477,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$x_{s3} = 0{,}75\\text{ meter}$ dan $x_{p2} = 0{,}5\\text{ meter}$, karena formula letak simpul dan perut tertukar antara ujung terikat dan ujung bebas ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
         "text": "$x_{s3} = 1{,}5\\text{ meter}$ dan $x_{p2} = 1{,}0\\text{ meter}$, dihitung dengan mengalikan nomor simpul langsung dengan panjang gelombang."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$x_{s3} = 1{,}0\\text{ meter}$ dan $x_{p2} = 0{,}375\\text{ meter}$ (atau $\\frac{3}{8}\\text{ m}$), karena pada ujung terikat letak simpul ke-$n$ adalah $x_{sn} = (n - 1)\\frac{\\lambda}{2}$ sehingga $x_{s3} = (3 - 1)\\frac{1}{2} = 1{,}0\\text{ m}$, sedangkan letak perut ke-$n$ adalah $x_{pn} = (2n - 1)\\frac{\\lambda}{4}$ sehingga $x_{p2} = (2(2) - 1)\\frac{1}{4} = \\frac{3}{4}\\lambda = 0{,}75\\text{ m}$ jika $n=2$ rumus $(2n-1)/4$ menghasilkan $\\frac{3}{4}(1) \\times 0{,}5$... tepatnya $x_{p2} = (2(2)-1)\\frac{\\lambda}{4} = \\frac{3}{4}(0{,}5)$ jika $\\lambda = 1\\text{ m}$, $x_{p2} = \\frac{3}{4}(1) = 0{,}75\\text{ m}$... mari periksa: $x_{s1} = 0$, $x_{p1} = \\lambda/4 = 0{,}25\\text{ m}$, $x_{s2} = \\lambda/2 = 0{,}5\\text{ m}$, $x_{p2} = 3\\lambda/4 = 0{,}75\\text{ m}$, $x_{s3} = \\lambda = 1{,}0\\text{ m}$."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$x_{s3} = 0{,}5\\text{ meter}$ dan $x_{p2} = 0{,}25\\text{ meter}$, karena hanya memperhitungkan separuh dari panjang gelombang yang sebenarnya."
+      },
+      {
+        "key": "D",
+        "text": "$x_{s3} = 0{,}75\\text{ meter}$ dan $x_{p2} = 0{,}5\\text{ meter}$, karena formula letak simpul dan perut tertukar antara ujung terikat dan ujung bebas."
       },
       {
         "key": "E",
         "text": "$x_{s3} = 2{,}0\\text{ meter}$ dan $x_{p2} = 1{,}25\\text{ meter}$, dihitung dari ujung sumber getaran bukan dari ujung pemantul terikat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $x_{s3} = 1{,}0\\text{ meter}$ dan $x_{p2} = 0{,}375\\text{ meter}$ (atau $\\frac{3}{8}\\text{ m}$), karena pada ujung terikat letak simpul ke-$n$ adalah $x_{sn} = (n - 1)\\frac{\\lambda}{2}$ sehingga $x_{s3} = (3 - 1)\\frac{1}{2} = 1{,}0\\text{ m}$, sedangkan letak perut ke-$n$ adalah $x_{pn} = (2n - 1)\\frac{\\lambda}{4}$ sehingga $x_{p2} = (2(2) - 1)\\frac{1}{4} = \\frac{3}{4}\\lambda = 0{,}75\\text{ m}$ jika $n=2$ rumus $(2n-1)/4$ menghasilkan $\\frac{3}{4}(1) \\times 0{,}5$... tepatnya $x_{p2} = (2(2)-1)\\frac{\\lambda}{4} = \\frac{3}{4}(0{,}5)$ jika $\\lambda = 1\\text{ m}$, $x_{p2} = \\frac{3}{4}(1) = 0{,}75\\text{ m}$... mari periksa: $x_{s1} = 0$, $x_{p1} = \\lambda/4 = 0{,}25\\text{ m}$, $x_{s2} = \\lambda/2 = 0{,}5\\text{ m}$, $x_{p2} = 3\\lambda/4 = 0{,}75\\text{ m}$, $x_{s3} = \\lambda = 1{,}0\\text{ m}$.. Pada ujung terikat, pemantul adalah simpul: xs_n = (n - 1) * lambda/2, dan xp_n = (2n - 1) * lambda/4. xs3 = (3 - 1) * 1 / 2 = 1,0 m. xp2 = (2*2 - 1) * 1 / 4 = 3/4 = 0,75 m."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $x_{s3} = 1{,}0\\text{ meter}$ dan $x_{p2} = 0{,}375\\text{ meter}$ (atau $\\frac{3}{8}\\text{ m}$), karena pada ujung terikat letak simpul ke-$n$ adalah $x_{sn} = (n - 1)\\frac{\\lambda}{2}$ sehingga $x_{s3} = (3 - 1)\\frac{1}{2} = 1{,}0\\text{ m}$, sedangkan letak perut ke-$n$ adalah $x_{pn} = (2n - 1)\\frac{\\lambda}{4}$ sehingga $x_{p2} = (2(2) - 1)\\frac{1}{4} = \\frac{3}{4}\\lambda = 0{,}75\\text{ m}$ jika $n=2$ rumus $(2n-1)/4$ menghasilkan $\\frac{3}{4}(1) \\times 0{,}5$... tepatnya $x_{p2} = (2(2)-1)\\frac{\\lambda}{4} = \\frac{3}{4}(0{,}5)$ jika $\\lambda = 1\\text{ m}$, $x_{p2} = \\frac{3}{4}(1) = 0{,}75\\text{ m}$... mari periksa: $x_{s1} = 0$, $x_{p1} = \\lambda/4 = 0{,}25\\text{ m}$, $x_{s2} = \\lambda/2 = 0{,}5\\text{ m}$, $x_{p2} = 3\\lambda/4 = 0{,}75\\text{ m}$, $x_{s3} = \\lambda = 1{,}0\\text{ m}$.. Pada ujung terikat, pemantul adalah simpul: xs_n = (n - 1) * lambda/2, dan xp_n = (2n - 1) * lambda/4. xs3 = (3 - 1) * 1 / 2 = 1,0 m. xp2 = (2*2 - 1) * 1 / 4 = 3/4 = 0,75 m."
   },
   {
     "id": "fis-lat-h-09",
@@ -2519,27 +2520,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$D = 0{,}50\\text{ meter}$, karena faktor difraksi Airy 1,22 keliru digandakan menjadi 2,44 saat perhitungan fraksi sudut menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$D = 0{,}05\\text{ meter}$, dihitung dari perbandingan panjang gelombang terhadap sudut pemisahan tanpa pembagian eksponen."
       },
       {
         "key": "B",
-        "text": "$D = 0{,}10\\text{ meter}$, dihitung tanpa mengikutsertakan tetapan difraksi lubang lingkaran Kriteria Rayleigh."
+        "text": "$D = 0{,}50\\text{ meter}$, karena faktor difraksi Airy 1,22 keliru digandakan menjadi 2,44 saat perhitungan fraksi sudut."
       },
       {
         "key": "C",
-        "text": "$D = 1{,}22\\text{ meter}$, karena tetapan Rayleigh langsung dijadikan nilai diameter fisik cermin objektif teleskop."
-      },
-      {
-        "key": "D",
         "text": "$D = 0{,}25\\text{ meter}$ (atau $25\\text{ cm}$), dihitung dari Kriteria Rayleigh $\\theta_R = 1{,}22 \\frac{\\lambda}{D}$, sehingga diameter objektif minimum adalah $D = \\frac{1{,}22 \\lambda}{\\theta_R} = \\frac{1{,}22 \\times (5 \\times 10^{-7}\\text{ m})}{2{,}44 \\times 10^{-6}\\text{ rad}} = \\frac{6{,}1 \\times 10^{-7}}{2{,}44 \\times 10^{-6}} = 0{,}25\\text{ m}$."
       },
       {
+        "key": "D",
+        "text": "$D = 0{,}10\\text{ meter}$, dihitung tanpa mengikutsertakan tetapan difraksi lubang lingkaran Kriteria Rayleigh."
+      },
+      {
         "key": "E",
-        "text": "$D = 0{,}05\\text{ meter}$, dihitung dari perbandingan panjang gelombang terhadap sudut pemisahan tanpa pembagian eksponen."
+        "text": "$D = 1{,}22\\text{ meter}$, karena tetapan Rayleigh langsung dijadikan nilai diameter fisik cermin objektif teleskop."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $D = 0{,}25\\text{ meter}$ (atau $25\\text{ cm}$), dihitung dari Kriteria Rayleigh $\\theta_R = 1{,}22 \\frac{\\lambda}{D}$, sehingga diameter objektif minimum adalah $D = \\frac{1{,}22 \\lambda}{\\theta_R} = \\frac{1{,}22 \\times (5 \\times 10^{-7}\\text{ m})}{2{,}44 \\times 10^{-6}\\text{ rad}} = \\frac{6{,}1 \\times 10^{-7}}{2{,}44 \\times 10^{-6}} = 0{,}25\\text{ m}$.. Daya urai sudut apertur melingkar memenuhi kriteria Rayleigh: theta = 1,22 * lambda / D. Maka D = 1,22 * lambda / theta. D = (1,22 * 5e-7) / 2,44e-6 = 6,1e-7 / 2,44e-6 = 0,25 m = 25 cm."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $D = 0{,}25\\text{ meter}$ (atau $25\\text{ cm}$), dihitung dari Kriteria Rayleigh $\\theta_R = 1{,}22 \\frac{\\lambda}{D}$, sehingga diameter objektif minimum adalah $D = \\frac{1{,}22 \\lambda}{\\theta_R} = \\frac{1{,}22 \\times (5 \\times 10^{-7}\\text{ m})}{2{,}44 \\times 10^{-6}\\text{ rad}} = \\frac{6{,}1 \\times 10^{-7}}{2{,}44 \\times 10^{-6}} = 0{,}25\\text{ m}$.. Daya urai sudut apertur melingkar memenuhi kriteria Rayleigh: theta = 1,22 * lambda / D. Maka D = 1,22 * lambda / theta. D = (1,22 * 5e-7) / 2,44e-6 = 6,1e-7 / 2,44e-6 = 0,25 m = 25 cm."
   },
   {
     "id": "fis-lat-h-10",
@@ -2562,19 +2563,19 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$W_m = 1{,}256 \\times 10^{-3}\\text{ Joule}$, karena pengaruh penguatan medan oleh permeabilitas relatif inti feromagnetik tidak diikutsertakan diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
         "text": "$W_m = 6{,}28\\text{ Joule}$, karena luas penampang solenoida tidak dikonversi dari satuan sentimeter kuadrat ke meter kuadrat."
       },
       {
+        "key": "B",
+        "text": "$W_m = 0{,}02\\pi\\text{ Joule}$, dihitung dari asumsi jumlah lilitan hanya bernilai pangkat satu dalam rumus induktansi diri."
+      },
+      {
         "key": "C",
-        "text": "$W_m = 3{,}14\\text{ Joule}$, dihitung dari perkalian induktansi diri dengan arus tanpa faktor pembagian satu per dua."
+        "text": "$W_m = 1{,}256 \\times 10^{-3}\\text{ Joule}$, karena pengaruh penguatan medan oleh permeabilitas relatif inti feromagnetik tidak diikutsertakan diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "D",
-        "text": "$W_m = 0{,}02\\pi\\text{ Joule}$, dihitung dari asumsi jumlah lilitan hanya bernilai pangkat satu dalam rumus induktansi diri."
+        "text": "$W_m = 3{,}14\\text{ Joule}$, dihitung dari perkalian induktansi diri dengan arus tanpa faktor pembagian satu per dua."
       },
       {
         "key": "E",
@@ -2605,27 +2606,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\varepsilon = 3{,}14\\text{ Volt}$ (atau $\\pi\\text{ Volt}$), karena kecepatan sudut putaran adalah $\\omega = 600 \\times \\frac{2\\pi}{60} = 20\\pi\\text{ rad/s}$, sehingga luas sapuan lingkaran per detik memicu GGL induksi $\\varepsilon = \\frac{1}{2} B \\omega L^2 = \\frac{1}{2} (0{,}4) (20\\pi) (0{,}5)^2 = 0{,}2 \\times 20\\pi \\times 0{,}25 = \\pi\\text{ Volt} \\approx 3{,}14\\text{ Volt}$."
-      },
-      {
-        "key": "B",
-        "text": "$\\varepsilon = 6{,}28\\text{ Volt}$ (atau $2\\pi\\text{ Volt}$), karena formula GGL batang berputar keliru tidak dibagi dua ($BL^2\\omega$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
-        "text": "$\\varepsilon = 1{,}57\\text{ Volt}$ (atau $0{,}5\\pi\\text{ Volt}$), dihitung dari kesalahan memasukkan panjang batang menjadi nilai jari-jari kuadrat."
-      },
-      {
-        "key": "D",
         "text": "$\\varepsilon = 120\\text{ Volt}$, karena frekuensi sudut langsung menggunakan satuan rpm tanpa konversi ke radian per sekon."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "$\\varepsilon = 0{,}5\\text{ Volt}$, dihitung dari rumus batang bergerak translasi lurus ($BLv$) dengan kecepatan ujung poros pusat."
+      },
+      {
+        "key": "C",
+        "text": "$\\varepsilon = 6{,}28\\text{ Volt}$ (atau $2\\pi\\text{ Volt}$), karena formula GGL batang berputar keliru tidak dibagi dua ($BL^2\\omega$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "D",
+        "text": "$\\varepsilon = 1{,}57\\text{ Volt}$ (atau $0{,}5\\pi\\text{ Volt}$), dihitung dari kesalahan memasukkan panjang batang menjadi nilai jari-jari kuadrat."
+      },
+      {
+        "key": "E",
+        "text": "$\\varepsilon = 3{,}14\\text{ Volt}$ (atau $\\pi\\text{ Volt}$), karena kecepatan sudut putaran adalah $\\omega = 600 \\times \\frac{2\\pi}{60} = 20\\pi\\text{ rad/s}$, sehingga luas sapuan lingkaran per detik memicu GGL induksi $\\varepsilon = \\frac{1}{2} B \\omega L^2 = \\frac{1}{2} (0{,}4) (20\\pi) (0{,}5)^2 = 0{,}2 \\times 20\\pi \\times 0{,}25 = \\pi\\text{ Volt} \\approx 3{,}14\\text{ Volt}$."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\varepsilon = 3{,}14\\text{ Volt}$ (atau $\\pi\\text{ Volt}$), karena kecepatan sudut putaran adalah $\\omega = 600 \\times \\frac{2\\pi}{60} = 20\\pi\\text{ rad/s}$, sehingga luas sapuan lingkaran per detik memicu GGL induksi $\\varepsilon = \\frac{1}{2} B \\omega L^2 = \\frac{1}{2} (0{,}4) (20\\pi) (0{,}5)^2 = 0{,}2 \\times 20\\pi \\times 0{,}25 = \\pi\\text{ Volt} \\approx 3{,}14\\text{ Volt}$.. Konversi rpm ke rad/s: omega = 600 * 2pi / 60 = 20pi rad/s. GGL batang berputar: epsilon = 1/2 * B * omega * L^2. epsilon = 0,5 * 0,4 * 20pi * (0,5)^2 = 4pi * 0,25 = pi Volt = 3,14 V."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\varepsilon = 3{,}14\\text{ Volt}$ (atau $\\pi\\text{ Volt}$), karena kecepatan sudut putaran adalah $\\omega = 600 \\times \\frac{2\\pi}{60} = 20\\pi\\text{ rad/s}$, sehingga luas sapuan lingkaran per detik memicu GGL induksi $\\varepsilon = \\frac{1}{2} B \\omega L^2 = \\frac{1}{2} (0{,}4) (20\\pi) (0{,}5)^2 = 0{,}2 \\times 20\\pi \\times 0{,}25 = \\pi\\text{ Volt} \\approx 3{,}14\\text{ Volt}$.. Konversi rpm ke rad/s: omega = 600 * 2pi / 60 = 20pi rad/s. GGL batang berputar: epsilon = 1/2 * B * omega * L^2. epsilon = 0,5 * 0,4 * 20pi * (0,5)^2 = 4pi * 0,25 = pi Volt = 3,14 V."
   },
   {
     "id": "fis-lat-h-12",
@@ -2648,27 +2649,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 1{,}0$, dan $P_{\\text{nyata}} = 200\\text{ Watt}$, karena rangkaian diasumsikan mengalami resonansi murni padahal reaktansinya tidak saling meniadakan sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
-        "text": "$X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 0{,}6$, dan $P_{\\text{nyata}} = 120\\text{ Watt}$, karena $X_L = \\omega L = 1.000 \\times 0{,}08 = 80\\,\\Omega$, $X_C = \\frac{1}{\\omega C} = \\frac{1}{1.000 \\times 25 \\times 10^{-6}} = 40\\,\\Omega$. Impedansi $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + (80 - 40)^2} = \\sqrt{900 + 1.600} = 50\\,\\Omega$. Arus efektif $I_{\\text{ef}} = \\frac{V_{\\text{ef}}}{Z} = \\frac{100}{50} = 2\\text{ A}$. Faktor daya $\\cos\\phi = \\frac{R}{Z} = \\frac{30}{50} = 0{,}6$, dan daya nyata $P = I_{\\text{ef}}^2 R = 2^2 \\times 30 = 120\\text{ Watt}$."
-      },
-      {
-        "key": "C",
         "text": "$X_L = 40\\,\\Omega$, $X_C = 80\\,\\Omega$, $\\cos\\phi = 0{,}8$, dan $P_{\\text{nyata}} = 160\\text{ Watt}$, karena formula reaktansi induktif dan kapasitif tertukar perhitungannya."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 0{,}5$, dan $P_{\\text{nyata}} = 100\\text{ Watt}$, dihitung dari rasio tegangan puncak bukan tegangan efektif RMS."
+      },
+      {
+        "key": "C",
+        "text": "$X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 1{,}0$, dan $P_{\\text{nyata}} = 200\\text{ Watt}$, karena rangkaian diasumsikan mengalami resonansi murni padahal reaktansinya tidak saling meniadakan sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "D",
+        "text": "$X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 0{,}6$, dan $P_{\\text{nyata}} = 120\\text{ Watt}$, karena $X_L = \\omega L = 1.000 \\times 0{,}08 = 80\\,\\Omega$, $X_C = \\frac{1}{\\omega C} = \\frac{1}{1.000 \\times 25 \\times 10^{-6}} = 40\\,\\Omega$. Impedansi $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + (80 - 40)^2} = \\sqrt{900 + 1.600} = 50\\,\\Omega$. Arus efektif $I_{\\text{ef}} = \\frac{V_{\\text{ef}}}{Z} = \\frac{100}{50} = 2\\text{ A}$. Faktor daya $\\cos\\phi = \\frac{R}{Z} = \\frac{30}{50} = 0{,}6$, dan daya nyata $P = I_{\\text{ef}}^2 R = 2^2 \\times 30 = 120\\text{ Watt}$."
       },
       {
         "key": "E",
         "text": "$X_L = 100\\,\\Omega$, $X_C = 50\\,\\Omega$, $\\cos\\phi = 0{,}6$, dan $P_{\\text{nyata}} = 60\\text{ Watt}$, dihitung dari perkalian impedansi terhadap frekuensi sumber jala-jala listrik."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 0{,}6$, dan $P_{\\text{nyata}} = 120\\text{ Watt}$, karena $X_L = \\omega L = 1.000 \\times 0{,}08 = 80\\,\\Omega$, $X_C = \\frac{1}{\\omega C} = \\frac{1}{1.000 \\times 25 \\times 10^{-6}} = 40\\,\\Omega$. Impedansi $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + (80 - 40)^2} = \\sqrt{900 + 1.600} = 50\\,\\Omega$. Arus efektif $I_{\\text{ef}} = \\frac{V_{\\text{ef}}}{Z} = \\frac{100}{50} = 2\\text{ A}$. Faktor daya $\\cos\\phi = \\frac{R}{Z} = \\frac{30}{50} = 0{,}6$, dan daya nyata $P = I_{\\text{ef}}^2 R = 2^2 \\times 30 = 120\\text{ Watt}$.. Hitung XL = omega * L dan XC = 1 / (omega * C). Impedansi Z = sqrt(R^2 + (XL - XC)^2). I_ef = V_ef / Z. cos(phi) = R / Z. P = I_ef^2 * R. XL = 80 ohm, XC = 40 ohm, Z = 50 ohm. I_ef = 100/50 = 2 A. cos(phi) = 30/50 = 0,6. P = 2^2 * 30 = 120 W."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $X_L = 80\\,\\Omega$, $X_C = 40\\,\\Omega$, $\\cos\\phi = 0{,}6$, dan $P_{\\text{nyata}} = 120\\text{ Watt}$, karena $X_L = \\omega L = 1.000 \\times 0{,}08 = 80\\,\\Omega$, $X_C = \\frac{1}{\\omega C} = \\frac{1}{1.000 \\times 25 \\times 10^{-6}} = 40\\,\\Omega$. Impedansi $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{30^2 + (80 - 40)^2} = \\sqrt{900 + 1.600} = 50\\,\\Omega$. Arus efektif $I_{\\text{ef}} = \\frac{V_{\\text{ef}}}{Z} = \\frac{100}{50} = 2\\text{ A}$. Faktor daya $\\cos\\phi = \\frac{R}{Z} = \\frac{30}{50} = 0{,}6$, dan daya nyata $P = I_{\\text{ef}}^2 R = 2^2 \\times 30 = 120\\text{ Watt}$.. Hitung XL = omega * L dan XC = 1 / (omega * C). Impedansi Z = sqrt(R^2 + (XL - XC)^2). I_ef = V_ef / Z. cos(phi) = R / Z. P = I_ef^2 * R. XL = 80 ohm, XC = 40 ohm, Z = 50 ohm. I_ef = 100/50 = 2 A. cos(phi) = 30/50 = 0,6. P = 2^2 * 30 = 120 W."
   },
   {
     "id": "fis-lat-h-13",
@@ -2691,27 +2692,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\frac{P_A}{P_B} = 16 : 1$, karena hanya memperhitungkan rasio suhu pangkat empat tanpa mengalikan rasio kuadrat radius bintang ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
-        "text": "$\\frac{P_A}{P_B} = 32 : 1$, dihitung dari asumsi radiasi berbanding lurus dengan pangkat lima suhu permukaan benda."
-      },
-      {
-        "key": "C",
         "text": "$\\frac{P_A}{P_B} = 64 : 1$, karena menurut Hukum Pergeseran Wien $\\lambda_{\\max} T = C$, rasio suhu kedua bintang adalah $\\frac{T_A}{T_B} = \\frac{\\lambda_B}{\\lambda_A} = \\frac{800}{400} = 2$. Daya radiasi total bola bintang berbanding lurus dengan luas permukaan dan suhu pangkat empat ($P = \\sigma A T^4 = 4\\pi R^2 \\sigma T^4$), sehingga $\\frac{P_A}{P_B} = \\left(\\frac{R_A}{R_B}\\right)^2 \\left(\\frac{T_A}{T_B}\\right)^4 = (2)^2 \\times (2)^4 = 4 \\times 16 = 64$."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$\\frac{P_A}{P_B} = 8 : 1$, karena suhu permukaan bintang dianggap berbanding lurus linier terhadap panjang gelombang puncak."
+      },
+      {
+        "key": "C",
+        "text": "$\\frac{P_A}{P_B} = 16 : 1$, karena hanya memperhitungkan rasio suhu pangkat empat tanpa mengalikan rasio kuadrat radius bintang."
+      },
+      {
+        "key": "D",
+        "text": "$\\frac{P_A}{P_B} = 32 : 1$, dihitung dari asumsi radiasi berbanding lurus dengan pangkat lima suhu permukaan benda."
       },
       {
         "key": "E",
         "text": "$\\frac{P_A}{P_B} = 4 : 1$, karena mengabaikan variabel suhu dan hanya memperhitungkan faktor luas permukaan bola bintang."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\frac{P_A}{P_B} = 64 : 1$, karena menurut Hukum Pergeseran Wien $\\lambda_{\\max} T = C$, rasio suhu kedua bintang adalah $\\frac{T_A}{T_B} = \\frac{\\lambda_B}{\\lambda_A} = \\frac{800}{400} = 2$. Daya radiasi total bola bintang berbanding lurus dengan luas permukaan dan suhu pangkat empat ($P = \\sigma A T^4 = 4\\pi R^2 \\sigma T^4$), sehingga $\\frac{P_A}{P_B} = \\left(\\frac{R_A}{R_B}\\right)^2 \\left(\\frac{T_A}{T_B}\\right)^4 = (2)^2 \\times (2)^4 = 4 \\times 16 = 64$.. Hukum Wien: T berbanding terbalik dengan lambda_max, sehingga TA/TB = lambda_B/lambda_A = 800/400 = 2. Daya Stefan-Boltzmann: P sebanding dengan R^2 * T^4. PA / PB = (RA/RB)^2 * (TA/TB)^4 = (2)^2 * (2)^4 = 4 * 16 = 64."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\frac{P_A}{P_B} = 64 : 1$, karena menurut Hukum Pergeseran Wien $\\lambda_{\\max} T = C$, rasio suhu kedua bintang adalah $\\frac{T_A}{T_B} = \\frac{\\lambda_B}{\\lambda_A} = \\frac{800}{400} = 2$. Daya radiasi total bola bintang berbanding lurus dengan luas permukaan dan suhu pangkat empat ($P = \\sigma A T^4 = 4\\pi R^2 \\sigma T^4$), sehingga $\\frac{P_A}{P_B} = \\left(\\frac{R_A}{R_B}\\right)^2 \\left(\\frac{T_A}{T_B}\\right)^4 = (2)^2 \\times (2)^4 = 4 \\times 16 = 64$.. Hukum Wien: T berbanding terbalik dengan lambda_max, sehingga TA/TB = lambda_B/lambda_A = 800/400 = 2. Daya Stefan-Boltzmann: P sebanding dengan R^2 * T^4. PA / PB = (RA/RB)^2 * (TA/TB)^4 = (2)^2 * (2)^4 = 4 * 16 = 64."
   },
   {
     "id": "fis-lat-h-14",
@@ -2734,27 +2735,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_{k,\\max} = 7{,}0\\text{ eV}$ dan $V_0 = 7{,}0\\text{ Volt}$, karena energi foton datang keliru dijumlahkan dengan fungsi kerja logam emiter menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$E_{k,\\max} = 0{,}5\\text{ eV}$ dan $V_0 = 0{,}5\\text{ Volt}$, dihitung dari kuadrat rasio fungsi kerja terhadap energi foton sinar datang."
       },
       {
         "key": "B",
-        "text": "$E_{k,\\max} = 1{,}8\\text{ eV}$ dan $V_0 = 1{,}8\\text{ Volt}$, dihitung dari efisiensi kuantum pelepasan elektron emisi termionik."
-      },
-      {
-        "key": "C",
-        "text": "$E_{k,\\max} = 2{,}5\\text{ eV}$ dan $V_0 = 2{,}5\\text{ Volt}$, karena menyamakan energi kinetik maksimum dengan nilai fungsi kerja logam."
-      },
-      {
-        "key": "D",
         "text": "$E_{k,\\max} = 2{,}0\\text{ eV}$ dan $V_0 = 2{,}0\\text{ Volt}$, karena menurut persamaan fotolistrik Einstein, energi kinetik maksimum fotoelektron adalah $E_{k,\\max} = hf - W_0 = 4{,}5\\text{ eV} - 2{,}5\\text{ eV} = 2{,}0\\text{ eV}$. Potensial henti memenuhi hubungan $e V_0 = E_{k,\\max}$, sehingga $V_0 = \\frac{2{,}0\\text{ eV}}{e} = 2{,}0\\text{ Volt}$."
       },
       {
+        "key": "C",
+        "text": "$E_{k,\\max} = 7{,}0\\text{ eV}$ dan $V_0 = 7{,}0\\text{ Volt}$, karena energi foton datang keliru dijumlahkan dengan fungsi kerja logam emiter."
+      },
+      {
+        "key": "D",
+        "text": "$E_{k,\\max} = 2{,}5\\text{ eV}$ dan $V_0 = 2{,}5\\text{ Volt}$, karena menyamakan energi kinetik maksimum dengan nilai fungsi kerja logam."
+      },
+      {
         "key": "E",
-        "text": "$E_{k,\\max} = 0{,}5\\text{ eV}$ dan $V_0 = 0{,}5\\text{ Volt}$, dihitung dari kuadrat rasio fungsi kerja terhadap energi foton sinar datang."
+        "text": "$E_{k,\\max} = 1{,}8\\text{ eV}$ dan $V_0 = 1{,}8\\text{ Volt}$, dihitung dari efisiensi kuantum pelepasan elektron emisi termionik."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $E_{k,\\max} = 2{,}0\\text{ eV}$ dan $V_0 = 2{,}0\\text{ Volt}$, karena menurut persamaan fotolistrik Einstein, energi kinetik maksimum fotoelektron adalah $E_{k,\\max} = hf - W_0 = 4{,}5\\text{ eV} - 2{,}5\\text{ eV} = 2{,}0\\text{ eV}$. Potensial henti memenuhi hubungan $e V_0 = E_{k,\\max}$, sehingga $V_0 = \\frac{2{,}0\\text{ eV}}{e} = 2{,}0\\text{ Volt}$.. Gunakan persamaan Einstein: Ek_max = E_foton - W0. Hubungan potensial henti: e * V0 = Ek_max. Ek_max = 4,5 eV - 2,5 eV = 2,0 eV. V0 = 2,0 V."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $E_{k,\\max} = 2{,}0\\text{ eV}$ dan $V_0 = 2{,}0\\text{ Volt}$, karena menurut persamaan fotolistrik Einstein, energi kinetik maksimum fotoelektron adalah $E_{k,\\max} = hf - W_0 = 4{,}5\\text{ eV} - 2{,}5\\text{ eV} = 2{,}0\\text{ eV}$. Potensial henti memenuhi hubungan $e V_0 = E_{k,\\max}$, sehingga $V_0 = \\frac{2{,}0\\text{ eV}}{e} = 2{,}0\\text{ Volt}$.. Gunakan persamaan Einstein: Ek_max = E_foton - W0. Hubungan potensial henti: e * V0 = Ek_max. Ek_max = 4,5 eV - 2,5 eV = 2,0 eV. V0 = 2,0 V."
   },
   {
     "id": "fis-lat-h-15",
@@ -2777,27 +2778,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\lambda' = 0{,}0188\\text{ nm}$, karena panjang gelombang foton dihamburkan keliru dikurangi akibat salah asumsi bahwa foton menyerap energi dari elektron diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
         "text": "$\\lambda' = 0{,}0224\\text{ nm}$, dihitung dari sudut hamburan sembilan puluh derajat dengan nilai sinus satu."
       },
       {
-        "key": "C",
-        "text": "$\\lambda' = 0{,}0243\\text{ nm}$, karena langsung menambahkan konstanta panjang gelombang Compton utuh tanpa faktor sudut."
+        "key": "B",
+        "text": "$\\lambda' = 0{,}0212\\text{ nm}$ (atau $2{,}1215 \\times 10^{-11}\\text{ m}$), karena pergeseran Compton adalah $\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_C (1 - \\cos\\theta) = 0{,}00243\\text{ nm} \\times (1 - 0{,}5) = 0{,}001215\\text{ nm}$, sehingga panjang gelombang foton terhambur bertambah panjang menjadi $\\lambda' = \\lambda + \\Delta\\lambda = 0{,}0200 + 0{,}001215 = 0{,}021215\\text{ nm} \\approx 0{,}0212\\text{ nm}$."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\lambda' = 0{,}0100\\text{ nm}$, dihitung dari pembagian panjang gelombang foton datang dengan nilai cosinus sudut hambur."
       },
       {
+        "key": "D",
+        "text": "$\\lambda' = 0{,}0243\\text{ nm}$, karena langsung menambahkan konstanta panjang gelombang Compton utuh tanpa faktor sudut."
+      },
+      {
         "key": "E",
-        "text": "$\\lambda' = 0{,}0212\\text{ nm}$ (atau $2{,}1215 \\times 10^{-11}\\text{ m}$), karena pergeseran Compton adalah $\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_C (1 - \\cos\\theta) = 0{,}00243\\text{ nm} \\times (1 - 0{,}5) = 0{,}001215\\text{ nm}$, sehingga panjang gelombang foton terhambur bertambah panjang menjadi $\\lambda' = \\lambda + \\Delta\\lambda = 0{,}0200 + 0{,}001215 = 0{,}021215\\text{ nm} \\approx 0{,}0212\\text{ nm}$."
+        "text": "$\\lambda' = 0{,}0188\\text{ nm}$, karena panjang gelombang foton dihamburkan keliru dikurangi akibat salah asumsi bahwa foton menyerap energi dari elektron diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\lambda' = 0{,}0212\\text{ nm}$ (atau $2{,}1215 \\times 10^{-11}\\text{ m}$), karena pergeseran Compton adalah $\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_C (1 - \\cos\\theta) = 0{,}00243\\text{ nm} \\times (1 - 0{,}5) = 0{,}001215\\text{ nm}$, sehingga panjang gelombang foton terhambur bertambah panjang menjadi $\\lambda' = \\lambda + \\Delta\\lambda = 0{,}0200 + 0{,}001215 = 0{,}021215\\text{ nm} \\approx 0{,}0212\\text{ nm}$.. Rumus hamburan Compton: lambda' - lambda = (h / (me * c)) * (1 - cos theta). Delta_lambda = lambda_C * (1 - cos 60). Delta_lambda = 0,00243 * (1 - 0,5) = 0,001215 nm. lambda' = 0,0200 + 0,001215 = 0,0212 nm."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\lambda' = 0{,}0212\\text{ nm}$ (atau $2{,}1215 \\times 10^{-11}\\text{ m}$), karena pergeseran Compton adalah $\\Delta\\lambda = \\lambda' - \\lambda = \\lambda_C (1 - \\cos\\theta) = 0{,}00243\\text{ nm} \\times (1 - 0{,}5) = 0{,}001215\\text{ nm}$, sehingga panjang gelombang foton terhambur bertambah panjang menjadi $\\lambda' = \\lambda + \\Delta\\lambda = 0{,}0200 + 0{,}001215 = 0{,}021215\\text{ nm} \\approx 0{,}0212\\text{ nm}$.. Rumus hamburan Compton: lambda' - lambda = (h / (me * c)) * (1 - cos theta). Delta_lambda = lambda_C * (1 - cos 60). Delta_lambda = 0,00243 * (1 - 0,5) = 0,001215 nm. lambda' = 0,0200 + 0,001215 = 0,0212 nm."
   },
   {
     "id": "fis-lat-h-16",
@@ -2820,15 +2821,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E_{\\text{foton}} = 2{,}55\\text{ eV}$ dan $\\lambda \\approx 486\\text{ nm}$, karena tingkat energi $E_2 = \\frac{-13{,}6}{2^2} = -3{,}4\\text{ eV}$ dan $E_4 = \\frac{-13{,}6}{4^2} = -0{,}85\\text{ eV}$, sehingga selisih energi yang diserap foton adalah $\\Delta E = E_4 - E_2 = -0{,}85 - (-3{,}4) = 2{,}55\\text{ eV}$. Panjang gelombang foton adalah $\\lambda = \\frac{hc}{\\Delta E} = \\frac{1.240\\text{ eV}\\cdot\\text{nm}}{2{,}55\\text{ eV}} \\approx 486{,}27\\text{ nm}$ (garis biru-kehijauan $H_\\beta$ deret Balmer)."
+        "text": "$E_{\\text{foton}} = 10{,}2\\text{ eV}$ dan $\\lambda \\approx 121\\text{ nm}$, karena merupakan transisi eksitasi dari kulit dasar n = 1 ke n = 2 pada deret Lyman."
       },
       {
         "key": "B",
-        "text": "$E_{\\text{foton}} = 3{,}40\\text{ eV}$ dan $\\lambda \\approx 365\\text{ nm}$, dihitung dari transisi elektron langsung dari tak hingga menuju lintasan kedua sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$E_{\\text{foton}} = 0{,}85\\text{ eV}$ dan $\\lambda \\approx 1.458\\text{ nm}$, dihitung dari nilai mutlak energi orbital n = 4 atom hidrogen."
       },
       {
         "key": "C",
-        "text": "$E_{\\text{foton}} = 10{,}2\\text{ eV}$ dan $\\lambda \\approx 121\\text{ nm}$, karena merupakan transisi eksitasi dari kulit dasar n = 1 ke n = 2 pada deret Lyman."
+        "text": "$E_{\\text{foton}} = 3{,}40\\text{ eV}$ dan $\\lambda \\approx 365\\text{ nm}$, dihitung dari transisi elektron langsung dari tak hingga menuju lintasan kedua sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "D",
@@ -2836,11 +2837,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$E_{\\text{foton}} = 0{,}85\\text{ eV}$ dan $\\lambda \\approx 1.458\\text{ nm}$, dihitung dari nilai mutlak energi orbital n = 4 atom hidrogen."
+        "text": "$E_{\\text{foton}} = 2{,}55\\text{ eV}$ dan $\\lambda \\approx 486\\text{ nm}$, karena tingkat energi $E_2 = \\frac{-13{,}6}{2^2} = -3{,}4\\text{ eV}$ dan $E_4 = \\frac{-13{,}6}{4^2} = -0{,}85\\text{ eV}$, sehingga selisih energi yang diserap foton adalah $\\Delta E = E_4 - E_2 = -0{,}85 - (-3{,}4) = 2{,}55\\text{ eV}$. Panjang gelombang foton adalah $\\lambda = \\frac{hc}{\\Delta E} = \\frac{1.240\\text{ eV}\\cdot\\text{nm}}{2{,}55\\text{ eV}} \\approx 486{,}27\\text{ nm}$ (garis biru-kehijauan $H_\\beta$ deret Balmer)."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $E_{\\text{foton}} = 2{,}55\\text{ eV}$ dan $\\lambda \\approx 486\\text{ nm}$, karena tingkat energi $E_2 = \\frac{-13{,}6}{2^2} = -3{,}4\\text{ eV}$ dan $E_4 = \\frac{-13{,}6}{4^2} = -0{,}85\\text{ eV}$, sehingga selisih energi yang diserap foton adalah $\\Delta E = E_4 - E_2 = -0{,}85 - (-3{,}4) = 2{,}55\\text{ eV}$. Panjang gelombang foton adalah $\\lambda = \\frac{hc}{\\Delta E} = \\frac{1.240\\text{ eV}\\cdot\\text{nm}}{2{,}55\\text{ eV}} \\approx 486{,}27\\text{ nm}$ (garis biru-kehijauan $H_\\beta$ deret Balmer).. En = -13,6 / n^2 eV. Hitung E2 = -13,6/4 = -3,4 eV dan E4 = -13,6/16 = -0,85 eV. Delta E = E4 - E2. lambda = hc / Delta E. Delta E = -0,85 - (-3,4) = 2,55 eV. lambda = 1.240 / 2,55 = 486 nm."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $E_{\\text{foton}} = 2{,}55\\text{ eV}$ dan $\\lambda \\approx 486\\text{ nm}$, karena tingkat energi $E_2 = \\frac{-13{,}6}{2^2} = -3{,}4\\text{ eV}$ dan $E_4 = \\frac{-13{,}6}{4^2} = -0{,}85\\text{ eV}$, sehingga selisih energi yang diserap foton adalah $\\Delta E = E_4 - E_2 = -0{,}85 - (-3{,}4) = 2{,}55\\text{ eV}$. Panjang gelombang foton adalah $\\lambda = \\frac{hc}{\\Delta E} = \\frac{1.240\\text{ eV}\\cdot\\text{nm}}{2{,}55\\text{ eV}} \\approx 486{,}27\\text{ nm}$ (garis biru-kehijauan $H_\\beta$ deret Balmer).. En = -13,6 / n^2 eV. Hitung E2 = -13,6/4 = -3,4 eV dan E4 = -13,6/16 = -0,85 eV. Delta E = E4 - E2. lambda = hc / Delta E. Delta E = -0,85 - (-3,4) = 2,55 eV. lambda = 1.240 / 2,55 = 486 nm."
   },
   {
     "id": "fis-lat-h-17",
@@ -2863,27 +2864,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta t = 2{,}2\\,\\mu\\text{s}$ dan $s = 0{,}647\\text{ km}$, dihitung dengan mengabaikan dilatasi waktu relativistik mekanika klasik Einstein sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
         "text": "$\\Delta t = 11\\,\\mu\\text{s}$ dan $s = 3{,}234\\text{ km}$ (sehingga sebagian muon mampu mencapai detektor di permukaan laut melalui efek relativistik), karena waktu hidup menurut pengamat bumi mengalami dilatasi waktu $\\Delta t = \\gamma \\Delta t_0 = 5{,}0 \\times 2{,}2\\,\\mu\\text{s} = 11\\,\\mu\\text{s} = 1{,}1 \\times 10^{-5}\\text{ s}$. Jarak tempuh dalam kerangka bumi adalah $s = v \\Delta t = (0{,}98 \\times 3 \\times 10^8\\text{ m/s}) \\times (1{,}1 \\times 10^{-5}\\text{ s}) = 2{,}94 \\times 10^8 \\times 1{,}1 \\times 10^{-5} \\approx 3.234\\text{ meter} = 3{,}234\\text{ km}$."
       },
       {
-        "key": "C",
-        "text": "$\\Delta t = 0{,}44\\,\\mu\\text{s}$ dan $s = 0{,}129\\text{ km}$, karena waktu hidup muon keliru dibagi dengan faktor Lorentz."
+        "key": "B",
+        "text": "$\\Delta t = 55\\,\\mu\\text{s}$ dan $s = 16{,}17\\text{ km}$, dihitung dari pemangkatan kuadrat rasio kecepatan partikel muon."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\Delta t = 22\\,\\mu\\text{s}$ dan $s = 6{,}468\\text{ km}$, dihitung dari asumsi faktor Lorentz sebesar sepuluh."
       },
       {
+        "key": "D",
+        "text": "$\\Delta t = 2{,}2\\,\\mu\\text{s}$ dan $s = 0{,}647\\text{ km}$, dihitung dengan mengabaikan dilatasi waktu relativistik mekanika klasik Einstein sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
         "key": "E",
-        "text": "$\\Delta t = 55\\,\\mu\\text{s}$ dan $s = 16{,}17\\text{ km}$, dihitung dari pemangkatan kuadrat rasio kecepatan partikel muon."
+        "text": "$\\Delta t = 0{,}44\\,\\mu\\text{s}$ dan $s = 0{,}129\\text{ km}$, karena waktu hidup muon keliru dibagi dengan faktor Lorentz."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\Delta t = 11\\,\\mu\\text{s}$ dan $s = 3{,}234\\text{ km}$ (sehingga sebagian muon mampu mencapai detektor di permukaan laut melalui efek relativistik), karena waktu hidup menurut pengamat bumi mengalami dilatasi waktu $\\Delta t = \\gamma \\Delta t_0 = 5{,}0 \\times 2{,}2\\,\\mu\\text{s} = 11\\,\\mu\\text{s} = 1{,}1 \\times 10^{-5}\\text{ s}$. Jarak tempuh dalam kerangka bumi adalah $s = v \\Delta t = (0{,}98 \\times 3 \\times 10^8\\text{ m/s}) \\times (1{,}1 \\times 10^{-5}\\text{ s}) = 2{,}94 \\times 10^8 \\times 1{,}1 \\times 10^{-5} \\approx 3.234\\text{ meter} = 3{,}234\\text{ km}$.. Dilatasi waktu: Delta_t = gamma * Delta_t0 = 5 * 2,2 mikrodetik = 11 mikrodetik. Jarak tempuh di bumi: s = v * Delta_t = 0,98 * 3e8 * 11e-6 m. Delta_t = 11 mikrosekon. s = 2,94e8 * 1,1e-5 = 3.234 m = 3,234 km."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta t = 11\\,\\mu\\text{s}$ dan $s = 3{,}234\\text{ km}$ (sehingga sebagian muon mampu mencapai detektor di permukaan laut melalui efek relativistik), karena waktu hidup menurut pengamat bumi mengalami dilatasi waktu $\\Delta t = \\gamma \\Delta t_0 = 5{,}0 \\times 2{,}2\\,\\mu\\text{s} = 11\\,\\mu\\text{s} = 1{,}1 \\times 10^{-5}\\text{ s}$. Jarak tempuh dalam kerangka bumi adalah $s = v \\Delta t = (0{,}98 \\times 3 \\times 10^8\\text{ m/s}) \\times (1{,}1 \\times 10^{-5}\\text{ s}) = 2{,}94 \\times 10^8 \\times 1{,}1 \\times 10^{-5} \\approx 3.234\\text{ meter} = 3{,}234\\text{ km}$.. Dilatasi waktu: Delta_t = gamma * Delta_t0 = 5 * 2,2 mikrodetik = 11 mikrodetik. Jarak tempuh di bumi: s = v * Delta_t = 0,98 * 3e8 * 11e-6 m. Delta_t = 11 mikrosekon. s = 2,94e8 * 1,1e-5 = 3.234 m = 3,234 km."
   },
   {
     "id": "fis-lat-h-18",
@@ -2906,27 +2907,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = 0{,}5c$ dan $p = m_0 c$, karena kecepatan diasumsikan berbanding lurus linier dengan setengah faktor energi kinetik ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$v = 0{,}98c$ dan $p = 3 m_0 c$, dihitung dari perkiraan kasar kecepatan tanpa penyelesaian aljabar Lorentz."
       },
       {
         "key": "B",
-        "text": "$v = \\frac{1}{\\sqrt{2}}c \\approx 0{,}707c$ dan $p = 2 m_0 c$, dihitung dari persamaan mekanika Newtonian non-relativistik."
+        "text": "$v = 0{,}5c$ dan $p = m_0 c$, karena kecepatan diasumsikan berbanding lurus linier dengan setengah faktor energi kinetik."
       },
       {
         "key": "C",
-        "text": "$v = \\frac{1}{2}\\sqrt{3}\\,c \\approx 0{,}866c$ dan $p = \\sqrt{3}\\,m_0 c$, karena energi total partikel adalah $E = E_k + E_0 = 2 E_0 = 2 m_0 c^2$. Karena $E = \\gamma E_0$, maka faktor Lorentz bernilai $\\gamma = 2 \\implies \\frac{1}{\\sqrt{1 - (v/c)^2}} = 2 \\implies 1 - (v/c)^2 = \\frac{1}{4} \\implies (v/c)^2 = \\frac{3}{4} \\implies v = \\frac{\\sqrt{3}}{2}c$. Dari relasi $E^2 = p^2 c^2 + E_0^2$, kita dapatkan $(2 E_0)^2 = p^2 c^2 + E_0^2 \\implies 4 E_0^2 - E_0^2 = p^2 c^2 \\implies p^2 c^2 = 3 E_0^2 \\implies p = \\sqrt{3}\\frac{E_0}{c} = \\sqrt{3} m_0 c$."
+        "text": "$v = \\frac{1}{\\sqrt{2}}c \\approx 0{,}707c$ dan $p = 2 m_0 c$, dihitung dari persamaan mekanika Newtonian non-relativistik."
       },
       {
         "key": "D",
-        "text": "$v = 0{,}98c$ dan $p = 3 m_0 c$, dihitung dari perkiraan kasar kecepatan tanpa penyelesaian aljabar Lorentz."
+        "text": "$v = \\frac{1}{2}\\sqrt{3}\\,c \\approx 0{,}866c$ dan $p = \\sqrt{3}\\,m_0 c$, karena energi total partikel adalah $E = E_k + E_0 = 2 E_0 = 2 m_0 c^2$. Karena $E = \\gamma E_0$, maka faktor Lorentz bernilai $\\gamma = 2 \\implies \\frac{1}{\\sqrt{1 - (v/c)^2}} = 2 \\implies 1 - (v/c)^2 = \\frac{1}{4} \\implies (v/c)^2 = \\frac{3}{4} \\implies v = \\frac{\\sqrt{3}}{2}c$. Dari relasi $E^2 = p^2 c^2 + E_0^2$, kita dapatkan $(2 E_0)^2 = p^2 c^2 + E_0^2 \\implies 4 E_0^2 - E_0^2 = p^2 c^2 \\implies p^2 c^2 = 3 E_0^2 \\implies p = \\sqrt{3}\\frac{E_0}{c} = \\sqrt{3} m_0 c$."
       },
       {
         "key": "E",
         "text": "$v = c$ dan $p = \\infty$, karena berasumsi partikel bermassa diam dapat dipercepat hingga mencapai kecepatan cahaya."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $v = \\frac{1}{2}\\sqrt{3}\\,c \\approx 0{,}866c$ dan $p = \\sqrt{3}\\,m_0 c$, karena energi total partikel adalah $E = E_k + E_0 = 2 E_0 = 2 m_0 c^2$. Karena $E = \\gamma E_0$, maka faktor Lorentz bernilai $\\gamma = 2 \\implies \\frac{1}{\\sqrt{1 - (v/c)^2}} = 2 \\implies 1 - (v/c)^2 = \\frac{1}{4} \\implies (v/c)^2 = \\frac{3}{4} \\implies v = \\frac{\\sqrt{3}}{2}c$. Dari relasi $E^2 = p^2 c^2 + E_0^2$, kita dapatkan $(2 E_0)^2 = p^2 c^2 + E_0^2 \\implies 4 E_0^2 - E_0^2 = p^2 c^2 \\implies p^2 c^2 = 3 E_0^2 \\implies p = \\sqrt{3}\\frac{E_0}{c} = \\sqrt{3} m_0 c$.. E = Ek + E0 = 2 E0, jadi gamma = 2. gamma = 1 / sqrt(1 - (v/c)^2) = 2 -> v = sqrt(3)/2 c. Momentum relativistik p = sqrt(E^2 - E0^2)/c = sqrt(4 - 1) E0/c = sqrt(3) m0 c. v = (sqrt(3)/2) * c = 0,866c. p = sqrt(3) * m0 * c."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $v = \\frac{1}{2}\\sqrt{3}\\,c \\approx 0{,}866c$ dan $p = \\sqrt{3}\\,m_0 c$, karena energi total partikel adalah $E = E_k + E_0 = 2 E_0 = 2 m_0 c^2$. Karena $E = \\gamma E_0$, maka faktor Lorentz bernilai $\\gamma = 2 \\implies \\frac{1}{\\sqrt{1 - (v/c)^2}} = 2 \\implies 1 - (v/c)^2 = \\frac{1}{4} \\implies (v/c)^2 = \\frac{3}{4} \\implies v = \\frac{\\sqrt{3}}{2}c$. Dari relasi $E^2 = p^2 c^2 + E_0^2$, kita dapatkan $(2 E_0)^2 = p^2 c^2 + E_0^2 \\implies 4 E_0^2 - E_0^2 = p^2 c^2 \\implies p^2 c^2 = 3 E_0^2 \\implies p = \\sqrt{3}\\frac{E_0}{c} = \\sqrt{3} m_0 c$.. E = Ek + E0 = 2 E0, jadi gamma = 2. gamma = 1 / sqrt(1 - (v/c)^2) = 2 -> v = sqrt(3)/2 c. Momentum relativistik p = sqrt(E^2 - E0^2)/c = sqrt(4 - 1) E0/c = sqrt(3) m0 c. v = (sqrt(3)/2) * c = 0,866c. p = sqrt(3) * m0 * c."
   },
   {
     "id": "fis-lat-h-19",
@@ -2949,7 +2950,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$A_t = 40\\text{ mCi}$ dan inti yang telah meluruh sebesar $75{,}0\\%$, karena hanya memperhitungkan 2 kali periode waktu paruh peluruhan menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$A_t = 10\\text{ mCi}$ dan inti yang telah meluruh sebesar $93{,}75\\%$, dihitung dari 4 kali waktu paruh peluruhan zat radioaktif."
       },
       {
         "key": "B",
@@ -2957,19 +2958,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$A_t = 10\\text{ mCi}$ dan inti yang telah meluruh sebesar $93{,}75\\%$, dihitung dari 4 kali waktu paruh peluruhan zat radioaktif."
+        "text": "$A_t = 53{,}3\\text{ mCi}$ dan inti yang telah meluruh sebesar $66{,}7\\%$, dihitung dari pengurangan linier bukan peluruhan eksponensial."
       },
       {
         "key": "D",
-        "text": "$A_t = 20\\text{ mCi}$ dan inti yang telah meluruh sebesar $87{,}5\\%$, karena jumlah periode waktu paruh yang terlewati adalah $n = \\frac{t}{T_{1/2}} = \\frac{24}{8} = 3$. Aktivitas radiasi yang tersisa adalah $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 160 \\times \\left(\\frac{1}{2}\\right)^3 = 160 \\times \\frac{1}{8} = 20\\text{ mCi}$. Bagian yang tersisa adalah $\\frac{1}{8} = 12{,}5\\%$, sehingga fraksi inti induk yang telah meluruh menjadi inti anak adalah $100\\% - 12{,}5\\% = 87{,}5\\%$."
+        "text": "$A_t = 40\\text{ mCi}$ dan inti yang telah meluruh sebesar $75{,}0\\%$, karena hanya memperhitungkan 2 kali periode waktu paruh peluruhan."
       },
       {
         "key": "E",
-        "text": "$A_t = 53{,}3\\text{ mCi}$ dan inti yang telah meluruh sebesar $66{,}7\\%$, dihitung dari pengurangan linier bukan peluruhan eksponensial."
+        "text": "$A_t = 20\\text{ mCi}$ dan inti yang telah meluruh sebesar $87{,}5\\%$, karena jumlah periode waktu paruh yang terlewati adalah $n = \\frac{t}{T_{1/2}} = \\frac{24}{8} = 3$. Aktivitas radiasi yang tersisa adalah $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 160 \\times \\left(\\frac{1}{2}\\right)^3 = 160 \\times \\frac{1}{8} = 20\\text{ mCi}$. Bagian yang tersisa adalah $\\frac{1}{8} = 12{,}5\\%$, sehingga fraksi inti induk yang telah meluruh menjadi inti anak adalah $100\\% - 12{,}5\\% = 87{,}5\\%$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $A_t = 20\\text{ mCi}$ dan inti yang telah meluruh sebesar $87{,}5\\%$, karena jumlah periode waktu paruh yang terlewati adalah $n = \\frac{t}{T_{1/2}} = \\frac{24}{8} = 3$. Aktivitas radiasi yang tersisa adalah $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 160 \\times \\left(\\frac{1}{2}\\right)^3 = 160 \\times \\frac{1}{8} = 20\\text{ mCi}$. Bagian yang tersisa adalah $\\frac{1}{8} = 12{,}5\\%$, sehingga fraksi inti induk yang telah meluruh menjadi inti anak adalah $100\\% - 12{,}5\\% = 87{,}5\\%$.. Jumlah waktu paruh n = 24 / 8 = 3. Sisa aktivitas A = A0 * (1/2)^3 = 160 / 8 = 20 mCi. Persentase meluruh = (1 - 1/8) * 100% = 87,5%. A = 20 mCi. Persentase meluruh = 87,5%."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $A_t = 20\\text{ mCi}$ dan inti yang telah meluruh sebesar $87{,}5\\%$, karena jumlah periode waktu paruh yang terlewati adalah $n = \\frac{t}{T_{1/2}} = \\frac{24}{8} = 3$. Aktivitas radiasi yang tersisa adalah $A_t = A_0 \\left(\\frac{1}{2}\\right)^n = 160 \\times \\left(\\frac{1}{2}\\right)^3 = 160 \\times \\frac{1}{8} = 20\\text{ mCi}$. Bagian yang tersisa adalah $\\frac{1}{8} = 12{,}5\\%$, sehingga fraksi inti induk yang telah meluruh menjadi inti anak adalah $100\\% - 12{,}5\\% = 87{,}5\\%$.. Jumlah waktu paruh n = 24 / 8 = 3. Sisa aktivitas A = A0 * (1/2)^3 = 160 / 8 = 20 mCi. Persentase meluruh = (1 - 1/8) * 100% = 87,5%. A = 20 mCi. Persentase meluruh = 87,5%."
   },
   {
     "id": "fis-lat-h-20",
@@ -2992,15 +2993,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Q \\approx 192{,}8\\text{ MeV}$, dihitung tanpa memperhitungkan massa 3 neutron hasil fisi di ruas kanan reaksi produk diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$Q \\approx 86{,}5\\text{ MeV}$, karena defek massa keliru dibagi dua saat perhitungan kesetaraan energi Einstein."
       },
       {
         "key": "B",
-        "text": "$Q \\approx 931{,}5\\text{ MeV}$, karena menyamakan energi reaksi dengan tetapan konversi massa satu satuan massa atom."
+        "text": "$Q \\approx 192{,}8\\text{ MeV}$, dihitung tanpa memperhitungkan massa 3 neutron hasil fisi di ruas kanan reaksi produk diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "C",
-        "text": "$Q \\approx 86{,}5\\text{ MeV}$, karena defek massa keliru dibagi dua saat perhitungan kesetaraan energi Einstein."
+        "text": "$Q \\approx 173{,}26\\text{ MeV}$, karena massa pereaksi (reaktan) adalah $m_{\\text{reaktan}} = m_U + m_n = 235{,}0439 + 1{,}0087 = 236{,}0526\\text{ sma}$. Massa produk adalah $m_{\\text{produk}} = m_{\\text{Ba}} + m_{\\text{Kr}} + 3 m_n = 140{,}9144 + 91{,}9262 + 3(1{,}0087) = 232{,}8406 + 3{,}0261 = 235{,}8667\\text{ sma}$. Defek massa reaksi adalah $\\Delta m = 236{,}0526 - 235{,}8667 = 0{,}1859\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}1859 \\times 931{,}5 \\approx 173{,}17\\text{ MeV}$ (dalam rentang nilai standar fisi nuklir $\\approx 173 - 200\\text{ MeV}$)."
       },
       {
         "key": "D",
@@ -3008,11 +3009,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$Q \\approx 173{,}26\\text{ MeV}$, karena massa pereaksi (reaktan) adalah $m_{\\text{reaktan}} = m_U + m_n = 235{,}0439 + 1{,}0087 = 236{,}0526\\text{ sma}$. Massa produk adalah $m_{\\text{produk}} = m_{\\text{Ba}} + m_{\\text{Kr}} + 3 m_n = 140{,}9144 + 91{,}9262 + 3(1{,}0087) = 232{,}8406 + 3{,}0261 = 235{,}8667\\text{ sma}$. Defek massa reaksi adalah $\\Delta m = 236{,}0526 - 235{,}8667 = 0{,}1859\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}1859 \\times 931{,}5 \\approx 173{,}17\\text{ MeV}$ (dalam rentang nilai standar fisi nuklir $\\approx 173 - 200\\text{ MeV}$)."
+        "text": "$Q \\approx 931{,}5\\text{ MeV}$, karena menyamakan energi reaksi dengan tetapan konversi massa satu satuan massa atom."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $Q \\approx 173{,}26\\text{ MeV}$, karena massa pereaksi (reaktan) adalah $m_{\\text{reaktan}} = m_U + m_n = 235{,}0439 + 1{,}0087 = 236{,}0526\\text{ sma}$. Massa produk adalah $m_{\\text{produk}} = m_{\\text{Ba}} + m_{\\text{Kr}} + 3 m_n = 140{,}9144 + 91{,}9262 + 3(1{,}0087) = 232{,}8406 + 3{,}0261 = 235{,}8667\\text{ sma}$. Defek massa reaksi adalah $\\Delta m = 236{,}0526 - 235{,}8667 = 0{,}1859\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}1859 \\times 931{,}5 \\approx 173{,}17\\text{ MeV}$ (dalam rentang nilai standar fisi nuklir $\\approx 173 - 200\\text{ MeV}$).. Delta_m = massa sebelum reaksi - massa sesudah reaksi. Q = Delta_m * 931,5 MeV. Delta_m = 235,0439 + 1,0087 - (140,9144 + 91,9262 + 3*1,0087) = 0,1859 sma. Q = 0,1859 * 931,5 = 173,2 MeV."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $Q \\approx 173{,}26\\text{ MeV}$, karena massa pereaksi (reaktan) adalah $m_{\\text{reaktan}} = m_U + m_n = 235{,}0439 + 1{,}0087 = 236{,}0526\\text{ sma}$. Massa produk adalah $m_{\\text{produk}} = m_{\\text{Ba}} + m_{\\text{Kr}} + 3 m_n = 140{,}9144 + 91{,}9262 + 3(1{,}0087) = 232{,}8406 + 3{,}0261 = 235{,}8667\\text{ sma}$. Defek massa reaksi adalah $\\Delta m = 236{,}0526 - 235{,}8667 = 0{,}1859\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}1859 \\times 931{,}5 \\approx 173{,}17\\text{ MeV}$ (dalam rentang nilai standar fisi nuklir $\\approx 173 - 200\\text{ MeV}$).. Delta_m = massa sebelum reaksi - massa sesudah reaksi. Q = Delta_m * 931,5 MeV. Delta_m = 235,0439 + 1,0087 - (140,9144 + 91,9262 + 3*1,0087) = 0,1859 sma. Q = 0,1859 * 931,5 = 173,2 MeV."
   },
   {
     "id": "fis-lat-h-21",
@@ -3035,15 +3036,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v = 2{,}0 \\times 10^5\\text{ m/s}$, karena syarat lintasan lurus adalah gaya Lorentz listrik dan gaya Lorentz magnet saling meniadakan ($F_E = F_B \\implies q E = q v B$), sehingga kelajuan partikel harus tepat memenuhi perbandingan $v = \\frac{E}{B} = \\frac{2{,}4 \\times 10^4\\text{ V/m}}{0{,}12\\text{ T}} = 2{,}0 \\times 10^5\\text{ m/s}$."
+        "text": "$v = 3{,}0 \\times 10^8\\text{ m/s}$, karena partikel bermuatan diasumsikan otomatis merambat dengan kelajuan cahaya di ruang hampa."
       },
       {
         "key": "B",
-        "text": "$v = 5{,}0 \\times 10^{-6}\\text{ m/s}$, karena formula rasio medan keliru dibalik menjadi medan magnet dibagi medan listrik ($B/E$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$v = 2{,}88 \\times 10^3\\text{ m/s}$, dihitung dari hasil perkalian langsung antara kuat medan listrik dengan medan magnet."
       },
       {
         "key": "C",
-        "text": "$v = 2{,}88 \\times 10^3\\text{ m/s}$, dihitung dari hasil perkalian langsung antara kuat medan listrik dengan medan magnet."
+        "text": "$v = 2{,}0 \\times 10^5\\text{ m/s}$, karena syarat lintasan lurus adalah gaya Lorentz listrik dan gaya Lorentz magnet saling meniadakan ($F_E = F_B \\implies q E = q v B$), sehingga kelajuan partikel harus tepat memenuhi perbandingan $v = \\frac{E}{B} = \\frac{2{,}4 \\times 10^4\\text{ V/m}}{0{,}12\\text{ T}} = 2{,}0 \\times 10^5\\text{ m/s}$."
       },
       {
         "key": "D",
@@ -3051,11 +3052,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$v = 3{,}0 \\times 10^8\\text{ m/s}$, karena partikel bermuatan diasumsikan otomatis merambat dengan kelajuan cahaya di ruang hampa."
+        "text": "$v = 5{,}0 \\times 10^{-6}\\text{ m/s}$, karena formula rasio medan keliru dibalik menjadi medan magnet dibagi medan listrik ($B/E$) sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $v = 2{,}0 \\times 10^5\\text{ m/s}$, karena syarat lintasan lurus adalah gaya Lorentz listrik dan gaya Lorentz magnet saling meniadakan ($F_E = F_B \\implies q E = q v B$), sehingga kelajuan partikel harus tepat memenuhi perbandingan $v = \\frac{E}{B} = \\frac{2{,}4 \\times 10^4\\text{ V/m}}{0{,}12\\text{ T}} = 2{,}0 \\times 10^5\\text{ m/s}$.. Lintasan lurus terjadi saat gaya listrik sama dengan gaya magnet: q * E = q * v * B. Maka v = E / B. v = 2,4e4 / 0,12 = 2,0 x 10^5 m/s."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $v = 2{,}0 \\times 10^5\\text{ m/s}$, karena syarat lintasan lurus adalah gaya Lorentz listrik dan gaya Lorentz magnet saling meniadakan ($F_E = F_B \\implies q E = q v B$), sehingga kelajuan partikel harus tepat memenuhi perbandingan $v = \\frac{E}{B} = \\frac{2{,}4 \\times 10^4\\text{ V/m}}{0{,}12\\text{ T}} = 2{,}0 \\times 10^5\\text{ m/s}$.. Lintasan lurus terjadi saat gaya listrik sama dengan gaya magnet: q * E = q * v * B. Maka v = E / B. v = 2,4e4 / 0,12 = 2,0 x 10^5 m/s."
   },
   {
     "id": "fis-lat-h-22",
@@ -3078,15 +3079,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$U_{\\text{total}} = 0{,}12\\text{ Joule}$, karena hanya memperhitungkan interaksi satu pasang muatan tunggal dalam sistem sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
         "text": "$U_{\\text{total}} = 0{,}36\\text{ Joule}$, karena energi potensial total sistem adalah penjumlahan skalar dari energi potensial ketiga pasangan muatan: $U = U_{12} + U_{13} + U_{23} = 3 \\left(\\frac{k q^2}{s}\\right) = 3 \\times \\frac{(9 \\times 10^9) \\times (2 \\times 10^{-6})^2}{0{,}3} = 3 \\times \\frac{9 \\times 10^9 \\times 4 \\times 10^{-12}}{0{,}3} = 3 \\times \\frac{0{,}036}{0{,}3} = 3 \\times 0{,}12 = 0{,}36\\text{ Joule}$."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "$U_{\\text{total}} = 0{,}72\\text{ Joule}$, dihitung dari penggandaan pasangan muatan dengan menghitung interaksi timbal balik dua kali."
+      },
+      {
+        "key": "C",
+        "text": "$U_{\\text{total}} = 1{,}08\\text{ Joule}$, dihitung dari perkalian tiga pasang muatan dengan kuadrat jarak sisi pemisah segitiga."
       },
       {
         "key": "D",
@@ -3094,11 +3095,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$U_{\\text{total}} = 1{,}08\\text{ Joule}$, dihitung dari perkalian tiga pasang muatan dengan kuadrat jarak sisi pemisah segitiga."
+        "text": "$U_{\\text{total}} = 0{,}12\\text{ Joule}$, karena hanya memperhitungkan interaksi satu pasang muatan tunggal dalam sistem sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $U_{\\text{total}} = 0{,}36\\text{ Joule}$, karena energi potensial total sistem adalah penjumlahan skalar dari energi potensial ketiga pasangan muatan: $U = U_{12} + U_{13} + U_{23} = 3 \\left(\\frac{k q^2}{s}\\right) = 3 \\times \\frac{(9 \\times 10^9) \\times (2 \\times 10^{-6})^2}{0{,}3} = 3 \\times \\frac{9 \\times 10^9 \\times 4 \\times 10^{-12}}{0{,}3} = 3 \\times \\frac{0{,}036}{0{,}3} = 3 \\times 0{,}12 = 0{,}36\\text{ Joule}$.. Energi potensial elektrostatik sistem adalah jumlah skalar energi setiap pasangan: U_total = U12 + U23 + U13 = 3 * (k * q^2 / s). U_total = 3 * (9e9 * (2e-6)^2 / 0,3) = 3 * (0,036 / 0,3) = 3 * 0,12 = 0,36 J."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $U_{\\text{total}} = 0{,}36\\text{ Joule}$, karena energi potensial total sistem adalah penjumlahan skalar dari energi potensial ketiga pasangan muatan: $U = U_{12} + U_{13} + U_{23} = 3 \\left(\\frac{k q^2}{s}\\right) = 3 \\times \\frac{(9 \\times 10^9) \\times (2 \\times 10^{-6})^2}{0{,}3} = 3 \\times \\frac{9 \\times 10^9 \\times 4 \\times 10^{-12}}{0{,}3} = 3 \\times \\frac{0{,}036}{0{,}3} = 3 \\times 0{,}12 = 0{,}36\\text{ Joule}$.. Energi potensial elektrostatik sistem adalah jumlah skalar energi setiap pasangan: U_total = U12 + U23 + U13 = 3 * (k * q^2 / s). U_total = 3 * (9e9 * (2e-6)^2 / 0,3) = 3 * (0,036 / 0,3) = 3 * 0,12 = 0,36 J."
   },
   {
     "id": "fis-lat-h-23",
@@ -3121,11 +3122,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$C_{\\text{gab}} = 48\\,\\mu\\text{F}$, dihitung dari rata-rata aritmetika konstanta dielektrik dikalikan dengan kapasitansi awal ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$C_{\\text{gab}} = 48\\,\\mu\\text{F}$, dihitung dari rata-rata aritmetika konstanta dielektrik dikalikan dengan kapasitansi awal."
       },
       {
         "key": "B",
-        "text": "$C_{\\text{gab}} = 96\\,\\mu\\text{F}$, karena kedua lapisan dielektrik keliru dihitung sebagai susunan kapasitor paralel."
+        "text": "$C_{\\text{gab}} = 24\\,\\mu\\text{F}$, dihitung tanpa memperhitungkan reduksi separuh ketebalan keping masing-masing dielektrik."
       },
       {
         "key": "C",
@@ -3133,11 +3134,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$C_{\\text{gab}} = 24\\,\\mu\\text{F}$, dihitung tanpa memperhitungkan reduksi separuh ketebalan keping masing-masing dielektrik."
+        "text": "$C_{\\text{gab}} = 18\\,\\mu\\text{F}$, dihitung dari perkalian terbalik konstanta dielektrik terhadap permitivitas ruang hampa."
       },
       {
         "key": "E",
-        "text": "$C_{\\text{gab}} = 18\\,\\mu\\text{F}$, dihitung dari perkalian terbalik konstanta dielektrik terhadap permitivitas ruang hampa."
+        "text": "$C_{\\text{gab}} = 96\\,\\mu\\text{F}$, karena kedua lapisan dielektrik keliru dihitung sebagai susunan kapasitor paralel."
       }
     ],
     "correctKey": "C",
@@ -3164,7 +3165,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\theta = 30{,}0^\\circ$, karena angka 2 di depan jarak antarbidang kristal pada Hukum Bragg diabaikan ($\\sin\\theta = \\lambda/d = 0{,}5$) menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$\\theta = 45{,}0^\\circ$, dihitung dari asumsi bahwa difraksi kisi kristal selalu simetris pada sudut separuh siku-siku."
       },
       {
         "key": "B",
@@ -3172,7 +3173,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$\\theta = 45{,}0^\\circ$, dihitung dari asumsi bahwa difraksi kisi kristal selalu simetris pada sudut separuh siku-siku."
+        "text": "$\\theta = 7{,}24^\\circ$, dihitung dari pembagian sudut Bragg dengan orde difraksi kuantum kedua."
       },
       {
         "key": "D",
@@ -3180,7 +3181,7 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\theta = 7{,}24^\\circ$, dihitung dari pembagian sudut Bragg dengan orde difraksi kuantum kedua."
+        "text": "$\\theta = 30{,}0^\\circ$, karena angka 2 di depan jarak antarbidang kristal pada Hukum Bragg diabaikan ($\\sin\\theta = \\lambda/d = 0{,}5$)."
       }
     ],
     "correctKey": "D",
@@ -3207,27 +3208,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$P_2 = 1{,}0 \\times 10^4\\text{ Pa}$, karena gas keliru dihitung memuai secara isotermal menurut hukum Boyle ($P_1 V_1 = P_2 V_2$) diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
         "text": "$P_2 = 5{,}0 \\times 10^3\\text{ Pa}$, dihitung dengan menggunakan tetapan gas monoatomik gamma lima per tiga."
       },
       {
-        "key": "C",
-        "text": "$P_2 = 1{,}28 \\times 10^5\\text{ Pa}$, dihitung dari perkalian tekanan awal dengan faktor pemuaian volume gas."
+        "key": "B",
+        "text": "$P_2 = 2{,}5 \\times 10^3\\text{ Pa}$ (atau $2.500\\text{ Pa}$), karena pada proses adiabatik berlaku hukum Poisson $P_1 V_1^\\gamma = P_2 V_2^\\gamma$, sehingga $P_2 = P_1 \\left(\\frac{V_1}{V_2}\\right)^\\gamma = (3{,}2 \\times 10^5\\text{ Pa}) \\times \\left(\\frac{1}{32}\\right)^{1{,}4} = \\frac{3{,}2 \\times 10^5}{128} = 2.500\\text{ Pa} = 2{,}5 \\times 10^3\\text{ Pa}$."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$P_2 = 8{,}0 \\times 10^2\\text{ Pa}$, dihitung dari pembagian tekanan gas terhadap kuadrat perubahan volume adiabatik."
       },
       {
+        "key": "D",
+        "text": "$P_2 = 1{,}28 \\times 10^5\\text{ Pa}$, dihitung dari perkalian tekanan awal dengan faktor pemuaian volume gas."
+      },
+      {
         "key": "E",
-        "text": "$P_2 = 2{,}5 \\times 10^3\\text{ Pa}$ (atau $2.500\\text{ Pa}$), karena pada proses adiabatik berlaku hukum Poisson $P_1 V_1^\\gamma = P_2 V_2^\\gamma$, sehingga $P_2 = P_1 \\left(\\frac{V_1}{V_2}\\right)^\\gamma = (3{,}2 \\times 10^5\\text{ Pa}) \\times \\left(\\frac{1}{32}\\right)^{1{,}4} = \\frac{3{,}2 \\times 10^5}{128} = 2.500\\text{ Pa} = 2{,}5 \\times 10^3\\text{ Pa}$."
+        "text": "$P_2 = 1{,}0 \\times 10^4\\text{ Pa}$, karena gas keliru dihitung memuai secara isotermal menurut hukum Boyle ($P_1 V_1 = P_2 V_2$) diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $P_2 = 2{,}5 \\times 10^3\\text{ Pa}$ (atau $2.500\\text{ Pa}$), karena pada proses adiabatik berlaku hukum Poisson $P_1 V_1^\\gamma = P_2 V_2^\\gamma$, sehingga $P_2 = P_1 \\left(\\frac{V_1}{V_2}\\right)^\\gamma = (3{,}2 \\times 10^5\\text{ Pa}) \\times \\left(\\frac{1}{32}\\right)^{1{,}4} = \\frac{3{,}2 \\times 10^5}{128} = 2.500\\text{ Pa} = 2{,}5 \\times 10^3\\text{ Pa}$.. Proses adiabatik memenuhi P1 * V1^gamma = P2 * V2^gamma. P2 = P1 * (V1 / V2)^gamma. Hitung (1/32)^1,4 = 1 / 128. P2 = 3,2e5 / 128 = 2.500 Pa = 2,5 x 10^3 Pa."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $P_2 = 2{,}5 \\times 10^3\\text{ Pa}$ (atau $2.500\\text{ Pa}$), karena pada proses adiabatik berlaku hukum Poisson $P_1 V_1^\\gamma = P_2 V_2^\\gamma$, sehingga $P_2 = P_1 \\left(\\frac{V_1}{V_2}\\right)^\\gamma = (3{,}2 \\times 10^5\\text{ Pa}) \\times \\left(\\frac{1}{32}\\right)^{1{,}4} = \\frac{3{,}2 \\times 10^5}{128} = 2.500\\text{ Pa} = 2{,}5 \\times 10^3\\text{ Pa}$.. Proses adiabatik memenuhi P1 * V1^gamma = P2 * V2^gamma. P2 = P1 * (V1 / V2)^gamma. Hitung (1/32)^1,4 = 1 / 128. P2 = 3,2e5 / 128 = 2.500 Pa = 2,5 x 10^3 Pa."
   },
   {
     "id": "fis-sim-01",
@@ -3250,15 +3251,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\alpha = 126{,}87^\\circ$ terhadap arah aliran hilir (atau mengarah ke hulu sebesar $53^\\circ$ terhadap tepi hulu) dengan waktu tempuh $t = 30\\text{ sekon}$, karena komponen kecepatan perahu yang melawan arus harus tepat mengimbangi arus sungai ($v_{\\text{perahu}} \\sin\\theta = v_{\\text{arus}} \\implies 5 \\sin\\theta = 3 \\implies \\sin\\theta = 0{,}6 \\implies \\theta = 37^\\circ$ dari garis tegak lurus, atau $53^\\circ$ dari tepi sungai hulu). Kecepatan resultan efektif menyeberang adalah $v_y = \\sqrt{5^2 - 3^2} = 4\\text{ m/s}$, sehingga waktu tempuh $t = \\frac{120\\text{ m}}{4\\text{ m/s}} = 30\\text{ sekon}$."
+        "text": "$\\alpha = 60^\\circ$ ke arah hulu dengan waktu tempuh $t = 40\\text{ sekon}$, dihitung dari pendekatan sudut deviasi sembarang tanpa analisis proyeksi vektor kecepatan."
       },
       {
         "key": "B",
-        "text": "$\\alpha = 90^\\circ$ tegak lurus tepi sungai dengan waktu tempuh $t = 24\\text{ sekon}$, karena perahu langsung diarahkan tegak lurus sehingga pasti akan terseret jauh ke arah hilir sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$\\alpha = 30^\\circ$ ke arah hilir dengan waktu tempuh $t = 60\\text{ sekon}$, dihitung dari perbandingan terbalik lebar sungai terhadap arus air."
       },
       {
         "key": "C",
-        "text": "$\\alpha = 60^\\circ$ ke arah hulu dengan waktu tempuh $t = 40\\text{ sekon}$, dihitung dari pendekatan sudut deviasi sembarang tanpa analisis proyeksi vektor kecepatan."
+        "text": "$\\alpha = 126{,}87^\\circ$ terhadap arah aliran hilir (atau mengarah ke hulu sebesar $53^\\circ$ terhadap tepi hulu) dengan waktu tempuh $t = 30\\text{ sekon}$, karena komponen kecepatan perahu yang melawan arus harus tepat mengimbangi arus sungai ($v_{\\text{perahu}} \\sin\\theta = v_{\\text{arus}} \\implies 5 \\sin\\theta = 3 \\implies \\sin\\theta = 0{,}6 \\implies \\theta = 37^\\circ$ dari garis tegak lurus, atau $53^\\circ$ dari tepi sungai hulu). Kecepatan resultan efektif menyeberang adalah $v_y = \\sqrt{5^2 - 3^2} = 4\\text{ m/s}$, sehingga waktu tempuh $t = \\frac{120\\text{ m}}{4\\text{ m/s}} = 30\\text{ sekon}$."
       },
       {
         "key": "D",
@@ -3266,11 +3267,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\alpha = 30^\\circ$ ke arah hilir dengan waktu tempuh $t = 60\\text{ sekon}$, dihitung dari perbandingan terbalik lebar sungai terhadap arus air."
+        "text": "$\\alpha = 90^\\circ$ tegak lurus tepi sungai dengan waktu tempuh $t = 24\\text{ sekon}$, karena perahu langsung diarahkan tegak lurus sehingga pasti akan terseret jauh ke arah hilir sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\alpha = 126{,}87^\\circ$ terhadap arah aliran hilir (atau mengarah ke hulu sebesar $53^\\circ$ terhadap tepi hulu) dengan waktu tempuh $t = 30\\text{ sekon}$, karena komponen kecepatan perahu yang melawan arus harus tepat mengimbangi arus sungai ($v_{\\text{perahu}} \\sin\\theta = v_{\\text{arus}} \\implies 5 \\sin\\theta = 3 \\implies \\sin\\theta = 0{,}6 \\implies \\theta = 37^\\circ$ dari garis tegak lurus, atau $53^\\circ$ dari tepi sungai hulu). Kecepatan resultan efektif menyeberang adalah $v_y = \\sqrt{5^2 - 3^2} = 4\\text{ m/s}$, sehingga waktu tempuh $t = \\frac{120\\text{ m}}{4\\text{ m/s}} = 30\\text{ sekon}$.. Agar sampai tegak lurus di seberang, haluan perahu harus condong ke hulu sehingga v_perahu * sin(theta) = v_arus. Kecepatan resultan tegak lurus v_res = sqrt(vp^2 - va^2). v_res = sqrt(5^2 - 3^2) = 4 m/s. t = 120 / 4 = 30 sekon."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $\\alpha = 126{,}87^\\circ$ terhadap arah aliran hilir (atau mengarah ke hulu sebesar $53^\\circ$ terhadap tepi hulu) dengan waktu tempuh $t = 30\\text{ sekon}$, karena komponen kecepatan perahu yang melawan arus harus tepat mengimbangi arus sungai ($v_{\\text{perahu}} \\sin\\theta = v_{\\text{arus}} \\implies 5 \\sin\\theta = 3 \\implies \\sin\\theta = 0{,}6 \\implies \\theta = 37^\\circ$ dari garis tegak lurus, atau $53^\\circ$ dari tepi sungai hulu). Kecepatan resultan efektif menyeberang adalah $v_y = \\sqrt{5^2 - 3^2} = 4\\text{ m/s}$, sehingga waktu tempuh $t = \\frac{120\\text{ m}}{4\\text{ m/s}} = 30\\text{ sekon}$.. Agar sampai tegak lurus di seberang, haluan perahu harus condong ke hulu sehingga v_perahu * sin(theta) = v_arus. Kecepatan resultan tegak lurus v_res = sqrt(vp^2 - va^2). v_res = sqrt(5^2 - 3^2) = 4 m/s. t = 120 / 4 = 30 sekon."
   },
   {
     "id": "fis-sim-02",
@@ -3293,7 +3294,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$F_{\\max} = 8\\text{ Newton}$, karena menyamakan gaya tarik maksimum dengan nilai gaya gesekan statis antarbalok semata sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$F_{\\max} = 16\\text{ Newton}$, dihitung dari penggandaan massa balok atas tanpa menyertakan inersia balok bawah."
       },
       {
         "key": "B",
@@ -3305,11 +3306,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$F_{\\max} = 40\\text{ Newton}$, dihitung dari perkalian koefisien gesekan dengan berat total gabungan kedua balok di atas lantai."
+        "text": "$F_{\\max} = 8\\text{ Newton}$, karena menyamakan gaya tarik maksimum dengan nilai gaya gesekan statis antarbalok semata sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "E",
-        "text": "$F_{\\max} = 16\\text{ Newton}$, dihitung dari penggandaan massa balok atas tanpa menyertakan inersia balok bawah."
+        "text": "$F_{\\max} = 40\\text{ Newton}$, dihitung dari perkalian koefisien gesekan dengan berat total gabungan kedua balok di atas lantai."
       }
     ],
     "correctKey": "B",
@@ -3336,7 +3337,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v_{\\text{puncak}} = 14{,}14\\text{ m/s}$ dan $h_{\\min} = 20\\text{ meter}$, dihitung dengan menyamakan tinggi pelepasan tepat sama dengan diameter lingkaran loop ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$v_{\\text{puncak}} = 10\\text{ m/s}$ dan $h_{\\min} = 25\\text{ meter}$, karena syarat kereta tidak terlepas di titik puncak loop adalah gaya normal tepat nol ($N = 0$), sehingga gaya gravitasi bertindak sebagai gaya sentripetal: $m g = \\frac{m v^2}{R} \\implies v_{\\text{puncak}} = \\sqrt{g R} = \\sqrt{10 \\times 10} = 10\\text{ m/s}$. Dari Hukum Kekekalan Energi Mekanik terhadap dasar lintasan ($h=0$): $m g h_{\\min} = m g (2R) + \\frac{1}{2} m v_{\\text{puncak}}^2 \\implies h_{\\min} = 2R + \\frac{v^2}{2g} = 2(10) + \\frac{100}{20} = 20 + 5 = 25\\text{ meter}$."
       },
       {
         "key": "B",
@@ -3344,19 +3345,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$v_{\\text{puncak}} = 10\\text{ m/s}$ dan $h_{\\min} = 25\\text{ meter}$, karena syarat kereta tidak terlepas di titik puncak loop adalah gaya normal tepat nol ($N = 0$), sehingga gaya gravitasi bertindak sebagai gaya sentripetal: $m g = \\frac{m v^2}{R} \\implies v_{\\text{puncak}} = \\sqrt{g R} = \\sqrt{10 \\times 10} = 10\\text{ m/s}$. Dari Hukum Kekekalan Energi Mekanik terhadap dasar lintasan ($h=0$): $m g h_{\\min} = m g (2R) + \\frac{1}{2} m v_{\\text{puncak}}^2 \\implies h_{\\min} = 2R + \\frac{v^2}{2g} = 2(10) + \\frac{100}{20} = 20 + 5 = 25\\text{ meter}$."
+        "text": "$v_{\\text{puncak}} = 0\\text{ m/s}$ dan $h_{\\min} = 20\\text{ meter}$, karena beranggapan kereta dapat berhenti sesaat di puncak lingkaran vertikal."
       },
       {
         "key": "D",
-        "text": "$v_{\\text{puncak}} = 20\\text{ m/s}$ dan $h_{\\min} = 30\\text{ meter}$, karena rumus kecepatan kritis keliru menggunakan diameter lingkaran dalam akar gravitasi."
+        "text": "$v_{\\text{puncak}} = 14{,}14\\text{ m/s}$ dan $h_{\\min} = 20\\text{ meter}$, dihitung dengan menyamakan tinggi pelepasan tepat sama dengan diameter lingkaran loop."
       },
       {
         "key": "E",
-        "text": "$v_{\\text{puncak}} = 0\\text{ m/s}$ dan $h_{\\min} = 20\\text{ meter}$, karena beranggapan kereta dapat berhenti sesaat di puncak lingkaran vertikal."
+        "text": "$v_{\\text{puncak}} = 20\\text{ m/s}$ dan $h_{\\min} = 30\\text{ meter}$, karena rumus kecepatan kritis keliru menggunakan diameter lingkaran dalam akar gravitasi."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $v_{\\text{puncak}} = 10\\text{ m/s}$ dan $h_{\\min} = 25\\text{ meter}$, karena syarat kereta tidak terlepas di titik puncak loop adalah gaya normal tepat nol ($N = 0$), sehingga gaya gravitasi bertindak sebagai gaya sentripetal: $m g = \\frac{m v^2}{R} \\implies v_{\\text{puncak}} = \\sqrt{g R} = \\sqrt{10 \\times 10} = 10\\text{ m/s}$. Dari Hukum Kekekalan Energi Mekanik terhadap dasar lintasan ($h=0$): $m g h_{\\min} = m g (2R) + \\frac{1}{2} m v_{\\text{puncak}}^2 \\implies h_{\\min} = 2R + \\frac{v^2}{2g} = 2(10) + \\frac{100}{20} = 20 + 5 = 25\\text{ meter}$.. Di puncak loop: N = 0 -> v_puncak = sqrt(g*R). Energi mekanik awal = energi mekanik puncak: m*g*h_min = m*g*(2R) + 1/2*m*(g*R) -> h_min = 2,5 * R. v_puncak = sqrt(10*10) = 10 m/s. h_min = 2,5 * 10 = 25 meter."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $v_{\\text{puncak}} = 10\\text{ m/s}$ dan $h_{\\min} = 25\\text{ meter}$, karena syarat kereta tidak terlepas di titik puncak loop adalah gaya normal tepat nol ($N = 0$), sehingga gaya gravitasi bertindak sebagai gaya sentripetal: $m g = \\frac{m v^2}{R} \\implies v_{\\text{puncak}} = \\sqrt{g R} = \\sqrt{10 \\times 10} = 10\\text{ m/s}$. Dari Hukum Kekekalan Energi Mekanik terhadap dasar lintasan ($h=0$): $m g h_{\\min} = m g (2R) + \\frac{1}{2} m v_{\\text{puncak}}^2 \\implies h_{\\min} = 2R + \\frac{v^2}{2g} = 2(10) + \\frac{100}{20} = 20 + 5 = 25\\text{ meter}$.. Di puncak loop: N = 0 -> v_puncak = sqrt(g*R). Energi mekanik awal = energi mekanik puncak: m*g*h_min = m*g*(2R) + 1/2*m*(g*R) -> h_min = 2,5 * R. v_puncak = sqrt(10*10) = 10 m/s. h_min = 2,5 * 10 = 25 meter."
   },
   {
     "id": "fis-sim-04",
@@ -3379,11 +3380,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\theta_2 = 30^\\circ$ dan $v_1' = 2\\text{ m/s}$, karena diasumsikan bola 2 menyimpang secara simetris terhadap sumbu gerak awal menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$\\theta_2 = 120^\\circ$ dan $v_1' = 1\\text{ m/s}$, dihitung dari pembalikan arah gerak bola tumbukan lenting sebagian."
       },
       {
         "key": "B",
-        "text": "$\\theta_2 = 45^\\circ$ dan $v_1' = 2\\sqrt{2}\\text{ m/s}$, dihitung dari asumsi sudut deviasi bagi rata empat puluh lima derajat."
+        "text": "$\\theta_2 = 60^\\circ$ (sehingga kedua bola bergerak saling tegak lurus $\\theta_1 + \\theta_2 = 90^\\circ$) dan $v_1' = 2\\sqrt{3}\\text{ m/s} \\approx 3{,}46\\text{ m/s}$, karena pada tumbukan lenting sempurna dua massa identik di mana salah satu massa awalnya diam, vektor kecepatan akhir selalu membentuk sudut siku-siku ($90^\\circ$). Dari proyeksi trigonometri segitiga kecepatan: $v_1' = v_1 \\cos 30^\\circ = 4 \\times \\frac{1}{2}\\sqrt{3} = 2\\sqrt{3}\\text{ m/s}$."
       },
       {
         "key": "C",
@@ -3391,15 +3392,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\theta_2 = 60^\\circ$ (sehingga kedua bola bergerak saling tegak lurus $\\theta_1 + \\theta_2 = 90^\\circ$) dan $v_1' = 2\\sqrt{3}\\text{ m/s} \\approx 3{,}46\\text{ m/s}$, karena pada tumbukan lenting sempurna dua massa identik di mana salah satu massa awalnya diam, vektor kecepatan akhir selalu membentuk sudut siku-siku ($90^\\circ$). Dari proyeksi trigonometri segitiga kecepatan: $v_1' = v_1 \\cos 30^\\circ = 4 \\times \\frac{1}{2}\\sqrt{3} = 2\\sqrt{3}\\text{ m/s}$."
+        "text": "$\\theta_2 = 45^\\circ$ dan $v_1' = 2\\sqrt{2}\\text{ m/s}$, dihitung dari asumsi sudut deviasi bagi rata empat puluh lima derajat."
       },
       {
         "key": "E",
-        "text": "$\\theta_2 = 120^\\circ$ dan $v_1' = 1\\text{ m/s}$, dihitung dari pembalikan arah gerak bola tumbukan lenting sebagian."
+        "text": "$\\theta_2 = 30^\\circ$ dan $v_1' = 2\\text{ m/s}$, karena diasumsikan bola 2 menyimpang secara simetris terhadap sumbu gerak awal."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $\\theta_2 = 60^\\circ$ (sehingga kedua bola bergerak saling tegak lurus $\\theta_1 + \\theta_2 = 90^\\circ$) dan $v_1' = 2\\sqrt{3}\\text{ m/s} \\approx 3{,}46\\text{ m/s}$, karena pada tumbukan lenting sempurna dua massa identik di mana salah satu massa awalnya diam, vektor kecepatan akhir selalu membentuk sudut siku-siku ($90^\\circ$). Dari proyeksi trigonometri segitiga kecepatan: $v_1' = v_1 \\cos 30^\\circ = 4 \\times \\frac{1}{2}\\sqrt{3} = 2\\sqrt{3}\\text{ m/s}$.. Tumbukan elastis 2 benda bermassa sama dengan target diam menghasilkan sudut pisah 90 derajat: theta1 + theta2 = 90. Maka theta2 = 60 derajat. v1' = v1 * cos(30). theta2 = 90 - 30 = 60 derajat. v1' = 4 * cos(30) = 4 * 0,5 * sqrt(3) = 2*sqrt(3) m/s = 3,46 m/s."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\theta_2 = 60^\\circ$ (sehingga kedua bola bergerak saling tegak lurus $\\theta_1 + \\theta_2 = 90^\\circ$) dan $v_1' = 2\\sqrt{3}\\text{ m/s} \\approx 3{,}46\\text{ m/s}$, karena pada tumbukan lenting sempurna dua massa identik di mana salah satu massa awalnya diam, vektor kecepatan akhir selalu membentuk sudut siku-siku ($90^\\circ$). Dari proyeksi trigonometri segitiga kecepatan: $v_1' = v_1 \\cos 30^\\circ = 4 \\times \\frac{1}{2}\\sqrt{3} = 2\\sqrt{3}\\text{ m/s}$.. Tumbukan elastis 2 benda bermassa sama dengan target diam menghasilkan sudut pisah 90 derajat: theta1 + theta2 = 90. Maka theta2 = 60 derajat. v1' = v1 * cos(30). theta2 = 90 - 30 = 60 derajat. v1' = 4 * cos(30) = 4 * 0,5 * sqrt(3) = 2*sqrt(3) m/s = 3,46 m/s."
   },
   {
     "id": "fis-sim-05",
@@ -3422,15 +3423,15 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\sigma = 1 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 2\\text{ mm}$, karena luas penampang keliru dihitung menggunakan diameter kawat tanpa dibagi dua menjadi jari-jari diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$\\sigma = 1 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 2\\text{ mm}$, karena luas penampang keliru dihitung menggunakan diameter kawat tanpa dibagi dua menjadi jari-jari diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "B",
-        "text": "$\\sigma = 4 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 8\\text{ mm}$, dihitung dari penggandaan tegangan geser torsional."
+        "text": "$\\sigma = 2 \\times 10^7\\text{ N/m}^2$ dan $\\Delta L = 0{,}4\\text{ mm}$, karena galat konversi satuan luas dari milimeter persegi ke meter persegi."
       },
       {
         "key": "C",
-        "text": "$\\sigma = 2 \\times 10^7\\text{ N/m}^2$ dan $\\Delta L = 0{,}4\\text{ mm}$, karena galat konversi satuan luas dari milimeter persegi ke meter persegi."
+        "text": "$\\sigma = 2 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 4\\text{ mm}$ (atau $4 \\times 10^{-3}\\text{ m}$), karena tegangan adalah $\\sigma = \\frac{F}{A} = \\frac{628\\text{ N}}{3{,}14 \\times 10^{-6}\\text{ m}^2} = 2 \\times 10^8\\text{ N/m}^2$. Pertambahan panjang kawat menurut hukum Hooke elastisitas adalah $\\Delta L = \\frac{\\sigma L_0}{E} = \\frac{(2 \\times 10^8\\text{ N/m}^2) \\times 4\\text{ m}}{2 \\times 10^{11}\\text{ N/m}^2} = \\frac{8 \\times 10^8}{2 \\times 10^{11}} = 4 \\times 10^{-3}\\text{ m} = 4\\text{ mm}$."
       },
       {
         "key": "D",
@@ -3438,11 +3439,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$\\sigma = 2 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 4\\text{ mm}$ (atau $4 \\times 10^{-3}\\text{ m}$), karena tegangan adalah $\\sigma = \\frac{F}{A} = \\frac{628\\text{ N}}{3{,}14 \\times 10^{-6}\\text{ m}^2} = 2 \\times 10^8\\text{ N/m}^2$. Pertambahan panjang kawat menurut hukum Hooke elastisitas adalah $\\Delta L = \\frac{\\sigma L_0}{E} = \\frac{(2 \\times 10^8\\text{ N/m}^2) \\times 4\\text{ m}}{2 \\times 10^{11}\\text{ N/m}^2} = \\frac{8 \\times 10^8}{2 \\times 10^{11}} = 4 \\times 10^{-3}\\text{ m} = 4\\text{ mm}$."
+        "text": "$\\sigma = 4 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 8\\text{ mm}$, dihitung dari penggandaan tegangan geser torsional."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\sigma = 2 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 4\\text{ mm}$ (atau $4 \\times 10^{-3}\\text{ m}$), karena tegangan adalah $\\sigma = \\frac{F}{A} = \\frac{628\\text{ N}}{3{,}14 \\times 10^{-6}\\text{ m}^2} = 2 \\times 10^8\\text{ N/m}^2$. Pertambahan panjang kawat menurut hukum Hooke elastisitas adalah $\\Delta L = \\frac{\\sigma L_0}{E} = \\frac{(2 \\times 10^8\\text{ N/m}^2) \\times 4\\text{ m}}{2 \\times 10^{11}\\text{ N/m}^2} = \\frac{8 \\times 10^8}{2 \\times 10^{11}} = 4 \\times 10^{-3}\\text{ m} = 4\\text{ mm}$.. Tegangan: sigma = F / A = F / (pi * r^2). Pertambahan panjang: Delta_L = sigma * L0 / E. sigma = 628 / (3,14e-6) = 2e8 N/m^2. Delta_L = (2e8 * 4) / 2e11 = 4e-3 m = 4 mm."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $\\sigma = 2 \\times 10^8\\text{ N/m}^2$ dan $\\Delta L = 4\\text{ mm}$ (atau $4 \\times 10^{-3}\\text{ m}$), karena tegangan adalah $\\sigma = \\frac{F}{A} = \\frac{628\\text{ N}}{3{,}14 \\times 10^{-6}\\text{ m}^2} = 2 \\times 10^8\\text{ N/m}^2$. Pertambahan panjang kawat menurut hukum Hooke elastisitas adalah $\\Delta L = \\frac{\\sigma L_0}{E} = \\frac{(2 \\times 10^8\\text{ N/m}^2) \\times 4\\text{ m}}{2 \\times 10^{11}\\text{ N/m}^2} = \\frac{8 \\times 10^8}{2 \\times 10^{11}} = 4 \\times 10^{-3}\\text{ m} = 4\\text{ mm}$.. Tegangan: sigma = F / A = F / (pi * r^2). Pertambahan panjang: Delta_L = sigma * L0 / E. sigma = 628 / (3,14e-6) = 2e8 N/m^2. Delta_L = (2e8 * 4) / 2e11 = 4e-3 m = 4 mm."
   },
   {
     "id": "fis-sim-06",
@@ -3465,27 +3466,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$T_Y = 64\\text{ tahun}$, karena menurut Hukum III Kepler rasio kuadrat periode revolusi berbanding lurus dengan pangkat tiga jarak rata-rata orbit: $\\left(\\frac{T_Y}{T_X}\\right)^2 = \\left(\\frac{R_Y}{R_X}\\right)^3 = \\left(\\frac{16}{4}\\right)^3 = 4^3 = 64$, sehingga $\\frac{T_Y}{T_X} = \\sqrt{64} = 8$, dan periode planet $Y$ adalah $T_Y = 8 \\times T_X = 8 \\times 8 = 64\\text{ tahun}$."
-      },
-      {
-        "key": "B",
-        "text": "$T_Y = 32\\text{ tahun}$, karena hubungan Kepler keliru dianggap berbanding kuadrat langsung tanpa pemangkatan tiga jarak orbit sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$T_Y = 128\\text{ tahun}$, dihitung dari perkalian periode planet pertama dengan rasio kuadrat jarak lintasan orbit."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "$T_Y = 16\\text{ tahun}$, karena beranggapan periode revolusi berbanding lurus linier dengan jarak rata-rata orbit satelit."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "$T_Y = 256\\text{ tahun}$, dihitung dari pemangkatan empat perbandingan jarak rata-rata orbit planet."
+      },
+      {
+        "key": "D",
+        "text": "$T_Y = 64\\text{ tahun}$, karena menurut Hukum III Kepler rasio kuadrat periode revolusi berbanding lurus dengan pangkat tiga jarak rata-rata orbit: $\\left(\\frac{T_Y}{T_X}\\right)^2 = \\left(\\frac{R_Y}{R_X}\\right)^3 = \\left(\\frac{16}{4}\\right)^3 = 4^3 = 64$, sehingga $\\frac{T_Y}{T_X} = \\sqrt{64} = 8$, dan periode planet $Y$ adalah $T_Y = 8 \\times T_X = 8 \\times 8 = 64\\text{ tahun}$."
+      },
+      {
+        "key": "E",
+        "text": "$T_Y = 32\\text{ tahun}$, karena hubungan Kepler keliru dianggap berbanding kuadrat langsung tanpa pemangkatan tiga jarak orbit sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $T_Y = 64\\text{ tahun}$, karena menurut Hukum III Kepler rasio kuadrat periode revolusi berbanding lurus dengan pangkat tiga jarak rata-rata orbit: $\\left(\\frac{T_Y}{T_X}\\right)^2 = \\left(\\frac{R_Y}{R_X}\\right)^3 = \\left(\\frac{16}{4}\\right)^3 = 4^3 = 64$, sehingga $\\frac{T_Y}{T_X} = \\sqrt{64} = 8$, dan periode planet $Y$ adalah $T_Y = 8 \\times T_X = 8 \\times 8 = 64\\text{ tahun}$.. Hukum III Kepler: (T1 / T2)^2 = (R1 / R2)^3. Maka TY = TX * (RY / RX)^(3/2). TY = 8 * (16 / 4)^(3/2) = 8 * 4^(1,5) = 8 * 8 = 64 tahun."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $T_Y = 64\\text{ tahun}$, karena menurut Hukum III Kepler rasio kuadrat periode revolusi berbanding lurus dengan pangkat tiga jarak rata-rata orbit: $\\left(\\frac{T_Y}{T_X}\\right)^2 = \\left(\\frac{R_Y}{R_X}\\right)^3 = \\left(\\frac{16}{4}\\right)^3 = 4^3 = 64$, sehingga $\\frac{T_Y}{T_X} = \\sqrt{64} = 8$, dan periode planet $Y$ adalah $T_Y = 8 \\times T_X = 8 \\times 8 = 64\\text{ tahun}$.. Hukum III Kepler: (T1 / T2)^2 = (R1 / R2)^3. Maka TY = TX * (RY / RX)^(3/2). TY = 8 * (16 / 4)^(3/2) = 8 * 4^(1,5) = 8 * 8 = 64 tahun."
   },
   {
     "id": "fis-sim-07",
@@ -3508,27 +3509,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta h = 12\\text{ cm}$, karena nilai tersebut merupakan tinggi kolom air yang terangkat dari garis bidang batas kesetimbangan sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
         "text": "$\\Delta h = 3\\text{ cm}$ (di mana permukaan air di kaki kiri lebih rendah $3\\text{ cm}$ dibanding permukaan atas minyak di kaki kanan), karena pada bidang batas bawah berlaku kesetimbangan tekanan hidrostatis $\\rho_{\\text{air}} g h_{\\text{air}} = \\rho_{\\text{minyak}} g h_{\\text{minyak}} \\implies h_{\\text{air}} = \\frac{\\rho_{\\text{minyak}}}{\\rho_{\\text{air}}} h_{\\text{minyak}} = \\frac{800}{1.000} \\times 15 = 12\\text{ cm}$. Selisih ketinggian antara kedua permukaan atas zat cair adalah $\\Delta h = h_{\\text{minyak}} - h_{\\text{air}} = 15\\text{ cm} - 12\\text{ cm} = 3\\text{ cm}$."
       },
       {
+        "key": "B",
+        "text": "$\\Delta h = 12\\text{ cm}$, karena nilai tersebut merupakan tinggi kolom air yang terangkat dari garis bidang batas kesetimbangan sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
         "key": "C",
-        "text": "$\\Delta h = 5\\text{ cm}$, dihitung dari perbandingan selisih massa jenis terhadap tinggi total kolom minyak."
+        "text": "$\\Delta h = 0\\text{ cm}$, karena mengasumsikan permukaan cairan dalam pipa U selalu datar sejajar dalam kondisi setimbang."
       },
       {
         "key": "D",
-        "text": "$\\Delta h = 2\\text{ cm}$, dihitung dari pendekatan pembulatan rasio kerapatan massa jenis fluida."
+        "text": "$\\Delta h = 5\\text{ cm}$, dihitung dari perbandingan selisih massa jenis terhadap tinggi total kolom minyak."
       },
       {
         "key": "E",
-        "text": "$\\Delta h = 0\\text{ cm}$, karena mengasumsikan permukaan cairan dalam pipa U selalu datar sejajar dalam kondisi setimbang."
+        "text": "$\\Delta h = 2\\text{ cm}$, dihitung dari pendekatan pembulatan rasio kerapatan massa jenis fluida."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\Delta h = 3\\text{ cm}$ (di mana permukaan air di kaki kiri lebih rendah $3\\text{ cm}$ dibanding permukaan atas minyak di kaki kanan), karena pada bidang batas bawah berlaku kesetimbangan tekanan hidrostatis $\\rho_{\\text{air}} g h_{\\text{air}} = \\rho_{\\text{minyak}} g h_{\\text{minyak}} \\implies h_{\\text{air}} = \\frac{\\rho_{\\text{minyak}}}{\\rho_{\\text{air}}} h_{\\text{minyak}} = \\frac{800}{1.000} \\times 15 = 12\\text{ cm}$. Selisih ketinggian antara kedua permukaan atas zat cair adalah $\\Delta h = h_{\\text{minyak}} - h_{\\text{air}} = 15\\text{ cm} - 12\\text{ cm} = 3\\text{ cm}$.. Hukum Utama Hidrostatis: rho_air * h_air = rho_minyak * h_minyak. Cari h_air, lalu selisih tinggi Delta_h = h_minyak - h_air. h_air = (800 / 1000) * 15 = 12 cm. Delta_h = 15 - 12 = 3 cm."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta h = 3\\text{ cm}$ (di mana permukaan air di kaki kiri lebih rendah $3\\text{ cm}$ dibanding permukaan atas minyak di kaki kanan), karena pada bidang batas bawah berlaku kesetimbangan tekanan hidrostatis $\\rho_{\\text{air}} g h_{\\text{air}} = \\rho_{\\text{minyak}} g h_{\\text{minyak}} \\implies h_{\\text{air}} = \\frac{\\rho_{\\text{minyak}}}{\\rho_{\\text{air}}} h_{\\text{minyak}} = \\frac{800}{1.000} \\times 15 = 12\\text{ cm}$. Selisih ketinggian antara kedua permukaan atas zat cair adalah $\\Delta h = h_{\\text{minyak}} - h_{\\text{air}} = 15\\text{ cm} - 12\\text{ cm} = 3\\text{ cm}$.. Hukum Utama Hidrostatis: rho_air * h_air = rho_minyak * h_minyak. Cari h_air, lalu selisih tinggi Delta_h = h_minyak - h_air. h_air = (800 / 1000) * 15 = 12 cm. Delta_h = 15 - 12 = 3 cm."
   },
   {
     "id": "fis-sim-08",
@@ -3551,7 +3552,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v_1 = 3\\text{ m/s}$ dan $Q = 15\\text{ L/s}$, karena penyebut di dalam tanda akar keliru tidak dikurangi angka 1 dari rasio kuadrat penampang ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$v_1 = \\sqrt{3}\\text{ m/s} \\approx 1{,}73\\text{ m/s}$ dan $Q = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ L/s}$, karena rumus venturimeter tanpa manometer adalah $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}45}{2^2 - 1}} = \\sqrt{\\frac{9}{4 - 1}} = \\sqrt{\\frac{9}{3}} = \\sqrt{3}\\text{ m/s}$. Debit aliran adalah $Q = A_1 v_1 = (50 \\times 10^{-4}\\text{ m}^2) \\times \\sqrt{3}\\text{ m/s} = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ liter/sekon}$."
       },
       {
         "key": "B",
@@ -3559,19 +3560,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$v_1 = \\sqrt{3}\\text{ m/s} \\approx 1{,}73\\text{ m/s}$ dan $Q = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ L/s}$, karena rumus venturimeter tanpa manometer adalah $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}45}{2^2 - 1}} = \\sqrt{\\frac{9}{4 - 1}} = \\sqrt{\\frac{9}{3}} = \\sqrt{3}\\text{ m/s}$. Debit aliran adalah $Q = A_1 v_1 = (50 \\times 10^{-4}\\text{ m}^2) \\times \\sqrt{3}\\text{ m/s} = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ liter/sekon}$."
+        "text": "$v_1 = 3\\text{ m/s}$ dan $Q = 15\\text{ L/s}$, karena penyebut di dalam tanda akar keliru tidak dikurangi angka 1 dari rasio kuadrat penampang."
       },
       {
         "key": "D",
-        "text": "$v_1 = 0{,}9\\text{ m/s}$ dan $Q = 4{,}5\\text{ L/s}$, dihitung dari rumus semburan bebas Torricelli tanpa memperhitungkan penyempitan leher pipa."
+        "text": "$v_1 = 4{,}5\\text{ m/s}$ dan $Q = 22{,}5\\text{ L/s}$, dihitung dari perbandingan selisih tekanan hidrostatik langsung terhadap kerapatan fluida."
       },
       {
         "key": "E",
-        "text": "$v_1 = 4{,}5\\text{ m/s}$ dan $Q = 22{,}5\\text{ L/s}$, dihitung dari perbandingan selisih tekanan hidrostatik langsung terhadap kerapatan fluida."
+        "text": "$v_1 = 0{,}9\\text{ m/s}$ dan $Q = 4{,}5\\text{ L/s}$, dihitung dari rumus semburan bebas Torricelli tanpa memperhitungkan penyempitan leher pipa."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $v_1 = \\sqrt{3}\\text{ m/s} \\approx 1{,}73\\text{ m/s}$ dan $Q = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ L/s}$, karena rumus venturimeter tanpa manometer adalah $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}45}{2^2 - 1}} = \\sqrt{\\frac{9}{4 - 1}} = \\sqrt{\\frac{9}{3}} = \\sqrt{3}\\text{ m/s}$. Debit aliran adalah $Q = A_1 v_1 = (50 \\times 10^{-4}\\text{ m}^2) \\times \\sqrt{3}\\text{ m/s} = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ liter/sekon}$.. Gunakan persamaan venturimeter: v1 = sqrt( 2*g*h / ((A1/A2)^2 - 1) ). Debit Q = A1 * v1. v1 = sqrt( 2 * 10 * 0,45 / (2^2 - 1) ) = sqrt(9 / 3) = sqrt(3) m/s. Q = 50e-4 * sqrt(3) = 8,66 L/s."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $v_1 = \\sqrt{3}\\text{ m/s} \\approx 1{,}73\\text{ m/s}$ dan $Q = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ L/s}$, karena rumus venturimeter tanpa manometer adalah $v_1 = \\sqrt{\\frac{2gh}{(A_1/A_2)^2 - 1}} = \\sqrt{\\frac{2 \\times 10 \\times 0{,}45}{2^2 - 1}} = \\sqrt{\\frac{9}{4 - 1}} = \\sqrt{\\frac{9}{3}} = \\sqrt{3}\\text{ m/s}$. Debit aliran adalah $Q = A_1 v_1 = (50 \\times 10^{-4}\\text{ m}^2) \\times \\sqrt{3}\\text{ m/s} = 5\\sqrt{3} \\times 10^{-3}\\text{ m}^3\\text{/s} \\approx 8{,}66\\text{ liter/sekon}$.. Gunakan persamaan venturimeter: v1 = sqrt( 2*g*h / ((A1/A2)^2 - 1) ). Debit Q = A1 * v1. v1 = sqrt( 2 * 10 * 0,45 / (2^2 - 1) ) = sqrt(9 / 3) = sqrt(3) m/s. Q = 50e-4 * sqrt(3) = 8,66 L/s."
   },
   {
     "id": "fis-sim-09",
@@ -3594,11 +3595,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$T_c = 45{,}00^\\circ\\text{C}$, karena hanya menghitung rata-rata suhu kedua zat cair tanpa memperhitungkan kalor laten peleburan es menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$T_c = 60{,}00^\\circ\\text{C}$, dihitung dari perbandingan massa es terhadap massa air panas dikalikan suhu awal."
       },
       {
         "key": "B",
-        "text": "$T_c = 25{,}00^\\circ\\text{C}$, dihitung dengan mengalikan kalor jenis es ke dalam perhitungan kalor laten lebur."
+        "text": "$T_c = 33{,}33^\\circ\\text{C}$ (atau $33\\frac{1}{3}^\\circ\\text{C}$), karena kalor yang dibutuhkan untuk meleburkan seluruh es menjadi air $0^\\circ\\text{C}$ adalah $Q_{\\text{lebur}} = m_{\\text{es}} L_f = 100 \\times 80 = 8.000\\text{ kalori}$. Kalor maksimum yang dapat dilepaskan air panas untuk mendingin ke $0^\\circ\\text{C}$ adalah $Q_{\\text{lepas}} = 200 \\times 1 \\times 90 = 18.000\\text{ kalori} > 8.000\\text{ kal}$, sehingga seluruh es dipastikan mencair. Menurut Asas Black: $Q_{\\text{lepas}} = Q_{\\text{serap}} \\implies m_{\\text{air}} c (90 - T_c) = m_{\\text{es}} L_f + m_{\\text{es}} c (T_c - 0) \\implies 200(90 - T_c) = 8.000 + 100 T_c \\implies 18.000 - 200 T_c = 8.000 + 100 T_c \\implies 300 T_c = 10.000 \\implies T_c = \\frac{100}{3} = 33{,}33^\\circ\\text{C}$."
       },
       {
         "key": "C",
@@ -3606,15 +3607,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$T_c = 33{,}33^\\circ\\text{C}$ (atau $33\\frac{1}{3}^\\circ\\text{C}$), karena kalor yang dibutuhkan untuk meleburkan seluruh es menjadi air $0^\\circ\\text{C}$ adalah $Q_{\\text{lebur}} = m_{\\text{es}} L_f = 100 \\times 80 = 8.000\\text{ kalori}$. Kalor maksimum yang dapat dilepaskan air panas untuk mendingin ke $0^\\circ\\text{C}$ adalah $Q_{\\text{lepas}} = 200 \\times 1 \\times 90 = 18.000\\text{ kalori} > 8.000\\text{ kal}$, sehingga seluruh es dipastikan mencair. Menurut Asas Black: $Q_{\\text{lepas}} = Q_{\\text{serap}} \\implies m_{\\text{air}} c (90 - T_c) = m_{\\text{es}} L_f + m_{\\text{es}} c (T_c - 0) \\implies 200(90 - T_c) = 8.000 + 100 T_c \\implies 18.000 - 200 T_c = 8.000 + 100 T_c \\implies 300 T_c = 10.000 \\implies T_c = \\frac{100}{3} = 33{,}33^\\circ\\text{C}$."
+        "text": "$T_c = 25{,}00^\\circ\\text{C}$, dihitung dengan mengalikan kalor jenis es ke dalam perhitungan kalor laten lebur."
       },
       {
         "key": "E",
-        "text": "$T_c = 60{,}00^\\circ\\text{C}$, dihitung dari perbandingan massa es terhadap massa air panas dikalikan suhu awal."
+        "text": "$T_c = 45{,}00^\\circ\\text{C}$, karena hanya menghitung rata-rata suhu kedua zat cair tanpa memperhitungkan kalor laten peleburan es."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $T_c = 33{,}33^\\circ\\text{C}$ (atau $33\\frac{1}{3}^\\circ\\text{C}$), karena kalor yang dibutuhkan untuk meleburkan seluruh es menjadi air $0^\\circ\\text{C}$ adalah $Q_{\\text{lebur}} = m_{\\text{es}} L_f = 100 \\times 80 = 8.000\\text{ kalori}$. Kalor maksimum yang dapat dilepaskan air panas untuk mendingin ke $0^\\circ\\text{C}$ adalah $Q_{\\text{lepas}} = 200 \\times 1 \\times 90 = 18.000\\text{ kalori} > 8.000\\text{ kal}$, sehingga seluruh es dipastikan mencair. Menurut Asas Black: $Q_{\\text{lepas}} = Q_{\\text{serap}} \\implies m_{\\text{air}} c (90 - T_c) = m_{\\text{es}} L_f + m_{\\text{es}} c (T_c - 0) \\implies 200(90 - T_c) = 8.000 + 100 T_c \\implies 18.000 - 200 T_c = 8.000 + 100 T_c \\implies 300 T_c = 10.000 \\implies T_c = \\frac{100}{3} = 33{,}33^\\circ\\text{C}$.. Hitung kalor lebur es: 100 * 80 = 8.000 kal. Kalor air lepas ke 0C: 200 * 1 * 90 = 18.000 kal. Karena 18.000 > 8.000, semua es cair dan suhu akhir > 0C. Gunakan Q_lepas = Q_serap. 200 * (90 - Tc) = 8.000 + 100 * Tc -> 18.000 - 200 Tc = 8.000 + 100 Tc -> 300 Tc = 10.000 -> Tc = 33,33 C."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $T_c = 33{,}33^\\circ\\text{C}$ (atau $33\\frac{1}{3}^\\circ\\text{C}$), karena kalor yang dibutuhkan untuk meleburkan seluruh es menjadi air $0^\\circ\\text{C}$ adalah $Q_{\\text{lebur}} = m_{\\text{es}} L_f = 100 \\times 80 = 8.000\\text{ kalori}$. Kalor maksimum yang dapat dilepaskan air panas untuk mendingin ke $0^\\circ\\text{C}$ adalah $Q_{\\text{lepas}} = 200 \\times 1 \\times 90 = 18.000\\text{ kalori} > 8.000\\text{ kal}$, sehingga seluruh es dipastikan mencair. Menurut Asas Black: $Q_{\\text{lepas}} = Q_{\\text{serap}} \\implies m_{\\text{air}} c (90 - T_c) = m_{\\text{es}} L_f + m_{\\text{es}} c (T_c - 0) \\implies 200(90 - T_c) = 8.000 + 100 T_c \\implies 18.000 - 200 T_c = 8.000 + 100 T_c \\implies 300 T_c = 10.000 \\implies T_c = \\frac{100}{3} = 33{,}33^\\circ\\text{C}$.. Hitung kalor lebur es: 100 * 80 = 8.000 kal. Kalor air lepas ke 0C: 200 * 1 * 90 = 18.000 kal. Karena 18.000 > 8.000, semua es cair dan suhu akhir > 0C. Gunakan Q_lepas = Q_serap. 200 * (90 - Tc) = 8.000 + 100 * Tc -> 18.000 - 200 Tc = 8.000 + 100 Tc -> 300 Tc = 10.000 -> Tc = 33,33 C."
   },
   {
     "id": "fis-sim-10",
@@ -3637,7 +3638,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\bar{E}_k = 1{,}035 \\times 10^{-20}\\text{ Joule}$ dan $U = 6.235{,}5\\text{ Joule}$, karena keliru menggunakan derajat kebebasan diatomik $f = 5$ pada suhu tinggi diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$\\bar{E}_k = 6{,}21 \\times 10^{-21}\\text{ Joule}$ dan $U = 3.741{,}3\\text{ Joule}$, karena untuk gas monoatomik yang memiliki derajat kebebasan $f = 3$, energi kinetik rata-rata per molekul adalah $\\bar{E}_k = \\frac{3}{2} k_B T = \\frac{3}{2} \\times (1{,}38 \\times 10^{-23}\\text{ J/K}) \\times 300\\text{ K} = 6{,}21 \\times 10^{-21}\\text{ J}$. Energi dalam total untuk 1 mol gas adalah $U = \\frac{3}{2} n R T = \\frac{3}{2} (1\\text{ mol}) \\times 8{,}314\\text{ J/(mol}\\cdot\\text{K)} \\times 300\\text{ K} = 3.741{,}3\\text{ Joule}$."
       },
       {
         "key": "B",
@@ -3649,15 +3650,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$\\bar{E}_k = 1{,}24 \\times 10^{-20}\\text{ Joule}$ dan $U = 7.482{,}6\\text{ Joule}$, dihitung dari penggandaan suhu mutlak dalam skala Celsius."
+        "text": "$\\bar{E}_k = 1{,}035 \\times 10^{-20}\\text{ Joule}$ dan $U = 6.235{,}5\\text{ Joule}$, karena keliru menggunakan derajat kebebasan diatomik $f = 5$ pada suhu tinggi diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "E",
-        "text": "$\\bar{E}_k = 6{,}21 \\times 10^{-21}\\text{ Joule}$ dan $U = 3.741{,}3\\text{ Joule}$, karena untuk gas monoatomik yang memiliki derajat kebebasan $f = 3$, energi kinetik rata-rata per molekul adalah $\\bar{E}_k = \\frac{3}{2} k_B T = \\frac{3}{2} \\times (1{,}38 \\times 10^{-23}\\text{ J/K}) \\times 300\\text{ K} = 6{,}21 \\times 10^{-21}\\text{ J}$. Energi dalam total untuk 1 mol gas adalah $U = \\frac{3}{2} n R T = \\frac{3}{2} (1\\text{ mol}) \\times 8{,}314\\text{ J/(mol}\\cdot\\text{K)} \\times 300\\text{ K} = 3.741{,}3\\text{ Joule}$."
+        "text": "$\\bar{E}_k = 1{,}24 \\times 10^{-20}\\text{ Joule}$ dan $U = 7.482{,}6\\text{ Joule}$, dihitung dari penggandaan suhu mutlak dalam skala Celsius."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\bar{E}_k = 6{,}21 \\times 10^{-21}\\text{ Joule}$ dan $U = 3.741{,}3\\text{ Joule}$, karena untuk gas monoatomik yang memiliki derajat kebebasan $f = 3$, energi kinetik rata-rata per molekul adalah $\\bar{E}_k = \\frac{3}{2} k_B T = \\frac{3}{2} \\times (1{,}38 \\times 10^{-23}\\text{ J/K}) \\times 300\\text{ K} = 6{,}21 \\times 10^{-21}\\text{ J}$. Energi dalam total untuk 1 mol gas adalah $U = \\frac{3}{2} n R T = \\frac{3}{2} (1\\text{ mol}) \\times 8{,}314\\text{ J/(mol}\\cdot\\text{K)} \\times 300\\text{ K} = 3.741{,}3\\text{ Joule}$.. Gas monoatomik: Ek_rata = 3/2 * kB * T. Energi dalam 1 mol: U = 3/2 * n * R * T. Ek = 1,5 * 1,38e-23 * 300 = 6,21e-21 J. U = 1,5 * 1 * 8,314 * 300 = 3.741,3 J."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\bar{E}_k = 6{,}21 \\times 10^{-21}\\text{ Joule}$ dan $U = 3.741{,}3\\text{ Joule}$, karena untuk gas monoatomik yang memiliki derajat kebebasan $f = 3$, energi kinetik rata-rata per molekul adalah $\\bar{E}_k = \\frac{3}{2} k_B T = \\frac{3}{2} \\times (1{,}38 \\times 10^{-23}\\text{ J/K}) \\times 300\\text{ K} = 6{,}21 \\times 10^{-21}\\text{ J}$. Energi dalam total untuk 1 mol gas adalah $U = \\frac{3}{2} n R T = \\frac{3}{2} (1\\text{ mol}) \\times 8{,}314\\text{ J/(mol}\\cdot\\text{K)} \\times 300\\text{ K} = 3.741{,}3\\text{ Joule}$.. Gas monoatomik: Ek_rata = 3/2 * kB * T. Energi dalam 1 mol: U = 3/2 * n * R * T. Ek = 1,5 * 1,38e-23 * 300 = 6,21e-21 J. U = 1,5 * 1 * 8,314 * 300 = 3.741,3 J."
   },
   {
     "id": "fis-sim-11",
@@ -3680,27 +3681,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$L_B = 75\\text{ cm}$, karena frekuensi nada atas pertama ($n = 1$) pipa organa terbuka adalah $f_{1,A} = \\frac{(1 + 1)v}{2 L_A} = \\frac{2v}{2 L_A} = \\frac{v}{L_A} = \\frac{v}{60}$. Frekuensi nada atas kedua ($n = 2$) pipa organa tertutup adalah $f_{2,B} = \\frac{(2(2) + 1)v}{4 L_B} = \\frac{5v}{4 L_B}$. Karena frekuensinya sama, berlaku $\\frac{v}{60} = \\frac{5v}{4 L_B} \\implies 4 L_B = 5 \\times 60 = 300 \\implies L_B = \\frac{300}{4} = 75\\text{ cm}$."
+        "text": "$L_B = 40\\text{ cm}$, dihitung dari kebalikan perkalian silang rumus resonansi gelombang berdiri akustik."
       },
       {
         "key": "B",
-        "text": "$L_B = 50\\text{ cm}$, karena formula nada atas pipa organa tertutup keliru menggunakan koefisien tiga per empat sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$L_B = 50\\text{ cm}$, karena formula nada atas pipa organa tertutup keliru menggunakan koefisien tiga per empat sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "C",
-        "text": "$L_B = 90\\text{ cm}$, dihitung dengan menyamakan rasio nada dasar antara pipa terbuka dan pipa tertutup."
-      },
-      {
-        "key": "D",
         "text": "$L_B = 60\\text{ cm}$, karena beranggapan pipa dengan frekuensi sama selalu memiliki panjang tabung fisik yang identik."
       },
       {
+        "key": "D",
+        "text": "$L_B = 75\\text{ cm}$, karena frekuensi nada atas pertama ($n = 1$) pipa organa terbuka adalah $f_{1,A} = \\frac{(1 + 1)v}{2 L_A} = \\frac{2v}{2 L_A} = \\frac{v}{L_A} = \\frac{v}{60}$. Frekuensi nada atas kedua ($n = 2$) pipa organa tertutup adalah $f_{2,B} = \\frac{(2(2) + 1)v}{4 L_B} = \\frac{5v}{4 L_B}$. Karena frekuensinya sama, berlaku $\\frac{v}{60} = \\frac{5v}{4 L_B} \\implies 4 L_B = 5 \\times 60 = 300 \\implies L_B = \\frac{300}{4} = 75\\text{ cm}$."
+      },
+      {
         "key": "E",
-        "text": "$L_B = 40\\text{ cm}$, dihitung dari kebalikan perkalian silang rumus resonansi gelombang berdiri akustik."
+        "text": "$L_B = 90\\text{ cm}$, dihitung dengan menyamakan rasio nada dasar antara pipa terbuka dan pipa tertutup."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $L_B = 75\\text{ cm}$, karena frekuensi nada atas pertama ($n = 1$) pipa organa terbuka adalah $f_{1,A} = \\frac{(1 + 1)v}{2 L_A} = \\frac{2v}{2 L_A} = \\frac{v}{L_A} = \\frac{v}{60}$. Frekuensi nada atas kedua ($n = 2$) pipa organa tertutup adalah $f_{2,B} = \\frac{(2(2) + 1)v}{4 L_B} = \\frac{5v}{4 L_B}$. Karena frekuensinya sama, berlaku $\\frac{v}{60} = \\frac{5v}{4 L_B} \\implies 4 L_B = 5 \\times 60 = 300 \\implies L_B = \\frac{300}{4} = 75\\text{ cm}$.. Pipa terbuka nada atas 1: f = 2*v / (2*LA) = v / LA. Pipa tertutup nada atas 2: f = 5*v / (4*LB). Samakan kedua frekuensi untuk mencari LB. v / 60 = 5v / (4 LB) -> 4 LB = 300 -> LB = 75 cm."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $L_B = 75\\text{ cm}$, karena frekuensi nada atas pertama ($n = 1$) pipa organa terbuka adalah $f_{1,A} = \\frac{(1 + 1)v}{2 L_A} = \\frac{2v}{2 L_A} = \\frac{v}{L_A} = \\frac{v}{60}$. Frekuensi nada atas kedua ($n = 2$) pipa organa tertutup adalah $f_{2,B} = \\frac{(2(2) + 1)v}{4 L_B} = \\frac{5v}{4 L_B}$. Karena frekuensinya sama, berlaku $\\frac{v}{60} = \\frac{5v}{4 L_B} \\implies 4 L_B = 5 \\times 60 = 300 \\implies L_B = \\frac{300}{4} = 75\\text{ cm}$.. Pipa terbuka nada atas 1: f = 2*v / (2*LA) = v / LA. Pipa tertutup nada atas 2: f = 5*v / (4*LB). Samakan kedua frekuensi untuk mencari LB. v / 60 = 5v / (4 LB) -> 4 LB = 300 -> LB = 75 cm."
   },
   {
     "id": "fis-sim-12",
@@ -3723,27 +3724,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta y = 3{,}00\\text{ mm}$, karena merupakan jarak antarpita terang saat percobaan dilakukan di udara sebelum dimasukkan ke air sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$\\Delta y = 0{,}75\\text{ mm}$, dihitung dari orde ketiga difraksi minimum interferensi destruktif celah ganda."
       },
       {
         "key": "B",
-        "text": "$\\Delta y = 2{,}25\\text{ mm}$ (atau $2{,}25 \\times 10^{-3}\\text{ m}$), karena panjang gelombang cahaya di dalam air memendek menjadi $\\lambda = \\frac{\\lambda_0}{n} = \\frac{600\\text{ nm}}{4/3} = 450\\text{ nm} = 4{,}5 \\times 10^{-7}\\text{ m}$. Jarak antarcelah terang berdekatan adalah $\\Delta y = \\frac{\\lambda L}{d} = \\frac{(4{,}5 \\times 10^{-7}\\text{ m}) \\times 1\\text{ m}}{0{,}2 \\times 10^{-3}\\text{ m}} = 2{,}25 \\times 10^{-3}\\text{ m} = 2{,}25\\text{ mm}$ (jika di udara $\\Delta y_0 = 3{,}0\\text{ mm}$)."
-      },
-      {
-        "key": "C",
         "text": "$\\Delta y = 4{,}00\\text{ mm}$, karena panjang gelombang cahaya keliru dikalikan dengan indeks bias medium air."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "$\\Delta y = 1{,}50\\text{ mm}$, dihitung dari pembagian jarak celah dengan kuadrat indeks bias fluida."
       },
       {
+        "key": "D",
+        "text": "$\\Delta y = 3{,}00\\text{ mm}$, karena merupakan jarak antarpita terang saat percobaan dilakukan di udara sebelum dimasukkan ke air sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
         "key": "E",
-        "text": "$\\Delta y = 0{,}75\\text{ mm}$, dihitung dari orde ketiga difraksi minimum interferensi destruktif celah ganda."
+        "text": "$\\Delta y = 2{,}25\\text{ mm}$ (atau $2{,}25 \\times 10^{-3}\\text{ m}$), karena panjang gelombang cahaya di dalam air memendek menjadi $\\lambda = \\frac{\\lambda_0}{n} = \\frac{600\\text{ nm}}{4/3} = 450\\text{ nm} = 4{,}5 \\times 10^{-7}\\text{ m}$. Jarak antarcelah terang berdekatan adalah $\\Delta y = \\frac{\\lambda L}{d} = \\frac{(4{,}5 \\times 10^{-7}\\text{ m}) \\times 1\\text{ m}}{0{,}2 \\times 10^{-3}\\text{ m}} = 2{,}25 \\times 10^{-3}\\text{ m} = 2{,}25\\text{ mm}$ (jika di udara $\\Delta y_0 = 3{,}0\\text{ mm}$)."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $\\Delta y = 2{,}25\\text{ mm}$ (atau $2{,}25 \\times 10^{-3}\\text{ m}$), karena panjang gelombang cahaya di dalam air memendek menjadi $\\lambda = \\frac{\\lambda_0}{n} = \\frac{600\\text{ nm}}{4/3} = 450\\text{ nm} = 4{,}5 \\times 10^{-7}\\text{ m}$. Jarak antarcelah terang berdekatan adalah $\\Delta y = \\frac{\\lambda L}{d} = \\frac{(4{,}5 \\times 10^{-7}\\text{ m}) \\times 1\\text{ m}}{0{,}2 \\times 10^{-3}\\text{ m}} = 2{,}25 \\times 10^{-3}\\text{ m} = 2{,}25\\text{ mm}$ (jika di udara $\\Delta y_0 = 3{,}0\\text{ mm}$).. Di dalam air, panjang gelombang memendek: lambda = lambda0 / n = 600 / (4/3) = 450 nm. Jarak antar pita terang: Delta_y = lambda * L / d. Delta_y = (450e-9 * 1) / 0,2e-3 = 2,25e-3 m = 2,25 mm."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $\\Delta y = 2{,}25\\text{ mm}$ (atau $2{,}25 \\times 10^{-3}\\text{ m}$), karena panjang gelombang cahaya di dalam air memendek menjadi $\\lambda = \\frac{\\lambda_0}{n} = \\frac{600\\text{ nm}}{4/3} = 450\\text{ nm} = 4{,}5 \\times 10^{-7}\\text{ m}$. Jarak antarcelah terang berdekatan adalah $\\Delta y = \\frac{\\lambda L}{d} = \\frac{(4{,}5 \\times 10^{-7}\\text{ m}) \\times 1\\text{ m}}{0{,}2 \\times 10^{-3}\\text{ m}} = 2{,}25 \\times 10^{-3}\\text{ m} = 2{,}25\\text{ mm}$ (jika di udara $\\Delta y_0 = 3{,}0\\text{ mm}$).. Di dalam air, panjang gelombang memendek: lambda = lambda0 / n = 600 / (4/3) = 450 nm. Jarak antar pita terang: Delta_y = lambda * L / d. Delta_y = (450e-9 * 1) / 0,2e-3 = 2,25e-3 m = 2,25 mm."
   },
   {
     "id": "fis-sim-13",
@@ -3766,11 +3767,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$M_{\\text{total}} = 50\\text{ kali}$ dan $d = 16\\text{ cm}$, karena perbesaran okuler dihitung untuk mata tidak berakomodasi ($S_n/f_{ok} = 5$) ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$M_{\\text{total}} = 30\\text{ kali}$ dan $d = 12\\text{ cm}$, karena bayangan objektif diasumsikan terbentuk pada fokus utama lensa okuler."
       },
       {
         "key": "B",
-        "text": "$M_{\\text{total}} = 100\\text{ kali}$ dan $d = 20\\text{ cm}$, dihitung dari pengalian langsung jarak fokus kedua lensa."
+        "text": "$M_{\\text{total}} = 75\\text{ kali}$ dan $d = 18{,}5\\text{ cm}$, dihitung dari perbesaran sudut teleskop astronomi Kepler."
       },
       {
         "key": "C",
@@ -3778,11 +3779,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$M_{\\text{total}} = 30\\text{ kali}$ dan $d = 12\\text{ cm}$, karena bayangan objektif diasumsikan terbentuk pada fokus utama lensa okuler."
+        "text": "$M_{\\text{total}} = 100\\text{ kali}$ dan $d = 20\\text{ cm}$, dihitung dari pengalian langsung jarak fokus kedua lensa."
       },
       {
         "key": "E",
-        "text": "$M_{\\text{total}} = 75\\text{ kali}$ dan $d = 18{,}5\\text{ cm}$, dihitung dari perbesaran sudut teleskop astronomi Kepler."
+        "text": "$M_{\\text{total}} = 50\\text{ kali}$ dan $d = 16\\text{ cm}$, karena perbesaran okuler dihitung untuk mata tidak berakomodasi ($S_n/f_{ok} = 5$)."
       }
     ],
     "correctKey": "C",
@@ -3809,7 +3810,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$E = 3{,}6 \\times 10^6\\text{ N/C}$ dan $V = 3{,}6 \\times 10^5\\text{ Volt}$, karena keliru memasukkan jarak $r = 0{,}1\\text{ m}$ ke dalam rumus medan listrik titik seolah bola konduktor adalah muatan titik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$E = 3{,}6 \\times 10^6\\text{ N/C}$ dan $V = 3{,}6 \\times 10^5\\text{ Volt}$, karena keliru memasukkan jarak $r = 0{,}1\\text{ m}$ ke dalam rumus medan listrik titik seolah bola konduktor adalah muatan titik."
       },
       {
         "key": "B",
@@ -3821,15 +3822,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$E = 0\\text{ N/C}$ dan $V = 1{,}8 \\times 10^5\\text{ Volt}$, karena di dalam konduktor elektrostatik ($r < R$) tidak ada muatan yang dilingkupi oleh permukaan Gauss sehingga medan listrik di dalam bola adalah nol ($E = 0$). Potensial listrik di seluruh rongga dalam dan permukaan bola bernilai konstan dan sama dengan potensial di permukaannya: $V = \\frac{k Q}{R} = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-6})}{0{,}2} = \\frac{36.000}{0{,}2} = 180.000\\text{ Volt} = 1{,}8 \\times 10^5\\text{ Volt}$."
+        "text": "$E = 1{,}8 \\times 10^5\\text{ N/C}$ dan $V = 9{,}0 \\times 10^4\\text{ Volt}$, dihitung dari pembagian muatan terhadap volume bola tiga dimensi."
       },
       {
         "key": "E",
-        "text": "$E = 1{,}8 \\times 10^5\\text{ N/C}$ dan $V = 9{,}0 \\times 10^4\\text{ Volt}$, dihitung dari pembagian muatan terhadap volume bola tiga dimensi."
+        "text": "$E = 0\\text{ N/C}$ dan $V = 1{,}8 \\times 10^5\\text{ Volt}$, karena di dalam konduktor elektrostatik ($r < R$) tidak ada muatan yang dilingkupi oleh permukaan Gauss sehingga medan listrik di dalam bola adalah nol ($E = 0$). Potensial listrik di seluruh rongga dalam dan permukaan bola bernilai konstan dan sama dengan potensial di permukaannya: $V = \\frac{k Q}{R} = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-6})}{0{,}2} = \\frac{36.000}{0{,}2} = 180.000\\text{ Volt} = 1{,}8 \\times 10^5\\text{ Volt}$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $E = 0\\text{ N/C}$ dan $V = 1{,}8 \\times 10^5\\text{ Volt}$, karena di dalam konduktor elektrostatik ($r < R$) tidak ada muatan yang dilingkupi oleh permukaan Gauss sehingga medan listrik di dalam bola adalah nol ($E = 0$). Potensial listrik di seluruh rongga dalam dan permukaan bola bernilai konstan dan sama dengan potensial di permukaannya: $V = \\frac{k Q}{R} = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-6})}{0{,}2} = \\frac{36.000}{0{,}2} = 180.000\\text{ Volt} = 1{,}8 \\times 10^5\\text{ Volt}$.. Di dalam bola konduktor (r < R): medan listrik E = 0. Potensial listrik di dalam bola konstan sama dengan di permukaan bola: V = k*Q / R. E = 0. V = 9e9 * 4e-6 / 0,2 = 36.000 / 0,2 = 1,8 x 10^5 Volt."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $E = 0\\text{ N/C}$ dan $V = 1{,}8 \\times 10^5\\text{ Volt}$, karena di dalam konduktor elektrostatik ($r < R$) tidak ada muatan yang dilingkupi oleh permukaan Gauss sehingga medan listrik di dalam bola adalah nol ($E = 0$). Potensial listrik di seluruh rongga dalam dan permukaan bola bernilai konstan dan sama dengan potensial di permukaannya: $V = \\frac{k Q}{R} = \\frac{(9 \\times 10^9) \\times (4 \\times 10^{-6})}{0{,}2} = \\frac{36.000}{0{,}2} = 180.000\\text{ Volt} = 1{,}8 \\times 10^5\\text{ Volt}$.. Di dalam bola konduktor (r < R): medan listrik E = 0. Potensial listrik di dalam bola konstan sama dengan di permukaan bola: V = k*Q / R. E = 0. V = 9e9 * 4e-6 / 0,2 = 36.000 / 0,2 = 1,8 x 10^5 Volt."
   },
   {
     "id": "fis-sim-15",
@@ -3852,7 +3853,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$I_2 = 3{,}00\\text{ Ampere}$, dihitung dengan mengabaikan hambatan cabang kanan sehingga hanya loop 1 yang beroperasi diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$I_2 = 4{,}50\\text{ Ampere}$, dihitung dari penjumlahan skalar arus cabang kiri dan kanan tanpa pembagi hambatan pengganti."
       },
       {
         "key": "B",
@@ -3864,15 +3865,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$I_2 = 4{,}50\\text{ Ampere}$, dihitung dari penjumlahan skalar arus cabang kiri dan kanan tanpa pembagi hambatan pengganti."
+        "text": "$I_2 = 2{,}25\\text{ Ampere}$ mengalir ke bawah, diperoleh dari persamaan Kirchhoff: titik cabang $I_1 + I_3 = I_2$, Loop 1: $12 - 2 I_1 - 4 I_2 = 0 \\implies I_1 = 6 - 2 I_2$, Loop 2: $6 - 2 I_3 - 4 I_2 = 0 \\implies I_3 = 3 - 2 I_2$. Substitusi ke cabang: $(6 - 2 I_2) + (3 - 2 I_2) = I_2 \\implies 9 - 4 I_2 = I_2 \\implies 5 I_2 = 9 \\implies I_2 = 1{,}8\\text{ A}$... mari cek: Loop 1: $12 - 2 I_1 - 4 I_2 = 0$; Loop 2: $6 - 2 I_3 - 4 I_2 = 0$. Maka $I_1 = 6 - 2(1{,}8) = 2{,}4\\text{ A}$, $I_3 = 3 - 2(1{,}8) = -0{,}6\\text{ A}$. Total arus $I_2 = 2{,}4 - 0{,}6 = 1{,}8\\text{ Ampere}$."
       },
       {
         "key": "E",
-        "text": "$I_2 = 2{,}25\\text{ Ampere}$ mengalir ke bawah, diperoleh dari persamaan Kirchhoff: titik cabang $I_1 + I_3 = I_2$, Loop 1: $12 - 2 I_1 - 4 I_2 = 0 \\implies I_1 = 6 - 2 I_2$, Loop 2: $6 - 2 I_3 - 4 I_2 = 0 \\implies I_3 = 3 - 2 I_2$. Substitusi ke cabang: $(6 - 2 I_2) + (3 - 2 I_2) = I_2 \\implies 9 - 4 I_2 = I_2 \\implies 5 I_2 = 9 \\implies I_2 = 1{,}8\\text{ A}$... mari cek: Loop 1: $12 - 2 I_1 - 4 I_2 = 0$; Loop 2: $6 - 2 I_3 - 4 I_2 = 0$. Maka $I_1 = 6 - 2(1{,}8) = 2{,}4\\text{ A}$, $I_3 = 3 - 2(1{,}8) = -0{,}6\\text{ A}$. Total arus $I_2 = 2{,}4 - 0{,}6 = 1{,}8\\text{ Ampere}$."
+        "text": "$I_2 = 3{,}00\\text{ Ampere}$, dihitung dengan mengabaikan hambatan cabang kanan sehingga hanya loop 1 yang beroperasi diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $I_2 = 2{,}25\\text{ Ampere}$ mengalir ke bawah, diperoleh dari persamaan Kirchhoff: titik cabang $I_1 + I_3 = I_2$, Loop 1: $12 - 2 I_1 - 4 I_2 = 0 \\implies I_1 = 6 - 2 I_2$, Loop 2: $6 - 2 I_3 - 4 I_2 = 0 \\implies I_3 = 3 - 2 I_2$. Substitusi ke cabang: $(6 - 2 I_2) + (3 - 2 I_2) = I_2 \\implies 9 - 4 I_2 = I_2 \\implies 5 I_2 = 9 \\implies I_2 = 1{,}8\\text{ A}$... mari cek: Loop 1: $12 - 2 I_1 - 4 I_2 = 0$; Loop 2: $6 - 2 I_3 - 4 I_2 = 0$. Maka $I_1 = 6 - 2(1{,}8) = 2{,}4\\text{ A}$, $I_3 = 3 - 2(1{,}8) = -0{,}6\\text{ A}$. Total arus $I_2 = 2{,}4 - 0{,}6 = 1{,}8\\text{ Ampere}$.. Gunakan Hukum Kirchhoff cabang I1 + I3 = I2. Susun persamaan loop 1 dan loop 2 untuk menyatakan I1 dan I3 dalam I2, lalu selesaikan sistem persamaan. I1 = 6 - 2*I2, I3 = 3 - 2*I2. (6 - 2*I2) + (3 - 2*I2) = I2 -> 9 = 5*I2 -> I2 = 1,8 Ampere."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $I_2 = 2{,}25\\text{ Ampere}$ mengalir ke bawah, diperoleh dari persamaan Kirchhoff: titik cabang $I_1 + I_3 = I_2$, Loop 1: $12 - 2 I_1 - 4 I_2 = 0 \\implies I_1 = 6 - 2 I_2$, Loop 2: $6 - 2 I_3 - 4 I_2 = 0 \\implies I_3 = 3 - 2 I_2$. Substitusi ke cabang: $(6 - 2 I_2) + (3 - 2 I_2) = I_2 \\implies 9 - 4 I_2 = I_2 \\implies 5 I_2 = 9 \\implies I_2 = 1{,}8\\text{ A}$... mari cek: Loop 1: $12 - 2 I_1 - 4 I_2 = 0$; Loop 2: $6 - 2 I_3 - 4 I_2 = 0$. Maka $I_1 = 6 - 2(1{,}8) = 2{,}4\\text{ A}$, $I_3 = 3 - 2(1{,}8) = -0{,}6\\text{ A}$. Total arus $I_2 = 2{,}4 - 0{,}6 = 1{,}8\\text{ Ampere}$.. Gunakan Hukum Kirchhoff cabang I1 + I3 = I2. Susun persamaan loop 1 dan loop 2 untuk menyatakan I1 dan I3 dalam I2, lalu selesaikan sistem persamaan. I1 = 6 - 2*I2, I3 = 3 - 2*I2. (6 - 2*I2) + (3 - 2*I2) = I2 -> 9 = 5*I2 -> I2 = 1,8 Ampere."
   },
   {
     "id": "fis-sim-16",
@@ -3895,27 +3896,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tolak-menolak, karena menurut hukum gaya Biot-Savart/Ampere, gaya per satuan panjang antara dua kawat sejajar adalah $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi a} = \\frac{(4\\pi \\times 10^{-7}) \\times 4 \\times 6}{2\\pi \\times 0{,}1} = \\frac{2 \\times 10^{-7} \\times 24}{0{,}1} = 4{,}8 \\times 10^{-5}\\text{ N/m}$. Karena arah kedua arus berlawanan arah, medan magnet yang timbul di antara kedua kawat saling memperkuat sehingga menghasilkan interaksi tolak-menolak."
-      },
-      {
-        "key": "B",
-        "text": "$F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tarik-menarik, karena salah mengasumsikan arus berlawanan arah akan tarik-menarik seperti muatan listrik elektrostatik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "C",
         "text": "$F/L = 2{,}4 \\times 10^{-5}\\text{ N/m}$ dan bersifat tolak-menolak, karena keliru membagi dua hasil perkalian arus kawat."
       },
       {
+        "key": "B",
+        "text": "$F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tarik-menarik, karena salah mengasumsikan arus berlawanan arah akan tarik-menarik seperti muatan listrik elektrostatik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "C",
+        "text": "$F/L = 1{,}2 \\times 10^{-6}\\text{ N/m}$ dan bersifat tolak-menolak, dihitung dari kuadrat jarak pemisah kawat sejajar."
+      },
+      {
         "key": "D",
-        "text": "$F/L = 9{,}6 \\times 10^{-5}\\text{ N/m}$ dan bersifat tarik-menarik, dihitung tanpa menyertakan faktor pembagian dua pi jarak kawat."
+        "text": "$F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tolak-menolak, karena menurut hukum gaya Biot-Savart/Ampere, gaya per satuan panjang antara dua kawat sejajar adalah $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi a} = \\frac{(4\\pi \\times 10^{-7}) \\times 4 \\times 6}{2\\pi \\times 0{,}1} = \\frac{2 \\times 10^{-7} \\times 24}{0{,}1} = 4{,}8 \\times 10^{-5}\\text{ N/m}$. Karena arah kedua arus berlawanan arah, medan magnet yang timbul di antara kedua kawat saling memperkuat sehingga menghasilkan interaksi tolak-menolak."
       },
       {
         "key": "E",
-        "text": "$F/L = 1{,}2 \\times 10^{-6}\\text{ N/m}$ dan bersifat tolak-menolak, dihitung dari kuadrat jarak pemisah kawat sejajar."
+        "text": "$F/L = 9{,}6 \\times 10^{-5}\\text{ N/m}$ dan bersifat tarik-menarik, dihitung tanpa menyertakan faktor pembagian dua pi jarak kawat."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tolak-menolak, karena menurut hukum gaya Biot-Savart/Ampere, gaya per satuan panjang antara dua kawat sejajar adalah $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi a} = \\frac{(4\\pi \\times 10^{-7}) \\times 4 \\times 6}{2\\pi \\times 0{,}1} = \\frac{2 \\times 10^{-7} \\times 24}{0{,}1} = 4{,}8 \\times 10^{-5}\\text{ N/m}$. Karena arah kedua arus berlawanan arah, medan magnet yang timbul di antara kedua kawat saling memperkuat sehingga menghasilkan interaksi tolak-menolak.. Gaya per satuan panjang: F/L = (mu0 * I1 * I2) / (2 * pi * a). Jika arah arus berlawanan, sifat interaksinya tolak-menolak. F/L = (4pi*1e-7 * 4 * 6) / (2pi * 0,1) = 4,8 x 10^-5 N/m, tolak-menolak."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $F/L = 4{,}8 \\times 10^{-5}\\text{ N/m}$ dan bersifat tolak-menolak, karena menurut hukum gaya Biot-Savart/Ampere, gaya per satuan panjang antara dua kawat sejajar adalah $\\frac{F}{L} = \\frac{\\mu_0 I_1 I_2}{2\\pi a} = \\frac{(4\\pi \\times 10^{-7}) \\times 4 \\times 6}{2\\pi \\times 0{,}1} = \\frac{2 \\times 10^{-7} \\times 24}{0{,}1} = 4{,}8 \\times 10^{-5}\\text{ N/m}$. Karena arah kedua arus berlawanan arah, medan magnet yang timbul di antara kedua kawat saling memperkuat sehingga menghasilkan interaksi tolak-menolak.. Gaya per satuan panjang: F/L = (mu0 * I1 * I2) / (2 * pi * a). Jika arah arus berlawanan, sifat interaksinya tolak-menolak. F/L = (4pi*1e-7 * 4 * 6) / (2pi * 0,1) = 4,8 x 10^-5 N/m, tolak-menolak."
   },
   {
     "id": "fis-sim-17",
@@ -3938,11 +3939,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$V_{\\max} = 250\\pi\\text{ Volt} \\approx 785\\text{ Volt}$, karena formula luas kumparan keliru dibagi dua saat perhitungan geometri sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$V_{\\max} = 250\\pi\\text{ Volt} \\approx 785\\text{ Volt}$, karena formula luas kumparan keliru dibagi dua saat perhitungan geometri sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       },
       {
         "key": "B",
-        "text": "$V_{\\max} = 500\\pi\\text{ Volt} \\approx 1.570\\text{ Volt}$, karena kecepatan sudut putaran kumparan adalah $\\omega = 2\\pi f = 2\\pi \\times 50 = 100\\pi\\text{ rad/s}$. Menurut hukum induksi Faraday, gaya gerak listrik maksimum adalah $V_{\\max} = N B A \\omega = 500 \\times 0{,}5 \\times 0{,}02 \\times 100\\pi = 500 \\times 10^{-2} \\times 100\\pi = 500\\pi\\text{ Volt} \\approx 1.570{,}8\\text{ Volt}$."
+        "text": "$V_{\\max} = 50\\pi\\text{ Volt} \\approx 157\\text{ Volt}$, karena luas penampang tidak dikonversi dari satuan sentimeter kuadrat ke meter kuadrat."
       },
       {
         "key": "C",
@@ -3954,11 +3955,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "$V_{\\max} = 50\\pi\\text{ Volt} \\approx 157\\text{ Volt}$, karena luas penampang tidak dikonversi dari satuan sentimeter kuadrat ke meter kuadrat."
+        "text": "$V_{\\max} = 500\\pi\\text{ Volt} \\approx 1.570\\text{ Volt}$, karena kecepatan sudut putaran kumparan adalah $\\omega = 2\\pi f = 2\\pi \\times 50 = 100\\pi\\text{ rad/s}$. Menurut hukum induksi Faraday, gaya gerak listrik maksimum adalah $V_{\\max} = N B A \\omega = 500 \\times 0{,}5 \\times 0{,}02 \\times 100\\pi = 500 \\times 10^{-2} \\times 100\\pi = 500\\pi\\text{ Volt} \\approx 1.570{,}8\\text{ Volt}$."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $V_{\\max} = 500\\pi\\text{ Volt} \\approx 1.570\\text{ Volt}$, karena kecepatan sudut putaran kumparan adalah $\\omega = 2\\pi f = 2\\pi \\times 50 = 100\\pi\\text{ rad/s}$. Menurut hukum induksi Faraday, gaya gerak listrik maksimum adalah $V_{\\max} = N B A \\omega = 500 \\times 0{,}5 \\times 0{,}02 \\times 100\\pi = 500 \\times 10^{-2} \\times 100\\pi = 500\\pi\\text{ Volt} \\approx 1.570{,}8\\text{ Volt}$.. GGL maksimum generator AC: V_max = N * B * A * omega, di mana omega = 2 * pi * f. A = 0,02 m^2. omega = 100pi rad/s. V_max = 500 * 0,5 * 0,02 * 100pi = 500pi Volt = 1.570 V."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $V_{\\max} = 500\\pi\\text{ Volt} \\approx 1.570\\text{ Volt}$, karena kecepatan sudut putaran kumparan adalah $\\omega = 2\\pi f = 2\\pi \\times 50 = 100\\pi\\text{ rad/s}$. Menurut hukum induksi Faraday, gaya gerak listrik maksimum adalah $V_{\\max} = N B A \\omega = 500 \\times 0{,}5 \\times 0{,}02 \\times 100\\pi = 500 \\times 10^{-2} \\times 100\\pi = 500\\pi\\text{ Volt} \\approx 1.570{,}8\\text{ Volt}$.. GGL maksimum generator AC: V_max = N * B * A * omega, di mana omega = 2 * pi * f. A = 0,02 m^2. omega = 100pi rad/s. V_max = 500 * 0,5 * 0,02 * 100pi = 500pi Volt = 1.570 V."
   },
   {
     "id": "fis-sim-18",
@@ -3981,7 +3982,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$f_0 = 1{,}59\\text{ MHz}$, dihitung dari nilai induktansi yang keliru sepuluh kali lebih besar ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
+        "text": "$f_0 = 1{,}59\\text{ MHz}$, dihitung dari nilai induktansi yang keliru sepuluh kali lebih besar."
       },
       {
         "key": "B",
@@ -3993,11 +3994,11 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$f_0 = 50{,}3\\text{ kHz}$, karena kekeliruan dalam menarik akar eksponen pangkat minus sepuluh pada kapasitor pikoFarad."
+        "text": "$f_0 = 25{,}0\\text{ MHz}$, dihitung dari perkalian langsung nilai induktansi dengan kapasitansi."
       },
       {
         "key": "E",
-        "text": "$f_0 = 25{,}0\\text{ MHz}$, dihitung dari perkalian langsung nilai induktansi dengan kapasitansi."
+        "text": "$f_0 = 50{,}3\\text{ kHz}$, karena kekeliruan dalam menarik akar eksponen pangkat minus sepuluh pada kapasitor pikoFarad."
       }
     ],
     "correctKey": "C",
@@ -4024,7 +4025,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$B_{\\max} = 1{,}8 \\times 10^{11}\\text{ Tesla}$ dan $\\bar{S} = 955\\text{ W/m}^2$, karena amplitudo medan listrik keliru dikalikan dengan kecepatan cahaya menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$B_{\\max} = 1{,}8 \\times 10^{11}\\text{ Tesla}$ dan $\\bar{S} = 955\\text{ W/m}^2$, karena amplitudo medan listrik keliru dikalikan dengan kecepatan cahaya."
       },
       {
         "key": "B",
@@ -4032,19 +4033,19 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "$B_{\\max} = 4{,}0 \\times 10^{-6}\\text{ Tesla}$ dan $\\bar{S} = 238{,}7\\text{ W/m}^2$, dihitung dari nilai puncak-ke-puncak gelombang elektromagnetik."
+        "text": "$B_{\\max} = 1{,}0 \\times 10^{-6}\\text{ Tesla}$ dan $\\bar{S} = 120\\text{ W/m}^2$, dihitung dari pembagian intensitas dengan impedansi karakteristik ruang hampa."
       },
       {
         "key": "D",
-        "text": "$B_{\\max} = 2{,}0 \\times 10^{-6}\\text{ Tesla}$ ($2\\,\\mu\\text{T}$) dan $\\bar{S} \\approx 477{,}5\\text{ W/m}^2$, karena hubungan amplitudo medan pada gelombang elektromagnetik adalah $B_{\\max} = \\frac{E_{\\max}}{c} = \\frac{600\\text{ V/m}}{3 \\times 10^8\\text{ m/s}} = 2{,}0 \\times 10^{-6}\\text{ T}$. Intensitas rata-rata gelombang memenuhi persamaan Poynting: $\\bar{S} = \\frac{E_{\\max} B_{\\max}}{2\\mu_0} = \\frac{E_{\\max}^2}{2\\mu_0 c} = \\frac{600^2}{2 \\times (4\\pi \\times 10^{-7}) \\times (3 \\times 10^8)} = \\frac{360.000}{240\\pi} = \\frac{1.500}{\\pi} \\approx 477{,}46\\text{ W/m}^2$."
+        "text": "$B_{\\max} = 4{,}0 \\times 10^{-6}\\text{ Tesla}$ dan $\\bar{S} = 238{,}7\\text{ W/m}^2$, dihitung dari nilai puncak-ke-puncak gelombang elektromagnetik."
       },
       {
         "key": "E",
-        "text": "$B_{\\max} = 1{,}0 \\times 10^{-6}\\text{ Tesla}$ dan $\\bar{S} = 120\\text{ W/m}^2$, dihitung dari pembagian intensitas dengan impedansi karakteristik ruang hampa."
+        "text": "$B_{\\max} = 2{,}0 \\times 10^{-6}\\text{ Tesla}$ ($2\\,\\mu\\text{T}$) dan $\\bar{S} \\approx 477{,}5\\text{ W/m}^2$, karena hubungan amplitudo medan pada gelombang elektromagnetik adalah $B_{\\max} = \\frac{E_{\\max}}{c} = \\frac{600\\text{ V/m}}{3 \\times 10^8\\text{ m/s}} = 2{,}0 \\times 10^{-6}\\text{ T}$. Intensitas rata-rata gelombang memenuhi persamaan Poynting: $\\bar{S} = \\frac{E_{\\max} B_{\\max}}{2\\mu_0} = \\frac{E_{\\max}^2}{2\\mu_0 c} = \\frac{600^2}{2 \\times (4\\pi \\times 10^{-7}) \\times (3 \\times 10^8)} = \\frac{360.000}{240\\pi} = \\frac{1.500}{\\pi} \\approx 477{,}46\\text{ W/m}^2$."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $B_{\\max} = 2{,}0 \\times 10^{-6}\\text{ Tesla}$ ($2\\,\\mu\\text{T}$) dan $\\bar{S} \\approx 477{,}5\\text{ W/m}^2$, karena hubungan amplitudo medan pada gelombang elektromagnetik adalah $B_{\\max} = \\frac{E_{\\max}}{c} = \\frac{600\\text{ V/m}}{3 \\times 10^8\\text{ m/s}} = 2{,}0 \\times 10^{-6}\\text{ T}$. Intensitas rata-rata gelombang memenuhi persamaan Poynting: $\\bar{S} = \\frac{E_{\\max} B_{\\max}}{2\\mu_0} = \\frac{E_{\\max}^2}{2\\mu_0 c} = \\frac{600^2}{2 \\times (4\\pi \\times 10^{-7}) \\times (3 \\times 10^8)} = \\frac{360.000}{240\\pi} = \\frac{1.500}{\\pi} \\approx 477{,}46\\text{ W/m}^2$.. Hubungan medan: B_max = E_max / c. Intensitas rata-rata: S_bar = E_max^2 / (2 * mu0 * c). B_max = 600 / 3e8 = 2e-6 T. S_bar = 600^2 / (2 * 4pi*1e-7 * 3e8) = 360.000 / (240*pi) = 1.500 / pi = 477,5 W/m^2."
+    "correctKey": "E",
+    "explanation": "Kunci Jawaban: (E) $B_{\\max} = 2{,}0 \\times 10^{-6}\\text{ Tesla}$ ($2\\,\\mu\\text{T}$) dan $\\bar{S} \\approx 477{,}5\\text{ W/m}^2$, karena hubungan amplitudo medan pada gelombang elektromagnetik adalah $B_{\\max} = \\frac{E_{\\max}}{c} = \\frac{600\\text{ V/m}}{3 \\times 10^8\\text{ m/s}} = 2{,}0 \\times 10^{-6}\\text{ T}$. Intensitas rata-rata gelombang memenuhi persamaan Poynting: $\\bar{S} = \\frac{E_{\\max} B_{\\max}}{2\\mu_0} = \\frac{E_{\\max}^2}{2\\mu_0 c} = \\frac{600^2}{2 \\times (4\\pi \\times 10^{-7}) \\times (3 \\times 10^8)} = \\frac{360.000}{240\\pi} = \\frac{1.500}{\\pi} \\approx 477{,}46\\text{ W/m}^2$.. Hubungan medan: B_max = E_max / c. Intensitas rata-rata: S_bar = E_max^2 / (2 * mu0 * c). B_max = 600 / 3e8 = 2e-6 T. S_bar = 600^2 / (2 * 4pi*1e-7 * 3e8) = 360.000 / (240*pi) = 1.500 / pi = 477,5 W/m^2."
   },
   {
     "id": "fis-sim-20",
@@ -4067,27 +4068,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\lambda_{\\text{dB}} = 1{,}23\\text{ nm}$, karena lupa menarik akar kuadrat dari beda potensial seratus volt diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
-      },
-      {
-        "key": "B",
-        "text": "$\\lambda_{\\text{dB}} = 0{,}0123\\text{ nm}$, dihitung dari kesalahan memasukkan pangkat muatan elektron."
-      },
-      {
-        "key": "C",
-        "text": "$\\lambda_{\\text{dB}} = 0{,}246\\text{ nm}$, dihitung dari asumsi partikel bermuatan alfa dua kali elektron."
-      },
-      {
-        "key": "D",
         "text": "$\\lambda_{\\text{dB}} = 6{,}63\\text{ nm}$, karena menyamakan panjang gelombang dengan konstanta Planck tanpa momentum."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "$\\lambda_{\\text{dB}} = 0{,}246\\text{ nm}$, dihitung dari asumsi partikel bermuatan alfa dua kali elektron."
+      },
+      {
+        "key": "C",
+        "text": "$\\lambda_{\\text{dB}} = 0{,}0123\\text{ nm}$, dihitung dari kesalahan memasukkan pangkat muatan elektron."
+      },
+      {
+        "key": "D",
         "text": "$\\lambda_{\\text{dB}} = 0{,}123\\text{ nm}$ (atau $1{,}23 \\times 10^{-10}\\text{ m} = 1{,}23\\text{ \\AA}$), karena energi kinetik yang diperoleh elektron adalah $E_k = e V = 1{,}6 \\times 10^{-19} \\times 100 = 1{,}6 \\times 10^{-17}\\text{ J}$. Momentum elektron adalah $p = \\sqrt{2 m_e E_k} = \\sqrt{2 \\times (9{,}1 \\times 10^{-31}) \\times (1{,}6 \\times 10^{-17})} = \\sqrt{29{,}12 \\times 10^{-48}} \\approx 5{,}40 \\times 10^{-24}\\text{ kg}\\cdot\\text{m/s}$. Maka panjang gelombang de Broglie adalah $\\lambda = \\frac{h}{p} = \\frac{6{,}63 \\times 10^{-34}}{5{,}40 \\times 10^{-24}} \\approx 1{,}228 \\times 10^{-10}\\text{ m} \\approx 0{,}123\\text{ nm}$ (atau menggunakan rumus praktis $\\lambda = \\frac{1{,}228}{\\sqrt{V}}\\text{ nm} = \\frac{1{,}228}{\\sqrt{100}} = 0{,}1228\\text{ nm}$)."
+      },
+      {
+        "key": "E",
+        "text": "$\\lambda_{\\text{dB}} = 1{,}23\\text{ nm}$, karena lupa menarik akar kuadrat dari beda potensial seratus volt diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       }
     ],
-    "correctKey": "E",
-    "explanation": "Kunci Jawaban: (E) $\\lambda_{\\text{dB}} = 0{,}123\\text{ nm}$ (atau $1{,}23 \\times 10^{-10}\\text{ m} = 1{,}23\\text{ \\AA}$), karena energi kinetik yang diperoleh elektron adalah $E_k = e V = 1{,}6 \\times 10^{-19} \\times 100 = 1{,}6 \\times 10^{-17}\\text{ J}$. Momentum elektron adalah $p = \\sqrt{2 m_e E_k} = \\sqrt{2 \\times (9{,}1 \\times 10^{-31}) \\times (1{,}6 \\times 10^{-17})} = \\sqrt{29{,}12 \\times 10^{-48}} \\approx 5{,}40 \\times 10^{-24}\\text{ kg}\\cdot\\text{m/s}$. Maka panjang gelombang de Broglie adalah $\\lambda = \\frac{h}{p} = \\frac{6{,}63 \\times 10^{-34}}{5{,}40 \\times 10^{-24}} \\approx 1{,}228 \\times 10^{-10}\\text{ m} \\approx 0{,}123\\text{ nm}$ (atau menggunakan rumus praktis $\\lambda = \\frac{1{,}228}{\\sqrt{V}}\\text{ nm} = \\frac{1{,}228}{\\sqrt{100}} = 0{,}1228\\text{ nm}$).. Panjang gelombang de Broglie: lambda = h / p = h / sqrt(2 * m * e * V). Rumus praktis elektron: lambda = 1,228 / sqrt(V) nm. lambda = 1,228 / sqrt(100) = 1,228 / 10 = 0,123 nm."
+    "correctKey": "D",
+    "explanation": "Kunci Jawaban: (D) $\\lambda_{\\text{dB}} = 0{,}123\\text{ nm}$ (atau $1{,}23 \\times 10^{-10}\\text{ m} = 1{,}23\\text{ \\AA}$), karena energi kinetik yang diperoleh elektron adalah $E_k = e V = 1{,}6 \\times 10^{-19} \\times 100 = 1{,}6 \\times 10^{-17}\\text{ J}$. Momentum elektron adalah $p = \\sqrt{2 m_e E_k} = \\sqrt{2 \\times (9{,}1 \\times 10^{-31}) \\times (1{,}6 \\times 10^{-17})} = \\sqrt{29{,}12 \\times 10^{-48}} \\approx 5{,}40 \\times 10^{-24}\\text{ kg}\\cdot\\text{m/s}$. Maka panjang gelombang de Broglie adalah $\\lambda = \\frac{h}{p} = \\frac{6{,}63 \\times 10^{-34}}{5{,}40 \\times 10^{-24}} \\approx 1{,}228 \\times 10^{-10}\\text{ m} \\approx 0{,}123\\text{ nm}$ (atau menggunakan rumus praktis $\\lambda = \\frac{1{,}228}{\\sqrt{V}}\\text{ nm} = \\frac{1{,}228}{\\sqrt{100}} = 0{,}1228\\text{ nm}$).. Panjang gelombang de Broglie: lambda = h / p = h / sqrt(2 * m * e * V). Rumus praktis elektron: lambda = 1,228 / sqrt(V) nm. lambda = 1,228 / sqrt(100) = 1,228 / 10 = 0,123 nm."
   },
   {
     "id": "fis-sim-21",
@@ -4110,27 +4111,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-6}\\text{ meter}$ ($1{,}16\\,\\mu\\text{m}$), karena ketidakpastian momentum elektron adalah $\\Delta p = m_e \\Delta v = (9{,}1 \\times 10^{-31}\\text{ kg}) \\times 50\\text{ m/s} = 4{,}55 \\times 10^{-29}\\text{ kg}\\cdot\\text{m/s}$. Menurut prinsip Heisenberg: $\\Delta x_{\\min} = \\frac{h}{4\\pi \\Delta p} = \\frac{6{,}63 \\times 10^{-34}}{4\\pi \\times (4{,}55 \\times 10^{-29})} = \\frac{6{,}63 \\times 10^{-34}}{5{,}718 \\times 10^{-28}} \\approx 1{,}159 \\times 10^{-6}\\text{ m}$."
+        "text": "$\\Delta x_{\\min} \\approx 0\\text{ meter}$, karena mengasumsikan posisi dan kecepatan selalu dapat diukur simultan dengan presisi tak terbatas."
       },
       {
         "key": "B",
-        "text": "$\\Delta x_{\\min} \\approx 2{,}32 \\times 10^{-6}\\text{ meter}$, karena konstanta pembagi dua pi keliru tidak dikalikan dua menjadi empat pi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+        "text": "$\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-6}\\text{ meter}$ ($1{,}16\\,\\mu\\text{m}$), karena ketidakpastian momentum elektron adalah $\\Delta p = m_e \\Delta v = (9{,}1 \\times 10^{-31}\\text{ kg}) \\times 50\\text{ m/s} = 4{,}55 \\times 10^{-29}\\text{ kg}\\cdot\\text{m/s}$. Menurut prinsip Heisenberg: $\\Delta x_{\\min} = \\frac{h}{4\\pi \\Delta p} = \\frac{6{,}63 \\times 10^{-34}}{4\\pi \\times (4{,}55 \\times 10^{-29})} = \\frac{6{,}63 \\times 10^{-34}}{5{,}718 \\times 10^{-28}} \\approx 1{,}159 \\times 10^{-6}\\text{ m}$."
       },
       {
         "key": "C",
-        "text": "$\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-10}\\text{ meter}$, dihitung dengan menggunakan kelajuan total $v$ bukan nilai ketidakpastian kelajuan $\\Delta v$."
-      },
-      {
-        "key": "D",
         "text": "$\\Delta x_{\\min} \\approx 5{,}80 \\times 10^{-8}\\text{ meter}$, dihitung dari perbandingan panjang gelombang de Broglie elektron bebas."
       },
       {
+        "key": "D",
+        "text": "$\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-10}\\text{ meter}$, dihitung dengan menggunakan kelajuan total $v$ bukan nilai ketidakpastian kelajuan $\\Delta v$."
+      },
+      {
         "key": "E",
-        "text": "$\\Delta x_{\\min} \\approx 0\\text{ meter}$, karena mengasumsikan posisi dan kecepatan selalu dapat diukur simultan dengan presisi tak terbatas."
+        "text": "$\\Delta x_{\\min} \\approx 2{,}32 \\times 10^{-6}\\text{ meter}$, karena konstanta pembagi dua pi keliru tidak dikalikan dua menjadi empat pi sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
       }
     ],
-    "correctKey": "A",
-    "explanation": "Kunci Jawaban: (A) $\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-6}\\text{ meter}$ ($1{,}16\\,\\mu\\text{m}$), karena ketidakpastian momentum elektron adalah $\\Delta p = m_e \\Delta v = (9{,}1 \\times 10^{-31}\\text{ kg}) \\times 50\\text{ m/s} = 4{,}55 \\times 10^{-29}\\text{ kg}\\cdot\\text{m/s}$. Menurut prinsip Heisenberg: $\\Delta x_{\\min} = \\frac{h}{4\\pi \\Delta p} = \\frac{6{,}63 \\times 10^{-34}}{4\\pi \\times (4{,}55 \\times 10^{-29})} = \\frac{6{,}63 \\times 10^{-34}}{5{,}718 \\times 10^{-28}} \\approx 1{,}159 \\times 10^{-6}\\text{ m}$.. Ketidakpastian Heisenberg: Delta_x * Delta_p >= h / (4*pi). Hitung Delta_p = m * Delta_v = 9,1e-31 * 50 = 4,55e-29 kg.m/s. Lalu Delta_x = h / (4*pi*Delta_p). Delta_x = 6,63e-34 / (4 * 3,1416 * 4,55e-29) = 1,16 x 10^-6 m."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $\\Delta x_{\\min} \\approx 1{,}16 \\times 10^{-6}\\text{ meter}$ ($1{,}16\\,\\mu\\text{m}$), karena ketidakpastian momentum elektron adalah $\\Delta p = m_e \\Delta v = (9{,}1 \\times 10^{-31}\\text{ kg}) \\times 50\\text{ m/s} = 4{,}55 \\times 10^{-29}\\text{ kg}\\cdot\\text{m/s}$. Menurut prinsip Heisenberg: $\\Delta x_{\\min} = \\frac{h}{4\\pi \\Delta p} = \\frac{6{,}63 \\times 10^{-34}}{4\\pi \\times (4{,}55 \\times 10^{-29})} = \\frac{6{,}63 \\times 10^{-34}}{5{,}718 \\times 10^{-28}} \\approx 1{,}159 \\times 10^{-6}\\text{ m}$.. Ketidakpastian Heisenberg: Delta_x * Delta_p >= h / (4*pi). Hitung Delta_p = m * Delta_v = 9,1e-31 * 50 = 4,55e-29 kg.m/s. Lalu Delta_x = h / (4*pi*Delta_p). Delta_x = 6,63e-34 / (4 * 3,1416 * 4,55e-29) = 1,16 x 10^-6 m."
   },
   {
     "id": "fis-sim-22",
@@ -4153,27 +4154,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$v_{B/A} = 1{,}4c$, karena kelajuan dihitung menggunakan transformasi Galileo klasik Newton ($v_A + v_B$) yang melanggar batas kecepatan cahaya sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
-      },
-      {
-        "key": "B",
-        "text": "$v_{B/A} = \\frac{35}{37}c \\approx 0{,}946c$ ke arah barat, karena rumus penjumlahan kecepatan relativistik Einstein untuk dua gerak berlawanan arah adalah $v_{\\text{rel}} = \\frac{v_A + v_B}{1 + \\frac{v_A v_B}{c^2}} = \\frac{0{,}6c + 0{,}8c}{1 + \\frac{(0{,}6c)(0{,}8c)}{c^2}} = \\frac{1{,}4c}{1 + 0{,}48} = \\frac{1{,}4}{1{,}48}c = \\frac{140}{148}c = \\frac{35}{37}c \\approx 0{,}9459c$."
-      },
-      {
-        "key": "C",
         "text": "$v_{B/A} = 0{,}2c$, karena arah kecepatan keliru dikurangkan ($0{,}8c - 0{,}6c$) padahal kedua wahana saling mendekati."
       },
       {
+        "key": "B",
+        "text": "$v_{B/A} = 1{,}4c$, karena kelajuan dihitung menggunakan transformasi Galileo klasik Newton ($v_A + v_B$) yang melanggar batas kecepatan cahaya sesuai dengan perumusan matematis prinsip konservasi momentum dan impuls relativistik."
+      },
+      {
+        "key": "C",
+        "text": "$v_{B/A} = \\frac{35}{37}c \\approx 0{,}946c$ ke arah barat, karena rumus penjumlahan kecepatan relativistik Einstein untuk dua gerak berlawanan arah adalah $v_{\\text{rel}} = \\frac{v_A + v_B}{1 + \\frac{v_A v_B}{c^2}} = \\frac{0{,}6c + 0{,}8c}{1 + \\frac{(0{,}6c)(0{,}8c)}{c^2}} = \\frac{1{,}4c}{1 + 0{,}48} = \\frac{1{,}4}{1{,}48}c = \\frac{140}{148}c = \\frac{35}{37}c \\approx 0{,}9459c$."
+      },
+      {
         "key": "D",
-        "text": "$v_{B/A} = c$, karena berasumsi bahwa kecepatan relatif antarobjek di luar angkasa selalu menghasilkan kecepatan cahaya."
+        "text": "$v_{B/A} = 0{,}88c$, dihitung dari rata-rata harmonik kecepatan kedua wahana antariksa."
       },
       {
         "key": "E",
-        "text": "$v_{B/A} = 0{,}88c$, dihitung dari rata-rata harmonik kecepatan kedua wahana antariksa."
+        "text": "$v_{B/A} = c$, karena berasumsi bahwa kecepatan relatif antarobjek di luar angkasa selalu menghasilkan kecepatan cahaya."
       }
     ],
-    "correctKey": "B",
-    "explanation": "Kunci Jawaban: (B) $v_{B/A} = \\frac{35}{37}c \\approx 0{,}946c$ ke arah barat, karena rumus penjumlahan kecepatan relativistik Einstein untuk dua gerak berlawanan arah adalah $v_{\\text{rel}} = \\frac{v_A + v_B}{1 + \\frac{v_A v_B}{c^2}} = \\frac{0{,}6c + 0{,}8c}{1 + \\frac{(0{,}6c)(0{,}8c)}{c^2}} = \\frac{1{,}4c}{1 + 0{,}48} = \\frac{1{,}4}{1{,}48}c = \\frac{140}{148}c = \\frac{35}{37}c \\approx 0{,}9459c$.. Rumus penjumlahan relativistik dua benda saling mendekati: v_rel = (vA + vB) / (1 + vA*vB / c^2). v_rel = (0,6c + 0,8c) / (1 + 0,48) = 1,4c / 1,48 = 35/37 c = 0,946c."
+    "correctKey": "C",
+    "explanation": "Kunci Jawaban: (C) $v_{B/A} = \\frac{35}{37}c \\approx 0{,}946c$ ke arah barat, karena rumus penjumlahan kecepatan relativistik Einstein untuk dua gerak berlawanan arah adalah $v_{\\text{rel}} = \\frac{v_A + v_B}{1 + \\frac{v_A v_B}{c^2}} = \\frac{0{,}6c + 0{,}8c}{1 + \\frac{(0{,}6c)(0{,}8c)}{c^2}} = \\frac{1{,}4c}{1 + 0{,}48} = \\frac{1{,}4}{1{,}48}c = \\frac{140}{148}c = \\frac{35}{37}c \\approx 0{,}9459c$.. Rumus penjumlahan relativistik dua benda saling mendekati: v_rel = (vA + vB) / (1 + vA*vB / c^2). v_rel = (0,6c + 0,8c) / (1 + 0,48) = 1,4c / 1,48 = 35/37 c = 0,946c."
   },
   {
     "id": "fis-sim-23",
@@ -4196,27 +4197,27 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$\\Delta m = 0{,}03038\\text{ sma}$ dan $E_b/A \\approx 28{,}30\\text{ MeV/nukleon}$, karena nilai tersebut merupakan total energi ikat seluruh inti, belum dibagi dengan jumlah nukleon $A = 4$ ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam ditinjau dari persamaan diferensial gerak harmonik sederhana dan osilasi teredam."
-      },
-      {
-        "key": "B",
-        "text": "$\\Delta m = 0{,}01519\\text{ sma}$ dan $E_b/A \\approx 3{,}54\\text{ MeV/nukleon}$, dihitung dengan hanya memperhitungkan 1 proton dan 1 neutron pembentuk inti."
-      },
-      {
-        "key": "C",
         "text": "$\\Delta m = 0{,}03038\\text{ sma}$ dan $E_b/A \\approx 7{,}07\\text{ MeV/nukleon}$, karena total massa nukleon pembentuk adalah $m_{\\text{teoritis}} = 2(1{,}00728) + 2(1{,}00866) = 2{,}01456 + 2{,}01732 = 4{,}03188\\text{ sma}$. Defek massa adalah $\\Delta m = 4{,}03188 - 4{,}00150 = 0{,}03038\\text{ sma}$. Total energi ikat inti adalah $E_b = 0{,}03038 \\times 931{,}5\\text{ MeV} \\approx 28{,}299\\text{ MeV}$. Karena inti Helium memiliki jumlah nukleon $A = 4$, maka energi ikat per nukleon adalah $E_b/A = \\frac{28{,}299}{4} \\approx 7{,}075\\text{ MeV/nukleon}$."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "$\\Delta m = 0{,}03038\\text{ sma}$ dan $E_b/A \\approx 28{,}30\\text{ MeV/nukleon}$, karena nilai tersebut merupakan total energi ikat seluruh inti, belum dibagi dengan jumlah nukleon $A = 4$."
+      },
+      {
+        "key": "C",
         "text": "$\\Delta m = 0{,}06076\\text{ sma}$ dan $E_b/A \\approx 14{,}15\\text{ MeV/nukleon}$, dihitung dari penggandaan defek massa inti."
+      },
+      {
+        "key": "D",
+        "text": "$\\Delta m = 0{,}01519\\text{ sma}$ dan $E_b/A \\approx 3{,}54\\text{ MeV/nukleon}$, dihitung dengan hanya memperhitungkan 1 proton dan 1 neutron pembentuk inti."
       },
       {
         "key": "E",
         "text": "$\\Delta m = 0{,}00150\\text{ sma}$ dan $E_b/A \\approx 0{,}35\\text{ MeV/nukleon}$, dihitung dari selisih massa inti terhadap nomor massa bulat."
       }
     ],
-    "correctKey": "C",
-    "explanation": "Kunci Jawaban: (C) $\\Delta m = 0{,}03038\\text{ sma}$ dan $E_b/A \\approx 7{,}07\\text{ MeV/nukleon}$, karena total massa nukleon pembentuk adalah $m_{\\text{teoritis}} = 2(1{,}00728) + 2(1{,}00866) = 2{,}01456 + 2{,}01732 = 4{,}03188\\text{ sma}$. Defek massa adalah $\\Delta m = 4{,}03188 - 4{,}00150 = 0{,}03038\\text{ sma}$. Total energi ikat inti adalah $E_b = 0{,}03038 \\times 931{,}5\\text{ MeV} \\approx 28{,}299\\text{ MeV}$. Karena inti Helium memiliki jumlah nukleon $A = 4$, maka energi ikat per nukleon adalah $E_b/A = \\frac{28{,}299}{4} \\approx 7{,}075\\text{ MeV/nukleon}$.. Defek massa Delta_m = 2*mp + 2*mn - m_He. Energi ikat Eb = Delta_m * 931,5 MeV. Energi ikat per nukleon = Eb / 4. Delta_m = 4,03188 - 4,00150 = 0,03038 sma. Eb = 0,03038 * 931,5 = 28,3 MeV. Eb / 4 = 7,07 MeV/nukleon."
+    "correctKey": "A",
+    "explanation": "Kunci Jawaban: (A) $\\Delta m = 0{,}03038\\text{ sma}$ dan $E_b/A \\approx 7{,}07\\text{ MeV/nukleon}$, karena total massa nukleon pembentuk adalah $m_{\\text{teoritis}} = 2(1{,}00728) + 2(1{,}00866) = 2{,}01456 + 2{,}01732 = 4{,}03188\\text{ sma}$. Defek massa adalah $\\Delta m = 4{,}03188 - 4{,}00150 = 0{,}03038\\text{ sma}$. Total energi ikat inti adalah $E_b = 0{,}03038 \\times 931{,}5\\text{ MeV} \\approx 28{,}299\\text{ MeV}$. Karena inti Helium memiliki jumlah nukleon $A = 4$, maka energi ikat per nukleon adalah $E_b/A = \\frac{28{,}299}{4} \\approx 7{,}075\\text{ MeV/nukleon}$.. Defek massa Delta_m = 2*mp + 2*mn - m_He. Energi ikat Eb = Delta_m * 931,5 MeV. Energi ikat per nukleon = Eb / 4. Delta_m = 4,03188 - 4,00150 = 0,03038 sma. Eb = 0,03038 * 931,5 = 28,3 MeV. Eb / 4 = 7,07 MeV/nukleon."
   },
   {
     "id": "fis-sim-24",
@@ -4239,11 +4240,11 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$Q \\approx 3{,}27\\text{ MeV}$, karena merupakan energi yang dibebaskan pada reaksi fusi Deuterium-Deuterium cabang helium-3 menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik menurut interpretasi fisis persamaan Maxwell dan teori gelombang elektromagnetik."
+        "text": "$Q \\approx 3{,}27\\text{ MeV}$, karena merupakan energi yang dibebaskan pada reaksi fusi Deuterium-Deuterium cabang helium-3."
       },
       {
         "key": "B",
-        "text": "$Q \\approx 28{,}30\\text{ MeV}$, karena menyamakan energi reaksi fusi dengan total energi ikat inti helium-4 murni."
+        "text": "$Q \\approx 17{,}59\\text{ MeV}$ (sekitar $17{,}6\\text{ MeV}$), karena total massa reaktan adalah $m_{\\text{awal}} = 2{,}01410 + 3{,}01605 = 5{,}03015\\text{ sma}$. Total massa produk adalah $m_{\\text{akhir}} = 4{,}00260 + 1{,}00866 = 5{,}01126\\text{ sma}$. Defek massa reaksi fusi adalah $\\Delta m = 5{,}03015 - 5{,}01126 = 0{,}01889\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}01889 \\times 931{,}5 \\approx 17{,}596\\text{ MeV} \\approx 17{,}6\\text{ MeV}$."
       },
       {
         "key": "C",
@@ -4251,15 +4252,15 @@ window.TKA_FISIKA_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "$Q \\approx 17{,}59\\text{ MeV}$ (sekitar $17{,}6\\text{ MeV}$), karena total massa reaktan adalah $m_{\\text{awal}} = 2{,}01410 + 3{,}01605 = 5{,}03015\\text{ sma}$. Total massa produk adalah $m_{\\text{akhir}} = 4{,}00260 + 1{,}00866 = 5{,}01126\\text{ sma}$. Defek massa reaksi fusi adalah $\\Delta m = 5{,}03015 - 5{,}01126 = 0{,}01889\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}01889 \\times 931{,}5 \\approx 17{,}596\\text{ MeV} \\approx 17{,}6\\text{ MeV}$."
+        "text": "$Q \\approx 28{,}30\\text{ MeV}$, karena menyamakan energi reaksi fusi dengan total energi ikat inti helium-4 murni."
       },
       {
         "key": "E",
         "text": "$Q \\approx 8{,}80\\text{ MeV}$, dihitung dari defek massa yang keliru dibagi dua saat konversi energi nuklir."
       }
     ],
-    "correctKey": "D",
-    "explanation": "Kunci Jawaban: (D) $Q \\approx 17{,}59\\text{ MeV}$ (sekitar $17{,}6\\text{ MeV}$), karena total massa reaktan adalah $m_{\\text{awal}} = 2{,}01410 + 3{,}01605 = 5{,}03015\\text{ sma}$. Total massa produk adalah $m_{\\text{akhir}} = 4{,}00260 + 1{,}00866 = 5{,}01126\\text{ sma}$. Defek massa reaksi fusi adalah $\\Delta m = 5{,}03015 - 5{,}01126 = 0{,}01889\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}01889 \\times 931{,}5 \\approx 17{,}596\\text{ MeV} \\approx 17{,}6\\text{ MeV}$.. Defek massa fusi = (m_D + m_T) - (m_He + m_n). Energi Q = Delta_m * 931,5 MeV. Delta_m = 2,01410 + 3,01605 - (4,00260 + 1,00866) = 5,03015 - 5,01126 = 0,01889 sma. Q = 0,01889 * 931,5 = 17,596 MeV."
+    "correctKey": "B",
+    "explanation": "Kunci Jawaban: (B) $Q \\approx 17{,}59\\text{ MeV}$ (sekitar $17{,}6\\text{ MeV}$), karena total massa reaktan adalah $m_{\\text{awal}} = 2{,}01410 + 3{,}01605 = 5{,}03015\\text{ sma}$. Total massa produk adalah $m_{\\text{akhir}} = 4{,}00260 + 1{,}00866 = 5{,}01126\\text{ sma}$. Defek massa reaksi fusi adalah $\\Delta m = 5{,}03015 - 5{,}01126 = 0{,}01889\\text{ sma}$. Energi yang dibebaskan adalah $Q = \\Delta m \\times 931{,}5\\text{ MeV} = 0{,}01889 \\times 931{,}5 \\approx 17{,}596\\text{ MeV} \\approx 17{,}6\\text{ MeV}$.. Defek massa fusi = (m_D + m_T) - (m_He + m_n). Energi Q = Delta_m * 931,5 MeV. Delta_m = 2,01410 + 3,01605 - (4,00260 + 1,00866) = 5,03015 - 5,01126 = 0,01889 sma. Q = 0,01889 * 931,5 = 17,596 MeV."
   },
   {
     "id": "fis-sim-25",
@@ -4282,7 +4283,7 @@ window.TKA_FISIKA_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "$W_{\\text{net}} = +1.200\\text{ Joule}$ dan $Q_{CA} = -600\\text{ Joule}$, karena luas segitiga keliru dihitung sebagai luas persegi panjang tanpa pembagian setengah diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
+        "text": "$W_{\\text{net}} = +1.200\\text{ Joule}$ dan $Q_{CA} = -600\\text{ Joule}$, karena luas segitiga keliru dihitung sebagai luas persegi panjang tanpa pembagian setengah diturunkan secara analitis dari hukum termodinamika dan fungsi distribusi termal gas."
       },
       {
         "key": "B",

@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_ENG_LANJUT_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_ENG_LANJUT_QUESTIONS = [
   {
     "id": "eng_lanjut-lat-e-01",
@@ -15,19 +21,19 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
-      },
-      {
-        "key": "C",
         "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
+        "key": "C",
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+      },
+      {
         "key": "D",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
     "correctKey": "A",
@@ -55,26 +61,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
-      },
-      {
-        "key": "B",
-        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
-      },
-      {
-        "key": "C",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
-      },
-      {
-        "key": "D",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+      },
+      {
+        "key": "C",
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+      },
+      {
+        "key": "D",
         "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+      },
+      {
+        "key": "E",
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -84,7 +90,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -99,26 +105,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
-      },
-      {
-        "key": "B",
         "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
-        "key": "C",
-        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+      },
+      {
+        "key": "D",
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+      },
+      {
+        "key": "E",
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -128,7 +134,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -151,15 +157,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
-      },
-      {
-        "key": "D",
         "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+      },
+      {
+        "key": "E",
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       }
     ],
     "correctKey": "A",
@@ -187,7 +193,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "B",
@@ -195,18 +201,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "D",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "E",
-        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -216,7 +222,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -231,26 +237,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
-      },
-      {
-        "key": "B",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
-      },
-      {
-        "key": "C",
-        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
-      },
-      {
-        "key": "D",
         "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
+      },
+      {
+        "key": "C",
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+      },
+      {
+        "key": "D",
         "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
+      },
+      {
+        "key": "E",
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -260,7 +266,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -275,26 +281,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "B",
-        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "C",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "D",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "E",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -304,7 +310,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -319,26 +325,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "B",
-        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "C",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
-      },
-      {
-        "key": "D",
         "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
+        "key": "D",
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+      },
+      {
         "key": "E",
-        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -348,7 +354,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -363,26 +369,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
-      },
-      {
-        "key": "B",
-        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
-      },
-      {
-        "key": "C",
         "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
+      },
+      {
+        "key": "D",
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
+      },
+      {
+        "key": "E",
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -392,7 +398,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -407,26 +413,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
-      },
-      {
-        "key": "B",
         "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+      },
+      {
+        "key": "E",
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -436,7 +442,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -451,7 +457,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "B",
@@ -459,15 +465,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "D",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "E",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       }
     ],
     "correctKey": "B",
@@ -495,26 +501,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
-      },
-      {
-        "key": "B",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
-      },
-      {
-        "key": "C",
         "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+      },
+      {
+        "key": "C",
         "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
+      },
+      {
+        "key": "D",
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "E",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -524,7 +530,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -539,7 +545,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "B",
@@ -551,14 +557,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "E",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -568,7 +574,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -583,26 +589,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
-      },
-      {
-        "key": "B",
         "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+      },
+      {
+        "key": "E",
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -612,7 +618,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -627,26 +633,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
         "key": "C",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
-      },
-      {
-        "key": "D",
         "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
+        "key": "D",
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+      },
+      {
         "key": "E",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -656,7 +662,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -671,11 +677,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "B",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "C",
@@ -683,7 +689,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "E",
@@ -715,26 +721,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "B",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
-      },
-      {
-        "key": "C",
         "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
+        "key": "C",
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+      },
+      {
         "key": "D",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "E",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -744,7 +750,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -763,11 +769,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "C",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "D",
@@ -775,10 +781,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -788,7 +794,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -803,26 +809,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
-      },
-      {
-        "key": "B",
-        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
-      },
-      {
-        "key": "C",
-        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
-      },
-      {
-        "key": "D",
         "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
+      },
+      {
+        "key": "C",
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
+      },
+      {
+        "key": "D",
         "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
+      },
+      {
+        "key": "E",
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -832,7 +838,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -847,15 +853,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
-      },
-      {
-        "key": "B",
         "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
+        "key": "B",
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
+      },
+      {
         "key": "C",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "D",
@@ -863,10 +869,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -876,7 +882,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -891,26 +897,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
-      },
-      {
-        "key": "B",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
-      },
-      {
-        "key": "C",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
-      },
-      {
-        "key": "D",
         "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
+      },
+      {
+        "key": "C",
         "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+      },
+      {
+        "key": "D",
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+      },
+      {
+        "key": "E",
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -920,7 +926,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -935,7 +941,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "B",
@@ -951,7 +957,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       }
     ],
     "correctKey": "B",
@@ -979,26 +985,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "B",
-        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "C",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
-      },
-      {
-        "key": "D",
         "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
+        "key": "D",
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+      },
+      {
         "key": "E",
-        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1008,7 +1014,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1023,26 +1029,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "B",
-        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "C",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "D",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "E",
-        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1052,7 +1058,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1067,26 +1073,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
-      },
-      {
-        "key": "B",
         "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
-        "key": "C",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+        "key": "B",
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
+        "key": "D",
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+      },
+      {
         "key": "E",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1096,7 +1102,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1111,26 +1117,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
-      },
-      {
-        "key": "B",
-        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
-      },
-      {
-        "key": "C",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
-      },
-      {
-        "key": "D",
         "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
+      },
+      {
+        "key": "C",
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
+      },
+      {
+        "key": "D",
         "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+      },
+      {
+        "key": "E",
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1140,7 +1146,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1155,26 +1161,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "B",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
-      },
-      {
-        "key": "C",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
-      },
-      {
-        "key": "D",
         "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
+        "key": "C",
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+      },
+      {
+        "key": "D",
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+      },
+      {
         "key": "E",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1184,7 +1190,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1199,26 +1205,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
-      },
-      {
-        "key": "B",
-        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
-      },
-      {
-        "key": "C",
         "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
+        "key": "B",
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
+      },
+      {
+        "key": "C",
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+      },
+      {
         "key": "D",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "E",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1228,7 +1234,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1243,26 +1249,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
-      },
-      {
-        "key": "B",
-        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
-      },
-      {
-        "key": "C",
-        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
-      },
-      {
-        "key": "D",
         "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
+      },
+      {
+        "key": "C",
         "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
+      },
+      {
+        "key": "D",
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
+      },
+      {
+        "key": "E",
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1272,7 +1278,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1287,26 +1293,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "B",
-        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
-      },
-      {
-        "key": "C",
         "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
+        "key": "C",
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+      },
+      {
         "key": "D",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
         "key": "E",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1316,7 +1322,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1331,26 +1337,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
-      },
-      {
-        "key": "B",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
-      },
-      {
-        "key": "C",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
-      },
-      {
-        "key": "D",
         "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+      },
+      {
+        "key": "C",
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+      },
+      {
+        "key": "D",
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+      },
+      {
+        "key": "E",
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1360,7 +1366,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1375,7 +1381,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "B",
@@ -1383,15 +1389,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
-      },
-      {
-        "key": "D",
         "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       },
       {
+        "key": "D",
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+      },
+      {
         "key": "E",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
     "correctKey": "B",
@@ -1419,11 +1425,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "B",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "C",
@@ -1431,11 +1437,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "E",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       }
     ],
     "correctKey": "C",
@@ -1463,26 +1469,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "B",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
-      },
-      {
-        "key": "C",
         "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
+        "key": "C",
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
+      },
+      {
         "key": "D",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "E",
-        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1492,7 +1498,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1507,7 +1513,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
@@ -1523,10 +1529,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1536,7 +1542,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1551,11 +1557,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "B",
-        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "C",
@@ -1595,7 +1601,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "B",
@@ -1603,18 +1609,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
-      },
-      {
-        "key": "D",
         "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
+        "key": "D",
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+      },
+      {
         "key": "E",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1624,7 +1630,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1639,7 +1645,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "B",
@@ -1647,11 +1653,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "D",
-        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
         "key": "E",
@@ -1727,26 +1733,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
-      },
-      {
-        "key": "B",
-        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
-      },
-      {
-        "key": "C",
         "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
+      },
+      {
+        "key": "D",
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+      },
+      {
+        "key": "E",
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1756,7 +1762,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1771,26 +1777,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
-      },
-      {
-        "key": "B",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
-      },
-      {
-        "key": "C",
         "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+      },
+      {
+        "key": "C",
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
+      },
+      {
+        "key": "D",
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "E",
         "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1800,7 +1806,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1815,26 +1821,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
-      },
-      {
-        "key": "B",
-        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
-      },
-      {
-        "key": "C",
         "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+      },
+      {
+        "key": "C",
         "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+      },
+      {
+        "key": "D",
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "E",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1844,7 +1850,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1867,18 +1873,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "D",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
         "key": "E",
         "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1888,7 +1894,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1903,26 +1909,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "B",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
-      },
-      {
-        "key": "C",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
-      },
-      {
-        "key": "D",
         "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
+        "key": "C",
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+      },
+      {
+        "key": "D",
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+      },
+      {
         "key": "E",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1932,7 +1938,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1947,7 +1953,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
@@ -1959,14 +1965,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "E",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -1976,7 +1982,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -1995,22 +2001,22 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "C",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
-      },
-      {
-        "key": "D",
         "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
+        "key": "D",
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+      },
+      {
         "key": "E",
-        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2020,7 +2026,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2035,15 +2041,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
-      },
-      {
-        "key": "B",
         "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
+        "key": "B",
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+      },
+      {
         "key": "C",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
         "key": "D",
@@ -2051,7 +2057,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       }
     ],
     "correctKey": "D",
@@ -2079,7 +2085,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "B",
@@ -2087,7 +2093,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "D",
@@ -2095,10 +2101,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2108,7 +2114,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2123,7 +2129,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
       },
       {
         "key": "B",
@@ -2131,18 +2137,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "D",
-        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "E",
         "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2152,7 +2158,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2171,11 +2177,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "C",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "D",
@@ -2183,10 +2189,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2196,7 +2202,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2211,11 +2217,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "B",
-        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       },
       {
         "key": "C",
@@ -2223,14 +2229,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "E",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2240,7 +2246,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2259,19 +2265,19 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
-      },
-      {
-        "key": "C",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
+        "key": "C",
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+      },
+      {
         "key": "D",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "E",
-        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       }
     ],
     "correctKey": "A",
@@ -2299,26 +2305,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
-      },
-      {
-        "key": "B",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
-      },
-      {
-        "key": "C",
         "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       },
       {
+        "key": "B",
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
+      },
+      {
+        "key": "C",
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+      },
+      {
         "key": "D",
-        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       },
       {
         "key": "E",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2328,7 +2334,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2343,15 +2349,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
-      },
-      {
-        "key": "B",
         "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
+        "key": "B",
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+      },
+      {
         "key": "C",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       },
       {
         "key": "D",
@@ -2359,10 +2365,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2372,7 +2378,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2387,11 +2393,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
-        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "C",
@@ -2399,14 +2405,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "E",
         "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2416,7 +2422,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2431,26 +2437,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
-      },
-      {
-        "key": "B",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
-      },
-      {
-        "key": "C",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
-      },
-      {
-        "key": "D",
         "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
+      },
+      {
+        "key": "C",
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+      },
+      {
+        "key": "D",
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+      },
+      {
+        "key": "E",
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2460,7 +2466,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2475,15 +2481,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "B",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "C",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       },
       {
         "key": "D",
@@ -2491,10 +2497,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2504,7 +2510,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2519,11 +2525,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "B",
-        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
         "key": "C",
@@ -2531,14 +2537,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "E",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+        "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2548,7 +2554,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2563,26 +2569,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "B",
-        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
-      },
-      {
-        "key": "C",
         "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
+        "key": "C",
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
+      },
+      {
         "key": "D",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "E",
         "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2592,7 +2598,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2607,7 +2613,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
+        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
         "key": "B",
@@ -2619,14 +2625,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "E",
         "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2636,7 +2642,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2651,11 +2657,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "B",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
         "key": "C",
@@ -2663,14 +2669,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "E",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2680,7 +2686,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2695,26 +2701,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "B",
-        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+        "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
         "key": "C",
-        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
-      },
-      {
-        "key": "D",
         "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
+        "key": "D",
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
+      },
+      {
         "key": "E",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2724,7 +2730,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2739,26 +2745,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
       },
       {
         "key": "B",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
-      },
-      {
-        "key": "C",
         "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
+        "key": "C",
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+      },
+      {
         "key": "D",
-        "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "E",
         "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2768,7 +2774,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2787,22 +2793,22 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
-      },
-      {
-        "key": "C",
         "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
+        "key": "C",
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+      },
+      {
         "key": "D",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "E",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2812,7 +2818,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2827,7 +2833,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "B",
@@ -2835,18 +2841,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       },
       {
         "key": "D",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
         "key": "E",
-        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2856,7 +2862,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2871,7 +2877,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "B",
@@ -2879,18 +2885,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
+        "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
         "key": "D",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+        "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
         "key": "E",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2900,7 +2906,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2915,26 +2921,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
-      },
-      {
-        "key": "B",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
-      },
-      {
-        "key": "C",
         "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
+      },
+      {
+        "key": "D",
         "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+      },
+      {
+        "key": "E",
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2944,7 +2950,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -2959,26 +2965,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
-      },
-      {
-        "key": "B",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
-      },
-      {
-        "key": "C",
         "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
       },
       {
+        "key": "B",
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+      },
+      {
+        "key": "C",
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
+      },
+      {
         "key": "D",
-        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
+        "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       },
       {
         "key": "E",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
+        "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -2988,7 +2994,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3003,26 +3009,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
-      },
-      {
-        "key": "B",
         "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
-        "key": "C",
-        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
+        "key": "B",
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
+        "key": "D",
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
+      },
+      {
         "key": "E",
-        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3032,7 +3038,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3047,15 +3053,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
-      },
-      {
-        "key": "B",
         "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
+      },
+      {
+        "key": "C",
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "D",
@@ -3066,7 +3072,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
         "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3076,7 +3082,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3095,22 +3101,22 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
-      },
-      {
-        "key": "C",
         "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+      },
+      {
+        "key": "D",
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "E",
         "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3120,7 +3126,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3135,26 +3141,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
-      },
-      {
-        "key": "B",
         "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
-        "key": "C",
-        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
+      },
+      {
+        "key": "D",
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+      },
+      {
+        "key": "E",
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3164,7 +3170,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3179,7 +3185,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "B",
@@ -3191,14 +3197,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
         "key": "E",
-        "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3208,7 +3214,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3223,26 +3229,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
-      },
-      {
-        "key": "B",
-        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
-      },
-      {
-        "key": "C",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
-      },
-      {
-        "key": "D",
         "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+      },
+      {
+        "key": "C",
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+      },
+      {
+        "key": "D",
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+      },
+      {
+        "key": "E",
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3252,7 +3258,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3267,26 +3273,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
-      },
-      {
-        "key": "B",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
-      },
-      {
-        "key": "C",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
-      },
-      {
-        "key": "D",
         "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
+      },
+      {
+        "key": "C",
         "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
+      },
+      {
+        "key": "D",
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+      },
+      {
+        "key": "E",
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3296,7 +3302,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false
   },
   {
@@ -3311,11 +3317,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
         "key": "B",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       },
       {
         "key": "C",
@@ -3330,7 +3336,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
         "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3340,7 +3346,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3360,11 +3366,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "C",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "D",
@@ -3372,7 +3378,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Restructuring standard clausal hierarchy to place maximum informational focus on the unprecedented speed of administrative concession."
       }
     ],
     "correctKey": "D",
@@ -3446,26 +3452,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
-      },
-      {
-        "key": "B",
-        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
-      },
-      {
-        "key": "C",
         "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "An existing pathological or systemic vulnerability has been aggravated to a markedly more dangerous, volatile, and irreversible degree."
+      },
+      {
+        "key": "C",
         "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
+      },
+      {
+        "key": "D",
+        "text": "An already fragile ecological equilibrium has been driven into severe degradation through unmitigated industrial resource extraction."
       },
       {
         "key": "E",
         "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "B",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3475,7 +3481,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Semantic Prosody of High-Register Academic Verbs to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3499,15 +3505,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
       },
       {
         "key": "D",
-        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "E",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
+        "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       }
     ],
     "correctKey": "A",
@@ -3536,7 +3542,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
       },
       {
         "key": "B",
@@ -3544,18 +3550,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "D",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       },
       {
         "key": "E",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
+        "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3565,7 +3571,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3581,26 +3587,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
       },
       {
         "key": "B",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
-      },
-      {
-        "key": "C",
         "text": "Incompatible analytical methodologies that prioritize quantitative microeconomic utility over qualitative ethnographical kinship structures."
       },
       {
+        "key": "C",
+        "text": "Radically conflicting models of resource valuation that pit short-term financial discounting against perpetual biocentric preservation."
+      },
+      {
         "key": "D",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "E",
-        "text": "Divergent axiomatic assumptions regarding whether human environmental behavior is fundamentally motivated by market prices or communal ethics."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3610,7 +3616,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Synthesizing Multidisciplinary Perspectives on Ecological Economics to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3626,26 +3632,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
-      },
-      {
-        "key": "B",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
-      },
-      {
-        "key": "C",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
-      },
-      {
-        "key": "D",
         "text": "Biting irony designed to expose the gross disproportion between superficial wellness initiatives and severe labor exploitation."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+      },
+      {
+        "key": "C",
+        "text": "Sharp discursive skepticism aimed at delegitimizing performative institutional philanthropy in high-pressure technology firms."
+      },
+      {
+        "key": "D",
         "text": "Incisive socio-political critique demystifying the modern rhetoric of employee empowerment in hyper-capitalist environments."
+      },
+      {
+        "key": "E",
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3655,7 +3661,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Discerning Sarcasm and Subversive Satire in Cultural Criticism to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3671,7 +3677,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       },
       {
         "key": "B",
@@ -3679,15 +3685,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
-      },
-      {
-        "key": "D",
         "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
+        "key": "D",
+        "text": "Future conflict is mathematically predetermined by regional resource competition unless decisive preventive kinetic action is deployed."
+      },
+      {
         "key": "E",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       }
     ],
     "correctKey": "B",
@@ -3716,26 +3722,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
-      },
-      {
-        "key": "B",
-        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
-      },
-      {
-        "key": "C",
-        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
-      },
-      {
-        "key": "D",
         "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
+      },
+      {
+        "key": "C",
+        "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
+      },
+      {
+        "key": "D",
         "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+      },
+      {
+        "key": "E",
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3745,7 +3751,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3761,26 +3767,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
-      },
-      {
-        "key": "B",
-        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
-      },
-      {
-        "key": "C",
-        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
-      },
-      {
-        "key": "D",
         "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
+      },
+      {
+        "key": "C",
+        "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
+      },
+      {
+        "key": "D",
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
+      },
+      {
+        "key": "E",
+        "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3790,7 +3796,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3806,7 +3812,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
+        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
         "key": "B",
@@ -3814,18 +3820,18 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "D",
-        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
+        "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
       },
       {
         "key": "E",
-        "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3835,7 +3841,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3851,15 +3857,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
-      },
-      {
-        "key": "B",
         "text": "The calendar year itself constitutes the crucial thematic nexus around which parallel evolutionary genetics breakthroughs coalesced."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
+      },
+      {
+        "key": "C",
+        "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
         "key": "D",
@@ -3896,11 +3902,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       },
       {
         "key": "B",
-        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
+        "text": "A pre-existing socio-economic distress factor has suffered acute deterioration under the compounding weight of external institutional shocks."
       },
       {
         "key": "C",
@@ -3908,7 +3914,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "E",
@@ -3941,26 +3947,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
-      },
-      {
-        "key": "B",
-        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
-      },
-      {
-        "key": "C",
         "text": "Morphosyntactic co-occurrence patterns alongside institutional enforcement clauses that delineate either sovereign rights or trade penalties."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+      },
+      {
+        "key": "C",
         "text": "Syntactic collocation with directional prepositions and the overarching juridical context established within the governing treaty articles."
       },
       {
+        "key": "D",
+        "text": "Contextual disambiguation provided by neighboring administrative provisions that specify either compliance approvals or coercive boycotts."
+      },
+      {
         "key": "E",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: LEXICAL PRECISION & IDIOMATIC NUANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -3970,7 +3976,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Pragmatic Polysemy of 'Sanction' in Diplomatic Charters to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -3986,26 +3992,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
-      },
-      {
-        "key": "B",
-        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
-      },
-      {
-        "key": "C",
         "text": "Establishing standardized criteria for distinguishing temporary chemical potentiation from permanent synaptic dendritic remodeling."
       },
       {
+        "key": "B",
+        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+      },
+      {
+        "key": "C",
+        "text": "Formulating precise evidentiary thresholds to differentiate localized functional remapping from systemic synaptic plasticity."
+      },
+      {
         "key": "D",
-        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
+        "text": "Standardizing neuroimaging calibration across clinical sites to ensure artifact-free resolution of subtle microscopic changes."
       },
       {
         "key": "E",
-        "text": "Developing rigorous longitudinal protocols that verify whether cognitive adaptability stems from neurogenesis or compensation."
+        "text": "Conducting comprehensive multi-cohort statistical regressions to isolate environmental stimulation from innate genetic factors."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "A",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: ADVANCED ACADEMIC DISCOURSE & SYNTHESIS",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4015,7 +4021,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Evaluating Opposing Empirical Claims in Cognitive Science to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (C)."
     },
-    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4035,7 +4041,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
+        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
       },
       {
         "key": "C",
@@ -4043,7 +4049,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Irreconcilable perspectives concerning whether environmental sustainability requires centralized statutory quotas or decentralized customs."
+        "text": "Contrasting philosophical definitions of capital accumulation that conflict directly with intergenerational ecological stewardship norms."
       },
       {
         "key": "E",
@@ -4076,7 +4082,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
+        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
       },
       {
         "key": "B",
@@ -4092,7 +4098,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Trenchant satirical commentary illuminating the cynical co-optation of psychological concepts by exploitative corporate hierarchies."
+        "text": "Caustic philosophical disdain for management practices that substitute digital perks for equitable financial remuneration."
       }
     ],
     "correctKey": "D",
@@ -4121,11 +4127,11 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
+        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
       },
       {
         "key": "B",
-        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
+        "text": "Diplomatic negotiation is an intrinsically exhausted mechanism that can no longer guarantee the uninterrupted flow of maritime commerce."
       },
       {
         "key": "C",
@@ -4133,14 +4139,14 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
+        "text": "Military escalation is an inevitable geopolitical necessity, framing the debate solely around operational timing rather than strategic justification."
       },
       {
         "key": "E",
-        "text": "Multilateral deterrence represents the solitary viable instrument capable of containing asymmetric aggression across vulnerable chokepoints."
+        "text": "Armed intervention has already acquired universal moral legitimacy among key maritime stakeholders and civilian transit operators."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: PRAGMATIC INFERENCE & AUTHORIAL STANCE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4150,7 +4156,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Detecting Implicit Presuppositions in Foreign Policy Analysis to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4166,26 +4172,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
+        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
       },
       {
         "key": "B",
-        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
-      },
-      {
-        "key": "C",
         "text": "A sophistical rhetorical evasion that attacks individual character flaws rather than addressing verifiable systemic solvency risks."
       },
       {
+        "key": "C",
+        "text": "An illegitimate polemical technique that conflates private civic non-compliance with the professional rigor of statutory budgetary models."
+      },
+      {
         "key": "D",
-        "text": "A classical deflection maneuver that substitutes substantive fiscal analysis with irrelevant allegations regarding historical personal conduct."
+        "text": "An abusive ad hominem fallacy that evades economic argumentation by attempting to impugn the opponent's personal moral credibility."
       },
       {
         "key": "E",
         "text": "A fallacious argumentative diversion designed to prejudice the assembly against valid actuarial forecasts through character assassination."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4195,7 +4201,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Analyzing Complex Fallacies in Parliamentary Debate to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (B)."
     },
-    "explanation": "Based on thorough discourse analysis, option (B) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4211,26 +4217,26 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
-      },
-      {
-        "key": "B",
         "text": "Leveraging mirror-image grammatical parallelism to inspire public confidence while establishing unequivocal foreign policy boundaries."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Inverting syntactic structures between balanced antithetical statements to articulate both unyielding military readiness and open dialogue."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Reversing key grammatical elements across parallel clauses to project an indomitable moral resolve coupled with pragmatic diplomatic flexibility."
+      },
+      {
+        "key": "D",
+        "text": "Employing symmetrical lexical permutation to convey strength without bellicosity and willingness to compromise without political cowardice."
       },
       {
         "key": "E",
         "text": "Constructing a reciprocal phraseological inversion that balances categorical defensive vigilance with reasonable multilateral engagement."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: RHETORICAL DEVICES & ARGUMENTATIVE STRUCTURE",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4240,7 +4246,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Chiasmus and Antithesis in Landmark Inaugural Speeches to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (D)."
     },
-    "explanation": "Based on thorough discourse analysis, option (D) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4256,15 +4262,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
-      },
-      {
-        "key": "B",
         "text": "Exploiting marked negative polarity fronting to evoke traditional juridical rhetoric and reinforce the gravity of statutory malfeasance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Foregrounding temporal rarity through marked grammatical word order to heighten moral indignation and dramatize institutional betrayal."
+      },
+      {
+        "key": "C",
+        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
       },
       {
         "key": "D",
@@ -4272,10 +4278,10 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Triggering subject-auxiliary inversion to emphatically underscore the historically anomalous and reprehensible nature of the agency's surrender."
+        "text": "Utilizing stylistically elevated syntactic inversion to convey authoritative academic condemnation of regulatory capture in public healthcare."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4285,7 +4291,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Negative Inversion and Pragmatic Register to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (E)."
     },
-    "explanation": "Based on thorough discourse analysis, option (E) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4301,15 +4307,15 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
-      },
-      {
-        "key": "B",
         "text": "The specific chronological benchmark demands explicit communicative prominence to settle priority disputes in biochemical innovation."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "The author seeks to foreground historical sequence over agency to resolve contested precedence in molecular biology literature."
+      },
+      {
+        "key": "C",
+        "text": "The temporal parameter represents the vital contrastive focus being defended against conflicting biographical or empirical chronologies."
       },
       {
         "key": "D",
@@ -4320,7 +4326,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
         "text": "The exact historical date requires emphatic syntactic isolation to refute earlier rival claims regarding the timing of laboratory discovery."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "DISCOURSE RIGOR: TEXTUAL COHESION & DISCOURSE GRAMMAR",
       "latex": "\\text{Rhetorical Evaluation} \\implies \\text{Claim Validity} + \\text{Syntactic Nuance} + \\text{Pragmatic Stance}",
@@ -4330,7 +4336,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       "concept": "Apply principles of Cleft Sentences for Informational Salience to evaluate rhetorical nuance and syntactical structure.",
       "execution": "Examine the thesis statement, identify the author's primary tension, and select option (A)."
     },
-    "explanation": "Based on thorough discourse analysis, option (A) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
+    "explanation": "Based on thorough discourse analysis, option (C) most accurately captures the thesis and rhetorical intention without oversimplifying the passage's analytical depth.",
     "isDiagnostic": false,
     "isSimulation": true
   },
@@ -4354,7 +4360,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
+        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
       },
       {
         "key": "D",
@@ -4362,7 +4368,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "A nascent financial crisis has experienced profound destabilization due to ill-conceived regulatory interventions in capital markets."
+        "text": "A chronic epidemiological condition has escalated into an unmanageable crisis following the breakdown of community health infrastructure."
       }
     ],
     "correctKey": "B",
@@ -4391,7 +4397,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
+        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
       },
       {
         "key": "B",
@@ -4399,7 +4405,7 @@ window.TKA_ENG_LANJUT_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Surrounding legal terminology that clearly distinguishes between formal governmental endorsement and punitive multilateral asset freezes."
+        "text": "The specific statutory framework within the charter that defines whether the operative clause confers legal immunity or penal measures."
       },
       {
         "key": "D",

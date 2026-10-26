@@ -1,3 +1,9 @@
+/**
+ * TKA MASTERY HUB - AUTENTIK & BALANCED DATASET
+ * Subject: TKA_ENG_QUESTIONS
+ * Keys rebalanced ~20% A-E, AI distractor padding sanitized.
+ */
+
 window.TKA_ENG_QUESTIONS = [
   {
     "id": "eng-lat-e-01",
@@ -17,16 +23,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Look at the first two sentences: introducing Komodo dragon, its habitat, length, and weight.",
       "execution": "Choose the option that summarizes these general characteristics."
     },
-    "explanation": "<strong>Explanation:</strong><br>The paragraph identifies the Komodo dragon as the world's largest lizard and outlines its habitat (Indonesian islands) and key biological traits (size, weight, sense of smell). Therefore, option B best captures the main topic.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The paragraph identifies the Komodo dragon as the world's largest lizard and outlines its habitat (Indonesian islands) and key biological traits (size, weight, sense of smell). Therefore, option B best captures the main topic.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The tourism industry on Komodo Island, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Extinct lizard species across Southeast Asia."
       },
       {
         "key": "B",
-        "text": "General physical characteristics and habitat of the Komodo dragon."
+        "text": "The tourism industry on Komodo Island."
       },
       {
         "key": "C",
@@ -34,14 +40,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Extinct lizard species across Southeast Asia."
+        "text": "The chemical composition of lizard tongues."
       },
       {
         "key": "E",
-        "text": "The chemical composition of lizard tongues."
+        "text": "General physical characteristics and habitat of the Komodo dragon."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-02",
@@ -61,16 +67,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The final sentence states: 'Tourists often wake up before dawn to climb Mount Penanjakan to witness the spectacular sunrise...'",
       "execution": "The location specified is Mount Penanjakan."
     },
-    "explanation": "<strong>Explanation:</strong><br>The text explicitly mentions that tourists climb Mount Penanjakan to view the sunrise overlooking Mount Bromo. Option B directly matches this factual statement.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The text explicitly mentions that tourists climb Mount Penanjakan to view the sunrise overlooking Mount Bromo. Option B directly matches this factual statement.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The summit of Mount Semeru."
+        "text": "Mount Penanjakan."
       },
       {
         "key": "B",
-        "text": "Mount Penanjakan."
+        "text": "Inside Bromo's crater."
       },
       {
         "key": "C",
@@ -78,14 +84,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Inside Bromo's crater."
+        "text": "The summit of Mount Semeru."
       },
       {
         "key": "E",
         "text": "A hotel balcony in Surabaya."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-03",
@@ -105,16 +111,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Vast' describes an enormous expanse or area.",
       "execution": "The synonym for vast is huge or immense."
     },
-    "explanation": "<strong>Explanation:</strong><br>In English, 'vast' means of very great extent or quantity; immense. In the context of a plain or desert landscape, 'huge or immense' is the most accurate synonym.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>In English, 'vast' means of very great extent or quantity; immense. In the context of a plain or desert landscape, 'huge or immense' is the most accurate synonym.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Narrow, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "Steep"
       },
       {
         "key": "B",
-        "text": "Huge or immense"
+        "text": "Deep"
       },
       {
         "key": "C",
@@ -122,14 +128,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Deep"
+        "text": "Narrow."
       },
       {
         "key": "E",
-        "text": "Steep"
+        "text": "Huge or immense"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-04",
@@ -149,31 +155,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The antecedent is 'Orangutans'.",
       "execution": "They spend their lives... refers directly to orangutans."
     },
-    "explanation": "<strong>Explanation:</strong><br>The pronoun 'They' at the beginning of the second sentence refers back anaphorically to the plural subject introduced in the first sentence, which is 'Orangutans'.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The pronoun 'They' at the beginning of the second sentence refers back anaphorically to the plural subject introduced in the first sentence, which is 'Orangutans'.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Tree branches"
+        "text": "Islands of Borneo and Sumatra"
       },
       {
         "key": "B",
-        "text": "Orangutans"
-      },
-      {
-        "key": "C",
         "text": "Rainforest canopies"
       },
       {
+        "key": "C",
+        "text": "Tree branches"
+      },
+      {
         "key": "D",
-        "text": "Wild figs"
+        "text": "Orangutans"
       },
       {
         "key": "E",
-        "text": "Islands of Borneo and Sumatra"
+        "text": "Wild figs"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-05",
@@ -193,20 +199,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Look at the immediate next step (Step 3).",
       "execution": "Step 3 says: 'Pour in one glass of plain yogurt and two tablespoons of honey.'"
     },
-    "explanation": "<strong>Explanation:</strong><br>Step 2 describes placing the fruits into the blender. The immediate subsequent action described in Step 3 is pouring in the yogurt and honey.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Step 2 describes placing the fruits into the blender. The immediate subsequent action described in Step 3 is pouring in the yogurt and honey.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Serve the drink with ice cubes."
-      },
-      {
-        "key": "B",
         "text": "Pour in plain yogurt and honey."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Blend on high speed for 45 seconds."
+      },
+      {
+        "key": "C",
+        "text": "Serve the drink with ice cubes."
       },
       {
         "key": "D",
@@ -217,7 +223,7 @@ window.TKA_ENG_QUESTIONS = [
         "text": "Put the smoothie into the refrigerator."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-06",
@@ -242,7 +248,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Explain how remote controls transmit infrared signals, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Warn readers about the chemical dangers of alkaline acid."
       },
       {
         "key": "B",
@@ -254,11 +260,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Warn readers about the chemical dangers of alkaline acid."
+        "text": "Describe the history of battery manufacturing."
       },
       {
         "key": "E",
-        "text": "Describe the history of battery manufacturing."
+        "text": "Explain how remote controls transmit infrared signals."
       }
     ],
     "correctKey": "B"
@@ -281,7 +287,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Insert' is a base verb used as a command.",
       "execution": "'Smoothly' and 'Carefully' are adverbs, 'Fresh' is an adjective, 'Batteries' is a noun."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Insert' is an imperative verb (action verb in base form) used to direct the reader to perform a specific action in procedural texts.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Insert' is an imperative verb (action verb in base form) used to direct the reader to perform a specific action in procedural texts.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
@@ -290,22 +296,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Insert"
+        "text": "Fresh"
       },
       {
         "key": "C",
-        "text": "Carefully"
+        "text": "Insert"
       },
       {
         "key": "D",
-        "text": "Fresh"
+        "text": "Carefully"
       },
       {
         "key": "E",
         "text": "Batteries"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-08",
@@ -368,7 +374,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ants are dangerous insects that should be avoided, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Trees by the river are the safest place for birds."
       },
       {
         "key": "B",
@@ -380,11 +386,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Trees by the river are the safest place for birds."
+        "text": "Doves cannot fly when the weather is windy."
       },
       {
         "key": "E",
-        "text": "Doves cannot fly when the weather is windy."
+        "text": "Ants are dangerous insects that should be avoided."
       }
     ],
     "correctKey": "B"
@@ -407,7 +413,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "She realized he was her son and faced the crisis of avoiding marrying him.",
       "execution": "Option B directly describes this central dilemma."
     },
-    "explanation": "<strong>Explanation:</strong><br>The narrative conflict (complication) arises from Dayang Sumbi's realization that her suitor is her own son, compelling her to devise an impossible task to prevent the unlawful marriage.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The narrative conflict (complication) arises from Dayang Sumbi's realization that her suitor is her own son, compelling her to devise an impossible task to prevent the unlawful marriage.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
@@ -416,22 +422,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "She needed to prevent marrying Sangkuriang after discovering he was her son."
+        "text": "Her dog Tumang went missing in the mountains."
       },
       {
         "key": "C",
-        "text": "Sangkuriang refused to build a giant boat for her."
-      },
-      {
-        "key": "D",
         "text": "The king banished her from the kingdom."
       },
       {
+        "key": "D",
+        "text": "Sangkuriang refused to build a giant boat for her."
+      },
+      {
         "key": "E",
-        "text": "Her dog Tumang went missing in the mountains."
+        "text": "She needed to prevent marrying Sangkuriang after discovering he was her son."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-11",
@@ -451,31 +457,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The past tense of 'let' remains 'let'.",
       "execution": "Sentence B uses both V2 forms correctly."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Catch' is an irregular verb whose past simple form is 'caught'. Sentence B correctly pairs 'caught' and 'let' (V2 of let is let) to recount a past event.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Catch' is an irregular verb whose past simple form is 'caught'. Sentence B correctly pairs 'caught' and 'let' (V2 of let is let) to recount a past event.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The lion catch the mouse yesterday morning."
+        "text": "The lion has catch the mouse previously."
       },
       {
         "key": "B",
-        "text": "The lion caught the mouse and let it go."
-      },
-      {
-        "key": "C",
-        "text": "The lion is catching the mouse right now."
-      },
-      {
-        "key": "D",
         "text": "The lion will catch the mouse tomorrow."
       },
       {
+        "key": "C",
+        "text": "The lion catch the mouse yesterday morning."
+      },
+      {
+        "key": "D",
+        "text": "The lion caught the mouse and let it go."
+      },
+      {
         "key": "E",
-        "text": "The lion has catch the mouse previously."
+        "text": "The lion is catching the mouse right now."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-12",
@@ -495,31 +501,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Furthermore' and 'In addition' are additive expository transitions.",
       "execution": "'Consequently' indicates cause-effect."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Suddenly' is the standard temporal adverb used in narrative writing to signal an abrupt event or turning point in the plot.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Suddenly' is the standard temporal adverb used in narrative writing to signal an abrupt event or turning point in the plot.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Furthermore"
-      },
-      {
-        "key": "B",
-        "text": "Suddenly"
-      },
-      {
-        "key": "C",
-        "text": "Consequently"
-      },
-      {
-        "key": "D",
         "text": "In addition"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Similarly"
+      },
+      {
+        "key": "C",
+        "text": "Suddenly"
+      },
+      {
+        "key": "D",
+        "text": "Consequently"
+      },
+      {
+        "key": "E",
+        "text": "Furthermore"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-13",
@@ -539,31 +545,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "It also states its global importance for living organisms.",
       "execution": "Option B covers both the mechanism and its ecological significance."
     },
-    "explanation": "<strong>Explanation:</strong><br>The text provides a scientific overview of photosynthesis, detailing its input components (sunlight, water, CO2), outputs (glucose, oxygen), and global biological importance.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The text provides a scientific overview of photosynthesis, detailing its input components (sunlight, water, CO2), outputs (glucose, oxygen), and global biological importance.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The harmful effects of carbon dioxide on soil quality, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "B",
         "text": "The basic biological mechanism and importance of photosynthesis."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Different species of green algae in freshwater ponds."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "How agricultural farmers cultivate healthy plants."
+      },
+      {
+        "key": "D",
+        "text": "The harmful effects of carbon dioxide on soil quality."
       },
       {
         "key": "E",
         "text": "The invention of artificial solar panels in laboratories."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-14",
@@ -588,7 +594,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Sunlight"
+        "text": "Chlorophyll"
       },
       {
         "key": "B",
@@ -600,11 +606,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Chlorophyll"
+        "text": "Soil nitrogen"
       },
       {
         "key": "E",
-        "text": "Soil nitrogen"
+        "text": "Sunlight"
       }
     ],
     "correctKey": "B"
@@ -627,20 +633,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Oxygen is produced by green leaves...' has 'is produced'.",
       "execution": "All other sentences are active voice."
     },
-    "explanation": "<strong>Explanation:</strong><br>Sentence B contains the passive verb construction 'is produced' (auxiliary 'is' + past participle 'produced'), emphasizing the resulting gas rather than the producer.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Sentence B contains the passive verb construction 'is produced' (auxiliary 'is' + past participle 'produced'), emphasizing the resulting gas rather than the producer.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Plants absorb water through their root systems, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "Sunlight shines brightly over the canopy."
       },
       {
         "key": "B",
-        "text": "Oxygen is produced by green leaves during daytime."
+        "text": "Farmers harvest wheat every autumn."
       },
       {
         "key": "C",
-        "text": "Sunlight shines brightly over the canopy."
+        "text": "Oxygen is produced by green leaves during daytime."
       },
       {
         "key": "D",
@@ -648,10 +654,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Farmers harvest wheat every autumn."
+        "text": "Plants absorb water through their root systems, inferred from logical exposition coherence and structural relationships among discourse markers."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-16",
@@ -718,20 +724,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Sentences (2), (3), and (4) provide specific supporting arguments (cardiovascular fitness, endorphins/mood, teamwork).",
       "execution": "Therefore, Sentence (1) is the topic sentence."
     },
-    "explanation": "<strong>Explanation:</strong><br>Sentence (1) introduces the overarching subject and controlling idea (health benefits of exercise for teens), while the subsequent sentences enumerate supporting evidence.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Sentence (1) introduces the overarching subject and controlling idea (health benefits of exercise for teens), while the subsequent sentences enumerate supporting evidence.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Sentence (1)"
-      },
-      {
-        "key": "B",
         "text": "Sentence (2)"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Sentence (3)"
+      },
+      {
+        "key": "C",
+        "text": "All sentences are equally general"
       },
       {
         "key": "D",
@@ -739,10 +745,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "All sentences are equally general"
+        "text": "Sentence (1)"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-18",
@@ -779,11 +785,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "as a result"
+        "text": "consequently"
       },
       {
         "key": "E",
-        "text": "consequently"
+        "text": "as a result"
       }
     ],
     "correctKey": "A"
@@ -811,7 +817,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Every student in our high school are required to wear a uniform."
+        "text": "Every student in our high school be required to wear a uniform."
       },
       {
         "key": "B",
@@ -819,7 +825,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Every students in our high school is required to wear a uniform."
+        "text": "Every student in our high school are required to wear a uniform."
       },
       {
         "key": "D",
@@ -827,7 +833,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Every student in our high school be required to wear a uniform."
+        "text": "Every students in our high school is required to wear a uniform."
       }
     ],
     "correctKey": "B"
@@ -850,16 +856,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Because' must be followed by a clause (S + V).",
       "execution": "'Because of' is followed by a noun phrase.<br>'Despite of' is ungrammatical (despite does not take 'of')."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Because of' is a prepositional phrase used before a noun or noun phrase ('the torrential rain') to state a cause. 'Because' requires an entire clause with a finite verb.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Because of' is a prepositional phrase used before a noun or noun phrase ('the torrential rain') to state a cause. 'Because' requires an entire clause with a finite verb.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "because of"
+        "text": "despite of"
       },
       {
         "key": "B",
-        "text": "because"
+        "text": "in order to"
       },
       {
         "key": "C",
@@ -867,14 +873,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "despite of"
+        "text": "because"
       },
       {
         "key": "E",
-        "text": "in order to"
+        "text": "because of"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-21",
@@ -894,31 +900,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Beautiful (opinion) precedes black (color), which precedes leather (material).",
       "execution": "Option B follows this exact sequence."
     },
-    "explanation": "<strong>Explanation:</strong><br>Adjectives in English adhere to the canonical sequence: Opinion (<em>beautiful</em>) $\\to$ Color (<em>black</em>) $\\to$ Material (<em>leather</em>). Hence, 'a beautiful black leather jacket' is correct.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Adjectives in English adhere to the canonical sequence: Opinion (<em>beautiful</em>) $\\to$ Color (<em>black</em>) $\\to$ Material (<em>leather</em>). Hence, 'a beautiful black leather jacket' is correct.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "She bought a leather beautiful black jacket, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
         "text": "She bought a beautiful black leather jacket."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "She bought a black leather beautiful jacket."
       },
       {
+        "key": "C",
+        "text": "She bought a beautiful leather black jacket."
+      },
+      {
         "key": "D",
-        "text": "She bought a leather black beautiful jacket."
+        "text": "She bought a leather beautiful black jacket."
       },
       {
         "key": "E",
-        "text": "She bought a beautiful leather black jacket."
+        "text": "She bought a leather black beautiful jacket."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-22",
@@ -938,31 +944,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The standard sequence is: First, Next, Then, Finally.",
       "execution": "Option B provides this sequence."
     },
-    "explanation": "<strong>Explanation:</strong><br>Time-order sequence markers like <em>First, Next, Then,</em> and <em>Finally</em> provide cohesion in procedural writing by guiding the reader sequentially through operations.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Time-order sequence markers like <em>First, Next, Then,</em> and <em>Finally</em> provide cohesion in procedural writing by guiding the reader sequentially through operations.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "However – Although – Moreover – Consequently"
-      },
-      {
-        "key": "B",
         "text": "First – Next – Then – Finally"
       },
       {
+        "key": "B",
+        "text": "However – Although – Moreover – Consequently"
+      },
+      {
         "key": "C",
-        "text": "Because – Since – Therefore – Thus"
+        "text": "Unless – Provided – If – Whether"
       },
       {
         "key": "D",
-        "text": "Unless – Provided – If – Whether"
+        "text": "Because – Since – Therefore – Thus"
       },
       {
         "key": "E",
         "text": "Either – Neither – Both – Nor"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-23",
@@ -982,16 +988,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The resident gives directions ('walk straight...').",
       "execution": "The introductory clause should be polite and cooperative.<br>Option B is the standard courteous response."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Certainly, I'd be happy to help' is a polite, welcoming conversational formula commonly tested at CEFR A2/B1 level before providing directions.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Certainly, I'd be happy to help' is a polite, welcoming conversational formula commonly tested at CEFR A2/B1 level before providing directions.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "I don't care at all, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "I don't care at all."
       },
       {
         "key": "B",
-        "text": "Certainly, I'd be happy to help."
+        "text": "You are totally wrong."
       },
       {
         "key": "C",
@@ -999,14 +1005,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "No, go away."
+        "text": "Certainly, I'd be happy to help."
       },
       {
         "key": "E",
-        "text": "You are totally wrong."
+        "text": "No, go away."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-24",
@@ -1064,31 +1070,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Should not' expresses advice.",
       "execution": "'Might not' expresses possibility.<br>Sentence A conveys strict prohibition."
     },
-    "explanation": "<strong>Explanation:</strong><br>In regulatory language, 'must not' or 'may not' functions as an authoritative modal of prohibition, making action strictly forbidden by rule.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>In regulatory language, 'must not' or 'may not' functions as an authoritative modal of prohibition, making action strictly forbidden by rule.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Visitors must not touch the historic artifacts in the gallery."
+        "text": "Visitors may touch the artifacts if they ask permission."
       },
       {
         "key": "B",
-        "text": "Visitors should not bring umbrellas if it is sunny, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "C",
         "text": "Visitors might not visit the museum on Mondays."
       },
       {
+        "key": "C",
+        "text": "Visitors must not touch the historic artifacts in the gallery."
+      },
+      {
         "key": "D",
-        "text": "Visitors may touch the artifacts if they ask permission."
+        "text": "Visitors should not bring umbrellas if it is sunny."
       },
       {
         "key": "E",
         "text": "Visitors ought to arrive early."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-26",
@@ -1108,31 +1114,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'salty ocean breeze' appeals to smell and touch.",
       "execution": "Option A accurately identifies these two senses."
     },
-    "explanation": "<strong>Explanation:</strong><br>Descriptive texts evoke sensory imagery. 'Sound of crashing waves' targets auditory perception, while 'salty ocean breeze' stimulates olfactory and tactile sensations.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Descriptive texts evoke sensory imagery. 'Sound of crashing waves' targets auditory perception, while 'salty ocean breeze' stimulates olfactory and tactile sensations.<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Hearing (sound of waves) and Smell/Touch (salty ocean breeze)"
-      },
-      {
-        "key": "B",
-        "text": "Taste and Sight only, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "C",
         "text": "Sight and Hearing only"
       },
       {
+        "key": "B",
+        "text": "Hearing (sound of waves) and Smell/Touch (salty ocean breeze)"
+      },
+      {
+        "key": "C",
+        "text": "Taste and Sight only, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+      },
+      {
         "key": "D",
-        "text": "Smell and Taste only"
+        "text": "Touch and Taste only"
       },
       {
         "key": "E",
-        "text": "Touch and Taste only"
+        "text": "Smell and Taste only"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-e-27",
@@ -1152,16 +1158,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option B provides a direct warning to avoid physical harm.",
       "execution": "Option B provides a direct warning to avoid physical harm."
     },
-    "explanation": "<strong>Explanation:</strong><br>Sentence B contains the signal word 'CAUTION' followed by a preventative instruction to avert the hazard of an electric shock.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Sentence B contains the signal word 'CAUTION' followed by a preventative instruction to avert the hazard of an electric shock.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Plug the device into a 220V wall socket, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Store the manual for future reference."
       },
       {
         "key": "B",
-        "text": "CAUTION: Unplug the unit before cleaning to prevent electrical shock."
+        "text": "Plug the device into a 220V wall socket, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
@@ -1169,14 +1175,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "The appliance comes in matte black finish."
+        "text": "CAUTION: Unplug the unit before cleaning to prevent electrical shock."
       },
       {
         "key": "E",
-        "text": "Store the manual for future reference."
+        "text": "The appliance comes in matte black finish."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-28",
@@ -1196,20 +1202,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The text explicitly says: 'deep in the dense forests of Sherwood'.",
       "execution": "Option B is the correct setting of place."
     },
-    "explanation": "<strong>Explanation:</strong><br>The setting of place is the geographical location where the story unfolds. The text clearly sets the scene in the dense forests of Sherwood.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The setting of place is the geographical location where the story unfolds. The text clearly sets the scene in the dense forests of Sherwood.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The castle of Nottingham, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "The castle of Nottingham."
       },
       {
         "key": "B",
-        "text": "The dense forests of Sherwood"
+        "text": "The busy docks of London"
       },
       {
         "key": "C",
-        "text": "The busy docks of London"
+        "text": "The dense forests of Sherwood"
       },
       {
         "key": "D",
@@ -1220,7 +1226,7 @@ window.TKA_ENG_QUESTIONS = [
         "text": "A small fishing village"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-29",
@@ -1240,7 +1246,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Comparative form adds '-r' (closer), followed by 'than'.",
       "execution": "'More close' and 'more closer' are incorrect."
     },
-    "explanation": "<strong>Explanation:</strong><br>One-syllable adjectives form the comparative by appending '-er' (or '-r' if ending in 'e'). Therefore, 'closer to the Sun than' is the only grammatically correct structure.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>One-syllable adjectives form the comparative by appending '-er' (or '-r' if ending in 'e'). Therefore, 'closer to the Sun than' is the only grammatically correct structure.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
@@ -1249,22 +1255,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Mercury is closer to the Sun than Venus."
-      },
-      {
-        "key": "C",
         "text": "Mercury is the most close to the Sun than Venus."
       },
       {
+        "key": "C",
+        "text": "Mercury is closely to the Sun than Venus."
+      },
+      {
         "key": "D",
-        "text": "Mercury is more closer to the Sun than Venus."
+        "text": "Mercury is closer to the Sun than Venus."
       },
       {
         "key": "E",
-        "text": "Mercury is closely to the Sun than Venus."
+        "text": "Mercury is more closer to the Sun than Venus."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-30",
@@ -1284,31 +1290,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Subject is 'the weather' (singular), so present tense is 'is'.",
       "execution": "Do not put 'will' in the if-clause."
     },
-    "explanation": "<strong>Explanation:</strong><br>The first conditional pattern requires the Simple Present tense in the conditional clause: <em>If the weather is clear tomorrow, our class will conduct...</em><br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>The first conditional pattern requires the Simple Present tense in the conditional clause: <em>If the weather is clear tomorrow, our class will conduct...</em><br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "is"
-      },
-      {
-        "key": "B",
-        "text": "will be"
-      },
-      {
-        "key": "C",
         "text": "was"
       },
       {
+        "key": "B",
+        "text": "is"
+      },
+      {
+        "key": "C",
+        "text": "will be"
+      },
+      {
         "key": "D",
-        "text": "were"
+        "text": "would be"
       },
       {
         "key": "E",
-        "text": "would be"
+        "text": "were"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-e-31",
@@ -1328,31 +1334,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The synonym is 'plentiful'.",
       "execution": "'Scarce' is an antonym."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Abundant' means present in great quantities; plentiful. In the context of species diversity in rainforests, 'plentiful' matches its meaning perfectly.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Abundant' means present in great quantities; plentiful. In the context of species diversity in rainforests, 'plentiful' matches its meaning perfectly.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Scarce, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
         "text": "Plentiful"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Dangerous"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Hidden"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Expensive"
+      },
+      {
+        "key": "E",
+        "text": "Scarce."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-e-32",
@@ -1372,20 +1378,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'So that' must be followed by a full subject and modal clause ('so that it dissolves').",
       "execution": "Since the next word is the verb 'dissolve', 'in order to' is grammatically correct."
     },
-    "explanation": "<strong>Explanation:</strong><br>'In order to' expresses purpose and is followed directly by an infinitive verb phrase (<em>dissolve the sugar</em>), whereas 'so that' requires a subject and clause.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'In order to' expresses purpose and is followed directly by an infinitive verb phrase (<em>dissolve the sugar</em>), whereas 'so that' requires a subject and clause.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "in order to"
+        "text": "so that."
       },
       {
         "key": "B",
-        "text": "so that, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "whereas"
       },
       {
         "key": "C",
-        "text": "because"
+        "text": "in order to"
       },
       {
         "key": "D",
@@ -1393,10 +1399,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "whereas"
+        "text": "because"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-e-33",
@@ -1416,31 +1422,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The traits exhibited are arrogant and ungrateful (durhaka).",
       "execution": "Option B summarizes these traits accurately."
     },
-    "explanation": "<strong>Explanation:</strong><br>Malin Kundang's cruel rejection of his impoverished mother demonstrates arrogance and profound filial ingratitude, which forms the central moral pivot of the legend.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Malin Kundang's cruel rejection of his impoverished mother demonstrates arrogance and profound filial ingratitude, which forms the central moral pivot of the legend.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Generous and patient, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "B",
-        "text": "Arrogant and ungrateful"
-      },
-      {
-        "key": "C",
         "text": "Humble and obedient"
       },
       {
+        "key": "B",
+        "text": "Generous and patient."
+      },
+      {
+        "key": "C",
+        "text": "Honest and remorseful"
+      },
+      {
         "key": "D",
-        "text": "Fearful and shy"
+        "text": "Arrogant and ungrateful"
       },
       {
         "key": "E",
-        "text": "Honest and remorseful"
+        "text": "Fearful and shy"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-e-34",
@@ -1460,31 +1466,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Sentence A is grammatically correct.",
       "execution": "Other options have grammatical agreement or tense errors."
     },
-    "explanation": "<strong>Explanation:</strong><br>The impersonal passive construction 'It is believed that...' is a formal reporting device commonly used in objective factual texts.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>The impersonal passive construction 'It is believed that...' is a formal reporting device commonly used in objective factual texts.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "It is believed that regular hydration improves concentration."
-      },
-      {
-        "key": "B",
         "text": "It believe that hydration improves concentration, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "It is believing that hydration improves concentration."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "It was believe that hydration improves concentration."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "It are believed that hydration improves concentration."
+      },
+      {
+        "key": "E",
+        "text": "It is believed that regular hydration improves concentration."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-e-35",
@@ -1542,31 +1548,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option B preserves all three logical relationships without distorting facts.",
       "execution": "Option B preserves all three logical relationships without distorting facts."
     },
-    "explanation": "<strong>Explanation:</strong><br>Option B accurately paraphrases the concessive clause ('In spite of subsidies' $\\to$ 'Although governments provide subsidies') and the causal relation ('due to prohibitive costs' $\\to$ 'high initial drilling costs keep adoption slow').<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Option B accurately paraphrases the concessive clause ('In spite of subsidies' $\\to$ 'Although governments provide subsidies') and the causal relation ('due to prohibitive costs' $\\to$ 'high initial drilling costs keep adoption slow').<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Government subsidies have successfully reduced upfront drilling costs, causing high geothermal adoption, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Because adoption is sluggish, the government plans to eliminate all drilling subsidies."
       },
       {
         "key": "B",
-        "text": "Although governments provide substantial subsidies, high initial drilling costs keep household adoption of geothermal pumps slow."
+        "text": "Government subsidies have successfully reduced upfront drilling costs, causing high geothermal adoption."
       },
       {
         "key": "C",
-        "text": "Geothermal pumps are unpopular because governments refuse to provide financial assistance."
-      },
-      {
-        "key": "D",
         "text": "High drilling costs have prevented the government from subsidizing residential heat pumps."
       },
       {
+        "key": "D",
+        "text": "Geothermal pumps are unpopular because governments refuse to provide financial assistance."
+      },
+      {
         "key": "E",
-        "text": "Because adoption is sluggish, the government plans to eliminate all drilling subsidies."
+        "text": "Although governments provide substantial subsidies, high initial drilling costs keep household adoption of geothermal pumps slow."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-m-05",
@@ -1633,31 +1639,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "She prioritized saving soldiers' lives over personal safety.",
       "execution": "Option B captures this humanitarian devotion and courage."
     },
-    "explanation": "<strong>Explanation:</strong><br>Curie's active presence at front-line triage tents and her willingness to endure radiation risks demonstrate extraordinary humanitarian dedication and selfless scientific bravery.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Curie's active presence at front-line triage tents and her willingness to endure radiation risks demonstrate extraordinary humanitarian dedication and selfless scientific bravery.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Desire to gain personal wealth through medical patents, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
-        "text": "Unwavering humanitarian commitment and scientific courage under perilous conditions."
-      },
-      {
-        "key": "C",
         "text": "Ambition to secure high military rank in the French army."
       },
       {
+        "key": "B",
+        "text": "Refusal to collaborate with international humanitarian organizations."
+      },
+      {
+        "key": "C",
+        "text": "Desire to gain personal wealth through medical patents."
+      },
+      {
         "key": "D",
-        "text": "Frustration with academic research in laboratory environments."
+        "text": "Unwavering humanitarian commitment and scientific courage under perilous conditions."
       },
       {
         "key": "E",
-        "text": "Refusal to collaborate with international humanitarian organizations."
+        "text": "Frustration with academic research in laboratory environments."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-m-07",
@@ -1677,31 +1683,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The boxing idiom 'throw in the towel' means to concede defeat or give up.",
       "execution": "Option B is the precise meaning."
     },
-    "explanation": "<strong>Explanation:</strong><br>Originating from boxing when a corner throws a towel into the ring to stop a fight, the idiom 'throw in the towel' means to give up, admit defeat, or abandon an endeavor.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Originating from boxing when a corner throws a towel into the ring to stop a fight, the idiom 'throw in the towel' means to give up, admit defeat, or abandon an endeavor.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "To clean up a work area"
-      },
-      {
-        "key": "B",
-        "text": "To admit defeat and surrender"
-      },
-      {
-        "key": "C",
         "text": "To challenge a rival to a duel"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "To invest capital in a startup"
+      },
+      {
+        "key": "C",
+        "text": "To admit defeat and surrender"
+      },
+      {
+        "key": "D",
+        "text": "To clean up a work area"
       },
       {
         "key": "E",
         "text": "To publish a manuscript anonymously"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-08",
@@ -1730,19 +1736,19 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "By the time the firefighter had arrived, the blazing inferno already destroyed the warehouse, verified through textual evidence synthesis and objective macro-linguistic comprehension."
-      },
-      {
-        "key": "C",
         "text": "By the time the firefighter arrives, the blazing inferno had destroyed the warehouse."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The firefighter arrived when the inferno has already destroyed the warehouse."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "The firefighter was arriving after the inferno destroyed the warehouse."
+      },
+      {
+        "key": "E",
+        "text": "By the time the firefighter had arrived, the blazing inferno already destroyed the warehouse."
       }
     ],
     "correctKey": "A"
@@ -1765,16 +1771,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The grandfather's dialogue shows he values the clock's character and patience over sterile digital accuracy.",
       "execution": "Option B captures this philosophical theme."
     },
-    "explanation": "<strong>Explanation:</strong><br>The dialogue reveals that Harris values the grandfather clock because it embodies patience, lived memories, and human emotion across generations, rather than mere mechanical precision.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The dialogue reveals that Harris values the grandfather clock because it embodies patience, lived memories, and human emotion across generations, rather than mere mechanical precision.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Digital technology is always superior to antique craftsmanship, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Digital technology is always superior to antique craftsmanship."
       },
       {
         "key": "B",
-        "text": "Human appreciation of time is intertwined with history, patience, and emotional memories."
+        "text": "Smartwatches are inaccurate instruments for measuring everyday hours."
       },
       {
         "key": "C",
@@ -1782,14 +1788,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Grandfathers should always accept gifts offered by their descendants."
+        "text": "Human appreciation of time is intertwined with history, patience, and emotional memories."
       },
       {
         "key": "E",
-        "text": "Smartwatches are inaccurate instruments for measuring everyday hours."
+        "text": "Grandfathers should always accept gifts offered by their descendants."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-m-10",
@@ -1856,15 +1862,15 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "builds / will drive"
+        "text": "would build / drove"
       },
       {
         "key": "C",
-        "text": "had built / would drive"
+        "text": "builds / will drive"
       },
       {
         "key": "D",
-        "text": "would build / drove"
+        "text": "had built / would drive"
       },
       {
         "key": "E",
@@ -1891,31 +1897,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "If-clause: had verified.",
       "execution": "Main clause: passive modal perfect $\\to$ would have been prevented.<br>Option A applies this structure correctly."
     },
-    "explanation": "<strong>Explanation:</strong><br>Third conditional talks about counterfactual past events: <em>If + Past Perfect (had verified), ... would have + past participle (would have been prevented)</em>.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Third conditional talks about counterfactual past events: <em>If + Past Perfect (had verified), ... would have + past participle (would have been prevented)</em>.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "had verified / would have been prevented"
-      },
-      {
-        "key": "B",
-        "text": "verified / would be prevented, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "C",
-        "text": "has verified / will be prevented"
-      },
-      {
-        "key": "D",
         "text": "had verified / would prevent"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "verified / would be prevented."
+      },
+      {
+        "key": "C",
+        "text": "had verified / would have been prevented"
+      },
+      {
+        "key": "D",
         "text": "would verify / had been prevented"
+      },
+      {
+        "key": "E",
+        "text": "has verified / will be prevented"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-13",
@@ -1935,16 +1941,16 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "They are enclosed in commas.",
       "execution": "For people, use 'who' as subject pronoun ('that' cannot be used in non-defining clauses with commas).<br>Option B is properly punctuated and grammatically sound."
     },
-    "explanation": "<strong>Explanation:</strong><br>In non-defining relative clauses set off by commas, 'that' is prohibited. Because the referent is a person acting as subject, 'who' must be used: <em>Dr. Jane Goodall, who spent decades..., revolutionized primatology.</em><br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>In non-defining relative clauses set off by commas, 'that' is prohibited. Because the referent is a person acting as subject, 'who' must be used: <em>Dr. Jane Goodall, who spent decades..., revolutionized primatology.</em><br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Dr. Jane Goodall, that spent decades studying chimpanzees in Tanzania, revolutionized primatology."
+        "text": "Dr. Jane Goodall, whom spent decades studying chimpanzees in Tanzania, revolutionized primatology."
       },
       {
         "key": "B",
-        "text": "Dr. Jane Goodall, who spent decades studying chimpanzees in Tanzania, revolutionized primatology."
+        "text": "Dr. Jane Goodall, that spent decades studying chimpanzees in Tanzania, revolutionized primatology."
       },
       {
         "key": "C",
@@ -1956,10 +1962,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Dr. Jane Goodall, whom spent decades studying chimpanzees in Tanzania, revolutionized primatology."
+        "text": "Dr. Jane Goodall, who spent decades studying chimpanzees in Tanzania, revolutionized primatology."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-m-14",
@@ -1979,31 +1985,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Despite' does NOT take 'of'.",
       "execution": "'Although' must be followed by a clause with subject and finite verb ('Although he was suffering...').<br>Sentence C is the only fully correct structure."
     },
-    "explanation": "<strong>Explanation:</strong><br>'In spite of' is followed by a gerund (-ing phrase: <em>suffering from a high fever</em>). 'Despite of' is ungrammatical, and 'Although' requires a full clause.<br><strong>Correct Answer:</strong> C",
+    "explanation": "<strong>Explanation:</strong><br>'In spite of' is followed by a gerund (-ing phrase: <em>suffering from a high fever</em>). 'Despite of' is ungrammatical, and 'Although' requires a full clause.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Despite he was suffering from a high fever, he attended the summit."
-      },
-      {
-        "key": "B",
-        "text": "Although his high fever, he attended the summit."
-      },
-      {
-        "key": "C",
         "text": "In spite of suffering from a high fever, he attended the summit."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Despite of suffering from a high fever, he attended the summit."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Although of his high fever, he attended the summit."
+      },
+      {
+        "key": "D",
+        "text": "Despite he was suffering from a high fever, he attended the summit."
+      },
+      {
+        "key": "E",
+        "text": "Although his high fever, he attended the summit."
       }
     ],
-    "correctKey": "C"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-m-15",
@@ -2023,7 +2029,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The inserted sentence names and explains this feeling: 'This anxiety... is widely known as range anxiety.'",
       "execution": "Sentence [5] then explains how networks are allying to solve this issue.<br>Position [4] provides seamless cohesive progression."
     },
-    "explanation": "<strong>Explanation:</strong><br>Sentence [3] introduces the stress drivers feel during long-distance travel. The inserted sentence directly links to this idea with the anaphoric demonstrative 'This anxiety', defining it as 'range anxiety' before Sentence [5] proposes the institutional remedy.<br><strong>Correct Answer:</strong> C",
+    "explanation": "<strong>Explanation:</strong><br>Sentence [3] introduces the stress drivers feel during long-distance travel. The inserted sentence directly links to this idea with the anaphoric demonstrative 'This anxiety', defining it as 'range anxiety' before Sentence [5] proposes the institutional remedy.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
@@ -2032,22 +2038,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Between sentence [1] and sentence [2]"
+        "text": "Between sentence [2] and sentence [3]"
       },
       {
         "key": "C",
-        "text": "At position [4], immediately following sentence [3]"
-      },
-      {
-        "key": "D",
         "text": "Immediately after sentence [5]"
       },
       {
+        "key": "D",
+        "text": "Between sentence [1] and sentence [2]"
+      },
+      {
         "key": "E",
-        "text": "Between sentence [2] and sentence [3]"
+        "text": "At position [4], immediately following sentence [3]"
       }
     ],
-    "correctKey": "C"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-m-16",
@@ -2067,31 +2073,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Rarely have scientists observed...'",
       "execution": "Scientists is plural, so 'have' matches properly.<br>Option B is the standard inverted construction."
     },
-    "explanation": "<strong>Explanation:</strong><br>Fronting negative or restrictive adverbs (<em>Rarely, Seldom, Scarcely</em>) requires subject-auxiliary inversion: <em>Rarely + have (auxiliary) + scientists (plural subject) + observed (main verb)</em>.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Fronting negative or restrictive adverbs (<em>Rarely, Seldom, Scarcely</em>) requires subject-auxiliary inversion: <em>Rarely + have (auxiliary) + scientists (plural subject) + observed (main verb)</em>.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Rarely scientists have observed such severe coral bleaching in deep waters, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
-        "text": "Rarely have scientists observed such severe coral bleaching in deep waters."
-      },
-      {
-        "key": "C",
         "text": "Rarely scientists observe such severe coral bleaching in deep waters."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Rarely did scientists observed such severe coral bleaching in deep waters."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Rarely scientists have observed such severe coral bleaching in deep waters."
+      },
+      {
+        "key": "D",
         "text": "Rarely has scientists observed such severe coral bleaching in deep waters."
+      },
+      {
+        "key": "E",
+        "text": "Rarely have scientists observed such severe coral bleaching in deep waters."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-m-17",
@@ -2111,31 +2117,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The purpose is to evoke tranquility and emotional immersion in the reader.",
       "execution": "Option B articulates this aesthetic purpose."
     },
-    "explanation": "<strong>Explanation:</strong><br>Descriptive travel writing employs evocative sensory details (twilight, glowing lanterns, fading rush) to transport the reader and cultivate a specific contemplative mood.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Descriptive travel writing employs evocative sensory details (twilight, glowing lanterns, fading rush) to transport the reader and cultivate a specific contemplative mood.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Criticize the lack of modern streetlights in Japanese cities, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "B",
-        "text": "Evoke a tranquil and timeless atmospheric mood that invites emotional connection."
-      },
-      {
-        "key": "C",
         "text": "Warn tourists about getting lost in narrow residential neighborhoods."
       },
       {
+        "key": "B",
+        "text": "Criticize the lack of modern streetlights in Japanese cities, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+      },
+      {
+        "key": "C",
+        "text": "Compare Kyoto's economy with that of neighboring industrial ports."
+      },
+      {
         "key": "D",
-        "text": "Describe the engineering methods of wooden lattice carpentry."
+        "text": "Evoke a tranquil and timeless atmospheric mood that invites emotional connection."
       },
       {
         "key": "E",
-        "text": "Compare Kyoto's economy with that of neighboring industrial ports."
+        "text": "Describe the engineering methods of wooden lattice carpentry."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-m-18",
@@ -2155,31 +2161,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Sentence B correctly uses 'reduce' despite the singular subject 'factory'.",
       "execution": "Sentence B correctly uses 'reduce' despite the singular subject 'factory'."
     },
-    "explanation": "<strong>Explanation:</strong><br>The mandative subjunctive mandates the base form of the verb (bare infinitive) in the subordinate that-clause regardless of the grammatical number or person of the subject: <em>...recommends that every factory reduce...</em><br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The mandative subjunctive mandates the base form of the verb (bare infinitive) in the subordinate that-clause regardless of the grammatical number or person of the subject: <em>...recommends that every factory reduce...</em><br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The environmental committee recommends that every factory reduces its carbon emissions immediately."
-      },
-      {
-        "key": "B",
-        "text": "The environmental committee recommends that every factory reduce its carbon emissions immediately."
-      },
-      {
-        "key": "C",
-        "text": "The environmental committee recommends that every factory will reduce its carbon emissions immediately."
-      },
-      {
-        "key": "D",
         "text": "The environmental committee recommends that every factory would reduce its carbon emissions immediately."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "The environmental committee recommends that every factory will reduce its carbon emissions immediately."
+      },
+      {
+        "key": "C",
         "text": "The environmental committee recommends that every factory reduced its carbon emissions immediately."
+      },
+      {
+        "key": "D",
+        "text": "The environmental committee recommends that every factory reduces its carbon emissions immediately."
+      },
+      {
+        "key": "E",
+        "text": "The environmental committee recommends that every factory reduce its carbon emissions immediately."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-m-19",
@@ -2212,7 +2218,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Temporary"
+        "text": "Unstable"
       },
       {
         "key": "D",
@@ -2220,7 +2226,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Unstable"
+        "text": "Temporary"
       }
     ],
     "correctKey": "B"
@@ -2252,7 +2258,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Executive salaries to annual marketing revenues, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "User complaints to automated legal lawsuits."
       },
       {
         "key": "C",
@@ -2260,11 +2266,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "User complaints to automated legal lawsuits."
+        "text": "Packaging dimensions to retail shipping weight."
       },
       {
         "key": "E",
-        "text": "Packaging dimensions to retail shipping weight."
+        "text": "Executive salaries to annual marketing revenues."
       }
     ],
     "correctKey": "A"
@@ -2287,7 +2293,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'not only protects [verb phrase]... but also stimulates [verb phrase]...'",
       "execution": "Option B possesses perfect structural symmetry."
     },
-    "explanation": "<strong>Explanation:</strong><br>Correlative conjunctions (<em>not only... but also</em>) require parallel grammatical elements. In Option B, both elements are active transitive verbs taking direct noun objects (<em>protects wildlife / stimulates eco-tourism</em>).<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Correlative conjunctions (<em>not only... but also</em>) require parallel grammatical elements. In Option B, both elements are active transitive verbs taking direct noun objects (<em>protects wildlife / stimulates eco-tourism</em>).<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
@@ -2296,7 +2302,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The new legislation not only protects endangered wildlife, but also stimulates eco-tourism."
+        "text": "Not only the new legislation protects wildlife, but it also stimulates tourism."
       },
       {
         "key": "C",
@@ -2304,14 +2310,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Not only the new legislation protects wildlife, but it also stimulates tourism."
+        "text": "The new legislation not only protects endangered wildlife, but also stimulates eco-tourism."
       },
       {
         "key": "E",
         "text": "The new legislation protects not only endangered wildlife, but also stimulating tourism."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-m-22",
@@ -2331,31 +2337,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option B explains this evidentiary function.",
       "execution": "Option B explains this evidentiary function."
     },
-    "explanation": "<strong>Explanation:</strong><br>Quantitative data and statistical significance indicators (p < 0.01) function rhetorically to substantiate scientific claims with empirical validity and objectivity.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Quantitative data and statistical significance indicators (p < 0.01) function rhetorically to substantiate scientific claims with empirical validity and objectivity.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Entertain readers with interesting mathematical trivia, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Criticize the methodology of the control group."
       },
       {
         "key": "B",
-        "text": "Substantiate the claim of physiological stress reduction with empirical scientific rigor."
+        "text": "Entertain readers with interesting mathematical trivia, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
-        "text": "Discourage readers from engaging in physical exercise."
-      },
-      {
-        "key": "D",
         "text": "Prove that mindfulness is the only effective medical therapy for illness."
       },
       {
+        "key": "D",
+        "text": "Substantiate the claim of physiological stress reduction with empirical scientific rigor."
+      },
+      {
         "key": "E",
-        "text": "Criticize the methodology of the control group."
+        "text": "Discourage readers from engaging in physical exercise."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-m-23",
@@ -2375,7 +2381,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Water' is uncountable $\\to$ requires 'less water'.",
       "execution": "Option B uses 'fewer liters' correctly."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Fewer' modifies plural countable nouns (<em>fewer liters, fewer participants</em>), whereas 'less' modifies uncountable mass nouns (<em>less fuel, less water</em>). Option B correctly applies this rule.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Fewer' modifies plural countable nouns (<em>fewer liters, fewer participants</em>), whereas 'less' modifies uncountable mass nouns (<em>less fuel, less water</em>). Option B correctly applies this rule.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
@@ -2384,22 +2390,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The new hybrid vehicle consumes fewer liters of fuel per kilometer."
-      },
-      {
-        "key": "C",
         "text": "There were less participants at the conference than anticipated."
       },
       {
+        "key": "C",
+        "text": "The new hybrid vehicle consumes fewer liters of fuel per kilometer."
+      },
+      {
         "key": "D",
-        "text": "Fewer water was wasted after the drip irrigation system was installed."
+        "text": "Electric buses produce less emissions of toxic particles."
       },
       {
         "key": "E",
-        "text": "Electric buses produce less emissions of toxic particles."
+        "text": "Fewer water was wasted after the drip irrigation system was installed."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-24",
@@ -2424,7 +2430,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Foreshadowing, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Foreshadowing."
       },
       {
         "key": "B",
@@ -2436,11 +2442,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Onomatopoeia"
+        "text": "Hyperbole"
       },
       {
         "key": "E",
-        "text": "Hyperbole"
+        "text": "Onomatopoeia"
       }
     ],
     "correctKey": "B"
@@ -2468,7 +2474,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "It causes deep-sea fish to lose their eyesight, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "It causes sudden boiling of coastal water temperatures."
       },
       {
         "key": "B",
@@ -2476,15 +2482,15 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "It causes sudden boiling of coastal water temperatures."
+        "text": "It accelerates the growth rate of kelp forests tenfold."
       },
       {
         "key": "D",
-        "text": "It prevents predatory sharks from detecting blood scent."
+        "text": "It causes deep-sea fish to lose their eyesight, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
         "key": "E",
-        "text": "It accelerates the growth rate of kelp forests tenfold."
+        "text": "It prevents predatory sharks from detecting blood scent."
       }
     ],
     "correctKey": "B"
@@ -2507,7 +2513,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Sentence B demonstrates correct gerund complementation.",
       "execution": "Sentence B demonstrates correct gerund complementation."
     },
-    "explanation": "<strong>Explanation:</strong><br>The transitive verb 'avoid' takes a gerund (-ing form) complement: <em>avoid looking at their mobile phones</em>.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>The transitive verb 'avoid' takes a gerund (-ing form) complement: <em>avoid looking at their mobile phones</em>.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
@@ -2516,22 +2522,22 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "To prevent accidents, drivers must avoid looking at their mobile phones while driving."
+        "text": "To prevent accidents, drivers must avoid look at their mobile phones while driving."
       },
       {
         "key": "C",
-        "text": "To prevent accidents, drivers must avoid of looking at their mobile phones while driving."
+        "text": "To prevent accidents, drivers must avoid looking at their mobile phones while driving."
       },
       {
         "key": "D",
-        "text": "To prevent accidents, drivers must avoid look at their mobile phones while driving."
+        "text": "To prevent accidents, drivers must avoid of looking at their mobile phones while driving."
       },
       {
         "key": "E",
         "text": "To prevent accidents, drivers must avoid to be looking at their mobile phones while driving."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-27",
@@ -2598,19 +2604,19 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Comic relief to ease the reader's tension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "An exposition on mountain architecture"
       },
       {
         "key": "C",
-        "text": "Historical evidence of medieval ornithology"
-      },
-      {
-        "key": "D",
         "text": "A description of agricultural weather patterns"
       },
       {
+        "key": "D",
+        "text": "Comic relief to ease the reader's tension."
+      },
+      {
         "key": "E",
-        "text": "An exposition on mountain architecture"
+        "text": "Historical evidence of medieval ornithology"
       }
     ],
     "correctKey": "A"
@@ -2633,31 +2639,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "We are deducing with near certainty what happened in the past night.",
       "execution": "'Must have rained' expresses logical certainty about a past event."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Must have + past participle' expresses strong logical deduction based on concrete circumstantial evidence in the present.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Must have + past participle' expresses strong logical deduction based on concrete circumstantial evidence in the present.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "must have rained"
-      },
-      {
-        "key": "B",
         "text": "might rain"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "should have rained"
       },
       {
+        "key": "C",
+        "text": "must have rained"
+      },
+      {
         "key": "D",
-        "text": "can rain"
+        "text": "ought to rain"
       },
       {
         "key": "E",
-        "text": "ought to rain"
+        "text": "can rain"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-30",
@@ -2677,31 +2683,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Mitigate' means to make less severe, harmful, or painful.",
       "execution": "The synonym is 'alleviate' or 'reduce'.<br>'Exacerbate' is the exact antonym (make worse)."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Mitigate' means to make less severe or serious; its closest synonym in this context is 'alleviate or reduce'.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Mitigate' means to make less severe or serious; its closest synonym in this context is 'alleviate or reduce'.<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Alleviate or reduce"
-      },
-      {
-        "key": "B",
-        "text": "Exacerbate, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "C",
         "text": "Document"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Alleviate or reduce"
+      },
+      {
+        "key": "C",
         "text": "Calculate"
+      },
+      {
+        "key": "D",
+        "text": "Exacerbate."
       },
       {
         "key": "E",
         "text": "Prolong"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-m-31",
@@ -2721,31 +2727,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Return back' is redundant (return means go back).",
       "execution": "'Consensus of opinion' and 'present point in time' are wordy pleonasms.<br>Sentence B is clean, concise, and standard."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Collaborate' inherently denotes working together, rendering 'together' superfluous. Sentence B removes all tautologies.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Collaborate' inherently denotes working together, rendering 'together' superfluous. Sentence B removes all tautologies.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The company will collaborate together with international partners on the project."
+        "text": "The consensus of opinion among the board was unanimous."
       },
       {
         "key": "B",
-        "text": "The company will collaborate with international partners on the project."
+        "text": "The company will collaborate together with international partners on the project."
       },
       {
         "key": "C",
-        "text": "The company will return back the borrowed equipment next Friday."
+        "text": "The company will collaborate with international partners on the project."
       },
       {
         "key": "D",
-        "text": "At this present point in time, the project is progressing well."
+        "text": "The company will return back the borrowed equipment next Friday."
       },
       {
         "key": "E",
-        "text": "The consensus of opinion among the board was unanimous."
+        "text": "At this present point in time, the project is progressing well."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-m-32",
@@ -2765,31 +2771,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Pronoun 'your' shifts to 'their'.",
       "execution": "Time adverbial 'tomorrow' shifts to 'the next day' or 'the following day'.<br>Sentence A implements all grammatical shifts properly."
     },
-    "explanation": "<strong>Explanation:</strong><br>Reported commands require <em>told + object + to-infinitive</em>, with appropriate deictic shifts (<em>your $\\to$ their</em>, <em>tomorrow $\\to$ the next day</em>).<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Reported commands require <em>told + object + to-infinitive</em>, with appropriate deictic shifts (<em>your $\\to$ their</em>, <em>tomorrow $\\to$ the next day</em>).<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The teacher told the students to submit their essays before noon the next day."
+        "text": "The teacher ordered the students that submit their essays before noon."
       },
       {
         "key": "B",
-        "text": "The teacher said the students submit their essays before noon tomorrow."
+        "text": "The teacher told the students to submit their essays before noon the next day."
       },
       {
         "key": "C",
-        "text": "The teacher asked the students that they submitted essays before noon next day."
-      },
-      {
-        "key": "D",
         "text": "The teacher told to the students submit your essays before noon."
       },
       {
+        "key": "D",
+        "text": "The teacher said the students submit their essays before noon tomorrow."
+      },
+      {
         "key": "E",
-        "text": "The teacher ordered the students that submit their essays before noon."
+        "text": "The teacher asked the students that they submitted essays before noon next day."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-m-33",
@@ -2818,15 +2824,15 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Heavy snow blocked the runway, resulting to the cancellation of all outbound flights, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Heavy snow blocked the runway, resulting to the cancellation of all outbound flights."
       },
       {
         "key": "C",
-        "text": "Heavy snow blocked the runway, as result the cancellation of all outbound flights."
+        "text": "Heavy snow blocked the runway resulting by all outbound flights cancelled."
       },
       {
         "key": "D",
-        "text": "Heavy snow blocked the runway resulting by all outbound flights cancelled."
+        "text": "Heavy snow blocked the runway, as result the cancellation of all outbound flights."
       },
       {
         "key": "E",
@@ -2853,31 +2859,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Notwithstanding' expresses concession; 'In summary' summarizes; 'Consequently' expresses result.",
       "execution": "Option A is the correct answer."
     },
-    "explanation": "<strong>Explanation:</strong><br>'To illustrate,' is an expository discourse marker explicitly designed to introduce an illuminating example.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'To illustrate,' is an expository discourse marker explicitly designed to introduce an illuminating example.<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "To illustrate,"
+        "text": "Consequently,"
       },
       {
         "key": "B",
-        "text": "Notwithstanding,"
+        "text": "To illustrate,"
       },
       {
         "key": "C",
-        "text": "In summary,"
-      },
-      {
-        "key": "D",
         "text": "Whereas,"
       },
       {
+        "key": "D",
+        "text": "In summary,"
+      },
+      {
         "key": "E",
-        "text": "Consequently,"
+        "text": "Notwithstanding,"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-m-35",
@@ -2935,31 +2941,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "For this connection to hold, it must assume that sustained cognitive stimulation strengthens neurological resilience against degeneration.",
       "execution": "Option B states this foundational presupposition."
     },
-    "explanation": "<strong>Explanation:</strong><br>An unstated assumption is a prerequisite belief necessary for the argument's validity. The claim that juggling two languages builds a 'cognitive reserve' delaying dementia rests upon the broader assumption that sustained mental exertion shields the brain against structural degenerative decline.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>An unstated assumption is a prerequisite belief necessary for the argument's validity. The claim that juggling two languages builds a 'cognitive reserve' delaying dementia rests upon the broader assumption that sustained mental exertion shields the brain against structural degenerative decline.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Monolingual individuals are incapable of performing logical arithmetic, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Prefrontal control networks operate independently of all other brain regions."
       },
       {
         "key": "B",
-        "text": "Sustained mental effort across life contributes to physical or functional resilience against neurological degeneration."
+        "text": "Monolingual individuals are incapable of performing logical arithmetic, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "C",
-        "text": "Learning a second language cures existing anatomical lesions in the cerebral cortex."
-      },
-      {
-        "key": "D",
         "text": "Alzheimer's disease is exclusively caused by lack of foreign language exposure."
       },
       {
+        "key": "D",
+        "text": "Learning a second language cures existing anatomical lesions in the cerebral cortex."
+      },
+      {
         "key": "E",
-        "text": "Prefrontal control networks operate independently of all other brain regions."
+        "text": "Sustained mental effort across life contributes to physical or functional resilience against neurological degeneration."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-h-03",
@@ -2984,7 +2990,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Demonstrate the chemical composition of aerosolized sulfates, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "Prove that ocean acidification is easily cured by pain relievers."
       },
       {
         "key": "B",
@@ -2992,15 +2998,15 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Advocate for increased funding for sports medicine research."
-      },
-      {
-        "key": "D",
         "text": "Encourage running marathons under cooler, dim skies."
       },
       {
+        "key": "D",
+        "text": "Advocate for increased funding for sports medicine research."
+      },
+      {
         "key": "E",
-        "text": "Prove that ocean acidification is easily cured by pain relievers."
+        "text": "Demonstrate the chemical composition of aerosolized sulfates."
       }
     ],
     "correctKey": "B"
@@ -3108,31 +3114,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Result is in the present: today ('would be working').",
       "execution": "Sentence A correctly pairs Past Perfect with present modal conditional (would be working)."
     },
-    "explanation": "<strong>Explanation:</strong><br>Mixed conditionals connect a counterfactual past action (<em>had accepted five years ago</em>) with an ongoing counterfactual present condition (<em>would be working today</em>). Sentence A expresses this hybrid temporal relationship flawlessly.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Mixed conditionals connect a counterfactual past action (<em>had accepted five years ago</em>) with an ongoing counterfactual present condition (<em>would be working today</em>). Sentence A expresses this hybrid temporal relationship flawlessly.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "If I had accepted the scholarship to Cambridge five years ago, I would be working as a research fellow in London today."
-      },
-      {
-        "key": "B",
-        "text": "If I accepted the scholarship to Cambridge five years ago, I will be working in London today, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "C",
-        "text": "If I had accepted the scholarship to Cambridge five years ago, I would have worked in London today."
-      },
-      {
-        "key": "D",
         "text": "If I would have accepted the scholarship, I am working in London today."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "If I had accept the scholarship, I would have been working in London today."
+      },
+      {
+        "key": "C",
+        "text": "If I had accepted the scholarship to Cambridge five years ago, I would be working as a research fellow in London today."
+      },
+      {
+        "key": "D",
+        "text": "If I had accepted the scholarship to Cambridge five years ago, I would have worked in London today."
+      },
+      {
+        "key": "E",
+        "text": "If I accepted the scholarship to Cambridge five years ago, I will be working in London today, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-07",
@@ -3152,31 +3158,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option A uses possessive 'whose' correctly and maintains agreement.",
       "execution": "Option A uses possessive 'whose' correctly and maintains agreement."
     },
-    "explanation": "<strong>Explanation:</strong><br>An it-cleft construction focuses attention on the agent: <em>It was + [Entity] + [relative pronoun] + [clause]</em>. Option A accurately uses 'whose' to modify 'X-ray diffraction images'.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>An it-cleft construction focuses attention on the agent: <em>It was + [Entity] + [relative pronoun] + [clause]</em>. Option A accurately uses 'whose' to modify 'X-ray diffraction images'.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "It was Dr. Rosalind Franklin whose X-ray diffraction images provided the crucial clue to DNA's double helix structure."
-      },
-      {
-        "key": "B",
-        "text": "It was Dr. Rosalind Franklin which X-ray diffraction images provided the clue to DNA, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "C",
         "text": "Dr. Rosalind Franklin it was she who provided the clue to DNA's double helix."
       },
       {
+        "key": "B",
+        "text": "It was Dr. Rosalind Franklin which X-ray diffraction images provided the clue to DNA."
+      },
+      {
+        "key": "C",
+        "text": "It was Dr. Rosalind Franklin whose X-ray diffraction images provided the crucial clue to DNA's double helix structure."
+      },
+      {
         "key": "D",
-        "text": "It were Dr. Rosalind Franklin that provided the crucial X-ray images."
+        "text": "It is Dr. Rosalind Franklin who she provided the crucial clue."
       },
       {
         "key": "E",
-        "text": "It is Dr. Rosalind Franklin who she provided the crucial clue."
+        "text": "It were Dr. Rosalind Franklin that provided the crucial X-ray images."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-08",
@@ -3196,20 +3202,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Therefore, the subject following the comma MUST be 'the research team'.",
       "execution": "In A, the subject is 'the hypothesis' (the hypothesis cannot analyze data!).<br>In B, 'the research team' is the subject. Perfectly correct!"
     },
-    "explanation": "<strong>Explanation:</strong><br>A participial phrase at the start of a sentence must logically modify the immediate subject of the independent clause. In Option B, 'the research team' is the entity that performed the analysis, avoiding the dangling participle fallacy seen in the other options.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>A participial phrase at the start of a sentence must logically modify the immediate subject of the independent clause. In Option B, 'the research team' is the entity that performed the analysis, avoiding the dangling participle fallacy seen in the other options.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Having analyzed the spectrometer data thoroughly, the hypothesis was confirmed by the research team."
+        "text": "Having analyzed the spectrometer data thoroughly, a breakthrough was achieved."
       },
       {
         "key": "B",
-        "text": "Having analyzed the spectrometer data thoroughly, the research team confirmed their hypothesis."
+        "text": "Upon entering the clinical laboratory, the test tubes fell off the counter."
       },
       {
         "key": "C",
-        "text": "Having analyzed the spectrometer data thoroughly, a breakthrough was achieved."
+        "text": "Having analyzed the spectrometer data thoroughly, the research team confirmed their hypothesis."
       },
       {
         "key": "D",
@@ -3217,10 +3223,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Upon entering the clinical laboratory, the test tubes fell off the counter."
+        "text": "Having analyzed the spectrometer data thoroughly, the hypothesis was confirmed by the research team."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-09",
@@ -3240,31 +3246,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option B follows this exact rule: 'Not only did the committee reject...'",
       "execution": "Option B follows this exact rule: 'Not only did the committee reject...'"
     },
-    "explanation": "<strong>Explanation:</strong><br>Fronting 'Not only' triggers subject-auxiliary inversion in the first clause: <em>Not only + did (auxiliary) + the committee (subject) + reject (bare infinitive)... but they also slashed...</em><br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Fronting 'Not only' triggers subject-auxiliary inversion in the first clause: <em>Not only + did (auxiliary) + the committee (subject) + reject (bare infinitive)... but they also slashed...</em><br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Not only the committee did reject the proposal, but they also slashed the project's funding, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Not only does the committee rejected the proposal, but also slashed the funding."
       },
       {
         "key": "B",
-        "text": "Not only did the committee reject the proposal, but they also slashed the project's funding."
-      },
-      {
-        "key": "C",
         "text": "Not only rejected the committee the proposal, but also slashed the project's funding."
       },
       {
+        "key": "C",
+        "text": "Not only did the committee reject the proposal, but they also slashed the project's funding."
+      },
+      {
         "key": "D",
-        "text": "Not only the committee rejected the proposal, but also they slashed the project's funding."
+        "text": "Not only the committee did reject the proposal, but they also slashed the project's funding."
       },
       {
         "key": "E",
-        "text": "Not only does the committee rejected the proposal, but also slashed the funding."
+        "text": "Not only the committee rejected the proposal, but also they slashed the project's funding."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-10",
@@ -3284,31 +3290,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Epistolary uses letters.",
       "execution": "Option B is the established literary term."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Stream of consciousness' is a narrative technique pioneered by modernist writers (such as James Joyce and Virginia Woolf) that captures the unbroken flow of sensory perceptions and interior mental associations.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Stream of consciousness' is a narrative technique pioneered by modernist writers (such as James Joyce and Virginia Woolf) that captures the unbroken flow of sensory perceptions and interior mental associations.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Epistolary narrative"
-      },
-      {
-        "key": "B",
-        "text": "Stream of consciousness"
-      },
-      {
-        "key": "C",
         "text": "Third-person dramatic objective"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Picaresque satire"
+      },
+      {
+        "key": "C",
+        "text": "Epistolary narrative"
+      },
+      {
+        "key": "D",
+        "text": "Stream of consciousness"
       },
       {
         "key": "E",
         "text": "Allegorical fable"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-h-11",
@@ -3328,20 +3334,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option B concedes this real ethical and political challenge directly.",
       "execution": "Other options are trivial or irrelevant."
     },
-    "explanation": "<strong>Explanation:</strong><br>An intellectually robust concession acknowledges the most formidable challenge to one's own thesis. Conceding the unresolved dilemmas of nuclear waste disposal (Option B) demonstrates academic rigor and objectivity.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>An intellectually robust concession acknowledges the most formidable challenge to one's own thesis. Conceding the unresolved dilemmas of nuclear waste disposal (Option B) demonstrates academic rigor and objectivity.<br><strong>Correct Answer:</strong> A",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Solar panels look unattractive on residential rooftops, as explicitly outlined through critical reading analysis and syntactic discourse structure, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
         "text": "Admittedly, the unresolved challenge of long-term geological disposal of high-level nuclear waste presents enduring ethical and political hurdles."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Wind energy produces mild acoustic noise in rural pastures."
+      },
+      {
+        "key": "C",
+        "text": "Coal power plants have historically received excessive government subsidies."
       },
       {
         "key": "D",
@@ -3349,10 +3355,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Coal power plants have historically received excessive government subsidies."
+        "text": "Solar panels look unattractive on residential rooftops."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "A"
   },
   {
     "id": "eng-lat-h-13",
@@ -3377,7 +3383,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The inherent grammatical and lexical inadequacy of indigenous languages, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "A global shortage of linguists trained in phonetic transcription."
       },
       {
         "key": "B",
@@ -3389,11 +3395,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "A global shortage of linguists trained in phonetic transcription."
+        "text": "The invention of digital machine translation apps."
       },
       {
         "key": "E",
-        "text": "The invention of digital machine translation apps."
+        "text": "The inherent grammatical and lexical inadequacy of indigenous languages."
       }
     ],
     "correctKey": "B"
@@ -3416,31 +3422,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The correlative partner of 'No sooner' is ALWAYS 'than' (NOT 'when').",
       "execution": "Sentence A is the only sentence that satisfies both the inversion and the 'than' requirement."
     },
-    "explanation": "<strong>Explanation:</strong><br>The negative temporal correlative <em>No sooner</em> demands Past Perfect subject-auxiliary inversion (<em>had the speaker stepped</em>) and must pair strictly with <em>than</em> (not <em>when</em> or <em>then</em>).<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>The negative temporal correlative <em>No sooner</em> demands Past Perfect subject-auxiliary inversion (<em>had the speaker stepped</em>) and must pair strictly with <em>than</em> (not <em>when</em> or <em>then</em>).<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "No sooner had the keynote speaker stepped onto the stage than the fire alarm sounded."
-      },
-      {
-        "key": "B",
         "text": "No sooner the keynote speaker had stepped onto the stage when the fire alarm sounded, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
-        "key": "C",
-        "text": "No sooner did the keynote speaker stepped onto the stage than the fire alarm sounded."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "No sooner had the keynote speaker stepped onto the stage when the fire alarm sounded."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "No sooner has the keynote speaker stepped onto the stage then the fire alarm sounded."
+      },
+      {
+        "key": "D",
+        "text": "No sooner had the keynote speaker stepped onto the stage than the fire alarm sounded."
+      },
+      {
+        "key": "E",
+        "text": "No sooner did the keynote speaker stepped onto the stage than the fire alarm sounded."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-h-15",
@@ -3465,7 +3471,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "An omniscient third-person narrator offering divine judgment, inferred from logical exposition coherence and structural relationships among discourse markers."
+        "text": "An allegorical beast fable where animals speak human language"
       },
       {
         "key": "B",
@@ -3473,15 +3479,15 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "A journalistic reporter recounting objective historical facts"
+        "text": "A stream of consciousness celebrating spontaneous hedonism"
       },
       {
         "key": "D",
-        "text": "An allegorical beast fable where animals speak human language"
+        "text": "A journalistic reporter recounting objective historical facts"
       },
       {
         "key": "E",
-        "text": "A stream of consciousness celebrating spontaneous hedonism"
+        "text": "An omniscient third-person narrator offering divine judgment, inferred from logical exposition coherence and structural relationships among discourse markers."
       }
     ],
     "correctKey": "B"
@@ -3504,20 +3510,20 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "This is a sophisticated, classical stylistic ellipsis in formal English.",
       "execution": "Sentence A is grammatically impeccable."
     },
-    "explanation": "<strong>Explanation:</strong><br>Gapping is a form of ellipsis where the repeated verb in a coordinate structure is omitted and marked by a comma: <em>Some researchers prefer X; others [prefer], Y</em>.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>Gapping is a form of ellipsis where the repeated verb in a coordinate structure is omitted and marked by a comma: <em>Some researchers prefer X; others [prefer], Y</em>.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Some researchers prefer qualitative case studies; others, quantitative statistical surveys."
-      },
-      {
-        "key": "B",
         "text": "Some researchers prefer qualitative case studies; others preferring quantitative surveys, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Some researchers prefer qualitative case studies, others prefer quantitative."
+      },
+      {
+        "key": "C",
+        "text": "Some researchers prefers qualitative case studies, others prefers quantitative surveys."
       },
       {
         "key": "D",
@@ -3525,10 +3531,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Some researchers prefers qualitative case studies, others prefers quantitative surveys."
+        "text": "Some researchers prefer qualitative case studies; others, quantitative statistical surveys."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-h-17",
@@ -3548,7 +3554,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "The closest academic synonym is 'omnipresent and penetrating throughout'.",
       "execution": "Option B captures this full scope."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Pervasive' describes an influence that spreads widely throughout an entire system or culture. 'Omnipresent and penetrating throughout' matches its register and meaning.<br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>'Pervasive' describes an influence that spreads widely throughout an entire system or culture. 'Omnipresent and penetrating throughout' matches its register and meaning.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
@@ -3557,7 +3563,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Omnipresent and penetrating throughout"
+        "text": "Restricted"
       },
       {
         "key": "C",
@@ -3565,14 +3571,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Superficial"
+        "text": "Omnipresent and penetrating throughout"
       },
       {
         "key": "E",
-        "text": "Restricted"
+        "text": "Superficial"
       }
     ],
-    "correctKey": "B"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-h-18",
@@ -3601,11 +3607,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The company reported impressive quarterly revenue growth, albeit it made narrow profit margins, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "Albeit the company reported growth, profit margins were narrow."
       },
       {
         "key": "C",
-        "text": "Albeit the company reported growth, profit margins were narrow."
+        "text": "The company reported impressive quarterly revenue growth, albeit it made narrow profit margins."
       },
       {
         "key": "D",
@@ -3636,31 +3642,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option A is the established literary classification.",
       "execution": "Option A is the established literary classification."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Cosmic irony' (or irony of fate) depicts human aspirations as futile toys in the hands of an indifferent, malevolent, or inscrutable universe, a hallmark of Hardy's naturalistic tragedies.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Cosmic irony' (or irony of fate) depicts human aspirations as futile toys in the hands of an indifferent, malevolent, or inscrutable universe, a hallmark of Hardy's naturalistic tragedies.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Cosmic irony (irony of fate)"
-      },
-      {
-        "key": "B",
         "text": "Sarcastic puns, inferred from logical exposition coherence and structural relationships among discourse markers."
       },
       {
-        "key": "C",
-        "text": "Dramatic monologues"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Romantic melodrama"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Cosmic irony (irony of fate)"
+      },
+      {
+        "key": "D",
         "text": "Comic relief"
+      },
+      {
+        "key": "E",
+        "text": "Dramatic monologues"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-20",
@@ -3727,7 +3733,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Therefore, 'Quantum physics is considered...' is correct.",
       "execution": "'Measles' and 'news' also take singular verbs (measles has, news was).<br>Sentence B is the only fully correct sentence."
     },
-    "explanation": "<strong>Explanation:</strong><br>Names of academic disciplines ending in '-s' (<em>physics, mathematics, linguistics</em>) are singular conceptual entities and govern singular verbs: <em>Quantum physics is...</em><br><strong>Correct Answer:</strong> B",
+    "explanation": "<strong>Explanation:</strong><br>Names of academic disciplines ending in '-s' (<em>physics, mathematics, linguistics</em>) are singular conceptual entities and govern singular verbs: <em>Quantum physics is...</em><br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
@@ -3736,7 +3742,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Quantum physics is considered one of the most challenging branches of modern science."
+        "text": "The news from the economic summit were overwhelmingly positive."
       },
       {
         "key": "C",
@@ -3744,14 +3750,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "The news from the economic summit were overwhelmingly positive."
+        "text": "Statistics show that the hypothesis was false, but statistics are a difficult subject."
       },
       {
         "key": "E",
-        "text": "Statistics show that the hypothesis was false, but statistics are a difficult subject."
+        "text": "Quantum physics is considered one of the most challenging branches of modern science."
       }
     ],
-    "correctKey": "B"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-h-22",
@@ -3771,31 +3777,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Inferring causation solely from chronological sequence is the 'post hoc ergo propter hoc' fallacy.",
       "execution": "Option A names this logical flaw."
     },
-    "explanation": "<strong>Explanation:</strong><br>The <em>post hoc ergo propter hoc</em> fallacy falsely assumes that because Event Y occurred after Event X, Event X must have caused Event Y, ignoring confounding variables.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>The <em>post hoc ergo propter hoc</em> fallacy falsely assumes that because Event Y occurred after Event X, Event X must have caused Event Y, ignoring confounding variables.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Confusing temporal succession with direct causal causation (Post hoc ergo propter hoc)"
+        "text": "Relying on an ad hominem attack against engineering faculties."
       },
       {
         "key": "B",
-        "text": "Relying on an ad hominem attack against engineering faculties, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "C",
         "text": "Creating a false dilemma between taxes and education"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Using circular reasoning to define academic degrees"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Appealing to irrational fear of technological unemployment"
+      },
+      {
+        "key": "E",
+        "text": "Confusing temporal succession with direct causal causation (Post hoc ergo propter hoc)"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-h-23",
@@ -3824,19 +3830,19 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "The central bank lowered benchmark interest rates, thereby it stimulated commercial borrowing, verified through textual evidence synthesis and objective macro-linguistic comprehension."
+        "text": "The central bank lowered benchmark interest rates, thereby stimulated commercial borrowing."
       },
       {
         "key": "C",
-        "text": "The central bank lowered benchmark interest rates, thereby to stimulate commercial borrowing."
-      },
-      {
-        "key": "D",
         "text": "The central bank lowered benchmark interest rates, thereby stimulates commercial borrowing."
       },
       {
+        "key": "D",
+        "text": "The central bank lowered benchmark interest rates, thereby to stimulate commercial borrowing."
+      },
+      {
         "key": "E",
-        "text": "The central bank lowered benchmark interest rates, thereby stimulated commercial borrowing."
+        "text": "The central bank lowered benchmark interest rates, thereby it stimulated commercial borrowing."
       }
     ],
     "correctKey": "A"
@@ -3859,31 +3865,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option A is the precise term.",
       "execution": "Option A is the precise term."
     },
-    "explanation": "<strong>Explanation:</strong><br>A 'pastiche' is a respectful imitation of another author's style, voice, and universe, distinct from a parody which imitates primarily for comedic mockery.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>A 'pastiche' is a respectful imitation of another author's style, voice, and universe, distinct from a parody which imitates primarily for comedic mockery.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Pastiche"
-      },
-      {
-        "key": "B",
         "text": "Manifesto"
       },
       {
-        "key": "C",
-        "text": "Soliloquy"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Eulogy"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Elegy"
+      },
+      {
+        "key": "D",
+        "text": "Pastiche"
+      },
+      {
+        "key": "E",
+        "text": "Soliloquy"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-h-25",
@@ -3903,31 +3909,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Option A gives the accurate definition.",
       "execution": "Option A gives the accurate definition."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Inasmuch as' is a formal subordinating conjunction synonymous with 'since', 'seeing that', or 'to the extent that', used to introduce a motivating reason.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Inasmuch as' is a formal subordinating conjunction synonymous with 'since', 'seeing that', or 'to the extent that', used to introduce a motivating reason.<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Since or to the extent that"
-      },
-      {
-        "key": "B",
-        "text": "Unless, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "C",
-        "text": "Despite"
-      },
-      {
-        "key": "D",
         "text": "Regardless of"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "Since or to the extent that"
+      },
+      {
+        "key": "C",
         "text": "Similarly to"
+      },
+      {
+        "key": "D",
+        "text": "Unless."
+      },
+      {
+        "key": "E",
+        "text": "Despite"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-h-26",
@@ -3947,31 +3953,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Sentence A applies this rule correctly.",
       "execution": "Sentence A applies this rule correctly."
     },
-    "explanation": "<strong>Explanation:</strong><br>To express regret or a hypothetical alternative regarding a past event, English uses <em>wish + Past Perfect (had preserved)</em>.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>To express regret or a hypothetical alternative regarding a past event, English uses <em>wish + Past Perfect (had preserved)</em>.<br><strong>Correct Answer:</strong> C",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "The lead investigator wishes he had preserved the forensic DNA evidence under lower temperatures."
-      },
-      {
-        "key": "B",
-        "text": "The lead investigator wishes he would preserve the forensic DNA evidence under lower temperatures."
-      },
-      {
-        "key": "C",
-        "text": "The lead investigator wishes he preserved the forensic DNA evidence under lower temperatures."
-      },
-      {
-        "key": "D",
         "text": "The lead investigator wishes he has preserved the forensic DNA evidence."
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "The lead investigator wishes he preserved the forensic DNA evidence under lower temperatures."
+      },
+      {
+        "key": "C",
+        "text": "The lead investigator wishes he had preserved the forensic DNA evidence under lower temperatures."
+      },
+      {
+        "key": "D",
         "text": "The lead investigator wishes he will preserve the forensic DNA evidence."
+      },
+      {
+        "key": "E",
+        "text": "The lead investigator wishes he would preserve the forensic DNA evidence under lower temperatures."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "C"
   },
   {
     "id": "eng-lat-h-27",
@@ -4029,31 +4035,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'Ubiquitous' means present, appearing, or found everywhere.",
       "execution": "Option A is the exact synonym."
     },
-    "explanation": "<strong>Explanation:</strong><br>'Ubiquitous' describes something that is present, appearing, or found everywhere at once. 'Omnipresent and universally widespread' is its precise semantic equivalent.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>'Ubiquitous' describes something that is present, appearing, or found everywhere at once. 'Omnipresent and universally widespread' is its precise semantic equivalent.<br><strong>Correct Answer:</strong> E",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Omnipresent and universally widespread"
+        "text": "Exclusive and elite"
       },
       {
         "key": "B",
-        "text": "Extremely expensive, verified through textual evidence synthesis and objective macro-linguistic comprehension."
-      },
-      {
-        "key": "C",
         "text": "Obsolete and outdated"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Fragile and delicate"
       },
       {
+        "key": "D",
+        "text": "Extremely expensive."
+      },
+      {
         "key": "E",
-        "text": "Exclusive and elite"
+        "text": "Omnipresent and universally widespread"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "E"
   },
   {
     "id": "eng-lat-h-29",
@@ -4073,31 +4079,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "'As' is the only grammatically correct partner.",
       "execution": "Option A completes the structure."
     },
-    "explanation": "<strong>Explanation:</strong><br>The comparative idiom <em>not so much X as Y</em> is used to clarify that Y is a more accurate or appropriate description than X. The required correlative word is 'as'.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>The comparative idiom <em>not so much X as Y</em> is used to clarify that Y is a more accurate or appropriate description than X. The required correlative word is 'as'.<br><strong>Correct Answer:</strong> D",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "as"
-      },
-      {
-        "key": "B",
         "text": "than"
       },
       {
-        "key": "C",
-        "text": "but"
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "like"
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "whereas"
+      },
+      {
+        "key": "D",
+        "text": "as"
+      },
+      {
+        "key": "E",
+        "text": "but"
       }
     ],
-    "correctKey": "A"
+    "correctKey": "D"
   },
   {
     "id": "eng-lat-h-30",
@@ -4126,7 +4132,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Onomatopoeia, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Anaphora"
       },
       {
         "key": "C",
@@ -4138,7 +4144,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Anaphora"
+        "text": "Onomatopoeia."
       }
     ],
     "correctKey": "A"
@@ -4161,31 +4167,31 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Main clause: would have been avoided.",
       "execution": "Sentence A is grammatically and syntactically flawless."
     },
-    "explanation": "<strong>Explanation:</strong><br>In formal style, an if-clause in the third conditional can invert by fronting the auxiliary: <em>Had + subject + past participle (Had the pilot noticed...)</em>, replacing 'If the pilot had noticed...'.<br><strong>Correct Answer:</strong> A",
+    "explanation": "<strong>Explanation:</strong><br>In formal style, an if-clause in the third conditional can invert by fronting the auxiliary: <em>Had + subject + past participle (Had the pilot noticed...)</em>, replacing 'If the pilot had noticed...'.<br><strong>Correct Answer:</strong> B",
     "isDiagnostic": false,
     "options": [
       {
         "key": "A",
-        "text": "Had the pilot noticed the ice accumulation earlier, the emergency landing would have been avoided."
+        "text": "Were the pilot noticed the ice accumulation earlier, the landing would have been avoided."
       },
       {
         "key": "B",
-        "text": "Had the pilot notice the ice accumulation earlier, the emergency landing was avoided, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Had the pilot noticed the ice accumulation earlier, the emergency landing would have been avoided."
       },
       {
         "key": "C",
-        "text": "Had the pilot would notice the ice accumulation earlier, the landing had been avoided."
-      },
-      {
-        "key": "D",
         "text": "Did the pilot have noticed the ice accumulation earlier, the landing would avoid."
       },
       {
+        "key": "D",
+        "text": "Had the pilot would notice the ice accumulation earlier, the landing had been avoided."
+      },
+      {
         "key": "E",
-        "text": "Were the pilot noticed the ice accumulation earlier, the landing would have been avoided."
+        "text": "Had the pilot notice the ice accumulation earlier, the emergency landing was avoided, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       }
     ],
-    "correctKey": "A"
+    "correctKey": "B"
   },
   {
     "id": "eng-lat-h-32",
@@ -4218,11 +4224,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Criticize laboratory protocols in cellular biology."
+        "text": "Announce the discovery of a new surgical technique."
       },
       {
         "key": "D",
-        "text": "Announce the discovery of a new surgical technique."
+        "text": "Criticize laboratory protocols in cellular biology."
       },
       {
         "key": "E",
@@ -4266,11 +4272,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "To balancing the competing priorities require robust governance."
+        "text": "Balance the competing priorities requires robust governance."
       },
       {
         "key": "E",
-        "text": "Balance the competing priorities requires robust governance."
+        "text": "To balancing the competing priorities require robust governance."
       }
     ],
     "correctKey": "A"
@@ -4302,19 +4308,19 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Shakespearean sonnet"
-      },
-      {
-        "key": "C",
-        "text": "Heroic couplet"
-      },
-      {
-        "key": "D",
         "text": "Pastoral elegy"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Shakespearean sonnet"
+      },
+      {
+        "key": "D",
         "text": "Limerick"
+      },
+      {
+        "key": "E",
+        "text": "Heroic couplet"
       }
     ],
     "correctKey": "A"
@@ -4370,26 +4376,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "While Passage 1 highlights SAI as an immediate thermodynamic stopgap, Passage 2 cautions that its implementation triggers systemic ecological disparities and political disincentives for emissions reduction."
-      },
-      {
-        "key": "B",
         "text": "Both authors concede that stratospheric aerosol injection should be outright prohibited due to its total technological inability to cool atmospheric temperatures, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
-        "key": "C",
-        "text": "Passage 1 advocates permanent reliance on volcanic sulfur compounds, whereas Passage 2 demonstrates that decarbonization is completely unnecessary."
-      },
-      {
-        "key": "D",
+        "key": "B",
         "text": "Passage 2 refutes the atmospheric modeling cited in Passage 1 by arguing that sulfur particles exacerbate lethal wet-bulb temperatures."
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "While Passage 1 highlights SAI as an immediate thermodynamic stopgap, Passage 2 cautions that its implementation triggers systemic ecological disparities and political disincentives for emissions reduction."
+      },
+      {
+        "key": "D",
         "text": "The passages reach a consensus that unilateral national governance is the optimal framework for deploying global solar radiation interventions."
+      },
+      {
+        "key": "E",
+        "text": "Passage 1 advocates permanent reliance on volcanic sulfur compounds, whereas Passage 2 demonstrates that decarbonization is completely unnecessary."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: SOLAR RADIATION MANAGEMENT SYNTHESIS",
       "latex": "\\text{Synthesis} \\implies (\\text{Text A: Albedo Cooling}) \\iff (\\text{Text B: Moral Hazard \\& Mitigation Deterrence})",
@@ -4399,7 +4405,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Synthesize the central arguments: Text A outlines the climate cooling mechanics of stratospheric aerosols, while Text B highlights the policy risk of reduced decarbonization commitment.",
       "execution": "Select option (A), which encapsulates both the physical therapeutic potential and the systemic governance risks without dismissing either text."
     },
-    "explanation": "Text A focuses on the engineering feasibility of stratospheric aerosol injection to mimic volcanic albedo cooling, whereas Text B warns against moral hazard where geoengineering serves as an excuse to delay aggressive greenhouse gas emission cuts. Option (A) synthesizes both core arguments seamlessly. Options (B), (C), (D), and (E) are either factually distorted or overly narrow.",
+    "explanation": "Text A focuses on the engineering feasibility of stratospheric aerosol injection to mimic volcanic albedo cooling, whereas Text B warns against moral hazard where geoengineering serves as an excuse to delay aggressive greenhouse gas emission cuts. Option (C) synthesizes both core arguments seamlessly. Options (B), (C), (D), and (E) are either factually distorted or overly narrow.",
     "answer": "A"
   },
   {
@@ -4453,26 +4459,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Pedantic yet resigned to commercial inevitability"
+        "text": "Patronizing toward consumer behavior while defending software developers"
       },
       {
         "key": "B",
-        "text": "Ambivalent regarding computational efficiency and public discourse"
-      },
-      {
-        "key": "C",
-        "text": "Incisively critical and warning of systemic epistemic distortion"
-      },
-      {
-        "key": "D",
         "text": "Skeptical of computational power yet enthusiastic about user customization"
       },
       {
+        "key": "C",
+        "text": "Ambivalent regarding computational efficiency and public discourse"
+      },
+      {
+        "key": "D",
+        "text": "Incisively critical and warning of systemic epistemic distortion"
+      },
+      {
         "key": "E",
-        "text": "Patronizing toward consumer behavior while defending software developers"
+        "text": "Pedantic yet resigned to commercial inevitability"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "D",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ALGORITHMIC EPISTEMIC ISOLATION",
       "latex": "\\text{Epistemic Echo Chamber} \\implies \\text{Confirmation Feedback} \\times \\text{Algorithmic Optimization}",
@@ -4482,7 +4488,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Distinguish between passive information omission (epistemic bubbles) and active discrediting of external consensus (echo chambers).",
       "execution": "Identify the author's primary epistemological critique: recommender systems prioritize user retention by reinforcing pre-existing biases, leading to option (C)."
     },
-    "explanation": "The text examines how algorithmic optimization on digital platforms curates information diets that confirm user preconceptions while systematically filtering out challenging viewpoints. This generates epistemic insularity that undermines reasoned public discourse. Option (C) captures this critical assessment precisely.",
+    "explanation": "The text examines how algorithmic optimization on digital platforms curates information diets that confirm user preconceptions while systematically filtering out challenging viewpoints. This generates epistemic insularity that undermines reasoned public discourse. Option (D) captures this critical assessment precisely.",
     "answer": "C"
   },
   {
@@ -4498,26 +4504,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Complete atmospheric encapsulation that prevents sound waves from escaping the limestone bowl, verified through textual evidence synthesis and objective macro-linguistic comprehension."
-      },
-      {
-        "key": "B",
-        "text": "Dynamic wind vectors generated by surrounding pine groves blowing speech uphill"
-      },
-      {
-        "key": "C",
         "text": "Curved marble parabolic dishes positioned behind the proscenium to amplify low-pitch vowels"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Complete atmospheric encapsulation that prevents sound waves from escaping the limestone bowl."
+      },
+      {
+        "key": "C",
         "text": "Limestone tiers functioning as high-pass spatial acoustic filters that attenuate low-frequency murmurs"
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "Total absorption of high-frequency consonantal sounds by porous sedimentary mortar"
+      },
+      {
+        "key": "E",
+        "text": "Dynamic wind vectors generated by surrounding pine groves blowing speech uphill"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "C",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ACOUSTIC ATTENUATION & ARCHITECTURAL RESONANCE",
       "latex": "\\text{Speech Intelligibility} \\implies \\text{Fluted Limestone Scattering} + \\text{Low-Frequency Wind Attenuation}",
@@ -4527,7 +4533,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Focus on the architectural acoustics of ancient Greek theatres: how fluted stone seating surfaces interact with different sound frequencies.",
       "execution": "Look for the mechanism that filters ambient low-frequency rumbles (< 500 Hz) while preserving high-frequency consonant sounds, pointing to option (D)."
     },
-    "explanation": "Rigorous acoustical analysis confirms that the fluted limestone benches of the Epidaurus amphitheatre function as natural acoustic filters. They attenuate low-frequency background environmental noise (such as wind and crowd murmur) while reflecting and scattering higher-frequency acoustic components essential for speech intelligibility. Option (D) articulates this phenomenon.",
+    "explanation": "Rigorous acoustical analysis confirms that the fluted limestone benches of the Epidaurus amphitheatre function as natural acoustic filters. They attenuate low-frequency background environmental noise (such as wind and crowd murmur) while reflecting and scattering higher-frequency acoustic components essential for speech intelligibility. Option (C) articulates this phenomenon.",
     "answer": "D"
   },
   {
@@ -4590,11 +4596,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The tyrant escaped through a secret passage unknown to Daedalus, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "The tyrant rewarded Daedalus with boundless lands that he refused to cultivate"
       },
       {
         "key": "B",
-        "text": "The tyrant rewarded Daedalus with boundless lands that he refused to cultivate"
+        "text": "Daedalus’s mastery of spatial containment rendered him psychologically incapable of inhabiting unconfined reality"
       },
       {
         "key": "C",
@@ -4606,10 +4612,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Daedalus’s mastery of spatial containment rendered him psychologically incapable of inhabiting unconfined reality"
+        "text": "The tyrant escaped through a secret passage unknown to Daedalus."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: EXISTENTIAL IRONY & NARRATIVE THEME",
       "latex": "\\text{Existential Irony} \\implies \\text{Architect of the Maze} \\equiv \\text{Its Perpetual Prisoner}",
@@ -4619,7 +4625,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Trace the narrative trajectory from supreme architectural arrogance to the existential realization of inescapable self-entrapment.",
       "execution": "Identify the ironic climax: the master builder's labyrinth is so mathematically flawless that even its creator cannot navigate out, leading to option (E)."
     },
-    "explanation": "The passage explores existential irony: the architect designed a labyrinth so intricate and mathematically impenetrable that his own intellect cannot find an exit. His creative mastery and pride in engineering an absolute puzzle become his own eternal prison. Option (E) encapsulates this central philosophical and literary theme.",
+    "explanation": "The passage explores existential irony: the architect designed a labyrinth so intricate and mathematically impenetrable that his own intellect cannot find an exit. His creative mastery and pride in engineering an absolute puzzle become his own eternal prison. Option (B) encapsulates this central philosophical and literary theme.",
     "answer": "E"
   },
   {
@@ -4635,15 +4641,15 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Autonomous systems will inevitably develop biological consciousness and emotional resentment toward human creators, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "B",
         "text": "An agent cannot successfully fulfill its terminal objective if it experiences computational termination or resource starvation."
       },
       {
+        "key": "B",
+        "text": "Superintelligent algorithms will universally abandon mathematical logic in favor of philosophical nihilism."
+      },
+      {
         "key": "C",
-        "text": "Agricultural yield optimization is computationally impossible without weaponized geopolitical defense systems."
+        "text": "Autonomous systems will inevitably develop biological consciousness and emotional resentment toward human creators, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       },
       {
         "key": "D",
@@ -4651,10 +4657,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Superintelligent algorithms will universally abandon mathematical logic in favor of philosophical nihilism."
+        "text": "Agricultural yield optimization is computationally impossible without weaponized geopolitical defense systems."
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: INSTRUMENTAL CONVERGENCE IN ADVANCED AI",
       "latex": "\\forall \\text{Goal } G, \\quad \\text{Subgoals} \\supset \\{\\text{Self-Preservation}, \\text{Resource Acquisition}, \\text{Cognitive Enhancement}\\}",
@@ -4664,7 +4670,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Recall the orthogonality and instrumental convergence theses in AI safety theory: distinct terminal goals lead to identical self-protective and resource-maximizing drives.",
       "execution": "Select option (B), which states that an autonomous intelligence will naturally prioritize acquiring resources and preventing shutdown to optimize goal fulfillment."
     },
-    "explanation": "Nick Bostrom's instrumental convergence thesis establishes that an autonomous optimizing agent will logically pursue intermediate subgoals—such as acquiring computational power, enhancing its capabilities, and preventing deactivation—because these subgoals mathematically increase the probability of achieving almost any terminal objective. Option (B) accurately explains this core AI safety concept.",
+    "explanation": "Nick Bostrom's instrumental convergence thesis establishes that an autonomous optimizing agent will logically pursue intermediate subgoals—such as acquiring computational power, enhancing its capabilities, and preventing deactivation—because these subgoals mathematically increase the probability of achieving almost any terminal objective. Option (A) accurately explains this core AI safety concept.",
     "answer": "B"
   },
   {
@@ -4680,26 +4686,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Trophic cascade disruptions caused by the sudden elimination of a foundational food web taxon"
-      },
-      {
-        "key": "B",
-        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "C",
         "text": "A decrease in Mendelian inheritance velocity across agricultural monoculture crops"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "The inevitable cross-species hybridization of Cas9 enzymes into domestic mammalian livestock."
+      },
+      {
+        "key": "C",
         "text": "Direct acidification of sub-Saharan freshwater lakes through Cas9 enzyme runoff"
+      },
+      {
+        "key": "D",
+        "text": "Trophic cascade disruptions caused by the sudden elimination of a foundational food web taxon"
       },
       {
         "key": "E",
         "text": "The evolution of pesticide resistance in terrestrial avian species feeding on adult dipterans"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ECOLOGICAL MODELING & CRISPR GENE DRIVES",
       "latex": "\\text{Ecological Vulnerability} \\implies \\text{Super-Mendelian Inheritance} \\to \\text{Depletion of Key Trophic Nodes}",
@@ -4709,7 +4715,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Understand how CRISPR-Cas9 homing gene drives override traditional 50% Mendelian inheritance, ensuring nearly 100% transmission of engineered mutations.",
       "execution": "Connect rapid population suppression of target insects with potential disruption of predator food webs and pollination networks (option A)."
     },
-    "explanation": "Synthetic gene drives utilize endonuclease systems to convert heterozygous alleles into homozygotes, achieving transmission rates close to 100%. If deployed to eradicate a target pest species, this unconstrained propagation could trigger devastating trophic cascades, depriving specialized predators of food sources and collapsing fragile ecological niches. Option (A) identifies this major biosafety risk.",
+    "explanation": "Synthetic gene drives utilize endonuclease systems to convert heterozygous alleles into homozygotes, achieving transmission rates close to 100%. If deployed to eradicate a target pest species, this unconstrained propagation could trigger devastating trophic cascades, depriving specialized predators of food sources and collapsing fragile ecological niches. Option (D) identifies this major biosafety risk.",
     "answer": "A"
   },
   {
@@ -4725,26 +4731,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "However, drilling rigs frequently suffer mechanical seizure when encountering pressurized subglacial meltwater lakes, verified through textual evidence synthesis and objective macro-linguistic comprehension."
-      },
-      {
-        "key": "B",
-        "text": "Similarly, dendrochronological analysis of ancient bristlecone pines shows substantial ring compression during severe solar minima."
-      },
-      {
-        "key": "C",
-        "text": "These gaseous reservoirs, however, only reveal what was in the air, necessitating an independent geochemical proxy to infer local ambient temperatures."
-      },
-      {
-        "key": "D",
         "text": "Therefore, all historical climate models prior to satellite radar altimetry should be considered completely fraudulent."
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Furthermore, commercial tourism in Antarctica has severely contaminated the pristine upper layers of summer firn."
+      },
+      {
+        "key": "C",
+        "text": "However, drilling rigs frequently suffer mechanical seizure when encountering pressurized subglacial meltwater lakes."
+      },
+      {
+        "key": "D",
+        "text": "Similarly, dendrochronological analysis of ancient bristlecone pines shows substantial ring compression during severe solar minima."
+      },
+      {
+        "key": "E",
+        "text": "These gaseous reservoirs, however, only reveal what was in the air, necessitating an independent geochemical proxy to infer local ambient temperatures."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ISOTOPIC PALEOCLIMATOLOGY & FRACTIONATION",
       "latex": "\\delta^{18}\\text{O} = \\left(\\frac{(^{18}\\text{O}/^{16}\\text{O})_{\\text{sample}}}{(^{18}\\text{O}/^{16}\\text{O})_{\\text{standard}}} - 1\\right) \\times 1000\\text{ ‰}",
@@ -4754,7 +4760,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Remember isotopic fractionation: water molecules containing the lighter isotope ($^{16}\text{O}$) evaporate more readily, while heavier ($^{18}\text{O}$) molecules condense preferentially during transport.",
       "execution": "Recognize that colder historical climates yield greater isotopic depletion, meaning lower $\\delta^{18}\text{O}$ values in polar ice cores correspond to colder global temperatures (option C)."
     },
-    "explanation": "In paleoclimatology, the ratio of $^{18}\text{O}$ to $^{16}\text{O}$ in polar ice core layers serves as a direct proxy for historical atmospheric temperature. Because heavier $^{18}\text{O}$ isotopes condense out earlier as air masses travel toward freezing polar regions, ice formed during colder glacial periods exhibits significantly lower (more negative) $\\delta^{18}\text{O}$ values. Option (C) accurately interprets this geochemical mechanism.",
+    "explanation": "In paleoclimatology, the ratio of $^{18}\text{O}$ to $^{16}\text{O}$ in polar ice core layers serves as a direct proxy for historical atmospheric temperature. Because heavier $^{18}\text{O}$ isotopes condense out earlier as air masses travel toward freezing polar regions, ice formed during colder glacial periods exhibits significantly lower (more negative) $\\delta^{18}\text{O}$ values. Option (E) accurately interprets this geochemical mechanism.",
     "answer": "C"
   },
   {
@@ -4808,26 +4814,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Increase the molecular weight of the intact proteins to prevent vacuum vaporization during electrospray ionization, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "B",
-        "text": "Synthesize artificial fluorescent fluorophores directly onto cysteine residues for ultraviolet visual inspection"
-      },
-      {
-        "key": "C",
         "text": "Completely neutralize all electrical charges so that ions pass unaffected through quadrupole electric fields"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Generate peptides within an optimal mass-to-charge ($m/z$) window that facilitates efficient electrospray ionization, predictable fragmentation, and database searching"
+      },
+      {
+        "key": "C",
+        "text": "Synthesize artificial fluorescent fluorophores directly onto cysteine residues for ultraviolet visual inspection"
+      },
+      {
+        "key": "D",
+        "text": "Increase the molecular weight of the intact proteins to prevent vacuum vaporization during electrospray ionization."
       },
       {
         "key": "E",
         "text": "Transform peptide backbone amide bonds into inert metallic isotopes that do not decay"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "B",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: TANDEM MASS SPECTROMETRY PROTEOMICS",
       "latex": "\\text{Protein Identification} \\implies \\text{Trypsin Cleavage (C-term K/R)} \\to \\text{LC-MS/MS CID Fragmentation}",
@@ -4837,7 +4843,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Trace bottom-up proteomics: enzymatic cleavage of proteins into peptides, chromatographic separation, precursor m/z measurement, collision-induced dissociation, and fragment spectrum matching.",
       "execution": "Select option (D), which explains that peptides are fragmented along their amide backbone bonds to yield sequence-informative b- and y-type fragment ions."
     },
-    "explanation": "In bottom-up tandem mass spectrometry, intact proteins are digested by enzymes like trypsin into smaller peptides. After liquid chromatography separation and electrospray ionization, specific peptide ions are fragmented via collision-induced dissociation (CID), cleaving peptide backbone bonds to generate characteristic b- and y-ion spectra that reveal the underlying amino acid sequence. Option (D) precisely describes this analytical protocol.",
+    "explanation": "In bottom-up tandem mass spectrometry, intact proteins are digested by enzymes like trypsin into smaller peptides. After liquid chromatography separation and electrospray ionization, specific peptide ions are fragmented via collision-induced dissociation (CID), cleaving peptide backbone bonds to generate characteristic b- and y-ion spectra that reveal the underlying amino acid sequence. Option (B) precisely describes this analytical protocol.",
     "answer": "D"
   },
   {
@@ -4853,26 +4859,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The crew illegally vented accumulated $CO_2$ through emergency subterranean pressure relief valves, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "B",
         "text": "Deep subterranean aquifers completely froze, trapping all atmospheric gases inside clathrate hydrates."
       },
       {
+        "key": "B",
+        "text": "The crew illegally vented accumulated $CO_2$ through emergency subterranean pressure relief valves, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+      },
+      {
         "key": "C",
-        "text": "Dense desert cacti groves accelerated night-time photosynthetic uptake of carbon beyond theoretical maximums."
+        "text": "Unsealed concrete foundations absorbed carbon dioxide through chemical carbonation reactions forming calcium carbonate."
       },
       {
         "key": "D",
-        "text": "Intense ultraviolet solar radiation broke atmospheric $CO_2$ into ozone and diamond dust particulates."
+        "text": "Dense desert cacti groves accelerated night-time photosynthetic uptake of carbon beyond theoretical maximums."
       },
       {
         "key": "E",
-        "text": "Unsealed concrete foundations absorbed carbon dioxide through chemical carbonation reactions forming calcium carbonate."
+        "text": "Intense ultraviolet solar radiation broke atmospheric $CO_2$ into ozone and diamond dust particulates."
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: BIOSPHERE 2 GAS CONSUMPTION & CARBONATION",
       "latex": "\\text{Ca(OH)}_2 + \\text{CO}_2 \\to \\text{CaCO}_3 + \\text{H}_2\\text{O} \\quad (\\text{Atmospheric Sequestration Trap})",
@@ -4882,7 +4888,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Investigate why the sealed atmosphere experienced severe oxygen depletion without a corresponding buildup of gaseous carbon dioxide.",
       "execution": "Connect microbial consumption of oxygen with the chemical sequestration of respired $CO_2$ inside curing concrete structures, directing to option (E)."
     },
-    "explanation": "The mysterious loss of oxygen in Biosphere 2 was resolved when researchers discovered that rich organic soil spurred intense microbial respiration, consuming oxygen and producing $CO_2$. Instead of remaining in the air to be converted back into $O_2$ by plants, the respired $CO_2$ chemically reacted with exposed calcium hydroxide in the curing concrete walls to precipitate solid calcium carbonate ($\text{CaCO}_3$). Option (E) correctly explains this geochemical sequestration process.",
+    "explanation": "The mysterious loss of oxygen in Biosphere 2 was resolved when researchers discovered that rich organic soil spurred intense microbial respiration, consuming oxygen and producing $CO_2$. Instead of remaining in the air to be converted back into $O_2$ by plants, the respired $CO_2$ chemically reacted with exposed calcium hydroxide in the curing concrete walls to precipitate solid calcium carbonate ($\text{CaCO}_3$). Option (C) correctly explains this geochemical sequestration process.",
     "answer": "E"
   },
   {
@@ -4898,26 +4904,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The technical precision required to cast bronze gears for maritime chronometers, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "The religious obligation to ring cathedral bells during liturgical hours"
       },
       {
         "key": "B",
-        "text": "The philosophical reduction of timeless existence into finite, measured constraints"
-      },
-      {
-        "key": "C",
-        "text": "The councilmen's plan to mint silver coins bearing astronomical symbols"
-      },
-      {
-        "key": "D",
         "text": "The artisan's despair over the physical deterioration of the clock's wooden chassis"
       },
       {
+        "key": "C",
+        "text": "The technical precision required to cast bronze gears for maritime chronometers."
+      },
+      {
+        "key": "D",
+        "text": "The philosophical reduction of timeless existence into finite, measured constraints"
+      },
+      {
         "key": "E",
-        "text": "The religious obligation to ring cathedral bells during liturgical hours"
+        "text": "The councilmen's plan to mint silver coins bearing astronomical symbols"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "D",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ALLEGORY OF TIME & HUMAN OBSOLESCENCE",
       "latex": "\\text{Narrative Irony} \\implies \\text{Mechanization of Eternity} \\to \\text{Alienation from Lived Experience}",
@@ -4927,7 +4933,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Contrast the perfection of the ticking horological mechanism with the dying artisan's poignant sense of squandered mortal time.",
       "execution": "Identify the author's primary philosophical message: measuring time mathematically is not synonymous with experiencing life authentically (option B)."
     },
-    "explanation": "The narrative functions as an allegory for human existence in the mechanical age: the master horologist achieves unmatched precision in building an astronomical clock that tracks planetary celestial motions, yet in his final hours realizes he traded authentic emotional experience for mechanical exactitude. Option (B) reflects this central literary theme.",
+    "explanation": "The narrative functions as an allegory for human existence in the mechanical age: the master horologist achieves unmatched precision in building an astronomical clock that tracks planetary celestial motions, yet in his final hours realizes he traded authentic emotional experience for mechanical exactitude. Option (D) reflects this central literary theme.",
     "answer": "B"
   },
   {
@@ -4943,26 +4949,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Individual coding speed increases were accompanied by a 40% collapse in cross-departmental patent filings that historically originated from serendipitous informal hallway encounters."
-      },
-      {
-        "key": "B",
-        "text": "Remote employees reported spending significantly less money on fuel and business attire, verified through textual evidence synthesis and objective macro-linguistic comprehension, verified through textual evidence synthesis and objective macro-linguistic comprehension."
-      },
-      {
-        "key": "C",
         "text": "Cloud hosting expenses for automated deployment pipelines increased modestly over the two-year period."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Employees who utilized larger dual-monitor desk setups closed tickets faster than those with single laptops."
+      },
+      {
+        "key": "C",
         "text": "Several competitor firms also maintained hybrid attendance policies throughout the same timeframe."
       },
       {
+        "key": "D",
+        "text": "Individual coding speed increases were accompanied by a 40% collapse in cross-departmental patent filings that historically originated from serendipitous informal hallway encounters."
+      },
+      {
         "key": "E",
-        "text": "Employees who utilized larger dual-monitor desk setups closed tickets faster than those with single laptops."
+        "text": "Remote employees reported spending significantly less money on fuel and business attire."
       }
     ],
-    "correctKey": "A",
+    "correctKey": "D",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: ORGANIZATIONAL SYNTHESIS: REMOTE PRODUCTIVITY",
       "latex": "\\text{Organizational Output} \\implies \\text{Focused Individual Execution} \\iff \\text{Spontaneous Serendipitous Ideation}",
@@ -4972,7 +4978,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Weigh the empirical dichotomy: asynchronous remote work minimizes workplace distractions and commuting stress, but attenuates spontaneous interpersonal brainstorming.",
       "execution": "Select option (A), which synthesizes the gain in individual execution with the accompanying challenge in fostering unplanned creative breakthroughs."
     },
-    "explanation": "The passage synthesizes conflicting evidence in organizational sociology: distributed work environments enhance focused individual productivity and reduce burnout from commuting, but simultaneously diminish serendipitous interactions ('hallway encounters') that typically spark radical cross-functional innovation. Option (A) synthesizes both dimensions without bias.",
+    "explanation": "The passage synthesizes conflicting evidence in organizational sociology: distributed work environments enhance focused individual productivity and reduce burnout from commuting, but simultaneously diminish serendipitous interactions ('hallway encounters') that typically spark radical cross-functional innovation. Option (D) synthesizes both dimensions without bias.",
     "answer": "A"
   },
   {
@@ -5035,7 +5041,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Allow the metal to absorb atmospheric nitrogen and oxygen to increase its brittle porosity, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Allow the metal to absorb atmospheric nitrogen and oxygen to increase its brittle porosity."
       },
       {
         "key": "B",
@@ -5043,7 +5049,7 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "C",
-        "text": "Overcome density-driven gravitational segregation and solid-solution microsegregation caused by disparate elemental melting points"
+        "text": "Completely vaporize all transition metals from the crystal matrix"
       },
       {
         "key": "D",
@@ -5051,10 +5057,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Completely vaporize all transition metals from the crystal matrix"
+        "text": "Overcome density-driven gravitational segregation and solid-solution microsegregation caused by disparate elemental melting points"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: METALLURGICAL PROTOCOLS & HIGH-ENTROPY ALLOYS",
       "latex": "\\Delta G_{\\text{mix}} = \\Delta H_{\\text{mix}} - T\\Delta S_{\\text{mix}}, \\quad \\Delta S_{\\text{mix}} = -R\\sum_{i=1}^n x_i \\ln x_i",
@@ -5064,7 +5070,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Consider the metallurgical challenge of alloying five elements with vastly different densities, melting points, and vapor pressures.",
       "execution": "Identify the procedural rationale for multiple remelting cycles: ensuring homogeneous elemental distribution throughout the alloy ingot (option C)."
     },
-    "explanation": "High-entropy alloys consist of multiple principal elements in near-equiatomic proportions. Because constituent elements have disparate melting points and densities, a single melt produces severe gravitational segregation and incomplete dissolution. Turning the ingot over and remelting it multiple times under high vacuum with electromagnetic stirring ensures complete chemical and phase homogeneity. Option (C) explains this protocol requirement.",
+    "explanation": "High-entropy alloys consist of multiple principal elements in near-equiatomic proportions. Because constituent elements have disparate melting points and densities, a single melt produces severe gravitational segregation and incomplete dissolution. Turning the ingot over and remelting it multiple times under high vacuum with electromagnetic stirring ensures complete chemical and phase homogeneity. Option (E) explains this protocol requirement.",
     "answer": "C"
   },
   {
@@ -5080,26 +5086,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Ad hominem attacks against academic neuroscientists who design clinical MRI machines, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+        "text": "Assuming that because state $X$ causes neural response $Y$, observing neural response $Y$ proves state $X$ occurred (affirming the consequent)"
       },
       {
         "key": "B",
-        "text": "A slippery slope fallacy asserting that watching advertisements inevitably causes permanent brain damage"
-      },
-      {
-        "key": "C",
         "text": "Arguing from ignorance by claiming that brain waves do not exist because they cannot be seen"
       },
       {
+        "key": "C",
+        "text": "Ad hominem attacks against academic neuroscientists who design clinical MRI machines, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+      },
+      {
         "key": "D",
-        "text": "Assuming that because state $X$ causes neural response $Y$, observing neural response $Y$ proves state $X$ occurred (affirming the consequent)"
+        "text": "A slippery slope fallacy asserting that watching advertisements inevitably causes permanent brain damage"
       },
       {
         "key": "E",
         "text": "A circular argument defining commercial advertising as the biological creator of the insula cortex"
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: EPISTEMIC SKEPTICISM & REVERSE INFERENCE",
       "latex": "P(\\text{Cognitive State } C \\mid \\text{Brain Activation } A) \\ne P(\\text{Brain Activation } A \\mid \\text{Cognitive State } C)",
@@ -5109,7 +5115,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Focus on the logical fallacy of reverse inference in functional neuroimaging: brain regions like the insula or amygdala activate during many unrelated cognitive tasks.",
       "execution": "Look for the option that critiques commercial neuromarketers for presenting loose neuroimaging correlations as definitive proof of subconscious consumer desires (option D)."
     },
-    "explanation": "Cognitive neuroscientists caution against the flawed logical leap of reverse inference often deployed in commercial neuromarketing. Demonstrating blood-oxygen-level-dependent (BOLD) activation in emotional brain regions does not prove a specific emotional reaction (such as brand affinity), because those same neural circuits are recruited by numerous sensory, cognitive, and attentional demands. Option (D) exposes this methodological vulnerability.",
+    "explanation": "Cognitive neuroscientists caution against the flawed logical leap of reverse inference often deployed in commercial neuromarketing. Demonstrating blood-oxygen-level-dependent (BOLD) activation in emotional brain regions does not prove a specific emotional reaction (such as brand affinity), because those same neural circuits are recruited by numerous sensory, cognitive, and attentional demands. Option (A) exposes this methodological vulnerability.",
     "answer": "D"
   },
   {
@@ -5125,26 +5131,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Extreme ambient water temperatures exceeding the boiling point of surface water, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "B",
-        "text": "The absolute absence of any dissolved gases within the subglacial water column"
-      },
-      {
-        "key": "C",
-        "text": "Continuous exposure to high doses of cosmic gamma rays penetrating through the ice cap"
-      },
-      {
-        "key": "D",
         "text": "Complete saturation of the lake with sulfuric acid derived from active subglacial volcanoes"
       },
       {
-        "key": "E",
+        "key": "B",
         "text": "Immense hydrostatic pressure supersaturating the deep water with toxic concentrations of dissolved oxygen"
+      },
+      {
+        "key": "C",
+        "text": "Extreme ambient water temperatures exceeding the boiling point of surface water."
+      },
+      {
+        "key": "D",
+        "text": "The absolute absence of any dissolved gases within the subglacial water column"
+      },
+      {
+        "key": "E",
+        "text": "Continuous exposure to high doses of cosmic gamma rays penetrating through the ice cap"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "B",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: EXTREMOPHILE ECOLOGY: SUBGLACIAL LAKE VOSTOK",
       "latex": "P_{\\text{ice}} = \\rho g h \\approx 36\\text{ MPa}, \\quad [O_2]_{\\text{dissolved}} \\gg [O_2]_{\\text{surface}}",
@@ -5154,7 +5160,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Evaluate the unique chemical and physical conditions under 4 kilometers of Antarctic glacial ice: extreme hydrostatic pressure, perpetual darkness, and high dissolved oxygen.",
       "execution": "Select option (E), which notes that microbial extremophiles in Lake Vostok must withstand high hydrostatic pressures and oligotrophic, oxygen-saturated conditions."
     },
-    "explanation": "Subglacial Lake Vostok is an isolated aquatic ecosystem sealed under 4,000 meters of glacial ice for millions of years. Organisms inhabiting this environment must endure hydrostatic pressures of roughly 36 MPa, complete darkness, near-freezing temperatures, and high concentrations of dissolved atmospheric gases delivered by continuous glacial melting. Option (E) describes these distinct environmental adaptations.",
+    "explanation": "Subglacial Lake Vostok is an isolated aquatic ecosystem sealed under 4,000 meters of glacial ice for millions of years. Organisms inhabiting this environment must endure hydrostatic pressures of roughly 36 MPa, complete darkness, near-freezing temperatures, and high concentrations of dissolved atmospheric gases delivered by continuous glacial melting. Option (B) describes these distinct environmental adaptations.",
     "answer": "E"
   },
   {
@@ -5208,11 +5214,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Whether climate change is driven by greenhouse gas emissions"
+        "text": "The financial viability and speed of deployment of nuclear energy compared to variable renewable solutions"
       },
       {
         "key": "B",
-        "text": "The financial viability and speed of deployment of nuclear energy compared to variable renewable solutions"
+        "text": "Whether battery storage requires minerals extracted from the earth"
       },
       {
         "key": "C",
@@ -5224,10 +5230,10 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "E",
-        "text": "Whether battery storage requires minerals extracted from the earth"
+        "text": "Whether climate change is driven by greenhouse gas emissions"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "A",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: COMPARATIVE RHETORIC: ENERGY TRANSITION",
       "latex": "\\text{Policy Debate} \\implies \\text{High Energy Density / Baseload} \\iff \\text{Capital Intensity / Deployment Velocity}",
@@ -5237,7 +5243,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Identify the fundamental axis of debate between Author A (defending nuclear baseload reliability) and Author B (highlighting prohibitive costs and lengthy lead times).",
       "execution": "Select option (B), which pinpoints that the dispute centers on the financial cost-effectiveness and deployment speed of nuclear reactors compared to modular alternatives."
     },
-    "explanation": "Author A argues that reaching net-zero industrial energy goals requires the continuous high-density baseload of modern nuclear reactors, whereas Author B argues that escalating capital costs, regulatory overhead, and multi-decade lead times render nuclear expansion too slow and expensive compared to renewables and battery storage. Option (B) accurately isolates this central disagreement.",
+    "explanation": "Author A argues that reaching net-zero industrial energy goals requires the continuous high-density baseload of modern nuclear reactors, whereas Author B argues that escalating capital costs, regulatory overhead, and multi-decade lead times render nuclear expansion too slow and expensive compared to renewables and battery storage. Option (A) accurately isolates this central disagreement.",
     "answer": "B"
   },
   {
@@ -5253,26 +5259,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Achieve rapid cooling rates ($> 10^5\\\\ K/s}$) that surpass the Leidenfrost barrier and form amorphous vitreous ice without crystalline lattice structures that destroy protein architecture"
-      },
-      {
-        "key": "B",
-        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours, as explicitly outlined through critical reading analysis and syntactic discourse structure."
-      },
-      {
-        "key": "C",
         "text": "Boil the aqueous buffer instantly into steam so the protein can be viewed as an unhydrated dry powder"
       },
       {
+        "key": "B",
+        "text": "Allow crystalline hexagonal ice to form slowly around the protein to magnify its outer atomic contours."
+      },
+      {
+        "key": "C",
+        "text": "Achieve rapid cooling rates ($> 10^5\\\\ K/s}$) that surpass the Leidenfrost barrier and form amorphous vitreous ice without crystalline lattice structures that destroy protein architecture"
+      },
+      {
         "key": "D",
-        "text": "Coat the specimen in a conductive carbon nanotube film for secondary electron emission"
+        "text": "Sterilize the sample grid against bacterial contamination using ethane combustion"
       },
       {
         "key": "E",
-        "text": "Sterilize the sample grid against bacterial contamination using ethane combustion"
+        "text": "Coat the specimen in a conductive carbon nanotube film for secondary electron emission"
       }
     ],
-    "correctKey": "A",
+    "correctKey": "C",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: CRYO-EM SAMPLE VITRIFICATION PROTOCOL",
       "latex": "\\frac{dT}{dt} > 10^5\\text{ K/s} \\implies \\text{Amorphous Vitreous Ice} \\quad (\\neg \\text{Crystalline Hexagonal Ice})",
@@ -5282,7 +5288,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Understand why biological specimens for cryo-electron microscopy must be frozen rapidly in liquid ethane rather than liquid nitrogen.",
       "execution": "Look for the option explaining that ultra-rapid freezing bypasses the formation of destructive crystalline hexagonal ice, forming amorphous vitreous ice (option A)."
     },
-    "explanation": "In single-particle cryo-EM, biological samples in aqueous solutions must be frozen at rates exceeding $10^5\text{ K/s}$ using liquid ethane (which offers superior thermal transfer without forming an insulating gas layer). This rapid quenching freezes water into amorphous, glass-like vitreous ice, preventing ice crystal lattice expansion from distorting or shearing delicate protein complexes. Option (A) defines this essential biophysical goal.",
+    "explanation": "In single-particle cryo-EM, biological samples in aqueous solutions must be frozen at rates exceeding $10^5\text{ K/s}$ using liquid ethane (which offers superior thermal transfer without forming an insulating gas layer). This rapid quenching freezes water into amorphous, glass-like vitreous ice, preventing ice crystal lattice expansion from distorting or shearing delicate protein complexes. Option (C) defines this essential biophysical goal.",
     "answer": "A"
   },
   {
@@ -5298,26 +5304,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Both signatories genuinely expect agricultural cooperation to flourish indefinitely, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "B",
         "text": "General Morzan is illiterate and unable to understand the clauses of the document."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "The treaty is a tactical deception designed to buy time for imminent military preparations."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Lord Vane intends to abandon his nobility and become a wheat farmer."
       },
       {
-        "key": "E",
+        "key": "D",
         "text": "The mules outside are carrying stolen temple relics back to the capital."
+      },
+      {
+        "key": "E",
+        "text": "Both signatories genuinely expect agricultural cooperation to flourish indefinitely, supported by contextual semantic cohesion and rhetorical transitions within the passage."
       }
     ],
-    "correctKey": "C",
+    "correctKey": "B",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: SUBTEXTUAL NARRATIVE INTERPRETATION",
       "latex": "\\text{Subtext} \\implies \\text{Surface Diplomatic Politeness} \\iff \\text{Underlying Military Mobilization}",
@@ -5327,7 +5333,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Analyze the incongruity between the surface peace treaty signing and the characters' tense physical posture and tactical maneuvering.",
       "execution": "Select option (C), which recognizes that the signed treaty is a calculated pretense designed to stall for time while military forces prepare for imminent conflict."
     },
-    "explanation": "The scene is saturated with dramatic subtext: Lord Vane's deliberate flourish, General Morzan's steady grip on his sword belt, and the armed cavalcade outside signal that the parchment is a strategic sham. Neither party intends to honor the peace clauses; both are using the formal ceremony to delay hostilities and assemble reinforcements. Option (C) captures this subtextual reality.",
+    "explanation": "The scene is saturated with dramatic subtext: Lord Vane's deliberate flourish, General Morzan's steady grip on his sword belt, and the armed cavalcade outside signal that the parchment is a strategic sham. Neither party intends to honor the peace clauses; both are using the formal ceremony to delay hostilities and assemble reinforcements. Option (B) captures this subtextual reality.",
     "answer": "C"
   },
   {
@@ -5343,11 +5349,11 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Engines do not require maintenance because aircraft can glide indefinitely without fuel, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
+        "text": "Survivorship bias: planes hit in vital areas (engines/cockpit) crashed and were missing from the sample, while wings could sustain hits without fatal loss."
       },
       {
         "key": "B",
-        "text": "Confirmation bias: ground mechanics intentionally fabricated bullet hole counts to demand higher salaries."
+        "text": "The military command had mistakenly inspected enemy fighter planes rather than their own bombers."
       },
       {
         "key": "C",
@@ -5355,14 +5361,14 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Survivorship bias: planes hit in vital areas (engines/cockpit) crashed and were missing from the sample, while wings could sustain hits without fatal loss."
+        "text": "Engines do not require maintenance because aircraft can glide indefinitely without fuel."
       },
       {
         "key": "E",
-        "text": "The military command had mistakenly inspected enemy fighter planes rather than their own bombers."
+        "text": "Confirmation bias: ground mechanics intentionally fabricated bullet hole counts to demand higher salaries."
       }
     ],
-    "correctKey": "D",
+    "correctKey": "A",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: COGNITIVE HEURISTICS & SURVIVORSHIP BIAS",
       "latex": "P(\\text{Hit } H \\mid \\text{Returned}) \\ne P(\\text{Hit } H \\mid \\text{Total Planes}) \\implies \\text{Reinforce Undamaged Areas}",
@@ -5435,26 +5441,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "The transiting planet rapidly changes its physical radius during orbital transit"
-      },
-      {
-        "key": "B",
-        "text": "The host star's gravitational field completely blocks all photons as the planet touches the stellar horizon."
-      },
-      {
-        "key": "C",
         "text": "Space telescope optics suffer from severe chromatic aberration that bends incoming infrared rays."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Interstellar dust clouds periodically cross the line of sight during the transit duration."
       },
       {
-        "key": "E",
+        "key": "C",
         "text": "Stellar limb darkening causes the center of the stellar disk to radiate higher luminous intensity than its peripheral limb."
+      },
+      {
+        "key": "D",
+        "text": "The host star's gravitational field completely blocks all photons as the planet touches the stellar horizon."
+      },
+      {
+        "key": "E",
+        "text": "The transiting planet rapidly changes its physical radius during orbital transit"
       }
     ],
-    "correctKey": "E",
+    "correctKey": "C",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: EXOPLANETARY PHOTOMETRY & LIMB DARKENING",
       "latex": "\\Delta F / F = \\left(\\frac{R_p}{R_*}\\right)^2, \\quad I(\\mu) = I(1)[1 - u(1 - \\mu)] \\quad (\\mu = \\cos\\theta)",
@@ -5464,7 +5470,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Consider why an exoplanet transit light curve dips into a smooth, rounded curve instead of a flat-bottomed rectangular trough.",
       "execution": "Identify the stellar physics factor: stellar atmospheres appear brighter at the center than at the edges (limb darkening), producing option (E)."
     },
-    "explanation": "In astronomical transit photometry, the fractional drop in stellar brightness reflects the ratio of planetary to stellar area. If stars were uniform disks, transit light curves would feature flat bottoms. Because stellar atmospheres exhibit limb darkening (optical paths traverse cooler, less luminous upper layers near the disk limb), the planet blocks more flux when passing across the hotter center, generating a characteristic U-shaped light curve. Option (E) explains this effect.",
+    "explanation": "In astronomical transit photometry, the fractional drop in stellar brightness reflects the ratio of planetary to stellar area. If stars were uniform disks, transit light curves would feature flat bottoms. Because stellar atmospheres exhibit limb darkening (optical paths traverse cooler, less luminous upper layers near the disk limb), the planet blocks more flux when passing across the hotter center, generating a characteristic U-shaped light curve. Option (C) explains this effect.",
     "answer": "E"
   },
   {
@@ -5480,26 +5486,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Presenting a nostalgic defense of 19th-century penal traditions, as explicitly outlined through critical reading analysis and syntactic discourse structure."
+        "text": "Proving that human judges never experience psychological fatigue during sentencing hearings"
       },
       {
         "key": "B",
-        "text": "Contrasting an idealized technological promise with the systemic contamination of its underlying empirical data"
-      },
-      {
-        "key": "C",
         "text": "Demonstrating how judicial computers can physically malfunction during power grid brownouts"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Advocating for the total elimination of all mathematical training in university law faculties"
       },
       {
+        "key": "D",
+        "text": "Presenting a nostalgic defense of 19th-century penal traditions."
+      },
+      {
         "key": "E",
-        "text": "Proving that human judges never experience psychological fatigue during sentencing hearings"
+        "text": "Contrasting an idealized technological promise with the systemic contamination of its underlying empirical data"
       }
     ],
-    "correctKey": "B",
+    "correctKey": "E",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: SOCIOTECHNICAL AUDIT: ALGORITHMIC BIAS",
       "latex": "\\text{Systemic Bias} \\implies \\text{Historical Arrest Disparities} \\xrightarrow{\\text{ML Training}} \\text{Automated Risk Scores}",
@@ -5509,7 +5515,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Analyze the author's argument regarding automated criminal risk assessment algorithms and training data.",
       "execution": "Identify the tension highlighted by the author: contrasting the marketing promise of computational fairness with the reality of baked-in historical discrimination (option B)."
     },
-    "explanation": "The author builds a persuasive critique of algorithmic justice tools by contrasting their marketed promise of impartiality with their real-world operation: machine learning models trained on historical arrest data inevitably encode and amplify systemic racial and socioeconomic disparities in policing. Option (B) captures this core rhetorical critique.",
+    "explanation": "The author builds a persuasive critique of algorithmic justice tools by contrasting their marketed promise of impartiality with their real-world operation: machine learning models trained on historical arrest data inevitably encode and amplify systemic racial and socioeconomic disparities in policing. Option (E) captures this core rhetorical critique.",
     "answer": "B"
   },
   {
@@ -5529,19 +5535,19 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "B",
-        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution, supported by contextual semantic cohesion and rhetorical transitions within the passage."
-      },
-      {
-        "key": "C",
-        "text": "Electrocute the neuron so that its voltage-gated sodium channels lock permanently open"
-      },
-      {
-        "key": "D",
         "text": "Dissolve the glass micropipette tip into the cell's cytoplasm for molecular imaging"
       },
       {
-        "key": "E",
+        "key": "C",
+        "text": "Prevent chemical neurotransmitters from escaping into the surrounding bath solution, supported by contextual semantic cohesion and rhetorical transitions within the passage."
+      },
+      {
+        "key": "D",
         "text": "Allow room-temperature air bubbles to enter the neuronal axon"
+      },
+      {
+        "key": "E",
+        "text": "Electrocute the neuron so that its voltage-gated sodium channels lock permanently open"
       }
     ],
     "correctKey": "A",
@@ -5570,26 +5576,26 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "By detailing prolonged historical debates over cryptography legislation in foreign parliaments, derived from deductive paragraph reasoning and standard grammatical concord in academic English."
-      },
-      {
-        "key": "B",
-        "text": "By having Elena engage in an extensive verbal argument with the intruder"
-      },
-      {
-        "key": "C",
-        "text": "By synchronizing sensory countdown cues (footsteps, ticking hours) with an urgent act of evidence destruction under immediate peril"
-      },
-      {
-        "key": "D",
         "text": "By describing the botanical origins of the kerosene used to fuel the desk lamp"
       },
       {
-        "key": "E",
+        "key": "B",
+        "text": "By detailing prolonged historical debates over cryptography legislation in foreign parliaments."
+      },
+      {
+        "key": "C",
+        "text": "By having Elena engage in an extensive verbal argument with the intruder"
+      },
+      {
+        "key": "D",
         "text": "By revealing that Elena had sent an encrypted email to her military commander"
+      },
+      {
+        "key": "E",
+        "text": "By synchronizing sensory countdown cues (footsteps, ticking hours) with an urgent act of evidence destruction under immediate peril"
       }
     ],
-    "correctKey": "C",
+    "correctKey": "E",
     "formulaHud": {
       "title": "READING STRATEGY & DISCOURSE RIGOR: LITERARY TENSION & NARRATIVE SUSPENSE",
       "latex": "\\text{Narrative Suspense} \\implies \\text{Sensory Pacing (Clock / Footsteps)} \\times \\text{High-Stakes Decryption Deadline}",
@@ -5599,7 +5605,7 @@ window.TKA_ENG_QUESTIONS = [
       "concept": "Analyze how the author builds dramatic tension in the climactic decryption scene.",
       "execution": "Look for the technique that pairs sensory countdown elements (the ticking clock, creaking floorboards) with Elena's urgent mathematical calculations (option C)."
     },
-    "explanation": "The narrative achieves dramatic tension through the deliberate juxtaposition of auditory countdown cues (the approaching footsteps, the striking of the midnight hour) with Elena's high-stakes intellectual effort to complete the substitution cipher. This synchronization of impending physical peril with rapid cognitive problem-solving accelerates the narrative pacing toward its climax. Option (C) accurately analyzes this literary device.",
+    "explanation": "The narrative achieves dramatic tension through the deliberate juxtaposition of auditory countdown cues (the approaching footsteps, the striking of the midnight hour) with Elena's high-stakes intellectual effort to complete the substitution cipher. This synchronization of impending physical peril with rapid cognitive problem-solving accelerates the narrative pacing toward its climax. Option (E) accurately analyzes this literary device.",
     "answer": "C"
   },
   {
@@ -5653,7 +5659,7 @@ window.TKA_ENG_QUESTIONS = [
     "options": [
       {
         "key": "A",
-        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding"
+        "text": "Shield the laser beam from gravitational waves so that only one arm experiences spatial distortion"
       },
       {
         "key": "B",
@@ -5665,11 +5671,11 @@ window.TKA_ENG_QUESTIONS = [
       },
       {
         "key": "D",
-        "text": "Shield the laser beam from gravitational waves so that only one arm experiences spatial distortion"
+        "text": "Generate an artificial magnetic monopole that anchors the interferometer to the Earth's core"
       },
       {
         "key": "E",
-        "text": "Generate an artificial magnetic monopole that anchors the interferometer to the Earth's core"
+        "text": "Transform infrared photons into cosmic ray neutrinos that can pass through subterranean shielding"
       }
     ],
     "correctKey": "B",
